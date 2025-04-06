@@ -1,0 +1,332 @@
+|j|☆dontworry07
+|j|☆dikuccv
+|t:|1743920590
+|gametype|singles
+|player|p1|dontworry07|266|1183
+|player|p2|dikuccv|1|1176
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ribombee, F|
+|poke|p1|Pecharunt|
+|poke|p1|Manaphy|
+|poke|p1|Zamazenta-*|
+|poke|p1|Gholdengo|
+|poke|p1|Lucario, M|
+|poke|p2|Iron Crown|
+|poke|p2|Iron Hands|
+|poke|p2|Great Tusk|
+|poke|p2|Glimmora, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Gyarados, F|
+|teampreview
+|
+|t:|1743920602
+|start
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|1
+|
+|t:|1743920612
+|move|p2a: Great Tusk|Headlong Rush|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|55/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Ribombee|Sticky Web|p2a: Great Tusk
+|-sidestart|p2: dikuccv|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743920617
+|move|p2a: Great Tusk|Rapid Spin|p1a: Ribombee
+|-damage|p1a: Ribombee|32/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: dikuccv|Sticky Web|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Ribombee|Psychic Noise|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|27/100
+|-start|p2a: Great Tusk|move: Heal Block
+|
+|upkeep
+|turn|3
+|
+|t:|1743920622
+|move|p2a: Great Tusk|Headlong Rush|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Ribombee
+|
+|-end|p2a: Great Tusk|move: Heal Block
+|upkeep
+|
+|t:|1743920630
+|switch|p1a: Manaphy|Manaphy|100/100
+|turn|4
+|
+|t:|1743920642
+|move|p2a: Great Tusk|Headlong Rush|p1a: Manaphy
+|-damage|p1a: Manaphy|51/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|
+|-heal|p1a: Manaphy|57/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743920650
+|move|p2a: Great Tusk|Headlong Rush|p1a: Manaphy
+|-damage|p1a: Manaphy|6/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Manaphy|Surf|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p1a: Manaphy|12/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743920667
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespe
+|turn|6
+|
+|t:|1743920673
+|move|p2a: Iron Crown|Stored Power|p1a: Manaphy
+|-damage|p1a: Manaphy|3/100
+|move|p1a: Manaphy|Shadow Ball|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|-heal|p1a: Manaphy|9/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743920690
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Manaphy|atk|1
+|turn|7
+|
+|t:|1743920697
+|move|p1a: Manaphy|Stored Power|p2a: Gyarados
+|-damage|p2a: Gyarados|64/100
+|move|p2a: Gyarados|Crunch|p1a: Manaphy
+|-damage|p1a: Manaphy|0 fnt
+|faint|p1a: Manaphy
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dikuccv)
+|
+|t:|1743920705
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|8
+|
+|t:|1743920711
+|move|p1a: Gholdengo|Thunder Wave|p2a: Gyarados
+|-status|p2a: Gyarados|par
+|move|p2a: Gyarados|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|53/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|9
+|
+|t:|1743920717
+|move|p1a: Gholdengo|Hex|p2a: Gyarados
+|-damage|p2a: Gyarados|25/100 par
+|move|p2a: Gyarados|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|4/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743920734
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|54/100
+|move|p2a: Gyarados|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|1/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743920740
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|51/100
+|move|p2a: Gyarados|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743920747
+|switch|p1a: Lucario|Lucario, M|100/100
+|turn|12
+|
+|t:|1743920766
+|move|p1a: Lucario|Extreme Speed|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|t:|1743920772
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|-item|p2a: Arcanine|Air Balloon
+|turn|13
+|
+|t:|1743920777
+|move|p1a: Lucario|Endure|p1a: Lucario
+|-singleturn|p1a: Lucario|move: Endure
+|move|p2a: Arcanine|Flare Blitz|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-activate|p1a: Lucario|move: Endure
+|-damage|p1a: Lucario|1/100
+|-enditem|p1a: Lucario|Salac Berry|[eat]
+|-boost|p1a: Lucario|spe|1|[from] item: Salac Berry
+|
+|upkeep
+|turn|14
+|
+|t:|1743920788
+|move|p1a: Lucario|Reversal|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|-enditem|p2a: Arcanine|Air Balloon
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|t:|1743920801
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|turn|15
+|
+|t:|1743920810
+|-terastallize|p2a: Glimmora|Fairy
+|move|p1a: Lucario|Reversal|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-crit|p2a: Glimmora
+|-damage|p2a: Glimmora|12/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: dontworry07|move: Toxic Spikes
+|move|p2a: Glimmora|Dazzling Gleam|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|upkeep
+|
+|t:|1743920814
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|-sideend|p1: dontworry07|move: Toxic Spikes|[of] p1a: Pecharunt
+|turn|16
+|
+|t:|1743920831
+|move|p2a: Glimmora|Meteor Beam||[still]
+|-prepare|p2a: Glimmora|Meteor Beam
+|-boost|p2a: Glimmora|spa|1
+|-enditem|p2a: Glimmora|Power Herb
+|-anim|p2a: Glimmora|Meteor Beam|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1743920837
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|17
+|
+|t:|1743920843
+|move|p1a: Zamazenta|Iron Head|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: dontworry07|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1743920850
+|switch|p2a: ZachuVGC|Iron Hands|100/100
+|turn|18
+|
+|t:|1743920858
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: ZachuVGC|Swords Dance|p2a: ZachuVGC
+|-boost|p2a: ZachuVGC|atk|2
+|-enditem|p1a: Zamazenta|Mirror Herb
+|-boost|p1a: Zamazenta|atk|2|[from] item: Mirror Herb
+|
+|upkeep
+|turn|19
+|
+|t:|1743920871
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: ZachuVGC|Swords Dance|p2a: ZachuVGC
+|-boost|p2a: ZachuVGC|atk|2
+|
+|upkeep
+|turn|20
+|
+|t:|1743920877
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: ZachuVGC|Swords Dance|p2a: ZachuVGC
+|-boost|p2a: ZachuVGC|atk|2
+|
+|upkeep
+|turn|21
+|
+|t:|1743920885
+|-terastallize|p1a: Zamazenta|Fire
+|move|p1a: Zamazenta|Body Press|p2a: ZachuVGC
+|-damage|p2a: ZachuVGC|14/100
+|move|p2a: ZachuVGC|Drain Punch|p1a: Zamazenta
+|-damage|p1a: Zamazenta|69/100
+|-heal|p2a: ZachuVGC|24/100|[from] drain|[of] p1a: Zamazenta
+|
+|-heal|p2a: ZachuVGC|30/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743920893
+|move|p1a: Zamazenta|Body Press|p2a: ZachuVGC
+|-damage|p2a: ZachuVGC|0 fnt
+|faint|p2a: ZachuVGC
+|-end|p2a: ZachuVGC|Quark Drive|[silent]
+|
+|win|dontworry07
+|raw|dontworry07's rating: 1183 &rarr; <strong>1207</strong><br />(+24 for winning)
+|raw|dikuccv's rating: 1176 &rarr; <strong>1152</strong><br />(-24 for losing)

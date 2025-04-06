@@ -1,0 +1,293 @@
+|j|☆dikuccv
+|j|☆jay258
+|t:|1743920554
+|gametype|singles
+|player|p1|dikuccv|1|1176
+|player|p2|jay258|169|1177
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Crown|
+|poke|p1|Iron Hands|
+|poke|p1|Great Tusk|
+|poke|p1|Glimmora, M|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Gyarados, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Moth|
+|poke|p2|Kingambit, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Kyurem|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jay258)
+|inactive|jay258 has 120 seconds left.
+|
+|t:|1743920592
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|turn|1
+|
+|t:|1743920615
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|move|p2a: Gliscor|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: dikuccv|move: Stealth Rock
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743920630
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|move|p2a: Gliscor|Toxic|p1a: Great Tusk
+|-status|p1a: Great Tusk|tox
+|
+|-damage|p1a: Great Tusk|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1743920640
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|move|p2a: Gliscor|Stealth Rock||[still]
+|-fail|p2a: Gliscor
+|
+|-damage|p1a: Great Tusk|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|inactive|dikuccv has 120 seconds left.
+|
+|t:|1743920677
+|move|p1a: Great Tusk|Ice Spinner|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-damage|p1a: Great Tusk|63/100 tox|[from] psn
+|upkeep
+|inactive|jay258 has 120 seconds left.
+|
+|t:|1743920702
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|5
+|inactive|jay258 has 120 seconds left.
+|inactive|dikuccv has 120 seconds left.
+|
+|t:|1743920723
+|-terastallize|p2a: Dragonite|Normal
+|move|p2a: Dragonite|Extreme Speed|p1a: Great Tusk
+|-damage|p1a: Great Tusk|48/100 tox
+|move|p1a: Great Tusk|Ice Spinner|p2a: Dragonite
+|-damage|p2a: Dragonite|68/100
+|
+|-damage|p1a: Great Tusk|24/100 tox|[from] psn
+|upkeep
+|turn|6
+|inactive|jay258 has 120 seconds left.
+|
+|t:|1743920746
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|move|p1a: Great Tusk|Rapid Spin|p2a: Iron Moth
+|-damage|p2a: Iron Moth|43/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: dikuccv|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-damage|p1a: Great Tusk|0 fnt|[from] psn
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|upkeep
+|inactive|dikuccv has 120 seconds left.
+|
+|t:|1743920759
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Iron Moth|atk|1
+|turn|7
+|inactive|jay258 has 120 seconds left.
+|
+|t:|1743920781
+|move|p2a: Iron Moth|Sludge Wave|p1a: Gyarados
+|-damage|p1a: Gyarados|59/100
+|move|p1a: Gyarados|Aqua Tail|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743920794
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|8
+|inactive|dikuccv has 120 seconds left.
+|
+|t:|1743920819
+|move|p2a: Kyurem|Freeze-Dry|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|inactive|dikuccv has 120 seconds left.
+|
+|t:|1743920826
+|switch|p1a: ZachuVGC|Iron Hands|100/100
+|turn|9
+|inactive|jay258 has 120 seconds left.
+|inactive|dikuccv has 120 seconds left.
+|inactive|jay258 has 90 seconds left.
+|
+|t:|1743920876
+|move|p2a: Kyurem|Draco Meteor|p1a: ZachuVGC
+|-damage|p1a: ZachuVGC|51/100
+|-unboost|p2a: Kyurem|spa|2
+|move|p1a: ZachuVGC|Swords Dance|p1a: ZachuVGC
+|-boost|p1a: ZachuVGC|atk|2
+|
+|-heal|p1a: ZachuVGC|57/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743920887
+|move|p2a: Kyurem|Draco Meteor|p1a: ZachuVGC
+|-damage|p1a: ZachuVGC|30/100
+|-unboost|p2a: Kyurem|spa|2
+|move|p1a: ZachuVGC|Drain Punch|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-heal|p1a: ZachuVGC|68/100|[from] drain|[of] p2a: Kyurem
+|faint|p2a: Kyurem
+|
+|-heal|p1a: ZachuVGC|74/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743920899
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|11
+|
+|t:|1743920915
+|move|p2a: Great Tusk|Headlong Rush|p1a: ZachuVGC
+|-supereffective|p1a: ZachuVGC
+|-damage|p1a: ZachuVGC|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: ZachuVGC
+|-end|p1a: ZachuVGC|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743920925
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|turn|12
+|
+|t:|1743920932
+|-terastallize|p1a: Glimmora|Fairy
+|move|p2a: Great Tusk|Headlong Rush|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: jay258|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1743920941
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespe
+|turn|13
+|inactive|jay258 has 90 seconds left.
+|
+|t:|1743920955
+|move|p1a: Iron Crown|Iron Defense|p1a: Iron Crown
+|-boost|p1a: Iron Crown|def|2
+|move|p2a: Great Tusk|Headlong Rush|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|17/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|14
+|inactive|jay258 has 90 seconds left.
+|
+|t:|1743920966
+|move|p1a: Iron Crown|Stored Power|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743920969
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|15
+|
+|t:|1743920976
+|move|p2a: Kingambit|Sucker Punch|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743920989
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100
+|-item|p1a: Arcanine|Air Balloon
+|turn|16
+|
+|t:|1743921002
+|move|p2a: Kingambit|Sucker Punch|p1a: Arcanine
+|-damage|p1a: Arcanine|31/100
+|-enditem|p1a: Arcanine|Air Balloon
+|move|p1a: Arcanine|Head Smash|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|75/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743921009
+|move|p2a: Kingambit|Sucker Punch|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|win|jay258
+|raw|dikuccv's rating: 1152 &rarr; <strong>1129</strong><br />(-23 for losing)
+|raw|jay258's rating: 1177 &rarr; <strong>1200</strong><br />(+23 for winning)
+|l|☆jay258
+|player|p2|
+|l|☆dikuccv
+|player|p1|

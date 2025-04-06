@@ -1,0 +1,239 @@
+|j|☆yangde
+|j|☆Quweuwe
+|t:|1743920669
+|gametype|singles
+|player|p1|yangde|101|1252
+|player|p2|Quweuwe|flannery|1235
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Iron Moth|
+|poke|p1|Iron Valiant|
+|poke|p1|Raging Bolt|
+|poke|p1|Kingambit, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Quaquaval, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Hawlucha, F|
+|poke|p2|Iron Treads|
+|poke|p2|Dragapult, F|
+|poke|p2|Raging Bolt|
+|teampreview
+|
+|t:|1743920688
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Quaquaval|atk|1
+|turn|1
+|
+|t:|1743920702
+|move|p1a: Landorus|Earthquake|p2a: Quaquaval
+|-damage|p2a: Quaquaval|24/100
+|move|p2a: Quaquaval|Triple Axel|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|78/100
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|33/100
+|-supereffective|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|-hitcount|p1: Landorus|3
+|
+|upkeep
+|
+|t:|1743920718
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|2
+|
+|t:|1743920731
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Quaquaval
+|-damage|p2a: Quaquaval|1/100
+|move|p2a: Quaquaval|Aqua Step|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|51/100
+|-boost|p2a: Quaquaval|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743920747
+|move|p1a: Iron Valiant|Moonblast|p2a: Quaquaval
+|-supereffective|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|upkeep
+|
+|t:|1743920756
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|4
+|
+|t:|1743920762
+|move|p2a: Rillaboom|Grassy Glide|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743920772
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|5
+|
+|t:|1743920791
+|move|p2a: Rillaboom|Grassy Glide|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|79/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Iron Moth|85/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743920801
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|6
+|
+|t:|1743920825
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|46/100
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|-unboost|p2a: Raging Bolt|spa|2
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p2a: Raging Bolt|52/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743920852
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|7
+|
+|t:|1743920865
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Hawlucha|Hawlucha, F, shiny|100/100
+|-enditem|p2a: Hawlucha|Grassy Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Grassy Seed
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|8
+|
+|t:|1743920874
+|-terastallize|p1a: Kingambit|Ghost
+|move|p2a: Hawlucha|Encore|p1a: Kingambit
+|-start|p1a: Kingambit|Encore
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1743920881
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|10
+|
+|t:|1743920897
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|0
+|
+|-end|p1a: Kingambit|Encore
+|upkeep
+|turn|11
+|
+|t:|1743920912
+|move|p2a: Hawlucha|Encore|p1a: Kingambit
+|-start|p1a: Kingambit|Encore
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|0
+|
+|upkeep
+|turn|12
+|
+|t:|1743920920
+|-end|p1a: Kingambit|fallen3|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|
+|upkeep
+|turn|13
+|
+|t:|1743920928
+|-terastallize|p2a: Hawlucha|Ground
+|move|p1a: Raging Bolt|Thunderclap|p2a: Hawlucha
+|-immune|p2a: Hawlucha
+|move|p2a: Hawlucha|Close Combat|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743920937
+|switch|p1a: Kingambit|Kingambit, M, tera:Ghost|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|14
+|
+|t:|1743920956
+|move|p2a: Hawlucha|Acrobatics|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|-message|yangde forfeited.
+|
+|win|Quweuwe
+|raw|yangde's rating: 1252 &rarr; <strong>1226</strong><br />(-26 for losing)
+|raw|Quweuwe's rating: 1235 &rarr; <strong>1261</strong><br />(+26 for winning)
+|l|☆yangde
+|player|p1|
+|l|☆Quweuwe
+|player|p2|
