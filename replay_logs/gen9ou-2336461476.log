@@ -1,0 +1,502 @@
+|j|☆pleiades_nuts79
+|j|☆zuoxi
+|t:|1743921473
+|gametype|singles
+|player|p1|pleiades_nuts79|lucas-gen4pt|1146
+|player|p2|zuoxi|policeman-gen4|1159
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Emboar, M|
+|poke|p1|Raichu, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Gliscor, F|
+|poke|p1|Blastoise, M|
+|poke|p1|Dragapult, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Walking Wake|
+|poke|p2|Chansey, F|
+|poke|p2|Charizard, F|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|t:|1743921491
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pleiades_nuts79)
+|
+|t:|1743921514
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Landorus|[miss]
+|-miss|p1a: Dragapult|p2a: Landorus
+|move|p2a: Landorus|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|33/100
+|-enditem|p1a: Dragapult|Eject Button
+|
+|t:|1743921527
+|switch|p1a: Raichu|Raichu, M|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743921531
+|move|p1a: Raichu|Fake Out|p2a: Landorus
+|-damage|p2a: Landorus|93/100
+|-damage|p1a: Raichu|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|cant|p2a: Landorus|flinch
+|
+|upkeep
+|turn|3
+|
+|t:|1743921539
+|-terastallize|p1a: Raichu|Flying
+|move|p1a: Raichu|Surf|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|45/100
+|move|p2a: Landorus|Stealth Rock|p1a: Raichu
+|-sidestart|p1: pleiades_nuts79|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1743921548
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Raichu|Trailblaze|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|97/100
+|-boost|p1a: Raichu|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743921570
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|-damage|p1a: Gliscor|88/100|[from] Stealth Rock
+|move|p2a: Torkoal|Flamethrower|p1a: Gliscor
+|-damage|p1a: Gliscor|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|t:|1743921581
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Torkoal|Flamethrower|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gliscor|48/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1743921597
+|move|p1a: Gliscor|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|47/100
+|move|p2a: Torkoal|Flamethrower|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743921607
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|turn|8
+|
+|t:|1743921615
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Blastoise|Rapid Spin|p2a: Chansey
+|-damage|p2a: Chansey|95/100
+|-boost|p1a: Blastoise|spe|1
+|-sideend|p1: pleiades_nuts79|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Blastoise
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743921634
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Chansey|Thunder Wave|p1a: Kingambit
+|-status|p1a: Kingambit|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743921643
+|switch|p2a: Landorus|Landorus-Therian, M|45/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|cant|p1a: Kingambit|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743921652
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Raichu|Raichu, M, tera:Flying|84/100
+|move|p2a: Landorus|Taunt|p1a: Raichu
+|-start|p1a: Raichu|move: Taunt
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1743921660
+|move|p1a: Raichu|Fake Out|p2a: Landorus
+|-damage|p2a: Landorus|37/100
+|-damage|p1a: Raichu|68/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|cant|p2a: Landorus|flinch
+|
+|upkeep
+|turn|13
+|
+|t:|1743921669
+|switch|p2a: Torkoal|Torkoal, M|47/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Raichu|Surf|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|18/100
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Raichu|move: Taunt
+|upkeep
+|turn|14
+|
+|t:|1743921680
+|switch|p2a: Chansey|Chansey, F|95/100
+|move|p1a: Raichu|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|85/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743921701
+|switch|p1a: Emboar|Emboar, M|100/100
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743921713
+|-terastallize|p2a: Lilligant|Fighting
+|move|p2a: Lilligant|Growth|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|2
+|-boost|p2a: Lilligant|spa|2
+|move|p1a: Emboar|Flare Blitz|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|-damage|p1a: Emboar|79/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743921724
+|switch|p2a: Landorus|Landorus-Therian, M|37/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Emboar|atk|1
+|turn|17
+|
+|t:|1743921740
+|move|p2a: Landorus|U-turn|p1a: Emboar
+|-resisted|p1a: Emboar
+|-damage|p1a: Emboar|72/100
+|
+|t:|1743921743
+|switch|p2a: Walking Wake|Walking Wake|100/100|[from] U-turn
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|move|p1a: Emboar|Head Smash|p2a: Walking Wake
+|-damage|p2a: Walking Wake|58/100
+|-damage|p1a: Emboar|55/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743921758
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Blastoise
+|-resisted|p1a: Blastoise
+|-damage|p1a: Blastoise|54/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743921776
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Chansey|Chansey, F|85/100
+|move|p1a: Blastoise|Ice Beam|p2a: Chansey
+|-damage|p2a: Chansey|77/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1743921786
+|switch|p1a: Raichu|Raichu, M, tera:Flying|68/100
+|move|p2a: Chansey|Seismic Toss|p1a: Raichu
+|-damage|p1a: Raichu|29/100
+|
+|-weather|none
+|upkeep
+|turn|21
+|
+|t:|1743921794
+|switch|p2a: Torkoal|Torkoal, M|18/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Raichu|Fake Out|p2a: Torkoal
+|-damage|p2a: Torkoal|11/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1743921804
+|switch|p2a: Chansey|Chansey, F|77/100
+|move|p1a: Raichu|Thunderbolt|p2a: Chansey
+|-damage|p2a: Chansey|68/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1743921813
+|switch|p1a: Dragapult|Dragapult, F|33/100
+|move|p2a: Chansey|Seismic Toss|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1743921823
+|move|p1a: Dragapult|Thunder Wave|p2a: Chansey|[miss]
+|-miss|p1a: Dragapult|p2a: Chansey
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1743921831
+|switch|p2a: Landorus|Landorus-Therian, M|37/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|move|p1a: Dragapult|Thunder Wave|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1743921846
+|move|p1a: Dragapult|Dragon Pulse|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743921853
+|switch|p2a: Walking Wake|Walking Wake|58/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|27
+|
+|t:|1743921864
+|switch|p1a: Blastoise|Blastoise, M|54/100
+|move|p2a: Walking Wake|Draco Meteor|p1a: Blastoise|[miss]
+|-miss|p2a: Walking Wake|p1a: Blastoise
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1743921877
+|move|p2a: Walking Wake|Draco Meteor|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Blastoise
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|upkeep
+|
+|t:|1743921891
+|switch|p1a: Dragapult|Dragapult, F|33/100
+|turn|29
+|
+|t:|1743921897
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Dragapult|Thunder Wave|p2a: Chansey
+|-status|p2a: Chansey|par
+|
+|upkeep
+|turn|30
+|
+|t:|1743921904
+|switch|p1a: Kingambit|Kingambit, M|100/100 par
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|cant|p2a: Chansey|par
+|
+|upkeep
+|turn|31
+|
+|t:|1743921911
+|-curestatus|p2a: Chansey|par|[from] ability: Natural Cure
+|switch|p2a: Torkoal|Torkoal, M|11/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|32
+|
+|t:|1743921921
+|cant|p1a: Kingambit|par
+|move|p2a: Torkoal|Flamethrower|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|27/100 par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Kingambit|33/100 par|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1743921930
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Torkoal|Stealth Rock|p1a: Kingambit
+|-sidestart|p1: pleiades_nuts79|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Kingambit|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1743921938
+|move|p1a: Kingambit|Sucker Punch|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Kingambit|46/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1743921947
+|switch|p2a: Chansey|Chansey, F|100/100
+|turn|35
+|
+|t:|1743921954
+|move|p2a: Chansey|Seismic Toss|p1a: Kingambit
+|-damage|p1a: Kingambit|21/100 par
+|move|p1a: Kingambit|Taunt|p2a: Chansey
+|-start|p2a: Chansey|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Kingambit|27/100 par|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1743921964
+|switch|p2a: Walking Wake|Walking Wake|58/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|cant|p1a: Kingambit|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Kingambit|33/100 par|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1743921973
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Kingambit|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1743921981
+|move|p2a: Chansey|Seismic Toss|p1a: Kingambit
+|-damage|p1a: Kingambit|15/100 par
+|move|p1a: Kingambit|Iron Head|p2a: Chansey
+|-damage|p2a: Chansey|22/100
+|
+|-weather|none
+|-heal|p1a: Kingambit|21/100 par|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1743921991
+|move|p2a: Chansey|Soft-Boiled|p2a: Chansey
+|-heal|p2a: Chansey|72/100
+|move|p1a: Kingambit|Iron Head|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|-heal|p1a: Kingambit|27/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1743921994
+|switch|p2a: Walking Wake|Walking Wake|58/100
+|turn|40
+|
+|t:|1743922002
+|move|p1a: Kingambit|Sucker Punch|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-heal|p1a: Kingambit|33/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1743922005
+|switch|p2a: Charizard|Charizard, F|100/100
+|turn|41
+|
+|t:|1743922012
+|move|p1a: Kingambit|Sucker Punch|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|win|pleiades_nuts79
+|raw|pleiades_nuts79's rating: 1146 &rarr; <strong>1172</strong><br />(+26 for winning)
+|raw|zuoxi's rating: 1159 &rarr; <strong>1133</strong><br />(-26 for losing)
+|l|☆zuoxi
+|player|p2|
+|l|☆pleiades_nuts79
+|player|p1|

@@ -1,0 +1,315 @@
+|j|☆GintamaXXOO
+|j|☆MegaMHX
+|t:|1743865084
+|gametype|singles
+|player|p1|GintamaXXOO|265|1483
+|player|p2|MegaMHX|sada-ai|1535
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Kyurem|
+|poke|p1|Slowking-Galar, M|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Lokix, M|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Treads|
+|poke|p2|Raging Bolt|
+|poke|p2|Enamorus, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GintamaXXOO)
+|
+|t:|1743865095
+|start
+|switch|p1a: Homelandor|Landorus-Therian, M, shiny|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-ability|p1a: Homelandor|Intimidate|boost
+|-unboost|p2a: Iron Treads|atk|1
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1743865100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Homelandor
+|-sidestart|p1: GintamaXXOO|move: Stealth Rock
+|move|p1a: Homelandor|Earth Power|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|15/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743865117
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: Homelandor|Earth Power|p2a: Enamorus
+|-immune|p2a: Enamorus
+|
+|upkeep
+|turn|3
+|
+|t:|1743865122
+|move|p2a: Enamorus|Moonblast|p1a: Homelandor
+|-damage|p1a: Homelandor|48/100
+|-unboost|p1a: Homelandor|spa|1
+|move|p1a: Homelandor|U-turn|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|93/100
+|
+|t:|1743865125
+|switch|p1a: Chillionaire|Slowking-Galar, M, shiny|100/100|[from] U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1743865130
+|switch|p2a: Lokix|Lokix, M|100/100
+|-prepare|p1a: Chillionaire|Chilly Reception|[premajor]
+|move|p1a: Chillionaire|Chilly Reception|p1a: Chillionaire
+|-weather|Snowscape
+|
+|t:|1743865137
+|switch|p1a: Kristine|Cinderace, F, shiny|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743865147
+|move|p1a: Kristine|Court Change|p1a: Kristine
+|-swapsideconditions
+|-activate|p1a: Kristine|move: Court Change
+|move|p2a: Lokix|U-turn|p1a: Kristine
+|-resisted|p1a: Kristine
+|-damage|p1a: Kristine|60/100
+|
+|t:|1743865152
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100|[from] U-turn
+|-damage|p2a: Crawdaunt|88/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743865160
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Kristine
+|-supereffective|p1a: Kristine
+|-damage|p1a: Kristine|0 fnt
+|faint|p1a: Kristine
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743865172
+|switch|p1a: Mr. Freeze|Kyurem, shiny|100/100
+|-ability|p1a: Mr. Freeze|Pressure
+|turn|7
+|
+|t:|1743865186
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-damage|p2a: Iron Moth|75/100|[from] Stealth Rock
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Mr. Freeze|Substitute|p1a: Mr. Freeze
+|-start|p1a: Mr. Freeze|Substitute
+|-damage|p1a: Mr. Freeze|75/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Mr. Freeze|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743865194
+|move|p2a: Iron Moth|Fiery Dance|p1a: Mr. Freeze
+|-end|p1a: Mr. Freeze|Substitute
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Mr. Freeze|Earth Power|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|none
+|-heal|p1a: Mr. Freeze|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743865213
+|switch|p2a: Enamorus|Enamorus, F|93/100
+|turn|9
+|
+|t:|1743865217
+|-terastallize|p1a: Mr. Freeze|Ground
+|move|p2a: Enamorus|Moonblast|p1a: Mr. Freeze
+|-damage|p1a: Mr. Freeze|42/100
+|move|p1a: Mr. Freeze|Freeze-Dry|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|-heal|p1a: Mr. Freeze|48/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743865228
+|switch|p2a: Crawdaunt|Crawdaunt, F|88/100
+|-damage|p2a: Crawdaunt|76/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743865235
+|switch|p1a: Homelandor|Landorus-Therian, M, shiny|48/100
+|-ability|p1a: Homelandor|Intimidate|boost
+|-unboost|p2a: Crawdaunt|atk|1
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Homelandor
+|-supereffective|p1a: Homelandor
+|-damage|p1a: Homelandor|15/100
+|-damage|p2a: Crawdaunt|59/100|[from] item: Rocky Helmet|[of] p1a: Homelandor
+|
+|upkeep
+|turn|11
+|
+|t:|1743865243
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Homelandor
+|-supereffective|p1a: Homelandor
+|-damage|p1a: Homelandor|0 fnt
+|-damage|p2a: Crawdaunt|43/100|[from] item: Rocky Helmet|[of] p1a: Homelandor
+|faint|p1a: Homelandor
+|
+|upkeep
+|
+|t:|1743865246
+|switch|p1a: WALL-Y|Iron Valiant|100/100
+|-enditem|p1a: WALL-Y|Booster Energy
+|-activate|p1a: WALL-Y|ability: Quark Drive|[fromitem]
+|-start|p1a: WALL-Y|quarkdrivespe
+|turn|12
+|
+|t:|1743865252
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|move|p1a: WALL-Y|Moonblast|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|42/100
+|-unboost|p2a: Raging Bolt|spa|1
+|
+|upkeep
+|turn|13
+|
+|t:|1743865259
+|move|p2a: Raging Bolt|Thunderclap|p1a: WALL-Y
+|-damage|p1a: WALL-Y|54/100
+|move|p1a: WALL-Y|Moonblast|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743865267
+|switch|p2a: Lokix|Lokix, M|100/100
+|turn|14
+|
+|t:|1743865271
+|move|p2a: Lokix|First Impression|p1a: WALL-Y
+|-resisted|p1a: WALL-Y
+|-damage|p1a: WALL-Y|30/100
+|move|p1a: WALL-Y|Moonblast|p2a: Lokix
+|-supereffective|p2a: Lokix
+|-damage|p2a: Lokix|0 fnt
+|faint|p2a: Lokix
+|
+|upkeep
+|
+|t:|1743865277
+|switch|p2a: Crawdaunt|Crawdaunt, F|43/100
+|-damage|p2a: Crawdaunt|30/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743865296
+|-end|p1a: WALL-Y|Quark Drive|[silent]
+|switch|p1a: Mr. Freeze|Kyurem, shiny, tera:Ground|48/100
+|-ability|p1a: Mr. Freeze|Pressure
+|-terastallize|p2a: Crawdaunt|Water
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Mr. Freeze
+|-supereffective|p1a: Mr. Freeze
+|-crit|p1a: Mr. Freeze
+|-damage|p1a: Mr. Freeze|0 fnt
+|faint|p1a: Mr. Freeze
+|
+|upkeep
+|
+|t:|1743865303
+|switch|p1a: Daenerys|Kingambit, F|100/100
+|-activate|p1a: Daenerys|ability: Supreme Overlord
+|-start|p1a: Daenerys|fallen3|[silent]
+|turn|16
+|
+|t:|1743865311
+|move|p1a: Daenerys|Sucker Punch|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|upkeep
+|
+|t:|1743865313
+|switch|p2a: Iron Treads|Iron Treads|15/100
+|-damage|p2a: Iron Treads|11/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743865316
+|move|p1a: Daenerys|Sucker Punch||[still]
+|-fail|p1a: Daenerys
+|move|p2a: Iron Treads|Stealth Rock|p1a: Daenerys
+|-sidestart|p1: GintamaXXOO|move: Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|t:|1743865317
+|move|p1a: Daenerys|Sucker Punch||[still]
+|-fail|p1a: Daenerys
+|move|p2a: Iron Treads|Stealth Rock||[still]
+|-fail|p2a: Iron Treads
+|
+|upkeep
+|turn|19
+|
+|t:|1743865319
+|move|p1a: Daenerys|Sucker Punch||[still]
+|-fail|p1a: Daenerys
+|move|p2a: Iron Treads|Stealth Rock||[still]
+|-fail|p2a: Iron Treads
+|
+|upkeep
+|turn|20
+|
+|t:|1743865321
+|move|p2a: Iron Treads|Earthquake|p1a: Daenerys
+|-supereffective|p1a: Daenerys
+|-damage|p1a: Daenerys|28/100
+|move|p1a: Daenerys|Kowtow Cleave|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|win|GintamaXXOO
+|raw|GintamaXXOO's rating: 1483 &rarr; <strong>1506</strong><br />(+23 for winning)
+|raw|MegaMHX's rating: 1535 &rarr; <strong>1512</strong><br />(-23 for losing)
+|l|☆GintamaXXOO
+|player|p1|
+|l|☆MegaMHX
+|player|p2|

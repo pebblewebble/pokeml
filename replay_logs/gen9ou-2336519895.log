@@ -1,0 +1,370 @@
+|j|☆Ronciowman
+|j|☆yangde
+|t:|1743932306
+|gametype|singles
+|player|p1|Ronciowman|winona|1249
+|player|p2|yangde|101|1249
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Staraptor, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Alomomola, M|
+|poke|p1|Gliscor, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Iron Crown|
+|poke|p2|Darkrai|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Valiant|
+|poke|p2|Raging Bolt|
+|poke|p2|Kingambit, M|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1743932315
+|start
+|switch|p1a: Staraptor|Staraptor, M|100/100
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|1
+|
+|t:|1743932327
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: Iron Moth|Sludge Wave|p1a: Dragonite
+|-damage|p1a: Dragonite|78/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743932340
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Dragonite|Draco Meteor|p2a: Iron Valiant
+|-immune|p2a: Iron Valiant
+|
+|upkeep
+|turn|3
+|
+|t:|1743932358
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|100/100
+|-singleturn|p1a: Dragonite|move: Roost
+|
+|upkeep
+|turn|4
+|
+|t:|1743932371
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Dragonite|Haze|p1a: Dragonite
+|-clearallboost
+|
+|upkeep
+|turn|5
+|
+|t:|1743932382
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Dragonite|Fire Blast|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|66/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743932389
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Dragonite
+|-damage|p1a: Dragonite|84/100
+|move|p1a: Dragonite|Haze|p1a: Dragonite
+|-clearallboost
+|
+|upkeep
+|turn|7
+|
+|t:|1743932395
+|move|p2a: Iron Valiant|Moonblast|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|2/100
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|52/100
+|-singleturn|p1a: Dragonite|move: Roost
+|
+|upkeep
+|turn|8
+|
+|t:|1743932402
+|move|p2a: Iron Valiant|Moonblast|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1743932415
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|turn|9
+|
+|t:|1743932439
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Alomomola|Icy Wind|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|58/100
+|-unboost|p2a: Iron Valiant|spe|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743932462
+|move|p2a: Iron Valiant|Moonblast|p1a: Alomomola
+|-damage|p1a: Alomomola|67/100
+|-unboost|p1a: Alomomola|spa|1
+|move|p1a: Alomomola|Mirror Coat|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743932479
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|11
+|
+|t:|1743932490
+|move|p2a: Darkrai|Trick|p1a: Alomomola
+|-activate|p2a: Darkrai|move: Trick|[of] p1a: Alomomola
+|-item|p1a: Alomomola|Choice Scarf|[from] move: Trick
+|-item|p2a: Darkrai|Assault Vest|[from] move: Trick
+|move|p1a: Alomomola|Flip Turn|p2a: Darkrai
+|-damage|p2a: Darkrai|79/100
+|
+|t:|1743932498
+|switch|p1a: Staraptor|Staraptor, M|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|12
+|
+|t:|1743932517
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|move|p1a: Staraptor|Brave Bird|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|73/100
+|-damage|p1a: Staraptor|89/100|[from] Recoil
+|
+|-heal|p2a: Kingambit|79/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743932544
+|switch|p1a: Alomomola|Alomomola, M|99/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Alomomola
+|-damage|p1a: Alomomola|59/100
+|
+|-heal|p2a: Kingambit|85/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743932555
+|move|p1a: Alomomola|Flip Turn|p2a: Kingambit
+|-damage|p2a: Kingambit|75/100
+|
+|t:|1743932558
+|switch|p1a: Gliscor|Gliscor, M|100/100|[from] Flip Turn
+|move|p2a: Kingambit|Iron Head|p1a: Gliscor
+|-damage|p1a: Gliscor|67/100
+|
+|-heal|p2a: Kingambit|81/100|[from] item: Leftovers
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|15
+|
+|t:|1743932569
+|move|p1a: Gliscor|Spikes|p2a: Kingambit
+|-sidestart|p2: yangde|Spikes
+|move|p2a: Kingambit|Iron Head|p1a: Gliscor
+|-damage|p1a: Gliscor|37/100 tox
+|
+|-heal|p2a: Kingambit|87/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|49/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|t:|1743932576
+|move|p1a: Gliscor|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|35/100
+|move|p2a: Kingambit|Iron Head|p1a: Gliscor
+|-damage|p1a: Gliscor|16/100 tox
+|
+|-heal|p2a: Kingambit|41/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|29/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|
+|t:|1743932584
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Kingambit|Iron Head|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p2a: Kingambit|47/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|41/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|18
+|
+|t:|1743932597
+|move|p1a: Gliscor|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|-heal|p1a: Gliscor|54/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743932605
+|switch|p2a: Darkrai|Darkrai|79/100
+|-damage|p2a: Darkrai|67/100|[from] Spikes
+|turn|19
+|
+|t:|1743932610
+|switch|p1a: Alomomola|Alomomola, M|92/100
+|move|p2a: Darkrai|Dark Pulse|p1a: Alomomola
+|-damage|p1a: Alomomola|61/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743932623
+|move|p2a: Darkrai|Dark Pulse|p1a: Alomomola
+|-damage|p1a: Alomomola|31/100
+|move|p1a: Alomomola|Flip Turn|p2a: Darkrai
+|-damage|p2a: Darkrai|46/100
+|
+|t:|1743932631
+|switch|p1a: Staraptor|Staraptor, M|89/100|[from] Flip Turn
+|
+|upkeep
+|turn|21
+|
+|t:|1743932639
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|move|p1a: Staraptor|Double-Edge|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|29/100
+|-damage|p1a: Staraptor|59/100|[from] Recoil
+|
+|upkeep
+|turn|22
+|
+|t:|1743932655
+|switch|p1a: Alomomola|Alomomola, M|65/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Alomomola
+|-damage|p1a: Alomomola|26/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743932673
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|upkeep
+|
+|t:|1743932681
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespe
+|turn|24
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ronciowman)
+|
+|t:|1743932707
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Darkrai|Darkrai|46/100
+|-damage|p2a: Darkrai|34/100|[from] Spikes
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|
+|upkeep
+|turn|25
+|
+|t:|1743932717
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Darkrai
+|-damage|p2a: Darkrai|3/100
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|-hitcount|p2: Darkrai|2
+|
+|upkeep
+|
+|t:|1743932722
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|88/100|[from] Spikes
+|turn|26
+|
+|t:|1743932731
+|-terastallize|p1a: Iron Crown|Fighting
+|move|p1a: Iron Crown|Psychic Noise|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743932738
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-damage|p2a: Iron Moth|88/100|[from] Spikes
+|turn|27
+|
+|t:|1743932743
+|-terastallize|p2a: Iron Moth|Fairy
+|move|p1a: Iron Crown|Psychic Noise|p2a: Iron Moth
+|-damage|p2a: Iron Moth|31/100
+|-start|p2a: Iron Moth|move: Heal Block
+|move|p2a: Iron Moth|Dazzling Gleam|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|51/100
+|
+|upkeep
+|turn|28
+|
+|t:|1743932755
+|move|p1a: Iron Crown|Psychic Noise|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|-message|yangde forfeited.
+|
+|win|Ronciowman
+|raw|Ronciowman's rating: 1249 &rarr; <strong>1274</strong><br />(+25 for winning)
+|raw|yangde's rating: 1249 &rarr; <strong>1224</strong><br />(-25 for losing)
+|l|☆yangde
+|player|p2|
+|l|☆Ronciowman
+|player|p1|

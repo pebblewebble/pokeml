@@ -1,0 +1,252 @@
+|j|☆archemiist
+|j|☆JDVC Tito2
+|t:|1743846349
+|gametype|singles
+|player|p1|archemiist|169|1165
+|player|p2|JDVC Tito2|hilbert|1107
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Iron Hands|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Kingambit, F|
+|poke|p2|Poliwrath, F|
+|poke|p2|Raichu, F|
+|poke|p2|Charizard, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Empoleon, M|
+|poke|p2|Scizor, F|
+|teampreview
+|
+|t:|1743846354
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|switch|p2a: Raichu|Raichu, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1743846361
+|move|p2a: Raichu|Nasty Plot|p2a: Raichu
+|-boost|p2a: Raichu|spa|2
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: archemiist|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JDVC Tito2)
+|
+|t:|1743846398
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|move|p2a: Raichu|Encore|p1a: Hatterene
+|move|p1a: Hatterene|Encore||[from] ability: Magic Bounce|[still]
+|-fail|p1a: Hatterene
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743846414
+|move|p2a: Raichu|Thunderbolt|p1a: Hatterene
+|-damage|p1a: Hatterene|59/100
+|-status|p1a: Hatterene|par
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743846425
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: Raichu|Encore||[still]
+|-fail|p2a: Raichu
+|
+|-weather|Snowscape|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1743846433
+|move|p1a: Ursaluna|Headlong Rush|p2a: Raichu
+|-supereffective|p2a: Raichu
+|-enditem|p2a: Raichu|Focus Sash
+|-damage|p2a: Raichu|1/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|move|p2a: Raichu|Focus Blast|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|21/100 brn
+|
+|-weather|none
+|-damage|p1a: Ursaluna|15/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743846451
+|move|p1a: Ursaluna|Facade|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|-damage|p1a: Ursaluna|9/100 brn|[from] brn
+|upkeep
+|
+|t:|1743846461
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|7
+|
+|t:|1743846472
+|move|p2a: Scizor|Bullet Punch|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743846490
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|turn|8
+|
+|t:|1743846499
+|move|p2a: Scizor|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|80/100
+|
+|t:|1743846501
+|switch|p2a: Empoleon|Empoleon, M|100/100|[from] U-turn
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-sideend|p1: archemiist|move: Aurora Veil
+|upkeep
+|turn|9
+|
+|t:|1743846508
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743846519
+|switch|p1a: i'm glad we're out|Iron Hands|100/100|[from] Chilly Reception
+|-enditem|p1a: i'm glad we're out|Booster Energy
+|-activate|p1a: i'm glad we're out|ability: Quark Drive|[fromitem]
+|-start|p1a: i'm glad we're out|quarkdriveatk
+|move|p2a: Empoleon|Stealth Rock|p1a: i'm glad we're out
+|-sidestart|p1: archemiist|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743846530
+|move|p1a: i'm glad we're out|Swords Dance|p1a: i'm glad we're out
+|-boost|p1a: i'm glad we're out|atk|2
+|move|p2a: Empoleon|Knock Off|p1a: i'm glad we're out
+|-resisted|p1a: i'm glad we're out
+|-damage|p1a: i'm glad we're out|96/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743846555
+|switch|p2a: Poliwrath|Poliwrath, F|100/100
+|move|p1a: i'm glad we're out|Thunder Punch|p2a: Poliwrath
+|-supereffective|p2a: Poliwrath
+|-damage|p2a: Poliwrath|0 fnt
+|faint|p2a: Poliwrath
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|inactive|JDVC Tito2 has 120 seconds left.
+|
+|t:|1743846576
+|switch|p2a: Charizard|Charizard, F|100/100
+|turn|12
+|inactive|archemiist has 120 seconds left.
+|
+|t:|1743846615
+|move|p1a: i'm glad we're out|Thunder Punch|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-crit|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|inactive|JDVC Tito2 has 120 seconds left.
+|
+|t:|1743846628
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|turn|13
+|
+|t:|1743846636
+|move|p2a: Empoleon|Ice Beam|p1a: i'm glad we're out
+|-damage|p1a: i'm glad we're out|77/100
+|move|p1a: i'm glad we're out|Thunder Punch|p2a: Empoleon
+|-supereffective|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|
+|-weather|none
+|upkeep
+|
+|t:|1743846646
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|14
+|
+|t:|1743846649
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: i'm glad we're out|Drain Punch|p2a: Scizor
+|-enditem|p2a: Scizor|Focus Sash
+|-damage|p2a: Scizor|1/100
+|-heal|p1a: i'm glad we're out|100/100|[from] drain|[of] p2a: Scizor
+|
+|upkeep
+|turn|15
+|
+|t:|1743846658
+|move|p2a: Scizor|Bullet Punch|p1a: i'm glad we're out
+|-resisted|p1a: i'm glad we're out
+|-damage|p1a: i'm glad we're out|79/100
+|move|p1a: i'm glad we're out|Drain Punch|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-heal|p1a: i'm glad we're out|79/100|[from] drain|[of] p2a: Scizor
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1743846667
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|16
+|
+|t:|1743846670
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: i'm glad we're out|Ice Punch|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|archemiist
+|raw|archemiist's rating: 1165 &rarr; <strong>1186</strong><br />(+21 for winning)
+|raw|JDVC Tito2's rating: 1107 &rarr; <strong>1086</strong><br />(-21 for losing)
+|l|☆JDVC Tito2
+|player|p2|
+|l|☆archemiist
+|player|p1|

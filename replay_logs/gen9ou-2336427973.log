@@ -1,0 +1,419 @@
+|j|☆yamiyuu
+|j|☆jazzhat
+|t:|1743916083
+|gametype|singles
+|player|p1|yamiyuu|265|1059
+|player|p2|jazzhat|lucas|1071
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ceruledge, F|
+|poke|p1|Blaziken, M|
+|poke|p1|Gengar, M|
+|poke|p1|Kommo-o, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Alomomola, M|
+|poke|p2|Umbreon, M|
+|poke|p2|Salazzle, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Amoonguss, F|
+|poke|p2|Dragonite, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jazzhat)
+|
+|t:|1743916087
+|start
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|switch|p2a: Reflector|Grimmsnarl, M|100/100
+|turn|1
+|
+|t:|1743916096
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Reflector|Reflect|p2a: Reflector
+|-sidestart|p2: jazzhat|Reflect
+|
+|upkeep
+|turn|2
+|
+|t:|1743916103
+|move|p2a: Reflector|Light Screen|p2a: Reflector
+|-sidestart|p2: jazzhat|move: Light Screen
+|move|p1a: Alomomola|Flip Turn|p2a: Reflector
+|-damage|p2a: Reflector|91/100
+|
+|t:|1743916108
+|switch|p1a: Ceruledge|Ceruledge, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|3
+|
+|t:|1743916116
+|move|p2a: Reflector|Parting Shot|p1a: Ceruledge
+|-unboost|p1a: Ceruledge|atk|1
+|-unboost|p1a: Ceruledge|spa|1
+|
+|t:|1743916120
+|switch|p2a: Stardust D|Dragonite, F|100/100|[from] Parting Shot
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|
+|upkeep
+|turn|4
+|
+|t:|1743916126
+|move|p1a: Ceruledge|Poltergeist|p2a: Stardust D
+|-activate|p2a: Stardust D|move: Poltergeist|Choice Band
+|-damage|p2a: Stardust D|81/100
+|move|p2a: Stardust D|Earthquake|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-enditem|p1a: Ceruledge|Focus Sash
+|-damage|p1a: Ceruledge|1/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|
+|upkeep
+|turn|5
+|
+|t:|1743916138
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Stardust D
+|-damage|p2a: Stardust D|68/100
+|move|p2a: Stardust D|Earthquake|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-crit|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|upkeep
+|
+|t:|1743916148
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|turn|6
+|
+|t:|1743916159
+|switch|p2a: Slizzy|Salazzle, F|100/100
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|upkeep
+|turn|7
+|
+|t:|1743916175
+|move|p2a: Slizzy|Flamethrower|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1743916180
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|turn|8
+|
+|t:|1743916186
+|move|p2a: Slizzy|Toxic|p1a: Kommo-o
+|-status|p1a: Kommo-o|tox
+|move|p1a: Kommo-o|Belly Drum|p1a: Kommo-o
+|-damage|p1a: Kommo-o|51/100 tox
+|-setboost|p1a: Kommo-o|atk|6|[from] move: Belly Drum
+|
+|-damage|p1a: Kommo-o|44/100 tox|[from] psn
+|-sideend|p2: jazzhat|Reflect
+|upkeep
+|-enditem|p1a: Kommo-o|Sitrus Berry|[eat]
+|-heal|p1a: Kommo-o|69/100 tox|[from] item: Sitrus Berry
+|turn|9
+|
+|t:|1743916197
+|move|p2a: Slizzy|Sludge Bomb|p1a: Kommo-o
+|-immune|p1a: Kommo-o|[from] ability: Bulletproof
+|move|p1a: Kommo-o|Scale Shot|p2a: Slizzy
+|-damage|p2a: Slizzy|8/100
+|-damage|p2a: Slizzy|0 fnt
+|faint|p2a: Slizzy
+|-hitcount|p2: Slizzy|2
+|-unboost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spe|1
+|
+|-damage|p1a: Kommo-o|57/100 tox|[from] psn
+|-sideend|p2: jazzhat|move: Light Screen
+|upkeep
+|
+|t:|1743916206
+|switch|p2a: BatCat|Umbreon, M|100/100
+|turn|10
+|
+|t:|1743916211
+|-terastallize|p1a: Kommo-o|Dragon
+|-terastallize|p2a: BatCat|Poison
+|move|p1a: Kommo-o|Scale Shot|p2a: BatCat|[miss]
+|-miss|p1a: Kommo-o|p2a: BatCat
+|move|p2a: BatCat|Substitute|p2a: BatCat
+|-start|p2a: BatCat|Substitute
+|-damage|p2a: BatCat|76/100
+|
+|-heal|p2a: BatCat|82/100|[from] item: Leftovers
+|-damage|p1a: Kommo-o|38/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743916222
+|move|p2a: BatCat|Protect|p2a: BatCat
+|-singleturn|p2a: BatCat|Protect
+|move|p1a: Kommo-o|Scale Shot|p2a: BatCat
+|-activate|p2a: BatCat|move: Protect
+|
+|-heal|p2a: BatCat|88/100|[from] item: Leftovers
+|-damage|p1a: Kommo-o|14/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743916231
+|move|p1a: Kommo-o|Scale Shot|p2a: BatCat
+|-end|p2a: BatCat|Substitute
+|-damage|p2a: BatCat|40/100
+|-damage|p2a: BatCat|0 fnt
+|faint|p2a: BatCat
+|-hitcount|p2: BatCat|3
+|-unboost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spe|1
+|
+|-damage|p1a: Kommo-o|0 fnt|[from] psn
+|faint|p1a: Kommo-o
+|upkeep
+|
+|t:|1743916241
+|switch|p1a: Gengar|Gengar, M|100/100
+|switch|p2a: Stardust D|Dragonite, F|68/100
+|turn|13
+|
+|t:|1743916249
+|move|p1a: Gengar|Will-O-Wisp|p2a: Stardust D
+|-status|p2a: Stardust D|brn
+|move|p2a: Stardust D|Outrage|p1a: Gengar
+|-enditem|p1a: Gengar|Focus Sash
+|-damage|p1a: Gengar|1/100
+|
+|-damage|p2a: Stardust D|62/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743916257
+|move|p1a: Gengar|Hex|p2a: Stardust D
+|-damage|p2a: Stardust D|4/100 brn
+|move|p2a: Stardust D|Outrage|p1a: Gengar|[from] lockedmove
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-damage|p2a: Stardust D|0 fnt|[from] brn
+|faint|p2a: Stardust D
+|upkeep
+|
+|t:|1743916271
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|switch|p2a: Reflector|Grimmsnarl, M|91/100
+|turn|15
+|
+|t:|1743916278
+|-singleturn|p1a: Blaziken|move: Focus Punch
+|move|p2a: Reflector|Reflect|p2a: Reflector
+|-sidestart|p2: jazzhat|Reflect
+|move|p1a: Blaziken|Focus Punch|p2a: Reflector
+|-damage|p2a: Reflector|43/100
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|16
+|
+|t:|1743916285
+|-singleturn|p1a: Blaziken|move: Focus Punch
+|move|p2a: Reflector|Parting Shot|p1a: Blaziken
+|-unboost|p1a: Blaziken|atk|1
+|-unboost|p1a: Blaziken|spa|1
+|
+|t:|1743916292
+|switch|p2a: Regeberator|Amoonguss, F|100/100|[from] Parting Shot
+|move|p1a: Blaziken|Focus Punch|p2a: Regeberator
+|-resisted|p2a: Regeberator
+|-damage|p2a: Regeberator|86/100
+|-damage|p1a: Blaziken|84/100|[from] item: Rocky Helmet|[of] p2a: Regeberator
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|17
+|
+|t:|1743916303
+|move|p1a: Blaziken|Flare Blitz|p2a: Regeberator
+|-supereffective|p2a: Regeberator
+|-damage|p2a: Regeberator|39/100
+|-damage|p1a: Blaziken|67/100|[from] item: Rocky Helmet|[of] p2a: Regeberator
+|-damage|p1a: Blaziken|45/100|[from] Recoil
+|move|p2a: Regeberator|Toxic|p1a: Blaziken
+|-status|p1a: Blaziken|tox
+|
+|-damage|p1a: Blaziken|39/100 tox|[from] psn
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|18
+|
+|t:|1743916314
+|switch|p2a: Reflector|Grimmsnarl, M|43/100
+|move|p1a: Blaziken|Flare Blitz|p2a: Reflector
+|-damage|p2a: Reflector|16/100
+|-damage|p1a: Blaziken|28/100 tox|[from] Recoil
+|
+|-damage|p1a: Blaziken|16/100 tox|[from] psn
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|19
+|
+|t:|1743916323
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Reflector|Light Screen|p2a: Reflector
+|-sidestart|p2: jazzhat|move: Light Screen
+|
+|upkeep
+|turn|20
+|
+|t:|1743916329
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Reflector|Spirit Break|p1a: Alomomola
+|-damage|p1a: Alomomola|79/100
+|-unboost|p1a: Alomomola|spa|1
+|
+|-heal|p1a: Alomomola|85/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743916336
+|move|p2a: Reflector|Parting Shot|p1a: Alomomola
+|-unboost|p1a: Alomomola|atk|1
+|-unboost|p1a: Alomomola|spa|1
+|
+|t:|1743916338
+|switch|p2a: Regeberator|Amoonguss, F|72/100|[from] Parting Shot
+|move|p1a: Alomomola|Flip Turn|p2a: Regeberator
+|-resisted|p2a: Regeberator
+|-damage|p2a: Regeberator|69/100
+|-damage|p1a: Alomomola|69/100|[from] item: Rocky Helmet|[of] p2a: Regeberator
+|
+|t:|1743916345
+|switch|p1a: Blaziken|Blaziken, M|16/100 tox|[from] Flip Turn
+|
+|-heal|p1a: Blaziken|100/100 tox|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Blaziken|95/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1743916353
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Regeberator|Sludge Bomb|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-damage|p1a: Blaziken|83/100 tox|[from] psn
+|-sideend|p2: jazzhat|Reflect
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|23
+|
+|t:|1743916362
+|move|p1a: Blaziken|Flare Blitz|p2a: Regeberator
+|-supereffective|p2a: Regeberator
+|-damage|p2a: Regeberator|0 fnt
+|-damage|p1a: Blaziken|66/100 tox|[from] item: Rocky Helmet|[of] p2a: Regeberator
+|faint|p2a: Regeberator
+|-damage|p1a: Blaziken|34/100 tox|[from] Recoil
+|
+|-damage|p1a: Blaziken|16/100 tox|[from] psn
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743916365
+|switch|p2a: Reflector|Grimmsnarl, M|16/100
+|turn|24
+|
+|t:|1743916373
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Reflector|Reflect|p2a: Reflector
+|-sidestart|p2: jazzhat|Reflect
+|
+|upkeep
+|turn|25
+|
+|t:|1743916378
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Reflector|Spirit Break|p1a: Alomomola
+|-damage|p1a: Alomomola|81/100
+|-unboost|p1a: Alomomola|spa|1
+|
+|-heal|p1a: Alomomola|88/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1743916385
+|move|p1a: Alomomola|Flip Turn|p2a: Reflector
+|-damage|p2a: Reflector|6/100
+|
+|t:|1743916388
+|switch|p1a: Blaziken|Blaziken, M|16/100 tox|[from] Flip Turn
+|move|p2a: Reflector|Spirit Break|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|-sideend|p2: jazzhat|move: Light Screen
+|upkeep
+|
+|t:|1743916396
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|turn|27
+|
+|t:|1743916414
+|move|p2a: Reflector|Parting Shot|p1a: Alomomola
+|-unboost|p1a: Alomomola|atk|1
+|-unboost|p1a: Alomomola|spa|1
+|
+|t:|1743916416
+|switch|p2a: Oh the Iron E|Corviknight, M|100/100|[from] Parting Shot
+|move|p1a: Alomomola|Flip Turn|p2a: Oh the Iron E
+|-damage|p2a: Oh the Iron E|97/100
+|
+|-heal|p2a: Oh the Iron E|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1743916429
+|move|p2a: Oh the Iron E|Iron Defense|p2a: Oh the Iron E
+|-boost|p2a: Oh the Iron E|def|2
+|move|p1a: Alomomola|Flip Turn|p2a: Oh the Iron E
+|-damage|p2a: Oh the Iron E|98/100
+|
+|-heal|p2a: Oh the Iron E|100/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|-message|yamiyuu forfeited.
+|
+|win|jazzhat
+|raw|yamiyuu's rating: 1059 &rarr; <strong>1041</strong><br />(-18 for losing)
+|raw|jazzhat's rating: 1071 &rarr; <strong>1099</strong><br />(+28 for winning)
+|l|☆yamiyuu
+|player|p1|
+|l|☆jazzhat
+|player|p2|

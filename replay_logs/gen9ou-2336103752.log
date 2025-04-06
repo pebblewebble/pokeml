@@ -1,0 +1,237 @@
+|j|☆R0B0 R3X
+|j|☆aerodynamite
+|t:|1743879174
+|gametype|singles
+|player|p1|R0B0 R3X|2|1399
+|player|p2|aerodynamite|unknown|1317
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Great Tusk|
+|poke|p1|Clodsire, F|
+|poke|p1|Overqwil, M|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Greninja-*, M|
+|poke|p2|Okidogi, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Suicune|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Lucario, M|
+|poke|p2|Houndstone, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by R0B0 R3X)
+|
+|t:|1743879185
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1743879200
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Arcanine|Head Smash|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|92/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Great Tusk|98/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743879214
+|switch|p2a: Houndstone|Houndstone, M|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: Houndstone
+|-supereffective|p2a: Houndstone
+|-damage|p2a: Houndstone|78/100
+|-enditem|p2a: Houndstone|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743879227
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Overqwil|Overqwil, M|100/100
+|move|p2a: Houndstone|Will-O-Wisp|p1a: Overqwil|[miss]
+|-miss|p2a: Houndstone|p1a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743879242
+|move|p1a: Overqwil|Crunch|p2a: Houndstone
+|-supereffective|p2a: Houndstone
+|-damage|p2a: Houndstone|41/100
+|-unboost|p2a: Houndstone|def|1
+|-damage|p1a: Overqwil|91/100|[from] item: Life Orb
+|move|p2a: Houndstone|Will-O-Wisp|p1a: Overqwil
+|-status|p1a: Overqwil|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Overqwil|85/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743879256
+|move|p2a: Houndstone|Protect|p2a: Houndstone
+|-singleturn|p2a: Houndstone|Protect
+|move|p1a: Overqwil|Crunch|p2a: Houndstone
+|-activate|p2a: Houndstone|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Overqwil|79/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743879265
+|switch|p2a: Okidogi|Okidogi, M|100/100
+|move|p1a: Overqwil|Crunch|p2a: Okidogi
+|-resisted|p2a: Okidogi
+|-damage|p2a: Okidogi|90/100
+|-unboost|p2a: Okidogi|def|1
+|-damage|p1a: Overqwil|69/100 brn|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Okidogi|96/100|[from] item: Leftovers
+|-damage|p1a: Overqwil|63/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743879283
+|move|p1a: Overqwil|Liquidation|p2a: Okidogi
+|-damage|p2a: Okidogi|62/100
+|-damage|p1a: Overqwil|53/100 brn|[from] item: Life Orb
+|move|p2a: Okidogi|Knock Off|p1a: Overqwil
+|-resisted|p1a: Overqwil
+|-damage|p1a: Overqwil|40/100 brn
+|-enditem|p1a: Overqwil|Life Orb|[from] move: Knock Off|[of] p2a: Okidogi
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Okidogi|68/100|[from] item: Leftovers
+|-damage|p1a: Overqwil|34/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743879296
+|move|p1a: Overqwil|Liquidation|p2a: Okidogi
+|-damage|p2a: Okidogi|40/100
+|-unboost|p2a: Okidogi|def|1
+|move|p2a: Okidogi|Drain Punch|p1a: Overqwil
+|-damage|p1a: Overqwil|5/100 brn
+|-heal|p2a: Okidogi|53/100|[from] drain|[of] p1a: Overqwil
+|
+|-weather|none
+|-heal|p2a: Okidogi|59/100|[from] item: Leftovers
+|-damage|p1a: Overqwil|0 fnt|[from] brn
+|faint|p1a: Overqwil
+|upkeep
+|
+|t:|1743879306
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|turn|9
+|
+|t:|1743879316
+|switch|p2a: Houndstone|Houndstone, M|41/100
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Houndstone
+|-damage|p2a: Houndstone|0 fnt
+|faint|p2a: Houndstone
+|
+|upkeep
+|
+|t:|1743879327
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|10
+|
+|t:|1743879332
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Arcanine|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: R0B0 R3X|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|t:|1743879343
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Great Tusk|Rapid Spin|p2a: Zamazenta
+|-damage|p2a: Zamazenta|93/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: R0B0 R3X|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-heal|p2a: Zamazenta|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743879356
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743879365
+|move|p2a: Zamazenta|Stone Edge|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|52/100
+|move|p1a: Pelipper|Weather Ball|p2a: Zamazenta
+|-damage|p2a: Zamazenta|60/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|66/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743879377
+|move|p2a: Zamazenta|Stone Edge|p1a: Pelipper|[miss]
+|-miss|p2a: Zamazenta|p1a: Pelipper
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|100/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|72/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743879388
+|move|p2a: Zamazenta|Body Press|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|68/100
+|move|p1a: Pelipper|Hurricane|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|7/100
+|-start|p2a: Zamazenta|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Zamazenta|13/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|-message|aerodynamite forfeited.
+|
+|win|R0B0 R3X
+|raw|R0B0 R3X's rating: 1399 &rarr; <strong>1414</strong><br />(+15 for winning)
+|raw|aerodynamite's rating: 1317 &rarr; <strong>1302</strong><br />(-15 for losing)
+|l|☆aerodynamite
+|player|p2|
+|l|☆R0B0 R3X
+|player|p1|

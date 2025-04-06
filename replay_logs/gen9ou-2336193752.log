@@ -1,0 +1,307 @@
+|j|☆EpicUmbreon29
+|j|☆OliPop > Poppi
+|t:|1743888437
+|gametype|singles
+|player|p1|EpicUmbreon29|grimsley|1608
+|player|p2|OliPop > Poppi|1|1642
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Gengar, M|
+|poke|p1|Araquanid, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Hawlucha, F|
+|poke|p1|Great Tusk|
+|poke|p2|Meowscarada, F|
+|poke|p2|Alomomola, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Ursaluna, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Primarina, F|
+|teampreview
+|
+|t:|1743888442
+|start
+|switch|p1a: Gengar|Gengar, M|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|1
+|
+|t:|1743888450
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Gengar|Mean Look|p2a: Ursaluna
+|-activate|p2a: Ursaluna|trapped
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1743888459
+|move|p1a: Gengar|Perish Song|p1a: Gengar
+|-start|p1a: Gengar|perish3|[silent]
+|-start|p2a: Ursaluna|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Ursaluna|Fire Punch|p1a: Gengar
+|-damage|p1a: Gengar|48/100
+|
+|-heal|p1a: Gengar|55/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|-start|p1a: Gengar|perish3
+|-start|p2a: Ursaluna|perish3
+|upkeep
+|turn|3
+|
+|t:|1743888470
+|move|p1a: Gengar|Pain Split|p2a: Ursaluna
+|-sethp|p2a: Ursaluna|69/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Gengar|86/100|[from] move: Pain Split
+|move|p2a: Ursaluna|Headlong Rush|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Gengar
+|
+|-damage|p2a: Ursaluna|63/100 brn|[from] brn
+|-start|p2a: Ursaluna|perish2
+|upkeep
+|
+|t:|1743888481
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|4
+|
+|t:|1743888494
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|move|p1a: Kyurem|Freeze-Dry|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|29/100
+|-status|p2a: Raging Bolt|frz
+|
+|upkeep
+|turn|5
+|
+|t:|1743888504
+|move|p1a: Kyurem|Freeze-Dry|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-crit|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743888512
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|6
+|
+|t:|1743888516
+|move|p2a: Meowscarada|Low Kick|p1a: Kyurem
+|-start|p2a: Meowscarada|typechange|Fighting|[from] ability: Protean
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|t:|1743888522
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|7
+|
+|t:|1743888528
+|move|p2a: Meowscarada|U-turn|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|t:|1743888535
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743888542
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|turn|8
+|
+|t:|1743888555
+|move|p2a: Cinderace|Gunk Shot|p1a: Araquanid
+|-start|p2a: Cinderace|typechange|Poison|[from] ability: Libero
+|-damage|p1a: Araquanid|39/100
+|move|p1a: Araquanid|Surf|p2a: Cinderace
+|-damage|p2a: Cinderace|24/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743888563
+|move|p1a: Araquanid|Endure|p1a: Araquanid
+|-singleturn|p1a: Araquanid|move: Endure
+|move|p2a: Cinderace|Gunk Shot|p1a: Araquanid|[miss]
+|-miss|p2a: Cinderace|p1a: Araquanid
+|
+|upkeep
+|turn|10
+|
+|t:|1743888570
+|move|p2a: Cinderace|Gunk Shot|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1743888573
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|turn|11
+|
+|t:|1743888580
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743888587
+|move|p1a: Great Tusk|Headlong Rush|p2a: Alomomola
+|-damage|p2a: Alomomola|55/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-damage|p1a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|move|p2a: Alomomola|Chilling Water|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|52/100
+|-unboost|p1a: Great Tusk|atk|1
+|
+|upkeep
+|turn|13
+|
+|t:|1743888597
+|move|p1a: Great Tusk|Headlong Rush|p2a: Alomomola
+|-damage|p2a: Alomomola|26/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-damage|p1a: Great Tusk|35/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|move|p2a: Alomomola|Chilling Water|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743888599
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p1a: Hawlucha|Psychic Seed
+|-boost|p1a: Hawlucha|spd|1|[from] item: Psychic Seed
+|turn|14
+|
+|t:|1743888611
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Alomomola|Flip Turn|p1a: Hawlucha
+|-damage|p1a: Hawlucha|76/100
+|
+|t:|1743888618
+|switch|p2a: Primarina|Primarina, F|100/100|[from] Flip Turn
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|15
+|
+|t:|1743888628
+|-terastallize|p1a: Hawlucha|Fire
+|-terastallize|p2a: Primarina|Steel
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Primarina|Moonblast|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|52/100
+|-unboost|p1a: Hawlucha|spa|1
+|
+|upkeep
+|turn|16
+|j| Just-JayPe
+|l| Just-JayPe
+|
+|t:|1743888642
+|move|p1a: Hawlucha|Tera Blast|p2a: Primarina|[anim] Tera Blast Fire
+|-supereffective|p2a: Primarina
+|-crit|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1743888648
+|switch|p2a: Alomomola|Alomomola, F|59/100
+|turn|17
+|
+|t:|1743888653
+|switch|p2a: Cinderace|Cinderace, M|24/100
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|
+|upkeep
+|turn|18
+|
+|t:|1743888661
+|move|p1a: Hawlucha|Close Combat|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1743888668
+|switch|p2a: Alomomola|Alomomola, F|92/100
+|turn|19
+|
+|t:|1743888673
+|switch|p2a: Ursaluna|Ursaluna, F|63/100 brn
+|move|p1a: Hawlucha|Close Combat|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1743888683
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|turn|20
+|
+|t:|1743888689
+|move|p1a: Hawlucha|Close Combat|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|-damage|p1a: Hawlucha|36/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|faint|p2a: Alomomola
+|
+|upkeep
+|-message|OliPop > Poppi forfeited.
+|
+|win|EpicUmbreon29
+|raw|EpicUmbreon29's rating: 1608 &rarr; <strong>1630</strong><br />(+22 for winning)
+|raw|OliPop &gt; Poppi's rating: 1642 &rarr; <strong>1620</strong><br />(-22 for losing)
+|l|☆OliPop > Poppi
+|player|p2|
+|l|☆EpicUmbreon29
+|player|p1|

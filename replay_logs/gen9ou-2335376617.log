@@ -1,0 +1,231 @@
+|j|☆tounix
+|j|☆SSATFAW
+|t:|1743789019
+|gametype|singles
+|player|p1|tounix|lady|1253
+|player|p2|SSATFAW|ghetsis|1322
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Darkrai|
+|poke|p1|Great Tusk|
+|poke|p1|Araquanid, F|
+|poke|p1|Gholdengo|
+|poke|p1|Iron Moth|
+|poke|p2|Inteleon, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Ting-Lu|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tounix)
+|
+|t:|1743789026
+|start
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|t:|1743789053
+|move|p2a: Dragapult|Dragon Darts|p1a: Araquanid
+|-damage|p1a: Araquanid|47/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Araquanid
+|-damage|p1a: Araquanid|2/100
+|-enditem|p1a: Araquanid|Red Card|[of] p2a: Dragapult
+|drag|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Araquanid|Sticky Web|p2a: Cinderace
+|-sidestart|p2: SSATFAW|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743789064
+|move|p2a: Cinderace|Pyro Ball|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1743789070
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|3
+|
+|t:|1743789075
+|move|p1a: Darkrai|Dark Pulse|p2a: Cinderace
+|-damage|p2a: Cinderace|36/100
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|4
+|
+|t:|1743789083
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Darkrai|Dark Pulse|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|92/100
+|
+|-heal|p2a: Ting-Lu|98/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743789110
+|move|p1a: Darkrai|Sludge Bomb|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|91/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Darkrai
+|-damage|p1a: Darkrai|54/100
+|
+|-heal|p2a: Ting-Lu|97/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743789119
+|move|p1a: Darkrai|Sludge Bomb|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|90/100
+|-status|p2a: Ting-Lu|psn
+|move|p2a: Ting-Lu|Earthquake|p1a: Darkrai
+|-crit|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|-heal|p2a: Ting-Lu|96/100 psn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|84/100 psn|[from] psn
+|upkeep
+|
+|t:|1743789130
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|move: Sticky Web
+|-unboost|p1a: Great Tusk|spe|1
+|turn|7
+|inactive|SSATFAW has 120 seconds left.
+|
+|t:|1743789168
+|-terastallize|p2a: Ting-Lu|Ghost
+|move|p1a: Great Tusk|Ice Spinner|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|70/100 psn
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: tounix|move: Stealth Rock
+|
+|-heal|p2a: Ting-Lu|76/100 psn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|64/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743789181
+|move|p1a: Great Tusk|Headlong Rush|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|32/100 psn
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Ting-Lu|Ruination|p1a: Great Tusk
+|-damage|p1a: Great Tusk|51/100
+|
+|-heal|p2a: Ting-Lu|38/100 psn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|26/100 psn|[from] psn
+|upkeep
+|turn|9
+|inactive|SSATFAW has 90 seconds left.
+|
+|t:|1743789215
+|move|p1a: Great Tusk|Headlong Rush|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|inactive|SSATFAW has 90 seconds left.
+|
+|t:|1743789226
+|switch|p2a: Cinderace|Cinderace, F|36/100
+|turn|10
+|
+|t:|1743789237
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|54/100
+|
+|upkeep
+|turn|11
+|inactive|SSATFAW has 90 seconds left.
+|
+|t:|1743789268
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-fail|p2a: Cinderace
+|move|p1a: Iron Moth|Agility|p1a: Iron Moth
+|-boost|p1a: Iron Moth|spe|2
+|
+|upkeep
+|turn|12
+|
+|t:|1743789276
+|-terastallize|p1a: Iron Moth|Fairy
+|move|p2a: Cinderace|Sucker Punch|p1a: Iron Moth
+|-start|p2a: Cinderace|typechange|Dark|[from] ability: Libero
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|24/100
+|move|p1a: Iron Moth|Sludge Wave|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1743789289
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|turn|13
+|
+|t:|1743789294
+|move|p1a: Iron Moth|Sludge Wave|p2a: Alomomola
+|-damage|p2a: Alomomola|35/100
+|move|p2a: Alomomola|Flip Turn|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|inactive|SSATFAW has 60 seconds left.
+|
+|t:|1743789326
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from] Flip Turn
+|
+|upkeep
+|
+|t:|1743789339
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-activate|p1a: Ogerpon|move: Sticky Web
+|-unboost|p1a: Ogerpon|spe|1
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|turn|14
+|inactive|SSATFAW has 60 seconds left.
+|
+|t:|1743789365
+|move|p2a: Dragapult|Dragon Darts|p1a: Ogerpon
+|-damage|p1a: Ogerpon|40/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|-message|tounix forfeited.
+|
+|win|SSATFAW
+|raw|tounix's rating: 1253 &rarr; <strong>1233</strong><br />(-20 for losing)
+|raw|SSATFAW's rating: 1322 &rarr; <strong>1338</strong><br />(+16 for winning)
+|l|☆tounix
+|player|p1|

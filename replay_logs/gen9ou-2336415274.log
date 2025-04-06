@@ -1,0 +1,330 @@
+|j|☆Zanedotmidi
+|j|☆ShowerCurt
+|t:|1743914234
+|gametype|singles
+|player|p1|Zanedotmidi|101|1164
+|player|p2|ShowerCurt|janitor|1201
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Kingambit, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Iron Moth|
+|poke|p2|Galvantula, F|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Toxtricity, M|
+|poke|p2|Chandelure, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ShowerCurt)
+|c|☆ShowerCurt|Glhf
+|c|☆Zanedotmidi|glhf!
+|
+|t:|1743914246
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Galvantula|Galvantula, F, shiny|100/100
+|turn|1
+|
+|t:|1743914251
+|move|p2a: Galvantula|Thunder Wave|p1a: Samurott
+|-status|p1a: Samurott|par
+|move|p1a: Samurott|Ceaseless Edge|p2a: Galvantula
+|-damage|p2a: Galvantula|15/100
+|-sidestart|p2: ShowerCurt|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1743914258
+|move|p2a: Galvantula|Sticky Web|p1a: Samurott
+|-sidestart|p1: Zanedotmidi|move: Sticky Web
+|move|p1a: Samurott|Ceaseless Edge|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|-sidestart|p2: ShowerCurt|Spikes
+|faint|p2a: Galvantula
+|
+|upkeep
+|
+|t:|1743914266
+|switch|p2a: Toxtricity|Toxtricity, M, shiny|100/100
+|-damage|p2a: Toxtricity|84/100|[from] Spikes
+|turn|3
+|
+|t:|1743914273
+|move|p2a: Toxtricity|Overdrive|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-enditem|p1a: Samurott|Focus Sash
+|-damage|p1a: Samurott|1/100 par
+|-enditem|p2a: Toxtricity|Throat Spray
+|-boost|p2a: Toxtricity|spa|1|[from] item: Throat Spray
+|move|p1a: Samurott|Razor Shell|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|t:|1743914277
+|switch|p2a: Ursaluna|Ursaluna, M, shiny|100/100
+|-damage|p2a: Ursaluna|84/100|[from] Spikes
+|turn|4
+|
+|t:|1743914286
+|move|p2a: Ursaluna|Trailblaze|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-boost|p2a: Ursaluna|spe|1
+|faint|p1a: Samurott
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1743914298
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-activate|p1a: Zamazenta|move: Sticky Web
+|-unboost|p1a: Zamazenta|spe|1
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|5
+|
+|t:|1743914308
+|-terastallize|p2a: Ursaluna|Ghost
+|move|p2a: Ursaluna|Swords Dance|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|2
+|move|p1a: Zamazenta|Body Press|p2a: Ursaluna
+|-immune|p2a: Ursaluna
+|
+|-damage|p2a: Ursaluna|78/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743914313
+|move|p2a: Ursaluna|Facade|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-damage|p2a: Ursaluna|71/100 brn|[from] brn
+|upkeep
+|
+|t:|1743914331
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|7
+|
+|t:|1743914334
+|move|p1a: Kingambit|Sucker Punch|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1743914338
+|switch|p2a: Goodra|Goodra-Hisui, F, shiny|100/100
+|-item|p2a: Goodra|Air Balloon
+|turn|8
+|
+|t:|1743914358
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Goodra|atk|1
+|move|p2a: Goodra|Acid Armor|p2a: Goodra
+|-boost|p2a: Goodra|def|2
+|
+|upkeep
+|turn|9
+|
+|t:|1743914368
+|move|p1a: Landorus|Taunt|p2a: Goodra
+|-start|p2a: Goodra|move: Taunt
+|cant|p2a: Goodra|move: Taunt|Acid Armor
+|
+|upkeep
+|turn|10
+|
+|t:|1743914373
+|move|p1a: Landorus|Stealth Rock|p2a: Goodra
+|-sidestart|p2: ShowerCurt|move: Stealth Rock
+|move|p2a: Goodra|Body Press|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|81/100
+|-damage|p2a: Goodra|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|upkeep
+|turn|11
+|
+|t:|1743914380
+|move|p1a: Landorus|U-turn|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|78/100
+|-enditem|p2a: Goodra|Air Balloon
+|
+|t:|1743914391
+|switch|p1a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-activate|p1a: Iron Valiant|move: Sticky Web
+|-unboost|p1a: Iron Valiant|spe|1
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespa
+|move|p2a: Goodra|Dragon Pulse|p1a: Iron Valiant
+|-immune|p1a: Iron Valiant
+|
+|-end|p2a: Goodra|move: Taunt
+|upkeep
+|turn|12
+|
+|t:|1743914406
+|move|p1a: Iron Valiant|Moonblast|p2a: Goodra
+|-damage|p2a: Goodra|43/100
+|move|p2a: Goodra|Flash Cannon|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|1/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743914413
+|move|p1a: Iron Valiant|Moonblast|p2a: Goodra
+|-damage|p2a: Goodra|10/100
+|-unboost|p2a: Goodra|spa|1
+|move|p2a: Goodra|Body Press|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743914420
+|switch|p1a: Landorus|Landorus-Therian, M|81/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Goodra|atk|1
+|turn|14
+|
+|t:|1743914431
+|move|p1a: Landorus|Earthquake|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|upkeep
+|
+|t:|1743914434
+|switch|p2a: Braviary|Braviary-Hisui, M, shiny|100/100
+|-damage|p2a: Braviary|75/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743914440
+|move|p1a: Landorus|U-turn|p2a: Braviary
+|-damage|p2a: Braviary|52/100
+|
+|t:|1743914445
+|switch|p1a: Iron Moth|Iron Moth|100/100|[from] U-turn
+|-activate|p1a: Iron Moth|move: Sticky Web
+|-unboost|p1a: Iron Moth|spe|1
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|move|p2a: Braviary|Esper Wing|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|23/100
+|-boost|p2a: Braviary|spe|1
+|
+|-heal|p2a: Braviary|58/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743914462
+|move|p2a: Braviary|Esper Wing|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|-boost|p2a: Braviary|spe|1
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p2a: Braviary|65/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743914466
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|17
+|
+|t:|1743914472
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Braviary|Calm Mind|p2a: Braviary
+|-boost|p2a: Braviary|spa|1
+|-boost|p2a: Braviary|spd|1
+|
+|-heal|p2a: Braviary|71/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743914478
+|-terastallize|p1a: Kingambit|Ghost
+|move|p2a: Braviary|Air Slash|p1a: Kingambit
+|-damage|p1a: Kingambit|54/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|-heal|p1a: Kingambit|60/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743914484
+|switch|p2a: Chandelure|Chandelure, F, shiny|100/100
+|-damage|p2a: Chandelure|84/100|[from] Spikes
+|-damage|p2a: Chandelure|59/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743914495
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Chandelure|Calm Mind|p2a: Chandelure
+|-boost|p2a: Chandelure|spa|1
+|-boost|p2a: Chandelure|spd|1
+|
+|-heal|p1a: Kingambit|66/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743914499
+|move|p1a: Kingambit|Sucker Punch|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-crit|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|-damage|p1a: Kingambit|50/100|[from] item: Rocky Helmet|[of] p2a: Chandelure
+|faint|p2a: Chandelure
+|
+|win|Zanedotmidi
+|raw|Zanedotmidi's rating: 1164 &rarr; <strong>1192</strong><br />(+28 for winning)
+|raw|ShowerCurt's rating: 1201 &rarr; <strong>1173</strong><br />(-28 for losing)
+|c|☆ShowerCurt|GG
+|c|☆Zanedotmidi|gg
+|l|☆Zanedotmidi
+|player|p1|
+|l|☆ShowerCurt
+|player|p2|

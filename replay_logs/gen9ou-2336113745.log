@@ -1,0 +1,189 @@
+|j|☆sumerand
+|j|☆sznxpo
+|t:|1743880190
+|gametype|singles
+|player|p1|sumerand|ghetsis|1125
+|player|p2|sznxpo|medium|1075
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Inteleon, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Alomomola, F|
+|poke|p1|Ting-Lu|
+|poke|p2|Blaziken, M|
+|poke|p2|Raichu-Alola, F|
+|poke|p2|Froslass, F|
+|poke|p2|Milotic, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|t:|1743880195
+|start
+|switch|p1a: Inteleon|Inteleon, F|100/100
+|switch|p2a: Froslass|Froslass, F|100/100
+|turn|1
+|
+|t:|1743880203
+|move|p1a: Inteleon|Surf|p2a: Froslass
+|-enditem|p2a: Froslass|Focus Sash
+|-damage|p2a: Froslass|1/100
+|move|p2a: Froslass|Spikes|p1a: Inteleon
+|-sidestart|p1: sumerand|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1743880214
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Raichu|Raichu-Alola, F|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743880222
+|-terastallize|p2a: Raichu|Water
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Raichu|Surf|p1a: Cinderace
+|-damage|p1a: Cinderace|34/100
+|-damage|p2a: Raichu|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1743880240
+|move|p1a: Cinderace|U-turn|p2a: Raichu
+|-damage|p2a: Raichu|42/100
+|
+|t:|1743880243
+|switch|p1a: Ting-Lu|Ting-Lu|100/100|[from] U-turn
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Raichu|Psychic|p1a: Ting-Lu
+|-immune|p1a: Ting-Lu
+|
+|upkeep
+|turn|5
+|
+|t:|1743880254
+|move|p2a: Raichu|Surf|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|58/100
+|-damage|p2a: Raichu|32/100|[from] item: Life Orb
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Raichu
+|-sidestart|p2: sznxpo|move: Stealth Rock
+|
+|-heal|p1a: Ting-Lu|64/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743880263
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Raichu|Surf|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|69/100
+|-damage|p2a: Raichu|22/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|t:|1743880278
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|switch|p1a: Cinderace|Cinderace, F|34/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743880287
+|move|p1a: Cinderace|Pyro Ball|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|17/100
+|move|p2a: Corviknight|Defog|p1a: Cinderace
+|-unboost|p1a: Cinderace|evasion|1
+|-sideend|p2: sznxpo|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: sznxpo|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|9
+|
+|t:|1743880298
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|65/100
+|
+|-status|p2a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|10
+|
+|t:|1743880307
+|move|p1a: Cinderace|U-turn|p2a: Milotic
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p2a: Milotic|38/100 brn
+|
+|t:|1743880311
+|switch|p1a: Alomomola|Alomomola, F|100/100|[from] U-turn
+|move|p2a: Milotic|Surf|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|77/100
+|
+|-damage|p2a: Milotic|32/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743880320
+|move|p2a: Milotic|Dragon Pulse|p1a: Alomomola
+|-damage|p1a: Alomomola|48/100
+|move|p1a: Alomomola|Flip Turn|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|25/100 brn
+|
+|t:|1743880329
+|switch|p1a: Inteleon|Inteleon, F|100/100|[from] Flip Turn
+|
+|-damage|p2a: Milotic|19/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743880337
+|move|p1a: Inteleon|Surf|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|upkeep
+|
+|t:|1743880341
+|switch|p2a: Raichu|Raichu-Alola, F, tera:Water|22/100
+|turn|13
+|
+|t:|1743880344
+|move|p1a: Inteleon|Surf|p2a: Raichu
+|-resisted|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|upkeep
+|-message|sznxpo forfeited.
+|
+|win|sumerand
+|raw|sumerand's rating: 1125 &rarr; <strong>1146</strong><br />(+21 for winning)
+|raw|sznxpo's rating: 1075 &rarr; <strong>1057</strong><br />(-18 for losing)
+|l|☆sznxpo
+|player|p2|

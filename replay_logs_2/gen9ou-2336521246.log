@@ -1,0 +1,340 @@
+|j|☆WBAMO!
+|j|☆shupple
+|t:|1743932550
+|gametype|singles
+|player|p1|WBAMO!|1|1385
+|player|p2|shupple|170|1321
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Treads|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Moth|
+|poke|p1|Slither Wing|
+|poke|p1|Iron Boulder|
+|poke|p1|Garchomp, F|
+|poke|p2|Bellibolt, F|
+|poke|p2|Rillaboom, M|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Cloyster, F|
+|teampreview
+|
+|t:|1743932565
+|start
+|switch|p1a: The Big Wheel|Iron Treads, shiny|100/100
+|switch|p2a: Cloyster|Cloyster, F|100/100
+|-enditem|p1a: The Big Wheel|Booster Energy
+|-activate|p1a: The Big Wheel|ability: Quark Drive|[fromitem]
+|-start|p1a: The Big Wheel|quarkdrivespe
+|turn|1
+|
+|t:|1743932574
+|move|p1a: The Big Wheel|Earthquake|p2a: Cloyster
+|-damage|p2a: Cloyster|61/100
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|
+|upkeep
+|turn|2
+|
+|t:|1743932583
+|move|p1a: The Big Wheel|Earthquake|p2a: Cloyster
+|-damage|p2a: Cloyster|5/100
+|move|p2a: Cloyster|Surf|p1a: The Big Wheel
+|-supereffective|p1a: The Big Wheel
+|-damage|p1a: The Big Wheel|0 fnt
+|faint|p1a: The Big Wheel
+|-end|p1a: The Big Wheel|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743932596
+|switch|p1a: Discombobulate|Slither Wing|100/100
+|turn|3
+|
+|t:|1743932601
+|move|p1a: Discombobulate|First Impression|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|upkeep
+|c|☆shupple|It did indeed discombobulate
+|
+|t:|1743932636
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|4
+|
+|t:|1743932641
+|move|p2a: Great Tusk|Headlong Rush|p1a: Discombobulate
+|-resisted|p1a: Discombobulate
+|-damage|p1a: Discombobulate|65/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Discombobulate|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|79/100
+|
+|t:|1743932649
+|-end|p1a: Discombobulate|Protosynthesis|[silent]
+|switch|p1a: Sharknado|Garchomp, F, shiny|100/100|[from] U-turn
+|
+|upkeep
+|turn|5
+|
+|t:|1743932660
+|-terastallize|p2a: Great Tusk|Steel
+|move|p1a: Sharknado|Scale Shot|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|71/100
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|63/100
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|55/100
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|47/100
+|-resisted|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|35/100
+|-hitcount|p2a: Great Tusk|5
+|-unboost|p1a: Sharknado|def|1
+|-boost|p1a: Sharknado|spe|1
+|move|p2a: Great Tusk|Ice Spinner|p1a: Sharknado
+|-supereffective|p1a: Sharknado
+|-damage|p1a: Sharknado|0 fnt
+|-damage|p2a: Great Tusk|23/100|[from] ability: Rough Skin|[of] p1a: Sharknado
+|faint|p1a: Sharknado
+|
+|upkeep
+|
+|t:|1743932664
+|switch|p1a: Future Lamp|Iron Moth|100/100
+|-enditem|p1a: Future Lamp|Booster Energy
+|-activate|p1a: Future Lamp|ability: Quark Drive|[fromitem]
+|-start|p1a: Future Lamp|quarkdrivespa
+|turn|6
+|
+|t:|1743932682
+|move|p1a: Future Lamp|Fiery Dance|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743932709
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|7
+|
+|t:|1743932722
+|move|p1a: Future Lamp|Substitute|p1a: Future Lamp
+|-start|p1a: Future Lamp|Substitute
+|-damage|p1a: Future Lamp|76/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|8
+|
+|t:|1743932726
+|move|p1a: Future Lamp|Fiery Dance|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-enditem|p2a: Kingambit|Focus Sash
+|-damage|p2a: Kingambit|1/100
+|move|p2a: Kingambit|Low Kick|p1a: Future Lamp
+|-resisted|p1a: Future Lamp
+|-end|p1a: Future Lamp|Substitute
+|
+|upkeep
+|turn|9
+|
+|t:|1743932736
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Future Lamp|Substitute|p1a: Future Lamp
+|-start|p1a: Future Lamp|Substitute
+|-damage|p1a: Future Lamp|51/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743932743
+|move|p2a: Kingambit|Sucker Punch|p1a: Future Lamp
+|-end|p1a: Future Lamp|Substitute
+|move|p1a: Future Lamp|Fiery Dance|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-boost|p1a: Future Lamp|spa|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|upkeep
+|
+|t:|1743932750
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|11
+|
+|t:|1743932756
+|move|p2a: Dragapult|Draco Meteor|p1a: Future Lamp
+|-damage|p1a: Future Lamp|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Future Lamp
+|-end|p1a: Future Lamp|Quark Drive|[silent]
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743932760
+|switch|p1a: Mach rock|Iron Boulder|100/100
+|-enditem|p1a: Mach rock|Booster Energy
+|-activate|p1a: Mach rock|ability: Quark Drive|[fromitem]
+|-start|p1a: Mach rock|quarkdrivespe
+|turn|12
+|
+|t:|1743932768
+|switch|p2a: Bellibolt|Bellibolt, F, shiny|100/100
+|-terastallize|p1a: Mach rock|Ice
+|move|p1a: Mach rock|Tera Blast|p2a: Bellibolt|[anim] Tera Blast Ice
+|-damage|p2a: Bellibolt|68/100
+|-start|p2a: Bellibolt|Charge|Tera Blast|[from] ability: Electromorphosis
+|
+|upkeep
+|turn|13
+|
+|t:|1743932779
+|move|p1a: Mach rock|Earthquake|p2a: Bellibolt
+|-supereffective|p2a: Bellibolt
+|-damage|p2a: Bellibolt|10/100
+|-start|p2a: Bellibolt|Charge|Earthquake|[from] ability: Electromorphosis
+|move|p2a: Bellibolt|Discharge|p1a: Mach rock
+|-damage|p1a: Mach rock|46/100
+|-status|p1a: Mach rock|par
+|-end|p2a: Bellibolt|Charge|[silent]
+|
+|upkeep
+|turn|14
+|
+|t:|1743932790
+|move|p1a: Mach rock|Earthquake|p2a: Bellibolt
+|-supereffective|p2a: Bellibolt
+|-damage|p2a: Bellibolt|0 fnt
+|faint|p2a: Bellibolt
+|
+|upkeep
+|
+|t:|1743932793
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|15
+|
+|t:|1743932804
+|move|p1a: Mach rock|Tera Blast|p2a: Rillaboom|[anim] Tera Blast Ice
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|24/100
+|move|p2a: Rillaboom|High Horsepower|p1a: Mach rock
+|-damage|p1a: Mach rock|0 fnt
+|faint|p1a: Mach rock
+|-end|p1a: Mach rock|Quark Drive|[silent]
+|-damage|p2a: Rillaboom|14/100|[from] item: Life Orb
+|
+|-heal|p2a: Rillaboom|20/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743932806
+|switch|p1a: Discombobulate|Slither Wing|65/100
+|turn|16
+|
+|t:|1743932823
+|switch|p2a: Dragapult|Dragapult, F|91/100
+|move|p1a: Discombobulate|First Impression|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|53/100
+|
+|-heal|p2a: Dragapult|59/100|[from] Grassy Terrain
+|-heal|p1a: Discombobulate|72/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1743932848
+|move|p2a: Dragapult|Flamethrower|p1a: Discombobulate
+|-supereffective|p1a: Discombobulate
+|-damage|p1a: Discombobulate|31/100
+|-damage|p2a: Dragapult|49/100|[from] item: Life Orb
+|move|p1a: Discombobulate|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|24/100
+|
+|t:|1743932850
+|-end|p1a: Discombobulate|Protosynthesis|[silent]
+|switch|p1a: Big Horny|Great Tusk|100/100|[from] U-turn
+|
+|-heal|p2a: Dragapult|30/100|[from] Grassy Terrain
+|upkeep
+|turn|18
+|
+|t:|1743932867
+|move|p2a: Dragapult|Draco Meteor|p1a: Big Horny
+|-damage|p1a: Big Horny|2/100
+|-unboost|p2a: Dragapult|spa|2
+|-damage|p2a: Dragapult|20/100|[from] item: Life Orb
+|move|p1a: Big Horny|Play Rough|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Big Horny|8/100|[from] Grassy Terrain
+|-heal|p1a: Big Horny|14/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743932874
+|switch|p2a: Rillaboom|Rillaboom, M|20/100
+|turn|19
+|
+|t:|1743932880
+|move|p2a: Rillaboom|Grassy Glide|p1a: Big Horny
+|-supereffective|p1a: Big Horny
+|-damage|p1a: Big Horny|0 fnt
+|faint|p1a: Big Horny
+|-end|p1a: Big Horny|Protosynthesis|[silent]
+|-damage|p2a: Rillaboom|10/100|[from] item: Life Orb
+|
+|-heal|p2a: Rillaboom|16/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1743932882
+|switch|p1a: Discombobulate|Slither Wing|31/100
+|turn|20
+|
+|t:|1743932886
+|move|p1a: Discombobulate|First Impression|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|win|WBAMO!
+|raw|WBAMO!'s rating: 1385 &rarr; <strong>1401</strong><br />(+16 for winning)
+|raw|shupple's rating: 1321 &rarr; <strong>1305</strong><br />(-16 for losing)
+|c|☆WBAMO!|gg
+|l|☆shupple
+|player|p2|
+|l|☆WBAMO!
+|player|p1|

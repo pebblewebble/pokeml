@@ -1,0 +1,404 @@
+|j|☆HumanDepression
+|j|☆yylz
+|t:|1743780829
+|gametype|singles
+|player|p1|HumanDepression|2|1181
+|player|p2|yylz|dawn|1192
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Espeon, M|
+|poke|p1|Araquanid, F|
+|poke|p1|Zapdos-Galar|
+|poke|p1|Weavile, M|
+|poke|p1|Alomomola, F|
+|poke|p1|Moltres|
+|poke|p2|Pelipper, F|
+|poke|p2|Barraskewda, M|
+|poke|p2|Zapdos|
+|poke|p2|Corviknight, F|
+|poke|p2|Clodsire, F|
+|poke|p2|Incineroar, F|
+|teampreview
+|
+|t:|1743780851
+|start
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yylz)
+|
+|t:|1743780860
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Araquanid|Sticky Web|p2a: Clodsire
+|-sidestart|p2: yylz|move: Sticky Web
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743780874
+|switch|p1a: Espeon|Espeon, M|100/100
+|move|p2a: Clodsire|Toxic|p1a: Espeon
+|move|p1a: Espeon|Toxic|p2a: Clodsire|[from] ability: Magic Bounce
+|-immune|p2a: Clodsire
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743780885
+|switch|p2a: Incineroar|Incineroar, F, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Espeon|atk|1
+|move|p1a: Espeon|Trick|p2a: Incineroar
+|-activate|p1a: Espeon|move: Trick|[of] p2a: Incineroar
+|-item|p2a: Incineroar|Choice Specs|[from] move: Trick
+|-item|p1a: Espeon|Heavy-Duty Boots|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743780908
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Incineroar|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|80/100
+|-enditem|p1a: Alomomola|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743780917
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Alomomola|Flip Turn|p2a: Corviknight
+|-damage|p2a: Corviknight|84/100
+|-damage|p1a: Alomomola|63/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|t:|1743780932
+|switch|p1a: Moltres|Moltres|100/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743780940
+|move|p2a: Corviknight|Defog|p1a: Moltres
+|-unboost|p1a: Moltres|evasion|1
+|-sideend|p2: yylz|Sticky Web|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Moltres|Roar|p2a: Corviknight
+|drag|p2a: Clodsire|Clodsire, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743780948
+|move|p1a: Moltres|Hurricane|p2a: Clodsire
+|-damage|p2a: Clodsire|76/100
+|move|p2a: Clodsire|Toxic|p1a: Moltres
+|-status|p1a: Moltres|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Clodsire|82/100|[from] item: Leftovers
+|-damage|p1a: Moltres|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743780962
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|move|p2a: Clodsire|Stealth Rock|p1a: Araquanid
+|-sidestart|p1: HumanDepression|move: Stealth Rock
+|
+|-weather|none
+|-heal|p2a: Clodsire|88/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743780972
+|move|p1a: Araquanid|Sticky Web|p2a: Clodsire
+|-sidestart|p2: yylz|move: Sticky Web
+|move|p2a: Clodsire|Earthquake|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|85/100
+|
+|-heal|p2a: Clodsire|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743780979
+|switch|p2a: Corviknight|Corviknight, F, shiny|84/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Araquanid|Endeavor|p2a: Corviknight
+|-damage|p2a: Corviknight|73/100
+|-damage|p1a: Araquanid|69/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|upkeep
+|turn|11
+|
+|t:|1743781008
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Araquanid|Liquidation|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|62/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743781018
+|move|p1a: Araquanid|Endure|p1a: Araquanid
+|-singleturn|p1a: Araquanid|move: Endure
+|move|p2a: Pelipper|Hurricane|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|7/100
+|-start|p1a: Araquanid|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|-enditem|p1a: Araquanid|Custap Berry|[eat]
+|-activate|p1a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1743781027
+|-activate|p1a: Araquanid|confusion
+|-damage|p1a: Araquanid|0 fnt|[from] confusion
+|faint|p1a: Araquanid
+|move|p2a: Pelipper|Hurricane|p1: Araquanid|[notarget]
+|-fail|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743781041
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|14
+|
+|t:|1743781049
+|switch|p2a: Incineroar|Incineroar, F, shiny|100/100
+|-activate|p2a: Incineroar|move: Sticky Web
+|-unboost|p2a: Incineroar|spe|1
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Weavile|atk|1
+|-terastallize|p1a: Weavile|Ice
+|move|p1a: Weavile|Triple Axel|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|97/100
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|90/100
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|80/100
+|-hitcount|p2a: Incineroar|3
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743781066
+|move|p1a: Weavile|Swords Dance|p1a: Weavile
+|-boost|p1a: Weavile|atk|2
+|move|p2a: Incineroar|Knock Off|p1a: Weavile
+|-damage|p1a: Weavile|35/100
+|-enditem|p1a: Weavile|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743781075
+|switch|p2a: Corviknight|Corviknight, F, shiny|73/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Weavile|Triple Axel|p2a: Corviknight
+|-damage|p2a: Corviknight|59/100
+|-damage|p1a: Weavile|18/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-damage|p2a: Corviknight|33/100
+|-damage|p1a: Weavile|1/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Weavile|0 fnt|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|faint|p1a: Weavile
+|-hitcount|p2: Corviknight|3
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743781097
+|switch|p1a: Alomomola|Alomomola, F|96/100
+|switch|p2a: Zapdos|Zapdos, shiny|100/100
+|-damage|p1a: Alomomola|84/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743781103
+|move|p2a: Zapdos|Thunder|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743781110
+|switch|p1a: Espeon|Espeon, M|100/100
+|turn|18
+|
+|t:|1743781118
+|move|p1a: Espeon|Psyshock|p2a: Zapdos
+|-damage|p2a: Zapdos|52/100
+|move|p2a: Zapdos|Thunder|p1a: Espeon
+|-damage|p1a: Espeon|28/100
+|-status|p1a: Espeon|par
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|t:|1743781124
+|move|p2a: Zapdos|Thunder|p1a: Espeon|[miss]
+|-miss|p2a: Zapdos|p1a: Espeon
+|move|p1a: Espeon|Psyshock|p2a: Zapdos
+|-damage|p2a: Zapdos|4/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743781127
+|move|p2a: Zapdos|Volt Switch|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|t:|1743781136
+|switch|p2a: Clodsire|Clodsire, F|94/100|[from] Volt Switch
+|-activate|p2a: Clodsire|move: Sticky Web
+|-unboost|p2a: Clodsire|spe|1
+|
+|-heal|p2a: Clodsire|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743781157
+|switch|p1a: Moltres|Moltres|94/100 tox
+|turn|21
+|
+|t:|1743781168
+|move|p1a: Moltres|Hurricane|p2a: Clodsire|[miss]
+|-miss|p1a: Moltres|p2a: Clodsire
+|move|p2a: Clodsire|Earthquake|p1a: Moltres
+|-immune|p1a: Moltres
+|
+|-damage|p1a: Moltres|88/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1743781179
+|move|p1a: Moltres|Hurricane|p2a: Clodsire|[miss]
+|-miss|p1a: Moltres|p2a: Clodsire
+|move|p2a: Clodsire|Earthquake|p1a: Moltres
+|-immune|p1a: Moltres
+|
+|-damage|p1a: Moltres|76/100 tox|[from] psn
+|upkeep
+|turn|23
+|inactive|HumanDepression has 120 seconds left.
+|
+|t:|1743781204
+|move|p1a: Moltres|Flamethrower|p2a: Clodsire
+|-damage|p2a: Clodsire|79/100
+|move|p2a: Clodsire|Toxic|p1a: Moltres
+|-fail|p1a: Moltres|tox
+|
+|-heal|p2a: Clodsire|85/100|[from] item: Leftovers
+|-damage|p1a: Moltres|58/100 tox|[from] psn
+|upkeep
+|turn|24
+|inactive|HumanDepression has 120 seconds left.
+|
+|t:|1743781218
+|move|p2a: Clodsire|Toxic|p1a: Moltres
+|-fail|p1a: Moltres|tox
+|move|p1a: Moltres|Roar|p2a: Clodsire
+|drag|p2a: Barraskewda|Barraskewda, M|100/100
+|-activate|p2a: Barraskewda|move: Sticky Web
+|-unboost|p2a: Barraskewda|spe|1
+|
+|-damage|p1a: Moltres|34/100 tox|[from] psn
+|upkeep
+|turn|25
+|inactive|HumanDepression has 120 seconds left.
+|
+|t:|1743781234
+|move|p2a: Barraskewda|Flip Turn|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|t:|1743781239
+|switch|p2a: Clodsire|Clodsire, F|85/100|[from] Flip Turn
+|-activate|p2a: Clodsire|move: Sticky Web
+|-unboost|p2a: Clodsire|spe|1
+|
+|-heal|p2a: Clodsire|91/100|[from] item: Leftovers
+|upkeep
+|inactive|HumanDepression has 120 seconds left.
+|
+|t:|1743781248
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|-damage|p1a: Zapdos|88/100|[from] Stealth Rock
+|turn|26
+|inactive|HumanDepression has 120 seconds left.
+|
+|t:|1743781258
+|move|p1a: Zapdos|Brave Bird|p2a: Clodsire
+|-damage|p2a: Clodsire|27/100
+|-damage|p1a: Zapdos|57/100|[from] Recoil
+|move|p2a: Clodsire|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|-heal|p2a: Clodsire|33/100|[from] item: Leftovers
+|-damage|p1a: Zapdos|51/100 tox|[from] psn
+|upkeep
+|turn|27
+|inactive|HumanDepression has 120 seconds left.
+|
+|t:|1743781270
+|move|p1a: Zapdos|Brave Bird|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|-damage|p1a: Zapdos|36/100 tox|[from] Recoil
+|
+|-damage|p1a: Zapdos|23/100 tox|[from] psn
+|upkeep
+|
+|t:|1743781273
+|switch|p2a: Incineroar|Incineroar, F, shiny|80/100
+|-activate|p2a: Incineroar|move: Sticky Web
+|-unboost|p2a: Incineroar|spe|1
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|-ability|p1a: Zapdos|Defiant|boost
+|-boost|p1a: Zapdos|atk|2
+|turn|28
+|
+|t:|1743781284
+|move|p1a: Zapdos|Brave Bird|p2a: Incineroar
+|-damage|p2a: Incineroar|24/100
+|-damage|p1a: Zapdos|0 fnt|[from] Recoil
+|faint|p1a: Zapdos
+|
+|win|yylz
+|raw|HumanDepression's rating: 1181 &rarr; <strong>1157</strong><br />(-24 for losing)
+|raw|yylz's rating: 1192 &rarr; <strong>1216</strong><br />(+24 for winning)

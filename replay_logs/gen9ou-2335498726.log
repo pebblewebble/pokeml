@@ -1,0 +1,234 @@
+|j|☆apoiguespm
+|j|☆Mr.diversity
+|t:|1743799959
+|gametype|singles
+|player|p1|apoiguespm|170|1736
+|player|p2|Mr.diversity|bruno|1760
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Gholdengo|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Iron Moth|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Great Tusk|
+|poke|p2|Heatran, M|
+|poke|p2|Clodsire, M|
+|poke|p2|Armarouge, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mr.diversity)
+|inactive|apoiguespm also wants the timer to be on.
+|
+|t:|1743799967
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|
+|t:|1743799978
+|move|p2a: Cinderace|U-turn|p1a: Samurott
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Samurott
+|-enditem|p1a: Samurott|Focus Sash
+|-damage|p1a: Samurott|1/100
+|
+|t:|1743799986
+|switch|p2a: Clodsire|Clodsire, M|100/100|[from] U-turn
+|move|p1a: Samurott|Hydro Pump|p2a: Clodsire
+|-immune|p2a: Clodsire|[from] ability: Water Absorb
+|
+|upkeep
+|turn|2
+|
+|t:|1743799993
+|move|p1a: Samurott|Hydro Pump|p2a: Clodsire
+|-immune|p2a: Clodsire|[from] ability: Water Absorb
+|move|p2a: Clodsire|Stealth Rock|p1a: Samurott
+|-sidestart|p1: apoiguespm|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1743799997
+|move|p1a: Samurott|Encore|p2a: Clodsire
+|-start|p2a: Clodsire|Encore
+|move|p2a: Clodsire|Stealth Rock||[still]
+|-fail|p2a: Clodsire
+|
+|upkeep
+|turn|4
+|
+|t:|1743800002
+|move|p1a: Samurott|Ice Beam|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|73/100
+|move|p2a: Clodsire|Stealth Rock||[still]
+|-fail|p2a: Clodsire
+|
+|-heal|p2a: Clodsire|79/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743800005
+|move|p1a: Samurott|Ceaseless Edge|p2a: Clodsire
+|-damage|p2a: Clodsire|39/100
+|-sidestart|p2: Mr.diversity|Spikes
+|move|p2a: Clodsire|Stealth Rock||[still]
+|-fail|p2a: Clodsire
+|
+|-heal|p2a: Clodsire|45/100|[from] item: Leftovers
+|-end|p2a: Clodsire|Encore
+|upkeep
+|turn|6
+|
+|t:|1743800011
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|88/100|[from] Spikes
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Samurott|Hydro Pump|p2a: Great Tusk|[miss]
+|-miss|p1a: Samurott|p2a: Great Tusk
+|
+|upkeep
+|turn|7
+|
+|t:|1743800013
+|move|p2a: Great Tusk|Ice Spinner|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1743800018
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|turn|8
+|
+|t:|1743800028
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|-damage|p1a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: Great Tusk|Rapid Spin|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|75/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Mr.diversity|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|9
+|
+|t:|1743800031
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Clodsire|Clodsire, M|45/100
+|move|p1a: Iron Valiant|Knock Off|p2a: Clodsire
+|-damage|p2a: Clodsire|12/100
+|-enditem|p2a: Clodsire|Leftovers|[from] move: Knock Off|[of] p1a: Iron Valiant
+|
+|upkeep
+|turn|10
+|
+|t:|1743800035
+|move|p1a: Iron Valiant|Knock Off|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|upkeep
+|
+|t:|1743800037
+|switch|p2a: Armarouge|Armarouge, M|100/100
+|turn|11
+|
+|t:|1743800039
+|move|p1a: Iron Valiant|Knock Off|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|43/100
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|-enditem|p2a: Armarouge|Weakness Policy
+|-boost|p2a: Armarouge|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Armarouge|spa|2|[from] item: Weakness Policy
+|move|p2a: Armarouge|Armor Cannon|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743800044
+|switch|p1a: Kingambit|Kingambit, F, shiny|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|12
+|
+|t:|1743800046
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Armarouge|Psychic Terrain|p2a: Armarouge
+|-fieldstart|move: Psychic Terrain
+|
+|-heal|p1a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743800053
+|-terastallize|p1a: Kingambit|Ghost
+|move|p2a: Armarouge|Armor Cannon|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|
+|upkeep
+|j| dilf huntr
+|
+|t:|1743800059
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-damage|p1a: Iron Moth|76/100|[from] Stealth Rock
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|14
+|
+|t:|1743800062
+|move|p2a: Armarouge|Stored Power|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-crit|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|-message|apoiguespm forfeited.
+|
+|win|Mr.diversity
+|raw|apoiguespm's rating: 1736 &rarr; <strong>1717</strong><br />(-19 for losing)
+|raw|Mr.diversity's rating: 1760 &rarr; <strong>1779</strong><br />(+19 for winning)
+|l|☆apoiguespm
+|player|p1|
+|l|☆Mr.diversity
+|player|p2|
+|l| dilf huntr

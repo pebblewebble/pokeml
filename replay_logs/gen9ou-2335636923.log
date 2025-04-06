@@ -1,0 +1,211 @@
+|j|☆Zhorem
+|j|☆RyanBSS
+|t:|1743815309
+|gametype|singles
+|player|p1|Zhorem|n|1171
+|player|p2|RyanBSS|az|1223
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Venusaur, F|
+|poke|p1|Walking Wake|
+|poke|p1|Rillaboom, F|
+|poke|p1|Heatran, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Torkoal, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Kingambit, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Iron Moth|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RyanBSS)
+|
+|t:|1743815317
+|start
+|switch|p1a: shell smash|Torkoal, M|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: shell smash
+|turn|1
+|
+|t:|1743815329
+|move|p2a: Samurott|Ceaseless Edge|p1a: shell smash
+|-damage|p1a: shell smash|57/100
+|-sidestart|p1: Zhorem|Spikes
+|move|p1a: shell smash|Solar Beam||[still]
+|-prepare|p1a: shell smash|Solar Beam
+|-anim|p1a: shell smash|Solar Beam|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-enditem|p2a: Samurott|Focus Sash
+|-damage|p2a: Samurott|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743815344
+|move|p2a: Samurott|Ceaseless Edge|p1a: shell smash
+|-damage|p1a: shell smash|12/100
+|-sidestart|p1: Zhorem|Spikes
+|move|p1a: shell smash|Rapid Spin|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-boost|p1a: shell smash|spe|1
+|-sideend|p1: Zhorem|Spikes|[from] move: Rapid Spin|[of] p1a: shell smash
+|faint|p2a: Samurott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743815351
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: shell smash|atk|1
+|turn|3
+|
+|t:|1743815362
+|switch|p1a: F-Suicune|Walking Wake|100/100
+|-activate|p1a: F-Suicune|ability: Protosynthesis
+|-start|p1a: F-Suicune|protosynthesisspa
+|move|p2a: Landorus|Stealth Rock|p1a: F-Suicune
+|-sidestart|p1: Zhorem|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743815371
+|move|p1a: F-Suicune|Hydro Steam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743815376
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|5
+|
+|t:|1743815383
+|-end|p1a: F-Suicune|Protosynthesis|[silent]
+|switch|p1a: Troller|Heatran, M|100/100
+|-damage|p1a: Troller|88/100|[from] Stealth Rock
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743815397
+|-terastallize|p1a: Troller|Grass
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Troller
+|-resisted|p1a: Troller
+|-damage|p1a: Troller|73/100
+|move|p1a: Troller|Heat Wave|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|17/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743815408
+|move|p2a: Iron Valiant|Moonblast|p1a: Troller
+|-damage|p1a: Troller|25/100
+|move|p1a: Troller|Heat Wave|p2a: Iron Valiant|[miss]
+|-miss|p1a: Troller|p2a: Iron Valiant
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743815416
+|move|p2a: Iron Valiant|Moonblast|p1a: Troller
+|-damage|p1a: Troller|0 fnt
+|faint|p1a: Troller
+|
+|-weather|none
+|upkeep
+|
+|t:|1743815426
+|switch|p1a: shell smash|Torkoal, M|12/100
+|-damage|p1a: shell smash|0 fnt|[from] Stealth Rock
+|faint|p1a: shell smash
+|
+|t:|1743815447
+|switch|p1a: Ven-zilla|Venusaur, F|100/100
+|turn|9
+|
+|t:|1743815458
+|move|p2a: Iron Valiant|Psyshock|p1a: Ven-zilla
+|-supereffective|p1a: Ven-zilla
+|-damage|p1a: Ven-zilla|16/100
+|move|p1a: Ven-zilla|Sludge Bomb|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|l|☆Zhorem
+|inactive|Zhorem disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|RyanBSS has 120 seconds left.
+|
+|t:|1743815489
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|10
+|j|☆Zhorem
+|inactive|Zhorem reconnected and has 140 seconds left.
+|player|p1|Zhorem|n|
+|
+|t:|1743815499
+|move|p2a: Iron Moth|Fiery Dance|p1a: Ven-zilla
+|-supereffective|p1a: Ven-zilla
+|-crit|p1a: Ven-zilla
+|-damage|p1a: Ven-zilla|0 fnt
+|faint|p1a: Ven-zilla
+|
+|upkeep
+|
+|t:|1743815505
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|11
+|
+|t:|1743815518
+|move|p2a: Iron Moth|Psychic|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|44/100
+|move|p1a: Zamazenta|Body Press|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|59/100
+|
+|upkeep
+|turn|12
+|-message|Zhorem forfeited.
+|
+|win|RyanBSS
+|raw|Zhorem's rating: 1171 &rarr; <strong>1150</strong><br />(-21 for losing)
+|raw|RyanBSS's rating: 1223 &rarr; <strong>1244</strong><br />(+21 for winning)
+|l|☆Zhorem
+|player|p1|

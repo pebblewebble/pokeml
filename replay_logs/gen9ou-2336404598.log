@@ -1,0 +1,255 @@
+|j|☆Zeeplesaurus99
+|j|☆NerdByrd
+|t:|1743912751
+|gametype|singles
+|player|p1|Zeeplesaurus99|2|1411
+|player|p2|NerdByrd|veteran|1411
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, F|
+|poke|p1|Iron Treads|
+|poke|p1|Cinderace, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Pecharunt|
+|poke|p1|Dragonite, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Valiant|
+|poke|p2|Skeledirge, F|
+|poke|p2|Scizor, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Zeeplesaurus99)
+|
+|t:|1743912754
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdriveatk
+|turn|1
+|
+|t:|1743912766
+|move|p1a: Iron Treads|Iron Head|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|73/100
+|move|p2a: Scizor|U-turn|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|75/100
+|
+|t:|1743912774
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1743912786
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Araquanid|Araquanid, F, shiny|100/100
+|move|p2a: Ogerpon|U-turn|p1a: Araquanid
+|-damage|p1a: Araquanid|80/100
+|
+|t:|1743912789
+|switch|p2a: Scizor|Scizor, M|73/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1743912793
+|move|p2a: Scizor|Dual Wingbeat|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|29/100
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|-hitcount|p1: Araquanid|2
+|
+|upkeep
+|
+|t:|1743912801
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|4
+|
+|t:|1743912808
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Scizor|Dual Wingbeat|p1a: Dragonite
+|-damage|p1a: Dragonite|82/100
+|-damage|p1a: Dragonite|43/100
+|-hitcount|p1a: Dragonite|2
+|
+|upkeep
+|turn|5
+|
+|t:|1743912819
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-terastallize|p1a: Dragonite|Ground
+|move|p1a: Dragonite|Earthquake|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Zeeplesaurus99|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1743912832
+|switch|p2a: Scizor|Scizor, M|73/100
+|turn|6
+|
+|t:|1743912834
+|move|p2a: Scizor|Bullet Punch|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1743912844
+|switch|p1a: Iron Treads|Iron Treads|75/100
+|turn|7
+|
+|t:|1743912851
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|move|p1a: Iron Treads|Rapid Spin|p2a: Skeledirge
+|-immune|p2a: Skeledirge
+|
+|upkeep
+|turn|8
+|
+|t:|1743912862
+|move|p1a: Iron Treads|Earthquake|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-crit|p2a: Skeledirge
+|-damage|p2a: Skeledirge|9/100
+|move|p2a: Skeledirge|Torch Song|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p2a: Skeledirge|15/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743912873
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|9
+|
+|t:|1743912876
+|move|p1a: Cinderace|Pyro Ball|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|upkeep
+|
+|t:|1743912890
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|10
+|
+|t:|1743912894
+|move|p1a: Cinderace|Sucker Punch|p2a: Ogerpon
+|-damage|p2a: Ogerpon|70/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Cinderace|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743912901
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|-item|p1a: Pecharunt|Air Balloon
+|turn|11
+|
+|t:|1743912906
+|move|p2a: Ogerpon|U-turn|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|95/100
+|-enditem|p1a: Pecharunt|Air Balloon
+|
+|t:|1743912908
+|switch|p2a: Scizor|Scizor, M|73/100|[from] U-turn
+|move|p1a: Pecharunt|Malignant Chain|p2a: Scizor
+|-immune|p2a: Scizor
+|
+|upkeep
+|turn|12
+|
+|t:|1743912915
+|move|p1a: Pecharunt|Nasty Plot|p1a: Pecharunt
+|-boost|p1a: Pecharunt|spa|2
+|move|p2a: Scizor|U-turn|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|84/100
+|
+|t:|1743912926
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|
+|upkeep
+|turn|13
+|
+|t:|1743912935
+|move|p1a: Pecharunt|Shadow Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|4/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1743912941
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|14
+|
+|t:|1743912946
+|move|p1a: Kingambit|Sucker Punch|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-damage|p1a: Kingambit|84/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743912948
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|15
+|
+|t:|1743912950
+|move|p2a: Iron Valiant|Close Combat|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|NerdByrd
+|raw|Zeeplesaurus99's rating: 1411 &rarr; <strong>1391</strong><br />(-20 for losing)
+|raw|NerdByrd's rating: 1411 &rarr; <strong>1431</strong><br />(+20 for winning)
+|l|☆NerdByrd
+|player|p2|
+|l|☆Zeeplesaurus99
+|player|p1|

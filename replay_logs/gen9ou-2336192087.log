@@ -1,0 +1,163 @@
+|j|☆ian_yo
+|j|☆minun soldier
+|t:|1743888265
+|gametype|singles
+|player|p1|ian_yo|skier|1446
+|player|p2|minun soldier|lucas|1460
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Klefki, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Cresselia, F|
+|poke|p1|Rabsca, M|
+|poke|p1|Hattrem, F|
+|poke|p2|Darkrai|
+|poke|p2|Manaphy|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Gholdengo|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ian_yo)
+|inactive|minun soldier also wants the timer to be on.
+|
+|t:|1743888278
+|start
+|switch|p1a: Hattrem|Hattrem, F|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|1
+|
+|t:|1743888288
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Hattrem|Trick Room|p1a: Hattrem
+|-fieldstart|move: Trick Room|[of] p1a: Hattrem
+|
+|upkeep
+|turn|2
+|
+|t:|1743888304
+|move|p1a: Hattrem|Healing Wish|p1a: Hattrem
+|faint|p1a: Hattrem
+|move|p2a: Gholdengo|Shadow Ball|p1: Hattrem|[notarget]
+|-fail|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743888307
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|3
+|
+|t:|1743888323
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|-terastallize|p1a: Torkoal|Fire
+|move|p1a: Torkoal|Eruption|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|25/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743888341
+|move|p2a: Raging Bolt|Thunderclap|p1a: Torkoal
+|-damage|p1a: Torkoal|28/100
+|move|p1a: Torkoal|Eruption|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-crit|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743888357
+|switch|p2a: Manaphy|Manaphy|100/100
+|turn|5
+|
+|t:|1743888366
+|switch|p1a: Klefki|Klefki, F|100/100
+|move|p2a: Manaphy|Tail Glow|p2a: Manaphy
+|-boost|p2a: Manaphy|spa|3
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1743888374
+|move|p2a: Manaphy|Surf|p1a: Klefki
+|-damage|p1a: Klefki|49/100
+|move|p1a: Klefki|Trick Room|p1a: Klefki
+|-fieldstart|move: Trick Room|[of] p1a: Klefki
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743888382
+|move|p1a: Klefki|Steel Beam|p2a: Manaphy
+|-resisted|p2a: Manaphy
+|-damage|p2a: Manaphy|74/100
+|-damage|p1a: Klefki|0 fnt|[from] steelbeam
+|faint|p1a: Klefki
+|move|p2a: Manaphy|Surf|p1: Klefki|[notarget]
+|-fail|p2a: Manaphy
+|
+|-weather|none
+|upkeep
+|
+|t:|1743888384
+|switch|p1a: Torkoal|Torkoal, M, tera:Fire|28/100
+|-heal|p1a: Torkoal|100/100|[from] move: Healing Wish
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|8
+|
+|t:|1743888391
+|move|p1a: Torkoal|Eruption|p2a: Manaphy
+|-resisted|p2a: Manaphy
+|-damage|p2a: Manaphy|0 fnt
+|faint|p2a: Manaphy
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743888395
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|turn|9
+|
+|t:|1743888399
+|move|p1a: Torkoal|Eruption|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|minun soldier forfeited.
+|
+|win|ian_yo
+|raw|ian_yo's rating: 1427 &rarr; <strong>1449</strong><br />(+22 for winning)
+|raw|minun soldier's rating: 1460 &rarr; <strong>1438</strong><br />(-22 for losing)
+|l|☆minun soldier
+|player|p2|
+|l|☆ian_yo
+|player|p1|

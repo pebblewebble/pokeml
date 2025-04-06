@@ -1,0 +1,164 @@
+|j|☆JP ShinySeeker
+|j|☆mrporksin
+|t:|1743889967
+|gametype|singles
+|player|p1|JP ShinySeeker|grimsley|1484
+|player|p2|mrporksin|169|1491
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Manaphy|
+|poke|p1|Raging Bolt|
+|poke|p1|Entei|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Avalugg, M|
+|poke|p1|Garchomp, F|
+|poke|p2|Araquanid, F|
+|poke|p2|Scizor, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Maushold-Four|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|t:|1743889974
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1743889982
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|t:|1743889988
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|2
+|
+|t:|1743889993
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Hoopa
+|-damage|p1a: Hoopa|57/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|upkeep
+|turn|3
+|
+|t:|1743890002
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Hoopa|Knock Off|p2a: Scizor
+|-crit|p2a: Scizor
+|-damage|p2a: Scizor|27/100
+|-enditem|p2a: Scizor|Life Orb|[from] move: Knock Off|[of] p1a: Hoopa
+|
+|upkeep
+|turn|4
+|
+|t:|1743890010
+|switch|p1a: Avalugg|Avalugg, M|100/100
+|move|p2a: Scizor|Bullet Punch|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|71/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743890017
+|move|p2a: Scizor|U-turn|p1a: Avalugg
+|-damage|p1a: Avalugg|54/100
+|
+|t:|1743890038
+|switch|p2a: Meowscarada|Meowscarada, F|100/100|[from] U-turn
+|move|p1a: Avalugg|Avalanche|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|32/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743890048
+|move|p2a: Meowscarada|Power Gem|p1a: Avalugg
+|-start|p2a: Meowscarada|typechange|Rock|[from] ability: Protean
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|faint|p1a: Avalugg
+|
+|upkeep
+|c|☆JP ShinySeeker|wtf!?
+|
+|t:|1743890064
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|turn|7
+|
+|t:|1743890076
+|move|p2a: Meowscarada|Grass Knot|p1a: Garchomp
+|-damage|p1a: Garchomp|74/100
+|-damage|p2a: Meowscarada|20/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|move|p1a: Garchomp|Scale Shot|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|-hitcount|p2: Meowscarada|1
+|-unboost|p1a: Garchomp|def|1
+|-boost|p1a: Garchomp|spe|1
+|
+|upkeep
+|
+|t:|1743890094
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|8
+|
+|t:|1743890100
+|move|p1a: Garchomp|Scale Shot|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|66/100
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|30/100
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|-hitcount|p2: Dragapult|3
+|-unboost|p1a: Garchomp|def|1
+|-boost|p1a: Garchomp|spe|1
+|
+|upkeep
+|
+|t:|1743890109
+|switch|p2a: Scizor|Scizor, M|27/100
+|turn|9
+|
+|t:|1743890113
+|move|p2a: Scizor|Bullet Punch|p1a: Garchomp
+|-damage|p1a: Garchomp|4/100
+|-damage|p2a: Scizor|15/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|move|p1a: Garchomp|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|-message|mrporksin forfeited.
+|
+|win|JP ShinySeeker
+|raw|JP ShinySeeker's rating: 1484 &rarr; <strong>1504</strong><br />(+20 for winning)
+|raw|mrporksin's rating: 1491 &rarr; <strong>1471</strong><br />(-20 for losing)
+|l|☆mrporksin
+|player|p2|
+|l|☆JP ShinySeeker
+|player|p1|

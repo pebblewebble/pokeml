@@ -1,0 +1,178 @@
+|j|☆ttttllllldibdhejd
+|j|☆Zapstyle
+|t:|1743828933
+|gametype|singles
+|player|p1|ttttllllldibdhejd|elesa|1123
+|player|p2|Zapstyle|hilbert|1063
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Heatran, F|
+|poke|p1|Volcanion|
+|poke|p1|Torkoal, M|
+|poke|p1|Venusaur, F|
+|poke|p1|Walking Wake|
+|poke|p1|Cloyster, F|
+|poke|p2|Goodra, F|
+|poke|p2|Iron Boulder|
+|poke|p2|Metagross|
+|poke|p2|Walking Wake|
+|poke|p2|Klefki, F|
+|poke|p2|Darkrai|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ttttllllldibdhejd)
+|
+|t:|1743828948
+|start
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|switch|p2a: Goodra|Goodra, F|100/100
+|turn|1
+|
+|t:|1743828958
+|switch|p2a: Klefki|Klefki, F|100/100
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|
+|upkeep
+|turn|2
+|
+|t:|1743828974
+|move|p2a: Klefki|Thunder Wave|p1a: Cloyster
+|-status|p1a: Cloyster|par
+|move|p1a: Cloyster|Razor Shell|p2a: Klefki
+|-damage|p2a: Klefki|39/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743828996
+|move|p2a: Klefki|Reflect|p2a: Klefki
+|-sidestart|p2: Zapstyle|Reflect
+|move|p1a: Cloyster|Razor Shell|p2a: Klefki|[miss]
+|-miss|p1a: Cloyster|p2a: Klefki
+|
+|upkeep
+|turn|4
+|
+|t:|1743829002
+|move|p2a: Klefki|Light Screen|p2a: Klefki
+|-sidestart|p2: Zapstyle|move: Light Screen
+|cant|p1a: Cloyster|par
+|
+|upkeep
+|turn|5
+|
+|t:|1743829007
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Klefki|Draining Kiss|p1a: Cloyster
+|-damage|p1a: Cloyster|19/100 par
+|-heal|p2a: Klefki|85/100|[from] drain|[of] p1a: Cloyster
+|
+|upkeep
+|turn|6
+|
+|t:|1743829018
+|move|p1a: Cloyster|Razor Shell|p2a: Klefki
+|-damage|p2a: Klefki|43/100
+|-unboost|p2a: Klefki|def|1
+|move|p2a: Klefki|Draining Kiss|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|-heal|p2a: Klefki|54/100|[from] drain|[of] p1a: Cloyster
+|faint|p1a: Cloyster
+|
+|upkeep
+|
+|t:|1743829026
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|7
+|
+|t:|1743829034
+|move|p2a: Klefki|Draining Kiss|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|94/100
+|-heal|p2a: Klefki|59/100|[from] drain|[of] p1a: Torkoal
+|move|p1a: Torkoal|Flare Blitz|p2a: Klefki
+|-supereffective|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|-damage|p1a: Torkoal|75/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743829052
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p2a: Iron Boulder|Booster Energy
+|-activate|p2a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Boulder|quarkdrivespe
+|turn|8
+|
+|t:|1743829078
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|move|p2a: Iron Boulder|Swords Dance|p2a: Iron Boulder
+|-boost|p2a: Iron Boulder|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743829090
+|-terastallize|p2a: Iron Boulder|Rock
+|move|p2a: Iron Boulder|Mighty Cleave|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743829096
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|turn|10
+|
+|t:|1743829100
+|move|p2a: Iron Boulder|Psycho Cut|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: Zapstyle|Reflect
+|upkeep
+|l|☆ttttllllldibdhejd
+|inactive|ttttllllldibdhejd disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|ttttllllldibdhejd has 30 seconds to reconnect!
+|inactive|ttttllllldibdhejd has 20 seconds to reconnect!
+|inactive|ttttllllldibdhejd has 15 seconds to reconnect!
+|inactive|ttttllllldibdhejd has 10 seconds to reconnect!
+|inactive|ttttllllldibdhejd has 5 seconds to reconnect!
+|-message|ttttllllldibdhejd lost due to inactivity.
+|
+|win|Zapstyle
+|raw|ttttllllldibdhejd's rating: 1096 &rarr; <strong>1069</strong><br />(-27 for losing)
+|raw|Zapstyle's rating: 1063 &rarr; <strong>1096</strong><br />(+33 for winning)
+|l|☆Zapstyle
+|player|p2|

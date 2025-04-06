@@ -1,0 +1,156 @@
+|j|☆Kaelai
+|j|☆Yellowgo
+|t:|1743847065
+|gametype|singles
+|player|p1|Kaelai|bellelba|1178
+|player|p2|Yellowgo|102|1311
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Minior|
+|poke|p1|Toxapex, F|
+|poke|p1|Iron Moth|
+|poke|p1|Greninja-*, M|
+|poke|p1|Garchomp, M|
+|poke|p1|Kingambit, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Kingambit, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Ting-Lu|
+|teampreview
+|
+|t:|1743847070
+|start
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Yellowgo)
+|
+|t:|1743847080
+|move|p2a: Ting-Lu|Spikes|p1a: Garchomp
+|-sidestart|p1: Kaelai|Spikes
+|move|p1a: Garchomp|Dragon Tail|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|86/100
+|drag|p2a: Gholdengo|Gholdengo|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743847102
+|-terastallize|p2a: Gholdengo|Flying
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Garchomp|Earthquake|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|upkeep
+|turn|3
+|
+|t:|1743847111
+|move|p2a: Gholdengo|Shadow Ball|p1a: Garchomp
+|-damage|p1a: Garchomp|37/100
+|move|p1a: Garchomp|Dragon Tail|p2a: Gholdengo
+|-damage|p2a: Gholdengo|78/100
+|drag|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|
+|upkeep
+|turn|4
+|
+|t:|1743847121
+|move|p2a: Iron Valiant|Spirit Break|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Iron Valiant|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Iron Valiant|71/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1743847125
+|switch|p1a: Minior|Minior|100/100
+|-formechange|p1a: Minior|Minior-Meteor||[from] ability: Shields Down
+|turn|5
+|
+|t:|1743847139
+|move|p2a: Iron Valiant|Close Combat|p1a: Minior
+|-damage|p1a: Minior|23/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|move|p1a: Minior|Shell Smash|p1a: Minior
+|-unboost|p1a: Minior|def|1
+|-unboost|p1a: Minior|spd|1
+|-boost|p1a: Minior|atk|2
+|-boost|p1a: Minior|spa|2
+|-boost|p1a: Minior|spe|2
+|-enditem|p1a: Minior|White Herb
+|-clearnegativeboost|p1a: Minior|[silent]
+|
+|-formechange|p1a: Minior|Minior||[from] ability: Shields Down
+|upkeep
+|turn|6
+|
+|t:|1743847153
+|move|p1a: Minior|Acrobatics|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743847161
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|7
+|
+|t:|1743847167
+|move|p2a: Kingambit|Sucker Punch|p1a: Minior
+|-damage|p1a: Minior|0 fnt
+|faint|p1a: Minior
+|
+|upkeep
+|
+|t:|1743847169
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-damage|p1a: Iron Moth|88/100|[from] Spikes
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|8
+|
+|t:|1743847179
+|move|p1a: Iron Moth|Fiery Dance|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|19/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|-message|Kaelai forfeited.
+|
+|win|Yellowgo
+|raw|Kaelai's rating: 1178 &rarr; <strong>1162</strong><br />(-16 for losing)
+|raw|Yellowgo's rating: 1311 &rarr; <strong>1324</strong><br />(+13 for winning)
+|l|☆Kaelai
+|player|p1|
+|l|☆Yellowgo
+|player|p2|

@@ -1,0 +1,519 @@
+|j|☆UCB0
+|j|☆inothigh
+|t:|1743886720
+|gametype|singles
+|player|p1|UCB0|n|1255
+|player|p2|inothigh|2|1232
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Excadrill, M|
+|poke|p1|Abomasnow, M|
+|poke|p1|Gastrodon-East, F|
+|poke|p1|Iron Moth|
+|poke|p1|Skarmory, F|
+|poke|p1|Morpeko, F|
+|poke|p2|Dondozo, M|
+|poke|p2|Blissey, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Gliscor, M|
+|poke|p2|Toxapex, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by inothigh)
+|
+|t:|1743886730
+|start
+|switch|p1a: Gastrodon|Gastrodon-East, F|100/100
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|1
+|
+|t:|1743886743
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Gastrodon|Ice Beam|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743886765
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Gastrodon|Ice Beam|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|91/100
+|
+|-heal|p2a: Toxapex|97/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743886777
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Skarmory
+|-sidestart|p1: UCB0|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|inothigh has 120 seconds left.
+|
+|t:|1743886804
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Skarmory|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: inothigh|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|inactive|inothigh has 120 seconds left.
+|
+|t:|1743886811
+|move|p1a: Skarmory|Iron Defense|p1a: Skarmory
+|-boost|p1a: Skarmory|def|2
+|move|p2a: Corviknight|Defog|p1a: Skarmory
+|-unboost|p1a: Skarmory|evasion|1
+|-sideend|p1: UCB0|Toxic Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: inothigh|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|6
+|
+|t:|1743886819
+|move|p1a: Skarmory|Iron Defense|p1a: Skarmory
+|-boost|p1a: Skarmory|def|2
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|upkeep
+|turn|7
+|
+|t:|1743886827
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Skarmory|Roar|p2a: Corviknight
+|drag|p2a: Gliscor|Gliscor, M|100/100 tox
+|
+|upkeep
+|turn|8
+|
+|t:|1743886836
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Skarmory|Body Press|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|71/100
+|
+|-heal|p2a: Toxapex|77/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743886845
+|move|p1a: Skarmory|Stealth Rock|p2a: Toxapex
+|-sidestart|p2: inothigh|move: Stealth Rock
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|83/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743886853
+|move|p2a: Toxapex|Toxic Spikes|p1a: Skarmory
+|-sidestart|p1: UCB0|move: Toxic Spikes
+|move|p1a: Skarmory|Roar|p2a: Toxapex
+|drag|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|t:|1743886874
+|move|p2a: Gliscor|Knock Off|p1a: Skarmory
+|-damage|p1a: Skarmory|87/100
+|-damage|p2a: Gliscor|84/100 tox|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|-enditem|p1a: Skarmory|Rocky Helmet|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Skarmory|Iron Defense|p1a: Skarmory
+|-boost|p1a: Skarmory|def|2
+|
+|-heal|p2a: Gliscor|97/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|t:|1743886884
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Skarmory|Roar|p2a: Toxapex
+|drag|p2a: Blissey|Blissey, F|100/100
+|-damage|p2a: Blissey|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743886901
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Skarmory|Body Press|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|68/100
+|
+|-heal|p2a: Toxapex|74/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|inothigh has 120 seconds left.
+|
+|t:|1743886917
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|move|p1a: Skarmory|Roar|p2a: Toxapex
+|drag|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|inothigh has 120 seconds left.
+|inactive|UCB0 has 120 seconds left.
+|
+|t:|1743886950
+|move|p1a: Skarmory|Iron Defense|p1a: Skarmory
+|-boost|p1a: Skarmory|def|2
+|move|p2a: Corviknight|Defog|p1a: Skarmory
+|-unboost|p1a: Skarmory|evasion|1
+|-sideend|p1: UCB0|Toxic Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: inothigh|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|-heal|p2a: Corviknight|99/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743886959
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Skarmory|Iron Defense|p1a: Skarmory
+|-boost|p1a: Skarmory|def|2
+|
+|upkeep
+|turn|17
+|
+|t:|1743886968
+|switch|p1a: Mothra|Iron Moth, shiny|100/100
+|-enditem|p1a: Mothra|Booster Energy
+|-activate|p1a: Mothra|ability: Quark Drive|[fromitem]
+|-start|p1a: Mothra|quarkdrivespe
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|18
+|
+|t:|1743886984
+|move|p1a: Mothra|Psychic|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|51/100
+|move|p2a: Toxapex|Toxic|p1a: Mothra
+|-immune|p1a: Mothra
+|
+|-heal|p2a: Toxapex|57/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|inothigh has 120 seconds left.
+|
+|t:|1743887004
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Mothra|Psychic|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|18/100
+|
+|upkeep
+|turn|20
+|inactive|inothigh has 120 seconds left.
+|
+|t:|1743887016
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Blissey|Blissey, F|94/100
+|move|p1a: Mothra|Fiery Dance|p2a: Blissey
+|-damage|p2a: Blissey|82/100
+|-boost|p1a: Mothra|spa|1
+|
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|inothigh has 120 seconds left.
+|
+|t:|1743887034
+|-end|p1a: Mothra|Quark Drive|[silent]
+|switch|p1a: Morpeko|Morpeko, F, shiny|100/100
+|move|p2a: Blissey|Calm Mind|p2a: Blissey
+|-boost|p2a: Blissey|spa|1
+|-boost|p2a: Blissey|spd|1
+|
+|-heal|p2a: Blissey|94/100|[from] item: Leftovers
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|22
+|inactive|inothigh has 120 seconds left.
+|
+|t:|1743887044
+|move|p1a: Morpeko|Fake Out|p2a: Blissey
+|-damage|p2a: Blissey|82/100
+|cant|p2a: Blissey|flinch
+|
+|-heal|p2a: Blissey|88/100|[from] item: Leftovers
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|23
+|inactive|inothigh has 120 seconds left.
+|
+|t:|1743887053
+|move|p1a: Morpeko|Aura Wheel|p2a: Blissey
+|-damage|p2a: Blissey|38/100
+|-boost|p1a: Morpeko|spe|1
+|move|p2a: Blissey|Seismic Toss|p1a: Morpeko
+|-damage|p1a: Morpeko|62/100
+|
+|-heal|p2a: Blissey|45/100|[from] item: Leftovers
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|24
+|inactive|inothigh has 120 seconds left.
+|
+|t:|1743887070
+|switch|p2a: Gliscor|Gliscor, M|97/100 tox
+|move|p1a: Morpeko|Aura Wheel|p2a: Gliscor
+|-damage|p2a: Gliscor|62/100 tox
+|-boost|p1a: Morpeko|spe|1
+|
+|-heal|p2a: Gliscor|75/100 tox|[from] ability: Poison Heal
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|25
+|inactive|inothigh has 120 seconds left.
+|
+|t:|1743887089
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Morpeko|Parting Shot|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|87/100 tox|[from] ability: Poison Heal
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|26
+|
+|t:|1743887103
+|move|p1a: Morpeko|Parting Shot|p2a: Gliscor
+|-unboost|p2a: Gliscor|atk|1
+|-unboost|p2a: Gliscor|spa|1
+|
+|t:|1743887107
+|switch|p1a: Abomasnow|Abomasnow, M, shiny|100/100|[from] Parting Shot
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Gliscor|Earthquake|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|94/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|27
+|inactive|inothigh has 120 seconds left.
+|
+|t:|1743887120
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Abomasnow|Aurora Veil|p1a: Abomasnow
+|-sidestart|p1: UCB0|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|inactive|inothigh has 120 seconds left.
+|
+|t:|1743887142
+|switch|p2a: Corviknight|Corviknight, F|99/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Abomasnow|Icicle Spear|p2a: Corviknight
+|-damage|p2a: Corviknight|93/100
+|-damage|p2a: Corviknight|86/100
+|-damage|p2a: Corviknight|78/100
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|67/100
+|-damage|p2a: Corviknight|60/100
+|-hitcount|p2a: Corviknight|5
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Corviknight|66/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1743887157
+|switch|p1a: Mothra|Iron Moth, shiny|100/100
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Corviknight|72/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1743887172
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Mothra|Fiery Dance|p2a: Gliscor
+|-damage|p2a: Gliscor|64/100 tox
+|-boost|p1a: Mothra|spa|1
+|
+|-weather|none
+|-heal|p2a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|31
+|
+|t:|1743887188
+|-end|p1a: Mothra|Quark Drive|[silent]
+|switch|p1a: Abomasnow|Abomasnow, M, shiny|94/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Gliscor|Earthquake|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|89/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|-sideend|p1: UCB0|move: Aurora Veil
+|upkeep
+|turn|32
+|
+|t:|1743887200
+|switch|p2a: Toxapex|Toxapex, M|90/100
+|move|p1a: Abomasnow|Icicle Spear|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|87/100
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|83/100
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|80/100
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|77/100
+|-hitcount|p2a: Toxapex|4
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Toxapex|83/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1743887220
+|switch|p1a: Skarmory|Skarmory, F|87/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Skarmory
+|-sidestart|p1: UCB0|move: Toxic Spikes
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Toxapex|89/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1743887228
+|switch|p1a: Morpeko|Morpeko, F, shiny|62/100
+|move|p2a: Toxapex|Toxic Spikes|p1a: Morpeko
+|-sidestart|p1: UCB0|move: Toxic Spikes
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Toxapex|95/100|[from] item: Leftovers
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|35
+|
+|t:|1743887241
+|switch|p2a: Gliscor|Gliscor, M|89/100 tox
+|move|p1a: Morpeko|Fake Out|p2a: Gliscor
+|-damage|p2a: Gliscor|80/100 tox
+|
+|-weather|none
+|-heal|p2a: Gliscor|93/100 tox|[from] ability: Poison Heal
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|36
+|
+|t:|1743887256
+|move|p1a: Morpeko|Parting Shot|p2a: Gliscor
+|-unboost|p2a: Gliscor|atk|1
+|-unboost|p2a: Gliscor|spa|1
+|
+|t:|1743887260
+|switch|p1a: Skarmory|Skarmory, F|87/100|[from] Parting Shot
+|move|p2a: Gliscor|Spikes|p1a: Skarmory
+|-sidestart|p1: UCB0|Spikes
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|37
+|
+|t:|1743887283
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|move|p1a: Skarmory|Iron Defense|p1a: Skarmory
+|-boost|p1a: Skarmory|def|2
+|
+|upkeep
+|turn|38
+|
+|t:|1743887294
+|-terastallize|p2a: Dondozo|Fighting
+|move|p1a: Skarmory|Body Press|p2a: Dondozo
+|-damage|p2a: Dondozo|87/100
+|move|p2a: Dondozo|Body Press|p1a: Skarmory
+|-damage|p1a: Skarmory|63/100
+|
+|-heal|p2a: Dondozo|93/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1743887309
+|move|p1a: Skarmory|Iron Defense|p1a: Skarmory
+|-boost|p1a: Skarmory|def|2
+|move|p2a: Dondozo|Body Press|p1a: Skarmory
+|-damage|p1a: Skarmory|40/100
+|
+|-heal|p2a: Dondozo|99/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1743887325
+|move|p1a: Skarmory|Body Press|p2a: Dondozo
+|-crit|p2a: Dondozo
+|-damage|p2a: Dondozo|77/100
+|move|p2a: Dondozo|Body Press|p1a: Skarmory
+|-damage|p1a: Skarmory|16/100
+|
+|-heal|p2a: Dondozo|84/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1743887334
+|move|p1a: Skarmory|Body Press|p2a: Dondozo
+|-damage|p2a: Dondozo|70/100
+|move|p2a: Dondozo|Body Press|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-heal|p2a: Dondozo|76/100|[from] item: Leftovers
+|upkeep
+|-message|UCB0 forfeited.
+|
+|win|inothigh
+|raw|UCB0's rating: 1255 &rarr; <strong>1228</strong><br />(-27 for losing)
+|raw|inothigh's rating: 1232 &rarr; <strong>1259</strong><br />(+27 for winning)
+|l|☆UCB0
+|player|p1|
+|l|☆inothigh
+|player|p2|

@@ -1,0 +1,193 @@
+|j|☆GatorCrusader
+|j|☆ojgfdd
+|t:|1743783752
+|gametype|singles
+|player|p1|GatorCrusader|fisherman-gen4|1104
+|player|p2|ojgfdd|170|1096
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blaziken, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Dragonite, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Skeledirge, M|
+|poke|p2|Great Tusk|
+|poke|p2|Gengar, F|
+|poke|p2|Slowking, F|
+|poke|p2|Rillaboom, F|
+|poke|p2|Bagon, M|
+|poke|p2|Gliscor, F|
+|teampreview
+|
+|t:|1743783757
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Gengar|Gengar, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1743783769
+|switch|p2a: Slowking|Slowking, F|100/100
+|move|p1a: Indeedee|Expanding Force|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|86/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743783778
+|move|p1a: Indeedee|Dazzling Gleam|p2a: Slowking
+|-damage|p2a: Slowking|76/100
+|move|p2a: Slowking|Future Sight|p1a: Indeedee
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|3
+|
+|t:|1743783784
+|move|p1a: Indeedee|Encore|p2a: Slowking
+|-start|p2a: Slowking|Encore
+|move|p2a: Slowking|Future Sight||[still]
+|-fail|p2a: Slowking
+|
+|upkeep
+|turn|4
+|
+|t:|1743783791
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Slowking|Future Sight||[still]
+|-fail|p2a: Slowking
+|
+|-end|p1a: Hatterene|move: Future Sight
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|83/100
+|upkeep
+|turn|5
+|
+|t:|1743783801
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Hatterene|Nuzzle|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|98/100
+|-status|p2a: Rillaboom|par
+|
+|-heal|p2a: Rillaboom|100/100 par|[from] Grassy Terrain
+|-heal|p1a: Hatterene|89/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1743783813
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Gengar
+|-damage|p2a: Gengar|55/100
+|-unboost|p2a: Gengar|spa|1
+|
+|-heal|p2a: Gengar|61/100|[from] Grassy Terrain
+|-heal|p1a: Hatterene|95/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1743783823
+|switch|p2a: Slowking|Slowking, F|100/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|95/100
+|-unboost|p2a: Slowking|spa|1
+|
+|-heal|p1a: Hatterene|100/100|[from] Grassy Terrain
+|-heal|p2a: Slowking|100/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1743783832
+|move|p1a: Hatterene|Nuzzle|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|92/100
+|-status|p2a: Slowking|par
+|move|p2a: Slowking|Future Sight|p1a: Hatterene
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p2a: Slowking|98/100 par|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1743783846
+|switch|p2a: Gengar|Gengar, F|61/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GatorCrusader)
+|
+|t:|1743783878
+|switch|p2a: Rillaboom|Rillaboom, F|100/100 par
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|10
+|
+|t:|1743783881
+|move|p2a: Rillaboom|Grassy Glide|p1a: Hatterene
+|-damage|p1a: Hatterene|32/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|30/100 par
+|-unboost|p2a: Rillaboom|spa|1
+|
+|-end|p1a: Hatterene|move: Future Sight
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|18/100
+|-heal|p2a: Rillaboom|36/100 par|[from] Grassy Terrain
+|-heal|p1a: Hatterene|24/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1743783894
+|cant|p2a: Rillaboom|par
+|move|p1a: Hatterene|Draining Kiss|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-heal|p1a: Hatterene|53/100|[from] drain|[of] p2a: Rillaboom
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Hatterene|59/100|[from] Grassy Terrain
+|upkeep
+|inactive|ojgfdd has 120 seconds left.
+|
+|t:|1743783925
+|switch|p2a: Bagon|Bagon, M|100/100
+|turn|12
+|
+|t:|1743783930
+|move|p2a: Bagon|Dragon Dance|p2a: Bagon
+|-boost|p2a: Bagon|atk|1
+|-boost|p2a: Bagon|spe|1
+|move|p1a: Hatterene|Draining Kiss|p2a: Bagon
+|-supereffective|p2a: Bagon
+|-damage|p2a: Bagon|0 fnt
+|-heal|p1a: Hatterene|100/100|[from] drain|[of] p2a: Bagon
+|faint|p2a: Bagon
+|
+|upkeep
+|-message|ojgfdd forfeited.
+|
+|win|GatorCrusader
+|raw|GatorCrusader's rating: 1104 &rarr; <strong>1128</strong><br />(+24 for winning)
+|raw|ojgfdd's rating: 1096 &rarr; <strong>1072</strong><br />(-24 for losing)
+|l|☆ojgfdd
+|player|p2|
+|l|☆GatorCrusader
+|player|p1|

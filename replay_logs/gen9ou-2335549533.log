@@ -1,0 +1,468 @@
+|j|☆les amateur
+|j|☆SIGM4
+|t:|1743805115
+|gametype|singles
+|player|p1|les amateur|265|1214
+|player|p2|SIGM4|gentleman-gen4|1213
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Hydrapple, M|
+|poke|p1|Moltres|
+|poke|p1|Pecharunt|
+|poke|p2|Iron Moth|
+|poke|p2|Umbreon, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Slowking, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1743805135
+|start
+|switch|p1a: Moltres|Moltres|100/100
+|switch|p2a: Jack|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Jack
+|turn|1
+|
+|t:|1743805145
+|switch|p2a: bite-de-fer|Iron Moth|100/100
+|move|p1a: Moltres|Will-O-Wisp|p2a: bite-de-fer
+|-immune|p2a: bite-de-fer
+|
+|upkeep
+|turn|2
+|
+|t:|1743805154
+|move|p2a: bite-de-fer|Sludge Wave|p1a: Moltres
+|-damage|p1a: Moltres|41/100
+|move|p1a: Moltres|U-turn|p2a: bite-de-fer
+|-resisted|p2a: bite-de-fer
+|-damage|p2a: bite-de-fer|94/100
+|
+|t:|1743805159
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|
+|-heal|p2a: bite-de-fer|99/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1743805170
+|-end|p2a: bite-de-fer|Quark Drive|[silent]
+|switch|p2a: flopman|Slowking, F|100/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: flopman
+|-resisted|p2a: flopman
+|-damage|p2a: flopman|93/100
+|-fieldend|move: Grassy Terrain
+|
+|-heal|p2a: flopman|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|j| QuanWilliams19
+|
+|t:|1743805182
+|move|p1a: Great Tusk|Stealth Rock|p2a: flopman
+|-sidestart|p2: SIGM4|move: Stealth Rock
+|move|p2a: flopman|Scald|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|31/100
+|
+|-heal|p2a: flopman|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743805192
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Hydrapple|Hydrapple, M|100/100
+|move|p2a: flopman|Scald|p1a: Hydrapple
+|-resisted|p1a: Hydrapple
+|-damage|p1a: Hydrapple|94/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743805201
+|move|p1a: Hydrapple|Fickle Beam|p2a: flopman
+|-damage|p2a: flopman|59/100
+|move|p2a: flopman|Thunder Wave|p1a: Hydrapple
+|-status|p1a: Hydrapple|par
+|
+|-heal|p2a: flopman|65/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743805217
+|switch|p2a: bite-de-fer|Iron Moth|99/100
+|-damage|p2a: bite-de-fer|75/100|[from] Stealth Rock
+|move|p1a: Hydrapple|Fickle Beam|p2a: bite-de-fer
+|-damage|p2a: bite-de-fer|27/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743805225
+|move|p2a: bite-de-fer|Sludge Wave|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|0 fnt
+|faint|p1a: Hydrapple
+|
+|upkeep
+|
+|t:|1743805229
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|9
+|
+|t:|1743805237
+|-end|p2a: bite-de-fer|Quark Drive|[silent]
+|switch|p2a: Umbreon|Umbreon, M, shiny|100/100
+|-damage|p2a: Umbreon|88/100|[from] Stealth Rock
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p2a: Umbreon|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743805251
+|move|p2a: Umbreon|Foul Play|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|59/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p2a: Umbreon|99/100|[from] item: Leftovers
+|-heal|p1a: Kingambit|65/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743805261
+|move|p2a: Umbreon|Foul Play|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|5/100
+|move|p1a: Kingambit|Low Kick|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|2/100
+|
+|-heal|p2a: Umbreon|8/100|[from] item: Leftovers
+|-heal|p1a: Kingambit|11/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743805274
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|move|p1a: Kingambit|Low Kick|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|faint|p2a: Umbreon
+|
+|-heal|p1a: Kingambit|17/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743805286
+|switch|p2a: Mifune|Kingambit, M|100/100
+|-damage|p2a: Mifune|94/100|[from] Stealth Rock
+|-activate|p2a: Mifune|ability: Supreme Overlord
+|-start|p2a: Mifune|fallen1|[silent]
+|turn|13
+|
+|t:|1743805293
+|move|p1a: Kingambit|Sucker Punch|p2a: Mifune
+|-resisted|p2a: Mifune
+|-damage|p2a: Mifune|48/100
+|move|p2a: Mifune|Sucker Punch||[still]
+|-fail|p2a: Mifune
+|
+|-heal|p2a: Mifune|96/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p1a: Kingambit|23/100|[from] item: Leftovers
+|-heal|p2a: Mifune|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743805308
+|move|p1a: Kingambit|Sucker Punch|p2a: Mifune
+|-resisted|p2a: Mifune
+|-damage|p2a: Mifune|50/100
+|move|p2a: Mifune|Kowtow Cleave|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|3/100
+|
+|-heal|p1a: Kingambit|10/100|[from] item: Leftovers
+|-heal|p2a: Mifune|56/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743805322
+|-end|p2a: Mifune|fallen1|[silent]
+|switch|p2a: bite-de-fer|Iron Moth|27/100
+|-damage|p2a: bite-de-fer|2/100|[from] Stealth Rock
+|move|p1a: Kingambit|Low Kick|p2a: bite-de-fer
+|-resisted|p2a: bite-de-fer
+|-damage|p2a: bite-de-fer|0 fnt
+|faint|p2a: bite-de-fer
+|-end|p2a: bite-de-fer|Quark Drive|[silent]
+|
+|-heal|p1a: Kingambit|16/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743805331
+|switch|p2a: Jack|Rillaboom, F|100/100
+|-damage|p2a: Jack|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Jack
+|turn|16
+|
+|t:|1743805347
+|move|p2a: Jack|Grassy Glide|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|
+|-heal|p2a: Jack|94/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743805351
+|switch|p1a: Moltres|Moltres|41/100
+|turn|17
+|
+|t:|1743805359
+|switch|p2a: flopman|Slowking, F|99/100
+|-damage|p2a: flopman|86/100|[from] Stealth Rock
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|91/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-heal|p1a: Moltres|97/100|[from] Grassy Terrain
+|-heal|p2a: flopman|92/100|[from] Grassy Terrain
+|-heal|p2a: flopman|98/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743805372
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: flopman|Scald|p1a: Hatterene
+|-damage|p1a: Hatterene|71/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1743805376
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|
+|-heal|p2a: flopman|100/100|[from] Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1743805384
+|move|p1a: Pecharunt|Malignant Chain|p2a: flopman
+|-damage|p2a: flopman|65/100
+|move|p2a: flopman|Thunder Wave|p1a: Pecharunt
+|-status|p1a: Pecharunt|par
+|
+|-heal|p2a: flopman|72/100|[from] Grassy Terrain
+|-heal|p2a: flopman|78/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743805397
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|move|p1a: Pecharunt|Parting Shot|p2a: Great Tusk
+|-unboost|p2a: Great Tusk|atk|1
+|-unboost|p2a: Great Tusk|spa|1
+|
+|t:|1743805414
+|switch|p1a: Moltres|Moltres|97/100|[from] Parting Shot
+|
+|-heal|p2a: Great Tusk|100/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|21
+|
+|t:|1743805425
+|move|p2a: Great Tusk|Rapid Spin|p1a: Moltres
+|-damage|p1a: Moltres|86/100
+|-boost|p2a: Great Tusk|spe|1
+|-status|p2a: Great Tusk|brn|[from] ability: Flame Body|[of] p1a: Moltres
+|-sideend|p2: SIGM4|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Moltres|Will-O-Wisp|p2a: Great Tusk
+|-fail|p2a: Great Tusk|brn
+|
+|-damage|p2a: Great Tusk|94/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1743805438
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: flopman|Slowking, F|100/100
+|move|p1a: Moltres|U-turn|p2a: flopman
+|-supereffective|p2a: flopman
+|-damage|p2a: flopman|81/100
+|
+|t:|1743805442
+|switch|p1a: Pecharunt|Pecharunt|100/100 par|[from] U-turn
+|
+|-heal|p2a: flopman|87/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743805449
+|cant|p1a: Pecharunt|par
+|-prepare|p2a: flopman|Chilly Reception|[premajor]
+|move|p2a: flopman|Chilly Reception|p2a: flopman
+|-weather|Snowscape
+|
+|t:|1743805456
+|switch|p2a: Great Tusk|Great Tusk|94/100 brn|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Great Tusk|88/100 brn|[from] brn
+|upkeep
+|turn|24
+|l|☆les amateur
+|player|p1|
+|j|☆les amateur
+|player|p1|les amateur|265|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by les amateur)
+|
+|t:|1743805573
+|switch|p1a: Moltres|Moltres|86/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Moltres
+|-immune|p1a: Moltres
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Great Tusk|82/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1743805585
+|move|p2a: Great Tusk|Ice Spinner|p1a: Moltres
+|-damage|p1a: Moltres|73/100
+|move|p1a: Moltres|Will-O-Wisp|p2a: Great Tusk
+|-fail|p2a: Great Tusk|brn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Great Tusk|76/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1743805595
+|move|p2a: Great Tusk|Close Combat|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|57/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Moltres|Fire Blast|p2a: Great Tusk
+|-damage|p2a: Great Tusk|7/100 brn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Great Tusk|1/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1743805617
+|move|p2a: Great Tusk|Close Combat|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|43/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|93/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-weather|none
+|-damage|p2a: Great Tusk|0 fnt|[from] brn
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1743805629
+|switch|p2a: flopman|Slowking, F|100/100
+|turn|28
+|
+|t:|1743805637
+|switch|p1a: Pecharunt|Pecharunt|100/100 par
+|move|p2a: flopman|Scald|p1a: Pecharunt
+|-damage|p1a: Pecharunt|75/100 par
+|
+|upkeep
+|turn|29
+|
+|t:|1743805644
+|move|p1a: Pecharunt|Malignant Chain|p2a: flopman
+|-damage|p2a: flopman|62/100
+|-status|p2a: flopman|tox
+|-start|p2a: flopman|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|-activate|p2a: flopman|confusion
+|move|p2a: flopman|Scald|p1a: Pecharunt
+|-damage|p1a: Pecharunt|48/100 par
+|
+|-heal|p2a: flopman|69/100 tox|[from] item: Leftovers
+|-damage|p2a: flopman|62/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1743805656
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|98/100 par
+|-activate|p2a: flopman|confusion
+|move|p2a: flopman|Scald|p1a: Pecharunt
+|-crit|p1a: Pecharunt
+|-damage|p1a: Pecharunt|57/100 par
+|
+|-heal|p2a: flopman|69/100 tox|[from] item: Leftovers
+|-damage|p2a: flopman|56/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1743805672
+|move|p1a: Pecharunt|Parting Shot|p2a: flopman
+|-unboost|p2a: flopman|atk|1
+|-unboost|p2a: flopman|spa|1
+|
+|t:|1743805674
+|switch|p1a: Hatterene|Hatterene, F|71/100|[from] Parting Shot
+|-end|p2a: flopman|confusion
+|move|p2a: flopman|Scald|p1a: Hatterene
+|-damage|p1a: Hatterene|51/100
+|
+|-heal|p2a: flopman|62/100 tox|[from] item: Leftovers
+|-damage|p2a: flopman|44/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1743805686
+|-prepare|p2a: flopman|Chilly Reception|[premajor]
+|move|p2a: flopman|Chilly Reception|p2a: flopman
+|-weather|Snowscape
+|
+|t:|1743805690
+|switch|p2a: Jack|Rillaboom, F|94/100|[from] Chilly Reception
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Jack
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Jack|100/100|[from] Grassy Terrain
+|upkeep
+|-message|SIGM4 forfeited.
+|
+|win|les amateur
+|raw|les amateur's rating: 1214 &rarr; <strong>1239</strong><br />(+25 for winning)
+|raw|SIGM4's rating: 1213 &rarr; <strong>1188</strong><br />(-25 for losing)
+|l|☆SIGM4
+|player|p2|

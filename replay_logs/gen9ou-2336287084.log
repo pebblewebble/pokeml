@@ -1,0 +1,242 @@
+|j|☆nom2.0
+|j|☆flan727
+|t:|1743898667
+|gametype|singles
+|player|p1|nom2.0|266|1573
+|player|p2|flan727|unknownf|1501
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garganacl, M|
+|poke|p1|Meowscarada, M|
+|poke|p1|Primarina, M|
+|poke|p1|Iron Moth|
+|poke|p1|Dragonite, M|
+|poke|p1|Iron Treads|
+|poke|p2|Indeedee, M|
+|poke|p2|Polteageist-Antique|
+|poke|p2|Hatterene, F|
+|poke|p2|Maushold-Four|
+|poke|p2|Blaziken, F|
+|poke|p2|Iron Boulder|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by flan727)
+|
+|t:|1743898673
+|start
+|switch|p1a: Meowscarada|Meowscarada, M, shiny|100/100
+|switch|p2a: publ|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: publ
+|turn|1
+|
+|t:|1743898675
+|switch|p2a: cool hat|Hatterene, F, shiny|100/100
+|move|p1a: Meowscarada|U-turn|p2a: cool hat
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-crit|p2a: cool hat
+|-damage|p2a: cool hat|37/100
+|-enditem|p2a: cool hat|Eject Button
+|
+|t:|1743898688
+|switch|p2a: oolong tea|Polteageist-Antique, shiny|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743898691
+|move|p1a: Meowscarada|U-turn|p2a: oolong tea
+|-resisted|p2a: oolong tea
+|-damage|p2a: oolong tea|59/100
+|-ability|p2a: oolong tea|Weak Armor|boost
+|-unboost|p2a: oolong tea|def|1
+|-boost|p2a: oolong tea|spe|2
+|
+|t:|1743898697
+|switch|p1a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|move|p2a: oolong tea|Shell Smash|p2a: oolong tea
+|-unboost|p2a: oolong tea|def|1
+|-unboost|p2a: oolong tea|spd|1
+|-boost|p2a: oolong tea|atk|2
+|-boost|p2a: oolong tea|spa|2
+|-boost|p2a: oolong tea|spe|2
+|
+|upkeep
+|turn|3
+|
+|t:|1743898702
+|move|p2a: oolong tea|Shadow Ball|p1a: Iron Treads
+|-damage|p1a: Iron Treads|52/100
+|move|p1a: Iron Treads|Knock Off|p2a: oolong tea
+|-supereffective|p2a: oolong tea
+|-damage|p2a: oolong tea|0 fnt
+|-enditem|p2a: oolong tea|Focus Sash|[from] move: Knock Off|[of] p1a: Iron Treads
+|faint|p2a: oolong tea
+|
+|upkeep
+|
+|t:|1743898718
+|switch|p2a: rock guy|Iron Boulder|100/100
+|-enditem|p2a: rock guy|Booster Energy
+|-activate|p2a: rock guy|ability: Quark Drive|[fromitem]
+|-start|p2a: rock guy|quarkdrivespe
+|turn|4
+|
+|t:|1743898724
+|-terastallize|p2a: rock guy|Grass
+|move|p2a: rock guy|Mighty Cleave|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|43/100
+|move|p1a: Iron Treads|Earthquake|p2a: rock guy
+|-resisted|p2a: rock guy
+|-damage|p2a: rock guy|78/100
+|
+|upkeep
+|turn|5
+|c|☆flan727|misclick oops
+|c|☆flan727|meant to sd
+|
+|t:|1743898739
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|move|p2a: rock guy|Swords Dance|p2a: rock guy
+|-boost|p2a: rock guy|atk|2
+|
+|upkeep
+|turn|6
+|
+|t:|1743898744
+|move|p2a: rock guy|Mighty Cleave|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|14/100
+|move|p1a: Dragonite|Hurricane|p2a: rock guy
+|-supereffective|p2a: rock guy
+|-damage|p2a: rock guy|1/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743898752
+|switch|p1a: Iron Treads|Iron Treads|43/100
+|move|p2a: rock guy|Mighty Cleave|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|25/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743898757
+|move|p2a: rock guy|Close Combat|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-unboost|p2a: rock guy|def|1
+|-unboost|p2a: rock guy|spd|1
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1743898759
+|switch|p1a: Dragonite|Dragonite, M|14/100
+|turn|9
+|
+|t:|1743898762
+|-end|p2a: rock guy|Quark Drive|[silent]
+|switch|p2a: publ|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: publ
+|move|p1a: Dragonite|Extreme Speed|p2a: publ
+|-activate|p2a: publ|move: Psychic Terrain
+|
+|upkeep
+|turn|10
+|
+|t:|1743898771
+|move|p2a: publ|Dazzling Gleam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1743898780
+|switch|p1a: Meowscarada|Meowscarada, M, shiny|100/100
+|turn|11
+|
+|t:|1743898786
+|switch|p2a: cool hat|Hatterene, F, shiny|37/100
+|move|p1a: Meowscarada|U-turn|p2a: cool hat
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-damage|p2a: cool hat|0 fnt
+|faint|p2a: cool hat
+|
+|t:|1743898794
+|switch|p1a: Garganacl|Garganacl, M, shiny|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743898797
+|switch|p2a: rock guy|Iron Boulder, tera:Grass|1/100
+|turn|12
+|
+|t:|1743898802
+|move|p2a: rock guy|Close Combat|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|57/100
+|-unboost|p2a: rock guy|def|1
+|-unboost|p2a: rock guy|spd|1
+|move|p1a: Garganacl|Salt Cure|p2a: rock guy
+|-damage|p2a: rock guy|0 fnt
+|faint|p2a: rock guy
+|-end|p2a: rock guy|Quark Drive|[silent]
+|
+|-heal|p1a: Garganacl|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743898807
+|switch|p2a: kfc|Blaziken, F|100/100
+|turn|13
+|
+|t:|1743898811
+|move|p2a: kfc|Swords Dance|p2a: kfc
+|-boost|p2a: kfc|atk|2
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|
+|-heal|p1a: Garganacl|69/100|[from] item: Leftovers
+|-ability|p2a: kfc|Speed Boost|boost
+|-boost|p2a: kfc|spe|1
+|upkeep
+|turn|14
+|
+|t:|1743898819
+|-terastallize|p1a: Garganacl|Ghost
+|move|p2a: kfc|Swords Dance|p2a: kfc
+|-boost|p2a: kfc|atk|2
+|move|p1a: Garganacl|Earthquake|p2a: kfc
+|-supereffective|p2a: kfc
+|-damage|p2a: kfc|0 fnt
+|faint|p2a: kfc
+|
+|-heal|p1a: Garganacl|75/100|[from] item: Leftovers
+|upkeep
+|-message|flan727 forfeited.
+|
+|win|nom2.0
+|raw|nom2.0's rating: 1573 &rarr; <strong>1589</strong><br />(+16 for winning)
+|raw|flan727's rating: 1501 &rarr; <strong>1485</strong><br />(-16 for losing)
+|l|☆flan727
+|player|p2|
+|l|☆nom2.0
+|player|p1|

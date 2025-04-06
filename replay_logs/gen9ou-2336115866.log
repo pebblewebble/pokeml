@@ -1,0 +1,401 @@
+|j|☆wutheringrudi
+|j|☆cruzro13
+|t:|1743880412
+|gametype|singles
+|player|p1|wutheringrudi|170|1119
+|player|p2|cruzro13|biker-gen4|1086
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Glimmora, F|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Maushold-Four|
+|poke|p1|Vivillon-Pokeball, M|
+|poke|p1|Polteageist-Antique|
+|poke|p1|Great Tusk|
+|poke|p2|Corviknight, M|
+|poke|p2|Glimmora, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Arboliva, M|
+|poke|p2|Skeledirge, F|
+|poke|p2|Grimmsnarl, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cruzro13)
+|
+|t:|1743880416
+|start
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|switch|p2a: Agua de valencia|Glimmora, F, shiny|100/100
+|-item|p2a: Agua de valencia|Air Balloon
+|turn|1
+|
+|t:|1743880425
+|move|p1a: Glimmora|Meteor Beam||[still]
+|-prepare|p1a: Glimmora|Meteor Beam
+|-boost|p1a: Glimmora|spa|1
+|-enditem|p1a: Glimmora|Power Herb
+|-anim|p1a: Glimmora|Meteor Beam|p2a: Agua de valencia
+|-damage|p2a: Agua de valencia|9/100
+|-enditem|p2a: Agua de valencia|Air Balloon
+|move|p2a: Agua de valencia|Toxic|p1a: Glimmora
+|-status|p1a: Glimmora|tox
+|
+|-damage|p1a: Glimmora|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1743880432
+|move|p1a: Glimmora|Dazzling Gleam|p2a: Agua de valencia
+|-resisted|p2a: Agua de valencia
+|-damage|p2a: Agua de valencia|0 fnt
+|faint|p2a: Agua de valencia
+|
+|-damage|p1a: Glimmora|82/100 tox|[from] psn
+|upkeep
+|
+|t:|1743880445
+|switch|p2a: cerveza|Skeledirge, F, shiny|100/100
+|turn|3
+|
+|t:|1743880456
+|move|p1a: Glimmora|Meteor Beam||[still]
+|-prepare|p1a: Glimmora|Meteor Beam
+|-boost|p1a: Glimmora|spa|1
+|move|p2a: cerveza|Slack Off||[still]
+|-fail|p2a: cerveza|heal
+|
+|-damage|p1a: Glimmora|63/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743880469
+|switch|p2a: cubata|Ting-Lu|100/100
+|-ability|p2a: cubata|Vessel of Ruin
+|move|p1a: Glimmora|Meteor Beam|p2a: cubata|[from] lockedmove
+|-resisted|p2a: cubata
+|-damage|p2a: cubata|75/100
+|
+|-heal|p2a: cubata|82/100|[from] item: Leftovers
+|-damage|p1a: Glimmora|39/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743880479
+|move|p2a: cubata|Protect|p2a: cubata
+|-singleturn|p2a: cubata|Protect
+|move|p1a: Glimmora|Dazzling Gleam|p2a: cubata
+|-activate|p2a: cubata|move: Protect
+|
+|-heal|p2a: cubata|88/100|[from] item: Leftovers
+|-damage|p1a: Glimmora|8/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743880492
+|switch|p2a: sake|Grimmsnarl, M, shiny|100/100
+|move|p1a: Glimmora|Dazzling Gleam|p2a: sake
+|-supereffective|p2a: sake
+|-damage|p2a: sake|0 fnt
+|faint|p2a: sake
+|
+|-damage|p1a: Glimmora|0 fnt|[from] psn
+|faint|p1a: Glimmora
+|upkeep
+|
+|t:|1743880499
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|switch|p2a: cubata|Ting-Lu|88/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|-ability|p2a: cubata|Vessel of Ruin
+|turn|7
+|
+|t:|1743880502
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: wutheringrudi|move: Aurora Veil
+|move|p2a: cubata|Whirlwind|p1a: Ninetales
+|drag|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: cubata|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743880519
+|switch|p2a: cerveza|Skeledirge, F, shiny|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: cerveza
+|-immune|p2a: cerveza
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743880527
+|move|p1a: Great Tusk|Earthquake|p2a: cerveza
+|-supereffective|p2a: cerveza
+|-damage|p2a: cerveza|4/100
+|move|p2a: cerveza|Will-O-Wisp|p1a: Great Tusk
+|-status|p1a: Great Tusk|brn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Great Tusk|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743880534
+|switch|p2a: Barceló|Corviknight, M, shiny|100/100
+|-ability|p2a: Barceló|Pressure
+|move|p1a: Great Tusk|Earthquake|p2a: Barceló
+|-immune|p2a: Barceló
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Great Tusk|88/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743880543
+|move|p2a: Barceló|Protect|p2a: Barceló
+|-singleturn|p2a: Barceló|Protect
+|move|p1a: Great Tusk|Brick Break|p2a: Barceló
+|-activate|p2a: Barceló|move: Protect
+|
+|-weather|none
+|-damage|p1a: Great Tusk|82/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743880551
+|switch|p2a: cerveza|Skeledirge, F, shiny|4/100
+|move|p1a: Great Tusk|Brick Break|p2a: cerveza
+|-immune|p2a: cerveza
+|
+|-damage|p1a: Great Tusk|76/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743880562
+|switch|p2a: Barceló|Corviknight, M, shiny|100/100
+|-ability|p2a: Barceló|Pressure
+|move|p1a: Great Tusk|Earthquake|p2a: Barceló
+|-immune|p2a: Barceló
+|
+|-damage|p1a: Great Tusk|69/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743880568
+|move|p2a: Barceló|Protect|p2a: Barceló
+|-singleturn|p2a: Barceló|Protect
+|move|p1a: Great Tusk|Rapid Spin|p2a: Barceló
+|-activate|p2a: Barceló|move: Protect
+|
+|-damage|p1a: Great Tusk|63/100 brn|[from] brn
+|-sideend|p1: wutheringrudi|move: Aurora Veil
+|upkeep
+|turn|15
+|
+|t:|1743880584
+|move|p1a: Great Tusk|Earthquake|p2a: Barceló
+|-immune|p2a: Barceló
+|move|p2a: Barceló|Roost||[still]
+|-fail|p2a: Barceló|heal
+|
+|-damage|p1a: Great Tusk|57/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743880591
+|switch|p2a: cerveza|Skeledirge, F, shiny|4/100
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|
+|-damage|p1a: Great Tusk|51/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743880602
+|move|p1a: Great Tusk|Rapid Spin|p2a: cerveza
+|-immune|p2a: cerveza
+|move|p2a: cerveza|Slack Off|p2a: cerveza
+|-heal|p2a: cerveza|54/100
+|
+|-damage|p1a: Great Tusk|45/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743880612
+|move|p1a: Great Tusk|Earthquake|p2a: cerveza
+|-supereffective|p2a: cerveza
+|-crit|p2a: cerveza
+|-damage|p2a: cerveza|0 fnt
+|faint|p2a: cerveza
+|
+|-damage|p1a: Great Tusk|38/100 brn|[from] brn
+|upkeep
+|
+|t:|1743880624
+|switch|p2a: Barceló|Corviknight, M, shiny|100/100
+|-ability|p2a: Barceló|Pressure
+|turn|19
+|
+|t:|1743880639
+|move|p1a: Great Tusk|Rapid Spin|p2a: Barceló
+|-resisted|p2a: Barceló
+|-damage|p2a: Barceló|95/100
+|-boost|p1a: Great Tusk|spe|1
+|-damage|p1a: Great Tusk|22/100 brn|[from] item: Rocky Helmet|[of] p2a: Barceló
+|move|p2a: Barceló|Iron Defense|p2a: Barceló
+|-boost|p2a: Barceló|def|2
+|
+|-damage|p1a: Great Tusk|15/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1743880645
+|move|p2a: Barceló|Protect|p2a: Barceló
+|-singleturn|p2a: Barceló|Protect
+|move|p1a: Great Tusk|Brick Break|p2a: Barceló
+|-activate|p2a: Barceló|move: Protect
+|
+|-damage|p1a: Great Tusk|9/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1743880651
+|move|p1a: Great Tusk|Brick Break|p2a: Barceló
+|-damage|p2a: Barceló|83/100
+|-damage|p1a: Great Tusk|0 fnt|[from] item: Rocky Helmet|[of] p2a: Barceló
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|move|p2a: Barceló|Roost|p2a: Barceló
+|-heal|p2a: Barceló|100/100
+|-singleturn|p2a: Barceló|move: Roost
+|
+|upkeep
+|
+|t:|1743880657
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|22
+|
+|t:|1743880662
+|switch|p2a: sidra|Arboliva, M, shiny|100/100
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: wutheringrudi|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1743880666
+|move|p1a: Ninetales|Blizzard|p2a: sidra
+|-supereffective|p2a: sidra
+|-damage|p2a: sidra|50/100
+|-enditem|p2a: sidra|Sitrus Berry|[eat]
+|-heal|p2a: sidra|75/100|[from] item: Sitrus Berry
+|move|p2a: sidra|Mirror Coat|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-item|p2a: sidra|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|
+|t:|1743880669
+|switch|p1a: Polteageist|Polteageist-Antique|100/100
+|turn|24
+|
+|t:|1743880679
+|-terastallize|p1a: Polteageist|Fairy
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|-enditem|p1a: Polteageist|White Herb
+|-clearnegativeboost|p1a: Polteageist|[silent]
+|move|p2a: sidra|Leech Seed|p1a: Polteageist
+|-start|p1a: Polteageist|move: Leech Seed
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Polteageist|88/100|[from] Leech Seed|[of] p2a: sidra
+|-heal|p2a: sidra|84/100|[silent]
+|upkeep
+|turn|25
+|
+|t:|1743880691
+|move|p1a: Polteageist|Stored Power|p2a: sidra
+|-damage|p2a: sidra|11/100
+|-enditem|p2a: sidra|Sitrus Berry|[eat]
+|-heal|p2a: sidra|36/100|[from] item: Sitrus Berry
+|move|p2a: sidra|Strength Sap|p1a: Polteageist
+|-unboost|p1a: Polteageist|atk|1
+|-heal|p2a: sidra|100/100
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Polteageist|76/100|[from] Leech Seed|[of] p2a: sidra
+|upkeep
+|turn|26
+|
+|t:|1743880695
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|move|p2a: sidra|Mirror Coat||[still]
+|-fail|p2a: sidra
+|
+|-weather|none
+|-damage|p1a: Polteageist|64/100|[from] Leech Seed|[of] p2a: sidra
+|-item|p2a: sidra|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|27
+|
+|t:|1743880699
+|move|p1a: Polteageist|Stored Power|p2a: sidra
+|-damage|p2a: sidra|0 fnt
+|faint|p2a: sidra
+|
+|upkeep
+|
+|t:|1743880703
+|switch|p2a: cubata|Ting-Lu|94/100
+|-ability|p2a: cubata|Vessel of Ruin
+|turn|28
+|
+|t:|1743880708
+|move|p1a: Polteageist|Giga Drain|p2a: cubata
+|-supereffective|p2a: cubata
+|-damage|p2a: cubata|26/100
+|-heal|p1a: Polteageist|100/100|[from] drain|[of] p2a: cubata
+|move|p2a: cubata|Whirlwind|p1a: Polteageist
+|drag|p1a: Vivillon|Vivillon-Pokeball, M|100/100
+|
+|-heal|p2a: cubata|33/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|-message|cruzro13 forfeited.
+|
+|win|wutheringrudi
+|raw|wutheringrudi's rating: 1119 &rarr; <strong>1142</strong><br />(+23 for winning)
+|raw|cruzro13's rating: 1086 &rarr; <strong>1065</strong><br />(-21 for losing)
+|l|☆cruzro13
+|player|p2|
+|l|☆wutheringrudi
+|player|p1|

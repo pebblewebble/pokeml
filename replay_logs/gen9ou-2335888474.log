@@ -1,0 +1,383 @@
+|j|☆hawker_mk5
+|j|☆nokthenerd
+|t:|1743854369
+|gametype|singles
+|player|p1|hawker_mk5|volkner|1540
+|player|p2|nokthenerd|iris-gen5bw2|1502
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Metagross|
+|poke|p1|Rotom-Wash|
+|poke|p1|Kyurem|
+|poke|p1|Primarina, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Gliscor, F|
+|poke|p2|Rillaboom, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Enamorus, F|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Crown|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hawker_mk5)
+|
+|t:|1743854377
+|start
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1743854388
+|move|p2a: Rillaboom|Knock Off|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|21/100
+|-enditem|p1a: Metagross|Choice Band|[from] move: Knock Off|[of] p2a: Rillaboom
+|move|p1a: Metagross|Heavy Slam|p2a: Rillaboom
+|-damage|p2a: Rillaboom|24/100
+|
+|-heal|p2a: Rillaboom|30/100|[from] Grassy Terrain
+|-heal|p1a: Metagross|27/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1743854392
+|move|p1a: Metagross|Bullet Punch|p2a: Rillaboom
+|-damage|p2a: Rillaboom|5/100
+|move|p2a: Rillaboom|Knock Off|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|-heal|p2a: Rillaboom|11/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743854397
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|3
+|
+|t:|1743854401
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|move|p1a: Cinderace|U-turn|p2a: Great Tusk
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|89/100
+|-damage|p1a: Cinderace|84/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|
+|t:|1743854409
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from] U-turn
+|
+|-heal|p2a: Great Tusk|96/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1743854419
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Rotom|Will-O-Wisp|p2a: Raging Bolt
+|-status|p2a: Raging Bolt|brn
+|
+|-damage|p2a: Raging Bolt|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743854425
+|move|p1a: Rotom|Volt Switch|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|89/100 brn
+|
+|t:|1743854429
+|switch|p1a: Gliscor|Gliscor, F|100/100|[from] Volt Switch
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Gliscor
+|-damage|p1a: Gliscor|42/100
+|
+|-heal|p2a: Raging Bolt|95/100 brn|[from] Grassy Terrain
+|-damage|p2a: Raging Bolt|89/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|t:|1743854439
+|move|p1a: Gliscor|Earthquake|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|29/100 brn
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-damage|p2a: Raging Bolt|23/100 brn|[from] brn
+|upkeep
+|
+|t:|1743854446
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|7
+|
+|t:|1743854458
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|move|p1a: Kyurem|Ice Beam|p2a: Iron Crown
+|-resisted|p2a: Iron Crown
+|-damage|p2a: Iron Crown|66/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743854466
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|91/100
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|81/100
+|-hitcount|p1a: Rotom|2
+|
+|-heal|p1a: Rotom|87/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743854483
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Ursaluna|Ursaluna, F, shiny|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Ursaluna
+|-immune|p2a: Ursaluna
+|
+|-heal|p1a: Rotom|93/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743854491
+|move|p1a: Rotom|Hydro Pump|p2a: Ursaluna|[miss]
+|-miss|p1a: Rotom|p2a: Ursaluna
+|move|p2a: Ursaluna|Body Slam|p1a: Rotom
+|-damage|p1a: Rotom|61/100
+|
+|-heal|p1a: Rotom|67/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743854495
+|move|p1a: Rotom|Hydro Pump|p2a: Ursaluna|[miss]
+|-miss|p1a: Rotom|p2a: Ursaluna
+|move|p2a: Ursaluna|Body Slam|p1a: Rotom
+|-damage|p1a: Rotom|31/100
+|
+|-heal|p1a: Rotom|38/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆nokthenerd|sorry
+|
+|t:|1743854502
+|move|p1a: Rotom|Pain Split|p2a: Ursaluna
+|-sethp|p2a: Ursaluna|63/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|95/100|[from] move: Pain Split
+|move|p2a: Ursaluna|Body Slam|p1a: Rotom
+|-damage|p1a: Rotom|62/100
+|
+|-heal|p1a: Rotom|68/100|[from] item: Leftovers
+|-heal|p2a: Ursaluna|69/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743854509
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Rotom|Hydro Pump|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|
+|-heal|p1a: Rotom|74/100|[from] item: Leftovers
+|-heal|p2a: Ursaluna|75/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743854512
+|move|p1a: Rotom|Hydro Pump|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|27/100
+|move|p2a: Ursaluna|Body Slam|p1a: Rotom
+|-damage|p1a: Rotom|43/100
+|
+|-heal|p1a: Rotom|50/100|[from] item: Leftovers
+|-heal|p2a: Ursaluna|33/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743854518
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Rotom|Hydro Pump|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|
+|-heal|p1a: Rotom|56/100|[from] item: Leftovers
+|-heal|p2a: Ursaluna|39/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743854521
+|move|p1a: Rotom|Hydro Pump|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-heal|p1a: Rotom|62/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743854528
+|switch|p2a: Raging Bolt|Raging Bolt|23/100 brn
+|turn|17
+|
+|t:|1743854534
+|move|p1a: Rotom|Hydro Pump|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|6/100 brn
+|move|p2a: Raging Bolt|Discharge|p1a: Rotom
+|-damage|p1a: Rotom|7/100
+|
+|-heal|p1a: Rotom|13/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|0 fnt|[from] brn
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1743854542
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|18
+|
+|t:|1743854547
+|switch|p1a: Primarina|Primarina, M|100/100
+|move|p2a: Enamorus|Moonblast|p1a: Primarina
+|-damage|p1a: Primarina|67/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743854554
+|move|p2a: Enamorus|Moonblast|p1a: Primarina
+|-damage|p1a: Primarina|37/100
+|move|p1a: Primarina|Surf|p2a: Enamorus
+|-damage|p2a: Enamorus|27/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743854569
+|switch|p2a: Rillaboom|Rillaboom, F|11/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Primarina|Moonblast|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Primarina|43/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743854572
+|switch|p2a: Iron Crown|Iron Crown|66/100
+|turn|21
+|
+|t:|1743854575
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Primarina
+|-damage|p1a: Primarina|19/100
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|-hitcount|p1: Primarina|2
+|
+|-heal|p2a: Iron Crown|72/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743854583
+|switch|p1a: Rotom|Rotom-Wash|13/100
+|turn|22
+|
+|t:|1743854586
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|4/100
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|-hitcount|p1: Rotom|2
+|
+|-heal|p2a: Iron Crown|78/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743854590
+|switch|p1a: Cinderace|Cinderace, M|84/100
+|turn|23
+|
+|t:|1743854595
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Great Tusk|Great Tusk, shiny|96/100
+|move|p1a: Cinderace|U-turn|p2a: Great Tusk
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|84/100
+|-damage|p1a: Cinderace|67/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|
+|t:|1743854597
+|switch|p1a: Kyurem|Kyurem|100/100|[from] U-turn
+|-ability|p1a: Kyurem|Pressure
+|
+|-heal|p2a: Great Tusk|90/100|[from] Grassy Terrain
+|upkeep
+|turn|24
+|
+|t:|1743854609
+|-terastallize|p2a: Great Tusk|Water
+|move|p1a: Kyurem|Ice Beam|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|42/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Kyurem
+|-damage|p1a: Kyurem|52/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-heal|p1a: Kyurem|58/100|[from] Grassy Terrain
+|-heal|p2a: Great Tusk|48/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|25
+|
+|t:|1743854630
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Iron Crown|Iron Crown|78/100
+|move|p1a: Kyurem|Ice Beam|p2a: Iron Crown
+|-resisted|p2a: Iron Crown
+|-damage|p2a: Iron Crown|45/100
+|
+|upkeep
+|turn|26
+|
+|t:|1743854639
+|-terastallize|p1a: Kyurem|Ice
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-crit|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|-hitcount|p1: Kyurem|1
+|
+|upkeep
+|-message|hawker_mk5 forfeited.
+|
+|win|nokthenerd
+|raw|hawker_mk5's rating: 1540 &rarr; <strong>1518</strong><br />(-22 for losing)
+|raw|nokthenerd's rating: 1502 &rarr; <strong>1524</strong><br />(+22 for winning)
+|l|☆hawker_mk5
+|player|p1|
+|l|☆nokthenerd
+|player|p2|

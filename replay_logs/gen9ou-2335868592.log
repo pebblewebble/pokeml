@@ -1,0 +1,270 @@
+|j|☆YaBoiDon
+|j|☆Edlaceman
+|t:|1743851103
+|gametype|singles
+|player|p1|YaBoiDon|265|1257
+|player|p2|Edlaceman|ghetsis|1272
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Incineroar, M|
+|poke|p1|Lycanroc-Dusk, F|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Kommo-o, F|
+|poke|p1|Mimikyu, M|
+|poke|p1|Primarina, M|
+|poke|p2|Iron Moth|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Tinkaton, F|
+|teampreview
+|
+|t:|1743851118
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|switch|p2a: Tinkaton|Tinkaton, F, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|-ability|p2a: Tinkaton|Mold Breaker
+|-item|p2a: Tinkaton|Air Balloon
+|turn|1
+|
+|t:|1743851130
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Tinkaton|atk|1
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|90/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743851141
+|move|p2a: Tinkaton|Stealth Rock|p1a: Incineroar
+|-sidestart|p1: YaBoiDon|move: Stealth Rock
+|move|p1a: Incineroar|Will-O-Wisp|p2a: Tinkaton
+|-status|p2a: Tinkaton|brn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Tinkaton|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743851148
+|move|p2a: Tinkaton|Thunder Wave|p1a: Incineroar
+|-status|p1a: Incineroar|par
+|cant|p1a: Incineroar|par
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Tinkaton|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743851155
+|move|p2a: Tinkaton|Knock Off|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|88/100 par
+|-enditem|p1a: Incineroar|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Tinkaton
+|move|p1a: Incineroar|Flare Blitz|p2a: Tinkaton
+|-supereffective|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|-enditem|p2a: Tinkaton|Air Balloon
+|faint|p2a: Tinkaton
+|-damage|p1a: Incineroar|61/100 par|[from] Recoil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743851165
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|5
+|
+|t:|1743851191
+|move|p2a: Great Tusk|Earthquake|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-weather|none
+|upkeep
+|
+|t:|1743851194
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-damage|p1a: Ninetales|75/100|[from] Stealth Rock
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|6
+|
+|t:|1743851209
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: YaBoiDon|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743851221
+|move|p1a: Ninetales|Moonblast|p2a: Garganacl
+|-damage|p2a: Garganacl|74/100
+|-unboost|p2a: Garganacl|spa|1
+|move|p2a: Garganacl|Salt Cure|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|62/100
+|-start|p1a: Ninetales|Salt Cure
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Garganacl|80/100|[from] item: Leftovers
+|-damage|p1a: Ninetales|49/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1743851244
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|-damage|p1a: Kommo-o|94/100|[from] Stealth Rock
+|move|p2a: Garganacl|Salt Cure|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|91/100
+|-start|p1a: Kommo-o|Salt Cure
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Garganacl|87/100|[from] item: Leftovers
+|-damage|p1a: Kommo-o|79/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1743851260
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|46/100
+|-enditem|p1a: Kommo-o|Sitrus Berry|[eat]
+|-heal|p1a: Kommo-o|70/100|[from] item: Sitrus Berry
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Kommo-o|58/100|[from] Salt Cure
+|upkeep
+|turn|10
+|
+|t:|1743851273
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|25/100
+|move|p2a: Great Tusk|Ice Spinner|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|11/100
+|
+|-weather|none
+|-damage|p1a: Kommo-o|0 fnt|[from] Salt Cure
+|faint|p1a: Kommo-o
+|upkeep
+|
+|t:|1743851283
+|switch|p1a: Primarina|Primarina, M|100/100
+|-damage|p1a: Primarina|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1743851290
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Garganacl|Garganacl, M|87/100
+|move|p1a: Primarina|Moonblast|p2a: Garganacl
+|-damage|p2a: Garganacl|53/100
+|-unboost|p2a: Garganacl|spa|1
+|
+|-heal|p2a: Garganacl|59/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743851298
+|move|p1a: Primarina|Surf|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|upkeep
+|
+|t:|1743851312
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|13
+|
+|t:|1743851339
+|move|p2a: Ogerpon|Knock Off|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|76/100
+|-enditem|p1a: Primarina|Assault Vest|[from] move: Knock Off|[of] p2a: Ogerpon
+|move|p1a: Primarina|Moonblast|p2a: Ogerpon
+|-damage|p2a: Ogerpon|37/100
+|
+|-sideend|p1: YaBoiDon|move: Aurora Veil
+|upkeep
+|turn|14
+|
+|t:|1743851377
+|switch|p1a: Lycanroc|Lycanroc-Dusk, F|100/100
+|-damage|p1a: Lycanroc|88/100|[from] Stealth Rock
+|move|p2a: Ogerpon|Horn Leech|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|-heal|p2a: Ogerpon|80/100|[from] drain|[of] p1a: Lycanroc
+|faint|p1a: Lycanroc
+|
+|upkeep
+|
+|t:|1743851382
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|-damage|p1a: Mimikyu|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743851407
+|move|p2a: Ogerpon|Knock Off|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|88/100
+|-enditem|p1a: Mimikyu|Red Card|[from] move: Knock Off|[of] p2a: Ogerpon
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M
+|-damage|p1a: Mimikyu|76/100|[from] pokemon: Mimikyu-Busted
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|
+|upkeep
+|turn|16
+|
+|t:|1743851420
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Mimikyu|[anim] Ivy Cudgel Water
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|upkeep
+|-message|YaBoiDon forfeited.
+|
+|win|Edlaceman
+|raw|YaBoiDon's rating: 1257 &rarr; <strong>1233</strong><br />(-24 for losing)
+|raw|Edlaceman's rating: 1272 &rarr; <strong>1296</strong><br />(+24 for winning)
+|l|☆YaBoiDon
+|player|p1|
+|l|☆Edlaceman
+|player|p2|

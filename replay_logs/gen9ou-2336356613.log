@@ -1,0 +1,299 @@
+|j|☆GenderQueerados
+|j|☆Tscher
+|t:|1743906825
+|gametype|singles
+|player|p1|GenderQueerados|wallace|1319
+|player|p2|Tscher|101|1263
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Empoleon, F|
+|poke|p1|Gholdengo|
+|poke|p1|Garchomp, F|
+|poke|p1|Zapdos|
+|poke|p1|Skeledirge, F|
+|poke|p1|Darkrai|
+|poke|p2|Cinccino, F|
+|poke|p2|Great Tusk|
+|poke|p2|Ceruledge, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Mimikyu, F|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|t:|1743906830
+|start
+|switch|p1a: Cynthia|Garchomp, F|100/100
+|switch|p2a: Don|Cinccino, F|100/100
+|turn|1
+|
+|t:|1743906839
+|move|p2a: Don|Tidy Up|p2a: Don
+|-boost|p2a: Don|atk|1
+|-boost|p2a: Don|spe|1
+|move|p1a: Cynthia|Stealth Rock|p2a: Don
+|-sidestart|p2: Tscher|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743906853
+|move|p2a: Don|Triple Axel|p1a: Cynthia
+|-supereffective|p1a: Cynthia
+|-damage|p1a: Cynthia|77/100
+|-damage|p2a: Don|88/100|[from] ability: Rough Skin|[of] p1a: Cynthia
+|-damage|p2a: Don|72/100|[from] item: Rocky Helmet|[of] p1a: Cynthia
+|-supereffective|p1a: Cynthia
+|-damage|p1a: Cynthia|33/100
+|-damage|p2a: Don|59/100|[from] ability: Rough Skin|[of] p1a: Cynthia
+|-damage|p2a: Don|43/100|[from] item: Rocky Helmet|[of] p1a: Cynthia
+|-supereffective|p1a: Cynthia
+|-damage|p1a: Cynthia|0 fnt
+|-damage|p2a: Don|30/100|[from] ability: Rough Skin|[of] p1a: Cynthia
+|-damage|p2a: Don|14/100|[from] item: Rocky Helmet|[of] p1a: Cynthia
+|faint|p1a: Cynthia
+|-hitcount|p1: Cynthia|3
+|
+|upkeep
+|
+|t:|1743906872
+|switch|p1a: Coco|Skeledirge, F|100/100
+|turn|3
+|
+|t:|1743906877
+|move|p2a: Don|Tidy Up|p2a: Don
+|-sideend|p2: Tscher|Stealth Rock
+|-activate|p2a: Don|move: Tidy Up
+|-boost|p2a: Don|atk|1
+|-boost|p2a: Don|spe|1
+|move|p1a: Coco|Torch Song|p2a: Don
+|-damage|p2a: Don|0 fnt
+|-boost|p1a: Coco|spa|1
+|faint|p2a: Don
+|
+|upkeep
+|
+|t:|1743906891
+|switch|p2a: Obesity|Great Tusk|100/100
+|-enditem|p2a: Obesity|Booster Energy
+|-activate|p2a: Obesity|ability: Protosynthesis|[fromitem]
+|-start|p2a: Obesity|protosynthesisatk
+|turn|4
+|
+|t:|1743906898
+|move|p2a: Obesity|Knock Off|p1a: Coco
+|-supereffective|p1a: Coco
+|-damage|p1a: Coco|48/100
+|-enditem|p1a: Coco|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Obesity
+|move|p1a: Coco|Will-O-Wisp|p2a: Obesity
+|-status|p2a: Obesity|brn
+|
+|-damage|p2a: Obesity|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743906908
+|move|p2a: Obesity|Headlong Rush|p1a: Coco
+|-supereffective|p1a: Coco
+|-crit|p1a: Coco
+|-damage|p1a: Coco|0 fnt
+|-unboost|p2a: Obesity|def|1
+|-unboost|p2a: Obesity|spd|1
+|faint|p1a: Coco
+|
+|-damage|p2a: Obesity|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1743906927
+|switch|p1a: sapdoZ|Zapdos|100/100
+|turn|6
+|
+|t:|1743906932
+|move|p2a: Obesity|Knock Off|p1a: sapdoZ
+|-damage|p1a: sapdoZ|78/100
+|-enditem|p1a: sapdoZ|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Obesity
+|move|p1a: sapdoZ|Hurricane|p2a: Obesity
+|-supereffective|p2a: Obesity
+|-damage|p2a: Obesity|0 fnt
+|faint|p2a: Obesity
+|-end|p2a: Obesity|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743906958
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|7
+|
+|t:|1743906963
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: sapdoZ|Discharge|p2a: Gholdengo
+|-damage|p2a: Gholdengo|62/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|8
+|
+|t:|1743906972
+|move|p2a: Gholdengo|Shadow Ball|p1a: sapdoZ
+|-damage|p1a: sapdoZ|19/100
+|move|p1a: sapdoZ|Discharge|p2a: Gholdengo
+|-damage|p2a: Gholdengo|24/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743906980
+|switch|p1a: Halsey|Darkrai|100/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Halsey
+|-resisted|p1a: Halsey
+|-damage|p1a: Halsey|48/100
+|
+|-heal|p1a: Halsey|54/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743906991
+|switch|p1a: sapdoZ|Zapdos|19/100
+|move|p2a: Gholdengo|Make It Rain|p1a: sapdoZ
+|-resisted|p1a: sapdoZ
+|-damage|p1a: sapdoZ|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: sapdoZ
+|
+|upkeep
+|
+|t:|1743907002
+|switch|p1a: Pippi|Empoleon, F|100/100
+|turn|11
+|
+|t:|1743907008
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|74/100
+|move|p1a: Pippi|Surf|p2a: Gholdengo
+|-damage|p2a: Gholdengo|19/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743907016
+|move|p2a: Gholdengo|Shadow Ball|p1a: Pippi
+|-damage|p1a: Pippi|59/100
+|-unboost|p1a: Pippi|spd|1
+|-ability|p1a: Pippi|Competitive|boost
+|-boost|p1a: Pippi|spa|2
+|move|p1a: Pippi|Surf|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743907040
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|turn|13
+|
+|t:|1743907048
+|move|p2a: Mimikyu|Drain Punch|p1a: Pippi
+|-supereffective|p1a: Pippi
+|-damage|p1a: Pippi|20/100
+|move|p1a: Pippi|Flash Cannon|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|-unboost|p2a: Mimikyu|spd|1
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p2a: Mimikyu|Red Card|[of] p1a: Pippi
+|drag|p1a: Halsey|Darkrai|54/100
+|
+|-heal|p1a: Halsey|60/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743907065
+|move|p1a: Halsey|Sludge Bomb|p2a: Mimikyu
+|-damage|p2a: Mimikyu|37/100
+|move|p2a: Mimikyu|Drain Punch|p1a: Halsey
+|-supereffective|p1a: Halsey
+|-damage|p1a: Halsey|17/100
+|-heal|p2a: Mimikyu|67/100|[from] drain|[of] p1a: Halsey
+|
+|-heal|p1a: Halsey|23/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743907076
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Halsey
+|-resisted|p1a: Halsey
+|-damage|p1a: Halsey|15/100
+|move|p1a: Halsey|Dark Pulse|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|-heal|p1a: Halsey|21/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743907091
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|turn|16
+|
+|t:|1743907095
+|move|p1a: Halsey|Dark Pulse|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-crit|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-heal|p1a: Halsey|27/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743907111
+|-terastallize|p2a: Ceruledge|Ghost
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Halsey
+|-resisted|p1a: Halsey
+|-damage|p1a: Halsey|0 fnt
+|faint|p1a: Halsey
+|
+|upkeep
+|
+|t:|1743907118
+|switch|p1a: Gojo|Gholdengo|100/100
+|turn|18
+|
+|t:|1743907124
+|move|p2a: Ceruledge|Bitter Blade|p1a: Gojo
+|-supereffective|p1a: Gojo
+|-damage|p1a: Gojo|0 fnt
+|-heal|p2a: Ceruledge|66/100|[from] drain|[of] p1a: Gojo
+|faint|p1a: Gojo
+|
+|upkeep
+|
+|t:|1743907131
+|switch|p1a: Pippi|Empoleon, F|20/100
+|turn|19
+|
+|t:|1743907138
+|-terastallize|p1a: Pippi|Grass
+|move|p2a: Ceruledge|Bitter Blade|p1a: Pippi
+|-supereffective|p1a: Pippi
+|-damage|p1a: Pippi|0 fnt
+|-heal|p2a: Ceruledge|79/100|[from] drain|[of] p1a: Pippi
+|faint|p1a: Pippi
+|
+|win|Tscher
+|raw|GenderQueerados's rating: 1319 &rarr; <strong>1296</strong><br />(-23 for losing)
+|raw|Tscher's rating: 1263 &rarr; <strong>1292</strong><br />(+29 for winning)

@@ -1,0 +1,332 @@
+|j|☆captaintomfoolery
+|j|☆Frostywingz
+|t:|1743880650
+|gametype|singles
+|player|p1|captaintomfoolery|170|1238
+|player|p2|Frostywingz|sabrina|1212
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Crown|
+|poke|p1|Zamazenta-*|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Primarina, F|
+|poke|p1|Dragonite, F|
+|poke|p1|Kingambit, F|
+|poke|p2|Dusclops, F|
+|poke|p2|Articuno|
+|poke|p2|Cinccino, M|
+|poke|p2|Meowstic, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Ribombee, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Frostywingz)
+|
+|t:|1743880662
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ribombee|atk|1
+|turn|1
+|
+|t:|1743880667
+|switch|p2a: Dusclops|Dusclops, F|100/100
+|-item|p1a: Landorus|Soft Sand|[from] ability: Frisk|[of] p2a: Dusclops
+|move|p1a: Landorus|Taunt|p2a: Dusclops
+|-start|p2a: Dusclops|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1743880670
+|move|p1a: Landorus|Stealth Rock|p2a: Dusclops
+|-sidestart|p2: Frostywingz|move: Stealth Rock
+|move|p2a: Dusclops|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|11/100
+|-status|p1a: Landorus|frz
+|
+|upkeep
+|turn|3
+|
+|t:|1743880675
+|switch|p2a: Cinccino|Cinccino, M|100/100
+|-damage|p2a: Cinccino|88/100|[from] Stealth Rock
+|cant|p1a: Landorus|frz
+|
+|upkeep
+|turn|4
+|
+|t:|1743880679
+|move|p2a: Cinccino|Tidy Up|p2a: Cinccino
+|-sideend|p2: Frostywingz|Stealth Rock
+|-activate|p2a: Cinccino|move: Tidy Up
+|-boost|p2a: Cinccino|atk|1
+|-boost|p2a: Cinccino|spe|1
+|-curestatus|p1a: Landorus|frz|[msg]
+|move|p1a: Landorus|Earth Power|p2a: Cinccino
+|-damage|p2a: Cinccino|20/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743880683
+|-terastallize|p1a: Landorus|Ghost
+|move|p2a: Cinccino|Bullet Seed|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-hitcount|p1: Landorus|1
+|
+|upkeep
+|
+|t:|1743880688
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|6
+|
+|t:|1743880690
+|move|p1a: Dragonite|Extreme Speed|p2a: Cinccino
+|-damage|p2a: Cinccino|0 fnt
+|faint|p2a: Cinccino
+|
+|upkeep
+|
+|t:|1743880692
+|switch|p2a: Dusclops|Dusclops, F|100/100
+|-item|p1a: Dragonite|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Dusclops
+|turn|7
+|
+|t:|1743880696
+|switch|p1a: Primarina|Primarina, F|100/100
+|move|p2a: Dusclops|Will-O-Wisp|p1a: Primarina
+|-status|p1a: Primarina|brn
+|
+|-damage|p1a: Primarina|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743880701
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|move|p1a: Primarina|Moonblast|p2a: Ribombee
+|-damage|p2a: Ribombee|5/100
+|
+|-damage|p1a: Primarina|88/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743880704
+|move|p2a: Ribombee|Sticky Web|p1a: Primarina
+|-sidestart|p1: captaintomfoolery|move: Sticky Web
+|move|p1a: Primarina|Moonblast|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|-damage|p1a: Primarina|82/100 brn|[from] brn
+|upkeep
+|
+|t:|1743880709
+|switch|p2a: Meowstic|Meowstic, M|100/100
+|turn|10
+|
+|t:|1743880718
+|move|p2a: Meowstic|Light Screen|p2a: Meowstic
+|-sidestart|p2: Frostywingz|move: Light Screen
+|move|p1a: Primarina|Moonblast|p2a: Meowstic
+|-damage|p2a: Meowstic|77/100
+|-unboost|p2a: Meowstic|spa|1
+|
+|-damage|p1a: Primarina|76/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743880723
+|switch|p2a: Articuno|Articuno|100/100
+|-ability|p2a: Articuno|Pressure
+|move|p1a: Primarina|Surf|p2a: Articuno
+|-damage|p2a: Articuno|80/100
+|
+|-damage|p1a: Primarina|69/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743880726
+|move|p2a: Articuno|Freeze-Dry|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|13/100 brn
+|move|p1a: Primarina|Psychic Noise|p2a: Articuno
+|-damage|p2a: Articuno|68/100
+|-start|p2a: Articuno|move: Heal Block
+|
+|-damage|p1a: Primarina|7/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743880729
+|move|p2a: Articuno|Freeze-Dry|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|-end|p2a: Articuno|move: Heal Block
+|upkeep
+|
+|t:|1743880733
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-activate|p1a: Iron Crown|move: Sticky Web
+|-unboost|p1a: Iron Crown|spe|1
+|turn|14
+|
+|t:|1743880737
+|switch|p2a: Meowstic|Meowstic, M|77/100
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Meowstic
+|-damage|p2a: Meowstic|61/100
+|-damage|p2a: Meowstic|46/100
+|-hitcount|p2a: Meowstic|2
+|
+|upkeep
+|turn|15
+|
+|t:|1743880742
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Meowstic|Thunder Wave|p1a: Kingambit
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Kingambit
+|
+|upkeep
+|turn|16
+|
+|t:|1743880745
+|move|p2a: Meowstic|Reflect|p2a: Meowstic
+|-sidestart|p2: Frostywingz|Reflect
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Meowstic
+|-supereffective|p2a: Meowstic
+|-damage|p2a: Meowstic|0 fnt
+|faint|p2a: Meowstic
+|
+|upkeep
+|
+|t:|1743880750
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|17
+|
+|t:|1743880753
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-activate|p1a: Iron Crown|move: Sticky Web
+|-unboost|p1a: Iron Crown|spe|1
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|
+|-sideend|p2: Frostywingz|move: Light Screen
+|upkeep
+|turn|18
+|
+|t:|1743880760
+|move|p2a: Iron Valiant|Knock Off|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|-enditem|p1a: Iron Crown|Choice Specs|[from] move: Knock Off|[of] p2a: Iron Valiant
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743880765
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|19
+|
+|t:|1743880771
+|move|p1a: Dragonite|Extreme Speed|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|80/100
+|move|p2a: Iron Valiant|Spirit Break|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|15/100
+|-unboost|p1a: Dragonite|spa|1
+|
+|upkeep
+|turn|20
+|
+|t:|1743880776
+|move|p1a: Dragonite|Extreme Speed|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|61/100
+|move|p2a: Iron Valiant|Spirit Break|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1743880779
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-activate|p1a: Zamazenta|move: Sticky Web
+|-unboost|p1a: Zamazenta|spe|1
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|21
+|
+|t:|1743880782
+|move|p2a: Iron Valiant|Spirit Break|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|11/100
+|-unboost|p1a: Zamazenta|spa|1
+|move|p1a: Zamazenta|Body Press|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|44/100
+|
+|-heal|p1a: Zamazenta|17/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743880786
+|move|p2a: Iron Valiant|Spirit Break|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1743880789
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|23
+|
+|t:|1743880792
+|move|p1a: Kingambit|Sucker Punch|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|34/100
+|move|p2a: Iron Valiant|Close Combat|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|Frostywingz
+|raw|captaintomfoolery's rating: 1238 &rarr; <strong>1211</strong><br />(-27 for losing)
+|raw|Frostywingz's rating: 1212 &rarr; <strong>1239</strong><br />(+27 for winning)
+|l|☆captaintomfoolery
+|player|p1|
+|l|☆Frostywingz
+|player|p2|

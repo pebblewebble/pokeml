@@ -1,0 +1,361 @@
+|j|☆cyntheaa
+|j|☆clownlitos
+|t:|1743918668
+|gametype|singles
+|player|p1|cyntheaa|cynthia-gen4|1240
+|player|p2|clownlitos|benga|1259
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Dondozo, M|
+|poke|p1|Weavile, F|
+|poke|p1|Tinkaton, F|
+|poke|p1|Garganacl, F|
+|poke|p1|Raging Bolt|
+|poke|p2|Sudowoodo, F|
+|poke|p2|Okidogi, M|
+|poke|p2|Gholdengo|
+|poke|p2|Mimikyu, F|
+|poke|p2|Great Tusk|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1743918686
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Woodman|Sudowoodo, F|100/100
+|turn|1
+|
+|t:|1743918692
+|move|p1a: Great Tusk|Headlong Rush|p2a: Woodman
+|-supereffective|p2a: Woodman
+|-ability|p2a: Woodman|Sturdy
+|-damage|p2a: Woodman|1/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Woodman|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: cyntheaa|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|-enditem|p2a: Woodman|Custap Berry|[eat]
+|-activate|p2a: Woodman|item: Custap Berry|[consumed]
+|
+|t:|1743918700
+|move|p2a: Woodman|Endeavor|p1a: Great Tusk
+|-damage|p1a: Great Tusk|1/100
+|-damage|p2a: Woodman|0 fnt|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p2a: Woodman
+|move|p1a: Great Tusk|Rapid Spin|p2: Woodman|[notarget]
+|-fail|p1a: Great Tusk
+|
+|upkeep
+|
+|t:|1743918714
+|switch|p2a: String Cheese|Gholdengo|100/100
+|-item|p2a: String Cheese|Air Balloon
+|turn|3
+|
+|t:|1743918721
+|move|p1a: Great Tusk|Knock Off|p2a: String Cheese
+|-supereffective|p2a: String Cheese
+|-damage|p2a: String Cheese|36/100
+|-enditem|p2a: String Cheese|Air Balloon
+|move|p2a: String Cheese|Nasty Plot|p2a: String Cheese
+|-boost|p2a: String Cheese|spa|2
+|
+|upkeep
+|turn|4
+|
+|t:|1743918731
+|move|p1a: Great Tusk|Knock Off|p2a: String Cheese
+|-supereffective|p2a: String Cheese
+|-damage|p2a: String Cheese|0 fnt
+|faint|p2a: String Cheese
+|
+|upkeep
+|
+|t:|1743918756
+|switch|p2a: ogidogi|Okidogi, M|100/100
+|turn|5
+|
+|t:|1743918764
+|move|p1a: Great Tusk|Rapid Spin|p2a: ogidogi
+|-damage|p2a: ogidogi|89/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: cyntheaa|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: ogidogi|Drain Punch|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-heal|p2a: ogidogi|89/100|[from] drain|[of] p1a: Great Tusk
+|-damage|p2a: ogidogi|73/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743918789
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-item|p1a: Tinkaton|Air Balloon
+|turn|6
+|
+|t:|1743918796
+|move|p1a: Tinkaton|Stealth Rock|p2a: ogidogi
+|-sidestart|p2: clownlitos|move: Stealth Rock
+|move|p2a: ogidogi|Bulk Up|p2a: ogidogi
+|-boost|p2a: ogidogi|atk|1
+|-boost|p2a: ogidogi|def|1
+|
+|upkeep
+|turn|7
+|
+|t:|1743918802
+|move|p1a: Tinkaton|Encore|p2a: ogidogi
+|-start|p2a: ogidogi|Encore
+|move|p2a: ogidogi|Bulk Up|p2a: ogidogi
+|-boost|p2a: ogidogi|atk|1
+|-boost|p2a: ogidogi|def|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743918812
+|move|p1a: Tinkaton|Thunder Wave|p2a: ogidogi
+|-status|p2a: ogidogi|par
+|cant|p2a: ogidogi|par
+|
+|upkeep
+|turn|9
+|
+|t:|1743918817
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: ogidogi
+|-damage|p2a: ogidogi|57/100 par
+|move|p2a: ogidogi|Bulk Up|p2a: ogidogi
+|-boost|p2a: ogidogi|atk|1
+|-boost|p2a: ogidogi|def|1
+|
+|-end|p2a: ogidogi|Encore
+|upkeep
+|turn|10
+|
+|t:|1743918825
+|move|p1a: Tinkaton|Encore|p2a: ogidogi
+|-start|p2a: ogidogi|Encore
+|move|p2a: ogidogi|Bulk Up|p2a: ogidogi
+|-boost|p2a: ogidogi|atk|1
+|-boost|p2a: ogidogi|def|1
+|
+|upkeep
+|turn|11
+|
+|t:|1743918831
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|cant|p2a: ogidogi|par
+|
+|upkeep
+|turn|12
+|
+|t:|1743918837
+|move|p1a: Raging Bolt|Thunderbolt|p2a: ogidogi
+|-damage|p2a: ogidogi|0 fnt
+|faint|p2a: ogidogi
+|
+|upkeep
+|
+|t:|1743918842
+|switch|p2a: House MD|Great Tusk|100/100
+|-damage|p2a: House MD|98/100|[from] Stealth Rock
+|-enditem|p2a: House MD|Booster Energy
+|-activate|p2a: House MD|ability: Protosynthesis|[fromitem]
+|-start|p2a: House MD|protosynthesisspe
+|turn|13
+|
+|t:|1743918853
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|move|p2a: House MD|Bulk Up|p2a: House MD
+|-boost|p2a: House MD|atk|1
+|-boost|p2a: House MD|def|1
+|
+|upkeep
+|turn|14
+|
+|t:|1743918863
+|move|p2a: House MD|Rapid Spin|p1a: Dondozo
+|-damage|p1a: Dondozo|94/100
+|-boost|p2a: House MD|spe|1
+|-sideend|p2: clownlitos|Stealth Rock|[from] move: Rapid Spin|[of] p2a: House MD
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|upkeep
+|turn|15
+|
+|t:|1743918871
+|move|p2a: House MD|Ice Spinner|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|90/100
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|upkeep
+|turn|16
+|
+|t:|1743918886
+|move|p2a: House MD|Headlong Rush|p1a: Dondozo
+|-damage|p1a: Dondozo|79/100
+|-unboost|p2a: House MD|def|1
+|-unboost|p2a: House MD|spd|1
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|upkeep
+|turn|17
+|
+|t:|1743918897
+|move|p2a: House MD|Ice Spinner|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|77/100
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|upkeep
+|turn|18
+|
+|t:|1743918904
+|move|p2a: House MD|Ice Spinner|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|76/100
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|upkeep
+|turn|19
+|
+|t:|1743918911
+|move|p2a: House MD|Ice Spinner|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|74/100
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|upkeep
+|turn|20
+|
+|t:|1743918919
+|move|p2a: House MD|Ice Spinner|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|73/100
+|move|p1a: Dondozo|Wave Crash|p2a: House MD
+|-supereffective|p2a: House MD
+|-damage|p2a: House MD|0 fnt
+|faint|p2a: House MD
+|-end|p2a: House MD|Protosynthesis|[silent]
+|-damage|p1a: Dondozo|46/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743918932
+|switch|p2a: Hi|Mimikyu, F, shiny|100/100
+|turn|21
+|
+|t:|1743918957
+|move|p2a: Hi|Swords Dance|p2a: Hi
+|-boost|p2a: Hi|atk|2
+|move|p1a: Dondozo|Wave Crash|p2a: Hi
+|-activate|p2a: Hi|ability: Disguise
+|-damage|p2a: Hi|100/100
+|detailschange|p2a: Hi|Mimikyu-Busted, F, shiny
+|-damage|p2a: Hi|88/100|[from] pokemon: Mimikyu-Busted
+|
+|upkeep
+|turn|22
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cyntheaa)
+|
+|t:|1743918972
+|-terastallize|p2a: Hi|Ghost
+|move|p2a: Hi|Shadow Claw|p1a: Dondozo
+|-crit|p1a: Dondozo
+|-damage|p1a: Dondozo|10/100
+|-damage|p2a: Hi|78/100|[from] item: Life Orb
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|23
+|
+|t:|1743918989
+|move|p2a: Hi|Shadow Claw|p1a: Dondozo
+|-damage|p1a: Dondozo|95/100 slp
+|-damage|p2a: Hi|68/100|[from] item: Life Orb
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Rest||[from] move: Sleep Talk|[still]
+|-fail|p1a: Dondozo
+|
+|upkeep
+|turn|24
+|
+|t:|1743919009
+|move|p2a: Hi|Shadow Claw|p1a: Dondozo
+|-damage|p1a: Dondozo|89/100 slp
+|-damage|p2a: Hi|58/100|[from] item: Life Orb
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Wave Crash|p2a: Hi|[from] move: Sleep Talk
+|-damage|p2a: Hi|0 fnt
+|faint|p2a: Hi
+|-damage|p1a: Dondozo|79/100 slp|[from] Recoil
+|
+|upkeep
+|
+|t:|1743919019
+|switch|p2a: No|Kingambit, F|100/100
+|-activate|p2a: No|ability: Supreme Overlord
+|-start|p2a: No|fallen5|[silent]
+|-item|p2a: No|Air Balloon
+|turn|25
+|
+|t:|1743919025
+|move|p2a: No|Iron Head|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|76/100 slp
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Wave Crash|p2a: No
+|-damage|p2a: No|0 fnt
+|-enditem|p2a: No|Air Balloon
+|faint|p2a: No
+|-end|p2a: No|fallen5|[silent]
+|-damage|p1a: Dondozo|53/100|[from] Recoil
+|
+|win|cyntheaa
+|raw|cyntheaa's rating: 1240 &rarr; <strong>1266</strong><br />(+26 for winning)
+|raw|clownlitos's rating: 1259 &rarr; <strong>1233</strong><br />(-26 for losing)
+|l|☆cyntheaa
+|player|p1|

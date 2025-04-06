@@ -1,0 +1,505 @@
+|j|☆mutton joam
+|j|☆Solgaleonard
+|t:|1743861606
+|gametype|singles
+|player|p1|mutton joam|iris|1161
+|player|p2|Solgaleonard|101|1126
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Walking Wake|
+|poke|p1|Iron Crown|
+|poke|p1|Dragapult, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Infernape, M|
+|poke|p2|Iron Treads|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Ninetales, F|
+|teampreview
+|
+|t:|1743861613
+|start
+|switch|p1a: taco|Walking Wake|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|t:|1743861620
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Solgaleonard|move: Light Screen
+|move|p1a: taco|Knock Off|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|97/100
+|-enditem|p2a: Grimmsnarl|Light Clay|[from] move: Knock Off|[of] p1a: taco
+|
+|upkeep
+|turn|2
+|
+|t:|1743861629
+|move|p1a: taco|Flip Turn|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|81/100
+|
+|t:|1743861633
+|-end|p1a: taco|Protosynthesis|[silent]
+|switch|p1a: Iron Clown|Iron Crown|100/100|[from] Flip Turn
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Iron Clown
+|-resisted|p1a: Iron Clown
+|-damage|p1a: Iron Clown|84/100
+|-unboost|p1a: Iron Clown|spa|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743861648
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Iron Clown
+|-unboost|p1a: Iron Clown|atk|1
+|-unboost|p1a: Iron Clown|spa|1
+|
+|t:|1743861655
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] Parting Shot
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Iron Clown|Volt Switch|p2a: Iron Treads
+|-immune|p2a: Iron Treads
+|
+|upkeep
+|turn|4
+|
+|t:|1743861664
+|-end|p1a: Iron Clown|Quark Drive|[silent]
+|switch|p1a: smooch|Landorus-Therian, M|100/100
+|-ability|p1a: smooch|Intimidate|boost
+|-unboost|p2a: Iron Treads|atk|1
+|move|p2a: Iron Treads|Stealth Rock|p1a: smooch
+|-sidestart|p1: mutton joam|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1743861700
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: smooch|U-turn|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|64/100
+|
+|t:|1743861715
+|switch|p1a: g|Zamazenta|100/100|[from] U-turn
+|-ability|p1a: g|Dauntless Shield|boost
+|-boost|p1a: g|def|1
+|
+|upkeep
+|turn|6
+|
+|t:|1743861730
+|move|p1a: g|Close Combat|p2a: Ogerpon
+|-damage|p2a: Ogerpon|11/100
+|-unboost|p1a: g|def|1
+|-unboost|p1a: g|spd|1
+|move|p2a: Ogerpon|Play Rough|p1a: g
+|-supereffective|p1a: g
+|-damage|p1a: g|44/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743861753
+|move|p1a: g|Close Combat|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-unboost|p1a: g|def|1
+|-unboost|p1a: g|spd|1
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743861759
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|81/100
+|turn|8
+|
+|t:|1743861765
+|switch|p1a: Iron Clown|Iron Crown|84/100
+|-damage|p1a: Iron Clown|78/100|[from] Stealth Rock
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Solgaleonard|Reflect
+|
+|-sideend|p2: Solgaleonard|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1743861774
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Solgaleonard|move: Light Screen
+|move|p1a: Iron Clown|Tachyon Cutter|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|57/100
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|33/100
+|-hitcount|p2a: Grimmsnarl|2
+|
+|upkeep
+|turn|10
+|
+|t:|1743861788
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Iron Clown
+|-unboost|p1a: Iron Clown|atk|1
+|-unboost|p1a: Iron Clown|spa|1
+|
+|t:|1743861796
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] Parting Shot
+|move|p1a: Iron Clown|Future Sight|p2a: Iron Treads
+|-start|p1a: Iron Clown|move: Future Sight
+|
+|upkeep
+|turn|11
+|
+|t:|1743861807
+|-end|p1a: Iron Clown|Quark Drive|[silent]
+|switch|p1a: smooch|Landorus-Therian, M|100/100
+|-damage|p1a: smooch|88/100|[from] Stealth Rock
+|-ability|p1a: smooch|Intimidate|boost
+|-unboost|p2a: Iron Treads|atk|1
+|move|p2a: Iron Treads|Iron Head|p1a: smooch
+|-damage|p1a: smooch|67/100
+|-damage|p2a: Iron Treads|84/100|[from] item: Rocky Helmet|[of] p1a: smooch
+|
+|upkeep
+|turn|12
+|
+|t:|1743861835
+|move|p2a: Iron Treads|Iron Head|p1a: smooch
+|-damage|p1a: smooch|46/100
+|-damage|p2a: Iron Treads|68/100|[from] item: Rocky Helmet|[of] p1a: smooch
+|cant|p1a: smooch|flinch
+|
+|-end|p2a: Iron Treads|move: Future Sight
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|53/100
+|-sideend|p2: Solgaleonard|Reflect
+|upkeep
+|turn|13
+|
+|t:|1743861844
+|move|p2a: Iron Treads|Iron Head|p1a: smooch
+|-damage|p1a: smooch|25/100
+|-damage|p2a: Iron Treads|36/100|[from] item: Rocky Helmet|[of] p1a: smooch
+|move|p1a: smooch|Stealth Rock|p2a: Iron Treads
+|-sidestart|p2: Solgaleonard|move: Stealth Rock
+|
+|-sideend|p2: Solgaleonard|move: Light Screen
+|upkeep
+|turn|14
+|
+|t:|1743861866
+|move|p2a: Iron Treads|Iron Head|p1a: smooch
+|-damage|p1a: smooch|4/100
+|-damage|p2a: Iron Treads|20/100|[from] item: Rocky Helmet|[of] p1a: smooch
+|move|p1a: smooch|U-turn|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|11/100
+|
+|t:|1743861873
+|switch|p1a: taco|Walking Wake|100/100|[from] U-turn
+|
+|upkeep
+|turn|15
+|
+|t:|1743861884
+|move|p1a: taco|Flamethrower|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743861898
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-damage|p2a: Ninetales|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|-activate|p1a: taco|ability: Protosynthesis
+|-start|p1a: taco|protosynthesisspa
+|turn|16
+|
+|t:|1743861908
+|move|p1a: taco|Knock Off|p2a: Ninetales
+|-damage|p2a: Ninetales|60/100
+|-enditem|p2a: Ninetales|Heat Rock|[from] move: Knock Off|[of] p1a: taco
+|move|p2a: Ninetales|Encore|p1a: taco
+|-start|p1a: taco|Encore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743861916
+|move|p1a: taco|Knock Off|p2a: Ninetales
+|-damage|p2a: Ninetales|50/100
+|move|p2a: Ninetales|Solar Beam||[still]
+|-prepare|p2a: Ninetales|Solar Beam
+|-anim|p2a: Ninetales|Solar Beam|p1a: taco
+|-damage|p1a: taco|73/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743861923
+|move|p1a: taco|Knock Off|p2a: Ninetales
+|-damage|p2a: Ninetales|38/100
+|move|p2a: Ninetales|Solar Beam||[still]
+|-prepare|p2a: Ninetales|Solar Beam
+|-anim|p2a: Ninetales|Solar Beam|p1a: taco
+|-damage|p1a: taco|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743861932
+|move|p1a: taco|Knock Off|p2a: Ninetales
+|-damage|p2a: Ninetales|27/100
+|move|p2a: Ninetales|Healing Wish|p2a: Ninetales
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: taco|Encore
+|upkeep
+|
+|t:|1743861940
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|33/100
+|-heal|p2a: Grimmsnarl|100/100|[from] move: Healing Wish
+|-damage|p2a: Grimmsnarl|88/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743861949
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Solgaleonard|move: Light Screen
+|move|p1a: taco|Flip Turn|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|81/100
+|
+|t:|1743861955
+|-end|p1a: taco|Protosynthesis|[silent]
+|switch|p1a: Iron Clown|Iron Crown|78/100|[from] Flip Turn
+|-damage|p1a: Iron Clown|72/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743861967
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Iron Clown
+|-unboost|p1a: Iron Clown|atk|1
+|-unboost|p1a: Iron Clown|spa|1
+|
+|t:|1743861971
+|switch|p2a: Raging Bolt|Raging Bolt|100/100|[from] Parting Shot
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Iron Clown|Volt Switch|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|99/100
+|
+|t:|1743861998
+|-end|p1a: Iron Clown|Quark Drive|[silent]
+|switch|p1a: tesco|Dragapult, F|100/100|[from] Volt Switch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1743862013
+|-terastallize|p1a: tesco|Fairy
+|-terastallize|p2a: Raging Bolt|Bug
+|move|p1a: tesco|Dragon Darts|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|85/100
+|-anim|p1a: tesco|Dragon Darts|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|69/100
+|move|p2a: Raging Bolt|Draco Meteor|p1a: tesco
+|-immune|p1a: tesco
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1743862025
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: tesco|Will-O-Wisp|p2a: Raging Bolt
+|-status|p2a: Raging Bolt|brn
+|
+|-weather|none
+|-end|p2a: Raging Bolt|Protosynthesis
+|-damage|p2a: Raging Bolt|63/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1743862034
+|switch|p1a: smooch|Landorus-Therian, M|4/100
+|-damage|p1a: smooch|0 fnt|[from] Stealth Rock
+|faint|p1a: smooch
+|move|p2a: Raging Bolt|Thunderclap|p1: smooch|[notarget]
+|-fail|p2a: Raging Bolt
+|
+|-damage|p2a: Raging Bolt|57/100 brn|[from] brn
+|-sideend|p2: Solgaleonard|move: Light Screen
+|upkeep
+|
+|t:|1743862049
+|switch|p1a: Iron Clown|Iron Crown|72/100
+|-damage|p1a: Iron Clown|66/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1743862063
+|move|p1a: Iron Clown|Future Sight|p2a: Raging Bolt
+|-start|p1a: Iron Clown|move: Future Sight
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Iron Clown
+|-damage|p1a: Iron Clown|35/100
+|
+|-damage|p2a: Raging Bolt|51/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1743862069
+|move|p1a: Iron Clown|Tachyon Cutter|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|32/100 brn
+|-damage|p2a: Raging Bolt|11/100 brn
+|-hitcount|p2a: Raging Bolt|2
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-damage|p2a: Raging Bolt|5/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1743862095
+|move|p2a: Raging Bolt|Thunderclap|p1a: Iron Clown
+|-damage|p1a: Iron Clown|0 fnt
+|faint|p1a: Iron Clown
+|-end|p1a: Iron Clown|Quark Drive|[silent]
+|
+|-end|p2a: Raging Bolt|move: Future Sight
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1743862103
+|switch|p1a: bubbles|Samurott-Hisui, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|81/100
+|-damage|p2a: Grimmsnarl|68/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1743862109
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Solgaleonard|Reflect
+|move|p1a: bubbles|Ceaseless Edge|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|64/100
+|-sidestart|p2: Solgaleonard|Spikes
+|
+|upkeep
+|turn|29
+|
+|t:|1743862120
+|move|p1a: bubbles|Ceaseless Edge|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|59/100
+|-sidestart|p2: Solgaleonard|Spikes
+|move|p2a: Grimmsnarl|Spirit Break|p1a: bubbles
+|-supereffective|p1a: bubbles
+|-damage|p1a: bubbles|20/100
+|-unboost|p1a: bubbles|spa|1
+|
+|upkeep
+|turn|30
+|
+|t:|1743862128
+|move|p1a: bubbles|Razor Shell|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|33/100
+|move|p2a: Grimmsnarl|Spirit Break|p1a: bubbles
+|-supereffective|p1a: bubbles
+|-damage|p1a: bubbles|0 fnt
+|faint|p1a: bubbles
+|
+|upkeep
+|
+|t:|1743862140
+|switch|p1a: g|Zamazenta|44/100
+|turn|31
+|
+|t:|1743862144
+|move|p1a: g|Close Combat|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|6/100
+|-unboost|p1a: g|def|1
+|-unboost|p1a: g|spd|1
+|move|p2a: Grimmsnarl|Spirit Break|p1a: g
+|-supereffective|p1a: g
+|-damage|p1a: g|0 fnt
+|faint|p1a: g
+|
+|upkeep
+|
+|t:|1743862154
+|switch|p1a: taco|Walking Wake|44/100
+|turn|32
+|
+|t:|1743862187
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Solgaleonard|move: Light Screen
+|move|p1a: taco|Flip Turn|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|t:|1743862192
+|-end|p1a: taco|Protosynthesis|[silent]
+|switch|p1a: tesco|Dragapult, F, tera:Fairy|100/100|[from] Flip Turn
+|
+|-sideend|p2: Solgaleonard|Reflect
+|upkeep
+|
+|t:|1743862196
+|switch|p2a: Infernape|Infernape, M|100/100
+|-damage|p2a: Infernape|88/100|[from] Stealth Rock
+|-damage|p2a: Infernape|72/100|[from] Spikes
+|turn|33
+|
+|t:|1743862210
+|move|p1a: tesco|Thunder Wave|p2a: Infernape
+|-status|p2a: Infernape|par
+|move|p2a: Infernape|Flare Blitz|p1a: tesco
+|-damage|p1a: tesco|25/100
+|-damage|p2a: Infernape|40/100 par|[from] Recoil
+|-damage|p2a: Infernape|30/100 par|[from] item: Life Orb
+|
+|upkeep
+|turn|34
+|
+|t:|1743862225
+|move|p2a: Infernape|Mach Punch|p1a: tesco
+|-resisted|p1a: tesco
+|-damage|p1a: tesco|13/100
+|-damage|p2a: Infernape|20/100 par|[from] item: Life Orb
+|move|p1a: tesco|Dragon Darts|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|win|mutton joam
+|raw|mutton joam's rating: 1161 &rarr; <strong>1183</strong><br />(+22 for winning)
+|raw|Solgaleonard's rating: 1126 &rarr; <strong>1104</strong><br />(-22 for losing)
+|l|☆Solgaleonard
+|player|p2|

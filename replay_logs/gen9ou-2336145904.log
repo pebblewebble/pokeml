@@ -1,0 +1,410 @@
+|j|☆ThuileCuP
+|j|☆RoutesReborn
+|t:|1743883507
+|gametype|singles
+|player|p1|ThuileCuP|hanbei-conquest|1311
+|player|p2|RoutesReborn|volkner|1313
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hydrapple, M|
+|poke|p1|Tinkaton, F|
+|poke|p1|Moltres|
+|poke|p1|Rotom-Wash|
+|poke|p1|Great Tusk|
+|poke|p1|Darkrai|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Valiant|
+|poke|p2|Cinderace, F|
+|poke|p2|Cacturne, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RoutesReborn)
+|inactive|ThuileCuP also wants the timer to be on.
+|
+|t:|1743883529
+|start
+|switch|p1a: Darkrai|Darkrai|100/100
+|switch|p2a: Cacturne|Cacturne, M|100/100
+|turn|1
+|
+|t:|1743883547
+|move|p1a: Darkrai|Ice Beam|p2a: Cacturne
+|-supereffective|p2a: Cacturne
+|-enditem|p2a: Cacturne|Focus Sash
+|-damage|p2a: Cacturne|1/100
+|move|p2a: Cacturne|Leaf Storm|p1a: Darkrai
+|-damage|p1a: Darkrai|18/100
+|-unboost|p2a: Cacturne|spa|2
+|
+|-heal|p1a: Darkrai|24/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743883558
+|move|p2a: Cacturne|Sucker Punch||[still]
+|-fail|p2a: Cacturne
+|move|p1a: Darkrai|Nasty Plot|p1a: Darkrai
+|-boost|p1a: Darkrai|spa|2
+|
+|-heal|p1a: Darkrai|30/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743883567
+|move|p1a: Darkrai|Dark Pulse|p2a: Cacturne
+|-resisted|p2a: Cacturne
+|-damage|p2a: Cacturne|0 fnt
+|faint|p2a: Cacturne
+|
+|-heal|p1a: Darkrai|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743883579
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|4
+|
+|t:|1743883587
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|84/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743883599
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Moltres|Flamethrower|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|76/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743883618
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Moltres|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|87/100
+|
+|t:|1743883624
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|
+|upkeep
+|turn|7
+|
+|t:|1743883639
+|move|p1a: Great Tusk|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|15/100
+|-enditem|p2a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Slowking|Future Sight|p1a: Great Tusk
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|8
+|
+|t:|1743883647
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Rapid Spin|p2a: Landorus
+|-damage|p2a: Landorus|90/100
+|-boost|p1a: Great Tusk|spe|1
+|-damage|p1a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|upkeep
+|turn|9
+|
+|t:|1743883665
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Rotom
+|-sidestart|p1: ThuileCuP|move: Stealth Rock
+|
+|-end|p1a: Rotom|move: Future Sight
+|-damage|p1a: Rotom|56/100
+|upkeep
+|turn|10
+|
+|t:|1743883687
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Iron Valiant
+|-status|p2a: Iron Valiant|brn
+|
+|-damage|p2a: Iron Valiant|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743883696
+|move|p2a: Iron Valiant|Encore|p1a: Rotom
+|-start|p1a: Rotom|Encore
+|move|p1a: Rotom|Will-O-Wisp|p2a: Iron Valiant
+|-fail|p2a: Iron Valiant|brn
+|
+|-damage|p2a: Iron Valiant|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743883699
+|switch|p1a: Moltres|Moltres|84/100
+|move|p2a: Iron Valiant|Knock Off|p1a: Moltres
+|-damage|p1a: Moltres|71/100
+|-enditem|p1a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Iron Valiant
+|
+|-damage|p2a: Iron Valiant|82/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743883712
+|move|p2a: Iron Valiant|Moonblast|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|55/100
+|move|p1a: Moltres|U-turn|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|77/100 brn
+|
+|t:|1743883721
+|switch|p1a: Tinkaton|Tinkaton, F|100/100|[from] U-turn
+|-damage|p1a: Tinkaton|94/100|[from] Stealth Rock
+|-ability|p1a: Tinkaton|Mold Breaker
+|
+|-heal|p1a: Tinkaton|100/100|[from] item: Leftovers
+|-damage|p2a: Iron Valiant|71/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743883744
+|move|p2a: Iron Valiant|Moonblast|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|81/100
+|move|p1a: Tinkaton|Stealth Rock|p2a: Iron Valiant
+|-sidestart|p2: RoutesReborn|move: Stealth Rock
+|
+|-heal|p1a: Tinkaton|88/100|[from] item: Leftovers
+|-damage|p2a: Iron Valiant|65/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743883753
+|move|p2a: Iron Valiant|Knock Off|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|80/100
+|-enditem|p1a: Tinkaton|Leftovers|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743883762
+|switch|p2a: Cinderace|Cinderace, F|76/100
+|turn|16
+|
+|t:|1743883777
+|switch|p1a: Rotom|Rotom-Wash|56/100
+|-damage|p1a: Rotom|44/100|[from] Stealth Rock
+|move|p2a: Cinderace|Pyro Ball|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|21/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743883785
+|move|p2a: Cinderace|U-turn|p1a: Rotom
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Rotom|0 fnt
+|-damage|p2a: Cinderace|59/100|[from] item: Rocky Helmet|[of] p1a: Rotom
+|faint|p1a: Rotom
+|
+|t:|1743883794
+|switch|p2a: Slowking|Slowking-Galar, F|48/100|[from] U-turn
+|-damage|p2a: Slowking|36/100|[from] Stealth Rock
+|
+|upkeep
+|
+|t:|1743883798
+|switch|p1a: Great Tusk|Great Tusk|84/100
+|turn|18
+|
+|t:|1743883818
+|move|p1a: Great Tusk|Rapid Spin|p2a: Slowking
+|-damage|p2a: Slowking|19/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: ThuileCuP|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Slowking|Future Sight|p1a: Great Tusk
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|19
+|
+|t:|1743883827
+|move|p1a: Great Tusk|Ice Spinner|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1743883841
+|switch|p2a: Landorus|Landorus-Therian, M|90/100
+|-damage|p2a: Landorus|77/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|turn|20
+|
+|t:|1743883852
+|move|p1a: Great Tusk|Ice Spinner|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|7/100
+|-damage|p1a: Great Tusk|68/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|move|p2a: Landorus|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: ThuileCuP|move: Stealth Rock
+|
+|-end|p1a: Great Tusk|move: Future Sight
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1743883862
+|switch|p1a: Moltres|Moltres|55/100
+|-damage|p1a: Moltres|5/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1743883873
+|move|p2a: Landorus|Taunt|p1a: Moltres
+|-start|p1a: Moltres|move: Taunt
+|move|p1a: Moltres|Flamethrower|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743883880
+|switch|p2a: Cinderace|Cinderace, F|59/100
+|turn|22
+|
+|t:|1743883885
+|move|p2a: Cinderace|U-turn|p1a: Moltres
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|t:|1743883891
+|switch|p2a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|
+|upkeep
+|
+|t:|1743883897
+|switch|p1a: Tinkaton|Tinkaton, F|80/100
+|-damage|p1a: Tinkaton|74/100|[from] Stealth Rock
+|-ability|p1a: Tinkaton|Mold Breaker
+|turn|23
+|
+|t:|1743883916
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|66/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Tinkaton
+|-damage|p1a: Tinkaton|11/100
+|-status|p1a: Tinkaton|par
+|
+|upkeep
+|turn|24
+|
+|t:|1743883934
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Tinkaton|Encore|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|Encore
+|
+|upkeep
+|turn|25
+|
+|t:|1743883940
+|switch|p1a: Hydrapple|Hydrapple, M|100/100
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|26
+|
+|t:|1743883948
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Hydrapple|Nasty Plot|p1a: Hydrapple
+|-boost|p1a: Hydrapple|spa|2
+|
+|upkeep
+|turn|27
+|
+|t:|1743883957
+|-terastallize|p2a: Raging Bolt|Fairy
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Hydrapple|Nasty Plot|p1a: Hydrapple
+|-boost|p1a: Hydrapple|spa|2
+|
+|-end|p2a: Raging Bolt|Encore
+|upkeep
+|turn|28
+|
+|t:|1743883966
+|-terastallize|p1a: Hydrapple|Fairy
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Hydrapple
+|-immune|p1a: Hydrapple
+|move|p1a: Hydrapple|Fickle Beam|p2a: Raging Bolt
+|-immune|p2a: Raging Bolt
+|
+|upkeep
+|turn|29
+|
+|t:|1743883973
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Hydrapple
+|-damage|p1a: Hydrapple|0 fnt
+|faint|p1a: Hydrapple
+|
+|upkeep
+|
+|t:|1743883978
+|switch|p1a: Darkrai|Darkrai|36/100
+|-damage|p1a: Darkrai|24/100|[from] Stealth Rock
+|turn|30
+|-message|ThuileCuP forfeited.
+|
+|win|RoutesReborn
+|raw|ThuileCuP's rating: 1311 &rarr; <strong>1291</strong><br />(-20 for losing)
+|raw|RoutesReborn's rating: 1313 &rarr; <strong>1333</strong><br />(+20 for winning)
+|l|☆ThuileCuP
+|player|p1|
+|l|☆RoutesReborn
+|player|p2|

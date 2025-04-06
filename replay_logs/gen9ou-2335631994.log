@@ -1,0 +1,395 @@
+|j|☆Champion Corper
+|j|☆froger3
+|t:|1743814709
+|gametype|singles
+|player|p1|Champion Corper|riley|1257
+|player|p2|froger3|170|1264
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Lokix, M|
+|poke|p1|Pecharunt|
+|poke|p1|Primarina, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Great Tusk|
+|poke|p1|Thundurus-Therian, M|
+|poke|p2|Garganacl, F|
+|poke|p2|Darkrai|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Great Tusk|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Champion Corper)
+|
+|t:|1743814715
+|start
+|switch|p1a: Lokix|Lokix, M|100/100
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|1
+|
+|t:|1743814725
+|switch|p2a: 426B|Great Tusk|100/100
+|-enditem|p2a: 426B|Booster Energy
+|-activate|p2a: 426B|ability: Protosynthesis|[fromitem]
+|-start|p2a: 426B|protosynthesisatk
+|move|p1a: Lokix|U-turn|p2a: 426B
+|-resisted|p2a: 426B
+|-damage|p2a: 426B|66/100
+|
+|t:|1743814728
+|switch|p1a: Primarina|Primarina, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1743814735
+|-terastallize|p2a: 426B|Steel
+|move|p2a: 426B|Rapid Spin|p1a: Primarina
+|-damage|p1a: Primarina|68/100
+|-boost|p2a: 426B|spe|1
+|move|p1a: Primarina|Moonblast|p2a: 426B
+|-resisted|p2a: 426B
+|-damage|p2a: 426B|25/100
+|-unboost|p2a: 426B|spa|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743814738
+|move|p2a: 426B|Headlong Rush|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|-unboost|p2a: 426B|def|1
+|-unboost|p2a: 426B|spd|1
+|faint|p1a: Primarina
+|
+|upkeep
+|
+|t:|1743814743
+|switch|p1a: Lokix|Lokix, M|100/100
+|turn|4
+|
+|t:|1743814746
+|-end|p2a: 426B|Protosynthesis|[silent]
+|switch|p2a: Theophobia|Garganacl, F|100/100
+|move|p1a: Lokix|First Impression|p2a: Theophobia
+|-damage|p2a: Theophobia|69/100
+|
+|-heal|p2a: Theophobia|75/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743814753
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Theophobia|Salt Cure|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|98/100
+|-start|p1a: Great Tusk|Salt Cure
+|
+|-heal|p2a: Theophobia|82/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|85/100|[from] Salt Cure
+|upkeep
+|turn|6
+|
+|t:|1743814757
+|move|p2a: Theophobia|Protect|p2a: Theophobia
+|-singleturn|p2a: Theophobia|Protect
+|move|p1a: Great Tusk|Headlong Rush|p2a: Theophobia
+|-activate|p2a: Theophobia|move: Protect
+|
+|-heal|p2a: Theophobia|88/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|73/100|[from] Salt Cure
+|upkeep
+|turn|7
+|
+|t:|1743814762
+|switch|p2a: 426B|Great Tusk, tera:Steel|25/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: 426B
+|-supereffective|p2a: 426B
+|-crit|p2a: 426B
+|-damage|p2a: 426B|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: 426B
+|-end|p2a: 426B|Protosynthesis|[silent]
+|
+|-damage|p1a: Great Tusk|61/100|[from] Salt Cure
+|upkeep
+|
+|t:|1743814764
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|8
+|
+|t:|1743814768
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Pecharunt|[anim] Ivy Cudgel Water
+|-damage|p1a: Pecharunt|63/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743814771
+|move|p2a: Ogerpon|Knock Off|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|18/100
+|-enditem|p1a: Pecharunt|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Ogerpon
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|68/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743814776
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Pecharunt|[anim] Ivy Cudgel Water
+|-damage|p1a: Pecharunt|33/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|23/100
+|-status|p2a: Ogerpon|tox
+|-start|p2a: Ogerpon|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-damage|p2a: Ogerpon|17/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743814779
+|-activate|p2a: Ogerpon|confusion
+|-damage|p2a: Ogerpon|0 fnt|[from] confusion
+|faint|p2a: Ogerpon
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|83/100
+|
+|upkeep
+|c|☆froger3|oh my LORD
+|
+|t:|1743814788
+|switch|p2a: Shade|Darkrai|100/100
+|turn|12
+|
+|t:|1743814792
+|switch|p1a: Great Tusk|Great Tusk|61/100
+|move|p2a: Shade|Dark Pulse|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|19/100
+|-damage|p2a: Shade|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|
+|t:|1743814810
+|move|p2a: Shade|Ice Beam|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: Shade|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743814812
+|switch|p1a: Lokix|Lokix, M|100/100
+|turn|14
+|
+|t:|1743814816
+|switch|p2a: Theophobia|Garganacl, F|88/100
+|move|p1a: Lokix|Knock Off|p2a: Theophobia
+|-damage|p2a: Theophobia|50/100
+|-enditem|p2a: Theophobia|Leftovers|[from] move: Knock Off|[of] p1a: Lokix
+|
+|upkeep
+|turn|15
+|
+|t:|1743814821
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Theophobia|Recover|p2a: Theophobia
+|-heal|p2a: Theophobia|100/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743814825
+|move|p1a: Thundurus|Grass Knot|p2a: Theophobia
+|-supereffective|p2a: Theophobia
+|-damage|p2a: Theophobia|0 fnt
+|faint|p2a: Theophobia
+|
+|upkeep
+|
+|t:|1743814831
+|switch|p2a: Shade|Darkrai|81/100
+|turn|17
+|
+|t:|1743814834
+|move|p2a: Shade|Ice Beam|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|-damage|p2a: Shade|71/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743814837
+|switch|p1a: Lokix|Lokix, M|100/100
+|turn|18
+|
+|t:|1743814842
+|switch|p2a: xiangqi|Kingambit, M, shiny|100/100
+|-activate|p2a: xiangqi|ability: Supreme Overlord
+|-start|p2a: xiangqi|fallen3|[silent]
+|move|p1a: Lokix|First Impression|p2a: xiangqi
+|-damage|p2a: xiangqi|56/100
+|
+|-heal|p2a: xiangqi|62/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743814851
+|switch|p1a: Pecharunt|Pecharunt|83/100
+|move|p2a: xiangqi|Swords Dance|p2a: xiangqi
+|-boost|p2a: xiangqi|atk|2
+|
+|-heal|p2a: xiangqi|68/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743814861
+|move|p1a: Pecharunt|Parting Shot|p2a: xiangqi
+|-unboost|p2a: xiangqi|atk|1
+|-unboost|p2a: xiangqi|spa|1
+|
+|t:|1743814863
+|switch|p1a: Dragonite|Dragonite, M|100/100|[from] Parting Shot
+|move|p2a: xiangqi|Iron Head|p1a: Dragonite
+|-damage|p1a: Dragonite|49/100
+|
+|-heal|p2a: xiangqi|74/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743814867
+|move|p1a: Dragonite|Earthquake|p2a: xiangqi
+|-supereffective|p2a: xiangqi
+|-damage|p2a: xiangqi|17/100
+|move|p2a: xiangqi|Iron Head|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-heal|p2a: xiangqi|24/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743814870
+|switch|p1a: Lokix|Lokix, M|100/100
+|turn|22
+|
+|t:|1743814874
+|move|p1a: Lokix|First Impression|p2a: xiangqi
+|-damage|p2a: xiangqi|0 fnt
+|faint|p2a: xiangqi
+|-end|p2a: xiangqi|fallen3|[silent]
+|
+|upkeep
+|
+|t:|1743814877
+|switch|p2a: Hat trick|Hatterene, F|100/100
+|turn|23
+|
+|t:|1743814879
+|switch|p1a: Pecharunt|Pecharunt|83/100
+|move|p2a: Hat trick|Thunder Wave|p1a: Pecharunt|[miss]
+|-miss|p2a: Hat trick|p1a: Pecharunt
+|
+|upkeep
+|turn|24
+|
+|t:|1743814882
+|move|p1a: Pecharunt|Malignant Chain|p2a: Hat trick
+|-supereffective|p2a: Hat trick
+|-damage|p2a: Hat trick|41/100
+|move|p2a: Hat trick|Thunder Wave|p1a: Pecharunt
+|-status|p1a: Pecharunt|par
+|
+|-heal|p2a: Hat trick|47/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1743814886
+|cant|p1a: Pecharunt|par
+|move|p2a: Hat trick|Mystical Fire|p1a: Pecharunt
+|-damage|p1a: Pecharunt|60/100 par
+|-unboost|p1a: Pecharunt|spa|1
+|
+|-heal|p2a: Hat trick|53/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1743814896
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|100/100 par
+|move|p2a: Hat trick|Mystical Fire|p1a: Pecharunt
+|-damage|p1a: Pecharunt|76/100 par
+|-unboost|p1a: Pecharunt|spa|1
+|
+|-heal|p2a: Hat trick|59/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1743814901
+|switch|p2a: Shade|Darkrai|71/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Shade
+|-damage|p2a: Shade|51/100
+|-status|p2a: Shade|tox
+|-start|p2a: Shade|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-damage|p2a: Shade|45/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1743814905
+|-activate|p2a: Shade|confusion
+|-damage|p2a: Shade|37/100 tox|[from] confusion
+|move|p1a: Pecharunt|Malignant Chain|p2a: Shade
+|-damage|p2a: Shade|18/100 tox
+|
+|-damage|p2a: Shade|5/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1743814909
+|-activate|p2a: Shade|confusion
+|move|p2a: Shade|Dark Pulse|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-crit|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|-damage|p2a: Shade|0 fnt|[from] item: Life Orb
+|faint|p2a: Shade
+|
+|upkeep
+|
+|t:|1743814913
+|switch|p2a: Hat trick|Hatterene, F|59/100
+|switch|p1a: Lokix|Lokix, M|100/100
+|turn|30
+|
+|t:|1743814916
+|-terastallize|p1a: Lokix|Bug
+|move|p1a: Lokix|First Impression|p2a: Hat trick
+|-damage|p2a: Hat trick|0 fnt
+|faint|p2a: Hat trick
+|
+|win|Champion Corper
+|raw|Champion Corper's rating: 1257 &rarr; <strong>1283</strong><br />(+26 for winning)
+|raw|froger3's rating: 1264 &rarr; <strong>1238</strong><br />(-26 for losing)
+|l|☆froger3
+|player|p2|

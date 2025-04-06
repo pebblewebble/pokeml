@@ -1,0 +1,193 @@
+|j|☆simpward
+|j|☆dnooage
+|t:|1743869797
+|gametype|singles
+|player|p1|simpward|unknown|1152
+|player|p2|dnooage|265|1114
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Heatran, M|
+|poke|p1|Scream Tail|
+|poke|p1|Raichu, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Poliwrath, F|
+|poke|p1|Skarmory, F|
+|poke|p2|Ninetales, F|
+|poke|p2|Venusaur, F|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Comfey, M|
+|poke|p2|Walking Wake|
+|poke|p2|Torkoal, M|
+|teampreview
+|
+|t:|1743869823
+|start
+|switch|p1a: Heatran|Heatran, M|100/100
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1743869836
+|move|p2a: Ninetales|Shadow Ball|p1a: Heatran
+|-damage|p1a: Heatran|89/100
+|move|p1a: Heatran|Flamethrower|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|53/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743869844
+|move|p2a: Ninetales|Memento|p1a: Heatran
+|-unboost|p1a: Heatran|atk|2
+|-unboost|p1a: Heatran|spa|2
+|faint|p2a: Ninetales
+|move|p1a: Heatran|Earth Power|p2: Ninetales|[notarget]
+|-fail|p1a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743869855
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|3
+|
+|t:|1743869861
+|switch|p1a: Poliwrath|Poliwrath, F|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Poliwrath
+|-immune|p1a: Poliwrath|[from] ability: Water Absorb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743869873
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Comfey|Comfey, M|100/100
+|move|p1a: Poliwrath|Encore||[still]
+|-fail|p1a: Poliwrath
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743869881
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Comfey|Growth|p2a: Comfey
+|-boost|p2a: Comfey|atk|2
+|-boost|p2a: Comfey|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743869888
+|move|p2a: Comfey|Growth|p2a: Comfey
+|-boost|p2a: Comfey|atk|2
+|-boost|p2a: Comfey|spa|2
+|move|p1a: Hatterene|Psyshock|p2a: Comfey
+|-damage|p2a: Comfey|39/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743869896
+|move|p2a: Comfey|Draining Kiss|p1a: Hatterene
+|-damage|p1a: Hatterene|31/100
+|-heal|p2a: Comfey|93/100|[from] drain|[of] p1a: Hatterene
+|move|p1a: Hatterene|Psyshock|p2a: Comfey
+|-damage|p2a: Comfey|34/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743869905
+|move|p2a: Comfey|Draining Kiss|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-heal|p2a: Comfey|58/100|[from] drain|[of] p1a: Hatterene
+|faint|p1a: Hatterene
+|
+|-weather|none
+|upkeep
+|
+|t:|1743869908
+|switch|p1a: Heatran|Heatran, M|89/100
+|turn|9
+|
+|t:|1743869914
+|-terastallize|p2a: Comfey|Electric
+|move|p2a: Comfey|Tera Blast|p1a: Heatran|[anim] Tera Blast Electric
+|-damage|p1a: Heatran|34/100
+|move|p1a: Heatran|Flash Cannon|p2a: Comfey
+|-resisted|p2a: Comfey
+|-damage|p2a: Comfey|35/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743869925
+|switch|p1a: Raichu|Raichu, F|100/100
+|move|p2a: Comfey|Tera Blast|p1a: Raichu|[anim] Tera Blast Electric
+|-ability|p1a: Raichu|Lightning Rod|boost
+|-boost|p1a: Raichu|spa|1
+|
+|upkeep
+|turn|11
+|
+|t:|1743869941
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|move|p2a: Comfey|Draining Kiss|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|55/100
+|-heal|p2a: Comfey|72/100|[from] drain|[of] p1a: Skarmory
+|-damage|p2a: Comfey|56/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|
+|upkeep
+|turn|12
+|
+|t:|1743869950
+|move|p2a: Comfey|Tera Blast|p1a: Skarmory|[anim] Tera Blast Electric
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|upkeep
+|
+|t:|1743869957
+|switch|p1a: Heatran|Heatran, M|34/100
+|turn|13
+|
+|t:|1743869960
+|-terastallize|p1a: Heatran|Grass
+|move|p2a: Comfey|Tera Blast|p1a: Heatran|[anim] Tera Blast Electric
+|-resisted|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|-message|simpward forfeited.
+|
+|win|dnooage
+|raw|simpward's rating: 1152 &rarr; <strong>1124</strong><br />(-28 for losing)
+|raw|dnooage's rating: 1114 &rarr; <strong>1142</strong><br />(+28 for winning)
+|l|☆simpward
+|player|p1|
+|l|☆dnooage
+|player|p2|

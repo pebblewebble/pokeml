@@ -1,0 +1,291 @@
+|j|☆AR41K
+|j|☆Vitrunn
+|t:|1743889570
+|gametype|singles
+|player|p1|AR41K|1|1000
+|player|p2|Vitrunn|swimmer|1065
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Latios, M|
+|poke|p1|Iron Hands|
+|poke|p1|Tyranitar, F|
+|poke|p1|Iron Moth|
+|poke|p2|Garganacl, F|
+|poke|p2|Darkrai|
+|poke|p2|Iron Moth|
+|poke|p2|Corviknight, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Haxorus, F|
+|teampreview
+|
+|t:|1743889580
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Haxorus|Haxorus, F, shiny|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|1
+|
+|t:|1743889603
+|move|p1a: Dragapult|Dragon Claw|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|8/100
+|move|p2a: Haxorus|Dragon Claw|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1743889611
+|switch|p1a: Latios|Latios, M|100/100
+|turn|2
+|
+|t:|1743889623
+|move|p2a: Haxorus|Trailblaze|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|87/100
+|-boost|p2a: Haxorus|spe|1
+|move|p1a: Latios|Psyshock|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|faint|p2a: Haxorus
+|
+|upkeep
+|
+|t:|1743889628
+|switch|p2a: Darkrai|Darkrai, shiny|100/100
+|turn|3
+|
+|t:|1743889637
+|move|p2a: Darkrai|Dark Pulse|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|-damage|p2a: Darkrai|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743889652
+|switch|p1a: Iron Hands|Iron Hands, shiny|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|turn|4
+|
+|t:|1743889659
+|switch|p2a: Dragapult|Dragapult, F, shiny|100/100
+|move|p1a: Iron Hands|Body Press|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|upkeep
+|turn|5
+|
+|t:|1743889682
+|move|p2a: Dragapult|Draco Meteor|p1a: Iron Hands
+|-damage|p1a: Iron Hands|40/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Iron Hands|Iron Defense|p1a: Iron Hands
+|-boost|p1a: Iron Hands|def|2
+|
+|upkeep
+|turn|6
+|
+|t:|1743889702
+|move|p2a: Dragapult|Dragon Pulse|p1a: Iron Hands
+|-crit|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743889706
+|switch|p1a: Toxapex|Toxapex, M, shiny|100/100
+|turn|7
+|
+|t:|1743889721
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|move|p1a: Toxapex|Baneful Bunker||[still]
+|-fail|p1a: Toxapex
+|
+|upkeep
+|turn|8
+|
+|t:|1743889731
+|move|p2a: Corviknight|Body Press|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|92/100
+|-damage|p2a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|move|p1a: Toxapex|Iron Defense|p1a: Toxapex
+|-boost|p1a: Toxapex|def|2
+|
+|-heal|p2a: Corviknight|90/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743889741
+|switch|p2a: Dragapult|Dragapult, F, shiny|100/100
+|move|p1a: Toxapex|Poison Jab|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|89/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743889755
+|move|p2a: Dragapult|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|63/100
+|move|p1a: Toxapex|Iron Defense|p1a: Toxapex
+|-boost|p1a: Toxapex|def|2
+|
+|upkeep
+|turn|11
+|
+|t:|1743889761
+|move|p2a: Dragapult|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|33/100
+|move|p1a: Toxapex|Poison Jab|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|77/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743889768
+|move|p2a: Dragapult|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|2/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|52/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743889779
+|move|p2a: Dragapult|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|19/100
+|-unboost|p1a: Toxapex|spd|1
+|move|p1a: Toxapex|Iron Defense|p1a: Toxapex
+|-boost|p1a: Toxapex|def|2
+|
+|upkeep
+|turn|14
+|
+|t:|1743889788
+|move|p2a: Dragapult|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|t:|1743889796
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|15
+|
+|t:|1743889803
+|move|p2a: Dragapult|Draco Meteor|p1a: Tyranitar
+|-damage|p1a: Tyranitar|59/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Tyranitar|Blizzard|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743889813
+|switch|p2a: Garganacl|Garganacl, F, shiny|100/100
+|turn|16
+|
+|t:|1743889819
+|move|p1a: Tyranitar|Brick Break|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|78/100
+|move|p2a: Garganacl|Body Press|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Garganacl|84/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743889827
+|switch|p1a: Iron Moth|Iron Moth, shiny|100/100
+|-item|p1a: Iron Moth|Air Balloon
+|turn|17
+|
+|t:|1743889833
+|move|p1a: Iron Moth|Confuse Ray|p2a: Garganacl
+|-start|p2a: Garganacl|confusion
+|-activate|p2a: Garganacl|confusion
+|-damage|p2a: Garganacl|79/100|[from] confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Moth|95/100|[from] Sandstorm
+|-heal|p2a: Garganacl|86/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743889844
+|move|p1a: Iron Moth|Protect|p1a: Iron Moth
+|-singleturn|p1a: Iron Moth|Protect
+|-activate|p2a: Garganacl|confusion
+|move|p2a: Garganacl|Salt Cure|p1a: Iron Moth
+|-activate|p1a: Iron Moth|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Moth|89/100|[from] Sandstorm
+|-heal|p2a: Garganacl|92/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743889852
+|move|p1a: Iron Moth|Flare Blitz|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|84/100
+|-damage|p1a: Iron Moth|85/100|[from] Recoil
+|-activate|p2a: Garganacl|confusion
+|move|p2a: Garganacl|Salt Cure|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|39/100
+|-start|p1a: Iron Moth|Salt Cure
+|-enditem|p1a: Iron Moth|Air Balloon
+|
+|-weather|none
+|-heal|p2a: Garganacl|91/100|[from] item: Leftovers
+|-damage|p1a: Iron Moth|26/100|[from] Salt Cure
+|upkeep
+|turn|20
+|
+|t:|1743889864
+|move|p1a: Iron Moth|Light Screen|p1a: Iron Moth
+|-sidestart|p1: AR41K|move: Light Screen
+|-activate|p2a: Garganacl|confusion
+|move|p2a: Garganacl|Body Press|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|2/100
+|
+|-heal|p2a: Garganacl|97/100|[from] item: Leftovers
+|-damage|p1a: Iron Moth|0 fnt|[from] Salt Cure
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|win|Vitrunn
+|raw|AR41K's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|Vitrunn's rating: 1065 &rarr; <strong>1090</strong><br />(+25 for winning)
+|l|☆AR41K
+|player|p1|

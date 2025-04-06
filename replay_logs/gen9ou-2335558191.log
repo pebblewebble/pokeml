@@ -1,0 +1,210 @@
+|j|☆JotaroBrando1
+|j|☆IASASAY
+|t:|1743806061
+|gametype|singles
+|player|p1|JotaroBrando1|benga|1000
+|player|p2|IASASAY|ghetsis|1049
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tinkaton, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Bastiodon, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Primarina, M|
+|poke|p1|Cinderace, M|
+|poke|p2|Inteleon, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Ting-Lu|
+|teampreview
+|
+|t:|1743806065
+|start
+|switch|p1a: Bastiodon|Bastiodon, F|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|
+|t:|1743806084
+|-terastallize|p1a: Bastiodon|Rock
+|move|p2a: Cinderace|U-turn|p1a: Bastiodon
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Bastiodon|74/100
+|
+|t:|1743806099
+|switch|p2a: Alomomola|Alomomola, F|100/100|[from] U-turn
+|move|p1a: Bastiodon|Meteor Beam||[still]
+|-prepare|p1a: Bastiodon|Meteor Beam
+|-boost|p1a: Bastiodon|spa|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743806108
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Bastiodon|Meteor Beam|p2a: Ting-Lu|[from] lockedmove
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|88/100
+|
+|-heal|p2a: Ting-Lu|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|c|☆IASASAY|Add powerherb
+|
+|t:|1743806120
+|move|p2a: Ting-Lu|Earthquake|p1a: Bastiodon
+|-supereffective|p1a: Bastiodon
+|-damage|p1a: Bastiodon|18/100
+|move|p1a: Bastiodon|Outrage|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|85/100
+|
+|-heal|p2a: Ting-Lu|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743806152
+|move|p2a: Ting-Lu|Earthquake|p1a: Bastiodon
+|-supereffective|p1a: Bastiodon
+|-damage|p1a: Bastiodon|0 fnt
+|faint|p1a: Bastiodon
+|
+|-heal|p2a: Ting-Lu|97/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743806166
+|switch|p1a: Primarina|Primarina, M|100/100
+|turn|5
+|
+|t:|1743806224
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Primarina|Snowscape|p1a: Primarina
+|-weather|Snowscape
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743806274
+|move|p1a: Primarina|Blizzard|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|75/100
+|move|p2a: Alomomola|Flip Turn|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|90/100
+|
+|t:|1743806281
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from] Flip Turn
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743806291
+|-terastallize|p2a: Dragapult|Ghost
+|move|p2a: Dragapult|Tera Blast|p1a: Primarina|[anim] Tera Blast Ghost
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743806315
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|turn|8
+|
+|t:|1743806329
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Excadrill|Drill Run|p2a: Alomomola
+|-damage|p2a: Alomomola|79/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743806339
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|move|p2a: Alomomola|Flip Turn|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|80/100
+|
+|t:|1743806345
+|switch|p2a: Inteleon|Inteleon, F|100/100|[from] Flip Turn
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1743806361
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|move|p2a: Inteleon|Surf|p1a: Tinkaton
+|-damage|p1a: Tinkaton|39/100
+|
+|-heal|p1a: Tinkaton|45/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743806372
+|move|p2a: Inteleon|Surf|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|upkeep
+|
+|t:|1743806379
+|switch|p1a: Iron Valiant|Iron Valiant|80/100
+|turn|12
+|
+|t:|1743806385
+|move|p2a: Inteleon|Surf|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743806391
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|turn|13
+|c|☆IASASAY|Booster valiant is better
+|
+|t:|1743806398
+|move|p2a: Inteleon|Surf|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by IASASAY)
+|
+|t:|1743806405
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|-item|p1a: Cinderace|Air Balloon
+|turn|14
+|c|☆IASASAY|And you may wanna tera
+|c|☆IASASAY|Oh you cant
+|
+|t:|1743806413
+|move|p2a: Inteleon|Surf|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-enditem|p1a: Cinderace|Air Balloon
+|faint|p1a: Cinderace
+|
+|win|IASASAY
+|raw|JotaroBrando1's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|raw|IASASAY's rating: 1077 &rarr; <strong>1099</strong><br />(+22 for winning)
+|l|☆JotaroBrando1
+|player|p1|

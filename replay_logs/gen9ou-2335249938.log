@@ -1,0 +1,302 @@
+|j|☆fire the frogs
+|j|☆lobomil
+|t:|1743778547
+|gametype|singles
+|player|p1|fire the frogs|iris-gen5bw2|1103
+|player|p2|lobomil|cynthia-gen4|1147
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Glimmora, F|
+|poke|p1|Gliscor, F|
+|poke|p1|Meowscarada, F|
+|poke|p1|Moltres|
+|poke|p1|Kyurem|
+|poke|p2|Golurk|
+|poke|p2|Lycanroc-Midnight, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Ribombee, M|
+|poke|p2|Espeon, M|
+|poke|p2|Coalossal, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fire the frogs)
+|
+|t:|1743778559
+|start
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|switch|p2a: Espeon|Espeon, M|100/100
+|turn|1
+|
+|t:|1743778572
+|move|p2a: Espeon|Psychic Noise|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-enditem|p1a: Glimmora|Focus Sash
+|-damage|p1a: Glimmora|1/100
+|-start|p1a: Glimmora|move: Heal Block
+|move|p1a: Glimmora|Dazzling Gleam|p2a: Espeon
+|-damage|p2a: Espeon|71/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743778585
+|move|p2a: Espeon|Calm Mind|p2a: Espeon
+|-boost|p2a: Espeon|spa|1
+|-boost|p2a: Espeon|spd|1
+|move|p1a: Glimmora|Earth Power|p2a: Espeon
+|-damage|p2a: Espeon|49/100
+|
+|-end|p1a: Glimmora|move: Heal Block
+|upkeep
+|turn|3
+|
+|t:|1743778593
+|move|p2a: Espeon|Psychic Noise|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1743778600
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|turn|4
+|
+|t:|1743778606
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Espeon|Psychic Noise|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|t:|1743778617
+|move|p2a: Espeon|Psychic Noise|p1a: Gliscor
+|-damage|p1a: Gliscor|10/100 tox
+|-start|p1a: Gliscor|move: Heal Block
+|move|p1a: Gliscor|Fling|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-damage|p2a: Espeon|15/100
+|-status|p2a: Espeon|tox
+|-enditem|p1a: Gliscor|Toxic Orb|[from] move: Fling
+|
+|-damage|p2a: Espeon|9/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743778635
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Espeon|Draining Kiss|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-damage|p2a: Espeon|0 fnt|[from] psn
+|faint|p2a: Espeon
+|-end|p1a: Gliscor|move: Heal Block
+|upkeep
+|
+|t:|1743778642
+|switch|p2a: Lycanroc|Lycanroc-Midnight, M|100/100
+|turn|7
+|
+|t:|1743778648
+|move|p2a: Lycanroc|Stone Edge|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|t:|1743778652
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|8
+|
+|t:|1743778656
+|move|p2a: Lycanroc|Stone Edge|p1a: Ogerpon
+|-damage|p1a: Ogerpon|54/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Lycanroc|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|faint|p2a: Lycanroc
+|
+|upkeep
+|
+|t:|1743778666
+|switch|p2a: Coalossal|Coalossal, F|100/100
+|turn|9
+|
+|t:|1743778672
+|-terastallize|p2a: Coalossal|Grass
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Coalossal|[anim] Ivy Cudgel Water
+|-resisted|p2a: Coalossal
+|-damage|p2a: Coalossal|84/100
+|-ability|p2a: Coalossal|Steam Engine|boost
+|-boost|p2a: Coalossal|spe|6
+|move|p2a: Coalossal|Will-O-Wisp|p1a: Ogerpon
+|-status|p1a: Ogerpon|brn
+|
+|-damage|p1a: Ogerpon|47/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743778685
+|move|p2a: Coalossal|Heat Crash|p1a: Ogerpon
+|-damage|p1a: Ogerpon|16/100 brn
+|move|p1a: Ogerpon|Horn Leech|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-damage|p2a: Coalossal|78/100
+|-heal|p1a: Ogerpon|19/100 brn|[from] drain|[of] p2a: Coalossal
+|
+|-damage|p1a: Ogerpon|13/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743778694
+|move|p2a: Coalossal|Heat Crash|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743778699
+|switch|p1a: Moltres|Moltres|100/100
+|turn|12
+|
+|t:|1743778707
+|move|p2a: Coalossal|Heat Crash|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|82/100
+|move|p1a: Moltres|Flamethrower|p2a: Coalossal
+|-supereffective|p2a: Coalossal
+|-damage|p2a: Coalossal|21/100
+|-enditem|p2a: Coalossal|Weakness Policy
+|-boost|p2a: Coalossal|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Coalossal|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|13
+|
+|t:|1743778719
+|move|p2a: Coalossal|Heat Crash|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|49/100
+|move|p1a: Moltres|Flamethrower|p2a: Coalossal
+|-supereffective|p2a: Coalossal
+|-damage|p2a: Coalossal|0 fnt
+|faint|p2a: Coalossal
+|
+|upkeep
+|
+|t:|1743778734
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|turn|14
+|
+|t:|1743778740
+|move|p2a: Ribombee|Quiver Dance|p2a: Ribombee
+|-boost|p2a: Ribombee|spa|1
+|-boost|p2a: Ribombee|spd|1
+|-boost|p2a: Ribombee|spe|1
+|move|p1a: Moltres|Flamethrower|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743778751
+|move|p2a: Ribombee|Moonblast|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|15/100
+|move|p1a: Moltres|Flamethrower|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1743778757
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|16
+|
+|t:|1743778763
+|move|p2a: Grimmsnarl|Fake Out|p1a: Moltres
+|-damage|p1a: Moltres|2/100
+|cant|p1a: Moltres|flinch
+|
+|upkeep
+|turn|17
+|
+|t:|1743778768
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|52/100
+|-singleturn|p1a: Moltres|move: Roost
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|32/100
+|-unboost|p1a: Moltres|spa|1
+|-status|p2a: Grimmsnarl|brn|[from] ability: Flame Body|[of] p1a: Moltres
+|
+|-damage|p2a: Grimmsnarl|94/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743778778
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Moltres
+|-status|p1a: Moltres|par
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|82/100 par
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-heal|p2a: Grimmsnarl|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|94/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1743778792
+|switch|p2a: Golurk|Golurk|100/100
+|move|p1a: Moltres|Flamethrower|p2a: Golurk
+|-damage|p2a: Golurk|76/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743778809
+|move|p2a: Golurk|Knock Off|p1a: Moltres
+|-damage|p1a: Moltres|49/100 par
+|-enditem|p1a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Golurk
+|move|p1a: Moltres|Air Slash|p2a: Golurk
+|-damage|p2a: Golurk|54/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743778818
+|move|p2a: Golurk|Poltergeist||[still]
+|-fail|p2a: Golurk
+|cant|p1a: Moltres|par
+|
+|upkeep
+|turn|22
+|-message|lobomil forfeited.
+|
+|win|fire the frogs
+|raw|fire the frogs's rating: 1103 &rarr; <strong>1131</strong><br />(+28 for winning)
+|raw|lobomil's rating: 1147 &rarr; <strong>1119</strong><br />(-28 for losing)
+|l|☆lobomil
+|player|p2|
+|l|☆fire the frogs
+|player|p1|

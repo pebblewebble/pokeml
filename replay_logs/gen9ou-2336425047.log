@@ -1,0 +1,468 @@
+|j|☆papayarikky
+|j|☆showup downfall
+|t:|1743915646
+|gametype|singles
+|player|p1|papayarikky|burglar|1186
+|player|p2|showup downfall|hilbert|1144
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Polteageist|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Incineroar, F|
+|poke|p1|Krookodile, F|
+|poke|p1|Hitmontop, M|
+|poke|p1|Slowbro, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Mamoswine, F|
+|poke|p2|Infernape, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Kyurem|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by showup downfall)
+|
+|t:|1743915668
+|start
+|switch|p1a: dwb|Incineroar, F, shiny|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|-ability|p1a: dwb|Intimidate|boost
+|-unboost|p2a: Samurott|atk|1
+|turn|1
+|
+|t:|1743915688
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: dwb|Fake Out|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|94/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743915702
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: dwb|Parting Shot|p2a: Samurott
+|-unboost|p2a: Samurott|atk|1
+|-unboost|p2a: Samurott|spa|1
+|
+|t:|1743915723
+|switch|p1a: ocho loko|Electrode-Hisui, shiny|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|3
+|
+|t:|1743915731
+|switch|p2a: reliable|Mamoswine, F|100/100
+|move|p1a: ocho loko|Leech Seed|p2a: reliable
+|-start|p2a: reliable|move: Leech Seed
+|
+|-damage|p2a: reliable|88/100|[from] Leech Seed|[of] p1a: ocho loko
+|upkeep
+|turn|4
+|inactive|papayarikky has 120 seconds left.
+|
+|t:|1743915761
+|switch|p1a: dwb|Incineroar, F, shiny|100/100
+|-ability|p1a: dwb|Intimidate|boost
+|-unboost|p2a: reliable|atk|1
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|
+|upkeep
+|turn|5
+|
+|t:|1743915771
+|move|p2a: Kyurem|Earth Power|p1a: dwb
+|-supereffective|p1a: dwb
+|-damage|p1a: dwb|32/100
+|move|p1a: dwb|Knock Off|p2a: Kyurem
+|-damage|p2a: Kyurem|64/100
+|-enditem|p2a: Kyurem|Choice Specs|[from] move: Knock Off|[of] p1a: dwb
+|
+|upkeep
+|turn|6
+|
+|t:|1743915779
+|switch|p1a: dope|Slowbro, M, shiny|100/100
+|move|p2a: Kyurem|Earth Power|p1a: dope
+|-damage|p1a: dope|72/100
+|
+|-heal|p1a: dope|78/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743915785
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: dope|Thunder Wave|p2a: Samurott
+|-status|p2a: Samurott|par
+|
+|-heal|p1a: dope|84/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743915795
+|switch|p1a: blaka|Hitmontop, M, shiny|100/100
+|cant|p2a: Samurott|par
+|
+|upkeep
+|turn|9
+|
+|t:|1743915802
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: blaka|Bulldoze|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|73/100
+|-unboost|p2a: Grimmsnarl|spe|1
+|
+|upkeep
+|turn|10
+|inactive|papayarikky has 120 seconds left.
+|
+|t:|1743915837
+|switch|p1a: wiley|Krookodile, F, shiny|100/100
+|-ability|p1a: wiley|Intimidate|boost
+|-unboost|p2a: Grimmsnarl|atk|1
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: showup downfall|Reflect
+|
+|upkeep
+|turn|11
+|
+|t:|1743915845
+|move|p2a: Grimmsnarl|Parting Shot|p1a: wiley
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: wiley
+|move|p1a: wiley|Knock Off|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|66/100
+|-enditem|p2a: Grimmsnarl|Light Clay|[from] move: Knock Off|[of] p1a: wiley
+|
+|upkeep
+|turn|12
+|
+|t:|1743915862
+|switch|p2a: Kyurem|Kyurem|64/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: wiley|Gunk Shot|p2a: Kyurem
+|-damage|p2a: Kyurem|48/100
+|-status|p2a: Kyurem|psn
+|
+|-damage|p2a: Kyurem|36/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1743915881
+|-terastallize|p1a: wiley|Fairy
+|move|p2a: Kyurem|Ice Beam|p1a: wiley
+|-damage|p1a: wiley|69/100
+|move|p1a: wiley|Tera Blast|p2a: Kyurem|[anim] Tera Blast Fairy
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1743915890
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100 par
+|turn|14
+|
+|t:|1743915895
+|move|p1a: wiley|Tera Blast|p2a: Samurott|[anim] Tera Blast Fairy
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|58/100 par
+|move|p2a: Samurott|Ceaseless Edge|p1a: wiley
+|-resisted|p1a: wiley
+|-crit|p1a: wiley
+|-damage|p1a: wiley|25/100
+|-sidestart|p1: papayarikky|Spikes
+|
+|upkeep
+|turn|15
+|
+|t:|1743915903
+|move|p1a: wiley|Tera Blast|p2a: Samurott|[anim] Tera Blast Fairy
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|13/100 par
+|move|p2a: Samurott|Ceaseless Edge|p1a: wiley
+|-resisted|p1a: wiley
+|-damage|p1a: wiley|0 fnt
+|-sidestart|p1: papayarikky|Spikes
+|faint|p1a: wiley
+|
+|upkeep
+|
+|t:|1743915909
+|switch|p1a: blaka|Hitmontop, M, shiny|100/100
+|turn|16
+|
+|t:|1743915914
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|66/100
+|move|p1a: blaka|Rapid Spin|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|55/100
+|-boost|p1a: blaka|spe|1
+|-sideend|p1: papayarikky|Spikes|[from] move: Rapid Spin|[of] p1a: blaka
+|
+|upkeep
+|turn|17
+|inactive|papayarikky has 120 seconds left.
+|
+|t:|1743915950
+|switch|p1a: dwb|Incineroar, F, shiny|32/100
+|-ability|p1a: dwb|Intimidate|boost
+|-unboost|p2a: Grimmsnarl|atk|1
+|move|p2a: Grimmsnarl|Spirit Break|p1a: dwb
+|-damage|p1a: dwb|17/100
+|-unboost|p1a: dwb|spa|1
+|-damage|p2a: Grimmsnarl|38/100|[from] item: Rocky Helmet|[of] p1a: dwb
+|
+|-sideend|p2: showup downfall|Reflect
+|upkeep
+|turn|18
+|inactive|papayarikky has 120 seconds left.
+|
+|t:|1743915971
+|switch|p2a: Infernape|Infernape, F|100/100
+|move|p1a: dwb|Parting Shot|p2a: Infernape
+|-unboost|p2a: Infernape|atk|1
+|-unboost|p2a: Infernape|spa|1
+|
+|t:|1743915977
+|switch|p1a: dope|Slowbro, M, shiny|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|19
+|inactive|papayarikky has 120 seconds left.
+|
+|t:|1743915984
+|move|p2a: Infernape|U-turn|p1a: dope
+|-supereffective|p1a: dope
+|-crit|p1a: dope
+|-damage|p1a: dope|29/100
+|-damage|p2a: Infernape|91/100|[from] item: Life Orb
+|
+|t:|1743915989
+|switch|p2a: Samurott|Samurott-Hisui, M|13/100 par|[from] U-turn
+|move|p1a: dope|Chilling Water|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-heal|p1a: dope|35/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743915997
+|switch|p2a: Infernape|Infernape, F|91/100
+|turn|20
+|
+|t:|1743916017
+|switch|p1a: blaka|Hitmontop, M, shiny|100/100
+|move|p2a: Infernape|Thunder Punch|p1a: blaka
+|-damage|p1a: blaka|60/100
+|-damage|p2a: Infernape|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|21
+|
+|t:|1743916027
+|move|p2a: Infernape|U-turn|p1a: blaka
+|-resisted|p1a: blaka
+|-crit|p1a: blaka
+|-damage|p1a: blaka|33/100
+|-damage|p2a: Infernape|71/100|[from] item: Life Orb
+|
+|t:|1743916031
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|38/100|[from] U-turn
+|move|p1a: blaka|Bulldoze|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|8/100
+|-unboost|p2a: Grimmsnarl|spe|1
+|
+|upkeep
+|turn|22
+|
+|t:|1743916043
+|move|p2a: Grimmsnarl|Parting Shot|p1a: blaka
+|-unboost|p1a: blaka|atk|1
+|-unboost|p1a: blaka|spa|1
+|
+|t:|1743916046
+|switch|p2a: Mandibuzz|Mandibuzz, F|94/100|[from] Parting Shot
+|move|p1a: blaka|Rapid Spin|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|86/100
+|-boost|p1a: blaka|spe|1
+|
+|upkeep
+|turn|23
+|
+|t:|1743916055
+|move|p1a: blaka|Triple Axel|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|79/100
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|66/100
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|45/100
+|-hitcount|p2a: Mandibuzz|3
+|move|p2a: Mandibuzz|Foul Play|p1a: blaka
+|-resisted|p1a: blaka
+|-damage|p1a: blaka|21/100
+|
+|upkeep
+|turn|24
+|inactive|showup downfall has 120 seconds left.
+|
+|t:|1743916086
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|8/100
+|move|p1a: blaka|Triple Axel|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|2/100
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|-hitcount|p2: Grimmsnarl|2
+|
+|upkeep
+|
+|t:|1743916090
+|switch|p2a: Infernape|Infernape, F|71/100
+|turn|25
+|
+|t:|1743916107
+|move|p2a: Infernape|Mach Punch|p1a: blaka
+|-damage|p1a: blaka|0 fnt
+|faint|p1a: blaka
+|-damage|p2a: Infernape|61/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743916114
+|switch|p1a: dope|Slowbro, M, shiny|68/100
+|turn|26
+|
+|t:|1743916118
+|move|p2a: Infernape|U-turn|p1a: dope
+|-supereffective|p1a: dope
+|-damage|p1a: dope|21/100
+|-damage|p2a: Infernape|51/100|[from] item: Life Orb
+|
+|t:|1743916130
+|switch|p2a: Mandibuzz|Mandibuzz, F|45/100|[from] U-turn
+|move|p1a: dope|Thunder Wave|p2a: Mandibuzz
+|-status|p2a: Mandibuzz|par
+|
+|-heal|p1a: dope|27/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1743916153
+|switch|p2a: Infernape|Infernape, F|51/100
+|switch|p1a: dwb|Incineroar, F, shiny|17/100
+|-ability|p1a: dwb|Intimidate|boost
+|-unboost|p2a: Infernape|atk|1
+|
+|upkeep
+|turn|28
+|
+|t:|1743916164
+|switch|p1a: dope|Slowbro, M, shiny|60/100
+|move|p2a: Infernape|Mach Punch|p1a: dope
+|-resisted|p1a: dope
+|-damage|p1a: dope|52/100
+|-damage|p2a: Infernape|41/100|[from] item: Life Orb
+|
+|-heal|p1a: dope|58/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1743916175
+|move|p2a: Infernape|Thunder Punch|p1a: dope
+|-supereffective|p1a: dope
+|-damage|p1a: dope|14/100
+|-damage|p2a: Infernape|31/100|[from] item: Life Orb
+|move|p1a: dope|Future Sight|p2a: Infernape
+|-start|p1a: dope|move: Future Sight
+|
+|-heal|p1a: dope|20/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1743916183
+|switch|p1a: dwb|Incineroar, F, shiny|17/100
+|-ability|p1a: dwb|Intimidate|boost
+|-unboost|p2a: Infernape|atk|1
+|move|p2a: Infernape|Thunder Punch|p1a: dwb
+|-damage|p1a: dwb|0 fnt
+|-damage|p2a: Infernape|15/100|[from] item: Rocky Helmet|[of] p1a: dwb
+|faint|p1a: dwb
+|-damage|p2a: Infernape|5/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743916190
+|switch|p1a: entitea|Polteageist, shiny|100/100
+|turn|31
+|
+|t:|1743916194
+|switch|p2a: Mandibuzz|Mandibuzz, F|45/100 par
+|move|p1a: entitea|Shell Smash|p1a: entitea
+|-unboost|p1a: entitea|def|1
+|-unboost|p1a: entitea|spd|1
+|-boost|p1a: entitea|atk|2
+|-boost|p1a: entitea|spa|2
+|-boost|p1a: entitea|spe|2
+|
+|-end|p2a: Mandibuzz|move: Future Sight
+|-immune|p2a: Mandibuzz
+|upkeep
+|turn|32
+|
+|t:|1743916199
+|move|p1a: entitea|Shell Smash|p1a: entitea
+|-unboost|p1a: entitea|def|1
+|-unboost|p1a: entitea|spd|1
+|-boost|p1a: entitea|atk|2
+|-boost|p1a: entitea|spa|2
+|-boost|p1a: entitea|spe|2
+|cant|p2a: Mandibuzz|par
+|
+|upkeep
+|turn|33
+|
+|t:|1743916212
+|move|p1a: entitea|Shadow Ball|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|upkeep
+|
+|t:|1743916216
+|switch|p2a: reliable|Mamoswine, F|88/100
+|turn|34
+|
+|t:|1743916227
+|move|p2a: reliable|Ice Shard|p1a: entitea
+|-damage|p1a: entitea|15/100
+|-ability|p1a: entitea|Weak Armor|boost
+|-unboost|p1a: entitea|def|1
+|-boost|p1a: entitea|spe|2
+|move|p1a: entitea|Stored Power|p2a: reliable
+|-damage|p2a: reliable|0 fnt
+|faint|p2a: reliable
+|
+|upkeep
+|c|☆showup downfall|gg
+|-message|showup downfall forfeited.
+|
+|win|papayarikky
+|raw|papayarikky's rating: 1186 &rarr; <strong>1208</strong><br />(+22 for winning)
+|raw|showup downfall's rating: 1144 &rarr; <strong>1122</strong><br />(-22 for losing)
+|l|☆showup downfall
+|player|p2|
+|l|☆papayarikky
+|player|p1|

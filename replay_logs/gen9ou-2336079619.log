@@ -1,0 +1,237 @@
+|j|☆ceruledge999
+|j|☆Ill Leave
+|t:|1743876709
+|gametype|singles
+|player|p1|ceruledge999|265|1416
+|player|p2|Ill Leave|li|1412
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Ceruledge, M|
+|poke|p1|Moltres-Galar|
+|poke|p1|Cloyster, M|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Espeon, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Alomomola, M|
+|poke|p2|Skarmory, M|
+|poke|p2|Heatran, F|
+|poke|p2|Garganacl, M|
+|poke|p2|Weezing-Galar, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ceruledge999)
+|
+|t:|1743876723
+|start
+|switch|p1a: Ice spice|Espeon, M, shiny|100/100
+|switch|p2a: Heatran|Heatran, F|100/100
+|turn|1
+|
+|t:|1743876725
+|move|p1a: Ice spice|Trick|p2a: Heatran
+|-activate|p1a: Ice spice|move: Trick|[of] p2a: Heatran
+|-item|p2a: Heatran|Choice Scarf|[from] move: Trick
+|-item|p1a: Ice spice|Leftovers|[from] move: Trick
+|move|p2a: Heatran|Magma Storm|p1a: Ice spice
+|-damage|p1a: Ice spice|14/100
+|-activate|p1a: Ice spice|move: Magma Storm|[of] p2a: Heatran
+|replace|p1a: Zoroark|Zoroark-Hisui, M
+|-end|p1a: Zoroark|Illusion
+|
+|-heal|p1a: Zoroark|20/100|[from] item: Leftovers
+|-damage|p1a: Zoroark|8/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1743876740
+|switch|p1a: Dark Knight|Ceruledge, M, shiny|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Dark Knight|[miss]
+|-miss|p2a: Heatran|p1a: Dark Knight
+|
+|upkeep
+|turn|3
+|
+|t:|1743876750
+|move|p2a: Heatran|Magma Storm|p1a: Dark Knight|[miss]
+|-miss|p2a: Heatran|p1a: Dark Knight
+|move|p1a: Dark Knight|Close Combat|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|22/100
+|-unboost|p1a: Dark Knight|def|1
+|-unboost|p1a: Dark Knight|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743876759
+|move|p1a: Dark Knight|Shadow Sneak|p2a: Heatran
+|-damage|p2a: Heatran|4/100
+|move|p2a: Heatran|Magma Storm|p1a: Dark Knight
+|-resisted|p1a: Dark Knight
+|-crit|p1a: Dark Knight
+|-damage|p1a: Dark Knight|48/100
+|-activate|p1a: Dark Knight|move: Magma Storm|[of] p2a: Heatran
+|
+|-damage|p1a: Dark Knight|36/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1743876764
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Dark Knight|Shadow Sneak|p2a: Alomomola
+|-damage|p2a: Alomomola|88/100
+|
+|-end|p1a: Dark Knight|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|6
+|
+|t:|1743876772
+|switch|p1a: Ninetales|Ninetales-Alola, M, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Alomomola|Flip Turn|p1a: Ninetales
+|-damage|p1a: Ninetales|85/100
+|
+|t:|1743876777
+|switch|p2a: Skarmory|Skarmory, M|100/100|[from] Flip Turn
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743876779
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: ceruledge999|move: Aurora Veil
+|move|p2a: Skarmory|Spikes|p1a: Ninetales
+|-sidestart|p1: ceruledge999|Spikes
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743876792
+|switch|p1a: Ice spice|Espeon, M, shiny|100/100
+|-damage|p1a: Ice spice|88/100|[from] Spikes
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743876816
+|move|p1a: Ice spice|Draining Kiss|p2a: Garganacl
+|-damage|p2a: Garganacl|87/100
+|-heal|p1a: Ice spice|100/100|[from] drain|[of] p2a: Garganacl
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Garganacl|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743876834
+|move|p1a: Ice spice|Shadow Ball|p2a: Garganacl
+|-damage|p2a: Garganacl|83/100
+|move|p2a: Garganacl|Salt Cure|p1a: Ice spice
+|-damage|p1a: Ice spice|82/100
+|
+|-weather|none
+|-heal|p2a: Garganacl|90/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|c|☆Ill Leave|why are you not being salt cured
+|inactive|Ill Leave has 120 seconds left.
+|
+|t:|1743876866
+|move|p1a: Ice spice|Shadow Ball|p2a: Garganacl
+|-damage|p2a: Garganacl|79/100
+|move|p2a: Garganacl|Salt Cure|p1a: Ice spice
+|-damage|p1a: Ice spice|63/100
+|
+|-heal|p2a: Garganacl|86/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|c|☆Ill Leave|wait what
+|
+|t:|1743876874
+|move|p1a: Ice spice|Shadow Ball|p2a: Garganacl
+|-damage|p2a: Garganacl|76/100
+|-unboost|p2a: Garganacl|spd|1
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p2a: Garganacl|83/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743876878
+|move|p1a: Ice spice|Draining Kiss|p2a: Garganacl
+|-damage|p2a: Garganacl|66/100
+|-heal|p1a: Ice spice|82/100|[from] drain|[of] p2a: Garganacl
+|move|p2a: Garganacl|Salt Cure|p1a: Ice spice
+|-damage|p1a: Ice spice|57/100
+|
+|-heal|p2a: Garganacl|72/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743876889
+|move|p1a: Ice spice|Shadow Ball|p2a: Garganacl
+|-damage|p2a: Garganacl|57/100
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p2a: Garganacl|63/100|[from] item: Leftovers
+|-sideend|p1: ceruledge999|move: Aurora Veil
+|upkeep
+|turn|15
+|c|☆Ill Leave|how is this possible
+|
+|t:|1743876895
+|move|p1a: Ice spice|Draining Kiss|p2a: Garganacl
+|-damage|p2a: Garganacl|44/100
+|-heal|p1a: Ice spice|79/100|[from] drain|[of] p2a: Garganacl
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|94/100
+|
+|-heal|p2a: Garganacl|99/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743876903
+|move|p1a: Ice spice|Shadow Ball|p2a: Garganacl
+|-damage|p2a: Garganacl|85/100
+|move|p2a: Garganacl|Salt Cure|p1a: Ice spice
+|-damage|p1a: Ice spice|12/100
+|
+|-heal|p2a: Garganacl|91/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Ill Leave has 120 seconds left.
+|-message|ceruledge999 forfeited.
+|
+|win|Ill Leave
+|raw|ceruledge999's rating: 1416 &rarr; <strong>1396</strong><br />(-20 for losing)
+|raw|Ill Leave's rating: 1412 &rarr; <strong>1432</strong><br />(+20 for winning)
+|l|☆ceruledge999
+|player|p1|
+|j| EverProtect
+|j| Youngster Pappy
+|l| Youngster Pappy

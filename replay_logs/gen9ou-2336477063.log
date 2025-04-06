@@ -1,0 +1,408 @@
+|j|☆Banagiba
+|j|☆currieman69
+|t:|1743924283
+|gametype|singles
+|player|p1|Banagiba|carmine|1235
+|player|p2|currieman69|marlon|1270
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Iron Moth|
+|poke|p1|Zamazenta-*|
+|poke|p2|Frosmoth, M|
+|poke|p2|Cinccino, F|
+|poke|p2|Incineroar, F|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Sinistcha-Masterpiece|
+|poke|p2|Alomomola, M|
+|teampreview
+|
+|t:|1743924298
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Weezing|Weezing-Galar, F, shiny|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1743924314
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|move|p2a: Weezing|Toxic|p1a: Kingambit
+|-immune|p1a: Kingambit
+|
+|upkeep
+|turn|2
+|
+|t:|1743924328
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Incineroar|Incineroar, F, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|move|p1a: Kingambit|Iron Defense|p1a: Kingambit
+|-boost|p1a: Kingambit|def|2
+|
+|upkeep
+|turn|3
+|
+|t:|1743924339
+|move|p2a: Incineroar|Will-O-Wisp|p1a: Kingambit
+|-status|p1a: Kingambit|brn
+|move|p1a: Kingambit|Iron Defense|p1a: Kingambit
+|-boost|p1a: Kingambit|def|2
+|
+|-damage|p1a: Kingambit|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743924348
+|move|p2a: Incineroar|Knock Off|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|89/100 brn
+|-enditem|p1a: Kingambit|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-damage|p1a: Kingambit|83/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743924370
+|move|p2a: Incineroar|Flare Blitz|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|61/100 brn
+|-damage|p2a: Incineroar|93/100|[from] Recoil
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-damage|p1a: Kingambit|55/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743924381
+|move|p2a: Incineroar|Flare Blitz|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|33/100 brn
+|-damage|p2a: Incineroar|86/100|[from] Recoil
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|67/100
+|
+|-damage|p1a: Kingambit|27/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743924393
+|move|p2a: Incineroar|Flare Blitz|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|3/100 brn
+|-damage|p2a: Incineroar|59/100|[from] Recoil
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|39/100
+|
+|-damage|p1a: Kingambit|0 fnt|[from] brn
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|upkeep
+|
+|t:|1743924404
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|turn|8
+|
+|t:|1743924414
+|switch|p2a: Weezing|Weezing-Galar, F, shiny|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Samurott|Razor Shell|p2a: Weezing
+|-damage|p2a: Weezing|74/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743924440
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Samurott|Razor Shell|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|83/100
+|-damage|p1a: Samurott|84/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|
+|upkeep
+|turn|10
+|
+|t:|1743924452
+|move|p1a: Samurott|Knock Off|p2a: Alomomola
+|-damage|p2a: Alomomola|52/100
+|-damage|p1a: Samurott|67/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|-enditem|p2a: Alomomola|Rocky Helmet|[from] move: Knock Off|[of] p1a: Samurott
+|move|p2a: Alomomola|Flip Turn|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|57/100
+|
+|t:|1743924463
+|switch|p2a: Cinccino|Cinccino, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|11
+|
+|t:|1743924469
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Cinccino|atk|1
+|move|p2a: Cinccino|Tail Slap|p1a: Landorus
+|-damage|p1a: Landorus|90/100
+|-damage|p2a: Cinccino|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-damage|p1a: Landorus|80/100
+|-damage|p2a: Cinccino|67/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-damage|p1a: Landorus|69/100
+|-damage|p2a: Cinccino|50/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-damage|p1a: Landorus|59/100
+|-damage|p2a: Cinccino|34/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-hitcount|p1a: Landorus|4
+|
+|upkeep
+|turn|12
+|
+|t:|1743924485
+|move|p2a: Cinccino|Triple Axel|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|37/100
+|-damage|p2a: Cinccino|17/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Cinccino|0 fnt|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|faint|p2a: Cinccino
+|-hitcount|p1: Landorus|2
+|
+|upkeep
+|
+|t:|1743924500
+|switch|p2a: Alomomola|Alomomola, M|86/100
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|13
+|
+|t:|1743924508
+|move|p1a: Iron Moth|Sludge Wave|p2a: Alomomola
+|-damage|p2a: Alomomola|45/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|14
+|
+|t:|1743924521
+|move|p1a: Iron Moth|Sludge Wave|p2a: Alomomola
+|-damage|p2a: Alomomola|1/100
+|move|p2a: Alomomola|Flip Turn|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|57/100
+|
+|t:|1743924528
+|switch|p2a: Incineroar|Incineroar, F, shiny|39/100|[from] Flip Turn
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Iron Moth|atk|1
+|
+|-heal|p2a: Incineroar|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|15
+|
+|t:|1743924544
+|-terastallize|p1a: Iron Moth|Ground
+|move|p1a: Iron Moth|Tera Blast|p2a: Incineroar|[anim] Tera Blast Ground
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|20/100
+|move|p2a: Incineroar|Knock Off|p1a: Iron Moth
+|-damage|p1a: Iron Moth|20/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743924563
+|switch|p2a: Sinistcha|Sinistcha-Masterpiece|100/100
+|move|p1a: Iron Moth|Tera Blast|p2a: Sinistcha|[anim] Tera Blast Ground
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|79/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743924574
+|-terastallize|p2a: Sinistcha|Poison
+|move|p1a: Iron Moth|Sludge Wave|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-crit|p2a: Sinistcha
+|-damage|p2a: Sinistcha|37/100
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|-heal|p2a: Sinistcha|46/100|[from] drain|[of] p1a: Iron Moth
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743924581
+|switch|p1a: Samurott|Samurott-Hisui, F|57/100
+|turn|18
+|
+|t:|1743924589
+|move|p1a: Samurott|Ceaseless Edge|p2a: Sinistcha
+|-damage|p2a: Sinistcha|15/100
+|-sidestart|p2: currieman69|Spikes
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-heal|p2a: Sinistcha|42/100|[from] drain|[of] p1a: Samurott
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1743924598
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|19
+|
+|t:|1743924605
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|63/100
+|-heal|p2a: Sinistcha|57/100|[from] drain|[of] p1a: Iron Valiant
+|-status|p1a: Iron Valiant|brn
+|
+|-damage|p1a: Iron Valiant|57/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1743924617
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|
+|-damage|p1a: Iron Valiant|51/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1743924627
+|move|p1a: Iron Valiant|Psyshock|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|
+|-damage|p1a: Iron Valiant|45/100 brn|[from] brn
+|upkeep
+|
+|t:|1743924653
+|switch|p2a: Frosmoth|Frosmoth, M, shiny|100/100
+|-damage|p2a: Frosmoth|88/100|[from] Spikes
+|turn|22
+|
+|t:|1743924665
+|move|p1a: Iron Valiant|Moonblast|p2a: Frosmoth
+|-damage|p2a: Frosmoth|51/100
+|-unboost|p2a: Frosmoth|spa|1
+|move|p2a: Frosmoth|Ice Beam|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|23/100 brn
+|
+|-heal|p2a: Frosmoth|57/100|[from] item: Leftovers
+|-damage|p1a: Iron Valiant|17/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1743924676
+|move|p1a: Iron Valiant|Moonblast|p2a: Frosmoth
+|-damage|p2a: Frosmoth|23/100
+|move|p2a: Frosmoth|Ice Beam|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p2a: Frosmoth|29/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743924684
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|24
+|
+|t:|1743924694
+|switch|p2a: Incineroar|Incineroar, F, shiny|20/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Zamazenta|atk|1
+|move|p1a: Zamazenta|Body Press|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|upkeep
+|
+|t:|1743924704
+|switch|p2a: Weezing|Weezing-Galar, F, shiny|74/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|-damage|p2a: Weezing|61/100|[from] Spikes
+|turn|25
+|
+|t:|1743924715
+|move|p1a: Zamazenta|Crunch|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|57/100
+|move|p2a: Weezing|Strange Steam|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|61/100
+|
+|-heal|p1a: Zamazenta|67/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1743924726
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Weezing|Strange Steam|p1a: Zamazenta|[miss]
+|-miss|p2a: Weezing|p1a: Zamazenta
+|
+|-heal|p1a: Zamazenta|73/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1743924734
+|move|p1a: Zamazenta|Body Press|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|45/100
+|move|p2a: Weezing|Toxic|p1a: Zamazenta
+|-status|p1a: Zamazenta|tox
+|
+|-heal|p1a: Zamazenta|80/100 tox|[from] item: Leftovers
+|-damage|p1a: Zamazenta|73/100 tox|[from] psn
+|upkeep
+|turn|28
+|-message|Banagiba forfeited.
+|
+|win|currieman69
+|raw|Banagiba's rating: 1235 &rarr; <strong>1213</strong><br />(-22 for losing)
+|raw|currieman69's rating: 1270 &rarr; <strong>1292</strong><br />(+22 for winning)
+|l|☆Banagiba
+|player|p1|
+|l|☆currieman69
+|player|p2|

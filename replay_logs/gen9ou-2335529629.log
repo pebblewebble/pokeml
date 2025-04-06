@@ -1,0 +1,425 @@
+|j|☆team raging fire
+|j|☆testaltlol
+|t:|1743803018
+|gametype|singles
+|player|p1|team raging fire|colress|1238
+|player|p2|testaltlol|266|1214
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Jugulis|
+|poke|p1|Pincurchin, M|
+|poke|p1|Zebstrika, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Sinistcha|
+|poke|p1|Mudsdale, M|
+|poke|p2|Glimmora, F|
+|poke|p2|Skeledirge, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Bronzong|
+|poke|p2|Kommo-o, M|
+|teampreview
+|
+|t:|1743803044
+|start
+|switch|p1a: Sinistcha|Sinistcha|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|t:|1743803053
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Grimmsnarl|Taunt|p1a: Pincurchin
+|-start|p1a: Pincurchin|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1743803058
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: testaltlol|move: Light Screen
+|move|p1a: Pincurchin|Scald|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|95/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743803064
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: testaltlol|Reflect
+|move|p1a: Pincurchin|Scald|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|90/100
+|-status|p2a: Grimmsnarl|brn
+|
+|-damage|p2a: Grimmsnarl|83/100 brn|[from] brn
+|-end|p1a: Pincurchin|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1743803077
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Pincurchin
+|-unboost|p1a: Pincurchin|atk|1
+|-unboost|p1a: Pincurchin|spa|1
+|
+|t:|1743803079
+|switch|p2a: Kommo-o|Kommo-o, M|100/100|[from] Parting Shot
+|move|p1a: Pincurchin|Spikes|p2a: Kommo-o
+|-sidestart|p2: testaltlol|Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1743803091
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|68/100
+|-enditem|p2a: Kommo-o|Throat Spray
+|-boost|p2a: Kommo-o|spa|1|[from] item: Throat Spray
+|move|p1a: Pincurchin|Scald|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|66/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743803108
+|switch|p1a: Sinistcha|Sinistcha|100/100
+|-terastallize|p2a: Kommo-o|Normal
+|move|p2a: Kommo-o|Boomburst|p1a: Sinistcha
+|-immune|p1a: Sinistcha
+|
+|upkeep
+|turn|7
+|
+|t:|1743803124
+|move|p2a: Kommo-o|Clanging Scales|p1a: Sinistcha
+|-enditem|p1a: Sinistcha|Focus Sash
+|-damage|p1a: Sinistcha|1/100
+|-unboost|p2a: Kommo-o|def|1
+|move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+|-boost|p1a: Sinistcha|spa|1
+|-boost|p1a: Sinistcha|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743803133
+|move|p2a: Kommo-o|Flamethrower|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1743803139
+|switch|p1a: Mudsdale|Mudsdale, M|100/100
+|turn|9
+|
+|t:|1743803149
+|-terastallize|p1a: Mudsdale|Steel
+|move|p2a: Kommo-o|Boomburst|p1a: Mudsdale
+|-resisted|p1a: Mudsdale
+|-damage|p1a: Mudsdale|61/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|move|p1a: Mudsdale|Body Press|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|37/100
+|
+|-sideend|p2: testaltlol|move: Light Screen
+|upkeep
+|turn|10
+|
+|t:|1743803162
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Kommo-o|Flamethrower|p1a: Pincurchin
+|-damage|p1a: Pincurchin|34/100
+|
+|-sideend|p2: testaltlol|Reflect
+|upkeep
+|turn|11
+|
+|t:|1743803171
+|move|p1a: Pincurchin|Sucker Punch|p2a: Kommo-o
+|-damage|p2a: Kommo-o|20/100
+|move|p2a: Kommo-o|Clanging Scales|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|-unboost|p2a: Kommo-o|def|1
+|
+|upkeep
+|
+|t:|1743803179
+|switch|p1a: Iron Jugulis|Iron Jugulis|100/100
+|-activate|p1a: Iron Jugulis|ability: Quark Drive
+|-start|p1a: Iron Jugulis|quarkdrivespe
+|turn|12
+|
+|t:|1743803192
+|move|p1a: Iron Jugulis|Dark Pulse|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|upkeep
+|
+|t:|1743803194
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|83/100 brn
+|-damage|p2a: Grimmsnarl|71/100 brn|[from] Spikes
+|turn|13
+|
+|t:|1743803199
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: testaltlol|move: Light Screen
+|move|p1a: Iron Jugulis|Meteor Beam||[still]
+|-prepare|p1a: Iron Jugulis|Meteor Beam
+|-boost|p1a: Iron Jugulis|spa|1
+|-enditem|p1a: Iron Jugulis|Power Herb
+|-anim|p1a: Iron Jugulis|Meteor Beam|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|47/100 brn
+|
+|-damage|p2a: Grimmsnarl|41/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743803217
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Jugulis|atk|1
+|move|p1a: Iron Jugulis|Meteor Beam||[still]
+|-prepare|p1a: Iron Jugulis|Meteor Beam
+|-boost|p1a: Iron Jugulis|spa|1
+|
+|upkeep
+|turn|15
+|
+|t:|1743803228
+|move|p1a: Iron Jugulis|Meteor Beam|p2a: Landorus|[from] lockedmove
+|-damage|p2a: Landorus|58/100
+|move|p2a: Landorus|Smack Down|p1a: Iron Jugulis
+|-supereffective|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|60/100
+|-start|p1a: Iron Jugulis|Smack Down
+|
+|upkeep
+|turn|16
+|
+|t:|1743803242
+|move|p1a: Iron Jugulis|Air Slash|p2a: Landorus
+|-damage|p2a: Landorus|15/100
+|move|p2a: Landorus|U-turn|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|36/100
+|
+|t:|1743803253
+|switch|p2a: Skeledirge|Skeledirge, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|17
+|
+|t:|1743803266
+|-end|p1a: Iron Jugulis|Quark Drive|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Skeledirge|Torch Song|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|87/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|18
+|
+|t:|1743803284
+|switch|p2a: Landorus|Landorus-Therian, M|15/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Raging Bolt|atk|1
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743803292
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|19
+|
+|t:|1743803297
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Iron Jugulis|Iron Jugulis|36/100
+|move|p2a: Bronzong|Calm Mind|p2a: Bronzong
+|-boost|p2a: Bronzong|spa|1
+|-boost|p2a: Bronzong|spd|1
+|
+|upkeep
+|turn|20
+|
+|t:|1743803303
+|move|p1a: Iron Jugulis|Dark Pulse|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|83/100
+|move|p2a: Bronzong|Body Press|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|13/100
+|
+|-heal|p2a: Bronzong|89/100|[from] item: Leftovers
+|-sideend|p2: testaltlol|move: Light Screen
+|upkeep
+|turn|21
+|
+|t:|1743803308
+|move|p1a: Iron Jugulis|Dark Pulse|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|52/100
+|cant|p2a: Bronzong|flinch
+|
+|-heal|p2a: Bronzong|58/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743803312
+|move|p1a: Iron Jugulis|Dark Pulse|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|21/100
+|move|p2a: Bronzong|Body Press|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|0 fnt
+|faint|p1a: Iron Jugulis
+|-end|p1a: Iron Jugulis|Quark Drive|[silent]
+|
+|-heal|p2a: Bronzong|27/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743803315
+|switch|p1a: Zebstrika|Zebstrika, M|100/100
+|turn|23
+|
+|t:|1743803324
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-damage|p2a: Glimmora|88/100|[from] Spikes
+|move|p1a: Zebstrika|Supercell Slam|p2a: Glimmora
+|-damage|p2a: Glimmora|6/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: team raging fire|move: Toxic Spikes
+|
+|upkeep
+|turn|24
+|
+|t:|1743803331
+|move|p1a: Zebstrika|Supercell Slam|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: team raging fire|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1743803333
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|41/100 brn
+|-damage|p2a: Grimmsnarl|29/100 brn|[from] Spikes
+|turn|25
+|
+|t:|1743803340
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: testaltlol|Reflect
+|move|p1a: Zebstrika|Supercell Slam|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1743803348
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|turn|26
+|
+|t:|1743803357
+|move|p1a: Zebstrika|Supercell Slam|p2a: Skeledirge
+|-damage|p2a: Skeledirge|74/100
+|move|p2a: Skeledirge|Will-O-Wisp|p1a: Zebstrika
+|-status|p1a: Zebstrika|brn
+|
+|-damage|p1a: Zebstrika|94/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1743803375
+|move|p1a: Zebstrika|Supercell Slam|p2a: Skeledirge
+|-damage|p2a: Skeledirge|61/100
+|move|p2a: Skeledirge|Torch Song|p1a: Zebstrika
+|-damage|p1a: Zebstrika|47/100 brn
+|-boost|p2a: Skeledirge|spa|1
+|
+|-damage|p1a: Zebstrika|41/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1743803381
+|move|p1a: Zebstrika|Supercell Slam|p2a: Skeledirge
+|-damage|p2a: Skeledirge|48/100
+|move|p2a: Skeledirge|Slack Off|p2a: Skeledirge
+|-heal|p2a: Skeledirge|98/100
+|
+|-damage|p1a: Zebstrika|35/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1743803384
+|move|p1a: Zebstrika|Supercell Slam|p2a: Skeledirge
+|-damage|p2a: Skeledirge|85/100
+|move|p2a: Skeledirge|Torch Song|p1a: Zebstrika
+|-damage|p1a: Zebstrika|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Zebstrika
+|
+|upkeep
+|
+|t:|1743803386
+|switch|p1a: Raging Bolt|Raging Bolt|87/100
+|-status|p1a: Raging Bolt|tox
+|turn|30
+|
+|t:|1743803391
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Skeledirge
+|-damage|p2a: Skeledirge|51/100
+|move|p2a: Skeledirge|Hex|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743803393
+|switch|p1a: Mudsdale|Mudsdale, M, tera:Steel|61/100
+|turn|31
+|
+|t:|1743803396
+|move|p2a: Skeledirge|Torch Song|p1a: Mudsdale
+|-supereffective|p1a: Mudsdale
+|-damage|p1a: Mudsdale|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Mudsdale
+|
+|win|testaltlol
+|raw|team raging fire's rating: 1238 &rarr; <strong>1211</strong><br />(-27 for losing)
+|raw|testaltlol's rating: 1214 &rarr; <strong>1241</strong><br />(+27 for winning)
+|c|☆team raging fire|gg
+|l|☆team raging fire
+|player|p1|
+|c|☆testaltlol|gg
+|l|☆testaltlol
+|player|p2|

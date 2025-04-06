@@ -1,0 +1,274 @@
+|j|☆thebacchusbraviary
+|j|☆romperignon
+|t:|1743859294
+|gametype|singles
+|player|p1|thebacchusbraviary|skyla|1216
+|player|p2|romperignon|ghetsis|1226
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Braviary, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Regice|
+|poke|p1|Greninja-*, M|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Thundurus-Therian, M|
+|poke|p2|Moltres|
+|poke|p2|Salamence, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Iron Treads|
+|poke|p2|Zapdos|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by thebacchusbraviary)
+|
+|t:|1743859301
+|start
+|switch|p1a: Braviary|Braviary, M|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|
+|t:|1743859308
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Zapdos|Thunder Wave|p1a: Thundurus
+|-immune|p1a: Thundurus|[from] ability: Volt Absorb
+|
+|upkeep
+|turn|2
+|
+|t:|1743859313
+|move|p1a: Thundurus|Grass Knot|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|78/100
+|move|p2a: Zapdos|Hurricane|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-crit|p1a: Thundurus
+|-damage|p1a: Thundurus|37/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743859320
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|switch|p2a: Iron Treads|Iron Treads, shiny|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743859326
+|move|p2a: Iron Treads|Knock Off|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|90/100
+|-enditem|p1a: Tyranitar|Assault Vest|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Tyranitar|Low Kick|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743859331
+|move|p2a: Iron Treads|Stealth Rock|p1a: Tyranitar
+|-sidestart|p1: thebacchusbraviary|move: Stealth Rock
+|move|p1a: Tyranitar|Low Kick|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743859335
+|switch|p2a: Iron Valiant|Iron Valiant, shiny|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|6
+|
+|t:|1743859340
+|move|p2a: Iron Valiant|Aura Sphere|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743859352
+|switch|p1a: Regice|Regice|100/100
+|-damage|p1a: Regice|75/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1743859358
+|-terastallize|p1a: Regice|Ghost
+|move|p2a: Iron Valiant|Moonblast|p1a: Regice
+|-damage|p1a: Regice|50/100
+|move|p1a: Regice|Thunder Wave|p2a: Iron Valiant
+|-status|p2a: Iron Valiant|par
+|
+|-weather|none
+|-heal|p1a: Regice|56/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743859364
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Regice
+|-damage|p1a: Regice|42/100
+|move|p1a: Regice|Ice Beam|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|36/100 par
+|
+|-heal|p1a: Regice|48/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743859368
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Regice
+|-damage|p1a: Regice|32/100
+|move|p1a: Regice|Ice Beam|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p1a: Regice|38/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743859371
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|10
+|
+|t:|1743859373
+|move|p2a: Ogerpon|Knock Off|p1a: Regice
+|-supereffective|p1a: Regice
+|-damage|p1a: Regice|0 fnt
+|-enditem|p1a: Regice|Leftovers|[from] move: Knock Off|[of] p2a: Ogerpon
+|faint|p1a: Regice
+|
+|upkeep
+|
+|t:|1743859377
+|switch|p1a: Braviary|Braviary, M|100/100
+|-damage|p1a: Braviary|76/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1743859379
+|switch|p2a: Moltres|Moltres, shiny|100/100
+|move|p1a: Braviary|Brave Bird|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|40/100
+|-damage|p1a: Braviary|53/100|[from] Recoil
+|
+|upkeep
+|turn|12
+|
+|t:|1743859384
+|move|p1a: Braviary|Brave Bird|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|-damage|p1a: Braviary|38/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743859387
+|switch|p2a: Zapdos|Zapdos|78/100
+|turn|13
+|
+|t:|1743859390
+|switch|p1a: Thundurus|Thundurus-Therian, M|37/100
+|-damage|p1a: Thundurus|13/100|[from] Stealth Rock
+|move|p2a: Zapdos|Hurricane|p1a: Thundurus|[miss]
+|-miss|p2a: Zapdos|p1a: Thundurus
+|
+|upkeep
+|turn|14
+|
+|t:|1743859399
+|move|p1a: Thundurus|Sludge Wave|p2a: Zapdos
+|-damage|p2a: Zapdos|30/100
+|move|p2a: Zapdos|Hurricane|p1a: Thundurus|[miss]
+|-miss|p2a: Zapdos|p1a: Thundurus
+|
+|upkeep
+|turn|15
+|
+|t:|1743859402
+|move|p1a: Thundurus|Sludge Wave|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1743859408
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|16
+|
+|t:|1743859410
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Thundurus|[anim] Ivy Cudgel Water
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|t:|1743859413
+|switch|p1a: Braviary|Braviary, M|38/100
+|-damage|p1a: Braviary|13/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743859417
+|move|p1a: Braviary|Brave Bird|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|-damage|p1a: Braviary|0 fnt|[from] Recoil
+|faint|p1a: Braviary
+|
+|upkeep
+|
+|t:|1743859422
+|switch|p2a: Salamence|Salamence, M, shiny|100/100
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100
+|-damage|p1a: Arcanine|76/100|[from] Stealth Rock
+|-item|p1a: Arcanine|Air Balloon
+|turn|18
+|
+|t:|1743859433
+|-terastallize|p2a: Salamence|Steel
+|move|p1a: Arcanine|Head Smash|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|57/100
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|
+|upkeep
+|turn|19
+|
+|t:|1743859437
+|move|p2a: Salamence|Earthquake|p1a: Arcanine
+|-immune|p1a: Arcanine
+|move|p1a: Arcanine|Flare Blitz|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|win|thebacchusbraviary
+|raw|thebacchusbraviary's rating: 1216 &rarr; <strong>1242</strong><br />(+26 for winning)
+|raw|romperignon's rating: 1226 &rarr; <strong>1200</strong><br />(-26 for losing)
+|l|☆romperignon
+|player|p2|
+|l|☆thebacchusbraviary
+|player|p1|

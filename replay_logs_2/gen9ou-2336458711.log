@@ -1,0 +1,330 @@
+|j|☆Sambebored
+|j|☆that suck
+|t:|1743920976
+|gametype|singles
+|player|p1|Sambebored|266|1125
+|player|p2|that suck|102|1156
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blaziken, M|
+|poke|p1|Blissey, F|
+|poke|p1|Tropius, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Hydrapple, F|
+|poke|p1|Indeedee, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Kyurem|
+|poke|p2|Araquanid, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Dondozo, M|
+|poke|p2|Enamorus, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by that suck)
+|
+|t:|1743920981
+|start
+|switch|p1a: Blaziken|Blaziken, M, shiny|100/100
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Blaziken|atk|1
+|turn|1
+|
+|t:|1743920989
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Landorus|Earthquake|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|2
+|
+|t:|1743920993
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|move|p2a: Landorus|Earthquake|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|upkeep
+|
+|t:|1743921002
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|turn|3
+|
+|t:|1743921005
+|move|p2a: Landorus|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|27/100
+|move|p1a: Toxapex|Toxic|p2a: Landorus
+|-status|p2a: Landorus|tox
+|
+|-heal|p1a: Toxapex|33/100|[from] item: Leftovers
+|-damage|p2a: Landorus|95/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743921011
+|switch|p1a: Tropius|Tropius, M|100/100
+|move|p2a: Landorus|Earthquake|p1a: Tropius
+|-immune|p1a: Tropius
+|
+|-damage|p2a: Landorus|83/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743921015
+|move|p2a: Landorus|Rock Tomb|p1a: Tropius
+|-supereffective|p1a: Tropius
+|-damage|p1a: Tropius|58/100
+|-unboost|p1a: Tropius|spe|1
+|move|p1a: Tropius|Leech Seed|p2a: Landorus
+|-start|p2a: Landorus|move: Leech Seed
+|
+|-damage|p2a: Landorus|70/100 tox|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|68/100|[silent]
+|-damage|p2a: Landorus|53/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743921025
+|move|p2a: Landorus|Rock Tomb|p1a: Tropius
+|-supereffective|p1a: Tropius
+|-damage|p1a: Tropius|21/100
+|-unboost|p1a: Tropius|spe|1
+|-enditem|p1a: Tropius|Sitrus Berry|[eat]
+|-heal|p1a: Tropius|46/100|[from] item: Sitrus Berry
+|move|p1a: Tropius|Substitute|p1a: Tropius
+|-start|p1a: Tropius|Substitute
+|-damage|p1a: Tropius|21/100
+|
+|-damage|p2a: Landorus|40/100 tox|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|30/100|[silent]
+|-damage|p2a: Landorus|16/100 tox|[from] psn
+|-item|p1a: Tropius|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Tropius|Sitrus Berry|[eat]
+|-heal|p1a: Tropius|56/100|[from] item: Sitrus Berry
+|turn|7
+|
+|t:|1743921042
+|move|p1a: Tropius|Protect|p1a: Tropius
+|-singleturn|p1a: Tropius|Protect
+|move|p2a: Landorus|Giga Impact|p1a: Tropius
+|-activate|p1a: Tropius|move: Protect
+|
+|-damage|p2a: Landorus|4/100 tox|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|65/100|[silent]
+|-damage|p2a: Landorus|0 fnt|[from] psn
+|faint|p2a: Landorus
+|-item|p1a: Tropius|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|
+|t:|1743921047
+|switch|p2a: Kyurem|Kyurem, shiny|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|8
+|
+|t:|1743921060
+|move|p2a: Kyurem|Glaciate|p1a: Tropius
+|-supereffective|p1a: Tropius
+|-end|p1a: Tropius|Substitute
+|move|p1a: Tropius|Leech Seed|p2a: Kyurem
+|-start|p2a: Kyurem|move: Leech Seed
+|
+|-damage|p2a: Kyurem|88/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|79/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1743921069
+|move|p1a: Tropius|Protect|p1a: Tropius
+|-singleturn|p1a: Tropius|Protect
+|move|p2a: Kyurem|Glaciate|p1a: Tropius
+|-activate|p1a: Tropius|move: Protect
+|
+|-heal|p2a: Kyurem|94/100|[from] item: Leftovers
+|-damage|p2a: Kyurem|82/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|93/100|[silent]
+|upkeep
+|turn|10
+|
+|t:|1743921081
+|switch|p1a: Toxapex|Toxapex, F|66/100
+|move|p2a: Kyurem|Glaciate|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|55/100
+|-unboost|p1a: Toxapex|spe|1
+|
+|-heal|p2a: Kyurem|88/100|[from] item: Leftovers
+|-heal|p1a: Toxapex|62/100|[from] item: Leftovers
+|-damage|p2a: Kyurem|76/100|[from] Leech Seed|[of] p1a: Toxapex
+|-heal|p1a: Toxapex|80/100|[silent]
+|upkeep
+|turn|11
+|
+|t:|1743921091
+|-terastallize|p2a: Kyurem|Ground
+|move|p2a: Kyurem|Earth Power|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|12/100
+|move|p1a: Toxapex|Toxic|p2a: Kyurem
+|-status|p2a: Kyurem|tox
+|
+|-heal|p2a: Kyurem|82/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|19/100|[from] item: Leftovers
+|-damage|p2a: Kyurem|70/100 tox|[from] Leech Seed|[of] p1a: Toxapex
+|-heal|p1a: Toxapex|37/100|[silent]
+|-damage|p2a: Kyurem|63/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743921106
+|switch|p1a: Tropius|Tropius, M|93/100
+|move|p2a: Kyurem|Earth Power|p1a: Tropius
+|-immune|p1a: Tropius
+|
+|-heal|p2a: Kyurem|70/100 tox|[from] item: Leftovers
+|-damage|p2a: Kyurem|57/100 tox|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|100/100|[silent]
+|-damage|p2a: Kyurem|45/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1743921117
+|move|p1a: Tropius|Protect|p1a: Tropius
+|-singleturn|p1a: Tropius|Protect
+|move|p2a: Kyurem|Draco Meteor|p1a: Tropius
+|-activate|p1a: Tropius|move: Protect
+|
+|-heal|p2a: Kyurem|51/100 tox|[from] item: Leftovers
+|-damage|p2a: Kyurem|39/100 tox|[from] Leech Seed|[of] p1a: Tropius
+|-damage|p2a: Kyurem|20/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743921129
+|switch|p1a: Toxapex|Toxapex, F|70/100
+|move|p2a: Kyurem|Draco Meteor|p1a: Toxapex
+|-damage|p1a: Toxapex|27/100
+|-unboost|p2a: Kyurem|spa|2
+|
+|-heal|p2a: Kyurem|26/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|34/100|[from] item: Leftovers
+|-damage|p2a: Kyurem|14/100 tox|[from] Leech Seed|[of] p1a: Toxapex
+|-heal|p1a: Toxapex|52/100|[silent]
+|-damage|p2a: Kyurem|0 fnt|[from] psn
+|faint|p2a: Kyurem
+|upkeep
+|
+|t:|1743921139
+|switch|p2a: Dondozo|Dondozo, M, shiny|100/100
+|turn|15
+|
+|t:|1743921146
+|move|p2a: Dondozo|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|t:|1743921149
+|switch|p1a: Tropius|Tropius, M|100/100
+|turn|16
+|
+|t:|1743921162
+|switch|p2a: Zamazenta|Zamazenta, shiny|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Tropius|Leech Seed|p2a: Zamazenta
+|-start|p2a: Zamazenta|move: Leech Seed
+|
+|-damage|p2a: Zamazenta|88/100|[from] Leech Seed|[of] p1a: Tropius
+|upkeep
+|turn|17
+|
+|t:|1743921172
+|move|p2a: Zamazenta|Play Rough|p1a: Tropius
+|-damage|p1a: Tropius|58/100
+|move|p1a: Tropius|Substitute|p1a: Tropius
+|-start|p1a: Tropius|Substitute
+|-damage|p1a: Tropius|33/100
+|-enditem|p1a: Tropius|Sitrus Berry|[eat]
+|-heal|p1a: Tropius|58/100|[from] item: Sitrus Berry
+|
+|-damage|p2a: Zamazenta|76/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|68/100|[silent]
+|upkeep
+|turn|18
+|
+|t:|1743921179
+|move|p1a: Tropius|Protect|p1a: Tropius
+|-singleturn|p1a: Tropius|Protect
+|move|p2a: Zamazenta|Play Rough|p1a: Tropius
+|-activate|p1a: Tropius|move: Protect
+|
+|-damage|p2a: Zamazenta|64/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|78/100|[silent]
+|-item|p1a: Tropius|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|19
+|
+|t:|1743921189
+|move|p2a: Zamazenta|Play Rough|p1a: Tropius
+|-end|p1a: Tropius|Substitute
+|move|p1a: Tropius|Air Slash|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|26/100
+|
+|-damage|p2a: Zamazenta|14/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|88/100|[silent]
+|upkeep
+|turn|20
+|
+|t:|1743921198
+|move|p1a: Tropius|Protect|p1a: Tropius
+|-singleturn|p1a: Tropius|Protect
+|move|p2a: Zamazenta|Play Rough|p1a: Tropius
+|-activate|p1a: Tropius|move: Protect
+|
+|-damage|p2a: Zamazenta|1/100|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|98/100|[silent]
+|upkeep
+|turn|21
+|
+|t:|1743921208
+|move|p2a: Zamazenta|Play Rough|p1a: Tropius
+|-damage|p1a: Tropius|61/100
+|move|p1a: Tropius|Substitute|p1a: Tropius
+|-start|p1a: Tropius|Substitute
+|-damage|p1a: Tropius|36/100
+|-enditem|p1a: Tropius|Sitrus Berry|[eat]
+|-heal|p1a: Tropius|61/100|[from] item: Sitrus Berry
+|
+|-damage|p2a: Zamazenta|0 fnt|[from] Leech Seed|[of] p1a: Tropius
+|-heal|p1a: Tropius|62/100|[silent]
+|faint|p2a: Zamazenta
+|upkeep
+|-message|that suck forfeited.
+|
+|win|Sambebored
+|raw|Sambebored's rating: 1125 &rarr; <strong>1152</strong><br />(+27 for winning)
+|raw|that suck's rating: 1156 &rarr; <strong>1129</strong><br />(-27 for losing)
+|l|☆that suck
+|player|p2|
+|l|☆Sambebored
+|player|p1|

@@ -1,0 +1,256 @@
+|j|☆RegiTETRA
+|j|☆trollface games
+|t:|1743792117
+|gametype|singles
+|player|p1|RegiTETRA|170|1407
+|player|p2|trollface games|psychic-gen4|1436
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Great Tusk|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Raging Bolt|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Araquanid, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Iron Treads|
+|poke|p2|Necrozma|
+|poke|p2|Pecharunt|
+|teampreview
+|
+|t:|1743792127
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|turn|1
+|
+|t:|1743792152
+|move|p1a: Ogerpon|U-turn|p2a: Araquanid
+|-damage|p2a: Araquanid|74/100
+|
+|t:|1743792155
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|move|p2a: Araquanid|Sticky Web|p1a: Slowking
+|-sidestart|p1: RegiTETRA|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743792165
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Samurott
+|-damage|p2a: Samurott|42/100
+|-status|p2a: Samurott|psn
+|
+|-damage|p2a: Samurott|30/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1743792174
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Samurott|atk|1
+|move|p2a: Samurott|Ceaseless Edge|p1a: Landorus
+|-damage|p1a: Landorus|59/100
+|-damage|p2a: Samurott|13/100 psn|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-sidestart|p1: RegiTETRA|Spikes
+|
+|-damage|p2a: Samurott|1/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743792184
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-activate|p1a: Ogerpon|move: Sticky Web
+|-unboost|p1a: Ogerpon|spe|1
+|-damage|p1a: Ogerpon|88/100|[from] Spikes
+|move|p2a: Samurott|Sucker Punch||[still]
+|-fail|p2a: Samurott
+|
+|-damage|p2a: Samurott|0 fnt|[from] psn
+|faint|p2a: Samurott
+|upkeep
+|
+|t:|1743792191
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|5
+|
+|t:|1743792200
+|switch|p1a: Landorus|Landorus-Therian, M|59/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Lilligant|atk|1
+|move|p2a: Lilligant|Victory Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|1
+|-boost|p2a: Lilligant|def|1
+|-boost|p2a: Lilligant|spe|1
+|
+|upkeep
+|turn|6
+|
+|t:|1743792213
+|move|p2a: Lilligant|Substitute|p2a: Lilligant
+|-start|p2a: Lilligant|Substitute
+|-damage|p2a: Lilligant|75/100
+|move|p1a: Landorus|Taunt|p2a: Lilligant
+|-start|p2a: Lilligant|move: Taunt
+|
+|upkeep
+|turn|7
+|
+|t:|1743792221
+|move|p2a: Lilligant|Tera Blast|p1a: Landorus
+|-damage|p1a: Landorus|49/100
+|move|p1a: Landorus|U-turn|p2a: Lilligant
+|-activate|p2a: Lilligant|move: Substitute|[damage]
+|
+|t:|1743792227
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|-activate|p1a: Slowking|move: Sticky Web
+|-unboost|p1a: Slowking|spe|1
+|-damage|p1a: Slowking|88/100|[from] Spikes
+|
+|upkeep
+|turn|8
+|
+|t:|1743792235
+|-terastallize|p2a: Lilligant|Ghost
+|move|p2a: Lilligant|Tera Blast|p1a: Slowking|[anim] Tera Blast Ghost
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1743792248
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|move: Sticky Web
+|-unboost|p1a: Great Tusk|spe|1
+|-damage|p1a: Great Tusk|88/100|[from] Spikes
+|turn|9
+|
+|t:|1743792252
+|move|p2a: Lilligant|Tera Blast|p1a: Great Tusk|[anim] Tera Blast Ghost
+|-damage|p1a: Great Tusk|49/100
+|move|p1a: Great Tusk|Knock Off|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-end|p2a: Lilligant|Substitute
+|
+|-end|p2a: Lilligant|move: Taunt
+|upkeep
+|turn|10
+|
+|t:|1743792261
+|move|p2a: Lilligant|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Lilligant|def|1
+|-unboost|p2a: Lilligant|spd|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743792268
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-damage|p1a: Kingambit|88/100|[from] Spikes
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|11
+|
+|t:|1743792273
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|49/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Lilligant|atk|1
+|move|p2a: Lilligant|Substitute|p2a: Lilligant
+|-start|p2a: Lilligant|Substitute
+|-damage|p2a: Lilligant|50/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743792281
+|move|p2a: Lilligant|Victory Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|1
+|-boost|p2a: Lilligant|def|1
+|-boost|p2a: Lilligant|spe|1
+|move|p1a: Landorus|Taunt|p2a: Lilligant
+|-start|p2a: Lilligant|move: Taunt
+|
+|upkeep
+|turn|13
+|
+|t:|1743792285
+|move|p2a: Lilligant|Tera Blast|p1a: Landorus|[anim] Tera Blast Ghost
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743792301
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|88/100
+|-activate|p1a: Ogerpon|move: Sticky Web
+|-unboost|p1a: Ogerpon|spe|1
+|-damage|p1a: Ogerpon|76/100|[from] Spikes
+|turn|14
+|
+|t:|1743792308
+|move|p2a: Lilligant|Close Combat|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|-unboost|p2a: Lilligant|def|1
+|-unboost|p2a: Lilligant|spd|1
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743792313
+|switch|p1a: Kingambit|Kingambit, F|88/100
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-damage|p1a: Kingambit|76/100|[from] Spikes
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|15
+|
+|t:|1743792332
+|-terastallize|p1a: Kingambit|Ghost
+|move|p2a: Lilligant|Close Combat|p1a: Kingambit
+|-immune|p1a: Kingambit
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-end|p2a: Lilligant|Substitute
+|
+|-heal|p1a: Kingambit|82/100|[from] item: Leftovers
+|-end|p2a: Lilligant|move: Taunt
+|upkeep
+|turn|16
+|
+|t:|1743792343
+|move|p2a: Lilligant|Tera Blast|p1a: Kingambit|[anim] Tera Blast Ghost
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|-message|RegiTETRA forfeited.
+|
+|win|trollface games
+|raw|RegiTETRA's rating: 1407 &rarr; <strong>1389</strong><br />(-18 for losing)
+|raw|trollface games's rating: 1436 &rarr; <strong>1454</strong><br />(+18 for winning)
+|l|☆RegiTETRA
+|player|p1|

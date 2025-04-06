@@ -1,0 +1,397 @@
+|j|☆guroos301
+|j|☆Oddsin
+|t:|1743920126
+|gametype|singles
+|player|p1|guroos301|ethan|1058
+|player|p2|Oddsin|101|1054
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Sceptile, M|
+|poke|p1|Dragalge, M|
+|poke|p1|Gliscor, M|
+|poke|p2|Blastoise, M|
+|poke|p2|Arcanine, M|
+|poke|p2|Heracross, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Jolteon, F|
+|poke|p2|Gengar, F|
+|teampreview
+|
+|t:|1743920148
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Gengar|Gengar, F|100/100
+|turn|1
+|
+|t:|1743920157
+|move|p1a: Grimmsnarl|Taunt|p2a: Gengar
+|-start|p2a: Gengar|move: Taunt
+|cant|p2a: Gengar|move: Taunt|Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1743920164
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Grimmsnarl|atk|1
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: guroos301|Reflect
+|
+|upkeep
+|turn|3
+|
+|t:|1743920185
+|move|p1a: Grimmsnarl|Taunt|p2a: Arcanine
+|-start|p2a: Arcanine|move: Taunt
+|move|p2a: Arcanine|Flare Blitz|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|59/100
+|-damage|p2a: Arcanine|84/100|[from] Recoil
+|
+|upkeep
+|turn|4
+|
+|t:|1743920193
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: guroos301|move: Light Screen
+|move|p2a: Arcanine|Flare Blitz|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|18/100
+|-damage|p2a: Arcanine|68/100|[from] Recoil
+|
+|upkeep
+|turn|5
+|
+|t:|1743920200
+|move|p2a: Arcanine|Extreme Speed|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|1/100
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Arcanine
+|-unboost|p2a: Arcanine|atk|1
+|-unboost|p2a: Arcanine|spa|1
+|
+|t:|1743920220
+|switch|p1a: Dragalge|Dragalge, M|100/100|[from] Parting Shot
+|
+|-end|p2a: Arcanine|move: Taunt
+|upkeep
+|turn|6
+|
+|t:|1743920230
+|move|p2a: Arcanine|Extreme Speed|p1a: Dragalge
+|-damage|p1a: Dragalge|93/100
+|move|p1a: Dragalge|Acid Armor|p1a: Dragalge
+|-boost|p1a: Dragalge|def|2
+|
+|-heal|p1a: Dragalge|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743920252
+|switch|p2a: Gengar|Gengar, F|100/100
+|move|p1a: Dragalge|Acid Armor|p1a: Dragalge
+|-boost|p1a: Dragalge|def|2
+|
+|-heal|p1a: Dragalge|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743920265
+|move|p2a: Gengar|Clear Smog|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|95/100
+|-clearboost|p1a: Dragalge
+|move|p1a: Dragalge|Draco Meteor|p2a: Gengar
+|-damage|p2a: Gengar|7/100
+|-unboost|p1a: Dragalge|spa|2
+|
+|-heal|p1a: Dragalge|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743920279
+|move|p2a: Gengar|Shadow Ball|p1a: Dragalge
+|-damage|p1a: Dragalge|81/100
+|move|p1a: Dragalge|Acid Armor|p1a: Dragalge
+|-boost|p1a: Dragalge|def|2
+|
+|-heal|p1a: Dragalge|87/100|[from] item: Leftovers
+|-sideend|p1: guroos301|Reflect
+|upkeep
+|turn|10
+|
+|t:|1743920290
+|move|p2a: Gengar|Toxic Spikes|p1a: Dragalge
+|-sidestart|p1: guroos301|move: Toxic Spikes
+|move|p1a: Dragalge|Toxic Spikes|p2a: Gengar
+|-sidestart|p2: Oddsin|move: Toxic Spikes
+|
+|-heal|p1a: Dragalge|93/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743920326
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|-status|p2a: Jolteon|psn
+|move|p1a: Dragalge|Sludge Bomb|p2a: Jolteon
+|-damage|p2a: Jolteon|72/100 psn
+|
+|-heal|p1a: Dragalge|99/100|[from] item: Leftovers
+|-damage|p2a: Jolteon|59/100 psn|[from] psn
+|-sideend|p1: guroos301|move: Light Screen
+|upkeep
+|turn|12
+|
+|t:|1743920340
+|move|p2a: Jolteon|Hyper Voice|p1a: Dragalge
+|-damage|p1a: Dragalge|64/100
+|move|p1a: Dragalge|Draco Meteor|p2a: Jolteon
+|-damage|p2a: Jolteon|17/100 psn
+|-unboost|p1a: Dragalge|spa|2
+|
+|-heal|p1a: Dragalge|70/100|[from] item: Leftovers
+|-damage|p2a: Jolteon|5/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1743920352
+|move|p2a: Jolteon|Hyper Voice|p1a: Dragalge
+|-damage|p1a: Dragalge|36/100
+|move|p1a: Dragalge|Acid Armor|p1a: Dragalge
+|-boost|p1a: Dragalge|def|2
+|
+|-heal|p1a: Dragalge|42/100|[from] item: Leftovers
+|-damage|p2a: Jolteon|0 fnt|[from] psn
+|faint|p2a: Jolteon
+|upkeep
+|
+|t:|1743920366
+|switch|p2a: Gengar|Gengar, F|7/100
+|-sideend|p2: Oddsin|move: Toxic Spikes|[of] p2a: Gengar
+|turn|14
+|
+|t:|1743920378
+|move|p2a: Gengar|Shadow Ball|p1a: Dragalge
+|-damage|p1a: Dragalge|6/100
+|move|p1a: Dragalge|Draco Meteor|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-unboost|p1a: Dragalge|spa|2
+|-start|p1a: Dragalge|Disable|Draco Meteor|[from] ability: Cursed Body|[of] p2a: Gengar
+|faint|p2a: Gengar
+|
+|-heal|p1a: Dragalge|12/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743920428
+|switch|p2a: Heracross|Heracross, M|100/100
+|turn|15
+|
+|t:|1743920433
+|move|p2a: Heracross|Close Combat|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|3/100
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|move|p1a: Dragalge|Toxic Spikes|p2a: Heracross
+|-sidestart|p2: Oddsin|move: Toxic Spikes
+|
+|-heal|p1a: Dragalge|9/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743920445
+|move|p2a: Heracross|Close Combat|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|faint|p1a: Dragalge
+|-ability|p2a: Heracross|Moxie|boost
+|-boost|p2a: Heracross|atk|1
+|
+|upkeep
+|
+|t:|1743920457
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|turn|17
+|
+|t:|1743920467
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|-status|p2a: Blastoise|psn
+|move|p1a: Gliscor|Counter||[still]
+|-fail|p1a: Gliscor
+|
+|-damage|p2a: Blastoise|88/100 psn|[from] psn
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|18
+|
+|t:|1743920481
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|move|p2a: Blastoise|Shell Smash|p2a: Blastoise
+|-unboost|p2a: Blastoise|def|1
+|-unboost|p2a: Blastoise|spd|1
+|-boost|p2a: Blastoise|atk|2
+|-boost|p2a: Blastoise|spa|2
+|-boost|p2a: Blastoise|spe|2
+|-enditem|p2a: Blastoise|White Herb
+|-clearnegativeboost|p2a: Blastoise|[silent]
+|
+|-damage|p2a: Blastoise|76/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1743920502
+|move|p2a: Blastoise|Hydro Pump|p1a: Gliscor|[miss]
+|-miss|p2a: Blastoise|p1a: Gliscor
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|
+|-damage|p2a: Blastoise|63/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1743920510
+|move|p2a: Blastoise|Hydro Pump|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-damage|p2a: Blastoise|51/100 psn|[from] psn
+|upkeep
+|
+|t:|1743920520
+|switch|p1a: Sceptile|Sceptile, M|100/100
+|-status|p1a: Sceptile|psn
+|turn|21
+|
+|t:|1743920532
+|move|p2a: Blastoise|Ice Beam|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-damage|p1a: Sceptile|18/100 psn
+|-enditem|p1a: Sceptile|Weakness Policy
+|-boost|p1a: Sceptile|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Sceptile|spa|2|[from] item: Weakness Policy
+|move|p1a: Sceptile|Leaf Blade|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|-damage|p1a: Sceptile|5/100 psn|[from] psn
+|upkeep
+|
+|t:|1743920552
+|switch|p2a: Arcanine|Arcanine, M|68/100
+|-status|p2a: Arcanine|psn
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Sceptile|atk|1
+|turn|22
+|
+|t:|1743920558
+|move|p2a: Arcanine|Extreme Speed|p1a: Sceptile
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|
+|-damage|p2a: Arcanine|55/100 psn|[from] psn
+|upkeep
+|
+|t:|1743920568
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|1/100
+|-status|p1a: Grimmsnarl|psn
+|turn|23
+|
+|t:|1743920573
+|move|p2a: Arcanine|Extreme Speed|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-damage|p2a: Arcanine|43/100 psn|[from] psn
+|upkeep
+|
+|t:|1743920579
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|24
+|
+|t:|1743920592
+|move|p1a: Arcanine|Protect|p1a: Arcanine
+|-singleturn|p1a: Arcanine|Protect
+|move|p2a: Arcanine|Extreme Speed|p1a: Arcanine
+|-activate|p1a: Arcanine|move: Protect
+|
+|-damage|p2a: Arcanine|30/100 psn|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1743920602
+|move|p2a: Arcanine|Extreme Speed|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|81/100
+|move|p1a: Arcanine|Extreme Speed|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|t:|1743920644
+|switch|p2a: Heracross|Heracross, M|100/100
+|-status|p2a: Heracross|psn
+|turn|26
+|
+|t:|1743920650
+|move|p1a: Arcanine|Protect|p1a: Arcanine
+|-singleturn|p1a: Arcanine|Protect
+|move|p2a: Heracross|Close Combat|p1a: Arcanine
+|-activate|p1a: Arcanine|move: Protect
+|
+|-damage|p2a: Heracross|88/100 psn|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1743920669
+|move|p2a: Heracross|Close Combat|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|faint|p1a: Arcanine
+|-ability|p2a: Heracross|Moxie|boost
+|-boost|p2a: Heracross|atk|1
+|
+|-damage|p2a: Heracross|76/100 psn|[from] psn
+|upkeep
+|
+|t:|1743920673
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|turn|28
+|
+|t:|1743920681
+|move|p1a: Kingambit|Sucker Punch|p2a: Heracross
+|-resisted|p2a: Heracross
+|-damage|p2a: Heracross|23/100 psn
+|move|p2a: Heracross|Close Combat|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-unboost|p2a: Heracross|def|1
+|-unboost|p2a: Heracross|spd|1
+|faint|p1a: Kingambit
+|
+|win|Oddsin
+|raw|guroos301's rating: 1058 &rarr; <strong>1039</strong><br />(-19 for losing)
+|raw|Oddsin's rating: 1054 &rarr; <strong>1086</strong><br />(+32 for winning)
+|l|☆guroos301
+|player|p1|
+|l|☆Oddsin
+|player|p2|

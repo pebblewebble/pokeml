@@ -1,0 +1,273 @@
+|j|☆GholdengoFinance
+|j|‽Wester II
+|t:|1743827177
+|gametype|singles
+|player|p1|GholdengoFinance|leaf-masters2|1504
+|player|p2|Wester II|101|1463
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tauros-Paldea-Blaze, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Pecharunt|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Great Tusk|
+|poke|p2|Iron Valiant|
+|poke|p2|Iron Moth|
+|poke|p2|Kingambit, F|
+|poke|p2|Pecharunt|
+|poke|p2|Zamazenta-*|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Wester II)
+|
+|t:|1743827195
+|start
+|switch|p1a: Tauros|Tauros-Paldea-Blaze, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tauros|atk|1
+|turn|1
+|
+|t:|1743827201
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Ogerpon
+|-sidestart|p1: GholdengoFinance|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743827205
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Landorus|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743827211
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|3
+|
+|t:|1743827214
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-damage|p1a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Iron Moth|Sludge Wave|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|84/100
+|
+|-heal|p1a: Ting-Lu|90/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743827221
+|move|p2a: Iron Moth|Substitute|p2a: Iron Moth
+|-start|p2a: Iron Moth|Substitute
+|-damage|p2a: Iron Moth|76/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-end|p2a: Iron Moth|Substitute
+|
+|-heal|p1a: Ting-Lu|96/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743827236
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Zamazenta
+|-sidestart|p2: Wester II|move: Stealth Rock
+|
+|-heal|p1a: Ting-Lu|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743827244
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Ting-Lu|Ruination|p2a: Zamazenta
+|-damage|p2a: Zamazenta|51/100
+|
+|-heal|p2a: Zamazenta|57/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743827248
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Zamazenta|Body Press|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|
+|-heal|p2a: Zamazenta|63/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743827254
+|move|p2a: Zamazenta|Crunch|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|79/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Zamazenta
+|-damage|p2a: Zamazenta|39/100
+|-status|p2a: Zamazenta|tox
+|-start|p2a: Zamazenta|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-heal|p2a: Zamazenta|46/100 tox|[from] item: Leftovers
+|-damage|p2a: Zamazenta|39/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743827259
+|move|p1a: Pecharunt|Hex|p2a: Zamazenta
+|-damage|p2a: Zamazenta|8/100 tox
+|-activate|p2a: Zamazenta|confusion
+|move|p2a: Zamazenta|Roar|p1a: Pecharunt
+|drag|p1a: Tauros|Tauros-Paldea-Blaze, M|100/100
+|-damage|p1a: Tauros|88/100|[from] Stealth Rock
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Zamazenta|atk|1
+|
+|-heal|p2a: Zamazenta|14/100 tox|[from] item: Leftovers
+|-damage|p2a: Zamazenta|2/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743827262
+|switch|p1a: Pecharunt|Pecharunt|79/100
+|-end|p2a: Zamazenta|confusion
+|move|p2a: Zamazenta|Body Press|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|
+|-heal|p2a: Zamazenta|8/100 tox|[from] item: Leftovers
+|-damage|p2a: Zamazenta|0 fnt|[from] psn
+|faint|p2a: Zamazenta
+|upkeep
+|
+|t:|1743827266
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|11
+|
+|t:|1743827274
+|move|p1a: Pecharunt|Parting Shot|p2a: Kingambit
+|-unboost|p2a: Kingambit|atk|1
+|-unboost|p2a: Kingambit|spa|1
+|
+|t:|1743827276
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Parting Shot
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|85/100
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743827279
+|move|p2a: Kingambit|Sucker Punch|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|73/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|95/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: GholdengoFinance|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743827281
+|move|p1a: Great Tusk|Rapid Spin|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|94/100
+|-boost|p1a: Great Tusk|spe|1
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|58/100
+|
+|-heal|p2a: Kingambit|99/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743827283
+|move|p1a: Great Tusk|Headlong Rush|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|3/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|35/100
+|
+|-heal|p2a: Kingambit|9/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743827286
+|move|p2a: Kingambit|Sucker Punch|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|17/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|upkeep
+|
+|t:|1743827288
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|16
+|
+|t:|1743827291
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|18/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|
+|upkeep
+|turn|17
+|
+|t:|1743827295
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|-message|Wester II forfeited.
+|
+|win|GholdengoFinance
+|raw|GholdengoFinance's rating: 1504 &rarr; <strong>1522</strong><br />(+18 for winning)
+|raw|Wester II's rating: 1463 &rarr; <strong>1445</strong><br />(-18 for losing)
+|l|‽Wester II
+|player|p2|

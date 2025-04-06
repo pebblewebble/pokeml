@@ -1,0 +1,184 @@
+|j|☆qwqwqqw
+|j|☆jhonss
+|t:|1743834089
+|gametype|singles
+|player|p1|qwqwqqw|101|1307
+|player|p2|jhonss|clown|1261
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Darkrai|
+|poke|p1|Zamazenta-*|
+|poke|p1|Zapdos|
+|poke|p1|Gliscor, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Cinderace, F|
+|poke|p2|Walking Wake|
+|poke|p2|Torkoal, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Thundurus, M|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1743834097
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Gholdengo|Gholdengo, shiny|100/100
+|turn|1
+|
+|t:|1743834113
+|move|p2a: Gholdengo|Trick|p1a: Zapdos
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Zapdos
+|-item|p1a: Zapdos|Choice Scarf|[from] move: Trick
+|-item|p2a: Gholdengo|Heavy-Duty Boots|[from] move: Trick
+|move|p1a: Zapdos|Heat Wave|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|21/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743834129
+|switch|p1a: Darkrai|Darkrai|100/100
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743834147
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Darkrai|Nasty Plot|p1a: Darkrai
+|-boost|p1a: Darkrai|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743834153
+|move|p1a: Darkrai|Dark Pulse|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743834157
+|switch|p2a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|turn|5
+|
+|t:|1743834178
+|-terastallize|p1a: Darkrai|Fairy
+|move|p2a: Lilligant|Close Combat|p1a: Darkrai
+|-resisted|p1a: Darkrai
+|-damage|p1a: Darkrai|46/100
+|-unboost|p2a: Lilligant|def|1
+|-unboost|p2a: Lilligant|spd|1
+|-damage|p2a: Lilligant|91/100|[from] item: Life Orb
+|move|p1a: Darkrai|Tera Blast|p2a: Lilligant|[anim] Tera Blast Fairy
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743834185
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|6
+|
+|t:|1743834203
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743834205
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|turn|7
+|
+|t:|1743834211
+|-terastallize|p2a: Walking Wake|Water
+|move|p2a: Walking Wake|Hydro Steam|p1a: Slowking
+|-damage|p1a: Slowking|14/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|-end|p2a: Walking Wake|Protosynthesis
+|
+|t:|1743834223
+|switch|p1a: Zapdos|Zapdos|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743834251
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Gholdengo|Gholdengo, shiny|21/100
+|move|p1a: Zapdos|Volt Switch|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|t:|1743834260
+|switch|p1a: Zamazenta|Zamazenta|100/100|[from] Volt Switch
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743834264
+|switch|p2a: Thundurus|Thundurus, M, shiny|100/100
+|turn|9
+|
+|t:|1743834278
+|move|p2a: Thundurus|Thunder Wave|p1a: Zamazenta
+|-status|p1a: Zamazenta|par
+|move|p1a: Zamazenta|Stone Edge|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743834288
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|10
+|
+|t:|1743834295
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|-message|jhonss forfeited.
+|
+|win|qwqwqqw
+|raw|qwqwqqw's rating: 1345 &rarr; <strong>1360</strong><br />(+15 for winning)
+|raw|jhonss's rating: 1261 &rarr; <strong>1242</strong><br />(-19 for losing)
+|l|☆jhonss
+|player|p2|
+|l|☆qwqwqqw
+|player|p1|

@@ -1,0 +1,585 @@
+|j|☆adow
+|j|☆shnore
+|t:|1743803763
+|gametype|singles
+|player|p1|adow|veteran|1253
+|player|p2|shnore|medium|1271
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Alomomola, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Heatran, F|
+|poke|p1|Hippowdon, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Sinistcha-Masterpiece|
+|poke|p2|Pelipper, M|
+|poke|p2|Barraskewda, F|
+|poke|p2|Swampert, F|
+|poke|p2|Drednaw, M|
+|poke|p2|Maushold-Four|
+|poke|p2|Zapdos|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by shnore)
+|
+|t:|1743803774
+|start
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1743803778
+|move|p2a: Pelipper|U-turn|p1a: Alomomola
+|-damage|p1a: Alomomola|94/100
+|
+|t:|1743803785
+|switch|p2a: Barraskewda|Barraskewda, F|100/100|[from] U-turn
+|move|p1a: Alomomola|Flip Turn|p2a: Barraskewda
+|-resisted|p2a: Barraskewda
+|-damage|p2a: Barraskewda|75/100
+|
+|t:|1743803811
+|switch|p1a: Tyranitar|Tyranitar, F|100/100|[from] Flip Turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Barraskewda|69/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1743803819
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Barraskewda|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|52/100
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Barraskewda|63/100|[from] Sandstorm
+|-damage|p1a: Alomomola|46/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1743803830
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece|100/100
+|move|p2a: Barraskewda|Close Combat|p1a: Sinistcha
+|-immune|p1a: Sinistcha
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Barraskewda|57/100|[from] Sandstorm
+|-damage|p1a: Sinistcha|94/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1743803843
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Pelipper
+|-damage|p2a: Pelipper|49/100
+|-heal|p1a: Sinistcha|100/100|[from] drain|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743803854
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Zapdos|[miss]
+|-miss|p1a: Sinistcha|p2a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743803859
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Zapdos|Hurricane|p1a: Tyranitar|[miss]
+|-miss|p2a: Zapdos|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1743803867
+|move|p2a: Zapdos|Volt Switch|p1a: Tyranitar
+|-damage|p1a: Tyranitar|82/100
+|
+|t:|1743803870
+|switch|p2a: Swampert|Swampert, F|100/100|[from] Volt Switch
+|move|p1a: Tyranitar|Stone Edge|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|85/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743803887
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece|100/100
+|move|p2a: Swampert|Knock Off|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|42/100
+|-enditem|p1a: Sinistcha|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Swampert
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sinistcha|35/100|[from] Sandstorm
+|-heal|p2a: Swampert|92/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743803895
+|switch|p2a: Zapdos|Zapdos|94/100
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Zapdos|[miss]
+|-miss|p1a: Sinistcha|p2a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|88/100|[from] Sandstorm
+|-damage|p1a: Sinistcha|29/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1743803901
+|switch|p1a: Tyranitar|Tyranitar, F|82/100
+|move|p2a: Zapdos|Hurricane|p1a: Tyranitar|[miss]
+|-miss|p2a: Zapdos|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|82/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1743803909
+|move|p2a: Zapdos|Volt Switch|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|54/100
+|
+|t:|1743803913
+|switch|p2a: Swampert|Swampert, F|92/100|[from] Volt Switch
+|move|p1a: Tyranitar|Stealth Rock|p2a: Swampert
+|-sidestart|p2: shnore|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|98/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743803924
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Swampert|Liquidation|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|73/100
+|-damage|p2a: Swampert|81/100|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|87/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743803933
+|move|p2a: Swampert|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|61/100
+|-damage|p2a: Swampert|71/100|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|-enditem|p1a: Mandibuzz|Rocky Helmet|[from] move: Knock Off|[of] p2a: Swampert
+|move|p1a: Mandibuzz|Whirlwind|p2a: Swampert
+|drag|p2a: Barraskewda|Barraskewda, F|57/100
+|-damage|p2a: Barraskewda|45/100|[from] Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|14
+|
+|t:|1743803946
+|switch|p1a: Alomomola|Alomomola, M|79/100
+|move|p2a: Barraskewda|Liquidation|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|53/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743803957
+|move|p2a: Barraskewda|Liquidation|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|28/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|16
+|
+|t:|1743803963
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece|29/100
+|move|p2a: Barraskewda|Liquidation|p1a: Sinistcha
+|-resisted|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|
+|upkeep
+|
+|t:|1743803977
+|switch|p1a: Mandibuzz|Mandibuzz, F|61/100
+|turn|17
+|
+|t:|1743803984
+|switch|p2a: Zapdos|Zapdos|82/100
+|move|p1a: Mandibuzz|Brave Bird|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|63/100
+|-status|p1a: Mandibuzz|par|[from] ability: Static|[of] p2a: Zapdos
+|-damage|p1a: Mandibuzz|56/100 par|[from] Recoil
+|
+|upkeep
+|turn|18
+|
+|t:|1743803992
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|move|p2a: Zapdos|Hurricane|p1a: Hippowdon
+|-damage|p1a: Hippowdon|52/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743803997
+|move|p2a: Zapdos|Hurricane|p1a: Hippowdon|[miss]
+|-miss|p2a: Zapdos|p1a: Hippowdon
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|100/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743804006
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Hippowdon|Stone Edge|p2a: Zapdos|[miss]
+|-miss|p1a: Hippowdon|p2a: Zapdos
+|
+|upkeep
+|turn|21
+|
+|t:|1743804018
+|switch|p2a: Swampert|Swampert, F|71/100
+|-damage|p2a: Swampert|65/100|[from] Stealth Rock
+|switch|p1a: Heatran|Heatran, F|100/100
+|
+|-heal|p2a: Swampert|71/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743804025
+|switch|p1a: Mandibuzz|Mandibuzz, F|56/100 par
+|move|p2a: Swampert|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: adow|move: Stealth Rock
+|
+|-heal|p2a: Swampert|77/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743804033
+|move|p2a: Swampert|Liquidation|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|27/100 par
+|cant|p1a: Mandibuzz|par
+|
+|-heal|p2a: Swampert|83/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1743804037
+|move|p2a: Swampert|Liquidation|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|-heal|p2a: Swampert|89/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743804042
+|switch|p1a: Alomomola|Alomomola, M|61/100
+|turn|25
+|
+|t:|1743804046
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Swampert|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|38/100
+|-enditem|p1a: Alomomola|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Swampert
+|
+|-heal|p2a: Swampert|96/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1743804051
+|switch|p2a: Pelipper|Pelipper, M|49/100
+|-damage|p2a: Pelipper|24/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Alomomola|Flip Turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|13/100
+|
+|t:|1743804060
+|switch|p1a: Tyranitar|Tyranitar, F|54/100|[from] Flip Turn
+|-damage|p1a: Tyranitar|42/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pelipper|7/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|27
+|
+|t:|1743804072
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|57/100
+|-singleturn|p2a: Pelipper|move: Roost
+|move|p1a: Tyranitar|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|11/100
+|-enditem|p2a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pelipper|5/100|[from] Sandstorm
+|upkeep
+|turn|28
+|
+|t:|1743804085
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|56/100
+|-singleturn|p2a: Pelipper|move: Roost
+|move|p1a: Tyranitar|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pelipper|19/100|[from] Sandstorm
+|upkeep
+|turn|29
+|
+|t:|1743804095
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|69/100
+|-singleturn|p2a: Pelipper|move: Roost
+|move|p1a: Tyranitar|Stone Edge|p2a: Pelipper
+|-damage|p2a: Pelipper|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pelipper|20/100|[from] Sandstorm
+|upkeep
+|turn|30
+|
+|t:|1743804103
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|70/100
+|-singleturn|p2a: Pelipper|move: Roost
+|move|p1a: Tyranitar|Thunder Wave|p2a: Pelipper
+|-status|p2a: Pelipper|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pelipper|64/100 par|[from] Sandstorm
+|upkeep
+|turn|31
+|
+|t:|1743804109
+|switch|p2a: Swampert|Swampert, F|96/100
+|-damage|p2a: Swampert|89/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Stone Edge|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|74/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1743804116
+|move|p1a: Tyranitar|Knock Off|p2a: Swampert
+|-damage|p2a: Swampert|34/100
+|-enditem|p2a: Swampert|Leftovers|[from] move: Knock Off|[of] p1a: Tyranitar
+|move|p2a: Swampert|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|25/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|33
+|
+|t:|1743804125
+|move|p1a: Tyranitar|Knock Off|p2a: Swampert
+|-damage|p2a: Swampert|7/100
+|move|p2a: Swampert|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|none
+|upkeep
+|
+|t:|1743804134
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|turn|34
+|
+|t:|1743804144
+|move|p1a: Heatran|Fire Spin|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743804147
+|switch|p2a: Pelipper|Pelipper, M|64/100 par
+|-damage|p2a: Pelipper|39/100 par|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|35
+|
+|t:|1743804157
+|move|p1a: Heatran|Lava Plume|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|25/100 par
+|move|p2a: Pelipper|Weather Ball|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|14/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|21/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1743804160
+|move|p1a: Heatran|Lava Plume|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|9/100 par
+|cant|p2a: Pelipper|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|27/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1743804164
+|move|p1a: Heatran|Lava Plume|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Heatran|33/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743804166
+|switch|p2a: Barraskewda|Barraskewda, F|45/100
+|-damage|p2a: Barraskewda|32/100|[from] Stealth Rock
+|turn|38
+|
+|t:|1743804174
+|move|p2a: Barraskewda|Liquidation|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|-status|p2a: Barraskewda|brn|[from] ability: Flame Body|[of] p1a: Heatran
+|faint|p1a: Heatran
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Barraskewda|26/100 brn|[from] brn
+|upkeep
+|
+|t:|1743804183
+|switch|p1a: Alomomola|Alomomola, M|72/100
+|-damage|p1a: Alomomola|59/100|[from] Stealth Rock
+|turn|39
+|
+|t:|1743804195
+|move|p2a: Barraskewda|Liquidation|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|40/100
+|-unboost|p1a: Alomomola|def|1
+|move|p1a: Alomomola|Flip Turn|p2a: Barraskewda
+|-resisted|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|t:|1743804204
+|switch|p1a: Hippowdon|Hippowdon, F|100/100|[from] Flip Turn
+|
+|-weather|none
+|upkeep
+|
+|t:|1743804206
+|switch|p2a: Maushold|Maushold-Four, shiny|100/100
+|turn|40
+|
+|t:|1743804214
+|move|p2a: Maushold|Rain Dance|p2a: Maushold
+|-weather|RainDance
+|move|p1a: Hippowdon|Earthquake|p2a: Maushold
+|-damage|p2a: Maushold|34/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|41
+|
+|t:|1743804219
+|move|p2a: Maushold|Tidy Up|p2a: Maushold
+|-sideend|p2: shnore|Stealth Rock
+|-sideend|p1: adow|Stealth Rock
+|-activate|p2a: Maushold|move: Tidy Up
+|-boost|p2a: Maushold|atk|1
+|-boost|p2a: Maushold|spe|1
+|move|p1a: Hippowdon|Earthquake|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|faint|p2a: Maushold
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743804221
+|switch|p2a: Drednaw|Drednaw, M|100/100
+|turn|42
+|
+|t:|1743804226
+|-terastallize|p2a: Drednaw|Water
+|-terastallize|p1a: Hippowdon|Ground
+|move|p2a: Drednaw|Liquidation|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743804233
+|switch|p1a: Alomomola|Alomomola, M|73/100
+|turn|43
+|
+|t:|1743804235
+|move|p2a: Drednaw|Liquidation|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|26/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|44
+|-message|adow forfeited.
+|
+|win|shnore
+|raw|adow's rating: 1253 &rarr; <strong>1229</strong><br />(-24 for losing)
+|raw|shnore's rating: 1271 &rarr; <strong>1295</strong><br />(+24 for winning)
+|l|☆adow
+|player|p1|
+|j|☆adow
+|player|p1|adow|veteran|
+|l|☆adow
+|player|p1|
+|l|☆shnore
+|player|p2|

@@ -1,0 +1,138 @@
+|j|☆TheLaggyOwl
+|j|☆brocolli5418
+|t:|1743908379
+|gametype|singles
+|player|p1|TheLaggyOwl|veteran|1163
+|player|p2|brocolli5418|266|1213
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Haxorus, M|
+|poke|p1|Dusclops, M|
+|poke|p1|Chesnaught, M|
+|poke|p1|Weavile, F|
+|poke|p1|Cinccino, F|
+|poke|p1|Latias, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Scizor, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Meowscarada, M|
+|poke|p2|Primarina, M|
+|poke|p2|Gliscor, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by brocolli5418)
+|
+|t:|1743908386
+|start
+|switch|p1a: Weavile|Weavile, F|100/100
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|1
+|
+|t:|1743908396
+|move|p1a: Weavile|Hone Claws|p1a: Weavile
+|-boost|p1a: Weavile|atk|1
+|-boost|p1a: Weavile|accuracy|1
+|move|p2a: Gliscor|U-turn|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|33/100
+|
+|t:|1743908404
+|switch|p2a: Scizor|Scizor, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1743908409
+|switch|p1a: Dusclops|Dusclops, M|100/100
+|-item|p2a: Scizor|Leftovers|[from] ability: Frisk|[of] p1a: Dusclops
+|move|p2a: Scizor|Bullet Punch|p1a: Dusclops
+|-damage|p1a: Dusclops|76/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743908417
+|move|p2a: Scizor|U-turn|p1a: Dusclops
+|-resisted|p1a: Dusclops
+|-damage|p1a: Dusclops|61/100
+|
+|t:|1743908423
+|switch|p2a: Gliscor|Gliscor, F|100/100|[from] U-turn
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Gliscor
+|-status|p2a: Gliscor|brn
+|
+|-damage|p2a: Gliscor|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743908432
+|move|p2a: Gliscor|Toxic|p1a: Dusclops
+|-status|p1a: Dusclops|tox
+|move|p1a: Dusclops|Pain Split|p2a: Gliscor
+|-sethp|p2a: Gliscor|68/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|99/100 tox|[from] move: Pain Split
+|
+|-damage|p1a: Dusclops|93/100 tox|[from] psn
+|-damage|p2a: Gliscor|62/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743908444
+|move|p2a: Gliscor|U-turn|p1a: Dusclops
+|-resisted|p1a: Dusclops
+|-damage|p1a: Dusclops|89/100 tox
+|
+|t:|1743908453
+|switch|p2a: Meowscarada|Meowscarada, M|100/100|[from] U-turn
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Meowscarada
+|-status|p2a: Meowscarada|brn
+|
+|-damage|p1a: Dusclops|77/100 tox|[from] psn
+|-damage|p2a: Meowscarada|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743908464
+|move|p2a: Meowscarada|Knock Off|p1a: Dusclops
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|27/100 tox
+|-enditem|p1a: Dusclops|Eviolite|[from] move: Knock Off|[of] p2a: Meowscarada
+|move|p1a: Dusclops|Pain Split|p2a: Meowscarada
+|-sethp|p2a: Meowscarada|56/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|82/100 tox|[from] move: Pain Split
+|
+|-damage|p1a: Dusclops|64/100 tox|[from] psn
+|-damage|p2a: Meowscarada|50/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743908479
+|move|p2a: Meowscarada|Knock Off|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|15/100 tox
+|move|p1a: Dusclops|Rest|p1a: Dusclops
+|-status|p1a: Dusclops|slp|[from] move: Rest
+|-heal|p1a: Dusclops|100/100 slp|[silent]
+|
+|-damage|p2a: Meowscarada|44/100 brn|[from] brn
+|upkeep
+|turn|8
+|-message|brocolli5418 forfeited.
+|
+|win|TheLaggyOwl
+|raw|TheLaggyOwl's rating: 1163 &rarr; <strong>1192</strong><br />(+29 for winning)
+|raw|brocolli5418's rating: 1213 &rarr; <strong>1184</strong><br />(-29 for losing)
+|l|☆brocolli5418
+|player|p2|

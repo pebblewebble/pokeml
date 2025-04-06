@@ -1,0 +1,282 @@
+|j|☆TipDik
+|j|☆DawnRises
+|t:|1743796089
+|gametype|singles
+|player|p1|TipDik|emmet|1492
+|player|p2|DawnRises|lorelei-lgpe|1441
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Armarouge, M|
+|poke|p1|Torkoal, F|
+|poke|p1|Iron Moth|
+|poke|p1|Zarude|
+|poke|p1|Great Tusk|
+|poke|p1|Zapdos|
+|poke|p2|Iron Treads|
+|poke|p2|Pecharunt|
+|poke|p2|Tinkaton, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Garganacl, M|
+|poke|p2|Heatran, M|
+|teampreview
+|c|☆DawnRises|glhf
+|
+|t:|1743796114
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1743796121
+|move|p2a: Heatran|Stealth Rock|p1a: Torkoal
+|-sidestart|p1: TipDik|move: Stealth Rock
+|move|p1a: Torkoal|Stealth Rock|p2a: Heatran
+|-sidestart|p2: DawnRises|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743796123
+|move|p2a: Heatran|Earth Power|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|49/100
+|move|p1a: Torkoal|Rapid Spin|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|96/100
+|-boost|p1a: Torkoal|spe|1
+|-enditem|p2a: Heatran|Air Balloon
+|-sideend|p1: TipDik|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743796143
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Zapdos
+|-damage|p1a: Zapdos|20/100
+|-activate|p1a: Zapdos|move: Magma Storm|[of] p2a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Zapdos|8/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1743796179
+|move|p1a: Zapdos|Thunder Wave|p2a: Heatran
+|-status|p2a: Heatran|par
+|move|p2a: Heatran|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: TipDik|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Zapdos|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+|faint|p1a: Zapdos
+|upkeep
+|
+|t:|1743796182
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|5
+|
+|t:|1743796202
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-damage|p2a: Pecharunt|88/100|[from] Stealth Rock
+|-item|p2a: Pecharunt|Air Balloon
+|move|p1a: Great Tusk|Headlong Rush|p2a: Pecharunt
+|-immune|p2a: Pecharunt
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743796212
+|move|p2a: Pecharunt|Malignant Chain|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|79/100
+|-status|p1a: Great Tusk|tox
+|-start|p1a: Great Tusk|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|-activate|p1a: Great Tusk|confusion
+|move|p1a: Great Tusk|Knock Off|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|38/100
+|-enditem|p2a: Pecharunt|Air Balloon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Great Tusk|85/100 tox|[from] item: Leftovers
+|-damage|p1a: Great Tusk|79/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743796232
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Zarude|Zarude|100/100
+|-damage|p1a: Zarude|88/100|[from] Stealth Rock
+|move|p2a: Pecharunt|Parting Shot|p1a: Zarude
+|-unboost|p1a: Zarude|atk|1
+|-unboost|p1a: Zarude|spa|1
+|
+|t:|1743796248
+|switch|p2a: Heatran|Heatran, M|96/100 par|[from] Parting Shot
+|-damage|p2a: Heatran|83/100 par|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743796253
+|move|p1a: Zarude|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|79/100 par
+|
+|t:|1743796256
+|switch|p1a: Armarouge|Armarouge, M|100/100|[from] U-turn
+|-damage|p1a: Armarouge|76/100|[from] Stealth Rock
+|move|p2a: Heatran|Magma Storm|p1a: Armarouge
+|-start|p1a: Armarouge|ability: Flash Fire
+|
+|-weather|none
+|upkeep
+|turn|9
+|c|☆DawnRises|o.o
+|
+|t:|1743796276
+|-terastallize|p1a: Armarouge|Grass
+|move|p1a: Armarouge|Psyshock|p2a: Heatran
+|-resisted|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|26/100 par
+|cant|p2a: Heatran|par
+|
+|upkeep
+|turn|10
+|
+|t:|1743796282
+|move|p1a: Armarouge|Psyshock|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TipDik)
+|
+|t:|1743796327
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|11
+|
+|t:|1743796337
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|
+|upkeep
+|
+|t:|1743796351
+|switch|p1a: Great Tusk|Great Tusk|79/100 tox
+|-damage|p1a: Great Tusk|76/100 tox|[from] Stealth Rock
+|turn|12
+|
+|t:|1743796365
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-damage|p2a: Tinkaton|94/100|[from] Stealth Rock
+|-item|p2a: Tinkaton|Air Balloon
+|move|p1a: Great Tusk|Headlong Rush|p2a: Tinkaton
+|-immune|p2a: Tinkaton
+|
+|-heal|p1a: Great Tusk|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Great Tusk|76/100 tox|[from] psn
+|upkeep
+|turn|13
+|c|☆DawnRises|fun trend right
+|
+|t:|1743796379
+|move|p2a: Tinkaton|Thunder Wave|p1a: Great Tusk
+|-immune|p1a: Great Tusk
+|move|p1a: Great Tusk|Rapid Spin|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|84/100
+|-boost|p1a: Great Tusk|spe|1
+|-enditem|p2a: Tinkaton|Air Balloon
+|-sideend|p1: TipDik|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-enditem|p1a: Great Tusk|Leftovers|[silent]|[from] ability: Pickpocket|[of] p1a: Great Tusk
+|-item|p2a: Tinkaton|Leftovers|[from] ability: Pickpocket|[of] p1a: Great Tusk
+|
+|-heal|p2a: Tinkaton|90/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|63/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743796392
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|-item|p2a: Iron Treads|Air Balloon
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Treads
+|-immune|p2a: Iron Treads
+|
+|-damage|p1a: Great Tusk|45/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743796407
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|move|p2a: Iron Treads|Earthquake|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|c|☆TipDik|he knew
+|c|☆DawnRises|teehee
+|
+|t:|1743796419
+|switch|p1a: Zarude|Zarude|88/100
+|turn|16
+|
+|t:|1743796437
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Tinkaton|Tinkaton, F|90/100
+|-damage|p2a: Tinkaton|84/100|[from] Stealth Rock
+|move|p1a: Zarude|Knock Off|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|57/100
+|-enditem|p2a: Tinkaton|Leftovers|[from] move: Knock Off|[of] p1a: Zarude
+|-enditem|p1a: Zarude|Power Herb|[silent]|[from] ability: Pickpocket|[of] p1a: Zarude
+|-item|p2a: Tinkaton|Power Herb|[from] ability: Pickpocket|[of] p1a: Zarude
+|
+|upkeep
+|turn|17
+|-message|TipDik forfeited.
+|
+|win|DawnRises
+|raw|TipDik's rating: 1492 &rarr; <strong>1469</strong><br />(-23 for losing)
+|raw|DawnRises's rating: 1441 &rarr; <strong>1464</strong><br />(+23 for winning)
+|l|☆TipDik
+|player|p1|
+|c|☆DawnRises|ggs
+|l|☆DawnRises
+|player|p2|
+|j|☆DawnRises
+|player|p2|DawnRises|lorelei-lgpe|

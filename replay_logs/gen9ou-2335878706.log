@@ -1,0 +1,331 @@
+|j|☆fgodd
+|j|☆jiotave
+|t:|1743852812
+|gametype|singles
+|player|p1|fgodd|cynthia|1527
+|player|p2|jiotave|hilbert|1562
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Gholdengo|
+|poke|p1|Ting-Lu|
+|poke|p1|Primarina, M|
+|poke|p1|Great Tusk|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Walking Wake|
+|poke|p2|Iron Moth|
+|poke|p2|Venusaur, M|
+|poke|p2|Great Tusk|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fgodd)
+|
+|t:|1743852824
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1743852834
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Hatterene
+|-damage|p2a: Hatterene|34/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1743852843
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743852851
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Iron Moth|Fiery Dance|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|63/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ting-Lu|69/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743852862
+|-terastallize|p2a: Iron Moth|Fairy
+|move|p2a: Iron Moth|Fiery Dance|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|35/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Iron Moth
+|-damage|p2a: Iron Moth|48/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ting-Lu|42/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743852876
+|-terastallize|p1a: Ting-Lu|Poison
+|move|p2a: Iron Moth|Dazzling Gleam|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|25/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ting-Lu|31/100|[from] item: Leftovers
+|upkeep
+|c|☆jiotave|TOMA NO CU
+|
+|t:|1743852890
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|5
+|
+|t:|1743852895
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743852905
+|move|p2a: Great Tusk|Ice Spinner|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|81/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Make It Rain|p2a: Great Tusk
+|-damage|p2a: Great Tusk|16/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743852917
+|switch|p1a: Ting-Lu|Ting-Lu, tera:Poison|31/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Great Tusk|Headlong Rush|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Ting-Lu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743852922
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|8
+|
+|t:|1743852932
+|move|p2a: Great Tusk|Headlong Rush|p1a: Zamazenta
+|-damage|p1a: Zamazenta|53/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Zamazenta|Heavy Slam|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743852944
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|9
+|
+|t:|1743852951
+|switch|p1a: Primarina|Primarina, M|100/100
+|move|p2a: Torkoal|Stealth Rock|p1a: Primarina
+|-sidestart|p1: fgodd|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743852958
+|switch|p2a: Hatterene|Hatterene, F|34/100
+|move|p1a: Primarina|Flip Turn|p2a: Hatterene
+|-damage|p2a: Hatterene|29/100
+|
+|t:|1743852970
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Flip Turn
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743852980
+|move|p1a: Great Tusk|Headlong Rush|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743852990
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|turn|12
+|
+|t:|1743852997
+|move|p2a: Venusaur|Weather Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: Venusaur|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743853021
+|switch|p1a: Zamazenta|Zamazenta|53/100
+|-damage|p1a: Zamazenta|47/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743853025
+|move|p2a: Venusaur|Solar Beam||[still]
+|-prepare|p2a: Venusaur|Solar Beam
+|-anim|p2a: Venusaur|Solar Beam|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|-damage|p2a: Venusaur|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743853032
+|switch|p1a: Gholdengo|Gholdengo|81/100
+|-damage|p1a: Gholdengo|75/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743853041
+|switch|p1a: Primarina|Primarina, M|100/100
+|-damage|p1a: Primarina|88/100|[from] Stealth Rock
+|move|p2a: Venusaur|Solar Beam||[still]
+|-prepare|p2a: Venusaur|Solar Beam
+|-anim|p2a: Venusaur|Solar Beam|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|9/100
+|-damage|p2a: Venusaur|71/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|c|☆jiotave|Haha
+|
+|t:|1743853054
+|move|p2a: Venusaur|Weather Ball|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|-damage|p2a: Venusaur|61/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743853064
+|switch|p1a: Gholdengo|Gholdengo|75/100
+|-damage|p1a: Gholdengo|69/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743853068
+|move|p2a: Venusaur|Weather Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|-damage|p2a: Venusaur|51/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1743853071
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743853080
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743853089
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Torkoal|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|32/100
+|move|p2a: Torkoal|Body Press|p1a: Ogerpon
+|-damage|p1a: Ogerpon|48/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743853098
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Torkoal|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743853106
+|switch|p2a: Venusaur|Venusaur, M|51/100
+|turn|20
+|
+|t:|1743853112
+|move|p2a: Venusaur|Solar Beam||[still]
+|-prepare|p2a: Venusaur|Solar Beam
+|-anim|p2a: Venusaur|Solar Beam|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|-damage|p2a: Venusaur|41/100|[from] item: Life Orb
+|
+|win|jiotave
+|raw|fgodd's rating: 1527 &rarr; <strong>1509</strong><br />(-18 for losing)
+|raw|jiotave's rating: 1562 &rarr; <strong>1580</strong><br />(+18 for winning)
+|l|☆fgodd
+|player|p1|
+|l|☆jiotave
+|player|p2|

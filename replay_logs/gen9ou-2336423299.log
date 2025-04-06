@@ -1,0 +1,160 @@
+|j|☆Minoluck
+|j|☆ImHavingAHeartache
+|t:|1743915388
+|gametype|singles
+|player|p1|Minoluck|gentleman-gen4|1157
+|player|p2|ImHavingAHeartache|cynthia|1116
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Jirachi|
+|poke|p1|Lokix, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Ting-Lu|
+|poke|p2|Masquerain, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Breloom, F|
+|poke|p2|Gholdengo|
+|poke|p2|Kingambit, F|
+|poke|p2|Azumarill, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ImHavingAHeartache)
+|
+|t:|1743915396
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Sticky Fingers|Masquerain, M|100/100
+|-ability|p2a: Sticky Fingers|Intimidate|boost
+|-unboost|p1a: Jirachi|atk|1
+|turn|1
+|
+|t:|1743915412
+|-terastallize|p1a: Jirachi|Steel
+|move|p1a: Jirachi|Doom Desire|p2a: Sticky Fingers
+|-start|p1a: Jirachi|Doom Desire
+|move|p2a: Sticky Fingers|Sticky Web|p1a: Jirachi
+|-sidestart|p1: Minoluck|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743915422
+|move|p1a: Jirachi|Flash Cannon|p2a: Sticky Fingers
+|-damage|p2a: Sticky Fingers|40/100
+|move|p2a: Sticky Fingers|U-turn|p1a: Jirachi
+|-resisted|p1a: Jirachi
+|-damage|p1a: Jirachi|93/100
+|
+|t:|1743915433
+|switch|p2a: Beloom|Breloom, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1743915438
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Beloom|atk|1
+|move|p2a: Beloom|Close Combat|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|73/100
+|-unboost|p2a: Beloom|def|1
+|-unboost|p2a: Beloom|spd|1
+|
+|-end|p2a: Beloom|move: Doom Desire
+|-damage|p2a: Beloom|0 fnt
+|faint|p2a: Beloom
+|-heal|p1a: Gyarados|79/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743915460
+|switch|p2a: Conqueror's Haki|Kingambit, F|100/100
+|-activate|p2a: Conqueror's Haki|ability: Supreme Overlord
+|-start|p2a: Conqueror's Haki|fallen1|[silent]
+|turn|4
+|
+|t:|1743915470
+|move|p1a: Gyarados|Earthquake|p2a: Conqueror's Haki
+|-supereffective|p2a: Conqueror's Haki
+|-damage|p2a: Conqueror's Haki|39/100
+|move|p2a: Conqueror's Haki|Swords Dance|p2a: Conqueror's Haki
+|-boost|p2a: Conqueror's Haki|atk|2
+|
+|-heal|p1a: Gyarados|85/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743915490
+|-terastallize|p2a: Conqueror's Haki|Dark
+|move|p1a: Gyarados|Earthquake|p2a: Conqueror's Haki
+|-damage|p2a: Conqueror's Haki|11/100
+|move|p2a: Conqueror's Haki|Kowtow Cleave|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|t:|1743915498
+|switch|p1a: Lokix|Lokix, M|100/100
+|-activate|p1a: Lokix|move: Sticky Web
+|-unboost|p1a: Lokix|spe|1
+|turn|6
+|
+|t:|1743915518
+|move|p1a: Lokix|First Impression|p2a: Conqueror's Haki
+|-supereffective|p2a: Conqueror's Haki
+|-damage|p2a: Conqueror's Haki|0 fnt
+|faint|p2a: Conqueror's Haki
+|-end|p2a: Conqueror's Haki|fallen1|[silent]
+|-damage|p1a: Lokix|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743915524
+|switch|p2a: Massacre|Azumarill, F|100/100
+|turn|7
+|
+|t:|1743915533
+|move|p1a: Lokix|Knock Off|p2a: Massacre
+|-resisted|p2a: Massacre
+|-damage|p2a: Massacre|34/100
+|-enditem|p2a: Massacre|Choice Band|[from] move: Knock Off|[of] p1a: Lokix
+|-damage|p1a: Lokix|81/100|[from] item: Life Orb
+|move|p2a: Massacre|Play Rough|p1a: Lokix|[miss]
+|-miss|p2a: Massacre|p1a: Lokix
+|
+|upkeep
+|turn|8
+|
+|t:|1743915541
+|move|p1a: Lokix|U-turn|p2a: Massacre
+|-resisted|p2a: Massacre
+|-damage|p2a: Massacre|0 fnt
+|faint|p2a: Massacre
+|-damage|p1a: Lokix|71/100|[from] item: Life Orb
+|
+|t:|1743915544
+|switch|p1a: Cinderace|Cinderace, M|100/100|[from] U-turn
+|
+|upkeep
+|-message|ImHavingAHeartache forfeited.
+|
+|win|Minoluck
+|raw|Minoluck's rating: 1157 &rarr; <strong>1179</strong><br />(+22 for winning)
+|raw|ImHavingAHeartache's rating: 1116 &rarr; <strong>1094</strong><br />(-22 for losing)
+|l|☆ImHavingAHeartache
+|player|p2|
+|l|☆Minoluck
+|player|p1|

@@ -1,0 +1,337 @@
+|j|☆malpicatepica
+|j|☆HarryBobber
+|t:|1743786128
+|gametype|singles
+|player|p1|malpicatepica|102|1434
+|player|p2|HarryBobber|2|1447
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Treads|
+|poke|p1|Kyurem|
+|poke|p1|Gholdengo|
+|poke|p1|Ting-Lu|
+|poke|p1|Sinistcha-Masterpiece|
+|poke|p1|Inteleon, F|
+|poke|p2|Iron Treads|
+|poke|p2|Greninja-*, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Dragonite, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Gholdengo|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HarryBobber)
+|
+|t:|1743786136
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1743786148
+|move|p2a: Iron Treads|Earth Power|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|25/100
+|move|p1a: Iron Treads|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-crit|p2a: Iron Treads
+|-damage|p2a: Iron Treads|5/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743786155
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Iron Treads|Earth Power|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|86/100
+|
+|-heal|p1a: Ting-Lu|92/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743786159
+|move|p2a: Iron Treads|Stealth Rock|p1a: Ting-Lu
+|-sidestart|p1: malpicatepica|move: Stealth Rock
+|move|p1a: Ting-Lu|Spikes|p2a: Iron Treads
+|-sidestart|p2: HarryBobber|Spikes
+|
+|-heal|p1a: Ting-Lu|98/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743786163
+|move|p2a: Iron Treads|Rapid Spin|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|92/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: HarryBobber|Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Ting-Lu|Spikes|p2a: Iron Treads
+|-sidestart|p2: HarryBobber|Spikes
+|
+|-heal|p1a: Ting-Lu|98/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743786165
+|move|p2a: Iron Treads|Rapid Spin|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|92/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: HarryBobber|Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Ting-Lu|Payback|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p1a: Ting-Lu|98/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743786172
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|6
+|
+|t:|1743786174
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|move|p1a: Ting-Lu|Whirlwind|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|drag|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|
+|-heal|p1a: Ting-Lu|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743786183
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|move|p1a: Ting-Lu|Payback|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|94/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743786187
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece|100/100
+|-damage|p1a: Sinistcha|88/100|[from] Stealth Rock
+|move|p2a: Iron Valiant|Encore||[still]
+|-fail|p2a: Iron Valiant
+|
+|upkeep
+|turn|9
+|
+|t:|1743786193
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|move|p1a: Sinistcha|Giga Drain|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|44/100
+|-heal|p1a: Sinistcha|100/100|[from] drain|[of] p2a: Iron Valiant
+|
+|upkeep
+|turn|10
+|
+|t:|1743786198
+|move|p2a: Iron Valiant|Knock Off|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-crit|p1a: Sinistcha
+|-enditem|p1a: Sinistcha|Colbur Berry|[eat]
+|-enditem|p1a: Sinistcha|Colbur Berry|[weaken]
+|-damage|p1a: Sinistcha|35/100
+|move|p1a: Sinistcha|Giga Drain|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-heal|p1a: Sinistcha|54/100|[from] drain|[of] p2a: Iron Valiant
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743786204
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|11
+|
+|t:|1743786207
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-damage|p1a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Greninja|Hydro Pump|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|41/100
+|-damage|p2a: Greninja|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Ting-Lu|47/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743786214
+|-terastallize|p1a: Ting-Lu|Poison
+|move|p2a: Greninja|Hydro Pump|p1a: Ting-Lu|[miss]
+|-miss|p2a: Greninja|p1a: Ting-Lu
+|move|p1a: Ting-Lu|Earthquake|p2a: Greninja
+|-damage|p2a: Greninja|26/100
+|
+|-heal|p1a: Ting-Lu|54/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743786218
+|move|p2a: Greninja|Hydro Pump|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|23/100
+|-damage|p2a: Greninja|17/100|[from] item: Life Orb
+|move|p1a: Ting-Lu|Spikes|p2a: Greninja
+|-sidestart|p2: HarryBobber|Spikes
+|
+|-heal|p1a: Ting-Lu|29/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743786225
+|move|p2a: Greninja|Hydro Pump|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|-ability|p2a: Greninja|Battle Bond|boost
+|-boost|p2a: Greninja|atk|1
+|-boost|p2a: Greninja|spa|1
+|-boost|p2a: Greninja|spe|1
+|-activate|p2a: Greninja|ability: Battle Bond
+|-damage|p2a: Greninja|7/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743786227
+|switch|p1a: Inteleon|Inteleon, F|100/100
+|-damage|p1a: Inteleon|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743786232
+|move|p1a: Inteleon|Vacuum Wave|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|upkeep
+|
+|t:|1743786241
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|16
+|
+|t:|1743786250
+|move|p1a: Inteleon|Snipe Shot|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|16/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Shadow Ball|p1a: Inteleon
+|-damage|p1a: Inteleon|27/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743786254
+|move|p1a: Inteleon|Snipe Shot|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|l|☆malpicatepica
+|inactive|malpicatepica disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆malpicatepica
+|inactive|malpicatepica reconnected.
+|player|p1|malpicatepica|102|
+|
+|t:|1743786281
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|18
+|
+|t:|1743786284
+|move|p2a: Dragonite|Extreme Speed|p1a: Inteleon
+|-damage|p1a: Inteleon|0 fnt
+|faint|p1a: Inteleon
+|
+|upkeep
+|
+|t:|1743786286
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743786292
+|-terastallize|p2a: Dragonite|Normal
+|move|p1a: Gholdengo|Trick|p2a: Dragonite
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Dragonite
+|-item|p2a: Dragonite|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Heavy-Duty Boots|[from] move: Trick
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|20
+|
+|t:|1743786300
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-damage|p2a: Glimmora|88/100|[from] Spikes
+|move|p1a: Gholdengo|Make It Rain|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1743786303
+|switch|p2a: Dragonite|Dragonite, F, tera:Normal|100/100
+|-damage|p2a: Dragonite|88/100|[from] Spikes
+|turn|21
+|
+|t:|1743786306
+|switch|p1a: Iron Treads|Iron Treads|25/100
+|move|p2a: Dragonite|Earthquake|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743786309
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece|54/100
+|-damage|p1a: Sinistcha|42/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1743786315
+|move|p2a: Dragonite|Earthquake|p1a: Sinistcha
+|-resisted|p1a: Sinistcha
+|-damage|p1a: Sinistcha|28/100
+|move|p1a: Sinistcha|Strength Sap|p2a: Dragonite
+|-unboost|p2a: Dragonite|atk|1
+|-heal|p1a: Sinistcha|100/100
+|
+|upkeep
+|turn|23
+|-message|HarryBobber forfeited.
+|
+|win|malpicatepica
+|raw|malpicatepica's rating: 1457 &rarr; <strong>1476</strong><br />(+19 for winning)
+|raw|HarryBobber's rating: 1447 &rarr; <strong>1428</strong><br />(-19 for losing)
+|l|☆HarryBobber
+|player|p2|
+|l|☆malpicatepica
+|player|p1|

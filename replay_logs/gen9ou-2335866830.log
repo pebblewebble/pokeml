@@ -1,0 +1,178 @@
+|j|☆Pompey Magnus
+|j|☆SandIsSandy
+|t:|1743850802
+|gametype|singles
+|player|p1|Pompey Magnus|gentleman-gen4|1121
+|player|p2|SandIsSandy|hiker-gen4|1075
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Barraskewda, M|
+|poke|p1|Sandy Shocks|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Azumarill, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Palossand, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Diancie|
+|poke|p2|Corviknight, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Ogerpon-Cornerstone, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SandIsSandy)
+|
+|t:|1743850806
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1743850826
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|-enditem|p1a: Sandy Shocks|Booster Energy
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p1a: Sandy Shocks|protosynthesisspa
+|move|p2a: Tyranitar|Stealth Rock|p1a: Sandy Shocks
+|-sidestart|p1: Pompey Magnus|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743850844
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Sandy Shocks|Earth Power|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743850853
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|move|p1a: Sandy Shocks|Volt Switch|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743850858
+|move|p2a: Excadrill|Earthquake|p1a: Sandy Shocks
+|-supereffective|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|0 fnt
+|faint|p1a: Sandy Shocks
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|-damage|p2a: Excadrill|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743850862
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-damage|p1a: Pelipper|75/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|5
+|
+|t:|1743850871
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Pelipper|Weather Ball|p2a: Tyranitar
+|-damage|p2a: Tyranitar|89/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pelipper|69/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1743850896
+|move|p1a: Pelipper|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|78/100
+|
+|t:|1743850899
+|switch|p1a: Azumarill|Azumarill, M|100/100|[from] U-turn
+|-damage|p1a: Azumarill|88/100|[from] Stealth Rock
+|move|p2a: Tyranitar|Knock Off|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-damage|p1a: Azumarill|67/100
+|-enditem|p1a: Azumarill|Sitrus Berry|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Azumarill|61/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1743850909
+|move|p1a: Azumarill|Aqua Jet|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|46/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Azumarill|[miss]
+|-miss|p2a: Tyranitar|p1a: Azumarill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Azumarill|55/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1743850916
+|switch|p2a: Palossand|Palossand, M|100/100
+|move|p1a: Azumarill|Play Rough|p2a: Palossand
+|-damage|p2a: Palossand|63/100
+|-damage|p1a: Azumarill|38/100|[from] item: Rocky Helmet|[of] p2a: Palossand
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Azumarill|32/100|[from] Sandstorm
+|upkeep
+|turn|9
+|inactive|Pompey Magnus has 120 seconds left.
+|
+|t:|1743850954
+|move|p1a: Azumarill|Aqua Jet|p2a: Palossand
+|-supereffective|p2a: Palossand
+|-damage|p2a: Palossand|31/100
+|-damage|p1a: Azumarill|16/100|[from] item: Rocky Helmet|[of] p2a: Palossand
+|-ability|p2a: Palossand|Water Compaction|boost
+|-boost|p2a: Palossand|def|2
+|move|p2a: Palossand|Shore Up|p2a: Palossand
+|-heal|p2a: Palossand|97/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Azumarill|9/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1743850962
+|move|p1a: Azumarill|Knock Off|p2a: Palossand
+|-supereffective|p2a: Palossand
+|-damage|p2a: Palossand|73/100
+|-damage|p1a: Azumarill|0 fnt|[from] item: Rocky Helmet|[of] p2a: Palossand
+|faint|p1a: Azumarill
+|move|p2a: Palossand|Stockpile|p2a: Palossand
+|-start|p2a: Palossand|stockpile1
+|-boost|p2a: Palossand|def|1
+|-boost|p2a: Palossand|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|-message|Pompey Magnus forfeited.
+|
+|win|SandIsSandy
+|raw|Pompey Magnus's rating: 1095 &rarr; <strong>1069</strong><br />(-26 for losing)
+|raw|SandIsSandy's rating: 1075 &rarr; <strong>1105</strong><br />(+30 for winning)
+|l|☆Pompey Magnus
+|player|p1|

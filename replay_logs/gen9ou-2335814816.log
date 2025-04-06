@@ -1,0 +1,205 @@
+|j|☆nw loader
+|j|☆dikuccv
+|t:|1743841448
+|gametype|singles
+|player|p1|nw loader|unknown|1132
+|player|p2|dikuccv|2|1194
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Inteleon, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Tauros-Paldea-Aqua, M|
+|poke|p1|Sandy Shocks|
+|poke|p2|Iron Crown|
+|poke|p2|Iron Hands|
+|poke|p2|Great Tusk|
+|poke|p2|Glimmora, F|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Salamence, M|
+|teampreview
+|
+|t:|1743841460
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: ZachuVGC|Iron Hands|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1743841483
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|move|p2a: ZachuVGC|Swords Dance|p2a: ZachuVGC
+|-boost|p2a: ZachuVGC|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743841492
+|move|p1a: Sandy Shocks|Earth Power|p2a: ZachuVGC
+|-supereffective|p2a: ZachuVGC
+|-damage|p2a: ZachuVGC|1/100
+|move|p2a: ZachuVGC|Drain Punch|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|13/100
+|-heal|p2a: ZachuVGC|28/100|[from] drain|[of] p1a: Sandy Shocks
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: ZachuVGC|34/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743841505
+|-end|p2a: ZachuVGC|Quark Drive|[silent]
+|switch|p2a: Salamence|Salamence, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Sandy Shocks|atk|1
+|move|p1a: Sandy Shocks|Earth Power|p2a: Salamence
+|-immune|p2a: Salamence
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743841548
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Salamence|Psychic Fangs|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|92/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Corviknight|98/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dikuccv)
+|
+|t:|1743841581
+|switch|p2a: ZachuVGC|Iron Hands|34/100
+|move|p1a: Corviknight|Brave Bird|p2a: ZachuVGC
+|-crit|p2a: ZachuVGC
+|-damage|p2a: ZachuVGC|0 fnt
+|faint|p2a: ZachuVGC
+|-end|p2a: ZachuVGC|Quark Drive|[silent]
+|-damage|p1a: Corviknight|84/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Corviknight|90/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743841590
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|6
+|
+|t:|1743841601
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Arcanine|Double-Edge|p1a: Toxapex
+|-damage|p1a: Toxapex|60/100
+|-damage|p2a: Arcanine|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|67/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1743841616
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespe
+|move|p1a: Toxapex|Toxic|p2a: Iron Crown
+|-immune|p2a: Iron Crown
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Toxapex|73/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1743841627
+|switch|p1a: Corviknight|Corviknight, M|90/100
+|move|p2a: Iron Crown|Calm Mind|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spa|1
+|-boost|p2a: Iron Crown|spd|1
+|
+|-weather|none
+|-heal|p1a: Corviknight|97/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743841637
+|move|p2a: Iron Crown|Iron Defense|p2a: Iron Crown
+|-boost|p2a: Iron Crown|def|2
+|move|p1a: Corviknight|Brave Bird|p2a: Iron Crown
+|-resisted|p2a: Iron Crown
+|-damage|p2a: Iron Crown|91/100
+|-damage|p1a: Corviknight|94/100|[from] Recoil
+|
+|-heal|p1a: Corviknight|99/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743841654
+|move|p2a: Iron Crown|Calm Mind|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spa|1
+|-boost|p2a: Iron Crown|spd|1
+|move|p1a: Corviknight|U-turn|p2a: Iron Crown
+|-damage|p2a: Iron Crown|83/100
+|
+|t:|1743841662
+|switch|p1a: Inteleon|Inteleon, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|11
+|
+|t:|1743841685
+|move|p2a: Iron Crown|Calm Mind|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spa|1
+|-boost|p2a: Iron Crown|spd|1
+|move|p1a: Inteleon|Snipe Shot|p2a: Iron Crown
+|-damage|p2a: Iron Crown|67/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743841693
+|move|p2a: Iron Crown|Calm Mind|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spa|1
+|-boost|p2a: Iron Crown|spd|1
+|move|p1a: Inteleon|Snipe Shot|p2a: Iron Crown
+|-damage|p2a: Iron Crown|53/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743841700
+|move|p2a: Iron Crown|Stored Power|p1a: Inteleon
+|-damage|p1a: Inteleon|0 fnt
+|faint|p1a: Inteleon
+|
+|upkeep
+|l|☆nw loader
+|inactive|nw loader disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|nw loader has 30 seconds to reconnect!
+|inactive|nw loader has 20 seconds to reconnect!
+|inactive|nw loader has 15 seconds to reconnect!
+|inactive|nw loader has 10 seconds to reconnect!
+|inactive|nw loader has 5 seconds to reconnect!
+|-message|nw loader lost due to inactivity.
+|
+|win|dikuccv
+|raw|nw loader's rating: 1132 &rarr; <strong>1111</strong><br />(-21 for losing)
+|raw|dikuccv's rating: 1194 &rarr; <strong>1215</strong><br />(+21 for winning)
+|l|☆dikuccv
+|player|p2|

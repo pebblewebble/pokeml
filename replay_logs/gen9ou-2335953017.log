@@ -1,0 +1,307 @@
+|j|☆Reelbadman
+|j|☆sleepnothing
+|t:|1743863187
+|gametype|singles
+|player|p1|Reelbadman|101|1431
+|player|p2|sleepnothing|265|1394
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torterra, M|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Azelf|
+|poke|p1|Haxorus, F|
+|poke|p1|Quaquaval, M|
+|poke|p1|Ceruledge, M|
+|poke|p2|Araquanid, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Moth|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1743863193
+|start
+|switch|p1a: Azelf|Azelf, shiny|100/100
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|turn|1
+|
+|t:|1743863197
+|move|p1a: Azelf|Taunt|p2a: Araquanid
+|-start|p2a: Araquanid|move: Taunt
+|cant|p2a: Araquanid|move: Taunt|Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743863200
+|move|p1a: Azelf|Stealth Rock|p2a: Araquanid
+|-sidestart|p2: sleepnothing|move: Stealth Rock
+|move|p2a: Araquanid|Lunge|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-damage|p1a: Azelf|37/100
+|-unboost|p1a: Azelf|atk|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743863207
+|move|p1a: Azelf|Explosion|p2a: Araquanid
+|-damage|p2a: Araquanid|45/100
+|faint|p1a: Azelf
+|move|p2a: Araquanid|Liquidation|p1: Azelf|[notarget]
+|-fail|p2a: Araquanid
+|
+|-end|p2a: Araquanid|move: Taunt
+|upkeep
+|
+|t:|1743863223
+|switch|p1a: Torterra|Torterra, M|100/100
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sleepnothing)
+|
+|t:|1743863229
+|move|p1a: Torterra|Shell Smash|p1a: Torterra
+|-unboost|p1a: Torterra|def|1
+|-unboost|p1a: Torterra|spd|1
+|-boost|p1a: Torterra|atk|2
+|-boost|p1a: Torterra|spa|2
+|-boost|p1a: Torterra|spe|2
+|move|p2a: Araquanid|Sticky Web|p1a: Torterra
+|-sidestart|p1: Reelbadman|move: Sticky Web
+|
+|upkeep
+|turn|5
+|
+|t:|1743863242
+|move|p1a: Torterra|Bullet Seed|p2a: Araquanid
+|-damage|p2a: Araquanid|21/100
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|-hitcount|p2: Araquanid|2
+|
+|upkeep
+|inactive|sleepnothing has 120 seconds left.
+|
+|t:|1743863277
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p2a: Gholdengo|Air Balloon
+|turn|6
+|inactive|sleepnothing has 120 seconds left.
+|
+|t:|1743863284
+|-terastallize|p1a: Torterra|Electric
+|move|p1a: Torterra|Tera Blast|p2a: Gholdengo|[anim] Tera Blast Electric
+|-damage|p2a: Gholdengo|6/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Shadow Ball|p1a: Torterra
+|-damage|p1a: Torterra|23/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743863289
+|move|p1a: Torterra|Bullet Seed|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|-hitcount|p2: Gholdengo|1
+|
+|upkeep
+|
+|t:|1743863290
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|8
+|
+|t:|1743863294
+|switch|p1a: Ninetales|Ninetales-Alola, F, shiny|100/100
+|-activate|p1a: Ninetales|move: Sticky Web
+|-unboost|p1a: Ninetales|spe|1
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743863301
+|move|p1a: Ninetales|Encore|p2a: Kingambit
+|-start|p2a: Kingambit|Encore
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743863306
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-damage|p2a: Iron Moth|76/100|[from] Stealth Rock
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Reelbadman|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743863309
+|switch|p1a: Torterra|Torterra, M, tera:Electric|23/100
+|-activate|p1a: Torterra|move: Sticky Web
+|-unboost|p1a: Torterra|spe|1
+|move|p2a: Iron Moth|Fiery Dance|p1a: Torterra
+|-damage|p1a: Torterra|0 fnt
+|-boost|p2a: Iron Moth|spa|1
+|faint|p1a: Torterra
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743863312
+|switch|p1a: Quaquaval|Quaquaval, M|100/100
+|-activate|p1a: Quaquaval|move: Sticky Web
+|-unboost|p1a: Quaquaval|spe|1
+|turn|12
+|
+|t:|1743863318
+|-terastallize|p2a: Iron Moth|Fairy
+|move|p2a: Iron Moth|Dazzling Gleam|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-damage|p1a: Quaquaval|37/100
+|move|p1a: Quaquaval|Rapid Spin|p2a: Iron Moth
+|-damage|p2a: Iron Moth|47/100
+|-boost|p1a: Quaquaval|spe|1
+|-sideend|p1: Reelbadman|Sticky Web|[from] move: Rapid Spin|[of] p1a: Quaquaval
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1743863325
+|move|p2a: Iron Moth|Dazzling Gleam|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|
+|upkeep
+|
+|t:|1743863327
+|switch|p1a: Ceruledge|Ceruledge, M|100/100
+|turn|14
+|
+|t:|1743863330
+|move|p2a: Iron Moth|Psychic|p1a: Ceruledge
+|-damage|p1a: Ceruledge|62/100
+|move|p1a: Ceruledge|Bitter Blade|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|-heal|p1a: Ceruledge|86/100|[from] drain|[of] p2a: Iron Moth
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743863339
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|15
+|
+|t:|1743863344
+|move|p2a: Great Tusk|Headlong Rush|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Ceruledge
+|
+|upkeep
+|
+|t:|1743863348
+|switch|p1a: Haxorus|Haxorus, F, shiny|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|16
+|
+|t:|1743863358
+|move|p2a: Great Tusk|Rapid Spin|p1a: Haxorus
+|-damage|p1a: Haxorus|87/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: sleepnothing|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Haxorus|Scale Shot|p2a: Great Tusk
+|-damage|p2a: Great Tusk|81/100
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|54/100
+|-damage|p2a: Great Tusk|37/100
+|-damage|p2a: Great Tusk|19/100
+|-damage|p2a: Great Tusk|1/100
+|-hitcount|p2a: Great Tusk|5
+|-unboost|p1a: Haxorus|def|1
+|-boost|p1a: Haxorus|spe|1
+|
+|upkeep
+|turn|17
+|
+|t:|1743863364
+|move|p2a: Great Tusk|Ice Spinner|p1a: Haxorus
+|-supereffective|p1a: Haxorus
+|-damage|p1a: Haxorus|16/100
+|move|p1a: Haxorus|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-sideend|p1: Reelbadman|move: Aurora Veil
+|upkeep
+|
+|t:|1743863366
+|switch|p2a: Kingambit|Kingambit, F|94/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|18
+|
+|t:|1743863370
+|switch|p1a: Ninetales|Ninetales-Alola, F, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Kingambit|Iron Head|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|l|☆Reelbadman
+|inactive|Reelbadman disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|Reelbadman has 30 seconds to reconnect!
+|inactive|Reelbadman has 20 seconds to reconnect!
+|inactive|Reelbadman has 15 seconds to reconnect!
+|inactive|Reelbadman has 10 seconds to reconnect!
+|inactive|Reelbadman has 5 seconds to reconnect!
+|-message|Reelbadman lost due to inactivity.
+|
+|win|sleepnothing
+|raw|Reelbadman's rating: 1431 &rarr; <strong>1409</strong><br />(-22 for losing)
+|raw|sleepnothing's rating: 1394 &rarr; <strong>1416</strong><br />(+22 for winning)
+|l|☆sleepnothing
+|player|p2|

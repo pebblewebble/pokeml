@@ -1,0 +1,301 @@
+|j|☆SSATFAW
+|j|☆wtfdoimakemyname
+|t:|1743789506
+|gametype|singles
+|player|p1|SSATFAW|ghetsis|1359
+|player|p2|wtfdoimakemyname|n|1340
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Inteleon, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Alomomola, M|
+|poke|p1|Ting-Lu|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Great Tusk|
+|poke|p2|Toxapex, M|
+|poke|p2|Slither Wing|
+|teampreview
+|
+|t:|1743789520
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|turn|1
+|
+|t:|1743789530
+|move|p2a: Slither Wing|First Impression|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|61/100
+|move|p1a: Dragapult|U-turn|p2a: Slither Wing
+|-resisted|p2a: Slither Wing
+|-damage|p2a: Slither Wing|76/100
+|
+|t:|1743789536
+|switch|p1a: Inteleon|Inteleon, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1743789544
+|move|p1a: Inteleon|Surf|p2a: Slither Wing
+|-damage|p2a: Slither Wing|29/100
+|move|p2a: Slither Wing|U-turn|p1a: Inteleon
+|-damage|p1a: Inteleon|16/100
+|
+|t:|1743789551
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Meowscarada|Meowscarada, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1743789556
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Meowscarada|Knock Off|p1a: Alomomola
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Alomomola|76/100
+|-enditem|p1a: Alomomola|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Meowscarada
+|
+|upkeep
+|turn|4
+|
+|t:|1743789567
+|switch|p2a: Slither Wing|Slither Wing|29/100
+|move|p1a: Alomomola|Flip Turn|p2a: Slither Wing
+|-damage|p2a: Slither Wing|6/100
+|
+|t:|1743789573
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|5
+|
+|t:|1743789578
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Slither Wing|First Impression|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|93/100
+|-damage|p2a: Slither Wing|0 fnt|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p2a: Slither Wing
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743789584
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|6
+|
+|t:|1743789592
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Thundurus|Volt Switch|p1a: Ting-Lu
+|-immune|p1a: Ting-Lu
+|
+|upkeep
+|turn|7
+|
+|t:|1743789603
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743789610
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Hatterene|Nuzzle|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|96/100
+|-status|p1a: Alomomola|par
+|
+|upkeep
+|turn|9
+|
+|t:|1743789618
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|move|p1a: Alomomola|Flip Turn|p2a: Hatterene
+|-damage|p2a: Hatterene|87/100
+|
+|t:|1743789624
+|switch|p1a: Dragapult|Dragapult, F|61/100|[from] Flip Turn
+|
+|-heal|p1a: Dragapult|100/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Hatterene|93/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743789632
+|-terastallize|p1a: Dragapult|Ghost
+|move|p1a: Dragapult|Tera Blast|p2a: Hatterene|[anim] Tera Blast Ghost
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1743789639
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|11
+|
+|t:|1743789647
+|switch|p1a: Alomomola|Alomomola, M|100/100 par
+|move|p2a: Meowscarada|Knock Off|p1a: Alomomola
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Alomomola|85/100 par
+|
+|upkeep
+|turn|12
+|
+|t:|1743789655
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|13
+|
+|t:|1743789660
+|move|p2a: Toxapex|Infestation|p1a: Alomomola
+|-damage|p1a: Alomomola|80/100 par
+|-activate|p1a: Alomomola|move: Infestation|[of] p2a: Toxapex
+|cant|p1a: Alomomola|par
+|
+|-heal|p1a: Alomomola|100/100 par|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Alomomola|88/100 par|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|14
+|
+|t:|1743789670
+|move|p2a: Toxapex|Acid Spray|p1a: Alomomola
+|-damage|p1a: Alomomola|72/100 par
+|-unboost|p1a: Alomomola|spd|2
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p1a: Alomomola|60/100 par|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1743789678
+|move|p2a: Toxapex|Sludge Bomb|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|upkeep
+|
+|t:|1743789685
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|16
+|
+|t:|1743789693
+|move|p1a: Ting-Lu|Ruination|p2a: Toxapex
+|-damage|p2a: Toxapex|51/100
+|move|p2a: Toxapex|Infestation|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|96/100
+|-activate|p1a: Ting-Lu|move: Infestation|[of] p2a: Toxapex
+|
+|-heal|p1a: Ting-Lu|100/100|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|88/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|17
+|
+|t:|1743789703
+|move|p1a: Ting-Lu|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-heal|p1a: Ting-Lu|94/100|[from] item: Leftovers
+|-end|p1a: Ting-Lu|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1743789712
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|18
+|
+|t:|1743789717
+|switch|p1a: Corviknight|Corviknight, F|93/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Meowscarada|Flower Trick|p1a: Corviknight
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-resisted|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|85/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743789730
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p1a: Inteleon|Inteleon, M|16/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743789745
+|move|p1a: Inteleon|Ice Beam|p2a: Thundurus
+|-supereffective|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|upkeep
+|
+|t:|1743789748
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|21
+|
+|t:|1743789761
+|switch|p1a: Corviknight|Corviknight, F|85/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Meowscarada|Knock Off|p1a: Corviknight
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Corviknight|56/100
+|-damage|p2a: Meowscarada|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|-enditem|p1a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p2a: Meowscarada
+|
+|upkeep
+|turn|22
+|
+|t:|1743789773
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|23
+|
+|t:|1743789781
+|move|p2a: Great Tusk|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: SSATFAW|move: Stealth Rock
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|upkeep
+|turn|24
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SSATFAW)
+|-message|wtfdoimakemyname forfeited.
+|
+|win|SSATFAW
+|raw|SSATFAW's rating: 1359 &rarr; <strong>1378</strong><br />(+19 for winning)
+|raw|wtfdoimakemyname's rating: 1340 &rarr; <strong>1321</strong><br />(-19 for losing)
+|l|☆wtfdoimakemyname
+|player|p2|

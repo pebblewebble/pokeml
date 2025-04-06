@@ -1,0 +1,483 @@
+|j|☆3cmwide
+|j|☆Jmoneyzzzzz
+|t:|1743926270
+|gametype|singles
+|player|p1|3cmwide|unknown|1159
+|player|p2|Jmoneyzzzzz|swimmer|1221
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Manaphy|
+|poke|p1|Kyurem|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Moth|
+|poke|p1|Rillaboom, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Corviknight, M|
+|poke|p2|Kyurem|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Hippowdon, M|
+|teampreview
+|
+|t:|1743926285
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, F, shiny|100/100
+|switch|p2a: DS3|Corviknight, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|-ability|p2a: DS3|Pressure
+|turn|1
+|
+|t:|1743926296
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Ninetales|Aurora Veil||[still]
+|-fail|p1a: Ninetales
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninetales|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1743926314
+|switch|p1a: Costco Guy|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Costco Guy
+|switch|p2a: Salt Gargler|Garganacl, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Costco Guy|94/100|[from] Sandstorm
+|-heal|p1a: Costco Guy|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1743926341
+|switch|p2a: DS3|Corviknight, M|100/100
+|-ability|p2a: DS3|Pressure
+|move|p1a: Costco Guy|Low Kick|p2a: DS3
+|-damage|p2a: DS3|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Costco Guy|94/100|[from] Sandstorm
+|-heal|p1a: Costco Guy|100/100|[from] Grassy Terrain
+|-heal|p2a: DS3|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743926369
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|move|p2a: DS3|Brave Bird|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|57/100
+|-damage|p2a: DS3|72/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Great Tusk|63/100|[from] Grassy Terrain
+|-heal|p2a: DS3|78/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743926381
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|move|p2a: DS3|Brave Bird|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|34/100
+|-damage|p2a: DS3|68/100|[from] Recoil
+|
+|-weather|none
+|-heal|p1a: Great Tusk|40/100|[from] Grassy Terrain
+|-heal|p2a: DS3|74/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743926403
+|move|p1a: Great Tusk|Headlong Rush|p2a: DS3
+|-immune|p2a: DS3
+|move|p2a: DS3|Brave Bird|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|6/100
+|-damage|p2a: DS3|62/100|[from] Recoil
+|
+|-heal|p1a: Great Tusk|13/100|[from] Grassy Terrain
+|-heal|p2a: DS3|68/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743926414
+|move|p1a: Great Tusk|Ice Spinner|p2a: DS3
+|-damage|p2a: DS3|47/100
+|-fieldend|move: Grassy Terrain
+|move|p2a: DS3|Brave Bird|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: DS3|43/100|[from] Recoil
+|
+|-heal|p2a: DS3|49/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743926419
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|8
+|
+|t:|1743926430
+|switch|p2a: Salt Gargler|Garganacl, M|100/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Salt Gargler
+|-resisted|p2a: Salt Gargler
+|-damage|p2a: Salt Gargler|86/100
+|-boost|p1a: Iron Moth|spa|1
+|
+|-heal|p2a: Salt Gargler|93/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743926440
+|move|p1a: Iron Moth|Substitute|p1a: Iron Moth
+|-start|p1a: Iron Moth|Substitute
+|-damage|p1a: Iron Moth|76/100
+|move|p2a: Salt Gargler|Salt Cure|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-crit|p1a: Iron Moth
+|-end|p1a: Iron Moth|Substitute
+|
+|-heal|p2a: Salt Gargler|99/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743926461
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Costco Guy|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Costco Guy
+|move|p2a: Salt Gargler|Salt Cure|p1a: Costco Guy
+|-damage|p1a: Costco Guy|87/100
+|-start|p1a: Costco Guy|Salt Cure
+|
+|-heal|p1a: Costco Guy|93/100|[from] Grassy Terrain
+|-heal|p2a: Salt Gargler|100/100|[from] Grassy Terrain
+|-damage|p1a: Costco Guy|81/100|[from] Salt Cure
+|upkeep
+|turn|11
+|
+|t:|1743926475
+|switch|p2a: DS3|Corviknight, M|49/100
+|-ability|p2a: DS3|Pressure
+|move|p1a: Costco Guy|Knock Off|p2a: DS3
+|-damage|p2a: DS3|28/100
+|-enditem|p2a: DS3|Leftovers|[from] move: Knock Off|[of] p1a: Costco Guy
+|
+|-heal|p1a: Costco Guy|87/100|[from] Grassy Terrain
+|-damage|p1a: Costco Guy|74/100|[from] Salt Cure
+|upkeep
+|turn|12
+|
+|t:|1743926497
+|switch|p1a: Manaphy|Manaphy|100/100
+|move|p2a: DS3|Roost|p2a: DS3
+|-heal|p2a: DS3|78/100
+|-singleturn|p2a: DS3|move: Roost
+|
+|-heal|p2a: DS3|84/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1743926520
+|move|p1a: Manaphy|Acid Armor|p1a: Manaphy
+|-boost|p1a: Manaphy|def|2
+|move|p2a: DS3|U-turn|p1a: Manaphy
+|-damage|p1a: Manaphy|95/100
+|
+|t:|1743926523
+|switch|p2a: KYRIE-UM|Kyurem|100/100|[from] U-turn
+|-ability|p2a: KYRIE-UM|Pressure
+|
+|-heal|p1a: Manaphy|100/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1743926543
+|move|p1a: Manaphy|Take Heart|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|1
+|-boost|p1a: Manaphy|spd|1
+|move|p2a: KYRIE-UM|Freeze-Dry|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|60/100
+|-status|p1a: Manaphy|frz
+|
+|-heal|p1a: Manaphy|67/100 frz|[from] Grassy Terrain
+|-heal|p1a: Manaphy|73/100 frz|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743926558
+|-curestatus|p1a: Manaphy|frz|[from] move: Scald
+|move|p1a: Manaphy|Scald|p2a: KYRIE-UM
+|-resisted|p2a: KYRIE-UM
+|-damage|p2a: KYRIE-UM|81/100
+|-status|p2a: KYRIE-UM|brn
+|move|p2a: KYRIE-UM|Freeze-Dry|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|35/100
+|
+|-heal|p1a: Manaphy|41/100|[from] Grassy Terrain
+|-heal|p1a: Manaphy|48/100|[from] item: Leftovers
+|-heal|p2a: KYRIE-UM|87/100 brn|[from] Grassy Terrain
+|-heal|p2a: KYRIE-UM|94/100 brn|[from] item: Leftovers
+|-damage|p2a: KYRIE-UM|87/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743926574
+|move|p1a: Manaphy|Take Heart|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|1
+|-boost|p1a: Manaphy|spd|1
+|move|p2a: KYRIE-UM|Freeze-Dry|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|16/100
+|
+|-heal|p1a: Manaphy|22/100|[from] Grassy Terrain
+|-heal|p1a: Manaphy|28/100|[from] item: Leftovers
+|-heal|p2a: KYRIE-UM|94/100 brn|[from] Grassy Terrain
+|-heal|p2a: KYRIE-UM|99/100 brn|[from] item: Leftovers
+|-damage|p2a: KYRIE-UM|94/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743926587
+|move|p1a: Manaphy|Stored Power|p2a: KYRIE-UM
+|-damage|p2a: KYRIE-UM|30/100 brn
+|move|p2a: KYRIE-UM|Freeze-Dry|p1a: Manaphy
+|-supereffective|p1a: Manaphy
+|-damage|p1a: Manaphy|0 fnt
+|faint|p1a: Manaphy
+|
+|-heal|p2a: KYRIE-UM|36/100 brn|[from] Grassy Terrain
+|-heal|p2a: KYRIE-UM|42/100 brn|[from] item: Leftovers
+|-damage|p2a: KYRIE-UM|36/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1743926594
+|switch|p1a: Iron Moth|Iron Moth|76/100
+|turn|18
+|
+|t:|1743926616
+|move|p1a: Iron Moth|Fiery Dance|p2a: KYRIE-UM
+|-damage|p2a: KYRIE-UM|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: KYRIE-UM
+|
+|upkeep
+|
+|t:|1743926628
+|switch|p2a: KEVIN-LOVE|Landorus-Therian, M|100/100
+|-ability|p2a: KEVIN-LOVE|Intimidate|boost
+|-unboost|p1a: Iron Moth|atk|1
+|turn|19
+|
+|t:|1743926654
+|move|p2a: KEVIN-LOVE|U-turn|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|66/100
+|
+|t:|1743926656
+|switch|p2a: Salt Gargler|Garganacl, M|100/100|[from] U-turn
+|move|p1a: Iron Moth|Fiery Dance|p2a: Salt Gargler
+|-resisted|p2a: Salt Gargler
+|-damage|p2a: Salt Gargler|78/100
+|
+|-heal|p2a: Salt Gargler|85/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743926684
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Salt Gargler
+|-damage|p2a: Salt Gargler|53/100
+|move|p2a: Salt Gargler|Salt Cure|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-crit|p1a: Iron Moth
+|-damage|p1a: Iron Moth|10/100
+|-start|p1a: Iron Moth|Salt Cure
+|
+|-heal|p2a: Salt Gargler|59/100|[from] item: Leftovers
+|-damage|p1a: Iron Moth|0 fnt|[from] Salt Cure
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|upkeep
+|
+|t:|1743926690
+|switch|p1a: Ninetales|Ninetales-Alola, F, shiny|94/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|21
+|
+|t:|1743926697
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Ninetales|Freeze-Dry|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninetales|88/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|t:|1743926717
+|switch|p2a: DS3|Corviknight, M|84/100
+|-ability|p2a: DS3|Pressure
+|-terastallize|p1a: Ninetales|Water
+|move|p1a: Ninetales|Freeze-Dry|p2a: DS3
+|-damage|p2a: DS3|63/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninetales|82/100|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|t:|1743926733
+|switch|p1a: Kyurem|Kyurem, shiny|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: DS3|Roost|p2a: DS3
+|-heal|p2a: DS3|100/100
+|-singleturn|p2a: DS3|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|94/100|[from] Sandstorm
+|upkeep
+|turn|24
+|
+|t:|1743926758
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: DS3|U-turn|p1a: Kyurem
+|-damage|p1a: Kyurem|81/100
+|
+|t:|1743926765
+|switch|p2a: Salt Gargler|Garganacl, M|59/100|[from] U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|75/100|[from] Sandstorm
+|-heal|p2a: Salt Gargler|66/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1743926780
+|-terastallize|p2a: Salt Gargler|Water
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Salt Gargler|Salt Cure|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|46/100
+|-start|p1a: Kyurem|Salt Cure
+|
+|-weather|none
+|-heal|p2a: Salt Gargler|72/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|34/100|[from] Salt Cure
+|upkeep
+|turn|26
+|
+|t:|1743926798
+|move|p1a: Kyurem|Scale Shot|p2a: Salt Gargler
+|-damage|p2a: Salt Gargler|56/100
+|-damage|p2a: Salt Gargler|40/100
+|-damage|p2a: Salt Gargler|25/100
+|-damage|p2a: Salt Gargler|10/100
+|-hitcount|p2a: Salt Gargler|4
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Salt Gargler|Recover|p2a: Salt Gargler
+|-heal|p2a: Salt Gargler|60/100
+|
+|-heal|p2a: Salt Gargler|66/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|21/100|[from] Salt Cure
+|upkeep
+|turn|27
+|
+|t:|1743926818
+|switch|p2a: DS3|Corviknight, M|100/100
+|-ability|p2a: DS3|Pressure
+|move|p1a: Kyurem|Scale Shot|p2a: DS3
+|-resisted|p2a: DS3
+|-damage|p2a: DS3|93/100
+|-resisted|p2a: DS3
+|-damage|p2a: DS3|85/100
+|-resisted|p2a: DS3
+|-damage|p2a: DS3|78/100
+|-resisted|p2a: DS3
+|-damage|p2a: DS3|70/100
+|-hitcount|p2a: DS3|4
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|
+|-damage|p1a: Kyurem|9/100|[from] Salt Cure
+|upkeep
+|turn|28
+|
+|t:|1743926866
+|switch|p2a: Hippowdon|Hippowdon, M|54/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Kyurem|Icicle Spear|p2a: Hippowdon
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|29/100
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|2/100
+|-supereffective|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|-hitcount|p2: Hippowdon|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|3/100|[from] Sandstorm
+|-damage|p1a: Kyurem|0 fnt|[from] Salt Cure
+|faint|p1a: Kyurem
+|upkeep
+|
+|t:|1743926881
+|switch|p1a: Ninetales|Ninetales-Alola, F, shiny, tera:Water|82/100
+|switch|p2a: KEVIN-LOVE|Landorus-Therian, M|100/100
+|-ability|p2a: KEVIN-LOVE|Intimidate|boost
+|-unboost|p1a: Ninetales|atk|1
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|29
+|
+|t:|1743926913
+|move|p2a: KEVIN-LOVE|U-turn|p1a: Ninetales
+|-damage|p1a: Ninetales|48/100
+|
+|t:|1743926915
+|switch|p2a: Salt Gargler|Garganacl, M, tera:Water|66/100|[from] U-turn
+|move|p1a: Ninetales|Freeze-Dry|p2a: Salt Gargler
+|-supereffective|p2a: Salt Gargler
+|-damage|p2a: Salt Gargler|39/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Salt Gargler|46/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|-message|3cmwide forfeited.
+|
+|win|Jmoneyzzzzz
+|raw|3cmwide's rating: 1159 &rarr; <strong>1138</strong><br />(-21 for losing)
+|raw|Jmoneyzzzzz's rating: 1221 &rarr; <strong>1242</strong><br />(+21 for winning)
+|l|☆3cmwide
+|player|p1|

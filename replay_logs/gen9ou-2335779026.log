@@ -1,0 +1,251 @@
+|j|☆aa231303
+|j|☆melf001
+|t:|1743834800
+|gametype|singles
+|player|p1|aa231303|iris-gen5bw2|1398
+|player|p2|melf001|cynthia-gen4|1381
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gholdengo|
+|poke|p1|Ribombee, M|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Serperior, M|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Sinistcha-Masterpiece|
+|poke|p2|Glimmora, M|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Moth|
+|poke|p2|Walking Wake|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by melf001)
+|
+|t:|1743834825
+|start
+|switch|p1a: Serperior|Serperior, M|100/100
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|turn|1
+|
+|t:|1743834832
+|move|p1a: Serperior|Leaf Storm|p2a: Glimmora
+|-damage|p2a: Glimmora|35/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Glimmora|Sludge Wave|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|
+|t:|1743834847
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|2
+|
+|t:|1743834851
+|move|p1a: Gholdengo|Shadow Ball|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1743834853
+|switch|p2a: Iron Moth|Iron Moth, shiny|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|3
+|
+|t:|1743834861
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Hoopa
+|-damage|p1a: Hoopa|77/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743834868
+|move|p2a: Iron Moth|Dazzling Gleam|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|42/100
+|move|p1a: Hoopa|Zen Headbutt|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743834872
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|5
+|
+|t:|1743834884
+|move|p2a: Great Tusk|Close Combat|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Hoopa
+|
+|upkeep
+|
+|t:|1743834888
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|turn|6
+|
+|t:|1743834899
+|move|p2a: Great Tusk|Close Combat|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|76/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Ribombee|Moonblast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743834906
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|7
+|
+|t:|1743834910
+|-terastallize|p2a: Dragonite|Normal
+|move|p2a: Dragonite|Extreme Speed|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|t:|1743834924
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|8
+|
+|t:|1743834938
+|move|p1a: Gholdengo|Trick|p2a: Dragonite
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Dragonite
+|-item|p2a: Dragonite|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Muscle Band|[from] move: Trick
+|move|p2a: Dragonite|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|17/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743834947
+|move|p2a: Dragonite|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743834949
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|10
+|
+|t:|1743834952
+|switch|p2a: Sinistcha|Sinistcha-Masterpiece|100/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Sinistcha|[anim] Ivy Cudgel Water
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|73/100
+|
+|-heal|p2a: Sinistcha|79/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743834955
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|-item|p1a: Arcanine|Air Balloon
+|move|p2a: Sinistcha|Strength Sap|p1a: Arcanine
+|-unboost|p1a: Arcanine|atk|1
+|-heal|p2a: Sinistcha|100/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743834963
+|move|p1a: Arcanine|Head Smash|p2a: Sinistcha
+|-damage|p2a: Sinistcha|52/100
+|move|p2a: Sinistcha|Shadow Ball|p1a: Arcanine
+|-damage|p1a: Arcanine|42/100
+|-enditem|p1a: Arcanine|Air Balloon
+|
+|-heal|p2a: Sinistcha|58/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743834972
+|move|p1a: Arcanine|Head Smash|p2a: Sinistcha
+|-damage|p2a: Sinistcha|11/100
+|move|p2a: Sinistcha|Shadow Ball|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|-heal|p2a: Sinistcha|17/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743834975
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|14
+|
+|t:|1743834982
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Sinistcha|[anim] Ivy Cudgel Water
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|
+|upkeep
+|
+|t:|1743834985
+|switch|p2a: Dragonite|Dragonite, F, tera:Normal|100/100
+|turn|15
+|
+|t:|1743834989
+|move|p1a: Ogerpon|Horn Leech|p2a: Dragonite
+|-damage|p2a: Dragonite|82/100
+|move|p2a: Dragonite|Thunder Punch|p1a: Ogerpon
+|-damage|p1a: Ogerpon|65/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743834997
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|move|p2a: Dragonite|Thunder Punch|p1a: Ogerpon
+|-damage|p1a: Ogerpon|24/100
+|-status|p1a: Ogerpon|par
+|
+|upkeep
+|turn|17
+|
+|t:|1743835001
+|move|p2a: Dragonite|Thunder Punch|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|win|melf001
+|raw|aa231303's rating: 1398 &rarr; <strong>1377</strong><br />(-21 for losing)
+|raw|melf001's rating: 1381 &rarr; <strong>1402</strong><br />(+21 for winning)
+|l|☆melf001
+|player|p2|
+|l|☆aa231303
+|player|p1|

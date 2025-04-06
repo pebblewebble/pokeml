@@ -1,0 +1,150 @@
+|j|☆cyrnaous
+|j|☆roryta
+|t:|1743848196
+|gametype|singles
+|player|p1|cyrnaous|hilbert-wonderlauncher|1176
+|player|p2|roryta|n|1114
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garchomp, F|
+|poke|p1|Iron Moth|
+|poke|p1|Galvantula, M|
+|poke|p1|Greninja-*, M|
+|poke|p1|Scizor, M|
+|poke|p1|Gliscor, F|
+|poke|p2|Minior-Indigo|
+|poke|p2|Braviary, M|
+|poke|p2|Komala, M|
+|poke|p2|Iron Moth|
+|poke|p2|Dragonite, F|
+|poke|p2|Kingambit, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by roryta)
+|
+|t:|1743848212
+|start
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|switch|p2a: Minior|Minior-Indigo, shiny|100/100
+|-formechange|p2a: Minior|Minior-Meteor||[from] ability: Shields Down
+|turn|1
+|
+|t:|1743848227
+|move|p1a: Galvantula|Sticky Web|p2a: Minior
+|-sidestart|p2: roryta|move: Sticky Web
+|move|p2a: Minior|Shell Smash|p2a: Minior
+|-unboost|p2a: Minior|def|1
+|-unboost|p2a: Minior|spd|1
+|-boost|p2a: Minior|atk|2
+|-boost|p2a: Minior|spa|2
+|-boost|p2a: Minior|spe|2
+|-enditem|p2a: Minior|White Herb
+|-clearnegativeboost|p2a: Minior|[silent]
+|
+|upkeep
+|turn|2
+|
+|t:|1743848252
+|move|p2a: Minior|Stone Edge|p1a: Galvantula
+|-supereffective|p1a: Galvantula
+|-enditem|p1a: Galvantula|Focus Sash
+|-damage|p1a: Galvantula|1/100
+|move|p1a: Galvantula|Thunder|p2a: Minior
+|-supereffective|p2a: Minior
+|-damage|p2a: Minior|0 fnt
+|faint|p2a: Minior
+|
+|upkeep
+|
+|t:|1743848276
+|switch|p2a: Komala|Komala, M|100/100
+|-ability|p2a: Komala|Comatose
+|turn|3
+|
+|t:|1743848288
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|move|p2a: Komala|Rapid Spin|p1a: Gliscor
+|-damage|p1a: Gliscor|78/100
+|-boost|p2a: Komala|spe|1
+|-sideend|p2: roryta|Sticky Web|[from] move: Rapid Spin|[of] p2a: Komala
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|t:|1743848303
+|move|p2a: Komala|Rapid Spin|p1a: Gliscor
+|-damage|p1a: Gliscor|56/100 tox
+|-boost|p2a: Komala|spe|1
+|move|p1a: Gliscor|Toxic|p2a: Komala
+|-immune|p2a: Komala|[from] ability: Comatose
+|
+|-heal|p1a: Gliscor|69/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|t:|1743848314
+|-terastallize|p2a: Komala|Normal
+|move|p2a: Komala|Rapid Spin|p1a: Gliscor
+|-damage|p1a: Gliscor|36/100 tox
+|-boost|p2a: Komala|spe|1
+|move|p1a: Gliscor|Earthquake|p2a: Komala
+|-damage|p2a: Komala|45/100
+|
+|-heal|p1a: Gliscor|49/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1743848327
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Komala|Rapid Spin|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|61/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1743848341
+|move|p2a: Komala|Rapid Spin|p1a: Gliscor
+|-damage|p1a: Gliscor|26/100 tox
+|-boost|p2a: Komala|spe|1
+|move|p1a: Gliscor|Earthquake|p2a: Komala
+|-damage|p2a: Komala|0 fnt
+|faint|p2a: Komala
+|
+|-heal|p1a: Gliscor|38/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743848352
+|switch|p2a: Braviary|Braviary, M, shiny|100/100
+|turn|8
+|
+|t:|1743848356
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Braviary|Acrobatics|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|50/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|-message|roryta forfeited.
+|
+|win|cyrnaous
+|raw|cyrnaous's rating: 1176 &rarr; <strong>1197</strong><br />(+21 for winning)
+|raw|roryta's rating: 1114 &rarr; <strong>1093</strong><br />(-21 for losing)
+|l|☆roryta
+|player|p2|
+|l|☆cyrnaous
+|player|p1|

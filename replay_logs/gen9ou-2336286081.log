@@ -1,0 +1,340 @@
+|j|☆LetsgoBrandonJ
+|j|☆luvbunz
+|t:|1743898554
+|gametype|singles
+|player|p1|LetsgoBrandonJ|170|1429
+|player|p2|luvbunz|swimmerf-gen4|1418
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Brute Bonnet|
+|poke|p1|Hatterene, F|
+|poke|p1|Torkoal, M|
+|poke|p1|Walking Wake|
+|poke|p1|Kingambit, M|
+|poke|p1|Raging Bolt|
+|poke|p2|Kommo-o, M|
+|poke|p2|Hydrapple, M|
+|poke|p2|Moltres|
+|poke|p2|Gholdengo|
+|poke|p2|Weavile, M|
+|poke|p2|Rotom-Wash|
+|teampreview
+|
+|t:|1743898574
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1743898585
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Kommo-o|Substitute|p2a: Kommo-o
+|-start|p2a: Kommo-o|Substitute
+|-damage|p2a: Kommo-o|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743898593
+|-terastallize|p2a: Kommo-o|Steel
+|move|p2a: Kommo-o|Belly Drum|p2a: Kommo-o
+|-damage|p2a: Kommo-o|25/100
+|-setboost|p2a: Kommo-o|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Kommo-o|Salac Berry|[eat]
+|-boost|p2a: Kommo-o|spe|1|[from] item: Salac Berry
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-activate|p2a: Kommo-o|move: Substitute|[damage]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743898613
+|move|p2a: Kommo-o|Drain Punch|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|70/100
+|-heal|p2a: Kommo-o|42/100|[from] drain|[of] p1a: Hatterene
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1743898630
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743898638
+|move|p1a: Walking Wake|Hydro Steam|p2a: Kommo-o
+|-end|p2a: Kommo-o|Substitute
+|move|p2a: Kommo-o|Drain Punch|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|-heal|p2a: Kommo-o|100/100|[from] drain|[of] p1a: Walking Wake
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743898651
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|5
+|
+|t:|1743898663
+|-terastallize|p1a: Raging Bolt|Fairy
+|move|p2a: Kommo-o|Substitute|p2a: Kommo-o
+|-start|p2a: Kommo-o|Substitute
+|-damage|p2a: Kommo-o|75/100
+|move|p1a: Raging Bolt|Weather Ball|p2a: Kommo-o
+|-immune|p2a: Kommo-o|[from] ability: Bulletproof
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743898677
+|move|p2a: Kommo-o|Thunder Punch|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|17/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Kommo-o
+|-end|p2a: Kommo-o|Substitute
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Raging Bolt|23/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743898687
+|move|p1a: Raging Bolt|Thunderclap|p2a: Kommo-o
+|-damage|p2a: Kommo-o|17/100
+|move|p2a: Kommo-o|Thunder Punch|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743898696
+|switch|p1a: Acid Trip|Brute Bonnet|100/100
+|-activate|p1a: Acid Trip|ability: Protosynthesis
+|-start|p1a: Acid Trip|protosynthesisatk
+|turn|8
+|
+|t:|1743898703
+|move|p1a: Acid Trip|Sucker Punch|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|-weather|none
+|-end|p1a: Acid Trip|Protosynthesis
+|upkeep
+|
+|t:|1743898714
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|9
+|
+|t:|1743898720
+|-end|p1a: Acid Trip|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743898729
+|move|p2a: Weavile|Knock Off|p1a: Torkoal
+|-damage|p1a: Torkoal|45/100
+|-enditem|p1a: Torkoal|Heat Rock|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Torkoal|Body Press|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743898742
+|switch|p2a: Moltres|Moltres|100/100
+|turn|11
+|
+|t:|1743898769
+|move|p2a: Moltres|Scorching Sands|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743898779
+|switch|p1a: Hatterene|Hatterene, F|70/100
+|turn|12
+|
+|t:|1743898787
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Hatterene|Nuzzle|p2a: Rotom
+|-damage|p2a: Rotom|96/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743898809
+|switch|p1a: Acid Trip|Brute Bonnet|100/100
+|-activate|p1a: Acid Trip|ability: Protosynthesis
+|-start|p1a: Acid Trip|protosynthesisatk
+|move|p2a: Rotom|Volt Switch|p1a: Acid Trip
+|-resisted|p1a: Acid Trip
+|-crit|p1a: Acid Trip
+|-damage|p1a: Acid Trip|81/100
+|
+|t:|1743898818
+|switch|p2a: Hydrapple|Hydrapple, M, shiny|100/100|[from] Volt Switch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743898830
+|move|p1a: Acid Trip|Growth|p1a: Acid Trip
+|-boost|p1a: Acid Trip|atk|2
+|-boost|p1a: Acid Trip|spa|2
+|move|p2a: Hydrapple|Fickle Beam|p1a: Acid Trip
+|-damage|p1a: Acid Trip|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743898852
+|move|p1a: Acid Trip|Sucker Punch|p2a: Hydrapple
+|-damage|p2a: Hydrapple|28/100
+|move|p2a: Hydrapple|Fickle Beam|p1a: Acid Trip|[anim] Fickle Beam All Out
+|-activate|p2a: Hydrapple|move: Fickle Beam
+|-damage|p1a: Acid Trip|0 fnt
+|faint|p1a: Acid Trip
+|-end|p1a: Acid Trip|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743898861
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|16
+|
+|t:|1743898866
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Hydrapple|Recover|p2a: Hydrapple
+|-heal|p2a: Hydrapple|78/100
+|
+|-weather|none
+|upkeep
+|turn|17
+|
+|t:|1743898876
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|
+|upkeep
+|
+|t:|1743898880
+|switch|p2a: Moltres|Moltres|100/100
+|turn|18
+|
+|t:|1743898884
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|-status|p1a: Kingambit|brn|[from] ability: Flame Body|[of] p2a: Moltres
+|faint|p2a: Moltres
+|
+|-damage|p1a: Kingambit|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1743898896
+|switch|p2a: Rotom|Rotom-Wash|96/100
+|turn|19
+|
+|t:|1743898907
+|-end|p1a: Kingambit|fallen4|[silent]
+|switch|p1a: Hatterene|Hatterene, F|70/100
+|move|p2a: Rotom|Hydro Pump|p1a: Hatterene
+|-damage|p1a: Hatterene|18/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743898917
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1743898923
+|switch|p1a: Kingambit|Kingambit, M|94/100 brn
+|-heal|p1a: Kingambit|100/100|[from] move: Healing Wish
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|21
+|
+|t:|1743898931
+|move|p2a: Gholdengo|Thunder Wave|p1a: Kingambit
+|-status|p1a: Kingambit|par
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|22
+|
+|t:|1743898940
+|move|p2a: Gholdengo|Hex|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|59/100 par
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743898943
+|switch|p2a: Rotom|Rotom-Wash|96/100
+|turn|23
+|
+|t:|1743898954
+|move|p1a: Kingambit|Sucker Punch|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|LetsgoBrandonJ
+|raw|LetsgoBrandonJ's rating: 1429 &rarr; <strong>1448</strong><br />(+19 for winning)
+|raw|luvbunz's rating: 1418 &rarr; <strong>1399</strong><br />(-19 for losing)
+|l|☆luvbunz
+|player|p2|
+|l|☆LetsgoBrandonJ
+|player|p1|

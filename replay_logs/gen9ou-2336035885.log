@@ -1,0 +1,404 @@
+|j|☆PkmnJiffy
+|j|☆syjcx
+|t:|1743872233
+|gametype|singles
+|player|p1|PkmnJiffy|artist-gen4|1115
+|player|p2|syjcx|cynthia-gen4|1092
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mimikyu, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Malamar, M|
+|poke|p1|Appletun, M|
+|poke|p1|Tinkaton, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Gliscor, M|
+|poke|p2|Alomomola, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Scizor, M|
+|poke|p2|Tentacruel, F|
+|teampreview
+|
+|t:|1743872238
+|start
+|switch|p1a: Appletun|Appletun, M|100/100
+|switch|p2a: Garchomp|Garchomp, M, shiny|100/100
+|turn|1
+|
+|t:|1743872245
+|move|p1a: Appletun|Trick|p2a: Garchomp
+|-activate|p1a: Appletun|move: Trick|[of] p2a: Garchomp
+|-item|p2a: Garchomp|Choice Scarf|[from] move: Trick
+|-item|p1a: Appletun|Rocky Helmet|[from] move: Trick
+|move|p2a: Garchomp|Stealth Rock|p1a: Appletun
+|-sidestart|p1: PkmnJiffy|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743872267
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Appletun|Poltergeist|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Poltergeist|Toxic Orb
+|-damage|p2a: Gliscor|67/100
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1743872280
+|move|p1a: Appletun|Poltergeist|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Poltergeist|Toxic Orb
+|-damage|p2a: Gliscor|34/100 tox
+|move|p2a: Gliscor|Toxic|p1a: Appletun|[miss]
+|-miss|p2a: Gliscor|p1a: Appletun
+|
+|-heal|p2a: Gliscor|47/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|t:|1743872291
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Appletun|Poltergeist|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|59/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|t:|1743872301
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-damage|p1a: Tinkaton|94/100|[from] Stealth Rock
+|switch|p2a: Alomomola|Alomomola, M, shiny|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743872316
+|move|p1a: Tinkaton|Covet|p2a: Alomomola
+|-damage|p2a: Alomomola|91/100
+|move|p2a: Alomomola|Flip Turn|p1a: Tinkaton
+|-crit|p1a: Tinkaton
+|-damage|p1a: Tinkaton|61/100
+|
+|t:|1743872325
+|switch|p2a: Gliscor|Gliscor, M|59/100 tox|[from] Flip Turn
+|
+|-heal|p2a: Gliscor|71/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1743872333
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|84/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1743872343
+|switch|p2a: Alomomola|Alomomola, M, shiny|100/100
+|move|p1a: Tinkaton|Skill Swap|p2a: Alomomola
+|-activate|p1a: Tinkaton|move: Skill Swap|Regenerator|Own Tempo|[of] p2a: Alomomola
+|
+|upkeep
+|turn|9
+|
+|t:|1743872350
+|move|p1a: Tinkaton|Play Rough|p2a: Alomomola
+|-damage|p2a: Alomomola|78/100
+|move|p2a: Alomomola|Flip Turn|p1a: Tinkaton
+|-damage|p1a: Tinkaton|42/100
+|
+|t:|1743872358
+|switch|p2a: Dragonite|Dragonite, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|10
+|
+|t:|1743872366
+|switch|p2a: Alomomola|Alomomola, M, shiny|78/100
+|-terastallize|p1a: Tinkaton|Fairy
+|move|p1a: Tinkaton|Play Rough|p2a: Alomomola
+|-damage|p2a: Alomomola|48/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743872377
+|switch|p1a: Kyu|Mimikyu, M, shiny|100/100
+|-damage|p1a: Kyu|88/100|[from] Stealth Rock
+|switch|p2a: Scizor|Scizor, M, shiny|100/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743872386
+|switch|p2a: Gliscor|Gliscor, M|84/100 tox
+|move|p1a: Kyu|Thunder Wave|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|96/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PkmnJiffy)
+|
+|t:|1743872400
+|move|p2a: Gliscor|Knock Off|p1a: Kyu
+|-activate|p1a: Kyu|ability: Disguise
+|-damage|p1a: Kyu|88/100
+|-enditem|p1a: Kyu|Red Card|[from] move: Knock Off|[of] p2a: Gliscor
+|detailschange|p1a: Kyu|Mimikyu-Busted, M, shiny
+|-damage|p1a: Kyu|76/100|[from] pokemon: Mimikyu-Busted
+|move|p1a: Kyu|Trick Room|p1a: Kyu
+|-fieldstart|move: Trick Room|[of] p1a: Kyu
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|t:|1743872414
+|switch|p1a: Appletun|Appletun, M|100/100
+|-damage|p1a: Appletun|88/100|[from] Stealth Rock
+|move|p2a: Gliscor|Toxic|p1a: Appletun
+|-status|p1a: Appletun|tox
+|
+|-damage|p1a: Appletun|82/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743872429
+|move|p1a: Appletun|Leaf Storm|p2a: Gliscor
+|-damage|p2a: Gliscor|43/100 tox
+|-unboost|p1a: Appletun|spa|2
+|move|p2a: Gliscor|Earthquake|p1a: Appletun
+|-resisted|p1a: Appletun
+|-damage|p1a: Appletun|65/100 tox
+|
+|-damage|p1a: Appletun|53/100 tox|[from] psn
+|-heal|p2a: Gliscor|55/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|t:|1743872440
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Appletun|Leaf Storm|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Appletun|34/100 tox|[from] psn
+|-heal|p2a: Gliscor|67/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|
+|t:|1743872452
+|switch|p2a: Scizor|Scizor, M, shiny|100/100
+|move|p1a: Appletun|Leaf Storm|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|94/100
+|-unboost|p1a: Appletun|spa|2
+|
+|-damage|p1a: Appletun|9/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|-activate|p1a: Appletun|ability: Ripen
+|-enditem|p1a: Appletun|Aguav Berry|[eat]
+|-heal|p1a: Appletun|76/100 tox|[from] item: Aguav Berry
+|turn|18
+|
+|t:|1743872469
+|move|p2a: Scizor|U-turn|p1a: Appletun
+|-supereffective|p1a: Appletun
+|-damage|p1a: Appletun|0 fnt
+|faint|p1a: Appletun
+|
+|t:|1743872479
+|switch|p2a: Alomomola|Alomomola, M, shiny|82/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743872489
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743872495
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|move|p2a: Alomomola|Flip Turn|p1a: Ogerpon
+|-heal|p1a: Ogerpon|100/100|[from] ability: Water Absorb|[of] p2a: Alomomola
+|
+|upkeep
+|turn|20
+|
+|t:|1743872505
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|move|p2a: Alomomola|Alluring Voice|p1a: Ogerpon
+|-damage|p1a: Ogerpon|90/100
+|-start|p1a: Ogerpon|confusion
+|
+|upkeep
+|turn|21
+|
+|t:|1743872513
+|-activate|p1a: Ogerpon|confusion
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Alomomola|[anim] Ivy Cudgel Water
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|21/100
+|move|p2a: Alomomola|Alluring Voice|p1a: Ogerpon
+|-damage|p1a: Ogerpon|78/100
+|
+|upkeep
+|turn|22
+|
+|t:|1743872524
+|switch|p2a: Garchomp|Garchomp, M, shiny|100/100
+|-end|p1a: Ogerpon|confusion
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Garchomp|[anim] Ivy Cudgel Water
+|-damage|p2a: Garchomp|2/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743872536
+|move|p2a: Garchomp|Draco Meteor|p1a: Ogerpon
+|-damage|p1a: Ogerpon|40/100
+|-unboost|p2a: Garchomp|spa|2
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Garchomp|[anim] Ivy Cudgel Water
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1743872547
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|24
+|
+|t:|1743872553
+|-terastallize|p2a: Dragonite|Normal
+|move|p2a: Dragonite|Extreme Speed|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743872561
+|switch|p1a: Kyu|Mimikyu-Busted, M, shiny|76/100
+|-damage|p1a: Kyu|64/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1743872567
+|switch|p2a: Alomomola|Alomomola, M, shiny|54/100
+|move|p1a: Kyu|Thunder Wave|p2a: Alomomola
+|-status|p2a: Alomomola|par
+|
+|upkeep
+|turn|26
+|
+|t:|1743872588
+|move|p1a: Kyu|Destiny Bond|p1a: Kyu
+|-singlemove|p1a: Kyu|Destiny Bond
+|move|p2a: Alomomola|Flip Turn|p1a: Kyu
+|-damage|p1a: Kyu|43/100
+|
+|t:|1743872597
+|switch|p2a: Gliscor|Gliscor, M|67/100 tox|[from] Flip Turn
+|
+|-heal|p2a: Gliscor|80/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|27
+|
+|t:|1743872606
+|move|p2a: Gliscor|Toxic|p1a: Kyu|[miss]
+|-miss|p2a: Gliscor|p1a: Kyu
+|move|p1a: Kyu|Destiny Bond||[still]
+|-fail|p1a: Kyu
+|
+|-heal|p2a: Gliscor|92/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|
+|t:|1743872620
+|switch|p1a: Malamar|Malamar, M|100/100
+|-damage|p1a: Malamar|88/100|[from] Stealth Rock
+|move|p2a: Gliscor|Knock Off|p1a: Malamar
+|-damage|p1a: Malamar|67/100
+|-enditem|p1a: Malamar|Expert Belt|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|29
+|
+|t:|1743872634
+|switch|p2a: Alomomola|Alomomola, M, shiny|87/100 par
+|move|p1a: Malamar|Superpower|p2a: Alomomola
+|-damage|p2a: Alomomola|63/100 par
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|
+|upkeep
+|turn|30
+|
+|t:|1743872644
+|move|p1a: Malamar|Taunt|p2a: Alomomola
+|-start|p2a: Alomomola|move: Taunt
+|move|p2a: Alomomola|Alluring Voice|p1a: Malamar
+|-supereffective|p1a: Malamar
+|-damage|p1a: Malamar|47/100
+|
+|upkeep
+|turn|31
+|
+|t:|1743872651
+|move|p1a: Malamar|Superpower|p2a: Alomomola
+|-damage|p2a: Alomomola|26/100 par
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|move|p2a: Alomomola|Alluring Voice|p1a: Malamar
+|-supereffective|p1a: Malamar
+|-damage|p1a: Malamar|27/100
+|-start|p1a: Malamar|confusion
+|
+|upkeep
+|turn|32
+|
+|t:|1743872662
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-activate|p1a: Malamar|confusion
+|-damage|p1a: Malamar|15/100|[from] confusion
+|
+|upkeep
+|turn|33
+|
+|t:|1743872669
+|move|p2a: Gliscor|Earthquake|p1a: Malamar
+|-crit|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|
+|upkeep
+|-message|PkmnJiffy forfeited.
+|
+|win|syjcx
+|raw|PkmnJiffy's rating: 1115 &rarr; <strong>1088</strong><br />(-27 for losing)
+|raw|syjcx's rating: 1092 &rarr; <strong>1120</strong><br />(+28 for winning)
+|l|☆PkmnJiffy
+|player|p1|
+|l|☆syjcx
+|player|p2|

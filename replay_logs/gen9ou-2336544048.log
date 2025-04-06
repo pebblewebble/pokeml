@@ -1,0 +1,364 @@
+|j|☆yuut4
+|j|☆Jadejae
+|t:|1743936649
+|gametype|singles
+|player|p1|yuut4|hilbert-wonderlauncher|1086
+|player|p2|Jadejae|102|1096
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blaziken, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Gholdengo|
+|poke|p1|Garganacl, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Gliscor, F|
+|poke|p2|Regidrago|
+|poke|p2|Torkoal, F|
+|poke|p2|Maushold|
+|poke|p2|Cinderace, F|
+|poke|p2|Trevenant, F|
+|poke|p2|Electrode-Hisui|
+|teampreview
+|
+|t:|1743936660
+|start
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|switch|p2a: Regidrago|Regidrago|100/100
+|turn|1
+|
+|t:|1743936668
+|move|p2a: Regidrago|Dragon Dance|p2a: Regidrago
+|-boost|p2a: Regidrago|atk|1
+|-boost|p2a: Regidrago|spe|1
+|move|p1a: Garganacl|Stealth Rock|p2a: Regidrago
+|-sidestart|p2: Jadejae|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743936678
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Regidrago|Dragon Dance|p2a: Regidrago
+|-boost|p2a: Regidrago|atk|1
+|-boost|p2a: Regidrago|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743936684
+|move|p2a: Regidrago|Dragon Dance|p2a: Regidrago
+|-boost|p2a: Regidrago|atk|1
+|-boost|p2a: Regidrago|spe|1
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|4
+|
+|t:|1743936690
+|move|p2a: Regidrago|Dragon Dance|p2a: Regidrago
+|-boost|p2a: Regidrago|atk|1
+|-boost|p2a: Regidrago|spe|1
+|move|p1a: Toxapex|Toxic|p2a: Regidrago
+|-status|p2a: Regidrago|tox
+|-enditem|p2a: Regidrago|Lum Berry|[eat]
+|-curestatus|p2a: Regidrago|tox|[msg]
+|
+|upkeep
+|turn|5
+|
+|t:|1743936698
+|move|p2a: Regidrago|Outrage|p1a: Toxapex
+|-damage|p1a: Toxapex|2/100
+|move|p1a: Toxapex|Toxic|p2a: Regidrago
+|-status|p2a: Regidrago|tox
+|
+|-damage|p2a: Regidrago|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743936722
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Regidrago|Outrage|p1a: Gholdengo|[from] lockedmove
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|59/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|-start|p2a: Regidrago|confusion|[fatigue]
+|
+|-damage|p2a: Regidrago|82/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743936737
+|-activate|p2a: Regidrago|confusion
+|move|p2a: Regidrago|Dragon Dance|p2a: Regidrago
+|-boost|p2a: Regidrago|atk|1
+|-boost|p2a: Regidrago|spe|1
+|move|p1a: Gholdengo|Make It Rain|p2a: Regidrago
+|-damage|p2a: Regidrago|27/100 tox
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-damage|p2a: Regidrago|9/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743936774
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|-activate|p2a: Regidrago|confusion
+|move|p2a: Regidrago|Outrage|p1a: Garganacl
+|-damage|p1a: Garganacl|7/100
+|
+|-heal|p1a: Garganacl|13/100|[from] item: Leftovers
+|-damage|p2a: Regidrago|0 fnt|[from] psn
+|faint|p2a: Regidrago
+|upkeep
+|
+|t:|1743936784
+|switch|p2a: Maushold|Maushold|100/100
+|-damage|p2a: Maushold|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743936798
+|switch|p1a: Gholdengo|Gholdengo|59/100
+|move|p2a: Maushold|Tidy Up|p2a: Maushold
+|-sideend|p2: Jadejae|Stealth Rock
+|-activate|p2a: Maushold|move: Tidy Up
+|-boost|p2a: Maushold|atk|1
+|-boost|p2a: Maushold|spe|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743936811
+|-terastallize|p1a: Gholdengo|Steel
+|move|p2a: Maushold|Low Kick|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|18/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Maushold
+|-crit|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Maushold
+|
+|upkeep
+|
+|t:|1743936825
+|switch|p2a: Electrode|Electrode-Hisui, shiny|100/100
+|turn|11
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jadejae)
+|inactive|yuut4 has 120 seconds left.
+|
+|t:|1743936957
+|move|p2a: Electrode|Substitute|p2a: Electrode
+|-start|p2a: Electrode|Substitute
+|-damage|p2a: Electrode|75/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Electrode
+|-resisted|p2a: Electrode
+|-end|p2a: Electrode|Substitute
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-heal|p2a: Electrode|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|inactive|yuut4 has 120 seconds left.
+|
+|t:|1743936988
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|move|p2a: Electrode|Giga Drain|p1a: Blaziken
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|82/100
+|-heal|p2a: Electrode|91/100|[from] drain|[of] p1a: Blaziken
+|
+|-heal|p2a: Electrode|97/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|inactive|yuut4 has 120 seconds left.
+|
+|t:|1743936999
+|move|p2a: Electrode|Substitute|p2a: Electrode
+|-start|p2a: Electrode|Substitute
+|-damage|p2a: Electrode|72/100
+|move|p1a: Blaziken|Blaze Kick|p2a: Electrode
+|-supereffective|p2a: Electrode
+|-end|p2a: Electrode|Substitute
+|
+|-heal|p2a: Electrode|78/100|[from] item: Leftovers
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|14
+|
+|t:|1743937014
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Blaziken|Blaze Kick|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|69/100
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|15
+|inactive|yuut4 has 120 seconds left.
+|
+|t:|1743937053
+|move|p1a: Blaziken|Blaze Kick|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|37/100
+|move|p2a: Cinderace|High Jump Kick|p1a: Blaziken
+|-damage|p1a: Blaziken|19/100
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|16
+|
+|t:|1743937067
+|move|p1a: Blaziken|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-enditem|p2a: Cinderace|Charcoal|[from] move: Knock Off|[of] p1a: Blaziken
+|faint|p2a: Cinderace
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743937075
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|17
+|
+|t:|1743937090
+|move|p1a: Blaziken|Knock Off|p2a: Torkoal
+|-crit|p2a: Torkoal
+|-damage|p2a: Torkoal|80/100
+|move|p2a: Torkoal|Ancient Power|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743937100
+|switch|p1a: Toxapex|Toxapex, M|35/100
+|turn|18
+|
+|t:|1743937109
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|85/100
+|move|p2a: Torkoal|Body Press|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743937118
+|move|p1a: Toxapex|Toxic|p2a: Torkoal
+|-status|p2a: Torkoal|tox
+|move|p2a: Torkoal|Lava Plume|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|61/100
+|-status|p1a: Toxapex|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Torkoal|74/100 tox|[from] psn
+|-damage|p1a: Toxapex|54/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1743937132
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100 brn
+|move|p2a: Torkoal|Ancient Power|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|84/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Torkoal|61/100 tox|[from] psn
+|-damage|p1a: Toxapex|78/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1743937151
+|switch|p1a: Garganacl|Garganacl, F|13/100
+|move|p2a: Torkoal|Ancient Power|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|-weather|none
+|-damage|p2a: Torkoal|43/100 tox|[from] psn
+|upkeep
+|inactive|yuut4 has 90 seconds left.
+|
+|t:|1743937172
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|22
+|
+|t:|1743937180
+|move|p1a: Dragapult|Flamethrower|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|17/100 tox
+|move|p2a: Torkoal|Ancient Power|p1a: Dragapult
+|-damage|p1a: Dragapult|77/100
+|
+|-damage|p2a: Torkoal|0 fnt|[from] psn
+|faint|p2a: Torkoal
+|upkeep
+|
+|t:|1743937191
+|switch|p2a: Electrode|Electrode-Hisui, shiny|78/100
+|turn|23
+|
+|t:|1743937196
+|move|p1a: Dragapult|Flamethrower|p2a: Electrode
+|-supereffective|p2a: Electrode
+|-damage|p2a: Electrode|0 fnt
+|faint|p2a: Electrode
+|
+|upkeep
+|c|☆Jadejae|ggs i think
+|
+|t:|1743937206
+|switch|p2a: Trevenant|Trevenant, F, shiny|100/100
+|turn|24
+|
+|t:|1743937213
+|move|p1a: Dragapult|Flamethrower|p2a: Trevenant
+|-supereffective|p2a: Trevenant
+|-damage|p2a: Trevenant|42/100
+|move|p2a: Trevenant|Giga Drain|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|64/100
+|-heal|p2a: Trevenant|48/100|[from] drain|[of] p1a: Dragapult
+|
+|upkeep
+|turn|25
+|
+|t:|1743937220
+|move|p1a: Dragapult|Flamethrower|p2a: Trevenant
+|-supereffective|p2a: Trevenant
+|-damage|p2a: Trevenant|0 fnt
+|faint|p2a: Trevenant
+|
+|win|yuut4
+|raw|yuut4's rating: 1086 &rarr; <strong>1114</strong><br />(+28 for winning)
+|raw|Jadejae's rating: 1096 &rarr; <strong>1071</strong><br />(-25 for losing)
+|c|☆Jadejae|yeah ggs lol
+|l|☆Jadejae
+|player|p2|
+|c|☆yuut4|ggs dude
+|l|☆yuut4
+|player|p1|

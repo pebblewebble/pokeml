@@ -1,0 +1,154 @@
+|j|☆toM1nd
+|j|☆yangde
+|t:|1743924645
+|gametype|singles
+|player|p1|toM1nd|ghetsis|1170
+|player|p2|yangde|101|1218
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Kyurem|
+|poke|p1|Zarude-Dada|
+|poke|p1|Alomomola, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Valiant|
+|poke|p2|Raging Bolt|
+|poke|p2|Kingambit, F|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|t:|1743924650
+|start
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Araquanid|atk|1
+|turn|1
+|
+|t:|1743924670
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Landorus|Taunt|p1a: Hatterene
+|move|p1a: Hatterene|Taunt|p2a: Landorus|[from] ability: Magic Bounce
+|-start|p2a: Landorus|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1743924681
+|move|p2a: Landorus|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|83/100
+|
+|t:|1743924686
+|switch|p2a: Kingambit|Kingambit, F|100/100|[from] U-turn
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|89/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743924712
+|move|p2a: Kingambit|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|10/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|39/100
+|-unboost|p2a: Kingambit|spa|1
+|
+|-heal|p2a: Kingambit|45/100|[from] item: Leftovers
+|-heal|p1a: Hatterene|16/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743924745
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|switch|p1a: Zarude|Zarude-Dada|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743924782
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Alomomola
+|-damage|p1a: Alomomola|56/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743924798
+|move|p2a: Iron Valiant|Moonblast|p1a: Alomomola
+|-damage|p1a: Alomomola|11/100
+|-unboost|p1a: Alomomola|spa|1
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|7
+|
+|t:|1743924806
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|
+|-heal|p1a: Alomomola|61/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|8
+|
+|t:|1743924831
+|-terastallize|p1a: Alomomola|Steel
+|move|p2a: Iron Valiant|Moonblast|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|31/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|9
+|
+|t:|1743924839
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|upkeep
+|
+|t:|1743924844
+|switch|p1a: Hatterene|Hatterene, F|16/100
+|turn|10
+|
+|t:|1743924861
+|move|p2a: Iron Valiant|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|c|☆toM1nd|idk why i went hatte
+|-message|toM1nd forfeited.
+|
+|win|yangde
+|raw|toM1nd's rating: 1170 &rarr; <strong>1148</strong><br />(-22 for losing)
+|raw|yangde's rating: 1218 &rarr; <strong>1240</strong><br />(+22 for winning)
+|l|☆toM1nd
+|player|p1|
+|l|☆yangde
+|player|p2|

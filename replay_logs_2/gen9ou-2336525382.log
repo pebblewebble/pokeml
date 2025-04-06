@@ -1,0 +1,339 @@
+|j|☆Cake2000
+|j|☆Thussy
+|t:|1743933301
+|gametype|singles
+|player|p1|Cake2000|2|1393
+|player|p2|Thussy|169|1495
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rabsca, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Ursaluna, M|
+|poke|p1|Azumarill, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Kingambit, F|
+|poke|p2|Gliscor, M|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Clefable, F|
+|poke|p2|Lokix, M|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|t:|1743933314
+|start
+|switch|p1a: Decoy|Mimikyu, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|t:|1743933322
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Thussy|Reflect
+|move|p1a: Decoy|Trick Room|p1a: Decoy
+|-fieldstart|move: Trick Room|[of] p1a: Decoy
+|
+|upkeep
+|turn|2
+|
+|t:|1743933328
+|switch|p1a: Chad|Azumarill, M|100/100
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Chad
+|-damage|p1a: Chad|70/100
+|-unboost|p1a: Chad|spa|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743933336
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Chad
+|-unboost|p1a: Chad|atk|1
+|-unboost|p1a: Chad|spa|1
+|
+|t:|1743933343
+|switch|p2a: Lokix|Lokix, M|100/100|[from] Parting Shot
+|move|p1a: Chad|Play Rough|p2a: Lokix|[miss]
+|-miss|p1a: Chad|p2a: Lokix
+|
+|upkeep
+|turn|4
+|
+|t:|1743933350
+|move|p1a: Chad|Play Rough|p2a: Lokix
+|-supereffective|p2a: Lokix
+|-crit|p2a: Lokix
+|-enditem|p2a: Lokix|Focus Sash
+|-damage|p2a: Lokix|1/100
+|move|p2a: Lokix|Knock Off|p1a: Chad
+|-resisted|p1a: Chad
+|-damage|p1a: Chad|30/100
+|-enditem|p1a: Chad|Assault Vest|[from] move: Knock Off|[of] p2a: Lokix
+|
+|upkeep
+|turn|5
+|
+|t:|1743933358
+|move|p1a: Chad|Aqua Jet|p2a: Lokix
+|-crit|p2a: Lokix
+|-damage|p2a: Lokix|0 fnt
+|faint|p2a: Lokix
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743933372
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|6
+|
+|t:|1743933377
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Chad
+|-damage|p1a: Chad|0 fnt
+|faint|p1a: Chad
+|
+|upkeep
+|
+|t:|1743933386
+|switch|p1a: Decoy|Mimikyu, M|100/100
+|turn|7
+|
+|t:|1743933407
+|move|p1a: Decoy|Curse|p2a: Grimmsnarl
+|-start|p2a: Grimmsnarl|Curse|[of] p1a: Decoy
+|-damage|p1a: Decoy|51/100
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Decoy
+|-activate|p1a: Decoy|ability: Disguise
+|-damage|p1a: Decoy|51/100
+|-unboost|p1a: Decoy|spa|1
+|detailschange|p1a: Decoy|Mimikyu-Busted, M
+|-damage|p1a: Decoy|38/100|[from] pokemon: Mimikyu-Busted
+|
+|-damage|p2a: Grimmsnarl|76/100|[from] Curse
+|upkeep
+|turn|8
+|
+|t:|1743933432
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Decoy
+|-damage|p1a: Decoy|0 fnt
+|faint|p1a: Decoy
+|
+|-damage|p2a: Grimmsnarl|51/100|[from] Curse
+|-sideend|p2: Thussy|Reflect
+|upkeep
+|
+|t:|1743933450
+|switch|p1a: Shogun|Kingambit, F|100/100
+|-activate|p1a: Shogun|ability: Supreme Overlord
+|-start|p1a: Shogun|fallen2|[silent]
+|turn|9
+|
+|t:|1743933463
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|move|p1a: Shogun|Iron Head|p2a: Great Tusk
+|-damage|p2a: Great Tusk|64/100
+|
+|-heal|p2a: Great Tusk|71/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743933474
+|-end|p1a: Shogun|fallen2|[silent]
+|switch|p1a: Atonement|Rabsca, M|100/100
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|-heal|p2a: Great Tusk|77/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743933484
+|move|p2a: Great Tusk|Ice Spinner|p1a: Atonement
+|-damage|p1a: Atonement|75/100
+|move|p1a: Atonement|Trick Room|p1a: Atonement
+|-fieldstart|move: Trick Room|[of] p1a: Atonement
+|
+|-heal|p2a: Great Tusk|83/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743933491
+|move|p1a: Atonement|Future Sight|p2a: Great Tusk
+|-start|p1a: Atonement|move: Future Sight
+|move|p2a: Great Tusk|Ice Spinner|p1a: Atonement
+|-damage|p1a: Atonement|49/100
+|
+|-heal|p2a: Great Tusk|89/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743933502
+|move|p1a: Atonement|Revival Blessing|p1a: Atonement
+|
+|t:|1743933505
+|-heal|p1: Chad|50/100|[from] move: Revival Blessing
+|move|p2a: Great Tusk|Ice Spinner|p1a: Atonement
+|-damage|p1a: Atonement|21/100
+|
+|-heal|p2a: Great Tusk|95/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743933510
+|move|p1a: Atonement|Memento|p2a: Great Tusk
+|-unboost|p2a: Great Tusk|atk|2
+|-unboost|p2a: Great Tusk|spa|2
+|faint|p1a: Atonement
+|move|p2a: Great Tusk|Earthquake|p1: Atonement|[notarget]
+|-fail|p2a: Great Tusk
+|
+|-end|p2a: Great Tusk|move: Future Sight
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1743933531
+|switch|p1a: Shogun|Kingambit, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|51/100
+|-activate|p1a: Shogun|ability: Supreme Overlord
+|-start|p1a: Shogun|fallen3|[silent]
+|turn|15
+|
+|t:|1743933538
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Thussy|Reflect
+|move|p1a: Shogun|Iron Head|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743933546
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|16
+|
+|t:|1743933556
+|-end|p1a: Shogun|fallen3|[silent]
+|switch|p1a: Village Crusher|Ursaluna, M|100/100
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|-status|p1a: Village Crusher|brn|[from] item: Flame Orb
+|upkeep
+|turn|17
+|
+|t:|1743933566
+|move|p2a: Gliscor|Earthquake|p1a: Village Crusher
+|-damage|p1a: Village Crusher|56/100 brn
+|move|p1a: Village Crusher|Facade|p2a: Gliscor
+|-damage|p2a: Gliscor|55/100 tox
+|
+|-heal|p2a: Gliscor|67/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Village Crusher|50/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743933576
+|move|p2a: Gliscor|Earthquake|p1a: Village Crusher
+|-damage|p1a: Village Crusher|5/100 brn
+|move|p1a: Village Crusher|Facade|p2a: Gliscor
+|-damage|p2a: Gliscor|17/100 tox
+|
+|-heal|p2a: Gliscor|30/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Village Crusher|0 fnt|[from] brn
+|faint|p1a: Village Crusher
+|upkeep
+|
+|t:|1743933579
+|switch|p1a: Chad|Azumarill, M|50/100
+|turn|19
+|
+|t:|1743933590
+|-terastallize|p2a: Gliscor|Water
+|move|p1a: Chad|Aqua Jet|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|24/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Chad
+|-damage|p1a: Chad|0 fnt
+|faint|p1a: Chad
+|
+|-heal|p2a: Gliscor|37/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743933599
+|switch|p1a: Shogun|Kingambit, F|100/100
+|-activate|p1a: Shogun|ability: Supreme Overlord
+|-start|p1a: Shogun|fallen5|[silent]
+|turn|20
+|
+|t:|1743933610
+|-terastallize|p1a: Shogun|Flying
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|move|p1a: Shogun|Swords Dance|p1a: Shogun
+|-boost|p1a: Shogun|atk|2
+|
+|-heal|p2a: Gliscor|49/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|
+|t:|1743933617
+|move|p1a: Shogun|Sucker Punch|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1743933625
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespa
+|turn|22
+|
+|t:|1743933632
+|move|p2a: Iron Valiant|Moonblast|p1a: Shogun
+|-damage|p1a: Shogun|40/100
+|-unboost|p1a: Shogun|spa|1
+|move|p1a: Shogun|Iron Head|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-sideend|p2: Thussy|Reflect
+|upkeep
+|
+|t:|1743933638
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|23
+|
+|t:|1743933643
+|move|p2a: Clefable|Moonblast|p1a: Shogun
+|-damage|p1a: Shogun|9/100
+|move|p1a: Shogun|Iron Head|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|win|Cake2000
+|raw|Cake2000's rating: 1393 &rarr; <strong>1418</strong><br />(+25 for winning)
+|raw|Thussy's rating: 1475 &rarr; <strong>1450</strong><br />(-25 for losing)
+|l|☆Cake2000
+|player|p1|
+|l|☆Thussy
+|player|p2|

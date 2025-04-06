@@ -1,0 +1,246 @@
+|j|☆Jollyclasss
+|j|☆itsdoom_te
+|t:|1743936742
+|gametype|singles
+|player|p1|Jollyclasss|steven|1124
+|player|p2|itsdoom_te|lucas-gen4pt|1152
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Meloetta|
+|poke|p1|Araquanid, M|
+|poke|p1|Gholdengo|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Moth|
+|poke|p1|Enamorus, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Skarmory, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Darkrai|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Iron Boulder|
+|teampreview
+|
+|t:|1743936779
+|start
+|switch|p1a: Fort Intéressant|Great Tusk|100/100
+|switch|p2a: AC130|Dragapult, M|100/100
+|-enditem|p1a: Fort Intéressant|Booster Energy
+|-activate|p1a: Fort Intéressant|ability: Protosynthesis|[fromitem]
+|-start|p1a: Fort Intéressant|protosynthesisatk
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by itsdoom_te)
+|
+|t:|1743936811
+|switch|p2a: Gatto|Meowscarada, F, shiny|100/100
+|move|p1a: Fort Intéressant|Stealth Rock|p2a: Gatto
+|-sidestart|p2: itsdoom_te|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743936818
+|move|p2a: Gatto|Flower Trick|p1a: Fort Intéressant
+|-start|p2a: Gatto|typechange|Grass|[from] ability: Protean
+|-supereffective|p1a: Fort Intéressant
+|-crit|p1a: Fort Intéressant
+|-damage|p1a: Fort Intéressant|24/100
+|move|p1a: Fort Intéressant|Ice Spinner|p2a: Gatto
+|-supereffective|p2a: Gatto
+|-damage|p2a: Gatto|0 fnt
+|faint|p2a: Gatto
+|
+|upkeep
+|
+|t:|1743936830
+|switch|p2a: King Arthur|Slowking-Galar, M|100/100
+|-damage|p2a: King Arthur|88/100|[from] Stealth Rock
+|turn|3
+|
+|t:|1743936839
+|move|p1a: Fort Intéressant|Headlong Rush|p2a: King Arthur
+|-supereffective|p2a: King Arthur
+|-damage|p2a: King Arthur|0 fnt
+|-unboost|p1a: Fort Intéressant|def|1
+|-unboost|p1a: Fort Intéressant|spd|1
+|faint|p2a: King Arthur
+|
+|upkeep
+|
+|t:|1743936845
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|-damage|p2a: Iron Boulder|88/100|[from] Stealth Rock
+|-enditem|p2a: Iron Boulder|Booster Energy
+|-activate|p2a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Boulder|quarkdrivespe
+|turn|4
+|
+|t:|1743936861
+|-end|p1a: Fort Intéressant|Protosynthesis|[silent]
+|switch|p1a: Gromacaque|Gholdengo|100/100
+|-item|p1a: Gromacaque|Air Balloon
+|move|p2a: Iron Boulder|Close Combat|p1a: Gromacaque
+|-immune|p1a: Gromacaque
+|
+|upkeep
+|turn|5
+|
+|t:|1743936877
+|move|p2a: Iron Boulder|Mighty Cleave|p1a: Gromacaque
+|-resisted|p1a: Gromacaque
+|-damage|p1a: Gromacaque|74/100
+|-enditem|p1a: Gromacaque|Air Balloon
+|move|p1a: Gromacaque|Nasty Plot|p1a: Gromacaque
+|-boost|p1a: Gromacaque|spa|2
+|
+|upkeep
+|turn|6
+|
+|t:|1743936885
+|move|p2a: Iron Boulder|Earthquake|p1a: Gromacaque
+|-supereffective|p1a: Gromacaque
+|-damage|p1a: Gromacaque|1/100
+|move|p1a: Gromacaque|Make It Rain|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|0 fnt
+|-unboost|p1a: Gromacaque|spa|1
+|faint|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743936893
+|switch|p2a: AC130|Dragapult, M|100/100
+|-damage|p2a: AC130|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1743936902
+|move|p2a: AC130|Dragon Darts|p1a: Gromacaque
+|-resisted|p1a: Gromacaque
+|-damage|p1a: Gromacaque|0 fnt
+|faint|p1a: Gromacaque
+|-damage|p2a: AC130|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743936907
+|switch|p1a: Amovélo|Enamorus, F|100/100
+|turn|8
+|
+|t:|1743936920
+|move|p1a: Amovélo|Moonblast|p2a: AC130
+|-supereffective|p2a: AC130
+|-crit|p2a: AC130
+|-damage|p2a: AC130|0 fnt
+|faint|p2a: AC130
+|
+|upkeep
+|
+|t:|1743936922
+|switch|p2a: Nyx|Darkrai|100/100
+|turn|9
+|
+|t:|1743936930
+|-terastallize|p2a: Nyx|Poison
+|move|p1a: Amovélo|Moonblast|p2a: Nyx
+|-resisted|p2a: Nyx
+|-damage|p2a: Nyx|65/100
+|move|p2a: Nyx|Sludge Bomb|p1a: Amovélo
+|-supereffective|p1a: Amovélo
+|-damage|p1a: Amovélo|0 fnt
+|faint|p1a: Amovélo
+|
+|upkeep
+|
+|t:|1743936940
+|switch|p1a: Fort Intéressant|Great Tusk|24/100
+|turn|10
+|
+|t:|1743936951
+|move|p2a: Nyx|Ice Beam|p1a: Fort Intéressant
+|-supereffective|p1a: Fort Intéressant
+|-damage|p1a: Fort Intéressant|0 fnt
+|faint|p1a: Fort Intéressant
+|-end|p1a: Fort Intéressant|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743936959
+|switch|p1a: Melokapi|Meloetta|100/100
+|turn|11
+|
+|t:|1743936964
+|move|p2a: Nyx|Dark Pulse|p1a: Melokapi
+|-supereffective|p1a: Melokapi
+|-damage|p1a: Melokapi|31/100
+|move|p1a: Melokapi|Relic Song|p2a: Nyx
+|-damage|p2a: Nyx|3/100
+|-formechange|p1a: Melokapi|Meloetta-Pirouette|[msg]
+|-damage|p1a: Melokapi|21/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|t:|1743936973
+|move|p1a: Melokapi|Close Combat|p2a: Nyx
+|-resisted|p2a: Nyx
+|-damage|p2a: Nyx|0 fnt
+|-unboost|p1a: Melokapi|def|1
+|-unboost|p1a: Melokapi|spd|1
+|faint|p2a: Nyx
+|-damage|p1a: Melokapi|11/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743936977
+|switch|p2a: Fighter Jet|Skarmory, F|100/100
+|-damage|p2a: Fighter Jet|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743936985
+|move|p1a: Melokapi|Close Combat|p2a: Fighter Jet
+|-damage|p2a: Fighter Jet|43/100
+|-unboost|p1a: Melokapi|def|1
+|-unboost|p1a: Melokapi|spd|1
+|-damage|p1a: Melokapi|0 fnt|[from] item: Rocky Helmet|[of] p2a: Fighter Jet
+|faint|p1a: Melokapi
+|move|p2a: Fighter Jet|Body Press|p1: Melokapi|[notarget]
+|-fail|p2a: Fighter Jet
+|
+|upkeep
+|
+|t:|1743936994
+|switch|p1a: Mite de Flamme|Iron Moth|100/100
+|-enditem|p1a: Mite de Flamme|Booster Energy
+|-activate|p1a: Mite de Flamme|ability: Quark Drive|[fromitem]
+|-start|p1a: Mite de Flamme|quarkdrivespa
+|turn|14
+|
+|t:|1743937003
+|move|p1a: Mite de Flamme|Fiery Dance|p2a: Fighter Jet
+|-supereffective|p2a: Fighter Jet
+|-crit|p2a: Fighter Jet
+|-damage|p2a: Fighter Jet|0 fnt
+|faint|p2a: Fighter Jet
+|
+|win|Jollyclasss
+|raw|Jollyclasss's rating: 1124 &rarr; <strong>1151</strong><br />(+27 for winning)
+|raw|itsdoom_te's rating: 1152 &rarr; <strong>1125</strong><br />(-27 for losing)
+|l|☆itsdoom_te
+|player|p2|
+|l|☆Jollyclasss
+|player|p1|
+|j|☆Jollyclasss
+|player|p1|Jollyclasss|steven|
+|l|☆Jollyclasss
+|player|p1|

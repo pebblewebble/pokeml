@@ -1,0 +1,311 @@
+|j|☆yungbanjostrap
+|j|☆EpicUmbreon29
+|t:|1743823083
+|gametype|singles
+|player|p1|yungbanjostrap|1|1569
+|player|p2|EpicUmbreon29|grimsley|1638
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Clefable, F|
+|poke|p1|Pecharunt|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Great Tusk|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Kingambit, M|
+|poke|p2|Kyurem|
+|poke|p2|Hatterene, F|
+|poke|p2|Araquanid, M|
+|poke|p2|Indeedee, M|
+|poke|p2|Hawlucha, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1743823100
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|1
+|
+|t:|1743823109
+|move|p1a: Ogerpon|U-turn|p2a: Kyurem
+|-damage|p2a: Kyurem|79/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yungbanjostrap)
+|
+|t:|1743823113
+|switch|p1a: Kingambit|Kingambit, M|100/100|[from] U-turn
+|move|p2a: Kyurem|Freeze-Dry|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|73/100
+|
+|-heal|p1a: Kingambit|80/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743823123
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Clefable|Clefable, F|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743823130
+|move|p1a: Clefable|Moonblast|p2a: Araquanid
+|-damage|p2a: Araquanid|67/100
+|-damage|p1a: Clefable|91/100|[from] item: Life Orb
+|move|p2a: Araquanid|Surf|p1a: Clefable
+|-damage|p1a: Clefable|38/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743823145
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|move|p2a: Araquanid|Sticky Web|p1a: Clefable
+|-sidestart|p1: yungbanjostrap|move: Sticky Web
+|
+|upkeep
+|turn|5
+|
+|t:|1743823147
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|move|p2a: Araquanid|Surf|p1a: Clefable
+|-damage|p1a: Clefable|15/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743823155
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|65/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743823158
+|move|p2a: Great Tusk|Headlong Rush|p1a: Clefable
+|-damage|p1a: Clefable|25/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Clefable|Moonblast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-damage|p1a: Clefable|15/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743823162
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|8
+|
+|t:|1743823166
+|move|p2a: Indeedee|Expanding Force|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|t:|1743823170
+|switch|p1a: Kingambit|Kingambit, M|80/100
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|9
+|
+|t:|1743823176
+|-terastallize|p2a: Indeedee|Fighting
+|move|p2a: Indeedee|Tera Blast|p1a: Kingambit|[anim] Tera Blast Fighting
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|
+|upkeep
+|
+|t:|1743823183
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|turn|10
+|
+|t:|1743823188
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Hatterene|[miss]
+|-miss|p1a: Tornadus|p2a: Hatterene
+|
+|upkeep
+|turn|11
+|
+|t:|1743823194
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Hatterene
+|-damage|p2a: Hatterene|78/100
+|move|p2a: Hatterene|Nuzzle|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|91/100
+|-status|p1a: Tornadus|par
+|
+|upkeep
+|turn|12
+|
+|t:|1743823200
+|cant|p1a: Tornadus|par
+|move|p2a: Hatterene|Psyshock|p1a: Tornadus
+|-damage|p1a: Tornadus|41/100 par
+|
+|upkeep
+|turn|13
+|
+|t:|1743823203
+|cant|p1a: Tornadus|par
+|move|p2a: Hatterene|Psyshock|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|
+|t:|1743823205
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|turn|14
+|
+|t:|1743823208
+|move|p1a: Pecharunt|Malignant Chain|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|17/100
+|-status|p2a: Hatterene|tox
+|-start|p2a: Hatterene|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|-activate|p2a: Hatterene|confusion
+|-damage|p2a: Hatterene|10/100 tox|[from] confusion
+|
+|-damage|p2a: Hatterene|4/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743823223
+|move|p1a: Pecharunt|Foul Play|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1743823228
+|switch|p2a: Indeedee|Indeedee, M, tera:Fighting|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|16
+|
+|t:|1743823239
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|move: Sticky Web
+|-unboost|p1a: Great Tusk|spe|1
+|move|p2a: Indeedee|Expanding Force|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743823245
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-activate|p1a: Ogerpon|move: Sticky Web
+|-unboost|p1a: Ogerpon|spe|1
+|turn|17
+|
+|t:|1743823254
+|switch|p2a: Kyurem|Kyurem|79/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Kyurem|[anim] Ivy Cudgel Water
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|54/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743823257
+|move|p2a: Kyurem|Freeze-Dry|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743823259
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|turn|19
+|
+|t:|1743823264
+|move|p1a: Pecharunt|Malignant Chain|p2a: Kyurem
+|-damage|p2a: Kyurem|24/100
+|move|p2a: Kyurem|Freeze-Dry|p1a: Pecharunt
+|-damage|p1a: Pecharunt|44/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743823271
+|move|p1a: Pecharunt|Malignant Chain|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1743823273
+|switch|p2a: Indeedee|Indeedee, M, tera:Fighting|100/100
+|turn|21
+|
+|t:|1743823279
+|-terastallize|p1a: Pecharunt|Dark
+|move|p2a: Indeedee|Expanding Force|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|94/100
+|
+|upkeep
+|turn|22
+|
+|t:|1743823284
+|move|p2a: Indeedee|Tera Blast|p1a: Pecharunt|[anim] Tera Blast Fighting
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|28/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Indeedee
+|-damage|p2a: Indeedee|61/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743823288
+|move|p2a: Indeedee|Tera Blast|p1a: Pecharunt|[anim] Tera Blast Fighting
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|win|EpicUmbreon29
+|raw|yungbanjostrap's rating: 1569 &rarr; <strong>1553</strong><br />(-16 for losing)
+|raw|EpicUmbreon29's rating: 1638 &rarr; <strong>1654</strong><br />(+16 for winning)
+|l|☆EpicUmbreon29
+|player|p2|
+|l|☆yungbanjostrap
+|player|p1|

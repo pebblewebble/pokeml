@@ -1,0 +1,455 @@
+|j|☆Cookies4all
+|j|☆jaaziah27911
+|t:|1743923167
+|gametype|singles
+|player|p1|Cookies4all|101|1129
+|player|p2|jaaziah27911|red|1124
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Ditto|
+|poke|p1|Skarmory, M|
+|poke|p1|Arbok, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Iron Moth|
+|poke|p2|Toxicroak, M|
+|poke|p2|Politoed, M|
+|poke|p2|Barraskewda, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Zarude|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cookies4all)
+|
+|t:|1743923176
+|start
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|1
+|
+|t:|1743923190
+|switch|p2a: Zarude|Zarude|100/100
+|-terastallize|p1a: Iron Moth|Flying
+|move|p1a: Iron Moth|Fiery Dance|p2a: Zarude
+|-supereffective|p2a: Zarude
+|-damage|p2a: Zarude|47/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743923201
+|move|p2a: Zarude|Knock Off|p1a: Iron Moth
+|-damage|p1a: Iron Moth|41/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Zarude
+|-supereffective|p2a: Zarude
+|-damage|p2a: Zarude|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Zarude
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743923207
+|switch|p2a: Barraskewda|Barraskewda, M, shiny|100/100
+|turn|3
+|
+|t:|1743923209
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Barraskewda|Flip Turn|p1a: Skarmory
+|-damage|p1a: Skarmory|46/100
+|-damage|p2a: Barraskewda|84/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|
+|t:|1743923215
+|switch|p2a: Politoed|Politoed, M|100/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743923221
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Politoed|Whirlpool|p1a: Hatterene
+|-damage|p1a: Hatterene|90/100
+|-activate|p1a: Hatterene|move: Whirlpool|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Hatterene|77/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1743923231
+|move|p2a: Politoed|Ice Beam|p1a: Hatterene
+|-damage|p1a: Hatterene|64/100
+|move|p1a: Hatterene|Giga Drain|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-crit|p2a: Politoed
+|-damage|p2a: Politoed|44/100
+|-heal|p1a: Hatterene|100/100|[from] drain|[of] p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Hatterene|88/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|t:|1743923244
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Hatterene|Nuzzle|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|95/100
+|-status|p2a: Iron Valiant|par
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Hatterene|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|7
+|
+|t:|1743923249
+|move|p2a: Iron Valiant|Encore|p1a: Hatterene
+|move|p1a: Hatterene|Encore||[from] ability: Magic Bounce|[still]
+|-fail|p1a: Hatterene
+|move|p1a: Hatterene|Psyshock|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743923257
+|switch|p2a: Toxicroak|Toxicroak, M, shiny|100/100
+|turn|8
+|
+|t:|1743923262
+|switch|p1a: Arbok|Arbok, F|100/100
+|-ability|p1a: Arbok|Intimidate|boost
+|-unboost|p2a: Toxicroak|atk|1
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743923269
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|move|p1a: Arbok|Glare|p2a: Toxicroak
+|-status|p2a: Toxicroak|par
+|
+|upkeep
+|turn|10
+|
+|t:|1743923271
+|move|p1a: Arbok|Knock Off|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|78/100 par
+|-enditem|p2a: Toxicroak|Leftovers|[from] move: Knock Off|[of] p1a: Arbok
+|cant|p2a: Toxicroak|par
+|
+|upkeep
+|turn|11
+|
+|t:|1743923277
+|move|p1a: Arbok|Rock Slide|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|61/100 par
+|cant|p2a: Toxicroak|par
+|
+|upkeep
+|turn|12
+|
+|t:|1743923282
+|move|p1a: Arbok|Rock Slide|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|45/100 par
+|cant|p2a: Toxicroak|par
+|
+|upkeep
+|turn|13
+|
+|t:|1743923288
+|move|p1a: Arbok|Rock Slide|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|29/100 par
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|
+|upkeep
+|turn|14
+|
+|t:|1743923303
+|move|p1a: Arbok|Rock Slide|p2a: Toxicroak|[miss]
+|-miss|p1a: Arbok|p2a: Toxicroak
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|1
+|
+|upkeep
+|turn|15
+|
+|t:|1743923309
+|move|p1a: Arbok|Rock Slide|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|13/100 par
+|move|p2a: Toxicroak|Drain Punch|p1a: Arbok
+|-resisted|p1a: Arbok
+|-crit|p1a: Arbok
+|-enditem|p1a: Arbok|Focus Sash
+|-damage|p1a: Arbok|1/100
+|-heal|p2a: Toxicroak|56/100 par|[from] drain|[of] p1a: Arbok
+|
+|upkeep
+|turn|16
+|
+|t:|1743923315
+|move|p1a: Arbok|Rock Slide|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|40/100 par
+|move|p2a: Toxicroak|Drain Punch|p1a: Arbok
+|-resisted|p1a: Arbok
+|-damage|p1a: Arbok|0 fnt
+|-heal|p2a: Toxicroak|40/100 par|[from] drain|[of] p1a: Arbok
+|faint|p1a: Arbok
+|
+|upkeep
+|
+|t:|1743923322
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Toxicroak|[from] ability: Imposter
+|turn|17
+|inactive|jaaziah27911 has 120 seconds left.
+|
+|t:|1743923360
+|switch|p2a: Politoed|Politoed, M|44/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Ditto|Sucker Punch||[still]
+|-fail|p1a: Ditto
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|inactive|jaaziah27911 has 120 seconds left.
+|
+|t:|1743923368
+|move|p1a: Ditto|Sucker Punch||[still]
+|-fail|p1a: Ditto
+|move|p2a: Politoed|Encore|p1a: Ditto
+|-start|p1a: Ditto|Encore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743923373
+|move|p1a: Ditto|Sucker Punch||[still]
+|-fail|p1a: Ditto
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Ditto|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Ditto|perish3
+|-start|p2a: Politoed|perish3
+|upkeep
+|turn|20
+|
+|t:|1743923380
+|move|p1a: Ditto|Sucker Punch|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Ditto|perish2
+|upkeep
+|
+|t:|1743923389
+|switch|p2a: Toxicroak|Toxicroak, M, shiny|40/100 par
+|turn|21
+|
+|t:|1743923393
+|move|p1a: Ditto|Sucker Punch|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Ditto|Encore
+|-start|p1a: Ditto|perish1
+|upkeep
+|
+|t:|1743923398
+|switch|p2a: Barraskewda|Barraskewda, M, shiny|84/100
+|turn|22
+|
+|t:|1743923416
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ditto|atk|1
+|switch|p1a: Skarmory|Skarmory, M|46/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1743923426
+|move|p2a: Landorus|Stealth Rock|p1a: Skarmory
+|-sidestart|p1: Cookies4all|move: Stealth Rock
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|96/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1743923436
+|switch|p2a: Barraskewda|Barraskewda, M, shiny|84/100
+|move|p1a: Skarmory|Body Press|p2a: Barraskewda
+|-damage|p2a: Barraskewda|16/100
+|
+|-weather|none
+|upkeep
+|turn|25
+|
+|t:|1743923446
+|-terastallize|p2a: Barraskewda|Water
+|move|p2a: Barraskewda|Waterfall|p1a: Skarmory
+|-damage|p1a: Skarmory|37/100
+|-damage|p2a: Barraskewda|0 fnt|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|faint|p2a: Barraskewda
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|88/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|upkeep
+|
+|t:|1743923449
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Skarmory|atk|1
+|turn|26
+|
+|t:|1743923455
+|move|p2a: Landorus|Stone Edge|p1a: Skarmory
+|-damage|p1a: Skarmory|59/100
+|move|p1a: Skarmory|Body Press|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|83/100
+|-damage|p1a: Skarmory|42/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|upkeep
+|turn|27
+|
+|t:|1743923458
+|move|p2a: Landorus|Stone Edge|p1a: Skarmory|[miss]
+|-miss|p2a: Landorus|p1a: Skarmory
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|92/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|upkeep
+|turn|28
+|
+|t:|1743923460
+|move|p2a: Landorus|Stone Edge|p1a: Skarmory
+|-damage|p1a: Skarmory|65/100
+|move|p1a: Skarmory|Body Press|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|66/100
+|-damage|p1a: Skarmory|48/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|upkeep
+|turn|29
+|
+|t:|1743923463
+|move|p2a: Landorus|Stone Edge|p1a: Skarmory
+|-damage|p1a: Skarmory|22/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|72/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|upkeep
+|turn|30
+|
+|t:|1743923469
+|move|p2a: Landorus|Stone Edge|p1a: Skarmory
+|-damage|p1a: Skarmory|43/100
+|move|p1a: Skarmory|Body Press|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|47/100
+|-damage|p1a: Skarmory|26/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|upkeep
+|turn|31
+|
+|t:|1743923471
+|move|p2a: Landorus|Stone Edge|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|upkeep
+|
+|t:|1743923474
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Landorus|[from] ability: Imposter
+|-ability|p1a: Ditto|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|turn|32
+|
+|t:|1743923485
+|switch|p1a: Hatterene|Hatterene, F|88/100
+|-damage|p1a: Hatterene|76/100|[from] Stealth Rock
+|move|p2a: Landorus|Stone Edge|p1a: Hatterene
+|-damage|p1a: Hatterene|41/100
+|
+|upkeep
+|turn|33
+|
+|t:|1743923492
+|switch|p1a: Ditto|Ditto|88/100
+|-damage|p1a: Ditto|76/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Landorus|[from] ability: Imposter
+|-ability|p1a: Ditto|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Stone Edge|p1a: Ditto
+|-crit|p1a: Ditto
+|-damage|p1a: Ditto|7/100
+|
+|upkeep
+|turn|34
+|
+|t:|1743923505
+|move|p1a: Ditto|Stone Edge|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|win|Cookies4all
+|raw|Cookies4all's rating: 1129 &rarr; <strong>1154</strong><br />(+25 for winning)
+|raw|jaaziah27911's rating: 1124 &rarr; <strong>1099</strong><br />(-25 for losing)
+|l|☆jaaziah27911
+|player|p2|
+|l|☆Cookies4all
+|player|p1|

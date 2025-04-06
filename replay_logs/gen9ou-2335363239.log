@@ -1,0 +1,457 @@
+|j|☆uglybarnacles
+|j|☆Flyers129
+|t:|1743787909
+|gametype|singles
+|player|p1|uglybarnacles|102|1126
+|player|p2|Flyers129|sailor|1125
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rampardos, F|
+|poke|p1|Serperior, F|
+|poke|p1|Chandelure, F|
+|poke|p1|Milotic, M|
+|poke|p1|Granbull, M|
+|poke|p1|Iron Treads|
+|poke|p2|Garganacl, F|
+|poke|p2|Quaquaval, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Zapdos|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Flyers129)
+|
+|t:|1743787916
+|start
+|switch|p1a: Iron Treads|Iron Treads, shiny|100/100
+|switch|p2a: Garganacl|Garganacl, F, shiny|100/100
+|-item|p1a: Iron Treads|Air Balloon
+|turn|1
+|
+|t:|1743787924
+|move|p1a: Iron Treads|Knock Off|p2a: Garganacl
+|-damage|p2a: Garganacl|88/100
+|-enditem|p2a: Garganacl|Leftovers|[from] move: Knock Off|[of] p1a: Iron Treads
+|move|p2a: Garganacl|Salt Cure|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|98/100
+|-start|p1a: Iron Treads|Salt Cure
+|-enditem|p1a: Iron Treads|Air Balloon
+|
+|-damage|p1a: Iron Treads|73/100|[from] Salt Cure
+|upkeep
+|turn|2
+|
+|t:|1743787933
+|move|p1a: Iron Treads|Stealth Rock|p2a: Garganacl
+|-sidestart|p2: Flyers129|move: Stealth Rock
+|move|p2a: Garganacl|Substitute|p2a: Garganacl
+|-start|p2a: Garganacl|Substitute
+|-damage|p2a: Garganacl|63/100
+|
+|-damage|p1a: Iron Treads|48/100|[from] Salt Cure
+|upkeep
+|turn|3
+|
+|t:|1743787940
+|move|p1a: Iron Treads|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-end|p2a: Garganacl|Substitute
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-damage|p1a: Iron Treads|23/100|[from] Salt Cure
+|upkeep
+|turn|4
+|
+|t:|1743787951
+|move|p1a: Iron Treads|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|36/100
+|move|p2a: Garganacl|Earthquake|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743787960
+|switch|p1a: Milotic|Milotic, M|100/100
+|turn|5
+|
+|t:|1743787966
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-damage|p2a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Milotic|Flip Turn|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|83/100
+|
+|t:|1743787976
+|switch|p1a: Chandelure|Chandelure, F, shiny|100/100|[from] Flip Turn
+|
+|-heal|p2a: Rillaboom|89/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1743787992
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|-damage|p2a: Quaquaval|94/100|[from] Stealth Rock
+|move|p1a: Chandelure|Overheat|p2a: Quaquaval|[miss]
+|-miss|p1a: Chandelure|p2a: Quaquaval
+|
+|-heal|p2a: Quaquaval|100/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1743788009
+|switch|p1a: Milotic|Milotic, M|100/100
+|move|p2a: Quaquaval|U-turn|p1a: Milotic
+|-damage|p1a: Milotic|76/100
+|
+|t:|1743788016
+|switch|p2a: Rillaboom|Rillaboom, F|89/100|[from] U-turn
+|-damage|p2a: Rillaboom|76/100|[from] Stealth Rock
+|
+|-heal|p2a: Rillaboom|83/100|[from] Grassy Terrain
+|-heal|p1a: Milotic|82/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1743788029
+|move|p2a: Rillaboom|Knock Off|p1a: Milotic
+|-damage|p1a: Milotic|59/100
+|-enditem|p1a: Milotic|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Rillaboom
+|move|p1a: Milotic|Scald|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|71/100
+|-status|p2a: Rillaboom|brn
+|
+|-heal|p2a: Rillaboom|77/100 brn|[from] Grassy Terrain
+|-heal|p1a: Milotic|65/100|[from] Grassy Terrain
+|-damage|p2a: Rillaboom|71/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743788041
+|move|p2a: Rillaboom|Grassy Glide|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|41/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|91/100
+|
+|-heal|p2a: Rillaboom|77/100 brn|[from] Grassy Terrain
+|-heal|p1a: Milotic|97/100|[from] Grassy Terrain
+|-damage|p2a: Rillaboom|71/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1743788051
+|move|p2a: Rillaboom|Grassy Glide|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|77/100
+|move|p1a: Milotic|Flip Turn|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|65/100 brn
+|
+|t:|1743788058
+|switch|p1a: Chandelure|Chandelure, F, shiny|100/100|[from] Flip Turn
+|
+|-damage|p2a: Rillaboom|59/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743788070
+|move|p1a: Chandelure|Overheat|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-unboost|p1a: Chandelure|spa|2
+|faint|p2a: Rillaboom
+|
+|upkeep
+|
+|t:|1743788078
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|-damage|p2a: Quaquaval|94/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1743788089
+|switch|p1a: Milotic|Milotic, M|77/100
+|move|p2a: Quaquaval|Acrobatics|p1a: Milotic
+|-damage|p1a: Milotic|56/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743788105
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Milotic|Scald|p2a: Zapdos
+|-damage|p2a: Zapdos|75/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743788117
+|switch|p1a: Granbull|Granbull, M|100/100
+|-ability|p1a: Granbull|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|move|p2a: Zapdos|Discharge|p1a: Granbull
+|-damage|p1a: Granbull|61/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743788126
+|move|p2a: Zapdos|Volt Switch|p1a: Granbull
+|-damage|p1a: Granbull|25/100
+|
+|t:|1743788131
+|switch|p2a: Enamorus|Enamorus, F|100/100|[from] Volt Switch
+|-damage|p2a: Enamorus|76/100|[from] Stealth Rock
+|move|p1a: Granbull|Play Rough|p2a: Enamorus
+|-damage|p2a: Enamorus|3/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743788140
+|move|p2a: Enamorus|Tailwind|p2a: Enamorus
+|-sidestart|p2: Flyers129|move: Tailwind
+|move|p1a: Granbull|Play Rough|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|upkeep
+|
+|t:|1743788144
+|switch|p2a: Zapdos|Zapdos|75/100
+|turn|17
+|
+|t:|1743788149
+|move|p2a: Zapdos|Discharge|p1a: Granbull
+|-crit|p1a: Granbull
+|-damage|p1a: Granbull|0 fnt
+|faint|p1a: Granbull
+|
+|upkeep
+|
+|t:|1743788157
+|switch|p1a: Chandelure|Chandelure, F, shiny|100/100
+|turn|18
+|
+|t:|1743788165
+|move|p2a: Zapdos|Discharge|p1a: Chandelure
+|-damage|p1a: Chandelure|33/100
+|move|p1a: Chandelure|Shadow Ball|p2a: Zapdos
+|-damage|p2a: Zapdos|9/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743788179
+|move|p2a: Zapdos|Discharge|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|-sideend|p2: Flyers129|move: Tailwind
+|upkeep
+|
+|t:|1743788184
+|switch|p1a: Rampardos|Rampardos, F, shiny|100/100
+|-ability|p1a: Rampardos|Mold Breaker
+|turn|20
+|
+|t:|1743788194
+|move|p1a: Rampardos|Head Smash|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-damage|p1a: Rampardos|96/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743788206
+|switch|p2a: Garganacl|Garganacl, F, shiny|36/100
+|-damage|p2a: Garganacl|24/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1743788209
+|switch|p1a: Serperior|Serperior, F|100/100
+|move|p2a: Garganacl|Salt Cure|p1a: Serperior
+|-damage|p1a: Serperior|84/100
+|-start|p1a: Serperior|Salt Cure
+|
+|-heal|p1a: Serperior|90/100|[from] item: Leftovers
+|-damage|p1a: Serperior|78/100|[from] Salt Cure
+|upkeep
+|turn|22
+|
+|t:|1743788227
+|move|p1a: Serperior|Leaf Storm|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Garganacl
+|
+|-heal|p1a: Serperior|84/100|[from] item: Leftovers
+|-damage|p1a: Serperior|71/100|[from] Salt Cure
+|upkeep
+|inactive|Flyers129 has 120 seconds left.
+|
+|t:|1743788248
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1743788270
+|-terastallize|p1a: Serperior|Stellar
+|move|p2a: Dragapult|Fly||[still]
+|-prepare|p2a: Dragapult|Fly
+|-enditem|p2a: Dragapult|Power Herb
+|-anim|p2a: Dragapult|Fly|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|
+|t:|1743788282
+|switch|p1a: Milotic|Milotic, M|56/100
+|turn|24
+|inactive|Flyers129 has 120 seconds left.
+|
+|t:|1743788313
+|move|p2a: Dragapult|Shadow Ball|p1a: Milotic
+|-damage|p1a: Milotic|37/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|87/100
+|
+|upkeep
+|turn|25
+|inactive|Flyers129 has 120 seconds left.
+|
+|t:|1743788329
+|move|p2a: Dragapult|Dragon Darts|p1a: Milotic
+|-damage|p1a: Milotic|70/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Milotic
+|-crit|p1a: Milotic
+|-damage|p1a: Milotic|43/100
+|move|p1a: Milotic|Scald|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|69/100
+|
+|upkeep
+|turn|26
+|
+|t:|1743788339
+|move|p2a: Dragapult|Dragon Darts|p1a: Milotic
+|-damage|p1a: Milotic|23/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Milotic
+|-damage|p1a: Milotic|5/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|55/100
+|
+|upkeep
+|turn|27
+|
+|t:|1743788346
+|move|p2a: Dragapult|Dragon Darts|p1a: Milotic
+|-damage|p1a: Milotic|36/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Milotic
+|-damage|p1a: Milotic|16/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|66/100
+|
+|upkeep
+|turn|28
+|
+|t:|1743788356
+|move|p2a: Dragapult|Dragon Darts|p1a: Milotic
+|-damage|p1a: Milotic|48/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Milotic
+|-damage|p1a: Milotic|29/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|79/100
+|
+|upkeep
+|turn|29
+|
+|t:|1743788363
+|move|p2a: Dragapult|Dragon Darts|p1a: Milotic
+|-damage|p1a: Milotic|62/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Milotic
+|-damage|p1a: Milotic|45/100
+|move|p1a: Milotic|Scald|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|50/100
+|
+|upkeep
+|turn|30
+|
+|t:|1743788371
+|move|p2a: Dragapult|Dragon Darts|p1a: Milotic
+|-damage|p1a: Milotic|27/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Milotic
+|-damage|p1a: Milotic|9/100
+|move|p1a: Milotic|Scald|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|31/100
+|
+|upkeep
+|turn|31
+|
+|t:|1743788380
+|move|p2a: Dragapult|Dragon Darts|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|
+|upkeep
+|
+|t:|1743788385
+|switch|p1a: Rampardos|Rampardos, F, shiny|96/100
+|-ability|p1a: Rampardos|Mold Breaker
+|turn|32
+|
+|t:|1743788403
+|move|p2a: Dragapult|Shadow Ball|p1a: Rampardos
+|-damage|p1a: Rampardos|48/100
+|move|p1a: Rampardos|Supercell Slam|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1743788419
+|switch|p2a: Quaquaval|Quaquaval, M|94/100
+|-damage|p2a: Quaquaval|88/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1743788427
+|move|p1a: Rampardos|Supercell Slam|p2a: Quaquaval
+|-supereffective|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|win|uglybarnacles
+|raw|uglybarnacles's rating: 1126 &rarr; <strong>1151</strong><br />(+25 for winning)
+|raw|Flyers129's rating: 1125 &rarr; <strong>1100</strong><br />(-25 for losing)
+|l|☆uglybarnacles
+|player|p1|
+|l|☆Flyers129
+|player|p2|

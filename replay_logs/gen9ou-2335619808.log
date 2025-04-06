@@ -1,0 +1,260 @@
+|j|☆RyanBSS
+|j|☆slaybate
+|t:|1743813194
+|gametype|singles
+|player|p1|RyanBSS|az|1074
+|player|p2|slaybate|169|1087
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Kingambit, F|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Iron Moth|
+|poke|p2|Pecharunt|
+|poke|p2|Iron Valiant|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Reuniclus, F|
+|poke|p2|Darkrai|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RyanBSS)
+|
+|t:|1743813202
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|1
+|
+|t:|1743813228
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespa
+|move|p1a: Samurott|Razor Shell|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|33/100
+|-unboost|p2a: Iron Valiant|def|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743813239
+|move|p2a: Iron Valiant|Moonblast|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-enditem|p1a: Samurott|Focus Sash
+|-damage|p1a: Samurott|1/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|12/100
+|-sidestart|p2: slaybate|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1743813253
+|move|p2a: Iron Valiant|Moonblast|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1743813276
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|4
+|
+|t:|1743813285
+|move|p2a: Iron Valiant|Vacuum Wave|p1a: Zamazenta
+|-damage|p1a: Zamazenta|80/100
+|move|p1a: Zamazenta|Body Press|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p1a: Zamazenta|86/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743813295
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|turn|5
+|
+|t:|1743813305
+|move|p1a: Zamazenta|Crunch|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|61/100
+|-unboost|p2a: Reuniclus|def|1
+|move|p2a: Reuniclus|Trick Room|p2a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p2a: Reuniclus
+|
+|-heal|p1a: Zamazenta|92/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743813313
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Reuniclus|Psychic Noise|p1a: Kingambit
+|-immune|p1a: Kingambit
+|
+|upkeep
+|turn|7
+|
+|t:|1743813323
+|move|p1a: Kingambit|Sucker Punch|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|upkeep
+|
+|t:|1743813331
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|88/100|[from] Spikes
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|8
+|
+|t:|1743813346
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|9
+|
+|t:|1743813356
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Landorus
+|-damage|p1a: Landorus|13/100
+|-damage|p2a: Kingambit|72/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|move|p1a: Landorus|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743813363
+|switch|p2a: Darkrai|Darkrai|100/100
+|-damage|p2a: Darkrai|88/100|[from] Spikes
+|turn|10
+|
+|t:|1743813382
+|move|p2a: Darkrai|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Darkrai|72/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-enditem|p1a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p2a: Darkrai
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743813385
+|switch|p1a: Zamazenta|Zamazenta|92/100
+|turn|11
+|
+|t:|1743813396
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-damage|p2a: Pecharunt|88/100|[from] Spikes
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743813407
+|move|p1a: Zamazenta|Crunch|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|55/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Zamazenta
+|-damage|p1a: Zamazenta|70/100
+|
+|-heal|p1a: Zamazenta|76/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743813418
+|move|p1a: Zamazenta|Crunch|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|25/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Zamazenta
+|-damage|p1a: Zamazenta|44/100
+|-status|p1a: Zamazenta|tox
+|-start|p1a: Zamazenta|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|
+|-heal|p1a: Zamazenta|51/100 tox|[from] item: Leftovers
+|-damage|p1a: Zamazenta|44/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743813430
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|-damage|p2a: Samurott|88/100|[from] Spikes
+|-activate|p1a: Zamazenta|confusion
+|move|p1a: Zamazenta|Crunch|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|75/100
+|
+|-heal|p1a: Zamazenta|51/100 tox|[from] item: Leftovers
+|-damage|p1a: Zamazenta|38/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743813442
+|-activate|p1a: Zamazenta|confusion
+|move|p1a: Zamazenta|Body Press|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-heal|p1a: Zamazenta|44/100 tox|[from] item: Leftovers
+|-damage|p1a: Zamazenta|26/100 tox|[from] psn
+|upkeep
+|
+|t:|1743813448
+|switch|p2a: Darkrai|Darkrai|72/100
+|-damage|p2a: Darkrai|59/100|[from] Spikes
+|turn|16
+|
+|t:|1743813452
+|-activate|p1a: Zamazenta|confusion
+|move|p1a: Zamazenta|Body Press|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|-heal|p1a: Zamazenta|32/100 tox|[from] item: Leftovers
+|-damage|p1a: Zamazenta|7/100 tox|[from] psn
+|upkeep
+|
+|t:|1743813459
+|switch|p2a: Pecharunt|Pecharunt|25/100
+|-damage|p2a: Pecharunt|13/100|[from] Spikes
+|turn|17
+|-message|slaybate forfeited.
+|
+|win|RyanBSS
+|raw|RyanBSS's rating: 1074 &rarr; <strong>1104</strong><br />(+30 for winning)
+|raw|slaybate's rating: 1087 &rarr; <strong>1063</strong><br />(-24 for losing)
+|l|☆slaybate
+|player|p2|

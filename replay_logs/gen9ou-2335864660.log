@@ -1,0 +1,397 @@
+|j|☆pokemon wuyu
+|j|☆hacksareus10
+|t:|1743850434
+|gametype|singles
+|player|p1|pokemon wuyu|102|1212
+|player|p2|hacksareus10|170|1261
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Zapdos|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Dragonite, F|
+|poke|p1|Pecharunt|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Slowking, M|
+|poke|p2|Cetitan, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Serperior, M|
+|poke|p2|Porygon2|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hacksareus10)
+|
+|t:|1743850450
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: PorygonZ|Porygon2, shiny|100/100
+|-ability|p2a: PorygonZ|Static|[from] ability: Trace|[of] p1a: Zapdos
+|turn|1
+|inactive|hacksareus10 has 120 seconds left.
+|
+|t:|1743850484
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|move|p1a: Zapdos|Thunder Wave|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|2
+|
+|t:|1743850505
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Landorus|Rock Slide|p1a: Pecharunt
+|-damage|p1a: Pecharunt|83/100
+|
+|-heal|p1a: Pecharunt|89/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|hacksareus10 has 120 seconds left.
+|
+|t:|1743850524
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Pecharunt|Malignant Chain|p2a: Zamazenta
+|-damage|p2a: Zamazenta|62/100
+|-status|p2a: Zamazenta|tox
+|-start|p2a: Zamazenta|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-heal|p1a: Pecharunt|95/100|[from] item: Leftovers
+|-damage|p2a: Zamazenta|56/100 tox|[from] psn
+|upkeep
+|turn|4
+|inactive|hacksareus10 has 120 seconds left.
+|
+|t:|1743850540
+|-activate|p2a: Zamazenta|confusion
+|move|p2a: Zamazenta|Light Screen|p2a: Zamazenta
+|-sidestart|p2: hacksareus10|move: Light Screen
+|move|p1a: Pecharunt|Malignant Chain|p2a: Zamazenta
+|-damage|p2a: Zamazenta|36/100 tox
+|
+|-heal|p1a: Pecharunt|100/100|[from] item: Leftovers
+|-damage|p2a: Zamazenta|24/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743850550
+|-end|p2a: Zamazenta|confusion
+|move|p2a: Zamazenta|Reflect|p2a: Zamazenta
+|-sidestart|p2: hacksareus10|Reflect
+|move|p1a: Pecharunt|Shadow Ball|p2a: Zamazenta
+|-damage|p2a: Zamazenta|8/100 tox
+|
+|-damage|p2a: Zamazenta|0 fnt|[from] psn
+|faint|p2a: Zamazenta
+|upkeep
+|inactive|hacksareus10 has 120 seconds left.
+|
+|t:|1743850575
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Pecharunt|atk|1
+|turn|6
+|
+|t:|1743850585
+|move|p2a: Landorus|U-turn|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|96/100
+|
+|t:|1743850602
+|switch|p2a: Slowking|Slowking, M|100/100|[from] U-turn
+|move|p1a: Pecharunt|Malignant Chain|p2a: Slowking
+|-damage|p2a: Slowking|87/100
+|
+|-heal|p1a: Pecharunt|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743850614
+|move|p1a: Pecharunt|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|62/100
+|move|p2a: Slowking|Thunder Wave|p1a: Pecharunt
+|-status|p1a: Pecharunt|par
+|
+|upkeep
+|turn|8
+|
+|t:|1743850622
+|cant|p1a: Pecharunt|par
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743850628
+|switch|p2a: Cetitan|Cetitan, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743850638
+|move|p2a: Cetitan|Belly Drum|p2a: Cetitan
+|-damage|p2a: Cetitan|50/100
+|-setboost|p2a: Cetitan|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Cetitan|Sitrus Berry|[eat]
+|-heal|p2a: Cetitan|75/100|[from] item: Sitrus Berry
+|move|p1a: Pecharunt|Malignant Chain|p2a: Cetitan
+|-damage|p2a: Cetitan|51/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|inactive|hacksareus10 has 120 seconds left.
+|
+|t:|1743850652
+|move|p2a: Cetitan|Earthquake|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743850677
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Cetitan|atk|1
+|turn|11
+|inactive|hacksareus10 has 120 seconds left.
+|
+|t:|1743850689
+|move|p1a: Landorus|Earthquake|p2a: Cetitan
+|-damage|p2a: Cetitan|33/100
+|move|p2a: Cetitan|Liquidation|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p2: hacksareus10|move: Light Screen
+|upkeep
+|
+|t:|1743850701
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|12
+|
+|t:|1743850709
+|move|p2a: Cetitan|Ice Shard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p2: hacksareus10|Reflect
+|upkeep
+|
+|t:|1743850723
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|13
+|
+|t:|1743850730
+|-terastallize|p1a: Dragonite|Normal
+|move|p2a: Cetitan|Ice Shard|p1a: Dragonite
+|-damage|p1a: Dragonite|70/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743850749
+|move|p1a: Dragonite|Extreme Speed|p2a: Cetitan
+|-damage|p2a: Cetitan|0 fnt
+|faint|p2a: Cetitan
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743850756
+|switch|p2a: Slowking|Slowking, M|95/100
+|turn|15
+|
+|t:|1743850771
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Slowking|Psychic Terrain|p2a: Slowking
+|-fieldstart|move: Psychic Terrain
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1743850781
+|move|p1a: Dragonite|Dragon Claw|p2a: Slowking
+|-damage|p2a: Slowking|14/100
+|move|p2a: Slowking|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|
+|upkeep
+|turn|17
+|
+|t:|1743850789
+|cant|p1a: Dragonite|par
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743850804
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] Chilly Reception
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743850812
+|move|p2a: Landorus|Earthquake|p1a: Dragonite
+|-damage|p1a: Dragonite|11/100 par
+|move|p1a: Dragonite|Ice Spinner|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-fieldend|move: Psychic Terrain
+|faint|p2a: Landorus
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|inactive|hacksareus10 has 120 seconds left.
+|
+|t:|1743850844
+|switch|p2a: PorygonZ|Porygon2, shiny|100/100
+|-ability|p2a: PorygonZ|Multiscale|[from] ability: Trace|[of] p1a: Dragonite
+|turn|19
+|inactive|hacksareus10 has 120 seconds left.
+|
+|t:|1743850856
+|cant|p1a: Dragonite|par
+|move|p2a: PorygonZ|Ice Beam|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743850870
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|20
+|
+|t:|1743850877
+|move|p1a: Ogerpon|Knock Off|p2a: PorygonZ
+|-damage|p2a: PorygonZ|92/100
+|-enditem|p2a: PorygonZ|Eviolite|[from] move: Knock Off|[of] p1a: Ogerpon
+|move|p2a: PorygonZ|Thunder Wave|p1a: Ogerpon|[miss]
+|-miss|p2a: PorygonZ|p1a: Ogerpon
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743850887
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: PorygonZ|[anim] Ivy Cudgel Water
+|-damage|p2a: PorygonZ|48/100
+|move|p2a: PorygonZ|Recover|p2a: PorygonZ
+|-heal|p2a: PorygonZ|98/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1743850898
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|move|p2a: PorygonZ|Thunder Wave|p1a: Ogerpon
+|-status|p1a: Ogerpon|par
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1743850907
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: PorygonZ|[anim] Ivy Cudgel Water
+|-damage|p2a: PorygonZ|12/100
+|move|p2a: PorygonZ|Ice Beam|p1a: Ogerpon
+|-damage|p1a: Ogerpon|74/100 par
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1743850916
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: PorygonZ|[anim] Ivy Cudgel Water
+|-damage|p2a: PorygonZ|0 fnt
+|faint|p2a: PorygonZ
+|
+|-weather|none
+|upkeep
+|
+|t:|1743850929
+|switch|p2a: Slowking|Slowking, M|47/100
+|turn|25
+|
+|t:|1743850934
+|move|p1a: Ogerpon|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-enditem|p2a: Slowking|Icy Rock|[from] move: Knock Off|[of] p1a: Ogerpon
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1743850940
+|switch|p2a: Serperior|Serperior, M|100/100
+|turn|26
+|
+|t:|1743850957
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|75/100
+|move|p1a: Ogerpon|Knock Off|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|upkeep
+|turn|27
+|
+|t:|1743850964
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|50/100
+|move|p1a: Ogerpon|Knock Off|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|upkeep
+|turn|28
+|
+|t:|1743850971
+|move|p2a: Serperior|Leaf Storm|p1a: Ogerpon
+|-damage|p1a: Ogerpon|19/100 par
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Ogerpon|Knock Off|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|-enditem|p2a: Serperior|Wide Lens|[from] move: Knock Off|[of] p1a: Ogerpon
+|faint|p2a: Serperior
+|
+|win|pokemon wuyu
+|raw|pokemon wuyu's rating: 1212 &rarr; <strong>1241</strong><br />(+29 for winning)
+|raw|hacksareus10's rating: 1261 &rarr; <strong>1232</strong><br />(-29 for losing)
+|l|☆pokemon wuyu
+|player|p1|
+|l|☆hacksareus10
+|player|p2|

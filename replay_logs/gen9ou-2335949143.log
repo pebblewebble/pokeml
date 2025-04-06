@@ -1,0 +1,248 @@
+|j|☆Boysteam14
+|j|☆qwertykuiky
+|t:|1743862725
+|gametype|singles
+|player|p1|Boysteam14|169|1082
+|player|p2|qwertykuiky|265|1074
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Feraligatr, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Hydreigon, F|
+|poke|p1|Zapdos|
+|poke|p1|Blaziken, M|
+|poke|p2|Sandaconda, M|
+|poke|p2|Serperior, M|
+|poke|p2|Arbok, F|
+|poke|p2|Seviper, F|
+|poke|p2|Milotic, M|
+|poke|p2|Dragonair, F|
+|teampreview
+|
+|t:|1743862741
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Sandaconda|Sandaconda, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Sandaconda|atk|1
+|turn|1
+|
+|t:|1743862754
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Milotic
+|-sidestart|p2: qwertykuiky|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743862760
+|move|p2a: Milotic|Scald|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|10/100
+|move|p1a: Landorus|U-turn|p2a: Milotic
+|-damage|p2a: Milotic|66/100
+|
+|t:|1743862769
+|switch|p1a: Zapdos|Zapdos|100/100|[from] U-turn
+|
+|-heal|p2a: Milotic|72/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743862777
+|move|p1a: Zapdos|Discharge|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|10/100
+|move|p2a: Milotic|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|37/100
+|-status|p1a: Zapdos|frz
+|
+|-heal|p2a: Milotic|16/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743862786
+|-curestatus|p1a: Zapdos|frz|[msg]
+|move|p1a: Zapdos|Discharge|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|upkeep
+|
+|t:|1743862805
+|switch|p2a: Sandaconda|Sandaconda, M|100/100
+|-damage|p2a: Sandaconda|94/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1743862824
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|move|p2a: Sandaconda|Coil|p2a: Sandaconda
+|-boost|p2a: Sandaconda|atk|1
+|-boost|p2a: Sandaconda|def|1
+|-boost|p2a: Sandaconda|accuracy|1
+|
+|-heal|p2a: Sandaconda|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743862848
+|move|p1a: Hydreigon|Draco Meteor|p2a: Sandaconda
+|-damage|p2a: Sandaconda|8/100
+|-unboost|p1a: Hydreigon|spa|2
+|-weather|Sandstorm|[from] ability: Sand Spit|[of] p2a: Sandaconda
+|move|p2a: Sandaconda|Stealth Rock|p1a: Hydreigon
+|-sidestart|p1: Boysteam14|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|94/100|[from] Sandstorm
+|-heal|p2a: Sandaconda|14/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743862859
+|move|p1a: Hydreigon|Draco Meteor|p2a: Sandaconda
+|-damage|p2a: Sandaconda|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2a: Sandaconda
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743862871
+|switch|p2a: Dragonair|Dragonair, F|100/100
+|-damage|p2a: Dragonair|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1743862875
+|move|p1a: Hydreigon|Draco Meteor|p2a: Dragonair
+|-supereffective|p2a: Dragonair
+|-damage|p2a: Dragonair|40/100
+|-unboost|p1a: Hydreigon|spa|2
+|move|p2a: Dragonair|Dragon Dance|p2a: Dragonair
+|-boost|p2a: Dragonair|atk|1
+|-boost|p2a: Dragonair|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|82/100|[from] Sandstorm
+|-damage|p2a: Dragonair|34/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1743862884
+|move|p1a: Hydreigon|Draco Meteor|p2a: Dragonair
+|-supereffective|p2a: Dragonair
+|-crit|p2a: Dragonair
+|-damage|p2a: Dragonair|0 fnt
+|faint|p2a: Dragonair
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydreigon|76/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743862903
+|switch|p2a: Serperior|Serperior, M|100/100
+|-damage|p2a: Serperior|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743862911
+|switch|p1a: Zapdos|Zapdos|37/100
+|move|p2a: Serperior|Leaf Storm|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Zapdos
+|
+|-weather|none
+|upkeep
+|
+|t:|1743862920
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|-damage|p1a: Blaziken|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1743862929
+|move|p2a: Serperior|Leaf Storm|p1a: Blaziken
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Blaziken
+|
+|upkeep
+|
+|t:|1743862936
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|12
+|
+|t:|1743862941
+|move|p1a: Kingambit|Sucker Punch|p2a: Serperior
+|-crit|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|upkeep
+|
+|t:|1743862947
+|switch|p2a: Arbok|Arbok, F|100/100
+|-damage|p2a: Arbok|88/100|[from] Stealth Rock
+|-ability|p2a: Arbok|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|turn|13
+|
+|t:|1743862953
+|move|p2a: Arbok|Earthquake|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|56/100
+|move|p1a: Kingambit|Iron Head|p2a: Arbok
+|-damage|p2a: Arbok|20/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743862970
+|move|p1a: Kingambit|Sucker Punch|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|
+|upkeep
+|
+|t:|1743862973
+|switch|p2a: Seviper|Seviper, F|100/100
+|-damage|p2a: Seviper|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743862982
+|-terastallize|p1a: Kingambit|Dark
+|move|p1a: Kingambit|Sucker Punch|p2a: Seviper
+|-damage|p2a: Seviper|6/100
+|move|p2a: Seviper|Earthquake|p1a: Kingambit
+|-damage|p1a: Kingambit|33/100
+|
+|upkeep
+|turn|16
+|-message|qwertykuiky forfeited.
+|
+|win|Boysteam14
+|raw|Boysteam14's rating: 1082 &rarr; <strong>1109</strong><br />(+27 for winning)
+|raw|qwertykuiky's rating: 1074 &rarr; <strong>1053</strong><br />(-21 for losing)
+|l|☆qwertykuiky
+|player|p2|
+|l|☆Boysteam14
+|player|p1|

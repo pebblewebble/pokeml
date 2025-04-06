@@ -1,0 +1,323 @@
+|j|☆yijing
+|j|☆ss_shedinja
+|t:|1743828568
+|gametype|singles
+|player|p1|yijing|265|1062
+|player|p2|ss_shedinja|barry|1116
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Whiscash, F|
+|poke|p1|Masquerain, F|
+|poke|p1|Medicham, M|
+|poke|p1|Cacturne, F|
+|poke|p1|Glalie, M|
+|poke|p1|Camerupt, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Skeledirge, M|
+|poke|p2|Clodsire, M|
+|poke|p2|Quagsire, M|
+|poke|p2|Iron Thorns|
+|poke|p2|Hydrapple, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yijing)
+|
+|t:|1743828576
+|start
+|switch|p1a: Masquerain|Masquerain, F|100/100
+|switch|p2a: Iron Thorns|Iron Thorns|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Iron Thorns|atk|1
+|-enditem|p2a: Iron Thorns|Booster Energy
+|-activate|p2a: Iron Thorns|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Thorns|quarkdrivespe
+|turn|1
+|
+|t:|1743828587
+|move|p2a: Iron Thorns|Dragon Dance|p2a: Iron Thorns
+|-boost|p2a: Iron Thorns|atk|1
+|-boost|p2a: Iron Thorns|spe|1
+|move|p1a: Masquerain|Sticky Web|p2a: Iron Thorns
+|-sidestart|p2: ss_shedinja|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743828597
+|switch|p1a: Whiscash|Whiscash, F|100/100
+|move|p2a: Iron Thorns|Dragon Dance|p2a: Iron Thorns
+|-boost|p2a: Iron Thorns|atk|1
+|-boost|p2a: Iron Thorns|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743828614
+|-terastallize|p2a: Iron Thorns|Grass
+|move|p2a: Iron Thorns|Ice Punch|p1a: Whiscash
+|-damage|p1a: Whiscash|62/100
+|move|p1a: Whiscash|Earth Power|p2a: Iron Thorns
+|-resisted|p2a: Iron Thorns
+|-damage|p2a: Iron Thorns|78/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743828626
+|move|p2a: Iron Thorns|Dragon Dance|p2a: Iron Thorns
+|-boost|p2a: Iron Thorns|atk|1
+|-boost|p2a: Iron Thorns|spe|1
+|move|p1a: Whiscash|Ice Beam|p2a: Iron Thorns
+|-supereffective|p2a: Iron Thorns
+|-damage|p2a: Iron Thorns|21/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743828635
+|move|p2a: Iron Thorns|Ice Punch|p1a: Whiscash
+|-damage|p1a: Whiscash|11/100
+|-status|p1a: Whiscash|frz
+|-enditem|p1a: Whiscash|Aguav Berry|[eat]
+|-heal|p1a: Whiscash|44/100 frz|[from] item: Aguav Berry
+|cant|p1a: Whiscash|frz
+|
+|upkeep
+|turn|6
+|
+|t:|1743828645
+|move|p2a: Iron Thorns|Dragon Dance|p2a: Iron Thorns
+|-boost|p2a: Iron Thorns|atk|1
+|-boost|p2a: Iron Thorns|spe|1
+|cant|p1a: Whiscash|frz
+|
+|upkeep
+|turn|7
+|
+|t:|1743828651
+|move|p2a: Iron Thorns|Ice Punch|p1a: Whiscash
+|-damage|p1a: Whiscash|0 fnt
+|faint|p1a: Whiscash
+|
+|upkeep
+|
+|t:|1743828665
+|switch|p1a: Cacturne|Cacturne, F|100/100
+|turn|8
+|
+|t:|1743828676
+|move|p1a: Cacturne|Endure|p1a: Cacturne
+|-singleturn|p1a: Cacturne|move: Endure
+|move|p2a: Iron Thorns|Ice Punch|p1a: Cacturne
+|-supereffective|p1a: Cacturne
+|-activate|p1a: Cacturne|move: Endure
+|-damage|p1a: Cacturne|1/100
+|-enditem|p1a: Cacturne|Liechi Berry|[eat]
+|-boost|p1a: Cacturne|atk|1|[from] item: Liechi Berry
+|
+|upkeep
+|turn|9
+|
+|t:|1743828685
+|move|p1a: Cacturne|Sucker Punch|p2a: Iron Thorns
+|-damage|p2a: Iron Thorns|0 fnt
+|faint|p2a: Iron Thorns
+|-end|p2a: Iron Thorns|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743828690
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|-activate|p2a: Quagsire|move: Sticky Web
+|-unboost|p2a: Quagsire|spe|1
+|turn|10
+|
+|t:|1743828696
+|move|p1a: Cacturne|Leaf Storm|p2a: Quagsire
+|-supereffective|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|-unboost|p1a: Cacturne|spa|2
+|faint|p2a: Quagsire
+|
+|upkeep
+|
+|t:|1743828701
+|switch|p2a: Hydrapple|Hydrapple, M|100/100
+|-activate|p2a: Hydrapple|move: Sticky Web
+|-unboost|p2a: Hydrapple|spe|1
+|turn|11
+|
+|t:|1743828706
+|move|p1a: Cacturne|Endure|p1a: Cacturne
+|-singleturn|p1a: Cacturne|move: Endure
+|move|p2a: Hydrapple|Fickle Beam|p1a: Cacturne
+|-activate|p1a: Cacturne|move: Endure
+|-damage|p1a: Cacturne|1/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743828714
+|move|p1a: Cacturne|Sucker Punch|p2a: Hydrapple
+|-damage|p2a: Hydrapple|59/100
+|move|p2a: Hydrapple|Fickle Beam|p1a: Cacturne
+|-damage|p1a: Cacturne|0 fnt
+|faint|p1a: Cacturne
+|
+|upkeep
+|
+|t:|1743828729
+|switch|p1a: Glalie|Glalie, M|100/100
+|turn|13
+|
+|t:|1743828736
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|move|p1a: Glalie|Icicle Crash|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|89/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743828747
+|move|p1a: Glalie|Substitute|p1a: Glalie
+|-start|p1a: Glalie|Substitute
+|-damage|p1a: Glalie|76/100
+|move|p2a: Skeledirge|Torch Song|p1a: Glalie
+|-supereffective|p1a: Glalie
+|-damage|p1a: Glalie|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Glalie
+|
+|upkeep
+|
+|t:|1743828758
+|switch|p1a: Masquerain|Masquerain, F|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Skeledirge|atk|1
+|turn|15
+|
+|t:|1743828763
+|-terastallize|p1a: Masquerain|Ghost
+|move|p1a: Masquerain|Shadow Ball|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|19/100
+|move|p2a: Skeledirge|Torch Song|p1a: Masquerain
+|-damage|p1a: Masquerain|46/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|upkeep
+|turn|16
+|
+|t:|1743828774
+|move|p1a: Masquerain|Shadow Ball|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|upkeep
+|
+|t:|1743828777
+|switch|p2a: Hydrapple|Hydrapple, M|92/100
+|-activate|p2a: Hydrapple|move: Sticky Web
+|-unboost|p2a: Hydrapple|spe|1
+|turn|17
+|inactive|yijing has 120 seconds left.
+|
+|t:|1743828809
+|move|p1a: Masquerain|Air Slash|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|42/100
+|move|p2a: Hydrapple|Fickle Beam|p1a: Masquerain
+|-damage|p1a: Masquerain|0 fnt
+|faint|p1a: Masquerain
+|
+|upkeep
+|inactive|yijing has 120 seconds left.
+|
+|t:|1743828822
+|switch|p1a: Medicham|Medicham, M, shiny|100/100
+|turn|18
+|
+|t:|1743828838
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|-activate|p2a: Clodsire|move: Sticky Web
+|-unboost|p2a: Clodsire|spe|1
+|move|p1a: Medicham|Ice Punch|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|25/100
+|
+|-heal|p2a: Clodsire|32/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|t:|1743828851
+|move|p1a: Medicham|Ice Punch|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|upkeep
+|
+|t:|1743828853
+|switch|p2a: Hatterene|Hatterene, F, shiny|100/100
+|-activate|p2a: Hatterene|move: Sticky Web
+|-unboost|p2a: Hatterene|spe|1
+|turn|20
+|
+|t:|1743828863
+|switch|p1a: Camerupt|Camerupt, F|100/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Camerupt
+|-resisted|p1a: Camerupt
+|-damage|p1a: Camerupt|78/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743828871
+|move|p1a: Camerupt|Iron Head|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|68/100
+|cant|p2a: Hatterene|flinch
+|
+|-heal|p2a: Hatterene|74/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743828879
+|move|p1a: Camerupt|Iron Head|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|23/100
+|cant|p2a: Hatterene|flinch
+|
+|-heal|p2a: Hatterene|29/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743828888
+|move|p1a: Camerupt|Iron Head|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|-message|ss_shedinja forfeited.
+|
+|win|yijing
+|raw|yijing's rating: 1062 &rarr; <strong>1097</strong><br />(+35 for winning)
+|raw|ss_shedinja's rating: 1116 &rarr; <strong>1087</strong><br />(-29 for losing)
+|l|☆ss_shedinja
+|player|p2|
+|l|☆yijing
+|player|p1|

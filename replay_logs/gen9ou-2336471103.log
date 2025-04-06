@@ -1,0 +1,255 @@
+|j|‽Ibrahizzle
+|j|‽Nate658
+|t:|1743923182
+|gametype|singles
+|player|p1|Ibrahizzle|pokekid|1198
+|player|p2|Nate658|266|1223
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Meowscarada, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Great Tusk|
+|poke|p1|Toxapex, F|
+|poke|p1|Slither Wing|
+|poke|p2|Garchomp, M|
+|poke|p2|Ceruledge, F|
+|poke|p2|Gyarados, M|
+|poke|p2|Iron Crown|
+|poke|p2|Raging Bolt|
+|poke|p2|Dragonite, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ibrahizzle)
+|
+|t:|1743923212
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Gyarados|Gyarados, M, shiny|100/100
+|turn|1
+|
+|t:|1743923224
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743923229
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Hatterene|Nuzzle|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|81/100
+|-status|p2a: Gyarados|par
+|
+|upkeep
+|turn|3
+|
+|t:|1743923245
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|cant|p2a: Gyarados|par
+|
+|upkeep
+|turn|4
+|
+|t:|1743923252
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Toxapex|Acid Spray|p2a: Gyarados
+|-damage|p2a: Gyarados|66/100 par
+|-unboost|p2a: Gyarados|spd|2
+|
+|upkeep
+|turn|5
+|
+|t:|1743923258
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Toxapex|Sludge Bomb|p2a: Gyarados
+|-damage|p2a: Gyarados|8/100 par
+|-enditem|p2a: Gyarados|Sitrus Berry|[eat]
+|-heal|p2a: Gyarados|33/100 par|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|6
+|
+|t:|1743923264
+|move|p2a: Gyarados|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|-ability|p2a: Gyarados|Moxie|boost
+|-boost|p2a: Gyarados|atk|1
+|
+|upkeep
+|
+|t:|1743923273
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|turn|7
+|
+|t:|1743923277
+|move|p1a: Meowscarada|Knock Off|p2a: Gyarados
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|t:|1743923284
+|switch|p2a: Ceruledge|Ceruledge, F, shiny|100/100
+|turn|8
+|
+|t:|1743923289
+|move|p2a: Ceruledge|Endure|p2a: Ceruledge
+|-singleturn|p2a: Ceruledge|move: Endure
+|move|p1a: Meowscarada|Knock Off|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-activate|p2a: Ceruledge|move: Endure
+|-damage|p2a: Ceruledge|1/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|-enditem|p2a: Ceruledge|Weakness Policy
+|-boost|p2a: Ceruledge|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Ceruledge|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|9
+|
+|t:|1743923306
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Hatterene
+|-damage|p1a: Hatterene|17/100
+|-heal|p2a: Ceruledge|46/100|[from] drain|[of] p1a: Hatterene
+|
+|-heal|p1a: Hatterene|23/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743923312
+|move|p2a: Ceruledge|Bitter Blade|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-heal|p2a: Ceruledge|59/100|[from] drain|[of] p1a: Hatterene
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1743923316
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|turn|11
+|
+|t:|1743923323
+|move|p2a: Ceruledge|Bitter Blade|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|-heal|p2a: Ceruledge|100/100|[from] drain|[of] p1a: Meowscarada
+|faint|p1a: Meowscarada
+|
+|upkeep
+|
+|t:|1743923337
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|12
+|
+|t:|1743923341
+|move|p2a: Ceruledge|Shadow Claw|p1a: Great Tusk
+|-damage|p1a: Great Tusk|57/100
+|-damage|p2a: Ceruledge|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|move|p1a: Great Tusk|Headlong Rush|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Ceruledge
+|
+|upkeep
+|
+|t:|1743923353
+|switch|p2a: Garchomp|Garchomp, M, shiny|100/100
+|turn|13
+|
+|t:|1743923372
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Garchomp|Dragon Claw|p1a: Thundurus
+|-damage|p1a: Thundurus|11/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743923385
+|move|p2a: Garchomp|Dragon Claw|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|t:|1743923391
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|turn|15
+|
+|t:|1743923399
+|move|p1a: Slither Wing|First Impression|p2a: Garchomp
+|-damage|p2a: Garchomp|50/100
+|-damage|p1a: Slither Wing|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|move|p2a: Garchomp|Dragon Claw|p1a: Slither Wing
+|-damage|p1a: Slither Wing|0 fnt
+|faint|p1a: Slither Wing
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743923405
+|switch|p1a: Great Tusk|Great Tusk|57/100
+|turn|16
+|
+|t:|1743923408
+|move|p2a: Garchomp|Dragon Claw|p1a: Great Tusk
+|-damage|p1a: Great Tusk|20/100
+|-damage|p2a: Garchomp|33/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|move|p1a: Great Tusk|Ice Spinner|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Great Tusk|7/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1743923413
+|switch|p2a: Dragonite|Dragonite, M, shiny|100/100
+|turn|17
+|
+|t:|1743923416
+|-terastallize|p2a: Dragonite|Normal
+|move|p2a: Dragonite|Extreme Speed|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-damage|p2a: Dragonite|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|win|Nate658
+|raw|Ibrahizzle's rating: 1198 &rarr; <strong>1175</strong><br />(-23 for losing)
+|raw|Nate658's rating: 1223 &rarr; <strong>1246</strong><br />(+23 for winning)
+|l|‽Ibrahizzle
+|player|p1|
+|l|‽Nate658
+|player|p2|

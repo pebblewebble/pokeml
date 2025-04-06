@@ -1,0 +1,367 @@
+|j|☆Alx12
+|j|☆Eucalipto69!
+|t:|1743799051
+|gametype|singles
+|player|p1|Alx12|rancher|1482
+|player|p2|Eucalipto69!|101|1486
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Primarina, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Iron Crown|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Kingambit, F|
+|poke|p2|Typhlosion-Hisui, F|
+|poke|p2|Florges, F|
+|poke|p2|Quaquaval, F|
+|poke|p2|Zapdos|
+|poke|p2|Iron Treads|
+|poke|p2|Meowscarada, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Eucalipto69!)
+|inactive|Eucalipto69! has 120 seconds left.
+|
+|t:|1743799096
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Meowscarada|atk|1
+|turn|1
+|
+|t:|1743799106
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|move|p2a: Meowscarada|Triple Axel|p1a: Samurott|[miss]
+|-start|p2a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-miss|p2a: Meowscarada|p1a: Samurott
+|
+|upkeep
+|turn|2
+|
+|t:|1743799124
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Quaquaval
+|-resisted|p2a: Quaquaval
+|-damage|p2a: Quaquaval|72/100
+|-sidestart|p2: Eucalipto69!|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1743799132
+|switch|p1a: Primarina|Primarina, M|100/100
+|move|p2a: Quaquaval|Close Combat|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|61/100
+|-unboost|p2a: Quaquaval|def|1
+|-unboost|p2a: Quaquaval|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743799145
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Primarina|Flip Turn|p2a: Zapdos
+|-damage|p2a: Zapdos|91/100
+|-damage|p1a: Primarina|44/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|-status|p1a: Primarina|par|[from] ability: Static|[of] p2a: Zapdos
+|
+|t:|1743799159
+|switch|p1a: Iron Crown|Iron Crown|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|5
+|
+|t:|1743799168
+|move|p1a: Iron Crown|Psychic Noise|p2a: Zapdos
+|-damage|p2a: Zapdos|51/100
+|-start|p2a: Zapdos|move: Heal Block
+|move|p2a: Zapdos|U-turn|p1a: Iron Crown
+|-damage|p1a: Iron Crown|87/100
+|
+|t:|1743799171
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|-damage|p2a: Iron Treads|88/100|[from] Spikes
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|
+|upkeep
+|turn|6
+|
+|t:|1743799180
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Treads|atk|1
+|move|p2a: Iron Treads|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|83/100
+|-damage|p2a: Iron Treads|72/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-enditem|p1a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p2a: Iron Treads
+|
+|upkeep
+|turn|7
+|
+|t:|1743799183
+|move|p2a: Iron Treads|Rapid Spin|p1a: Landorus
+|-damage|p1a: Landorus|74/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: Eucalipto69!|Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Landorus|Earth Power|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743799186
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|8
+|
+|t:|1743799193
+|move|p2a: Meowscarada|Flower Trick|p1a: Landorus
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|4/100
+|move|p1a: Landorus|Stealth Rock|p2a: Meowscarada
+|-sidestart|p2: Eucalipto69!|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|t:|1743799201
+|move|p2a: Meowscarada|Flower Trick|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743799206
+|switch|p1a: Iron Crown|Iron Crown|87/100
+|turn|10
+|
+|t:|1743799218
+|switch|p2a: Typhlosion|Typhlosion-Hisui, F|100/100
+|-item|p1a: Iron Crown|Assault Vest|[from] ability: Frisk|[of] p2a: Typhlosion
+|move|p1a: Iron Crown|Psychic Noise|p2a: Typhlosion
+|-damage|p2a: Typhlosion|48/100
+|-start|p2a: Typhlosion|move: Heal Block
+|
+|upkeep
+|turn|11
+|
+|t:|1743799232
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|-damage|p2a: Meowscarada|88/100|[from] Stealth Rock
+|move|p1a: Iron Crown|Psychic Noise|p2a: Meowscarada
+|-immune|p2a: Meowscarada
+|
+|upkeep
+|turn|12
+|
+|t:|1743799238
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Meowscarada|U-turn|p1a: Kingambit
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-damage|p1a: Kingambit|62/100
+|
+|t:|1743799245
+|switch|p2a: Quaquaval|Quaquaval, F|72/100|[from] U-turn
+|-damage|p2a: Quaquaval|65/100|[from] Stealth Rock
+|
+|-heal|p1a: Kingambit|69/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743799251
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Quaquaval|Aqua Step|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|76/100
+|-boost|p2a: Quaquaval|spe|1
+|
+|upkeep
+|turn|14
+|
+|t:|1743799262
+|move|p2a: Quaquaval|Ice Spinner|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|8/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Quaquaval
+|-damage|p2a: Quaquaval|15/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|upkeep
+|
+|t:|1743799269
+|switch|p2a: Florges|Florges, F|100/100
+|-damage|p2a: Florges|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743799277
+|switch|p1a: Iron Crown|Iron Crown|87/100
+|move|p2a: Florges|Wish|p2a: Florges
+|
+|-heal|p2a: Florges|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743799284
+|move|p2a: Florges|Protect|p2a: Florges
+|-singleturn|p2a: Florges|Protect
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Florges
+|-activate|p2a: Florges|move: Protect
+|
+|-heal|p2a: Florges|100/100|[from] move: Wish|[wisher] Florges
+|upkeep
+|turn|17
+|
+|t:|1743799294
+|-terastallize|p2a: Florges|Ground
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Florges
+|-damage|p2a: Florges|87/100
+|-damage|p2a: Florges|73/100
+|-hitcount|p2a: Florges|2
+|move|p2a: Florges|Tera Blast|p1a: Iron Crown|[anim] Tera Blast Ground
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|49/100
+|
+|-heal|p2a: Florges|79/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743799308
+|move|p1a: Iron Crown|Psychic Noise|p2a: Florges
+|-damage|p2a: Florges|60/100
+|-start|p2a: Florges|move: Heal Block
+|move|p2a: Florges|Moonblast|p1a: Iron Crown
+|-resisted|p1a: Iron Crown
+|-damage|p1a: Iron Crown|37/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743799323
+|switch|p2a: Typhlosion|Typhlosion-Hisui, F|48/100
+|-item|p1a: Iron Crown|Assault Vest|[from] ability: Frisk|[of] p2a: Typhlosion
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Typhlosion
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|32/100
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|15/100
+|-hitcount|p2a: Typhlosion|2
+|
+|upkeep
+|turn|20
+|
+|t:|1743799328
+|move|p1a: Iron Crown|Psychic Noise|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|
+|upkeep
+|
+|t:|1743799330
+|switch|p2a: Meowscarada|Meowscarada, F|88/100
+|-damage|p2a: Meowscarada|76/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1743799338
+|move|p2a: Meowscarada|U-turn|p1a: Iron Crown
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-damage|p1a: Iron Crown|0 fnt
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|t:|1743799344
+|switch|p2a: Florges|Florges, F, tera:Ground|60/100|[from] U-turn
+|-damage|p2a: Florges|54/100|[from] Stealth Rock
+|
+|-heal|p2a: Florges|60/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743799346
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|22
+|
+|t:|1743799354
+|move|p2a: Florges|Protect|p2a: Florges
+|-singleturn|p2a: Florges|Protect
+|move|p1a: Samurott|Razor Shell|p2a: Florges
+|-activate|p2a: Florges|move: Protect
+|
+|-heal|p2a: Florges|66/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743799360
+|switch|p2a: Zapdos|Zapdos|51/100
+|-damage|p2a: Zapdos|26/100|[from] Stealth Rock
+|move|p1a: Samurott|Razor Shell|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-damage|p1a: Samurott|84/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1743799363
+|switch|p2a: Meowscarada|Meowscarada, F|76/100
+|-damage|p2a: Meowscarada|64/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1743799371
+|switch|p1a: Primarina|Primarina, M|44/100 par
+|move|p2a: Meowscarada|U-turn|p1a: Primarina
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|14/100 par
+|
+|t:|1743799375
+|switch|p2a: Florges|Florges, F, tera:Ground|66/100|[from] U-turn
+|-damage|p2a: Florges|60/100|[from] Stealth Rock
+|
+|-heal|p2a: Florges|66/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1743799384
+|move|p2a: Florges|Wish|p2a: Florges
+|move|p1a: Primarina|Surf|p2a: Florges
+|-supereffective|p2a: Florges
+|-damage|p2a: Florges|0 fnt
+|faint|p2a: Florges
+|
+|upkeep
+|-message|Eucalipto69! forfeited.
+|
+|win|Alx12
+|raw|Alx12's rating: 1482 &rarr; <strong>1502</strong><br />(+20 for winning)
+|raw|Eucalipto69!'s rating: 1486 &rarr; <strong>1466</strong><br />(-20 for losing)
+|l|☆Eucalipto69!
+|player|p2|
+|l|☆Alx12
+|player|p1|
+|j|☆Alx12
+|player|p1|Alx12|rancher|
+|l|☆Alx12
+|player|p1|

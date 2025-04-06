@@ -1,0 +1,365 @@
+|j|☆gostemy
+|j|☆MobOfTheDead18
+|t:|1743798068
+|gametype|singles
+|player|p1|gostemy|youngster|1625
+|player|p2|MobOfTheDead18|gardenia-masters|1690
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Treads|
+|poke|p1|Gholdengo|
+|poke|p1|Enamorus, F|
+|poke|p1|Dragonite, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Walking Wake|
+|poke|p2|Pelipper, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Tyranitar, M|
+|poke|p2|Excadrill, M|
+|teampreview
+|j| orphanofkosm
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MobOfTheDead18)
+|
+|t:|1743798087
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1743798093
+|move|p1a: Iron Treads|Stealth Rock|p2a: Torkoal
+|-sidestart|p2: MobOfTheDead18|move: Stealth Rock
+|move|p2a: Torkoal|Weather Ball|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743798120
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|2
+|
+|t:|1743798125
+|-terastallize|p1a: Enamorus|Stellar
+|move|p1a: Enamorus|Earth Power|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743798131
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-damage|p2a: Walking Wake|88/100|[from] Stealth Rock
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|3
+|
+|t:|1743798138
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Walking Wake|Flamethrower|p1a: Ogerpon
+|-damage|p1a: Ogerpon|14/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743798146
+|move|p2a: Walking Wake|Flamethrower|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743798151
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|5
+|
+|t:|1743798158
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-damage|p2a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743798166
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Pelipper|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|15/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743798171
+|move|p1a: Dragonite|Extreme Speed|p2a: Pelipper
+|-damage|p2a: Pelipper|9/100
+|move|p2a: Pelipper|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743798182
+|switch|p1a: Enamorus|Enamorus, F, tera:Stellar|100/100
+|turn|8
+|
+|t:|1743798184
+|move|p1a: Enamorus|Tera Blast|p2a: Pelipper|[anim] Tera Blast Stellar
+|-damage|p2a: Pelipper|0 fnt
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|spa|1
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743798187
+|switch|p2a: Walking Wake|Walking Wake|88/100
+|-damage|p2a: Walking Wake|76/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743798192
+|-terastallize|p2a: Walking Wake|Water
+|move|p1a: Enamorus|Tera Blast|p2a: Walking Wake|[anim] Tera Blast Stellar
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|spa|1
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743798200
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|10
+|
+|t:|1743798213
+|move|p1a: Enamorus|Tera Blast|p2a: Tyranitar|[anim] Tera Blast Stellar
+|-damage|p2a: Tyranitar|67/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|spa|1
+|move|p2a: Tyranitar|Knock Off|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|65/100
+|-enditem|p1a: Enamorus|Choice Scarf|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Enamorus|59/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1743798221
+|move|p1a: Enamorus|Moonblast|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Enamorus|53/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743798225
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1743798230
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Excadrill|Iron Head|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|73/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|-damage|p2a: Excadrill|87/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743798245
+|switch|p1a: Enamorus|Enamorus, F, tera:Stellar|53/100
+|move|p2a: Excadrill|Earthquake|p1a: Enamorus
+|-immune|p1a: Enamorus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Enamorus|47/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1743798254
+|switch|p1a: Gholdengo|Gholdengo|73/100
+|move|p2a: Excadrill|Iron Head|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|45/100
+|-damage|p2a: Excadrill|78/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|t:|1743798260
+|move|p1a: Gholdengo|Shadow Ball|p2a: Excadrill
+|-damage|p2a: Excadrill|27/100
+|move|p2a: Excadrill|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|-damage|p2a: Excadrill|17/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743798267
+|switch|p1a: Enamorus|Enamorus, F, tera:Stellar|47/100
+|turn|16
+|
+|t:|1743798270
+|move|p1a: Enamorus|Earth Power|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|t:|1743798272
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743798277
+|move|p2a: Raging Bolt|Thunderclap|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-heal|p2a: Raging Bolt|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743798279
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|18
+|
+|t:|1743798284
+|move|p1a: Iron Valiant|Encore|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|Encore
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|-heal|p2a: Raging Bolt|100/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743798289
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Iron Valiant|Encore||[still]
+|-fail|p1a: Iron Valiant
+|
+|upkeep
+|turn|20
+|
+|t:|1743798297
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Iron Valiant|Encore||[still]
+|-fail|p1a: Iron Valiant
+|
+|-end|p2a: Raging Bolt|Encore
+|upkeep
+|turn|21
+|
+|t:|1743798300
+|move|p1a: Iron Valiant|Encore|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|Encore
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|upkeep
+|turn|22
+|
+|t:|1743798304
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Iron Valiant|Encore||[still]
+|-fail|p1a: Iron Valiant
+|
+|upkeep
+|turn|23
+|
+|t:|1743798314
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Iron Valiant|Encore||[still]
+|-fail|p1a: Iron Valiant
+|
+|-end|p2a: Raging Bolt|Encore
+|upkeep
+|turn|24
+|
+|t:|1743798318
+|move|p1a: Iron Valiant|Encore|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|Encore
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|-end|p2a: Raging Bolt|Encore
+|upkeep
+|turn|25
+|
+|t:|1743798322
+|move|p1a: Iron Valiant|Moonblast|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|24/100
+|move|p2a: Raging Bolt|Thunder|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|win|MobOfTheDead18
+|raw|gostemy's rating: 1625 &rarr; <strong>1609</strong><br />(-16 for losing)
+|raw|MobOfTheDead18's rating: 1690 &rarr; <strong>1706</strong><br />(+16 for winning)
+|l|☆MobOfTheDead18
+|player|p2|
+|l|☆gostemy
+|player|p1|
+|l| orphanofkosm

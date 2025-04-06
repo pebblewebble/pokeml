@@ -1,0 +1,353 @@
+|j|☆shuppetLover
+|j|☆gas224
+|t:|1743802867
+|gametype|singles
+|player|p1|shuppetLover|scientist-gen4dp|1095
+|player|p2|gas224|2|1028
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Drifblim, F|
+|poke|p1|Polteageist-Antique|
+|poke|p1|Skeledirge, M|
+|poke|p1|Golurk|
+|poke|p1|Dragapult, F|
+|poke|p1|Mimikyu, M|
+|poke|p2|Ogerpon, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Milotic, M|
+|poke|p2|Iron Moth|
+|poke|p2|Heatran, M|
+|poke|p2|Hydreigon, M|
+|teampreview
+|
+|t:|1743802881
+|start
+|switch|p1a: Bloom|Drifblim, F|100/100
+|switch|p2a: Ogerpon|Ogerpon, F|100/100
+|turn|1
+|
+|t:|1743802894
+|move|p2a: Ogerpon|Stomping Tantrum|p1a: Bloom
+|-immune|p1a: Bloom
+|move|p1a: Bloom|Curse|p2a: Ogerpon
+|-start|p2a: Ogerpon|Curse|[of] p1a: Bloom
+|-damage|p1a: Bloom|50/100
+|
+|-damage|p2a: Ogerpon|76/100|[from] Curse
+|upkeep
+|turn|2
+|
+|t:|1743802904
+|move|p2a: Ogerpon|Stomping Tantrum|p1a: Bloom
+|-immune|p1a: Bloom
+|move|p1a: Bloom|Fly||[still]
+|-prepare|p1a: Bloom|Fly
+|
+|-damage|p2a: Ogerpon|51/100|[from] Curse
+|upkeep
+|turn|3
+|
+|t:|1743802918
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Bloom|Fly|p2a: Heatran|[from] lockedmove
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|92/100
+|
+|-heal|p2a: Heatran|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743802926
+|move|p1a: Bloom|Curse|p2a: Heatran
+|-start|p2a: Heatran|Curse|[of] p1a: Bloom
+|-damage|p1a: Bloom|0 fnt
+|faint|p1a: Bloom
+|move|p2a: Heatran|Will-O-Wisp|p1: Bloom|[notarget]
+|-fail|p2a: Heatran
+|
+|-heal|p2a: Heatran|100/100|[from] item: Leftovers
+|-damage|p2a: Heatran|76/100|[from] Curse
+|upkeep
+|
+|t:|1743802940
+|switch|p1a: Polteageist|Polteageist-Antique|100/100
+|turn|5
+|
+|t:|1743802945
+|move|p2a: Heatran|Magma Storm|p1a: Polteageist
+|-damage|p1a: Polteageist|67/100
+|-activate|p1a: Polteageist|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|
+|-heal|p2a: Heatran|82/100|[from] item: Leftovers
+|-damage|p2a: Heatran|57/100|[from] Curse
+|-damage|p1a: Polteageist|55/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|t:|1743802957
+|move|p1a: Polteageist|Stored Power|p2a: Heatran
+|-resisted|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|1/100
+|move|p2a: Heatran|Will-O-Wisp|p1a: Polteageist
+|-status|p1a: Polteageist|brn
+|
+|-heal|p2a: Heatran|7/100|[from] item: Leftovers
+|-damage|p1a: Polteageist|48/100 brn|[from] brn
+|-damage|p2a: Heatran|0 fnt|[from] Curse
+|faint|p2a: Heatran
+|-end|p1a: Polteageist|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1743802969
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gas224)
+|
+|t:|1743803008
+|move|p2a: Hydreigon|Dark Pulse|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|upkeep
+|inactive|shuppetLover has 120 seconds left.
+|
+|t:|1743803051
+|switch|p1a: Fire type|Skeledirge, M|100/100
+|turn|8
+|
+|t:|1743803063
+|-terastallize|p1a: Fire type|Fire
+|move|p2a: Hydreigon|Dark Pulse|p1a: Fire type
+|-damage|p1a: Fire type|65/100
+|cant|p1a: Fire type|flinch
+|
+|upkeep
+|turn|9
+|inactive|shuppetLover has 120 seconds left.
+|
+|t:|1743803078
+|move|p2a: Hydreigon|Dark Pulse|p1a: Fire type
+|-damage|p1a: Fire type|27/100
+|-enditem|p1a: Fire type|Sitrus Berry|[eat]
+|-heal|p1a: Fire type|52/100|[from] item: Sitrus Berry
+|move|p1a: Fire type|Torch Song|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|77/100
+|-boost|p1a: Fire type|spa|1
+|
+|upkeep
+|turn|10
+|inactive|shuppetLover has 120 seconds left.
+|
+|t:|1743803109
+|move|p2a: Hydreigon|Dark Pulse|p1a: Fire type
+|-damage|p1a: Fire type|14/100
+|cant|p1a: Fire type|flinch
+|
+|upkeep
+|turn|11
+|
+|t:|1743803115
+|move|p2a: Hydreigon|Dark Pulse|p1a: Fire type
+|-crit|p1a: Fire type
+|-damage|p1a: Fire type|0 fnt
+|faint|p1a: Fire type
+|
+|upkeep
+|c|☆shuppetLover|Crap!
+|inactive|shuppetLover has 90 seconds left.
+|
+|t:|1743803147
+|switch|p1a: Pika-Powa|Mimikyu, M|100/100
+|turn|12
+|
+|t:|1743803154
+|move|p2a: Hydreigon|Dark Pulse|p1a: Pika-Powa
+|-activate|p1a: Pika-Powa|ability: Disguise
+|-damage|p1a: Pika-Powa|100/100
+|detailschange|p1a: Pika-Powa|Mimikyu-Busted, M
+|-damage|p1a: Pika-Powa|88/100|[from] pokemon: Mimikyu-Busted
+|move|p1a: Pika-Powa|Thunder|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|69/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743803170
+|move|p2a: Hydreigon|Dark Pulse|p1a: Pika-Powa
+|-damage|p1a: Pika-Powa|38/100
+|move|p1a: Pika-Powa|Thunder|p2a: Hydreigon|[miss]
+|-miss|p1a: Pika-Powa|p2a: Hydreigon
+|-enditem|p1a: Pika-Powa|Blunder Policy
+|-boost|p1a: Pika-Powa|spe|2
+|
+|upkeep
+|turn|14
+|
+|t:|1743803190
+|move|p2a: Hydreigon|Dark Pulse|p1a: Pika-Powa
+|-damage|p1a: Pika-Powa|0 fnt
+|faint|p1a: Pika-Powa
+|
+|upkeep
+|c|☆shuppetLover|...
+|c|☆shuppetLover|What.
+|inactive|shuppetLover has 90 seconds left.
+|
+|t:|1743803204
+|switch|p1a: Stalker|Golurk|100/100
+|turn|15
+|
+|t:|1743803210
+|move|p2a: Hydreigon|Dark Pulse|p1a: Stalker
+|-supereffective|p1a: Stalker
+|-damage|p1a: Stalker|2/100
+|move|p1a: Stalker|Dynamic Punch|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|t:|1743803219
+|switch|p2a: Alien|Glimmora, F|100/100
+|turn|16
+|
+|t:|1743803234
+|move|p1a: Stalker|Dynamic Punch|p2a: Alien
+|-damage|p2a: Alien|66/100
+|-start|p2a: Alien|confusion
+|-activate|p2a: Alien|confusion
+|move|p2a: Alien|Power Gem|p1a: Stalker
+|-resisted|p1a: Stalker
+|-damage|p1a: Stalker|0 fnt
+|faint|p1a: Stalker
+|
+|-heal|p2a: Alien|72/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743803237
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|17
+|
+|t:|1743803260
+|switch|p2a: Milotic|Milotic, M|100/100
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|upkeep
+|turn|18
+|inactive|shuppetLover has 120 seconds left.
+|
+|t:|1743803279
+|move|p1a: Dragapult|Dragon Darts|p2a: Milotic
+|-damage|p2a: Milotic|66/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Milotic
+|-crit|p2a: Milotic
+|-damage|p2a: Milotic|11/100
+|move|p2a: Milotic|Ice Beam|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|51/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743803290
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|move|p1a: Dragapult|Dragon Darts|p2a: Iron Moth
+|-damage|p2a: Iron Moth|56/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Iron Moth
+|-damage|p2a: Iron Moth|10/100
+|
+|upkeep
+|turn|20
+|c|☆shuppetLover|Ggs
+|
+|t:|1743803308
+|move|p1a: Dragapult|Sucker Punch|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|inactive|gas224 has 120 seconds left.
+|
+|t:|1743803336
+|switch|p2a: Alien|Glimmora, F|72/100
+|turn|21
+|
+|t:|1743803343
+|move|p1a: Dragapult|Dragon Darts|p2a: Alien
+|-damage|p2a: Alien|43/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Alien
+|-damage|p2a: Alien|14/100
+|move|p2a: Alien|Power Gem|p1a: Dragapult
+|-damage|p1a: Dragapult|16/100
+|-enditem|p1a: Dragapult|Sitrus Berry|[eat]
+|-heal|p1a: Dragapult|41/100|[from] item: Sitrus Berry
+|
+|-heal|p2a: Alien|21/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|gas224 has 120 seconds left.
+|c|☆shuppetLover|See
+|
+|t:|1743803364
+|move|p1a: Dragapult|Dragon Darts|p2a: Alien
+|-damage|p2a: Alien|0 fnt
+|faint|p2a: Alien
+|
+|upkeep
+|
+|t:|1743803369
+|switch|p2a: Ogerpon|Ogerpon, F|51/100
+|turn|23
+|
+|t:|1743803385
+|move|p1a: Dragapult|Acrobatics|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|c|☆shuppetLover|Yup
+|
+|t:|1743803389
+|switch|p2a: Milotic|Milotic, M|11/100
+|turn|24
+|c|☆shuppetLover|Full power
+|-message|gas224 forfeited.
+|
+|win|shuppetLover
+|raw|shuppetLover's rating: 1095 &rarr; <strong>1116</strong><br />(+21 for winning)
+|raw|gas224's rating: 1028 &rarr; <strong>1017</strong><br />(-11 for losing)
+|l|☆gas224
+|player|p2|
+|l|☆shuppetLover
+|player|p1|
+|j|☆shuppetLover
+|player|p1|shuppetLover|scientist-gen4dp|

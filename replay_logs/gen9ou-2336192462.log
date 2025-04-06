@@ -1,0 +1,275 @@
+|j|☆DNAseq
+|j|☆Aleph501!
+|t:|1743888304
+|gametype|singles
+|player|p1|DNAseq|scientist-gen4dp|1484
+|player|p2|Aleph501!|265|1503
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gliscor, F|
+|poke|p1|Tinkaton, F|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Tyranitar, M|
+|poke|p1|Kyurem|
+|poke|p1|Weezing-Galar, M|
+|poke|p2|Blastoise, M|
+|poke|p2|Kleavor, F|
+|poke|p2|Zapdos|
+|poke|p2|Mamoswine, F|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Skeledirge, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DNAseq)
+|
+|t:|1743888312
+|start
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|-item|p1a: Tinkaton|Air Balloon
+|turn|1
+|
+|t:|1743888328
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Tinkaton|Thunder Wave|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|upkeep
+|turn|2
+|
+|t:|1743888334
+|move|p1a: Tinkaton|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: Aleph501!|move: Stealth Rock
+|move|p2a: Zapdos|Heat Wave|p1a: Tinkaton
+|-supereffective|p1a: Tinkaton
+|-crit|p1a: Tinkaton
+|-damage|p1a: Tinkaton|36/100
+|-enditem|p1a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|3
+|
+|t:|1743888342
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|move|p2a: Zapdos|Heat Wave|p1a: Hoopa
+|-crit|p1a: Hoopa
+|-damage|p1a: Hoopa|63/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743888350
+|move|p1a: Hoopa|Destiny Bond|p1a: Hoopa
+|-singlemove|p1a: Hoopa|Destiny Bond
+|move|p2a: Zapdos|Discharge|p1a: Hoopa
+|-damage|p1a: Hoopa|34/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743888363
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blastoise|82/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1743888373
+|move|p2a: Blastoise|Rapid Spin|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|97/100
+|-boost|p2a: Blastoise|spe|1
+|-sideend|p2: Aleph501!|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Blastoise
+|move|p1a: Tyranitar|Roar|p2a: Blastoise
+|drag|p2a: Kleavor|Kleavor, F|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743888384
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2a: Kleavor|Close Combat|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743888393
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weezing|95/100|[from] Sandstorm
+|-damage|p2a: Conkeldurr|94/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1743888405
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|move|p1a: Weezing|Strange Steam|p2a: Mamoswine
+|-damage|p2a: Mamoswine|79/100
+|-start|p2a: Mamoswine|confusion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weezing|89/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1743888421
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|move|p1a: Weezing|Will-O-Wisp|p2a: Kleavor
+|-status|p2a: Kleavor|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weezing|83/100|[from] Sandstorm
+|-damage|p2a: Kleavor|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743888431
+|move|p2a: Kleavor|Stone Axe|p1a: Weezing
+|-damage|p1a: Weezing|70/100
+|-sidestart|p1: DNAseq|move: Stealth Rock
+|move|p1a: Weezing|Strange Steam|p2a: Kleavor
+|-damage|p2a: Kleavor|66/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weezing|64/100|[from] Sandstorm
+|-damage|p2a: Kleavor|60/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743888445
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Weezing|Defog|p2a: Zapdos
+|-unboost|p2a: Zapdos|evasion|1
+|-sideend|p1: DNAseq|Stealth Rock|[from] move: Defog|[of] p1a: Weezing
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1743888453
+|move|p2a: Zapdos|Discharge|p1a: Weezing
+|-damage|p1a: Weezing|18/100
+|move|p1a: Weezing|Will-O-Wisp|p2a: Zapdos
+|-status|p2a: Zapdos|brn
+|
+|-damage|p2a: Zapdos|94/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743888471
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Tyranitar|Tyranitar, M|97/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Zapdos|Discharge|p1a: Tyranitar
+|-damage|p1a: Tyranitar|84/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|88/100 brn|[from] Sandstorm
+|-damage|p2a: Zapdos|82/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743888484
+|switch|p2a: Conkeldurr|Conkeldurr, M|94/100
+|move|p1a: Tyranitar|Knock Off|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|75/100
+|-enditem|p2a: Conkeldurr|Assault Vest|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|68/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|t:|1743888494
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2a: Conkeldurr|Knock Off|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|62/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|t:|1743888503
+|switch|p1a: Tinkaton|Tinkaton, F|36/100
+|move|p2a: Conkeldurr|Mach Punch|p1a: Tinkaton
+|-damage|p1a: Tinkaton|3/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|56/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|t:|1743888512
+|move|p2a: Conkeldurr|Mach Punch|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|50/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743888514
+|switch|p1a: Hoopa|Hoopa-Unbound|34/100
+|turn|19
+|
+|t:|1743888521
+|move|p2a: Conkeldurr|Mach Punch|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|44/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743888524
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|turn|20
+|
+|t:|1743888531
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|move|p2a: Conkeldurr|Ice Punch|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Conkeldurr|38/100|[from] Sandstorm
+|upkeep
+|-message|DNAseq forfeited.
+|
+|win|Aleph501!
+|raw|DNAseq's rating: 1484 &rarr; <strong>1465</strong><br />(-19 for losing)
+|raw|Aleph501!'s rating: 1503 &rarr; <strong>1522</strong><br />(+19 for winning)
+|l|☆DNAseq
+|player|p1|
+|l|☆Aleph501!
+|player|p2|
+|j|☆Aleph501!
+|player|p2|Aleph501!|265|
+|l|☆Aleph501!
+|player|p2|

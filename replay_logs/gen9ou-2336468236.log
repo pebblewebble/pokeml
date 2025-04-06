@@ -1,0 +1,343 @@
+|j|☆kadichowl
+|j|☆fghjkghj
+|t:|1743922666
+|gametype|singles
+|player|p1|kadichowl|170|1066
+|player|p2|fghjkghj|1|1097
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Grafaiai, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Slowbro-Galar, F|
+|poke|p1|Serperior, F|
+|poke|p1|Deoxys-Speed|
+|poke|p1|Greninja-*, M|
+|poke|p2|Smeargle, M|
+|poke|p2|Serperior, F|
+|poke|p2|Lurantis, F|
+|poke|p2|Malamar, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Glimmora, M|
+|teampreview
+|
+|t:|1743922671
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Smeargle|Smeargle, M|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|
+|t:|1743922678
+|move|p1a: Deoxys|Knock Off|p2a: Smeargle
+|-damage|p2a: Smeargle|23/100
+|-enditem|p2a: Smeargle|Focus Sash|[from] move: Knock Off|[of] p1a: Deoxys
+|move|p2a: Smeargle|Sticky Web|p1a: Deoxys
+|-sidestart|p1: kadichowl|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743922684
+|move|p1a: Deoxys|Knock Off|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|
+|upkeep
+|
+|t:|1743922687
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|3
+|
+|t:|1743922703
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-fail|p2a: Cinderace
+|move|p1a: Deoxys|Reflect|p1a: Deoxys
+|-sidestart|p1: kadichowl|Reflect
+|
+|upkeep
+|turn|4
+|
+|t:|1743922708
+|move|p1a: Deoxys|Skill Swap|p2a: Cinderace
+|-activate|p1a: Deoxys|move: Skill Swap|Libero|Pressure|[of] p2a: Cinderace
+|-ability|p2a: Cinderace|Pressure
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|5
+|
+|t:|1743922719
+|move|p1a: Deoxys|Light Screen|p1a: Deoxys
+|-sidestart|p1: kadichowl|move: Light Screen
+|move|p2a: Cinderace|U-turn|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|32/100
+|
+|t:|1743922724
+|switch|p2a: Glimmora|Glimmora, M, shiny|100/100|[from] U-turn
+|
+|upkeep
+|turn|6
+|
+|t:|1743922730
+|switch|p1a: Greninja|Greninja, M|100/100
+|move|p2a: Glimmora|Sludge Bomb|p1a: Greninja
+|-damage|p1a: Greninja|62/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743922740
+|move|p1a: Greninja|Surf|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|-ability|p1a: Greninja|Battle Bond|boost
+|-boost|p1a: Greninja|atk|1
+|-boost|p1a: Greninja|spa|1
+|-boost|p1a: Greninja|spe|1
+|-activate|p1a: Greninja|ability: Battle Bond
+|-damage|p1a: Greninja|52/100|[from] item: Life Orb
+|
+|-sideend|p2: fghjkghj|Reflect
+|upkeep
+|
+|t:|1743922750
+|switch|p2a: Serperior|Serperior, F, shiny|100/100
+|-activate|p2a: Serperior|move: Sticky Web
+|-boost|p2a: Serperior|spe|1
+|turn|8
+|
+|t:|1743922754
+|move|p2a: Serperior|Leaf Storm|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Greninja
+|
+|upkeep
+|
+|t:|1743922763
+|switch|p1a: Slowbro|Slowbro-Galar, F|100/100
+|turn|9
+|
+|t:|1743922768
+|move|p2a: Serperior|Leaf Storm|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|77/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Slowbro|Shell Side Arm|p2a: Serperior|[anim] Shell Side Arm Physical
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|8/100
+|-hint|Physical Shell Side Arm
+|
+|-heal|p1a: Slowbro|83/100|[from] item: Black Sludge
+|-sideend|p1: kadichowl|move: Light Screen
+|upkeep
+|turn|10
+|
+|t:|1743922778
+|move|p2a: Serperior|Dragon Pulse|p1a: Slowbro
+|-damage|p1a: Slowbro|16/100
+|move|p1a: Slowbro|Shell Side Arm|p2a: Serperior|[anim] Shell Side Arm Physical
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|-hint|Physical Shell Side Arm
+|faint|p2a: Serperior
+|
+|-heal|p1a: Slowbro|23/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1743922786
+|switch|p2a: Malamar|Malamar, F, shiny|100/100
+|-activate|p2a: Malamar|move: Sticky Web
+|-boost|p2a: Malamar|spe|1
+|turn|11
+|
+|t:|1743922790
+|-terastallize|p2a: Malamar|Stellar
+|move|p2a: Malamar|Tera Blast|p1a: Slowbro|[anim] Tera Blast Stellar
+|-damage|p1a: Slowbro|0 fnt
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|spa|1
+|faint|p1a: Slowbro
+|
+|upkeep
+|
+|t:|1743922797
+|switch|p1a: Deoxys|Deoxys-Speed|32/100
+|-ability|p1a: Deoxys|Pressure
+|turn|12
+|
+|t:|1743922802
+|move|p1a: Deoxys|Skill Swap|p2a: Malamar
+|-activate|p1a: Deoxys|move: Skill Swap|Contrary|Pressure|[of] p2a: Malamar
+|-ability|p2a: Malamar|Pressure
+|move|p2a: Malamar|Tera Blast|p1a: Deoxys|[anim] Tera Blast Stellar
+|-damage|p1a: Deoxys|0 fnt
+|-unboost|p2a: Malamar|atk|1
+|-unboost|p2a: Malamar|spa|1
+|faint|p1a: Deoxys
+|
+|upkeep
+|
+|t:|1743922815
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|turn|13
+|
+|t:|1743922820
+|move|p2a: Malamar|Tera Blast|p1a: Mandibuzz|[anim] Tera Blast Stellar
+|-damage|p1a: Mandibuzz|81/100
+|-unboost|p2a: Malamar|atk|1
+|-unboost|p2a: Malamar|spa|1
+|move|p1a: Mandibuzz|Toxic|p2a: Malamar
+|-status|p2a: Malamar|tox
+|
+|-damage|p2a: Malamar|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743922830
+|move|p2a: Malamar|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|51/100
+|-enditem|p1a: Mandibuzz|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Malamar
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p2a: Malamar|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Malamar|88/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743922841
+|move|p2a: Malamar|Superpower|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|80/100
+|-unboost|p2a: Malamar|atk|1
+|-unboost|p2a: Malamar|def|1
+|move|p1a: Mandibuzz|Brave Bird|p2a: Malamar
+|-damage|p2a: Malamar|36/100 tox
+|-damage|p1a: Mandibuzz|67/100|[from] Recoil
+|
+|-heal|p2a: Malamar|42/100 tox|[from] item: Leftovers
+|-damage|p2a: Malamar|24/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743922852
+|move|p2a: Malamar|Superpower|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|55/100
+|-unboost|p2a: Malamar|atk|1
+|-unboost|p2a: Malamar|def|1
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-heal|p2a: Malamar|30/100 tox|[from] item: Leftovers
+|-damage|p2a: Malamar|5/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1743922864
+|switch|p1a: Grafaiai|Grafaiai, F|100/100
+|move|p2a: Malamar|Superpower|p1a: Grafaiai
+|-damage|p1a: Grafaiai|82/100
+|-unboost|p2a: Malamar|atk|1
+|-unboost|p2a: Malamar|def|1
+|
+|-heal|p2a: Malamar|11/100 tox|[from] item: Leftovers
+|-damage|p2a: Malamar|0 fnt|[from] psn
+|faint|p2a: Malamar
+|upkeep
+|
+|t:|1743922870
+|switch|p2a: Lurantis|Lurantis, F|100/100
+|-activate|p2a: Lurantis|move: Sticky Web
+|-boost|p2a: Lurantis|spe|1
+|-enditem|p1a: Grafaiai|Mirror Herb
+|-boost|p1a: Grafaiai|spe|1|[from] item: Mirror Herb
+|turn|18
+|
+|t:|1743922882
+|move|p1a: Grafaiai|Acrobatics|p2a: Lurantis
+|-supereffective|p2a: Lurantis
+|-damage|p2a: Lurantis|17/100
+|move|p2a: Lurantis|Superpower|p1a: Grafaiai
+|-damage|p1a: Grafaiai|37/100
+|-boost|p2a: Lurantis|atk|1
+|-boost|p2a: Lurantis|def|1
+|
+|upkeep
+|turn|19
+|
+|t:|1743922890
+|move|p1a: Grafaiai|Acrobatics|p2a: Lurantis
+|-supereffective|p2a: Lurantis
+|-damage|p2a: Lurantis|0 fnt
+|faint|p2a: Lurantis
+|
+|upkeep
+|
+|t:|1743922892
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|20
+|
+|t:|1743922897
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-fail|p2a: Cinderace
+|move|p1a: Grafaiai|Swagger|p2a: Cinderace
+|-boost|p2a: Cinderace|atk|2
+|-start|p2a: Cinderace|confusion
+|
+|upkeep
+|turn|21
+|
+|t:|1743922905
+|move|p1a: Grafaiai|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|61/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Grafaiai
+|-activate|p2a: Cinderace|confusion
+|move|p2a: Cinderace|U-turn|p1a: Grafaiai
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Grafaiai
+|-damage|p1a: Grafaiai|0 fnt
+|faint|p1a: Grafaiai
+|
+|upkeep
+|
+|t:|1743922916
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|turn|22
+|
+|t:|1743922925
+|-activate|p2a: Cinderace|confusion
+|-damage|p2a: Cinderace|25/100|[from] confusion
+|move|p1a: Mandibuzz|Brave Bird|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|-damage|p1a: Mandibuzz|95/100|[from] Recoil
+|
+|win|kadichowl
+|raw|kadichowl's rating: 1066 &rarr; <strong>1099</strong><br />(+33 for winning)
+|raw|fghjkghj's rating: 1097 &rarr; <strong>1070</strong><br />(-27 for losing)
+|c|☆kadichowl|gg
+|l|☆fghjkghj
+|player|p2|
+|l|☆kadichowl
+|player|p1|

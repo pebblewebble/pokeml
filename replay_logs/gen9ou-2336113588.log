@@ -1,0 +1,886 @@
+|j|☆Team BBIO
+|j|☆Monotyrant
+|t:|1743880176
+|gametype|singles
+|player|p1|Team BBIO|birdkeeper-gen4dp|1145
+|player|p2|Monotyrant|170|1124
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ribombee, F|
+|poke|p1|Clefable, F|
+|poke|p1|Sylveon, M|
+|poke|p1|Tinkaton, F|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Whimsicott, M|
+|poke|p2|Pincurchin, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Iron Jugulis|
+|poke|p2|Iron Treads|
+|poke|p2|Klefki, M|
+|poke|p2|Luxray, F|
+|teampreview
+|
+|t:|1743880198
+|start
+|switch|p1a: Whimsicott|Whimsicott, M, shiny|100/100
+|switch|p2a: Klefki|Klefki, M, shiny|100/100
+|turn|1
+|
+|t:|1743880207
+|move|p1a: Whimsicott|Leech Seed|p2a: Klefki
+|-start|p2a: Klefki|move: Leech Seed
+|move|p2a: Klefki|Thunder Wave|p1a: Whimsicott
+|-status|p1a: Whimsicott|par
+|
+|-damage|p2a: Klefki|88/100|[from] Leech Seed|[of] p1a: Whimsicott
+|upkeep
+|turn|2
+|
+|t:|1743880219
+|switch|p2a: Luxray|Luxray, F, shiny|100/100
+|cant|p1a: Whimsicott|par
+|
+|-status|p2a: Luxray|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1743880225
+|move|p1a: Whimsicott|Leech Seed|p2a: Luxray
+|-start|p2a: Luxray|move: Leech Seed
+|move|p2a: Luxray|Trailblaze|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|88/100 par
+|-boost|p2a: Luxray|spe|1
+|
+|-heal|p1a: Whimsicott|95/100 par|[from] item: Leftovers
+|-damage|p2a: Luxray|88/100 brn|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|100/100 par|[silent]
+|-damage|p2a: Luxray|82/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743880235
+|move|p1a: Whimsicott|Substitute|p1a: Whimsicott
+|-start|p1a: Whimsicott|Substitute
+|-damage|p1a: Whimsicott|76/100 par
+|move|p2a: Luxray|Facade|p1a: Whimsicott
+|-end|p1a: Whimsicott|Substitute
+|
+|-heal|p1a: Whimsicott|82/100 par|[from] item: Leftovers
+|-damage|p2a: Luxray|70/100 brn|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|93/100 par|[silent]
+|-damage|p2a: Luxray|64/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743880245
+|switch|p2a: Pelipper|Pelipper, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Whimsicott|Substitute|p1a: Whimsicott
+|-start|p1a: Whimsicott|Substitute
+|-damage|p1a: Whimsicott|68/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Whimsicott|75/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743880255
+|switch|p2a: Pincurchin|Pincurchin, M, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Whimsicott|Protect||[still]
+|-fail|p1a: Whimsicott
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Whimsicott|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743880268
+|switch|p2a: Iron Jugulis|Iron Jugulis, shiny|100/100
+|-activate|p2a: Iron Jugulis|ability: Quark Drive
+|-start|p2a: Iron Jugulis|quarkdrivespe
+|cant|p1a: Whimsicott|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Whimsicott|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Team BBIO)
+|
+|t:|1743880284
+|move|p2a: Iron Jugulis|U-turn|p1a: Whimsicott
+|-activate|p1a: Whimsicott|move: Substitute|[damage]
+|
+|t:|1743880287
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|switch|p2a: Iron Treads|Iron Treads, shiny|100/100|[from] U-turn
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdriveatk
+|cant|p1a: Whimsicott|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Whimsicott|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743880295
+|move|p1a: Whimsicott|Leech Seed|p2a: Iron Treads
+|-start|p2a: Iron Treads|move: Leech Seed
+|move|p2a: Iron Treads|Rapid Spin|p1a: Whimsicott
+|-end|p1a: Whimsicott|Substitute
+|-end|p2a: Iron Treads|Leech Seed|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|-boost|p2a: Iron Treads|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Whimsicott|99/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743880304
+|move|p1a: Whimsicott|Substitute|p1a: Whimsicott
+|-start|p1a: Whimsicott|Substitute
+|-damage|p1a: Whimsicott|75/100 par
+|move|p2a: Iron Treads|Ice Spinner|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-crit|p1a: Whimsicott
+|-end|p1a: Whimsicott|Substitute
+|-fieldend|move: Electric Terrain
+|-end|p2a: Iron Treads|Quark Drive
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Whimsicott|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743880318
+|switch|p1a: Ninetales|Ninetales-Alola, F, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Iron Treads|Rapid Spin|p1a: Ninetales
+|-damage|p1a: Ninetales|83/100
+|-boost|p2a: Iron Treads|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743880333
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Iron Treads|Knock Off|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|88/100
+|-enditem|p1a: Clefable|Leftovers|[from] move: Knock Off|[of] p2a: Iron Treads
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743880345
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Klefki|Klefki, M, shiny|88/100
+|move|p1a: Clefable|Cosmic Power|p1a: Clefable
+|-boost|p1a: Clefable|def|1
+|-boost|p1a: Clefable|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743880352
+|switch|p1a: Whimsicott|Whimsicott, M, shiny|81/100 par
+|move|p2a: Klefki|Light Screen|p2a: Klefki
+|-sidestart|p2: Monotyrant|move: Light Screen
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Whimsicott|87/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743880367
+|switch|p2a: Pincurchin|Pincurchin, M, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|cant|p1a: Whimsicott|par
+|
+|-weather|none
+|-heal|p1a: Whimsicott|93/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743880374
+|switch|p2a: Iron Treads|Iron Treads, shiny|100/100
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdriveatk
+|move|p1a: Whimsicott|Leech Seed|p2a: Iron Treads
+|-start|p2a: Iron Treads|move: Leech Seed
+|
+|-heal|p1a: Whimsicott|99/100 par|[from] item: Leftovers
+|-damage|p2a: Iron Treads|88/100|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|100/100 par|[silent]
+|upkeep
+|turn|17
+|
+|t:|1743880383
+|move|p1a: Whimsicott|Protect|p1a: Whimsicott
+|-singleturn|p1a: Whimsicott|Protect
+|move|p2a: Iron Treads|Rapid Spin|p1a: Whimsicott
+|-activate|p1a: Whimsicott|move: Protect
+|
+|-heal|p2a: Iron Treads|94/100|[from] item: Leftovers
+|-damage|p2a: Iron Treads|82/100|[from] Leech Seed|[of] p1a: Whimsicott
+|upkeep
+|turn|18
+|
+|t:|1743880397
+|move|p1a: Whimsicott|Substitute|p1a: Whimsicott
+|-start|p1a: Whimsicott|Substitute
+|-damage|p1a: Whimsicott|76/100 par
+|move|p2a: Iron Treads|Rapid Spin|p1a: Whimsicott
+|-end|p1a: Whimsicott|Substitute
+|-end|p2a: Iron Treads|Leech Seed|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|-boost|p2a: Iron Treads|spe|1
+|
+|-heal|p2a: Iron Treads|88/100|[from] item: Leftovers
+|-heal|p1a: Whimsicott|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743880413
+|switch|p1a: Ninetales|Ninetales-Alola, F, shiny|83/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Iron Treads|Rapid Spin|p1a: Ninetales
+|-damage|p1a: Ninetales|60/100
+|-boost|p2a: Iron Treads|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Iron Treads|94/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743880424
+|move|p2a: Iron Treads|Earthquake|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Iron Treads|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743880432
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-item|p1a: Tinkaton|Air Balloon
+|turn|21
+|
+|t:|1743880442
+|move|p2a: Iron Treads|Knock Off|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|73/100
+|-enditem|p1a: Tinkaton|Air Balloon
+|-enditem|p2a: Iron Treads|Leftovers|[silent]|[from] ability: Pickpocket|[of] p2a: Iron Treads
+|-item|p1a: Tinkaton|Leftovers|[from] ability: Pickpocket|[of] p2a: Iron Treads
+|move|p1a: Tinkaton|Thunder Wave|p2a: Iron Treads
+|-immune|p2a: Iron Treads
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Tinkaton|79/100|[from] item: Leftovers
+|-sideend|p2: Monotyrant|move: Light Screen
+|upkeep
+|turn|22
+|
+|t:|1743880458
+|move|p2a: Iron Treads|Earthquake|p1a: Tinkaton
+|-supereffective|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Electric Terrain
+|-end|p2a: Iron Treads|Quark Drive
+|upkeep
+|
+|t:|1743880465
+|switch|p1a: Clefable|Clefable, F|88/100
+|turn|23
+|
+|t:|1743880469
+|move|p2a: Iron Treads|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|48/100
+|move|p1a: Clefable|Cosmic Power|p1a: Clefable
+|-boost|p1a: Clefable|def|1
+|-boost|p1a: Clefable|spd|1
+|
+|-weather|none
+|upkeep
+|turn|24
+|
+|t:|1743880476
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Luxray|Luxray, F, shiny|64/100 brn
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|98/100
+|
+|-damage|p2a: Luxray|58/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1743880482
+|-terastallize|p2a: Luxray|Normal
+|move|p2a: Luxray|Facade|p1a: Clefable
+|-damage|p1a: Clefable|47/100
+|move|p1a: Clefable|Cosmic Power|p1a: Clefable
+|-boost|p1a: Clefable|def|1
+|-boost|p1a: Clefable|spd|1
+|
+|-damage|p2a: Luxray|52/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1743880491
+|move|p2a: Luxray|Facade|p1a: Clefable
+|-damage|p1a: Clefable|6/100
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|56/100
+|
+|-damage|p2a: Luxray|46/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1743880498
+|move|p2a: Luxray|Facade|p1a: Clefable
+|-damage|p1a: Clefable|14/100
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|64/100
+|
+|-damage|p2a: Luxray|40/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1743880504
+|move|p2a: Luxray|Facade|p1a: Clefable
+|-damage|p1a: Clefable|27/100
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|77/100
+|
+|-damage|p2a: Luxray|34/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1743880511
+|switch|p2a: Pelipper|Pelipper, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Clefable|Cosmic Power|p1a: Clefable
+|-boost|p1a: Clefable|def|1
+|-boost|p1a: Clefable|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|30
+|
+|t:|1743880518
+|switch|p2a: Klefki|Klefki, M, shiny|88/100
+|move|p1a: Clefable|Cosmic Power|p1a: Clefable
+|-boost|p1a: Clefable|def|1
+|-boost|p1a: Clefable|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|31
+|
+|t:|1743880524
+|move|p2a: Klefki|Light Screen|p2a: Klefki
+|-sidestart|p2: Monotyrant|move: Light Screen
+|move|p1a: Clefable|Cosmic Power|p1a: Clefable
+|-boost|p1a: Clefable|def|1
+|-boost|p1a: Clefable|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|32
+|
+|t:|1743880529
+|move|p2a: Klefki|Thunder Wave|p1a: Clefable
+|-status|p1a: Clefable|par
+|cant|p1a: Clefable|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|33
+|
+|t:|1743880537
+|switch|p2a: Pincurchin|Pincurchin, M, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Clefable|Cosmic Power|p1a: Clefable
+|-boost|p1a: Clefable|def|1
+|-boost|p1a: Clefable|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|34
+|
+|t:|1743880545
+|switch|p2a: Iron Treads|Iron Treads, shiny|100/100
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdriveatk
+|move|p1a: Clefable|Stored Power|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|83/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|35
+|
+|t:|1743880554
+|move|p2a: Iron Treads|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|65/100 par
+|move|p1a: Clefable|Stored Power|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|66/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|36
+|
+|t:|1743880562
+|move|p2a: Iron Treads|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|52/100 par
+|move|p1a: Clefable|Draining Kiss|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|61/100
+|-heal|p1a: Clefable|56/100 par|[from] drain|[of] p2a: Iron Treads
+|
+|-weather|none
+|upkeep
+|turn|37
+|
+|t:|1743880571
+|move|p2a: Iron Treads|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|43/100 par
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|93/100 par
+|
+|upkeep
+|turn|38
+|
+|t:|1743880579
+|move|p2a: Iron Treads|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|81/100 par
+|move|p1a: Clefable|Stored Power|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|44/100
+|
+|-sideend|p2: Monotyrant|move: Light Screen
+|upkeep
+|turn|39
+|
+|t:|1743880593
+|move|p2a: Iron Treads|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|67/100 par
+|cant|p1a: Clefable|par
+|
+|upkeep
+|turn|40
+|
+|t:|1743880597
+|move|p2a: Iron Treads|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|54/100 par
+|move|p1a: Clefable|Stored Power|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|8/100
+|
+|-fieldend|move: Electric Terrain
+|-end|p2a: Iron Treads|Quark Drive
+|upkeep
+|turn|41
+|
+|t:|1743880616
+|move|p2a: Iron Treads|Earthquake|p1a: Clefable
+|-damage|p1a: Clefable|43/100 par
+|move|p1a: Clefable|Draining Kiss|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-heal|p1a: Clefable|49/100 par|[from] drain|[of] p2a: Iron Treads
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743880623
+|switch|p2a: Luxray|Luxray, F, shiny, tera:Normal|34/100 brn
+|turn|42
+|
+|t:|1743880626
+|move|p2a: Luxray|Facade|p1a: Clefable
+|-damage|p1a: Clefable|27/100 par
+|cant|p1a: Clefable|par
+|
+|-damage|p2a: Luxray|28/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|t:|1743880634
+|-terastallize|p1a: Clefable|Steel
+|move|p2a: Luxray|Facade|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|18/100 par
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|68/100 par
+|
+|-damage|p2a: Luxray|22/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|t:|1743880652
+|switch|p2a: Klefki|Klefki, M, shiny|88/100
+|move|p1a: Clefable|Draining Kiss|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|80/100
+|-heal|p1a: Clefable|73/100 par|[from] drain|[of] p2a: Klefki
+|
+|upkeep
+|turn|45
+|
+|t:|1743880658
+|move|p2a: Klefki|Light Screen|p2a: Klefki
+|-sidestart|p2: Monotyrant|move: Light Screen
+|move|p1a: Clefable|Stored Power|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|65/100
+|
+|upkeep
+|turn|46
+|
+|t:|1743880670
+|switch|p2a: Pincurchin|Pincurchin, M, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Clefable|Draining Kiss|p2a: Pincurchin
+|-damage|p2a: Pincurchin|92/100
+|-heal|p1a: Clefable|78/100 par|[from] drain|[of] p2a: Pincurchin
+|
+|upkeep
+|turn|47
+|
+|t:|1743880680
+|switch|p2a: Pelipper|Pelipper, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Clefable|Draining Kiss|p2a: Pelipper
+|-damage|p2a: Pelipper|85/100
+|-heal|p1a: Clefable|86/100 par|[from] drain|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|48
+|
+|t:|1743880690
+|switch|p2a: Luxray|Luxray, F, shiny, tera:Normal|22/100 brn
+|move|p1a: Clefable|Draining Kiss|p2a: Luxray
+|-damage|p2a: Luxray|11/100 brn
+|-heal|p1a: Clefable|92/100 par|[from] drain|[of] p2a: Luxray
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Luxray|5/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|t:|1743880698
+|move|p2a: Luxray|Supercell Slam|p1a: Clefable
+|-damage|p1a: Clefable|75/100 par
+|move|p1a: Clefable|Draining Kiss|p2a: Luxray
+|-damage|p2a: Luxray|0 fnt
+|-heal|p1a: Clefable|78/100 par|[from] drain|[of] p2a: Luxray
+|faint|p2a: Luxray
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743880705
+|switch|p2a: Iron Jugulis|Iron Jugulis, shiny|100/100
+|-activate|p2a: Iron Jugulis|ability: Quark Drive
+|-start|p2a: Iron Jugulis|quarkdrivespe
+|turn|50
+|
+|t:|1743880709
+|move|p2a: Iron Jugulis|Earth Power|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|56/100 par
+|move|p1a: Clefable|Draining Kiss|p2a: Iron Jugulis
+|-supereffective|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|80/100
+|-heal|p1a: Clefable|68/100 par|[from] drain|[of] p2a: Iron Jugulis
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|51
+|
+|t:|1743880717
+|move|p2a: Iron Jugulis|Earth Power|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|48/100 par
+|-unboost|p1a: Clefable|spd|1
+|move|p1a: Clefable|Draining Kiss|p2a: Iron Jugulis
+|-supereffective|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|60/100
+|-heal|p1a: Clefable|61/100 par|[from] drain|[of] p2a: Iron Jugulis
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|52
+|
+|t:|1743880730
+|move|p2a: Iron Jugulis|Earth Power|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|36/100 par
+|move|p1a: Clefable|Cosmic Power|p1a: Clefable
+|-boost|p1a: Clefable|def|0
+|-boost|p1a: Clefable|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: Monotyrant|move: Light Screen
+|upkeep
+|turn|53
+|
+|t:|1743880738
+|move|p2a: Iron Jugulis|Earth Power|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|15/100 par
+|cant|p1a: Clefable|par
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|-end|p2a: Iron Jugulis|Quark Drive
+|upkeep
+|turn|54
+|
+|t:|1743880744
+|move|p2a: Iron Jugulis|Earth Power|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-weather|none
+|upkeep
+|
+|t:|1743880749
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|turn|55
+|
+|t:|1743880755
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|switch|p2a: Klefki|Klefki, M, shiny|65/100
+|move|p1a: Sylveon|Hyper Voice|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|38/100
+|
+|upkeep
+|turn|56
+|
+|t:|1743880763
+|switch|p1a: Whimsicott|Whimsicott, M, shiny|82/100 par
+|move|p2a: Klefki|Light Screen|p2a: Klefki
+|-sidestart|p2: Monotyrant|move: Light Screen
+|
+|-heal|p1a: Whimsicott|88/100 par|[from] item: Leftovers
+|upkeep
+|turn|57
+|
+|t:|1743880768
+|switch|p2a: Pelipper|Pelipper, M, shiny|85/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Whimsicott|Leech Seed|p2a: Pelipper
+|-start|p2a: Pelipper|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Whimsicott|94/100 par|[from] item: Leftovers
+|-damage|p2a: Pelipper|73/100|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|100/100 par|[silent]
+|upkeep
+|turn|58
+|
+|t:|1743880781
+|switch|p2a: Iron Jugulis|Iron Jugulis, shiny|60/100
+|move|p1a: Whimsicott|Moonblast|p2a: Iron Jugulis
+|-supereffective|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|26/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|59
+|
+|t:|1743880788
+|cant|p1a: Whimsicott|par
+|move|p2a: Iron Jugulis|Hurricane|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743880796
+|switch|p1a: Sylveon|Sylveon, M|100/100
+|turn|60
+|
+|t:|1743880801
+|move|p2a: Iron Jugulis|Hurricane|p1a: Sylveon
+|-damage|p1a: Sylveon|61/100
+|-start|p1a: Sylveon|confusion
+|-activate|p1a: Sylveon|confusion
+|move|p1a: Sylveon|Hyper Voice|p2a: Iron Jugulis
+|-supereffective|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|0 fnt
+|faint|p2a: Iron Jugulis
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743880809
+|switch|p2a: Pincurchin|Pincurchin, M, shiny|92/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|61
+|
+|t:|1743880815
+|-activate|p1a: Sylveon|confusion
+|move|p1a: Sylveon|Hyper Voice|p2a: Pincurchin
+|-damage|p2a: Pincurchin|62/100
+|move|p2a: Pincurchin|Discharge|p1a: Sylveon
+|-damage|p1a: Sylveon|45/100
+|-status|p1a: Sylveon|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|62
+|
+|t:|1743880823
+|-end|p1a: Sylveon|confusion
+|move|p1a: Sylveon|Hyper Voice|p2a: Pincurchin
+|-damage|p2a: Pincurchin|34/100
+|move|p2a: Pincurchin|Recover|p2a: Pincurchin
+|-heal|p2a: Pincurchin|84/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|63
+|
+|t:|1743880832
+|move|p1a: Sylveon|Psyshock|p2a: Pincurchin
+|-damage|p2a: Pincurchin|69/100
+|move|p2a: Pincurchin|Discharge|p1a: Sylveon
+|-damage|p1a: Sylveon|27/100 par
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: Monotyrant|move: Light Screen
+|upkeep
+|turn|64
+|
+|t:|1743880840
+|move|p1a: Sylveon|Hyper Beam|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|-mustrecharge|p1a: Sylveon
+|faint|p2a: Pincurchin
+|
+|-weather|none
+|upkeep
+|
+|t:|1743880847
+|switch|p2a: Pelipper|Pelipper, M, shiny|73/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|65
+|
+|t:|1743880850
+|move|p2a: Pelipper|Weather Ball|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|faint|p1a: Sylveon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743880855
+|switch|p1a: Ribombee|Ribombee, F, shiny|100/100
+|turn|66
+|
+|t:|1743880862
+|switch|p2a: Klefki|Klefki, M, shiny|38/100
+|move|p1a: Ribombee|Moonblast|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|16/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|67
+|
+|t:|1743880868
+|move|p2a: Klefki|Light Screen|p2a: Klefki
+|-sidestart|p2: Monotyrant|move: Light Screen
+|move|p1a: Ribombee|Moonblast|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|5/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|68
+|
+|t:|1743880873
+|move|p2a: Klefki|Thunder Wave|p1a: Ribombee|[miss]
+|-miss|p2a: Klefki|p1a: Ribombee
+|move|p1a: Ribombee|Moonblast|p2a: Klefki
+|-resisted|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1743880876
+|switch|p2a: Pelipper|Pelipper, M, shiny|73/100
+|turn|69
+|
+|t:|1743880883
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|100/100
+|-singleturn|p2a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|70
+|
+|t:|1743880890
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|move|p2a: Pelipper|Weather Ball|p1a: Ribombee
+|-damage|p1a: Ribombee|45/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|71
+|
+|t:|1743880899
+|move|p1a: Ribombee|Moonblast|p2a: Pelipper
+|-damage|p2a: Pelipper|30/100
+|move|p2a: Pelipper|Weather Ball|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|win|Monotyrant
+|raw|Team BBIO's rating: 1145 &rarr; <strong>1118</strong><br />(-27 for losing)
+|raw|Monotyrant's rating: 1124 &rarr; <strong>1151</strong><br />(+27 for winning)
+|l|☆Team BBIO
+|player|p1|
+|l|☆Monotyrant
+|player|p2|

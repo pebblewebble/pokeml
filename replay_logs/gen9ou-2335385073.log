@@ -1,0 +1,293 @@
+|j|☆andrewtb491
+|j|☆Eliano030
+|t:|1743789733
+|gametype|singles
+|player|p1|andrewtb491|2|1478
+|player|p2|Eliano030|102|1495
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Greninja-*, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Dragapult, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Greninja-*, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Bronzong|
+|poke|p2|Donphan, L1, M|
+|teampreview
+|
+|t:|1743789743
+|start
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|switch|p2a: Meow Meow|Meowscarada, M|100/100
+|turn|1
+|
+|t:|1743789751
+|move|p2a: Meow Meow|U-turn|p1a: Conkeldurr
+|-start|p2a: Meow Meow|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|86/100
+|
+|t:|1743789756
+|switch|p2a: Saltilter|Garganacl, M|100/100|[from] U-turn
+|move|p1a: Conkeldurr|Knock Off|p2a: Saltilter
+|-damage|p2a: Saltilter|81/100
+|-enditem|p2a: Saltilter|Leftovers|[from] move: Knock Off|[of] p1a: Conkeldurr
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Eliano030)
+|
+|t:|1743789768
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Saltilter|atk|1
+|move|p2a: Saltilter|Protect||[still]
+|-fail|p2a: Saltilter
+|
+|upkeep
+|turn|3
+|
+|t:|1743789776
+|move|p1a: Landorus|Stealth Rock|p2a: Saltilter
+|-sidestart|p2: Eliano030|move: Stealth Rock
+|move|p2a: Saltilter|Salt Cure|p1a: Landorus
+|-damage|p1a: Landorus|90/100
+|-start|p1a: Landorus|Salt Cure
+|
+|-damage|p1a: Landorus|78/100|[from] Salt Cure
+|upkeep
+|turn|4
+|
+|t:|1743789785
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Saltilter|Salt Cure|p1a: Dragapult
+|-damage|p1a: Dragapult|88/100
+|-start|p1a: Dragapult|Salt Cure
+|
+|-damage|p1a: Dragapult|76/100|[from] Salt Cure
+|upkeep
+|turn|5
+|
+|t:|1743789796
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Saltilter|Salt Cure|p1a: Slowking
+|-damage|p1a: Slowking|91/100
+|-start|p1a: Slowking|Salt Cure
+|
+|-heal|p1a: Slowking|97/100|[from] item: Leftovers
+|-damage|p1a: Slowking|84/100|[from] Salt Cure
+|upkeep
+|turn|6
+|
+|t:|1743789806
+|move|p2a: Saltilter|Salt Cure|p1a: Slowking
+|-damage|p1a: Slowking|74/100
+|move|p1a: Slowking|Future Sight|p2a: Saltilter
+|-start|p1a: Slowking|move: Future Sight
+|
+|-heal|p1a: Slowking|80/100|[from] item: Leftovers
+|-damage|p1a: Slowking|68/100|[from] Salt Cure
+|upkeep
+|turn|7
+|
+|t:|1743789814
+|move|p2a: Saltilter|Recover|p2a: Saltilter
+|-heal|p2a: Saltilter|100/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743789820
+|switch|p1a: Dragapult|Dragapult, M|76/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743789827
+|move|p2a: Saltilter|Protect|p2a: Saltilter
+|-singleturn|p2a: Saltilter|Protect
+|move|p1a: Dragapult|Draco Meteor|p2a: Saltilter
+|-activate|p2a: Saltilter|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Saltilter|move: Future Sight
+|-damage|p2a: Saltilter|41/100
+|upkeep
+|turn|9
+|
+|t:|1743789841
+|move|p1a: Dragapult|Draco Meteor|p2a: Saltilter
+|-damage|p2a: Saltilter|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Saltilter
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743789844
+|switch|p2a: Mr Frogston|Greninja, M|100/100
+|-damage|p2a: Mr Frogston|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743789856
+|move|p1a: Dragapult|Draco Meteor|p2a: Mr Frogston
+|-damage|p2a: Mr Frogston|20/100
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Mr Frogston|Dark Pulse|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-ability|p2a: Mr Frogston|Battle Bond|boost
+|-boost|p2a: Mr Frogston|atk|1
+|-boost|p2a: Mr Frogston|spa|1
+|-boost|p2a: Mr Frogston|spe|1
+|-activate|p2a: Mr Frogston|ability: Battle Bond
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743789873
+|switch|p1a: Conkeldurr|Conkeldurr, F|86/100 brn
+|turn|11
+|
+|t:|1743789878
+|move|p2a: Mr Frogston|Water Shuriken|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|73/100 brn
+|-damage|p1a: Conkeldurr|59/100 brn
+|-damage|p1a: Conkeldurr|47/100 brn
+|-damage|p1a: Conkeldurr|33/100 brn
+|-hitcount|p1a: Conkeldurr|4
+|move|p1a: Conkeldurr|Mach Punch|p2a: Mr Frogston
+|-supereffective|p2a: Mr Frogston
+|-damage|p2a: Mr Frogston|0 fnt
+|faint|p2a: Mr Frogston
+|
+|-weather|none
+|-damage|p1a: Conkeldurr|27/100 brn|[from] brn
+|upkeep
+|
+|t:|1743789887
+|switch|p2a: Bugs Bunny|Cinderace, F|100/100
+|turn|12
+|
+|t:|1743789898
+|move|p2a: Bugs Bunny|Court Change|p2a: Bugs Bunny
+|-start|p2a: Bugs Bunny|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Bugs Bunny|move: Court Change
+|move|p1a: Conkeldurr|Drain Punch|p2a: Bugs Bunny
+|-supereffective|p2a: Bugs Bunny
+|-damage|p2a: Bugs Bunny|0 fnt
+|-heal|p1a: Conkeldurr|64/100 brn|[from] drain|[of] p2a: Bugs Bunny
+|faint|p2a: Bugs Bunny
+|
+|-damage|p1a: Conkeldurr|58/100 brn|[from] brn
+|upkeep
+|
+|t:|1743789904
+|switch|p2a: Bronthong|Bronzong, shiny|100/100
+|turn|13
+|
+|t:|1743789918
+|move|p1a: Conkeldurr|Knock Off|p2a: Bronthong
+|-supereffective|p2a: Bronthong
+|-crit|p2a: Bronthong
+|-damage|p2a: Bronthong|0 fnt
+|-enditem|p2a: Bronthong|Leftovers|[from] move: Knock Off|[of] p1a: Conkeldurr
+|faint|p2a: Bronthong
+|
+|-damage|p1a: Conkeldurr|51/100 brn|[from] brn
+|upkeep
+|
+|t:|1743789922
+|switch|p2a: Goobatron|Donphan, L1, M|100/100
+|turn|14
+|
+|t:|1743789930
+|move|p1a: Conkeldurr|Drain Punch|p2a: Goobatron
+|-ability|p2a: Goobatron|Sturdy
+|-damage|p2a: Goobatron|8/100
+|-heal|p1a: Conkeldurr|53/100 brn|[from] drain|[of] p2a: Goobatron
+|move|p2a: Goobatron|Endeavor|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|1/100 brn
+|-heal|p2a: Goobatron|100/100|[from] item: Shell Bell|[of] p1a: Conkeldurr
+|
+|-damage|p1a: Conkeldurr|0 fnt|[from] brn
+|faint|p1a: Conkeldurr
+|upkeep
+|
+|t:|1743789950
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|15
+|
+|t:|1743789956
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Goobatron|Sandstorm|p2a: Goobatron
+|-weather|Sandstorm
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinderace|95/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|t:|1743789964
+|move|p1a: Cinderace|Will-O-Wisp|p2a: Goobatron
+|-status|p2a: Goobatron|brn
+|move|p2a: Goobatron|Endeavor|p1a: Cinderace
+|-damage|p1a: Cinderace|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Cinderace|0 fnt|[from] Sandstorm
+|faint|p1a: Cinderace
+|-damage|p2a: Goobatron|93/100 brn|[from] brn
+|upkeep
+|
+|t:|1743789976
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|17
+|
+|t:|1743789985
+|switch|p2a: Meow Meow|Meowscarada, M|100/100
+|-damage|p2a: Meow Meow|88/100|[from] Stealth Rock
+|move|p1a: Greninja|Ice Beam|p2a: Meow Meow
+|-supereffective|p2a: Meow Meow
+|-damage|p2a: Meow Meow|0 fnt
+|faint|p2a: Meow Meow
+|-ability|p1a: Greninja|Battle Bond|boost
+|-boost|p1a: Greninja|atk|1
+|-boost|p1a: Greninja|spa|1
+|-boost|p1a: Greninja|spe|1
+|-activate|p1a: Greninja|ability: Battle Bond
+|-damage|p1a: Greninja|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Greninja|85/100|[from] Sandstorm
+|upkeep
+|-message|Eliano030 forfeited.
+|
+|win|andrewtb491
+|raw|andrewtb491's rating: 1478 &rarr; <strong>1499</strong><br />(+21 for winning)
+|raw|Eliano030's rating: 1495 &rarr; <strong>1474</strong><br />(-21 for losing)
+|l|☆Eliano030
+|player|p2|

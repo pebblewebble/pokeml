@@ -1,0 +1,214 @@
+|j|☆dct_spite
+|j|☆ImmaBoyKisser
+|t:|1743919008
+|gametype|singles
+|player|p1|dct_spite|janitor|1578
+|player|p2|ImmaBoyKisser|grimsley|1622
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Deoxys-Speed|
+|poke|p1|Iron Moth|
+|poke|p1|Iron Valiant|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Rillaboom, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Zamazenta-*|
+|poke|p2|Iron Crown|
+|poke|p2|Hatterene, F|
+|poke|p2|Raging Bolt|
+|teampreview
+|
+|t:|1743919023
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Rillaboom|Rillaboom, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dct_spite)
+|
+|t:|1743919029
+|move|p2a: Rillaboom|Grassy Glide|p1a: Ogerpon
+|-damage|p1a: Ogerpon|20/100
+|move|p1a: Ogerpon|Knock Off|p2a: Rillaboom
+|-damage|p2a: Rillaboom|59/100
+|-enditem|p2a: Rillaboom|Choice Band|[from] move: Knock Off|[of] p1a: Ogerpon
+|
+|-heal|p1a: Ogerpon|26/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|65/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1743919045
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|move|p2a: Rillaboom|U-turn|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|90/100
+|
+|t:|1743919061
+|switch|p2a: Ting-Lu|Ting-Lu|100/100|[from] U-turn
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|-heal|p1a: Iron Moth|96/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1743919067
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|26/100
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Ogerpon
+|-sidestart|p1: dct_spite|move: Stealth Rock
+|
+|-heal|p1a: Ogerpon|32/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1743919074
+|switch|p2a: Rillaboom|Rillaboom, F, shiny|65/100
+|move|p1a: Ogerpon|Knock Off|p2a: Rillaboom
+|-damage|p2a: Rillaboom|35/100
+|
+|-heal|p1a: Ogerpon|38/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|42/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1743919080
+|move|p2a: Rillaboom|Grassy Glide|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-heal|p2a: Rillaboom|48/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1743919091
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-damage|p1a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|6
+|
+|t:|1743919116
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|69/100
+|
+|-heal|p1a: Zamazenta|75/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743919127
+|-terastallize|p1a: Zamazenta|Steel
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Substitute|[damage]
+|-resisted|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|-hitcount|p1a: Zamazenta|2
+|
+|-heal|p1a: Zamazenta|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743919140
+|move|p1a: Zamazenta|Body Press|p2a: Iron Crown
+|-damage|p2a: Iron Crown|17/100
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|67/100
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|53/100
+|-hitcount|p1a: Zamazenta|2
+|
+|-heal|p1a: Zamazenta|59/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743919146
+|move|p1a: Zamazenta|Body Press|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|-heal|p1a: Zamazenta|65/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743919160
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|10
+|
+|t:|1743919170
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Zamazenta|Close Combat|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|31/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|-damage|p2a: Zamazenta|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Zamazenta|37/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743919177
+|move|p2a: Zamazenta|Close Combat|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|1/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|-damage|p2a: Zamazenta|81/100|[from] item: Life Orb
+|move|p1a: Zamazenta|Body Press|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-heal|p1a: Zamazenta|7/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743919180
+|switch|p2a: Rillaboom|Rillaboom, F, shiny|48/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|12
+|
+|t:|1743919185
+|-terastallize|p2a: Rillaboom|Grass
+|move|p2a: Rillaboom|Grassy Glide|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|1/100
+|move|p1a: Zamazenta|Body Press|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Zamazenta|7/100|[from] Grassy Terrain
+|-heal|p1a: Zamazenta|13/100|[from] item: Leftovers
+|upkeep
+|-message|ImmaBoyKisser forfeited.
+|
+|win|dct_spite
+|raw|dct_spite's rating: 1578 &rarr; <strong>1601</strong><br />(+23 for winning)
+|raw|ImmaBoyKisser's rating: 1622 &rarr; <strong>1599</strong><br />(-23 for losing)
+|l|☆ImmaBoyKisser
+|player|p2|
+|l|☆dct_spite
+|player|p1|

@@ -1,0 +1,221 @@
+|j|☆wgc0609
+|j|‽DanCong
+|t:|1743831307
+|gametype|singles
+|player|p1|wgc0609|102|1199
+|player|p2|DanCong|101|1241
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Gholdengo|
+|poke|p1|Bellibolt, M|
+|poke|p1|Garchomp, M|
+|poke|p1|Iron Valiant|
+|poke|p2|Alomomola, F|
+|poke|p2|Pecharunt|
+|poke|p2|Skeledirge, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Tinkaton, F|
+|poke|p2|Great Tusk|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DanCong)
+|
+|t:|1743831330
+|start
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-item|p2a: Tinkaton|Air Balloon
+|turn|1
+|
+|t:|1743831347
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Tinkaton|Thunder Wave|p1a: Corviknight
+|-status|p1a: Corviknight|par
+|
+|upkeep
+|turn|2
+|
+|t:|1743831357
+|move|p2a: Tinkaton|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: wgc0609|move: Stealth Rock
+|cant|p1a: Corviknight|par
+|
+|upkeep
+|turn|3
+|
+|t:|1743831366
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|move|p1a: Corviknight|Defog|p2a: Skeledirge
+|-unboost|p2a: Skeledirge|evasion|1
+|-sideend|p1: wgc0609|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|upkeep
+|turn|4
+|
+|t:|1743831380
+|switch|p1a: Bellibolt|Bellibolt, M|100/100
+|move|p2a: Skeledirge|Torch Song|p1a: Bellibolt
+|-damage|p1a: Bellibolt|74/100
+|-boost|p2a: Skeledirge|spa|1
+|-start|p1a: Bellibolt|Charge|Torch Song|[from] ability: Electromorphosis
+|
+|upkeep
+|turn|5
+|
+|t:|1743831390
+|-terastallize|p1a: Bellibolt|Water
+|move|p2a: Skeledirge|Earth Power|p1a: Bellibolt
+|-damage|p1a: Bellibolt|45/100
+|-start|p1a: Bellibolt|Charge|Earth Power|[from] ability: Electromorphosis
+|move|p1a: Bellibolt|Muddy Water|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-crit|p2a: Skeledirge
+|-damage|p2a: Skeledirge|1/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743831408
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|move|p1a: Bellibolt|Muddy Water|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|64/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743831428
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Meowscarada|U-turn|p1a: Gholdengo
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|92/100
+|-damage|p2a: Meowscarada|54/100|[from] item: Life Orb
+|
+|t:|1743831443
+|switch|p2a: Alomomola|Alomomola, F|100/100|[from] U-turn
+|
+|-heal|p1a: Gholdengo|98/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743831450
+|move|p1a: Gholdengo|Thunder Wave|p2a: Alomomola
+|-status|p2a: Alomomola|par
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p1a: Gholdengo|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743831461
+|move|p1a: Gholdengo|Hex|p2a: Alomomola
+|-damage|p2a: Alomomola|53/100 par
+|move|p2a: Alomomola|Flip Turn|p1a: Gholdengo
+|-damage|p1a: Gholdengo|87/100
+|
+|t:|1743831467
+|switch|p2a: Skeledirge|Skeledirge, F|1/100|[from] Flip Turn
+|
+|-heal|p2a: Skeledirge|59/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Gholdengo|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743831482
+|move|p1a: Gholdengo|Hex|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|21/100
+|move|p2a: Skeledirge|Torch Song|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|40/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-heal|p1a: Gholdengo|46/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743831494
+|switch|p2a: Alomomola|Alomomola, F|86/100 par
+|move|p1a: Gholdengo|Hex|p2a: Alomomola
+|-damage|p2a: Alomomola|31/100 par
+|
+|-heal|p1a: Gholdengo|52/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743831503
+|move|p1a: Gholdengo|Hex|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|-heal|p1a: Gholdengo|58/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743831510
+|switch|p2a: Meowscarada|Meowscarada, F|54/100
+|turn|13
+|
+|t:|1743831523
+|move|p2a: Meowscarada|Knock Off|p1a: Gholdengo
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-enditem|p1a: Gholdengo|Leftovers|[from] move: Knock Off|[of] p2a: Meowscarada
+|faint|p1a: Gholdengo
+|-damage|p2a: Meowscarada|44/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743831540
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|turn|14
+|
+|t:|1743831551
+|move|p2a: Meowscarada|U-turn|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|92/100
+|-damage|p2a: Meowscarada|34/100|[from] item: Life Orb
+|
+|t:|1743831560
+|switch|p2a: Skeledirge|Skeledirge, F|21/100|[from] U-turn
+|move|p1a: Iron Valiant|Moonblast|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|-damage|p1a: Iron Valiant|82/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743831576
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|15
+|
+|t:|1743831581
+|move|p1a: Iron Valiant|Moonblast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-damage|p1a: Iron Valiant|72/100|[from] item: Life Orb
+|
+|upkeep
+|-message|DanCong forfeited.
+|
+|win|wgc0609
+|raw|wgc0609's rating: 1199 &rarr; <strong>1227</strong><br />(+28 for winning)
+|raw|DanCong's rating: 1241 &rarr; <strong>1213</strong><br />(-28 for losing)
+|l|‽DanCong
+|player|p2|

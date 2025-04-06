@@ -1,0 +1,351 @@
+|j|☆Masfar
+|j|☆Mawile438
+|t:|1743933377
+|gametype|singles
+|player|p1|Masfar|veteran|1564
+|player|p2|Mawile438|2|1554
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Ting-Lu|
+|poke|p1|Corviknight, F|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Toxapex, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Primarina, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mawile438)
+|inactive|Masfar also wants the timer to be on.
+|
+|t:|1743933402
+|start
+|switch|p1a: Goliath|Ting-Lu|100/100
+|switch|p2a: Arcanine|Arcanine-Hisui, F, shiny|100/100
+|-ability|p1a: Goliath|Vessel of Ruin
+|turn|1
+|
+|t:|1743933419
+|switch|p2a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|switch|p1a: Sentinel|Weezing-Galar, M|100/100
+|-ability|p1a: Sentinel|Neutralizing Gas
+|
+|upkeep
+|turn|2
+|
+|t:|1743933428
+|switch|p2a: Primarina|Primarina, F|100/100
+|move|p1a: Sentinel|Will-O-Wisp|p2a: Primarina
+|-status|p2a: Primarina|brn
+|
+|-damage|p2a: Primarina|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743933436
+|-end|p1a: Sentinel|ability: Neutralizing Gas
+|switch|p1a: Serpentine|Toxapex, M, shiny|100/100
+|move|p2a: Primarina|Sparkling Aria|p1a: Serpentine
+|-resisted|p1a: Serpentine
+|-damage|p1a: Serpentine|87/100
+|
+|-damage|p2a: Primarina|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743933443
+|switch|p2a: Excadrill|Excadrill, F, shiny|100/100
+|move|p1a: Serpentine|Sludge Bomb|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|upkeep
+|turn|5
+|
+|t:|1743933451
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|move|p1a: Serpentine|Surf|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|23/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743933458
+|switch|p1a: Yami|Corviknight, F|100/100
+|-ability|p1a: Yami|Pressure
+|move|p2a: Excadrill|Earthquake|p1a: Yami
+|-immune|p1a: Yami
+|
+|upkeep
+|turn|7
+|
+|t:|1743933461
+|-terastallize|p2a: Excadrill|Fire
+|move|p2a: Excadrill|Tera Blast|p1a: Yami|[anim] Tera Blast Fire
+|-supereffective|p1a: Yami
+|-damage|p1a: Yami|0 fnt
+|faint|p1a: Yami
+|-damage|p2a: Excadrill|14/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743933467
+|switch|p1a: Kyotaro|Kyurem, shiny|100/100
+|-ability|p1a: Kyotaro|Pressure
+|turn|8
+|
+|t:|1743933472
+|switch|p2a: Tyranitar|Tyranitar, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Kyotaro|Earth Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyotaro|94/100|[from] Sandstorm
+|-heal|p1a: Kyotaro|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743933500
+|move|p1a: Kyotaro|Earth Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|40/100
+|-unboost|p2a: Tyranitar|spd|1
+|move|p2a: Tyranitar|Knock Off|p1a: Kyotaro
+|-damage|p1a: Kyotaro|48/100
+|-enditem|p1a: Kyotaro|Leftovers|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyotaro|42/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1743933516
+|move|p1a: Kyotaro|Earth Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|2/100
+|move|p2a: Tyranitar|Low Kick|p1a: Kyotaro
+|-supereffective|p1a: Kyotaro
+|-damage|p1a: Kyotaro|0 fnt
+|faint|p1a: Kyotaro
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743933529
+|switch|p1a: Trojan|Zamazenta|100/100
+|-ability|p1a: Trojan|Dauntless Shield|boost
+|-boost|p1a: Trojan|def|1
+|turn|11
+|
+|t:|1743933539
+|switch|p2a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|move|p1a: Trojan|Stone Edge|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Trojan|94/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1743933548
+|move|p1a: Trojan|Stone Edge|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|faint|p2a: Mandibuzz
+|
+|-weather|none
+|upkeep
+|
+|t:|1743933554
+|switch|p2a: Glimmora|Glimmora, F, shiny|100/100
+|turn|13
+|
+|t:|1743933557
+|switch|p1a: Serpentine|Toxapex, M, shiny|100/100
+|move|p2a: Glimmora|Meteor Beam||[still]
+|-prepare|p2a: Glimmora|Meteor Beam
+|-boost|p2a: Glimmora|spa|1
+|-enditem|p2a: Glimmora|Power Herb
+|-anim|p2a: Glimmora|Meteor Beam|p1a: Serpentine
+|-damage|p1a: Serpentine|50/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743933568
+|move|p2a: Glimmora|Meteor Beam||[still]
+|-prepare|p2a: Glimmora|Meteor Beam
+|-boost|p2a: Glimmora|spa|1
+|move|p1a: Serpentine|Surf|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|26/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743933573
+|switch|p1a: Goliath|Ting-Lu|100/100
+|-ability|p1a: Goliath|Vessel of Ruin
+|move|p2a: Glimmora|Meteor Beam|p1a: Goliath|[from] lockedmove
+|-resisted|p1a: Goliath
+|-damage|p1a: Goliath|76/100
+|
+|-heal|p1a: Goliath|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743933580
+|move|p2a: Glimmora|Energy Ball|p1a: Goliath
+|-supereffective|p1a: Goliath
+|-crit|p1a: Goliath
+|-damage|p1a: Goliath|0 fnt
+|faint|p1a: Goliath
+|
+|upkeep
+|
+|t:|1743933583
+|switch|p1a: Trojan|Zamazenta|94/100
+|turn|17
+|
+|t:|1743933590
+|move|p1a: Trojan|Heavy Slam|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Masfar|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1743933604
+|switch|p2a: Primarina|Primarina, F|88/100 brn
+|turn|18
+|
+|t:|1743933607
+|switch|p1a: Serpentine|Toxapex, M, shiny|83/100
+|-sideend|p1: Masfar|move: Toxic Spikes|[of] p1a: Serpentine
+|switch|p2a: Tyranitar|Tyranitar, F, shiny|2/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Serpentine|77/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|t:|1743933613
+|move|p2a: Tyranitar|Knock Off|p1a: Serpentine
+|-damage|p1a: Serpentine|36/100
+|-enditem|p1a: Serpentine|Assault Vest|[from] move: Knock Off|[of] p2a: Tyranitar
+|move|p1a: Serpentine|Surf|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Serpentine|31/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743933619
+|switch|p2a: Excadrill|Excadrill, F, shiny, tera:Fire|14/100
+|turn|20
+|
+|t:|1743933628
+|move|p2a: Excadrill|Earthquake|p1a: Serpentine
+|-supereffective|p1a: Serpentine
+|-damage|p1a: Serpentine|0 fnt
+|faint|p1a: Serpentine
+|-damage|p2a: Excadrill|4/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743933630
+|switch|p1a: Trojan|Zamazenta|94/100
+|turn|21
+|
+|t:|1743933635
+|move|p2a: Excadrill|Iron Head|p1a: Trojan
+|-damage|p1a: Trojan|39/100
+|-damage|p2a: Excadrill|0 fnt|[from] item: Life Orb
+|faint|p2a: Excadrill
+|move|p1a: Trojan|Heavy Slam|p2: Excadrill|[notarget]
+|-fail|p1a: Trojan
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Trojan|32/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743933642
+|switch|p2a: Primarina|Primarina, F|88/100 brn
+|turn|22
+|
+|t:|1743933646
+|switch|p1a: Sentinel|Weezing-Galar, M|100/100
+|-ability|p1a: Sentinel|Neutralizing Gas
+|move|p2a: Primarina|Sparkling Aria|p1a: Sentinel
+|-damage|p1a: Sentinel|37/100
+|
+|-weather|none
+|-damage|p2a: Primarina|82/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1743933654
+|move|p1a: Sentinel|Pain Split|p2a: Primarina
+|-sethp|p2a: Primarina|58/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Sentinel|64/100|[from] move: Pain Split
+|move|p2a: Primarina|Sparkling Aria|p1a: Sentinel
+|-damage|p1a: Sentinel|0 fnt
+|faint|p1a: Sentinel
+|-end|p1a: Sentinel|ability: Neutralizing Gas
+|
+|-damage|p2a: Primarina|52/100 brn|[from] brn
+|upkeep
+|
+|t:|1743933657
+|switch|p1a: Trojan|Zamazenta|32/100
+|turn|24
+|
+|t:|1743933662
+|move|p1a: Trojan|Heavy Slam|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1743933667
+|switch|p2a: Arcanine|Arcanine-Hisui, F, shiny|100/100
+|turn|25
+|
+|t:|1743933670
+|move|p2a: Arcanine|Flare Blitz|p1a: Trojan
+|-damage|p1a: Trojan|0 fnt
+|faint|p1a: Trojan
+|
+|win|Mawile438
+|raw|Masfar's rating: 1564 &rarr; <strong>1543</strong><br />(-21 for losing)
+|raw|Mawile438's rating: 1554 &rarr; <strong>1575</strong><br />(+21 for winning)
+|l|☆Mawile438
+|player|p2|
+|l|☆Masfar
+|player|p1|

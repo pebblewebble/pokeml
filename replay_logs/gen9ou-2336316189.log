@@ -1,0 +1,266 @@
+|j|☆ryda_be_ridin
+|j|☆A9MG
+|t:|1743902057
+|gametype|singles
+|player|p1|ryda_be_ridin|clay|1423
+|player|p2|A9MG|nurseryaide|1421
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Skarmory, F|
+|poke|p1|Alomomola, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Gliscor, F|
+|poke|p2|Azumarill, F|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Valiant|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Zarude|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by A9MG)
+|
+|t:|1743902067
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Azumarill|Azumarill, F|100/100
+|turn|1
+|
+|t:|1743902082
+|move|p1a: Dragapult|U-turn|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|89/100
+|
+|t:|1743902089
+|switch|p1a: Skarmory|Skarmory, F|100/100|[from] U-turn
+|move|p2a: Azumarill|Knock Off|p1a: Skarmory
+|-damage|p1a: Skarmory|65/100
+|-damage|p2a: Azumarill|73/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|-enditem|p1a: Skarmory|Rocky Helmet|[from] move: Knock Off|[of] p2a: Azumarill
+|
+|upkeep
+|turn|2
+|
+|t:|1743902098
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Skarmory|Spikes|p2a: Iron Moth
+|-sidestart|p2: A9MG|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1743902105
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Iron Moth|Substitute|p2a: Iron Moth
+|-start|p2a: Iron Moth|Substitute
+|-damage|p2a: Iron Moth|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Moth|70/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1743902114
+|move|p2a: Iron Moth|Fiery Dance|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|92/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: Iron Moth
+|-sidestart|p2: A9MG|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Moth|64/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1743902121
+|move|p2a: Iron Moth|Fiery Dance|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|83/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Tyranitar|Roar|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|drag|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|88/100|[from] Spikes
+|-damage|p2a: Great Tusk|85/100|[from] Stealth Rock
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743902137
+|switch|p1a: Skarmory|Skarmory, F|65/100
+|move|p2a: Great Tusk|Knock Off|p1a: Skarmory
+|-damage|p1a: Skarmory|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743902144
+|move|p2a: Great Tusk|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|48/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: A9MG|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: A9MG|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|98/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1743902159
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Iron Moth|Iron Moth|64/100
+|move|p1a: Skarmory|Spikes|p2a: Iron Moth
+|-sidestart|p2: A9MG|Spikes
+|
+|upkeep
+|turn|9
+|
+|t:|1743902166
+|switch|p1a: Tyranitar|Tyranitar, M|83/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Iron Moth|Fiery Dance|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|74/100
+|-boost|p2a: Iron Moth|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Moth|58/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1743902177
+|-terastallize|p2a: Iron Moth|Ground
+|move|p2a: Iron Moth|Tera Blast|p1a: Tyranitar|[anim] Tera Blast Ground
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|22/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: Iron Moth
+|-sidestart|p2: A9MG|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|inactive|ryda_be_ridin has 120 seconds left.
+|
+|t:|1743902220
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Gliscor
+|-damage|p1a: Gliscor|50/100
+|-boost|p2a: Iron Moth|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|12
+|
+|t:|1743902237
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Iron Moth|Substitute|p2a: Iron Moth
+|-start|p2a: Iron Moth|Substitute
+|-damage|p2a: Iron Moth|33/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gliscor|63/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|t:|1743902250
+|switch|p1a: Tyranitar|Tyranitar, M|22/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|5/100
+|-boost|p2a: Iron Moth|spa|1
+|
+|-weather|none
+|upkeep
+|turn|14
+|
+|t:|1743902258
+|move|p2a: Iron Moth|Fiery Dance|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-boost|p2a: Iron Moth|spa|1
+|faint|p1a: Tyranitar
+|
+|upkeep
+|
+|t:|1743902261
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|15
+|
+|t:|1743902267
+|move|p1a: Dragapult|Draco Meteor|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743902277
+|switch|p2a: Zarude|Zarude|100/100
+|-damage|p2a: Zarude|88/100|[from] Spikes
+|-damage|p2a: Zarude|76/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743902285
+|move|p1a: Dragapult|U-turn|p2a: Zarude
+|-supereffective|p2a: Zarude
+|-damage|p2a: Zarude|14/100
+|
+|t:|1743902289
+|switch|p1a: Skarmory|Skarmory, F|98/100|[from] U-turn
+|move|p2a: Zarude|U-turn|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|95/100
+|
+|t:|1743902296
+|switch|p2a: Azumarill|Azumarill, F|73/100|[from] U-turn
+|-damage|p2a: Azumarill|60/100|[from] Spikes
+|-damage|p2a: Azumarill|48/100|[from] Stealth Rock
+|
+|upkeep
+|turn|17
+|
+|t:|1743902302
+|move|p1a: Skarmory|Spikes|p2a: Azumarill
+|-sidestart|p2: A9MG|Spikes
+|move|p2a: Azumarill|Play Rough|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|66/100
+|
+|upkeep
+|turn|18
+|-message|A9MG forfeited.
+|
+|win|ryda_be_ridin
+|raw|ryda_be_ridin's rating: 1423 &rarr; <strong>1443</strong><br />(+20 for winning)
+|raw|A9MG's rating: 1421 &rarr; <strong>1401</strong><br />(-20 for losing)
+|l|☆A9MG
+|player|p2|
+|l|☆ryda_be_ridin
+|player|p1|

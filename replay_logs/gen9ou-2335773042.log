@@ -1,0 +1,237 @@
+|j|☆Goobler34
+|j|☆ChampionEthan95
+|t:|1743833746
+|gametype|singles
+|player|p1|Goobler34|petrel|1297
+|player|p2|ChampionEthan95|ethan|1277
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Greninja-*, M|
+|poke|p1|Kleavor, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Quagsire, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Gengar, M|
+|poke|p2|Ninetales, M|
+|poke|p2|Walking Wake|
+|poke|p2|Venusaur, M|
+|poke|p2|Great Tusk|
+|poke|p2|Hatterene, F|
+|poke|p2|Charizard, F|
+|teampreview
+|
+|t:|1743833752
+|start
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1743833757
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Kleavor|Stone Axe|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|92/100
+|-damage|p1a: Kleavor|84/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|-sidestart|p2: ChampionEthan95|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743833783
+|switch|p1a: Quagsire|Quagsire, M|100/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Quagsire
+|-damage|p1a: Quagsire|44/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743833790
+|move|p2a: Great Tusk|Headlong Rush|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Quagsire
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743833799
+|switch|p1a: Gengar|Gengar, M|100/100
+|turn|4
+|
+|t:|1743833827
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|move|p1a: Gengar|Dazzling Gleam|p2a: Hatterene
+|-damage|p2a: Hatterene|58/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1743833842
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-damage|p2a: Walking Wake|88/100|[from] Stealth Rock
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743833855
+|move|p2a: Walking Wake|Hydro Steam|p1a: Gengar
+|-enditem|p1a: Gengar|Focus Sash
+|-damage|p1a: Gengar|1/100
+|move|p1a: Gengar|Destiny Bond|p1a: Gengar
+|-singlemove|p1a: Gengar|Destiny Bond
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743833867
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|-damage|p2a: Venusaur|88/100|[from] Stealth Rock
+|move|p1a: Gengar|Shadow Ball|p2a: Venusaur
+|-damage|p2a: Venusaur|38/100
+|-unboost|p2a: Venusaur|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743833876
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|move|p2a: Venusaur|Giga Drain|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|67/100
+|-heal|p2a: Venusaur|61/100|[from] drain|[of] p1a: Conkeldurr
+|-damage|p2a: Venusaur|51/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743833885
+|move|p2a: Venusaur|Weather Ball|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|25/100
+|-damage|p2a: Venusaur|41/100|[from] item: Life Orb
+|move|p1a: Conkeldurr|Ice Punch|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-crit|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|-weather|none
+|upkeep
+|
+|t:|1743833895
+|switch|p2a: Great Tusk|Great Tusk|92/100
+|-damage|p2a: Great Tusk|89/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743833898
+|move|p2a: Great Tusk|Rapid Spin|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|9/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: ChampionEthan95|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Conkeldurr|Ice Punch|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|48/100
+|-damage|p1a: Conkeldurr|0 fnt|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|t:|1743833909
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|10
+|
+|t:|1743833948
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Greninja|Water Shuriken|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|91/100
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|82/100
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|73/100
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|64/100
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|54/100
+|-hitcount|p2a: Ninetales|5
+|-damage|p1a: Greninja|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743833963
+|switch|p2a: Hatterene|Hatterene, F|58/100
+|move|p1a: Greninja|Surf|p2a: Hatterene
+|-damage|p2a: Hatterene|32/100
+|-damage|p1a: Greninja|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743834009
+|move|p1a: Greninja|Dark Pulse|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|-ability|p1a: Greninja|Battle Bond|boost
+|-boost|p1a: Greninja|atk|1
+|-boost|p1a: Greninja|spa|1
+|-boost|p1a: Greninja|spe|1
+|-activate|p1a: Greninja|ability: Battle Bond
+|-damage|p1a: Greninja|71/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743834021
+|switch|p2a: Walking Wake|Walking Wake|88/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|13
+|
+|t:|1743834033
+|move|p1a: Greninja|Dark Pulse|p2a: Walking Wake
+|-crit|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|-damage|p1a: Greninja|61/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|ChampionEthan95 forfeited.
+|
+|win|Goobler34
+|raw|Goobler34's rating: 1297 &rarr; <strong>1321</strong><br />(+24 for winning)
+|raw|ChampionEthan95's rating: 1277 &rarr; <strong>1253</strong><br />(-24 for losing)
+|l|☆ChampionEthan95
+|player|p2|
+|l|☆Goobler34
+|player|p1|

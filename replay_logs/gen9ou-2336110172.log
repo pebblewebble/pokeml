@@ -1,0 +1,288 @@
+|j|☆staaarz
+|j|☆asdfjklqwert
+|t:|1743879821
+|gametype|singles
+|player|p1|staaarz|petrel|1480
+|player|p2|asdfjklqwert|winona|1474
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Dondozo, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Gliscor, F|
+|poke|p1|Talonflame, M|
+|poke|p1|Blissey, F|
+|poke|p2|Latios, M|
+|poke|p2|Hydrapple, F|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Swampert, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by asdfjklqwert)
+|
+|t:|1743879850
+|start
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|1
+|
+|t:|1743879857
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Tornadus|Knock Off|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743879862
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Gliscor
+|-damage|p1a: Gliscor|36/100 tox
+|-unboost|p1a: Gliscor|spe|1
+|
+|-heal|p1a: Gliscor|48/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|t:|1743879872
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Gliscor|Protect||[still]
+|-fail|p1a: Gliscor
+|
+|-damage|p1a: Gliscor|36/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743879891
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Latios|Latios, M|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743879898
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Latios|Luster Purge|p1a: Blissey
+|-damage|p1a: Blissey|83/100
+|
+|-heal|p1a: Blissey|89/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743879906
+|switch|p2a: Swampert|Swampert, M|100/100
+|move|p1a: Blissey|Stealth Rock|p2a: Swampert
+|-sidestart|p2: asdfjklqwert|move: Stealth Rock
+|
+|-heal|p1a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743879912
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Swampert|Stealth Rock|p1a: Toxapex
+|-sidestart|p1: staaarz|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1743879930
+|move|p2a: Swampert|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|39/100
+|move|p1a: Toxapex|Toxic|p2a: Swampert
+|-status|p2a: Swampert|tox
+|
+|-heal|p1a: Toxapex|46/100|[from] item: Leftovers
+|-damage|p2a: Swampert|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743879937
+|switch|p1a: Talonflame|Talonflame, M|100/100
+|move|p2a: Swampert|Flip Turn|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|49/100
+|
+|t:|1743879946
+|switch|p2a: Hydrapple|Hydrapple, F|100/100|[from] Flip Turn
+|-damage|p2a: Hydrapple|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|t:|1743879953
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|99/100
+|-singleturn|p1a: Talonflame|move: Roost
+|move|p2a: Hydrapple|Energy Ball|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|67/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743879960
+|move|p1a: Talonflame|Defog|p2a: Hydrapple
+|-unboost|p2a: Hydrapple|evasion|1
+|-sideend|p2: asdfjklqwert|Stealth Rock|[from] move: Defog|[of] p1a: Talonflame
+|-sideend|p1: staaarz|Stealth Rock|[from] move: Defog|[of] p1a: Talonflame
+|move|p2a: Hydrapple|Fickle Beam|p1a: Talonflame
+|-damage|p1a: Talonflame|9/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743879966
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Hydrapple|Earth Power|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|9/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743879978
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Blissey|Blissey, F|95/100
+|switch|p2a: Swampert|Swampert, M|94/100 tox
+|
+|-heal|p2a: Swampert|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Blissey|100/100|[from] item: Leftovers
+|-damage|p2a: Swampert|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743879984
+|switch|p1a: Gliscor|Gliscor, F|36/100 tox
+|move|p2a: Swampert|Stealth Rock|p1a: Gliscor
+|-sidestart|p1: staaarz|move: Stealth Rock
+|
+|-heal|p2a: Swampert|100/100 tox|[from] item: Leftovers
+|-heal|p1a: Gliscor|48/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Swampert|88/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743879995
+|switch|p1a: Toxapex|Toxapex, F|79/100
+|-damage|p1a: Toxapex|66/100|[from] Stealth Rock
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|
+|-heal|p1a: Toxapex|73/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743880008
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Swampert|Swampert, M|88/100 tox
+|switch|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Swampert|94/100 tox|[from] item: Leftovers
+|-heal|p1a: Blissey|94/100|[from] item: Leftovers
+|-damage|p2a: Swampert|88/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1743880017
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Swampert|Flip Turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|78/100
+|
+|t:|1743880021
+|switch|p2a: Latios|Latios, M|100/100|[from] Flip Turn
+|
+|-heal|p1a: Toxapex|84/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743880025
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Latios|Flip Turn|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|-status|p2a: Latios|psn
+|
+|-heal|p1a: Toxapex|91/100|[from] item: Leftovers
+|-damage|p2a: Latios|88/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1743880034
+|switch|p1a: Blissey|Blissey, F|94/100
+|-damage|p1a: Blissey|82/100|[from] Stealth Rock
+|move|p2a: Latios|Flip Turn|p1a: Blissey
+|-damage|p1a: Blissey|71/100
+|
+|t:|1743880047
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from] Flip Turn
+|
+|-heal|p1a: Blissey|77/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743880051
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Cinderace|U-turn|p1a: Toxapex
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|77/100
+|
+|t:|1743880058
+|switch|p2a: Swampert|Swampert, M|88/100 tox|[from] U-turn
+|
+|-heal|p2a: Swampert|94/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|83/100|[from] item: Leftovers
+|-damage|p2a: Swampert|88/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1743880065
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Swampert|Earthquake|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p2a: Swampert|94/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|90/100|[from] item: Leftovers
+|-damage|p2a: Swampert|82/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1743880074
+|switch|p1a: Gliscor|Gliscor, F|48/100 tox
+|-damage|p1a: Gliscor|36/100 tox|[from] Stealth Rock
+|move|p2a: Swampert|Flip Turn|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|-message|staaarz forfeited.
+|
+|win|asdfjklqwert
+|raw|staaarz's rating: 1480 &rarr; <strong>1460</strong><br />(-20 for losing)
+|raw|asdfjklqwert's rating: 1474 &rarr; <strong>1494</strong><br />(+20 for winning)
+|l|☆asdfjklqwert
+|player|p2|

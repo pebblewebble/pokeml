@@ -1,0 +1,322 @@
+|j|☆Caffeine Badger
+|j|☆LucyLikePizza
+|t:|1743871131
+|gametype|singles
+|player|p1|Caffeine Badger|lady-gen4|1408
+|player|p2|LucyLikePizza|2|1446
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Valiant|
+|poke|p1|Dragapult, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Lokix, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Excadrill, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Garganacl, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Enamorus-Therian, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Caffeine Badger)
+|
+|t:|1743871164
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|t:|1743871184
+|move|p1a: Grimmsnarl|Trick|p2a: Rotom
+|-activate|p1a: Grimmsnarl|move: Trick|[of] p2a: Rotom
+|-item|p2a: Rotom|Choice Band|[from] move: Trick
+|-item|p1a: Grimmsnarl|Rocky Helmet|[from] move: Trick
+|move|p2a: Rotom|Volt Switch|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|82/100
+|
+|t:|1743871196
+|switch|p2a: Excadrill|Excadrill, F|100/100|[from] Volt Switch
+|-item|p2a: Excadrill|Air Balloon
+|
+|upkeep
+|turn|2
+|
+|t:|1743871202
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Excadrill
+|-unboost|p2a: Excadrill|atk|1
+|-unboost|p2a: Excadrill|spa|1
+|
+|t:|1743871204
+|switch|p1a: Glimmora|Glimmora, M|100/100|[from] Parting Shot
+|move|p2a: Excadrill|Iron Head|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|32/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: LucyLikePizza|move: Toxic Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1743871212
+|move|p2a: Excadrill|Rapid Spin|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|25/100
+|-boost|p2a: Excadrill|spe|1
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: LucyLikePizza|move: Toxic Spikes
+|-sideend|p2: LucyLikePizza|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Excadrill
+|move|p1a: Glimmora|Stealth Rock|p2a: Excadrill
+|-sidestart|p2: LucyLikePizza|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1743871220
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Excadrill|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|48/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743871223
+|move|p2a: Excadrill|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1743871227
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|6
+|
+|t:|1743871236
+|-terastallize|p2a: Excadrill|Electric
+|move|p1a: Iron Valiant|Aura Sphere|p2a: Excadrill
+|-damage|p2a: Excadrill|47/100
+|-enditem|p2a: Excadrill|Air Balloon
+|move|p2a: Excadrill|Rapid Spin|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|84/100
+|-boost|p2a: Excadrill|spe|1
+|-sideend|p2: LucyLikePizza|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|
+|upkeep
+|turn|7
+|
+|t:|1743871241
+|move|p2a: Excadrill|Iron Head|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|12/100
+|move|p1a: Iron Valiant|Aura Sphere|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|t:|1743871253
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|8
+|
+|t:|1743871257
+|move|p1a: Iron Valiant|Moonblast|p2a: Rotom
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|19/100
+|move|p2a: Rotom|Volt Switch|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|t:|1743871267
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1743871270
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|82/100
+|turn|9
+|
+|t:|1743871274
+|switch|p2a: Rotom|Rotom-Wash|19/100
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1743871278
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|turn|10
+|
+|t:|1743871283
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Garganacl
+|-unboost|p2a: Garganacl|atk|1
+|-unboost|p2a: Garganacl|spa|1
+|
+|t:|1743871284
+|switch|p1a: Glimmora|Glimmora, M|25/100|[from] Parting Shot
+|move|p2a: Garganacl|Stealth Rock|p1a: Glimmora
+|-sidestart|p1: Caffeine Badger|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|t:|1743871290
+|move|p1a: Glimmora|Mortal Spin|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|99/100
+|-sideend|p1: Caffeine Badger|Stealth Rock|[from] move: Mortal Spin|[of] p1a: Glimmora
+|move|p2a: Garganacl|Salt Cure|p1a: Glimmora
+|-damage|p1a: Glimmora|13/100
+|-start|p1a: Glimmora|Salt Cure
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: LucyLikePizza|move: Toxic Spikes
+|
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p1a: Glimmora|1/100|[from] Salt Cure
+|upkeep
+|turn|12
+|
+|t:|1743871293
+|move|p1a: Glimmora|Stealth Rock|p2a: Garganacl
+|-sidestart|p2: LucyLikePizza|move: Stealth Rock
+|move|p2a: Garganacl|Stealth Rock|p1a: Glimmora
+|-sidestart|p1: Caffeine Badger|move: Stealth Rock
+|
+|-damage|p1a: Glimmora|0 fnt|[from] Salt Cure
+|faint|p1a: Glimmora
+|upkeep
+|
+|t:|1743871300
+|switch|p1a: Gyarados|Gyarados, F, shiny|100/100
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743871303
+|move|p1a: Gyarados|Waterfall|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|50/100
+|move|p2a: Garganacl|Salt Cure|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|50/100
+|-start|p1a: Gyarados|Salt Cure
+|
+|-heal|p1a: Gyarados|56/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|56/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|31/100|[from] Salt Cure
+|upkeep
+|turn|14
+|
+|t:|1743871309
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Gyarados|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|47/100
+|
+|-heal|p1a: Gyarados|37/100|[from] item: Leftovers
+|-damage|p1a: Gyarados|12/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1743871312
+|move|p2a: Dragapult|Dragon Darts|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|t:|1743871314
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|82/100
+|-damage|p1a: Grimmsnarl|70/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743871318
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Grimmsnarl
+|-status|p1a: Grimmsnarl|brn
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|3/100
+|
+|-damage|p1a: Grimmsnarl|64/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743871326
+|move|p2a: Dragapult|Dragon Darts|p1a: Grimmsnarl
+|-immune|p1a: Grimmsnarl
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Grimmsnarl|58/100 brn|[from] brn
+|upkeep
+|
+|t:|1743871331
+|switch|p2a: Garganacl|Garganacl, F|56/100
+|-damage|p2a: Garganacl|44/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1743871333
+|switch|p1a: Lokix|Lokix, M|100/100
+|-damage|p1a: Lokix|76/100|[from] Stealth Rock
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|94/100
+|
+|-heal|p2a: Garganacl|99/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743871336
+|-terastallize|p1a: Lokix|Bug
+|move|p1a: Lokix|First Impression|p2a: Garganacl
+|-damage|p2a: Garganacl|66/100
+|-damage|p1a: Lokix|66/100|[from] item: Life Orb
+|move|p2a: Garganacl|Salt Cure|p1a: Lokix
+|-supereffective|p1a: Lokix
+|-damage|p1a: Lokix|28/100
+|-start|p1a: Lokix|Salt Cure
+|
+|-heal|p2a: Garganacl|72/100|[from] item: Leftovers
+|-damage|p1a: Lokix|15/100|[from] Salt Cure
+|upkeep
+|turn|20
+|
+|t:|1743871341
+|move|p1a: Lokix|Knock Off|p2a: Garganacl
+|-damage|p2a: Garganacl|42/100
+|-enditem|p2a: Garganacl|Leftovers|[from] move: Knock Off|[of] p1a: Lokix
+|-damage|p1a: Lokix|5/100|[from] item: Life Orb
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|92/100
+|
+|-damage|p1a: Lokix|0 fnt|[from] Salt Cure
+|faint|p1a: Lokix
+|upkeep
+|l|☆Caffeine Badger
+|inactive|Caffeine Badger disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|Caffeine Badger has 30 seconds to reconnect!
+|c|☆LucyLikePizza|😩
+|inactive|Caffeine Badger has 20 seconds to reconnect!
+|inactive|Caffeine Badger has 15 seconds to reconnect!
+|inactive|Caffeine Badger has 10 seconds to reconnect!
+|inactive|Caffeine Badger has 5 seconds to reconnect!
+|-message|Caffeine Badger lost due to inactivity.
+|
+|win|LucyLikePizza
+|raw|Caffeine Badger's rating: 1408 &rarr; <strong>1390</strong><br />(-18 for losing)
+|raw|LucyLikePizza's rating: 1446 &rarr; <strong>1464</strong><br />(+18 for winning)

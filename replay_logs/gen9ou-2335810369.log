@@ -1,0 +1,334 @@
+|j|☆Gr8Xpectation3
+|j|☆mist262
+|t:|1743840622
+|gametype|singles
+|player|p1|Gr8Xpectation3|n|1183
+|player|p2|mist262|n|1180
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Treads|
+|poke|p1|Pelipper, F|
+|poke|p1|Kingdra, F|
+|poke|p1|Rillaboom, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Raging Bolt|
+|poke|p2|Polteageist-Antique|
+|poke|p2|Toxapex, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Gliscor, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Kingambit, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mist262)
+|
+|t:|1743840634
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1743840644
+|move|p1a: Pelipper|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|98/100
+|
+|t:|1743840647
+|switch|p1a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|move|p2a: Toxapex|Toxic|p1a: Raging Bolt
+|-status|p1a: Raging Bolt|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|100/100|[from] item: Leftovers
+|-damage|p1a: Raging Bolt|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1743840658
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Raging Bolt|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1743840670
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Raging Bolt|64/100 tox|[from] psn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|t:|1743840690
+|move|p2a: Gliscor|Spikes|p1a: Raging Bolt
+|-sidestart|p1: Gr8Xpectation3|Spikes
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Raging Bolt|39/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743840700
+|move|p2a: Gliscor|Earthquake|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-enditem|p1a: Raging Bolt|Shuca Berry|[eat]
+|-enditem|p1a: Raging Bolt|Shuca Berry|[weaken]
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743840709
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|turn|6
+|
+|t:|1743840715
+|move|p2a: Gliscor|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|77/100
+|-enditem|p1a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Pelipper|Weather Ball|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743840724
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|turn|7
+|
+|t:|1743840728
+|move|p1a: Pelipper|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|69/100
+|move|p2a: Toxapex|Infestation|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|75/100
+|-activate|p1a: Pelipper|move: Infestation|[of] p2a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|75/100|[from] item: Leftovers
+|-damage|p1a: Pelipper|63/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|t:|1743840738
+|move|p1a: Pelipper|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|72/100
+|
+|t:|1743840741
+|switch|p1a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|-damage|p1a: Iron Treads|88/100|[from] Spikes
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Toxapex|Toxic|p1a: Iron Treads
+|-immune|p1a: Iron Treads
+|
+|-weather|none
+|-heal|p2a: Toxapex|78/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743840755
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Iron Treads|Stealth Rock|p2a: Indeedee
+|-sidestart|p2: mist262|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|t:|1743840773
+|move|p1a: Iron Treads|Rapid Spin|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|64/100
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: Gr8Xpectation3|Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|move|p2a: Indeedee|Expanding Force|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|36/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743840782
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Iron Treads|Earth Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|39/100
+|
+|-heal|p2a: Toxapex|45/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743840801
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Iron Treads|Earth Power|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|51/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743840820
+|move|p1a: Iron Treads|Earth Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|t:|1743840825
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|14
+|
+|t:|1743840833
+|move|p1a: Iron Treads|Earth Power|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|8/100
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|15
+|
+|t:|1743840845
+|move|p1a: Iron Treads|Earth Power|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1743840853
+|switch|p2a: purple tea|Polteageist-Antique|100/100
+|turn|16
+|
+|t:|1743840861
+|move|p1a: Iron Treads|Earth Power|p2a: purple tea
+|-damage|p2a: purple tea|61/100
+|move|p2a: purple tea|Shell Smash|p2a: purple tea
+|-unboost|p2a: purple tea|def|1
+|-unboost|p2a: purple tea|spd|1
+|-boost|p2a: purple tea|atk|2
+|-boost|p2a: purple tea|spa|2
+|-boost|p2a: purple tea|spe|2
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|17
+|
+|t:|1743840872
+|-terastallize|p2a: purple tea|Fighting
+|move|p1a: Iron Treads|Steel Beam|p2a: purple tea
+|-damage|p2a: purple tea|0 fnt
+|-damage|p1a: Iron Treads|0 fnt|[from] steelbeam
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|faint|p2a: purple tea
+|
+|upkeep
+|
+|t:|1743840880
+|switch|p1a: Pelipper|Pelipper, F|63/100
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Pelipper|38/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|18
+|
+|t:|1743840890
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|88/100
+|-singleturn|p1a: Pelipper|move: Roost
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743840913
+|move|p2a: Kingambit|Sucker Punch|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743840917
+|switch|p1a: Kingdra|Kingdra, F|100/100
+|-damage|p1a: Kingdra|88/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743840923
+|-terastallize|p1a: Kingdra|Stellar
+|move|p2a: Kingambit|Sucker Punch|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743840929
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|21
+|
+|t:|1743840935
+|move|p2a: Kingambit|Sucker Punch|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743840940
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|-damage|p1a: Basculegion|88/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1743840946
+|move|p2a: Kingambit|Sucker Punch|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|win|mist262
+|raw|Gr8Xpectation3's rating: 1183 &rarr; <strong>1158</strong><br />(-25 for losing)
+|raw|mist262's rating: 1180 &rarr; <strong>1205</strong><br />(+25 for winning)
+|l|☆Gr8Xpectation3
+|player|p1|
+|l|☆mist262
+|player|p2|

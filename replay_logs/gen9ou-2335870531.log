@@ -1,0 +1,267 @@
+|j|☆hamburgerking
+|j|☆navigatorxdd
+|t:|1743851433
+|gametype|singles
+|player|p1|hamburgerking|baker|1105
+|player|p2|navigatorxdd|101|1090
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Dragapult, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Skarmory, M|
+|poke|p1|Kyurem|
+|poke|p1|Meowscarada, M|
+|poke|p2|Azelf|
+|poke|p2|Grafaiai, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Golem-Alola, F|
+|poke|p2|Flamigo, M|
+|poke|p2|Garganacl, F|
+|teampreview
+|
+|t:|1743851469
+|start
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|switch|p2a: Flamigo|Flamigo, M|100/100
+|turn|1
+|
+|t:|1743851474
+|move|p1a: Meowscarada|Triple Axel|p2a: Flamigo
+|-start|p1a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-supereffective|p2a: Flamigo
+|-damage|p2a: Flamigo|75/100
+|-supereffective|p2a: Flamigo
+|-damage|p2a: Flamigo|25/100
+|-supereffective|p2a: Flamigo
+|-damage|p2a: Flamigo|0 fnt
+|faint|p2a: Flamigo
+|-hitcount|p2: Flamigo|3
+|
+|upkeep
+|
+|t:|1743851506
+|switch|p2a: Garganacl|Garganacl, F, shiny|100/100
+|turn|2
+|
+|t:|1743851513
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Garganacl|Salt Cure|p1a: Slowking
+|-damage|p1a: Slowking|84/100
+|-start|p1a: Slowking|Salt Cure
+|
+|-damage|p1a: Slowking|71/100|[from] Salt Cure
+|upkeep
+|turn|3
+|
+|t:|1743851524
+|move|p2a: Garganacl|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|16/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743851530
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743851540
+|switch|p2a: Azelf|Azelf|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Azelf
+|-immune|p2a: Azelf|[from] ability: Levitate
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743851548
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|move|p2a: Azelf|Psychic|p1a: Meowscarada
+|-immune|p1a: Meowscarada
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743851556
+|switch|p2a: Garganacl|Garganacl, F, shiny|100/100
+|move|p1a: Meowscarada|U-turn|p2a: Garganacl
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-damage|p2a: Garganacl|80/100
+|
+|t:|1743851564
+|switch|p1a: Kyurem|Kyurem|100/100|[from] U-turn
+|-ability|p1a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Garganacl|86/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743851573
+|move|p1a: Kyurem|Draco Meteor|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|-unboost|p1a: Kyurem|spa|2
+|faint|p2a: Garganacl
+|
+|-weather|none
+|upkeep
+|
+|t:|1743851589
+|switch|p2a: Azelf|Azelf|100/100
+|turn|8
+|
+|t:|1743851602
+|switch|p1a: Slowking|Slowking-Galar, M|50/100
+|move|p2a: Azelf|Stealth Rock|p1a: Slowking
+|-sidestart|p1: hamburgerking|move: Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|t:|1743851612
+|move|p2a: Azelf|Taunt|p1a: Slowking
+|-start|p1a: Slowking|move: Taunt
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|cant|p1a: Slowking|move: Taunt|Chilly Reception
+|
+|upkeep
+|turn|10
+|
+|t:|1743851618
+|move|p2a: Azelf|Psychic|p1a: Slowking
+|-damage|p1a: Slowking|28/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Azelf
+|-damage|p2a: Azelf|52/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743851628
+|move|p2a: Azelf|Psychic|p1a: Slowking
+|-damage|p1a: Slowking|6/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Azelf
+|-damage|p2a: Azelf|2/100
+|-status|p2a: Azelf|psn
+|
+|-damage|p2a: Azelf|0 fnt|[from] psn
+|faint|p2a: Azelf
+|-end|p1a: Slowking|move: Taunt
+|upkeep
+|
+|t:|1743851637
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|12
+|
+|t:|1743851642
+|move|p2a: Meowscarada|U-turn|p1a: Slowking
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|-damage|p2a: Meowscarada|91/100|[from] item: Life Orb
+|
+|t:|1743851650
+|switch|p2a: Grafaiai|Grafaiai, F, shiny|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743851655
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|13
+|
+|t:|1743851662
+|move|p2a: Grafaiai|Gunk Shot|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|72/100
+|-status|p1a: Great Tusk|psn
+|move|p1a: Great Tusk|Rapid Spin|p2a: Grafaiai
+|-damage|p2a: Grafaiai|66/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: hamburgerking|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-damage|p1a: Great Tusk|60/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743851672
+|switch|p2a: Golem|Golem-Alola, F|100/100
+|-item|p2a: Golem|Air Balloon
+|move|p1a: Great Tusk|Headlong Rush|p2a: Golem
+|-immune|p2a: Golem
+|
+|-damage|p1a: Great Tusk|47/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743851687
+|move|p1a: Great Tusk|Ice Spinner|p2a: Golem
+|-damage|p2a: Golem|80/100
+|-enditem|p2a: Golem|Air Balloon
+|move|p2a: Golem|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|22/100 psn
+|
+|-damage|p1a: Great Tusk|10/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743851697
+|switch|p2a: Meowscarada|Meowscarada, F|91/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|-damage|p1a: Great Tusk|0 fnt|[from] psn
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1743851709
+|switch|p2a: Grafaiai|Grafaiai, F, shiny|66/100
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|17
+|
+|t:|1743851716
+|move|p2a: Grafaiai|Gunk Shot|p1a: Kyurem|[miss]
+|-miss|p2a: Grafaiai|p1a: Kyurem
+|move|p1a: Kyurem|Earth Power|p2a: Grafaiai
+|-supereffective|p2a: Grafaiai
+|-damage|p2a: Grafaiai|0 fnt
+|faint|p2a: Grafaiai
+|
+|upkeep
+|
+|t:|1743851721
+|switch|p2a: Golem|Golem-Alola, F|80/100
+|turn|18
+|
+|t:|1743851724
+|move|p1a: Kyurem|Earth Power|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|win|hamburgerking
+|raw|hamburgerking's rating: 1105 &rarr; <strong>1129</strong><br />(+24 for winning)
+|raw|navigatorxdd's rating: 1090 &rarr; <strong>1068</strong><br />(-22 for losing)
+|c|☆navigatorxdd|Gg
+|l|☆navigatorxdd
+|player|p2|

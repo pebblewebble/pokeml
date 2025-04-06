@@ -1,0 +1,275 @@
+|j|☆aa231303
+|j|☆Ryan's World
+|t:|1743834514
+|gametype|singles
+|player|p1|aa231303|iris-gen5bw2|1415
+|player|p2|Ryan's World|2|1467
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Crown|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Walking Wake|
+|poke|p1|Serperior, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p2|Weavile, F|
+|poke|p2|Pecharunt|
+|poke|p2|Ting-Lu|
+|poke|p2|Tinkaton, F|
+|poke|p2|Keldeo-Resolute|
+|poke|p2|Dragonite, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ryan's World)
+|
+|t:|1743834531
+|start
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|-enditem|p1a: Walking Wake|Booster Energy
+|-activate|p1a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1a: Walking Wake|protosynthesisatk
+|turn|1
+|
+|t:|1743834541
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-item|p2a: Tinkaton|Air Balloon
+|move|p1a: Walking Wake|Liquidation|p2a: Tinkaton
+|-damage|p2a: Tinkaton|50/100
+|-enditem|p2a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|2
+|
+|t:|1743834550
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Walking Wake|Liquidation|p2a: Pecharunt
+|-damage|p2a: Pecharunt|80/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743834555
+|move|p1a: Walking Wake|Knock Off|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|48/100
+|-enditem|p2a: Pecharunt|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Walking Wake
+|move|p2a: Pecharunt|Malignant Chain|p1a: Walking Wake
+|-damage|p1a: Walking Wake|67/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743834560
+|move|p1a: Walking Wake|Dragon Dance|p1a: Walking Wake
+|-boost|p1a: Walking Wake|atk|1
+|-boost|p1a: Walking Wake|spe|1
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|98/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743834564
+|move|p1a: Walking Wake|Liquidation|p2a: Pecharunt
+|-damage|p2a: Pecharunt|67/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Walking Wake
+|-damage|p1a: Walking Wake|33/100
+|-status|p1a: Walking Wake|tox
+|-start|p1a: Walking Wake|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|
+|-damage|p1a: Walking Wake|27/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743834588
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Pecharunt|atk|1
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743834598
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Dragonite
+|-sidestart|p2: Ryan's World|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1743834602
+|move|p1a: Landorus|U-turn|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|94/100
+|-damage|p1a: Landorus|91/100|[from] item: Life Orb
+|
+|t:|1743834607
+|switch|p1a: Mimikyu|Mimikyu, M|100/100|[from] U-turn
+|move|p2a: Dragonite|Hurricane|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|-start|p1a: Mimikyu|confusion
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M
+|-damage|p1a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|
+|upkeep
+|turn|9
+|inactive|Ryan's World has 120 seconds left.
+|
+|t:|1743834659
+|-activate|p1a: Mimikyu|confusion
+|move|p1a: Mimikyu|Trick|p2a: Dragonite
+|-activate|p1a: Mimikyu|move: Trick|[of] p2a: Dragonite
+|-item|p2a: Dragonite|Choice Band|[from] move: Trick
+|-item|p1a: Mimikyu|Heavy-Duty Boots|[from] move: Trick
+|move|p2a: Dragonite|Earthquake|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|
+|upkeep
+|
+|t:|1743834675
+|switch|p1a: Walking Wake|Walking Wake|27/100 tox
+|turn|10
+|
+|t:|1743834683
+|switch|p2a: Tinkaton|Tinkaton, F|50/100
+|-damage|p2a: Tinkaton|44/100|[from] Stealth Rock
+|move|p1a: Walking Wake|Liquidation|p2a: Tinkaton
+|-damage|p2a: Tinkaton|2/100
+|
+|-damage|p1a: Walking Wake|20/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743834689
+|move|p2a: Tinkaton|Stealth Rock|p1a: Walking Wake
+|-sidestart|p1: aa231303|move: Stealth Rock
+|move|p1a: Walking Wake|Liquidation|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|
+|-damage|p1a: Walking Wake|8/100 tox|[from] psn
+|upkeep
+|
+|t:|1743834715
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|12
+|
+|t:|1743834719
+|move|p2a: Weavile|Knock Off|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743834727
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-damage|p1a: Iron Crown|94/100|[from] Stealth Rock
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespe
+|turn|13
+|
+|t:|1743834737
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-damage|p2a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Iron Crown|Swords Dance|p1a: Iron Crown
+|-boost|p1a: Iron Crown|atk|2
+|
+|upkeep
+|turn|14
+|inactive|Ryan's World has 120 seconds left.
+|
+|t:|1743834746
+|move|p1a: Iron Crown|Iron Head|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|65/100
+|-damage|p1a: Iron Crown|78/100|[from] item: Rocky Helmet|[of] p2a: Ting-Lu
+|move|p2a: Ting-Lu|Earthquake|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-crit|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743834752
+|switch|p1a: Serperior|Serperior, M|100/100
+|-damage|p1a: Serperior|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743834757
+|move|p1a: Serperior|Leaf Storm|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|19/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Ting-Lu|Whirlwind|p1a: Serperior
+|drag|p1a: Slowking|Slowking-Galar, M|100/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Slowking|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743834765
+|switch|p1a: Serperior|Serperior, M|88/100
+|-damage|p1a: Serperior|76/100|[from] Stealth Rock
+|move|p2a: Ting-Lu|Earthquake|p1a: Serperior
+|-resisted|p1a: Serperior
+|-crit|p1a: Serperior
+|-damage|p1a: Serperior|41/100
+|
+|-heal|p1a: Serperior|47/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743834768
+|move|p1a: Serperior|Leaf Storm|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Ting-Lu
+|
+|-heal|p1a: Serperior|53/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743834777
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|18
+|
+|t:|1743834785
+|-terastallize|p1a: Serperior|Fire
+|move|p2a: Weavile|Knock Off|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|-enditem|p1a: Serperior|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|faint|p1a: Serperior
+|
+|upkeep
+|-message|aa231303 forfeited.
+|
+|win|Ryan's World
+|raw|aa231303's rating: 1415 &rarr; <strong>1398</strong><br />(-17 for losing)
+|raw|Ryan&apos;s World's rating: 1467 &rarr; <strong>1484</strong><br />(+17 for winning)
+|l|☆aa231303
+|player|p1|
+|l|☆Ryan's World
+|player|p2|

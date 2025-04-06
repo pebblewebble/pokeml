@@ -1,0 +1,243 @@
+|j|☆ttttllllldibdhejd
+|j|☆Alpha Rong Yuan
+|t:|1743847456
+|gametype|singles
+|player|p1|ttttllllldibdhejd|elesa|1155
+|player|p2|Alpha Rong Yuan|2|1156
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Heatran, M|
+|poke|p1|Volcanion|
+|poke|p1|Torkoal, M|
+|poke|p1|Venusaur, M|
+|poke|p1|Walking Wake|
+|poke|p1|Cloyster, F|
+|poke|p2|Serperior, F|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Dudunsparce-*, M|
+|poke|p2|Arbok, M|
+|poke|p2|Sandaconda, F|
+|poke|p2|Hydrapple, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ttttllllldibdhejd)
+|
+|t:|1743847467
+|start
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|switch|p2a: Arbok|Arbok, M|100/100
+|-ability|p2a: Arbok|Intimidate|boost
+|-unboost|p1a: Cloyster|atk|1
+|turn|1
+|
+|t:|1743847483
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Arbok|Glare|p1a: Cloyster
+|-status|p1a: Cloyster|par
+|
+|upkeep
+|turn|2
+|
+|t:|1743847492
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Arbok|Pain Split|p1a: Cloyster
+|-sethp|p1a: Cloyster|100/100 par|[from] move: Pain Split|[silent]
+|-sethp|p2a: Arbok|97/100|[from] move: Pain Split
+|
+|upkeep
+|turn|3
+|
+|t:|1743847506
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|move|p2a: Arbok|Gunk Shot|p1a: Cloyster
+|-damage|p1a: Cloyster|22/100 par
+|
+|upkeep
+|turn|4
+|
+|t:|1743847522
+|move|p1a: Cloyster|Drill Run|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|
+|upkeep
+|
+|t:|1743847532
+|switch|p2a: Dudunsparce|Dudunsparce-Three-Segment, M|100/100
+|turn|5
+|
+|t:|1743847536
+|move|p1a: Cloyster|Icicle Spear|p2a: Dudunsparce
+|-crit|p2a: Dudunsparce
+|-damage|p2a: Dudunsparce|42/100
+|-crit|p2a: Dudunsparce
+|-damage|p2a: Dudunsparce|0 fnt
+|faint|p2a: Dudunsparce
+|-hitcount|p2: Dudunsparce|2
+|
+|upkeep
+|
+|t:|1743847542
+|switch|p2a: Enamorus|Enamorus-Therian, F|100/100
+|turn|6
+|
+|t:|1743847546
+|cant|p1a: Cloyster|par
+|move|p2a: Enamorus|Draining Kiss|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|
+|t:|1743847570
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|7
+|
+|t:|1743847585
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|move|p2a: Enamorus|Calm Mind|p2a: Enamorus
+|-boost|p2a: Enamorus|spa|1
+|-boost|p2a: Enamorus|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743847592
+|move|p1a: Venusaur|Sludge Bomb|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|38/100
+|move|p2a: Enamorus|Calm Mind|p2a: Enamorus
+|-boost|p2a: Enamorus|spa|1
+|-boost|p2a: Enamorus|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Enamorus|44/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743847598
+|-terastallize|p2a: Enamorus|Ground
+|move|p1a: Venusaur|Sludge Bomb|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|32/100
+|move|p2a: Enamorus|Earth Power|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Enamorus|38/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743847616
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|10
+|
+|t:|1743847619
+|switch|p2a: Hydrapple|Hydrapple, M|100/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Hydrapple
+|-resisted|p2a: Hydrapple
+|-damage|p2a: Hydrapple|85/100
+|-damage|p1a: Walking Wake|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743847633
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|-damage|p1a: Walking Wake|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743847636
+|switch|p2a: Sandaconda|Sandaconda, F|100/100
+|turn|12
+|
+|t:|1743847642
+|move|p1a: Walking Wake|Hydro Steam|p2a: Sandaconda
+|-supereffective|p2a: Sandaconda
+|-damage|p2a: Sandaconda|0 fnt
+|faint|p2a: Sandaconda
+|-damage|p1a: Walking Wake|71/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743847648
+|switch|p2a: Serperior|Serperior, F|100/100
+|turn|13
+|
+|t:|1743847656
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Serperior|Leaf Storm|p1a: Heatran|[miss]
+|-miss|p2a: Serperior|p1a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743847663
+|switch|p2a: Enamorus|Enamorus-Therian, F, tera:Ground|38/100
+|move|p1a: Heatran|Magma Storm|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|-weather|none
+|upkeep
+|
+|t:|1743847666
+|switch|p2a: Serperior|Serperior, F|100/100
+|turn|15
+|
+|t:|1743847670
+|move|p2a: Serperior|Leaf Storm|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|90/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Heatran|Magma Storm|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|win|ttttllllldibdhejd
+|raw|ttttllllldibdhejd's rating: 1126 &rarr; <strong>1153</strong><br />(+27 for winning)
+|raw|Alpha Rong Yuan's rating: 1156 &rarr; <strong>1129</strong><br />(-27 for losing)
+|l|☆ttttllllldibdhejd
+|player|p1|
+|l|☆Alpha Rong Yuan
+|player|p2|

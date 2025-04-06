@@ -1,0 +1,472 @@
+|j|☆ThunderClapYaMama
+|j|☆opgamer21
+|t:|1743868911
+|gametype|singles
+|player|p1|ThunderClapYaMama|ltsurge|1589
+|player|p2|opgamer21|1|1509
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Gholdengo|
+|poke|p1|Raging Bolt|
+|poke|p2|Iron Valiant|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Sableye, F|
+|teampreview
+|
+|t:|1743868929
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|turn|1
+|
+|t:|1743868967
+|-terastallize|p1a: Raging Bolt|Electric
+|move|p2a: Meowscarada|U-turn|p1a: Raging Bolt
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-damage|p1a: Raging Bolt|71/100
+|
+|t:|1743868973
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Raging Bolt|atk|1
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Landorus
+|-damage|p2a: Landorus|24/100
+|-unboost|p1a: Raging Bolt|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1743868986
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: ThunderClapYaMama|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1743868991
+|switch|p2a: Sableye|Sableye, F|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: Sableye
+|-damage|p2a: Sableye|68/100
+|-enditem|p2a: Sableye|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|4
+|
+|t:|1743868997
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt, tera:Electric|71/100
+|move|p2a: Sableye|Will-O-Wisp|p1a: Raging Bolt
+|-status|p1a: Raging Bolt|brn
+|
+|-damage|p1a: Raging Bolt|65/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743869011
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|100/100
+|move|p1a: Raging Bolt|Volt Switch|p2a: Sableye
+|-crit|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|t:|1743869030
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Ting-Lu|Ting-Lu|100/100|[from] Volt Switch
+|-damage|p1a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|
+|-heal|p1a: Ting-Lu|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743869036
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|6
+|
+|t:|1743869041
+|move|p2a: Iron Valiant|Moonblast|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|43/100
+|move|p1a: Ting-Lu|Whirlwind|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|drag|p2a: Meowscarada|Meowscarada, M|100/100
+|
+|-heal|p1a: Ting-Lu|49/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743869048
+|move|p2a: Meowscarada|Flower Trick|p1a: Ting-Lu
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-supereffective|p1a: Ting-Lu
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743869055
+|switch|p1a: Raging Bolt|Raging Bolt, tera:Electric|65/100 brn
+|turn|8
+|
+|t:|1743869064
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-damage|p1a: Raging Bolt|58/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743869073
+|move|p1a: Raging Bolt|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|57/100
+|
+|t:|1743869077
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743869080
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743869090
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|move|p2a: Iron Valiant|Moonblast|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|61/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743869102
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Great Tusk|Great Tusk|98/100
+|-damage|p1a: Great Tusk|95/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743869107
+|move|p1a: Great Tusk|Rapid Spin|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|96/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: ThunderClapYaMama|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Corviknight|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|90/100
+|-damage|p2a: Corviknight|79/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|t:|1743869123
+|switch|p2a: Meowscarada|Meowscarada, M|100/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743869132
+|-terastallize|p2a: Meowscarada|Grass
+|move|p2a: Meowscarada|Flower Trick|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|19/100
+|move|p1a: Great Tusk|Knock Off|p2a: Meowscarada
+|-damage|p2a: Meowscarada|48/100
+|-enditem|p2a: Meowscarada|Choice Scarf|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-weather|none
+|upkeep
+|turn|14
+|
+|t:|1743869140
+|move|p1a: Great Tusk|Ice Spinner|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|upkeep
+|
+|t:|1743869145
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|15
+|
+|t:|1743869150
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|24/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|3/100
+|-damage|p1a: Great Tusk|2/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-enditem|p2a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|16
+|
+|t:|1743869162
+|switch|p2a: Corviknight|Corviknight, M|79/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Great Tusk|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|66/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|17
+|
+|t:|1743869167
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt, tera:Electric|58/100 brn
+|move|p2a: Corviknight|U-turn|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|46/100 brn
+|
+|t:|1743869173
+|switch|p2a: Landorus|Landorus-Therian, M|3/100|[from] U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Raging Bolt|atk|1
+|
+|-damage|p1a: Raging Bolt|40/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743869180
+|move|p2a: Landorus|Earth Power|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743869184
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|turn|19
+|
+|t:|1743869187
+|move|p2a: Landorus|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|93/100
+|
+|t:|1743869190
+|switch|p2a: Corviknight|Corviknight, M|66/100|[from] U-turn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Landorus|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|62/100
+|
+|t:|1743869198
+|switch|p1a: Gholdengo|Gholdengo|61/100|[from] U-turn
+|
+|upkeep
+|turn|20
+|
+|t:|1743869206
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|100/100
+|move|p2a: Corviknight|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|98/100
+|
+|t:|1743869209
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|
+|upkeep
+|turn|21
+|
+|t:|1743869219
+|switch|p1a: Great Tusk|Great Tusk|2/100
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743869242
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|22
+|
+|t:|1743869248
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Slowking|Slowking-Galar, F|90/100
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|upkeep
+|turn|23
+|
+|t:|1743869254
+|move|p1a: Ogerpon|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-enditem|p2a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Ogerpon
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1743869275
+|switch|p2a: Corviknight|Corviknight, M|62/100
+|-ability|p2a: Corviknight|Pressure
+|turn|24
+|
+|t:|1743869306
+|switch|p2a: Landorus|Landorus-Therian, M|3/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ogerpon|atk|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Landorus|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743869308
+|switch|p2a: Corviknight|Corviknight, M|62/100
+|-ability|p2a: Corviknight|Pressure
+|turn|25
+|
+|t:|1743869312
+|switch|p1a: Gholdengo|Gholdengo|98/100
+|move|p2a: Corviknight|Brave Bird|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|82/100
+|-damage|p2a: Corviknight|57/100|[from] Recoil
+|
+|upkeep
+|turn|26
+|
+|t:|1743869323
+|move|p1a: Gholdengo|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|20/100
+|move|p2a: Corviknight|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|79/100
+|
+|t:|1743869326
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|
+|upkeep
+|turn|27
+|
+|t:|1743869350
+|switch|p1a: Landorus|Landorus-Therian, M|93/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Valiant|atk|1
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|18/100
+|
+|upkeep
+|turn|28
+|
+|t:|1743869361
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Corviknight|Corviknight, M|20/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Landorus|Smack Down|p2a: Corviknight
+|-damage|p2a: Corviknight|8/100
+|-start|p2a: Corviknight|Smack Down
+|
+|upkeep
+|turn|29
+|
+|t:|1743869368
+|move|p1a: Landorus|Earthquake|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1743869370
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|30
+|
+|t:|1743869376
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743869378
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|31
+|
+|t:|1743869393
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Ogerpon
+|-damage|p1a: Ogerpon|53/100
+|-unboost|p1a: Ogerpon|spd|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Iron Valiant|[anim] Ivy Cudgel Water
+|-damage|p2a: Iron Valiant|19/100
+|
+|upkeep
+|turn|32
+|
+|t:|1743869401
+|switch|p1a: Gholdengo|Gholdengo|79/100
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743869403
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|53/100
+|turn|33
+|
+|t:|1743869406
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Ogerpon
+|-damage|p1a: Ogerpon|6/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Iron Valiant|[anim] Ivy Cudgel Water
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|win|ThunderClapYaMama
+|raw|ThunderClapYaMama's rating: 1589 &rarr; <strong>1604</strong><br />(+15 for winning)
+|raw|opgamer21's rating: 1509 &rarr; <strong>1494</strong><br />(-15 for losing)
+|l|☆opgamer21
+|player|p2|
+|l|☆ThunderClapYaMama
+|player|p1|

@@ -1,0 +1,181 @@
+|j|☆Edk895
+|j|☆Itkenreiza
+|t:|1743938853
+|gametype|singles
+|player|p1|Edk895|266|1417
+|player|p2|Itkenreiza|170|1364
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Primarina, F|
+|poke|p1|Gholdengo|
+|poke|p1|Gliscor, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Dondozo, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Politoed, M|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Thundurus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Itkenreiza)
+|
+|t:|1743938861
+|start
+|switch|p1a: Primarina|Primarina, F|100/100
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|turn|1
+|
+|t:|1743938870
+|move|p1a: Primarina|Protect|p1a: Primarina
+|-singleturn|p1a: Primarina|Protect
+|move|p2a: Zapdos|U-turn|p1a: Primarina
+|-activate|p1a: Primarina|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1743938878
+|move|p2a: Zapdos|U-turn|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|90/100
+|
+|t:|1743938883
+|switch|p2a: Weezing|Weezing-Galar, F|100/100|[from] U-turn
+|move|p1a: Primarina|Whirlpool|p2a: Weezing
+|-damage|p2a: Weezing|79/100
+|-activate|p2a: Weezing|move: Whirlpool|[of] p1a: Primarina
+|
+|-damage|p2a: Weezing|67/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1743938891
+|move|p2a: Weezing|Sludge Wave|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|40/100
+|move|p1a: Primarina|Perish Song|p1a: Primarina
+|-start|p1a: Primarina|perish3|[silent]
+|-start|p2a: Weezing|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-damage|p2a: Weezing|54/100|[from] move: Whirlpool|[partiallytrapped]
+|-start|p1a: Primarina|perish3
+|-start|p2a: Weezing|perish3
+|upkeep
+|turn|4
+|
+|t:|1743938900
+|move|p1a: Primarina|Rest|p1a: Primarina
+|-status|p1a: Primarina|slp|[from] move: Rest
+|-heal|p1a: Primarina|100/100 slp|[silent]
+|-enditem|p1a: Primarina|Chesto Berry|[eat]
+|-curestatus|p1a: Primarina|slp|[msg]
+|move|p2a: Weezing|Sludge Wave|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|47/100
+|
+|-damage|p2a: Weezing|42/100|[from] move: Whirlpool|[partiallytrapped]
+|-start|p2a: Weezing|perish2
+|-start|p1a: Primarina|perish2
+|upkeep
+|turn|5
+|
+|t:|1743938912
+|move|p1a: Primarina|Protect|p1a: Primarina
+|-singleturn|p1a: Primarina|Protect
+|move|p2a: Weezing|Sludge Wave|p1a: Primarina
+|-activate|p1a: Primarina|move: Protect
+|
+|-damage|p2a: Weezing|30/100|[from] move: Whirlpool|[partiallytrapped]
+|-start|p2a: Weezing|perish1
+|-start|p1a: Primarina|perish1
+|upkeep
+|turn|6
+|c|☆Itkenreiza|luckyy ass
+|
+|t:|1743938926
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|move|p2a: Weezing|Will-O-Wisp|p1a: Weezing|[miss]
+|-miss|p2a: Weezing|p1a: Weezing
+|
+|-end|p2a: Weezing|Whirlpool|[partiallytrapped]|[silent]
+|-start|p2a: Weezing|perish0
+|upkeep
+|faint|p2a: Weezing
+|
+|t:|1743938933
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|7
+|
+|t:|1743938937
+|move|p2a: Politoed|Hydro Pump|p1a: Weezing
+|-damage|p1a: Weezing|33/100
+|move|p1a: Weezing|Will-O-Wisp|p2a: Politoed
+|-status|p2a: Politoed|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Weezing|39/100|[from] item: Leftovers
+|-damage|p2a: Politoed|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743938946
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743938955
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Thundurus|Thunder|p1a: Gliscor
+|-immune|p1a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|10
+|
+|t:|1743938962
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Thundurus|Weather Ball|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743938970
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Thundurus|Thunder|p1a: Ogerpon
+|-damage|p1a: Ogerpon|34/100
+|-status|p1a: Ogerpon|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|-message|Edk895 forfeited.
+|
+|win|Itkenreiza
+|raw|Edk895's rating: 1417 &rarr; <strong>1394</strong><br />(-23 for losing)
+|raw|Itkenreiza's rating: 1364 &rarr; <strong>1387</strong><br />(+23 for winning)
+|l|☆Edk895
+|player|p1|
+|l|☆Itkenreiza
+|player|p2|

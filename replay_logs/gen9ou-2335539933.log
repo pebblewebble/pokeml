@@ -1,0 +1,332 @@
+|j|☆RenegadeArtUtube
+|j|☆mongwong
+|t:|1743804089
+|gametype|singles
+|player|p1|RenegadeArtUtube|gambler|1545
+|player|p2|mongwong|silver-gen2|1673
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blaziken, M|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Polteageist-Antique|
+|poke|p1|Hatterene, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Barraskewda, M|
+|poke|p2|Jolteon, M|
+|poke|p2|Kingdra, M|
+|poke|p2|Decidueye-Hisui, F|
+|poke|p2|Iron Treads|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RenegadeArtUtube)
+|
+|t:|1743804108
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1743804131
+|move|p2a: Iron Treads|Earthquake|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|29/100
+|move|p1a: Raging Bolt|Dragon Breath|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|72/100
+|
+|-heal|p2a: Iron Treads|78/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743804142
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Treads|atk|1
+|move|p2a: Iron Treads|Stealth Rock|p1a: Landorus
+|-sidestart|p1: RenegadeArtUtube|move: Stealth Rock
+|
+|-heal|p2a: Iron Treads|84/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743804152
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Landorus|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: mongwong|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743804165
+|move|p1a: Landorus|Earthquake|p2a: Pelipper
+|-immune|p2a: Pelipper
+|move|p2a: Pelipper|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|96/100
+|-damage|p2a: Pelipper|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|t:|1743804170
+|switch|p2a: Barraskewda|Barraskewda, M|100/100|[from] U-turn
+|-damage|p2a: Barraskewda|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743804180
+|move|p2a: Barraskewda|Flip Turn|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Barraskewda|72/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|
+|t:|1743804186
+|switch|p2a: Jolteon|Jolteon, M|100/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743804193
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|6
+|
+|t:|1743804200
+|move|p2a: Jolteon|Volt Switch|p1a: Ninetales
+|-damage|p1a: Ninetales|38/100
+|
+|t:|1743804202
+|switch|p2a: Iron Treads|Iron Treads|84/100|[from] Volt Switch
+|-damage|p2a: Iron Treads|81/100|[from] Stealth Rock
+|move|p1a: Ninetales|Freeze-Dry|p2a: Iron Treads
+|-damage|p2a: Iron Treads|59/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Iron Treads|65/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743804213
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: RenegadeArtUtube|move: Aurora Veil
+|move|p2a: Iron Treads|Iron Head|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Iron Treads|72/100|[from] item: Leftovers
+|upkeep
+|inactive|RenegadeArtUtube has 120 seconds left.
+|
+|t:|1743804249
+|switch|p1a: Blaziken|Blaziken, M, shiny|100/100
+|-damage|p1a: Blaziken|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1743804256
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Pelipper|Pelipper, F|84/100
+|-damage|p2a: Pelipper|59/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-terastallize|p1a: Blaziken|Ghost
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|9
+|inactive|RenegadeArtUtube has 120 seconds left.
+|
+|t:|1743804271
+|move|p1a: Blaziken|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|12/100
+|-enditem|p2a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p1a: Blaziken
+|move|p2a: Pelipper|Weather Ball|p1a: Blaziken
+|-damage|p1a: Blaziken|53/100
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|10
+|
+|t:|1743804286
+|move|p1a: Blaziken|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743804300
+|switch|p2a: Decidueye|Decidueye-Hisui, F|100/100
+|-damage|p2a: Decidueye|94/100|[from] Stealth Rock
+|turn|11
+|inactive|RenegadeArtUtube has 120 seconds left.
+|
+|t:|1743804312
+|move|p1a: Blaziken|Blaze Kick|p2a: Decidueye|[miss]
+|-miss|p1a: Blaziken|p2a: Decidueye
+|move|p2a: Decidueye|Knock Off|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|18/100
+|-enditem|p1a: Blaziken|Scope Lens|[from] move: Knock Off|[of] p2a: Decidueye
+|
+|-weather|RainDance|[upkeep]
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|12
+|inactive|RenegadeArtUtube has 120 seconds left.
+|c|☆RenegadeArtUtube|Smfh
+|
+|t:|1743804339
+|move|p1a: Blaziken|Blaze Kick|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|12/100
+|move|p2a: Decidueye|Knock Off|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|RenegadeArtUtube has 90 seconds left.
+|
+|t:|1743804373
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743804379
+|move|p2a: Decidueye|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|81/100
+|
+|t:|1743804381
+|switch|p2a: Iron Treads|Iron Treads|72/100|[from] U-turn
+|-damage|p2a: Iron Treads|68/100|[from] Stealth Rock
+|move|p1a: Hatterene|Future Sight|p2a: Iron Treads
+|-start|p1a: Hatterene|move: Future Sight
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Treads|75/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|RenegadeArtUtube has 90 seconds left.
+|inactive|RenegadeArtUtube has 60 seconds left.
+|
+|t:|1743804432
+|move|p2a: Iron Treads|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|66/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|62/100
+|-heal|p1a: Hatterene|77/100|[from] drain|[of] p2a: Iron Treads
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Treads|68/100|[from] item: Leftovers
+|-sideend|p1: RenegadeArtUtube|move: Aurora Veil
+|upkeep
+|turn|15
+|
+|t:|1743804454
+|move|p2a: Iron Treads|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|29/100
+|move|p1a: Hatterene|Future Sight||[still]
+|-fail|p1a: Hatterene
+|
+|-weather|none
+|-end|p2a: Iron Treads|move: Future Sight
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|37/100
+|-heal|p2a: Iron Treads|43/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743804464
+|move|p2a: Iron Treads|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-heal|p2a: Iron Treads|50/100|[from] item: Leftovers
+|upkeep
+|j| crowv2
+|
+|t:|1743804471
+|switch|p1a: Polteageist|Polteageist-Antique|100/100
+|-damage|p1a: Polteageist|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743804481
+|move|p2a: Iron Treads|Earthquake|p1a: Polteageist
+|-damage|p1a: Polteageist|28/100
+|-ability|p1a: Polteageist|Weak Armor|boost
+|-unboost|p1a: Polteageist|def|1
+|-boost|p1a: Polteageist|spe|2
+|-enditem|p1a: Polteageist|White Herb
+|-clearnegativeboost|p1a: Polteageist|[silent]
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|
+|-heal|p2a: Iron Treads|56/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743804495
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Decidueye|Decidueye-Hisui, F|12/100
+|-damage|p2a: Decidueye|6/100|[from] Stealth Rock
+|move|p1a: Polteageist|Giga Drain|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|-heal|p1a: Polteageist|31/100|[from] drain|[of] p2a: Decidueye
+|faint|p2a: Decidueye
+|
+|upkeep
+|
+|t:|1743804497
+|switch|p2a: Barraskewda|Barraskewda, M|72/100
+|-damage|p2a: Barraskewda|60/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743804508
+|move|p2a: Barraskewda|Aqua Jet|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|upkeep
+|c|☆RenegadeArtUtube|Fucking bitch ass Barraskewda
+|-message|RenegadeArtUtube forfeited.
+|
+|win|mongwong

@@ -1,0 +1,396 @@
+|j|☆alexpega
+|j|☆Patxongo
+|t:|1743869617
+|gametype|singles
+|player|p1|alexpega|102|1244
+|player|p2|Patxongo|102|1254
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dusknoir, M|
+|poke|p1|Feraligatr, F|
+|poke|p1|Sceptile, F|
+|poke|p1|Tinkaton, F|
+|poke|p1|Gliscor, M|
+|poke|p1|Weavile, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Kyurem|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|t:|1743869633
+|start
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-item|p1a: Tinkaton|Air Balloon
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tinkaton|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Patxongo)
+|
+|t:|1743869643
+|move|p1a: Tinkaton|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Patxongo|move: Stealth Rock
+|move|p2a: Landorus|Stealth Rock|p1a: Tinkaton
+|-sidestart|p1: alexpega|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743869657
+|move|p1a: Tinkaton|Encore|p2a: Landorus
+|-start|p2a: Landorus|Encore
+|move|p2a: Landorus|Stealth Rock||[still]
+|-fail|p2a: Landorus
+|
+|upkeep
+|turn|3
+|
+|t:|1743869667
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743869678
+|move|p1a: Weavile|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|35/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Weavile
+|-status|p1a: Weavile|brn
+|
+|-damage|p1a: Weavile|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743869701
+|move|p1a: Weavile|Triple Axel|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|32/100
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|24/100
+|-hitcount|p2a: Cinderace|2
+|move|p2a: Cinderace|U-turn|p1a: Weavile
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|t:|1743869709
+|switch|p2a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|
+|upkeep
+|inactive|alexpega has 120 seconds left.
+|
+|t:|1743869747
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|-damage|p1a: Gliscor|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1743869762
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743869768
+|switch|p2a: Kyurem|Kyurem|100/100|[from] Chilly Reception
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+|
+|t:|1743869783
+|-terastallize|p1a: Gliscor|Normal
+|move|p2a: Kyurem|Ice Beam|p1a: Gliscor
+|-damage|p1a: Gliscor|49/100 tox
+|move|p1a: Gliscor|Facade|p2a: Kyurem
+|-damage|p2a: Kyurem|43/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Gliscor|61/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|inactive|Patxongo has 120 seconds left.
+|
+|t:|1743869803
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gliscor|atk|1
+|move|p1a: Gliscor|Protect||[still]
+|-fail|p1a: Gliscor
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Gliscor|74/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|inactive|Patxongo has 120 seconds left.
+|
+|t:|1743869831
+|move|p2a: Landorus|Taunt|p1a: Gliscor
+|-start|p1a: Gliscor|move: Taunt
+|move|p1a: Gliscor|Facade|p2a: Landorus
+|-damage|p2a: Landorus|17/100
+|-damage|p1a: Gliscor|57/100 tox|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Gliscor|70/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|t:|1743869842
+|move|p2a: Landorus|Earthquake|p1a: Gliscor
+|-damage|p1a: Gliscor|33/100 tox
+|move|p1a: Gliscor|Facade|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Gliscor|16/100 tox|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p2a: Landorus
+|
+|-weather|none
+|-heal|p1a: Gliscor|29/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743869849
+|switch|p2a: Kyurem|Kyurem|43/100
+|-ability|p2a: Kyurem|Pressure
+|turn|11
+|
+|t:|1743869859
+|move|p2a: Kyurem|Ice Beam|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|t:|1743869866
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-damage|p1a: Tinkaton|94/100|[from] Stealth Rock
+|-item|p1a: Tinkaton|Air Balloon
+|turn|12
+|inactive|Patxongo has 120 seconds left.
+|
+|t:|1743869874
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Slowking
+|-damage|p2a: Slowking|58/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743869882
+|move|p1a: Tinkaton|Thunder Wave|p2a: Slowking
+|-status|p2a: Slowking|par
+|move|p2a: Slowking|Thunder Wave|p1a: Tinkaton
+|-status|p1a: Tinkaton|par
+|
+|upkeep
+|turn|14
+|
+|t:|1743869890
+|cant|p1a: Tinkaton|par
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743869896
+|switch|p2a: Kingambit|Kingambit, M|100/100|[from] Chilly Reception
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743869904
+|move|p1a: Tinkaton|Thunder Wave|p2a: Kingambit
+|-status|p2a: Kingambit|par
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743869914
+|move|p1a: Tinkaton|Encore|p2a: Kingambit
+|-start|p2a: Kingambit|Encore
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743869928
+|switch|p1a: Feraligatr|Feraligatr, F|100/100
+|-damage|p1a: Feraligatr|88/100|[from] Stealth Rock
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Slowking|Slowking-Galar, F|91/100 par
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743869937
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|move|p2a: Slowking|Thunder Wave|p1a: Feraligatr
+|-status|p1a: Feraligatr|par
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|t:|1743869949
+|move|p1a: Feraligatr|Dragon Dance|p1a: Feraligatr
+|-boost|p1a: Feraligatr|atk|1
+|-boost|p1a: Feraligatr|spe|1
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743869953
+|switch|p2a: Kyurem|Kyurem|43/100|[from] Chilly Reception
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1743869964
+|-terastallize|p2a: Kyurem|Ice
+|move|p2a: Kyurem|Freeze-Dry|p1a: Feraligatr
+|-supereffective|p1a: Feraligatr
+|-crit|p1a: Feraligatr
+|-damage|p1a: Feraligatr|0 fnt
+|faint|p1a: Feraligatr
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743869975
+|switch|p1a: Tinkaton|Tinkaton, F|94/100 par
+|-damage|p1a: Tinkaton|88/100 par|[from] Stealth Rock
+|-item|p1a: Tinkaton|Air Balloon
+|turn|21
+|
+|t:|1743869983
+|switch|p2a: Cinderace|Cinderace, M|24/100
+|-damage|p2a: Cinderace|0 fnt|[from] Stealth Rock
+|faint|p2a: Cinderace
+|cant|p1a: Tinkaton|par
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743869992
+|switch|p2a: Kingambit|Kingambit, M|100/100 par
+|-damage|p2a: Kingambit|94/100 par|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|22
+|
+|t:|1743870000
+|cant|p1a: Tinkaton|par
+|move|p2a: Kingambit|Iron Head|p1a: Tinkaton
+|-damage|p1a: Tinkaton|21/100 par
+|-enditem|p1a: Tinkaton|Air Balloon
+|-enditem|p2a: Kingambit|Leftovers|[silent]|[from] ability: Pickpocket|[of] p2a: Kingambit
+|-item|p1a: Tinkaton|Leftovers|[from] ability: Pickpocket|[of] p2a: Kingambit
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Tinkaton|28/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743870012
+|cant|p1a: Tinkaton|par
+|move|p2a: Kingambit|Iron Head|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|-weather|none
+|upkeep
+|
+|t:|1743870023
+|switch|p1a: Sceptile|Sceptile, F|100/100
+|-damage|p1a: Sceptile|88/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1743870029
+|move|p1a: Sceptile|Focus Blast|p2a: Kingambit|[miss]
+|-miss|p1a: Sceptile|p2a: Kingambit
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Sceptile
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|
+|upkeep
+|c|☆alexpega|gg
+|
+|t:|1743870041
+|switch|p1a: Dusknoir|Dusknoir, M|100/100
+|-damage|p1a: Dusknoir|88/100|[from] Stealth Rock
+|-ability|p1a: Dusknoir|Pressure
+|turn|25
+|
+|t:|1743870048
+|move|p1a: Dusknoir|Fire Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|69/100 par
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Dusknoir
+|-supereffective|p1a: Dusknoir
+|-damage|p1a: Dusknoir|9/100
+|
+|-heal|p1a: Dusknoir|15/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1743870057
+|move|p1a: Dusknoir|Pain Split|p2a: Kingambit
+|-sethp|p2a: Kingambit|40/100 par|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusknoir|54/100|[from] move: Pain Split
+|cant|p2a: Kingambit|par
+|
+|-heal|p1a: Dusknoir|60/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1743870070
+|move|p1a: Dusknoir|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|5/100 par
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Dusknoir
+|-supereffective|p1a: Dusknoir
+|-damage|p1a: Dusknoir|0 fnt
+|faint|p1a: Dusknoir
+|
+|win|Patxongo
+|raw|alexpega's rating: 1244 &rarr; <strong>1220</strong><br />(-24 for losing)
+|raw|Patxongo's rating: 1254 &rarr; <strong>1278</strong><br />(+24 for winning)
+|l|☆Patxongo
+|player|p2|
+|l|☆alexpega
+|player|p1|

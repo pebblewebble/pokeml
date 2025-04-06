@@ -1,0 +1,185 @@
+|j|☆jim colt
+|j|☆BrunoNueveCatorce
+|t:|1743790407
+|gametype|singles
+|player|p1|jim colt|2|1218
+|player|p2|BrunoNueveCatorce|2|1255
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Charizard, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Jolteon, M|
+|poke|p1|Snorlax, M|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Lycanroc, M|
+|poke|p2|Araquanid, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Moth|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Kingambit, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jim colt)
+|
+|t:|1743790419
+|start
+|switch|p1a: Lycanroc|Lycanroc, M|100/100
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|turn|1
+|
+|t:|1743790426
+|move|p1a: Lycanroc|Taunt|p2a: Araquanid
+|-start|p2a: Araquanid|move: Taunt
+|cant|p2a: Araquanid|move: Taunt|Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743790431
+|move|p1a: Lycanroc|Stealth Rock|p2a: Araquanid
+|-sidestart|p2: BrunoNueveCatorce|move: Stealth Rock
+|move|p2a: Araquanid|Liquidation|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-enditem|p1a: Lycanroc|Focus Sash
+|-damage|p1a: Lycanroc|1/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743790436
+|move|p1a: Lycanroc|Endeavor|p2a: Araquanid
+|-damage|p2a: Araquanid|1/100
+|move|p2a: Araquanid|Liquidation|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|faint|p1a: Lycanroc
+|
+|-end|p2a: Araquanid|move: Taunt
+|upkeep
+|
+|t:|1743790441
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|turn|4
+|-enditem|p2a: Araquanid|Custap Berry|[eat]
+|-activate|p2a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1743790445
+|move|p2a: Araquanid|Sticky Web|p1a: Corviknight
+|-sidestart|p1: jim colt|move: Sticky Web
+|move|p1a: Corviknight|U-turn|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|t:|1743790454
+|switch|p1a: Charizard|Charizard, M|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743790461
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|5
+|
+|t:|1743790468
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|-activate|p1a: Snorlax|move: Sticky Web
+|-unboost|p1a: Snorlax|spe|1
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Snorlax
+|-damage|p1a: Snorlax|70/100
+|-status|p1a: Snorlax|par
+|
+|-heal|p1a: Snorlax|76/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743790478
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Snorlax|Encore|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|Encore
+|
+|-heal|p1a: Snorlax|82/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743790484
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743790493
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Corviknight|Defog|p2a: Raging Bolt
+|-unboost|p2a: Raging Bolt|evasion|1
+|-sideend|p2: BrunoNueveCatorce|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|-sideend|p1: jim colt|Sticky Web|[from] move: Defog|[of] p1a: Corviknight
+|
+|upkeep
+|turn|9
+|
+|t:|1743790497
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Corviknight|U-turn|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|75/100
+|
+|t:|1743790504
+|switch|p1a: Jolteon|Jolteon, M|100/100|[from] U-turn
+|
+|-end|p2a: Raging Bolt|Encore
+|upkeep
+|turn|10
+|
+|t:|1743790510
+|-terastallize|p1a: Jolteon|Ice
+|move|p1a: Jolteon|Tera Blast|p2a: Raging Bolt|[anim] Tera Blast Ice
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|40/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|upkeep
+|
+|t:|1743790519
+|switch|p1a: Charizard|Charizard, M|100/100
+|turn|11
+|
+|t:|1743790523
+|move|p2a: Raging Bolt|Thunderclap|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+|-message|jim colt forfeited.
+|
+|win|BrunoNueveCatorce
+|raw|jim colt's rating: 1218 &rarr; <strong>1196</strong><br />(-22 for losing)
+|raw|BrunoNueveCatorce's rating: 1255 &rarr; <strong>1277</strong><br />(+22 for winning)
+|l|☆jim colt
+|player|p1|
+|l|☆BrunoNueveCatorce
+|player|p2|

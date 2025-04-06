@@ -1,0 +1,236 @@
+|j|☆Chicken lick my
+|j|☆coconutwader
+|t:|1743860152
+|gametype|singles
+|player|p1|Chicken lick my|2|1132
+|player|p2|coconutwader|blue|1145
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gliscor, M|
+|poke|p1|Maushold-Four|
+|poke|p1|Pecharunt|
+|poke|p1|Arboliva, M|
+|poke|p1|Dondozo, F|
+|poke|p1|Cinderace, M|
+|poke|p2|Darkrai|
+|poke|p2|Manaphy|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Gholdengo|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|t:|1743860158
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Cinderace|atk|1
+|turn|1
+|
+|t:|1743860170
+|move|p1a: Cinderace|Pyro Ball|p2a: Landorus
+|-damage|p2a: Landorus|66/100
+|move|p2a: Landorus|Stealth Rock|p1a: Cinderace
+|-sidestart|p1: Chicken lick my|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743860175
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Landorus|Earth Power|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|13/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743860183
+|move|p1a: Cinderace|Gunk Shot|p2a: Landorus|[miss]
+|-miss|p1a: Cinderace|p2a: Landorus
+|move|p2a: Landorus|Earth Power|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743860199
+|switch|p1a: Maushold|Maushold-Four|100/100
+|turn|4
+|
+|t:|1743860206
+|move|p1a: Maushold|Population Bomb|p2a: Landorus
+|-damage|p2a: Landorus|56/100
+|-damage|p1a: Maushold|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-damage|p2a: Landorus|46/100
+|-damage|p1a: Maushold|67/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-damage|p2a: Landorus|36/100
+|-damage|p1a: Maushold|51/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-damage|p2a: Landorus|27/100
+|-damage|p1a: Maushold|34/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-damage|p2a: Landorus|17/100
+|-damage|p1a: Maushold|17/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-damage|p2a: Landorus|6/100
+|-damage|p1a: Maushold|1/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-hitcount|p2a: Landorus|6
+|move|p2a: Landorus|Stealth Rock|p1a: Maushold
+|-sidestart|p1: Chicken lick my|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1743860232
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-sideend|p1: Chicken lick my|Stealth Rock
+|-sideend|p2: coconutwader|Stealth Rock
+|-activate|p1a: Maushold|move: Tidy Up
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|move|p2a: Landorus|U-turn|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|
+|t:|1743860243
+|switch|p2a: Manaphy|Manaphy|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743860248
+|switch|p1a: Arboliva|Arboliva, M|100/100
+|turn|6
+|
+|t:|1743860258
+|move|p2a: Manaphy|Ice Beam|p1a: Arboliva
+|-supereffective|p1a: Arboliva
+|-damage|p1a: Arboliva|70/100
+|move|p1a: Arboliva|Leech Seed|p2a: Manaphy
+|-start|p2a: Manaphy|move: Leech Seed
+|
+|-damage|p2a: Manaphy|88/100|[from] Leech Seed|[of] p1a: Arboliva
+|-heal|p1a: Arboliva|82/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1743860276
+|switch|p2a: Darkrai|Darkrai|100/100
+|move|p1a: Arboliva|Protect||[still]
+|-fail|p1a: Arboliva
+|
+|upkeep
+|turn|8
+|
+|t:|1743860284
+|move|p2a: Darkrai|Sludge Bomb|p1a: Arboliva
+|-supereffective|p1a: Arboliva
+|-damage|p1a: Arboliva|42/100
+|-enditem|p1a: Arboliva|Sitrus Berry|[eat]
+|-heal|p1a: Arboliva|67/100|[from] item: Sitrus Berry
+|move|p1a: Arboliva|Leech Seed|p2a: Darkrai
+|-start|p2a: Darkrai|move: Leech Seed
+|
+|-damage|p2a: Darkrai|88/100|[from] Leech Seed|[of] p1a: Arboliva
+|-heal|p1a: Arboliva|77/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1743860293
+|move|p1a: Arboliva|Protect|p1a: Arboliva
+|-singleturn|p1a: Arboliva|Protect
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|
+|-damage|p2a: Darkrai|76/100|[from] Leech Seed|[of] p1a: Arboliva
+|-heal|p1a: Arboliva|86/100|[silent]
+|upkeep
+|turn|10
+|
+|t:|1743860302
+|move|p2a: Darkrai|Focus Blast|p1a: Arboliva
+|-supereffective|p1a: Arboliva
+|-damage|p1a: Arboliva|0 fnt
+|faint|p1a: Arboliva
+|
+|upkeep
+|
+|t:|1743860312
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|turn|11
+|
+|t:|1743860319
+|move|p2a: Darkrai|Dark Pulse|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|t:|1743860326
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|-item|p1a: Pecharunt|Air Balloon
+|turn|12
+|
+|t:|1743860333
+|move|p2a: Darkrai|Dark Pulse|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|-enditem|p1a: Pecharunt|Air Balloon
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1743860339
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|turn|13
+|
+|t:|1743860346
+|-terastallize|p1a: Dondozo|Ground
+|move|p2a: Darkrai|Sludge Bomb|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|86/100
+|-enditem|p1a: Dondozo|Red Card|[of] p2a: Darkrai
+|drag|p2a: Manaphy|Manaphy|88/100
+|move|p1a: Dondozo|Earthquake|p2a: Manaphy
+|-damage|p2a: Manaphy|51/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743860359
+|move|p2a: Manaphy|Surf|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|16/100
+|move|p1a: Dondozo|Ice Fang|p2a: Manaphy
+|-resisted|p2a: Manaphy
+|-damage|p2a: Manaphy|42/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743860367
+|move|p2a: Manaphy|Surf|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|
+|win|coconutwader
+|raw|Chicken lick my's rating: 1132 &rarr; <strong>1108</strong><br />(-24 for losing)
+|raw|coconutwader's rating: 1145 &rarr; <strong>1169</strong><br />(+24 for winning)
+|l|☆Chicken lick my
+|player|p1|
+|c|☆coconutwader|gg
+|l|☆coconutwader
+|player|p2|

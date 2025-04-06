@@ -1,0 +1,507 @@
+|j|☆ezpzlemon
+|j|☆akko hd
+|t:|1743784597
+|gametype|singles
+|player|p1|ezpzlemon|1|1563
+|player|p2|akko hd|169|1499
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Quaquaval, F|
+|poke|p1|Scizor, M|
+|poke|p1|Heatran, M|
+|poke|p1|Darkrai|
+|poke|p1|Latias, F|
+|poke|p2|Moltres|
+|poke|p2|Kingambit, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Great Tusk|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|
+|t:|1743784609
+|start
+|switch|p1a: Heatran|Heatran, M|100/100
+|switch|p2a: Moltres|Moltres|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by akko hd)
+|
+|t:|1743784614
+|move|p2a: Moltres|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|98/100
+|-enditem|p1a: Heatran|Air Balloon
+|
+|t:|1743784618
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100|[from] U-turn
+|move|p1a: Heatran|Stealth Rock|p2a: Grimmsnarl
+|-sidestart|p2: akko hd|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743784635
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: akko hd|move: Light Screen
+|move|p1a: Heatran|Taunt|p2a: Grimmsnarl
+|-start|p2a: Grimmsnarl|move: Taunt
+|
+|upkeep
+|turn|3
+|
+|t:|1743784642
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Heatran|Lava Plume|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|80/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743784647
+|move|p1a: Heatran|Taunt|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|move: Taunt
+|cant|p2a: Raging Bolt|move: Taunt|Calm Mind
+|
+|upkeep
+|turn|5
+|
+|t:|1743784656
+|move|p1a: Heatran|Earth Power|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|52/100
+|-unboost|p2a: Raging Bolt|spd|1
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Heatran
+|-damage|p1a: Heatran|33/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743784671
+|move|p1a: Heatran|Taunt||[still]
+|-fail|p1a: Heatran
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-end|p2a: Raging Bolt|move: Taunt
+|upkeep
+|
+|t:|1743784685
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|7
+|
+|t:|1743784687
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|upkeep
+|turn|8
+|
+|t:|1743784690
+|move|p1a: Dragapult|Dragon Darts|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|5/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743784695
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p2a: Grimmsnarl|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743784700
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Scizor
+|-status|p1a: Scizor|par
+|
+|-sideend|p2: akko hd|move: Light Screen
+|upkeep
+|turn|10
+|
+|t:|1743784704
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: akko hd|Reflect
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|upkeep
+|turn|11
+|
+|t:|1743784709
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Scizor
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|spa|1
+|
+|t:|1743784710
+|switch|p2a: Moltres|Moltres|100/100|[from] Parting Shot
+|move|p1a: Scizor|Knock Off|p2a: Moltres
+|-damage|p2a: Moltres|74/100
+|-enditem|p2a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Scizor
+|
+|upkeep
+|turn|12
+|
+|t:|1743784718
+|switch|p1a: Darkrai|Darkrai|100/100
+|move|p2a: Moltres|Heat Wave|p1a: Darkrai
+|-damage|p1a: Darkrai|43/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743784721
+|move|p1a: Darkrai|Dark Pulse|p2a: Moltres
+|-damage|p2a: Moltres|43/100
+|move|p2a: Moltres|Heat Wave|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|upkeep
+|
+|t:|1743784725
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|turn|14
+|
+|t:|1743784729
+|move|p1a: Quaquaval|Aqua Step|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|-boost|p1a: Quaquaval|spe|1
+|faint|p2a: Moltres
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|upkeep
+|c|☆akko hd|ok
+|
+|t:|1743784736
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|88/100
+|-damage|p2a: Grimmsnarl|76/100|[from] Stealth Rock
+|turn|15
+|c|☆ezpzlemon|?
+|
+|t:|1743784742
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Quaquaval
+|-status|p1a: Quaquaval|par
+|move|p1a: Quaquaval|Aqua Step|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|21/100
+|-boost|p1a: Quaquaval|spe|1
+|
+|upkeep
+|turn|16
+|c|☆akko hd|no burn
+|c|☆ezpzlemon|ur gambling on 30%? fkin loser
+|
+|t:|1743784762
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Quaquaval
+|-unboost|p1a: Quaquaval|atk|1
+|-unboost|p1a: Quaquaval|spa|1
+|c|☆akko hd|Like of cucks like you out here nowadays
+|
+|t:|1743784784
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] Parting Shot
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|move|p1a: Quaquaval|Aqua Step|p2a: Ogerpon
+|-heal|p2a: Ogerpon|100/100|[from] ability: Water Absorb|[of] p1a: Quaquaval
+|
+|upkeep
+|turn|17
+|c|☆ezpzlemon|you whine like a little bitch
+|c|☆akko hd|I said okay and you got offended
+|c|☆akko hd|it is Pokemon
+|c|☆akko hd|chill tf out
+|c|☆ezpzlemon|i said ?
+|inactive|ezpzlemon has 120 seconds left.
+|c|☆ezpzlemon|you whined like a little bitch so i called you a little bitch
+|c|☆ezpzlemon|sorry you got triggered like a lib
+|c|☆akko hd|READ
+|
+|t:|1743784823
+|switch|p1a: Dragapult|Dragapult, M|76/100
+|move|p2a: Ogerpon|Trailblaze|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|54/100
+|-boost|p2a: Ogerpon|spe|1
+|
+|-sideend|p2: akko hd|Reflect
+|upkeep
+|turn|18
+|c|☆akko hd|stupid little boy
+|inactive|ezpzlemon has 120 seconds left.
+|c|☆ezpzlemon|u dumber than biden and kamala combined
+|
+|t:|1743784838
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Dragapult|[anim] Ivy Cudgel Water
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|5/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Ogerpon
+|-damage|p2a: Ogerpon|65/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Ogerpon
+|-crit|p2a: Ogerpon
+|-damage|p2a: Ogerpon|5/100
+|
+|upkeep
+|turn|19
+|c|☆akko hd|Oh you a trumper
+|c|☆akko hd|no wonder you are stupid
+|
+|t:|1743784850
+|move|p2a: Ogerpon|Trailblaze|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-boost|p2a: Ogerpon|spe|1
+|faint|p1a: Dragapult
+|
+|upkeep
+|c|☆ezpzlemon|ya hope he deports u
+|c|☆akko hd|Couldnt be me
+|c|☆akko hd|Selling women for less gas
+|c|☆akko hd|lol could never be me
+|c|☆akko hd|sus mofo
+|inactive|ezpzlemon has 90 seconds left.
+|c|☆ezpzlemon|cant even speak english yup ur on the list
+|
+|t:|1743784886
+|switch|p1a: Scizor|Scizor, M|100/100 par
+|turn|20
+|c|☆akko hd|As you type in "ur" lol
+|
+|t:|1743784897
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|97/100|[from] Stealth Rock
+|move|p1a: Scizor|Bullet Punch|p2a: Great Tusk
+|-damage|p2a: Great Tusk|74/100
+|
+|-heal|p2a: Great Tusk|80/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|c|☆ezpzlemon|u understood
+|inactive|ezpzlemon has 90 seconds left.
+|c|☆akko hd|You lost lil bro you good
+|c|☆akko hd|Got spanked as always
+|c|☆ezpzlemon|whereas less gas sus mofo means literlaly nothing
+|
+|t:|1743784921
+|move|p2a: Great Tusk|Rapid Spin|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|92/100 par
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: akko hd|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-heal|p2a: Great Tusk|87/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆akko hd|"whereas"
+|c|☆akko hd|"literlaly"
+|
+|t:|1743784934
+|move|p1a: Scizor|Bullet Punch|p2a: Great Tusk
+|-damage|p2a: Great Tusk|39/100
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|-heal|p2a: Great Tusk|45/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|ezpzlemon has 90 seconds left.
+|
+|t:|1743784942
+|move|p1a: Scizor|Bullet Punch|p2a: Great Tusk
+|-damage|p2a: Great Tusk|12/100
+|move|p2a: Great Tusk|Earthquake|p1a: Scizor
+|-damage|p1a: Scizor|12/100 par
+|
+|-heal|p2a: Great Tusk|18/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1743784946
+|cant|p1a: Scizor|par
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|-heal|p2a: Great Tusk|24/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1743784949
+|move|p1a: Scizor|Bullet Punch|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743784951
+|switch|p2a: Kingambit|Kingambit, M, shiny|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|turn|26
+|c|☆ezpzlemon|LOL
+|c|☆ezpzlemon|fkin loser
+|inactive|ezpzlemon has 120 seconds left.
+|
+|t:|1743784957
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|inactive|ezpzlemon has 120 seconds left.
+|
+|t:|1743784963
+|switch|p1a: Quaquaval|Quaquaval, F|100/100 par
+|turn|27
+|c|☆akko hd|you need this bad dont you lil bro lol
+|
+|t:|1743784969
+|-end|p2a: Kingambit|fallen3|[silent]
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|21/100
+|cant|p1a: Quaquaval|par
+|
+|upkeep
+|turn|28
+|c|☆ezpzlemon|nah just lke to trigger libs like u
+|
+|t:|1743784980
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Quaquaval
+|-unboost|p1a: Quaquaval|atk|1
+|-unboost|p1a: Quaquaval|spa|1
+|c|☆akko hd|You voted for a guy who R'ed his daughter
+|
+|t:|1743784988
+|switch|p2a: Kingambit|Kingambit, M, shiny|100/100|[from] Parting Shot
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|move|p1a: Quaquaval|Aqua Step|p2a: Kingambit
+|-damage|p2a: Kingambit|72/100
+|-boost|p1a: Quaquaval|spe|1
+|-enditem|p2a: Kingambit|Air Balloon
+|
+|upkeep
+|turn|29
+|c|☆ezpzlemon|classic TDS
+|c|☆akko hd|You do the same dont you
+|c|☆ezpzlemon|believe fake news
+|
+|t:|1743785012
+|move|p1a: Quaquaval|Aqua Step|p2a: Kingambit
+|-damage|p2a: Kingambit|45/100
+|-boost|p1a: Quaquaval|spe|1
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Quaquaval
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|57/100 par
+|
+|upkeep
+|turn|30
+|c|☆akko hd|He got convicted lol
+|
+|t:|1743785019
+|move|p1a: Quaquaval|Aqua Step|p2a: Kingambit
+|-damage|p2a: Kingambit|16/100
+|-boost|p1a: Quaquaval|spe|1
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Quaquaval
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|16/100 par
+|
+|upkeep
+|turn|31
+|c|☆ezpzlemon|lawfare
+|c|☆akko hd|You voted for women losing rights
+|c|☆ezpzlemon|u want daughters to trans to sons anyway
+|c|☆ezpzlemon|get triggered
+|
+|t:|1743785038
+|-end|p2a: Kingambit|fallen3|[silent]
+|switch|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water|5/100
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p1a: Quaquaval|Aqua Step|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-boost|p1a: Quaquaval|spe|1
+|faint|p2a: Ogerpon
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|upkeep
+|c|☆akko hd|You voted for your mom getting a train ran on her
+|
+|t:|1743785048
+|switch|p2a: Kingambit|Kingambit, M, shiny|16/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|32
+|c|☆ezpzlemon|you seem like you have a great grasp on reality
+|c|☆akko hd|You probably would join lol
+|
+|t:|1743785066
+|move|p2a: Kingambit|Sucker Punch|p1a: Quaquaval
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|
+|upkeep
+|
+|t:|1743785068
+|switch|p1a: Latias|Latias, F|100/100
+|turn|33
+|c|☆akko hd|And so do you lil bro
+|c|☆akko hd|Anyway I could end it here
+|c|☆akko hd|But if you want the win you can beg
+|inactive|ezpzlemon has 120 seconds left.
+|
+|t:|1743785095
+|-terastallize|p1a: Latias|Poison
+|move|p2a: Kingambit|Sucker Punch|p1a: Latias
+|-damage|p1a: Latias|55/100
+|move|p1a: Latias|Aura Sphere|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|c|☆ezpzlemon|?
+|c|☆akko hd|You are welcome
+|-message|akko hd forfeited.
+|
+|win|ezpzlemon

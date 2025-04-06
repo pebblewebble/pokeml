@@ -1,0 +1,254 @@
+|j|☆IASASAY
+|j|☆ZaZarude
+|t:|1743810551
+|gametype|singles
+|player|p1|IASASAY|ghetsis|1298
+|player|p2|ZaZarude|266|1257
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Inteleon, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Alomomola, F|
+|poke|p1|Ting-Lu|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Kyurem|
+|poke|p2|Cinderace, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Zapdos|
+|poke|p2|Iron Treads|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ZaZarude)
+|
+|t:|1743810566
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|turn|1
+|
+|t:|1743810572
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Crawdaunt|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|48/100
+|-enditem|p1a: Alomomola|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Crawdaunt
+|
+|upkeep
+|turn|2
+|
+|t:|1743810580
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Alomomola|Flip Turn|p2a: Zapdos
+|-damage|p2a: Zapdos|84/100
+|
+|t:|1743810586
+|switch|p1a: Inteleon|Inteleon, M|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|3
+|
+|t:|1743810590
+|move|p1a: Inteleon|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|3/100
+|-status|p2a: Zapdos|frz
+|cant|p2a: Zapdos|frz
+|
+|upkeep
+|turn|4
+|
+|t:|1743810597
+|move|p1a: Inteleon|Ice Beam|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1743810600
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|5
+|
+|t:|1743810605
+|switch|p1a: Alomomola|Alomomola, F|81/100
+|move|p2a: Cinderace|U-turn|p1a: Alomomola
+|-damage|p1a: Alomomola|69/100
+|
+|t:|1743810609
+|switch|p2a: Slowking|Slowking-Galar, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|6
+|
+|t:|1743810616
+|move|p1a: Alomomola|Flip Turn|p2a: Slowking
+|-damage|p2a: Slowking|86/100
+|
+|t:|1743810618
+|switch|p1a: Ting-Lu|Ting-Lu|100/100|[from] Flip Turn
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743810621
+|switch|p2a: Kyurem|Kyurem|100/100|[from] Chilly Reception
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743810632
+|-terastallize|p1a: Ting-Lu|Ghost
+|move|p2a: Kyurem|Blizzard|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|64/100
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Kyurem
+|-sidestart|p2: ZaZarude|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Ting-Lu|70/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743810644
+|move|p2a: Kyurem|Blizzard|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|32/100
+|move|p1a: Ting-Lu|Ruination|p2a: Kyurem
+|-damage|p2a: Kyurem|51/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Ting-Lu|38/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743810654
+|move|p2a: Kyurem|Blizzard|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743810660
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|10
+|
+|t:|1743810673
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|move|p1a: Dragapult|Dragon Darts|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|81/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|64/100
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1743810689
+|switch|p1a: Inteleon|Inteleon, M|100/100
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Kyurem|Kyurem|51/100
+|-damage|p2a: Kyurem|26/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|
+|upkeep
+|turn|12
+|
+|t:|1743810697
+|move|p1a: Inteleon|Surf|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1743810700
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|-damage|p2a: Crawdaunt|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743810706
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Crawdaunt|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|63/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743810712
+|move|p2a: Crawdaunt|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|27/100
+|move|p1a: Alomomola|Flip Turn|p2a: Crawdaunt
+|-resisted|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|76/100
+|
+|t:|1743810718
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|15
+|
+|t:|1743810725
+|-terastallize|p2a: Crawdaunt|Water
+|move|p1a: Cinderace|U-turn|p2a: Crawdaunt
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p2a: Crawdaunt|22/100
+|
+|t:|1743810730
+|switch|p1a: Alomomola|Alomomola, F|60/100|[from] U-turn
+|move|p2a: Crawdaunt|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|32/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743810738
+|move|p2a: Crawdaunt|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|3/100
+|move|p1a: Alomomola|Flip Turn|p2a: Crawdaunt
+|-resisted|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|11/100
+|
+|t:|1743810744
+|switch|p1a: Inteleon|Inteleon, M|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|17
+|
+|t:|1743810749
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|move|p1a: Inteleon|Surf|p2a: Slowking
+|-damage|p2a: Slowking|40/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743810756
+|move|p1a: Inteleon|Surf|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|-message|ZaZarude forfeited.
+|
+|win|IASASAY
+|raw|IASASAY's rating: 1298 &rarr; <strong>1320</strong><br />(+22 for winning)
+|raw|ZaZarude's rating: 1257 &rarr; <strong>1235</strong><br />(-22 for losing)
+|l|☆ZaZarude
+|player|p2|

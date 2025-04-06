@@ -1,0 +1,244 @@
+|j|☆bigredsword
+|j|☆Ep1c_Squ1d
+|t:|1743895370
+|gametype|singles
+|player|p1|bigredsword|blue|1129
+|player|p2|Ep1c_Squ1d|hiker-gen4|1095
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Zapdos|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Great Tusk|
+|poke|p2|Oranguru, F|
+|poke|p2|Abomasnow, M|
+|poke|p2|Polteageist|
+|poke|p2|Houndoom, F|
+|poke|p2|Amoonguss, M|
+|poke|p2|Quaquaval, F|
+|teampreview
+|
+|t:|1743895379
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Oranguru|Oranguru, F|100/100
+|turn|1
+|
+|t:|1743895389
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Oranguru|[anim] Ivy Cudgel Water
+|-damage|p2a: Oranguru|39/100
+|move|p2a: Oranguru|Trick Room|p2a: Oranguru
+|-fieldstart|move: Trick Room|[of] p2a: Oranguru
+|
+|upkeep
+|turn|2
+|
+|t:|1743895399
+|move|p2a: Oranguru|Thunderbolt|p1a: Ogerpon
+|-damage|p1a: Ogerpon|68/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Oranguru|[anim] Ivy Cudgel Water
+|-damage|p2a: Oranguru|0 fnt
+|faint|p2a: Oranguru
+|
+|upkeep
+|
+|t:|1743895408
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|turn|3
+|
+|t:|1743895426
+|move|p2a: Amoonguss|Toxic|p1a: Ogerpon
+|-status|p1a: Ogerpon|tox
+|move|p1a: Ogerpon|U-turn|p2a: Amoonguss
+|-damage|p2a: Amoonguss|72/100
+|
+|t:|1743895439
+|switch|p1a: Slowking|Slowking-Galar, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1743895452
+|switch|p2a: Houndoom|Houndoom, F|100/100
+|move|p1a: Slowking|Psyshock|p2a: Houndoom
+|-immune|p2a: Houndoom
+|
+|upkeep
+|turn|5
+|
+|t:|1743895484
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Slowking|Sludge Bomb|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|3/100
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1743895506
+|move|p2a: Abomasnow|Blizzard|p1a: Slowking
+|-damage|p1a: Slowking|75/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743895515
+|switch|p2a: Houndoom|Houndoom, F|100/100
+|turn|7
+|
+|t:|1743895526
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|-terastallize|p2a: Houndoom|Dark
+|move|p2a: Houndoom|Sucker Punch||[still]
+|-fail|p2a: Houndoom
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743895552
+|switch|p2a: Polteageist|Polteageist|100/100
+|move|p1a: Zamazenta|Ice Fang|p2a: Polteageist
+|-damage|p2a: Polteageist|61/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|-enditem|p2a: Polteageist|White Herb
+|-clearnegativeboost|p2a: Polteageist|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743895565
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|move|p1a: Zamazenta|Crunch|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|-weather|none
+|upkeep
+|
+|t:|1743895582
+|switch|p2a: Amoonguss|Amoonguss, M|72/100
+|turn|10
+|
+|t:|1743895587
+|move|p1a: Zamazenta|Ice Fang|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|21/100
+|-status|p2a: Amoonguss|frz
+|-status|p1a: Zamazenta|par|[from] ability: Effect Spore|[of] p2a: Amoonguss
+|cant|p2a: Amoonguss|frz
+|
+|upkeep
+|turn|11
+|
+|t:|1743895596
+|move|p1a: Zamazenta|Ice Fang|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|upkeep
+|
+|t:|1743895601
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|turn|12
+|
+|t:|1743895615
+|move|p2a: Quaquaval|Aerial Ace|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|75/100 par
+|move|p1a: Zamazenta|Close Combat|p2a: Quaquaval
+|-damage|p2a: Quaquaval|26/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|
+|upkeep
+|turn|13
+|
+|t:|1743895628
+|move|p2a: Quaquaval|Aerial Ace|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|39/100 par
+|move|p1a: Zamazenta|Ice Fang|p2a: Quaquaval
+|-resisted|p2a: Quaquaval
+|-damage|p2a: Quaquaval|11/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743895636
+|move|p2a: Quaquaval|Aerial Ace|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1743895641
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|15
+|
+|t:|1743895650
+|move|p2a: Quaquaval|Ice Spinner|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|60/100
+|move|p1a: Zapdos|Volt Switch|p2a: Quaquaval
+|-supereffective|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|t:|1743895661
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1743895665
+|switch|p2a: Houndoom|Houndoom, F, tera:Dark|100/100
+|turn|16
+|
+|t:|1743895672
+|move|p2a: Houndoom|Fire Blast|p1a: Great Tusk
+|-damage|p1a: Great Tusk|26/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Houndoom
+|-crit|p2a: Houndoom
+|-damage|p2a: Houndoom|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Houndoom
+|
+|win|bigredsword
+|raw|bigredsword's rating: 1129 &rarr; <strong>1152</strong><br />(+23 for winning)
+|raw|Ep1c_Squ1d's rating: 1095 &rarr; <strong>1073</strong><br />(-22 for losing)
+|l|☆Ep1c_Squ1d
+|player|p2|

@@ -1,0 +1,483 @@
+|j|☆upsilonpsi
+|j|☆MercuryExpress
+|t:|1743877887
+|gametype|singles
+|player|p1|upsilonpsi|hoopster|1259
+|player|p2|MercuryExpress|depotagent|1199
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Turtwig, M|
+|poke|p1|Gholdengo|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Kyurem|
+|poke|p1|Iron Valiant|
+|poke|p2|Deoxys-Defense|
+|poke|p2|Pecharunt|
+|poke|p2|Dragapult, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Quaquaval, M|
+|poke|p2|Oricorio-Pom-Pom, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by upsilonpsi)
+|
+|t:|1743877901
+|start
+|switch|p1a: Turtwig|Turtwig, M|100/100
+|switch|p2a: Setup McGee|Oricorio-Pom-Pom, F|100/100
+|turn|1
+|
+|t:|1743877910
+|move|p2a: Setup McGee|Quiver Dance|p2a: Setup McGee
+|-boost|p2a: Setup McGee|spa|1
+|-boost|p2a: Setup McGee|spd|1
+|-boost|p2a: Setup McGee|spe|1
+|move|p1a: Turtwig|Stealth Rock|p2a: Setup McGee
+|-sidestart|p2: MercuryExpress|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743877918
+|-terastallize|p1a: Turtwig|Ghost
+|move|p2a: Setup McGee|Quiver Dance|p2a: Setup McGee
+|-boost|p2a: Setup McGee|spa|1
+|-boost|p2a: Setup McGee|spd|1
+|-boost|p2a: Setup McGee|spe|1
+|move|p1a: Turtwig|Curse|p2a: Setup McGee
+|-start|p2a: Setup McGee|Curse|[of] p1a: Turtwig
+|-damage|p1a: Turtwig|50/100
+|
+|-damage|p2a: Setup McGee|76/100|[from] Curse
+|upkeep
+|turn|3
+|
+|t:|1743877927
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Setup McGee|atk|1
+|move|p2a: Setup McGee|Revelation Dance|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-heal|p2a: Setup McGee|82/100|[from] item: Leftovers
+|-damage|p2a: Setup McGee|57/100|[from] Curse
+|upkeep
+|turn|4
+|
+|t:|1743877938
+|move|p2a: Setup McGee|Hurricane|p1a: Landorus
+|-damage|p1a: Landorus|9/100
+|-start|p1a: Landorus|confusion
+|-activate|p1a: Landorus|confusion
+|move|p1a: Landorus|Stone Edge|p2a: Setup McGee
+|-supereffective|p2a: Setup McGee
+|-damage|p2a: Setup McGee|0 fnt
+|faint|p2a: Setup McGee
+|
+|upkeep
+|
+|t:|1743877947
+|switch|p2a: john boots|Quaquaval, M|100/100
+|turn|5
+|
+|t:|1743877952
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: john boots|Rapid Spin|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|95/100
+|-boost|p2a: john boots|spe|1
+|-damage|p2a: john boots|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|-sideend|p2: MercuryExpress|Stealth Rock|[from] move: Rapid Spin|[of] p2a: john boots
+|
+|upkeep
+|turn|6
+|
+|t:|1743877960
+|move|p2a: john boots|Flip Turn|p1a: Corviknight
+|-damage|p1a: Corviknight|75/100
+|-damage|p2a: john boots|68/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|t:|1743877969
+|switch|p2a: Fnaf Reference|Ursaluna, M|100/100|[from] Flip Turn
+|move|p1a: Corviknight|Brave Bird|p2a: Fnaf Reference
+|-damage|p2a: Fnaf Reference|75/100
+|-damage|p1a: Corviknight|65/100|[from] Recoil
+|
+|-status|p2a: Fnaf Reference|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|t:|1743877984
+|move|p1a: Corviknight|U-turn|p2a: Fnaf Reference
+|-damage|p2a: Fnaf Reference|64/100 brn
+|
+|t:|1743877986
+|switch|p1a: Turtwig|Turtwig, M, tera:Ghost|50/100|[from] U-turn
+|move|p2a: Fnaf Reference|Supercell Slam|p1a: Turtwig
+|-damage|p1a: Turtwig|0 fnt
+|faint|p1a: Turtwig
+|
+|-damage|p2a: Fnaf Reference|58/100 brn|[from] brn
+|upkeep
+|
+|t:|1743877992
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|turn|8
+|
+|t:|1743878006
+|switch|p2a: heeheeheehaw|Pecharunt|100/100
+|move|p1a: Iron Valiant|Substitute|p1a: Iron Valiant
+|-start|p1a: Iron Valiant|Substitute
+|-damage|p1a: Iron Valiant|76/100
+|
+|-heal|p1a: Iron Valiant|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743878012
+|move|p1a: Iron Valiant|Thunder Wave|p2a: heeheeheehaw
+|-status|p2a: heeheeheehaw|par
+|cant|p2a: heeheeheehaw|par
+|
+|-heal|p1a: Iron Valiant|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743878022
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Corviknight|Corviknight, M|65/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: heeheeheehaw|Malignant Chain|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|upkeep
+|turn|11
+|
+|t:|1743878031
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|cant|p2a: heeheeheehaw|par
+|
+|upkeep
+|turn|12
+|
+|t:|1743878035
+|move|p1a: Corviknight|U-turn|p2a: heeheeheehaw
+|-resisted|p2a: heeheeheehaw
+|-damage|p2a: heeheeheehaw|98/100 par
+|
+|t:|1743878039
+|switch|p1a: Landorus|Landorus-Therian, M|9/100|[from] U-turn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: heeheeheehaw|atk|1
+|move|p2a: heeheeheehaw|Curse|p1a: Landorus
+|-start|p1a: Landorus|Curse|[of] p2a: heeheeheehaw
+|-damage|p2a: heeheeheehaw|48/100 par
+|
+|-heal|p2a: heeheeheehaw|54/100 par|[from] item: Leftovers
+|-damage|p1a: Landorus|0 fnt|[from] Curse
+|faint|p1a: Landorus
+|upkeep
+|
+|t:|1743878042
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|13
+|
+|t:|1743878047
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: heeheeheehaw|Malignant Chain|p1a: Kyurem
+|-damage|p1a: Kyurem|57/100
+|-status|p1a: Kyurem|tox
+|-start|p1a: Kyurem|confusion|[from] ability: Poison Puppeteer|[of] p2a: heeheeheehaw
+|
+|-heal|p2a: heeheeheehaw|60/100 par|[from] item: Leftovers
+|-damage|p1a: Kyurem|51/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743878058
+|-activate|p1a: Kyurem|confusion
+|-damage|p1a: Kyurem|28/100 tox|[from] confusion
+|cant|p2a: heeheeheehaw|par
+|
+|-heal|p2a: heeheeheehaw|67/100 par|[from] item: Leftovers
+|-damage|p1a: Kyurem|16/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743878070
+|-activate|p1a: Kyurem|confusion
+|move|p1a: Kyurem|Icicle Spear|p2a: heeheeheehaw
+|-damage|p2a: heeheeheehaw|55/100 par
+|-damage|p2a: heeheeheehaw|43/100 par
+|-damage|p2a: heeheeheehaw|30/100 par
+|-damage|p2a: heeheeheehaw|20/100 par
+|-damage|p2a: heeheeheehaw|9/100 par
+|-hitcount|p2a: heeheeheehaw|5
+|move|p2a: heeheeheehaw|Hex|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-heal|p2a: heeheeheehaw|15/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1743878077
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|16
+|
+|t:|1743878081
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: heeheeheehaw|Curse|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|
+|-heal|p2a: heeheeheehaw|21/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743878092
+|move|p1a: Gholdengo|Shadow Ball|p2a: heeheeheehaw
+|-supereffective|p2a: heeheeheehaw
+|-damage|p2a: heeheeheehaw|0 fnt
+|faint|p2a: heeheeheehaw
+|
+|upkeep
+|
+|t:|1743878097
+|switch|p2a: Swivel|Dragapult, F|100/100
+|turn|18
+|
+|t:|1743878103
+|move|p2a: Swivel|Sucker Punch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|43/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Shadow Ball|p2a: Swivel
+|-supereffective|p2a: Swivel
+|-damage|p2a: Swivel|0 fnt
+|faint|p2a: Swivel
+|
+|upkeep
+|
+|t:|1743878117
+|switch|p2a: john boots|Quaquaval, M|68/100
+|turn|19
+|
+|t:|1743878121
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: john boots|Aqua Step|p1a: Corviknight
+|-damage|p1a: Corviknight|76/100
+|-boost|p2a: john boots|spe|1
+|-damage|p2a: john boots|51/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|upkeep
+|turn|20
+|
+|t:|1743878134
+|move|p2a: john boots|Flip Turn|p1a: Corviknight
+|-damage|p1a: Corviknight|55/100
+|-damage|p2a: john boots|35/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|t:|1743878137
+|switch|p2a: A Wall|Deoxys-Defense|100/100|[from] Flip Turn
+|-ability|p2a: A Wall|Pressure
+|move|p1a: Corviknight|Brave Bird|p2a: A Wall
+|-damage|p2a: A Wall|74/100
+|-damage|p1a: Corviknight|49/100|[from] Recoil
+|
+|-heal|p2a: A Wall|80/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743878143
+|move|p2a: A Wall|Cosmic Power|p2a: A Wall
+|-boost|p2a: A Wall|def|1
+|-boost|p2a: A Wall|spd|1
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|99/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-heal|p2a: A Wall|86/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743878148
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|88/100
+|move|p2a: A Wall|Cosmic Power|p2a: A Wall
+|-boost|p2a: A Wall|def|1
+|-boost|p2a: A Wall|spd|1
+|
+|-heal|p1a: Iron Valiant|94/100|[from] item: Leftovers
+|-heal|p2a: A Wall|93/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743878159
+|move|p1a: Iron Valiant|Substitute|p1a: Iron Valiant
+|-start|p1a: Iron Valiant|Substitute
+|-damage|p1a: Iron Valiant|69/100
+|move|p2a: A Wall|Cosmic Power|p2a: A Wall
+|-boost|p2a: A Wall|def|1
+|-boost|p2a: A Wall|spd|1
+|
+|-heal|p1a: Iron Valiant|76/100|[from] item: Leftovers
+|-heal|p2a: A Wall|99/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1743878162
+|move|p1a: Iron Valiant|Thunder Wave|p2a: A Wall
+|-status|p2a: A Wall|par
+|cant|p2a: A Wall|par
+|
+|-heal|p1a: Iron Valiant|82/100|[from] item: Leftovers
+|-heal|p2a: A Wall|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1743878164
+|move|p1a: Iron Valiant|Moonblast|p2a: A Wall
+|-damage|p2a: A Wall|90/100 par
+|move|p2a: A Wall|Cosmic Power|p2a: A Wall
+|-boost|p2a: A Wall|def|1
+|-boost|p2a: A Wall|spd|1
+|
+|-heal|p1a: Iron Valiant|88/100|[from] item: Leftovers
+|-heal|p2a: A Wall|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1743878167
+|move|p1a: Iron Valiant|Moonblast|p2a: A Wall
+|-damage|p2a: A Wall|88/100 par
+|move|p2a: A Wall|Cosmic Power|p2a: A Wall
+|-boost|p2a: A Wall|def|1
+|-boost|p2a: A Wall|spd|1
+|
+|-heal|p1a: Iron Valiant|94/100|[from] item: Leftovers
+|-heal|p2a: A Wall|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1743878170
+|move|p1a: Iron Valiant|Moonblast|p2a: A Wall
+|-damage|p2a: A Wall|86/100 par
+|move|p2a: A Wall|Cosmic Power|p2a: A Wall
+|-boost|p2a: A Wall|def|1
+|-boost|p2a: A Wall|spd|1
+|
+|-heal|p1a: Iron Valiant|100/100|[from] item: Leftovers
+|-heal|p2a: A Wall|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1743878174
+|move|p1a: Iron Valiant|Moonblast|p2a: A Wall
+|-damage|p2a: A Wall|85/100 par
+|move|p2a: A Wall|Charge Beam|p1a: Iron Valiant
+|-activate|p1a: Iron Valiant|move: Substitute|[damage]
+|-boost|p2a: A Wall|spa|1
+|
+|-heal|p2a: A Wall|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1743878177
+|move|p1a: Iron Valiant|Moonblast|p2a: A Wall
+|-damage|p2a: A Wall|85/100 par
+|-unboost|p2a: A Wall|spa|1
+|move|p2a: A Wall|Charge Beam|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Substitute
+|-boost|p2a: A Wall|spa|1
+|
+|-heal|p2a: A Wall|92/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1743878182
+|move|p1a: Iron Valiant|Substitute|p1a: Iron Valiant
+|-start|p1a: Iron Valiant|Substitute
+|-damage|p1a: Iron Valiant|76/100
+|move|p2a: A Wall|Stored Power|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Substitute
+|
+|-heal|p1a: Iron Valiant|82/100|[from] item: Leftovers
+|-heal|p2a: A Wall|98/100 par|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1743878187
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Corviknight|Corviknight, M|99/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: A Wall|Charge Beam|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|75/100
+|-boost|p2a: A Wall|spa|1
+|
+|-heal|p2a: A Wall|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1743878199
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: A Wall|Stored Power|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|30/100
+|
+|upkeep
+|turn|33
+|
+|t:|1743878207
+|move|p1a: Corviknight|U-turn|p2a: A Wall
+|-supereffective|p2a: A Wall
+|-damage|p2a: A Wall|95/100 par
+|
+|t:|1743878211
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|82/100|[from] U-turn
+|cant|p2a: A Wall|par
+|
+|-heal|p1a: Iron Valiant|88/100|[from] item: Leftovers
+|-heal|p2a: A Wall|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1743878217
+|move|p1a: Iron Valiant|Substitute|p1a: Iron Valiant
+|-start|p1a: Iron Valiant|Substitute
+|-damage|p1a: Iron Valiant|63/100
+|cant|p2a: A Wall|par
+|
+|-heal|p1a: Iron Valiant|69/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|-message|upsilonpsi forfeited.
+|
+|win|MercuryExpress
+|raw|upsilonpsi's rating: 1259 &rarr; <strong>1230</strong><br />(-29 for losing)
+|raw|MercuryExpress's rating: 1199 &rarr; <strong>1228</strong><br />(+29 for winning)
+|l|☆upsilonpsi
+|player|p1|
+|l|☆MercuryExpress
+|player|p2|

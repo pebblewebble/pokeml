@@ -1,0 +1,351 @@
+|j|☆Iori255
+|j|☆ezperzwahn
+|t:|1743829045
+|gametype|singles
+|player|p1|Iori255|hugh|1102
+|player|p2|ezperzwahn|burglar|1094
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blastoise, M|
+|poke|p1|Charizard, M|
+|poke|p1|Greninja-*, M|
+|poke|p1|Lucario, M|
+|poke|p1|Pikachu, M|
+|poke|p1|Venusaur, M|
+|poke|p2|Glimmora, F|
+|poke|p2|Araquanid, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1743829069
+|start
+|switch|p1a: Pikachu|Pikachu, M|100/100
+|switch|p2a: Glimmora|Glimmora, F, shiny|100/100
+|turn|1
+|
+|t:|1743829083
+|move|p1a: Pikachu|Thunder Wave|p2a: Glimmora
+|-status|p2a: Glimmora|par
+|move|p2a: Glimmora|Mortal Spin|p1a: Pikachu
+|-damage|p1a: Pikachu|86/100
+|-status|p1a: Pikachu|psn
+|
+|-damage|p1a: Pikachu|73/100 psn|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1743829095
+|move|p1a: Pikachu|Encore|p2a: Glimmora
+|-start|p2a: Glimmora|Encore
+|cant|p2a: Glimmora|par
+|
+|-damage|p1a: Pikachu|61/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1743829107
+|switch|p1a: Lucario|Lucario, M|100/100
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|
+|upkeep
+|turn|4
+|
+|t:|1743829118
+|switch|p1a: Charizard|Charizard, M|100/100
+|move|p2a: Great Tusk|Body Press|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|67/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743829130
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Araquanid|Araquanid, M, shiny|100/100
+|move|p1a: Charizard|Belly Drum|p1a: Charizard
+|-damage|p1a: Charizard|17/100
+|-setboost|p1a: Charizard|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Charizard|Sitrus Berry|[eat]
+|-heal|p1a: Charizard|42/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|6
+|
+|t:|1743829144
+|switch|p2a: Glimmora|Glimmora, F, shiny|100/100 par
+|move|p1a: Charizard|Acrobatics|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|10/100 par
+|-damage|p1a: Charizard|25/100|[from] item: Rocky Helmet|[of] p2a: Glimmora
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Iori255|move: Toxic Spikes
+|
+|upkeep
+|turn|7
+|
+|t:|1743829154
+|move|p2a: Glimmora|Spiky Shield|p2a: Glimmora
+|-singleturn|p2a: Glimmora|move: Protect
+|move|p1a: Charizard|Flame Charge|p2a: Glimmora
+|-activate|p2a: Glimmora|move: Protect
+|-damage|p1a: Charizard|13/100|[from] Spiky Shield|[of] p2a: Glimmora
+|
+|upkeep
+|turn|8
+|
+|t:|1743829172
+|move|p1a: Charizard|Flame Charge|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-boost|p1a: Charizard|spe|1
+|-damage|p1a: Charizard|0 fnt|[from] item: Rocky Helmet|[of] p2a: Glimmora
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Iori255|move: Toxic Spikes
+|faint|p2a: Glimmora
+|faint|p1a: Charizard
+|
+|upkeep
+|
+|t:|1743829195
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M, shiny|100/100
+|-sideend|p1: Iori255|move: Toxic Spikes|[of] p1a: Venusaur
+|turn|9
+|
+|t:|1743829207
+|-terastallize|p2a: Samurott|Poison
+|move|p2a: Samurott|Ceaseless Edge|p1a: Venusaur
+|-damage|p1a: Venusaur|40/100
+|-sidestart|p1: Iori255|Spikes
+|move|p1a: Venusaur|Sunny Day|p1a: Venusaur
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743829226
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|move|p2a: Samurott|Ceaseless Edge|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|-sidestart|p1: Iori255|Spikes
+|faint|p1a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743829237
+|switch|p1a: Pikachu|Pikachu, M|61/100 psn
+|-damage|p1a: Pikachu|45/100 psn|[from] Spikes
+|turn|11
+|
+|t:|1743829243
+|move|p2a: Samurott|Ceaseless Edge|p1a: Pikachu
+|-damage|p1a: Pikachu|0 fnt
+|-sidestart|p1: Iori255|Spikes
+|faint|p1a: Pikachu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743829258
+|switch|p1a: Lucario|Lucario, M|100/100
+|-damage|p1a: Lucario|76/100|[from] Spikes
+|turn|12
+|
+|t:|1743829267
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100
+|move|p1a: Lucario|Extreme Speed|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743829275
+|move|p2a: Dragapult|Flamethrower|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743829279
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|-damage|p1a: Blastoise|76/100|[from] Spikes
+|turn|14
+|
+|t:|1743829288
+|move|p2a: Dragapult|U-turn|p1a: Blastoise
+|-damage|p1a: Blastoise|52/100
+|-damage|p2a: Dragapult|81/100|[from] item: Life Orb
+|
+|t:|1743829296
+|switch|p2a: Araquanid|Araquanid, M, shiny|100/100|[from] U-turn
+|move|p1a: Blastoise|Shell Smash|p1a: Blastoise
+|-unboost|p1a: Blastoise|def|1
+|-unboost|p1a: Blastoise|spd|1
+|-boost|p1a: Blastoise|atk|2
+|-boost|p1a: Blastoise|spa|2
+|-boost|p1a: Blastoise|spe|2
+|-enditem|p1a: Blastoise|White Herb
+|-clearnegativeboost|p1a: Blastoise|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743829310
+|-terastallize|p1a: Blastoise|Electric
+|move|p1a: Blastoise|Tera Blast|p2a: Araquanid|[anim] Tera Blast Electric
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|5/100
+|move|p2a: Araquanid|Infestation|p1a: Blastoise
+|-damage|p1a: Blastoise|48/100
+|-activate|p1a: Blastoise|move: Infestation|[of] p2a: Araquanid
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Blastoise|31/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|t:|1743829321
+|move|p2a: Araquanid|Protect|p2a: Araquanid
+|-singleturn|p2a: Araquanid|Protect
+|move|p1a: Blastoise|Tera Blast|p2a: Araquanid|[anim] Tera Blast Electric
+|-activate|p2a: Araquanid|move: Protect
+|
+|-weather|none
+|-damage|p1a: Blastoise|15/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|17
+|
+|t:|1743829335
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|move|p1a: Blastoise|Tera Blast|p2a: Great Tusk|[anim] Tera Blast Electric
+|-immune|p2a: Great Tusk
+|
+|-end|p1a: Blastoise|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|turn|18
+|
+|t:|1743829351
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Dragapult|Dragapult, M, shiny|81/100
+|move|p1a: Blastoise|Surf|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|5/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743829363
+|move|p1a: Blastoise|Ice Beam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1743829373
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|turn|20
+|
+|t:|1743829377
+|move|p1a: Blastoise|Tera Blast|p2a: Corviknight|[anim] Tera Blast Electric
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|8/100
+|move|p2a: Corviknight|U-turn|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|t:|1743829386
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743829391
+|switch|p1a: Greninja|Greninja, M|100/100
+|-damage|p1a: Greninja|76/100|[from] Spikes
+|turn|21
+|
+|t:|1743829396
+|move|p1a: Greninja|Hydro Pump|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-ability|p1a: Greninja|Battle Bond|boost
+|-boost|p1a: Greninja|atk|1
+|-boost|p1a: Greninja|spa|1
+|-boost|p1a: Greninja|spe|1
+|-activate|p1a: Greninja|ability: Battle Bond
+|-damage|p1a: Greninja|66/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743829406
+|switch|p2a: Samurott|Samurott-Hisui, M, shiny, tera:Poison|100/100
+|turn|22
+|
+|t:|1743829412
+|move|p1a: Greninja|Hydro Pump|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|-damage|p1a: Greninja|56/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743829418
+|switch|p2a: Araquanid|Araquanid, M, shiny|5/100
+|turn|23
+|
+|t:|1743829423
+|move|p1a: Greninja|Shadow Sneak|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|-damage|p1a: Greninja|46/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743829429
+|switch|p2a: Corviknight|Corviknight, M, shiny|8/100
+|turn|24
+|
+|t:|1743829434
+|move|p1a: Greninja|Hydro Pump|p2a: Corviknight|[miss]
+|-miss|p1a: Greninja|p2a: Corviknight
+|move|p2a: Corviknight|Brave Bird|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|-damage|p2a: Corviknight|0 fnt|[from] Recoil
+|faint|p2a: Corviknight
+|
+|win|ezperzwahn
+|raw|Iori255's rating: 1102 &rarr; <strong>1076</strong><br />(-26 for losing)
+|raw|ezperzwahn's rating: 1094 &rarr; <strong>1120</strong><br />(+26 for winning)
+|l|☆Iori255
+|player|p1|
+|l|☆ezperzwahn
+|player|p2|

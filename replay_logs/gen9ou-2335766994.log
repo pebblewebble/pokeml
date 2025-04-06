@@ -1,0 +1,219 @@
+|j|☆Kemekazee
+|j|☆depart168
+|t:|1743832728
+|gametype|singles
+|player|p1|Kemekazee|169|1091
+|player|p2|depart168|169|1155
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Revavroom, F|
+|poke|p1|Palossand, F|
+|poke|p1|Mienshao, M|
+|poke|p1|Florges, F|
+|poke|p1|Whimsicott, F|
+|poke|p1|Sandy Shocks|
+|poke|p2|Ninetales, M|
+|poke|p2|Great Tusk|
+|poke|p2|Leavanny, F|
+|poke|p2|Shiftry, M|
+|poke|p2|Walking Wake|
+|poke|p2|Moltres|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by depart168)
+|
+|t:|1743832742
+|start
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1743832747
+|move|p1a: Mienshao|Close Combat|p2a: Ninetales
+|-damage|p2a: Ninetales|16/100
+|-unboost|p1a: Mienshao|def|1
+|-unboost|p1a: Mienshao|spd|1
+|move|p2a: Ninetales|Will-O-Wisp|p1a: Mienshao|[miss]
+|-miss|p2a: Ninetales|p1a: Mienshao
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743832763
+|switch|p2a: Leavanny|Leavanny, F|100/100
+|move|p1a: Mienshao|Close Combat|p2a: Leavanny
+|-resisted|p2a: Leavanny
+|-damage|p2a: Leavanny|50/100
+|-unboost|p1a: Mienshao|def|1
+|-unboost|p1a: Mienshao|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743832777
+|switch|p1a: Revavroom|Revavroom, F|100/100
+|-item|p1a: Revavroom|Air Balloon
+|-terastallize|p2a: Leavanny|Ghost
+|move|p2a: Leavanny|Sticky Web|p1a: Revavroom
+|-sidestart|p1: Kemekazee|move: Sticky Web
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743832789
+|move|p2a: Leavanny|Leaf Storm|p1a: Revavroom
+|-resisted|p1a: Revavroom
+|-damage|p1a: Revavroom|84/100
+|-unboost|p2a: Leavanny|spa|2
+|-enditem|p2a: Leavanny|Eject Pack
+|-enditem|p1a: Revavroom|Air Balloon
+|
+|t:|1743832795
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisspe
+|move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+|-boost|p1a: Revavroom|spe|2
+|-boost|p1a: Revavroom|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743832806
+|move|p1a: Revavroom|Gunk Shot|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|71/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Revavroom
+|-resisted|p1a: Revavroom
+|-damage|p1a: Revavroom|76/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|77/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743832812
+|move|p2a: Great Tusk|Headlong Rush|p1a: Revavroom
+|-supereffective|p1a: Revavroom
+|-damage|p1a: Revavroom|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Revavroom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|83/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743832816
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|-activate|p1a: Whimsicott|move: Sticky Web
+|-unboost|p1a: Whimsicott|spe|1
+|turn|7
+|
+|t:|1743832823
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Shiftry|Shiftry, M|100/100
+|move|p1a: Whimsicott|Stun Spore|p2a: Shiftry
+|-immune|p2a: Shiftry
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743832830
+|move|p2a: Shiftry|Solar Blade||[still]
+|-prepare|p2a: Shiftry|Solar Blade
+|-anim|p2a: Shiftry|Solar Blade|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|73/100
+|-damage|p2a: Shiftry|91/100|[from] item: Life Orb
+|move|p1a: Whimsicott|Moonblast|p2a: Shiftry
+|-supereffective|p2a: Shiftry
+|-crit|p2a: Shiftry
+|-damage|p2a: Shiftry|0 fnt
+|faint|p2a: Shiftry
+|
+|-weather|none
+|-heal|p1a: Whimsicott|79/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743832835
+|switch|p2a: Ninetales|Ninetales, M|16/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|9
+|
+|t:|1743832838
+|move|p1a: Whimsicott|Stun Spore|p2a: Ninetales
+|-status|p2a: Ninetales|par
+|move|p2a: Ninetales|Weather Ball|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743832855
+|switch|p1a: Florges|Florges, F|100/100
+|-activate|p1a: Florges|move: Sticky Web
+|-unboost|p1a: Florges|spe|1
+|turn|10
+|
+|t:|1743832870
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Florges|Calm Mind|p1a: Florges
+|-boost|p1a: Florges|spa|1
+|-boost|p1a: Florges|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743832875
+|move|p2a: Moltres|Flamethrower|p1a: Florges
+|-damage|p1a: Florges|76/100
+|move|p1a: Florges|Calm Mind|p1a: Florges
+|-boost|p1a: Florges|spa|1
+|-boost|p1a: Florges|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Florges|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743832887
+|move|p2a: Moltres|Flamethrower|p1a: Florges
+|-damage|p1a: Florges|62/100
+|move|p1a: Florges|Alluring Voice|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|69/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Florges|68/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|-message|depart168 forfeited.
+|
+|win|Kemekazee
+|raw|Kemekazee's rating: 1091 &rarr; <strong>1122</strong><br />(+31 for winning)
+|raw|depart168's rating: 1155 &rarr; <strong>1125</strong><br />(-30 for losing)
+|l|☆depart168
+|player|p2|
+|l|☆Kemekazee
+|player|p1|

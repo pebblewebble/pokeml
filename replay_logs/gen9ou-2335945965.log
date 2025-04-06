@@ -1,0 +1,256 @@
+|j|☆buyibu
+|j|☆LeDauphinRoi
+|t:|1743862339
+|gametype|singles
+|player|p1|buyibu|cynthia|1404
+|player|p2|LeDauphinRoi|skierf|1405
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Latias, F|
+|poke|p1|Maushold-Four|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Skeledirge, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Ribombee, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Serperior, F|
+|poke|p2|Mimikyu, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Bisharp, F|
+|teampreview
+|j| Utghhhh
+|
+|t:|1743862345
+|start
+|switch|p1a: Maushold|Maushold-Four|100/100
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by buyibu)
+|
+|t:|1743862355
+|-terastallize|p2a: Ribombee|Ghost
+|move|p2a: Ribombee|Sticky Web|p1a: Maushold
+|-sidestart|p1: buyibu|move: Sticky Web
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-sideend|p1: buyibu|Sticky Web
+|-activate|p1a: Maushold|move: Tidy Up
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743862360
+|move|p1a: Maushold|Encore|p2a: Ribombee
+|-start|p2a: Ribombee|Encore
+|move|p2a: Ribombee|Sticky Web|p1a: Maushold
+|-sidestart|p1: buyibu|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|t:|1743862366
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-sideend|p1: buyibu|Sticky Web
+|-activate|p1a: Maushold|move: Tidy Up
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743862379
+|move|p1a: Maushold|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|77/100
+|
+|t:|1743862381
+|switch|p1a: Skeledirge|Skeledirge, M|100/100|[from] U-turn
+|move|p2a: Dragapult|Dragon Darts|p1a: Skeledirge
+|-damage|p1a: Skeledirge|85/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Skeledirge
+|-damage|p1a: Skeledirge|71/100
+|-damage|p2a: Dragapult|68/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|t:|1743862387
+|move|p2a: Dragapult|Hydro Pump|p1a: Skeledirge|[miss]
+|-miss|p2a: Dragapult|p1a: Skeledirge
+|move|p1a: Skeledirge|Will-O-Wisp|p2a: Dragapult
+|-status|p2a: Dragapult|brn
+|
+|-damage|p2a: Dragapult|62/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743862392
+|switch|p2a: Bisharp|Bisharp, F|100/100
+|move|p1a: Skeledirge|Hex|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|90/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743862397
+|move|p2a: Bisharp|Throat Chop|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|18/100
+|-start|p1a: Skeledirge|Throat Chop|[silent]
+|move|p1a: Skeledirge|Will-O-Wisp|p2a: Bisharp
+|-status|p2a: Bisharp|brn
+|
+|-damage|p2a: Bisharp|84/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743862404
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Bisharp|Throat Chop|p1a: Hatterene
+|-damage|p1a: Hatterene|84/100
+|-start|p1a: Hatterene|Throat Chop|[silent]
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1743862421
+|switch|p1a: Latias|Latias, F|100/100
+|
+|-damage|p2a: Bisharp|78/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743862438
+|move|p1a: Latias|Agility|p1a: Latias
+|-boost|p1a: Latias|spe|2
+|move|p2a: Bisharp|Throat Chop|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|67/100
+|-start|p1a: Latias|Throat Chop|[silent]
+|-enditem|p1a: Latias|Weakness Policy
+|-boost|p1a: Latias|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Latias|spa|2|[from] item: Weakness Policy
+|
+|-damage|p2a: Bisharp|71/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743862443
+|move|p1a: Latias|Aura Sphere|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|-end|p1a: Latias|Throat Chop|[silent]
+|upkeep
+|
+|t:|1743862447
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|turn|11
+|
+|t:|1743862451
+|-terastallize|p1a: Latias|Steel
+|move|p1a: Latias|Stored Power|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p2a: Mimikyu|Red Card|[of] p1a: Latias
+|drag|p1a: Hatterene|Hatterene, F|84/100
+|move|p2a: Mimikyu|Play Rough|p1a: Hatterene
+|-damage|p1a: Hatterene|56/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743862465
+|move|p2a: Mimikyu|Shadow Claw|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|13/100
+|move|p1a: Hatterene|Nuzzle|p2a: Mimikyu
+|-damage|p2a: Mimikyu|81/100
+|-status|p2a: Mimikyu|par
+|
+|upkeep
+|turn|13
+|
+|t:|1743862470
+|move|p2a: Mimikyu|Shadow Claw|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1743862480
+|switch|p1a: Latias|Latias, F, tera:Steel|67/100
+|turn|14
+|
+|t:|1743862484
+|move|p1a: Latias|Agility|p1a: Latias
+|-boost|p1a: Latias|spe|2
+|move|p2a: Mimikyu|Destiny Bond|p2a: Mimikyu
+|-singlemove|p2a: Mimikyu|Destiny Bond
+|
+|upkeep
+|turn|15
+|
+|t:|1743862489
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|cant|p2a: Mimikyu|par
+|
+|upkeep
+|turn|16
+|
+|t:|1743862493
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Mimikyu|Shadow Claw|p1a: Latias
+|-damage|p1a: Latias|45/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743862498
+|move|p1a: Latias|Stored Power|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|upkeep
+|
+|t:|1743862503
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|18
+|
+|t:|1743862505
+|move|p1a: Latias|Stored Power|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|-message|LeDauphinRoi forfeited.
+|
+|win|buyibu
+|raw|buyibu's rating: 1404 &rarr; <strong>1424</strong><br />(+20 for winning)
+|raw|LeDauphinRoi's rating: 1405 &rarr; <strong>1385</strong><br />(-20 for losing)
+|l|☆LeDauphinRoi
+|player|p2|
+|l|☆buyibu
+|player|p1|
+|l| Utghhhh

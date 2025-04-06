@@ -1,0 +1,322 @@
+|j|☆Hardencongafas
+|j|☆RoutesReborn
+|t:|1743907372
+|gametype|singles
+|player|p1|Hardencongafas|266|1397
+|player|p2|RoutesReborn|volkner|1348
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Treads|
+|poke|p1|Primarina, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Hydreigon, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Weavile, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Valiant|
+|poke|p2|Cinderace, F|
+|poke|p2|Cacturne, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RoutesReborn)
+|inactive|RoutesReborn has 120 seconds left.
+|
+|t:|1743907410
+|start
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|t:|1743907424
+|switch|p1a: Primarina|Primarina, F|100/100
+|move|p2a: Cinderace|U-turn|p1a: Primarina
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|80/100
+|
+|t:|1743907433
+|switch|p2a: Cacturne|Cacturne, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1743907443
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Cacturne|Leaf Storm|p1a: Corviknight|[miss]
+|-miss|p2a: Cacturne|p1a: Corviknight
+|
+|upkeep
+|turn|3
+|
+|t:|1743907458
+|move|p1a: Corviknight|U-turn|p2a: Cacturne
+|-supereffective|p2a: Cacturne
+|-enditem|p2a: Cacturne|Focus Sash
+|-damage|p2a: Cacturne|1/100
+|
+|t:|1743907470
+|switch|p1a: Hydreigon|Hydreigon, F|100/100|[from] U-turn
+|move|p2a: Cacturne|Counter|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|t:|1743907478
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|4
+|
+|t:|1743907487
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Corviknight|atk|1
+|move|p1a: Corviknight|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|96/100
+|-damage|p1a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|t:|1743907491
+|switch|p1a: Primarina|Primarina, F|80/100|[from] U-turn
+|
+|upkeep
+|turn|5
+|
+|t:|1743907504
+|move|p2a: Landorus|U-turn|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|67/100
+|
+|t:|1743907507
+|switch|p2a: Cacturne|Cacturne, M|1/100|[from] U-turn
+|move|p1a: Primarina|Surf|p2a: Cacturne
+|-heal|p2a: Cacturne|26/100|[from] ability: Water Absorb|[of] p1a: Primarina
+|
+|upkeep
+|turn|6
+|
+|t:|1743907528
+|switch|p1a: Corviknight|Corviknight, F|84/100
+|-ability|p1a: Corviknight|Pressure
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743907536
+|move|p1a: Corviknight|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|87/100
+|
+|t:|1743907538
+|switch|p1a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743907552
+|switch|p2a: Landorus|Landorus-Therian, M|96/100|[from] Chilly Reception
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Treads|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743907559
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Corviknight|Corviknight, F|84/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Landorus|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743907568
+|move|p2a: Landorus|Taunt|p1a: Corviknight
+|-start|p1a: Corviknight|move: Taunt
+|move|p1a: Corviknight|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|89/100
+|-damage|p1a: Corviknight|67/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|t:|1743907575
+|switch|p1a: Weavile|Weavile, F|100/100|[from] U-turn
+|-ability|p1a: Weavile|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|inactive|RoutesReborn has 120 seconds left.
+|
+|t:|1743907610
+|switch|p2a: Cacturne|Cacturne, M|26/100
+|move|p1a: Weavile|Triple Axel|p2a: Cacturne
+|-supereffective|p2a: Cacturne
+|-damage|p2a: Cacturne|0 fnt
+|faint|p2a: Cacturne
+|-hitcount|p2: Cacturne|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|inactive|RoutesReborn has 90 seconds left.
+|
+|t:|1743907642
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|11
+|inactive|RoutesReborn has 90 seconds left.
+|
+|t:|1743907656
+|switch|p1a: Primarina|Primarina, F|67/100
+|move|p2a: Cinderace|U-turn|p1a: Primarina
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Primarina
+|-crit|p1a: Primarina
+|-damage|p1a: Primarina|36/100
+|inactive|RoutesReborn has 90 seconds left.
+|
+|t:|1743907672
+|switch|p2a: Landorus|Landorus-Therian, M|89/100|[from] U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Primarina|atk|1
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1743907699
+|move|p2a: Landorus|U-turn|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|22/100
+|
+|t:|1743907703
+|switch|p2a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|move|p1a: Primarina|Surf|p2a: Slowking
+|-damage|p2a: Slowking|56/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743907713
+|move|p1a: Primarina|Flip Turn|p2a: Slowking
+|-damage|p2a: Slowking|44/100
+|
+|t:|1743907717
+|switch|p1a: Weavile|Weavile, F|100/100|[from] Flip Turn
+|-ability|p1a: Weavile|Pressure
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743907728
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743907737
+|switch|p1a: Primarina|Primarina, F|22/100
+|move|p2a: Cinderace|U-turn|p1a: Primarina
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|1/100
+|inactive|RoutesReborn has 90 seconds left.
+|
+|t:|1743907749
+|switch|p2a: Landorus|Landorus-Therian, M|89/100|[from] U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Primarina|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|15
+|inactive|RoutesReborn has 90 seconds left.
+|
+|t:|1743907760
+|move|p2a: Landorus|U-turn|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|inactive|RoutesReborn has 90 seconds left.
+|
+|t:|1743907765
+|switch|p2a: Slowking|Slowking-Galar, F|77/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743907770
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|16
+|inactive|RoutesReborn has 90 seconds left.
+|
+|t:|1743907801
+|move|p1a: Weavile|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-enditem|p2a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Weavile
+|faint|p2a: Slowking
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743907808
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|17
+|
+|t:|1743907813
+|move|p1a: Weavile|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|27/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Cinderace|Pyro Ball|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-weather|none
+|upkeep
+|
+|t:|1743907819
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|turn|18
+|inactive|RoutesReborn has 90 seconds left.
+|
+|t:|1743907848
+|move|p2a: Cinderace|Pyro Ball|p1a: Slowking
+|-damage|p1a: Slowking|43/100
+|move|p1a: Slowking|Future Sight|p2a: Cinderace
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|19
+|l|☆Hardencongafas
+|inactive|Hardencongafas disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|Hardencongafas has 30 seconds to reconnect!
+|inactive|Hardencongafas has 20 seconds to reconnect!
+|inactive|Hardencongafas has 15 seconds to reconnect!
+|inactive|Hardencongafas has 10 seconds to reconnect!
+|inactive|Hardencongafas has 5 seconds to reconnect!
+|-message|Hardencongafas lost due to inactivity.
+|
+|win|RoutesReborn
+|raw|Hardencongafas's rating: 1397 &rarr; <strong>1374</strong><br />(-23 for losing)
+|raw|RoutesReborn's rating: 1348 &rarr; <strong>1371</strong><br />(+23 for winning)
+|l|☆RoutesReborn
+|player|p2|

@@ -1,0 +1,393 @@
+|j|☆Zempaiii
+|j|☆Oracle_of_Apollo
+|t:|1743913795
+|gametype|singles
+|player|p1|Zempaiii|red|1111
+|player|p2|Oracle_of_Apollo|unknownf|1096
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Serperior, F|
+|poke|p1|Incineroar, M|
+|poke|p1|Volcanion|
+|poke|p1|Eelektross, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Maushold-Four|
+|poke|p2|Skeledirge, F|
+|poke|p2|Tinkaton, F|
+|poke|p2|Zapdos|
+|poke|p2|Darkrai|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|t:|1743913808
+|start
+|switch|p1a: Serperior|Serperior, F|100/100
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-item|p2a: Tinkaton|Air Balloon
+|turn|1
+|
+|t:|1743913824
+|-terastallize|p1a: Serperior|Stellar
+|move|p1a: Serperior|Leaf Storm|p2a: Tinkaton|[miss]
+|-miss|p1a: Serperior|p2a: Tinkaton
+|move|p2a: Tinkaton|Thunder Wave|p1a: Serperior|[miss]
+|-miss|p2a: Tinkaton|p1a: Serperior
+|
+|upkeep
+|turn|2
+|
+|t:|1743913834
+|move|p1a: Serperior|Tera Blast|p2a: Tinkaton|[anim] Tera Blast Stellar
+|-damage|p2a: Tinkaton|75/100
+|-boost|p1a: Serperior|atk|1
+|-boost|p1a: Serperior|spa|1
+|-enditem|p2a: Tinkaton|Air Balloon
+|move|p2a: Tinkaton|Thunder Wave|p1a: Serperior
+|-status|p1a: Serperior|par
+|
+|upkeep
+|turn|3
+|
+|t:|1743913844
+|move|p2a: Tinkaton|Stealth Rock|p1a: Serperior
+|-sidestart|p1: Zempaiii|move: Stealth Rock
+|move|p1a: Serperior|Tera Blast|p2a: Tinkaton|[anim] Tera Blast Stellar
+|-damage|p2a: Tinkaton|45/100
+|-boost|p1a: Serperior|atk|1
+|-boost|p1a: Serperior|spa|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743913857
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Serperior
+|-damage|p1a: Serperior|43/100 par
+|cant|p1a: Serperior|par
+|
+|-heal|p1a: Serperior|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743913869
+|move|p2a: Tinkaton|Encore|p1a: Serperior
+|-start|p1a: Serperior|Encore
+|move|p1a: Serperior|Tera Blast|p2a: Tinkaton|[anim] Tera Blast Stellar
+|-damage|p2a: Tinkaton|3/100
+|-boost|p1a: Serperior|atk|1
+|-boost|p1a: Serperior|spa|1
+|
+|-heal|p1a: Serperior|56/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743913878
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|
+|t:|1743913886
+|switch|p1a: Eelektross|Eelektross, F|100/100
+|turn|7
+|
+|t:|1743913894
+|move|p2a: Tinkaton|Thunder Wave|p1a: Eelektross
+|-immune|p1a: Eelektross
+|move|p1a: Eelektross|Discharge|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|
+|upkeep
+|
+|t:|1743913906
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|8
+|
+|t:|1743913921
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|-damage|p1a: Enamorus|76/100|[from] Stealth Rock
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p1a: Enamorus|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743913937
+|move|p1a: Enamorus|Mystical Fire|p2a: Hatterene
+|-damage|p2a: Hatterene|80/100
+|-unboost|p2a: Hatterene|spa|1
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p1a: Enamorus|88/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|86/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743913953
+|move|p1a: Enamorus|Mystical Fire|p2a: Hatterene
+|-damage|p2a: Hatterene|73/100
+|-unboost|p2a: Hatterene|spa|1
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p1a: Enamorus|94/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|79/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743913964
+|move|p1a: Enamorus|Mystical Fire|p2a: Hatterene
+|-damage|p2a: Hatterene|69/100
+|-unboost|p2a: Hatterene|spa|1
+|move|p2a: Hatterene|Mystical Fire|p1a: Enamorus
+|-damage|p1a: Enamorus|49/100
+|-boost|p1a: Enamorus|spa|1
+|
+|-heal|p1a: Enamorus|56/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|75/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743913977
+|move|p1a: Enamorus|Mystical Fire|p2a: Hatterene
+|-damage|p2a: Hatterene|58/100
+|-unboost|p2a: Hatterene|spa|1
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p1a: Enamorus|62/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|64/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743913993
+|move|p1a: Enamorus|Superpower|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|55/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p1a: Enamorus|68/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|61/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743914003
+|move|p1a: Enamorus|Mystical Fire|p2a: Hatterene
+|-damage|p2a: Hatterene|49/100
+|-unboost|p2a: Hatterene|spa|1
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p1a: Enamorus|74/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|55/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743914016
+|move|p1a: Enamorus|Mystical Fire|p2a: Hatterene
+|-damage|p2a: Hatterene|44/100
+|-unboost|p2a: Hatterene|spa|1
+|move|p2a: Hatterene|Draining Kiss|p1a: Enamorus
+|-damage|p1a: Enamorus|30/100
+|-heal|p2a: Hatterene|74/100|[from] drain|[of] p1a: Enamorus
+|
+|-heal|p1a: Enamorus|36/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|80/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743914027
+|move|p1a: Enamorus|Draining Kiss|p2a: Hatterene
+|-damage|p2a: Hatterene|69/100
+|-heal|p1a: Enamorus|45/100|[from] drain|[of] p2a: Hatterene
+|move|p2a: Hatterene|Draining Kiss|p1a: Enamorus
+|-damage|p1a: Enamorus|2/100
+|-heal|p2a: Hatterene|99/100|[from] drain|[of] p1a: Enamorus
+|
+|-heal|p1a: Enamorus|8/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743914039
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-damage|p1a: Incineroar|76/100|[from] Stealth Rock
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Hatterene|atk|1
+|move|p2a: Hatterene|Draining Kiss|p1a: Incineroar
+|-damage|p1a: Incineroar|47/100
+|-damage|p2a: Hatterene|84/100|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|
+|-heal|p2a: Hatterene|90/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743914055
+|move|p1a: Incineroar|Darkest Lariat|p2a: Hatterene
+|-damage|p2a: Hatterene|53/100
+|move|p2a: Hatterene|Psychic Noise|p1a: Incineroar
+|-immune|p1a: Incineroar
+|
+|-heal|p2a: Hatterene|59/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743914064
+|move|p1a: Incineroar|Darkest Lariat|p2a: Hatterene
+|-damage|p2a: Hatterene|22/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Incineroar
+|-damage|p1a: Incineroar|21/100
+|-heal|p2a: Hatterene|46/100|[from] drain|[of] p1a: Incineroar
+|-damage|p2a: Hatterene|29/100|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|
+|-heal|p2a: Hatterene|35/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743914081
+|switch|p2a: Darkrai|Darkrai|100/100
+|move|p1a: Incineroar|Darkest Lariat|p2a: Darkrai
+|-resisted|p2a: Darkrai
+|-damage|p2a: Darkrai|78/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743914097
+|move|p2a: Darkrai|Ice Beam|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|7/100
+|move|p1a: Incineroar|Flamethrower|p2a: Darkrai
+|-damage|p2a: Darkrai|28/100
+|
+|upkeep
+|turn|22
+|
+|t:|1743914117
+|move|p2a: Darkrai|Ice Beam|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|upkeep
+|
+|t:|1743914121
+|switch|p1a: Maushold|Maushold-Four|100/100
+|-damage|p1a: Maushold|88/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1743914125
+|move|p2a: Darkrai|Ice Beam|p1a: Maushold
+|-damage|p1a: Maushold|36/100
+|move|p1a: Maushold|Population Bomb|p2a: Darkrai
+|-damage|p2a: Darkrai|12/100
+|-crit|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|-hitcount|p2: Darkrai|2
+|
+|upkeep
+|
+|t:|1743914139
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|turn|24
+|
+|t:|1743914150
+|move|p1a: Maushold|Trailblaze|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|95/100
+|-boost|p1a: Maushold|spe|1
+|move|p2a: Skeledirge|Torch Song|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Maushold
+|-enditem|p2a: Skeledirge|Throat Spray
+|-boost|p2a: Skeledirge|spa|1|[from] item: Throat Spray
+|
+|upkeep
+|
+|t:|1743914155
+|switch|p1a: Eelektross|Eelektross, F|100/100
+|turn|25
+|
+|t:|1743914165
+|move|p2a: Skeledirge|Torch Song|p1a: Eelektross
+|-damage|p1a: Eelektross|39/100
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: Eelektross|Outrage|p2a: Skeledirge
+|-damage|p2a: Skeledirge|71/100
+|
+|upkeep
+|turn|26
+|
+|t:|1743914174
+|move|p2a: Skeledirge|Torch Song|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Eelektross
+|
+|upkeep
+|
+|t:|1743914178
+|switch|p1a: Volcanion|Volcanion|100/100
+|-damage|p1a: Volcanion|75/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1743914185
+|move|p2a: Skeledirge|Torch Song|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|53/100
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: Volcanion|Earthquake|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|29/100
+|
+|-heal|p1a: Volcanion|59/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1743914196
+|-terastallize|p2a: Skeledirge|Fairy
+|move|p2a: Skeledirge|Torch Song|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|32/100
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: Volcanion|Steam Eruption|p2a: Skeledirge|[miss]
+|-miss|p1a: Volcanion|p2a: Skeledirge
+|
+|-heal|p1a: Volcanion|38/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|-message|Zempaiii forfeited.
+|
+|win|Oracle_of_Apollo
+|raw|Zempaiii's rating: 1111 &rarr; <strong>1085</strong><br />(-26 for losing)
+|raw|Oracle_of_Apollo's rating: 1096 &rarr; <strong>1123</strong><br />(+27 for winning)
+|l|☆Zempaiii
+|player|p1|
+|l|☆Oracle_of_Apollo
+|player|p2|

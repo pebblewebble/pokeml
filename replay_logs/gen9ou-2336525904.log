@@ -1,0 +1,161 @@
+|j|☆jduz
+|j|☆The hatefull 6
+|t:|1743933395
+|gametype|singles
+|player|p1|jduz|dawn|1116
+|player|p2|The hatefull 6|gentleman|1171
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Gholdengo|
+|poke|p1|Rotom-Heat|
+|poke|p1|Corviknight, F|
+|poke|p1|Meowscarada, M|
+|poke|p1|Great Tusk|
+|poke|p2|Lokix, M|
+|poke|p2|Mimikyu, M|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Muk-Alola, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Salazzle, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jduz)
+|
+|t:|1743933400
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|t:|1743933411
+|move|p1a: Rotom|Volt Switch|p2a: Rotom
+|-damage|p2a: Rotom|53/100
+|
+|t:|1743933417
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from] Volt Switch
+|move|p2a: Rotom|Hydro Pump|p1a: Slowking
+|-damage|p1a: Slowking|71/100
+|
+|-heal|p1a: Slowking|78/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1743933426
+|switch|p2a: Muk|Muk-Alola, F|100/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743933444
+|switch|p1a: Rotom|Rotom-Heat|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743933458
+|-terastallize|p2a: Muk|Ground
+|move|p1a: Rotom|Volt Switch|p2a: Muk
+|-immune|p2a: Muk
+|move|p2a: Muk|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|39/100
+|-enditem|p1a: Rotom|Choice Specs|[from] move: Knock Off|[of] p2a: Muk
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743933468
+|move|p1a: Rotom|Overheat|p2a: Muk
+|-damage|p2a: Muk|71/100
+|-unboost|p1a: Rotom|spa|2
+|move|p2a: Muk|Knock Off|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743933471
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|turn|5
+|
+|t:|1743933481
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|move|p1a: Meowscarada|Knock Off|p2a: Weezing
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|78/100
+|-damage|p1a: Meowscarada|84/100|[from] item: Rocky Helmet|[of] p2a: Weezing
+|-enditem|p2a: Weezing|Rocky Helmet|[from] move: Knock Off|[of] p1a: Meowscarada
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743933494
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Weezing|Strange Steam|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|92/100
+|
+|-weather|none
+|-heal|p1a: Slowking|98/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1743933505
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|move|p1a: Slowking|Future Sight|p2a: Salazzle
+|-start|p1a: Slowking|move: Future Sight
+|
+|-heal|p1a: Slowking|100/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1743933513
+|switch|p2a: Lokix|Lokix, M|100/100
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743933521
+|move|p2a: Lokix|Sucker Punch||[still]
+|-fail|p2a: Lokix
+|move|p1a: Gholdengo|Thunder Wave|p2a: Lokix
+|-status|p2a: Lokix|par
+|
+|-end|p2a: Lokix|move: Future Sight
+|-immune|p2a: Lokix
+|upkeep
+|turn|10
+|
+|t:|1743933530
+|move|p1a: Gholdengo|Make It Rain|p2a: Lokix
+|-damage|p2a: Lokix|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Lokix
+|
+|upkeep
+|-message|The hatefull 6 forfeited.
+|
+|win|jduz
+|raw|jduz's rating: 1116 &rarr; <strong>1145</strong><br />(+29 for winning)
+|raw|The hatefull 6's rating: 1171 &rarr; <strong>1142</strong><br />(-29 for losing)
+|l|☆The hatefull 6
+|player|p2|
+|l|☆jduz
+|player|p1|

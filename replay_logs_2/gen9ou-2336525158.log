@@ -1,0 +1,260 @@
+|j|☆maxpenter
+|j|☆ReyhanSA
+|t:|1743933260
+|gametype|singles
+|player|p1|maxpenter|hugh|1099
+|player|p2|ReyhanSA|102|1170
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Meowscarada, F|
+|poke|p1|Glimmora, M|
+|poke|p1|Jumpluff, M|
+|poke|p1|Heatran, M|
+|poke|p1|Primarina, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Kingambit, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Iron Moth|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ReyhanSA)
+|
+|t:|1743933275
+|start
+|switch|p1a: Jumpluff|Jumpluff, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Jumpluff|atk|1
+|turn|1
+|
+|t:|1743933299
+|move|p1a: Jumpluff|Strength Sap|p2a: Landorus
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Stealth Rock|p1a: Jumpluff
+|-sidestart|p1: maxpenter|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743933307
+|move|p1a: Jumpluff|Grass Knot|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|61/100
+|-damage|p1a: Jumpluff|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|move|p2a: Landorus|U-turn|p1a: Jumpluff
+|-crit|p1a: Jumpluff
+|-damage|p1a: Jumpluff|30/100
+|
+|t:|1743933319
+|switch|p2a: Zamazenta|Zamazenta|100/100|[from] U-turn
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743933327
+|move|p2a: Zamazenta|Crunch|p1a: Jumpluff
+|-damage|p1a: Jumpluff|0 fnt
+|faint|p1a: Jumpluff
+|
+|upkeep
+|
+|t:|1743933345
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|turn|4
+|
+|t:|1743933355
+|-terastallize|p1a: Meowscarada|Grass
+|move|p2a: Zamazenta|Body Press|p1a: Meowscarada
+|-damage|p1a: Meowscarada|18/100
+|move|p1a: Meowscarada|Flower Trick|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|48/100
+|
+|-heal|p2a: Zamazenta|54/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743933367
+|move|p2a: Zamazenta|Body Press|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|-heal|p2a: Zamazenta|60/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743933376
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|-damage|p1a: Glimmora|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1743933383
+|move|p2a: Zamazenta|Body Press|p1a: Glimmora
+|-damage|p1a: Glimmora|27/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: ReyhanSA|move: Toxic Spikes
+|move|p1a: Glimmora|Mortal Spin|p2a: Zamazenta
+|-damage|p2a: Zamazenta|57/100
+|-status|p2a: Zamazenta|psn
+|-sideend|p1: maxpenter|Stealth Rock|[from] move: Mortal Spin|[of] p1a: Glimmora
+|
+|-heal|p2a: Zamazenta|63/100 psn|[from] item: Leftovers
+|-damage|p2a: Zamazenta|51/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743933395
+|move|p2a: Zamazenta|Body Press|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: ReyhanSA|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|-heal|p2a: Zamazenta|57/100 psn|[from] item: Leftovers
+|-damage|p2a: Zamazenta|44/100 psn|[from] psn
+|upkeep
+|
+|t:|1743933405
+|switch|p1a: Primarina|Primarina, F|100/100
+|turn|8
+|
+|t:|1743933412
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|move|p2a: Zamazenta|Roar|p1a: Primarina
+|drag|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|
+|-heal|p2a: Zamazenta|51/100 psn|[from] item: Leftovers
+|-damage|p2a: Zamazenta|38/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743933428
+|switch|p1a: Primarina|Primarina, F|100/100
+|move|p2a: Zamazenta|Body Press|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|76/100
+|
+|-heal|p2a: Zamazenta|44/100 psn|[from] item: Leftovers
+|-heal|p1a: Primarina|82/100|[from] item: Leftovers
+|-damage|p2a: Zamazenta|32/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743933440
+|move|p1a: Primarina|Moonblast|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-heal|p1a: Primarina|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743933446
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-sideend|p2: ReyhanSA|move: Toxic Spikes|[of] p2a: Iron Moth
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|11
+|
+|t:|1743933454
+|move|p2a: Iron Moth|Sludge Wave|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|24/100
+|move|p1a: Primarina|Hydro Cannon|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|-mustrecharge|p1a: Primarina
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p1a: Primarina|30/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743933463
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|12
+|
+|t:|1743933468
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|cant|p1a: Primarina|recharge
+|
+|-heal|p1a: Primarina|36/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743933481
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|upkeep
+|
+|t:|1743933488
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Valiant|atk|1
+|turn|14
+|
+|t:|1743933496
+|move|p2a: Iron Valiant|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|3/100
+|move|p1a: Landorus|Stealth Rock|p2a: Iron Valiant
+|-sidestart|p2: ReyhanSA|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|t:|1743933505
+|move|p2a: Iron Valiant|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743933510
+|switch|p1a: Heatran|Heatran, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|16
+|
+|t:|1743933517
+|-terastallize|p2a: Iron Valiant|Electric
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Heatran
+|-damage|p1a: Heatran|41/100
+|-status|p1a: Heatran|par
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Flamethrower|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|35/100
+|
+|upkeep
+|turn|17
+|-message|maxpenter forfeited.
+|
+|win|ReyhanSA
+|raw|maxpenter's rating: 1099 &rarr; <strong>1079</strong><br />(-20 for losing)
+|raw|ReyhanSA's rating: 1170 &rarr; <strong>1190</strong><br />(+20 for winning)
+|l|☆maxpenter
+|player|p1|

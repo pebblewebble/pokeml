@@ -1,0 +1,459 @@
+|j|☆Jrbrbr
+|j|☆basictermite
+|t:|1743801051
+|gametype|singles
+|player|p1|Jrbrbr|102|1130
+|player|p2|basictermite|ghetsis-gen5bw|1107
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pecharunt|
+|poke|p1|Gliscor, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Garganacl, M|
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, M|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Iron Moth|
+|poke|p2|Kommo-o, F|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|
+|t:|1743801069
+|start
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jrbrbr)
+|
+|t:|1743801075
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: basictermite|move: Aurora Veil
+|move|p1a: Garganacl|Salt Cure|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|88/100
+|-start|p2a: Ninetales|Salt Cure
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Ninetales|75/100|[from] Salt Cure
+|upkeep
+|turn|2
+|
+|t:|1743801084
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Garganacl|Stealth Rock|p2a: Weezing
+|-sidestart|p2: basictermite|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743801098
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Weezing|Will-O-Wisp|p1a: Great Tusk
+|-status|p1a: Great Tusk|brn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Great Tusk|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743801106
+|move|p1a: Great Tusk|Knock Off|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|98/100
+|-enditem|p2a: Weezing|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Weezing|Strange Steam|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|27/100 brn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Great Tusk|21/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743801116
+|move|p1a: Great Tusk|Earthquake|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|83/100
+|move|p2a: Weezing|Strange Steam|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743801129
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|-item|p1a: Pecharunt|Air Balloon
+|turn|6
+|
+|t:|1743801142
+|move|p1a: Pecharunt|Malignant Chain|p2a: Weezing
+|-crit|p2a: Weezing
+|-damage|p2a: Weezing|17/100
+|move|p2a: Weezing|Defog|p1a: Pecharunt
+|-unboost|p1a: Pecharunt|evasion|1
+|-sideend|p2: basictermite|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|
+|upkeep
+|turn|7
+|
+|t:|1743801148
+|move|p1a: Pecharunt|Malignant Chain|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|upkeep
+|
+|t:|1743801173
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|8
+|
+|t:|1743801179
+|move|p2a: Iron Moth|Fiery Dance|p1a: Pecharunt
+|-damage|p1a: Pecharunt|56/100
+|-boost|p2a: Iron Moth|spa|1
+|-enditem|p1a: Pecharunt|Air Balloon
+|move|p1a: Pecharunt|Parting Shot|p2a: Iron Moth
+|-unboost|p2a: Iron Moth|atk|1
+|-unboost|p2a: Iron Moth|spa|1
+|inactive|Jrbrbr has 120 seconds left.
+|
+|t:|1743801210
+|switch|p1a: Gliscor|Gliscor, M|100/100|[from] Parting Shot
+|
+|-sideend|p2: basictermite|move: Aurora Veil
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|9
+|inactive|Jrbrbr has 120 seconds left.
+|
+|t:|1743801232
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Gliscor|Earthquake|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|79/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743801237
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Gliscor|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|7/100 tox
+|move|p1a: Gliscor|U-turn|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|39/100
+|
+|t:|1743801242
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|11
+|
+|t:|1743801246
+|move|p1a: Ogerpon|U-turn|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|t:|1743801249
+|switch|p1a: Gliscor|Gliscor, M|7/100 tox|[from] U-turn
+|
+|-heal|p1a: Gliscor|19/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743801254
+|switch|p2a: Ninetales|Ninetales-Alola, F|75/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|12
+|
+|t:|1743801262
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: basictermite|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Gliscor|32/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|t:|1743801269
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: Ninetales|Blizzard|p1a: Garganacl
+|-damage|p1a: Garganacl|64/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Garganacl|70/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743801281
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|move|p1a: Garganacl|Salt Cure|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|97/100
+|-start|p2a: Kommo-o|Salt Cure
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Garganacl|76/100|[from] item: Leftovers
+|-damage|p2a: Kommo-o|85/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1743801287
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|52/100
+|-enditem|p2a: Kommo-o|Throat Spray
+|-boost|p2a: Kommo-o|spa|1|[from] item: Throat Spray
+|move|p1a: Garganacl|Stealth Rock|p2a: Kommo-o
+|-sidestart|p2: basictermite|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Garganacl|83/100|[from] item: Leftovers
+|-damage|p2a: Kommo-o|40/100|[from] Salt Cure
+|upkeep
+|turn|16
+|
+|t:|1743801295
+|-terastallize|p2a: Kommo-o|Normal
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Kommo-o|Boomburst|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-weather|none
+|-heal|p1a: Garganacl|89/100|[from] item: Leftovers
+|-damage|p2a: Kommo-o|28/100|[from] Salt Cure
+|upkeep
+|turn|17
+|
+|t:|1743801302
+|move|p2a: Kommo-o|Boomburst|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|43/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|93/100
+|
+|-heal|p1a: Garganacl|99/100|[from] item: Leftovers
+|-damage|p2a: Kommo-o|15/100|[from] Salt Cure
+|upkeep
+|turn|18
+|
+|t:|1743801309
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Kommo-o|Drain Punch|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p2a: Kommo-o|3/100|[from] Salt Cure
+|upkeep
+|turn|19
+|
+|t:|1743801312
+|move|p2a: Kommo-o|Drain Punch|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-crit|p1a: Garganacl
+|-damage|p1a: Garganacl|28/100
+|-heal|p2a: Kommo-o|53/100|[from] drain|[of] p1a: Garganacl
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|78/100
+|
+|-heal|p1a: Garganacl|84/100|[from] item: Leftovers
+|-damage|p2a: Kommo-o|41/100|[from] Salt Cure
+|-sideend|p2: basictermite|move: Aurora Veil
+|upkeep
+|turn|20
+|
+|t:|1743801318
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Kommo-o|Drain Punch|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p1a: Garganacl|90/100|[from] item: Leftovers
+|-damage|p2a: Kommo-o|29/100|[from] Salt Cure
+|upkeep
+|turn|21
+|
+|t:|1743801324
+|switch|p1a: Pecharunt|Pecharunt|56/100
+|move|p2a: Kommo-o|Drain Punch|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|
+|-damage|p2a: Kommo-o|16/100|[from] Salt Cure
+|upkeep
+|turn|22
+|
+|t:|1743801334
+|switch|p1a: Garganacl|Garganacl, M|90/100
+|move|p2a: Kommo-o|Flamethrower|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|68/100
+|
+|-heal|p1a: Garganacl|74/100|[from] item: Leftovers
+|-damage|p2a: Kommo-o|4/100|[from] Salt Cure
+|upkeep
+|turn|23
+|
+|t:|1743801338
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Kommo-o|Clangorous Soul||[still]
+|-fail|p2a: Kommo-o
+|
+|-heal|p1a: Garganacl|80/100|[from] item: Leftovers
+|-damage|p2a: Kommo-o|0 fnt|[from] Salt Cure
+|faint|p2a: Kommo-o
+|upkeep
+|
+|t:|1743801344
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|24
+|
+|t:|1743801352
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Garganacl|Salt Cure|p2a: Cinderace
+|-damage|p2a: Cinderace|80/100
+|-start|p2a: Cinderace|Salt Cure
+|
+|-heal|p1a: Garganacl|86/100|[from] item: Leftovers
+|-damage|p2a: Cinderace|68/100|[from] Salt Cure
+|upkeep
+|turn|25
+|
+|t:|1743801363
+|move|p2a: Cinderace|High Jump Kick|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-crit|p1a: Garganacl
+|-damage|p1a: Garganacl|13/100
+|move|p1a: Garganacl|Stealth Rock|p2a: Cinderace
+|-sidestart|p2: basictermite|move: Stealth Rock
+|
+|-heal|p1a: Garganacl|20/100|[from] item: Leftovers
+|-damage|p2a: Cinderace|56/100|[from] Salt Cure
+|upkeep
+|turn|26
+|
+|t:|1743801388
+|switch|p1a: Pecharunt|Pecharunt|56/100
+|-damage|p1a: Pecharunt|44/100|[from] Stealth Rock
+|move|p2a: Cinderace|Taunt|p1a: Pecharunt
+|-start|p1a: Pecharunt|move: Taunt
+|
+|-damage|p2a: Cinderace|43/100|[from] Salt Cure
+|upkeep
+|turn|27
+|
+|t:|1743801397
+|move|p2a: Cinderace|Pyro Ball|p1a: Pecharunt
+|-damage|p1a: Pecharunt|23/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1743801404
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-damage|p2a: Iron Moth|76/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1743801416
+|move|p2a: Iron Moth|Fiery Dance|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1743801426
+|switch|p1a: Gliscor|Gliscor, M|32/100 tox
+|-damage|p1a: Gliscor|19/100 tox|[from] Stealth Rock
+|turn|29
+|
+|t:|1743801430
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Iron Moth|Fiery Dance|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|32/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|30
+|
+|t:|1743801436
+|move|p2a: Iron Moth|Fiery Dance|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|t:|1743801443
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1743801446
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p2a: Iron Moth|Fiery Dance|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|70/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Iron Moth|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743801449
+|switch|p2a: Ninetales|Ninetales-Alola, F|75/100
+|-damage|p2a: Ninetales|51/100|[from] Stealth Rock
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|32
+|
+|t:|1743801455
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Ninetales|[anim] Ivy Cudgel Water
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|win|Jrbrbr
+|raw|Jrbrbr's rating: 1130 &rarr; <strong>1153</strong><br />(+23 for winning)
+|raw|basictermite's rating: 1107 &rarr; <strong>1084</strong><br />(-23 for losing)
+|l|☆basictermite
+|player|p2|

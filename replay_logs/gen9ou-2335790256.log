@@ -1,0 +1,296 @@
+|j|☆gregegeg
+|j|☆Gravy'n Toast
+|t:|1743836821
+|gametype|singles
+|player|p1|gregegeg|266|1170
+|player|p2|Gravy'n Toast|giovanni|1251
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blaziken, F|
+|poke|p1|Ludicolo, M|
+|poke|p1|Gyarados, M|
+|poke|p1|Darkrai|
+|poke|p1|Corviknight, M|
+|poke|p1|Clodsire, F|
+|poke|p2|Kyurem|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Moltres|
+|poke|p2|Porygon-Z|
+|poke|p2|Araquanid, M|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|t:|1743836835
+|start
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|switch|p2a: -> sticky web <-|Araquanid, M, shiny|100/100
+|turn|1
+|
+|t:|1743836845
+|move|p2a: -> sticky web <-|Sticky Web|p1a: Clodsire
+|-sidestart|p1: gregegeg|move: Sticky Web
+|move|p1a: Clodsire|Stealth Rock|p2a: -> sticky web <-
+|-sidestart|p2: Gravy'n Toast|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gregegeg)
+|
+|t:|1743836874
+|move|p2a: -> sticky web <-|Liquidation|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|-damage|p2a: -> sticky web <-|84/100|[from] item: Rocky Helmet|[of] p1a: Clodsire
+|faint|p1a: Clodsire
+|
+|upkeep
+|
+|t:|1743836881
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|turn|3
+|
+|t:|1743836887
+|switch|p2a: zoomer|Iron Treads|100/100
+|-damage|p2a: zoomer|97/100|[from] Stealth Rock
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|-heal|p2a: zoomer|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743836896
+|move|p2a: zoomer|Rapid Spin|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|97/100
+|-boost|p2a: zoomer|spe|1
+|-damage|p2a: zoomer|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|-sideend|p2: Gravy'n Toast|Stealth Rock|[from] move: Rapid Spin|[of] p2a: zoomer
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|-heal|p2a: zoomer|90/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743836906
+|-end|p2a: zoomer|Quark Drive|[silent]
+|switch|p2a: gambling denier|Moltres|100/100
+|move|p1a: Corviknight|Body Press|p2a: gambling denier
+|-resisted|p2a: gambling denier
+|-damage|p2a: gambling denier|79/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743836913
+|switch|p1a: Gyarados|Gyarados, M, shiny|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: gambling denier|atk|1
+|move|p2a: gambling denier|Will-O-Wisp|p1a: Gyarados
+|-status|p1a: Gyarados|brn
+|
+|-damage|p1a: Gyarados|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743836922
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: gambling denier|U-turn|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|88/100 brn
+|
+|t:|1743836933
+|switch|p2a: steel chair|Porygon-Z, shiny|100/100|[from] U-turn
+|-ability|p2a: steel chair|Download|boost
+|-boost|p2a: steel chair|atk|1
+|
+|-heal|p1a: Gyarados|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Gyarados|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743836942
+|move|p1a: Gyarados|Waterfall|p2a: steel chair
+|-damage|p2a: steel chair|54/100
+|cant|p2a: steel chair|flinch
+|
+|-heal|p1a: Gyarados|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Gyarados|88/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743836953
+|-terastallize|p1a: Gyarados|Water
+|move|p1a: Gyarados|Waterfall|p2a: steel chair
+|-damage|p2a: steel chair|0 fnt
+|faint|p2a: steel chair
+|
+|-heal|p1a: Gyarados|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Gyarados|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1743836958
+|switch|p2a: zoop|Slowking-Galar, F|100/100
+|turn|10
+|
+|t:|1743836963
+|move|p1a: Gyarados|Earthquake|p2a: zoop
+|-supereffective|p2a: zoop
+|-damage|p2a: zoop|44/100
+|-prepare|p2a: zoop|Chilly Reception|[premajor]
+|move|p2a: zoop|Chilly Reception|p2a: zoop
+|-weather|Snowscape
+|
+|t:|1743836966
+|switch|p2a: guess my set|Kyurem|100/100|[from] Chilly Reception
+|-ability|p2a: guess my set|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Gyarados|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Gyarados|88/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743836976
+|move|p2a: guess my set|Freeze-Dry|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|7/100 brn
+|move|p1a: Gyarados|Earthquake|p2a: guess my set
+|-damage|p2a: guess my set|84/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Gyarados|13/100 brn|[from] item: Leftovers
+|-damage|p1a: Gyarados|7/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743836985
+|move|p2a: guess my set|Freeze-Dry|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743836995
+|switch|p1a: Darkrai|Darkrai|100/100
+|-activate|p1a: Darkrai|move: Sticky Web
+|-unboost|p1a: Darkrai|spe|1
+|turn|13
+|
+|t:|1743837010
+|switch|p2a: zoop|Slowking-Galar, F|77/100
+|move|p1a: Darkrai|Thunder Wave|p2a: zoop
+|-status|p2a: zoop|par
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: zoop|83/100 par|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1743837018
+|move|p1a: Darkrai|Dark Pulse|p2a: zoop
+|-supereffective|p2a: zoop
+|-damage|p2a: zoop|30/100 par
+|move|p2a: zoop|Thunder Wave|p1a: Darkrai
+|-status|p1a: Darkrai|par
+|
+|-weather|none
+|-heal|p2a: zoop|36/100 par|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1743837026
+|cant|p1a: Darkrai|par
+|-prepare|p2a: zoop|Chilly Reception|[premajor]
+|move|p2a: zoop|Chilly Reception|p2a: zoop
+|-weather|Snowscape
+|
+|t:|1743837031
+|switch|p2a: guess my set|Kyurem|84/100|[from] Chilly Reception
+|-ability|p2a: guess my set|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743837037
+|move|p2a: guess my set|Blizzard|p1a: Darkrai
+|-damage|p1a: Darkrai|15/100 par
+|move|p1a: Darkrai|Thunder Wave|p2a: guess my set
+|-status|p2a: guess my set|par
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743837045
+|move|p2a: guess my set|Blizzard|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743837052
+|switch|p1a: Corviknight|Corviknight, M|97/100
+|turn|18
+|
+|t:|1743837056
+|move|p2a: guess my set|Blizzard|p1a: Corviknight
+|-damage|p1a: Corviknight|38/100
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743837062
+|move|p2a: guess my set|Blizzard|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-weather|none
+|upkeep
+|
+|t:|1743837069
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|-activate|p1a: Blaziken|move: Sticky Web
+|-unboost|p1a: Blaziken|spe|1
+|turn|20
+|
+|t:|1743837075
+|switch|p2a: -> sticky web <-|Araquanid, M, shiny|84/100
+|move|p1a: Blaziken|Protect||[still]
+|-fail|p1a: Blaziken
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|21
+|-message|gregegeg forfeited.
+|
+|win|Gravy'n Toast
+|raw|gregegeg's rating: 1170 &rarr; <strong>1151</strong><br />(-19 for losing)
+|raw|Gravy&apos;n Toast's rating: 1251 &rarr; <strong>1270</strong><br />(+19 for winning)
+|l|☆gregegeg
+|player|p1|
+|l|☆Gravy'n Toast
+|player|p2|

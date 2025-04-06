@@ -1,0 +1,392 @@
+|j|☆ian_yo
+|j|☆pamphilus
+|t:|1743891916
+|gametype|singles
+|player|p1|ian_yo|skier|1509
+|player|p2|pamphilus|steven|1515
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Klefki, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Cresselia, F|
+|poke|p1|Rabsca, M|
+|poke|p1|Hattrem, F|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Alomomola, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Sinistcha|
+|poke|p2|Zamazenta-*|
+|poke|p2|Scizor, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ian_yo)
+|
+|t:|1743891926
+|start
+|switch|p1a: Klefki|Klefki, M|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1743891929
+|move|p1a: Klefki|Spikes|p2a: Ting-Lu
+|-sidestart|p2: pamphilus|Spikes
+|move|p2a: Ting-Lu|Ruination|p1a: Klefki
+|-damage|p1a: Klefki|50/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743891933
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Ting-Lu|Spikes|p1a: Hatterene
+|move|p1a: Hatterene|Spikes|p2a: Ting-Lu|[from] ability: Magic Bounce
+|-sidestart|p2: pamphilus|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1743891937
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|4
+|
+|t:|1743891940
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|move|p2a: Goodra|Heavy Slam|p1: Hatterene|[notarget]
+|-fail|p2a: Goodra
+|
+|upkeep
+|
+|t:|1743891942
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|5
+|
+|t:|1743891956
+|-terastallize|p1a: Torkoal|Fire
+|move|p1a: Torkoal|Eruption|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743891961
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|turn|6
+|
+|t:|1743891963
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Torkoal|Eruption|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743891966
+|move|p1a: Torkoal|Eruption|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|17/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1743891973
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Torkoal|Eruption|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Alomomola|67/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|9
+|
+|t:|1743891978
+|move|p2a: Alomomola|Flip Turn|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|88/100
+|
+|t:|1743891982
+|switch|p2a: Ting-Lu|Ting-Lu|100/100|[from] Flip Turn
+|-damage|p2a: Ting-Lu|84/100|[from] Spikes
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Torkoal|Eruption|p2a: Ting-Lu
+|-crit|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|-weather|none
+|upkeep
+|
+|t:|1743891987
+|switch|p2a: Alomomola|Alomomola, F|99/100
+|turn|10
+|
+|t:|1743891991
+|switch|p1a: Klefki|Klefki, M|50/100
+|-heal|p1a: Klefki|100/100|[from] move: Healing Wish
+|move|p2a: Alomomola|Flip Turn|p1a: Klefki
+|-damage|p1a: Klefki|81/100
+|
+|t:|1743892000
+|switch|p2a: Scizor|Scizor, F|100/100|[from] Flip Turn
+|-damage|p2a: Scizor|84/100|[from] Spikes
+|
+|upkeep
+|turn|11
+|
+|t:|1743892013
+|move|p2a: Scizor|Bullet Punch|p1a: Klefki
+|-damage|p1a: Klefki|24/100
+|move|p1a: Klefki|Trick Room|p1a: Klefki
+|-fieldstart|move: Trick Room|[of] p1a: Klefki
+|
+|upkeep
+|turn|12
+|
+|t:|1743892021
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Klefki|Steel Beam|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|73/100
+|-damage|p1a: Klefki|0 fnt|[from] steelbeam
+|faint|p1a: Klefki
+|
+|upkeep
+|
+|t:|1743892028
+|switch|p1a: Torkoal|Torkoal, F, tera:Fire|88/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|13
+|
+|t:|1743892033
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Torkoal|Eruption|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743892046
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Zamazenta|84/100|[from] Spikes
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Torkoal|Eruption|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743892058
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|turn|15
+|
+|t:|1743892072
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|move|p2a: Alomomola|Flip Turn|p1a: Cresselia
+|-damage|p1a: Cresselia|95/100
+|
+|t:|1743892080
+|switch|p2a: Sinistcha|Sinistcha|100/100|[from] Flip Turn
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|16
+|
+|t:|1743892106
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743892116
+|move|p1a: Cresselia|Lunar Dance|p1a: Cresselia
+|faint|p1a: Cresselia
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|
+|-weather|none
+|upkeep
+|
+|t:|1743892124
+|switch|p1a: Torkoal|Torkoal, F, tera:Fire|88/100
+|-heal|p1a: Torkoal|100/100|[from] move: Lunar Dance
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|18
+|
+|t:|1743892133
+|-terastallize|p2a: Sinistcha|Poison
+|move|p1a: Torkoal|Eruption|p2a: Sinistcha
+|-damage|p2a: Sinistcha|47/100
+|move|p2a: Sinistcha|Shadow Ball|p1a: Torkoal
+|-damage|p1a: Torkoal|20/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743892141
+|switch|p1a: Hattrem|Hattrem, F|100/100
+|move|p2a: Sinistcha|Strength Sap|p1a: Hattrem
+|move|p1a: Hattrem|Strength Sap|p2a: Sinistcha|[from] ability: Magic Bounce
+|-unboost|p2a: Sinistcha|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1743892149
+|move|p1a: Hattrem|Psychic|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|16/100
+|move|p2a: Sinistcha|Shadow Ball|p1a: Hattrem
+|-supereffective|p1a: Hattrem
+|-enditem|p1a: Hattrem|Focus Sash
+|-damage|p1a: Hattrem|1/100
+|-unboost|p1a: Hattrem|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|21
+|
+|t:|1743892159
+|move|p2a: Sinistcha|Shadow Ball|p1a: Hattrem
+|-supereffective|p1a: Hattrem
+|-damage|p1a: Hattrem|0 fnt
+|faint|p1a: Hattrem
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743892161
+|switch|p1a: Rabsca|Rabsca, M|100/100
+|turn|22
+|
+|t:|1743892171
+|move|p2a: Sinistcha|Shadow Ball|p1a: Rabsca
+|-supereffective|p1a: Rabsca
+|-enditem|p1a: Rabsca|Focus Sash
+|-damage|p1a: Rabsca|1/100
+|move|p1a: Rabsca|Trick Room|p1a: Rabsca
+|-fieldstart|move: Trick Room|[of] p1a: Rabsca
+|
+|-weather|none
+|upkeep
+|turn|23
+|
+|t:|1743892177
+|move|p1a: Rabsca|Revival Blessing|p1a: Rabsca
+|
+|t:|1743892180
+|-heal|p1: Hatterene|50/100|[from] move: Revival Blessing
+|move|p2a: Sinistcha|Strength Sap|p1a: Rabsca
+|-unboost|p1a: Rabsca|atk|1
+|-heal|p2a: Sinistcha|46/100
+|
+|upkeep
+|turn|24
+|
+|t:|1743892188
+|move|p1a: Rabsca|Memento|p2a: Sinistcha
+|-unboost|p2a: Sinistcha|atk|2
+|-unboost|p2a: Sinistcha|spa|2
+|faint|p1a: Rabsca
+|move|p2a: Sinistcha|Strength Sap|p1: Rabsca|[notarget]
+|-fail|p2a: Sinistcha
+|
+|upkeep
+|
+|t:|1743892189
+|switch|p1a: Hatterene|Hatterene, F|50/100
+|turn|25
+|
+|t:|1743892199
+|move|p1a: Hatterene|Psyshock|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|
+|upkeep
+|
+|t:|1743892205
+|switch|p2a: Scizor|Scizor, F|84/100
+|-damage|p2a: Scizor|68/100|[from] Spikes
+|turn|26
+|
+|t:|1743892210
+|move|p2a: Scizor|Bullet Punch|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743892212
+|switch|p1a: Torkoal|Torkoal, F, tera:Fire|20/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|27
+|c|☆pamphilus|gg
+|
+|t:|1743892218
+|move|p2a: Scizor|Bullet Punch|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|2/100
+|move|p1a: Torkoal|Weather Ball|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆ian_yo|gg
+|
+|t:|1743892226
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|turn|28
+|
+|t:|1743892229
+|move|p2a: Alomomola|Flip Turn|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|win|pamphilus
+|raw|ian_yo's rating: 1492 &rarr; <strong>1473</strong><br />(-19 for losing)
+|raw|pamphilus's rating: 1515 &rarr; <strong>1534</strong><br />(+19 for winning)
+|l|☆ian_yo
+|player|p1|

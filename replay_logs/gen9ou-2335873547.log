@@ -1,0 +1,326 @@
+|j|☆zdxasdqwe
+|j|☆jjss94
+|t:|1743851949
+|gametype|singles
+|player|p1|zdxasdqwe|red|1154
+|player|p2|jjss94|102|1182
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Hydrapple, M|
+|poke|p1|Vileplume, M|
+|poke|p1|Vikavolt, M|
+|poke|p1|Incineroar, M|
+|poke|p1|Mimikyu, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Dondozo, M|
+|poke|p2|Gholdengo|
+|poke|p2|Cinderace, M|
+|poke|p2|Walking Wake|
+|poke|p2|Torkoal, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by zdxasdqwe)
+|
+|t:|1743851976
+|start
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|switch|p2a: Glimmora|Glimmora, F, shiny|100/100
+|turn|1
+|
+|t:|1743851982
+|move|p2a: Glimmora|Toxic|p1a: Vileplume
+|-status|p1a: Vileplume|tox
+|move|p1a: Vileplume|Leech Seed|p2a: Glimmora
+|-start|p2a: Glimmora|move: Leech Seed
+|
+|-damage|p2a: Glimmora|88/100|[from] Leech Seed|[of] p1a: Vileplume
+|-damage|p1a: Vileplume|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1743851991
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Glimmora|Mortal Spin|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|98/100
+|-status|p1a: Great Tusk|psn
+|-end|p2a: Glimmora|Leech Seed|[from] move: Mortal Spin|[of] p2a: Glimmora
+|
+|-damage|p1a: Great Tusk|86/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1743852003
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Vikavolt|Vikavolt, M|100/100
+|move|p2a: Glimmora|Spiky Shield||[still]
+|-fail|p2a: Glimmora
+|
+|upkeep
+|turn|4
+|
+|t:|1743852010
+|move|p2a: Glimmora|Toxic|p1a: Vikavolt
+|-status|p1a: Vikavolt|tox
+|move|p1a: Vikavolt|Thunderbolt|p2a: Glimmora
+|-damage|p2a: Glimmora|25/100
+|
+|-damage|p1a: Vikavolt|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743852016
+|move|p2a: Glimmora|Spiky Shield|p2a: Glimmora
+|-singleturn|p2a: Glimmora|move: Protect
+|move|p1a: Vikavolt|Thunderbolt|p2a: Glimmora
+|-activate|p2a: Glimmora|move: Protect
+|
+|-damage|p1a: Vikavolt|82/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743852022
+|move|p2a: Glimmora|Explosion|p1a: Vikavolt
+|-damage|p1a: Vikavolt|34/100 tox
+|faint|p2a: Glimmora
+|move|p1a: Vikavolt|Thunderbolt|p2: Glimmora|[notarget]
+|-fail|p1a: Vikavolt
+|
+|-damage|p1a: Vikavolt|16/100 tox|[from] psn
+|upkeep
+|
+|t:|1743852034
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|7
+|
+|t:|1743852041
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|move|p2a: Cinderace|Zen Headbutt|p1a: Incineroar
+|-start|p2a: Cinderace|typechange|Psychic|[from] ability: Libero
+|-immune|p1a: Incineroar
+|
+|upkeep
+|turn|8
+|
+|t:|1743852051
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Incineroar|Parting Shot|p2a: Torkoal
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2a: Torkoal|spa|1
+|
+|t:|1743852054
+|switch|p1a: Great Tusk|Great Tusk|86/100 psn|[from] Parting Shot
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Great Tusk|73/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743852059
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p1a: Great Tusk|Headlong Rush|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|-damage|p1a: Great Tusk|63/100 psn|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Great Tusk|51/100 psn|[from] psn
+|upkeep
+|
+|t:|1743852065
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|10
+|
+|t:|1743852070
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|move|p2a: Cinderace|High Jump Kick|p1a: Incineroar
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743852077
+|switch|p1a: Vileplume|Vileplume, M|94/100 tox
+|turn|11
+|
+|t:|1743852085
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|switch|p1a: Hydrapple|Hydrapple, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743852093
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|move|p1a: Hydrapple|Earth Power|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-crit|p2a: Torkoal
+|-damage|p2a: Torkoal|37/100
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1743852099
+|move|p1a: Hydrapple|Earth Power|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|upkeep
+|
+|t:|1743852103
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|14
+|
+|t:|1743852110
+|switch|p1a: Vileplume|Vileplume, M|94/100 tox
+|move|p2a: Cinderace|Flare Blitz|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|-damage|p2a: Cinderace|84/100|[from] item: Rocky Helmet|[of] p1a: Vileplume
+|faint|p1a: Vileplume
+|-damage|p2a: Cinderace|47/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743852122
+|switch|p1a: Mimikyu|Mimikyu, F|100/100
+|turn|15
+|
+|t:|1743852135
+|move|p2a: Cinderace|Flare Blitz|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|
+|upkeep
+|turn|16
+|
+|t:|1743852146
+|-terastallize|p1a: Mimikyu|Ghost
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|-damage|p1a: Mimikyu|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743852151
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|17
+|
+|t:|1743852154
+|-terastallize|p2a: Gholdengo|Fighting
+|move|p1a: Mimikyu|Shadow Sneak|p2a: Gholdengo
+|-damage|p2a: Gholdengo|47/100
+|-damage|p1a: Mimikyu|68/100|[from] item: Life Orb
+|move|p2a: Gholdengo|Make It Rain|p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Mimikyu
+|
+|upkeep
+|
+|t:|1743852165
+|switch|p1a: Hydrapple|Hydrapple, M|100/100
+|turn|18
+|
+|t:|1743852171
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|move|p1a: Hydrapple|Fickle Beam|p2a: Dondozo
+|-damage|p2a: Dondozo|72/100
+|
+|-heal|p2a: Dondozo|78/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743852177
+|move|p1a: Hydrapple|Fickle Beam|p2a: Dondozo
+|-crit|p2a: Dondozo
+|-damage|p2a: Dondozo|33/100
+|move|p2a: Dondozo|Wave Crash|p1a: Hydrapple
+|-resisted|p1a: Hydrapple
+|-damage|p1a: Hydrapple|93/100
+|-damage|p2a: Dondozo|30/100|[from] Recoil
+|
+|-heal|p2a: Dondozo|37/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743852185
+|move|p1a: Hydrapple|Fickle Beam|p2a: Dondozo|[anim] Fickle Beam All Out
+|-activate|p1a: Hydrapple|move: Fickle Beam
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|upkeep
+|
+|t:|1743852192
+|switch|p2a: Gholdengo|Gholdengo, tera:Fighting|47/100
+|turn|21
+|
+|t:|1743852195
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|97/100
+|move|p1a: Hydrapple|Fickle Beam|p2a: Gholdengo|[anim] Fickle Beam All Out
+|-activate|p1a: Hydrapple|move: Fickle Beam
+|-damage|p2a: Gholdengo|37/100
+|
+|upkeep
+|turn|22
+|
+|t:|1743852202
+|move|p2a: Gholdengo|Make It Rain|p1a: Hydrapple
+|-damage|p1a: Hydrapple|63/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Hydrapple|Fickle Beam|p2a: Gholdengo
+|-damage|p2a: Gholdengo|6/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743852210
+|move|p1a: Hydrapple|Sucker Punch|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|win|zdxasdqwe
+|raw|zdxasdqwe's rating: 1154 &rarr; <strong>1181</strong><br />(+27 for winning)
+|raw|jjss94's rating: 1182 &rarr; <strong>1155</strong><br />(-27 for losing)
+|l|☆jjss94
+|player|p2|
+|l|☆zdxasdqwe
+|player|p1|

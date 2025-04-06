@@ -1,0 +1,266 @@
+|j|☆DogShed
+|j|☆Thenix12
+|t:|1743936373
+|gametype|singles
+|player|p1|DogShed|266|1321
+|player|p2|Thenix12|nurse|1372
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragalge, F|
+|poke|p1|Alomomola, M|
+|poke|p1|Gliscor, F|
+|poke|p1|Great Tusk|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Kingambit, M|
+|poke|p2|Emboar, M|
+|poke|p2|Cinccino, M|
+|poke|p2|Hydrapple, M|
+|poke|p2|Iron Crown|
+|poke|p2|Basculin-Blue-Striped, M|
+|poke|p2|Clodsire, M|
+|teampreview
+|
+|t:|1743936385
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Cinccino|Cinccino, M|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|turn|1
+|
+|t:|1743936393
+|switch|p2a: Hydrapple|Hydrapple, M|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: Hydrapple
+|-damage|p2a: Hydrapple|84/100
+|-damage|p1a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p2a: Hydrapple
+|-enditem|p2a: Hydrapple|Rocky Helmet|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|2
+|
+|t:|1743936401
+|move|p1a: Great Tusk|Ice Spinner|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|31/100
+|move|p2a: Hydrapple|Giga Drain|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|4/100
+|-heal|p2a: Hydrapple|73/100|[from] drain|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|3
+|
+|t:|1743936412
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Dragalge|Dragalge, F|100/100
+|move|p2a: Hydrapple|Giga Drain|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|93/100
+|-heal|p2a: Hydrapple|75/100|[from] drain|[of] p1a: Dragalge
+|
+|-heal|p1a: Dragalge|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743936429
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|t:|1743936436
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|move|p2a: Clodsire|Stealth Rock|p1a: Gliscor
+|-sidestart|p1: DogShed|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1743936451
+|switch|p2a: Basculin|Basculin-Blue-Striped, M|100/100
+|move|p1a: Gliscor|Knock Off|p2a: Basculin
+|-crit|p2a: Basculin
+|-enditem|p2a: Basculin|Focus Sash
+|-damage|p2a: Basculin|1/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743936478
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Basculin|Blizzard|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|upkeep
+|turn|8
+|
+|t:|1743936485
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Basculin|Blizzard|p1a: Alomomola|[miss]
+|-miss|p2a: Basculin|p1a: Alomomola
+|
+|upkeep
+|turn|9
+|
+|t:|1743936496
+|switch|p2a: Hydrapple|Hydrapple, M|100/100
+|move|p1a: Alomomola|Flip Turn|p2a: Hydrapple
+|-resisted|p2a: Hydrapple
+|-damage|p2a: Hydrapple|98/100
+|
+|t:|1743936507
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] Flip Turn
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|t:|1743936512
+|move|p1a: Ogerpon|Spikes|p2a: Hydrapple
+|-sidestart|p2: Thenix12|Spikes
+|move|p2a: Hydrapple|Body Press|p1a: Ogerpon
+|-damage|p1a: Ogerpon|51/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743936518
+|move|p1a: Ogerpon|U-turn|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|66/100
+|
+|t:|1743936528
+|switch|p1a: Kingambit|Kingambit, M|100/100|[from] U-turn
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|move|p2a: Hydrapple|Body Press|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|8/100
+|
+|-heal|p1a: Kingambit|14/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743936537
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Hydrapple
+|-damage|p2a: Hydrapple|38/100
+|move|p2a: Hydrapple|Giga Drain|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-heal|p2a: Hydrapple|44/100|[from] drain|[of] p1a: Kingambit
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|
+|upkeep
+|
+|t:|1743936548
+|switch|p1a: Great Tusk|Great Tusk|4/100
+|-damage|p1a: Great Tusk|1/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743936551
+|move|p1a: Great Tusk|Rapid Spin|p2a: Hydrapple
+|-crit|p2a: Hydrapple
+|-damage|p2a: Hydrapple|32/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: DogShed|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Hydrapple|Giga Drain|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-heal|p2a: Hydrapple|32/100|[from] drain|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743936561
+|switch|p1a: Dragalge|Dragalge, F|99/100
+|turn|14
+|
+|t:|1743936564
+|move|p2a: Hydrapple|Recover|p2a: Hydrapple
+|-heal|p2a: Hydrapple|82/100
+|move|p1a: Dragalge|Sludge Wave|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|
+|-heal|p1a: Dragalge|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743936576
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-damage|p2a: Iron Crown|88/100|[from] Spikes
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespa
+|turn|15
+|
+|t:|1743936585
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Iron Crown|Psychic|p1a: Alomomola
+|-damage|p1a: Alomomola|34/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743936591
+|move|p2a: Iron Crown|Psychic|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|upkeep
+|
+|t:|1743936603
+|switch|p1a: Dragalge|Dragalge, F|100/100
+|turn|17
+|
+|t:|1743936612
+|move|p2a: Iron Crown|Psychic|p1a: Dragalge
+|-supereffective|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|faint|p1a: Dragalge
+|
+|upkeep
+|
+|t:|1743936616
+|switch|p1a: Gliscor|Gliscor, F|100/100 tox
+|turn|18
+|
+|t:|1743936620
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Gliscor
+|-damage|p1a: Gliscor|70/100 tox
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|27/100 tox
+|-hitcount|p1a: Gliscor|2
+|move|p1a: Gliscor|Knock Off|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|59/100
+|
+|-heal|p1a: Gliscor|40/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|-message|DogShed forfeited.
+|
+|win|Thenix12
+|raw|DogShed's rating: 1321 &rarr; <strong>1304</strong><br />(-17 for losing)
+|raw|Thenix12's rating: 1372 &rarr; <strong>1389</strong><br />(+17 for winning)
+|l|☆DogShed
+|player|p1|
+|l|☆Thenix12
+|player|p2|

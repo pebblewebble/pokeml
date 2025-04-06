@@ -1,0 +1,253 @@
+|j|☆Spladda
+|j|☆jxrx
+|t:|1743883665
+|gametype|singles
+|player|p1|Spladda|red|1209
+|player|p2|jxrx|norman|1261
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Darkrai|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Kyurem|
+|poke|p1|Blaziken, F|
+|poke|p1|Great Tusk|
+|poke|p1|Dragonite, F|
+|poke|p2|Great Tusk|
+|poke|p2|Muk-Alola, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Vileplume, M|
+|poke|p2|Magnezone|
+|poke|p2|Altaria, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jxrx)
+|
+|t:|1743883682
+|start
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Muk|Muk-Alola, F|100/100
+|turn|1
+|
+|t:|1743883696
+|switch|p1a: Blaziken|Blaziken, F, shiny|100/100
+|move|p2a: Muk|Knock Off|p1a: Blaziken
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|76/100
+|-enditem|p1a: Blaziken|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Muk
+|
+|upkeep
+|turn|2
+|
+|t:|1743883715
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|move|p2a: Muk|Poison Fang|p1a: Blaziken
+|-damage|p1a: Blaziken|48/100
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|3
+|
+|t:|1743883725
+|switch|p2a: Altaria|Altaria, F, shiny|100/100
+|move|p1a: Blaziken|Flare Blitz|p2a: Altaria
+|-resisted|p2a: Altaria
+|-damage|p2a: Altaria|44/100
+|-damage|p1a: Blaziken|27/100|[from] Recoil
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|4
+|
+|t:|1743883733
+|move|p1a: Blaziken|Close Combat|p2a: Altaria
+|-resisted|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|faint|p2a: Altaria
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743883756
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|5
+|
+|t:|1743883761
+|move|p1a: Blaziken|Close Combat|p2a: Great Tusk
+|-damage|p2a: Great Tusk|9/100
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|move|p2a: Great Tusk|Headlong Rush|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Blaziken
+|
+|upkeep
+|
+|t:|1743883779
+|switch|p1a: Kyurem|Kyurem, shiny|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|6
+|
+|t:|1743883785
+|move|p1a: Kyurem|Ice Beam|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743883789
+|switch|p2a: Muk|Muk-Alola, F|100/100
+|turn|7
+|
+|t:|1743883794
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Muk|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|92/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743883800
+|switch|p2a: Vileplume|Vileplume, M|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Vileplume
+|-damage|p2a: Vileplume|28/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-damage|p1a: Great Tusk|75/100|[from] item: Rocky Helmet|[of] p2a: Vileplume
+|
+|upkeep
+|turn|9
+|
+|t:|1743883808
+|move|p1a: Great Tusk|Knock Off|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|-damage|p1a: Great Tusk|58/100|[from] item: Rocky Helmet|[of] p2a: Vileplume
+|-enditem|p2a: Vileplume|Rocky Helmet|[from] move: Knock Off|[of] p1a: Great Tusk
+|faint|p2a: Vileplume
+|
+|upkeep
+|
+|t:|1743883829
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|10
+|
+|t:|1743883835
+|move|p2a: Dragapult|Dragon Darts|p1a: Great Tusk
+|-damage|p1a: Great Tusk|29/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Great Tusk
+|-damage|p1a: Great Tusk|3/100
+|move|p1a: Great Tusk|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1743883839
+|switch|p2a: Muk|Muk-Alola, F|100/100
+|turn|11
+|
+|t:|1743883842
+|move|p2a: Muk|Shadow Sneak|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743883850
+|switch|p1a: Dragonite|Dragonite, F, shiny|100/100
+|turn|12
+|
+|t:|1743883861
+|move|p1a: Dragonite|Earthquake|p2a: Muk
+|-supereffective|p2a: Muk
+|-damage|p2a: Muk|0 fnt
+|faint|p2a: Muk
+|
+|upkeep
+|
+|t:|1743883864
+|switch|p2a: Magnezone|Magnezone|100/100
+|turn|13
+|
+|t:|1743883870
+|-terastallize|p2a: Magnezone|Fighting
+|move|p2a: Magnezone|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|34/100
+|move|p1a: Dragonite|Earthquake|p2a: Magnezone
+|-damage|p2a: Magnezone|40/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743883875
+|switch|p1a: Darkrai|Darkrai, shiny|100/100
+|move|p2a: Magnezone|Thunderbolt|p1a: Darkrai
+|-damage|p1a: Darkrai|6/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743883881
+|move|p1a: Darkrai|Ice Beam|p2a: Magnezone
+|-damage|p2a: Magnezone|3/100
+|move|p2a: Magnezone|Thunderbolt|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|upkeep
+|
+|t:|1743883884
+|switch|p1a: Dragonite|Dragonite, F, shiny|34/100
+|turn|16
+|
+|t:|1743883898
+|move|p2a: Magnezone|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1743883902
+|switch|p1a: Kyurem|Kyurem, shiny|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|17
+|
+|t:|1743883926
+|move|p1a: Kyurem|Dragon Pulse|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|win|Spladda
+|raw|Spladda's rating: 1209 &rarr; <strong>1240</strong><br />(+31 for winning)
+|raw|jxrx's rating: 1290 &rarr; <strong>1259</strong><br />(-31 for losing)
+|l|☆jxrx
+|player|p2|
+|l|☆Spladda
+|player|p1|

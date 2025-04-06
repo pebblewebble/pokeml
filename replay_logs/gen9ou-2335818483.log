@@ -1,0 +1,379 @@
+|j|☆IBBXEF
+|j|☆Kidday
+|t:|1743842148
+|gametype|singles
+|player|p1|IBBXEF|scientist-gen4|1150
+|player|p2|Kidday|psychic|1215
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Comfey, M|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Moltres-Galar|
+|poke|p1|Pelipper, M|
+|poke|p1|Sandslash-Alola, F|
+|poke|p1|Tornadus-Therian, M|
+|poke|p2|Blastoise, M|
+|poke|p2|Sceptile, M|
+|poke|p2|Golurk|
+|poke|p2|Kingambit, M|
+|poke|p2|Magmortar, M|
+|poke|p2|Grimmsnarl, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by IBBXEF)
+|
+|t:|1743842167
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1743842193
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Kidday|move: Light Screen
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: IBBXEF|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743842210
+|switch|p1a: Sandslash|Sandslash-Alola, F|100/100
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Sandslash
+|-unboost|p1a: Sandslash|atk|1
+|-unboost|p1a: Sandslash|spa|1
+|inactive|Kidday has 120 seconds left.
+|
+|t:|1743842229
+|switch|p2a: Kingambit|Kingambit, M, shiny|100/100|[from] Parting Shot
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|inactive|Kidday has 120 seconds left.
+|
+|t:|1743842245
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Magmortar|Magmortar, M, shiny|100/100
+|move|p1a: Sandslash|Stealth Rock|p2a: Magmortar
+|-sidestart|p2: Kidday|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743842256
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Magmortar|Flamethrower|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|94/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743842268
+|move|p2a: Magmortar|Thunderbolt|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|32/100
+|move|p1a: Pelipper|Tailwind|p1a: Pelipper
+|-sidestart|p1: IBBXEF|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743842280
+|move|p1a: Pelipper|Knock Off|p2a: Magmortar
+|-damage|p2a: Magmortar|86/100
+|-enditem|p2a: Magmortar|Assault Vest|[from] move: Knock Off|[of] p1a: Pelipper
+|move|p2a: Magmortar|Thunderbolt|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743842292
+|switch|p1a: Moltres|Moltres-Galar|100/100
+|turn|7
+|
+|t:|1743842303
+|move|p1a: Moltres|Agility|p1a: Moltres
+|-boost|p1a: Moltres|spe|2
+|move|p2a: Magmortar|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|73/100
+|-enditem|p1a: Moltres|Weakness Policy
+|-boost|p1a: Moltres|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Moltres|spa|2|[from] item: Weakness Policy
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743842320
+|move|p1a: Moltres|Nasty Plot|p1a: Moltres
+|-boost|p1a: Moltres|spa|2
+|move|p2a: Magmortar|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|42/100
+|-ability|p1a: Moltres|Berserk|boost
+|-boost|p1a: Moltres|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: Kidday|move: Light Screen
+|-sideend|p1: IBBXEF|move: Tailwind
+|-sideend|p1: IBBXEF|move: Aurora Veil
+|upkeep
+|turn|9
+|
+|t:|1743842332
+|move|p1a: Moltres|Hurricane|p2a: Magmortar
+|-damage|p2a: Magmortar|0 fnt
+|faint|p2a: Magmortar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743842339
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|-damage|p2a: Grimmsnarl|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743842346
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Kidday|move: Light Screen
+|move|p1a: Moltres|Hurricane|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Kidday has 120 seconds left.
+|
+|t:|1743842404
+|switch|p2a: Kingambit|Kingambit, M, shiny|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|11
+|
+|t:|1743842418
+|move|p1a: Moltres|Hurricane|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|50/100
+|move|p2a: Kingambit|Iron Head|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|-weather|none
+|upkeep
+|
+|t:|1743842441
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|turn|12
+|inactive|Kidday has 90 seconds left.
+|
+|t:|1743842468
+|move|p2a: Kingambit|Sucker Punch|p1a: Tornadus
+|-damage|p1a: Tornadus|34/100
+|move|p1a: Tornadus|Heat Wave|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|2/100
+|-enditem|p2a: Kingambit|Weakness Policy
+|-boost|p2a: Kingambit|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Kingambit|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|13
+|
+|t:|1743842482
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743842494
+|move|p1a: Ninetales|Blizzard|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|inactive|Kidday has 90 seconds left.
+|
+|t:|1743842525
+|switch|p2a: Golurk|Golurk, shiny|100/100
+|-damage|p2a: Golurk|94/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743842536
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: IBBXEF|move: Aurora Veil
+|move|p2a: Golurk|Dynamic Punch|p1a: Ninetales
+|-damage|p1a: Ninetales|80/100
+|-start|p1a: Ninetales|confusion
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743842563
+|switch|p2a: Sceptile|Sceptile, M|100/100
+|-damage|p2a: Sceptile|88/100|[from] Stealth Rock
+|-activate|p1a: Ninetales|confusion
+|-damage|p1a: Ninetales|75/100|[from] confusion
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|17
+|inactive|Kidday has 90 seconds left.
+|
+|t:|1743842574
+|switch|p1a: Sandslash|Sandslash-Alola, F|100/100
+|move|p2a: Sceptile|Leaf Storm|p1a: Sandslash
+|-resisted|p1a: Sandslash
+|-damage|p1a: Sandslash|87/100
+|-unboost|p2a: Sceptile|spa|2
+|-enditem|p2a: Sceptile|White Herb
+|-clearnegativeboost|p2a: Sceptile|[silent]
+|
+|-weather|none
+|-sideend|p2: Kidday|move: Light Screen
+|upkeep
+|turn|18
+|inactive|Kidday has 90 seconds left.
+|inactive|IBBXEF has 120 seconds left.
+|
+|t:|1743842599
+|move|p2a: Sceptile|Vacuum Wave|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|61/100
+|move|p1a: Sandslash|Icicle Crash|p2a: Sceptile
+|-supereffective|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|
+|upkeep
+|
+|t:|1743842611
+|switch|p2a: Golurk|Golurk, shiny|94/100
+|-damage|p2a: Golurk|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743842623
+|switch|p1a: Tornadus|Tornadus-Therian, M|67/100
+|move|p2a: Golurk|Poltergeist|p1a: Tornadus
+|-activate|p1a: Tornadus|move: Poltergeist|Choice Specs
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|inactive|IBBXEF has 120 seconds left.
+|
+|t:|1743842638
+|switch|p1a: Ninetales|Ninetales-Alola, F|75/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|20
+|inactive|IBBXEF has 120 seconds left.
+|
+|t:|1743842643
+|move|p1a: Ninetales|Blizzard|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|19/100
+|move|p2a: Golurk|Poltergeist|p1a: Ninetales
+|-activate|p1a: Ninetales|move: Poltergeist|Light Clay
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|inactive|IBBXEF has 120 seconds left.
+|
+|t:|1743842654
+|switch|p1a: Comfey|Comfey, M|100/100
+|turn|21
+|inactive|IBBXEF has 120 seconds left.
+|
+|t:|1743842660
+|move|p1a: Comfey|Giga Drain|p2a: Golurk
+|-supereffective|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743842664
+|switch|p2a: Blastoise|Blastoise, M, shiny|100/100
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1743842676
+|-terastallize|p2a: Blastoise|Water
+|move|p1a: Comfey|Giga Drain|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|50/100
+|move|p2a: Blastoise|Shell Smash|p2a: Blastoise
+|-unboost|p2a: Blastoise|def|1
+|-unboost|p2a: Blastoise|spd|1
+|-boost|p2a: Blastoise|atk|2
+|-boost|p2a: Blastoise|spa|2
+|-boost|p2a: Blastoise|spe|2
+|-enditem|p2a: Blastoise|White Herb
+|-clearnegativeboost|p2a: Blastoise|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p1: IBBXEF|move: Aurora Veil
+|upkeep
+|turn|23
+|
+|t:|1743842691
+|move|p1a: Comfey|Giga Drain|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|10/100
+|move|p2a: Blastoise|Flash Cannon|p1a: Comfey
+|-supereffective|p1a: Comfey
+|-damage|p1a: Comfey|3/100
+|-unboost|p1a: Comfey|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1743842703
+|move|p1a: Comfey|Giga Drain|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|-heal|p1a: Comfey|11/100|[from] drain|[of] p2a: Blastoise
+|faint|p2a: Blastoise
+|
+|win|IBBXEF
+|raw|IBBXEF's rating: 1150 &rarr; <strong>1180</strong><br />(+30 for winning)
+|raw|Kidday's rating: 1215 &rarr; <strong>1185</strong><br />(-30 for losing)
+|l|☆IBBXEF
+|player|p1|
+|l|☆Kidday
+|player|p2|

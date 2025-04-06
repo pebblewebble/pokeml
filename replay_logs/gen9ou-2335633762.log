@@ -1,0 +1,374 @@
+|j|☆Mourien
+|j|☆k1kayone
+|t:|1743814926
+|gametype|singles
+|player|p1|Mourien|hilbert-wonderlauncher|1032
+|player|p2|k1kayone|acetrainersnowf|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Meowscarada, M|
+|poke|p1|Iron Moth|
+|poke|p1|Mimikyu, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Primarina, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Samurott-Hisui, F|
+|teampreview
+|
+|t:|1743814937
+|start
+|switch|p1a: Meowscarada|Meowscarada, M, shiny|100/100
+|switch|p2a: Dr. Garg|Garganacl, M|100/100
+|turn|1
+|
+|t:|1743814950
+|move|p1a: Meowscarada|Trick|p2a: Dr. Garg
+|-start|p1a: Meowscarada|typechange|Psychic|[from] ability: Protean
+|-activate|p1a: Meowscarada|move: Trick|[of] p2a: Dr. Garg
+|-item|p2a: Dr. Garg|Choice Scarf|[from] move: Trick
+|-item|p1a: Meowscarada|Leftovers|[from] move: Trick
+|move|p2a: Dr. Garg|Salt Cure|p1a: Meowscarada
+|-damage|p1a: Meowscarada|81/100
+|-start|p1a: Meowscarada|Salt Cure
+|
+|-heal|p1a: Meowscarada|87/100|[from] item: Leftovers
+|-damage|p1a: Meowscarada|75/100|[from] Salt Cure
+|upkeep
+|turn|2
+|
+|t:|1743814965
+|move|p1a: Meowscarada|Knock Off|p2a: Dr. Garg
+|-damage|p2a: Dr. Garg|82/100
+|-enditem|p2a: Dr. Garg|Choice Scarf|[from] move: Knock Off|[of] p1a: Meowscarada
+|move|p2a: Dr. Garg|Salt Cure|p1a: Meowscarada
+|-damage|p1a: Meowscarada|54/100
+|
+|-heal|p1a: Meowscarada|60/100|[from] item: Leftovers
+|-damage|p1a: Meowscarada|48/100|[from] Salt Cure
+|upkeep
+|turn|3
+|
+|t:|1743814977
+|-terastallize|p2a: Dr. Garg|Fairy
+|move|p1a: Meowscarada|Triple Axel|p2a: Dr. Garg
+|-damage|p2a: Dr. Garg|77/100
+|-damage|p2a: Dr. Garg|69/100
+|-hitcount|p2a: Dr. Garg|2
+|move|p2a: Dr. Garg|Stealth Rock|p1a: Meowscarada
+|-sidestart|p1: Mourien|move: Stealth Rock
+|
+|-heal|p1a: Meowscarada|54/100|[from] item: Leftovers
+|-damage|p1a: Meowscarada|42/100|[from] Salt Cure
+|upkeep
+|turn|4
+|
+|t:|1743814994
+|-terastallize|p1a: Meowscarada|Ghost
+|move|p1a: Meowscarada|Triple Axel|p2a: Dr. Garg
+|-crit|p2a: Dr. Garg
+|-damage|p2a: Dr. Garg|63/100
+|-damage|p2a: Dr. Garg|55/100
+|-damage|p2a: Dr. Garg|44/100
+|-hitcount|p2a: Dr. Garg|3
+|move|p2a: Dr. Garg|Salt Cure|p1a: Meowscarada
+|-damage|p1a: Meowscarada|20/100
+|
+|-heal|p1a: Meowscarada|26/100|[from] item: Leftovers
+|-damage|p1a: Meowscarada|14/100|[from] Salt Cure
+|upkeep
+|turn|5
+|
+|t:|1743815012
+|move|p1a: Meowscarada|U-turn|p2a: Dr. Garg
+|-resisted|p2a: Dr. Garg
+|-damage|p2a: Dr. Garg|37/100
+|
+|t:|1743815020
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100|[from] U-turn
+|-damage|p1a: Samurott|88/100|[from] Stealth Rock
+|move|p2a: Dr. Garg|Salt Cure|p1a: Samurott
+|-damage|p1a: Samurott|69/100
+|-start|p1a: Samurott|Salt Cure
+|
+|-damage|p1a: Samurott|44/100|[from] Salt Cure
+|upkeep
+|turn|6
+|
+|t:|1743815034
+|switch|p2a: Acupuncturist|Samurott-Hisui, F|100/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Acupuncturist
+|-resisted|p2a: Acupuncturist
+|-damage|p2a: Acupuncturist|71/100
+|-sidestart|p2: k1kayone|Spikes
+|
+|-damage|p1a: Samurott|20/100|[from] Salt Cure
+|upkeep
+|turn|7
+|
+|t:|1743815050
+|move|p2a: Acupuncturist|Ceaseless Edge|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-sidestart|p1: Mourien|Spikes
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1743815059
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|-damage|p1a: Mimikyu|88/100|[from] Stealth Rock
+|-damage|p1a: Mimikyu|76/100|[from] Spikes
+|turn|8
+|
+|t:|1743815069
+|switch|p2a: Dr. Garg|Garganacl, M, tera:Fairy|37/100
+|-damage|p2a: Dr. Garg|25/100|[from] Spikes
+|move|p1a: Mimikyu|Substitute|p1a: Mimikyu
+|-start|p1a: Mimikyu|Substitute
+|-damage|p1a: Mimikyu|51/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743815078
+|move|p1a: Mimikyu|Trailblaze|p2a: Dr. Garg
+|-damage|p2a: Dr. Garg|16/100
+|-boost|p1a: Mimikyu|spe|1
+|move|p2a: Dr. Garg|Recover|p2a: Dr. Garg
+|-heal|p2a: Dr. Garg|66/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743815096
+|move|p1a: Mimikyu|Trailblaze|p2a: Dr. Garg
+|-damage|p2a: Dr. Garg|58/100
+|-boost|p1a: Mimikyu|spe|1
+|move|p2a: Dr. Garg|Salt Cure|p1a: Mimikyu
+|-end|p1a: Mimikyu|Substitute
+|
+|upkeep
+|turn|11
+|
+|t:|1743815106
+|move|p1a: Mimikyu|Play Rough|p2a: Dr. Garg
+|-damage|p2a: Dr. Garg|35/100
+|move|p2a: Dr. Garg|Salt Cure|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|51/100
+|-start|p1a: Mimikyu|Salt Cure
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M
+|-damage|p1a: Mimikyu|39/100|[from] pokemon: Mimikyu-Busted
+|
+|-damage|p1a: Mimikyu|26/100|[from] Salt Cure
+|upkeep
+|turn|12
+|
+|t:|1743815118
+|move|p1a: Mimikyu|Play Rough|p2a: Dr. Garg
+|-damage|p2a: Dr. Garg|13/100
+|-unboost|p2a: Dr. Garg|atk|1
+|move|p2a: Dr. Garg|Recover|p2a: Dr. Garg
+|-heal|p2a: Dr. Garg|63/100
+|
+|-damage|p1a: Mimikyu|14/100|[from] Salt Cure
+|upkeep
+|turn|13
+|
+|t:|1743815130
+|switch|p1a: Primarina|Primarina, M|100/100
+|-damage|p1a: Primarina|88/100|[from] Stealth Rock
+|-damage|p1a: Primarina|76/100|[from] Spikes
+|move|p2a: Dr. Garg|Salt Cure|p1a: Primarina
+|-damage|p1a: Primarina|67/100
+|-start|p1a: Primarina|Salt Cure
+|
+|-heal|p1a: Primarina|73/100|[from] item: Leftovers
+|-damage|p1a: Primarina|48/100|[from] Salt Cure
+|upkeep
+|turn|14
+|
+|t:|1743815142
+|switch|p2a: Nurse|Weezing-Galar, F|100/100
+|-ability|p2a: Nurse|Neutralizing Gas
+|-damage|p2a: Nurse|88/100|[from] Spikes
+|move|p1a: Primarina|Psychic Noise|p2a: Nurse
+|-supereffective|p2a: Nurse
+|-damage|p2a: Nurse|26/100
+|-start|p2a: Nurse|move: Heal Block
+|
+|-heal|p1a: Primarina|55/100|[from] item: Leftovers
+|-damage|p1a: Primarina|30/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1743815159
+|move|p1a: Primarina|Draining Kiss|p2a: Nurse
+|-resisted|p2a: Nurse
+|-damage|p2a: Nurse|11/100
+|-heal|p1a: Primarina|40/100|[from] drain|[of] p2a: Nurse
+|move|p2a: Nurse|Pain Split|p1a: Primarina
+|-sethp|p1a: Primarina|25/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Nurse|27/100|[from] move: Pain Split
+|
+|-heal|p1a: Primarina|31/100|[from] item: Leftovers
+|-damage|p1a: Primarina|6/100|[from] Salt Cure
+|-end|p2a: Nurse|move: Heal Block
+|upkeep
+|turn|16
+|
+|t:|1743815178
+|-end|p2a: Nurse|ability: Neutralizing Gas
+|switch|p2a: Trudeau-king|Slowking-Galar, M|100/100
+|-damage|p2a: Trudeau-king|88/100|[from] Spikes
+|move|p1a: Primarina|Psychic Noise|p2a: Trudeau-king
+|-damage|p2a: Trudeau-king|75/100
+|-start|p2a: Trudeau-king|move: Heal Block
+|
+|-heal|p1a: Primarina|12/100|[from] item: Leftovers
+|-damage|p1a: Primarina|0 fnt|[from] Salt Cure
+|faint|p1a: Primarina
+|upkeep
+|
+|t:|1743815188
+|switch|p1a: Iron Moth|Iron Moth, shiny|100/100
+|-damage|p1a: Iron Moth|76/100|[from] Stealth Rock
+|-damage|p1a: Iron Moth|63/100|[from] Spikes
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|17
+|
+|t:|1743815197
+|move|p1a: Iron Moth|Fiery Dance|p2a: Trudeau-king
+|-damage|p2a: Trudeau-king|59/100
+|move|p2a: Trudeau-king|Future Sight|p1a: Iron Moth
+|-start|p2a: Trudeau-king|move: Future Sight
+|
+|-end|p2a: Trudeau-king|move: Heal Block
+|upkeep
+|turn|18
+|
+|t:|1743815205
+|switch|p2a: Plague Doctor|Corviknight, M|100/100
+|-ability|p2a: Plague Doctor|Pressure
+|move|p1a: Iron Moth|Fiery Dance|p2a: Plague Doctor
+|-supereffective|p2a: Plague Doctor
+|-damage|p2a: Plague Doctor|22/100
+|-boost|p1a: Iron Moth|spa|1
+|
+|upkeep
+|turn|19
+|
+|t:|1743815218
+|move|p1a: Iron Moth|Fiery Dance|p2a: Plague Doctor
+|-supereffective|p2a: Plague Doctor
+|-damage|p2a: Plague Doctor|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Plague Doctor
+|
+|-end|p1a: Iron Moth|move: Future Sight
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|upkeep
+|
+|t:|1743815232
+|switch|p1a: Meowscarada|Meowscarada, M, shiny, tera:Ghost|14/100
+|switch|p2a: Dr. Garg|Garganacl, M, tera:Fairy|63/100
+|-damage|p1a: Meowscarada|2/100|[from] Stealth Rock
+|-damage|p1a: Meowscarada|0 fnt|[from] Spikes
+|faint|p1a: Meowscarada
+|-damage|p2a: Dr. Garg|51/100|[from] Spikes
+|
+|t:|1743815239
+|switch|p1a: Mimikyu|Mimikyu-Busted, M|14/100
+|-damage|p1a: Mimikyu|2/100|[from] Stealth Rock
+|-damage|p1a: Mimikyu|0 fnt|[from] Spikes
+|faint|p1a: Mimikyu
+|
+|t:|1743815243
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-damage|p1a: Kingambit|82/100|[from] Spikes
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|20
+|
+|t:|1743815251
+|move|p2a: Dr. Garg|Protect|p2a: Dr. Garg
+|-singleturn|p2a: Dr. Garg|Protect
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Dr. Garg
+|-activate|p2a: Dr. Garg|move: Protect
+|
+|-heal|p1a: Kingambit|88/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743815259
+|move|p1a: Kingambit|Iron Defense|p1a: Kingambit
+|-boost|p1a: Kingambit|def|2
+|move|p2a: Dr. Garg|Salt Cure|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|86/100
+|-start|p1a: Kingambit|Salt Cure
+|
+|-heal|p1a: Kingambit|92/100|[from] item: Leftovers
+|-damage|p1a: Kingambit|67/100|[from] Salt Cure
+|upkeep
+|turn|22
+|
+|t:|1743815270
+|switch|p2a: Nurse|Weezing-Galar, F|27/100
+|-ability|p2a: Nurse|Neutralizing Gas
+|-damage|p2a: Nurse|15/100|[from] Spikes
+|move|p1a: Kingambit|Iron Defense|p1a: Kingambit
+|-boost|p1a: Kingambit|def|2
+|
+|-heal|p2a: Nurse|21/100|[from] item: Black Sludge
+|-heal|p1a: Kingambit|74/100|[from] item: Leftovers
+|-damage|p1a: Kingambit|49/100|[from] Salt Cure
+|upkeep
+|turn|23
+|
+|t:|1743815284
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Nurse|Will-O-Wisp|p1a: Kingambit
+|-status|p1a: Kingambit|brn
+|
+|-heal|p2a: Nurse|27/100|[from] item: Black Sludge
+|-heal|p1a: Kingambit|55/100 brn|[from] item: Leftovers
+|-damage|p1a: Kingambit|49/100 brn|[from] brn
+|-damage|p1a: Kingambit|24/100 brn|[from] Salt Cure
+|upkeep
+|turn|24
+|
+|t:|1743815296
+|move|p2a: Nurse|Strange Steam|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|k1kayone
+|raw|Mourien's rating: 1032 &rarr; <strong>1016</strong><br />(-16 for losing)
+|raw|k1kayone's rating: 1000 &rarr; <strong>1044</strong><br />(+44 for winning)
+|l|☆Mourien
+|player|p1|

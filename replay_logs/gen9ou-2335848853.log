@@ -1,0 +1,226 @@
+|j|☆L636721
+|j|☆Septaculer
+|t:|1743847635
+|gametype|singles
+|player|p1|L636721|265|1123
+|player|p2|Septaculer|cynthia|1083
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Moth|
+|poke|p1|Darkrai|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Moltres|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Swampert, M|
+|poke|p2|Tinkaton, F|
+|poke|p2|Tatsugiri-Droopy, M|
+|poke|p2|Primarina, M|
+|poke|p2|Skarmory, M|
+|poke|p2|Polteageist-Antique|
+|teampreview
+|
+|t:|1743847645
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Swampert|Swampert, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|turn|1
+|
+|t:|1743847655
+|move|p1a: Landorus|Stealth Rock|p2a: Swampert
+|-sidestart|p2: Septaculer|move: Stealth Rock
+|move|p2a: Swampert|Stealth Rock|p1a: Landorus
+|-sidestart|p1: L636721|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743847662
+|move|p1a: Landorus|Grass Knot|p2a: Swampert
+|-supereffective|p2a: Swampert
+|-damage|p2a: Swampert|23/100
+|move|p2a: Swampert|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|73/100
+|-enditem|p1a: Landorus|Leftovers|[from] move: Knock Off|[of] p2a: Swampert
+|
+|-heal|p2a: Swampert|29/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743847669
+|switch|p2a: Polteageist|Polteageist-Antique, shiny|100/100
+|-damage|p2a: Polteageist|88/100|[from] Stealth Rock
+|move|p1a: Landorus|Grass Knot|p2a: Polteageist
+|-damage|p2a: Polteageist|82/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743847679
+|move|p1a: Landorus|U-turn|p2a: Polteageist
+|-resisted|p2a: Polteageist
+|-damage|p2a: Polteageist|57/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|-enditem|p2a: Polteageist|White Herb
+|-clearnegativeboost|p2a: Polteageist|[silent]
+|
+|t:|1743847688
+|switch|p1a: Darkrai|Darkrai|100/100|[from] U-turn
+|-damage|p1a: Darkrai|88/100|[from] Stealth Rock
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|5
+|
+|t:|1743847694
+|move|p2a: Polteageist|Giga Drain|p1a: Darkrai
+|-damage|p1a: Darkrai|14/100
+|-heal|p2a: Polteageist|97/100|[from] drain|[of] p1a: Darkrai
+|move|p1a: Darkrai|Dark Pulse|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|upkeep
+|
+|t:|1743847701
+|switch|p2a: Swampert|Swampert, M, shiny|29/100
+|-damage|p2a: Swampert|23/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1743847707
+|move|p1a: Darkrai|Dark Pulse|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|upkeep
+|
+|t:|1743847711
+|switch|p2a: Tatsugiri|Tatsugiri-Droopy, M, shiny|100/100
+|turn|7
+|
+|t:|1743847716
+|move|p1a: Darkrai|Dark Pulse|p2a: Tatsugiri
+|-damage|p2a: Tatsugiri|53/100
+|move|p2a: Tatsugiri|Rapid Spin|p1a: Darkrai
+|-damage|p1a: Darkrai|6/100
+|-boost|p2a: Tatsugiri|spe|1
+|-sideend|p2: Septaculer|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tatsugiri
+|
+|upkeep
+|turn|8
+|
+|t:|1743847732
+|move|p1a: Darkrai|Dark Pulse|p2a: Tatsugiri
+|-damage|p2a: Tatsugiri|2/100
+|move|p2a: Tatsugiri|Surf|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|upkeep
+|
+|t:|1743847750
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|-damage|p1a: Arcanine|76/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743847766
+|move|p1a: Arcanine|Double-Edge|p2a: Tatsugiri
+|-crit|p2a: Tatsugiri
+|-damage|p2a: Tatsugiri|0 fnt
+|faint|p2a: Tatsugiri
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by L636721)
+|
+|t:|1743847805
+|switch|p2a: Skarmory|Skarmory, M, shiny|100/100
+|turn|10
+|
+|t:|1743847816
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Skarmory|Drill Run|p1a: Moltres
+|-immune|p1a: Moltres
+|
+|upkeep
+|turn|11
+|
+|t:|1743847837
+|move|p1a: Moltres|Heat Wave|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|upkeep
+|
+|t:|1743847840
+|switch|p2a: Primarina|Primarina, M, shiny|100/100
+|turn|12
+|
+|t:|1743847851
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|move|p2a: Primarina|Hyper Voice|p1a: Ogerpon
+|-heal|p1a: Ogerpon|100/100|[from] ability: Water Absorb|[of] p2a: Primarina
+|
+|upkeep
+|turn|13
+|
+|t:|1743847859
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Primarina|[anim] Ivy Cudgel Water
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|57/100
+|move|p2a: Primarina|Moonblast|p1a: Ogerpon
+|-crit|p1a: Ogerpon
+|-damage|p1a: Ogerpon|12/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743847866
+|move|p1a: Ogerpon|Trailblaze|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|-boost|p1a: Ogerpon|spe|1
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1743847877
+|switch|p2a: Tinkaton|Tinkaton, F, shiny|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|turn|15
+|
+|t:|1743847882
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Tinkaton|[anim] Ivy Cudgel Water
+|-crit|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|
+|win|L636721
+|raw|L636721's rating: 1123 &rarr; <strong>1145</strong><br />(+22 for winning)
+|raw|Septaculer's rating: 1083 &rarr; <strong>1063</strong><br />(-20 for losing)
+|l|☆L636721
+|player|p1|
+|l|☆Septaculer
+|player|p2|

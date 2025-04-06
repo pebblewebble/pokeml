@@ -1,0 +1,187 @@
+|j|☆eeekkkk
+|j|☆WEBBERRYAN98
+|t:|1743827264
+|gametype|singles
+|player|p1|eeekkkk|169|1089
+|player|p2|WEBBERRYAN98|102|1140
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Quaquaval, F|
+|poke|p1|Hydrapple, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Ceruledge, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Thundurus-Therian, M|
+|poke|p2|Magnezone|
+|poke|p2|Skeledirge, F|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Toxapex, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Ogerpon, F|
+|teampreview
+|
+|t:|1743827277
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Thundurus|atk|1
+|turn|1
+|
+|t:|1743827284
+|-terastallize|p1a: Thundurus|Ice
+|move|p2a: Landorus|Stone Edge|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|t:|1743827290
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WEBBERRYAN98)
+|
+|t:|1743827299
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Quaquaval|Aqua Step|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|86/100
+|-boost|p1a: Quaquaval|spe|1
+|
+|-heal|p2a: Toxapex|93/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1743827307
+|move|p1a: Quaquaval|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|85/100
+|
+|t:|1743827310
+|switch|p1a: Hydrapple|Hydrapple, F|100/100|[from] U-turn
+|move|p2a: Toxapex|Toxic|p1a: Hydrapple
+|-status|p1a: Hydrapple|tox
+|
+|-heal|p2a: Toxapex|91/100|[from] item: Black Sludge
+|-damage|p1a: Hydrapple|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743827334
+|move|p1a: Hydrapple|Infestation|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|88/100
+|-activate|p2a: Toxapex|move: Infestation|[of] p1a: Hydrapple
+|move|p2a: Toxapex|Chilling Water|p1a: Hydrapple
+|-resisted|p1a: Hydrapple
+|-damage|p1a: Hydrapple|93/100 tox
+|-unboost|p1a: Hydrapple|atk|1
+|
+|-heal|p2a: Toxapex|95/100|[from] item: Black Sludge
+|-damage|p1a: Hydrapple|80/100 tox|[from] psn
+|-damage|p2a: Toxapex|82/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1743827350
+|move|p1a: Hydrapple|Fickle Beam|p2a: Toxapex
+|-damage|p2a: Toxapex|51/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-damage|p1a: Hydrapple|61/100 tox|[from] psn
+|-damage|p2a: Toxapex|88/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|6
+|inactive|WEBBERRYAN98 has 120 seconds left.
+|
+|t:|1743827366
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-end|p2a: Toxapex|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|turn|7
+|
+|t:|1743827373
+|move|p1a: Grimmsnarl|Taunt|p2a: Toxapex
+|-start|p2a: Toxapex|move: Taunt
+|cant|p2a: Toxapex|move: Taunt|Toxic
+|
+|upkeep
+|turn|8
+|
+|t:|1743827381
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Grimmsnarl|atk|1
+|move|p1a: Grimmsnarl|Thunder Punch|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|9
+|
+|t:|1743827398
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Landorus
+|-unboost|p2a: Landorus|atk|1
+|-unboost|p2a: Landorus|spa|1
+|
+|t:|1743827402
+|switch|p1a: Corviknight|Corviknight, F|100/100|[from] Parting Shot
+|move|p2a: Landorus|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|upkeep
+|turn|10
+|
+|t:|1743827416
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|upkeep
+|turn|11
+|
+|t:|1743827426
+|move|p2a: Magnezone|Discharge|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1743827432
+|switch|p1a: Ceruledge|Ceruledge, M|100/100
+|turn|12
+|
+|t:|1743827457
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Ceruledge|Bitter Blade|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|82/100
+|
+|-heal|p2a: Toxapex|88/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|-message|eeekkkk forfeited.
+|
+|win|WEBBERRYAN98
+|raw|eeekkkk's rating: 1089 &rarr; <strong>1069</strong><br />(-20 for losing)
+|raw|WEBBERRYAN98's rating: 1140 &rarr; <strong>1161</strong><br />(+21 for winning)
+|l|☆eeekkkk
+|player|p1|
+|l|☆WEBBERRYAN98
+|player|p2|

@@ -1,0 +1,215 @@
+|j|☆qwolff
+|j|☆Huhyuyu
+|t:|1743862330
+|gametype|singles
+|player|p1|qwolff|101|1300
+|player|p2|Huhyuyu|170|1252
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Kyurem|
+|poke|p1|Cinderace, F|
+|poke|p1|Weavile, F|
+|poke|p1|Iron Valiant|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Revavroom, F|
+|poke|p2|Clefable, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Zapdos|
+|teampreview
+|
+|t:|1743862361
+|start
+|switch|p1a: Kyurem|Kyurem|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|1
+|
+|t:|1743862374
+|move|p1a: Kyurem|Earth Power|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-enditem|p2a: Glimmora|Focus Sash
+|-damage|p2a: Glimmora|1/100
+|-damage|p1a: Kyurem|91/100|[from] item: Life Orb
+|move|p2a: Glimmora|Power Gem|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|15/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743862390
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Kyurem|Earth Power|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|upkeep
+|turn|3
+|
+|t:|1743862412
+|move|p2a: Zapdos|Thunderbolt|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|-damage|p2a: Zapdos|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743862439
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|4
+|
+|t:|1743862441
+|move|p1a: Dragapult|Hex|p2a: Zapdos
+|-damage|p2a: Zapdos|57/100
+|move|p2a: Zapdos|Hurricane|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-damage|p2a: Zapdos|47/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743862444
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|5
+|
+|t:|1743862453
+|-terastallize|p1a: Iron Valiant|Electric
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|move|p2a: Zapdos|Hurricane|p1a: Iron Valiant|[miss]
+|-miss|p2a: Zapdos|p1a: Iron Valiant
+|
+|upkeep
+|turn|6
+|
+|t:|1743862462
+|switch|p2a: Glimmora|Glimmora, F|1/100
+|move|p1a: Iron Valiant|Spirit Break|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: qwolff|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1743862486
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|7
+|
+|t:|1743862489
+|move|p1a: Iron Valiant|Spirit Break|p2a: Clefable
+|-damage|p2a: Clefable|53/100
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Moonblast|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|24/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743862498
+|move|p1a: Iron Valiant|Spirit Break|p2a: Clefable
+|-damage|p2a: Clefable|11/100
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Moonblast|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743862501
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|9
+|
+|t:|1743862508
+|move|p1a: Cinderace|Pyro Ball|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|t:|1743862516
+|switch|p2a: Zapdos|Zapdos|47/100
+|turn|10
+|
+|t:|1743862520
+|move|p1a: Cinderace|Pyro Ball|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1743862532
+|switch|p2a: Revavroom|Revavroom, F|100/100
+|turn|11
+|
+|t:|1743862536
+|move|p1a: Cinderace|Pyro Ball|p2a: Revavroom|[miss]
+|-miss|p1a: Cinderace|p2a: Revavroom
+|move|p2a: Revavroom|Shift Gear|p2a: Revavroom
+|-boost|p2a: Revavroom|spe|2
+|-boost|p2a: Revavroom|atk|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743862540
+|-terastallize|p2a: Revavroom|Ground
+|move|p2a: Revavroom|High Horsepower|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743862545
+|switch|p1a: Weavile|Weavile, F|100/100
+|-status|p1a: Weavile|psn
+|turn|13
+|
+|t:|1743862549
+|move|p2a: Revavroom|Iron Head|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1743862551
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|14
+|
+|t:|1743862559
+|move|p2a: Revavroom|Iron Head|p1a: Dragonite
+|-damage|p1a: Dragonite|64/100
+|cant|p1a: Dragonite|flinch
+|
+|upkeep
+|turn|15
+|-message|qwolff forfeited.
+|
+|win|Huhyuyu
+|raw|qwolff's rating: 1300 &rarr; <strong>1272</strong><br />(-28 for losing)
+|raw|Huhyuyu's rating: 1252 &rarr; <strong>1280</strong><br />(+28 for winning)
+|l|☆qwolff
+|player|p1|
+|l|☆Huhyuyu
+|player|p2|

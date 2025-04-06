@@ -1,0 +1,215 @@
+|j|☆lzxszsd
+|j|☆cslkahdashd
+|t:|1743833644
+|gametype|singles
+|player|p1|lzxszsd|rosa|1113
+|player|p2|cslkahdashd|red|1070
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Sceptile, M|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Gogoat, F|
+|poke|p1|Talonflame, F|
+|poke|p2|Serperior, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Iron Treads|
+|poke|p2|Gholdengo|
+|poke|p2|Moltres|
+|teampreview
+|
+|t:|1743833662
+|start
+|switch|p1a: Rillaboom|Rillaboom, M, shiny|100/100
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1743833674
+|-terastallize|p2a: Enamorus|Stellar
+|move|p2a: Enamorus|Tera Blast|p1a: Rillaboom|[anim] Tera Blast Stellar
+|-damage|p1a: Rillaboom|60/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|spa|1
+|move|p1a: Rillaboom|Leech Seed|p2a: Enamorus
+|-start|p2a: Enamorus|move: Leech Seed
+|
+|-heal|p1a: Rillaboom|66/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|72/100|[from] item: Leftovers
+|-damage|p2a: Enamorus|88/100|[from] Leech Seed|[of] p1a: Rillaboom
+|-heal|p1a: Rillaboom|81/100|[silent]
+|upkeep
+|turn|2
+|
+|t:|1743833706
+|move|p1a: Rillaboom|Grassy Glide|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|56/100
+|move|p2a: Enamorus|Tera Blast|p1a: Rillaboom|[anim] Tera Blast Stellar
+|-crit|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|spa|1
+|faint|p1a: Rillaboom
+|
+|upkeep
+|
+|t:|1743833729
+|switch|p1a: Crawdaunt|Crawdaunt, M, shiny|100/100
+|turn|3
+|
+|t:|1743833738
+|-terastallize|p1a: Crawdaunt|Water
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Enamorus
+|-damage|p2a: Enamorus|4/100
+|move|p2a: Enamorus|Tera Blast|p1a: Crawdaunt|[anim] Tera Blast Stellar
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|spa|1
+|faint|p1a: Crawdaunt
+|
+|upkeep
+|
+|t:|1743833755
+|switch|p1a: Talonflame|Talonflame, F, shiny|100/100
+|turn|4
+|
+|t:|1743833764
+|move|p2a: Enamorus|Tera Blast|p1a: Talonflame|[anim] Tera Blast Stellar
+|-damage|p1a: Talonflame|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|spa|1
+|faint|p1a: Talonflame
+|
+|upkeep
+|
+|t:|1743833778
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|turn|5
+|
+|t:|1743833800
+|move|p1a: Conkeldurr|Mach Punch|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1743833809
+|switch|p2a: Moltres|Moltres|100/100
+|turn|6
+|
+|t:|1743833819
+|move|p1a: Conkeldurr|Mach Punch|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|84/100
+|move|p2a: Moltres|Will-O-Wisp|p1a: Conkeldurr
+|-status|p1a: Conkeldurr|brn
+|
+|-damage|p1a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743833829
+|move|p1a: Conkeldurr|Mach Punch|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|76/100
+|move|p2a: Moltres|Hurricane|p1a: Conkeldurr|[miss]
+|-miss|p2a: Moltres|p1a: Conkeldurr
+|
+|-damage|p1a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743833838
+|move|p1a: Conkeldurr|Mach Punch|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|68/100
+|move|p2a: Moltres|Hurricane|p1a: Conkeldurr|[miss]
+|-miss|p2a: Moltres|p1a: Conkeldurr
+|
+|-damage|p1a: Conkeldurr|82/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743833848
+|move|p1a: Conkeldurr|Mach Punch|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|59/100
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|100/100
+|-singleturn|p2a: Moltres|move: Roost
+|
+|-damage|p1a: Conkeldurr|76/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743833858
+|move|p1a: Conkeldurr|Mach Punch|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|92/100
+|move|p2a: Moltres|Hurricane|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|t:|1743833871
+|switch|p1a: Sceptile|Sceptile, M|100/100
+|turn|11
+|
+|t:|1743833878
+|move|p1a: Sceptile|Thunder Punch|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|60/100
+|-status|p1a: Sceptile|brn|[from] ability: Flame Body|[of] p2a: Moltres
+|move|p2a: Moltres|Flamethrower|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|
+|upkeep
+|
+|t:|1743833890
+|switch|p1a: Gogoat|Gogoat, F, shiny|100/100
+|turn|12
+|
+|t:|1743833895
+|move|p2a: Moltres|Will-O-Wisp|p1a: Gogoat
+|-status|p1a: Gogoat|brn
+|move|p1a: Gogoat|Play Rough|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|55/100
+|
+|-damage|p1a: Gogoat|94/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743833906
+|move|p2a: Moltres|Flamethrower|p1a: Gogoat
+|-supereffective|p1a: Gogoat
+|-crit|p1a: Gogoat
+|-damage|p1a: Gogoat|0 fnt
+|faint|p1a: Gogoat
+|
+|win|cslkahdashd
+|raw|lzxszsd's rating: 1113 &rarr; <strong>1085</strong><br />(-28 for losing)
+|raw|cslkahdashd's rating: 1070 &rarr; <strong>1103</strong><br />(+33 for winning)
+|l|☆cslkahdashd
+|player|p2|

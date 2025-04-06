@@ -1,0 +1,296 @@
+|j|☆Emolgalomaniac
+|j|☆PrayStar
+|t:|1743794425
+|gametype|singles
+|player|p1|Emolgalomaniac|red|1289
+|player|p2|PrayStar|170|1291
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Flapple, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Rillaboom, F|
+|poke|p1|Sandy Shocks|
+|poke|p1|Gholdengo|
+|poke|p1|Maushold|
+|poke|p2|Pelipper, F|
+|poke|p2|Greninja-*, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Sandy Shocks|
+|poke|p2|Scizor, F|
+|poke|p2|Raging Bolt|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Emolgalomaniac)
+|
+|t:|1743794443
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Sandy Shocks|Sandy Shocks, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Sandy Shocks|atk|1
+|-enditem|p2a: Sandy Shocks|Booster Energy
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p2a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|t:|1743794453
+|-terastallize|p2a: Sandy Shocks|Ice
+|move|p2a: Sandy Shocks|Tera Blast|p1a: Landorus|[anim] Tera Blast Ice
+|-supereffective|p1a: Landorus
+|-enditem|p1a: Landorus|Focus Sash
+|-damage|p1a: Landorus|1/100
+|move|p1a: Landorus|Stealth Rock|p2a: Sandy Shocks
+|-sidestart|p2: PrayStar|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743794470
+|move|p2a: Sandy Shocks|Tera Blast|p1a: Landorus|[anim] Tera Blast Ice
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743794478
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|3
+|
+|t:|1743794489
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p2a: Pelipper|Pelipper, F, shiny|100/100
+|-damage|p2a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-terastallize|p1a: Gholdengo|Fighting
+|move|p1a: Gholdengo|Make It Rain|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|29/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743794503
+|move|p1a: Gholdengo|Make It Rain|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743794518
+|switch|p2a: Basculegion|Basculegion, M, shiny|100/100
+|-damage|p2a: Basculegion|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1743794533
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Basculegion|Psychic Fangs|p1a: Rillaboom
+|-damage|p1a: Rillaboom|54/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Basculegion|94/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|60/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1743794549
+|move|p2a: Basculegion|Psychic Fangs|p1a: Rillaboom
+|-damage|p1a: Rillaboom|15/100
+|move|p1a: Rillaboom|U-turn|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-damage|p2a: Basculegion|78/100
+|
+|t:|1743794568
+|switch|p1a: Flapple|Flapple, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Basculegion|84/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1743794587
+|switch|p2a: Sandy Shocks|Sandy Shocks, shiny, tera:Ice|100/100
+|-damage|p2a: Sandy Shocks|76/100|[from] Stealth Rock
+|move|p1a: Flapple|Sucker Punch||[still]
+|-fail|p1a: Flapple
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sandy Shocks|82/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1743794597
+|switch|p1a: Gholdengo|Gholdengo, tera:Fighting|100/100
+|move|p2a: Sandy Shocks|Stealth Rock|p1a: Gholdengo
+|-sidestart|p1: Emolgalomaniac|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sandy Shocks|88/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1743794611
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p2a: Basculegion|Basculegion, M, shiny|84/100
+|-damage|p2a: Basculegion|71/100|[from] Stealth Rock
+|move|p1a: Gholdengo|Thunder|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-crit|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743794630
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|10
+|
+|t:|1743794637
+|switch|p1a: Maushold|Maushold|100/100
+|-damage|p1a: Maushold|88/100|[from] Stealth Rock
+|move|p2a: Raging Bolt|Thunder|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|
+|-weather|none
+|-heal|p2a: Raging Bolt|94/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743794642
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|-damage|p1a: Sandy Shocks|94/100|[from] Stealth Rock
+|-enditem|p1a: Sandy Shocks|Booster Energy
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p1a: Sandy Shocks|protosynthesisspe
+|turn|11
+|
+|t:|1743794665
+|move|p1a: Sandy Shocks|Spikes|p2a: Raging Bolt
+|-sidestart|p2: PrayStar|Spikes
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|11/100
+|
+|-heal|p1a: Sandy Shocks|18/100|[from] Grassy Terrain
+|-heal|p2a: Raging Bolt|100/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1743794675
+|move|p1a: Sandy Shocks|Gravity|p1a: Sandy Shocks
+|-fieldstart|move: Gravity
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|0 fnt
+|faint|p1a: Sandy Shocks
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1743794681
+|switch|p1a: Flapple|Flapple, M|100/100
+|-damage|p1a: Flapple|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743794687
+|move|p1a: Flapple|Outrage|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743794697
+|switch|p2a: Greninja|Greninja, M|100/100
+|-damage|p2a: Greninja|88/100|[from] Stealth Rock
+|-damage|p2a: Greninja|76/100|[from] Spikes
+|turn|14
+|
+|t:|1743794703
+|move|p2a: Greninja|Ice Beam|p1a: Flapple
+|-supereffective|p1a: Flapple
+|-damage|p1a: Flapple|0 fnt
+|faint|p1a: Flapple
+|-ability|p2a: Greninja|Battle Bond|boost
+|-boost|p2a: Greninja|atk|1
+|-boost|p2a: Greninja|spa|1
+|-boost|p2a: Greninja|spe|1
+|-activate|p2a: Greninja|ability: Battle Bond
+|-damage|p2a: Greninja|66/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743794707
+|switch|p1a: Rillaboom|Rillaboom, F|15/100
+|-damage|p1a: Rillaboom|3/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|15
+|
+|t:|1743794719
+|move|p2a: Greninja|Water Shuriken|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-hitcount|p1: Rillaboom|1
+|-damage|p2a: Greninja|56/100|[from] item: Life Orb
+|
+|-heal|p2a: Greninja|62/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743794722
+|switch|p1a: Gholdengo|Gholdengo, tera:Fighting|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743794740
+|move|p2a: Greninja|Surf|p1a: Gholdengo
+|-damage|p1a: Gholdengo|7/100
+|-damage|p2a: Greninja|52/100|[from] item: Life Orb
+|move|p1a: Gholdengo|Focus Blast|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|-heal|p1a: Gholdengo|14/100|[from] Grassy Terrain
+|-fieldend|move: Gravity
+|upkeep
+|
+|t:|1743794756
+|switch|p2a: Scizor|Scizor, F, shiny|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|-damage|p2a: Scizor|76/100|[from] Spikes
+|turn|17
+|
+|t:|1743794767
+|move|p2a: Scizor|Bullet Punch|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|win|PrayStar
+|raw|Emolgalomaniac's rating: 1289 &rarr; <strong>1264</strong><br />(-25 for losing)
+|raw|PrayStar's rating: 1291 &rarr; <strong>1316</strong><br />(+25 for winning)
+|l|☆Emolgalomaniac
+|player|p1|
+|l|☆PrayStar
+|player|p2|

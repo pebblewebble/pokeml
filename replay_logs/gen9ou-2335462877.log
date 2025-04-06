@@ -1,0 +1,369 @@
+|j|☆JAADragon
+|j|☆b888izi
+|t:|1743796532
+|gametype|singles
+|player|p1|JAADragon|ethan|1165
+|player|p2|b888izi|red|1118
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ampharos, F|
+|poke|p1|Typhlosion, M|
+|poke|p1|Espeon, F|
+|poke|p1|Forretress, M|
+|poke|p1|Quagsire, M|
+|poke|p1|Tyranitar, M|
+|poke|p2|Pikachu, F|
+|poke|p2|Blastoise, F|
+|poke|p2|Charizard, M|
+|poke|p2|Venusaur, M|
+|poke|p2|Snorlax, M|
+|poke|p2|Lapras, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JAADragon)
+|
+|t:|1743796553
+|start
+|switch|p1a: Max|Tyranitar, M|100/100
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Max
+|turn|1
+|
+|t:|1743796564
+|move|p2a: Blastoise|Shell Smash|p2a: Blastoise
+|-unboost|p2a: Blastoise|def|1
+|-unboost|p2a: Blastoise|spd|1
+|-boost|p2a: Blastoise|atk|2
+|-boost|p2a: Blastoise|spa|2
+|-boost|p2a: Blastoise|spe|2
+|-enditem|p2a: Blastoise|White Herb
+|-clearnegativeboost|p2a: Blastoise|[silent]
+|move|p1a: Max|Dragon Tail|p2a: Blastoise
+|-damage|p2a: Blastoise|86/100
+|drag|p2a: Venusaur|Venusaur, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Venusaur|94/100|[from] Sandstorm
+|-heal|p2a: Venusaur|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|b888izi has 120 seconds left.
+|
+|t:|1743796598
+|move|p2a: Venusaur|Leech Seed|p1a: Max
+|-start|p1a: Max|move: Leech Seed
+|move|p1a: Max|Knock Off|p2a: Venusaur
+|-damage|p2a: Venusaur|39/100
+|-enditem|p2a: Venusaur|Leftovers|[from] move: Knock Off|[of] p1a: Max
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Venusaur|33/100|[from] Sandstorm
+|-damage|p1a: Max|88/100|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|47/100|[silent]
+|upkeep
+|turn|3
+|inactive|b888izi has 120 seconds left.
+|
+|t:|1743796609
+|switch|p2a: Blastoise|Blastoise, F|86/100
+|move|p1a: Max|Fire Punch|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-damage|p2a: Blastoise|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blastoise|70/100|[from] Sandstorm
+|-damage|p1a: Max|76/100|[from] Leech Seed|[of] p2a: Blastoise
+|-heal|p2a: Blastoise|84/100|[silent]
+|upkeep
+|turn|4
+|inactive|b888izi has 120 seconds left.
+|inactive|JAADragon has 120 seconds left.
+|
+|t:|1743796636
+|switch|p1a: Blast|Quagsire, M|100/100
+|move|p2a: Blastoise|Hydro Pump|p1a: Blast
+|-immune|p1a: Blast|[from] ability: Water Absorb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blastoise|78/100|[from] Sandstorm
+|upkeep
+|turn|5
+|inactive|JAADragon has 120 seconds left.
+|inactive|b888izi has 120 seconds left.
+|
+|t:|1743796664
+|switch|p2a: Lapras|Lapras, M|100/100
+|switch|p1a: 40oz|Forretress, M|100/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1743796673
+|switch|p2a: Charizard|Charizard, M|100/100
+|move|p1a: 40oz|Thunder Wave|p2a: Charizard|[miss]
+|-miss|p1a: 40oz|p2a: Charizard
+|
+|upkeep
+|turn|7
+|inactive|JAADragon has 120 seconds left.
+|inactive|b888izi has 120 seconds left.
+|
+|t:|1743796689
+|switch|p1a: Spike|Typhlosion, M|100/100
+|-item|p1a: Spike|Air Balloon
+|move|p2a: Charizard|Will-O-Wisp|p1a: Spike
+|-start|p1a: Spike|ability: Flash Fire
+|
+|upkeep
+|turn|8
+|inactive|JAADragon has 120 seconds left.
+|
+|t:|1743796699
+|move|p2a: Charizard|Hurricane|p1a: Spike
+|-damage|p1a: Spike|30/100
+|-start|p1a: Spike|confusion
+|-enditem|p1a: Spike|Air Balloon
+|-activate|p1a: Spike|confusion
+|-damage|p1a: Spike|19/100|[from] confusion
+|
+|upkeep
+|turn|9
+|inactive|b888izi has 120 seconds left.
+|inactive|JAADragon has 120 seconds left.
+|
+|t:|1743796710
+|-end|p1a: Spike|ability: Flash Fire|[silent]
+|switch|p1a: Max|Tyranitar, M|76/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Max
+|move|p2a: Charizard|Hurricane|p1a: Max
+|-resisted|p1a: Max
+|-damage|p1a: Max|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|94/100|[from] Sandstorm
+|upkeep
+|turn|10
+|inactive|b888izi has 120 seconds left.
+|inactive|JAADragon has 120 seconds left.
+|
+|t:|1743796725
+|move|p2a: Charizard|Focus Blast|p1a: Max
+|-supereffective|p1a: Max
+|-damage|p1a: Max|0 fnt
+|faint|p1a: Max
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] Sandstorm
+|upkeep
+|inactive|JAADragon has 120 seconds left.
+|l|☆JAADragon
+|inactive|JAADragon disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆JAADragon
+|inactive|JAADragon reconnected and has 105 seconds left.
+|player|p1|JAADragon|ethan|
+|
+|t:|1743796751
+|switch|p1a: Amp!|Ampharos, F|100/100
+|turn|11
+|
+|t:|1743796760
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: Amp!|Supercell Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amp!|94/100|[from] Sandstorm
+|-damage|p2a: Snorlax|42/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1743796769
+|move|p1a: Amp!|Supercell Slam|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Amp!|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743796774
+|switch|p2a: Pikachu|Pikachu, F|100/100
+|turn|13
+|inactive|JAADragon has 120 seconds left.
+|
+|t:|1743796787
+|switch|p1a: 40oz|Forretress, M|100/100
+|move|p2a: Pikachu|Knock Off|p1a: 40oz
+|-damage|p1a: 40oz|74/100
+|-enditem|p1a: 40oz|Leftovers|[from] move: Knock Off|[of] p2a: Pikachu
+|
+|-weather|none
+|upkeep
+|turn|14
+|inactive|JAADragon has 120 seconds left.
+|
+|t:|1743796799
+|move|p2a: Pikachu|Volt Switch|p1a: 40oz
+|-damage|p1a: 40oz|44/100
+|
+|t:|1743796802
+|switch|p2a: Charizard|Charizard, M|88/100|[from] Volt Switch
+|move|p1a: 40oz|Bulldoze|p2a: Charizard
+|-immune|p2a: Charizard
+|
+|upkeep
+|turn|15
+|
+|t:|1743796810
+|switch|p1a: Megumi|Espeon, F|100/100
+|move|p2a: Charizard|Hurricane|p1a: Megumi
+|-damage|p1a: Megumi|37/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743796823
+|move|p1a: Megumi|Power Gem|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|upkeep
+|
+|t:|1743796832
+|switch|p2a: Lapras|Lapras, M|100/100
+|turn|17
+|
+|t:|1743796838
+|switch|p1a: 40oz|Forretress, M|44/100
+|move|p2a: Lapras|Freeze-Dry|p1a: 40oz
+|-resisted|p1a: 40oz
+|-damage|p1a: 40oz|25/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743796850
+|move|p2a: Lapras|Hydro Pump|p1a: 40oz
+|-damage|p1a: 40oz|0 fnt
+|faint|p1a: 40oz
+|
+|upkeep
+|
+|t:|1743796859
+|switch|p1a: Amp!|Ampharos, F|88/100
+|turn|19
+|
+|t:|1743796871
+|-terastallize|p2a: Lapras|Electric
+|move|p2a: Lapras|Hydro Pump|p1a: Amp!
+|-damage|p1a: Amp!|37/100
+|move|p1a: Amp!|Supercell Slam|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|73/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743796888
+|move|p2a: Lapras|Freeze-Dry|p1a: Amp!
+|-damage|p1a: Amp!|4/100
+|move|p1a: Amp!|Supercell Slam|p2a: Lapras
+|-resisted|p2a: Lapras
+|-damage|p2a: Lapras|49/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743796895
+|move|p2a: Lapras|Ice Shard|p1a: Amp!
+|-damage|p1a: Amp!|0 fnt
+|faint|p1a: Amp!
+|
+|upkeep
+|
+|t:|1743796898
+|switch|p1a: Megumi|Espeon, F|37/100
+|turn|22
+|
+|t:|1743796903
+|move|p1a: Megumi|Psychic|p2a: Lapras
+|-damage|p2a: Lapras|10/100
+|move|p2a: Lapras|Freeze-Dry|p1a: Megumi
+|-damage|p1a: Megumi|0 fnt
+|faint|p1a: Megumi
+|
+|upkeep
+|
+|t:|1743796915
+|switch|p1a: Spike|Typhlosion, M|19/100
+|turn|23
+|
+|t:|1743796918
+|move|p2a: Lapras|Ice Shard|p1a: Spike
+|-resisted|p1a: Spike
+|-damage|p1a: Spike|12/100
+|move|p1a: Spike|Lava Plume|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|upkeep
+|
+|t:|1743796928
+|switch|p2a: Blastoise|Blastoise, F|78/100
+|turn|24
+|
+|t:|1743796938
+|move|p1a: Spike|Lava Plume|p2a: Blastoise
+|-resisted|p2a: Blastoise
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|52/100
+|move|p2a: Blastoise|Rapid Spin|p1a: Spike
+|-damage|p1a: Spike|0 fnt
+|-boost|p2a: Blastoise|spe|1
+|faint|p1a: Spike
+|
+|upkeep
+|
+|t:|1743796944
+|switch|p1a: Blast|Quagsire, M|100/100
+|turn|25
+|
+|t:|1743796964
+|move|p2a: Blastoise|Ice Beam|p1a: Blast
+|-damage|p1a: Blast|78/100
+|-enditem|p1a: Blast|Red Card|[of] p2a: Blastoise
+|drag|p2a: Venusaur|Venusaur, M|47/100
+|move|p1a: Blast|Avalanche|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|20/100
+|
+|upkeep
+|turn|26
+|
+|t:|1743796985
+|move|p2a: Venusaur|Giga Drain|p1a: Blast
+|-supereffective|p1a: Blast
+|-damage|p1a: Blast|0 fnt
+|-heal|p2a: Venusaur|62/100|[from] drain|[of] p1a: Blast
+|faint|p1a: Blast
+|
+|win|b888izi
+|raw|JAADragon's rating: 1165 &rarr; <strong>1137</strong><br />(-28 for losing)
+|raw|b888izi's rating: 1118 &rarr; <strong>1146</strong><br />(+28 for winning)
+|l|☆b888izi
+|player|p2|
+|l|☆JAADragon
+|player|p1|

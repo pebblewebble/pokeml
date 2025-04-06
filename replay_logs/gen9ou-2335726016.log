@@ -1,0 +1,352 @@
+|j|☆CapitolG
+|j|☆sdfgfsdfxvbfbd
+|t:|1743826608
+|gametype|singles
+|player|p1|CapitolG|1|1196
+|player|p2|sdfgfsdfxvbfbd|2|1132
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Chandelure, M|
+|poke|p1|Gothitelle, F|
+|poke|p1|Milotic, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Leavanny, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Garganacl, M|
+|poke|p2|Great Tusk|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Vikavolt, F|
+|poke|p2|Espeon, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sdfgfsdfxvbfbd)
+|
+|t:|1743826614
+|start
+|switch|p1a: Leavanny|Leavanny, F|100/100
+|switch|p2a: Vulture|Cinderace, F|100/100
+|turn|1
+|
+|t:|1743826620
+|move|p2a: Vulture|U-turn|p1a: Leavanny
+|-start|p2a: Vulture|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Leavanny
+|-damage|p1a: Leavanny|21/100
+|
+|t:|1743826626
+|switch|p2a: Kraven|Great Tusk|100/100|[from] U-turn
+|-enditem|p2a: Kraven|Booster Energy
+|-activate|p2a: Kraven|ability: Protosynthesis|[fromitem]
+|-start|p2a: Kraven|protosynthesisatk
+|move|p1a: Leavanny|Sticky Web|p2a: Kraven
+|-sidestart|p2: sdfgfsdfxvbfbd|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743826631
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Kraven|Rapid Spin|p1a: Chandelure
+|-immune|p1a: Chandelure
+|
+|upkeep
+|turn|3
+|
+|t:|1743826641
+|-end|p2a: Kraven|Protosynthesis|[silent]
+|switch|p2a: Sandman|Garganacl, M|100/100
+|-activate|p2a: Sandman|move: Sticky Web
+|-unboost|p2a: Sandman|spe|1
+|move|p1a: Chandelure|Trick Room|p1a: Chandelure
+|-fieldstart|move: Trick Room|[of] p1a: Chandelure
+|
+|upkeep
+|turn|4
+|
+|t:|1743826655
+|move|p2a: Sandman|Salt Cure|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|70/100
+|-start|p1a: Chandelure|Salt Cure
+|move|p1a: Chandelure|Trick Room|p1a: Chandelure
+|-fieldend|move: Trick Room
+|
+|-damage|p1a: Chandelure|58/100|[from] Salt Cure
+|upkeep
+|turn|5
+|
+|t:|1743826661
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Sandman|Salt Cure|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|58/100
+|-start|p1a: Cinderace|Salt Cure
+|
+|-damage|p1a: Cinderace|46/100|[from] Salt Cure
+|upkeep
+|turn|6
+|
+|t:|1743826664
+|move|p2a: Sandman|Protect|p2a: Sandman
+|-singleturn|p2a: Sandman|Protect
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|
+|-damage|p1a: Cinderace|33/100|[from] Salt Cure
+|upkeep
+|turn|7
+|
+|t:|1743826676
+|move|p1a: Cinderace|High Jump Kick|p2a: Sandman
+|-supereffective|p2a: Sandman
+|-damage|p2a: Sandman|55/100
+|move|p2a: Sandman|Recover|p2a: Sandman
+|-heal|p2a: Sandman|100/100
+|
+|-damage|p1a: Cinderace|21/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1743826687
+|move|p1a: Cinderace|High Jump Kick|p2a: Sandman
+|-supereffective|p2a: Sandman
+|-damage|p2a: Sandman|56/100
+|move|p2a: Sandman|Salt Cure|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Sandman|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743826691
+|switch|p1a: Gothitelle|Gothitelle, F|100/100
+|-activate|p1a: Gothitelle|move: Sticky Web
+|-unboost|p1a: Gothitelle|spe|1
+|-ability|p1a: Gothitelle|Competitive|boost
+|-boost|p1a: Gothitelle|spa|2
+|turn|9
+|
+|t:|1743826694
+|switch|p2a: Vulture|Cinderace, F|100/100
+|move|p1a: Gothitelle|Grass Knot|p2a: Vulture
+|-resisted|p2a: Vulture
+|-damage|p2a: Vulture|73/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743826698
+|move|p2a: Vulture|U-turn|p1a: Gothitelle
+|-start|p2a: Vulture|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|31/100
+|
+|t:|1743826703
+|switch|p2a: Dr Octopus|Goodra-Hisui, F|100/100|[from] U-turn
+|move|p1a: Gothitelle|Trick Room|p1a: Gothitelle
+|-fieldstart|move: Trick Room|[of] p1a: Gothitelle
+|
+|-heal|p1a: Gothitelle|37/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743826708
+|move|p1a: Gothitelle|Psyshock|p2a: Dr Octopus
+|-resisted|p2a: Dr Octopus
+|-damage|p2a: Dr Octopus|67/100
+|move|p2a: Dr Octopus|Dragon Pulse|p1a: Gothitelle
+|-crit|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|faint|p1a: Gothitelle
+|
+|-heal|p2a: Dr Octopus|73/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743826712
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|turn|12
+|
+|t:|1743826716
+|move|p1a: Kingambit|Brick Break|p2a: Dr Octopus
+|-supereffective|p2a: Dr Octopus
+|-damage|p2a: Dr Octopus|0 fnt
+|-ability|p2a: Dr Octopus|Gooey
+|-unboost|p1a: Kingambit|spe|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|faint|p2a: Dr Octopus
+|
+|upkeep
+|
+|t:|1743826724
+|switch|p2a: Sandman|Garganacl, M|63/100
+|turn|13
+|
+|t:|1743826727
+|-terastallize|p2a: Sandman|Ghost
+|move|p1a: Kingambit|Iron Head|p2a: Sandman
+|-damage|p2a: Sandman|0 fnt
+|faint|p2a: Sandman
+|
+|upkeep
+|
+|t:|1743826735
+|switch|p2a: Electro|Vikavolt, F|100/100
+|turn|14
+|
+|t:|1743826741
+|move|p1a: Kingambit|Throat Chop|p2a: Electro
+|-damage|p2a: Electro|0 fnt
+|faint|p2a: Electro
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743826743
+|switch|p2a: Kraven|Great Tusk|100/100
+|turn|15
+|
+|t:|1743826746
+|-end|p2a: Kraven|Protosynthesis|[silent]
+|switch|p2a: Mysterio|Espeon, F|100/100
+|switch|p1a: Leavanny|Leavanny, F|21/100
+|-activate|p1a: Leavanny|move: Sticky Web
+|-unboost|p1a: Leavanny|spe|1
+|
+|upkeep
+|turn|16
+|
+|t:|1743826753
+|move|p2a: Mysterio|Alluring Voice|p1a: Leavanny
+|-damage|p1a: Leavanny|0 fnt
+|faint|p1a: Leavanny
+|
+|upkeep
+|
+|t:|1743826762
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|turn|17
+|
+|t:|1743826768
+|switch|p2a: Vulture|Cinderace, F|73/100
+|move|p1a: Kingambit|Throat Chop|p2a: Vulture
+|-damage|p2a: Vulture|0 fnt
+|faint|p2a: Vulture
+|
+|upkeep
+|
+|t:|1743826772
+|switch|p2a: Kraven|Great Tusk|100/100
+|turn|18
+|
+|t:|1743826775
+|switch|p1a: Chandelure|Chandelure, M|58/100
+|-activate|p1a: Chandelure|move: Sticky Web
+|-unboost|p1a: Chandelure|spe|1
+|move|p2a: Kraven|Headlong Rush|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|-unboost|p2a: Kraven|def|1
+|-unboost|p2a: Kraven|spd|1
+|faint|p1a: Chandelure
+|
+|upkeep
+|
+|t:|1743826777
+|switch|p1a: Milotic|Milotic, F|100/100
+|-activate|p1a: Milotic|move: Sticky Web
+|-unboost|p1a: Milotic|spe|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|turn|19
+|
+|t:|1743826780
+|-end|p2a: Kraven|Protosynthesis|[silent]
+|switch|p2a: Mysterio|Espeon, F|100/100
+|move|p1a: Milotic|Scald|p2a: Mysterio
+|-damage|p2a: Mysterio|3/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743826787
+|move|p2a: Mysterio|Grass Knot|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|65/100
+|move|p1a: Milotic|Scald|p2a: Mysterio
+|-damage|p2a: Mysterio|0 fnt
+|faint|p2a: Mysterio
+|
+|upkeep
+|
+|t:|1743826789
+|switch|p2a: Kraven|Great Tusk|100/100
+|turn|21
+|
+|t:|1743826806
+|move|p2a: Kraven|Close Combat|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|-unboost|p2a: Kraven|def|1
+|-unboost|p2a: Kraven|spd|1
+|faint|p1a: Milotic
+|
+|upkeep
+|
+|t:|1743826808
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|turn|22
+|
+|t:|1743826811
+|-terastallize|p1a: Kingambit|Flying
+|move|p2a: Kraven|Close Combat|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|74/100
+|-unboost|p2a: Kraven|def|1
+|-unboost|p2a: Kraven|spd|1
+|move|p1a: Kingambit|Throat Chop|p2a: Kraven
+|-resisted|p2a: Kraven
+|-damage|p2a: Kraven|33/100
+|-start|p2a: Kraven|Throat Chop|[silent]
+|
+|upkeep
+|turn|23
+|
+|t:|1743826814
+|move|p1a: Kingambit|Sucker Punch|p2a: Kraven
+|-resisted|p2a: Kraven
+|-damage|p2a: Kraven|0 fnt
+|faint|p2a: Kraven
+|-end|p2a: Kraven|Protosynthesis|[silent]
+|
+|win|CapitolG
+|raw|CapitolG's rating: 1196 &rarr; <strong>1216</strong><br />(+20 for winning)
+|raw|sdfgfsdfxvbfbd's rating: 1132 &rarr; <strong>1112</strong><br />(-20 for losing)
+|l|☆sdfgfsdfxvbfbd
+|player|p2|
+|l|☆CapitolG
+|player|p1|

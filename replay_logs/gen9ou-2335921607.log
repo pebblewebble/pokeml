@@ -1,0 +1,234 @@
+|j|☆TheLump
+|j|☆idkopkuntal
+|t:|1743859206
+|gametype|singles
+|player|p1|TheLump|102|1070
+|player|p2|idkopkuntal|1|1091
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Venomoth, F|
+|poke|p1|Victreebel, M|
+|poke|p1|Torkoal, F|
+|poke|p1|Iron Moth|
+|poke|p1|Revavroom, M|
+|poke|p1|Swalot, M|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Valiant|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, M|
+|poke|p2|Iron Moth|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1743859231
+|start
+|switch|p1a: Torkoal|Torkoal, F, shiny|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1743859239
+|move|p2a: Great Tusk|Headlong Rush|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743859241
+|switch|p1a: Lowi Trusmadi|Victreebel, M|100/100
+|turn|2
+|
+|t:|1743859246
+|move|p1a: Lowi Trusmadi|Giga Drain|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743859252
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|3
+|
+|t:|1743859260
+|switch|p1a: Swalot|Swalot, M|100/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Swalot
+|-damage|p1a: Swalot|44/100
+|-boost|p2a: Iron Moth|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Swalot|50/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1743859273
+|move|p2a: Iron Moth|Fiery Dance|p1a: Swalot
+|-damage|p1a: Swalot|0 fnt
+|-boost|p2a: Iron Moth|spa|1
+|faint|p1a: Swalot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743859279
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|5
+|
+|t:|1743859296
+|move|p1a: Iron Moth|Psychic|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|31/100
+|move|p2a: Iron Moth|Agility|p2a: Iron Moth
+|-boost|p2a: Iron Moth|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743859307
+|move|p2a: Iron Moth|Fiery Dance|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|13/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Iron Moth|Psychic|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743859315
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|7
+|
+|t:|1743859318
+|move|p1a: Iron Moth|Fiery Dance|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Gholdengo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743859322
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|8
+|
+|t:|1743859325
+|move|p2a: Dragapult|Sucker Punch|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743859330
+|switch|p1a: Revavroom|Revavroom, M|100/100
+|turn|9
+|
+|t:|1743859340
+|move|p2a: Dragapult|Sucker Punch||[still]
+|-fail|p2a: Dragapult
+|move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+|-boost|p1a: Revavroom|spe|2
+|-boost|p1a: Revavroom|atk|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743859342
+|move|p2a: Dragapult|Sucker Punch||[still]
+|-fail|p2a: Dragapult
+|move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+|-boost|p1a: Revavroom|spe|2
+|-boost|p1a: Revavroom|atk|1
+|
+|upkeep
+|turn|11
+|
+|t:|1743859346
+|move|p2a: Dragapult|Sucker Punch||[still]
+|-fail|p2a: Dragapult
+|move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+|-boost|p1a: Revavroom|spe|2
+|-boost|p1a: Revavroom|atk|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743859351
+|move|p2a: Dragapult|Sucker Punch|p1a: Revavroom
+|-damage|p1a: Revavroom|55/100
+|move|p1a: Revavroom|Iron Head|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Revavroom|61/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743859359
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|13
+|
+|t:|1743859361
+|move|p1a: Revavroom|Poison Jab|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p1a: Revavroom|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743859364
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|14
+|
+|t:|1743859369
+|move|p1a: Revavroom|High Horsepower|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|TheLump
+|raw|TheLump's rating: 1070 &rarr; <strong>1101</strong><br />(+31 for winning)
+|raw|idkopkuntal's rating: 1091 &rarr; <strong>1066</strong><br />(-25 for losing)
+|l|☆idkopkuntal
+|player|p2|
+|l|☆TheLump
+|player|p1|

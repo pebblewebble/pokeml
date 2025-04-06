@@ -1,0 +1,195 @@
+|j|☆Lampadaire666
+|j|☆KillerB1000
+|t:|1743934092
+|gametype|singles
+|player|p1|Lampadaire666|clair|1406
+|player|p2|KillerB1000|scientist-gen4|1360
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Latios, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Darkrai|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Clefable, F|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Sinistcha|
+|poke|p2|Kyurem|
+|poke|p2|Thundurus-Therian, M|
+|teampreview
+|
+|t:|1743934103
+|start
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1743934111
+|move|p1a: Latios|Luster Purge|p2a: Pelipper
+|-damage|p2a: Pelipper|20/100
+|move|p2a: Pelipper|U-turn|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|79/100
+|
+|t:|1743934126
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743934145
+|move|p1a: Latios|Luster Purge|p2a: Braviary
+|-resisted|p2a: Braviary
+|-damage|p2a: Braviary|62/100
+|move|p2a: Braviary|Hurricane|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743934151
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Braviary|atk|1
+|turn|3
+|
+|t:|1743934157
+|switch|p2a: Sinistcha|Sinistcha|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Sinistcha
+|-sidestart|p2: KillerB1000|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743934166
+|move|p1a: Landorus|U-turn|p2a: Sinistcha
+|-damage|p2a: Sinistcha|86/100
+|
+|t:|1743934187
+|switch|p1a: Darkrai|Darkrai|100/100|[from] U-turn
+|move|p2a: Sinistcha|Trick Room|p2a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2a: Sinistcha
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743934201
+|switch|p2a: Kyurem|Kyurem|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Darkrai|Dark Pulse|p2a: Kyurem
+|-damage|p2a: Kyurem|42/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743934219
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Kyurem|Freeze-Dry|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743934230
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|7
+|
+|t:|1743934246
+|switch|p2a: Sinistcha|Sinistcha|86/100
+|move|p1a: Cinderace|U-turn|p2a: Sinistcha
+|-damage|p2a: Sinistcha|73/100
+|
+|t:|1743934253
+|switch|p1a: Darkrai|Darkrai|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743934265
+|-terastallize|p2a: Sinistcha|Steel
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Darkrai
+|-damage|p1a: Darkrai|54/100
+|-heal|p2a: Sinistcha|92/100|[from] drain|[of] p1a: Darkrai
+|move|p1a: Darkrai|Dark Pulse|p2a: Sinistcha
+|-damage|p2a: Sinistcha|41/100
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|t:|1743934276
+|switch|p2a: Pelipper|Pelipper, F|20/100
+|-damage|p2a: Pelipper|0 fnt|[from] Stealth Rock
+|faint|p2a: Pelipper
+|move|p1a: Darkrai|Dark Pulse|p2: Pelipper|[notarget]
+|-fail|p1a: Darkrai
+|
+|upkeep
+|
+|t:|1743934286
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|10
+|
+|t:|1743934304
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Thundurus|atk|1
+|move|p2a: Thundurus|Thunderbolt|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|upkeep
+|turn|11
+|
+|t:|1743934316
+|switch|p2a: Sinistcha|Sinistcha, tera:Steel|41/100
+|move|p1a: Landorus|U-turn|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|33/100
+|
+|t:|1743934321
+|switch|p1a: Darkrai|Darkrai|54/100|[from] U-turn
+|
+|upkeep
+|turn|12
+|
+|t:|1743934324
+|move|p1a: Darkrai|Dark Pulse|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|
+|upkeep
+|
+|t:|1743934329
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|13
+|-message|KillerB1000 forfeited.
+|
+|win|Lampadaire666
+|raw|Lampadaire666's rating: 1406 &rarr; <strong>1423</strong><br />(+17 for winning)
+|raw|KillerB1000's rating: 1360 &rarr; <strong>1343</strong><br />(-17 for losing)
+|l|☆KillerB1000
+|player|p2|

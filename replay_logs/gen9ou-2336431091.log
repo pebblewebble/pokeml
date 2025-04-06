@@ -1,0 +1,241 @@
+|j|☆Tkats
+|j|☆therealcwill
+|t:|1743916555
+|gametype|singles
+|player|p1|Tkats|karen|1095
+|player|p2|therealcwill|roxie|1079
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Shiftry, M|
+|poke|p1|Gallade, M|
+|poke|p1|Oricorio-Sensu, F|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Tatsugiri-Droopy, M|
+|poke|p2|Torkoal, F|
+|poke|p2|Walking Wake|
+|poke|p2|Hatterene, F|
+|poke|p2|Great Tusk|
+|poke|p2|Venusaur, F|
+|poke|p2|Raging Bolt|
+|teampreview
+|
+|t:|1743916567
+|start
+|switch|p1a: Gallade|Gallade, M|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1743916578
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Torkoal|Stealth Rock|p1a: Ninetales
+|-sidestart|p1: Tkats|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743916602
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Tkats|move: Aurora Veil
+|move|p2a: Torkoal|Lava Plume|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|77/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743916617
+|switch|p1a: Tatsugiri|Tatsugiri-Droopy, M|100/100
+|-damage|p1a: Tatsugiri|88/100|[from] Stealth Rock
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743916644
+|move|p1a: Tatsugiri|Rapid Spin|p2a: Hatterene
+|-damage|p2a: Hatterene|95/100
+|-boost|p1a: Tatsugiri|spe|1
+|-sideend|p1: Tkats|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Tatsugiri
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1743916659
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743916668
+|-terastallize|p2a: Raging Bolt|Fairy
+|move|p2a: Raging Bolt|Thunderclap|p1a: Tatsugiri
+|-damage|p1a: Tatsugiri|64/100
+|move|p1a: Tatsugiri|Draco Meteor|p2a: Raging Bolt
+|-immune|p2a: Raging Bolt
+|
+|-weather|none
+|upkeep
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by therealcwill)
+|
+|t:|1743916700
+|switch|p1a: Gallade|Gallade, M|100/100
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|7
+|
+|t:|1743916710
+|-terastallize|p1a: Gallade|Poison
+|move|p2a: Raging Bolt|Thunderclap|p1a: Gallade
+|-damage|p1a: Gallade|58/100
+|move|p1a: Gallade|Poison Jab|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|18/100
+|-status|p2a: Raging Bolt|psn
+|
+|-damage|p2a: Raging Bolt|5/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743916723
+|switch|p1a: Oricorio|Oricorio-Sensu, F|100/100
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743916732
+|switch|p2a: Venusaur|Venusaur, F|100/100
+|move|p1a: Oricorio|Quiver Dance|p1a: Oricorio
+|-boost|p1a: Oricorio|spa|1
+|-boost|p1a: Oricorio|spd|1
+|-boost|p1a: Oricorio|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: Tkats|move: Aurora Veil
+|upkeep
+|turn|10
+|
+|t:|1743916759
+|move|p2a: Venusaur|Growth|p2a: Venusaur
+|-boost|p2a: Venusaur|atk|2
+|-boost|p2a: Venusaur|spa|2
+|-enditem|p1a: Oricorio|Mirror Herb
+|-boost|p1a: Oricorio|atk|2|[from] item: Mirror Herb
+|-boost|p1a: Oricorio|spa|2|[from] item: Mirror Herb
+|move|p1a: Oricorio|Quiver Dance|p1a: Oricorio
+|-boost|p1a: Oricorio|spa|1
+|-boost|p1a: Oricorio|spd|1
+|-boost|p1a: Oricorio|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743916768
+|move|p1a: Oricorio|Air Slash|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743916775
+|switch|p2a: Hatterene|Hatterene, F|95/100
+|turn|12
+|
+|t:|1743916778
+|move|p1a: Oricorio|Revelation Dance|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743916784
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|13
+|
+|t:|1743916798
+|move|p1a: Oricorio|Revelation Dance|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743916804
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|14
+|
+|t:|1743916809
+|move|p1a: Oricorio|Air Slash|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743916816
+|switch|p2a: Raging Bolt|Raging Bolt, tera:Fairy|5/100 psn
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|15
+|
+|t:|1743916822
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Oricorio|Quiver Dance|p1a: Oricorio
+|-boost|p1a: Oricorio|spa|1
+|-boost|p1a: Oricorio|spd|1
+|-boost|p1a: Oricorio|spe|1
+|
+|-weather|none
+|-end|p2a: Raging Bolt|Protosynthesis
+|-damage|p2a: Raging Bolt|0 fnt|[from] psn
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|upkeep
+|-message|therealcwill forfeited.
+|
+|win|Tkats
+|raw|Tkats's rating: 1095 &rarr; <strong>1120</strong><br />(+25 for winning)
+|raw|therealcwill's rating: 1079 &rarr; <strong>1058</strong><br />(-21 for losing)
+|l|☆therealcwill
+|player|p2|
+|l|☆Tkats
+|player|p1|

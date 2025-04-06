@@ -1,0 +1,298 @@
+|j|☆CarrotStix
+|j|☆Qiko
+|t:|1743916648
+|gametype|singles
+|player|p1|CarrotStix|plasmagruntf-gen5bw|1273
+|player|p2|Qiko|rosa-pokestar|1334
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pincurchin, F|
+|poke|p1|Iron Thorns|
+|poke|p1|Iron Crown|
+|poke|p1|Iron Valiant|
+|poke|p1|Iron Treads|
+|poke|p1|Porygon-Z|
+|poke|p2|Zamazenta-*|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Great Tusk|
+|poke|p2|Kingambit, M|
+|poke|p2|Zapdos|
+|teampreview
+|
+|t:|1743916659
+|start
+|switch|p1a: Porygon-Z|Porygon-Z|100/100
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|spa|1
+|turn|1
+|
+|t:|1743916667
+|move|p1a: Porygon-Z|Ice Beam|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743916678
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|2
+|
+|t:|1743916683
+|switch|p1a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1743916690
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-activate|p1a: Iron Treads|ability: Quark Drive
+|-start|p1a: Iron Treads|quarkdrivedef
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|4
+|
+|t:|1743916702
+|move|p2a: Kingambit|Sucker Punch|p1a: Iron Treads
+|-damage|p1a: Iron Treads|28/100
+|move|p1a: Iron Treads|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|29/100
+|-damage|p1a: Iron Treads|18/100|[from] item: Life Orb
+|
+|-heal|p2a: Kingambit|35/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743916709
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Iron Treads|Stealth Rock|p2a: Kingambit
+|-sidestart|p2: Qiko|move: Stealth Rock
+|
+|-heal|p2a: Kingambit|41/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743916714
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Iron Treads|Stealth Rock||[still]
+|-fail|p1a: Iron Treads
+|
+|-heal|p2a: Kingambit|47/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743916739
+|move|p1a: Iron Treads|Stealth Rock||[still]
+|-fail|p1a: Iron Treads
+|move|p2a: Kingambit|Low Kick|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p2a: Kingambit|53/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743916744
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-activate|p1a: Iron Valiant|ability: Quark Drive
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|8
+|
+|t:|1743916752
+|-terastallize|p2a: Kingambit|Ghost
+|move|p2a: Kingambit|Sucker Punch|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|56/100
+|move|p1a: Iron Valiant|Close Combat|p2a: Kingambit
+|-immune|p2a: Kingambit
+|
+|-heal|p2a: Kingambit|59/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743916762
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Porygon-Z|Porygon-Z|100/100
+|-ability|p1a: Porygon-Z|Download|boost
+|-boost|p1a: Porygon-Z|spa|1
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|0 fnt
+|faint|p1a: Porygon-Z
+|
+|-heal|p2a: Kingambit|65/100|[from] item: Leftovers
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1743916768
+|switch|p1a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|10
+|
+|t:|1743916783
+|move|p2a: Kingambit|Low Kick|p1a: Pincurchin
+|-damage|p1a: Pincurchin|68/100
+|move|p1a: Pincurchin|Discharge|p2a: Kingambit
+|-damage|p2a: Kingambit|17/100
+|
+|-heal|p2a: Kingambit|23/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743916796
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|
+|-heal|p2a: Kingambit|29/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743916805
+|switch|p1a: Iron Valiant|Iron Valiant|56/100
+|-activate|p1a: Iron Valiant|ability: Quark Drive
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|12
+|
+|t:|1743916808
+|move|p2a: Kingambit|Sucker Punch|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|12/100
+|move|p1a: Iron Valiant|Knock Off|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-enditem|p2a: Kingambit|Leftovers|[from] move: Knock Off|[of] p1a: Iron Valiant
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|upkeep
+|
+|t:|1743916815
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|13
+|
+|t:|1743916822
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Iron Thorns|Iron Thorns|100/100
+|-item|p1a: Iron Thorns|Air Balloon
+|-activate|p1a: Iron Thorns|ability: Quark Drive
+|-start|p1a: Iron Thorns|quarkdriveatk
+|move|p2a: Zapdos|Thunder Wave|p1a: Iron Thorns
+|-immune|p1a: Iron Thorns
+|
+|upkeep
+|turn|14
+|
+|t:|1743916827
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Iron Thorns|Dragon Dance|p1a: Iron Thorns
+|-boost|p1a: Iron Thorns|atk|1
+|-boost|p1a: Iron Thorns|spe|1
+|
+|upkeep
+|turn|15
+|
+|t:|1743916838
+|-terastallize|p1a: Iron Thorns|Flying
+|move|p2a: Zamazenta|Close Combat|p1a: Iron Thorns
+|-resisted|p1a: Iron Thorns
+|-damage|p1a: Iron Thorns|74/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|-enditem|p1a: Iron Thorns|Air Balloon
+|move|p1a: Iron Thorns|Dragon Dance|p1a: Iron Thorns
+|-boost|p1a: Iron Thorns|atk|1
+|-boost|p1a: Iron Thorns|spe|1
+|
+|upkeep
+|turn|16
+|
+|t:|1743916844
+|move|p1a: Iron Thorns|Iron Defense|p1a: Iron Thorns
+|-boost|p1a: Iron Thorns|def|2
+|move|p2a: Zamazenta|Stone Edge|p1a: Iron Thorns
+|-supereffective|p1a: Iron Thorns
+|-damage|p1a: Iron Thorns|35/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743916854
+|move|p1a: Iron Thorns|Earthquake|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-fieldend|move: Electric Terrain
+|-end|p1a: Iron Thorns|Quark Drive
+|upkeep
+|
+|t:|1743916860
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|18
+|
+|t:|1743916864
+|move|p1a: Iron Thorns|Stone Edge|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1743916866
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743916872
+|move|p1a: Iron Thorns|Stone Edge|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743916875
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743916879
+|move|p1a: Iron Thorns|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|win|CarrotStix
+|raw|CarrotStix's rating: 1273 &rarr; <strong>1302</strong><br />(+29 for winning)
+|raw|Qiko's rating: 1334 &rarr; <strong>1311</strong><br />(-23 for losing)
+|l|☆Qiko
+|player|p2|
+|l|☆CarrotStix
+|player|p1|

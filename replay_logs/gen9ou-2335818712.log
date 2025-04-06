@@ -1,0 +1,226 @@
+|j|☆Aiaoqppqqppq
+|j|☆Nezk025
+|t:|1743842188
+|gametype|singles
+|player|p1|Aiaoqppqqppq|170|1045
+|player|p2|Nezk025|nate|1072
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Moth|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Kingambit, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Heatran, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Slowking-Galar, F|
+|teampreview
+|
+|t:|1743842198
+|start
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Araquanid|atk|1
+|turn|1
+|
+|t:|1743842205
+|move|p2a: Landorus|U-turn|p1a: Araquanid
+|-damage|p1a: Araquanid|62/100
+|
+|t:|1743842210
+|switch|p2a: Rillaboom|Rillaboom, F|100/100|[from] U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Araquanid|Sticky Web|p2a: Rillaboom
+|-sidestart|p2: Nezk025|move: Sticky Web
+|
+|-heal|p1a: Araquanid|69/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1743842218
+|move|p2a: Rillaboom|Wood Hammer|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|-damage|p2a: Rillaboom|82/100|[from] Recoil
+|
+|-heal|p2a: Rillaboom|88/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743842224
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|3
+|
+|t:|1743842230
+|switch|p2a: Heatran|Heatran, M|100/100
+|-activate|p2a: Heatran|move: Sticky Web
+|-unboost|p2a: Heatran|spe|1
+|move|p1a: Iron Moth|Fiery Dance|p2a: Heatran
+|-start|p2a: Heatran|ability: Flash Fire
+|
+|upkeep
+|turn|4
+|
+|t:|1743842237
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Heatran|Earth Power|p1a: Great Tusk
+|-damage|p1a: Great Tusk|62/100
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-heal|p1a: Great Tusk|69/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1743842246
+|-end|p2a: Heatran|ability: Flash Fire|[silent]
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Mandibuzz
+|-immune|p2a: Mandibuzz
+|
+|-heal|p1a: Great Tusk|75/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1743842254
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gholdengo|atk|1
+|
+|upkeep
+|turn|7
+|
+|t:|1743842262
+|move|p2a: Landorus|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|89/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|t:|1743842266
+|switch|p2a: Heatran|Heatran, M|100/100|[from] U-turn
+|-activate|p2a: Heatran|move: Sticky Web
+|-unboost|p2a: Heatran|spe|1
+|move|p1a: Gholdengo|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|73/100
+|
+|-heal|p2a: Heatran|79/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743842277
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Heatran|Magma Storm|p1a: Raging Bolt|[miss]
+|-miss|p2a: Heatran|p1a: Raging Bolt
+|
+|-heal|p2a: Heatran|85/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743842283
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|move|p2a: Heatran|Earth Power|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|68/100
+|
+|-heal|p2a: Heatran|92/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743842291
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|move|p2a: Heatran|Taunt|p1a: Raging Bolt
+|-start|p1a: Raging Bolt|move: Taunt
+|
+|-heal|p2a: Heatran|98/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743842295
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Raging Bolt|atk|1
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|12
+|
+|t:|1743842304
+|-terastallize|p1a: Raging Bolt|Bug
+|move|p2a: Landorus|U-turn|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|32/100
+|
+|t:|1743842312
+|switch|p2a: Heatran|Heatran, M|98/100|[from] U-turn
+|-activate|p2a: Heatran|move: Sticky Web
+|-unboost|p2a: Heatran|spe|1
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|54/100
+|
+|-heal|p2a: Heatran|60/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743842320
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-end|p1a: Raging Bolt|move: Taunt
+|upkeep
+|
+|t:|1743842323
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Raging Bolt|atk|1
+|turn|14
+|
+|t:|1743842330
+|move|p2a: Landorus|Tera Blast|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|23/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|-message|Nezk025 forfeited.
+|
+|win|Aiaoqppqqppq
+|raw|Aiaoqppqqppq's rating: 1045 &rarr; <strong>1081</strong><br />(+36 for winning)
+|raw|Nezk025's rating: 1072 &rarr; <strong>1050</strong><br />(-22 for losing)
+|l|☆Nezk025
+|player|p2|

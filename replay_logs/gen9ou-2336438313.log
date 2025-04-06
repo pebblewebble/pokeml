@@ -1,0 +1,210 @@
+|j|☆Ra9003
+|j|☆Aphasia pusher
+|t:|1743917649
+|gametype|singles
+|player|p1|Ra9003|hoopster|1532
+|player|p2|Aphasia pusher|cynthia-gen4|1409
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gliscor, F|
+|poke|p1|Clefable, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Skarmory, M|
+|poke|p1|Mismagius, M|
+|poke|p1|Hydreigon, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Kingambit, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Iron Moth|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Aphasia pusher)
+|
+|t:|1743917660
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|t:|1743917665
+|move|p1a: Rotom|Volt Switch|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-crit|p2a: Samurott
+|-enditem|p2a: Samurott|Focus Sash
+|-damage|p2a: Samurott|1/100
+|
+|t:|1743917673
+|switch|p1a: Skarmory|Skarmory, M|100/100|[from] Volt Switch
+|move|p2a: Samurott|Ceaseless Edge|p1a: Skarmory|[miss]
+|-miss|p2a: Samurott|p1a: Skarmory
+|
+|upkeep
+|turn|2
+|
+|t:|1743917683
+|move|p2a: Samurott|Ceaseless Edge|p1a: Skarmory
+|-damage|p1a: Skarmory|69/100
+|-damage|p2a: Samurott|0 fnt|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|faint|p2a: Samurott
+|move|p1a: Skarmory|Spikes|p2: Samurott
+|-sidestart|p2: Aphasia pusher|Spikes
+|
+|upkeep
+|
+|t:|1743917692
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-damage|p2a: Iron Moth|88/100|[from] Spikes
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|3
+|
+|t:|1743917701
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|72/100
+|-boost|p2a: Iron Moth|spa|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743917718
+|move|p2a: Iron Moth|Sludge Wave|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1743917730
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|turn|5
+|
+|t:|1743917742
+|move|p2a: Iron Moth|Fiery Dance|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-crit|p1a: Hydreigon
+|-damage|p1a: Hydreigon|60/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Hydreigon|Dragon Tail|p2a: Iron Moth
+|-damage|p2a: Iron Moth|58/100
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|drag|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|88/100|[from] Spikes
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|
+|-heal|p1a: Hydreigon|66/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743917752
+|move|p1a: Hydreigon|Protect|p1a: Hydreigon
+|-singleturn|p1a: Hydreigon|Protect
+|move|p2a: Iron Valiant|Moonblast|p1a: Hydreigon
+|-activate|p1a: Hydreigon|move: Protect
+|
+|-heal|p1a: Hydreigon|72/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743917766
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743917772
+|move|p2a: Iron Valiant|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|50/100
+|move|p1a: Clefable|Moonblast|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|19/100
+|-unboost|p2a: Iron Valiant|spa|1
+|
+|-heal|p1a: Clefable|56/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743917783
+|move|p2a: Iron Valiant|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|26/100
+|-unboost|p1a: Clefable|spa|1
+|move|p1a: Clefable|Moonblast|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p1a: Clefable|32/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743917793
+|switch|p2a: Iron Moth|Iron Moth|58/100
+|-damage|p2a: Iron Moth|46/100|[from] Spikes
+|turn|10
+|
+|t:|1743917802
+|move|p2a: Iron Moth|Fiery Dance|p1a: Clefable
+|-damage|p1a: Clefable|6/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Clefable|Stealth Rock|p2a: Iron Moth
+|-sidestart|p2: Aphasia pusher|move: Stealth Rock
+|
+|-heal|p1a: Clefable|12/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743917815
+|move|p2a: Iron Moth|Fiery Dance|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-boost|p2a: Iron Moth|spa|1
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|t:|1743917833
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|turn|12
+|
+|t:|1743917838
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Iron Moth|Sludge Wave|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|13
+|
+|t:|1743917846
+|move|p2a: Iron Moth|Fiery Dance|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|-message|Ra9003 forfeited.
+|
+|win|Aphasia pusher
+|raw|Ra9003's rating: 1532 &rarr; <strong>1505</strong><br />(-27 for losing)
+|raw|Aphasia pusher's rating: 1409 &rarr; <strong>1436</strong><br />(+27 for winning)
+|l|☆Ra9003
+|player|p1|
+|l|☆Aphasia pusher
+|player|p2|

@@ -1,0 +1,467 @@
+|j|☆Doviiscool
+|j|☆Kamas279
+|t:|1743786815
+|gametype|singles
+|player|p1|Doviiscool|skyla|1275
+|player|p2|Kamas279|waiter|1326
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Salamence, F|
+|poke|p1|Iron Moth|
+|poke|p1|Walking Wake|
+|poke|p2|Glimmora, F|
+|poke|p2|Drifblim, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Araquanid, F|
+|poke|p2|Zapdos|
+|poke|p2|Forretress, M|
+|teampreview
+|
+|t:|1743786832
+|start
+|switch|p1a: Twerkoal|Torkoal, F, shiny|100/100
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Twerkoal
+|turn|1
+|
+|t:|1743786847
+|switch|p1a: Walter Wake|Walking Wake|100/100
+|-activate|p1a: Walter Wake|ability: Protosynthesis
+|-start|p1a: Walter Wake|protosynthesisspe
+|-terastallize|p2a: Araquanid|Water
+|move|p2a: Araquanid|Liquidation|p1a: Walter Wake
+|-resisted|p1a: Walter Wake
+|-damage|p1a: Walter Wake|88/100
+|-unboost|p1a: Walter Wake|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743786864
+|move|p1a: Walter Wake|Draco Meteor|p2a: Araquanid
+|-damage|p2a: Araquanid|48/100
+|-unboost|p1a: Walter Wake|spa|2
+|move|p2a: Araquanid|Sticky Web|p1a: Walter Wake
+|-sidestart|p1: Doviiscool|move: Sticky Web
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Araquanid|55/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743786894
+|-end|p1a: Walter Wake|Protosynthesis|[silent]
+|switch|p1a: 6 pack|Iron Moth|100/100
+|-activate|p1a: 6 pack|move: Sticky Web
+|-unboost|p1a: 6 pack|spe|1
+|-enditem|p1a: 6 pack|Booster Energy
+|-activate|p1a: 6 pack|ability: Quark Drive|[fromitem]
+|-start|p1a: 6 pack|quarkdrivespa
+|switch|p2a: Forretress|Forretress, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743786903
+|move|p1a: 6 pack|Fiery Dance|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-ability|p2a: Forretress|Sturdy
+|-damage|p2a: Forretress|1/100
+|-boost|p1a: 6 pack|spa|1
+|move|p2a: Forretress|Spikes|p1a: 6 pack
+|-sidestart|p1: Doviiscool|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|-enditem|p2a: Forretress|Custap Berry|[eat]
+|-activate|p2a: Forretress|item: Custap Berry|[consumed]
+|
+|t:|1743786911
+|move|p2a: Forretress|Explosion|p1a: 6 pack
+|-damage|p1a: 6 pack|0 fnt
+|faint|p2a: Forretress
+|faint|p1a: 6 pack
+|-end|p1a: 6 pack|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743786918
+|switch|p1a: Horny|Great Tusk|100/100
+|switch|p2a: Drifblim|Drifblim, M|100/100
+|-activate|p1a: Horny|move: Sticky Web
+|-unboost|p1a: Horny|spe|1
+|-damage|p1a: Horny|88/100|[from] Spikes
+|-activate|p1a: Horny|ability: Protosynthesis
+|-start|p1a: Horny|protosynthesisdef
+|turn|6
+|
+|t:|1743786927
+|move|p2a: Drifblim|Will-O-Wisp|p1a: Horny
+|-status|p1a: Horny|brn
+|move|p1a: Horny|Knock Off|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|73/100
+|-damage|p1a: Horny|72/100 brn|[from] item: Rocky Helmet|[of] p2a: Drifblim
+|-enditem|p2a: Drifblim|Rocky Helmet|[from] move: Knock Off|[of] p1a: Horny
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Horny|65/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743786966
+|move|p2a: Drifblim|Hex|p1a: Horny
+|-damage|p1a: Horny|23/100 brn
+|move|p1a: Horny|Rapid Spin|p2a: Drifblim
+|-immune|p2a: Drifblim
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Horny|17/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Doviiscool)
+|
+|t:|1743787016
+|-end|p1a: Horny|Protosynthesis|[silent]
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Drifblim|atk|1
+|move|p2a: Drifblim|Strength Sap|p1a: Salamence
+|-unboost|p1a: Salamence|atk|1
+|-heal|p2a: Drifblim|100/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743787033
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Drifblim|Will-O-Wisp|p1a: Salamence|[miss]
+|-miss|p2a: Drifblim|p1a: Salamence
+|
+|upkeep
+|turn|10
+|
+|t:|1743787040
+|move|p1a: Salamence|Crunch|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|51/100
+|move|p2a: Drifblim|Will-O-Wisp|p1a: Salamence
+|-status|p1a: Salamence|brn
+|
+|-damage|p1a: Salamence|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743787045
+|move|p1a: Salamence|Crunch|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|22/100
+|move|p2a: Drifblim|Strength Sap|p1a: Salamence
+|-unboost|p1a: Salamence|atk|1
+|-heal|p2a: Drifblim|100/100
+|
+|-damage|p1a: Salamence|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743787055
+|switch|p1a: Viagra|Gholdengo|100/100
+|-activate|p1a: Viagra|move: Sticky Web
+|-unboost|p1a: Viagra|spe|1
+|-damage|p1a: Viagra|88/100|[from] Spikes
+|move|p2a: Drifblim|Thunder Wave|p1a: Viagra
+|-immune|p1a: Viagra|[from] ability: Good as Gold
+|
+|upkeep
+|turn|13
+|
+|t:|1743787061
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|-terastallize|p1a: Viagra|Flying
+|move|p1a: Viagra|Shadow Ball|p2a: Ursaluna
+|-immune|p2a: Ursaluna
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|14
+|
+|t:|1743787069
+|move|p1a: Viagra|Confuse Ray|p2a: Ursaluna
+|-start|p2a: Ursaluna|confusion
+|-activate|p2a: Ursaluna|confusion
+|-damage|p2a: Ursaluna|89/100 brn|[from] confusion
+|
+|-damage|p2a: Ursaluna|83/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743787074
+|move|p1a: Viagra|Substitute|p1a: Viagra
+|-start|p1a: Viagra|Substitute
+|-damage|p1a: Viagra|63/100
+|-activate|p2a: Ursaluna|confusion
+|-damage|p2a: Ursaluna|71/100 brn|[from] confusion
+|
+|-damage|p2a: Ursaluna|65/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743787078
+|move|p1a: Viagra|Make It Rain|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-unboost|p1a: Viagra|spa|1
+|faint|p2a: Ursaluna
+|-damage|p1a: Viagra|54/100|[from] item: Life Orb
+|
+|upkeep
+|c|☆Kamas279|Must be nice to be able to rely on luck ;(
+|
+|t:|1743787103
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|17
+|c|☆Doviiscool|ur bi9tch ass driflbim wont die
+|n|‽Doviiscool|doviiscool
+|c|~|/log Doviiscool was locked from talking by Artemis. (☆Doviiscool: ur bi9tch ass driflbim wont die)
+|c|~|/raw <small>This action was done automatically. Want to learn more about the AI? <a href="https://www.smogon.com/forums/threads/3570628/#post-9056769">Visit the information thread</a>.</small>
+|
+|t:|1743787120
+|move|p2a: Glimmora|Meteor Beam||[still]
+|-prepare|p2a: Glimmora|Meteor Beam
+|-boost|p2a: Glimmora|spa|1
+|-enditem|p2a: Glimmora|Power Herb
+|-anim|p2a: Glimmora|Meteor Beam|p1a: Viagra|[miss]
+|-miss|p2a: Glimmora|p1a: Viagra
+|move|p1a: Viagra|Make It Rain|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-unboost|p1a: Viagra|spa|1
+|faint|p2a: Glimmora
+|-damage|p1a: Viagra|44/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Kamas279 has 120 seconds left.
+|
+|t:|1743787140
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|18
+|
+|t:|1743787143
+|move|p2a: Zapdos|Discharge|p1a: Viagra
+|-supereffective|p1a: Viagra
+|-end|p1a: Viagra|Substitute
+|move|p1a: Viagra|Confuse Ray|p2a: Zapdos
+|-start|p2a: Zapdos|confusion
+|
+|upkeep
+|turn|19
+|
+|t:|1743787159
+|-activate|p2a: Zapdos|confusion
+|move|p2a: Zapdos|Discharge|p1a: Viagra
+|-supereffective|p1a: Viagra
+|-damage|p1a: Viagra|0 fnt
+|faint|p1a: Viagra
+|
+|upkeep
+|
+|t:|1743787163
+|switch|p1a: Horny|Great Tusk|17/100 brn
+|-activate|p1a: Horny|move: Sticky Web
+|-unboost|p1a: Horny|spe|1
+|-damage|p1a: Horny|5/100 brn|[from] Spikes
+|turn|20
+|
+|t:|1743787168
+|switch|p2a: Drifblim|Drifblim, M|100/100
+|move|p1a: Horny|Rapid Spin|p2a: Drifblim
+|-immune|p2a: Drifblim
+|
+|-damage|p1a: Horny|0 fnt|[from] brn
+|faint|p1a: Horny
+|-end|p1a: Horny|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1743787177
+|switch|p1a: Salamence|Salamence, F|88/100 brn
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Drifblim|atk|1
+|turn|21
+|
+|t:|1743787182
+|move|p1a: Salamence|Crunch|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|73/100
+|move|p2a: Drifblim|Hex|p1a: Salamence
+|-damage|p1a: Salamence|37/100 brn
+|
+|-damage|p1a: Salamence|31/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1743787187
+|move|p1a: Salamence|Crunch|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|44/100
+|move|p2a: Drifblim|Strength Sap|p1a: Salamence
+|-unboost|p1a: Salamence|atk|1
+|-heal|p2a: Drifblim|100/100
+|
+|-damage|p1a: Salamence|25/100 brn|[from] brn
+|upkeep
+|turn|23
+|inactive|Kamas279 has 120 seconds left.
+|inactive|Kamas279 has 90 seconds left.
+|inactive|Kamas279 has 60 seconds left.
+|
+|t:|1743787307
+|move|p1a: Salamence|Crunch|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|84/100
+|move|p2a: Drifblim|Hex|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|upkeep
+|
+|t:|1743787313
+|switch|p1a: Twerkoal|Torkoal, F, shiny|100/100
+|-activate|p1a: Twerkoal|move: Sticky Web
+|-unboost|p1a: Twerkoal|spe|1
+|-damage|p1a: Twerkoal|88/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Twerkoal
+|turn|24
+|c|☆Kamas279|Sorry, I was thinking
+|
+|t:|1743787320
+|move|p2a: Drifblim|Thunder Wave|p1a: Twerkoal
+|-status|p1a: Twerkoal|par
+|cant|p1a: Twerkoal|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1743787325
+|move|p2a: Drifblim|Hex|p1a: Twerkoal
+|-damage|p1a: Twerkoal|32/100 par
+|move|p1a: Twerkoal|Will-O-Wisp|p2a: Drifblim
+|-status|p2a: Drifblim|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Drifblim|78/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1743787336
+|move|p2a: Drifblim|Thunder Wave|p1a: Twerkoal
+|-fail|p1a: Twerkoal|par
+|cant|p1a: Twerkoal|par
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Drifblim|71/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1743787338
+|move|p2a: Drifblim|Strength Sap|p1a: Twerkoal
+|-unboost|p1a: Twerkoal|atk|1
+|-heal|p2a: Drifblim|100/100 brn
+|move|p1a: Twerkoal|Body Press|p2a: Drifblim
+|-immune|p2a: Drifblim
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Drifblim|94/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1743787341
+|move|p2a: Drifblim|Hex|p1a: Twerkoal
+|-damage|p1a: Twerkoal|0 fnt
+|faint|p1a: Twerkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Drifblim|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1743787343
+|switch|p1a: Walter Wake|Walking Wake|88/100
+|-activate|p1a: Walter Wake|move: Sticky Web
+|-unboost|p1a: Walter Wake|spe|1
+|-damage|p1a: Walter Wake|75/100|[from] Spikes
+|-activate|p1a: Walter Wake|ability: Protosynthesis
+|-start|p1a: Walter Wake|protosynthesisspa
+|turn|29
+|
+|t:|1743787348
+|move|p1a: Walter Wake|Hydro Steam|p2a: Drifblim
+|-damage|p2a: Drifblim|2/100 brn
+|move|p2a: Drifblim|Thunder Wave|p1a: Walter Wake|[miss]
+|-miss|p2a: Drifblim|p1a: Walter Wake
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Drifblim|0 fnt|[from] brn
+|faint|p2a: Drifblim
+|upkeep
+|
+|t:|1743787367
+|switch|p2a: Araquanid|Araquanid, F, tera:Water|55/100
+|turn|30
+|
+|t:|1743787373
+|move|p1a: Walter Wake|Draco Meteor|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|-unboost|p1a: Walter Wake|spa|2
+|faint|p2a: Araquanid
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743787376
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|31
+|
+|t:|1743787380
+|move|p2a: Zapdos|Discharge|p1a: Walter Wake
+|-damage|p1a: Walter Wake|22/100
+|move|p1a: Walter Wake|Flamethrower|p2a: Zapdos
+|-damage|p2a: Zapdos|70/100
+|
+|-weather|none
+|-end|p1a: Walter Wake|Protosynthesis
+|upkeep
+|turn|32
+|
+|t:|1743787385
+|move|p2a: Zapdos|Discharge|p1a: Walter Wake
+|-damage|p1a: Walter Wake|0 fnt
+|faint|p1a: Walter Wake
+|-end|p1a: Walter Wake|Protosynthesis|[silent]
+|
+|win|Kamas279
+|raw|Doviiscool's rating: 1275 &rarr; <strong>1254</strong><br />(-21 for losing)
+|raw|Kamas279's rating: 1326 &rarr; <strong>1343</strong><br />(+17 for winning)
+|l|‽Doviiscool
+|player|p1|
+|l|☆Kamas279
+|player|p2|

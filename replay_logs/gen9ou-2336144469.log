@@ -1,0 +1,379 @@
+|j|☆ugcyc
+|j|☆sddi6
+|t:|1743883357
+|gametype|singles
+|player|p1|ugcyc|juggler|1600
+|player|p2|sddi6|calaba|1520
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cresselia, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Torkoal, F|
+|poke|p1|Gallade, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Kyurem|
+|poke|p2|Great Tusk|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ugcyc)
+|
+|t:|1743883374
+|start
+|switch|p1a: Gallade|Gallade, M|100/100
+|switch|p2a: Flying Great Tusk|Landorus-Therian, M|100/100
+|-ability|p2a: Flying Great Tusk|Intimidate|boost
+|-unboost|p1a: Gallade|atk|1
+|turn|1
+|
+|t:|1743883380
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Flying Great Tusk|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|42/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743883384
+|move|p2a: Flying Great Tusk|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1743883387
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|turn|3
+|
+|t:|1743883401
+|switch|p2a: Tuskartor|Slowking-Galar, F|100/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|upkeep
+|turn|4
+|
+|t:|1743883405
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|move|p2a: Tuskartor|Future Sight|p1a: Ursaluna
+|-start|p2a: Tuskartor|move: Future Sight
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1743883411
+|switch|p2a: Flying Great Tusk|Landorus-Therian, M|100/100
+|-ability|p2a: Flying Great Tusk|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|move|p1a: Ursaluna|Facade|p2a: Flying Great Tusk
+|-damage|p2a: Flying Great Tusk|1/100
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743883419
+|move|p1a: Ursaluna|Facade|p2a: Flying Great Tusk
+|-damage|p2a: Flying Great Tusk|0 fnt
+|faint|p2a: Flying Great Tusk
+|
+|-end|p1a: Ursaluna|move: Future Sight
+|-damage|p1a: Ursaluna|56/100 brn
+|-damage|p1a: Ursaluna|50/100 brn|[from] brn
+|upkeep
+|
+|t:|1743883427
+|switch|p2a: Tusk Tusk|Great Tusk|100/100
+|turn|7
+|
+|t:|1743883432
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|move|p2a: Tusk Tusk|Headlong Rush|p1a: Cresselia
+|-immune|p1a: Cresselia|[from] ability: Levitate
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1743883435
+|move|p2a: Tusk Tusk|Stealth Rock|p1a: Cresselia
+|-sidestart|p1: ugcyc|move: Stealth Rock
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|upkeep
+|turn|9
+|
+|t:|1743883443
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-damage|p1a: Torkoal|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-activate|p2a: Tusk Tusk|ability: Protosynthesis
+|-start|p2a: Tusk Tusk|protosynthesisspe
+|-end|p2a: Tusk Tusk|Protosynthesis|[silent]
+|switch|p2a: Ogertusk|Ogerpon-Wellspring, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743883449
+|move|p1a: Torkoal|Weather Ball|p2a: Ogertusk
+|-damage|p2a: Ogertusk|14/100
+|move|p2a: Ogertusk|Knock Off|p1a: Torkoal
+|-damage|p1a: Torkoal|48/100
+|-enditem|p1a: Torkoal|Charcoal|[from] move: Knock Off|[of] p2a: Ogertusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743883457
+|move|p1a: Torkoal|Rapid Spin|p2a: Ogertusk
+|-damage|p2a: Ogertusk|0 fnt
+|-boost|p1a: Torkoal|spe|1
+|-sideend|p1: ugcyc|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Torkoal
+|faint|p2a: Ogertusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743883463
+|switch|p2a: Tuskartor|Slowking-Galar, F|100/100
+|turn|12
+|
+|t:|1743883469
+|move|p2a: Tuskartor|Thunder Wave|p1a: Torkoal|[miss]
+|-miss|p2a: Tuskartor|p1a: Torkoal
+|move|p1a: Torkoal|Weather Ball|p2a: Tuskartor
+|-damage|p2a: Tuskartor|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|13
+|
+|t:|1743883474
+|move|p1a: Torkoal|Weather Ball|p2a: Tuskartor
+|-damage|p2a: Tuskartor|27/100
+|move|p2a: Tuskartor|Future Sight|p1a: Torkoal
+|-start|p2a: Tuskartor|move: Future Sight
+|
+|-weather|none
+|upkeep
+|turn|14
+|
+|t:|1743883479
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Torkoal|Earth Power|p2a: Kyurem
+|-damage|p2a: Kyurem|76/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743883485
+|switch|p1a: Gallade|Gallade, M|100/100
+|move|p2a: Kyurem|Ice Beam|p1a: Gallade
+|-damage|p1a: Gallade|42/100
+|
+|-end|p1a: Gallade|move: Future Sight
+|-damage|p1a: Gallade|3/100
+|upkeep
+|turn|16
+|
+|t:|1743883493
+|switch|p2a: Tuskartor|Slowking-Galar, F|60/100
+|switch|p1a: Torkoal|Torkoal, F|48/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743883499
+|-prepare|p2a: Tuskartor|Chilly Reception|[premajor]
+|move|p2a: Tuskartor|Chilly Reception|p2a: Tuskartor
+|-weather|Snowscape
+|
+|t:|1743883505
+|switch|p2a: Kyurem|Kyurem|76/100|[from] Chilly Reception
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Torkoal|Earth Power|p2a: Kyurem
+|-damage|p2a: Kyurem|53/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743883513
+|move|p2a: Kyurem|Ice Beam|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|2/100
+|move|p1a: Torkoal|Weather Ball|p2a: Kyurem
+|-damage|p2a: Kyurem|27/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743883519
+|move|p2a: Kyurem|Ice Beam|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743883520
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|turn|20
+|
+|t:|1743883524
+|move|p2a: Kyurem|Ice Beam|p1a: Cresselia
+|-damage|p1a: Cresselia|60/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743883532
+|move|p1a: Cresselia|Lunar Dance|p1a: Cresselia
+|faint|p1a: Cresselia
+|move|p2a: Kyurem|Ice Beam|p1: Cresselia|[notarget]
+|-fail|p2a: Kyurem
+|
+|-weather|none
+|upkeep
+|
+|t:|1743883533
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|22
+|
+|t:|1743883542
+|move|p1a: Kingambit|Iron Head|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|-damage|p1a: Kingambit|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743883547
+|switch|p2a: Tusk Tusk|Great Tusk|100/100
+|turn|23
+|
+|t:|1743883550
+|-terastallize|p1a: Kingambit|Fighting
+|move|p1a: Kingambit|Low Kick|p2a: Tusk Tusk
+|-damage|p2a: Tusk Tusk|25/100
+|-damage|p1a: Kingambit|74/100|[from] item: Rocky Helmet|[of] p2a: Tusk Tusk
+|-damage|p1a: Kingambit|64/100|[from] item: Life Orb
+|move|p2a: Tusk Tusk|Headlong Rush|p1a: Kingambit
+|-damage|p1a: Kingambit|24/100
+|-unboost|p2a: Tusk Tusk|def|1
+|-unboost|p2a: Tusk Tusk|spd|1
+|
+|upkeep
+|turn|24
+|
+|t:|1743883555
+|move|p1a: Kingambit|Low Kick|p2a: Tusk Tusk
+|-damage|p2a: Tusk Tusk|0 fnt
+|-damage|p1a: Kingambit|7/100|[from] item: Rocky Helmet|[of] p2a: Tusk Tusk
+|faint|p2a: Tusk Tusk
+|-end|p2a: Tusk Tusk|Protosynthesis|[silent]
+|-damage|p1a: Kingambit|0 fnt|[from] item: Life Orb
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743883561
+|switch|p2a: King Tusk|Kingambit, F|100/100
+|switch|p1a: Gallade|Gallade, M|3/100
+|-heal|p1a: Gallade|100/100|[from] move: Lunar Dance
+|-activate|p2a: King Tusk|ability: Supreme Overlord
+|-start|p2a: King Tusk|fallen4|[silent]
+|turn|25
+|
+|t:|1743883566
+|-terastallize|p2a: King Tusk|Ghost
+|move|p1a: Gallade|Sacred Sword|p2a: King Tusk
+|-immune|p2a: King Tusk
+|move|p2a: King Tusk|Kowtow Cleave|p1a: Gallade
+|-enditem|p1a: Gallade|Focus Sash
+|-damage|p1a: Gallade|1/100
+|
+|upkeep
+|turn|26
+|
+|t:|1743883575
+|move|p1a: Gallade|Psycho Cut|p2a: King Tusk
+|-damage|p2a: King Tusk|55/100
+|move|p2a: King Tusk|Kowtow Cleave|p1a: Gallade
+|-crit|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|
+|-heal|p2a: King Tusk|61/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743883576
+|switch|p1a: Ursaluna|Ursaluna, F|50/100 brn
+|turn|27
+|
+|t:|1743883581
+|move|p2a: King Tusk|Sucker Punch|p1a: Ursaluna
+|-damage|p1a: Ursaluna|7/100 brn
+|move|p1a: Ursaluna|Crunch|p2a: King Tusk
+|-supereffective|p2a: King Tusk
+|-damage|p2a: King Tusk|0 fnt
+|faint|p2a: King Tusk
+|-end|p2a: King Tusk|fallen4|[silent]
+|
+|-damage|p1a: Ursaluna|1/100 brn|[from] brn
+|upkeep
+|
+|t:|1743883585
+|switch|p2a: Tuskartor|Slowking-Galar, F|93/100
+|turn|28
+|
+|t:|1743883593
+|move|p1a: Ursaluna|Headlong Rush|p2a: Tuskartor
+|-supereffective|p2a: Tuskartor
+|-damage|p2a: Tuskartor|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Tuskartor
+|
+|win|ugcyc
+|raw|ugcyc's rating: 1600 &rarr; <strong>1615</strong><br />(+15 for winning)
+|raw|sddi6's rating: 1520 &rarr; <strong>1505</strong><br />(-15 for losing)
+|c|☆sddi6|dammit
+|c|☆sddi6|gg
+|l|☆sddi6
+|player|p2|
+|l|☆ugcyc
+|player|p1|

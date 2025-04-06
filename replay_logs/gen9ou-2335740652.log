@@ -1,0 +1,213 @@
+|j|☆xiyihi
+|j|☆Euuduufyf
+|t:|1743828703
+|gametype|singles
+|player|p1|xiyihi|pokemonbreeder|1162
+|player|p2|Euuduufyf|worker|1071
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Gholdengo|
+|poke|p1|Iron Valiant|
+|poke|p1|Meowscarada, F|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p2|Sandy Shocks|
+|poke|p2|Blastoise, M|
+|poke|p2|Vaporeon, M|
+|poke|p2|Articuno-Galar|
+|poke|p2|Iron Boulder|
+|poke|p2|Skarmory, M|
+|teampreview
+|
+|t:|1743828710
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Sandy Shocks|atk|1
+|turn|1
+|
+|t:|1743828726
+|-terastallize|p2a: Sandy Shocks|Ice
+|move|p2a: Sandy Shocks|Tera Blast|p1a: Landorus|[anim] Tera Blast Ice
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743828737
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|2
+|
+|t:|1743828783
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Vaporeon
+|-damage|p2a: Vaporeon|86/100
+|
+|-heal|p2a: Vaporeon|92/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743828800
+|move|p1a: Iron Valiant|Moonblast|p2a: Vaporeon
+|-damage|p2a: Vaporeon|67/100
+|-unboost|p2a: Vaporeon|spa|1
+|move|p2a: Vaporeon|Scald|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|62/100
+|
+|-heal|p2a: Vaporeon|74/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743828812
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|80/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743828821
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Meowscarada|Knock Off|p2a: Skarmory
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Skarmory|74/100
+|-damage|p1a: Meowscarada|84/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|-enditem|p2a: Skarmory|Rocky Helmet|[from] move: Knock Off|[of] p1a: Meowscarada
+|
+|-heal|p2a: Skarmory|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|6
+|
+|t:|1743828835
+|move|p1a: Meowscarada|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|97/100
+|
+|t:|1743828839
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100|[from] U-turn
+|move|p2a: Skarmory|Stealth Rock|p1a: Arcanine
+|-sidestart|p1: xiyihi|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1743828859
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|move|p1a: Arcanine|Wild Charge|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|upkeep
+|
+|t:|1743828871
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|turn|8
+|
+|t:|1743828881
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|-damage|p1a: Samurott|88/100|[from] Stealth Rock
+|move|p2a: Iron Boulder|Mighty Cleave|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1743828892
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743828901
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|switch|p2a: Vaporeon|Vaporeon, M|80/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Vaporeon
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|61/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-heal|p2a: Vaporeon|67/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743828913
+|switch|p1a: Meowscarada|Meowscarada, F|84/100
+|-damage|p1a: Meowscarada|72/100|[from] Stealth Rock
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|73/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743828926
+|switch|p2a: Skarmory|Skarmory, M|97/100
+|move|p1a: Meowscarada|Flower Trick|p2a: Skarmory
+|-start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-resisted|p2a: Skarmory
+|-crit|p2a: Skarmory
+|-damage|p2a: Skarmory|90/100
+|
+|-heal|p2a: Skarmory|100/100|[from] move: Wish|[wisher] Vaporeon
+|upkeep
+|turn|12
+|
+|t:|1743828939
+|move|p1a: Meowscarada|U-turn|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|98/100
+|
+|t:|1743828943
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100|[from] U-turn
+|-damage|p1a: Arcanine|76/100|[from] Stealth Rock
+|move|p2a: Skarmory|Whirlwind|p1a: Arcanine
+|drag|p1a: Iron Valiant|Iron Valiant|62/100
+|-damage|p1a: Iron Valiant|56/100|[from] Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1743828953
+|switch|p2a: Vaporeon|Vaporeon, M|73/100
+|move|p1a: Iron Valiant|Destiny Bond|p1a: Iron Valiant
+|-singlemove|p1a: Iron Valiant|Destiny Bond
+|
+|-heal|p2a: Vaporeon|80/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743828967
+|move|p1a: Iron Valiant|Moonblast|p2a: Vaporeon
+|-damage|p2a: Vaporeon|54/100
+|move|p2a: Vaporeon|Wish|p2a: Vaporeon
+|
+|-heal|p2a: Vaporeon|61/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|-message|xiyihi forfeited.
+|
+|win|Euuduufyf
+|raw|xiyihi's rating: 1162 &rarr; <strong>1131</strong><br />(-31 for losing)
+|raw|Euuduufyf's rating: 1071 &rarr; <strong>1108</strong><br />(+37 for winning)
+|l|☆xiyihi
+|player|p1|
+|l|☆Euuduufyf
+|player|p2|

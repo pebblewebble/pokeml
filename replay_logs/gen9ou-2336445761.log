@@ -1,0 +1,341 @@
+|j|☆Gil_Kenobi
+|j|☆zhangeee
+|t:|1743918810
+|gametype|singles
+|player|p1|Gil_Kenobi|101|1207
+|player|p2|zhangeee|hilbert|1187
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Leavanny, M|
+|poke|p1|Victreebel, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Arboliva, M|
+|poke|p2|Primarina, M|
+|poke|p2|Great Tusk|
+|poke|p2|Raging Bolt|
+|poke|p2|Cinderace, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Dragapult, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gil_Kenobi)
+|
+|t:|1743918823
+|start
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|t:|1743918830
+|move|p2a: Great Tusk|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|63/100
+|-enditem|p1a: Hatterene|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1743918837
+|move|p1a: Hatterene|Draining Kiss|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|22/100
+|-heal|p1a: Hatterene|100/100|[from] drain|[of] p2a: Great Tusk
+|move|p2a: Great Tusk|Stealth Rock|p1a: Hatterene
+|-sidestart|p1: Gil_Kenobi|move: Stealth Rock
+|
+|-heal|p2a: Great Tusk|29/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743918851
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Primarina|Primarina, M|100/100
+|move|p1a: Hatterene|Psyshock|p2a: Primarina
+|-damage|p2a: Primarina|44/100
+|
+|-heal|p2a: Primarina|50/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743918863
+|move|p1a: Hatterene|Psyshock|p2a: Primarina
+|-damage|p2a: Primarina|2/100
+|move|p2a: Primarina|Sparkling Aria|p1a: Hatterene
+|-damage|p1a: Hatterene|25/100
+|
+|-heal|p2a: Primarina|8/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743918878
+|move|p1a: Hatterene|Draining Kiss|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|-heal|p1a: Hatterene|32/100|[from] drain|[of] p2a: Primarina
+|faint|p2a: Primarina
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743918886
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|6
+|
+|t:|1743918894
+|move|p2a: Dragapult|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1743918900
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|-damage|p1a: Samurott|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1743918912
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|51/100
+|-sidestart|p2: zhangeee|Spikes
+|-damage|p1a: Samurott|78/100|[from] item: Life Orb
+|
+|-heal|p2a: Raging Bolt|57/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743918923
+|move|p2a: Raging Bolt|Thunderclap|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-heal|p2a: Raging Bolt|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743918928
+|switch|p1a: Arboliva|Arboliva, M|100/100
+|-damage|p1a: Arboliva|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743918934
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Arboliva
+|-damage|p1a: Arboliva|38/100
+|-unboost|p2a: Raging Bolt|spa|2
+|-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p1a: Arboliva
+|move|p1a: Arboliva|Alluring Voice|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|15/100
+|
+|-heal|p2a: Raging Bolt|21/100|[from] Grassy Terrain
+|-heal|p2a: Raging Bolt|27/100|[from] item: Leftovers
+|-heal|p1a: Arboliva|44/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1743918949
+|move|p2a: Raging Bolt|Volt Switch|p1a: Arboliva
+|-resisted|p1a: Arboliva
+|-damage|p1a: Arboliva|38/100
+|
+|t:|1743918953
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Dragonite|Dragonite, F|100/100|[from] Volt Switch
+|move|p1a: Arboliva|Earth Power|p2a: Dragonite
+|-immune|p2a: Dragonite
+|
+|-heal|p1a: Arboliva|44/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1743918960
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Arboliva|Alluring Voice|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|76/100
+|-start|p2a: Dragonite|confusion
+|
+|-heal|p2a: Dragonite|82/100|[from] item: Leftovers
+|-heal|p1a: Arboliva|50/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1743918971
+|-terastallize|p2a: Dragonite|Steel
+|-activate|p2a: Dragonite|confusion
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Arboliva|Alluring Voice|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|69/100
+|
+|-heal|p2a: Dragonite|75/100|[from] Grassy Terrain
+|-heal|p2a: Dragonite|81/100|[from] item: Leftovers
+|-heal|p1a: Arboliva|56/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1743918983
+|-end|p2a: Dragonite|confusion
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Arboliva|Earth Power|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|28/100
+|
+|-heal|p2a: Dragonite|34/100|[from] Grassy Terrain
+|-heal|p2a: Dragonite|41/100|[from] item: Leftovers
+|-heal|p1a: Arboliva|62/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1743918995
+|move|p2a: Dragonite|Extreme Speed|p1a: Arboliva
+|-damage|p1a: Arboliva|0 fnt
+|-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p1a: Arboliva
+|faint|p1a: Arboliva
+|
+|-heal|p2a: Dragonite|47/100|[from] Grassy Terrain
+|-heal|p2a: Dragonite|53/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743919001
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-damage|p1a: Torkoal|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|15
+|
+|t:|1743919009
+|-terastallize|p1a: Torkoal|Ghost
+|move|p2a: Dragonite|Earthquake|p1a: Torkoal
+|-damage|p1a: Torkoal|46/100
+|move|p1a: Torkoal|Rapid Spin|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|49/100
+|-boost|p1a: Torkoal|spe|1
+|-sideend|p1: Gil_Kenobi|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dragonite|55/100|[from] Grassy Terrain
+|-heal|p2a: Dragonite|61/100|[from] item: Leftovers
+|-heal|p1a: Torkoal|52/100|[from] Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1743919022
+|move|p2a: Dragonite|Earthquake|p1a: Torkoal
+|-damage|p1a: Torkoal|19/100
+|move|p1a: Torkoal|Lava Plume|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|25/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743919030
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|-damage|p2a: Cinderace|88/100|[from] Spikes
+|turn|17
+|
+|t:|1743919039
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Torkoal|Rapid Spin|p2a: Cinderace
+|-damage|p2a: Cinderace|74/100
+|-boost|p1a: Torkoal|spe|1
+|-sideend|p1: Gil_Kenobi|Spikes|[from] move: Rapid Spin|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Cinderace|80/100|[from] Grassy Terrain
+|-heal|p1a: Torkoal|31/100|[from] Grassy Terrain
+|upkeep
+|turn|18
+|
+|t:|1743919055
+|move|p2a: Cinderace|Pyro Ball|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|-damage|p2a: Cinderace|70/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Cinderace|76/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1743919064
+|switch|p1a: Leavanny|Leavanny, M|100/100
+|turn|19
+|
+|t:|1743919068
+|move|p1a: Leavanny|Leaf Blade|p2a: Cinderace
+|-damage|p2a: Cinderace|20/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Leavanny
+|-supereffective|p1a: Leavanny
+|-enditem|p1a: Leavanny|Focus Sash
+|-damage|p1a: Leavanny|1/100
+|-status|p1a: Leavanny|brn
+|-damage|p2a: Cinderace|10/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Leavanny|0 fnt|[from] brn
+|faint|p1a: Leavanny
+|upkeep
+|
+|t:|1743919076
+|switch|p1a: Victreebel|Victreebel, M|100/100
+|turn|20
+|
+|t:|1743919086
+|move|p2a: Cinderace|Sucker Punch|p1a: Victreebel
+|-damage|p1a: Victreebel|54/100
+|-damage|p2a: Cinderace|0 fnt|[from] item: Life Orb
+|faint|p2a: Cinderace
+|move|p1a: Victreebel|Poison Jab|p2: Cinderace|[notarget]
+|-fail|p1a: Victreebel
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743919093
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|21
+|
+|t:|1743919097
+|move|p1a: Victreebel|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|9/100
+|-enditem|p2a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p1a: Victreebel
+|move|p2a: Dragapult|Fire Blast|p1a: Victreebel
+|-supereffective|p1a: Victreebel
+|-damage|p1a: Victreebel|0 fnt
+|faint|p1a: Victreebel
+|
+|win|zhangeee
+|raw|Gil_Kenobi's rating: 1207 &rarr; <strong>1181</strong><br />(-26 for losing)
+|raw|zhangeee's rating: 1187 &rarr; <strong>1213</strong><br />(+26 for winning)
+|l|☆Gil_Kenobi
+|player|p1|
+|l|☆zhangeee
+|player|p2|

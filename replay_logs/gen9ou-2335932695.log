@@ -1,0 +1,240 @@
+|j|☆Nagi
+|j|☆elassie
+|t:|1743860660
+|gametype|singles
+|player|p1|Nagi|camper|1169
+|player|p2|elassie|cynthia|1127
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Abomasnow, M|
+|poke|p1|Morpeko, M|
+|poke|p1|Iron Moth|
+|poke|p1|Diancie|
+|poke|p1|Tentacruel, F|
+|poke|p1|Hippowdon, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Primarina, F|
+|poke|p2|Gliscor, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Heatran, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by elassie)
+|
+|t:|1743860701
+|start
+|switch|p1a: God|Morpeko, M|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|1
+|
+|t:|1743860711
+|move|p2a: Slowking|Trick|p1a: God
+|-activate|p2a: Slowking|move: Trick|[of] p1a: God
+|-item|p1a: God|Choice Scarf|[from] move: Trick
+|-item|p2a: Slowking|Life Orb|[from] move: Trick
+|move|p1a: God|Aura Wheel|p2a: Slowking
+|-damage|p2a: Slowking|1/100
+|-boost|p1a: God|spe|1
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|
+|-formechange|p1a: God|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|2
+|inactive|elassie has 120 seconds left.
+|
+|t:|1743860747
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: God|Aura Wheel|p2a: Gliscor
+|-damage|p2a: Gliscor|66/100
+|-boost|p1a: God|spe|1
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|-formechange|p1a: God|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|3
+|inactive|elassie has 120 seconds left.
+|
+|t:|1743860760
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|move|p2a: Gliscor|Earthquake|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|92/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|78/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|inactive|elassie has 120 seconds left.
+|
+|t:|1743860783
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Abomasnow|Blizzard|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|91/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|t:|1743860790
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Abomasnow|Aurora Veil|p1a: Abomasnow
+|-sidestart|p1: Nagi|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743860796
+|switch|p1a: Tentacruel|Tentacruel, F|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Tentacruel|[miss]
+|-miss|p2a: Heatran|p1a: Tentacruel
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|inactive|elassie has 120 seconds left.
+|
+|t:|1743860806
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Tentacruel|Surf|p2a: Slowking
+|-damage|p2a: Slowking|82/100
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1743860812
+|move|p1a: Tentacruel|Acid Spray|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|78/100
+|-unboost|p2a: Slowking|spd|2
+|move|p2a: Slowking|Future Sight|p1a: Tentacruel
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|9
+|
+|t:|1743860826
+|move|p1a: Tentacruel|Surf|p2a: Slowking
+|-damage|p2a: Slowking|41/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|inactive|elassie has 120 seconds left.
+|
+|t:|1743860843
+|switch|p2a: Heatran|Heatran, M|1/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743860856
+|move|p2a: Heatran|Shadow Ball|p1a: Tentacruel
+|-damage|p1a: Tentacruel|87/100
+|-damage|p2a: Heatran|0 fnt|[from] item: Life Orb
+|faint|p2a: Heatran
+|move|p1a: Tentacruel|Rapid Spin|p2: Zoroark|[notarget]
+|-fail|p1a: Tentacruel
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Tentacruel|move: Future Sight
+|-supereffective|p1a: Tentacruel
+|-damage|p1a: Tentacruel|62/100
+|upkeep
+|
+|t:|1743860866
+|switch|p2a: Heatran|Heatran, M|100/100
+|turn|11
+|
+|t:|1743860869
+|move|p1a: Tentacruel|Surf|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|58/100
+|move|p2a: Heatran|Magma Storm|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|56/100
+|-activate|p1a: Tentacruel|move: Magma Storm|[of] p2a: Heatran
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Heatran|64/100|[from] item: Leftovers
+|-damage|p1a: Tentacruel|43/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|t:|1743860878
+|move|p1a: Tentacruel|Surf|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|22/100
+|move|p2a: Heatran|Will-O-Wisp|p1a: Tentacruel|[miss]
+|-miss|p2a: Heatran|p1a: Tentacruel
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Heatran|28/100|[from] item: Leftovers
+|-damage|p1a: Tentacruel|31/100|[from] move: Magma Storm|[partiallytrapped]
+|-sideend|p1: Nagi|move: Aurora Veil
+|upkeep
+|turn|13
+|
+|t:|1743860887
+|move|p2a: Heatran|Protect|p2a: Heatran
+|-singleturn|p2a: Heatran|Protect
+|move|p1a: Tentacruel|Surf|p2a: Heatran
+|-activate|p2a: Heatran|move: Protect
+|
+|-weather|none
+|-heal|p2a: Heatran|34/100|[from] item: Leftovers
+|-damage|p1a: Tentacruel|19/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|14
+|
+|t:|1743860916
+|switch|p2a: Primarina|Primarina, F, shiny|100/100
+|move|p1a: Tentacruel|Acid Spray|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|77/100
+|-unboost|p2a: Primarina|spd|2
+|
+|-heal|p2a: Primarina|83/100|[from] item: Leftovers
+|-end|p1a: Tentacruel|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|15
+|
+|t:|1743860928
+|move|p1a: Tentacruel|Sludge Wave|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|inactive|elassie has 120 seconds left.
+|inactive|elassie has 90 seconds left.
+|inactive|elassie has 60 seconds left.
+|l|☆elassie
+|inactive|elassie disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|elassie has 30 seconds left.
+|inactive|elassie has 20 seconds left.
+|inactive|elassie has 15 seconds left.
+|inactive|elassie has 10 seconds left.
+|inactive|elassie has 5 seconds left.
+|-message|elassie lost due to inactivity.
+|
+|win|Nagi
+|raw|Nagi's rating: 1169 &rarr; <strong>1191</strong><br />(+22 for winning)
+|raw|elassie's rating: 1127 &rarr; <strong>1105</strong><br />(-22 for losing)

@@ -1,0 +1,252 @@
+|j|☆adiiiie
+|j|☆NeqixPL
+|t:|1743927553
+|gametype|singles
+|player|p1|adiiiie|102|1141
+|player|p2|NeqixPL|102|1121
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blaziken, M|
+|poke|p1|Galvantula, M|
+|poke|p1|Clodsire, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Brambleghast, M|
+|poke|p1|Crawdaunt, F|
+|poke|p2|Pecharunt|
+|poke|p2|Furret, F|
+|poke|p2|Tinkaton, F|
+|poke|p2|Noivern, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Iron Moth|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NeqixPL)
+|
+|t:|1743927566
+|start
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|switch|p2a: Noivern|Noivern, M|100/100
+|-item|p1a: Galvantula|Focus Sash|[from] ability: Frisk|[of] p2a: Noivern
+|turn|1
+|
+|t:|1743927572
+|move|p2a: Noivern|Hurricane|p1a: Galvantula
+|-damage|p1a: Galvantula|22/100
+|-start|p1a: Galvantula|confusion
+|-activate|p1a: Galvantula|confusion
+|move|p1a: Galvantula|Thunder Wave|p2a: Noivern
+|-status|p2a: Noivern|par
+|
+|upkeep
+|turn|2
+|
+|t:|1743927579
+|-end|p1a: Galvantula|confusion
+|move|p1a: Galvantula|Sticky Web|p2a: Noivern
+|-sidestart|p2: NeqixPL|move: Sticky Web
+|move|p2a: Noivern|Psychic Noise|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|upkeep
+|
+|t:|1743927587
+|switch|p1a: Brambleghast|Brambleghast, M|100/100
+|turn|3
+|
+|t:|1743927590
+|-terastallize|p1a: Brambleghast|Ice
+|move|p1a: Brambleghast|Tera Blast|p2a: Noivern|[anim] Tera Blast Ice
+|-supereffective|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|
+|upkeep
+|
+|t:|1743927596
+|switch|p2a: Furret|Furret, F|100/100
+|-activate|p2a: Furret|move: Sticky Web
+|-unboost|p2a: Furret|spe|1
+|-item|p1a: Brambleghast|Heavy-Duty Boots|[from] ability: Frisk|[of] p2a: Furret
+|turn|4
+|
+|t:|1743927607
+|move|p1a: Brambleghast|Power Whip|p2a: Furret
+|-crit|p2a: Furret
+|-damage|p2a: Furret|0 fnt
+|faint|p2a: Furret
+|
+|upkeep
+|
+|t:|1743927621
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-activate|p2a: Tinkaton|move: Sticky Web
+|-unboost|p2a: Tinkaton|spe|1
+|-ability|p2a: Tinkaton|Mold Breaker
+|turn|5
+|
+|t:|1743927638
+|move|p2a: Tinkaton|Fake Out|p1a: Brambleghast
+|-damage|p1a: Brambleghast|75/100
+|-damage|p2a: Tinkaton|91/100|[from] item: Life Orb
+|cant|p1a: Brambleghast|flinch
+|
+|upkeep
+|turn|6
+|
+|t:|1743927646
+|move|p1a: Brambleghast|Poltergeist|p2a: Tinkaton
+|-activate|p2a: Tinkaton|move: Poltergeist|Life Orb
+|-damage|p2a: Tinkaton|20/100
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Brambleghast
+|-supereffective|p1a: Brambleghast
+|-damage|p1a: Brambleghast|0 fnt
+|faint|p1a: Brambleghast
+|-damage|p2a: Tinkaton|10/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743927657
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|turn|7
+|
+|t:|1743927661
+|move|p1a: Blaziken|Focus Energy|p1a: Blaziken
+|-start|p1a: Blaziken|move: Focus Energy
+|move|p2a: Tinkaton|Play Rough|p1a: Blaziken
+|-damage|p1a: Blaziken|28/100
+|-damage|p2a: Tinkaton|0 fnt|[from] item: Life Orb
+|faint|p2a: Tinkaton
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743927669
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|-activate|p2a: Meowscarada|move: Sticky Web
+|-unboost|p2a: Meowscarada|spe|1
+|turn|8
+|
+|t:|1743927674
+|move|p2a: Meowscarada|Sucker Punch|p1a: Blaziken
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|-damage|p2a: Meowscarada|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743927680
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|9
+|
+|t:|1743927693
+|-terastallize|p2a: Meowscarada|Grass
+|move|p2a: Meowscarada|Petal Blizzard|p1a: Hatterene
+|-damage|p1a: Hatterene|17/100
+|-damage|p2a: Meowscarada|81/100|[from] item: Life Orb
+|move|p1a: Hatterene|Draining Kiss|p2a: Meowscarada
+|-damage|p2a: Meowscarada|36/100
+|-heal|p1a: Hatterene|48/100|[from] drain|[of] p2a: Meowscarada
+|
+|-heal|p1a: Hatterene|54/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743927704
+|move|p2a: Meowscarada|Petal Blizzard|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|-damage|p2a: Meowscarada|26/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743927711
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|turn|11
+|
+|t:|1743927716
+|move|p2a: Meowscarada|Petal Blizzard|p1a: Clodsire
+|-crit|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|-damage|p2a: Meowscarada|16/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743927722
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|turn|12
+|
+|t:|1743927729
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|upkeep
+|
+|t:|1743927736
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-activate|p2a: Pecharunt|move: Sticky Web
+|-unboost|p2a: Pecharunt|spe|1
+|turn|13
+|
+|t:|1743927740
+|move|p1a: Crawdaunt|Knock Off|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|9/100
+|-enditem|p2a: Pecharunt|Leftovers|[from] move: Knock Off|[of] p1a: Crawdaunt
+|move|p2a: Pecharunt|Malignant Chain|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|30/100
+|-status|p1a: Crawdaunt|tox
+|-start|p1a: Crawdaunt|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|
+|-damage|p1a: Crawdaunt|24/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743927749
+|-activate|p1a: Crawdaunt|confusion
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|-damage|p1a: Crawdaunt|12/100 tox|[from] psn
+|upkeep
+|
+|t:|1743927751
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-activate|p2a: Iron Moth|move: Sticky Web
+|-unboost|p2a: Iron Moth|spe|1
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|15
+|
+|t:|1743927762
+|-end|p1a: Crawdaunt|confusion
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|win|adiiiie
+|raw|adiiiie's rating: 1141 &rarr; <strong>1165</strong><br />(+24 for winning)
+|raw|NeqixPL's rating: 1121 &rarr; <strong>1097</strong><br />(-24 for losing)
+|l|☆adiiiie
+|player|p1|
+|l|☆NeqixPL
+|player|p2|

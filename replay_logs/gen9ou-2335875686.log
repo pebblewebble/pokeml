@@ -1,0 +1,436 @@
+|j|☆Bond2
+|j|☆PKS FAFO
+|t:|1743852310
+|gametype|singles
+|player|p1|Bond2|aaron|1319
+|player|p2|PKS FAFO|ltsurge|1334
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mabosstiff, F|
+|poke|p1|Zapdos|
+|poke|p1|Indeedee, M|
+|poke|p1|Armarouge, F|
+|poke|p1|Iron Treads|
+|poke|p1|Quaquaval, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Walking Wake|
+|poke|p2|Great Tusk|
+|poke|p2|Raging Bolt|
+|poke|p2|Hatterene, F|
+|poke|p2|Heatran, F|
+|teampreview
+|
+|t:|1743852333
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bond2)
+|
+|t:|1743852346
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Iron Treads|Stealth Rock|p2a: Hatterene
+|move|p2a: Hatterene|Stealth Rock|p1a: Iron Treads|[from] ability: Magic Bounce
+|-sidestart|p1: Bond2|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743852355
+|move|p1a: Iron Treads|Rapid Spin|p2a: Hatterene
+|-damage|p2a: Hatterene|90/100
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: Bond2|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1743852360
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743852370
+|move|p1a: Iron Treads|Stealth Rock|p2a: Walking Wake
+|-sidestart|p2: PKS FAFO|move: Stealth Rock
+|move|p2a: Walking Wake|Hydro Steam|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743852388
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|turn|4
+|
+|t:|1743852404
+|move|p2a: Walking Wake|Hydro Steam|p1a: Quaquaval
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|58/100
+|move|p1a: Quaquaval|Knock Off|p2a: Walking Wake
+|-damage|p2a: Walking Wake|66/100
+|-enditem|p2a: Walking Wake|Choice Specs|[from] move: Knock Off|[of] p1a: Quaquaval
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743852427
+|-terastallize|p1a: Quaquaval|Steel
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Quaquaval
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|39/100
+|move|p1a: Quaquaval|Close Combat|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|-unboost|p1a: Quaquaval|def|1
+|-unboost|p1a: Quaquaval|spd|1
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743852437
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|6
+|
+|t:|1743852451
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Zapdos
+|-damage|p1a: Zapdos|84/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: PKS FAFO|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743852463
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Zapdos|Hurricane|p2a: Heatran|[miss]
+|-miss|p1a: Zapdos|p2a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743852480
+|move|p1a: Zapdos|Thunder Wave|p2a: Heatran|[miss]
+|-miss|p1a: Zapdos|p2a: Heatran
+|move|p2a: Heatran|Earth Power|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743852489
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Zapdos|Thunder Wave|p2a: Raging Bolt
+|-immune|p2a: Raging Bolt
+|
+|upkeep
+|turn|10
+|
+|t:|1743852499
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Zapdos|Volt Switch|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|96/100
+|
+|t:|1743852513
+|switch|p1a: Indeedee|Indeedee, M|100/100|[from] Volt Switch
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|
+|upkeep
+|turn|11
+|
+|t:|1743852522
+|move|p1a: Indeedee|Encore|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|Encore
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743852531
+|move|p1a: Indeedee|Expanding Force|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|67/100
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|13
+|
+|t:|1743852536
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Heatran|Heatran, F|100/100
+|move|p1a: Indeedee|Expanding Force|p2a: Heatran
+|-resisted|p2a: Heatran
+|-crit|p2a: Heatran
+|-damage|p2a: Heatran|75/100
+|
+|-heal|p2a: Heatran|81/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743852560
+|switch|p1a: Armarouge|Armarouge, F|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Armarouge
+|-resisted|p1a: Armarouge
+|-damage|p1a: Armarouge|73/100
+|-activate|p1a: Armarouge|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|87/100|[from] item: Leftovers
+|-damage|p1a: Armarouge|61/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1743852570
+|move|p1a: Armarouge|Focus Blast|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|31/100
+|move|p2a: Heatran|Earth Power|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|
+|-heal|p2a: Heatran|37/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743852581
+|switch|p1a: Mabosstiff|Mabosstiff, F|100/100
+|turn|16
+|
+|t:|1743852589
+|switch|p2a: Hatterene|Hatterene, F|90/100
+|move|p1a: Mabosstiff|Crunch|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1743852593
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|17
+|
+|t:|1743852602
+|move|p1a: Mabosstiff|Crunch|p2a: Torkoal
+|-damage|p2a: Torkoal|61/100
+|-unboost|p2a: Torkoal|def|1
+|move|p2a: Torkoal|Stealth Rock|p1a: Mabosstiff
+|-sidestart|p1: Bond2|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|18
+|
+|t:|1743852608
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Mabosstiff|Crunch|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|51/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743852628
+|switch|p1a: Zapdos|Zapdos|84/100
+|move|p2a: Great Tusk|Knock Off|p1a: Zapdos
+|-damage|p1a: Zapdos|51/100
+|-status|p2a: Great Tusk|par|[from] ability: Static|[of] p1a: Zapdos
+|-enditem|p1a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1743852640
+|move|p1a: Zapdos|Volt Switch|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|move|p2a: Great Tusk|Headlong Rush|p1a: Zapdos
+|-immune|p1a: Zapdos
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743852647
+|move|p1a: Zapdos|Volt Switch|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|move|p2a: Great Tusk|Ice Spinner|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743852666
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-damage|p1a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|22
+|inactive|Bond2 has 120 seconds left.
+|
+|t:|1743852686
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Heatran|Heatran, F|37/100
+|move|p1a: Indeedee|Encore||[still]
+|-fail|p1a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Heatran|44/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|Bond2 has 120 seconds left.
+|
+|t:|1743852703
+|move|p1a: Indeedee|Expanding Force|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|25/100
+|move|p2a: Heatran|Magma Storm|p1a: Indeedee|[miss]
+|-miss|p2a: Heatran|p1a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Heatran|32/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1743852711
+|move|p1a: Indeedee|Healing Wish|p1a: Indeedee
+|faint|p1a: Indeedee
+|move|p2a: Heatran|Magma Storm|p1: Indeedee|[notarget]
+|-fail|p2a: Heatran
+|
+|-weather|none
+|-heal|p2a: Heatran|38/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743852717
+|switch|p1a: Quaquaval|Quaquaval, F, tera:Steel|39/100
+|-heal|p1a: Quaquaval|100/100|[from] move: Healing Wish
+|-damage|p1a: Quaquaval|94/100|[from] Stealth Rock
+|turn|25
+|inactive|Bond2 has 120 seconds left.
+|inactive|PKS FAFO has 120 seconds left.
+|
+|t:|1743852764
+|move|p1a: Quaquaval|Aqua Step|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-boost|p1a: Quaquaval|spe|1
+|faint|p2a: Heatran
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1743852769
+|switch|p2a: Torkoal|Torkoal, M|61/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|26
+|
+|t:|1743852782
+|move|p1a: Quaquaval|Close Combat|p2a: Torkoal
+|-damage|p2a: Torkoal|3/100
+|-unboost|p1a: Quaquaval|def|1
+|-unboost|p1a: Quaquaval|spd|1
+|move|p2a: Torkoal|Lava Plume|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743852792
+|switch|p1a: Mabosstiff|Mabosstiff, F|100/100
+|-damage|p1a: Mabosstiff|88/100|[from] Stealth Rock
+|turn|27
+|inactive|Bond2 has 120 seconds left.
+|
+|t:|1743852809
+|move|p1a: Mabosstiff|Play Rough|p2a: Torkoal|[miss]
+|-miss|p1a: Mabosstiff|p2a: Torkoal
+|move|p2a: Torkoal|Will-O-Wisp|p1a: Mabosstiff
+|-status|p1a: Mabosstiff|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Mabosstiff|82/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1743852817
+|move|p1a: Mabosstiff|Play Rough|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Mabosstiff|76/100 brn|[from] brn
+|upkeep
+|
+|t:|1743852822
+|switch|p2a: Great Tusk|Great Tusk|51/100 par
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|29
+|
+|t:|1743852828
+|move|p1a: Mabosstiff|Play Rough|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|14/100 par
+|move|p2a: Great Tusk|Headlong Rush|p1a: Mabosstiff
+|-damage|p1a: Mabosstiff|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Mabosstiff
+|
+|win|PKS FAFO
+|raw|Bond2's rating: 1319 &rarr; <strong>1300</strong><br />(-19 for losing)
+|raw|PKS FAFO's rating: 1334 &rarr; <strong>1353</strong><br />(+19 for winning)
+|c|☆PKS FAFO|gg\
+|l|☆Bond2
+|player|p1|
+|l|☆PKS FAFO
+|player|p2|

@@ -1,0 +1,229 @@
+|j|☆eatingworm
+|j|☆LT02
+|t:|1743919609
+|gametype|singles
+|player|p1|eatingworm|swimmer-gen4|1099
+|player|p2|LT02|101|1155
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Basculegion, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Fezandipiti, M|
+|poke|p1|Great Tusk|
+|poke|p1|Zapdos|
+|poke|p1|Samurott-Hisui, F|
+|poke|p2|Scizor, F|
+|poke|p2|Walking Wake|
+|poke|p2|Meowscarada, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Great Tusk|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LT02)
+|
+|t:|1743919624
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1743919631
+|move|p2a: Walking Wake|Draco Meteor|p1a: Pelipper
+|-damage|p1a: Pelipper|17/100
+|-unboost|p2a: Walking Wake|spa|2
+|move|p1a: Pelipper|Knock Off|p2a: Walking Wake
+|-damage|p2a: Walking Wake|88/100
+|-enditem|p2a: Walking Wake|Assault Vest|[from] move: Knock Off|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Pelipper|23/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743919639
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|move|p2a: Walking Wake|Flip Turn|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|87/100
+|
+|t:|1743919653
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Meowscarada|Meowscarada, F|100/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743919658
+|move|p2a: Meowscarada|Flower Trick|p1a: Basculegion
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-supereffective|p1a: Basculegion
+|-crit|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743919667
+|switch|p1a: Fezandipiti|Fezandipiti, M|100/100
+|turn|4
+|
+|t:|1743919672
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Fezandipiti|Poison Jab|p2a: Scizor
+|-immune|p2a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743919679
+|move|p1a: Fezandipiti|Dual Wingbeat|p2a: Scizor|[miss]
+|-miss|p1a: Fezandipiti|p2a: Scizor
+|move|p2a: Scizor|U-turn|p1a: Fezandipiti
+|-resisted|p1a: Fezandipiti
+|-damage|p1a: Fezandipiti|84/100
+|
+|t:|1743919690
+|switch|p2a: Slowking|Slowking-Galar, M|100/100|[from] U-turn
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1743919701
+|move|p1a: Fezandipiti|Dual Wingbeat|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|69/100
+|-damage|p2a: Slowking|49/100
+|-hitcount|p2a: Slowking|2
+|-damage|p1a: Fezandipiti|75/100|[from] item: Life Orb
+|move|p2a: Slowking|Future Sight|p1a: Fezandipiti
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p2a: Slowking|55/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743919708
+|move|p1a: Fezandipiti|Dual Wingbeat|p2a: Slowking
+|-damage|p2a: Slowking|33/100
+|-damage|p2a: Slowking|12/100
+|-hitcount|p2a: Slowking|2
+|-damage|p1a: Fezandipiti|65/100|[from] item: Life Orb
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743919716
+|switch|p2a: Scizor|Scizor, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743919721
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|move|p2a: Scizor|U-turn|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|t:|1743919725
+|switch|p2a: Meowscarada|Meowscarada, F|100/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|-hint|Future Sight did not hit because the target is fainted.
+|upkeep
+|
+|t:|1743919729
+|switch|p1a: Fezandipiti|Fezandipiti, M|65/100
+|turn|9
+|
+|t:|1743919735
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Fezandipiti|Poison Jab|p2a: Scizor
+|-immune|p2a: Scizor
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743919740
+|move|p2a: Scizor|Bullet Punch|p1a: Fezandipiti
+|-supereffective|p1a: Fezandipiti
+|-damage|p1a: Fezandipiti|0 fnt
+|faint|p1a: Fezandipiti
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743919747
+|switch|p1a: Pelipper|Pelipper, M|23/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|11
+|
+|t:|1743919752
+|move|p2a: Scizor|Bullet Punch|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|5/100
+|move|p1a: Pelipper|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|87/100
+|-enditem|p2a: Scizor|Choice Band|[from] move: Knock Off|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Pelipper|11/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743919758
+|move|p2a: Scizor|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|t:|1743919763
+|switch|p2a: Walking Wake|Walking Wake|88/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743919766
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|13
+|
+|t:|1743919773
+|move|p2a: Walking Wake|Scald|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743919776
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|14
+|-message|eatingworm forfeited.
+|
+|win|LT02
+|raw|eatingworm's rating: 1099 &rarr; <strong>1078</strong><br />(-21 for losing)
+|raw|LT02's rating: 1155 &rarr; <strong>1176</strong><br />(+21 for winning)
+|l|☆eatingworm
+|player|p1|
+|l|☆LT02
+|player|p2|

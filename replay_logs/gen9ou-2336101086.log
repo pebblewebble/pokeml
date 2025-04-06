@@ -1,0 +1,380 @@
+|j|☆shmolter
+|j|☆KillerB1000
+|t:|1743878906
+|gametype|singles
+|player|p1|shmolter|emmet|1398
+|player|p2|KillerB1000|scientist-gen4|1383
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Walking Wake|
+|poke|p1|Venusaur, F|
+|poke|p1|Great Tusk|
+|poke|p1|Ceruledge, M|
+|poke|p1|Slither Wing|
+|poke|p2|Skeledirge, M|
+|poke|p2|Ninetales-Alola, M|
+|poke|p2|Glastrier|
+|poke|p2|Quaquaval, F|
+|poke|p2|Armarouge, F|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by shmolter)
+|
+|t:|1743878916
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1743878927
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Skeledirge|Torch Song|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|83/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743878942
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|-end|p1a: Walking Wake|Protosynthesis
+|move|p1a: Walking Wake|Hydro Steam|p2a: Ninetales
+|-damage|p2a: Ninetales|46/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743878952
+|move|p1a: Walking Wake|Hydro Steam|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743878955
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|4
+|
+|t:|1743878973
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Ceruledge|Ceruledge, M, shiny|100/100
+|move|p2a: Iron Valiant|Close Combat|p1a: Ceruledge
+|-immune|p1a: Ceruledge
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743878990
+|move|p2a: Iron Valiant|Knock Off|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-enditem|p1a: Ceruledge|Focus Sash
+|-damage|p1a: Ceruledge|1/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|-damage|p2a: Iron Valiant|91/100|[from] item: Life Orb
+|move|p1a: Ceruledge|Poltergeist|p2a: Iron Valiant
+|-activate|p2a: Iron Valiant|move: Poltergeist|Life Orb
+|-damage|p2a: Iron Valiant|15/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|inactive|shmolter has 120 seconds left.
+|
+|t:|1743879011
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Armarouge|Armarouge, F|100/100
+|move|p1a: Ceruledge|Bitter Blade|p2a: Armarouge
+|-resisted|p2a: Armarouge
+|-damage|p2a: Armarouge|80/100
+|-heal|p1a: Ceruledge|14/100|[from] drain|[of] p2a: Armarouge
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|
+|-weather|none
+|upkeep
+|turn|7
+|inactive|shmolter has 120 seconds left.
+|
+|t:|1743879022
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|28/100
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|-enditem|p2a: Armarouge|Weakness Policy
+|-boost|p2a: Armarouge|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Armarouge|spa|2|[from] item: Weakness Policy
+|move|p2a: Armarouge|Iron Defense|p2a: Armarouge
+|-boost|p2a: Armarouge|def|2
+|
+|upkeep
+|turn|8
+|inactive|shmolter has 120 seconds left.
+|
+|t:|1743879040
+|-terastallize|p2a: Armarouge|Fighting
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Armarouge
+|-damage|p2a: Armarouge|9/100
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|move|p2a: Armarouge|Stored Power|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|upkeep
+|
+|t:|1743879055
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|turn|9
+|
+|t:|1743879065
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|move|p1a: Slither Wing|First Impression|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|90/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743879074
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Skeledirge|Shadow Ball|p1a: Torkoal
+|-damage|p1a: Torkoal|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743879088
+|switch|p1a: Walking Wake|Walking Wake|83/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Skeledirge|Shadow Ball|p1a: Walking Wake
+|-crit|p1a: Walking Wake
+|-damage|p1a: Walking Wake|8/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|inactive|shmolter has 120 seconds left.
+|
+|t:|1743879109
+|switch|p2a: Armarouge|Armarouge, F, tera:Fighting|9/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Armarouge
+|-damage|p2a: Armarouge|0 fnt
+|faint|p2a: Armarouge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743879113
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|turn|13
+|inactive|shmolter has 120 seconds left.
+|inactive|KillerB1000 has 120 seconds left.
+|
+|t:|1743879150
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|switch|p2a: Glastrier|Glastrier|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|inactive|KillerB1000 has 120 seconds left.
+|
+|t:|1743879169
+|switch|p2a: Skeledirge|Skeledirge, M|90/100
+|move|p1a: Slither Wing|Close Combat|p2a: Skeledirge
+|-immune|p2a: Skeledirge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|inactive|shmolter has 90 seconds left.
+|
+|t:|1743879193
+|move|p1a: Slither Wing|U-turn|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-crit|p2a: Skeledirge
+|-damage|p2a: Skeledirge|72/100
+|inactive|shmolter has 90 seconds left.
+|
+|t:|1743879199
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|44/100|[from] U-turn
+|move|p2a: Skeledirge|Torch Song|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|6/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|inactive|KillerB1000 has 120 seconds left.
+|inactive|shmolter has 90 seconds left.
+|
+|t:|1743879216
+|switch|p1a: Walking Wake|Walking Wake|8/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Skeledirge|Torch Song|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-crit|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743879236
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|17
+|
+|t:|1743879243
+|switch|p2a: Glastrier|Glastrier|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Glastrier
+|-damage|p2a: Glastrier|48/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-weather|none
+|-end|p1a: Great Tusk|Protosynthesis
+|upkeep
+|turn|18
+|
+|t:|1743879258
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|6/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Glastrier|Icicle Crash|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|shmolter has 60 seconds left.
+|
+|t:|1743879276
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|19
+|
+|t:|1743879291
+|move|p1a: Great Tusk|Headlong Rush|p2a: Glastrier
+|-damage|p2a: Glastrier|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Glastrier
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743879302
+|switch|p2a: Iron Valiant|Iron Valiant|15/100
+|turn|20
+|inactive|shmolter has 60 seconds left.
+|
+|t:|1743879327
+|move|p2a: Iron Valiant|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|33/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|-damage|p2a: Iron Valiant|5/100|[from] item: Life Orb
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Great Tusk|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743879331
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|turn|21
+|
+|t:|1743879344
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|move|p2a: Quaquaval|Aqua Step|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|89/100
+|-boost|p2a: Quaquaval|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|22
+|inactive|shmolter has 60 seconds left.
+|
+|t:|1743879361
+|switch|p2a: Skeledirge|Skeledirge, M|72/100
+|-terastallize|p1a: Venusaur|Poison
+|move|p1a: Venusaur|Sludge Bomb|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|34/100
+|-damage|p1a: Venusaur|79/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+|inactive|shmolter has 60 seconds left.
+|
+|t:|1743879379
+|move|p1a: Venusaur|Sludge Bomb|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|-damage|p1a: Venusaur|69/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|KillerB1000 forfeited.
+|
+|win|shmolter
+|raw|shmolter's rating: 1398 &rarr; <strong>1417</strong><br />(+19 for winning)
+|raw|KillerB1000's rating: 1383 &rarr; <strong>1364</strong><br />(-19 for losing)
+|l|☆KillerB1000
+|player|p2|
+|l|☆shmolter
+|player|p1|

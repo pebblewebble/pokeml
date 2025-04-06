@@ -1,0 +1,238 @@
+|j|☆Liontamer726
+|j|☆Daniel Daley
+|t:|1743799454
+|gametype|singles
+|player|p1|Liontamer726|cyrus|1088
+|player|p2|Daniel Daley|266|1068
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tinkaton, F|
+|poke|p1|Weavile, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Zamazenta-*|
+|poke|p2|Pikachu-Original, M|
+|poke|p2|Bayleef, F|
+|poke|p2|Quilava, M|
+|poke|p2|Totodile, M|
+|poke|p2|Heracross, M|
+|poke|p2|Noctowl, M|
+|teampreview
+|
+|t:|1743799478
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Noctowl|Noctowl, M, shiny|100/100
+|-item|p2a: Noctowl|Air Balloon
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1743799490
+|-terastallize|p2a: Noctowl|Flying
+|move|p2a: Noctowl|Peck|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|93/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743799502
+|move|p2a: Noctowl|Air Slash|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|83/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743799524
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|move|p2a: Noctowl|Whirlwind|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|drag|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743799547
+|move|p1a: Zamazenta|Heavy Slam|p2a: Noctowl
+|-damage|p2a: Noctowl|56/100
+|-enditem|p2a: Noctowl|Air Balloon
+|move|p2a: Noctowl|Whirlwind|p1a: Zamazenta
+|drag|p1a: Tinkaton|Tinkaton, F|100/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|-item|p1a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|5
+|
+|t:|1743799561
+|move|p1a: Tinkaton|Stealth Rock|p2a: Noctowl
+|-sidestart|p2: Daniel Daley|move: Stealth Rock
+|move|p2a: Noctowl|Extrasensory|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|91/100
+|-enditem|p1a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|6
+|
+|t:|1743799574
+|move|p1a: Tinkaton|Encore|p2a: Noctowl
+|-start|p2a: Noctowl|Encore
+|move|p2a: Noctowl|Extrasensory|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|82/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743799590
+|switch|p1a: Weavile|Weavile, M|100/100
+|move|p2a: Noctowl|Extrasensory|p1a: Weavile
+|-immune|p1a: Weavile
+|
+|upkeep
+|turn|8
+|
+|t:|1743799597
+|move|p1a: Weavile|Knock Off|p2a: Noctowl
+|-damage|p2a: Noctowl|11/100
+|move|p2a: Noctowl|Extrasensory|p1a: Weavile
+|-immune|p1a: Weavile
+|
+|-end|p2a: Noctowl|Encore
+|upkeep
+|turn|9
+|
+|t:|1743799619
+|move|p1a: Weavile|Ice Shard|p2a: Noctowl
+|-supereffective|p2a: Noctowl
+|-damage|p2a: Noctowl|0 fnt
+|faint|p2a: Noctowl
+|
+|upkeep
+|
+|t:|1743799626
+|switch|p2a: Heracross|Heracross, M|100/100
+|-damage|p2a: Heracross|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743799633
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Heracross|Megahorn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|86/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|11
+|
+|t:|1743799649
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Heracross|Horn Attack|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|12
+|
+|t:|1743799670
+|-singleturn|p2a: Heracross|move: Focus Punch
+|move|p1a: Gholdengo|Shadow Ball|p2a: Heracross
+|-damage|p2a: Heracross|30/100
+|cant|p2a: Heracross|Focus Punch|Focus Punch
+|
+|upkeep
+|turn|13
+|
+|t:|1743799682
+|-singleturn|p2a: Heracross|move: Focus Punch
+|move|p1a: Gholdengo|Shadow Ball|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|faint|p2a: Heracross
+|
+|upkeep
+|
+|t:|1743799689
+|switch|p2a: Quilava|Quilava, M|100/100
+|-damage|p2a: Quilava|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743799697
+|-terastallize|p1a: Gholdengo|Water
+|move|p1a: Gholdengo|Tera Blast|p2a: Quilava|[anim] Tera Blast Water
+|-supereffective|p2a: Quilava
+|-damage|p2a: Quilava|0 fnt
+|faint|p2a: Quilava
+|
+|upkeep
+|
+|t:|1743799706
+|switch|p2a: Totodile|Totodile, M|100/100
+|-damage|p2a: Totodile|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743799714
+|move|p1a: Gholdengo|Shadow Ball|p2a: Totodile
+|-damage|p2a: Totodile|0 fnt
+|faint|p2a: Totodile
+|
+|upkeep
+|
+|t:|1743799725
+|switch|p2a: Bayleef|Bayleef, F|100/100
+|-damage|p2a: Bayleef|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743799737
+|move|p1a: Gholdengo|Shadow Ball|p2a: Bayleef
+|-damage|p2a: Bayleef|0 fnt
+|faint|p2a: Bayleef
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Liontamer726)
+|
+|t:|1743799758
+|switch|p2a: Pikachu-Johto|Pikachu-Original, M|100/100
+|-damage|p2a: Pikachu-Johto|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743799773
+|move|p1a: Gholdengo|Make It Rain|p2a: Pikachu-Johto
+|-resisted|p2a: Pikachu-Johto
+|-damage|p2a: Pikachu-Johto|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Pikachu-Johto
+|
+|win|Liontamer726
+|raw|Liontamer726's rating: 1088 &rarr; <strong>1113</strong><br />(+25 for winning)
+|raw|Daniel Daley's rating: 1068 &rarr; <strong>1049</strong><br />(-19 for losing)
+|l|☆Liontamer726
+|player|p1|
+|l|☆Daniel Daley
+|player|p2|

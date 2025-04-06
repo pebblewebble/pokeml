@@ -1,0 +1,297 @@
+|j|☆sumerand
+|j|☆Sleeping Closet
+|t:|1743895145
+|gametype|singles
+|player|p1|sumerand|ghetsis|1372
+|player|p2|Sleeping Closet|pokemonbreeder|1430
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Inteleon, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Alomomola, F|
+|poke|p1|Ting-Lu|
+|poke|p2|Slowbro-Galar, M|
+|poke|p2|Infernape, F|
+|poke|p2|Whimsicott, F|
+|poke|p2|Kingdra, F|
+|poke|p2|Krookodile, M|
+|poke|p2|Oricorio-Sensu, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sumerand)
+|
+|t:|1743895177
+|start
+|switch|p1a: Inteleon|Inteleon, M|100/100
+|switch|p2a: Saitama|Slowbro-Galar, M, shiny|100/100
+|turn|1
+|
+|t:|1743895190
+|switch|p2a: Foo Fighters|Kingdra, F, shiny|100/100
+|move|p1a: Inteleon|U-turn|p2a: Foo Fighters
+|-damage|p2a: Foo Fighters|84/100
+|
+|t:|1743895196
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1743895203
+|move|p1a: Dragapult|U-turn|p2a: Foo Fighters
+|-damage|p2a: Foo Fighters|48/100
+|
+|t:|1743895206
+|switch|p1a: Ting-Lu|Ting-Lu|100/100|[from] U-turn
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Foo Fighters|Agility|p2a: Foo Fighters
+|-boost|p2a: Foo Fighters|spe|2
+|
+|upkeep
+|turn|3
+|
+|t:|1743895216
+|move|p2a: Foo Fighters|Focus Energy|p2a: Foo Fighters
+|-start|p2a: Foo Fighters|move: Focus Energy
+|move|p1a: Ting-Lu|Whirlwind|p2a: Foo Fighters
+|drag|p2a: Saitama|Slowbro-Galar, M, shiny|100/100
+|
+|upkeep
+|turn|4
+|-activate|p2a: Saitama|item: Quick Claw
+|
+|t:|1743895224
+|move|p2a: Saitama|Belly Drum|p2a: Saitama
+|-damage|p2a: Saitama|50/100
+|-setboost|p2a: Saitama|atk|6|[from] move: Belly Drum
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Saitama
+|-sidestart|p2: Sleeping Closet|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1743895234
+|move|p2a: Saitama|Drain Punch|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|19/100
+|-heal|p2a: Saitama|100/100|[from] drain|[of] p1a: Ting-Lu
+|move|p1a: Ting-Lu|Whirlwind|p2a: Saitama
+|drag|p2a: Foo Fighters|Kingdra, F, shiny|48/100
+|-damage|p2a: Foo Fighters|36/100|[from] Stealth Rock
+|
+|-heal|p1a: Ting-Lu|25/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743895248
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Foo Fighters|Surf|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|80/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743895255
+|move|p2a: Foo Fighters|Draco Meteor|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|-unboost|p2a: Foo Fighters|spa|2
+|faint|p1a: Alomomola
+|
+|upkeep
+|
+|t:|1743895262
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|8
+|
+|t:|1743895265
+|-terastallize|p1a: Dragapult|Ghost
+|move|p1a: Dragapult|Tera Blast|p2a: Foo Fighters|[anim] Tera Blast Ghost
+|-damage|p2a: Foo Fighters|0 fnt
+|faint|p2a: Foo Fighters
+|
+|upkeep
+|
+|t:|1743895273
+|switch|p2a: Limp Bizkit|Krookodile, M, shiny|100/100
+|-damage|p2a: Limp Bizkit|94/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743895280
+|switch|p1a: Ting-Lu|Ting-Lu|25/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Limp Bizkit|Stealth Rock|p1a: Ting-Lu
+|-sidestart|p1: sumerand|move: Stealth Rock
+|
+|-heal|p1a: Ting-Lu|31/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743895289
+|move|p2a: Limp Bizkit|Earthquake|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|6/100
+|move|p1a: Ting-Lu|Ruination|p2a: Limp Bizkit
+|-damage|p2a: Limp Bizkit|47/100
+|
+|-heal|p1a: Ting-Lu|12/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743895298
+|move|p2a: Limp Bizkit|Scale Shot|p1a: Ting-Lu|[miss]
+|-miss|p2a: Limp Bizkit|p1a: Ting-Lu
+|move|p1a: Ting-Lu|Earthquake|p2a: Limp Bizkit
+|-damage|p2a: Limp Bizkit|1/100
+|
+|-heal|p1a: Ting-Lu|18/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743895307
+|move|p2a: Limp Bizkit|Knock Off|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|5/100
+|-enditem|p1a: Ting-Lu|Leftovers|[from] move: Knock Off|[of] p2a: Limp Bizkit
+|move|p1a: Ting-Lu|Earthquake|p2a: Limp Bizkit
+|-damage|p2a: Limp Bizkit|0 fnt
+|faint|p2a: Limp Bizkit
+|
+|upkeep
+|
+|t:|1743895313
+|switch|p2a: Goku|Infernape, F, shiny|100/100
+|-damage|p2a: Goku|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743895318
+|move|p2a: Goku|U-turn|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|t:|1743895326
+|switch|p2a: Hotaru|Oricorio-Sensu, F, shiny|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743895331
+|switch|p1a: Inteleon|Inteleon, M|100/100
+|-damage|p1a: Inteleon|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743895346
+|switch|p2a: Eileen|Whimsicott, F, shiny|100/100
+|-damage|p2a: Eileen|88/100|[from] Stealth Rock
+|move|p1a: Inteleon|Surf|p2a: Eileen
+|-resisted|p2a: Eileen
+|-damage|p2a: Eileen|32/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743895361
+|move|p1a: Inteleon|Surf|p2a: Eileen
+|-resisted|p2a: Eileen
+|-damage|p2a: Eileen|0 fnt
+|faint|p2a: Eileen
+|
+|upkeep
+|
+|t:|1743895378
+|switch|p2a: Hotaru|Oricorio-Sensu, F, shiny|100/100
+|turn|16
+|
+|t:|1743895381
+|move|p1a: Inteleon|Surf|p2a: Hotaru
+|-damage|p2a: Hotaru|0 fnt
+|faint|p2a: Hotaru
+|
+|upkeep
+|
+|t:|1743895385
+|switch|p2a: Goku|Infernape, F, shiny|88/100
+|-damage|p2a: Goku|76/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743895389
+|move|p2a: Goku|Mach Punch|p1a: Inteleon
+|-damage|p1a: Inteleon|25/100
+|move|p1a: Inteleon|Surf|p2a: Goku
+|-supereffective|p2a: Goku
+|-damage|p2a: Goku|0 fnt
+|faint|p2a: Goku
+|
+|upkeep
+|
+|t:|1743895393
+|switch|p2a: Saitama|Slowbro-Galar, M, shiny|100/100
+|-damage|p2a: Saitama|88/100|[from] Stealth Rock
+|turn|18
+|-activate|p2a: Saitama|ability: Quick Draw
+|
+|t:|1743895400
+|move|p2a: Saitama|Drain Punch|p1a: Inteleon
+|-damage|p1a: Inteleon|0 fnt
+|-heal|p2a: Saitama|97/100|[from] drain|[of] p1a: Inteleon
+|faint|p1a: Inteleon
+|
+|upkeep
+|
+|t:|1743895409
+|switch|p1a: Dragapult|Dragapult, M, tera:Ghost|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743895434
+|-terastallize|p2a: Saitama|Fighting
+|move|p1a: Dragapult|Tera Blast|p2a: Saitama|[anim] Tera Blast Ghost
+|-damage|p2a: Saitama|24/100
+|move|p2a: Saitama|Belly Drum||[still]
+|-fail|p2a: Saitama
+|
+|upkeep
+|turn|20
+|
+|t:|1743895451
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Saitama|Earthquake|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|upkeep
+|turn|21
+|-activate|p2a: Saitama|ability: Quick Draw
+|
+|t:|1743895459
+|move|p2a: Saitama|Drain Punch|p1a: Corviknight
+|-damage|p1a: Corviknight|67/100
+|-heal|p2a: Saitama|34/100|[from] drain|[of] p1a: Corviknight
+|-damage|p2a: Saitama|17/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|upkeep
+|turn|22
+|-message|Sleeping Closet forfeited.
+|
+|win|sumerand
+|raw|sumerand's rating: 1372 &rarr; <strong>1395</strong><br />(+23 for winning)
+|raw|Sleeping Closet's rating: 1430 &rarr; <strong>1407</strong><br />(-23 for losing)
+|l|☆Sleeping Closet
+|player|p2|
+|l|☆sumerand
+|player|p1|

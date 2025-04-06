@@ -1,0 +1,215 @@
+|j|☆velocink
+|j|☆air555
+|t:|1743829295
+|gametype|singles
+|player|p1|velocink|ethan|1076
+|player|p2|air555|red|1119
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Swampert, F|
+|poke|p1|Gengar, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Hydrapple, F|
+|poke|p1|Jirachi|
+|poke|p1|Torterra, M|
+|poke|p2|Araquanid, M|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Sceptile, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|t:|1743829319
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1743829335
+|-terastallize|p1a: Jirachi|Fairy
+|move|p2a: Great Tusk|Stealth Rock|p1a: Jirachi
+|-sidestart|p1: velocink|move: Stealth Rock
+|move|p1a: Jirachi|Dazzling Gleam|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743829346
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|2
+|
+|t:|1743829360
+|switch|p1a: Linda|Tyranitar, F, shiny|100/100
+|-damage|p1a: Linda|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Linda
+|move|p2a: Gholdengo|Make It Rain|p1a: Linda
+|-supereffective|p1a: Linda
+|-damage|p1a: Linda|44/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743829381
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|move|p1a: Linda|Knock Off|p2a: Araquanid
+|-damage|p2a: Araquanid|49/100
+|-damage|p1a: Linda|27/100|[from] item: Rocky Helmet|[of] p2a: Araquanid
+|-enditem|p2a: Araquanid|Rocky Helmet|[from] move: Knock Off|[of] p1a: Linda
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Araquanid|43/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1743829392
+|move|p1a: Linda|Payback|p2a: Araquanid
+|-damage|p2a: Araquanid|14/100
+|move|p2a: Araquanid|Sticky Web|p1a: Linda
+|-sidestart|p1: velocink|move: Sticky Web
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Araquanid|8/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1743829410
+|move|p1a: Linda|Heavy Slam|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743829417
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|6
+|
+|t:|1743829423
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|move|p1a: Linda|Heavy Slam|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-ability|p2a: Ogerpon|Sturdy
+|-damage|p2a: Ogerpon|1/100
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1743829435
+|-terastallize|p2a: Ogerpon|Rock
+|detailschange|p2a: Ogerpon|Ogerpon-Cornerstone-Tera, F, tera:Rock
+|-ability|p2a: Ogerpon|Embody Aspect (Cornerstone)|boost
+|-boost|p2a: Ogerpon|def|1
+|move|p2a: Ogerpon|Horn Leech|p1a: Linda
+|-supereffective|p1a: Linda
+|-damage|p1a: Linda|0 fnt
+|-heal|p2a: Ogerpon|19/100|[from] drain|[of] p1a: Linda
+|faint|p1a: Linda
+|
+|upkeep
+|
+|t:|1743829442
+|switch|p1a: Tony|Gengar, M, shiny|100/100
+|turn|8
+|
+|t:|1743829448
+|move|p1a: Tony|Shadow Ball|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743829456
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|9
+|
+|t:|1743829462
+|move|p1a: Tony|Shadow Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|20/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Make It Rain|p1a: Tony
+|-damage|p1a: Tony|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Tony
+|
+|upkeep
+|
+|t:|1743829469
+|switch|p1a: Jojo|Swampert, F, shiny|100/100
+|-damage|p1a: Jojo|94/100|[from] Stealth Rock
+|-activate|p1a: Jojo|move: Sticky Web
+|-unboost|p1a: Jojo|spe|1
+|turn|10
+|
+|t:|1743829482
+|switch|p2a: Sceptile|Sceptile, M|100/100
+|move|p1a: Jojo|Flip Turn|p2a: Sceptile
+|-resisted|p2a: Sceptile
+|-damage|p2a: Sceptile|75/100
+|
+|t:|1743829491
+|switch|p1a: Rocko|Torterra, M, shiny|100/100|[from] Flip Turn
+|-damage|p1a: Rocko|94/100|[from] Stealth Rock
+|-activate|p1a: Rocko|move: Sticky Web
+|-unboost|p1a: Rocko|spe|1
+|
+|-heal|p1a: Rocko|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743829510
+|move|p2a: Sceptile|Acrobatics|p1a: Rocko
+|-supereffective|p1a: Rocko
+|-damage|p1a: Rocko|81/100
+|move|p1a: Rocko|Body Press|p2a: Sceptile
+|-damage|p2a: Sceptile|27/100
+|
+|-heal|p1a: Rocko|87/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743829520
+|move|p2a: Sceptile|Drain Punch|p1a: Rocko
+|-damage|p1a: Rocko|74/100
+|-heal|p2a: Sceptile|36/100|[from] drain|[of] p1a: Rocko
+|move|p1a: Rocko|Earthquake|p2a: Sceptile
+|-resisted|p2a: Sceptile
+|-damage|p2a: Sceptile|4/100
+|
+|-heal|p1a: Rocko|80/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|-message|air555 forfeited.
+|
+|win|velocink
+|raw|velocink's rating: 1076 &rarr; <strong>1108</strong><br />(+32 for winning)
+|raw|air555's rating: 1119 &rarr; <strong>1091</strong><br />(-28 for losing)
+|l|☆air555
+|player|p2|
+|l|☆velocink
+|player|p1|

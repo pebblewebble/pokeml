@@ -1,0 +1,556 @@
+|j|‽Purple Aithen
+|j|☆Flavt
+|t:|1743937009
+|gametype|singles
+|player|p1|Purple Aithen|elesa|1385
+|player|p2|Flavt|cyrus|1443
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Sinistcha-Masterpiece|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Ogerpon, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p2|Araquanid, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Great Tusk|
+|poke|p2|Kyurem|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Purple Aithen)
+|
+|t:|1743937021
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|turn|1
+|
+|t:|1743937027
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Thundurus|Psychic|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743937036
+|switch|p2a: Araquanid|Araquanid, M, shiny|100/100
+|turn|2
+|
+|t:|1743937039
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece|100/100
+|move|p2a: Araquanid|Sticky Web|p1a: Sinistcha
+|-sidestart|p1: Purple Aithen|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|t:|1743937046
+|switch|p2a: Kyurem|Kyurem, shiny|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|80/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743937053
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-activate|p1a: Tyranitar|move: Sticky Web
+|-unboost|p1a: Tyranitar|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Kyurem|Ice Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kyurem|74/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1743937064
+|switch|p2a: Araquanid|Araquanid, M, shiny|100/100
+|move|p1a: Tyranitar|Knock Off|p2a: Araquanid
+|-damage|p2a: Araquanid|54/100
+|-enditem|p2a: Araquanid|Custap Berry|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Araquanid|48/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1743937069
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Araquanid|Hydro Pump|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Araquanid|42/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1743937073
+|move|p1a: Mandibuzz|Defog|p2a: Araquanid
+|-unboost|p2a: Araquanid|evasion|1
+|-sideend|p1: Purple Aithen|Sticky Web|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Araquanid|Hydro Pump|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Araquanid|36/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1743937078
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|74/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|move|p2a: Araquanid|Sticky Web|p1a: Mandibuzz
+|-sidestart|p1: Purple Aithen|move: Sticky Web
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743937083
+|move|p1a: Mandibuzz|Defog|p2a: Araquanid
+|-unboost|p2a: Araquanid|evasion|1
+|-sideend|p1: Purple Aithen|Sticky Web|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Araquanid|Hydro Pump|p1a: Mandibuzz|[miss]
+|-miss|p2a: Araquanid|p1a: Mandibuzz
+|
+|upkeep
+|turn|10
+|
+|t:|1743937085
+|move|p1a: Mandibuzz|Foul Play|p2a: Araquanid
+|-crit|p2a: Araquanid
+|-damage|p2a: Araquanid|8/100
+|move|p2a: Araquanid|Sticky Web|p1a: Mandibuzz
+|-sidestart|p1: Purple Aithen|move: Sticky Web
+|
+|upkeep
+|turn|11
+|
+|t:|1743937088
+|move|p1a: Mandibuzz|Defog|p2a: Araquanid
+|-unboost|p2a: Araquanid|evasion|1
+|-sideend|p1: Purple Aithen|Sticky Web|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Araquanid|Endeavor|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|7/100
+|-damage|p2a: Araquanid|0 fnt|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|t:|1743937104
+|switch|p2a: Kyurem|Kyurem, shiny|74/100
+|-ability|p2a: Kyurem|Pressure
+|turn|12
+|
+|t:|1743937108
+|move|p2a: Kyurem|Ice Beam|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|t:|1743937111
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|turn|13
+|
+|t:|1743937116
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|move|p1a: Conkeldurr|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|78/100
+|-damage|p1a: Conkeldurr|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Conkeldurr
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|14
+|
+|t:|1743937119
+|move|p2a: Corviknight|U-turn|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|78/100 brn
+|
+|t:|1743937122
+|switch|p2a: Slowking|Slowking-Galar, M, shiny|100/100|[from] U-turn
+|move|p1a: Conkeldurr|Drain Punch|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|83/100
+|-heal|p1a: Conkeldurr|86/100 brn|[from] drain|[of] p2a: Slowking
+|
+|-damage|p1a: Conkeldurr|80/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743937125
+|switch|p2a: Corviknight|Corviknight, F, shiny|78/100
+|move|p1a: Conkeldurr|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|54/100
+|
+|-damage|p1a: Conkeldurr|74/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743937131
+|switch|p1a: Tyranitar|Tyranitar, M|82/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743937134
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Thundurus|94/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|t:|1743937138
+|switch|p2a: Slowking|Slowking-Galar, M, shiny|100/100
+|move|p1a: Thundurus|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|75/100
+|
+|t:|1743937140
+|switch|p1a: Conkeldurr|Conkeldurr, F|74/100 brn|[from] Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|68/100 brn|[from] Sandstorm
+|-damage|p2a: Slowking|69/100|[from] Sandstorm
+|-damage|p1a: Conkeldurr|62/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1743937146
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|move|p1a: Conkeldurr|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Conkeldurr|56/100 brn|[from] Sandstorm
+|-damage|p1a: Conkeldurr|50/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1743937152
+|move|p2a: Corviknight|Body Press|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|27/100 brn
+|move|p1a: Conkeldurr|Drain Punch|p2a: Corviknight
+|-damage|p2a: Corviknight|38/100
+|-heal|p1a: Conkeldurr|45/100 brn|[from] drain|[of] p2a: Corviknight
+|
+|-weather|none
+|-damage|p1a: Conkeldurr|39/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1743937157
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|88/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|22
+|
+|t:|1743937159
+|move|p1a: Sinistcha|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|57/100
+|move|p2a: Corviknight|U-turn|p1a: Sinistcha
+|-damage|p1a: Sinistcha|87/100
+|-damage|p2a: Corviknight|41/100|[from] item: Rocky Helmet|[of] p1a: Sinistcha
+|
+|t:|1743937168
+|switch|p2a: Kyurem|Kyurem, shiny|74/100|[from] U-turn
+|-ability|p2a: Kyurem|Pressure
+|
+|upkeep
+|turn|23
+|
+|t:|1743937172
+|switch|p1a: Conkeldurr|Conkeldurr, F|39/100 brn
+|move|p2a: Kyurem|Earth Power|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|t:|1743937174
+|switch|p1a: Tyranitar|Tyranitar, M|82/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|24
+|
+|t:|1743937191
+|-terastallize|p2a: Kyurem|Ground
+|move|p2a: Kyurem|Earth Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|42/100
+|-unboost|p1a: Tyranitar|spd|1
+|move|p1a: Tyranitar|Stone Edge|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1743937198
+|move|p2a: Kyurem|Earth Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743937203
+|switch|p1a: Ogerpon|Ogerpon, F|100/100
+|turn|26
+|
+|t:|1743937207
+|switch|p2a: Corviknight|Corviknight, F, shiny|41/100
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ogerpon|95/100|[from] Sandstorm
+|upkeep
+|turn|27
+|
+|t:|1743937214
+|move|p1a: Ogerpon|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|15/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|65/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ogerpon|89/100|[from] Sandstorm
+|upkeep
+|turn|28
+|
+|t:|1743937218
+|switch|p1a: Thundurus|Thundurus-Therian, M|94/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-weather|none
+|upkeep
+|turn|29
+|
+|t:|1743937222
+|switch|p2a: Slowking|Slowking-Galar, M, shiny|100/100
+|move|p1a: Thundurus|Psychic|p2a: Slowking
+|-damage|p2a: Slowking|78/100
+|
+|upkeep
+|turn|30
+|
+|t:|1743937230
+|move|p1a: Thundurus|Psychic|p2a: Slowking
+|-damage|p2a: Slowking|54/100
+|-unboost|p2a: Slowking|spd|1
+|move|p2a: Slowking|Future Sight|p1a: Thundurus
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|31
+|
+|t:|1743937237
+|move|p1a: Thundurus|Psychic|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|4/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743937252
+|switch|p2a: Kyurem|Kyurem, shiny, tera:Ground|54/100|[from] Chilly Reception
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|32
+|
+|t:|1743937260
+|move|p1a: Thundurus|Psychic|p2a: Kyurem
+|-damage|p2a: Kyurem|21/100
+|move|p2a: Kyurem|Ice Beam|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-weather|Snowscape|[upkeep]
+|-hint|Future Sight did not hit because the target is fainted.
+|upkeep
+|
+|t:|1743937263
+|switch|p1a: Ogerpon|Ogerpon, F|89/100
+|turn|33
+|
+|t:|1743937270
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece|87/100
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|34
+|
+|t:|1743937273
+|move|p1a: Sinistcha|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|74/100
+|-status|p2a: Corviknight|brn
+|move|p2a: Corviknight|U-turn|p1a: Sinistcha
+|-damage|p1a: Sinistcha|81/100
+|-damage|p2a: Corviknight|58/100 brn|[from] item: Rocky Helmet|[of] p1a: Sinistcha
+|
+|t:|1743937275
+|switch|p2a: Kyurem|Kyurem, shiny, tera:Ground|21/100|[from] U-turn
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|35
+|
+|t:|1743937281
+|-terastallize|p1a: Sinistcha|Water
+|move|p2a: Kyurem|Ice Beam|p1a: Sinistcha
+|-resisted|p1a: Sinistcha
+|-damage|p1a: Sinistcha|30/100
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-heal|p1a: Sinistcha|44/100|[from] drain|[of] p2a: Kyurem
+|faint|p2a: Kyurem
+|
+|-weather|none
+|upkeep
+|
+|t:|1743937287
+|switch|p2a: Slowking|Slowking-Galar, M, shiny|37/100
+|turn|36
+|
+|t:|1743937289
+|switch|p2a: Corviknight|Corviknight, F, shiny|58/100 brn
+|move|p1a: Sinistcha|Strength Sap|p2a: Corviknight
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: Sinistcha|atk|1
+|-heal|p1a: Sinistcha|100/100
+|
+|-damage|p2a: Corviknight|52/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1743937294
+|move|p1a: Sinistcha|Hex|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1743937303
+|switch|p2a: Slowking|Slowking-Galar, M, shiny|71/100
+|turn|38
+|
+|t:|1743937307
+|move|p1a: Sinistcha|Scald|p2a: Slowking
+|-damage|p2a: Slowking|44/100
+|move|p2a: Slowking|Thunder Wave|p1a: Sinistcha
+|-status|p1a: Sinistcha|par
+|
+|upkeep
+|turn|39
+|
+|t:|1743937313
+|move|p1a: Sinistcha|Scald|p2a: Slowking
+|-damage|p2a: Slowking|15/100
+|move|p2a: Slowking|Future Sight|p1a: Sinistcha
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|40
+|
+|t:|1743937318
+|move|p1a: Sinistcha|Scald|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1743937320
+|switch|p2a: Ceruledge|Ceruledge, M, shiny|100/100
+|turn|41
+|
+|t:|1743937328
+|switch|p1a: Ogerpon|Ogerpon, F|89/100
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-end|p1a: Ogerpon|move: Future Sight
+|-damage|p1a: Ogerpon|40/100
+|upkeep
+|turn|42
+|
+|t:|1743937334
+|move|p1a: Ogerpon|Knock Off|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|5/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|-enditem|p2a: Ceruledge|Focus Sash|[from] move: Knock Off|[of] p1a: Ogerpon
+|move|p2a: Ceruledge|Bitter Blade|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|-heal|p2a: Ceruledge|25/100|[from] drain|[of] p1a: Ogerpon
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743937336
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece, tera:Water|100/100 par
+|turn|43
+|
+|t:|1743937345
+|move|p2a: Ceruledge|Poltergeist|p1a: Sinistcha
+|-activate|p1a: Sinistcha|move: Poltergeist|Rocky Helmet
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|
+|win|Flavt
+|raw|Purple Aithen's rating: 1385 &rarr; <strong>1368</strong><br />(-17 for losing)
+|raw|Flavt's rating: 1443 &rarr; <strong>1460</strong><br />(+17 for winning)
+|l|‽Purple Aithen
+|player|p1|
+|l|☆Flavt
+|player|p2|

@@ -1,0 +1,321 @@
+|j|☆Gamen
+|j|☆TR34SUR3
+|t:|1743913063
+|gametype|singles
+|player|p1|Gamen|170|1449
+|player|p2|TR34SUR3|170|1396
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, F|
+|poke|p1|Scovillain, F|
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p1|Venusaur, F|
+|poke|p1|Whimsicott, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Scovillain, M|
+|poke|p2|Walking Wake|
+|poke|p2|Hatterene, F|
+|poke|p2|Great Tusk|
+|poke|p2|Ceruledge, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gamen)
+|
+|t:|1743913073
+|start
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|1
+|
+|t:|1743913086
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|move|p2a: Walking Wake|Draco Meteor|p1a: Whimsicott
+|-immune|p1a: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743913091
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F, shiny|100/100
+|move|p1a: Whimsicott|Encore|p2a: Hatterene
+|move|p2a: Hatterene|Encore||[from] ability: Magic Bounce|[still]
+|-fail|p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743913098
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|18/100
+|-unboost|p1a: Venusaur|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Venusaur|24/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743913107
+|move|p1a: Venusaur|Weather Ball|p2a: Hatterene
+|-damage|p2a: Hatterene|75/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1743913115
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Venusaur|30/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743913124
+|move|p1a: Venusaur|Earth Power|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|63/100
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Venusaur|36/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743913129
+|move|p1a: Venusaur|Earth Power|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|25/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|-heal|p2a: Ceruledge|43/100|[from] drain|[of] p1a: Venusaur
+|faint|p1a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743913142
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisspe
+|turn|7
+|
+|t:|1743913157
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Great Tusk
+|-damage|p1a: Great Tusk|74/100
+|move|p1a: Great Tusk|Earthquake|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Great Tusk|80/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743913165
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|8
+|
+|t:|1743913172
+|move|p1a: Great Tusk|Knock Off|p2a: Walking Wake
+|-damage|p2a: Walking Wake|71/100
+|-enditem|p2a: Walking Wake|Choice Specs|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Walking Wake|Hydro Steam|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|upkeep
+|
+|t:|1743913186
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|turn|9
+|
+|t:|1743913190
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F, shiny|75/100
+|move|p1a: Whimsicott|Encore|p2a: Hatterene
+|move|p2a: Hatterene|Encore||[from] ability: Magic Bounce|[still]
+|-fail|p2a: Hatterene
+|
+|upkeep
+|turn|10
+|
+|t:|1743913198
+|move|p1a: Whimsicott|Moonblast|p2a: Hatterene
+|-damage|p2a: Hatterene|36/100
+|move|p2a: Hatterene|Psyshock|p1a: Whimsicott
+|-damage|p1a: Whimsicott|50/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743913207
+|move|p1a: Whimsicott|Moonblast|p2a: Hatterene
+|-damage|p2a: Hatterene|3/100
+|-unboost|p2a: Hatterene|spa|1
+|move|p2a: Hatterene|Mystical Fire|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|3/100
+|-unboost|p1a: Whimsicott|spa|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743913215
+|move|p1a: Whimsicott|Moonblast|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1743913223
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|13
+|
+|t:|1743913226
+|move|p1a: Whimsicott|Leech Seed|p2a: Torkoal
+|-start|p2a: Torkoal|move: Leech Seed
+|move|p2a: Torkoal|Flamethrower|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743913235
+|switch|p1a: Scovillain|Scovillain, F|100/100
+|turn|14
+|
+|t:|1743913254
+|move|p1a: Scovillain|Growth|p1a: Scovillain
+|-boost|p1a: Scovillain|atk|2
+|-boost|p1a: Scovillain|spa|2
+|move|p2a: Torkoal|Flamethrower|p1a: Scovillain
+|-damage|p1a: Scovillain|0 fnt
+|faint|p1a: Scovillain
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743913265
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|15
+|
+|t:|1743913285
+|move|p1a: Walking Wake|Hydro Steam|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743913291
+|switch|p2a: Scovillain|Scovillain, M|100/100
+|turn|16
+|
+|t:|1743913303
+|move|p2a: Scovillain|Giga Drain|p1a: Walking Wake
+|-damage|p1a: Walking Wake|52/100
+|-damage|p2a: Scovillain|91/100|[from] item: Life Orb
+|move|p1a: Walking Wake|Hydro Steam|p2a: Scovillain
+|-damage|p2a: Scovillain|0 fnt
+|faint|p2a: Scovillain
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743913309
+|switch|p2a: Walking Wake|Walking Wake|71/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|17
+|
+|t:|1743913317
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-terastallize|p2a: Walking Wake|Water
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Ninetales
+|-damage|p1a: Ninetales|40/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743913324
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743913327
+|switch|p1a: Walking Wake|Walking Wake|52/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|19
+|
+|t:|1743913335
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Don|Great Tusk, shiny|100/100
+|-activate|p2a: Don|ability: Protosynthesis
+|-start|p2a: Don|protosynthesisatk
+|-terastallize|p1a: Walking Wake|Water
+|move|p1a: Walking Wake|Hydro Steam|p2a: Don
+|-supereffective|p2a: Don
+|-damage|p2a: Don|0 fnt
+|faint|p2a: Don
+|-end|p2a: Don|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743913343
+|switch|p2a: Walking Wake|Walking Wake, tera:Water|71/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|20
+|
+|t:|1743913348
+|move|p1a: Walking Wake|Hydro Steam|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|win|Gamen
+|raw|Gamen's rating: 1449 &rarr; <strong>1466</strong><br />(+17 for winning)
+|raw|TR34SUR3's rating: 1396 &rarr; <strong>1379</strong><br />(-17 for losing)
+|l|☆Gamen
+|player|p1|
+|l|☆TR34SUR3
+|player|p2|

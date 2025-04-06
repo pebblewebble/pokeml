@@ -1,0 +1,331 @@
+|j|☆Bopamon
+|j|☆d7n1el
+|t:|1743884089
+|gametype|singles
+|player|p1|Bopamon|266|1269
+|player|p2|d7n1el|swimmerf|1310
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Corviknight, F|
+|poke|p1|Gengar, F|
+|poke|p1|Tyranitar, F|
+|poke|p1|Torterra, F|
+|poke|p1|Heatran, M|
+|poke|p1|Azumarill, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Valiant|
+|poke|p2|Zamazenta-*|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|t:|1743884118
+|start
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|1
+|
+|t:|1743884133
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Azumarill|Play Rough|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|68/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|2
+|
+|t:|1743884139
+|move|p2a: Gholdengo|Make It Rain|p1a: Azumarill
+|-damage|p1a: Azumarill|55/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Azumarill|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|3/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743884148
+|move|p1a: Azumarill|Aqua Jet|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743884151
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|4
+|
+|t:|1743884159
+|move|p1a: Azumarill|Knock Off|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|89/100
+|-enditem|p2a: Ting-Lu|Red Card|[from] move: Knock Off|[of] p1a: Azumarill
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Azumarill
+|-sidestart|p1: Bopamon|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1743884165
+|move|p1a: Azumarill|Play Rough|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|32/100
+|move|p2a: Ting-Lu|Ruination|p1a: Azumarill
+|-damage|p1a: Azumarill|28/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743884174
+|move|p1a: Azumarill|Play Rough|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743884194
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|7
+|
+|t:|1743884198
+|move|p1a: Azumarill|Aqua Jet|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|66/100
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Azumarill
+|-supereffective|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|upkeep
+|
+|t:|1743884204
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|turn|8
+|
+|t:|1743884221
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|move|p1a: Corviknight|Defog|p2a: Zamazenta
+|-fail|p2a: Zamazenta|unboost|[from] item: Clear Amulet|[of] p2a: Zamazenta
+|-sideend|p1: Bopamon|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|-heal|p1a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743884234
+|move|p2a: Zamazenta|Howl|p2a: Zamazenta
+|-boost|p2a: Zamazenta|atk|1
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|-heal|p1a: Corviknight|99/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743884242
+|move|p2a: Zamazenta|Ice Fang|p1a: Corviknight
+|-damage|p1a: Corviknight|91/100
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|-heal|p1a: Corviknight|97/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743884252
+|switch|p2a: Iron Valiant|Iron Valiant|66/100
+|move|p1a: Corviknight|Body Press|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|18/100
+|
+|-heal|p1a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743884260
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|16/100
+|move|p1a: Corviknight|Body Press|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p1a: Corviknight|22/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743884275
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|13
+|
+|t:|1743884277
+|-terastallize|p2a: Dragonite|Ghost
+|move|p2a: Dragonite|Encore|p1a: Corviknight
+|-start|p1a: Corviknight|Encore
+|move|p1a: Corviknight|Body Press|p2a: Dragonite
+|-immune|p2a: Dragonite
+|
+|-heal|p1a: Corviknight|28/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743884281
+|switch|p1a: Gengar|Gengar, F|100/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|15
+|
+|t:|1743884287
+|move|p2a: Dragonite|Tera Blast|p1a: Gengar|[anim] Tera Blast Ghost
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-start|p2a: Dragonite|Disable|Tera Blast|[from] ability: Cursed Body|[of] p1a: Gengar
+|faint|p1a: Gengar
+|
+|upkeep
+|
+|t:|1743884294
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|16
+|
+|t:|1743884300
+|-terastallize|p1a: Tyranitar|Flying
+|move|p2a: Dragonite|Low Kick|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|63/100
+|move|p1a: Tyranitar|Knock Off|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|52/100
+|-enditem|p2a: Dragonite|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|46/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|57/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|63/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743884319
+|move|p2a: Dragonite|Low Kick|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|36/100
+|move|p1a: Tyranitar|Knock Off|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|30/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743884322
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|turn|18
+|
+|t:|1743884327
+|move|p2a: Zamazenta|Ice Fang|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|2/100
+|move|p1a: Tyranitar|Roar|p2a: Zamazenta
+|drag|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|0 fnt|[from] Sandstorm
+|faint|p1a: Tyranitar
+|upkeep
+|
+|t:|1743884332
+|switch|p1a: Corviknight|Corviknight, F|28/100
+|-ability|p1a: Corviknight|Pressure
+|turn|19
+|
+|t:|1743884345
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743884356
+|switch|p1a: Torterra|Torterra, F|100/100
+|turn|20
+|
+|t:|1743884363
+|move|p1a: Torterra|Headlong Rush|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: Torterra|def|1
+|-unboost|p1a: Torterra|spd|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743884365
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|turn|21
+|
+|t:|1743884368
+|move|p2a: Zamazenta|Ice Fang|p1a: Torterra|[miss]
+|-miss|p2a: Zamazenta|p1a: Torterra
+|move|p1a: Torterra|Shell Smash|p1a: Torterra
+|-unboost|p1a: Torterra|def|1
+|-unboost|p1a: Torterra|spd|1
+|-boost|p1a: Torterra|atk|2
+|-boost|p1a: Torterra|spa|2
+|-boost|p1a: Torterra|spe|2
+|
+|upkeep
+|turn|22
+|
+|t:|1743884372
+|move|p1a: Torterra|Headlong Rush|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|-unboost|p1a: Torterra|def|1
+|-unboost|p1a: Torterra|spd|1
+|faint|p2a: Zamazenta
+|
+|win|Bopamon
+|raw|Bopamon's rating: 1269 &rarr; <strong>1297</strong><br />(+28 for winning)
+|raw|d7n1el's rating: 1310 &rarr; <strong>1288</strong><br />(-22 for losing)
+|l|☆Bopamon
+|player|p1|
+|c|☆d7n1el|Wow gg
+|l|☆d7n1el
+|player|p2|

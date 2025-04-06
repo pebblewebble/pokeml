@@ -1,0 +1,311 @@
+|j|☆vanzman74
+|j|☆BeepoPoobe
+|t:|1743911841
+|gametype|singles
+|player|p1|vanzman74|steven|1118
+|player|p2|BeepoPoobe|plasmagrunt|1107
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Skarmory, F|
+|poke|p1|Great Tusk|
+|poke|p1|Dragapult, F|
+|poke|p1|Primarina, F|
+|poke|p1|Weavile, F|
+|poke|p1|Armarouge, F|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Ceruledge, M|
+|poke|p2|Tyranitar, M|
+|poke|p2|Kleavor, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vanzman74)
+|
+|t:|1743911848
+|start
+|switch|p1a: Armarouge|Armarouge, F, shiny|100/100
+|switch|p2a: Teri|Kleavor, M|100/100
+|turn|1
+|
+|t:|1743911857
+|move|p1a: Armarouge|Armor Cannon|p2a: Teri
+|-enditem|p2a: Teri|Focus Sash
+|-damage|p2a: Teri|1/100
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|move|p2a: Teri|Stone Axe|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|-sidestart|p1: vanzman74|move: Stealth Rock
+|faint|p1a: Armarouge
+|
+|upkeep
+|
+|t:|1743911872
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|2
+|
+|t:|1743911889
+|move|p1a: Great Tusk|Rapid Spin|p2a: Teri
+|-resisted|p2a: Teri
+|-damage|p2a: Teri|0 fnt
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: vanzman74|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|faint|p2a: Teri
+|
+|upkeep
+|
+|t:|1743911897
+|switch|p2a: Teno|Ceruledge, M, shiny|100/100
+|turn|3
+|
+|t:|1743911905
+|switch|p2a: Laku|Rotom-Wash|100/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Laku
+|-resisted|p2a: Laku
+|-damage|p2a: Laku|86/100
+|
+|-heal|p2a: Laku|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743911914
+|move|p1a: Great Tusk|Close Combat|p2a: Laku
+|-damage|p2a: Laku|28/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Laku|Will-O-Wisp|p1a: Great Tusk
+|-status|p1a: Great Tusk|brn
+|
+|-heal|p2a: Laku|35/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|91/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743911928
+|switch|p2a: Teno|Ceruledge, M, shiny|100/100
+|move|p1a: Great Tusk|Close Combat|p2a: Teno
+|-immune|p2a: Teno
+|
+|-damage|p1a: Great Tusk|85/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743911937
+|switch|p2a: Haki|Braviary-Hisui, M, shiny|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Haki
+|-immune|p2a: Haki
+|
+|-damage|p1a: Great Tusk|79/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743911947
+|switch|p2a: Goji|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Goji
+|move|p1a: Great Tusk|Ice Spinner|p2a: Goji
+|-damage|p2a: Goji|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Goji|92/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|73/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743911960
+|-terastallize|p2a: Goji|Flying
+|move|p1a: Great Tusk|Headlong Rush|p2a: Goji
+|-immune|p2a: Goji
+|move|p2a: Goji|Ice Beam|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Goji|86/100|[from] Sandstorm
+|-heal|p2a: Goji|92/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743911967
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|turn|9
+|
+|t:|1743911972
+|move|p1a: Skarmory|Stealth Rock|p2a: Goji
+|-sidestart|p2: BeepoPoobe|move: Stealth Rock
+|move|p2a: Goji|Knock Off|p1a: Skarmory
+|-damage|p1a: Skarmory|73/100
+|-damage|p2a: Goji|76/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|-enditem|p1a: Skarmory|Rocky Helmet|[from] move: Knock Off|[of] p2a: Goji
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Goji|70/100|[from] Sandstorm
+|-heal|p2a: Goji|76/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743911986
+|switch|p2a: Teno|Ceruledge, M, shiny|100/100
+|-damage|p2a: Teno|76/100|[from] Stealth Rock
+|move|p1a: Skarmory|Taunt|p2a: Teno
+|-start|p2a: Teno|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Teno|70/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1743911994
+|move|p2a: Teno|Bitter Blade|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|16/100
+|-heal|p2a: Teno|100/100|[from] drain|[of] p1a: Skarmory
+|move|p1a: Skarmory|Brave Bird|p2a: Teno
+|-damage|p2a: Teno|55/100
+|-ability|p2a: Teno|Weak Armor|boost
+|-unboost|p2a: Teno|def|1
+|-boost|p2a: Teno|spe|2
+|-damage|p1a: Skarmory|3/100|[from] Recoil
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1743912007
+|move|p2a: Teno|Shadow Sneak|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-end|p2a: Teno|move: Taunt
+|upkeep
+|
+|t:|1743912013
+|switch|p1a: Weavile|Weavile, F, shiny|100/100
+|turn|13
+|
+|t:|1743912026
+|move|p2a: Teno|Bitter Blade|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-enditem|p1a: Weavile|Focus Sash
+|-damage|p1a: Weavile|1/100
+|-heal|p2a: Teno|100/100|[from] drain|[of] p1a: Weavile
+|-enditem|p2a: Teno|Focus Sash|[silent]|[from] ability: Pickpocket|[of] p2a: Teno
+|-item|p1a: Weavile|Focus Sash|[from] ability: Pickpocket|[of] p2a: Teno
+|move|p1a: Weavile|Knock Off|p2a: Teno
+|-supereffective|p2a: Teno
+|-damage|p2a: Teno|0 fnt
+|faint|p2a: Teno
+|
+|upkeep
+|
+|t:|1743912039
+|switch|p2a: Haki|Braviary-Hisui, M, shiny|100/100
+|-damage|p2a: Haki|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743912045
+|switch|p2a: Goji|Tyranitar, M, tera:Flying|76/100
+|-damage|p2a: Goji|51/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Goji
+|move|p1a: Weavile|Triple Axel|p2a: Goji
+|-supereffective|p2a: Goji
+|-damage|p2a: Goji|34/100
+|-supereffective|p2a: Goji
+|-damage|p2a: Goji|4/100
+|-supereffective|p2a: Goji
+|-damage|p2a: Goji|0 fnt
+|faint|p2a: Goji
+|-hitcount|p2: Goji|3
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Weavile|0 fnt|[from] Sandstorm
+|faint|p1a: Weavile
+|upkeep
+|
+|t:|1743912063
+|switch|p1a: Dragapult|Dragapult, F, shiny|100/100
+|switch|p2a: Tori|Meowscarada, F, shiny|100/100
+|-damage|p2a: Tori|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743912072
+|move|p1a: Dragapult|Draco Meteor|p2a: Tori
+|-damage|p2a: Tori|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Tori
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|95/100|[from] Sandstorm
+|upkeep
+|inactive|BeepoPoobe has 120 seconds left.
+|
+|t:|1743912123
+|switch|p2a: Laku|Rotom-Wash|35/100
+|-damage|p2a: Laku|22/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743912129
+|move|p1a: Dragapult|Draco Meteor|p2a: Laku
+|-damage|p2a: Laku|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Laku
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|89/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743912136
+|switch|p2a: Haki|Braviary-Hisui, M, shiny|76/100
+|-damage|p2a: Haki|51/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743912142
+|switch|p1a: Primarina|Primarina, F|100/100
+|move|p2a: Haki|Hurricane|p1a: Primarina
+|-damage|p1a: Primarina|45/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Haki|45/100|[from] Sandstorm
+|-damage|p1a: Primarina|39/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|t:|1743912154
+|move|p2a: Haki|Psychic|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|-weather|none
+|upkeep
+|
+|t:|1743912164
+|switch|p1a: Dragapult|Dragapult, F, shiny|89/100
+|turn|19
+|inactive|BeepoPoobe has 120 seconds left.
+|
+|t:|1743912185
+|-terastallize|p1a: Dragapult|Electric
+|move|p1a: Dragapult|Shadow Ball|p2a: Haki
+|-supereffective|p2a: Haki
+|-damage|p2a: Haki|0 fnt
+|faint|p2a: Haki
+|
+|win|vanzman74
+|raw|vanzman74's rating: 1118 &rarr; <strong>1142</strong><br />(+24 for winning)
+|raw|BeepoPoobe's rating: 1107 &rarr; <strong>1083</strong><br />(-24 for losing)

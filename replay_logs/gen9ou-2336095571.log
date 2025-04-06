@@ -1,0 +1,359 @@
+|j|☆math76
+|j|☆Barronmaster
+|t:|1743878336
+|gametype|singles
+|player|p1|math76|ghetsis|1430
+|player|p2|Barronmaster|169|1464
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Barraskewda, M|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Iron Treads|
+|poke|p1|Kingambit, F|
+|poke|p1|Zapdos|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Cloyster, F|
+|poke|p2|Zoroark, M|
+|poke|p2|Indeedee, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Barronmaster)
+|
+|t:|1743878358
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Cloyster|Cloyster, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1743878372
+|move|p2a: Cloyster|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|90/100
+|-damage|p2a: Cloyster|91/100|[from] item: Life Orb
+|
+|t:|1743878375
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100|[from] U-turn
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Pelipper|U-turn|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|96/100
+|
+|t:|1743878388
+|switch|p1a: Barraskewda|Barraskewda, M|100/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743878394
+|move|p1a: Barraskewda|Flip Turn|p2a: Ninetales
+|-damage|p2a: Ninetales|46/100
+|
+|t:|1743878403
+|switch|p1a: Pelipper|Pelipper, M|90/100|[from] Flip Turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Ninetales|Aurora Veil||[still]
+|-fail|p2a: Ninetales
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743878424
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Ninetales|Blizzard|p1a: Iron Treads
+|-damage|p1a: Iron Treads|55/100
+|-status|p1a: Iron Treads|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Iron Treads|61/100 frz|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743878436
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|cant|p1a: Iron Treads|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Iron Treads|67/100 frz|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743878441
+|cant|p1a: Iron Treads|frz
+|move|p2a: Slowking|Nasty Plot|p2a: Slowking
+|-boost|p2a: Slowking|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Iron Treads|73/100 frz|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743878457
+|-curestatus|p1a: Iron Treads|frz|[msg]
+|move|p1a: Iron Treads|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|93/100
+|
+|t:|1743878464
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Basculegion|Basculegion-F, F|100/100|[from] Volt Switch
+|move|p2a: Slowking|Nasty Plot|p2a: Slowking
+|-boost|p2a: Slowking|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Slowking|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743878479
+|switch|p2a: Ninetales|Ninetales-Alola, F|46/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Basculegion|Shadow Ball|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743878485
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|8
+|
+|t:|1743878489
+|switch|p1a: Pelipper|Pelipper, M|90/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Slowking|Nasty Plot|p2a: Slowking
+|-boost|p2a: Slowking|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743878497
+|move|p1a: Pelipper|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|91/100
+|
+|t:|1743878510
+|switch|p1a: Kingambit|Kingambit, F|100/100|[from] U-turn
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Slowking|97/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743878521
+|-terastallize|p2a: Slowking|Flying
+|move|p2a: Slowking|Flamethrower|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|43/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Slowking
+|-damage|p2a: Slowking|30/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Slowking|37/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743878531
+|move|p2a: Slowking|Flamethrower|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Slowking|43/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743878538
+|switch|p1a: Pelipper|Pelipper, M|90/100
+|turn|12
+|
+|t:|1743878546
+|move|p2a: Slowking|Psychic Noise|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Slowking|49/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743878552
+|switch|p1a: Iron Treads|Iron Treads|73/100
+|turn|13
+|
+|t:|1743878554
+|move|p2a: Slowking|Flamethrower|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|7/100
+|move|p1a: Iron Treads|Volt Switch|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|33/100
+|
+|t:|1743878558
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Barraskewda|Barraskewda, M|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Slowking|39/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|t:|1743878574
+|switch|p2a: Cloyster|Cloyster, F|100/100
+|-terastallize|p1a: Barraskewda|Water
+|move|p1a: Barraskewda|Liquidation|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|47/100
+|-unboost|p2a: Cloyster|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|inactive|Barronmaster has 120 seconds left.
+|
+|t:|1743878624
+|switch|p2a: Slowking|Slowking-Galar, M, tera:Flying|72/100
+|move|p1a: Barraskewda|Liquidation|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-weather|none
+|upkeep
+|
+|t:|1743878627
+|switch|p2a: Cloyster|Cloyster, F|47/100
+|turn|16
+|
+|t:|1743878630
+|move|p1a: Barraskewda|Liquidation|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|8/100
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|
+|upkeep
+|turn|17
+|inactive|Barronmaster has 120 seconds left.
+|
+|t:|1743878643
+|move|p2a: Cloyster|Rock Blast|p1a: Barraskewda
+|-damage|p1a: Barraskewda|70/100
+|-damage|p1a: Barraskewda|42/100
+|-damage|p1a: Barraskewda|10/100
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|-hitcount|p1: Barraskewda|4
+|
+|upkeep
+|
+|t:|1743878657
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|turn|18
+|
+|t:|1743878667
+|move|p2a: Cloyster|Rock Blast|p1a: Basculegion
+|-damage|p1a: Basculegion|81/100
+|-damage|p1a: Basculegion|62/100
+|-damage|p1a: Basculegion|43/100
+|-damage|p1a: Basculegion|22/100
+|-damage|p1a: Basculegion|3/100
+|-hitcount|p1a: Basculegion|5
+|move|p1a: Basculegion|Shadow Ball|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|upkeep
+|
+|t:|1743878671
+|switch|p2a: Hoopa|Hoopa-Unbound|91/100
+|turn|19
+|
+|t:|1743878678
+|move|p2a: Hoopa|Knock Off|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|-enditem|p1a: Basculegion|Choice Specs|[from] move: Knock Off|[of] p2a: Hoopa
+|faint|p1a: Basculegion
+|-damage|p2a: Hoopa|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743878680
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|20
+|
+|t:|1743878694
+|move|p1a: Zapdos|Thunder|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|replace|p2a: Zoroark|Zoroark, M
+|-end|p2a: Zoroark|Illusion
+|faint|p2a: Zoroark
+|-damage|p1a: Zapdos|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743878699
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|21
+|
+|t:|1743878706
+|move|p1a: Zapdos|Hurricane|p2a: Indeedee
+|-damage|p2a: Indeedee|21/100
+|-damage|p1a: Zapdos|81/100|[from] item: Life Orb
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|turn|22
+|c|☆Barronmaster|Gg
+|
+|t:|1743878716
+|move|p2a: Indeedee|Expanding Force|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-damage|p2a: Indeedee|11/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743878719
+|switch|p1a: Iron Treads|Iron Treads|7/100
+|turn|23
+|
+|t:|1743878722
+|move|p2a: Indeedee|Expanding Force|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|-damage|p2a: Indeedee|1/100|[from] item: Life Orb
+|
+|win|Barronmaster
+|raw|math76's rating: 1430 &rarr; <strong>1412</strong><br />(-18 for losing)
+|raw|Barronmaster's rating: 1464 &rarr; <strong>1482</strong><br />(+18 for winning)
+|l|☆math76
+|player|p1|
+|l|☆Barronmaster
+|player|p2|

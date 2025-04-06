@@ -1,0 +1,301 @@
+|j|☆MegaMHX
+|j|☆equinox000
+|t:|1743814506
+|gametype|singles
+|player|p1|MegaMHX|sada-ai|1607
+|player|p2|equinox000|170|1526
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Crawdaunt, M|
+|poke|p1|Lokix, F|
+|poke|p1|Iron Moth|
+|poke|p1|Iron Treads|
+|poke|p1|Raging Bolt|
+|poke|p1|Enamorus, F|
+|poke|p2|Araquanid, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Moth|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|t:|1743814514
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|turn|1
+|
+|t:|1743814519
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|30/100
+|move|p2a: Araquanid|Sticky Web|p1a: Raging Bolt
+|-sidestart|p1: MegaMHX|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743814526
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|t:|1743814529
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|3
+|
+|t:|1743814535
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Enamorus
+|-damage|p1a: Enamorus|67/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743814553
+|-terastallize|p1a: Enamorus|Steel
+|move|p2a: Great Tusk|Ice Spinner|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|40/100
+|move|p1a: Enamorus|Moonblast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743814563
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|5
+|
+|t:|1743814568
+|move|p2a: Iron Moth|Fiery Dance|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-crit|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|-boost|p2a: Iron Moth|spa|1
+|faint|p1a: Enamorus
+|
+|upkeep
+|
+|t:|1743814575
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-item|p1a: Iron Treads|Air Balloon
+|turn|6
+|
+|t:|1743814585
+|move|p2a: Iron Moth|Fiery Dance|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-boost|p2a: Iron Moth|spa|1
+|-enditem|p1a: Iron Treads|Air Balloon
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743814594
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|-activate|p1a: Crawdaunt|move: Sticky Web
+|-unboost|p1a: Crawdaunt|spe|1
+|turn|7
+|
+|t:|1743814602
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743814608
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|8
+|
+|t:|1743814618
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-activate|p1a: Raging Bolt|move: Sticky Web
+|-unboost|p1a: Raging Bolt|spe|1
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|91/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743814625
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|29/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743814637
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|10
+|
+|t:|1743814645
+|move|p2a: Gholdengo|Dazzling Gleam|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743814656
+|switch|p1a: Lokix|Lokix, F|100/100
+|turn|11
+|
+|t:|1743814671
+|-terastallize|p2a: Gholdengo|Fairy
+|move|p1a: Lokix|Knock Off|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|53/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Dazzling Gleam|p1a: Lokix
+|-supereffective|p1a: Lokix
+|-damage|p1a: Lokix|0 fnt
+|faint|p1a: Lokix
+|
+|upkeep
+|
+|t:|1743814681
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-activate|p1a: Iron Moth|move: Sticky Web
+|-unboost|p1a: Iron Moth|spe|1
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|12
+|
+|t:|1743814686
+|move|p2a: Gholdengo|Psyshock|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|19/100
+|move|p1a: Iron Moth|Sludge Wave|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743814690
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|13
+|
+|t:|1743814703
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|-activate|p1a: Crawdaunt|move: Sticky Web
+|-unboost|p1a: Crawdaunt|spe|1
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|upkeep
+|turn|14
+|
+|t:|1743814711
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|41/100
+|move|p1a: Crawdaunt|Liquidation|p2a: Kingambit
+|-damage|p2a: Kingambit|42/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743814728
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Kingambit
+|-damage|p2a: Kingambit|13/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|upkeep
+|
+|t:|1743814734
+|switch|p1a: Iron Moth|Iron Moth|19/100
+|-activate|p1a: Iron Moth|move: Sticky Web
+|-unboost|p1a: Iron Moth|spe|1
+|turn|16
+|
+|t:|1743814738
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Iron Moth|Substitute|p1a: Iron Moth
+|-fail|p1a: Iron Moth|move: Substitute|[weak]
+|
+|upkeep
+|turn|17
+|
+|t:|1743814742
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Iron Moth|Substitute|p1a: Iron Moth
+|-fail|p1a: Iron Moth|move: Substitute|[weak]
+|
+|upkeep
+|turn|18
+|
+|t:|1743814746
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Iron Moth|Substitute|p1a: Iron Moth
+|-fail|p1a: Iron Moth|move: Substitute|[weak]
+|
+|upkeep
+|turn|19
+|
+|t:|1743814749
+|move|p1a: Iron Moth|Substitute|p1a: Iron Moth
+|-fail|p1a: Iron Moth|move: Substitute|[weak]
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|win|equinox000
+|raw|MegaMHX's rating: 1607 &rarr; <strong>1582</strong><br />(-25 for losing)
+|raw|equinox000's rating: 1526 &rarr; <strong>1551</strong><br />(+25 for winning)
+|l|☆MegaMHX
+|player|p1|
+|l|☆equinox000
+|player|p2|

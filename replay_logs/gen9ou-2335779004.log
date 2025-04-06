@@ -1,0 +1,183 @@
+|j|☆agseer
+|j|☆Sergay_Is_Gay
+|t:|1743834796
+|gametype|singles
+|player|p1|agseer|cynthia|1138
+|player|p2|Sergay_Is_Gay|265|1181
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Meowscarada, M|
+|poke|p1|Azumarill, F|
+|poke|p1|Magnezone|
+|poke|p1|Salamence, F|
+|poke|p1|Ursaluna, M|
+|poke|p2|Gholdengo|
+|poke|p2|Garganacl, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Great Tusk|
+|poke|p2|Cinderace, F|
+|teampreview
+|
+|t:|1743834819
+|start
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|turn|1
+|
+|t:|1743834829
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Garganacl|Salt Cure|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|86/100
+|-start|p1a: Dragonite|Salt Cure
+|
+|-heal|p1a: Dragonite|92/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|80/100|[from] Salt Cure
+|upkeep
+|turn|2
+|
+|t:|1743834841
+|move|p1a: Dragonite|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|28/100
+|move|p2a: Garganacl|Salt Cure|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|48/100
+|
+|-heal|p1a: Dragonite|55/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|34/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|42/100|[from] Salt Cure
+|upkeep
+|turn|3
+|
+|t:|1743834854
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Dragonite|Earthquake|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p1a: Dragonite|48/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|40/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|36/100|[from] Salt Cure
+|upkeep
+|turn|4
+|
+|t:|1743834867
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Dragonite|Earthquake|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|-heal|p1a: Dragonite|42/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|30/100|[from] Salt Cure
+|upkeep
+|turn|5
+|
+|t:|1743834880
+|move|p1a: Dragonite|Outrage|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|40/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Shadow Ball|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1743834898
+|switch|p1a: Salamence|Salamence, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Gholdengo|atk|1
+|turn|6
+|
+|t:|1743834907
+|switch|p2a: Garganacl|Garganacl, F|40/100
+|move|p1a: Salamence|Hydro Pump|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|-damage|p1a: Salamence|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743834931
+|switch|p2a: Gholdengo|Gholdengo|40/100
+|turn|7
+|
+|t:|1743834936
+|move|p1a: Salamence|Fire Blast|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|-damage|p1a: Salamence|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743834940
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|8
+|
+|t:|1743834952
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Salamence|[anim] Ivy Cudgel Water
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|46/100
+|move|p1a: Salamence|Draco Meteor|p2a: Ogerpon
+|-damage|p2a: Ogerpon|15/100
+|-unboost|p1a: Salamence|spa|2
+|-damage|p1a: Salamence|36/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|t:|1743834964
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Salamence|[anim] Ivy Cudgel Water
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|1/100
+|move|p1a: Salamence|Hurricane|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|-damage|p1a: Salamence|0 fnt|[from] item: Life Orb
+|faint|p1a: Salamence
+|
+|upkeep
+|
+|t:|1743834978
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|turn|10
+|
+|t:|1743834986
+|move|p1a: Azumarill|Aqua Jet|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|33/100
+|move|p2a: Cinderace|Low Kick|p1a: Azumarill
+|-resisted|p1a: Azumarill
+|-damage|p1a: Azumarill|91/100
+|
+|upkeep
+|turn|11
+|-message|Sergay_Is_Gay forfeited.
+|
+|win|agseer
+|raw|agseer's rating: 1138 &rarr; <strong>1166</strong><br />(+28 for winning)
+|raw|Sergay_Is_Gay's rating: 1181 &rarr; <strong>1153</strong><br />(-28 for losing)
+|l|☆Sergay_Is_Gay
+|player|p2|
+|l|☆agseer
+|player|p1|

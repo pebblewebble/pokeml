@@ -1,0 +1,829 @@
+|j|☆cookbayz
+|j|☆UTF4N
+|t:|1743933430
+|gametype|singles
+|player|p1|cookbayz|sailor|1186
+|player|p2|UTF4N|palmer|1211
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garganacl, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Gliscor, M|
+|poke|p1|Alomomola, F|
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Kingambit, M|
+|poke|p2|Cyclizar, M|
+|poke|p2|Volcanion|
+|poke|p2|Chesnaught, M|
+|poke|p2|Fezandipiti, M|
+|poke|p2|Azelf|
+|poke|p2|Quagsire, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cookbayz)
+|
+|t:|1743933441
+|start
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|switch|p2a: Cyclizar|Cyclizar, M|100/100
+|turn|1
+|
+|t:|1743933447
+|move|p2a: Cyclizar|Knock Off|p1a: Garganacl
+|-damage|p1a: Garganacl|82/100
+|-enditem|p1a: Garganacl|Leftovers|[from] move: Knock Off|[of] p2a: Cyclizar
+|move|p1a: Garganacl|Salt Cure|p2a: Cyclizar
+|-damage|p2a: Cyclizar|78/100
+|-start|p2a: Cyclizar|Salt Cure
+|
+|-damage|p2a: Cyclizar|65/100|[from] Salt Cure
+|upkeep
+|turn|2
+|
+|t:|1743933457
+|move|p2a: Cyclizar|U-turn|p1a: Garganacl
+|-damage|p1a: Garganacl|68/100
+|
+|t:|1743933464
+|switch|p2a: Volcanion|Volcanion|100/100|[from] U-turn
+|move|p1a: Garganacl|Stealth Rock|p2a: Volcanion
+|-sidestart|p2: UTF4N|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1743933476
+|move|p2a: Volcanion|Steam Eruption|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|upkeep
+|
+|t:|1743933490
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|turn|4
+|
+|t:|1743933497
+|-terastallize|p1a: Gliscor|Normal
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|move|p2a: Volcanion|Roar|p1a: Gliscor
+|drag|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|
+|upkeep
+|turn|5
+|
+|t:|1743933511
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Gliscor|Gliscor, M, tera:Normal|100/100
+|move|p2a: Volcanion|Fire Blast|p1a: Gliscor
+|-damage|p1a: Gliscor|24/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|t:|1743933519
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Volcanion|Steam Eruption|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|37/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1743933525
+|move|p1a: Gliscor|Facade|p2a: Volcanion
+|-damage|p2a: Volcanion|64/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-heal|p2a: Volcanion|70/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743933541
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|8
+|
+|t:|1743933548
+|switch|p2a: Fezandipiti|Fezandipiti, M|100/100
+|-damage|p2a: Fezandipiti|88/100|[from] Stealth Rock
+|move|p1a: Dragapult|Dragon Darts|p2a: Fezandipiti
+|-immune|p2a: Fezandipiti
+|
+|upkeep
+|turn|9
+|
+|t:|1743933570
+|move|p2a: Fezandipiti|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|88/100
+|
+|t:|1743933580
+|switch|p2a: Chesnaught|Chesnaught, M|100/100|[from] U-turn
+|-damage|p2a: Chesnaught|94/100|[from] Stealth Rock
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Chesnaught
+|-status|p2a: Chesnaught|brn
+|
+|-heal|p2a: Chesnaught|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Chesnaught|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743933589
+|move|p1a: Dragapult|Hex|p2a: Chesnaught
+|-damage|p2a: Chesnaught|48/100 brn
+|move|p2a: Chesnaught|Leech Seed|p1a: Dragapult
+|-start|p1a: Dragapult|move: Leech Seed
+|
+|-heal|p2a: Chesnaught|54/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragapult|76/100|[from] Leech Seed|[of] p2a: Chesnaught
+|-heal|p2a: Chesnaught|64/100 brn|[silent]
+|-damage|p2a: Chesnaught|58/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743933594
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Chesnaught|Spiky Shield||[still]
+|-fail|p2a: Chesnaught
+|
+|-heal|p2a: Chesnaught|64/100 brn|[from] item: Leftovers
+|-damage|p2a: Chesnaught|58/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743933599
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Chesnaught|Leech Seed|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p2a: Chesnaught|64/100 brn|[from] item: Leftovers
+|-damage|p2a: Chesnaught|58/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743933603
+|move|p2a: Chesnaught|Iron Defense|p2a: Chesnaught
+|-boost|p2a: Chesnaught|def|2
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Chesnaught|64/100 brn|[from] item: Leftovers
+|-damage|p2a: Chesnaught|58/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743933612
+|switch|p1a: Dragapult|Dragapult, M|76/100
+|move|p2a: Chesnaught|Leech Seed|p1a: Dragapult
+|-start|p1a: Dragapult|move: Leech Seed
+|
+|-heal|p1a: Dragapult|100/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Chesnaught|64/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragapult|88/100|[from] Leech Seed|[of] p2a: Chesnaught
+|-heal|p2a: Chesnaught|74/100 brn|[silent]
+|-damage|p2a: Chesnaught|68/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743933620
+|move|p2a: Chesnaught|Spiky Shield|p2a: Chesnaught
+|-singleturn|p2a: Chesnaught|move: Protect
+|move|p1a: Dragapult|U-turn|p2a: Chesnaught
+|-activate|p2a: Chesnaught|move: Protect
+|-damage|p1a: Dragapult|76/100|[from] Spiky Shield|[of] p2a: Chesnaught
+|
+|-heal|p2a: Chesnaught|74/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragapult|64/100|[from] Leech Seed|[of] p2a: Chesnaught
+|-heal|p2a: Chesnaught|84/100 brn|[silent]
+|-damage|p2a: Chesnaught|78/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743933627
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Chesnaught|Leech Seed|p1a: Alomomola
+|-start|p1a: Alomomola|move: Leech Seed
+|
+|-heal|p2a: Chesnaught|84/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|88/100|[from] Leech Seed|[of] p2a: Chesnaught
+|-heal|p2a: Chesnaught|99/100 brn|[silent]
+|-damage|p2a: Chesnaught|94/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743933632
+|move|p2a: Chesnaught|Iron Defense|p2a: Chesnaught
+|-boost|p2a: Chesnaught|def|2
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Chesnaught|99/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|75/100|[from] Leech Seed|[of] p2a: Chesnaught
+|-heal|p2a: Chesnaught|100/100 brn|[silent]
+|-damage|p2a: Chesnaught|94/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743933636
+|switch|p1a: Dragapult|Dragapult, M|64/100
+|move|p2a: Chesnaught|Body Press|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-heal|p1a: Dragapult|100/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Chesnaught|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Chesnaught|94/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1743933641
+|move|p1a: Dragapult|Hex|p2a: Chesnaught
+|-damage|p2a: Chesnaught|53/100 brn
+|move|p2a: Chesnaught|Leech Seed|p1a: Dragapult
+|-start|p1a: Dragapult|move: Leech Seed
+|
+|-heal|p2a: Chesnaught|59/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragapult|88/100|[from] Leech Seed|[of] p2a: Chesnaught
+|-heal|p2a: Chesnaught|69/100 brn|[silent]
+|-damage|p2a: Chesnaught|63/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1743933645
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Chesnaught|Body Press|p1a: Alomomola
+|-damage|p1a: Alomomola|69/100
+|-damage|p2a: Chesnaught|46/100 brn|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|
+|-heal|p2a: Chesnaught|52/100 brn|[from] item: Leftovers
+|-damage|p2a: Chesnaught|46/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1743933652
+|switch|p1a: Dragapult|Dragapult, M|88/100
+|move|p2a: Chesnaught|Leech Seed|p1a: Dragapult
+|-start|p1a: Dragapult|move: Leech Seed
+|
+|-heal|p2a: Chesnaught|52/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragapult|76/100|[from] Leech Seed|[of] p2a: Chesnaught
+|-heal|p2a: Chesnaught|63/100 brn|[silent]
+|-damage|p2a: Chesnaught|57/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1743933656
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Chesnaught|Spiky Shield||[still]
+|-fail|p2a: Chesnaught
+|
+|-heal|p2a: Chesnaught|63/100 brn|[from] item: Leftovers
+|-damage|p2a: Chesnaught|57/100 brn|[from] brn
+|upkeep
+|turn|23
+|l|☆cookbayz
+|inactive|cookbayz disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|cookbayz has 30 seconds to reconnect!
+|inactive|cookbayz has 20 seconds to reconnect!
+|inactive|cookbayz has 15 seconds to reconnect!
+|j|☆cookbayz
+|inactive|cookbayz reconnected and has 80 seconds left.
+|player|p1|cookbayz|sailor|
+|
+|t:|1743933732
+|move|p2a: Chesnaught|Leech Seed|p1a: Alomomola
+|-start|p1a: Alomomola|move: Leech Seed
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Chesnaught|63/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|88/100|[from] Leech Seed|[of] p2a: Chesnaught
+|-heal|p2a: Chesnaught|78/100 brn|[silent]
+|-damage|p2a: Chesnaught|72/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1743933737
+|move|p2a: Chesnaught|Leech Seed||[still]
+|-fail|p2a: Chesnaught
+|move|p1a: Alomomola|Flip Turn|p2a: Chesnaught
+|-resisted|p2a: Chesnaught
+|-damage|p2a: Chesnaught|70/100 brn
+|
+|t:|1743933740
+|switch|p1a: Dragapult|Dragapult, M|76/100|[from] Flip Turn
+|
+|-heal|p1a: Dragapult|100/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Chesnaught|76/100 brn|[from] item: Leftovers
+|-damage|p2a: Chesnaught|70/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1743933743
+|move|p1a: Dragapult|Hex|p2a: Chesnaught
+|-damage|p2a: Chesnaught|24/100 brn
+|move|p2a: Chesnaught|Leech Seed|p1a: Dragapult
+|-start|p1a: Dragapult|move: Leech Seed
+|
+|-heal|p2a: Chesnaught|30/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragapult|88/100|[from] Leech Seed|[of] p2a: Chesnaught
+|-heal|p2a: Chesnaught|40/100 brn|[silent]
+|-damage|p2a: Chesnaught|34/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1743933747
+|move|p1a: Dragapult|U-turn|p2a: Chesnaught
+|-damage|p2a: Chesnaught|29/100 brn
+|
+|t:|1743933749
+|switch|p1a: Alomomola|Alomomola, F|100/100|[from] U-turn
+|move|p2a: Chesnaught|Body Press|p1a: Alomomola
+|-damage|p1a: Alomomola|72/100
+|-damage|p2a: Chesnaught|12/100 brn|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|
+|-heal|p2a: Chesnaught|18/100 brn|[from] item: Leftovers
+|-damage|p2a: Chesnaught|12/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1743933752
+|move|p2a: Chesnaught|Leech Seed|p1a: Alomomola
+|-start|p1a: Alomomola|move: Leech Seed
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Chesnaught|18/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|59/100|[from] Leech Seed|[of] p2a: Chesnaught
+|-heal|p2a: Chesnaught|34/100 brn|[silent]
+|-damage|p2a: Chesnaught|28/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1743933757
+|move|p2a: Chesnaught|Spiky Shield|p2a: Chesnaught
+|-singleturn|p2a: Chesnaught|move: Protect
+|move|p1a: Alomomola|Flip Turn|p2a: Chesnaught
+|-activate|p2a: Chesnaught|move: Protect
+|-damage|p1a: Alomomola|47/100|[from] Spiky Shield|[of] p2a: Chesnaught
+|
+|-heal|p1a: Alomomola|97/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Chesnaught|34/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|84/100|[from] Leech Seed|[of] p2a: Chesnaught
+|-heal|p2a: Chesnaught|49/100 brn|[silent]
+|-damage|p2a: Chesnaught|43/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1743933769
+|switch|p2a: Volcanion|Volcanion|70/100
+|-damage|p2a: Volcanion|45/100|[from] Stealth Rock
+|switch|p1a: Dragapult|Dragapult, M|88/100
+|
+|-heal|p2a: Volcanion|51/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1743933777
+|move|p1a: Dragapult|Dragon Darts|p2a: Volcanion
+|-damage|p2a: Volcanion|35/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Volcanion
+|-damage|p2a: Volcanion|19/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|36/100
+|
+|-heal|p2a: Volcanion|25/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1743933781
+|move|p1a: Dragapult|Dragon Darts|p2a: Volcanion
+|-damage|p2a: Volcanion|9/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|faint|p2a: Volcanion
+|
+|upkeep
+|
+|t:|1743933784
+|switch|p2a: Cyclizar|Cyclizar, M|98/100
+|turn|32
+|
+|t:|1743933788
+|move|p1a: Dragapult|Dragon Darts|p2a: Cyclizar
+|-supereffective|p2a: Cyclizar
+|-damage|p2a: Cyclizar|25/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Cyclizar
+|-supereffective|p2a: Cyclizar
+|-damage|p2a: Cyclizar|0 fnt
+|faint|p2a: Cyclizar
+|
+|upkeep
+|
+|t:|1743933793
+|switch|p2a: Fezandipiti|Fezandipiti, M|88/100
+|-damage|p2a: Fezandipiti|76/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1743933797
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Fezandipiti|Play Rough|p1a: Alomomola
+|-damage|p1a: Alomomola|80/100
+|-damage|p2a: Fezandipiti|59/100|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|-status|p1a: Alomomola|tox|[from] ability: Toxic Chain|[of] p2a: Fezandipiti
+|
+|-damage|p1a: Alomomola|73/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1743933803
+|switch|p2a: Chesnaught|Chesnaught, M|43/100 brn
+|-damage|p2a: Chesnaught|37/100 brn|[from] Stealth Rock
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Chesnaught|43/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|61/100 tox|[from] psn
+|-damage|p2a: Chesnaught|37/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1743933809
+|move|p2a: Chesnaught|Spiky Shield|p2a: Chesnaught
+|-singleturn|p2a: Chesnaught|move: Protect
+|move|p1a: Alomomola|Flip Turn|p2a: Chesnaught
+|-activate|p2a: Chesnaught|move: Protect
+|-damage|p1a: Alomomola|49/100 tox|[from] Spiky Shield|[of] p2a: Chesnaught
+|
+|-heal|p1a: Alomomola|99/100 tox|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Chesnaught|43/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|80/100 tox|[from] psn
+|-damage|p2a: Chesnaught|37/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1743933813
+|move|p2a: Chesnaught|Leech Seed|p1a: Alomomola
+|-start|p1a: Alomomola|move: Leech Seed
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Chesnaught|43/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|68/100 tox|[from] Leech Seed|[of] p2a: Chesnaught
+|-heal|p2a: Chesnaught|59/100 brn|[silent]
+|-damage|p1a: Alomomola|43/100 tox|[from] psn
+|-damage|p2a: Chesnaught|53/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1743933818
+|switch|p1a: Dragapult|Dragapult, M|36/100
+|move|p2a: Chesnaught|Spiky Shield||[still]
+|-fail|p2a: Chesnaught
+|
+|-heal|p1a: Dragapult|100/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Chesnaught|59/100 brn|[from] item: Leftovers
+|-damage|p2a: Chesnaught|53/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|t:|1743933823
+|move|p1a: Dragapult|Hex|p2a: Chesnaught
+|-damage|p2a: Chesnaught|7/100 brn
+|move|p2a: Chesnaught|Leech Seed|p1a: Dragapult
+|-start|p1a: Dragapult|move: Leech Seed
+|
+|-heal|p2a: Chesnaught|13/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragapult|88/100|[from] Leech Seed|[of] p2a: Chesnaught
+|-heal|p2a: Chesnaught|23/100 brn|[silent]
+|-damage|p2a: Chesnaught|17/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|t:|1743933830
+|switch|p1a: Alomomola|Alomomola, F|76/100 tox
+|move|p2a: Chesnaught|Body Press|p1a: Alomomola
+|-damage|p1a: Alomomola|66/100 tox
+|-damage|p2a: Chesnaught|1/100 brn|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|
+|-heal|p2a: Chesnaught|7/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|60/100 tox|[from] psn
+|-damage|p2a: Chesnaught|1/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|t:|1743933835
+|switch|p1a: Dragapult|Dragapult, M|88/100
+|move|p2a: Chesnaught|Leech Seed|p1a: Dragapult
+|-start|p1a: Dragapult|move: Leech Seed
+|
+|-heal|p2a: Chesnaught|7/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragapult|76/100|[from] Leech Seed|[of] p2a: Chesnaught
+|-heal|p2a: Chesnaught|17/100 brn|[silent]
+|-damage|p2a: Chesnaught|11/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|t:|1743933837
+|switch|p1a: Alomomola|Alomomola, F|93/100 tox
+|move|p2a: Chesnaught|Spiky Shield||[still]
+|-fail|p2a: Chesnaught
+|
+|-heal|p2a: Chesnaught|17/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|87/100 tox|[from] psn
+|-damage|p2a: Chesnaught|11/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|t:|1743933840
+|move|p2a: Chesnaught|Leech Seed|p1a: Alomomola
+|-start|p1a: Alomomola|move: Leech Seed
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-heal|p2a: Chesnaught|17/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|75/100 tox|[from] Leech Seed|[of] p2a: Chesnaught
+|-heal|p2a: Chesnaught|33/100 brn|[silent]
+|-damage|p1a: Alomomola|62/100 tox|[from] psn
+|-damage|p2a: Chesnaught|27/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|t:|1743933847
+|switch|p1a: Dragapult|Dragapult, M|76/100
+|move|p2a: Chesnaught|Spiky Shield||[still]
+|-fail|p2a: Chesnaught
+|
+|-heal|p1a: Dragapult|100/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Chesnaught|33/100 brn|[from] item: Leftovers
+|-damage|p2a: Chesnaught|27/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|t:|1743933851
+|move|p1a: Dragapult|Hex|p2a: Chesnaught
+|-damage|p2a: Chesnaught|0 fnt
+|faint|p2a: Chesnaught
+|
+|upkeep
+|
+|t:|1743933856
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|-damage|p2a: Quagsire|94/100|[from] Stealth Rock
+|turn|45
+|
+|t:|1743933859
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Quagsire|[miss]
+|-miss|p1a: Dragapult|p2a: Quagsire
+|move|p2a: Quagsire|Toxic|p1a: Dragapult
+|-status|p1a: Dragapult|tox
+|
+|-heal|p2a: Quagsire|100/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|95/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|t:|1743933864
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Quagsire
+|-status|p2a: Quagsire|brn
+|move|p2a: Quagsire|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|75/100 tox
+|
+|-damage|p1a: Dragapult|63/100 tox|[from] psn
+|-damage|p2a: Quagsire|94/100 brn|[from] brn
+|upkeep
+|turn|47
+|
+|t:|1743933867
+|switch|p1a: Alomomola|Alomomola, F|96/100 tox
+|move|p2a: Quagsire|Protect||[still]
+|-fail|p2a: Quagsire
+|
+|-heal|p2a: Quagsire|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|89/100 tox|[from] psn
+|-damage|p2a: Quagsire|94/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|t:|1743933870
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Quagsire|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|80/100 tox
+|
+|-heal|p2a: Quagsire|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|67/100 tox|[from] psn
+|-damage|p2a: Quagsire|94/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|t:|1743933876
+|switch|p1a: Dragapult|Dragapult, M|63/100 tox
+|move|p2a: Quagsire|Protect||[still]
+|-fail|p2a: Quagsire
+|
+|-heal|p1a: Dragapult|100/100 tox|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Quagsire|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragapult|95/100 tox|[from] psn
+|-damage|p2a: Quagsire|94/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|t:|1743933879
+|move|p1a: Dragapult|Hex|p2a: Quagsire
+|-damage|p2a: Quagsire|26/100 brn
+|move|p2a: Quagsire|Earthquake|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|65/100 tox
+|
+|-heal|p2a: Quagsire|32/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragapult|53/100 tox|[from] psn
+|-damage|p2a: Quagsire|26/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|t:|1743933882
+|switch|p1a: Alomomola|Alomomola, F|100/100 tox
+|move|p2a: Quagsire|Protect||[still]
+|-fail|p2a: Quagsire
+|
+|-heal|p2a: Quagsire|32/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|94/100 tox|[from] psn
+|-damage|p2a: Quagsire|26/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|t:|1743933885
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|76/100 brn
+|
+|-heal|p2a: Quagsire|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Alomomola|82/100 tox|[from] psn
+|-damage|p2a: Quagsire|76/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|t:|1743933890
+|switch|p1a: Dragapult|Dragapult, M|53/100 tox
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100 brn
+|
+|-heal|p1a: Dragapult|100/100 tox|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Dragapult|95/100 tox|[from] psn
+|-damage|p2a: Quagsire|94/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|t:|1743933900
+|move|p2a: Quagsire|Protect|p2a: Quagsire
+|-singleturn|p2a: Quagsire|Protect
+|move|p1a: Dragapult|Hex|p2a: Quagsire
+|-activate|p2a: Quagsire|move: Protect
+|
+|-heal|p2a: Quagsire|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragapult|83/100 tox|[from] psn
+|-damage|p2a: Quagsire|94/100 brn|[from] brn
+|upkeep
+|turn|55
+|
+|t:|1743933903
+|move|p1a: Dragapult|Hex|p2a: Quagsire
+|-damage|p2a: Quagsire|30/100 brn
+|move|p2a: Quagsire|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|60/100 tox
+|
+|-heal|p2a: Quagsire|36/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragapult|42/100 tox|[from] psn
+|-damage|p2a: Quagsire|30/100 brn|[from] brn
+|upkeep
+|turn|56
+|
+|t:|1743933907
+|move|p2a: Quagsire|Protect|p2a: Quagsire
+|-singleturn|p2a: Quagsire|Protect
+|move|p1a: Dragapult|Hex|p2a: Quagsire
+|-activate|p2a: Quagsire|move: Protect
+|
+|-heal|p2a: Quagsire|36/100 brn|[from] item: Leftovers
+|-damage|p1a: Dragapult|18/100 tox|[from] psn
+|-damage|p2a: Quagsire|30/100 brn|[from] brn
+|upkeep
+|turn|57
+|
+|t:|1743933910
+|move|p1a: Dragapult|Hex|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|-damage|p1a: Dragapult|0 fnt|[from] psn
+|faint|p1a: Dragapult
+|upkeep
+|
+|t:|1743933918
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|switch|p2a: Fezandipiti|Fezandipiti, M|59/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-damage|p2a: Fezandipiti|47/100|[from] Stealth Rock
+|turn|58
+|
+|t:|1743933924
+|-terastallize|p2a: Fezandipiti|Poison
+|move|p2a: Fezandipiti|Gunk Shot|p1a: Weezing
+|-damage|p1a: Weezing|60/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Fezandipiti
+|-resisted|p2a: Fezandipiti
+|-damage|p2a: Fezandipiti|34/100
+|
+|-heal|p1a: Weezing|66/100|[from] item: Leftovers
+|upkeep
+|turn|59
+|
+|t:|1743933932
+|switch|p2a: Azelf|Azelf|100/100
+|-damage|p2a: Azelf|88/100|[from] Stealth Rock
+|move|p1a: Weezing|Will-O-Wisp|p2a: Azelf
+|-status|p2a: Azelf|brn
+|
+|-heal|p1a: Weezing|72/100|[from] item: Leftovers
+|-damage|p2a: Azelf|82/100 brn|[from] brn
+|upkeep
+|turn|60
+|
+|t:|1743933939
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Alomomola|Alomomola, F|100/100 tox
+|move|p2a: Azelf|Psychic|p1a: Alomomola
+|-damage|p1a: Alomomola|65/100 tox
+|
+|-damage|p1a: Alomomola|59/100 tox|[from] psn
+|-damage|p2a: Azelf|76/100 brn|[from] brn
+|upkeep
+|turn|61
+|
+|t:|1743933944
+|switch|p1a: Weezing|Weezing-Galar, F|72/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Azelf|Taunt|p1a: Weezing
+|-start|p1a: Weezing|move: Taunt
+|
+|-heal|p1a: Weezing|78/100|[from] item: Leftovers
+|-damage|p2a: Azelf|69/100 brn|[from] brn
+|upkeep
+|turn|62
+|
+|t:|1743933949
+|move|p2a: Azelf|Psychic|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|
+|-damage|p2a: Azelf|63/100 brn|[from] brn
+|upkeep
+|
+|t:|1743933952
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|63
+|
+|t:|1743933959
+|move|p2a: Azelf|Explosion|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|88/100
+|faint|p2a: Azelf
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p1a: Kingambit|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743933961
+|switch|p2a: Fezandipiti|Fezandipiti, M, tera:Poison|34/100
+|-damage|p2a: Fezandipiti|22/100|[from] Stealth Rock
+|turn|64
+|
+|t:|1743933964
+|move|p1a: Kingambit|Sucker Punch|p2a: Fezandipiti
+|-damage|p2a: Fezandipiti|0 fnt
+|faint|p2a: Fezandipiti
+|
+|win|cookbayz
+|raw|cookbayz's rating: 1186 &rarr; <strong>1213</strong><br />(+27 for winning)
+|raw|UTF4N's rating: 1211 &rarr; <strong>1184</strong><br />(-27 for losing)
+|l|☆UTF4N
+|player|p2|
+|l|☆cookbayz
+|player|p1|

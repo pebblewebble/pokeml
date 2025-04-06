@@ -1,0 +1,267 @@
+|j|☆hgvghv
+|j|☆joe schmuck
+|t:|1743820157
+|gametype|singles
+|player|p1|hgvghv|266|1210
+|player|p2|joe schmuck|silver|1256
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Sableye, F|
+|poke|p1|Araquanid, M|
+|poke|p1|Dragalge, F|
+|poke|p1|Pawmot, F|
+|poke|p1|Revavroom, M|
+|poke|p1|Hypno, F|
+|poke|p2|Weavile, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Iron Treads|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Kingambit, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by joe schmuck)
+|
+|t:|1743820168
+|start
+|switch|p1a: Sableye|Sableye, F|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|t:|1743820191
+|switch|p1a: Dragalge|Dragalge, F|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Dragalge
+|-damage|p1a: Dragalge|55/100
+|-sidestart|p1: hgvghv|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1743820203
+|move|p2a: Samurott|Ceaseless Edge|p1a: Dragalge
+|-damage|p1a: Dragalge|4/100
+|-sidestart|p1: hgvghv|Spikes
+|move|p1a: Dragalge|Draco Meteor|p2a: Samurott|[miss]
+|-miss|p1a: Dragalge|p2a: Samurott
+|
+|upkeep
+|turn|3
+|
+|t:|1743820210
+|move|p2a: Samurott|Ceaseless Edge|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|-sidestart|p1: hgvghv|Spikes
+|faint|p1a: Dragalge
+|
+|upkeep
+|
+|t:|1743820216
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|-damage|p1a: Araquanid|76/100|[from] Spikes
+|turn|4
+|
+|t:|1743820219
+|move|p2a: Samurott|Knock Off|p1a: Araquanid
+|-damage|p1a: Araquanid|29/100
+|-enditem|p1a: Araquanid|Custap Berry|[from] move: Knock Off|[of] p2a: Samurott
+|move|p1a: Araquanid|Sticky Web|p2a: Samurott
+|-sidestart|p2: joe schmuck|move: Sticky Web
+|
+|upkeep
+|turn|5
+|
+|t:|1743820225
+|move|p2a: Samurott|Encore|p1a: Araquanid
+|-start|p1a: Araquanid|Encore
+|move|p1a: Araquanid|Sticky Web||[still]
+|-fail|p1a: Araquanid
+|
+|upkeep
+|turn|6
+|
+|t:|1743820232
+|switch|p1a: Pawmot|Pawmot, F|100/100
+|-damage|p1a: Pawmot|76/100|[from] Spikes
+|move|p2a: Samurott|Ceaseless Edge|p1a: Pawmot
+|-resisted|p1a: Pawmot
+|-damage|p1a: Pawmot|36/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743820244
+|move|p1a: Pawmot|Double Shock|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-start|p1a: Pawmot|typechange|???/Fighting|[from] move: Double Shock
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743820252
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|8
+|
+|t:|1743820257
+|move|p1a: Pawmot|Revival Blessing|p1a: Pawmot
+|
+|t:|1743820259
+|-heal|p1: Dragalge|50/100|[from] move: Revival Blessing
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743820262
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] Chilly Reception
+|-activate|p2a: Iron Treads|move: Sticky Web
+|-unboost|p2a: Iron Treads|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743820269
+|-terastallize|p2a: Iron Treads|Ghost
+|move|p1a: Pawmot|Fire Punch|p2a: Iron Treads
+|-damage|p2a: Iron Treads|71/100
+|move|p2a: Iron Treads|Rapid Spin|p1a: Pawmot
+|-damage|p1a: Pawmot|10/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: joe schmuck|Sticky Web|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Iron Treads|77/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743820278
+|move|p2a: Iron Treads|Stealth Rock|p1a: Pawmot
+|-sidestart|p1: hgvghv|move: Stealth Rock
+|move|p1a: Pawmot|Fire Punch|p2a: Iron Treads
+|-damage|p2a: Iron Treads|46/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Iron Treads|53/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743820286
+|move|p2a: Iron Treads|Rapid Spin|p1a: Pawmot
+|-damage|p1a: Pawmot|0 fnt
+|-boost|p2a: Iron Treads|spe|1
+|faint|p1a: Pawmot
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Iron Treads|59/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743820293
+|switch|p1a: Araquanid|Araquanid, M|29/100
+|-damage|p1a: Araquanid|5/100|[from] Spikes
+|-damage|p1a: Araquanid|0 fnt|[from] Stealth Rock
+|faint|p1a: Araquanid
+|
+|t:|1743820296
+|switch|p1a: Revavroom|Revavroom, M|100/100
+|-damage|p1a: Revavroom|95/100|[from] Stealth Rock
+|-item|p1a: Revavroom|Air Balloon
+|turn|12
+|
+|t:|1743820299
+|move|p2a: Iron Treads|Knock Off|p1a: Revavroom
+|-damage|p1a: Revavroom|54/100
+|-enditem|p1a: Revavroom|Air Balloon
+|move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+|-boost|p1a: Revavroom|spe|2
+|-boost|p1a: Revavroom|atk|1
+|
+|-weather|none
+|-heal|p2a: Iron Treads|65/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743820307
+|move|p1a: Revavroom|Gunk Shot|p2a: Iron Treads|[miss]
+|-miss|p1a: Revavroom|p2a: Iron Treads
+|move|p2a: Iron Treads|Earthquake|p1a: Revavroom
+|-supereffective|p1a: Revavroom
+|-damage|p1a: Revavroom|0 fnt
+|faint|p1a: Revavroom
+|
+|-heal|p2a: Iron Treads|71/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743820312
+|switch|p1a: Sableye|Sableye, F|100/100
+|-damage|p1a: Sableye|76/100|[from] Spikes
+|-damage|p1a: Sableye|64/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743820321
+|move|p2a: Iron Treads|Knock Off|p1a: Sableye
+|-damage|p1a: Sableye|32/100
+|-enditem|p1a: Sableye|Leftovers|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Sableye|Foul Play|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743820335
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|turn|15
+|
+|t:|1743820340
+|switch|p1a: Dragalge|Dragalge, F|50/100
+|-damage|p1a: Dragalge|26/100|[from] Spikes
+|-damage|p1a: Dragalge|13/100|[from] Stealth Rock
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|faint|p1a: Dragalge
+|
+|upkeep
+|
+|t:|1743820341
+|switch|p1a: Hypno|Hypno, F|100/100
+|-damage|p1a: Hypno|76/100|[from] Spikes
+|-damage|p1a: Hypno|63/100|[from] Stealth Rock
+|-activate|p1a: Hypno|ability: Forewarn|Kowtow Cleave|[of] p2a: Kingambit
+|turn|16
+|
+|t:|1743820353
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Hypno
+|-supereffective|p1a: Hypno
+|-damage|p1a: Hypno|0 fnt
+|faint|p1a: Hypno
+|
+|upkeep
+|inactive|hgvghv has 120 seconds left.
+|
+|t:|1743820386
+|switch|p1a: Sableye|Sableye, F|32/100
+|-damage|p1a: Sableye|7/100|[from] Spikes
+|-damage|p1a: Sableye|0 fnt|[from] Stealth Rock
+|faint|p1a: Sableye
+|
+|win|joe schmuck
+|raw|hgvghv's rating: 1210 &rarr; <strong>1188</strong><br />(-22 for losing)
+|raw|joe schmuck's rating: 1256 &rarr; <strong>1278</strong><br />(+22 for winning)
+|l|☆hgvghv
+|player|p1|
+|l|☆joe schmuck
+|player|p2|

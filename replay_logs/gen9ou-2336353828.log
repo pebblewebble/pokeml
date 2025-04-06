@@ -1,0 +1,321 @@
+|j|☆werdnaluas
+|j|☆Vieilbisail
+|t:|1743906494
+|gametype|singles
+|player|p1|werdnaluas|marlon|1130
+|player|p2|Vieilbisail|rood|1118
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Regirock|
+|poke|p1|Shaymin|
+|poke|p1|Volcanion|
+|poke|p1|Thundurus, M|
+|poke|p1|Kyurem|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Pecharunt|
+|poke|p2|Iron Valiant|
+|poke|p2|Dragonite, F|
+|poke|p2|Great Tusk|
+|poke|p2|Glimmora, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by werdnaluas)
+|
+|t:|1743906523
+|start
+|switch|p1a: Volcanion|Volcanion|100/100
+|switch|p2a: Zaxesic|Glimmora, F, shiny|100/100
+|-item|p1a: Volcanion|Air Balloon
+|turn|1
+|
+|t:|1743906533
+|move|p2a: Zaxesic|Dig||[still]
+|-prepare|p2a: Zaxesic|Dig
+|-enditem|p2a: Zaxesic|Power Herb
+|-anim|p2a: Zaxesic|Dig|p1a: Volcanion
+|-immune|p1a: Volcanion
+|move|p1a: Volcanion|Steam Eruption|p2a: Zaxesic
+|-damage|p2a: Zaxesic|0 fnt
+|replace|p2a: Daedre|Zoroark-Hisui, F, shiny
+|-end|p2a: Daedre|Illusion
+|faint|p2a: Daedre
+|
+|upkeep
+|
+|t:|1743906543
+|switch|p2a: Fyulapp|Iron Valiant|100/100
+|turn|2
+|
+|t:|1743906550
+|move|p2a: Fyulapp|Thunderbolt|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|15/100
+|-status|p1a: Volcanion|par
+|-enditem|p1a: Volcanion|Air Balloon
+|cant|p1a: Volcanion|par
+|
+|upkeep
+|turn|3
+|
+|t:|1743906564
+|-end|p2a: Fyulapp|Quark Drive|[silent]
+|switch|p2a: Zaxesic|Glimmora, F, shiny|100/100
+|move|p1a: Volcanion|Steam Eruption|p2a: Zaxesic
+|-supereffective|p2a: Zaxesic
+|-damage|p2a: Zaxesic|0 fnt
+|faint|p2a: Zaxesic
+|
+|upkeep
+|
+|t:|1743906571
+|switch|p2a: Samwell|Dragonite, F|100/100
+|turn|4
+|
+|t:|1743906574
+|-terastallize|p2a: Samwell|Normal
+|move|p2a: Samwell|Extreme Speed|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|upkeep
+|
+|t:|1743906597
+|switch|p1a: Regirock|Regirock|100/100
+|turn|5
+|
+|t:|1743906604
+|move|p2a: Samwell|Earthquake|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|65/100
+|move|p1a: Regirock|Curse|p1a: Regirock
+|-unboost|p1a: Regirock|spe|1
+|-boost|p1a: Regirock|atk|1
+|-boost|p1a: Regirock|def|1
+|
+|-heal|p1a: Regirock|71/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743906625
+|switch|p2a: Delivulg|Pecharunt|100/100
+|move|p1a: Regirock|Body Press|p2a: Delivulg
+|-immune|p2a: Delivulg
+|
+|-heal|p1a: Regirock|77/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743906634
+|move|p2a: Delivulg|Malignant Chain|p1a: Regirock
+|-resisted|p1a: Regirock
+|-damage|p1a: Regirock|58/100
+|-status|p1a: Regirock|tox
+|-start|p1a: Regirock|confusion|[from] ability: Poison Puppeteer|[of] p2a: Delivulg
+|-activate|p1a: Regirock|confusion
+|-damage|p1a: Regirock|52/100 tox|[from] confusion
+|
+|-heal|p1a: Regirock|58/100 tox|[from] item: Leftovers
+|-damage|p1a: Regirock|52/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743906653
+|move|p2a: Delivulg|Foul Play|p1a: Regirock
+|-crit|p1a: Regirock
+|-damage|p1a: Regirock|23/100 tox
+|-activate|p1a: Regirock|confusion
+|move|p1a: Regirock|Stone Edge|p2a: Delivulg
+|-damage|p2a: Delivulg|64/100
+|
+|-heal|p1a: Regirock|29/100 tox|[from] item: Leftovers
+|-damage|p1a: Regirock|17/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743906664
+|move|p2a: Delivulg|Foul Play|p1a: Regirock
+|-damage|p1a: Regirock|4/100 tox
+|-end|p1a: Regirock|confusion
+|move|p1a: Regirock|Stone Edge|p2a: Delivulg
+|-crit|p2a: Delivulg
+|-damage|p2a: Delivulg|3/100
+|
+|-heal|p1a: Regirock|10/100 tox|[from] item: Leftovers
+|-damage|p1a: Regirock|0 fnt|[from] psn
+|faint|p1a: Regirock
+|upkeep
+|
+|t:|1743906677
+|switch|p1a: Thundurus|Thundurus, M|100/100
+|turn|10
+|
+|t:|1743906688
+|move|p1a: Thundurus|Fling|p2a: Delivulg
+|-supereffective|p2a: Delivulg
+|-damage|p2a: Delivulg|0 fnt
+|-enditem|p1a: Thundurus|Big Nugget|[from] move: Fling
+|faint|p2a: Delivulg
+|
+|upkeep
+|
+|t:|1743906695
+|switch|p2a: Samwell|Dragonite, F, tera:Normal|100/100
+|turn|11
+|
+|t:|1743906700
+|move|p1a: Thundurus|Knock Off|p2a: Samwell
+|-damage|p2a: Samwell|85/100
+|-enditem|p2a: Samwell|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Thundurus
+|move|p2a: Samwell|Ice Spinner|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|14/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743906709
+|move|p2a: Samwell|Extreme Speed|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|t:|1743906729
+|switch|p1a: Shaymin|Shaymin|100/100
+|turn|13
+|
+|t:|1743906736
+|move|p1a: Shaymin|Leech Seed|p2a: Samwell
+|-start|p2a: Samwell|move: Leech Seed
+|move|p2a: Samwell|Ice Spinner|p1a: Shaymin
+|-supereffective|p1a: Shaymin
+|-damage|p1a: Shaymin|45/100
+|
+|-damage|p2a: Samwell|73/100|[from] Leech Seed|[of] p1a: Shaymin
+|-heal|p1a: Shaymin|60/100|[silent]
+|upkeep
+|turn|14
+|
+|t:|1743906745
+|move|p1a: Shaymin|Giga Drain|p2a: Samwell
+|-damage|p2a: Samwell|49/100
+|-heal|p1a: Shaymin|75/100|[from] drain|[of] p2a: Samwell
+|move|p2a: Samwell|Ice Spinner|p1a: Shaymin
+|-supereffective|p1a: Shaymin
+|-damage|p1a: Shaymin|21/100
+|
+|-damage|p2a: Samwell|36/100|[from] Leech Seed|[of] p1a: Shaymin
+|-heal|p1a: Shaymin|36/100|[silent]
+|upkeep
+|turn|15
+|
+|t:|1743906755
+|move|p1a: Shaymin|Protect|p1a: Shaymin
+|-singleturn|p1a: Shaymin|Protect
+|move|p2a: Samwell|Ice Spinner|p1a: Shaymin
+|-activate|p1a: Shaymin|move: Protect
+|
+|-damage|p2a: Samwell|24/100|[from] Leech Seed|[of] p1a: Shaymin
+|-heal|p1a: Shaymin|52/100|[silent]
+|upkeep
+|turn|16
+|
+|t:|1743906766
+|move|p2a: Samwell|Extreme Speed|p1a: Shaymin
+|-damage|p1a: Shaymin|11/100
+|move|p1a: Shaymin|Giga Drain|p2a: Samwell
+|-damage|p2a: Samwell|0 fnt
+|-heal|p1a: Shaymin|25/100|[from] drain|[of] p2a: Samwell
+|faint|p2a: Samwell
+|
+|upkeep
+|
+|t:|1743906776
+|switch|p2a: Arkh|Great Tusk, shiny|100/100
+|turn|17
+|
+|t:|1743906779
+|move|p2a: Arkh|Ice Spinner|p1a: Shaymin
+|-supereffective|p1a: Shaymin
+|-damage|p1a: Shaymin|0 fnt
+|faint|p1a: Shaymin
+|
+|upkeep
+|
+|t:|1743906789
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|18
+|
+|t:|1743906795
+|-terastallize|p1a: Kyurem|Ghost
+|move|p2a: Arkh|Smack Down|p1a: Kyurem
+|-damage|p1a: Kyurem|90/100
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|
+|upkeep
+|turn|19
+|
+|t:|1743906817
+|-end|p2a: Arkh|Protosynthesis|[silent]
+|switch|p2a: Fyulapp|Iron Valiant|100/100
+|move|p1a: Kyurem|Shadow Claw|p2a: Fyulapp
+|-damage|p2a: Fyulapp|22/100
+|-damage|p1a: Kyurem|80/100|[from] item: Life Orb
+|
+|upkeep
+|turn|20
+|
+|t:|1743906830
+|-end|p2a: Fyulapp|Quark Drive|[silent]
+|switch|p2a: Arkh|Great Tusk, shiny|100/100
+|move|p1a: Kyurem|Shadow Claw|p2a: Arkh
+|-damage|p2a: Arkh|63/100
+|-damage|p1a: Kyurem|70/100|[from] item: Life Orb
+|
+|upkeep
+|turn|21
+|
+|t:|1743906847
+|move|p1a: Kyurem|Ice Fang|p2a: Arkh
+|-supereffective|p2a: Arkh
+|-damage|p2a: Arkh|0 fnt
+|faint|p2a: Arkh
+|-end|p2a: Arkh|Protosynthesis|[silent]
+|-damage|p1a: Kyurem|60/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743906852
+|switch|p2a: Fyulapp|Iron Valiant|22/100
+|turn|22
+|
+|t:|1743906857
+|move|p1a: Kyurem|Shadow Claw|p2a: Fyulapp
+|-crit|p2a: Fyulapp
+|-damage|p2a: Fyulapp|0 fnt
+|faint|p2a: Fyulapp
+|-end|p2a: Fyulapp|Quark Drive|[silent]
+|-damage|p1a: Kyurem|50/100|[from] item: Life Orb
+|
+|win|werdnaluas
+|raw|werdnaluas's rating: 1130 &rarr; <strong>1154</strong><br />(+24 for winning)
+|raw|Vieilbisail's rating: 1118 &rarr; <strong>1094</strong><br />(-24 for losing)
+|c|☆Vieilbisail|gg
+|l|☆werdnaluas
+|player|p1|
+|l|☆Vieilbisail
+|player|p2|

@@ -1,0 +1,165 @@
+|j|☆Gr8Xpectation3
+|j|☆GarsNarmol
+|t:|1743841321
+|gametype|singles
+|player|p1|Gr8Xpectation3|n|1179
+|player|p2|GarsNarmol|colress|1210
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Frosmoth, F|
+|poke|p1|Cinccino, F|
+|poke|p1|Incineroar, F|
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Sinistcha|
+|poke|p1|Alomomola, F|
+|poke|p2|Iron Moth|
+|poke|p2|Kingambit, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Raging Bolt|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GarsNarmol)
+|
+|t:|1743841340
+|start
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1743841351
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|upkeep
+|
+|t:|1743841363
+|switch|p1a: Sinistcha|Sinistcha|100/100
+|turn|2
+|
+|t:|1743841368
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+|-boost|p1a: Sinistcha|spa|1
+|-boost|p1a: Sinistcha|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743841380
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-enditem|p1a: Sinistcha|Colbur Berry|[eat]
+|-enditem|p1a: Sinistcha|Colbur Berry|[weaken]
+|-damage|p1a: Sinistcha|64/100
+|move|p1a: Sinistcha|Strength Sap|p2a: Kingambit
+|-unboost|p2a: Kingambit|atk|1
+|-heal|p1a: Sinistcha|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743841393
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-crit|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|
+|upkeep
+|
+|t:|1743841403
+|switch|p1a: Frosmoth|Frosmoth, F|100/100
+|turn|5
+|
+|t:|1743841409
+|move|p2a: Kingambit|Iron Head|p1a: Frosmoth
+|-supereffective|p1a: Frosmoth
+|-crit|p1a: Frosmoth
+|-damage|p1a: Frosmoth|0 fnt
+|faint|p1a: Frosmoth
+|
+|upkeep
+|
+|t:|1743841414
+|switch|p1a: Incineroar|Incineroar, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|turn|6
+|
+|t:|1743841419
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|move|p1a: Incineroar|Will-O-Wisp|p2a: Raging Bolt
+|-status|p2a: Raging Bolt|brn
+|
+|-damage|p2a: Raging Bolt|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743841428
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Incineroar
+|-damage|p1a: Incineroar|52/100
+|move|p1a: Incineroar|Knock Off|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|70/100 brn
+|
+|-damage|p2a: Raging Bolt|64/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743841436
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-damage|p2a: Raging Bolt|58/100 brn|[from] brn
+|upkeep
+|
+|t:|1743841441
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|9
+|
+|t:|1743841449
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|move|p1a: Weezing|Strange Steam|p2a: Kingambit
+|-damage|p2a: Kingambit|67/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743841457
+|move|p2a: Kingambit|Iron Head|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|41/100
+|cant|p1a: Weezing|flinch
+|
+|upkeep
+|turn|11
+|-message|Gr8Xpectation3 forfeited.
+|
+|win|GarsNarmol
+|raw|Gr8Xpectation3's rating: 1179 &rarr; <strong>1156</strong><br />(-23 for losing)
+|raw|GarsNarmol's rating: 1210 &rarr; <strong>1233</strong><br />(+23 for winning)
+|l|☆Gr8Xpectation3
+|player|p1|
+|l|☆GarsNarmol
+|player|p2|

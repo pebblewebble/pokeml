@@ -1,0 +1,261 @@
+|j|☆jsilva001
+|j|☆Seraph522
+|t:|1743782822
+|gametype|singles
+|player|p1|jsilva001|169|1145
+|player|p2|Seraph522|grimsley|1145
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garganacl, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Manaphy|
+|poke|p1|Staraptor, M|
+|poke|p1|Armarouge, M|
+|poke|p1|Gholdengo|
+|poke|p2|Moltres-Galar|
+|poke|p2|Great Tusk|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Gholdengo|
+|poke|p2|Araquanid, F|
+|teampreview
+|
+|t:|1743782831
+|start
+|switch|p1a: Armarouge|Armarouge, M|100/100
+|switch|p2a: Spiders|Araquanid, F|100/100
+|turn|1
+|
+|t:|1743782845
+|move|p1a: Armarouge|Trick|p2a: Spiders
+|-activate|p1a: Armarouge|move: Trick|[of] p2a: Spiders
+|-item|p2a: Spiders|Choice Scarf|[from] move: Trick
+|-item|p1a: Armarouge|Custap Berry|[from] move: Trick
+|move|p2a: Spiders|Sticky Web|p1a: Armarouge
+|-sidestart|p1: jsilva001|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743782866
+|switch|p2a: Ronin|Samurott-Hisui, M|100/100
+|move|p1a: Armarouge|Energy Ball|p2a: Ronin
+|-supereffective|p2a: Ronin
+|-enditem|p2a: Ronin|Focus Sash
+|-damage|p2a: Ronin|1/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743782896
+|move|p2a: Ronin|Ceaseless Edge|p1a: Armarouge|[miss]
+|-miss|p2a: Ronin|p1a: Armarouge
+|move|p1a: Armarouge|Energy Ball|p2a: Ronin
+|-supereffective|p2a: Ronin
+|-damage|p2a: Ronin|0 fnt
+|faint|p2a: Ronin
+|
+|upkeep
+|
+|t:|1743782908
+|switch|p2a: Darkbird|Moltres-Galar|100/100
+|turn|4
+|
+|t:|1743782934
+|move|p2a: Darkbird|Nasty Plot|p2a: Darkbird
+|-boost|p2a: Darkbird|spa|2
+|move|p1a: Armarouge|Armor Cannon|p2a: Darkbird
+|-damage|p2a: Darkbird|57/100
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|
+|upkeep
+|turn|5
+|
+|t:|1743782947
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|-activate|p1a: Garganacl|move: Sticky Web
+|-unboost|p1a: Garganacl|spe|1
+|move|p2a: Darkbird|Fiery Wrath|p1a: Garganacl
+|-damage|p1a: Garganacl|28/100
+|
+|-heal|p1a: Garganacl|34/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743782959
+|move|p2a: Darkbird|Fiery Wrath|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|upkeep
+|
+|t:|1743782964
+|switch|p1a: Manaphy|Manaphy|100/100
+|turn|7
+|
+|t:|1743782973
+|move|p1a: Manaphy|Surf|p2a: Darkbird
+|-damage|p2a: Darkbird|30/100
+|-ability|p2a: Darkbird|Berserk|boost
+|-boost|p2a: Darkbird|spa|1
+|-enditem|p2a: Darkbird|Sitrus Berry|[eat]
+|-heal|p2a: Darkbird|55/100|[from] item: Sitrus Berry
+|move|p2a: Darkbird|Taunt|p1a: Manaphy
+|-start|p1a: Manaphy|move: Taunt
+|
+|upkeep
+|turn|8
+|
+|t:|1743782986
+|move|p1a: Manaphy|Ice Beam|p2a: Darkbird
+|-supereffective|p2a: Darkbird
+|-damage|p2a: Darkbird|16/100
+|-ability|p2a: Darkbird|Berserk|boost
+|-boost|p2a: Darkbird|spa|1
+|move|p2a: Darkbird|Fiery Wrath|p1a: Manaphy
+|-damage|p1a: Manaphy|0 fnt
+|faint|p1a: Manaphy
+|
+|upkeep
+|
+|t:|1743783004
+|switch|p1a: Staraptor|Staraptor, M|100/100
+|turn|9
+|
+|t:|1743783019
+|switch|p2a: Joe|Gholdengo|100/100
+|-item|p2a: Joe|Air Balloon
+|move|p1a: Staraptor|Brave Bird|p2a: Joe
+|-resisted|p2a: Joe
+|-damage|p2a: Joe|46/100
+|-enditem|p2a: Joe|Air Balloon
+|-damage|p1a: Staraptor|82/100|[from] Recoil
+|-damage|p1a: Staraptor|72/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jsilva001)
+|inactive|Seraph522 has 120 seconds left.
+|
+|t:|1743783084
+|move|p1a: Staraptor|Brave Bird|p2a: Joe
+|-resisted|p2a: Joe
+|-damage|p2a: Joe|0 fnt
+|faint|p2a: Joe
+|-damage|p1a: Staraptor|57/100|[from] Recoil
+|-damage|p1a: Staraptor|47/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743783091
+|switch|p2a: The Tusk|Great Tusk|100/100
+|turn|11
+|
+|t:|1743783105
+|-terastallize|p2a: The Tusk|Steel
+|move|p1a: Staraptor|Brave Bird|p2a: The Tusk
+|-resisted|p2a: The Tusk
+|-damage|p2a: The Tusk|67/100
+|-damage|p1a: Staraptor|34/100|[from] Recoil
+|-damage|p1a: Staraptor|24/100|[from] item: Life Orb
+|move|p2a: The Tusk|Ice Spinner|p1a: Staraptor
+|-supereffective|p1a: Staraptor
+|-damage|p1a: Staraptor|0 fnt
+|faint|p1a: Staraptor
+|
+|upkeep
+|
+|t:|1743783118
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: The Tusk|atk|1
+|turn|12
+|
+|t:|1743783141
+|-end|p2a: The Tusk|Protosynthesis|[silent]
+|switch|p2a: Green Dragon|Dragonite, F, shiny|100/100
+|move|p1a: Landorus|Brick Break|p2a: Green Dragon
+|-resisted|p2a: Green Dragon
+|-damage|p2a: Green Dragon|91/100
+|-damage|p1a: Landorus|90/100|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|
+|t:|1743783155
+|move|p1a: Landorus|Rock Slide|p2a: Green Dragon
+|-supereffective|p2a: Green Dragon
+|-damage|p2a: Green Dragon|6/100
+|-damage|p1a: Landorus|80/100|[from] item: Life Orb
+|move|p2a: Green Dragon|Ice Spinner|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743783167
+|switch|p1a: Armarouge|Armarouge, M|100/100
+|-activate|p1a: Armarouge|move: Sticky Web
+|-unboost|p1a: Armarouge|spe|1
+|turn|14
+|
+|t:|1743783186
+|switch|p2a: Spiders|Araquanid, F|100/100
+|move|p1a: Armarouge|Energy Ball|p2a: Spiders
+|-crit|p2a: Spiders
+|-damage|p2a: Spiders|60/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743783198
+|move|p2a: Spiders|Liquidation|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|
+|upkeep
+|
+|t:|1743783203
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-activate|p1a: Gholdengo|move: Sticky Web
+|-unboost|p1a: Gholdengo|spe|1
+|turn|16
+|
+|t:|1743783213
+|move|p1a: Gholdengo|Make It Rain|p2a: Spiders
+|-resisted|p2a: Spiders
+|-damage|p2a: Spiders|34/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2a: Spiders|Liquidation|p1a: Gholdengo
+|-damage|p1a: Gholdengo|27/100
+|
+|upkeep
+|turn|17
+|inactive|jsilva001 has 120 seconds left.
+|l|☆jsilva001
+|inactive|jsilva001 disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|jsilva001 has 30 seconds to reconnect!
+|inactive|jsilva001 has 20 seconds to reconnect!
+|inactive|jsilva001 has 15 seconds to reconnect!
+|inactive|jsilva001 has 10 seconds to reconnect!
+|inactive|jsilva001 has 5 seconds to reconnect!
+|-message|jsilva001 lost due to inactivity.
+|
+|win|Seraph522
+|raw|jsilva001's rating: 1145 &rarr; <strong>1120</strong><br />(-25 for losing)
+|raw|Seraph522's rating: 1145 &rarr; <strong>1170</strong><br />(+25 for winning)

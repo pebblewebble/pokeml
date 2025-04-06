@@ -1,0 +1,278 @@
+|j|☆ImHavingAHeartache
+|j|☆liquid sorbet
+|t:|1743861873
+|gametype|singles
+|player|p1|ImHavingAHeartache|cynthia|1054
+|player|p2|liquid sorbet|miku-fire|1104
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Uxie|
+|poke|p1|Ursaluna, M|
+|poke|p1|Torkoal, M|
+|poke|p1|Iron Hands|
+|poke|p2|Shiftry, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Kingambit, F|
+|poke|p2|Chandelure, M|
+|poke|p2|Gholdengo|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by liquid sorbet)
+|inactive|ImHavingAHeartache also wants the timer to be on.
+|
+|t:|1743861880
+|start
+|switch|p1a: Goop|Hatterene, F|100/100
+|switch|p2a: Shiftry|Shiftry, M|100/100
+|turn|1
+|
+|t:|1743861900
+|move|p2a: Shiftry|Tailwind|p2a: Shiftry
+|-sidestart|p2: liquid sorbet|move: Tailwind
+|-ability|p2a: Shiftry|Wind Rider|boost
+|-boost|p2a: Shiftry|atk|1
+|move|p1a: Goop|Trick Room|p1a: Goop
+|-fieldstart|move: Trick Room|[of] p1a: Goop
+|
+|upkeep
+|turn|2
+|inactive|ImHavingAHeartache has 120 seconds left.
+|inactive|liquid sorbet has 120 seconds left.
+|
+|t:|1743861939
+|switch|p1a: Heatblast|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Heatblast
+|move|p2a: Shiftry|Explosion|p1a: Heatblast
+|-damage|p1a: Heatblast|15/100
+|faint|p2a: Shiftry
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743861957
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|3
+|
+|t:|1743861970
+|move|p2a: Kingambit|Sucker Punch|p1a: Heatblast
+|-damage|p1a: Heatblast|0 fnt
+|faint|p1a: Heatblast
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|ImHavingAHeartache has 120 seconds left.
+|
+|t:|1743861993
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|turn|4
+|inactive|liquid sorbet has 120 seconds left.
+|
+|t:|1743862009
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|move|p1a: Ursaluna|Headlong Rush|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Chandelure
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: liquid sorbet|move: Tailwind
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1743862017
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|5
+|inactive|ImHavingAHeartache has 120 seconds left.
+|
+|t:|1743862032
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: Ursaluna|Headlong Rush|p2a: Enamorus
+|-immune|p2a: Enamorus
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|inactive|ImHavingAHeartache has 120 seconds left.
+|
+|t:|1743862046
+|move|p2a: Enamorus|Tailwind|p2a: Enamorus
+|-sidestart|p2: liquid sorbet|move: Tailwind
+|move|p1a: Ursaluna|Facade|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|-start|p1a: Ursaluna|Attract|[from] ability: Cute Charm|[of] p2a: Enamorus
+|faint|p2a: Enamorus
+|-end|p1a: Ursaluna|Attract|[silent]
+|
+|-weather|none
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1743862055
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|7
+|
+|t:|1743862066
+|move|p2a: Hoopa|Drain Punch|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|18/100 brn
+|move|p1a: Ursaluna|Crunch|p2a: Hoopa
+|-damage|p2a: Hoopa|23/100
+|
+|-damage|p1a: Ursaluna|12/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743862075
+|move|p2a: Hoopa|Knock Off|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-enditem|p1a: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p2a: Hoopa
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1743862081
+|switch|p1a: Goop|Hatterene, F|100/100
+|turn|9
+|
+|t:|1743862087
+|move|p2a: Hoopa|Gunk Shot|p1a: Goop
+|-supereffective|p1a: Goop
+|-damage|p1a: Goop|16/100
+|move|p1a: Goop|Trick Room|p1a: Goop
+|-fieldstart|move: Trick Room|[of] p1a: Goop
+|
+|-sideend|p2: liquid sorbet|move: Tailwind
+|upkeep
+|turn|10
+|
+|t:|1743862095
+|move|p1a: Goop|Dazzling Gleam|p2a: Hoopa
+|-supereffective|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+|
+|t:|1743862103
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|11
+|
+|t:|1743862118
+|switch|p1a: Iron Hands|Iron Hands, shiny|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdrivedef
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|upkeep
+|turn|12
+|
+|t:|1743862126
+|-end|p2a: Kingambit|fallen4|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Iron Hands|Drain Punch|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|upkeep
+|turn|13
+|
+|t:|1743862136
+|move|p1a: Iron Hands|Belly Drum|p1a: Iron Hands
+|-damage|p1a: Iron Hands|51/100
+|-setboost|p1a: Iron Hands|atk|6|[from] move: Belly Drum
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|t:|1743862149
+|move|p2a: Gholdengo|Shadow Ball|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743862156
+|switch|p1a: Clockwork|Uxie|100/100
+|turn|15
+|
+|t:|1743862160
+|move|p2a: Gholdengo|Shadow Ball|p1a: Clockwork
+|-supereffective|p1a: Clockwork
+|-damage|p1a: Clockwork|7/100
+|move|p1a: Clockwork|Trick Room|p1a: Clockwork
+|-fieldstart|move: Trick Room|[of] p1a: Clockwork
+|
+|upkeep
+|turn|16
+|
+|t:|1743862166
+|move|p1a: Clockwork|Memento|p2a: Gholdengo
+|-immune|p2a: Gholdengo|[from] ability: Good as Gold
+|move|p2a: Gholdengo|Shadow Ball|p1a: Clockwork
+|-supereffective|p1a: Clockwork
+|-damage|p1a: Clockwork|0 fnt
+|faint|p1a: Clockwork
+|
+|upkeep
+|
+|t:|1743862171
+|switch|p1a: Swampfire|Cinderace, F|100/100
+|turn|17
+|
+|t:|1743862187
+|-terastallize|p2a: Gholdengo|Water
+|move|p2a: Gholdengo|Shadow Ball|p1a: Swampfire
+|-damage|p1a: Swampfire|0 fnt
+|faint|p1a: Swampfire
+|
+|upkeep
+|
+|t:|1743862193
+|switch|p1a: Goop|Hatterene, F|16/100
+|turn|18
+|
+|t:|1743862219
+|move|p1a: Goop|Psychic|p2a: Gholdengo
+|-damage|p2a: Gholdengo|57/100
+|-unboost|p2a: Gholdengo|spd|1
+|-enditem|p2a: Gholdengo|White Herb
+|-clearnegativeboost|p2a: Gholdengo|[silent]
+|move|p2a: Gholdengo|Shadow Ball|p1a: Goop
+|-supereffective|p1a: Goop
+|-damage|p1a: Goop|0 fnt
+|faint|p1a: Goop
+|
+|win|liquid sorbet
+|raw|ImHavingAHeartache's rating: 1054 &rarr; <strong>1037</strong><br />(-17 for losing)
+|raw|liquid sorbet's rating: 1076 &rarr; <strong>1103</strong><br />(+27 for winning)
+|l|☆ImHavingAHeartache
+|player|p1|
+|l|☆liquid sorbet
+|player|p2|

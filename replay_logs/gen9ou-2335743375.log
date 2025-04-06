@@ -1,0 +1,405 @@
+|j|☆colories
+|j|‽DanCong
+|t:|1743829100
+|gametype|singles
+|player|p1|colories|caitlin|1126
+|player|p2|DanCong|101|1165
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Gyarados, F|
+|poke|p1|Kingdra, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Pelipper, F|
+|poke|p1|Glimmora, F|
+|poke|p2|Alomomola, F|
+|poke|p2|Pecharunt|
+|poke|p2|Skeledirge, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Tinkaton, F|
+|poke|p2|Great Tusk|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DanCong)
+|
+|t:|1743829114
+|start
+|switch|p1a: I hate rain dish|Pelipper, F, shiny|100/100
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-item|p2a: Tinkaton|Air Balloon
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: I hate rain dish
+|turn|1
+|
+|t:|1743829124
+|move|p2a: Tinkaton|Thunder Wave|p1a: I hate rain dish
+|-status|p1a: I hate rain dish|par
+|cant|p1a: I hate rain dish|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743829131
+|move|p2a: Tinkaton|Stealth Rock|p1a: I hate rain dish
+|-sidestart|p1: colories|move: Stealth Rock
+|move|p1a: I hate rain dish|U-turn|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|98/100
+|-enditem|p2a: Tinkaton|Air Balloon
+|-enditem|p1a: I hate rain dish|Damp Rock|[silent]|[from] ability: Pickpocket|[of] p1a: I hate rain dish
+|-item|p2a: Tinkaton|Damp Rock|[from] ability: Pickpocket|[of] p1a: I hate rain dish
+|
+|t:|1743829142
+|switch|p1a: blue.|Glimmora, F, shiny|100/100|[from] U-turn
+|-damage|p1a: blue.|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743829156
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: blue.
+|-supereffective|p1a: blue.
+|-damage|p1a: blue.|0 fnt
+|-activate|p1a: blue.|ability: Toxic Debris
+|-sidestart|p2: DanCong|move: Toxic Spikes
+|faint|p1a: blue.
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743829163
+|switch|p1a: reddish carrot|Gyarados, F, shiny|100/100
+|-damage|p1a: reddish carrot|76/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1743829170
+|move|p2a: Tinkaton|Thunder Wave|p1a: reddish carrot
+|-status|p1a: reddish carrot|par
+|-enditem|p1a: reddish carrot|Lum Berry|[eat]
+|-curestatus|p1a: reddish carrot|par|[msg]
+|move|p1a: reddish carrot|Dragon Dance|p1a: reddish carrot
+|-boost|p1a: reddish carrot|atk|1
+|-boost|p1a: reddish carrot|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743829183
+|move|p1a: reddish carrot|Waterfall|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|-ability|p1a: reddish carrot|Moxie|boost
+|-boost|p1a: reddish carrot|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743829189
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-sideend|p2: DanCong|move: Toxic Spikes|[of] p2a: Pecharunt
+|turn|6
+|
+|t:|1743829195
+|move|p1a: reddish carrot|Waterfall|p2a: Pecharunt
+|-damage|p2a: Pecharunt|24/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: reddish carrot
+|-damage|p1a: reddish carrot|42/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pecharunt|30/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743829203
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: reddish carrot|Waterfall|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|65/100
+|-damage|p1a: reddish carrot|25/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743829217
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: reddish carrot|Stone Edge|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743829225
+|move|p1a: reddish carrot|Dragon Dance|p1a: reddish carrot
+|-boost|p1a: reddish carrot|atk|1
+|-boost|p1a: reddish carrot|spe|1
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|10
+|
+|t:|1743829233
+|move|p1a: reddish carrot|Dragon Dance|p1a: reddish carrot
+|-boost|p1a: reddish carrot|atk|1
+|-boost|p1a: reddish carrot|spe|1
+|move|p2a: Alomomola|Flip Turn|p1a: reddish carrot
+|-resisted|p1a: reddish carrot
+|-damage|p1a: reddish carrot|15/100
+|
+|t:|1743829243
+|switch|p2a: Pecharunt|Pecharunt|30/100|[from] Flip Turn
+|
+|-heal|p2a: Pecharunt|93/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Pecharunt|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743829253
+|switch|p2a: Alomomola|Alomomola, F|99/100
+|move|p1a: reddish carrot|Stone Edge|p2a: Alomomola
+|-damage|p2a: Alomomola|42/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743829268
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: reddish carrot|Stone Edge|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|upkeep
+|turn|13
+|inactive|DanCong has 120 seconds left.
+|inactive|DanCong has 90 seconds left.
+|
+|t:|1743829325
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: reddish carrot|Stone Edge|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|82/100
+|
+|-heal|p2a: Great Tusk|88/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|DanCong has 90 seconds left.
+|
+|t:|1743829337
+|move|p1a: reddish carrot|Waterfall|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-ability|p1a: reddish carrot|Moxie|boost
+|-boost|p1a: reddish carrot|atk|1
+|
+|upkeep
+|inactive|DanCong has 90 seconds left.
+|
+|t:|1743829343
+|switch|p2a: Alomomola|Alomomola, F|75/100
+|turn|15
+|inactive|DanCong has 90 seconds left.
+|
+|t:|1743829356
+|move|p1a: reddish carrot|Stone Edge|p2a: Alomomola|[miss]
+|-miss|p1a: reddish carrot|p2a: Alomomola
+|move|p2a: Alomomola|Flip Turn|p1a: reddish carrot
+|-resisted|p1a: reddish carrot
+|-damage|p1a: reddish carrot|5/100
+|inactive|DanCong has 90 seconds left.
+|
+|t:|1743829364
+|switch|p2a: Pecharunt|Pecharunt|99/100|[from] Flip Turn
+|
+|-heal|p2a: Pecharunt|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743829370
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: reddish carrot|Waterfall|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|58/100
+|-damage|p1a: reddish carrot|0 fnt|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|faint|p1a: reddish carrot
+|
+|upkeep
+|
+|t:|1743829382
+|switch|p1a: I hate her|Iron Valiant, shiny|100/100
+|-damage|p1a: I hate her|94/100|[from] Stealth Rock
+|-enditem|p1a: I hate her|Booster Energy
+|-activate|p1a: I hate her|ability: Quark Drive|[fromitem]
+|-start|p1a: I hate her|quarkdrivespe
+|turn|17
+|
+|t:|1743829397
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: I hate her|Thunderbolt|p2a: Pecharunt
+|-damage|p2a: Pecharunt|69/100
+|
+|-heal|p2a: Pecharunt|75/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743829407
+|move|p1a: I hate her|Shadow Ball|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|24/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: I hate her
+|-supereffective|p1a: I hate her
+|-damage|p1a: I hate her|0 fnt
+|faint|p1a: I hate her
+|-end|p1a: I hate her|Quark Drive|[silent]
+|
+|-heal|p2a: Pecharunt|30/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743829412
+|switch|p1a: I hate rain dish|Pelipper, F, shiny|100/100 par
+|-damage|p1a: I hate rain dish|76/100 par|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: I hate rain dish
+|turn|19
+|
+|t:|1743829420
+|switch|p2a: Alomomola|Alomomola, F|92/100
+|switch|p1a: I hate fairy types|Kingdra, F, shiny|100/100
+|-damage|p1a: I hate fairy types|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1743829432
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: I hate fairy types|Hurricane|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743829441
+|move|p1a: I hate fairy types|Hurricane|p2a: Alomomola
+|-damage|p2a: Alomomola|47/100
+|-start|p2a: Alomomola|confusion
+|-activate|p2a: Alomomola|confusion
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1743829450
+|switch|p2a: Pecharunt|Pecharunt|30/100
+|move|p1a: I hate fairy types|Hurricane|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743829458
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|turn|23
+|inactive|DanCong has 120 seconds left.
+|
+|t:|1743829464
+|move|p1a: I hate fairy types|Hurricane|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|-weather|none
+|upkeep
+|inactive|DanCong has 120 seconds left.
+|
+|t:|1743829470
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|turn|24
+|inactive|DanCong has 120 seconds left.
+|
+|t:|1743829491
+|switch|p1a: I hate rain dish|Pelipper, F, shiny|76/100 par
+|-damage|p1a: I hate rain dish|51/100 par|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: I hate rain dish
+|-terastallize|p2a: Skeledirge|Fairy
+|move|p2a: Skeledirge|Torch Song|p1a: I hate rain dish
+|-resisted|p1a: I hate rain dish
+|-damage|p1a: I hate rain dish|41/100 par
+|-boost|p2a: Skeledirge|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|inactive|colories has 120 seconds left.
+|
+|t:|1743829543
+|move|p2a: Skeledirge|Torch Song|p1a: I hate rain dish
+|-resisted|p1a: I hate rain dish
+|-damage|p1a: I hate rain dish|26/100 par
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: I hate rain dish|U-turn|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|98/100
+|
+|t:|1743829549
+|switch|p1a: big ball|Goodra-Hisui, M, shiny|100/100|[from] U-turn
+|-damage|p1a: big ball|94/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|inactive|DanCong has 120 seconds left.
+|
+|t:|1743829557
+|move|p2a: Skeledirge|Torch Song|p1a: big ball
+|-damage|p1a: big ball|80/100
+|-boost|p2a: Skeledirge|spa|1
+|move|p1a: big ball|Flash Cannon|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|41/100
+|-unboost|p2a: Skeledirge|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|inactive|DanCong has 120 seconds left.
+|
+|t:|1743829568
+|move|p2a: Skeledirge|Earth Power|p1a: big ball
+|-supereffective|p1a: big ball
+|-damage|p1a: big ball|31/100
+|move|p1a: big ball|Flash Cannon|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|DanCong has 120 seconds left.
+|-message|DanCong forfeited.
+|
+|win|colories
+|raw|colories's rating: 1126 &rarr; <strong>1154</strong><br />(+28 for winning)
+|raw|DanCong's rating: 1165 &rarr; <strong>1137</strong><br />(-28 for losing)
+|l|‽DanCong
+|player|p2|
+|l|☆colories
+|player|p1|

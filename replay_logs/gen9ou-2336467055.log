@@ -1,0 +1,276 @@
+|j|☆PrayStar
+|j|☆luluicer
+|t:|1743922451
+|gametype|singles
+|player|p1|PrayStar|101|1323
+|player|p2|luluicer|2|1271
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Greninja-*, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Sandy Shocks|
+|poke|p1|Scizor, F|
+|poke|p1|Raging Bolt|
+|poke|p2|Ogerpon, F|
+|poke|p2|Jirachi|
+|poke|p2|Heatran, F|
+|poke|p2|Alomomola, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|t:|1743922467
+|start
+|switch|p1a: Sandy Shocks|Sandy Shocks, shiny|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|-enditem|p1a: Sandy Shocks|Booster Energy
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p1a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|t:|1743922483
+|move|p2a: Iron Treads|Earthquake|p1a: Sandy Shocks
+|-supereffective|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|0 fnt
+|faint|p1a: Sandy Shocks
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743922494
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|2
+|
+|t:|1743922498
+|move|p2a: Iron Treads|Volt Switch|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-crit|p1a: Greninja
+|-damage|p1a: Greninja|45/100
+|
+|t:|1743922502
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Alomomola|Alomomola, M|100/100|[from] Volt Switch
+|move|p1a: Greninja|Surf|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|68/100
+|-damage|p1a: Greninja|35/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1743922511
+|move|p1a: Greninja|Dark Pulse|p2a: Alomomola
+|-damage|p2a: Alomomola|15/100
+|-damage|p1a: Greninja|25/100|[from] item: Life Orb
+|move|p2a: Alomomola|Flip Turn|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|13/100
+|
+|t:|1743922518
+|switch|p2a: Rillaboom|Rillaboom, M|100/100|[from] Flip Turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|
+|-heal|p1a: Greninja|19/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1743922529
+|move|p1a: Greninja|Water Shuriken|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-crit|p2a: Rillaboom
+|-damage|p2a: Rillaboom|92/100
+|-resisted|p2a: Rillaboom
+|-crit|p2a: Rillaboom
+|-damage|p2a: Rillaboom|84/100
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|79/100
+|-hitcount|p2a: Rillaboom|3
+|-damage|p1a: Greninja|9/100|[from] item: Life Orb
+|move|p2a: Rillaboom|Grassy Glide|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|-heal|p2a: Rillaboom|85/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743922545
+|switch|p1a: Pelipper|Pelipper, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|5
+|
+|t:|1743922560
+|switch|p2a: Alomomola|Alomomola, M|48/100
+|move|p1a: Pelipper|Ice Beam|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|31/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|37/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1743922569
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Pelipper|Hurricane|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|82/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1743922580
+|move|p2a: Jirachi|Meteor Beam||[still]
+|-prepare|p2a: Jirachi|Meteor Beam
+|-boost|p2a: Jirachi|spa|1
+|-enditem|p2a: Jirachi|Power Herb
+|-anim|p2a: Jirachi|Meteor Beam|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Jirachi|88/100|[from] Grassy Terrain
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by luluicer)
+|
+|t:|1743922594
+|switch|p1a: Basculegion|Basculegion, M, shiny|100/100
+|turn|8
+|
+|t:|1743922610
+|move|p1a: Basculegion|Wave Crash|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|-damage|p1a: Basculegion|75/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Basculegion|81/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743922616
+|switch|p2a: Rillaboom|Rillaboom, M|85/100
+|turn|9
+|
+|t:|1743922627
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|switch|p2a: Alomomola|Alomomola, M|70/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Alomomola|76/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1743922638
+|move|p1a: Raging Bolt|Thunder|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1743922641
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|11
+|
+|t:|1743922659
+|move|p2a: Iron Treads|Earthquake|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|24/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|51/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743922670
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Basculegion|Basculegion, M, shiny|81/100
+|move|p2a: Iron Treads|Earthquake|p1a: Basculegion
+|-damage|p1a: Basculegion|17/100
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1743922679
+|move|p1a: Basculegion|Aqua Jet|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743922683
+|switch|p2a: Rillaboom|Rillaboom, M|85/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|14
+|
+|t:|1743922689
+|move|p2a: Rillaboom|Grassy Glide|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|-heal|p2a: Rillaboom|91/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743922700
+|switch|p1a: Scizor|Scizor, F, shiny|100/100
+|turn|15
+|
+|t:|1743922706
+|-terastallize|p2a: Rillaboom|Fire
+|move|p2a: Rillaboom|Tera Blast|p1a: Scizor|[anim] Tera Blast Fire
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-heal|p2a: Rillaboom|97/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743922719
+|switch|p1a: Raging Bolt|Raging Bolt|24/100
+|turn|16
+|
+|t:|1743922723
+|move|p1a: Raging Bolt|Thunderclap|p2a: Rillaboom
+|-damage|p2a: Rillaboom|42/100
+|move|p2a: Rillaboom|High Horsepower|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|luluicer
+|raw|PrayStar's rating: 1323 &rarr; <strong>1301</strong><br />(-22 for losing)
+|raw|luluicer's rating: 1295 &rarr; <strong>1322</strong><br />(+27 for winning)
+|l|☆PrayStar
+|player|p1|
+|l|☆luluicer
+|player|p2|

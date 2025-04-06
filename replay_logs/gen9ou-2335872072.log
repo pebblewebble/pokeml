@@ -1,0 +1,305 @@
+|j|☆dmac99
+|j|☆jiotave
+|t:|1743851698
+|gametype|singles
+|player|p1|dmac99|veteran|1509
+|player|p2|jiotave|hilbert|1587
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zapdos|
+|poke|p1|Volcanion|
+|poke|p1|Dragapult, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Great Tusk|
+|poke|p2|Torkoal, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Walking Wake|
+|poke|p2|Iron Moth|
+|poke|p2|Venusaur, M|
+|poke|p2|Great Tusk|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jiotave)
+|
+|t:|1743851705
+|start
+|switch|p1a: Volcanion|Volcanion|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1743851713
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Volcanion|Earth Power|p2a: Hatterene
+|-damage|p2a: Hatterene|48/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1743851722
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743851736
+|move|p2a: Venusaur|Solar Beam||[still]
+|-prepare|p2a: Venusaur|Solar Beam
+|-anim|p2a: Venusaur|Solar Beam|p1a: Volcanion
+|-damage|p1a: Volcanion|1/100
+|-damage|p2a: Venusaur|91/100|[from] item: Life Orb
+|move|p1a: Volcanion|Earth Power|p2a: Venusaur
+|-damage|p2a: Venusaur|42/100
+|-unboost|p2a: Venusaur|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743851748
+|switch|p1a: Goodra|Goodra-Hisui, M|100/100
+|move|p2a: Venusaur|Solar Beam||[still]
+|-prepare|p2a: Venusaur|Solar Beam
+|-anim|p2a: Venusaur|Solar Beam|p1a: Goodra
+|-ability|p1a: Goodra|Sap Sipper|boost
+|-boost|p1a: Goodra|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743851759
+|switch|p2a: Hatterene|Hatterene, F|48/100
+|move|p1a: Goodra|Flamethrower|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743851769
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|5
+|inactive|dmac99 has 120 seconds left.
+|
+|t:|1743851804
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|inactive|dmac99 has 120 seconds left.
+|
+|t:|1743851814
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisspe
+|move|p2a: Great Tusk|Ice Spinner|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|58/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743851824
+|move|p2a: Great Tusk|Ice Spinner|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|13/100
+|move|p1a: Great Tusk|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: jiotave|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743851831
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Great Tusk|Ice Spinner|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|none
+|-end|p2a: Great Tusk|Protosynthesis
+|upkeep
+|
+|t:|1743851837
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|9
+|
+|t:|1743851845
+|-terastallize|p2a: Great Tusk|Ice
+|move|p1a: Indeedee|Expanding Force|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743851853
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-damage|p2a: Torkoal|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|10
+|
+|t:|1743851858
+|move|p1a: Indeedee|Expanding Force|p2a: Torkoal
+|-crit|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆jiotave|ROBBED
+|
+|t:|1743851869
+|switch|p2a: Dreamfyre|Walking Wake|100/100
+|-damage|p2a: Dreamfyre|88/100|[from] Stealth Rock
+|-activate|p2a: Dreamfyre|ability: Protosynthesis
+|-start|p2a: Dreamfyre|protosynthesisspe
+|turn|11
+|
+|t:|1743851876
+|switch|p1a: Volcanion|Volcanion|1/100
+|move|p2a: Dreamfyre|Flamethrower|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743851881
+|switch|p1a: Goodra|Goodra-Hisui, M|100/100
+|turn|12
+|
+|t:|1743851887
+|move|p2a: Dreamfyre|Flamethrower|p1a: Goodra
+|-damage|p1a: Goodra|74/100
+|move|p1a: Goodra|Dragon Tail|p2a: Dreamfyre
+|-supereffective|p2a: Dreamfyre
+|-damage|p2a: Dreamfyre|50/100
+|-end|p2a: Dreamfyre|Protosynthesis|[silent]
+|drag|p2a: Venusaur|Venusaur, M|42/100
+|-damage|p2a: Venusaur|29/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743851898
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Venusaur|Weather Ball|p1a: Zapdos
+|-damage|p1a: Zapdos|40/100
+|-damage|p2a: Venusaur|19/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|14
+|
+|t:|1743851908
+|move|p2a: Venusaur|Weather Ball|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-damage|p2a: Venusaur|9/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743851917
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|15
+|
+|t:|1743851922
+|switch|p1a: Great Tusk|Great Tusk|13/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisspe
+|move|p2a: Venusaur|Weather Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: Venusaur|0 fnt|[from] item: Life Orb
+|faint|p2a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743851936
+|switch|p1a: Goodra|Goodra-Hisui, M|74/100
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-damage|p2a: Iron Moth|76/100|[from] Stealth Rock
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|16
+|
+|t:|1743851945
+|move|p2a: Iron Moth|Fiery Dance|p1a: Goodra
+|-damage|p1a: Goodra|50/100
+|move|p1a: Goodra|Dragon Tail|p2a: Iron Moth
+|-damage|p2a: Iron Moth|48/100
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|drag|p2a: Dreamfyre|Walking Wake|50/100
+|-damage|p2a: Dreamfyre|38/100|[from] Stealth Rock
+|-activate|p2a: Dreamfyre|ability: Protosynthesis
+|-start|p2a: Dreamfyre|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743851962
+|-terastallize|p1a: Goodra|Fairy
+|move|p2a: Dreamfyre|Draco Meteor|p1a: Goodra
+|-immune|p1a: Goodra
+|move|p1a: Goodra|Dragon Tail|p2a: Dreamfyre
+|-supereffective|p2a: Dreamfyre
+|-damage|p2a: Dreamfyre|0 fnt
+|faint|p2a: Dreamfyre
+|-end|p2a: Dreamfyre|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743851973
+|switch|p2a: Iron Moth|Iron Moth|48/100
+|-damage|p2a: Iron Moth|23/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1743851978
+|move|p2a: Iron Moth|Sludge Wave|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|15/100
+|move|p1a: Goodra|Dragon Tail|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|win|dmac99
+|raw|dmac99's rating: 1509 &rarr; <strong>1533</strong><br />(+24 for winning)
+|raw|jiotave's rating: 1587 &rarr; <strong>1563</strong><br />(-24 for losing)
+|l|☆dmac99
+|player|p1|
+|l|☆jiotave
+|player|p2|

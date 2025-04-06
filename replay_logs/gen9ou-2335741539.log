@@ -1,0 +1,281 @@
+|j|☆ignavos
+|j|☆colories
+|t:|1743828832
+|gametype|singles
+|player|p1|ignavos|burglar|1141
+|player|p2|colories|caitlin|1097
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Moth|
+|poke|p1|Hydreigon, F|
+|poke|p1|Great Tusk|
+|poke|p1|Basculegion, M|
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Tinkaton, F|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Gyarados, M|
+|poke|p2|Kingdra, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Pelipper, M|
+|poke|p2|Glimmora, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ignavos)
+|
+|t:|1743828838
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: I hate rain dish|Pelipper, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: I hate rain dish
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisdef
+|turn|1
+|
+|t:|1743828849
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|move|p2a: I hate rain dish|Surf|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|69/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743828863
+|move|p1a: Basculegion|Flip Turn|p2a: I hate rain dish
+|-resisted|p2a: I hate rain dish
+|-damage|p2a: I hate rain dish|57/100
+|-damage|p1a: Basculegion|59/100|[from] item: Life Orb
+|
+|t:|1743828869
+|switch|p1a: Tinkaton|Tinkaton, F|100/100|[from] Flip Turn
+|-item|p1a: Tinkaton|Air Balloon
+|move|p2a: I hate rain dish|U-turn|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|98/100
+|-enditem|p1a: Tinkaton|Air Balloon
+|-enditem|p2a: I hate rain dish|Damp Rock|[silent]|[from] ability: Pickpocket|[of] p2a: I hate rain dish
+|-item|p1a: Tinkaton|Damp Rock|[from] ability: Pickpocket|[of] p2a: I hate rain dish
+|
+|t:|1743828880
+|switch|p2a: reddish carrot|Gyarados, M, shiny|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743828883
+|move|p2a: reddish carrot|Dragon Dance|p2a: reddish carrot
+|-boost|p2a: reddish carrot|atk|1
+|-boost|p2a: reddish carrot|spe|1
+|move|p1a: Tinkaton|Thunder Wave|p2a: reddish carrot
+|-status|p2a: reddish carrot|par
+|-enditem|p2a: reddish carrot|Lum Berry|[eat]
+|-curestatus|p2a: reddish carrot|par|[msg]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743828899
+|move|p2a: reddish carrot|Waterfall|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|-ability|p2a: reddish carrot|Moxie|boost
+|-boost|p2a: reddish carrot|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743828919
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|5
+|
+|t:|1743828928
+|-terastallize|p1a: Iron Moth|Grass
+|move|p2a: reddish carrot|Dragon Dance|p2a: reddish carrot
+|-boost|p2a: reddish carrot|atk|1
+|-boost|p2a: reddish carrot|spe|1
+|move|p1a: Iron Moth|Sludge Wave|p2a: reddish carrot
+|-damage|p2a: reddish carrot|19/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743828941
+|move|p2a: reddish carrot|Outrage|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|-ability|p2a: reddish carrot|Moxie|boost
+|-boost|p2a: reddish carrot|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743828949
+|switch|p1a: Basculegion|Basculegion, M|59/100
+|turn|7
+|
+|t:|1743828954
+|move|p1a: Basculegion|Aqua Jet|p2a: reddish carrot
+|-resisted|p2a: reddish carrot
+|-damage|p2a: reddish carrot|0 fnt
+|faint|p2a: reddish carrot
+|-damage|p1a: Basculegion|49/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743828961
+|switch|p2a: blue.|Glimmora, M, shiny|100/100
+|turn|8
+|
+|t:|1743828965
+|move|p2a: blue.|Stealth Rock|p1a: Basculegion
+|-sidestart|p1: ignavos|move: Stealth Rock
+|move|p1a: Basculegion|Flip Turn|p2a: blue.
+|-supereffective|p2a: blue.
+|-enditem|p2a: blue.|Focus Sash
+|-damage|p2a: blue.|1/100
+|-activate|p2a: blue.|ability: Toxic Debris
+|-sidestart|p1: ignavos|move: Toxic Spikes
+|-damage|p1a: Basculegion|39/100|[from] item: Life Orb
+|
+|t:|1743828977
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Flip Turn
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-status|p1a: Great Tusk|psn
+|
+|-weather|none
+|-damage|p1a: Great Tusk|85/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743828993
+|move|p2a: blue.|Mortal Spin|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|84/100 psn
+|move|p1a: Great Tusk|Rapid Spin|p2a: blue.
+|-resisted|p2a: blue.
+|-damage|p2a: blue.|0 fnt
+|-boost|p1a: Great Tusk|spe|1
+|-activate|p2a: blue.|ability: Toxic Debris
+|-sidestart|p1: ignavos|move: Toxic Spikes
+|-sideend|p1: ignavos|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: ignavos|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|faint|p2a: blue.
+|
+|-damage|p1a: Great Tusk|71/100 psn|[from] psn
+|upkeep
+|
+|t:|1743829005
+|switch|p2a: I hate rain dish|Pelipper, M, shiny|57/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: I hate rain dish
+|turn|10
+|
+|t:|1743829014
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|move|p2a: I hate rain dish|Surf|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|65/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Hydreigon|71/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743829026
+|switch|p2a: I hate her|Iron Valiant, shiny|100/100
+|-enditem|p2a: I hate her|Booster Energy
+|-activate|p2a: I hate her|ability: Quark Drive|[fromitem]
+|-start|p2a: I hate her|quarkdrivespe
+|move|p1a: Hydreigon|Draco Meteor|p2a: I hate her
+|-immune|p2a: I hate her
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Hydreigon|77/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743829036
+|switch|p1a: Braviary|Braviary-Hisui, M|100/100
+|move|p2a: I hate her|Moonblast|p1a: Braviary
+|-damage|p1a: Braviary|46/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Braviary|52/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743829052
+|move|p2a: I hate her|Thunderbolt|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743829056
+|switch|p1a: Great Tusk|Great Tusk|71/100 psn
+|turn|14
+|
+|t:|1743829061
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Hydreigon|Hydreigon, F|77/100
+|move|p2a: I hate her|Moonblast|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|-weather|none
+|upkeep
+|
+|t:|1743829066
+|switch|p1a: Basculegion|Basculegion, M|39/100
+|turn|15
+|
+|t:|1743829075
+|move|p2a: I hate her|Thunderbolt|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|upkeep
+|
+|t:|1743829078
+|switch|p1a: Great Tusk|Great Tusk|71/100 psn
+|turn|16
+|
+|t:|1743829083
+|move|p2a: I hate her|Moonblast|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|win|colories
+|raw|ignavos's rating: 1141 &rarr; <strong>1113</strong><br />(-28 for losing)
+|raw|colories's rating: 1097 &rarr; <strong>1126</strong><br />(+29 for winning)
+|l|☆ignavos
+|player|p1|
+|l|☆colories
+|player|p2|

@@ -1,0 +1,569 @@
+|j|☆speeeedwagon
+|j|☆Baby Monster MAGA
+|t:|1743936929
+|gametype|singles
+|player|p1|speeeedwagon|richboy-gen4|1542
+|player|p2|Baby Monster MAGA|265|1495
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Raging Bolt|
+|poke|p1|Corviknight, F|
+|poke|p1|Ting-Lu|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Hydrapple, M|
+|poke|p2|Torkoal, F|
+|poke|p2|Walking Wake|
+|poke|p2|Great Tusk|
+|poke|p2|Venusaur, F|
+|poke|p2|Garchomp, F|
+|poke|p2|Goodra-Hisui, M|
+|teampreview
+|
+|t:|1743936933
+|start
+|switch|p1a: Biggie Slows|Slowking-Galar, M, shiny|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1743936945
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|move|p1a: Biggie Slows|Trick|p2a: Garchomp
+|-activate|p1a: Biggie Slows|move: Trick|[of] p2a: Garchomp
+|-item|p2a: Garchomp|Black Sludge|[from] move: Trick
+|-item|p1a: Biggie Slows|Rocky Helmet|[from] move: Trick
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Garchomp|88/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1743936952
+|move|p2a: Garchomp|Stealth Rock|p1a: Biggie Slows
+|-sidestart|p1: speeeedwagon|move: Stealth Rock
+|-prepare|p1a: Biggie Slows|Chilly Reception|[premajor]
+|move|p1a: Biggie Slows|Chilly Reception|p1a: Biggie Slows
+|-weather|Snowscape
+|
+|t:|1743936964
+|switch|p1a: Flocka Flame|Cinderace, F, shiny|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Garchomp|76/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1743936969
+|move|p1a: Flocka Flame|Court Change|p1a: Flocka Flame
+|-start|p1a: Flocka Flame|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Flocka Flame|move: Court Change
+|move|p2a: Garchomp|Earthquake|p1a: Flocka Flame
+|-damage|p1a: Flocka Flame|42/100
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Garchomp|63/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1743936973
+|move|p1a: Flocka Flame|U-turn|p2a: Garchomp
+|-damage|p2a: Garchomp|48/100
+|-damage|p1a: Flocka Flame|29/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|
+|t:|1743936978
+|switch|p1a: Steve Jobs|Hydrapple, M, shiny|100/100|[from] U-turn
+|move|p2a: Garchomp|Stealth Rock|p1a: Steve Jobs
+|-sidestart|p1: speeeedwagon|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Garchomp|36/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1743936983
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|-damage|p2a: Goodra|94/100|[from] Stealth Rock
+|move|p1a: Steve Jobs|Earth Power|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|74/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743936987
+|switch|p1a: Ting Diesel|Ting-Lu|100/100
+|-damage|p1a: Ting Diesel|94/100|[from] Stealth Rock
+|-ability|p1a: Ting Diesel|Vessel of Ruin
+|move|p2a: Goodra|Knock Off|p1a: Ting Diesel
+|-resisted|p1a: Ting Diesel
+|-damage|p1a: Ting Diesel|89/100
+|-enditem|p1a: Ting Diesel|Leftovers|[from] move: Knock Off|[of] p2a: Goodra
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1743936992
+|switch|p2a: Venusaur|Venusaur, F|100/100
+|-damage|p2a: Venusaur|88/100|[from] Stealth Rock
+|move|p1a: Ting Diesel|Earthquake|p2a: Venusaur
+|-crit|p2a: Venusaur
+|-damage|p2a: Venusaur|31/100
+|
+|-heal|p2a: Venusaur|37/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743936998
+|move|p2a: Venusaur|Leech Seed|p1a: Ting Diesel
+|-start|p1a: Ting Diesel|move: Leech Seed
+|move|p1a: Ting Diesel|Earthquake|p2a: Venusaur
+|-damage|p2a: Venusaur|2/100
+|
+|-heal|p2a: Venusaur|8/100|[from] item: Leftovers
+|-damage|p1a: Ting Diesel|77/100|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|25/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1743937005
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-damage|p2a: Torkoal|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|switch|p1a: Zeus Wayne|Raging Bolt|100/100
+|-damage|p1a: Zeus Wayne|88/100|[from] Stealth Rock
+|-activate|p1a: Zeus Wayne|ability: Protosynthesis
+|-start|p1a: Zeus Wayne|protosynthesisspa
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743937013
+|switch|p2a: Venusaur|Venusaur, F|25/100
+|-damage|p2a: Venusaur|13/100|[from] Stealth Rock
+|move|p1a: Zeus Wayne|Weather Ball|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743937016
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|11
+|
+|t:|1743937021
+|-end|p1a: Zeus Wayne|Protosynthesis|[silent]
+|switch|p1a: Crow J Simpson|Corviknight, F, shiny|100/100
+|-damage|p1a: Crow J Simpson|88/100|[from] Stealth Rock
+|-ability|p1a: Crow J Simpson|Pressure
+|move|p2a: Great Tusk|Headlong Rush|p1a: Crow J Simpson
+|-immune|p1a: Crow J Simpson
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743937044
+|switch|p1a: Steve Jobs|Hydrapple, M, shiny|100/100
+|-damage|p1a: Steve Jobs|88/100|[from] Stealth Rock
+|move|p2a: Great Tusk|Temper Flare|p1a: Steve Jobs
+|-damage|p1a: Steve Jobs|33/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Steve Jobs|39/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743937050
+|move|p2a: Great Tusk|Ice Spinner|p1a: Steve Jobs
+|-supereffective|p1a: Steve Jobs
+|-damage|p1a: Steve Jobs|0 fnt
+|faint|p1a: Steve Jobs
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743937053
+|switch|p1a: Flocka Flame|Cinderace, F, shiny|29/100
+|turn|14
+|
+|t:|1743937059
+|move|p1a: Flocka Flame|Pyro Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|30/100
+|-status|p2a: Great Tusk|brn
+|move|p2a: Great Tusk|Rapid Spin|p1a: Flocka Flame
+|-damage|p1a: Flocka Flame|14/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Baby Monster MAGA|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Great Tusk|24/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743937065
+|move|p2a: Great Tusk|Headlong Rush|p1a: Flocka Flame
+|-supereffective|p1a: Flocka Flame
+|-damage|p1a: Flocka Flame|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Flocka Flame
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Great Tusk|18/100 brn|[from] brn
+|upkeep
+|
+|t:|1743937069
+|switch|p1a: Crow J Simpson|Corviknight, F, shiny|88/100
+|-damage|p1a: Crow J Simpson|76/100|[from] Stealth Rock
+|-ability|p1a: Crow J Simpson|Pressure
+|turn|16
+|
+|t:|1743937075
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p1a: Crow J Simpson|Defog|p2a: Walking Wake
+|-unboost|p2a: Walking Wake|evasion|1
+|-sideend|p1: speeeedwagon|Stealth Rock|[from] move: Defog|[of] p1a: Crow J Simpson
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|upkeep
+|turn|17
+|
+|t:|1743937082
+|switch|p1a: Biggie Slows|Slowking-Galar, M, shiny|100/100
+|move|p2a: Walking Wake|Flamethrower|p1a: Biggie Slows
+|-damage|p1a: Biggie Slows|65/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743937089
+|move|p2a: Walking Wake|Flamethrower|p1a: Biggie Slows
+|-damage|p1a: Biggie Slows|29/100
+|-prepare|p1a: Biggie Slows|Chilly Reception|[premajor]
+|move|p1a: Biggie Slows|Chilly Reception|p1a: Biggie Slows
+|-weather|Snowscape
+|
+|t:|1743937092
+|switch|p1a: Zeus Wayne|Raging Bolt|88/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743937098
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Great Tusk|Great Tusk|18/100 brn
+|move|p1a: Zeus Wayne|Weather Ball|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743937103
+|switch|p2a: Torkoal|Torkoal, F|76/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-activate|p1a: Zeus Wayne|ability: Protosynthesis
+|-start|p1a: Zeus Wayne|protosynthesisspa
+|turn|20
+|
+|t:|1743937109
+|-end|p1a: Zeus Wayne|Protosynthesis|[silent]
+|switch|p1a: Biggie Slows|Slowking-Galar, M, shiny|62/100
+|switch|p2a: Goodra|Goodra-Hisui, M|74/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743937111
+|move|p2a: Goodra|Knock Off|p1a: Biggie Slows
+|-supereffective|p1a: Biggie Slows
+|-damage|p1a: Biggie Slows|34/100
+|-damage|p2a: Goodra|58/100|[from] item: Rocky Helmet|[of] p1a: Biggie Slows
+|-enditem|p1a: Biggie Slows|Rocky Helmet|[from] move: Knock Off|[of] p2a: Goodra
+|-prepare|p1a: Biggie Slows|Chilly Reception|[premajor]
+|move|p1a: Biggie Slows|Chilly Reception|p1a: Biggie Slows
+|-weather|Snowscape
+|
+|t:|1743937113
+|switch|p1a: Zeus Wayne|Raging Bolt|88/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1743937119
+|move|p1a: Zeus Wayne|Volt Switch|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|43/100
+|
+|t:|1743937121
+|-end|p1a: Zeus Wayne|Protosynthesis|[silent]
+|switch|p1a: Biggie Slows|Slowking-Galar, M, shiny|67/100|[from] Volt Switch
+|move|p2a: Goodra|Dragon Tail|p1a: Biggie Slows
+|-damage|p1a: Biggie Slows|53/100
+|drag|p1a: Crow J Simpson|Corviknight, F, shiny|76/100
+|-ability|p1a: Crow J Simpson|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1743937126
+|switch|p1a: Biggie Slows|Slowking-Galar, M, shiny|86/100
+|move|p2a: Goodra|Flamethrower|p1a: Biggie Slows
+|-damage|p1a: Biggie Slows|61/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1743937130
+|move|p2a: Goodra|Flash Cannon|p1a: Biggie Slows
+|-damage|p1a: Biggie Slows|29/100
+|-prepare|p1a: Biggie Slows|Chilly Reception|[premajor]
+|move|p1a: Biggie Slows|Chilly Reception|p1a: Biggie Slows
+|
+|t:|1743937134
+|switch|p1a: Zeus Wayne|Raging Bolt|88/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1743937136
+|move|p1a: Zeus Wayne|Volt Switch|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|30/100
+|
+|t:|1743937138
+|-end|p1a: Zeus Wayne|Protosynthesis|[silent]
+|switch|p1a: Biggie Slows|Slowking-Galar, M, shiny|63/100|[from] Volt Switch
+|move|p2a: Goodra|Dragon Tail|p1a: Biggie Slows
+|-damage|p1a: Biggie Slows|49/100
+|drag|p1a: Zeus Wayne|Raging Bolt|88/100
+|
+|-weather|none
+|upkeep
+|turn|26
+|
+|t:|1743937143
+|-end|p1a: Zeus Wayne|Protosynthesis|[silent]
+|switch|p1a: Biggie Slows|Slowking-Galar, M, shiny|82/100
+|move|p2a: Goodra|Flash Cannon|p1a: Biggie Slows
+|-damage|p1a: Biggie Slows|52/100
+|
+|upkeep
+|turn|27
+|
+|t:|1743937147
+|move|p2a: Goodra|Flash Cannon|p1a: Biggie Slows
+|-crit|p1a: Biggie Slows
+|-damage|p1a: Biggie Slows|6/100
+|-prepare|p1a: Biggie Slows|Chilly Reception|[premajor]
+|move|p1a: Biggie Slows|Chilly Reception|p1a: Biggie Slows
+|-weather|Snowscape
+|
+|t:|1743937149
+|switch|p1a: Ting Diesel|Ting-Lu|77/100|[from] Chilly Reception
+|-ability|p1a: Ting Diesel|Vessel of Ruin
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|28
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by speeeedwagon)
+|
+|t:|1743937180
+|switch|p2a: Torkoal|Torkoal, F|76/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Ting Diesel|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|29
+|
+|t:|1743937182
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p1a: Ting Diesel|Earthquake|p2a: Walking Wake
+|-damage|p2a: Walking Wake|58/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|30
+|
+|t:|1743937187
+|-terastallize|p1a: Ting Diesel|Poison
+|move|p2a: Walking Wake|Hydro Steam|p1a: Ting Diesel
+|-damage|p1a: Ting Diesel|30/100
+|move|p1a: Ting Diesel|Payback|p2a: Walking Wake
+|-damage|p2a: Walking Wake|16/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|31
+|
+|t:|1743937205
+|switch|p1a: Zeus Wayne|Raging Bolt|88/100
+|-activate|p1a: Zeus Wayne|ability: Protosynthesis
+|-start|p1a: Zeus Wayne|protosynthesisspa
+|move|p2a: Walking Wake|Hydro Steam|p1a: Zeus Wayne
+|-resisted|p1a: Zeus Wayne
+|-damage|p1a: Zeus Wayne|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|32
+|
+|t:|1743937228
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Goodra|Goodra-Hisui, M|30/100
+|move|p1a: Zeus Wayne|Thunderclap||[still]
+|-fail|p1a: Zeus Wayne
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|33
+|
+|t:|1743937233
+|-end|p1a: Zeus Wayne|Protosynthesis|[silent]
+|switch|p1a: Ting Diesel|Ting-Lu, tera:Poison|30/100
+|-ability|p1a: Ting Diesel|Vessel of Ruin
+|move|p2a: Goodra|Flamethrower|p1a: Ting Diesel
+|-damage|p1a: Ting Diesel|13/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|34
+|
+|t:|1743937237
+|move|p2a: Goodra|Flamethrower|p1a: Ting Diesel
+|-damage|p1a: Ting Diesel|0 fnt
+|faint|p1a: Ting Diesel
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743937241
+|switch|p1a: Zeus Wayne|Raging Bolt|35/100
+|-activate|p1a: Zeus Wayne|ability: Protosynthesis
+|-start|p1a: Zeus Wayne|protosynthesisspa
+|turn|35
+|
+|t:|1743937248
+|move|p1a: Zeus Wayne|Weather Ball|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|-weather|none
+|-end|p1a: Zeus Wayne|Protosynthesis
+|upkeep
+|
+|t:|1743937251
+|switch|p2a: Garchomp|Garchomp, F|36/100
+|turn|36
+|
+|t:|1743937254
+|-end|p1a: Zeus Wayne|Protosynthesis|[silent]
+|switch|p1a: Crow J Simpson|Corviknight, F, shiny|76/100
+|-ability|p1a: Crow J Simpson|Pressure
+|move|p2a: Garchomp|Stealth Rock|p1a: Crow J Simpson
+|-sidestart|p1: speeeedwagon|move: Stealth Rock
+|
+|-damage|p2a: Garchomp|24/100|[from] item: Black Sludge
+|upkeep
+|turn|37
+|
+|t:|1743937258
+|switch|p2a: Walking Wake|Walking Wake|16/100
+|move|p1a: Crow J Simpson|Defog|p2a: Walking Wake
+|-unboost|p2a: Walking Wake|evasion|1
+|-sideend|p1: speeeedwagon|Stealth Rock|[from] move: Defog|[of] p1a: Crow J Simpson
+|
+|upkeep
+|turn|38
+|
+|t:|1743937261
+|move|p2a: Walking Wake|Flamethrower|p1a: Crow J Simpson
+|-supereffective|p1a: Crow J Simpson
+|-damage|p1a: Crow J Simpson|0 fnt
+|faint|p1a: Crow J Simpson
+|
+|upkeep
+|
+|t:|1743937262
+|switch|p1a: Zeus Wayne|Raging Bolt|35/100
+|turn|39
+|
+|t:|1743937268
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, F|35/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-activate|p1a: Zeus Wayne|ability: Protosynthesis
+|-start|p1a: Zeus Wayne|protosynthesisspa
+|move|p1a: Zeus Wayne|Draco Meteor|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-unboost|p1a: Zeus Wayne|spa|2
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743937271
+|switch|p2a: Garchomp|Garchomp, F|24/100
+|turn|40
+|
+|t:|1743937276
+|move|p2a: Garchomp|Earthquake|p1a: Zeus Wayne
+|-supereffective|p1a: Zeus Wayne
+|-damage|p1a: Zeus Wayne|0 fnt
+|faint|p1a: Zeus Wayne
+|-end|p1a: Zeus Wayne|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Garchomp|11/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1743937278
+|switch|p1a: Biggie Slows|Slowking-Galar, M, shiny|39/100
+|turn|41
+|-message|speeeedwagon forfeited.
+|
+|win|Baby Monster MAGA
+|raw|speeeedwagon's rating: 1542 &rarr; <strong>1519</strong><br />(-23 for losing)
+|raw|Baby Monster MAGA's rating: 1495 &rarr; <strong>1518</strong><br />(+23 for winning)
+|l|☆speeeedwagon
+|player|p1|
+|l|☆Baby Monster MAGA
+|player|p2|

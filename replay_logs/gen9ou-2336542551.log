@@ -1,0 +1,398 @@
+|j|☆tacopower1213
+|j|☆FangFoe
+|t:|1743936382
+|gametype|singles
+|player|p1|tacopower1213|169|1231
+|player|p2|FangFoe|heroine2-conquest|1258
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Comfey, M|
+|poke|p1|Torkoal, M|
+|poke|p1|Great Tusk|
+|poke|p1|Walking Wake|
+|poke|p1|Kingambit, F|
+|poke|p1|Zoroark-Hisui, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Kyurem|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Slowking-Galar, F|
+|teampreview
+|
+|t:|1743936402
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1743936406
+|move|p2a: Great Tusk|Stealth Rock|p1a: Torkoal
+|-sidestart|p1: tacopower1213|move: Stealth Rock
+|move|p1a: Torkoal|Will-O-Wisp|p2a: Great Tusk
+|-status|p2a: Great Tusk|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Great Tusk|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1743936411
+|switch|p1a: Comfey|Comfey, M|100/100
+|-damage|p1a: Comfey|88/100|[from] Stealth Rock
+|move|p2a: Great Tusk|Headlong Rush|p1a: Comfey
+|-damage|p1a: Comfey|39/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Comfey|45/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743936423
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Comfey|Giga Drain|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|86/100
+|-heal|p1a: Comfey|53/100|[from] drain|[of] p2a: Cinderace
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Comfey|59/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743936430
+|move|p2a: Cinderace|Gunk Shot|p1a: Comfey
+|-start|p2a: Cinderace|typechange|Poison|[from] ability: Libero
+|-supereffective|p1a: Comfey
+|-damage|p1a: Comfey|0 fnt
+|faint|p1a: Comfey
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743936440
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|5
+|
+|t:|1743936447
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Great Tusk|Stealth Rock|p2a: Ogerpon
+|-sidestart|p2: FangFoe|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743936453
+|move|p2a: Ogerpon|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|84/100
+|-damage|p2a: Ogerpon|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|-enditem|p1a: Great Tusk|Rocky Helmet|[from] move: Knock Off|[of] p2a: Ogerpon
+|move|p1a: Great Tusk|Ice Spinner|p2a: Ogerpon
+|-crit|p2a: Ogerpon
+|-damage|p2a: Ogerpon|17/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743936461
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Great Tusk|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|24/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: tacopower1213|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|faint|p2a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743936470
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p2a: Gholdengo|Air Balloon
+|turn|8
+|
+|t:|1743936475
+|move|p1a: Great Tusk|Headlong Rush|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|move|p2a: Gholdengo|Make It Rain|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743936482
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|9
+|
+|t:|1743936489
+|switch|p2a: Great Tusk|Great Tusk|88/100 brn
+|-damage|p2a: Great Tusk|85/100 brn|[from] Stealth Rock
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|64/100 brn
+|-damage|p1a: Kingambit|84/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|
+|-damage|p2a: Great Tusk|58/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743936494
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p2a: Great Tusk|Rapid Spin|p1a: Torkoal
+|-damage|p1a: Torkoal|94/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: FangFoe|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Great Tusk|52/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743936502
+|move|p2a: Great Tusk|Headlong Rush|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|45/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Torkoal|Lava Plume|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743936509
+|switch|p2a: Cinderace|Cinderace, M|86/100
+|turn|12
+|
+|t:|1743936517
+|move|p2a: Cinderace|Gunk Shot|p1a: Torkoal|[miss]
+|-start|p2a: Cinderace|typechange|Poison|[from] ability: Libero
+|-miss|p2a: Cinderace|p1a: Torkoal
+|move|p1a: Torkoal|Will-O-Wisp|p2a: Cinderace
+|-status|p2a: Cinderace|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Cinderace|80/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743936530
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Torkoal|Stealth Rock|p2a: Slowking
+|-sidestart|p2: FangFoe|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743936535
+|move|p1a: Torkoal|Will-O-Wisp|p2a: Slowking
+|-status|p2a: Slowking|brn
+|move|p2a: Slowking|Future Sight|p1a: Torkoal
+|-start|p2a: Slowking|move: Future Sight
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Slowking|94/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743936540
+|switch|p1a: Kingambit|Kingambit, F|84/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743936549
+|switch|p2a: Cinderace|Cinderace, M|80/100 brn|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Cinderace|74/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743936555
+|move|p1a: Kingambit|Sucker Punch|p2a: Cinderace
+|-damage|p2a: Cinderace|5/100 brn
+|move|p2a: Cinderace|Pyro Ball|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|37/100
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Kingambit|move: Future Sight
+|-immune|p1a: Kingambit
+|-damage|p2a: Cinderace|0 fnt|[from] brn
+|faint|p2a: Cinderace
+|upkeep
+|
+|t:|1743936559
+|switch|p2a: Kyurem|Kyurem|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|17
+|
+|t:|1743936569
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Torkoal|Torkoal, M|45/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Kyurem|Ice Beam|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|2/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743936577
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|move|p2a: Kyurem|Ice Beam|p1a: Walking Wake
+|-damage|p1a: Walking Wake|17/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743936587
+|switch|p2a: Slowking|Slowking-Galar, F|100/100 brn
+|move|p1a: Walking Wake|Draco Meteor|p2a: Slowking
+|-damage|p2a: Slowking|46/100 brn
+|-unboost|p1a: Walking Wake|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Slowking|40/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1743936596
+|move|p1a: Walking Wake|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|4/100 brn
+|-enditem|p2a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Walking Wake
+|move|p2a: Slowking|Thunder Wave|p1a: Walking Wake
+|-status|p1a: Walking Wake|par
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Slowking|0 fnt|[from] brn
+|faint|p2a: Slowking
+|upkeep
+|
+|t:|1743936602
+|switch|p2a: Kyurem|Kyurem|76/100
+|-damage|p2a: Kyurem|51/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|21
+|
+|t:|1743936606
+|move|p2a: Kyurem|Ice Beam|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743936610
+|switch|p1a: Kingambit|Kingambit, F|37/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|22
+|
+|t:|1743936615
+|move|p2a: Kyurem|Ice Beam|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743936620
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|turn|23
+|
+|t:|1743936626
+|-terastallize|p1a: Torkoal|Normal
+|move|p1a: Torkoal|Hyper Voice|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743936630
+|switch|p2a: Gholdengo|Gholdengo|94/100
+|-damage|p2a: Gholdengo|88/100|[from] Stealth Rock
+|-item|p2a: Gholdengo|Air Balloon
+|turn|24
+|
+|t:|1743936634
+|switch|p1a: Torkoal|Torkoal, M|2/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Torkoal
+|
+|-weather|none
+|upkeep
+|
+|t:|1743936636
+|switch|p1a: Zoroark|Zoroark-Hisui, F, tera:Normal|100/100
+|turn|25
+|
+|t:|1743936640
+|move|p1a: Zoroark|Shadow Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-enditem|p2a: Gholdengo|Air Balloon
+|faint|p2a: Gholdengo
+|
+|win|tacopower1213
+|raw|tacopower1213's rating: 1231 &rarr; <strong>1258</strong><br />(+27 for winning)
+|raw|FangFoe's rating: 1258 &rarr; <strong>1231</strong><br />(-27 for losing)
+|l|☆FangFoe
+|player|p2|
+|l|☆tacopower1213
+|player|p1|

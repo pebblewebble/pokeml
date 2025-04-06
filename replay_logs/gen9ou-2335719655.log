@@ -1,0 +1,150 @@
+|j|☆Nmm6
+|j|☆dsrwrhw
+|t:|1743825720
+|gametype|singles
+|player|p1|Nmm6|1|1091
+|player|p2|dsrwrhw|2|1135
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Umbreon, F|
+|poke|p1|Garchomp, F|
+|poke|p1|Metagross|
+|poke|p1|Gyarados, F|
+|poke|p1|Espeon, F|
+|poke|p1|Yanmega, F|
+|poke|p2|Darkrai|
+|poke|p2|Zamazenta-*|
+|poke|p2|Raging Bolt|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Blaziken, M|
+|teampreview
+|
+|t:|1743825740
+|start
+|switch|p1a: Metagross|Metagross|100/100
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|1
+|
+|t:|1743825748
+|move|p2a: Ogerpon|U-turn|p1a: Metagross
+|-damage|p1a: Metagross|84/100
+|
+|t:|1743825752
+|switch|p2a: Darkrai|Darkrai|100/100|[from] U-turn
+|move|p1a: Metagross|Stealth Rock|p2a: Darkrai
+|-sidestart|p2: dsrwrhw|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743825765
+|switch|p1a: Umbreon|Umbreon, F, shiny|100/100
+|move|p2a: Darkrai|Dark Pulse|p1a: Umbreon
+|-resisted|p1a: Umbreon
+|-damage|p1a: Umbreon|83/100
+|-damage|p2a: Darkrai|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Umbreon|90/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743825773
+|move|p2a: Darkrai|Charge Beam|p1a: Umbreon|[miss]
+|-miss|p2a: Darkrai|p1a: Umbreon
+|move|p1a: Umbreon|Toxic|p2a: Darkrai
+|-status|p2a: Darkrai|tox
+|
+|-heal|p1a: Umbreon|96/100|[from] item: Leftovers
+|-damage|p2a: Darkrai|84/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743825782
+|move|p2a: Darkrai|Charge Beam|p1a: Umbreon
+|-damage|p1a: Umbreon|80/100
+|-damage|p2a: Darkrai|75/100 tox|[from] item: Life Orb
+|move|p1a: Umbreon|Mean Look|p2a: Darkrai
+|-activate|p2a: Darkrai|trapped
+|
+|-heal|p1a: Umbreon|86/100|[from] item: Leftovers
+|-damage|p2a: Darkrai|62/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743825791
+|move|p2a: Darkrai|Sludge Bomb||[still]
+|-damage|p1a: Umbreon|59/100
+|-status|p1a: Umbreon|psn
+|-activate|p1a: Umbreon|ability: Synchronize
+|-fail|p1a: Umbreon
+|-damage|p2a: Darkrai|52/100 tox|[from] item: Life Orb
+|move|p1a: Umbreon|Foul Play|p2a: Darkrai
+|-resisted|p2a: Darkrai
+|-damage|p2a: Darkrai|38/100 tox
+|
+|-heal|p1a: Umbreon|65/100 psn|[from] item: Leftovers
+|-damage|p2a: Darkrai|20/100 tox|[from] psn
+|-damage|p1a: Umbreon|52/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743825803
+|move|p2a: Darkrai|Sludge Bomb|p1a: Umbreon
+|-damage|p1a: Umbreon|25/100 psn
+|-damage|p2a: Darkrai|10/100 tox|[from] item: Life Orb
+|move|p1a: Umbreon|Rest|p1a: Umbreon
+|-status|p1a: Umbreon|slp|[from] move: Rest
+|-heal|p1a: Umbreon|100/100 slp|[silent]
+|
+|-damage|p2a: Darkrai|0 fnt|[from] psn
+|faint|p2a: Darkrai
+|upkeep
+|
+|t:|1743825808
+|switch|p2a: Blaziken|Blaziken, M|100/100
+|-damage|p2a: Blaziken|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1743825816
+|switch|p1a: Gyarados|Gyarados, F, shiny|100/100
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|2
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|8
+|
+|t:|1743825825
+|-terastallize|p2a: Blaziken|Fire
+|move|p2a: Blaziken|Blaze Kick|p1a: Gyarados|[miss]
+|-miss|p2a: Blaziken|p1a: Gyarados
+|move|p1a: Gyarados|Earthquake|p2a: Blaziken
+|-supereffective|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|upkeep
+|-message|dsrwrhw forfeited.
+|
+|win|Nmm6
+|raw|Nmm6's rating: 1091 &rarr; <strong>1121</strong><br />(+30 for winning)
+|raw|dsrwrhw's rating: 1135 &rarr; <strong>1107</strong><br />(-28 for losing)
+|l|☆dsrwrhw
+|player|p2|
+|l|☆Nmm6
+|player|p1|

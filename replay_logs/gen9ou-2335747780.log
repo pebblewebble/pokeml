@@ -1,0 +1,423 @@
+|j|☆yijing
+|j|☆paradoxhigh
+|t:|1743829732
+|gametype|singles
+|player|p1|yijing|265|1072
+|player|p2|paradoxhigh|266|1070
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Whiscash, M|
+|poke|p1|Masquerain, F|
+|poke|p1|Medicham, M|
+|poke|p1|Cacturne, F|
+|poke|p1|Glalie, F|
+|poke|p1|Camerupt, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Walking Wake|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, F|
+|poke|p2|Iron Boulder|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by paradoxhigh)
+|
+|t:|1743829754
+|start
+|switch|p1a: Masquerain|Masquerain, F|100/100
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Iron Boulder|atk|1
+|-enditem|p2a: Iron Boulder|Booster Energy
+|-activate|p2a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Boulder|quarkdrivespe
+|turn|1
+|
+|t:|1743829774
+|switch|p1a: Whiscash|Whiscash, M|100/100
+|move|p2a: Iron Boulder|Swords Dance|p2a: Iron Boulder
+|-boost|p2a: Iron Boulder|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1743829787
+|move|p2a: Iron Boulder|Zen Headbutt|p1a: Whiscash
+|-damage|p1a: Whiscash|36/100
+|move|p1a: Whiscash|Earth Power|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|33/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743829798
+|switch|p1a: Cacturne|Cacturne, F|100/100
+|move|p2a: Iron Boulder|Zen Headbutt|p1a: Cacturne
+|-immune|p1a: Cacturne
+|
+|upkeep
+|turn|4
+|
+|t:|1743829805
+|move|p1a: Cacturne|Sucker Punch|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|0 fnt
+|faint|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743829810
+|switch|p2a: Heatran|Heatran, F|100/100
+|turn|5
+|
+|t:|1743829820
+|switch|p1a: Whiscash|Whiscash, M|36/100
+|move|p2a: Heatran|Stealth Rock|p1a: Whiscash
+|-sidestart|p1: yijing|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1743829829
+|-terastallize|p2a: Heatran|Grass
+|move|p2a: Heatran|Earth Power|p1a: Whiscash
+|-damage|p1a: Whiscash|2/100
+|-enditem|p1a: Whiscash|Aguav Berry|[eat]
+|-heal|p1a: Whiscash|36/100|[from] item: Aguav Berry
+|move|p1a: Whiscash|Future Sight|p2a: Heatran
+|-start|p1a: Whiscash|move: Future Sight
+|
+|upkeep
+|turn|7
+|
+|t:|1743829840
+|move|p2a: Heatran|Earth Power|p1a: Whiscash
+|-damage|p1a: Whiscash|0 fnt
+|faint|p1a: Whiscash
+|
+|upkeep
+|
+|t:|1743829861
+|switch|p1a: Glalie|Glalie, F|100/100
+|-damage|p1a: Glalie|76/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1743829867
+|move|p1a: Glalie|Icicle Crash|p2a: Heatran|[miss]
+|-miss|p1a: Glalie|p2a: Heatran
+|move|p2a: Heatran|Earth Power|p1a: Glalie
+|-damage|p1a: Glalie|27/100
+|
+|-end|p2a: Heatran|move: Future Sight
+|-damage|p2a: Heatran|73/100
+|-heal|p2a: Heatran|79/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743829880
+|move|p1a: Glalie|Substitute|p1a: Glalie
+|-start|p1a: Glalie|Substitute
+|-damage|p1a: Glalie|2/100
+|-enditem|p1a: Glalie|Salac Berry|[eat]
+|-boost|p1a: Glalie|spe|1|[from] item: Salac Berry
+|move|p2a: Heatran|Overheat|p1a: Glalie
+|-supereffective|p1a: Glalie
+|-end|p1a: Glalie|Substitute
+|-unboost|p2a: Heatran|spa|2
+|
+|-heal|p2a: Heatran|86/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743829893
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Glalie|Icicle Crash|p2a: Slowking
+|-damage|p2a: Slowking|70/100
+|
+|-heal|p2a: Slowking|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743829903
+|move|p1a: Glalie|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|23/100
+|move|p2a: Slowking|Toxic Spikes|p1a: Glalie
+|-sidestart|p1: yijing|move: Toxic Spikes
+|
+|-heal|p2a: Slowking|29/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743829919
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|move|p1a: Glalie|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|upkeep
+|turn|13
+|
+|t:|1743829936
+|move|p1a: Glalie|Icicle Crash|p2a: Corviknight
+|-damage|p2a: Corviknight|76/100
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|-heal|p2a: Corviknight|83/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743829945
+|move|p1a: Glalie|Icicle Crash|p2a: Corviknight
+|-damage|p2a: Corviknight|71/100
+|move|p2a: Corviknight|Tailwind|p2a: Corviknight
+|-sidestart|p2: paradoxhigh|move: Tailwind
+|
+|-heal|p2a: Corviknight|77/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743829953
+|move|p1a: Glalie|Icicle Crash|p2a: Corviknight
+|-damage|p2a: Corviknight|65/100
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|-heal|p2a: Corviknight|72/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743829962
+|move|p1a: Glalie|Icicle Crash|p2a: Corviknight
+|-damage|p2a: Corviknight|64/100
+|move|p2a: Corviknight|Body Press|p1a: Glalie
+|-supereffective|p1a: Glalie
+|-damage|p1a: Glalie|0 fnt
+|faint|p1a: Glalie
+|
+|-heal|p2a: Corviknight|70/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743829975
+|switch|p1a: Masquerain|Masquerain, F|100/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: Masquerain|atk|1
+|turn|17
+|
+|t:|1743829982
+|-terastallize|p1a: Masquerain|Ghost
+|move|p2a: Corviknight|Body Press|p1a: Masquerain
+|-immune|p1a: Masquerain
+|move|p1a: Masquerain|Sticky Web|p2a: Corviknight
+|-sidestart|p2: paradoxhigh|move: Sticky Web
+|
+|-heal|p2a: Corviknight|76/100|[from] item: Leftovers
+|-sideend|p2: paradoxhigh|move: Tailwind
+|upkeep
+|turn|18
+|
+|t:|1743829992
+|move|p1a: Masquerain|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|43/100
+|move|p2a: Corviknight|Tailwind|p2a: Corviknight
+|-sidestart|p2: paradoxhigh|move: Tailwind
+|
+|-heal|p2a: Corviknight|49/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743830005
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Masquerain|atk|1
+|move|p1a: Masquerain|Shadow Ball|p2a: Landorus
+|-damage|p2a: Landorus|54/100
+|
+|-heal|p2a: Landorus|60/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743830018
+|move|p2a: Landorus|Earthquake|p1a: Masquerain
+|-damage|p1a: Masquerain|12/100
+|move|p1a: Masquerain|Shadow Ball|p2a: Landorus
+|-damage|p2a: Landorus|10/100
+|
+|-heal|p2a: Landorus|16/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743830029
+|switch|p1a: Cacturne|Cacturne, F|100/100
+|-damage|p1a: Cacturne|88/100|[from] Stealth Rock
+|-status|p1a: Cacturne|psn
+|move|p2a: Landorus|Earthquake|p1a: Cacturne
+|-resisted|p1a: Cacturne
+|-damage|p1a: Cacturne|38/100 psn
+|
+|-heal|p2a: Landorus|22/100|[from] item: Leftovers
+|-damage|p1a: Cacturne|26/100 psn|[from] psn
+|-sideend|p2: paradoxhigh|move: Tailwind
+|upkeep
+|turn|22
+|
+|t:|1743830041
+|switch|p2a: Slowking|Slowking-Galar, F|62/100
+|-activate|p2a: Slowking|move: Sticky Web
+|-unboost|p2a: Slowking|spe|1
+|move|p1a: Cacturne|Sucker Punch||[still]
+|-fail|p1a: Cacturne
+|
+|-heal|p2a: Slowking|68/100|[from] item: Leftovers
+|-damage|p1a: Cacturne|14/100 psn|[from] psn
+|upkeep
+|-enditem|p1a: Cacturne|Liechi Berry|[eat]
+|-boost|p1a: Cacturne|atk|1|[from] item: Liechi Berry
+|turn|23
+|
+|t:|1743830059
+|switch|p1a: Masquerain|Masquerain, F, tera:Ghost|12/100
+|-ability|p1a: Masquerain|Intimidate|boost
+|-unboost|p2a: Slowking|atk|1
+|move|p2a: Slowking|Toxic Spikes|p1a: Masquerain
+|-sidestart|p1: yijing|move: Toxic Spikes
+|
+|-heal|p2a: Slowking|75/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1743830070
+|move|p2a: Slowking|Protect|p2a: Slowking
+|-singleturn|p2a: Slowking|Protect
+|move|p1a: Masquerain|Shadow Ball|p2a: Slowking
+|-activate|p2a: Slowking|move: Protect
+|
+|-heal|p2a: Slowking|81/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1743830081
+|switch|p2a: Landorus|Landorus-Therian, M|22/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Masquerain|atk|1
+|move|p1a: Masquerain|Shadow Ball|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743830095
+|switch|p2a: Heatran|Heatran, F, tera:Grass|86/100
+|-activate|p2a: Heatran|move: Sticky Web
+|-unboost|p2a: Heatran|spe|1
+|turn|26
+|
+|t:|1743830103
+|move|p1a: Masquerain|Air Slash|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|18/100
+|move|p2a: Heatran|Overheat|p1a: Masquerain
+|-damage|p1a: Masquerain|0 fnt
+|-unboost|p2a: Heatran|spa|2
+|faint|p1a: Masquerain
+|
+|-heal|p2a: Heatran|24/100|[from] item: Leftovers
+|upkeep
+|inactive|yijing has 120 seconds left.
+|
+|t:|1743830147
+|switch|p1a: Medicham|Medicham, M, shiny|100/100
+|-damage|p1a: Medicham|94/100|[from] Stealth Rock
+|-status|p1a: Medicham|tox
+|turn|27
+|
+|t:|1743830160
+|move|p1a: Medicham|Psycho Cut|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-damage|p1a: Medicham|88/100 tox|[from] psn
+|upkeep
+|
+|t:|1743830167
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|-activate|p2a: Slowking|move: Sticky Web
+|-unboost|p2a: Slowking|spe|1
+|turn|28
+|
+|t:|1743830174
+|move|p1a: Medicham|Psycho Cut|p2a: Slowking
+|-damage|p2a: Slowking|54/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Medicham
+|-damage|p1a: Medicham|20/100 tox
+|
+|-heal|p2a: Slowking|60/100|[from] item: Leftovers
+|-damage|p1a: Medicham|8/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1743830184
+|move|p2a: Slowking|Protect|p2a: Slowking
+|-singleturn|p2a: Slowking|Protect
+|move|p1a: Medicham|Psycho Cut|p2a: Slowking
+|-activate|p2a: Slowking|move: Protect
+|
+|-heal|p2a: Slowking|66/100|[from] item: Leftovers
+|-damage|p1a: Medicham|0 fnt|[from] psn
+|faint|p1a: Medicham
+|upkeep
+|inactive|yijing has 120 seconds left.
+|
+|t:|1743830197
+|switch|p1a: Camerupt|Camerupt, F|100/100
+|-damage|p1a: Camerupt|88/100|[from] Stealth Rock
+|-status|p1a: Camerupt|tox
+|turn|30
+|inactive|yijing has 120 seconds left.
+|
+|t:|1743830210
+|move|p1a: Camerupt|Trailblaze|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|59/100
+|-boost|p1a: Camerupt|spe|1
+|move|p2a: Slowking|Psychic|p1a: Camerupt
+|-damage|p1a: Camerupt|18/100 tox
+|
+|-heal|p2a: Slowking|65/100|[from] item: Leftovers
+|-damage|p1a: Camerupt|12/100 tox|[from] psn
+|upkeep
+|turn|31
+|inactive|yijing has 120 seconds left.
+|
+|t:|1743830222
+|move|p2a: Slowking|Protect|p2a: Slowking
+|-singleturn|p2a: Slowking|Protect
+|move|p1a: Camerupt|Earth Power|p2a: Slowking
+|-activate|p2a: Slowking|move: Protect
+|
+|-heal|p2a: Slowking|71/100|[from] item: Leftovers
+|-damage|p1a: Camerupt|0 fnt|[from] psn
+|faint|p1a: Camerupt
+|upkeep
+|-message|yijing forfeited.
+|
+|win|paradoxhigh
+|raw|yijing's rating: 1072 &rarr; <strong>1051</strong><br />(-21 for losing)
+|raw|paradoxhigh's rating: 1070 &rarr; <strong>1100</strong><br />(+30 for winning)
+|l|☆yijing
+|player|p1|
+|l|☆paradoxhigh
+|player|p2|

@@ -1,0 +1,254 @@
+|j|☆hei_mao666
+|j|☆GSSushi
+|t:|1743935861
+|gametype|singles
+|player|p1|hei_mao666|hilbert|1098
+|player|p2|GSSushi|harlequin|1074
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gholdengo|
+|poke|p1|Dragapult, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Walking Wake|
+|poke|p1|Torkoal, M|
+|poke|p1|Raging Bolt|
+|poke|p2|Sableye, M|
+|poke|p2|Breloom, F|
+|poke|p2|Bisharp, F|
+|poke|p2|Yanmega, F|
+|poke|p2|Ribombee, F|
+|poke|p2|Weezing, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GSSushi)
+|
+|t:|1743935878
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Ribombee|Ribombee, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1743935888
+|move|p2a: Ribombee|Light Screen|p2a: Ribombee
+|-sidestart|p2: GSSushi|move: Light Screen
+|move|p1a: Torkoal|Stealth Rock|p2a: Ribombee
+|-sidestart|p2: GSSushi|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743935893
+|move|p2a: Ribombee|Reflect|p2a: Ribombee
+|-sidestart|p2: GSSushi|Reflect
+|move|p1a: Torkoal|Overheat|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100
+|-unboost|p1a: Torkoal|spa|2
+|-enditem|p1a: Torkoal|Eject Pack
+|
+|t:|1743935906
+|switch|p1a: Dragapult|Dragapult, F, shiny|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743935911
+|move|p1a: Dragapult|U-turn|p2a: Ribombee
+|-resisted|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|t:|1743935917
+|switch|p1a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdriveatk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743935922
+|switch|p2a: Weezing|Weezing, F, shiny|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1743935933
+|move|p1a: Iron Valiant|Psycho Cut|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|62/100
+|move|p2a: Weezing|Heat Wave|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|29/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743935944
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|move|p2a: Weezing|Heat Wave|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|72/100
+|
+|-weather|none
+|-sideend|p2: GSSushi|move: Light Screen
+|upkeep
+|turn|6
+|
+|t:|1743935958
+|move|p2a: Weezing|Sludge Bomb|p1a: Torkoal
+|-damage|p1a: Torkoal|14/100
+|move|p1a: Torkoal|Earth Power|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|5/100
+|
+|-sideend|p2: GSSushi|Reflect
+|upkeep
+|turn|7
+|
+|t:|1743935966
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Weezing|Heat Wave|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|44/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743935976
+|move|p1a: Gholdengo|Shadow Ball|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|upkeep
+|
+|t:|1743935984
+|switch|p2a: Bisharp|Bisharp, F, shiny|100/100
+|-damage|p2a: Bisharp|94/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743935990
+|switch|p1a: Torkoal|Torkoal, M|14/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Bisharp|Shadow Claw|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743935999
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|10
+|
+|t:|1743936012
+|move|p1a: Walking Wake|Hydro Steam|p2a: Bisharp
+|-damage|p2a: Bisharp|4/100
+|move|p2a: Bisharp|Iron Head|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|74/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743936019
+|move|p2a: Bisharp|Sucker Punch|p1a: Walking Wake
+|-damage|p1a: Walking Wake|33/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743936026
+|switch|p2a: Yanmega|Yanmega, F, shiny|100/100
+|-damage|p2a: Yanmega|50/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1743936036
+|move|p2a: Yanmega|Protect|p2a: Yanmega
+|-singleturn|p2a: Yanmega|Protect
+|move|p1a: Walking Wake|Hydro Steam|p2a: Yanmega
+|-activate|p2a: Yanmega|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2a: Yanmega|Speed Boost|boost
+|-boost|p2a: Yanmega|spe|1
+|upkeep
+|turn|13
+|
+|t:|1743936044
+|move|p1a: Walking Wake|Hydro Steam|p2a: Yanmega
+|-damage|p2a: Yanmega|0 fnt
+|faint|p2a: Yanmega
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|upkeep
+|
+|t:|1743936051
+|switch|p2a: Breloom|Breloom, F|100/100
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743936055
+|move|p1a: Walking Wake|Hydro Steam|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|56/100
+|move|p2a: Breloom|Bullet Seed|p1a: Walking Wake
+|-damage|p1a: Walking Wake|10/100
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|-hitcount|p1: Walking Wake|2
+|
+|upkeep
+|c|☆GSSushi|that thing is so fast hoply
+|
+|t:|1743936075
+|switch|p1a: Gholdengo|Gholdengo|44/100
+|turn|15
+|
+|t:|1743936082
+|move|p1a: Gholdengo|Shadow Ball|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|upkeep
+|
+|t:|1743936087
+|switch|p2a: Sableye|Sableye, M, shiny|100/100
+|-damage|p2a: Sableye|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743936092
+|-terastallize|p1a: Gholdengo|Ghost
+|move|p1a: Gholdengo|Shadow Ball|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|win|hei_mao666
+|raw|hei_mao666's rating: 1098 &rarr; <strong>1122</strong><br />(+24 for winning)
+|raw|GSSushi's rating: 1074 &rarr; <strong>1054</strong><br />(-20 for losing)
+|l|☆GSSushi
+|player|p2|
+|l|☆hei_mao666
+|player|p1|

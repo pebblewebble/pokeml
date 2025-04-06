@@ -1,0 +1,310 @@
+|j|☆TherealBR
+|j|☆bnk1801
+|t:|1743779371
+|gametype|singles
+|player|p1|TherealBR|blue|1347
+|player|p2|bnk1801|acetrainer|1374
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Great Tusk|
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Dragonite, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Indeedee-F, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Torkoal, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bnk1801)
+|
+|t:|1743779380
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|1
+|
+|t:|1743779386
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: TherealBR|move: Light Screen
+|move|p2a: Slowking|Sludge Wave|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|64/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743779388
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Slowking
+|-unboost|p2a: Slowking|atk|1
+|-unboost|p2a: Slowking|spa|1
+|
+|t:|1743779394
+|switch|p1a: Anakin|Dragonite, M|100/100|[from] Parting Shot
+|move|p2a: Slowking|Sludge Wave|p1a: Anakin
+|-damage|p1a: Anakin|94/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743779398
+|move|p1a: Anakin|Dragon Dance|p1a: Anakin
+|-boost|p1a: Anakin|atk|1
+|-boost|p1a: Anakin|spe|1
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|upkeep
+|turn|4
+|
+|t:|1743779410
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743779414
+|switch|p2a: Ursaluna|Ursaluna, F|100/100|[from] Chilly Reception
+|move|p1a: Anakin|Earthquake|p2a: Ursaluna
+|-damage|p2a: Ursaluna|42/100
+|-damage|p1a: Anakin|84/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1743779419
+|-terastallize|p1a: Anakin|Normal
+|move|p1a: Anakin|Extreme Speed|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|-damage|p1a: Anakin|74/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743779427
+|switch|p2a: Indeedee|Indeedee-F, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|6
+|
+|t:|1743779430
+|move|p1a: Anakin|Extreme Speed|p2a: Indeedee
+|-activate|p2a: Indeedee|move: Psychic Terrain
+|move|p2a: Indeedee|Psychic|p1a: Anakin
+|-damage|p1a: Anakin|53/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743779437
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Anakin|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|37/100
+|-damage|p1a: Anakin|43/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Hatterene|43/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1743779444
+|move|p1a: Anakin|Earthquake|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|-damage|p1a: Anakin|33/100|[from] item: Life Orb
+|
+|-weather|none
+|-sideend|p1: TherealBR|move: Light Screen
+|upkeep
+|
+|t:|1743779448
+|switch|p2a: Indeedee|Indeedee-F, F|100/100
+|turn|9
+|inactive|TherealBR has 120 seconds left.
+|
+|t:|1743779484
+|move|p1a: Anakin|Earthquake|p2a: Indeedee
+|-enditem|p2a: Indeedee|Focus Sash
+|-damage|p2a: Indeedee|1/100
+|-damage|p1a: Anakin|23/100|[from] item: Life Orb
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|turn|10
+|
+|t:|1743779493
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|64/100
+|move|p2a: Indeedee|Psychic|p1a: Grimmsnarl
+|-immune|p1a: Grimmsnarl
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|11
+|
+|t:|1743779497
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Kingambit
+|-damage|p2a: Kingambit|78/100
+|-unboost|p2a: Kingambit|spa|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743779501
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Kingambit
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Kingambit
+|move|p2a: Kingambit|Iron Head|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|-damage|p2a: Kingambit|68/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743779507
+|switch|p1a: Connor|Great Tusk|100/100
+|turn|13
+|
+|t:|1743779510
+|-terastallize|p2a: Kingambit|Flying
+|move|p2a: Kingambit|Tera Blast|p1a: Connor|[anim] Tera Blast Flying
+|-supereffective|p1a: Connor
+|-damage|p1a: Connor|0 fnt
+|faint|p1a: Connor
+|-end|p1a: Connor|Protosynthesis|[silent]
+|-damage|p2a: Kingambit|58/100|[from] item: Life Orb
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743779518
+|switch|p1a: Shelby|Slowking-Galar, F|100/100
+|turn|14
+|
+|t:|1743779521
+|move|p1a: Shelby|Sludge Bomb|p2a: Kingambit
+|-damage|p2a: Kingambit|16/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Shelby
+|-supereffective|p1a: Shelby
+|-damage|p1a: Shelby|0 fnt
+|faint|p1a: Shelby
+|-damage|p2a: Kingambit|6/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|TherealBR has 120 seconds left.
+|
+|t:|1743779556
+|switch|p1a: Anakin|Dragonite, M, tera:Normal|23/100
+|turn|15
+|
+|t:|1743779560
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Indeedee|Indeedee-F, F|1/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Anakin|Extreme Speed|p2a: Indeedee
+|-activate|p2a: Indeedee|move: Psychic Terrain
+|
+|upkeep
+|turn|16
+|
+|t:|1743779565
+|move|p1a: Anakin|Earthquake|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-damage|p1a: Anakin|14/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743779574
+|switch|p2a: Kingambit|Kingambit, M, tera:Flying|6/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|17
+|
+|t:|1743779582
+|move|p2a: Kingambit|Sucker Punch|p1a: Anakin
+|-activate|p1a: Anakin|move: Psychic Terrain
+|move|p1a: Anakin|Earthquake|p2a: Kingambit
+|-immune|p2a: Kingambit
+|
+|upkeep
+|turn|18
+|
+|t:|1743779597
+|move|p1a: Anakin|Ice Spinner|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-fieldend|move: Psychic Terrain
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|-damage|p1a: Anakin|4/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743779600
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|19
+|
+|t:|1743779603
+|move|p1a: Anakin|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|-damage|p1a: Anakin|0 fnt|[from] item: Life Orb
+|faint|p1a: Anakin
+|
+|upkeep
+|
+|t:|1743779610
+|switch|p1a: Apollo|Cinderace, M|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|20
+|
+|t:|1743779614
+|move|p1a: Apollo|Hyper Voice|p2a: Torkoal
+|-damage|p2a: Torkoal|40/100
+|move|p2a: Torkoal|Earth Power|p1a: Apollo
+|-damage|p1a: Apollo|22/100
+|replace|p1a: Wayne|Zoroark-Hisui, F
+|-end|p1a: Wayne|Illusion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743779617
+|move|p1a: Wayne|Hyper Voice|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|win|TherealBR
+|raw|TherealBR's rating: 1347 &rarr; <strong>1369</strong><br />(+22 for winning)
+|raw|bnk1801's rating: 1374 &rarr; <strong>1352</strong><br />(-22 for losing)
+|c|☆TherealBR|gg
+|l|☆bnk1801
+|player|p2|
+|l|☆TherealBR
+|player|p1|

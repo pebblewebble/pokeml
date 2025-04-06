@@ -1,0 +1,843 @@
+|j|☆Skakakak
+|j|☆martamagalys
+|t:|1743797688
+|gametype|singles
+|player|p1|Skakakak|101|1091
+|player|p2|martamagalys|bellelba|1120
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blissey, F|
+|poke|p1|Amoonguss, F|
+|poke|p1|Bronzong|
+|poke|p1|Gliscor, F|
+|poke|p1|Dondozo, F|
+|poke|p1|Alomomola, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Wo-Chien|
+|poke|p2|Ting-Lu|
+|poke|p2|Hydreigon, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Grimmsnarl, M|
+|teampreview
+|
+|t:|1743797700
+|start
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|turn|1
+|
+|t:|1743797716
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: martamagalys|Reflect
+|move|p1a: Gliscor|Spikes|p2a: Grimmsnarl
+|-sidestart|p2: martamagalys|Spikes
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743797721
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Gliscor
+|-unboost|p1a: Gliscor|atk|1
+|-unboost|p1a: Gliscor|spa|1
+|
+|t:|1743797734
+|switch|p2a: Hydreigon|Hydreigon, F|100/100|[from] Parting Shot
+|move|p1a: Gliscor|Spikes|p2a: Hydreigon
+|-sidestart|p2: martamagalys|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1743797748
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Blissey|[miss]
+|-miss|p2a: Hydreigon|p1a: Blissey
+|
+|upkeep
+|turn|4
+|
+|t:|1743797753
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Blissey|Seismic Toss|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|77/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743797760
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Mandibuzz|Brave Bird|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|57/100
+|-damage|p2a: Mandibuzz|62/100|[from] Recoil
+|
+|upkeep
+|turn|6
+|
+|t:|1743797763
+|move|p2a: Mandibuzz|Defog|p1a: Amoonguss
+|-unboost|p1a: Amoonguss|evasion|1
+|-sideend|p2: martamagalys|Spikes|[from] move: Defog|[of] p2a: Mandibuzz
+|move|p1a: Amoonguss|Toxic|p2a: Mandibuzz
+|-status|p2a: Mandibuzz|tox
+|
+|-damage|p2a: Mandibuzz|56/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743797767
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Amoonguss|Synthesis|p1a: Amoonguss
+|-heal|p1a: Amoonguss|100/100
+|
+|-damage|p2a: Mandibuzz|88/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743797776
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|move|p1a: Amoonguss|Clear Smog|p2a: Kingambit
+|-immune|p2a: Kingambit
+|
+|-sideend|p2: martamagalys|Reflect
+|upkeep
+|turn|9
+|
+|t:|1743797785
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Alomomola
+|-damage|p1a: Alomomola|73/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743797794
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p1a: Alomomola|Scald|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|90/100
+|-status|p2a: Grimmsnarl|brn
+|
+|-damage|p2a: Grimmsnarl|84/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743797806
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: martamagalys|move: Light Screen
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p2a: Grimmsnarl|78/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743797814
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: martamagalys|Reflect
+|move|p1a: Alomomola|Flip Turn|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|68/100 brn
+|
+|t:|1743797824
+|switch|p1a: Amoonguss|Amoonguss, F|100/100|[from] Flip Turn
+|
+|-damage|p2a: Grimmsnarl|61/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743797836
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|95/100
+|-unboost|p1a: Amoonguss|spa|1
+|move|p1a: Amoonguss|Clear Smog|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|54/100 brn
+|-clearboost|p2a: Grimmsnarl
+|
+|-damage|p2a: Grimmsnarl|48/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743797849
+|switch|p1a: Gliscor|Gliscor, F|100/100 tox
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Gliscor
+|-unboost|p1a: Gliscor|atk|1
+|-unboost|p1a: Gliscor|spa|1
+|
+|t:|1743797852
+|switch|p2a: Ting-Lu|Ting-Lu|100/100|[from] Parting Shot
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|upkeep
+|turn|15
+|
+|t:|1743797860
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Amoonguss
+|-sidestart|p1: Skakakak|move: Stealth Rock
+|
+|upkeep
+|turn|16
+|
+|t:|1743797866
+|switch|p2a: Mandibuzz|Mandibuzz, F|88/100 tox
+|move|p1a: Amoonguss|Toxic|p2a: Mandibuzz
+|-fail|p2a: Mandibuzz|tox
+|
+|-damage|p2a: Mandibuzz|82/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1743797870
+|switch|p1a: Gliscor|Gliscor, F|100/100 tox
+|-damage|p1a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p2a: Mandibuzz|Brave Bird|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|51/100 tox
+|-damage|p2a: Mandibuzz|72/100 tox|[from] Recoil
+|
+|-heal|p1a: Gliscor|64/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Mandibuzz|60/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1743797881
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Gliscor|Spikes|p2a: Ting-Lu
+|-sidestart|p2: martamagalys|Spikes
+|
+|-heal|p1a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|-sideend|p2: martamagalys|move: Light Screen
+|upkeep
+|turn|19
+|
+|t:|1743797894
+|move|p1a: Gliscor|Knock Off|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|98/100
+|-enditem|p2a: Ting-Lu|Leftovers|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Ting-Lu|Ruination|p1a: Gliscor
+|-damage|p1a: Gliscor|39/100 tox
+|
+|-heal|p1a: Gliscor|51/100 tox|[from] ability: Poison Heal
+|-sideend|p2: martamagalys|Reflect
+|upkeep
+|turn|20
+|
+|t:|1743797904
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Ting-Lu|Ruination|p1a: Amoonguss
+|-damage|p1a: Amoonguss|51/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743797932
+|move|p2a: Ting-Lu|Earthquake|p1a: Amoonguss
+|-damage|p1a: Amoonguss|24/100
+|move|p1a: Amoonguss|Toxic|p2a: Ting-Lu
+|-status|p2a: Ting-Lu|tox
+|
+|-damage|p2a: Ting-Lu|92/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1743797943
+|switch|p2a: Mandibuzz|Mandibuzz, F|60/100 tox
+|switch|p1a: Gliscor|Gliscor, F|51/100 tox
+|-damage|p1a: Gliscor|39/100 tox|[from] Stealth Rock
+|
+|-heal|p1a: Gliscor|51/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Mandibuzz|53/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1743797952
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Gliscor|64/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Mandibuzz|88/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1743797958
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|48/100 brn
+|-damage|p2a: Grimmsnarl|35/100 brn|[from] Spikes
+|move|p1a: Gliscor|Knock Off|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|28/100 brn
+|-enditem|p2a: Grimmsnarl|Light Clay|[from] move: Knock Off|[of] p1a: Gliscor
+|
+|-heal|p1a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Grimmsnarl|22/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1743797969
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Gliscor
+|-unboost|p1a: Gliscor|atk|1
+|-unboost|p1a: Gliscor|spa|1
+|
+|t:|1743797974
+|switch|p2a: Hydreigon|Hydreigon, F|100/100|[from] Parting Shot
+|move|p1a: Gliscor|Earthquake|p2a: Hydreigon
+|-immune|p2a: Hydreigon|[from] ability: Levitate
+|
+|-heal|p1a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|26
+|
+|t:|1743797982
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Hydreigon|Draco Meteor|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|27
+|
+|t:|1743797987
+|move|p2a: Hydreigon|Draco Meteor|p1a: Gliscor
+|-damage|p1a: Gliscor|36/100 tox
+|-unboost|p2a: Hydreigon|spa|2
+|move|p1a: Gliscor|Spikes|p2a: Hydreigon
+|-sidestart|p2: martamagalys|Spikes
+|
+|-heal|p1a: Gliscor|48/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|
+|t:|1743797995
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|22/100 brn
+|-damage|p2a: Grimmsnarl|6/100 brn|[from] Spikes
+|move|p1a: Gliscor|Spikes|p2a: Grimmsnarl
+|-sidestart|p2: martamagalys|Spikes
+|
+|-heal|p1a: Gliscor|61/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Grimmsnarl|0 fnt|[from] brn
+|faint|p2a: Grimmsnarl
+|upkeep
+|
+|t:|1743797999
+|switch|p2a: Mandibuzz|Mandibuzz, F|88/100 tox
+|turn|29
+|
+|t:|1743798008
+|move|p1a: Gliscor|Knock Off|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|84/100 tox
+|-enditem|p2a: Mandibuzz|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Mandibuzz|Defog|p1a: Gliscor
+|-unboost|p1a: Gliscor|evasion|1
+|-sideend|p1: Skakakak|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|-sideend|p2: martamagalys|Spikes|[from] move: Defog|[of] p2a: Mandibuzz
+|
+|-heal|p1a: Gliscor|73/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Mandibuzz|78/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1743798020
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Gliscor|Spikes|p2a: Hydreigon
+|-sidestart|p2: martamagalys|Spikes
+|
+|-heal|p1a: Gliscor|86/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|31
+|
+|t:|1743798032
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Hydreigon|Dark Pulse|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|98/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|32
+|
+|t:|1743798038
+|move|p2a: Hydreigon|Dark Pulse|p1a: Gliscor
+|-damage|p1a: Gliscor|60/100 tox
+|cant|p1a: Gliscor|flinch
+|
+|-heal|p1a: Gliscor|72/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|33
+|
+|t:|1743798043
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Hydreigon|Dark Pulse|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|85/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|34
+|
+|t:|1743798050
+|switch|p2a: Wo-Chien|Wo-Chien|100/100
+|-damage|p2a: Wo-Chien|88/100|[from] Spikes
+|-ability|p2a: Wo-Chien|Tablets of Ruin
+|move|p1a: Gliscor|Spikes|p2a: Wo-Chien
+|-sidestart|p2: martamagalys|Spikes
+|
+|-heal|p2a: Wo-Chien|94/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|97/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|35
+|
+|t:|1743798060
+|switch|p1a: Amoonguss|Amoonguss, F|57/100
+|move|p2a: Wo-Chien|Leech Seed|p1a: Amoonguss
+|-immune|p1a: Amoonguss
+|
+|-heal|p2a: Wo-Chien|100/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1743798067
+|switch|p2a: Mandibuzz|Mandibuzz, F|78/100 tox
+|move|p1a: Amoonguss|Toxic|p2a: Mandibuzz
+|-fail|p2a: Mandibuzz|tox
+|
+|-damage|p2a: Mandibuzz|72/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1743798077
+|switch|p1a: Gliscor|Gliscor, F|97/100 tox
+|move|p2a: Mandibuzz|Defog|p1a: Gliscor
+|-unboost|p1a: Gliscor|evasion|1
+|-sideend|p2: martamagalys|Spikes|[from] move: Defog|[of] p2a: Mandibuzz
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Mandibuzz|60/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1743798085
+|switch|p2a: Wo-Chien|Wo-Chien|100/100
+|-ability|p2a: Wo-Chien|Tablets of Ruin
+|move|p1a: Gliscor|Spikes|p2a: Wo-Chien
+|-sidestart|p2: martamagalys|Spikes
+|
+|upkeep
+|turn|39
+|
+|t:|1743798091
+|move|p1a: Gliscor|Knock Off|p2a: Wo-Chien
+|-resisted|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|93/100
+|-enditem|p2a: Wo-Chien|Leftovers|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Wo-Chien|Ruination|p1a: Gliscor
+|-damage|p1a: Gliscor|50/100 tox
+|
+|-heal|p1a: Gliscor|63/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|40
+|
+|t:|1743798100
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Wo-Chien|Leech Seed|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|75/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|41
+|
+|t:|1743798108
+|switch|p1a: Amoonguss|Amoonguss, F|91/100
+|move|p2a: Wo-Chien|Ruination|p1a: Amoonguss
+|-damage|p1a: Amoonguss|46/100
+|
+|upkeep
+|turn|42
+|
+|t:|1743798119
+|switch|p2a: Mandibuzz|Mandibuzz, F|60/100 tox
+|move|p1a: Amoonguss|Toxic|p2a: Mandibuzz
+|-fail|p2a: Mandibuzz|tox
+|
+|-damage|p2a: Mandibuzz|53/100 tox|[from] psn
+|upkeep
+|turn|43
+|
+|t:|1743798127
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Mandibuzz|Brave Bird|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|87/100
+|-damage|p2a: Mandibuzz|50/100 tox|[from] Recoil
+|
+|-heal|p1a: Bronzong|93/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|38/100 tox|[from] psn
+|upkeep
+|turn|44
+|
+|t:|1743798130
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|88/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Bronzong|Stealth Rock|p2a: Mandibuzz
+|-sidestart|p2: martamagalys|move: Stealth Rock
+|
+|-heal|p1a: Bronzong|99/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|69/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|t:|1743798134
+|switch|p2a: Ting-Lu|Ting-Lu|92/100 tox
+|-damage|p2a: Ting-Lu|79/100 tox|[from] Spikes
+|-damage|p2a: Ting-Lu|73/100 tox|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Bronzong|Protect||[still]
+|-fail|p1a: Bronzong
+|
+|-heal|p1a: Bronzong|100/100|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|67/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|t:|1743798141
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Bronzong
+|-sidestart|p1: Skakakak|move: Stealth Rock
+|
+|-damage|p2a: Ting-Lu|55/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|t:|1743798147
+|switch|p1a: Gliscor|Gliscor, F|75/100 tox
+|-damage|p1a: Gliscor|63/100 tox|[from] Stealth Rock
+|move|p2a: Ting-Lu|Whirlwind|p1a: Gliscor
+|drag|p1a: Amoonguss|Amoonguss, F|79/100
+|
+|-damage|p2a: Ting-Lu|36/100 tox|[from] psn
+|upkeep
+|turn|48
+|
+|t:|1743798158
+|move|p2a: Ting-Lu|Earthquake|p1a: Amoonguss
+|-damage|p1a: Amoonguss|50/100
+|move|p1a: Amoonguss|Clear Smog|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|31/100 tox
+|-clearboost|p2a: Ting-Lu
+|
+|-damage|p2a: Ting-Lu|6/100 tox|[from] psn
+|upkeep
+|turn|49
+|
+|t:|1743798167
+|switch|p1a: Gliscor|Gliscor, F|63/100 tox
+|-damage|p1a: Gliscor|50/100 tox|[from] Stealth Rock
+|move|p2a: Ting-Lu|Whirlwind|p1a: Gliscor
+|drag|p1a: Alomomola|Alomomola, F|100/100
+|
+|-damage|p2a: Ting-Lu|0 fnt|[from] psn
+|faint|p2a: Ting-Lu
+|upkeep
+|
+|t:|1743798182
+|switch|p2a: Wo-Chien|Wo-Chien|93/100
+|-damage|p2a: Wo-Chien|81/100|[from] Spikes
+|-damage|p2a: Wo-Chien|69/100|[from] Stealth Rock
+|-ability|p2a: Wo-Chien|Tablets of Ruin
+|turn|50
+|
+|t:|1743798188
+|move|p2a: Wo-Chien|Dark Pulse|p1a: Alomomola
+|-damage|p1a: Alomomola|78/100
+|move|p1a: Alomomola|Flip Turn|p2a: Wo-Chien
+|-resisted|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|63/100
+|
+|t:|1743798193
+|switch|p1a: Gliscor|Gliscor, F|50/100 tox|[from] Flip Turn
+|-damage|p1a: Gliscor|38/100 tox|[from] Stealth Rock
+|
+|-heal|p1a: Gliscor|50/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|51
+|
+|t:|1743798196
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Wo-Chien|Leech Seed|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|63/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|52
+|
+|t:|1743798203
+|switch|p1a: Amoonguss|Amoonguss, F|83/100
+|move|p2a: Wo-Chien|Dark Pulse|p1a: Amoonguss
+|-damage|p1a: Amoonguss|56/100
+|
+|upkeep
+|turn|53
+|
+|t:|1743798212
+|switch|p2a: Mandibuzz|Mandibuzz, F|69/100 tox
+|-damage|p2a: Mandibuzz|44/100 tox|[from] Stealth Rock
+|move|p1a: Amoonguss|Synthesis|p1a: Amoonguss
+|-heal|p1a: Amoonguss|100/100
+|
+|-damage|p2a: Mandibuzz|38/100 tox|[from] psn
+|upkeep
+|turn|54
+|
+|t:|1743798218
+|switch|p1a: Gliscor|Gliscor, F|63/100 tox
+|-damage|p1a: Gliscor|50/100 tox|[from] Stealth Rock
+|move|p2a: Mandibuzz|Defog|p1a: Gliscor
+|-unboost|p1a: Gliscor|evasion|1
+|-sideend|p1: Skakakak|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|-sideend|p2: martamagalys|Spikes|[from] move: Defog|[of] p2a: Mandibuzz
+|-sideend|p2: martamagalys|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|
+|-heal|p1a: Gliscor|63/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Mandibuzz|26/100 tox|[from] psn
+|upkeep
+|turn|55
+|
+|t:|1743798229
+|move|p1a: Gliscor|Spikes|p2a: Mandibuzz
+|-sidestart|p2: martamagalys|Spikes
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|76/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Gliscor|75/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Mandibuzz|58/100 tox|[from] psn
+|upkeep
+|turn|56
+|
+|t:|1743798238
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|move|p1a: Gliscor|Spikes|p2a: Hydreigon
+|-sidestart|p2: martamagalys|Spikes
+|
+|-heal|p1a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|57
+|
+|t:|1743798246
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Hydreigon|Draco Meteor|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|58
+|
+|t:|1743798252
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Blissey
+|-damage|p1a: Blissey|80/100
+|-unboost|p2a: Hydreigon|spa|2
+|
+|upkeep
+|turn|59
+|
+|t:|1743798258
+|switch|p2a: Wo-Chien|Wo-Chien|63/100
+|-damage|p2a: Wo-Chien|46/100|[from] Spikes
+|-ability|p2a: Wo-Chien|Tablets of Ruin
+|move|p1a: Blissey|Seismic Toss|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|19/100
+|
+|upkeep
+|turn|60
+|
+|t:|1743798272
+|move|p2a: Wo-Chien|Giga Drain|p1a: Blissey
+|-damage|p1a: Blissey|73/100
+|-heal|p2a: Wo-Chien|26/100|[from] drain|[of] p1a: Blissey
+|move|p1a: Blissey|Flamethrower|p2a: Wo-Chien
+|-supereffective|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|9/100
+|
+|upkeep
+|turn|61
+|
+|t:|1743798278
+|move|p2a: Wo-Chien|Leech Seed|p1a: Blissey
+|-start|p1a: Blissey|move: Leech Seed
+|move|p1a: Blissey|Seismic Toss|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|0 fnt
+|faint|p2a: Wo-Chien
+|
+|upkeep
+|
+|t:|1743798282
+|switch|p2a: Mandibuzz|Mandibuzz, F|58/100 tox
+|turn|62
+|
+|t:|1743798286
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Mandibuzz|Brave Bird|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|87/100
+|-damage|p2a: Mandibuzz|54/100 tox|[from] Recoil
+|
+|-heal|p1a: Bronzong|94/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|48/100 tox|[from] psn
+|upkeep
+|turn|63
+|
+|t:|1743798292
+|move|p2a: Mandibuzz|Brave Bird|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|81/100
+|-damage|p2a: Mandibuzz|45/100 tox|[from] Recoil
+|move|p1a: Bronzong|Stealth Rock|p2a: Mandibuzz
+|-sidestart|p2: martamagalys|move: Stealth Rock
+|
+|-heal|p1a: Bronzong|87/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|32/100 tox|[from] psn
+|upkeep
+|turn|64
+|
+|t:|1743798304
+|move|p2a: Mandibuzz|Defog|p1a: Bronzong
+|-unboost|p1a: Bronzong|evasion|1
+|-sideend|p2: martamagalys|Spikes|[from] move: Defog|[of] p2a: Mandibuzz
+|-sideend|p2: martamagalys|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|move|p1a: Bronzong|Body Press|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|21/100 tox
+|
+|-heal|p1a: Bronzong|94/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|2/100 tox|[from] psn
+|upkeep
+|turn|65
+|
+|t:|1743798308
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|52/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Bronzong|99/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|28/100 tox|[from] psn
+|upkeep
+|turn|66
+|
+|t:|1743798312
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|78/100 tox
+|-singleturn|p2a: Mandibuzz|move: Roost
+|move|p1a: Bronzong|Stealth Rock|p2a: Mandibuzz
+|-sidestart|p2: martamagalys|move: Stealth Rock
+|
+|-heal|p1a: Bronzong|100/100|[from] item: Leftovers
+|-damage|p2a: Mandibuzz|47/100 tox|[from] psn
+|upkeep
+|turn|67
+|
+|t:|1743798316
+|move|p2a: Mandibuzz|Defog|p1a: Bronzong
+|-unboost|p1a: Bronzong|evasion|1
+|-sideend|p2: martamagalys|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|move|p1a: Bronzong|Body Press|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|36/100 tox
+|
+|-damage|p2a: Mandibuzz|0 fnt|[from] psn
+|faint|p2a: Mandibuzz
+|upkeep
+|
+|t:|1743798320
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|68
+|
+|t:|1743798326
+|move|p1a: Bronzong|Protect|p1a: Bronzong
+|-singleturn|p1a: Bronzong|Protect
+|move|p2a: Hydreigon|Earth Power|p1a: Bronzong
+|-activate|p1a: Bronzong|move: Protect
+|
+|upkeep
+|turn|69
+|
+|t:|1743798330
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|move|p1a: Bronzong|Body Press|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|40/100
+|
+|upkeep
+|turn|70
+|
+|t:|1743798341
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|-terastallize|p2a: Kingambit|Flying
+|move|p2a: Kingambit|Low Kick|p1a: Alomomola
+|-damage|p1a: Alomomola|80/100
+|
+|upkeep
+|turn|71
+|
+|t:|1743798344
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Alomomola
+|-damage|p1a: Alomomola|36/100
+|move|p1a: Alomomola|Scald|p2a: Kingambit
+|-damage|p2a: Kingambit|27/100
+|
+|upkeep
+|turn|72
+|
+|t:|1743798352
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Dondozo
+|-damage|p1a: Dondozo|67/100
+|
+|upkeep
+|turn|73
+|
+|t:|1743798363
+|move|p2a: Kingambit|Low Kick|p1a: Dondozo
+|-damage|p1a: Dondozo|38/100
+|move|p1a: Dondozo|Avalanche|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|-message|martamagalys forfeited.
+|
+|win|Skakakak
+|raw|Skakakak's rating: 1091 &rarr; <strong>1120</strong><br />(+29 for winning)
+|raw|martamagalys's rating: 1120 &rarr; <strong>1093</strong><br />(-27 for losing)
+|l|☆martamagalys
+|player|p2|

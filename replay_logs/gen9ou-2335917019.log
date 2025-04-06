@@ -1,0 +1,215 @@
+|j|☆Backpacker Brand
+|j|☆Pompey Magnus
+|t:|1743858581
+|gametype|singles
+|player|p1|Backpacker Brand|backpacker|1124
+|player|p2|Pompey Magnus|gentleman-gen4|1105
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Moltres-Galar|
+|poke|p1|Minior-Yellow|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Crabominable, M|
+|poke|p1|Rhydon, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Sinistcha|
+|poke|p2|Azumarill, M|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Weavile, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Backpacker Brand)
+|
+|t:|1743858593
+|start
+|switch|p1a: Luma|Minior-Yellow|100/100
+|switch|p2a: Sinistcha|Sinistcha|100/100
+|-formechange|p1a: Luma|Minior-Meteor||[from] ability: Shields Down
+|turn|1
+|
+|t:|1743858598
+|move|p1a: Luma|Shell Smash|p1a: Luma
+|-unboost|p1a: Luma|def|1
+|-unboost|p1a: Luma|spd|1
+|-boost|p1a: Luma|atk|2
+|-boost|p1a: Luma|spa|2
+|-boost|p1a: Luma|spe|2
+|-enditem|p1a: Luma|White Herb
+|-clearnegativeboost|p1a: Luma|[silent]
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743858607
+|move|p1a: Luma|Acrobatics|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|7/100
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Luma
+|-damage|p1a: Luma|46/100
+|-heal|p2a: Sinistcha|31/100|[from] drain|[of] p1a: Luma
+|
+|-formechange|p1a: Luma|Minior-Yellow||[from] ability: Shields Down
+|upkeep
+|turn|3
+|
+|t:|1743858617
+|move|p1a: Luma|Acrobatics|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|
+|upkeep
+|
+|t:|1743858620
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|turn|4
+|
+|t:|1743858624
+|-terastallize|p1a: Luma|Flying
+|move|p2a: Azumarill|Aqua Jet|p1a: Luma
+|-damage|p1a: Luma|24/100
+|move|p1a: Luma|Earthquake|p2a: Azumarill
+|-damage|p2a: Azumarill|32/100
+|-enditem|p2a: Azumarill|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill|57/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|5
+|
+|t:|1743858632
+|move|p2a: Azumarill|Aqua Jet|p1a: Luma
+|-damage|p1a: Luma|3/100
+|move|p1a: Luma|Acrobatics|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|upkeep
+|
+|t:|1743858636
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|6
+|
+|t:|1743858642
+|move|p2a: Deoxys|Extreme Speed|p1a: Luma
+|-damage|p1a: Luma|0 fnt
+|faint|p1a: Luma
+|-damage|p2a: Deoxys|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743858651
+|switch|p1a: Hades|Moltres-Galar|100/100
+|turn|7
+|
+|t:|1743858657
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Hades|Fiery Wrath|p2a: Corviknight
+|-damage|p2a: Corviknight|51/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743858665
+|move|p1a: Hades|Fiery Wrath|p2a: Corviknight
+|-damage|p2a: Corviknight|6/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|56/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|9
+|
+|t:|1743858671
+|move|p1a: Hades|Tailwind|p1a: Hades
+|-sidestart|p1: Backpacker Brand|move: Tailwind
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|10
+|
+|t:|1743858696
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Hades|Fiery Wrath|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|71/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743858705
+|move|p1a: Hades|Air Slash|p2a: Weavile
+|-damage|p2a: Weavile|25/100
+|cant|p2a: Weavile|flinch
+|
+|upkeep
+|turn|12
+|
+|t:|1743858715
+|move|p2a: Weavile|Ice Shard|p1a: Hades
+|-supereffective|p1a: Hades
+|-damage|p1a: Hades|53/100
+|move|p1a: Hades|Fiery Wrath|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|-sideend|p1: Backpacker Brand|move: Tailwind
+|upkeep
+|
+|t:|1743858725
+|switch|p2a: Deoxys|Deoxys-Speed|91/100
+|-ability|p2a: Deoxys|Pressure
+|turn|13
+|
+|t:|1743858732
+|move|p2a: Deoxys|Ice Beam|p1a: Hades
+|-supereffective|p1a: Hades
+|-damage|p1a: Hades|0 fnt
+|faint|p1a: Hades
+|-damage|p2a: Deoxys|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743858755
+|switch|p1a: Bad Medicine|Slowking-Galar, F|100/100
+|turn|14
+|
+|t:|1743858780
+|move|p2a: Deoxys|Psycho Boost|p1a: Bad Medicine
+|-damage|p1a: Bad Medicine|47/100
+|-unboost|p2a: Deoxys|spa|2
+|-damage|p2a: Deoxys|71/100|[from] item: Life Orb
+|move|p1a: Bad Medicine|Trick Room|p1a: Bad Medicine
+|-fieldstart|move: Trick Room|[of] p1a: Bad Medicine
+|
+|upkeep
+|turn|15
+|-message|Pompey Magnus forfeited.
+|
+|win|Backpacker Brand
+|raw|Backpacker Brand's rating: 1124 &rarr; <strong>1147</strong><br />(+23 for winning)
+|raw|Pompey Magnus's rating: 1101 &rarr; <strong>1078</strong><br />(-23 for losing)
+|l|☆Pompey Magnus
+|player|p2|
+|l|☆Backpacker Brand
+|player|p1|

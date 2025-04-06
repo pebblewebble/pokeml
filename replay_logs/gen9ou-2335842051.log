@@ -1,0 +1,269 @@
+|j|☆etude_suzuki
+|j|☆AegislashIsTheGoat
+|t:|1743846412
+|gametype|singles
+|player|p1|etude_suzuki|265|1091
+|player|p2|AegislashIsTheGoat|265|1072
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pikachu, M|
+|poke|p1|Lucario, M|
+|poke|p1|Zoroark, M|
+|poke|p1|Gardevoir, F|
+|poke|p1|Lapras, F|
+|poke|p1|Charizard, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Dondozo, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AegislashIsTheGoat)
+|
+|t:|1743846428
+|start
+|switch|p1a: Lapras|Lapras, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|t:|1743846448
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Lapras|Freeze-Dry|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743846458
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|2
+|
+|t:|1743846464
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|move|p2a: Iron Valiant|Close Combat|p1a: Gardevoir
+|-resisted|p1a: Gardevoir
+|-damage|p1a: Gardevoir|79/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|
+|-heal|p1a: Gardevoir|85/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743846478
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-ability|p1a: Gardevoir|Supreme Overlord|[from] ability: Trace|[of] p2a: Kingambit
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|move|p1a: Gardevoir|Calm Mind|p1a: Gardevoir
+|-boost|p1a: Gardevoir|spa|1
+|-boost|p1a: Gardevoir|spd|1
+|
+|-heal|p1a: Gardevoir|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743846490
+|-terastallize|p1a: Gardevoir|Fire
+|move|p1a: Gardevoir|Mystical Fire|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|-heal|p1a: Gardevoir|97/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743846501
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|5
+|
+|t:|1743846506
+|move|p2a: Iron Valiant|Encore|p1a: Gardevoir
+|-start|p1a: Gardevoir|Encore
+|move|p1a: Gardevoir|Mystical Fire|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p1a: Gardevoir|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743846514
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|turn|6
+|
+|t:|1743846518
+|-end|p1a: Gardevoir|fallenundefined|[silent]
+|switch|p1a: Lapras|Lapras, F|100/100
+|move|p2a: Dondozo|Waterfall|p1a: Lapras
+|-immune|p1a: Lapras|[from] ability: Water Absorb
+|
+|upkeep
+|turn|7
+|
+|t:|1743846530
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Lapras|Freeze-Dry|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|48/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743846548
+|switch|p1a: Pikachu|Pikachu, M|100/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Pikachu
+|-ability|p1a: Pikachu|Lightning Rod|boost
+|-boost|p1a: Pikachu|spa|1
+|
+|upkeep
+|turn|9
+|
+|t:|1743846558
+|move|p1a: Pikachu|Tera Blast|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|10/100
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Pikachu
+|-damage|p1a: Pikachu|0 fnt
+|-unboost|p2a: Raging Bolt|spa|2
+|faint|p1a: Pikachu
+|
+|upkeep
+|
+|t:|1743846570
+|switch|p1a: Lapras|Lapras, F|100/100
+|turn|10
+|
+|t:|1743846574
+|move|p2a: Raging Bolt|Thunderclap|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|73/100
+|move|p1a: Lapras|Ice Shard|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743846581
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|11
+|
+|t:|1743846585
+|move|p2a: Dragapult|Dragon Darts|p1a: Lapras
+|-damage|p1a: Lapras|37/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|upkeep
+|
+|t:|1743846593
+|switch|p1a: Lucario|Lucario, M|100/100
+|turn|12
+|
+|t:|1743846598
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|move|p1a: Lucario|Knock Off|p2a: Dondozo
+|-damage|p2a: Dondozo|79/100
+|-enditem|p2a: Dondozo|Leftovers|[from] move: Knock Off|[of] p1a: Lucario
+|
+|upkeep
+|turn|13
+|
+|t:|1743846609
+|switch|p1a: Gardevoir|Gardevoir, F, tera:Fire|100/100
+|-ability|p1a: Gardevoir|Unaware|[from] ability: Trace|[of] p2a: Dondozo
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|upkeep
+|turn|14
+|
+|t:|1743846629
+|move|p1a: Gardevoir|Moonblast|p2a: Dondozo
+|-damage|p2a: Dondozo|32/100
+|move|p2a: Dondozo|Waterfall|p1a: Gardevoir
+|-supereffective|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|upkeep
+|
+|t:|1743846638
+|switch|p1a: Charizard|Charizard, M|100/100
+|turn|15
+|
+|t:|1743846641
+|move|p1a: Charizard|Air Slash|p2a: Dondozo
+|-damage|p2a: Dondozo|1/100
+|cant|p2a: Dondozo|flinch
+|
+|upkeep
+|turn|16
+|
+|t:|1743846646
+|move|p1a: Charizard|Flamethrower|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|upkeep
+|
+|t:|1743846652
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|17
+|
+|t:|1743846658
+|-terastallize|p2a: Dragapult|Dragon
+|move|p2a: Dragapult|Dragon Darts|p1a: Charizard
+|-damage|p1a: Charizard|25/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+|
+|t:|1743846666
+|switch|p1a: Lucario|Lucario, M|100/100
+|turn|18
+|
+|t:|1743846670
+|move|p1a: Lucario|Ice Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|40/100
+|-status|p2a: Dragapult|frz
+|cant|p2a: Dragapult|frz
+|
+|upkeep
+|turn|19
+|-message|AegislashIsTheGoat forfeited.
+|
+|win|etude_suzuki
+|raw|etude_suzuki's rating: 1091 &rarr; <strong>1116</strong><br />(+25 for winning)
+|raw|AegislashIsTheGoat's rating: 1072 &rarr; <strong>1052</strong><br />(-20 for losing)
+|l|☆AegislashIsTheGoat
+|player|p2|

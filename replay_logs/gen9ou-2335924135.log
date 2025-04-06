@@ -1,0 +1,226 @@
+|j|☆Le Regaleur
+|j|☆arcevoli
+|t:|1743859542
+|gametype|singles
+|player|p1|Le Regaleur|bruno|1175
+|player|p2|arcevoli|cynthia-masters|1176
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Moltres-Galar|
+|poke|p1|Dragonite, M|
+|poke|p1|Alomomola, M|
+|poke|p1|Blaziken, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Salamence, M|
+|poke|p2|Kleavor, M|
+|poke|p2|Gengar, M|
+|poke|p2|Squawkabilly-Blue, M|
+|poke|p2|Mimikyu, M|
+|poke|p2|Jirachi|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Le Regaleur)
+|inactive|arcevoli also wants the timer to be on.
+|
+|t:|1743859560
+|start
+|switch|p1a: Blaziken|Blaziken, M, shiny|100/100
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|turn|1
+|
+|t:|1743859570
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Kleavor|Stone Axe|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|2
+|
+|t:|1743859585
+|move|p1a: Blaziken|Flare Blitz|p2a: Kleavor
+|-enditem|p2a: Kleavor|Focus Sash
+|-damage|p2a: Kleavor|1/100
+|-damage|p1a: Blaziken|70/100|[from] Recoil
+|-damage|p1a: Blaziken|60/100|[from] item: Life Orb
+|move|p2a: Kleavor|Stone Axe|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|-sidestart|p1: Le Regaleur|move: Stealth Rock
+|faint|p1a: Blaziken
+|
+|upkeep
+|
+|t:|1743859597
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|3
+|
+|t:|1743859601
+|move|p2a: Kleavor|Tailwind|p2a: Kleavor
+|-sidestart|p2: arcevoli|move: Tailwind
+|move|p1a: Dragonite|Ice Spinner|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|faint|p2a: Kleavor
+|
+|upkeep
+|
+|t:|1743859611
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|4
+|
+|t:|1743859619
+|move|p2a: Jirachi|Meteor Beam||[still]
+|-prepare|p2a: Jirachi|Meteor Beam
+|-boost|p2a: Jirachi|spa|1
+|-enditem|p2a: Jirachi|Power Herb
+|-anim|p2a: Jirachi|Meteor Beam|p1a: Dragonite|[miss]
+|-miss|p2a: Jirachi|p1a: Dragonite
+|move|p1a: Dragonite|Earthquake|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|21/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743859631
+|move|p2a: Jirachi|Psychic|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|58/100
+|-unboost|p1a: Dragonite|spd|1
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|6
+|
+|t:|1743859640
+|move|p1a: Dragonite|Extreme Speed|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-sideend|p2: arcevoli|move: Tailwind
+|upkeep
+|
+|t:|1743859650
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|turn|7
+|
+|t:|1743859666
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Earthquake|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|move|p2a: Mimikyu|Play Rough|p1a: Dragonite|[miss]
+|-miss|p2a: Mimikyu|p1a: Dragonite
+|
+|upkeep
+|turn|8
+|
+|t:|1743859679
+|move|p1a: Dragonite|Ice Spinner|p2a: Mimikyu
+|-damage|p2a: Mimikyu|5/100
+|move|p2a: Mimikyu|Play Rough|p1a: Dragonite
+|-damage|p1a: Dragonite|18/100
+|-heal|p2a: Mimikyu|11/100|[from] item: Shell Bell|[of] p1a: Dragonite
+|
+|upkeep
+|turn|9
+|
+|t:|1743859687
+|move|p1a: Dragonite|Ice Spinner|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|upkeep
+|
+|t:|1743859693
+|switch|p2a: Squawkabilly|Squawkabilly-Blue, M|100/100
+|turn|10
+|
+|t:|1743859699
+|move|p1a: Dragonite|Ice Spinner|p2a: Squawkabilly
+|-supereffective|p2a: Squawkabilly
+|-damage|p2a: Squawkabilly|0 fnt
+|faint|p2a: Squawkabilly
+|
+|upkeep
+|
+|t:|1743859703
+|switch|p2a: Gengar|Gengar, M|100/100
+|turn|11
+|
+|t:|1743859707
+|move|p1a: Dragonite|Earthquake|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|t:|1743859710
+|switch|p2a: Salamence|Salamence, M|100/100
+|turn|12
+|
+|t:|1743859725
+|-terastallize|p2a: Salamence|Steel
+|move|p1a: Dragonite|Ice Spinner|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|71/100
+|move|p2a: Salamence|Dragon Dance|p2a: Salamence
+|-boost|p2a: Salamence|atk|1
+|-boost|p2a: Salamence|spe|1
+|
+|upkeep
+|turn|13
+|
+|t:|1743859734
+|move|p1a: Dragonite|Extreme Speed|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|23/100
+|move|p2a: Salamence|Dual Wingbeat|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|-hitcount|p1: Dragonite|1
+|-damage|p2a: Salamence|13/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743859745
+|switch|p1a: Miroirs|Landorus-Therian, M|100/100
+|-damage|p1a: Miroirs|88/100|[from] Stealth Rock
+|-ability|p1a: Miroirs|Intimidate|boost
+|-unboost|p2a: Salamence|atk|1
+|turn|14
+|
+|t:|1743859752
+|move|p2a: Salamence|Iron Head|p1a: Miroirs
+|-damage|p1a: Miroirs|0 fnt
+|-damage|p2a: Salamence|0 fnt|[from] item: Rocky Helmet|[of] p1a: Miroirs
+|faint|p1a: Miroirs
+|faint|p2a: Salamence
+|
+|win|Le Regaleur
+|raw|Le Regaleur's rating: 1175 &rarr; <strong>1200</strong><br />(+25 for winning)
+|raw|arcevoli's rating: 1176 &rarr; <strong>1151</strong><br />(-25 for losing)
+|l|☆arcevoli
+|player|p2|
+|l|☆Le Regaleur
+|player|p1|

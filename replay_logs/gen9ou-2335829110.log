@@ -1,0 +1,393 @@
+|j|☆ollin34
+|j|‽Jacobeiro
+|t:|1743844108
+|gametype|singles
+|player|p1|ollin34|170|1229
+|player|p2|Jacobeiro|2|1291
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tinkaton, F|
+|poke|p1|Gliscor, M|
+|poke|p1|Ursaluna, F|
+|poke|p1|Skeledirge, M|
+|poke|p1|Meowscarada, F|
+|poke|p1|Galvantula, M|
+|poke|p2|Zapdos|
+|poke|p2|Toxapex, M|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Dragonite, M|
+|poke|p2|Ditto|
+|teampreview
+|
+|t:|1743844117
+|start
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-item|p1a: Tinkaton|Air Balloon
+|turn|1
+|
+|t:|1743844124
+|move|p2a: Great Tusk|Headlong Rush|p1a: Tinkaton
+|-immune|p1a: Tinkaton
+|move|p1a: Tinkaton|Thunder Wave|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|upkeep
+|turn|2
+|
+|t:|1743844143
+|move|p2a: Great Tusk|Stealth Rock|p1a: Tinkaton
+|-sidestart|p1: ollin34|move: Stealth Rock
+|move|p1a: Tinkaton|Encore|p2a: Great Tusk
+|-start|p2a: Great Tusk|Encore
+|
+|upkeep
+|turn|3
+|
+|t:|1743844147
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Tinkaton|Stealth Rock|p2a: Zapdos
+|-sidestart|p2: Jacobeiro|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1743844154
+|move|p2a: Zapdos|Heat Wave|p1a: Tinkaton|[miss]
+|-miss|p2a: Zapdos|p1a: Tinkaton
+|move|p1a: Tinkaton|Knock Off|p2a: Zapdos
+|-damage|p2a: Zapdos|82/100
+|-damage|p1a: Tinkaton|84/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|-enditem|p2a: Zapdos|Rocky Helmet|[from] move: Knock Off|[of] p1a: Tinkaton
+|
+|upkeep
+|turn|5
+|
+|t:|1743844169
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|-damage|p1a: Skeledirge|76/100|[from] Stealth Rock
+|move|p2a: Zapdos|Heat Wave|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-crit|p1a: Skeledirge
+|-damage|p1a: Skeledirge|60/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743844187
+|-terastallize|p1a: Skeledirge|Fairy
+|move|p2a: Zapdos|Discharge|p1a: Skeledirge
+|-damage|p1a: Skeledirge|31/100
+|move|p1a: Skeledirge|Torch Song|p2a: Zapdos
+|-damage|p2a: Zapdos|44/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|upkeep
+|turn|7
+|
+|t:|1743844194
+|move|p2a: Zapdos|Discharge|p1a: Skeledirge
+|-damage|p1a: Skeledirge|1/100
+|move|p1a: Skeledirge|Torch Song|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-boost|p1a: Skeledirge|spa|1
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1743844204
+|switch|p2a: Ditto|Ditto|100/100
+|-damage|p2a: Ditto|88/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Skeledirge|[from] ability: Imposter
+|-start|p2a: Ditto|typechange|Fire/Ghost|[silent]
+|turn|8
+|
+|t:|1743844231
+|move|p2a: Ditto|Torch Song|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|-boost|p2a: Ditto|spa|1
+|faint|p1a: Skeledirge
+|
+|upkeep
+|
+|t:|1743844253
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743844260
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Ursaluna|Earthquake|p2a: Dragonite
+|-immune|p2a: Dragonite
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|10
+|
+|t:|1743844263
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Ursaluna|Facade|p2a: Dragonite
+|-damage|p2a: Dragonite|25/100
+|
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|upkeep
+|turn|11
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jacobeiro)
+|
+|t:|1743844273
+|move|p2a: Dragonite|Ice Spinner|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|8/100 brn
+|move|p1a: Ursaluna|Facade|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-damage|p1a: Ursaluna|2/100 brn|[from] brn
+|upkeep
+|
+|t:|1743844285
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p2a: Gholdengo|Air Balloon
+|turn|12
+|
+|t:|1743844292
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Ursaluna|Play Rough|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|63/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|-damage|p1a: Ursaluna|0 fnt|[from] brn
+|faint|p1a: Ursaluna
+|upkeep
+|
+|t:|1743844302
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|-damage|p1a: Gliscor|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743844310
+|move|p1a: Gliscor|Earthquake|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|
+|t:|1743844316
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743844321
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|63/100 tox
+|move|p2a: Great Tusk|Ice Spinner|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|
+|-heal|p1a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|t:|1743844326
+|switch|p1a: Tinkaton|Tinkaton, F|84/100
+|-damage|p1a: Tinkaton|78/100|[from] Stealth Rock
+|-item|p1a: Tinkaton|Air Balloon
+|move|p2a: Great Tusk|Ice Spinner|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|66/100
+|-enditem|p1a: Tinkaton|Air Balloon
+|-enditem|p2a: Great Tusk|Rocky Helmet|[silent]|[from] ability: Pickpocket|[of] p2a: Great Tusk
+|-item|p1a: Tinkaton|Rocky Helmet|[from] ability: Pickpocket|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|16
+|
+|t:|1743844337
+|move|p2a: Great Tusk|Headlong Rush|p1a: Tinkaton
+|-supereffective|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-damage|p2a: Great Tusk|81/100|[from] item: Rocky Helmet|[of] p1a: Tinkaton
+|faint|p1a: Tinkaton
+|
+|upkeep
+|
+|t:|1743844341
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|-damage|p1a: Meowscarada|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743844346
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Meowscarada|Triple Axel|p2a: Toxapex
+|-start|p1a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|83/100
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|73/100
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|59/100
+|-hitcount|p2a: Toxapex|3
+|
+|-heal|p2a: Toxapex|66/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|t:|1743844351
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|-damage|p1a: Galvantula|76/100|[from] Stealth Rock
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743844357
+|move|p1a: Galvantula|Sticky Web|p2a: Toxapex
+|-sidestart|p2: Jacobeiro|move: Sticky Web
+|move|p2a: Toxapex|Toxic|p1a: Galvantula
+|-status|p1a: Galvantula|tox
+|
+|-damage|p1a: Galvantula|70/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1743844365
+|switch|p2a: Great Tusk|Great Tusk|81/100
+|-damage|p2a: Great Tusk|78/100|[from] Stealth Rock
+|-activate|p2a: Great Tusk|move: Sticky Web
+|-unboost|p2a: Great Tusk|spe|1
+|move|p1a: Galvantula|Thunder|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|-damage|p1a: Galvantula|58/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1743844374
+|switch|p1a: Meowscarada|Meowscarada, F|88/100
+|-damage|p1a: Meowscarada|76/100|[from] Stealth Rock
+|move|p2a: Great Tusk|Rapid Spin|p1a: Meowscarada
+|-damage|p1a: Meowscarada|48/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Jacobeiro|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-sideend|p2: Jacobeiro|Sticky Web|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|22
+|
+|t:|1743844386
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Meowscarada|Flower Trick|p2a: Toxapex
+|-start|p1a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-crit|p2a: Toxapex
+|-damage|p2a: Toxapex|45/100
+|
+|-heal|p2a: Toxapex|51/100|[from] item: Black Sludge
+|upkeep
+|turn|23
+|
+|t:|1743844396
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Meowscarada|Flower Trick|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|58/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|t:|1743844401
+|switch|p2a: Ditto|Ditto|88/100
+|-transform|p2a: Ditto|p1a: Meowscarada|[from] ability: Imposter
+|move|p1a: Meowscarada|Flower Trick|p2a: Ditto
+|-resisted|p2a: Ditto
+|-crit|p2a: Ditto
+|-damage|p2a: Ditto|19/100
+|
+|upkeep
+|turn|25
+|
+|t:|1743844405
+|move|p2a: Ditto|Triple Axel|p1a: Meowscarada
+|-start|p2a: Ditto|typechange|Ice|[from] ability: Protean
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|16/100
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|-hitcount|p1: Meowscarada|2
+|
+|upkeep
+|
+|t:|1743844408
+|switch|p1a: Galvantula|Galvantula, M|58/100 tox
+|-damage|p1a: Galvantula|33/100 tox|[from] Stealth Rock
+|turn|26
+|
+|t:|1743844413
+|switch|p2a: Great Tusk|Great Tusk|78/100
+|move|p1a: Galvantula|Leech Life|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|71/100
+|-heal|p1a: Galvantula|38/100 tox|[from] drain|[of] p2a: Great Tusk
+|
+|-damage|p1a: Galvantula|32/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1743844425
+|move|p1a: Galvantula|Leech Life|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|64/100
+|-heal|p1a: Galvantula|36/100 tox|[from] drain|[of] p2a: Great Tusk
+|move|p2a: Great Tusk|Rapid Spin|p1a: Galvantula
+|-damage|p1a: Galvantula|6/100 tox
+|-boost|p2a: Great Tusk|spe|1
+|
+|-damage|p1a: Galvantula|0 fnt|[from] psn
+|faint|p1a: Galvantula
+|upkeep
+|
+|t:|1743844428
+|switch|p1a: Gliscor|Gliscor, M|76/100 tox
+|-damage|p1a: Gliscor|63/100 tox|[from] Stealth Rock
+|turn|28
+|
+|t:|1743844431
+|move|p2a: Great Tusk|Ice Spinner|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|win|Jacobeiro
+|raw|ollin34's rating: 1229 &rarr; <strong>1208</strong><br />(-21 for losing)
+|raw|Jacobeiro's rating: 1291 &rarr; <strong>1312</strong><br />(+21 for winning)
+|l|☆ollin34
+|player|p1|

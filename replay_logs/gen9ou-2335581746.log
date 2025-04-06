@@ -1,0 +1,222 @@
+|j|☆MREUhjrwuje
+|j|☆Iggymar
+|t:|1743808733
+|gametype|singles
+|player|p1|MREUhjrwuje|102|1360
+|player|p2|Iggymar|n|1355
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gloom, F|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Iron Treads|
+|poke|p1|Dragonite, F|
+|poke|p2|Iron Crown|
+|poke|p2|Gholdengo|
+|poke|p2|Hydreigon, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Glimmora, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MREUhjrwuje)
+|
+|t:|1743808741
+|start
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Hoopa|atk|1
+|turn|1
+|
+|t:|1743808749
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Landorus|Stealth Rock|p1a: Iron Treads
+|-sidestart|p1: MREUhjrwuje|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743808757
+|move|p1a: Iron Treads|Ice Spinner|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Iron Treads|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743808781
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|turn|3
+|
+|t:|1743808786
+|move|p1a: Iron Treads|Earthquake|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: MREUhjrwuje|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1743808795
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|4
+|
+|t:|1743808800
+|move|p1a: Iron Treads|Ice Spinner|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|85/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Shadow Ball|p1a: Iron Treads
+|-damage|p1a: Iron Treads|23/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743808809
+|move|p1a: Iron Treads|Earthquake|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743808815
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|6
+|
+|t:|1743808824
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743808830
+|switch|p1a: Gloom|Gloom, F|100/100
+|-damage|p1a: Gloom|88/100|[from] Stealth Rock
+|-sideend|p1: MREUhjrwuje|move: Toxic Spikes|[of] p1a: Gloom
+|turn|7
+|
+|t:|1743808841
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Gloom
+|-damage|p1a: Gloom|66/100
+|move|p1a: Gloom|Leech Seed|p2a: Iron Valiant
+|-start|p2a: Iron Valiant|move: Leech Seed
+|
+|-damage|p2a: Iron Valiant|88/100|[from] Leech Seed|[of] p1a: Gloom
+|-heal|p1a: Gloom|77/100|[silent]
+|upkeep
+|turn|8
+|
+|t:|1743808852
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|move|p2a: Iron Valiant|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|35/100
+|-enditem|p1a: Slowking|Choice Scarf|[from] move: Knock Off|[of] p2a: Iron Valiant
+|
+|-damage|p2a: Iron Valiant|76/100|[from] Leech Seed|[of] p1a: Slowking
+|-heal|p1a: Slowking|44/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1743808863
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|13/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743808872
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespa
+|turn|10
+|
+|t:|1743808878
+|move|p2a: Iron Crown|Calm Mind|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spa|1
+|-boost|p2a: Iron Crown|spd|1
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743808881
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100|[from] Chilly Reception
+|-damage|p1a: Hoopa|88/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743808893
+|-terastallize|p2a: Iron Crown|Fighting
+|move|p2a: Iron Crown|Agility|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spe|2
+|move|p1a: Hoopa|Knock Off|p2a: Iron Crown
+|-resisted|p2a: Iron Crown
+|-damage|p2a: Iron Crown|82/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743808904
+|move|p2a: Iron Crown|Focus Blast|p1a: Hoopa|[miss]
+|-miss|p2a: Iron Crown|p1a: Hoopa
+|move|p1a: Hoopa|Psychic Noise|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|17/100
+|-start|p2a: Iron Crown|move: Heal Block
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743808914
+|move|p2a: Iron Crown|Focus Blast|p1a: Hoopa|[miss]
+|-miss|p2a: Iron Crown|p1a: Hoopa
+|move|p1a: Hoopa|Psychic Noise|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|-message|Iggymar forfeited.
+|
+|win|MREUhjrwuje
+|raw|MREUhjrwuje's rating: 1360 &rarr; <strong>1380</strong><br />(+20 for winning)
+|raw|Iggymar's rating: 1355 &rarr; <strong>1335</strong><br />(-20 for losing)
+|l|☆Iggymar
+|player|p2|

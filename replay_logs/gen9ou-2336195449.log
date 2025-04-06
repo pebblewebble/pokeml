@@ -1,0 +1,465 @@
+|j|☆Kanto's Finest
+|j|☆Matatex
+|t:|1743888612
+|gametype|singles
+|player|p1|Kanto's Finest|tamer-gen1rb|1166
+|player|p2|Matatex|hiker|1197
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Clefable, M|
+|poke|p1|Golduck, M|
+|poke|p1|Chansey, F|
+|poke|p1|Vileplume, F|
+|poke|p1|Hitmonlee, M|
+|poke|p1|Mew|
+|poke|p2|Darkrai|
+|poke|p2|Blaziken, F|
+|poke|p2|Great Tusk|
+|poke|p2|Primarina, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Scizor, M|
+|teampreview
+|
+|t:|1743888616
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|1
+|
+|t:|1743888621
+|switch|p1a: The Eggman|Chansey, F|100/100
+|move|p2a: Darkrai|Trick|p1a: The Eggman
+|-activate|p2a: Darkrai|move: Trick|[of] p1a: The Eggman
+|-item|p1a: The Eggman|Choice Scarf|[from] move: Trick
+|-item|p2a: Darkrai|Eviolite|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|t:|1743888629
+|move|p2a: Darkrai|Will-O-Wisp|p1a: The Eggman
+|-status|p1a: The Eggman|brn
+|move|p1a: The Eggman|Stealth Rock|p2a: Darkrai
+|-sidestart|p2: Matatex|move: Stealth Rock
+|
+|-damage|p1a: The Eggman|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743888635
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-curestatus|p1a: The Eggman|brn|[from] ability: Natural Cure
+|switch|p1a: Mew|Mew|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743888643
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Primarina|Primarina, M|100/100
+|-damage|p2a: Primarina|88/100|[from] Stealth Rock
+|move|p1a: Mew|Will-O-Wisp|p2a: Primarina
+|-status|p2a: Primarina|brn
+|
+|-damage|p2a: Primarina|82/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743888651
+|move|p1a: Mew|Toxic Spikes|p2a: Primarina
+|-sidestart|p2: Matatex|move: Toxic Spikes
+|move|p2a: Primarina|Moonblast|p1a: Mew
+|-damage|p1a: Mew|57/100
+|-unboost|p1a: Mew|spa|1
+|-enditem|p1a: Mew|Red Card|[of] p2a: Primarina
+|drag|p2a: Darkrai|Darkrai|100/100
+|-damage|p2a: Darkrai|88/100|[from] Stealth Rock
+|-status|p2a: Darkrai|psn
+|
+|-damage|p2a: Darkrai|76/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743888658
+|switch|p1a: The Eggman|Chansey, F|94/100
+|move|p2a: Darkrai|Dark Pulse|p1a: The Eggman
+|-damage|p1a: The Eggman|75/100
+|
+|-damage|p2a: Darkrai|63/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743888662
+|move|p2a: Darkrai|Will-O-Wisp|p1a: The Eggman
+|-status|p1a: The Eggman|brn
+|move|p1a: The Eggman|Seismic Toss|p2a: Darkrai
+|-damage|p2a: Darkrai|28/100 psn
+|
+|-damage|p2a: Darkrai|15/100 psn|[from] psn
+|-damage|p1a: The Eggman|69/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743888667
+|switch|p2a: Scizor|Scizor, M|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|move|p1a: The Eggman|Seismic Toss|p2a: Scizor
+|-damage|p2a: Scizor|59/100
+|
+|-damage|p1a: The Eggman|63/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743888671
+|-curestatus|p1a: The Eggman|brn|[from] ability: Natural Cure
+|switch|p1a: Strawberry F|Vileplume, F|100/100
+|move|p2a: Scizor|Defog|p1a: Strawberry F
+|-unboost|p1a: Strawberry F|evasion|1
+|-sideend|p2: Matatex|Toxic Spikes|[from] move: Defog|[of] p2a: Scizor
+|-sideend|p2: Matatex|Stealth Rock|[from] move: Defog|[of] p2a: Scizor
+|
+|upkeep
+|turn|10
+|
+|t:|1743888678
+|switch|p2a: Primarina|Primarina, M|82/100 brn
+|move|p1a: Strawberry F|Leech Seed|p2a: Primarina
+|-start|p2a: Primarina|move: Leech Seed
+|
+|-damage|p2a: Primarina|69/100 brn|[from] Leech Seed|[of] p1a: Strawberry F
+|-damage|p2a: Primarina|63/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743888684
+|switch|p1a: The Eggman|Chansey, F|63/100
+|move|p2a: Primarina|Psychic Noise|p1a: The Eggman
+|-damage|p1a: The Eggman|51/100
+|-start|p1a: The Eggman|move: Heal Block
+|
+|-damage|p2a: Primarina|51/100 brn|[from] Leech Seed|[of] p1a: The Eggman
+|-damage|p2a: Primarina|44/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743888691
+|switch|p2a: Darkrai|Darkrai|15/100 psn
+|move|p1a: The Eggman|Stealth Rock|p2a: Darkrai
+|-sidestart|p2: Matatex|move: Stealth Rock
+|
+|-damage|p2a: Darkrai|3/100 psn|[from] psn
+|-end|p1a: The Eggman|move: Heal Block
+|upkeep
+|turn|13
+|
+|t:|1743888700
+|move|p2a: Darkrai|Dark Pulse|p1a: The Eggman
+|-damage|p1a: The Eggman|32/100
+|move|p1a: The Eggman|Stealth Rock||[still]
+|-fail|p1a: The Eggman
+|
+|-damage|p2a: Darkrai|0 fnt|[from] psn
+|faint|p2a: Darkrai
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kanto's Finest)
+|
+|t:|1743888709
+|switch|p2a: Blaziken|Blaziken, F|100/100
+|-damage|p2a: Blaziken|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743888718
+|switch|p1a: FuckaDuck|Golduck, M, shiny|100/100
+|-ability|p1a: FuckaDuck|Cloud Nine
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|2
+|
+|-heal|p2a: Blaziken|94/100|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|15
+|
+|t:|1743888727
+|move|p1a: FuckaDuck|Protect|p1a: FuckaDuck
+|-singleturn|p1a: FuckaDuck|Protect
+|move|p2a: Blaziken|Close Combat|p1a: FuckaDuck
+|-activate|p1a: FuckaDuck|move: Protect
+|
+|-heal|p2a: Blaziken|99/100|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|16
+|
+|t:|1743888733
+|switch|p1a: Mr. Moonlight|Clefable, M|100/100
+|move|p2a: Blaziken|Close Combat|p1a: Mr. Moonlight
+|-resisted|p1a: Mr. Moonlight
+|-damage|p1a: Mr. Moonlight|72/100
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|
+|-heal|p2a: Blaziken|100/100|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|17
+|
+|t:|1743888743
+|move|p2a: Blaziken|Flare Blitz|p1a: Mr. Moonlight
+|-damage|p1a: Mr. Moonlight|20/100
+|-damage|p2a: Blaziken|78/100|[from] Recoil
+|move|p1a: Mr. Moonlight|Moonlight|p1a: Mr. Moonlight
+|-heal|p1a: Mr. Moonlight|70/100
+|
+|-heal|p2a: Blaziken|84/100|[from] item: Leftovers
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|18
+|
+|t:|1743888753
+|switch|p2a: Primarina|Primarina, M|44/100 brn
+|-damage|p2a: Primarina|32/100 brn|[from] Stealth Rock
+|move|p1a: Mr. Moonlight|Moonlight|p1a: Mr. Moonlight
+|-heal|p1a: Mr. Moonlight|100/100
+|
+|-damage|p2a: Primarina|26/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1743888760
+|switch|p1a: The Eggman|Chansey, F|32/100
+|move|p2a: Primarina|Psychic Noise|p1a: The Eggman
+|-damage|p1a: The Eggman|19/100
+|-start|p1a: The Eggman|move: Heal Block
+|
+|-damage|p2a: Primarina|20/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1743888766
+|move|p1a: The Eggman|Seismic Toss|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|-end|p1a: The Eggman|move: Heal Block
+|upkeep
+|
+|t:|1743888771
+|switch|p2a: Scizor|Scizor, M|59/100
+|-damage|p2a: Scizor|47/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1743888783
+|switch|p1a: Strawberry F|Vileplume, F|100/100
+|move|p2a: Scizor|U-turn|p1a: Strawberry F
+|-damage|p1a: Strawberry F|54/100
+|-damage|p2a: Scizor|30/100|[from] item: Rocky Helmet|[of] p1a: Strawberry F
+|
+|t:|1743888787
+|switch|p2a: Blaziken|Blaziken, F|84/100|[from] U-turn
+|-damage|p2a: Blaziken|72/100|[from] Stealth Rock
+|
+|-heal|p2a: Blaziken|78/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743888791
+|switch|p2a: Scizor|Scizor, M|30/100
+|-damage|p2a: Scizor|18/100|[from] Stealth Rock
+|-terastallize|p1a: Strawberry F|Fire
+|move|p1a: Strawberry F|Strength Sap|p2a: Scizor
+|-unboost|p2a: Scizor|atk|1
+|-heal|p1a: Strawberry F|100/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743888797
+|switch|p1a: Mew|Mew|57/100
+|-terastallize|p2a: Scizor|Flying
+|move|p2a: Scizor|Dual Wingbeat|p1a: Mew
+|-damage|p1a: Mew|32/100
+|-damage|p1a: Mew|6/100
+|-hitcount|p1a: Mew|2
+|
+|upkeep
+|turn|24
+|
+|t:|1743888805
+|switch|p1a: The Eggman|Chansey, F|19/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|
+|upkeep
+|turn|25
+|
+|t:|1743888810
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: The Eggman|Healing Wish|p1a: The Eggman
+|faint|p1a: The Eggman
+|
+|upkeep
+|
+|t:|1743888815
+|switch|p1a: Mew|Mew|6/100
+|-heal|p1a: Mew|100/100|[from] move: Healing Wish
+|turn|26
+|
+|t:|1743888821
+|move|p1a: Mew|Transform|p2a: Raging Bolt
+|-transform|p1a: Mew|p2a: Raging Bolt
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|83/100
+|
+|upkeep
+|turn|27
+|
+|t:|1743888826
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|-unboost|p2a: Raging Bolt|spa|2
+|faint|p1a: Mew
+|-end|p1a: Mew|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743888832
+|switch|p1a: FuckaDuck|Golduck, M, shiny|100/100
+|-ability|p1a: FuckaDuck|Cloud Nine
+|turn|28
+|
+|t:|1743888836
+|move|p1a: FuckaDuck|Encore|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|Encore
+|move|p2a: Raging Bolt|Draco Meteor|p1a: FuckaDuck
+|-damage|p1a: FuckaDuck|29/100
+|-unboost|p2a: Raging Bolt|spa|2
+|
+|upkeep
+|turn|29
+|
+|t:|1743888844
+|move|p1a: FuckaDuck|Disable|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|Disable|Draco Meteor
+|cant|p2a: Raging Bolt|Disable|Draco Meteor
+|
+|upkeep
+|turn|30
+|
+|t:|1743888850
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Scizor|Scizor, M, tera:Flying|18/100
+|-damage|p2a: Scizor|0 fnt|[from] Stealth Rock
+|faint|p2a: Scizor
+|move|p1a: FuckaDuck|Whirlpool|p2: Scizor|[notarget]
+|-fail|p1a: FuckaDuck
+|
+|upkeep
+|
+|t:|1743888855
+|switch|p2a: Great Tusk|Great Tusk|98/100
+|-damage|p2a: Great Tusk|95/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1743888859
+|switch|p1a: Strawberry F|Vileplume, F, tera:Fire|100/100
+|move|p2a: Great Tusk|Knock Off|p1a: Strawberry F
+|-damage|p1a: Strawberry F|80/100
+|-damage|p2a: Great Tusk|78/100|[from] item: Rocky Helmet|[of] p1a: Strawberry F
+|-status|p2a: Great Tusk|par|[from] ability: Effect Spore|[of] p1a: Strawberry F
+|-enditem|p1a: Strawberry F|Rocky Helmet|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|32
+|
+|t:|1743888869
+|move|p1a: Strawberry F|Strength Sap|p2a: Great Tusk
+|-unboost|p2a: Great Tusk|atk|1
+|-heal|p1a: Strawberry F|100/100
+|cant|p2a: Great Tusk|par
+|
+|upkeep
+|turn|33
+|
+|t:|1743888874
+|move|p1a: Strawberry F|Giga Drain|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|6/100 par
+|move|p2a: Great Tusk|Headlong Rush|p1a: Strawberry F
+|-supereffective|p1a: Strawberry F
+|-crit|p1a: Strawberry F
+|-damage|p1a: Strawberry F|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Strawberry F
+|
+|upkeep
+|
+|t:|1743888882
+|switch|p1a: Mr. Moonlight|Clefable, M|100/100
+|turn|34
+|
+|t:|1743888885
+|move|p1a: Mr. Moonlight|Cosmic Power|p1a: Mr. Moonlight
+|-boost|p1a: Mr. Moonlight|def|1
+|-boost|p1a: Mr. Moonlight|spd|1
+|move|p2a: Great Tusk|Rapid Spin|p1a: Mr. Moonlight
+|-damage|p1a: Mr. Moonlight|92/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Matatex|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|35
+|
+|t:|1743888891
+|move|p2a: Great Tusk|Knock Off|p1a: Mr. Moonlight
+|-resisted|p1a: Mr. Moonlight
+|-damage|p1a: Mr. Moonlight|84/100
+|-enditem|p1a: Mr. Moonlight|Leppa Berry|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Mr. Moonlight|Cosmic Power|p1a: Mr. Moonlight
+|-boost|p1a: Mr. Moonlight|def|1
+|-boost|p1a: Mr. Moonlight|spd|1
+|
+|upkeep
+|turn|36
+|
+|t:|1743888895
+|move|p2a: Great Tusk|Ice Spinner|p1a: Mr. Moonlight
+|-damage|p1a: Mr. Moonlight|74/100
+|move|p1a: Mr. Moonlight|Cosmic Power|p1a: Mr. Moonlight
+|-boost|p1a: Mr. Moonlight|def|1
+|-boost|p1a: Mr. Moonlight|spd|1
+|
+|upkeep
+|turn|37
+|-message|Matatex forfeited.
+|
+|win|Kanto's Finest
+|raw|Kanto&apos;s Finest's rating: 1166 &rarr; <strong>1193</strong><br />(+27 for winning)
+|raw|Matatex's rating: 1197 &rarr; <strong>1170</strong><br />(-27 for losing)
+|l|☆Matatex
+|player|p2|
+|l|☆Kanto's Finest
+|player|p1|

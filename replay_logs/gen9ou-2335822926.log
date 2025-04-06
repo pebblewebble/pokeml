@@ -1,0 +1,282 @@
+|j|☆uhhbiuygyg
+|j|☆naotokuro
+|t:|1743842960
+|gametype|singles
+|player|p1|uhhbiuygyg|101|1074
+|player|p2|naotokuro|266|1093
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Smeargle, M|
+|poke|p1|Serperior, M|
+|poke|p1|Lurantis, F|
+|poke|p1|Malamar, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Glimmora, F|
+|poke|p2|Sandslash-Alola, F|
+|poke|p2|Gardevoir, M|
+|poke|p2|Ninetales-Alola, M|
+|poke|p2|Charizard, M|
+|poke|p2|Blastoise, F|
+|poke|p2|Pikachu-Hoenn, M|
+|teampreview
+|
+|t:|1743842962
+|start
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|turn|1
+|
+|t:|1743842972
+|move|p1a: Smeargle|Sticky Web|p2a: Blastoise
+|-sidestart|p2: naotokuro|move: Sticky Web
+|move|p2a: Blastoise|Flip Turn|p1a: Smeargle
+|-damage|p1a: Smeargle|35/100
+|
+|t:|1743842978
+|switch|p2a: Pikachu|Pikachu-Hoenn, M|100/100|[from] Flip Turn
+|-activate|p2a: Pikachu|move: Sticky Web
+|-unboost|p2a: Pikachu|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743842984
+|move|p1a: Smeargle|Court Change|p1a: Smeargle
+|-swapsideconditions
+|-activate|p1a: Smeargle|move: Court Change
+|move|p2a: Pikachu|Volt Switch|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|
+|t:|1743842991
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100|[from] Volt Switch
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743842999
+|switch|p1a: Glimmora|Glimmora, F, shiny|100/100
+|turn|3
+|
+|t:|1743843005
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: naotokuro|move: Aurora Veil
+|move|p1a: Glimmora|Sludge Bomb|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|52/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743843011
+|move|p2a: Ninetales|Freeze-Dry|p1a: Glimmora
+|-damage|p1a: Glimmora|74/100
+|move|p1a: Glimmora|Sludge Bomb|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|9/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743843018
+|switch|p2a: Sandslash|Sandslash-Alola, F, shiny|100/100
+|move|p1a: Glimmora|Sludge Bomb|p2a: Sandslash
+|-immune|p2a: Sandslash
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743843024
+|move|p2a: Sandslash|Swords Dance|p2a: Sandslash
+|-boost|p2a: Sandslash|atk|2
+|move|p1a: Glimmora|Power Gem|p2a: Sandslash
+|-damage|p2a: Sandslash|67/100
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1743843031
+|switch|p1a: Malamar|Malamar, M, shiny|100/100
+|-activate|p1a: Malamar|move: Sticky Web
+|-boost|p1a: Malamar|spe|1
+|move|p2a: Sandslash|Rapid Spin|p1a: Malamar
+|-damage|p1a: Malamar|62/100
+|-boost|p2a: Sandslash|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743843047
+|move|p1a: Malamar|Topsy-Turvy|p2a: Sandslash
+|-invertboost|p2a: Sandslash|[from] move: Topsy-Turvy
+|move|p2a: Sandslash|Icicle Spear|p1a: Malamar
+|-damage|p1a: Malamar|54/100
+|-damage|p1a: Malamar|47/100
+|-damage|p1a: Malamar|39/100
+|-damage|p1a: Malamar|32/100
+|-hitcount|p1a: Malamar|4
+|
+|upkeep
+|turn|9
+|
+|t:|1743843061
+|move|p1a: Malamar|Superpower|p2a: Sandslash
+|-supereffective|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Sandslash
+|
+|upkeep
+|
+|t:|1743843068
+|switch|p2a: Ninetales|Ninetales-Alola, M|9/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|10
+|
+|t:|1743843075
+|move|p1a: Malamar|Superpower|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p2: naotokuro|move: Aurora Veil
+|upkeep
+|
+|t:|1743843079
+|switch|p2a: Blastoise|Blastoise, F|100/100
+|turn|11
+|
+|t:|1743843085
+|move|p1a: Malamar|Superpower|p2a: Blastoise
+|-damage|p2a: Blastoise|31/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|-damage|p1a: Malamar|15/100|[from] item: Rocky Helmet|[of] p2a: Blastoise
+|move|p2a: Blastoise|Rapid Spin|p1a: Malamar
+|-damage|p1a: Malamar|8/100
+|-boost|p2a: Blastoise|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743843097
+|move|p1a: Malamar|Superpower|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|-damage|p1a: Malamar|0 fnt|[from] item: Rocky Helmet|[of] p2a: Blastoise
+|faint|p2a: Blastoise
+|faint|p1a: Malamar
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743843109
+|switch|p1a: Glimmora|Glimmora, F, shiny|74/100
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|13
+|
+|t:|1743843125
+|-terastallize|p2a: Charizard|Flying
+|move|p2a: Charizard|Hurricane|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|32/100
+|move|p1a: Glimmora|Power Gem|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743843137
+|switch|p2a: Pikachu|Pikachu-Hoenn, M|100/100
+|turn|14
+|
+|t:|1743843141
+|move|p2a: Pikachu|Surf|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|-weather|none
+|upkeep
+|
+|t:|1743843154
+|switch|p1a: Lurantis|Lurantis, F|100/100
+|-activate|p1a: Lurantis|move: Sticky Web
+|-boost|p1a: Lurantis|spe|1
+|turn|15
+|
+|t:|1743843162
+|move|p1a: Lurantis|Superpower|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|-boost|p1a: Lurantis|atk|1
+|-boost|p1a: Lurantis|def|1
+|faint|p2a: Pikachu
+|
+|upkeep
+|
+|t:|1743843168
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-ability|p2a: Gardevoir|Contrary|[from] ability: Trace|[of] p1a: Lurantis
+|turn|16
+|
+|t:|1743843176
+|-terastallize|p1a: Lurantis|Stellar
+|move|p2a: Gardevoir|Psychic|p1a: Lurantis
+|-damage|p1a: Lurantis|36/100
+|-boost|p1a: Lurantis|spd|1
+|move|p1a: Lurantis|Tera Blast|p2a: Gardevoir|[anim] Tera Blast Stellar
+|-damage|p2a: Gardevoir|17/100
+|-boost|p1a: Lurantis|atk|1
+|-boost|p1a: Lurantis|spa|1
+|
+|upkeep
+|turn|17
+|
+|t:|1743843185
+|move|p2a: Gardevoir|Psychic|p1a: Lurantis
+|-crit|p1a: Lurantis
+|-damage|p1a: Lurantis|0 fnt
+|faint|p1a: Lurantis
+|
+|upkeep
+|
+|t:|1743843190
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|18
+|
+|t:|1743843192
+|move|p1a: Cinderace|Sucker Punch|p2a: Gardevoir
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|win|uhhbiuygyg
+|raw|uhhbiuygyg's rating: 1074 &rarr; <strong>1104</strong><br />(+30 for winning)
+|raw|naotokuro's rating: 1093 &rarr; <strong>1068</strong><br />(-25 for losing)
+|l|☆naotokuro
+|player|p2|
+|l|☆uhhbiuygyg
+|player|p1|

@@ -1,0 +1,238 @@
+|j|☆equinox000
+|j|☆TobiasAlonso
+|t:|1743811819
+|gametype|singles
+|player|p1|equinox000|170|1408
+|player|p2|TobiasAlonso|policeman-gen4|1403
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Iron Moth|
+|poke|p1|Iron Valiant|
+|poke|p1|Kyurem|
+|poke|p1|Gholdengo|
+|poke|p2|Polteageist-Antique|
+|poke|p2|Minior-Indigo|
+|poke|p2|Cloyster, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Torterra, M|
+|poke|p2|Indeedee, M|
+|teampreview
+|
+|t:|1743811830
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Minior|Minior-Indigo|100/100
+|-formechange|p2a: Minior|Minior-Meteor||[from] ability: Shields Down
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743811845
+|move|p1a: Iron Valiant|Knock Off|p2a: Minior
+|-damage|p2a: Minior|57/100
+|-enditem|p2a: Minior|Focus Sash|[from] move: Knock Off|[of] p1a: Iron Valiant
+|move|p2a: Minior|Shell Smash|p2a: Minior
+|-unboost|p2a: Minior|def|1
+|-unboost|p2a: Minior|spd|1
+|-boost|p2a: Minior|atk|2
+|-boost|p2a: Minior|spa|2
+|-boost|p2a: Minior|spe|2
+|
+|upkeep
+|turn|2
+|
+|t:|1743811863
+|move|p1a: Iron Valiant|Encore|p2a: Minior
+|-start|p2a: Minior|Encore
+|move|p2a: Minior|Shell Smash|p2a: Minior
+|-unboost|p2a: Minior|def|1
+|-unboost|p2a: Minior|spd|1
+|-boost|p2a: Minior|atk|2
+|-boost|p2a: Minior|spa|2
+|-boost|p2a: Minior|spe|2
+|
+|upkeep
+|turn|3
+|
+|t:|1743811871
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|69/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743811887
+|move|p1a: Iron Valiant|Close Combat|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1743811896
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|5
+|
+|t:|1743811907
+|-terastallize|p1a: Iron Valiant|Dark
+|move|p1a: Iron Valiant|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-enditem|p2a: Indeedee|Choice Scarf|[from] move: Knock Off|[of] p1a: Iron Valiant
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1743811911
+|switch|p2a: Polteageist|Polteageist-Antique|100/100
+|turn|6
+|
+|t:|1743811922
+|move|p1a: Iron Valiant|Knock Off|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-enditem|p2a: Polteageist|Focus Sash
+|-damage|p2a: Polteageist|1/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|7
+|
+|t:|1743811932
+|-terastallize|p2a: Polteageist|Fighting
+|move|p2a: Polteageist|Tera Blast|p1a: Iron Valiant|[anim] Tera Blast Fighting
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743811947
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|8
+|
+|t:|1743811951
+|move|p2a: Polteageist|Tera Blast|p1a: Ting-Lu|[anim] Tera Blast Fighting
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743811980
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|9
+|
+|t:|1743811984
+|move|p2a: Polteageist|Stored Power|p1a: Dragonite
+|-damage|p1a: Dragonite|18/100
+|move|p1a: Dragonite|Ice Spinner|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|-fieldend|move: Psychic Terrain
+|faint|p2a: Polteageist
+|
+|upkeep
+|
+|t:|1743811992
+|switch|p2a: Minior|Minior-Indigo|57/100
+|-formechange|p2a: Minior|Minior-Meteor||[from] ability: Shields Down
+|turn|10
+|
+|t:|1743812002
+|move|p1a: Dragonite|Ice Spinner|p2a: Minior
+|-supereffective|p2a: Minior
+|-crit|p2a: Minior
+|-damage|p2a: Minior|0 fnt
+|faint|p2a: Minior
+|
+|upkeep
+|
+|t:|1743812008
+|switch|p2a: Cloyster|Cloyster, F|100/100
+|turn|11
+|
+|t:|1743812013
+|move|p1a: Dragonite|Earthquake|p2a: Cloyster
+|-damage|p2a: Cloyster|71/100
+|move|p2a: Cloyster|Icicle Spear|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|-hitcount|p1: Dragonite|1
+|
+|upkeep
+|
+|t:|1743812021
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|12
+|
+|t:|1743812026
+|move|p1a: Iron Moth|Sludge Wave|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|
+|upkeep
+|
+|t:|1743812029
+|switch|p2a: Torterra|Torterra, M|100/100
+|turn|13
+|
+|t:|1743812033
+|move|p1a: Iron Moth|Fiery Dance|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|8/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Torterra|Shell Smash|p2a: Torterra
+|-unboost|p2a: Torterra|def|1
+|-unboost|p2a: Torterra|spd|1
+|-boost|p2a: Torterra|atk|2
+|-boost|p2a: Torterra|spa|2
+|-boost|p2a: Torterra|spe|2
+|
+|upkeep
+|turn|14
+|
+|t:|1743812045
+|move|p1a: Iron Moth|Fiery Dance|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Torterra
+|
+|win|equinox000
+|raw|equinox000's rating: 1408 &rarr; <strong>1428</strong><br />(+20 for winning)
+|raw|TobiasAlonso's rating: 1403 &rarr; <strong>1383</strong><br />(-20 for losing)
+|l|☆equinox000
+|player|p1|
+|l|☆TobiasAlonso
+|player|p2|

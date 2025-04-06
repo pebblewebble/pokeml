@@ -1,0 +1,341 @@
+|j|☆sumerand
+|j|☆A9MG
+|t:|1743898582
+|gametype|singles
+|player|p1|sumerand|ghetsis|1395
+|player|p2|A9MG|nurseryaide|1428
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Inteleon, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Alomomola, F|
+|poke|p1|Ting-Lu|
+|poke|p2|Azumarill, M|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Valiant|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Zarude|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by A9MG)
+|j| Tsugia
+|
+|t:|1743898602
+|start
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ting-Lu|atk|1
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1743898612
+|switch|p1a: Inteleon|Inteleon, F|100/100
+|move|p2a: Landorus|Taunt|p1a: Inteleon
+|-start|p1a: Inteleon|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1743898619
+|switch|p2a: Zarude|Zarude|100/100
+|move|p1a: Inteleon|Surf|p2a: Zarude
+|-resisted|p2a: Zarude
+|-damage|p2a: Zarude|82/100
+|
+|upkeep
+|turn|3
+|l| Tsugia
+|
+|t:|1743898627
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Zarude|Knock Off|p1a: Cinderace
+|-damage|p1a: Cinderace|22/100
+|-enditem|p1a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Zarude
+|
+|upkeep
+|turn|4
+|inactive|A9MG has 120 seconds left.
+|inactive|A9MG has 90 seconds left.
+|
+|t:|1743898687
+|switch|p1a: Inteleon|Inteleon, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|
+|upkeep
+|turn|5
+|
+|t:|1743898695
+|move|p2a: Great Tusk|Knock Off|p1a: Inteleon
+|-damage|p1a: Inteleon|45/100
+|-enditem|p1a: Inteleon|Choice Specs|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Inteleon|Surf|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743898703
+|switch|p2a: Zarude|Zarude|82/100
+|turn|6
+|
+|t:|1743898710
+|move|p1a: Inteleon|U-turn|p2a: Zarude
+|-supereffective|p2a: Zarude
+|-damage|p2a: Zarude|35/100
+|
+|t:|1743898717
+|switch|p1a: Alomomola|Alomomola, F|100/100|[from] U-turn
+|move|p2a: Zarude|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|75/100
+|-enditem|p1a: Alomomola|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Zarude
+|
+|upkeep
+|turn|7
+|
+|t:|1743898725
+|move|p2a: Zarude|Power Whip|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|1/100
+|move|p1a: Alomomola|Flip Turn|p2a: Zarude
+|-resisted|p2a: Zarude
+|-damage|p2a: Zarude|29/100
+|
+|t:|1743898735
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|8
+|inactive|A9MG has 120 seconds left.
+|inactive|A9MG has 90 seconds left.
+|
+|t:|1743898778
+|-terastallize|p1a: Dragapult|Ghost
+|move|p1a: Dragapult|Tera Blast|p2a: Zarude|[anim] Tera Blast Ghost
+|-resisted|p2a: Zarude
+|-damage|p2a: Zarude|0 fnt
+|faint|p2a: Zarude
+|
+|upkeep
+|
+|t:|1743898789
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|turn|9
+|
+|t:|1743898801
+|move|p1a: Dragapult|Tera Blast|p2a: Azumarill|[anim] Tera Blast Ghost
+|-damage|p2a: Azumarill|7/100
+|move|p2a: Azumarill|Liquidation|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1743898809
+|switch|p1a: Inteleon|Inteleon, F|45/100
+|turn|10
+|inactive|A9MG has 90 seconds left.
+|
+|t:|1743898823
+|move|p1a: Inteleon|Surf|p2a: Azumarill
+|-resisted|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|upkeep
+|inactive|A9MG has 90 seconds left.
+|
+|t:|1743898830
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|11
+|
+|t:|1743898837
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Iron Moth|Sludge Wave|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|89/100
+|
+|-heal|p1a: Ting-Lu|95/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743898850
+|move|p2a: Iron Moth|Substitute|p2a: Iron Moth
+|-start|p2a: Iron Moth|Substitute
+|-damage|p2a: Iron Moth|76/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-end|p2a: Iron Moth|Substitute
+|
+|-heal|p1a: Ting-Lu|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743898859
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ting-Lu|atk|1
+|move|p1a: Ting-Lu|Ruination|p2a: Landorus
+|-damage|p2a: Landorus|50/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743898867
+|switch|p1a: Alomomola|Alomomola, F|35/100
+|move|p2a: Landorus|U-turn|p1a: Alomomola
+|-damage|p1a: Alomomola|25/100
+|
+|t:|1743898874
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|
+|upkeep
+|turn|15
+|
+|t:|1743898885
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Iron Valiant|Moonblast|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|62/100
+|
+|upkeep
+|turn|16
+|inactive|A9MG has 120 seconds left.
+|
+|t:|1743898894
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Iron Moth|Iron Moth|76/100
+|move|p1a: Corviknight|Body Press|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|56/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743898911
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|move|p1a: Corviknight|Body Press|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|85/100
+|
+|upkeep
+|turn|18
+|inactive|A9MG has 120 seconds left.
+|
+|t:|1743898930
+|move|p2a: Iron Valiant|Moonblast|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|19/100
+|-unboost|p1a: Corviknight|spa|1
+|move|p1a: Corviknight|Body Press|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|68/100
+|
+|upkeep
+|turn|19
+|inactive|A9MG has 120 seconds left.
+|
+|t:|1743898941
+|move|p2a: Iron Valiant|Moonblast|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1743898946
+|switch|p1a: Inteleon|Inteleon, F|45/100
+|turn|20
+|
+|t:|1743898952
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|50/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Inteleon|atk|1
+|move|p1a: Inteleon|Surf|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743898961
+|switch|p2a: Iron Valiant|Iron Valiant|68/100
+|turn|21
+|
+|t:|1743898979
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|-terastallize|p2a: Iron Valiant|Fighting
+|move|p2a: Iron Valiant|Vacuum Wave|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|58/100
+|
+|-heal|p1a: Ting-Lu|64/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743898990
+|move|p2a: Iron Valiant|Vacuum Wave|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|26/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|17/100
+|
+|-heal|p1a: Ting-Lu|32/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743898999
+|move|p2a: Iron Valiant|Vacuum Wave|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743899005
+|switch|p1a: Inteleon|Inteleon, F|45/100
+|turn|24
+|
+|t:|1743899008
+|move|p1a: Inteleon|Vacuum Wave|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|c|☆A9MG|gg
+|-message|A9MG forfeited.
+|
+|win|sumerand
+|raw|sumerand's rating: 1395 &rarr; <strong>1417</strong><br />(+22 for winning)
+|raw|A9MG's rating: 1428 &rarr; <strong>1406</strong><br />(-22 for losing)
+|l|☆A9MG
+|player|p2|
+|c|☆sumerand|Gg

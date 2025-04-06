@@ -1,0 +1,273 @@
+|j|☆brunolicious
+|j|☆Sadie1996
+|t:|1743837885
+|gametype|singles
+|player|p1|brunolicious|266|1102
+|player|p2|Sadie1996|102|1111
+|teamsize|p1|5
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Incineroar, M|
+|poke|p1|Gholdengo|
+|poke|p1|Indeedee, M|
+|poke|p1|Garchomp, M|
+|poke|p1|Azumarill, F|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Donphan, M|
+|poke|p2|Avalugg-Hisui, M|
+|poke|p2|Magnezone|
+|poke|p2|Golem-Alola, F|
+|poke|p2|Hitmonlee, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by brunolicious)
+|
+|t:|1743837899
+|start
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|switch|p2a: Donphan|Donphan, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Donphan|atk|1
+|turn|1
+|
+|t:|1743837914
+|move|p1a: Incineroar|Fake Out|p2a: Donphan
+|-damage|p2a: Donphan|88/100
+|cant|p2a: Donphan|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1743837917
+|move|p2a: Donphan|Ice Spinner|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|92/100
+|move|p1a: Incineroar|Parting Shot|p2a: Donphan
+|-unboost|p2a: Donphan|atk|1
+|-unboost|p2a: Donphan|spa|1
+|
+|t:|1743837923
+|switch|p1a: Azumarill|Azumarill, F|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|3
+|
+|t:|1743837932
+|switch|p2a: Golem|Golem-Alola, F|100/100
+|move|p1a: Azumarill|Belly Drum|p1a: Azumarill
+|-damage|p1a: Azumarill|51/100
+|-setboost|p1a: Azumarill|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|4
+|
+|t:|1743837940
+|move|p1a: Azumarill|Waterfall|p2a: Golem
+|-supereffective|p2a: Golem
+|-ability|p2a: Golem|Sturdy
+|-damage|p2a: Golem|1/100
+|move|p2a: Golem|Counter|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|upkeep
+|
+|t:|1743837951
+|switch|p1a: Incineroar|Incineroar, M|92/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Golem|atk|1
+|turn|5
+|-enditem|p2a: Golem|Custap Berry|[eat]
+|-activate|p2a: Golem|item: Custap Berry|[consumed]
+|
+|t:|1743837966
+|move|p1a: Incineroar|Fake Out|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|0 fnt
+|faint|p2a: Golem
+|
+|upkeep
+|
+|t:|1743837977
+|switch|p2a: Donphan|Donphan, M|88/100
+|turn|6
+|
+|t:|1743837984
+|move|p2a: Donphan|Earthquake|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|6/100
+|move|p1a: Incineroar|Parting Shot|p2a: Donphan
+|-unboost|p2a: Donphan|atk|1
+|-unboost|p2a: Donphan|spa|1
+|
+|t:|1743837991
+|switch|p1a: Garchomp|Garchomp, M|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|7
+|
+|t:|1743837996
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Donphan|Ice Spinner|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|36/100
+|-damage|p2a: Donphan|76/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|upkeep
+|turn|8
+|
+|t:|1743838002
+|move|p1a: Garchomp|Earthquake|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|upkeep
+|
+|t:|1743838012
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|9
+|
+|t:|1743838025
+|move|p2a: Ogerpon|Focus Energy|p2a: Ogerpon
+|-start|p2a: Ogerpon|move: Focus Energy
+|move|p1a: Garchomp|Outrage|p2a: Ogerpon
+|-ability|p2a: Ogerpon|Sturdy
+|-damage|p2a: Ogerpon|1/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743838036
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Garchomp|[anim] Ivy Cudgel Rock
+|-resisted|p1a: Garchomp
+|-crit|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1743838039
+|switch|p1a: Incineroar|Incineroar, M|6/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ogerpon|atk|1
+|turn|11
+|
+|t:|1743838042
+|move|p1a: Incineroar|Fake Out|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743838050
+|switch|p2a: Avalugg|Avalugg-Hisui, M|100/100
+|turn|12
+|
+|t:|1743838057
+|move|p1a: Incineroar|Flare Blitz|p2a: Avalugg
+|-damage|p2a: Avalugg|68/100
+|-damage|p1a: Incineroar|0 fnt|[from] Recoil
+|faint|p1a: Incineroar
+|move|p2a: Avalugg|Stealth Rock|p1: Incineroar
+|-sidestart|p1: brunolicious|move: Stealth Rock
+|
+|upkeep
+|
+|t:|1743838067
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743838076
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Avalugg|Stone Edge|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|64/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743838083
+|move|p1a: Gholdengo|Make It Rain|p2a: Avalugg
+|-supereffective|p2a: Avalugg
+|-damage|p2a: Avalugg|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Avalugg
+|-damage|p1a: Gholdengo|54/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743838085
+|switch|p2a: Magnezone|Magnezone|100/100
+|turn|15
+|
+|t:|1743838091
+|move|p1a: Gholdengo|Shadow Ball|p2a: Magnezone
+|-damage|p2a: Magnezone|9/100
+|-damage|p1a: Gholdengo|45/100|[from] item: Life Orb
+|move|p2a: Magnezone|Mirror Coat|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743838094
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-damage|p1a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|16
+|-enditem|p2a: Magnezone|Custap Berry|[eat]
+|-activate|p2a: Magnezone|item: Custap Berry|[consumed]
+|
+|t:|1743838101
+|move|p2a: Magnezone|Flash Cannon|p1a: Indeedee
+|-damage|p1a: Indeedee|38/100
+|move|p1a: Indeedee|Expanding Force|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+|
+|t:|1743838106
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|turn|17
+|
+|t:|1743838109
+|move|p2a: Hitmonlee|Endure|p2a: Hitmonlee
+|-singleturn|p2a: Hitmonlee|move: Endure
+|move|p1a: Indeedee|Expanding Force|p2a: Hitmonlee
+|-supereffective|p2a: Hitmonlee
+|-activate|p2a: Hitmonlee|move: Endure
+|-damage|p2a: Hitmonlee|1/100
+|-enditem|p2a: Hitmonlee|Liechi Berry|[eat]
+|-boost|p2a: Hitmonlee|atk|1|[from] item: Liechi Berry
+|
+|upkeep
+|turn|18
+|
+|t:|1743838116
+|-terastallize|p2a: Hitmonlee|Fighting
+|move|p2a: Hitmonlee|Reversal|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|win|Sadie1996
+|raw|brunolicious's rating: 1102 &rarr; <strong>1078</strong><br />(-24 for losing)
+|raw|Sadie1996's rating: 1111 &rarr; <strong>1135</strong><br />(+24 for winning)
+|l|☆Sadie1996
+|player|p2|
+|l|☆brunolicious
+|player|p1|

@@ -1,0 +1,313 @@
+|badge|p2|bronze|gen9ou|100-5
+|uhtml|medal-msg|<div class="broadcast-blue">Curious what those medals under the avatar are? PS now has Ladder Seasons! For more information, check out the <a href="https://www.smogon.com/forums/threads/3740067/">thread on Smogon.</a></div>
+|j|☆Mr.diversity
+|j|☆Brigtel
+|t:|1743788774
+|gametype|singles
+|player|p1|Mr.diversity|2|1787
+|player|p2|Brigtel|gambler|1845
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Great Tusk|
+|poke|p1|Heatran, M|
+|poke|p1|Clodsire, F|
+|poke|p1|Armarouge, M|
+|poke|p2|Clefable, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Gliscor, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Weavile, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mr.diversity)
+|
+|t:|1743788788
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|1
+|
+|t:|1743788796
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Cinderace|Pyro Ball|p2a: Ting-Lu|[miss]
+|-miss|p1a: Cinderace|p2a: Ting-Lu
+|
+|upkeep
+|turn|2
+|
+|t:|1743788801
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Ting-Lu|Ruination|p1a: Great Tusk
+|-damage|p1a: Great Tusk|51/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743788805
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Great Tusk|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|51/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-damage|p1a: Great Tusk|34/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|upkeep
+|turn|4
+|
+|t:|1743788812
+|move|p1a: Great Tusk|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-damage|p1a: Great Tusk|18/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1743788819
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|5
+|
+|t:|1743788830
+|move|p2a: Weavile|Ice Shard|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743788832
+|switch|p1a: Heatran|Heatran, M|100/100
+|turn|6
+|
+|t:|1743788836
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Heatran|Magma Storm|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|63/100
+|-activate|p2a: Ting-Lu|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Ting-Lu|69/100|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|57/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1743788843
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ting-Lu|atk|1
+|move|p2a: Ting-Lu|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-heal|p2a: Ting-Lu|63/100|[from] item: Leftovers
+|-end|p2a: Ting-Lu|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|8
+|
+|t:|1743788846
+|move|p1a: Landorus|U-turn|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|15/100
+|
+|t:|1743788848
+|switch|p1a: Armarouge|Armarouge, M|100/100|[from] U-turn
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Armarouge
+|-sidestart|p1: Mr.diversity|move: Stealth Rock
+|
+|-heal|p2a: Ting-Lu|21/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743788863
+|move|p1a: Armarouge|Psychic Terrain|p1a: Armarouge
+|-fieldstart|move: Psychic Terrain
+|move|p2a: Ting-Lu|Ruination|p1a: Armarouge
+|-damage|p1a: Armarouge|51/100
+|
+|-heal|p2a: Ting-Lu|28/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743788874
+|move|p1a: Armarouge|Armor Cannon|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|4/100
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|move|p2a: Ting-Lu|Ruination|p1a: Armarouge
+|-damage|p1a: Armarouge|26/100
+|
+|-heal|p2a: Ting-Lu|10/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743788878
+|move|p1a: Armarouge|Armor Cannon|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|j| diaodeyibi12345
+|inactive|Brigtel has 120 seconds left.
+|
+|t:|1743788909
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|12
+|
+|t:|1743788912
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|82/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743788914
+|move|p1a: Heatran|Magma Storm|p2a: Clefable
+|-damage|p2a: Clefable|24/100
+|-activate|p2a: Clefable|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Clefable|Thunder Wave|p1a: Heatran
+|-status|p1a: Heatran|par
+|
+|-damage|p2a: Clefable|11/100|[from] move: Magma Storm|[partiallytrapped]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|14
+|
+|t:|1743788918
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|61/100
+|move|p1a: Heatran|Magma Storm|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|t:|1743788926
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|turn|15
+|
+|t:|1743788928
+|move|p2a: Gliscor|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|
+|t:|1743788931
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|-damage|p1a: Cinderace|76/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743788935
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Cinderace|Pyro Ball|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|upkeep
+|turn|17
+|
+|t:|1743788939
+|move|p1a: Cinderace|Pyro Ball|p2a: Gliscor
+|-damage|p2a: Gliscor|31/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-heal|p2a: Gliscor|43/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743788946
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gliscor|atk|1
+|turn|18
+|
+|t:|1743788949
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Landorus|Tera Blast|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|56/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|
+|t:|1743788961
+|-terastallize|p1a: Landorus|Flying
+|move|p1a: Landorus|Tera Blast|p2a: Gliscor|[anim] Tera Blast Flying
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1743788966
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|20
+|
+|t:|1743788974
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|-damage|p1a: Clodsire|94/100|[from] Stealth Rock
+|move|p2a: Weavile|Icicle Crash|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|upkeep
+|
+|t:|1743788976
+|switch|p1a: Landorus|Landorus-Therian, M, tera:Flying|88/100
+|-damage|p1a: Landorus|64/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Weavile|atk|1
+|turn|21
+|j| Zuppalover04
+|
+|t:|1743788983
+|move|p2a: Weavile|Icicle Crash|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|-message|Mr.diversity forfeited.
+|
+|win|Brigtel
+|raw|Mr.diversity's rating: 1787 &rarr; <strong>1770</strong><br />(-17 for losing)
+|raw|Brigtel's rating: 1845 &rarr; <strong>1862</strong><br />(+17 for winning)
+|l|☆Mr.diversity
+|player|p1|
+|l|☆Brigtel
+|player|p2|
+|l| Zuppalover04
+|l| diaodeyibi12345

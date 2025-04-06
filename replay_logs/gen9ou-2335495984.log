@@ -1,0 +1,311 @@
+|j|☆hawker_mk5
+|j|☆a jellyfish
+|t:|1743799691
+|gametype|singles
+|player|p1|hawker_mk5|volkner|1556
+|player|p2|a jellyfish|fisherman-gen4|1569
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Metagross|
+|poke|p1|Rotom-Wash|
+|poke|p1|Kyurem|
+|poke|p1|Primarina, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Gliscor, M|
+|poke|p2|Indeedee-F, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Polteageist-Antique|
+|poke|p2|Cinderace, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Corviknight, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by a jellyfish)
+|inactive|hawker_mk5 also wants the timer to be on.
+|inactive|a jellyfish has 120 seconds left.
+|
+|t:|1743799749
+|start
+|switch|p1a: Kyurem|Kyurem|100/100
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Kyurem|Pressure
+|-ability|p2a: Corviknight|Pressure
+|turn|1
+|
+|t:|1743799759
+|move|p1a: Kyurem|Ice Beam|p2a: Corviknight
+|-damage|p2a: Corviknight|28/100
+|move|p2a: Corviknight|U-turn|p1a: Kyurem
+|-damage|p1a: Kyurem|88/100
+|
+|t:|1743799762
+|switch|p2a: Kingambit|Kingambit, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1743799768
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1743799777
+|move|p1a: Rotom|Will-O-Wisp|p2a: Kingambit
+|-status|p2a: Kingambit|brn
+|-enditem|p2a: Kingambit|Lum Berry|[eat]
+|-curestatus|p2a: Kingambit|brn|[msg]
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Rotom
+|-damage|p1a: Rotom|11/100
+|
+|-heal|p1a: Rotom|17/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743799787
+|move|p1a: Rotom|Will-O-Wisp|p2a: Kingambit
+|-status|p2a: Kingambit|brn
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-damage|p2a: Kingambit|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1743799798
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|turn|5
+|
+|t:|1743799802
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|move|p1a: Gliscor|Earthquake|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|40/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|t:|1743799811
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Gliscor
+|-damage|p1a: Gliscor|4/100 tox
+|-unboost|p2a: Raging Bolt|spa|2
+|move|p1a: Gliscor|Earthquake|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-heal|p1a: Gliscor|16/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743799818
+|switch|p2a: Indeedee|Indeedee-F, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|7
+|
+|t:|1743799825
+|switch|p2a: Polteageist|Polteageist-Antique|100/100
+|move|p1a: Gliscor|Protect||[still]
+|-fail|p1a: Gliscor
+|
+|-heal|p1a: Gliscor|29/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1743799834
+|move|p2a: Polteageist|Shadow Ball|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|t:|1743799839
+|switch|p1a: Primarina|Primarina, F|100/100
+|turn|9
+|
+|t:|1743799852
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|move|p1a: Primarina|Surf|p2a: Polteageist
+|-damage|p2a: Polteageist|11/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743799868
+|move|p2a: Polteageist|Stored Power|p1a: Primarina
+|-damage|p1a: Primarina|14/100
+|move|p1a: Primarina|Surf|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|upkeep
+|
+|t:|1743799874
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|11
+|
+|t:|1743799878
+|move|p2a: Cinderace|Pyro Ball|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|upkeep
+|
+|t:|1743799885
+|switch|p1a: Metagross|Metagross|100/100
+|turn|12
+|
+|t:|1743799896
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Metagross
+|-status|p1a: Metagross|brn
+|move|p1a: Metagross|Psychic Fangs|p2a: Cinderace
+|-damage|p2a: Cinderace|44/100
+|
+|-damage|p1a: Metagross|94/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743799905
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Cinderace|U-turn|p1a: Cinderace
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|82/100
+|
+|t:|1743799929
+|switch|p2a: Indeedee|Indeedee-F, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|14
+|
+|t:|1743799950
+|move|p1a: Cinderace|U-turn|p2a: Indeedee
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|41/100
+|
+|t:|1743799958
+|switch|p1a: Metagross|Metagross|94/100 brn|[from] U-turn
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-damage|p1a: Metagross|88/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|15
+|
+|t:|1743799967
+|move|p1a: Metagross|Heavy Slam|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-damage|p1a: Metagross|82/100 brn|[from] brn
+|upkeep
+|
+|t:|1743799976
+|switch|p2a: Kingambit|Kingambit, F|94/100 brn
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|16
+|
+|t:|1743799981
+|switch|p1a: Kyurem|Kyurem|88/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-damage|p2a: Kingambit|88/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743799990
+|-terastallize|p2a: Kingambit|Dark
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Kyurem
+|-damage|p1a: Kyurem|4/100
+|move|p1a: Kyurem|Earth Power|p2a: Kingambit
+|-damage|p2a: Kingambit|44/100 brn
+|-unboost|p2a: Kingambit|spd|1
+|
+|-damage|p2a: Kingambit|38/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743800005
+|switch|p1a: Metagross|Metagross|82/100 brn
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|-damage|p2a: Kingambit|31/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743800015
+|switch|p1a: Cinderace|Cinderace, M|82/100
+|turn|19
+|
+|t:|1743800019
+|move|p1a: Cinderace|Sucker Punch|p2a: Kingambit
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|20/100 brn
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-damage|p2a: Kingambit|14/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1743800030
+|move|p1a: Cinderace|Sucker Punch|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|1/100 brn
+|move|p2a: Kingambit|Iron Head|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-damage|p2a: Kingambit|0 fnt|[from] brn
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|upkeep
+|
+|t:|1743800040
+|switch|p1a: Kyurem|Kyurem|4/100
+|switch|p2a: Cinderace|Cinderace, M|44/100
+|-ability|p1a: Kyurem|Pressure
+|turn|21
+|
+|t:|1743800042
+|move|p2a: Cinderace|U-turn|p1a: Kyurem
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|win|a jellyfish
+|raw|hawker_mk5's rating: 1556 &rarr; <strong>1537</strong><br />(-19 for losing)
+|raw|a jellyfish's rating: 1569 &rarr; <strong>1588</strong><br />(+19 for winning)
+|l|☆a jellyfish
+|player|p2|
+|l|☆hawker_mk5
+|player|p1|

@@ -1,0 +1,277 @@
+|j|☆magikarp soup
+|j|☆Etouraptamere
+|t:|1743888651
+|gametype|singles
+|player|p1|magikarp soup|medium|1484
+|player|p2|Etouraptamere|265|1467
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Indeedee, M|
+|poke|p1|Polteageist|
+|poke|p1|Deoxys-Speed|
+|poke|p1|Iron Thorns|
+|poke|p1|Hatterene, F|
+|poke|p1|Hawlucha, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Great Tusk|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Moltres|
+|poke|p2|Iron Crown|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by magikarp soup)
+|
+|t:|1743888667
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1743888673
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Dragapult|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|59/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1743888688
+|switch|p1a: Iron Thorns|Iron Thorns|100/100
+|-enditem|p1a: Iron Thorns|Booster Energy
+|-activate|p1a: Iron Thorns|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Thorns|quarkdriveatk
+|
+|upkeep
+|turn|2
+|
+|t:|1743888694
+|move|p2a: Dragapult|U-turn|p1a: Iron Thorns
+|-damage|p1a: Iron Thorns|64/100
+|
+|t:|1743888698
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|move|p1a: Iron Thorns|Dragon Dance|p1a: Iron Thorns
+|-boost|p1a: Iron Thorns|atk|1
+|-boost|p1a: Iron Thorns|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743888720
+|-terastallize|p1a: Iron Thorns|Fighting
+|move|p1a: Iron Thorns|Dragon Dance|p1a: Iron Thorns
+|-boost|p1a: Iron Thorns|atk|1
+|-boost|p1a: Iron Thorns|spe|1
+|move|p2a: Great Tusk|Headlong Rush|p1a: Iron Thorns
+|-damage|p1a: Iron Thorns|16/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743888728
+|move|p1a: Iron Thorns|Low Kick|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-damage|p1a: Iron Thorns|0 fnt|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|faint|p1a: Iron Thorns
+|-end|p1a: Iron Thorns|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743888735
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p1a: Hawlucha|Psychic Seed
+|-boost|p1a: Hawlucha|spd|1|[from] item: Psychic Seed
+|turn|5
+|
+|t:|1743888741
+|-terastallize|p2a: Dragapult|Ghost
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Dragapult|Tera Blast|p1a: Hawlucha|[anim] Tera Blast Ghost
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|
+|t:|1743888750
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|6
+|
+|t:|1743888753
+|switch|p2a: Samurott|Samurott-Hisui, M, shiny|100/100
+|move|p1a: Deoxys|Expanding Force|p2a: Samurott
+|-immune|p2a: Samurott
+|
+|upkeep
+|turn|7
+|
+|t:|1743888757
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Deoxys|Tera Blast|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|54/100
+|-damage|p1a: Deoxys|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|t:|1743888762
+|move|p1a: Deoxys|Expanding Force|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|-damage|p1a: Deoxys|81/100|[from] item: Life Orb
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1743888770
+|switch|p2a: Samurott|Samurott-Hisui, M, shiny|100/100
+|turn|9
+|
+|t:|1743888777
+|move|p1a: Deoxys|Tera Blast|p2a: Samurott
+|-damage|p2a: Samurott|53/100
+|-damage|p1a: Deoxys|71/100|[from] item: Life Orb
+|move|p2a: Samurott|Ceaseless Edge|p1a: Deoxys|[miss]
+|-miss|p2a: Samurott|p1a: Deoxys
+|
+|upkeep
+|turn|10
+|
+|t:|1743888781
+|move|p1a: Deoxys|Tera Blast|p2a: Samurott
+|-damage|p2a: Samurott|5/100
+|-damage|p1a: Deoxys|61/100|[from] item: Life Orb
+|move|p2a: Samurott|Ceaseless Edge|p1a: Deoxys|[miss]
+|-miss|p2a: Samurott|p1a: Deoxys
+|
+|upkeep
+|turn|11
+|
+|t:|1743888790
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|move|p1a: Deoxys|Tera Blast|p2a: Iron Crown
+|-resisted|p2a: Iron Crown
+|-crit|p2a: Iron Crown
+|-damage|p2a: Iron Crown|83/100
+|-damage|p1a: Deoxys|51/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|t:|1743888794
+|switch|p1a: Hatterene|Hatterene, F|59/100
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|8/100
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|-hitcount|p1: Hatterene|2
+|
+|upkeep
+|
+|t:|1743888796
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|13
+|
+|t:|1743888801
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Indeedee
+|-damage|p1a: Indeedee|69/100
+|-damage|p1a: Indeedee|35/100
+|-hitcount|p1a: Indeedee|2
+|move|p1a: Indeedee|Healing Wish|p1a: Indeedee
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|t:|1743888806
+|switch|p1a: Polteageist|Polteageist|100/100
+|turn|14
+|
+|t:|1743888810
+|move|p2a: Iron Crown|Volt Switch|p1a: Polteageist
+|-damage|p1a: Polteageist|72/100
+|
+|t:|1743888813
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Samurott|Samurott-Hisui, M, shiny|5/100|[from] Volt Switch
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|
+|upkeep
+|turn|15
+|
+|t:|1743888818
+|move|p1a: Polteageist|Tera Blast|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743888827
+|switch|p2a: Iron Crown|Iron Crown|83/100
+|turn|16
+|
+|t:|1743888829
+|move|p1a: Polteageist|Shadow Ball|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-crit|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743888832
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|17
+|
+|t:|1743888835
+|move|p1a: Polteageist|Stored Power|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743888837
+|switch|p2a: Dragapult|Dragapult, M, tera:Ghost|100/100
+|turn|18
+|
+|t:|1743888839
+|move|p1a: Polteageist|Stored Power|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|win|magikarp soup
+|raw|magikarp soup's rating: 1484 &rarr; <strong>1503</strong><br />(+19 for winning)
+|raw|Etouraptamere's rating: 1467 &rarr; <strong>1448</strong><br />(-19 for losing)
+|l|☆Etouraptamere
+|player|p2|
+|l|☆magikarp soup
+|player|p1|

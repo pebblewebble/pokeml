@@ -1,0 +1,267 @@
+|j|☆phevans1
+|j|☆Kriy
+|t:|1743830844
+|gametype|singles
+|player|p1|phevans1|169|1327
+|player|p2|Kriy|ethan|1296
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Deoxys-Speed|
+|poke|p1|Kyurem|
+|poke|p1|Quaquaval, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Zamazenta-*|
+|poke|p1|Gholdengo|
+|poke|p2|Dragonite, M|
+|poke|p2|Primarina, F|
+|poke|p2|Darkrai|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Blaziken, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kriy)
+|
+|t:|1743830849
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Deoxys|Pressure
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Deoxys|atk|1
+|turn|1
+|
+|t:|1743830852
+|move|p1a: Deoxys|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Kriy|move: Stealth Rock
+|move|p2a: Landorus|Taunt|p1a: Deoxys
+|-start|p1a: Deoxys|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1743830857
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Quaquaval
+|-sidestart|p1: phevans1|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1743830861
+|move|p2a: Landorus|U-turn|p1a: Quaquaval
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|88/100
+|
+|t:|1743830863
+|switch|p2a: Primarina|Primarina, F|100/100|[from] U-turn
+|-damage|p2a: Primarina|88/100|[from] Stealth Rock
+|move|p1a: Quaquaval|Rapid Spin|p2a: Primarina
+|-damage|p2a: Primarina|72/100
+|-boost|p1a: Quaquaval|spe|1
+|-sideend|p1: phevans1|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Quaquaval
+|
+|-heal|p2a: Primarina|78/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743830869
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Primarina|Moonblast|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|81/100
+|-unboost|p1a: Gholdengo|spa|1
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|-heal|p2a: Primarina|84/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743830875
+|move|p1a: Gholdengo|Make It Rain|p2a: Primarina
+|-damage|p2a: Primarina|52/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2a: Primarina|Psychic Noise|p1a: Gholdengo
+|-damage|p1a: Gholdengo|51/100
+|-start|p1a: Gholdengo|move: Heal Block
+|
+|-heal|p2a: Primarina|58/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743830885
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|-ability|p1a: Deoxys|Pressure
+|move|p2a: Primarina|Substitute|p2a: Primarina
+|-start|p2a: Primarina|Substitute
+|-damage|p2a: Primarina|33/100
+|
+|-heal|p2a: Primarina|39/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743830890
+|move|p1a: Deoxys|Knock Off|p2a: Primarina
+|-resisted|p2a: Primarina
+|-activate|p2a: Primarina|move: Substitute|[damage]
+|move|p2a: Primarina|Moonblast|p1a: Deoxys
+|-damage|p1a: Deoxys|47/100
+|-unboost|p1a: Deoxys|spa|1
+|-enditem|p1a: Deoxys|Red Card|[of] p2a: Primarina
+|drag|p2a: Darkrai|Darkrai|100/100
+|-damage|p2a: Darkrai|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1743830894
+|move|p1a: Deoxys|Superpower|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|12/100
+|-unboost|p1a: Deoxys|atk|1
+|-unboost|p1a: Deoxys|def|1
+|move|p2a: Darkrai|Dark Pulse|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|
+|t:|1743830904
+|switch|p1a: Quaquaval|Quaquaval, F|88/100
+|turn|9
+|
+|t:|1743830912
+|move|p2a: Darkrai|Focus Blast|p1a: Quaquaval
+|-damage|p1a: Quaquaval|48/100
+|move|p1a: Quaquaval|Aqua Step|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|-boost|p1a: Quaquaval|spe|1
+|faint|p2a: Darkrai
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1743830921
+|switch|p2a: Primarina|Primarina, F|39/100
+|-damage|p2a: Primarina|27/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743830929
+|move|p1a: Quaquaval|Aqua Step|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|-boost|p1a: Quaquaval|spe|1
+|faint|p2a: Primarina
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1743830940
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|11
+|
+|t:|1743830948
+|move|p1a: Quaquaval|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|60/100
+|-enditem|p2a: Dragonite|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Quaquaval
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743830953
+|-terastallize|p2a: Dragonite|Normal
+|move|p2a: Dragonite|Extreme Speed|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|
+|upkeep
+|
+|t:|1743830966
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|13
+|
+|t:|1743830974
+|move|p2a: Dragonite|Extreme Speed|p1a: Kyurem
+|-damage|p1a: Kyurem|39/100
+|move|p1a: Kyurem|Scale Shot|p2a: Dragonite
+|-damage|p2a: Dragonite|46/100
+|-damage|p2a: Dragonite|31/100
+|-damage|p2a: Dragonite|18/100
+|-damage|p2a: Dragonite|3/100
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-hitcount|p2: Dragonite|5
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|
+|upkeep
+|
+|t:|1743830978
+|switch|p2a: Blaziken|Blaziken, M|100/100
+|-damage|p2a: Blaziken|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743830989
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|2
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|15
+|
+|t:|1743831003
+|-terastallize|p1a: Kyurem|Fire
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Kyurem|Scale Shot|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|16
+|
+|t:|1743831007
+|move|p1a: Kyurem|Scale Shot|p2a: Blaziken|[miss]
+|-miss|p1a: Kyurem|p2a: Blaziken
+|move|p2a: Blaziken|Close Combat|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|faint|p1a: Kyurem
+|-damage|p2a: Blaziken|78/100|[from] item: Life Orb
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|-message|phevans1 forfeited.
+|
+|win|Kriy
+|raw|phevans1's rating: 1327 &rarr; <strong>1305</strong><br />(-22 for losing)
+|raw|Kriy's rating: 1296 &rarr; <strong>1323</strong><br />(+27 for winning)
+|l|☆phevans1
+|player|p1|
+|l|☆Kriy
+|player|p2|

@@ -1,0 +1,303 @@
+|j|☆ksiendbsi
+|j|☆pin$121
+|t:|1743844085
+|gametype|singles
+|player|p1|ksiendbsi|n|1054
+|player|p2|pin$121|depotagent|1064
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Incineroar, F|
+|poke|p1|Ogerpon, F|
+|poke|p1|Cloyster, M|
+|poke|p1|Espeon, F|
+|poke|p1|Sunflora, F|
+|poke|p1|Clawitzer, F|
+|poke|p2|Hitmontop, M|
+|poke|p2|Bruxish, M|
+|poke|p2|Cinccino, M|
+|poke|p2|Comfey, M|
+|poke|p2|Sandy Shocks|
+|poke|p2|Salazzle, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ksiendbsi)
+|
+|t:|1743844095
+|start
+|switch|p1a: Espeon|Espeon, F|100/100
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|-enditem|p2a: Sandy Shocks|Booster Energy
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p2a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|t:|1743844113
+|move|p2a: Sandy Shocks|Discharge|p1a: Espeon
+|-crit|p1a: Espeon
+|-damage|p1a: Espeon|38/100
+|move|p1a: Espeon|Psychic|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|42/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743844121
+|move|p2a: Sandy Shocks|Discharge|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|upkeep
+|
+|t:|1743844128
+|switch|p1a: Sunflora|Sunflora, F, shiny|100/100
+|turn|3
+|
+|t:|1743844136
+|move|p2a: Sandy Shocks|Stealth Rock|p1a: Sunflora
+|-sidestart|p1: ksiendbsi|move: Stealth Rock
+|move|p1a: Sunflora|Earth Power|p2a: Sandy Shocks
+|-supereffective|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|0 fnt
+|faint|p2a: Sandy Shocks
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|-damage|p1a: Sunflora|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743844152
+|switch|p2a: Spinny Boi|Hitmontop, M, shiny|100/100
+|turn|4
+|
+|t:|1743844165
+|move|p2a: Spinny Boi|Triple Axel|p1a: Sunflora
+|-supereffective|p1a: Sunflora
+|-damage|p1a: Sunflora|54/100
+|-supereffective|p1a: Sunflora
+|-damage|p1a: Sunflora|0 fnt
+|faint|p1a: Sunflora
+|-hitcount|p1: Sunflora|2
+|
+|upkeep
+|
+|t:|1743844172
+|switch|p1a: Incineroar|Incineroar, F, shiny|100/100
+|-damage|p1a: Incineroar|76/100|[from] Stealth Rock
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Spinny Boi|atk|1
+|turn|5
+|
+|t:|1743844181
+|switch|p2a: Comfey|Comfey, M|100/100
+|move|p1a: Incineroar|Will-O-Wisp|p2a: Comfey
+|-status|p2a: Comfey|brn
+|
+|-heal|p1a: Incineroar|82/100|[from] item: Leftovers
+|-damage|p2a: Comfey|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743844192
+|move|p2a: Comfey|Draining Kiss|p1a: Incineroar
+|-damage|p1a: Incineroar|65/100
+|-heal|p2a: Comfey|100/100 brn|[from] drain|[of] p1a: Incineroar
+|move|p1a: Incineroar|Parting Shot|p2a: Comfey
+|-unboost|p2a: Comfey|atk|1
+|-unboost|p2a: Comfey|spa|1
+|
+|t:|1743844195
+|switch|p1a: Clawitzer|Clawitzer, F, shiny|100/100|[from] Parting Shot
+|-damage|p1a: Clawitzer|88/100|[from] Stealth Rock
+|
+|-damage|p2a: Comfey|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743844204
+|switch|p2a: Bruxish|Bruxish, M|100/100
+|move|p1a: Clawitzer|Hydro Pump|p2a: Bruxish
+|-resisted|p2a: Bruxish
+|-damage|p2a: Bruxish|52/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743844223
+|move|p2a: Bruxish|Psychic Fangs|p1a: Clawitzer
+|-damage|p1a: Clawitzer|5/100
+|move|p1a: Clawitzer|Dark Pulse|p2a: Bruxish
+|-supereffective|p2a: Bruxish
+|-damage|p2a: Bruxish|0 fnt
+|faint|p2a: Bruxish
+|
+|upkeep
+|
+|t:|1743844233
+|switch|p2a: Cinccino|Cinccino, M|100/100
+|turn|9
+|
+|t:|1743844236
+|move|p2a: Cinccino|Trailblaze|p1a: Clawitzer
+|-supereffective|p1a: Clawitzer
+|-damage|p1a: Clawitzer|0 fnt
+|-boost|p2a: Cinccino|spe|1
+|faint|p1a: Clawitzer
+|
+|upkeep
+|
+|t:|1743844239
+|switch|p1a: Incineroar|Incineroar, F, shiny|65/100
+|-damage|p1a: Incineroar|40/100|[from] Stealth Rock
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Cinccino|atk|1
+|turn|10
+|
+|t:|1743844249
+|move|p2a: Cinccino|Rock Blast|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|26/100
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|13/100
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|-hitcount|p1: Incineroar|3
+|
+|upkeep
+|
+|t:|1743844254
+|switch|p1a: Ogerpon|Ogerpon, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1743844262
+|switch|p2a: Spinny Boi|Hitmontop, M, shiny|100/100
+|move|p1a: Ogerpon|Superpower|p2a: Spinny Boi
+|-damage|p2a: Spinny Boi|44/100
+|-unboost|p1a: Ogerpon|atk|1
+|-unboost|p1a: Ogerpon|def|1
+|
+|-heal|p1a: Ogerpon|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743844275
+|-terastallize|p1a: Ogerpon|Grass
+|detailschange|p1a: Ogerpon|Ogerpon-Teal-Tera, F, tera:Grass
+|-ability|p1a: Ogerpon|Embody Aspect (Teal)|boost
+|-boost|p1a: Ogerpon|spe|1
+|move|p1a: Ogerpon|Spiky Shield|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Protect
+|move|p2a: Spinny Boi|Triple Axel|p1a: Ogerpon
+|-activate|p1a: Ogerpon|move: Protect
+|-damage|p2a: Spinny Boi|32/100|[from] Spiky Shield|[of] p1a: Ogerpon
+|
+|-heal|p1a: Ogerpon|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743844288
+|move|p2a: Spinny Boi|Bullet Punch|p1a: Ogerpon
+|-damage|p1a: Ogerpon|64/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Spinny Boi
+|-damage|p2a: Spinny Boi|0 fnt
+|faint|p2a: Spinny Boi
+|
+|-heal|p1a: Ogerpon|70/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743844295
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|turn|14
+|
+|t:|1743844303
+|move|p1a: Ogerpon|Spiky Shield|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Protect
+|move|p2a: Salazzle|Flamethrower|p1a: Ogerpon
+|-activate|p1a: Ogerpon|move: Protect
+|
+|-heal|p1a: Ogerpon|76/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743844312
+|move|p1a: Ogerpon|Superpower|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|75/100
+|-unboost|p1a: Ogerpon|atk|1
+|-unboost|p1a: Ogerpon|def|1
+|move|p2a: Salazzle|Flamethrower|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|-damage|p2a: Salazzle|65/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743844316
+|switch|p1a: Cloyster|Cloyster, M, shiny|100/100
+|-damage|p1a: Cloyster|76/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743844335
+|move|p1a: Cloyster|Rock Blast|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|37/100
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|11/100
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|-hitcount|p2: Salazzle|3
+|
+|upkeep
+|
+|t:|1743844351
+|switch|p2a: Cinccino|Cinccino, M|100/100
+|turn|17
+|
+|t:|1743844354
+|move|p1a: Cloyster|Rock Blast|p2a: Cinccino|[miss]
+|-miss|p1a: Cloyster|p2a: Cinccino
+|move|p2a: Cinccino|Rock Blast|p1a: Cloyster|[miss]
+|-miss|p2a: Cinccino|p1a: Cloyster
+|
+|upkeep
+|turn|18
+|
+|t:|1743844362
+|move|p1a: Cloyster|Rock Blast|p2a: Cinccino
+|-damage|p2a: Cinccino|87/100
+|-damage|p2a: Cinccino|74/100
+|-damage|p2a: Cinccino|62/100
+|-damage|p2a: Cinccino|49/100
+|-damage|p2a: Cinccino|36/100
+|-hitcount|p2a: Cinccino|5
+|move|p2a: Cinccino|Rock Blast|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|57/100
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|36/100
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|17/100
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|-hitcount|p1: Cloyster|4
+|
+|win|pin$121
+|raw|ksiendbsi's rating: 1054 &rarr; <strong>1036</strong><br />(-18 for losing)
+|raw|pin$121's rating: 1064 &rarr; <strong>1094</strong><br />(+30 for winning)
+|l|☆ksiendbsi
+|player|p1|
+|l|☆pin$121
+|player|p2|

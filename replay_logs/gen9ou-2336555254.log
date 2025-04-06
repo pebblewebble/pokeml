@@ -1,0 +1,327 @@
+|j|☆KillerB1000
+|j|☆boltblazt
+|t:|1743938608
+|gametype|singles
+|player|p1|KillerB1000|scientist-gen4|1406
+|player|p2|boltblazt|rosa|1396
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Sinistcha|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Iron Treads|
+|poke|p2|Weavile, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Corviknight, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Iron Crown|
+|teampreview
+|
+|t:|1743938634
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Pelipper|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1743938647
+|-terastallize|p2a: Landorus|Ice
+|move|p2a: Landorus|Stone Edge|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by boltblazt)
+|
+|t:|1743938676
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|turn|2
+|
+|t:|1743938682
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|move|p1a: Samurott|Sacred Sword|p2a: Corviknight
+|-damage|p2a: Corviknight|75/100
+|-damage|p1a: Samurott|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743938688
+|move|p1a: Samurott|Ceaseless Edge|p2a: Corviknight
+|-damage|p2a: Corviknight|48/100
+|-damage|p1a: Samurott|67/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-sidestart|p2: boltblazt|Spikes
+|move|p2a: Corviknight|U-turn|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|33/100
+|
+|t:|1743938695
+|switch|p2a: Landorus|Landorus-Therian, M, tera:Ice|100/100|[from] U-turn
+|-damage|p2a: Landorus|88/100|[from] Spikes
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Samurott|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743938702
+|switch|p1a: Sinistcha|Sinistcha|100/100
+|move|p2a: Landorus|U-turn|p1a: Sinistcha
+|-damage|p1a: Sinistcha|81/100
+|
+|t:|1743938707
+|switch|p2a: Weavile|Weavile, F|100/100|[from] U-turn
+|-ability|p2a: Weavile|Pressure
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743938722
+|-terastallize|p1a: Sinistcha|Steel
+|move|p2a: Weavile|Knock Off|p1a: Sinistcha
+|-damage|p1a: Sinistcha|47/100
+|-enditem|p1a: Sinistcha|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Sinistcha|Trick Room|p1a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p1a: Sinistcha
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743938733
+|switch|p1a: Braviary|Braviary-Hisui, M|100/100
+|switch|p2a: Corviknight|Corviknight, F|48/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743938739
+|move|p1a: Braviary|Hurricane|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743938757
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-damage|p2a: Iron Crown|88/100|[from] Spikes
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespa
+|turn|8
+|
+|t:|1743938762
+|move|p1a: Braviary|Hurricane|p2a: Iron Crown
+|-resisted|p2a: Iron Crown
+|-damage|p2a: Iron Crown|19/100
+|move|p2a: Iron Crown|Volt Switch|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|25/100
+|
+|t:|1743938769
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Weavile|Weavile, F|100/100|[from] Volt Switch
+|-ability|p2a: Weavile|Pressure
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743938781
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Weavile|Ice Shard|p1a: Iron Treads
+|-damage|p1a: Iron Treads|84/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|10
+|
+|t:|1743938790
+|switch|p2a: Iron Crown|Iron Crown|19/100
+|-damage|p2a: Iron Crown|6/100|[from] Spikes
+|move|p1a: Iron Treads|Volt Switch|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|t:|1743938806
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Braviary|Braviary-Hisui, M|25/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1743938811
+|switch|p2a: Landorus|Landorus-Therian, M, tera:Ice|88/100
+|-damage|p2a: Landorus|75/100|[from] Spikes
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Braviary|atk|1
+|turn|11
+|
+|t:|1743938819
+|switch|p1a: Iron Treads|Iron Treads|84/100
+|move|p2a: Landorus|Tera Blast|p1a: Iron Treads|[anim] Tera Blast Ice
+|-damage|p1a: Iron Treads|48/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743938832
+|move|p2a: Landorus|Tera Blast|p1a: Iron Treads|[anim] Tera Blast Ice
+|-damage|p1a: Iron Treads|11/100
+|move|p1a: Iron Treads|Iron Head|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743938841
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|13
+|
+|t:|1743938847
+|move|p2a: Weavile|Knock Off|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-enditem|p1a: Iron Treads|Assault Vest|[from] move: Knock Off|[of] p2a: Weavile
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743938855
+|switch|p1a: Samurott|Samurott-Hisui, F|33/100
+|turn|14
+|
+|t:|1743938862
+|move|p2a: Weavile|Triple Axel|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|28/100
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|18/100
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|2/100
+|-hitcount|p1a: Samurott|3
+|move|p1a: Samurott|Sacred Sword|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|t:|1743938879
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|88/100|[from] Spikes
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|15
+|
+|t:|1743938885
+|move|p1a: Samurott|Aqua Jet|p2a: Iron Valiant
+|-crit|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|50/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1743938900
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|-ability|p1a: Basculegion|Mold Breaker
+|turn|16
+|
+|t:|1743938907
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|47/100
+|-status|p1a: Basculegion|par
+|move|p1a: Basculegion|Flip Turn|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|t:|1743938922
+|switch|p1a: Sinistcha|Sinistcha, tera:Steel|47/100|[from] Flip Turn
+|
+|upkeep
+|
+|t:|1743938925
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Zamazenta|88/100|[from] Spikes
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|17
+|
+|t:|1743938931
+|move|p2a: Zamazenta|Close Combat|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Sinistcha
+|-damage|p2a: Zamazenta|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743938943
+|switch|p1a: Braviary|Braviary-Hisui, M|25/100
+|turn|18
+|
+|t:|1743938950
+|move|p2a: Zamazenta|Crunch|p1a: Braviary
+|-supereffective|p1a: Braviary
+|-damage|p1a: Braviary|0 fnt
+|faint|p1a: Braviary
+|-damage|p2a: Zamazenta|68/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743938952
+|switch|p1a: Basculegion|Basculegion, M|47/100 par
+|-ability|p1a: Basculegion|Mold Breaker
+|turn|19
+|
+|t:|1743938960
+|move|p2a: Zamazenta|Crunch|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|-damage|p2a: Zamazenta|59/100|[from] item: Life Orb
+|
+|win|boltblazt
+|raw|KillerB1000's rating: 1406 &rarr; <strong>1385</strong><br />(-21 for losing)
+|raw|boltblazt's rating: 1396 &rarr; <strong>1417</strong><br />(+21 for winning)
+|l|☆KillerB1000
+|player|p1|
+|c|☆boltblazt|gg
+|l|☆boltblazt
+|player|p2|

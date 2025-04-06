@@ -1,0 +1,286 @@
+|j|☆jegriffin
+|j|☆lupiit
+|t:|1743826257
+|gametype|singles
+|player|p1|jegriffin|102|1272
+|player|p2|lupiit|dragontamer|1233
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, F|
+|poke|p1|Iron Treads|
+|poke|p1|Kingambit, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Iron Moth|
+|poke|p2|Blissey, F|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Smeargle, F|
+|poke|p2|Breloom, F|
+|poke|p2|Dondozo, F|
+|poke|p2|Comfey, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jegriffin)
+|
+|t:|1743826260
+|start
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|switch|p2a: Breloom|Breloom, F|100/100
+|turn|1
+|
+|t:|1743826265
+|move|p2a: Breloom|Bullet Seed|p1a: Araquanid
+|-damage|p1a: Araquanid|78/100
+|-damage|p1a: Araquanid|56/100
+|-damage|p1a: Araquanid|33/100
+|-damage|p1a: Araquanid|10/100
+|-hitcount|p1a: Araquanid|4
+|move|p1a: Araquanid|Sticky Web|p2a: Breloom
+|-sidestart|p2: lupiit|move: Sticky Web
+|
+|upkeep
+|turn|2
+|-enditem|p1a: Araquanid|Custap Berry|[eat]
+|-activate|p1a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1743826269
+|move|p2a: Breloom|Mach Punch|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1743826279
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|3
+|
+|t:|1743826284
+|-terastallize|p2a: Breloom|Rock
+|move|p1a: Iron Moth|Fiery Dance|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|43/100
+|move|p2a: Breloom|Rock Tomb|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743826299
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|4
+|
+|t:|1743826306
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|-activate|p2a: Dondozo|move: Sticky Web
+|-unboost|p2a: Dondozo|spe|1
+|move|p1a: Iron Treads|Earth Power|p2a: Dondozo
+|-damage|p2a: Dondozo|76/100
+|
+|-heal|p2a: Dondozo|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743826309
+|move|p1a: Iron Treads|Stealth Rock|p2a: Dondozo
+|-sidestart|p2: lupiit|move: Stealth Rock
+|move|p2a: Dondozo|Waterfall|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|28/100
+|
+|-heal|p2a: Dondozo|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743826316
+|move|p1a: Iron Treads|Steel Beam|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|68/100
+|-damage|p1a: Iron Treads|0 fnt|[from] steelbeam
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|move|p2a: Dondozo|Waterfall|p1: Iron Treads|[notarget]
+|-fail|p2a: Dondozo
+|
+|-heal|p2a: Dondozo|74/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743826344
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespa
+|turn|7
+|
+|t:|1743826348
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Dondozo|Waterfall|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|51/100
+|
+|-heal|p2a: Dondozo|80/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743826353
+|move|p1a: Iron Valiant|Moonblast|p2a: Dondozo
+|-damage|p2a: Dondozo|28/100
+|move|p2a: Dondozo|Waterfall|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p2a: Dondozo|34/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743826356
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|9
+|
+|t:|1743826366
+|move|p1a: Enamorus|Moonblast|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|upkeep
+|
+|t:|1743826377
+|switch|p2a: Comfey|Comfey, M|100/100
+|-activate|p2a: Comfey|move: Sticky Web
+|-unboost|p2a: Comfey|spe|1
+|-damage|p2a: Comfey|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743826380
+|move|p1a: Enamorus|Moonblast|p2a: Comfey
+|-damage|p2a: Comfey|7/100
+|move|p2a: Comfey|Calm Mind|p2a: Comfey
+|-boost|p2a: Comfey|spa|1
+|-boost|p2a: Comfey|spd|1
+|
+|upkeep
+|turn|11
+|
+|t:|1743826384
+|move|p2a: Comfey|Draining Kiss|p1a: Enamorus
+|-damage|p1a: Enamorus|55/100
+|-heal|p2a: Comfey|39/100|[from] drain|[of] p1a: Enamorus
+|move|p1a: Enamorus|Moonblast|p2a: Comfey
+|-damage|p2a: Comfey|0 fnt
+|faint|p2a: Comfey
+|
+|upkeep
+|
+|t:|1743826390
+|switch|p2a: Blissey|Blissey, F|100/100
+|turn|12
+|
+|t:|1743826398
+|move|p1a: Enamorus|Moonblast|p2a: Blissey
+|-damage|p2a: Blissey|65/100
+|move|p2a: Blissey|Seismic Toss|p1a: Enamorus
+|-damage|p1a: Enamorus|20/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743826404
+|move|p1a: Enamorus|Moonblast|p2a: Blissey
+|-damage|p2a: Blissey|30/100
+|-unboost|p2a: Blissey|spa|1
+|move|p2a: Blissey|Seismic Toss|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|upkeep
+|
+|t:|1743826406
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|-item|p1a: Kingambit|Air Balloon
+|turn|14
+|
+|t:|1743826417
+|-terastallize|p1a: Kingambit|Ghost
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Blissey|Seismic Toss|p1a: Kingambit
+|-immune|p1a: Kingambit
+|
+|upkeep
+|turn|15
+|
+|t:|1743826423
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|upkeep
+|
+|t:|1743826427
+|switch|p2a: Breloom|Breloom, F, tera:Rock|43/100
+|-activate|p2a: Breloom|move: Sticky Web
+|-unboost|p2a: Breloom|spe|1
+|-damage|p2a: Breloom|31/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743826432
+|move|p1a: Kingambit|Sucker Punch|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|
+|upkeep
+|
+|t:|1743826436
+|switch|p2a: Smeargle|Smeargle, F|100/100
+|-activate|p2a: Smeargle|move: Sticky Web
+|-unboost|p2a: Smeargle|spe|1
+|-damage|p2a: Smeargle|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743826440
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Smeargle
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|
+|upkeep
+|
+|t:|1743826442
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-activate|p2a: Hoopa|move: Sticky Web
+|-unboost|p2a: Hoopa|spe|1
+|-damage|p2a: Hoopa|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1743826444
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|win|jegriffin
+|raw|jegriffin's rating: 1272 &rarr; <strong>1294</strong><br />(+22 for winning)
+|raw|lupiit's rating: 1233 &rarr; <strong>1211</strong><br />(-22 for losing)
+|l|☆jegriffin
+|player|p1|
+|l|☆lupiit
+|player|p2|

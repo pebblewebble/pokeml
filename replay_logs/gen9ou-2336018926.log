@@ -1,0 +1,346 @@
+|j|☆Bouncyball931
+|j|☆Lupni
+|t:|1743870486
+|gametype|singles
+|player|p1|Bouncyball931|169|1353
+|player|p2|Lupni|morty-masters|1351
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Haxorus, F|
+|poke|p1|Gholdengo|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Moth|
+|poke|p1|Wo-Chien|
+|poke|p2|Skarmory, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Gholdengo|
+|poke|p2|Glimmora, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Crawdaunt, M|
+|teampreview
+|
+|t:|1743870494
+|start
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|1
+|
+|t:|1743870500
+|move|p1a: Iron Moth|Substitute|p1a: Iron Moth
+|-start|p1a: Iron Moth|Substitute
+|-damage|p1a: Iron Moth|76/100
+|move|p2a: Glimmora|Sludge Wave|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-activate|p1a: Iron Moth|move: Substitute|[damage]
+|
+|upkeep
+|turn|2
+|
+|t:|1743870504
+|move|p1a: Iron Moth|Fiery Dance|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|75/100
+|-boost|p1a: Iron Moth|spa|1
+|-enditem|p2a: Glimmora|Red Card|[of] p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|drag|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Glimmora|Sludge Wave|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|3
+|
+|t:|1743870512
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|upkeep
+|turn|4
+|
+|t:|1743870517
+|move|p1a: Gholdengo|Make It Rain|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|47/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2a: Ting-Lu|Spikes|p1a: Gholdengo
+|-sidestart|p1: Bouncyball931|Spikes
+|
+|-heal|p2a: Ting-Lu|54/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743870520
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Ting-Lu|Heavy Slam|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|85/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|-heal|p2a: Ting-Lu|60/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743870524
+|move|p1a: Gholdengo|Make It Rain|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743870535
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|7
+|
+|t:|1743870539
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|23/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743870544
+|switch|p2a: Glimmora|Glimmora, F|75/100
+|turn|8
+|
+|t:|1743870549
+|move|p2a: Glimmora|Earth Power|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743870564
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|-damage|p1a: Samurott|88/100|[from] Spikes
+|turn|9
+|
+|t:|1743870570
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Crawdaunt
+|-resisted|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|69/100
+|-sidestart|p2: Lupni|Spikes
+|
+|upkeep
+|turn|10
+|
+|t:|1743870573
+|move|p1a: Samurott|Sacred Sword|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|upkeep
+|
+|t:|1743870576
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|turn|11
+|
+|t:|1743870579
+|move|p1a: Samurott|Ceaseless Edge|p2a: Skarmory
+|-damage|p2a: Skarmory|61/100
+|-ability|p2a: Skarmory|Weak Armor|boost
+|-unboost|p2a: Skarmory|def|1
+|-boost|p2a: Skarmory|spe|2
+|-sidestart|p2: Lupni|Spikes
+|move|p2a: Skarmory|Swords Dance|p2a: Skarmory
+|-boost|p2a: Skarmory|atk|2
+|
+|-heal|p2a: Skarmory|67/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743870587
+|move|p2a: Skarmory|Brave Bird|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|-damage|p2a: Skarmory|32/100|[from] Recoil
+|
+|-heal|p2a: Skarmory|38/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743870593
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|13
+|
+|t:|1743870598
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|-terastallize|p1a: Great Tusk|Ground
+|move|p1a: Great Tusk|Ice Spinner|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|89/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|14
+|l|☆Bouncyball931
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lupni)
+|j|☆Bouncyball931
+|inactive|Bouncyball931 reconnected and has 145 seconds left.
+|player|p1|Bouncyball931|169|
+|
+|t:|1743870647
+|-terastallize|p2a: Gholdengo|Fighting
+|move|p1a: Great Tusk|Headlong Rush|p2a: Gholdengo
+|-damage|p2a: Gholdengo|20/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Gholdengo|Make It Rain|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743870655
+|switch|p1a: Iron Moth|Iron Moth|76/100
+|-damage|p1a: Iron Moth|63/100|[from] Spikes
+|turn|15
+|
+|t:|1743870683
+|move|p1a: Iron Moth|Fiery Dance|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743870685
+|switch|p2a: Glimmora|Glimmora, F|75/100
+|-damage|p2a: Glimmora|58/100|[from] Spikes
+|turn|16
+|
+|t:|1743870693
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Wo-Chien|Wo-Chien|100/100
+|-damage|p1a: Wo-Chien|88/100|[from] Spikes
+|-ability|p1a: Wo-Chien|Tablets of Ruin
+|move|p2a: Glimmora|Earth Power|p1a: Wo-Chien
+|-resisted|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|80/100
+|
+|-heal|p1a: Wo-Chien|86/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743870697
+|switch|p2a: Skarmory|Skarmory, M|38/100
+|move|p1a: Wo-Chien|Protect||[still]
+|-fail|p1a: Wo-Chien
+|
+|-heal|p2a: Skarmory|44/100|[from] item: Leftovers
+|-heal|p1a: Wo-Chien|92/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743870700
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|94/100
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Wo-Chien|Leech Seed|p2a: Skarmory
+|-start|p2a: Skarmory|move: Leech Seed
+|
+|-heal|p2a: Skarmory|99/100|[from] item: Leftovers
+|-heal|p1a: Wo-Chien|98/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|88/100|[from] Leech Seed|[of] p1a: Wo-Chien
+|-heal|p1a: Wo-Chien|100/100|[silent]
+|upkeep
+|turn|19
+|
+|t:|1743870706
+|switch|p1a: Iron Moth|Iron Moth|63/100
+|-damage|p1a: Iron Moth|51/100|[from] Spikes
+|move|p2a: Skarmory|Swords Dance|p2a: Skarmory
+|-boost|p2a: Skarmory|atk|2
+|
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|-damage|p2a: Skarmory|82/100|[from] Leech Seed|[of] p1a: Iron Moth
+|-heal|p1a: Iron Moth|61/100|[silent]
+|upkeep
+|turn|20
+|
+|t:|1743870708
+|move|p1a: Iron Moth|Fiery Dance|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Skarmory
+|
+|upkeep
+|
+|t:|1743870710
+|switch|p2a: Glimmora|Glimmora, F|58/100
+|-damage|p2a: Glimmora|42/100|[from] Spikes
+|turn|21
+|
+|t:|1743870712
+|move|p1a: Iron Moth|Fiery Dance|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|4/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Glimmora|Earth Power|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743870716
+|switch|p1a: Haxorus|Haxorus, F|100/100
+|-damage|p1a: Haxorus|88/100|[from] Spikes
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|22
+|
+|t:|1743870725
+|move|p2a: Glimmora|Sludge Wave|p1a: Haxorus
+|-damage|p1a: Haxorus|8/100
+|move|p1a: Haxorus|Dragon Claw|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Bouncyball931|move: Toxic Spikes
+|faint|p2a: Glimmora
+|-damage|p1a: Haxorus|0 fnt|[from] item: Life Orb
+|faint|p1a: Haxorus
+|
+|win|Bouncyball931
+|raw|Bouncyball931's rating: 1353 &rarr; <strong>1373</strong><br />(+20 for winning)
+|raw|Lupni's rating: 1351 &rarr; <strong>1331</strong><br />(-20 for losing)
+|l|☆Lupni
+|player|p2|
+|c|☆Bouncyball931|gg
+|l|☆Bouncyball931
+|player|p1|

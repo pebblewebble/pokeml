@@ -1,0 +1,289 @@
+|j|☆hgvghv
+|j|☆jgtyfkyk
+|t:|1743862395
+|gametype|singles
+|player|p1|hgvghv|170|1114
+|player|p2|jgtyfkyk|101|1074
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Sableye, M|
+|poke|p1|Araquanid, M|
+|poke|p1|Dragalge, F|
+|poke|p1|Pawmot, M|
+|poke|p1|Revavroom, F|
+|poke|p1|Lycanroc-Midnight, F|
+|poke|p2|Breloom, M|
+|poke|p2|Iron Hands|
+|poke|p2|Blaziken, F|
+|poke|p2|Cobalion|
+|poke|p2|Keldeo-Resolute|
+|poke|p2|Hitmontop, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hgvghv)
+|
+|t:|1743862401
+|start
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|turn|1
+|
+|t:|1743862412
+|move|p2a: Iron Hands|Supercell Slam|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1743862418
+|switch|p1a: Revavroom|Revavroom, F|100/100
+|-item|p1a: Revavroom|Air Balloon
+|turn|2
+|
+|t:|1743862425
+|move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+|-boost|p1a: Revavroom|spe|2
+|-boost|p1a: Revavroom|atk|1
+|move|p2a: Iron Hands|Drain Punch|p1a: Revavroom
+|-damage|p1a: Revavroom|45/100
+|-enditem|p1a: Revavroom|Air Balloon
+|
+|upkeep
+|turn|3
+|
+|t:|1743862433
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Breloom|Breloom, M|100/100
+|move|p1a: Revavroom|High Horsepower|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|59/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743862439
+|move|p2a: Breloom|Mach Punch|p1a: Revavroom
+|-crit|p1a: Revavroom
+|-damage|p1a: Revavroom|0 fnt
+|faint|p1a: Revavroom
+|
+|upkeep
+|
+|t:|1743862445
+|switch|p1a: Lycanroc|Lycanroc-Midnight, F|100/100
+|turn|5
+|
+|t:|1743862451
+|move|p2a: Breloom|Mach Punch|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|faint|p1a: Lycanroc
+|
+|upkeep
+|
+|t:|1743862454
+|switch|p1a: Sableye|Sableye, M|100/100
+|turn|6
+|
+|t:|1743862460
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|move|p1a: Sableye|Encore||[still]
+|-fail|p1a: Sableye
+|
+|upkeep
+|turn|7
+|
+|t:|1743862466
+|move|p1a: Sableye|Thunder Wave|p2a: Keldeo
+|-status|p2a: Keldeo|par
+|move|p2a: Keldeo|Surf|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|upkeep
+|
+|t:|1743862469
+|switch|p1a: Pawmot|Pawmot, M|100/100
+|turn|8
+|
+|t:|1743862472
+|move|p1a: Pawmot|Revival Blessing|p1a: Pawmot
+|
+|t:|1743862478
+|-heal|p1: Sableye|50/100|[from] move: Revival Blessing
+|cant|p2a: Keldeo|par
+|
+|upkeep
+|turn|9
+|
+|t:|1743862482
+|move|p1a: Pawmot|Double Shock|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|-start|p1a: Pawmot|typechange|???/Fighting|[from] move: Double Shock
+|faint|p2a: Keldeo
+|
+|upkeep
+|
+|t:|1743862489
+|switch|p2a: Cobalion|Cobalion|100/100
+|turn|10
+|
+|t:|1743862496
+|move|p1a: Pawmot|Fire Punch|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|53/100
+|-status|p2a: Cobalion|brn
+|move|p2a: Cobalion|Body Press|p1a: Pawmot
+|-damage|p1a: Pawmot|70/100
+|
+|-damage|p2a: Cobalion|47/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743862502
+|move|p1a: Pawmot|Fire Punch|p2a: Cobalion
+|-supereffective|p2a: Cobalion
+|-damage|p2a: Cobalion|5/100 brn
+|move|p2a: Cobalion|Stealth Rock|p1a: Pawmot
+|-sidestart|p1: hgvghv|move: Stealth Rock
+|
+|-damage|p2a: Cobalion|0 fnt|[from] brn
+|faint|p2a: Cobalion
+|upkeep
+|
+|t:|1743862506
+|switch|p2a: Blaziken|Blaziken, F|100/100
+|turn|12
+|
+|t:|1743862511
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Pawmot|Ice Punch|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|13
+|
+|t:|1743862517
+|move|p2a: Blaziken|Brave Bird|p1a: Pawmot
+|-supereffective|p1a: Pawmot
+|-damage|p1a: Pawmot|0 fnt
+|faint|p1a: Pawmot
+|-damage|p2a: Blaziken|79/100|[from] Recoil
+|-damage|p2a: Blaziken|69/100|[from] item: Life Orb
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743862523
+|switch|p1a: Sableye|Sableye, M|50/100
+|-damage|p1a: Sableye|38/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743862530
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|move|p1a: Sableye|Pain Split|p2a: Iron Hands
+|-sethp|p2a: Iron Hands|62/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Sableye|100/100|[from] move: Pain Split
+|
+|upkeep
+|turn|15
+|
+|t:|1743862536
+|move|p2a: Iron Hands|Substitute|p2a: Iron Hands
+|-start|p2a: Iron Hands|Substitute
+|-damage|p2a: Iron Hands|37/100
+|move|p1a: Sableye|Foul Play|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-activate|p2a: Iron Hands|move: Substitute|[damage]
+|
+|upkeep
+|turn|16
+|
+|t:|1743862542
+|move|p2a: Iron Hands|Supercell Slam|p1a: Sableye
+|-damage|p1a: Sableye|44/100
+|move|p1a: Sableye|Foul Play|p2a: Iron Hands
+|-resisted|p2a: Iron Hands
+|-end|p2a: Iron Hands|Substitute
+|
+|-heal|p1a: Sableye|50/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743862548
+|move|p1a: Sableye|Encore|p2a: Iron Hands
+|-start|p2a: Iron Hands|Encore
+|move|p2a: Iron Hands|Supercell Slam|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|upkeep
+|
+|t:|1743862549
+|switch|p1a: Dragalge|Dragalge, F|100/100
+|-damage|p1a: Dragalge|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1743862552
+|move|p2a: Iron Hands|Supercell Slam|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|53/100
+|move|p1a: Dragalge|Sludge Wave|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743862558
+|switch|p2a: Hitmontop|Hitmontop, M|100/100
+|turn|19
+|
+|t:|1743862564
+|move|p2a: Hitmontop|Fake Out|p1a: Dragalge
+|-damage|p1a: Dragalge|34/100
+|cant|p1a: Dragalge|flinch
+|
+|upkeep
+|turn|20
+|
+|t:|1743862567
+|-terastallize|p1a: Dragalge|Ghost
+|move|p2a: Hitmontop|Bulldoze|p1a: Dragalge
+|-damage|p1a: Dragalge|4/100
+|-unboost|p1a: Dragalge|spe|1
+|move|p1a: Dragalge|Draco Meteor|p2a: Hitmontop
+|-damage|p2a: Hitmontop|46/100
+|-unboost|p1a: Dragalge|spa|2
+|
+|upkeep
+|turn|21
+|
+|t:|1743862579
+|move|p2a: Hitmontop|Bullet Punch|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|faint|p1a: Dragalge
+|
+|win|jgtyfkyk
+|raw|hgvghv's rating: 1114 &rarr; <strong>1086</strong><br />(-28 for losing)
+|raw|jgtyfkyk's rating: 1074 &rarr; <strong>1106</strong><br />(+32 for winning)
+|l|☆jgtyfkyk
+|player|p2|
+|l|☆hgvghv
+|player|p1|

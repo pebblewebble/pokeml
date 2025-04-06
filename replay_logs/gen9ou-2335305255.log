@@ -1,0 +1,150 @@
+|j|☆jluizbr
+|j|☆CjnotTj
+|t:|1743783134
+|gametype|singles
+|player|p1|jluizbr|steven|1221
+|player|p2|CjnotTj|169|1263
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Primarina, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Hawlucha, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Glimmora, F|
+|poke|p2|Whimsicott, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Heatran, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Sandy Shocks|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CjnotTj)
+|inactive|jluizbr also wants the timer to be on.
+|
+|t:|1743783145
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Torkoal|Torkoal, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1743783156
+|move|p1a: Rillaboom|U-turn|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|93/100
+|
+|t:|1743783158
+|switch|p1a: Glimmora|Glimmora, F|100/100|[from] U-turn
+|move|p2a: Torkoal|Lava Plume|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|77/100
+|-status|p1a: Glimmora|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Glimmora|84/100 brn|[from] Grassy Terrain
+|-heal|p2a: Torkoal|99/100|[from] Grassy Terrain
+|-damage|p1a: Glimmora|77/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1743783173
+|switch|p2a: Lord of the Flies|Slowking-Galar, M|100/100
+|move|p1a: Glimmora|Meteor Beam||[still]
+|-prepare|p1a: Glimmora|Meteor Beam
+|-boost|p1a: Glimmora|spa|1
+|-enditem|p1a: Glimmora|Power Herb
+|-anim|p1a: Glimmora|Meteor Beam|p2a: Lord of the Flies
+|-damage|p2a: Lord of the Flies|49/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Glimmora|84/100 brn|[from] Grassy Terrain
+|-heal|p2a: Lord of the Flies|55/100|[from] Grassy Terrain
+|-damage|p1a: Glimmora|77/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743783194
+|move|p1a: Glimmora|Earth Power|p2a: Lord of the Flies
+|-supereffective|p2a: Lord of the Flies
+|-damage|p2a: Lord of the Flies|0 fnt
+|faint|p2a: Lord of the Flies
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Glimmora|84/100 brn|[from] Grassy Terrain
+|-damage|p1a: Glimmora|77/100 brn|[from] brn
+|upkeep
+|
+|t:|1743783199
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|turn|4
+|
+|t:|1743783208
+|move|p2a: Whimsicott|Growth|p2a: Whimsicott
+|-boost|p2a: Whimsicott|atk|2
+|-boost|p2a: Whimsicott|spa|2
+|move|p1a: Glimmora|Sludge Wave|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Glimmora|84/100 brn|[from] Grassy Terrain
+|-damage|p1a: Glimmora|77/100 brn|[from] brn
+|upkeep
+|
+|t:|1743783214
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|turn|5
+|
+|t:|1743783219
+|move|p1a: Glimmora|Sludge Wave|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Glimmora|84/100 brn|[from] Grassy Terrain
+|-damage|p1a: Glimmora|77/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1743783229
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis
+|-start|p2a: Sandy Shocks|protosynthesisspe
+|turn|6
+|
+|t:|1743783237
+|-terastallize|p1a: Glimmora|Grass
+|move|p2a: Sandy Shocks|Earth Power|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|50/100 brn
+|move|p1a: Glimmora|Energy Ball|p2a: Sandy Shocks
+|-supereffective|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|0 fnt
+|faint|p2a: Sandy Shocks
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Glimmora|44/100 brn|[from] brn
+|upkeep
+|-message|CjnotTj forfeited.
+|
+|win|jluizbr
+|raw|jluizbr's rating: 1221 &rarr; <strong>1249</strong><br />(+28 for winning)
+|raw|CjnotTj's rating: 1263 &rarr; <strong>1235</strong><br />(-28 for losing)
+|l|☆CjnotTj
+|player|p2|

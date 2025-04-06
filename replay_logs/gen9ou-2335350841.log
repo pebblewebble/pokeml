@@ -1,0 +1,500 @@
+|j|☆CACHUMBO
+|j|☆ShanbaTat
+|t:|1743786889
+|gametype|singles
+|player|p1|CACHUMBO|169|1429
+|player|p2|ShanbaTat|acetrainerf-gen4dp|1490
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Meowscarada, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p2|Ursaluna, M|
+|poke|p2|Alomomola, M|
+|poke|p2|Gholdengo|
+|poke|p2|Scizor, M|
+|poke|p2|Great Tusk|
+|poke|p2|Corviknight, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CACHUMBO)
+|
+|t:|1743786905
+|start
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|1
+|
+|t:|1743786924
+|move|p1a: Kingambit|Flamethrower|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1743786939
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|turn|2
+|
+|t:|1743786941
+|move|p1a: Kingambit|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|93/100
+|
+|t:|1743786943
+|switch|p1a: Slowking|Slowking-Galar, M|100/100|[from] U-turn
+|move|p2a: Alomomola|Flip Turn|p1a: Slowking
+|-damage|p1a: Slowking|81/100
+|
+|t:|1743786948
+|switch|p2a: Ursaluna|Ursaluna, M|100/100|[from] Flip Turn
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1743786951
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|move|p2a: Ursaluna|Trailblaze|p1a: Kingambit
+|-damage|p1a: Kingambit|47/100
+|-boost|p2a: Ursaluna|spe|1
+|replace|p1a: Zoroark|Zoroark-Hisui, F
+|-end|p1a: Zoroark|Illusion
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743786962
+|move|p1a: Zoroark|Grass Knot|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|10/100 brn
+|move|p2a: Ursaluna|Trailblaze|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|-boost|p2a: Ursaluna|spe|1
+|faint|p1a: Zoroark
+|
+|-damage|p2a: Ursaluna|4/100 brn|[from] brn
+|upkeep
+|
+|t:|1743786966
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|turn|5
+|
+|t:|1743786969
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Ursaluna|Headlong Rush|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-damage|p2a: Ursaluna|0 fnt|[from] brn
+|faint|p2a: Ursaluna
+|upkeep
+|
+|t:|1743786975
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|6
+|
+|t:|1743786979
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Great Tusk|Stealth Rock|p1a: Thundurus
+|-sidestart|p1: CACHUMBO|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1743786986
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Thundurus|Grass Knot|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|95/100
+|-damage|p1a: Thundurus|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|upkeep
+|turn|8
+|
+|t:|1743786996
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Thundurus|Volt Switch|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|t:|1743787002
+|switch|p1a: Slowking|Slowking-Galar, M|100/100|[from] Volt Switch
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|
+|upkeep
+|
+|t:|1743787005
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|9
+|
+|t:|1743787009
+|switch|p1a: Thundurus|Thundurus-Therian, M|84/100
+|move|p2a: Great Tusk|Ice Spinner|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|t:|1743787015
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|-damage|p1a: Meowscarada|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743787022
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, F|95/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Meowscarada|U-turn|p2a: Corviknight
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|89/100
+|-damage|p1a: Meowscarada|72/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|t:|1743787025
+|switch|p1a: Slowking|Slowking-Galar, M|100/100|[from] U-turn
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|t:|1743787036
+|move|p2a: Corviknight|U-turn|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|65/100
+|
+|t:|1743787041
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Slowking|Future Sight|p2a: Gholdengo
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|12
+|
+|t:|1743787046
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Slowking|Flamethrower|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|52/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|13
+|
+|t:|1743787053
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Gholdengo|Shadow Ball|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|69/100
+|
+|-end|p2a: Gholdengo|move: Future Sight
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|31/100
+|upkeep
+|turn|14
+|
+|t:|1743787062
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|81/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743787070
+|-terastallize|p1a: Kingambit|Flying
+|move|p2a: Great Tusk|Ice Spinner|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|19/100
+|move|p1a: Kingambit|Iron Head|p2a: Great Tusk
+|-damage|p2a: Great Tusk|42/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743787078
+|move|p1a: Kingambit|Sucker Punch|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|15/100
+|move|p2a: Great Tusk|Ice Spinner|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|
+|upkeep
+|
+|t:|1743787080
+|switch|p1a: Meowscarada|Meowscarada, F|72/100
+|-damage|p1a: Meowscarada|60/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743787085
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, F|89/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Meowscarada|U-turn|p2a: Corviknight
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|82/100
+|-damage|p1a: Meowscarada|43/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|t:|1743787086
+|switch|p1a: Slowking|Slowking-Galar, M|98/100|[from] U-turn
+|-damage|p1a: Slowking|86/100|[from] Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|t:|1743787093
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Slowking|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|53/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743787100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Slowking|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|68/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743787117
+|move|p2a: Corviknight|Body Press|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|76/100
+|move|p1a: Slowking|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|38/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743787120
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|88/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Slowking|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|54/100
+|
+|upkeep
+|turn|22
+|
+|t:|1743787123
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Slowking|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|70/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743787125
+|move|p2a: Corviknight|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|59/100
+|
+|t:|1743787129
+|switch|p2a: Gholdengo|Gholdengo|31/100|[from] U-turn
+|move|p1a: Slowking|Flamethrower|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743787130
+|switch|p2a: Great Tusk|Great Tusk|15/100
+|turn|24
+|
+|t:|1743787142
+|switch|p1a: Meowscarada|Meowscarada, F|43/100
+|-damage|p1a: Meowscarada|31/100|[from] Stealth Rock
+|move|p2a: Great Tusk|Headlong Rush|p1a: Meowscarada
+|-resisted|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Meowscarada
+|
+|upkeep
+|
+|t:|1743787145
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1743787150
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, F|70/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Toxapex|Baneful Bunker||[still]
+|-fail|p1a: Toxapex
+|
+|-heal|p1a: Toxapex|94/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1743787158
+|move|p2a: Corviknight|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|90/100
+|
+|t:|1743787159
+|switch|p2a: Great Tusk|Great Tusk|15/100|[from] U-turn
+|move|p1a: Toxapex|Toxic|p2a: Great Tusk
+|-status|p2a: Great Tusk|tox
+|
+|-heal|p1a: Toxapex|96/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|9/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1743787163
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, F|70/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Toxapex|Baneful Bunker||[still]
+|-fail|p1a: Toxapex
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1743787167
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Toxapex|Surf|p2a: Corviknight
+|-damage|p2a: Corviknight|56/100
+|
+|upkeep
+|turn|29
+|
+|t:|1743787169
+|switch|p1a: Slowking|Slowking-Galar, M|92/100
+|-damage|p1a: Slowking|80/100|[from] Stealth Rock
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|upkeep
+|turn|30
+|
+|t:|1743787172
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Slowking|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|69/100
+|
+|upkeep
+|turn|31
+|
+|t:|1743787175
+|move|p2a: Corviknight|Body Press|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|65/100
+|move|p1a: Slowking|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|39/100
+|
+|upkeep
+|turn|32
+|
+|t:|1743787178
+|move|p2a: Corviknight|Body Press|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|50/100
+|move|p1a: Slowking|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|7/100
+|
+|upkeep
+|turn|33
+|
+|t:|1743787181
+|move|p2a: Corviknight|Body Press|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|35/100
+|move|p1a: Slowking|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1743787184
+|switch|p2a: Great Tusk|Great Tusk|9/100 tox
+|turn|34
+|
+|t:|1743787186
+|move|p2a: Great Tusk|Headlong Rush|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Slowking
+|
+|-damage|p2a: Great Tusk|3/100 tox|[from] psn
+|upkeep
+|
+|t:|1743787187
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|turn|35
+|
+|t:|1743787192
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Great Tusk|Headlong Rush|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p1a: Toxapex|94/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|0 fnt|[from] psn
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|win|CACHUMBO
+|raw|CACHUMBO's rating: 1429 &rarr; <strong>1452</strong><br />(+23 for winning)
+|raw|ShanbaTat's rating: 1490 &rarr; <strong>1467</strong><br />(-23 for losing)
+|l|☆ShanbaTat
+|player|p2|
+|l|☆CACHUMBO
+|player|p1|

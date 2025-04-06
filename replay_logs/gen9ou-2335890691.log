@@ -1,0 +1,245 @@
+|j|☆PermaSleep
+|j|☆temperature111
+|t:|1743854708
+|gametype|singles
+|player|p1|PermaSleep|skierf|1253
+|player|p2|temperature111|266|1261
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Boulder|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Iron Crown|
+|poke|p1|Alomomola, M|
+|poke|p1|Slither Wing|
+|poke|p1|Espeon, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Tinkaton, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Zapdos|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by temperature111)
+|
+|t:|1743854722
+|start
+|switch|p1a: Iron Boulder|Iron Boulder|100/100
+|switch|p2a: Tinkaton|Tinkaton, F, shiny|100/100
+|-item|p2a: Tinkaton|Air Balloon
+|-enditem|p1a: Iron Boulder|Booster Energy
+|-activate|p1a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Boulder|quarkdrivespe
+|turn|1
+|
+|t:|1743854732
+|-terastallize|p1a: Iron Boulder|Fighting
+|move|p1a: Iron Boulder|Swords Dance|p1a: Iron Boulder
+|-boost|p1a: Iron Boulder|atk|2
+|move|p2a: Tinkaton|Stealth Rock|p1a: Iron Boulder
+|-sidestart|p1: PermaSleep|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743854740
+|move|p1a: Iron Boulder|Close Combat|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|-unboost|p1a: Iron Boulder|def|1
+|-unboost|p1a: Iron Boulder|spd|1
+|-enditem|p2a: Tinkaton|Air Balloon
+|faint|p2a: Tinkaton
+|
+|upkeep
+|
+|t:|1743854745
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|3
+|
+|t:|1743854750
+|move|p1a: Iron Boulder|Mighty Cleave|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-status|p1a: Iron Boulder|par|[from] ability: Static|[of] p2a: Zapdos
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1743854766
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|4
+|
+|t:|1743854770
+|-terastallize|p2a: Meowscarada|Grass
+|move|p2a: Meowscarada|Flower Trick|p1a: Iron Boulder
+|-crit|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|0 fnt
+|faint|p1a: Iron Boulder
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743854778
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-damage|p1a: Iron Crown|94/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1743854784
+|move|p2a: Meowscarada|U-turn|p1a: Iron Crown
+|-damage|p1a: Iron Crown|71/100
+|
+|t:|1743854791
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Great Tusk
+|-damage|p2a: Great Tusk|63/100
+|-damage|p2a: Great Tusk|23/100
+|-hitcount|p2a: Great Tusk|2
+|
+|upkeep
+|turn|6
+|
+|t:|1743854799
+|move|p1a: Iron Crown|Psychic Noise|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743854810
+|switch|p2a: Meowscarada|Meowscarada, F, tera:Grass|100/100
+|turn|7
+|
+|t:|1743854814
+|move|p2a: Meowscarada|Sucker Punch|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743854820
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Meowscarada|atk|1
+|turn|8
+|
+|t:|1743854828
+|move|p1a: Landorus|U-turn|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|24/100
+|
+|t:|1743854834
+|switch|p1a: Slither Wing|Slither Wing|100/100|[from] U-turn
+|-damage|p1a: Slither Wing|88/100|[from] Stealth Rock
+|move|p2a: Meowscarada|Triple Axel|p1a: Slither Wing
+|-damage|p1a: Slither Wing|82/100
+|-damage|p1a: Slither Wing|71/100
+|-damage|p1a: Slither Wing|54/100
+|-hitcount|p1a: Slither Wing|3
+|
+|upkeep
+|turn|9
+|
+|t:|1743854847
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Slither Wing|First Impression|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|-damage|p1a: Slither Wing|44/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Slither Wing|37/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743854853
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|10
+|
+|t:|1743854863
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Gholdengo|Thunder Wave|p1a: Alomomola
+|-status|p1a: Alomomola|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alomomola|82/100 par|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1743854874
+|move|p2a: Gholdengo|Hex|p1a: Alomomola
+|-damage|p1a: Alomomola|13/100 par
+|move|p1a: Alomomola|Flip Turn|p2a: Gholdengo
+|-damage|p2a: Gholdengo|91/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|t:|1743854881
+|switch|p1a: Espeon|Espeon, M|100/100|[from] Flip Turn
+|-damage|p1a: Espeon|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Espeon|82/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1743854889
+|move|p1a: Espeon|Shadow Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|3/100
+|move|p2a: Gholdengo|Thunder Wave|p1a: Espeon
+|move|p1a: Espeon|Thunder Wave|p2a: Gholdengo|[from] ability: Magic Bounce
+|-immune|p2a: Gholdengo|[from] ability: Good as Gold
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Espeon|77/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1743854901
+|move|p1a: Espeon|Shadow Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-weather|none
+|upkeep
+|
+|t:|1743854904
+|switch|p2a: Meowscarada|Meowscarada, F, tera:Grass|24/100
+|turn|14
+|
+|t:|1743854911
+|move|p2a: Meowscarada|Triple Axel|p1a: Espeon
+|-damage|p1a: Espeon|64/100
+|-damage|p1a: Espeon|40/100
+|-damage|p1a: Espeon|6/100
+|-hitcount|p1a: Espeon|3
+|move|p1a: Espeon|Shadow Ball|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|win|PermaSleep
+|raw|PermaSleep's rating: 1253 &rarr; <strong>1279</strong><br />(+26 for winning)
+|raw|temperature111's rating: 1261 &rarr; <strong>1235</strong><br />(-26 for losing)
+|l|☆temperature111
+|player|p2|
+|l|☆PermaSleep
+|player|p1|

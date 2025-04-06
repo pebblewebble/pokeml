@@ -1,0 +1,272 @@
+|j|☆redner bo
+|j|☆Eggsalt
+|t:|1743905598
+|gametype|singles
+|player|p1|redner bo|1|1364
+|player|p2|Eggsalt|blackbelt-gen4dp|1380
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Latios, M|
+|poke|p1|Iron Treads|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Pelipper, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Scizor, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Iron Crown|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Eggsalt)
+|
+|t:|1743905606
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Scizor|Scizor, F|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1743905611
+|move|p1a: Iron Treads|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|57/100
+|move|p2a: Scizor|Defog|p1a: Iron Treads
+|-unboost|p1a: Iron Treads|evasion|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743905616
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Treads|atk|1
+|move|p1a: Iron Treads|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|3
+|
+|t:|1743905623
+|move|p1a: Iron Treads|Ice Spinner|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|33/100
+|-damage|p1a: Iron Treads|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|move|p2a: Landorus|Earth Power|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743905628
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|4
+|
+|t:|1743905634
+|switch|p2a: Scizor|Scizor, F|57/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Scizor|[anim] Ivy Cudgel Water
+|-damage|p2a: Scizor|1/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743905645
+|switch|p2a: Landorus|Landorus-Therian, M|33/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ogerpon|atk|1
+|move|p1a: Ogerpon|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|24/100
+|-damage|p1a: Ogerpon|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|t:|1743905650
+|switch|p1a: Latios|Latios, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|6
+|
+|t:|1743905657
+|move|p1a: Latios|Psyshock|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743905660
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|turn|7
+|
+|t:|1743905667
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|84/100
+|move|p2a: Iron Crown|Future Sight|p1a: Ogerpon
+|-start|p2a: Iron Crown|move: Future Sight
+|
+|upkeep
+|turn|8
+|
+|t:|1743905670
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Iron Crown|[anim] Ivy Cudgel Water
+|-crit|p2a: Iron Crown
+|-damage|p2a: Iron Crown|14/100
+|move|p2a: Iron Crown|Volt Switch|p1a: Ogerpon
+|-damage|p1a: Ogerpon|56/100
+|
+|t:|1743905674
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|9
+|
+|t:|1743905678
+|move|p1a: Ogerpon|U-turn|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|32/100
+|
+|t:|1743905681
+|switch|p1a: Latios|Latios, M|100/100|[from] U-turn
+|move|p2a: Ogerpon|Horn Leech|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|68/100
+|-heal|p2a: Ogerpon|49/100|[from] drain|[of] p1a: Latios
+|
+|-end|p1a: Latios|move: Future Sight
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|34/100
+|upkeep
+|turn|10
+|
+|t:|1743905686
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|move|p1a: Latios|Draco Meteor|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|67/100
+|-unboost|p1a: Latios|spa|2
+|
+|-heal|p2a: Kingambit|73/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743905690
+|move|p1a: Latios|Draco Meteor|p2a: Kingambit|[miss]
+|-miss|p1a: Latios|p2a: Kingambit
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p2a: Kingambit|79/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743905693
+|move|p2a: Kingambit|Sucker Punch|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-heal|p2a: Kingambit|85/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743905699
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|13
+|
+|t:|1743905704
+|move|p2a: Kingambit|Sucker Punch|p1a: Pelipper
+|-damage|p1a: Pelipper|12/100
+|move|p1a: Pelipper|Surf|p2a: Kingambit
+|-damage|p2a: Kingambit|27/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kingambit|33/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743905708
+|move|p2a: Kingambit|Sucker Punch|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kingambit|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743905711
+|switch|p1a: Kingambit|Kingambit, M, shiny|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|15
+|
+|t:|1743905713
+|move|p1a: Kingambit|Sucker Punch|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|22/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|61/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kingambit|67/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|28/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743905719
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|30/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|5/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kingambit|11/100|[from] item: Leftovers
+|-heal|p1a: Kingambit|37/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743905728
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|none
+|-heal|p2a: Kingambit|17/100|[from] item: Leftovers
+|-heal|p1a: Kingambit|43/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743905732
+|move|p2a: Kingambit|Sucker Punch|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|
+|-heal|p2a: Kingambit|23/100|[from] item: Leftovers
+|upkeep
+|-message|redner bo forfeited.
+|
+|win|Eggsalt
+|raw|redner bo's rating: 1364 &rarr; <strong>1345</strong><br />(-19 for losing)
+|raw|Eggsalt's rating: 1380 &rarr; <strong>1399</strong><br />(+19 for winning)
+|l|☆redner bo
+|player|p1|

@@ -1,0 +1,317 @@
+|j|☆SyNc167
+|j|☆Chicken lick my
+|t:|1743859439
+|gametype|singles
+|player|p1|SyNc167|266|1159
+|player|p2|Chicken lick my|2|1133
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Gholdengo|
+|poke|p1|Ting-Lu|
+|poke|p1|Iron Valiant|
+|poke|p2|Gliscor, F|
+|poke|p2|Maushold-Four|
+|poke|p2|Pecharunt|
+|poke|p2|Arboliva, F|
+|poke|p2|Dondozo, F|
+|poke|p2|Cinderace, M|
+|teampreview
+|
+|t:|1743859452
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Maushold|Maushold-Four|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743859463
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Maushold|Population Bomb|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SyNc167)
+|
+|t:|1743859479
+|move|p2a: Maushold|Bite|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|51/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Make It Rain|p2a: Maushold
+|-damage|p2a: Maushold|9/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743859495
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743859506
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Cinderace|Gunk Shot|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|89/100
+|
+|-heal|p1a: Ting-Lu|96/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743859517
+|move|p2a: Cinderace|U-turn|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|72/100
+|inactive|Chicken lick my has 120 seconds left.
+|
+|t:|1743859547
+|switch|p2a: Dondozo|Dondozo, F|100/100|[from] U-turn
+|move|p1a: Ting-Lu|Spikes|p2a: Dondozo
+|-sidestart|p2: Chicken lick my|Spikes
+|
+|-heal|p1a: Ting-Lu|78/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|Chicken lick my has 120 seconds left.
+|
+|t:|1743859560
+|move|p1a: Ting-Lu|Ruination|p2a: Dondozo
+|-damage|p2a: Dondozo|51/100
+|-enditem|p2a: Dondozo|Red Card|[of] p1a: Ting-Lu
+|drag|p1a: Dragonite|Dragonite, F|100/100
+|move|p2a: Dondozo|Body Press|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|94/100
+|
+|upkeep
+|turn|7
+|inactive|Chicken lick my has 120 seconds left.
+|
+|t:|1743859570
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Dondozo|Ice Fang|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|13/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743859580
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Extreme Speed|p2a: Dondozo
+|-damage|p2a: Dondozo|25/100
+|move|p2a: Dondozo|Ice Fang|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1743859595
+|switch|p1a: Gholdengo|Gholdengo|51/100
+|turn|9
+|
+|t:|1743859601
+|-terastallize|p2a: Dondozo|Ground
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|100/100
+|move|p2a: Dondozo|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|5/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743859609
+|move|p1a: Gholdengo|Shadow Ball|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|upkeep
+|
+|t:|1743859618
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|11
+|
+|t:|1743859622
+|move|p2a: Cinderace|Pyro Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743859628
+|switch|p1a: Ting-Lu|Ting-Lu|78/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|12
+|
+|t:|1743859637
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Ting-Lu|Spikes|p2a: Cinderace
+|-sidestart|p2: Chicken lick my|Spikes
+|
+|-heal|p1a: Ting-Lu|84/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743859645
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Ting-Lu|Whirlwind|p2a: Cinderace
+|drag|p2a: Arboliva|Arboliva, F|100/100
+|-damage|p2a: Arboliva|88/100|[from] Spikes
+|
+|-heal|p1a: Ting-Lu|90/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743859654
+|move|p1a: Ting-Lu|Ruination|p2a: Arboliva
+|-damage|p2a: Arboliva|45/100
+|-enditem|p2a: Arboliva|Sitrus Berry|[eat]
+|-heal|p2a: Arboliva|69/100|[from] item: Sitrus Berry
+|move|p2a: Arboliva|Leech Seed|p1a: Ting-Lu
+|-start|p1a: Ting-Lu|move: Leech Seed
+|
+|-heal|p1a: Ting-Lu|96/100|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|84/100|[from] Leech Seed|[of] p2a: Arboliva
+|-heal|p2a: Arboliva|87/100|[silent]
+|upkeep
+|turn|15
+|
+|t:|1743859666
+|move|p2a: Arboliva|Protect|p2a: Arboliva
+|-singleturn|p2a: Arboliva|Protect
+|move|p1a: Ting-Lu|Ruination|p2a: Arboliva
+|-activate|p2a: Arboliva|move: Protect
+|
+|-heal|p1a: Ting-Lu|90/100|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|78/100|[from] Leech Seed|[of] p2a: Arboliva
+|-heal|p2a: Arboliva|100/100|[silent]
+|-item|p2a: Arboliva|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|16
+|
+|t:|1743859681
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-damage|p1a: Zamazenta|88/100|[from] Spikes
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Arboliva|Tera Blast|p1a: Zamazenta
+|-damage|p1a: Zamazenta|60/100
+|
+|-heal|p1a: Zamazenta|66/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743859692
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Arboliva|Leech Seed|p1a: Zamazenta
+|-start|p1a: Zamazenta|move: Leech Seed
+|
+|-heal|p1a: Zamazenta|72/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|60/100|[from] Leech Seed|[of] p2a: Arboliva
+|upkeep
+|turn|18
+|
+|t:|1743859700
+|move|p2a: Arboliva|Protect|p2a: Arboliva
+|-singleturn|p2a: Arboliva|Protect
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|66/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|54/100|[from] Leech Seed|[of] p2a: Arboliva
+|upkeep
+|turn|19
+|
+|t:|1743859712
+|move|p1a: Zamazenta|Body Press|p2a: Arboliva
+|-supereffective|p2a: Arboliva
+|-damage|p2a: Arboliva|0 fnt
+|faint|p2a: Arboliva
+|
+|-heal|p1a: Zamazenta|60/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743859720
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-item|p2a: Pecharunt|Air Balloon
+|turn|20
+|
+|t:|1743859725
+|move|p2a: Pecharunt|Malignant Chain|p1a: Zamazenta
+|-damage|p1a: Zamazenta|28/100
+|move|p1a: Zamazenta|Roar|p2a: Pecharunt
+|drag|p2a: Cinderace|Cinderace, M|100/100
+|
+|-heal|p1a: Zamazenta|34/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|22/100|[from] Leech Seed|[of] p2a: Cinderace
+|upkeep
+|turn|21
+|
+|t:|1743859738
+|move|p1a: Zamazenta|Crunch|p2a: Cinderace
+|-damage|p2a: Cinderace|71/100
+|-unboost|p2a: Cinderace|def|1
+|move|p2a: Cinderace|U-turn|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|20/100
+|
+|t:|1743859749
+|switch|p2a: Pecharunt|Pecharunt|100/100|[from] U-turn
+|-item|p2a: Pecharunt|Air Balloon
+|
+|-heal|p1a: Zamazenta|26/100|[from] item: Leftovers
+|-damage|p1a: Zamazenta|13/100|[from] Leech Seed|[of] p2a: Pecharunt
+|upkeep
+|turn|22
+|
+|t:|1743859757
+|move|p1a: Zamazenta|Crunch|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|66/100
+|-enditem|p2a: Pecharunt|Air Balloon
+|move|p2a: Pecharunt|Malignant Chain|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|-message|SyNc167 forfeited.
+|
+|win|Chicken lick my
+|raw|SyNc167's rating: 1159 &rarr; <strong>1132</strong><br />(-27 for losing)
+|raw|Chicken lick my's rating: 1133 &rarr; <strong>1160</strong><br />(+27 for winning)
+|l|☆SyNc167
+|player|p1|
+|l|☆Chicken lick my
+|player|p2|

@@ -1,0 +1,446 @@
+|j|☆andrewtb491
+|j|☆Zaxa2
+|t:|1743790012
+|gametype|singles
+|player|p1|andrewtb491|2|1499
+|player|p2|Zaxa2|101|1474
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Greninja-*, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Dragapult, M|
+|poke|p2|Comfey, M|
+|poke|p2|Whimsicott, F|
+|poke|p2|Iron Moth|
+|poke|p2|Walking Wake|
+|poke|p2|Great Tusk|
+|poke|p2|Ninetales, F|
+|teampreview
+|
+|t:|1743790018
+|start
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1743790032
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisspe
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|-end|p2a: Great Tusk|Protosynthesis
+|
+|t:|1743790039
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743790049
+|move|p1a: Dragapult|Shadow Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|28/100
+|-unboost|p2a: Great Tusk|spd|1
+|move|p2a: Great Tusk|Ice Spinner|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|41/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743790058
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Dragapult|Shadow Ball|p2a: Ninetales
+|-damage|p2a: Ninetales|47/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743790068
+|switch|p2a: Comfey|Comfey, M|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Comfey
+|-damage|p2a: Comfey|51/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743790077
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Comfey|Draining Kiss|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|91/100
+|-heal|p2a: Comfey|61/100|[from] drain|[of] p1a: Slowking
+|-damage|p2a: Comfey|51/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|97/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743790122
+|switch|p2a: Great Tusk|Great Tusk|28/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisspe
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|-end|p2a: Great Tusk|Protosynthesis
+|
+|t:|1743790137
+|switch|p1a: Dragapult|Dragapult, M|41/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743790169
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Walking Wake
+|-damage|p2a: Walking Wake|63/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743790179
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Walking Wake|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|68/100
+|-enditem|p1a: Slowking|Leftovers|[from] move: Knock Off|[of] p2a: Walking Wake
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743790190
+|move|p2a: Walking Wake|Draco Meteor|p1a: Slowking
+|-damage|p1a: Slowking|22/100
+|-unboost|p2a: Walking Wake|spa|2
+|move|p1a: Slowking|Future Sight|p2a: Walking Wake
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Zaxa2)
+|
+|t:|1743790204
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Walking Wake|atk|1
+|move|p2a: Walking Wake|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|87/100
+|-damage|p2a: Walking Wake|47/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-enditem|p1a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p2a: Walking Wake
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1743790218
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Ninetales|Ninetales, F|47/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|switch|p1a: Slowking|Slowking-Galar, F|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Ninetales|move: Future Sight
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|upkeep
+|
+|t:|1743790225
+|switch|p2a: Great Tusk|Great Tusk|28/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|12
+|
+|t:|1743790240
+|switch|p1a: Landorus|Landorus-Therian, M|87/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|move|p2a: Great Tusk|Ice Spinner|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|16/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743790249
+|move|p2a: Great Tusk|Ice Spinner|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743790257
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|turn|14
+|
+|t:|1743790262
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Comfey|Comfey, M|51/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Comfey
+|-resisted|p2a: Comfey
+|-damage|p2a: Comfey|21/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|15
+|
+|t:|1743790272
+|switch|p2a: Great Tusk|Great Tusk|28/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisspe
+|switch|p1a: Slowking|Slowking-Galar, F|88/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743790282
+|move|p2a: Great Tusk|Headlong Rush|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Slowking
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743790292
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100 brn
+|turn|17
+|
+|t:|1743790298
+|move|p2a: Great Tusk|Stealth Rock|p1a: Conkeldurr
+|-sidestart|p1: andrewtb491|move: Stealth Rock
+|move|p1a: Conkeldurr|Drain Punch|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-damage|p1a: Conkeldurr|84/100 brn|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Conkeldurr|78/100 brn|[from] brn
+|upkeep
+|
+|t:|1743790301
+|switch|p2a: Comfey|Comfey, M|21/100
+|turn|18
+|inactive|andrewtb491 has 120 seconds left.
+|
+|t:|1743790348
+|move|p2a: Comfey|Draining Kiss|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|17/100 brn
+|-heal|p2a: Comfey|83/100|[from] drain|[of] p1a: Conkeldurr
+|-damage|p2a: Comfey|73/100|[from] item: Life Orb
+|move|p1a: Conkeldurr|Mach Punch|p2a: Comfey
+|-resisted|p2a: Comfey
+|-crit|p2a: Comfey
+|-damage|p2a: Comfey|41/100
+|
+|-weather|none
+|-damage|p1a: Conkeldurr|11/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1743790362
+|move|p2a: Comfey|Draining Kiss|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|-heal|p2a: Comfey|53/100|[from] drain|[of] p1a: Conkeldurr
+|faint|p1a: Conkeldurr
+|-damage|p2a: Comfey|43/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743790371
+|switch|p1a: Dragapult|Dragapult, M|41/100
+|-damage|p1a: Dragapult|29/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743790376
+|move|p2a: Comfey|Draining Kiss|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-heal|p2a: Comfey|65/100|[from] drain|[of] p1a: Dragapult
+|faint|p1a: Dragapult
+|-damage|p2a: Comfey|55/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743790383
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|21
+|
+|t:|1743790390
+|switch|p2a: Walking Wake|Walking Wake|47/100
+|move|p1a: Cinderace|U-turn|p2a: Walking Wake
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p2a: Walking Wake|16/100
+|
+|t:|1743790396
+|switch|p1a: Greninja|Greninja, M|100/100|[from] U-turn
+|-damage|p1a: Greninja|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|22
+|
+|t:|1743790406
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|move|p1a: Greninja|Ice Beam|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|-ability|p1a: Greninja|Battle Bond|boost
+|-boost|p1a: Greninja|atk|1
+|-boost|p1a: Greninja|spa|1
+|-boost|p1a: Greninja|spe|1
+|-activate|p1a: Greninja|ability: Battle Bond
+|-damage|p1a: Greninja|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743790424
+|switch|p2a: Comfey|Comfey, M|55/100
+|turn|23
+|
+|t:|1743790431
+|-terastallize|p1a: Greninja|Water
+|-terastallize|p2a: Comfey|Water
+|move|p2a: Comfey|Draining Kiss|p1a: Greninja
+|-damage|p1a: Greninja|37/100
+|-heal|p2a: Comfey|84/100|[from] drain|[of] p1a: Greninja
+|-damage|p2a: Comfey|74/100|[from] item: Life Orb
+|move|p1a: Greninja|Surf|p2a: Comfey
+|-resisted|p2a: Comfey
+|-damage|p2a: Comfey|20/100
+|-damage|p1a: Greninja|28/100|[from] item: Life Orb
+|
+|upkeep
+|turn|24
+|
+|t:|1743790445
+|move|p2a: Comfey|Draining Kiss|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-heal|p2a: Comfey|39/100|[from] drain|[of] p1a: Greninja
+|faint|p1a: Greninja
+|-damage|p2a: Comfey|29/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743790461
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|25
+|
+|t:|1743790468
+|move|p2a: Comfey|Synthesis|p2a: Comfey
+|-heal|p2a: Comfey|79/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Comfey
+|-resisted|p2a: Comfey
+|-damage|p2a: Comfey|40/100
+|-status|p2a: Comfey|brn
+|
+|-damage|p2a: Comfey|34/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1743790477
+|move|p2a: Comfey|Synthesis|p2a: Comfey
+|-heal|p2a: Comfey|84/100 brn
+|move|p1a: Cinderace|Pyro Ball|p2a: Comfey
+|-resisted|p2a: Comfey
+|-damage|p2a: Comfey|51/100 brn
+|
+|-damage|p2a: Comfey|44/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1743790484
+|move|p2a: Comfey|Synthesis|p2a: Comfey
+|-heal|p2a: Comfey|94/100 brn
+|move|p1a: Cinderace|Pyro Ball|p2a: Comfey
+|-resisted|p2a: Comfey
+|-damage|p2a: Comfey|57/100 brn
+|
+|-damage|p2a: Comfey|50/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1743790500
+|move|p2a: Comfey|Draining Kiss|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|80/100
+|-heal|p2a: Comfey|66/100 brn|[from] drain|[of] p1a: Cinderace
+|-damage|p2a: Comfey|56/100 brn|[from] item: Life Orb
+|move|p1a: Cinderace|Pyro Ball|p2a: Comfey
+|-resisted|p2a: Comfey
+|-damage|p2a: Comfey|18/100 brn
+|
+|-damage|p2a: Comfey|11/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1743790511
+|move|p2a: Comfey|Draining Kiss|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|61/100
+|-heal|p2a: Comfey|25/100 brn|[from] drain|[of] p1a: Cinderace
+|-damage|p2a: Comfey|15/100 brn|[from] item: Life Orb
+|move|p1a: Cinderace|Pyro Ball|p2a: Comfey
+|-resisted|p2a: Comfey
+|-damage|p2a: Comfey|0 fnt
+|faint|p2a: Comfey
+|
+|upkeep
+|
+|t:|1743790521
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|30
+|
+|t:|1743790527
+|move|p1a: Cinderace|Pyro Ball|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|49/100
+|move|p2a: Iron Moth|Sludge Wave|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|win|Zaxa2
+|raw|andrewtb491's rating: 1499 &rarr; <strong>1478</strong><br />(-21 for losing)
+|raw|Zaxa2's rating: 1474 &rarr; <strong>1495</strong><br />(+21 for winning)

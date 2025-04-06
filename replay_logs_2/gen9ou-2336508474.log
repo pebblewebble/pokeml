@@ -1,0 +1,112 @@
+|j|☆www32
+|j|☆bb312f
+|t:|1743930219
+|gametype|singles
+|player|p1|www32|169|
+|player|p2|bb312f|265|
+|teamsize|p1|3
+|teamsize|p2|1
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gliscor, M|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Deoxys-Speed|
+|poke|p2|Alomomola, F|
+|teampreview
+|
+|t:|1743930225
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|
+|t:|1743930240
+|move|p1a: Deoxys|Reflect|p1a: Deoxys
+|-sidestart|p1: www32|Reflect
+|move|p2a: Alomomola|Acrobatics|p1a: Deoxys
+|-damage|p1a: Deoxys|89/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743930246
+|move|p1a: Deoxys|Light Screen|p1a: Deoxys
+|-sidestart|p1: www32|move: Light Screen
+|move|p2a: Alomomola|Acrobatics|p1a: Deoxys
+|-damage|p1a: Deoxys|76/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743930258
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Alomomola|Acrobatics|p1a: Ninetales
+|-damage|p1a: Ninetales|92/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743930262
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: www32|move: Aurora Veil
+|move|p2a: Alomomola|Acrobatics|p1a: Ninetales
+|-damage|p1a: Ninetales|84/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743930268
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Alomomola|Acrobatics|p1a: Gliscor
+|-damage|p1a: Gliscor|93/100
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p1: www32|Reflect
+|upkeep
+|turn|6
+|
+|t:|1743930272
+|move|p1a: Gliscor|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: bb312f|move: Stealth Rock
+|move|p2a: Alomomola|Acrobatics|p1a: Gliscor
+|-damage|p1a: Gliscor|85/100
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p1: www32|move: Light Screen
+|upkeep
+|turn|7
+|
+|t:|1743930275
+|move|p1a: Gliscor|Toxic Spikes|p2a: Alomomola
+|-sidestart|p2: bb312f|move: Toxic Spikes
+|move|p2a: Alomomola|Acrobatics|p1a: Gliscor
+|-damage|p1a: Gliscor|77/100
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1743930279
+|move|p1a: Gliscor|Spikes|p2a: Alomomola
+|-sidestart|p2: bb312f|Spikes
+|move|p2a: Alomomola|Acrobatics|p1a: Gliscor
+|-damage|p1a: Gliscor|69/100
+|
+|-sideend|p1: www32|move: Aurora Veil
+|upkeep
+|turn|9
+|-message|bb312f forfeited.
+|
+|win|www32

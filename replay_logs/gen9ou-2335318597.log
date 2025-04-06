@@ -1,0 +1,271 @@
+|j|☆Polak prawdziwy
+|j|☆Marty10101
+|t:|1743784237
+|gametype|singles
+|player|p1|Polak prawdziwy|266|1167
+|player|p2|Marty10101|ltsurge|1168
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Tinkaton, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Weavile, M|
+|poke|p2|Scizor, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Iron Crown|
+|poke|p2|Pecharunt|
+|poke|p2|Blaziken, F|
+|teampreview
+|
+|t:|1743784241
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|1
+|
+|t:|1743784251
+|move|p2a: Meowscarada|U-turn|p1a: Samurott
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|20/100
+|
+|t:|1743784269
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from] U-turn
+|move|p1a: Samurott|Ceaseless Edge|p2a: Rotom
+|-damage|p2a: Rotom|38/100
+|-sidestart|p2: Marty10101|Spikes
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Polak prawdziwy)
+|
+|t:|1743784277
+|move|p1a: Samurott|Ceaseless Edge|p2a: Rotom|[miss]
+|-miss|p1a: Samurott|p2a: Rotom
+|move|p2a: Rotom|Volt Switch|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|t:|1743784284
+|switch|p2a: Meowscarada|Meowscarada, F|100/100|[from] Volt Switch
+|-damage|p2a: Meowscarada|88/100|[from] Spikes
+|
+|upkeep
+|
+|t:|1743784290
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|3
+|
+|t:|1743784297
+|move|p2a: Meowscarada|Knock Off|p1a: Cinderace
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Cinderace|40/100
+|-enditem|p1a: Cinderace|Focus Sash|[from] move: Knock Off|[of] p2a: Meowscarada
+|move|p1a: Cinderace|Pyro Ball|p2a: Meowscarada
+|-damage|p2a: Meowscarada|2/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743784305
+|move|p2a: Meowscarada|Knock Off|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743784309
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|5
+|
+|t:|1743784315
+|move|p1a: Weavile|Ice Shard|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|upkeep
+|
+|t:|1743784321
+|switch|p2a: Scizor|Scizor, F|100/100
+|-damage|p2a: Scizor|88/100|[from] Spikes
+|turn|6
+|
+|t:|1743784330
+|move|p1a: Weavile|Swords Dance|p1a: Weavile
+|-boost|p1a: Weavile|atk|2
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|-heal|p2a: Scizor|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743784338
+|move|p2a: Scizor|Bullet Punch|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-enditem|p1a: Weavile|Focus Sash
+|-damage|p1a: Weavile|1/100
+|move|p1a: Weavile|Swords Dance|p1a: Weavile
+|-boost|p1a: Weavile|atk|2
+|
+|-heal|p2a: Scizor|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743784346
+|move|p1a: Weavile|Ice Shard|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|73/100
+|move|p2a: Scizor|Bullet Punch|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-heal|p2a: Scizor|79/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743784360
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|9
+|
+|t:|1743784369
+|move|p1a: Great Tusk|Headlong Rush|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1743784388
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-damage|p2a: Iron Crown|88/100|[from] Spikes
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespa
+|turn|10
+|
+|t:|1743784404
+|move|p2a: Iron Crown|Psychic Noise|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743784411
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|11
+|
+|t:|1743784428
+|move|p1a: Gholdengo|Shadow Ball|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743784435
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-damage|p2a: Pecharunt|88/100|[from] Spikes
+|turn|12
+|
+|t:|1743784444
+|move|p1a: Gholdengo|Shadow Ball|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|t:|1743784451
+|switch|p2a: Blaziken|Blaziken, F|100/100
+|-damage|p2a: Blaziken|88/100|[from] Spikes
+|turn|13
+|
+|t:|1743784456
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Gholdengo|Shadow Ball|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|14
+|
+|t:|1743784463
+|move|p1a: Gholdengo|Shadow Ball|p2a: Blaziken
+|-damage|p2a: Blaziken|25/100
+|move|p2a: Blaziken|Fire Punch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|10/100
+|-status|p1a: Gholdengo|brn
+|
+|-damage|p1a: Gholdengo|4/100 brn|[from] brn
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|15
+|
+|t:|1743784473
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Gholdengo|Shadow Ball|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-damage|p1a: Gholdengo|0 fnt|[from] brn
+|faint|p1a: Gholdengo
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743784482
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|-item|p1a: Tinkaton|Air Balloon
+|turn|16
+|
+|t:|1743784491
+|move|p1a: Tinkaton|Fake Out|p2a: Blaziken
+|-damage|p2a: Blaziken|10/100
+|cant|p2a: Blaziken|flinch
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|17
+|
+|t:|1743784499
+|move|p2a: Blaziken|Fire Punch|p1a: Tinkaton
+|-supereffective|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|-enditem|p1a: Tinkaton|Air Balloon
+|faint|p1a: Tinkaton
+|
+|win|Marty10101
+|raw|Polak prawdziwy's rating: 1167 &rarr; <strong>1142</strong><br />(-25 for losing)
+|raw|Marty10101's rating: 1168 &rarr; <strong>1193</strong><br />(+25 for winning)
+|l|☆Polak prawdziwy
+|player|p1|

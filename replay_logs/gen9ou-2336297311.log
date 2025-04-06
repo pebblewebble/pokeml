@@ -1,0 +1,206 @@
+|j|‽jlce
+|j|☆Emonstar
+|t:|1743899848
+|gametype|singles
+|player|p1|jlce|102|1152
+|player|p2|Emonstar|102|1192
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pawmot, F|
+|poke|p1|Smeargle, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Skeledirge, M|
+|poke|p1|Sinistcha|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p2|Flapple, F|
+|poke|p2|Sableye, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Kilowattrel, M|
+|poke|p2|Overqwil, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jlce)
+|
+|t:|1743899863
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|turn|1
+|
+|t:|1743899870
+|move|p2a: Gliscor|Earthquake|p1a: Samurott
+|-damage|p1a: Samurott|44/100
+|move|p1a: Samurott|Razor Shell|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1743899880
+|switch|p2a: Kilowattrel|Kilowattrel, M|100/100
+|turn|2
+|
+|t:|1743899888
+|switch|p1a: Pawmot|Pawmot, F|100/100
+|move|p2a: Kilowattrel|Tailwind|p2a: Kilowattrel
+|-sidestart|p2: Emonstar|move: Tailwind
+|-start|p2a: Kilowattrel|Charge|Tailwind|[from] ability: Wind Power
+|
+|upkeep
+|turn|3
+|
+|t:|1743899901
+|move|p2a: Kilowattrel|Volt Switch|p1a: Pawmot
+|-immune|p1a: Pawmot|[from] ability: Volt Absorb
+|-end|p2a: Kilowattrel|Charge|[silent]
+|move|p1a: Pawmot|Double Shock|p2a: Kilowattrel
+|-damage|p2a: Kilowattrel|4/100
+|-start|p1a: Pawmot|typechange|???/Fighting|[from] move: Double Shock
+|
+|upkeep
+|turn|4
+|
+|t:|1743899908
+|move|p1a: Pawmot|Mach Punch|p2a: Kilowattrel
+|-resisted|p2a: Kilowattrel
+|-damage|p2a: Kilowattrel|0 fnt
+|faint|p2a: Kilowattrel
+|
+|upkeep
+|
+|t:|1743899914
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|5
+|
+|t:|1743899919
+|switch|p1a: Sinistcha|Sinistcha|100/100
+|move|p2a: Arcanine|Flare Blitz|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|32/100
+|
+|-heal|p1a: Sinistcha|38/100|[from] item: Leftovers
+|-sideend|p2: Emonstar|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1743899927
+|move|p2a: Arcanine|Flare Blitz|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|
+|upkeep
+|
+|t:|1743899929
+|switch|p1a: Smeargle|Smeargle, M|100/100
+|turn|7
+|
+|t:|1743899933
+|move|p2a: Arcanine|Flare Blitz|p1a: Smeargle
+|-enditem|p1a: Smeargle|Focus Sash
+|-damage|p1a: Smeargle|1/100
+|move|p1a: Smeargle|Nuzzle|p2a: Arcanine
+|-damage|p2a: Arcanine|97/100
+|-status|p2a: Arcanine|par
+|
+|upkeep
+|turn|8
+|
+|t:|1743899941
+|move|p1a: Smeargle|Sticky Web|p2a: Arcanine
+|-sidestart|p2: Emonstar|move: Sticky Web
+|move|p2a: Arcanine|Flare Blitz|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|
+|upkeep
+|
+|t:|1743899945
+|switch|p1a: Samurott|Samurott-Hisui, F|44/100
+|turn|9
+|
+|t:|1743899949
+|switch|p2a: Sableye|Sableye, F|100/100
+|-activate|p2a: Sableye|move: Sticky Web
+|-unboost|p2a: Sableye|spe|1
+|move|p1a: Samurott|Razor Shell|p2a: Sableye
+|-crit|p2a: Sableye
+|-enditem|p2a: Sableye|Focus Sash
+|-damage|p2a: Sableye|1/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743899958
+|move|p2a: Sableye|Gravity|p2a: Sableye
+|-fieldstart|move: Gravity
+|move|p1a: Samurott|Ceaseless Edge|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|-sidestart|p2: Emonstar|Spikes
+|faint|p2a: Sableye
+|
+|upkeep
+|
+|t:|1743899967
+|switch|p2a: Flapple|Flapple, F|100/100
+|-activate|p2a: Flapple|move: Sticky Web
+|-unboost|p2a: Flapple|spe|1
+|-damage|p2a: Flapple|88/100|[from] Spikes
+|turn|11
+|
+|t:|1743899983
+|move|p2a: Flapple|Sucker Punch|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|8/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Flapple
+|-damage|p2a: Flapple|15/100
+|-sidestart|p2: Emonstar|Spikes
+|
+|upkeep
+|turn|12
+|
+|t:|1743899989
+|move|p1a: Samurott|Sucker Punch|p2a: Flapple
+|-damage|p2a: Flapple|0 fnt
+|faint|p2a: Flapple
+|
+|upkeep
+|
+|t:|1743899993
+|switch|p2a: Arcanine|Arcanine-Hisui, M|97/100 par
+|-activate|p2a: Arcanine|move: Sticky Web
+|-unboost|p2a: Arcanine|spe|1
+|-damage|p2a: Arcanine|81/100 par|[from] Spikes
+|turn|13
+|
+|t:|1743899998
+|move|p2a: Arcanine|Extreme Speed|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1743900002
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|14
+|-message|Emonstar forfeited.
+|
+|win|jlce
+|raw|jlce's rating: 1152 &rarr; <strong>1180</strong><br />(+28 for winning)
+|raw|Emonstar's rating: 1192 &rarr; <strong>1164</strong><br />(-28 for losing)
+|l|☆Emonstar
+|player|p2|
+|l|‽jlce
+|player|p1|

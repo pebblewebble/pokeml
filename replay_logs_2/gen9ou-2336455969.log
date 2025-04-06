@@ -1,0 +1,316 @@
+|j|☆HawluchaLuchadores
+|j|☆iNegOxyi
+|t:|1743920505
+|gametype|singles
+|player|p1|HawluchaLuchadores|102|
+|player|p2|iNegOxyi|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Manaphy|
+|poke|p1|Weavile, F|
+|poke|p1|Chesnaught, M|
+|poke|p1|Iron Moth|
+|poke|p1|Diancie|
+|poke|p2|Armarouge, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Staraptor, M|
+|poke|p2|Clefable, F|
+|poke|p2|Metagross|
+|poke|p2|Keldeo-Resolute|
+|teampreview
+|
+|t:|1743920530
+|start
+|switch|p1a: Manaphy|Manaphy|100/100
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|1
+|
+|t:|1743920582
+|move|p1a: Manaphy|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|94/100
+|-damage|p1a: Manaphy|84/100|[from] item: Rocky Helmet|[of] p2a: Clefable
+|
+|t:|1743920602
+|switch|p1a: Iron Moth|Iron Moth|100/100|[from] U-turn
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|move|p2a: Clefable|Stealth Rock|p1a: Iron Moth
+|-sidestart|p1: HawluchaLuchadores|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743920628
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100
+|move|p1a: Iron Moth|Flash Cannon|p2a: Keldeo
+|-resisted|p2a: Keldeo
+|-damage|p2a: Keldeo|77/100
+|
+|-heal|p2a: Keldeo|83/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743920700
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Manaphy|Manaphy|84/100
+|-damage|p1a: Manaphy|72/100|[from] Stealth Rock
+|move|p2a: Keldeo|Substitute|p2a: Keldeo
+|-start|p2a: Keldeo|Substitute
+|-damage|p2a: Keldeo|58/100
+|
+|-heal|p2a: Keldeo|65/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743920715
+|move|p2a: Keldeo|Calm Mind|p2a: Keldeo
+|-boost|p2a: Keldeo|spa|1
+|-boost|p2a: Keldeo|spd|1
+|move|p1a: Manaphy|Energy Ball|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-end|p2a: Keldeo|Substitute
+|
+|-heal|p2a: Keldeo|71/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743920727
+|move|p2a: Keldeo|Secret Sword|p1a: Manaphy
+|-damage|p1a: Manaphy|10/100
+|move|p1a: Manaphy|Energy Ball|p2a: Keldeo
+|-supereffective|p2a: Keldeo
+|-crit|p2a: Keldeo
+|-damage|p2a: Keldeo|0 fnt
+|faint|p2a: Keldeo
+|
+|upkeep
+|
+|t:|1743920740
+|switch|p2a: Metagross|Metagross|100/100
+|turn|6
+|
+|t:|1743920766
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-damage|p1a: Iron Moth|76/100|[from] Stealth Rock
+|move|p2a: Metagross|Bullet Punch|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|56/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743920782
+|switch|p2a: Armarouge|Armarouge, M, shiny|100/100
+|-terastallize|p1a: Iron Moth|Fire
+|move|p1a: Iron Moth|Fiery Dance|p2a: Armarouge
+|-resisted|p2a: Armarouge
+|-damage|p2a: Armarouge|59/100
+|-boost|p1a: Iron Moth|spa|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743920814
+|move|p1a: Iron Moth|Discharge|p2a: Armarouge
+|-damage|p2a: Armarouge|4/100
+|move|p2a: Armarouge|Psyshock|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743920835
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Armarouge|atk|1
+|turn|9
+|
+|t:|1743920882
+|move|p1a: Landorus|Body Slam|p2a: Armarouge
+|-damage|p2a: Armarouge|0 fnt
+|faint|p2a: Armarouge
+|
+|upkeep
+|
+|t:|1743920903
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|10
+|
+|t:|1743920937
+|switch|p1a: Diancie|Diancie|100/100
+|-damage|p1a: Diancie|88/100|[from] Stealth Rock
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Diancie
+|-status|p1a: Diancie|brn
+|
+|-heal|p1a: Diancie|94/100 brn|[from] item: Leftovers
+|-damage|p1a: Diancie|88/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743920965
+|move|p2a: Dragapult|U-turn|p1a: Diancie
+|-resisted|p1a: Diancie
+|-crit|p1a: Diancie
+|-damage|p1a: Diancie|75/100 brn
+|
+|t:|1743920971
+|switch|p2a: Metagross|Metagross|100/100|[from] U-turn
+|move|p1a: Diancie|Moonblast|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|83/100
+|
+|-heal|p1a: Diancie|81/100 brn|[from] item: Leftovers
+|-damage|p1a: Diancie|75/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743921014
+|move|p2a: Metagross|Heavy Slam|p1a: Diancie
+|-supereffective|p1a: Diancie
+|-damage|p1a: Diancie|0 fnt
+|faint|p1a: Diancie
+|
+|upkeep
+|
+|t:|1743921038
+|switch|p1a: Chesnaught|Chesnaught, M|100/100
+|-damage|p1a: Chesnaught|94/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743921073
+|switch|p2a: Staraptor|Staraptor, M|100/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Chesnaught|atk|1
+|move|p1a: Chesnaught|High Horsepower|p2a: Staraptor
+|-immune|p2a: Staraptor
+|
+|-heal|p1a: Chesnaught|100/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743921108
+|switch|p1a: Weavile|Weavile, F|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Staraptor|Tailwind|p2a: Staraptor
+|-sidestart|p2: iNegOxyi|move: Tailwind
+|
+|upkeep
+|turn|15
+|
+|t:|1743921135
+|move|p2a: Staraptor|Close Combat|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|-unboost|p2a: Staraptor|def|1
+|-unboost|p2a: Staraptor|spd|1
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1743921143
+|switch|p1a: Landorus|Landorus-Therian, M|88/100
+|-damage|p1a: Landorus|76/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Staraptor|atk|1
+|turn|16
+|
+|t:|1743921207
+|move|p2a: Staraptor|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|67/100
+|
+|t:|1743921210
+|switch|p2a: Clefable|Clefable, F|94/100|[from] U-turn
+|move|p1a: Landorus|Outrage|p2a: Clefable
+|-immune|p2a: Clefable
+|
+|upkeep
+|turn|17
+|
+|t:|1743921238
+|switch|p1a: Chesnaught|Chesnaught, M|100/100
+|-damage|p1a: Chesnaught|94/100|[from] Stealth Rock
+|move|p2a: Clefable|Thunder Wave|p1a: Chesnaught
+|-status|p1a: Chesnaught|par
+|
+|-heal|p1a: Chesnaught|100/100 par|[from] item: Leftovers
+|-sideend|p2: iNegOxyi|move: Tailwind
+|upkeep
+|turn|18
+|
+|t:|1743921254
+|move|p2a: Clefable|Moonblast|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|30/100 par
+|move|p1a: Chesnaught|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|82/100
+|-damage|p1a: Chesnaught|14/100 par|[from] item: Rocky Helmet|[of] p2a: Clefable
+|-enditem|p2a: Clefable|Rocky Helmet|[from] move: Knock Off|[of] p1a: Chesnaught
+|
+|-heal|p1a: Chesnaught|20/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743921266
+|move|p2a: Clefable|Moonblast|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|0 fnt
+|faint|p1a: Chesnaught
+|
+|upkeep
+|
+|t:|1743921274
+|switch|p1a: Manaphy|Manaphy|10/100
+|-damage|p1a: Manaphy|0 fnt|[from] Stealth Rock
+|faint|p1a: Manaphy
+|
+|t:|1743921278
+|switch|p1a: Landorus|Landorus-Therian, M|67/100
+|-damage|p1a: Landorus|55/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Clefable|atk|1
+|turn|20
+|
+|t:|1743921299
+|move|p1a: Landorus|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|15/100
+|move|p2a: Clefable|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|10/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743921309
+|move|p1a: Landorus|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|t:|1743921314
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|22
+|
+|t:|1743921319
+|move|p2a: Dragapult|Dragon Darts|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|win|iNegOxyi

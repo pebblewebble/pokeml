@@ -1,0 +1,333 @@
+|j|☆Fifo drummer
+|j|☆Gooigi88
+|t:|1743799090
+|gametype|singles
+|player|p1|Fifo drummer|unknown|1383
+|player|p2|Gooigi88|sanqua|1427
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Crawdaunt, M|
+|poke|p1|Krookodile, M|
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Haxorus, M|
+|poke|p1|Espeon, F|
+|poke|p1|Corviknight, F|
+|poke|p2|Iron Boulder|
+|poke|p2|Pecharunt|
+|poke|p2|Great Tusk|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Kingambit, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gooigi88)
+|
+|t:|1743799098
+|start
+|switch|p1a: Shrimpboat Capt.|Crawdaunt, M|100/100
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|turn|1
+|
+|t:|1743799105
+|move|p2a: Iron Boulder|Megahorn|p1a: Shrimpboat Capt.
+|-supereffective|p1a: Shrimpboat Capt.
+|-enditem|p1a: Shrimpboat Capt.|Focus Sash
+|-damage|p1a: Shrimpboat Capt.|1/100
+|move|p1a: Shrimpboat Capt.|Knock Off|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|0 fnt
+|-enditem|p2a: Iron Boulder|Assault Vest|[from] move: Knock Off|[of] p1a: Shrimpboat Capt.
+|faint|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743799115
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|2
+|
+|t:|1743799119
+|switch|p1a: Badra|Goodra-Hisui, F|100/100
+|move|p2a: Pecharunt|Hex|p1a: Badra
+|-damage|p1a: Badra|90/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743799125
+|move|p2a: Pecharunt|Parting Shot|p1a: Badra
+|-unboost|p1a: Badra|atk|1
+|-unboost|p1a: Badra|spa|1
+|
+|t:|1743799127
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100|[from] Parting Shot
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Badra|atk|1
+|move|p1a: Badra|Surf|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|1/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743799144
+|switch|p1a: Mrs Raven|Corviknight, F, shiny|100/100
+|move|p2a: Landorus|Earth Power|p1a: Mrs Raven
+|-immune|p1a: Mrs Raven
+|
+|upkeep
+|turn|5
+|
+|t:|1743799151
+|move|p2a: Landorus|U-turn|p1a: Mrs Raven
+|-resisted|p1a: Mrs Raven
+|-damage|p1a: Mrs Raven|96/100
+|-damage|p2a: Landorus|0 fnt|[from] item: Rocky Helmet|[of] p1a: Mrs Raven
+|faint|p2a: Landorus
+|move|p1a: Mrs Raven|Brave Bird|p2: Landorus|[notarget]
+|-fail|p1a: Mrs Raven
+|
+|upkeep
+|
+|t:|1743799156
+|switch|p2a: Samurott|Samurott-Hisui, M, shiny|100/100
+|turn|6
+|
+|t:|1743799160
+|move|p2a: Samurott|Knock Off|p1a: Mrs Raven
+|-damage|p1a: Mrs Raven|63/100
+|-damage|p2a: Samurott|84/100|[from] item: Rocky Helmet|[of] p1a: Mrs Raven
+|-enditem|p1a: Mrs Raven|Rocky Helmet|[from] move: Knock Off|[of] p2a: Samurott
+|move|p1a: Mrs Raven|Body Press|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|30/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743799170
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Mrs Raven|Brave Bird|p2a: Pecharunt
+|-damage|p2a: Pecharunt|75/100
+|-damage|p1a: Mrs Raven|53/100|[from] Recoil
+|
+|upkeep
+|turn|8
+|
+|t:|1743799194
+|switch|p1a: Badra|Goodra-Hisui, F|90/100
+|move|p2a: Pecharunt|Parting Shot|p1a: Badra
+|-unboost|p1a: Badra|atk|1
+|-unboost|p1a: Badra|spa|1
+|
+|t:|1743799197
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|9
+|
+|t:|1743799218
+|-terastallize|p1a: Badra|Flying
+|move|p2a: Great Tusk|Close Combat|p1a: Badra
+|-resisted|p1a: Badra
+|-damage|p1a: Badra|63/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Badra|Surf|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|1/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743799229
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Pecharunt|Pecharunt|75/100
+|switch|p1a: Mrs Raven|Corviknight, F, shiny|53/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743799235
+|move|p2a: Pecharunt|Parting Shot|p1a: Mrs Raven
+|-ability|p1a: Mrs Raven|Mirror Armor
+|-unboost|p2a: Pecharunt|atk|1
+|-ability|p1a: Mrs Raven|Mirror Armor
+|-unboost|p2a: Pecharunt|spa|1
+|
+|t:|1743799242
+|switch|p2a: Samurott|Samurott-Hisui, M, shiny|30/100|[from] Parting Shot
+|move|p1a: Mrs Raven|Bulk Up|p1a: Mrs Raven
+|-boost|p1a: Mrs Raven|atk|1
+|-boost|p1a: Mrs Raven|def|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743799252
+|move|p2a: Samurott|Razor Shell|p1a: Mrs Raven
+|-damage|p1a: Mrs Raven|24/100
+|move|p1a: Mrs Raven|Body Press|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743799259
+|switch|p2a: Great Tusk|Great Tusk, shiny|1/100
+|turn|13
+|
+|t:|1743799263
+|move|p2a: Great Tusk|Close Combat|p1a: Mrs Raven
+|-damage|p1a: Mrs Raven|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Mrs Raven
+|
+|upkeep
+|
+|t:|1743799273
+|switch|p1a: Shrimpboat Capt.|Crawdaunt, M|1/100
+|turn|14
+|
+|t:|1743799280
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Pecharunt|Pecharunt|75/100
+|move|p1a: Shrimpboat Capt.|Aqua Jet|p2a: Pecharunt
+|-damage|p2a: Pecharunt|57/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743799288
+|switch|p1a: Badra|Goodra-Hisui, F, tera:Flying|63/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Badra
+|-damage|p1a: Badra|48/100
+|-status|p1a: Badra|tox
+|-start|p1a: Badra|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|
+|-damage|p1a: Badra|42/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743799298
+|move|p2a: Pecharunt|Hex|p1a: Badra
+|-damage|p1a: Badra|19/100 tox
+|-activate|p1a: Badra|confusion
+|move|p1a: Badra|Dragon Pulse|p2a: Pecharunt
+|-damage|p2a: Pecharunt|13/100
+|
+|-damage|p1a: Badra|7/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1743799307
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|63/100
+|-activate|p1a: Badra|confusion
+|move|p1a: Badra|Steel Beam|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|-damage|p1a: Badra|0 fnt|[from] steelbeam
+|faint|p1a: Badra
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|t:|1743799317
+|switch|p2a: Kingambit|Kingambit, M, shiny|100/100
+|switch|p1a: I don't give a fox|Espeon, F, shiny|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|18
+|
+|t:|1743799324
+|move|p1a: I don't give a fox|Alluring Voice|p2a: Kingambit
+|-damage|p2a: Kingambit|66/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: I don't give a fox
+|-supereffective|p1a: I don't give a fox
+|-damage|p1a: I don't give a fox|0 fnt
+|faint|p1a: I don't give a fox
+|
+|-heal|p2a: Kingambit|72/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743799334
+|switch|p1a: AXE Bodyspray|Haxorus, M, shiny|100/100
+|-ability|p1a: AXE Bodyspray|Mold Breaker
+|turn|19
+|
+|t:|1743799340
+|-terastallize|p2a: Kingambit|Fairy
+|move|p1a: AXE Bodyspray|Earthquake|p2a: Kingambit
+|-damage|p2a: Kingambit|40/100
+|move|p2a: Kingambit|Tera Blast|p1a: AXE Bodyspray|[anim] Tera Blast Fairy
+|-supereffective|p1a: AXE Bodyspray
+|-crit|p1a: AXE Bodyspray
+|-damage|p1a: AXE Bodyspray|0 fnt
+|faint|p1a: AXE Bodyspray
+|
+|-heal|p2a: Kingambit|47/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743799359
+|switch|p1a: Shrimpboat Capt.|Crawdaunt, M|1/100
+|turn|20
+|
+|t:|1743799365
+|-end|p2a: Kingambit|fallen4|[silent]
+|switch|p2a: Great Tusk|Great Tusk, shiny|1/100
+|move|p1a: Shrimpboat Capt.|Aqua Jet|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743799368
+|switch|p2a: Kingambit|Kingambit, M, shiny, tera:Fairy|47/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|21
+|
+|t:|1743799383
+|move|p1a: Shrimpboat Capt.|Aqua Jet|p2a: Kingambit
+|-damage|p2a: Kingambit|21/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Shrimpboat Capt.
+|-resisted|p1a: Shrimpboat Capt.
+|-damage|p1a: Shrimpboat Capt.|0 fnt
+|faint|p1a: Shrimpboat Capt.
+|
+|-heal|p2a: Kingambit|27/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743799393
+|switch|p1a: Son of a Krook|Krookodile, M, shiny|100/100
+|turn|22
+|c|☆Fifo drummer|Gg
+|
+|t:|1743799401
+|move|p1a: Son of a Krook|Earthquake|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|Fifo drummer
+|raw|Fifo drummer's rating: 1383 &rarr; <strong>1406</strong><br />(+23 for winning)
+|raw|Gooigi88's rating: 1427 &rarr; <strong>1404</strong><br />(-23 for losing)
+|l|☆Gooigi88
+|player|p2|
+|l|☆Fifo drummer
+|player|p1|

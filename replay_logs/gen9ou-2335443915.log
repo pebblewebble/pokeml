@@ -1,0 +1,414 @@
+|j|☆whitney92
+|j|☆Alice Sapphic
+|t:|1743794793
+|gametype|singles
+|player|p1|whitney92|rood|1369
+|player|p2|Alice Sapphic|winona|1423
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Valiant|
+|poke|p1|Weavile, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Primarina, F|
+|poke|p1|Iron Treads|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Kyurem|
+|poke|p2|Tinkaton, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Scizor, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1743794812
+|start
+|switch|p1a: Weavile|Weavile, M|100/100
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|-item|p2a: Tinkaton|Air Balloon
+|turn|1
+|
+|t:|1743794820
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tinkaton|atk|1
+|move|p2a: Tinkaton|Stealth Rock|p1a: Landorus
+|-sidestart|p1: whitney92|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743794827
+|move|p2a: Tinkaton|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|89/100
+|-damage|p2a: Tinkaton|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-enditem|p1a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p2a: Tinkaton
+|move|p1a: Landorus|Stealth Rock|p2a: Tinkaton
+|-sidestart|p2: Alice Sapphic|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1743794834
+|move|p2a: Tinkaton|Encore|p1a: Landorus
+|-start|p1a: Landorus|Encore
+|move|p1a: Landorus|Stealth Rock||[still]
+|-fail|p1a: Landorus
+|
+|upkeep
+|turn|4
+|
+|t:|1743794839
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-damage|p1a: Iron Treads|98/100|[from] Stealth Rock
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivedef
+|move|p2a: Tinkaton|Knock Off|p1a: Iron Treads
+|-damage|p1a: Iron Treads|94/100
+|
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by whitney92)
+|
+|t:|1743794862
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|97/100|[from] Stealth Rock
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|move|p1a: Iron Treads|Rapid Spin|p2a: Great Tusk
+|-damage|p2a: Great Tusk|89/100
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: whitney92|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|
+|upkeep
+|turn|6
+|
+|t:|1743794875
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|89/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|move|p2a: Great Tusk|Headlong Rush|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|upkeep
+|turn|7
+|
+|t:|1743794883
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Landorus|Earth Power|p2a: Great Tusk
+|-damage|p2a: Great Tusk|49/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743794892
+|move|p2a: Great Tusk|Ice Spinner|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743794896
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|9
+|
+|t:|1743794918
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Great Tusk|Headlong Rush|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|31/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743794930
+|move|p1a: Iron Valiant|Moonblast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743794941
+|switch|p2a: Scizor|Scizor, F|100/100
+|-damage|p2a: Scizor|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1743794946
+|-terastallize|p1a: Iron Valiant|Electric
+|move|p2a: Scizor|Bullet Punch|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743794951
+|switch|p1a: Iron Treads|Iron Treads|94/100
+|turn|12
+|
+|t:|1743794960
+|switch|p2a: Tinkaton|Tinkaton, F|84/100
+|-damage|p2a: Tinkaton|78/100|[from] Stealth Rock
+|-ability|p2a: Tinkaton|Mold Breaker
+|-item|p2a: Tinkaton|Air Balloon
+|move|p1a: Iron Treads|Knock Off|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|65/100
+|-enditem|p2a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|13
+|
+|t:|1743794973
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|move|p2a: Tinkaton|Stealth Rock|p1a: Raging Bolt
+|-sidestart|p1: whitney92|move: Stealth Rock
+|
+|upkeep
+|turn|14
+|
+|t:|1743794982
+|move|p2a: Tinkaton|Encore||[still]
+|-fail|p2a: Tinkaton
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Tinkaton
+|-damage|p2a: Tinkaton|15/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743794988
+|move|p2a: Tinkaton|Encore|p1a: Raging Bolt
+|-start|p1a: Raging Bolt|Encore
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|
+|upkeep
+|
+|t:|1743794995
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743795009
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Primarina|Primarina, F|100/100
+|-damage|p1a: Primarina|88/100|[from] Stealth Rock
+|move|p2a: Iron Valiant|Moonblast|p1a: Primarina
+|-damage|p1a: Primarina|54/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743795028
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Primarina|Alluring Voice|p2a: Slowking
+|-damage|p2a: Slowking|81/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743795035
+|switch|p1a: Iron Treads|Iron Treads|94/100
+|-damage|p1a: Iron Treads|91/100|[from] Stealth Rock
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|inactive|Alice Sapphic has 120 seconds left.
+|
+|t:|1743795070
+|switch|p2a: Iron Valiant|Iron Valiant|94/100|[from] Chilly Reception
+|-damage|p2a: Iron Valiant|88/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|19
+|inactive|Alice Sapphic has 120 seconds left.
+|inactive|whitney92 has 120 seconds left.
+|
+|t:|1743795118
+|move|p2a: Iron Valiant|Vacuum Wave|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|12/100
+|move|p1a: Iron Treads|Rapid Spin|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|73/100
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: whitney92|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|20
+|inactive|Alice Sapphic has 120 seconds left.
+|
+|t:|1743795131
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Primarina|Primarina, F|54/100
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Scizor|Scizor, F|88/100
+|-damage|p2a: Scizor|76/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743795154
+|switch|p1a: Iron Treads|Iron Treads|12/100
+|move|p2a: Scizor|Bullet Punch|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743795169
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|22
+|inactive|Alice Sapphic has 120 seconds left.
+|
+|t:|1743795191
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|67/100
+|-status|p2a: Slowking|par
+|
+|-weather|none
+|upkeep
+|turn|23
+|inactive|Alice Sapphic has 120 seconds left.
+|
+|t:|1743795213
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|cant|p2a: Slowking|par
+|
+|upkeep
+|turn|24
+|inactive|Alice Sapphic has 120 seconds left.
+|
+|t:|1743795219
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|cant|p2a: Slowking|par
+|
+|upkeep
+|turn|25
+|
+|t:|1743795225
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|1/100 par
+|move|p2a: Slowking|Sludge Bomb|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|86/100
+|
+|upkeep
+|turn|26
+|
+|t:|1743795231
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1743795248
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|27
+|inactive|Alice Sapphic has 120 seconds left.
+|
+|t:|1743795271
+|-terastallize|p2a: Kyurem|Ground
+|move|p2a: Kyurem|Earth Power|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|47/100
+|-unboost|p1a: Raging Bolt|spd|1
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Kyurem
+|-damage|p2a: Kyurem|3/100
+|
+|upkeep
+|turn|28
+|inactive|Alice Sapphic has 120 seconds left.
+|
+|t:|1743795290
+|move|p2a: Kyurem|Ice Beam|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743795294
+|switch|p1a: Weavile|Weavile, M|100/100
+|turn|29
+|inactive|Alice Sapphic has 120 seconds left.
+|
+|t:|1743795302
+|move|p1a: Weavile|Triple Axel|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|-hitcount|p2: Kyurem|1
+|
+|upkeep
+|inactive|Alice Sapphic has 120 seconds left.
+|
+|t:|1743795326
+|switch|p2a: Scizor|Scizor, F|76/100
+|-damage|p2a: Scizor|64/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1743795330
+|switch|p1a: Primarina|Primarina, F|54/100
+|move|p2a: Scizor|Bullet Punch|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|upkeep
+|
+|t:|1743795334
+|switch|p1a: Weavile|Weavile, M|100/100
+|turn|31
+|
+|t:|1743795338
+|move|p2a: Scizor|Bullet Punch|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|win|Alice Sapphic
+|raw|whitney92's rating: 1369 &rarr; <strong>1352</strong><br />(-17 for losing)
+|raw|Alice Sapphic's rating: 1423 &rarr; <strong>1440</strong><br />(+17 for winning)
+|l|☆whitney92
+|player|p1|

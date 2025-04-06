@@ -1,0 +1,238 @@
+|j|☆chip witley
+|j|☆fireator
+|t:|1743871036
+|gametype|singles
+|player|p1|chip witley|lance|1737
+|player|p2|fireator|gambler|1740
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Veluza, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Kommo-o, F|
+|poke|p1|Toxtricity, M|
+|poke|p1|Maushold|
+|poke|p1|Scizor, M|
+|poke|p2|Iron Moth|
+|poke|p2|Dragapult, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Primarina, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Garganacl, F|
+|teampreview
+|
+|t:|1743871044
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Primarina|Primarina, M|100/100
+|turn|1
+|
+|t:|1743871047
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: chip witley|move: Light Screen
+|move|p2a: Primarina|Moonblast|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|59/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743871051
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: chip witley|Reflect
+|move|p2a: Primarina|Psychic Noise|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|45/100
+|-start|p1a: Grimmsnarl|move: Heal Block
+|
+|upkeep
+|turn|3
+|
+|t:|1743871055
+|move|p2a: Primarina|Flip Turn|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|36/100
+|
+|t:|1743871060
+|switch|p2a: Garganacl|Garganacl, F|100/100|[from] Flip Turn
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Garganacl
+|-crit|p2a: Garganacl
+|-damage|p2a: Garganacl|74/100
+|-unboost|p2a: Garganacl|spa|1
+|
+|-heal|p2a: Garganacl|80/100|[from] item: Leftovers
+|-end|p1a: Grimmsnarl|move: Heal Block
+|upkeep
+|turn|4
+|
+|t:|1743871063
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Garganacl
+|-unboost|p2a: Garganacl|atk|1
+|-unboost|p2a: Garganacl|spa|1
+|
+|t:|1743871068
+|switch|p1a: Toxtricity|Toxtricity, M|100/100|[from] Parting Shot
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|-heal|p2a: Garganacl|86/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743871071
+|move|p1a: Toxtricity|Overdrive|p2a: Garganacl
+|-damage|p2a: Garganacl|34/100
+|-damage|p1a: Toxtricity|91/100|[from] item: Life Orb
+|move|p2a: Garganacl|Salt Cure|p1a: Toxtricity
+|-damage|p1a: Toxtricity|82/100
+|-start|p1a: Toxtricity|Salt Cure
+|
+|-heal|p2a: Garganacl|41/100|[from] item: Leftovers
+|-damage|p1a: Toxtricity|70/100|[from] Salt Cure
+|upkeep
+|turn|6
+|
+|t:|1743871076
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Toxtricity|Overdrive|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|56/100
+|-damage|p1a: Toxtricity|60/100|[from] item: Life Orb
+|
+|-heal|p2a: Dragapult|62/100|[from] item: Leftovers
+|-damage|p1a: Toxtricity|48/100|[from] Salt Cure
+|upkeep
+|turn|7
+|
+|t:|1743871093
+|move|p2a: Dragapult|Dragon Darts|p1a: Toxtricity
+|-damage|p1a: Toxtricity|8/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-heal|p2a: Dragapult|68/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743871098
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|8
+|
+|t:|1743871104
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Scizor
+|-status|p1a: Scizor|brn
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-heal|p2a: Dragapult|74/100|[from] item: Leftovers
+|-damage|p1a: Scizor|94/100 brn|[from] brn
+|-sideend|p1: chip witley|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1743871109
+|move|p2a: Dragapult|Hex|p1a: Scizor
+|-damage|p1a: Scizor|22/100 brn
+|move|p1a: Scizor|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Leftovers|[from] move: Knock Off|[of] p1a: Scizor
+|faint|p2a: Dragapult
+|-damage|p1a: Scizor|12/100 brn|[from] item: Life Orb
+|
+|-damage|p1a: Scizor|6/100 brn|[from] brn
+|-sideend|p1: chip witley|Reflect
+|upkeep
+|
+|t:|1743871116
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|10
+|j| 54 insane rats
+|
+|t:|1743871118
+|move|p1a: Scizor|Bullet Punch|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|66/100
+|-damage|p1a: Scizor|0 fnt|[from] item: Life Orb
+|faint|p1a: Scizor
+|move|p2a: Iron Moth|Fiery Dance|p1: Scizor|[notarget]
+|-fail|p2a: Iron Moth
+|
+|upkeep
+|
+|t:|1743871121
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|36/100
+|turn|11
+|
+|t:|1743871128
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: chip witley|move: Light Screen
+|move|p2a: Iron Moth|Fiery Dance|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-boost|p2a: Iron Moth|spa|1
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1743871131
+|switch|p1a: Maushold|Maushold|100/100
+|turn|12
+|
+|t:|1743871135
+|move|p2a: Iron Moth|Sludge Wave|p1a: Maushold
+|-damage|p1a: Maushold|46/100
+|-status|p1a: Maushold|psn
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|-damage|p1a: Maushold|33/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1743871143
+|move|p1a: Maushold|Population Bomb|p2a: Iron Moth
+|-damage|p2a: Iron Moth|42/100
+|-damage|p2a: Iron Moth|17/100
+|-hitcount|p2a: Iron Moth|2
+|move|p2a: Iron Moth|Sludge Wave|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|
+|upkeep
+|
+|t:|1743871151
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|turn|14
+|
+|t:|1743871154
+|-terastallize|p2a: Iron Moth|Fairy
+|move|p2a: Iron Moth|Dazzling Gleam|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-crit|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|upkeep
+|-message|chip witley forfeited.
+|
+|win|fireator
+|raw|chip witley's rating: 1737 &rarr; <strong>1717</strong><br />(-20 for losing)
+|raw|fireator's rating: 1740 &rarr; <strong>1760</strong><br />(+20 for winning)
+|l|☆fireator
+|player|p2|
+|l| 54 insane rats
+|l|☆chip witley
+|player|p1|

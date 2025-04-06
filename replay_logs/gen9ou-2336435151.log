@@ -1,0 +1,375 @@
+|j|☆cococrispies
+|j|☆redner bo
+|t:|1743917167
+|gametype|singles
+|player|p1|cococrispies|n|1572
+|player|p2|redner bo|1|1534
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Great Tusk|
+|poke|p1|Moltres|
+|poke|p1|Kyurem|
+|poke|p1|Iron Valiant|
+|poke|p1|Alomomola, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Clefable, M|
+|poke|p2|Latios, M|
+|poke|p2|Iron Treads|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Pelipper, M|
+|teampreview
+|
+|t:|1743917182
+|start
+|switch|p1a: Kyurem|Kyurem|100/100
+|switch|p2a: Clefable|Clefable, M|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|1
+|
+|t:|1743917203
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Clefable|Moonblast|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|78/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743917210
+|move|p1a: Moltres|Flamethrower|p2a: Clefable
+|-damage|p2a: Clefable|62/100
+|move|p2a: Clefable|Knock Off|p1a: Moltres
+|-damage|p1a: Moltres|64/100
+|-enditem|p1a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Clefable
+|
+|upkeep
+|turn|3
+|
+|t:|1743917220
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Moltres|Flamethrower|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|87/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743917223
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Pelipper|Surf|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|83/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743917231
+|move|p2a: Pelipper|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|74/100
+|-enditem|p1a: Alomomola|Assault Vest|[from] move: Knock Off|[of] p2a: Pelipper
+|move|p1a: Alomomola|Flip Turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|75/100
+|
+|t:|1743917234
+|switch|p1a: Kyurem|Kyurem|100/100|[from] Flip Turn
+|-ability|p1a: Kyurem|Pressure
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743917243
+|move|p1a: Kyurem|Freeze-Dry|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743917247
+|switch|p2a: Latios|Latios, M|100/100
+|turn|7
+|
+|t:|1743917251
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Latios|Draco Meteor|p1a: Alomomola
+|-damage|p1a: Alomomola|41/100
+|-unboost|p2a: Latios|spa|2
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1743917261
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Alomomola|Flip Turn|p2a: Ogerpon
+|-immune|p2a: Ogerpon|[from] ability: Water Absorb
+|
+|upkeep
+|turn|9
+|
+|t:|1743917265
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Ogerpon|Horn Leech|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|78/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743917274
+|move|p2a: Ogerpon|U-turn|p1a: Kyurem
+|-damage|p1a: Kyurem|53/100
+|
+|t:|1743917278
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Kyurem|Freeze-Dry|p2a: Iron Treads
+|-damage|p2a: Iron Treads|18/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743917282
+|switch|p1a: Moltres|Moltres|64/100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Moltres
+|-sidestart|p1: cococrispies|move: Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|t:|1743917289
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Moltres|U-turn|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|64/100
+|
+|t:|1743917308
+|switch|p1a: Alomomola|Alomomola, M|74/100|[from] U-turn
+|-damage|p1a: Alomomola|62/100|[from] Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1743917311
+|move|p2a: Latios|Psychic Noise|p1a: Alomomola
+|-damage|p1a: Alomomola|27/100
+|-start|p1a: Alomomola|move: Heal Block
+|move|p1a: Alomomola|Mirror Coat|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+|
+|t:|1743917316
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|14
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cococrispies)
+|
+|t:|1743917321
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-damage|p1a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Ogerpon|Horn Leech|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|46/100
+|
+|-heal|p1a: Zamazenta|52/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743917327
+|move|p1a: Zamazenta|Body Press|p2a: Ogerpon
+|-damage|p2a: Ogerpon|35/100
+|move|p2a: Ogerpon|Encore|p1a: Zamazenta
+|-start|p1a: Zamazenta|Encore
+|
+|-heal|p1a: Zamazenta|58/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743917331
+|switch|p2a: Clefable|Clefable, M|62/100
+|move|p1a: Zamazenta|Body Press|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|35/100
+|
+|-heal|p1a: Zamazenta|64/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743917354
+|switch|p1a: Moltres|Moltres|64/100
+|-damage|p1a: Moltres|14/100|[from] Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|
+|t:|1743917358
+|switch|p1a: Kyurem|Kyurem|53/100
+|-damage|p1a: Kyurem|29/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Pressure
+|turn|18
+|j| koraidrone
+|
+|t:|1743917363
+|switch|p2a: Iron Treads|Iron Treads|18/100
+|move|p1a: Kyurem|Ice Beam|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743917366
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|35/100
+|turn|19
+|
+|t:|1743917372
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Kyurem|[anim] Ivy Cudgel Water
+|-resisted|p1a: Kyurem
+|-crit|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+|l| koraidrone
+|
+|t:|1743917383
+|switch|p1a: Zamazenta|Zamazenta|64/100
+|-damage|p1a: Zamazenta|58/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743917387
+|move|p1a: Zamazenta|Body Press|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-heal|p1a: Zamazenta|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743917389
+|switch|p2a: Clefable|Clefable, M|35/100
+|turn|21
+|
+|t:|1743917396
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|move|p2a: Clefable|Moonblast|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743917401
+|switch|p1a: Alomomola|Alomomola, M|60/100
+|-damage|p1a: Alomomola|48/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1743917407
+|move|p2a: Clefable|Future Sight|p1a: Alomomola
+|-start|p2a: Clefable|move: Future Sight
+|move|p1a: Alomomola|Scald|p2a: Clefable
+|-damage|p2a: Clefable|22/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743917412
+|move|p2a: Clefable|Moonblast|p1a: Alomomola
+|-damage|p1a: Alomomola|6/100
+|-unboost|p1a: Alomomola|spa|1
+|move|p1a: Alomomola|Mirror Coat|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|t:|1743917416
+|switch|p2a: Kingambit|Kingambit, M, shiny|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|24
+|
+|t:|1743917419
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Alomomola|Scald|p2a: Kingambit
+|-damage|p2a: Kingambit|92/100
+|
+|-end|p1a: Alomomola|move: Future Sight
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|-heal|p2a: Kingambit|99/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743917425
+|switch|p1a: Zamazenta|Zamazenta|64/100
+|-damage|p1a: Zamazenta|58/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1743917429
+|-terastallize|p2a: Kingambit|Flying
+|move|p1a: Zamazenta|Body Press|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|86/100
+|move|p2a: Kingambit|Iron Head|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-heal|p2a: Kingambit|93/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743917433
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|26
+|
+|t:|1743917440
+|-terastallize|p1a: Iron Valiant|Ghost
+|move|p1a: Iron Valiant|Moonblast|p2a: Kingambit
+|-damage|p2a: Kingambit|47/100
+|-unboost|p2a: Kingambit|spa|1
+|move|p2a: Kingambit|Iron Head|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|win|redner bo
+|raw|cococrispies's rating: 1572 &rarr; <strong>1550</strong><br />(-22 for losing)
+|raw|redner bo's rating: 1534 &rarr; <strong>1556</strong><br />(+22 for winning)
+|c|☆cococrispies|gg
+|l|☆redner bo
+|player|p2|
+|l|☆cococrispies
+|player|p1|

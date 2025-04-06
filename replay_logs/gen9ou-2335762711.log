@@ -1,0 +1,241 @@
+|j|☆P-Chans06
+|j|☆TheAverage1
+|t:|1743832016
+|gametype|singles
+|player|p1|P-Chans06|169|1148
+|player|p2|TheAverage1|camper|1188
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tinkaton, F|
+|poke|p1|Gliscor, F|
+|poke|p1|Jirachi|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Iron Moth|
+|poke|p2|Ribombee, F|
+|poke|p2|Gholdengo|
+|poke|p2|Serperior, F|
+|poke|p2|Great Tusk|
+|poke|p2|Enamorus, F|
+|poke|p2|Glimmora, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheAverage1)
+|
+|t:|1743832043
+|start
+|switch|p1a: Gliscor|Gliscor, F, shiny|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|1
+|
+|t:|1743832053
+|move|p2a: Great Tusk|Taunt|p1a: Gliscor
+|-start|p1a: Gliscor|move: Taunt
+|cant|p1a: Gliscor|move: Taunt|Spikes
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743832065
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743832074
+|move|p2a: Glimmora|Meteor Beam||[still]
+|-prepare|p2a: Glimmora|Meteor Beam
+|-boost|p2a: Glimmora|spa|1
+|-enditem|p2a: Glimmora|Power Herb
+|-anim|p2a: Glimmora|Meteor Beam|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1743832088
+|switch|p1a: Gliscor|Gliscor, F, shiny|100/100 tox
+|turn|4
+|
+|t:|1743832091
+|move|p2a: Glimmora|Power Gem|p1a: Gliscor
+|-damage|p1a: Gliscor|27/100 tox
+|move|p1a: Gliscor|Earthquake|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: P-Chans06|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|-heal|p1a: Gliscor|39/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743832103
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|turn|5
+|
+|t:|1743832110
+|switch|p1a: Iron Moth|Iron Moth, shiny|100/100
+|-sideend|p1: P-Chans06|move: Toxic Spikes|[of] p1a: Iron Moth
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|move|p2a: Ribombee|Moonblast|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-crit|p1a: Iron Moth
+|-damage|p1a: Iron Moth|85/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743832122
+|move|p2a: Ribombee|Sticky Web|p1a: Iron Moth
+|-sidestart|p1: P-Chans06|move: Sticky Web
+|move|p1a: Iron Moth|Fiery Dance|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743832133
+|move|p2a: Ribombee|Moonblast|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|76/100
+|-unboost|p1a: Iron Moth|spa|1
+|move|p1a: Iron Moth|Fiery Dance|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1743832143
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|8
+|
+|t:|1743832157
+|move|p1a: Iron Moth|Energy Ball|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743832167
+|switch|p2a: Enamorus|Enamorus, F, shiny|100/100
+|turn|9
+|
+|t:|1743832180
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Gliscor|Gliscor, F, shiny|39/100 tox
+|-terastallize|p2a: Enamorus|Stellar
+|move|p2a: Enamorus|Tera Blast|p1a: Gliscor|[anim] Tera Blast Stellar
+|-damage|p1a: Gliscor|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|spa|1
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|t:|1743832197
+|switch|p1a: Jirachi|Jirachi, shiny|100/100
+|-activate|p1a: Jirachi|move: Sticky Web
+|-unboost|p1a: Jirachi|spe|1
+|turn|10
+|
+|t:|1743832205
+|move|p2a: Enamorus|Tera Blast|p1a: Jirachi|[anim] Tera Blast Stellar
+|-damage|p1a: Jirachi|58/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|spa|1
+|move|p1a: Jirachi|Psychic Noise|p2a: Enamorus
+|-damage|p2a: Enamorus|51/100
+|-start|p2a: Enamorus|move: Heal Block
+|
+|upkeep
+|turn|11
+|
+|t:|1743832218
+|move|p2a: Enamorus|Tera Blast|p1a: Jirachi|[anim] Tera Blast Stellar
+|-damage|p1a: Jirachi|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|spa|1
+|faint|p1a: Jirachi
+|
+|-end|p2a: Enamorus|move: Heal Block
+|upkeep
+|
+|t:|1743832230
+|switch|p1a: Tinkaton|Tinkaton, F, shiny|100/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|-item|p1a: Tinkaton|Air Balloon
+|turn|12
+|
+|t:|1743832237
+|-terastallize|p1a: Tinkaton|Ghost
+|move|p2a: Enamorus|Tera Blast|p1a: Tinkaton|[anim] Tera Blast Stellar
+|-supereffective|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|spa|1
+|-enditem|p1a: Tinkaton|Air Balloon
+|faint|p1a: Tinkaton
+|
+|upkeep
+|
+|t:|1743832249
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|-activate|p1a: Keldeo|move: Sticky Web
+|-unboost|p1a: Keldeo|spe|1
+|turn|13
+|
+|t:|1743832254
+|move|p2a: Enamorus|Tera Blast|p1a: Keldeo|[anim] Tera Blast Stellar
+|-damage|p1a: Keldeo|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|spa|1
+|faint|p1a: Keldeo
+|
+|upkeep
+|
+|t:|1743832259
+|switch|p1a: Iron Moth|Iron Moth, shiny|76/100
+|-activate|p1a: Iron Moth|move: Sticky Web
+|-unboost|p1a: Iron Moth|spe|1
+|turn|14
+|
+|t:|1743832265
+|move|p2a: Enamorus|Tera Blast|p1a: Iron Moth|[anim] Tera Blast Stellar
+|-damage|p1a: Iron Moth|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|spa|1
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|win|TheAverage1
+|raw|P-Chans06's rating: 1148 &rarr; <strong>1126</strong><br />(-22 for losing)
+|raw|TheAverage1's rating: 1188 &rarr; <strong>1210</strong><br />(+22 for winning)
+|l|☆P-Chans06
+|player|p1|
+|l|☆TheAverage1
+|player|p2|

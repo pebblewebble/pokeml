@@ -1,0 +1,214 @@
+|j|☆LandotheRandoPando
+|j|☆ikthoizzykil
+|t:|1743891677
+|gametype|singles
+|player|p1|LandotheRandoPando|2|1268
+|player|p2|ikthoizzykil|101|1300
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Cinderace, M|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Raging Bolt|
+|poke|p2|Garchomp, F|
+|poke|p2|Moltres|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Gholdengo|
+|poke|p2|Kingambit, F|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ikthoizzykil)
+|
+|t:|1743891704
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|turn|1
+|
+|t:|1743891722
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Kingambit|[miss]
+|-miss|p1a: Dragapult|p2a: Kingambit
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-enditem|p1a: Dragapult|Focus Sash
+|-damage|p1a: Dragapult|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743891731
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Moltres
+|-immune|p2a: Moltres
+|
+|upkeep
+|turn|3
+|
+|t:|1743891737
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|move|p1a: Dragapult|Thunder Wave|p2a: Garchomp
+|-immune|p2a: Garchomp
+|
+|upkeep
+|turn|4
+|
+|t:|1743891757
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Slowking
+|-damage|p2a: Slowking|77/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Slowking
+|-damage|p2a: Slowking|55/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743891771
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Slowking
+|-status|p2a: Slowking|brn
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743891778
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] Chilly Reception
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743891787
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Iron Valiant|Knock Off|p1a: Cinderace
+|-damage|p1a: Cinderace|61/100
+|-enditem|p1a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Iron Valiant
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743891794
+|move|p2a: Iron Valiant|Close Combat|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1a: Cinderace
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743891802
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|turn|8
+|
+|t:|1743891807
+|move|p2a: Iron Valiant|Moonblast|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743891822
+|switch|p1a: Ninetales|Ninetales-Alola, F, shiny|100/100
+|turn|9
+|
+|t:|1743891831
+|move|p2a: Iron Valiant|Moonblast|p1a: Ninetales
+|-damage|p1a: Ninetales|52/100
+|-unboost|p1a: Ninetales|spa|1
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: LandotheRandoPando|move: Aurora Veil
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1743891837
+|move|p2a: Iron Valiant|Encore|p1a: Ninetales
+|-start|p1a: Ninetales|Encore
+|move|p1a: Ninetales|Aurora Veil||[still]
+|-fail|p1a: Ninetales
+|
+|upkeep
+|turn|11
+|
+|t:|1743891859
+|switch|p1a: Dragapult|Dragapult, F|1/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1743891867
+|switch|p1a: Ninetales|Ninetales-Alola, F, shiny|52/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|12
+|
+|t:|1743891880
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Slowking|Slowking-Galar, F|89/100 brn
+|move|p1a: Ninetales|Moonblast|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|80/100 brn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Slowking|74/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743891892
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|inactive|ikthoizzykil has 120 seconds left.
+|
+|t:|1743891925
+|switch|p2a: Garchomp|Garchomp, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743891934
+|-end|p1a: Kingambit|fallen3|[silent]
+|switch|p1a: Ninetales|Ninetales-Alola, F, shiny|52/100
+|move|p2a: Garchomp|Stealth Rock|p1a: Ninetales
+|-sidestart|p1: LandotheRandoPando|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|15
+|-message|LandotheRandoPando forfeited.
+|
+|win|ikthoizzykil
+|raw|LandotheRandoPando's rating: 1268 &rarr; <strong>1245</strong><br />(-23 for losing)
+|raw|ikthoizzykil's rating: 1300 &rarr; <strong>1323</strong><br />(+23 for winning)
+|l|☆LandotheRandoPando
+|player|p1|
+|c|☆ikthoizzykil|gg

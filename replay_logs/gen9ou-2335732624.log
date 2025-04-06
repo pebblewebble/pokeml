@@ -1,0 +1,268 @@
+|j|☆EywaOW
+|j|☆wovladii
+|t:|1743827549
+|gametype|singles
+|player|p1|EywaOW|roxie|1129
+|player|p2|wovladii|266|1092
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Walking Wake|
+|poke|p1|Duraludon, M|
+|poke|p1|Donphan, F|
+|poke|p1|Gliscor, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Vileplume, F|
+|poke|p2|Glimmora, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Latias, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Weavile, M|
+|poke|p2|Ribombee, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by EywaOW)
+|
+|t:|1743827555
+|start
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|-enditem|p1a: Walking Wake|Booster Energy
+|-activate|p1a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|1
+|
+|t:|1743827563
+|-terastallize|p1a: Walking Wake|Fairy
+|move|p2a: Ribombee|Sticky Web|p1a: Walking Wake
+|-sidestart|p1: EywaOW|move: Sticky Web
+|move|p1a: Walking Wake|Flamethrower|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743827574
+|move|p2a: Ribombee|Bug Buzz|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|78/100
+|move|p1a: Walking Wake|Surf|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1743827584
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|turn|3
+|
+|t:|1743827588
+|move|p1a: Walking Wake|Surf|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1743827607
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|4
+|
+|t:|1743827613
+|-terastallize|p2a: Dragonite|Normal
+|move|p2a: Dragonite|Extreme Speed|p1a: Walking Wake
+|-damage|p1a: Walking Wake|29/100
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Dragonite
+|-damage|p2a: Dragonite|67/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743827620
+|move|p2a: Dragonite|Extreme Speed|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743827624
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|6
+|
+|t:|1743827631
+|move|p1a: Thundurus|Focus Blast|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1743827636
+|switch|p2a: Weavile|Weavile, M|100/100
+|turn|7
+|
+|t:|1743827640
+|move|p2a: Weavile|Triple Axel|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|60/100
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|-hitcount|p1: Thundurus|2
+|-damage|p2a: Weavile|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743827648
+|switch|p1a: Duraludon|Duraludon, M, shiny|100/100
+|-activate|p1a: Duraludon|move: Sticky Web
+|-unboost|p1a: Duraludon|spe|1
+|turn|8
+|
+|t:|1743827660
+|move|p2a: Weavile|Upper Hand||[still]
+|-fail|p2a: Weavile
+|move|p1a: Duraludon|Flash Cannon|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|t:|1743827671
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|9
+|
+|t:|1743827676
+|move|p2a: Zamazenta|Body Press|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|45/100
+|move|p1a: Duraludon|Thunder Wave|p2a: Zamazenta
+|-status|p2a: Zamazenta|par
+|
+|upkeep
+|turn|10
+|
+|t:|1743827689
+|move|p2a: Zamazenta|Body Press|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|faint|p1a: Duraludon
+|
+|upkeep
+|
+|t:|1743827695
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|turn|11
+|
+|t:|1743827706
+|move|p1a: Gliscor|Lunge|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|94/100 par
+|-unboost|p2a: Zamazenta|atk|1
+|cant|p2a: Zamazenta|par
+|
+|-heal|p2a: Zamazenta|99/100 par|[from] item: Leftovers
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|12
+|
+|t:|1743827715
+|move|p1a: Gliscor|Fling|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|97/100 par
+|-enditem|p1a: Gliscor|Toxic Orb|[from] move: Fling
+|cant|p2a: Zamazenta|par
+|
+|-heal|p2a: Zamazenta|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743827722
+|move|p1a: Gliscor|Acrobatics|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|48/100 par
+|move|p2a: Zamazenta|Body Press|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|75/100 tox
+|
+|-heal|p2a: Zamazenta|54/100 par|[from] item: Leftovers
+|-heal|p1a: Gliscor|87/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|t:|1743827732
+|move|p1a: Gliscor|Acrobatics|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|3/100 par
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-heal|p2a: Zamazenta|9/100 par|[from] item: Leftovers
+|-heal|p1a: Gliscor|99/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|t:|1743827741
+|move|p1a: Gliscor|Acrobatics|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743827747
+|switch|p2a: Latias|Latias, F|100/100
+|turn|16
+|
+|t:|1743827752
+|move|p1a: Gliscor|Acrobatics|p2a: Latias
+|-crit|p2a: Latias
+|-damage|p2a: Latias|42/100
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-heal|p2a: Latias|49/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743827761
+|move|p1a: Gliscor|Acrobatics|p2a: Latias
+|-damage|p2a: Latias|5/100
+|move|p2a: Latias|Draining Kiss|p1a: Gliscor
+|-damage|p1a: Gliscor|71/100 tox
+|-heal|p2a: Latias|23/100|[from] drain|[of] p1a: Gliscor
+|
+|-heal|p2a: Latias|30/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|84/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|18
+|
+|t:|1743827771
+|move|p1a: Gliscor|Acrobatics|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|win|EywaOW
+|raw|EywaOW's rating: 1129 &rarr; <strong>1151</strong><br />(+22 for winning)
+|raw|wovladii's rating: 1092 &rarr; <strong>1071</strong><br />(-21 for losing)
+|l|☆wovladii
+|player|p2|
+|l|☆EywaOW
+|player|p1|

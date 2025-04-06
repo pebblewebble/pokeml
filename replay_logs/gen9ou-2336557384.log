@@ -1,0 +1,257 @@
+|j|☆KillerB1000
+|j|☆rmcarmicheal
+|t:|1743938972
+|gametype|singles
+|player|p1|KillerB1000|scientist-gen4|1385
+|player|p2|rmcarmicheal|1|1378
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Braviary-Hisui, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Sinistcha|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Iron Treads|
+|poke|p2|Whimsicott, L1, M|
+|poke|p2|Gliscor, F|
+|poke|p2|Blissey, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Gholdengo|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by rmcarmicheal)
+|
+|t:|1743938983
+|start
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1743938985
+|move|p1a: Pelipper|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|93/100
+|-damage|p1a: Pelipper|84/100|[from] item: Rocky Helmet|[of] p2a: Toxapex
+|-enditem|p2a: Toxapex|Rocky Helmet|[from] move: Knock Off|[of] p1a: Pelipper
+|move|p2a: Toxapex|Toxic|p1a: Pelipper
+|-status|p1a: Pelipper|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|78/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1743938992
+|move|p1a: Pelipper|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|91/100
+|
+|t:|1743938999
+|switch|p1a: Braviary|Braviary-Hisui, M|100/100|[from] U-turn
+|move|p2a: Toxapex|Infestation|p1a: Braviary
+|-damage|p1a: Braviary|97/100
+|-activate|p1a: Braviary|move: Infestation|[of] p2a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Braviary|85/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1743939005
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Braviary|U-turn|p2a: Blissey
+|-damage|p2a: Blissey|89/100
+|
+|t:|1743939010
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Blissey|95/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743939015
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Toxapex
+|-damage|p2a: Toxapex|71/100
+|-sidestart|p2: rmcarmicheal|Spikes
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743939028
+|switch|p1a: Pelipper|Pelipper, F|78/100 tox
+|move|p2a: Toxapex|Toxic|p1a: Pelipper
+|-fail|p1a: Pelipper|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|71/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743939037
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|100/100 tox
+|-singleturn|p1a: Pelipper|move: Roost
+|move|p2a: Toxapex|Toxic|p1a: Pelipper
+|-fail|p1a: Pelipper|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|88/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743939040
+|move|p1a: Pelipper|U-turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|68/100
+|
+|t:|1743939043
+|switch|p1a: Braviary|Braviary-Hisui, M|85/100|[from] U-turn
+|move|p2a: Toxapex|Infestation|p1a: Braviary
+|-damage|p1a: Braviary|82/100
+|-activate|p1a: Braviary|move: Infestation|[of] p2a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Braviary|69/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|t:|1743939048
+|move|p1a: Braviary|Psychic|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-weather|none
+|-end|p1a: Braviary|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1743939051
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|9
+|
+|t:|1743939056
+|switch|p1a: Pelipper|Pelipper, F|88/100 tox
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|82/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743939062
+|switch|p2a: Blissey|Blissey, F|95/100
+|move|p1a: Pelipper|Knock Off|p2a: Blissey
+|-damage|p2a: Blissey|85/100
+|-enditem|p2a: Blissey|Leftovers|[from] move: Knock Off|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|70/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743939069
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|100/100 tox
+|-singleturn|p1a: Pelipper|move: Roost
+|move|p2a: Blissey|Seismic Toss|p1a: Pelipper
+|-damage|p1a: Pelipper|70/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|51/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743939073
+|move|p1a: Pelipper|U-turn|p2a: Blissey
+|-damage|p2a: Blissey|78/100
+|
+|t:|1743939075
+|switch|p1a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|-damage|p1a: Basculegion|88/100|[from] Spikes
+|-ability|p1a: Basculegion|Mold Breaker
+|move|p2a: Blissey|Seismic Toss|p1a: Basculegion
+|-immune|p1a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743939079
+|move|p1a: Basculegion|Wave Crash|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|-damage|p1a: Basculegion|47/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743939082
+|switch|p2a: Whimsicott|Whimsicott, L1, M|100/100
+|turn|14
+|
+|t:|1743939089
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-damage|p1a: Iron Treads|88/100|[from] Spikes
+|move|p2a: Whimsicott|Leech Seed|p1a: Iron Treads
+|-start|p1a: Iron Treads|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Iron Treads|76/100|[from] Leech Seed|[of] p2a: Whimsicott
+|upkeep
+|turn|15
+|
+|t:|1743939091
+|move|p2a: Whimsicott|Substitute|p2a: Whimsicott
+|-start|p2a: Whimsicott|Substitute
+|-damage|p2a: Whimsicott|77/100
+|move|p1a: Iron Treads|Rapid Spin|p2a: Whimsicott
+|-end|p2a: Whimsicott|Substitute
+|-end|p1a: Iron Treads|Leech Seed|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|-sideend|p1: KillerB1000|Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|-boost|p1a: Iron Treads|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743939099
+|move|p2a: Whimsicott|Leech Seed|p1a: Iron Treads|[miss]
+|-miss|p2a: Whimsicott|p1a: Iron Treads
+|move|p1a: Iron Treads|Rapid Spin|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|-boost|p1a: Iron Treads|spe|1
+|faint|p2a: Whimsicott
+|
+|-weather|none
+|upkeep
+|inactive|rmcarmicheal has 120 seconds left.
+|inactive|rmcarmicheal has 90 seconds left.
+|inactive|rmcarmicheal has 60 seconds left.
+|inactive|rmcarmicheal has 30 seconds left.
+|inactive|rmcarmicheal has 20 seconds left.
+|inactive|rmcarmicheal has 15 seconds left.
+|inactive|rmcarmicheal has 10 seconds left.
+|inactive|rmcarmicheal has 5 seconds left.
+|-message|rmcarmicheal lost due to inactivity.
+|
+|win|KillerB1000
+|raw|KillerB1000's rating: 1385 &rarr; <strong>1405</strong><br />(+20 for winning)
+|raw|rmcarmicheal's rating: 1378 &rarr; <strong>1358</strong><br />(-20 for losing)

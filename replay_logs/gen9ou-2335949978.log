@@ -1,0 +1,267 @@
+|j|☆nw loader
+|j|☆Quintesshou
+|t:|1743862827
+|gametype|singles
+|player|p1|nw loader|unknown|1111
+|player|p2|Quintesshou|mira|1079
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Venusaur, F|
+|poke|p1|Scream Tail|
+|poke|p1|Ceruledge, M|
+|poke|p1|Walking Wake|
+|poke|p2|Meganium, F|
+|poke|p2|Blissey, F|
+|poke|p2|Cinccino, F|
+|poke|p2|Vaporeon, F|
+|poke|p2|Ribombee, F|
+|poke|p2|Illumise, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Quintesshou)
+|
+|t:|1743862845
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Ribombee|Ribombee, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1743862855
+|move|p2a: Ribombee|Sticky Web|p1a: Torkoal
+|-sidestart|p1: nw loader|move: Sticky Web
+|move|p1a: Torkoal|Rapid Spin|p2a: Ribombee
+|-damage|p2a: Ribombee|81/100
+|-boost|p1a: Torkoal|spe|1
+|-sideend|p1: nw loader|Sticky Web|[from] move: Rapid Spin|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743862866
+|move|p2a: Ribombee|Reflect|p2a: Ribombee
+|-sidestart|p2: Quintesshou|Reflect
+|move|p1a: Torkoal|Overheat|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|-unboost|p1a: Torkoal|spa|2
+|faint|p2a: Ribombee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743862873
+|switch|p2a: Meganium|Meganium, F|100/100
+|turn|3
+|
+|t:|1743862879
+|move|p2a: Meganium|Trailblaze|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|94/100
+|-boost|p2a: Meganium|spe|1
+|move|p1a: Torkoal|Stealth Rock|p2a: Meganium
+|-sidestart|p2: Quintesshou|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743862889
+|move|p2a: Meganium|Swords Dance|p2a: Meganium
+|-boost|p2a: Meganium|atk|2
+|move|p1a: Torkoal|Clear Smog|p2a: Meganium
+|-supereffective|p2a: Meganium
+|-damage|p2a: Meganium|85/100
+|-clearboost|p2a: Meganium
+|-enditem|p2a: Meganium|Red Card|[of] p1a: Torkoal
+|drag|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743862903
+|move|p1a: Walking Wake|Flamethrower|p2a: Meganium
+|-supereffective|p2a: Meganium
+|-damage|p2a: Meganium|0 fnt
+|faint|p2a: Meganium
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743862911
+|switch|p2a: Cinccino|Cinccino, F|100/100
+|-damage|p2a: Cinccino|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1743862919
+|move|p1a: Walking Wake|Flamethrower|p2a: Cinccino
+|-damage|p2a: Cinccino|0 fnt
+|faint|p2a: Cinccino
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743862927
+|switch|p2a: Blissey|Blissey, F, shiny|100/100
+|-damage|p2a: Blissey|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1743862932
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|-activate|p1a: Scream Tail|ability: Protosynthesis
+|-start|p1a: Scream Tail|protosynthesisspe
+|move|p2a: Blissey|Thunder|p1a: Scream Tail
+|-damage|p1a: Scream Tail|79/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Scream Tail|85/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743862947
+|move|p2a: Blissey|Thunder|p1a: Scream Tail
+|-damage|p1a: Scream Tail|65/100
+|move|p1a: Scream Tail|Roar|p2a: Blissey
+|drag|p2a: Vaporeon|Vaporeon, F, shiny|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|
+|-weather|none
+|-end|p1a: Scream Tail|Protosynthesis
+|-heal|p1a: Scream Tail|71/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743862963
+|move|p1a: Scream Tail|Wish|p1a: Scream Tail
+|move|p2a: Vaporeon|Calm Mind|p2a: Vaporeon
+|-boost|p2a: Vaporeon|spa|1
+|-boost|p2a: Vaporeon|spd|1
+|
+|-heal|p1a: Scream Tail|77/100|[from] item: Leftovers
+|-heal|p2a: Vaporeon|100/100|[from] item: Leftovers
+|-sideend|p2: Quintesshou|Reflect
+|upkeep
+|turn|10
+|
+|t:|1743862972
+|move|p2a: Vaporeon|Calm Mind|p2a: Vaporeon
+|-boost|p2a: Vaporeon|spa|1
+|-boost|p2a: Vaporeon|spd|1
+|move|p1a: Scream Tail|Roar|p2a: Vaporeon
+|drag|p2a: Illumise|Illumise, F|100/100
+|
+|-heal|p1a: Scream Tail|100/100|[from] move: Wish|[wisher] Scream Tail
+|upkeep
+|turn|11
+|
+|t:|1743862984
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|94/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Illumise|Thunder Wave|p1a: Torkoal
+|-status|p1a: Torkoal|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743862995
+|move|p2a: Illumise|Tailwind|p2a: Illumise
+|-sidestart|p2: Quintesshou|move: Tailwind
+|move|p1a: Torkoal|Overheat|p2a: Illumise|[miss]
+|-miss|p1a: Torkoal|p2a: Illumise
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743863004
+|move|p2a: Illumise|Encore|p1a: Torkoal
+|-start|p1a: Torkoal|Encore
+|move|p1a: Torkoal|Overheat|p2a: Illumise
+|-supereffective|p2a: Illumise
+|-damage|p2a: Illumise|0 fnt
+|-unboost|p1a: Torkoal|spa|2
+|faint|p2a: Illumise
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743863016
+|switch|p2a: Vaporeon|Vaporeon, F, shiny|100/100
+|-damage|p2a: Vaporeon|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743863022
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|move|p2a: Vaporeon|Calm Mind|p2a: Vaporeon
+|-boost|p2a: Vaporeon|spa|1
+|-boost|p2a: Vaporeon|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Vaporeon|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743863032
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|move|p2a: Vaporeon|Calm Mind|p2a: Vaporeon
+|-boost|p2a: Vaporeon|spa|1
+|-boost|p2a: Vaporeon|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Vaporeon|100/100|[from] item: Leftovers
+|-sideend|p2: Quintesshou|move: Tailwind
+|upkeep
+|turn|16
+|
+|t:|1743863045
+|move|p1a: Venusaur|Giga Drain|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|41/100
+|move|p2a: Vaporeon|Calm Mind|p2a: Vaporeon
+|-boost|p2a: Vaporeon|spa|1
+|-boost|p2a: Vaporeon|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Vaporeon|47/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743863055
+|move|p1a: Venusaur|Giga Drain|p2a: Vaporeon
+|-supereffective|p2a: Vaporeon
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Quintesshou forfeited.
+|
+|win|nw loader
+|raw|nw loader's rating: 1111 &rarr; <strong>1134</strong><br />(+23 for winning)
+|raw|Quintesshou's rating: 1079 &rarr; <strong>1059</strong><br />(-20 for losing)
+|l|☆Quintesshou
+|player|p2|
+|l|☆nw loader
+|player|p1|

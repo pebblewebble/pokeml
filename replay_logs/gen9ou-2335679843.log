@@ -1,0 +1,404 @@
+|j|☆Palhaca Demonia
+|j|☆Scizorag
+|t:|1743820546
+|gametype|singles
+|player|p1|Palhaca Demonia|swimmerf-gen4dp|1057
+|player|p2|Scizorag|red|1110
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Clodsire, M|
+|poke|p1|Armarouge, M|
+|poke|p1|Dusclops, F|
+|poke|p1|Torkoal, F|
+|poke|p1|Scovillain, F|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Kyurem|
+|poke|p2|Gliscor, F|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Raging Bolt|
+|teampreview
+|
+|t:|1743820558
+|start
+|switch|p1a: Dusclops|Dusclops, F|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|-ability|p1a: Dusclops|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Scizorag)
+|
+|t:|1743820568
+|move|p2a: Samurott|Ceaseless Edge|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|49/100
+|-sidestart|p1: Palhaca Demonia|Spikes
+|move|p1a: Dusclops|Trick Room|p1a: Dusclops
+|-fieldstart|move: Trick Room|[of] p1a: Dusclops
+|
+|upkeep
+|turn|2
+|
+|t:|1743820575
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Samurott
+|-status|p2a: Samurott|brn
+|move|p2a: Samurott|Ceaseless Edge|p1a: Dusclops|[miss]
+|-miss|p2a: Samurott|p1a: Dusclops
+|
+|-damage|p2a: Samurott|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743820589
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Samurott
+|-fail|p2a: Samurott|brn
+|move|p2a: Samurott|Ceaseless Edge|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|23/100
+|-sidestart|p1: Palhaca Demonia|Spikes
+|
+|-damage|p2a: Samurott|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743820598
+|move|p1a: Dusclops|Pain Split|p2a: Samurott
+|-sethp|p2a: Samurott|54/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|61/100|[from] move: Pain Split
+|move|p2a: Samurott|Ceaseless Edge|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|35/100
+|-sidestart|p1: Palhaca Demonia|Spikes
+|
+|-damage|p2a: Samurott|48/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743820610
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|move|p1a: Dusclops|Pain Split|p2a: Raging Bolt
+|-sethp|p2a: Raging Bolt|63/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|86/100|[from] move: Pain Split
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1743820620
+|move|p2a: Raging Bolt|Taunt|p1a: Dusclops
+|-start|p1a: Dusclops|move: Taunt
+|cant|p1a: Dusclops|move: Taunt|Trick Room
+|
+|upkeep
+|turn|7
+|
+|t:|1743820627
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|-damage|p1a: Clodsire|75/100|[from] Spikes
+|move|p2a: Raging Bolt|Volt Switch|p1a: Clodsire
+|-immune|p1a: Clodsire
+|
+|-heal|p1a: Clodsire|82/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1743820637
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Clodsire|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: Scizorag|move: Stealth Rock
+|
+|-heal|p1a: Clodsire|88/100|[from] item: Black Sludge
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|9
+|
+|t:|1743820646
+|move|p2a: Gliscor|Stealth Rock|p1a: Clodsire
+|-sidestart|p1: Palhaca Demonia|move: Stealth Rock
+|move|p1a: Clodsire|Spikes|p2a: Gliscor
+|-sidestart|p2: Scizorag|Spikes
+|
+|-heal|p1a: Clodsire|94/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1743820653
+|move|p2a: Gliscor|Earthquake|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|26/100
+|move|p1a: Clodsire|Spikes|p2a: Gliscor
+|-sidestart|p2: Scizorag|Spikes
+|
+|-heal|p1a: Clodsire|32/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1743820660
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Gliscor|Earthquake|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz
+|
+|upkeep
+|turn|12
+|
+|t:|1743820667
+|move|p2a: Gliscor|Toxic|p1a: Mandibuzz
+|-status|p1a: Mandibuzz|tox
+|move|p1a: Mandibuzz|Defog|p2a: Gliscor
+|-unboost|p2a: Gliscor|evasion|1
+|-sideend|p2: Scizorag|Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p2: Scizorag|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: Palhaca Demonia|Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: Palhaca Demonia|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|-damage|p1a: Mandibuzz|94/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1743820676
+|move|p2a: Gliscor|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Palhaca Demonia|move: Stealth Rock
+|move|p1a: Mandibuzz|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|96/100 tox
+|
+|t:|1743820700
+|switch|p1a: Dusclops|Dusclops, F|86/100|[from] U-turn
+|-damage|p1a: Dusclops|74/100|[from] Stealth Rock
+|-ability|p1a: Dusclops|Pressure
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|c|☆Scizorag|I’m trying make conkelldur work
+|c|☆Scizorag|it has so many tools
+|c|☆Palhaca Demonia|go for it then
+|c|☆Scizorag|priotru defog recovery coverage
+|inactive|Scizorag has 120 seconds left.
+|c|☆Scizorag|Plus guts facade off 140 is a nuke
+|
+|t:|1743820748
+|move|p2a: Gliscor|Toxic|p1a: Dusclops
+|-status|p1a: Dusclops|tox
+|move|p1a: Dusclops|Trick Room|p1a: Dusclops
+|-fieldstart|move: Trick Room|[of] p1a: Dusclops
+|
+|-damage|p1a: Dusclops|68/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743820756
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Dusclops|Pain Split|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Dusclops|56/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743820766
+|move|p1a: Dusclops|Pain Split|p2a: Gliscor
+|-sethp|p2a: Gliscor|73/100 tox|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|90/100 tox|[from] move: Pain Split
+|move|p2a: Gliscor|Earthquake|p1a: Dusclops
+|-damage|p1a: Dusclops|70/100 tox
+|
+|-damage|p1a: Dusclops|52/100 tox|[from] psn
+|-heal|p2a: Gliscor|85/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|inactive|Scizorag has 120 seconds left.
+|
+|t:|1743820779
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Dusclops|Pain Split|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Dusclops|28/100 tox|[from] psn
+|-heal|p2a: Gliscor|98/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|18
+|inactive|Scizorag has 120 seconds left.
+|
+|t:|1743820791
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|move|p1a: Dusclops|Pain Split|p2a: Gliscor
+|-sethp|p2a: Gliscor|60/100 tox|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|74/100 tox|[from] move: Pain Split
+|
+|-damage|p1a: Dusclops|45/100 tox|[from] psn
+|-heal|p2a: Gliscor|73/100 tox|[from] ability: Poison Heal
+|-fieldend|move: Trick Room
+|upkeep
+|turn|19
+|inactive|Scizorag has 120 seconds left.
+|
+|t:|1743820801
+|move|p2a: Gliscor|Earthquake|p1a: Dusclops
+|-damage|p1a: Dusclops|24/100 tox
+|move|p1a: Dusclops|Trick Room|p1a: Dusclops
+|-fieldstart|move: Trick Room|[of] p1a: Dusclops
+|
+|-damage|p1a: Dusclops|0 fnt|[from] psn
+|faint|p1a: Dusclops
+|-heal|p2a: Gliscor|85/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743820807
+|switch|p1a: Armarouge|Armarouge, M|100/100
+|-damage|p1a: Armarouge|76/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743820814
+|-terastallize|p1a: Armarouge|Dragon
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Armarouge|Calm Mind|p1a: Armarouge
+|-boost|p1a: Armarouge|spa|1
+|-boost|p1a: Armarouge|spd|1
+|
+|-heal|p2a: Gliscor|98/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|
+|t:|1743820826
+|move|p1a: Armarouge|Dragon Pulse|p2a: Gliscor
+|-damage|p2a: Gliscor|33/100 tox
+|move|p2a: Gliscor|Toxic|p1a: Armarouge
+|-status|p1a: Armarouge|tox
+|
+|-damage|p1a: Armarouge|69/100 tox|[from] psn
+|-heal|p2a: Gliscor|46/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|
+|t:|1743820835
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Armarouge|Calm Mind|p1a: Armarouge
+|-boost|p1a: Armarouge|spa|1
+|-boost|p1a: Armarouge|spd|1
+|
+|-damage|p1a: Armarouge|57/100 tox|[from] psn
+|-heal|p2a: Gliscor|58/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|
+|t:|1743820845
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Armarouge|Dragon Pulse|p2a: Iron Valiant
+|-immune|p2a: Iron Valiant
+|
+|-damage|p1a: Armarouge|39/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|24
+|inactive|Scizorag has 120 seconds left.
+|inactive|Scizorag has 90 seconds left.
+|
+|t:|1743820908
+|move|p2a: Iron Valiant|Moonblast|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|
+|upkeep
+|
+|t:|1743820912
+|switch|p1a: Clodsire|Clodsire, M|32/100
+|-damage|p1a: Clodsire|26/100|[from] Stealth Rock
+|turn|25
+|inactive|Scizorag has 90 seconds left.
+|
+|t:|1743820917
+|move|p2a: Iron Valiant|Knock Off|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|-enditem|p1a: Clodsire|Black Sludge|[from] move: Knock Off|[of] p2a: Iron Valiant
+|faint|p1a: Clodsire
+|
+|upkeep
+|
+|t:|1743820920
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-damage|p1a: Torkoal|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|26
+|
+|t:|1743820930
+|move|p2a: Iron Valiant|Close Combat|p1a: Torkoal
+|-damage|p1a: Torkoal|35/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|move|p1a: Torkoal|Rapid Spin|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|82/100
+|-boost|p1a: Torkoal|spe|1
+|-sideend|p1: Palhaca Demonia|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1743820940
+|move|p2a: Iron Valiant|Close Combat|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743820943
+|switch|p1a: Scovillain|Scovillain, F|100/100
+|turn|28
+|
+|t:|1743820952
+|move|p2a: Iron Valiant|Close Combat|p1a: Scovillain
+|-damage|p1a: Scovillain|2/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|move|p1a: Scovillain|Growth|p1a: Scovillain
+|-boost|p1a: Scovillain|atk|2
+|-boost|p1a: Scovillain|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|29
+|c|☆Palhaca Demonia|gg
+|c|☆Palhaca Demonia|xd
+|
+|t:|1743820964
+|move|p2a: Iron Valiant|Close Combat|p1a: Scovillain
+|-damage|p1a: Scovillain|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1a: Scovillain
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Palhaca Demonia forfeited.
+|
+|win|Scizorag
+|raw|Palhaca Demonia's rating: 1057 &rarr; <strong>1041</strong><br />(-16 for losing)
+|raw|Scizorag's rating: 1110 &rarr; <strong>1131</strong><br />(+21 for winning)
+|l|☆Palhaca Demonia
+|player|p1|
+|c|☆Scizorag|Gg

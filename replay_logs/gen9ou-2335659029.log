@@ -1,0 +1,274 @@
+|j|☆Former Pro
+|j|☆AxisPS
+|t:|1743817961
+|gametype|singles
+|player|p1|Former Pro|steven|
+|player|p2|AxisPS|102|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Comfey, M|
+|poke|p1|Whimsicott, M|
+|poke|p1|Iron Moth|
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p1|Ninetales, F|
+|poke|p2|Garganacl, M|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Samurott-Hisui, F|
+|teampreview
+|
+|t:|1743817995
+|start
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|switch|p2a: Dr. Garg|Garganacl, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1743818025
+|switch|p1a: popcorn|Whimsicott, M|100/100
+|move|p2a: Dr. Garg|Stealth Rock|p1a: popcorn
+|-sidestart|p1: Former Pro|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743818061
+|move|p1a: popcorn|Growth|p1a: popcorn
+|-boost|p1a: popcorn|atk|2
+|-boost|p1a: popcorn|spa|2
+|move|p2a: Dr. Garg|Salt Cure|p1a: popcorn
+|-damage|p1a: popcorn|82/100
+|-start|p1a: popcorn|Salt Cure
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: popcorn|70/100|[from] Salt Cure
+|upkeep
+|turn|3
+|
+|t:|1743818094
+|switch|p2a: Trudeau-king|Slowking-Galar, F|100/100
+|move|p1a: popcorn|Growth|p1a: popcorn
+|-boost|p1a: popcorn|atk|2
+|-boost|p1a: popcorn|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: popcorn|58/100|[from] Salt Cure
+|upkeep
+|turn|4
+|
+|t:|1743818180
+|-terastallize|p1a: popcorn|Ghost
+|-terastallize|p2a: Trudeau-king|Water
+|move|p1a: popcorn|Shadow Ball|p2a: Trudeau-king
+|-damage|p2a: Trudeau-king|51/100
+|-damage|p1a: popcorn|48/100|[from] item: Life Orb
+|move|p2a: Trudeau-king|Sludge Bomb|p1a: popcorn
+|-resisted|p1a: popcorn
+|-damage|p1a: popcorn|22/100
+|-status|p1a: popcorn|psn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: popcorn|9/100 psn|[from] psn
+|-damage|p1a: popcorn|0 fnt|[from] Salt Cure
+|faint|p1a: popcorn
+|upkeep
+|c|☆Former Pro|oh
+|c|☆Former Pro|100% poison chance
+|
+|t:|1743818219
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-damage|p1a: Iron Moth|76/100|[from] Stealth Rock
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|5
+|
+|t:|1743818281
+|switch|p2a: Plague Doctor|Corviknight, M|100/100
+|-ability|p2a: Plague Doctor|Pressure
+|move|p1a: Iron Moth|Solar Beam||[still]
+|-prepare|p1a: Iron Moth|Solar Beam
+|-anim|p1a: Iron Moth|Solar Beam|p2a: Plague Doctor
+|-resisted|p2a: Plague Doctor
+|-damage|p2a: Plague Doctor|87/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743818328
+|switch|p2a: Nurse|Weezing-Galar, F|100/100
+|-ability|p2a: Nurse|Neutralizing Gas
+|move|p1a: Iron Moth|Fiery Dance|p2a: Nurse
+|-damage|p2a: Nurse|18/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Nurse|24/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1743818348
+|move|p1a: Iron Moth|Fiery Dance|p2a: Nurse
+|-damage|p2a: Nurse|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Nurse
+|-end|p2a: Nurse|ability: Neutralizing Gas
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743818385
+|switch|p2a: Dr. Garg|Garganacl, M|100/100
+|turn|8
+|
+|t:|1743818414
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisspe
+|move|p2a: Dr. Garg|Protect||[still]
+|-fail|p2a: Dr. Garg
+|
+|-weather|none
+|-end|p1a: Great Tusk|Protosynthesis
+|upkeep
+|turn|9
+|
+|t:|1743818430
+|switch|p2a: Plague Doctor|Corviknight, M|87/100
+|-ability|p2a: Plague Doctor|Pressure
+|move|p1a: Great Tusk|Stealth Rock|p2a: Plague Doctor
+|-sidestart|p2: AxisPS|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|t:|1743818440
+|move|p1a: Great Tusk|Rapid Spin|p2a: Plague Doctor
+|-resisted|p2a: Plague Doctor
+|-damage|p2a: Plague Doctor|82/100
+|-boost|p1a: Great Tusk|spe|1
+|-damage|p1a: Great Tusk|81/100|[from] item: Rocky Helmet|[of] p2a: Plague Doctor
+|-sideend|p1: Former Pro|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Plague Doctor|Brave Bird|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|33/100
+|-damage|p2a: Plague Doctor|66/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|-damage|p2a: Plague Doctor|49/100|[from] Recoil
+|
+|upkeep
+|turn|11
+|
+|t:|1743818455
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Plague Doctor|Brave Bird|p1a: Ninetales
+|-damage|p1a: Ninetales|51/100
+|-damage|p2a: Plague Doctor|35/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743818523
+|switch|p1a: flowa|Comfey, M|100/100
+|switch|p2a: Dr. Garg|Garganacl, M|100/100
+|-damage|p2a: Dr. Garg|88/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dr. Garg|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743818532
+|move|p1a: flowa|Growth|p1a: flowa
+|-boost|p1a: flowa|atk|2
+|-boost|p1a: flowa|spa|2
+|move|p2a: Dr. Garg|Salt Cure|p1a: flowa
+|-damage|p1a: flowa|83/100
+|-start|p1a: flowa|Salt Cure
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dr. Garg|100/100|[from] item: Leftovers
+|-damage|p1a: flowa|71/100|[from] Salt Cure
+|upkeep
+|turn|14
+|
+|t:|1743818543
+|switch|p2a: Trudeau-king|Slowking-Galar, F, tera:Water|84/100
+|-damage|p2a: Trudeau-king|71/100|[from] Stealth Rock
+|move|p1a: flowa|Growth|p1a: flowa
+|-boost|p1a: flowa|atk|2
+|-boost|p1a: flowa|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: flowa|59/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1743818557
+|switch|p2a: Plague Doctor|Corviknight, M|35/100
+|-damage|p2a: Plague Doctor|23/100|[from] Stealth Rock
+|-ability|p2a: Plague Doctor|Pressure
+|move|p1a: flowa|Stored Power|p2a: Plague Doctor
+|-resisted|p2a: Plague Doctor
+|-damage|p2a: Plague Doctor|0 fnt
+|faint|p2a: Plague Doctor
+|-damage|p1a: flowa|49/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: flowa|36/100|[from] Salt Cure
+|upkeep
+|
+|t:|1743818585
+|switch|p2a: Trudeau-king|Slowking-Galar, F, tera:Water|100/100
+|-damage|p2a: Trudeau-king|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743818600
+|move|p1a: flowa|Stored Power|p2a: Trudeau-king
+|-crit|p2a: Trudeau-king
+|-damage|p2a: Trudeau-king|0 fnt
+|faint|p2a: Trudeau-king
+|-damage|p1a: flowa|26/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: flowa|14/100|[from] Salt Cure
+|upkeep
+|c|☆AxisPS|=/
+|c|☆Former Pro|idk if it mattered ngl
+|c|☆AxisPS|it did
+|c|☆Former Pro|it dealt 86 to 102%
+|c|☆AxisPS|74-88%
+|c|☆Former Pro|are u running max spdef
+|c|☆AxisPS|yes
+|c|☆Former Pro|diabolical
+|c|☆AxisPS|well now it's prob gg
+|
+|t:|1743818686
+|switch|p2a: Specialist|Dragapult, M|100/100
+|turn|17
+|c|☆AxisPS|yeah
+|c|☆Former Pro|:/
+|-message|AxisPS forfeited.
+|
+|win|Former Pro
+|l|☆AxisPS
+|player|p2|
+|c|☆Former Pro|oh

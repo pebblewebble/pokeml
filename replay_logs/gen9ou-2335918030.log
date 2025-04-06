@@ -1,0 +1,362 @@
+|j|☆brabrasese
+|j|☆sexybodygod
+|t:|1743858720
+|gametype|singles
+|player|p1|brabrasese|hilbert|1469
+|player|p2|sexybodygod|2|1504
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Rotom-Wash|
+|poke|p1|Dragapult, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Kyurem|
+|poke|p2|Empoleon, M|
+|poke|p2|Primarina, M|
+|poke|p2|Heatran, F|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by brabrasese)
+|inactive|sexybodygod has 120 seconds left.
+|inactive|sexybodygod has 90 seconds left.
+|inactive|sexybodygod has 60 seconds left.
+|
+|t:|1743858816
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Heatran|Heatran, F|100/100
+|-item|p2a: Heatran|Air Balloon
+|turn|1
+|
+|t:|1743858829
+|move|p1a: Dragapult|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|97/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|t:|1743858834
+|switch|p1a: Hatterene|Hatterene, F|100/100|[from] U-turn
+|move|p2a: Heatran|Magma Storm|p1a: Hatterene
+|-damage|p1a: Hatterene|41/100
+|-activate|p1a: Hatterene|move: Magma Storm|[of] p2a: Heatran
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1743858839
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743858856
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Taunt|p2a: Landorus
+|-start|p2a: Landorus|move: Taunt
+|
+|upkeep
+|turn|3
+|
+|t:|1743858862
+|move|p1a: Landorus|Stealth Rock|p2a: Landorus
+|-sidestart|p2: sexybodygod|move: Stealth Rock
+|move|p2a: Landorus|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|89/100
+|-damage|p2a: Landorus|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|t:|1743858864
+|switch|p2a: Heatran|Heatran, F|97/100|[from] U-turn
+|-damage|p2a: Heatran|84/100|[from] Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1743858872
+|move|p1a: Landorus|Taunt|p2a: Heatran
+|-start|p2a: Heatran|move: Taunt
+|move|p2a: Heatran|Magma Storm|p1a: Landorus
+|-damage|p1a: Landorus|27/100
+|-activate|p1a: Landorus|move: Magma Storm|[of] p2a: Heatran
+|
+|-damage|p1a: Landorus|14/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1743858878
+|switch|p2a: Landorus|Landorus-Therian, M|84/100
+|-damage|p2a: Landorus|72/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|68/100
+|-damage|p1a: Landorus|0 fnt|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743858883
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|6
+|
+|t:|1743858886
+|move|p1a: Dragapult|Draco Meteor|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743858890
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|-damage|p2a: Empoleon|94/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1743858895
+|switch|p1a: Hatterene|Hatterene, F|41/100
+|move|p2a: Empoleon|Stealth Rock|p1a: Hatterene
+|move|p1a: Hatterene|Stealth Rock||[from] ability: Magic Bounce|[still]
+|-fail|p1a: Hatterene
+|
+|-heal|p2a: Empoleon|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743858898
+|switch|p2a: Heatran|Heatran, F|84/100
+|-damage|p2a: Heatran|72/100|[from] Stealth Rock
+|move|p1a: Hatterene|Nuzzle|p2a: Heatran
+|-damage|p2a: Heatran|69/100
+|-status|p2a: Heatran|par
+|
+|upkeep
+|turn|9
+|
+|t:|1743858903
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|70/100
+|-activate|p1a: Rotom|move: Magma Storm|[of] p2a: Heatran
+|
+|-heal|p1a: Rotom|76/100|[from] item: Leftovers
+|-damage|p1a: Rotom|64/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|t:|1743858905
+|move|p1a: Rotom|Volt Switch|p2a: Heatran
+|-damage|p2a: Heatran|46/100 par
+|
+|t:|1743858909
+|switch|p1a: Hatterene|Hatterene, F|41/100|[from] Volt Switch
+|move|p2a: Heatran|Magma Storm|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1743858916
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|11
+|
+|t:|1743858945
+|move|p1a: Dragapult|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|2/100 par
+|cant|p2a: Heatran|par
+|
+|upkeep
+|turn|12
+|
+|t:|1743858949
+|move|p1a: Dragapult|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1743858950
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|-damage|p2a: Empoleon|94/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743858954
+|move|p1a: Dragapult|Shadow Ball|p2a: Empoleon
+|-damage|p2a: Empoleon|60/100
+|move|p2a: Empoleon|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: brabrasese|move: Stealth Rock
+|
+|-heal|p2a: Empoleon|66/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743858957
+|move|p1a: Dragapult|Shadow Ball|p2a: Empoleon
+|-damage|p2a: Empoleon|29/100
+|move|p2a: Empoleon|Roost|p2a: Empoleon
+|-heal|p2a: Empoleon|79/100
+|-singleturn|p2a: Empoleon|move: Roost
+|
+|-heal|p2a: Empoleon|85/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743858960
+|move|p1a: Dragapult|Shadow Ball|p2a: Empoleon
+|-damage|p2a: Empoleon|51/100
+|move|p2a: Empoleon|Ice Beam|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|34/100
+|
+|-heal|p2a: Empoleon|57/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743858963
+|move|p1a: Dragapult|Shadow Ball|p2a: Empoleon
+|-damage|p2a: Empoleon|24/100
+|move|p2a: Empoleon|Roost|p2a: Empoleon
+|-heal|p2a: Empoleon|74/100
+|-singleturn|p2a: Empoleon|move: Roost
+|
+|-heal|p2a: Empoleon|80/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743858966
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Empoleon|Ice Beam|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|81/100
+|
+|-heal|p2a: Empoleon|86/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743858968
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Empoleon|Surf|p1a: Kingambit
+|-damage|p1a: Kingambit|43/100
+|
+|-heal|p2a: Empoleon|92/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743858976
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Empoleon
+|-crit|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|
+|upkeep
+|
+|t:|1743858979
+|switch|p2a: Primarina|Primarina, M|100/100
+|-damage|p2a: Primarina|88/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743858985
+|move|p1a: Kingambit|Sucker Punch|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|33/100
+|move|p2a: Primarina|Moonblast|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|
+|-heal|p2a: Primarina|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743858988
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|21
+|
+|t:|1743859010
+|move|p1a: Rillaboom|Wood Hammer|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|-damage|p1a: Rillaboom|75/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|81/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743859013
+|switch|p2a: Kyurem|Kyurem|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|22
+|
+|t:|1743859018
+|move|p2a: Kyurem|Scale Shot|p1a: Rillaboom
+|-damage|p1a: Rillaboom|66/100
+|-damage|p1a: Rillaboom|50/100
+|-crit|p1a: Rillaboom
+|-damage|p1a: Rillaboom|25/100
+|-damage|p1a: Rillaboom|8/100
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-hitcount|p1: Rillaboom|5
+|-unboost|p2a: Kyurem|def|1
+|-boost|p2a: Kyurem|spe|1
+|
+|-heal|p2a: Kyurem|82/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743859021
+|switch|p1a: Rotom|Rotom-Wash|64/100
+|-damage|p1a: Rotom|51/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1743859027
+|move|p2a: Kyurem|Freeze-Dry|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-heal|p2a: Kyurem|88/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743859032
+|switch|p1a: Dragapult|Dragapult, M|34/100
+|-damage|p1a: Dragapult|22/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1743859034
+|-terastallize|p1a: Dragapult|Fairy
+|move|p2a: Kyurem|Icicle Spear|p1a: Dragapult
+|-damage|p1a: Dragapult|3/100
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-hitcount|p1: Dragapult|2
+|
+|win|sexybodygod
+|raw|brabrasese's rating: 1489 &rarr; <strong>1470</strong><br />(-19 for losing)
+|raw|sexybodygod's rating: 1504 &rarr; <strong>1523</strong><br />(+19 for winning)
+|l|☆sexybodygod
+|player|p2|
+|l|☆brabrasese
+|player|p1|

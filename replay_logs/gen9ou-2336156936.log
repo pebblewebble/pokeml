@@ -1,0 +1,185 @@
+|j|☆BugCatcherWeevil
+|j|☆YFN Ghetsis
+|t:|1743884641
+|gametype|singles
+|player|p1|BugCatcherWeevil|102|1663
+|player|p2|YFN Ghetsis|266|1595
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Iron Treads|
+|poke|p1|Pecharunt|
+|poke|p2|Iron Boulder|
+|poke|p2|Raging Bolt|
+|poke|p2|Araquanid, F|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Blaziken, F|
+|teampreview
+|
+|t:|1743884669
+|start
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p2a: Iron Boulder|Booster Energy
+|-activate|p2a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Boulder|quarkdriveatk
+|turn|1
+|
+|t:|1743884690
+|-terastallize|p1a: Araquanid|Ghost
+|move|p2a: Iron Boulder|Mighty Cleave|p1a: Araquanid
+|-damage|p1a: Araquanid|53/100
+|move|p1a: Araquanid|Liquidation|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|0 fnt
+|faint|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743884756
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|2
+|
+|t:|1743884804
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Cinderace
+|-damage|p1a: Cinderace|39/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743884839
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Araquanid
+|-damage|p2a: Araquanid|71/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743884861
+|move|p1a: Cinderace|Gunk Shot|p2a: Araquanid
+|-damage|p2a: Araquanid|27/100
+|move|p2a: Araquanid|Liquidation|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743884893
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|5
+|
+|t:|1743884899
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|75/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743884910
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|-item|p1a: Pecharunt|Air Balloon
+|move|p2a: Great Tusk|Ice Spinner|p1a: Pecharunt
+|-damage|p1a: Pecharunt|77/100
+|-enditem|p1a: Pecharunt|Air Balloon
+|
+|upkeep
+|turn|7
+|
+|t:|1743884925
+|move|p1a: Pecharunt|Malignant Chain|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|47/100
+|move|p2a: Great Tusk|Earthquake|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1743884952
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|8
+|
+|t:|1743884973
+|move|p2a: Great Tusk|Rapid Spin|p1a: Dragonite
+|-damage|p1a: Dragonite|89/100
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|9
+|
+|t:|1743884992
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Great Tusk|Ice Spinner|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|86/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743885001
+|move|p1a: Kingambit|Sucker Punch|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|24/100
+|move|p2a: Great Tusk|Close Combat|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|
+|upkeep
+|
+|t:|1743885025
+|switch|p1a: Dragonite|Dragonite, M|89/100
+|turn|11
+|
+|t:|1743885056
+|move|p2a: Great Tusk|Ice Spinner|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|-message|BugCatcherWeevil forfeited.
+|
+|win|YFN Ghetsis
+|raw|BugCatcherWeevil's rating: 1663 &rarr; <strong>1639</strong><br />(-24 for losing)
+|raw|YFN Ghetsis's rating: 1595 &rarr; <strong>1619</strong><br />(+24 for winning)
+|l|☆BugCatcherWeevil
+|player|p1|
+|l|☆YFN Ghetsis
+|player|p2|

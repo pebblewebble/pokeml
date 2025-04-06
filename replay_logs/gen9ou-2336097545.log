@@ -1,0 +1,303 @@
+|j|☆Shubway
+|j|☆BadTeamSimulator
+|t:|1743878546
+|gametype|singles
+|player|p1|Shubway|2|1241
+|player|p2|BadTeamSimulator|zinzolin|1190
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Froslass, F|
+|poke|p1|Glimmora, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Zapdos|
+|poke|p2|Moltres|
+|poke|p2|Araquanid, M|
+|poke|p2|Tentacruel, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Venomoth, F|
+|poke|p2|Quaquaval, M|
+|teampreview
+|
+|t:|1743878578
+|start
+|switch|p1a: Froslass|Froslass, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Froslass|atk|1
+|turn|1
+|
+|t:|1743878585
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|move|p1a: Froslass|Will-O-Wisp|p2a: Tentacruel
+|-status|p2a: Tentacruel|brn
+|
+|-damage|p2a: Tentacruel|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1743878599
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|move|p2a: Tentacruel|Whirlpool|p1a: Goodra|[miss]
+|-miss|p2a: Tentacruel|p1a: Goodra
+|
+|-heal|p2a: Tentacruel|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743878607
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Goodra|atk|1
+|move|p1a: Goodra|Thunderbolt|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|4
+|
+|t:|1743878610
+|-terastallize|p1a: Goodra|Water
+|move|p2a: Landorus|Stealth Rock|p1a: Goodra
+|-sidestart|p1: Shubway|move: Stealth Rock
+|move|p1a: Goodra|Surf|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743878621
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|turn|5
+|
+|t:|1743878625
+|move|p1a: Goodra|Thunderbolt|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|66/100
+|move|p2a: Araquanid|Leech Life|p1a: Goodra
+|-damage|p1a: Goodra|73/100
+|-heal|p2a: Araquanid|81/100|[from] drain|[of] p1a: Goodra
+|
+|upkeep
+|turn|6
+|
+|t:|1743878640
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Araquanid|Leech Life|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|82/100
+|-heal|p2a: Araquanid|90/100|[from] drain|[of] p1a: Zapdos
+|-status|p2a: Araquanid|par|[from] ability: Static|[of] p1a: Zapdos
+|
+|upkeep
+|turn|7
+|
+|t:|1743878644
+|move|p1a: Zapdos|Discharge|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|43/100 par
+|move|p2a: Araquanid|Liquidation|p1a: Zapdos
+|-damage|p1a: Zapdos|9/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743878652
+|move|p1a: Zapdos|Discharge|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|3/100 par
+|move|p2a: Araquanid|Liquidation|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1743878659
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|-damage|p1a: Glimmora|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743878662
+|switch|p2a: Tentacruel|Tentacruel, M|94/100 brn
+|move|p1a: Glimmora|Mortal Spin|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|91/100 brn
+|-sideend|p1: Shubway|Stealth Rock|[from] move: Mortal Spin|[of] p1a: Glimmora
+|
+|-heal|p2a: Tentacruel|97/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|91/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743878674
+|move|p1a: Glimmora|Earth Power|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|53/100 brn
+|move|p2a: Tentacruel|Whirlpool|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|60/100
+|-activate|p1a: Glimmora|move: Whirlpool|[of] p2a: Tentacruel
+|
+|-heal|p2a: Tentacruel|59/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|53/100 brn|[from] brn
+|-damage|p1a: Glimmora|48/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|11
+|
+|t:|1743878679
+|move|p1a: Glimmora|Earth Power|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|18/100 brn
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Glimmora
+|-sidestart|p1: Shubway|move: Toxic Spikes
+|
+|-heal|p2a: Tentacruel|24/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|18/100 brn|[from] brn
+|-damage|p1a: Glimmora|35/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|t:|1743878687
+|move|p1a: Glimmora|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: BadTeamSimulator|move: Stealth Rock
+|move|p2a: Tentacruel|Whirlpool|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|9/100
+|
+|-heal|p2a: Tentacruel|24/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|18/100 brn|[from] brn
+|-damage|p1a: Glimmora|0 fnt|[from] move: Whirlpool|[partiallytrapped]
+|faint|p1a: Glimmora
+|upkeep
+|
+|t:|1743878705
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|13
+|
+|t:|1743878709
+|move|p1a: Cinderace|Swords Dance|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-boost|p1a: Cinderace|atk|2
+|move|p2a: Tentacruel|Rapid Spin|p1a: Cinderace
+|-damage|p1a: Cinderace|95/100
+|-boost|p2a: Tentacruel|spe|1
+|-sideend|p2: BadTeamSimulator|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|-heal|p2a: Tentacruel|24/100 brn|[from] item: Black Sludge
+|-damage|p2a: Tentacruel|18/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743878718
+|move|p1a: Cinderace|Headbutt|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|upkeep
+|
+|t:|1743878720
+|switch|p2a: Moltres|Moltres|100/100
+|turn|15
+|
+|t:|1743878726
+|move|p1a: Cinderace|Headbutt|p2a: Moltres
+|-damage|p2a: Moltres|51/100
+|-status|p1a: Cinderace|brn|[from] ability: Flame Body|[of] p2a: Moltres
+|move|p2a: Moltres|Roar|p1a: Cinderace
+|drag|p1a: Froslass|Froslass, F|100/100
+|-status|p1a: Froslass|psn
+|
+|-damage|p1a: Froslass|88/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743878749
+|move|p1a: Froslass|Ice Beam|p2a: Moltres
+|-damage|p2a: Moltres|13/100
+|move|p2a: Moltres|U-turn|p1a: Froslass
+|-resisted|p1a: Froslass
+|-damage|p1a: Froslass|76/100 psn
+|
+|t:|1743878754
+|switch|p2a: Venomoth|Venomoth, F|100/100|[from] U-turn
+|
+|-damage|p1a: Froslass|63/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1743878760
+|switch|p1a: Cinderace|Cinderace, F|95/100 brn
+|-terastallize|p2a: Venomoth|Fire
+|move|p2a: Venomoth|Quiver Dance|p2a: Venomoth
+|-boost|p2a: Venomoth|spa|1
+|-boost|p2a: Venomoth|spd|1
+|-boost|p2a: Venomoth|spe|1
+|
+|-damage|p1a: Cinderace|89/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743878764
+|move|p2a: Venomoth|Quiver Dance|p2a: Venomoth
+|-boost|p2a: Venomoth|spa|1
+|-boost|p2a: Venomoth|spd|1
+|-boost|p2a: Venomoth|spe|1
+|move|p1a: Cinderace|Headbutt|p2a: Venomoth
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-damage|p2a: Venomoth|71/100
+|
+|-damage|p1a: Cinderace|83/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1743878774
+|switch|p1a: Goodra|Goodra-Hisui, F, tera:Water|73/100
+|-status|p1a: Goodra|psn
+|move|p2a: Venomoth|Bug Buzz|p1a: Goodra
+|-damage|p1a: Goodra|38/100 psn
+|
+|-damage|p1a: Goodra|25/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1743878777
+|move|p2a: Venomoth|Bug Buzz|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|upkeep
+|
+|t:|1743878784
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|-status|p1a: Grimmsnarl|psn
+|turn|21
+|
+|t:|1743878786
+|move|p2a: Venomoth|Sludge Wave|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|-message|Shubway forfeited.
+|
+|win|BadTeamSimulator
+|raw|Shubway's rating: 1241 &rarr; <strong>1212</strong><br />(-29 for losing)
+|raw|BadTeamSimulator's rating: 1190 &rarr; <strong>1219</strong><br />(+29 for winning)
+|l|☆Shubway
+|player|p1|
+|l|☆BadTeamSimulator
+|player|p2|

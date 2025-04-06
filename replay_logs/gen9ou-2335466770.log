@@ -1,0 +1,419 @@
+|j|☆sarl7
+|j|☆Kaiser_2410
+|t:|1743796891
+|gametype|singles
+|player|p1|sarl7|saturn|1344
+|player|p2|Kaiser_2410|riley|1371
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Infernape, F|
+|poke|p1|Spiritomb, F|
+|poke|p1|Ting-Lu|
+|poke|p1|Quaquaval, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Iron Moth|
+|poke|p2|Pecharunt|
+|poke|p2|Great Tusk|
+|poke|p2|Kingambit, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Primarina, F|
+|poke|p2|Raging Bolt|
+|teampreview
+|
+|t:|1743796930
+|start
+|switch|p1a: Spiritomb|Spiritomb, F|100/100
+|switch|p2a: Primarina|Primarina, F|100/100
+|-ability|p1a: Spiritomb|Pressure
+|turn|1
+|
+|t:|1743796936
+|move|p2a: Primarina|Substitute|p2a: Primarina
+|-start|p2a: Primarina|Substitute
+|-damage|p2a: Primarina|75/100
+|move|p1a: Spiritomb|Toxic||[still]
+|-fail|p1a: Spiritomb
+|
+|-heal|p2a: Primarina|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743796952
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Primarina|Calm Mind|p2a: Primarina
+|-boost|p2a: Primarina|spa|1
+|-boost|p2a: Primarina|spd|1
+|
+|-heal|p2a: Primarina|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743796957
+|move|p2a: Primarina|Psychic Noise|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|58/100
+|-start|p1a: Ting-Lu|move: Heal Block
+|move|p1a: Ting-Lu|Whirlwind|p2a: Primarina
+|drag|p2a: Raging Bolt|Raging Bolt|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743796968
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Enamorus
+|-sidestart|p2: Kaiser_2410|move: Stealth Rock
+|
+|-end|p1a: Ting-Lu|move: Heal Block
+|upkeep
+|turn|5
+|
+|t:|1743796974
+|switch|p1a: Spiritomb|Spiritomb, F|100/100
+|-ability|p1a: Spiritomb|Pressure
+|move|p2a: Enamorus|Earth Power|p1a: Spiritomb
+|-damage|p1a: Spiritomb|68/100
+|
+|-heal|p1a: Spiritomb|74/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743796981
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-damage|p2a: Pecharunt|88/100|[from] Stealth Rock
+|-item|p2a: Pecharunt|Air Balloon
+|move|p1a: Spiritomb|Toxic|p2a: Pecharunt
+|-immune|p2a: Pecharunt
+|
+|-heal|p1a: Spiritomb|80/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743796985
+|move|p2a: Pecharunt|Malignant Chain|p1a: Spiritomb
+|-resisted|p1a: Spiritomb
+|-damage|p1a: Spiritomb|59/100
+|-status|p1a: Spiritomb|tox
+|-start|p1a: Spiritomb|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|-activate|p1a: Spiritomb|confusion
+|-damage|p1a: Spiritomb|52/100 tox|[from] confusion
+|
+|-heal|p1a: Spiritomb|58/100 tox|[from] item: Leftovers
+|-damage|p1a: Spiritomb|52/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743796992
+|move|p2a: Pecharunt|Hex|p1a: Spiritomb
+|-damage|p1a: Spiritomb|0 fnt
+|faint|p1a: Spiritomb
+|
+|upkeep
+|
+|t:|1743797013
+|switch|p1a: Ting-Lu|Ting-Lu|58/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|9
+|
+|t:|1743797018
+|move|p2a: Pecharunt|Malignant Chain|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|50/100
+|-status|p1a: Ting-Lu|tox
+|-start|p1a: Ting-Lu|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|-activate|p1a: Ting-Lu|confusion
+|move|p1a: Ting-Lu|Ruination|p2a: Pecharunt
+|-damage|p2a: Pecharunt|44/100
+|-enditem|p2a: Pecharunt|Air Balloon
+|
+|-heal|p1a: Ting-Lu|56/100 tox|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|50/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743797026
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|95/100
+|-activate|p1a: Ting-Lu|confusion
+|move|p1a: Ting-Lu|Whirlwind|p2a: Pecharunt
+|drag|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Raging Bolt|94/100|[from] item: Leftovers
+|-heal|p1a: Ting-Lu|56/100 tox|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|44/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743797037
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|-end|p1a: Ting-Lu|confusion
+|move|p1a: Ting-Lu|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|75/100
+|
+|-heal|p1a: Ting-Lu|50/100 tox|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|31/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743797044
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|upkeep
+|turn|13
+|
+|t:|1743797051
+|switch|p1a: Ting-Lu|Ting-Lu|31/100 tox
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Great Tusk|Ice Spinner|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743797053
+|switch|p1a: Infernape|Infernape, F|100/100
+|turn|14
+|
+|t:|1743797059
+|move|p1a: Infernape|Switcheroo|p2a: Great Tusk
+|-activate|p1a: Infernape|move: Trick|[of] p2a: Great Tusk
+|-item|p2a: Great Tusk|Choice Scarf|[from] move: Switcheroo
+|-enditem|p1a: Infernape|Choice Scarf|[silent]|[from] move: Switcheroo
+|move|p2a: Great Tusk|Rapid Spin|p1a: Infernape
+|-damage|p1a: Infernape|66/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Kaiser_2410|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|15
+|
+|t:|1743797070
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|upkeep
+|turn|16
+|
+|t:|1743797079
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Primarina|Primarina, F|88/100
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|-heal|p2a: Primarina|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743797097
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|move|p2a: Primarina|Draining Kiss|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-crit|p1a: Iron Moth
+|-damage|p1a: Iron Moth|93/100
+|-heal|p2a: Primarina|98/100|[from] drain|[of] p1a: Iron Moth
+|
+|-heal|p2a: Primarina|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743797111
+|switch|p2a: Pecharunt|Pecharunt|95/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Pecharunt
+|-damage|p2a: Pecharunt|41/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743797119
+|move|p1a: Iron Moth|Fiery Dance|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|t:|1743797124
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|20
+|
+|t:|1743797139
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Infernape|Infernape, F|66/100
+|move|p2a: Enamorus|Earth Power|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|upkeep
+|
+|t:|1743797169
+|switch|p1a: Iron Moth|Iron Moth|93/100
+|turn|21
+|
+|t:|1743797175
+|-terastallize|p1a: Iron Moth|Grass
+|move|p2a: Enamorus|Earth Power|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|77/100
+|move|p1a: Iron Moth|Sludge Wave|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|upkeep
+|
+|t:|1743797182
+|switch|p2a: Great Tusk|Great Tusk|75/100
+|turn|22
+|
+|t:|1743797196
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Quaquaval|Quaquaval, M|100/100
+|move|p2a: Great Tusk|Ice Spinner|p1a: Quaquaval
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|87/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743797212
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Primarina|Primarina, F|100/100
+|switch|p1a: Iron Moth|Iron Moth, tera:Grass|77/100
+|
+|upkeep
+|turn|24
+|
+|t:|1743797222
+|switch|p2a: Raging Bolt|Raging Bolt|94/100
+|move|p1a: Iron Moth|Sludge Wave|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|41/100
+|
+|-heal|p2a: Raging Bolt|48/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1743797233
+|move|p1a: Iron Moth|Sludge Wave|p2a: Raging Bolt
+|-crit|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743797246
+|switch|p2a: Great Tusk|Great Tusk|75/100
+|turn|26
+|
+|t:|1743797251
+|move|p2a: Great Tusk|Ice Spinner|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743797255
+|switch|p1a: Quaquaval|Quaquaval, M|87/100
+|turn|27
+|
+|t:|1743797260
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Primarina|Primarina, F|100/100
+|move|p1a: Quaquaval|Swords Dance|p1a: Quaquaval
+|-boost|p1a: Quaquaval|atk|2
+|
+|upkeep
+|turn|28
+|
+|t:|1743797263
+|move|p1a: Quaquaval|Aqua Step|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|68/100
+|-boost|p1a: Quaquaval|spe|1
+|move|p2a: Primarina|Draining Kiss|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-damage|p1a: Quaquaval|32/100
+|-heal|p2a: Primarina|100/100|[from] drain|[of] p1a: Quaquaval
+|
+|upkeep
+|turn|29
+|
+|t:|1743797273
+|move|p1a: Quaquaval|Close Combat|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|49/100
+|-unboost|p1a: Quaquaval|def|1
+|-unboost|p1a: Quaquaval|spd|1
+|move|p2a: Primarina|Draining Kiss|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|-heal|p2a: Primarina|71/100|[from] drain|[of] p1a: Quaquaval
+|faint|p1a: Quaquaval
+|
+|-heal|p2a: Primarina|77/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743797277
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|30
+|
+|t:|1743797280
+|move|p1a: Dragapult|Thunderbolt|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|21/100
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|move|p2a: Primarina|Draining Kiss|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|30/100
+|-heal|p2a: Primarina|61/100|[from] drain|[of] p1a: Dragapult
+|
+|-heal|p2a: Primarina|67/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1743797286
+|move|p1a: Dragapult|Thunderbolt|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|4/100
+|-damage|p1a: Dragapult|20/100|[from] item: Life Orb
+|move|p2a: Primarina|Draining Kiss|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-heal|p2a: Primarina|17/100|[from] drain|[of] p1a: Dragapult
+|faint|p1a: Dragapult
+|
+|win|Kaiser_2410
+|raw|sarl7's rating: 1344 &rarr; <strong>1326</strong><br />(-18 for losing)
+|raw|Kaiser_2410's rating: 1371 &rarr; <strong>1389</strong><br />(+18 for winning)
+|l|☆Kaiser_2410
+|player|p2|
+|l|☆sarl7
+|player|p1|

@@ -1,0 +1,514 @@
+|j|☆Dr. Drake6782
+|j|☆Get knotted
+|t:|1743807754
+|gametype|singles
+|player|p1|Dr. Drake6782|lance-lgpe|1517
+|player|p2|Get knotted|102|1537
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Alomomola, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Garganacl, M|
+|poke|p1|Kyurem|
+|poke|p1|Zamazenta-*|
+|poke|p1|Ting-Lu|
+|poke|p2|Iron Treads|
+|poke|p2|Pelipper, F|
+|poke|p2|Kingdra, F|
+|poke|p2|Rillaboom, F|
+|poke|p2|Basculegion, M|
+|poke|p2|Raging Bolt|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dr. Drake6782)
+|
+|t:|1743807772
+|start
+|switch|p1a: Kyurem|Kyurem, shiny|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-ability|p1a: Kyurem|Pressure
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1743807781
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Iron Treads|Stealth Rock|p1a: Ting-Lu
+|-sidestart|p1: Dr. Drake6782|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743807785
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: Get knotted|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743807795
+|-terastallize|p1a: Ting-Lu|Ghost
+|move|p2a: Pelipper|Weather Ball|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|82/100
+|move|p1a: Ting-Lu|Ruination|p2a: Pelipper
+|-damage|p2a: Pelipper|51/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ting-Lu|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743807814
+|move|p2a: Pelipper|U-turn|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|85/100
+|
+|t:|1743807821
+|switch|p2a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|-damage|p2a: Basculegion|88/100|[from] Stealth Rock
+|move|p1a: Ting-Lu|Whirlwind|p2a: Basculegion
+|drag|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ting-Lu|91/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743807831
+|move|p2a: Raging Bolt|Weather Ball|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|67/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-enditem|p2a: Raging Bolt|Shuca Berry|[eat]
+|-enditem|p2a: Raging Bolt|Shuca Berry|[weaken]
+|-damage|p2a: Raging Bolt|54/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ting-Lu|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743807837
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-damage|p2a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Ting-Lu|Earthquake|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|79/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|85/100|[from] Grassy Terrain
+|-heal|p1a: Ting-Lu|79/100|[from] Grassy Terrain
+|-heal|p1a: Ting-Lu|86/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743807842
+|move|p2a: Rillaboom|Wood Hammer|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|41/100
+|-damage|p2a: Rillaboom|67/100|[from] Recoil
+|move|p1a: Ting-Lu|Ruination|p2a: Rillaboom
+|-damage|p2a: Rillaboom|34/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|40/100|[from] Grassy Terrain
+|-heal|p1a: Ting-Lu|47/100|[from] Grassy Terrain
+|-heal|p1a: Ting-Lu|53/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743807849
+|switch|p1a: Weezing|Weezing-Galar, M, shiny|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Rillaboom|Wood Hammer|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|71/100
+|-damage|p2a: Rillaboom|32/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|38/100|[from] Grassy Terrain
+|-heal|p1a: Weezing|77/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1743807856
+|move|p2a: Rillaboom|U-turn|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|73/100
+|
+|t:|1743807858
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|move|p1a: Weezing|Strange Steam|p2a: Iron Treads|[miss]
+|-miss|p1a: Weezing|p2a: Iron Treads
+|
+|-weather|none
+|-heal|p2a: Iron Treads|100/100|[from] Grassy Terrain
+|-heal|p1a: Weezing|79/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1743807867
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Iron Treads|Earth Power|p1a: Alomomola
+|-damage|p1a: Alomomola|69/100
+|
+|-heal|p1a: Alomomola|75/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1743807875
+|move|p2a: Iron Treads|Rapid Spin|p1a: Alomomola
+|-damage|p1a: Alomomola|69/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: Get knotted|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|12
+|
+|t:|1743807886
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Rillaboom|Rillaboom, F|38/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Alomomola|Flip Turn|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|30/100
+|
+|t:|1743807889
+|switch|p1a: Ting-Lu|Ting-Lu, tera:Ghost|53/100|[from] Flip Turn
+|-damage|p1a: Ting-Lu|41/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|
+|-heal|p1a: Ting-Lu|87/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Rillaboom|36/100|[from] Grassy Terrain
+|-heal|p1a: Ting-Lu|93/100|[from] Grassy Terrain
+|-heal|p1a: Ting-Lu|99/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743807894
+|switch|p1a: Weezing|Weezing-Galar, M, shiny|79/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Rillaboom|Wood Hammer|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|51/100
+|-damage|p2a: Rillaboom|29/100|[from] Recoil
+|
+|-heal|p2a: Rillaboom|35/100|[from] Grassy Terrain
+|-heal|p1a: Weezing|57/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1743807902
+|move|p2a: Rillaboom|U-turn|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|53/100
+|
+|t:|1743807904
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|move|p1a: Weezing|Pain Split|p2a: Iron Treads
+|-sethp|p2a: Iron Treads|78/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|75/100|[from] move: Pain Split
+|
+|-heal|p2a: Iron Treads|84/100|[from] Grassy Terrain
+|-heal|p1a: Weezing|81/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1743807911
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Pelipper|Pelipper, F|51/100
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|switch|p1a: Ting-Lu|Ting-Lu, tera:Ghost|99/100
+|-damage|p1a: Ting-Lu|87/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ting-Lu|93/100|[from] Grassy Terrain
+|-heal|p1a: Ting-Lu|99/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|Dr. Drake6782 has 120 seconds left.
+|inactive|Dr. Drake6782 has 90 seconds left.
+|
+|t:|1743807981
+|move|p2a: Pelipper|U-turn|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|97/100
+|
+|t:|1743807983
+|switch|p2a: Rillaboom|Rillaboom, F|35/100|[from] U-turn
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Rillaboom
+|-sidestart|p2: Get knotted|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|41/100|[from] Grassy Terrain
+|-heal|p1a: Ting-Lu|100/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|17
+|inactive|Dr. Drake6782 has 90 seconds left.
+|
+|t:|1743807989
+|move|p2a: Rillaboom|Wood Hammer|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|61/100
+|-damage|p2a: Rillaboom|25/100|[from] Recoil
+|move|p1a: Ting-Lu|Earthquake|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|6/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ting-Lu|67/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|Dr. Drake6782 has 90 seconds left.
+|
+|t:|1743808008
+|switch|p1a: Weezing|Weezing-Galar, M, shiny|81/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Rillaboom|U-turn|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|76/100
+|
+|t:|1743808012
+|switch|p2a: Iron Treads|Iron Treads|84/100|[from] U-turn
+|-damage|p2a: Iron Treads|81/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743808021
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|54/100
+|-damage|p2a: Raging Bolt|42/100|[from] Stealth Rock
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1743808029
+|switch|p1a: Kyurem|Kyurem, shiny|100/100
+|-damage|p1a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743808035
+|move|p2a: Raging Bolt|Thunderclap|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|48/100
+|move|p1a: Kyurem|Freeze-Dry|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|inactive|Get knotted has 120 seconds left.
+|
+|t:|1743808065
+|switch|p2a: Iron Treads|Iron Treads|81/100
+|-damage|p2a: Iron Treads|78/100|[from] Stealth Rock
+|turn|22
+|inactive|Dr. Drake6782 has 120 seconds left.
+|inactive|Get knotted has 120 seconds left.
+|
+|t:|1743808099
+|switch|p1a: Ting-Lu|Ting-Lu, tera:Ghost|67/100
+|-damage|p1a: Ting-Lu|55/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Iron Treads|Rapid Spin|p1a: Ting-Lu
+|-immune|p1a: Ting-Lu
+|
+|-weather|none
+|-heal|p1a: Ting-Lu|61/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|Get knotted has 120 seconds left.
+|
+|t:|1743808111
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Rillaboom|Rillaboom, F|6/100
+|-damage|p2a: Rillaboom|0 fnt|[from] Stealth Rock
+|faint|p2a: Rillaboom
+|move|p1a: Ting-Lu|Earthquake|p2: Rillaboom|[notarget]
+|-fail|p1a: Ting-Lu
+|
+|-heal|p1a: Ting-Lu|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743808114
+|switch|p2a: Pelipper|Pelipper, F|51/100
+|-damage|p2a: Pelipper|26/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|24
+|inactive|Dr. Drake6782 has 90 seconds left.
+|inactive|Dr. Drake6782 has 60 seconds left.
+|
+|t:|1743808195
+|move|p2a: Pelipper|Roost|p2a: Pelipper
+|-heal|p2a: Pelipper|76/100
+|-singleturn|p2a: Pelipper|move: Roost
+|move|p1a: Ting-Lu|Whirlwind|p2a: Pelipper
+|drag|p2a: Basculegion|Basculegion, M|88/100
+|-damage|p2a: Basculegion|76/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ting-Lu|73/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1743808207
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-terastallize|p2a: Basculegion|Water
+|move|p2a: Basculegion|Wave Crash|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|50/100
+|-damage|p2a: Basculegion|55/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1743808214
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Basculegion|Wave Crash|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1743808219
+|switch|p1a: Garganacl|Garganacl, M, shiny|100/100
+|-damage|p1a: Garganacl|88/100|[from] Stealth Rock
+|move|p2a: Basculegion|Wave Crash|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|-damage|p2a: Basculegion|25/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743808222
+|switch|p1a: Alomomola|Alomomola, M|83/100
+|turn|28
+|
+|t:|1743808225
+|switch|p2a: Iron Treads|Iron Treads|78/100
+|-damage|p2a: Iron Treads|75/100|[from] Stealth Rock
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|29
+|
+|t:|1743808245
+|move|p2a: Iron Treads|Earth Power|p1a: Alomomola
+|-damage|p1a: Alomomola|55/100
+|move|p1a: Alomomola|Flip Turn|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|29/100
+|
+|t:|1743808260
+|switch|p1a: Kyurem|Kyurem, shiny|48/100|[from] Flip Turn
+|-damage|p1a: Kyurem|23/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Pressure
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Kyurem|84/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|30
+|
+|t:|1743808268
+|move|p1a: Kyurem|Freeze-Dry|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743808273
+|switch|p2a: Kingdra|Kingdra, F|100/100
+|-damage|p2a: Kingdra|88/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1743808279
+|switch|p1a: Weezing|Weezing-Galar, M, shiny|76/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Kingdra|Draco Meteor|p1a: Weezing
+|-immune|p1a: Weezing
+|
+|-weather|none
+|upkeep
+|turn|32
+|
+|t:|1743808299
+|move|p2a: Kingdra|Hydro Pump|p1a: Weezing|[miss]
+|-miss|p2a: Kingdra|p1a: Weezing
+|move|p1a: Weezing|Strange Steam|p2a: Kingdra
+|-supereffective|p2a: Kingdra
+|-damage|p2a: Kingdra|18/100
+|
+|upkeep
+|turn|33
+|inactive|Dr. Drake6782 has 90 seconds left.
+|inactive|Dr. Drake6782 has 60 seconds left.
+|
+|t:|1743808362
+|move|p2a: Kingdra|Hydro Pump|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-damage|p2a: Kingdra|8/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743808366
+|switch|p1a: Kyurem|Kyurem, shiny|84/100
+|-damage|p1a: Kyurem|59/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Pressure
+|turn|34
+|c|☆Dr. Drake6782|ggs?
+|-message|Get knotted forfeited.
+|
+|win|Dr. Drake6782
+|raw|Dr. Drake6782's rating: 1517 &rarr; <strong>1538</strong><br />(+21 for winning)
+|raw|Get knotted's rating: 1537 &rarr; <strong>1516</strong><br />(-21 for losing)
+|l|☆Get knotted
+|player|p2|

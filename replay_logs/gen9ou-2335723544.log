@@ -1,0 +1,274 @@
+|j|☆Assumpcao_fs
+|j|☆EywaOW
+|t:|1743826264
+|gametype|singles
+|player|p1|Assumpcao_fs|gentleman-gen4|1101
+|player|p2|EywaOW|roxie|1051
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Delphox, M|
+|poke|p1|Salamence, M|
+|poke|p1|Tsareena, F|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Clawitzer, F|
+|poke|p1|Golurk|
+|poke|p2|Walking Wake|
+|poke|p2|Duraludon, M|
+|poke|p2|Donphan, F|
+|poke|p2|Gliscor, M|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Vileplume, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by EywaOW)
+|
+|t:|1743826272
+|start
+|switch|p1a: Golurk|Golurk|100/100
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-enditem|p2a: Walking Wake|Booster Energy
+|-activate|p2a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|1
+|
+|t:|1743826286
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Walking Wake|Agility|p2a: Walking Wake
+|-boost|p2a: Walking Wake|spe|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743826301
+|-terastallize|p2a: Walking Wake|Fairy
+|move|p2a: Walking Wake|Flamethrower|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|3/100
+|move|p1a: Ninetales|Blizzard|p2a: Walking Wake
+|-damage|p2a: Walking Wake|55/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Ninetales|9/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743826328
+|move|p2a: Walking Wake|Surf|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743826331
+|switch|p1a: Salamence|Salamence, M|100/100
+|turn|4
+|
+|t:|1743826334
+|-terastallize|p1a: Salamence|Steel
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|61/100
+|move|p1a: Salamence|Iron Head|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|-damage|p1a: Salamence|51/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743826345
+|switch|p2a: Vileplume|Vileplume, F|100/100
+|turn|5
+|
+|t:|1743826350
+|move|p1a: Salamence|Dual Wingbeat|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|-hitcount|p2: Vileplume|1
+|-damage|p1a: Salamence|41/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1743826364
+|switch|p2a: Donphan|Donphan, F|100/100
+|turn|6
+|
+|t:|1743826369
+|move|p1a: Salamence|Dragon Claw|p2a: Donphan
+|-damage|p2a: Donphan|15/100
+|-damage|p1a: Salamence|31/100|[from] item: Life Orb
+|move|p2a: Donphan|Earthquake|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|upkeep
+|
+|t:|1743826378
+|switch|p1a: Clawitzer|Clawitzer, F|100/100
+|turn|7
+|
+|t:|1743826384
+|move|p2a: Donphan|Ice Shard|p1a: Clawitzer
+|-resisted|p1a: Clawitzer
+|-damage|p1a: Clawitzer|90/100
+|move|p1a: Clawitzer|Ice Beam|p2a: Donphan
+|-supereffective|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|upkeep
+|
+|t:|1743826393
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|8
+|
+|t:|1743826396
+|move|p2a: Thundurus|Grass Knot|p1a: Clawitzer
+|-supereffective|p1a: Clawitzer
+|-crit|p1a: Clawitzer
+|-damage|p1a: Clawitzer|0 fnt
+|faint|p1a: Clawitzer
+|
+|upkeep
+|
+|t:|1743826404
+|switch|p1a: Golurk|Golurk|100/100
+|turn|9
+|
+|t:|1743826408
+|move|p2a: Thundurus|Grass Knot|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|
+|upkeep
+|
+|t:|1743826420
+|switch|p1a: Delphox|Delphox, M, shiny|100/100
+|turn|10
+|
+|t:|1743826426
+|move|p1a: Delphox|Calm Mind|p1a: Delphox
+|-boost|p1a: Delphox|spa|1
+|-boost|p1a: Delphox|spd|1
+|move|p2a: Thundurus|Volt Switch|p1a: Delphox
+|-damage|p1a: Delphox|68/100
+|
+|t:|1743826431
+|switch|p2a: Gliscor|Gliscor, M|100/100|[from] Volt Switch
+|
+|-heal|p1a: Delphox|74/100|[from] item: Leftovers
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|11
+|
+|t:|1743826447
+|move|p1a: Delphox|Flamethrower|p2a: Gliscor
+|-damage|p2a: Gliscor|2/100 tox
+|move|p2a: Gliscor|Fling|p1a: Delphox
+|-supereffective|p1a: Delphox
+|-damage|p1a: Delphox|48/100
+|-status|p1a: Delphox|tox
+|-enditem|p2a: Gliscor|Toxic Orb|[from] move: Fling
+|
+|-heal|p1a: Delphox|54/100 tox|[from] item: Leftovers
+|-damage|p1a: Delphox|48/100 tox|[from] psn
+|-heal|p2a: Gliscor|14/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|t:|1743826460
+|move|p1a: Delphox|Flamethrower|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-heal|p1a: Delphox|54/100 tox|[from] item: Leftovers
+|-damage|p1a: Delphox|42/100 tox|[from] psn
+|upkeep
+|
+|t:|1743826468
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|13
+|
+|t:|1743826473
+|move|p1a: Delphox|Flamethrower|p2a: Thundurus
+|-damage|p2a: Thundurus|8/100
+|move|p2a: Thundurus|Thunderbolt|p1a: Delphox
+|-damage|p1a: Delphox|2/100 tox
+|
+|-heal|p1a: Delphox|8/100 tox|[from] item: Leftovers
+|-damage|p1a: Delphox|0 fnt|[from] psn
+|faint|p1a: Delphox
+|upkeep
+|
+|t:|1743826479
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|turn|14
+|
+|t:|1743826487
+|move|p2a: Thundurus|Focus Blast|p1a: Tsareena|[miss]
+|-miss|p2a: Thundurus|p1a: Tsareena
+|move|p1a: Tsareena|High Jump Kick|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|upkeep
+|
+|t:|1743826493
+|switch|p2a: Duraludon|Duraludon, M, shiny|100/100
+|turn|15
+|
+|t:|1743826499
+|move|p1a: Tsareena|High Jump Kick|p2a: Duraludon
+|-supereffective|p2a: Duraludon
+|-damage|p2a: Duraludon|52/100
+|move|p2a: Duraludon|Thunder Wave|p1a: Tsareena
+|-status|p1a: Tsareena|par
+|
+|upkeep
+|turn|16
+|
+|t:|1743826508
+|move|p2a: Duraludon|Dragon Pulse|p1a: Tsareena
+|-damage|p1a: Tsareena|43/100 par
+|cant|p1a: Tsareena|par
+|
+|upkeep
+|turn|17
+|
+|t:|1743826514
+|move|p2a: Duraludon|Dragon Pulse|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|faint|p1a: Tsareena
+|
+|win|EywaOW
+|raw|Assumpcao_fs's rating: 1101 &rarr; <strong>1072</strong><br />(-29 for losing)
+|raw|EywaOW's rating: 1051 &rarr; <strong>1088</strong><br />(+37 for winning)
+|c|☆EywaOW|gg
+|l|☆Assumpcao_fs
+|player|p1|
+|l|☆EywaOW
+|player|p2|

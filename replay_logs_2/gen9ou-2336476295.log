@@ -1,0 +1,554 @@
+|j|☆JoinNewStallCord
+|j|☆BIG Ghettie
+|t:|1743924138
+|gametype|singles
+|player|p1|JoinNewStallCord|102|1274
+|player|p2|BIG Ghettie|ghetsis|1275
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gliscor, M|
+|poke|p1|Garganacl, M|
+|poke|p1|Pecharunt|
+|poke|p1|Ting-Lu|
+|poke|p1|Zamazenta-*|
+|poke|p1|Tinkaton, F|
+|poke|p2|Gengar, F|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Blastoise, F|
+|poke|p2|Skarmory, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Great Tusk|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JoinNewStallCord)
+|
+|t:|1743924155
+|start
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|switch|p2a: Gliscor|Gliscor, F, shiny|100/100
+|turn|1
+|
+|t:|1743924162
+|move|p2a: Gliscor|Toxic|p1a: Garganacl
+|-immune|p1a: Garganacl|[from] ability: Purifying Salt
+|move|p1a: Garganacl|Salt Cure|p2a: Gliscor
+|-damage|p2a: Gliscor|89/100
+|-start|p2a: Gliscor|Salt Cure
+|
+|-damage|p2a: Gliscor|77/100|[from] Salt Cure
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743924184
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Garganacl|Salt Cure|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Gliscor|77/100 tox|[from] Salt Cure
+|upkeep
+|turn|3
+|inactive|BIG Ghettie has 120 seconds left.
+|
+|t:|1743924205
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Gliscor|Spikes|p1a: Gliscor
+|-sidestart|p1: JoinNewStallCord|Spikes
+|
+|-heal|p2a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Gliscor|77/100 tox|[from] Salt Cure
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|inactive|BIG Ghettie has 120 seconds left.
+|
+|t:|1743924217
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|move|p2a: Gliscor|Spikes|p1a: Gliscor
+|-sidestart|p1: JoinNewStallCord|Spikes
+|
+|-heal|p2a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Gliscor|77/100 tox|[from] Salt Cure
+|upkeep
+|turn|5
+|inactive|BIG Ghettie has 120 seconds left.
+|
+|t:|1743924238
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|
+|upkeep
+|turn|6
+|
+|t:|1743924257
+|move|p2a: Great Tusk|Ice Spinner|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|19/100 tox
+|move|p1a: Gliscor|Facade|p2a: Great Tusk
+|-damage|p2a: Great Tusk|31/100
+|-damage|p1a: Gliscor|2/100 tox|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|
+|-heal|p1a: Gliscor|15/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1743924267
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Great Tusk|Ice Spinner|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|27/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1743924274
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Great Tusk|Ice Spinner|p1a: Zamazenta
+|-damage|p1a: Zamazenta|81/100
+|
+|upkeep
+|turn|9
+|inactive|BIG Ghettie has 120 seconds left.
+|
+|t:|1743924292
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Sky|Skarmory, F, shiny|100/100
+|move|p1a: Zamazenta|Close Combat|p2a: Sky
+|-damage|p2a: Sky|51/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|-damage|p1a: Zamazenta|65/100|[from] item: Rocky Helmet|[of] p2a: Sky
+|
+|upkeep
+|turn|10
+|
+|t:|1743924305
+|-terastallize|p1a: Zamazenta|Fighting
+|move|p1a: Zamazenta|Close Combat|p2a: Sky
+|-damage|p2a: Sky|0 fnt
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|-damage|p1a: Zamazenta|48/100|[from] item: Rocky Helmet|[of] p2a: Sky
+|faint|p2a: Sky
+|
+|upkeep
+|
+|t:|1743924323
+|switch|p2a: Joker|Gengar, F, shiny|100/100
+|turn|11
+|
+|t:|1743924338
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Joker|Dazzling Gleam|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|78/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743924352
+|switch|p2a: Gliscor|Gliscor, F, shiny|77/100 tox
+|move|p1a: Ting-Lu|Ruination|p2a: Gliscor
+|-damage|p2a: Gliscor|39/100 tox
+|
+|-heal|p2a: Gliscor|51/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|t:|1743924371
+|switch|p1a: Gliscor|Gliscor, M|27/100 tox
+|move|p2a: Gliscor|Spikes|p1a: Gliscor
+|-sidestart|p1: JoinNewStallCord|Spikes
+|
+|-heal|p1a: Gliscor|40/100 tox|[from] ability: Poison Heal
+|-heal|p2a: Gliscor|64/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|l|☆JoinNewStallCord
+|inactive|JoinNewStallCord disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆JoinNewStallCord
+|inactive|JoinNewStallCord reconnected.
+|player|p1|JoinNewStallCord|102|
+|
+|t:|1743924397
+|switch|p2a: Rocky|Arcanine-Hisui, F, shiny|100/100
+|move|p1a: Gliscor|Knock Off|p2a: Rocky
+|-crit|p2a: Rocky
+|-damage|p2a: Rocky|64/100
+|-enditem|p2a: Rocky|Choice Scarf|[from] move: Knock Off|[of] p1a: Gliscor
+|
+|-heal|p1a: Gliscor|52/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|inactive|BIG Ghettie has 90 seconds left.
+|
+|t:|1743924420
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Rocky|Head Smash|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|65/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|t:|1743924435
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Rocky|Head Smash|p1a: Pecharunt
+|-damage|p1a: Pecharunt|69/100
+|
+|upkeep
+|turn|17
+|inactive|BIG Ghettie has 90 seconds left.
+|
+|t:|1743924456
+|move|p2a: Rocky|Head Smash|p1a: Pecharunt
+|-damage|p1a: Pecharunt|35/100
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|85/100
+|
+|upkeep
+|turn|18
+|inactive|BIG Ghettie has 90 seconds left.
+|
+|t:|1743924472
+|switch|p2a: Gliscor|Gliscor, F, shiny|64/100 tox
+|switch|p1a: Ting-Lu|Ting-Lu|78/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|
+|-heal|p2a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|inactive|BIG Ghettie has 90 seconds left.
+|
+|t:|1743924484
+|switch|p1a: Gliscor|Gliscor, M|65/100 tox
+|move|p2a: Gliscor|Toxic|p1a: Gliscor
+|-fail|p1a: Gliscor|tox
+|
+|-heal|p2a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|-heal|p1a: Gliscor|77/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|inactive|BIG Ghettie has 90 seconds left.
+|
+|t:|1743924491
+|switch|p2a: Great Tusk|Great Tusk|31/100
+|move|p1a: Gliscor|Knock Off|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|22/100
+|-damage|p1a: Gliscor|61/100 tox|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|-enditem|p2a: Great Tusk|Rocky Helmet|[from] move: Knock Off|[of] p1a: Gliscor
+|
+|-heal|p1a: Gliscor|73/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|inactive|BIG Ghettie has 90 seconds left.
+|
+|t:|1743924503
+|-terastallize|p2a: Great Tusk|Steel
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Great Tusk|Ice Spinner|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|86/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|inactive|BIG Ghettie has 90 seconds left.
+|
+|t:|1743924516
+|move|p2a: Great Tusk|Ice Spinner|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|2/100 tox
+|move|p1a: Gliscor|Knock Off|p2a: Great Tusk
+|-damage|p2a: Great Tusk|12/100
+|
+|-heal|p1a: Gliscor|14/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|inactive|BIG Ghettie has 90 seconds left.
+|
+|t:|1743924530
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Great Tusk|Ice Spinner|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|27/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|
+|t:|1743924537
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Great Tusk|Stealth Rock|p1a: Tinkaton
+|-sidestart|p1: JoinNewStallCord|move: Stealth Rock
+|
+|upkeep
+|turn|25
+|
+|t:|1743924552
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Rocky|Arcanine-Hisui, F, shiny|64/100
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Rocky
+|-damage|p2a: Rocky|9/100
+|
+|upkeep
+|turn|26
+|
+|t:|1743924564
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: Rocky|Flare Blitz|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|81/100
+|
+|upkeep
+|turn|27
+|
+|t:|1743924571
+|move|p2a: Rocky|Close Combat|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|31/100
+|-unboost|p2a: Rocky|def|1
+|-unboost|p2a: Rocky|spd|1
+|move|p1a: Garganacl|Earthquake|p2a: Rocky
+|-supereffective|p2a: Rocky
+|-crit|p2a: Rocky
+|-damage|p2a: Rocky|0 fnt
+|faint|p2a: Rocky
+|
+|upkeep
+|
+|t:|1743924582
+|switch|p2a: Joker|Gengar, F, shiny|100/100
+|turn|28
+|
+|t:|1743924590
+|move|p2a: Joker|Energy Ball|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|upkeep
+|
+|t:|1743924593
+|switch|p1a: Ting-Lu|Ting-Lu|78/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|29
+|inactive|BIG Ghettie has 120 seconds left.
+|
+|t:|1743924603
+|switch|p2a: Great Tusk|Great Tusk, tera:Steel|12/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|inactive|BIG Ghettie has 120 seconds left.
+|
+|t:|1743924609
+|switch|p2a: Flow|Blastoise, F, shiny|100/100
+|turn|30
+|
+|t:|1743924617
+|move|p2a: Flow|Shell Smash|p2a: Flow
+|-unboost|p2a: Flow|def|1
+|-unboost|p2a: Flow|spd|1
+|-boost|p2a: Flow|atk|2
+|-boost|p2a: Flow|spa|2
+|-boost|p2a: Flow|spe|2
+|-enditem|p2a: Flow|White Herb
+|-clearnegativeboost|p2a: Flow|[silent]
+|move|p1a: Ting-Lu|Ruination|p2a: Flow
+|-damage|p2a: Flow|51/100
+|
+|upkeep
+|turn|31
+|
+|t:|1743924626
+|move|p2a: Flow|Surf|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|11/100
+|move|p1a: Ting-Lu|Whirlwind|p2a: Flow
+|drag|p2a: Joker|Gengar, F, shiny|100/100
+|
+|upkeep
+|turn|32
+|
+|t:|1743924643
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Joker|Dazzling Gleam|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|89/100
+|
+|upkeep
+|turn|33
+|
+|t:|1743924653
+|switch|p2a: Gliscor|Gliscor, F, shiny|89/100 tox
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Gliscor
+|-damage|p2a: Gliscor|55/100 tox
+|
+|-heal|p2a: Gliscor|68/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|34
+|
+|t:|1743924663
+|switch|p1a: Gliscor|Gliscor, M|27/100 tox
+|-damage|p1a: Gliscor|14/100 tox|[from] Stealth Rock
+|switch|p2a: Flow|Blastoise, F, shiny|51/100
+|
+|-heal|p1a: Gliscor|27/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|35
+|
+|t:|1743924679
+|move|p2a: Flow|Shell Smash|p2a: Flow
+|-unboost|p2a: Flow|def|1
+|-unboost|p2a: Flow|spd|1
+|-boost|p2a: Flow|atk|2
+|-boost|p2a: Flow|spa|2
+|-boost|p2a: Flow|spe|2
+|move|p1a: Gliscor|Facade|p2a: Flow
+|-damage|p2a: Flow|0 fnt
+|faint|p2a: Flow
+|
+|-heal|p1a: Gliscor|39/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743924689
+|switch|p2a: Joker|Gengar, F, shiny|100/100
+|turn|36
+|
+|t:|1743924693
+|switch|p1a: Ting-Lu|Ting-Lu|11/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Joker|Shadow Ball|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|2/100
+|-unboost|p1a: Ting-Lu|spd|1
+|
+|upkeep
+|turn|37
+|
+|t:|1743924703
+|move|p2a: Joker|Shadow Ball|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743924721
+|switch|p1a: Pecharunt|Pecharunt|85/100
+|turn|38
+|
+|t:|1743924728
+|move|p2a: Joker|Shadow Ball|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|8/100
+|move|p1a: Pecharunt|Hex|p2a: Joker
+|-supereffective|p2a: Joker
+|-damage|p2a: Joker|38/100
+|
+|upkeep
+|turn|39
+|
+|t:|1743924734
+|move|p2a: Joker|Shadow Ball|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1743924736
+|switch|p1a: Zamazenta|Zamazenta, tera:Fighting|48/100
+|turn|40
+|
+|t:|1743924745
+|switch|p2a: Gliscor|Gliscor, F, shiny|68/100 tox
+|move|p1a: Zamazenta|Crunch|p2a: Gliscor
+|-damage|p2a: Gliscor|45/100 tox
+|
+|-heal|p2a: Gliscor|58/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|41
+|
+|t:|1743924754
+|switch|p2a: Joker|Gengar, F, shiny|38/100
+|move|p1a: Zamazenta|Ice Fang|p2a: Joker|[miss]
+|-miss|p1a: Zamazenta|p2a: Joker
+|
+|upkeep
+|turn|42
+|
+|t:|1743924761
+|switch|p2a: Gliscor|Gliscor, F, shiny|58/100 tox
+|move|p1a: Zamazenta|Crunch|p2a: Gliscor
+|-damage|p2a: Gliscor|35/100 tox
+|-unboost|p2a: Gliscor|def|1
+|
+|-heal|p2a: Gliscor|48/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|43
+|
+|t:|1743924766
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Zamazenta|Ice Fang|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|60/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|44
+|
+|t:|1743924778
+|move|p1a: Zamazenta|Ice Fang|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1743924781
+|switch|p2a: Joker|Gengar, F, shiny|38/100
+|turn|45
+|c|☆JoinNewStallCord|gg
+|
+|t:|1743924787
+|move|p1a: Zamazenta|Crunch|p2a: Joker
+|-supereffective|p2a: Joker
+|-damage|p2a: Joker|0 fnt
+|faint|p2a: Joker
+|
+|win|JoinNewStallCord
+|raw|JoinNewStallCord's rating: 1274 &rarr; <strong>1299</strong><br />(+25 for winning)
+|raw|BIG Ghettie's rating: 1275 &rarr; <strong>1250</strong><br />(-25 for losing)
+|l|☆BIG Ghettie
+|player|p2|
+|l|☆JoinNewStallCord
+|player|p1|

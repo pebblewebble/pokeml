@@ -1,0 +1,257 @@
+|j|☆Meonic
+|j|☆stallkiller393
+|t:|1743847333
+|gametype|singles
+|player|p1|Meonic|benga|1193
+|player|p2|stallkiller393|rocketgrunt|1219
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Kingambit, F|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Iron Moth|
+|poke|p2|Rampardos, F|
+|poke|p2|Kommo-o, M|
+|poke|p2|Sawsbuck, M|
+|poke|p2|Torkoal, F|
+|poke|p2|Scream Tail|
+|poke|p2|Pecharunt|
+|teampreview
+|
+|t:|1743847341
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1743847352
+|move|p1a: Landorus|Taunt|p2a: Torkoal
+|-start|p2a: Torkoal|move: Taunt
+|cant|p2a: Torkoal|move: Taunt|Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743847368
+|move|p1a: Landorus|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|24/100
+|move|p2a: Torkoal|Rapid Spin|p1a: Landorus
+|-damage|p1a: Landorus|94/100
+|-boost|p2a: Torkoal|spe|1
+|-damage|p2a: Torkoal|7/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Torkoal|13/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743847385
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|move|p1a: Landorus|U-turn|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|90/100
+|
+|t:|1743847392
+|switch|p1a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743847403
+|move|p1a: Iron Valiant|Moonblast|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-crit|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743847408
+|switch|p2a: Scream Tail|Scream Tail|100/100
+|-activate|p2a: Scream Tail|ability: Protosynthesis
+|-start|p2a: Scream Tail|protosynthesisspe
+|turn|5
+|
+|t:|1743847418
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Scream Tail|Boomburst|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|59/100
+|-enditem|p2a: Scream Tail|Throat Spray
+|-boost|p2a: Scream Tail|spa|1|[from] item: Throat Spray
+|
+|-weather|none
+|-end|p2a: Scream Tail|Protosynthesis
+|upkeep
+|turn|6
+|
+|t:|1743847428
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Scream Tail|Psychic Noise|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743847450
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|7
+|
+|t:|1743847477
+|-terastallize|p1a: Samurott|Ghost
+|move|p2a: Scream Tail|Dazzling Gleam|p1a: Samurott
+|-damage|p1a: Samurott|55/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Scream Tail
+|-damage|p2a: Scream Tail|57/100
+|-sidestart|p2: stallkiller393|Spikes
+|
+|upkeep
+|turn|8
+|
+|t:|1743847508
+|move|p2a: Scream Tail|Psychic Noise|p1a: Samurott
+|-damage|p1a: Samurott|13/100
+|-start|p1a: Samurott|move: Heal Block
+|move|p1a: Samurott|Ceaseless Edge|p2a: Scream Tail
+|-damage|p2a: Scream Tail|17/100
+|-sidestart|p2: stallkiller393|Spikes
+|
+|upkeep
+|turn|9
+|
+|t:|1743847517
+|move|p2a: Scream Tail|Dazzling Gleam|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1743847524
+|switch|p1a: Landorus|Landorus-Therian, M|94/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Scream Tail|atk|1
+|turn|10
+|
+|t:|1743847537
+|move|p1a: Landorus|Earthquake|p2a: Scream Tail
+|-damage|p2a: Scream Tail|0 fnt
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743847562
+|switch|p2a: Rampardos|Rampardos, F|100/100
+|-damage|p2a: Rampardos|84/100|[from] Spikes
+|turn|11
+|
+|t:|1743847582
+|-terastallize|p2a: Rampardos|Rock
+|move|p2a: Rampardos|Rock Slide|p1a: Landorus
+|-damage|p1a: Landorus|14/100
+|move|p1a: Landorus|Earthquake|p2a: Rampardos
+|-supereffective|p2a: Rampardos
+|-damage|p2a: Rampardos|0 fnt
+|faint|p2a: Rampardos
+|
+|upkeep
+|
+|t:|1743847593
+|switch|p2a: Torkoal|Torkoal, F|13/100
+|-damage|p2a: Torkoal|0 fnt|[from] Spikes
+|faint|p2a: Torkoal
+|
+|t:|1743847604
+|switch|p2a: Sawsbuck|Sawsbuck, M|100/100
+|-damage|p2a: Sawsbuck|84/100|[from] Spikes
+|turn|12
+|
+|t:|1743847617
+|move|p1a: Landorus|Stealth Rock|p2a: Sawsbuck
+|-sidestart|p2: stallkiller393|move: Stealth Rock
+|move|p2a: Sawsbuck|Swords Dance|p2a: Sawsbuck
+|-boost|p2a: Sawsbuck|atk|2
+|
+|upkeep
+|turn|13
+|
+|t:|1743847625
+|move|p1a: Landorus|U-turn|p2a: Sawsbuck
+|-supereffective|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|29/100
+|
+|t:|1743847629
+|switch|p1a: Iron Moth|Iron Moth|100/100|[from] U-turn
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|move|p2a: Sawsbuck|Horn Leech|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|70/100
+|-heal|p2a: Sawsbuck|42/100|[from] drain|[of] p1a: Iron Moth
+|-damage|p2a: Sawsbuck|32/100|[from] item: Life Orb
+|
+|upkeep
+|turn|14
+|
+|t:|1743847640
+|move|p1a: Iron Moth|Fiery Dance|p2a: Sawsbuck
+|-supereffective|p2a: Sawsbuck
+|-damage|p2a: Sawsbuck|0 fnt
+|faint|p2a: Sawsbuck
+|
+|upkeep
+|
+|t:|1743847643
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-damage|p2a: Pecharunt|88/100|[from] Stealth Rock
+|-item|p2a: Pecharunt|Air Balloon
+|turn|15
+|
+|t:|1743847653
+|move|p1a: Iron Moth|Psychic|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|14/100
+|-enditem|p2a: Pecharunt|Air Balloon
+|move|p2a: Pecharunt|Nasty Plot|p2a: Pecharunt
+|-boost|p2a: Pecharunt|spa|2
+|
+|upkeep
+|turn|16
+|-message|stallkiller393 forfeited.
+|
+|win|Meonic
+|raw|Meonic's rating: 1193 &rarr; <strong>1220</strong><br />(+27 for winning)
+|raw|stallkiller393's rating: 1219 &rarr; <strong>1192</strong><br />(-27 for losing)
+|l|☆stallkiller393
+|player|p2|
+|l|☆Meonic
+|player|p1|

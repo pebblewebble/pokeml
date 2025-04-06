@@ -1,0 +1,269 @@
+|j|☆Masord
+|j|☆jero putero
+|t:|1743933377
+|gametype|singles
+|player|p1|Masord|waiter-gen4dp|1368
+|player|p2|jero putero|2|1341
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Great Tusk|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Kingambit, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Venusaur, F|
+|poke|p2|Great Tusk|
+|poke|p2|Typhlosion-Hisui, F|
+|poke|p2|Walking Wake|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jero putero)
+|
+|t:|1743933399
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: T= r*Fsin(theta)|Torkoal, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: T= r*Fsin(theta)|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: T= r*Fsin(theta)
+|turn|1
+|
+|t:|1743933403
+|move|p1a: Landorus|Earthquake|p2a: T= r*Fsin(theta)
+|-supereffective|p2a: T= r*Fsin(theta)
+|-damage|p2a: T= r*Fsin(theta)|28/100
+|move|p2a: T= r*Fsin(theta)|Stealth Rock|p1a: Landorus
+|-sidestart|p1: Masord|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743933409
+|switch|p2a: Dubya|Walking Wake|100/100
+|-activate|p2a: Dubya|ability: Protosynthesis
+|-start|p2a: Dubya|protosynthesisspe
+|move|p1a: Landorus|Earthquake|p2a: Dubya
+|-damage|p2a: Dubya|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743933422
+|switch|p1a: Kyurem|Kyurem|100/100
+|-damage|p1a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Dubya|Hydro Steam|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|Masord has 120 seconds left.
+|
+|t:|1743933457
+|-end|p2a: Dubya|Protosynthesis|[silent]
+|switch|p2a: Corvfefe|Corviknight, F|100/100
+|-ability|p2a: Corvfefe|Pressure
+|move|p1a: Kyurem|Freeze-Dry|p2a: Corvfefe
+|-damage|p2a: Corvfefe|51/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743933465
+|switch|p2a: Ty Collar Sign|Typhlosion-Hisui, F|100/100
+|move|p1a: Kyurem|Freeze-Dry|p2a: Ty Collar Sign
+|-resisted|p2a: Ty Collar Sign
+|-damage|p2a: Ty Collar Sign|61/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743933471
+|move|p2a: Ty Collar Sign|Flamethrower|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743933477
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ty Collar Sign|atk|1
+|turn|7
+|
+|t:|1743933485
+|move|p2a: Ty Collar Sign|Flamethrower|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743933495
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|8
+|
+|t:|1743933499
+|move|p2a: Ty Collar Sign|Flamethrower|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743933509
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|9
+|
+|t:|1743933513
+|switch|p2a: T= r*Fsin(theta)|Torkoal, F|28/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: T= r*Fsin(theta)
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743933517
+|move|p1a: Kingambit|Kowtow Cleave|p2a: T= r*Fsin(theta)
+|-damage|p2a: T= r*Fsin(theta)|0 fnt
+|faint|p2a: T= r*Fsin(theta)
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743933521
+|switch|p2a: VVS Diamonds|Venusaur, F|100/100
+|turn|11
+|
+|t:|1743933525
+|move|p2a: VVS Diamonds|Earth Power|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|-damage|p2a: VVS Diamonds|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743933531
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1743933535
+|move|p2a: VVS Diamonds|Growth|p2a: VVS Diamonds
+|-boost|p2a: VVS Diamonds|atk|2
+|-boost|p2a: VVS Diamonds|spa|2
+|move|p1a: Slowking|Psychic Noise|p2a: VVS Diamonds
+|-supereffective|p2a: VVS Diamonds
+|-damage|p2a: VVS Diamonds|24/100
+|-start|p2a: VVS Diamonds|move: Heal Block
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|94/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1743933546
+|move|p2a: VVS Diamonds|Earth Power|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|6/100
+|-damage|p2a: VVS Diamonds|14/100|[from] item: Life Orb
+|move|p1a: Slowking|Psychic Noise|p2a: VVS Diamonds
+|-supereffective|p2a: VVS Diamonds
+|-damage|p2a: VVS Diamonds|0 fnt
+|faint|p2a: VVS Diamonds
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Slowking|12/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1743933554
+|switch|p2a: Ty Collar Sign|Typhlosion-Hisui, F|61/100
+|turn|14
+|
+|t:|1743933560
+|move|p2a: Ty Collar Sign|Flamethrower|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743933562
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|-damage|p1a: Samurott|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743933565
+|move|p1a: Samurott|Sucker Punch|p2a: Ty Collar Sign
+|-supereffective|p2a: Ty Collar Sign
+|-damage|p2a: Ty Collar Sign|0 fnt
+|faint|p2a: Ty Collar Sign
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743933569
+|switch|p2a: I Serve The Face|Great Tusk|100/100
+|-activate|p2a: I Serve The Face|ability: Protosynthesis
+|-start|p2a: I Serve The Face|protosynthesisatk
+|turn|16
+|
+|t:|1743933575
+|move|p2a: I Serve The Face|Headlong Rush|p1a: Samurott
+|-damage|p1a: Samurott|1/100
+|-unboost|p2a: I Serve The Face|def|1
+|-unboost|p2a: I Serve The Face|spd|1
+|-enditem|p2a: I Serve The Face|Eject Pack
+|
+|t:|1743933581
+|-end|p2a: I Serve The Face|Protosynthesis|[silent]
+|switch|p2a: Corvfefe|Corviknight, F|51/100
+|-ability|p2a: Corvfefe|Pressure
+|move|p1a: Samurott|Razor Shell|p2a: Corvfefe
+|-crit|p2a: Corvfefe
+|-damage|p2a: Corvfefe|32/100
+|-damage|p1a: Samurott|0 fnt|[from] item: Rocky Helmet|[of] p2a: Corvfefe
+|faint|p1a: Samurott
+|
+|win|jero putero
+|raw|Masord's rating: 1368 &rarr; <strong>1346</strong><br />(-22 for losing)
+|raw|jero putero's rating: 1341 &rarr; <strong>1363</strong><br />(+22 for winning)
+|l|☆Masord
+|player|p1|
+|l|☆jero putero
+|player|p2|

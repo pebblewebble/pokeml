@@ -1,0 +1,221 @@
+|j|☆Havestol
+|j|☆John Frisbee
+|t:|1743875535
+|gametype|singles
+|player|p1|Havestol|mars|1324
+|player|p2|John Frisbee|169|1395
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Scizor, M|
+|poke|p1|Gholdengo|
+|poke|p1|Heatran, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Gastrodon, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Gliscor, M|
+|poke|p2|Sinistcha|
+|poke|p2|Keldeo|
+|poke|p2|Tinkaton, F|
+|poke|p2|Dragonite, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by John Frisbee)
+|
+|t:|1743875570
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Cuphead|Ting-Lu|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-ability|p2a: Cuphead|Vessel of Ruin
+|turn|1
+|
+|t:|1743875580
+|switch|p2a: Tinkki Minaj|Tinkaton, F|100/100
+|-item|p2a: Tinkki Minaj|Air Balloon
+|move|p1a: Rillaboom|U-turn|p2a: Tinkki Minaj
+|-resisted|p2a: Tinkki Minaj
+|-damage|p2a: Tinkki Minaj|90/100
+|-enditem|p2a: Tinkki Minaj|Air Balloon
+|-enditem|p1a: Rillaboom|Choice Band|[silent]|[from] ability: Pickpocket|[of] p1a: Rillaboom
+|-item|p2a: Tinkki Minaj|Choice Band|[from] ability: Pickpocket|[of] p1a: Rillaboom
+|
+|t:|1743875594
+|switch|p1a: Scizor|Scizor, M|100/100|[from] U-turn
+|
+|-heal|p2a: Tinkki Minaj|96/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1743875601
+|move|p2a: Tinkki Minaj|Stealth Rock|p1a: Scizor
+|-sidestart|p1: Havestol|move: Stealth Rock
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-heal|p2a: Tinkki Minaj|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1743875618
+|switch|p2a: Cuphead|Ting-Lu|100/100
+|-ability|p2a: Cuphead|Vessel of Ruin
+|move|p1a: Scizor|Knock Off|p2a: Cuphead
+|-resisted|p2a: Cuphead
+|-damage|p2a: Cuphead|73/100
+|-enditem|p2a: Cuphead|Leftovers|[from] move: Knock Off|[of] p1a: Scizor
+|-damage|p1a: Scizor|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Scizor|97/100|[from] Grassy Terrain
+|-heal|p2a: Cuphead|79/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1743875624
+|move|p1a: Scizor|Close Combat|p2a: Cuphead
+|-supereffective|p2a: Cuphead
+|-damage|p2a: Cuphead|0 fnt
+|-unboost|p1a: Scizor|def|1
+|-unboost|p1a: Scizor|spd|1
+|faint|p2a: Cuphead
+|-damage|p1a: Scizor|87/100|[from] item: Life Orb
+|
+|-heal|p1a: Scizor|93/100|[from] Grassy Terrain
+|upkeep
+|inactive|John Frisbee has 120 seconds left.
+|
+|t:|1743875661
+|switch|p2a: My Little Pwny|Keldeo|100/100
+|turn|5
+|
+|t:|1743875673
+|switch|p1a: Gastrodon|Gastrodon, M|100/100
+|move|p2a: My Little Pwny|Aura Sphere|p1a: Gastrodon
+|-damage|p1a: Gastrodon|71/100
+|
+|-heal|p1a: Gastrodon|77/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|inactive|John Frisbee has 120 seconds left.
+|
+|t:|1743875706
+|switch|p2a: Tchavis Scott|Sinistcha|100/100
+|move|p1a: Gastrodon|Ice Beam|p2a: Tchavis Scott
+|-supereffective|p2a: Tchavis Scott
+|-damage|p2a: Tchavis Scott|56/100
+|-status|p2a: Tchavis Scott|frz
+|
+|upkeep
+|turn|7
+|
+|t:|1743875721
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-item|p1a: Heatran|Air Balloon
+|-curestatus|p2a: Tchavis Scott|frz|[from] move: Matcha Gotcha
+|move|p2a: Tchavis Scott|Matcha Gotcha|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|83/100
+|-heal|p2a: Tchavis Scott|59/100|[from] drain|[of] p1a: Heatran
+|-enditem|p1a: Heatran|Air Balloon
+|
+|upkeep
+|turn|8
+|inactive|John Frisbee has 120 seconds left.
+|
+|t:|1743875742
+|switch|p2a: My Little Pwny|Keldeo|100/100
+|move|p1a: Heatran|Magma Storm|p2a: My Little Pwny
+|-resisted|p2a: My Little Pwny
+|-damage|p2a: My Little Pwny|75/100
+|-activate|p2a: My Little Pwny|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: My Little Pwny|63/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|t:|1743875748
+|switch|p1a: Gastrodon|Gastrodon, M|77/100
+|move|p2a: My Little Pwny|Aura Sphere|p1a: Gastrodon
+|-damage|p1a: Gastrodon|50/100
+|
+|-end|p2a: My Little Pwny|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|10
+|
+|t:|1743875768
+|switch|p2a: Dance Armstrong|Gliscor, M|100/100
+|move|p1a: Gastrodon|Recover|p1a: Gastrodon
+|-heal|p1a: Gastrodon|99/100
+|
+|-status|p2a: Dance Armstrong|tox|[from] item: Toxic Orb
+|upkeep
+|turn|11
+|inactive|John Frisbee has 90 seconds left.
+|
+|t:|1743875795
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-damage|p1a: Weezing|88/100|[from] Stealth Rock
+|move|p2a: Dance Armstrong|Protect||[still]
+|-fail|p2a: Dance Armstrong
+|
+|-damage|p2a: Dance Armstrong|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743875804
+|switch|p2a: Tinkki Minaj|Tinkaton, F|100/100
+|move|p1a: Weezing|Defog|p2a: Tinkki Minaj
+|-unboost|p2a: Tinkki Minaj|evasion|1
+|-sideend|p1: Havestol|Stealth Rock|[from] move: Defog|[of] p1a: Weezing
+|
+|upkeep
+|turn|13
+|inactive|John Frisbee has 90 seconds left.
+|
+|t:|1743875840
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Tinkki Minaj|Gigaton Hammer|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|79/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743875864
+|switch|p2a: Secret Service|Dragonite, F|100/100
+|move|p1a: Gholdengo|Dazzling Gleam|p2a: Secret Service
+|-supereffective|p2a: Secret Service
+|-damage|p2a: Secret Service|81/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743875886
+|-terastallize|p1a: Gholdengo|Fairy
+|move|p1a: Gholdengo|Dazzling Gleam|p2a: Secret Service
+|-supereffective|p2a: Secret Service
+|-damage|p2a: Secret Service|17/100
+|move|p2a: Secret Service|Earthquake|p1a: Gholdengo
+|-damage|p1a: Gholdengo|53/100
+|
+|upkeep
+|turn|16
+|-message|John Frisbee forfeited.
+|
+|win|Havestol
+|raw|Havestol's rating: 1324 &rarr; <strong>1348</strong><br />(+24 for winning)
+|raw|John Frisbee's rating: 1395 &rarr; <strong>1371</strong><br />(-24 for losing)

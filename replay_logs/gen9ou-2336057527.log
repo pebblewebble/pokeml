@@ -1,0 +1,212 @@
+|j|☆babassss
+|j|☆theowlbrett
+|t:|1743874448
+|gametype|singles
+|player|p1|babassss|170|1550
+|player|p2|theowlbrett|crasherwake|1539
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, F|
+|poke|p1|Iron Moth|
+|poke|p1|Walking Wake|
+|poke|p1|Hatterene, F|
+|poke|p1|Great Tusk|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Great Tusk|
+|poke|p2|Hatterene, F|
+|poke|p2|Pecharunt|
+|poke|p2|Garchomp, M|
+|teampreview
+|
+|t:|1743874461
+|start
+|switch|p1a: Ninetales|Ninetales, F, shiny|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1743874480
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|-terastallize|p2a: Cinderace|Normal
+|move|p2a: Cinderace|Double-Edge|p1a: Great Tusk
+|-damage|p1a: Great Tusk|42/100
+|-damage|p2a: Cinderace|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|-damage|p2a: Cinderace|60/100|[from] Recoil
+|-damage|p2a: Cinderace|50/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743874489
+|move|p2a: Cinderace|Pyro Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: Cinderace|40/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743874493
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|3
+|
+|t:|1743874501
+|move|p2a: Cinderace|Sucker Punch|p1a: Walking Wake
+|-damage|p1a: Walking Wake|66/100
+|-damage|p2a: Cinderace|30/100|[from] item: Life Orb
+|move|p1a: Walking Wake|Hydro Steam|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743874505
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|4
+|
+|t:|1743874508
+|-terastallize|p1a: Walking Wake|Water
+|move|p1a: Walking Wake|Hydro Steam|p2a: Hatterene
+|-enditem|p2a: Hatterene|Focus Sash
+|-damage|p2a: Hatterene|1/100
+|move|p2a: Hatterene|Nuzzle|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|58/100
+|-status|p1a: Walking Wake|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743874515
+|move|p1a: Walking Wake|Hydro Steam|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743874520
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|6
+|
+|t:|1743874524
+|move|p1a: Walking Wake|Hydro Steam|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743874530
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|7
+|
+|t:|1743874534
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Garchomp|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|50/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1743874547
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743874559
+|move|p1a: Iron Moth|Fiery Dance|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|54/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Garchomp|Earthquake|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743874565
+|switch|p1a: Ninetales|Ninetales, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|9
+|
+|t:|1743874570
+|switch|p1a: Hatterene|Hatterene, F|50/100
+|move|p2a: Garchomp|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|7/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743874573
+|move|p2a: Garchomp|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743874575
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M, shiny|100/100
+|turn|11
+|
+|t:|1743874578
+|move|p2a: Garchomp|Earthquake|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743874581
+|switch|p1a: Ninetales|Ninetales, F, shiny|100/100
+|turn|12
+|
+|t:|1743874585
+|move|p2a: Garchomp|Earthquake|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|babassss forfeited.
+|
+|win|theowlbrett
+|raw|babassss's rating: 1550 &rarr; <strong>1529</strong><br />(-21 for losing)
+|raw|theowlbrett's rating: 1539 &rarr; <strong>1560</strong><br />(+21 for winning)
+|l|☆babassss
+|player|p1|
+|l|☆theowlbrett
+|player|p2|

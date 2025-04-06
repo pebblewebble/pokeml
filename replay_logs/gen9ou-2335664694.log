@@ -1,0 +1,412 @@
+|j|☆Reynart
+|j|☆BLACKPOWER2457
+|t:|1743818655
+|gametype|singles
+|player|p1|Reynart|pilot|1493
+|player|p2|BLACKPOWER2457|doctor|1468
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p1|Meowscarada, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Skeledirge, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Rotom-Wash|
+|poke|p2|Latios, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Hydreigon, M|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|t:|1743818670
+|start
+|switch|p1a: Meowscarada|Meowscarada, F, shiny|100/100
+|switch|p2a: Latios|Latios, M|100/100
+|turn|1
+|
+|t:|1743818678
+|move|p1a: Meowscarada|Knock Off|p2a: Latios
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|-enditem|p2a: Latios|Choice Scarf|[from] move: Knock Off|[of] p1a: Meowscarada
+|faint|p2a: Latios
+|
+|upkeep
+|
+|t:|1743818684
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|2
+|
+|t:|1743818692
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Iron Valiant|Knock Off|p1a: Torkoal
+|-damage|p1a: Torkoal|84/100
+|-enditem|p1a: Torkoal|Heat Rock|[from] move: Knock Off|[of] p2a: Iron Valiant
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743818702
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Torkoal|Stealth Rock|p2a: Rotom
+|-sidestart|p2: BLACKPOWER2457|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743818715
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|move|p2a: Rotom|Will-O-Wisp|p1a: Walking Wake|[miss]
+|-miss|p2a: Rotom|p1a: Walking Wake
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743818730
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Iron Valiant
+|-immune|p2a: Iron Valiant
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743818753
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|38/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743818770
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743818777
+|switch|p1a: Skeledirge|Skeledirge, M, shiny|100/100
+|turn|8
+|
+|t:|1743818786
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-damage|p2a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|-terastallize|p1a: Skeledirge|Grass
+|move|p1a: Skeledirge|Torch Song|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|77/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ting-Lu|83/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743818800
+|move|p1a: Skeledirge|Solar Beam||[still]
+|-prepare|p1a: Skeledirge|Solar Beam
+|-anim|p1a: Skeledirge|Solar Beam|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|28/100
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Skeledirge
+|-sidestart|p1: Reynart|move: Stealth Rock
+|
+|-weather|none
+|-heal|p2a: Ting-Lu|34/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743818811
+|move|p1a: Skeledirge|Torch Song|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|16/100
+|-boost|p1a: Skeledirge|spa|1
+|move|p2a: Ting-Lu|Ruination|p1a: Skeledirge
+|-damage|p1a: Skeledirge|51/100
+|
+|-heal|p2a: Ting-Lu|22/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743818822
+|move|p1a: Skeledirge|Torch Song|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|-boost|p1a: Skeledirge|spa|1
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743818832
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1743818841
+|move|p2a: Hydreigon|Draco Meteor|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Skeledirge
+|
+|upkeep
+|
+|t:|1743818848
+|switch|p1a: Meowscarada|Meowscarada, F, shiny|100/100
+|-damage|p1a: Meowscarada|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743818854
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Meowscarada|U-turn|p2a: Rotom
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-damage|p2a: Rotom|61/100
+|
+|t:|1743818880
+|switch|p1a: Walking Wake|Walking Wake|100/100|[from] U-turn
+|-damage|p1a: Walking Wake|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Rotom|67/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743818890
+|move|p1a: Walking Wake|Hydro Steam|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|35/100
+|move|p2a: Rotom|Volt Switch|p1a: Walking Wake
+|-damage|p1a: Walking Wake|60/100
+|
+|t:|1743818895
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|15
+|
+|t:|1743818904
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|84/100
+|-damage|p1a: Torkoal|59/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Iron Valiant|Moonblast|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|27/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743818915
+|move|p2a: Iron Valiant|Moonblast|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743818922
+|switch|p1a: Meowscarada|Meowscarada, F, shiny|88/100
+|-damage|p1a: Meowscarada|76/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743818928
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Hydreigon|Hydreigon, M|88/100
+|-damage|p2a: Hydreigon|76/100|[from] Stealth Rock
+|move|p1a: Meowscarada|Play Rough|p2a: Hydreigon
+|-start|p1a: Meowscarada|typechange|Fairy|[from] ability: Protean
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743818944
+|switch|p2a: Rotom|Rotom-Wash|35/100
+|-damage|p2a: Rotom|22/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1743818949
+|-terastallize|p2a: Rotom|Steel
+|move|p1a: Meowscarada|Play Rough|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|4/100
+|-unboost|p2a: Rotom|atk|1
+|move|p2a: Rotom|Pain Split|p1a: Meowscarada
+|-sethp|p1a: Meowscarada|40/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|39/100|[from] move: Pain Split
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rotom|45/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743818969
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Rotom|Volt Switch|p1a: Great Tusk
+|-immune|p1a: Great Tusk
+|
+|-weather|none
+|-end|p1a: Great Tusk|Protosynthesis
+|-heal|p2a: Rotom|51/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743818984
+|move|p1a: Great Tusk|Rapid Spin|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|45/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: Reynart|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Rotom|Will-O-Wisp|p1a: Great Tusk
+|-status|p1a: Great Tusk|brn
+|
+|-heal|p2a: Rotom|51/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|94/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1743818997
+|move|p1a: Great Tusk|Knock Off|p2a: Rotom
+|-damage|p2a: Rotom|38/100
+|-enditem|p2a: Rotom|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Rotom|Hydro Pump|p1a: Great Tusk|[miss]
+|-miss|p2a: Rotom|p1a: Great Tusk
+|
+|-damage|p1a: Great Tusk|88/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1743819007
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Walking Wake|Walking Wake|60/100
+|move|p2a: Rotom|Pain Split|p1a: Walking Wake
+|-sethp|p1a: Walking Wake|47/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|52/100|[from] move: Pain Split
+|
+|upkeep
+|turn|23
+|
+|t:|1743819031
+|move|p1a: Walking Wake|Flamethrower|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1743819035
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|24
+|
+|t:|1743819042
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Great Tusk|Great Tusk|88/100 brn
+|move|p2a: Iron Valiant|Moonblast|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743819050
+|switch|p1a: Meowscarada|Meowscarada, F, shiny|40/100
+|turn|25
+|
+|t:|1743819064
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Meowscarada|U-turn|p2a: Gholdengo
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|88/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|t:|1743819074
+|switch|p1a: Walking Wake|Walking Wake|47/100|[from] U-turn
+|
+|upkeep
+|turn|26
+|
+|t:|1743819100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Gholdengo
+|-damage|p2a: Gholdengo|27/100
+|move|p2a: Gholdengo|Thunder Wave|p1a: Walking Wake
+|-status|p1a: Walking Wake|par
+|
+|upkeep
+|turn|27
+|
+|t:|1743819108
+|move|p2a: Gholdengo|Hex|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743819113
+|switch|p1a: Meowscarada|Meowscarada, F, shiny|40/100
+|turn|28
+|
+|t:|1743819118
+|move|p1a: Meowscarada|Play Rough|p2a: Gholdengo
+|-start|p1a: Meowscarada|typechange|Fairy|[from] ability: Protean
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|14/100
+|move|p2a: Gholdengo|Thunder Wave|p1a: Meowscarada
+|-status|p1a: Meowscarada|par
+|
+|upkeep
+|turn|29
+|
+|t:|1743819132
+|cant|p1a: Meowscarada|par
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|64/100
+|
+|upkeep
+|turn|30
+|c|☆BLACKPOWER2457|that was a fun ass game
+|-message|Reynart forfeited.
+|
+|win|BLACKPOWER2457
+|raw|Reynart's rating: 1493 &rarr; <strong>1472</strong><br />(-21 for losing)
+|raw|BLACKPOWER2457's rating: 1468 &rarr; <strong>1489</strong><br />(+21 for winning)
+|l|☆Reynart
+|player|p1|

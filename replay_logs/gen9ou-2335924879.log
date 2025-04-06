@@ -1,0 +1,257 @@
+|j|☆aproelmaspro1
+|j|☆Omarslit
+|t:|1743859641
+|gametype|singles
+|player|p1|aproelmaspro1|ethan|1079
+|player|p2|Omarslit|169|1106
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Lurantis, F|
+|poke|p1|Ceruledge, M|
+|poke|p1|Tatsugiri, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Sinistcha|
+|poke|p2|Excadrill, M|
+|poke|p2|Emboar, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Haxorus, M|
+|poke|p2|Pikachu-Unova, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Omarslit)
+|
+|t:|1743859648
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Pikachu|Pikachu-Unova, M|100/100
+|turn|1
+|
+|t:|1743859654
+|move|p1a: Cinderace|Low Sweep|p2a: Pikachu
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-enditem|p2a: Pikachu|Focus Sash
+|-damage|p2a: Pikachu|1/100
+|-unboost|p2a: Pikachu|spe|1
+|move|p2a: Pikachu|Nuzzle|p1a: Cinderace
+|-damage|p1a: Cinderace|94/100
+|-status|p1a: Cinderace|par
+|
+|upkeep
+|turn|2
+|
+|t:|1743859664
+|move|p2a: Pikachu|Volt Switch|p1a: Cinderace
+|-damage|p1a: Cinderace|64/100 par
+|
+|t:|1743859677
+|switch|p2a: Samurott|Samurott-Hisui, F, shiny|100/100|[from] Volt Switch
+|move|p1a: Cinderace|Low Sweep|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|26/100
+|-unboost|p2a: Samurott|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743859686
+|move|p2a: Samurott|Razor Shell|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743859691
+|switch|p1a: Ceruledge|Ceruledge, M|100/100
+|turn|4
+|
+|t:|1743859695
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|move|p2a: Samurott|Razor Shell|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-enditem|p1a: Ceruledge|Focus Sash
+|-damage|p1a: Ceruledge|1/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|
+|upkeep
+|turn|5
+|
+|t:|1743859705
+|move|p1a: Ceruledge|Bitter Blade|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-heal|p1a: Ceruledge|15/100|[from] drain|[of] p2a: Samurott
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743859712
+|switch|p2a: Excadrill|Excadrill, M, shiny|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|6
+|
+|t:|1743859717
+|move|p1a: Ceruledge|Bitter Blade|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-enditem|p2a: Excadrill|Focus Sash
+|-damage|p2a: Excadrill|1/100
+|-heal|p1a: Ceruledge|77/100|[from] drain|[of] p2a: Excadrill
+|move|p2a: Excadrill|Earthquake|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|upkeep
+|
+|t:|1743859726
+|switch|p1a: Tatsugiri|Tatsugiri, F|100/100
+|turn|7
+|
+|t:|1743859731
+|move|p2a: Excadrill|Earthquake|p1a: Tatsugiri
+|-damage|p1a: Tatsugiri|4/100
+|move|p1a: Tatsugiri|Rapid Spin|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-boost|p1a: Tatsugiri|spe|1
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|t:|1743859740
+|switch|p2a: Haxorus|Haxorus, M, shiny|100/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|8
+|
+|t:|1743859749
+|-terastallize|p2a: Haxorus|Steel
+|move|p1a: Tatsugiri|Draco Meteor|p2a: Haxorus
+|-resisted|p2a: Haxorus
+|-damage|p2a: Haxorus|47/100
+|-unboost|p1a: Tatsugiri|spa|2
+|move|p2a: Haxorus|Close Combat|p1a: Tatsugiri
+|-damage|p1a: Tatsugiri|0 fnt
+|-unboost|p2a: Haxorus|def|1
+|-unboost|p2a: Haxorus|spd|1
+|faint|p1a: Tatsugiri
+|
+|upkeep
+|
+|t:|1743859754
+|switch|p1a: Lurantis|Lurantis, F|100/100
+|turn|9
+|
+|t:|1743859759
+|switch|p2a: Pikachu|Pikachu-Unova, M|1/100
+|move|p1a: Lurantis|Superpower|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|-boost|p1a: Lurantis|atk|1
+|-boost|p1a: Lurantis|def|1
+|faint|p2a: Pikachu
+|
+|upkeep
+|
+|t:|1743859783
+|switch|p2a: Haxorus|Haxorus, M, shiny, tera:Steel|47/100
+|-ability|p2a: Haxorus|Mold Breaker
+|turn|10
+|c|☆aproelmaspro1|noway i just realized thats a unova team
+|
+|t:|1743859792
+|move|p2a: Haxorus|Poison Jab|p1a: Lurantis
+|-supereffective|p1a: Lurantis
+|-damage|p1a: Lurantis|35/100
+|move|p1a: Lurantis|Superpower|p2a: Haxorus
+|-supereffective|p2a: Haxorus
+|-damage|p2a: Haxorus|0 fnt
+|-boost|p1a: Lurantis|atk|1
+|-boost|p1a: Lurantis|def|1
+|faint|p2a: Haxorus
+|
+|upkeep
+|
+|t:|1743859798
+|switch|p2a: Hydreigon|Hydreigon, F, shiny|100/100
+|turn|11
+|
+|t:|1743859801
+|move|p2a: Hydreigon|Draco Meteor|p1a: Lurantis|[miss]
+|-miss|p2a: Hydreigon|p1a: Lurantis
+|move|p1a: Lurantis|Superpower|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-boost|p1a: Lurantis|atk|1
+|-boost|p1a: Lurantis|def|1
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|t:|1743859804
+|switch|p2a: Emboar|Emboar, M, shiny|100/100
+|turn|12
+|
+|t:|1743859808
+|move|p2a: Emboar|Flare Blitz|p1a: Lurantis
+|-supereffective|p1a: Lurantis
+|-damage|p1a: Lurantis|0 fnt
+|faint|p1a: Lurantis
+|-damage|p2a: Emboar|91/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743859812
+|switch|p1a: Sinistcha|Sinistcha|100/100
+|turn|13
+|
+|t:|1743859816
+|-terastallize|p1a: Sinistcha|Fairy
+|move|p1a: Sinistcha|Strength Sap|p2a: Emboar
+|-unboost|p2a: Emboar|atk|1
+|move|p2a: Emboar|Flare Blitz|p1a: Sinistcha
+|-damage|p1a: Sinistcha|61/100
+|-damage|p2a: Emboar|80/100|[from] Recoil
+|
+|-heal|p1a: Sinistcha|67/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743859826
+|move|p1a: Sinistcha|Strength Sap|p2a: Emboar
+|-unboost|p2a: Emboar|atk|1
+|-heal|p1a: Sinistcha|100/100
+|move|p2a: Emboar|Flare Blitz|p1a: Sinistcha
+|-damage|p1a: Sinistcha|72/100
+|-damage|p2a: Emboar|73/100|[from] Recoil
+|
+|-heal|p1a: Sinistcha|78/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|l|☆Omarslit
+|inactive|Omarslit disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|Omarslit has 30 seconds to reconnect!
+|inactive|Omarslit has 20 seconds to reconnect!
+|inactive|Omarslit has 15 seconds to reconnect!
+|inactive|Omarslit has 10 seconds to reconnect!
+|inactive|Omarslit has 5 seconds to reconnect!
+|-message|Omarslit lost due to inactivity.
+|
+|win|aproelmaspro1
+|raw|aproelmaspro1's rating: 1079 &rarr; <strong>1109</strong><br />(+30 for winning)
+|raw|Omarslit's rating: 1106 &rarr; <strong>1079</strong><br />(-27 for losing)
+|l|☆aproelmaspro1
+|player|p1|

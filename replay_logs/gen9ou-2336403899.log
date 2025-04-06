@@ -1,0 +1,258 @@
+|j|☆Renhur
+|j|☆uniandes5
+|t:|1743912656
+|gametype|singles
+|player|p1|Renhur|red|1407
+|player|p2|uniandes5|1|1428
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Lucario, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Mew|
+|poke|p1|Darkrai|
+|poke|p1|Latios, M|
+|poke|p1|Greninja-*, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Walking Wake|
+|poke|p2|Great Tusk|
+|poke|p2|Charizard, F|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|t:|1743912671
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Renhur)
+|
+|t:|1743912677
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Mew|Calm Mind|p1a: Mew
+|-boost|p1a: Mew|spa|1
+|-boost|p1a: Mew|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743912683
+|move|p1a: Mew|Calm Mind|p1a: Mew
+|-boost|p1a: Mew|spa|1
+|-boost|p1a: Mew|spd|1
+|move|p2a: Hatterene|Nuzzle|p1a: Mew
+|-damage|p1a: Mew|98/100
+|-status|p1a: Mew|par
+|-activate|p1a: Mew|ability: Synchronize
+|-status|p2a: Hatterene|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Mew|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743912695
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Mew|Calm Mind|p1a: Mew
+|-boost|p1a: Mew|spa|1
+|-boost|p1a: Mew|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743912702
+|-terastallize|p1a: Mew|Fairy
+|move|p2a: Dragapult|U-turn|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|93/100 par
+|
+|t:|1743912708
+|switch|p2a: Hatterene|Hatterene, F|100/100 par|[from] U-turn
+|move|p1a: Mew|Draining Kiss|p2a: Hatterene
+|-damage|p2a: Hatterene|44/100 par
+|-heal|p1a: Mew|100/100 par|[from] drain|[of] p2a: Hatterene
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1743912719
+|switch|p2a: StallMelter9000|Charizard, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: StallMelter9000|88/100|[from] ability: Solar Power|[of] p2a: StallMelter9000
+|upkeep
+|turn|5
+|
+|t:|1743912731
+|-terastallize|p2a: StallMelter9000|Fire
+|move|p2a: StallMelter9000|Overheat|p1a: Mew
+|-damage|p1a: Mew|16/100 par
+|-unboost|p2a: StallMelter9000|spa|2
+|move|p1a: Mew|Stored Power|p2a: StallMelter9000
+|-damage|p2a: StallMelter9000|0 fnt
+|faint|p2a: StallMelter9000
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Mew|22/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1743912744
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|6
+|
+|t:|1743912749
+|move|p2a: Great Tusk|Close Combat|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-enditem|p2a: Great Tusk|Eject Pack
+|faint|p1a: Mew
+|
+|t:|1743912754
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743912767
+|switch|p1a: Darkrai|Darkrai, shiny|100/100
+|turn|7
+|
+|t:|1743912772
+|move|p1a: Darkrai|Dark Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-enditem|p2a: Dragapult|Focus Sash
+|-damage|p2a: Dragapult|1/100
+|move|p2a: Dragapult|U-turn|p1a: Darkrai
+|-supereffective|p1a: Darkrai
+|-damage|p1a: Darkrai|27/100
+|
+|t:|1743912780
+|switch|p2a: Walking Wake|Walking Wake|100/100|[from] U-turn
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743912789
+|move|p1a: Darkrai|Dark Pulse|p2a: Walking Wake
+|-damage|p2a: Walking Wake|64/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|upkeep
+|
+|t:|1743912801
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|turn|9
+|
+|t:|1743912807
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|44/100 par
+|move|p1a: Weezing|Sludge Bomb|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1743912816
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|10
+|
+|t:|1743912829
+|move|p1a: Weezing|Sludge Bomb|p2a: Torkoal
+|-damage|p2a: Torkoal|66/100
+|-status|p2a: Torkoal|psn
+|move|p2a: Torkoal|Stealth Rock|p1a: Weezing
+|-sidestart|p1: Renhur|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Torkoal|54/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743912840
+|switch|p2a: Dragapult|Dragapult, F|1/100
+|move|p1a: Weezing|Strange Steam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743912848
+|switch|p2a: Walking Wake|Walking Wake|64/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|12
+|
+|t:|1743912864
+|move|p2a: Walking Wake|Hydro Steam|p1a: Weezing
+|-damage|p1a: Weezing|15/100
+|move|p1a: Weezing|Strange Steam|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|25/100
+|-start|p2a: Walking Wake|confusion
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Weezing|21/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1743912875
+|-activate|p2a: Walking Wake|confusion
+|-damage|p2a: Walking Wake|18/100|[from] confusion
+|move|p1a: Weezing|Defog|p2a: Walking Wake
+|-unboost|p2a: Walking Wake|evasion|1
+|-sideend|p1: Renhur|Stealth Rock|[from] move: Defog|[of] p1a: Weezing
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Weezing|27/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1743912892
+|-activate|p2a: Walking Wake|confusion
+|-damage|p2a: Walking Wake|10/100|[from] confusion
+|move|p1a: Weezing|Strange Steam|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Weezing|33/100|[from] item: Black Sludge
+|upkeep
+|-message|uniandes5 forfeited.
+|
+|win|Renhur
+|raw|Renhur's rating: 1407 &rarr; <strong>1428</strong><br />(+21 for winning)
+|raw|uniandes5's rating: 1428 &rarr; <strong>1407</strong><br />(-21 for losing)
+|l|☆uniandes5
+|player|p2|
+|l|☆Renhur
+|player|p1|

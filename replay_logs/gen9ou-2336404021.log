@@ -1,0 +1,240 @@
+|j|☆Tavmor
+|j|☆TutuiTWO
+|t:|1743912671
+|gametype|singles
+|player|p1|Tavmor|veteran|1195
+|player|p2|TutuiTWO|n|1217
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Sinistcha|
+|poke|p1|Ting-Lu|
+|poke|p1|Great Tusk|
+|poke|p1|Weavile, M|
+|poke|p1|Skarmory, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Gallade, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Dondozo, F|
+|poke|p2|Serperior, F|
+|poke|p2|Kleavor, M|
+|teampreview
+|
+|t:|1743912676
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: The One|Gallade, M, shiny|100/100
+|turn|1
+|
+|t:|1743912685
+|-terastallize|p1a: Samurott|Ghost
+|move|p2a: The One|Sacred Sword|p1a: Samurott
+|-immune|p1a: Samurott
+|move|p1a: Samurott|Ceaseless Edge|p2a: The One
+|-damage|p2a: The One|41/100
+|-sidestart|p2: TutuiTWO|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1743912695
+|switch|p2a: Soulblazer|Ceruledge, M|100/100
+|-damage|p2a: Soulblazer|88/100|[from] Spikes
+|move|p1a: Samurott|Ceaseless Edge|p2a: Soulblazer
+|-supereffective|p2a: Soulblazer
+|-damage|p2a: Soulblazer|0 fnt
+|-sidestart|p2: TutuiTWO|Spikes
+|faint|p2a: Soulblazer
+|
+|upkeep
+|
+|t:|1743912702
+|switch|p2a: Axe|Kleavor, M|100/100
+|-damage|p2a: Axe|84/100|[from] Spikes
+|turn|3
+|
+|t:|1743912711
+|move|p2a: Axe|Stone Axe|p1a: Samurott
+|-damage|p1a: Samurott|56/100
+|-sidestart|p1: Tavmor|move: Stealth Rock
+|move|p1a: Samurott|Flip Turn|p2a: Axe
+|-supereffective|p2a: Axe
+|-damage|p2a: Axe|30/100
+|
+|t:|1743912718
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Flip Turn
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1743912725
+|move|p2a: Axe|Defog|p1a: Great Tusk
+|-unboost|p1a: Great Tusk|evasion|1
+|-sideend|p1: Tavmor|Stealth Rock|[from] move: Defog|[of] p2a: Axe
+|-sideend|p2: TutuiTWO|Spikes|[from] move: Defog|[of] p2a: Axe
+|move|p1a: Great Tusk|Rapid Spin|p2a: Axe
+|-resisted|p2a: Axe
+|-damage|p2a: Axe|17/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|upkeep
+|turn|5
+|
+|t:|1743912735
+|move|p1a: Great Tusk|Knock Off|p2a: Axe
+|-damage|p2a: Axe|0 fnt
+|-enditem|p2a: Axe|Focus Sash|[from] move: Knock Off|[of] p1a: Great Tusk
+|faint|p2a: Axe
+|
+|upkeep
+|
+|t:|1743912738
+|switch|p2a: The One|Gallade, M, shiny|41/100
+|turn|6
+|
+|t:|1743912744
+|move|p2a: The One|Psycho Cut|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|36/100
+|move|p1a: Great Tusk|Knock Off|p2a: The One
+|-damage|p2a: The One|0 fnt
+|-enditem|p2a: The One|Choice Scarf|[from] move: Knock Off|[of] p1a: Great Tusk
+|faint|p2a: The One
+|
+|upkeep
+|
+|t:|1743912751
+|switch|p2a: Fish|Dondozo, F, shiny|100/100
+|turn|7
+|
+|t:|1743912756
+|move|p1a: Great Tusk|Knock Off|p2a: Fish
+|-crit|p2a: Fish
+|-damage|p2a: Fish|76/100
+|-enditem|p2a: Fish|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Fish|Curse|p2a: Fish
+|-unboost|p2a: Fish|spe|1
+|-boost|p2a: Fish|atk|1
+|-boost|p2a: Fish|def|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743912770
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Weavile|Weavile, M|100/100
+|move|p2a: Fish|Curse|p2a: Fish
+|-unboost|p2a: Fish|spe|1
+|-boost|p2a: Fish|atk|1
+|-boost|p2a: Fish|def|1
+|
+|upkeep
+|turn|9
+|
+|t:|1743912778
+|move|p1a: Weavile|Swords Dance|p1a: Weavile
+|-boost|p1a: Weavile|atk|2
+|move|p2a: Fish|Body Press|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TutuiTWO)
+|
+|t:|1743912789
+|switch|p1a: Sinistcha|Sinistcha|100/100
+|turn|10
+|
+|t:|1743912795
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Fish
+|-supereffective|p2a: Fish
+|-damage|p2a: Fish|9/100
+|-status|p2a: Fish|brn
+|move|p2a: Fish|Liquidation|p1a: Sinistcha
+|-resisted|p1a: Sinistcha
+|-damage|p1a: Sinistcha|90/100
+|
+|-heal|p1a: Sinistcha|96/100|[from] item: Leftovers
+|-damage|p2a: Fish|3/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743912807
+|move|p1a: Sinistcha|Iron Defense|p1a: Sinistcha
+|-boost|p1a: Sinistcha|def|2
+|move|p2a: Fish|Rest|p2a: Fish
+|-status|p2a: Fish|slp|[from] move: Rest
+|-heal|p2a: Fish|100/100 slp|[silent]
+|
+|-heal|p1a: Sinistcha|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743912816
+|switch|p2a: SUPREME OVERLORD|Kingambit, F, shiny|100/100
+|-activate|p2a: SUPREME OVERLORD|ability: Supreme Overlord
+|-start|p2a: SUPREME OVERLORD|fallen3|[silent]
+|move|p1a: Sinistcha|Iron Defense|p1a: Sinistcha
+|-boost|p1a: Sinistcha|def|2
+|
+|upkeep
+|turn|13
+|
+|t:|1743912827
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: SUPREME OVERLORD
+|-resisted|p2a: SUPREME OVERLORD
+|-damage|p2a: SUPREME OVERLORD|86/100
+|-status|p2a: SUPREME OVERLORD|brn
+|move|p2a: SUPREME OVERLORD|Swords Dance|p2a: SUPREME OVERLORD
+|-boost|p2a: SUPREME OVERLORD|atk|2
+|
+|-damage|p2a: SUPREME OVERLORD|79/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743912839
+|move|p1a: Sinistcha|Iron Defense|p1a: Sinistcha
+|-boost|p1a: Sinistcha|def|2
+|move|p2a: SUPREME OVERLORD|Iron Head|p1a: Sinistcha
+|-damage|p1a: Sinistcha|90/100
+|
+|-heal|p1a: Sinistcha|96/100|[from] item: Leftovers
+|-damage|p2a: SUPREME OVERLORD|73/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743912848
+|move|p2a: SUPREME OVERLORD|Sucker Punch|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|79/100
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: SUPREME OVERLORD
+|-resisted|p2a: SUPREME OVERLORD
+|-damage|p2a: SUPREME OVERLORD|56/100 brn
+|-heal|p1a: Sinistcha|89/100|[from] drain|[of] p2a: SUPREME OVERLORD
+|
+|-heal|p1a: Sinistcha|95/100|[from] item: Leftovers
+|-damage|p2a: SUPREME OVERLORD|50/100 brn|[from] brn
+|upkeep
+|turn|16
+|-message|TutuiTWO forfeited.
+|
+|win|Tavmor
+|raw|Tavmor's rating: 1195 &rarr; <strong>1222</strong><br />(+27 for winning)
+|raw|TutuiTWO's rating: 1217 &rarr; <strong>1190</strong><br />(-27 for losing)
+|l|☆TutuiTWO
+|player|p2|
+|l|☆Tavmor
+|player|p1|

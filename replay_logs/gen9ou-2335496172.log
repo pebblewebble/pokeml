@@ -1,0 +1,361 @@
+|j|☆Jrbrbr
+|j|☆hallo darkniss
+|t:|1743799707
+|gametype|singles
+|player|p1|Jrbrbr|102|1100
+|player|p2|hallo darkniss|bea|1118
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pecharunt|
+|poke|p1|Gliscor, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Garganacl, F|
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, M|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Slither Wing|
+|poke|p2|Garchomp, F|
+|poke|p2|Iron Treads|
+|poke|p2|Sinistcha|
+|poke|p2|Lucario, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hallo darkniss)
+|
+|t:|1743799714
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Lucario|Lucario, M|100/100
+|turn|1
+|
+|t:|1743799720
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|-enditem|p2a: Slither Wing|Booster Energy
+|-activate|p2a: Slither Wing|ability: Protosynthesis|[fromitem]
+|-start|p2a: Slither Wing|protosynthesisatk
+|move|p1a: Great Tusk|Earthquake|p2a: Slither Wing
+|-resisted|p2a: Slither Wing
+|-damage|p2a: Slither Wing|75/100
+|
+|upkeep
+|turn|2
+|inactive|Jrbrbr has 120 seconds left.
+|
+|t:|1743799761
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Slither Wing|Dual Wingbeat|p1a: Gliscor
+|-damage|p1a: Gliscor|87/100
+|-damage|p1a: Gliscor|72/100
+|-hitcount|p1a: Gliscor|2
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1743799771
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: racecare|Iron Treads, shiny|100/100
+|-enditem|p2a: racecare|Booster Energy
+|-activate|p2a: racecare|ability: Quark Drive|[fromitem]
+|-start|p2a: racecare|quarkdrivespe
+|move|p1a: Gliscor|U-turn|p2a: racecare
+|-resisted|p2a: racecare
+|-damage|p2a: racecare|94/100
+|inactive|Jrbrbr has 120 seconds left.
+|
+|t:|1743799790
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1743799802
+|-end|p2a: racecare|Quark Drive|[silent]
+|switch|p2a: yummy|Sinistcha|100/100
+|move|p1a: Great Tusk|Earthquake|p2a: yummy
+|-resisted|p2a: yummy
+|-damage|p2a: yummy|74/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743799806
+|move|p1a: Great Tusk|Knock Off|p2a: yummy
+|-supereffective|p2a: yummy
+|-damage|p2a: yummy|12/100
+|-enditem|p2a: yummy|Assault Vest|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: yummy|Matcha Gotcha|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|3/100
+|-heal|p2a: yummy|71/100|[from] drain|[of] p1a: Great Tusk
+|-status|p1a: Great Tusk|brn
+|
+|-damage|p1a: Great Tusk|0 fnt|[from] brn
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|upkeep
+|inactive|Jrbrbr has 120 seconds left.
+|
+|t:|1743799818
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|-item|p1a: Pecharunt|Air Balloon
+|turn|6
+|
+|t:|1743799821
+|move|p1a: Pecharunt|Malignant Chain|p2a: yummy
+|-damage|p2a: yummy|37/100
+|-status|p2a: yummy|tox
+|-start|p2a: yummy|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|-activate|p2a: yummy|confusion
+|move|p2a: yummy|Shadow Ball|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|37/100
+|-enditem|p1a: Pecharunt|Air Balloon
+|
+|-damage|p2a: yummy|31/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743799830
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|87/100
+|-end|p2a: yummy|confusion
+|move|p2a: yummy|Shadow Ball|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|11/100
+|-unboost|p1a: Pecharunt|spd|1
+|
+|-damage|p2a: yummy|19/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743799836
+|move|p1a: Pecharunt|Parting Shot|p2a: yummy
+|-unboost|p2a: yummy|atk|1
+|-unboost|p2a: yummy|spa|1
+|
+|t:|1743799839
+|switch|p1a: Gliscor|Gliscor, M|72/100 tox|[from] Parting Shot
+|move|p2a: yummy|Shadow Ball|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|15/100 tox
+|
+|-heal|p1a: Gliscor|28/100 tox|[from] ability: Poison Heal
+|-damage|p2a: yummy|0 fnt|[from] psn
+|faint|p2a: yummy
+|upkeep
+|
+|t:|1743799844
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|9
+|
+|t:|1743799859
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|-heal|p1a: Gliscor|40/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|t:|1743799867
+|move|p2a: Garchomp|Outrage|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743799874
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|11
+|
+|t:|1743799876
+|-terastallize|p1a: Kingambit|Fairy
+|move|p2a: Garchomp|Outrage|p1a: Kingambit|[from] lockedmove
+|-immune|p1a: Kingambit
+|-start|p2a: Garchomp|confusion|[fatigue]
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|12
+|
+|t:|1743799887
+|-terastallize|p2a: Garchomp|Steel
+|-activate|p2a: Garchomp|confusion
+|-damage|p2a: Garchomp|64/100|[from] confusion
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Kingambit|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1743799893
+|switch|p2a: Lucario|Lucario, M|100/100
+|turn|13
+|
+|t:|1743799900
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Pecharunt|Pecharunt|11/100
+|move|p2a: Lucario|Flash Cannon|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1743799910
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|turn|14
+|
+|t:|1743799912
+|move|p2a: Lucario|Aura Sphere|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|49/100
+|move|p1a: Garganacl|Salt Cure|p2a: Lucario
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|97/100
+|-start|p2a: Lucario|Salt Cure
+|
+|-heal|p1a: Garganacl|55/100|[from] item: Leftovers
+|-damage|p2a: Lucario|72/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1743799919
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Lucario|Aura Sphere|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p1a: Garganacl|61/100|[from] item: Leftovers
+|-damage|p2a: Lucario|47/100|[from] Salt Cure
+|upkeep
+|turn|16
+|
+|t:|1743799921
+|move|p2a: Lucario|Aura Sphere|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|1/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|51/100
+|
+|-heal|p1a: Garganacl|57/100|[from] item: Leftovers
+|-damage|p2a: Lucario|22/100|[from] Salt Cure
+|upkeep
+|turn|17
+|
+|t:|1743799927
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Garganacl|atk|1
+|move|p1a: Garganacl|Protect||[still]
+|-fail|p1a: Garganacl
+|
+|-heal|p1a: Garganacl|63/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743799934
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Arcanine|Close Combat|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p1a: Garganacl|70/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743799940
+|switch|p1a: Kingambit|Kingambit, M, tera:Fairy|88/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|move|p2a: Arcanine|Close Combat|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|73/100
+|-unboost|p2a: Arcanine|def|1
+|-unboost|p2a: Arcanine|spd|1
+|
+|upkeep
+|turn|20
+|
+|t:|1743799953
+|switch|p2a: Slither Wing|Slither Wing|75/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|21
+|
+|t:|1743799958
+|move|p2a: Slither Wing|Earthquake|p1a: Kingambit
+|-damage|p1a: Kingambit|48/100
+|move|p1a: Kingambit|Iron Head|p2a: Slither Wing
+|-damage|p2a: Slither Wing|0 fnt
+|faint|p2a: Slither Wing
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743799962
+|switch|p2a: Lucario|Lucario, M|22/100
+|turn|22
+|
+|t:|1743799966
+|move|p1a: Kingambit|Sucker Punch|p2a: Lucario
+|-resisted|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|upkeep
+|
+|t:|1743799970
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|turn|23
+|
+|t:|1743799981
+|move|p1a: Kingambit|Sucker Punch|p2a: Arcanine
+|-damage|p2a: Arcanine|8/100
+|move|p2a: Arcanine|Head Smash|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|-damage|p2a: Arcanine|0 fnt|[from] Recoil
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|t:|1743799984
+|switch|p2a: racecare|Iron Treads, shiny|94/100
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|24
+|
+|t:|1743799987
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: racecare|[anim] Ivy Cudgel Water
+|-supereffective|p2a: racecare
+|-damage|p2a: racecare|0 fnt
+|faint|p2a: racecare
+|-end|p2a: racecare|Quark Drive|[silent]
+|
+|win|Jrbrbr
+|raw|Jrbrbr's rating: 1100 &rarr; <strong>1126</strong><br />(+26 for winning)
+|raw|hallo darkniss's rating: 1118 &rarr; <strong>1092</strong><br />(-26 for losing)
+|l|☆hallo darkniss
+|player|p2|

@@ -1,0 +1,690 @@
+|j|☆second beach
+|j|☆fractal_face
+|t:|1743837305
+|gametype|singles
+|player|p1|second beach|pilot|1148
+|player|p2|fractal_face|ghetsis-gen5bw|1100
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Ursaluna, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Wo-Chien|
+|poke|p2|Araquanid, M|
+|poke|p2|Garganacl, F|
+|poke|p2|Great Tusk|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Zapdos|
+|poke|p2|Clefable, F|
+|teampreview
+|
+|t:|1743837310
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|switch|p2a: Clefable|Clefable, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1743837320
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: second beach|move: Aurora Veil
+|move|p2a: Clefable|Trick|p1a: Ninetales
+|-activate|p2a: Clefable|move: Trick|[of] p1a: Ninetales
+|-item|p1a: Ninetales|Ability Shield|[from] move: Trick
+|-item|p2a: Clefable|Light Clay|[from] move: Trick
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743837335
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|move|p1a: Ninetales|Blizzard|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|86/100
+|-status|p2a: Araquanid|frz
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743837353
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|cant|p2a: Araquanid|frz
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743837362
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|-curestatus|p2a: Araquanid|frz|[msg]
+|move|p2a: Araquanid|Leech Life|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|79/100
+|-heal|p2a: Araquanid|98/100|[from] drain|[of] p1a: Ogerpon
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743837374
+|move|p1a: Ogerpon|Horn Leech|p2a: Araquanid
+|-damage|p2a: Araquanid|14/100
+|-heal|p1a: Ogerpon|100/100|[from] drain|[of] p2a: Araquanid
+|move|p2a: Araquanid|Sticky Web|p1a: Ogerpon
+|-sidestart|p1: second beach|move: Sticky Web
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1743837385
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|move|p1a: Ogerpon|Horn Leech|p2a: Goodra
+|-ability|p2a: Goodra|Sap Sipper|boost
+|-boost|p2a: Goodra|atk|1
+|
+|upkeep
+|turn|7
+|
+|t:|1743837396
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|move|p2a: Goodra|Sludge Bomb|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|71/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743837410
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Goodra|[anim] Ivy Cudgel Water
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|15/100
+|move|p2a: Goodra|Sludge Bomb|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-crit|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-sideend|p1: second beach|move: Aurora Veil
+|upkeep
+|
+|t:|1743837417
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|9
+|
+|t:|1743837425
+|move|p1a: Dragonite|Extreme Speed|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|upkeep
+|
+|t:|1743837442
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|turn|10
+|
+|t:|1743837456
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-activate|p1a: Ninetales|move: Sticky Web
+|-unboost|p1a: Ninetales|spe|1
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Garganacl|Ice Punch|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|90/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743837474
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: second beach|move: Aurora Veil
+|move|p2a: Garganacl|Stealth Rock|p1a: Ninetales
+|-sidestart|p1: second beach|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743837484
+|move|p1a: Ninetales|Blizzard|p2a: Garganacl
+|-damage|p2a: Garganacl|68/100
+|move|p2a: Garganacl|Salt Cure|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|79/100
+|-start|p1a: Ninetales|Salt Cure
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Garganacl|75/100|[from] item: Leftovers
+|-damage|p1a: Ninetales|67/100|[from] Salt Cure
+|upkeep
+|turn|13
+|
+|t:|1743837501
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-activate|p1a: Ting-Lu|move: Sticky Web
+|-unboost|p1a: Ting-Lu|spe|1
+|-damage|p1a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743837518
+|move|p2a: Garganacl|Ice Punch|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|87/100
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Garganacl
+|-sidestart|p2: fractal_face|move: Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|t:|1743837529
+|switch|p2a: Araquanid|Araquanid, M|14/100
+|move|p1a: Ting-Lu|Whirlwind|p2a: Araquanid
+|drag|p2a: Zapdos|Zapdos|100/100
+|-damage|p2a: Zapdos|76/100|[from] Stealth Rock
+|-ability|p2a: Zapdos|Pressure
+|
+|-sideend|p1: second beach|move: Aurora Veil
+|upkeep
+|turn|16
+|
+|t:|1743837544
+|move|p2a: Zapdos|Brave Bird|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|67/100
+|-damage|p2a: Zapdos|67/100|[from] Recoil
+|move|p1a: Ting-Lu|Whirlwind|p2a: Zapdos
+|drag|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|
+|upkeep
+|turn|17
+|
+|t:|1743837554
+|move|p2a: Great Tusk|Close Combat|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|1/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-enditem|p1a: Ting-Lu|Sitrus Berry|[eat]
+|-heal|p1a: Ting-Lu|26/100|[from] item: Sitrus Berry
+|move|p1a: Ting-Lu|Whirlwind|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|drag|p2a: Garganacl|Garganacl, F|100/100
+|-damage|p2a: Garganacl|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Garganacl|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743837569
+|move|p2a: Garganacl|Ice Punch|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|11/100
+|move|p1a: Ting-Lu|Whirlwind|p2a: Garganacl
+|drag|p2a: Araquanid|Araquanid, M|14/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743837576
+|move|p2a: Araquanid|Giga Drain|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|-heal|p2a: Araquanid|22/100|[from] drain|[of] p1a: Ting-Lu
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743837584
+|switch|p1a: Wo-Chien|Wo-Chien|100/100
+|-activate|p1a: Wo-Chien|move: Sticky Web
+|-unboost|p1a: Wo-Chien|spe|1
+|-damage|p1a: Wo-Chien|88/100|[from] Stealth Rock
+|-ability|p1a: Wo-Chien|Tablets of Ruin
+|turn|20
+|
+|t:|1743837592
+|move|p1a: Wo-Chien|Protect|p1a: Wo-Chien
+|-singleturn|p1a: Wo-Chien|Protect
+|move|p2a: Araquanid|Leech Life|p1a: Wo-Chien
+|-activate|p1a: Wo-Chien|move: Protect
+|
+|-heal|p1a: Wo-Chien|94/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743837599
+|move|p1a: Wo-Chien|Leech Seed|p2a: Araquanid
+|-start|p2a: Araquanid|move: Leech Seed
+|move|p2a: Araquanid|Leech Life|p1a: Wo-Chien
+|-supereffective|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|46/100
+|-heal|p2a: Araquanid|49/100|[from] drain|[of] p1a: Wo-Chien
+|
+|-heal|p1a: Wo-Chien|52/100|[from] item: Leftovers
+|-damage|p2a: Araquanid|36/100|[from] Leech Seed|[of] p1a: Wo-Chien
+|-heal|p1a: Wo-Chien|63/100|[silent]
+|upkeep
+|turn|22
+|
+|t:|1743837605
+|move|p1a: Wo-Chien|Protect|p1a: Wo-Chien
+|-singleturn|p1a: Wo-Chien|Protect
+|move|p2a: Araquanid|Leech Life|p1a: Wo-Chien
+|-activate|p1a: Wo-Chien|move: Protect
+|
+|-heal|p1a: Wo-Chien|70/100|[from] item: Leftovers
+|-damage|p2a: Araquanid|24/100|[from] Leech Seed|[of] p1a: Wo-Chien
+|-heal|p1a: Wo-Chien|81/100|[silent]
+|upkeep
+|turn|23
+|
+|t:|1743837610
+|move|p1a: Wo-Chien|Substitute|p1a: Wo-Chien
+|-start|p1a: Wo-Chien|Substitute
+|-damage|p1a: Wo-Chien|56/100
+|move|p2a: Araquanid|Leech Life|p1a: Wo-Chien
+|-supereffective|p1a: Wo-Chien
+|-end|p1a: Wo-Chien|Substitute
+|-heal|p2a: Araquanid|38/100|[from] drain|[of] p1a: Wo-Chien
+|
+|-heal|p1a: Wo-Chien|62/100|[from] item: Leftovers
+|-damage|p2a: Araquanid|25/100|[from] Leech Seed|[of] p1a: Wo-Chien
+|-heal|p1a: Wo-Chien|73/100|[silent]
+|upkeep
+|turn|24
+|
+|t:|1743837614
+|move|p1a: Wo-Chien|Protect|p1a: Wo-Chien
+|-singleturn|p1a: Wo-Chien|Protect
+|move|p2a: Araquanid|Leech Life|p1a: Wo-Chien
+|-activate|p1a: Wo-Chien|move: Protect
+|
+|-heal|p1a: Wo-Chien|80/100|[from] item: Leftovers
+|-damage|p2a: Araquanid|13/100|[from] Leech Seed|[of] p1a: Wo-Chien
+|-heal|p1a: Wo-Chien|91/100|[silent]
+|upkeep
+|turn|25
+|
+|t:|1743837616
+|move|p1a: Wo-Chien|Substitute|p1a: Wo-Chien
+|-start|p1a: Wo-Chien|Substitute
+|-damage|p1a: Wo-Chien|66/100
+|move|p2a: Araquanid|Leech Life|p1a: Wo-Chien
+|-supereffective|p1a: Wo-Chien
+|-end|p1a: Wo-Chien|Substitute
+|-heal|p2a: Araquanid|27/100|[from] drain|[of] p1a: Wo-Chien
+|
+|-heal|p1a: Wo-Chien|72/100|[from] item: Leftovers
+|-damage|p2a: Araquanid|14/100|[from] Leech Seed|[of] p1a: Wo-Chien
+|-heal|p1a: Wo-Chien|83/100|[silent]
+|upkeep
+|turn|26
+|
+|t:|1743837626
+|move|p1a: Wo-Chien|Protect|p1a: Wo-Chien
+|-singleturn|p1a: Wo-Chien|Protect
+|move|p2a: Araquanid|Leech Life|p1a: Wo-Chien
+|-activate|p1a: Wo-Chien|move: Protect
+|
+|-heal|p1a: Wo-Chien|89/100|[from] item: Leftovers
+|-damage|p2a: Araquanid|2/100|[from] Leech Seed|[of] p1a: Wo-Chien
+|-heal|p1a: Wo-Chien|100/100|[silent]
+|upkeep
+|turn|27
+|
+|t:|1743837638
+|move|p1a: Wo-Chien|Substitute|p1a: Wo-Chien
+|-start|p1a: Wo-Chien|Substitute
+|-damage|p1a: Wo-Chien|75/100
+|move|p2a: Araquanid|Leech Life|p1a: Wo-Chien
+|-supereffective|p1a: Wo-Chien
+|-end|p1a: Wo-Chien|Substitute
+|-heal|p2a: Araquanid|16/100|[from] drain|[of] p1a: Wo-Chien
+|
+|-heal|p1a: Wo-Chien|82/100|[from] item: Leftovers
+|-damage|p2a: Araquanid|3/100|[from] Leech Seed|[of] p1a: Wo-Chien
+|-heal|p1a: Wo-Chien|93/100|[silent]
+|upkeep
+|turn|28
+|
+|t:|1743837646
+|move|p1a: Wo-Chien|Substitute|p1a: Wo-Chien
+|-start|p1a: Wo-Chien|Substitute
+|-damage|p1a: Wo-Chien|68/100
+|move|p2a: Araquanid|Giga Drain|p1a: Wo-Chien
+|-resisted|p1a: Wo-Chien
+|-activate|p1a: Wo-Chien|move: Substitute|[damage]
+|-heal|p2a: Araquanid|6/100|[from] drain|[of] p1a: Wo-Chien
+|
+|-heal|p1a: Wo-Chien|74/100|[from] item: Leftovers
+|-damage|p2a: Araquanid|0 fnt|[from] Leech Seed|[of] p1a: Wo-Chien
+|-heal|p1a: Wo-Chien|79/100|[silent]
+|faint|p2a: Araquanid
+|upkeep
+|
+|t:|1743837649
+|switch|p2a: Great Tusk|Great Tusk|98/100
+|-damage|p2a: Great Tusk|95/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1743837661
+|move|p2a: Great Tusk|Rapid Spin|p1a: Wo-Chien
+|-activate|p1a: Wo-Chien|move: Substitute|[damage]
+|-sideend|p2: fractal_face|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: Wo-Chien|Leech Seed|p2a: Great Tusk
+|-start|p2a: Great Tusk|move: Leech Seed
+|
+|-heal|p1a: Wo-Chien|85/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|82/100|[from] Leech Seed|[of] p1a: Wo-Chien
+|-heal|p1a: Wo-Chien|98/100|[silent]
+|upkeep
+|turn|30
+|
+|t:|1743837682
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|67/100
+|-ability|p2a: Zapdos|Pressure
+|move|p1a: Wo-Chien|Protect||[still]
+|-fail|p1a: Wo-Chien
+|
+|-heal|p1a: Wo-Chien|100/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1743837692
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Wo-Chien|Leech Seed|p2a: Zapdos
+|-start|p2a: Zapdos|move: Leech Seed
+|
+|-damage|p2a: Zapdos|88/100|[from] Leech Seed|[of] p1a: Wo-Chien
+|upkeep
+|turn|32
+|
+|t:|1743837704
+|move|p1a: Wo-Chien|Protect|p1a: Wo-Chien
+|-singleturn|p1a: Wo-Chien|Protect
+|move|p2a: Zapdos|Brave Bird|p1a: Wo-Chien
+|-activate|p1a: Wo-Chien|move: Protect
+|
+|-damage|p2a: Zapdos|76/100|[from] Leech Seed|[of] p1a: Wo-Chien
+|upkeep
+|turn|33
+|
+|t:|1743837721
+|move|p2a: Zapdos|Brave Bird|p1a: Wo-Chien
+|-supereffective|p1a: Wo-Chien
+|-end|p1a: Wo-Chien|Substitute
+|-damage|p2a: Zapdos|73/100|[from] Recoil|[of] p1a: Wo-Chien
+|move|p1a: Wo-Chien|Giga Drain|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|61/100
+|
+|-damage|p2a: Zapdos|49/100|[from] Leech Seed|[of] p1a: Wo-Chien
+|upkeep
+|turn|34
+|
+|t:|1743837732
+|move|p1a: Wo-Chien|Protect|p1a: Wo-Chien
+|-singleturn|p1a: Wo-Chien|Protect
+|move|p2a: Zapdos|Brave Bird|p1a: Wo-Chien
+|-activate|p1a: Wo-Chien|move: Protect
+|
+|-damage|p2a: Zapdos|37/100|[from] Leech Seed|[of] p1a: Wo-Chien
+|upkeep
+|turn|35
+|
+|t:|1743837742
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|87/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Wo-Chien|Substitute|p1a: Wo-Chien
+|-start|p1a: Wo-Chien|Substitute
+|-damage|p1a: Wo-Chien|75/100
+|
+|-heal|p1a: Wo-Chien|82/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|75/100|[from] Leech Seed|[of] p1a: Wo-Chien
+|-heal|p1a: Wo-Chien|94/100|[silent]
+|upkeep
+|turn|36
+|
+|t:|1743837756
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Wo-Chien|Protect||[still]
+|-fail|p1a: Wo-Chien
+|
+|-heal|p1a: Wo-Chien|100/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1743837766
+|move|p2a: Clefable|Alluring Voice|p1a: Wo-Chien
+|-supereffective|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|58/100
+|move|p1a: Wo-Chien|Leech Seed|p2a: Clefable
+|-start|p2a: Clefable|move: Leech Seed
+|
+|-heal|p1a: Wo-Chien|64/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1743837773
+|move|p1a: Wo-Chien|Protect|p1a: Wo-Chien
+|-singleturn|p1a: Wo-Chien|Protect
+|move|p2a: Clefable|Alluring Voice|p1a: Wo-Chien
+|-activate|p1a: Wo-Chien|move: Protect
+|
+|-heal|p1a: Wo-Chien|70/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|
+|t:|1743837781
+|move|p2a: Clefable|Alluring Voice|p1a: Wo-Chien
+|-supereffective|p1a: Wo-Chien
+|-crit|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|6/100
+|move|p1a: Wo-Chien|Giga Drain|p2a: Clefable
+|-damage|p2a: Clefable|77/100
+|-heal|p1a: Wo-Chien|19/100|[from] drain|[of] p2a: Clefable
+|
+|-heal|p1a: Wo-Chien|25/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1743837791
+|move|p1a: Wo-Chien|Protect|p1a: Wo-Chien
+|-singleturn|p1a: Wo-Chien|Protect
+|move|p2a: Clefable|Draining Kiss|p1a: Wo-Chien
+|-activate|p1a: Wo-Chien|move: Protect
+|
+|-heal|p1a: Wo-Chien|31/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1743837798
+|move|p2a: Clefable|Alluring Voice|p1a: Wo-Chien
+|-supereffective|p1a: Wo-Chien
+|-damage|p1a: Wo-Chien|0 fnt
+|faint|p1a: Wo-Chien
+|
+|upkeep
+|
+|t:|1743837802
+|switch|p1a: Ninetales|Ninetales-Alola, M|67/100
+|-activate|p1a: Ninetales|move: Sticky Web
+|-unboost|p1a: Ninetales|spe|1
+|-damage|p1a: Ninetales|42/100|[from] Stealth Rock
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|42
+|
+|t:|1743837809
+|switch|p2a: Garganacl|Garganacl, F|94/100
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: second beach|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1743837819
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|-activate|p1a: Ursaluna|move: Sticky Web
+|-unboost|p1a: Ursaluna|spe|1
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|move|p2a: Garganacl|Salt Cure|p1a: Ursaluna
+|-resisted|p1a: Ursaluna
+|-damage|p1a: Ursaluna|91/100
+|-start|p1a: Ursaluna|Salt Cure
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Ursaluna|79/100|[from] Salt Cure
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|44
+|
+|t:|1743837832
+|-terastallize|p1a: Ursaluna|Normal
+|move|p1a: Ursaluna|Facade|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|57/100
+|move|p2a: Garganacl|Ice Punch|p1a: Ursaluna
+|-damage|p1a: Ursaluna|72/100 brn
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Garganacl|63/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|66/100 brn|[from] brn
+|-damage|p1a: Ursaluna|54/100 brn|[from] Salt Cure
+|upkeep
+|turn|45
+|
+|t:|1743837845
+|move|p1a: Ursaluna|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Ursaluna|48/100 brn|[from] brn
+|-damage|p1a: Ursaluna|35/100 brn|[from] Salt Cure
+|upkeep
+|
+|t:|1743837856
+|switch|p2a: Clefable|Clefable, F|77/100
+|turn|46
+|
+|t:|1743837874
+|move|p2a: Clefable|Draining Kiss|p1a: Ursaluna
+|-damage|p1a: Ursaluna|23/100 brn
+|-heal|p2a: Clefable|86/100|[from] drain|[of] p1a: Ursaluna
+|move|p1a: Ursaluna|Facade|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-weather|none
+|-damage|p1a: Ursaluna|17/100 brn|[from] brn
+|-damage|p1a: Ursaluna|5/100 brn|[from] Salt Cure
+|-sideend|p1: second beach|move: Aurora Veil
+|upkeep
+|
+|t:|1743837888
+|switch|p2a: Zapdos|Zapdos|75/100
+|-ability|p2a: Zapdos|Pressure
+|turn|47
+|
+|t:|1743837894
+|move|p2a: Zapdos|U-turn|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|t:|1743837898
+|switch|p2a: Great Tusk|Great Tusk|82/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743837901
+|switch|p1a: Ninetales|Ninetales-Alola, M|42/100
+|-activate|p1a: Ninetales|move: Sticky Web
+|-unboost|p1a: Ninetales|spe|1
+|-damage|p1a: Ninetales|17/100|[from] Stealth Rock
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|48
+|
+|t:|1743837910
+|move|p2a: Great Tusk|Earthquake|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743837914
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|-damage|p1a: Dragonite|75/100|[from] Stealth Rock
+|turn|49
+|
+|t:|1743837920
+|move|p2a: Great Tusk|Close Combat|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|44/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Dragonite|Outrage|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743837924
+|switch|p2a: Zapdos|Zapdos|75/100
+|-ability|p2a: Zapdos|Pressure
+|turn|50
+|
+|t:|1743837934
+|move|p2a: Zapdos|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|11/100
+|move|p1a: Dragonite|Outrage|p2a: Zapdos|[from] lockedmove
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|win|second beach
+|raw|second beach's rating: 1148 &rarr; <strong>1170</strong><br />(+22 for winning)
+|raw|fractal_face's rating: 1100 &rarr; <strong>1078</strong><br />(-22 for losing)
+|l|☆fractal_face
+|player|p2|
+|l|☆second beach
+|player|p1|

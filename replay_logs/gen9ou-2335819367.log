@@ -1,0 +1,213 @@
+|j|☆UTF4N
+|j|☆dikuccv
+|t:|1743842310
+|gametype|singles
+|player|p1|UTF4N|palmer|1214
+|player|p2|dikuccv|2|1231
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Thundurus, M|
+|poke|p1|Forretress, F|
+|poke|p1|Klefki, F|
+|poke|p1|Chandelure, F|
+|poke|p1|Krookodile, F|
+|poke|p1|Tinkaton, F|
+|poke|p2|Iron Crown|
+|poke|p2|Iron Hands|
+|poke|p2|Great Tusk|
+|poke|p2|Glimmora, M|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Salamence, F|
+|teampreview
+|
+|t:|1743842317
+|start
+|switch|p1a: Forretress|Forretress, F|100/100
+|switch|p2a: ZachuVGC|Iron Hands|100/100
+|turn|1
+|
+|t:|1743842321
+|move|p2a: ZachuVGC|Swords Dance|p2a: ZachuVGC
+|-boost|p2a: ZachuVGC|atk|2
+|move|p1a: Forretress|Stealth Rock|p2a: ZachuVGC
+|-sidestart|p2: dikuccv|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dikuccv)
+|
+|t:|1743842325
+|move|p2a: ZachuVGC|Drain Punch|p1a: Forretress
+|-crit|p1a: Forretress
+|-damage|p1a: Forretress|33/100
+|move|p1a: Forretress|Body Press|p2a: ZachuVGC
+|-damage|p2a: ZachuVGC|81/100
+|
+|-heal|p2a: ZachuVGC|87/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743842328
+|move|p2a: ZachuVGC|Drain Punch|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|-heal|p2a: ZachuVGC|98/100|[from] drain|[of] p1a: Forretress
+|faint|p1a: Forretress
+|
+|-heal|p2a: ZachuVGC|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743842332
+|switch|p1a: Klefki|Klefki, F|100/100
+|turn|4
+|
+|t:|1743842339
+|-terastallize|p2a: ZachuVGC|Steel
+|move|p1a: Klefki|Switcheroo|p2a: ZachuVGC
+|-activate|p1a: Klefki|move: Trick|[of] p2a: ZachuVGC
+|-item|p2a: ZachuVGC|Choice Scarf|[from] move: Switcheroo
+|-item|p1a: Klefki|Leftovers|[from] move: Switcheroo
+|move|p2a: ZachuVGC|Thunder Punch|p1a: Klefki
+|-damage|p1a: Klefki|34/100
+|
+|-heal|p1a: Klefki|39/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743842346
+|move|p1a: Klefki|Thunder Wave|p2a: ZachuVGC
+|-status|p2a: ZachuVGC|par
+|move|p2a: ZachuVGC|Thunder Punch|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|
+|upkeep
+|
+|t:|1743842351
+|switch|p1a: Krookodile|Krookodile, F|100/100
+|turn|6
+|
+|t:|1743842367
+|-end|p2a: ZachuVGC|Quark Drive|[silent]
+|switch|p2a: Salamence|Salamence, F|100/100
+|-damage|p2a: Salamence|75/100|[from] Stealth Rock
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Krookodile|atk|1
+|move|p1a: Krookodile|Earthquake|p2a: Salamence
+|-immune|p2a: Salamence
+|
+|upkeep
+|turn|7
+|
+|t:|1743842375
+|switch|p1a: Thundurus|Thundurus, M|100/100
+|move|p2a: Salamence|Earthquake|p1a: Thundurus
+|-immune|p1a: Thundurus
+|
+|upkeep
+|turn|8
+|
+|t:|1743842378
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|move|p1a: Thundurus|Thunder Wave|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|
+|upkeep
+|turn|9
+|
+|t:|1743842386
+|move|p2a: Great Tusk|Rapid Spin|p1a: Thundurus
+|-damage|p1a: Thundurus|77/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: dikuccv|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Thundurus|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|91/100
+|
+|t:|1743842392
+|switch|p1a: Tinkaton|Tinkaton, F|100/100|[from] U-turn
+|-ability|p1a: Tinkaton|Mold Breaker
+|-item|p1a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|10
+|
+|t:|1743842396
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Tinkaton|Play Rough|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|62/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743842403
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Tinkaton|Swords Dance|p1a: Tinkaton
+|-boost|p1a: Tinkaton|atk|2
+|
+|upkeep
+|turn|12
+|
+|t:|1743842408
+|move|p2a: Great Tusk|Ice Spinner|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|70/100
+|-enditem|p1a: Tinkaton|Air Balloon
+|move|p1a: Tinkaton|Play Rough|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|22/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743842415
+|-terastallize|p1a: Tinkaton|Water
+|move|p2a: Great Tusk|Headlong Rush|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Tinkaton
+|
+|upkeep
+|c|☆UTF4N|hmm
+|
+|t:|1743842431
+|switch|p1a: Krookodile|Krookodile, F|100/100
+|turn|14
+|
+|t:|1743842450
+|move|p2a: Great Tusk|Ice Spinner|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|faint|p1a: Krookodile
+|
+|upkeep
+|-message|UTF4N forfeited.
+|
+|win|dikuccv
+|raw|UTF4N's rating: 1214 &rarr; <strong>1190</strong><br />(-24 for losing)
+|raw|dikuccv's rating: 1231 &rarr; <strong>1255</strong><br />(+24 for winning)
+|l|☆UTF4N
+|player|p1|
+|c|☆dikuccv|Awwwww
+|l|☆dikuccv
+|player|p2|

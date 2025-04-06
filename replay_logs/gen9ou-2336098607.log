@@ -1,0 +1,300 @@
+|j|☆blufferfish2009!
+|j|☆Choso2go
+|t:|1743878655
+|gametype|singles
+|player|p1|blufferfish2009!|iris-gen5bw2|1642
+|player|p2|Choso2go|roxie|1636
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Magnezone|
+|poke|p1|Ting-Lu|
+|poke|p1|Sinistcha|
+|poke|p1|Scizor, F|
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p2|Torkoal, M|
+|poke|p2|Ninetales, F|
+|poke|p2|Walking Wake|
+|poke|p2|Slither Wing|
+|poke|p2|Great Tusk|
+|poke|p2|Charizard, M|
+|teampreview
+|
+|t:|1743878674
+|start
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Torkoal|Torkoal, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|1
+|
+|t:|1743878678
+|move|p1a: Walking Wake|Draco Meteor|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743878691
+|switch|p2a: Slither Wing|Slither Wing, shiny|100/100
+|-activate|p2a: Slither Wing|ability: Protosynthesis
+|-start|p2a: Slither Wing|protosynthesisatk
+|turn|2
+|
+|t:|1743878703
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Scizor|Scizor, F|100/100
+|move|p2a: Slither Wing|U-turn|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|53/100
+|
+|t:|1743878735
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Burn|Charizard, M, shiny|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Burn|88/100|[from] ability: Solar Power|[of] p2a: Burn
+|upkeep
+|turn|3
+|
+|t:|1743878746
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|move|p2a: Burn|Solar Beam||[still]
+|-prepare|p2a: Burn|Solar Beam
+|-anim|p2a: Burn|Solar Beam|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Burn|76/100|[from] ability: Solar Power|[of] p2a: Burn
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Choso2go)
+|
+|t:|1743878764
+|switch|p1a: Scizor|Scizor, F|53/100
+|turn|4
+|
+|t:|1743878770
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Scizor|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|80/100
+|
+|t:|1743878774
+|switch|p1a: Sinistcha|Sinistcha|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743878785
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Burn|Charizard, M, shiny|76/100
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Burn
+|-resisted|p2a: Burn
+|-damage|p2a: Burn|66/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1743878792
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Burn|Overheat|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|65/100
+|-unboost|p2a: Burn|spa|2
+|
+|-heal|p1a: Ting-Lu|71/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743878796
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Ting-Lu|Spikes|p2a: Ninetales
+|-sidestart|p2: Choso2go|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ting-Lu|77/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743878804
+|switch|p2a: Great Tusk|Great Tusk, shiny|80/100
+|-damage|p2a: Great Tusk|68/100|[from] Spikes
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Ting-Lu|Spikes|p2a: Great Tusk
+|-sidestart|p2: Choso2go|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ting-Lu|83/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743878810
+|switch|p1a: Sinistcha|Sinistcha|100/100
+|move|p2a: Great Tusk|Knock Off|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|36/100
+|-enditem|p1a: Sinistcha|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743878815
+|move|p2a: Great Tusk|Knock Off|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743878818
+|switch|p1a: Ting-Lu|Ting-Lu|83/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|11
+|
+|t:|1743878822
+|-terastallize|p1a: Ting-Lu|Ghost
+|move|p2a: Great Tusk|Rapid Spin|p1a: Ting-Lu
+|-immune|p1a: Ting-Lu
+|move|p1a: Ting-Lu|Spikes|p2a: Great Tusk
+|-sidestart|p2: Choso2go|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ting-Lu|90/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743878841
+|move|p2a: Great Tusk|Knock Off|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|37/100
+|-enditem|p1a: Ting-Lu|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Ting-Lu|Ruination|p2a: Great Tusk
+|-damage|p2a: Great Tusk|34/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743878847
+|move|p2a: Great Tusk|Headlong Rush|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-enditem|p2a: Great Tusk|Eject Pack
+|faint|p1a: Ting-Lu
+|
+|t:|1743878851
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Burn|Charizard, M, shiny|66/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Burn|54/100|[from] ability: Solar Power|[of] p2a: Burn
+|upkeep
+|
+|t:|1743878855
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisspe
+|turn|14
+|
+|t:|1743878860
+|move|p1a: Great Tusk|Close Combat|p2a: Burn
+|-resisted|p2a: Burn
+|-crit|p2a: Burn
+|-damage|p2a: Burn|3/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Burn|Flamethrower|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743878865
+|switch|p1a: Scizor|Scizor, F|53/100
+|turn|15
+|
+|t:|1743878867
+|move|p1a: Scizor|Bullet Punch|p2a: Burn
+|-resisted|p2a: Burn
+|-damage|p2a: Burn|0 fnt
+|faint|p2a: Burn
+|
+|upkeep
+|
+|t:|1743878871
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-damage|p2a: Ninetales|76/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|16
+|
+|t:|1743878876
+|move|p1a: Scizor|Bullet Punch|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|45/100
+|move|p2a: Ninetales|Weather Ball|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743878878
+|switch|p1a: Magnezone|Magnezone, shiny|100/100
+|-item|p1a: Magnezone|Air Balloon
+|turn|17
+|
+|t:|1743878881
+|move|p2a: Ninetales|Weather Ball|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|12/100
+|-enditem|p1a: Magnezone|Air Balloon
+|move|p1a: Magnezone|Body Press|p2a: Ninetales
+|-damage|p2a: Ninetales|8/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743878884
+|move|p2a: Ninetales|Weather Ball|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|win|Choso2go
+|raw|blufferfish2009!'s rating: 1642 &rarr; <strong>1622</strong><br />(-20 for losing)
+|raw|Choso2go's rating: 1636 &rarr; <strong>1656</strong><br />(+20 for winning)
+|l|☆blufferfish2009!
+|player|p1|
+|l|☆Choso2go
+|player|p2|

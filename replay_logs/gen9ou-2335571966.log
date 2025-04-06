@@ -1,0 +1,281 @@
+|j|☆Aeroneoooo
+|j|☆ss_shedinja
+|t:|1743807624
+|gametype|singles
+|player|p1|Aeroneoooo|169|1131
+|player|p2|ss_shedinja|iris-gen5bw2|1130
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Arcanine, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Lycanroc-Dusk, F|
+|poke|p1|Mightyena, F|
+|poke|p1|Lucario, F|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p2|Forretress, F|
+|poke|p2|Skeledirge, M|
+|poke|p2|Clodsire, F|
+|poke|p2|Quagsire, M|
+|poke|p2|Iron Thorns|
+|poke|p2|Hydrapple, M|
+|teampreview
+|
+|t:|1743807637
+|start
+|switch|p1a: Arcanine|Arcanine, M|100/100
+|switch|p2a: Forretress|Forretress, F|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Forretress|atk|1
+|turn|1
+|
+|t:|1743807648
+|switch|p2a: Iron Thorns|Iron Thorns|100/100
+|-enditem|p2a: Iron Thorns|Booster Energy
+|-activate|p2a: Iron Thorns|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Thorns|quarkdriveatk
+|move|p1a: Arcanine|Howl|p1a: Arcanine
+|-boost|p1a: Arcanine|atk|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743807657
+|move|p1a: Arcanine|Close Combat|p2a: Iron Thorns
+|-supereffective|p2a: Iron Thorns
+|-damage|p2a: Iron Thorns|0 fnt
+|-unboost|p1a: Arcanine|def|1
+|-unboost|p1a: Arcanine|spd|1
+|faint|p2a: Iron Thorns
+|-end|p2a: Iron Thorns|Quark Drive|[silent]
+|-damage|p1a: Arcanine|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743807677
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|turn|3
+|
+|t:|1743807688
+|switch|p1a: Lycanroc|Lycanroc-Dusk, F|100/100
+|move|p2a: Quagsire|Earthquake|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc
+|-damage|p1a: Lycanroc|6/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743807696
+|move|p1a: Lycanroc|Close Combat|p2a: Quagsire
+|-crit|p2a: Quagsire
+|-damage|p2a: Quagsire|35/100
+|-unboost|p1a: Lycanroc|def|1
+|-unboost|p1a: Lycanroc|spd|1
+|-damage|p1a: Lycanroc|0 fnt|[from] item: Life Orb
+|faint|p1a: Lycanroc
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|85/100
+|
+|upkeep
+|
+|t:|1743807707
+|switch|p1a: Mightyena|Mightyena, F|100/100
+|turn|5
+|
+|t:|1743807718
+|move|p1a: Mightyena|Crunch|p2a: Quagsire
+|-damage|p2a: Quagsire|61/100
+|move|p2a: Quagsire|Toxic|p1a: Mightyena
+|-status|p1a: Mightyena|tox
+|
+|-damage|p1a: Mightyena|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743807724
+|move|p1a: Mightyena|Facade|p2a: Quagsire
+|-damage|p2a: Quagsire|32/100
+|move|p2a: Quagsire|Liquidation|p1a: Mightyena
+|-damage|p1a: Mightyena|50/100 tox
+|
+|-damage|p1a: Mightyena|38/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743807735
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|82/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743807742
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Typhlosion|Shadow Ball|p2a: Clodsire
+|-damage|p2a: Clodsire|72/100
+|-damage|p1a: Typhlosion|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Clodsire|79/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1743807756
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Clodsire|Earthquake|p1a: Zamazenta
+|-damage|p1a: Zamazenta|74/100
+|
+|-heal|p2a: Clodsire|85/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1743807784
+|move|p1a: Zamazenta|Howl|p1a: Zamazenta
+|-boost|p1a: Zamazenta|atk|1
+|move|p2a: Clodsire|Toxic|p1a: Zamazenta
+|-status|p1a: Zamazenta|tox
+|
+|-heal|p2a: Clodsire|91/100|[from] item: Black Sludge
+|-damage|p1a: Zamazenta|68/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743807818
+|move|p1a: Zamazenta|Close Combat|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|43/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|-damage|p1a: Zamazenta|58/100 tox|[from] item: Life Orb
+|move|p2a: Clodsire|Earthquake|p1a: Zamazenta
+|-damage|p1a: Zamazenta|34/100 tox
+|
+|-heal|p2a: Clodsire|49/100|[from] item: Black Sludge
+|-damage|p1a: Zamazenta|22/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743807824
+|move|p1a: Zamazenta|Crunch|p2a: Clodsire
+|-damage|p2a: Clodsire|8/100
+|-unboost|p2a: Clodsire|def|1
+|-damage|p1a: Zamazenta|12/100 tox|[from] item: Life Orb
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|58/100
+|
+|-heal|p2a: Clodsire|64/100|[from] item: Black Sludge
+|-damage|p1a: Zamazenta|0 fnt|[from] psn
+|faint|p1a: Zamazenta
+|upkeep
+|
+|t:|1743807831
+|switch|p1a: Mightyena|Mightyena, F|38/100 tox
+|turn|13
+|
+|t:|1743807835
+|switch|p2a: Forretress|Forretress, F|100/100
+|move|p1a: Mightyena|Facade|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|87/100
+|
+|-damage|p1a: Mightyena|31/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743807841
+|move|p1a: Mightyena|Crunch|p2a: Forretress
+|-damage|p2a: Forretress|67/100
+|move|p2a: Forretress|Stealth Rock|p1a: Mightyena
+|-sidestart|p1: Aeroneoooo|move: Stealth Rock
+|
+|-damage|p1a: Mightyena|19/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743807847
+|move|p1a: Mightyena|Crunch|p2a: Forretress
+|-damage|p2a: Forretress|44/100
+|move|p2a: Forretress|Gyro Ball|p1a: Mightyena
+|-damage|p1a: Mightyena|0 fnt
+|faint|p1a: Mightyena
+|
+|upkeep
+|
+|t:|1743807853
+|switch|p1a: Lucario|Lucario, F|100/100
+|-damage|p1a: Lucario|98/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743807861
+|move|p1a: Lucario|Meteor Mash|p2a: Forretress|[miss]
+|-miss|p1a: Lucario|p2a: Forretress
+|move|p2a: Forretress|Body Press|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|upkeep
+|
+|t:|1743807864
+|switch|p1a: Arcanine|Arcanine, M|91/100
+|-damage|p1a: Arcanine|66/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Forretress|atk|1
+|turn|17
+|
+|t:|1743807869
+|move|p1a: Arcanine|Flare Blitz|p2a: Forretress
+|-supereffective|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|-damage|p1a: Arcanine|50/100|[from] Recoil
+|-damage|p1a: Arcanine|40/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743807872
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|turn|18
+|
+|t:|1743807875
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|91/100
+|-damage|p1a: Typhlosion|66/100|[from] Stealth Rock
+|move|p2a: Skeledirge|Hex|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-crit|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|
+|upkeep
+|
+|t:|1743807880
+|switch|p1a: Arcanine|Arcanine, M|40/100
+|-damage|p1a: Arcanine|15/100|[from] Stealth Rock
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Skeledirge|atk|1
+|turn|19
+|
+|t:|1743807884
+|move|p1a: Arcanine|Flare Blitz|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|72/100
+|-damage|p1a: Arcanine|0 fnt|[from] item: Rocky Helmet|[of] p2a: Skeledirge
+|faint|p1a: Arcanine
+|
+|win|ss_shedinja
+|raw|Aeroneoooo's rating: 1131 &rarr; <strong>1106</strong><br />(-25 for losing)
+|raw|ss_shedinja's rating: 1130 &rarr; <strong>1155</strong><br />(+25 for winning)
+|l|☆ss_shedinja
+|player|p2|

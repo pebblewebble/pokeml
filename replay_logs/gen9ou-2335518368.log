@@ -1,0 +1,307 @@
+|j|☆mayomama
+|j|☆team raging fire
+|t:|1743801877
+|gametype|singles
+|player|p1|mayomama|170|1158
+|player|p2|team raging fire|colress|1248
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Meowscarada, M|
+|poke|p1|Slither Wing|
+|poke|p1|Kyurem|
+|poke|p1|Munkidori, M|
+|poke|p1|Iron Treads|
+|poke|p2|Iron Jugulis|
+|poke|p2|Pincurchin, F|
+|poke|p2|Zebstrika, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Sinistcha|
+|poke|p2|Cryogonal|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mayomama)
+|
+|t:|1743801899
+|start
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|1
+|
+|t:|1743801906
+|move|p1a: Slither Wing|Earthquake|p2a: Pincurchin
+|-supereffective|p2a: Pincurchin
+|-damage|p2a: Pincurchin|33/100
+|move|p2a: Pincurchin|Scald|p1a: Slither Wing
+|-damage|p1a: Slither Wing|88/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743801914
+|switch|p2a: Iron Jugulis|Iron Jugulis|100/100
+|-activate|p2a: Iron Jugulis|ability: Quark Drive
+|-start|p2a: Iron Jugulis|quarkdrivespe
+|move|p1a: Slither Wing|U-turn|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|54/100
+|
+|t:|1743801922
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Meowscarada|Meowscarada, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1743801928
+|move|p1a: Meowscarada|Triple Axel|p2a: Iron Jugulis
+|-start|p1a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-supereffective|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|33/100
+|-hitcount|p2a: Iron Jugulis|1
+|move|p2a: Iron Jugulis|Air Slash|p1a: Meowscarada
+|-damage|p1a: Meowscarada|41/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743801938
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|switch|p2a: Pincurchin|Pincurchin, F|33/100
+|move|p1a: Meowscarada|Triple Axel|p2a: Pincurchin
+|-damage|p2a: Pincurchin|25/100
+|-damage|p2a: Pincurchin|8/100
+|-damage|p2a: Pincurchin|0 fnt
+|faint|p2a: Pincurchin
+|-hitcount|p2: Pincurchin|3
+|
+|upkeep
+|
+|t:|1743801941
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|turn|5
+|
+|t:|1743801946
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-activate|p1a: Iron Treads|ability: Quark Drive
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Cryogonal|Chilling Water|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|64/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743801955
+|switch|p2a: Sinistcha|Sinistcha|100/100
+|move|p1a: Iron Treads|Stealth Rock|p2a: Sinistcha
+|-sidestart|p2: team raging fire|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1743801968
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Meowscarada|Meowscarada, M|41/100
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743801973
+|-terastallize|p2a: Sinistcha|Grass
+|move|p1a: Meowscarada|Knock Off|p2a: Sinistcha
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Sinistcha|59/100
+|-enditem|p2a: Sinistcha|Focus Sash|[from] move: Knock Off|[of] p1a: Meowscarada
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|-heal|p2a: Sinistcha|76/100|[from] drain|[of] p1a: Meowscarada
+|faint|p1a: Meowscarada
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1743801984
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|turn|9
+|
+|t:|1743801995
+|move|p1a: Tornadus|Air Slash|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|25/100
+|move|p2a: Sinistcha|Scald|p1a: Tornadus
+|-damage|p1a: Tornadus|53/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743802001
+|switch|p2a: Cryogonal|Cryogonal|100/100
+|-damage|p2a: Cryogonal|76/100|[from] Stealth Rock
+|move|p1a: Tornadus|Air Slash|p2a: Cryogonal
+|-damage|p2a: Cryogonal|56/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743802005
+|move|p1a: Tornadus|Heat Wave|p2a: Cryogonal
+|-supereffective|p2a: Cryogonal
+|-damage|p2a: Cryogonal|22/100
+|move|p2a: Cryogonal|Rapid Spin|p1a: Tornadus
+|-damage|p1a: Tornadus|45/100
+|-boost|p2a: Cryogonal|spe|1
+|-sideend|p2: team raging fire|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Cryogonal
+|
+|upkeep
+|turn|12
+|
+|t:|1743802011
+|move|p2a: Cryogonal|Freeze-Dry|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|
+|t:|1743802013
+|switch|p1a: Slither Wing|Slither Wing|88/100
+|turn|13
+|
+|t:|1743802019
+|switch|p2a: Sinistcha|Sinistcha, tera:Grass|25/100
+|move|p1a: Slither Wing|First Impression|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|
+|upkeep
+|
+|t:|1743802022
+|switch|p2a: Iron Jugulis|Iron Jugulis|33/100
+|turn|14
+|
+|t:|1743802041
+|-terastallize|p1a: Slither Wing|Poison
+|move|p2a: Iron Jugulis|Air Slash|p1a: Slither Wing
+|-damage|p1a: Slither Wing|55/100
+|move|p1a: Slither Wing|U-turn|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|0 fnt
+|faint|p2a: Iron Jugulis
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|
+|t:|1743802050
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Munkidori|Munkidori, M|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743802070
+|switch|p2a: Zebstrika|Zebstrika, M|100/100
+|turn|15
+|
+|t:|1743802074
+|move|p2a: Zebstrika|High Horsepower|p1a: Munkidori
+|-supereffective|p1a: Munkidori
+|-damage|p1a: Munkidori|0 fnt
+|faint|p1a: Munkidori
+|
+|upkeep
+|
+|t:|1743802081
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|16
+|
+|t:|1743802093
+|switch|p2a: Cryogonal|Cryogonal|22/100
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|
+|upkeep
+|turn|17
+|
+|t:|1743802098
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Cryogonal|Chilling Water|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|94/100
+|-unboost|p1a: Kyurem|atk|1
+|
+|upkeep
+|turn|18
+|
+|t:|1743802113
+|move|p1a: Kyurem|Icicle Spear|p2a: Cryogonal
+|-resisted|p2a: Cryogonal
+|-damage|p2a: Cryogonal|3/100
+|-resisted|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|faint|p2a: Cryogonal
+|-hitcount|p2: Cryogonal|2
+|
+|upkeep
+|
+|t:|1743802142
+|switch|p2a: Zebstrika|Zebstrika, M|100/100
+|turn|19
+|
+|t:|1743802149
+|move|p1a: Kyurem|Icicle Spear|p2a: Zebstrika
+|-damage|p2a: Zebstrika|64/100
+|-damage|p2a: Zebstrika|29/100
+|-damage|p2a: Zebstrika|0 fnt
+|faint|p2a: Zebstrika
+|-hitcount|p2: Zebstrika|3
+|
+|upkeep
+|inactive|team raging fire has 120 seconds left.
+|inactive|team raging fire has 90 seconds left.
+|
+|t:|1743802204
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|20
+|
+|t:|1743802213
+|move|p2a: Raging Bolt|Thunderclap|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|69/100
+|move|p1a: Kyurem|Icicle Spear|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|69/100
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|38/100
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|5/100
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|-hitcount|p2: Raging Bolt|4
+|
+|win|mayomama
+|raw|mayomama's rating: 1158 &rarr; <strong>1189</strong><br />(+31 for winning)
+|raw|team raging fire's rating: 1248 &rarr; <strong>1217</strong><br />(-31 for losing)
+|l|☆mayomama
+|player|p1|
+|l|☆team raging fire
+|player|p2|

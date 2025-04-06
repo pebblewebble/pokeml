@@ -1,0 +1,308 @@
+|j|☆elementral
+|j|☆Adromas
+|t:|1743868908
+|gametype|singles
+|player|p1|elementral|2|1183
+|player|p2|Adromas|clerk|1209
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gliscor, M|
+|poke|p1|Gholdengo|
+|poke|p1|Kingambit, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Moth|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Great Tusk|
+|poke|p2|Klawf, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Clodsire, F|
+|poke|p2|Corviknight, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Adromas)
+|
+|t:|1743868916
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1743868932
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Tyranitar|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ogerpon|95/100|[from] Sandstorm
+|upkeep
+|inactive|Adromas has 120 seconds left.
+|
+|t:|1743868959
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|2
+|inactive|Adromas has 120 seconds left.
+|
+|t:|1743868969
+|-terastallize|p2a: Great Tusk|Water
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Great Tusk|[anim] Ivy Cudgel Water
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|76/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Ogerpon
+|-damage|p1a: Ogerpon|25/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ogerpon|19/100|[from] Sandstorm
+|-damage|p2a: Great Tusk|70/100|[from] Sandstorm
+|upkeep
+|turn|3
+|inactive|Adromas has 120 seconds left.
+|
+|t:|1743868985
+|move|p1a: Ogerpon|Horn Leech|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-heal|p1a: Ogerpon|69/100|[from] drain|[of] p2a: Great Tusk
+|-damage|p1a: Ogerpon|52/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ogerpon|46/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743868994
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|4
+|
+|t:|1743868999
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raging Bolt|94/100|[from] Sandstorm
+|-heal|p1a: Raging Bolt|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743869009
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Clodsire
+|-immune|p2a: Clodsire
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raging Bolt|94/100|[from] Sandstorm
+|-heal|p1a: Raging Bolt|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743869019
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Gliscor|Gliscor, M, shiny|100/100
+|move|p2a: Clodsire|Stealth Rock|p1a: Gliscor
+|-sidestart|p1: elementral|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+|c|☆elementral|why does clodsire look diff?
+|
+|t:|1743869029
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Gliscor|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743869040
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Corviknight|Body Slam|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743869049
+|switch|p1a: Gholdengo|Gholdengo, shiny|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Corviknight|Body Slam|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|10
+|
+|t:|1743869059
+|move|p1a: Gholdengo|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|57/100
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|-heal|p2a: Corviknight|63/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743869075
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|38/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-heal|p2a: Mandibuzz|44/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743869089
+|switch|p1a: Gliscor|Gliscor, M, shiny|100/100 tox
+|-damage|p1a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|94/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p2a: Mandibuzz|100/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|t:|1743869101
+|switch|p2a: Corviknight|Corviknight, F|63/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Gliscor|Toxic|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p2a: Corviknight|69/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743869111
+|switch|p1a: Iron Moth|Iron Moth, shiny|100/100
+|-damage|p1a: Iron Moth|76/100|[from] Stealth Rock
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|15
+|
+|t:|1743869122
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Clodsire
+|-damage|p2a: Clodsire|69/100
+|
+|-heal|p2a: Clodsire|75/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|t:|1743869136
+|move|p1a: Iron Moth|Protect|p1a: Iron Moth
+|-singleturn|p1a: Iron Moth|Protect
+|move|p2a: Clodsire|Toxic|p1a: Iron Moth
+|-activate|p1a: Iron Moth|move: Protect
+|
+|-heal|p2a: Clodsire|81/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|t:|1743869145
+|move|p1a: Iron Moth|Psychic|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-crit|p2a: Clodsire
+|-damage|p2a: Clodsire|15/100
+|move|p2a: Clodsire|Earthquake|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p2a: Clodsire|21/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1743869152
+|switch|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water|46/100
+|-damage|p1a: Ogerpon|34/100|[from] Stealth Rock
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|turn|18
+|
+|t:|1743869161
+|move|p1a: Ogerpon|Horn Leech|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|-heal|p1a: Ogerpon|49/100|[from] drain|[of] p2a: Clodsire
+|faint|p2a: Clodsire
+|
+|upkeep
+|
+|t:|1743869168
+|switch|p2a: Klawf|Klawf, M|100/100
+|turn|19
+|
+|t:|1743869175
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Klawf|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Klawf
+|-crit|p2a: Klawf
+|-enditem|p2a: Klawf|Focus Sash
+|-damage|p2a: Klawf|1/100
+|-ability|p2a: Klawf|Anger Shell|boost
+|-boost|p2a: Klawf|atk|1
+|-boost|p2a: Klawf|spa|1
+|-boost|p2a: Klawf|spe|1
+|-unboost|p2a: Klawf|def|1
+|-unboost|p2a: Klawf|spd|1
+|move|p2a: Klawf|Swords Dance|p2a: Klawf
+|-boost|p2a: Klawf|atk|2
+|
+|upkeep
+|turn|20
+|
+|t:|1743869190
+|move|p1a: Ogerpon|Spiky Shield|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Protect
+|move|p2a: Klawf|Reversal|p1a: Ogerpon
+|-activate|p1a: Ogerpon|move: Protect
+|-damage|p2a: Klawf|0 fnt|[from] Spiky Shield|[of] p1a: Ogerpon
+|faint|p2a: Klawf
+|
+|upkeep
+|
+|t:|1743869199
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|21
+|-message|Adromas forfeited.
+|
+|win|elementral
+|raw|elementral's rating: 1183 &rarr; <strong>1210</strong><br />(+27 for winning)
+|raw|Adromas's rating: 1209 &rarr; <strong>1182</strong><br />(-27 for losing)
+|l|☆Adromas
+|player|p2|
+|l|☆elementral
+|player|p1|

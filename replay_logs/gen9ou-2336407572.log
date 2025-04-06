@@ -1,0 +1,309 @@
+|j|☆NeverStandard
+|j|☆thekookietitan
+|t:|1743913161
+|gametype|singles
+|player|p1|NeverStandard|101|1303
+|player|p2|thekookietitan|265|1261
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Azumarill, F|
+|poke|p1|Gholdengo|
+|poke|p1|Skarmory, M|
+|poke|p1|Torkoal, F|
+|poke|p1|Walking Wake|
+|poke|p1|Venusaur, M|
+|poke|p2|Darkrai|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Gholdengo|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Valiant|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|
+|t:|1743913173
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1743913176
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Landorus|Taunt|p1a: Skarmory
+|-start|p1a: Skarmory|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743913184
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|move|p2a: Landorus|Stealth Rock|p1a: Walking Wake
+|-sidestart|p1: NeverStandard|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743913194
+|-terastallize|p2a: Landorus|Grass
+|move|p1a: Walking Wake|Hydro Steam|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|58/100
+|move|p2a: Landorus|U-turn|p1a: Walking Wake
+|-damage|p1a: Walking Wake|79/100
+|
+|t:|1743913199
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743913210
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|-damage|p1a: Skarmory|88/100|[from] Stealth Rock
+|move|p2a: Iron Valiant|Knock Off|p1a: Skarmory
+|-damage|p1a: Skarmory|72/100
+|-damage|p2a: Iron Valiant|84/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|-enditem|p1a: Skarmory|Rocky Helmet|[from] move: Knock Off|[of] p2a: Iron Valiant
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743913213
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743913219
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|-damage|p1a: Azumarill|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1743913222
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Azumarill
+|-supereffective|p1a: Azumarill
+|-damage|p1a: Azumarill|51/100
+|move|p1a: Azumarill|Play Rough|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-crit|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743913231
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|7
+|
+|t:|1743913239
+|move|p2a: Gholdengo|Psyshock|p1a: Azumarill
+|-damage|p1a: Azumarill|23/100
+|move|p1a: Azumarill|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|4/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743913249
+|move|p1a: Azumarill|Aqua Jet|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-weather|none
+|upkeep
+|
+|t:|1743913252
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|9
+|
+|t:|1743913263
+|move|p2a: Ogerpon|Wood Hammer|p1a: Azumarill
+|-supereffective|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|-damage|p2a: Ogerpon|91/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743913273
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-damage|p1a: Torkoal|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|10
+|
+|t:|1743913276
+|move|p2a: Ogerpon|Knock Off|p1a: Torkoal
+|-damage|p1a: Torkoal|53/100
+|-enditem|p1a: Torkoal|Heat Rock|[from] move: Knock Off|[of] p2a: Ogerpon
+|move|p1a: Torkoal|Rapid Spin|p2a: Ogerpon
+|-crit|p2a: Ogerpon
+|-damage|p2a: Ogerpon|73/100
+|-boost|p1a: Torkoal|spe|1
+|-sideend|p1: NeverStandard|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743913283
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Torkoal|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|19/100
+|move|p1a: Torkoal|Stealth Rock|p2a: Ogerpon
+|-sidestart|p2: thekookietitan|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743913287
+|move|p2a: Ogerpon|U-turn|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|12/100
+|
+|t:|1743913289
+|switch|p2a: Landorus|Landorus-Therian, M, tera:Grass|58/100|[from] U-turn
+|-damage|p2a: Landorus|46/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|move|p1a: Torkoal|Lava Plume|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743913291
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|13
+|
+|t:|1743913295
+|move|p2a: Darkrai|Dark Pulse|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743913312
+|switch|p1a: Walking Wake|Walking Wake|79/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|14
+|
+|t:|1743913318
+|move|p2a: Darkrai|Dark Pulse|p1a: Walking Wake
+|-damage|p1a: Walking Wake|30/100
+|move|p1a: Walking Wake|Weather Ball|p2a: Darkrai
+|-damage|p2a: Darkrai|7/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743913324
+|move|p2a: Darkrai|Dark Pulse|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743913331
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|turn|16
+|
+|t:|1743913335
+|move|p1a: Venusaur|Sludge Bomb|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|-damage|p1a: Venusaur|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743913337
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|73/100
+|-damage|p2a: Ogerpon|60/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743913346
+|move|p1a: Venusaur|Sludge Bomb|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|-damage|p1a: Venusaur|81/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1743913348
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|18
+|
+|t:|1743913361
+|move|p1a: Venusaur|Earth Power|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|25/100
+|-damage|p1a: Venusaur|71/100|[from] item: Life Orb
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|19
+|
+|t:|1743913365
+|move|p2a: Raging Bolt|Thunderclap|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|28/100
+|move|p1a: Venusaur|Earth Power|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|-damage|p1a: Venusaur|18/100|[from] item: Life Orb
+|
+|win|NeverStandard
+|raw|NeverStandard's rating: 1283 &rarr; <strong>1306</strong><br />(+23 for winning)
+|raw|thekookietitan's rating: 1261 &rarr; <strong>1238</strong><br />(-23 for losing)
+|l|☆thekookietitan
+|player|p2|

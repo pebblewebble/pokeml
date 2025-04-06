@@ -1,0 +1,331 @@
+|j|☆Bum_Muncha
+|j|☆simple333
+|t:|1743914515
+|gametype|singles
+|player|p1|Bum_Muncha|265|1572
+|player|p2|simple333|266|1614
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Iron Moth|
+|poke|p1|Serperior, F|
+|poke|p1|Iron Treads|
+|poke|p1|Dragonite, F|
+|poke|p1|Greninja-*, M|
+|poke|p2|Gliscor, F|
+|poke|p2|Moltres|
+|poke|p2|Primarina, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Iron Treads|
+|poke|p2|Dragapult, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by simple333)
+|
+|t:|1743914542
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|1
+|
+|t:|1743914548
+|move|p1a: Dragapult|Hydro Pump|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|66/100
+|move|p2a: Iron Treads|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|21/100
+|-enditem|p1a: Dragapult|Focus Sash|[from] move: Knock Off|[of] p2a: Iron Treads
+|
+|upkeep
+|turn|2
+|
+|t:|1743914555
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Iron Treads|Knock Off|p1a: Iron Treads
+|-damage|p1a: Iron Treads|84/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743914562
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Iron Treads|Earthquake|p2a: Moltres
+|-immune|p2a: Moltres
+|
+|upkeep
+|turn|4
+|
+|t:|1743914565
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Iron Treads|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: simple333|move: Stealth Rock
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|t:|1743914569
+|move|p1a: Iron Treads|Ice Spinner|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|23/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|24/100
+|
+|-heal|p2a: Gliscor|36/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1743914574
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Iron Treads|Ice Spinner|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|48/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1743914576
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Greninja|Greninja, M|100/100
+|switch|p2a: Moltres|Moltres|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743914581
+|switch|p2a: Primarina|Primarina, F|100/100
+|-damage|p2a: Primarina|88/100|[from] Stealth Rock
+|move|p1a: Greninja|Surf|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|71/100
+|-damage|p1a: Greninja|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|t:|1743914586
+|switch|p1a: Iron Treads|Iron Treads|24/100
+|move|p2a: Primarina|Moonblast|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743914589
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|10
+|
+|t:|1743914594
+|move|p1a: Iron Moth|Sludge Wave|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|14/100
+|move|p2a: Primarina|Surf|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743914598
+|switch|p1a: Greninja|Greninja, M|91/100
+|turn|11
+|
+|t:|1743914602
+|move|p1a: Greninja|Surf|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|-ability|p1a: Greninja|Battle Bond|boost
+|-boost|p1a: Greninja|atk|1
+|-boost|p1a: Greninja|spa|1
+|-boost|p1a: Greninja|spe|1
+|-activate|p1a: Greninja|ability: Battle Bond
+|-damage|p1a: Greninja|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743914611
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|12
+|
+|t:|1743914615
+|-terastallize|p1a: Greninja|Ghost
+|move|p1a: Greninja|Surf|p2a: Zamazenta
+|-damage|p2a: Zamazenta|32/100
+|-damage|p1a: Greninja|71/100|[from] item: Life Orb
+|move|p2a: Zamazenta|Body Press|p1a: Greninja
+|-immune|p1a: Greninja
+|
+|-heal|p2a: Zamazenta|38/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743914628
+|move|p1a: Greninja|Surf|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|-damage|p1a: Greninja|61/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743914630
+|switch|p2a: Gliscor|Gliscor, F|48/100 tox
+|-damage|p2a: Gliscor|36/100 tox|[from] Stealth Rock
+|turn|14
+|
+|t:|1743914635
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Greninja|Dark Pulse|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|48/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|t:|1743914649
+|move|p1a: Greninja|Dark Pulse|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|-damage|p1a: Greninja|51/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743914663
+|switch|p2a: Iron Treads|Iron Treads|66/100
+|-damage|p2a: Iron Treads|63/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743914667
+|-terastallize|p2a: Iron Treads|Flying
+|move|p1a: Greninja|Surf|p2a: Iron Treads
+|-damage|p2a: Iron Treads|10/100
+|-damage|p1a: Greninja|42/100|[from] item: Life Orb
+|move|p2a: Iron Treads|Knock Off|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-enditem|p1a: Greninja|Life Orb|[from] move: Knock Off|[of] p2a: Iron Treads
+|faint|p1a: Greninja
+|
+|upkeep
+|
+|t:|1743914676
+|switch|p1a: Serperior|Serperior, F|100/100
+|turn|17
+|
+|t:|1743914680
+|move|p1a: Serperior|Leaf Storm|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743914681
+|switch|p2a: Moltres|Moltres|100/100
+|turn|18
+|
+|t:|1743914684
+|move|p1a: Serperior|Dragon Pulse|p2a: Moltres
+|-damage|p2a: Moltres|62/100
+|move|p2a: Moltres|Flamethrower|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|5/100
+|
+|upkeep
+|turn|19
+|-enditem|p1a: Serperior|Custap Berry|[eat]
+|-activate|p1a: Serperior|item: Custap Berry|[consumed]
+|
+|t:|1743914689
+|move|p1a: Serperior|Dragon Pulse|p2a: Moltres
+|-damage|p2a: Moltres|18/100
+|move|p2a: Moltres|Flamethrower|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|
+|t:|1743914691
+|switch|p1a: Dragapult|Dragapult, F|21/100
+|turn|20
+|
+|t:|1743914694
+|move|p1a: Dragapult|Dragon Darts|p2a: Moltres
+|-damage|p2a: Moltres|2/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|upkeep
+|
+|t:|1743914695
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|21
+|
+|t:|1743914699
+|move|p2a: Dragapult|Dragon Darts|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1743914701
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|22
+|
+|t:|1743914705
+|move|p2a: Dragapult|Dragon Darts|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|78/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|30/100
+|move|p1a: Dragonite|Scale Shot|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|59/100
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|17/100
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|-hitcount|p2: Dragapult|3
+|
+|win|Bum_Muncha
+|raw|Bum_Muncha's rating: 1572 &rarr; <strong>1594</strong><br />(+22 for winning)
+|raw|simple333's rating: 1614 &rarr; <strong>1592</strong><br />(-22 for losing)
+|l|☆Bum_Muncha
+|player|p1|
+|l|☆simple333
+|player|p2|

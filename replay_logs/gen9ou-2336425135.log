@@ -1,0 +1,160 @@
+|j|☆lucagin
+|j|‽Kylar Blint
+|t:|1743915658
+|gametype|singles
+|player|p1|lucagin|marlon|1134
+|player|p2|Kylar Blint|265|1184
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Vaporeon, M|
+|poke|p1|Meowscarada, M|
+|poke|p1|Goodra, F|
+|poke|p1|Galvantula, F|
+|poke|p1|Brambleghast, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Iron Moth|
+|poke|p2|Okidogi, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Revavroom, M|
+|poke|p2|Pecharunt|
+|teampreview
+|
+|t:|1743915665
+|start
+|switch|p1a: Galvantula|Galvantula, F, shiny|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|1
+|
+|t:|1743915668
+|move|p1a: Galvantula|Thunder|p2a: Glimmora
+|-damage|p2a: Glimmora|35/100
+|-status|p2a: Glimmora|par
+|move|p2a: Glimmora|Meteor Beam||[still]
+|-prepare|p2a: Glimmora|Meteor Beam
+|-boost|p2a: Glimmora|spa|1
+|-enditem|p2a: Glimmora|Power Herb
+|-anim|p2a: Glimmora|Meteor Beam|p1a: Galvantula
+|-supereffective|p1a: Galvantula
+|-enditem|p1a: Galvantula|Focus Sash
+|-damage|p1a: Galvantula|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743915673
+|move|p1a: Galvantula|Thunder|p2a: Glimmora|[miss]
+|-miss|p1a: Galvantula|p2a: Glimmora
+|cant|p2a: Glimmora|par
+|
+|upkeep
+|turn|3
+|
+|t:|1743915677
+|move|p1a: Galvantula|Thunder|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1743915683
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|4
+|
+|t:|1743915686
+|switch|p1a: Vaporeon|Vaporeon, M, shiny|100/100
+|move|p2a: Iron Valiant|Spirit Break|p1a: Vaporeon
+|-damage|p1a: Vaporeon|75/100
+|-unboost|p1a: Vaporeon|spa|1
+|
+|-heal|p1a: Vaporeon|81/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743915690
+|move|p2a: Iron Valiant|Knock Off|p1a: Vaporeon
+|-damage|p1a: Vaporeon|60/100
+|-enditem|p1a: Vaporeon|Leftovers|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Vaporeon|Scald|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|62/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743915693
+|move|p2a: Iron Valiant|Spirit Break|p1a: Vaporeon
+|-damage|p1a: Vaporeon|33/100
+|-unboost|p1a: Vaporeon|spa|1
+|move|p1a: Vaporeon|Scald|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|33/100
+|-status|p2a: Iron Valiant|brn
+|
+|-damage|p2a: Iron Valiant|27/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743915696
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Iron Valiant|Close Combat|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-damage|p2a: Iron Valiant|20/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743915699
+|move|p2a: Iron Valiant|Close Combat|p1a: Vaporeon
+|-damage|p1a: Vaporeon|14/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-damage|p2a: Iron Valiant|14/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743915702
+|move|p1a: Vaporeon|Protect|p1a: Vaporeon
+|-singleturn|p1a: Vaporeon|Protect
+|move|p2a: Iron Valiant|Spirit Break|p1a: Vaporeon
+|-activate|p1a: Vaporeon|move: Protect
+|
+|-heal|p1a: Vaporeon|64/100|[from] move: Wish|[wisher] Vaporeon
+|-damage|p2a: Iron Valiant|8/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743915704
+|move|p2a: Iron Valiant|Close Combat|p1a: Vaporeon
+|-damage|p1a: Vaporeon|43/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|move|p1a: Vaporeon|Wish|p1a: Vaporeon
+|
+|-damage|p2a: Iron Valiant|2/100 brn|[from] brn
+|upkeep
+|turn|11
+|-message|Kylar Blint forfeited.
+|
+|win|lucagin
+|raw|lucagin's rating: 1134 &rarr; <strong>1163</strong><br />(+29 for winning)
+|raw|Kylar Blint's rating: 1184 &rarr; <strong>1155</strong><br />(-29 for losing)
+|l|‽Kylar Blint
+|player|p2|
+|l|☆lucagin
+|player|p1|

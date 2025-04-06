@@ -1,0 +1,270 @@
+|j|☆darkrai099
+|j|☆Frost-Leopard
+|t:|1743879684
+|gametype|singles
+|player|p1|darkrai099|265|1112
+|player|p2|Frost-Leopard|unknownf|1113
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Crawdaunt, F|
+|poke|p1|Sceptile, M|
+|poke|p1|Glalie, M|
+|poke|p1|Staraptor, M|
+|poke|p1|Torkoal, M|
+|poke|p1|Raichu, F|
+|poke|p2|Meowscarada, M|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Valiant|
+|poke|p2|Zamazenta-*|
+|poke|p2|Iron Moth|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by darkrai099)
+|
+|t:|1743879707
+|start
+|switch|p1a: Glalie|Glalie, M|100/100
+|switch|p2a: Houdini|Meowscarada, M, shiny|100/100
+|turn|1
+|
+|t:|1743879718
+|move|p2a: Houdini|Knock Off|p1a: Glalie
+|-start|p2a: Houdini|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Glalie|32/100
+|-enditem|p1a: Glalie|Leftovers|[from] move: Knock Off|[of] p2a: Houdini
+|-damage|p2a: Houdini|91/100|[from] item: Life Orb
+|move|p1a: Glalie|Spikes|p2a: Houdini
+|-sidestart|p2: Frost-Leopard|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1743879726
+|move|p2a: Houdini|U-turn|p1a: Glalie
+|-damage|p1a: Glalie|0 fnt
+|faint|p1a: Glalie
+|-damage|p2a: Houdini|81/100|[from] item: Life Orb
+|
+|t:|1743879730
+|switch|p2a: Big Man|Great Tusk, shiny|100/100|[from] U-turn
+|-damage|p2a: Big Man|88/100|[from] Spikes
+|-enditem|p2a: Big Man|Booster Energy
+|-activate|p2a: Big Man|ability: Protosynthesis|[fromitem]
+|-start|p2a: Big Man|protosynthesisatk
+|
+|upkeep
+|
+|t:|1743879739
+|switch|p1a: Sceptile|Sceptile, M|100/100
+|turn|3
+|
+|t:|1743879747
+|-terastallize|p2a: Big Man|Steel
+|move|p1a: Sceptile|Giga Drain|p2a: Big Man
+|-resisted|p2a: Big Man
+|-damage|p2a: Big Man|63/100
+|move|p2a: Big Man|Rapid Spin|p1a: Sceptile
+|-damage|p1a: Sceptile|70/100
+|-boost|p2a: Big Man|spe|1
+|-sideend|p2: Frost-Leopard|Spikes|[from] move: Rapid Spin|[of] p2a: Big Man
+|
+|upkeep
+|turn|4
+|
+|t:|1743879755
+|move|p1a: Sceptile|Vacuum Wave|p2a: Big Man
+|-supereffective|p2a: Big Man
+|-damage|p2a: Big Man|26/100
+|move|p2a: Big Man|Ice Spinner|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|
+|upkeep
+|
+|t:|1743879764
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|turn|5
+|
+|t:|1743879769
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Big Man
+|-crit|p2a: Big Man
+|-damage|p2a: Big Man|0 fnt
+|faint|p2a: Big Man
+|-end|p2a: Big Man|Protosynthesis|[silent]
+|-damage|p1a: Crawdaunt|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743879775
+|switch|p2a: THE WALL|Zamazenta, shiny|100/100
+|-ability|p2a: THE WALL|Dauntless Shield|boost
+|-boost|p2a: THE WALL|def|1
+|turn|6
+|
+|t:|1743879784
+|move|p2a: THE WALL|Close Combat|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|-unboost|p2a: THE WALL|def|1
+|-unboost|p2a: THE WALL|spd|1
+|faint|p1a: Crawdaunt
+|
+|upkeep
+|
+|t:|1743879791
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|turn|7
+|
+|t:|1743879795
+|move|p2a: THE WALL|Stone Edge|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|57/100
+|move|p1a: Torkoal|Will-O-Wisp|p2a: THE WALL
+|-status|p2a: THE WALL|brn
+|
+|-damage|p2a: THE WALL|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743879813
+|move|p2a: THE WALL|Stone Edge|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|35/100
+|move|p1a: Torkoal|Stealth Rock|p2a: THE WALL
+|-sidestart|p2: Frost-Leopard|move: Stealth Rock
+|
+|-damage|p2a: THE WALL|88/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743879821
+|move|p2a: THE WALL|Stone Edge|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|10/100
+|move|p1a: Torkoal|Lava Plume|p2a: THE WALL
+|-damage|p2a: THE WALL|67/100 brn
+|
+|-damage|p2a: THE WALL|61/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743879831
+|move|p2a: THE WALL|Crunch|p1a: Torkoal
+|-damage|p1a: Torkoal|2/100
+|-unboost|p1a: Torkoal|def|1
+|-damage|p2a: THE WALL|44/100 brn|[from] item: Rocky Helmet|[of] p1a: Torkoal
+|move|p1a: Torkoal|Lava Plume|p2a: THE WALL
+|-damage|p2a: THE WALL|23/100 brn
+|
+|-damage|p2a: THE WALL|16/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743879843
+|move|p2a: THE WALL|Crunch|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-damage|p2a: THE WALL|0 fnt|[from] item: Rocky Helmet|[of] p1a: Torkoal
+|faint|p1a: Torkoal
+|faint|p2a: THE WALL
+|
+|upkeep
+|
+|t:|1743879851
+|switch|p2a: Mator|Iron Moth, shiny|100/100
+|switch|p1a: Staraptor|Staraptor, M|100/100
+|-damage|p2a: Mator|76/100|[from] Stealth Rock
+|-enditem|p2a: Mator|Booster Energy
+|-activate|p2a: Mator|ability: Quark Drive|[fromitem]
+|-start|p2a: Mator|quarkdrivespe
+|turn|12
+|
+|t:|1743879862
+|move|p2a: Mator|Fiery Dance|p1a: Staraptor
+|-damage|p1a: Staraptor|29/100
+|move|p1a: Staraptor|Brave Bird|p2a: Mator
+|-damage|p2a: Mator|0 fnt
+|faint|p2a: Mator
+|-end|p2a: Mator|Quark Drive|[silent]
+|-damage|p1a: Staraptor|5/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743879869
+|switch|p2a: Money Talks|Gholdengo, shiny|100/100
+|-damage|p2a: Money Talks|94/100|[from] Stealth Rock
+|-item|p2a: Money Talks|Air Balloon
+|turn|13
+|
+|t:|1743879875
+|move|p1a: Staraptor|Brave Bird|p2a: Money Talks
+|-resisted|p2a: Money Talks
+|-damage|p2a: Money Talks|50/100
+|-enditem|p2a: Money Talks|Air Balloon
+|-damage|p1a: Staraptor|0 fnt|[from] Recoil
+|faint|p1a: Staraptor
+|move|p2a: Money Talks|Nasty Plot|p2a: Money Talks
+|-boost|p2a: Money Talks|spa|2
+|
+|upkeep
+|
+|t:|1743879883
+|switch|p1a: Raichu|Raichu, F|100/100
+|turn|14
+|
+|t:|1743879890
+|-terastallize|p1a: Raichu|Electric
+|move|p1a: Raichu|Thunderbolt|p2a: Money Talks
+|-damage|p2a: Money Talks|0 fnt
+|faint|p2a: Money Talks
+|
+|upkeep
+|
+|t:|1743879894
+|switch|p2a: Houdini|Meowscarada, M, shiny|81/100
+|-damage|p2a: Houdini|68/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743879901
+|move|p2a: Houdini|Knock Off|p1a: Raichu
+|-start|p2a: Houdini|typechange|Dark|[from] ability: Protean
+|-enditem|p1a: Raichu|Focus Sash
+|-damage|p1a: Raichu|1/100
+|-damage|p2a: Houdini|59/100|[from] item: Life Orb
+|move|p1a: Raichu|Thunderbolt|p2a: Houdini
+|-damage|p2a: Houdini|0 fnt
+|faint|p2a: Houdini
+|
+|upkeep
+|
+|t:|1743879907
+|switch|p2a: Sir Gallium|Iron Valiant, shiny|100/100
+|-damage|p2a: Sir Gallium|94/100|[from] Stealth Rock
+|-enditem|p2a: Sir Gallium|Booster Energy
+|-activate|p2a: Sir Gallium|ability: Quark Drive|[fromitem]
+|-start|p2a: Sir Gallium|quarkdrivespe
+|turn|16
+|
+|t:|1743879915
+|move|p2a: Sir Gallium|Moonblast|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|win|Frost-Leopard
+|raw|darkrai099's rating: 1112 &rarr; <strong>1087</strong><br />(-25 for losing)
+|raw|Frost-Leopard's rating: 1113 &rarr; <strong>1138</strong><br />(+25 for winning)
+|l|☆Frost-Leopard
+|player|p2|
+|l|☆darkrai099
+|player|p1|

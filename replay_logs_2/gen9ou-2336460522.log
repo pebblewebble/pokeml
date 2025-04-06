@@ -1,0 +1,296 @@
+|j|☆GoombaJuiced
+|j|☆Dinkbink
+|t:|1743921302
+|gametype|singles
+|player|p1|GoombaJuiced|170|1101
+|player|p2|Dinkbink|265|1061
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cresselia, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Dachsbun, F|
+|poke|p1|Scizor, M|
+|poke|p1|Falinks|
+|poke|p1|Dondozo, F|
+|poke|p2|Araquanid, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Moltres|
+|poke|p2|Pecharunt|
+|poke|p2|Iron Valiant|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|t:|1743921315
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GoombaJuiced)
+|
+|t:|1743921333
+|-terastallize|p1a: Rotom|Electric
+|move|p1a: Rotom|Thunderbolt|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|34/100
+|move|p2a: Araquanid|Sticky Web|p1a: Rotom
+|-sidestart|p1: GoombaJuiced|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743921356
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdriveatk
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|upkeep
+|turn|3
+|
+|t:|1743921366
+|move|p1a: Rotom|Overheat|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743921377
+|switch|p2a: Moltres|Moltres|100/100
+|-ability|p2a: Moltres|Pressure
+|turn|4
+|inactive|Dinkbink has 120 seconds left.
+|
+|t:|1743921407
+|move|p2a: Moltres|Flamethrower|p1a: Rotom
+|-damage|p1a: Rotom|51/100
+|move|p1a: Rotom|Nasty Plot|p1a: Rotom
+|-boost|p1a: Rotom|spa|2
+|
+|-heal|p1a: Rotom|57/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743921418
+|move|p2a: Moltres|Flamethrower|p1a: Rotom
+|-damage|p1a: Rotom|6/100
+|move|p1a: Rotom|Thunderbolt|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|-heal|p1a: Rotom|12/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743921431
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|6
+|
+|t:|1743921434
+|move|p2a: Dragapult|Dragon Darts|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1743921445
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|turn|7
+|inactive|Dinkbink has 120 seconds left.
+|
+|t:|1743921460
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force
+|move|p1a: Cresselia|Ice Beam|p2a: Dragapult|[miss]
+|-miss|p1a: Cresselia|p2a: Dragapult
+|
+|upkeep
+|turn|8
+|
+|t:|1743921470
+|move|p2a: Dragapult|Phantom Force|p1a: Cresselia|[from] lockedmove
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|50/100
+|move|p1a: Cresselia|Ice Beam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|38/100
+|
+|-heal|p1a: Cresselia|56/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|Dinkbink has 120 seconds left.
+|
+|t:|1743921485
+|move|p2a: Dragapult|Dragon Darts|p1a: Cresselia
+|-damage|p1a: Cresselia|39/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Cresselia
+|-damage|p1a: Cresselia|24/100
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|
+|-heal|p1a: Cresselia|30/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|Dinkbink has 120 seconds left.
+|
+|t:|1743921502
+|move|p2a: Dragapult|Dragon Darts|p1a: Cresselia
+|-damage|p1a: Cresselia|16/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Cresselia
+|-damage|p1a: Cresselia|0 fnt
+|faint|p1a: Cresselia
+|
+|upkeep
+|
+|t:|1743921511
+|switch|p1a: Scizor|Scizor, M|100/100
+|-activate|p1a: Scizor|move: Sticky Web
+|-unboost|p1a: Scizor|spe|1
+|turn|11
+|inactive|Dinkbink has 120 seconds left.
+|inactive|Dinkbink has 90 seconds left.
+|
+|t:|1743921551
+|move|p1a: Scizor|Bullet Punch|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1743921554
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|12
+|
+|t:|1743921560
+|move|p1a: Scizor|Bullet Punch|p2a: Pecharunt
+|-damage|p2a: Pecharunt|63/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Scizor
+|-immune|p1a: Scizor
+|
+|-heal|p2a: Pecharunt|69/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1743921567
+|move|p1a: Scizor|Bullet Punch|p2a: Pecharunt
+|-damage|p2a: Pecharunt|34/100
+|move|p2a: Pecharunt|Parting Shot|p1a: Scizor
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|spa|1
+|
+|t:|1743921582
+|switch|p2a: Araquanid|Araquanid, M|34/100|[from] Parting Shot
+|
+|upkeep
+|turn|14
+|
+|t:|1743921593
+|switch|p1a: Dachsbun|Dachsbun, F|100/100
+|-activate|p1a: Dachsbun|move: Sticky Web
+|-unboost|p1a: Dachsbun|spe|1
+|move|p2a: Araquanid|Infestation|p1a: Dachsbun
+|-resisted|p1a: Dachsbun
+|-damage|p1a: Dachsbun|98/100
+|-activate|p1a: Dachsbun|move: Infestation|[of] p2a: Araquanid
+|
+|-damage|p1a: Dachsbun|86/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1743921604
+|move|p1a: Dachsbun|Trailblaze|p2a: Araquanid
+|-damage|p2a: Araquanid|22/100
+|-boost|p1a: Dachsbun|spe|1
+|-damage|p1a: Dachsbun|70/100|[from] item: Rocky Helmet|[of] p2a: Araquanid
+|move|p2a: Araquanid|Leech Life|p1a: Dachsbun
+|-resisted|p1a: Dachsbun
+|-damage|p1a: Dachsbun|55/100
+|-heal|p2a: Araquanid|28/100|[from] drain|[of] p1a: Dachsbun
+|
+|-damage|p1a: Dachsbun|42/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|t:|1743921621
+|move|p1a: Dachsbun|Play Rough|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|-damage|p1a: Dachsbun|26/100|[from] item: Rocky Helmet|[of] p2a: Araquanid
+|faint|p2a: Araquanid
+|
+|-end|p1a: Dachsbun|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1743921629
+|switch|p2a: Pecharunt|Pecharunt|34/100
+|turn|17
+|
+|t:|1743921635
+|move|p2a: Pecharunt|Malignant Chain|p1a: Dachsbun
+|-supereffective|p1a: Dachsbun
+|-damage|p1a: Dachsbun|0 fnt
+|faint|p1a: Dachsbun
+|
+|-heal|p2a: Pecharunt|40/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1743921650
+|switch|p1a: Scizor|Scizor, M|100/100
+|-activate|p1a: Scizor|move: Sticky Web
+|-unboost|p1a: Scizor|spe|1
+|turn|18
+|
+|t:|1743921659
+|move|p1a: Scizor|Bullet Punch|p2a: Pecharunt
+|-damage|p2a: Pecharunt|2/100
+|move|p2a: Pecharunt|Shadow Ball|p1a: Scizor
+|-damage|p1a: Scizor|58/100
+|
+|-heal|p2a: Pecharunt|8/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|t:|1743921671
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Scizor|Bullet Punch|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743921679
+|switch|p2a: Pecharunt|Pecharunt|8/100
+|turn|20
+|
+|t:|1743921682
+|move|p1a: Scizor|Bullet Punch|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|win|GoombaJuiced
+|raw|GoombaJuiced's rating: 1101 &rarr; <strong>1123</strong><br />(+22 for winning)
+|raw|Dinkbink's rating: 1061 &rarr; <strong>1044</strong><br />(-17 for losing)
+|l|☆GoombaJuiced
+|player|p1|
+|l|☆Dinkbink
+|player|p2|

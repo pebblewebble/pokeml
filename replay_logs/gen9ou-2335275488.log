@@ -1,0 +1,243 @@
+|j|☆varimare
+|j|☆Maratil
+|t:|1743780684
+|gametype|singles
+|player|p1|varimare|giovanni|1171
+|player|p2|Maratil|266|1183
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Serperior, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Gliscor, M|
+|poke|p1|Zapdos-Galar|
+|poke|p1|Iron Boulder|
+|poke|p1|Altaria, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Scizor, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Iron Moth|
+|poke|p2|Hatterene, F|
+|poke|p2|Gliscor, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Maratil)
+|
+|t:|1743780694
+|start
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1743780711
+|-terastallize|p2a: Tyranitar|Dark
+|move|p1a: Zapdos|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|60/100
+|
+|t:|1743780727
+|switch|p1a: Kamikaze|Corviknight, M, shiny|100/100|[from] U-turn
+|move|p2a: Tyranitar|Ice Beam|p1a: Kamikaze
+|-damage|p1a: Kamikaze|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|54/100|[from] Sandstorm
+|-heal|p1a: Kamikaze|61/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743780736
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Kamikaze|Bulk Up|p1a: Kamikaze
+|-boost|p1a: Kamikaze|atk|1
+|-boost|p1a: Kamikaze|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Moth|95/100|[from] Sandstorm
+|-heal|p1a: Kamikaze|67/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743780749
+|-terastallize|p1a: Kamikaze|Fire
+|move|p2a: Iron Moth|Fiery Dance|p1a: Kamikaze
+|-resisted|p1a: Kamikaze
+|-damage|p1a: Kamikaze|45/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Kamikaze|Brave Bird|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|-damage|p1a: Kamikaze|17/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kamikaze|11/100|[from] Sandstorm
+|-heal|p1a: Kamikaze|17/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743780762
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|4
+|
+|t:|1743780774
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Kamikaze|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Kamikaze
+|-damage|p1a: Kamikaze|0 fnt
+|faint|p1a: Kamikaze
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ogerpon|95/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743780779
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|turn|5
+|
+|t:|1743780785
+|move|p1a: Zapdos|Brave Bird|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|-damage|p1a: Zapdos|72/100|[from] Recoil
+|
+|-weather|none
+|upkeep
+|
+|t:|1743780791
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|6
+|
+|t:|1743780796
+|move|p1a: Zapdos|Brave Bird|p2a: Hatterene
+|-damage|p2a: Hatterene|20/100
+|-damage|p1a: Zapdos|45/100|[from] Recoil
+|move|p2a: Hatterene|Psychic Noise|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-heal|p2a: Hatterene|26/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743780805
+|switch|p1a: Serperior|Serperior, M, shiny|100/100
+|turn|7
+|
+|t:|1743780809
+|move|p1a: Serperior|Leaf Storm|p2a: Hatterene|[miss]
+|-miss|p1a: Serperior|p2a: Hatterene
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1743780814
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|8
+|
+|t:|1743780819
+|move|p1a: Serperior|Leaf Storm|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|87/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Scizor|U-turn|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|-damage|p2a: Scizor|77/100|[from] item: Life Orb
+|
+|t:|1743780828
+|switch|p2a: Tyranitar|Tyranitar, M, tera:Dark|54/100|[from] U-turn
+|-heal|p2a: Tyranitar|100/100|[from] move: Healing Wish
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743780844
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|turn|9
+|
+|t:|1743780850
+|move|p1a: Gliscor|Knock Off|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|83/100
+|-enditem|p2a: Tyranitar|Choice Specs|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Tyranitar|Ice Beam|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|77/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743780857
+|switch|p1a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p1a: Iron Boulder|Booster Energy
+|-activate|p1a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Boulder|quarkdriveatk
+|turn|10
+|
+|t:|1743780873
+|move|p1a: Iron Boulder|Mighty Cleave|p2a: Tyranitar
+|-damage|p2a: Tyranitar|27/100
+|move|p2a: Tyranitar|Dark Pulse|p1a: Iron Boulder
+|-supereffective|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|21/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1743780881
+|move|p1a: Iron Boulder|Mighty Cleave|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743780887
+|switch|p2a: Scizor|Scizor, M|77/100
+|turn|12
+|
+|t:|1743780890
+|move|p2a: Scizor|Bullet Punch|p1a: Iron Boulder
+|-supereffective|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|0 fnt
+|faint|p1a: Iron Boulder
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|-damage|p2a: Scizor|68/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1743780893
+|switch|p1a: Altaria|Altaria, F|100/100
+|-ability|p1a: Altaria|Cloud Nine
+|turn|13
+|-message|varimare forfeited.
+|
+|win|Maratil
+|raw|varimare's rating: 1171 &rarr; <strong>1147</strong><br />(-24 for losing)
+|raw|Maratil's rating: 1183 &rarr; <strong>1207</strong><br />(+24 for winning)
+|l|☆varimare
+|player|p1|
+|l|☆Maratil
+|player|p2|

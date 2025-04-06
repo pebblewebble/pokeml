@@ -1,0 +1,447 @@
+|j|☆liansyao
+|j|☆luni saki
+|t:|1743857461
+|gametype|singles
+|player|p1|liansyao|265|
+|player|p2|luni saki|courtney|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Moltres|
+|poke|p1|Enamorus, F|
+|poke|p1|Galvantula, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p2|Pecharunt|
+|poke|p2|Ting-Lu|
+|poke|p2|Clefable, F|
+|poke|p2|Walking Wake|
+|poke|p2|Zamazenta-*|
+|poke|p2|Skarmory, M|
+|teampreview
+|c|☆luni saki|gl
+|c|☆liansyao|gl
+|
+|t:|1743857493
+|start
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1743857506
+|move|p1a: Galvantula|Sticky Web|p2a: Ting-Lu
+|-sidestart|p2: luni saki|move: Sticky Web
+|move|p2a: Ting-Lu|Earthquake|p1a: Galvantula
+|-damage|p1a: Galvantula|38/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743857512
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Moltres
+|-immune|p1a: Moltres
+|
+|upkeep
+|turn|3
+|
+|t:|1743857516
+|move|p1a: Moltres|Will-O-Wisp|p2a: Ting-Lu
+|-status|p2a: Ting-Lu|brn
+|move|p2a: Ting-Lu|Ruination|p1a: Moltres
+|-damage|p1a: Moltres|50/100
+|
+|-damage|p2a: Ting-Lu|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743857527
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|100/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|upkeep
+|turn|5
+|j| evershineaue
+|
+|t:|1743857534
+|switch|p1a: Galvantula|Galvantula, F|38/100
+|move|p2a: Walking Wake|Draco Meteor|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Galvantula
+|
+|upkeep
+|
+|t:|1743857540
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|6
+|
+|t:|1743857555
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|upkeep
+|turn|7
+|l| evershineaue
+|j| evershineaue
+|
+|t:|1743857576
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Pecharunt|[anim] Ivy Cudgel Water
+|-damage|p2a: Pecharunt|12/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Ogerpon
+|-damage|p1a: Ogerpon|77/100
+|-status|p1a: Ogerpon|tox
+|-start|p1a: Ogerpon|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|
+|-damage|p1a: Ogerpon|71/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743857590
+|-activate|p1a: Ogerpon|confusion
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Pecharunt|[anim] Ivy Cudgel Water
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|-damage|p1a: Ogerpon|59/100 tox|[from] psn
+|upkeep
+|
+|t:|1743857598
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|9
+|
+|t:|1743857603
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Zamazenta|Close Combat|p1a: Moltres
+|-resisted|p1a: Moltres
+|-crit|p1a: Moltres
+|-damage|p1a: Moltres|65/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|-status|p2a: Zamazenta|brn|[from] ability: Flame Body|[of] p1a: Moltres
+|
+|-damage|p2a: Zamazenta|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743857607
+|move|p2a: Zamazenta|Stone Edge|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|16/100
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|66/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-damage|p2a: Zamazenta|88/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743857614
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Zamazenta|Stone Edge|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|98/100
+|
+|-damage|p2a: Zamazenta|82/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743857629
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Great Tusk|Close Combat|p2a: Skarmory
+|-damage|p2a: Skarmory|64/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-damage|p1a: Great Tusk|81/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|
+|upkeep
+|turn|13
+|
+|t:|1743857637
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Moltres|Moltres|66/100
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|upkeep
+|turn|14
+|
+|t:|1743857640
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|100/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|upkeep
+|turn|15
+|
+|t:|1743857646
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Walking Wake|Draco Meteor|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|59/100
+|-unboost|p2a: Walking Wake|spa|2
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|16
+|
+|t:|1743857659
+|move|p2a: Walking Wake|Flip Turn|p1a: Gholdengo
+|-damage|p1a: Gholdengo|41/100
+|
+|t:|1743857663
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Ting-Lu|Ting-Lu|94/100 brn|[from] Flip Turn
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|-damage|p2a: Ting-Lu|88/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743857672
+|move|p1a: Gholdengo|Focus Blast|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|16/100 brn
+|move|p2a: Ting-Lu|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-damage|p2a: Ting-Lu|10/100 brn|[from] brn
+|upkeep
+|
+|t:|1743857683
+|switch|p1a: Great Tusk|Great Tusk|81/100
+|turn|18
+|
+|t:|1743857687
+|move|p1a: Great Tusk|Ice Spinner|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-crit|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743857690
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|turn|19
+|
+|t:|1743857701
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water|59/100 tox
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p2a: Walking Wake|Surf|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|41/100 tox
+|
+|-damage|p1a: Ogerpon|35/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1743857715
+|move|p1a: Ogerpon|Power Whip|p2a: Walking Wake
+|-crit|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-damage|p1a: Ogerpon|23/100 tox|[from] psn
+|upkeep
+|
+|t:|1743857725
+|switch|p2a: Zamazenta|Zamazenta|82/100 brn
+|turn|21
+|
+|t:|1743857729
+|switch|p1a: Great Tusk|Great Tusk|81/100
+|move|p2a: Zamazenta|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|58/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|
+|-damage|p2a: Zamazenta|76/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1743857738
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Moltres|Moltres|100/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743857745
+|switch|p2a: Clefable|Clefable, F|100/100
+|-activate|p2a: Clefable|move: Sticky Web
+|-unboost|p2a: Clefable|spe|1
+|move|p1a: Moltres|Flamethrower|p2a: Clefable
+|-damage|p2a: Clefable|66/100
+|
+|-heal|p2a: Clefable|72/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1743857752
+|move|p1a: Moltres|Flamethrower|p2a: Clefable
+|-damage|p2a: Clefable|38/100
+|-status|p2a: Clefable|brn
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-heal|p2a: Clefable|44/100 brn|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1743857758
+|move|p1a: Moltres|Flamethrower|p2a: Clefable
+|-damage|p2a: Clefable|21/100 brn
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|71/100 brn
+|
+|-heal|p2a: Clefable|77/100 brn|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1743857768
+|move|p1a: Moltres|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|71/100 brn
+|
+|t:|1743857772
+|switch|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water|23/100 tox|[from] U-turn
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p2a: Clefable|Moonblast|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-heal|p2a: Clefable|77/100 brn|[from] item: Leftovers
+|upkeep
+|
+|t:|1743857774
+|switch|p1a: Great Tusk|Great Tusk|58/100
+|turn|27
+|
+|t:|1743857783
+|move|p1a: Great Tusk|Headlong Rush|p2a: Clefable
+|-damage|p2a: Clefable|31/100 brn
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Clefable|Moonblast|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Clefable|37/100 brn|[from] item: Leftovers
+|upkeep
+|
+|t:|1743857789
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|28
+|
+|t:|1743857795
+|move|p1a: Enamorus|Sludge Bomb|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|t:|1743857801
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|turn|29
+|
+|t:|1743857805
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Skarmory|Iron Defense|p2a: Skarmory
+|-boost|p2a: Skarmory|def|2
+|
+|upkeep
+|turn|30
+|
+|t:|1743857808
+|move|p1a: Moltres|Flamethrower|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-ability|p2a: Skarmory|Sturdy
+|-damage|p2a: Skarmory|1/100
+|move|p2a: Skarmory|Iron Defense|p2a: Skarmory
+|-boost|p2a: Skarmory|def|2
+|
+|upkeep
+|turn|31
+|
+|t:|1743857815
+|move|p1a: Moltres|Flamethrower|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|upkeep
+|
+|t:|1743857820
+|switch|p2a: Zamazenta|Zamazenta|76/100 brn
+|turn|32
+|
+|t:|1743857823
+|move|p2a: Zamazenta|Stone Edge|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|46/100
+|move|p1a: Moltres|Flamethrower|p2a: Zamazenta
+|-damage|p2a: Zamazenta|44/100 brn
+|
+|-damage|p2a: Zamazenta|37/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1743857831
+|move|p2a: Zamazenta|Stone Edge|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|-damage|p2a: Zamazenta|31/100 brn|[from] brn
+|upkeep
+|
+|t:|1743857834
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|34
+|
+|t:|1743857840
+|move|p1a: Enamorus|Moonblast|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|win|liansyao

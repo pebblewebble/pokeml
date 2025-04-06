@@ -1,0 +1,335 @@
+|j|☆gyara5
+|j|☆Nagi
+|t:|1743859858
+|gametype|singles
+|player|p1|gyara5|lady|1192
+|player|p2|Nagi|camper|1165
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gholdengo|
+|poke|p1|Glimmora, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Dragonite, F|
+|poke|p1|Iron Hands|
+|poke|p1|Mimikyu, M|
+|poke|p2|Abomasnow, F|
+|poke|p2|Morpeko, M|
+|poke|p2|Iron Moth|
+|poke|p2|Diancie|
+|poke|p2|Tentacruel, M|
+|poke|p2|Hippowdon, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gyara5)
+|
+|t:|1743859864
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|turn|1
+|
+|t:|1743859879
+|move|p2a: Tentacruel|Surf|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|16/100
+|move|p1a: Glimmora|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Nagi|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743859890
+|switch|p1a: Iron Hands|Iron Hands|100/100
+|-enditem|p1a: Iron Hands|Booster Energy
+|-activate|p1a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Hands|quarkdriveatk
+|move|p2a: Tentacruel|Rapid Spin|p1a: Iron Hands
+|-damage|p1a: Iron Hands|95/100
+|-boost|p2a: Tentacruel|spe|1
+|-sideend|p2: Nagi|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|upkeep
+|turn|3
+|
+|t:|1743859900
+|switch|p2a: Hippowdon|Hippowdon, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Iron Hands|Supercell Slam|p2a: Hippowdon
+|-immune|p2a: Hippowdon
+|-damage|p1a: Iron Hands|45/100|[from] supercellslam
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Hands|39/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1743859914
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|switch|p1a: Glimmora|Glimmora, M|16/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Glimmora
+|-sidestart|p1: gyara5|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743859921
+|move|p1a: Glimmora|Mortal Spin|p2a: Hippowdon
+|-resisted|p2a: Hippowdon
+|-damage|p2a: Hippowdon|99/100
+|-status|p2a: Hippowdon|psn
+|-sideend|p1: gyara5|Stealth Rock|[from] move: Mortal Spin|[of] p1a: Glimmora
+|move|p2a: Hippowdon|Whirlwind|p1a: Glimmora
+|drag|p1a: Gholdengo|Gholdengo|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Hippowdon|100/100 psn|[from] item: Leftovers
+|-damage|p2a: Hippowdon|88/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743859933
+|move|p1a: Gholdengo|Trick|p2a: Hippowdon
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Hippowdon
+|-item|p2a: Hippowdon|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Leftovers|[from] move: Trick
+|move|p2a: Hippowdon|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Gholdengo|35/100|[from] item: Leftovers
+|-damage|p2a: Hippowdon|76/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743859946
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|switch|p2a: Abomasnow|Abomasnow, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743859956
+|-terastallize|p1a: Dragonite|Flying
+|move|p1a: Dragonite|Tera Blast|p2a: Abomasnow|[anim] Tera Blast Flying
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|42/100
+|move|p2a: Abomasnow|Aurora Veil|p2a: Abomasnow
+|-sidestart|p2: Nagi|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743859968
+|move|p1a: Dragonite|Tera Blast|p2a: Abomasnow|[anim] Tera Blast Flying
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|13/100
+|move|p2a: Abomasnow|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|68/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743859977
+|switch|p2a: Diancie|Diancie|100/100
+|move|p1a: Dragonite|Tera Blast|p2a: Diancie|[anim] Tera Blast Flying
+|-resisted|p2a: Diancie
+|-damage|p2a: Diancie|90/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743859986
+|switch|p1a: Glimmora|Glimmora, M|16/100
+|move|p2a: Diancie|Diamond Storm|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Nagi|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|-weather|none
+|upkeep
+|
+|t:|1743860000
+|switch|p1a: Gholdengo|Gholdengo|35/100
+|turn|12
+|
+|t:|1743860004
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-sideend|p2: Nagi|move: Toxic Spikes|[of] p2a: Tentacruel
+|move|p1a: Gholdengo|Make It Rain|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|94/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-heal|p1a: Gholdengo|41/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743860016
+|move|p2a: Tentacruel|Surf|p1a: Gholdengo
+|-damage|p1a: Gholdengo|10/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Tentacruel
+|-damage|p2a: Tentacruel|86/100
+|
+|-heal|p1a: Gholdengo|16/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743860027
+|move|p2a: Tentacruel|Surf|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743860032
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|15
+|
+|t:|1743860045
+|move|p2a: Tentacruel|Acid Spray|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|97/100
+|-unboost|p1a: Ting-Lu|spd|2
+|move|p1a: Ting-Lu|Earthquake|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|28/100
+|
+|-sideend|p2: Nagi|move: Aurora Veil
+|upkeep
+|turn|16
+|
+|t:|1743860056
+|move|p2a: Tentacruel|Surf|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|41/100
+|-enditem|p1a: Ting-Lu|Sitrus Berry|[eat]
+|-heal|p1a: Ting-Lu|66/100|[from] item: Sitrus Berry
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Tentacruel
+|-sidestart|p2: Nagi|move: Stealth Rock
+|
+|upkeep
+|turn|17
+|
+|t:|1743860067
+|move|p2a: Tentacruel|Rapid Spin|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|61/100
+|-boost|p2a: Tentacruel|spe|1
+|-sideend|p2: Nagi|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Ting-Lu|Earthquake|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|upkeep
+|
+|t:|1743860076
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|turn|18
+|
+|t:|1743860083
+|-terastallize|p2a: Iron Moth|Grass
+|move|p2a: Iron Moth|Energy Ball|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743860091
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|turn|19
+|
+|t:|1743860096
+|move|p2a: Iron Moth|Fiery Dance|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|-boost|p2a: Iron Moth|spa|1
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, M
+|-damage|p1a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|move|p1a: Mimikyu|Curse|p2a: Iron Moth
+|-start|p2a: Iron Moth|Curse|[of] p1a: Mimikyu
+|-damage|p1a: Mimikyu|38/100
+|
+|-damage|p2a: Iron Moth|76/100|[from] Curse
+|upkeep
+|turn|20
+|
+|t:|1743860110
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Diancie|Diancie|90/100
+|move|p1a: Mimikyu|Protect||[still]
+|-fail|p1a: Mimikyu
+|
+|upkeep
+|turn|21
+|
+|t:|1743860117
+|move|p1a: Mimikyu|Curse|p2a: Diancie
+|-start|p2a: Diancie|Curse|[of] p1a: Mimikyu
+|-damage|p1a: Mimikyu|0 fnt
+|faint|p1a: Mimikyu
+|move|p2a: Diancie|Diamond Storm|p1: Mimikyu|[notarget]
+|-fail|p2a: Diancie
+|
+|-damage|p2a: Diancie|65/100|[from] Curse
+|upkeep
+|
+|t:|1743860126
+|switch|p1a: Iron Hands|Iron Hands|39/100
+|turn|22
+|
+|t:|1743860130
+|switch|p2a: Hippowdon|Hippowdon, F|76/100 psn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Iron Hands|Drain Punch|p2a: Hippowdon
+|-damage|p2a: Hippowdon|54/100 psn
+|-heal|p1a: Iron Hands|48/100|[from] drain|[of] p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Iron Hands|42/100|[from] Sandstorm
+|-damage|p2a: Hippowdon|42/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1743860144
+|move|p1a: Iron Hands|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1a: Iron Hands
+|move|p2a: Hippowdon|Earthquake|p1a: Iron Hands
+|-supereffective|p1a: Iron Hands
+|-damage|p1a: Iron Hands|0 fnt
+|faint|p1a: Iron Hands
+|-end|p1a: Iron Hands|Quark Drive|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hippowdon|30/100 psn|[from] psn
+|upkeep
+|-message|gyara5 forfeited.
+|
+|win|Nagi
+|raw|gyara5's rating: 1192 &rarr; <strong>1165</strong><br />(-27 for losing)
+|raw|Nagi's rating: 1165 &rarr; <strong>1192</strong><br />(+27 for winning)
+|l|☆gyara5
+|player|p1|
+|l|☆Nagi
+|player|p2|

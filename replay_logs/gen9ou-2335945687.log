@@ -1,0 +1,273 @@
+|j|☆Sampaovoli
+|j|☆chaospoke
+|t:|1743862306
+|gametype|singles
+|player|p1|Sampaovoli|169|1365
+|player|p2|chaospoke|1|1352
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Walking Wake|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Great Tusk|
+|poke|p1|Ceruledge, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Walking Wake|
+|poke|p2|Hatterene, F|
+|poke|p2|Great Tusk|
+|poke|p2|Corviknight, M|
+|poke|p2|Kingambit, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by chaospoke)
+|
+|t:|1743862325
+|start
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|turn|1
+|
+|t:|1743862332
+|move|p2a: Walking Wake|Draco Meteor|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Lilligant
+|
+|upkeep
+|
+|t:|1743862352
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|turn|2
+|
+|t:|1743862360
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1743862365
+|move|p1a: Ceruledge|Poltergeist|p2a: Great Tusk|[miss]
+|-miss|p1a: Ceruledge|p2a: Great Tusk
+|move|p2a: Great Tusk|Ice Spinner|p1a: Ceruledge
+|-resisted|p1a: Ceruledge
+|-damage|p1a: Ceruledge|78/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|
+|upkeep
+|turn|4
+|
+|t:|1743862373
+|move|p1a: Ceruledge|Bitter Blade|p2a: Great Tusk
+|-damage|p2a: Great Tusk|32/100
+|-heal|p1a: Ceruledge|100/100|[from] drain|[of] p2a: Great Tusk
+|move|p2a: Great Tusk|Headlong Rush|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-enditem|p1a: Ceruledge|Focus Sash
+|-damage|p1a: Ceruledge|1/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|
+|-heal|p2a: Great Tusk|39/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743862388
+|move|p1a: Ceruledge|Bitter Blade|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-heal|p1a: Ceruledge|25/100|[from] drain|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743862394
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|6
+|
+|t:|1743862401
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|upkeep
+|
+|t:|1743862418
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|7
+|
+|t:|1743862425
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Torkoal|Stealth Rock|p2a: Hatterene
+|move|p2a: Hatterene|Stealth Rock|p1a: Torkoal|[from] ability: Magic Bounce
+|-sidestart|p1: Sampaovoli|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743862430
+|move|p2a: Hatterene|Nuzzle|p1a: Torkoal
+|-damage|p1a: Torkoal|98/100
+|-status|p1a: Torkoal|par
+|move|p1a: Torkoal|Rapid Spin|p2a: Hatterene
+|-damage|p2a: Hatterene|93/100
+|-boost|p1a: Torkoal|spe|1
+|-sideend|p1: Sampaovoli|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Torkoal
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1743862434
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743862438
+|move|p2a: Walking Wake|Draco Meteor|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743862444
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-item|p1a: Raging Bolt|Air Balloon
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|10
+|
+|t:|1743862448
+|-terastallize|p1a: Raging Bolt|Fairy
+|move|p2a: Walking Wake|Draco Meteor|p1a: Raging Bolt
+|-immune|p1a: Raging Bolt
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743862453
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|11
+|
+|t:|1743862457
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Kingambit
+|-damage|p2a: Kingambit|32/100
+|move|p2a: Kingambit|Iron Head|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|5/100
+|-enditem|p1a: Raging Bolt|Air Balloon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743862479
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743862484
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Torkoal
+|-damage|p2a: Torkoal|2/100
+|move|p2a: Torkoal|Lava Plume|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743862492
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|14
+|
+|t:|1743862498
+|move|p1a: Walking Wake|Flamethrower|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|upkeep
+|
+|t:|1743862502
+|switch|p2a: Hatterene|Hatterene, F|93/100
+|turn|15
+|
+|t:|1743862506
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|37/100
+|-heal|p2a: Hatterene|100/100|[from] drain|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|16
+|
+|t:|1743862510
+|move|p1a: Great Tusk|Headlong Rush|p2a: Hatterene
+|-damage|p2a: Hatterene|47/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Hatterene|Draining Kiss|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-heal|p2a: Hatterene|78/100|[from] drain|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|-message|Sampaovoli forfeited.
+|
+|win|chaospoke
+|raw|Sampaovoli's rating: 1365 &rarr; <strong>1344</strong><br />(-21 for losing)
+|raw|chaospoke's rating: 1352 &rarr; <strong>1373</strong><br />(+21 for winning)
+|l|☆Sampaovoli
+|player|p1|
+|l|☆chaospoke
+|player|p2|

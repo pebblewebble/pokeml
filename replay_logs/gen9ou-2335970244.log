@@ -1,0 +1,287 @@
+|j|☆YIN SUN SHIN
+|j|☆nokthenerd
+|t:|1743865195
+|gametype|singles
+|player|p1|YIN SUN SHIN|harlequin|1476
+|player|p2|nokthenerd|unknown|1525
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blastoise, M|
+|poke|p1|Magnezone|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Clefable, F|
+|poke|p1|Zarude-Dada|
+|poke|p1|Tatsugiri-Stretchy, M|
+|poke|p2|Magnezone|
+|poke|p2|Ting-Lu|
+|poke|p2|Sinistcha|
+|poke|p2|Scizor, F|
+|poke|p2|Walking Wake|
+|poke|p2|Great Tusk|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by YIN SUN SHIN)
+|
+|t:|1743865216
+|start
+|switch|p1a: Zarude|Zarude-Dada|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1743865222
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Zarude|Swords Dance|p1a: Zarude
+|-boost|p1a: Zarude|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1743865229
+|switch|p2a: Magnezone|Magnezone, shiny|100/100
+|-item|p2a: Magnezone|Air Balloon
+|move|p1a: Zarude|Knock Off|p2a: Magnezone
+|-damage|p2a: Magnezone|22/100
+|-enditem|p2a: Magnezone|Air Balloon
+|-damage|p1a: Zarude|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1743865237
+|move|p1a: Zarude|Knock Off|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|-damage|p1a: Zarude|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743865243
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|4
+|
+|t:|1743865252
+|-terastallize|p1a: Zarude|Fairy
+|move|p2a: Great Tusk|Close Combat|p1a: Zarude
+|-resisted|p1a: Zarude
+|-damage|p1a: Zarude|55/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Zarude|Power Whip|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-damage|p1a: Zarude|45/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743865257
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|turn|5
+|
+|t:|1743865265
+|switch|p1a: Tatsugiri|Tatsugiri-Stretchy, M|100/100
+|-terastallize|p2a: Walking Wake|Water
+|move|p2a: Walking Wake|Scald|p1a: Tatsugiri
+|-ability|p1a: Tatsugiri|Storm Drain|boost
+|-boost|p1a: Tatsugiri|spa|1
+|
+|upkeep
+|turn|6
+|
+|t:|1743865275
+|move|p2a: Walking Wake|Draco Meteor|p1a: Tatsugiri
+|-supereffective|p1a: Tatsugiri
+|-damage|p1a: Tatsugiri|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Tatsugiri
+|
+|upkeep
+|
+|t:|1743865284
+|switch|p1a: Zarude|Zarude-Dada, tera:Fairy|45/100
+|turn|7
+|
+|t:|1743865287
+|move|p2a: Walking Wake|Flip Turn|p1a: Zarude
+|-damage|p1a: Zarude|26/100
+|
+|t:|1743865289
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Scizor|Scizor, F|100/100|[from] Flip Turn
+|move|p1a: Zarude|Power Whip|p2a: Scizor|[miss]
+|-miss|p1a: Zarude|p2a: Scizor
+|
+|upkeep
+|turn|8
+|
+|t:|1743865293
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|move|p2a: Scizor|Bullet Punch|p1a: Landorus
+|-damage|p1a: Landorus|62/100
+|-damage|p2a: Scizor|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|upkeep
+|turn|9
+|
+|t:|1743865299
+|switch|p2a: Sinistcha|Sinistcha|100/100
+|move|p1a: Landorus|U-turn|p2a: Sinistcha
+|-damage|p2a: Sinistcha|83/100
+|
+|t:|1743865302
+|switch|p1a: Zarude|Zarude-Dada, tera:Fairy|26/100|[from] U-turn
+|
+|upkeep
+|turn|10
+|
+|t:|1743865309
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Zarude|Knock Off|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|84/100
+|-enditem|p2a: Ting-Lu|Leftovers|[from] move: Knock Off|[of] p1a: Zarude
+|-damage|p1a: Zarude|16/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|t:|1743865314
+|move|p1a: Zarude|Power Whip|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|7/100
+|-damage|p1a: Zarude|6/100|[from] item: Life Orb
+|move|p2a: Ting-Lu|Earthquake|p1a: Zarude
+|-damage|p1a: Zarude|0 fnt
+|faint|p1a: Zarude
+|
+|upkeep
+|
+|t:|1743865320
+|switch|p1a: Landorus|Landorus-Therian, M|62/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ting-Lu|atk|1
+|turn|12
+|
+|t:|1743865325
+|move|p1a: Landorus|U-turn|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|t:|1743865329
+|switch|p1a: Magnezone|Magnezone|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743865335
+|switch|p2a: Walking Wake|Walking Wake, tera:Water|100/100
+|turn|13
+|
+|t:|1743865347
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Walking Wake|Flip Turn|p1a: Clefable
+|-damage|p1a: Clefable|75/100
+|
+|t:|1743865352
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Scizor|Scizor, F|84/100|[from] Flip Turn
+|
+|-heal|p1a: Clefable|81/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743865370
+|move|p2a: Scizor|Bullet Punch|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|t:|1743865375
+|switch|p1a: Magnezone|Magnezone|100/100
+|turn|15
+|
+|t:|1743865381
+|switch|p2a: Sinistcha|Sinistcha|83/100
+|move|p1a: Magnezone|Volt Switch|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|36/100
+|
+|t:|1743865387
+|switch|p1a: Blastoise|Blastoise, M|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|16
+|
+|t:|1743865392
+|move|p1a: Blastoise|Shell Smash|p1a: Blastoise
+|-unboost|p1a: Blastoise|def|1
+|-unboost|p1a: Blastoise|spd|1
+|-boost|p1a: Blastoise|atk|2
+|-boost|p1a: Blastoise|spa|2
+|-boost|p1a: Blastoise|spe|2
+|-enditem|p1a: Blastoise|White Herb
+|-clearnegativeboost|p1a: Blastoise|[silent]
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|35/100
+|-heal|p2a: Sinistcha|68/100|[from] drain|[of] p1a: Blastoise
+|-status|p1a: Blastoise|brn
+|
+|-damage|p1a: Blastoise|29/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743865398
+|move|p1a: Blastoise|Ice Spinner|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|34/100
+|move|p2a: Sinistcha|Shadow Ball|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|upkeep
+|
+|t:|1743865405
+|switch|p1a: Landorus|Landorus-Therian, M|62/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Sinistcha|atk|1
+|turn|18
+|
+|t:|1743865408
+|move|p1a: Landorus|Stone Edge|p2a: Sinistcha
+|-damage|p2a: Sinistcha|5/100
+|move|p2a: Sinistcha|Strength Sap|p1a: Landorus
+|-unboost|p1a: Landorus|atk|1
+|-heal|p2a: Sinistcha|100/100
+|
+|upkeep
+|turn|19
+|-message|YIN SUN SHIN forfeited.
+|
+|win|nokthenerd
+|raw|YIN SUN SHIN's rating: 1476 &rarr; <strong>1459</strong><br />(-17 for losing)
+|raw|nokthenerd's rating: 1525 &rarr; <strong>1542</strong><br />(+17 for winning)
+|l|☆YIN SUN SHIN
+|player|p1|
+|l|☆nokthenerd
+|player|p2|

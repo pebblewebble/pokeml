@@ -1,0 +1,266 @@
+|j|☆lobomil
+|j|☆liteburnsthesky
+|t:|1743856752
+|gametype|singles
+|player|p1|lobomil|cynthia-gen4|1144
+|player|p2|liteburnsthesky|az|1087
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Florges-Blue, F|
+|poke|p1|Empoleon, F|
+|poke|p1|Talonflame, F|
+|poke|p1|Zapdos-Galar|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Slowking, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Hydrapple, F|
+|poke|p2|Corviknight, L99, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Pecharunt|
+|poke|p2|Tinkaton, F|
+|teampreview
+|
+|t:|1743856771
+|start
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743856787
+|switch|p1a: Florges|Florges-Blue, F|100/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Florges
+|-damage|p1a: Florges|68/100
+|-unboost|p1a: Florges|spa|1
+|
+|-heal|p1a: Florges|74/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743856801
+|move|p2a: Iron Valiant|Knock Off|p1a: Florges
+|-resisted|p1a: Florges
+|-damage|p1a: Florges|53/100
+|-enditem|p1a: Florges|Leftovers|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Florges|Psychic Noise|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|36/100
+|-start|p2a: Iron Valiant|move: Heal Block
+|
+|upkeep
+|turn|3
+|
+|t:|1743856819
+|-terastallize|p2a: Iron Valiant|Dark
+|move|p2a: Iron Valiant|Encore|p1a: Florges
+|-start|p1a: Florges|Encore
+|move|p1a: Florges|Psychic Noise|p2a: Iron Valiant
+|-immune|p2a: Iron Valiant
+|
+|-end|p2a: Iron Valiant|move: Heal Block
+|upkeep
+|turn|4
+|
+|t:|1743856835
+|switch|p1a: Talonflame|Talonflame, F|100/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|73/100
+|-unboost|p1a: Talonflame|spa|1
+|
+|upkeep
+|turn|5
+|
+|t:|1743856841
+|move|p2a: Iron Valiant|Knock Off|p1a: Talonflame
+|-damage|p1a: Talonflame|11/100
+|-status|p2a: Iron Valiant|brn|[from] ability: Flame Body|[of] p1a: Talonflame
+|-enditem|p1a: Talonflame|Wide Lens|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Talonflame|U-turn|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|1/100 brn
+|
+|t:|1743856846
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100|[from] U-turn
+|
+|-damage|p2a: Iron Valiant|0 fnt|[from] brn
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|upkeep
+|
+|t:|1743856851
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|6
+|
+|t:|1743856862
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Arcanine|Wild Charge|p2a: Pecharunt
+|-damage|p2a: Pecharunt|84/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743856890
+|switch|p1a: Talonflame|Talonflame, F|11/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|upkeep
+|
+|t:|1743856906
+|switch|p1a: Empoleon|Empoleon, F|100/100
+|-item|p1a: Empoleon|Air Balloon
+|turn|8
+|
+|t:|1743856941
+|move|p2a: Pecharunt|Parting Shot|p1a: Empoleon
+|-unboost|p1a: Empoleon|atk|1
+|-ability|p1a: Empoleon|Competitive|boost
+|-boost|p1a: Empoleon|spa|2
+|-unboost|p1a: Empoleon|spa|1
+|-ability|p1a: Empoleon|Competitive|boost
+|-boost|p1a: Empoleon|spa|2
+|c|☆liteburnsthesky|aw hell naw;
+|
+|t:|1743856970
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100|[from] Parting Shot
+|move|p1a: Empoleon|Agility|p1a: Empoleon
+|-boost|p1a: Empoleon|spe|2
+|
+|upkeep
+|turn|9
+|
+|t:|1743856984
+|-terastallize|p1a: Empoleon|Flying
+|move|p2a: Samurott|Sucker Punch|p1a: Empoleon
+|-damage|p1a: Empoleon|55/100
+|-enditem|p1a: Empoleon|Air Balloon
+|move|p1a: Empoleon|Tera Blast|p2a: Samurott|[anim] Tera Blast Flying
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743857001
+|switch|p2a: Corviknight|Corviknight, L99, M|100/100
+|turn|10
+|
+|t:|1743857008
+|move|p1a: Empoleon|Surf|p2a: Corviknight
+|-damage|p2a: Corviknight|12/100
+|move|p2a: Corviknight|Brave Bird|p1a: Empoleon
+|-damage|p1a: Empoleon|10/100
+|-damage|p2a: Corviknight|0 fnt|[from] Recoil
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1743857017
+|switch|p2a: Hydrapple|Hydrapple, F|100/100
+|turn|11
+|
+|t:|1743857057
+|move|p1a: Empoleon|Tera Blast|p2a: Hydrapple|[anim] Tera Blast Flying
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|
+|upkeep
+|
+|t:|1743857059
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-item|p2a: Tinkaton|Air Balloon
+|turn|12
+|
+|t:|1743857069
+|move|p1a: Empoleon|Surf|p2a: Tinkaton
+|-damage|p2a: Tinkaton|5/100
+|-enditem|p2a: Tinkaton|Air Balloon
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|faint|p1a: Empoleon
+|
+|upkeep
+|
+|t:|1743857080
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|13
+|
+|t:|1743857090
+|move|p1a: Arcanine|Flare Blitz|p2a: Tinkaton
+|-supereffective|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|
+|upkeep
+|
+|t:|1743857092
+|switch|p2a: Pecharunt|Pecharunt|84/100
+|turn|14
+|
+|t:|1743857097
+|move|p1a: Arcanine|Flare Blitz|p2a: Pecharunt
+|-crit|p2a: Pecharunt
+|-damage|p2a: Pecharunt|35/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|81/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743857104
+|move|p1a: Arcanine|Flare Blitz|p2a: Pecharunt
+|-damage|p2a: Pecharunt|3/100
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|53/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743857113
+|move|p1a: Arcanine|Flare Blitz|p2a: Pecharunt
+|-damage|p2a: Pecharunt|17/100
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|67/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743857118
+|move|p1a: Arcanine|Flare Blitz|p2a: Pecharunt
+|-damage|p2a: Pecharunt|32/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|62/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743857124
+|move|p1a: Arcanine|Flare Blitz|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|win|lobomil
+|raw|lobomil's rating: 1144 &rarr; <strong>1165</strong><br />(+21 for winning)
+|raw|liteburnsthesky's rating: 1087 &rarr; <strong>1068</strong><br />(-19 for losing)
+|l|☆liteburnsthesky
+|player|p2|
+|c|☆lobomil|Gg
+|l|☆lobomil
+|player|p1|

@@ -1,0 +1,211 @@
+|j|☆Imranthegoat
+|j|☆Ausll
+|t:|1743835939
+|gametype|singles
+|player|p1|Imranthegoat|volkner|1083
+|player|p2|Ausll|265|1112
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Galvantula, F|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Rotom-Wash|
+|poke|p1|Eelektross, M|
+|poke|p1|Magnezone|
+|poke|p1|Pikachu-Alola, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Greninja-*, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Zapdos|
+|poke|p2|Sandy Shocks|
+|poke|p2|Scizor, F|
+|teampreview
+|
+|t:|1743835945
+|start
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|-enditem|p2a: Sandy Shocks|Booster Energy
+|-activate|p2a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p2a: Sandy Shocks|protosynthesisspe
+|turn|1
+|
+|t:|1743835960
+|move|p2a: Sandy Shocks|Stealth Rock|p1a: Galvantula
+|-sidestart|p1: Imranthegoat|move: Stealth Rock
+|move|p1a: Galvantula|Sticky Web|p2a: Sandy Shocks
+|-sidestart|p2: Ausll|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743835975
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Galvantula|Energy Ball|p2a: Pelipper
+|-damage|p2a: Pelipper|64/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743835990
+|move|p1a: Galvantula|Thunder|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743836005
+|switch|p2a: Scizor|Scizor, F|100/100
+|-activate|p2a: Scizor|move: Sticky Web
+|-unboost|p2a: Scizor|spe|1
+|turn|4
+|
+|t:|1743836013
+|-terastallize|p2a: Scizor|Dark
+|move|p1a: Galvantula|Thunder|p2a: Scizor
+|-damage|p2a: Scizor|49/100
+|move|p2a: Scizor|Thief|p1a: Galvantula
+|-damage|p1a: Galvantula|9/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743836021
+|move|p2a: Scizor|Bullet Punch|p1a: Galvantula
+|-resisted|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743836044
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|-damage|p1a: Electrode|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1743836066
+|move|p1a: Electrode|Volt Switch|p2a: Scizor
+|-damage|p2a: Scizor|10/100
+|-damage|p1a: Electrode|78/100|[from] item: Life Orb
+|
+|t:|1743836075
+|switch|p1a: Magnezone|Magnezone|100/100|[from] Volt Switch
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|-item|p1a: Magnezone|Air Balloon
+|move|p2a: Scizor|U-turn|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|78/100
+|-enditem|p1a: Magnezone|Air Balloon
+|
+|t:|1743836084
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100|[from] U-turn
+|-activate|p2a: Sandy Shocks|move: Sticky Web
+|-unboost|p2a: Sandy Shocks|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743836102
+|switch|p1a: Eelektross|Eelektross, M|100/100
+|-damage|p1a: Eelektross|88/100|[from] Stealth Rock
+|move|p2a: Sandy Shocks|Thunderbolt|p1a: Eelektross
+|-resisted|p1a: Eelektross
+|-damage|p1a: Eelektross|67/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Eelektross|73/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743836120
+|move|p2a: Sandy Shocks|Tera Blast|p1a: Eelektross
+|-damage|p1a: Eelektross|47/100
+|move|p1a: Eelektross|Coil|p1a: Eelektross
+|-boost|p1a: Eelektross|atk|1
+|-boost|p1a: Eelektross|def|1
+|-boost|p1a: Eelektross|accuracy|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Eelektross|53/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743836146
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Eelektross|Dragon Claw|p2a: Zapdos
+|-damage|p2a: Zapdos|60/100
+|
+|-weather|none
+|-heal|p1a: Eelektross|59/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743836168
+|move|p2a: Zapdos|Thunder|p1a: Eelektross
+|-resisted|p1a: Eelektross
+|-damage|p1a: Eelektross|36/100
+|move|p1a: Eelektross|Coil|p1a: Eelektross
+|-boost|p1a: Eelektross|atk|1
+|-boost|p1a: Eelektross|def|1
+|-boost|p1a: Eelektross|accuracy|1
+|
+|-heal|p1a: Eelektross|42/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743836177
+|move|p2a: Zapdos|Hurricane|p1a: Eelektross
+|-resisted|p1a: Eelektross
+|-damage|p1a: Eelektross|16/100
+|move|p1a: Eelektross|Dragon Claw|p2a: Zapdos
+|-damage|p2a: Zapdos|5/100
+|
+|-heal|p1a: Eelektross|22/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743836192
+|switch|p1a: Magnezone|Magnezone|78/100
+|-damage|p1a: Magnezone|72/100|[from] Stealth Rock
+|move|p2a: Zapdos|Hurricane|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|59/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743836201
+|move|p2a: Zapdos|Thunder|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|32/100
+|move|p1a: Magnezone|Volt Switch|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-message|Ausll forfeited.
+|
+|win|Imranthegoat
+|raw|Imranthegoat's rating: 1083 &rarr; <strong>1113</strong><br />(+30 for winning)
+|raw|Ausll's rating: 1112 &rarr; <strong>1085</strong><br />(-27 for losing)
+|l|☆Ausll
+|player|p2|
+|l|☆Imranthegoat
+|player|p1|

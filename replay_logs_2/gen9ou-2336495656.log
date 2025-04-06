@@ -1,0 +1,282 @@
+|j|☆Morbick
+|j|☆ThatOneAutist_SSB
+|t:|1743927830
+|gametype|singles
+|player|p1|Morbick|nate|1292
+|player|p2|ThatOneAutist_SSB|gardenia|1279
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Iron Valiant|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Iron Moth|
+|poke|p1|Raging Bolt|
+|poke|p2|Electrode|
+|poke|p2|Iron Valiant|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Moth|
+|poke|p2|Ting-Lu|
+|poke|p2|Ursaluna, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ThatOneAutist_SSB)
+|
+|t:|1743927852
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Chocolate Rain!|Gholdengo|100/100
+|-item|p2a: Chocolate Rain!|Air Balloon
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743927864
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|move|p2a: Chocolate Rain!|Thunder Wave|p1a: Iron Moth
+|-status|p1a: Iron Moth|par
+|
+|upkeep
+|turn|2
+|
+|t:|1743927891
+|switch|p2a: Mega-Mind|Ting-Lu|100/100
+|-ability|p2a: Mega-Mind|Vessel of Ruin
+|cant|p1a: Iron Moth|par
+|
+|upkeep
+|turn|3
+|
+|t:|1743927904
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Mega-Mind|Stealth Rock|p1a: Enamorus
+|-sidestart|p1: Morbick|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1743927916
+|switch|p2a: Skin Cancer|Iron Moth|100/100
+|move|p1a: Enamorus|Moonblast|p2a: Skin Cancer
+|-resisted|p2a: Skin Cancer
+|-damage|p2a: Skin Cancer|87/100
+|
+|upkeep
+|turn|5
+|inactive|Morbick has 120 seconds left.
+|
+|t:|1743927957
+|switch|p1a: Iron Moth|Iron Moth|100/100 par
+|-damage|p1a: Iron Moth|76/100 par|[from] Stealth Rock
+|move|p2a: Skin Cancer|Meteor Beam||[still]
+|-prepare|p2a: Skin Cancer|Meteor Beam
+|-boost|p2a: Skin Cancer|spa|1
+|-enditem|p2a: Skin Cancer|Power Herb
+|-anim|p2a: Skin Cancer|Meteor Beam|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743927977
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1743927992
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p2a: Skin Cancer|Flamethrower|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|61/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Skin Cancer|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Skin Cancer
+|-damage|p2a: Skin Cancer|0 fnt
+|faint|p2a: Skin Cancer
+|-end|p2a: Skin Cancer|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743928003
+|switch|p2a: ROLLING THUNDER|Electrode, shiny|100/100
+|turn|7
+|inactive|Morbick has 120 seconds left.
+|
+|t:|1743928010
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|move|p2a: ROLLING THUNDER|Thunderbolt|p1a: Great Tusk
+|-immune|p1a: Great Tusk
+|
+|upkeep
+|turn|8
+|
+|t:|1743928015
+|-terastallize|p2a: ROLLING THUNDER|Ice
+|move|p2a: ROLLING THUNDER|Tera Blast|p1a: Great Tusk|[anim] Tera Blast Ice
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: ROLLING THUNDER|91/100|[from] item: Life Orb
+|
+|upkeep
+|c|☆ThatOneAutist_SSB|That's the trademark
+|inactive|Morbick has 120 seconds left.
+|
+|t:|1743928033
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|-damage|p1a: Enamorus|76/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743928039
+|move|p1a: Enamorus|Moonblast|p2a: ROLLING THUNDER
+|-damage|p2a: ROLLING THUNDER|22/100
+|-unboost|p2a: ROLLING THUNDER|spa|1
+|move|p2a: ROLLING THUNDER|Volt Switch|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|11/100
+|-damage|p2a: ROLLING THUNDER|12/100|[from] item: Life Orb
+|
+|t:|1743928061
+|switch|p2a: That’s The Mixup|Iron Valiant|100/100|[from] Volt Switch
+|-enditem|p2a: That’s The Mixup|Booster Energy
+|-activate|p2a: That’s The Mixup|ability: Quark Drive|[fromitem]
+|-start|p2a: That’s The Mixup|quarkdrivespe
+|
+|upkeep
+|turn|10
+|
+|t:|1743928069
+|move|p2a: That’s The Mixup|Knock Off|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|-enditem|p1a: Enamorus|Choice Scarf|[from] move: Knock Off|[of] p2a: That’s The Mixup
+|faint|p1a: Enamorus
+|
+|upkeep
+|
+|t:|1743928088
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-damage|p1a: Raging Bolt|88/100|[from] Stealth Rock
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|11
+|
+|t:|1743928110
+|-end|p2a: That’s The Mixup|Quark Drive|[silent]
+|switch|p2a: Mega-Mind|Ting-Lu|100/100
+|-ability|p2a: Mega-Mind|Vessel of Ruin
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|upkeep
+|turn|12
+|
+|t:|1743928123
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Mega-Mind
+|-damage|p2a: Mega-Mind|75/100
+|move|p2a: Mega-Mind|Earthquake|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|21/100
+|
+|-heal|p2a: Mega-Mind|81/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743928138
+|switch|p2a: That’s The Mixup|Iron Valiant|100/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: That’s The Mixup
+|-immune|p2a: That’s The Mixup
+|
+|upkeep
+|turn|14
+|
+|t:|1743928146
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|move|p2a: That’s The Mixup|Encore|p1a: Raging Bolt
+|-start|p1a: Raging Bolt|Encore
+|
+|upkeep
+|turn|15
+|
+|t:|1743928164
+|-end|p2a: That’s The Mixup|Quark Drive|[silent]
+|switch|p2a: Mega-Mind|Ting-Lu|81/100
+|-ability|p2a: Mega-Mind|Vessel of Ruin
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Mega-Mind|88/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743928175
+|move|p1a: Iron Valiant|Moonblast|p2a: Mega-Mind
+|-supereffective|p2a: Mega-Mind
+|-damage|p2a: Mega-Mind|48/100
+|move|p2a: Mega-Mind|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|44/100
+|
+|-heal|p2a: Mega-Mind|54/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743928180
+|move|p1a: Iron Valiant|Close Combat|p2a: Mega-Mind
+|-supereffective|p2a: Mega-Mind
+|-damage|p2a: Mega-Mind|0 fnt
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|faint|p2a: Mega-Mind
+|
+|upkeep
+|
+|t:|1743928185
+|switch|p2a: ROLLING THUNDER|Electrode, shiny, tera:Ice|12/100
+|turn|18
+|
+|t:|1743928194
+|move|p2a: ROLLING THUNDER|Volt Switch|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|-damage|p2a: ROLLING THUNDER|2/100|[from] item: Life Orb
+|
+|t:|1743928204
+|switch|p2a: Burnstein Bear|Ursaluna, M|100/100|[from] Volt Switch
+|
+|-status|p2a: Burnstein Bear|brn|[from] item: Flame Orb
+|upkeep
+|-message|Morbick forfeited.
+|
+|win|ThatOneAutist_SSB
+|raw|Morbick's rating: 1292 &rarr; <strong>1266</strong><br />(-26 for losing)
+|raw|ThatOneAutist_SSB's rating: 1279 &rarr; <strong>1305</strong><br />(+26 for winning)
+|l|☆Morbick
+|player|p1|
+|l|☆ThatOneAutist_SSB
+|player|p2|

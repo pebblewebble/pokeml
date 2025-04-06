@@ -1,0 +1,199 @@
+|j|☆Mawile438
+|j|☆mobius dongle
+|t:|1743934288
+|gametype|singles
+|player|p1|Mawile438|2|1510
+|player|p2|mobius dongle|cynthia|1491
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tyranitar, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Glimmora, F|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Primarina, M|
+|poke|p2|Mamoswine, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Primarina, M|
+|poke|p2|Moltres|
+|poke|p2|Iron Treads|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mobius dongle)
+|
+|t:|1743934304
+|start
+|switch|p1a: Arcanine|Arcanine-Hisui, F, shiny|100/100
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|turn|1
+|
+|t:|1743934317
+|move|p1a: Arcanine|Flare Blitz|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-enditem|p2a: Mamoswine|Focus Sash
+|-damage|p2a: Mamoswine|1/100
+|-status|p2a: Mamoswine|brn
+|move|p2a: Mamoswine|Earthquake|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|-damage|p2a: Mamoswine|0 fnt|[from] brn
+|faint|p2a: Mamoswine
+|upkeep
+|
+|t:|1743934333
+|switch|p1a: Glimmora|Glimmora, F, shiny|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|2
+|
+|t:|1743934339
+|switch|p1a: Mandibuzz|Mandibuzz, F, shiny|100/100
+|move|p2a: Iron Treads|Earth Power|p1a: Mandibuzz
+|-immune|p1a: Mandibuzz
+|
+|upkeep
+|turn|3
+|
+|t:|1743934344
+|move|p2a: Iron Treads|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Mawile438|move: Stealth Rock
+|move|p1a: Mandibuzz|Foul Play|p2a: Iron Treads
+|-damage|p2a: Iron Treads|69/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743934351
+|move|p2a: Iron Treads|Steel Beam|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|57/100
+|-damage|p2a: Iron Treads|19/100|[from] steelbeam
+|move|p1a: Mandibuzz|Defog|p2a: Iron Treads
+|-unboost|p2a: Iron Treads|evasion|1
+|-sideend|p1: Mawile438|Stealth Rock|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|upkeep
+|turn|5
+|
+|t:|1743934357
+|move|p2a: Iron Treads|Stealth Rock|p1a: Mandibuzz
+|-sidestart|p1: Mawile438|move: Stealth Rock
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|6
+|
+|t:|1743934360
+|move|p2a: Iron Treads|Steel Beam|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|56/100
+|-damage|p2a: Iron Treads|0 fnt|[from] steelbeam
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|move|p1a: Mandibuzz|Defog|p2: Iron Treads|[notarget]
+|-fail|p1a: Mandibuzz
+|
+|upkeep
+|
+|t:|1743934375
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|7
+|
+|t:|1743934398
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Mandibuzz|[anim] Ivy Cudgel Water
+|-damage|p1a: Mandibuzz|26/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Ogerpon
+|-damage|p2a: Ogerpon|35/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743934407
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Mandibuzz|[anim] Ivy Cudgel Water
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|t:|1743934419
+|switch|p1a: Tyranitar|Tyranitar, F, shiny|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|9
+|
+|t:|1743934428
+|switch|p1a: Primarina|Primarina, M|100/100
+|-damage|p1a: Primarina|88/100|[from] Stealth Rock
+|move|p2a: Ogerpon|Power Whip|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ogerpon|29/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743934434
+|switch|p1a: Excadrill|Excadrill, F, shiny|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743934441
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Excadrill|Iron Head|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|73/100
+|-damage|p1a: Excadrill|87/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|67/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1743934451
+|switch|p1a: Glimmora|Glimmora, F, shiny|100/100
+|-damage|p1a: Glimmora|88/100|[from] Stealth Rock
+|move|p2a: Moltres|Flamethrower|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|66/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|61/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1743934457
+|move|p1a: Glimmora|Sludge Wave|p2a: Moltres
+|-damage|p2a: Moltres|7/100
+|move|p2a: Moltres|Scorching Sands|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|1/100|[from] Sandstorm
+|upkeep
+|-message|Mawile438 forfeited.
+|
+|win|mobius dongle
+|raw|Mawile438's rating: 1510 &rarr; <strong>1489</strong><br />(-21 for losing)
+|raw|mobius dongle's rating: 1491 &rarr; <strong>1512</strong><br />(+21 for winning)
+|l|☆Mawile438
+|player|p1|
+|l|☆mobius dongle
+|player|p2|

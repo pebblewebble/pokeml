@@ -1,0 +1,263 @@
+|j|☆pantuxd
+|j|☆Trainee Sword
+|t:|1743854524
+|gametype|singles
+|player|p1|pantuxd|2|1275
+|player|p2|Trainee Sword|265|1243
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Darkrai|
+|poke|p1|Kyurem|
+|poke|p1|Iron Valiant|
+|poke|p2|Alomomola, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Garchomp, F|
+|poke|p2|Iron Moth|
+|poke|p2|Darkrai|
+|poke|p2|Hoopa-Unbound|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pantuxd)
+|
+|t:|1743854537
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Darkrai|Darkrai|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Darkrai|atk|1
+|turn|1
+|
+|t:|1743854544
+|move|p2a: Darkrai|Ice Beam|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743854549
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|2
+|
+|t:|1743854555
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Hatterene|Draining Kiss|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|95/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743854560
+|move|p2a: Iron Moth|Substitute|p2a: Iron Moth
+|-start|p2a: Iron Moth|Substitute
+|-damage|p2a: Iron Moth|70/100
+|move|p1a: Hatterene|Psychic Noise|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743854569
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|4
+|
+|t:|1743854575
+|move|p2a: Hoopa|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|59/100
+|-damage|p2a: Hoopa|84/100|[from] item: Rocky Helmet|[of] p1a: Hatterene
+|-enditem|p1a: Hatterene|Rocky Helmet|[from] move: Knock Off|[of] p2a: Hoopa
+|move|p1a: Hatterene|Draining Kiss|p2a: Hoopa
+|-supereffective|p2a: Hoopa
+|-damage|p2a: Hoopa|60/100
+|-heal|p1a: Hatterene|79/100|[from] drain|[of] p2a: Hoopa
+|
+|upkeep
+|turn|5
+|
+|t:|1743854585
+|move|p2a: Hoopa|Psychic Noise|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|54/100
+|-start|p1a: Hatterene|move: Heal Block
+|cant|p1a: Hatterene|move: Heal Block|Draining Kiss
+|
+|upkeep
+|turn|6
+|
+|t:|1743854589
+|move|p2a: Hoopa|Thunderbolt|p1a: Hatterene
+|-damage|p1a: Hatterene|16/100
+|-status|p1a: Hatterene|par
+|cant|p1a: Hatterene|par
+|
+|-end|p1a: Hatterene|move: Heal Block
+|upkeep
+|turn|7
+|
+|t:|1743854593
+|move|p2a: Hoopa|Thunderbolt|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1743854601
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|8
+|
+|t:|1743854611
+|-terastallize|p2a: Hoopa|Fairy
+|move|p1a: Iron Valiant|Moonblast|p2a: Hoopa
+|-damage|p2a: Hoopa|37/100
+|move|p2a: Hoopa|Psychic Noise|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743854630
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|9
+|
+|t:|1743854633
+|move|p1a: Darkrai|Sludge Bomb|p2a: Hoopa
+|-supereffective|p2a: Hoopa
+|-damage|p2a: Hoopa|3/100
+|-status|p2a: Hoopa|psn
+|move|p2a: Hoopa|Drain Punch|p1a: Darkrai
+|-supereffective|p1a: Darkrai
+|-damage|p1a: Darkrai|32/100
+|-heal|p2a: Hoopa|30/100 psn|[from] drain|[of] p1a: Darkrai
+|
+|-damage|p2a: Hoopa|17/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743854640
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Darkrai|Sludge Bomb|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|92/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743854645
+|move|p1a: Darkrai|Dark Pulse|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|43/100
+|move|p2a: Slowking|Thunder Wave|p1a: Darkrai
+|-status|p1a: Darkrai|par
+|
+|upkeep
+|turn|12
+|
+|t:|1743854655
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Darkrai|Dark Pulse|p2a: Alomomola
+|-damage|p2a: Alomomola|51/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743854658
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Darkrai|Dark Pulse|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|upkeep
+|turn|14
+|
+|t:|1743854663
+|move|p1a: Darkrai|Dark Pulse|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|upkeep
+|
+|t:|1743854672
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|15
+|
+|t:|1743854676
+|move|p2a: Garchomp|Earthquake|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|upkeep
+|
+|t:|1743854682
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|16
+|
+|t:|1743854685
+|move|p1a: Cinderace|Swords Dance|p1a: Cinderace
+|-boost|p1a: Cinderace|atk|2
+|move|p2a: Garchomp|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-enditem|p1a: Cinderace|Focus Sash
+|-damage|p1a: Cinderace|1/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743854691
+|move|p1a: Cinderace|Reversal|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Cinderace|0 fnt|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743854697
+|switch|p1a: Kyurem|Kyurem|100/100
+|switch|p2a: Darkrai|Darkrai|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|18
+|
+|t:|1743854706
+|-terastallize|p1a: Kyurem|Electric
+|move|p2a: Darkrai|Trick|p1a: Kyurem
+|-activate|p2a: Darkrai|move: Trick|[of] p1a: Kyurem
+|-item|p1a: Kyurem|Choice Scarf|[from] move: Trick
+|-item|p2a: Darkrai|Loaded Dice|[from] move: Trick
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|
+|upkeep
+|turn|19
+|-message|pantuxd forfeited.
+|
+|win|Trainee Sword
+|raw|pantuxd's rating: 1275 &rarr; <strong>1248</strong><br />(-27 for losing)
+|raw|Trainee Sword's rating: 1243 &rarr; <strong>1270</strong><br />(+27 for winning)
+|l|☆pantuxd
+|player|p1|

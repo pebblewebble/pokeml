@@ -1,0 +1,308 @@
+|j|☆RAABSMD
+|j|☆peanutlover01
+|t:|1743828622
+|gametype|singles
+|player|p1|RAABSMD|ghetsis|
+|player|p2|peanutlover01|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, M|
+|poke|p1|Mew|
+|poke|p1|Weavile, F|
+|poke|p1|Gholdengo|
+|poke|p1|Glimmora, F|
+|poke|p1|Haxorus, M|
+|poke|p2|Darkrai|
+|poke|p2|Latios, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Great Tusk|
+|poke|p2|Heatran, F|
+|poke|p2|Meowscarada, M|
+|teampreview
+|
+|t:|1743828631
+|start
+|switch|p1a: Araquanid|Araquanid, M, shiny|100/100
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|1
+|
+|t:|1743828647
+|move|p2a: Darkrai|Dark Pulse|p1a: Araquanid
+|-damage|p1a: Araquanid|52/100
+|move|p1a: Araquanid|Sticky Web|p2a: Darkrai
+|-sidestart|p2: peanutlover01|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743828654
+|move|p2a: Darkrai|Dark Pulse|p1a: Araquanid
+|-damage|p1a: Araquanid|2/100
+|move|p1a: Araquanid|Surf|p2a: Darkrai
+|-damage|p2a: Darkrai|50/100
+|
+|upkeep
+|turn|3
+|-enditem|p1a: Araquanid|Custap Berry|[eat]
+|-activate|p1a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1743828661
+|move|p1a: Araquanid|Surf|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|upkeep
+|
+|t:|1743828670
+|switch|p2a: Latios|Latios, M|100/100
+|turn|4
+|
+|t:|1743828674
+|move|p2a: Latios|Luster Purge|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1743828680
+|switch|p1a: Weavile|Weavile, F, shiny|100/100
+|turn|5
+|
+|t:|1743828714
+|switch|p2a: Heatran|Heatran, F|100/100
+|-activate|p2a: Heatran|move: Sticky Web
+|-unboost|p2a: Heatran|spe|1
+|move|p1a: Weavile|Swords Dance|p1a: Weavile
+|-boost|p1a: Weavile|atk|2
+|
+|upkeep
+|turn|6
+|
+|t:|1743828762
+|move|p1a: Weavile|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|11/100
+|-status|p1a: Weavile|brn|[from] ability: Flame Body|[of] p2a: Heatran
+|-enditem|p2a: Heatran|Leftovers|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Heatran|Magma Storm|p1a: Weavile|[miss]
+|-miss|p2a: Heatran|p1a: Weavile
+|
+|-damage|p1a: Weavile|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743828773
+|move|p1a: Weavile|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-damage|p1a: Weavile|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1743828785
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|move: Sticky Web
+|-unboost|p2a: Great Tusk|spe|1
+|turn|8
+|
+|t:|1743828796
+|-terastallize|p2a: Great Tusk|Ghost
+|move|p1a: Weavile|Icicle Crash|p2a: Great Tusk
+|-damage|p2a: Great Tusk|77/100
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|-heal|p2a: Great Tusk|84/100|[from] item: Leftovers
+|-damage|p1a: Weavile|82/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743828810
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Great Tusk|Rapid Spin|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|-heal|p2a: Great Tusk|90/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743828824
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Latios|Latios, M|100/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|26/100
+|-unboost|p2a: Latios|spd|1
+|
+|upkeep
+|turn|11
+|
+|t:|1743828853
+|switch|p1a: Weavile|Weavile, F, shiny|82/100 brn
+|move|p2a: Latios|Trick|p1a: Weavile
+|-activate|p2a: Latios|move: Trick|[of] p1a: Weavile
+|-item|p1a: Weavile|Choice Specs|[from] move: Trick
+|-item|p2a: Latios|Heavy-Duty Boots|[from] move: Trick
+|
+|-damage|p1a: Weavile|76/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743828865
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-activate|p2a: Zamazenta|move: Sticky Web
+|-unboost|p2a: Zamazenta|spe|1
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Weavile|Knock Off|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|94/100
+|-enditem|p2a: Zamazenta|Leftovers|[from] move: Knock Off|[of] p1a: Weavile
+|
+|-damage|p1a: Weavile|70/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743828889
+|switch|p1a: Glimmora|Glimmora, F, shiny|100/100
+|move|p2a: Zamazenta|Body Press|p1a: Glimmora
+|-damage|p1a: Glimmora|34/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: peanutlover01|move: Toxic Spikes
+|
+|upkeep
+|turn|14
+|
+|t:|1743828900
+|move|p1a: Glimmora|Stealth Rock|p2a: Zamazenta
+|-sidestart|p2: peanutlover01|move: Stealth Rock
+|move|p2a: Zamazenta|Body Press|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: peanutlover01|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1743828908
+|switch|p1a: Mew|Mew, shiny|100/100
+|turn|15
+|
+|t:|1743828926
+|move|p1a: Mew|Nasty Plot|p1a: Mew
+|-boost|p1a: Mew|spa|2
+|move|p2a: Zamazenta|Crunch|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|59/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743828933
+|move|p1a: Mew|Psyshock|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|6/100
+|-damage|p1a: Mew|49/100|[from] item: Life Orb
+|move|p2a: Zamazenta|Crunch|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|5/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743828941
+|move|p1a: Mew|Psyshock|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|-damage|p1a: Mew|0 fnt|[from] item: Life Orb
+|faint|p1a: Mew
+|
+|upkeep
+|
+|t:|1743828952
+|switch|p2a: Latios|Latios, M|26/100
+|switch|p1a: Haxorus|Haxorus, M, shiny|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|18
+|
+|t:|1743828971
+|switch|p1a: Weavile|Weavile, F, shiny|70/100 brn
+|move|p2a: Latios|Draco Meteor|p1a: Weavile|[miss]
+|-miss|p2a: Latios|p1a: Weavile
+|
+|-damage|p1a: Weavile|64/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1743828982
+|switch|p2a: Great Tusk|Great Tusk, tera:Ghost|90/100
+|-activate|p2a: Great Tusk|move: Sticky Web
+|-unboost|p2a: Great Tusk|spe|1
+|-status|p2a: Great Tusk|tox
+|-damage|p2a: Great Tusk|77/100 tox|[from] Stealth Rock
+|move|p1a: Weavile|Knock Off|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|53/100 tox
+|-enditem|p2a: Great Tusk|Leftovers|[from] move: Knock Off|[of] p1a: Weavile
+|
+|-damage|p2a: Great Tusk|46/100 tox|[from] psn
+|-damage|p1a: Weavile|58/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1743828996
+|move|p1a: Weavile|Knock Off|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|29/100 tox
+|move|p2a: Great Tusk|Earthquake|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-damage|p2a: Great Tusk|17/100 tox|[from] psn
+|upkeep
+|
+|t:|1743829006
+|switch|p1a: Haxorus|Haxorus, M, shiny|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|21
+|
+|t:|1743829012
+|move|p1a: Haxorus|Scale Shot|p2a: Great Tusk
+|-damage|p2a: Great Tusk|9/100 tox
+|-damage|p2a: Great Tusk|2/100 tox
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-hitcount|p2: Great Tusk|3
+|-unboost|p1a: Haxorus|def|1
+|-boost|p1a: Haxorus|spe|1
+|
+|upkeep
+|
+|t:|1743829021
+|switch|p2a: Latios|Latios, M|26/100
+|turn|22
+|
+|t:|1743829026
+|move|p1a: Haxorus|Iron Head|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+|-message|peanutlover01 forfeited.
+|
+|win|RAABSMD
+|l|☆peanutlover01
+|player|p2|

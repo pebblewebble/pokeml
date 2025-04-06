@@ -1,0 +1,154 @@
+|j|☆Skiddris
+|j|☆Aiaoqppqqppq
+|t:|1743843611
+|gametype|singles
+|player|p1|Skiddris|artist|1233
+|player|p2|Aiaoqppqqppq|170|1241
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ribombee, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Serperior, M|
+|poke|p1|Mimikyu, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Bisharp, F|
+|poke|p2|Araquanid, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Moth|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|t:|1743843615
+|start
+|switch|p1a: Ribombee|Ribombee, F, shiny|100/100
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|turn|1
+|
+|t:|1743843620
+|move|p1a: Ribombee|Sticky Web|p2a: Araquanid
+|-sidestart|p2: Aiaoqppqqppq|move: Sticky Web
+|move|p2a: Araquanid|Sticky Web|p1a: Ribombee
+|-sidestart|p1: Skiddris|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743843630
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-activate|p1a: Dragapult|move: Sticky Web
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|move|p2a: Araquanid|Liquidation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|73/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743843639
+|move|p1a: Dragapult|Thunderbolt|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|58/100
+|-damage|p1a: Dragapult|63/100|[from] item: Life Orb
+|move|p2a: Araquanid|Mirror Coat|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1743843652
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|4
+|
+|t:|1743843662
+|move|p1a: Cinderace|Pyro Ball|p2a: Araquanid
+|-damage|p2a: Araquanid|31/100
+|move|p2a: Araquanid|Liquidation|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743843672
+|switch|p1a: Serperior|Serperior, M|100/100
+|-activate|p1a: Serperior|move: Sticky Web
+|-boost|p1a: Serperior|spe|1
+|turn|5
+|
+|t:|1743843677
+|move|p1a: Serperior|Leaf Storm|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|t:|1743843688
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-activate|p2a: Iron Moth|move: Sticky Web
+|-unboost|p2a: Iron Moth|spe|1
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|6
+|
+|t:|1743843703
+|-terastallize|p1a: Serperior|Fire
+|move|p1a: Serperior|Leaf Storm|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|75/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Iron Moth|Sludge Wave|p1a: Serperior
+|-damage|p1a: Serperior|10/100
+|
+|-heal|p1a: Serperior|17/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743843714
+|move|p1a: Serperior|Dragon Pulse|p2a: Iron Moth
+|-damage|p2a: Iron Moth|11/100
+|move|p2a: Iron Moth|Sludge Wave|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|
+|t:|1743843722
+|switch|p1a: Ribombee|Ribombee, F, shiny|100/100
+|-activate|p1a: Ribombee|move: Sticky Web
+|-unboost|p1a: Ribombee|spe|1
+|turn|8
+|
+|t:|1743843730
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Ribombee|Psychic Noise|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|88/100
+|-start|p2a: Gholdengo|move: Heal Block
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|9
+|-message|Skiddris forfeited.
+|
+|win|Aiaoqppqqppq
+|raw|Skiddris's rating: 1233 &rarr; <strong>1209</strong><br />(-24 for losing)
+|raw|Aiaoqppqqppq's rating: 1241 &rarr; <strong>1265</strong><br />(+24 for winning)
+|l|☆Skiddris
+|player|p1|

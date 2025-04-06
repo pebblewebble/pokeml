@@ -1,0 +1,175 @@
+|j|☆Aniball92
+|j|☆Josuecast
+|t:|1743896530
+|gametype|singles
+|player|p1|Aniball92|red|1045
+|player|p2|Josuecast|2|1084
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Politoed, F|
+|poke|p1|Salamence, M|
+|poke|p1|Sceptile, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Magnezone|
+|poke|p1|Leavanny, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Clefable, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Walking Wake|
+|teampreview
+|
+|t:|1743896560
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Glimmora|atk|1
+|turn|1
+|
+|t:|1743896569
+|move|p2a: Landorus|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Josuecast|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1743896574
+|switch|p1a: Politoed|Politoed, F|100/100
+|turn|2
+|
+|t:|1743896580
+|-terastallize|p2a: Landorus|Water
+|move|p2a: Landorus|Stealth Rock|p1a: Politoed
+|-sidestart|p1: Aniball92|move: Stealth Rock
+|move|p1a: Politoed|Ice Beam|p2a: Landorus
+|-resisted|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|74/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743896588
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-sideend|p2: Josuecast|move: Toxic Spikes|[of] p2a: Toxapex
+|switch|p1a: Sceptile|Sceptile, M|100/100
+|-damage|p1a: Sceptile|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1743896596
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|move|p1a: Sceptile|Leech Seed|p2a: Corviknight
+|-start|p2a: Corviknight|move: Leech Seed
+|
+|-damage|p2a: Corviknight|88/100|[from] Leech Seed|[of] p1a: Sceptile
+|-heal|p1a: Sceptile|100/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1743896611
+|switch|p1a: Magnezone|Magnezone|100/100
+|-damage|p1a: Magnezone|94/100|[from] Stealth Rock
+|-item|p1a: Magnezone|Air Balloon
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-damage|p2a: Corviknight|75/100|[from] Leech Seed|[of] p1a: Magnezone
+|-heal|p1a: Magnezone|100/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1743896624
+|switch|p2a: Landorus|Landorus-Therian, M, tera:Water|74/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Magnezone|atk|1
+|move|p1a: Magnezone|Substitute|p1a: Magnezone
+|-start|p1a: Magnezone|Substitute
+|-damage|p1a: Magnezone|76/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743896633
+|move|p2a: Landorus|Stone Edge|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-activate|p1a: Magnezone|move: Substitute|[damage]
+|-enditem|p1a: Magnezone|Air Balloon
+|move|p1a: Magnezone|Flash Cannon|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|54/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743896642
+|move|p2a: Landorus|Stone Edge|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-activate|p1a: Magnezone|move: Substitute|[damage]
+|move|p1a: Magnezone|Substitute|p1a: Magnezone
+|-fail|p1a: Magnezone|move: Substitute
+|
+|upkeep
+|turn|9
+|
+|t:|1743896648
+|move|p2a: Landorus|Stone Edge|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-end|p1a: Magnezone|Substitute
+|move|p1a: Magnezone|Substitute|p1a: Magnezone
+|-start|p1a: Magnezone|Substitute
+|-damage|p1a: Magnezone|51/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743896655
+|switch|p2a: Clefable|Clefable, M|100/100
+|move|p1a: Magnezone|Flash Cannon|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|39/100
+|-unboost|p2a: Clefable|spd|1
+|
+|-heal|p2a: Clefable|45/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|l|☆Josuecast
+|player|p2|
+|
+|t:|1743896666
+|switch|p2a: Corviknight|Corviknight, F|75/100
+|move|p1a: Magnezone|Flash Cannon|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|59/100
+|
+|upkeep
+|turn|12
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Aniball92)
+|inactive|Josuecast has 30 seconds to reconnect!
+|inactive|Josuecast has 20 seconds to reconnect!
+|inactive|Josuecast has 15 seconds to reconnect!
+|inactive|Josuecast has 10 seconds to reconnect!
+|inactive|Josuecast has 5 seconds to reconnect!
+|-message|Josuecast lost due to inactivity.
+|
+|win|Aniball92
+|raw|Aniball92's rating: 1045 &rarr; <strong>1082</strong><br />(+37 for winning)
+|raw|Josuecast's rating: 1084 &rarr; <strong>1059</strong><br />(-25 for losing)

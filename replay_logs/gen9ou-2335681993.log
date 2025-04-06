@@ -1,0 +1,385 @@
+|j|☆Wintrmint2
+|j|☆hugobui0105
+|t:|1743820831
+|gametype|singles
+|player|p1|Wintrmint2|korrina|1401
+|player|p2|hugobui0105|scientist-gen4dp|1416
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Zapdos|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Iron Treads|
+|poke|p2|Blaziken, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Kingambit, M|
+|poke|p2|Pecharunt|
+|poke|p2|Primarina, F|
+|teampreview
+|
+|t:|1743820851
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|turn|1
+|
+|t:|1743820858
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Iron Treads|Stealth Rock|p2a: Rillaboom
+|-sidestart|p2: hugobui0105|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hugobui0105)
+|
+|t:|1743820866
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Rillaboom|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|67/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1743820871
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743820877
+|switch|p2a: Primarina|Primarina, F|100/100
+|-damage|p2a: Primarina|88/100|[from] Stealth Rock
+|move|p1a: Pelipper|U-turn|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|81/100
+|
+|t:|1743820885
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Primarina|87/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1743820893
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Ogerpon|Power Whip|p2a: Pecharunt
+|-resisted|p2a: Pecharunt
+|-damage|p2a: Pecharunt|79/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pecharunt|85/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1743820903
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Pecharunt|[anim] Ivy Cudgel Water
+|-damage|p2a: Pecharunt|27/100
+|move|p2a: Pecharunt|Parting Shot|p1a: Ogerpon
+|-unboost|p1a: Ogerpon|atk|1
+|-unboost|p1a: Ogerpon|spa|1
+|
+|t:|1743820907
+|switch|p2a: Rillaboom|Rillaboom, F|100/100|[from] Parting Shot
+|-damage|p2a: Rillaboom|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|94/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1743820917
+|switch|p1a: Zapdos|Zapdos|100/100
+|-terastallize|p2a: Rillaboom|Grass
+|move|p2a: Rillaboom|Wood Hammer|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|24/100
+|-damage|p2a: Rillaboom|71/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743820926
+|move|p1a: Zapdos|Hurricane|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|-damage|p1a: Zapdos|15/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743820934
+|switch|p2a: Blaziken|Blaziken, M|100/100
+|-damage|p2a: Blaziken|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1743820938
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|move|p2a: Blaziken|Protect||[still]
+|-fail|p2a: Blaziken
+|
+|-weather|RainDance|[upkeep]
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|9
+|
+|t:|1743820945
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|move|p1a: Pelipper|Hurricane|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|84/100
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1743820949
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Raging Bolt|Volt Switch|p1a: Iron Treads
+|-immune|p1a: Iron Treads
+|
+|upkeep
+|turn|11
+|
+|t:|1743820954
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Primarina|Primarina, F|87/100
+|-damage|p2a: Primarina|75/100|[from] Stealth Rock
+|move|p1a: Iron Treads|Knock Off|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|56/100
+|-enditem|p2a: Primarina|Assault Vest|[from] move: Knock Off|[of] p1a: Iron Treads
+|
+|upkeep
+|turn|12
+|
+|t:|1743820967
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Zapdos|Zapdos|15/100
+|move|p2a: Primarina|Surf|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1743820972
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|13
+|
+|t:|1743820977
+|move|p2a: Primarina|Flip Turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|92/100
+|
+|t:|1743820979
+|switch|p2a: Raging Bolt|Raging Bolt|84/100|[from] Flip Turn
+|move|p1a: Pelipper|U-turn|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|76/100
+|
+|t:|1743820988
+|switch|p1a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743820994
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Pecharunt|Pecharunt|27/100
+|move|p1a: Iron Treads|High Horsepower|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743820997
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|15
+|
+|t:|1743821015
+|move|p1a: Iron Treads|High Horsepower|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|32/100
+|move|p2a: Kingambit|Low Kick|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|6/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Iron Treads|12/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743821024
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Pelipper|Pelipper, F|92/100
+|move|p2a: Kingambit|Low Kick|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|82/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|-activate|p2a: Kingambit|item: Quick Claw
+|
+|t:|1743821033
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Pelipper
+|-damage|p1a: Pelipper|39/100
+|move|p1a: Pelipper|Hurricane|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|13/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743821040
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743821045
+|switch|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water|100/100
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|turn|19
+|
+|t:|1743821054
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Primarina|Primarina, F|56/100
+|-damage|p2a: Primarina|43/100|[from] Stealth Rock
+|move|p1a: Ogerpon|Play Rough|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743821056
+|switch|p2a: Raging Bolt|Raging Bolt|76/100
+|turn|20
+|
+|t:|1743821061
+|move|p1a: Ogerpon|Play Rough|p2a: Raging Bolt|[miss]
+|-miss|p1a: Ogerpon|p2a: Raging Bolt
+|move|p2a: Raging Bolt|Discharge|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|28/100
+|
+|-weather|none
+|upkeep
+|turn|21
+|
+|t:|1743821068
+|switch|p1a: Iron Treads|Iron Treads|12/100
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Blaziken|Blaziken, M|88/100
+|-damage|p2a: Blaziken|76/100|[from] Stealth Rock
+|
+|-heal|p1a: Iron Treads|18/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743821076
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|move|p2a: Blaziken|Protect||[still]
+|-fail|p2a: Blaziken
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|23
+|
+|t:|1743821086
+|move|p2a: Blaziken|Overheat|p1a: Basculegion|[miss]
+|-miss|p2a: Blaziken|p1a: Basculegion
+|move|p1a: Basculegion|Hydro Pump|p2a: Blaziken
+|-supereffective|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|
+|upkeep
+|
+|t:|1743821089
+|switch|p2a: Kingambit|Kingambit, M|13/100
+|-damage|p2a: Kingambit|7/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|24
+|
+|t:|1743821097
+|move|p1a: Basculegion|Hydro Pump|p2a: Kingambit|[miss]
+|-miss|p1a: Basculegion|p2a: Kingambit
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|upkeep
+|
+|t:|1743821099
+|switch|p1a: Iron Treads|Iron Treads|18/100
+|turn|25
+|
+|t:|1743821103
+|move|p1a: Iron Treads|High Horsepower|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|
+|-heal|p1a: Iron Treads|24/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743821126
+|switch|p2a: Raging Bolt|Raging Bolt|76/100
+|turn|26
+|
+|t:|1743821129
+|move|p1a: Iron Treads|High Horsepower|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|Wintrmint2
+|raw|Wintrmint2's rating: 1401 &rarr; <strong>1422</strong><br />(+21 for winning)
+|raw|hugobui0105's rating: 1416 &rarr; <strong>1395</strong><br />(-21 for losing)
+|l|☆hugobui0105
+|player|p2|
+|l|☆Wintrmint2
+|player|p1|

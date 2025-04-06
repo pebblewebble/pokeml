@@ -1,0 +1,156 @@
+|j|☆Tscher
+|j|☆WongHung
+|t:|1743833356
+|gametype|singles
+|player|p1|Tscher|266|1266
+|player|p2|WongHung|psychic-gen4|1230
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cinccino, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Armarouge, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Gliscor, F|
+|poke|p1|Meowscarada, M|
+|poke|p2|Kyurem|
+|poke|p2|Primarina, F|
+|poke|p2|Gholdengo|
+|poke|p2|Pecharunt|
+|poke|p2|Ting-Lu|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|t:|1743833359
+|start
+|switch|p1a: Cinccino|Cinccino, M|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|t:|1743833366
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Cinccino
+|-status|p1a: Cinccino|brn
+|move|p1a: Cinccino|Triple Axel|p2a: Dragapult|[miss]
+|-miss|p1a: Cinccino|p2a: Dragapult
+|
+|-damage|p1a: Cinccino|95/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1743833372
+|switch|p2a: Takeshi|Pecharunt|100/100
+|move|p1a: Cinccino|Triple Axel|p2a: Takeshi
+|-damage|p2a: Takeshi|99/100
+|-damage|p2a: Takeshi|97/100
+|-damage|p2a: Takeshi|93/100
+|-hitcount|p2a: Takeshi|3
+|
+|-damage|p1a: Cinccino|89/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743833381
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: Takeshi|Parting Shot|p1a: Iron Valiant
+|-unboost|p1a: Iron Valiant|atk|1
+|-unboost|p1a: Iron Valiant|spa|1
+|
+|t:|1743833386
+|switch|p2a: Ting-Lu|Ting-Lu|100/100|[from] Parting Shot
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|upkeep
+|turn|4
+|
+|t:|1743833395
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Meowscarada
+|-resisted|p1a: Meowscarada
+|-damage|p1a: Meowscarada|69/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743833405
+|switch|p2a: Takeshi|Pecharunt|93/100
+|move|p1a: Meowscarada|U-turn|p2a: Takeshi
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p2a: Takeshi
+|-damage|p2a: Takeshi|88/100
+|
+|t:|1743833416
+|switch|p1a: Gliscor|Gliscor, F|100/100|[from] U-turn
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|t:|1743833421
+|move|p2a: Takeshi|Parting Shot|p1a: Gliscor
+|-unboost|p1a: Gliscor|atk|1
+|-unboost|p1a: Gliscor|spa|1
+|
+|t:|1743833426
+|switch|p2a: El Asere|Gholdengo, shiny|100/100|[from] Parting Shot
+|-item|p2a: El Asere|Air Balloon
+|move|p1a: Gliscor|Knock Off|p2a: El Asere
+|-supereffective|p2a: El Asere
+|-damage|p2a: El Asere|81/100
+|-enditem|p2a: El Asere|Air Balloon
+|
+|upkeep
+|turn|7
+|
+|t:|1743833435
+|switch|p1a: Meowscarada|Meowscarada, M|69/100
+|move|p2a: El Asere|Hex|p1a: Meowscarada
+|-resisted|p1a: Meowscarada
+|-damage|p1a: Meowscarada|47/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743833443
+|move|p1a: Meowscarada|U-turn|p2a: El Asere
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p2a: El Asere
+|-damage|p2a: El Asere|76/100
+|
+|t:|1743833448
+|switch|p1a: Armarouge|Armarouge, F|100/100|[from] U-turn
+|move|p2a: El Asere|Thunder Wave|p1a: Armarouge
+|-status|p1a: Armarouge|par
+|
+|upkeep
+|turn|9
+|
+|t:|1743833464
+|move|p2a: El Asere|Hex|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|
+|upkeep
+|-message|Tscher forfeited.
+|
+|win|WongHung
+|raw|Tscher's rating: 1266 &rarr; <strong>1238</strong><br />(-28 for losing)
+|raw|WongHung's rating: 1230 &rarr; <strong>1258</strong><br />(+28 for winning)
+|l|☆Tscher
+|player|p1|
+|l|☆WongHung
+|player|p2|

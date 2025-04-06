@@ -1,0 +1,215 @@
+|j|☆zhiyongyici
+|j|☆Zxz08720
+|t:|1743832501
+|gametype|singles
+|player|p1|zhiyongyici|169|1372
+|player|p2|Zxz08720|102|1322
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Walking Wake|
+|poke|p1|Torkoal, F|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Moth|
+|poke|p1|Hatterene, F|
+|poke|p1|Corviknight, M|
+|poke|p2|Garganacl, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Iron Crown|
+|poke|p2|Great Tusk|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Moltres|
+|teampreview
+|
+|t:|1743832513
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1743832532
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Hatterene
+|-damage|p1a: Hatterene|31/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1743832538
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743832554
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743832567
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|3
+|
+|t:|1743832580
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Great Tusk|Headlong Rush|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743832585
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Corviknight|U-turn|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|97/100
+|
+|t:|1743832592
+|switch|p1a: Walking Wake|Walking Wake|100/100|[from] U-turn
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743832626
+|-terastallize|p1a: Walking Wake|Water
+|-terastallize|p2a: Moltres|Ground
+|move|p1a: Walking Wake|Hydro Steam|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743832641
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|6
+|
+|t:|1743832648
+|move|p1a: Walking Wake|Hydro Steam|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|12/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Walking Wake
+|-damage|p1a: Walking Wake|59/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Walking Wake
+|-damage|p1a: Walking Wake|18/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743832667
+|move|p1a: Walking Wake|Hydro Steam|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743832677
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|turn|8
+|
+|t:|1743832682
+|move|p1a: Walking Wake|Hydro Steam|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|upkeep
+|
+|t:|1743832689
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|9
+|
+|t:|1743832695
+|move|p2a: Great Tusk|Close Combat|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743832706
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|10
+|
+|t:|1743832713
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|upkeep
+|turn|11
+|
+|t:|1743832720
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|move|p2a: Garganacl|Salt Cure|p1a: Corviknight
+|-damage|p1a: Corviknight|97/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743832728
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|upkeep
+|turn|13
+|
+|t:|1743832734
+|move|p1a: Corviknight|Body Press|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|upkeep
+|-message|Zxz08720 forfeited.
+|
+|win|zhiyongyici
+|raw|zhiyongyici's rating: 1372 &rarr; <strong>1389</strong><br />(+17 for winning)
+|raw|Zxz08720's rating: 1322 &rarr; <strong>1305</strong><br />(-17 for losing)
+|l|☆Zxz08720
+|player|p2|

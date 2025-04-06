@@ -1,0 +1,382 @@
+|j|☆bandostado
+|j|☆RadiantShadow
+|t:|1743797100
+|gametype|singles
+|player|p1|bandostado|pokekid|1426
+|player|p2|RadiantShadow|acetrainerf-gen4dp|1376
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, F|
+|poke|p1|Leafeon, M|
+|poke|p1|Grafaiai, M|
+|poke|p1|Great Tusk|
+|poke|p1|Walking Wake|
+|poke|p1|Slither Wing|
+|poke|p2|Ceruledge, F|
+|poke|p2|Garchomp, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Hatterene, F|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Jugulis|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RadiantShadow)
+|
+|t:|1743797126
+|start
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|switch|p2a: Stardust|Hatterene, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1743797135
+|move|p1a: Ninetales|Flamethrower|p2a: Stardust
+|-damage|p2a: Stardust|61/100
+|move|p2a: Stardust|Mystical Fire|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-crit|p1a: Ninetales
+|-damage|p1a: Ninetales|61/100
+|-unboost|p1a: Ninetales|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743797144
+|move|p1a: Ninetales|Flamethrower|p2a: Stardust
+|-damage|p2a: Stardust|36/100
+|move|p2a: Stardust|Nuzzle|p1a: Ninetales
+|-damage|p1a: Ninetales|57/100
+|-status|p1a: Ninetales|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743797150
+|move|p1a: Ninetales|Encore|p2a: Stardust
+|move|p2a: Stardust|Encore||[from] ability: Magic Bounce|[still]
+|-fail|p2a: Stardust
+|move|p2a: Stardust|Mystical Fire|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|32/100 par
+|-unboost|p1a: Ninetales|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743797157
+|cant|p1a: Ninetales|par
+|move|p2a: Stardust|Psyshock|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743797169
+|switch|p1a: Leafeon|Leafeon, M|100/100
+|turn|5
+|
+|t:|1743797177
+|switch|p2a: Maxilla|Garchomp, M|100/100
+|move|p1a: Leafeon|Knock Off|p2a: Maxilla
+|-damage|p2a: Maxilla|64/100
+|-damage|p1a: Leafeon|88/100|[from] ability: Rough Skin|[of] p2a: Maxilla
+|-damage|p1a: Leafeon|72/100|[from] item: Rocky Helmet|[of] p2a: Maxilla
+|-enditem|p2a: Maxilla|Rocky Helmet|[from] move: Knock Off|[of] p1a: Leafeon
+|-damage|p1a: Leafeon|62/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743797185
+|move|p1a: Leafeon|Solar Blade||[still]
+|-prepare|p1a: Leafeon|Solar Blade
+|-anim|p1a: Leafeon|Solar Blade|p2a: Maxilla
+|-damage|p2a: Maxilla|0 fnt
+|-damage|p1a: Leafeon|50/100|[from] ability: Rough Skin|[of] p2a: Maxilla
+|faint|p2a: Maxilla
+|-damage|p1a: Leafeon|40/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743797191
+|switch|p2a: Noir|Iron Jugulis|100/100
+|-enditem|p2a: Noir|Booster Energy
+|-activate|p2a: Noir|ability: Quark Drive|[fromitem]
+|-start|p2a: Noir|quarkdrivespa
+|turn|7
+|
+|t:|1743797197
+|-terastallize|p1a: Leafeon|Fire
+|move|p1a: Leafeon|Tera Blast|p2a: Noir|[anim] Tera Blast Fire
+|-damage|p2a: Noir|3/100
+|-damage|p1a: Leafeon|30/100|[from] item: Life Orb
+|move|p2a: Noir|Tailwind|p2a: Noir
+|-sidestart|p2: RadiantShadow|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743797211
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|move|p2a: Noir|Earth Power|p1a: Slither Wing
+|-resisted|p1a: Slither Wing
+|-crit|p1a: Slither Wing
+|-damage|p1a: Slither Wing|72/100
+|
+|-weather|none
+|-end|p1a: Slither Wing|Protosynthesis
+|upkeep
+|turn|9
+|
+|t:|1743797226
+|move|p1a: Slither Wing|First Impression|p2a: Noir
+|-damage|p2a: Noir|0 fnt
+|faint|p2a: Noir
+|-end|p2a: Noir|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743797230
+|switch|p2a: Banshee|Ceruledge, F|100/100
+|turn|10
+|
+|t:|1743797235
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: E.T|Grafaiai, M|100/100
+|move|p2a: Banshee|Bitter Blade|p1a: E.T
+|-damage|p1a: E.T|20/100
+|-damage|p2a: Banshee|91/100|[from] item: Life Orb
+|
+|-sideend|p2: RadiantShadow|move: Tailwind
+|upkeep
+|turn|11
+|
+|t:|1743797242
+|move|p1a: E.T|Sunny Day|p1a: E.T
+|-weather|SunnyDay
+|move|p2a: Banshee|Swords Dance|p2a: Banshee
+|-boost|p2a: Banshee|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743797248
+|move|p1a: E.T|Encore|p2a: Banshee
+|-start|p2a: Banshee|Encore
+|move|p2a: Banshee|Swords Dance|p2a: Banshee
+|-boost|p2a: Banshee|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743797255
+|switch|p2a: Shimmer|Gholdengo|100/100
+|switch|p1a: Leafeon|Leafeon, M, tera:Fire|30/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743797263
+|switch|p2a: Banshee|Ceruledge, F|91/100
+|move|p1a: Leafeon|Tera Blast|p2a: Banshee|[anim] Tera Blast Fire
+|-start|p2a: Banshee|ability: Flash Fire
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743797279
+|switch|p1a: E.T|Grafaiai, M|20/100
+|move|p2a: Banshee|Shadow Sneak|p1a: E.T
+|-immune|p1a: E.T
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743797283
+|move|p1a: E.T|Encore|p2a: Banshee
+|-start|p2a: Banshee|Encore
+|move|p2a: Banshee|Shadow Sneak|p1a: E.T
+|-immune|p1a: E.T
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743797290
+|-end|p2a: Banshee|ability: Flash Fire|[silent]
+|switch|p2a: Shimmer|Gholdengo|100/100
+|move|p1a: E.T|Poison Jab|p2a: Shimmer
+|-immune|p2a: Shimmer
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743797296
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Shimmer|Thunder Wave|p1a: Great Tusk
+|-immune|p1a: Great Tusk
+|
+|-weather|none
+|-end|p1a: Great Tusk|Protosynthesis
+|upkeep
+|turn|19
+|
+|t:|1743797304
+|-terastallize|p2a: Shimmer|Flying
+|move|p1a: Great Tusk|Earthquake|p2a: Shimmer
+|-immune|p2a: Shimmer
+|move|p2a: Shimmer|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|62/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743797314
+|move|p1a: Great Tusk|Stone Edge|p2a: Shimmer
+|-supereffective|p2a: Shimmer
+|-damage|p2a: Shimmer|27/100
+|move|p2a: Shimmer|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|20/100
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-heal|p2a: Shimmer|33/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743797340
+|switch|p2a: Stardust|Hatterene, F|36/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Stardust
+|-damage|p2a: Stardust|1/100
+|
+|upkeep
+|turn|22
+|
+|t:|1743797351
+|move|p1a: Great Tusk|Rapid Spin|p2a: Stardust
+|-damage|p2a: Stardust|0 fnt
+|-boost|p1a: Great Tusk|spe|1
+|faint|p2a: Stardust
+|
+|upkeep
+|inactive|RadiantShadow has 120 seconds left.
+|
+|t:|1743797394
+|switch|p2a: Chroma|Iron Valiant, shiny|100/100
+|-enditem|p2a: Chroma|Booster Energy
+|-activate|p2a: Chroma|ability: Quark Drive|[fromitem]
+|-start|p2a: Chroma|quarkdrivespe
+|turn|23
+|
+|t:|1743797402
+|move|p2a: Chroma|Spirit Break|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743797412
+|switch|p1a: E.T|Grafaiai, M|20/100
+|turn|24
+|inactive|RadiantShadow has 120 seconds left.
+|
+|t:|1743797419
+|move|p1a: E.T|Sunny Day|p1a: E.T
+|-weather|SunnyDay
+|move|p2a: Chroma|Knock Off|p1a: E.T
+|-damage|p1a: E.T|0 fnt
+|-enditem|p1a: E.T|Heat Rock|[from] move: Knock Off|[of] p2a: Chroma
+|faint|p1a: E.T
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743797427
+|switch|p1a: Leafeon|Leafeon, M, tera:Fire|30/100
+|turn|25
+|
+|t:|1743797433
+|move|p1a: Leafeon|Solar Blade||[still]
+|-prepare|p1a: Leafeon|Solar Blade
+|-anim|p1a: Leafeon|Solar Blade|p2a: Chroma
+|-damage|p2a: Chroma|0 fnt
+|faint|p2a: Chroma
+|-end|p2a: Chroma|Quark Drive|[silent]
+|-damage|p1a: Leafeon|20/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743797438
+|switch|p2a: Banshee|Ceruledge, F|91/100
+|turn|26
+|
+|t:|1743797442
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Banshee|Shadow Sneak|p1a: Walking Wake
+|-damage|p1a: Walking Wake|71/100
+|-damage|p2a: Banshee|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1743797448
+|move|p2a: Banshee|Shadow Sneak|p1a: Walking Wake
+|-damage|p1a: Walking Wake|41/100
+|-damage|p2a: Banshee|71/100|[from] item: Life Orb
+|move|p1a: Walking Wake|Hydro Steam|p2a: Banshee
+|-supereffective|p2a: Banshee
+|-damage|p2a: Banshee|0 fnt
+|faint|p2a: Banshee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743797453
+|switch|p2a: Shimmer|Gholdengo, tera:Flying|33/100
+|turn|28
+|
+|t:|1743797456
+|move|p1a: Walking Wake|Hydro Steam|p2a: Shimmer
+|-damage|p2a: Shimmer|0 fnt
+|faint|p2a: Shimmer
+|
+|win|bandostado
+|raw|bandostado's rating: 1426 &rarr; <strong>1443</strong><br />(+17 for winning)
+|raw|RadiantShadow's rating: 1376 &rarr; <strong>1359</strong><br />(-17 for losing)
+|c|☆bandostado|ggs
+|l|☆RadiantShadow
+|player|p2|
+|l|☆bandostado
+|player|p1|

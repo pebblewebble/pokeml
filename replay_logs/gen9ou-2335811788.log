@@ -1,0 +1,302 @@
+|j|☆TimmyLongDikkk8
+|j|☆tohelpu
+|t:|1743840886
+|gametype|singles
+|player|p1|TimmyLongDikkk8|266|1195
+|player|p2|tohelpu|1|1204
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Comfey, F|
+|poke|p1|Whimsicott, F|
+|poke|p1|Iron Moth|
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p1|Ninetales, M|
+|poke|p2|Wyrdeer, M|
+|poke|p2|Charizard, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Volbeat, M|
+|poke|p2|Armarouge, F|
+|poke|p2|Greninja-*, F|
+|teampreview
+|
+|t:|1743840910
+|start
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|switch|p2a: Charizard|Charizard, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1743840924
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Charizard|Fire Blast|p1a: Walking Wake|[miss]
+|-miss|p2a: Charizard|p1a: Walking Wake
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|2
+|
+|t:|1743840944
+|-terastallize|p2a: Charizard|Grass
+|move|p1a: Walking Wake|Hydro Steam|p2a: Charizard
+|-resisted|p2a: Charizard
+|-crit|p2a: Charizard
+|-damage|p2a: Charizard|42/100
+|move|p2a: Charizard|Fire Blast|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|77/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|30/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|3
+|
+|t:|1743840965
+|move|p1a: Walking Wake|Hydro Steam|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743840970
+|switch|p2a: Greninja|Greninja, F|100/100
+|turn|4
+|
+|t:|1743840978
+|move|p1a: Walking Wake|Draco Meteor|p2a: Greninja
+|-damage|p2a: Greninja|6/100
+|-unboost|p1a: Walking Wake|spa|2
+|move|p2a: Greninja|U-turn|p1a: Walking Wake
+|-start|p2a: Greninja|typechange|Bug|[from] ability: Protean
+|-damage|p1a: Walking Wake|42/100
+|
+|t:|1743840987
+|switch|p2a: Volbeat|Volbeat, M|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743841000
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|switch|p2a: Greninja|Greninja, F|6/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743841010
+|move|p2a: Greninja|Rock Slide|p1a: Iron Moth
+|-start|p2a: Greninja|typechange|Rock|[from] ability: Protean
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743841021
+|switch|p1a: Walking Wake|Walking Wake|42/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|7
+|
+|t:|1743841027
+|move|p1a: Walking Wake|Flip Turn|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|t:|1743841067
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Flip Turn
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743841093
+|switch|p2a: Wyrdeer|Wyrdeer, M|100/100
+|-ability|p2a: Wyrdeer|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|turn|8
+|
+|t:|1743841141
+|move|p1a: Great Tusk|Stealth Rock|p2a: Wyrdeer
+|-sidestart|p2: tohelpu|move: Stealth Rock
+|move|p2a: Wyrdeer|Psyshield Bash|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|52/100
+|-boost|p2a: Wyrdeer|def|1
+|-damage|p2a: Wyrdeer|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|-weather|none
+|-end|p1a: Great Tusk|Protosynthesis
+|upkeep
+|turn|9
+|
+|t:|1743841170
+|move|p1a: Great Tusk|Headlong Rush|p2a: Wyrdeer
+|-damage|p2a: Wyrdeer|66/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Wyrdeer|Psyshield Bash|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-boost|p2a: Wyrdeer|def|1
+|-damage|p2a: Wyrdeer|49/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743841176
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|10
+|
+|t:|1743841195
+|-terastallize|p1a: Ninetales|Ghost
+|move|p1a: Ninetales|Weather Ball|p2a: Wyrdeer
+|-damage|p2a: Wyrdeer|1/100
+|move|p2a: Wyrdeer|Psyshield Bash|p1a: Ninetales
+|-damage|p1a: Ninetales|50/100
+|-boost|p2a: Wyrdeer|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743841215
+|move|p1a: Ninetales|Weather Ball|p2a: Wyrdeer
+|-damage|p2a: Wyrdeer|0 fnt
+|faint|p2a: Wyrdeer
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743841224
+|switch|p2a: Volbeat|Volbeat, M|100/100
+|-damage|p2a: Volbeat|76/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1743841232
+|move|p2a: Volbeat|Thunder Wave|p1a: Ninetales
+|-status|p1a: Ninetales|par
+|move|p1a: Ninetales|Weather Ball|p2a: Volbeat
+|-supereffective|p2a: Volbeat
+|-damage|p2a: Volbeat|0 fnt
+|faint|p2a: Volbeat
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743841239
+|switch|p2a: Armarouge|Armarouge, F|100/100
+|-damage|p2a: Armarouge|76/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743841262
+|move|p2a: Armarouge|Calm Mind|p2a: Armarouge
+|-boost|p2a: Armarouge|spa|1
+|-boost|p2a: Armarouge|spd|1
+|move|p1a: Ninetales|Healing Wish|p1a: Ninetales
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Armarouge|82/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743841268
+|switch|p1a: Walking Wake|Walking Wake|42/100
+|-heal|p1a: Walking Wake|100/100|[from] move: Healing Wish
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|14
+|
+|t:|1743841284
+|move|p1a: Walking Wake|Hydro Steam|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|0 fnt
+|faint|p2a: Armarouge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743841291
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743841303
+|move|p1a: Walking Wake|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|74/100
+|-enditem|p2a: Hatterene|Choice Specs|[from] move: Knock Off|[of] p1a: Walking Wake
+|move|p2a: Hatterene|Draining Kiss|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|71/100
+|-heal|p2a: Hatterene|100/100|[from] drain|[of] p1a: Walking Wake
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743841316
+|move|p1a: Walking Wake|Hydro Steam|p2a: Hatterene
+|-damage|p2a: Hatterene|38/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|42/100
+|-heal|p2a: Hatterene|66/100|[from] drain|[of] p1a: Walking Wake
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743841327
+|move|p1a: Walking Wake|Hydro Steam|p2a: Hatterene
+|-damage|p2a: Hatterene|10/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|10/100
+|-heal|p2a: Hatterene|40/100|[from] drain|[of] p1a: Walking Wake
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|upkeep
+|turn|18
+|
+|t:|1743841338
+|move|p1a: Walking Wake|Hydro Steam|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|win|TimmyLongDikkk8
+|raw|TimmyLongDikkk8's rating: 1195 &rarr; <strong>1221</strong><br />(+26 for winning)
+|raw|tohelpu's rating: 1204 &rarr; <strong>1178</strong><br />(-26 for losing)
+|l|☆tohelpu
+|player|p2|
+|l|☆TimmyLongDikkk8
+|player|p1|

@@ -1,0 +1,639 @@
+|j|☆Kanto's Finest
+|j|☆Skiddris
+|t:|1743782790
+|gametype|singles
+|player|p1|Kanto's Finest|blue-gen1rbtwo|1151
+|player|p2|Skiddris|artist|1214
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Clefable, F|
+|poke|p1|Golduck, M|
+|poke|p1|Vileplume, F|
+|poke|p1|Hitmonlee, M|
+|poke|p1|Chansey, F|
+|poke|p1|Weezing, F|
+|poke|p2|Ribombee, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Serperior, M|
+|poke|p2|Mimikyu, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Bisharp, M|
+|teampreview
+|
+|t:|1743782796
+|start
+|switch|p1a: Weezing|Weezing, F|100/100
+|switch|p2a: Ribombee|Ribombee, M, shiny|100/100
+|turn|1
+|
+|t:|1743782804
+|move|p2a: Ribombee|Psychic Noise|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|39/100
+|-start|p1a: Weezing|move: Heal Block
+|move|p1a: Weezing|Toxic Spikes|p2a: Ribombee
+|-sidestart|p2: Skiddris|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1743782815
+|switch|p1a: Chansey|Chansey, F|100/100
+|move|p2a: Ribombee|Psychic Noise|p1a: Chansey
+|-damage|p1a: Chansey|94/100
+|-start|p1a: Chansey|move: Heal Block
+|
+|upkeep
+|turn|3
+|
+|t:|1743782822
+|move|p2a: Ribombee|Sticky Web|p1a: Chansey
+|-sidestart|p1: Kanto's Finest|move: Sticky Web
+|move|p1a: Chansey|Stealth Rock|p2a: Ribombee
+|-sidestart|p2: Skiddris|move: Stealth Rock
+|
+|-end|p1a: Chansey|move: Heal Block
+|upkeep
+|turn|4
+|
+|t:|1743782829
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Chansey|Seismic Toss|p2a: Cinderace
+|-damage|p2a: Cinderace|67/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743782838
+|switch|p1a: Weezing|Weezing, F|39/100
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|6
+|
+|t:|1743782844
+|move|p2a: Cinderace|Pyro Ball|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+|
+|t:|1743782848
+|switch|p1a: Vileplume|Vileplume, F|100/100
+|-sideend|p1: Kanto's Finest|move: Toxic Spikes|[of] p1a: Vileplume
+|-damage|p1a: Vileplume|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1743782859
+|-terastallize|p1a: Vileplume|Fire
+|move|p2a: Cinderace|Pyro Ball|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|66/100
+|move|p1a: Vileplume|Strength Sap|p2a: Cinderace
+|-unboost|p2a: Cinderace|atk|1
+|-heal|p1a: Vileplume|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743782871
+|move|p2a: Cinderace|U-turn|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|95/100
+|-damage|p2a: Cinderace|51/100|[from] item: Rocky Helmet|[of] p1a: Vileplume
+|
+|t:|1743782881
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from] U-turn
+|-activate|p2a: Dragapult|move: Sticky Web
+|-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
+|move|p1a: Vileplume|Leech Seed|p2a: Dragapult
+|-start|p2a: Dragapult|move: Leech Seed
+|
+|-damage|p2a: Dragapult|88/100|[from] Leech Seed|[of] p1a: Vileplume
+|-heal|p1a: Vileplume|100/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1743782892
+|switch|p1a: Chansey|Chansey, F|94/100
+|-damage|p1a: Chansey|82/100|[from] Stealth Rock
+|move|p2a: Dragapult|Hydro Pump|p1a: Chansey
+|-damage|p1a: Chansey|69/100
+|-damage|p2a: Dragapult|78/100|[from] item: Life Orb
+|
+|-damage|p2a: Dragapult|66/100|[from] Leech Seed|[of] p1a: Chansey
+|-heal|p1a: Chansey|74/100|[silent]
+|upkeep
+|turn|10
+|
+|t:|1743782901
+|move|p2a: Dragapult|Dragon Darts|p1a: Chansey
+|-damage|p1a: Chansey|58/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Chansey
+|-damage|p1a: Chansey|42/100
+|-damage|p2a: Dragapult|56/100|[from] item: Life Orb
+|move|p1a: Chansey|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: Skiddris|move: Stealth Rock
+|
+|-damage|p2a: Dragapult|44/100|[from] Leech Seed|[of] p1a: Chansey
+|-heal|p1a: Chansey|47/100|[silent]
+|upkeep
+|turn|11
+|
+|t:|1743782911
+|switch|p2a: Cinderace|Cinderace, M|51/100
+|move|p1a: Chansey|Soft-Boiled|p1a: Chansey
+|-heal|p1a: Chansey|97/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743782917
+|switch|p1a: Vileplume|Vileplume, F, tera:Fire|100/100
+|-damage|p1a: Vileplume|76/100|[from] Stealth Rock
+|move|p2a: Cinderace|Pyro Ball|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|52/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743782927
+|move|p2a: Cinderace|U-turn|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|43/100
+|-damage|p2a: Cinderace|34/100|[from] item: Rocky Helmet|[of] p1a: Vileplume
+|
+|t:|1743782935
+|switch|p2a: Bisharp|Bisharp, M|100/100|[from] U-turn
+|-activate|p2a: Bisharp|move: Sticky Web
+|-unboost|p2a: Bisharp|spe|1
+|-ability|p2a: Bisharp|Defiant|boost
+|-boost|p2a: Bisharp|atk|2
+|-damage|p2a: Bisharp|94/100|[from] Stealth Rock
+|move|p1a: Vileplume|Strength Sap|p2a: Bisharp
+|-unboost|p2a: Bisharp|atk|1
+|-ability|p2a: Bisharp|Defiant|boost
+|-boost|p2a: Bisharp|atk|2
+|-heal|p1a: Vileplume|100/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743782949
+|move|p1a: Vileplume|Leech Seed|p2a: Bisharp
+|-start|p2a: Bisharp|move: Leech Seed
+|move|p2a: Bisharp|Throat Chop|p1a: Vileplume
+|-damage|p1a: Vileplume|21/100
+|-start|p1a: Vileplume|Throat Chop|[silent]
+|-damage|p2a: Bisharp|78/100|[from] item: Rocky Helmet|[of] p1a: Vileplume
+|
+|-damage|p2a: Bisharp|66/100|[from] Leech Seed|[of] p1a: Vileplume
+|-heal|p1a: Vileplume|31/100|[silent]
+|upkeep
+|turn|15
+|
+|t:|1743782965
+|switch|p1a: Hitmonlee|Hitmonlee, M|100/100
+|-damage|p1a: Hitmonlee|95/100|[from] Stealth Rock
+|move|p2a: Bisharp|Throat Chop|p1a: Hitmonlee
+|-resisted|p1a: Hitmonlee
+|-damage|p1a: Hitmonlee|0 fnt
+|faint|p1a: Hitmonlee
+|
+|upkeep
+|
+|t:|1743782977
+|switch|p1a: Golduck|Golduck, M, shiny|100/100
+|-damage|p1a: Golduck|88/100|[from] Stealth Rock
+|-ability|p1a: Golduck|Cloud Nine
+|turn|16
+|
+|t:|1743782982
+|move|p1a: Golduck|Protect|p1a: Golduck
+|-singleturn|p1a: Golduck|Protect
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|
+|-damage|p2a: Bisharp|53/100|[from] Leech Seed|[of] p1a: Golduck
+|-heal|p1a: Golduck|99/100|[silent]
+|upkeep
+|turn|17
+|
+|t:|1743782990
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: Golduck|Encore|p2a: Bisharp
+|-start|p2a: Bisharp|Encore
+|
+|-damage|p2a: Bisharp|41/100|[from] Leech Seed|[of] p1a: Golduck
+|-heal|p1a: Golduck|100/100|[silent]
+|upkeep
+|turn|18
+|
+|t:|1743782997
+|switch|p1a: Clefable|Clefable, F|100/100
+|-damage|p1a: Clefable|88/100|[from] Stealth Rock
+|switch|p2a: Serperior|Serperior, M|100/100
+|-activate|p2a: Serperior|move: Sticky Web
+|-boost|p2a: Serperior|spe|1
+|-damage|p2a: Serperior|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Serperior|94/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743783007
+|move|p2a: Serperior|Leaf Storm|p1a: Clefable
+|-damage|p1a: Clefable|52/100
+|-boost|p2a: Serperior|spa|2
+|-enditem|p1a: Clefable|Red Card|[of] p2a: Serperior
+|drag|p2a: Bisharp|Bisharp, M|41/100
+|-activate|p2a: Bisharp|move: Sticky Web
+|-unboost|p2a: Bisharp|spe|1
+|-ability|p2a: Bisharp|Defiant|boost
+|-boost|p2a: Bisharp|atk|2
+|-damage|p2a: Bisharp|35/100|[from] Stealth Rock
+|move|p1a: Clefable|Cosmic Power|p1a: Clefable
+|-boost|p1a: Clefable|def|1
+|-boost|p1a: Clefable|spd|1
+|
+|upkeep
+|turn|20
+|
+|t:|1743783024
+|move|p1a: Clefable|Flamethrower|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|t:|1743783035
+|switch|p2a: Cinderace|Cinderace, M|34/100
+|turn|21
+|
+|t:|1743783039
+|move|p2a: Cinderace|Pyro Ball|p1a: Clefable
+|-damage|p1a: Clefable|19/100
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|69/100
+|
+|upkeep
+|turn|22
+|
+|t:|1743783046
+|move|p2a: Cinderace|Pyro Ball|p1a: Clefable
+|-damage|p1a: Clefable|37/100
+|move|p1a: Clefable|Cosmic Power|p1a: Clefable
+|-boost|p1a: Clefable|def|1
+|-boost|p1a: Clefable|spd|1
+|
+|upkeep
+|turn|23
+|
+|t:|1743783054
+|move|p2a: Cinderace|U-turn|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|31/100
+|
+|t:|1743783057
+|switch|p2a: Mimikyu|Mimikyu, M|100/100|[from] U-turn
+|-activate|p2a: Mimikyu|move: Sticky Web
+|-unboost|p2a: Mimikyu|spe|1
+|-damage|p2a: Mimikyu|88/100|[from] Stealth Rock
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|81/100
+|
+|upkeep
+|turn|24
+|
+|t:|1743783067
+|move|p2a: Mimikyu|Will-O-Wisp|p1a: Clefable
+|-status|p1a: Clefable|brn
+|move|p1a: Clefable|Flamethrower|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|88/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|76/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p2a: Mimikyu|Red Card|[of] p1a: Clefable
+|drag|p1a: Vileplume|Vileplume, F, tera:Fire|31/100
+|-damage|p1a: Vileplume|6/100|[from] Stealth Rock
+|
+|upkeep
+|turn|25
+|
+|t:|1743783080
+|move|p2a: Mimikyu|Play Rough|p1a: Vileplume
+|-resisted|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|-damage|p2a: Mimikyu|59/100|[from] item: Rocky Helmet|[of] p1a: Vileplume
+|faint|p1a: Vileplume
+|
+|upkeep
+|
+|t:|1743783089
+|switch|p1a: Golduck|Golduck, M, shiny|100/100
+|-damage|p1a: Golduck|88/100|[from] Stealth Rock
+|-ability|p1a: Golduck|Cloud Nine
+|turn|26
+|
+|t:|1743783099
+|move|p1a: Golduck|Whirlpool|p2a: Mimikyu
+|-damage|p2a: Mimikyu|44/100
+|-activate|p2a: Mimikyu|move: Whirlpool|[of] p1a: Golduck
+|move|p2a: Mimikyu|Play Rough|p1a: Golduck|[miss]
+|-miss|p2a: Mimikyu|p1a: Golduck
+|
+|-damage|p2a: Mimikyu|32/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|27
+|
+|t:|1743783108
+|move|p1a: Golduck|Disable|p2a: Mimikyu
+|-start|p2a: Mimikyu|Disable|Play Rough
+|cant|p2a: Mimikyu|Disable|Play Rough
+|
+|-damage|p2a: Mimikyu|19/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|28
+|
+|t:|1743783114
+|move|p1a: Golduck|Encore|p2a: Mimikyu
+|-start|p2a: Mimikyu|Encore
+|cant|p2a: Mimikyu|Disable|Play Rough
+|
+|-damage|p2a: Mimikyu|7/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|29
+|
+|t:|1743783128
+|move|p1a: Golduck|Protect|p1a: Golduck
+|-singleturn|p1a: Golduck|Protect
+|-activate|p2a: Mimikyu|move: Struggle
+|move|p2a: Mimikyu|Struggle|p1a: Golduck
+|-activate|p1a: Golduck|move: Protect
+|
+|-damage|p2a: Mimikyu|0 fnt|[from] move: Whirlpool|[partiallytrapped]
+|faint|p2a: Mimikyu
+|upkeep
+|
+|t:|1743783135
+|switch|p2a: Serperior|Serperior, M|94/100
+|-activate|p2a: Serperior|move: Sticky Web
+|-boost|p2a: Serperior|spe|1
+|-damage|p2a: Serperior|82/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1743783142
+|move|p2a: Serperior|Leaf Storm|p1a: Golduck
+|-supereffective|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Golduck
+|
+|-heal|p2a: Serperior|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743783145
+|switch|p1a: Clefable|Clefable, F|81/100 brn
+|-damage|p1a: Clefable|69/100 brn|[from] Stealth Rock
+|turn|31
+|
+|t:|1743783152
+|move|p2a: Serperior|Leaf Storm|p1a: Clefable
+|-damage|p1a: Clefable|29/100 brn
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|79/100 brn
+|
+|-heal|p2a: Serperior|94/100|[from] item: Leftovers
+|-damage|p1a: Clefable|73/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1743783161
+|move|p2a: Serperior|Leaf Storm|p1a: Clefable
+|-damage|p1a: Clefable|36/100 brn
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Clefable|Cosmic Power|p1a: Clefable
+|-boost|p1a: Clefable|def|1
+|-boost|p1a: Clefable|spd|1
+|
+|-heal|p2a: Serperior|100/100|[from] item: Leftovers
+|-damage|p1a: Clefable|30/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1743783170
+|move|p2a: Serperior|Leaf Storm|p1a: Clefable
+|-damage|p1a: Clefable|5/100 brn
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|55/100 brn
+|
+|-damage|p1a: Clefable|48/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1743783184
+|move|p2a: Serperior|Leaf Storm|p1a: Clefable
+|-damage|p1a: Clefable|22/100 brn
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|72/100 brn
+|
+|-damage|p1a: Clefable|66/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1743783191
+|move|p2a: Serperior|Tera Blast|p1a: Clefable
+|-damage|p1a: Clefable|55/100 brn
+|move|p1a: Clefable|Cosmic Power|p1a: Clefable
+|-boost|p1a: Clefable|def|1
+|-boost|p1a: Clefable|spd|1
+|
+|-damage|p1a: Clefable|48/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1743783205
+|move|p2a: Serperior|Tera Blast|p1a: Clefable
+|-damage|p1a: Clefable|41/100 brn
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|91/100 brn
+|
+|-damage|p1a: Clefable|85/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1743783212
+|move|p2a: Serperior|Tera Blast|p1a: Clefable
+|-damage|p1a: Clefable|76/100 brn
+|move|p1a: Clefable|Flamethrower|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|50/100
+|
+|-heal|p2a: Serperior|57/100|[from] item: Leftovers
+|-damage|p1a: Clefable|70/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|t:|1743783224
+|-terastallize|p2a: Serperior|Fire
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|32/100
+|move|p1a: Clefable|Cosmic Power|p1a: Clefable
+|-boost|p1a: Clefable|def|1
+|-boost|p1a: Clefable|spd|1
+|
+|-heal|p2a: Serperior|38/100|[from] item: Leftovers
+|-damage|p1a: Clefable|63/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|t:|1743783242
+|move|p2a: Serperior|Tera Blast|p1a: Clefable|[anim] Tera Blast Fire
+|-damage|p1a: Clefable|54/100 brn
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|100/100 brn
+|
+|-heal|p2a: Serperior|44/100|[from] item: Leftovers
+|-damage|p1a: Clefable|94/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|t:|1743783253
+|move|p2a: Serperior|Leaf Storm|p1a: Clefable
+|-damage|p1a: Clefable|77/100 brn
+|move|p1a: Clefable|Stored Power|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|50/100|[from] item: Leftovers
+|-damage|p1a: Clefable|71/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|t:|1743783268
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|26/100
+|move|p1a: Clefable|Stored Power|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|32/100|[from] item: Leftovers
+|-damage|p1a: Clefable|65/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|t:|1743783279
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|7/100
+|move|p1a: Clefable|Stored Power|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|13/100|[from] item: Leftovers
+|-damage|p1a: Clefable|59/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|t:|1743783288
+|move|p2a: Serperior|Leaf Storm|p1a: Clefable
+|-damage|p1a: Clefable|44/100 brn
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|94/100 brn
+|
+|-heal|p2a: Serperior|19/100|[from] item: Leftovers
+|-damage|p1a: Clefable|88/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|t:|1743783298
+|move|p2a: Serperior|Tera Blast|p1a: Clefable|[anim] Tera Blast Fire
+|-damage|p1a: Clefable|78/100 brn
+|move|p1a: Clefable|Cosmic Power|p1a: Clefable
+|-boost|p1a: Clefable|def|1
+|-boost|p1a: Clefable|spd|1
+|
+|-heal|p2a: Serperior|26/100|[from] item: Leftovers
+|-damage|p1a: Clefable|72/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|t:|1743783306
+|move|p2a: Serperior|Tera Blast|p1a: Clefable|[anim] Tera Blast Fire
+|-damage|p1a: Clefable|64/100 brn
+|move|p1a: Clefable|Stored Power|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|-damage|p1a: Clefable|58/100 brn|[from] brn
+|upkeep
+|c|☆Skiddris|gg i guess
+|
+|t:|1743783329
+|switch|p2a: Cinderace|Cinderace, M|34/100
+|turn|46
+|
+|t:|1743783339
+|move|p2a: Cinderace|Pyro Ball|p1a: Clefable
+|-damage|p1a: Clefable|41/100 brn
+|move|p1a: Clefable|Stored Power|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-damage|p1a: Clefable|35/100 brn|[from] brn
+|upkeep
+|
+|t:|1743783353
+|switch|p2a: Ribombee|Ribombee, M, shiny|100/100
+|-activate|p2a: Ribombee|move: Sticky Web
+|-unboost|p2a: Ribombee|spe|1
+|-damage|p2a: Ribombee|76/100|[from] Stealth Rock
+|turn|47
+|
+|t:|1743783360
+|move|p2a: Ribombee|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|24/100 brn
+|move|p1a: Clefable|Flamethrower|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|-damage|p1a: Clefable|18/100 brn|[from] brn
+|upkeep
+|
+|t:|1743783368
+|switch|p2a: Dragapult|Dragapult, F|44/100
+|-activate|p2a: Dragapult|move: Sticky Web
+|-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
+|-damage|p2a: Dragapult|32/100|[from] Stealth Rock
+|turn|48
+|
+|t:|1743783374
+|move|p2a: Dragapult|Hydro Pump|p1a: Clefable
+|-damage|p1a: Clefable|7/100 brn
+|-damage|p2a: Dragapult|22/100|[from] item: Life Orb
+|move|p1a: Clefable|Stored Power|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|win|Kanto's Finest
+|raw|Kanto&apos;s Finest's rating: 1151 &rarr; <strong>1180</strong><br />(+29 for winning)
+|raw|Skiddris's rating: 1214 &rarr; <strong>1185</strong><br />(-29 for losing)
+|l|☆Skiddris
+|player|p2|

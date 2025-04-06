@@ -1,0 +1,422 @@
+|j|☆staaarz
+|j|☆Aphasia pusher
+|t:|1743879559
+|gametype|singles
+|player|p1|staaarz|petrel|1459
+|player|p2|Aphasia pusher|cynthia-gen4|1474
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Dondozo, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Gliscor, F|
+|poke|p1|Talonflame, M|
+|poke|p1|Blissey, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Kingambit, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Iron Moth|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Aphasia pusher)
+|
+|t:|1743879575
+|start
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|t:|1743879580
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Samurott|Swords Dance|p2a: Samurott
+|-boost|p2a: Samurott|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1743879592
+|move|p2a: Samurott|Ceaseless Edge|p1a: Toxapex
+|-damage|p1a: Toxapex|42/100
+|-sidestart|p1: staaarz|Spikes
+|move|p1a: Toxapex|Haze|p1a: Toxapex
+|-clearallboost
+|
+|-heal|p1a: Toxapex|49/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743879598
+|move|p2a: Samurott|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|17/100
+|-enditem|p1a: Toxapex|Leftovers|[from] move: Knock Off|[of] p2a: Samurott
+|move|p1a: Toxapex|Toxic|p2a: Samurott
+|-status|p2a: Samurott|tox
+|
+|-damage|p2a: Samurott|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743879619
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|
+|upkeep
+|turn|5
+|
+|t:|1743879630
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|-damage|p1a: Dondozo|88/100|[from] Spikes
+|move|p2a: Iron Moth|Fiery Dance|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|69/100
+|-boost|p2a: Iron Moth|spa|1
+|
+|-heal|p1a: Dondozo|75/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743879641
+|move|p2a: Iron Moth|Sludge Wave|p1a: Dondozo
+|-damage|p1a: Dondozo|33/100
+|move|p1a: Dondozo|Waterfall|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p1a: Dondozo|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743879652
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|7
+|
+|t:|1743879664
+|switch|p1a: Talonflame|Talonflame, M|100/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|70/100
+|-unboost|p1a: Talonflame|spa|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743879676
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-terastallize|p2a: Iron Valiant|Electric
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|
+|upkeep
+|turn|9
+|
+|t:|1743879691
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Spikes
+|move|p2a: Iron Valiant|Psyshock|p1a: Blissey
+|-damage|p1a: Blissey|49/100
+|
+|-heal|p1a: Blissey|55/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743879702
+|-terastallize|p1a: Blissey|Dark
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743879709
+|move|p2a: Iron Valiant|Moonblast|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|47/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p1a: Blissey|53/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743879720
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743879723
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|upkeep
+|turn|14
+|
+|t:|1743879727
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|upkeep
+|turn|15
+|
+|t:|1743879730
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|upkeep
+|turn|16
+|
+|t:|1743879732
+|move|p2a: Iron Valiant|Moonblast|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|64/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p1a: Blissey|70/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743879737
+|move|p2a: Iron Valiant|Moonblast|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|37/100
+|move|p1a: Blissey|Calm Mind|p1a: Blissey
+|-boost|p1a: Blissey|spa|1
+|-boost|p1a: Blissey|spd|1
+|
+|-heal|p1a: Blissey|43/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743879740
+|move|p2a: Iron Valiant|Moonblast|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|14/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|64/100
+|
+|-heal|p1a: Blissey|70/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743879742
+|move|p2a: Iron Valiant|Moonblast|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|41/100
+|move|p1a: Blissey|Stealth Rock|p2a: Iron Valiant
+|-sidestart|p2: Aphasia pusher|move: Stealth Rock
+|
+|-heal|p1a: Blissey|47/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743879745
+|move|p2a: Iron Valiant|Moonblast|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|16/100
+|-unboost|p1a: Blissey|spa|1
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|66/100
+|
+|-heal|p1a: Blissey|72/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743879749
+|move|p2a: Iron Valiant|Moonblast|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|42/100
+|-unboost|p1a: Blissey|spa|1
+|move|p1a: Blissey|Seismic Toss|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|66/100
+|
+|-heal|p1a: Blissey|48/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743879754
+|move|p2a: Iron Valiant|Moonblast|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|22/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|72/100
+|
+|-heal|p1a: Blissey|78/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743879759
+|move|p2a: Iron Valiant|Moonblast|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|47/100
+|move|p1a: Blissey|Seismic Toss|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|32/100
+|
+|-heal|p1a: Blissey|54/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1743879763
+|move|p2a: Iron Valiant|Moonblast|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|25/100
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|75/100
+|
+|-heal|p1a: Blissey|81/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1743879765
+|move|p2a: Iron Valiant|Moonblast|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|50/100
+|move|p1a: Blissey|Seismic Toss|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p1a: Blissey|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743879773
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|26
+|
+|t:|1743879781
+|switch|p1a: Talonflame|Talonflame, M|70/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-heal|p2a: Zamazenta|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1743879785
+|move|p2a: Zamazenta|Body Press|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|32/100
+|move|p1a: Talonflame|Will-O-Wisp|p2a: Zamazenta
+|-status|p2a: Zamazenta|brn
+|
+|-damage|p2a: Zamazenta|94/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1743879791
+|move|p2a: Zamazenta|Body Press|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|15/100
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|65/100
+|-singleturn|p1a: Talonflame|move: Roost
+|
+|-heal|p2a: Zamazenta|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Zamazenta|94/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1743879795
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Talonflame|Flamethrower|p2a: Zamazenta
+|-damage|p2a: Zamazenta|74/100 brn
+|
+|-heal|p2a: Zamazenta|80/100 brn|[from] item: Leftovers
+|-damage|p2a: Zamazenta|74/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1743879800
+|move|p2a: Zamazenta|Body Press|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|38/100
+|move|p1a: Talonflame|Flamethrower|p2a: Zamazenta
+|-damage|p2a: Zamazenta|54/100 brn
+|
+|-heal|p2a: Zamazenta|60/100 brn|[from] item: Leftovers
+|-damage|p2a: Zamazenta|54/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1743879805
+|move|p1a: Talonflame|Roost|p1a: Talonflame
+|-heal|p1a: Talonflame|89/100
+|-singleturn|p1a: Talonflame|move: Roost
+|move|p2a: Zamazenta|Roar|p1a: Talonflame
+|drag|p1a: Weezing|Weezing-Galar, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|
+|-heal|p2a: Zamazenta|60/100 brn|[from] item: Leftovers
+|-damage|p2a: Zamazenta|54/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1743879809
+|move|p2a: Zamazenta|Body Press|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|92/100
+|move|p1a: Weezing|Strange Steam|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|13/100 brn
+|
+|-heal|p2a: Zamazenta|19/100 brn|[from] item: Leftovers
+|-damage|p2a: Zamazenta|13/100 brn|[from] brn
+|upkeep
+|turn|33
+|-message|Aphasia pusher forfeited.
+|
+|win|staaarz
+|raw|staaarz's rating: 1459 &rarr; <strong>1480</strong><br />(+21 for winning)
+|raw|Aphasia pusher's rating: 1474 &rarr; <strong>1453</strong><br />(-21 for losing)
+|l|☆Aphasia pusher
+|player|p2|

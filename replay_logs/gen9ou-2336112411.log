@@ -1,0 +1,288 @@
+|j|☆leevoiceact
+|j|☆Frost-Leopard
+|t:|1743880054
+|gametype|singles
+|player|p1|leevoiceact|giovanni|1164
+|player|p2|Frost-Leopard|unknownf|1163
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Typhlosion, F|
+|poke|p1|Great Tusk|
+|poke|p1|Enamorus, F|
+|poke|p1|Gastrodon, F|
+|poke|p1|Zarude|
+|poke|p1|Raichu-Alola, F|
+|poke|p2|Meowscarada, M|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Valiant|
+|poke|p2|Zamazenta-*|
+|poke|p2|Iron Moth|
+|teampreview
+|
+|t:|1743880076
+|start
+|switch|p1a: Tarzan|Zarude|100/100
+|switch|p2a: THE WALL|Zamazenta, shiny|100/100
+|-ability|p2a: THE WALL|Dauntless Shield|boost
+|-boost|p2a: THE WALL|def|1
+|turn|1
+|
+|t:|1743880084
+|move|p2a: THE WALL|Close Combat|p1a: Tarzan
+|-supereffective|p1a: Tarzan
+|-damage|p1a: Tarzan|0 fnt
+|-unboost|p2a: THE WALL|def|1
+|-unboost|p2a: THE WALL|spd|1
+|faint|p1a: Tarzan
+|
+|upkeep
+|
+|t:|1743880093
+|switch|p1a: Surfs Up|Raichu-Alola, F|100/100
+|turn|2
+|
+|t:|1743880100
+|move|p2a: THE WALL|Crunch|p1a: Surfs Up
+|-supereffective|p1a: Surfs Up
+|-damage|p1a: Surfs Up|0 fnt
+|faint|p1a: Surfs Up
+|
+|upkeep
+|
+|t:|1743880105
+|switch|p1a: Tusk Act 4|Great Tusk|100/100
+|-enditem|p1a: Tusk Act 4|Booster Energy
+|-activate|p1a: Tusk Act 4|ability: Protosynthesis|[fromitem]
+|-start|p1a: Tusk Act 4|protosynthesisatk
+|turn|3
+|
+|t:|1743880116
+|-terastallize|p1a: Tusk Act 4|Ground
+|move|p2a: THE WALL|Close Combat|p1a: Tusk Act 4
+|-damage|p1a: Tusk Act 4|59/100
+|-unboost|p2a: THE WALL|def|1
+|-unboost|p2a: THE WALL|spd|1
+|move|p1a: Tusk Act 4|Earthquake|p2a: THE WALL
+|-damage|p2a: THE WALL|0 fnt
+|faint|p2a: THE WALL
+|
+|upkeep
+|
+|t:|1743880124
+|switch|p2a: Houdini|Meowscarada, M, shiny|100/100
+|turn|4
+|
+|t:|1743880129
+|move|p2a: Houdini|Flower Trick|p1a: Tusk Act 4
+|-start|p2a: Houdini|typechange|Grass|[from] ability: Protean
+|-supereffective|p1a: Tusk Act 4
+|-crit|p1a: Tusk Act 4
+|-damage|p1a: Tusk Act 4|0 fnt
+|faint|p1a: Tusk Act 4
+|-end|p1a: Tusk Act 4|Protosynthesis|[silent]
+|-damage|p2a: Houdini|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743880140
+|switch|p1a: Redneck|Typhlosion, F|100/100
+|turn|5
+|
+|t:|1743880147
+|move|p1a: Redneck|Eruption|p2a: Houdini
+|-supereffective|p2a: Houdini
+|-damage|p2a: Houdini|0 fnt
+|faint|p2a: Houdini
+|
+|upkeep
+|
+|t:|1743880150
+|switch|p2a: Mator|Iron Moth, shiny|100/100
+|-enditem|p2a: Mator|Booster Energy
+|-activate|p2a: Mator|ability: Quark Drive|[fromitem]
+|-start|p2a: Mator|quarkdrivespe
+|turn|6
+|
+|t:|1743880157
+|switch|p1a: Slugger|Gastrodon, F|100/100
+|move|p2a: Mator|Substitute|p2a: Mator
+|-start|p2a: Mator|Substitute
+|-damage|p2a: Mator|76/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743880165
+|move|p2a: Mator|Sludge Wave|p1a: Slugger
+|-resisted|p1a: Slugger
+|-damage|p1a: Slugger|80/100
+|move|p1a: Slugger|Surf|p2a: Mator
+|-supereffective|p2a: Mator
+|-end|p2a: Mator|Substitute
+|
+|-heal|p1a: Slugger|86/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743880174
+|move|p2a: Mator|Dazzling Gleam|p1a: Slugger
+|-damage|p1a: Slugger|65/100
+|move|p1a: Slugger|Surf|p2a: Mator
+|-supereffective|p2a: Mator
+|-damage|p2a: Mator|18/100
+|
+|-heal|p1a: Slugger|71/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743880191
+|move|p2a: Mator|Dazzling Gleam|p1a: Slugger
+|-damage|p1a: Slugger|46/100
+|move|p1a: Slugger|Recover|p1a: Slugger
+|-heal|p1a: Slugger|96/100
+|
+|-heal|p1a: Slugger|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743880199
+|move|p2a: Mator|Dazzling Gleam|p1a: Slugger
+|-damage|p1a: Slugger|77/100
+|move|p1a: Slugger|Surf|p2a: Mator
+|-supereffective|p2a: Mator
+|-damage|p2a: Mator|0 fnt
+|faint|p2a: Mator
+|-end|p2a: Mator|Quark Drive|[silent]
+|
+|-heal|p1a: Slugger|83/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743880205
+|switch|p2a: Money Talks|Gholdengo, shiny|100/100
+|-item|p2a: Money Talks|Air Balloon
+|turn|11
+|
+|t:|1743880213
+|move|p2a: Money Talks|Nasty Plot|p2a: Money Talks
+|-boost|p2a: Money Talks|spa|2
+|move|p1a: Slugger|Surf|p2a: Money Talks
+|-damage|p2a: Money Talks|70/100
+|-enditem|p2a: Money Talks|Air Balloon
+|
+|-heal|p1a: Slugger|90/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743880222
+|move|p2a: Money Talks|Shadow Ball|p1a: Slugger
+|-damage|p1a: Slugger|21/100
+|move|p1a: Slugger|Surf|p2a: Money Talks
+|-damage|p2a: Money Talks|35/100
+|
+|-heal|p1a: Slugger|28/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743880231
+|move|p2a: Money Talks|Shadow Ball|p1a: Slugger
+|-damage|p1a: Slugger|0 fnt
+|faint|p1a: Slugger
+|
+|upkeep
+|
+|t:|1743880237
+|switch|p1a: Redneck|Typhlosion, F|100/100
+|turn|14
+|
+|t:|1743880242
+|move|p1a: Redneck|Eruption|p2a: Money Talks
+|-supereffective|p2a: Money Talks
+|-damage|p2a: Money Talks|0 fnt
+|faint|p2a: Money Talks
+|
+|upkeep
+|
+|t:|1743880245
+|switch|p2a: Sir Gallium|Iron Valiant, shiny|100/100
+|-enditem|p2a: Sir Gallium|Booster Energy
+|-activate|p2a: Sir Gallium|ability: Quark Drive|[fromitem]
+|-start|p2a: Sir Gallium|quarkdrivespe
+|turn|15
+|
+|t:|1743880252
+|switch|p1a: Piper|Enamorus, F|100/100
+|move|p2a: Sir Gallium|Shadow Ball|p1a: Piper
+|-damage|p1a: Piper|76/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743880260
+|move|p2a: Sir Gallium|Calm Mind|p2a: Sir Gallium
+|-boost|p2a: Sir Gallium|spa|1
+|-boost|p2a: Sir Gallium|spd|1
+|move|p1a: Piper|Play Rough|p2a: Sir Gallium
+|-supereffective|p2a: Sir Gallium
+|-damage|p2a: Sir Gallium|0 fnt
+|faint|p2a: Sir Gallium
+|-end|p2a: Sir Gallium|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743880263
+|switch|p2a: Big Man|Great Tusk, shiny|100/100
+|-enditem|p2a: Big Man|Booster Energy
+|-activate|p2a: Big Man|ability: Protosynthesis|[fromitem]
+|-start|p2a: Big Man|protosynthesisatk
+|turn|17
+|
+|t:|1743880274
+|move|p1a: Piper|Play Rough|p2a: Big Man
+|-supereffective|p2a: Big Man
+|-damage|p2a: Big Man|39/100
+|move|p2a: Big Man|Rapid Spin|p1a: Piper
+|-damage|p1a: Piper|41/100
+|-boost|p2a: Big Man|spe|1
+|
+|upkeep
+|turn|18
+|
+|t:|1743880281
+|move|p2a: Big Man|Ice Spinner|p1a: Piper
+|-supereffective|p1a: Piper
+|-damage|p1a: Piper|0 fnt
+|faint|p1a: Piper
+|
+|upkeep
+|
+|t:|1743880287
+|switch|p1a: Redneck|Typhlosion, F|100/100
+|turn|19
+|
+|t:|1743880291
+|move|p1a: Redneck|Extrasensory|p2a: Big Man
+|-supereffective|p2a: Big Man
+|-damage|p2a: Big Man|0 fnt
+|faint|p2a: Big Man
+|-end|p2a: Big Man|Protosynthesis|[silent]
+|
+|win|leevoiceact
+|raw|leevoiceact's rating: 1164 &rarr; <strong>1189</strong><br />(+25 for winning)
+|raw|Frost-Leopard's rating: 1163 &rarr; <strong>1138</strong><br />(-25 for losing)
+|l|☆Frost-Leopard
+|player|p2|
+|c|☆leevoiceact|Gg
+|l|☆leevoiceact
+|player|p1|

@@ -1,0 +1,306 @@
+|j|☆icicler
+|j|☆Esctasies
+|t:|1743903636
+|gametype|singles
+|player|p1|icicler|265|1184
+|player|p2|Esctasies|101|1194
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Abomasnow, M|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Cetitan, M|
+|poke|p1|Primarina, F|
+|poke|p1|Kyurem|
+|poke|p1|Tinkaton, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Ribombee, F|
+|poke|p2|Gholdengo|
+|poke|p2|Primarina, F|
+|poke|p2|Great Tusk|
+|poke|p2|Cinderace, F|
+|teampreview
+|
+|t:|1743903661
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1743903675
+|switch|p1a: Primarina|Primarina, F|100/100
+|move|p2a: Cinderace|High Jump Kick|p1a: Primarina
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|43/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743903692
+|move|p2a: Cinderace|High Jump Kick|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743903700
+|switch|p1a: Cetitan|Cetitan, M, shiny|100/100
+|turn|3
+|
+|t:|1743903727
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Cetitan|Belly Drum|p1a: Cetitan
+|-damage|p1a: Cetitan|51/100
+|-setboost|p1a: Cetitan|atk|6|[from] move: Belly Drum
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743903741
+|-terastallize|p1a: Cetitan|Ice
+|move|p1a: Cetitan|Liquidation|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743903748
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|turn|5
+|
+|t:|1743903758
+|move|p1a: Cetitan|Ice Shard|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100
+|move|p2a: Ribombee|Tailwind|p2a: Ribombee
+|-sidestart|p2: Esctasies|move: Tailwind
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743903764
+|move|p1a: Cetitan|Ice Shard|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743903777
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|7
+|
+|t:|1743903811
+|move|p1a: Cetitan|Ice Shard|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|23/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Cetitan
+|-supereffective|p1a: Cetitan
+|-damage|p1a: Cetitan|0 fnt
+|faint|p1a: Cetitan
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743903819
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-item|p1a: Tinkaton|Air Balloon
+|turn|8
+|
+|t:|1743903829
+|move|p1a: Tinkaton|Fake Out|p2a: Cinderace
+|-damage|p2a: Cinderace|9/100
+|cant|p2a: Cinderace|flinch
+|
+|-weather|none
+|-sideend|p2: Esctasies|move: Tailwind
+|upkeep
+|turn|9
+|
+|t:|1743903849
+|move|p2a: Cinderace|Pyro Ball|p1a: Tinkaton
+|-supereffective|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|-enditem|p1a: Tinkaton|Air Balloon
+|faint|p1a: Tinkaton
+|
+|upkeep
+|
+|t:|1743903856
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|10
+|
+|t:|1743903864
+|move|p2a: Cinderace|Pyro Ball|p1a: Ninetales|[miss]
+|-miss|p2a: Cinderace|p1a: Ninetales
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: icicler|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743903875
+|move|p2a: Cinderace|Pyro Ball|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|14/100
+|move|p1a: Ninetales|Freeze-Dry|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|c|☆Esctasies|The one turn i didnt need him to miss
+|
+|t:|1743903903
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|12
+|
+|t:|1743903934
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|move|p1a: Ninetales|Freeze-Dry|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|60/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743903948
+|move|p2a: Ogerpon|Horn Leech|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-heal|p2a: Ogerpon|66/100|[from] drain|[of] p1a: Ninetales
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743903963
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|turn|14
+|
+|t:|1743903984
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Abomasnow|[anim] Ivy Cudgel Water
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|71/100
+|move|p1a: Abomasnow|Energy Ball|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|2/100
+|-unboost|p2a: Ogerpon|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p1: icicler|move: Aurora Veil
+|upkeep
+|turn|15
+|
+|t:|1743904003
+|switch|p2a: Primarina|Primarina, F|100/100
+|move|p1a: Abomasnow|Energy Ball|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|49/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743904011
+|move|p2a: Primarina|Draining Kiss|p1a: Abomasnow
+|-damage|p1a: Abomasnow|48/100
+|-heal|p2a: Primarina|68/100|[from] drain|[of] p1a: Abomasnow
+|move|p1a: Abomasnow|Energy Ball|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|9/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743904020
+|move|p2a: Primarina|Shadow Ball|p1a: Abomasnow
+|-damage|p1a: Abomasnow|22/100
+|move|p1a: Abomasnow|Energy Ball|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|-weather|none
+|upkeep
+|
+|t:|1743904037
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|18
+|
+|t:|1743904047
+|move|p2a: Great Tusk|Rapid Spin|p1a: Abomasnow
+|-damage|p1a: Abomasnow|1/100
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: Abomasnow|Energy Ball|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|c|☆Esctasies|Ughhhhhhhhhhn
+|
+|t:|1743904055
+|switch|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water|2/100
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|turn|19
+|
+|t:|1743904060
+|move|p2a: Ogerpon|Trailblaze|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|-boost|p2a: Ogerpon|spe|1
+|faint|p1a: Abomasnow
+|
+|upkeep
+|
+|t:|1743904068
+|switch|p1a: Kyurem|Kyurem, shiny|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|20
+|
+|t:|1743904074
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Kyurem|[anim] Ivy Cudgel Water
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|61/100
+|move|p1a: Kyurem|Freeze-Dry|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|win|icicler
+|raw|icicler's rating: 1184 &rarr; <strong>1210</strong><br />(+26 for winning)
+|raw|Esctasies's rating: 1194 &rarr; <strong>1168</strong><br />(-26 for losing)
+|l|☆Esctasies
+|player|p2|
+|l|☆icicler
+|player|p1|

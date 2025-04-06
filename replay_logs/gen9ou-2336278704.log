@@ -1,0 +1,224 @@
+|j|☆capoglo
+|j|☆A9MG
+|t:|1743897710
+|gametype|singles
+|player|p1|capoglo|266|1440
+|player|p2|A9MG|nurseryaide|1401
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Moltres|
+|poke|p1|Kingambit, M|
+|poke|p1|Tinkaton, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Sandy Shocks|
+|poke|p2|Azumarill, M|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Valiant|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Zarude|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by A9MG)
+|
+|t:|1743897729
+|start
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Sandy Shocks|atk|1
+|turn|1
+|
+|t:|1743897745
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-item|p1a: Tinkaton|Air Balloon
+|move|p2a: Landorus|Stealth Rock|p1a: Tinkaton
+|-sidestart|p1: capoglo|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743897755
+|move|p1a: Tinkaton|Encore|p2a: Landorus
+|-start|p2a: Landorus|Encore
+|move|p2a: Landorus|Stealth Rock||[still]
+|-fail|p2a: Landorus
+|
+|upkeep
+|turn|3
+|
+|t:|1743897764
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Tinkaton|Stealth Rock|p2a: Iron Moth
+|-sidestart|p2: A9MG|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|inactive|capoglo has 120 seconds left.
+|
+|t:|1743897806
+|move|p2a: Iron Moth|Substitute|p2a: Iron Moth
+|-start|p2a: Iron Moth|Substitute
+|-damage|p2a: Iron Moth|76/100
+|move|p1a: Tinkaton|Encore|p2a: Iron Moth
+|-start|p2a: Iron Moth|Encore
+|
+|upkeep
+|turn|5
+|
+|t:|1743897819
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tinkaton|atk|1
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|6
+|inactive|capoglo has 120 seconds left.
+|
+|t:|1743897841
+|move|p1a: Dragapult|Hydro Pump|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743897846
+|switch|p2a: Zarude|Zarude|100/100
+|-damage|p2a: Zarude|88/100|[from] Stealth Rock
+|turn|7
+|inactive|capoglo has 120 seconds left.
+|
+|t:|1743897853
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-damage|p1a: Tinkaton|94/100|[from] Stealth Rock
+|-item|p1a: Tinkaton|Air Balloon
+|move|p2a: Zarude|Knock Off|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|66/100
+|-enditem|p1a: Tinkaton|Air Balloon
+|-enditem|p2a: Zarude|Assault Vest|[silent]|[from] ability: Pickpocket|[of] p2a: Zarude
+|-item|p1a: Tinkaton|Assault Vest|[from] ability: Pickpocket|[of] p2a: Zarude
+|
+|upkeep
+|turn|8
+|inactive|capoglo has 120 seconds left.
+|
+|t:|1743897874
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Zarude
+|-damage|p2a: Zarude|53/100
+|move|p2a: Zarude|U-turn|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|59/100
+|
+|t:|1743897881
+|switch|p2a: Iron Moth|Iron Moth|76/100|[from] U-turn
+|-damage|p2a: Iron Moth|51/100|[from] Stealth Rock
+|
+|upkeep
+|turn|9
+|inactive|capoglo has 120 seconds left.
+|
+|t:|1743897900
+|switch|p1a: Dragapult|Dragapult, M|88/100
+|-damage|p1a: Dragapult|76/100|[from] Stealth Rock
+|move|p2a: Iron Moth|Sludge Wave|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|43/100
+|
+|upkeep
+|turn|10
+|inactive|capoglo has 120 seconds left.
+|
+|t:|1743897911
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Zarude|Zarude|53/100
+|-damage|p2a: Zarude|41/100|[from] Stealth Rock
+|move|p1a: Dragapult|Shadow Ball|p2a: Zarude
+|-resisted|p2a: Zarude
+|-damage|p2a: Zarude|18/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743897919
+|move|p1a: Dragapult|Shadow Ball|p2a: Zarude
+|-resisted|p2a: Zarude
+|-damage|p2a: Zarude|0 fnt
+|faint|p2a: Zarude
+|
+|upkeep
+|
+|t:|1743897924
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|97/100|[from] Stealth Rock
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|12
+|inactive|capoglo has 120 seconds left.
+|
+|t:|1743897952
+|switch|p1a: Moltres|Moltres|100/100
+|-ability|p1a: Moltres|Pressure
+|move|p2a: Great Tusk|Knock Off|p1a: Moltres
+|-damage|p1a: Moltres|79/100
+|-enditem|p1a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|13
+|inactive|capoglo has 120 seconds left.
+|
+|t:|1743897969
+|move|p2a: Great Tusk|Rapid Spin|p1a: Moltres
+|-damage|p1a: Moltres|69/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: A9MG|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Moltres|Flamethrower|p2a: Great Tusk
+|-damage|p2a: Great Tusk|52/100
+|-status|p2a: Great Tusk|brn
+|
+|-damage|p2a: Great Tusk|46/100 brn|[from] brn
+|upkeep
+|turn|14
+|inactive|capoglo has 120 seconds left.
+|
+|t:|1743897989
+|move|p2a: Great Tusk|Ice Spinner|p1a: Moltres
+|-damage|p1a: Moltres|62/100
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|100/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-damage|p2a: Great Tusk|39/100 brn|[from] brn
+|upkeep
+|turn|15
+|inactive|capoglo has 120 seconds left.
+|-message|A9MG forfeited.
+|
+|win|capoglo
+|raw|capoglo's rating: 1440 &rarr; <strong>1458</strong><br />(+18 for winning)
+|raw|A9MG's rating: 1401 &rarr; <strong>1383</strong><br />(-18 for losing)
+|l|☆A9MG
+|player|p2|
+|l|☆capoglo
+|player|p1|

@@ -1,0 +1,299 @@
+|j|☆ErenJagermeister
+|j|☆Tosserofsalad
+|t:|1743844749
+|gametype|singles
+|player|p1|ErenJagermeister|ethan|1152
+|player|p2|Tosserofsalad|266|1152
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pikachu, F|
+|poke|p1|Venusaur, F|
+|poke|p1|Charizard, M|
+|poke|p1|Blastoise, F|
+|poke|p1|Espeon, M|
+|poke|p1|Snorlax, F|
+|poke|p2|Gholdengo|
+|poke|p2|Rotom-Wash|
+|poke|p2|Great Tusk|
+|poke|p2|Araquanid, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|t:|1743844764
+|start
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ErenJagermeister)
+|
+|t:|1743844771
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|switch|p1a: Pikachu|Pikachu, F|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743844789
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Pikachu|Fake Out|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|upkeep
+|turn|3
+|
+|t:|1743844809
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Pikachu|Knock Off|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|87/100
+|-enditem|p2a: Great Tusk|Assault Vest|[from] move: Knock Off|[of] p1a: Pikachu
+|
+|upkeep
+|turn|4
+|
+|t:|1743844828
+|switch|p1a: Charizard|Charizard, M|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Charizard
+|-crit|p1a: Charizard
+|-damage|p1a: Charizard|65/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|upkeep
+|turn|5
+|
+|t:|1743844837
+|move|p2a: Great Tusk|Knock Off|p1a: Charizard
+|-damage|p1a: Charizard|22/100
+|-enditem|p1a: Charizard|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Charizard|Air Slash|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743844856
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|6
+|
+|t:|1743844862
+|switch|p1a: Pikachu|Pikachu, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Pikachu
+|-ability|p1a: Pikachu|Lightning Rod|boost
+|-boost|p1a: Pikachu|spa|1
+|
+|upkeep
+|turn|7
+|
+|t:|1743844875
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Pikachu|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|72/100
+|-enditem|p2a: Hatterene|Red Card|[from] move: Knock Off|[of] p1a: Pikachu
+|
+|upkeep
+|turn|8
+|
+|t:|1743844885
+|move|p1a: Pikachu|Nuzzle|p2a: Hatterene
+|-damage|p2a: Hatterene|62/100
+|-status|p2a: Hatterene|par
+|move|p2a: Hatterene|Mystical Fire|p1a: Pikachu
+|-damage|p1a: Pikachu|34/100
+|-unboost|p1a: Pikachu|spa|1
+|
+|upkeep
+|turn|9
+|
+|t:|1743844899
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|cant|p2a: Hatterene|par
+|
+|upkeep
+|turn|10
+|
+|t:|1743844910
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Snorlax|Iron Head|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|85/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743844916
+|move|p2a: Gholdengo|Trick|p1a: Snorlax
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Snorlax
+|-item|p1a: Snorlax|Choice Scarf|[from] move: Trick
+|-item|p2a: Gholdengo|Leftovers|[from] move: Trick
+|move|p1a: Snorlax|Earthquake|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|13/100
+|
+|-heal|p2a: Gholdengo|19/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743844929
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|move|p1a: Snorlax|Earthquake|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|87/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743844940
+|switch|p1a: Charizard|Charizard, M|22/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743844949
+|move|p2a: Dragapult|Dragon Darts|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+|
+|t:|1743844953
+|switch|p1a: Espeon|Espeon, M|100/100
+|turn|15
+|
+|t:|1743844962
+|switch|p2a: Gholdengo|Gholdengo|19/100
+|-terastallize|p1a: Espeon|Fairy
+|move|p1a: Espeon|Tera Blast|p2a: Gholdengo|[anim] Tera Blast Fairy
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743844974
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|16
+|
+|t:|1743844984
+|-terastallize|p2a: Rotom|Steel
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Rotom|Hydro Pump|p1a: Espeon
+|-damage|p1a: Espeon|38/100
+|
+|-heal|p1a: Espeon|44/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743844999
+|switch|p1a: Pikachu|Pikachu, F|34/100
+|move|p2a: Rotom|Hydro Pump|p1a: Pikachu|[miss]
+|-miss|p2a: Rotom|p1a: Pikachu
+|
+|upkeep
+|turn|18
+|
+|t:|1743845007
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Pikachu|Nuzzle|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|92/100
+|-status|p2a: Dragapult|par
+|
+|upkeep
+|turn|19
+|
+|t:|1743845015
+|move|p2a: Dragapult|Sucker Punch|p1a: Pikachu
+|-damage|p1a: Pikachu|0 fnt
+|faint|p1a: Pikachu
+|
+|upkeep
+|
+|t:|1743845021
+|switch|p1a: Espeon|Espeon, M, tera:Fairy|44/100
+|turn|20
+|
+|t:|1743845031
+|switch|p2a: Rotom|Rotom-Wash, tera:Steel|100/100
+|move|p1a: Espeon|Tera Blast|p2a: Rotom|[anim] Tera Blast Fairy
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|74/100
+|
+|-heal|p1a: Espeon|50/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743845040
+|switch|p1a: Snorlax|Snorlax, F|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Snorlax
+|-damage|p1a: Snorlax|71/100
+|
+|t:|1743845049
+|switch|p2a: Araquanid|Araquanid, M|87/100|[from] Volt Switch
+|
+|upkeep
+|turn|22
+|
+|t:|1743845058
+|move|p1a: Snorlax|Iron Head|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|77/100
+|move|p2a: Araquanid|Surf|p1a: Snorlax
+|-damage|p1a: Snorlax|51/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743845065
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|move|p2a: Araquanid|Sticky Web|p1a: Venusaur
+|-sidestart|p1: ErenJagermeister|move: Sticky Web
+|
+|upkeep
+|turn|24
+|
+|t:|1743845073
+|switch|p2a: Hatterene|Hatterene, F|62/100 par
+|move|p1a: Venusaur|Toxic|p2a: Hatterene
+|move|p2a: Hatterene|Toxic|p1a: Venusaur|[from] ability: Magic Bounce
+|-immune|p1a: Venusaur
+|
+|upkeep
+|turn|25
+|
+|t:|1743845083
+|move|p1a: Venusaur|Leech Seed|p2a: Hatterene
+|move|p2a: Hatterene|Leech Seed|p1a: Venusaur|[from] ability: Magic Bounce
+|-immune|p1a: Venusaur
+|move|p2a: Hatterene|Psyshock|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|16/100
+|
+|-heal|p1a: Venusaur|22/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|-message|ErenJagermeister forfeited.
+|
+|win|Tosserofsalad
+|raw|ErenJagermeister's rating: 1152 &rarr; <strong>1127</strong><br />(-25 for losing)
+|raw|Tosserofsalad's rating: 1152 &rarr; <strong>1177</strong><br />(+25 for winning)
+|l|☆ErenJagermeister
+|player|p1|
+|l|☆Tosserofsalad
+|player|p2|

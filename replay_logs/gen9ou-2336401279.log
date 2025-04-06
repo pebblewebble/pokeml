@@ -1,0 +1,276 @@
+|j|☆ss_shedinja
+|j|☆Service Third
+|t:|1743912309
+|gametype|singles
+|player|p1|ss_shedinja|barry|1247
+|player|p2|Service Third|caitlin|1313
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hydrapple, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Clodsire, F|
+|poke|p1|Skeledirge, M|
+|poke|p1|Forretress, F|
+|poke|p1|Quagsire, F|
+|poke|p2|Walking Wake|
+|poke|p2|Hatterene, F|
+|poke|p2|Leavanny, M|
+|poke|p2|Slither Wing|
+|poke|p2|Torkoal, F|
+|poke|p2|Ceruledge, M|
+|teampreview
+|
+|t:|1743912313
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Service Third)
+|
+|t:|1743912322
+|move|p1a: Landorus|U-turn|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|94/100
+|
+|t:|1743912327
+|switch|p1a: Clodsire|Clodsire, F|100/100|[from] U-turn
+|move|p2a: Torkoal|Will-O-Wisp|p1a: Clodsire
+|-status|p1a: Clodsire|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Clodsire|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1743912339
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p1a: Clodsire|Toxic|p2a: Walking Wake
+|-status|p2a: Walking Wake|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Clodsire|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Walking Wake|94/100 tox|[from] psn
+|-damage|p1a: Clodsire|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743912346
+|move|p2a: Walking Wake|Draco Meteor|p1a: Clodsire
+|-damage|p1a: Clodsire|30/100 brn
+|-unboost|p2a: Walking Wake|spa|2
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|80/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Clodsire|86/100 brn|[from] item: Black Sludge
+|-damage|p2a: Walking Wake|82/100 tox|[from] psn
+|-damage|p1a: Clodsire|80/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743912359
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|-activate|p2a: Slither Wing|ability: Protosynthesis
+|-start|p2a: Slither Wing|protosynthesisatk
+|switch|p1a: Hydrapple|Hydrapple, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743912368
+|move|p2a: Slither Wing|U-turn|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|22/100
+|
+|t:|1743912372
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Leavanny|Leavanny, M|100/100|[from] U-turn
+|move|p1a: Hydrapple|Fickle Beam|p2a: Leavanny
+|-damage|p2a: Leavanny|34/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743912380
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|move|p2a: Leavanny|Triple Axel|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|99/100
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|94/100
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|88/100
+|-hitcount|p1a: Skeledirge|3
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743912391
+|switch|p2a: Walking Wake|Walking Wake|82/100 tox
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p1a: Skeledirge|Torch Song|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|70/100 tox
+|-boost|p1a: Skeledirge|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Walking Wake|64/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743912404
+|-terastallize|p1a: Skeledirge|Fairy
+|move|p2a: Walking Wake|Draco Meteor|p1a: Skeledirge
+|-immune|p1a: Skeledirge
+|move|p1a: Skeledirge|Hex|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743912413
+|switch|p2a: Torkoal|Torkoal, F|94/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|9
+|
+|t:|1743912425
+|move|p1a: Skeledirge|Torch Song|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|49/100
+|-boost|p1a: Skeledirge|spa|1
+|move|p2a: Torkoal|Lava Plume|p1a: Skeledirge
+|-damage|p1a: Skeledirge|57/100
+|-status|p1a: Skeledirge|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Skeledirge|50/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743912436
+|move|p1a: Skeledirge|Torch Song|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-boost|p1a: Skeledirge|spa|1
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Skeledirge|44/100 brn|[from] brn
+|upkeep
+|
+|t:|1743912442
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|-activate|p2a: Slither Wing|ability: Protosynthesis
+|-start|p2a: Slither Wing|protosynthesisatk
+|turn|11
+|
+|t:|1743912449
+|switch|p1a: Quagsire|Quagsire, F|100/100
+|move|p2a: Slither Wing|Earthquake|p1a: Quagsire
+|-crit|p1a: Quagsire
+|-damage|p1a: Quagsire|46/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743912458
+|move|p2a: Slither Wing|Close Combat|p1a: Quagsire
+|-crit|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|-unboost|p2a: Slither Wing|def|1
+|-unboost|p2a: Slither Wing|spd|1
+|-damage|p2a: Slither Wing|84/100|[from] item: Rocky Helmet|[of] p1a: Quagsire
+|faint|p1a: Quagsire
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743912473
+|switch|p1a: Hydrapple|Hydrapple, M|55/100
+|turn|13
+|
+|t:|1743912476
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Slither Wing|atk|1
+|move|p2a: Slither Wing|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|84/100
+|-enditem|p1a: Landorus|Red Card|[of] p2a: Slither Wing
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|drag|p2a: Ceruledge|Ceruledge, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743912487
+|move|p1a: Landorus|Earthquake|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743912500
+|switch|p1a: Clodsire|Clodsire, F|80/100 brn
+|move|p2a: Ceruledge|Bitter Blade|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|-heal|p2a: Ceruledge|64/100|[from] drain|[of] p1a: Clodsire
+|faint|p1a: Clodsire
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743912504
+|switch|p1a: Skeledirge|Skeledirge, M, tera:Fairy|44/100 brn
+|turn|16
+|
+|t:|1743912509
+|move|p2a: Ceruledge|Bitter Blade|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|-heal|p2a: Ceruledge|95/100|[from] drain|[of] p1a: Skeledirge
+|faint|p1a: Skeledirge
+|
+|-weather|none
+|upkeep
+|-message|ss_shedinja forfeited.
+|
+|win|Service Third
+|raw|ss_shedinja's rating: 1247 &rarr; <strong>1227</strong><br />(-20 for losing)
+|raw|Service Third's rating: 1313 &rarr; <strong>1329</strong><br />(+16 for winning)
+|l|☆ss_shedinja
+|player|p1|
+|l|☆Service Third
+|player|p2|

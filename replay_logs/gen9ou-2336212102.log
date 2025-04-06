@@ -1,0 +1,251 @@
+|j|☆DiamondFury205
+|j|☆TeaPause
+|t:|1743890341
+|gametype|singles
+|player|p1|DiamondFury205|266|1445
+|player|p2|TeaPause|waiter|1451
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Weavile, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Latios, M|
+|poke|p1|Iron Boulder|
+|poke|p1|Kingambit, M|
+|poke|p2|Scyther, F|
+|poke|p2|Great Tusk|
+|poke|p2|Magnezone|
+|poke|p2|Weavile, M|
+|poke|p2|Slowking, M|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TeaPause)
+|
+|t:|1743890353
+|start
+|switch|p1a: Latios|Latios, M|100/100
+|switch|p2a: Magnezone|Magnezone|100/100
+|turn|1
+|
+|t:|1743890368
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Magnezone|Volt Switch|p1a: Cinderace
+|-damage|p1a: Cinderace|41/100
+|
+|t:|1743890375
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|2
+|
+|t:|1743890380
+|move|p2a: Iron Valiant|Drain Punch|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743890409
+|switch|p1a: Latios|Latios, M|100/100
+|turn|3
+|
+|t:|1743890416
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Magnezone|Magnezone|100/100
+|move|p1a: Latios|Draco Meteor|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|67/100
+|-unboost|p1a: Latios|spa|2
+|-damage|p1a: Latios|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1743890427
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Magnezone|Volt Switch|p1a: Weavile
+|-damage|p1a: Weavile|38/100
+|
+|t:|1743890435
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|5
+|
+|t:|1743890439
+|move|p1a: Weavile|Ice Shard|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|75/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1743890445
+|switch|p1a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p1a: Iron Boulder|Booster Energy
+|-activate|p1a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Boulder|quarkdrivespe
+|turn|6
+|
+|t:|1743890450
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Slowking|Slowking, M|100/100
+|move|p1a: Iron Boulder|Swords Dance|p1a: Iron Boulder
+|-boost|p1a: Iron Boulder|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1743890456
+|move|p1a: Iron Boulder|Swords Dance|p1a: Iron Boulder
+|-boost|p1a: Iron Boulder|atk|2
+|move|p2a: Slowking|Scald|p1a: Iron Boulder
+|-supereffective|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|44/100
+|-status|p1a: Iron Boulder|brn
+|
+|-damage|p1a: Iron Boulder|38/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743890465
+|move|p1a: Iron Boulder|Mighty Cleave|p2a: Slowking
+|-damage|p2a: Slowking|33/100
+|-damage|p1a: Iron Boulder|22/100 brn|[from] item: Rocky Helmet|[of] p2a: Slowking
+|move|p2a: Slowking|Scald|p1a: Iron Boulder
+|-supereffective|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|0 fnt
+|faint|p1a: Iron Boulder
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743890474
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|turn|9
+|
+|t:|1743890484
+|-terastallize|p1a: Keldeo|Grass
+|move|p1a: Keldeo|Tera Blast|p2a: Slowking|[anim] Tera Blast Grass
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|-damage|p1a: Keldeo|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743890492
+|switch|p2a: Scyther|Scyther, F|100/100
+|turn|10
+|
+|t:|1743890499
+|switch|p1a: Latios|Latios, M|91/100
+|move|p2a: Scyther|Dual Wingbeat|p1a: Latios
+|-damage|p1a: Latios|54/100
+|-damage|p1a: Latios|13/100
+|-hitcount|p1a: Latios|2
+|
+|upkeep
+|turn|11
+|
+|t:|1743890507
+|move|p2a: Scyther|Quick Attack|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|upkeep
+|
+|t:|1743890510
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|12
+|
+|t:|1743890518
+|switch|p2a: Iron Valiant|Iron Valiant|75/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|49/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743890525
+|-end|p1a: Kingambit|fallen4|[silent]
+|switch|p1a: Keldeo|Keldeo-Resolute, tera:Grass|91/100
+|move|p2a: Iron Valiant|Drain Punch|p1a: Keldeo
+|-damage|p1a: Keldeo|48/100
+|-heal|p2a: Iron Valiant|73/100|[from] drain|[of] p1a: Keldeo
+|
+|upkeep
+|turn|14
+|
+|t:|1743890536
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Magnezone|Magnezone|67/100
+|move|p1a: Keldeo|Hydro Pump|p2a: Magnezone
+|-damage|p2a: Magnezone|6/100
+|-damage|p1a: Keldeo|38/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+|
+|t:|1743890543
+|move|p1a: Keldeo|Secret Sword|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|-damage|p1a: Keldeo|28/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743890548
+|switch|p2a: Iron Valiant|Iron Valiant|73/100
+|turn|16
+|
+|t:|1743890554
+|move|p2a: Iron Valiant|Drain Punch|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|-heal|p2a: Iron Valiant|88/100|[from] drain|[of] p1a: Keldeo
+|faint|p1a: Keldeo
+|
+|upkeep
+|
+|t:|1743890556
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|17
+|
+|t:|1743890563
+|move|p1a: Kingambit|Sucker Punch|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|63/100
+|move|p2a: Iron Valiant|Drain Punch|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-heal|p2a: Iron Valiant|100/100|[from] drain|[of] p1a: Kingambit
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|TeaPause
+|raw|DiamondFury205's rating: 1445 &rarr; <strong>1425</strong><br />(-20 for losing)
+|raw|TeaPause's rating: 1451 &rarr; <strong>1471</strong><br />(+20 for winning)
+|l|☆DiamondFury205
+|player|p1|
+|l|☆TeaPause
+|player|p2|

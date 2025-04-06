@@ -1,0 +1,255 @@
+|j|☆xTamer
+|j|☆Its Solo
+|t:|1743916329
+|gametype|singles
+|player|p1|xTamer|2|1118
+|player|p2|Its Solo|266|1080
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Lucario, M|
+|poke|p1|Skarmory, M|
+|poke|p1|Polteageist-Antique|
+|poke|p1|Garchomp, M|
+|poke|p1|Iron Moth|
+|poke|p1|Weezing-Galar, F|
+|poke|p2|Gholdengo|
+|poke|p2|Lokix, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Tatsugiri, M|
+|poke|p2|Toxapex, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xTamer)
+|inactive|Its Solo has 120 seconds left.
+|
+|t:|1743916367
+|start
+|switch|p1a: Polteageist|Polteageist-Antique, shiny|100/100
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|turn|1
+|
+|t:|1743916376
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Weezing
+|move|p2a: Gliscor|Toxic|p1a: Weezing
+|-immune|p1a: Weezing
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|inactive|Its Solo has 120 seconds left.
+|
+|t:|1743916407
+|move|p2a: Gliscor|Earthquake|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|43/100
+|move|p1a: Weezing|Dazzling Gleam|p2a: Gliscor
+|-damage|p2a: Gliscor|73/100 tox
+|
+|-heal|p1a: Weezing|49/100|[from] item: Black Sludge
+|-heal|p2a: Gliscor|86/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|inactive|Its Solo has 120 seconds left.
+|
+|t:|1743916418
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Gliscor|Earthquake|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|-heal|p2a: Gliscor|98/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|inactive|Its Solo has 120 seconds left.
+|inactive|Its Solo has 90 seconds left.
+|inactive|Its Solo has 60 seconds left.
+|
+|t:|1743916495
+|switch|p2a: Tatsugiri|Tatsugiri, M|100/100
+|move|p1a: Skarmory|Stealth Rock|p2a: Tatsugiri
+|-sidestart|p2: Its Solo|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1743916502
+|switch|p1a: Polteageist|Polteageist-Antique, shiny|100/100
+|move|p2a: Tatsugiri|Nasty Plot|p2a: Tatsugiri
+|-boost|p2a: Tatsugiri|spa|2
+|
+|-fieldend|Misty Terrain
+|upkeep
+|turn|6
+|
+|t:|1743916512
+|move|p2a: Tatsugiri|Hydro Pump|p1a: Polteageist
+|-enditem|p1a: Polteageist|Focus Sash
+|-damage|p1a: Polteageist|1/100
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|
+|upkeep
+|turn|7
+|
+|t:|1743916522
+|move|p1a: Polteageist|Shadow Ball|p2a: Tatsugiri
+|-enditem|p2a: Tatsugiri|Focus Sash
+|-damage|p2a: Tatsugiri|1/100
+|move|p2a: Tatsugiri|Hydro Pump|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|upkeep
+|
+|t:|1743916531
+|switch|p1a: Lucario|Lucario, M|100/100
+|turn|8
+|inactive|Its Solo has 60 seconds left.
+|
+|t:|1743916563
+|move|p1a: Lucario|Vacuum Wave|p2a: Tatsugiri
+|-damage|p2a: Tatsugiri|0 fnt
+|faint|p2a: Tatsugiri
+|-damage|p1a: Lucario|91/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Its Solo has 60 seconds left.
+|
+|t:|1743916573
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p2a: Gholdengo|Air Balloon
+|turn|9
+|
+|t:|1743916579
+|move|p1a: Lucario|Dark Pulse|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|22/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|-damage|p1a: Lucario|81/100|[from] item: Life Orb
+|move|p2a: Gholdengo|Shadow Ball|p1a: Lucario
+|-damage|p1a: Lucario|9/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743916587
+|switch|p2a: Lokix|Lokix, M|100/100
+|-damage|p2a: Lokix|76/100|[from] Stealth Rock
+|move|p1a: Lucario|Dark Pulse|p2a: Lokix
+|-resisted|p2a: Lokix
+|-damage|p2a: Lokix|46/100
+|-damage|p1a: Lucario|0 fnt|[from] item: Life Orb
+|faint|p1a: Lucario
+|
+|upkeep
+|
+|t:|1743916597
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|turn|11
+|inactive|Its Solo has 60 seconds left.
+|
+|t:|1743916635
+|move|p2a: Lokix|Knock Off|p1a: Skarmory
+|-damage|p1a: Skarmory|60/100
+|-damage|p2a: Lokix|30/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|-enditem|p1a: Skarmory|Rocky Helmet|[from] move: Knock Off|[of] p2a: Lokix
+|move|p1a: Skarmory|Brave Bird|p2a: Lokix
+|-supereffective|p2a: Lokix
+|-damage|p2a: Lokix|0 fnt
+|faint|p2a: Lokix
+|-damage|p1a: Skarmory|52/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743916645
+|switch|p2a: Gholdengo|Gholdengo|22/100
+|-damage|p2a: Gholdengo|16/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1743916661
+|move|p2a: Gholdengo|Shadow Ball|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|upkeep
+|
+|t:|1743916668
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|turn|13
+|
+|t:|1743916678
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Gholdengo|Dazzling Gleam|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|43/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743916687
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|-damage|p2a: Enamorus|76/100|[from] Stealth Rock
+|move|p1a: Garchomp|Scale Shot|p2a: Enamorus
+|-immune|p2a: Enamorus
+|
+|upkeep
+|turn|15
+|
+|t:|1743916704
+|switch|p1a: Weezing|Weezing-Galar, F|49/100
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p1a: Weezing
+|move|p2a: Enamorus|Earth Power|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|upkeep
+|
+|t:|1743916712
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|16
+|inactive|Its Solo has 60 seconds left.
+|inactive|Its Solo has 30 seconds left.
+|
+|t:|1743916773
+|move|p2a: Enamorus|Earth Power|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|inactive|Its Solo has 30 seconds left this turn.
+|
+|t:|1743916786
+|switch|p1a: Garchomp|Garchomp, M|43/100
+|turn|17
+|-message|xTamer forfeited.
+|
+|win|Its Solo
+|raw|xTamer's rating: 1138 &rarr; <strong>1109</strong><br />(-29 for losing)
+|raw|Its Solo's rating: 1080 &rarr; <strong>1113</strong><br />(+33 for winning)
+|l|☆xTamer
+|player|p1|
+|l|☆Its Solo
+|player|p2|

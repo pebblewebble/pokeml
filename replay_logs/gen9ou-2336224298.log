@@ -1,0 +1,302 @@
+|j|☆urr02
+|j|☆Service Third
+|t:|1743891645
+|gametype|singles
+|player|p1|urr02|101|1359
+|player|p2|Service Third|caitlin|1438
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Entei|
+|poke|p1|Lycanroc-Dusk, F|
+|poke|p1|Mamoswine, M|
+|poke|p1|Scizor, M|
+|poke|p1|Kingambit, F|
+|poke|p2|Walking Wake|
+|poke|p2|Hatterene, F|
+|poke|p2|Leavanny, F|
+|poke|p2|Slither Wing|
+|poke|p2|Torkoal, F|
+|poke|p2|Ceruledge, M|
+|teampreview
+|j| ClarenceWrinkle
+|
+|t:|1743891650
+|start
+|switch|p1a: Entei|Entei|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1743891653
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p1a: Entei|Swagger|p2a: Walking Wake
+|-boost|p2a: Walking Wake|atk|2
+|-start|p2a: Walking Wake|confusion
+|-enditem|p1a: Entei|Mirror Herb
+|-boost|p1a: Entei|atk|2|[from] item: Mirror Herb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743891664
+|-terastallize|p1a: Entei|Normal
+|move|p1a: Entei|Extreme Speed|p2a: Walking Wake
+|-damage|p2a: Walking Wake|10/100
+|-activate|p2a: Walking Wake|confusion
+|move|p2a: Walking Wake|Hydro Steam|p1a: Entei
+|-damage|p1a: Entei|0 fnt
+|faint|p1a: Entei
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743891677
+|switch|p1a: Lycanroc|Lycanroc-Dusk, F|100/100
+|turn|3
+|
+|t:|1743891684
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Lycanroc|Accelerock|p2a: Hatterene
+|-damage|p2a: Hatterene|66/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1743891687
+|switch|p2a: Leavanny|Leavanny, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743891691
+|move|p1a: Lycanroc|Accelerock|p2a: Leavanny
+|-supereffective|p2a: Leavanny
+|-damage|p2a: Leavanny|0 fnt
+|faint|p2a: Leavanny
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743891697
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|-activate|p2a: Slither Wing|ability: Protosynthesis
+|-start|p2a: Slither Wing|protosynthesisatk
+|turn|5
+|
+|t:|1743891700
+|move|p1a: Lycanroc|Accelerock|p2a: Slither Wing
+|-damage|p2a: Slither Wing|51/100
+|move|p2a: Slither Wing|U-turn|p1a: Lycanroc
+|-damage|p1a: Lycanroc|13/100
+|
+|t:|1743891708
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|66/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743891717
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|move|p2a: Hatterene|Psychic Noise|p1a: Mamoswine
+|-damage|p1a: Mamoswine|63/100
+|-start|p1a: Mamoswine|move: Heal Block
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743891728
+|move|p1a: Mamoswine|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Mamoswine|move: Heal Block
+|upkeep
+|
+|t:|1743891734
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|8
+|
+|t:|1743891740
+|move|p2a: Ceruledge|Bitter Blade|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|-weather|none
+|upkeep
+|
+|t:|1743891749
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|9
+|
+|t:|1743891752
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743891762
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Torkoal|Will-O-Wisp|p1a: Dragonite
+|-status|p1a: Dragonite|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Dragonite|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743891772
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Dragonite|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743891775
+|move|p1a: Dragonite|Earthquake|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Dragonite|82/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743891780
+|-terastallize|p2a: Ceruledge|Ghost
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Dragonite
+|-damage|p1a: Dragonite|27/100 brn
+|move|p1a: Dragonite|Earthquake|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Dragonite|21/100 brn|[from] brn
+|upkeep
+|
+|t:|1743891784
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|turn|14
+|
+|t:|1743891796
+|move|p1a: Dragonite|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|42/100
+|move|p2a: Torkoal|Lava Plume|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|6/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Dragonite|0 fnt|[from] brn
+|faint|p1a: Dragonite
+|upkeep
+|
+|t:|1743891807
+|switch|p1a: Lycanroc|Lycanroc-Dusk, F|13/100
+|turn|15
+|
+|t:|1743891821
+|move|p1a: Lycanroc|Accelerock|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743891825
+|switch|p2a: Slither Wing|Slither Wing|51/100
+|-activate|p2a: Slither Wing|ability: Protosynthesis
+|-start|p2a: Slither Wing|protosynthesisatk
+|turn|16
+|
+|t:|1743891829
+|move|p2a: Slither Wing|First Impression|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|faint|p1a: Lycanroc
+|
+|-weather|none
+|-end|p2a: Slither Wing|Protosynthesis
+|upkeep
+|
+|t:|1743891832
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|17
+|
+|t:|1743891840
+|move|p2a: Slither Wing|U-turn|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|80/100
+|
+|t:|1743891841
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Walking Wake|Walking Wake|10/100|[from] U-turn
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|upkeep
+|turn|18
+|
+|t:|1743891845
+|move|p1a: Scizor|Bullet Punch|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743891846
+|switch|p2a: Slither Wing|Slither Wing|51/100
+|turn|19
+|
+|t:|1743891850
+|move|p1a: Scizor|Bullet Punch|p2a: Slither Wing
+|-damage|p2a: Slither Wing|0 fnt
+|faint|p2a: Slither Wing
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|
+|win|urr02
+|raw|urr02's rating: 1359 &rarr; <strong>1383</strong><br />(+24 for winning)
+|raw|Service Third's rating: 1438 &rarr; <strong>1414</strong><br />(-24 for losing)
+|l|☆Service Third
+|player|p2|
+|l| ClarenceWrinkle
+|l|☆urr02
+|player|p1|

@@ -1,0 +1,607 @@
+|j|☆Yellowgo
+|j|☆PandaLoverChain
+|t:|1743786557
+|gametype|singles
+|player|p1|Yellowgo|101|1349
+|player|p2|PandaLoverChain|hiker-gen4|1327
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Moltres|
+|poke|p1|Darkrai|
+|poke|p1|Kyurem|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Iron Treads|
+|poke|p2|Gholdengo|
+|poke|p2|Kingambit, M|
+|poke|p2|Gliscor, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Meowscarada, M|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PandaLoverChain)
+|
+|t:|1743786577
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1743786586
+|move|p1a: Iron Treads|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: PandaLoverChain|move: Stealth Rock
+|move|p2a: Gliscor|Earthquake|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|44/100
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743786595
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Gliscor|Earthquake|p1a: Kyurem
+|-damage|p1a: Kyurem|72/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743786612
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|move|p1a: Kyurem|Freeze-Dry|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|74/100
+|
+|-heal|p2a: Kingambit|80/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743786622
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Kingambit|Low Kick|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|88/100
+|-status|p2a: Kingambit|brn|[from] ability: Flame Body|[of] p1a: Moltres
+|
+|-heal|p2a: Kingambit|86/100 brn|[from] item: Leftovers
+|-damage|p2a: Kingambit|80/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743786634
+|move|p1a: Moltres|Flamethrower|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|3/100 brn
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Moltres
+|-damage|p1a: Moltres|67/100
+|
+|-heal|p2a: Kingambit|10/100 brn|[from] item: Leftovers
+|-damage|p2a: Kingambit|3/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743786644
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|100/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-heal|p2a: Kingambit|10/100 brn|[from] item: Leftovers
+|-damage|p2a: Kingambit|3/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743786654
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Moltres|Roost||[still]
+|-fail|p1a: Moltres|heal
+|
+|-heal|p2a: Kingambit|10/100 brn|[from] item: Leftovers
+|-damage|p2a: Kingambit|3/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743786664
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Moltres|Roar|p2a: Kingambit
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|drag|p2a: Dragonite|Dragonite, F|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743786675
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p1a: Moltres|Roar|p2a: Gliscor
+|drag|p2a: Kingambit|Kingambit, M|3/100 brn
+|-damage|p2a: Kingambit|0 fnt|[from] Stealth Rock
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|
+|upkeep
+|
+|t:|1743786686
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|-damage|p2a: Meowscarada|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743786691
+|move|p2a: Meowscarada|Knock Off|p1a: Moltres
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Moltres|45/100
+|-enditem|p1a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Meowscarada
+|move|p1a: Moltres|Flamethrower|p2a: Meowscarada
+|-damage|p2a: Meowscarada|17/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743786700
+|move|p2a: Meowscarada|Knock Off|p1a: Moltres
+|-damage|p1a: Moltres|7/100
+|-status|p2a: Meowscarada|brn|[from] ability: Flame Body|[of] p1a: Moltres
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|57/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-damage|p2a: Meowscarada|11/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743786711
+|move|p2a: Meowscarada|Knock Off|p1a: Moltres
+|-crit|p1a: Moltres
+|-damage|p1a: Moltres|29/100
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|80/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-damage|p2a: Meowscarada|5/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743786720
+|move|p2a: Meowscarada|Knock Off|p1a: Moltres
+|-damage|p1a: Moltres|63/100
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|100/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-damage|p2a: Meowscarada|0 fnt|[from] brn
+|faint|p2a: Meowscarada
+|upkeep
+|
+|t:|1743786727
+|switch|p2a: Gliscor|Gliscor, F|88/100 tox
+|-damage|p2a: Gliscor|76/100 tox|[from] Stealth Rock
+|turn|14
+|
+|t:|1743786736
+|switch|p1a: Kyurem|Kyurem|72/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Gliscor|Toxic|p1a: Kyurem
+|-status|p1a: Kyurem|tox
+|
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Kyurem|66/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743786747
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Kyurem|Freeze-Dry|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Kyurem|53/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743786761
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Kyurem|Freeze-Dry|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|26/100
+|
+|-damage|p1a: Kyurem|35/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1743786775
+|switch|p1a: Iron Treads|Iron Treads|44/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|10/100
+|-unboost|p1a: Iron Treads|spa|1
+|
+|upkeep
+|turn|18
+|
+|t:|1743786783
+|move|p2a: Iron Valiant|Moonblast|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743786788
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Valiant|atk|1
+|turn|19
+|
+|t:|1743786798
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|-terastallize|p1a: Landorus|Flying
+|move|p1a: Landorus|Tera Blast|p2a: Gliscor|[anim] Tera Blast Flying
+|-damage|p2a: Gliscor|52/100 tox
+|
+|-heal|p2a: Gliscor|64/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|
+|t:|1743786810
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Gliscor|Toxic|p1a: Slowking
+|-immune|p1a: Slowking
+|
+|-heal|p2a: Gliscor|77/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|
+|t:|1743786820
+|move|p2a: Gliscor|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|30/100
+|move|p1a: Slowking|Future Sight|p2a: Gliscor
+|-start|p1a: Slowking|move: Future Sight
+|
+|-heal|p2a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|
+|t:|1743786830
+|switch|p1a: Landorus|Landorus-Therian, M, tera:Flying|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gliscor|atk|1
+|move|p2a: Gliscor|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|85/100
+|-enditem|p1a: Landorus|Choice Scarf|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|
+|t:|1743786841
+|move|p1a: Landorus|Stone Edge|p2a: Gliscor
+|-damage|p2a: Gliscor|78/100 tox
+|move|p2a: Gliscor|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|
+|-end|p2a: Gliscor|move: Future Sight
+|-damage|p2a: Gliscor|13/100 tox
+|-damage|p1a: Landorus|79/100 tox|[from] psn
+|-heal|p2a: Gliscor|25/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|
+|t:|1743786852
+|switch|p1a: Darkrai|Darkrai|100/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|38/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|
+|t:|1743786861
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|move|p1a: Darkrai|Ice Beam|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|78/100
+|-status|p2a: Gholdengo|frz
+|
+|-heal|p2a: Gholdengo|84/100 frz|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1743786873
+|move|p1a: Darkrai|Dark Pulse|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|2/100 frz
+|cant|p2a: Gholdengo|frz
+|
+|-heal|p2a: Gholdengo|8/100 frz|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1743786882
+|move|p1a: Darkrai|Dark Pulse|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743786893
+|switch|p2a: Gliscor|Gliscor, F|38/100 tox
+|-damage|p2a: Gliscor|25/100 tox|[from] Stealth Rock
+|turn|28
+|
+|t:|1743786898
+|-terastallize|p2a: Gliscor|Water
+|move|p1a: Darkrai|Ice Beam|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|4/100 tox
+|move|p2a: Gliscor|Toxic|p1a: Darkrai
+|-status|p1a: Darkrai|tox
+|
+|-damage|p1a: Darkrai|94/100 tox|[from] psn
+|-heal|p2a: Gliscor|16/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|29
+|
+|t:|1743786910
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Darkrai|Dark Pulse|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Darkrai|82/100 tox|[from] psn
+|-heal|p2a: Gliscor|29/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|30
+|
+|t:|1743786921
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Darkrai|Dark Pulse|p2a: Dragonite
+|-damage|p2a: Dragonite|81/100
+|
+|-damage|p1a: Darkrai|64/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1743786930
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Dragonite|Extreme Speed|p1a: Moltres
+|-damage|p1a: Moltres|75/100
+|-status|p2a: Dragonite|brn|[from] ability: Flame Body|[of] p1a: Moltres
+|
+|-damage|p2a: Dragonite|74/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1743786947
+|move|p2a: Dragonite|Extreme Speed|p1a: Moltres
+|-damage|p1a: Moltres|63/100
+|move|p1a: Moltres|Roar|p2a: Dragonite
+|drag|p2a: Gliscor|Gliscor, F, tera:Water|29/100 tox
+|-damage|p2a: Gliscor|16/100 tox|[from] Stealth Rock
+|
+|-heal|p2a: Gliscor|29/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|33
+|
+|t:|1743786961
+|switch|p1a: Darkrai|Darkrai|64/100 tox
+|move|p2a: Gliscor|Knock Off|p1a: Darkrai
+|-resisted|p1a: Darkrai
+|-damage|p1a: Darkrai|50/100 tox
+|-enditem|p1a: Darkrai|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-damage|p1a: Darkrai|44/100 tox|[from] psn
+|-heal|p2a: Gliscor|41/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|34
+|
+|t:|1743786975
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Darkrai|Dark Pulse|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Darkrai|31/100 tox|[from] psn
+|-heal|p2a: Gliscor|54/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|35
+|
+|t:|1743786985
+|switch|p2a: Dragonite|Dragonite, F|74/100 brn
+|move|p1a: Darkrai|Dark Pulse|p2a: Dragonite
+|-damage|p2a: Dragonite|34/100 brn
+|
+|-damage|p1a: Darkrai|13/100 tox|[from] psn
+|-damage|p2a: Dragonite|28/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1743786994
+|move|p2a: Dragonite|Extreme Speed|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|-damage|p2a: Dragonite|22/100 brn|[from] brn
+|upkeep
+|
+|t:|1743787002
+|switch|p1a: Landorus|Landorus-Therian, M, tera:Flying|79/100 tox
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|turn|37
+|
+|t:|1743787009
+|move|p1a: Landorus|Tera Blast|p2a: Dragonite|[anim] Tera Blast Flying
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-damage|p1a: Landorus|73/100 tox|[from] psn
+|upkeep
+|
+|t:|1743787016
+|switch|p2a: Gliscor|Gliscor, F, tera:Water|54/100 tox
+|-damage|p2a: Gliscor|41/100 tox|[from] Stealth Rock
+|turn|38
+|
+|t:|1743787022
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Landorus|Tera Blast|p2a: Gliscor|[anim] Tera Blast Flying
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Landorus|61/100 tox|[from] psn
+|-heal|p2a: Gliscor|54/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|39
+|
+|t:|1743787034
+|move|p1a: Landorus|Tera Blast|p2a: Gliscor|[anim] Tera Blast Flying
+|-damage|p2a: Gliscor|18/100 tox
+|move|p2a: Gliscor|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|44/100 tox
+|
+|-damage|p1a: Landorus|26/100 tox|[from] psn
+|-heal|p2a: Gliscor|30/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|40
+|
+|t:|1743787044
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Landorus|Tera Blast|p2a: Gliscor|[anim] Tera Blast Flying
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Landorus|2/100 tox|[from] psn
+|-heal|p2a: Gliscor|43/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|41
+|
+|t:|1743787053
+|move|p1a: Landorus|Tera Blast|p2a: Gliscor|[anim] Tera Blast Flying
+|-damage|p2a: Gliscor|6/100 tox
+|move|p2a: Gliscor|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-heal|p2a: Gliscor|19/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743787063
+|switch|p1a: Kyurem|Kyurem|35/100 tox
+|-ability|p1a: Kyurem|Pressure
+|turn|42
+|
+|t:|1743787068
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Kyurem|Freeze-Dry|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Kyurem|29/100 tox|[from] psn
+|-heal|p2a: Gliscor|31/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|43
+|
+|t:|1743787096
+|switch|p2a: Iron Valiant|Iron Valiant|26/100
+|-damage|p2a: Iron Valiant|20/100|[from] Stealth Rock
+|move|p1a: Kyurem|Freeze-Dry|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-damage|p1a: Kyurem|16/100 tox|[from] psn
+|upkeep
+|
+|t:|1743787105
+|switch|p2a: Gliscor|Gliscor, F, tera:Water|31/100 tox
+|-damage|p2a: Gliscor|19/100 tox|[from] Stealth Rock
+|turn|44
+|
+|t:|1743787111
+|switch|p1a: Slowking|Slowking-Galar, F|64/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|31/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|45
+|
+|t:|1743787121
+|move|p2a: Gliscor|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-heal|p2a: Gliscor|43/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743787129
+|switch|p1a: Kyurem|Kyurem|16/100 tox
+|-ability|p1a: Kyurem|Pressure
+|turn|46
+|
+|t:|1743787134
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Kyurem|Freeze-Dry|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Kyurem|10/100 tox|[from] psn
+|-heal|p2a: Gliscor|56/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|47
+|
+|t:|1743787144
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Kyurem|Freeze-Dry|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|68/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Kyurem|0 fnt|[from] psn
+|faint|p1a: Kyurem
+|upkeep
+|l|☆Yellowgo
+|inactive|Yellowgo disconnected and has a minute to reconnect!
+|player|p1|
+|c|☆PandaLoverChain|Gg
+|inactive|Yellowgo has 30 seconds to reconnect!
+|inactive|Yellowgo has 20 seconds to reconnect!
+|inactive|Yellowgo has 15 seconds to reconnect!
+|inactive|Yellowgo has 10 seconds to reconnect!
+|inactive|Yellowgo has 5 seconds to reconnect!
+|-message|Yellowgo lost due to inactivity.
+|
+|win|PandaLoverChain
+|raw|Yellowgo's rating: 1349 &rarr; <strong>1328</strong><br />(-21 for losing)
+|raw|PandaLoverChain's rating: 1327 &rarr; <strong>1348</strong><br />(+21 for winning)

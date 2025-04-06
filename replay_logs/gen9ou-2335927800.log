@@ -1,0 +1,305 @@
+|j|☆kinsword
+|j|☆soyjoas
+|t:|1743860024
+|gametype|singles
+|player|p1|kinsword|2|1291
+|player|p2|soyjoas|hilbert|1185
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Eelektross, F|
+|poke|p1|Zapdos-Galar|
+|poke|p1|Brambleghast, F|
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Entei|
+|poke|p1|Suicune|
+|poke|p2|Serperior, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Galvantula, F|
+|poke|p2|Chandelure, M|
+|poke|p2|Conkeldurr, M|
+|poke|p2|Hydreigon, M|
+|teampreview
+|
+|t:|1743860032
+|start
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|switch|p2a: Galvantula|Galvantula, F|100/100
+|turn|1
+|
+|t:|1743860043
+|move|p1a: Zapdos|Knock Off|p2a: Galvantula
+|-damage|p2a: Galvantula|38/100
+|-enditem|p2a: Galvantula|Choice Specs|[from] move: Knock Off|[of] p1a: Zapdos
+|move|p2a: Galvantula|Thunder|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1743860053
+|switch|p1a: Entei|Entei, shiny|100/100
+|-ability|p1a: Entei|Pressure
+|turn|2
+|
+|t:|1743860058
+|move|p1a: Entei|Extreme Speed|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kinsword)
+|
+|t:|1743860068
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|turn|3
+|
+|t:|1743860071
+|move|p2a: Chandelure|Shadow Ball|p1a: Entei
+|-damage|p1a: Entei|46/100
+|move|p1a: Entei|Stone Edge|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|upkeep
+|
+|t:|1743860079
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|4
+|
+|t:|1743860087
+|switch|p1a: Brambleghast|Brambleghast, F|100/100
+|move|p2a: Excadrill|Rock Slide|p1a: Brambleghast
+|-damage|p1a: Brambleghast|65/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743860094
+|move|p2a: Excadrill|Rock Slide|p1a: Brambleghast
+|-damage|p1a: Brambleghast|28/100
+|move|p1a: Brambleghast|Strength Sap|p2a: Excadrill
+|-unboost|p2a: Excadrill|atk|1
+|-heal|p1a: Brambleghast|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743860104
+|switch|p2a: Serperior|Serperior, F, shiny|100/100
+|move|p1a: Brambleghast|Power Whip|p2a: Serperior
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|66/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743860112
+|move|p2a: Serperior|Glare|p1a: Brambleghast
+|-status|p1a: Brambleghast|par
+|move|p1a: Brambleghast|Poltergeist|p2a: Serperior
+|-activate|p2a: Serperior|move: Poltergeist|Focus Sash
+|-damage|p2a: Serperior|1/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743860120
+|move|p2a: Serperior|Synthesis|p2a: Serperior
+|-heal|p2a: Serperior|51/100
+|move|p1a: Brambleghast|Poltergeist|p2a: Serperior
+|-activate|p2a: Serperior|move: Poltergeist|Focus Sash
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|upkeep
+|
+|t:|1743860127
+|switch|p2a: Hydreigon|Hydreigon, M, shiny|100/100
+|turn|9
+|
+|t:|1743860133
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|
+|upkeep
+|turn|10
+|
+|t:|1743860140
+|move|p2a: Hydreigon|Draco Meteor|p1a: Goodra
+|-damage|p1a: Goodra|6/100
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|91/100|[from] item: Life Orb
+|move|p1a: Goodra|Draco Meteor|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-unboost|p1a: Goodra|spa|2
+|faint|p2a: Hydreigon
+|
+|-heal|p1a: Goodra|12/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743860149
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|turn|11
+|
+|t:|1743860162
+|switch|p1a: Brambleghast|Brambleghast, F|100/100 par
+|move|p2a: Conkeldurr|Ice Punch|p1a: Brambleghast
+|-supereffective|p1a: Brambleghast
+|-damage|p1a: Brambleghast|8/100 par
+|
+|upkeep
+|turn|12
+|
+|t:|1743860172
+|move|p2a: Conkeldurr|Ice Punch|p1a: Brambleghast
+|-supereffective|p1a: Brambleghast
+|-damage|p1a: Brambleghast|0 fnt
+|faint|p1a: Brambleghast
+|
+|upkeep
+|
+|t:|1743860177
+|switch|p1a: Eelektross|Eelektross, F|100/100
+|turn|13
+|
+|t:|1743860181
+|move|p1a: Eelektross|Coil|p1a: Eelektross
+|-boost|p1a: Eelektross|atk|1
+|-boost|p1a: Eelektross|def|1
+|-boost|p1a: Eelektross|accuracy|1
+|move|p2a: Conkeldurr|Drain Punch|p1a: Eelektross
+|-damage|p1a: Eelektross|58/100
+|
+|-heal|p1a: Eelektross|64/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743860194
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Eelektross|Supercell Slam|p2a: Excadrill
+|-immune|p2a: Excadrill
+|-damage|p1a: Eelektross|14/100|[from] supercellslam
+|
+|-heal|p1a: Eelektross|20/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743860205
+|move|p2a: Excadrill|Earthquake|p1a: Eelektross
+|-supereffective|p1a: Eelektross
+|-damage|p1a: Eelektross|0 fnt
+|faint|p1a: Eelektross
+|
+|upkeep
+|
+|t:|1743860210
+|switch|p1a: Suicune|Suicune|100/100
+|-ability|p1a: Suicune|Pressure
+|turn|16
+|
+|t:|1743860221
+|switch|p2a: Conkeldurr|Conkeldurr, M|100/100
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|
+|upkeep
+|turn|17
+|
+|t:|1743860228
+|move|p1a: Suicune|Calm Mind|p1a: Suicune
+|-boost|p1a: Suicune|spa|1
+|-boost|p1a: Suicune|spd|1
+|move|p2a: Conkeldurr|Thunder Punch|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|61/100
+|-status|p1a: Suicune|par
+|
+|-heal|p1a: Suicune|68/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743860239
+|-terastallize|p1a: Suicune|Water
+|move|p2a: Conkeldurr|Thunder Punch|p1a: Suicune
+|-supereffective|p1a: Suicune
+|-damage|p1a: Suicune|29/100 par
+|move|p1a: Suicune|Scald|p2a: Conkeldurr
+|-crit|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|19/100
+|
+|-heal|p1a: Suicune|35/100 par|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743860250
+|move|p2a: Conkeldurr|Drain Punch|p1a: Suicune
+|-damage|p1a: Suicune|3/100 par
+|-heal|p2a: Conkeldurr|35/100|[from] drain|[of] p1a: Suicune
+|cant|p1a: Suicune|par
+|
+|-heal|p1a: Suicune|9/100 par|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743860259
+|move|p2a: Conkeldurr|Drain Punch|p1a: Suicune
+|-damage|p1a: Suicune|0 fnt
+|-heal|p2a: Conkeldurr|39/100|[from] drain|[of] p1a: Suicune
+|faint|p1a: Suicune
+|
+|upkeep
+|
+|t:|1743860265
+|switch|p1a: Entei|Entei, shiny|46/100
+|-ability|p1a: Entei|Pressure
+|turn|21
+|
+|t:|1743860270
+|-terastallize|p2a: Conkeldurr|Ghost
+|move|p2a: Conkeldurr|Mach Punch|p1a: Entei
+|-damage|p1a: Entei|13/100
+|move|p1a: Entei|Sacred Fire|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|
+|upkeep
+|
+|t:|1743860278
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|22
+|
+|t:|1743860283
+|move|p2a: Excadrill|Earthquake|p1a: Entei
+|-supereffective|p1a: Entei
+|-damage|p1a: Entei|0 fnt
+|faint|p1a: Entei
+|
+|upkeep
+|-message|kinsword forfeited.
+|
+|win|soyjoas
+|raw|kinsword's rating: 1291 &rarr; <strong>1259</strong><br />(-32 for losing)
+|raw|soyjoas's rating: 1185 &rarr; <strong>1217</strong><br />(+32 for winning)
+|l|☆kinsword
+|player|p1|
+|l|☆soyjoas
+|player|p2|

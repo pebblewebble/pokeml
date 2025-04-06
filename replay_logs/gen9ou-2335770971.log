@@ -1,0 +1,166 @@
+|j|☆901ttc
+|j|‽norebuhl
+|t:|1743833397
+|gametype|singles
+|player|p1|901ttc|2|1332
+|player|p2|norebuhl|170|1376
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Rillaboom, F|
+|poke|p1|Gholdengo|
+|poke|p1|Hitmonchan, M|
+|poke|p1|Maushold-Four|
+|poke|p1|Ninetales-Alola, M|
+|poke|p2|Kyurem|
+|poke|p2|Iron Valiant|
+|poke|p2|Kingambit, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|t:|1743833413
+|start
+|switch|p1a: Hitmonchan|Hitmonchan, M|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743833421
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743833428
+|-terastallize|p2a: Iron Valiant|Ghost
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743833441
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by norebuhl)
+|
+|t:|1743833450
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: 901ttc|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743833455
+|move|p2a: Iron Valiant|Encore|p1a: Ninetales
+|-start|p1a: Ninetales|Encore
+|move|p1a: Ninetales|Aurora Veil||[still]
+|-fail|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743833472
+|switch|p1a: Maushold|Maushold-Four, shiny|100/100
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743833483
+|move|p2a: Iron Valiant|Moonblast|p1a: Maushold
+|-damage|p1a: Maushold|10/100
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743833492
+|move|p2a: Iron Valiant|Encore|p1a: Maushold
+|-start|p1a: Maushold|Encore
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1743833503
+|switch|p1a: Rillaboom|Rillaboom, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Iron Valiant|Moonblast|p1a: Rillaboom
+|-damage|p1a: Rillaboom|43/100
+|
+|-heal|p1a: Rillaboom|49/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1743833512
+|move|p1a: Rillaboom|Grassy Glide|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|54/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Iron Valiant|60/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743833523
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|10
+|
+|t:|1743833533
+|-terastallize|p1a: Kyurem|Fairy
+|move|p2a: Iron Valiant|Moonblast|p1a: Kyurem
+|-damage|p1a: Kyurem|41/100
+|-unboost|p1a: Kyurem|spa|1
+|move|p1a: Kyurem|Scale Shot|p2a: Iron Valiant|[miss]
+|-miss|p1a: Kyurem|p2a: Iron Valiant
+|
+|-heal|p2a: Iron Valiant|66/100|[from] Grassy Terrain
+|-heal|p1a: Kyurem|47/100|[from] Grassy Terrain
+|-sideend|p1: 901ttc|move: Aurora Veil
+|upkeep
+|turn|11
+|-message|901ttc forfeited.
+|
+|win|norebuhl
+|raw|901ttc's rating: 1332 &rarr; <strong>1315</strong><br />(-17 for losing)
+|raw|norebuhl's rating: 1376 &rarr; <strong>1393</strong><br />(+17 for winning)
+|l|☆901ttc
+|player|p1|
+|l|‽norebuhl
+|player|p2|

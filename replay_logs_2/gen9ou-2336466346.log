@@ -1,0 +1,354 @@
+|j|☆gou2
+|j|☆EDoubleC
+|t:|1743922325
+|gametype|singles
+|player|p1|gou2|brawly|1178
+|player|p2|EDoubleC|265|1114
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Gliscor, M|
+|poke|p1|Great Tusk|
+|poke|p1|Tinkaton, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Garganacl, M|
+|poke|p2|Kleavor, F|
+|poke|p2|Poliwrath, M|
+|poke|p2|Tornadus, M|
+|poke|p2|Forretress, F|
+|poke|p2|Skeledirge, F|
+|poke|p2|Torterra, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gou2)
+|
+|t:|1743922354
+|start
+|switch|p1a: Tinkaton|Tinkaton, F, shiny|100/100
+|switch|p2a: Tornadus|Tornadus, M|100/100
+|-item|p1a: Tinkaton|Air Balloon
+|turn|1
+|
+|t:|1743922364
+|move|p1a: Tinkaton|Knock Off|p2a: Tornadus
+|-damage|p2a: Tornadus|78/100
+|-enditem|p2a: Tornadus|Damp Rock|[from] move: Knock Off|[of] p1a: Tinkaton
+|move|p2a: Tornadus|Chilling Water|p1a: Tinkaton
+|-damage|p1a: Tinkaton|85/100
+|-unboost|p1a: Tinkaton|atk|1
+|-enditem|p1a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|2
+|
+|t:|1743922374
+|move|p1a: Tinkaton|Stealth Rock|p2a: Tornadus
+|-sidestart|p2: EDoubleC|move: Stealth Rock
+|move|p2a: Tornadus|Chilling Water|p1a: Tinkaton
+|-damage|p1a: Tinkaton|70/100
+|-unboost|p1a: Tinkaton|atk|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743922393
+|move|p1a: Tinkaton|Thunder Wave|p2a: Tornadus
+|-status|p2a: Tornadus|par
+|cant|p2a: Tornadus|par
+|
+|upkeep
+|turn|4
+|
+|t:|1743922400
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Tornadus
+|-damage|p2a: Tornadus|48/100 par
+|move|p2a: Tornadus|Chilling Water|p1a: Tinkaton
+|-damage|p1a: Tinkaton|55/100
+|-unboost|p1a: Tinkaton|atk|1
+|
+|upkeep
+|turn|5
+|
+|t:|1743922409
+|switch|p2a: Forretress|Forretress, F|100/100
+|-damage|p2a: Forretress|88/100|[from] Stealth Rock
+|move|p1a: Tinkaton|Knock Off|p2a: Forretress
+|-damage|p2a: Forretress|83/100
+|-enditem|p2a: Forretress|Leftovers|[from] move: Knock Off|[of] p1a: Tinkaton
+|
+|upkeep
+|turn|6
+|
+|t:|1743922417
+|switch|p1a: Dragapult|Dragapult, F, shiny|100/100
+|move|p2a: Forretress|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|
+|upkeep
+|turn|7
+|
+|t:|1743922427
+|switch|p2a: Torterra|Torterra, F|100/100
+|-damage|p2a: Torterra|94/100|[from] Stealth Rock
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Torterra
+|-status|p2a: Torterra|brn
+|
+|-damage|p2a: Torterra|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743922437
+|cant|p1a: Dragapult|par
+|move|p2a: Torterra|Shell Smash|p2a: Torterra
+|-unboost|p2a: Torterra|def|1
+|-unboost|p2a: Torterra|spd|1
+|-boost|p2a: Torterra|atk|2
+|-boost|p2a: Torterra|spa|2
+|-boost|p2a: Torterra|spe|2
+|-enditem|p2a: Torterra|White Herb
+|-clearnegativeboost|p2a: Torterra|[silent]
+|
+|-damage|p2a: Torterra|82/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743922454
+|move|p2a: Torterra|Shell Smash|p2a: Torterra
+|-unboost|p2a: Torterra|def|1
+|-unboost|p2a: Torterra|spd|1
+|-boost|p2a: Torterra|atk|2
+|-boost|p2a: Torterra|spa|2
+|-boost|p2a: Torterra|spe|2
+|move|p1a: Dragapult|Hex|p2a: Torterra
+|-damage|p2a: Torterra|2/100 brn
+|
+|-damage|p2a: Torterra|0 fnt|[from] brn
+|faint|p2a: Torterra
+|upkeep
+|
+|t:|1743922474
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|-damage|p2a: Kleavor|76/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743922483
+|-terastallize|p1a: Dragapult|Steel
+|move|p2a: Kleavor|Trailblaze|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|89/100 par
+|-boost|p2a: Kleavor|spe|1
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Kleavor
+|-status|p2a: Kleavor|brn
+|
+|-damage|p2a: Kleavor|70/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743922496
+|move|p2a: Kleavor|Stone Axe|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|72/100 par
+|-sidestart|p1: gou2|move: Stealth Rock
+|move|p1a: Dragapult|Hex|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|faint|p2a: Kleavor
+|
+|upkeep
+|
+|t:|1743922509
+|switch|p2a: Forretress|Forretress, F|83/100
+|-damage|p2a: Forretress|71/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1743922514
+|cant|p1a: Dragapult|par
+|move|p2a: Forretress|Rapid Spin|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|65/100 par
+|-boost|p2a: Forretress|spe|1
+|-sideend|p2: EDoubleC|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Forretress
+|
+|upkeep
+|turn|13
+|
+|t:|1743922522
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Forretress
+|-status|p2a: Forretress|brn
+|move|p2a: Forretress|Spikes|p1a: Dragapult
+|-sidestart|p1: gou2|Spikes
+|
+|-damage|p2a: Forretress|65/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743922530
+|cant|p1a: Dragapult|par
+|move|p2a: Forretress|Spikes|p1a: Dragapult
+|-sidestart|p1: gou2|Spikes
+|
+|-damage|p2a: Forretress|59/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743922539
+|move|p1a: Dragapult|Hex|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|upkeep
+|
+|t:|1743922545
+|switch|p2a: Tornadus|Tornadus, M|48/100 par
+|turn|16
+|
+|t:|1743922549
+|move|p2a: Tornadus|Rain Dance|p2a: Tornadus
+|-weather|RainDance
+|move|p1a: Dragapult|Hex|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743922557
+|switch|p2a: Poliwrath|Poliwrath, M|100/100
+|turn|17
+|
+|t:|1743922561
+|move|p2a: Poliwrath|Belly Drum|p2a: Poliwrath
+|-damage|p2a: Poliwrath|50/100
+|-setboost|p2a: Poliwrath|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Poliwrath|Sitrus Berry|[eat]
+|-heal|p2a: Poliwrath|75/100|[from] item: Sitrus Berry
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Poliwrath
+|-status|p2a: Poliwrath|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Poliwrath|69/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743922574
+|move|p2a: Poliwrath|Drain Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-heal|p2a: Poliwrath|100/100 brn|[from] drain|[of] p1a: Dragapult
+|faint|p1a: Dragapult
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Poliwrath|94/100 brn|[from] brn
+|upkeep
+|inactive|gou2 has 120 seconds left.
+|
+|t:|1743922606
+|switch|p1a: Tinkaton|Tinkaton, F, shiny|55/100
+|-damage|p1a: Tinkaton|49/100|[from] Stealth Rock
+|-damage|p1a: Tinkaton|33/100|[from] Spikes
+|turn|19
+|inactive|gou2 has 120 seconds left.
+|
+|t:|1743922616
+|move|p2a: Poliwrath|Waterfall|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Poliwrath|88/100 brn|[from] brn
+|upkeep
+|inactive|gou2 has 120 seconds left.
+|
+|t:|1743922624
+|switch|p1a: Yamcha|Gliscor, M|100/100
+|-damage|p1a: Yamcha|88/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743922629
+|move|p1a: Yamcha|Protect|p1a: Yamcha
+|-singleturn|p1a: Yamcha|Protect
+|move|p2a: Poliwrath|Waterfall|p1a: Yamcha
+|-activate|p1a: Yamcha|move: Protect
+|
+|-weather|none
+|-damage|p2a: Poliwrath|82/100 brn|[from] brn
+|-status|p1a: Yamcha|tox|[from] item: Toxic Orb
+|upkeep
+|turn|21
+|
+|t:|1743922645
+|move|p2a: Poliwrath|Waterfall|p1a: Yamcha
+|-supereffective|p1a: Yamcha
+|-damage|p1a: Yamcha|0 fnt
+|faint|p1a: Yamcha
+|
+|-damage|p2a: Poliwrath|75/100 brn|[from] brn
+|upkeep
+|
+|t:|1743922654
+|switch|p1a: Garganacl|Garganacl, M, shiny|100/100
+|-damage|p1a: Garganacl|88/100|[from] Stealth Rock
+|-damage|p1a: Garganacl|72/100|[from] Spikes
+|turn|22
+|
+|t:|1743922660
+|move|p2a: Poliwrath|Waterfall|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|-damage|p2a: Poliwrath|69/100 brn|[from] brn
+|upkeep
+|
+|t:|1743922668
+|switch|p1a: Vichy|Samurott-Hisui, M, shiny|100/100
+|turn|23
+|
+|t:|1743922690
+|move|p1a: Vichy|Sucker Punch|p2a: Poliwrath
+|-resisted|p2a: Poliwrath
+|-damage|p2a: Poliwrath|48/100 brn
+|move|p2a: Poliwrath|Drain Punch|p1a: Vichy
+|-supereffective|p1a: Vichy
+|-damage|p1a: Vichy|0 fnt
+|-heal|p2a: Poliwrath|100/100 brn|[from] drain|[of] p1a: Vichy
+|faint|p1a: Vichy
+|
+|-damage|p2a: Poliwrath|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1743922700
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|97/100|[from] Stealth Rock
+|-damage|p1a: Great Tusk|81/100|[from] Spikes
+|turn|24
+|
+|t:|1743922706
+|move|p1a: Great Tusk|Headlong Rush|p2a: Poliwrath
+|-damage|p2a: Poliwrath|31/100 brn
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Poliwrath|Waterfall|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-damage|p2a: Poliwrath|15/100 brn|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|win|EDoubleC
+|raw|gou2's rating: 1178 &rarr; <strong>1148</strong><br />(-30 for losing)
+|raw|EDoubleC's rating: 1114 &rarr; <strong>1144</strong><br />(+30 for winning)
+|c|☆EDoubleC|Gg
+|l|☆EDoubleC
+|player|p2|
+|l|☆gou2
+|player|p1|

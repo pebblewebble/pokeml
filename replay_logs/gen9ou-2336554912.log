@@ -1,0 +1,171 @@
+|j|☆Baby Monster MAGA
+|j|☆Weather One Trick
+|t:|1743938546
+|gametype|singles
+|player|p1|Baby Monster MAGA|265|1495
+|player|p2|Weather One Trick|burglar|1471
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p1|Venusaur, F|
+|poke|p1|Garchomp, F|
+|poke|p1|Goodra-Hisui, M|
+|poke|p2|Venusaur, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Walking Wake|
+|poke|p2|Iron Moth|
+|poke|p2|Great Tusk|
+|poke|p2|Hatterene, F|
+|teampreview
+|
+|t:|1743938567
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|1
+|
+|t:|1743938571
+|switch|p1a: Goodra|Goodra-Hisui, M|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|81/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743938581
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743938584
+|move|p1a: Garchomp|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|68/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1743938589
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743938592
+|switch|p1a: Goodra|Goodra-Hisui, M|81/100
+|move|p2a: Walking Wake|Draco Meteor|p1a: Goodra
+|-damage|p1a: Goodra|41/100
+|-unboost|p2a: Walking Wake|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743938604
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Goodra|Dragon Tail|p2a: Iron Moth
+|-damage|p2a: Iron Moth|70/100
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|drag|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743938608
+|move|p2a: Walking Wake|Draco Meteor|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Goodra
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743938619
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Baby Monster MAGA)
+|
+|t:|1743938649
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Iron Moth|Iron Moth|70/100
+|move|p1a: Venusaur|Substitute|p1a: Venusaur
+|-start|p1a: Venusaur|Substitute
+|-damage|p1a: Venusaur|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Venusaur|82/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743938652
+|move|p1a: Venusaur|Leech Seed|p2a: Iron Moth
+|-start|p2a: Iron Moth|move: Leech Seed
+|move|p2a: Iron Moth|Fiery Dance|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-end|p1a: Venusaur|Substitute
+|-boost|p2a: Iron Moth|spa|1
+|
+|-weather|none
+|-heal|p1a: Venusaur|88/100|[from] item: Leftovers
+|-damage|p2a: Iron Moth|58/100|[from] Leech Seed|[of] p1a: Venusaur
+|-heal|p1a: Venusaur|99/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1743938673
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|73/100
+|-boost|p2a: Iron Moth|spa|1
+|
+|-damage|p2a: Iron Moth|46/100|[from] Leech Seed|[of] p1a: Garchomp
+|-heal|p1a: Garchomp|83/100|[silent]
+|upkeep
+|turn|10
+|
+|t:|1743938681
+|move|p2a: Iron Moth|Dazzling Gleam|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|upkeep
+|-message|Baby Monster MAGA forfeited.
+|
+|win|Weather One Trick
+|raw|Baby Monster MAGA's rating: 1495 &rarr; <strong>1474</strong><br />(-21 for losing)
+|raw|Weather One Trick's rating: 1471 &rarr; <strong>1492</strong><br />(+21 for winning)
+|l|☆Baby Monster MAGA
+|player|p1|
+|l|☆Weather One Trick
+|player|p2|

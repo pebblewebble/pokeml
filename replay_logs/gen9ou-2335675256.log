@@ -1,0 +1,365 @@
+|j|☆FutureRelic
+|j|☆dwilson790
+|t:|1743819978
+|gametype|singles
+|player|p1|FutureRelic|ruinmaniac|
+|player|p2|dwilson790|170|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p1|Gholdengo|
+|poke|p1|Iron Moth|
+|poke|p1|Ursaluna, M|
+|poke|p1|Gyarados, M|
+|poke|p1|Enamorus-Therian, F|
+|poke|p2|Kyurem|
+|poke|p2|Slowking, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Infernape, M|
+|poke|p2|Magnezone|
+|teampreview
+|j| New Bark Old Dogs
+|j| Wolfbane696
+|
+|t:|1743820024
+|start
+|switch|p1a: Cheese String Guy|Gholdengo|100/100
+|switch|p2a: Cuphead|Ting-Lu|100/100
+|-ability|p2a: Cuphead|Vessel of Ruin
+|turn|1
+|j| AlphaGoose6969
+|
+|t:|1743820034
+|move|p1a: Cheese String Guy|Trick|p2a: Cuphead
+|-activate|p1a: Cheese String Guy|move: Trick|[of] p2a: Cuphead
+|-item|p2a: Cuphead|Choice Scarf|[from] move: Trick
+|-item|p1a: Cheese String Guy|Leftovers|[from] move: Trick
+|move|p2a: Cuphead|Stealth Rock|p1a: Cheese String Guy
+|-sidestart|p1: FutureRelic|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743820059
+|switch|p1a: Beeg Bear|Ursaluna, M|100/100
+|-damage|p1a: Beeg Bear|94/100|[from] Stealth Rock
+|switch|p2a: Infernape|Infernape, M|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743820089
+|move|p2a: Infernape|Aura Sphere|p1a: Beeg Bear
+|-supereffective|p1a: Beeg Bear
+|-damage|p1a: Beeg Bear|43/100
+|move|p1a: Beeg Bear|Headlong Rush|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|-unboost|p1a: Beeg Bear|def|1
+|-unboost|p1a: Beeg Bear|spd|1
+|faint|p2a: Infernape
+|
+|upkeep
+|
+|t:|1743820114
+|switch|p2a: Roger|Kyurem|100/100
+|-ability|p2a: Roger|Pressure
+|turn|4
+|
+|t:|1743820138
+|move|p2a: Roger|Substitute|p2a: Roger
+|-start|p2a: Roger|Substitute
+|-damage|p2a: Roger|76/100
+|move|p1a: Beeg Bear|Drain Punch|p2a: Roger
+|-supereffective|p2a: Roger
+|-end|p2a: Roger|Substitute
+|-heal|p1a: Beeg Bear|54/100|[from] drain|[of] p2a: Roger
+|
+|-heal|p2a: Roger|82/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743820146
+|move|p2a: Roger|Freeze-Dry|p1a: Beeg Bear
+|-supereffective|p1a: Beeg Bear
+|-damage|p1a: Beeg Bear|0 fnt
+|faint|p1a: Beeg Bear
+|
+|-heal|p2a: Roger|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743820153
+|switch|p1a: Cheese String Guy|Gholdengo|100/100
+|-damage|p1a: Cheese String Guy|94/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1743820161
+|switch|p2a: Cold Palmer|Slowking, M, shiny|100/100
+|move|p1a: Cheese String Guy|Make It Rain|p2a: Cold Palmer
+|-resisted|p2a: Cold Palmer
+|-damage|p2a: Cold Palmer|81/100
+|-unboost|p1a: Cheese String Guy|spa|1
+|
+|-heal|p1a: Cheese String Guy|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743820183
+|move|p1a: Cheese String Guy|Shadow Ball|p2a: Cold Palmer
+|-supereffective|p2a: Cold Palmer
+|-damage|p2a: Cold Palmer|49/100
+|move|p2a: Cold Palmer|Scald|p1a: Cheese String Guy
+|-damage|p1a: Cheese String Guy|66/100
+|
+|-heal|p1a: Cheese String Guy|72/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743820192
+|move|p1a: Cheese String Guy|Shadow Ball|p2a: Cold Palmer
+|-supereffective|p2a: Cold Palmer
+|-damage|p2a: Cold Palmer|14/100
+|-prepare|p2a: Cold Palmer|Chilly Reception|[premajor]
+|move|p2a: Cold Palmer|Chilly Reception|p2a: Cold Palmer
+|-weather|Snowscape
+|
+|t:|1743820202
+|switch|p2a: Cuphead|Ting-Lu|100/100|[from] Chilly Reception
+|-ability|p2a: Cuphead|Vessel of Ruin
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Cheese String Guy|78/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743820213
+|switch|p1a: Snek|Gyarados, M|100/100
+|-ability|p1a: Snek|Intimidate|boost
+|-unboost|p2a: Cuphead|atk|1
+|move|p2a: Cuphead|Ruination|p1a: Snek
+|-damage|p1a: Snek|50/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743820224
+|switch|p2a: Magnezone|Magnezone|100/100
+|-item|p2a: Magnezone|Air Balloon
+|move|p1a: Snek|Dragon Dance|p1a: Snek
+|-boost|p1a: Snek|atk|1
+|-boost|p1a: Snek|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743820241
+|switch|p1a: Cheese String Guy|Gholdengo|78/100
+|-damage|p1a: Cheese String Guy|72/100|[from] Stealth Rock
+|move|p2a: Magnezone|Iron Defense|p2a: Magnezone
+|-boost|p2a: Magnezone|def|2
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Cheese String Guy|78/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743820253
+|move|p1a: Cheese String Guy|Focus Blast|p2a: Magnezone|[miss]
+|-miss|p1a: Cheese String Guy|p2a: Magnezone
+|move|p2a: Magnezone|Thunderbolt|p1a: Cheese String Guy
+|-damage|p1a: Cheese String Guy|5/100
+|-status|p1a: Cheese String Guy|par
+|
+|-weather|none
+|-heal|p1a: Cheese String Guy|11/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743820261
+|move|p2a: Magnezone|Thunderbolt|p1a: Cheese String Guy
+|-damage|p1a: Cheese String Guy|0 fnt
+|faint|p1a: Cheese String Guy
+|
+|upkeep
+|
+|t:|1743820270
+|switch|p1a: Shiny Volcarona|Iron Moth|100/100
+|-damage|p1a: Shiny Volcarona|76/100|[from] Stealth Rock
+|-enditem|p1a: Shiny Volcarona|Booster Energy
+|-activate|p1a: Shiny Volcarona|ability: Quark Drive|[fromitem]
+|-start|p1a: Shiny Volcarona|quarkdrivespe
+|turn|14
+|
+|t:|1743820299
+|switch|p2a: Cuphead|Ting-Lu|100/100
+|-ability|p2a: Cuphead|Vessel of Ruin
+|move|p1a: Shiny Volcarona|Substitute|p1a: Shiny Volcarona
+|-start|p1a: Shiny Volcarona|Substitute
+|-damage|p1a: Shiny Volcarona|51/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743820307
+|move|p1a: Shiny Volcarona|Fiery Dance|p2a: Cuphead
+|-damage|p2a: Cuphead|83/100
+|move|p2a: Cuphead|Earthquake|p1a: Shiny Volcarona
+|-supereffective|p1a: Shiny Volcarona
+|-end|p1a: Shiny Volcarona|Substitute
+|
+|upkeep
+|turn|16
+|
+|t:|1743820314
+|-end|p1a: Shiny Volcarona|Quark Drive|[silent]
+|switch|p1a: Snek|Gyarados, M|50/100
+|-ability|p1a: Snek|Intimidate|boost
+|-unboost|p2a: Cuphead|atk|1
+|move|p2a: Cuphead|Earthquake|p1a: Snek
+|-immune|p1a: Snek
+|
+|upkeep
+|turn|17
+|
+|t:|1743820322
+|switch|p2a: Magnezone|Magnezone|100/100
+|-item|p2a: Magnezone|Air Balloon
+|move|p1a: Snek|Waterfall|p2a: Magnezone
+|-damage|p2a: Magnezone|60/100
+|-enditem|p2a: Magnezone|Air Balloon
+|
+|upkeep
+|turn|18
+|
+|t:|1743820337
+|move|p1a: Snek|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+|
+|t:|1743820341
+|switch|p2a: Roger|Kyurem|88/100
+|-ability|p2a: Roger|Pressure
+|turn|19
+|
+|t:|1743820365
+|move|p2a: Roger|Freeze-Dry|p1a: Snek
+|-supereffective|p1a: Snek
+|-damage|p1a: Snek|0 fnt
+|faint|p1a: Snek
+|
+|-heal|p2a: Roger|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743820371
+|switch|p1a: Green Shy Guy|Ogerpon-Cornerstone, F|100/100
+|-damage|p1a: Green Shy Guy|88/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743820382
+|-terastallize|p2a: Roger|Ground
+|move|p1a: Green Shy Guy|Horn Leech|p2a: Roger
+|-supereffective|p2a: Roger
+|-damage|p2a: Roger|18/100
+|-heal|p1a: Green Shy Guy|100/100|[from] drain|[of] p2a: Roger
+|move|p2a: Roger|Earth Power|p1a: Green Shy Guy
+|-damage|p1a: Green Shy Guy|48/100
+|
+|-heal|p2a: Roger|24/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743820397
+|move|p2a: Roger|Protect|p2a: Roger
+|-singleturn|p2a: Roger|Protect
+|move|p1a: Green Shy Guy|Horn Leech|p2a: Roger
+|-activate|p2a: Roger|move: Protect
+|
+|-heal|p2a: Roger|30/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743820404
+|move|p1a: Green Shy Guy|Horn Leech|p2a: Roger
+|-supereffective|p2a: Roger
+|-damage|p2a: Roger|0 fnt
+|-heal|p1a: Green Shy Guy|68/100|[from] drain|[of] p2a: Roger
+|faint|p2a: Roger
+|
+|upkeep
+|
+|t:|1743820413
+|switch|p2a: Cuphead|Ting-Lu|83/100
+|-ability|p2a: Cuphead|Vessel of Ruin
+|turn|23
+|
+|t:|1743820422
+|move|p1a: Green Shy Guy|Horn Leech|p2a: Cuphead
+|-supereffective|p2a: Cuphead
+|-damage|p2a: Cuphead|34/100
+|-heal|p1a: Green Shy Guy|100/100|[from] drain|[of] p2a: Cuphead
+|move|p2a: Cuphead|Earthquake|p1a: Green Shy Guy
+|-damage|p1a: Green Shy Guy|52/100
+|
+|upkeep
+|turn|24
+|
+|t:|1743820430
+|move|p1a: Green Shy Guy|Horn Leech|p2a: Cuphead
+|-supereffective|p2a: Cuphead
+|-damage|p2a: Cuphead|0 fnt
+|-heal|p1a: Green Shy Guy|81/100|[from] drain|[of] p2a: Cuphead
+|faint|p2a: Cuphead
+|
+|upkeep
+|
+|t:|1743820435
+|switch|p2a: Molestar|Excadrill, F|100/100
+|-ability|p2a: Molestar|Mold Breaker
+|-item|p2a: Molestar|Air Balloon
+|turn|25
+|
+|t:|1743820442
+|-terastallize|p1a: Green Shy Guy|Rock
+|detailschange|p1a: Green Shy Guy|Ogerpon-Cornerstone-Tera, F, tera:Rock
+|-ability|p1a: Green Shy Guy|Embody Aspect (Cornerstone)|boost
+|-boost|p1a: Green Shy Guy|def|1
+|move|p1a: Green Shy Guy|Superpower|p2a: Molestar
+|-supereffective|p2a: Molestar
+|-damage|p2a: Molestar|0 fnt
+|-unboost|p1a: Green Shy Guy|atk|1
+|-unboost|p1a: Green Shy Guy|def|1
+|-enditem|p2a: Molestar|Air Balloon
+|faint|p2a: Molestar
+|
+|upkeep
+|
+|t:|1743820452
+|switch|p2a: Cold Palmer|Slowking, M, shiny|47/100
+|turn|26
+|
+|t:|1743820455
+|move|p1a: Green Shy Guy|Horn Leech|p2a: Cold Palmer
+|-supereffective|p2a: Cold Palmer
+|-damage|p2a: Cold Palmer|0 fnt
+|-heal|p1a: Green Shy Guy|100/100|[from] drain|[of] p2a: Cold Palmer
+|faint|p2a: Cold Palmer
+|
+|win|FutureRelic
+|l|☆dwilson790
+|player|p2|

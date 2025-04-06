@@ -1,0 +1,251 @@
+|j|☆roten bareto
+|j|☆Bond2
+|t:|1743852860
+|gametype|singles
+|player|p1|roten bareto|265|1397
+|player|p2|Bond2|aaron|1300
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garganacl, F|
+|poke|p1|Araquanid, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Great Tusk|
+|poke|p1|Pecharunt|
+|poke|p2|Mabosstiff, F|
+|poke|p2|Zapdos|
+|poke|p2|Indeedee, M|
+|poke|p2|Armarouge, M|
+|poke|p2|Iron Treads|
+|poke|p2|Quaquaval, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bond2)
+|
+|t:|1743852878
+|start
+|switch|p1a: Araquanid|Araquanid, M, shiny|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1743852886
+|move|p2a: Iron Treads|Stealth Rock|p1a: Araquanid
+|-sidestart|p1: roten bareto|move: Stealth Rock
+|move|p1a: Araquanid|Liquidation|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743852915
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|2
+|
+|t:|1743852921
+|move|p2a: Zapdos|Hurricane|p1a: Araquanid|[miss]
+|-miss|p2a: Zapdos|p1a: Araquanid
+|move|p1a: Araquanid|Sticky Web|p2a: Zapdos
+|-sidestart|p2: Bond2|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|t:|1743852928
+|move|p2a: Zapdos|Hurricane|p1a: Araquanid|[miss]
+|-miss|p2a: Zapdos|p1a: Araquanid
+|move|p1a: Araquanid|Mirror Coat||[still]
+|-fail|p1a: Araquanid
+|
+|upkeep
+|turn|4
+|
+|t:|1743852938
+|move|p2a: Zapdos|Thunder Wave|p1a: Araquanid
+|-status|p1a: Araquanid|par
+|move|p1a: Araquanid|Mirror Coat||[still]
+|-fail|p1a: Araquanid
+|
+|upkeep
+|turn|5
+|
+|t:|1743852946
+|move|p2a: Zapdos|Hurricane|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|30/100 par
+|cant|p1a: Araquanid|par
+|
+|upkeep
+|turn|6
+|
+|t:|1743852952
+|move|p2a: Zapdos|Hurricane|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1743852958
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|-damage|p1a: Garganacl|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1743852973
+|move|p2a: Zapdos|Volt Switch|p1a: Garganacl
+|-damage|p1a: Garganacl|68/100
+|
+|t:|1743852977
+|switch|p2a: Indeedee|Indeedee, M|100/100|[from] Volt Switch
+|-activate|p2a: Indeedee|move: Sticky Web
+|-unboost|p2a: Indeedee|spe|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Garganacl|Salt Cure|p2a: Indeedee
+|-damage|p2a: Indeedee|75/100
+|-start|p2a: Indeedee|Salt Cure
+|
+|-heal|p1a: Garganacl|74/100|[from] item: Leftovers
+|-damage|p2a: Indeedee|63/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1743852992
+|move|p2a: Indeedee|Encore|p1a: Garganacl
+|-start|p1a: Garganacl|Encore
+|move|p1a: Garganacl|Salt Cure|p2a: Indeedee
+|-damage|p2a: Indeedee|40/100
+|
+|-heal|p1a: Garganacl|80/100|[from] item: Leftovers
+|-damage|p2a: Indeedee|28/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1743853001
+|move|p2a: Indeedee|Expanding Force|p1a: Garganacl
+|-damage|p1a: Garganacl|47/100
+|move|p1a: Garganacl|Salt Cure|p2a: Indeedee
+|-damage|p2a: Indeedee|4/100
+|
+|-heal|p1a: Garganacl|53/100|[from] item: Leftovers
+|-damage|p2a: Indeedee|0 fnt|[from] Salt Cure
+|faint|p2a: Indeedee
+|upkeep
+|
+|t:|1743853013
+|switch|p2a: Armarouge|Armarouge, M|100/100
+|-activate|p2a: Armarouge|move: Sticky Web
+|-unboost|p2a: Armarouge|spe|1
+|turn|10
+|
+|t:|1743853030
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Armarouge|Expanding Force|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1743853038
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1743853044
+|move|p2a: Armarouge|Endure|p2a: Armarouge
+|-singleturn|p2a: Armarouge|move: Endure
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Armarouge|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Armarouge
+|-activate|p2a: Armarouge|move: Endure
+|-damage|p2a: Armarouge|1/100
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|-enditem|p2a: Armarouge|Weakness Policy
+|-boost|p2a: Armarouge|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Armarouge|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|12
+|
+|t:|1743853061
+|move|p2a: Armarouge|Expanding Force|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743853078
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743853082
+|move|p2a: Armarouge|Expanding Force|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743853087
+|switch|p1a: Garganacl|Garganacl, F|53/100
+|-damage|p1a: Garganacl|41/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743853090
+|move|p2a: Armarouge|Expanding Force|p1a: Garganacl
+|-crit|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1743853092
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743853101
+|move|p1a: Dragonite|Extreme Speed|p2a: Armarouge
+|-damage|p2a: Armarouge|0 fnt
+|faint|p2a: Armarouge
+|
+|upkeep
+|
+|t:|1743853120
+|switch|p2a: Mabosstiff|Mabosstiff, F|100/100
+|-activate|p2a: Mabosstiff|move: Sticky Web
+|-unboost|p2a: Mabosstiff|spe|1
+|turn|16
+|
+|t:|1743853131
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Mabosstiff|Play Rough|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|Bond2
+|raw|roten bareto's rating: 1397 &rarr; <strong>1372</strong><br />(-25 for losing)
+|raw|Bond2's rating: 1300 &rarr; <strong>1332</strong><br />(+32 for winning)
+|l|☆roten bareto
+|player|p1|

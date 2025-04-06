@@ -1,0 +1,240 @@
+|j|☆Dew123
+|j|☆the goat(literal)
+|t:|1743879980
+|gametype|singles
+|player|p1|Dew123|biker-gen4|1145
+|player|p2|the goat(literal)|101|1187
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rotom-Mow|
+|poke|p1|Dugtrio-Alola, M|
+|poke|p1|Haxorus, F|
+|poke|p1|Skeledirge, M|
+|poke|p1|Alcremie, F|
+|poke|p1|Duraludon, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Dragapult, M|
+|poke|p2|Pecharunt|
+|poke|p2|Kingambit, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Moltres|
+|teampreview
+|
+|t:|1743879987
+|start
+|switch|p1a: Dugtrio|Dugtrio-Alola, M|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|1
+|
+|t:|1743879995
+|move|p2a: Dragapult|Shadow Ball|p1a: Dugtrio
+|-enditem|p1a: Dugtrio|Focus Sash
+|-damage|p1a: Dugtrio|1/100
+|move|p1a: Dugtrio|Sandstorm|p1a: Dugtrio
+|-weather|Sandstorm
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|95/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1743880002
+|move|p2a: Dragapult|Shadow Ball|p1a: Dugtrio
+|-damage|p1a: Dugtrio|0 fnt
+|faint|p1a: Dugtrio
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|89/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743880006
+|switch|p1a: Alcremie|Alcremie, F|100/100
+|turn|3
+|
+|t:|1743880011
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Alcremie|Calm Mind|p1a: Alcremie
+|-boost|p1a: Alcremie|spa|1
+|-boost|p1a: Alcremie|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-damage|p1a: Alcremie|95/100|[from] Sandstorm
+|-heal|p1a: Alcremie|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743880016
+|move|p2a: Moltres|U-turn|p1a: Alcremie
+|-resisted|p1a: Alcremie
+|-damage|p1a: Alcremie|92/100
+|
+|t:|1743880020
+|switch|p2a: Pecharunt|Pecharunt|100/100|[from] U-turn
+|move|p1a: Alcremie|Acid Armor|p1a: Alcremie
+|-boost|p1a: Alcremie|def|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pecharunt|94/100|[from] Sandstorm
+|-damage|p1a: Alcremie|86/100|[from] Sandstorm
+|-heal|p1a: Alcremie|92/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dew123)
+|
+|t:|1743880027
+|move|p2a: Pecharunt|Malignant Chain|p1a: Alcremie
+|-supereffective|p1a: Alcremie
+|-damage|p1a: Alcremie|47/100
+|-status|p1a: Alcremie|tox
+|-start|p1a: Alcremie|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|-activate|p1a: Alcremie|confusion
+|move|p1a: Alcremie|Stored Power|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|-weather|none
+|-heal|p1a: Alcremie|53/100 tox|[from] item: Leftovers
+|-damage|p1a: Alcremie|47/100 tox|[from] psn
+|upkeep
+|
+|t:|1743880048
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|6
+|
+|t:|1743880051
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|-activate|p1a: Alcremie|confusion
+|-damage|p1a: Alcremie|44/100 tox|[from] confusion
+|
+|-heal|p1a: Alcremie|50/100 tox|[from] item: Leftovers
+|-damage|p1a: Alcremie|38/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743880063
+|-terastallize|p2a: Zamazenta|Fire
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|-activate|p1a: Alcremie|confusion
+|-damage|p1a: Alcremie|35/100 tox|[from] confusion
+|
+|-heal|p1a: Alcremie|41/100 tox|[from] item: Leftovers
+|-damage|p1a: Alcremie|23/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743880072
+|move|p2a: Zamazenta|Body Press|p1a: Alcremie
+|-resisted|p1a: Alcremie
+|-damage|p1a: Alcremie|0 fnt
+|faint|p1a: Alcremie
+|
+|upkeep
+|
+|t:|1743880078
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|turn|9
+|
+|t:|1743880080
+|move|p2a: Zamazenta|Crunch|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|56/100
+|move|p1a: Skeledirge|Earth Power|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|58/100
+|
+|-heal|p2a: Zamazenta|64/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743880082
+|move|p2a: Zamazenta|Crunch|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|17/100
+|move|p1a: Skeledirge|Earth Power|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|17/100
+|-unboost|p2a: Zamazenta|spd|1
+|
+|-heal|p2a: Zamazenta|23/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743880085
+|move|p2a: Zamazenta|Protect|p2a: Zamazenta
+|-singleturn|p2a: Zamazenta|Protect
+|move|p1a: Skeledirge|Earth Power|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Protect
+|
+|-heal|p2a: Zamazenta|29/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743880087
+|move|p2a: Zamazenta|Crunch|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|-heal|p2a: Zamazenta|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743880088
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|turn|13
+|
+|t:|1743880093
+|move|p2a: Zamazenta|Body Press|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-heal|p2a: Zamazenta|42/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743880104
+|switch|p1a: Duraludon|Duraludon, F|100/100
+|turn|14
+|
+|t:|1743880109
+|move|p2a: Zamazenta|Body Press|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|0 fnt
+|faint|p1a: Duraludon
+|
+|-heal|p2a: Zamazenta|48/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743880111
+|switch|p1a: Haxorus|Haxorus, F|100/100
+|-ability|p1a: Haxorus|Mold Breaker
+|turn|15
+|
+|t:|1743880113
+|move|p2a: Zamazenta|Body Press|p1a: Haxorus
+|-damage|p1a: Haxorus|0 fnt
+|-damage|p2a: Zamazenta|31/100|[from] item: Rocky Helmet|[of] p1a: Haxorus
+|faint|p1a: Haxorus
+|
+|win|the goat(literal)
+|raw|Dew123's rating: 1145 &rarr; <strong>1123</strong><br />(-22 for losing)
+|raw|the goat(literal)'s rating: 1187 &rarr; <strong>1209</strong><br />(+22 for winning)
+|l|☆Dew123
+|player|p1|
+|l|☆the goat(literal)
+|player|p2|

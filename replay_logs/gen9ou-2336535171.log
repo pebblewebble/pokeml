@@ -1,0 +1,785 @@
+|j|☆BIG Ghettie
+|j|☆Belugea
+|t:|1743935071
+|gametype|singles
+|player|p1|BIG Ghettie|ghetsis|1343
+|player|p2|Belugea|fisherman-gen4|1390
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gengar, F|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Blastoise, F|
+|poke|p1|Skarmory, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Metagross|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Sinistcha-Masterpiece|
+|poke|p2|Cinderace, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Gliscor, M|
+|poke|p2|Alomomola, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Belugea)
+|
+|t:|1743935086
+|start
+|switch|p1a: Flow|Blastoise, F, shiny|100/100
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|1
+|
+|t:|1743935100
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Flow|Shell Smash|p1a: Flow
+|-unboost|p1a: Flow|def|1
+|-unboost|p1a: Flow|spd|1
+|-boost|p1a: Flow|atk|2
+|-boost|p1a: Flow|spa|2
+|-boost|p1a: Flow|spe|2
+|-enditem|p1a: Flow|White Herb
+|-clearnegativeboost|p1a: Flow|[silent]
+|
+|upkeep
+|turn|2
+|
+|t:|1743935109
+|move|p1a: Flow|Surf|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|82/100
+|move|p2a: Alomomola|Mirror Coat|p1a: Flow
+|-damage|p1a: Flow|36/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743935119
+|move|p1a: Flow|Shell Smash|p1a: Flow
+|-unboost|p1a: Flow|def|1
+|-unboost|p1a: Flow|spd|1
+|-boost|p1a: Flow|atk|2
+|-boost|p1a: Flow|spa|2
+|-boost|p1a: Flow|spe|2
+|move|p2a: Alomomola|Flip Turn|p1a: Flow
+|-resisted|p1a: Flow
+|-damage|p1a: Flow|22/100
+|
+|t:|1743935128
+|switch|p2a: Gliscor|Gliscor, M|100/100|[from] Flip Turn
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|t:|1743935138
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Flow|Surf|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|58/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743935150
+|switch|p1a: Sky|Skarmory, F, shiny|100/100
+|move|p2a: Alomomola|Flip Turn|p1a: Sky
+|-damage|p1a: Sky|88/100
+|-damage|p2a: Alomomola|41/100|[from] item: Rocky Helmet|[of] p1a: Sky
+|
+|t:|1743935157
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox|[from] Flip Turn
+|
+|upkeep
+|turn|6
+|
+|t:|1743935163
+|move|p2a: Gliscor|Knock Off|p1a: Sky
+|-damage|p1a: Sky|70/100
+|-damage|p2a: Gliscor|84/100 tox|[from] item: Rocky Helmet|[of] p1a: Sky
+|-enditem|p1a: Sky|Rocky Helmet|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Sky|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: Belugea|move: Stealth Rock
+|
+|-heal|p2a: Gliscor|96/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1743935182
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Sky|Iron Defense|p1a: Sky
+|-boost|p1a: Sky|def|2
+|
+|upkeep
+|turn|8
+|
+|t:|1743935196
+|move|p1a: Sky|Roost|p1a: Sky
+|-heal|p1a: Sky|100/100
+|-singleturn|p1a: Sky|move: Roost
+|move|p2a: Weezing|Will-O-Wisp|p1a: Sky
+|-status|p1a: Sky|brn
+|
+|-damage|p1a: Sky|95/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743935213
+|switch|p1a: Big Ghettie|Metagross, shiny|100/100
+|move|p2a: Weezing|Defog|p1a: Big Ghettie
+|-unboost|p1a: Big Ghettie|evasion|1
+|-sideend|p2: Belugea|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|
+|upkeep
+|turn|10
+|
+|t:|1743935224
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Gliscor|Gliscor, M|96/100 tox
+|move|p1a: Big Ghettie|Knock Off|p2a: Gliscor
+|-damage|p2a: Gliscor|72/100 tox
+|-enditem|p2a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p1a: Big Ghettie
+|
+|-heal|p2a: Gliscor|84/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|t:|1743935239
+|switch|p1a: Sky|Skarmory, F, shiny|95/100 brn
+|move|p2a: Gliscor|Knock Off|p1a: Sky
+|-damage|p1a: Sky|83/100 brn
+|
+|-heal|p2a: Gliscor|97/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Sky|77/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743935249
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Sky|Iron Defense|p1a: Sky
+|-boost|p1a: Sky|def|2
+|
+|-damage|p1a: Sky|71/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743935259
+|move|p1a: Sky|Stealth Rock|p2a: Weezing
+|-sidestart|p2: Belugea|move: Stealth Rock
+|move|p2a: Weezing|Will-O-Wisp|p1a: Sky
+|-fail|p1a: Sky|brn
+|
+|-damage|p1a: Sky|65/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743935265
+|move|p1a: Sky|Roost|p1a: Sky
+|-heal|p1a: Sky|100/100 brn
+|-singleturn|p1a: Sky|move: Roost
+|move|p2a: Weezing|Defog|p1a: Sky
+|-unboost|p1a: Sky|evasion|1
+|-sideend|p2: Belugea|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|
+|-damage|p1a: Sky|95/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743935271
+|move|p1a: Sky|Stealth Rock|p2a: Weezing
+|-sidestart|p2: Belugea|move: Stealth Rock
+|move|p2a: Weezing|Will-O-Wisp|p1a: Sky
+|-fail|p1a: Sky|brn
+|
+|-damage|p1a: Sky|89/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743935280
+|move|p1a: Sky|Body Press|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|97/100
+|move|p2a: Weezing|Will-O-Wisp|p1a: Sky
+|-fail|p1a: Sky|brn
+|
+|-damage|p1a: Sky|83/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743935306
+|switch|p1a: Rocky|Arcanine-Hisui, F, shiny|100/100
+|move|p2a: Weezing|Will-O-Wisp|p1a: Rocky
+|-immune|p1a: Rocky
+|
+|upkeep
+|turn|18
+|
+|t:|1743935318
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Gliscor|Gliscor, M|97/100 tox
+|-damage|p2a: Gliscor|84/100 tox|[from] Stealth Rock
+|move|p1a: Rocky|Head Smash|p2a: Gliscor
+|-damage|p2a: Gliscor|39/100 tox
+|
+|-heal|p2a: Gliscor|52/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|inactive|BIG Ghettie has 120 seconds left.
+|
+|t:|1743935340
+|switch|p1a: Sky|Skarmory, F, shiny|83/100 brn
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|64/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Sky|77/100 brn|[from] brn
+|upkeep
+|turn|20
+|inactive|BIG Ghettie has 120 seconds left.
+|
+|t:|1743935370
+|switch|p2a: Weezing|Weezing-Galar, M|97/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Sky|Body Press|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|95/100
+|
+|-damage|p1a: Sky|71/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1743935381
+|move|p1a: Sky|Stealth Rock||[still]
+|-fail|p1a: Sky
+|move|p2a: Weezing|Defog|p1a: Sky
+|-unboost|p1a: Sky|evasion|1
+|-sideend|p2: Belugea|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|
+|-damage|p1a: Sky|65/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1743935386
+|move|p1a: Sky|Stealth Rock|p2a: Weezing
+|-sidestart|p2: Belugea|move: Stealth Rock
+|move|p2a: Weezing|Strange Steam|p1a: Sky
+|-resisted|p1a: Sky
+|-damage|p1a: Sky|53/100 brn
+|
+|-damage|p1a: Sky|47/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1743935395
+|move|p1a: Sky|Roost|p1a: Sky
+|-heal|p1a: Sky|97/100 brn
+|-singleturn|p1a: Sky|move: Roost
+|move|p2a: Weezing|Defog|p1a: Sky
+|-unboost|p1a: Sky|evasion|1
+|-sideend|p2: Belugea|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|
+|-damage|p1a: Sky|91/100 brn|[from] brn
+|upkeep
+|turn|24
+|inactive|BIG Ghettie has 120 seconds left.
+|
+|t:|1743935405
+|move|p1a: Sky|Stealth Rock|p2a: Weezing
+|-sidestart|p2: Belugea|move: Stealth Rock
+|move|p2a: Weezing|Strange Steam|p1a: Sky
+|-resisted|p1a: Sky
+|-damage|p1a: Sky|77/100 brn
+|-start|p1a: Sky|confusion
+|
+|-damage|p1a: Sky|71/100 brn|[from] brn
+|upkeep
+|turn|25
+|inactive|BIG Ghettie has 120 seconds left.
+|
+|t:|1743935434
+|switch|p1a: Big Ghettie|Metagross, shiny|100/100
+|move|p2a: Weezing|Defog|p1a: Big Ghettie
+|-unboost|p1a: Big Ghettie|evasion|1
+|-sideend|p2: Belugea|Stealth Rock|[from] move: Defog|[of] p2a: Weezing
+|
+|upkeep
+|turn|26
+|
+|t:|1743935444
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Gliscor|Gliscor, M|64/100 tox
+|move|p1a: Big Ghettie|Psychic Fangs|p2a: Gliscor
+|-damage|p2a: Gliscor|34/100 tox
+|
+|-heal|p2a: Gliscor|47/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|27
+|inactive|BIG Ghettie has 90 seconds left.
+|
+|t:|1743935485
+|switch|p1a: Sky|Skarmory, F, shiny|71/100 brn
+|move|p2a: Gliscor|Knock Off|p1a: Sky
+|-damage|p1a: Sky|59/100 brn
+|
+|-heal|p2a: Gliscor|59/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Sky|53/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1743935498
+|switch|p2a: Weezing|Weezing-Galar, M|95/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|switch|p1a: Big Ghettie|Metagross, shiny|100/100
+|
+|upkeep
+|turn|29
+|
+|t:|1743935508
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Gliscor|Gliscor, M|59/100 tox
+|move|p1a: Big Ghettie|Psychic Fangs|p2a: Gliscor
+|-damage|p2a: Gliscor|28/100 tox
+|
+|-heal|p2a: Gliscor|40/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|30
+|inactive|BIG Ghettie has 90 seconds left.
+|
+|t:|1743935523
+|-terastallize|p1a: Big Ghettie|Dragon
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Big Ghettie|Psychic Fangs|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|52/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|31
+|inactive|BIG Ghettie has 90 seconds left.
+|
+|t:|1743935538
+|move|p2a: Gliscor|Earthquake|p1a: Big Ghettie
+|-damage|p1a: Big Ghettie|74/100
+|move|p1a: Big Ghettie|Psychic Fangs|p2a: Gliscor
+|-damage|p2a: Gliscor|19/100 tox
+|
+|-heal|p2a: Gliscor|32/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|32
+|inactive|BIG Ghettie has 90 seconds left.
+|
+|t:|1743935557
+|switch|p1a: Rocky|Arcanine-Hisui, F, shiny|100/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|44/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|33
+|inactive|BIG Ghettie has 90 seconds left.
+|
+|t:|1743935569
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Rocky|Head Smash|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|57/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|34
+|
+|t:|1743935595
+|move|p1a: Rocky|Head Smash|p2a: Gliscor
+|-damage|p2a: Gliscor|8/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Rocky
+|-supereffective|p1a: Rocky
+|-damage|p1a: Rocky|0 fnt
+|faint|p1a: Rocky
+|
+|-heal|p2a: Gliscor|21/100 tox|[from] ability: Poison Heal
+|upkeep
+|inactive|BIG Ghettie has 90 seconds left.
+|
+|t:|1743935608
+|switch|p1a: Flow|Blastoise, F, shiny|22/100
+|turn|35
+|
+|t:|1743935612
+|switch|p2a: Alomomola|Alomomola, M|74/100
+|move|p1a: Flow|Shell Smash|p1a: Flow
+|-unboost|p1a: Flow|def|1
+|-unboost|p1a: Flow|spd|1
+|-boost|p1a: Flow|atk|2
+|-boost|p1a: Flow|spa|2
+|-boost|p1a: Flow|spe|2
+|
+|upkeep
+|turn|36
+|
+|t:|1743935627
+|switch|p1a: Chonker|Zamazenta|100/100
+|-ability|p1a: Chonker|Dauntless Shield|boost
+|-boost|p1a: Chonker|def|1
+|move|p2a: Alomomola|Flip Turn|p1a: Chonker
+|-crit|p1a: Chonker
+|-damage|p1a: Chonker|79/100
+|
+|t:|1743935634
+|switch|p2a: Weezing|Weezing-Galar, M|95/100|[from] Flip Turn
+|-ability|p2a: Weezing|Neutralizing Gas
+|
+|-heal|p1a: Chonker|85/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1743935647
+|switch|p1a: Sky|Skarmory, F, shiny|53/100 brn
+|move|p2a: Weezing|Will-O-Wisp|p1a: Sky
+|-fail|p1a: Sky|brn
+|
+|-damage|p1a: Sky|48/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|t:|1743935655
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Gliscor|Gliscor, M|21/100 tox
+|move|p1a: Sky|Roost|p1a: Sky
+|-heal|p1a: Sky|98/100 brn
+|-singleturn|p1a: Sky|move: Roost
+|
+|-heal|p2a: Gliscor|33/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Sky|92/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|t:|1743935681
+|switch|p1a: Joker|Gengar, F, shiny|100/100
+|move|p2a: Gliscor|Knock Off|p1a: Joker
+|-supereffective|p1a: Joker
+|-damage|p1a: Joker|21/100
+|-enditem|p1a: Joker|Focus Sash|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|45/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|40
+|
+|t:|1743935693
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Joker|Shadow Ball|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|58/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|41
+|
+|t:|1743935701
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Joker|Shadow Ball|p2a: Alomomola
+|-damage|p2a: Alomomola|82/100
+|
+|upkeep
+|turn|42
+|
+|t:|1743935707
+|move|p1a: Joker|Energy Ball|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|52/100
+|move|p2a: Alomomola|Flip Turn|p1a: Joker
+|-damage|p1a: Joker|0 fnt
+|faint|p1a: Joker
+|
+|t:|1743935714
+|switch|p2a: Gliscor|Gliscor, M|58/100 tox|[from] Flip Turn
+|
+|-heal|p2a: Gliscor|70/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743935730
+|switch|p1a: Chonker|Zamazenta|85/100
+|turn|43
+|
+|t:|1743935738
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Chonker|Iron Defense|p1a: Chonker
+|-boost|p1a: Chonker|def|2
+|
+|-heal|p1a: Chonker|91/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|83/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|44
+|
+|t:|1743935744
+|move|p1a: Chonker|Ice Fang|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|33/100 tox
+|move|p2a: Gliscor|Toxic|p1a: Chonker
+|-status|p1a: Chonker|tox
+|
+|-heal|p1a: Chonker|97/100 tox|[from] item: Leftovers
+|-damage|p1a: Chonker|91/100 tox|[from] psn
+|-heal|p2a: Gliscor|45/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|45
+|inactive|BIG Ghettie has 120 seconds left.
+|
+|t:|1743935753
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Chonker|Iron Defense|p1a: Chonker
+|-boost|p1a: Chonker|def|2
+|
+|-heal|p1a: Chonker|97/100 tox|[from] item: Leftovers
+|-damage|p1a: Chonker|85/100 tox|[from] psn
+|-heal|p2a: Gliscor|58/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|46
+|
+|t:|1743935758
+|switch|p2a: Weezing|Weezing-Galar, M|95/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Chonker|Ice Fang|p2a: Weezing
+|-damage|p2a: Weezing|81/100
+|
+|-heal|p1a: Chonker|91/100 tox|[from] item: Leftovers
+|-damage|p1a: Chonker|73/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|t:|1743935768
+|switch|p1a: Sky|Skarmory, F, shiny|92/100 brn
+|move|p2a: Weezing|Strange Steam|p1a: Sky
+|-resisted|p1a: Sky
+|-damage|p1a: Sky|80/100 brn
+|
+|-damage|p1a: Sky|74/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|t:|1743935787
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Gliscor|Gliscor, M|58/100 tox
+|move|p1a: Sky|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: Belugea|move: Stealth Rock
+|
+|-heal|p2a: Gliscor|70/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Sky|68/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|t:|1743935810
+|move|p2a: Gliscor|Toxic||[still]
+|-fail|p2a: Gliscor
+|move|p1a: Sky|Iron Defense|p1a: Sky
+|-boost|p1a: Sky|def|2
+|
+|-heal|p2a: Gliscor|83/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Sky|62/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|t:|1743935831
+|move|p2a: Gliscor|Knock Off|p1a: Sky
+|-damage|p1a: Sky|56/100 brn
+|move|p1a: Sky|Iron Defense|p1a: Sky
+|-boost|p1a: Sky|def|2
+|
+|-heal|p2a: Gliscor|95/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Sky|50/100 brn|[from] brn
+|upkeep
+|turn|51
+|
+|t:|1743935840
+|switch|p2a: Weezing|Weezing-Galar, M|81/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Sky|Iron Defense|p1a: Sky
+|-boost|p1a: Sky|def|2
+|
+|-damage|p1a: Sky|44/100 brn|[from] brn
+|upkeep
+|turn|52
+|
+|t:|1743935847
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Sinistcha|Sinistcha-Masterpiece|100/100
+|move|p1a: Sky|Roost|p1a: Sky
+|-heal|p1a: Sky|94/100 brn
+|-singleturn|p1a: Sky|move: Roost
+|
+|-damage|p1a: Sky|88/100 brn|[from] brn
+|upkeep
+|turn|53
+|
+|t:|1743935861
+|switch|p1a: Chonker|Zamazenta|73/100 tox
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|
+|-heal|p1a: Chonker|79/100 tox|[from] item: Leftovers
+|-damage|p1a: Chonker|73/100 tox|[from] psn
+|upkeep
+|turn|54
+|
+|t:|1743935871
+|move|p1a: Chonker|Crunch|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|50/100
+|-unboost|p2a: Sinistcha|def|1
+|move|p2a: Sinistcha|Strength Sap|p1a: Chonker
+|-unboost|p1a: Chonker|atk|1
+|-heal|p2a: Sinistcha|100/100
+|
+|-heal|p1a: Chonker|79/100 tox|[from] item: Leftovers
+|-damage|p1a: Chonker|66/100 tox|[from] psn
+|upkeep
+|turn|55
+|
+|t:|1743935893
+|switch|p1a: Flow|Blastoise, F, shiny|22/100
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Flow
+|-supereffective|p1a: Flow
+|-damage|p1a: Flow|0 fnt
+|faint|p1a: Flow
+|
+|upkeep
+|inactive|BIG Ghettie has 120 seconds left.
+|inactive|BIG Ghettie has 90 seconds left.
+|
+|t:|1743935964
+|switch|p1a: Chonker|Zamazenta|66/100 tox
+|turn|56
+|
+|t:|1743935975
+|move|p1a: Chonker|Crunch|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|25/100
+|move|p2a: Sinistcha|Strength Sap|p1a: Chonker
+|-unboost|p1a: Chonker|atk|1
+|-heal|p2a: Sinistcha|100/100
+|
+|-heal|p1a: Chonker|73/100 tox|[from] item: Leftovers
+|-damage|p1a: Chonker|66/100 tox|[from] psn
+|upkeep
+|turn|57
+|
+|t:|1743935995
+|move|p1a: Chonker|Crunch|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|57/100
+|move|p2a: Sinistcha|Strength Sap|p1a: Chonker
+|-unboost|p1a: Chonker|atk|1
+|-heal|p2a: Sinistcha|100/100
+|
+|-heal|p1a: Chonker|73/100 tox|[from] item: Leftovers
+|-damage|p1a: Chonker|60/100 tox|[from] psn
+|upkeep
+|turn|58
+|
+|t:|1743936007
+|move|p1a: Chonker|Crunch|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|65/100
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Chonker
+|-damage|p1a: Chonker|6/100 tox
+|-heal|p2a: Sinistcha|94/100|[from] drain|[of] p1a: Chonker
+|
+|-heal|p1a: Chonker|12/100 tox|[from] item: Leftovers
+|-damage|p1a: Chonker|0 fnt|[from] psn
+|faint|p1a: Chonker
+|upkeep
+|inactive|BIG Ghettie has 60 seconds left.
+|
+|t:|1743936025
+|switch|p1a: Big Ghettie|Metagross, shiny, tera:Dragon|74/100
+|turn|59
+|
+|t:|1743936030
+|switch|p2a: Gliscor|Gliscor, M|95/100 tox
+|-damage|p2a: Gliscor|83/100 tox|[from] Stealth Rock
+|move|p1a: Big Ghettie|Knock Off|p2a: Gliscor
+|-damage|p2a: Gliscor|66/100 tox
+|
+|-heal|p2a: Gliscor|78/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|60
+|
+|t:|1743936039
+|move|p2a: Gliscor|Toxic|p1a: Big Ghettie|[miss]
+|-miss|p2a: Gliscor|p1a: Big Ghettie
+|move|p1a: Big Ghettie|Knock Off|p2a: Gliscor
+|-damage|p2a: Gliscor|62/100 tox
+|
+|-heal|p2a: Gliscor|74/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|61
+|
+|t:|1743936048
+|move|p2a: Gliscor|Toxic|p1a: Big Ghettie
+|-status|p1a: Big Ghettie|tox
+|move|p1a: Big Ghettie|Psychic Fangs|p2a: Gliscor
+|-damage|p2a: Gliscor|44/100 tox
+|
+|-heal|p2a: Gliscor|57/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Big Ghettie|68/100 tox|[from] psn
+|upkeep
+|turn|62
+|
+|t:|1743936062
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Big Ghettie|Psychic Fangs|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|69/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Big Ghettie|56/100 tox|[from] psn
+|upkeep
+|turn|63
+|inactive|BIG Ghettie has 60 seconds left.
+|
+|t:|1743936093
+|move|p2a: Gliscor|Knock Off|p1a: Big Ghettie
+|-damage|p1a: Big Ghettie|39/100 tox
+|-enditem|p1a: Big Ghettie|Assault Vest|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Big Ghettie|Psychic Fangs|p2a: Gliscor
+|-damage|p2a: Gliscor|37/100 tox
+|
+|-heal|p2a: Gliscor|49/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Big Ghettie|21/100 tox|[from] psn
+|upkeep
+|turn|64
+|inactive|BIG Ghettie has 60 seconds left.
+|
+|t:|1743936110
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Big Ghettie|Earthquake|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|62/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Big Ghettie|0 fnt|[from] psn
+|faint|p1a: Big Ghettie
+|upkeep
+|c|☆Belugea|just forfeit bruh
+|inactive|BIG Ghettie has 30 seconds left.
+|inactive|BIG Ghettie has 20 seconds left.
+|inactive|BIG Ghettie has 15 seconds left.
+|inactive|BIG Ghettie has 10 seconds left.
+|inactive|BIG Ghettie has 5 seconds left.
+|-message|BIG Ghettie lost due to inactivity.
+|
+|win|Belugea
+|raw|BIG Ghettie's rating: 1343 &rarr; <strong>1326</strong><br />(-17 for losing)
+|raw|Belugea's rating: 1390 &rarr; <strong>1407</strong><br />(+17 for winning)

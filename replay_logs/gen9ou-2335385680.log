@@ -1,0 +1,459 @@
+|j|☆Chessmaster91
+|j|☆haroldyu
+|t:|1743789782
+|gametype|singles
+|player|p1|Chessmaster91|2|1108
+|player|p2|haroldyu|teamrocket|1179
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ludicolo, F|
+|poke|p1|Lombre, M|
+|poke|p1|Pelipper, F|
+|poke|p1|Zapdos|
+|poke|p1|Barraskewda, F|
+|poke|p1|Scizor, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Polteageist-Antique|
+|poke|p2|Ceruledge, M|
+|poke|p2|Cloyster, F|
+|poke|p2|Torterra, F|
+|poke|p2|Quaquaval, F|
+|teampreview
+|
+|t:|1743789793
+|start
+|switch|p1a: Not Gholdengo|Pelipper, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Not Gholdengo
+|turn|1
+|
+|t:|1743789801
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: haroldyu|move: Light Screen
+|move|p1a: Not Gholdengo|Knock Off|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|97/100
+|-enditem|p2a: Grimmsnarl|Light Clay|[from] move: Knock Off|[of] p1a: Not Gholdengo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743789811
+|switch|p1a: El Niño|Lombre, M|100/100
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: haroldyu|Reflect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743789830
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: El Niño
+|-status|p1a: El Niño|par
+|move|p1a: El Niño|Whirlpool|p2a: Grimmsnarl|[miss]
+|-miss|p1a: El Niño|p2a: Grimmsnarl
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743789839
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|move|p1a: El Niño|Whirlpool|p2a: Quaquaval
+|-resisted|p2a: Quaquaval
+|-damage|p2a: Quaquaval|97/100
+|-activate|p2a: Quaquaval|move: Whirlpool|[of] p1a: El Niño
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Quaquaval|84/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1743789848
+|move|p2a: Quaquaval|Swords Dance|p2a: Quaquaval
+|-boost|p2a: Quaquaval|atk|2
+|move|p1a: El Niño|Leech Seed|p2a: Quaquaval
+|-start|p2a: Quaquaval|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Quaquaval|72/100|[from] Leech Seed|[of] p1a: El Niño
+|-damage|p2a: Quaquaval|60/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|t:|1743789864
+|move|p1a: El Niño|Protect|p1a: El Niño
+|-singleturn|p1a: El Niño|Protect
+|move|p2a: Quaquaval|Close Combat|p1a: El Niño
+|-activate|p1a: El Niño|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Quaquaval|48/100|[from] Leech Seed|[of] p1a: El Niño
+|-damage|p2a: Quaquaval|36/100|[from] move: Whirlpool|[partiallytrapped]
+|-sideend|p2: haroldyu|Reflect
+|upkeep
+|turn|7
+|
+|t:|1743789875
+|switch|p1a: Not Gholdengo|Pelipper, F|100/100
+|move|p2a: Quaquaval|Close Combat|p1a: Not Gholdengo
+|-resisted|p1a: Not Gholdengo
+|-damage|p1a: Not Gholdengo|16/100
+|-unboost|p2a: Quaquaval|def|1
+|-unboost|p2a: Quaquaval|spd|1
+|-damage|p2a: Quaquaval|26/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Quaquaval|13/100|[from] Leech Seed|[of] p1a: Not Gholdengo
+|-heal|p1a: Not Gholdengo|28/100|[silent]
+|-end|p2a: Quaquaval|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|8
+|
+|t:|1743789896
+|switch|p1a: Pretty Solid|Zapdos|100/100
+|move|p2a: Quaquaval|Aqua Step|p1a: Pretty Solid
+|-damage|p1a: Pretty Solid|0 fnt
+|-boost|p2a: Quaquaval|spe|1
+|-status|p2a: Quaquaval|par|[from] ability: Static|[of] p1a: Pretty Solid
+|faint|p1a: Pretty Solid
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|-damage|p2a: Quaquaval|3/100 par|[from] item: Life Orb
+|
+|-weather|none
+|-sideend|p2: haroldyu|move: Light Screen
+|upkeep
+|
+|t:|1743789910
+|switch|p1a: Not Gholdengo|Pelipper, F|28/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Not Gholdengo
+|turn|9
+|
+|t:|1743789917
+|move|p2a: Quaquaval|Roost|p2a: Quaquaval
+|-heal|p2a: Quaquaval|54/100 par
+|-singleturn|p2a: Quaquaval|move: Roost
+|move|p1a: Not Gholdengo|Hurricane|p2a: Quaquaval
+|-supereffective|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743789923
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|97/100
+|turn|10
+|
+|t:|1743789930
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: haroldyu|Reflect
+|move|p1a: Not Gholdengo|Roost|p1a: Not Gholdengo
+|-heal|p1a: Not Gholdengo|78/100
+|-singleturn|p1a: Not Gholdengo|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743789937
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: haroldyu|move: Light Screen
+|move|p1a: Not Gholdengo|Roost|p1a: Not Gholdengo
+|-heal|p1a: Not Gholdengo|100/100
+|-singleturn|p1a: Not Gholdengo|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743789953
+|switch|p1a: El Niño|Lombre, M|100/100 par
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: El Niño
+|-fail|p1a: El Niño|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743789961
+|switch|p2a: Torterra|Torterra, F|100/100
+|move|p1a: El Niño|Whirlpool|p2a: Torterra
+|-damage|p2a: Torterra|94/100
+|-activate|p2a: Torterra|move: Whirlpool|[of] p1a: El Niño
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Torterra|82/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|14
+|l|☆haroldyu
+|player|p2|
+|j|☆haroldyu
+|player|p2|haroldyu|teamrocket|
+|
+|t:|1743790032
+|move|p2a: Torterra|Shell Smash|p2a: Torterra
+|-unboost|p2a: Torterra|def|1
+|-unboost|p2a: Torterra|spd|1
+|-boost|p2a: Torterra|atk|2
+|-boost|p2a: Torterra|spa|2
+|-boost|p2a: Torterra|spe|2
+|move|p1a: El Niño|Metronome|p1a: El Niño
+|move|p1a: El Niño|Simple Beam|p2a: Torterra|[from] move: Metronome
+|-endability|p2a: Torterra|Overgrow|[from] move: Simple Beam
+|-ability|p2a: Torterra|Simple|[from] move: Simple Beam
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Torterra|69/100|[from] move: Whirlpool|[partiallytrapped]
+|-sideend|p2: haroldyu|Reflect
+|upkeep
+|turn|15
+|
+|t:|1743790060
+|move|p1a: El Niño|Protect|p1a: El Niño
+|-singleturn|p1a: El Niño|Protect
+|move|p2a: Torterra|Bullet Seed|p1a: El Niño
+|-activate|p1a: El Niño|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Torterra|57/100|[from] move: Whirlpool|[partiallytrapped]
+|-sideend|p2: haroldyu|move: Light Screen
+|upkeep
+|turn|16
+|
+|t:|1743790068
+|move|p2a: Torterra|Bullet Seed|p1a: El Niño
+|-damage|p1a: El Niño|77/100 par
+|-damage|p1a: El Niño|53/100 par
+|-damage|p1a: El Niño|29/100 par
+|-damage|p1a: El Niño|6/100 par
+|-damage|p1a: El Niño|0 fnt
+|faint|p1a: El Niño
+|-hitcount|p1: El Niño|5
+|
+|-weather|none
+|-end|p2a: Torterra|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1743790078
+|switch|p1a: Not Gholdengo|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Not Gholdengo
+|turn|17
+|
+|t:|1743790090
+|move|p2a: Torterra|Bullet Seed|p1a: Not Gholdengo
+|-damage|p1a: Not Gholdengo|75/100
+|-damage|p1a: Not Gholdengo|49/100
+|-damage|p1a: Not Gholdengo|21/100
+|-damage|p1a: Not Gholdengo|0 fnt
+|faint|p1a: Not Gholdengo
+|-hitcount|p1: Not Gholdengo|4
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743790100
+|switch|p1a: La Niña|Ludicolo, F|100/100
+|turn|18
+|
+|t:|1743790104
+|move|p1a: La Niña|Ice Spinner|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|0 fnt
+|faint|p2a: Torterra
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743790110
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|97/100
+|turn|19
+|
+|t:|1743790117
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: haroldyu|Reflect
+|move|p1a: La Niña|Swords Dance|p1a: La Niña
+|-boost|p1a: La Niña|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1743790126
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: La Niña
+|-status|p1a: La Niña|par
+|move|p1a: La Niña|Waterfall|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|45/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743790150
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: haroldyu|move: Light Screen
+|move|p1a: La Niña|Swords Dance|p1a: La Niña
+|-boost|p1a: La Niña|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1743790163
+|move|p1a: La Niña|Seed Bomb|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743790187
+|switch|p2a: Cloyster|Cloyster, F|100/100
+|turn|23
+|
+|t:|1743790192
+|move|p1a: La Niña|Seed Bomb|p2a: Cloyster
+|-supereffective|p2a: Cloyster
+|-damage|p2a: Cloyster|39/100
+|move|p2a: Cloyster|Shell Smash|p2a: Cloyster
+|-unboost|p2a: Cloyster|def|1
+|-unboost|p2a: Cloyster|spd|1
+|-boost|p2a: Cloyster|atk|2
+|-boost|p2a: Cloyster|spa|2
+|-boost|p2a: Cloyster|spe|2
+|-enditem|p2a: Cloyster|White Herb
+|-clearnegativeboost|p2a: Cloyster|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: haroldyu|Reflect
+|upkeep
+|turn|24
+|
+|t:|1743790204
+|move|p2a: Cloyster|Icicle Spear|p1a: La Niña
+|-damage|p1a: La Niña|68/100 par
+|-damage|p1a: La Niña|33/100 par
+|-damage|p1a: La Niña|0 fnt
+|faint|p1a: La Niña
+|-hitcount|p1: La Niña|3
+|
+|-weather|none
+|upkeep
+|
+|t:|1743790213
+|switch|p1a: Mega Kingler|Scizor, F|100/100
+|turn|25
+|
+|t:|1743790229
+|-terastallize|p2a: Cloyster|Water
+|move|p1a: Mega Kingler|Bullet Punch|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|28/100
+|move|p2a: Cloyster|Rock Blast|p1a: Mega Kingler|[miss]
+|-miss|p2a: Cloyster|p1a: Mega Kingler
+|
+|-sideend|p2: haroldyu|move: Light Screen
+|upkeep
+|turn|26
+|
+|t:|1743790244
+|move|p2a: Cloyster|Rock Blast|p1a: Mega Kingler
+|-damage|p1a: Mega Kingler|85/100
+|-damage|p1a: Mega Kingler|70/100
+|-damage|p1a: Mega Kingler|53/100
+|-damage|p1a: Mega Kingler|38/100
+|-damage|p1a: Mega Kingler|23/100
+|-hitcount|p1a: Mega Kingler|5
+|move|p1a: Mega Kingler|Swords Dance|p1a: Mega Kingler
+|-boost|p1a: Mega Kingler|atk|2
+|
+|-heal|p1a: Mega Kingler|29/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1743790257
+|move|p1a: Mega Kingler|Bullet Punch|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|4/100
+|move|p2a: Cloyster|Rock Blast|p1a: Mega Kingler
+|-damage|p1a: Mega Kingler|13/100
+|-damage|p1a: Mega Kingler|0 fnt
+|faint|p1a: Mega Kingler
+|-hitcount|p1: Mega Kingler|2
+|
+|upkeep
+|
+|t:|1743790266
+|switch|p1a: That One GH3 Song|Barraskewda, F|100/100
+|turn|28
+|
+|t:|1743790269
+|move|p1a: That One GH3 Song|Aqua Jet|p2a: Cloyster
+|-resisted|p2a: Cloyster
+|-damage|p2a: Cloyster|0 fnt
+|faint|p2a: Cloyster
+|-damage|p1a: That One GH3 Song|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743790274
+|switch|p2a: Polteageist|Polteageist-Antique|100/100
+|turn|29
+|
+|t:|1743790281
+|move|p1a: That One GH3 Song|Liquidation|p2a: Polteageist
+|-damage|p2a: Polteageist|1/100
+|-damage|p1a: That One GH3 Song|81/100|[from] item: Life Orb
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|-enditem|p2a: Polteageist|White Herb
+|-clearnegativeboost|p2a: Polteageist|[silent]
+|
+|upkeep
+|turn|30
+|
+|t:|1743790295
+|move|p1a: That One GH3 Song|Aqua Jet|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|-start|p1a: That One GH3 Song|Disable|Aqua Jet|[from] ability: Cursed Body|[of] p2a: Polteageist
+|faint|p2a: Polteageist
+|-damage|p1a: That One GH3 Song|71/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743790298
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|31
+|
+|t:|1743790304
+|move|p1a: That One GH3 Song|Liquidation|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|-damage|p1a: That One GH3 Song|61/100|[from] item: Life Orb
+|
+|win|Chessmaster91
+|raw|Chessmaster91's rating: 1108 &rarr; <strong>1138</strong><br />(+30 for winning)
+|raw|haroldyu's rating: 1179 &rarr; <strong>1149</strong><br />(-30 for losing)
+|c|☆Chessmaster91|Gg
+|l|☆haroldyu
+|player|p2|
+|l|☆Chessmaster91
+|player|p1|

@@ -1,0 +1,324 @@
+|j|☆1juantrainer
+|j|☆Trainer Esespi
+|t:|1743923959
+|gametype|singles
+|player|p1|1juantrainer|1|1100
+|player|p2|Trainer Esespi|265|1070
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Azumarill, M|
+|poke|p1|Jirachi|
+|poke|p1|Serperior, M|
+|poke|p1|Hariyama, M|
+|poke|p1|Galvantula, F|
+|poke|p1|Talonflame, F|
+|poke|p2|Serperior, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Ursaluna, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 1juantrainer)
+|
+|t:|1743923968
+|start
+|switch|p1a: Talonflame|Talonflame, F|100/100
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|turn|1
+|
+|t:|1743923993
+|move|p1a: Talonflame|Swords Dance|p1a: Talonflame
+|-boost|p1a: Talonflame|atk|2
+|move|p2a: Ursaluna|Swords Dance|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|2
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1743924002
+|move|p1a: Talonflame|U-turn|p2a: Ursaluna
+|-damage|p2a: Ursaluna|76/100 brn
+|
+|t:|1743924005
+|switch|p1a: Serperior|Serperior, M|100/100|[from] U-turn
+|move|p2a: Ursaluna|Facade|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|-damage|p2a: Ursaluna|70/100 brn|[from] brn
+|upkeep
+|
+|t:|1743924030
+|switch|p1a: Azumarill|Azumarill, M|100/100
+|turn|3
+|
+|t:|1743924037
+|move|p1a: Azumarill|Aqua Jet|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|36/100 brn
+|move|p2a: Ursaluna|Facade|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|-damage|p2a: Ursaluna|30/100 brn|[from] brn
+|upkeep
+|
+|t:|1743924048
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|turn|4
+|
+|t:|1743924054
+|move|p1a: Galvantula|Giga Drain|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1743924062
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|turn|5
+|
+|t:|1743924068
+|move|p1a: Galvantula|Thunder Wave|p2a: Corviknight
+|-status|p2a: Corviknight|par
+|cant|p2a: Corviknight|par
+|
+|upkeep
+|turn|6
+|
+|t:|1743924077
+|move|p1a: Galvantula|Thunder|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1743924089
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|7
+|
+|t:|1743924097
+|move|p1a: Galvantula|Thunder Wave|p2a: Dragonite
+|-status|p2a: Dragonite|par
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743924110
+|move|p1a: Galvantula|Thunder|p2a: Dragonite
+|-damage|p2a: Dragonite|69/100 par
+|move|p2a: Dragonite|Fire Punch|p1a: Galvantula
+|-supereffective|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|upkeep
+|
+|t:|1743924125
+|switch|p1a: Jirachi|Jirachi|100/100
+|turn|9
+|
+|t:|1743924135
+|-terastallize|p1a: Jirachi|Flying
+|move|p1a: Jirachi|Meteor Beam||[still]
+|-prepare|p1a: Jirachi|Meteor Beam
+|-boost|p1a: Jirachi|spa|1
+|-enditem|p1a: Jirachi|Power Herb
+|-anim|p1a: Jirachi|Meteor Beam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1743924146
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|10
+|
+|t:|1743924153
+|move|p1a: Jirachi|Thunder|p2a: Slowking|[miss]
+|-miss|p1a: Jirachi|p2a: Slowking
+|move|p2a: Slowking|Toxic|p1a: Jirachi
+|-status|p1a: Jirachi|tox
+|
+|-damage|p1a: Jirachi|94/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743924168
+|move|p2a: Slowking|Protect|p2a: Slowking
+|-singleturn|p2a: Slowking|Protect
+|move|p1a: Jirachi|Thunder|p2a: Slowking
+|-activate|p2a: Slowking|move: Protect
+|
+|-damage|p1a: Jirachi|82/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743924176
+|move|p1a: Jirachi|Thunder|p2a: Slowking
+|-damage|p2a: Slowking|63/100
+|move|p2a: Slowking|Psychic|p1a: Jirachi
+|-damage|p1a: Jirachi|42/100 tox
+|-unboost|p1a: Jirachi|spd|1
+|
+|-heal|p2a: Slowking|70/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|24/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1743924188
+|move|p2a: Slowking|Protect|p2a: Slowking
+|-singleturn|p2a: Slowking|Protect
+|move|p1a: Jirachi|Thunder|p2a: Slowking
+|-activate|p2a: Slowking|move: Protect
+|
+|-heal|p2a: Slowking|76/100|[from] item: Leftovers
+|-damage|p1a: Jirachi|0 fnt|[from] psn
+|faint|p1a: Jirachi
+|upkeep
+|
+|t:|1743924196
+|switch|p1a: Hariyama|Hariyama, M|100/100
+|turn|14
+|
+|t:|1743924203
+|move|p1a: Hariyama|Fake Out|p2a: Slowking
+|-damage|p2a: Slowking|60/100
+|cant|p2a: Slowking|flinch
+|
+|-heal|p2a: Slowking|66/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743924210
+|move|p1a: Hariyama|Belly Drum|p1a: Hariyama
+|-damage|p1a: Hariyama|51/100
+|-setboost|p1a: Hariyama|atk|6|[from] move: Belly Drum
+|move|p2a: Slowking|Toxic|p1a: Hariyama
+|-status|p1a: Hariyama|tox
+|
+|-heal|p2a: Slowking|72/100|[from] item: Leftovers
+|-damage|p1a: Hariyama|44/100 tox|[from] psn
+|upkeep
+|-enditem|p1a: Hariyama|Sitrus Berry|[eat]
+|-heal|p1a: Hariyama|69/100 tox|[from] item: Sitrus Berry
+|turn|16
+|
+|t:|1743924228
+|move|p2a: Slowking|Protect|p2a: Slowking
+|-singleturn|p2a: Slowking|Protect
+|move|p1a: Hariyama|Bullet Punch|p2a: Slowking
+|-activate|p2a: Slowking|move: Protect
+|
+|-heal|p2a: Slowking|78/100|[from] item: Leftovers
+|-damage|p1a: Hariyama|57/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1743924246
+|move|p1a: Hariyama|Bullet Punch|p2a: Slowking
+|-damage|p2a: Slowking|23/100
+|move|p2a: Slowking|Psychic|p1a: Hariyama
+|-supereffective|p1a: Hariyama
+|-damage|p1a: Hariyama|0 fnt
+|faint|p1a: Hariyama
+|
+|-heal|p2a: Slowking|29/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743924251
+|switch|p1a: Talonflame|Talonflame, F|100/100
+|turn|18
+|
+|t:|1743924266
+|move|p1a: Talonflame|Dual Wingbeat|p2a: Slowking
+|-damage|p2a: Slowking|14/100
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|-hitcount|p2: Slowking|2
+|
+|upkeep
+|
+|t:|1743924272
+|switch|p2a: Serperior|Serperior, M, shiny|100/100
+|turn|19
+|
+|t:|1743924282
+|move|p1a: Talonflame|Dual Wingbeat|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|65/100
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|28/100
+|-hitcount|p2a: Serperior|2
+|move|p2a: Serperior|Leaf Storm|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|82/100
+|-boost|p2a: Serperior|spa|2
+|
+|upkeep
+|turn|20
+|
+|t:|1743924297
+|move|p1a: Talonflame|Swords Dance|p1a: Talonflame
+|-boost|p1a: Talonflame|atk|2
+|move|p2a: Serperior|Dragon Pulse|p1a: Talonflame
+|-damage|p1a: Talonflame|15/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743924304
+|move|p1a: Talonflame|Flame Charge|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|-boost|p1a: Talonflame|spe|1
+|faint|p2a: Serperior
+|
+|upkeep
+|
+|t:|1743924310
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|22
+|
+|t:|1743924316
+|move|p1a: Talonflame|Swords Dance|p1a: Talonflame
+|-boost|p1a: Talonflame|atk|2
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|23
+|
+|t:|1743924323
+|move|p2a: Kingambit|Sucker Punch|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|win|Trainer Esespi
+|raw|1juantrainer's rating: 1100 &rarr; <strong>1073</strong><br />(-27 for losing)
+|raw|Trainer Esespi's rating: 1070 &rarr; <strong>1102</strong><br />(+32 for winning)
+|l|☆1juantrainer
+|player|p1|
+|l|☆Trainer Esespi
+|player|p2|

@@ -1,0 +1,322 @@
+|j|☆testaltlol
+|j|‽Spoozy
+|t:|1743796543
+|gametype|singles
+|player|p1|testaltlol|266|1197
+|player|p2|Spoozy|may-masters|1153
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Glimmora, M|
+|poke|p1|Skeledirge, M|
+|poke|p1|Great Tusk|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Bronzong|
+|poke|p1|Zapdos-Galar|
+|poke|p2|Araquanid, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Moth|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|t:|1743796565
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|turn|1
+|
+|t:|1743796589
+|move|p1a: Grimmsnarl|Taunt|p2a: Araquanid
+|-start|p2a: Araquanid|move: Taunt
+|cant|p2a: Araquanid|move: Taunt|Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743796620
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: testaltlol|Reflect
+|
+|upkeep
+|turn|3
+|
+|t:|1743796641
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: testaltlol|move: Light Screen
+|move|p2a: Great Tusk|Headlong Rush|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|54/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743796652
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Gholdengo
+|-immune|p2a: Gholdengo|[from] ability: Good as Gold
+|
+|upkeep
+|turn|5
+|
+|t:|1743796670
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|upkeep
+|turn|6
+|
+|t:|1743796680
+|move|p1a: Zapdos|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-enditem|p2a: Gholdengo|Air Balloon
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743796696
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|turn|7
+|
+|t:|1743796707
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Araquanid|Sticky Web|p1a: Great Tusk
+|-sidestart|p1: testaltlol|move: Sticky Web
+|
+|upkeep
+|turn|8
+|
+|t:|1743796718
+|-terastallize|p2a: Araquanid|Ghost
+|move|p1a: Great Tusk|Stealth Rock|p2a: Araquanid
+|-sidestart|p2: Spoozy|move: Stealth Rock
+|move|p2a: Araquanid|Liquidation|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|66/100
+|-damage|p2a: Araquanid|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|9
+|
+|t:|1743796724
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|move|p2a: Araquanid|Liquidation|p1a: Zapdos
+|-damage|p1a: Zapdos|74/100
+|
+|-sideend|p1: testaltlol|Reflect
+|upkeep
+|turn|10
+|
+|t:|1743796751
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|move|p1a: Zapdos|Knock Off|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|86/100
+|
+|-sideend|p1: testaltlol|move: Light Screen
+|upkeep
+|turn|11
+|
+|t:|1743796779
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|54/100
+|-activate|p1a: Grimmsnarl|move: Sticky Web
+|-unboost|p1a: Grimmsnarl|spe|1
+|move|p2a: Great Tusk|Head Smash|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|-damage|p2a: Great Tusk|57/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743796826
+|switch|p1a: Zapdos|Zapdos-Galar|74/100
+|turn|12
+|
+|t:|1743796842
+|move|p1a: Zapdos|Brave Bird|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-damage|p1a: Zapdos|52/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743796855
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-damage|p2a: Iron Moth|76/100|[from] Stealth Rock
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|13
+|
+|t:|1743796868
+|move|p2a: Iron Moth|Psychic|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1743796884
+|switch|p1a: Great Tusk|Great Tusk|66/100
+|-activate|p1a: Great Tusk|move: Sticky Web
+|-unboost|p1a: Great Tusk|spe|1
+|turn|14
+|
+|t:|1743796890
+|-terastallize|p1a: Great Tusk|Steel
+|move|p2a: Iron Moth|Psychic|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|31/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Iron Moth
+|-damage|p2a: Iron Moth|46/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: testaltlol|Sticky Web|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|15
+|
+|t:|1743796902
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|82/100
+|-boost|p2a: Iron Moth|spa|1
+|
+|upkeep
+|turn|16
+|
+|t:|1743796910
+|move|p2a: Iron Moth|Psychic|p1a: Skeledirge
+|-damage|p1a: Skeledirge|51/100
+|move|p1a: Skeledirge|Torch Song|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|31/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|upkeep
+|turn|17
+|
+|t:|1743796915
+|move|p2a: Iron Moth|Dazzling Gleam|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|36/100
+|move|p1a: Skeledirge|Slack Off|p1a: Skeledirge
+|-heal|p1a: Skeledirge|86/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743796919
+|move|p2a: Iron Moth|Sludge Wave|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|60/100
+|move|p1a: Skeledirge|Hex|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743796923
+|switch|p2a: Araquanid|Araquanid, M, tera:Ghost|84/100
+|-damage|p2a: Araquanid|72/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743796930
+|switch|p1a: Bronzong|Bronzong|100/100
+|move|p2a: Araquanid|Liquidation|p1a: Bronzong
+|-damage|p1a: Bronzong|58/100
+|
+|-heal|p1a: Bronzong|65/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743796942
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|move|p2a: Araquanid|Lunge|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|88/100
+|-unboost|p1a: Glimmora|atk|1
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Spoozy|move: Toxic Spikes
+|
+|upkeep
+|turn|21
+|
+|t:|1743796957
+|move|p1a: Glimmora|Power Gem|p2a: Araquanid
+|-damage|p2a: Araquanid|35/100
+|-damage|p1a: Glimmora|78/100|[from] item: Life Orb
+|move|p2a: Araquanid|Liquidation|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Spoozy|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1743796972
+|switch|p1a: Skeledirge|Skeledirge, M|60/100
+|turn|22
+|
+|t:|1743796976
+|move|p1a: Skeledirge|Hex|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|1/100
+|move|p2a: Araquanid|Liquidation|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|upkeep
+|c|☆testaltlol|brahhh
+|
+|t:|1743796987
+|switch|p1a: Great Tusk|Great Tusk, tera:Steel|31/100
+|turn|23
+|-enditem|p2a: Araquanid|Custap Berry|[eat]
+|-activate|p2a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1743796992
+|move|p2a: Araquanid|Liquidation|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-damage|p2a: Araquanid|0 fnt|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|faint|p2a: Araquanid
+|
+|upkeep
+|-message|testaltlol forfeited.
+|
+|win|Spoozy
+|raw|testaltlol's rating: 1197 &rarr; <strong>1169</strong><br />(-28 for losing)
+|raw|Spoozy's rating: 1153 &rarr; <strong>1181</strong><br />(+28 for winning)
+|l|☆testaltlol
+|player|p1|

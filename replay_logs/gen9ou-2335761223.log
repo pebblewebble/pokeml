@@ -1,0 +1,333 @@
+|j|☆djays4
+|j|☆twelfthcard
+|t:|1743831779
+|gametype|singles
+|player|p1|djays4|101|1154
+|player|p2|twelfthcard|caitlin|1080
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Primarina, M|
+|poke|p1|Alomomola, M|
+|poke|p1|Gholdengo|
+|poke|p1|Clefable, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Cinderace, F|
+|poke|p2|Mew|
+|poke|p2|Toxapex, F|
+|poke|p2|Serperior, M|
+|poke|p2|Raikou|
+|poke|p2|Greninja-*, M|
+|poke|p2|Rampardos, F|
+|teampreview
+|
+|t:|1743831788
+|start
+|switch|p1a: Clefable|Clefable, F|100/100
+|switch|p2a: Mew|Mew, shiny|100/100
+|turn|1
+|
+|t:|1743831798
+|move|p2a: Mew|Imprison|p2a: Mew
+|-start|p2a: Mew|move: Imprison
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743831804
+|move|p2a: Mew|Transform|p1a: Clefable
+|-transform|p2a: Mew|p1a: Clefable
+|cant|p1a: Clefable|move: Imprison|Calm Mind
+|
+|upkeep
+|turn|3
+|
+|t:|1743831817
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Mew|Flamethrower|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|47/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|4
+|
+|t:|1743831828
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Mew|Flamethrower|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743831840
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|5
+|
+|t:|1743831853
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|move|p2a: Mew|Moonblast|p1a: Ogerpon
+|-damage|p1a: Ogerpon|49/100
+|-unboost|p1a: Ogerpon|spa|1
+|
+|upkeep
+|turn|6
+|
+|t:|1743831860
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Mew|[anim] Ivy Cudgel Water
+|-damage|p2a: Mew|0 fnt
+|faint|p2a: Mew
+|
+|upkeep
+|
+|t:|1743831865
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|turn|7
+|
+|t:|1743831870
+|move|p1a: Ogerpon|Horn Leech|p2a: Toxapex
+|-damage|p2a: Toxapex|30/100
+|-heal|p1a: Ogerpon|78/100|[from] drain|[of] p2a: Toxapex
+|move|p2a: Toxapex|Toxic Spikes|p1a: Ogerpon
+|-sidestart|p1: djays4|move: Toxic Spikes
+|
+|-heal|p2a: Toxapex|37/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1743831878
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Ogerpon|Horn Leech|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|-status|p1a: Ogerpon|psn
+|
+|-heal|p2a: Toxapex|43/100|[from] item: Black Sludge
+|-damage|p1a: Ogerpon|65/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743831893
+|move|p1a: Ogerpon|Horn Leech|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|-heal|p1a: Ogerpon|82/100 psn|[from] drain|[of] p2a: Toxapex
+|faint|p2a: Toxapex
+|
+|-damage|p1a: Ogerpon|70/100 psn|[from] psn
+|upkeep
+|
+|t:|1743831901
+|switch|p2a: Raikou|Raikou, shiny|100/100
+|turn|10
+|
+|t:|1743831910
+|move|p2a: Raikou|Thunderbolt|p1a: Ogerpon
+|-crit|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743831914
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|11
+|
+|t:|1743831920
+|move|p2a: Raikou|Thunderbolt|p1a: Cinderace
+|-damage|p1a: Cinderace|47/100
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|12
+|
+|t:|1743831926
+|move|p2a: Raikou|Thunderbolt|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743831931
+|switch|p1a: Clefable|Clefable, F|100/100
+|turn|13
+|
+|t:|1743831938
+|-terastallize|p1a: Clefable|Steel
+|move|p2a: Raikou|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|60/100
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|-heal|p1a: Clefable|66/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743831949
+|move|p2a: Raikou|Volt Switch|p1a: Clefable
+|-damage|p1a: Clefable|46/100
+|
+|t:|1743831955
+|switch|p2a: Rampardos|Rampardos, F|100/100|[from] Volt Switch
+|-status|p2a: Rampardos|psn
+|-ability|p2a: Rampardos|Mold Breaker
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|96/100
+|
+|-heal|p1a: Clefable|100/100|[from] item: Leftovers
+|-damage|p2a: Rampardos|88/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743831969
+|move|p1a: Clefable|Moonblast|p2a: Rampardos
+|-damage|p2a: Rampardos|17/100 psn
+|-unboost|p2a: Rampardos|spa|1
+|move|p2a: Rampardos|Earthquake|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|37/100
+|
+|-heal|p1a: Clefable|43/100|[from] item: Leftovers
+|-damage|p2a: Rampardos|5/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743831985
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|93/100
+|move|p2a: Rampardos|Earthquake|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|23/100
+|
+|-heal|p1a: Clefable|29/100|[from] item: Leftovers
+|-damage|p2a: Rampardos|0 fnt|[from] psn
+|faint|p2a: Rampardos
+|upkeep
+|
+|t:|1743831995
+|switch|p2a: Raikou|Raikou, shiny|100/100
+|-status|p2a: Raikou|psn
+|turn|17
+|
+|t:|1743831999
+|move|p2a: Raikou|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|1/100
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|51/100
+|
+|-heal|p1a: Clefable|57/100|[from] item: Leftovers
+|-damage|p2a: Raikou|88/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1743832007
+|move|p2a: Raikou|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|30/100
+|-status|p1a: Clefable|par
+|cant|p1a: Clefable|par
+|
+|-heal|p2a: Raikou|94/100 psn|[from] item: Leftovers
+|-heal|p1a: Clefable|37/100 par|[from] item: Leftovers
+|-damage|p2a: Raikou|82/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1743832017
+|move|p2a: Raikou|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|8/100 par
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|58/100 par
+|
+|-heal|p2a: Raikou|88/100 psn|[from] item: Leftovers
+|-heal|p1a: Clefable|64/100 par|[from] item: Leftovers
+|-damage|p2a: Raikou|76/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1743832026
+|move|p2a: Raikou|Calm Mind|p2a: Raikou
+|-boost|p2a: Raikou|spa|1
+|-boost|p2a: Raikou|spd|1
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|100/100 par
+|
+|-heal|p2a: Raikou|82/100 psn|[from] item: Leftovers
+|-damage|p2a: Raikou|69/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1743832034
+|move|p2a: Raikou|Calm Mind|p2a: Raikou
+|-boost|p2a: Raikou|spa|1
+|-boost|p2a: Raikou|spd|1
+|move|p1a: Clefable|Moonblast|p2a: Raikou
+|-damage|p2a: Raikou|46/100 psn
+|
+|-heal|p2a: Raikou|52/100 psn|[from] item: Leftovers
+|-damage|p2a: Raikou|40/100 psn|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1743832044
+|move|p2a: Raikou|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|46/100 par
+|move|p1a: Clefable|Moonblast|p2a: Raikou
+|-damage|p2a: Raikou|15/100 psn
+|
+|-heal|p2a: Raikou|21/100 psn|[from] item: Leftovers
+|-heal|p1a: Clefable|53/100 par|[from] item: Leftovers
+|-damage|p2a: Raikou|9/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1743832056
+|move|p2a: Raikou|Thunderbolt|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-heal|p2a: Raikou|15/100 psn|[from] item: Leftovers
+|-damage|p2a: Raikou|3/100 psn|[from] psn
+|upkeep
+|
+|t:|1743832064
+|switch|p1a: Primarina|Primarina, M|100/100
+|turn|24
+|
+|t:|1743832068
+|move|p2a: Raikou|Thunderbolt|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|-heal|p2a: Raikou|9/100 psn|[from] item: Leftovers
+|-damage|p2a: Raikou|0 fnt|[from] psn
+|faint|p2a: Raikou
+|upkeep
+|-message|djays4 forfeited.
+|
+|win|twelfthcard
+|raw|djays4's rating: 1154 &rarr; <strong>1124</strong><br />(-30 for losing)
+|raw|twelfthcard's rating: 1080 &rarr; <strong>1114</strong><br />(+34 for winning)
+|l|☆djays4
+|player|p1|
+|l|☆twelfthcard
+|player|p2|

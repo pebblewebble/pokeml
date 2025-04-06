@@ -1,0 +1,178 @@
+|j|☆reifandrakinadi
+|j|☆Zanedotmidi
+|t:|1743914056
+|gametype|singles
+|player|p1|reifandrakinadi|170|1075
+|player|p2|Zanedotmidi|101|1144
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Cresselia, F|
+|poke|p1|Porygon2|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Ursaluna, M|
+|poke|p1|Uxie|
+|poke|p2|Zamazenta-*|
+|poke|p2|Kingambit, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Iron Moth|
+|teampreview
+|
+|t:|1743914078
+|start
+|switch|p1a: Uxie|Uxie|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|t:|1743914086
+|move|p2a: Samurott|Ceaseless Edge|p1a: Uxie
+|-supereffective|p1a: Uxie
+|-damage|p1a: Uxie|42/100
+|-sidestart|p1: reifandrakinadi|Spikes
+|move|p1a: Uxie|Trick Room|p1a: Uxie
+|-fieldstart|move: Trick Room|[of] p1a: Uxie
+|
+|upkeep
+|turn|2
+|
+|t:|1743914091
+|move|p1a: Uxie|Stealth Rock|p2a: Samurott
+|-sidestart|p2: Zanedotmidi|move: Stealth Rock
+|move|p2a: Samurott|Ceaseless Edge|p1a: Uxie
+|-supereffective|p1a: Uxie
+|-damage|p1a: Uxie|0 fnt
+|-sidestart|p1: reifandrakinadi|Spikes
+|faint|p1a: Uxie
+|
+|upkeep
+|
+|t:|1743914100
+|switch|p1a: mar|Porygon2, shiny|100/100
+|-damage|p1a: mar|84/100|[from] Spikes
+|-ability|p1a: mar|Download|boost
+|-boost|p1a: mar|spa|1
+|turn|3
+|
+|t:|1743914107
+|move|p1a: mar|Discharge|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-crit|p2a: Samurott
+|-enditem|p2a: Samurott|Focus Sash
+|-damage|p2a: Samurott|1/100
+|move|p2a: Samurott|Razor Shell|p1a: mar
+|-damage|p1a: mar|45/100
+|-unboost|p1a: mar|def|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743914116
+|move|p1a: mar|Tri Attack|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743914166
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|5
+|
+|t:|1743914175
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: mar|Recover|p1a: mar
+|-heal|p1a: mar|95/100
+|
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1743914185
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: mar|Trick Room|p1a: mar
+|-fieldstart|move: Trick Room|[of] p1a: mar
+|
+|upkeep
+|turn|7
+|
+|t:|1743914195
+|switch|p1a: Ursaluna|Ursaluna, M, shiny|100/100
+|-damage|p1a: Ursaluna|84/100|[from] Spikes
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Ursaluna
+|-damage|p1a: Ursaluna|2/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|t:|1743914202
+|move|p2a: Kingambit|Sucker Punch|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1743914204
+|switch|p1a: Crawdaunt|Crawdaunt, M, shiny|100/100
+|-damage|p1a: Crawdaunt|84/100|[from] Spikes
+|turn|9
+|
+|t:|1743914209
+|move|p2a: Kingambit|Sucker Punch|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|34/100
+|move|p1a: Crawdaunt|Liquidation|p2a: Kingambit
+|-damage|p2a: Kingambit|40/100
+|-damage|p1a: Crawdaunt|24/100|[from] item: Life Orb
+|
+|-heal|p2a: Kingambit|46/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743914213
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Kingambit
+|-damage|p2a: Kingambit|17/100
+|-damage|p1a: Crawdaunt|14/100|[from] item: Life Orb
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-heal|p2a: Kingambit|23/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1743914219
+|move|p2a: Kingambit|Sucker Punch|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|-heal|p2a: Kingambit|29/100|[from] item: Leftovers
+|upkeep
+|-message|reifandrakinadi forfeited.
+|
+|win|Zanedotmidi
+|raw|reifandrakinadi's rating: 1075 &rarr; <strong>1058</strong><br />(-17 for losing)
+|raw|Zanedotmidi's rating: 1144 &rarr; <strong>1164</strong><br />(+20 for winning)
+|l|☆reifandrakinadi
+|player|p1|
+|l|☆Zanedotmidi
+|player|p2|

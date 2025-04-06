@@ -1,0 +1,230 @@
+|j|☆technogiri
+|j|☆Elainads
+|t:|1743918764
+|gametype|singles
+|player|p1|technogiri|marshal|1189
+|player|p2|Elainads|dawn|1214
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ogerpon, F|
+|poke|p1|Greninja-*, M|
+|poke|p1|Forretress, M|
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Revavroom, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Comfey, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Zapdos|
+|poke|p2|Iron Moth|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by technogiri)
+|
+|t:|1743918772
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F, shiny|100/100
+|turn|1
+|
+|t:|1743918785
+|move|p1a: Thundurus|Thunderbolt|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-enditem|p2a: Samurott|Focus Sash
+|-damage|p2a: Samurott|1/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Thundurus
+|-damage|p1a: Thundurus|30/100
+|-sidestart|p1: technogiri|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1743918795
+|switch|p1a: Forretress|Forretress, M|100/100
+|move|p2a: Samurott|Sucker Punch||[still]
+|-fail|p2a: Samurott
+|
+|upkeep
+|turn|3
+|
+|t:|1743918803
+|move|p2a: Samurott|Ceaseless Edge|p1a: Forretress
+|-damage|p1a: Forretress|78/100
+|-sidestart|p1: technogiri|Spikes
+|move|p1a: Forretress|Stealth Rock|p2a: Samurott
+|-sidestart|p2: Elainads|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1743918818
+|move|p2a: Samurott|Ceaseless Edge|p1a: Forretress
+|-damage|p1a: Forretress|51/100
+|-sidestart|p1: technogiri|Spikes
+|move|p1a: Forretress|Rapid Spin|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-boost|p1a: Forretress|spe|1
+|-sideend|p1: technogiri|Spikes|[from] move: Rapid Spin|[of] p1a: Forretress
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743918830
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-damage|p2a: Iron Moth|76/100|[from] Stealth Rock
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|5
+|
+|t:|1743918840
+|move|p2a: Iron Moth|Fiery Dance|p1a: Forretress
+|-supereffective|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|faint|p1a: Forretress
+|
+|upkeep
+|
+|t:|1743918846
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|6
+|
+|t:|1743918862
+|-terastallize|p2a: Iron Moth|Fairy
+|move|p1a: Greninja|Sludge Wave|p2a: Iron Moth
+|-start|p1a: Greninja|typechange|Poison|[from] ability: Protean
+|-supereffective|p2a: Iron Moth
+|-crit|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743918875
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Greninja|atk|1
+|turn|7
+|
+|t:|1743918885
+|switch|p1a: Revavroom|Revavroom, M|100/100
+|-item|p1a: Revavroom|Air Balloon
+|move|p2a: Landorus|Earthquake|p1a: Revavroom
+|-immune|p1a: Revavroom
+|
+|upkeep
+|turn|8
+|
+|t:|1743918891
+|move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+|-boost|p1a: Revavroom|spe|2
+|-boost|p1a: Revavroom|atk|1
+|move|p2a: Landorus|U-turn|p1a: Revavroom
+|-resisted|p1a: Revavroom
+|-damage|p1a: Revavroom|94/100
+|-enditem|p1a: Revavroom|Air Balloon
+|
+|t:|1743918900
+|switch|p2a: Zapdos|Zapdos|100/100|[from] U-turn
+|
+|upkeep
+|turn|9
+|
+|t:|1743918904
+|move|p1a: Revavroom|Poison Jab|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1743918915
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-damage|p2a: Landorus|76/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Revavroom|atk|1
+|turn|10
+|
+|t:|1743918922
+|switch|p1a: Thundurus|Thundurus-Therian, M|30/100
+|move|p2a: Landorus|Earthquake|p1a: Thundurus
+|-immune|p1a: Thundurus
+|
+|upkeep
+|turn|11
+|
+|t:|1743918928
+|move|p1a: Thundurus|Sludge Wave|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|54/100
+|move|p2a: Landorus|Stone Edge|p1a: Thundurus|[miss]
+|-miss|p2a: Landorus|p1a: Thundurus
+|
+|upkeep
+|turn|12
+|
+|t:|1743918934
+|move|p1a: Thundurus|Sludge Wave|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|31/100
+|-status|p2a: Landorus|psn
+|move|p2a: Landorus|Stone Edge|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-damage|p2a: Landorus|19/100 psn|[from] psn
+|upkeep
+|
+|t:|1743918943
+|switch|p1a: Ogerpon|Ogerpon, F|100/100
+|turn|13
+|
+|t:|1743918949
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|-damage|p2a: Alomomola|88/100|[from] Stealth Rock
+|-terastallize|p1a: Ogerpon|Grass
+|detailschange|p1a: Ogerpon|Ogerpon-Teal-Tera, F, tera:Grass
+|-ability|p1a: Ogerpon|Embody Aspect (Teal)|boost
+|-boost|p1a: Ogerpon|spe|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|upkeep
+|
+|t:|1743918956
+|switch|p2a: Comfey|Comfey, F|100/100
+|-damage|p2a: Comfey|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743918961
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Comfey
+|-damage|p2a: Comfey|0 fnt
+|faint|p2a: Comfey
+|
+|upkeep
+|-message|Elainads forfeited.
+|
+|win|technogiri
+|raw|technogiri's rating: 1189 &rarr; <strong>1216</strong><br />(+27 for winning)
+|raw|Elainads's rating: 1214 &rarr; <strong>1187</strong><br />(-27 for losing)
+|l|☆Elainads
+|player|p2|
+|l|☆technogiri
+|player|p1|

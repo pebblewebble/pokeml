@@ -1,0 +1,365 @@
+|j|☆kingofdondons
+|j|☆Hardencongafas
+|t:|1743826411
+|gametype|singles
+|player|p1|kingofdondons|101|1423
+|player|p2|Hardencongafas|1|1469
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Kingambit, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Iron Moth|
+|poke|p2|Iron Treads|
+|poke|p2|Emboar, F|
+|poke|p2|Primarina, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Hydreigon, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kingofdondons)
+|
+|t:|1743826427
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Samurott|atk|1
+|turn|1
+|
+|t:|1743826430
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|upkeep
+|turn|2
+|
+|t:|1743826433
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Landorus|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Hardencongafas|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1743826436
+|move|p1a: Landorus|Taunt|p2a: Corviknight
+|-start|p2a: Corviknight|move: Taunt
+|move|p2a: Corviknight|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|94/100
+|-damage|p2a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|t:|1743826439
+|switch|p2a: Hydreigon|Hydreigon, M|100/100|[from] U-turn
+|-damage|p2a: Hydreigon|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1743826449
+|move|p2a: Hydreigon|Draco Meteor|p1a: Landorus|[miss]
+|-miss|p2a: Hydreigon|p1a: Landorus
+|move|p1a: Landorus|U-turn|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|34/100
+|
+|t:|1743826452
+|switch|p1a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|
+|upkeep
+|turn|5
+|
+|t:|1743826458
+|switch|p2a: Corviknight|Corviknight, F|84/100
+|-damage|p2a: Corviknight|72/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Iron Valiant|Moonblast|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|49/100
+|-unboost|p2a: Corviknight|spa|1
+|
+|upkeep
+|turn|6
+|
+|t:|1743826467
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|22/100
+|-unboost|p2a: Corviknight|spd|1
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|72/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|7
+|inactive|Hardencongafas has 120 seconds left.
+|
+|t:|1743826503
+|move|p1a: Iron Valiant|Encore|p2a: Corviknight
+|-start|p2a: Corviknight|Encore
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|8
+|
+|t:|1743826506
+|switch|p2a: Primarina|Primarina, F|100/100
+|-damage|p2a: Primarina|88/100|[from] Stealth Rock
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Primarina
+|-crit|p2a: Primarina
+|-damage|p2a: Primarina|67/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743826512
+|move|p1a: Iron Valiant|Destiny Bond|p1a: Iron Valiant
+|-singlemove|p1a: Iron Valiant|Destiny Bond
+|move|p2a: Primarina|Moonblast|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-activate|p1a: Iron Valiant|move: Destiny Bond
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|faint|p2a: Primarina
+|
+|upkeep
+|inactive|Hardencongafas has 120 seconds left.
+|
+|t:|1743826543
+|switch|p1a: Landorus|Landorus-Therian, M|94/100
+|switch|p2a: Emboar|Emboar, F, shiny|100/100
+|-damage|p2a: Emboar|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Emboar|atk|1
+|turn|10
+|inactive|Hardencongafas has 120 seconds left.
+|
+|t:|1743826550
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Landorus|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|upkeep
+|turn|11
+|
+|t:|1743826559
+|move|p1a: Landorus|Taunt|p2a: Corviknight
+|-start|p2a: Corviknight|move: Taunt
+|move|p2a: Corviknight|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|87/100
+|-damage|p2a: Corviknight|72/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|t:|1743826563
+|switch|p2a: Hydreigon|Hydreigon, M|34/100|[from] U-turn
+|-damage|p2a: Hydreigon|22/100|[from] Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|t:|1743826566
+|move|p2a: Hydreigon|Draco Meteor|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-unboost|p2a: Hydreigon|spa|2
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743826570
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|13
+|
+|t:|1743826583
+|move|p1a: Iron Moth|Fiery Dance|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|t:|1743826586
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Moth|atk|1
+|turn|14
+|
+|t:|1743826605
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Landorus|Earthquake|p1a: Zamazenta
+|-damage|p1a: Zamazenta|56/100
+|
+|-heal|p1a: Zamazenta|63/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743826625
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Landorus|Earthquake|p1a: Zamazenta
+|-damage|p1a: Zamazenta|38/100
+|
+|-heal|p1a: Zamazenta|44/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743826636
+|switch|p2a: Corviknight|Corviknight, F|72/100
+|-damage|p2a: Corviknight|59/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Zamazenta|Body Press|p2a: Corviknight
+|-damage|p2a: Corviknight|8/100
+|-damage|p1a: Zamazenta|28/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-heal|p1a: Zamazenta|34/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|Hardencongafas has 120 seconds left.
+|l|☆Hardencongafas
+|inactive|Hardencongafas disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆Hardencongafas
+|inactive|Hardencongafas reconnected and has 95 seconds left.
+|player|p2|Hardencongafas|1|
+|inactive|Hardencongafas has 90 seconds left.
+|
+|t:|1743826697
+|move|p1a: Zamazenta|Body Press|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Zamazenta|17/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|
+|-heal|p1a: Zamazenta|23/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743826706
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-damage|p2a: Landorus|76/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zamazenta|atk|1
+|turn|18
+|inactive|Hardencongafas has 90 seconds left.
+|
+|t:|1743826713
+|-terastallize|p2a: Landorus|Flying
+|move|p1a: Zamazenta|Body Press|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|28/100
+|move|p2a: Landorus|Tera Blast|p1a: Zamazenta|[anim] Tera Blast Flying
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|inactive|kingofdondons has 120 seconds left.
+|inactive|kingofdondons has 90 seconds left.
+|
+|t:|1743826790
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|19
+|
+|t:|1743826802
+|move|p1a: Samurott|Sucker Punch|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743826809
+|switch|p2a: Emboar|Emboar, F, shiny|88/100
+|-damage|p2a: Emboar|76/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743826811
+|move|p2a: Emboar|Close Combat|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-enditem|p1a: Samurott|Focus Sash
+|-damage|p1a: Samurott|1/100
+|-unboost|p2a: Emboar|def|1
+|-unboost|p2a: Emboar|spd|1
+|move|p1a: Samurott|Razor Shell|p2a: Emboar
+|-supereffective|p2a: Emboar
+|-damage|p2a: Emboar|0 fnt
+|faint|p2a: Emboar
+|
+|upkeep
+|inactive|Hardencongafas has 90 seconds left.
+|
+|t:|1743826844
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1743826855
+|move|p1a: Samurott|Sucker Punch|p2a: Iron Treads
+|-damage|p2a: Iron Treads|65/100
+|move|p2a: Iron Treads|Rapid Spin|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: Hardencongafas|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|faint|p1a: Samurott
+|
+|-heal|p2a: Iron Treads|71/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743826857
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|22
+|inactive|Hardencongafas has 90 seconds left.
+|inactive|Hardencongafas has 60 seconds left.
+|
+|t:|1743826903
+|-terastallize|p1a: Kingambit|Ghost
+|move|p2a: Iron Treads|Earthquake|p1a: Kingambit
+|-damage|p1a: Kingambit|67/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p2a: Iron Treads|77/100|[from] item: Leftovers
+|-heal|p1a: Kingambit|73/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|kingofdondons has 120 seconds left.
+|
+|t:|1743826928
+|move|p1a: Kingambit|Sucker Punch|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|win|kingofdondons
+|raw|kingofdondons's rating: 1423 &rarr; <strong>1446</strong><br />(+23 for winning)
+|raw|Hardencongafas's rating: 1469 &rarr; <strong>1446</strong><br />(-23 for losing)

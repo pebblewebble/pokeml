@@ -1,0 +1,363 @@
+|j|‽esteostrali
+|j|☆SunstarAPLN
+|t:|1743855830
+|gametype|singles
+|player|p1|esteostrali|dragontamer|1491
+|player|p2|SunstarAPLN|266|1583
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cobalion|
+|poke|p1|Skeledirge, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Great Tusk|
+|poke|p1|Pecharunt|
+|poke|p1|Zapdos|
+|poke|p2|Iron Moth|
+|poke|p2|Kingambit, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Raging Bolt|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SunstarAPLN)
+|
+|t:|1743855850
+|start
+|switch|p1a: Cobalion|Cobalion|100/100
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|1
+|
+|t:|1743855873
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Cobalion|Stealth Rock|p2a: Iron Moth
+|-sidestart|p2: SunstarAPLN|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743855880
+|switch|p1a: Skeledirge|Skeledirge, M|100/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-crit|p1a: Skeledirge
+|-damage|p1a: Skeledirge|81/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743855892
+|move|p2a: Iron Moth|Sludge Wave|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|63/100
+|move|p1a: Skeledirge|Torch Song|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|84/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743855899
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Skeledirge|Slack Off|p1a: Skeledirge
+|-heal|p1a: Skeledirge|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743855907
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Skeledirge
+|-damage|p1a: Skeledirge|49/100
+|move|p1a: Skeledirge|Earth Power|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|22/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743855918
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Zapdos
+|-damage|p1a: Zapdos|36/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743855923
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1743855932
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|8
+|
+|t:|1743855947
+|move|p1a: Rillaboom|Wood Hammer|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|-damage|p1a: Rillaboom|93/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|99/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743855952
+|switch|p2a: Iron Moth|Iron Moth|84/100
+|-damage|p2a: Iron Moth|59/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743855959
+|switch|p1a: Skeledirge|Skeledirge, M|49/100
+|move|p2a: Iron Moth|Sludge Wave|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|33/100
+|
+|-heal|p2a: Iron Moth|65/100|[from] Grassy Terrain
+|-heal|p1a: Skeledirge|39/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1743855966
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|move|p1a: Skeledirge|Slack Off|p1a: Skeledirge
+|-heal|p1a: Skeledirge|89/100
+|
+|-heal|p2a: Ogerpon|94/100|[from] Grassy Terrain
+|-heal|p1a: Skeledirge|95/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1743855972
+|switch|p1a: Cobalion|Cobalion|100/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Cobalion|[anim] Ivy Cudgel Rock
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|90/100
+|
+|-heal|p2a: Ogerpon|99/100|[from] Grassy Terrain
+|-heal|p1a: Cobalion|96/100|[from] Grassy Terrain
+|-heal|p1a: Cobalion|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743855979
+|switch|p2a: Iron Moth|Iron Moth|65/100
+|-damage|p2a: Iron Moth|40/100|[from] Stealth Rock
+|move|p1a: Cobalion|Body Press|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|16/100
+|
+|-heal|p2a: Iron Moth|22/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1743855990
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|switch|p1a: Skeledirge|Skeledirge, M|95/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743855995
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Iron Valiant|Knock Off|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|60/100
+|-enditem|p1a: Pecharunt|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Iron Valiant
+|
+|upkeep
+|turn|15
+|
+|t:|1743856004
+|-terastallize|p2a: Iron Valiant|Steel
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|move|p1a: Pecharunt|Malignant Chain|p2a: Iron Valiant
+|-immune|p2a: Iron Valiant
+|
+|upkeep
+|turn|16
+|
+|t:|1743856019
+|move|p2a: Iron Valiant|Knock Off|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|4/100
+|move|p1a: Pecharunt|Shadow Ball|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|29/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743856022
+|move|p2a: Iron Valiant|Knock Off|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|upkeep
+|inactive|esteostrali has 120 seconds left.
+|
+|t:|1743856054
+|switch|p1a: Skeledirge|Skeledirge, M|95/100
+|turn|18
+|
+|t:|1743856062
+|-terastallize|p1a: Skeledirge|Fairy
+|move|p2a: Iron Valiant|Knock Off|p1a: Skeledirge
+|-resisted|p1a: Skeledirge
+|-damage|p1a: Skeledirge|81/100
+|-enditem|p1a: Skeledirge|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Skeledirge|Will-O-Wisp|p2a: Iron Valiant
+|-status|p2a: Iron Valiant|brn
+|
+|-damage|p2a: Iron Valiant|22/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1743856068
+|move|p2a: Iron Valiant|Destiny Bond|p2a: Iron Valiant
+|-singlemove|p2a: Iron Valiant|Destiny Bond
+|move|p1a: Skeledirge|Torch Song|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-boost|p1a: Skeledirge|spa|1
+|faint|p2a: Iron Valiant
+|-activate|p2a: Iron Valiant|move: Destiny Bond
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|faint|p1a: Skeledirge
+|
+|upkeep
+|inactive|esteostrali has 120 seconds left.
+|
+|t:|1743856090
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|20
+|
+|t:|1743856107
+|move|p1a: Great Tusk|Rapid Spin|p2a: Dragonite
+|-damage|p2a: Dragonite|88/100
+|-boost|p1a: Great Tusk|spe|1
+|move|p2a: Dragonite|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|71/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743856118
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|move|p2a: Dragonite|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|53/100
+|
+|upkeep
+|turn|22
+|
+|t:|1743856124
+|move|p1a: Great Tusk|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|19/100
+|-enditem|p2a: Dragonite|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Dragonite|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|34/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743856133
+|move|p2a: Dragonite|Extreme Speed|p1a: Great Tusk
+|-damage|p1a: Great Tusk|17/100
+|move|p1a: Great Tusk|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1743856138
+|switch|p2a: Iron Moth|Iron Moth|22/100
+|-damage|p2a: Iron Moth|0 fnt|[from] Stealth Rock
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|t:|1743856149
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|99/100
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1743856155
+|move|p1a: Great Tusk|Headlong Rush|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743856158
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|25
+|
+|t:|1743856162
+|move|p2a: Kingambit|Sucker Punch|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743856165
+|switch|p1a: Cobalion|Cobalion|100/100
+|turn|26
+|
+|t:|1743856170
+|move|p1a: Cobalion|Body Press|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|esteostrali
+|raw|esteostrali's rating: 1491 &rarr; <strong>1516</strong><br />(+25 for winning)
+|raw|SunstarAPLN's rating: 1583 &rarr; <strong>1558</strong><br />(-25 for losing)
+|l|☆SunstarAPLN
+|player|p2|
+|l|‽esteostrali
+|player|p1|

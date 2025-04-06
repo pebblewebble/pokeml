@@ -1,0 +1,301 @@
+|j|☆UtterlyIncapable
+|j|☆Wahter
+|t:|1743874834
+|gametype|singles
+|player|p1|UtterlyIncapable|roxie|1160
+|player|p2|Wahter|101|1120
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Delphox, F|
+|poke|p1|Armarouge, M|
+|poke|p1|Ceruledge, F|
+|poke|p1|Chandelure, M|
+|poke|p1|Salazzle, F|
+|poke|p2|Glimmora, M|
+|poke|p2|Dondozo, M|
+|poke|p2|Kommo-o, M|
+|poke|p2|Mienshao, M|
+|poke|p2|Ariados, F|
+|poke|p2|Okidogi, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Wahter)
+|
+|t:|1743874838
+|start
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|switch|p2a: Ariados|Ariados, F|100/100
+|turn|1
+|
+|t:|1743874846
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Ariados|Sticky Web|p1a: Torkoal
+|-sidestart|p1: UtterlyIncapable|move: Sticky Web
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743874854
+|move|p2a: Ariados|Toxic Thread|p1a: Torkoal
+|-unboost|p1a: Torkoal|spe|1
+|-enditem|p1a: Torkoal|Eject Pack
+|-status|p1a: Torkoal|psn
+|
+|t:|1743874864
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|-activate|p1a: Salazzle|move: Sticky Web
+|-unboost|p1a: Salazzle|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743874870
+|move|p1a: Salazzle|Encore|p2a: Ariados
+|-start|p2a: Ariados|Encore
+|move|p2a: Ariados|Toxic Thread|p1a: Salazzle
+|-unboost|p1a: Salazzle|spe|1
+|-immune|p1a: Salazzle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743874873
+|move|p1a: Salazzle|Toxic|p2a: Ariados
+|-status|p2a: Ariados|tox
+|move|p2a: Ariados|Toxic Thread|p1a: Salazzle
+|-unboost|p1a: Salazzle|spe|1
+|-immune|p1a: Salazzle
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ariados|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743874877
+|move|p1a: Salazzle|Disable|p2a: Ariados
+|-start|p2a: Ariados|Disable|Toxic Thread
+|cant|p2a: Ariados|Disable|Toxic Thread
+|
+|-weather|none
+|-damage|p2a: Ariados|82/100 tox|[from] psn
+|-end|p2a: Ariados|Encore
+|upkeep
+|turn|6
+|
+|t:|1743874889
+|move|p1a: Salazzle|Encore|p2a: Ariados
+|-start|p2a: Ariados|Encore
+|cant|p2a: Ariados|Disable|Toxic Thread
+|
+|-damage|p2a: Ariados|64/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743874894
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|-activate|p1a: Ceruledge|move: Sticky Web
+|-unboost|p1a: Ceruledge|spe|1
+|-activate|p2a: Ariados|move: Struggle
+|move|p2a: Ariados|Struggle|p1a: Ceruledge
+|-damage|p1a: Ceruledge|80/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|-damage|p2a: Ariados|39/100 tox|[from] recoil
+|
+|-damage|p2a: Ariados|14/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743874900
+|move|p1a: Ceruledge|Bitter Blade|p2a: Ariados
+|-supereffective|p2a: Ariados
+|-damage|p2a: Ariados|0 fnt
+|-heal|p1a: Ceruledge|88/100|[from] drain|[of] p2a: Ariados
+|faint|p2a: Ariados
+|
+|upkeep
+|
+|t:|1743874903
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|turn|9
+|
+|t:|1743874907
+|move|p1a: Ceruledge|Endure|p1a: Ceruledge
+|-singleturn|p1a: Ceruledge|move: Endure
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743874910
+|move|p1a: Ceruledge|Endure|p1a: Ceruledge
+|-singleturn|p1a: Ceruledge|move: Endure
+|move|p2a: Dondozo|Wave Crash|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-activate|p1a: Ceruledge|move: Endure
+|-damage|p1a: Ceruledge|1/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|-enditem|p1a: Ceruledge|Weakness Policy
+|-boost|p1a: Ceruledge|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Ceruledge|spa|2|[from] item: Weakness Policy
+|-damage|p2a: Dondozo|83/100|[from] Recoil
+|
+|-heal|p2a: Dondozo|89/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743874915
+|-terastallize|p1a: Ceruledge|Stellar
+|move|p1a: Ceruledge|Stored Power|p2a: Dondozo
+|-damage|p2a: Dondozo|45/100
+|move|p2a: Dondozo|Wave Crash|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|-damage|p2a: Dondozo|45/100|[from] Recoil
+|
+|-heal|p2a: Dondozo|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743874925
+|switch|p1a: Armarouge|Armarouge, M|100/100
+|-activate|p1a: Armarouge|move: Sticky Web
+|-unboost|p1a: Armarouge|spe|1
+|turn|12
+|
+|t:|1743874935
+|move|p1a: Armarouge|Armor Cannon|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|22/100
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|13
+|
+|t:|1743874942
+|move|p1a: Armarouge|Clear Smog|p2a: Dondozo
+|-damage|p2a: Dondozo|83/100 slp
+|-clearboost|p2a: Dondozo
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Curse|p2a: Dondozo|[from] move: Sleep Talk
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|89/100 slp|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743874958
+|move|p1a: Armarouge|Armor Cannon|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|59/100 slp
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|cant|p2a: Dondozo|slp
+|
+|-heal|p2a: Dondozo|65/100 slp|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743874964
+|move|p1a: Armarouge|Armor Cannon|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|34/100 slp
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Sleep Talk||[still]
+|-fail|p2a: Dondozo
+|
+|-heal|p2a: Dondozo|40/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743874969
+|move|p1a: Armarouge|Armor Cannon|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|6/100
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|17
+|
+|t:|1743874976
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|-activate|p1a: Salazzle|move: Sticky Web
+|-unboost|p1a: Salazzle|spe|1
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Curse|p2a: Dondozo|[from] move: Sleep Talk
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|upkeep
+|turn|18
+|
+|t:|1743874987
+|move|p1a: Salazzle|Toxic||[still]
+|-fail|p1a: Salazzle
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Curse|p2a: Dondozo|[from] move: Sleep Talk
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|upkeep
+|turn|19
+|
+|t:|1743874992
+|move|p1a: Salazzle|Encore||[still]
+|-fail|p1a: Salazzle
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Wave Crash|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|-damage|p2a: Dondozo|78/100|[from] Recoil
+|
+|-heal|p2a: Dondozo|84/100|[from] item: Leftovers
+|upkeep
+|-message|UtterlyIncapable forfeited.
+|
+|win|Wahter
+|raw|UtterlyIncapable's rating: 1160 &rarr; <strong>1132</strong><br />(-28 for losing)
+|raw|Wahter's rating: 1120 &rarr; <strong>1148</strong><br />(+28 for winning)
+|l|☆UtterlyIncapable
+|player|p1|
+|l|☆Wahter
+|player|p2|

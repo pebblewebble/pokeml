@@ -1,0 +1,364 @@
+|j|☆choalaimeo
+|j|☆varimare
+|t:|1743848165
+|gametype|singles
+|player|p1|choalaimeo|hooligans|1183
+|player|p2|varimare|giovanni|1206
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Ditto|
+|poke|p1|Hydrapple, M|
+|poke|p1|Typhlosion-Hisui, F|
+|poke|p1|Ninetales, M|
+|poke|p1|Excadrill, M|
+|poke|p2|Serperior, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Gliscor, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Iron Boulder|
+|poke|p2|Drifblim, F|
+|teampreview
+|
+|t:|1743848177
+|start
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|-item|p1a: Excadrill|Air Balloon
+|turn|1
+|
+|t:|1743848186
+|move|p1a: Excadrill|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: varimare|move: Stealth Rock
+|move|p2a: Gliscor|Knock Off|p1a: Excadrill
+|-damage|p1a: Excadrill|64/100
+|-enditem|p1a: Excadrill|Air Balloon
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743848197
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Gliscor|[from] ability: Imposter
+|move|p2a: Gliscor|Earthquake|p1a: Ditto
+|-immune|p1a: Ditto
+|
+|upkeep
+|turn|3
+|
+|t:|1743848207
+|move|p1a: Ditto|Protect|p1a: Ditto
+|-singleturn|p1a: Ditto|Protect
+|move|p2a: Gliscor|Dual Wingbeat|p1a: Ditto
+|-activate|p1a: Ditto|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1743848214
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Gliscor|Dual Wingbeat|p1a: Ninetales
+|-damage|p1a: Ninetales|74/100
+|-damage|p1a: Ninetales|49/100
+|-hitcount|p1a: Ninetales|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743848244
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Ninetales|Fire Blast|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743848267
+|move|p1a: Ninetales|Fire Blast|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743848278
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|-damage|p2a: Iron Boulder|88/100|[from] Stealth Rock
+|-enditem|p2a: Iron Boulder|Booster Energy
+|-activate|p2a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Boulder|quarkdriveatk
+|turn|7
+|
+|t:|1743848287
+|switch|p1a: Hydrapple|Hydrapple, M|100/100
+|move|p2a: Iron Boulder|Mighty Cleave|p1a: Hydrapple
+|-damage|p1a: Hydrapple|53/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743848299
+|-terastallize|p2a: Iron Boulder|Flying
+|move|p2a: Iron Boulder|Close Combat|p1a: Hydrapple
+|-damage|p1a: Hydrapple|8/100
+|-unboost|p2a: Iron Boulder|def|1
+|-unboost|p2a: Iron Boulder|spd|1
+|move|p1a: Hydrapple|Giga Drain|p2a: Iron Boulder
+|-resisted|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|60/100
+|-heal|p1a: Hydrapple|19/100|[from] drain|[of] p2a: Iron Boulder
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743848313
+|switch|p1a: Typhlosion|Typhlosion-Hisui, F|100/100
+|move|p2a: Iron Boulder|Mighty Cleave|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743848323
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|10
+|
+|t:|1743848334
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|switch|p2a: Kamikaze|Corviknight, M, shiny|100/100
+|-damage|p2a: Kamikaze|88/100|[from] Stealth Rock
+|-terastallize|p1a: Arcanine|Grass
+|move|p1a: Arcanine|Agility|p1a: Arcanine
+|-boost|p1a: Arcanine|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kamikaze|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743848346
+|move|p1a: Arcanine|Flare Blitz|p2a: Kamikaze
+|-supereffective|p2a: Kamikaze
+|-damage|p2a: Kamikaze|0 fnt
+|faint|p2a: Kamikaze
+|-damage|p1a: Arcanine|91/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1743848360
+|switch|p2a: Drifblim|Drifblim, F|100/100
+|-damage|p2a: Drifblim|75/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1743848364
+|move|p1a: Arcanine|Head Smash|p2a: Drifblim|[miss]
+|-miss|p1a: Arcanine|p2a: Drifblim
+|move|p2a: Drifblim|Tailwind|p2a: Drifblim
+|-sidestart|p2: varimare|move: Tailwind
+|
+|-heal|p2a: Drifblim|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743848372
+|move|p1a: Arcanine|Agility|p1a: Arcanine
+|-boost|p1a: Arcanine|spe|2
+|move|p2a: Drifblim|Thunder Wave|p1a: Arcanine
+|-status|p1a: Arcanine|par
+|
+|-heal|p2a: Drifblim|88/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743848378
+|move|p1a: Arcanine|Agility|p1a: Arcanine
+|-boost|p1a: Arcanine|spe|2
+|move|p2a: Drifblim|Defog|p1a: Arcanine
+|-unboost|p1a: Arcanine|evasion|1
+|-sideend|p2: varimare|Stealth Rock|[from] move: Defog|[of] p2a: Drifblim
+|
+|-heal|p2a: Drifblim|94/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743848389
+|move|p1a: Arcanine|Head Smash|p2a: Drifblim|[miss]
+|-miss|p1a: Arcanine|p2a: Drifblim
+|move|p2a: Drifblim|Haze|p2a: Drifblim
+|-clearallboost
+|
+|-heal|p2a: Drifblim|99/100|[from] item: Leftovers
+|-sideend|p2: varimare|move: Tailwind
+|upkeep
+|turn|16
+|
+|t:|1743848396
+|move|p2a: Drifblim|Tailwind|p2a: Drifblim
+|-sidestart|p2: varimare|move: Tailwind
+|move|p1a: Arcanine|Head Smash|p2a: Drifblim|[miss]
+|-miss|p1a: Arcanine|p2a: Drifblim
+|
+|-heal|p2a: Drifblim|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743848411
+|switch|p2a: Serperior|Serperior, M, shiny|100/100
+|move|p1a: Arcanine|Head Smash|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|-damage|p1a: Arcanine|81/100 par|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743848413
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|18
+|
+|t:|1743848423
+|move|p2a: Ogerpon|U-turn|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|10/100 par
+|
+|t:|1743848427
+|switch|p2a: Drifblim|Drifblim, F|100/100|[from] U-turn
+|move|p1a: Arcanine|Head Smash|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|-damage|p1a: Arcanine|0 fnt|[from] item: Life Orb
+|faint|p1a: Arcanine
+|
+|upkeep
+|
+|t:|1743848440
+|switch|p1a: Ninetales|Ninetales, M|49/100
+|switch|p2a: Iron Boulder|Iron Boulder, tera:Flying|60/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|19
+|
+|t:|1743848450
+|move|p2a: Iron Boulder|Mighty Cleave|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: varimare|move: Tailwind
+|upkeep
+|
+|t:|1743848454
+|switch|p1a: Hydrapple|Hydrapple, M|53/100
+|turn|20
+|
+|t:|1743848462
+|move|p2a: Iron Boulder|Mighty Cleave|p1a: Hydrapple
+|-damage|p1a: Hydrapple|16/100
+|move|p1a: Hydrapple|Fickle Beam|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|18/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743848470
+|move|p2a: Iron Boulder|Mighty Cleave|p1a: Hydrapple
+|-damage|p1a: Hydrapple|0 fnt
+|faint|p1a: Hydrapple
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743848472
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Iron Boulder|[from] ability: Imposter
+|turn|22
+|
+|t:|1743848485
+|move|p1a: Ditto|Mighty Cleave|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|0 fnt
+|faint|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743848488
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|23
+|
+|t:|1743848491
+|-end|p1a: Ditto|Quark Drive|[silent]
+|switch|p1a: Excadrill|Excadrill, M|64/100
+|-ability|p1a: Excadrill|Mold Breaker
+|move|p2a: Ogerpon|Spiky Shield||[still]
+|-fail|p2a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1743848504
+|move|p2a: Ogerpon|Wood Hammer|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|-damage|p2a: Ogerpon|75/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743848512
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Ogerpon|[from] ability: Imposter
+|turn|25
+|
+|t:|1743848538
+|move|p2a: Ogerpon|Spiky Shield|p2a: Ogerpon
+|-singleturn|p2a: Ogerpon|move: Protect
+|move|p1a: Ditto|Wood Hammer|p2a: Ogerpon
+|-activate|p2a: Ogerpon|move: Protect
+|-damage|p1a: Ditto|88/100|[from] Spiky Shield|[of] p2a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1743848549
+|move|p1a: Ditto|Wood Hammer|p2a: Ogerpon
+|-damage|p2a: Ogerpon|3/100
+|-damage|p1a: Ditto|64/100|[from] Recoil
+|move|p2a: Ogerpon|U-turn|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|win|varimare
+|raw|choalaimeo's rating: 1183 &rarr; <strong>1160</strong><br />(-23 for losing)
+|raw|varimare's rating: 1206 &rarr; <strong>1229</strong><br />(+23 for winning)
+|l|☆choalaimeo
+|player|p1|
+|l|☆varimare
+|player|p2|

@@ -1,0 +1,259 @@
+|j|☆Golem Rising
+|j|☆Ultimate Fight
+|t:|1743807778
+|gametype|singles
+|player|p1|Golem Rising|alder|1620
+|player|p2|Ultimate Fight|266|1624
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Walking Wake|
+|poke|p1|Venusaur, F|
+|poke|p1|Great Tusk|
+|poke|p1|Slither Wing|
+|poke|p1|Hatterene, F|
+|poke|p2|Iron Moth|
+|poke|p2|Kingambit, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Raging Bolt|
+|teampreview
+|j| Adromas
+|
+|t:|1743807807
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1743807821
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Slither Wing|[anim] Ivy Cudgel Rock
+|-damage|p1a: Slither Wing|34/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743807837
+|move|p1a: Slither Wing|First Impression|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-ability|p2a: Ogerpon|Sturdy
+|-damage|p2a: Ogerpon|1/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Slither Wing|[anim] Ivy Cudgel Rock
+|-damage|p1a: Slither Wing|0 fnt
+|faint|p1a: Slither Wing
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743807846
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|3
+|
+|t:|1743807890
+|move|p1a: Walking Wake|Flip Turn|p2a: Ogerpon
+|-crit|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|j| Le Bouquetin
+|
+|t:|1743807920
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100|[from] Flip Turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743807937
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|4
+|
+|t:|1743807942
+|move|p2a: Kingambit|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743807946
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|5
+|l| Adromas
+|
+|t:|1743807995
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Great Tusk|Close Combat|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|70/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743808012
+|move|p2a: Dragonite|Extreme Speed|p1a: Great Tusk
+|-damage|p1a: Great Tusk|63/100
+|move|p1a: Great Tusk|Close Combat|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|1/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743808029
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|move|p2a: Dragonite|Extreme Speed|p1a: Torkoal
+|-damage|p1a: Torkoal|82/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743808035
+|move|p2a: Dragonite|Earthquake|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|35/100
+|move|p1a: Torkoal|Lava Plume|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|none
+|upkeep
+|
+|t:|1743808047
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|9
+|
+|t:|1743808053
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Venusaur
+|-damage|p1a: Venusaur|25/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743808065
+|switch|p1a: Torkoal|Torkoal, F|35/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743808073
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|11
+|
+|t:|1743808096
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|move|p1a: Walking Wake|Hydro Steam|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743808108
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|12
+|
+|t:|1743808133
+|-terastallize|p1a: Walking Wake|Water
+|move|p2a: Iron Valiant|Close Combat|p1a: Walking Wake
+|-damage|p1a: Walking Wake|37/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|move|p1a: Walking Wake|Hydro Steam|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743808168
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|13
+|
+|t:|1743808177
+|move|p2a: Iron Moth|Energy Ball|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743808182
+|switch|p1a: Venusaur|Venusaur, F|25/100
+|turn|14
+|
+|t:|1743808191
+|-terastallize|p2a: Iron Moth|Grass
+|move|p2a: Iron Moth|Fiery Dance|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Golem Rising forfeited.
+|
+|win|Ultimate Fight
+|raw|Golem Rising's rating: 1620 &rarr; <strong>1600</strong><br />(-20 for losing)
+|raw|Ultimate Fight's rating: 1624 &rarr; <strong>1644</strong><br />(+20 for winning)
+|l|☆Golem Rising
+|player|p1|
+|l|☆Ultimate Fight
+|player|p2|

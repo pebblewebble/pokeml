@@ -1,0 +1,465 @@
+|j|☆Audio Peel
+|j|☆temporarylight
+|t:|1743794116
+|gametype|singles
+|player|p1|Audio Peel|unknownf|1814
+|player|p2|temporarylight|265|1789
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Crown|
+|poke|p1|Heatran, F|
+|poke|p1|Zapdos|
+|poke|p1|Rillaboom, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Great Tusk|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Garchomp, F|
+|poke|p2|Pecharunt|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Clefable, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by temporarylight)
+|
+|t:|1743794126
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|1
+|
+|t:|1743794138
+|move|p2a: Tornadus|Knock Off|p1a: Zapdos
+|-damage|p1a: Zapdos|87/100
+|-enditem|p1a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Tornadus
+|move|p1a: Zapdos|Hurricane|p2a: Tornadus
+|-damage|p2a: Tornadus|73/100
+|-start|p2a: Tornadus|confusion
+|
+|upkeep
+|turn|2
+|
+|t:|1743794151
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|move|p1a: Zapdos|Hurricane|p2a: Garchomp
+|-damage|p2a: Garchomp|59/100
+|-start|p2a: Garchomp|confusion
+|
+|upkeep
+|turn|3
+|c|☆Audio Peel|mb
+|
+|t:|1743794160
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-activate|p2a: Garchomp|confusion
+|move|p2a: Garchomp|Stealth Rock|p1a: Rillaboom
+|-sidestart|p1: Audio Peel|move: Stealth Rock
+|
+|-heal|p2a: Garchomp|65/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1743794167
+|-activate|p2a: Garchomp|confusion
+|move|p2a: Garchomp|Spikes|p1a: Rillaboom
+|-sidestart|p1: Audio Peel|Spikes
+|move|p1a: Rillaboom|U-turn|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|43/100
+|-damage|p1a: Rillaboom|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Rillaboom|72/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|
+|t:|1743794174
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|-damage|p1a: Ogerpon|76/100|[from] Spikes
+|
+|-heal|p1a: Ogerpon|82/100|[from] Grassy Terrain
+|-heal|p2a: Garchomp|49/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1743794189
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Tornadus|[anim] Ivy Cudgel Water
+|-damage|p2a: Tornadus|23/100
+|
+|-heal|p1a: Ogerpon|88/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|j| Jmoneyy1212
+|
+|t:|1743794204
+|move|p1a: Ogerpon|Grassy Glide|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-heal|p1a: Ogerpon|94/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743794208
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|7
+|
+|t:|1743794214
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|move|p2a: Pecharunt|Hex|p1a: Ogerpon
+|-damage|p1a: Ogerpon|70/100
+|
+|-heal|p1a: Ogerpon|76/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1743794218
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Pecharunt|[anim] Ivy Cudgel Water
+|-damage|p2a: Pecharunt|12/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Ogerpon
+|-damage|p1a: Ogerpon|52/100
+|-status|p1a: Ogerpon|tox
+|-start|p1a: Ogerpon|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|
+|-heal|p1a: Ogerpon|58/100 tox|[from] Grassy Terrain
+|-heal|p2a: Pecharunt|18/100|[from] Grassy Terrain
+|-damage|p1a: Ogerpon|52/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743794227
+|switch|p2a: Garchomp|Garchomp, F|49/100
+|-activate|p1a: Ogerpon|confusion
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Garchomp|[anim] Ivy Cudgel Water
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-heal|p1a: Ogerpon|58/100 tox|[from] Grassy Terrain
+|-damage|p1a: Ogerpon|46/100 tox|[from] psn
+|upkeep
+|j| Pokemon Malarkey
+|
+|t:|1743794236
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|10
+|
+|t:|1743794246
+|-end|p1a: Ogerpon|confusion
+|move|p1a: Ogerpon|Play Rough|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|39/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-heal|p1a: Ogerpon|52/100 tox|[from] Grassy Terrain
+|-damage|p1a: Ogerpon|34/100 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1743794252
+|move|p2a: Dragonite|Extreme Speed|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|j| THING MAKER
+|l| Pokemon Malarkey
+|
+|t:|1743794265
+|switch|p1a: Zapdos|Zapdos|87/100
+|-damage|p1a: Zapdos|62/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1743794271
+|switch|p2a: Pecharunt|Pecharunt|18/100
+|move|p1a: Zapdos|Volt Switch|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|t:|1743794274
+|switch|p1a: Rillaboom|Rillaboom, M|72/100|[from] Volt Switch
+|-damage|p1a: Rillaboom|59/100|[from] Stealth Rock
+|-damage|p1a: Rillaboom|47/100|[from] Spikes
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|
+|-heal|p1a: Rillaboom|53/100|[from] Grassy Terrain
+|upkeep
+|j| Pokemon Malarkey
+|inactive|temporarylight has 120 seconds left.
+|
+|t:|1743794308
+|switch|p2a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|13
+|
+|t:|1743794315
+|switch|p1a: Zapdos|Zapdos|62/100
+|-damage|p1a: Zapdos|38/100|[from] Stealth Rock
+|move|p2a: Arcanine|Flare Blitz|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1743794319
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|14
+|
+|t:|1743794323
+|-terastallize|p2a: Arcanine|Ghost
+|move|p2a: Arcanine|Will-O-Wisp|p1a: Great Tusk
+|-status|p1a: Great Tusk|brn
+|move|p1a: Great Tusk|Rapid Spin|p2a: Arcanine
+|-immune|p2a: Arcanine
+|
+|-damage|p1a: Great Tusk|94/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743794328
+|move|p2a: Arcanine|Flare Blitz|p1a: Great Tusk
+|-damage|p1a: Great Tusk|54/100 brn
+|move|p1a: Great Tusk|Knock Off|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|55/100
+|-enditem|p2a: Arcanine|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-heal|p2a: Arcanine|61/100|[from] Grassy Terrain
+|-heal|p1a: Great Tusk|60/100 brn|[from] Grassy Terrain
+|-damage|p1a: Great Tusk|54/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743794339
+|move|p2a: Arcanine|Flare Blitz|p1a: Great Tusk
+|-damage|p1a: Great Tusk|13/100 brn
+|move|p1a: Great Tusk|Stealth Rock|p2a: Arcanine
+|-sidestart|p2: temporarylight|move: Stealth Rock
+|
+|-heal|p2a: Arcanine|67/100|[from] Grassy Terrain
+|-heal|p1a: Great Tusk|19/100 brn|[from] Grassy Terrain
+|-damage|p1a: Great Tusk|13/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743794347
+|move|p2a: Arcanine|Flare Blitz|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: Arcanine|73/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743794351
+|switch|p1a: Rillaboom|Rillaboom, M|53/100
+|-damage|p1a: Rillaboom|41/100|[from] Stealth Rock
+|-damage|p1a: Rillaboom|29/100|[from] Spikes
+|turn|18
+|
+|t:|1743794358
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Rillaboom|Grassy Glide|p2a: Clefable
+|-damage|p2a: Clefable|75/100
+|-damage|p1a: Rillaboom|12/100|[from] item: Rocky Helmet|[of] p2a: Clefable
+|
+|-heal|p1a: Rillaboom|18/100|[from] Grassy Terrain
+|-heal|p2a: Clefable|81/100|[from] Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1743794362
+|switch|p2a: Dragonite|Dragonite, F|39/100
+|move|p1a: Rillaboom|Wood Hammer|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|22/100
+|-damage|p1a: Rillaboom|12/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|18/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|20
+|
+|t:|1743794369
+|move|p2a: Dragonite|Extreme Speed|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|upkeep
+|j| stierball
+|
+|t:|1743794375
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-damage|p1a: Iron Crown|94/100|[from] Stealth Rock
+|-damage|p1a: Iron Crown|82/100|[from] Spikes
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespe
+|turn|21
+|j| bobify
+|
+|t:|1743794386
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-hitcount|p2: Dragonite|1
+|
+|upkeep
+|
+|t:|1743794390
+|switch|p2a: Arcanine|Arcanine-Hisui, F, tera:Ghost|73/100
+|-damage|p2a: Arcanine|60/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1743794393
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Arcanine
+|-damage|p2a: Arcanine|33/100
+|-damage|p2a: Arcanine|2/100
+|-hitcount|p2a: Arcanine|2
+|move|p2a: Arcanine|Flare Blitz|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743794398
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|-damage|p1a: Heatran|76/100|[from] Spikes
+|turn|23
+|
+|t:|1743794402
+|move|p1a: Heatran|Protect|p1a: Heatran
+|-singleturn|p1a: Heatran|Protect
+|move|p2a: Arcanine|Head Smash|p1a: Heatran
+|-activate|p1a: Heatran|move: Protect
+|
+|-heal|p1a: Heatran|82/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1743794405
+|move|p2a: Arcanine|Head Smash|p1a: Heatran
+|-damage|p1a: Heatran|20/100
+|move|p1a: Heatran|Earth Power|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-heal|p1a: Heatran|27/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743794408
+|switch|p2a: Clefable|Clefable, F|81/100
+|turn|25
+|
+|t:|1743794414
+|move|p1a: Heatran|Magma Storm|p2a: Clefable
+|-damage|p2a: Clefable|26/100
+|-activate|p2a: Clefable|move: Magma Storm|[of] p1a: Heatran
+|move|p2a: Clefable|Thunder Wave|p1a: Heatran
+|-status|p1a: Heatran|par
+|
+|-heal|p1a: Heatran|33/100 par|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1743794421
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|76/100
+|cant|p1a: Heatran|par
+|
+|-heal|p1a: Heatran|39/100 par|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1743794424
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Heatran|Taunt|p2a: Clefable
+|-start|p2a: Clefable|move: Taunt
+|
+|-heal|p1a: Heatran|45/100 par|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1743794428
+|move|p2a: Clefable|Moonblast|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|35/100 par
+|cant|p1a: Heatran|par
+|
+|-heal|p1a: Heatran|41/100 par|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1743794432
+|move|p2a: Clefable|Moonblast|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|32/100 par
+|move|p1a: Heatran|Magma Storm|p2a: Clefable
+|-damage|p2a: Clefable|39/100
+|
+|-heal|p1a: Heatran|38/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1743794438
+|move|p2a: Clefable|Moonblast|p1a: Heatran
+|-resisted|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|24/100 par
+|move|p1a: Heatran|Magma Storm|p2a: Clefable
+|-damage|p2a: Clefable|7/100
+|
+|-heal|p1a: Heatran|31/100 par|[from] item: Leftovers
+|-end|p2a: Clefable|Magma Storm|[partiallytrapped]
+|-end|p2a: Clefable|move: Taunt
+|upkeep
+|turn|31
+|
+|t:|1743794447
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|57/100
+|move|p1a: Heatran|Taunt|p2a: Clefable
+|-start|p2a: Clefable|move: Taunt
+|
+|-heal|p1a: Heatran|37/100 par|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1743794452
+|move|p2a: Clefable|Moonblast|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|27/100 par
+|move|p1a: Heatran|Magma Storm|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|win|Audio Peel
+|raw|Audio Peel's rating: 1814 &rarr; <strong>1833</strong><br />(+19 for winning)
+|raw|temporarylight's rating: 1789 &rarr; <strong>1770</strong><br />(-19 for losing)
+|l|☆Audio Peel
+|player|p1|
+|l|☆temporarylight
+|player|p2|
+|l| stierball
+|l| Pokemon Malarkey

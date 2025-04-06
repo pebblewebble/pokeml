@@ -1,0 +1,283 @@
+|j|☆random tera ghost
+|j|☆Count Aula
+|t:|1743880010
+|gametype|singles
+|player|p1|random tera ghost|101|1634
+|player|p2|Count Aula|ghetsis|1677
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, F|
+|poke|p1|Scovillain, F|
+|poke|p1|Walking Wake|
+|poke|p1|Hatterene, F|
+|poke|p1|Great Tusk|
+|poke|p1|Ceruledge, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Kyurem|
+|poke|p2|Corviknight, F|
+|poke|p2|Slowking-Galar, M|
+|teampreview
+|j| IGN Careless
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Count Aula)
+|
+|t:|1743880024
+|start
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1743880032
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Slowking
+|-status|p2a: Slowking|brn
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743880038
+|switch|p2a: Kyurem|Kyurem|100/100|[from] Chilly Reception
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743880046
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Kyurem|Draco Meteor|p1a: Hatterene
+|-immune|p1a: Hatterene
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743880055
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|move|p1a: Hatterene|Nuzzle|p2a: Kingambit
+|-damage|p2a: Kingambit|97/100
+|-status|p2a: Kingambit|par
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743880064
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Kingambit|Iron Head|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|71/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743880074
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Slowking|Slowking-Galar, M|100/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Slowking|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743880084
+|-terastallize|p1a: Walking Wake|Water
+|move|p1a: Walking Wake|Hydro Steam|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743880092
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|7
+|
+|t:|1743880098
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|2/100
+|-enditem|p1a: Hatterene|Eject Button
+|j| ssskgc
+|
+|t:|1743880124
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743880129
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|36/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-crit|p1a: Ceruledge
+|-enditem|p1a: Ceruledge|Focus Sash
+|-damage|p1a: Ceruledge|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743880140
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ceruledge|Bitter Blade|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|9/100
+|-heal|p1a: Ceruledge|64/100|[from] drain|[of] p2a: Corviknight
+|-damage|p1a: Ceruledge|47/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743880155
+|move|p1a: Ceruledge|Bitter Blade|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-heal|p1a: Ceruledge|53/100|[from] drain|[of] p2a: Corviknight
+|-damage|p1a: Ceruledge|37/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743880163
+|switch|p2a: Kingambit|Kingambit, M|97/100 par
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|11
+|
+|t:|1743880170
+|switch|p1a: Don|Great Tusk|100/100
+|-activate|p1a: Don|ability: Protosynthesis
+|-start|p1a: Don|protosynthesisatk
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Don
+|-resisted|p1a: Don
+|-damage|p1a: Don|73/100
+|-damage|p2a: Kingambit|81/100 par|[from] item: Rocky Helmet|[of] p1a: Don
+|
+|-weather|none
+|-end|p1a: Don|Protosynthesis
+|upkeep
+|turn|12
+|
+|t:|1743880182
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Don|Headlong Rush|p2a: Kyurem
+|-damage|p2a: Kyurem|30/100
+|-unboost|p1a: Don|def|1
+|-unboost|p1a: Don|spd|1
+|
+|upkeep
+|turn|13
+|
+|t:|1743880191
+|-end|p1a: Don|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|2/100
+|move|p2a: Kyurem|Ice Beam|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1743880194
+|switch|p1a: Ninetales|Ninetales, F|71/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|14
+|
+|t:|1743880212
+|switch|p1a: Scovillain|Scovillain, F, shiny|100/100
+|switch|p2a: Kingambit|Kingambit, M|81/100 par
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743880223
+|move|p2a: Kingambit|Sucker Punch|p1a: Scovillain
+|-damage|p1a: Scovillain|0 fnt
+|faint|p1a: Scovillain
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743880240
+|switch|p1a: Walking Wake|Walking Wake, tera:Water|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|16
+|
+|t:|1743880246
+|move|p2a: Kingambit|Sucker Punch|p1a: Walking Wake
+|-damage|p1a: Walking Wake|39/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743880254
+|switch|p2a: Dragonite|Dragonite, M, shiny|100/100
+|turn|17
+|
+|t:|1743880263
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Don|Great Tusk|73/100
+|-activate|p1a: Don|ability: Protosynthesis
+|-start|p1a: Don|protosynthesisatk
+|move|p2a: Dragonite|Outrage|p1a: Don
+|-damage|p1a: Don|3/100
+|-damage|p2a: Dragonite|84/100|[from] item: Rocky Helmet|[of] p1a: Don
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743880279
+|move|p1a: Don|Ice Spinner|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Count Aula forfeited.
+|
+|win|random tera ghost
+|raw|random tera ghost's rating: 1634 &rarr; <strong>1656</strong><br />(+22 for winning)
+|raw|Count Aula's rating: 1677 &rarr; <strong>1655</strong><br />(-22 for losing)
+|l|☆Count Aula
+|player|p2|
+|l|☆random tera ghost
+|player|p1|
+|l| IGN Careless
+|l| ssskgc

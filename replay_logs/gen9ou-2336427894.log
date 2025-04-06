@@ -1,0 +1,193 @@
+|j|☆yushih
+|j|☆fluox366
+|t:|1743916073
+|gametype|singles
+|player|p1|yushih|1|1121
+|player|p2|fluox366|drayden|1143
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Walking Wake|
+|poke|p1|Latios, M|
+|poke|p1|Salamence, M|
+|poke|p2|Meloetta|
+|poke|p2|Araquanid, M|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Moth|
+|poke|p2|Enamorus, F|
+|teampreview
+|
+|t:|1743916108
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Domingo|Araquanid, M|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1743916121
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|move|p2a: Domingo|Sticky Web|p1a: Raging Bolt
+|-sidestart|p1: yushih|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743916132
+|switch|p2a: Béjart|Great Tusk|100/100
+|-enditem|p2a: Béjart|Booster Energy
+|-activate|p2a: Béjart|ability: Protosynthesis|[fromitem]
+|-start|p2a: Béjart|protosynthesisatk
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|upkeep
+|turn|3
+|
+|t:|1743916146
+|move|p2a: Béjart|Stealth Rock|p1a: Raging Bolt
+|-sidestart|p1: yushih|move: Stealth Rock
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Béjart
+|-damage|p2a: Béjart|0 fnt
+|faint|p2a: Béjart
+|-end|p2a: Béjart|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743916168
+|switch|p2a: Domingo|Araquanid, M|100/100
+|turn|4
+|
+|t:|1743916173
+|move|p2a: Domingo|Endure|p2a: Domingo
+|-singleturn|p2a: Domingo|move: Endure
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|upkeep
+|turn|5
+|
+|t:|1743916188
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|move|p2a: Domingo|Endeavor|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|75/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743916201
+|switch|p2a: Michael|Gholdengo|100/100
+|-item|p2a: Michael|Air Balloon
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|upkeep
+|turn|7
+|
+|t:|1743916216
+|move|p2a: Michael|Psyshock|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|53/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Michael
+|-resisted|p2a: Michael
+|-damage|p2a: Michael|29/100
+|-enditem|p2a: Michael|Air Balloon
+|
+|upkeep
+|turn|8
+|
+|t:|1743916233
+|move|p2a: Michael|Psyshock|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|28/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Michael
+|-resisted|p2a: Michael
+|-damage|p2a: Michael|0 fnt
+|faint|p2a: Michael
+|
+|upkeep
+|
+|t:|1743916249
+|switch|p2a: Esmeralda|Enamorus, F|100/100
+|turn|9
+|
+|t:|1743916255
+|move|p1a: Raging Bolt|Thunderclap|p2a: Esmeralda
+|-supereffective|p2a: Esmeralda
+|-damage|p2a: Esmeralda|0 fnt
+|faint|p2a: Esmeralda
+|
+|upkeep
+|
+|t:|1743916265
+|switch|p2a: Melodie|Meloetta|100/100
+|turn|10
+|
+|t:|1743916277
+|move|p1a: Raging Bolt|Thunderclap|p2a: Melodie
+|-damage|p2a: Melodie|21/100
+|move|p2a: Melodie|Close Combat|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|2/100
+|-unboost|p2a: Melodie|def|1
+|-unboost|p2a: Melodie|spd|1
+|-damage|p2a: Melodie|11/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|t:|1743916288
+|move|p1a: Raging Bolt|Thunderclap|p2a: Melodie
+|-damage|p2a: Melodie|0 fnt
+|faint|p2a: Melodie
+|
+|upkeep
+|
+|t:|1743916295
+|switch|p2a: Domingo|Araquanid, M|100/100
+|turn|12
+|
+|t:|1743916301
+|move|p1a: Raging Bolt|Thunderclap|p2a: Domingo
+|-supereffective|p2a: Domingo
+|-damage|p2a: Domingo|0 fnt
+|faint|p2a: Domingo
+|
+|upkeep
+|
+|t:|1743916307
+|switch|p2a: Noureev|Iron Moth|100/100
+|-enditem|p2a: Noureev|Booster Energy
+|-activate|p2a: Noureev|ability: Quark Drive|[fromitem]
+|-start|p2a: Noureev|quarkdrivespa
+|turn|13
+|
+|t:|1743916326
+|move|p1a: Raging Bolt|Thunderclap|p2a: Noureev
+|-damage|p2a: Noureev|0 fnt
+|faint|p2a: Noureev
+|-end|p2a: Noureev|Quark Drive|[silent]
+|
+|win|yushih
+|raw|yushih's rating: 1121 &rarr; <strong>1148</strong><br />(+27 for winning)
+|raw|fluox366's rating: 1143 &rarr; <strong>1116</strong><br />(-27 for losing)
+|l|☆fluox366
+|player|p2|
+|l|☆yushih
+|player|p1|

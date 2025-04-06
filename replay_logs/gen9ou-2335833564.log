@@ -1,0 +1,320 @@
+|j|☆Diarreia Mortal
+|j|☆miguelghh1303
+|t:|1743844919
+|gametype|singles
+|player|p1|Diarreia Mortal|fisherman-gen4|1219
+|player|p2|miguelghh1303|170|1369
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Toxtricity, M|
+|poke|p1|Mew|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Salamence, F|
+|poke|p1|Toucannon, F|
+|poke|p1|Ditto|
+|poke|p2|Dragonite, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Valiant|
+|poke|p2|Kyurem|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|t:|1743844938
+|start
+|switch|p1a: Toucannon|Toucannon, F|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743844947
+|-terastallize|p2a: Iron Valiant|Dark
+|-singleturn|p1a: Toucannon|move: Beak Blast
+|move|p2a: Iron Valiant|Knock Off|p1a: Toucannon
+|-damage|p1a: Toucannon|46/100
+|-status|p2a: Iron Valiant|brn
+|-enditem|p1a: Toucannon|Choice Band|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Toucannon|Beak Blast|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|29/100 brn
+|
+|-damage|p2a: Iron Valiant|23/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1743844962
+|move|p2a: Iron Valiant|Moonblast|p1a: Toucannon
+|-damage|p1a: Toucannon|0 fnt
+|faint|p1a: Toucannon
+|
+|-damage|p2a: Iron Valiant|16/100 brn|[from] brn
+|upkeep
+|
+|t:|1743844981
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|3
+|
+|t:|1743844986
+|move|p2a: Iron Valiant|Moonblast|p1a: Ninetales
+|-damage|p1a: Ninetales|54/100
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Diarreia Mortal|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Iron Valiant|10/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743844997
+|move|p2a: Iron Valiant|Moonblast|p1a: Ninetales
+|-damage|p1a: Ninetales|27/100
+|-unboost|p1a: Ninetales|spa|1
+|move|p1a: Ninetales|Draining Kiss|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-heal|p1a: Ninetales|35/100|[from] drain|[of] p2a: Iron Valiant
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743845009
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|5
+|
+|t:|1743845019
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|move|p2a: Iron Moth|Substitute|p2a: Iron Moth
+|-start|p2a: Iron Moth|Substitute
+|-damage|p2a: Iron Moth|76/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743845026
+|move|p2a: Iron Moth|Fiery Dance|p1a: Toxtricity
+|-damage|p1a: Toxtricity|75/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Toxtricity|Psychic Noise|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-crit|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743845038
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|7
+|
+|t:|1743845045
+|switch|p1a: Ninetales|Ninetales-Alola, F|35/100
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Ninetales
+|-sidestart|p1: Diarreia Mortal|move: Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1743845054
+|move|p1a: Ninetales|Chilling Water|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|85/100
+|-unboost|p2a: Ting-Lu|atk|1
+|move|p2a: Ting-Lu|Ruination|p1a: Ninetales
+|-damage|p1a: Ninetales|18/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743845062
+|move|p1a: Ninetales|Draining Kiss|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|62/100
+|-heal|p1a: Ninetales|48/100|[from] drain|[of] p2a: Ting-Lu
+|-damage|p1a: Ninetales|31/100|[from] item: Rocky Helmet|[of] p2a: Ting-Lu
+|move|p2a: Ting-Lu|Ruination|p1a: Ninetales
+|-damage|p1a: Ninetales|16/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743845072
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Ninetales|Chilling Water|p2a: Gholdengo
+|-damage|p2a: Gholdengo|84/100
+|-unboost|p2a: Gholdengo|atk|1
+|
+|-sideend|p1: Diarreia Mortal|move: Aurora Veil
+|upkeep
+|turn|11
+|
+|t:|1743845082
+|move|p2a: Gholdengo|Shadow Ball|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|upkeep
+|
+|t:|1743845093
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Gholdengo|[from] ability: Imposter
+|turn|12
+|
+|t:|1743845100
+|switch|p2a: Ting-Lu|Ting-Lu|62/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Ditto|Shadow Ball|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-crit|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|43/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743845111
+|switch|p1a: Toxtricity|Toxtricity, M|75/100
+|-damage|p1a: Toxtricity|63/100|[from] Stealth Rock
+|move|p2a: Ting-Lu|Ruination|p1a: Toxtricity|[miss]
+|-miss|p2a: Ting-Lu|p1a: Toxtricity
+|
+|upkeep
+|turn|14
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by miguelghh1303)
+|
+|t:|1743845119
+|move|p2a: Ting-Lu|Earthquake|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|t:|1743845129
+|switch|p1a: Salamence|Salamence, F|100/100
+|-damage|p1a: Salamence|76/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743845142
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Ting-Lu|Taunt|p1a: Salamence
+|-start|p1a: Salamence|move: Taunt
+|
+|upkeep
+|turn|16
+|
+|t:|1743845152
+|move|p1a: Salamence|Earthquake|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|8/100
+|move|p2a: Ting-Lu|Ruination|p1a: Salamence
+|-damage|p1a: Salamence|38/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743845158
+|move|p1a: Salamence|Earthquake|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|upkeep
+|
+|t:|1743845161
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|18
+|
+|t:|1743845168
+|move|p2a: Dragonite|Extreme Speed|p1a: Salamence
+|-crit|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|upkeep
+|
+|t:|1743845172
+|switch|p1a: Ditto|Ditto|88/100
+|-damage|p1a: Ditto|76/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Dragonite|[from] ability: Imposter
+|turn|19
+|
+|t:|1743845178
+|move|p1a: Ditto|Ice Spinner|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|35/100
+|move|p2a: Dragonite|Ice Spinner|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|
+|upkeep
+|
+|t:|1743845184
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743845187
+|move|p2a: Dragonite|Extreme Speed|p1a: Mew
+|-damage|p1a: Mew|59/100
+|move|p1a: Mew|Dragon Dance|p1a: Mew
+|-boost|p1a: Mew|atk|1
+|-boost|p1a: Mew|spe|1
+|
+|upkeep
+|turn|21
+|
+|t:|1743845198
+|move|p2a: Dragonite|Extreme Speed|p1a: Mew
+|-damage|p1a: Mew|30/100
+|move|p1a: Mew|Triple Axel|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-hitcount|p2: Dragonite|1
+|
+|upkeep
+|
+|t:|1743845204
+|switch|p2a: Gholdengo|Gholdengo|84/100
+|turn|22
+|
+|t:|1743845211
+|-terastallize|p1a: Mew|Fighting
+|move|p2a: Gholdengo|Make It Rain|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Mew
+|
+|win|miguelghh1303
+|raw|Diarreia Mortal's rating: 1219 &rarr; <strong>1204</strong><br />(-15 for losing)
+|raw|miguelghh1303's rating: 1369 &rarr; <strong>1381</strong><br />(+12 for winning)
+|l|☆miguelghh1303
+|player|p2|
+|l|☆Diarreia Mortal
+|player|p1|

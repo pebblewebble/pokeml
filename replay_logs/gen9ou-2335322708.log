@@ -1,0 +1,414 @@
+|j|☆Wrenellen
+|j|☆KeoGiovanna
+|t:|1743784578
+|gametype|singles
+|player|p1|Wrenellen|grimsley|1557
+|player|p2|KeoGiovanna|101|1555
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garchomp, M|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Excadrill, F|
+|poke|p1|Polteageist|
+|poke|p1|Ribombee, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Valiant|
+|poke|p2|Kingambit, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|
+|t:|1743784639
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|switch|p2a: Good Bye|Gholdengo|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1743784657
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Good Bye|Make It Rain|p1a: Garchomp
+|-damage|p1a: Garchomp|30/100
+|-unboost|p2a: Good Bye|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743784678
+|move|p2a: Good Bye|Make It Rain|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-unboost|p2a: Good Bye|spa|1
+|faint|p1a: Garchomp
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743784683
+|switch|p1a: Polteageist|Polteageist|100/100
+|turn|3
+|
+|t:|1743784698
+|switch|p2a: Tschüss|Raging Bolt|100/100
+|-enditem|p2a: Tschüss|Booster Energy
+|-activate|p2a: Tschüss|ability: Protosynthesis|[fromitem]
+|-start|p2a: Tschüss|protosynthesisspa
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|-enditem|p1a: Polteageist|White Herb
+|-clearnegativeboost|p1a: Polteageist|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743784712
+|move|p1a: Polteageist|Shadow Ball|p2a: Tschüss
+|-damage|p2a: Tschüss|31/100
+|-unboost|p2a: Tschüss|spd|1
+|move|p2a: Tschüss|Dragon Pulse|p1a: Polteageist
+|-damage|p1a: Polteageist|37/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743784726
+|move|p2a: Tschüss|Thunderclap||[still]
+|-fail|p2a: Tschüss
+|move|p1a: Polteageist|Strength Sap|p2a: Tschüss
+|-unboost|p2a: Tschüss|atk|1
+|-heal|p1a: Polteageist|84/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1743784732
+|move|p2a: Tschüss|Thunderclap|p1a: Polteageist
+|-damage|p1a: Polteageist|35/100
+|move|p1a: Polteageist|Shadow Ball|p2a: Tschüss
+|-damage|p2a: Tschüss|0 fnt
+|faint|p2a: Tschüss
+|-end|p2a: Tschüss|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743784737
+|switch|p2a: Sayonara|Kingambit, F|100/100
+|-activate|p2a: Sayonara|ability: Supreme Overlord
+|-start|p2a: Sayonara|fallen1|[silent]
+|turn|7
+|
+|t:|1743784744
+|move|p1a: Polteageist|Strength Sap|p2a: Sayonara
+|-unboost|p2a: Sayonara|atk|1
+|-heal|p1a: Polteageist|100/100
+|move|p2a: Sayonara|Kowtow Cleave|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|19/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743784752
+|move|p2a: Sayonara|Sucker Punch||[still]
+|-fail|p2a: Sayonara
+|move|p1a: Polteageist|Strength Sap|p2a: Sayonara
+|-unboost|p2a: Sayonara|atk|1
+|-heal|p1a: Polteageist|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743784771
+|-end|p2a: Sayonara|fallen1|[silent]
+|switch|p2a: Ciao|Ogerpon-Wellspring, F|100/100
+|move|p1a: Polteageist|Shadow Ball|p2a: Ciao
+|-damage|p2a: Ciao|16/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743784781
+|move|p1a: Polteageist|Shadow Ball|p2a: Ciao
+|-damage|p2a: Ciao|0 fnt
+|faint|p2a: Ciao
+|
+|upkeep
+|
+|t:|1743784783
+|switch|p2a: Sayonara|Kingambit, F|100/100
+|-activate|p2a: Sayonara|ability: Supreme Overlord
+|-start|p2a: Sayonara|fallen2|[silent]
+|turn|11
+|
+|t:|1743784792
+|move|p1a: Polteageist|Strength Sap|p2a: Sayonara
+|-unboost|p2a: Sayonara|atk|1
+|move|p2a: Sayonara|Kowtow Cleave|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|7/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743784798
+|move|p1a: Polteageist|Strength Sap|p2a: Sayonara
+|-unboost|p2a: Sayonara|atk|1
+|-heal|p1a: Polteageist|91/100
+|move|p2a: Sayonara|Kowtow Cleave|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|20/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743784804
+|move|p1a: Polteageist|Strength Sap|p2a: Sayonara
+|-unboost|p2a: Sayonara|atk|1
+|-heal|p1a: Polteageist|82/100
+|move|p2a: Sayonara|Swords Dance|p2a: Sayonara
+|-boost|p2a: Sayonara|atk|2
+|
+|upkeep
+|turn|14
+|
+|t:|1743784810
+|move|p1a: Polteageist|Strength Sap|p2a: Sayonara
+|-unboost|p2a: Sayonara|atk|1
+|-heal|p1a: Polteageist|100/100
+|move|p2a: Sayonara|Swords Dance|p2a: Sayonara
+|-boost|p2a: Sayonara|atk|2
+|
+|upkeep
+|turn|15
+|
+|t:|1743784816
+|move|p1a: Polteageist|Strength Sap|p2a: Sayonara
+|-unboost|p2a: Sayonara|atk|1
+|move|p2a: Sayonara|Kowtow Cleave|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|9/100
+|-start|p2a: Sayonara|Disable|Kowtow Cleave|[from] ability: Cursed Body|[of] p1a: Polteageist
+|
+|upkeep
+|turn|16
+|
+|t:|1743784825
+|move|p1a: Polteageist|Strength Sap|p2a: Sayonara
+|-unboost|p2a: Sayonara|atk|1
+|-heal|p1a: Polteageist|92/100
+|move|p2a: Sayonara|Swords Dance|p2a: Sayonara
+|-boost|p2a: Sayonara|atk|2
+|
+|upkeep
+|turn|17
+|
+|t:|1743784831
+|move|p1a: Polteageist|Shadow Ball|p2a: Sayonara
+|-resisted|p2a: Sayonara
+|-crit|p2a: Sayonara
+|-damage|p2a: Sayonara|40/100
+|-unboost|p2a: Sayonara|spd|1
+|move|p2a: Sayonara|Swords Dance|p2a: Sayonara
+|-boost|p2a: Sayonara|atk|2
+|
+|-heal|p2a: Sayonara|46/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743784841
+|-terastallize|p1a: Polteageist|Fairy
+|move|p2a: Sayonara|Sucker Punch|p1a: Polteageist
+|-resisted|p1a: Polteageist
+|-damage|p1a: Polteageist|38/100
+|move|p1a: Polteageist|Shadow Ball|p2a: Sayonara
+|-resisted|p2a: Sayonara
+|-damage|p2a: Sayonara|0 fnt
+|faint|p2a: Sayonara
+|-end|p2a: Sayonara|fallen2|[silent]
+|
+|upkeep
+|
+|t:|1743784858
+|switch|p2a: Hasta Luego|Iron Valiant|100/100
+|-enditem|p2a: Hasta Luego|Booster Energy
+|-activate|p2a: Hasta Luego|ability: Quark Drive|[fromitem]
+|-start|p2a: Hasta Luego|quarkdrivespe
+|turn|19
+|
+|t:|1743784866
+|move|p2a: Hasta Luego|Moonblast|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|upkeep
+|
+|t:|1743784875
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|20
+|
+|t:|1743784885
+|-end|p2a: Hasta Luego|Quark Drive|[silent]
+|switch|p2a: Good Bye|Gholdengo|100/100
+|move|p1a: Ninetales|Moonblast|p2a: Good Bye
+|-resisted|p2a: Good Bye
+|-damage|p2a: Good Bye|85/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743784891
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Good Bye|Make It Rain|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|66/100
+|-unboost|p2a: Good Bye|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1743784904
+|switch|p2a: Hasta Luego|Iron Valiant|100/100
+|move|p1a: Ogerpon|Knock Off|p2a: Hasta Luego
+|-resisted|p2a: Hasta Luego
+|-damage|p2a: Hasta Luego|92/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1743784914
+|move|p2a: Hasta Luego|Moonblast|p1a: Ogerpon
+|-damage|p1a: Ogerpon|10/100
+|-unboost|p1a: Ogerpon|spa|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Hasta Luego|[anim] Ivy Cudgel Water
+|-damage|p2a: Hasta Luego|12/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1743784921
+|move|p2a: Hasta Luego|Moonblast|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-weather|none
+|upkeep
+|
+|t:|1743784936
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|turn|25
+|
+|t:|1743784942
+|move|p2a: Hasta Luego|Moonblast|p1a: Ribombee
+|-damage|p1a: Ribombee|31/100
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|
+|upkeep
+|turn|26
+|
+|t:|1743784954
+|move|p1a: Ribombee|Draining Kiss|p2a: Hasta Luego
+|-supereffective|p2a: Hasta Luego
+|-crit|p2a: Hasta Luego
+|-damage|p2a: Hasta Luego|0 fnt
+|-heal|p1a: Ribombee|38/100|[from] drain|[of] p2a: Hasta Luego
+|faint|p2a: Hasta Luego
+|-end|p2a: Hasta Luego|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743784956
+|switch|p2a: Good Bye|Gholdengo|85/100
+|turn|27
+|
+|t:|1743784961
+|move|p1a: Ribombee|Moonblast|p2a: Good Bye
+|-resisted|p2a: Good Bye
+|-damage|p2a: Good Bye|57/100
+|move|p2a: Good Bye|Make It Rain|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|-unboost|p2a: Good Bye|spa|1
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|t:|1743784967
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|-item|p1a: Excadrill|Air Balloon
+|turn|28
+|
+|t:|1743784969
+|switch|p2a: Au Revoir|Great Tusk|100/100
+|move|p1a: Excadrill|Rapid Spin|p2a: Au Revoir
+|-damage|p2a: Au Revoir|88/100
+|-boost|p1a: Excadrill|spe|1
+|-damage|p1a: Excadrill|84/100|[from] item: Rocky Helmet|[of] p2a: Au Revoir
+|
+|upkeep
+|turn|29
+|
+|t:|1743784981
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Au Revoir|Ice Spinner|p1a: Excadrill
+|-damage|p1a: Excadrill|46/100
+|-enditem|p1a: Excadrill|Air Balloon
+|
+|upkeep
+|turn|30
+|
+|t:|1743784993
+|move|p1a: Excadrill|Iron Head|p2a: Au Revoir
+|-damage|p2a: Au Revoir|27/100
+|-damage|p1a: Excadrill|29/100|[from] item: Rocky Helmet|[of] p2a: Au Revoir
+|move|p2a: Au Revoir|Headlong Rush|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-unboost|p2a: Au Revoir|def|1
+|-unboost|p2a: Au Revoir|spd|1
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|t:|1743785000
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|31
+|-message|Wrenellen forfeited.
+|
+|win|KeoGiovanna
+|raw|Wrenellen's rating: 1557 &rarr; <strong>1537</strong><br />(-20 for losing)
+|raw|KeoGiovanna's rating: 1555 &rarr; <strong>1575</strong><br />(+20 for winning)
+|l|☆Wrenellen
+|player|p1|
+|l|☆KeoGiovanna
+|player|p2|

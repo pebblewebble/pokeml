@@ -1,0 +1,284 @@
+|j|☆Maroon05
+|j|☆JustMadness
+|t:|1743817848
+|gametype|singles
+|player|p1|Maroon05|265|
+|player|p2|JustMadness|lucas|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, F|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Gardevoir, M|
+|poke|p1|Greninja-*, M|
+|poke|p1|Ceruledge, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Snorlax, F|
+|poke|p2|Darkrai|
+|poke|p2|Walking Wake|
+|poke|p2|Sylveon, M|
+|poke|p2|Ninetales, M|
+|teampreview
+|j| JustBlissful
+|
+|t:|1743817874
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ninetales|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1743817904
+|move|p1a: Landorus|Stealth Rock|p2a: Ninetales
+|-sidestart|p2: JustMadness|move: Stealth Rock
+|move|p2a: Ninetales|Healing Wish|p2a: Ninetales
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743817910
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-damage|p2a: Walking Wake|88/100|[from] Stealth Rock
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|2
+|
+|t:|1743817954
+|switch|p1a: Gardevoir|Gardevoir, M|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Gardevoir
+|-damage|p1a: Gardevoir|20/100
+|-enditem|p1a: Gardevoir|Aguav Berry|[eat]
+|-heal|p1a: Gardevoir|53/100|[from] item: Aguav Berry
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743817971
+|move|p2a: Walking Wake|Hydro Steam|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743818010
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|4
+|
+|t:|1743818026
+|move|p2a: Walking Wake|Flamethrower|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Walking Wake|94/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743818048
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Walking Wake|atk|1
+|turn|5
+|
+|t:|1743818056
+|-terastallize|p1a: Landorus|Water
+|move|p1a: Landorus|Earthquake|p2a: Walking Wake
+|-damage|p2a: Walking Wake|64/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|49/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Landorus|55/100|[from] Grassy Terrain
+|-heal|p1a: Landorus|61/100|[from] item: Leftovers
+|-heal|p2a: Walking Wake|70/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1743818138
+|move|p1a: Landorus|Stone Edge|p2a: Walking Wake
+|-crit|p2a: Walking Wake
+|-damage|p2a: Walking Wake|16/100
+|move|p2a: Walking Wake|Dragon Tail|p1a: Landorus
+|-damage|p1a: Landorus|44/100
+|drag|p1a: Ceruledge|Ceruledge, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Walking Wake|22/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1743818155
+|move|p2a: Walking Wake|Hydro Steam|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Walking Wake|29/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743818162
+|switch|p1a: Landorus|Landorus-Therian, M, tera:Water|44/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Walking Wake|atk|1
+|turn|8
+|
+|t:|1743818170
+|move|p1a: Landorus|Stone Edge|p2a: Walking Wake|[miss]
+|-miss|p1a: Landorus|p2a: Walking Wake
+|move|p2a: Walking Wake|Hydro Steam|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|-heal|p2a: Walking Wake|35/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1743818181
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|9
+|
+|t:|1743818189
+|move|p1a: Greninja|Dark Pulse|p2a: Walking Wake
+|-damage|p2a: Walking Wake|8/100
+|move|p2a: Walking Wake|Dragon Tail|p1a: Greninja
+|-damage|p1a: Greninja|83/100
+|drag|p1a: Arcanine|Arcanine-Hisui, F|100/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743818198
+|move|p1a: Arcanine|Crunch|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743818225
+|switch|p2a: Snorlax|Snorlax, F|100/100
+|-damage|p2a: Snorlax|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1743818280
+|move|p1a: Arcanine|Raging Fury|p2a: Snorlax
+|-damage|p2a: Snorlax|67/100
+|move|p2a: Snorlax|Iron Head|p1a: Arcanine
+|-damage|p1a: Arcanine|70/100
+|-damage|p2a: Snorlax|50/100|[from] item: Rocky Helmet|[of] p1a: Arcanine
+|
+|-heal|p2a: Snorlax|56/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743818294
+|move|p1a: Arcanine|Raging Fury|p2a: Snorlax|[from] lockedmove
+|-damage|p2a: Snorlax|34/100
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|100/100 slp|[silent]
+|
+|upkeep
+|turn|13
+|
+|t:|1743818303
+|move|p1a: Arcanine|Raging Fury|p2a: Snorlax|[from] lockedmove
+|-damage|p2a: Snorlax|79/100 slp
+|-start|p1a: Arcanine|confusion|[fatigue]
+|cant|p2a: Snorlax|slp
+|move|p2a: Snorlax|Sleep Talk|p2a: Snorlax
+|move|p2a: Snorlax|Iron Head|p1a: Arcanine|[from] move: Sleep Talk
+|-damage|p1a: Arcanine|43/100
+|-damage|p2a: Snorlax|63/100 slp|[from] item: Rocky Helmet|[of] p1a: Arcanine
+|
+|-heal|p2a: Snorlax|69/100 slp|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743818316
+|switch|p1a: Greninja|Greninja, M|83/100
+|cant|p2a: Snorlax|slp
+|move|p2a: Snorlax|Sleep Talk|p2a: Snorlax
+|move|p2a: Snorlax|Iron Head|p1a: Greninja|[from] move: Sleep Talk
+|-resisted|p1a: Greninja
+|-crit|p1a: Greninja
+|-damage|p1a: Greninja|52/100
+|
+|-heal|p2a: Snorlax|75/100 slp|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743818336
+|move|p1a: Greninja|Water Shuriken|p2a: Snorlax
+|-damage|p2a: Snorlax|71/100 slp
+|-damage|p2a: Snorlax|68/100 slp
+|-damage|p2a: Snorlax|64/100 slp
+|-damage|p2a: Snorlax|60/100 slp
+|-hitcount|p2a: Snorlax|4
+|-curestatus|p2a: Snorlax|slp|[msg]
+|move|p2a: Snorlax|Body Slam|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|-heal|p2a: Snorlax|66/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743818348
+|switch|p1a: Arcanine|Arcanine-Hisui, F|43/100
+|turn|16
+|
+|t:|1743818356
+|move|p1a: Arcanine|Protect|p1a: Arcanine
+|-singleturn|p1a: Arcanine|Protect
+|move|p2a: Snorlax|Iron Head|p1a: Arcanine
+|-activate|p1a: Arcanine|move: Protect
+|
+|-heal|p2a: Snorlax|72/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743818363
+|move|p1a: Arcanine|Raging Fury|p2a: Snorlax
+|-damage|p2a: Snorlax|47/100
+|move|p2a: Snorlax|Body Slam|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|21/100
+|-damage|p2a: Snorlax|31/100|[from] item: Rocky Helmet|[of] p1a: Arcanine
+|
+|-heal|p2a: Snorlax|37/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743818392
+|-terastallize|p2a: Snorlax|Normal
+|move|p1a: Arcanine|Raging Fury|p2a: Snorlax|[from] lockedmove
+|-damage|p2a: Snorlax|13/100
+|move|p2a: Snorlax|Body Slam|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-damage|p2a: Snorlax|0 fnt|[from] item: Rocky Helmet|[of] p1a: Arcanine
+|faint|p1a: Arcanine
+|faint|p2a: Snorlax
+|
+|win|JustMadness

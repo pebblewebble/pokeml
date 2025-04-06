@@ -1,0 +1,176 @@
+|j|☆fergonmolli
+|j|☆thesuituser
+|t:|1743797298
+|gametype|singles
+|player|p1|fergonmolli|266|1149
+|player|p2|thesuituser|102|1164
+|teamsize|p1|3
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Walking Wake|
+|poke|p1|Iron Leaves|
+|poke|p2|Rotom-Wash|
+|poke|p2|Gallade, M|
+|poke|p2|Gholdengo|
+|poke|p2|Gliscor, M|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Serperior, M|
+|teampreview
+|
+|t:|1743797314
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Gliscor|Gliscor, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1743797323
+|switch|p1a: Iron Leaves|Iron Leaves|100/100
+|-enditem|p1a: Iron Leaves|Booster Energy
+|-activate|p1a: Iron Leaves|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Leaves|quarkdriveatk
+|move|p2a: Gliscor|Earthquake|p1a: Iron Leaves
+|-resisted|p1a: Iron Leaves
+|-damage|p1a: Iron Leaves|77/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743797339
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Iron Leaves|Solar Blade||[still]
+|-prepare|p1a: Iron Leaves|Solar Blade
+|-anim|p1a: Iron Leaves|Solar Blade|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743797348
+|move|p1a: Iron Leaves|Solar Blade||[still]
+|-prepare|p1a: Iron Leaves|Solar Blade
+|-anim|p1a: Iron Leaves|Solar Blade|p2a: Gliscor
+|-damage|p2a: Gliscor|19/100 tox
+|move|p2a: Gliscor|Facade|p1a: Iron Leaves
+|-damage|p1a: Iron Leaves|34/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|31/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|t:|1743797359
+|-end|p1a: Iron Leaves|Quark Drive|[silent]
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Gliscor|Facade|p1a: Walking Wake
+|-damage|p1a: Walking Wake|61/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|43/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|t:|1743797370
+|move|p1a: Walking Wake|Hydro Steam|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|upkeep
+|
+|t:|1743797389
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|6
+|
+|t:|1743797394
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Deoxys|Psychic|p1a: Torkoal
+|-damage|p1a: Torkoal|29/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743797402
+|move|p2a: Deoxys|Psychic|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743797408
+|switch|p1a: Iron Leaves|Iron Leaves|34/100
+|turn|8
+|
+|t:|1743797420
+|switch|p2a: Serperior|Serperior, M, shiny|100/100
+|move|p1a: Iron Leaves|Night Slash|p2a: Serperior
+|-damage|p2a: Serperior|69/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Serperior|75/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743797434
+|move|p2a: Serperior|Leaf Storm|p1a: Iron Leaves
+|-resisted|p1a: Iron Leaves
+|-damage|p1a: Iron Leaves|13/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Iron Leaves|Sacred Sword|p2a: Serperior
+|-crit|p2a: Serperior
+|-damage|p2a: Serperior|19/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Serperior|26/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743797447
+|move|p2a: Serperior|Dragon Pulse|p1a: Iron Leaves
+|-damage|p1a: Iron Leaves|0 fnt
+|faint|p1a: Iron Leaves
+|-end|p1a: Iron Leaves|Quark Drive|[silent]
+|
+|-weather|none
+|-heal|p2a: Serperior|32/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743797453
+|switch|p1a: Walking Wake|Walking Wake|61/100
+|turn|11
+|
+|t:|1743797458
+|move|p2a: Serperior|Giga Drain|p1a: Walking Wake
+|-crit|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|-heal|p2a: Serperior|67/100|[from] drain|[of] p1a: Walking Wake
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|win|thesuituser
+|raw|fergonmolli's rating: 1149 &rarr; <strong>1125</strong><br />(-24 for losing)
+|raw|thesuituser's rating: 1164 &rarr; <strong>1188</strong><br />(+24 for winning)

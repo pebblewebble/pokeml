@@ -1,0 +1,236 @@
+|j|☆Brucey_Bruce
+|j|☆hoons
+|t:|1743879300
+|gametype|singles
+|player|p1|Brucey_Bruce|rosa|1452
+|player|p2|hoons|169|1487
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Iron Treads|
+|poke|p1|Iron Jugulis|
+|poke|p1|Dragonite, F|
+|poke|p1|Iron Valiant|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Crown|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Kingambit, F|
+|teampreview
+|l|☆hoons
+|player|p2|
+|
+|t:|1743879328
+|start
+|switch|p1a: Iron Jugulis|Iron Jugulis|100/100
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|1
+|j|☆hoons
+|player|p2|hoons|169|
+|
+|t:|1743879387
+|move|p1a: Iron Jugulis|Meteor Beam||[still]
+|-prepare|p1a: Iron Jugulis|Meteor Beam
+|-boost|p1a: Iron Jugulis|spa|1
+|-enditem|p1a: Iron Jugulis|Power Herb
+|-anim|p1a: Iron Jugulis|Meteor Beam|p2a: Weezing
+|-damage|p2a: Weezing|35/100
+|move|p2a: Weezing|Pain Split|p1a: Iron Jugulis
+|-sethp|p1a: Iron Jugulis|68/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|67/100|[from] move: Pain Split
+|
+|upkeep
+|turn|2
+|
+|t:|1743879403
+|move|p1a: Iron Jugulis|Knock Off|p2a: Weezing
+|-resisted|p2a: Weezing
+|-crit|p2a: Weezing
+|-damage|p2a: Weezing|51/100
+|-damage|p1a: Iron Jugulis|52/100|[from] item: Rocky Helmet|[of] p2a: Weezing
+|-enditem|p2a: Weezing|Rocky Helmet|[from] move: Knock Off|[of] p1a: Iron Jugulis
+|move|p2a: Weezing|Toxic Spikes|p1a: Iron Jugulis
+|-sidestart|p1: Brucey_Bruce|move: Toxic Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1743879417
+|move|p1a: Iron Jugulis|Dark Pulse|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|22/100
+|move|p2a: Weezing|Sludge Bomb|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|13/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743879438
+|move|p1a: Iron Jugulis|Dark Pulse|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|upkeep
+|
+|t:|1743879440
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|5
+|
+|t:|1743879448
+|move|p2a: Dragapult|U-turn|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|0 fnt
+|faint|p1a: Iron Jugulis
+|-end|p1a: Iron Jugulis|Quark Drive|[silent]
+|
+|t:|1743879459
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743879488
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|6
+|
+|t:|1743879504
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|7
+|
+|t:|1743879516
+|-terastallize|p1a: Dragonite|Flying
+|move|p1a: Dragonite|Tera Blast|p2a: Great Tusk|[anim] Tera Blast Flying
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743879522
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespe
+|turn|8
+|
+|t:|1743879531
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Dragonite
+|-damage|p1a: Dragonite|87/100
+|-damage|p1a: Dragonite|62/100
+|-hitcount|p1a: Dragonite|2
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|9
+|
+|t:|1743879535
+|move|p1a: Dragonite|Fire Punch|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743879538
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|10
+|
+|t:|1743879560
+|-terastallize|p2a: Kingambit|Ghost
+|move|p1a: Dragonite|Fire Punch|p2a: Kingambit
+|-damage|p2a: Kingambit|51/100
+|move|p2a: Kingambit|Iron Head|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-heal|p2a: Kingambit|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743879582
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-status|p1a: Iron Valiant|psn
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|11
+|
+|t:|1743879599
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|-damage|p1a: Iron Valiant|88/100 psn|[from] psn
+|upkeep
+|
+|t:|1743879602
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|12
+|
+|t:|1743879615
+|move|p1a: Iron Valiant|Moonblast|p2a: Ogerpon
+|-damage|p2a: Ogerpon|45/100
+|-unboost|p2a: Ogerpon|spa|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Iron Valiant|[anim] Ivy Cudgel Water
+|-damage|p1a: Iron Valiant|13/100 psn
+|
+|-damage|p1a: Iron Valiant|1/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1743879628
+|move|p1a: Iron Valiant|Moonblast|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-damage|p1a: Iron Valiant|0 fnt|[from] psn
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|upkeep
+|
+|t:|1743879635
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-status|p1a: Ogerpon|psn
+|turn|14
+|
+|t:|1743879640
+|move|p2a: Dragapult|Hex|p1a: Ogerpon
+|-damage|p1a: Ogerpon|4/100 psn
+|move|p1a: Ogerpon|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p1a: Ogerpon
+|faint|p2a: Dragapult
+|
+|win|Brucey_Bruce
+|raw|Brucey_Bruce's rating: 1452 &rarr; <strong>1474</strong><br />(+22 for winning)
+|raw|hoons's rating: 1487 &rarr; <strong>1465</strong><br />(-22 for losing)
+|l|☆hoons
+|player|p2|

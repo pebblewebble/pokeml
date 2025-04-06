@@ -1,0 +1,179 @@
+|j|☆Kiwi Weewee
+|j|☆Harsh280993
+|t:|1743827748
+|gametype|singles
+|player|p1|Kiwi Weewee|265|1095
+|player|p2|Harsh280993|170|1172
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tsareena, F|
+|poke|p1|Meowscarada, M|
+|poke|p1|Ditto|
+|poke|p1|Uxie|
+|poke|p1|Greninja-*, F|
+|poke|p1|Gardevoir, F|
+|poke|p2|Porygon-Z|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Dragalge, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Garganacl, M|
+|poke|p2|Mandibuzz, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Harsh280993)
+|
+|t:|1743827769
+|start
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|turn|1
+|
+|t:|1743827777
+|move|p2a: Porygon-Z|Hyper Beam|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|-mustrecharge|p2a: Porygon-Z
+|faint|p1a: Tsareena
+|
+|upkeep
+|
+|t:|1743827803
+|switch|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Porygon-Z|[from] ability: Imposter
+|turn|2
+|
+|t:|1743827817
+|move|p1a: Ditto|Discharge|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|75/100
+|-status|p2a: Porygon-Z|par
+|cant|p2a: Porygon-Z|recharge
+|
+|upkeep
+|turn|3
+|
+|t:|1743827828
+|move|p1a: Ditto|Discharge|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|51/100 par
+|move|p2a: Porygon-Z|Hyper Beam|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|-mustrecharge|p2a: Porygon-Z
+|faint|p1a: Ditto
+|
+|upkeep
+|
+|t:|1743827836
+|switch|p1a: Greninja|Greninja, F|100/100
+|turn|4
+|
+|t:|1743827842
+|move|p1a: Greninja|Dark Pulse|p2a: Porygon-Z
+|-start|p1a: Greninja|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Porygon-Z|3/100 par
+|cant|p2a: Porygon-Z|recharge
+|
+|upkeep
+|turn|5
+|
+|t:|1743827857
+|move|p1a: Greninja|Dark Pulse|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|
+|upkeep
+|
+|t:|1743827869
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|6
+|
+|t:|1743827878
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|-ability|p1a: Gardevoir|Contrary|[from] ability: Trace|[of] p2a: Enamorus
+|move|p2a: Enamorus|Superpower|p1a: Gardevoir
+|-resisted|p1a: Gardevoir
+|-damage|p1a: Gardevoir|89/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|
+|-heal|p1a: Gardevoir|95/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743827891
+|move|p2a: Enamorus|Draining Kiss|p1a: Gardevoir
+|-damage|p1a: Gardevoir|75/100
+|move|p1a: Gardevoir|Thunderbolt|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|52/100
+|
+|-heal|p1a: Gardevoir|81/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743827898
+|switch|p2a: Dragalge|Dragalge, M|100/100
+|move|p1a: Gardevoir|Thunderbolt|p2a: Dragalge
+|-resisted|p2a: Dragalge
+|-crit|p2a: Dragalge
+|-damage|p2a: Dragalge|84/100
+|
+|-heal|p1a: Gardevoir|87/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743827909
+|-terastallize|p1a: Gardevoir|Steel
+|move|p1a: Gardevoir|Moonblast|p2a: Dragalge
+|-damage|p2a: Dragalge|47/100
+|-unboost|p2a: Dragalge|spa|1
+|move|p2a: Dragalge|Sludge Bomb|p1a: Gardevoir
+|-immune|p1a: Gardevoir
+|
+|-heal|p1a: Gardevoir|93/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743827918
+|switch|p2a: Enamorus|Enamorus, F|52/100
+|move|p1a: Gardevoir|Moonblast|p2a: Enamorus
+|-damage|p2a: Enamorus|8/100
+|-boost|p2a: Enamorus|spa|1
+|
+|-heal|p1a: Gardevoir|99/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743827926
+|switch|p1a: Uxie|Uxie|100/100
+|move|p2a: Enamorus|Superpower|p1a: Uxie
+|-resisted|p1a: Uxie
+|-damage|p1a: Uxie|92/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|def|1
+|-damage|p2a: Enamorus|0 fnt|[from] item: Rocky Helmet|[of] p1a: Uxie
+|faint|p2a: Enamorus
+|
+|upkeep
+|l|☆Harsh280993
+|inactive|Harsh280993 disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|Harsh280993 has 30 seconds to reconnect!
+|inactive|Harsh280993 has 20 seconds to reconnect!
+|inactive|Harsh280993 has 15 seconds to reconnect!
+|inactive|Harsh280993 has 10 seconds to reconnect!
+|inactive|Harsh280993 has 5 seconds to reconnect!
+|-message|Harsh280993 lost due to inactivity.
+|
+|win|Kiwi Weewee
+|raw|Kiwi Weewee's rating: 1095 &rarr; <strong>1126</strong><br />(+31 for winning)
+|raw|Harsh280993's rating: 1172 &rarr; <strong>1142</strong><br />(-30 for losing)
+|l|☆Kiwi Weewee
+|player|p1|

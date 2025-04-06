@@ -1,0 +1,407 @@
+|j|☆Y.V_Mad1
+|j|☆SlingShotWright
+|t:|1743885413
+|gametype|singles
+|player|p1|Y.V_Mad1|gloria-dojo|1569
+|player|p2|SlingShotWright|169|1602
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Dragonite, F|
+|poke|p1|Iron Treads|
+|poke|p1|Pecharunt|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Tinkaton, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Gliscor, F|
+|poke|p2|Talonflame, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Y.V_Mad1)
+|
+|t:|1743885422
+|start
+|switch|p1a: Stupider|Araquanid, F, shiny|100/100
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-item|p2a: Tinkaton|Air Balloon
+|turn|1
+|
+|t:|1743885428
+|move|p2a: Tinkaton|Thunder Wave|p1a: Stupider|[miss]
+|-miss|p2a: Tinkaton|p1a: Stupider
+|move|p1a: Stupider|Sticky Web|p2a: Tinkaton
+|-sidestart|p2: SlingShotWright|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743885434
+|switch|p1a: Tusk: Act IV|Iron Treads|100/100
+|-enditem|p1a: Tusk: Act IV|Booster Energy
+|-activate|p1a: Tusk: Act IV|ability: Quark Drive|[fromitem]
+|-start|p1a: Tusk: Act IV|quarkdriveatk
+|move|p2a: Tinkaton|Stealth Rock|p1a: Tusk: Act IV
+|-sidestart|p1: Y.V_Mad1|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1743885441
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|move|p1a: Tusk: Act IV|Iron Head|p2a: Talonflame
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|74/100
+|-status|p1a: Tusk: Act IV|brn|[from] ability: Flame Body|[of] p2a: Talonflame
+|
+|-damage|p1a: Tusk: Act IV|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743885451
+|move|p1a: Tusk: Act IV|Supercell Slam|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|35/100
+|move|p2a: Talonflame|Defog|p1a: Tusk: Act IV
+|-unboost|p1a: Tusk: Act IV|evasion|1
+|-sideend|p1: Y.V_Mad1|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
+|-sideend|p2: SlingShotWright|Sticky Web|[from] move: Defog|[of] p2a: Talonflame
+|
+|-damage|p1a: Tusk: Act IV|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743885460
+|-end|p1a: Tusk: Act IV|Quark Drive|[silent]
+|switch|p1a: Stupider|Araquanid, F, shiny|100/100
+|move|p2a: Talonflame|Flamethrower|p1a: Stupider
+|-damage|p1a: Stupider|90/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743885474
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-item|p2a: Tinkaton|Air Balloon
+|move|p1a: Stupider|Liquidation|p2a: Tinkaton
+|-damage|p2a: Tinkaton|48/100
+|-enditem|p2a: Tinkaton|Air Balloon
+|-enditem|p1a: Stupider|Mental Herb|[silent]|[from] ability: Pickpocket|[of] p1a: Stupider
+|-item|p2a: Tinkaton|Mental Herb|[from] ability: Pickpocket|[of] p1a: Stupider
+|
+|upkeep
+|turn|7
+|
+|t:|1743885487
+|move|p2a: Tinkaton|Stealth Rock|p1a: Stupider
+|-sidestart|p1: Y.V_Mad1|move: Stealth Rock
+|move|p1a: Stupider|Sticky Web|p2a: Tinkaton
+|-sidestart|p2: SlingShotWright|move: Sticky Web
+|
+|upkeep
+|turn|8
+|
+|t:|1743885491
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Stupider
+|-resisted|p1a: Stupider
+|-damage|p1a: Stupider|75/100
+|move|p1a: Stupider|Liquidation|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|
+|upkeep
+|
+|t:|1743885502
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|9
+|
+|t:|1743885507
+|move|p2a: Dragapult|Draco Meteor|p1a: Stupider
+|-damage|p1a: Stupider|32/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Stupider|Lunge|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|87/100
+|-unboost|p2a: Dragapult|atk|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743885517
+|switch|p1a: Tusk: Act IV|Iron Treads|88/100 brn
+|-damage|p1a: Tusk: Act IV|85/100 brn|[from] Stealth Rock
+|move|p2a: Dragapult|Draco Meteor|p1a: Tusk: Act IV
+|-resisted|p1a: Tusk: Act IV
+|-damage|p1a: Tusk: Act IV|67/100 brn
+|-unboost|p2a: Dragapult|spa|2
+|
+|-damage|p1a: Tusk: Act IV|60/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743885533
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Tusk: Act IV|Earthquake|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|-damage|p1a: Tusk: Act IV|54/100 brn|[from] brn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|12
+|
+|t:|1743885544
+|switch|p2a: Dragapult|Dragapult, F|87/100
+|move|p1a: Tusk: Act IV|Rapid Spin|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-damage|p1a: Tusk: Act IV|48/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743885560
+|move|p2a: Dragapult|Hex|p1a: Tusk: Act IV
+|-damage|p1a: Tusk: Act IV|0 fnt
+|faint|p1a: Tusk: Act IV
+|-end|p1a: Tusk: Act IV|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743885568
+|switch|p1a: Project Mbappe|Cinderace, F|100/100
+|-damage|p1a: Project Mbappe|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743885585
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox
+|move|p1a: Project Mbappe|Sucker Punch||[still]
+|-fail|p1a: Project Mbappe
+|
+|upkeep
+|turn|15
+|
+|t:|1743885595
+|switch|p1a: Suavamente|Dragonite, F|100/100
+|-damage|p1a: Suavamente|76/100|[from] Stealth Rock
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|upkeep
+|turn|16
+|
+|t:|1743885603
+|move|p1a: Suavamente|Dragon Dance|p1a: Suavamente
+|-boost|p1a: Suavamente|atk|1
+|-boost|p1a: Suavamente|spe|1
+|move|p2a: Gliscor|Facade|p1a: Suavamente
+|-damage|p1a: Suavamente|6/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743885612
+|move|p1a: Suavamente|Ice Spinner|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1743885619
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|-activate|p2a: Samurott|move: Sticky Web
+|-unboost|p2a: Samurott|spe|1
+|turn|18
+|
+|t:|1743885624
+|move|p2a: Samurott|Aqua Jet|p1a: Suavamente
+|-resisted|p1a: Suavamente
+|-damage|p1a: Suavamente|0 fnt
+|faint|p1a: Suavamente
+|
+|upkeep
+|
+|t:|1743885629
+|switch|p1a: Stupider|Araquanid, F, shiny|32/100
+|-damage|p1a: Stupider|7/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743885633
+|move|p2a: Samurott|Aqua Jet|p1a: Stupider
+|-resisted|p1a: Stupider
+|-damage|p1a: Stupider|0 fnt
+|faint|p1a: Stupider
+|
+|upkeep
+|
+|t:|1743885639
+|switch|p1a: Project Mbappe|Cinderace, F|76/100
+|-damage|p1a: Project Mbappe|51/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743885645
+|move|p1a: Project Mbappe|Sucker Punch|p2a: Samurott
+|-start|p1a: Project Mbappe|typechange|Dark|[from] ability: Libero
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|75/100
+|-damage|p1a: Project Mbappe|41/100|[from] item: Life Orb
+|move|p2a: Samurott|Aqua Jet|p1a: Project Mbappe
+|-damage|p1a: Project Mbappe|3/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743885664
+|switch|p2a: Talonflame|Talonflame, M|35/100
+|move|p1a: Project Mbappe|Sucker Punch||[still]
+|-fail|p1a: Project Mbappe
+|
+|upkeep
+|turn|22
+|
+|t:|1743885669
+|move|p1a: Project Mbappe|Gunk Shot|p2a: Talonflame|[miss]
+|-miss|p1a: Project Mbappe|p2a: Talonflame
+|move|p2a: Talonflame|Defog|p1a: Project Mbappe
+|-unboost|p1a: Project Mbappe|evasion|1
+|-sideend|p1: Y.V_Mad1|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
+|-sideend|p2: SlingShotWright|Sticky Web|[from] move: Defog|[of] p2a: Talonflame
+|
+|upkeep
+|turn|23
+|
+|t:|1743885692
+|switch|p2a: Samurott|Samurott-Hisui, M|75/100
+|move|p1a: Project Mbappe|Gunk Shot|p2a: Samurott
+|-damage|p2a: Samurott|10/100
+|-status|p2a: Samurott|psn
+|-damage|p1a: Project Mbappe|0 fnt|[from] item: Life Orb
+|faint|p1a: Project Mbappe
+|
+|-damage|p2a: Samurott|0 fnt|[from] psn
+|faint|p2a: Samurott
+|upkeep
+|
+|t:|1743885706
+|switch|p1a: Momo|Pecharunt|100/100
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-item|p1a: Momo|Air Balloon
+|turn|24
+|
+|t:|1743885719
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|move|p1a: Momo|Malignant Chain|p2a: Ogerpon
+|-damage|p2a: Ogerpon|70/100
+|-status|p2a: Ogerpon|tox
+|-start|p2a: Ogerpon|confusion|[from] ability: Poison Puppeteer|[of] p1a: Momo
+|
+|-damage|p2a: Ogerpon|64/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1743885732
+|-activate|p2a: Ogerpon|confusion
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Momo|[anim] Ivy Cudgel Water
+|-damage|p1a: Momo|0 fnt
+|-enditem|p1a: Momo|Air Balloon
+|faint|p1a: Momo
+|
+|-damage|p2a: Ogerpon|52/100 tox|[from] psn
+|upkeep
+|
+|t:|1743885734
+|switch|p1a: KinGOATbit|Kingambit, F|100/100
+|-activate|p1a: KinGOATbit|ability: Supreme Overlord
+|-start|p1a: KinGOATbit|fallen5|[silent]
+|turn|26
+|
+|t:|1743885744
+|move|p1a: KinGOATbit|Sucker Punch|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743885752
+|switch|p2a: Dragapult|Dragapult, F|87/100
+|turn|27
+|
+|t:|1743885756
+|move|p2a: Dragapult|Will-O-Wisp|p1a: KinGOATbit
+|-status|p1a: KinGOATbit|brn
+|move|p1a: KinGOATbit|Kowtow Cleave|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-damage|p1a: KinGOATbit|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1743885765
+|switch|p2a: Talonflame|Talonflame, M|35/100
+|turn|28
+|c|☆Y.V_Mad1|gg
+|
+|t:|1743885775
+|-terastallize|p1a: KinGOATbit|Ghost
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|85/100
+|-singleturn|p2a: Talonflame|move: Roost
+|move|p1a: KinGOATbit|Kowtow Cleave|p2a: Talonflame
+|-damage|p2a: Talonflame|45/100
+|
+|-damage|p1a: KinGOATbit|88/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1743885787
+|move|p2a: Talonflame|Flamethrower|p1a: KinGOATbit
+|-damage|p1a: KinGOATbit|60/100 brn
+|move|p1a: KinGOATbit|Kowtow Cleave|p2a: Talonflame
+|-damage|p2a: Talonflame|2/100
+|
+|-damage|p1a: KinGOATbit|54/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1743885795
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|52/100
+|-singleturn|p2a: Talonflame|move: Roost
+|move|p1a: KinGOATbit|Swords Dance|p1a: KinGOATbit
+|-boost|p1a: KinGOATbit|atk|2
+|
+|-damage|p1a: KinGOATbit|48/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1743885804
+|move|p2a: Talonflame|Flamethrower|p1a: KinGOATbit
+|-damage|p1a: KinGOATbit|19/100 brn
+|move|p1a: KinGOATbit|Kowtow Cleave|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|win|Y.V_Mad1
+|raw|Y.V_Mad1's rating: 1569 &rarr; <strong>1591</strong><br />(+22 for winning)
+|raw|SlingShotWright's rating: 1602 &rarr; <strong>1580</strong><br />(-22 for losing)
+|l|☆Y.V_Mad1
+|player|p1|
+|l|☆SlingShotWright
+|player|p2|

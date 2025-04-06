@@ -1,0 +1,280 @@
+|j|☆dikuccv
+|j|☆cuervotesteador
+|t:|1743825705
+|gametype|singles
+|player|p1|dikuccv|2|1070
+|player|p2|cuervotesteador|1|1079
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Crown|
+|poke|p1|Iron Hands|
+|poke|p1|Great Tusk|
+|poke|p1|Glimmora, F|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Jirachi|
+|poke|p2|Hitmonchan, M|
+|poke|p2|Moltres|
+|poke|p2|Frosmoth, M|
+|poke|p2|Iron Crown|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dikuccv)
+|
+|t:|1743825723
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|turn|1
+|
+|t:|1743825739
+|-terastallize|p2a: Landorus|Flying
+|move|p2a: Landorus|Tera Blast|p1a: Great Tusk|[anim] Tera Blast Flying
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|23/100
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743825748
+|move|p2a: Landorus|Tera Blast|p1a: Great Tusk|[anim] Tera Blast Flying
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743825761
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100
+|turn|3
+|
+|t:|1743825787
+|switch|p2a: Frosmoth|Frosmoth, M|100/100
+|move|p1a: Arcanine|Head Smash|p2a: Frosmoth
+|-supereffective|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|faint|p2a: Frosmoth
+|-damage|p1a: Arcanine|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743825797
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|4
+|
+|t:|1743825811
+|switch|p1a: Jirachi|Jirachi|100/100
+|-item|p1a: Jirachi|Air Balloon
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Jirachi|[anim] Ivy Cudgel Water
+|-damage|p1a: Jirachi|44/100
+|-enditem|p1a: Jirachi|Air Balloon
+|
+|upkeep
+|turn|5
+|
+|t:|1743825832
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Jirachi|[anim] Ivy Cudgel Water
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|upkeep
+|
+|t:|1743825838
+|switch|p1a: ZachuVGC|Iron Hands|100/100
+|turn|6
+|inactive|dikuccv has 120 seconds left.
+|
+|t:|1743825859
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: ZachuVGC|Drain Punch|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|87/100
+|-status|p1a: ZachuVGC|brn|[from] ability: Flame Body|[of] p2a: Moltres
+|
+|-damage|p1a: ZachuVGC|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743825872
+|move|p2a: Moltres|U-turn|p1a: ZachuVGC
+|-resisted|p1a: ZachuVGC
+|-damage|p1a: ZachuVGC|90/100 brn
+|
+|t:|1743825876
+|switch|p2a: Landorus|Landorus-Therian, M, tera:Flying|100/100|[from] U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: ZachuVGC|atk|1
+|move|p1a: ZachuVGC|Swords Dance|p1a: ZachuVGC
+|-boost|p1a: ZachuVGC|atk|2
+|
+|-heal|p1a: ZachuVGC|96/100 brn|[from] item: Leftovers
+|-damage|p1a: ZachuVGC|90/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743825895
+|move|p2a: Landorus|Earthquake|p1a: ZachuVGC
+|-supereffective|p1a: ZachuVGC
+|-damage|p1a: ZachuVGC|28/100 brn
+|move|p1a: ZachuVGC|Ice Punch|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|53/100
+|
+|-heal|p1a: ZachuVGC|34/100 brn|[from] item: Leftovers
+|-damage|p1a: ZachuVGC|28/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743825903
+|move|p2a: Landorus|Earthquake|p1a: ZachuVGC
+|-supereffective|p1a: ZachuVGC
+|-damage|p1a: ZachuVGC|0 fnt
+|faint|p1a: ZachuVGC
+|-end|p1a: ZachuVGC|Quark Drive|[silent]
+|
+|upkeep
+|inactive|dikuccv has 120 seconds left.
+|
+|t:|1743825924
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespe
+|turn|10
+|
+|t:|1743825932
+|switch|p2a: Moltres|Moltres|87/100
+|-terastallize|p1a: Iron Crown|Fighting
+|move|p1a: Iron Crown|Iron Defense|p1a: Iron Crown
+|-boost|p1a: Iron Crown|def|2
+|
+|upkeep
+|turn|11
+|inactive|dikuccv has 120 seconds left.
+|
+|t:|1743825948
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|move|p2a: Moltres|Roar|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|drag|p1a: Arcanine|Arcanine-Hisui, F|91/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743825957
+|move|p1a: Arcanine|Double-Edge|p2a: Moltres
+|-damage|p2a: Moltres|53/100
+|-damage|p1a: Arcanine|81/100|[from] item: Life Orb
+|move|p2a: Moltres|Roar|p1a: Arcanine
+|drag|p1a: Iron Crown|Iron Crown, tera:Fighting|100/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743825965
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|move|p2a: Moltres|Flamethrower|p1a: Iron Crown
+|-damage|p1a: Iron Crown|77/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743825970
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|move|p2a: Moltres|Roar|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|drag|p1a: Glimmora|Glimmora, F|100/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743825978
+|move|p1a: Glimmora|Rock Polish|p1a: Glimmora
+|-boost|p1a: Glimmora|spe|2
+|move|p2a: Moltres|Roar|p1a: Glimmora
+|drag|p1a: Iron Crown|Iron Crown, tera:Fighting|77/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743825988
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|move|p2a: Moltres|Will-O-Wisp|p1a: Iron Crown
+|-status|p1a: Iron Crown|brn
+|
+|-damage|p1a: Iron Crown|71/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743825996
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|move|p2a: Moltres|Roar|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|drag|p1a: Glimmora|Glimmora, F|100/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743826004
+|move|p1a: Glimmora|Meteor Beam||[still]
+|-prepare|p1a: Glimmora|Meteor Beam
+|-boost|p1a: Glimmora|spa|1
+|-enditem|p1a: Glimmora|Power Herb
+|-anim|p1a: Glimmora|Meteor Beam|p2a: Moltres|[miss]
+|-miss|p1a: Glimmora|p2a: Moltres
+|move|p2a: Moltres|Roar|p1a: Glimmora
+|drag|p1a: Iron Crown|Iron Crown, tera:Fighting|71/100 brn
+|
+|-damage|p1a: Iron Crown|65/100 brn|[from] brn
+|upkeep
+|turn|19
+|inactive|dikuccv has 120 seconds left.
+|
+|t:|1743826054
+|move|p1a: Iron Crown|Iron Defense|p1a: Iron Crown
+|-boost|p1a: Iron Crown|def|2
+|move|p2a: Moltres|Flamethrower|p1a: Iron Crown
+|-damage|p1a: Iron Crown|29/100 brn
+|
+|-damage|p1a: Iron Crown|23/100 brn|[from] brn
+|upkeep
+|turn|20
+|-message|dikuccv forfeited.
+|
+|win|cuervotesteador
+|raw|dikuccv's rating: 1070 &rarr; <strong>1050</strong><br />(-20 for losing)
+|raw|cuervotesteador's rating: 1079 &rarr; <strong>1106</strong><br />(+27 for winning)
+|l|☆dikuccv
+|player|p1|
+|l|☆cuervotesteador
+|player|p2|

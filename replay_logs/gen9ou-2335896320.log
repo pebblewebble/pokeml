@@ -1,0 +1,306 @@
+|j|☆Glubabal
+|j|☆spoookyboogie
+|t:|1743855593
+|gametype|singles
+|player|p1|Glubabal|unknown|1146
+|player|p2|spoookyboogie|cameraman|1160
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torterra, F|
+|poke|p1|Infernape, M|
+|poke|p1|Empoleon, M|
+|poke|p1|Serperior, M|
+|poke|p1|Emboar, F|
+|poke|p1|Samurott, F|
+|poke|p2|Kyurem|
+|poke|p2|Ting-Lu|
+|poke|p2|Polteageist|
+|poke|p2|Sinistcha|
+|poke|p2|Corviknight, F|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by spoookyboogie)
+|
+|t:|1743855608
+|start
+|switch|p1a: Serperior|Serperior, M|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743855616
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|move|p1a: Serperior|Iron Tail|p2a: Iron Valiant|[miss]
+|-miss|p1a: Serperior|p2a: Iron Valiant
+|
+|upkeep
+|turn|2
+|
+|t:|1743855623
+|-terastallize|p2a: Iron Valiant|Dark
+|move|p2a: Iron Valiant|Spirit Break|p1a: Serperior
+|-damage|p1a: Serperior|13/100
+|-unboost|p1a: Serperior|spa|1
+|move|p1a: Serperior|Iron Tail|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|67/100
+|-unboost|p2a: Iron Valiant|def|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743855633
+|move|p2a: Iron Valiant|Spirit Break|p1a: Serperior
+|-crit|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|
+|t:|1743855639
+|switch|p1a: Infernape|Infernape, M|100/100
+|turn|4
+|
+|t:|1743855642
+|move|p1a: Infernape|Mach Punch|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|-damage|p1a: Infernape|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743855647
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|5
+|
+|t:|1743855652
+|switch|p1a: Empoleon|Empoleon, M|100/100
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|6
+|
+|t:|1743855659
+|move|p2a: Polteageist|Stored Power|p1a: Empoleon
+|-resisted|p1a: Empoleon
+|-damage|p1a: Empoleon|63/100
+|move|p1a: Empoleon|Brine|p2a: Polteageist
+|-damage|p2a: Polteageist|59/100
+|
+|-heal|p1a: Empoleon|70/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743855671
+|move|p2a: Polteageist|Shadow Ball|p1a: Empoleon
+|-damage|p1a: Empoleon|7/100
+|-unboost|p1a: Empoleon|spd|1
+|-ability|p1a: Empoleon|Competitive|boost
+|-boost|p1a: Empoleon|spa|2
+|move|p1a: Empoleon|Brine|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|-heal|p1a: Empoleon|13/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743855680
+|switch|p2a: Sinistcha|Sinistcha|100/100
+|turn|8
+|
+|t:|1743855683
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|move|p1a: Empoleon|Whirlpool|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|90/100
+|-activate|p2a: Sinistcha|move: Whirlpool|[of] p1a: Empoleon
+|
+|-heal|p1a: Empoleon|20/100|[from] item: Leftovers
+|-damage|p2a: Sinistcha|78/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|t:|1743855708
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|move|p1a: Empoleon|Brine|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|64/100
+|
+|-heal|p1a: Empoleon|26/100|[from] item: Leftovers
+|-damage|p2a: Sinistcha|51/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|t:|1743855716
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|-heal|p2a: Sinistcha|65/100|[from] drain|[of] p1a: Empoleon
+|faint|p1a: Empoleon
+|
+|-end|p2a: Sinistcha|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1743855723
+|switch|p1a: Emboar|Emboar, F|100/100
+|turn|11
+|
+|t:|1743855726
+|move|p2a: Sinistcha|Strength Sap|p1a: Emboar
+|-unboost|p1a: Emboar|atk|1
+|-heal|p2a: Sinistcha|100/100
+|move|p1a: Emboar|Flare Blitz|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|50/100
+|-damage|p1a: Emboar|87/100|[from] Recoil
+|-damage|p1a: Emboar|77/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|t:|1743855736
+|switch|p1a: Samurott|Samurott, F|100/100
+|move|p2a: Sinistcha|Strength Sap|p1a: Samurott
+|-unboost|p1a: Samurott|atk|1
+|-heal|p2a: Sinistcha|100/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743855743
+|move|p1a: Samurott|Ice Beam|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|68/100
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Samurott|[miss]
+|-miss|p2a: Sinistcha|p1a: Samurott
+|
+|upkeep
+|turn|14
+|
+|t:|1743855751
+|move|p1a: Samurott|Ice Beam|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|36/100
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-heal|p2a: Sinistcha|84/100|[from] drain|[of] p1a: Samurott
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1743855761
+|switch|p1a: Infernape|Infernape, M|91/100
+|turn|15
+|
+|t:|1743855765
+|move|p1a: Infernape|Fire Punch|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|45/100
+|-damage|p1a: Infernape|81/100|[from] item: Life Orb
+|move|p2a: Sinistcha|Strength Sap|p1a: Infernape
+|-unboost|p1a: Infernape|atk|1
+|-heal|p2a: Sinistcha|100/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743855773
+|move|p1a: Infernape|Fire Punch|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|71/100
+|-damage|p1a: Infernape|71/100|[from] item: Life Orb
+|move|p2a: Sinistcha|Strength Sap|p1a: Infernape
+|-unboost|p1a: Infernape|atk|1
+|-heal|p2a: Sinistcha|100/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743855781
+|move|p1a: Infernape|Fire Punch|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|79/100
+|-damage|p1a: Infernape|61/100|[from] item: Life Orb
+|move|p2a: Sinistcha|Shadow Ball|p1a: Infernape
+|-damage|p1a: Infernape|0 fnt
+|faint|p1a: Infernape
+|
+|upkeep
+|
+|t:|1743855784
+|switch|p1a: Torterra|Torterra, F|100/100
+|turn|18
+|
+|t:|1743855791
+|move|p2a: Sinistcha|Shadow Ball|p1a: Torterra
+|-damage|p1a: Torterra|56/100
+|move|p1a: Torterra|Giga Drain|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|72/100
+|-heal|p1a: Torterra|59/100|[from] drain|[of] p2a: Sinistcha
+|
+|-heal|p1a: Torterra|65/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743855799
+|move|p2a: Sinistcha|Shadow Ball|p1a: Torterra
+|-damage|p1a: Torterra|18/100
+|move|p1a: Torterra|Giga Drain|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|66/100
+|-heal|p1a: Torterra|21/100|[from] drain|[of] p2a: Sinistcha
+|
+|-heal|p1a: Torterra|27/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743855808
+|move|p2a: Sinistcha|Shadow Ball|p1a: Torterra
+|-damage|p1a: Torterra|0 fnt
+|faint|p1a: Torterra
+|
+|upkeep
+|
+|t:|1743855810
+|switch|p1a: Emboar|Emboar, F|77/100
+|turn|21
+|
+|t:|1743855815
+|-terastallize|p1a: Emboar|Fire
+|move|p2a: Sinistcha|Shadow Ball|p1a: Emboar
+|-crit|p1a: Emboar
+|-damage|p1a: Emboar|0 fnt
+|faint|p1a: Emboar
+|
+|win|spoookyboogie
+|raw|Glubabal's rating: 1146 &rarr; <strong>1122</strong><br />(-24 for losing)
+|raw|spoookyboogie's rating: 1160 &rarr; <strong>1184</strong><br />(+24 for winning)
+|l|☆Glubabal
+|player|p1|
+|l|☆spoookyboogie
+|player|p2|

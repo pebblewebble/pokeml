@@ -1,0 +1,355 @@
+|j|☆dct_spite
+|j|☆maple_syrup689hoe
+|t:|1743937785
+|gametype|singles
+|player|p1|dct_spite|janitor|1610
+|player|p2|maple_syrup689hoe|rosa|1558
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Deoxys-Speed|
+|poke|p1|Iron Moth|
+|poke|p1|Iron Valiant|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Weavile, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Oricorio-Pom-Pom, F|
+|poke|p2|Araquanid, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Gholdengo|
+|teampreview
+|j| Sanesa8724
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dct_spite)
+|
+|t:|1743937803
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|
+|t:|1743937805
+|move|p1a: Deoxys|Taunt|p2a: Araquanid
+|-start|p2a: Araquanid|move: Taunt
+|move|p2a: Araquanid|Surf|p1a: Deoxys
+|-damage|p1a: Deoxys|39/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743937814
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Araquanid|atk|1
+|move|p2a: Araquanid|Surf|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743937818
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|3
+|
+|t:|1743937821
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|move|p2a: Araquanid|Endeavor|p1a: Ogerpon
+|-immune|p1a: Ogerpon
+|
+|-end|p2a: Araquanid|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1743937825
+|move|p2a: Araquanid|Endure|p2a: Araquanid
+|-singleturn|p2a: Araquanid|move: Endure
+|move|p1a: Ogerpon|Bullet Seed|p2a: Araquanid
+|-damage|p2a: Araquanid|69/100
+|-damage|p2a: Araquanid|40/100
+|-hitcount|p2a: Araquanid|2
+|
+|upkeep
+|turn|5
+|
+|t:|1743937833
+|move|p2a: Araquanid|Endure||[still]
+|-fail|p2a: Araquanid
+|move|p1a: Ogerpon|Bullet Seed|p2a: Araquanid
+|-damage|p2a: Araquanid|11/100
+|-crit|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|-hitcount|p2: Araquanid|2
+|
+|upkeep
+|
+|t:|1743937837
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|6
+|
+|t:|1743937846
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p2a: Weavile|Triple Axel|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|95/100
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|81/100
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|61/100
+|-hitcount|p1a: Ogerpon|3
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Weavile|[anim] Ivy Cudgel Water
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|t:|1743937853
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|7
+|
+|t:|1743937860
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Dragonite|[anim] Ivy Cudgel Water
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|61/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743937865
+|move|p2a: Dragonite|Earthquake|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743937872
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|9
+|
+|t:|1743937878
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|upkeep
+|turn|10
+|
+|t:|1743937883
+|move|p2a: Gholdengo|Trick|p1a: Zamazenta
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Zamazenta
+|-item|p1a: Zamazenta|Choice Scarf|[from] move: Trick
+|-item|p2a: Gholdengo|Leftovers|[from] move: Trick
+|move|p1a: Zamazenta|Heavy Slam|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|82/100
+|
+|-heal|p2a: Gholdengo|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743937889
+|move|p1a: Zamazenta|Heavy Slam|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|63/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Zamazenta
+|-damage|p1a: Zamazenta|70/100
+|-unboost|p1a: Zamazenta|spd|1
+|
+|-heal|p2a: Gholdengo|69/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743937892
+|move|p1a: Zamazenta|Heavy Slam|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|51/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Zamazenta
+|-damage|p1a: Zamazenta|24/100
+|-unboost|p1a: Zamazenta|spd|1
+|
+|-heal|p2a: Gholdengo|57/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|l| Sanesa8724
+|
+|t:|1743937895
+|move|p1a: Zamazenta|Heavy Slam|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|40/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-heal|p2a: Gholdengo|46/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743937903
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|14
+|
+|t:|1743937905
+|move|p1a: Iron Moth|Fiery Dance|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743937907
+|switch|p2a: Dragonite|Dragonite, M|61/100
+|turn|15
+|
+|t:|1743937913
+|-terastallize|p2a: Dragonite|Normal
+|move|p2a: Dragonite|Extreme Speed|p1a: Iron Moth
+|-damage|p1a: Iron Moth|28/100
+|move|p1a: Iron Moth|Sludge Wave|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1743937916
+|switch|p2a: Oricorio|Oricorio-Pom-Pom, F|100/100
+|turn|16
+|
+|t:|1743937923
+|move|p1a: Iron Moth|Sludge Wave|p2a: Oricorio
+|-damage|p2a: Oricorio|4/100
+|move|p2a: Oricorio|Revelation Dance|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743937930
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|17
+|
+|t:|1743937934
+|move|p1a: Iron Valiant|Knock Off|p2a: Oricorio
+|-damage|p2a: Oricorio|0 fnt
+|-enditem|p2a: Oricorio|Kee Berry|[from] move: Knock Off|[of] p1a: Iron Valiant
+|faint|p2a: Oricorio
+|
+|upkeep
+|
+|t:|1743937936
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|18
+|
+|t:|1743937943
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Deoxys|Deoxys-Speed|39/100
+|-ability|p1a: Deoxys|Pressure
+|move|p2a: Hatterene|Draining Kiss|p1a: Deoxys
+|-damage|p1a: Deoxys|9/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743937947
+|move|p1a: Deoxys|Psycho Boost|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|78/100
+|-unboost|p1a: Deoxys|spa|2
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p2a: Hatterene|84/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743937951
+|move|p1a: Deoxys|Psycho Boost|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|76/100
+|-unboost|p1a: Deoxys|spa|2
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p2a: Hatterene|82/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743937955
+|move|p1a: Deoxys|Psycho Boost|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|78/100
+|-unboost|p1a: Deoxys|spa|2
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|-heal|p2a: Hatterene|84/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743937961
+|move|p1a: Deoxys|Psycho Boost|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|81/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|-heal|p2a: Hatterene|87/100|[from] drain|[of] p1a: Deoxys
+|faint|p1a: Deoxys
+|
+|-heal|p2a: Hatterene|93/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743937962
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|turn|23
+|
+|t:|1743937966
+|move|p1a: Iron Valiant|Close Combat|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|80/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|move|p2a: Hatterene|Draining Kiss|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|-heal|p2a: Hatterene|100/100|[from] drain|[of] p1a: Iron Valiant
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|win|maple_syrup689hoe
+|raw|dct_spite's rating: 1610 &rarr; <strong>1587</strong><br />(-23 for losing)
+|raw|maple_syrup689hoe's rating: 1558 &rarr; <strong>1581</strong><br />(+23 for winning)
+|l|☆dct_spite
+|player|p1|

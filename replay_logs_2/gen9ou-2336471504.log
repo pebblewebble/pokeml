@@ -1,0 +1,167 @@
+|j|☆Mattd2114
+|j|☆Quweuwe
+|t:|1743923259
+|gametype|singles
+|player|p1|Mattd2114|266|1188
+|player|p2|Quweuwe|flannery|1158
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, F|
+|poke|p1|Hitmonchan, M|
+|poke|p1|Ceruledge, M|
+|poke|p1|Gardevoir, M|
+|poke|p1|Gallade, M|
+|poke|p1|Tinkaton, F|
+|poke|p2|Quaquaval, F|
+|poke|p2|Rillaboom, F|
+|poke|p2|Hawlucha, F|
+|poke|p2|Iron Treads|
+|poke|p2|Dragapult, F|
+|poke|p2|Raging Bolt|
+|teampreview
+|
+|t:|1743923301
+|start
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|-item|p1a: Tinkaton|Air Balloon
+|turn|1
+|
+|t:|1743923326
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Tinkaton|Thunder Wave|p2a: Iron Treads
+|-immune|p2a: Iron Treads
+|
+|upkeep
+|turn|2
+|
+|t:|1743923335
+|move|p2a: Iron Treads|Stealth Rock|p1a: Tinkaton
+|-sidestart|p1: Mattd2114|move: Stealth Rock
+|move|p1a: Tinkaton|Encore|p2a: Iron Treads
+|-start|p2a: Iron Treads|Encore
+|
+|upkeep
+|turn|3
+|
+|t:|1743923355
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Tinkaton|Stealth Rock|p2a: Rillaboom
+|-sidestart|p2: Quweuwe|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1743923362
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Rillaboom
+|-damage|p2a: Rillaboom|54/100
+|move|p2a: Rillaboom|U-turn|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|90/100
+|-enditem|p1a: Tinkaton|Air Balloon
+|
+|t:|1743923370
+|switch|p2a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|
+|-heal|p1a: Tinkaton|96/100|[from] Grassy Terrain
+|-heal|p2a: Raging Bolt|94/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1743923381
+|switch|p1a: Hitmonchan|Hitmonchan, M, shiny|100/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|33/100
+|
+|-heal|p2a: Raging Bolt|100/100|[from] Grassy Terrain
+|-heal|p1a: Hitmonchan|39/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1743923388
+|move|p2a: Raging Bolt|Thunderclap|p1a: Hitmonchan
+|-damage|p1a: Hitmonchan|0 fnt
+|faint|p1a: Hitmonchan
+|
+|upkeep
+|
+|t:|1743923397
+|switch|p1a: Gardevoir|Gardevoir, M, shiny|100/100
+|turn|7
+|
+|t:|1743923406
+|-terastallize|p2a: Raging Bolt|Fairy
+|move|p1a: Gardevoir|Calm Mind|p1a: Gardevoir
+|-boost|p1a: Gardevoir|spa|1
+|-boost|p1a: Gardevoir|spd|1
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1743923420
+|move|p1a: Gardevoir|Thunder Wave|p2a: Raging Bolt
+|-status|p2a: Raging Bolt|par
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Gardevoir
+|-damage|p1a: Gardevoir|25/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743923427
+|move|p1a: Gardevoir|Draining Kiss|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|76/100 par
+|-heal|p1a: Gardevoir|51/100|[from] drain|[of] p2a: Raging Bolt
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|upkeep
+|
+|t:|1743923432
+|switch|p1a: Tinkaton|Tinkaton, F|96/100
+|-damage|p1a: Tinkaton|90/100|[from] Stealth Rock
+|-ability|p1a: Tinkaton|Mold Breaker
+|turn|10
+|
+|t:|1743923459
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|-message|Quweuwe forfeited.
+|
+|win|Mattd2114
+|raw|Mattd2114's rating: 1188 &rarr; <strong>1211</strong><br />(+23 for winning)
+|raw|Quweuwe's rating: 1158 &rarr; <strong>1135</strong><br />(-23 for losing)
+|l|☆Quweuwe
+|player|p2|
+|l|☆Mattd2114
+|player|p1|

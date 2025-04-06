@@ -1,0 +1,313 @@
+|j|☆pichin
+|j|☆Josephdawinner
+|t:|1743811886
+|gametype|singles
+|player|p1|pichin|mira|1136
+|player|p2|Josephdawinner|1|1112
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Girafarig, M|
+|poke|p1|Ursaring, M|
+|poke|p1|Drifblim, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Arbok, M|
+|poke|p1|Altaria, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Mimikyu, F|
+|poke|p2|Maushold|
+|poke|p2|Eelektross, M|
+|poke|p2|Gengar, F|
+|poke|p2|Blastoise, M|
+|teampreview
+|
+|t:|1743811892
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Blastoise|Blastoise, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Blastoise|atk|1
+|-enditem|p2a: Blastoise|White Herb
+|-clearnegativeboost|p2a: Blastoise|[silent]
+|turn|1
+|
+|t:|1743811911
+|move|p1a: Landorus|Taunt|p2a: Blastoise
+|-start|p2a: Blastoise|move: Taunt
+|cant|p2a: Blastoise|move: Taunt|Shell Smash
+|
+|upkeep
+|turn|2
+|
+|t:|1743811921
+|move|p1a: Landorus|U-turn|p2a: Blastoise
+|-damage|p2a: Blastoise|70/100
+|
+|t:|1743811933
+|switch|p1a: Girafarig|Girafarig, M|100/100|[from] U-turn
+|move|p2a: Blastoise|Ice Beam|p1a: Girafarig
+|-damage|p1a: Girafarig|64/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743811943
+|move|p2a: Blastoise|Hydro Pump|p1a: Girafarig|[miss]
+|-miss|p2a: Blastoise|p1a: Girafarig
+|move|p1a: Girafarig|Thunder Wave|p2a: Blastoise
+|-status|p2a: Blastoise|par
+|
+|-end|p2a: Blastoise|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1743811952
+|move|p1a: Girafarig|Stomp|p2a: Blastoise
+|-damage|p2a: Blastoise|41/100 par
+|cant|p2a: Blastoise|flinch
+|
+|upkeep
+|turn|5
+|
+|t:|1743811960
+|move|p1a: Girafarig|Stomp|p2a: Blastoise
+|-damage|p2a: Blastoise|12/100 par
+|move|p2a: Blastoise|Shell Smash|p2a: Blastoise
+|-unboost|p2a: Blastoise|def|1
+|-unboost|p2a: Blastoise|spd|1
+|-boost|p2a: Blastoise|atk|2
+|-boost|p2a: Blastoise|spa|2
+|-boost|p2a: Blastoise|spe|2
+|
+|upkeep
+|turn|6
+|
+|t:|1743811970
+|move|p2a: Blastoise|Hydro Pump|p1a: Girafarig|[miss]
+|-miss|p2a: Blastoise|p1a: Girafarig
+|move|p1a: Girafarig|Stomp|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|upkeep
+|
+|t:|1743811974
+|switch|p2a: Gengar|Gengar, F, shiny|100/100
+|turn|7
+|
+|t:|1743811986
+|move|p2a: Gengar|Nasty Plot|p2a: Gengar
+|-boost|p2a: Gengar|spa|2
+|move|p1a: Girafarig|Thunder Wave|p2a: Gengar
+|-status|p2a: Gengar|par
+|
+|upkeep
+|turn|8
+|
+|t:|1743811993
+|move|p1a: Girafarig|Thunder Wave|p2a: Gengar
+|-fail|p2a: Gengar|par
+|move|p2a: Gengar|Energy Ball|p1a: Girafarig
+|-ability|p1a: Girafarig|Sap Sipper|boost
+|-boost|p1a: Girafarig|atk|1
+|
+|upkeep
+|turn|9
+|
+|t:|1743812009
+|move|p1a: Girafarig|Psychic Fangs|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-crit|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|t:|1743812015
+|switch|p2a: Maushold|Maushold, shiny|100/100
+|turn|10
+|
+|t:|1743812021
+|move|p2a: Maushold|Tidy Up|p2a: Maushold
+|-boost|p2a: Maushold|atk|1
+|-boost|p2a: Maushold|spe|1
+|move|p1a: Girafarig|Thunder Wave|p2a: Maushold
+|-status|p2a: Maushold|par
+|
+|upkeep
+|turn|11
+|
+|t:|1743812034
+|move|p1a: Girafarig|Stomp|p2a: Maushold
+|-damage|p2a: Maushold|48/100 par
+|move|p2a: Maushold|Population Bomb|p1a: Girafarig|[miss]
+|-miss|p2a: Maushold|p1a: Girafarig
+|
+|upkeep
+|turn|12
+|
+|t:|1743812046
+|move|p1a: Girafarig|Stomp|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|faint|p2a: Maushold
+|
+|upkeep
+|c|☆Josephdawinner|Why is all my shit missing
+|
+|t:|1743812057
+|switch|p2a: Mimikyu|Mimikyu, F, shiny|100/100
+|turn|13
+|
+|t:|1743812061
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|move|p1a: Girafarig|Thunder Wave|p2a: Mimikyu
+|-status|p2a: Mimikyu|par
+|
+|upkeep
+|turn|14
+|
+|t:|1743812069
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Girafarig
+|-immune|p1a: Girafarig
+|move|p1a: Girafarig|Psychic Fangs|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100 par
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F, shiny
+|-damage|p2a: Mimikyu|88/100 par|[from] pokemon: Mimikyu-Busted
+|
+|-heal|p2a: Mimikyu|94/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743812080
+|move|p1a: Girafarig|Psychic Fangs|p2a: Mimikyu
+|-damage|p2a: Mimikyu|33/100 par
+|move|p2a: Mimikyu|Play Rough|p1a: Girafarig
+|-damage|p1a: Girafarig|0 fnt
+|faint|p1a: Girafarig
+|
+|-heal|p2a: Mimikyu|39/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1743812099
+|switch|p1a: Ursaring|Ursaring, M|100/100
+|turn|16
+|
+|t:|1743812117
+|move|p1a: Ursaring|Earthquake|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|-status|p1a: Ursaring|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1743812120
+|switch|p2a: Eelektross|Eelektross, M, shiny|100/100
+|turn|17
+|
+|t:|1743812129
+|move|p2a: Eelektross|Coil|p2a: Eelektross
+|-boost|p2a: Eelektross|atk|1
+|-boost|p2a: Eelektross|def|1
+|-boost|p2a: Eelektross|accuracy|1
+|move|p1a: Ursaring|Facade|p2a: Eelektross
+|-damage|p2a: Eelektross|3/100
+|
+|-damage|p1a: Ursaring|94/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743812145
+|move|p2a: Eelektross|Drain Punch|p1a: Ursaring
+|-supereffective|p1a: Ursaring
+|-damage|p1a: Ursaring|3/100 brn
+|-heal|p2a: Eelektross|59/100|[from] drain|[of] p1a: Ursaring
+|move|p1a: Ursaring|Facade|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|
+|-damage|p1a: Ursaring|0 fnt|[from] brn
+|faint|p1a: Ursaring
+|upkeep
+|
+|t:|1743812162
+|switch|p2a: Kingambit|Kingambit, M, shiny|100/100
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|19
+|
+|t:|1743812172
+|-terastallize|p2a: Kingambit|Dark
+|move|p1a: Landorus|Earthquake|p2a: Kingambit
+|-damage|p2a: Kingambit|55/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|20
+|
+|t:|1743812180
+|move|p2a: Kingambit|Sucker Punch|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Kingambit|39/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743812186
+|switch|p1a: Arbok|Arbok, M|100/100
+|-ability|p1a: Arbok|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|turn|21
+|
+|t:|1743812197
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Arbok|Toxic|p2a: Kingambit
+|-status|p2a: Kingambit|tox
+|
+|-damage|p2a: Kingambit|33/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1743812206
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Arbok|Switcheroo|p2a: Kingambit
+|-activate|p1a: Arbok|move: Trick|[of] p2a: Kingambit
+|-item|p2a: Kingambit|Black Sludge|[from] move: Switcheroo
+|-item|p1a: Arbok|Black Glasses|[from] move: Switcheroo
+|
+|-damage|p2a: Kingambit|20/100 tox|[from] item: Black Sludge
+|-damage|p2a: Kingambit|8/100 tox|[from] psn
+|upkeep
+|turn|23
+|l|☆Josephdawinner
+|player|p2|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pichin)
+|inactive|Josephdawinner has 30 seconds to reconnect!
+|inactive|Josephdawinner has 20 seconds to reconnect!
+|inactive|Josephdawinner has 15 seconds to reconnect!
+|inactive|Josephdawinner has 10 seconds to reconnect!
+|inactive|Josephdawinner has 5 seconds to reconnect!
+|-message|Josephdawinner lost due to inactivity.
+|
+|win|pichin
+|raw|pichin's rating: 1136 &rarr; <strong>1159</strong><br />(+23 for winning)
+|raw|Josephdawinner's rating: 1112 &rarr; <strong>1089</strong><br />(-23 for losing)
+|l|☆pichin
+|player|p1|

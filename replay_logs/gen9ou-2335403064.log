@@ -1,0 +1,322 @@
+|j|☆quanvoytv
+|j|☆SSE
+|t:|1743791244
+|gametype|singles
+|player|p1|quanvoytv|2|1228
+|player|p2|SSE|2|1234
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Sunflora, F|
+|poke|p1|Torkoal, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Moltres|
+|poke|p1|Armarouge, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Valiant|
+|poke|p2|Zamazenta-*|
+|poke|p2|Kingambit, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SSE)
+|
+|t:|1743791251
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1743791257
+|move|p2a: Ting-Lu|Taunt|p1a: Torkoal
+|-start|p1a: Torkoal|move: Taunt
+|cant|p1a: Torkoal|move: Taunt|Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743791262
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Hatterene
+|move|p1a: Hatterene|Stealth Rock|p2a: Ting-Lu|[from] ability: Magic Bounce
+|-sidestart|p2: SSE|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743791270
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Hatterene
+|move|p1a: Hatterene|Stealth Rock||[from] ability: Magic Bounce|[still]
+|-fail|p1a: Hatterene
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743791278
+|switch|p1a: Sunflora|Sunflora, F, shiny|100/100
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Sunflora
+|-sidestart|p1: quanvoytv|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Sunflora|88/100|[from] ability: Solar Power|[of] p1a: Sunflora
+|upkeep
+|turn|5
+|
+|t:|1743791285
+|move|p1a: Sunflora|Solar Beam||[still]
+|-prepare|p1a: Sunflora|Solar Beam
+|-anim|p1a: Sunflora|Solar Beam|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Sunflora|76/100|[from] ability: Solar Power|[of] p1a: Sunflora
+|upkeep
+|
+|t:|1743791293
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|6
+|
+|t:|1743791300
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|move|p2a: Dragonite|Encore|p1a: Hatterene
+|move|p1a: Hatterene|Encore||[from] ability: Magic Bounce|[still]
+|-fail|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Hatterene|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743791306
+|move|p1a: Hatterene|Nuzzle|p2a: Dragonite
+|-damage|p2a: Dragonite|98/100
+|-status|p2a: Dragonite|par
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Hatterene|99/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1743791316
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-weather|none
+|-heal|p1a: Hatterene|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743791322
+|-terastallize|p2a: Dragonite|Ghost
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Dragonite
+|-damage|p2a: Dragonite|48/100 par
+|move|p2a: Dragonite|Tera Blast|p1a: Hatterene|[anim] Tera Blast Ghost
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1743791331
+|switch|p1a: Armarouge|Armarouge, M, shiny|100/100
+|turn|10
+|
+|t:|1743791335
+|move|p1a: Armarouge|Expanding Force|p2a: Dragonite
+|-damage|p2a: Dragonite|9/100 par
+|cant|p2a: Dragonite|par
+|
+|upkeep
+|turn|11
+|
+|t:|1743791339
+|move|p1a: Armarouge|Expanding Force|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1743791342
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|12
+|
+|t:|1743791360
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-damage|p1a: Torkoal|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|13
+|
+|t:|1743791369
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743791375
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743791380
+|switch|p1a: Sunflora|Sunflora, F, shiny|76/100
+|-damage|p1a: Sunflora|63/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743791384
+|move|p2a: Iron Valiant|Moonblast|p1a: Sunflora
+|-damage|p1a: Sunflora|0 fnt
+|faint|p1a: Sunflora
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743791389
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743791397
+|move|p2a: Iron Valiant|Moonblast|p1a: Ogerpon
+|-damage|p1a: Ogerpon|8/100
+|move|p1a: Ogerpon|Solar Blade||[still]
+|-prepare|p1a: Ogerpon|Solar Blade
+|-anim|p1a: Ogerpon|Solar Blade|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|4/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743791406
+|move|p2a: Iron Valiant|Moonblast|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743791413
+|switch|p1a: Armarouge|Armarouge, M, shiny|100/100
+|turn|18
+|
+|t:|1743791416
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Armarouge
+|-damage|p1a: Armarouge|53/100
+|move|p1a: Armarouge|Expanding Force|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743791423
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|19
+|
+|t:|1743791435
+|move|p2a: Zamazenta|Crunch|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|19/100
+|move|p1a: Armarouge|Expanding Force|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|35/100
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|t:|1743791444
+|move|p2a: Zamazenta|Close Combat|p1a: Armarouge
+|-resisted|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Armarouge
+|
+|upkeep
+|
+|t:|1743791447
+|switch|p1a: Torkoal|Torkoal, M|76/100
+|-damage|p1a: Torkoal|51/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|21
+|
+|t:|1743791452
+|move|p2a: Zamazenta|Close Combat|p1a: Torkoal
+|-damage|p1a: Torkoal|7/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|move|p1a: Torkoal|Earthquake|p2a: Zamazenta
+|-damage|p2a: Zamazenta|6/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1743791460
+|move|p2a: Zamazenta|Close Combat|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Torkoal
+|
+|win|SSE
+|raw|quanvoytv's rating: 1228 &rarr; <strong>1203</strong><br />(-25 for losing)
+|raw|SSE's rating: 1234 &rarr; <strong>1259</strong><br />(+25 for winning)
+|l|☆SSE
+|player|p2|
+|c|☆quanvoytv|Ggs
+|l|☆quanvoytv
+|player|p1|

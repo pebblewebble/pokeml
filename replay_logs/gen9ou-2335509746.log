@@ -1,0 +1,190 @@
+|j|☆Frangootz
+|j|‽XIXINANA
+|t:|1743801026
+|gametype|singles
+|player|p1|Frangootz|2|1391
+|player|p2|XIXINANA|hilbert|1361
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Scizor, M|
+|poke|p1|Primarina, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Pecharunt|
+|poke|p2|Iron Valiant|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Fezandipiti, M|
+|poke|p2|Brute Bonnet|
+|poke|p2|Magmortar, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Frangootz)
+|
+|t:|1743801050
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Braviary|atk|1
+|turn|1
+|
+|t:|1743801055
+|move|p1a: Landorus|Stealth Rock|p2a: Braviary
+|-sidestart|p2: XIXINANA|move: Stealth Rock
+|move|p2a: Braviary|Psychic|p1a: Landorus
+|-damage|p1a: Landorus|12/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743801060
+|move|p2a: Braviary|Vacuum Wave|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|3/100
+|-damage|p2a: Braviary|91/100|[from] item: Life Orb
+|move|p1a: Landorus|U-turn|p2a: Braviary
+|-damage|p2a: Braviary|63/100
+|
+|t:|1743801078
+|switch|p1a: Primarina|Primarina, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1743801081
+|move|p2a: Braviary|Psychic|p1a: Primarina
+|-damage|p1a: Primarina|49/100
+|move|p1a: Primarina|Moonblast|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|upkeep
+|
+|t:|1743801088
+|switch|p2a: Fezandipiti|Fezandipiti, M|100/100
+|-damage|p2a: Fezandipiti|88/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1743801103
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Fezandipiti|Play Rough|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|78/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743801117
+|move|p2a: Fezandipiti|Brave Bird|p1a: Scizor
+|-damage|p1a: Scizor|39/100
+|-damage|p2a: Fezandipiti|77/100|[from] Recoil
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|upkeep
+|turn|6
+|
+|t:|1743801129
+|switch|p2a: Magmortar|Magmortar, M|100/100
+|-damage|p2a: Magmortar|76/100|[from] Stealth Rock
+|move|p1a: Scizor|Bullet Punch|p2a: Magmortar
+|-resisted|p2a: Magmortar
+|-damage|p2a: Magmortar|0 fnt
+|-status|p1a: Scizor|brn|[from] ability: Flame Body|[of] p2a: Magmortar
+|faint|p2a: Magmortar
+|-damage|p1a: Scizor|29/100 brn|[from] item: Life Orb
+|
+|-damage|p1a: Scizor|23/100 brn|[from] brn
+|upkeep
+|
+|t:|1743801139
+|switch|p2a: Brute Bonnet|Brute Bonnet|100/100
+|-damage|p2a: Brute Bonnet|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1743801142
+|move|p2a: Brute Bonnet|Sucker Punch|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|-damage|p2a: Brute Bonnet|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743801150
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|turn|8
+|
+|t:|1743801156
+|move|p1a: Pecharunt|Malignant Chain|p2a: Brute Bonnet
+|-supereffective|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|30/100
+|-status|p2a: Brute Bonnet|tox
+|-start|p2a: Brute Bonnet|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|-activate|p2a: Brute Bonnet|confusion
+|-damage|p2a: Brute Bonnet|17/100 tox|[from] confusion
+|
+|-damage|p2a: Brute Bonnet|11/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743801164
+|move|p1a: Pecharunt|Parting Shot|p2a: Brute Bonnet
+|-unboost|p2a: Brute Bonnet|atk|1
+|-unboost|p2a: Brute Bonnet|spa|1
+|
+|t:|1743801168
+|switch|p1a: Primarina|Primarina, M|49/100|[from] Parting Shot
+|-activate|p2a: Brute Bonnet|confusion
+|move|p2a: Brute Bonnet|Payback|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|34/100
+|-damage|p2a: Brute Bonnet|1/100 tox|[from] item: Life Orb
+|
+|-damage|p2a: Brute Bonnet|0 fnt|[from] psn
+|faint|p2a: Brute Bonnet
+|-end|p2a: Brute Bonnet|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1743801178
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743801181
+|move|p2a: Iron Valiant|Moonblast|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|-damage|p2a: Iron Valiant|85/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743801188
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|turn|11
+|l|‽XIXINANA
+|inactive|XIXINANA disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|XIXINANA has 30 seconds to reconnect!
+|inactive|XIXINANA has 20 seconds to reconnect!
+|inactive|XIXINANA has 15 seconds to reconnect!
+|inactive|XIXINANA has 10 seconds to reconnect!
+|inactive|XIXINANA has 5 seconds to reconnect!
+|-message|XIXINANA lost due to inactivity.
+|
+|win|Frangootz
+|raw|Frangootz's rating: 1391 &rarr; <strong>1409</strong><br />(+18 for winning)
+|raw|XIXINANA's rating: 1361 &rarr; <strong>1343</strong><br />(-18 for losing)
+|l|☆Frangootz
+|player|p1|

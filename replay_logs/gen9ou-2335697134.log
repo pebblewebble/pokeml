@@ -1,0 +1,415 @@
+|j|☆Wintrmint2
+|j|☆MorganTheCrisp
+|t:|1743822770
+|gametype|singles
+|player|p1|Wintrmint2|korrina|1367
+|player|p2|MorganTheCrisp|265|1333
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hawlucha, M|
+|poke|p1|Rillaboom, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Kingambit, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Kyurem|
+|poke|p2|Dragapult, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Garganacl, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Slowking-Galar, M|
+|teampreview
+|
+|t:|1743822799
+|start
+|switch|p1a: Dartsvg|Rillaboom, F|100/100
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1743822804
+|move|p1a: Dartsvg|U-turn|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|94/100
+|
+|t:|1743822810
+|switch|p1a: Master Baiter|Kingambit, F|100/100|[from] U-turn
+|move|p2a: Weezing|Will-O-Wisp|p1a: Master Baiter
+|-status|p1a: Master Baiter|brn
+|
+|-damage|p1a: Master Baiter|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1743822848
+|-end|p1a: Master Baiter|fallenundefined|[silent]
+|switch|p1a: Merchant|Kyurem|100/100
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|-ability|p1a: Merchant|Pressure
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|3
+|
+|t:|1743822856
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Merchant|Ice Beam|p2a: Slowking
+|-damage|p2a: Slowking|69/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743822877
+|switch|p1a: Sophie|Hatterene, F|100/100
+|move|p2a: Slowking|Future Sight|p1a: Sophie
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|5
+|
+|t:|1743822883
+|move|p1a: Sophie|Nuzzle|p2a: Slowking
+|-damage|p2a: Slowking|65/100
+|-status|p2a: Slowking|par
+|move|p2a: Slowking|Sludge Bomb|p1a: Sophie
+|-supereffective|p1a: Sophie
+|-damage|p1a: Sophie|30/100
+|-enditem|p1a: Sophie|Eject Button
+|
+|t:|1743822892
+|switch|p1a: Master Baiter|Kingambit, F|94/100 brn
+|
+|-damage|p1a: Master Baiter|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743822900
+|-end|p1a: Master Baiter|fallenundefined|[silent]
+|switch|p1a: Umbrella|Raging Bolt|100/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|-end|p1a: Umbrella|move: Future Sight
+|-damage|p1a: Umbrella|51/100
+|-heal|p1a: Umbrella|57/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743822934
+|-end|p1a: Umbrella|Protosynthesis|[silent]
+|switch|p1a: Merchant|Kyurem|100/100
+|-ability|p1a: Merchant|Pressure
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743822954
+|-terastallize|p2a: Garganacl|Fairy
+|move|p1a: Merchant|Ice Beam|p2a: Garganacl
+|-damage|p2a: Garganacl|55/100
+|move|p2a: Garganacl|Salt Cure|p1a: Merchant
+|-supereffective|p1a: Merchant
+|-crit|p1a: Merchant
+|-damage|p1a: Merchant|63/100
+|-start|p1a: Merchant|Salt Cure
+|
+|-heal|p2a: Garganacl|61/100|[from] item: Leftovers
+|-damage|p1a: Merchant|51/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1743822968
+|switch|p1a: Sophie|Hatterene, F|30/100
+|move|p2a: Garganacl|Protect||[still]
+|-fail|p2a: Garganacl
+|
+|-heal|p2a: Garganacl|67/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743822974
+|move|p1a: Sophie|Psychic Noise|p2a: Garganacl
+|-damage|p2a: Garganacl|44/100
+|-start|p2a: Garganacl|move: Heal Block
+|move|p2a: Garganacl|Salt Cure|p1a: Sophie
+|-damage|p1a: Sophie|16/100
+|-start|p1a: Sophie|Salt Cure
+|
+|-damage|p1a: Sophie|4/100|[from] Salt Cure
+|upkeep
+|turn|11
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MorganTheCrisp)
+|
+|t:|1743823033
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Sophie|Healing Wish|p1a: Sophie
+|faint|p1a: Sophie
+|
+|upkeep
+|
+|t:|1743823037
+|switch|p1a: Dartsvg|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Dartsvg
+|turn|12
+|
+|t:|1743823047
+|switch|p2a: Weezing|Weezing-Galar, F|94/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Dartsvg|U-turn|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|88/100
+|
+|t:|1743823052
+|switch|p1a: Merchant|Kyurem|51/100|[from] U-turn
+|-heal|p1a: Merchant|100/100|[from] move: Healing Wish
+|
+|-heal|p2a: Weezing|94/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1743823061
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|-ability|p1a: Merchant|Pressure
+|switch|p2a: Slowking|Slowking-Galar, M|98/100 par
+|move|p1a: Merchant|Earth Power|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|61/100 par
+|
+|-heal|p2a: Slowking|67/100 par|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1743823075
+|switch|p1a: Umbrella|Raging Bolt|57/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|-heal|p1a: Umbrella|63/100|[from] Grassy Terrain
+|-heal|p1a: Umbrella|70/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743823091
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Umbrella|Calm Mind|p1a: Umbrella
+|-boost|p1a: Umbrella|spa|1
+|-boost|p1a: Umbrella|spd|1
+|
+|-heal|p1a: Umbrella|76/100|[from] Grassy Terrain
+|-heal|p1a: Umbrella|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743823106
+|-terastallize|p1a: Umbrella|Fairy
+|move|p2a: Dragapult|Dragon Darts|p1a: Umbrella
+|-immune|p1a: Umbrella
+|move|p1a: Umbrella|Dragon Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Umbrella|88/100|[from] Grassy Terrain
+|-heal|p1a: Umbrella|94/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1743823116
+|switch|p2a: Slowking|Slowking-Galar, M|100/100 par
+|turn|17
+|
+|t:|1743823120
+|move|p1a: Umbrella|Calm Mind|p1a: Umbrella
+|-boost|p1a: Umbrella|spa|1
+|-boost|p1a: Umbrella|spd|1
+|move|p2a: Slowking|Sludge Bomb|p1a: Umbrella
+|-supereffective|p1a: Umbrella
+|-damage|p1a: Umbrella|60/100
+|-status|p1a: Umbrella|psn
+|
+|-heal|p1a: Umbrella|66/100 psn|[from] item: Leftovers
+|-damage|p1a: Umbrella|54/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1743823125
+|move|p1a: Umbrella|Calm Mind|p1a: Umbrella
+|-boost|p1a: Umbrella|spa|1
+|-boost|p1a: Umbrella|spd|1
+|move|p2a: Slowking|Sludge Bomb|p1a: Umbrella
+|-supereffective|p1a: Umbrella
+|-damage|p1a: Umbrella|25/100 psn
+|
+|-heal|p1a: Umbrella|31/100 psn|[from] item: Leftovers
+|-damage|p1a: Umbrella|19/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1743823134
+|move|p1a: Umbrella|Thunderbolt|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|16/100 par
+|move|p2a: Slowking|Sludge Bomb|p1a: Umbrella
+|-supereffective|p1a: Umbrella
+|-damage|p1a: Umbrella|0 fnt
+|faint|p1a: Umbrella
+|-end|p1a: Umbrella|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743823143
+|switch|p1a: Dartsvg|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Dartsvg
+|turn|20
+|
+|t:|1743823148
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dartsvg|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|95/100
+|-damage|p1a: Dartsvg|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|t:|1743823152
+|switch|p1a: Merchant|Kyurem|100/100|[from] U-turn
+|-ability|p1a: Merchant|Pressure
+|
+|upkeep
+|turn|21
+|
+|t:|1743823166
+|move|p1a: Merchant|Ice Beam|p2a: Corviknight
+|-damage|p2a: Corviknight|32/100
+|move|p2a: Corviknight|Body Press|p1a: Merchant
+|-supereffective|p1a: Merchant
+|-damage|p1a: Merchant|53/100
+|
+|-heal|p1a: Merchant|59/100|[from] Grassy Terrain
+|upkeep
+|turn|22
+|
+|t:|1743823179
+|move|p1a: Merchant|Ice Beam|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-heal|p1a: Merchant|65/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743823190
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|23
+|
+|t:|1743823199
+|switch|p1a: Hawk 2|Hawlucha, M|100/100
+|-enditem|p1a: Hawk 2|Grassy Seed
+|-boost|p1a: Hawk 2|def|1|[from] item: Grassy Seed
+|move|p2a: Samurott|Knock Off|p1a: Hawk 2
+|-resisted|p1a: Hawk 2
+|-damage|p1a: Hawk 2|88/100
+|
+|upkeep
+|turn|24
+|
+|t:|1743823213
+|switch|p2a: Weezing|Weezing-Galar, F|94/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Hawk 2|Swords Dance|p1a: Hawk 2
+|-boost|p1a: Hawk 2|atk|2
+|
+|-heal|p2a: Weezing|99/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|25
+|
+|t:|1743823220
+|move|p1a: Hawk 2|Acrobatics|p2a: Weezing
+|-damage|p2a: Weezing|39/100
+|move|p2a: Weezing|Will-O-Wisp|p1a: Hawk 2
+|-status|p1a: Hawk 2|brn
+|
+|-damage|p1a: Hawk 2|82/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1743823226
+|move|p1a: Hawk 2|Encore|p2a: Weezing
+|-start|p2a: Weezing|Encore
+|move|p2a: Weezing|Will-O-Wisp|p1a: Hawk 2
+|-fail|p1a: Hawk 2|brn
+|
+|-damage|p1a: Hawk 2|76/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1743823232
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Slowking|Slowking-Galar, M|49/100 par
+|move|p1a: Hawk 2|Swords Dance|p1a: Hawk 2
+|-boost|p1a: Hawk 2|atk|2
+|
+|-damage|p1a: Hawk 2|70/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1743823239
+|move|p1a: Hawk 2|Acrobatics|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-damage|p1a: Hawk 2|64/100 brn|[from] brn
+|upkeep
+|
+|t:|1743823245
+|switch|p2a: Weezing|Weezing-Galar, F|39/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|29
+|
+|t:|1743823249
+|move|p1a: Hawk 2|Acrobatics|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|-damage|p1a: Hawk 2|58/100 brn|[from] brn
+|upkeep
+|
+|t:|1743823251
+|switch|p2a: Garganacl|Garganacl, F, tera:Fairy|44/100
+|turn|30
+|
+|t:|1743823255
+|move|p1a: Hawk 2|Acrobatics|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-damage|p1a: Hawk 2|52/100 brn|[from] brn
+|upkeep
+|
+|t:|1743823257
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|31
+|
+|t:|1743823262
+|move|p1a: Hawk 2|Acrobatics|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|win|Wintrmint2
+|raw|Wintrmint2's rating: 1367 &rarr; <strong>1385</strong><br />(+18 for winning)
+|raw|MorganTheCrisp's rating: 1333 &rarr; <strong>1315</strong><br />(-18 for losing)
+|l|☆MorganTheCrisp
+|player|p2|

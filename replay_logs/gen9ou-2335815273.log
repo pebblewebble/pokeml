@@ -1,0 +1,316 @@
+|j|☆woshishui000
+|j|☆mayomama
+|t:|1743841539
+|gametype|singles
+|player|p1|woshishui000|hilda-wonderlauncher|1261
+|player|p2|mayomama|1|1243
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, F|
+|poke|p1|Walking Wake|
+|poke|p1|Venusaur, F|
+|poke|p1|Latias, F|
+|poke|p1|Torkoal, F|
+|poke|p1|Slither Wing|
+|poke|p2|Rillaboom, F|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Magnezone|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Hawlucha, M|
+|poke|p2|Iron Moth|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mayomama)
+|
+|t:|1743841554
+|start
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|1
+|
+|t:|1743841559
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Tornadus|Bleakwind Storm|p1a: Ninetales
+|-damage|p1a: Ninetales|63/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743841572
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: Tornadus|Taunt|p1a: Latias
+|-start|p1a: Latias|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743841581
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Tornadus|U-turn|p1a: Walking Wake
+|-damage|p1a: Walking Wake|85/100
+|
+|t:|1743841586
+|switch|p2a: Rillaboom|Rillaboom, F|100/100|[from] U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Walking Wake|91/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1743841594
+|-terastallize|p1a: Walking Wake|Fairy
+|move|p2a: Rillaboom|Grassy Glide|p1a: Walking Wake
+|-damage|p1a: Walking Wake|48/100
+|move|p1a: Walking Wake|Flamethrower|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Walking Wake|55/100|[from] Grassy Terrain
+|upkeep
+|inactive|mayomama has 120 seconds left.
+|
+|t:|1743841631
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|5
+|
+|t:|1743841634
+|move|p1a: Walking Wake|Flamethrower|p2a: Ogerpon
+|-damage|p2a: Ogerpon|25/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Walking Wake|[anim] Ivy Cudgel Rock
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ogerpon|31/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743841643
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|-activate|p1a: Slither Wing|ability: Protosynthesis
+|-start|p1a: Slither Wing|protosynthesisatk
+|turn|6
+|
+|t:|1743841647
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|-enditem|p2a: Hawlucha|Grassy Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Grassy Seed
+|move|p1a: Slither Wing|First Impression|p2a: Hawlucha
+|-resisted|p2a: Hawlucha
+|-damage|p2a: Hawlucha|84/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743841656
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743841662
+|-terastallize|p2a: Hawlucha|Fighting
+|move|p2a: Hawlucha|Close Combat|p1a: Torkoal
+|-damage|p1a: Torkoal|23/100
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|move|p1a: Torkoal|Will-O-Wisp|p2a: Hawlucha
+|-status|p2a: Hawlucha|brn
+|
+|-weather|none
+|-heal|p2a: Hawlucha|90/100 brn|[from] Grassy Terrain
+|-heal|p1a: Torkoal|29/100|[from] Grassy Terrain
+|-heal|p1a: Torkoal|35/100|[from] item: Leftovers
+|-damage|p2a: Hawlucha|84/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743841677
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Torkoal|Stealth Rock|p2a: Hawlucha
+|-sidestart|p2: mayomama|move: Stealth Rock
+|
+|-heal|p2a: Hawlucha|90/100 brn|[from] Grassy Terrain
+|-heal|p1a: Torkoal|41/100|[from] Grassy Terrain
+|-heal|p1a: Torkoal|47/100|[from] item: Leftovers
+|-damage|p2a: Hawlucha|84/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743841687
+|move|p2a: Hawlucha|Close Combat|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|faint|p1a: Torkoal
+|
+|-heal|p2a: Hawlucha|90/100 brn|[from] Grassy Terrain
+|-damage|p2a: Hawlucha|84/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1743841696
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|turn|11
+|
+|t:|1743841699
+|move|p1a: Slither Wing|First Impression|p2a: Hawlucha
+|-resisted|p2a: Hawlucha
+|-damage|p2a: Hawlucha|25/100 brn
+|move|p2a: Hawlucha|Acrobatics|p1a: Slither Wing
+|-supereffective|p1a: Slither Wing
+|-damage|p1a: Slither Wing|0 fnt
+|faint|p1a: Slither Wing
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|
+|-damage|p2a: Hawlucha|19/100 brn|[from] brn
+|upkeep
+|
+|t:|1743841707
+|switch|p1a: Ninetales|Ninetales, F|63/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|12
+|
+|t:|1743841712
+|move|p2a: Hawlucha|Acrobatics|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Hawlucha|13/100 brn|[from] brn
+|upkeep
+|
+|t:|1743841720
+|switch|p1a: Latias|Latias, F|100/100
+|turn|13
+|
+|t:|1743841729
+|move|p2a: Hawlucha|Acrobatics|p1a: Latias
+|-damage|p1a: Latias|41/100
+|move|p1a: Latias|Draining Kiss|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|-heal|p1a: Latias|49/100|[from] drain|[of] p2a: Hawlucha
+|faint|p2a: Hawlucha
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Latias|55/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743841732
+|switch|p2a: Magnezone|Magnezone|100/100
+|-damage|p2a: Magnezone|94/100|[from] Stealth Rock
+|-item|p2a: Magnezone|Air Balloon
+|turn|14
+|
+|t:|1743841741
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Magnezone|Thunderbolt|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Latias|51/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743841749
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|31/100
+|-damage|p2a: Ogerpon|19/100|[from] Stealth Rock
+|move|p1a: Latias|Agility|p1a: Latias
+|-boost|p1a: Latias|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Latias|57/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743841757
+|move|p1a: Latias|Stored Power|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Latias|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743841763
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|17
+|
+|t:|1743841767
+|move|p1a: Latias|Calm Mind|p1a: Latias
+|-boost|p1a: Latias|spa|1
+|-boost|p1a: Latias|spd|1
+|move|p2a: Tornadus|Taunt|p1a: Latias
+|-start|p1a: Latias|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Latias|69/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743841774
+|move|p1a: Latias|Stored Power|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Latias|75/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743841779
+|switch|p2a: Magnezone|Magnezone|94/100
+|-damage|p2a: Magnezone|88/100|[from] Stealth Rock
+|-item|p2a: Magnezone|Air Balloon
+|turn|19
+|
+|t:|1743841787
+|move|p1a: Latias|Stored Power|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|32/100
+|-enditem|p2a: Magnezone|Air Balloon
+|move|p2a: Magnezone|Thunderbolt|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|68/100
+|
+|-weather|none
+|-heal|p1a: Latias|74/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|-message|mayomama forfeited.
+|
+|win|woshishui000
+|raw|woshishui000's rating: 1261 &rarr; <strong>1285</strong><br />(+24 for winning)
+|raw|mayomama's rating: 1243 &rarr; <strong>1219</strong><br />(-24 for losing)
+|l|☆mayomama
+|player|p2|
+|l|☆woshishui000
+|player|p1|

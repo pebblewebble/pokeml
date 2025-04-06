@@ -1,0 +1,203 @@
+|j|☆arkieleon
+|j|☆kokoromana
+|t:|1743842169
+|gametype|singles
+|player|p1|arkieleon|265|1255
+|player|p2|kokoromana|liza|1304
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Golurk|
+|poke|p1|Ribombee, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Enamorus, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Zamazenta-*|
+|poke|p2|Iron Boulder|
+|poke|p2|Indeedee, M|
+|poke|p2|Armarouge, F|
+|poke|p2|Serperior, F|
+|poke|p2|Iron Treads|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|t:|1743842179
+|start
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1743842193
+|move|p2a: Iron Treads|Stealth Rock|p1a: Ribombee
+|-sidestart|p1: arkieleon|move: Stealth Rock
+|move|p1a: Ribombee|Stun Spore|p2a: Iron Treads
+|-status|p2a: Iron Treads|par
+|
+|upkeep
+|turn|2
+|
+|t:|1743842200
+|move|p1a: Ribombee|Sticky Web|p2a: Iron Treads
+|-sidestart|p2: kokoromana|move: Sticky Web
+|move|p2a: Iron Treads|Rapid Spin|p1a: Ribombee
+|-damage|p1a: Ribombee|77/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: kokoromana|Sticky Web|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|
+|upkeep
+|turn|3
+|
+|t:|1743842207
+|move|p2a: Iron Treads|Steel Beam|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|-damage|p2a: Iron Treads|50/100 par|[from] steelbeam
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|t:|1743842214
+|switch|p1a: Golurk|Golurk|100/100
+|-damage|p1a: Golurk|95/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1743842221
+|move|p2a: Iron Treads|Steel Beam|p1a: Golurk
+|-damage|p1a: Golurk|32/100
+|-damage|p2a: Iron Treads|0 fnt|[from] steelbeam
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|move|p1a: Golurk|Earthquake|p2: Iron Treads|[notarget]
+|-fail|p1a: Golurk
+|
+|upkeep
+|
+|t:|1743842225
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|5
+|
+|t:|1743842232
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|-item|p1a: Kingambit|Air Balloon
+|move|p2a: Indeedee|Expanding Force|p1a: Kingambit
+|-immune|p1a: Kingambit
+|
+|upkeep
+|turn|6
+|
+|t:|1743842245
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|88/100
+|
+|-heal|p2a: Zamazenta|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743842254
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|-damage|p1a: Enamorus|76/100|[from] Stealth Rock
+|move|p2a: Zamazenta|Roar|p1a: Enamorus
+|drag|p1a: Raging Bolt|Raging Bolt|100/100
+|-damage|p1a: Raging Bolt|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Zamazenta|99/100|[from] item: Leftovers
+|-heal|p1a: Raging Bolt|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743842278
+|switch|p2a: Serperior|Serperior, F|100/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Serperior
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|65/100
+|
+|-heal|p2a: Serperior|72/100|[from] item: Leftovers
+|-heal|p1a: Raging Bolt|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743842287
+|move|p2a: Serperior|Leaf Storm|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|77/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Serperior
+|-damage|p2a: Serperior|11/100
+|
+|-heal|p2a: Serperior|18/100|[from] item: Leftovers
+|-heal|p1a: Raging Bolt|83/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743842302
+|-terastallize|p2a: Serperior|Ground
+|move|p1a: Raging Bolt|Thunderclap|p2a: Serperior
+|-activate|p2a: Serperior|move: Psychic Terrain
+|move|p2a: Serperior|Tera Blast|p1a: Raging Bolt|[anim] Tera Blast Ground
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-heal|p2a: Serperior|24/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743842312
+|switch|p1a: Enamorus|Enamorus, F|76/100
+|-damage|p1a: Enamorus|51/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1743842317
+|move|p1a: Enamorus|Moonblast|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|upkeep
+|
+|t:|1743842335
+|switch|p2a: Armarouge|Armarouge, F, shiny|100/100
+|turn|12
+|
+|t:|1743842340
+|move|p1a: Enamorus|Moonblast|p2a: Armarouge
+|-resisted|p2a: Armarouge
+|-damage|p2a: Armarouge|66/100
+|-unboost|p2a: Armarouge|spa|1
+|move|p2a: Armarouge|Armor Cannon|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|faint|p1a: Enamorus
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kokoromana)
+|-message|arkieleon forfeited.
+|
+|win|kokoromana
+|raw|arkieleon's rating: 1255 &rarr; <strong>1234</strong><br />(-21 for losing)
+|raw|kokoromana's rating: 1304 &rarr; <strong>1321</strong><br />(+17 for winning)
+|l|☆arkieleon
+|player|p1|

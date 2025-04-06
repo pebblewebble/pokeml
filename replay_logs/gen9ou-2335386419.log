@@ -1,0 +1,339 @@
+|j|☆supremusgod
+|j|☆xdfdghjk
+|t:|1743789845
+|gametype|singles
+|player|p1|supremusgod|101|1101
+|player|p2|xdfdghjk|ingo|1091
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Breloom, F|
+|poke|p1|Gliscor, M|
+|poke|p1|Blastoise, M|
+|poke|p1|Scizor, M|
+|poke|p1|Garchomp, M|
+|poke|p1|Clefable, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Electrode-Hisui|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Qwilfish-Hisui, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xdfdghjk)
+|
+|t:|1743789857
+|start
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|switch|p2a: Kaiyo|Samurott-Hisui, M|100/100
+|turn|1
+|
+|t:|1743789863
+|move|p2a: Kaiyo|Knock Off|p1a: Blastoise
+|-damage|p1a: Blastoise|46/100
+|-enditem|p1a: Blastoise|White Herb|[from] move: Knock Off|[of] p2a: Kaiyo
+|move|p1a: Blastoise|Shell Smash|p1a: Blastoise
+|-unboost|p1a: Blastoise|def|1
+|-unboost|p1a: Blastoise|spd|1
+|-boost|p1a: Blastoise|atk|2
+|-boost|p1a: Blastoise|spa|2
+|-boost|p1a: Blastoise|spe|2
+|
+|upkeep
+|turn|2
+|
+|t:|1743789873
+|move|p2a: Kaiyo|Sucker Punch|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|upkeep
+|
+|t:|1743789882
+|switch|p1a: Breloom|Breloom, F|100/100
+|turn|3
+|
+|t:|1743789890
+|move|p2a: Kaiyo|Ceaseless Edge|p1a: Breloom|[miss]
+|-miss|p2a: Kaiyo|p1a: Breloom
+|move|p1a: Breloom|Toxic|p2a: Kaiyo|[miss]
+|-miss|p1a: Breloom|p2a: Kaiyo
+|
+|-status|p1a: Breloom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|t:|1743789899
+|move|p2a: Kaiyo|Ceaseless Edge|p1a: Breloom|[miss]
+|-miss|p2a: Kaiyo|p1a: Breloom
+|move|p1a: Breloom|Substitute|p1a: Breloom
+|-start|p1a: Breloom|Substitute
+|-damage|p1a: Breloom|76/100 tox
+|
+|-heal|p1a: Breloom|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|t:|1743789908
+|switch|p2a: Van Loon|Qwilfish-Hisui, M, shiny|100/100
+|-ability|p2a: Van Loon|Intimidate|boost
+|-immune|p1a: Breloom
+|move|p1a: Breloom|Toxic|p2a: Van Loon|[miss]
+|-miss|p1a: Breloom|p2a: Van Loon
+|
+|-heal|p1a: Breloom|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1743789920
+|move|p1a: Breloom|Leech Seed|p2a: Van Loon|[miss]
+|-miss|p1a: Breloom|p2a: Van Loon
+|move|p2a: Van Loon|Barb Barrage|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-end|p1a: Breloom|Substitute
+|
+|upkeep
+|turn|7
+|
+|t:|1743789930
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Van Loon|Taunt|p1a: Scizor
+|-start|p1a: Scizor|move: Taunt
+|
+|upkeep
+|turn|8
+|
+|t:|1743789942
+|switch|p2a: Proton|Electrode-Hisui, shiny|100/100
+|move|p1a: Scizor|U-turn|p2a: Proton
+|-supereffective|p2a: Proton
+|-damage|p2a: Proton|13/100
+|
+|t:|1743789951
+|switch|p1a: Garchomp|Garchomp, M|100/100|[from] U-turn
+|
+|-heal|p2a: Proton|19/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743789964
+|move|p2a: Proton|Protect|p2a: Proton
+|-singleturn|p2a: Proton|Protect
+|move|p1a: Garchomp|Earthquake|p2a: Proton
+|-activate|p2a: Proton|move: Protect
+|
+|-heal|p2a: Proton|26/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743789970
+|move|p1a: Garchomp|Earthquake|p2a: Proton
+|-damage|p2a: Proton|0 fnt
+|faint|p2a: Proton
+|
+|upkeep
+|
+|t:|1743789976
+|switch|p2a: Poison Ivy|Lilligant-Hisui, F, shiny|100/100
+|turn|11
+|
+|t:|1743789985
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|-terastallize|p2a: Poison Ivy|Flying
+|move|p2a: Poison Ivy|Victory Dance|p2a: Poison Ivy
+|-boost|p2a: Poison Ivy|atk|1
+|-boost|p2a: Poison Ivy|def|1
+|-boost|p2a: Poison Ivy|spe|1
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|12
+|
+|t:|1743789995
+|move|p2a: Poison Ivy|Victory Dance|p2a: Poison Ivy
+|-boost|p2a: Poison Ivy|atk|1
+|-boost|p2a: Poison Ivy|def|1
+|-boost|p2a: Poison Ivy|spe|1
+|move|p1a: Gliscor|Stealth Rock|p2a: Poison Ivy
+|-sidestart|p2: xdfdghjk|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1743790011
+|-terastallize|p1a: Gliscor|Ground
+|move|p2a: Poison Ivy|Leaf Blade|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|l|☆xdfdghjk
+|inactive|xdfdghjk disconnected and has a minute to reconnect!
+|player|p2|
+|
+|t:|1743790018
+|switch|p1a: Clefable|Clefable, F|100/100
+|turn|14
+|j|☆xdfdghjk
+|inactive|xdfdghjk reconnected and has 130 seconds left.
+|player|p2|xdfdghjk|ingo|
+|inactive|xdfdghjk has 120 seconds left.
+|
+|t:|1743790051
+|move|p2a: Poison Ivy|Leaf Blade|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|43/100
+|move|p1a: Clefable|Moonblast|p2a: Poison Ivy
+|-damage|p2a: Poison Ivy|55/100
+|
+|-heal|p1a: Clefable|49/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743790068
+|move|p2a: Poison Ivy|Leaf Blade|p1a: Clefable
+|-damage|p1a: Clefable|14/100
+|move|p1a: Clefable|Moonblast|p2a: Poison Ivy
+|-damage|p2a: Poison Ivy|8/100
+|-enditem|p2a: Poison Ivy|Liechi Berry|[eat]
+|-boost|p2a: Poison Ivy|atk|1|[from] item: Liechi Berry
+|
+|-heal|p1a: Clefable|20/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743790075
+|move|p2a: Poison Ivy|Acrobatics|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|t:|1743790084
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|17
+|
+|t:|1743790089
+|move|p1a: Scizor|Bullet Punch|p2a: Poison Ivy
+|-damage|p2a: Poison Ivy|0 fnt
+|faint|p2a: Poison Ivy
+|
+|upkeep
+|
+|t:|1743790096
+|switch|p2a: Kaiyo|Samurott-Hisui, M|100/100
+|-damage|p2a: Kaiyo|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1743790105
+|move|p2a: Kaiyo|Flamethrower|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1743790112
+|switch|p1a: Breloom|Breloom, F|100/100 tox
+|turn|19
+|
+|t:|1743790117
+|move|p2a: Kaiyo|Flamethrower|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|
+|upkeep
+|
+|t:|1743790121
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|turn|20
+|
+|t:|1743790142
+|switch|p2a: Van Loon|Qwilfish-Hisui, M, shiny|100/100
+|-damage|p2a: Van Loon|88/100|[from] Stealth Rock
+|-ability|p2a: Van Loon|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|move|p1a: Garchomp|Outrage|p2a: Van Loon
+|-crit|p2a: Van Loon
+|-damage|p2a: Van Loon|41/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743790153
+|move|p1a: Garchomp|Outrage|p2a: Van Loon|[from] lockedmove
+|-damage|p2a: Van Loon|17/100
+|-start|p1a: Garchomp|confusion|[fatigue]
+|move|p2a: Van Loon|Toxic|p1a: Garchomp
+|-status|p1a: Garchomp|tox
+|
+|-damage|p1a: Garchomp|94/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1743790159
+|-activate|p1a: Garchomp|confusion
+|move|p1a: Garchomp|Outrage|p2a: Van Loon
+|-damage|p2a: Van Loon|0 fnt
+|faint|p2a: Van Loon
+|
+|-damage|p1a: Garchomp|82/100 tox|[from] psn
+|upkeep
+|
+|t:|1743790167
+|switch|p2a: Kaiyo|Samurott-Hisui, M|88/100
+|-damage|p2a: Kaiyo|76/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1743790170
+|-activate|p1a: Garchomp|confusion
+|move|p1a: Garchomp|Outrage|p2a: Kaiyo|[from] lockedmove
+|-damage|p2a: Kaiyo|0 fnt
+|replace|p2a: Deth White|Zoroark-Hisui, M, shiny
+|-end|p2a: Deth White|Illusion
+|faint|p2a: Deth White
+|
+|-damage|p1a: Garchomp|64/100 tox|[from] psn
+|upkeep
+|l|☆xdfdghjk
+|inactive|xdfdghjk disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆xdfdghjk
+|inactive|xdfdghjk reconnected and has 115 seconds left.
+|player|p2|xdfdghjk|ingo|
+|
+|t:|1743790216
+|switch|p2a: Kaiyo|Samurott-Hisui, M|100/100
+|-damage|p2a: Kaiyo|88/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1743790224
+|move|p2a: Kaiyo|Sucker Punch|p1a: Garchomp
+|-damage|p1a: Garchomp|30/100 tox
+|-damage|p2a: Kaiyo|76/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-activate|p1a: Garchomp|confusion
+|-damage|p1a: Garchomp|20/100 tox|[from] confusion
+|
+|-damage|p1a: Garchomp|0 fnt|[from] psn
+|faint|p1a: Garchomp
+|
+|win|xdfdghjk
+|raw|supremusgod's rating: 1101 &rarr; <strong>1075</strong><br />(-26 for losing)
+|raw|xdfdghjk's rating: 1091 &rarr; <strong>1118</strong><br />(+27 for winning)
+|l|☆supremusgod
+|player|p1|
+|l|☆xdfdghjk
+|player|p2|

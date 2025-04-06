@@ -1,0 +1,546 @@
+|j|☆UtterlyIncapable
+|j|☆Marcusoniplay
+|t:|1743878113
+|gametype|singles
+|player|p1|UtterlyIncapable|roxie|1056
+|player|p2|Marcusoniplay|169|1082
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Delphox, F|
+|poke|p1|Armarouge, M|
+|poke|p1|Ceruledge, F|
+|poke|p1|Chandelure, M|
+|poke|p1|Salazzle, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Arcanine, M|
+|poke|p2|Aipom, F|
+|poke|p2|Feraligatr, M|
+|poke|p2|Gyarados, M|
+|poke|p2|Umbreon, M|
+|teampreview
+|
+|t:|1743878119
+|start
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|turn|1
+|
+|t:|1743878123
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|move|p2a: Umbreon|Lash Out|p1a: Salazzle
+|-damage|p1a: Salazzle|70/100
+|
+|-heal|p1a: Salazzle|76/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1743878138
+|move|p1a: Salazzle|Toxic|p2a: Umbreon
+|-status|p2a: Umbreon|tox
+|-activate|p2a: Umbreon|ability: Synchronize
+|-immune|p1a: Salazzle
+|move|p2a: Umbreon|Toxic|p1a: Salazzle
+|-immune|p1a: Salazzle
+|
+|-heal|p1a: Salazzle|83/100|[from] item: Black Sludge
+|-damage|p2a: Umbreon|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1743878148
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Salazzle|Encore|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p1a: Salazzle|89/100|[from] item: Black Sludge
+|-heal|p2a: Umbreon|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Umbreon|88/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743878154
+|switch|p2a: Feraligatr|Feraligatr, M|100/100
+|move|p1a: Salazzle|Toxic|p2a: Feraligatr
+|-status|p2a: Feraligatr|tox
+|
+|-heal|p1a: Salazzle|95/100|[from] item: Black Sludge
+|-damage|p2a: Feraligatr|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743878161
+|-terastallize|p2a: Feraligatr|Ground
+|move|p1a: Salazzle|Sand Attack|p2a: Feraligatr
+|-unboost|p2a: Feraligatr|accuracy|1
+|move|p2a: Feraligatr|Liquidation|p1a: Salazzle|[miss]
+|-miss|p2a: Feraligatr|p1a: Salazzle
+|
+|-heal|p1a: Salazzle|100/100|[from] item: Black Sludge
+|-damage|p2a: Feraligatr|82/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743878168
+|move|p1a: Salazzle|Disable|p2a: Feraligatr
+|-start|p2a: Feraligatr|Disable|Liquidation
+|cant|p2a: Feraligatr|Disable|Liquidation
+|
+|-damage|p2a: Feraligatr|64/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743878175
+|move|p1a: Salazzle|Encore|p2a: Feraligatr
+|-start|p2a: Feraligatr|Encore
+|cant|p2a: Feraligatr|Disable|Liquidation
+|
+|-damage|p2a: Feraligatr|39/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743878181
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|-activate|p2a: Feraligatr|move: Struggle
+|move|p2a: Feraligatr|Struggle|p1a: Ceruledge
+|-damage|p1a: Ceruledge|78/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|-damage|p2a: Feraligatr|14/100 tox|[from] recoil
+|
+|-damage|p2a: Feraligatr|0 fnt|[from] psn
+|faint|p2a: Feraligatr
+|upkeep
+|
+|t:|1743878189
+|switch|p2a: Gyarados|Gyarados, M, shiny|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Ceruledge|atk|1
+|turn|9
+|
+|t:|1743878198
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Gyarados|Waterfall|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743878206
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Gyarados|Rain Dance|p2a: Gyarados
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743878212
+|move|p2a: Gyarados|Waterfall|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743878217
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|turn|12
+|
+|t:|1743878220
+|move|p1a: Salazzle|Disable|p2a: Gyarados
+|-start|p2a: Gyarados|Disable|Waterfall
+|cant|p2a: Gyarados|Disable|Waterfall
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743878227
+|move|p1a: Salazzle|Toxic|p2a: Gyarados
+|-status|p2a: Gyarados|tox
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Gyarados|94/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743878232
+|move|p2a: Gyarados|Ice Fang|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-damage|p1a: Salazzle|73/100
+|move|p1a: Salazzle|Sand Attack|p2a: Gyarados
+|-unboost|p2a: Gyarados|accuracy|1
+|
+|-weather|none
+|-heal|p1a: Salazzle|80/100|[from] item: Black Sludge
+|-damage|p2a: Gyarados|82/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743878239
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Salazzle|Encore|p2a: Gyarados
+|-start|p2a: Gyarados|Encore
+|
+|-heal|p1a: Salazzle|86/100|[from] item: Black Sludge
+|-damage|p2a: Gyarados|64/100 tox|[from] psn
+|-end|p2a: Gyarados|Disable
+|upkeep
+|turn|16
+|
+|t:|1743878243
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Salazzle|Sand Attack|p2a: Gyarados
+|-unboost|p2a: Gyarados|accuracy|1
+|
+|-heal|p1a: Salazzle|92/100|[from] item: Black Sludge
+|-damage|p2a: Gyarados|40/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1743878245
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Salazzle|Sand Attack|p2a: Gyarados
+|-unboost|p2a: Gyarados|accuracy|1
+|
+|-heal|p1a: Salazzle|98/100|[from] item: Black Sludge
+|-damage|p2a: Gyarados|10/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1743878250
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Salazzle|Sand Attack|p2a: Gyarados
+|-unboost|p2a: Gyarados|accuracy|1
+|
+|-heal|p1a: Salazzle|100/100|[from] item: Black Sludge
+|-damage|p2a: Gyarados|0 fnt|[from] psn
+|faint|p2a: Gyarados
+|upkeep
+|
+|t:|1743878255
+|switch|p2a: Arcanine|Arcanine, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Salazzle|atk|1
+|-item|p2a: Arcanine|Air Balloon
+|turn|19
+|
+|t:|1743878261
+|move|p1a: Salazzle|Sand Attack|p2a: Arcanine
+|-unboost|p2a: Arcanine|accuracy|1
+|move|p2a: Arcanine|Dig||[still]
+|-prepare|p2a: Arcanine|Dig
+|
+|upkeep
+|turn|20
+|
+|t:|1743878272
+|switch|p1a: Armarouge|Armarouge, M|100/100
+|move|p2a: Arcanine|Dig|p1a: Armarouge|[from] lockedmove
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|53/100
+|-ability|p1a: Armarouge|Weak Armor|boost
+|-unboost|p1a: Armarouge|def|1
+|-boost|p1a: Armarouge|spe|2
+|
+|upkeep
+|turn|21
+|
+|t:|1743878280
+|move|p2a: Arcanine|Extreme Speed|p1a: Armarouge|[miss]
+|-miss|p2a: Arcanine|p1a: Armarouge
+|move|p1a: Armarouge|Trick Room|p1a: Armarouge
+|-fieldstart|move: Trick Room|[of] p1a: Armarouge
+|
+|upkeep
+|turn|22
+|
+|t:|1743878287
+|move|p2a: Arcanine|Dig||[still]
+|-prepare|p2a: Arcanine|Dig
+|move|p1a: Armarouge|Armor Cannon|p2a: Arcanine|[miss]
+|-miss|p1a: Armarouge|p2a: Arcanine
+|
+|upkeep
+|turn|23
+|
+|t:|1743878290
+|move|p2a: Arcanine|Dig|p1a: Armarouge|[from] lockedmove
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|
+|upkeep
+|
+|t:|1743878294
+|switch|p1a: Torkoal|Torkoal, M|55/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|24
+|
+|t:|1743878301
+|move|p1a: Torkoal|Eruption|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|70/100
+|-enditem|p2a: Arcanine|Air Balloon
+|move|p2a: Arcanine|Dig||[still]
+|-prepare|p2a: Arcanine|Dig
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1743878313
+|-terastallize|p1a: Torkoal|Flying
+|move|p1a: Torkoal|Rock Tomb|p2a: Arcanine|[miss]
+|-miss|p1a: Torkoal|p2a: Arcanine
+|move|p2a: Arcanine|Dig|p1a: Torkoal|[from] lockedmove
+|-immune|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|26
+|
+|t:|1743878323
+|move|p2a: Arcanine|Raging Fury|p1a: Torkoal|[miss]
+|-miss|p2a: Arcanine|p1a: Torkoal
+|move|p1a: Torkoal|Shell Smash|p1a: Torkoal
+|-unboost|p1a: Torkoal|def|1
+|-unboost|p1a: Torkoal|spd|1
+|-boost|p1a: Torkoal|atk|2
+|-boost|p1a: Torkoal|spa|2
+|-boost|p1a: Torkoal|spe|2
+|-enditem|p1a: Torkoal|Eject Pack
+|
+|t:|1743878325
+|switch|p1a: Delphox|Delphox, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1743878336
+|move|p1a: Delphox|Copycat|p1a: Delphox
+|move|p1a: Delphox|Shell Smash|p1a: Delphox|[from] move: Copycat
+|-unboost|p1a: Delphox|def|1
+|-unboost|p1a: Delphox|spd|1
+|-boost|p1a: Delphox|atk|2
+|-boost|p1a: Delphox|spa|2
+|-boost|p1a: Delphox|spe|2
+|-enditem|p1a: Delphox|White Herb
+|-clearnegativeboost|p1a: Delphox|[silent]
+|move|p2a: Arcanine|Raging Fury|p1a: Delphox
+|-resisted|p1a: Delphox
+|-damage|p1a: Delphox|41/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1743878348
+|move|p1a: Delphox|Stored Power|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-weather|none
+|upkeep
+|
+|t:|1743878355
+|switch|p2a: Aipom|Aipom, F|100/100
+|turn|29
+|
+|t:|1743878361
+|move|p1a: Delphox|Stored Power|p2a: Aipom
+|-damage|p2a: Aipom|0 fnt
+|faint|p2a: Aipom
+|-item|p1a: Delphox|Rocky Helmet|[from] ability: Magician|[of] p2: Aipom
+|
+|upkeep
+|
+|t:|1743878369
+|switch|p2a: Umbreon|Umbreon, M|88/100 tox
+|turn|30
+|
+|t:|1743878373
+|move|p1a: Delphox|Flamethrower|p2a: Umbreon
+|-damage|p2a: Umbreon|43/100 tox
+|move|p2a: Umbreon|Toxic|p1a: Delphox
+|-status|p1a: Delphox|tox
+|
+|-heal|p2a: Umbreon|49/100 tox|[from] item: Leftovers
+|-damage|p1a: Delphox|34/100 tox|[from] psn
+|-damage|p2a: Umbreon|43/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1743878384
+|move|p1a: Delphox|Flamethrower|p2a: Umbreon
+|-damage|p2a: Umbreon|2/100 tox
+|move|p2a: Umbreon|Moonlight|p2a: Umbreon
+|-heal|p2a: Umbreon|52/100 tox
+|
+|-heal|p2a: Umbreon|58/100 tox|[from] item: Leftovers
+|-damage|p1a: Delphox|22/100 tox|[from] psn
+|-damage|p2a: Umbreon|46/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1743878394
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Delphox|Dazzling Gleam|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|52/100 tox|[from] item: Leftovers
+|-damage|p1a: Delphox|4/100 tox|[from] psn
+|-damage|p2a: Umbreon|34/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1743878403
+|move|p1a: Delphox|Dazzling Gleam|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-crit|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|faint|p2a: Umbreon
+|
+|-damage|p1a: Delphox|0 fnt|[from] psn
+|faint|p1a: Delphox
+|upkeep
+|
+|t:|1743878413
+|switch|p1a: Torkoal|Torkoal, M, tera:Flying|55/100
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|34
+|
+|t:|1743878421
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Torkoal|Rock Tomb|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|88/100
+|-unboost|p2a: Dragonite|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|35
+|
+|t:|1743878434
+|move|p2a: Dragonite|Ice Spinner|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743878438
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|turn|36
+|
+|t:|1743878443
+|move|p1a: Salazzle|Encore|p2a: Dragonite
+|-start|p2a: Dragonite|Encore
+|move|p2a: Dragonite|Ice Spinner|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-damage|p1a: Salazzle|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Salazzle|68/100|[from] item: Black Sludge
+|upkeep
+|turn|37
+|
+|t:|1743878452
+|move|p1a: Salazzle|Toxic|p2a: Dragonite
+|-status|p2a: Dragonite|tox
+|move|p2a: Dragonite|Ice Spinner|p1a: Salazzle
+|-resisted|p1a: Salazzle
+|-damage|p1a: Salazzle|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Salazzle|41/100|[from] item: Black Sludge
+|-damage|p2a: Dragonite|82/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1743878462
+|move|p1a: Salazzle|Disable|p2a: Dragonite
+|-start|p2a: Dragonite|Disable|Ice Spinner
+|cant|p2a: Dragonite|Disable|Ice Spinner
+|
+|-weather|none
+|-heal|p1a: Salazzle|48/100|[from] item: Black Sludge
+|-damage|p2a: Dragonite|69/100 tox|[from] psn
+|-end|p2a: Dragonite|Encore
+|upkeep
+|turn|39
+|
+|t:|1743878472
+|move|p1a: Salazzle|Encore|p2a: Dragonite
+|-start|p2a: Dragonite|Encore
+|cant|p2a: Dragonite|Disable|Ice Spinner
+|
+|-heal|p1a: Salazzle|54/100|[from] item: Black Sludge
+|-damage|p2a: Dragonite|51/100 tox|[from] psn
+|upkeep
+|turn|40
+|
+|t:|1743878479
+|move|p1a: Salazzle|Sand Attack|p2a: Dragonite
+|-unboost|p2a: Dragonite|accuracy|1
+|-activate|p2a: Dragonite|move: Struggle
+|move|p2a: Dragonite|Struggle|p1a: Salazzle
+|-damage|p1a: Salazzle|10/100
+|-damage|p2a: Dragonite|26/100 tox|[from] recoil
+|
+|-heal|p1a: Salazzle|16/100|[from] item: Black Sludge
+|-damage|p2a: Dragonite|1/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1743878487
+|move|p1a: Salazzle|Toxic|p2a: Dragonite
+|-fail|p2a: Dragonite|tox
+|-activate|p2a: Dragonite|move: Struggle
+|move|p2a: Dragonite|Struggle|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|-damage|p2a: Dragonite|0 fnt|[from] recoil
+|faint|p2a: Dragonite
+|
+|win|UtterlyIncapable
+|raw|UtterlyIncapable's rating: 1056 &rarr; <strong>1090</strong><br />(+34 for winning)
+|raw|Marcusoniplay's rating: 1082 &rarr; <strong>1058</strong><br />(-24 for losing)
+|l|☆Marcusoniplay
+|player|p2|

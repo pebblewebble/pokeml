@@ -1,0 +1,281 @@
+|j|☆Zelveor
+|j|☆Colonel fromage
+|t:|1743854950
+|gametype|singles
+|player|p1|Zelveor|grimsley|1129
+|player|p2|Colonel fromage|hiker-gen4|1113
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Serperior, M|
+|poke|p1|Espeon, F|
+|poke|p1|Froslass, F|
+|poke|p1|Gothitelle, F|
+|poke|p1|Hydreigon, M|
+|poke|p1|Tsareena, F|
+|poke|p2|Greninja-*, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Latios, M|
+|poke|p2|Ribombee, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ting-Lu|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Zelveor)
+|
+|t:|1743854975
+|start
+|switch|p1a: Froslass|Froslass, F|100/100
+|switch|p2a: Ribombee|Ribombee, M, shiny|100/100
+|turn|1
+|
+|t:|1743854984
+|move|p2a: Ribombee|Quiver Dance|p2a: Ribombee
+|-boost|p2a: Ribombee|spa|1
+|-boost|p2a: Ribombee|spd|1
+|-boost|p2a: Ribombee|spe|1
+|move|p1a: Froslass|Taunt|p2a: Ribombee
+|-start|p2a: Ribombee|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1743854998
+|move|p2a: Ribombee|Moonblast|p1a: Froslass
+|-damage|p1a: Froslass|25/100
+|move|p1a: Froslass|Destiny Bond|p1a: Froslass
+|-singlemove|p1a: Froslass|Destiny Bond
+|
+|upkeep
+|turn|3
+|
+|t:|1743855020
+|switch|p2a: Latios|Latios, M, shiny|100/100
+|move|p1a: Froslass|Spikes|p2a: Latios
+|-sidestart|p2: Colonel fromage|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1743855032
+|move|p1a: Froslass|Destiny Bond|p1a: Froslass
+|-singlemove|p1a: Froslass|Destiny Bond
+|move|p2a: Latios|Luster Purge|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|-start|p2a: Latios|Disable|Luster Purge|[from] ability: Cursed Body|[of] p1a: Froslass
+|faint|p1a: Froslass
+|-activate|p1a: Froslass|move: Destiny Bond
+|faint|p2a: Latios
+|
+|upkeep
+|
+|t:|1743855049
+|switch|p1a: Serperior|Serperior, M|100/100
+|switch|p2a: Ribombee|Ribombee, M, shiny|100/100
+|-damage|p2a: Ribombee|88/100|[from] Spikes
+|turn|5
+|
+|t:|1743855057
+|move|p2a: Ribombee|Sticky Web|p1a: Serperior
+|-sidestart|p1: Zelveor|move: Sticky Web
+|move|p1a: Serperior|Leaf Storm|p2a: Ribombee
+|-resisted|p2a: Ribombee
+|-damage|p2a: Ribombee|48/100
+|-boost|p1a: Serperior|spa|2
+|
+|upkeep
+|turn|6
+|
+|t:|1743855070
+|move|p2a: Ribombee|Quiver Dance|p2a: Ribombee
+|-boost|p2a: Ribombee|spa|1
+|-boost|p2a: Ribombee|spd|1
+|-boost|p2a: Ribombee|spe|1
+|move|p1a: Serperior|Leaf Storm|p2a: Ribombee
+|-resisted|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1743855080
+|switch|p2a: Greninja|Greninja, M, shiny|100/100
+|-damage|p2a: Greninja|88/100|[from] Spikes
+|turn|7
+|
+|t:|1743855093
+|-terastallize|p1a: Serperior|Water
+|move|p2a: Greninja|Ice Beam|p1a: Serperior
+|-start|p2a: Greninja|typechange|Ice|[from] ability: Protean
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|65/100
+|move|p1a: Serperior|Giga Drain|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|-heal|p1a: Serperior|100/100|[from] drain|[of] p2a: Greninja
+|faint|p2a: Greninja
+|
+|upkeep
+|
+|t:|1743855109
+|switch|p2a: Kingambit|Kingambit, F, shiny|100/100
+|-damage|p2a: Kingambit|88/100|[from] Spikes
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|8
+|
+|t:|1743855124
+|move|p2a: Kingambit|Sucker Punch|p1a: Serperior
+|-damage|p1a: Serperior|33/100
+|move|p1a: Serperior|Tera Blast|p2a: Kingambit|[anim] Tera Blast Water
+|-damage|p2a: Kingambit|21/100
+|
+|-heal|p1a: Serperior|39/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|27/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743855141
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-heal|p2a: Kingambit|34/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743855150
+|move|p1a: Hydreigon|Flamethrower|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|upkeep
+|inactive|Colonel fromage has 120 seconds left.
+|l|☆Colonel fromage
+|inactive|Colonel fromage disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆Colonel fromage
+|inactive|Colonel fromage reconnected and has 110 seconds left.
+|player|p2|Colonel fromage|hiker-gen4|
+|
+|t:|1743855186
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-damage|p2a: Ting-Lu|88/100|[from] Spikes
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|11
+|
+|t:|1743855201
+|move|p1a: Hydreigon|Earth Power|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|72/100
+|-unboost|p2a: Ting-Lu|spd|1
+|move|p2a: Ting-Lu|Ruination|p1a: Hydreigon
+|-damage|p1a: Hydreigon|50/100
+|
+|-heal|p2a: Ting-Lu|78/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743855218
+|move|p1a: Hydreigon|Earth Power|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|52/100
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Hydreigon
+|-sidestart|p1: Zelveor|move: Stealth Rock
+|
+|-heal|p2a: Ting-Lu|58/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743855227
+|move|p1a: Hydreigon|Earth Power|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|33/100
+|move|p2a: Ting-Lu|Whirlwind|p1a: Hydreigon
+|drag|p1a: Gothitelle|Gothitelle, F|100/100
+|-activate|p1a: Gothitelle|move: Sticky Web
+|-unboost|p1a: Gothitelle|spe|1
+|-ability|p1a: Gothitelle|Competitive|boost
+|-boost|p1a: Gothitelle|spa|2
+|-damage|p1a: Gothitelle|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Ting-Lu|40/100|[from] item: Leftovers
+|-heal|p1a: Gothitelle|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743855245
+|move|p2a: Ting-Lu|Ruination|p1a: Gothitelle
+|-damage|p1a: Gothitelle|47/100
+|move|p1a: Gothitelle|Dark Pulse|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|26/100
+|
+|-heal|p2a: Ting-Lu|32/100|[from] item: Leftovers
+|-heal|p1a: Gothitelle|53/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743855256
+|move|p2a: Ting-Lu|Ruination|p1a: Gothitelle
+|-damage|p1a: Gothitelle|27/100
+|move|p1a: Gothitelle|Nasty Plot|p1a: Gothitelle
+|-boost|p1a: Gothitelle|spa|2
+|
+|-heal|p2a: Ting-Lu|38/100|[from] item: Leftovers
+|-heal|p1a: Gothitelle|33/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743855266
+|move|p2a: Ting-Lu|Earthquake|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|faint|p1a: Gothitelle
+|
+|-heal|p2a: Ting-Lu|44/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743855272
+|switch|p1a: Serperior|Serperior, M, tera:Water|39/100
+|-activate|p1a: Serperior|move: Sticky Web
+|-boost|p1a: Serperior|spe|1
+|-damage|p1a: Serperior|26/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743855286
+|move|p1a: Serperior|Leaf Storm|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Ting-Lu
+|
+|-heal|p1a: Serperior|32/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743855295
+|switch|p2a: Hatterene|Hatterene, F, shiny|100/100
+|-damage|p2a: Hatterene|88/100|[from] Spikes
+|turn|18
+|
+|t:|1743855310
+|-terastallize|p2a: Hatterene|Fairy
+|move|p1a: Serperior|Leaf Storm|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Hatterene
+|
+|win|Zelveor
+|raw|Zelveor's rating: 1129 &rarr; <strong>1153</strong><br />(+24 for winning)
+|raw|Colonel fromage's rating: 1113 &rarr; <strong>1089</strong><br />(-24 for losing)
+|l|☆Zelveor
+|player|p1|
+|l|☆Colonel fromage
+|player|p2|

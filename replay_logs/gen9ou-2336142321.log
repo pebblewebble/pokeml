@@ -1,0 +1,308 @@
+|j|☆Nolanb246
+|j|☆irlyliketauros
+|t:|1743883138
+|gametype|singles
+|player|p1|Nolanb246|waitress|1622
+|player|p2|irlyliketauros|265|1634
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gliscor, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Ting-Lu|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Latios, M|
+|poke|p1|Pecharunt|
+|poke|p2|Pelipper, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Tauros-Paldea-Aqua, M|
+|poke|p2|Primarina, M|
+|poke|p2|Overqwil, F|
+|poke|p2|Scizor, F|
+|teampreview
+|
+|t:|1743883147
+|start
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|1
+|
+|t:|1743883153
+|switch|p1a: Gliscor|Gliscor, F, shiny|100/100
+|move|p2a: Scizor|Knock Off|p1a: Gliscor
+|-damage|p1a: Gliscor|74/100
+|-enditem|p1a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p2a: Scizor
+|
+|upkeep
+|turn|2
+|
+|t:|1743883161
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|move|p2a: Scizor|U-turn|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|60/100
+|j| killabyss
+|
+|t:|1743883170
+|switch|p2a: Tauros|Tauros-Paldea-Aqua, M|100/100|[from] U-turn
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Gliscor|atk|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743883176
+|switch|p1a: Zamazenta|Zamazenta, shiny|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Tauros|Raging Bull|p1a: Zamazenta
+|-damage|p1a: Zamazenta|69/100
+|
+|-heal|p1a: Zamazenta|75/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743883179
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|50/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|57/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743883186
+|move|p1a: Zamazenta|Crunch|p2a: Pelipper
+|-damage|p2a: Pelipper|83/100
+|move|p2a: Pelipper|U-turn|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Substitute|[damage]
+|
+|t:|1743883192
+|switch|p2a: Primarina|Primarina, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|63/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743883196
+|move|p1a: Zamazenta|Body Press|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|67/100
+|move|p2a: Primarina|Hyper Voice|p1a: Zamazenta
+|-damage|p1a: Zamazenta|5/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Zamazenta|12/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743883207
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Primarina|Hyper Voice|p1a: Pecharunt
+|-damage|p1a: Pecharunt|22/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743883213
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|72/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743883221
+|move|p1a: Pecharunt|Parting Shot|p2a: Scizor
+|-unboost|p2a: Scizor|atk|1
+|-unboost|p2a: Scizor|spa|1
+|
+|t:|1743883223
+|switch|p1a: Samurott|Samurott-Hisui, F, shiny|100/100|[from] Parting Shot
+|move|p2a: Scizor|U-turn|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|33/100
+|
+|t:|1743883233
+|switch|p2a: Tauros|Tauros-Paldea-Aqua, M|100/100|[from] U-turn
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Samurott|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743883242
+|switch|p1a: Pecharunt|Pecharunt|72/100
+|move|p2a: Tauros|Raging Bull|p1a: Pecharunt
+|-damage|p1a: Pecharunt|31/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743883248
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|move|p2a: Tauros|Raging Bull|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|35/100
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1743883257
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Latios|Luster Purge|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|56/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743883268
+|switch|p1a: Gliscor|Gliscor, F, shiny|60/100
+|move|p2a: Scizor|U-turn|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|46/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Nolanb246)
+|
+|t:|1743883275
+|switch|p2a: Tauros|Tauros-Paldea-Aqua, M|100/100|[from] U-turn
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Gliscor|atk|1
+|
+|upkeep
+|turn|14
+|
+|t:|1743883277
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Tauros|Raging Bull|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|upkeep
+|turn|15
+|
+|t:|1743883282
+|switch|p1a: Zamazenta|Zamazenta, shiny|12/100
+|move|p2a: Tauros|Raging Bull|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1743883286
+|switch|p1a: Latios|Latios, M, shiny|35/100
+|turn|16
+|
+|t:|1743883289
+|switch|p2a: Scizor|Scizor, F|56/100
+|move|p1a: Latios|Luster Purge|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|14/100
+|-unboost|p2a: Scizor|spd|1
+|
+|upkeep
+|turn|17
+|
+|t:|1743883294
+|switch|p1a: Samurott|Samurott-Hisui, F, shiny|33/100
+|move|p2a: Scizor|Bullet Punch|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|13/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743883302
+|move|p2a: Scizor|Bullet Punch|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1743883308
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|19
+|
+|t:|1743883315
+|move|p2a: Scizor|U-turn|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|54/100
+|
+|t:|1743883318
+|switch|p2a: Pelipper|Pelipper, M|83/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: irlyliketauros|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ting-Lu|61/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743883323
+|switch|p1a: Latios|Latios, M, shiny|35/100
+|move|p2a: Pelipper|U-turn|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|9/100
+|
+|t:|1743883335
+|switch|p2a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743883345
+|switch|p1a: Gliscor|Gliscor, F, shiny|46/100
+|move|p2a: Raging Bolt|Weather Ball|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743883349
+|switch|p1a: Latios|Latios, M, shiny|9/100
+|turn|22
+|
+|t:|1743883350
+|move|p2a: Raging Bolt|Weather Ball|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|Nolanb246 forfeited.
+|
+|win|irlyliketauros
+|raw|Nolanb246's rating: 1622 &rarr; <strong>1603</strong><br />(-19 for losing)
+|raw|irlyliketauros's rating: 1634 &rarr; <strong>1653</strong><br />(+19 for winning)
+|l|☆Nolanb246
+|player|p1|

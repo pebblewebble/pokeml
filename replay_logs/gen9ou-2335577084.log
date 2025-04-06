@@ -1,0 +1,147 @@
+|j|☆eeekkkk
+|j|☆IASASAY
+|t:|1743808206
+|gametype|singles
+|player|p1|eeekkkk|102|1216
+|player|p2|IASASAY|ghetsis|1198
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Quaquaval, M|
+|poke|p1|Iron Treads|
+|poke|p1|Skeledirge, M|
+|poke|p1|Weezing, F|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Meowscarada, M|
+|poke|p2|Inteleon, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Ting-Lu|
+|teampreview
+|
+|t:|1743808213
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: Inteleon|Inteleon, F|100/100
+|turn|1
+|
+|t:|1743808219
+|-terastallize|p2a: Inteleon|Water
+|move|p2a: Inteleon|Surf|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|t:|1743808228
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|turn|2
+|
+|t:|1743808233
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Meowscarada|Knock Off|p2a: Dragapult
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Choice Band|[from] move: Knock Off|[of] p1a: Meowscarada
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1743808248
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|3
+|
+|t:|1743808255
+|move|p1a: Meowscarada|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|8/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Meowscarada
+|move|p2a: Cinderace|U-turn|p1a: Meowscarada
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|t:|1743808266
+|switch|p2a: Alomomola|Alomomola, F|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743808273
+|switch|p1a: Weezing|Weezing, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|4
+|
+|t:|1743808277
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Weezing|Will-O-Wisp|p2a: Alomomola
+|-status|p2a: Alomomola|brn
+|
+|-damage|p2a: Alomomola|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743808286
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Quaquaval|Quaquaval, M|100/100
+|move|p2a: Alomomola|Flip Turn|p1a: Quaquaval
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|95/100
+|
+|t:|1743808292
+|switch|p2a: Cinderace|Cinderace, M|8/100|[from] Flip Turn
+|
+|-heal|p2a: Cinderace|97/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|6
+|
+|t:|1743808299
+|move|p2a: Cinderace|U-turn|p1a: Quaquaval
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|71/100
+|
+|t:|1743808303
+|switch|p2a: Alomomola|Alomomola, F|100/100 brn|[from] U-turn
+|move|p1a: Quaquaval|Aqua Step|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|90/100 brn
+|-boost|p1a: Quaquaval|spe|1
+|
+|-damage|p2a: Alomomola|84/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743808314
+|move|p1a: Quaquaval|Close Combat|p2a: Alomomola
+|-damage|p2a: Alomomola|47/100 brn
+|-unboost|p1a: Quaquaval|def|1
+|-unboost|p1a: Quaquaval|spd|1
+|move|p2a: Alomomola|Scald|p1a: Quaquaval
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|58/100
+|-status|p1a: Quaquaval|brn
+|
+|-damage|p1a: Quaquaval|52/100 brn|[from] brn
+|-damage|p2a: Alomomola|40/100 brn|[from] brn
+|upkeep
+|turn|8
+|-message|eeekkkk forfeited.
+|
+|win|IASASAY
+|raw|eeekkkk's rating: 1216 &rarr; <strong>1190</strong><br />(-26 for losing)
+|raw|IASASAY's rating: 1198 &rarr; <strong>1224</strong><br />(+26 for winning)
+|l|☆eeekkkk
+|player|p1|

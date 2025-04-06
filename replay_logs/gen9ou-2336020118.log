@@ -1,0 +1,303 @@
+|j|☆YukiiHo
+|j|☆DXSandstormsXD
+|t:|1743870615
+|gametype|singles
+|player|p1|YukiiHo|2|1260
+|player|p2|DXSandstormsXD|170|1262
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Meowscarada, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Great Tusk|
+|poke|p1|Toxapex, M|
+|poke|p1|Slither Wing|
+|poke|p2|Iron Treads|
+|poke|p2|Pincurchin, F|
+|poke|p2|Raichu-Alola, F|
+|poke|p2|Gholdengo|
+|poke|p2|Kyurem|
+|poke|p2|Gyarados, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by YukiiHo)
+|
+|t:|1743870639
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|1
+|
+|t:|1743870644
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Stealth Rock|p2a: Gyarados
+|-sidestart|p2: DXSandstormsXD|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743870648
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Gyarados|Substitute|p2a: Gyarados
+|-start|p2a: Gyarados|Substitute
+|-damage|p2a: Gyarados|76/100
+|
+|-heal|p2a: Gyarados|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743870655
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Toxapex|Sludge Bomb|p2a: Gyarados
+|-end|p2a: Gyarados|Substitute
+|
+|-heal|p2a: Gyarados|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743870664
+|-terastallize|p2a: Gyarados|Ground
+|move|p2a: Gyarados|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|-heal|p2a: Gyarados|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743870667
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|turn|5
+|
+|t:|1743870673
+|switch|p2a: Pincurchin|Pincurchin, F|100/100
+|-damage|p2a: Pincurchin|88/100|[from] Stealth Rock
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Meowscarada|Triple Axel|p2a: Pincurchin
+|-start|p1a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-damage|p2a: Pincurchin|79/100
+|-damage|p2a: Pincurchin|59/100
+|-damage|p2a: Pincurchin|29/100
+|-hitcount|p2a: Pincurchin|3
+|
+|upkeep
+|turn|6
+|
+|t:|1743870682
+|move|p1a: Meowscarada|Triple Axel|p2a: Pincurchin
+|-damage|p2a: Pincurchin|20/100
+|-damage|p2a: Pincurchin|0 fnt
+|faint|p2a: Pincurchin
+|-hitcount|p2: Pincurchin|2
+|
+|upkeep
+|
+|t:|1743870685
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-activate|p2a: Iron Treads|ability: Quark Drive
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|7
+|
+|t:|1743870689
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Iron Treads|Rapid Spin|p1a: Great Tusk
+|-damage|p1a: Great Tusk|90/100
+|-boost|p2a: Iron Treads|spe|1
+|-damage|p2a: Iron Treads|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|-sideend|p2: DXSandstormsXD|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|
+|upkeep
+|turn|8
+|
+|t:|1743870696
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Gyarados|Gyarados, F, tera:Ground|94/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Ice Spinner|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|56/100
+|-fieldend|move: Electric Terrain
+|
+|-heal|p2a: Gyarados|62/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743870704
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|
+|upkeep
+|turn|10
+|
+|t:|1743870708
+|move|p1a: Meowscarada|U-turn|p2a: Kyurem
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-damage|p2a: Kyurem|70/100
+|
+|t:|1743870710
+|switch|p1a: Hatterene|Hatterene, F|100/100|[from] U-turn
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1743870717
+|move|p2a: Kyurem|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|31/100
+|cant|p1a: Hatterene|flinch
+|
+|-heal|p1a: Hatterene|37/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743870725
+|move|p2a: Kyurem|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1743870726
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|turn|13
+|
+|t:|1743870732
+|move|p2a: Kyurem|Scale Shot|p1a: Thundurus
+|-damage|p1a: Thundurus|71/100
+|-damage|p1a: Thundurus|41/100
+|-damage|p1a: Thundurus|11/100
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|-hitcount|p1: Thundurus|4
+|-unboost|p2a: Kyurem|def|1
+|-boost|p2a: Kyurem|spe|1
+|
+|upkeep
+|
+|t:|1743870735
+|switch|p1a: Great Tusk|Great Tusk|90/100
+|turn|14
+|
+|t:|1743870739
+|-terastallize|p1a: Great Tusk|Water
+|move|p2a: Kyurem|Icicle Spear|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|85/100
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|78/100
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|72/100
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|65/100
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|59/100
+|-hitcount|p1a: Great Tusk|5
+|move|p1a: Great Tusk|Headlong Rush|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1743870742
+|switch|p2a: Raichu|Raichu-Alola, F|100/100
+|turn|15
+|
+|t:|1743870747
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|move|p2a: Raichu|Volt Switch|p1a: Slither Wing
+|-damage|p1a: Slither Wing|70/100
+|
+|t:|1743870754
+|switch|p2a: Gyarados|Gyarados, F, tera:Ground|62/100|[from] Volt Switch
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Slither Wing|atk|1
+|
+|-heal|p2a: Gyarados|68/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743870757
+|switch|p2a: Iron Treads|Iron Treads|84/100
+|move|p1a: Slither Wing|U-turn|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|72/100
+|
+|t:|1743870760
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Great Tusk|Great Tusk, tera:Water|59/100|[from] U-turn
+|
+|upkeep
+|turn|17
+|
+|t:|1743870764
+|move|p2a: Iron Treads|Volt Switch|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|30/100
+|
+|t:|1743870768
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] Volt Switch
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Great Tusk|Headlong Rush|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|upkeep
+|turn|18
+|
+|t:|1743870775
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Meowscarada
+|-resisted|p1a: Meowscarada
+|-damage|p1a: Meowscarada|64/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743870781
+|move|p1a: Meowscarada|Knock Off|p2a: Gholdengo
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|2/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Make It Rain|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Meowscarada
+|
+|upkeep
+|-message|YukiiHo forfeited.
+|
+|win|DXSandstormsXD
+|raw|YukiiHo's rating: 1260 &rarr; <strong>1235</strong><br />(-25 for losing)
+|raw|DXSandstormsXD's rating: 1262 &rarr; <strong>1287</strong><br />(+25 for winning)
+|l|☆YukiiHo
+|player|p1|
+|l|☆DXSandstormsXD
+|player|p2|

@@ -1,0 +1,290 @@
+|j|☆Pope111222333
+|j|☆stevstacks
+|t:|1743918604
+|gametype|singles
+|player|p1|Pope111222333|170|1612
+|player|p2|stevstacks|170|1634
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Torkoal, M|
+|poke|p1|Hawlucha, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Armarouge, F|
+|poke|p2|Kyurem|
+|poke|p2|Dragapult, M|
+|poke|p2|Iron Treads|
+|poke|p2|Corviknight, M|
+|poke|p2|Primarina, M|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by stevstacks)
+|j| SillyOne12345
+|
+|t:|1743918618
+|start
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-ability|p1a: Hawlucha|Mold Breaker
+|turn|1
+|
+|t:|1743918634
+|move|p2a: Dragapult|Dragon Darts|p1a: Hawlucha
+|-damage|p1a: Hawlucha|49/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|
+|t:|1743918643
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|2
+|
+|t:|1743918648
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|3
+|
+|t:|1743918658
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|move|p2a: Iron Treads|Earthquake|p1a: Ursaluna
+|-damage|p1a: Ursaluna|71/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1743918664
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743918677
+|switch|p2a: Primarina|Primarina, M|100/100
+|move|p1a: Torkoal|Solar Beam||[still]
+|-prepare|p1a: Torkoal|Solar Beam
+|-anim|p1a: Torkoal|Solar Beam|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|13/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Primarina|19/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|Pope111222333 has 120 seconds left.
+|
+|t:|1743918710
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Primarina|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Primarina|25/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1743918717
+|move|p2a: Primarina|Calm Mind|p2a: Primarina
+|-boost|p2a: Primarina|spa|1
+|-boost|p2a: Primarina|spd|1
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Primarina|31/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743918728
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|move|p2a: Primarina|Moonblast|p1: Hatterene|[notarget]
+|-fail|p2a: Primarina
+|
+|-weather|none
+|-heal|p2a: Primarina|37/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743918730
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|9
+|
+|t:|1743918738
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Torkoal|Eruption|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743918745
+|switch|p2a: Primarina|Primarina, M|37/100
+|turn|10
+|
+|t:|1743918748
+|move|p1a: Torkoal|Eruption|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743918754
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|11
+|
+|t:|1743918756
+|move|p1a: Torkoal|Eruption|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743918759
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|12
+|
+|t:|1743918774
+|switch|p1a: Armarouge|Armarouge, F|100/100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Armarouge
+|-sidestart|p1: Pope111222333|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743918780
+|move|p2a: Iron Treads|Rapid Spin|p1a: Armarouge
+|-damage|p1a: Armarouge|87/100
+|-boost|p2a: Iron Treads|spe|1
+|move|p1a: Armarouge|Trick Room|p1a: Armarouge
+|-fieldstart|move: Trick Room|[of] p1a: Armarouge
+|
+|-weather|none
+|upkeep
+|turn|14
+|
+|t:|1743918792
+|move|p1a: Armarouge|Armor Cannon|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743918797
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|15
+|
+|t:|1743918803
+|move|p2a: Dragapult|Sucker Punch|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|
+|upkeep
+|
+|t:|1743918810
+|switch|p1a: Ursaluna|Ursaluna, F|71/100 brn
+|-heal|p1a: Ursaluna|100/100|[from] move: Healing Wish
+|-damage|p1a: Ursaluna|94/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743918817
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Ursaluna|Swords Dance|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|2
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|17
+|
+|t:|1743918827
+|move|p1a: Ursaluna|Headlong Rush|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Kyurem
+|
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743918829
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|18
+|
+|t:|1743918832
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-damage|p1a: Indeedee|88/100|[from] Stealth Rock
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-terastallize|p2a: Dragapult|Dragon
+|move|p2a: Dragapult|Dragon Darts|p1a: Indeedee
+|-crit|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|t:|1743918835
+|switch|p1a: Ursaluna|Ursaluna, F|88/100 brn
+|-damage|p1a: Ursaluna|82/100 brn|[from] Stealth Rock
+|turn|19
+|
+|t:|1743918837
+|move|p2a: Dragapult|Dragon Darts|p1a: Ursaluna
+|-damage|p1a: Ursaluna|47/100 brn
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Ursaluna
+|-damage|p1a: Ursaluna|9/100 brn
+|move|p1a: Ursaluna|Facade|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|win|Pope111222333
+|raw|Pope111222333's rating: 1612 &rarr; <strong>1633</strong><br />(+21 for winning)
+|raw|stevstacks's rating: 1634 &rarr; <strong>1613</strong><br />(-21 for losing)
+|l|☆Pope111222333
+|player|p1|
+|l|☆stevstacks
+|player|p2|

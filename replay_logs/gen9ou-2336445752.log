@@ -1,0 +1,228 @@
+|j|☆free_from_taxes
+|j|☆LaRonn
+|t:|1743918809
+|gametype|singles
+|player|p1|free_from_taxes|dawn|1093
+|player|p2|LaRonn|hoopster|1061
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Pecharunt|
+|poke|p1|Garchomp, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Primarina, M|
+|poke|p1|Weavile, F|
+|poke|p2|Gallade, M|
+|poke|p2|Luxray, M|
+|poke|p2|Jirachi|
+|poke|p2|Pecharunt|
+|poke|p2|Skeledirge, F|
+|poke|p2|Krookodile, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by free_from_taxes)
+|
+|t:|1743918825
+|start
+|switch|p1a: Weavile|Weavile, F|100/100
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-ability|p1a: Weavile|Pressure
+|-item|p2a: Pecharunt|Air Balloon
+|turn|1
+|c|☆free_from_taxes|Gallade!
+|
+|t:|1743918847
+|move|p1a: Weavile|Swords Dance|p1a: Weavile
+|-boost|p1a: Weavile|atk|2
+|move|p2a: Pecharunt|Malignant Chain|p1a: Weavile
+|-damage|p1a: Weavile|60/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743918860
+|move|p1a: Weavile|Icicle Spear|p2a: Pecharunt
+|-damage|p2a: Pecharunt|88/100
+|-enditem|p2a: Pecharunt|Air Balloon
+|-damage|p2a: Pecharunt|75/100
+|-damage|p2a: Pecharunt|64/100
+|-damage|p2a: Pecharunt|52/100
+|-damage|p2a: Pecharunt|40/100
+|-hitcount|p2a: Pecharunt|5
+|move|p2a: Pecharunt|Parting Shot|p1a: Weavile
+|-unboost|p1a: Weavile|atk|1
+|-unboost|p1a: Weavile|spa|1
+|
+|t:|1743918873
+|switch|p2a: Luxray|Luxray, M|100/100|[from] Parting Shot
+|-ability|p2a: Luxray|Intimidate|boost
+|-unboost|p1a: Weavile|atk|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743918885
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|move|p2a: Luxray|Play Rough|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|20/100
+|-damage|p2a: Luxray|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Luxray|72/100|[from] item: Rocky Helmet|[of] p1a: Garchomp
+|-damage|p2a: Luxray|62/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1743918900
+|switch|p2a: Krookodile|Krookodile, M|100/100
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1743918907
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2a: Krookodile|Earthquake|p1a: Garchomp
+|-activate|p1a: Garchomp|move: Protect
+|
+|upkeep
+|turn|6
+|
+|t:|1743918914
+|move|p2a: Krookodile|Earthquake|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|-ability|p2a: Krookodile|Moxie|boost
+|-boost|p2a: Krookodile|atk|1
+|
+|upkeep
+|
+|t:|1743918923
+|switch|p1a: Weavile|Weavile, F|60/100
+|-ability|p1a: Weavile|Pressure
+|turn|7
+|
+|t:|1743918928
+|move|p1a: Weavile|Fake Out|p2a: Krookodile
+|-damage|p2a: Krookodile|82/100
+|cant|p2a: Krookodile|flinch
+|
+|upkeep
+|turn|8
+|
+|t:|1743918936
+|move|p2a: Krookodile|Earthquake|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|-ability|p2a: Krookodile|Moxie|boost
+|-boost|p2a: Krookodile|atk|1
+|
+|upkeep
+|
+|t:|1743918939
+|switch|p1a: Primarina|Primarina, M|100/100
+|turn|9
+|
+|t:|1743918943
+|move|p2a: Krookodile|Earthquake|p1a: Primarina
+|-damage|p1a: Primarina|26/100
+|move|p1a: Primarina|Psychic Noise|p2a: Krookodile
+|-supereffective|p2a: Krookodile
+|-damage|p2a: Krookodile|0 fnt
+|faint|p2a: Krookodile
+|
+|-heal|p1a: Primarina|32/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743918958
+|switch|p2a: Gallade|Gallade, M|100/100
+|turn|10
+|
+|t:|1743918970
+|move|p2a: Gallade|Psycho Cut|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|upkeep
+|
+|t:|1743918978
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|turn|11
+|
+|t:|1743918984
+|move|p1a: Pecharunt|Parting Shot|p2a: Gallade
+|-unboost|p2a: Gallade|atk|1
+|-unboost|p2a: Gallade|spa|1
+|
+|t:|1743918990
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from] Parting Shot
+|move|p2a: Gallade|Psycho Cut|p1a: Cinderace
+|-damage|p1a: Cinderace|40/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743919008
+|switch|p2a: Luxray|Luxray, M|62/100
+|-ability|p2a: Luxray|Intimidate|boost
+|-unboost|p1a: Cinderace|atk|1
+|move|p1a: Cinderace|Pyro Ball|p2a: Luxray
+|-damage|p2a: Luxray|17/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743919021
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Cinderace|U-turn|p2a: Jirachi
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p2a: Jirachi|82/100
+|
+|t:|1743919026
+|switch|p1a: Zamazenta|Zamazenta|100/100|[from] U-turn
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|
+|-heal|p2a: Jirachi|89/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743919044
+|-terastallize|p1a: Zamazenta|Fire
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Jirachi|Wish|p2a: Jirachi
+|
+|-heal|p2a: Jirachi|95/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743919063
+|switch|p2a: Pecharunt|Pecharunt|40/100
+|move|p1a: Zamazenta|Body Press|p2a: Pecharunt
+|-immune|p2a: Pecharunt
+|
+|-heal|p2a: Pecharunt|93/100|[from] move: Wish|[wisher] Jirachi
+|upkeep
+|turn|16
+|-message|free_from_taxes forfeited.
+|
+|win|LaRonn
+|raw|free_from_taxes's rating: 1122 &rarr; <strong>1093</strong><br />(-29 for losing)
+|raw|LaRonn's rating: 1061 &rarr; <strong>1097</strong><br />(+36 for winning)
+|l|☆free_from_taxes
+|player|p1|
+|l|☆LaRonn
+|player|p2|

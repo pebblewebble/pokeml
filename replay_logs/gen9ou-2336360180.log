@@ -1,0 +1,158 @@
+|j|‽clown2008
+|j|☆SPASTIC IRL
+|t:|1743907240
+|gametype|singles
+|player|p1|clown2008|clown|1069
+|player|p2|SPASTIC IRL|burglar|1084
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Leavanny, M|
+|poke|p1|Porygon-Z|
+|poke|p1|Arcanine, M|
+|poke|p1|Quaquaval, M|
+|poke|p1|Persian, F|
+|poke|p1|Gholdengo|
+|poke|p2|Araquanid, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Moth|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|t:|1743907261
+|start
+|switch|p1a: Persian|Persian, F|100/100
+|switch|p2a: Araquanid|Araquanid, M, shiny|100/100
+|turn|1
+|
+|t:|1743907266
+|move|p1a: Persian|Fake Out|p2a: Araquanid
+|-damage|p2a: Araquanid|72/100
+|-damage|p1a: Persian|91/100|[from] item: Life Orb
+|cant|p2a: Araquanid|flinch
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by clown2008)
+|
+|t:|1743907283
+|move|p1a: Persian|Aerial Ace|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|24/100
+|-damage|p1a: Persian|81/100|[from] item: Life Orb
+|move|p2a: Araquanid|Sticky Web|p1a: Persian
+|-sidestart|p1: clown2008|move: Sticky Web
+|
+|upkeep
+|turn|3
+|-enditem|p2a: Araquanid|Custap Berry|[eat]
+|-activate|p2a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1743907293
+|move|p2a: Araquanid|Liquidation|p1a: Persian
+|-damage|p1a: Persian|4/100
+|-unboost|p1a: Persian|def|1
+|move|p1a: Persian|Knock Off|p2a: Araquanid
+|-crit|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|-damage|p1a: Persian|0 fnt|[from] item: Life Orb
+|faint|p1a: Persian
+|
+|upkeep
+|
+|t:|1743907308
+|switch|p1a: Quaquaval|Quaquaval, M|100/100
+|switch|p2a: Kingambit|Kingambit, M, shiny|100/100
+|-activate|p1a: Quaquaval|move: Sticky Web
+|-unboost|p1a: Quaquaval|spe|1
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|4
+|
+|t:|1743907330
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Quaquaval|Rapid Spin|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|84/100
+|-boost|p1a: Quaquaval|spe|1
+|-sideend|p1: clown2008|Sticky Web|[from] move: Rapid Spin|[of] p1a: Quaquaval
+|
+|upkeep
+|turn|5
+|
+|t:|1743907339
+|switch|p1a: Leavanny|Leavanny, M|100/100
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1743907356
+|move|p1a: Leavanny|Sticky Web|p2a: Raging Bolt
+|-sidestart|p2: SPASTIC IRL|move: Sticky Web
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Leavanny
+|-enditem|p1a: Leavanny|Focus Sash
+|-damage|p1a: Leavanny|1/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743907374
+|move|p1a: Leavanny|Triple Axel|p2a: Raging Bolt|[miss]
+|-miss|p1a: Leavanny|p2a: Raging Bolt
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Leavanny
+|-damage|p1a: Leavanny|0 fnt
+|faint|p1a: Leavanny
+|
+|upkeep
+|
+|t:|1743907376
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|8
+|
+|t:|1743907384
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|upkeep
+|turn|9
+|inactive|SPASTIC IRL has 120 seconds left.
+|
+|t:|1743907416
+|switch|p1a: Porygon-Z|Porygon-Z|100/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|0 fnt
+|faint|p1a: Porygon-Z
+|
+|upkeep
+|-message|clown2008 forfeited.
+|
+|win|SPASTIC IRL
+|raw|clown2008's rating: 1069 &rarr; <strong>1050</strong><br />(-19 for losing)
+|raw|SPASTIC IRL's rating: 1084 &rarr; <strong>1110</strong><br />(+26 for winning)
+|l|‽clown2008
+|player|p1|
+|l|☆SPASTIC IRL
+|player|p2|

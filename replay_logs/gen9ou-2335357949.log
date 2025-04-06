@@ -1,0 +1,207 @@
+|j|☆keepmomo
+|j|☆Kybaz
+|t:|1743787475
+|gametype|singles
+|player|p1|keepmomo|dawn|1169
+|player|p2|Kybaz|waiter|1199
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Comfey, F|
+|poke|p1|Klefki, F|
+|poke|p1|Kingdra, M|
+|poke|p1|Whimsicott, F|
+|poke|p1|Jumpluff, F|
+|poke|p1|Pelipper, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Corviknight, F|
+|teampreview
+|
+|t:|1743787496
+|start
+|switch|p1a: Jumpluff|Jumpluff, F|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|turn|1
+|
+|t:|1743787502
+|move|p1a: Jumpluff|Light Screen|p1a: Jumpluff
+|-sidestart|p1: keepmomo|move: Light Screen
+|move|p2a: Raging Bolt|Volt Switch|p1a: Jumpluff
+|-damage|p1a: Jumpluff|80/100
+|
+|t:|1743787509
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Slowking|Slowking-Galar, M|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|2
+|
+|t:|1743787518
+|move|p1a: Jumpluff|Leech Seed|p2a: Slowking
+|-start|p2a: Slowking|move: Leech Seed
+|move|p2a: Slowking|Sludge Bomb|p1a: Jumpluff
+|-supereffective|p1a: Jumpluff
+|-damage|p1a: Jumpluff|45/100
+|-status|p1a: Jumpluff|psn
+|
+|-damage|p2a: Slowking|88/100|[from] Leech Seed|[of] p1a: Jumpluff
+|-heal|p1a: Jumpluff|59/100 psn|[silent]
+|-damage|p1a: Jumpluff|47/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1743787530
+|move|p1a: Jumpluff|Reflect|p1a: Jumpluff
+|-sidestart|p1: keepmomo|Reflect
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743787544
+|switch|p2a: Raging Bolt|Raging Bolt|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Jumpluff|34/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743787556
+|move|p1a: Jumpluff|Memento|p2a: Raging Bolt
+|-unboost|p2a: Raging Bolt|atk|2
+|-unboost|p2a: Raging Bolt|spa|2
+|faint|p1a: Jumpluff
+|move|p2a: Raging Bolt|Volt Switch|p1: Jumpluff|[notarget]
+|-fail|p2a: Raging Bolt
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743787559
+|switch|p1a: Comfey|Comfey, F, shiny|100/100
+|turn|5
+|
+|t:|1743787570
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743787575
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|move|p2a: Slowking|Sludge Bomb|p1a: Comfey
+|-supereffective|p1a: Comfey
+|-damage|p1a: Comfey|84/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743787584
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|move|p2a: Slowking|Thunder Wave|p1a: Comfey
+|-status|p1a: Comfey|par
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1743787599
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|move|p2a: Slowking|Sludge Bomb|p1a: Comfey
+|-supereffective|p1a: Comfey
+|-damage|p1a: Comfey|71/100 par
+|
+|-sideend|p1: keepmomo|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1743787608
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|move|p2a: Slowking|Sludge Bomb|p1a: Comfey
+|-supereffective|p1a: Comfey
+|-damage|p1a: Comfey|50/100 par
+|
+|upkeep
+|turn|10
+|
+|t:|1743787612
+|move|p1a: Comfey|Calm Mind|p1a: Comfey
+|-boost|p1a: Comfey|spa|1
+|-boost|p1a: Comfey|spd|1
+|move|p2a: Slowking|Sludge Bomb|p1a: Comfey
+|-supereffective|p1a: Comfey
+|-damage|p1a: Comfey|32/100 par
+|
+|-sideend|p1: keepmomo|Reflect
+|upkeep
+|turn|11
+|
+|t:|1743787615
+|-terastallize|p1a: Comfey|Fairy
+|move|p1a: Comfey|Draining Kiss|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|60/100
+|-heal|p1a: Comfey|71/100 par|[from] drain|[of] p2a: Slowking
+|move|p2a: Slowking|Sludge Bomb|p1a: Comfey
+|-supereffective|p1a: Comfey
+|-damage|p1a: Comfey|53/100 par
+|
+|upkeep
+|turn|12
+|
+|t:|1743787622
+|move|p1a: Comfey|Draining Kiss|p2a: Slowking
+|-resisted|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-heal|p1a: Comfey|100/100 par|[from] drain|[of] p2a: Slowking
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1743787634
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|13
+|
+|t:|1743787638
+|move|p1a: Comfey|Draining Kiss|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|-message|Kybaz forfeited.
+|
+|win|keepmomo
+|raw|keepmomo's rating: 1141 &rarr; <strong>1170</strong><br />(+29 for winning)
+|raw|Kybaz's rating: 1199 &rarr; <strong>1170</strong><br />(-29 for losing)
+|l|☆Kybaz
+|player|p2|
+|l|☆keepmomo
+|player|p1|

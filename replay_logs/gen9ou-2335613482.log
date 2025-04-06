@@ -1,0 +1,316 @@
+|j|☆Diarreia Mortal
+|j|☆Dribblz
+|t:|1743812424
+|gametype|singles
+|player|p1|Diarreia Mortal|fisherman-gen4|1215
+|player|p2|Dribblz|roxanne|1208
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Toxtricity, F|
+|poke|p1|Mew|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Salamence, M|
+|poke|p1|Serperior, F|
+|poke|p1|Ditto|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Bisharp, M|
+|poke|p2|Ceruledge, F|
+|poke|p2|Kleavor, F|
+|poke|p2|Skarmory, M|
+|teampreview
+|
+|t:|1743812443
+|start
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|t:|1743812453
+|move|p2a: Samurott|Knock Off|p1a: Toxtricity
+|-damage|p1a: Toxtricity|45/100
+|-enditem|p1a: Toxtricity|Choice Specs|[from] move: Knock Off|[of] p2a: Samurott
+|move|p1a: Toxtricity|Volt Switch|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|t:|1743812467
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100|[from] Volt Switch
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743812477
+|switch|p2a: Bisharp|Bisharp, M|100/100
+|turn|2
+|
+|t:|1743812483
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Diarreia Mortal|move: Aurora Veil
+|move|p2a: Bisharp|Swords Dance|p2a: Bisharp
+|-boost|p2a: Bisharp|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743812496
+|switch|p1a: Toxtricity|Toxtricity, F|45/100
+|move|p2a: Bisharp|Iron Head|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|23/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743812505
+|move|p2a: Bisharp|Sucker Punch|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743812512
+|switch|p1a: Serperior|Serperior, F|100/100
+|turn|5
+|
+|t:|1743812518
+|move|p1a: Serperior|Substitute|p1a: Serperior
+|-start|p1a: Serperior|Substitute
+|-damage|p1a: Serperior|76/100
+|move|p2a: Bisharp|Iron Head|p1a: Serperior
+|-end|p1a: Serperior|Substitute
+|
+|-weather|none
+|-heal|p1a: Serperior|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743812528
+|move|p1a: Serperior|Glare|p2a: Bisharp
+|-status|p2a: Bisharp|par
+|move|p2a: Bisharp|Iron Head|p1a: Serperior
+|-damage|p1a: Serperior|38/100
+|
+|-heal|p1a: Serperior|44/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743812537
+|move|p1a: Serperior|Leaf Storm|p2a: Bisharp
+|-resisted|p2a: Bisharp
+|-damage|p2a: Bisharp|80/100 par
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Bisharp|Iron Head|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|
+|t:|1743812554
+|switch|p1a: Salamence|Salamence, M|100/100
+|turn|8
+|
+|t:|1743812561
+|move|p1a: Salamence|Earthquake|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|35/100 par
+|move|p2a: Bisharp|Thunder Wave|p1a: Salamence
+|-status|p1a: Salamence|par
+|
+|upkeep
+|turn|9
+|
+|t:|1743812573
+|move|p2a: Bisharp|Sucker Punch|p1a: Salamence
+|-damage|p1a: Salamence|65/100 par
+|cant|p1a: Salamence|par
+|
+|-sideend|p1: Diarreia Mortal|move: Aurora Veil
+|upkeep
+|turn|10
+|
+|t:|1743812587
+|move|p2a: Bisharp|Sucker Punch||[still]
+|-fail|p2a: Bisharp
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1743812594
+|move|p1a: Salamence|Earthquake|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|faint|p2a: Bisharp
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|upkeep
+|
+|t:|1743812603
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|12
+|
+|t:|1743812609
+|move|p2a: Kleavor|Stone Axe|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|-sidestart|p1: Diarreia Mortal|move: Stealth Rock
+|faint|p1a: Salamence
+|
+|upkeep
+|
+|t:|1743812617
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|13
+|
+|t:|1743812629
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Diarreia Mortal|move: Aurora Veil
+|move|p2a: Kleavor|Stone Axe|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|22/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743812637
+|move|p1a: Ninetales|Blizzard|p2a: Kleavor
+|-damage|p2a: Kleavor|38/100
+|move|p2a: Kleavor|Stone Axe|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743812645
+|switch|p1a: Mew|Mew|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743812650
+|move|p2a: Kleavor|X-Scissor|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|26/100
+|-enditem|p1a: Mew|Weakness Policy
+|-boost|p1a: Mew|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Mew|spa|2|[from] item: Weakness Policy
+|move|p1a: Mew|Dragon Dance|p1a: Mew
+|-boost|p1a: Mew|atk|1
+|-boost|p1a: Mew|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743812663
+|move|p1a: Mew|Drain Punch|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|-heal|p1a: Mew|42/100|[from] drain|[of] p2a: Kleavor
+|faint|p2a: Kleavor
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|c|☆Dribblz|That's cool
+|
+|t:|1743812678
+|switch|p2a: Ceruledge|Ceruledge, F, shiny|100/100
+|turn|17
+|c|☆Diarreia Mortal|Oui hhh
+|
+|t:|1743812694
+|-terastallize|p1a: Mew|Fighting
+|move|p1a: Mew|Earthquake|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|-weather|none
+|upkeep
+|
+|t:|1743812706
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|turn|18
+|
+|t:|1743812712
+|move|p1a: Mew|Drain Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|49/100
+|-heal|p1a: Mew|67/100|[from] drain|[of] p2a: Skarmory
+|-damage|p1a: Mew|50/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|move|p2a: Skarmory|Whirlwind|p1a: Mew
+|drag|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Skarmory|[from] ability: Imposter
+|
+|upkeep
+|turn|19
+|
+|t:|1743812729
+|move|p1a: Ditto|Body Press|p2a: Skarmory
+|-damage|p2a: Skarmory|30/100
+|-damage|p1a: Ditto|72/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|80/100
+|-singleturn|p2a: Skarmory|move: Roost
+|
+|upkeep
+|turn|20
+|
+|t:|1743812738
+|move|p1a: Ditto|Body Press|p2a: Skarmory
+|-damage|p2a: Skarmory|61/100
+|-damage|p1a: Ditto|55/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|move|p2a: Skarmory|Whirlwind|p1a: Ditto
+|drag|p1a: Mew|Mew, tera:Fighting|50/100
+|-damage|p1a: Mew|44/100|[from] Stealth Rock
+|
+|-sideend|p1: Diarreia Mortal|move: Aurora Veil
+|upkeep
+|turn|21
+|
+|t:|1743812753
+|move|p1a: Mew|Triple Axel|p2a: Skarmory
+|-damage|p2a: Skarmory|57/100
+|-damage|p1a: Mew|28/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|-damage|p2a: Skarmory|49/100
+|-damage|p1a: Mew|11/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|-damage|p2a: Skarmory|36/100
+|-damage|p1a: Mew|0 fnt|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|faint|p1a: Mew
+|-hitcount|p2a: Skarmory|3
+|move|p2a: Skarmory|Brave Bird|p1: Mew|[notarget]
+|-fail|p2a: Skarmory
+|
+|upkeep
+|-message|Diarreia Mortal forfeited.
+|
+|win|Dribblz
+|raw|Diarreia Mortal's rating: 1215 &rarr; <strong>1189</strong><br />(-26 for losing)
+|raw|Dribblz's rating: 1208 &rarr; <strong>1234</strong><br />(+26 for winning)
+|l|☆Diarreia Mortal
+|player|p1|
+|c|☆Dribblz|Whoops
+|c|☆Dribblz|GG

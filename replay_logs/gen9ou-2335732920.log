@@ -1,0 +1,438 @@
+|j|☆Tscher
+|j|☆Oydess222
+|t:|1743827593
+|gametype|singles
+|player|p1|Tscher|266|1212
+|player|p2|Oydess222|169|1159
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Donphan, F|
+|poke|p1|Kleavor, M|
+|poke|p1|Slowking, M|
+|poke|p1|Iron Moth|
+|poke|p1|Dragonite, M|
+|poke|p1|Iron Valiant|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Tentacruel, F|
+|poke|p2|Clodsire, M|
+|poke|p2|Sinistcha|
+|poke|p2|Kleavor, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tscher)
+|
+|t:|1743827603
+|start
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|switch|p2a: Sinistcha|Sinistcha|100/100
+|turn|1
+|
+|t:|1743827619
+|move|p1a: Kleavor|U-turn|p2a: Sinistcha
+|-damage|p2a: Sinistcha|68/100
+|
+|t:|1743827626
+|switch|p1a: Iron Moth|Iron Moth|100/100|[from] U-turn
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|move|p2a: Sinistcha|Scald|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|43/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743827636
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|move|p1a: Iron Moth|Substitute|p1a: Iron Moth
+|-start|p1a: Iron Moth|Substitute
+|-damage|p1a: Iron Moth|18/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743827640
+|move|p1a: Iron Moth|Fiery Dance|p2a: Clodsire
+|-damage|p2a: Clodsire|80/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Clodsire|Earthquake|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-end|p1a: Iron Moth|Substitute
+|
+|-heal|p2a: Clodsire|86/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1743827646
+|move|p1a: Iron Moth|Energy Ball|p2a: Clodsire
+|-damage|p2a: Clodsire|70/100
+|move|p2a: Clodsire|Poison Jab|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|1/100
+|
+|-heal|p2a: Clodsire|76/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1743827653
+|move|p1a: Iron Moth|Fiery Dance|p2a: Clodsire
+|-damage|p2a: Clodsire|55/100
+|move|p2a: Clodsire|Poison Jab|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p2a: Clodsire|61/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1743827658
+|switch|p1a: Kleavor|Kleavor, M|100/100
+|turn|6
+|
+|t:|1743827662
+|move|p2a: Clodsire|Protect|p2a: Clodsire
+|-singleturn|p2a: Clodsire|Protect
+|move|p1a: Kleavor|Stone Axe|p2a: Clodsire
+|-activate|p2a: Clodsire|move: Protect
+|
+|-heal|p2a: Clodsire|67/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1743827673
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Kleavor|Stone Axe|p2a: Hatterene
+|-damage|p2a: Hatterene|55/100
+|-sidestart|p2: Oydess222|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1743827680
+|move|p1a: Kleavor|X-Scissor|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1743827685
+|switch|p2a: Tentacruel|Tentacruel, F|100/100
+|-damage|p2a: Tentacruel|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743827695
+|switch|p1a: Slowking|Slowking, M|100/100
+|move|p2a: Tentacruel|Rapid Spin|p1a: Slowking
+|-damage|p1a: Slowking|94/100
+|-boost|p2a: Tentacruel|spe|1
+|-sideend|p2: Oydess222|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|
+|upkeep
+|turn|10
+|
+|t:|1743827703
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: Slowking|Substitute|p1a: Slowking
+|-start|p1a: Slowking|Substitute
+|-damage|p1a: Slowking|69/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743827706
+|move|p2a: Samurott|Ceaseless Edge|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-end|p1a: Slowking|Substitute
+|-sidestart|p1: Tscher|Spikes
+|move|p1a: Slowking|Thunder Wave|p2a: Samurott
+|-status|p2a: Samurott|par
+|
+|upkeep
+|turn|12
+|
+|t:|1743827721
+|cant|p2a: Samurott|par
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743827727
+|switch|p1a: Kleavor|Kleavor, M|100/100|[from] Chilly Reception
+|-damage|p1a: Kleavor|88/100|[from] Spikes
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743827732
+|switch|p2a: Sinistcha|Sinistcha|68/100
+|move|p1a: Kleavor|Trailblaze|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|60/100
+|-boost|p1a: Kleavor|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743827739
+|move|p1a: Kleavor|X-Scissor|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743827750
+|switch|p2a: Clodsire|Clodsire, M|67/100
+|turn|15
+|
+|t:|1743827753
+|move|p1a: Kleavor|Stone Axe|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|36/100
+|-sidestart|p2: Oydess222|move: Stealth Rock
+|move|p2a: Clodsire|Earthquake|p1a: Kleavor
+|-damage|p1a: Kleavor|51/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Clodsire|42/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|t:|1743827767
+|move|p2a: Clodsire|Protect|p2a: Clodsire
+|-singleturn|p2a: Clodsire|Protect
+|move|p1a: Kleavor|X-Scissor|p2a: Clodsire
+|-activate|p2a: Clodsire|move: Protect
+|
+|-weather|none
+|-heal|p2a: Clodsire|49/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|t:|1743827772
+|move|p1a: Kleavor|X-Scissor|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|10/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|60/100
+|
+|-heal|p2a: Clodsire|67/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|t:|1743827779
+|move|p1a: Kleavor|U-turn|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|46/100
+|
+|t:|1743827785
+|switch|p1a: Donphan|Donphan, F|100/100|[from] U-turn
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|96/100
+|
+|-heal|p2a: Clodsire|100/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|t:|1743827792
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100 par
+|-damage|p2a: Samurott|88/100 par|[from] Stealth Rock
+|move|p1a: Donphan|Rapid Spin|p2a: Samurott
+|-damage|p2a: Samurott|69/100 par
+|-boost|p1a: Donphan|spe|1
+|-sideend|p1: Tscher|Spikes|[from] move: Rapid Spin|[of] p1a: Donphan
+|
+|upkeep
+|turn|20
+|
+|t:|1743827802
+|move|p1a: Donphan|Rapid Spin|p2a: Samurott
+|-damage|p2a: Samurott|52/100 par
+|-boost|p1a: Donphan|spe|1
+|move|p2a: Samurott|Razor Shell|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|35/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743827808
+|move|p1a: Donphan|Earthquake|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743827813
+|switch|p2a: Tentacruel|Tentacruel, F|88/100
+|-damage|p2a: Tentacruel|76/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1743827829
+|switch|p1a: Slowking|Slowking, M|100/100
+|-terastallize|p2a: Tentacruel|Grass
+|move|p2a: Tentacruel|Giga Drain|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|50/100
+|-heal|p2a: Tentacruel|100/100|[from] drain|[of] p1a: Slowking
+|
+|upkeep
+|turn|23
+|
+|t:|1743827840
+|move|p2a: Tentacruel|Rapid Spin|p1a: Slowking
+|-damage|p1a: Slowking|44/100
+|-boost|p2a: Tentacruel|spe|1
+|-sideend|p2: Oydess222|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Tentacruel
+|move|p1a: Slowking|Thunder Wave|p2a: Tentacruel
+|-status|p2a: Tentacruel|par
+|
+|upkeep
+|turn|24
+|
+|t:|1743827846
+|cant|p2a: Tentacruel|par
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743827852
+|switch|p1a: Donphan|Donphan, F|35/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1743827854
+|cant|p2a: Tentacruel|par
+|move|p1a: Donphan|Endeavor|p2a: Tentacruel
+|-damage|p2a: Tentacruel|37/100 par
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1743827859
+|move|p1a: Donphan|Ice Shard|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-crit|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743827866
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|turn|27
+|
+|t:|1743827869
+|move|p2a: Kleavor|Stone Axe|p1a: Donphan
+|-resisted|p1a: Donphan
+|-damage|p1a: Donphan|20/100
+|-sidestart|p1: Tscher|move: Stealth Rock
+|move|p1a: Donphan|Endeavor|p2a: Kleavor
+|-damage|p2a: Kleavor|26/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1743827876
+|move|p1a: Donphan|Ice Shard|p2a: Kleavor
+|-damage|p2a: Kleavor|12/100
+|move|p2a: Kleavor|Close Combat|p1a: Donphan
+|-damage|p1a: Donphan|0 fnt
+|-unboost|p2a: Kleavor|def|1
+|-unboost|p2a: Kleavor|spd|1
+|faint|p1a: Donphan
+|
+|-weather|none
+|upkeep
+|
+|t:|1743827889
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|29
+|
+|t:|1743827891
+|move|p2a: Kleavor|Stone Axe|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|43/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|30
+|
+|t:|1743827898
+|move|p1a: Dragonite|Extreme Speed|p2a: Kleavor
+|-resisted|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|faint|p2a: Kleavor
+|
+|upkeep
+|
+|t:|1743827900
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|turn|31
+|
+|t:|1743827902
+|move|p1a: Dragonite|Earthquake|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|17/100
+|move|p2a: Clodsire|Poison Jab|p1a: Dragonite
+|-damage|p1a: Dragonite|18/100
+|
+|-heal|p2a: Clodsire|23/100|[from] item: Black Sludge
+|upkeep
+|turn|32
+|
+|t:|1743827907
+|move|p2a: Clodsire|Protect|p2a: Clodsire
+|-singleturn|p2a: Clodsire|Protect
+|move|p1a: Dragonite|Earthquake|p2a: Clodsire
+|-activate|p2a: Clodsire|move: Protect
+|
+|-heal|p2a: Clodsire|29/100|[from] item: Black Sludge
+|upkeep
+|turn|33
+|
+|t:|1743827912
+|move|p2a: Clodsire|Protect|p2a: Clodsire
+|-singleturn|p2a: Clodsire|Protect
+|move|p1a: Dragonite|Earthquake|p2a: Clodsire
+|-activate|p2a: Clodsire|move: Protect
+|
+|-heal|p2a: Clodsire|36/100|[from] item: Black Sludge
+|upkeep
+|turn|34
+|
+|t:|1743827915
+|move|p1a: Dragonite|Earthquake|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|win|Tscher
+|raw|Tscher's rating: 1212 &rarr; <strong>1233</strong><br />(+21 for winning)
+|raw|Oydess222's rating: 1159 &rarr; <strong>1138</strong><br />(-21 for losing)
+|l|☆Oydess222
+|player|p2|
+|l|☆Tscher
+|player|p1|

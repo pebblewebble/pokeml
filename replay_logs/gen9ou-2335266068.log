@@ -1,0 +1,321 @@
+|j|☆Billygunter
+|j|☆vacheron
+|t:|1743779892
+|gametype|singles
+|player|p1|Billygunter|170|1648
+|player|p2|vacheron|170|1626
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cobalion|
+|poke|p1|Pecharunt|
+|poke|p1|Iron Treads|
+|poke|p1|Ting-Lu|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Dragapult, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Pecharunt|
+|poke|p2|Reuniclus, F|
+|poke|p2|Darkrai|
+|poke|p2|Kingambit, F|
+|teampreview
+|j| Tabata tyrogue
+|
+|t:|1743779925
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Valediction|Samurott-Hisui, F|100/100
+|turn|1
+|
+|t:|1743779932
+|move|p1a: Dragapult|U-turn|p2a: Valediction
+|-supereffective|p2a: Valediction
+|-damage|p2a: Valediction|56/100
+|
+|t:|1743779936
+|switch|p1a: Cobalion|Cobalion|100/100|[from] U-turn
+|move|p2a: Valediction|Ceaseless Edge|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|86/100
+|-damage|p2a: Valediction|40/100|[from] item: Rocky Helmet|[of] p1a: Cobalion
+|-ability|p1a: Cobalion|Justified|boost
+|-boost|p1a: Cobalion|atk|1
+|-sidestart|p1: Billygunter|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1743779951
+|move|p1a: Cobalion|Body Press|p2a: Valediction
+|-supereffective|p2a: Valediction
+|-damage|p2a: Valediction|0 fnt
+|faint|p2a: Valediction
+|
+|upkeep
+|
+|t:|1743779976
+|switch|p2a: Metastasis|Reuniclus, F|100/100
+|turn|3
+|
+|t:|1743779980
+|move|p1a: Cobalion|Volt Switch|p2a: Metastasis
+|-damage|p2a: Metastasis|88/100
+|
+|t:|1743779991
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] Volt Switch
+|-damage|p1a: Ogerpon|88/100|[from] Spikes
+|move|p2a: Metastasis|Trick Room|p2a: Metastasis
+|-fieldstart|move: Trick Room|[of] p2a: Metastasis
+|
+|upkeep
+|turn|4
+|
+|t:|1743780012
+|move|p2a: Metastasis|Psychic Noise|p1a: Ogerpon
+|-damage|p1a: Ogerpon|31/100
+|-start|p1a: Ogerpon|move: Heal Block
+|move|p1a: Ogerpon|Knock Off|p2a: Metastasis
+|-supereffective|p2a: Metastasis
+|-damage|p2a: Metastasis|3/100
+|-enditem|p2a: Metastasis|Life Orb|[from] move: Knock Off|[of] p1a: Ogerpon
+|
+|upkeep
+|turn|5
+|l| Tabata tyrogue
+|
+|t:|1743780022
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-damage|p1a: Ting-Lu|88/100|[from] Spikes
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Metastasis|Focus Blast|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|55/100
+|
+|-heal|p1a: Ting-Lu|62/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743780038
+|move|p2a: Metastasis|Focus Blast|p1a: Ting-Lu|[miss]
+|-miss|p2a: Metastasis|p1a: Ting-Lu
+|move|p1a: Ting-Lu|Earthquake|p2a: Metastasis
+|-damage|p2a: Metastasis|0 fnt
+|faint|p2a: Metastasis
+|
+|-heal|p1a: Ting-Lu|68/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743780044
+|switch|p2a: Murasama|Kingambit, F|100/100
+|-activate|p2a: Murasama|ability: Supreme Overlord
+|-start|p2a: Murasama|fallen2|[silent]
+|turn|7
+|
+|t:|1743780054
+|-terastallize|p1a: Ting-Lu|Water
+|move|p1a: Ting-Lu|Earthquake|p2a: Murasama
+|-supereffective|p2a: Murasama
+|-damage|p2a: Murasama|44/100
+|-enditem|p2a: Murasama|Weakness Policy
+|-boost|p2a: Murasama|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Murasama|spa|2|[from] item: Weakness Policy
+|move|p2a: Murasama|Iron Head|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|39/100
+|
+|-heal|p1a: Ting-Lu|45/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|
+|t:|1743780086
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|31/100
+|-damage|p1a: Ogerpon|19/100|[from] Spikes
+|move|p2a: Murasama|Kowtow Cleave|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743780095
+|switch|p1a: Cobalion|Cobalion|86/100
+|-damage|p1a: Cobalion|73/100|[from] Spikes
+|turn|9
+|
+|t:|1743780101
+|move|p2a: Murasama|Sucker Punch|p1a: Cobalion
+|-resisted|p1a: Cobalion
+|-damage|p1a: Cobalion|40/100
+|-damage|p2a: Murasama|27/100|[from] item: Rocky Helmet|[of] p1a: Cobalion
+|-ability|p1a: Cobalion|Justified|boost
+|-boost|p1a: Cobalion|atk|1
+|move|p1a: Cobalion|Body Press|p2a: Murasama
+|-supereffective|p2a: Murasama
+|-damage|p2a: Murasama|0 fnt
+|faint|p2a: Murasama
+|-end|p2a: Murasama|fallen2|[silent]
+|
+|upkeep
+|
+|t:|1743780107
+|switch|p2a: Azathoth|Pecharunt|100/100
+|turn|10
+|
+|t:|1743780115
+|move|p1a: Cobalion|Stealth Rock|p2a: Azathoth
+|-sidestart|p2: vacheron|move: Stealth Rock
+|move|p2a: Azathoth|Nasty Plot|p2a: Azathoth
+|-boost|p2a: Azathoth|spa|2
+|
+|upkeep
+|turn|11
+|
+|t:|1743780121
+|move|p1a: Cobalion|Volt Switch|p2a: Azathoth
+|-damage|p2a: Azathoth|82/100
+|
+|t:|1743780127
+|switch|p1a: Iron Treads|Iron Treads|100/100|[from] Volt Switch
+|-item|p1a: Iron Treads|Air Balloon
+|move|p2a: Azathoth|Shadow Ball|p1a: Iron Treads
+|-damage|p1a: Iron Treads|16/100
+|-enditem|p1a: Iron Treads|Air Balloon
+|
+|upkeep
+|turn|12
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vacheron)
+|
+|t:|1743780136
+|move|p1a: Iron Treads|Earthquake|p2a: Azathoth
+|-supereffective|p2a: Azathoth
+|-enditem|p2a: Azathoth|Shuca Berry|[eat]
+|-enditem|p2a: Azathoth|Shuca Berry|[weaken]
+|-damage|p2a: Azathoth|48/100
+|move|p2a: Azathoth|Shadow Ball|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743780146
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Spikes
+|turn|13
+|
+|t:|1743780152
+|-terastallize|p2a: Azathoth|Ground
+|move|p1a: Dragapult|Shadow Ball|p2a: Azathoth
+|-damage|p2a: Azathoth|0 fnt
+|faint|p2a: Azathoth
+|
+|upkeep
+|
+|t:|1743780156
+|switch|p2a: Scarlet Devil|Darkrai|100/100
+|-damage|p2a: Scarlet Devil|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743780168
+|switch|p1a: Ting-Lu|Ting-Lu, tera:Water|45/100
+|-damage|p1a: Ting-Lu|32/100|[from] Spikes
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Scarlet Devil|Dark Pulse|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|10/100
+|
+|-heal|p1a: Ting-Lu|16/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743780179
+|move|p2a: Scarlet Devil|Dark Pulse|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743780184
+|switch|p1a: Cobalion|Cobalion|40/100
+|-damage|p1a: Cobalion|28/100|[from] Spikes
+|turn|16
+|
+|t:|1743780190
+|switch|p2a: Mani Katti|Iron Valiant|100/100
+|-damage|p2a: Mani Katti|94/100|[from] Stealth Rock
+|-enditem|p2a: Mani Katti|Booster Energy
+|-activate|p2a: Mani Katti|ability: Quark Drive|[fromitem]
+|-start|p2a: Mani Katti|quarkdrivespa
+|move|p1a: Cobalion|Body Press|p2a: Mani Katti
+|-resisted|p2a: Mani Katti
+|-damage|p2a: Mani Katti|69/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743780206
+|move|p2a: Mani Katti|Moonblast|p1a: Cobalion
+|-damage|p1a: Cobalion|0 fnt
+|faint|p1a: Cobalion
+|
+|upkeep
+|
+|t:|1743780211
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|-item|p1a: Pecharunt|Air Balloon
+|turn|18
+|
+|t:|1743780215
+|move|p2a: Mani Katti|Shadow Ball|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|23/100
+|-enditem|p1a: Pecharunt|Air Balloon
+|move|p1a: Pecharunt|Malignant Chain|p2a: Mani Katti
+|-supereffective|p2a: Mani Katti
+|-damage|p2a: Mani Katti|0 fnt
+|faint|p2a: Mani Katti
+|-end|p2a: Mani Katti|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743780220
+|switch|p2a: Scarlet Devil|Darkrai|88/100
+|-damage|p2a: Scarlet Devil|76/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743780228
+|move|p2a: Scarlet Devil|Dark Pulse|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1743780234
+|switch|p1a: Dragapult|Dragapult, M|88/100
+|-damage|p1a: Dragapult|76/100|[from] Spikes
+|turn|20
+|
+|t:|1743780239
+|move|p2a: Scarlet Devil|Sucker Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|vacheron
+|raw|Billygunter's rating: 1648 &rarr; <strong>1628</strong><br />(-20 for losing)
+|raw|vacheron's rating: 1640 &rarr; <strong>1660</strong><br />(+20 for winning)
+|l|☆vacheron
+|player|p2|
+|l|☆Billygunter
+|player|p1|

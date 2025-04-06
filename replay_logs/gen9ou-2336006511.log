@@ -1,0 +1,291 @@
+|j|☆geipewpew
+|j|☆Ball17
+|t:|1743869185
+|gametype|singles
+|player|p1|geipewpew|169|1097
+|player|p2|Ball17|170|1075
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pyroar, M|
+|poke|p1|Galvantula, M|
+|poke|p1|Basculegion, M|
+|poke|p1|Donphan, M|
+|poke|p1|Zoroark, F|
+|poke|p1|Mimikyu, F|
+|poke|p2|Barraskewda, M|
+|poke|p2|Delibird, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Infernape, M|
+|poke|p2|Orthworm, F|
+|poke|p2|Iron Hands|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ball17)
+|
+|t:|1743869208
+|start
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|turn|1
+|
+|t:|1743869217
+|move|p2a: Barraskewda|Flip Turn|p1a: Galvantula
+|-damage|p1a: Galvantula|3/100
+|replace|p1a: Zoroark|Zoroark, F
+|-end|p1a: Zoroark|Illusion
+|
+|t:|1743869231
+|switch|p2a: Delibird|Delibird, F|100/100|[from] Flip Turn
+|move|p1a: Zoroark|U-turn|p2a: Delibird
+|-resisted|p2a: Delibird
+|-damage|p2a: Delibird|55/100
+|
+|t:|1743869239
+|switch|p1a: Galvantula|Galvantula, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1743869247
+|switch|p2a: Orthworm|Orthworm, F|100/100
+|move|p1a: Galvantula|Volt Switch|p2a: Orthworm
+|-damage|p2a: Orthworm|42/100
+|
+|t:|1743869253
+|switch|p1a: Pyroar|Pyroar, M|100/100|[from] Volt Switch
+|-ability|p1a: Pyroar|Unnerve
+|
+|-heal|p2a: Orthworm|49/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743869260
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|move|p2a: Orthworm|Earthquake|p1a: Galvantula
+|-damage|p1a: Galvantula|44/100
+|
+|-heal|p2a: Orthworm|55/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743869270
+|move|p1a: Galvantula|Sticky Web|p2a: Orthworm
+|-sidestart|p2: Ball17|move: Sticky Web
+|move|p2a: Orthworm|Earthquake|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|-heal|p2a: Orthworm|61/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743869276
+|switch|p1a: Pyroar|Pyroar, M|100/100
+|-ability|p1a: Pyroar|Unnerve
+|turn|5
+|
+|t:|1743869281
+|move|p1a: Pyroar|Flamethrower|p2a: Orthworm
+|-supereffective|p2a: Orthworm
+|-damage|p2a: Orthworm|0 fnt
+|faint|p2a: Orthworm
+|
+|upkeep
+|
+|t:|1743869290
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|-activate|p2a: Barraskewda|move: Sticky Web
+|-unboost|p2a: Barraskewda|spe|1
+|turn|6
+|
+|t:|1743869295
+|-terastallize|p1a: Pyroar|Fairy
+|move|p1a: Pyroar|Noble Roar|p2a: Barraskewda
+|-unboost|p2a: Barraskewda|atk|1
+|-unboost|p2a: Barraskewda|spa|1
+|-enditem|p1a: Pyroar|Throat Spray
+|-boost|p1a: Pyroar|spa|1|[from] item: Throat Spray
+|move|p2a: Barraskewda|Liquidation|p1a: Pyroar
+|-damage|p1a: Pyroar|28/100
+|-unboost|p1a: Pyroar|def|1
+|
+|upkeep
+|turn|7
+|
+|t:|1743869305
+|move|p1a: Pyroar|Tera Blast|p2a: Barraskewda|[anim] Tera Blast Fairy
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|upkeep
+|
+|t:|1743869324
+|switch|p2a: Infernape|Infernape, M|100/100
+|-activate|p2a: Infernape|move: Sticky Web
+|-unboost|p2a: Infernape|spe|1
+|turn|8
+|
+|t:|1743869337
+|-terastallize|p2a: Infernape|Fire
+|move|p1a: Pyroar|Tera Blast|p2a: Infernape|[anim] Tera Blast Fairy
+|-resisted|p2a: Infernape
+|-damage|p2a: Infernape|60/100
+|move|p2a: Infernape|Fire Punch|p1a: Pyroar
+|-damage|p1a: Pyroar|0 fnt
+|faint|p1a: Pyroar
+|
+|upkeep
+|
+|t:|1743869345
+|switch|p1a: Donphan|Donphan, M|100/100
+|turn|9
+|
+|t:|1743869350
+|switch|p2a: Delibird|Delibird, F|55/100
+|move|p1a: Donphan|Earthquake|p2a: Delibird
+|-immune|p2a: Delibird
+|
+|upkeep
+|turn|10
+|
+|t:|1743869358
+|move|p2a: Delibird|Rapid Spin|p1a: Donphan
+|-damage|p1a: Donphan|95/100
+|-boost|p2a: Delibird|spe|1
+|-sideend|p2: Ball17|Sticky Web|[from] move: Rapid Spin|[of] p2a: Delibird
+|move|p1a: Donphan|Roar|p2a: Delibird
+|drag|p2a: Iron Hands|Iron Hands|100/100
+|
+|-heal|p1a: Donphan|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743869369
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Delibird|Delibird, F|55/100
+|move|p1a: Donphan|Earthquake|p2a: Delibird
+|-immune|p2a: Delibird
+|
+|upkeep
+|turn|12
+|
+|t:|1743869375
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|move|p2a: Delibird|Freeze-Dry|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|70/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743869382
+|move|p2a: Delibird|Freeze-Dry|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|37/100
+|move|p1a: Basculegion|Wave Crash|p2a: Delibird
+|-damage|p2a: Delibird|0 fnt
+|faint|p2a: Delibird
+|-damage|p1a: Basculegion|28/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743869399
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|14
+|
+|t:|1743869403
+|move|p1a: Basculegion|Phantom Force||[still]
+|-prepare|p1a: Basculegion|Phantom Force
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|15
+|
+|t:|1743869409
+|move|p2a: Hatterene|Psychic Noise|p1a: Basculegion|[miss]
+|-miss|p2a: Hatterene|p1a: Basculegion
+|move|p1a: Basculegion|Phantom Force|p2a: Hatterene|[from] lockedmove
+|-supereffective|p2a: Hatterene
+|-enditem|p2a: Hatterene|Focus Sash
+|-damage|p2a: Hatterene|1/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743869421
+|move|p1a: Basculegion|Aqua Jet|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1743869429
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|turn|17
+|
+|t:|1743869435
+|move|p2a: Iron Hands|Wild Charge|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|-damage|p2a: Iron Hands|94/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743869442
+|switch|p1a: Donphan|Donphan, M|100/100
+|turn|18
+|
+|t:|1743869446
+|move|p1a: Donphan|Earthquake|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|45/100
+|move|p2a: Iron Hands|Ice Punch|p1a: Donphan
+|-supereffective|p1a: Donphan
+|-damage|p1a: Donphan|65/100
+|
+|-heal|p1a: Donphan|71/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|19
+|
+|t:|1743869455
+|move|p1a: Donphan|Earthquake|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|-heal|p1a: Donphan|77/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743869464
+|switch|p2a: Infernape|Infernape, M, tera:Fire|60/100
+|turn|20
+|
+|t:|1743869468
+|move|p2a: Infernape|Drain Punch|p1a: Donphan
+|-damage|p1a: Donphan|54/100
+|-heal|p2a: Infernape|75/100|[from] drain|[of] p1a: Donphan
+|move|p1a: Donphan|Earthquake|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|win|geipewpew
+|raw|geipewpew's rating: 1097 &rarr; <strong>1121</strong><br />(+24 for winning)
+|raw|Ball17's rating: 1075 &rarr; <strong>1055</strong><br />(-20 for losing)
+|l|☆Ball17
+|player|p2|
+|l|☆geipewpew
+|player|p1|

@@ -1,0 +1,252 @@
+|j|‽norebuhl
+|j|☆KurbyK14
+|t:|1743828330
+|gametype|singles
+|player|p1|norebuhl|170|1220
+|player|p2|KurbyK14|pokemonranger-gen4|1287
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Iron Valiant|
+|poke|p1|Kingambit, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p2|Leavanny, M|
+|poke|p2|Torkoal, F|
+|poke|p2|Walking Wake|
+|poke|p2|Great Tusk|
+|poke|p2|Venusaur, M|
+|poke|p2|Ceruledge, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KurbyK14)
+|inactive|norebuhl also wants the timer to be on.
+|
+|t:|1743828342
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Leavanny|Leavanny, M|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743828355
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Leavanny|Leaf Storm|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|52/100
+|-unboost|p2a: Leavanny|spa|2
+|-enditem|p2a: Leavanny|Eject Pack
+|
+|t:|1743828373
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743828384
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Venusaur
+|-crit|p2a: Venusaur
+|-damage|p2a: Venusaur|31/100
+|move|p2a: Venusaur|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|22/100
+|-damage|p2a: Venusaur|21/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1743828394
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Torkoal
+|-damage|p2a: Torkoal|48/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|KurbyK14 has 120 seconds left.
+|
+|t:|1743828435
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|37/100
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743828444
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|KurbyK14 has 120 seconds left.
+|
+|t:|1743828450
+|switch|p2a: Leavanny|Leavanny, M|100/100
+|turn|6
+|
+|t:|1743828455
+|move|p2a: Leavanny|Sticky Web|p1a: Iron Valiant
+|-sidestart|p1: norebuhl|move: Sticky Web
+|move|p1a: Iron Valiant|Moonblast|p2a: Leavanny
+|-damage|p2a: Leavanny|0 fnt
+|faint|p2a: Leavanny
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743828463
+|switch|p2a: Venusaur|Venusaur, M|21/100
+|turn|7
+|
+|t:|1743828472
+|move|p2a: Venusaur|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|-damage|p2a: Venusaur|11/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743828492
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|8
+|
+|t:|1743828512
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|inactive|norebuhl has 120 seconds left.
+|
+|t:|1743828544
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-activate|p1a: Gholdengo|move: Sticky Web
+|-unboost|p1a: Gholdengo|spe|1
+|move|p2a: Walking Wake|Hydro Steam|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|norebuhl has 120 seconds left.
+|
+|t:|1743828558
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|-activate|p1a: Samurott|move: Sticky Web
+|-unboost|p1a: Samurott|spe|1
+|turn|10
+|
+|t:|1743828563
+|move|p2a: Walking Wake|Hydro Steam|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|15/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Walking Wake
+|-damage|p2a: Walking Wake|51/100
+|-sidestart|p2: KurbyK14|Spikes
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|upkeep
+|turn|11
+|
+|t:|1743828577
+|move|p2a: Walking Wake|Hydro Steam|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|inactive|norebuhl has 120 seconds left.
+|
+|t:|1743828588
+|switch|p1a: Kyurem|Kyurem|100/100
+|-activate|p1a: Kyurem|move: Sticky Web
+|-unboost|p1a: Kyurem|spe|1
+|-ability|p1a: Kyurem|Pressure
+|turn|12
+|
+|t:|1743828594
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, F|48/100
+|-damage|p2a: Torkoal|36/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743828607
+|move|p1a: Kyurem|Scale Shot|p2a: Torkoal
+|-damage|p2a: Torkoal|24/100
+|-damage|p2a: Torkoal|13/100
+|-damage|p2a: Torkoal|1/100
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|-hitcount|p2: Torkoal|4
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743828616
+|switch|p2a: Venusaur|Venusaur, M|11/100
+|-damage|p2a: Venusaur|0 fnt|[from] Spikes
+|faint|p2a: Venusaur
+|
+|t:|1743828623
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|-damage|p2a: Ceruledge|88/100|[from] Spikes
+|turn|14
+|
+|t:|1743828631
+|-terastallize|p1a: Kyurem|Ground
+|move|p1a: Kyurem|Tera Blast|p2a: Ceruledge|[anim] Tera Blast Ground
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|KurbyK14 forfeited.
+|
+|win|norebuhl
+|raw|norebuhl's rating: 1220 &rarr; <strong>1250</strong><br />(+30 for winning)
+|raw|KurbyK14's rating: 1287 &rarr; <strong>1257</strong><br />(-30 for losing)
+|l|☆KurbyK14
+|player|p2|

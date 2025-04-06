@@ -1,0 +1,253 @@
+|j|☆dikuccv
+|j|☆yetaseena
+|t:|1743827880
+|gametype|singles
+|player|p1|dikuccv|2|1183
+|player|p2|yetaseena|170|1145
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Crown|
+|poke|p1|Iron Hands|
+|poke|p1|Great Tusk|
+|poke|p1|Glimmora, F|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Salamence, F|
+|poke|p2|Sinistcha-Masterpiece|
+|poke|p2|Meowscarada, F|
+|poke|p2|Brambleghast, M|
+|poke|p2|Decidueye-Hisui, M|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Serperior, F|
+|teampreview
+|
+|t:|1743827906
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Brambleghast|Brambleghast, M|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|turn|1
+|
+|t:|1743827915
+|-terastallize|p1a: Great Tusk|Steel
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|move|p2a: Brambleghast|Substitute|p2a: Brambleghast
+|-start|p2a: Brambleghast|Substitute
+|-damage|p2a: Brambleghast|75/100
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dikuccv)
+|
+|t:|1743827963
+|move|p1a: Great Tusk|Rapid Spin|p2a: Brambleghast
+|-immune|p2a: Brambleghast
+|move|p2a: Brambleghast|Leech Seed|p1a: Great Tusk
+|-start|p1a: Great Tusk|move: Leech Seed
+|
+|-damage|p1a: Great Tusk|88/100|[from] Leech Seed|[of] p2a: Brambleghast
+|-heal|p2a: Brambleghast|97/100|[silent]
+|upkeep
+|turn|3
+|
+|t:|1743827975
+|move|p1a: Great Tusk|Ice Spinner|p2a: Brambleghast
+|-supereffective|p2a: Brambleghast
+|-end|p2a: Brambleghast|Substitute
+|move|p2a: Brambleghast|Poltergeist||[still]
+|-fail|p2a: Brambleghast
+|
+|-damage|p1a: Great Tusk|76/100|[from] Leech Seed|[of] p2a: Brambleghast
+|-heal|p2a: Brambleghast|100/100|[silent]
+|upkeep
+|turn|4
+|
+|t:|1743827985
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|move|p2a: Brambleghast|Substitute|p2a: Brambleghast
+|-start|p2a: Brambleghast|Substitute
+|-damage|p2a: Brambleghast|75/100
+|
+|-damage|p1a: Great Tusk|63/100|[from] Leech Seed|[of] p2a: Brambleghast
+|-heal|p2a: Brambleghast|97/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1743828002
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|move|p2a: Brambleghast|Rapid Spin|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|61/100
+|-boost|p2a: Brambleghast|spe|1
+|
+|-damage|p1a: Great Tusk|49/100|[from] Leech Seed|[of] p2a: Brambleghast
+|-heal|p2a: Brambleghast|100/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1743828014
+|move|p2a: Brambleghast|Rapid Spin|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|47/100
+|-boost|p2a: Brambleghast|spe|1
+|move|p1a: Great Tusk|Ice Spinner|p2a: Brambleghast
+|-supereffective|p2a: Brambleghast
+|-end|p2a: Brambleghast|Substitute
+|
+|-damage|p1a: Great Tusk|34/100|[from] Leech Seed|[of] p2a: Brambleghast
+|upkeep
+|turn|7
+|
+|t:|1743828025
+|move|p2a: Brambleghast|Substitute|p2a: Brambleghast
+|-start|p2a: Brambleghast|Substitute
+|-damage|p2a: Brambleghast|75/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Brambleghast
+|-supereffective|p2a: Brambleghast
+|-crit|p2a: Brambleghast
+|-end|p2a: Brambleghast|Substitute
+|
+|-damage|p1a: Great Tusk|22/100|[from] Leech Seed|[of] p2a: Brambleghast
+|-heal|p2a: Brambleghast|97/100|[silent]
+|upkeep
+|turn|8
+|
+|t:|1743828035
+|move|p2a: Brambleghast|Substitute|p2a: Brambleghast
+|-start|p2a: Brambleghast|Substitute
+|-damage|p2a: Brambleghast|72/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Brambleghast
+|-supereffective|p2a: Brambleghast
+|-end|p2a: Brambleghast|Substitute
+|
+|-damage|p1a: Great Tusk|9/100|[from] Leech Seed|[of] p2a: Brambleghast
+|-heal|p2a: Brambleghast|93/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1743828044
+|move|p2a: Brambleghast|Substitute|p2a: Brambleghast
+|-start|p2a: Brambleghast|Substitute
+|-damage|p2a: Brambleghast|68/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Brambleghast
+|-supereffective|p2a: Brambleghast
+|-end|p2a: Brambleghast|Substitute
+|
+|-damage|p1a: Great Tusk|0 fnt|[from] Leech Seed|[of] p2a: Brambleghast
+|-heal|p2a: Brambleghast|84/100|[silent]
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1743828064
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|10
+|
+|t:|1743828072
+|move|p2a: Brambleghast|Substitute|p2a: Brambleghast
+|-start|p2a: Brambleghast|Substitute
+|-damage|p2a: Brambleghast|59/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Brambleghast
+|-supereffective|p2a: Brambleghast
+|-end|p2a: Brambleghast|Substitute
+|-damage|p1a: Arcanine|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|t:|1743828101
+|move|p2a: Brambleghast|Poltergeist|p1a: Arcanine
+|-activate|p1a: Arcanine|move: Poltergeist|Life Orb
+|-damage|p1a: Arcanine|37/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Brambleghast
+|-supereffective|p2a: Brambleghast
+|-damage|p2a: Brambleghast|0 fnt
+|faint|p2a: Brambleghast
+|-damage|p1a: Arcanine|27/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|yetaseena has 120 seconds left.
+|
+|t:|1743828115
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|12
+|
+|t:|1743828123
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Arcanine|[anim] Ivy Cudgel Rock
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|upkeep
+|
+|t:|1743828150
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespe
+|turn|13
+|inactive|yetaseena has 120 seconds left.
+|
+|t:|1743828172
+|switch|p2a: Decidueye|Decidueye-Hisui, M|100/100
+|move|p1a: Iron Crown|Iron Defense|p1a: Iron Crown
+|-boost|p1a: Iron Crown|def|2
+|
+|upkeep
+|turn|14
+|inactive|yetaseena has 120 seconds left.
+|
+|t:|1743828184
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|move|p2a: Decidueye|Swords Dance|p2a: Decidueye
+|-boost|p2a: Decidueye|atk|2
+|
+|upkeep
+|turn|15
+|
+|t:|1743828192
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|move|p2a: Decidueye|Triple Arrows|p1a: Iron Crown
+|-crit|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|l|☆dikuccv
+|inactive|dikuccv disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|dikuccv has 30 seconds to reconnect!
+|inactive|dikuccv has 20 seconds to reconnect!
+|inactive|dikuccv has 15 seconds to reconnect!
+|inactive|dikuccv has 10 seconds to reconnect!
+|inactive|dikuccv has 5 seconds to reconnect!
+|-message|dikuccv lost due to inactivity.
+|
+|win|yetaseena
+|raw|dikuccv's rating: 1183 &rarr; <strong>1155</strong><br />(-28 for losing)
+|raw|yetaseena's rating: 1145 &rarr; <strong>1173</strong><br />(+28 for winning)
+|l|☆yetaseena
+|player|p2|

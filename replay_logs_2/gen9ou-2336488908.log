@@ -1,0 +1,353 @@
+|j|☆yangde
+|j|☆Mandrake evol-VN
+|t:|1743926549
+|gametype|singles
+|player|p1|yangde|101|1278
+|player|p2|Mandrake evol-VN|pryce|1229
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Iron Moth|
+|poke|p1|Iron Valiant|
+|poke|p1|Raging Bolt|
+|poke|p1|Kingambit, F|
+|poke|p1|Great Tusk|
+|poke|p2|Klawf, M|
+|poke|p2|Hydrapple, F|
+|poke|p2|Alomomola, F|
+|poke|p2|Talonflame, M|
+|poke|p2|Chansey, F|
+|poke|p2|Dondozo, F|
+|teampreview
+|
+|t:|1743926556
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Red ranger|Talonflame, M, shiny|100/100
+|turn|1
+|
+|t:|1743926570
+|move|p1a: Great Tusk|Stealth Rock|p2a: Red ranger
+|-sidestart|p2: Mandrake evol-VN|move: Stealth Rock
+|move|p2a: Red ranger|Taunt|p1a: Great Tusk
+|-start|p1a: Great Tusk|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1743926595
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|move|p2a: Red ranger|Defog|p1a: Raging Bolt
+|-unboost|p1a: Raging Bolt|evasion|1
+|-sideend|p2: Mandrake evol-VN|Stealth Rock|[from] move: Defog|[of] p2a: Red ranger
+|
+|upkeep
+|turn|3
+|
+|t:|1743926602
+|switch|p2a: Green ranger|Chansey, F, shiny|100/100
+|move|p1a: Raging Bolt|Volt Switch|p2a: Green ranger
+|-damage|p2a: Green ranger|91/100
+|
+|t:|1743926615
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Kingambit|Kingambit, F|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|4
+|
+|t:|1743926622
+|switch|p2a: pink ranger|Alomomola, F, shiny|100/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1743926642
+|move|p1a: Kingambit|Kowtow Cleave|p2a: pink ranger
+|-damage|p2a: pink ranger|47/100
+|move|p2a: pink ranger|Flip Turn|p1a: Kingambit
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|83/100
+|
+|t:|1743926645
+|switch|p2a: Yellow ranger|Dondozo, F, shiny|100/100|[from] Flip Turn
+|
+|-heal|p1a: Kingambit|89/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743926666
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Yellow ranger|Body Press|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|12/100
+|
+|-heal|p1a: Kingambit|18/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743926678
+|-terastallize|p1a: Kingambit|Ghost
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Yellow ranger|Body Press|p1a: Kingambit
+|-immune|p1a: Kingambit
+|
+|-heal|p1a: Kingambit|24/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743926686
+|move|p1a: Kingambit|Iron Head|p2a: Yellow ranger
+|-resisted|p2a: Yellow ranger
+|-damage|p2a: Yellow ranger|90/100
+|move|p2a: Yellow ranger|Liquidation|p1a: Kingambit
+|-damage|p1a: Kingambit|3/100
+|
+|-heal|p1a: Kingambit|9/100|[from] item: Leftovers
+|-heal|p2a: Yellow ranger|96/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743926709
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: Yellow ranger|Liquidation|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|59/100
+|
+|-heal|p2a: Yellow ranger|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743926720
+|move|p2a: Yellow ranger|Protect|p2a: Yellow ranger
+|-singleturn|p2a: Yellow ranger|Protect
+|move|p1a: Iron Valiant|Moonblast|p2a: Yellow ranger
+|-activate|p2a: Yellow ranger|move: Protect
+|
+|upkeep
+|turn|11
+|
+|t:|1743926725
+|switch|p2a: Green ranger|Chansey, F, shiny|91/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Green ranger
+|-damage|p2a: Green ranger|81/100
+|-unboost|p2a: Green ranger|spa|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743926735
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Green ranger|Thunder Wave|p1a: Iron Valiant
+|-status|p1a: Iron Valiant|par
+|
+|upkeep
+|turn|13
+|
+|t:|1743926740
+|move|p1a: Iron Valiant|Encore|p2a: Green ranger
+|-start|p2a: Green ranger|Encore
+|move|p2a: Green ranger|Thunder Wave|p1a: Iron Valiant
+|-fail|p1a: Iron Valiant|par
+|
+|upkeep
+|turn|14
+|
+|t:|1743926746
+|switch|p2a: Yellow ranger|Dondozo, F, shiny|100/100
+|cant|p1a: Iron Valiant|par
+|
+|upkeep
+|turn|15
+|
+|t:|1743926755
+|cant|p1a: Iron Valiant|par
+|move|p2a: Yellow ranger|Liquidation|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|18/100 par
+|
+|upkeep
+|turn|16
+|
+|t:|1743926760
+|move|p1a: Iron Valiant|Moonblast|p2a: Yellow ranger
+|-damage|p2a: Yellow ranger|57/100
+|move|p2a: Yellow ranger|Liquidation|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p2a: Yellow ranger|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743926770
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|17
+|
+|t:|1743926777
+|move|p2a: Yellow ranger|Protect|p2a: Yellow ranger
+|-singleturn|p2a: Yellow ranger|Protect
+|move|p1a: Raging Bolt|Volt Switch|p2a: Yellow ranger
+|-activate|p2a: Yellow ranger|move: Protect
+|
+|-heal|p2a: Yellow ranger|70/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743926790
+|switch|p2a: 7 comder|Hydrapple, F, shiny|100/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: 7 comder
+|-supereffective|p2a: 7 comder
+|-damage|p2a: 7 comder|29/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743926817
+|switch|p2a: Green ranger|Chansey, F, shiny|81/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Green ranger
+|-damage|p2a: Green ranger|68/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743926823
+|move|p1a: Raging Bolt|Taunt|p2a: Green ranger
+|-start|p2a: Green ranger|move: Taunt
+|move|p2a: Green ranger|Seismic Toss|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|75/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743926844
+|move|p1a: Raging Bolt|Volt Switch|p2a: Green ranger
+|-damage|p2a: Green ranger|59/100
+|
+|t:|1743926860
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|move|p2a: Green ranger|Seismic Toss|p1a: Great Tusk
+|-damage|p1a: Great Tusk|74/100
+|-damage|p2a: Green ranger|43/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|22
+|
+|t:|1743926872
+|switch|p2a: 7 comder|Hydrapple, F, shiny|62/100
+|move|p1a: Great Tusk|Stealth Rock|p2a: 7 comder
+|-sidestart|p2: Mandrake evol-VN|move: Stealth Rock
+|
+|upkeep
+|turn|23
+|
+|t:|1743926878
+|move|p1a: Great Tusk|Ice Spinner|p2a: 7 comder
+|-supereffective|p2a: 7 comder
+|-damage|p2a: 7 comder|0 fnt
+|faint|p2a: 7 comder
+|
+|upkeep
+|
+|t:|1743926891
+|switch|p2a: Blue ranger|Klawf, M, shiny|100/100
+|-damage|p2a: Blue ranger|88/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1743926922
+|-terastallize|p2a: Blue ranger|Water
+|move|p1a: Great Tusk|Headlong Rush|p2a: Blue ranger
+|-damage|p2a: Blue ranger|27/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Blue ranger|Crabhammer|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-damage|p2a: Blue ranger|10/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743926932
+|switch|p1a: Raging Bolt|Raging Bolt|75/100
+|turn|25
+|
+|t:|1743926941
+|move|p1a: Raging Bolt|Volt Switch|p2a: Blue ranger
+|-supereffective|p2a: Blue ranger
+|-damage|p2a: Blue ranger|0 fnt
+|faint|p2a: Blue ranger
+|
+|t:|1743926950
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1743926953
+|switch|p2a: Red ranger|Talonflame, M, shiny|100/100
+|turn|26
+|
+|t:|1743926962
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|move|p2a: Red ranger|Flamethrower|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|88/100
+|
+|upkeep
+|turn|27
+|
+|t:|1743926984
+|move|p1a: Iron Moth|Sludge Wave|p2a: Red ranger
+|-damage|p2a: Red ranger|53/100
+|move|p2a: Red ranger|Taunt|p1a: Iron Moth
+|-start|p1a: Iron Moth|move: Taunt
+|
+|upkeep
+|turn|28
+|l|☆Mandrake evol-VN
+|player|p2|
+|j|☆Mandrake evol-VN
+|player|p2|Mandrake evol-VN|pryce|
+|
+|t:|1743927016
+|move|p1a: Iron Moth|Sludge Wave|p2a: Red ranger
+|-crit|p2a: Red ranger
+|-damage|p2a: Red ranger|0 fnt
+|faint|p2a: Red ranger
+|
+|upkeep
+|-message|Mandrake evol-VN forfeited.
+|
+|win|yangde
+|raw|yangde's rating: 1278 &rarr; <strong>1299</strong><br />(+21 for winning)
+|raw|Mandrake evol-VN's rating: 1229 &rarr; <strong>1208</strong><br />(-21 for losing)
+|l|☆Mandrake evol-VN
+|player|p2|
+|l|☆yangde
+|player|p1|

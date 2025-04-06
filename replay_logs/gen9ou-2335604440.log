@@ -1,0 +1,292 @@
+|j|☆a jellyfish
+|j|☆pennstcoll
+|t:|1743811357
+|gametype|singles
+|player|p1|a jellyfish|fisherman-gen4|1713
+|player|p2|pennstcoll|1|1628
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Staraptor, F|
+|poke|p1|Iron Treads|
+|poke|p1|Zamazenta-*|
+|poke|p1|Dragonite, M|
+|poke|p1|Gholdengo|
+|poke|p1|Moltres-Galar|
+|poke|p2|Hydrapple, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Kyurem|
+|poke|p2|Cinderace, F|
+|poke|p2|Darkrai|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by a jellyfish)
+|j| BountyHunterCrunch
+|
+|t:|1743811382
+|start
+|switch|p1a: Staraptor|Staraptor, F|100/100
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|1
+|
+|t:|1743811393
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Zamazenta|Close Combat|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|2
+|
+|t:|1743811405
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|upkeep
+|turn|3
+|
+|t:|1743811417
+|move|p1a: Gholdengo|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|8/100
+|move|p2a: Slowking|Flamethrower|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|59/100
+|
+|-heal|p1a: Gholdengo|65/100|[from] item: Leftovers
+|-heal|p2a: Slowking|14/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1743811425
+|switch|p2a: Darkrai|Darkrai|100/100
+|move|p1a: Gholdengo|Dazzling Gleam|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|-heal|p1a: Gholdengo|71/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743811433
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|5
+|
+|t:|1743811447
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Cinderace|Pyro Ball|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743811450
+|switch|p1a: Staraptor|Staraptor, F|100/100
+|turn|6
+|
+|t:|1743811463
+|-terastallize|p1a: Staraptor|Flying
+|move|p2a: Cinderace|Sucker Punch|p1a: Staraptor
+|-start|p2a: Cinderace|typechange|Dark|[from] ability: Libero
+|-damage|p1a: Staraptor|58/100
+|move|p1a: Staraptor|Brave Bird|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|-damage|p1a: Staraptor|30/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743811475
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|turn|7
+|
+|t:|1743811479
+|-terastallize|p2a: Zamazenta|Steel
+|move|p1a: Staraptor|Brave Bird|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|65/100
+|-damage|p1a: Staraptor|18/100|[from] Recoil
+|move|p2a: Zamazenta|Crunch|p1a: Staraptor
+|-damage|p1a: Staraptor|0 fnt
+|faint|p1a: Staraptor
+|
+|-heal|p2a: Zamazenta|71/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743811482
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|8
+|
+|t:|1743811493
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|75/100
+|move|p2a: Zamazenta|Roar|p1a: Zamazenta
+|drag|p1a: Moltres|Moltres-Galar|100/100
+|
+|-heal|p2a: Zamazenta|77/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743811502
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Moltres|Nasty Plot|p1a: Moltres
+|-boost|p1a: Moltres|spa|2
+|
+|upkeep
+|turn|10
+|
+|t:|1743811509
+|move|p2a: Kyurem|Blizzard|p1a: Moltres|[miss]
+|-miss|p2a: Kyurem|p1a: Moltres
+|move|p1a: Moltres|Fiery Wrath|p2a: Kyurem
+|-damage|p2a: Kyurem|20/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743811522
+|move|p2a: Kyurem|Blizzard|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|
+|t:|1743811524
+|switch|p1a: Zamazenta|Zamazenta|75/100
+|turn|12
+|
+|t:|1743811531
+|switch|p2a: Hydrapple|Hydrapple, M|100/100
+|move|p1a: Zamazenta|Crunch|p2a: Hydrapple
+|-damage|p2a: Hydrapple|83/100
+|
+|-heal|p1a: Zamazenta|82/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743811539
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Hydrapple|Fickle Beam|p1a: Zamazenta
+|-damage|p1a: Zamazenta|52/100
+|
+|-heal|p1a: Zamazenta|58/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743811545
+|move|p1a: Zamazenta|Body Press|p2a: Hydrapple
+|-damage|p2a: Hydrapple|36/100
+|move|p2a: Hydrapple|Leaf Storm|p1a: Zamazenta
+|-damage|p1a: Zamazenta|10/100
+|-unboost|p2a: Hydrapple|spa|2
+|
+|-heal|p1a: Zamazenta|16/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743811557
+|switch|p2a: Kyurem|Kyurem|20/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Zamazenta|Body Press|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-crit|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-heal|p1a: Zamazenta|22/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743811566
+|switch|p2a: Slowking|Slowking-Galar, F|47/100
+|turn|16
+|
+|t:|1743811571
+|switch|p2a: Hydrapple|Hydrapple, M|69/100
+|move|p1a: Zamazenta|Crunch|p2a: Hydrapple
+|-damage|p2a: Hydrapple|52/100
+|
+|-heal|p1a: Zamazenta|28/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743811579
+|switch|p1a: Gholdengo|Gholdengo|71/100
+|move|p2a: Hydrapple|Fickle Beam|p1a: Gholdengo|[anim] Fickle Beam All Out
+|-activate|p2a: Hydrapple|move: Fickle Beam
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|33/100
+|
+|-heal|p1a: Gholdengo|39/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743811586
+|switch|p1a: Dragonite|Dragonite, M, shiny|100/100
+|move|p2a: Hydrapple|Earth Power|p1a: Dragonite
+|-immune|p1a: Dragonite
+|
+|upkeep
+|turn|19
+|
+|t:|1743811596
+|switch|p2a: Zamazenta|Zamazenta, tera:Steel|77/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p2a: Zamazenta|83/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743811602
+|move|p1a: Dragonite|Earthquake|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1743811607
+|switch|p2a: Hydrapple|Hydrapple, M|85/100
+|turn|21
+|
+|t:|1743811609
+|move|p1a: Dragonite|Ice Spinner|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|
+|upkeep
+|-message|pennstcoll forfeited.
+|
+|win|a jellyfish
+|raw|a jellyfish's rating: 1713 &rarr; <strong>1728</strong><br />(+15 for winning)
+|raw|pennstcoll's rating: 1628 &rarr; <strong>1613</strong><br />(-15 for losing)
+|l|☆pennstcoll
+|player|p2|
+|l|☆a jellyfish
+|player|p1|
+|j| Adromas

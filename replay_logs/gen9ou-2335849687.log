@@ -1,0 +1,310 @@
+|j|☆Lilacq
+|j|☆lianshanque
+|t:|1743847785
+|gametype|singles
+|player|p1|Lilacq|guitarist|1489
+|player|p2|lianshanque|169|1420
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Dragapult, F|
+|poke|p1|Primarina, F|
+|poke|p1|Rillaboom, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Glimmora, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Ninetales, M|
+|poke|p2|Ditto|
+|poke|p2|Walking Wake|
+|poke|p2|Leafeon, F|
+|poke|p2|Venusaur, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lilacq)
+|
+|t:|1743847804
+|start
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1743847813
+|move|p1a: Glimmora|Meteor Beam||[still]
+|-prepare|p1a: Glimmora|Meteor Beam
+|-boost|p1a: Glimmora|spa|1
+|-enditem|p1a: Glimmora|Power Herb
+|-anim|p1a: Glimmora|Meteor Beam|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743847823
+|switch|p2a: Venusaur|Venusaur, M, shiny|100/100
+|turn|2
+|
+|t:|1743847826
+|move|p2a: Venusaur|Earth Power|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|-damage|p2a: Venusaur|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743847830
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|3
+|
+|t:|1743847836
+|move|p2a: Venusaur|Sludge Bomb|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|60/100
+|-damage|p2a: Venusaur|81/100|[from] item: Life Orb
+|move|p1a: Dragapult|Flamethrower|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743847848
+|switch|p2a: Leafeon|Leafeon, F|100/100
+|turn|4
+|
+|t:|1743847852
+|move|p2a: Leafeon|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p2a: Leafeon
+|faint|p1a: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743847854
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|turn|5
+|
+|t:|1743847867
+|move|p2a: Leafeon|Knock Off|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|90/100
+|-damage|p2a: Leafeon|84/100|[from] item: Rocky Helmet|[of] p1a: Mandibuzz
+|-enditem|p1a: Mandibuzz|Rocky Helmet|[from] move: Knock Off|[of] p2a: Leafeon
+|move|p1a: Mandibuzz|Foul Play|p2a: Leafeon
+|-damage|p2a: Leafeon|40/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1743847878
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Mandibuzz|U-turn|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|97/100
+|
+|t:|1743847885
+|switch|p1a: Primarina|Primarina, F|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743847892
+|switch|p2a: Leafeon|Leafeon, F|40/100
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743847900
+|switch|p1a: Mandibuzz|Mandibuzz, F|90/100
+|move|p2a: Leafeon|Solar Blade||[still]
+|-prepare|p2a: Leafeon|Solar Blade
+|-anim|p2a: Leafeon|Solar Blade|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|71/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743847910
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|move|p1a: Mandibuzz|U-turn|p2a: Walking Wake
+|-damage|p2a: Walking Wake|88/100
+|
+|t:|1743847913
+|switch|p1a: Primarina|Primarina, F|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743847922
+|move|p2a: Walking Wake|Flip Turn|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|96/100
+|
+|t:|1743847926
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Ditto|Ditto|100/100|[from] Flip Turn
+|-transform|p2a: Ditto|p1a: Primarina|[from] ability: Imposter
+|move|p1a: Primarina|Draining Kiss|p2a: Ditto
+|-damage|p2a: Ditto|72/100
+|-heal|p1a: Primarina|100/100|[from] drain|[of] p2a: Ditto
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743847938
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Ditto|Draining Kiss|p1a: Rillaboom
+|-damage|p1a: Rillaboom|60/100
+|-heal|p2a: Ditto|100/100|[from] drain|[of] p1a: Rillaboom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rillaboom|66/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1743847950
+|switch|p2a: Torkoal|Torkoal, M|97/100
+|move|p1a: Rillaboom|U-turn|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|88/100
+|
+|t:|1743847954
+|switch|p1a: Primarina|Primarina, F|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Torkoal|94/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1743847961
+|move|p1a: Primarina|Sparkling Aria|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|27/100
+|move|p2a: Torkoal|Stealth Rock|p1a: Primarina
+|-sidestart|p1: Lilacq|move: Stealth Rock
+|
+|-weather|none
+|-heal|p2a: Torkoal|33/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1743847971
+|switch|p2a: Ditto|Ditto|100/100
+|-transform|p2a: Ditto|p1a: Primarina|[from] ability: Imposter
+|move|p1a: Primarina|Sparkling Aria|p2a: Ditto
+|-resisted|p2a: Ditto
+|-damage|p2a: Ditto|73/100
+|
+|-heal|p2a: Ditto|79/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1743847982
+|move|p2a: Ditto|Draining Kiss|p1a: Primarina
+|-damage|p1a: Primarina|79/100
+|-heal|p2a: Ditto|99/100|[from] drain|[of] p1a: Primarina
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|
+|-heal|p2a: Ditto|100/100|[from] Grassy Terrain
+|-heal|p1a: Primarina|85/100|[from] Grassy Terrain
+|-heal|p1a: Primarina|91/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1743847995
+|move|p2a: Ditto|Draining Kiss|p1a: Primarina
+|-damage|p1a: Primarina|76/100
+|move|p1a: Primarina|Draining Kiss|p2a: Ditto
+|-damage|p2a: Ditto|60/100
+|-heal|p1a: Primarina|100/100|[from] drain|[of] p2a: Ditto
+|
+|upkeep
+|turn|17
+|
+|t:|1743848002
+|move|p2a: Ditto|Draining Kiss|p1a: Primarina
+|-damage|p1a: Primarina|84/100
+|-heal|p2a: Ditto|75/100|[from] drain|[of] p1a: Primarina
+|move|p1a: Primarina|Substitute|p1a: Primarina
+|-start|p1a: Primarina|Substitute
+|-damage|p1a: Primarina|59/100
+|
+|-heal|p1a: Primarina|65/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743848012
+|move|p2a: Ditto|Draining Kiss|p1a: Primarina
+|-crit|p1a: Primarina
+|-end|p1a: Primarina|Substitute
+|-heal|p2a: Ditto|98/100|[from] drain|[of] p1a: Primarina
+|move|p1a: Primarina|Draining Kiss|p2a: Ditto
+|-damage|p2a: Ditto|52/100
+|-heal|p1a: Primarina|93/100|[from] drain|[of] p2a: Ditto
+|
+|-heal|p1a: Primarina|99/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743848023
+|switch|p2a: Torkoal|Torkoal, M|33/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Primarina|Substitute|p1a: Primarina
+|-start|p1a: Primarina|Substitute
+|-damage|p1a: Primarina|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Primarina|81/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|lianshanque has 120 seconds left.
+|inactive|lianshanque has 90 seconds left.
+|inactive|lianshanque has 60 seconds left.
+|inactive|lianshanque has 30 seconds left.
+|inactive|lianshanque has 20 seconds left.
+|inactive|lianshanque has 15 seconds left.
+|inactive|lianshanque has 10 seconds left.
+|inactive|lianshanque has 5 seconds left.
+|-message|lianshanque lost due to inactivity.
+|
+|win|Lilacq
+|raw|Lilacq's rating: 1489 &rarr; <strong>1505</strong><br />(+16 for winning)
+|raw|lianshanque's rating: 1420 &rarr; <strong>1404</strong><br />(-16 for losing)
+|l|☆Lilacq
+|player|p1|
+|l|☆lianshanque
+|player|p2|

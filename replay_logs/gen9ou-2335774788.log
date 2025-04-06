@@ -1,0 +1,184 @@
+|j|☆synchronousregular
+|j|☆keepmomo
+|t:|1743834050
+|gametype|singles
+|player|p1|synchronousregular|2|1061
+|player|p2|keepmomo|dawn|1057
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Clefable, F|
+|poke|p1|Gliscor, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Gholdengo|
+|poke|p1|Weavile, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p2|Comfey, F|
+|poke|p2|Whimsicott, F|
+|poke|p2|Ambipom, M|
+|poke|p2|Illumise, F|
+|poke|p2|Jumpluff, M|
+|poke|p2|Alomomola, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by synchronousregular)
+|
+|t:|1743834058
+|start
+|switch|p1a: Weavile|Weavile, F|100/100
+|switch|p2a: Jumpluff|Jumpluff, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|1
+|
+|t:|1743834067
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Weavile|Triple Axel|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|98/100
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|92/100
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|85/100
+|-hitcount|p2a: Alomomola|3
+|
+|upkeep
+|turn|2
+|
+|t:|1743834078
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|move|p2a: Alomomola|Scald|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|75/100
+|-status|p1a: Gliscor|brn
+|
+|-damage|p1a: Gliscor|69/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743834093
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Alomomola|Whirlpool|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|94/100
+|-activate|p1a: Dragapult|move: Whirlpool|[of] p2a: Alomomola
+|
+|-damage|p1a: Dragapult|82/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1743834108
+|move|p1a: Dragapult|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|74/100
+|
+|t:|1743834114
+|switch|p1a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Alomomola|Mirror Coat||[still]
+|-fail|p2a: Alomomola
+|
+|upkeep
+|turn|5
+|
+|t:|1743834124
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Alomomola|Scald|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|81/100
+|-status|p1a: Gholdengo|brn
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|-damage|p1a: Gholdengo|75/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743834134
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Alomomola|Mirror Coat||[still]
+|-fail|p2a: Alomomola
+|
+|-damage|p1a: Gholdengo|69/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743834145
+|switch|p2a: Jumpluff|Jumpluff, M|100/100
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|100/100 brn
+|
+|-damage|p1a: Gholdengo|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743834150
+|move|p2a: Jumpluff|Light Screen|p2a: Jumpluff
+|-sidestart|p2: keepmomo|move: Light Screen
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|-damage|p1a: Gholdengo|88/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743834170
+|switch|p2a: Illumise|Illumise, F|100/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Illumise
+|-damage|p2a: Illumise|22/100
+|-unboost|p2a: Illumise|spd|1
+|
+|-heal|p2a: Illumise|28/100|[from] item: Leftovers
+|-damage|p1a: Gholdengo|82/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743834180
+|move|p1a: Gholdengo|Shadow Ball|p2a: Illumise
+|-damage|p2a: Illumise|0 fnt
+|faint|p2a: Illumise
+|
+|-damage|p1a: Gholdengo|76/100 brn|[from] brn
+|upkeep
+|
+|t:|1743834184
+|switch|p2a: Jumpluff|Jumpluff, M|100/100
+|turn|11
+|
+|t:|1743834187
+|move|p2a: Jumpluff|Reflect|p2a: Jumpluff
+|-sidestart|p2: keepmomo|Reflect
+|move|p1a: Gholdengo|Shadow Ball|p2a: Jumpluff
+|-damage|p2a: Jumpluff|34/100
+|
+|-damage|p1a: Gholdengo|70/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743834193
+|move|p2a: Jumpluff|Leech Seed|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|move|p1a: Gholdengo|Shadow Ball|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|faint|p2a: Jumpluff
+|
+|-damage|p1a: Gholdengo|64/100 brn|[from] brn
+|upkeep
+|-message|keepmomo forfeited.
+|
+|win|synchronousregular
+|raw|synchronousregular's rating: 1061 &rarr; <strong>1091</strong><br />(+30 for winning)
+|raw|keepmomo's rating: 1057 &rarr; <strong>1039</strong><br />(-18 for losing)
+|l|☆keepmomo
+|player|p2|
+|l|☆synchronousregular
+|player|p1|

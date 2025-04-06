@@ -1,0 +1,236 @@
+|j|☆xlunarRaez
+|j|☆programmedalex
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1743820986
+|gametype|singles
+|player|p1|xlunarRaez|anabel-gen7|
+|player|p2|programmedalex|hilbert|
+|teamsize|p1|4
+|teamsize|p2|4
+|gen|9
+|tier|[Gen 9] OU
+|rated|Tournament battle
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Barraskewda, M|
+|poke|p1|Geodude, F|
+|poke|p1|Scorbunny, F|
+|poke|p1|Exeggutor, F|
+|poke|p2|Bellibolt, F|
+|poke|p2|Hoothoot, M|
+|poke|p2|Sliggoo-Hisui, M|
+|poke|p2|Rellor, M|
+|teampreview
+|j|*Lady Monita ❄
+|inactive|xlunarRaez also wants the timer to be on.
+|
+|t:|1743820996
+|start
+|switch|p1a: Geodude|Geodude, F|100/100
+|switch|p2a: Sliggoo|Sliggoo-Hisui, M|100/100
+|turn|1
+|
+|t:|1743821011
+|move|p1a: Geodude|Earthquake|p2a: Sliggoo
+|-supereffective|p2a: Sliggoo
+|-damage|p2a: Sliggoo|29/100
+|move|p2a: Sliggoo|Flash Cannon|p1a: Geodude
+|-supereffective|p1a: Geodude
+|-ability|p1a: Geodude|Sturdy
+|-damage|p1a: Geodude|1/100
+|
+|upkeep
+|turn|2
+|-enditem|p1a: Geodude|Custap Berry|[eat]
+|-activate|p1a: Geodude|item: Custap Berry|[consumed]
+|
+|t:|1743821022
+|switch|p2a: Bellibolt|Bellibolt, F|100/100
+|-item|p2a: Bellibolt|Air Balloon
+|move|p1a: Geodude|Earthquake|p2a: Bellibolt
+|-immune|p2a: Bellibolt
+|
+|upkeep
+|turn|3
+|j| PumkinSquid254
+|
+|t:|1743821034
+|move|p1a: Geodude|Explosion|p2a: Bellibolt
+|-damage|p2a: Bellibolt|57/100
+|-start|p2a: Bellibolt|Charge|Explosion|[from] ability: Electromorphosis
+|-enditem|p2a: Bellibolt|Air Balloon
+|faint|p1a: Geodude
+|move|p2a: Bellibolt|Hyper Voice|p1: Geodude|[notarget]
+|-fail|p2a: Bellibolt
+|
+|upkeep
+|
+|t:|1743821044
+|switch|p1a: Exeggutor|Exeggutor, F|100/100
+|turn|4
+|
+|t:|1743821050
+|move|p1a: Exeggutor|Leech Seed|p2a: Bellibolt
+|-start|p2a: Bellibolt|move: Leech Seed
+|move|p2a: Bellibolt|Volt Switch|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|76/100
+|-end|p2a: Bellibolt|Charge|[silent]
+|
+|t:|1743821058
+|switch|p2a: Rellor|Rellor, M|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|5
+|
+|t:|1743821069
+|switch|p1a: Scorbunny|Scorbunny, F|100/100
+|move|p2a: Rellor|Gunk Shot|p1a: Scorbunny
+|-damage|p1a: Scorbunny|51/100
+|
+|upkeep
+|turn|6
+|j| heneld0g8
+|l| heneld0g8
+|
+|t:|1743821082
+|move|p1a: Scorbunny|Flare Blitz|p2a: Rellor
+|-supereffective|p2a: Rellor
+|-damage|p2a: Rellor|0 fnt
+|faint|p2a: Rellor
+|-damage|p1a: Scorbunny|12/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743821093
+|switch|p2a: Hoothoot|Hoothoot, M|100/100
+|turn|7
+|
+|t:|1743821103
+|move|p1a: Scorbunny|Flare Blitz|p2a: Hoothoot
+|-damage|p2a: Hoothoot|0 fnt
+|faint|p2a: Hoothoot
+|-damage|p1a: Scorbunny|0 fnt|[from] Recoil
+|faint|p1a: Scorbunny
+|
+|upkeep
+|
+|t:|1743821112
+|switch|p1a: Barraskewda|Barraskewda, M|100/100
+|switch|p2a: Sliggoo|Sliggoo-Hisui, M|29/100
+|turn|8
+|
+|t:|1743821122
+|move|p1a: Barraskewda|Close Combat|p2a: Sliggoo
+|-supereffective|p2a: Sliggoo
+|-damage|p2a: Sliggoo|0 fnt
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|-ability|p2a: Sliggoo|Gooey
+|-unboost|p1a: Barraskewda|spe|1
+|faint|p2a: Sliggoo
+|
+|upkeep
+|
+|t:|1743821130
+|switch|p2a: Bellibolt|Bellibolt, F|57/100
+|turn|9
+|
+|t:|1743821137
+|-terastallize|p2a: Bellibolt|Electric
+|move|p1a: Barraskewda|Close Combat|p2a: Bellibolt
+|-damage|p2a: Bellibolt|19/100
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|-start|p2a: Bellibolt|Charge|Close Combat|[from] ability: Electromorphosis
+|move|p2a: Bellibolt|Slack Off|p2a: Bellibolt
+|-heal|p2a: Bellibolt|69/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743821147
+|switch|p1a: Exeggutor|Exeggutor, F|76/100
+|move|p2a: Bellibolt|Slack Off|p2a: Bellibolt
+|-heal|p2a: Bellibolt|100/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743821158
+|move|p1a: Exeggutor|Leech Seed|p2a: Bellibolt|[miss]
+|-miss|p1a: Exeggutor|p2a: Bellibolt
+|move|p2a: Bellibolt|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|26/100
+|-enditem|p1a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p1a: Exeggutor|51/100|[from] item: Sitrus Berry
+|-end|p2a: Bellibolt|Charge|[silent]
+|
+|upkeep
+|turn|12
+|
+|t:|1743821166
+|move|p1a: Exeggutor|Synthesis|p1a: Exeggutor
+|-heal|p1a: Exeggutor|100/100
+|move|p2a: Bellibolt|Hyper Voice|p1a: Exeggutor
+|-damage|p1a: Exeggutor|79/100
+|
+|-item|p1a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|13
+|
+|t:|1743821176
+|move|p1a: Exeggutor|Leech Seed|p2a: Bellibolt
+|-start|p2a: Bellibolt|move: Leech Seed
+|move|p2a: Bellibolt|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|54/100
+|
+|-damage|p2a: Bellibolt|88/100|[from] Leech Seed|[of] p1a: Exeggutor
+|-heal|p1a: Exeggutor|68/100|[silent]
+|upkeep
+|turn|14
+|
+|t:|1743821183
+|move|p1a: Exeggutor|Psychic Noise|p2a: Bellibolt
+|-crit|p2a: Bellibolt
+|-damage|p2a: Bellibolt|45/100
+|-start|p2a: Bellibolt|move: Heal Block
+|-start|p2a: Bellibolt|Charge|Psychic Noise|[from] ability: Electromorphosis
+|move|p2a: Bellibolt|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|20/100
+|-enditem|p1a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p1a: Exeggutor|44/100|[from] item: Sitrus Berry
+|-end|p2a: Bellibolt|Charge|[silent]
+|
+|-damage|p2a: Bellibolt|32/100|[from] Leech Seed|[of] p1a: Exeggutor
+|-heal|p1a: Exeggutor|58/100|[silent]
+|upkeep
+|turn|15
+|
+|t:|1743821197
+|move|p1a: Exeggutor|Psychic Noise|p2a: Bellibolt
+|-damage|p2a: Bellibolt|2/100
+|-start|p2a: Bellibolt|Charge|Psychic Noise|[from] ability: Electromorphosis
+|move|p2a: Bellibolt|Thunderbolt|p1a: Exeggutor
+|-resisted|p1a: Exeggutor
+|-damage|p1a: Exeggutor|7/100
+|-end|p2a: Bellibolt|Charge|[silent]
+|
+|-damage|p2a: Bellibolt|0 fnt|[from] Leech Seed|[of] p1a: Exeggutor
+|-heal|p1a: Exeggutor|8/100|[silent]
+|faint|p2a: Bellibolt
+|
+|win|xlunarRaez
+|n|☆xlunarRaez|xlunarraez
+|n|☆programmedalex|programmedalex
+|n|*Lady Monita ❄|ladymonita
+|n| PumkinSquid254|pumkinsquid254

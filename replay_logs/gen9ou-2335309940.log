@@ -1,0 +1,204 @@
+|j|☆guroudon
+|j|☆SSATFAW
+|t:|1743783520
+|gametype|singles
+|player|p1|guroudon|alder|1386
+|player|p2|SSATFAW|ghetsis|1335
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Glimmora, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Iron Moth|
+|poke|p1|Dragonite, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Latias, F|
+|poke|p2|Inteleon, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Alomomola, F|
+|poke|p2|Ting-Lu|
+|teampreview
+|
+|t:|1743783528
+|start
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|switch|p2a: Inteleon|Inteleon, M|100/100
+|turn|1
+|
+|t:|1743783535
+|move|p2a: Inteleon|Surf|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1743783542
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|2
+|
+|t:|1743783552
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743783562
+|move|p1a: Dragonite|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|68/100
+|move|p2a: Alomomola|Scald|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|97/100
+|-status|p1a: Dragonite|brn
+|
+|-damage|p1a: Dragonite|91/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743783573
+|switch|p1a: Latias|Latias, F|100/100
+|move|p2a: Alomomola|Flip Turn|p1a: Latias
+|-resisted|p1a: Latias
+|-damage|p1a: Latias|91/100
+|
+|t:|1743783584
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|5
+|
+|t:|1743783589
+|-terastallize|p2a: Dragapult|Ghost
+|move|p2a: Dragapult|Tera Blast|p1a: Latias|[anim] Tera Blast Ghost
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|upkeep
+|
+|t:|1743783595
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|6
+|
+|t:|1743783608
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1743783616
+|-terastallize|p1a: Kingambit|Ghost
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Corviknight
+|-damage|p2a: Corviknight|64/100
+|-damage|p1a: Kingambit|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-heal|p1a: Kingambit|90/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743783628
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p1a: Kingambit|96/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743783636
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p1a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743783647
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Kingambit|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|
+|-heal|p1a: Kingambit|90/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743783659
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|11
+|
+|t:|1743783665
+|move|p2a: Cinderace|Sucker Punch|p1a: Kingambit
+|-start|p2a: Cinderace|typechange|Dark|[from] ability: Libero
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|44/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-heal|p1a: Kingambit|50/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743783674
+|move|p2a: Cinderace|Pyro Ball|p1a: Kingambit|[miss]
+|-miss|p2a: Cinderace|p1a: Kingambit
+|move|p1a: Kingambit|Iron Head|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-heal|p1a: Kingambit|56/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743783685
+|switch|p2a: Dragapult|Dragapult, F, tera:Ghost|100/100
+|turn|13
+|
+|t:|1743783689
+|move|p2a: Dragapult|Sucker Punch|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|9/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Kingambit|15/100|[from] item: Leftovers
+|upkeep
+|c|☆SSATFAW|Some unreal haxxing went on here lmao
+|-message|SSATFAW forfeited.
+|
+|win|guroudon
+|raw|guroudon's rating: 1386 &rarr; <strong>1403</strong><br />(+17 for winning)
+|raw|SSATFAW's rating: 1335 &rarr; <strong>1318</strong><br />(-17 for losing)
+|l|☆SSATFAW
+|player|p2|
+|l|☆guroudon
+|player|p1|

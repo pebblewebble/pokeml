@@ -1,0 +1,340 @@
+|j|☆Zelveor
+|j|☆pungpungsy
+|t:|1743932077
+|gametype|singles
+|player|p1|Zelveor|grimsley|1161
+|player|p2|pungpungsy|preschooler|1145
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Serperior, M|
+|poke|p1|Espeon, F|
+|poke|p1|Froslass, F|
+|poke|p1|Gothitelle, F|
+|poke|p1|Hydreigon, M|
+|poke|p1|Tsareena, F|
+|poke|p2|Ribombee, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Walking Wake|
+|poke|p2|Kingambit, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ceruledge, F|
+|teampreview
+|
+|t:|1743932089
+|start
+|switch|p1a: Froslass|Froslass, F|100/100
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|turn|1
+|
+|t:|1743932096
+|move|p2a: Ribombee|Stun Spore|p1a: Froslass
+|-status|p1a: Froslass|par
+|move|p1a: Froslass|Taunt|p2a: Ribombee
+|-start|p2a: Ribombee|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1743932103
+|move|p2a: Ribombee|U-turn|p1a: Froslass
+|-resisted|p1a: Froslass
+|-damage|p1a: Froslass|91/100 par
+|-start|p2a: Ribombee|Disable|U-turn|[from] ability: Cursed Body|[of] p1a: Froslass
+|
+|t:|1743932111
+|switch|p2a: Torkoal|Torkoal, M|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|cant|p1a: Froslass|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743932129
+|move|p1a: Froslass|Spikes|p2a: Torkoal
+|-sidestart|p2: pungpungsy|Spikes
+|move|p2a: Torkoal|Stealth Rock|p1a: Froslass
+|-sidestart|p1: Zelveor|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743932135
+|move|p1a: Froslass|Spikes|p2a: Torkoal
+|-sidestart|p2: pungpungsy|Spikes
+|move|p2a: Torkoal|Lava Plume|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|faint|p1a: Froslass
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743932158
+|switch|p1a: Serperior|Serperior, M|100/100
+|-damage|p1a: Serperior|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1743932163
+|-terastallize|p1a: Serperior|Water
+|move|p1a: Serperior|Leaf Storm|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|69/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Torkoal|Lava Plume|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Serperior|71/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743932173
+|move|p1a: Serperior|Tera Blast|p2a: Torkoal|[anim] Tera Blast Water
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Serperior|77/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743932190
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-damage|p2a: Walking Wake|84/100|[from] Spikes
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|7
+|
+|t:|1743932197
+|move|p1a: Serperior|Leaf Storm|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Serperior|83/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743932206
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|-damage|p2a: Ribombee|84/100|[from] Spikes
+|turn|8
+|
+|t:|1743932215
+|move|p2a: Ribombee|Stun Spore|p1a: Serperior
+|-status|p1a: Serperior|par
+|move|p1a: Serperior|Tera Blast|p2a: Ribombee|[anim] Tera Blast Water
+|-damage|p2a: Ribombee|15/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Serperior|89/100 par|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743932229
+|move|p2a: Ribombee|Sticky Web|p1a: Serperior
+|-sidestart|p1: Zelveor|move: Sticky Web
+|move|p1a: Serperior|Leaf Storm|p2a: Ribombee
+|-resisted|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Ribombee
+|
+|-weather|none
+|-heal|p1a: Serperior|95/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1743932239
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|84/100|[from] Spikes
+|turn|10
+|
+|t:|1743932252
+|cant|p1a: Serperior|par
+|move|p2a: Hatterene|Psychic|p1a: Serperior
+|-damage|p1a: Serperior|44/100 par
+|
+|-heal|p1a: Serperior|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743932258
+|cant|p1a: Serperior|par
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Serperior
+|-damage|p1a: Serperior|7/100 par
+|
+|-heal|p1a: Serperior|13/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743932264
+|cant|p1a: Serperior|par
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|c|☆Zelveor|...
+|c|☆Zelveor|Yeah right
+|
+|t:|1743932283
+|switch|p1a: Espeon|Espeon, F|100/100
+|-damage|p1a: Espeon|88/100|[from] Stealth Rock
+|-activate|p1a: Espeon|move: Sticky Web
+|-unboost|p1a: Espeon|spe|1
+|turn|13
+|
+|t:|1743932289
+|move|p1a: Espeon|Calm Mind|p1a: Espeon
+|-boost|p1a: Espeon|spa|1
+|-boost|p1a: Espeon|spd|1
+|move|p2a: Hatterene|Shadow Ball|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|45/100
+|
+|upkeep
+|turn|14
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pungpungsy)
+|
+|t:|1743932297
+|move|p1a: Espeon|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|34/100
+|move|p2a: Hatterene|Shadow Ball|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|3/100
+|-enditem|p1a: Espeon|Salac Berry|[eat]
+|-boost|p1a: Espeon|spe|1|[from] item: Salac Berry
+|
+|upkeep
+|turn|15
+|
+|t:|1743932312
+|move|p1a: Espeon|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1743932324
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|-damage|p2a: Ceruledge|84/100|[from] Spikes
+|turn|16
+|
+|t:|1743932330
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|upkeep
+|
+|t:|1743932335
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|-damage|p1a: Tsareena|88/100|[from] Stealth Rock
+|-activate|p1a: Tsareena|move: Sticky Web
+|-unboost|p1a: Tsareena|spe|1
+|turn|17
+|
+|t:|1743932342
+|move|p2a: Ceruledge|Bitter Blade|p1a: Tsareena
+|-supereffective|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|-heal|p2a: Ceruledge|100/100|[from] drain|[of] p1a: Tsareena
+|faint|p1a: Tsareena
+|
+|upkeep
+|
+|t:|1743932354
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1743932369
+|move|p2a: Ceruledge|Bitter Blade|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|64/100
+|move|p1a: Hydreigon|Earth Power|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|22/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743932385
+|move|p2a: Ceruledge|Bitter Blade|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|39/100
+|-heal|p2a: Ceruledge|39/100|[from] drain|[of] p1a: Hydreigon
+|move|p1a: Hydreigon|Earth Power|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|upkeep
+|
+|t:|1743932389
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|84/100|[from] Spikes
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|20
+|
+|t:|1743932399
+|-terastallize|p2a: Kingambit|Dark
+|move|p1a: Hydreigon|Earth Power|p2a: Kingambit
+|-damage|p2a: Kingambit|49/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|21
+|
+|t:|1743932413
+|move|p1a: Hydreigon|Flamethrower|p2a: Kingambit
+|-damage|p2a: Kingambit|15/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|t:|1743932420
+|switch|p1a: Gothitelle|Gothitelle, F|100/100
+|-damage|p1a: Gothitelle|88/100|[from] Stealth Rock
+|-activate|p1a: Gothitelle|move: Sticky Web
+|-unboost|p1a: Gothitelle|spe|1
+|-ability|p1a: Gothitelle|Competitive|boost
+|-boost|p1a: Gothitelle|spa|2
+|turn|22
+|
+|t:|1743932431
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|faint|p1a: Gothitelle
+|
+|win|pungpungsy
+|raw|Zelveor's rating: 1161 &rarr; <strong>1135</strong><br />(-26 for losing)
+|raw|pungpungsy's rating: 1145 &rarr; <strong>1171</strong><br />(+26 for winning)
+|l|☆pungpungsy
+|player|p2|
+|l|☆Zelveor
+|player|p1|

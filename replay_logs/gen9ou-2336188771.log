@@ -1,0 +1,162 @@
+|j|☆aprpafocks
+|j|‽norebuhl
+|t:|1743887930
+|gametype|singles
+|player|p1|aprpafocks|geeta|1381
+|player|p2|norebuhl|101|1426
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Primarina, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Kyurem|
+|poke|p2|Iron Valiant|
+|poke|p2|Kingambit, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by aprpafocks)
+|
+|t:|1743887952
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|1
+|
+|t:|1743887964
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Cinderace|U-turn|p2a: Iron Valiant
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|91/100
+|
+|t:|1743887977
+|switch|p1a: Primarina|Primarina, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1743887995
+|move|p2a: Iron Valiant|Moonblast|p1a: Primarina
+|-damage|p1a: Primarina|75/100
+|move|p1a: Primarina|Moonblast|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743888005
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|3
+|
+|t:|1743888011
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|move|p2a: Gholdengo|Trick|p1a: Hoopa
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Hoopa
+|-item|p1a: Hoopa|Choice Scarf|[from] move: Trick
+|-item|p2a: Gholdengo|Choice Specs|[from] move: Trick
+|
+|upkeep
+|turn|4
+|
+|t:|1743888030
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Hoopa|Dark Pulse|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|55/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743888041
+|move|p1a: Hoopa|Dark Pulse|p2a: Samurott
+|-resisted|p2a: Samurott
+|-crit|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743888049
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|6
+|
+|t:|1743888054
+|move|p1a: Hoopa|Dark Pulse|p2a: Kyurem
+|-damage|p2a: Kyurem|43/100
+|cant|p2a: Kyurem|flinch
+|
+|upkeep
+|turn|7
+|
+|t:|1743888061
+|move|p1a: Hoopa|Dark Pulse|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1743888067
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|8
+|
+|t:|1743888074
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Great Tusk|Ice Spinner|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|78/100
+|-damage|p2a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|upkeep
+|turn|9
+|
+|t:|1743888086
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Corviknight|U-turn|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|97/100
+|
+|t:|1743888101
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|10
+|
+|t:|1743888122
+|move|p1a: Cinderace|Pyro Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|-message|norebuhl forfeited.
+|
+|win|aprpafocks
+|raw|aprpafocks's rating: 1381 &rarr; <strong>1404</strong><br />(+23 for winning)
+|raw|norebuhl's rating: 1426 &rarr; <strong>1403</strong><br />(-23 for losing)
+|l|‽norebuhl
+|player|p2|

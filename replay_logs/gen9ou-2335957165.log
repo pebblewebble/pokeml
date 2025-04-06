@@ -1,0 +1,220 @@
+|j|☆ARandomPsyduck2
+|j|☆Lic21b034
+|t:|1743863679
+|gametype|singles
+|player|p1|ARandomPsyduck2|flannery|1218
+|player|p2|Lic21b034|scientist|1169
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pecharunt|
+|poke|p1|Dragapult, M|
+|poke|p1|Rillaboom, F|
+|poke|p1|Blissey, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Dragonite, M|
+|poke|p2|Grafaiai, M|
+|poke|p2|Kilowattrel, M|
+|poke|p2|Lokix, M|
+|poke|p2|Garganacl, F|
+|poke|p2|Quaquaval, F|
+|poke|p2|Houndstone, F|
+|teampreview
+|
+|t:|1743863691
+|start
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1743863700
+|-terastallize|p2a: Garganacl|Ghost
+|move|p1a: Rillaboom|Wood Hammer|p2a: Garganacl
+|-damage|p2a: Garganacl|13/100
+|-damage|p1a: Rillaboom|66/100|[from] Recoil
+|move|p2a: Garganacl|Salt Cure|p1a: Rillaboom
+|-damage|p1a: Rillaboom|51/100
+|-start|p1a: Rillaboom|Salt Cure
+|
+|-heal|p1a: Rillaboom|57/100|[from] Grassy Terrain
+|-heal|p2a: Garganacl|20/100|[from] Grassy Terrain
+|-heal|p2a: Garganacl|26/100|[from] item: Leftovers
+|-damage|p1a: Rillaboom|44/100|[from] Salt Cure
+|upkeep
+|turn|2
+|
+|t:|1743863716
+|move|p1a: Rillaboom|Wood Hammer|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|-damage|p1a: Rillaboom|35/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|41/100|[from] Grassy Terrain
+|-damage|p1a: Rillaboom|28/100|[from] Salt Cure
+|upkeep
+|
+|t:|1743863725
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|turn|3
+|
+|t:|1743863731
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Quaquaval|Ice Spinner|p1a: Pecharunt
+|-damage|p1a: Pecharunt|88/100
+|-fieldend|move: Grassy Terrain
+|
+|upkeep
+|turn|4
+|
+|t:|1743863742
+|switch|p2a: Grafaiai|Grafaiai, M|100/100
+|move|p1a: Pecharunt|Parting Shot|p2a: Grafaiai
+|-unboost|p2a: Grafaiai|atk|1
+|-unboost|p2a: Grafaiai|spa|1
+|
+|t:|1743863752
+|switch|p1a: Corviknight|Corviknight, M|100/100|[from] Parting Shot
+|-ability|p1a: Corviknight|Pressure
+|
+|upkeep
+|turn|5
+|
+|t:|1743863760
+|switch|p2a: Kilowattrel|Kilowattrel, M|100/100
+|move|p1a: Corviknight|Body Press|p2a: Kilowattrel
+|-resisted|p2a: Kilowattrel
+|-damage|p2a: Kilowattrel|78/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743863768
+|switch|p1a: Blissey|Blissey, F, shiny|100/100
+|move|p2a: Kilowattrel|Tailwind|p2a: Kilowattrel
+|-sidestart|p2: Lic21b034|move: Tailwind
+|-start|p2a: Kilowattrel|Charge|Tailwind|[from] ability: Wind Power
+|
+|upkeep
+|turn|7
+|
+|t:|1743863780
+|move|p2a: Kilowattrel|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|81/100
+|-end|p2a: Kilowattrel|Charge|[silent]
+|
+|t:|1743863787
+|switch|p2a: Houndstone|Houndstone, F|100/100|[from] Volt Switch
+|move|p1a: Blissey|Seismic Toss|p2a: Houndstone
+|-immune|p2a: Houndstone
+|
+|upkeep
+|turn|8
+|
+|t:|1743863794
+|move|p2a: Houndstone|Will-O-Wisp|p1a: Blissey
+|-status|p1a: Blissey|brn
+|move|p1a: Blissey|Shadow Ball|p2a: Houndstone
+|-supereffective|p2a: Houndstone
+|-damage|p2a: Houndstone|79/100
+|-unboost|p2a: Houndstone|spd|1
+|
+|-heal|p2a: Houndstone|85/100|[from] item: Leftovers
+|-damage|p1a: Blissey|74/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743863806
+|move|p2a: Houndstone|Body Press|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|31/100 brn
+|move|p1a: Blissey|Shadow Ball|p2a: Houndstone
+|-supereffective|p2a: Houndstone
+|-damage|p2a: Houndstone|48/100
+|
+|-heal|p2a: Houndstone|54/100|[from] item: Leftovers
+|-damage|p1a: Blissey|24/100 brn|[from] brn
+|-sideend|p2: Lic21b034|move: Tailwind
+|upkeep
+|turn|10
+|
+|t:|1743863823
+|-curestatus|p1a: Blissey|brn|[from] ability: Natural Cure
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Houndstone|Body Press|p1a: Corviknight
+|-damage|p1a: Corviknight|87/100
+|
+|-heal|p2a: Houndstone|60/100|[from] item: Leftovers
+|-heal|p1a: Corviknight|93/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743863834
+|move|p2a: Houndstone|Will-O-Wisp|p1a: Corviknight
+|-status|p1a: Corviknight|brn
+|move|p1a: Corviknight|U-turn|p2a: Houndstone
+|-resisted|p2a: Houndstone
+|-damage|p2a: Houndstone|58/100
+|
+|t:|1743863841
+|switch|p1a: Dragapult|Dragapult, M, shiny|100/100|[from] U-turn
+|
+|-heal|p2a: Houndstone|64/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743863845
+|move|p1a: Dragapult|Draco Meteor|p2a: Houndstone|[miss]
+|-miss|p1a: Dragapult|p2a: Houndstone
+|move|p2a: Houndstone|Poltergeist|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Poltergeist|Choice Specs
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Houndstone|70/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743863855
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|13
+|
+|t:|1743863862
+|switch|p1a: Blissey|Blissey, F, shiny|24/100
+|move|p2a: Houndstone|Poltergeist|p1a: Blissey
+|-immune|p1a: Blissey
+|
+|-heal|p2a: Houndstone|76/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743863876
+|switch|p1a: Rillaboom|Rillaboom, F|28/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Houndstone|Will-O-Wisp|p1a: Rillaboom
+|-status|p1a: Rillaboom|brn
+|
+|-heal|p1a: Rillaboom|35/100 brn|[from] Grassy Terrain
+|-heal|p2a: Houndstone|82/100|[from] Grassy Terrain
+|-heal|p2a: Houndstone|88/100|[from] item: Leftovers
+|-damage|p1a: Rillaboom|28/100 brn|[from] brn
+|upkeep
+|turn|15
+|-message|ARandomPsyduck2 forfeited.
+|
+|win|Lic21b034
+|raw|ARandomPsyduck2's rating: 1218 &rarr; <strong>1189</strong><br />(-29 for losing)
+|raw|Lic21b034's rating: 1169 &rarr; <strong>1198</strong><br />(+29 for winning)
+|l|☆ARandomPsyduck2
+|player|p1|

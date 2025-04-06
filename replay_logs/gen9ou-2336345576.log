@@ -1,0 +1,206 @@
+|j|☆caiaobba
+|j|☆lululuya
+|t:|1743905511
+|gametype|singles
+|player|p1|caiaobba|170|1000
+|player|p2|lululuya|swimmerf-gen4|1026
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Heracross, M|
+|poke|p1|Meganium, F|
+|poke|p1|Skeledirge, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Krookodile, M|
+|poke|p2|Venusaur, F|
+|poke|p2|Torkoal, F|
+|poke|p2|Infernape, M|
+|poke|p2|Lilligant, F|
+|poke|p2|Talonflame, F|
+|poke|p2|Leafeon, F|
+|teampreview
+|
+|t:|1743905518
+|start
+|switch|p1a: Meganium|Meganium, F|100/100
+|switch|p2a: Torkoal|Torkoal, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1743905526
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Talonflame|Talonflame, F, shiny|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743905539
+|switch|p2a: Leafeon|Leafeon, F, shiny|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Leafeon
+|-resisted|p2a: Leafeon
+|-damage|p2a: Leafeon|83/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743905551
+|switch|p1a: Meganium|Meganium, F|100/100
+|move|p2a: Leafeon|Solar Blade||[still]
+|-prepare|p2a: Leafeon|Solar Blade
+|-anim|p2a: Leafeon|Solar Blade|p1a: Meganium
+|-resisted|p1a: Meganium
+|-damage|p1a: Meganium|55/100
+|-damage|p2a: Leafeon|73/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Meganium|61/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743905563
+|switch|p2a: Venusaur|Venusaur, F, shiny|100/100
+|move|p1a: Meganium|Swords Dance|p1a: Meganium
+|-boost|p1a: Meganium|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Meganium|67/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743905571
+|move|p2a: Venusaur|Poison Jab|p1a: Meganium
+|-supereffective|p1a: Meganium
+|-damage|p1a: Meganium|13/100
+|move|p1a: Meganium|Earthquake|p2a: Venusaur
+|-damage|p2a: Venusaur|38/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Venusaur|44/100|[from] item: Leftovers
+|-heal|p1a: Meganium|19/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743905593
+|switch|p1a: Krookodile|Krookodile, M|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-unboost|p2a: Venusaur|atk|1
+|move|p2a: Venusaur|Poison Jab|p1a: Krookodile
+|-resisted|p1a: Krookodile
+|-damage|p1a: Krookodile|91/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Venusaur|50/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743905609
+|switch|p2a: Talonflame|Talonflame, F, shiny|100/100
+|move|p1a: Krookodile|Knock Off|p2a: Talonflame
+|-enditem|p2a: Talonflame|Focus Sash
+|-damage|p2a: Talonflame|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743905618
+|move|p2a: Talonflame|Acrobatics|p1a: Krookodile
+|-damage|p1a: Krookodile|37/100
+|move|p1a: Krookodile|Knock Off|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|-weather|none
+|upkeep
+|
+|t:|1743905637
+|switch|p2a: Leafeon|Leafeon, F, shiny|73/100
+|turn|9
+|
+|t:|1743905646
+|move|p1a: Krookodile|Knock Off|p2a: Leafeon
+|-damage|p2a: Leafeon|3/100
+|-enditem|p2a: Leafeon|Life Orb|[from] move: Knock Off|[of] p1a: Krookodile
+|move|p2a: Leafeon|Solar Blade||[still]
+|-prepare|p2a: Leafeon|Solar Blade
+|
+|upkeep
+|turn|10
+|
+|t:|1743905655
+|move|p1a: Krookodile|Knock Off|p2a: Leafeon
+|-damage|p2a: Leafeon|0 fnt
+|faint|p2a: Leafeon
+|
+|upkeep
+|
+|t:|1743905663
+|switch|p2a: Infernape|Infernape, M, shiny|100/100
+|turn|11
+|
+|t:|1743905675
+|move|p1a: Krookodile|Knock Off|p2a: Infernape
+|-resisted|p2a: Infernape
+|-damage|p2a: Infernape|53/100
+|-enditem|p2a: Infernape|Life Orb|[from] move: Knock Off|[of] p1a: Krookodile
+|move|p2a: Infernape|Drain Punch|p1a: Krookodile
+|-supereffective|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|-heal|p2a: Infernape|70/100|[from] drain|[of] p1a: Krookodile
+|faint|p1a: Krookodile
+|
+|upkeep
+|
+|t:|1743905688
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|12
+|
+|t:|1743905699
+|switch|p2a: Torkoal|Torkoal, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Rotom|Will-O-Wisp|p2a: Torkoal
+|-immune|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743905711
+|move|p1a: Rotom|Hydro Pump|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|42/100
+|move|p2a: Torkoal|Stone Edge|p1a: Rotom|[miss]
+|-miss|p2a: Torkoal|p1a: Rotom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743905718
+|move|p1a: Rotom|Hydro Pump|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|lululuya forfeited.
+|
+|win|caiaobba
+|raw|caiaobba's rating: 1000 &rarr; <strong>1043</strong><br />(+43 for winning)
+|raw|lululuya's rating: 1026 &rarr; <strong>1011</strong><br />(-15 for losing)
+|l|☆lululuya
+|player|p2|

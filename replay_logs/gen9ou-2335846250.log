@@ -1,0 +1,232 @@
+|j|☆wasazabi
+|j|☆sakanachi
+|t:|1743847164
+|gametype|singles
+|player|p1|wasazabi|alder|1416
+|player|p2|sakanachi|265|1468
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Latios, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Zamazenta-*|
+|poke|p1|Kingambit, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Polteageist|
+|poke|p2|Hawlucha, F|
+|poke|p2|Maushold|
+|poke|p2|Armarouge, M|
+|teampreview
+|
+|t:|1743847175
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743847178
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Iron Valiant|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|78/100
+|-enditem|p2a: Hatterene|Eject Button|[from] move: Knock Off|[of] p1a: Iron Valiant
+|
+|upkeep
+|turn|2
+|
+|t:|1743847191
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-crit|p1a: Cinderace
+|-damage|p1a: Cinderace|77/100
+|-heal|p2a: Hatterene|95/100|[from] drain|[of] p1a: Cinderace
+|
+|upkeep
+|turn|3
+|
+|t:|1743847206
+|move|p1a: Cinderace|Pyro Ball|p2a: Hatterene
+|-damage|p2a: Hatterene|50/100
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1743847210
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|4
+|
+|t:|1743847220
+|move|p1a: Cinderace|U-turn|p2a: Polteageist
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Polteageist
+|-damage|p2a: Polteageist|69/100
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|
+|t:|1743847226
+|switch|p1a: Enamorus|Enamorus, F|100/100|[from] U-turn
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|5
+|
+|t:|1743847230
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|move|p2a: Polteageist|Shadow Ball|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|45/100
+|-unboost|p1a: Kingambit|spd|1
+|
+|-heal|p1a: Kingambit|51/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743847243
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Cinderace|Cinderace, M|77/100
+|move|p2a: Polteageist|Shadow Ball|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743847244
+|switch|p1a: Kingambit|Kingambit, F|51/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|7
+|
+|t:|1743847246
+|-terastallize|p2a: Polteageist|Fighting
+|move|p2a: Polteageist|Tera Blast|p1a: Kingambit|[anim] Tera Blast Fighting
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|
+|upkeep
+|
+|t:|1743847259
+|switch|p1a: Latios|Latios, M|100/100
+|turn|8
+|
+|t:|1743847264
+|-terastallize|p1a: Latios|Dragon
+|move|p2a: Polteageist|Shadow Ball|p1a: Latios
+|-damage|p1a: Latios|2/100
+|move|p1a: Latios|Luster Purge|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1743847268
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|9
+|
+|t:|1743847275
+|move|p1a: Latios|Luster Purge|p2a: Indeedee
+|-resisted|p2a: Indeedee
+|-damage|p2a: Indeedee|58/100
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|faint|p1a: Latios
+|
+|upkeep
+|
+|t:|1743847279
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|10
+|
+|t:|1743847289
+|switch|p2a: Maushold|Maushold|100/100
+|move|p1a: Enamorus|Earth Power|p2a: Maushold
+|-damage|p2a: Maushold|52/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743847292
+|move|p1a: Enamorus|Earth Power|p2a: Maushold
+|-damage|p2a: Maushold|4/100
+|move|p2a: Maushold|Population Bomb|p1a: Enamorus
+|-damage|p1a: Enamorus|85/100
+|-damage|p1a: Enamorus|67/100
+|-damage|p1a: Enamorus|50/100
+|-damage|p1a: Enamorus|33/100
+|-damage|p1a: Enamorus|16/100
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|-hitcount|p1: Enamorus|6
+|
+|upkeep
+|
+|t:|1743847298
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|12
+|
+|t:|1743847302
+|move|p1a: Zamazenta|Body Press|p2a: Maushold
+|-supereffective|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|faint|p2a: Maushold
+|
+|upkeep
+|
+|t:|1743847304
+|switch|p2a: Armarouge|Armarouge, M|100/100
+|turn|13
+|
+|t:|1743847310
+|move|p1a: Zamazenta|Body Press|p2a: Armarouge
+|-resisted|p2a: Armarouge
+|-damage|p2a: Armarouge|75/100
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|move|p2a: Armarouge|Expanding Force|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|-message|wasazabi forfeited.
+|
+|win|sakanachi
+|raw|wasazabi's rating: 1416 &rarr; <strong>1399</strong><br />(-17 for losing)
+|raw|sakanachi's rating: 1468 &rarr; <strong>1485</strong><br />(+17 for winning)
+|l|☆wasazabi
+|player|p1|
+|l|☆sakanachi
+|player|p2|

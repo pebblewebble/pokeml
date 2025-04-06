@@ -1,0 +1,366 @@
+|j|☆aeyamq
+|j|☆wage_75
+|t:|1743936979
+|gametype|singles
+|player|p1|aeyamq|102|1400
+|player|p2|wage_75|ruinmaniac|1456
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pecharunt|
+|poke|p1|Zamazenta-*|
+|poke|p1|Darkrai|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Tyranitar, F|
+|poke|p1|Excadrill, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Latias, F|
+|poke|p2|Ceruledge, M|
+|poke|p2|Blaziken, M|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1743936983
+|start
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by aeyamq)
+|
+|t:|1743936993
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Tyranitar
+|-status|p1a: Tyranitar|brn
+|move|p1a: Tyranitar|Stealth Rock|p2a: Dragapult
+|-sidestart|p2: wage_75|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|95/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1743937001
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: wage_75|Reflect
+|move|p1a: Tyranitar|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|54/100
+|-enditem|p2a: Dragapult|Light Clay|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|48/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743937009
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: wage_75|move: Light Screen
+|move|p1a: Tyranitar|Thunder Wave|p2a: Dragapult
+|-status|p2a: Dragapult|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|42/100 par|[from] Sandstorm
+|-damage|p1a: Tyranitar|82/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743937017
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Rock Blast|p2a: Great Tusk|[miss]
+|-miss|p1a: Tyranitar|p2a: Great Tusk
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|-damage|p1a: Tyranitar|76/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743937031
+|move|p2a: Great Tusk|Knock Off|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|64/100 brn
+|-enditem|p1a: Tyranitar|Smooth Rock|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Tyranitar|Knock Off|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|98/100
+|-enditem|p2a: Great Tusk|Leftovers|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|58/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743937044
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Great Tusk|Rapid Spin|p1a: Zamazenta
+|-damage|p1a: Zamazenta|92/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: wage_75|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zamazenta|86/100|[from] Sandstorm
+|-heal|p1a: Zamazenta|92/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743937057
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Dragapult|Dragapult, F|42/100 par
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zamazenta|86/100|[from] Sandstorm
+|-damage|p2a: Dragapult|36/100 par|[from] Sandstorm
+|-heal|p1a: Zamazenta|92/100|[from] item: Leftovers
+|-sideend|p2: wage_75|move: Light Screen
+|upkeep
+|turn|8
+|
+|t:|1743937069
+|move|p1a: Zamazenta|Iron Head|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|none
+|-heal|p1a: Zamazenta|98/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743937075
+|switch|p2a: Latias|Latias, F|100/100
+|turn|9
+|
+|t:|1743937099
+|switch|p2a: Great Tusk|Great Tusk|98/100
+|-terastallize|p1a: Zamazenta|Steel
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|100/100|[from] item: Leftovers
+|-sideend|p2: wage_75|Reflect
+|upkeep
+|turn|10
+|
+|t:|1743937113
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Blaziken|Blaziken, M|100/100
+|move|p1a: Zamazenta|Body Press|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|
+|upkeep
+|
+|t:|1743937116
+|switch|p2a: Latias|Latias, F|100/100
+|turn|11
+|
+|t:|1743937121
+|move|p1a: Zamazenta|Body Press|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|38/100
+|move|p2a: Latias|Agility|p2a: Latias
+|-boost|p2a: Latias|spe|2
+|
+|upkeep
+|turn|12
+|
+|t:|1743937128
+|move|p2a: Latias|Stored Power|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|90/100
+|move|p1a: Zamazenta|Body Press|p2a: Latias
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|-heal|p1a: Zamazenta|96/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743937133
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|13
+|
+|t:|1743937138
+|move|p1a: Zamazenta|Iron Head|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|27/100
+|move|p2a: Hatterene|Mystical Fire|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|52/100
+|-unboost|p1a: Zamazenta|spa|1
+|
+|-heal|p1a: Zamazenta|58/100|[from] item: Leftovers
+|-heal|p2a: Hatterene|33/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743937147
+|move|p1a: Zamazenta|Iron Head|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-heal|p1a: Zamazenta|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743937149
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|15
+|
+|t:|1743937155
+|move|p1a: Zamazenta|Iron Head|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|77/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-heal|p1a: Zamazenta|71/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743937166
+|switch|p1a: Tyranitar|Tyranitar, F|58/100 brn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ceruledge|71/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|51/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743937175
+|-terastallize|p2a: Ceruledge|Fire
+|move|p2a: Ceruledge|Bitter Blade|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-heal|p2a: Ceruledge|100/100|[from] drain|[of] p1a: Tyranitar
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ceruledge|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743937200
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|-item|p1a: Excadrill|Air Balloon
+|turn|18
+|
+|t:|1743937216
+|switch|p2a: Great Tusk|Great Tusk|98/100
+|move|p1a: Excadrill|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743937228
+|switch|p1a: Zamazenta|Zamazenta, tera:Steel|71/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|65/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Zamazenta|71/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743937238
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Ceruledge|Ceruledge, M, tera:Fire|94/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-weather|none
+|-heal|p1a: Zamazenta|77/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743937247
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Ceruledge|Bitter Blade|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|42/100
+|-heal|p2a: Ceruledge|100/100|[from] drain|[of] p1a: Zamazenta
+|
+|-heal|p1a: Zamazenta|48/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743937258
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-heal|p1a: Zamazenta|55/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743937264
+|move|p1a: Zamazenta|Body Press|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-heal|p1a: Zamazenta|61/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1743937275
+|move|p2a: Ceruledge|Bitter Blade|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|-heal|p2a: Ceruledge|41/100|[from] drain|[of] p1a: Zamazenta
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1743937284
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|25
+|
+|t:|1743937286
+|move|p2a: Ceruledge|Bitter Blade|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|-heal|p2a: Ceruledge|94/100|[from] drain|[of] p1a: Darkrai
+|faint|p1a: Darkrai
+|
+|upkeep
+|-message|aeyamq forfeited.
+|
+|win|wage_75
+|raw|aeyamq's rating: 1400 &rarr; <strong>1383</strong><br />(-17 for losing)
+|raw|wage_75's rating: 1456 &rarr; <strong>1473</strong><br />(+17 for winning)
+|l|☆aeyamq
+|player|p1|
+|l|☆wage_75
+|player|p2|

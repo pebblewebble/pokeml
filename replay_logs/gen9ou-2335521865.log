@@ -1,0 +1,492 @@
+|j|☆MyLifeHasNoMeaning
+|j|☆fredpalas
+|t:|1743802231
+|gametype|singles
+|player|p1|MyLifeHasNoMeaning|unknown|1352
+|player|p2|fredpalas|steven|1340
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Heatran, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Greninja-*, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Garchomp, M|
+|poke|p1|Tsareena, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Skeledirge, M|
+|poke|p2|Glimmora, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fredpalas)
+|
+|t:|1743802265
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Glimmora|atk|1
+|-item|p2a: Glimmora|Air Balloon
+|turn|1
+|
+|t:|1743802276
+|move|p1a: Landorus|U-turn|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|86/100
+|-enditem|p2a: Glimmora|Air Balloon
+|
+|t:|1743802283
+|switch|p1a: Garchomp|Garchomp, M|100/100|[from] U-turn
+|move|p2a: Glimmora|Toxic|p1a: Garchomp
+|-status|p1a: Garchomp|tox
+|
+|-damage|p1a: Garchomp|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1743802290
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Garchomp|Stone Edge|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|67/100
+|
+|-heal|p2a: Corviknight|73/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|82/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1743802297
+|switch|p1a: BroPls|Heatran, F|100/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|79/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743802306
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: BroPls|atk|1
+|move|p1a: BroPls|Magma Storm|p2a: Landorus
+|-damage|p2a: Landorus|36/100
+|-activate|p2a: Landorus|move: Magma Storm|[of] p1a: BroPls
+|
+|-damage|p2a: Landorus|23/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1743802315
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-end|p2a: Landorus|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|6
+|
+|t:|1743802331
+|switch|p2a: Corviknight|Corviknight, M|79/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Landorus|Stone Edge|p2a: Corviknight
+|-damage|p2a: Corviknight|58/100
+|
+|-heal|p2a: Corviknight|64/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743802342
+|switch|p1a: BroPls|Heatran, F|100/100
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|39/100
+|
+|-heal|p2a: Corviknight|45/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743802347
+|move|p1a: BroPls|Taunt|p2a: Corviknight
+|-start|p2a: Corviknight|move: Taunt
+|cant|p2a: Corviknight|move: Taunt|Roost
+|
+|-heal|p2a: Corviknight|51/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743802358
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: BroPls|Magma Storm|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|74/100
+|-activate|p2a: Dragapult|move: Magma Storm|[of] p1a: BroPls
+|
+|-damage|p2a: Dragapult|62/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|t:|1743802387
+|move|p2a: Dragapult|Shadow Ball|p1a: BroPls
+|-damage|p1a: BroPls|65/100
+|move|p1a: BroPls|Taunt|p2a: Dragapult
+|-start|p2a: Dragapult|move: Taunt
+|
+|-heal|p1a: BroPls|71/100|[from] item: Leftovers
+|-damage|p2a: Dragapult|49/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|11
+|
+|t:|1743802401
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|58/100
+|
+|-end|p2a: Dragapult|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|12
+|
+|t:|1743802409
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Toxapex|Baneful Bunker||[still]
+|-fail|p1a: Toxapex
+|
+|upkeep
+|turn|13
+|
+|t:|1743802415
+|move|p2a: Ogerpon|Horn Leech|p1a: Toxapex
+|-damage|p1a: Toxapex|32/100
+|-damage|p2a: Ogerpon|84/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|82/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743802419
+|move|p2a: Ogerpon|Horn Leech|p1a: Toxapex
+|-damage|p1a: Toxapex|54/100
+|-heal|p2a: Ogerpon|98/100|[from] drain|[of] p1a: Toxapex
+|-damage|p2a: Ogerpon|81/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|move|p1a: Toxapex|Infestation|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|74/100
+|-activate|p2a: Ogerpon|move: Infestation|[of] p1a: Toxapex
+|
+|-damage|p2a: Ogerpon|62/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1743802425
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Ogerpon|Taunt|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-damage|p2a: Ogerpon|49/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|t:|1743802435
+|move|p2a: Ogerpon|Taunt|p1a: Toxapex
+|-start|p1a: Toxapex|move: Taunt
+|cant|p1a: Toxapex|move: Taunt|Recover
+|
+|-damage|p2a: Ogerpon|37/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|17
+|
+|t:|1743802443
+|move|p2a: Ogerpon|U-turn|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|46/100
+|-damage|p2a: Ogerpon|20/100|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|
+|t:|1743802447
+|switch|p2a: Dragapult|Dragapult, M|49/100|[from] U-turn
+|move|p1a: Toxapex|Infestation|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|48/100
+|-activate|p2a: Dragapult|move: Infestation|[of] p1a: Toxapex
+|
+|-damage|p2a: Dragapult|35/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|18
+|inactive|MyLifeHasNoMeaning has 120 seconds left.
+|
+|t:|1743802489
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|move|p2a: Dragapult|Thunderbolt|p1a: Tsareena
+|-resisted|p1a: Tsareena
+|-damage|p1a: Tsareena|88/100
+|
+|-end|p2a: Dragapult|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|turn|19
+|
+|t:|1743802500
+|switch|p2a: Corviknight|Corviknight, M|51/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Tsareena|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|33/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Tsareena
+|
+|upkeep
+|turn|20
+|
+|t:|1743802505
+|move|p1a: Tsareena|Triple Axel|p2a: Corviknight
+|-damage|p2a: Corviknight|29/100
+|-damage|p2a: Corviknight|22/100
+|-damage|p2a: Corviknight|10/100
+|-hitcount|p2a: Corviknight|3
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|60/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|21
+|
+|t:|1743802516
+|switch|p1a: BroPls|Heatran, F|71/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p1a: BroPls|77/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743802522
+|switch|p2a: Landorus|Landorus-Therian, M|23/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: BroPls|atk|1
+|move|p1a: BroPls|Magma Storm|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-heal|p1a: BroPls|83/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743802529
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|20/100
+|turn|23
+|
+|t:|1743802541
+|switch|p1a: Toxapex|Toxapex, F|79/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Toxapex|[anim] Ivy Cudgel Water
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|61/100
+|
+|upkeep
+|turn|24
+|
+|t:|1743802561
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Ogerpon|Horn Leech|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|-status|p2a: Ogerpon|psn
+|
+|-damage|p2a: Ogerpon|8/100 psn|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1743802567
+|move|p2a: Ogerpon|Horn Leech|p1a: Toxapex
+|-damage|p1a: Toxapex|31/100
+|-heal|p2a: Ogerpon|23/100 psn|[from] drain|[of] p1a: Toxapex
+|-damage|p2a: Ogerpon|7/100 psn|[from] item: Rocky Helmet|[of] p1a: Toxapex
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|81/100
+|
+|-damage|p2a: Ogerpon|0 fnt|[from] psn
+|faint|p2a: Ogerpon
+|upkeep
+|
+|t:|1743802583
+|switch|p2a: Glimmora|Glimmora, F|86/100
+|turn|26
+|
+|t:|1743802596
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Glimmora|atk|1
+|move|p2a: Glimmora|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|
+|-damage|p1a: Landorus|94/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1743802601
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Landorus|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-damage|p1a: Landorus|82/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1743802603
+|switch|p1a: BroPls|Heatran, F|83/100
+|move|p2a: Corviknight|Substitute|p2a: Corviknight
+|-start|p2a: Corviknight|Substitute
+|-damage|p2a: Corviknight|76/100
+|
+|-heal|p1a: BroPls|89/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1743802606
+|move|p1a: BroPls|Taunt|p2a: Corviknight
+|-start|p2a: Corviknight|move: Taunt
+|cant|p2a: Corviknight|move: Taunt|Substitute
+|
+|-heal|p1a: BroPls|95/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1743802612
+|move|p1a: BroPls|Magma Storm|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-end|p2a: Corviknight|Substitute
+|move|p2a: Corviknight|Brave Bird|p1a: BroPls
+|-resisted|p1a: BroPls
+|-damage|p1a: BroPls|80/100
+|-damage|p2a: Corviknight|71/100|[from] Recoil
+|
+|-heal|p1a: BroPls|86/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1743802617
+|switch|p2a: Skeledirge|Skeledirge, M|100/100
+|move|p1a: BroPls|Magma Storm|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|76/100
+|-activate|p2a: Skeledirge|move: Magma Storm|[of] p1a: BroPls
+|
+|-heal|p1a: BroPls|92/100|[from] item: Leftovers
+|-heal|p2a: Skeledirge|82/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|69/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|32
+|
+|t:|1743802623
+|move|p1a: BroPls|Earth Power|p2a: Skeledirge
+|-supereffective|p2a: Skeledirge
+|-damage|p2a: Skeledirge|4/100
+|move|p2a: Skeledirge|Shadow Ball|p1a: BroPls
+|-damage|p1a: BroPls|69/100
+|-unboost|p1a: BroPls|spd|1
+|
+|-heal|p1a: BroPls|75/100|[from] item: Leftovers
+|-heal|p2a: Skeledirge|10/100|[from] item: Leftovers
+|-damage|p2a: Skeledirge|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+|faint|p2a: Skeledirge
+|upkeep
+|
+|t:|1743802629
+|switch|p2a: Glimmora|Glimmora, F|86/100
+|turn|33
+|
+|t:|1743802638
+|switch|p1a: Landorus|Landorus-Therian, M|82/100 tox
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Glimmora|atk|1
+|move|p2a: Glimmora|Earth Power|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-damage|p1a: Landorus|76/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1743802643
+|switch|p2a: Corviknight|Corviknight, M|71/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Landorus|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|67/100
+|
+|t:|1743802646
+|switch|p1a: BroPls|Heatran, F|75/100|[from] U-turn
+|
+|-heal|p1a: BroPls|81/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1743802654
+|switch|p2a: Glimmora|Glimmora, F|86/100
+|move|p1a: BroPls|Magma Storm|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|55/100
+|-activate|p2a: Glimmora|move: Magma Storm|[of] p1a: BroPls
+|
+|-heal|p1a: BroPls|87/100|[from] item: Leftovers
+|-damage|p2a: Glimmora|43/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|36
+|
+|t:|1743802659
+|move|p2a: Glimmora|Toxic|p1a: BroPls
+|-status|p1a: BroPls|tox
+|move|p1a: BroPls|Earth Power|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|-heal|p1a: BroPls|93/100 tox|[from] item: Leftovers
+|-damage|p1a: BroPls|87/100 tox|[from] psn
+|upkeep
+|
+|t:|1743802667
+|switch|p2a: Dragapult|Dragapult, M|35/100
+|turn|37
+|
+|t:|1743802676
+|move|p2a: Dragapult|Shadow Ball|p1a: BroPls
+|-crit|p1a: BroPls
+|-damage|p1a: BroPls|40/100 tox
+|-unboost|p1a: BroPls|spd|1
+|move|p1a: BroPls|Flash Cannon|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: BroPls|46/100 tox|[from] item: Leftovers
+|-damage|p1a: BroPls|34/100 tox|[from] psn
+|upkeep
+|
+|t:|1743802684
+|switch|p2a: Corviknight|Corviknight, M|67/100
+|-ability|p2a: Corviknight|Pressure
+|turn|38
+|
+|t:|1743802686
+|move|p1a: BroPls|Magma Storm|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|win|MyLifeHasNoMeaning
+|raw|MyLifeHasNoMeaning's rating: 1352 &rarr; <strong>1371</strong><br />(+19 for winning)
+|raw|fredpalas's rating: 1340 &rarr; <strong>1321</strong><br />(-19 for losing)
+|l|☆fredpalas
+|player|p2|

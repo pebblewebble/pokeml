@@ -1,0 +1,335 @@
+|j|☆kabutopzboy
+|j|☆RounenRais1405
+|t:|1743794857
+|gametype|singles
+|player|p1|kabutopzboy|n|1219
+|player|p2|RounenRais1405|n|1267
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Politoed, M|
+|poke|p1|Zapdos|
+|poke|p1|Overqwil, M|
+|poke|p1|Blastoise, F|
+|poke|p1|Registeel|
+|poke|p1|Amoonguss, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Pecharunt|
+|poke|p2|Great Tusk|
+|poke|p2|Kingambit, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Dragapult, F|
+|teampreview
+|
+|t:|1743794874
+|start
+|switch|p1a: Toad|Politoed, M|100/100
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-item|p2a: Pecharunt|Air Balloon
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Toad
+|turn|1
+|
+|t:|1743794888
+|switch|p1a: Amoonguss|Amoonguss, M|100/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Amoonguss
+|-damage|p1a: Amoonguss|63/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743794899
+|move|p2a: Pecharunt|Malignant Chain|p1a: Amoonguss
+|-damage|p1a: Amoonguss|31/100
+|move|p1a: Amoonguss|Stun Spore|p2a: Pecharunt
+|-status|p2a: Pecharunt|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743794905
+|switch|p1a: Registeel|Registeel|100/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Registeel
+|-immune|p1a: Registeel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743794911
+|cant|p2a: Pecharunt|par
+|move|p1a: Registeel|Curse|p1a: Registeel
+|-unboost|p1a: Registeel|spe|1
+|-boost|p1a: Registeel|atk|1
+|-boost|p1a: Registeel|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743794920
+|move|p2a: Pecharunt|Parting Shot|p1a: Registeel
+|-fail|p1a: Registeel|unboost|[from] ability: Clear Body|[of] p1a: Registeel
+|move|p1a: Registeel|Curse|p1a: Registeel
+|-unboost|p1a: Registeel|spe|1
+|-boost|p1a: Registeel|atk|1
+|-boost|p1a: Registeel|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743794931
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Registeel|Curse|p1a: Registeel
+|-unboost|p1a: Registeel|spe|1
+|-boost|p1a: Registeel|atk|1
+|-boost|p1a: Registeel|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743794940
+|-terastallize|p2a: Iron Valiant|Ghost
+|move|p2a: Iron Valiant|Aura Sphere|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|38/100
+|move|p1a: Registeel|Iron Head|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|2/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743794955
+|-terastallize|p1a: Registeel|Ghost
+|move|p2a: Iron Valiant|Aura Sphere|p1a: Registeel
+|-immune|p1a: Registeel
+|move|p1a: Registeel|Iron Head|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743794959
+|switch|p2a: Queengambit|Kingambit, F|100/100
+|-activate|p2a: Queengambit|ability: Supreme Overlord
+|-start|p2a: Queengambit|fallen1|[silent]
+|turn|9
+|
+|t:|1743794965
+|move|p2a: Queengambit|Kowtow Cleave|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|4/100
+|move|p1a: Registeel|Rest|p1a: Registeel
+|-status|p1a: Registeel|slp|[from] move: Rest
+|-heal|p1a: Registeel|100/100 slp|[silent]
+|-enditem|p1a: Registeel|Chesto Berry|[eat]
+|-curestatus|p1a: Registeel|slp|[msg]
+|
+|upkeep
+|turn|10
+|
+|t:|1743794974
+|move|p2a: Queengambit|Swords Dance|p2a: Queengambit
+|-boost|p2a: Queengambit|atk|2
+|move|p1a: Registeel|Body Press|p2a: Queengambit
+|-supereffective|p2a: Queengambit
+|-damage|p2a: Queengambit|0 fnt
+|faint|p2a: Queengambit
+|-end|p2a: Queengambit|fallen1|[silent]
+|
+|upkeep
+|
+|t:|1743794981
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|11
+|
+|t:|1743794989
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Registeel
+|-damage|p1a: Registeel|43/100
+|move|p1a: Registeel|Body Press|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|22/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743794997
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Registeel
+|-damage|p1a: Registeel|0 fnt
+|faint|p1a: Registeel
+|
+|upkeep
+|
+|t:|1743795015
+|switch|p1a: Toad|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Toad
+|turn|13
+|
+|t:|1743795019
+|move|p2a: Raging Bolt|Thunderclap|p1a: Toad
+|-supereffective|p1a: Toad
+|-damage|p1a: Toad|0 fnt
+|faint|p1a: Toad
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743795024
+|switch|p1a: Overqwil|Overqwil, M, shiny|100/100
+|turn|14
+|
+|t:|1743795032
+|move|p1a: Overqwil|Poison Jab|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743795035
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|15
+|
+|t:|1743795044
+|switch|p1a: Zapp|Zapdos|100/100
+|move|p2a: Great Tusk|Ice Spinner|p1a: Zapp
+|-supereffective|p1a: Zapp
+|-damage|p1a: Zapp|49/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743795050
+|move|p1a: Zapp|Hurricane|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743795056
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|17
+|
+|t:|1743795062
+|move|p2a: Dragapult|Dragon Darts|p1a: Zapp
+|-damage|p1a: Zapp|11/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Zapp
+|-damage|p1a: Zapp|0 fnt
+|faint|p1a: Zapp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743795080
+|switch|p1a: Bla$t|Blastoise, F|100/100
+|turn|18
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RounenRais1405)
+|
+|t:|1743795083
+|move|p2a: Dragapult|Dragon Darts|p1a: Bla$t
+|-damage|p1a: Bla$t|60/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Bla$t
+|-damage|p1a: Bla$t|15/100
+|move|p1a: Bla$t|Shell Smash|p1a: Bla$t
+|-unboost|p1a: Bla$t|def|1
+|-unboost|p1a: Bla$t|spd|1
+|-boost|p1a: Bla$t|atk|2
+|-boost|p1a: Bla$t|spa|2
+|-boost|p1a: Bla$t|spe|2
+|-enditem|p1a: Bla$t|White Herb
+|-clearnegativeboost|p1a: Bla$t|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Bla$t|21/100|[from] ability: Rain Dish
+|upkeep
+|turn|19
+|
+|t:|1743795098
+|move|p1a: Bla$t|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|27/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Bla$t
+|-damage|p1a: Bla$t|0 fnt
+|faint|p1a: Bla$t
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743795105
+|switch|p1a: Overqwil|Overqwil, M, shiny|100/100
+|turn|20
+|
+|t:|1743795108
+|move|p1a: Overqwil|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|none
+|upkeep
+|
+|t:|1743795110
+|switch|p2a: Pecharunt|Pecharunt|100/100 par
+|-item|p2a: Pecharunt|Air Balloon
+|turn|21
+|
+|t:|1743795119
+|move|p1a: Overqwil|Swords Dance|p1a: Overqwil
+|-boost|p1a: Overqwil|atk|2
+|move|p2a: Pecharunt|Parting Shot|p1a: Overqwil
+|-unboost|p1a: Overqwil|atk|1
+|-unboost|p1a: Overqwil|spa|1
+|
+|upkeep
+|turn|22
+|
+|t:|1743795126
+|move|p1a: Overqwil|Swords Dance|p1a: Overqwil
+|-boost|p1a: Overqwil|atk|2
+|move|p2a: Pecharunt|Hex|p1a: Overqwil
+|-resisted|p1a: Overqwil
+|-damage|p1a: Overqwil|87/100
+|
+|-heal|p1a: Overqwil|93/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743795136
+|move|p1a: Overqwil|Crunch|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|-enditem|p2a: Pecharunt|Air Balloon
+|faint|p2a: Pecharunt
+|
+|win|kabutopzboy
+|raw|kabutopzboy's rating: 1219 &rarr; <strong>1247</strong><br />(+28 for winning)
+|raw|RounenRais1405's rating: 1267 &rarr; <strong>1239</strong><br />(-28 for losing)
+|l|☆RounenRais1405
+|player|p2|
+|l|☆kabutopzboy
+|player|p1|

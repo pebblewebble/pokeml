@@ -1,0 +1,419 @@
+|j|☆Belugea
+|j|☆hugobui0105
+|t:|1743919084
+|gametype|singles
+|player|p1|Belugea|fisherman-gen4|1507
+|player|p2|hugobui0105|scientist-gen4dp|1600
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Sinistcha-Masterpiece|
+|poke|p1|Cinderace, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Gliscor, M|
+|poke|p1|Alomomola, F|
+|poke|p2|Pincurchin, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Iron Crown|
+|poke|p2|Iron Treads|
+|poke|p2|Raging Bolt|
+|poke|p2|Hawlucha, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Belugea)
+|
+|t:|1743919100
+|start
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|switch|p2a: SpongeShock|Pincurchin, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1743919110
+|move|p1a: Weezing|Will-O-Wisp|p2a: SpongeShock
+|-status|p2a: SpongeShock|brn
+|move|p2a: SpongeShock|Spikes|p1a: Weezing
+|-sidestart|p1: Belugea|Spikes
+|
+|-damage|p2a: SpongeShock|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1743919116
+|move|p1a: Weezing|Strange Steam|p2a: SpongeShock
+|-damage|p2a: SpongeShock|67/100 brn
+|-start|p2a: SpongeShock|confusion
+|-activate|p2a: SpongeShock|confusion
+|-damage|p2a: SpongeShock|56/100 brn|[from] confusion
+|
+|-damage|p2a: SpongeShock|50/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743919122
+|move|p1a: Weezing|Strange Steam|p2a: SpongeShock
+|-damage|p2a: SpongeShock|22/100 brn
+|-activate|p2a: SpongeShock|confusion
+|move|p2a: SpongeShock|Pain Split|p1a: Weezing
+|-sethp|p1a: Weezing|60/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: SpongeShock|67/100 brn|[from] move: Pain Split
+|
+|-damage|p2a: SpongeShock|61/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743919130
+|switch|p2a: Dumbo|Iron Treads|100/100
+|-item|p2a: Dumbo|Air Balloon
+|move|p1a: Weezing|Defog|p2a: Dumbo
+|-unboost|p2a: Dumbo|evasion|1
+|-sideend|p1: Belugea|Spikes|[from] move: Defog|[of] p1a: Weezing
+|
+|upkeep
+|turn|5
+|
+|t:|1743919155
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece|100/100
+|move|p2a: Dumbo|Knock Off|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|41/100
+|-enditem|p1a: Sinistcha|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Dumbo
+|
+|upkeep
+|turn|6
+|
+|t:|1743919169
+|move|p2a: Dumbo|Knock Off|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|
+|upkeep
+|
+|t:|1743919175
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|7
+|
+|t:|1743919193
+|move|p1a: Cinderace|Pyro Ball|p2a: Dumbo
+|-supereffective|p2a: Dumbo
+|-damage|p2a: Dumbo|0 fnt
+|-enditem|p2a: Dumbo|Air Balloon
+|faint|p2a: Dumbo
+|-end|p2a: Dumbo|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743919198
+|switch|p2a: SpongeShock|Pincurchin, F|61/100 brn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: SpongeShock
+|turn|8
+|
+|t:|1743919209
+|move|p1a: Cinderace|U-turn|p2a: SpongeShock
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p2a: SpongeShock|21/100 brn
+|
+|t:|1743919213
+|switch|p1a: Gliscor|Gliscor, M|100/100|[from] U-turn
+|move|p2a: SpongeShock|Hydro Pump|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|37/100
+|
+|-damage|p2a: SpongeShock|15/100 brn|[from] brn
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|9
+|
+|t:|1743919219
+|move|p1a: Gliscor|Knock Off|p2a: SpongeShock
+|-damage|p2a: SpongeShock|0 fnt
+|-enditem|p2a: SpongeShock|Terrain Extender|[from] move: Knock Off|[of] p1a: Gliscor
+|faint|p2a: SpongeShock
+|
+|-heal|p1a: Gliscor|49/100 tox|[from] ability: Poison Heal
+|upkeep
+|inactive|hugobui0105 has 120 seconds left.
+|
+|t:|1743919263
+|switch|p2a: Executioner|Iron Valiant, shiny|100/100
+|-activate|p2a: Executioner|ability: Quark Drive
+|-start|p2a: Executioner|quarkdrivespe
+|turn|10
+|
+|t:|1743919270
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Executioner|Ice Punch|p1a: Slowking
+|-damage|p1a: Slowking|74/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743919281
+|switch|p1a: Weezing|Weezing-Galar, F|60/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Executioner|Knock Off|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|48/100
+|-enditem|p1a: Weezing|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Executioner
+|
+|upkeep
+|turn|12
+|
+|t:|1743919296
+|-end|p2a: Executioner|Quark Drive|[silent]
+|switch|p2a: TASER|Iron Crown|100/100
+|move|p1a: Weezing|Pain Split|p2a: TASER
+|-sethp|p2a: TASER|75/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|72/100|[from] move: Pain Split
+|
+|upkeep
+|turn|13
+|
+|t:|1743919306
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-activate|p2a: TASER|ability: Quark Drive
+|-start|p2a: TASER|quarkdrivespa
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: TASER|Tachyon Cutter|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|89/100
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|77/100
+|-hitcount|p1a: Alomomola|2
+|
+|upkeep
+|turn|14
+|
+|t:|1743919321
+|-end|p2a: TASER|Quark Drive|[silent]
+|switch|p2a: Jurassic|Raging Bolt|100/100
+|move|p1a: Alomomola|Mirror Coat||[still]
+|-fail|p1a: Alomomola
+|
+|upkeep
+|turn|15
+|
+|t:|1743919328
+|move|p2a: Jurassic|Rising Voltage|p1a: Alomomola
+|-hint|Rising Voltage's BP doubled on grounded target.
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1743919337
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|turn|16
+|
+|t:|1743919352
+|-end|p2a: Jurassic|Protosynthesis|[silent]
+|switch|p2a: TASER|Iron Crown|75/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743919358
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743919363
+|-end|p2a: TASER|Quark Drive|[silent]
+|switch|p2a: Ronda|Hawlucha, F|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Ronda
+|-damage|p2a: Ronda|9/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743919371
+|move|p1a: Cinderace|U-turn|p2a: Ronda
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Ronda
+|-damage|p2a: Ronda|0 fnt
+|faint|p2a: Ronda
+|
+|t:|1743919378
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743919386
+|switch|p2a: Jurassic|Raging Bolt|100/100
+|turn|19
+|
+|t:|1743919399
+|move|p2a: Jurassic|Calm Mind|p2a: Jurassic
+|-boost|p2a: Jurassic|spa|1
+|-boost|p2a: Jurassic|spd|1
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|
+|t:|1743919414
+|switch|p1a: Gliscor|Gliscor, M|49/100 tox|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Gliscor|62/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|
+|t:|1743919431
+|move|p2a: Jurassic|Dragon Pulse|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-weather|none
+|upkeep
+|
+|t:|1743919441
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|21
+|
+|t:|1743919450
+|move|p1a: Cinderace|Sucker Punch|p2a: Jurassic
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-damage|p2a: Jurassic|66/100
+|move|p2a: Jurassic|Dragon Pulse|p1a: Cinderace
+|-damage|p1a: Cinderace|7/100
+|
+|-heal|p2a: Jurassic|72/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|j| Dionysos
+|l| Dionysos
+|
+|t:|1743919462
+|move|p1a: Cinderace|U-turn|p2a: Jurassic
+|-damage|p2a: Jurassic|52/100
+|
+|t:|1743919470
+|switch|p1a: Weezing|Weezing-Galar, F|72/100|[from] U-turn
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Jurassic|Rising Voltage|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|
+|-heal|p2a: Jurassic|59/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743919475
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|turn|23
+|
+|t:|1743919484
+|-end|p2a: Jurassic|Protosynthesis|[silent]
+|switch|p2a: TASER|Iron Crown|75/100
+|move|p1a: Slowking|Sludge Bomb|p2a: TASER
+|-immune|p2a: TASER
+|
+|upkeep
+|turn|24
+|
+|t:|1743919490
+|move|p2a: TASER|Psychic Noise|p1a: Slowking
+|-damage|p1a: Slowking|70/100
+|-start|p1a: Slowking|move: Heal Block
+|move|p1a: Slowking|Flamethrower|p2a: TASER
+|-supereffective|p2a: TASER
+|-damage|p2a: TASER|31/100
+|
+|upkeep
+|turn|25
+|
+|t:|1743919500
+|move|p2a: TASER|Psychic Noise|p1a: Slowking
+|-damage|p1a: Slowking|37/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743919504
+|switch|p1a: Cinderace|Cinderace, F|7/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1743919510
+|move|p1a: Cinderace|U-turn|p2a: TASER
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p2a: TASER|0 fnt
+|faint|p2a: TASER
+|-end|p2a: TASER|Quark Drive|[silent]
+|
+|t:|1743919516
+|switch|p1a: Slowking|Slowking-Galar, F|70/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|inactive|hugobui0105 has 120 seconds left.
+|inactive|hugobui0105 has 90 seconds left.
+|
+|t:|1743919596
+|switch|p2a: Executioner|Iron Valiant, shiny|100/100
+|turn|27
+|
+|t:|1743919610
+|move|p2a: Executioner|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-enditem|p1a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Executioner
+|faint|p1a: Slowking
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743919614
+|switch|p1a: Cinderace|Cinderace, F|7/100
+|turn|28
+|
+|t:|1743919628
+|move|p1a: Cinderace|Gunk Shot|p2a: Executioner
+|-start|p1a: Cinderace|typechange|Poison|[from] ability: Libero
+|-supereffective|p2a: Executioner
+|-damage|p2a: Executioner|0 fnt
+|faint|p2a: Executioner
+|-end|p2a: Executioner|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743919633
+|switch|p2a: Jurassic|Raging Bolt|59/100
+|turn|29
+|
+|t:|1743919638
+|move|p1a: Cinderace|Gunk Shot|p2a: Jurassic
+|-damage|p2a: Jurassic|3/100
+|move|p2a: Jurassic|Dragon Pulse|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|win|hugobui0105
+|raw|Belugea's rating: 1507 &rarr; <strong>1492</strong><br />(-15 for losing)
+|raw|hugobui0105's rating: 1600 &rarr; <strong>1615</strong><br />(+15 for winning)
+|c|☆Belugea|gg
+|c|☆hugobui0105|gg
+|l|☆hugobui0105
+|player|p2|
+|l|☆Belugea
+|player|p1|

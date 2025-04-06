@@ -1,0 +1,387 @@
+|j|☆LusterSN
+|j|☆dishes_ttv
+|t:|1743898426
+|gametype|singles
+|player|p1|LusterSN|lucas-gen4pt|1632
+|player|p2|dishes_ttv|265|1646
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tornadus, M|
+|poke|p1|Weavile, M|
+|poke|p1|Great Tusk|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Dragapult, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Tinkaton, F|
+|poke|p2|Primarina, M|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1743898454
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Primarina|Primarina, M|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dishes_ttv)
+|
+|t:|1743898462
+|move|p1a: Great Tusk|Headlong Rush|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1743898478
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|turn|2
+|
+|t:|1743898491
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Meowscarada|Flower Trick|p1a: Tornadus
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-resisted|p1a: Tornadus
+|-crit|p1a: Tornadus
+|-damage|p1a: Tornadus|55/100
+|
+|upkeep
+|turn|3
+|inactive|LusterSN has 120 seconds left.
+|
+|t:|1743898525
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: LusterSN|move: Tailwind
+|move|p2a: Meowscarada|Flower Trick|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-crit|p1a: Tornadus
+|-damage|p1a: Tornadus|11/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743898534
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|upkeep
+|
+|t:|1743898540
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|-item|p2a: Tinkaton|Air Balloon
+|turn|5
+|
+|t:|1743898554
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Slowking
+|-damage|p1a: Slowking|59/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743898564
+|move|p2a: Tinkaton|Thunder Wave|p1a: Slowking
+|-status|p1a: Slowking|par
+|move|p1a: Slowking|Thunder Wave|p2a: Tinkaton
+|-status|p2a: Tinkaton|par
+|
+|-sideend|p1: LusterSN|move: Tailwind
+|upkeep
+|turn|7
+|j| pedroemiya
+|
+|t:|1743898571
+|move|p2a: Tinkaton|Stealth Rock|p1a: Slowking
+|-sidestart|p1: LusterSN|move: Stealth Rock
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743898577
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Chilly Reception
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743898583
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|63/100
+|-damage|p1a: Great Tusk|81/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743898588
+|move|p1a: Great Tusk|Rapid Spin|p2a: Great Tusk
+|-damage|p2a: Great Tusk|55/100
+|-boost|p1a: Great Tusk|spe|1
+|-damage|p1a: Great Tusk|65/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|-sideend|p1: LusterSN|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Great Tusk|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|58/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|inactive|LusterSN has 120 seconds left.
+|
+|t:|1743898621
+|move|p1a: Great Tusk|Ice Spinner|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|27/100
+|-damage|p1a: Great Tusk|42/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|move|p2a: Great Tusk|Headlong Rush|p1a: Great Tusk
+|-damage|p1a: Great Tusk|5/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743898646
+|move|p1a: Great Tusk|Ice Spinner|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-damage|p1a: Great Tusk|0 fnt|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743898659
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Tinkaton|Tinkaton, F|100/100 par
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tinkaton|atk|1
+|-ability|p2a: Tinkaton|Mold Breaker
+|-item|p2a: Tinkaton|Air Balloon
+|turn|12
+|
+|t:|1743898675
+|move|p1a: Landorus|Stealth Rock|p2a: Tinkaton
+|-sidestart|p2: dishes_ttv|move: Stealth Rock
+|move|p2a: Tinkaton|Stealth Rock|p1a: Landorus
+|-sidestart|p1: LusterSN|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1743898682
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Landorus|U-turn|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|91/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|t:|1743898690
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from] U-turn
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|14
+|j| theluckywins
+|
+|t:|1743898702
+|-terastallize|p2a: Gholdengo|Fairy
+|move|p1a: Dragapult|Flamethrower|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|38/100
+|-status|p2a: Gholdengo|brn
+|move|p2a: Gholdengo|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Gholdengo|32/100 brn|[from] brn
+|upkeep
+|inactive|LusterSN has 120 seconds left.
+|
+|t:|1743898734
+|switch|p1a: Tornadus|Tornadus, M|11/100
+|turn|15
+|
+|t:|1743898748
+|move|p1a: Tornadus|Bleakwind Storm|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743898752
+|switch|p2a: Tinkaton|Tinkaton, F|100/100 par
+|-damage|p2a: Tinkaton|94/100 par|[from] Stealth Rock
+|-ability|p2a: Tinkaton|Mold Breaker
+|-item|p2a: Tinkaton|Air Balloon
+|turn|16
+|
+|t:|1743898759
+|switch|p1a: Slowking|Slowking-Galar, F|92/100 par
+|cant|p2a: Tinkaton|par
+|
+|upkeep
+|turn|17
+|
+|t:|1743898765
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Slowking
+|-damage|p1a: Slowking|48/100 par
+|move|p1a: Slowking|Future Sight|p2a: Tinkaton
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|18
+|
+|t:|1743898771
+|move|p2a: Tinkaton|Thunder Wave|p1a: Slowking
+|-fail|p1a: Slowking|par
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743898773
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from] Chilly Reception
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tinkaton|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743898778
+|move|p1a: Landorus|U-turn|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|89/100 par
+|-enditem|p2a: Tinkaton|Air Balloon
+|
+|t:|1743898781
+|switch|p1a: Slowking|Slowking-Galar, F|82/100 par|[from] U-turn
+|cant|p2a: Tinkaton|par
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Tinkaton|move: Future Sight
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|74/100 par
+|upkeep
+|turn|20
+|
+|t:|1743898787
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Slowking
+|-damage|p1a: Slowking|50/100 par
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|
+|t:|1743898794
+|switch|p1a: Landorus|Landorus-Therian, M|88/100|[from] Chilly Reception
+|-damage|p1a: Landorus|76/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Tinkaton|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743898813
+|move|p1a: Landorus|Earth Power|p2a: Tinkaton
+|-supereffective|p2a: Tinkaton
+|-crit|p2a: Tinkaton
+|-damage|p2a: Tinkaton|16/100 par
+|-unboost|p2a: Tinkaton|spd|1
+|move|p2a: Tinkaton|Thunder Wave|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1743898821
+|move|p1a: Landorus|Earth Power|p2a: Tinkaton
+|-supereffective|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|
+|-weather|none
+|upkeep
+|
+|t:|1743898830
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1743898832
+|move|p2a: Dragapult|Dragon Darts|p1a: Landorus
+|-damage|p1a: Landorus|38/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743898840
+|switch|p1a: Tornadus|Tornadus, M|11/100
+|turn|24
+|
+|t:|1743898844
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: LusterSN|move: Tailwind
+|move|p2a: Dragapult|Dragon Darts|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|
+|t:|1743898846
+|switch|p1a: Weavile|Weavile, M|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|-ability|p1a: Weavile|Pressure
+|turn|25
+|
+|t:|1743898852
+|move|p1a: Weavile|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Choice Band|[from] move: Knock Off|[of] p1a: Weavile
+|faint|p2a: Dragapult
+|
+|win|LusterSN
+|raw|LusterSN's rating: 1632 &rarr; <strong>1653</strong><br />(+21 for winning)
+|raw|dishes_ttv's rating: 1646 &rarr; <strong>1625</strong><br />(-21 for losing)
+|l| pedroemiya
+|l|☆LusterSN
+|player|p1|
+|l|☆dishes_ttv
+|player|p2|
+|l| theluckywins

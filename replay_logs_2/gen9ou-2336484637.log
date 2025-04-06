@@ -1,0 +1,373 @@
+|j|☆Nsnajaakak
+|j|☆bdypilowenthusiast
+|t:|1743925733
+|gametype|singles
+|player|p1|Nsnajaakak|policeman-gen4|1272
+|player|p2|bdypilowenthusiast|170|1324
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Darkrai|
+|poke|p1|Cresselia, F|
+|poke|p1|Dragonite, F|
+|poke|p1|Iron Treads|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p2|Gliscor, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Skarmory, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Slowking-Galar, F|
+|teampreview
+|
+|t:|1743925746
+|start
+|switch|p1a: Darkrai|Darkrai|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|t:|1743925753
+|move|p2a: Dragapult|U-turn|p1a: Darkrai
+|-supereffective|p1a: Darkrai
+|-damage|p1a: Darkrai|54/100
+|
+|t:|1743925788
+|switch|p2a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|move|p1a: Darkrai|Dark Pulse|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|27/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743925816
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|move|p1a: Darkrai|Dark Pulse|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|50/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743925863
+|move|p1a: Darkrai|Dark Pulse|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|5/100
+|move|p2a: Meowscarada|U-turn|p1a: Darkrai
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-supereffective|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|t:|1743925877
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743925888
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|4
+|
+|t:|1743925901
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Iron Treads|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: bdypilowenthusiast|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1743925911
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|move|p2a: Skarmory|Stealth Rock|p1a: Cresselia
+|-sidestart|p1: Nsnajaakak|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1743925923
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|move|p2a: Skarmory|Whirlwind|p1a: Cresselia
+|drag|p1a: Slowking|Slowking-Galar, M|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743925933
+|move|p2a: Skarmory|Brave Bird|p1a: Slowking
+|-damage|p1a: Slowking|65/100
+|-damage|p2a: Skarmory|86/100|[from] Recoil
+|move|p1a: Slowking|Thunder Wave|p2a: Skarmory
+|-status|p2a: Skarmory|par
+|
+|upkeep
+|turn|8
+|
+|t:|1743925954
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743925965
+|switch|p1a: Iron Treads|Iron Treads|100/100|[from] Chilly Reception
+|-damage|p1a: Iron Treads|97/100|[from] Stealth Rock
+|move|p2a: Skarmory|Whirlwind|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|drag|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743925983
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Skarmory|[anim] Ivy Cudgel Water
+|-damage|p2a: Skarmory|48/100 par
+|move|p2a: Skarmory|Brave Bird|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|-damage|p2a: Skarmory|22/100 par|[from] Recoil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743925999
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|-damage|p1a: Cresselia|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743926004
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Cresselia|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|55/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Cresselia|94/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743926039
+|switch|p2a: Slowking|Slowking-Galar, F|61/100
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Cresselia|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743926052
+|-terastallize|p1a: Cresselia|Poison
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|move|p2a: Slowking|Thunder Wave|p1a: Cresselia|[miss]
+|-miss|p2a: Slowking|p1a: Cresselia
+|
+|-weather|none
+|-heal|p1a: Cresselia|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743926072
+|move|p1a: Cresselia|Stored Power|p2a: Slowking
+|-damage|p2a: Slowking|27/100
+|move|p2a: Slowking|Thunder Wave|p1a: Cresselia|[miss]
+|-miss|p2a: Slowking|p1a: Cresselia
+|
+|upkeep
+|turn|14
+|c|☆bdypilowenthusiast|igga
+|
+|t:|1743926102
+|move|p1a: Cresselia|Stored Power|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1743926148
+|switch|p2a: Meowscarada|Meowscarada, F|5/100
+|turn|15
+|
+|t:|1743926176
+|move|p2a: Meowscarada|Triple Axel|p1a: Cresselia|[miss]
+|-start|p2a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-miss|p2a: Meowscarada|p1a: Cresselia
+|move|p1a: Cresselia|Moonblast|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|upkeep
+|c|☆bdypilowenthusiast|this game is ass
+|
+|t:|1743926199
+|switch|p2a: Dragapult|Dragapult, F|55/100
+|turn|16
+|
+|t:|1743926213
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Cresselia|[miss]
+|-miss|p2a: Dragapult|p1a: Cresselia
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|
+|upkeep
+|turn|17
+|c|☆bdypilowenthusiast|enjoy the win
+|
+|t:|1743926223
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Cresselia
+|-status|p1a: Cresselia|brn
+|move|p1a: Cresselia|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Cresselia|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1743926228
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1743926236
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Cresselia|Stored Power|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p1a: Cresselia|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Cresselia|94/100 brn|[from] brn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|19
+|
+|t:|1743926246
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|move|p1a: Cresselia|Stored Power|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-heal|p1a: Cresselia|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Cresselia|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1743926284
+|switch|p2a: Skarmory|Skarmory, F|22/100 par
+|-damage|p2a: Skarmory|9/100 par|[from] Stealth Rock
+|turn|20
+|
+|t:|1743926291
+|move|p1a: Cresselia|Stored Power|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|faint|p2a: Skarmory
+|
+|-heal|p1a: Cresselia|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Cresselia|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1743926294
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|turn|21
+|
+|t:|1743926303
+|-terastallize|p2a: Ursaluna|Steel
+|move|p1a: Cresselia|Stored Power|p2a: Ursaluna
+|-resisted|p2a: Ursaluna
+|-damage|p2a: Ursaluna|69/100
+|move|p2a: Ursaluna|Ice Punch|p1a: Cresselia
+|-damage|p1a: Cresselia|80/100 brn
+|
+|-heal|p1a: Cresselia|87/100 brn|[from] item: Leftovers
+|-damage|p1a: Cresselia|80/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1743926311
+|move|p1a: Cresselia|Stored Power|p2a: Ursaluna
+|-resisted|p2a: Ursaluna
+|-damage|p2a: Ursaluna|37/100
+|move|p2a: Ursaluna|Ice Punch|p1a: Cresselia
+|-damage|p1a: Cresselia|66/100 brn
+|
+|-heal|p1a: Cresselia|72/100 brn|[from] item: Leftovers
+|-damage|p1a: Cresselia|66/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1743926318
+|move|p1a: Cresselia|Stored Power|p2a: Ursaluna
+|-resisted|p2a: Ursaluna
+|-damage|p2a: Ursaluna|1/100
+|move|p2a: Ursaluna|Rest|p2a: Ursaluna
+|-status|p2a: Ursaluna|slp|[from] move: Rest
+|-heal|p2a: Ursaluna|100/100 slp|[silent]
+|
+|-heal|p1a: Cresselia|72/100 brn|[from] item: Leftovers
+|-damage|p1a: Cresselia|66/100 brn|[from] brn
+|upkeep
+|turn|24
+|c|☆Nsnajaakak|Why aren’t you running flame orb?
+|
+|t:|1743926330
+|move|p1a: Cresselia|Stored Power|p2a: Ursaluna
+|-resisted|p2a: Ursaluna
+|-damage|p2a: Ursaluna|64/100 slp
+|cant|p2a: Ursaluna|slp
+|move|p2a: Ursaluna|Sleep Talk|p2a: Ursaluna
+|move|p2a: Ursaluna|Ice Punch|p1a: Cresselia|[from] move: Sleep Talk
+|-damage|p1a: Cresselia|50/100 brn
+|
+|-heal|p1a: Cresselia|57/100 brn|[from] item: Leftovers
+|-damage|p1a: Cresselia|50/100 brn|[from] brn
+|upkeep
+|turn|25
+|c|☆bdypilowenthusiast|idk sample team
+|
+|t:|1743926341
+|move|p1a: Cresselia|Stored Power|p2a: Ursaluna
+|-resisted|p2a: Ursaluna
+|-damage|p2a: Ursaluna|31/100 slp
+|cant|p2a: Ursaluna|slp
+|move|p2a: Ursaluna|Sleep Talk|p2a: Ursaluna
+|move|p2a: Ursaluna|Ice Punch|p1a: Cresselia|[from] move: Sleep Talk
+|-damage|p1a: Cresselia|36/100 brn
+|
+|-heal|p1a: Cresselia|42/100 brn|[from] item: Leftovers
+|-damage|p1a: Cresselia|36/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1743926352
+|move|p1a: Cresselia|Stored Power|p2a: Ursaluna
+|-resisted|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|win|Nsnajaakak
+|raw|Nsnajaakak's rating: 1272 &rarr; <strong>1301</strong><br />(+29 for winning)
+|raw|bdypilowenthusiast's rating: 1324 &rarr; <strong>1301</strong><br />(-23 for losing)
+|c|☆Nsnajaakak|gg, don’t use slurs

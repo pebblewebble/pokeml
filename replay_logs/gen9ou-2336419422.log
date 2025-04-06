@@ -1,0 +1,417 @@
+|j|☆INGRAMASTER
+|j|☆uncrafting
+|t:|1743914821
+|gametype|singles
+|player|p1|INGRAMASTER|lance|1091
+|player|p2|uncrafting|170|1091
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Serperior, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Blastoise, M|
+|poke|p1|Krookodile, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Garchomp, M|
+|poke|p2|Scizor, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Gliscor, F|
+|poke|p2|Hydreigon, F|
+|poke|p2|Toxicroak, F|
+|teampreview
+|
+|t:|1743914824
+|start
+|switch|p1a: SHELLSHOKER|Blastoise, M, shiny|100/100
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|1
+|
+|t:|1743914835
+|move|p2a: Hydreigon|Dark Pulse|p1a: SHELLSHOKER
+|-damage|p1a: SHELLSHOKER|58/100
+|move|p1a: SHELLSHOKER|Shell Smash|p1a: SHELLSHOKER
+|-unboost|p1a: SHELLSHOKER|def|1
+|-unboost|p1a: SHELLSHOKER|spd|1
+|-boost|p1a: SHELLSHOKER|atk|2
+|-boost|p1a: SHELLSHOKER|spa|2
+|-boost|p1a: SHELLSHOKER|spe|2
+|-enditem|p1a: SHELLSHOKER|White Herb
+|-clearnegativeboost|p1a: SHELLSHOKER|[silent]
+|
+|upkeep
+|turn|2
+|
+|t:|1743914845
+|move|p2a: Hydreigon|Dark Pulse|p1a: SHELLSHOKER
+|-damage|p1a: SHELLSHOKER|15/100
+|cant|p1a: SHELLSHOKER|flinch
+|
+|upkeep
+|turn|3
+|
+|t:|1743914852
+|move|p2a: Hydreigon|Dark Pulse|p1a: SHELLSHOKER
+|-damage|p1a: SHELLSHOKER|0 fnt
+|faint|p1a: SHELLSHOKER
+|
+|upkeep
+|
+|t:|1743914859
+|switch|p1a: Serperior|Serperior, M, shiny|100/100
+|turn|4
+|
+|t:|1743914863
+|move|p2a: Hydreigon|Dark Pulse|p1a: Serperior
+|-damage|p1a: Serperior|58/100
+|cant|p1a: Serperior|flinch
+|
+|-heal|p1a: Serperior|64/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743914873
+|switch|p2a: Toxicroak|Toxicroak, F|100/100
+|move|p1a: Serperior|Glare|p2a: Toxicroak
+|-status|p2a: Toxicroak|par
+|
+|-heal|p1a: Serperior|70/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743914893
+|move|p1a: Serperior|Leaf Storm|p2a: Toxicroak
+|-resisted|p2a: Toxicroak
+|-damage|p2a: Toxicroak|75/100 par
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Toxicroak|Swords Dance|p2a: Toxicroak
+|-boost|p2a: Toxicroak|atk|2
+|
+|-heal|p1a: Serperior|76/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743914919
+|move|p1a: Serperior|Dragon Pulse|p2a: Toxicroak
+|-damage|p2a: Toxicroak|23/100 par
+|cant|p2a: Toxicroak|par
+|
+|-heal|p1a: Serperior|83/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743914927
+|move|p2a: Toxicroak|Sucker Punch|p1a: Serperior
+|-damage|p1a: Serperior|25/100
+|-damage|p2a: Toxicroak|14/100 par|[from] item: Life Orb
+|move|p1a: Serperior|Dragon Pulse|p2a: Toxicroak
+|-damage|p2a: Toxicroak|0 fnt
+|faint|p2a: Toxicroak
+|
+|-heal|p1a: Serperior|32/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743914938
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|9
+|
+|t:|1743914942
+|move|p1a: Serperior|Protect|p1a: Serperior
+|-singleturn|p1a: Serperior|Protect
+|move|p2a: Hydreigon|U-turn|p1a: Serperior
+|-activate|p1a: Serperior|move: Protect
+|
+|-heal|p1a: Serperior|38/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743914955
+|move|p2a: Hydreigon|U-turn|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|9/100
+|
+|t:|1743914960
+|switch|p2a: Scizor|Scizor, M|100/100|[from] U-turn
+|move|p1a: Serperior|Dragon Pulse|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|78/100
+|
+|-heal|p1a: Serperior|15/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743914970
+|move|p1a: Serperior|Protect|p1a: Serperior
+|-singleturn|p1a: Serperior|Protect
+|move|p2a: Scizor|Bullet Punch|p1a: Serperior
+|-activate|p1a: Serperior|move: Protect
+|
+|-heal|p1a: Serperior|21/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743914985
+|move|p2a: Scizor|Bullet Punch|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|
+|t:|1743914997
+|switch|p1a: ENDOH|Cinderace, M, shiny|100/100
+|turn|13
+|
+|t:|1743915014
+|switch|p2a: Rotom|Rotom-Wash, shiny|100/100
+|move|p1a: ENDOH|Pyro Ball|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|67/100
+|-status|p2a: Rotom|brn
+|
+|-heal|p2a: Rotom|74/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|67/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743915047
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Rotom|Pain Split|p1a: Hatterene
+|-sethp|p1a: Hatterene|82/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|86/100 brn|[from] move: Pain Split
+|
+|-heal|p2a: Rotom|92/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|86/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743915071
+|move|p2a: Rotom|Will-O-Wisp|p1a: Hatterene
+|move|p1a: Hatterene|Will-O-Wisp|p2a: Rotom|[from] ability: Magic Bounce
+|-fail|p2a: Rotom|brn
+|move|p1a: Hatterene|Psychic Noise|p2a: Rotom
+|-damage|p2a: Rotom|54/100 brn
+|-start|p2a: Rotom|move: Heal Block
+|
+|-damage|p2a: Rotom|48/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743915094
+|move|p2a: Rotom|Pain Split|p1a: Hatterene
+|-sethp|p1a: Hatterene|64/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|67/100 brn|[from] move: Pain Split
+|move|p1a: Hatterene|Giga Drain|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|20/100 brn
+|-heal|p1a: Hatterene|87/100|[from] drain|[of] p2a: Rotom
+|
+|-damage|p2a: Rotom|13/100 brn|[from] brn
+|-end|p2a: Rotom|move: Heal Block
+|upkeep
+|turn|17
+|
+|t:|1743915121
+|move|p2a: Rotom|Pain Split|p1a: Hatterene
+|-sethp|p1a: Hatterene|50/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Rotom|52/100 brn|[from] move: Pain Split
+|move|p1a: Hatterene|Draining Kiss|p2a: Rotom
+|-damage|p2a: Rotom|27/100 brn
+|-heal|p1a: Hatterene|67/100|[from] drain|[of] p2a: Rotom
+|
+|-heal|p2a: Rotom|33/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|27/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743915135
+|move|p2a: Rotom|Hydro Pump|p1a: Hatterene|[miss]
+|-miss|p2a: Rotom|p1a: Hatterene
+|move|p1a: Hatterene|Psychic Noise|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1743915149
+|switch|p2a: Scizor|Scizor, M|78/100
+|turn|19
+|
+|t:|1743915158
+|-terastallize|p1a: Hatterene|Fire
+|move|p2a: Scizor|Thief|p1a: Hatterene
+|-damage|p1a: Hatterene|9/100
+|move|p1a: Hatterene|Mystical Fire|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1743915169
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|20
+|
+|t:|1743915173
+|move|p2a: Hydreigon|U-turn|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|1/100
+|
+|t:|1743915181
+|switch|p2a: Gliscor|Gliscor, F|100/100|[from] U-turn
+|move|p1a: Hatterene|Draining Kiss|p2a: Gliscor
+|-damage|p2a: Gliscor|55/100
+|-heal|p1a: Hatterene|33/100|[from] drain|[of] p2a: Gliscor
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|21
+|
+|t:|1743915197
+|move|p2a: Gliscor|Earthquake|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-heal|p2a: Gliscor|68/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743915219
+|switch|p1a: Dragonite|Dragonite, M, shiny|100/100
+|turn|22
+|
+|t:|1743915226
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Dragonite|Ice Spinner|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|80/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|
+|t:|1743915238
+|move|p2a: Gliscor|U-turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|96/100
+|
+|t:|1743915247
+|switch|p2a: Hydreigon|Hydreigon, F|100/100|[from] U-turn
+|move|p1a: Dragonite|Ice Spinner|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|2/100
+|
+|upkeep
+|turn|24
+|
+|t:|1743915263
+|switch|p1a: Krookodile|Krookodile, M|100/100
+|move|p2a: Hydreigon|Dragon Pulse|p1a: Krookodile
+|-damage|p1a: Krookodile|59/100
+|
+|upkeep
+|turn|25
+|
+|t:|1743915271
+|move|p2a: Hydreigon|Dragon Pulse|p1a: Krookodile
+|-damage|p1a: Krookodile|19/100
+|move|p1a: Krookodile|Smack Down|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|-ability|p1a: Krookodile|Moxie|boost
+|-boost|p1a: Krookodile|atk|1
+|
+|upkeep
+|
+|t:|1743915299
+|switch|p2a: Gliscor|Gliscor, F|80/100 tox
+|turn|26
+|
+|t:|1743915304
+|move|p2a: Gliscor|Stealth Rock|p1a: Krookodile
+|-sidestart|p1: INGRAMASTER|move: Stealth Rock
+|move|p1a: Krookodile|Smack Down|p2a: Gliscor
+|-damage|p2a: Gliscor|58/100 tox
+|-start|p2a: Gliscor|Smack Down
+|
+|-heal|p2a: Gliscor|70/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|27
+|
+|t:|1743915342
+|move|p2a: Gliscor|Stealth Rock||[still]
+|-fail|p2a: Gliscor
+|move|p1a: Krookodile|Aqua Tail|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|-ability|p1a: Krookodile|Moxie|boost
+|-boost|p1a: Krookodile|atk|1
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by INGRAMASTER)
+|
+|t:|1743915350
+|switch|p2a: Garchomp|Garchomp, M, shiny|100/100
+|turn|28
+|
+|t:|1743915355
+|move|p2a: Garchomp|Earthquake|p1a: Krookodile
+|-damage|p1a: Krookodile|0 fnt
+|faint|p1a: Krookodile
+|
+|upkeep
+|
+|t:|1743915366
+|switch|p1a: Dragonite|Dragonite, M, shiny|96/100
+|-damage|p1a: Dragonite|71/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1743915371
+|move|p2a: Garchomp|Dragon Rush|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1743915376
+|switch|p1a: ENDOH|Cinderace, M, shiny|100/100
+|turn|30
+|
+|t:|1743915382
+|move|p1a: ENDOH|Zen Headbutt|p2a: Garchomp
+|-start|p1a: ENDOH|typechange|Psychic|[from] ability: Libero
+|-damage|p2a: Garchomp|62/100
+|-damage|p1a: ENDOH|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|move|p2a: Garchomp|Dragon Rush|p1a: ENDOH|[miss]
+|-miss|p2a: Garchomp|p1a: ENDOH
+|
+|-heal|p2a: Garchomp|68/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1743915400
+|move|p1a: ENDOH|Zen Headbutt|p2a: Garchomp
+|-damage|p2a: Garchomp|30/100
+|-damage|p1a: ENDOH|76/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|move|p2a: Garchomp|Earthquake|p1a: ENDOH
+|-damage|p1a: ENDOH|0 fnt
+|faint|p1a: ENDOH
+|
+|win|uncrafting
+|raw|INGRAMASTER's rating: 1091 &rarr; <strong>1067</strong><br />(-24 for losing)
+|raw|uncrafting's rating: 1091 &rarr; <strong>1117</strong><br />(+26 for winning)
+|l|☆INGRAMASTER
+|player|p1|
+|l|☆uncrafting
+|player|p2|

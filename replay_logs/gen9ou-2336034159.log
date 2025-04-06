@@ -1,0 +1,152 @@
+|j|☆back2fally2
+|j|‽Uvah
+|t:|1743872051
+|gametype|singles
+|player|p1|back2fally2|janine|1170
+|player|p2|Uvah|clown|1186
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Quaquaval, F|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Gholdengo|
+|poke|p1|Excadrill, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Scizor, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Pachirisu, F|
+|poke|p2|Typhlosion, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by back2fally2)
+|j| reset_scumpy
+|
+|t:|1743872076
+|start
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1743872102
+|move|p1a: Quaquaval|Whirlpool|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|88/100
+|-activate|p2a: Torkoal|move: Whirlpool|[of] p1a: Quaquaval
+|move|p2a: Torkoal|Stealth Rock|p1a: Quaquaval
+|-sidestart|p1: back2fally2|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Torkoal|71/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1743872111
+|move|p1a: Quaquaval|Taunt|p2a: Torkoal
+|-start|p2a: Torkoal|move: Taunt
+|move|p2a: Torkoal|Lava Plume|p1a: Quaquaval
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|79/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Torkoal|54/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|3
+|l| reset_scumpy
+|
+|t:|1743872119
+|move|p1a: Quaquaval|Aqua Step|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|32/100
+|-boost|p1a: Quaquaval|spe|1
+|move|p2a: Torkoal|Lava Plume|p1a: Quaquaval
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|59/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Torkoal|15/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1743872129
+|move|p1a: Quaquaval|Aqua Step|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-boost|p1a: Quaquaval|spe|1
+|faint|p2a: Torkoal
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743872138
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|5
+|
+|t:|1743872151
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Quaquaval|Roost|p1a: Quaquaval
+|-heal|p1a: Quaquaval|100/100
+|-singleturn|p1a: Quaquaval|move: Roost
+|
+|-weather|none
+|-end|p2a: Raging Bolt|Protosynthesis
+|upkeep
+|turn|6
+|
+|t:|1743872164
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Excadrill
+|-immune|p1a: Excadrill
+|
+|-heal|p1a: Excadrill|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743872169
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|
+|upkeep
+|turn|8
+|
+|t:|1743872174
+|-terastallize|p1a: Excadrill|Electric
+|move|p1a: Excadrill|Tera Blast|p2a: Corviknight|[anim] Tera Blast Electric
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1743872191
+|switch|p2a: Pachirisu|Pachirisu, F|100/100
+|turn|9
+|-message|Uvah forfeited.
+|
+|win|back2fally2
+|raw|back2fally2's rating: 1170 &rarr; <strong>1196</strong><br />(+26 for winning)
+|raw|Uvah's rating: 1186 &rarr; <strong>1160</strong><br />(-26 for losing)
+|l|‽Uvah
+|player|p2|
+|l|☆back2fally2
+|player|p1|

@@ -1,0 +1,376 @@
+|j|☆air555
+|j|☆Kidday
+|t:|1743839831
+|gametype|singles
+|player|p1|air555|red|1216
+|player|p2|Kidday|psychic|1261
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, M|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p1|Sceptile, M|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Rotom-Heat|
+|poke|p2|Blastoise, M|
+|poke|p2|Sceptile, M|
+|poke|p2|Golurk|
+|poke|p2|Kingambit, M|
+|poke|p2|Magmortar, M|
+|poke|p2|Grimmsnarl, M|
+|teampreview
+|
+|t:|1743839941
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1743839964
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Kidday|Reflect
+|move|p1a: Great Tusk|Stealth Rock|p2a: Grimmsnarl
+|-sidestart|p2: Kidday|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743839976
+|move|p1a: Great Tusk|Headlong Rush|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|62/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|37/100
+|-unboost|p1a: Great Tusk|spa|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743840003
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Araquanid
+|-damage|p1a: Araquanid|70/100
+|-unboost|p1a: Araquanid|spa|1
+|-damage|p2a: Grimmsnarl|46/100|[from] item: Rocky Helmet|[of] p1a: Araquanid
+|
+|upkeep
+|turn|4
+|
+|t:|1743840015
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: Kidday|move: Light Screen
+|move|p1a: Araquanid|Mirror Coat||[still]
+|-fail|p1a: Araquanid
+|
+|upkeep
+|turn|5
+|
+|t:|1743840043
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Araquanid
+|-unboost|p1a: Araquanid|atk|1
+|-unboost|p1a: Araquanid|spa|1
+|
+|t:|1743840056
+|switch|p2a: Magmortar|Magmortar, M, shiny|100/100|[from] Parting Shot
+|-damage|p2a: Magmortar|76/100|[from] Stealth Rock
+|move|p1a: Araquanid|Sticky Web|p2a: Magmortar
+|-sidestart|p2: Kidday|move: Sticky Web
+|
+|upkeep
+|turn|6
+|
+|t:|1743840073
+|move|p2a: Magmortar|Flamethrower|p1a: Araquanid
+|-damage|p1a: Araquanid|51/100
+|move|p1a: Araquanid|Liquidation|p2a: Magmortar
+|-supereffective|p2a: Magmortar
+|-damage|p2a: Magmortar|23/100
+|-unboost|p2a: Magmortar|def|1
+|
+|upkeep
+|turn|7
+|
+|t:|1743840084
+|move|p2a: Magmortar|Thunderbolt|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1743840093
+|switch|p1a: Great Tusk|Great Tusk|37/100
+|turn|8
+|
+|t:|1743840098
+|move|p1a: Great Tusk|Headlong Rush|p2a: Magmortar
+|-supereffective|p2a: Magmortar
+|-damage|p2a: Magmortar|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Magmortar
+|
+|-sideend|p2: Kidday|Reflect
+|upkeep
+|
+|t:|1743840114
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|46/100
+|-damage|p2a: Grimmsnarl|33/100|[from] Stealth Rock
+|-activate|p2a: Grimmsnarl|move: Sticky Web
+|-unboost|p2a: Grimmsnarl|spe|1
+|turn|9
+|
+|t:|1743840130
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Kidday|Reflect
+|move|p1a: Great Tusk|Headlong Rush|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|7/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743840153
+|move|p1a: Great Tusk|Headlong Rush|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1743840183
+|switch|p2a: Kingambit|Kingambit, M, shiny|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|move: Sticky Web
+|-unboost|p2a: Kingambit|spe|1
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|11
+|
+|t:|1743840191
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Rotom
+|-damage|p1a: Rotom|32/100
+|
+|-heal|p1a: Rotom|38/100|[from] item: Leftovers
+|-sideend|p2: Kidday|move: Light Screen
+|upkeep
+|turn|12
+|
+|t:|1743840202
+|move|p1a: Rotom|Will-O-Wisp|p2a: Kingambit
+|-status|p2a: Kingambit|brn
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Rotom
+|-damage|p1a: Rotom|5/100
+|
+|-heal|p1a: Rotom|11/100|[from] item: Leftovers
+|-damage|p2a: Kingambit|88/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743840217
+|move|p2a: Kingambit|Sucker Punch|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-damage|p2a: Kingambit|82/100 brn|[from] brn
+|upkeep
+|
+|t:|1743840225
+|switch|p1a: Great Tusk|Great Tusk|37/100
+|turn|14
+|
+|t:|1743840233
+|move|p1a: Great Tusk|Headlong Rush|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|35/100 brn
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-enditem|p2a: Kingambit|Weakness Policy
+|-boost|p2a: Kingambit|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Kingambit|spa|2|[from] item: Weakness Policy
+|move|p2a: Kingambit|Brick Break|p1a: Great Tusk
+|-damage|p1a: Great Tusk|1/100
+|
+|-damage|p2a: Kingambit|29/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743840251
+|move|p2a: Kingambit|Sucker Punch|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p2a: Kingambit|23/100 brn|[from] brn
+|upkeep
+|
+|t:|1743840260
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|16
+|
+|t:|1743840271
+|-terastallize|p1a: Gholdengo|Steel
+|move|p1a: Gholdengo|Hex|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|-sideend|p2: Kidday|Reflect
+|upkeep
+|
+|t:|1743840282
+|switch|p2a: Golurk|Golurk, shiny|100/100
+|-damage|p2a: Golurk|94/100|[from] Stealth Rock
+|-activate|p2a: Golurk|move: Sticky Web
+|-unboost|p2a: Golurk|spe|1
+|turn|17
+|
+|t:|1743840308
+|move|p1a: Gholdengo|Make It Rain|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Golurk
+|
+|upkeep
+|
+|t:|1743840320
+|switch|p2a: Blastoise|Blastoise, M, shiny|100/100
+|-damage|p2a: Blastoise|88/100|[from] Stealth Rock
+|-activate|p2a: Blastoise|move: Sticky Web
+|-unboost|p2a: Blastoise|spe|1
+|-enditem|p2a: Blastoise|White Herb
+|-clearnegativeboost|p2a: Blastoise|[silent]
+|turn|18
+|
+|t:|1743840334
+|move|p1a: Gholdengo|Thunder Wave|p2a: Blastoise
+|-status|p2a: Blastoise|par
+|move|p2a: Blastoise|Shell Smash|p2a: Blastoise
+|-unboost|p2a: Blastoise|def|1
+|-unboost|p2a: Blastoise|spd|1
+|-boost|p2a: Blastoise|atk|2
+|-boost|p2a: Blastoise|spa|2
+|-boost|p2a: Blastoise|spe|2
+|
+|upkeep
+|turn|19
+|
+|t:|1743840349
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|move|p2a: Blastoise|Surf|p1a: Ogerpon
+|-damage|p1a: Ogerpon|17/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743840364
+|move|p1a: Ogerpon|Horn Leech|p2a: Blastoise
+|-supereffective|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|-heal|p1a: Ogerpon|69/100|[from] drain|[of] p2a: Blastoise
+|faint|p2a: Blastoise
+|
+|upkeep
+|
+|t:|1743840367
+|switch|p2a: Sceptile|Sceptile, M|100/100
+|-damage|p2a: Sceptile|88/100|[from] Stealth Rock
+|-activate|p2a: Sceptile|move: Sticky Web
+|-unboost|p2a: Sceptile|spe|1
+|-enditem|p2a: Sceptile|White Herb
+|-clearnegativeboost|p2a: Sceptile|[silent]
+|turn|21
+|
+|t:|1743840384
+|switch|p1a: Gholdengo|Gholdengo, tera:Steel|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Sceptile|Leaf Storm|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|69/100
+|-unboost|p2a: Sceptile|spa|2
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|22
+|
+|t:|1743840397
+|-terastallize|p2a: Sceptile|Electric
+|move|p2a: Sceptile|Tera Blast|p1a: Gholdengo|[anim] Tera Blast Electric
+|-damage|p1a: Gholdengo|49/100
+|move|p1a: Gholdengo|Thunder Wave|p2a: Sceptile
+|-immune|p2a: Sceptile
+|
+|upkeep
+|turn|23
+|
+|t:|1743840410
+|move|p2a: Sceptile|Dragon Pulse|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|43/100
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|93/100
+|
+|upkeep
+|turn|24
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kidday)
+|c|☆Kidday|Since you wanna be funny
+|inactive|Kidday has 120 seconds left.
+|inactive|Kidday has 90 seconds left.
+|inactive|Kidday has 60 seconds left.
+|inactive|Kidday has 30 seconds left.
+|inactive|Kidday has 20 seconds left.
+|inactive|Kidday has 15 seconds left.
+|inactive|Kidday has 10 seconds left.
+|inactive|Kidday has 5 seconds left.
+|
+|t:|1743840568
+|move|p2a: Sceptile|Tera Blast|p1a: Gholdengo|[anim] Tera Blast Electric
+|-damage|p1a: Gholdengo|72/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Sceptile
+|-resisted|p2a: Sceptile
+|-damage|p2a: Sceptile|24/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|upkeep
+|turn|25
+|
+|t:|1743840584
+|move|p2a: Sceptile|Tera Blast|p1a: Gholdengo|[anim] Tera Blast Electric
+|-damage|p1a: Gholdengo|53/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Sceptile
+|-resisted|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Sceptile
+|
+|win|air555
+|raw|air555's rating: 1216 &rarr; <strong>1244</strong><br />(+28 for winning)
+|raw|Kidday's rating: 1261 &rarr; <strong>1233</strong><br />(-28 for losing)
+|l|☆air555
+|player|p1|
+|l|☆Kidday
+|player|p2|

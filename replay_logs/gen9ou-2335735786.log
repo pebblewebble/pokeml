@@ -1,0 +1,160 @@
+|j|☆buschlight1984
+|j|☆Tscher
+|t:|1743828009
+|gametype|singles
+|player|p1|buschlight1984|ethan|1218
+|player|p2|Tscher|266|1233
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Iron Moth|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Iron Treads|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Raging Bolt|
+|poke|p2|Donphan, M|
+|poke|p2|Kleavor, M|
+|poke|p2|Slowking, F|
+|poke|p2|Iron Moth|
+|poke|p2|Dragonite, F|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|t:|1743828014
+|start
+|switch|p1a: Rillaboom1|Rillaboom, M|100/100
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom1
+|turn|1
+|
+|t:|1743828026
+|move|p1a: Rillaboom1|Wood Hammer|p2a: Kleavor
+|-enditem|p2a: Kleavor|Focus Sash
+|-damage|p2a: Kleavor|1/100
+|-damage|p1a: Rillaboom1|74/100|[from] Recoil
+|move|p2a: Kleavor|Trailblaze|p1a: Rillaboom1
+|-resisted|p1a: Rillaboom1
+|-damage|p1a: Rillaboom1|61/100
+|-boost|p2a: Kleavor|spe|1
+|
+|-heal|p2a: Kleavor|7/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom1|68/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Tscher)
+|
+|t:|1743828050
+|switch|p1a: morb|Iron Moth, shiny|100/100
+|-enditem|p1a: morb|Booster Energy
+|-activate|p1a: morb|ability: Quark Drive|[fromitem]
+|-start|p1a: morb|quarkdrivespe
+|move|p2a: Kleavor|X-Scissor|p1a: morb
+|-resisted|p1a: morb
+|-damage|p1a: morb|74/100
+|
+|-heal|p1a: morb|80/100|[from] Grassy Terrain
+|-heal|p2a: Kleavor|13/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1743828062
+|move|p1a: morb|Fiery Dance|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|-boost|p1a: morb|spa|1
+|faint|p2a: Kleavor
+|
+|-heal|p1a: morb|86/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743828068
+|switch|p2a: Donphan|Donphan, M|100/100
+|turn|4
+|
+|t:|1743828085
+|-terastallize|p1a: morb|Fairy
+|move|p1a: morb|Fiery Dance|p2a: Donphan
+|-damage|p2a: Donphan|16/100
+|move|p2a: Donphan|Endeavor|p1a: morb
+|-damage|p1a: morb|20/100
+|
+|-heal|p1a: morb|26/100|[from] Grassy Terrain
+|-heal|p2a: Donphan|22/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1743828095
+|move|p2a: Donphan|Ice Shard|p1a: morb
+|-damage|p1a: morb|5/100
+|move|p1a: morb|Fiery Dance|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|-heal|p1a: morb|11/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1743828100
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|6
+|
+|t:|1743828105
+|move|p2a: Dragonite|Extreme Speed|p1a: morb
+|-damage|p1a: morb|0 fnt
+|faint|p1a: morb
+|-end|p1a: morb|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743828126
+|switch|p1a: Rillaboom1|Rillaboom, M|68/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom1
+|turn|7
+|
+|t:|1743828131
+|move|p1a: Rillaboom1|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|71/100
+|-enditem|p2a: Dragonite|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Rillaboom1
+|move|p2a: Dragonite|Ice Spinner|p1a: Rillaboom1
+|-supereffective|p1a: Rillaboom1
+|-damage|p1a: Rillaboom1|1/100
+|-fieldend|move: Grassy Terrain
+|
+|upkeep
+|turn|8
+|
+|t:|1743828142
+|switch|p1a: Slowking1|Slowking-Galar, M|100/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|9
+|
+|t:|1743828148
+|move|p2a: Dragonite|Earthquake|p1a: Slowking1
+|-supereffective|p1a: Slowking1
+|-damage|p1a: Slowking1|0 fnt
+|faint|p1a: Slowking1
+|
+|upkeep
+|-message|buschlight1984 forfeited.
+|
+|win|Tscher
+|raw|buschlight1984's rating: 1218 &rarr; <strong>1194</strong><br />(-24 for losing)
+|raw|Tscher's rating: 1233 &rarr; <strong>1257</strong><br />(+24 for winning)
+|l|☆buschlight1984
+|player|p1|
+|l|☆Tscher
+|player|p2|

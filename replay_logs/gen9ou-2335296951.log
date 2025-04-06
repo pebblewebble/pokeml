@@ -1,0 +1,301 @@
+|j|☆froggyfroggy3
+|j|☆SlurredMo
+|t:|1743782450
+|gametype|singles
+|player|p1|froggyfroggy3|drayden|1201
+|player|p2|SlurredMo|psychic|1252
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Cresselia, F|
+|poke|p1|Golem-Alola, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Hydrapple, F|
+|poke|p1|Frosmoth, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Alomomola, F|
+|poke|p2|Florges, F|
+|poke|p2|Kyurem|
+|poke|p2|Heatran, M|
+|poke|p2|Cryogonal|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by froggyfroggy3)
+|inactive|froggyfroggy3 has 120 seconds left.
+|
+|t:|1743782505
+|start
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|1
+|
+|t:|1743782515
+|move|p1a: Slowking|Future Sight|p2a: Slowking
+|-start|p1a: Slowking|move: Future Sight
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743782519
+|switch|p2a: Cryogonal|Cryogonal|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743782523
+|move|p2a: Cryogonal|Aurora Veil|p2a: Cryogonal
+|-sidestart|p2: SlurredMo|move: Aurora Veil
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743782531
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|
+|t:|1743782540
+|switch|p1a: Golem|Golem-Alola, F, shiny|100/100|[from] Chilly Reception
+|move|p2a: Cryogonal|Blizzard|p1a: Golem
+|-damage|p1a: Golem|52/100
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Cryogonal|move: Future Sight
+|-damage|p2a: Cryogonal|77/100
+|upkeep
+|turn|4
+|
+|t:|1743782552
+|move|p1a: Golem|Gyro Ball|p2a: Cryogonal
+|-supereffective|p2a: Cryogonal
+|-damage|p2a: Cryogonal|49/100
+|move|p2a: Cryogonal|Blizzard|p1a: Golem
+|-damage|p1a: Golem|4/100
+|-status|p1a: Golem|frz
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743782561
+|cant|p1a: Golem|frz
+|move|p2a: Cryogonal|Recover|p2a: Cryogonal
+|-heal|p2a: Cryogonal|99/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1743782570
+|-curestatus|p1a: Golem|frz|[msg]
+|move|p1a: Golem|Explosion|p2a: Cryogonal
+|-damage|p2a: Cryogonal|0 fnt
+|faint|p1a: Golem
+|faint|p2a: Cryogonal
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743782593
+|switch|p2a: Heatran|Heatran, M|100/100
+|switch|p1a: Slowking|Slowking-Galar, M, shiny|100/100
+|turn|7
+|
+|t:|1743782599
+|move|p2a: Heatran|Taunt|p1a: Slowking
+|-start|p1a: Slowking|move: Taunt
+|cant|p1a: Slowking|move: Taunt|Trick Room
+|
+|upkeep
+|turn|8
+|
+|t:|1743782603
+|move|p2a: Heatran|Magma Storm|p1a: Slowking
+|-damage|p1a: Slowking|65/100
+|-activate|p1a: Slowking|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Slowking|Future Sight|p2a: Heatran
+|-start|p1a: Slowking|move: Future Sight
+|
+|-damage|p1a: Slowking|53/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|t:|1743782609
+|move|p2a: Heatran|Earth Power|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|8/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Heatran
+|-immune|p2a: Heatran
+|
+|-damage|p1a: Slowking|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+|faint|p1a: Slowking
+|-sideend|p2: SlurredMo|move: Aurora Veil
+|upkeep
+|
+|t:|1743782620
+|switch|p1a: Hydrapple|Hydrapple, F, shiny|100/100
+|turn|10
+|
+|t:|1743782646
+|-terastallize|p2a: Heatran|Grass
+|move|p2a: Heatran|Magma Storm|p1a: Hydrapple
+|-damage|p1a: Hydrapple|73/100
+|-activate|p1a: Hydrapple|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Hydrapple|Earth Power|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|90/100
+|
+|-end|p2a: Heatran|move: Future Sight
+|-damage|p2a: Heatran|53/100
+|-heal|p2a: Heatran|59/100|[from] item: Leftovers
+|-damage|p1a: Hydrapple|61/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|11
+|inactive|SlurredMo has 120 seconds left.
+|inactive|froggyfroggy3 has 120 seconds left.
+|
+|t:|1743782684
+|move|p2a: Heatran|Magma Storm|p1a: Hydrapple
+|-damage|p1a: Hydrapple|33/100
+|move|p1a: Hydrapple|Fickle Beam|p2a: Heatran
+|-damage|p2a: Heatran|33/100
+|
+|-heal|p2a: Heatran|39/100|[from] item: Leftovers
+|-damage|p1a: Hydrapple|21/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|12
+|inactive|froggyfroggy3 has 120 seconds left.
+|inactive|SlurredMo has 120 seconds left.
+|
+|t:|1743782696
+|move|p2a: Heatran|Magma Storm|p1a: Hydrapple
+|-damage|p1a: Hydrapple|0 fnt
+|faint|p1a: Hydrapple
+|
+|-heal|p2a: Heatran|45/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743782706
+|switch|p1a: Frosmoth|Frosmoth, F, shiny|100/100
+|turn|13
+|inactive|froggyfroggy3 has 120 seconds left.
+|
+|t:|1743782716
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|-terastallize|p1a: Frosmoth|Fire
+|move|p1a: Frosmoth|Blizzard|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|67/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743782724
+|move|p1a: Frosmoth|Giga Drain|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|1/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|15
+|
+|t:|1743782738
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|switch|p2a: Florges|Florges, F|100/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743782767
+|switch|p2a: Alomomola|Alomomola, F|35/100
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|upkeep
+|turn|17
+|inactive|froggyfroggy3 has 120 seconds left.
+|
+|t:|1743782813
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Cresselia|Psychic|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|upkeep
+|
+|t:|1743782818
+|switch|p2a: Heatran|Heatran, M, tera:Grass|45/100
+|turn|18
+|
+|t:|1743782826
+|switch|p1a: Ursaluna|Ursaluna, F, shiny|100/100
+|move|p2a: Heatran|Magma Storm|p1a: Ursaluna|[miss]
+|-miss|p2a: Heatran|p1a: Ursaluna
+|
+|-heal|p2a: Heatran|100/100|[from] move: Wish|[wisher] Alomomola
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|19
+|inactive|SlurredMo has 120 seconds left.
+|
+|t:|1743782859
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Ursaluna|Facade|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1743782868
+|switch|p2a: Florges|Florges, F|100/100
+|turn|20
+|inactive|SlurredMo has 120 seconds left.
+|
+|t:|1743782875
+|move|p1a: Ursaluna|Facade|p2a: Florges
+|-damage|p2a: Florges|0 fnt
+|faint|p2a: Florges
+|
+|-damage|p1a: Ursaluna|88/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|inactive|SlurredMo has 120 seconds left.
+|
+|t:|1743782898
+|switch|p2a: Heatran|Heatran, M, tera:Grass|100/100
+|turn|21
+|inactive|froggyfroggy3 has 120 seconds left.
+|
+|t:|1743782936
+|move|p2a: Heatran|Magma Storm|p1a: Ursaluna|[miss]
+|-miss|p2a: Heatran|p1a: Ursaluna
+|move|p1a: Ursaluna|Facade|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|-damage|p1a: Ursaluna|82/100 brn|[from] brn
+|upkeep
+|-message|SlurredMo forfeited.
+|
+|win|froggyfroggy3
+|raw|froggyfroggy3's rating: 1201 &rarr; <strong>1230</strong><br />(+29 for winning)
+|raw|SlurredMo's rating: 1252 &rarr; <strong>1223</strong><br />(-29 for losing)
+|l|☆SlurredMo
+|player|p2|
+|l|☆froggyfroggy3
+|player|p1|

@@ -1,0 +1,153 @@
+|j|☆Sunym
+|j|☆lupiit
+|t:|1743835867
+|gametype|singles
+|player|p1|Sunym|nate|1177
+|player|p2|lupiit|dragontamer|1128
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Great Tusk|
+|poke|p1|Slither Wing|
+|poke|p1|Venusaur, M|
+|poke|p1|Walking Wake|
+|poke|p1|Heatran, F|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Glimmora, M|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Incineroar, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Rillaboom, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sunym)
+|
+|t:|1743835875
+|start
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|1
+|
+|t:|1743835883
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|move|p1a: Slither Wing|U-turn|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|77/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Sunym|move: Toxic Spikes
+|
+|t:|1743835909
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Walking Wake|Walking Wake|100/100|[from] U-turn
+|-status|p1a: Walking Wake|psn
+|
+|-damage|p1a: Walking Wake|88/100 psn|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1743835913
+|switch|p2a: Peace|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Peace
+|move|p1a: Walking Wake|Hydro Steam|p2a: Peace
+|-resisted|p2a: Peace
+|-damage|p2a: Peace|73/100
+|
+|-heal|p1a: Walking Wake|94/100 psn|[from] Grassy Terrain
+|-heal|p2a: Peace|79/100|[from] Grassy Terrain
+|-damage|p1a: Walking Wake|82/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1743835923
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-status|p1a: Torkoal|psn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Peace|U-turn|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|90/100 psn
+|
+|t:|1743835925
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100|[from] U-turn
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Torkoal|97/100 psn|[from] Grassy Terrain
+|-damage|p1a: Torkoal|84/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743835931
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: lupiit|move: Aurora Veil
+|move|p1a: Torkoal|Rapid Spin|p2a: Ninetales
+|-damage|p2a: Ninetales|95/100
+|-boost|p1a: Torkoal|spe|1
+|-sideend|p1: Sunym|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Torkoal
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Ninetales|100/100|[from] Grassy Terrain
+|-heal|p1a: Torkoal|90/100 psn|[from] Grassy Terrain
+|-damage|p1a: Torkoal|78/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743835935
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|move|p1a: Torkoal|Stealth Rock|p2a: Hoopa
+|-sidestart|p2: lupiit|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Torkoal|84/100 psn|[from] Grassy Terrain
+|-damage|p1a: Torkoal|72/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743835939
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|move|p2a: Hoopa|Calm Mind|p2a: Hoopa
+|-boost|p2a: Hoopa|spa|1
+|-boost|p2a: Hoopa|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743835946
+|-terastallize|p2a: Hoopa|Fairy
+|move|p2a: Hoopa|Substitute|p2a: Hoopa
+|-start|p2a: Hoopa|Substitute
+|-damage|p2a: Hoopa|76/100
+|move|p1a: Slither Wing|Earthquake|p2a: Hoopa
+|-activate|p2a: Hoopa|move: Substitute|[damage]
+|
+|-weather|none
+|-heal|p2a: Hoopa|82/100|[from] Grassy Terrain
+|-heal|p2a: Hoopa|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|l|☆Sunym
+|inactive|Sunym disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|Sunym has 30 seconds to reconnect!
+|inactive|Sunym has 20 seconds to reconnect!
+|inactive|Sunym has 15 seconds to reconnect!
+|inactive|Sunym has 10 seconds to reconnect!
+|inactive|Sunym has 5 seconds to reconnect!
+|-message|Sunym lost due to inactivity.
+|
+|win|lupiit
+|raw|Sunym's rating: 1177 &rarr; <strong>1152</strong><br />(-25 for losing)
+|raw|lupiit's rating: 1173 &rarr; <strong>1198</strong><br />(+25 for winning)
+|l|☆lupiit
+|player|p2|

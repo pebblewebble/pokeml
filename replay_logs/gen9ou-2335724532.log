@@ -1,0 +1,346 @@
+|j|☆Arabesca
+|j|☆killerx100pre
+|t:|1743826403
+|gametype|singles
+|player|p1|Arabesca|mom-hoenn|1097
+|player|p2|killerx100pre|alder|1164
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Scizor, F|
+|poke|p1|Quaquaval, F|
+|poke|p1|Sandy Shocks|
+|poke|p1|Iron Jugulis|
+|poke|p1|Oricorio-Pom-Pom, F|
+|poke|p2|Ninetales, F|
+|poke|p2|Walking Wake|
+|poke|p2|Raging Bolt|
+|poke|p2|Scovillain, F|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Torkoal, M|
+|teampreview
+|
+|t:|1743826412
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1743826438
+|switch|p2a: Scovillain|Scovillain, F|100/100
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Arabesca|move: Light Screen
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743826453
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Arabesca|Reflect
+|move|p2a: Scovillain|Growth|p2a: Scovillain
+|-boost|p2a: Scovillain|atk|2
+|-boost|p2a: Scovillain|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743826462
+|move|p1a: Grimmsnarl|Taunt|p2a: Scovillain
+|-start|p2a: Scovillain|move: Taunt
+|cant|p2a: Scovillain|move: Taunt|Growth
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743826470
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Scovillain
+|-unboost|p2a: Scovillain|atk|1
+|-unboost|p2a: Scovillain|spa|1
+|
+|t:|1743826474
+|switch|p1a: Iron Jugulis|Iron Jugulis|100/100|[from] Parting Shot
+|-enditem|p1a: Iron Jugulis|Booster Energy
+|-activate|p1a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Jugulis|quarkdrivespe
+|move|p2a: Scovillain|Fire Blast|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|27/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743826491
+|move|p1a: Iron Jugulis|Hurricane|p2a: Scovillain
+|-supereffective|p2a: Scovillain
+|-enditem|p2a: Scovillain|Focus Sash
+|-damage|p2a: Scovillain|1/100
+|-start|p2a: Scovillain|confusion
+|-activate|p2a: Scovillain|confusion
+|-damage|p2a: Scovillain|0 fnt|[from] confusion
+|faint|p2a: Scovillain
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743826514
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|6
+|
+|t:|1743826540
+|move|p1a: Iron Jugulis|Earth Power|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|53/100
+|move|p2a: Raging Bolt|Volt Switch|p1a: Iron Jugulis
+|-supereffective|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|0 fnt
+|faint|p1a: Iron Jugulis
+|-end|p1a: Iron Jugulis|Quark Drive|[silent]
+|
+|t:|1743826572
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Walking Wake|Walking Wake|100/100|[from] Volt Switch
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743826576
+|switch|p1a: Oricorio|Oricorio-Pom-Pom, F|100/100
+|turn|7
+|
+|t:|1743826588
+|move|p2a: Walking Wake|Draco Meteor|p1a: Oricorio
+|-damage|p1a: Oricorio|38/100
+|-unboost|p2a: Walking Wake|spa|2
+|move|p1a: Oricorio|Quiver Dance|p1a: Oricorio
+|-boost|p1a: Oricorio|spa|1
+|-boost|p1a: Oricorio|spd|1
+|-boost|p1a: Oricorio|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743826600
+|move|p2a: Walking Wake|Draco Meteor|p1a: Oricorio
+|-damage|p1a: Oricorio|18/100
+|-unboost|p2a: Walking Wake|spa|2
+|move|p1a: Oricorio|Roost|p1a: Oricorio
+|-heal|p1a: Oricorio|68/100
+|-singleturn|p1a: Oricorio|move: Roost
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|-sideend|p1: Arabesca|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1743826620
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Oricorio|Quiver Dance|p1a: Oricorio
+|-boost|p1a: Oricorio|spa|1
+|-boost|p1a: Oricorio|spd|1
+|-boost|p1a: Oricorio|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: Arabesca|Reflect
+|upkeep
+|turn|10
+|
+|t:|1743826640
+|move|p1a: Oricorio|Quiver Dance|p1a: Oricorio
+|-boost|p1a: Oricorio|spa|1
+|-boost|p1a: Oricorio|spd|1
+|-boost|p1a: Oricorio|spe|1
+|move|p2a: Torkoal|Fire Blast|p1a: Oricorio
+|-damage|p1a: Oricorio|32/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743826652
+|move|p1a: Oricorio|Roost|p1a: Oricorio
+|-heal|p1a: Oricorio|82/100
+|-singleturn|p1a: Oricorio|move: Roost
+|move|p2a: Torkoal|Fire Blast|p1a: Oricorio|[miss]
+|-miss|p2a: Torkoal|p1a: Oricorio
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743826666
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|move|p1a: Oricorio|Quiver Dance|p1a: Oricorio
+|-boost|p1a: Oricorio|spa|1
+|-boost|p1a: Oricorio|spd|1
+|-boost|p1a: Oricorio|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743826677
+|move|p1a: Oricorio|Revelation Dance|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743826693
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|14
+|
+|t:|1743826700
+|move|p1a: Oricorio|Air Slash|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-crit|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743826709
+|switch|p2a: Raging Bolt|Raging Bolt|53/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|15
+|
+|t:|1743826716
+|move|p2a: Raging Bolt|Thunderclap|p1a: Oricorio
+|-damage|p1a: Oricorio|60/100
+|move|p1a: Oricorio|Revelation Dance|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Raging Bolt|41/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743826729
+|move|p1a: Oricorio|Roost|p1a: Oricorio
+|-heal|p1a: Oricorio|100/100
+|-singleturn|p1a: Oricorio|move: Roost
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-weather|none
+|-end|p2a: Raging Bolt|Protosynthesis
+|-heal|p2a: Raging Bolt|47/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743826742
+|move|p1a: Oricorio|Air Slash|p2a: Raging Bolt|[miss]
+|-miss|p1a: Oricorio|p2a: Raging Bolt
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-heal|p2a: Raging Bolt|54/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743826752
+|move|p1a: Oricorio|Air Slash|p2a: Raging Bolt|[miss]
+|-miss|p1a: Oricorio|p2a: Raging Bolt
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-heal|p2a: Raging Bolt|60/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743826762
+|move|p1a: Oricorio|Quiver Dance|p1a: Oricorio
+|-boost|p1a: Oricorio|spa|1
+|-boost|p1a: Oricorio|spd|1
+|-boost|p1a: Oricorio|spe|1
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-heal|p2a: Raging Bolt|66/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743826774
+|move|p1a: Oricorio|Quiver Dance|p1a: Oricorio
+|-boost|p1a: Oricorio|spa|1
+|-boost|p1a: Oricorio|spd|1
+|-boost|p1a: Oricorio|spe|1
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-heal|p2a: Raging Bolt|72/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743826785
+|move|p1a: Oricorio|Air Slash|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|60/100
+|cant|p2a: Raging Bolt|flinch
+|
+|-heal|p2a: Raging Bolt|66/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743826794
+|-terastallize|p1a: Oricorio|Ground
+|move|p1a: Oricorio|Revelation Dance|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|7/100
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-heal|p2a: Raging Bolt|13/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743826811
+|move|p1a: Oricorio|Revelation Dance|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Arabesca)
+|-message|killerx100pre forfeited.
+|
+|win|Arabesca
+|raw|Arabesca's rating: 1097 &rarr; <strong>1127</strong><br />(+30 for winning)
+|raw|killerx100pre's rating: 1164 &rarr; <strong>1134</strong><br />(-30 for losing)
+|l|☆killerx100pre
+|player|p2|
+|l|☆Arabesca
+|player|p1|

@@ -1,0 +1,287 @@
+|j|☆guesyo
+|j|☆2(H2O)-Alt
+|t:|1743932057
+|gametype|singles
+|player|p1|guesyo|unknownf|1631
+|player|p2|2(H2O)-Alt|chase|1796
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, F|
+|poke|p1|Zapdos|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Weavile, M|
+|poke|p2|Great Tusk|
+|poke|p2|Kingambit, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Iron Moth|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 2(H2O)-Alt)
+|
+|t:|1743932075
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|
+|t:|1743932083
+|move|p2a: Deoxys|Taunt|p1a: Zapdos
+|-start|p1a: Zapdos|move: Taunt
+|cant|p1a: Zapdos|move: Taunt|Thunder Wave
+|
+|upkeep
+|turn|2
+|
+|t:|1743932087
+|move|p2a: Deoxys|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: guesyo|move: Stealth Rock
+|move|p1a: Zapdos|Volt Switch|p2a: Deoxys
+|-damage|p2a: Deoxys|54/100
+|
+|t:|1743932091
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from] Volt Switch
+|-damage|p1a: Slowking|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1743932094
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|69/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743932103
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Great Tusk|Close Combat|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|75/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-enditem|p2a: Great Tusk|Eject Pack
+|
+|t:|1743932112
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|
+|upkeep
+|turn|5
+|
+|t:|1743932115
+|move|p2a: Weavile|Knock Off|p1a: Zapdos
+|-damage|p1a: Zapdos|24/100
+|-status|p2a: Weavile|par|[from] ability: Static|[of] p1a: Zapdos
+|-enditem|p1a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Weavile
+|-damage|p2a: Weavile|91/100 par|[from] item: Life Orb
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|74/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|upkeep
+|turn|6
+|
+|t:|1743932122
+|move|p1a: Zapdos|Volt Switch|p2a: Weavile
+|-damage|p2a: Weavile|49/100 par
+|
+|t:|1743932124
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] Volt Switch
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|move|p2a: Weavile|Triple Axel|p1a: Ogerpon
+|-damage|p1a: Ogerpon|70/100
+|-damage|p1a: Ogerpon|36/100
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|-hitcount|p1: Ogerpon|3
+|-damage|p2a: Weavile|39/100 par|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743932134
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-damage|p1a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|7
+|
+|t:|1743932142
+|move|p1a: Zamazenta|Stone Edge|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|t:|1743932144
+|switch|p2a: Deoxys|Deoxys-Speed|54/100
+|-ability|p2a: Deoxys|Pressure
+|turn|8
+|
+|t:|1743932148
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-terastallize|p1a: Zamazenta|Dark
+|move|p1a: Zamazenta|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1743932154
+|switch|p2a: Deoxys|Deoxys-Speed|54/100
+|-ability|p2a: Deoxys|Pressure
+|turn|9
+|
+|t:|1743932157
+|switch|p1a: Zapdos|Zapdos|74/100
+|-damage|p1a: Zapdos|49/100|[from] Stealth Rock
+|move|p2a: Deoxys|Focus Blast|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|28/100
+|-damage|p2a: Deoxys|44/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|t:|1743932160
+|move|p2a: Deoxys|Psycho Boost|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-unboost|p2a: Deoxys|spa|2
+|faint|p1a: Zapdos
+|-damage|p2a: Deoxys|35/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743932166
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|turn|11
+|
+|t:|1743932168
+|move|p2a: Deoxys|Psycho Boost|p1a: Great Tusk|[miss]
+|-miss|p2a: Deoxys|p1a: Great Tusk
+|move|p1a: Great Tusk|Rapid Spin|p2a: Deoxys
+|-damage|p2a: Deoxys|8/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: guesyo|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|12
+|
+|t:|1743932173
+|move|p2a: Deoxys|Psycho Boost|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Deoxys|spa|2
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: Deoxys|0 fnt|[from] item: Life Orb
+|faint|p2a: Deoxys
+|
+|upkeep
+|
+|t:|1743932197
+|switch|p2a: Great Tusk|Great Tusk|69/100
+|switch|p1a: Zamazenta|Zamazenta, tera:Dark|94/100
+|turn|13
+|
+|t:|1743932203
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Great Tusk|Close Combat|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|85/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|14
+|
+|t:|1743932209
+|move|p2a: Great Tusk|Headlong Rush|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1743932211
+|switch|p1a: Zamazenta|Zamazenta, tera:Dark|94/100
+|turn|15
+|
+|t:|1743932217
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Zamazenta|Stone Edge|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743932219
+|switch|p2a: Great Tusk|Great Tusk|69/100
+|turn|16
+|
+|t:|1743932224
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|move|p2a: Great Tusk|Close Combat|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|
+|t:|1743932225
+|switch|p1a: Zamazenta|Zamazenta, tera:Dark|94/100
+|turn|17
+|
+|t:|1743932230
+|move|p1a: Zamazenta|Close Combat|p2a: Great Tusk
+|-damage|p2a: Great Tusk|6/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|move|p2a: Great Tusk|Close Combat|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Zamazenta
+|
+|win|2(H2O)-Alt
+|raw|guesyo's rating: 1631 &rarr; <strong>1620</strong><br />(-11 for losing)
+|raw|2(H2O)-Alt's rating: 1796 &rarr; <strong>1807</strong><br />(+11 for winning)
+|j| jsnsddk
+|l|☆guesyo
+|player|p1|
+|l|☆2(H2O)-Alt
+|player|p2|
+|l| jsnsddk

@@ -1,0 +1,390 @@
+|j|☆UTF4N
+|j|☆AGWsoph
+|t:|1743842059
+|gametype|singles
+|player|p1|UTF4N|palmer|1230
+|player|p2|AGWsoph|maylene|1355
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cyclizar, M|
+|poke|p1|Volcanion|
+|poke|p1|Chesnaught, F|
+|poke|p1|Fezandipiti, M|
+|poke|p1|Azelf|
+|poke|p1|Quagsire, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Great Tusk|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|t:|1743842073
+|start
+|switch|p1a: Fezandipiti|Fezandipiti, M|100/100
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|1
+|
+|t:|1743842080
+|move|p1a: Fezandipiti|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|79/100
+|
+|t:|1743842085
+|switch|p1a: Quagsire|Quagsire, F|100/100|[from] U-turn
+|move|p2a: Slowking|Psychic Noise|p1a: Quagsire
+|-damage|p1a: Quagsire|63/100
+|-start|p1a: Quagsire|move: Heal Block
+|
+|upkeep
+|turn|2
+|
+|t:|1743842091
+|move|p1a: Quagsire|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|20/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743842095
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Quagsire|move: Heal Block
+|upkeep
+|turn|3
+|
+|t:|1743842099
+|move|p2a: Samurott|Ceaseless Edge|p1a: Quagsire
+|-damage|p1a: Quagsire|14/100
+|-sidestart|p1: UTF4N|Spikes
+|move|p1a: Quagsire|Toxic|p2a: Samurott
+|-status|p2a: Samurott|tox
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Quagsire|20/100|[from] item: Leftovers
+|-damage|p2a: Samurott|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743842103
+|move|p1a: Quagsire|Protect|p1a: Quagsire
+|-singleturn|p1a: Quagsire|Protect
+|move|p2a: Samurott|Ceaseless Edge|p1a: Quagsire
+|-activate|p1a: Quagsire|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Quagsire|26/100|[from] item: Leftovers
+|-damage|p2a: Samurott|82/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743842111
+|switch|p1a: Cyclizar|Cyclizar, M|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Cyclizar
+|-damage|p1a: Cyclizar|0 fnt
+|-sidestart|p1: UTF4N|Spikes
+|faint|p1a: Cyclizar
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Samurott|63/100 tox|[from] psn
+|upkeep
+|
+|t:|1743842116
+|switch|p1a: Azelf|Azelf|100/100
+|turn|6
+|
+|t:|1743842123
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: Azelf|Stealth Rock|p2a: Deoxys
+|-sidestart|p2: AGWsoph|move: Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1743842128
+|move|p2a: Deoxys|Knock Off|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-damage|p1a: Azelf|28/100
+|-enditem|p1a: Azelf|Focus Sash|[from] move: Knock Off|[of] p2a: Deoxys
+|move|p1a: Azelf|Taunt|p2a: Deoxys
+|-start|p2a: Deoxys|move: Taunt
+|
+|upkeep
+|turn|8
+|
+|t:|1743842132
+|move|p2a: Deoxys|Knock Off|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|
+|upkeep
+|
+|t:|1743842136
+|switch|p1a: Chesnaught|Chesnaught, F|100/100
+|-damage|p1a: Chesnaught|84/100|[from] Spikes
+|turn|9
+|
+|t:|1743842142
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|move|p1a: Chesnaught|Spiky Shield||[still]
+|-fail|p1a: Chesnaught
+|
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|-heal|p1a: Chesnaught|90/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743842150
+|move|p2a: Rotom|Will-O-Wisp|p1a: Chesnaught
+|-status|p1a: Chesnaught|brn
+|move|p1a: Chesnaught|Leech Seed|p2a: Rotom
+|-start|p2a: Rotom|move: Leech Seed
+|
+|-heal|p2a: Rotom|100/100|[from] item: Leftovers
+|-heal|p1a: Chesnaught|96/100 brn|[from] item: Leftovers
+|-damage|p2a: Rotom|88/100|[from] Leech Seed|[of] p1a: Chesnaught
+|-heal|p1a: Chesnaught|100/100 brn|[silent]
+|-damage|p1a: Chesnaught|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743842156
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Chesnaught|Iron Defense|p1a: Chesnaught
+|-boost|p1a: Chesnaught|def|2
+|
+|-heal|p1a: Chesnaught|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Chesnaught|94/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743842161
+|move|p2a: Great Tusk|Rapid Spin|p1a: Chesnaught
+|-damage|p1a: Chesnaught|89/100 brn
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: AGWsoph|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Chesnaught|Leech Seed|p2a: Great Tusk|[miss]
+|-miss|p1a: Chesnaught|p2a: Great Tusk
+|
+|-heal|p1a: Chesnaught|95/100 brn|[from] item: Leftovers
+|-damage|p1a: Chesnaught|89/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743842167
+|move|p2a: Great Tusk|Stealth Rock|p1a: Chesnaught
+|-sidestart|p1: UTF4N|move: Stealth Rock
+|move|p1a: Chesnaught|Iron Defense|p1a: Chesnaught
+|-boost|p1a: Chesnaught|def|2
+|
+|-heal|p1a: Chesnaught|95/100 brn|[from] item: Leftovers
+|-damage|p1a: Chesnaught|89/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743842173
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: Chesnaught|Leech Seed|p2a: Deoxys
+|-start|p2a: Deoxys|move: Leech Seed
+|
+|-heal|p1a: Chesnaught|95/100 brn|[from] item: Leftovers
+|-damage|p2a: Deoxys|88/100|[from] Leech Seed|[of] p1a: Chesnaught
+|-heal|p1a: Chesnaught|100/100 brn|[silent]
+|-damage|p1a: Chesnaught|94/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743842177
+|move|p1a: Chesnaught|Spiky Shield|p1a: Chesnaught
+|-singleturn|p1a: Chesnaught|move: Protect
+|move|p2a: Deoxys|Psycho Boost|p1a: Chesnaught
+|-activate|p1a: Chesnaught|move: Protect
+|
+|-heal|p1a: Chesnaught|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Deoxys|76/100|[from] Leech Seed|[of] p1a: Chesnaught
+|-damage|p1a: Chesnaught|94/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743842186
+|-terastallize|p1a: Chesnaught|Water
+|move|p2a: Deoxys|Psycho Boost|p1a: Chesnaught
+|-damage|p1a: Chesnaught|45/100 brn
+|-unboost|p2a: Deoxys|spa|2
+|move|p1a: Chesnaught|Body Press|p2a: Deoxys
+|-resisted|p2a: Deoxys
+|-damage|p2a: Deoxys|32/100
+|
+|-heal|p1a: Chesnaught|51/100 brn|[from] item: Leftovers
+|-damage|p2a: Deoxys|19/100|[from] Leech Seed|[of] p1a: Chesnaught
+|-heal|p1a: Chesnaught|59/100 brn|[silent]
+|-damage|p1a: Chesnaught|53/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743842201
+|switch|p2a: Slowking|Slowking-Galar, M|54/100
+|move|p1a: Chesnaught|Spiky Shield||[still]
+|-fail|p1a: Chesnaught
+|
+|-heal|p1a: Chesnaught|59/100 brn|[from] item: Leftovers
+|-damage|p1a: Chesnaught|53/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743842207
+|move|p1a: Chesnaught|Leech Seed|p2a: Slowking
+|-start|p2a: Slowking|move: Leech Seed
+|move|p2a: Slowking|Psychic Noise|p1a: Chesnaught
+|-damage|p1a: Chesnaught|31/100 brn
+|-start|p1a: Chesnaught|move: Heal Block
+|
+|-damage|p2a: Slowking|41/100|[from] Leech Seed|[of] p1a: Chesnaught
+|-damage|p1a: Chesnaught|25/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1743842217
+|move|p1a: Chesnaught|Body Press|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|28/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Chesnaught
+|-immune|p1a: Chesnaught|[from] ability: Bulletproof
+|
+|-damage|p2a: Slowking|16/100|[from] Leech Seed|[of] p1a: Chesnaught
+|-damage|p1a: Chesnaught|19/100 brn|[from] brn
+|-end|p1a: Chesnaught|move: Heal Block
+|upkeep
+|turn|20
+|
+|t:|1743842228
+|move|p1a: Chesnaught|Body Press|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|4/100
+|move|p2a: Slowking|Psychic Noise|p1a: Chesnaught
+|-crit|p1a: Chesnaught
+|-damage|p1a: Chesnaught|0 fnt
+|faint|p1a: Chesnaught
+|
+|upkeep
+|
+|t:|1743842237
+|switch|p1a: Quagsire|Quagsire, F|26/100
+|-damage|p1a: Quagsire|10/100|[from] Spikes
+|-damage|p1a: Quagsire|4/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1743842244
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|54/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743842253
+|switch|p2a: Deoxys|Deoxys-Speed|19/100|[from] Chilly Reception
+|-ability|p2a: Deoxys|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Quagsire|60/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743842257
+|move|p2a: Deoxys|Trick|p1a: Quagsire
+|-activate|p2a: Deoxys|move: Trick|[of] p1a: Quagsire
+|-item|p1a: Quagsire|Choice Scarf|[from] move: Trick
+|-item|p2a: Deoxys|Leftovers|[from] move: Trick
+|move|p1a: Quagsire|Earthquake|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743842261
+|switch|p2a: Rotom|Rotom-Wash|88/100
+|turn|23
+|
+|t:|1743842266
+|switch|p1a: Fezandipiti|Fezandipiti, M|100/100
+|-damage|p1a: Fezandipiti|84/100|[from] Spikes
+|-damage|p1a: Fezandipiti|72/100|[from] Stealth Rock
+|move|p2a: Rotom|Volt Switch|p1a: Fezandipiti
+|-damage|p1a: Fezandipiti|50/100
+|
+|t:|1743842275
+|switch|p2a: Kingambit|Kingambit, M|100/100|[from] Volt Switch
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1743842283
+|move|p1a: Fezandipiti|Play Rough|p2a: Kingambit
+|-damage|p2a: Kingambit|72/100
+|-enditem|p2a: Kingambit|Air Balloon
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1743842290
+|move|p1a: Fezandipiti|Play Rough|p2a: Kingambit
+|-damage|p2a: Kingambit|46/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Fezandipiti
+|-resisted|p1a: Fezandipiti
+|-damage|p1a: Fezandipiti|0 fnt
+|faint|p1a: Fezandipiti
+|
+|-weather|none
+|upkeep
+|
+|t:|1743842294
+|switch|p1a: Quagsire|Quagsire, F|60/100
+|-damage|p1a: Quagsire|43/100|[from] Spikes
+|-damage|p1a: Quagsire|37/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1743842298
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Rotom|Rotom-Wash|88/100
+|move|p1a: Quagsire|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|-heal|p2a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|-message|UTF4N forfeited.
+|
+|win|AGWsoph
+|raw|UTF4N's rating: 1230 &rarr; <strong>1214</strong><br />(-16 for losing)
+|raw|AGWsoph's rating: 1355 &rarr; <strong>1368</strong><br />(+13 for winning)
+|l|☆UTF4N
+|player|p1|
+|l|☆AGWsoph
+|player|p2|

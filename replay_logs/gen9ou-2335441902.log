@@ -1,0 +1,301 @@
+|j|☆dct_spite
+|j|☆armpit fan!
+|t:|1743794614
+|gametype|singles
+|player|p1|dct_spite|janitor|1580
+|player|p2|armpit fan!|lady-gen4|1504
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Deoxys-Speed|
+|poke|p1|Iron Moth|
+|poke|p1|Iron Valiant|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Hydrapple, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Jirachi|
+|poke|p2|Dragapult, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Slowking-Galar, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dct_spite)
+|
+|t:|1743794645
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|
+|t:|1743794647
+|move|p1a: Deoxys|Taunt|p2a: Jirachi
+|-start|p2a: Jirachi|move: Taunt
+|cant|p2a: Jirachi|move: Taunt|Thunder Wave
+|
+|upkeep
+|turn|2
+|
+|t:|1743794653
+|move|p1a: Deoxys|Stealth Rock|p2a: Jirachi
+|-sidestart|p2: armpit fan!|move: Stealth Rock
+|move|p2a: Jirachi|Iron Head|p1a: Deoxys
+|-damage|p1a: Deoxys|68/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743794657
+|move|p1a: Deoxys|Spikes|p2a: Jirachi
+|-sidestart|p2: armpit fan!|Spikes
+|move|p2a: Jirachi|Ice Punch|p1a: Deoxys
+|-damage|p1a: Deoxys|45/100
+|
+|-end|p2a: Jirachi|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1743794660
+|move|p1a: Deoxys|Taunt|p2a: Jirachi
+|-start|p2a: Jirachi|move: Taunt
+|move|p2a: Jirachi|Ice Punch|p1a: Deoxys
+|-damage|p1a: Deoxys|26/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743794668
+|move|p1a: Deoxys|Psycho Boost|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|90/100
+|-unboost|p1a: Deoxys|spa|2
+|move|p2a: Jirachi|Ice Punch|p1a: Deoxys
+|-crit|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|
+|t:|1743794678
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|6
+|
+|t:|1743794683
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Slowking
+|-damage|p2a: Slowking|76/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743794686
+|move|p1a: Iron Moth|Fiery Dance|p2a: Slowking
+|-damage|p2a: Slowking|52/100
+|move|p2a: Slowking|Psychic Noise|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|49/100
+|-start|p1a: Iron Moth|move: Heal Block
+|
+|upkeep
+|turn|8
+|
+|t:|1743794694
+|move|p1a: Iron Moth|Fiery Dance|p2a: Slowking
+|-damage|p2a: Slowking|28/100
+|move|p2a: Slowking|Psychic Noise|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743794699
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Slowking|atk|1
+|turn|9
+|
+|t:|1743794704
+|switch|p2a: Hydrapple|Hydrapple, F|100/100
+|move|p1a: Landorus|U-turn|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|38/100
+|
+|t:|1743794717
+|switch|p1a: Zamazenta|Zamazenta|100/100|[from] U-turn
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743794729
+|switch|p2a: Slowking|Slowking-Galar, F|61/100
+|move|p1a: Zamazenta|Heavy Slam|p2a: Slowking
+|-damage|p2a: Slowking|45/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743794734
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743794753
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743794770
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Iron Valiant
+|-status|p1a: Iron Valiant|brn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Iron Valiant|94/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743794777
+|move|p1a: Iron Valiant|Encore|p2a: Cinderace
+|-start|p2a: Cinderace|Encore
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Iron Valiant
+|-fail|p1a: Iron Valiant|brn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Iron Valiant|88/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743794785
+|switch|p2a: Jirachi|Jirachi|90/100
+|move|p1a: Iron Valiant|Knock Off|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|63/100
+|-enditem|p2a: Jirachi|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Iron Valiant
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Iron Valiant|82/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743794797
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|move|p2a: Jirachi|Iron Head|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|5/100 brn
+|
+|-weather|none
+|-damage|p1a: Iron Valiant|0 fnt|[from] brn
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|upkeep
+|
+|t:|1743794820
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|turn|16
+|
+|t:|1743794830
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|75/100
+|move|p2a: Jirachi|Iron Head|p1a: Zamazenta
+|-activate|p1a: Zamazenta|move: Substitute|[damage]
+|
+|-heal|p1a: Zamazenta|82/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743794838
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Jirachi|Iron Head|p1a: Zamazenta
+|-end|p1a: Zamazenta|Substitute
+|
+|-heal|p1a: Zamazenta|88/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743794842
+|switch|p2a: Slowking|Slowking-Galar, F|79/100
+|move|p1a: Zamazenta|Substitute|p1a: Zamazenta
+|-start|p1a: Zamazenta|Substitute
+|-damage|p1a: Zamazenta|63/100
+|
+|-heal|p1a: Zamazenta|69/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743794849
+|-terastallize|p1a: Zamazenta|Steel
+|move|p1a: Zamazenta|Heavy Slam|p2a: Slowking
+|-damage|p2a: Slowking|53/100
+|move|p2a: Slowking|Psychic Noise|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|58/100
+|-start|p1a: Zamazenta|move: Heal Block
+|
+|upkeep
+|turn|20
+|
+|t:|1743794856
+|move|p1a: Zamazenta|Heavy Slam|p2a: Slowking
+|-damage|p2a: Slowking|30/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743794861
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from] Chilly Reception
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|-damage|p2a: Dragapult|76/100|[from] Spikes
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Zamazenta|move: Heal Block
+|upkeep
+|turn|21
+|
+|t:|1743794866
+|move|p2a: Dragapult|Fire Blast|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|l|☆dct_spite
+|inactive|dct_spite disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|dct_spite has 30 seconds to reconnect!
+|inactive|dct_spite has 20 seconds to reconnect!
+|inactive|dct_spite has 15 seconds to reconnect!
+|inactive|dct_spite has 10 seconds to reconnect!
+|inactive|dct_spite has 5 seconds to reconnect!
+|-message|dct_spite lost due to inactivity.
+|
+|win|armpit fan!
+|raw|dct_spite's rating: 1580 &rarr; <strong>1556</strong><br />(-24 for losing)
+|raw|armpit fan!'s rating: 1504 &rarr; <strong>1528</strong><br />(+24 for winning)

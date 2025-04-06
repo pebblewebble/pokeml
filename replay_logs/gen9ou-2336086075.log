@@ -1,0 +1,522 @@
+|j|☆BadTeamSimulator
+|j|☆UtterlyIncapable
+|t:|1743877368
+|gametype|singles
+|player|p1|BadTeamSimulator|zinzolin|1165
+|player|p2|UtterlyIncapable|roxie|1119
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Moltres|
+|poke|p1|Araquanid, M|
+|poke|p1|Tentacruel, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Venomoth, F|
+|poke|p1|Quaquaval, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Delphox, F|
+|poke|p2|Armarouge, M|
+|poke|p2|Ceruledge, F|
+|poke|p2|Chandelure, M|
+|poke|p2|Salazzle, F|
+|teampreview
+|
+|t:|1743877374
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-enditem|p2a: Torkoal|Eject Pack
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|
+|t:|1743877383
+|switch|p2a: Armarouge|Armarouge, M|100/100
+|turn|1
+|
+|t:|1743877389
+|move|p1a: Landorus|U-turn|p2a: Armarouge
+|-damage|p2a: Armarouge|77/100
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|
+|t:|1743877395
+|switch|p1a: Tentacruel|Tentacruel, F|100/100|[from] U-turn
+|move|p2a: Armarouge|Armor Cannon|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|69/100
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Tentacruel|75/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1743877404
+|move|p2a: Armarouge|Armor Cannon|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|47/100
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Armarouge
+|-sidestart|p2: UtterlyIncapable|move: Toxic Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Tentacruel|53/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1743877409
+|move|p2a: Armarouge|Destiny Bond|p2a: Armarouge
+|-singlemove|p2a: Armarouge|Destiny Bond
+|move|p1a: Tentacruel|Whirlpool|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|54/100
+|-activate|p2a: Armarouge|move: Whirlpool|[of] p1a: Tentacruel
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Tentacruel|59/100|[from] item: Black Sludge
+|-damage|p2a: Armarouge|42/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1743877417
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Armarouge
+|-sidestart|p2: UtterlyIncapable|move: Toxic Spikes
+|move|p2a: Armarouge|Trick Room|p2a: Armarouge
+|-fieldstart|move: Trick Room|[of] p2a: Armarouge
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Tentacruel|65/100|[from] item: Black Sludge
+|-damage|p2a: Armarouge|30/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1743877426
+|move|p1a: Tentacruel|Haze|p1a: Tentacruel
+|-clearallboost
+|move|p2a: Armarouge|Armor Cannon|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-crit|p1a: Tentacruel
+|-damage|p1a: Tentacruel|16/100
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|
+|-weather|none
+|-heal|p1a: Tentacruel|22/100|[from] item: Black Sludge
+|-damage|p2a: Armarouge|17/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|t:|1743877442
+|move|p2a: Armarouge|Armor Cannon|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|3/100
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|move|p1a: Tentacruel|Haze|p1a: Tentacruel
+|-clearallboost
+|
+|-heal|p1a: Tentacruel|9/100|[from] item: Black Sludge
+|-damage|p2a: Armarouge|5/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1743877450
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|move|p2a: Armarouge|Armor Cannon|p1a: Araquanid
+|-damage|p1a: Araquanid|82/100
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|
+|-end|p2a: Armarouge|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|8
+|
+|t:|1743877456
+|switch|p1a: Tentacruel|Tentacruel, F|9/100
+|move|p2a: Armarouge|Armor Cannon|p1a: Tentacruel
+|-resisted|p1a: Tentacruel
+|-damage|p1a: Tentacruel|0 fnt
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|faint|p1a: Tentacruel
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743877464
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|turn|9
+|
+|t:|1743877469
+|move|p1a: Quaquaval|Aqua Step|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|0 fnt
+|-boost|p1a: Quaquaval|spe|1
+|faint|p2a: Armarouge
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1743877476
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|-status|p2a: Chandelure|tox
+|turn|10
+|
+|t:|1743877482
+|-terastallize|p2a: Chandelure|Ghost
+|move|p1a: Quaquaval|Aqua Step|p2a: Chandelure
+|-damage|p2a: Chandelure|50/100 tox
+|-boost|p1a: Quaquaval|spe|1
+|move|p2a: Chandelure|Trick|p1a: Quaquaval
+|-activate|p2a: Chandelure|move: Trick|[of] p1a: Quaquaval
+|-item|p1a: Quaquaval|Lagging Tail|[from] move: Trick
+|-item|p2a: Chandelure|Assault Vest|[from] move: Trick
+|
+|-damage|p2a: Chandelure|44/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743877486
+|move|p2a: Chandelure|Fire Spin|p1a: Quaquaval
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|89/100
+|-activate|p1a: Quaquaval|move: Fire Spin|[of] p2a: Chandelure
+|move|p1a: Quaquaval|Aqua Step|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|-boost|p1a: Quaquaval|spe|1
+|faint|p2a: Chandelure
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|-end|p1a: Quaquaval|Fire Spin|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1743877488
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|-sideend|p2: UtterlyIncapable|move: Toxic Spikes|[of] p2a: Salazzle
+|turn|12
+|
+|t:|1743877493
+|move|p2a: Salazzle|Disable|p1a: Quaquaval
+|-start|p1a: Quaquaval|Disable|Aqua Step
+|cant|p1a: Quaquaval|Disable|Aqua Step
+|
+|upkeep
+|turn|13
+|
+|t:|1743877496
+|move|p2a: Salazzle|Encore|p1a: Quaquaval
+|-start|p1a: Quaquaval|Encore
+|cant|p1a: Quaquaval|Disable|Aqua Step
+|
+|upkeep
+|turn|14
+|
+|t:|1743877501
+|switch|p1a: Araquanid|Araquanid, M|82/100
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743877506
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743877512
+|move|p1a: Landorus|Stealth Rock|p2a: Torkoal
+|-sidestart|p2: UtterlyIncapable|move: Stealth Rock
+|move|p2a: Torkoal|Eruption|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743877517
+|switch|p1a: Moltres|Moltres|100/100
+|turn|17
+|
+|t:|1743877522
+|move|p2a: Torkoal|Rapid Spin|p1a: Moltres
+|-damage|p1a: Moltres|96/100
+|-boost|p2a: Torkoal|spe|1
+|-sideend|p2: UtterlyIncapable|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|move|p1a: Moltres|Roar|p2a: Torkoal
+|drag|p2a: Salazzle|Salazzle, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743877525
+|move|p2a: Salazzle|Encore|p1a: Moltres
+|-start|p1a: Moltres|Encore
+|move|p1a: Moltres|Roar|p2a: Salazzle
+|drag|p2a: Torkoal|Torkoal, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743877536
+|switch|p1a: Quaquaval|Quaquaval, F|89/100
+|move|p2a: Torkoal|Rock Tomb|p1a: Quaquaval
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|82/100
+|-unboost|p1a: Quaquaval|spe|1
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|t:|1743877546
+|switch|p2a: Delphox|Delphox, F|100/100
+|move|p1a: Quaquaval|Knock Off|p2a: Delphox
+|-supereffective|p2a: Delphox
+|-damage|p2a: Delphox|9/100
+|-enditem|p2a: Delphox|White Herb|[from] move: Knock Off|[of] p1a: Quaquaval
+|
+|upkeep
+|turn|21
+|
+|t:|1743877554
+|move|p2a: Delphox|Dazzling Gleam|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-damage|p1a: Quaquaval|12/100
+|-item|p2a: Delphox|Lagging Tail|[from] ability: Magician|[of] p1a: Quaquaval
+|move|p1a: Quaquaval|Knock Off|p2a: Delphox
+|-supereffective|p2a: Delphox
+|-damage|p2a: Delphox|0 fnt
+|-enditem|p2a: Delphox|Lagging Tail|[from] move: Knock Off|[of] p1a: Quaquaval
+|faint|p2a: Delphox
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1743877559
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|turn|22
+|
+|t:|1743877567
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|
+|upkeep
+|
+|t:|1743877570
+|switch|p1a: Araquanid|Araquanid, M|82/100
+|turn|23
+|
+|t:|1743877578
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Araquanid|Liquidation|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|47/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1743877586
+|move|p1a: Araquanid|Liquidation|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743877588
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|turn|25
+|
+|t:|1743877593
+|move|p2a: Ceruledge|Endure|p2a: Ceruledge
+|-singleturn|p2a: Ceruledge|move: Endure
+|move|p1a: Araquanid|Trailblaze|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|92/100
+|-boost|p1a: Araquanid|spe|1
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1743877601
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Araquanid
+|-damage|p1a: Araquanid|60/100
+|move|p1a: Araquanid|Liquidation|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743877605
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|turn|27
+|
+|t:|1743877609
+|move|p2a: Salazzle|Disable|p1a: Araquanid
+|-start|p1a: Araquanid|Disable|Liquidation
+|move|p1a: Araquanid|Infestation|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|99/100
+|-activate|p2a: Salazzle|move: Infestation|[of] p1a: Araquanid
+|
+|-weather|none
+|-heal|p2a: Salazzle|100/100|[from] item: Black Sludge
+|-damage|p2a: Salazzle|88/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|28
+|
+|t:|1743877613
+|move|p2a: Salazzle|Toxic|p1a: Araquanid
+|-status|p1a: Araquanid|tox
+|move|p1a: Araquanid|Trailblaze|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|83/100
+|-boost|p1a: Araquanid|spe|1
+|
+|-heal|p2a: Salazzle|90/100|[from] item: Black Sludge
+|-damage|p1a: Araquanid|54/100 tox|[from] psn
+|-damage|p2a: Salazzle|77/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|29
+|
+|t:|1743877617
+|move|p2a: Salazzle|Encore|p1a: Araquanid
+|-start|p1a: Araquanid|Encore
+|move|p1a: Araquanid|Trailblaze|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|73/100
+|-boost|p1a: Araquanid|spe|1
+|
+|-heal|p2a: Salazzle|79/100|[from] item: Black Sludge
+|-damage|p1a: Araquanid|42/100 tox|[from] psn
+|-damage|p2a: Salazzle|66/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|30
+|
+|t:|1743877622
+|switch|p1a: Moltres|Moltres|96/100
+|move|p2a: Salazzle|Sand Attack|p1a: Moltres
+|-unboost|p1a: Moltres|accuracy|1
+|
+|-heal|p2a: Salazzle|73/100|[from] item: Black Sludge
+|-end|p2a: Salazzle|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|turn|31
+|
+|t:|1743877627
+|move|p2a: Salazzle|Toxic|p1a: Moltres
+|-status|p1a: Moltres|tox
+|move|p1a: Moltres|U-turn|p2a: Salazzle|[miss]
+|-miss|p1a: Moltres|p2a: Salazzle
+|
+|-heal|p2a: Salazzle|79/100|[from] item: Black Sludge
+|-damage|p1a: Moltres|90/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1743877634
+|switch|p1a: Araquanid|Araquanid, M|42/100 tox
+|move|p2a: Salazzle|Disable||[still]
+|-fail|p2a: Salazzle
+|
+|-heal|p2a: Salazzle|85/100|[from] item: Black Sludge
+|-damage|p1a: Araquanid|36/100 tox|[from] psn
+|upkeep
+|turn|33
+|
+|t:|1743877642
+|switch|p1a: Venomoth|Venomoth, F|100/100
+|move|p2a: Salazzle|Sand Attack|p1a: Venomoth
+|-unboost|p1a: Venomoth|accuracy|1
+|
+|-heal|p2a: Salazzle|91/100|[from] item: Black Sludge
+|upkeep
+|turn|34
+|
+|t:|1743877646
+|move|p2a: Salazzle|Sand Attack|p1a: Venomoth
+|-unboost|p1a: Venomoth|accuracy|1
+|move|p1a: Venomoth|Quiver Dance|p1a: Venomoth
+|-boost|p1a: Venomoth|spa|1
+|-boost|p1a: Venomoth|spd|1
+|-boost|p1a: Venomoth|spe|1
+|
+|-heal|p2a: Salazzle|97/100|[from] item: Black Sludge
+|upkeep
+|turn|35
+|
+|t:|1743877650
+|move|p1a: Venomoth|Quiver Dance|p1a: Venomoth
+|-boost|p1a: Venomoth|spa|1
+|-boost|p1a: Venomoth|spd|1
+|-boost|p1a: Venomoth|spe|1
+|move|p2a: Salazzle|Toxic|p1a: Venomoth
+|-status|p1a: Venomoth|tox
+|
+|-heal|p2a: Salazzle|100/100|[from] item: Black Sludge
+|-damage|p1a: Venomoth|94/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|t:|1743877653
+|move|p1a: Venomoth|Quiver Dance|p1a: Venomoth
+|-boost|p1a: Venomoth|spa|1
+|-boost|p1a: Venomoth|spd|1
+|-boost|p1a: Venomoth|spe|1
+|move|p2a: Salazzle|Disable|p1a: Venomoth
+|-start|p1a: Venomoth|Disable|Quiver Dance
+|-enditem|p1a: Venomoth|Mental Herb
+|-end|p1a: Venomoth|Disable
+|
+|-damage|p1a: Venomoth|82/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1743877658
+|move|p1a: Venomoth|Sludge Wave|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|win|BadTeamSimulator
+|raw|BadTeamSimulator's rating: 1165 &rarr; <strong>1187</strong><br />(+22 for winning)
+|raw|UtterlyIncapable's rating: 1119 &rarr; <strong>1097</strong><br />(-22 for losing)
+|l|☆UtterlyIncapable
+|player|p2|
+|l|☆BadTeamSimulator
+|player|p1|

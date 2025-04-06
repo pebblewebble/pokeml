@@ -1,0 +1,348 @@
+|j|☆1006awa
+|j|☆Vangnex
+|t:|1743860141
+|gametype|singles
+|player|p1|1006awa|266|1079
+|player|p2|Vangnex|lady|1076
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gliscor, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Kyurem|
+|poke|p1|Ceruledge, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Blaziken, F|
+|poke|p2|Smeargle, F|
+|poke|p2|Golem, M|
+|poke|p2|Squawkabilly-Blue, M|
+|poke|p2|Cyclizar, F|
+|poke|p2|Whimsicott, M|
+|teampreview
+|
+|t:|1743860155
+|start
+|switch|p1a: Kyurem|Kyurem|100/100
+|switch|p2a: Smeargle|Smeargle, F|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|1
+|
+|t:|1743860173
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Smeargle|Sticky Web|p1a: Kyurem
+|-sidestart|p1: 1006awa|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743860183
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Smeargle|Ceaseless Edge|p1a: Kyurem
+|-damage|p1a: Kyurem|91/100
+|-sidestart|p1: 1006awa|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1743860194
+|move|p1a: Kyurem|Scale Shot|p2a: Smeargle
+|-damage|p2a: Smeargle|30/100
+|-damage|p2a: Smeargle|0 fnt
+|faint|p2a: Smeargle
+|-hitcount|p2: Smeargle|2
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|
+|upkeep
+|
+|t:|1743860197
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|turn|4
+|
+|t:|1743860210
+|move|p2a: Whimsicott|Encore|p1a: Kyurem
+|-start|p1a: Kyurem|Encore
+|move|p1a: Kyurem|Scale Shot|p2a: Whimsicott
+|-immune|p2a: Whimsicott
+|
+|upkeep
+|turn|5
+|
+|t:|1743860230
+|move|p2a: Whimsicott|Leech Seed|p1a: Kyurem
+|-start|p1a: Kyurem|move: Leech Seed
+|move|p1a: Kyurem|Scale Shot|p2a: Whimsicott
+|-immune|p2a: Whimsicott
+|
+|-damage|p1a: Kyurem|79/100|[from] Leech Seed|[of] p2a: Whimsicott
+|upkeep
+|turn|6
+|
+|t:|1743860248
+|switch|p1a: Glimmora|Glimmora, M, shiny|100/100
+|-activate|p1a: Glimmora|move: Sticky Web
+|-unboost|p1a: Glimmora|spe|1
+|-damage|p1a: Glimmora|88/100|[from] Spikes
+|move|p2a: Whimsicott|Moonblast|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|71/100
+|-unboost|p1a: Glimmora|spa|1
+|
+|upkeep
+|turn|7
+|
+|t:|1743860265
+|switch|p2a: Golem|Golem, M|100/100
+|move|p1a: Glimmora|Mortal Spin|p2a: Golem
+|-resisted|p2a: Golem
+|-damage|p2a: Golem|99/100
+|-status|p2a: Golem|psn
+|-sideend|p1: 1006awa|Spikes|[from] move: Mortal Spin|[of] p1a: Glimmora
+|-sideend|p1: 1006awa|Sticky Web|[from] move: Mortal Spin|[of] p1a: Glimmora
+|
+|-damage|p2a: Golem|87/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743860301
+|move|p1a: Glimmora|Earth Power|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|29/100 psn
+|move|p2a: Golem|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-crit|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Vangnex|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|-damage|p2a: Golem|16/100 psn|[from] psn
+|upkeep
+|
+|t:|1743860316
+|switch|p1a: Kyurem|Kyurem|79/100
+|-ability|p1a: Kyurem|Pressure
+|turn|9
+|-enditem|p2a: Golem|Custap Berry|[eat]
+|-activate|p2a: Golem|item: Custap Berry|[consumed]
+|
+|t:|1743860325
+|move|p2a: Golem|Explosion|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p2a: Golem
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|t:|1743860336
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|switch|p2a: Cyclizar|Cyclizar, F|100/100
+|-status|p2a: Cyclizar|psn
+|turn|10
+|
+|t:|1743860349
+|move|p2a: Cyclizar|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|87/100
+|
+|t:|1743860360
+|switch|p2a: Squawkabilly|Squawkabilly-Blue, M|100/100|[from] U-turn
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|93/100|[from] item: Leftovers
+|-status|p2a: Squawkabilly|brn|[from] item: Flame Orb
+|upkeep
+|turn|11
+|
+|t:|1743860385
+|move|p2a: Squawkabilly|Facade|p1a: Hatterene
+|-damage|p1a: Hatterene|14/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Squawkabilly
+|-damage|p2a: Squawkabilly|37/100 brn
+|-heal|p1a: Hatterene|59/100|[from] drain|[of] p2a: Squawkabilly
+|
+|-heal|p1a: Hatterene|65/100|[from] item: Leftovers
+|-damage|p2a: Squawkabilly|31/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743860398
+|move|p2a: Squawkabilly|Facade|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-damage|p2a: Squawkabilly|25/100 brn|[from] brn
+|upkeep
+|
+|t:|1743860406
+|switch|p1a: Ceruledge|Ceruledge, M, shiny|100/100
+|turn|13
+|l|☆1006awa
+|player|p1|
+|j|☆1006awa
+|player|p1|1006awa|266|
+|n|☆1006awa|1006awa
+|
+|t:|1743860479
+|move|p2a: Squawkabilly|Lash Out|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|9/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|
+|-damage|p2a: Squawkabilly|19/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743860493
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Squawkabilly
+|-immune|p2a: Squawkabilly
+|move|p2a: Squawkabilly|Lash Out|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|-damage|p2a: Squawkabilly|13/100 brn|[from] brn
+|upkeep
+|
+|t:|1743860508
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|15
+|
+|t:|1743860518
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|move|p2a: Squawkabilly|Parting Shot|p1a: Raging Bolt
+|-unboost|p1a: Raging Bolt|atk|1
+|-unboost|p1a: Raging Bolt|spa|1
+|
+|t:|1743860527
+|switch|p2a: Cyclizar|Cyclizar, F|100/100 psn|[from] Parting Shot
+|
+|-damage|p2a: Cyclizar|88/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743860541
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Gliscor|Gliscor, M, shiny|100/100
+|move|p2a: Cyclizar|Draco Meteor|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|-unboost|p2a: Cyclizar|spa|2
+|faint|p1a: Gliscor
+|
+|-damage|p2a: Cyclizar|76/100 psn|[from] psn
+|upkeep
+|
+|t:|1743860562
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|17
+|
+|t:|1743860572
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|18
+|
+|t:|1743860586
+|-terastallize|p1a: Raging Bolt|Electric
+|move|p2a: Whimsicott|Encore|p1a: Raging Bolt
+|-start|p1a: Raging Bolt|Encore
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|19
+|
+|t:|1743860596
+|move|p2a: Whimsicott|Leech Seed|p1a: Raging Bolt
+|-start|p1a: Raging Bolt|move: Leech Seed
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-damage|p1a: Raging Bolt|88/100|[from] Leech Seed|[of] p2a: Whimsicott
+|upkeep
+|turn|20
+|
+|t:|1743860605
+|move|p2a: Whimsicott|Moonblast|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|78/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-damage|p1a: Raging Bolt|65/100|[from] Leech Seed|[of] p2a: Whimsicott
+|-end|p1a: Raging Bolt|Encore
+|upkeep
+|turn|21
+|
+|t:|1743860620
+|move|p2a: Whimsicott|Encore|p1a: Raging Bolt
+|-start|p1a: Raging Bolt|Encore
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-damage|p1a: Raging Bolt|53/100|[from] Leech Seed|[of] p2a: Whimsicott
+|upkeep
+|turn|22
+|l|☆1006awa
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Vangnex)
+|j|☆1006awa
+|inactive|1006awa reconnected and has 135 seconds left.
+|player|p1|1006awa|266|
+|
+|t:|1743860712
+|move|p2a: Whimsicott|Moonblast|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|45/100
+|-unboost|p1a: Raging Bolt|spa|1
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-damage|p1a: Raging Bolt|33/100|[from] Leech Seed|[of] p2a: Whimsicott
+|upkeep
+|turn|23
+|
+|t:|1743860733
+|move|p2a: Whimsicott|Moonblast|p1a: Raging Bolt
+|-crit|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|Vangnex
+|raw|1006awa's rating: 1060 &rarr; <strong>1042</strong><br />(-18 for losing)
+|raw|Vangnex's rating: 1076 &rarr; <strong>1103</strong><br />(+27 for winning)
+|l|☆Vangnex
+|player|p2|
+|l|☆1006awa
+|player|p1|

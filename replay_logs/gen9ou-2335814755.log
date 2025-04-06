@@ -1,0 +1,199 @@
+|j|☆CharlyPG
+|j|☆YaBoiDon
+|t:|1743841437
+|gametype|singles
+|player|p1|CharlyPG|1|1182
+|player|p2|YaBoiDon|2|1208
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Moltres-Galar|
+|poke|p1|Clefable, F|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Quaquaval, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Kyurem|
+|poke|p2|Incineroar, M|
+|poke|p2|Lycanroc-Dusk, F|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Kommo-o, F|
+|poke|p2|Mimikyu, M|
+|poke|p2|Primarina, M|
+|teampreview
+|
+|t:|1743841455
+|start
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1743841468
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: YaBoiDon|move: Aurora Veil
+|move|p1a: Slowking|Trick|p2a: Ninetales
+|-activate|p1a: Slowking|move: Trick|[of] p2a: Ninetales
+|-item|p2a: Ninetales|Lagging Tail|[from] move: Trick
+|-item|p1a: Slowking|Light Clay|[from] move: Trick
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743841494
+|move|p1a: Slowking|Sludge Wave|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|38/100
+|move|p2a: Ninetales|Encore|p1a: Slowking
+|-start|p1a: Slowking|Encore
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743841503
+|switch|p2a: Lycanroc|Lycanroc-Dusk, F|100/100
+|move|p1a: Slowking|Sludge Wave|p2a: Lycanroc
+|-resisted|p2a: Lycanroc
+|-damage|p2a: Lycanroc|82/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743841528
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Lycanroc|Drill Run|p1a: Kyurem
+|-crit|p1a: Kyurem
+|-damage|p1a: Kyurem|52/100
+|-damage|p2a: Lycanroc|72/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743841550
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Lycanroc|Play Rough|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|76/100
+|-damage|p2a: Lycanroc|62/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1743841568
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Lycanroc|Stone Edge|p1a: Clefable
+|-damage|p1a: Clefable|33/100
+|-damage|p2a: Lycanroc|52/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|t:|1743841583
+|move|p2a: Lycanroc|Stone Edge|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|-damage|p2a: Lycanroc|42/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743841600
+|switch|p1a: Quaquaval|Quaquaval, M|100/100
+|turn|8
+|
+|t:|1743841604
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Lycanroc|Play Rough|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|75/100
+|-damage|p2a: Lycanroc|32/100|[from] item: Life Orb
+|
+|-sideend|p2: YaBoiDon|move: Aurora Veil
+|upkeep
+|turn|9
+|
+|t:|1743841615
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Slowking|atk|1
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|10
+|
+|t:|1743841627
+|switch|p2a: Primarina|Primarina, M|100/100
+|-terastallize|p1a: Conkeldurr|Normal
+|move|p1a: Conkeldurr|Facade|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|-damage|p1a: Conkeldurr|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1743841650
+|switch|p2a: Incineroar|Incineroar, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Conkeldurr|atk|1
+|turn|11
+|
+|t:|1743841664
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|move|p1a: Conkeldurr|Facade|p2a: Mimikyu
+|-immune|p2a: Mimikyu
+|
+|-damage|p1a: Conkeldurr|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743841672
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|
+|upkeep
+|turn|13
+|
+|t:|1743841682
+|move|p2a: Mimikyu|Shadow Claw|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1743841691
+|switch|p1a: Moltres|Moltres-Galar, shiny|100/100
+|turn|14
+|
+|t:|1743841701
+|move|p2a: Mimikyu|Play Rough|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|-message|CharlyPG forfeited.
+|
+|win|YaBoiDon
+|raw|CharlyPG's rating: 1182 &rarr; <strong>1159</strong><br />(-23 for losing)
+|raw|YaBoiDon's rating: 1208 &rarr; <strong>1231</strong><br />(+23 for winning)
+|l|☆CharlyPG
+|player|p1|
+|l|☆YaBoiDon
+|player|p2|

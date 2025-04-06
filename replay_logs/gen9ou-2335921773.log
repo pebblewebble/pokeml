@@ -1,0 +1,372 @@
+|j|☆Btchiness
+|j|☆Nagi
+|t:|1743859228
+|gametype|singles
+|player|p1|Btchiness|hugh|1174
+|player|p2|Nagi|camper|1191
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Meowscarada, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Clefable, M|
+|poke|p1|Great Tusk|
+|poke|p1|Rotom-Wash|
+|poke|p1|Scizor, F|
+|poke|p2|Abomasnow, F|
+|poke|p2|Diancie|
+|poke|p2|Hippowdon, M|
+|poke|p2|Morpeko, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Tentacruel, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Btchiness)
+|
+|t:|1743859260
+|start
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|switch|p2a: Abomasnow|Abomasnow, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|1
+|
+|t:|1743859274
+|move|p1a: Meowscarada|U-turn|p2a: Abomasnow
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|69/100
+|
+|t:|1743859279
+|switch|p1a: Scizor|Scizor, F|100/100|[from] U-turn
+|move|p2a: Abomasnow|Aurora Veil|p2a: Abomasnow
+|-sidestart|p2: Nagi|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743859299
+|move|p1a: Scizor|Knock Off|p2a: Abomasnow
+|-damage|p2a: Abomasnow|54/100
+|-enditem|p2a: Abomasnow|Light Clay|[from] move: Knock Off|[of] p1a: Scizor
+|move|p2a: Abomasnow|Mud-Slap|p1a: Scizor
+|-damage|p1a: Scizor|94/100
+|-unboost|p1a: Scizor|accuracy|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743859310
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Abomasnow|Leech Seed|p1a: Rotom
+|-start|p1a: Rotom|move: Leech Seed
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Rotom|88/100|[from] Leech Seed|[of] p2a: Abomasnow
+|-heal|p2a: Abomasnow|64/100|[silent]
+|upkeep
+|turn|4
+|
+|t:|1743859318
+|switch|p2a: Hippowdon|Hippowdon, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|move|p1a: Rotom|Will-O-Wisp|p2a: Hippowdon
+|-status|p2a: Hippowdon|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|82/100|[from] Sandstorm
+|-heal|p1a: Rotom|88/100|[from] item: Leftovers
+|-damage|p1a: Rotom|75/100|[from] Leech Seed|[of] p2a: Hippowdon
+|-damage|p2a: Hippowdon|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743859339
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|move|p2a: Hippowdon|Stealth Rock|p1a: Meowscarada
+|-sidestart|p1: Btchiness|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Meowscarada|94/100|[from] Sandstorm
+|-heal|p2a: Hippowdon|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Hippowdon|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743859357
+|switch|p2a: Abomasnow|Abomasnow, F|64/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Meowscarada|Trick|p2a: Abomasnow
+|-start|p1a: Meowscarada|typechange|Psychic|[from] ability: Protean
+|-activate|p1a: Meowscarada|move: Trick|[of] p2a: Abomasnow
+|-item|p2a: Abomasnow|Choice Scarf|[from] move: Trick
+|-enditem|p1a: Meowscarada|Choice Scarf|[silent]|[from] move: Trick
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743859369
+|move|p1a: Meowscarada|U-turn|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|53/100
+|
+|t:|1743859376
+|switch|p1a: Scizor|Scizor, F|94/100|[from] U-turn
+|-damage|p1a: Scizor|82/100|[from] Stealth Rock
+|move|p2a: Abomasnow|Leech Seed|p1a: Scizor
+|-start|p1a: Scizor|move: Leech Seed
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Scizor|69/100|[from] Leech Seed|[of] p2a: Abomasnow
+|-heal|p2a: Abomasnow|62/100|[silent]
+|upkeep
+|turn|8
+|
+|t:|1743859389
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Scizor|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|c|☆Btchiness|eewwwwww
+|c|☆Btchiness|that was unfortunate
+|
+|t:|1743859414
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p2: Nagi|move: Aurora Veil
+|upkeep
+|c|☆Nagi|This team criminally weak to scarda
+|
+|t:|1743859444
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|turn|9
+|
+|t:|1743859452
+|move|p1a: Great Tusk|Rapid Spin|p2a: Tentacruel
+|-damage|p2a: Tentacruel|74/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: Btchiness|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Tentacruel|Surf|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743859461
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|turn|10
+|
+|t:|1743859468
+|switch|p2a: God|Morpeko, F|100/100
+|-terastallize|p1a: Indeedee|Fighting
+|move|p1a: Indeedee|Tera Blast|p2a: God|[anim] Tera Blast Fighting
+|-supereffective|p2a: God
+|-damage|p2a: God|0 fnt
+|faint|p2a: God
+|
+|-weather|none
+|upkeep
+|
+|t:|1743859478
+|switch|p2a: Diancie|Diancie|100/100
+|turn|11
+|
+|t:|1743859486
+|switch|p1a: Scizor|Scizor, F|69/100
+|move|p2a: Diancie|Diamond Storm|p1a: Scizor
+|-damage|p1a: Scizor|25/100
+|-boost|p2a: Diancie|def|2
+|
+|upkeep
+|turn|12
+|
+|t:|1743859495
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Diancie|Diamond Storm|p1a: Clefable
+|-damage|p1a: Clefable|73/100
+|-boost|p2a: Diancie|def|2
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|13
+|
+|t:|1743859516
+|move|p1a: Clefable|Moonblast|p2a: Diancie
+|-damage|p2a: Diancie|76/100
+|move|p2a: Diancie|Body Press|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|62/100
+|-damage|p2a: Diancie|60/100|[from] item: Rocky Helmet|[of] p1a: Clefable
+|
+|upkeep
+|turn|14
+|c|☆Nagi|ofc... unaware
+|c|☆Nagi|gg
+|
+|t:|1743859535
+|move|p1a: Clefable|Moonblast|p2a: Diancie
+|-damage|p2a: Diancie|36/100
+|move|p2a: Diancie|Diamond Storm|p1a: Clefable
+|-damage|p1a: Clefable|35/100
+|
+|upkeep
+|turn|15
+|c|☆Btchiness|lol
+|c|☆Btchiness|only way to run it as far as i see
+|
+|t:|1743859560
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|85/100
+|move|p2a: Diancie|Trick Room|p2a: Diancie
+|-fieldstart|move: Trick Room|[of] p2a: Diancie
+|
+|upkeep
+|turn|16
+|
+|t:|1743859568
+|switch|p2a: Tentacruel|Tentacruel, M|74/100
+|move|p1a: Clefable|Moonblast|p2a: Tentacruel
+|-resisted|p2a: Tentacruel
+|-damage|p2a: Tentacruel|65/100
+|
+|upkeep
+|turn|17
+|c|☆Nagi|magic guard or whatever dafuq is annoying too
+|inactive|Nagi has 120 seconds left.
+|
+|t:|1743859595
+|switch|p1a: Rotom|Rotom-Wash|75/100
+|move|p2a: Tentacruel|Surf|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|60/100
+|
+|-heal|p1a: Rotom|66/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c|☆Btchiness|nah if you know its magic guard you can kill it easy
+|inactive|Btchiness has 120 seconds left.
+|
+|t:|1743859623
+|move|p2a: Tentacruel|Acid Spray|p1a: Rotom
+|-damage|p1a: Rotom|49/100
+|-unboost|p1a: Rotom|spd|2
+|move|p1a: Rotom|Substitute|p1a: Rotom
+|-start|p1a: Rotom|Substitute
+|-damage|p1a: Rotom|24/100
+|
+|-heal|p1a: Rotom|30/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|Btchiness has 120 seconds left.
+|
+|t:|1743859633
+|move|p2a: Tentacruel|Sludge Wave|p1a: Rotom
+|-end|p1a: Rotom|Substitute
+|move|p1a: Rotom|Will-O-Wisp|p2a: Tentacruel|[miss]
+|-miss|p1a: Rotom|p2a: Tentacruel
+|
+|-heal|p1a: Rotom|37/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|20
+|inactive|Btchiness has 120 seconds left.
+|
+|t:|1743859643
+|move|p1a: Rotom|Volt Switch|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|39/100
+|
+|t:|1743859647
+|switch|p1a: Meowscarada|Meowscarada, F|94/100|[from] Volt Switch
+|move|p2a: Tentacruel|Sludge Wave|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|upkeep
+|
+|t:|1743859656
+|switch|p1a: Indeedee|Indeedee, M, tera:Fighting|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|21
+|c|☆Btchiness|deedee came to take names
+|inactive|Nagi has 120 seconds left.
+|c|☆Btchiness|lets get it started
+|c|☆Btchiness|i think its gg
+|inactive|Nagi has 90 seconds left.
+|
+|t:|1743859719
+|-terastallize|p2a: Tentacruel|Ice
+|move|p1a: Indeedee|Expanding Force|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|upkeep
+|inactive|Nagi has 90 seconds left.
+|
+|t:|1743859725
+|switch|p2a: Hippowdon|Hippowdon, M|94/100 brn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Hippowdon
+|turn|22
+|c|☆Btchiness|lol what was that?
+|
+|t:|1743859732
+|move|p1a: Indeedee|Expanding Force|p2a: Hippowdon
+|-damage|p2a: Hippowdon|0 fnt
+|faint|p2a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Indeedee|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743859739
+|switch|p2a: Diancie|Diancie|36/100
+|turn|23
+|
+|t:|1743859746
+|move|p1a: Indeedee|Expanding Force|p2a: Diancie
+|-damage|p2a: Diancie|0 fnt
+|faint|p2a: Diancie
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Indeedee|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743859752
+|switch|p2a: Abomasnow|Abomasnow, F|62/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|24
+|c|☆Btchiness|take notes specs deedee is the way to go
+|
+|t:|1743859773
+|move|p1a: Indeedee|Expanding Force|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|
+|win|Btchiness
+|raw|Btchiness's rating: 1174 &rarr; <strong>1200</strong><br />(+26 for winning)
+|raw|Nagi's rating: 1191 &rarr; <strong>1165</strong><br />(-26 for losing)
+|c|☆Nagi|scarf better
+|l|☆Nagi
+|player|p2|
+|c|☆Btchiness|nah
+|c|☆Btchiness|tried it
+|l|☆Btchiness
+|player|p1|

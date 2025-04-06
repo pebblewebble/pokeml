@@ -1,0 +1,292 @@
+|j|☆TurnMeOn97
+|j|☆tdd20070517兹伏奇三吾
+|t:|1743850185
+|gametype|singles
+|player|p1|TurnMeOn97|266|1515
+|player|p2|tdd20070517兹伏奇三吾|steven|1623
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Pelipper, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Crown|
+|poke|p1|Rillaboom, M|
+|poke|p1|Iron Treads|
+|poke|p2|Zamazenta-*|
+|poke|p2|Walking Wake|
+|poke|p2|Ting-Lu|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Skeledirge, F|
+|poke|p2|Corviknight, F|
+|teampreview
+|
+|t:|1743850205
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1743850211
+|move|p2a: Walking Wake|Draco Meteor|p1a: Rillaboom
+|-damage|p1a: Rillaboom|31/100
+|-unboost|p2a: Walking Wake|spa|2
+|move|p1a: Rillaboom|Knock Off|p2a: Walking Wake
+|-damage|p2a: Walking Wake|62/100
+|-enditem|p2a: Walking Wake|Choice Specs|[from] move: Knock Off|[of] p1a: Rillaboom
+|
+|-heal|p2a: Walking Wake|68/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|38/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1743850218
+|move|p2a: Walking Wake|Flamethrower|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|13/100
+|move|p1a: Rillaboom|U-turn|p2a: Walking Wake
+|-damage|p2a: Walking Wake|38/100
+|
+|t:|1743850228
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100|[from] U-turn
+|
+|-heal|p2a: Walking Wake|44/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1743850232
+|move|p2a: Walking Wake|Hurricane|p1a: Keldeo|[miss]
+|-miss|p2a: Walking Wake|p1a: Keldeo
+|move|p1a: Keldeo|Flip Turn|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|41/100
+|
+|t:|1743850239
+|switch|p1a: Iron Crown|Iron Crown|100/100|[from] Flip Turn
+|
+|-heal|p2a: Walking Wake|47/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1743850243
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: 前面忘了|Ting-Lu|100/100
+|-ability|p2a: 前面忘了|Vessel of Ruin
+|move|p1a: Iron Crown|Psychic Noise|p2a: 前面忘了
+|-immune|p2a: 前面忘了
+|
+|upkeep
+|turn|5
+|
+|t:|1743850248
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Rillaboom|Rillaboom, M|13/100
+|move|p2a: 前面忘了|Stone Edge|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1743850250
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|6
+|
+|t:|1743850253
+|move|p1a: Pelipper|U-turn|p2a: 前面忘了
+|-supereffective|p2a: 前面忘了
+|-damage|p2a: 前面忘了|92/100
+|
+|t:|1743850257
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100|[from] U-turn
+|move|p2a: 前面忘了|Earthquake|p1a: Keldeo
+|-damage|p1a: Keldeo|47/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743850260
+|-terastallize|p2a: 前面忘了|Water
+|move|p1a: Keldeo|Flip Turn|p2a: 前面忘了
+|-resisted|p2a: 前面忘了
+|-damage|p2a: 前面忘了|86/100
+|
+|t:|1743850266
+|switch|p1a: Pelipper|Pelipper, M|100/100|[from] Flip Turn
+|move|p2a: 前面忘了|Earthquake|p1a: Pelipper
+|-immune|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743850269
+|move|p1a: Pelipper|U-turn|p2a: 前面忘了
+|-damage|p2a: 前面忘了|81/100
+|
+|t:|1743850273
+|switch|p1a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|move|p2a: 前面忘了|Throat Chop|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|67/100
+|-start|p1a: Raging Bolt|Throat Chop|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743850278
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|move|p2a: 前面忘了|Earthquake|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-enditem|p1a: Raging Bolt|Shuca Berry|[eat]
+|-enditem|p1a: Raging Bolt|Shuca Berry|[weaken]
+|-damage|p1a: Raging Bolt|27/100
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Raging Bolt|Throat Chop|[silent]
+|upkeep
+|turn|10
+|
+|t:|1743850282
+|move|p1a: Raging Bolt|Thunder|p2a: 前面忘了
+|-supereffective|p2a: 前面忘了
+|-damage|p2a: 前面忘了|11/100
+|move|p2a: 前面忘了|Earthquake|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743850292
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|turn|11
+|
+|t:|1743850296
+|move|p1a: Iron Crown|Psychic Noise|p2a: 前面忘了
+|-damage|p2a: 前面忘了|0 fnt
+|faint|p2a: 前面忘了
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743850298
+|switch|p2a: 我需要格子|Zamazenta|100/100
+|-ability|p2a: 我需要格子|Dauntless Shield|boost
+|-boost|p2a: 我需要格子|def|1
+|turn|12
+|
+|t:|1743850302
+|move|p2a: 我需要格子|Close Combat|p1a: Iron Crown
+|-damage|p1a: Iron Crown|4/100
+|-unboost|p2a: 我需要格子|def|1
+|-unboost|p2a: 我需要格子|spd|1
+|move|p1a: Iron Crown|Psychic Noise|p2a: 我需要格子
+|-supereffective|p2a: 我需要格子
+|-damage|p2a: 我需要格子|0 fnt
+|faint|p2a: 我需要格子
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743850306
+|switch|p2a: Walking Wake|Walking Wake|47/100
+|turn|13
+|
+|t:|1743850310
+|move|p2a: Walking Wake|Surf|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743850315
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|14
+|
+|t:|1743850320
+|move|p2a: Walking Wake|Hurricane|p1a: Pelipper
+|-damage|p1a: Pelipper|46/100
+|-start|p1a: Pelipper|confusion
+|-activate|p1a: Pelipper|confusion
+|move|p1a: Pelipper|Hurricane|p2a: Walking Wake
+|-damage|p2a: Walking Wake|4/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743850327
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Walking Wake|Hurricane|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|76/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743850338
+|move|p1a: Iron Treads|Earth Power|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743850341
+|switch|p2a: 后面忘了|Corviknight, F|100/100
+|turn|17
+|
+|t:|1743850348
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Keldeo|Keldeo-Resolute|47/100
+|move|p2a: 后面忘了|Body Press|p1a: Keldeo
+|-damage|p1a: Keldeo|17/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743850353
+|move|p1a: Keldeo|Secret Sword|p2a: 后面忘了
+|-damage|p2a: 后面忘了|59/100
+|move|p2a: 后面忘了|Body Press|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|TurnMeOn97 forfeited.
+|
+|win|tdd20070517兹伏奇三吾
+|raw|TurnMeOn97's rating: 1515 &rarr; <strong>1501</strong><br />(-14 for losing)
+|raw|tdd20070517兹伏奇三吾's rating: 1623 &rarr; <strong>1637</strong><br />(+14 for winning)
+|l|☆TurnMeOn97
+|player|p1|
+|l|☆tdd20070517兹伏奇三吾
+|player|p2|

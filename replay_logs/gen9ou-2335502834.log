@@ -1,0 +1,318 @@
+|j|☆WonderGuardWill
+|j|☆DeaconBlue62
+|t:|1743800355
+|gametype|singles
+|player|p1|WonderGuardWill|dancer|1370
+|player|p2|DeaconBlue62|dahlia|1406
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Darkrai|
+|poke|p1|Garganacl, M|
+|poke|p1|Espeon, M|
+|poke|p1|Clodsire, M|
+|poke|p1|Heatran, F|
+|poke|p1|Gholdengo|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Garganacl, M|
+|poke|p2|Skeledirge, M|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Scizor, M|
+|poke|p2|Tatsugiri, F|
+|teampreview
+|
+|t:|1743800378
+|start
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|switch|p2a: Piano Man|Hoopa-Unbound|100/100
+|turn|1
+|
+|t:|1743800390
+|switch|p1a: Darkrai|Darkrai|100/100
+|move|p2a: Piano Man|Psychic Noise|p1a: Darkrai
+|-immune|p1a: Darkrai
+|
+|upkeep
+|turn|2
+|
+|t:|1743800393
+|move|p1a: Darkrai|Trick|p2a: Piano Man
+|-activate|p1a: Darkrai|move: Trick|[of] p2a: Piano Man
+|-item|p2a: Piano Man|Choice Scarf|[from] move: Trick
+|-item|p1a: Darkrai|Assault Vest|[from] move: Trick
+|move|p2a: Piano Man|Drain Punch|p1a: Darkrai
+|-supereffective|p1a: Darkrai
+|-damage|p1a: Darkrai|31/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743800400
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Piano Man|Drain Punch|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|4
+|
+|t:|1743800407
+|switch|p2a: Anthony's Song|Skeledirge, M|100/100
+|move|p1a: Gholdengo|Trick|p2a: Anthony's Song
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Anthony's Song
+|-item|p2a: Anthony's Song|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Heavy-Duty Boots|[from] move: Trick
+|
+|upkeep
+|turn|5
+|
+|t:|1743800413
+|switch|p1a: Heatran|Heatran, F|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Anthony's Song|Torch Song|p1a: Heatran
+|-start|p1a: Heatran|ability: Flash Fire
+|
+|upkeep
+|turn|6
+|
+|t:|1743800424
+|switch|p2a: Piano Man|Hoopa-Unbound|100/100
+|move|p1a: Heatran|Stealth Rock|p2a: Piano Man
+|-sidestart|p2: DeaconBlue62|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1743800430
+|move|p2a: Piano Man|Dark Pulse|p1a: Heatran
+|-damage|p1a: Heatran|53/100
+|-enditem|p1a: Heatran|Air Balloon
+|cant|p1a: Heatran|flinch
+|
+|upkeep
+|turn|8
+|
+|t:|1743800434
+|-end|p1a: Heatran|ability: Flash Fire|[silent]
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|move|p2a: Piano Man|Dark Pulse|p1a: Clodsire
+|-damage|p1a: Clodsire|68/100
+|
+|-heal|p1a: Clodsire|74/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743800437
+|move|p2a: Piano Man|Dark Pulse|p1a: Clodsire
+|-damage|p1a: Clodsire|44/100
+|cant|p1a: Clodsire|flinch
+|
+|-heal|p1a: Clodsire|51/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743800441
+|move|p2a: Piano Man|Dark Pulse|p1a: Clodsire
+|-damage|p1a: Clodsire|20/100
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|70/100
+|
+|-heal|p1a: Clodsire|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743800446
+|switch|p2a: Stiletto|Scizor, M|100/100
+|-damage|p2a: Stiletto|88/100|[from] Stealth Rock
+|move|p1a: Clodsire|Toxic Spikes|p2a: Stiletto
+|-sidestart|p2: DeaconBlue62|move: Toxic Spikes
+|
+|-heal|p2a: Stiletto|94/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743800450
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Stiletto|Defog|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|
+|-heal|p2a: Stiletto|99/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743800454
+|move|p1a: Gholdengo|Shadow Ball|p2a: Stiletto
+|-crit|p2a: Stiletto
+|-damage|p2a: Stiletto|25/100
+|move|p2a: Stiletto|Swords Dance|p2a: Stiletto
+|-boost|p2a: Stiletto|atk|2
+|
+|-heal|p2a: Stiletto|31/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743800458
+|move|p2a: Stiletto|Bullet Punch|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|47/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Stiletto
+|-damage|p2a: Stiletto|0 fnt
+|faint|p2a: Stiletto
+|
+|upkeep
+|
+|t:|1743800461
+|switch|p2a: Italian Restaurant|Tatsugiri, F|100/100
+|turn|15
+|
+|t:|1743800464
+|move|p1a: Gholdengo|Dazzling Gleam|p2a: Italian Restaurant
+|-supereffective|p2a: Italian Restaurant
+|-damage|p2a: Italian Restaurant|21/100
+|move|p2a: Italian Restaurant|Surf|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743800468
+|switch|p1a: Clodsire|Clodsire, M|82/100
+|turn|16
+|
+|t:|1743800471
+|move|p2a: Italian Restaurant|Rapid Spin|p1a: Clodsire
+|-damage|p1a: Clodsire|76/100
+|-boost|p2a: Italian Restaurant|spe|1
+|-sideend|p2: DeaconBlue62|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Italian Restaurant
+|-sideend|p2: DeaconBlue62|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Italian Restaurant
+|move|p1a: Clodsire|Toxic|p2a: Italian Restaurant
+|-status|p2a: Italian Restaurant|tox
+|
+|-heal|p1a: Clodsire|82/100|[from] item: Leftovers
+|-damage|p2a: Italian Restaurant|15/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1743800475
+|switch|p2a: Piano Man|Hoopa-Unbound|100/100
+|move|p1a: Clodsire|Toxic Spikes|p2a: Piano Man
+|-sidestart|p2: DeaconBlue62|move: Toxic Spikes
+|
+|-heal|p1a: Clodsire|88/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743800487
+|switch|p1a: Espeon|Espeon, M|100/100
+|move|p2a: Piano Man|Knock Off|p1a: Espeon
+|-supereffective|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|-enditem|p1a: Espeon|Choice Scarf|[from] move: Knock Off|[of] p2a: Piano Man
+|faint|p1a: Espeon
+|
+|upkeep
+|
+|t:|1743800490
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|turn|19
+|
+|t:|1743800494
+|move|p2a: Piano Man|Knock Off|p1a: Garganacl
+|-damage|p1a: Garganacl|74/100
+|-enditem|p1a: Garganacl|Leftovers|[from] move: Knock Off|[of] p2a: Piano Man
+|move|p1a: Garganacl|Salt Cure|p2a: Piano Man
+|-damage|p2a: Piano Man|78/100
+|-start|p2a: Piano Man|Salt Cure
+|
+|-damage|p2a: Piano Man|66/100|[from] Salt Cure
+|upkeep
+|turn|20
+|
+|t:|1743800502
+|switch|p2a: The Stranger|Garganacl, M|100/100
+|move|p1a: Garganacl|Salt Cure|p2a: The Stranger
+|-damage|p2a: The Stranger|93/100
+|-start|p2a: The Stranger|Salt Cure
+|
+|-heal|p2a: The Stranger|99/100|[from] item: Leftovers
+|-damage|p2a: The Stranger|87/100|[from] Salt Cure
+|upkeep
+|turn|21
+|
+|t:|1743800510
+|switch|p1a: Clodsire|Clodsire, M|88/100
+|move|p2a: The Stranger|Salt Cure|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|80/100
+|-start|p1a: Clodsire|Salt Cure
+|
+|-heal|p2a: The Stranger|93/100|[from] item: Leftovers
+|-heal|p1a: Clodsire|86/100|[from] item: Leftovers
+|-damage|p2a: The Stranger|81/100|[from] Salt Cure
+|-damage|p1a: Clodsire|74/100|[from] Salt Cure
+|upkeep
+|turn|22
+|
+|t:|1743800516
+|-terastallize|p2a: The Stranger|Fighting
+|move|p2a: The Stranger|Curse|p2a: The Stranger
+|-unboost|p2a: The Stranger|spe|1
+|-boost|p2a: The Stranger|atk|1
+|-boost|p2a: The Stranger|def|1
+|move|p1a: Clodsire|Toxic Spikes|p2a: The Stranger
+|-sidestart|p2: DeaconBlue62|move: Toxic Spikes
+|
+|-heal|p1a: Clodsire|80/100|[from] item: Leftovers
+|-heal|p2a: The Stranger|87/100|[from] item: Leftovers
+|-damage|p1a: Clodsire|68/100|[from] Salt Cure
+|-damage|p2a: The Stranger|75/100|[from] Salt Cure
+|upkeep
+|turn|23
+|
+|t:|1743800534
+|move|p1a: Clodsire|Earthquake|p2a: The Stranger
+|-damage|p2a: The Stranger|65/100
+|move|p2a: The Stranger|Body Press|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|31/100
+|
+|-heal|p1a: Clodsire|37/100|[from] item: Leftovers
+|-heal|p2a: The Stranger|71/100|[from] item: Leftovers
+|-damage|p1a: Clodsire|25/100|[from] Salt Cure
+|-damage|p2a: The Stranger|58/100|[from] Salt Cure
+|upkeep
+|turn|24
+|
+|t:|1743800537
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|75/100
+|move|p2a: The Stranger|Body Press|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|35/100
+|
+|-heal|p1a: Clodsire|41/100|[from] item: Leftovers
+|-heal|p2a: The Stranger|65/100|[from] item: Leftovers
+|-damage|p1a: Clodsire|28/100|[from] Salt Cure
+|-damage|p2a: The Stranger|52/100|[from] Salt Cure
+|upkeep
+|turn|25
+|-message|WonderGuardWill forfeited.
+|
+|win|DeaconBlue62
+|raw|WonderGuardWill's rating: 1370 &rarr; <strong>1352</strong><br />(-18 for losing)
+|raw|DeaconBlue62's rating: 1406 &rarr; <strong>1424</strong><br />(+18 for winning)
+|l|☆WonderGuardWill
+|player|p1|
+|l|☆DeaconBlue62
+|player|p2|

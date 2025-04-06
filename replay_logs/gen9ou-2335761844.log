@@ -1,0 +1,297 @@
+|j|☆mmhartford
+|j|☆supercrack1
+|t:|1743831881
+|gametype|singles
+|player|p1|mmhartford|101|1089
+|player|p2|supercrack1|170|1081
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tinkaton, F|
+|poke|p1|Lokix, F|
+|poke|p1|Gliscor, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Primarina, M|
+|poke|p1|Raging Bolt|
+|poke|p2|Cinderace, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Metagross|
+|poke|p2|Zoroark, F|
+|poke|p2|Incineroar, M|
+|teampreview
+|
+|t:|1743831895
+|start
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|switch|p2a: Hatterene|Hatterene, F, shiny|100/100
+|-item|p1a: Tinkaton|Air Balloon
+|turn|1
+|
+|t:|1743831902
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1743831908
+|switch|p2a: Incineroar|Incineroar, M, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Tinkaton|atk|1
+|turn|2
+|
+|t:|1743831916
+|switch|p1a: Primarina|Primarina, M|100/100
+|move|p2a: Incineroar|Fake Out|p1a: Primarina
+|-damage|p1a: Primarina|81/100
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by supercrack1)
+|
+|t:|1743831937
+|switch|p2a: Garchomp|Garchomp, M, shiny|100/100
+|move|p1a: Primarina|Surf|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|replace|p2a: Zoroark|Zoroark, F, shiny
+|-end|p2a: Zoroark|Illusion
+|faint|p2a: Zoroark
+|
+|upkeep
+|
+|t:|1743831954
+|switch|p2a: Metagross|Metagross, shiny|100/100
+|turn|4
+|
+|t:|1743831962
+|move|p1a: Primarina|Flip Turn|p2a: Metagross
+|-damage|p2a: Metagross|88/100
+|
+|t:|1743831973
+|switch|p1a: Gliscor|Gliscor, F|100/100|[from] Flip Turn
+|move|p2a: Metagross|Knock Off|p1a: Gliscor
+|-damage|p1a: Gliscor|72/100
+|-enditem|p1a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p2a: Metagross
+|
+|upkeep
+|turn|5
+|
+|t:|1743831984
+|switch|p2a: Garchomp|Garchomp, M, shiny|100/100
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|
+|upkeep
+|turn|6
+|
+|t:|1743831995
+|move|p2a: Garchomp|Outrage|p1a: Gliscor
+|-damage|p1a: Gliscor|15/100
+|move|p1a: Gliscor|Knock Off|p2a: Garchomp
+|-damage|p2a: Garchomp|67/100
+|-damage|p1a: Gliscor|2/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Gliscor|0 fnt|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|t:|1743832003
+|switch|p1a: Primarina|Primarina, M|81/100
+|turn|7
+|
+|t:|1743832006
+|move|p2a: Garchomp|Outrage|p1a: Primarina|[from] lockedmove
+|-immune|p1a: Primarina
+|move|p1a: Primarina|Moonblast|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1743832015
+|switch|p2a: Incineroar|Incineroar, M, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Primarina|atk|1
+|turn|8
+|
+|t:|1743832021
+|move|p2a: Incineroar|Fake Out|p1a: Primarina
+|-damage|p1a: Primarina|63/100
+|cant|p1a: Primarina|flinch
+|
+|upkeep
+|turn|9
+|
+|t:|1743832028
+|-terastallize|p2a: Incineroar|Water
+|move|p1a: Primarina|Surf|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|85/100
+|move|p2a: Incineroar|Knock Off|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|26/100
+|-enditem|p1a: Primarina|Assault Vest|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|turn|10
+|
+|t:|1743832037
+|move|p1a: Primarina|Flip Turn|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|78/100
+|
+|t:|1743832051
+|switch|p1a: Raging Bolt|Raging Bolt|100/100|[from] Flip Turn
+|move|p2a: Incineroar|U-turn|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|76/100
+|
+|t:|1743832060
+|switch|p2a: Metagross|Metagross, shiny|88/100|[from] U-turn
+|
+|upkeep
+|turn|11
+|
+|t:|1743832069
+|move|p1a: Raging Bolt|Volt Switch|p2a: Metagross
+|-damage|p2a: Metagross|40/100
+|
+|t:|1743832077
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Tinkaton|Tinkaton, F|100/100|[from] Volt Switch
+|-item|p1a: Tinkaton|Air Balloon
+|move|p2a: Metagross|Trick|p1a: Tinkaton
+|-activate|p2a: Metagross|move: Trick|[of] p1a: Tinkaton
+|-item|p1a: Tinkaton|Toxic Orb|[from] move: Trick
+|-item|p2a: Metagross|Air Balloon
+|-item|p2a: Metagross|Air Balloon|[from] move: Trick
+|
+|upkeep
+|turn|12
+|inactive|mmhartford has 120 seconds left.
+|
+|t:|1743832127
+|switch|p2a: Incineroar|Incineroar, M, shiny, tera:Water|78/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Tinkaton|atk|1
+|move|p1a: Tinkaton|Encore||[still]
+|-fail|p1a: Tinkaton
+|
+|upkeep
+|turn|13
+|
+|t:|1743832136
+|move|p1a: Tinkaton|Stealth Rock|p2a: Incineroar
+|-sidestart|p2: supercrack1|move: Stealth Rock
+|move|p2a: Incineroar|Flare Blitz|p1a: Tinkaton
+|-supereffective|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|-damage|p2a: Incineroar|45/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743832144
+|switch|p1a: Lokix|Lokix, F|100/100
+|turn|14
+|inactive|mmhartford has 120 seconds left.
+|
+|t:|1743832169
+|move|p1a: Lokix|Knock Off|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-enditem|p2a: Incineroar|Assault Vest|[from] move: Knock Off|[of] p1a: Lokix
+|faint|p2a: Incineroar
+|
+|upkeep
+|
+|t:|1743832175
+|switch|p2a: Metagross|Metagross, shiny|40/100
+|-damage|p2a: Metagross|34/100|[from] Stealth Rock
+|-item|p2a: Metagross|Air Balloon
+|turn|15
+|
+|t:|1743832183
+|move|p2a: Metagross|Protect|p2a: Metagross
+|-singleturn|p2a: Metagross|Protect
+|move|p1a: Lokix|Sucker Punch||[still]
+|-fail|p1a: Lokix
+|
+|upkeep
+|turn|16
+|
+|t:|1743832189
+|move|p1a: Lokix|U-turn|p2a: Metagross
+|-damage|p2a: Metagross|9/100
+|-enditem|p2a: Metagross|Air Balloon
+|
+|t:|1743832195
+|switch|p1a: Primarina|Primarina, M|26/100|[from] U-turn
+|move|p2a: Metagross|Earthquake|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|upkeep
+|
+|t:|1743832205
+|switch|p1a: Lokix|Lokix, F|100/100
+|turn|17
+|
+|t:|1743832212
+|move|p1a: Lokix|U-turn|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|t:|1743832221
+|switch|p1a: Enamorus|Enamorus, F|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743832225
+|switch|p2a: Cinderace|Cinderace, M, shiny|100/100
+|-damage|p2a: Cinderace|76/100|[from] Stealth Rock
+|-item|p2a: Cinderace|Air Balloon
+|turn|18
+|
+|t:|1743832243
+|move|p1a: Enamorus|Moonblast|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|36/100
+|-enditem|p2a: Cinderace|Air Balloon
+|move|p2a: Cinderace|Giga Impact|p1a: Enamorus
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-damage|p1a: Enamorus|0 fnt
+|-mustrecharge|p2a: Cinderace
+|faint|p1a: Enamorus
+|
+|upkeep
+|
+|t:|1743832253
+|switch|p1a: Lokix|Lokix, F|100/100
+|turn|19
+|
+|t:|1743832263
+|cant|p2a: Cinderace|recharge
+|move|p1a: Lokix|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|win|mmhartford
+|raw|mmhartford's rating: 1089 &rarr; <strong>1115</strong><br />(+26 for winning)
+|raw|supercrack1's rating: 1081 &rarr; <strong>1059</strong><br />(-22 for losing)
+|l|☆mmhartford
+|player|p1|
+|l|☆supercrack1
+|player|p2|

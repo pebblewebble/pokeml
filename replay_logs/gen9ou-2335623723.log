@@ -1,0 +1,251 @@
+|j|☆galar250
+|j|☆KingFlippa
+|t:|1743813679
+|gametype|singles
+|player|p1|galar250|steven|1154
+|player|p2|KingFlippa|169|1109
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mew|
+|poke|p1|Iron Jugulis|
+|poke|p1|Cinderace, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Iron Treads|
+|poke|p1|Iron Valiant|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Pecharunt|
+|poke|p2|Quaquaval, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Hoopa|
+|poke|p2|Cinderace, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KingFlippa)
+|inactive|galar250 also wants the timer to be on.
+|
+|t:|1743813689
+|start
+|switch|p1a: Iron Jugulis|Iron Jugulis|100/100
+|switch|p2a: Hoopa|Hoopa|100/100
+|turn|1
+|
+|t:|1743813696
+|move|p1a: Iron Jugulis|Meteor Beam||[still]
+|-prepare|p1a: Iron Jugulis|Meteor Beam
+|-boost|p1a: Iron Jugulis|spa|1
+|-enditem|p1a: Iron Jugulis|Power Herb
+|-anim|p1a: Iron Jugulis|Meteor Beam|p2a: Hoopa
+|-damage|p2a: Hoopa|59/100
+|move|p2a: Hoopa|Phantom Force||[still]
+|-prepare|p2a: Hoopa|Phantom Force
+|-enditem|p2a: Hoopa|Power Herb
+|-anim|p2a: Hoopa|Phantom Force|p1a: Iron Jugulis
+|-resisted|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|73/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743813709
+|move|p1a: Iron Jugulis|Dark Pulse|p2a: Hoopa
+|-supereffective|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+|
+|t:|1743813717
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|3
+|
+|t:|1743813721
+|move|p1a: Iron Jugulis|Dark Pulse|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|21/100
+|-enditem|p2a: Slowking|Weakness Policy
+|-boost|p2a: Slowking|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Slowking|spa|2|[from] item: Weakness Policy
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|upkeep
+|turn|4
+|
+|t:|1743813732
+|move|p2a: Slowking|Sludge Wave|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|0 fnt
+|faint|p1a: Iron Jugulis
+|-end|p1a: Iron Jugulis|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743813738
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|turn|5
+|
+|t:|1743813757
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Treads|atk|1
+|move|p1a: Iron Treads|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|6
+|
+|t:|1743813764
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Landorus|Bulk Up|p2a: Landorus
+|-boost|p2a: Landorus|atk|1
+|-boost|p2a: Landorus|def|1
+|
+|upkeep
+|turn|7
+|
+|t:|1743813772
+|move|p2a: Landorus|U-turn|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|t:|1743813776
+|switch|p2a: Quaquaval|Quaquaval, M|100/100|[from] U-turn
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743813782
+|switch|p1a: Mew|Mew|100/100
+|turn|8
+|
+|t:|1743813795
+|-terastallize|p2a: Quaquaval|Ground
+|move|p1a: Mew|Dragon Dance|p1a: Mew
+|-boost|p1a: Mew|atk|1
+|-boost|p1a: Mew|spe|1
+|move|p2a: Quaquaval|Close Combat|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|72/100
+|-unboost|p2a: Quaquaval|def|1
+|-unboost|p2a: Quaquaval|spd|1
+|-enditem|p2a: Quaquaval|White Herb
+|-clearnegativeboost|p2a: Quaquaval|[silent]
+|
+|upkeep
+|turn|9
+|
+|t:|1743813810
+|move|p1a: Mew|Icicle Spear|p2a: Quaquaval
+|-supereffective|p2a: Quaquaval
+|-damage|p2a: Quaquaval|76/100
+|-supereffective|p2a: Quaquaval
+|-damage|p2a: Quaquaval|51/100
+|-supereffective|p2a: Quaquaval
+|-damage|p2a: Quaquaval|29/100
+|-supereffective|p2a: Quaquaval
+|-damage|p2a: Quaquaval|5/100
+|-supereffective|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|-hitcount|p2: Quaquaval|5
+|
+|upkeep
+|
+|t:|1743813821
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Mew|atk|1
+|turn|10
+|
+|t:|1743813838
+|switch|p2a: Slowking|Slowking-Galar, F|54/100
+|move|p1a: Mew|Icicle Spear|p2a: Slowking
+|-damage|p2a: Slowking|46/100
+|-damage|p2a: Slowking|39/100
+|-damage|p2a: Slowking|31/100
+|-damage|p2a: Slowking|23/100
+|-hitcount|p2a: Slowking|4
+|
+|upkeep
+|turn|11
+|
+|t:|1743813845
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Mew|atk|1
+|move|p1a: Mew|Dragon Dance|p1a: Mew
+|-boost|p1a: Mew|atk|1
+|-boost|p1a: Mew|spe|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743813856
+|move|p1a: Mew|Dragon Dance|p1a: Mew
+|-boost|p1a: Mew|atk|1
+|-boost|p1a: Mew|spe|1
+|move|p2a: Landorus|U-turn|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|19/100
+|
+|t:|1743813861
+|switch|p2a: Pecharunt|Pecharunt|100/100|[from] U-turn
+|
+|upkeep
+|turn|13
+|
+|t:|1743813871
+|move|p1a: Mew|Psychic Fangs|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|31/100
+|move|p2a: Pecharunt|Shadow Ball|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|-heal|p2a: Pecharunt|37/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743813883
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|14
+|
+|t:|1743813890
+|move|p1a: Cinderace|Pyro Ball|p2a: Pecharunt
+|-damage|p2a: Pecharunt|2/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Cinderace
+|-damage|p1a: Cinderace|43/100
+|-status|p1a: Cinderace|tox
+|-start|p1a: Cinderace|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|
+|-heal|p2a: Pecharunt|8/100|[from] item: Leftovers
+|-damage|p1a: Cinderace|37/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743813898
+|-activate|p1a: Cinderace|confusion
+|-damage|p1a: Cinderace|19/100 tox|[from] confusion
+|move|p2a: Pecharunt|Parting Shot|p1a: Cinderace
+|-unboost|p1a: Cinderace|atk|1
+|-unboost|p1a: Cinderace|spa|1
+|-message|galar250 forfeited.
+|
+|win|KingFlippa
+|raw|galar250's rating: 1154 &rarr; <strong>1126</strong><br />(-28 for losing)
+|raw|KingFlippa's rating: 1109 &rarr; <strong>1137</strong><br />(+28 for winning)
+|l|☆galar250
+|player|p1|
+|l|☆KingFlippa
+|player|p2|

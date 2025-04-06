@@ -1,0 +1,389 @@
+|j|☆boltblazt
+|j|☆sumerand
+|t:|1743894635
+|gametype|singles
+|player|p1|boltblazt|rosa|1315
+|player|p2|sumerand|ghetsis|1354
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Weavile, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Corviknight, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Iron Crown|
+|poke|p2|Inteleon, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Ting-Lu|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sumerand)
+|j| testeringon
+|
+|t:|1743894645
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Inteleon|Inteleon, M|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743894654
+|move|p1a: Iron Valiant|Thunderbolt|p2a: Inteleon
+|-supereffective|p2a: Inteleon
+|-damage|p2a: Inteleon|0 fnt
+|faint|p2a: Inteleon
+|
+|upkeep
+|
+|t:|1743894661
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|2
+|
+|t:|1743894665
+|-terastallize|p2a: Dragapult|Ghost
+|move|p1a: Iron Valiant|Moonblast|p2a: Dragapult
+|-damage|p2a: Dragapult|42/100
+|move|p2a: Dragapult|Tera Blast|p1a: Iron Valiant|[anim] Tera Blast Ghost
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743894678
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|3
+|
+|t:|1743894682
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Weavile|Knock Off|p2a: Alomomola
+|-damage|p2a: Alomomola|76/100
+|-enditem|p2a: Alomomola|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Weavile
+|
+|upkeep
+|turn|4
+|
+|t:|1743894696
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespa
+|move|p2a: Alomomola|Flip Turn|p1a: Iron Crown
+|-damage|p1a: Iron Crown|84/100
+|
+|t:|1743894703
+|switch|p2a: Ting-Lu|Ting-Lu|100/100|[from] Flip Turn
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|upkeep
+|turn|5
+|
+|t:|1743894709
+|move|p1a: Iron Crown|Flash Cannon|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|74/100
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Iron Crown
+|-sidestart|p1: boltblazt|move: Stealth Rock
+|
+|-heal|p2a: Ting-Lu|80/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743894718
+|move|p1a: Iron Crown|Flash Cannon|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|53/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|2/100
+|
+|-heal|p2a: Ting-Lu|60/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743894728
+|move|p1a: Iron Crown|Flash Cannon|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|33/100
+|move|p2a: Ting-Lu|Whirlwind|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|drag|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ting-Lu|atk|1
+|
+|-heal|p2a: Ting-Lu|40/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743894740
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Landorus|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|87/100
+|
+|t:|1743894746
+|switch|p1a: Iron Crown|Iron Crown|2/100|[from] U-turn
+|-damage|p1a: Iron Crown|0 fnt|[from] Stealth Rock
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743894755
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743894760
+|move|p1a: Corviknight|Defog|p2a: Alomomola
+|-unboost|p2a: Alomomola|evasion|1
+|-sideend|p1: boltblazt|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|10
+|
+|t:|1743894767
+|move|p1a: Corviknight|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|79/100
+|
+|t:|1743894769
+|switch|p1a: Zamazenta|Zamazenta|100/100|[from] U-turn
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Alomomola|Flip Turn|p1a: Zamazenta
+|-damage|p1a: Zamazenta|90/100
+|
+|t:|1743894777
+|switch|p2a: Dragapult|Dragapult, M, tera:Ghost|42/100|[from] Flip Turn
+|
+|-heal|p2a: Dragapult|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|11
+|
+|t:|1743894787
+|move|p2a: Dragapult|U-turn|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|80/100
+|
+|t:|1743894790
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from] U-turn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Zamazenta|Crunch|p2a: Corviknight
+|-damage|p2a: Corviknight|80/100
+|-unboost|p2a: Corviknight|def|1
+|-damage|p1a: Zamazenta|63/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-damage|p1a: Zamazenta|53/100|[from] item: Life Orb
+|
+|upkeep
+|turn|12
+|
+|t:|1743894804
+|switch|p1a: Corviknight|Corviknight, M|88/100
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|upkeep
+|turn|13
+|
+|t:|1743894810
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Corviknight|Brave Bird|p2a: Alomomola
+|-damage|p2a: Alomomola|80/100
+|-damage|p1a: Corviknight|79/100|[from] Recoil
+|
+|upkeep
+|turn|14
+|
+|t:|1743894818
+|move|p1a: Corviknight|Brave Bird|p2a: Alomomola
+|-damage|p2a: Alomomola|61/100
+|-damage|p1a: Corviknight|71/100|[from] Recoil
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|15
+|
+|t:|1743894826
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Alomomola|Flip Turn|p1a: Corviknight
+|-damage|p1a: Corviknight|90/100
+|-damage|p2a: Alomomola|44/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|t:|1743894834
+|switch|p2a: Ting-Lu|Ting-Lu|40/100|[from] Flip Turn
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|-heal|p2a: Ting-Lu|92/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Ting-Lu|98/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743894844
+|move|p1a: Corviknight|U-turn|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|83/100
+|
+|t:|1743894854
+|switch|p1a: Landorus|Landorus-Therian, M|88/100|[from] U-turn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ting-Lu|atk|1
+|move|p2a: Ting-Lu|Ruination|p1a: Landorus
+|-damage|p1a: Landorus|44/100
+|
+|-heal|p2a: Ting-Lu|89/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743894865
+|switch|p2a: Alomomola|Alomomola, F|77/100
+|move|p1a: Landorus|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|65/100
+|
+|t:|1743894872
+|switch|p1a: Zamazenta|Zamazenta|53/100|[from] U-turn
+|
+|upkeep
+|turn|18
+|
+|t:|1743894877
+|move|p1a: Zamazenta|Close Combat|p2a: Alomomola
+|-damage|p2a: Alomomola|23/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|-damage|p1a: Zamazenta|44/100|[from] item: Life Orb
+|move|p2a: Alomomola|Scald|p1a: Zamazenta
+|-damage|p1a: Zamazenta|28/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743894888
+|switch|p2a: Corviknight|Corviknight, M|80/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Zamazenta|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|32/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|-damage|p1a: Zamazenta|11/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-damage|p1a: Zamazenta|1/100|[from] item: Life Orb
+|
+|upkeep
+|turn|20
+|
+|t:|1743894905
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Zamazenta|Close Combat|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|faint|p2a: Cinderace
+|-damage|p1a: Zamazenta|0 fnt|[from] item: Life Orb
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1743894917
+|switch|p1a: Weavile|Weavile, F|100/100
+|switch|p2a: Alomomola|Alomomola, F|56/100
+|-ability|p1a: Weavile|Pressure
+|turn|21
+|
+|t:|1743894926
+|move|p1a: Weavile|Triple Axel|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|53/100
+|-hitcount|p2a: Alomomola|1
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|22
+|
+|t:|1743894932
+|move|p1a: Weavile|Triple Axel|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|50/100
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|45/100
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|37/100
+|-hitcount|p2a: Alomomola|3
+|move|p2a: Alomomola|Flip Turn|p1a: Weavile
+|-damage|p1a: Weavile|73/100
+|
+|t:|1743894943
+|switch|p2a: Corviknight|Corviknight, M|32/100|[from] Flip Turn
+|-ability|p2a: Corviknight|Pressure
+|
+|-heal|p2a: Corviknight|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|23
+|l| testeringon
+|
+|t:|1743894952
+|switch|p2a: Alomomola|Alomomola, F|71/100
+|move|p1a: Weavile|Triple Axel|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|68/100
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|63/100
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|56/100
+|-hitcount|p2a: Alomomola|3
+|
+|upkeep
+|turn|24
+|
+|t:|1743894964
+|switch|p1a: Landorus|Landorus-Therian, M|44/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Alomomola|atk|1
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|25
+|
+|t:|1743894971
+|-terastallize|p1a: Landorus|Ice
+|move|p1a: Landorus|Earthquake|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|6/100
+|move|p2a: Alomomola|Scald|p1a: Landorus
+|-damage|p1a: Landorus|30/100
+|-status|p1a: Landorus|brn
+|
+|-heal|p2a: Alomomola|56/100|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Landorus|24/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1743894985
+|move|p1a: Landorus|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|41/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-damage|p1a: Landorus|17/100 brn|[from] brn
+|upkeep
+|turn|27
+|-message|boltblazt forfeited.
+|
+|win|sumerand
+|raw|boltblazt's rating: 1315 &rarr; <strong>1297</strong><br />(-18 for losing)
+|raw|sumerand's rating: 1354 &rarr; <strong>1372</strong><br />(+18 for winning)
+|l|☆boltblazt
+|player|p1|

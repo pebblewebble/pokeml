@@ -1,0 +1,216 @@
+|j|☆ner555
+|j|☆GUI1LERRMO
+|t:|1743938522
+|gametype|singles
+|player|p1|ner555|169|1075
+|player|p2|GUI1LERRMO|1|1135
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Darkrai|
+|poke|p1|Glastrier|
+|poke|p1|Ribombee, M|
+|poke|p1|Bastiodon, M|
+|poke|p1|Sneasel-Hisui, M|
+|poke|p2|Gardevoir, F|
+|poke|p2|Umbreon, F|
+|poke|p2|Garchomp, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Gengar, F|
+|poke|p2|Tauros-Paldea-Aqua, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GUI1LERRMO)
+|
+|t:|1743938567
+|start
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|turn|1
+|
+|t:|1743938576
+|move|p1a: Ribombee|Stun Spore|p2a: Corviknight
+|-status|p2a: Corviknight|par
+|move|p2a: Corviknight|Body Press|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|89/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743938583
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|move|p2a: Corviknight|U-turn|p1a: Ribombee
+|-resisted|p1a: Ribombee
+|-damage|p1a: Ribombee|75/100
+|
+|t:|1743938599
+|switch|p2a: Garchomp|Garchomp, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1743938613
+|-terastallize|p2a: Garchomp|Fire
+|move|p1a: Ribombee|Sticky Web|p2a: Garchomp
+|-sidestart|p2: GUI1LERRMO|move: Sticky Web
+|move|p2a: Garchomp|Fire Blast|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743938629
+|switch|p1a: Sneasel|Sneasel-Hisui, M|100/100
+|turn|4
+|
+|t:|1743938636
+|switch|p2a: Corviknight|Corviknight, F|100/100 par
+|move|p1a: Sneasel|Bulk Up|p1a: Sneasel
+|-boost|p1a: Sneasel|atk|1
+|-boost|p1a: Sneasel|def|1
+|
+|upkeep
+|turn|5
+|
+|t:|1743938645
+|-terastallize|p1a: Sneasel|Electric
+|move|p1a: Sneasel|Toxic Spikes|p2a: Corviknight
+|-sidestart|p2: GUI1LERRMO|move: Toxic Spikes
+|move|p2a: Corviknight|Defog|p1a: Sneasel
+|-unboost|p1a: Sneasel|evasion|1
+|-sideend|p2: GUI1LERRMO|Toxic Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: GUI1LERRMO|Sticky Web|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|6
+|
+|t:|1743938654
+|switch|p2a: Umbreon|Umbreon, F|100/100
+|move|p1a: Sneasel|Bulk Up|p1a: Sneasel
+|-boost|p1a: Sneasel|atk|1
+|-boost|p1a: Sneasel|def|1
+|
+|upkeep
+|turn|7
+|
+|t:|1743938662
+|move|p1a: Sneasel|Toxic Spikes|p2a: Umbreon
+|-sidestart|p2: GUI1LERRMO|move: Toxic Spikes
+|move|p2a: Umbreon|Roar|p1a: Sneasel
+|drag|p1a: Hoopa|Hoopa-Unbound|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743938678
+|move|p1a: Hoopa|Nasty Plot|p1a: Hoopa
+|-boost|p1a: Hoopa|spa|2
+|move|p2a: Umbreon|Foul Play|p1a: Hoopa
+|-damage|p1a: Hoopa|36/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743938685
+|move|p1a: Hoopa|Energy Ball|p2a: Umbreon
+|-damage|p2a: Umbreon|44/100
+|-damage|p1a: Hoopa|26/100|[from] item: Life Orb
+|move|p2a: Umbreon|Foul Play|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|-heal|p2a: Umbreon|50/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743938693
+|switch|p1a: Sneasel|Sneasel-Hisui, M, tera:Electric|100/100
+|turn|10
+|
+|t:|1743938698
+|move|p1a: Sneasel|Bulk Up|p1a: Sneasel
+|-boost|p1a: Sneasel|atk|1
+|-boost|p1a: Sneasel|def|1
+|move|p2a: Umbreon|Moonlight|p2a: Umbreon
+|-heal|p2a: Umbreon|99/100
+|
+|-heal|p2a: Umbreon|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743938706
+|move|p1a: Sneasel|Gunk Shot|p2a: Umbreon
+|-damage|p2a: Umbreon|45/100
+|move|p2a: Umbreon|Roar|p1a: Sneasel
+|drag|p1a: Bastiodon|Bastiodon, M|100/100
+|
+|-heal|p2a: Umbreon|51/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743938715
+|switch|p2a: Corviknight|Corviknight, F|100/100 par
+|move|p1a: Bastiodon|Body Press|p2a: Corviknight
+|-damage|p2a: Corviknight|78/100 par
+|-damage|p1a: Bastiodon|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-heal|p1a: Bastiodon|90/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743938727
+|move|p1a: Bastiodon|Iron Defense|p1a: Bastiodon
+|-boost|p1a: Bastiodon|def|2
+|move|p2a: Corviknight|U-turn|p1a: Bastiodon
+|-resisted|p1a: Bastiodon
+|-damage|p1a: Bastiodon|88/100
+|
+|t:|1743938732
+|switch|p2a: Gengar|Gengar, F|100/100|[from] U-turn
+|-sideend|p2: GUI1LERRMO|move: Toxic Spikes|[of] p2a: Gengar
+|
+|-heal|p1a: Bastiodon|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743938739
+|move|p2a: Gengar|Encore|p1a: Bastiodon
+|-start|p1a: Bastiodon|Encore
+|move|p1a: Bastiodon|Iron Defense|p1a: Bastiodon
+|-boost|p1a: Bastiodon|def|2
+|
+|-heal|p1a: Bastiodon|99/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743938747
+|switch|p1a: Sneasel|Sneasel-Hisui, M, tera:Electric|100/100
+|move|p2a: Gengar|Shadow Ball|p1a: Sneasel
+|-damage|p1a: Sneasel|31/100
+|
+|upkeep
+|turn|16
+|-message|ner555 forfeited.
+|
+|win|GUI1LERRMO
+|raw|ner555's rating: 1075 &rarr; <strong>1057</strong><br />(-18 for losing)
+|raw|GUI1LERRMO's rating: 1135 &rarr; <strong>1156</strong><br />(+21 for winning)
+|l|☆ner555
+|player|p1|
+|l|☆GUI1LERRMO
+|player|p2|

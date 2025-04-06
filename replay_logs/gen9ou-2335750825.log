@@ -1,0 +1,327 @@
+|j|☆Shaymin34
+|j|☆poisonstingpete
+|t:|1743830176
+|gametype|singles
+|player|p1|Shaymin34|acetrainer-gen4dp|1125
+|player|p2|poisonstingpete|bugcatcher-gen4dp|1204
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, M|
+|poke|p1|Gholdengo|
+|poke|p1|Staraptor, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Weavile, M|
+|poke|p1|Alomomola, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, F|
+|poke|p2|Sinistcha|
+|teampreview
+|
+|t:|1743830189
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Rotom|atk|1
+|turn|1
+|
+|t:|1743830196
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2a: Ogerpon
+|-status|p2a: Ogerpon|brn
+|
+|-damage|p2a: Ogerpon|95/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1743830200
+|move|p2a: Ogerpon|Encore|p1a: Rotom
+|-start|p1a: Rotom|Encore
+|move|p1a: Rotom|Will-O-Wisp|p2a: Ogerpon
+|-fail|p2a: Ogerpon|brn
+|
+|-damage|p2a: Ogerpon|89/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743830204
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Ogerpon|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|98/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|t:|1743830210
+|switch|p2a: Heatran|Heatran, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1743830216
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Heatran|Fire Blast|p1a: Rotom|[miss]
+|-miss|p2a: Heatran|p1a: Rotom
+|
+|upkeep
+|turn|5
+|
+|t:|1743830221
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|89/100 brn
+|move|p1a: Rotom|Volt Switch|p2a: Ogerpon
+|-crit|p2a: Ogerpon
+|-damage|p2a: Ogerpon|40/100 brn
+|
+|t:|1743830229
+|switch|p1a: Gholdengo|Gholdengo|98/100|[from] Volt Switch
+|
+|-damage|p2a: Ogerpon|34/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743830234
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Gholdengo|[anim] Ivy Cudgel Water
+|-damage|p1a: Gholdengo|77/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743830251
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gholdengo|atk|1
+|turn|7
+|
+|t:|1743830256
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Landorus|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|80/100
+|
+|t:|1743830261
+|switch|p2a: Sinistcha|Sinistcha|100/100|[from] U-turn
+|
+|-heal|p1a: Rotom|86/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743830264
+|move|p1a: Rotom|Volt Switch|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|86/100
+|
+|t:|1743830269
+|switch|p1a: Gholdengo|Gholdengo|77/100|[from] Volt Switch
+|move|p2a: Sinistcha|Reflect|p2a: Sinistcha
+|-sidestart|p2: poisonstingpete|Reflect
+|
+|upkeep
+|turn|9
+|
+|t:|1743830279
+|-terastallize|p2a: Sinistcha|Dark
+|move|p1a: Gholdengo|Shadow Ball|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|65/100
+|move|p2a: Sinistcha|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743830283
+|switch|p1a: Staraptor|Staraptor, M|100/100
+|turn|10
+|
+|t:|1743830287
+|move|p1a: Staraptor|Close Combat|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|11/100
+|-unboost|p1a: Staraptor|def|1
+|-unboost|p1a: Staraptor|spd|1
+|-enditem|p2a: Sinistcha|Weakness Policy
+|-boost|p2a: Sinistcha|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Sinistcha|spa|2|[from] item: Weakness Policy
+|move|p2a: Sinistcha|Strength Sap|p1a: Staraptor
+|-unboost|p1a: Staraptor|atk|1
+|-heal|p2a: Sinistcha|100/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743830298
+|move|p1a: Staraptor|Close Combat|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|69/100
+|-unboost|p1a: Staraptor|def|1
+|-unboost|p1a: Staraptor|spd|1
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Staraptor
+|-resisted|p1a: Staraptor
+|-damage|p1a: Staraptor|0 fnt
+|-heal|p2a: Sinistcha|100/100|[from] drain|[of] p1a: Staraptor
+|faint|p1a: Staraptor
+|
+|upkeep
+|
+|t:|1743830304
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|turn|12
+|
+|t:|1743830313
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Araquanid
+|-damage|p1a: Araquanid|40/100
+|move|p1a: Araquanid|Sticky Web|p2a: Sinistcha
+|-sidestart|p2: poisonstingpete|move: Sticky Web
+|
+|-sideend|p2: poisonstingpete|Reflect
+|upkeep
+|turn|13
+|
+|t:|1743830317
+|move|p1a: Araquanid|Endure|p1a: Araquanid
+|-singleturn|p1a: Araquanid|move: Endure
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Araquanid
+|-activate|p1a: Araquanid|move: Endure
+|-damage|p1a: Araquanid|1/100
+|
+|upkeep
+|turn|14
+|-enditem|p1a: Araquanid|Custap Berry|[eat]
+|-activate|p1a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1743830325
+|move|p1a: Araquanid|Endeavor|p2a: Sinistcha
+|-damage|p2a: Sinistcha|1/100
+|move|p2a: Sinistcha|Reflect|p2a: Sinistcha
+|-sidestart|p2: poisonstingpete|Reflect
+|
+|upkeep
+|turn|15
+|
+|t:|1743830336
+|move|p2a: Sinistcha|Strength Sap|p1a: Araquanid
+|-unboost|p1a: Araquanid|atk|1
+|-heal|p2a: Sinistcha|46/100
+|move|p1a: Araquanid|Surf|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|
+|upkeep
+|
+|t:|1743830358
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Araquanid|atk|1
+|turn|16
+|
+|t:|1743830361
+|move|p2a: Landorus|U-turn|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|t:|1743830363
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from] U-turn
+|-activate|p2a: Hatterene|move: Sticky Web
+|-unboost|p2a: Hatterene|spe|1
+|
+|upkeep
+|
+|t:|1743830367
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|turn|17
+|
+|t:|1743830375
+|move|p1a: Alomomola|Scald|p2a: Hatterene
+|-damage|p2a: Hatterene|91/100
+|-status|p2a: Hatterene|brn
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Alomomola
+|-damage|p1a: Alomomola|73/100
+|
+|-damage|p2a: Hatterene|85/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743830379
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Alomomola
+|-damage|p1a: Alomomola|47/100
+|move|p1a: Alomomola|Mirror Coat|p2a: Hatterene
+|-damage|p2a: Hatterene|8/100 brn
+|
+|-damage|p2a: Hatterene|2/100 brn|[from] brn
+|-sideend|p2: poisonstingpete|Reflect
+|upkeep
+|turn|19
+|
+|t:|1743830383
+|move|p1a: Alomomola|Flip Turn|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|t:|1743830386
+|switch|p1a: Rotom|Rotom-Wash|86/100|[from] Flip Turn
+|
+|-heal|p1a: Rotom|93/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743830408
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|20
+|
+|t:|1743830412
+|move|p2a: Cinderace|Zen Headbutt|p1a: Rotom|[miss]
+|-start|p2a: Cinderace|typechange|Psychic|[from] ability: Libero
+|-miss|p2a: Cinderace|p1a: Rotom
+|move|p1a: Rotom|Hydro Pump|p2a: Cinderace
+|-damage|p2a: Cinderace|41/100
+|
+|-heal|p1a: Rotom|99/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743830423
+|switch|p2a: Heatran|Heatran, F|100/100
+|-activate|p2a: Heatran|move: Sticky Web
+|-unboost|p2a: Heatran|spe|1
+|move|p1a: Rotom|Hydro Pump|p2a: Heatran|[miss]
+|-miss|p1a: Rotom|p2a: Heatran
+|
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743830435
+|move|p1a: Rotom|Hydro Pump|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|32/100
+|move|p2a: Heatran|Flash Cannon|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|88/100
+|
+|-heal|p1a: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|-message|poisonstingpete forfeited.
+|
+|win|Shaymin34
+|raw|Shaymin34's rating: 1125 &rarr; <strong>1156</strong><br />(+31 for winning)
+|raw|poisonstingpete's rating: 1204 &rarr; <strong>1173</strong><br />(-31 for losing)
+|l|☆poisonstingpete
+|player|p2|
+|l|☆Shaymin34
+|player|p1|

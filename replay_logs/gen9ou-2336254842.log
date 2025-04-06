@@ -1,0 +1,247 @@
+|j|☆Bolt—-TKO
+|j|☆helloiamarandom
+|t:|1743895001
+|gametype|singles
+|player|p1|Bolt—-TKO|blue|1252
+|player|p2|helloiamarandom|psychic-gen4|1223
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dondozo, F|
+|poke|p1|Clodsire, M|
+|poke|p1|Great Tusk|
+|poke|p1|Salamence, M|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Greninja-*, M|
+|poke|p2|Diglett-Alola, M|
+|poke|p2|Dugtrio-Alola, F|
+|poke|p2|Tyranitar, M|
+|poke|p2|Hippowdon, M|
+|poke|p2|Clodsire, M|
+|poke|p2|Pelipper, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by helloiamarandom)
+|
+|t:|1743895019
+|start
+|switch|p1a: Greninja|Greninja, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1743895024
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|move|p1a: Greninja|Water Shuriken|p2a: Clodsire
+|-immune|p2a: Clodsire|[from] ability: Water Absorb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Greninja|95/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1743895029
+|move|p1a: Greninja|Ice Beam|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|63/100
+|-status|p2a: Clodsire|frz
+|-enditem|p2a: Clodsire|Red Card|[of] p1a: Greninja
+|drag|p1a: Clodsire|Clodsire, M|100/100
+|cant|p2a: Clodsire|frz
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743895039
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|move|p1a: Clodsire|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: helloiamarandom|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pelipper|94/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1743895049
+|switch|p1a: Greninja|Greninja, M|95/100
+|move|p2a: Pelipper|Hydro Pump|p1a: Greninja|[miss]
+|-miss|p2a: Pelipper|p1a: Greninja
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Greninja|89/100|[from] Sandstorm
+|-damage|p2a: Pelipper|88/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1743895063
+|-terastallize|p1a: Greninja|Electric
+|move|p1a: Greninja|Tera Blast|p2a: Pelipper|[anim] Tera Blast Electric
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|-ability|p1a: Greninja|Battle Bond|boost
+|-boost|p1a: Greninja|atk|1
+|-boost|p1a: Greninja|spa|1
+|-boost|p1a: Greninja|spe|1
+|-activate|p1a: Greninja|ability: Battle Bond
+|
+|-weather|none
+|upkeep
+|
+|t:|1743895071
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|6
+|
+|t:|1743895077
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|move|p2a: Tyranitar|Earthquake|p1a: Dondozo
+|-damage|p1a: Dondozo|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dondozo|75/100|[from] Sandstorm
+|-heal|p1a: Dondozo|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743895081
+|switch|p2a: Diglett|Diglett-Alola, M|100/100
+|-damage|p2a: Diglett|98/100|[from] Stealth Rock
+|move|p1a: Dondozo|Waterfall|p2a: Diglett
+|-supereffective|p2a: Diglett
+|-damage|p2a: Diglett|0 fnt
+|-ability|p2a: Diglett|Tangling Hair
+|-unboost|p1a: Dondozo|spe|1
+|faint|p2a: Diglett
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dondozo|75/100|[from] Sandstorm
+|-heal|p1a: Dondozo|82/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743895087
+|switch|p2a: Clodsire|Clodsire, M|63/100 frz
+|-damage|p2a: Clodsire|56/100 frz|[from] Stealth Rock
+|turn|8
+|
+|t:|1743895092
+|switch|p1a: Salamence|Salamence, M|100/100
+|cant|p2a: Clodsire|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|94/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1743895098
+|switch|p2a: Tyranitar|Tyranitar, M|88/100
+|-damage|p2a: Tyranitar|76/100|[from] Stealth Rock
+|move|p1a: Salamence|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|8/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|88/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1743895103
+|move|p1a: Salamence|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|-weather|none
+|upkeep
+|
+|t:|1743895105
+|switch|p2a: Dugtrio|Dugtrio-Alola, F|100/100
+|-damage|p2a: Dugtrio|98/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1743895109
+|move|p2a: Dugtrio|Iron Head|p1a: Salamence
+|-damage|p1a: Salamence|27/100
+|cant|p1a: Salamence|flinch
+|
+|upkeep
+|turn|12
+|
+|t:|1743895112
+|move|p2a: Dugtrio|Iron Head|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|upkeep
+|
+|t:|1743895117
+|switch|p1a: Dondozo|Dondozo, F|82/100
+|turn|13
+|
+|t:|1743895121
+|switch|p2a: Clodsire|Clodsire, M|56/100 frz
+|-damage|p2a: Clodsire|50/100 frz|[from] Stealth Rock
+|move|p1a: Dondozo|Waterfall|p2a: Clodsire
+|-heal|p2a: Clodsire|75/100 frz|[from] ability: Water Absorb|[of] p1a: Dondozo
+|
+|-heal|p1a: Dondozo|88/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743895125
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|cant|p2a: Clodsire|frz
+|
+|upkeep
+|turn|15
+|
+|t:|1743895127
+|move|p1a: Great Tusk|Headlong Rush|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Clodsire
+|
+|upkeep
+|
+|t:|1743895132
+|switch|p2a: Dugtrio|Dugtrio-Alola, F|98/100
+|-damage|p2a: Dugtrio|95/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743895140
+|-terastallize|p2a: Dugtrio|Stellar
+|move|p1a: Great Tusk|Close Combat|p2a: Dugtrio
+|-supereffective|p2a: Dugtrio
+|-damage|p2a: Dugtrio|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Dugtrio
+|
+|upkeep
+|-message|helloiamarandom forfeited.
+|
+|win|Bolt—-TKO
+|raw|Bolt—-TKO's rating: 1252 &rarr; <strong>1275</strong><br />(+23 for winning)
+|raw|helloiamarandom's rating: 1223 &rarr; <strong>1200</strong><br />(-23 for losing)
+|l|☆helloiamarandom
+|player|p2|
+|l|☆Bolt—-TKO
+|player|p1|

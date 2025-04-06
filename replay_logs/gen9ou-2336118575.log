@@ -1,0 +1,181 @@
+|j|☆poketrep
+|j|☆alvar03
+|t:|1743880697
+|gametype|singles
+|player|p1|poketrep|swimmerf|1772
+|player|p2|alvar03|alder|1803
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rabsca, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Ursaluna, F|
+|poke|p1|Azumarill, F|
+|poke|p1|Mimikyu, M|
+|poke|p1|Kingambit, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Great Tusk|
+|poke|p2|Cinderace, M|
+|teampreview
+|
+|t:|1743880715
+|start
+|switch|p1a: Burr|Slowking-Galar, M|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|1
+|j| union boss
+|
+|t:|1743880718
+|move|p2a: Tornadus|Knock Off|p1a: Burr
+|-supereffective|p1a: Burr
+|-damage|p1a: Burr|58/100
+|-enditem|p1a: Burr|Life Orb|[from] move: Knock Off|[of] p2a: Tornadus
+|move|p1a: Burr|Trick Room|p1a: Burr
+|-fieldstart|move: Trick Room|[of] p1a: Burr
+|
+|upkeep
+|turn|2
+|
+|t:|1743880722
+|switch|p1a: Village Crusher|Ursaluna, F|100/100
+|move|p2a: Tornadus|U-turn|p1a: Village Crusher
+|-damage|p1a: Village Crusher|91/100
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by alvar03)
+|
+|t:|1743880729
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|
+|-status|p1a: Village Crusher|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1743880734
+|-terastallize|p1a: Village Crusher|Normal
+|move|p1a: Village Crusher|Facade|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-damage|p1a: Village Crusher|74/100 brn|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-damage|p1a: Village Crusher|68/100 brn|[from] brn
+|upkeep
+|
+|t:|1743880747
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|4
+|
+|t:|1743880753
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Village Crusher|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Village Crusher|62/100 brn|[from] brn
+|upkeep
+|
+|t:|1743880760
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|5
+|
+|t:|1743880764
+|move|p1a: Village Crusher|Facade|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-damage|p1a: Village Crusher|56/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743880767
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|6
+|
+|t:|1743880776
+|switch|p1a: Shogun|Kingambit, M|100/100
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1743880781
+|move|p1a: Shogun|Sucker Punch||[still]
+|-fail|p1a: Shogun
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|upkeep
+|turn|8
+|
+|t:|1743880787
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p1a: Shogun|Sucker Punch|p2a: Ogerpon
+|-damage|p2a: Ogerpon|47/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Shogun|[anim] Ivy Cudgel Water
+|-crit|p1a: Shogun
+|-damage|p1a: Shogun|0 fnt
+|faint|p1a: Shogun
+|-end|p1a: Shogun|fallenundefined|[silent]
+|
+|upkeep
+|
+|t:|1743880793
+|switch|p1a: Decoy|Mimikyu, M|100/100
+|turn|9
+|
+|t:|1743880796
+|move|p2a: Ogerpon|Synthesis|p2a: Ogerpon
+|-heal|p2a: Ogerpon|97/100
+|move|p1a: Decoy|Trick Room|p1a: Decoy
+|-fieldstart|move: Trick Room|[of] p1a: Decoy
+|
+|upkeep
+|turn|10
+|
+|t:|1743880806
+|switch|p1a: Chad|Azumarill, F|100/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Chad|[anim] Ivy Cudgel Water
+|-resisted|p1a: Chad
+|-damage|p1a: Chad|0 fnt
+|faint|p1a: Chad
+|
+|upkeep
+|
+|t:|1743880807
+|switch|p1a: Village Crusher|Ursaluna, F, tera:Normal|56/100 brn
+|turn|11
+|c|☆poketrep|GG
+|
+|t:|1743880812
+|move|p1a: Village Crusher|Facade|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-damage|p1a: Village Crusher|50/100 brn|[from] brn
+|upkeep
+|-message|alvar03 forfeited.
+|
+|win|poketrep
+|raw|poketrep's rating: 1772 &rarr; <strong>1794</strong><br />(+22 for winning)
+|raw|alvar03's rating: 1803 &rarr; <strong>1781</strong><br />(-22 for losing)
+|l|☆alvar03
+|player|p2|
+|l|☆poketrep
+|player|p1|

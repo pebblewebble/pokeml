@@ -1,0 +1,313 @@
+|j|☆DiceyRice
+|j|☆Peekochu
+|t:|1743869752
+|gametype|singles
+|player|p1|DiceyRice|miku-psychic|1625
+|player|p2|Peekochu|266|1616
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Moth|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Dragonite, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Quaquaval, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Kyurem|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Moltres|
+|poke|p2|Iron Treads|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|t:|1743869777
+|start
+|switch|p1a: Duckular|Quaquaval, M|100/100
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Peekochu)
+|
+|t:|1743869792
+|move|p2a: Kyurem|Freeze-Dry|p1a: Duckular
+|-supereffective|p1a: Duckular
+|-damage|p1a: Duckular|4/100
+|move|p1a: Duckular|Close Combat|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-unboost|p1a: Duckular|def|1
+|-unboost|p1a: Duckular|spd|1
+|faint|p2a: Kyurem
+|-ability|p1a: Duckular|Moxie|boost
+|-boost|p1a: Duckular|atk|1
+|
+|upkeep
+|
+|t:|1743869802
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|2
+|
+|t:|1743869808
+|move|p1a: Duckular|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|7/100
+|-enditem|p2a: Slowking|Icy Rock|[from] move: Knock Off|[of] p1a: Duckular
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743869817
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] Chilly Reception
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|j| 54 insane rats
+|
+|t:|1743869821
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Treads|atk|1
+|move|p2a: Iron Treads|Rapid Spin|p1a: Landorus
+|-damage|p1a: Landorus|92/100
+|-boost|p2a: Iron Treads|spe|1
+|-damage|p2a: Iron Treads|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743869828
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Moltres
+|-sidestart|p2: Peekochu|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743869838
+|move|p1a: Landorus|Taunt|p2a: Moltres
+|-start|p2a: Moltres|move: Taunt
+|cant|p2a: Moltres|move: Taunt|Will-O-Wisp
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743869841
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|move|p2a: Moltres|Flamethrower|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|81/100
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1743869850
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|-damage|p2a: Samurott|88/100|[from] Stealth Rock
+|move|p1a: Iron Moth|Fiery Dance|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|70/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743869857
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|92/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Samurott|atk|1
+|move|p2a: Samurott|Ceaseless Edge|p1a: Landorus
+|-damage|p1a: Landorus|76/100
+|-damage|p2a: Samurott|53/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-sidestart|p1: DiceyRice|Spikes
+|
+|upkeep
+|turn|9
+|
+|t:|1743869862
+|move|p1a: Landorus|Earth Power|p2a: Samurott
+|-damage|p2a: Samurott|33/100
+|-unboost|p2a: Samurott|spd|1
+|move|p2a: Samurott|Aqua Cutter|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-crit|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743869868
+|switch|p1a: Iron Moth|Iron Moth|81/100
+|-damage|p1a: Iron Moth|69/100|[from] Spikes
+|turn|10
+|
+|t:|1743869873
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|65/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743869881
+|move|p1a: Iron Moth|Fiery Dance|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|29/100
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|79/100
+|-singleturn|p2a: Moltres|move: Roost
+|
+|upkeep
+|turn|12
+|
+|t:|1743869884
+|move|p1a: Iron Moth|Fiery Dance|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|43/100
+|move|p2a: Moltres|Roar|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|drag|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|88/100|[from] Spikes
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|
+|-heal|p1a: Kingambit|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743869892
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Duckular|Quaquaval, M|4/100
+|-damage|p1a: Duckular|0 fnt|[from] Spikes
+|faint|p1a: Duckular
+|move|p2a: Moltres|Flamethrower|p1: Duckular|[notarget]
+|-fail|p2a: Moltres
+|
+|upkeep
+|
+|t:|1743869894
+|switch|p1a: Iron Moth|Iron Moth|69/100
+|-damage|p1a: Iron Moth|56/100|[from] Spikes
+|turn|14
+|
+|t:|1743869903
+|move|p1a: Iron Moth|Sludge Wave|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|upkeep
+|
+|t:|1743869907
+|switch|p2a: Iron Treads|Iron Treads|84/100
+|-damage|p2a: Iron Treads|81/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743869914
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Iron Treads|Rapid Spin|p1a: Slowking
+|-damage|p1a: Slowking|83/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: Peekochu|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|
+|upkeep
+|turn|16
+|j| lowladderubersnoob
+|
+|t:|1743869921
+|move|p2a: Iron Treads|Stealth Rock|p1a: Slowking
+|-sidestart|p1: DiceyRice|move: Stealth Rock
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743869922
+|switch|p1a: Dragonite|Dragonite, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743869930
+|move|p2a: Iron Treads|Rapid Spin|p1a: Dragonite
+|-damage|p1a: Dragonite|92/100
+|-boost|p2a: Iron Treads|spe|1
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743869935
+|move|p2a: Iron Treads|Knock Off|p1a: Dragonite
+|-damage|p1a: Dragonite|61/100
+|-enditem|p1a: Dragonite|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743869947
+|move|p2a: Iron Treads|Knock Off|p1a: Dragonite
+|-damage|p1a: Dragonite|37/100
+|move|p1a: Dragonite|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743869953
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|20
+|
+|t:|1743869956
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Extreme Speed|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|none
+|upkeep
+|-message|Peekochu forfeited.
+|
+|win|DiceyRice
+|raw|DiceyRice's rating: 1625 &rarr; <strong>1644</strong><br />(+19 for winning)
+|raw|Peekochu's rating: 1616 &rarr; <strong>1597</strong><br />(-19 for losing)
+|l|☆Peekochu
+|player|p2|
+|l| 54 insane rats
+|l|☆DiceyRice
+|player|p1|
+|l| lowladderubersnoob

@@ -1,0 +1,284 @@
+|j|☆12BRUN
+|j|☆Tobiroki
+|t:|1743874460
+|gametype|singles
+|player|p1|12BRUN|266|1118
+|player|p2|Tobiroki|1|1100
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Snorlax, F|
+|poke|p1|Infernape, M|
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Pecharunt|
+|poke|p2|Ambipom, M|
+|poke|p2|Scrafty, M|
+|poke|p2|Infernape, M|
+|poke|p2|Spiritomb, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Reuniclus, F|
+|teampreview
+|
+|t:|1743874471
+|start
+|switch|p1a: Samir|Dragapult, M|100/100
+|switch|p2a: Ambipom|Ambipom, M, shiny|100/100
+|turn|1
+|
+|t:|1743874491
+|move|p1a: Samir|Draco Meteor|p2a: Ambipom
+|-damage|p2a: Ambipom|0 fnt
+|-unboost|p1a: Samir|spa|2
+|faint|p2a: Ambipom
+|
+|upkeep
+|
+|t:|1743874499
+|switch|p2a: Scrafty|Scrafty, M|100/100
+|turn|2
+|
+|t:|1743874505
+|switch|p1a: Djamila|Landorus-Therian, M|100/100
+|-ability|p1a: Djamila|Intimidate|boost
+|-unboost|p2a: Scrafty|atk|1
+|move|p2a: Scrafty|Knock Off|p1a: Djamila
+|-damage|p1a: Djamila|85/100
+|-damage|p2a: Scrafty|84/100|[from] item: Rocky Helmet|[of] p1a: Djamila
+|-enditem|p1a: Djamila|Rocky Helmet|[from] move: Knock Off|[of] p2a: Scrafty
+|
+|upkeep
+|turn|3
+|
+|t:|1743874517
+|move|p1a: Djamila|U-turn|p2a: Scrafty
+|-damage|p2a: Scrafty|70/100
+|
+|t:|1743874521
+|switch|p1a: Broutito|Snorlax, F|100/100|[from] U-turn
+|move|p2a: Scrafty|Ice Punch|p1a: Broutito
+|-damage|p1a: Broutito|89/100
+|-status|p1a: Broutito|frz
+|
+|upkeep
+|turn|4
+|
+|t:|1743874534
+|switch|p1a: Yochie|Goodra-Hisui, M|100/100
+|move|p2a: Scrafty|High Jump Kick|p1a: Yochie
+|-supereffective|p1a: Yochie
+|-crit|p1a: Yochie
+|-damage|p1a: Yochie|0 fnt
+|faint|p1a: Yochie
+|
+|upkeep
+|
+|t:|1743874549
+|switch|p1a: Broutito|Snorlax, F|89/100 frz
+|turn|5
+|
+|t:|1743874552
+|switch|p1a: Badi3a|Pecharunt|100/100
+|-item|p1a: Badi3a|Air Balloon
+|move|p2a: Scrafty|High Jump Kick|p1a: Badi3a
+|-immune|p1a: Badi3a
+|-damage|p2a: Scrafty|20/100|[from] highjumpkick
+|
+|upkeep
+|turn|6
+|
+|t:|1743874561
+|switch|p1a: Djamila|Landorus-Therian, M|85/100
+|-ability|p1a: Djamila|Intimidate|boost
+|-unboost|p2a: Scrafty|atk|1
+|move|p2a: Scrafty|Knock Off|p1a: Djamila
+|-damage|p1a: Djamila|76/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743874578
+|switch|p1a: Baz|Infernape, M|100/100
+|move|p2a: Scrafty|Ice Punch|p1a: Baz
+|-resisted|p1a: Baz
+|-damage|p1a: Baz|94/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743874608
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Baz|Bulk Up|p1a: Baz
+|-boost|p1a: Baz|atk|1
+|-boost|p1a: Baz|def|1
+|
+|upkeep
+|turn|9
+|
+|t:|1743874619
+|switch|p1a: Broutito|Snorlax, F|89/100 frz
+|move|p2a: Rotom|Hydro Pump|p1a: Broutito
+|-damage|p1a: Broutito|43/100 frz
+|
+|upkeep
+|turn|10
+|-enditem|p1a: Broutito|Custap Berry|[eat]
+|-activate|p1a: Broutito|item: Custap Berry|[consumed]
+|
+|t:|1743874627
+|cant|p1a: Broutito|frz
+|move|p2a: Rotom|Hydro Pump|p1a: Broutito
+|-damage|p1a: Broutito|3/100 frz
+|
+|upkeep
+|turn|11
+|
+|t:|1743874634
+|move|p2a: Rotom|Hydro Pump|p1a: Broutito
+|-damage|p1a: Broutito|0 fnt
+|faint|p1a: Broutito
+|
+|upkeep
+|
+|t:|1743874642
+|switch|p1a: Samir|Dragapult, M|100/100
+|turn|12
+|
+|t:|1743874646
+|move|p1a: Samir|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|36/100
+|move|p2a: Rotom|Hydro Pump|p1a: Samir
+|-resisted|p1a: Samir
+|-damage|p1a: Samir|53/100
+|
+|upkeep
+|turn|13
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 12BRUN)
+|
+|t:|1743874675
+|move|p1a: Samir|Shadow Ball|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1743874685
+|switch|p2a: Scrafty|Scrafty, M|20/100
+|turn|14
+|
+|t:|1743874692
+|switch|p1a: Badi3a|Pecharunt|100/100
+|-item|p1a: Badi3a|Air Balloon
+|move|p2a: Scrafty|Knock Off|p1a: Badi3a
+|-supereffective|p1a: Badi3a
+|-damage|p1a: Badi3a|67/100
+|-enditem|p1a: Badi3a|Air Balloon
+|
+|upkeep
+|turn|15
+|
+|t:|1743874707
+|move|p1a: Badi3a|Malignant Chain|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|faint|p2a: Scrafty
+|
+|upkeep
+|
+|t:|1743874717
+|switch|p2a: Spiritomb|Spiritomb, M|100/100
+|turn|16
+|
+|t:|1743874730
+|move|p1a: Badi3a|Recover|p1a: Badi3a
+|-heal|p1a: Badi3a|100/100
+|move|p2a: Spiritomb|Foul Play|p1a: Badi3a
+|-supereffective|p1a: Badi3a
+|-damage|p1a: Badi3a|78/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743874749
+|move|p1a: Badi3a|Malignant Chain|p2a: Spiritomb
+|-resisted|p2a: Spiritomb
+|-damage|p2a: Spiritomb|84/100
+|move|p2a: Spiritomb|Will-O-Wisp|p1a: Badi3a|[miss]
+|-miss|p2a: Spiritomb|p1a: Badi3a
+|
+|-heal|p2a: Spiritomb|90/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743874763
+|move|p1a: Badi3a|Malignant Chain|p2a: Spiritomb
+|-resisted|p2a: Spiritomb
+|-damage|p2a: Spiritomb|73/100
+|move|p2a: Spiritomb|Will-O-Wisp|p1a: Badi3a
+|-status|p1a: Badi3a|brn
+|
+|-heal|p2a: Spiritomb|79/100|[from] item: Leftovers
+|-damage|p1a: Badi3a|72/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1743874777
+|move|p1a: Badi3a|Malignant Chain|p2a: Spiritomb
+|-resisted|p2a: Spiritomb
+|-damage|p2a: Spiritomb|62/100
+|move|p2a: Spiritomb|Hex|p1a: Badi3a
+|-supereffective|p1a: Badi3a
+|-damage|p1a: Badi3a|0 fnt
+|faint|p1a: Badi3a
+|
+|-heal|p2a: Spiritomb|68/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743874799
+|switch|p1a: Samir|Dragapult, M|53/100
+|turn|20
+|
+|t:|1743874803
+|-terastallize|p1a: Samir|Ghost
+|move|p1a: Samir|Shadow Ball|p2a: Spiritomb
+|-damage|p2a: Spiritomb|0 fnt
+|faint|p2a: Spiritomb
+|
+|upkeep
+|
+|t:|1743874821
+|switch|p2a: Infernape|Infernape, M|100/100
+|turn|21
+|
+|t:|1743874826
+|move|p1a: Samir|Shadow Ball|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|upkeep
+|
+|t:|1743874833
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|turn|22
+|
+|t:|1743874837
+|move|p1a: Samir|Shadow Ball|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|win|12BRUN
+|raw|12BRUN's rating: 1118 &rarr; <strong>1142</strong><br />(+24 for winning)
+|raw|Tobiroki's rating: 1100 &rarr; <strong>1076</strong><br />(-24 for losing)
+|l|☆Tobiroki
+|player|p2|

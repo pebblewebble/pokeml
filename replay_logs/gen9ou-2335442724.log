@@ -1,0 +1,341 @@
+|j|☆cokmm
+|j|☆misgamer1234
+|t:|1743794686
+|gametype|singles
+|player|p1|cokmm|veteran|1121
+|player|p2|misgamer1234|acetrainersnow|1138
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Scovillain, F|
+|poke|p1|Hattrem, F|
+|poke|p1|Charizard, M|
+|poke|p1|Brute Bonnet|
+|poke|p1|Whimsicott, F|
+|poke|p2|Ceruledge, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Moltres-Galar|
+|poke|p2|Quaquaval, M|
+|teampreview
+|
+|t:|1743794693
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1743794717
+|switch|p1a: Hattrem|Hattrem, F|100/100
+|move|p2a: Pelipper|Surf|p1a: Hattrem
+|-damage|p1a: Hattrem|80/100
+|-enditem|p1a: Hattrem|Eject Button
+|
+|t:|1743794732
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743794742
+|move|p1a: Whimsicott|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|96/100
+|
+|t:|1743794747
+|switch|p1a: Hattrem|Hattrem, F|80/100|[from] U-turn
+|move|p2a: Pelipper|Ice Beam|p1a: Hattrem
+|-damage|p1a: Hattrem|50/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Pelipper|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743794761
+|move|p2a: Pelipper|Knock Off|p1a: Hattrem
+|-supereffective|p1a: Hattrem
+|-damage|p1a: Hattrem|32/100
+|move|p1a: Hattrem|Psychic|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|40/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Pelipper|46/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743794772
+|move|p2a: Pelipper|Knock Off|p1a: Hattrem
+|-supereffective|p1a: Hattrem
+|-damage|p1a: Hattrem|16/100
+|move|p1a: Hattrem|Nuzzle|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|39/100
+|-status|p2a: Pelipper|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Pelipper|45/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743794784
+|move|p1a: Hattrem|Psychic|p2a: Pelipper
+|-damage|p2a: Pelipper|7/100 par
+|move|p2a: Pelipper|Knock Off|p1a: Hattrem
+|-supereffective|p1a: Hattrem
+|-crit|p1a: Hattrem
+|-damage|p1a: Hattrem|0 fnt
+|faint|p1a: Hattrem
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Pelipper|13/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1743794796
+|switch|p1a: Charizard|Charizard, M|100/100
+|turn|6
+|
+|t:|1743794802
+|move|p1a: Charizard|Weather Ball|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|88/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+|
+|t:|1743794814
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|turn|7
+|
+|t:|1743794820
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|move|p2a: Quaquaval|Aqua Step|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|86/100
+|-boost|p2a: Quaquaval|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743794831
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Whimsicott|Solar Beam||[still]
+|-prepare|p1a: Whimsicott|Solar Beam
+|-anim|p1a: Whimsicott|Solar Beam|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-weather|none
+|upkeep
+|
+|t:|1743794842
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|9
+|
+|t:|1743794849
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Garchomp|Fire Blast|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|82/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743794864
+|switch|p1a: Scovillain|Scovillain, F|100/100
+|move|p2a: Garchomp|Stealth Rock|p1a: Scovillain
+|-sidestart|p1: cokmm|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743794874
+|move|p1a: Scovillain|Solar Beam||[still]
+|-prepare|p1a: Scovillain|Solar Beam
+|-anim|p1a: Scovillain|Solar Beam|p2a: Garchomp
+|-damage|p2a: Garchomp|37/100
+|-damage|p1a: Scovillain|91/100|[from] item: Life Orb
+|move|p2a: Garchomp|Earthquake|p1a: Scovillain
+|-damage|p1a: Scovillain|15/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Garchomp|43/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743794887
+|move|p1a: Scovillain|Solar Beam||[still]
+|-prepare|p1a: Scovillain|Solar Beam
+|-anim|p1a: Scovillain|Solar Beam|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|-damage|p1a: Scovillain|5/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743794895
+|switch|p2a: Moltres|Moltres-Galar|100/100
+|turn|13
+|
+|t:|1743794908
+|move|p1a: Scovillain|Stomping Tantrum|p2a: Moltres
+|-immune|p2a: Moltres
+|move|p2a: Moltres|Agility|p2a: Moltres
+|-boost|p2a: Moltres|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743794928
+|move|p2a: Moltres|Nasty Plot|p2a: Moltres
+|-boost|p2a: Moltres|spa|2
+|move|p1a: Scovillain|Solar Beam||[still]
+|-prepare|p1a: Scovillain|Solar Beam
+|-anim|p1a: Scovillain|Solar Beam|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|72/100
+|-damage|p1a: Scovillain|0 fnt|[from] item: Life Orb
+|faint|p1a: Scovillain
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743794941
+|switch|p1a: Torkoal|Torkoal, F|82/100
+|-damage|p1a: Torkoal|57/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743794948
+|-terastallize|p1a: Torkoal|Fighting
+|move|p2a: Moltres|Fiery Wrath|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743794960
+|switch|p1a: Charizard|Charizard, M|88/100
+|-damage|p1a: Charizard|38/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743794967
+|move|p2a: Moltres|Fiery Wrath|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-weather|none
+|upkeep
+|
+|t:|1743794976
+|switch|p1a: Brute Bonnet|Brute Bonnet|100/100
+|-damage|p1a: Brute Bonnet|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743794986
+|move|p1a: Brute Bonnet|Sucker Punch|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|42/100
+|-ability|p2a: Moltres|Berserk|boost
+|-boost|p2a: Moltres|spa|1
+|-damage|p1a: Brute Bonnet|78/100|[from] item: Life Orb
+|move|p2a: Moltres|Hurricane|p1a: Brute Bonnet|[miss]
+|-miss|p2a: Moltres|p1a: Brute Bonnet
+|
+|upkeep
+|turn|18
+|
+|t:|1743795001
+|move|p2a: Moltres|Fiery Wrath|p1a: Brute Bonnet
+|-resisted|p1a: Brute Bonnet
+|-damage|p1a: Brute Bonnet|25/100
+|move|p1a: Brute Bonnet|Close Combat|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|-unboost|p1a: Brute Bonnet|def|1
+|-unboost|p1a: Brute Bonnet|spd|1
+|faint|p2a: Moltres
+|-damage|p1a: Brute Bonnet|15/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743795013
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|19
+|
+|t:|1743795018
+|move|p1a: Brute Bonnet|Sucker Punch||[still]
+|-fail|p1a: Brute Bonnet
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|upkeep
+|turn|20
+|
+|t:|1743795026
+|move|p1a: Brute Bonnet|Sucker Punch|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|-damage|p1a: Brute Bonnet|5/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743795033
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|turn|21
+|
+|t:|1743795042
+|move|p1a: Brute Bonnet|Sucker Punch|p2a: Quaquaval
+|-resisted|p2a: Quaquaval
+|-damage|p2a: Quaquaval|69/100
+|-damage|p1a: Brute Bonnet|0 fnt|[from] item: Life Orb
+|faint|p1a: Brute Bonnet
+|-end|p1a: Brute Bonnet|Protosynthesis|[silent]
+|move|p2a: Quaquaval|Rapid Spin|p1: Brute Bonnet|[notarget]
+|-fail|p2a: Quaquaval
+|
+|upkeep
+|
+|t:|1743795052
+|switch|p1a: Whimsicott|Whimsicott, F|86/100
+|-damage|p1a: Whimsicott|74/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1743795062
+|move|p1a: Whimsicott|Moonblast|p2a: Quaquaval
+|-supereffective|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|win|cokmm
+|raw|cokmm's rating: 1121 &rarr; <strong>1147</strong><br />(+26 for winning)
+|raw|misgamer1234's rating: 1138 &rarr; <strong>1112</strong><br />(-26 for losing)
+|l|☆misgamer1234
+|player|p2|
+|l|☆cokmm
+|player|p1|

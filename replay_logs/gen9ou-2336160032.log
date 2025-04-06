@@ -1,0 +1,586 @@
+|j|☆RW Tobirama
+|j|☆saturnette
+|t:|1743884960
+|gametype|singles
+|player|p1|RW Tobirama|265|
+|player|p2|saturnette|mela|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garganacl, M|
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Gliscor, M|
+|poke|p2|Great Tusk|
+|poke|p2|Tinkaton, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Garganacl, F|
+|teampreview
+|
+|t:|1743884996
+|start
+|switch|p1a: Bullet|Garganacl, M|100/100
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-item|p2a: Tinkaton|Air Balloon
+|turn|1
+|
+|t:|1743885003
+|switch|p1a: Viernes|Corviknight, M|100/100
+|-ability|p1a: Viernes|Pressure
+|move|p2a: Tinkaton|Knock Off|p1a: Viernes
+|-damage|p1a: Viernes|90/100
+|-damage|p2a: Tinkaton|84/100|[from] item: Rocky Helmet|[of] p1a: Viernes
+|-enditem|p1a: Viernes|Rocky Helmet|[from] move: Knock Off|[of] p2a: Tinkaton
+|
+|upkeep
+|turn|2
+|
+|t:|1743885034
+|move|p2a: Tinkaton|Stealth Rock|p1a: Viernes
+|-sidestart|p1: RW Tobirama|move: Stealth Rock
+|move|p1a: Viernes|Iron Defense|p1a: Viernes
+|-boost|p1a: Viernes|def|2
+|
+|upkeep
+|turn|3
+|
+|t:|1743885039
+|move|p2a: Tinkaton|Encore|p1a: Viernes
+|-start|p1a: Viernes|Encore
+|move|p1a: Viernes|Iron Defense|p1a: Viernes
+|-boost|p1a: Viernes|def|2
+|
+|upkeep
+|turn|4
+|
+|t:|1743885054
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Viernes|Iron Defense|p1a: Viernes
+|-boost|p1a: Viernes|def|2
+|
+|upkeep
+|turn|5
+|
+|t:|1743885091
+|switch|p1a: Bullet|Garganacl, M|100/100
+|-damage|p1a: Bullet|88/100|[from] Stealth Rock
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Bullet
+|-immune|p1a: Bullet|[from] ability: Purifying Salt
+|
+|-heal|p1a: Bullet|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743885099
+|move|p2a: Dragapult|U-turn|p1a: Bullet
+|-damage|p1a: Bullet|83/100
+|
+|t:|1743885108
+|switch|p2a: Garganacl|Garganacl, F|100/100|[from] U-turn
+|move|p1a: Bullet|Stealth Rock|p2a: Garganacl
+|-sidestart|p2: saturnette|move: Stealth Rock
+|
+|-heal|p1a: Bullet|89/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743885131
+|switch|p1a: Magellan|Weezing-Galar, F|100/100
+|-ability|p1a: Magellan|Neutralizing Gas
+|-damage|p1a: Magellan|88/100|[from] Stealth Rock
+|move|p2a: Garganacl|Salt Cure|p1a: Magellan
+|-damage|p1a: Magellan|79/100
+|-start|p1a: Magellan|Salt Cure
+|
+|-heal|p1a: Magellan|85/100|[from] item: Black Sludge
+|-damage|p1a: Magellan|73/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1743885144
+|move|p1a: Magellan|Defog|p2a: Garganacl
+|-unboost|p2a: Garganacl|evasion|1
+|-sideend|p2: saturnette|Stealth Rock|[from] move: Defog|[of] p1a: Magellan
+|-sideend|p1: RW Tobirama|Stealth Rock|[from] move: Defog|[of] p1a: Magellan
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p1a: Magellan|79/100|[from] item: Black Sludge
+|-damage|p1a: Magellan|66/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1743885150
+|move|p1a: Magellan|Will-O-Wisp|p2a: Garganacl
+|-status|p2a: Garganacl|brn
+|move|p2a: Garganacl|Salt Cure|p1a: Magellan
+|-damage|p1a: Magellan|59/100
+|
+|-heal|p1a: Magellan|65/100|[from] item: Black Sludge
+|-damage|p2a: Garganacl|94/100 brn|[from] brn
+|-damage|p1a: Magellan|53/100|[from] Salt Cure
+|upkeep
+|turn|10
+|
+|t:|1743885168
+|switch|p2a: Tinkaton|Tinkaton, F|84/100
+|-item|p2a: Tinkaton|Air Balloon
+|move|p1a: Magellan|Pain Split|p2a: Tinkaton
+|-sethp|p2a: Tinkaton|66/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Magellan|73/100|[from] move: Pain Split
+|
+|-heal|p1a: Magellan|79/100|[from] item: Black Sludge
+|-damage|p1a: Magellan|67/100|[from] Salt Cure
+|upkeep
+|turn|11
+|
+|t:|1743885182
+|-end|p1a: Magellan|ability: Neutralizing Gas
+|switch|p1a: Viernes|Corviknight, M|90/100
+|-ability|p1a: Viernes|Pressure
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Viernes
+|-resisted|p1a: Viernes
+|-damage|p1a: Viernes|78/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743885198
+|move|p2a: Tinkaton|Stealth Rock|p1a: Viernes
+|-sidestart|p1: RW Tobirama|move: Stealth Rock
+|move|p1a: Viernes|Body Press|p2a: Tinkaton
+|-damage|p2a: Tinkaton|35/100
+|-enditem|p2a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|13
+|
+|t:|1743885212
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Viernes|Body Press|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|upkeep
+|turn|14
+|
+|t:|1743885227
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Viernes
+|-status|p1a: Viernes|brn
+|move|p1a: Viernes|Roost|p1a: Viernes
+|-heal|p1a: Viernes|100/100 brn
+|-singleturn|p1a: Viernes|move: Roost
+|
+|-damage|p1a: Viernes|94/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743885242
+|move|p2a: Dragapult|Hex|p1a: Viernes
+|-crit|p1a: Viernes
+|-damage|p1a: Viernes|22/100 brn
+|move|p1a: Viernes|Brave Bird|p2a: Dragapult
+|-damage|p2a: Dragapult|78/100
+|-damage|p1a: Viernes|16/100 brn|[from] Recoil
+|
+|-damage|p1a: Viernes|10/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743885250
+|switch|p1a: Bullet|Garganacl, M|89/100
+|-damage|p1a: Bullet|76/100|[from] Stealth Rock
+|move|p2a: Dragapult|Hex|p1a: Bullet
+|-damage|p1a: Bullet|68/100
+|
+|-heal|p1a: Bullet|74/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743885267
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Bullet
+|-immune|p1a: Bullet|[from] ability: Purifying Salt
+|move|p1a: Bullet|Salt Cure|p2a: Dragapult
+|-damage|p2a: Dragapult|60/100
+|-start|p2a: Dragapult|Salt Cure
+|
+|-heal|p1a: Bullet|80/100|[from] item: Leftovers
+|-damage|p2a: Dragapult|48/100|[from] Salt Cure
+|upkeep
+|turn|18
+|
+|t:|1743885281
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: Bullet|Stealth Rock|p2a: Samurott
+|-sidestart|p2: saturnette|move: Stealth Rock
+|
+|-heal|p1a: Bullet|86/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743885302
+|move|p1a: Bullet|Protect|p1a: Bullet
+|-singleturn|p1a: Bullet|Protect
+|move|p2a: Samurott|Knock Off|p1a: Bullet
+|-activate|p1a: Bullet|move: Protect
+|
+|-heal|p1a: Bullet|92/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743885309
+|switch|p1a: Viernes|Corviknight, M|10/100 brn
+|-damage|p1a: Viernes|0 fnt|[from] Stealth Rock
+|faint|p1a: Viernes
+|move|p2a: Samurott|Aqua Cutter|p1: Viernes|[notarget]
+|-fail|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743885325
+|switch|p1a: Magellan|Weezing-Galar, F|67/100
+|-ability|p1a: Magellan|Neutralizing Gas
+|-damage|p1a: Magellan|55/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1743885343
+|switch|p2a: Tinkaton|Tinkaton, F|35/100
+|-damage|p2a: Tinkaton|29/100|[from] Stealth Rock
+|move|p1a: Magellan|Will-O-Wisp|p2a: Tinkaton|[miss]
+|-miss|p1a: Magellan|p2a: Tinkaton
+|
+|-heal|p1a: Magellan|61/100|[from] item: Black Sludge
+|upkeep
+|turn|22
+|c|☆RW Tobirama|no se que me pasa hoy jajaajja
+|c|☆saturnette|xd
+|
+|t:|1743885394
+|-terastallize|p1a: Magellan|Grass
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Magellan
+|-damage|p1a: Magellan|31/100
+|move|p1a: Magellan|Will-O-Wisp|p2a: Tinkaton
+|-status|p2a: Tinkaton|brn
+|
+|-damage|p1a: Magellan|19/100|[from] item: Black Sludge
+|-damage|p2a: Tinkaton|23/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1743885403
+|move|p2a: Tinkaton|Encore|p1a: Magellan
+|-start|p1a: Magellan|Encore
+|move|p1a: Magellan|Will-O-Wisp|p2a: Tinkaton
+|-fail|p2a: Tinkaton|brn
+|
+|-damage|p1a: Magellan|6/100|[from] item: Black Sludge
+|-damage|p2a: Tinkaton|17/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1743885414
+|move|p2a: Tinkaton|Knock Off|p1a: Magellan
+|-damage|p1a: Magellan|0 fnt
+|-enditem|p1a: Magellan|Black Sludge|[from] move: Knock Off|[of] p2a: Tinkaton
+|faint|p1a: Magellan
+|-end|p1a: Magellan|ability: Neutralizing Gas
+|
+|-damage|p2a: Tinkaton|11/100 brn|[from] brn
+|upkeep
+|
+|t:|1743885440
+|switch|p1a: Acnologia|Dragapult, M|100/100
+|turn|25
+|
+|t:|1743885447
+|move|p1a: Acnologia|Hex|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|
+|upkeep
+|
+|t:|1743885463
+|switch|p2a: Garganacl|Garganacl, F|94/100 brn
+|-damage|p2a: Garganacl|82/100 brn|[from] Stealth Rock
+|turn|26
+|
+|t:|1743885482
+|move|p1a: Acnologia|Hex|p2a: Garganacl
+|-damage|p2a: Garganacl|66/100 brn
+|move|p2a: Garganacl|Salt Cure|p1a: Acnologia
+|-damage|p1a: Acnologia|91/100
+|-start|p1a: Acnologia|Salt Cure
+|
+|-heal|p2a: Garganacl|72/100 brn|[from] item: Leftovers
+|-damage|p2a: Garganacl|66/100 brn|[from] brn
+|-damage|p1a: Acnologia|79/100|[from] Salt Cure
+|upkeep
+|turn|27
+|
+|t:|1743885489
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: Acnologia|U-turn|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|41/100
+|
+|t:|1743885537
+|switch|p1a: Bullet|Garganacl, M|92/100|[from] U-turn
+|-damage|p1a: Bullet|80/100|[from] Stealth Rock
+|
+|-heal|p1a: Bullet|86/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1743885563
+|move|p1a: Bullet|Protect|p1a: Bullet
+|-singleturn|p1a: Bullet|Protect
+|move|p2a: Samurott|Aqua Cutter|p1a: Bullet
+|-activate|p1a: Bullet|move: Protect
+|
+|-heal|p1a: Bullet|92/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1743885573
+|move|p2a: Samurott|Aqua Cutter|p1a: Bullet
+|-supereffective|p1a: Bullet
+|-damage|p1a: Bullet|23/100
+|move|p1a: Bullet|Salt Cure|p2a: Samurott
+|-damage|p2a: Samurott|22/100
+|-start|p2a: Samurott|Salt Cure
+|
+|-heal|p1a: Bullet|29/100|[from] item: Leftovers
+|-damage|p2a: Samurott|0 fnt|[from] Salt Cure
+|faint|p2a: Samurott
+|upkeep
+|
+|t:|1743885583
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|97/100|[from] Stealth Rock
+|turn|30
+|
+|t:|1743885591
+|move|p1a: Bullet|Protect|p1a: Bullet
+|-singleturn|p1a: Bullet|Protect
+|move|p2a: Great Tusk|Rapid Spin|p1a: Bullet
+|-activate|p1a: Bullet|move: Protect
+|
+|-heal|p1a: Bullet|35/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1743885609
+|switch|p1a: Acnologia|Dragapult, M|79/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Acnologia
+|-damage|p1a: Acnologia|5/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|32
+|
+|t:|1743885658
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Garganacl|Garganacl, F|66/100 brn
+|-damage|p2a: Garganacl|54/100 brn|[from] Stealth Rock
+|move|p1a: Acnologia|Dragon Darts|p2a: Garganacl
+|-damage|p2a: Garganacl|37/100 brn
+|-anim|p1a: Acnologia|Dragon Darts|p2a: Garganacl
+|-damage|p2a: Garganacl|19/100 brn
+|
+|-heal|p2a: Garganacl|25/100 brn|[from] item: Leftovers
+|-damage|p2a: Garganacl|19/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1743885679
+|move|p1a: Acnologia|Dragon Darts|p2a: Garganacl
+|-damage|p2a: Garganacl|3/100 brn
+|-anim|p1a: Acnologia|Dragon Darts|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|upkeep
+|
+|t:|1743885686
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|turn|34
+|
+|t:|1743885693
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Acnologia|Will-O-Wisp|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|35
+|
+|t:|1743885710
+|move|p1a: Acnologia|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|79/100 tox
+|
+|t:|1743885727
+|switch|p1a: HeadCrab|Slowking-Galar, M|100/100|[from] U-turn
+|-damage|p1a: HeadCrab|88/100|[from] Stealth Rock
+|move|p2a: Gliscor|Earthquake|p1a: HeadCrab
+|-supereffective|p1a: HeadCrab
+|-damage|p1a: HeadCrab|22/100
+|
+|-heal|p2a: Gliscor|92/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|36
+|
+|t:|1743885735
+|move|p2a: Gliscor|Earthquake|p1a: HeadCrab
+|-supereffective|p1a: HeadCrab
+|-damage|p1a: HeadCrab|0 fnt
+|faint|p1a: HeadCrab
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743885740
+|switch|p1a: Mihawk|Samurott-Hisui, F|100/100
+|-damage|p1a: Mihawk|88/100|[from] Stealth Rock
+|turn|37
+|
+|t:|1743885762
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Mihawk|Razor Shell|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|upkeep
+|turn|38
+|
+|t:|1743885794
+|move|p1a: Mihawk|Razor Shell|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|24/100 tox
+|-unboost|p2a: Gliscor|def|1
+|move|p2a: Gliscor|U-turn|p1a: Mihawk
+|-supereffective|p1a: Mihawk
+|-damage|p1a: Mihawk|47/100
+|
+|t:|1743885802
+|switch|p2a: Dragapult|Dragapult, M|48/100|[from] U-turn
+|
+|upkeep
+|turn|39
+|
+|t:|1743885837
+|switch|p1a: Bullet|Garganacl, M|35/100
+|-damage|p1a: Bullet|23/100|[from] Stealth Rock
+|move|p2a: Dragapult|U-turn|p1a: Bullet
+|-damage|p1a: Bullet|12/100
+|
+|t:|1743885844
+|switch|p2a: Gliscor|Gliscor, M|24/100 tox|[from] U-turn
+|-damage|p2a: Gliscor|11/100 tox|[from] Stealth Rock
+|
+|-heal|p1a: Bullet|18/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|24/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|40
+|
+|t:|1743885856
+|move|p2a: Gliscor|Earthquake|p1a: Bullet
+|-supereffective|p1a: Bullet
+|-damage|p1a: Bullet|0 fnt
+|faint|p1a: Bullet
+|
+|-heal|p2a: Gliscor|36/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743885884
+|switch|p1a: Acnologia|Dragapult, M|5/100
+|turn|41
+|
+|t:|1743885892
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Acnologia|Hex|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|49/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|42
+|
+|t:|1743885910
+|move|p1a: Acnologia|Hex|p2a: Gliscor
+|-damage|p2a: Gliscor|9/100 tox
+|move|p2a: Gliscor|U-turn|p1a: Acnologia
+|-resisted|p1a: Acnologia
+|-crit|p1a: Acnologia
+|-damage|p1a: Acnologia|0 fnt
+|faint|p1a: Acnologia
+|
+|t:|1743885917
+|switch|p2a: Dragapult|Dragapult, M|48/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743885921
+|switch|p1a: Mihawk|Samurott-Hisui, F|47/100
+|-damage|p1a: Mihawk|34/100|[from] Stealth Rock
+|turn|43
+|
+|t:|1743885926
+|move|p1a: Mihawk|Razor Shell|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|16/100
+|-unboost|p2a: Dragapult|def|1
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Mihawk
+|-status|p1a: Mihawk|brn
+|
+|-damage|p1a: Mihawk|28/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|t:|1743885937
+|move|p1a: Mihawk|Razor Shell|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-damage|p1a: Mihawk|22/100 brn|[from] brn
+|upkeep
+|c|☆RW Tobirama|noo haha gg
+|
+|t:|1743885945
+|switch|p2a: Great Tusk|Great Tusk|97/100
+|-damage|p2a: Great Tusk|94/100|[from] Stealth Rock
+|turn|45
+|
+|t:|1743885949
+|-terastallize|p2a: Great Tusk|Fairy
+|move|p1a: Mihawk|Razor Shell|p2a: Great Tusk
+|-damage|p2a: Great Tusk|79/100
+|-unboost|p2a: Great Tusk|def|1
+|-damage|p1a: Mihawk|5/100 brn|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|move|p2a: Great Tusk|Close Combat|p1a: Mihawk
+|-supereffective|p1a: Mihawk
+|-damage|p1a: Mihawk|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Mihawk
+|
+|win|saturnette
+|c|☆saturnette|gg

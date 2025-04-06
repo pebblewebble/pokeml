@@ -1,0 +1,403 @@
+|j|☆foobarbazqux
+|j|‽firepowah
+|t:|1743887150
+|gametype|singles
+|player|p1|foobarbazqux|265|1630
+|player|p2|firepowah|170|1702
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Serperior, M|
+|poke|p1|Gliscor, M|
+|poke|p1|Milotic, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Valiant|
+|poke|p2|Kyurem|
+|poke|p2|Gholdengo|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by foobarbazqux)
+|inactive|firepowah has 120 seconds left.
+|
+|t:|1743887208
+|start
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|1
+|
+|t:|1743887217
+|move|p2a: Ogerpon|Horn Leech|p1a: Araquanid
+|-damage|p1a: Araquanid|49/100
+|move|p1a: Araquanid|Sticky Web|p2a: Ogerpon
+|-sidestart|p2: firepowah|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743887223
+|move|p1a: Araquanid|Endure|p1a: Araquanid
+|-singleturn|p1a: Araquanid|move: Endure
+|move|p2a: Ogerpon|Horn Leech|p1a: Araquanid
+|-damage|p1a: Araquanid|1/100
+|
+|upkeep
+|turn|3
+|-enditem|p1a: Araquanid|Custap Berry|[eat]
+|-activate|p1a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1743887227
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-activate|p2a: Gholdengo|move: Sticky Web
+|-unboost|p2a: Gholdengo|spe|1
+|move|p1a: Araquanid|Endeavor|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|upkeep
+|turn|4
+|
+|t:|1743887232
+|move|p2a: Gholdengo|Shadow Ball|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1743887234
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|5
+|
+|t:|1743887237
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-activate|p2a: Ting-Lu|move: Sticky Web
+|-unboost|p2a: Ting-Lu|spe|1
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|6
+|
+|t:|1743887259
+|move|p1a: Cinderace|Will-O-Wisp|p2a: Ting-Lu
+|-status|p2a: Ting-Lu|brn
+|move|p2a: Ting-Lu|Whirlwind|p1a: Cinderace
+|drag|p1a: Milotic|Milotic, F|100/100
+|-activate|p1a: Milotic|move: Sticky Web
+|-unboost|p1a: Milotic|spe|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|
+|-damage|p2a: Ting-Lu|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743887265
+|move|p1a: Milotic|Scald|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|44/100 brn
+|move|p2a: Ting-Lu|Ruination|p1a: Milotic
+|-damage|p1a: Milotic|50/100
+|
+|-heal|p1a: Milotic|57/100|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|38/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743887269
+|move|p1a: Milotic|Scald|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|-heal|p1a: Milotic|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743887276
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|9
+|
+|t:|1743887284
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Ogerpon|Horn Leech|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|71/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743887290
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Cinderace|Will-O-Wisp|p2a: Iron Moth
+|-immune|p2a: Iron Moth
+|
+|upkeep
+|turn|11
+|
+|t:|1743887293
+|move|p2a: Iron Moth|Fiery Dance|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|46/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Cinderace|U-turn|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|94/100
+|
+|t:|1743887297
+|switch|p1a: Milotic|Milotic, F|63/100|[from] U-turn
+|-activate|p1a: Milotic|move: Sticky Web
+|-unboost|p1a: Milotic|spe|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|
+|-heal|p1a: Milotic|69/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743887302
+|move|p2a: Iron Moth|Sludge Wave|p1a: Milotic
+|-damage|p1a: Milotic|19/100
+|move|p1a: Milotic|Scald|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p1a: Milotic|25/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743887312
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|13
+|inactive|foobarbazqux has 120 seconds left.
+|
+|t:|1743887368
+|switch|p1a: Cinderace|Cinderace, M|46/100
+|move|p2a: Kyurem|Scale Shot|p1a: Cinderace
+|-damage|p1a: Cinderace|26/100
+|-damage|p1a: Cinderace|8/100
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|-hitcount|p1: Cinderace|3
+|-unboost|p2a: Kyurem|def|1
+|-boost|p2a: Kyurem|spe|1
+|
+|upkeep
+|
+|t:|1743887373
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|turn|14
+|inactive|firepowah has 120 seconds left.
+|
+|t:|1743887426
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Kingambit|Iron Head|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|51/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743887436
+|move|p2a: Gholdengo|Trick|p1a: Kingambit
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Kingambit
+|-item|p1a: Kingambit|Choice Scarf|[from] move: Trick
+|-item|p2a: Gholdengo|Black Glasses|[from] move: Trick
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743887448
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|16
+|inactive|foobarbazqux has 120 seconds left.
+|inactive|foobarbazqux has 90 seconds left.
+|
+|t:|1743887497
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Iron Valiant|Close Combat|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|79/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|17
+|
+|t:|1743887502
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Iron Valiant|Moonblast|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|92/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|18
+|
+|t:|1743887509
+|move|p2a: Iron Valiant|Encore|p1a: Gliscor
+|-start|p1a: Gliscor|Encore
+|move|p1a: Gliscor|Protect||[still]
+|-fail|p1a: Gliscor
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|
+|t:|1743887514
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|20
+|
+|t:|1743887522
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Kingambit|Iron Head|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|44/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743887526
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Kingambit|[anim] Ivy Cudgel Water
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|28/100
+|move|p1a: Kingambit|Iron Head|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743887532
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|22
+|
+|t:|1743887534
+|-terastallize|p1a: Kingambit|Flying
+|move|p2a: Iron Valiant|Moonblast|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|
+|upkeep
+|c|☆foobarbazqux|why
+|
+|t:|1743887539
+|switch|p1a: Serperior|Serperior, M|100/100
+|-activate|p1a: Serperior|move: Sticky Web
+|-boost|p1a: Serperior|spe|1
+|turn|23
+|
+|t:|1743887549
+|move|p1a: Serperior|Leaf Storm|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|-damage|p1a: Serperior|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743887551
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|24
+|
+|t:|1743887554
+|move|p1a: Serperior|Dragon Pulse|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|7/100
+|-damage|p1a: Serperior|81/100|[from] item: Life Orb
+|move|p2a: Kyurem|Icicle Spear|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|48/100
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|8/100
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|-hitcount|p1: Serperior|3
+|
+|upkeep
+|
+|t:|1743887558
+|switch|p1a: Gliscor|Gliscor, M|100/100 tox
+|turn|25
+|
+|t:|1743887560
+|move|p2a: Kyurem|Icicle Spear|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|55/100 tox
+|-supereffective|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|-hitcount|p1: Gliscor|2
+|
+|upkeep
+|
+|t:|1743887562
+|switch|p1a: Milotic|Milotic, F|25/100
+|-activate|p1a: Milotic|move: Sticky Web
+|-unboost|p1a: Milotic|spe|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|turn|26
+|c|☆foobarbazqux|gg
+|
+|t:|1743887567
+|move|p2a: Kyurem|Scale Shot|p1a: Milotic
+|-damage|p1a: Milotic|15/100
+|-damage|p1a: Milotic|4/100
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|-hitcount|p1: Milotic|3
+|
+|win|firepowah
+|raw|foobarbazqux's rating: 1630 &rarr; <strong>1614</strong><br />(-16 for losing)
+|raw|firepowah's rating: 1702 &rarr; <strong>1718</strong><br />(+16 for winning)
+|l|☆foobarbazqux
+|player|p1|
+|l|‽firepowah
+|player|p2|
+|j|‽firepowah
+|player|p2|firepowah|170|
+|l|‽firepowah
+|player|p2|

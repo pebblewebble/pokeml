@@ -1,0 +1,469 @@
+|j|☆Tkats
+|j|☆pichin
+|t:|1743917102
+|gametype|singles
+|player|p1|Tkats|karen|1166
+|player|p2|pichin|mira|1123
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Shiftry, M|
+|poke|p1|Gallade, M|
+|poke|p1|Oricorio-Sensu, F|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Tatsugiri-Droopy, M|
+|poke|p2|Tropius, F|
+|poke|p2|Girafarig, F|
+|poke|p2|Arcanine, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Arbok, F|
+|poke|p2|Altaria, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pichin)
+|
+|t:|1743917110
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Cinderace|atk|1
+|turn|1
+|
+|t:|1743917119
+|switch|p1a: Oricorio|Oricorio-Sensu, F|100/100
+|move|p2a: Landorus|Earthquake|p1a: Oricorio
+|-immune|p1a: Oricorio
+|
+|upkeep
+|turn|2
+|
+|t:|1743917126
+|move|p1a: Oricorio|Quiver Dance|p1a: Oricorio
+|-boost|p1a: Oricorio|spa|1
+|-boost|p1a: Oricorio|spd|1
+|-boost|p1a: Oricorio|spe|1
+|move|p2a: Landorus|U-turn|p1a: Oricorio
+|-resisted|p1a: Oricorio
+|-damage|p1a: Oricorio|91/100
+|
+|t:|1743917133
+|switch|p2a: Girafarig|Girafarig, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1743917139
+|move|p1a: Oricorio|Air Slash|p2a: Girafarig
+|-crit|p2a: Girafarig
+|-damage|p2a: Girafarig|28/100
+|cant|p2a: Girafarig|flinch
+|
+|upkeep
+|turn|4
+|
+|t:|1743917145
+|move|p1a: Oricorio|Air Slash|p2a: Girafarig
+|-damage|p2a: Girafarig|0 fnt
+|faint|p2a: Girafarig
+|
+|upkeep
+|
+|t:|1743917154
+|switch|p2a: Altaria|Altaria, F|100/100
+|turn|5
+|
+|t:|1743917160
+|move|p1a: Oricorio|Revelation Dance|p2a: Altaria
+|-damage|p2a: Altaria|62/100
+|move|p2a: Altaria|Fire Spin|p1a: Oricorio|[miss]
+|-miss|p2a: Altaria|p1a: Oricorio
+|
+|-heal|p2a: Altaria|68/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743917170
+|move|p1a: Oricorio|Air Slash|p2a: Altaria
+|-damage|p2a: Altaria|35/100
+|move|p2a: Altaria|Perish Song|p2a: Altaria
+|-start|p1a: Oricorio|perish3|[silent]
+|-start|p2a: Altaria|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p2a: Altaria|41/100|[from] item: Leftovers
+|-start|p1a: Oricorio|perish3
+|-start|p2a: Altaria|perish3
+|upkeep
+|turn|7
+|
+|t:|1743917180
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|91/100
+|-singleturn|p2a: Altaria|move: Roost
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Altaria|98/100|[from] item: Leftovers
+|-start|p2a: Altaria|perish2
+|upkeep
+|turn|8
+|
+|t:|1743917194
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Tkats|move: Aurora Veil
+|move|p2a: Altaria|Perish Song|p2a: Altaria
+|-start|p1a: Ninetales|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Altaria|100/100|[from] item: Leftovers
+|-start|p1a: Ninetales|perish3
+|-start|p2a: Altaria|perish1
+|upkeep
+|turn|9
+|
+|t:|1743917213
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Arcanine|Arcanine, F|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Cinderace|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743917223
+|move|p1a: Cinderace|U-turn|p2a: Arcanine
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|87/100
+|-damage|p1a: Cinderace|84/100|[from] item: Rocky Helmet|[of] p2a: Arcanine
+|
+|t:|1743917229
+|switch|p1a: Tatsugiri|Tatsugiri-Droopy, M|100/100|[from] U-turn
+|move|p2a: Arcanine|Fire Spin|p1a: Tatsugiri
+|-resisted|p1a: Tatsugiri
+|-damage|p1a: Tatsugiri|99/100
+|-activate|p1a: Tatsugiri|move: Fire Spin|[of] p2a: Arcanine
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Tatsugiri|87/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|11
+|
+|t:|1743917248
+|switch|p2a: Altaria|Altaria, F|100/100
+|move|p1a: Tatsugiri|Hydro Pump|p2a: Altaria
+|-resisted|p2a: Altaria
+|-crit|p2a: Altaria
+|-damage|p2a: Altaria|73/100
+|
+|-weather|none
+|-heal|p2a: Altaria|79/100|[from] item: Leftovers
+|-end|p1a: Tatsugiri|Fire Spin|[partiallytrapped]|[silent]
+|upkeep
+|turn|12
+|
+|t:|1743917262
+|move|p1a: Tatsugiri|Draco Meteor|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|-unboost|p1a: Tatsugiri|spa|2
+|faint|p2a: Altaria
+|
+|upkeep
+|
+|t:|1743917270
+|switch|p2a: Tropius|Tropius, F|100/100
+|turn|13
+|
+|t:|1743917273
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Tropius|Substitute|p2a: Tropius
+|-start|p2a: Tropius|Substitute
+|-damage|p2a: Tropius|76/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743917284
+|-terastallize|p2a: Tropius|Ghost
+|move|p1a: Ninetales|Encore|p2a: Tropius
+|-start|p2a: Tropius|Encore
+|move|p2a: Tropius|Substitute|p2a: Tropius
+|-fail|p2a: Tropius|move: Substitute
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743917294
+|switch|p2a: Arbok|Arbok, F|100/100
+|-ability|p2a: Arbok|Intimidate|boost
+|-unboost|p1a: Ninetales|atk|1
+|move|p1a: Ninetales|Moonblast|p2a: Arbok
+|-resisted|p2a: Arbok
+|-damage|p2a: Arbok|85/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Arbok|91/100|[from] item: Black Sludge
+|-sideend|p1: Tkats|move: Aurora Veil
+|upkeep
+|turn|16
+|
+|t:|1743917306
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Tkats|move: Aurora Veil
+|move|p2a: Arbok|Toxic|p1a: Ninetales
+|-status|p1a: Ninetales|tox
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Arbok|97/100|[from] item: Black Sludge
+|-damage|p1a: Ninetales|94/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1743917314
+|switch|p1a: Gallade|Gallade, M|100/100
+|move|p2a: Arbok|Stockpile|p2a: Arbok
+|-start|p2a: Arbok|stockpile1
+|-boost|p2a: Arbok|def|1
+|-boost|p2a: Arbok|spd|1
+|
+|-weather|none
+|-heal|p2a: Arbok|100/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|t:|1743917324
+|move|p1a: Gallade|Psycho Cut|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-damage|p2a: Arbok|25/100
+|move|p2a: Arbok|Toxic|p1a: Gallade
+|-status|p1a: Gallade|tox
+|
+|-heal|p2a: Arbok|31/100|[from] item: Black Sludge
+|-damage|p1a: Gallade|94/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1743917334
+|switch|p2a: Arcanine|Arcanine, F|87/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Gallade|atk|1
+|move|p1a: Gallade|Psycho Cut|p2a: Arcanine
+|-damage|p2a: Arcanine|57/100
+|
+|-damage|p1a: Gallade|82/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1743917345
+|switch|p1a: Tatsugiri|Tatsugiri-Droopy, M|87/100
+|move|p2a: Arcanine|Morning Sun|p2a: Arcanine
+|-heal|p2a: Arcanine|100/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743917352
+|switch|p2a: Tropius|Tropius, F, tera:Ghost|76/100
+|move|p1a: Tatsugiri|Hydro Pump|p2a: Tropius
+|-damage|p2a: Tropius|29/100
+|-enditem|p2a: Tropius|Sitrus Berry|[eat]
+|-heal|p2a: Tropius|54/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|22
+|
+|t:|1743917364
+|move|p1a: Tatsugiri|Draco Meteor|p2a: Tropius
+|-damage|p2a: Tropius|2/100
+|-unboost|p1a: Tatsugiri|spa|2
+|move|p2a: Tropius|Leech Seed|p1a: Tatsugiri
+|-start|p1a: Tatsugiri|move: Leech Seed
+|
+|-damage|p1a: Tatsugiri|75/100|[from] Leech Seed|[of] p2a: Tropius
+|-heal|p2a: Tropius|11/100|[silent]
+|upkeep
+|turn|23
+|
+|t:|1743917380
+|switch|p1a: Cinderace|Cinderace, F|84/100
+|move|p2a: Tropius|Sunny Day|p2a: Tropius
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: Tkats|move: Aurora Veil
+|-item|p2a: Tropius|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p2a: Tropius|Sitrus Berry|[eat]
+|-heal|p2a: Tropius|36/100|[from] item: Sitrus Berry
+|turn|24
+|
+|t:|1743917398
+|switch|p2a: Arcanine|Arcanine, F|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Cinderace|atk|1
+|-terastallize|p1a: Cinderace|Fire
+|move|p1a: Cinderace|Pyro Ball|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|61/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|25
+|inactive|pichin has 120 seconds left.
+|
+|t:|1743917430
+|switch|p1a: Ninetales|Ninetales-Alola, F|94/100 tox
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Arcanine|Morning Sun|p2a: Arcanine
+|-heal|p2a: Arcanine|86/100
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Ninetales|88/100 tox|[from] psn
+|upkeep
+|turn|26
+|inactive|pichin has 90 seconds left.
+|
+|t:|1743917487
+|move|p1a: Ninetales|Encore|p2a: Arcanine
+|-start|p2a: Arcanine|Encore
+|move|p2a: Arcanine|Morning Sun|p2a: Arcanine
+|-heal|p2a: Arcanine|100/100
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Ninetales|76/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1743917498
+|switch|p2a: Arbok|Arbok, F|31/100
+|-ability|p2a: Arbok|Intimidate|boost
+|-unboost|p1a: Ninetales|atk|1
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Tkats|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Arbok|37/100|[from] item: Black Sludge
+|-damage|p1a: Ninetales|58/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1743917509
+|switch|p1a: Gallade|Gallade, M|82/100 tox
+|move|p2a: Arbok|Stockpile|p2a: Arbok
+|-start|p2a: Arbok|stockpile1
+|-boost|p2a: Arbok|def|1
+|-boost|p2a: Arbok|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Arbok|43/100|[from] item: Black Sludge
+|-damage|p1a: Gallade|76/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1743917520
+|switch|p2a: Arcanine|Arcanine, F|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Gallade|atk|1
+|move|p1a: Gallade|Psycho Cut|p2a: Arcanine
+|-damage|p2a: Arcanine|72/100
+|
+|-weather|none
+|-damage|p1a: Gallade|64/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1743917531
+|move|p1a: Gallade|Sacred Sword|p2a: Arcanine
+|-damage|p2a: Arcanine|35/100
+|-damage|p1a: Gallade|47/100 tox|[from] item: Rocky Helmet|[of] p2a: Arcanine
+|move|p2a: Arcanine|Fire Spin|p1a: Gallade
+|-damage|p1a: Gallade|39/100 tox
+|-activate|p1a: Gallade|move: Fire Spin|[of] p2a: Arcanine
+|
+|-damage|p1a: Gallade|21/100 tox|[from] psn
+|-damage|p1a: Gallade|9/100 tox|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|31
+|
+|t:|1743917545
+|move|p1a: Gallade|Sacred Sword|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|-damage|p1a: Gallade|0 fnt|[from] item: Rocky Helmet|[of] p2a: Arcanine
+|faint|p2a: Arcanine
+|faint|p1a: Gallade
+|
+|upkeep
+|
+|t:|1743917555
+|switch|p1a: Cinderace|Cinderace, F, tera:Fire|84/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Cinderace|atk|1
+|turn|32
+|
+|t:|1743917561
+|move|p1a: Cinderace|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|88/100
+|-damage|p1a: Cinderace|67/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|t:|1743917568
+|switch|p1a: Oricorio|Oricorio-Sensu, F|91/100|[from] U-turn
+|move|p2a: Landorus|U-turn|p1a: Oricorio
+|-resisted|p1a: Oricorio
+|-damage|p1a: Oricorio|86/100
+|
+|t:|1743917577
+|switch|p2a: Tropius|Tropius, F, tera:Ghost|36/100|[from] U-turn
+|
+|-item|p2a: Tropius|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p2a: Tropius|Sitrus Berry|[eat]
+|-heal|p2a: Tropius|60/100|[from] item: Sitrus Berry
+|turn|33
+|
+|t:|1743917586
+|move|p1a: Oricorio|Revelation Dance|p2a: Tropius
+|-supereffective|p2a: Tropius
+|-damage|p2a: Tropius|0 fnt
+|faint|p2a: Tropius
+|
+|upkeep
+|
+|t:|1743917595
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Oricorio|atk|1
+|turn|34
+|inactive|pichin has 90 seconds left.
+|inactive|pichin has 60 seconds left.
+|inactive|pichin has 30 seconds left.
+|inactive|pichin has 20 seconds left.
+|inactive|pichin has 15 seconds left.
+|inactive|pichin has 10 seconds left.
+|inactive|pichin has 5 seconds left.
+|-message|pichin lost due to inactivity.
+|
+|win|Tkats
+|raw|Tkats's rating: 1166 &rarr; <strong>1188</strong><br />(+22 for winning)
+|raw|pichin's rating: 1123 &rarr; <strong>1101</strong><br />(-22 for losing)
+|l|☆Tkats
+|player|p1|

@@ -1,0 +1,555 @@
+|j|☆Mestregriffins
+|j|☆nesnot
+|t:|1743876457
+|gametype|singles
+|player|p1|Mestregriffins|n|1231
+|player|p2|nesnot|170|1266
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mamoswine, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Heatran, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Ribombee, M|
+|poke|p2|Ninetales-Alola, M|
+|poke|p2|Cetitan, M|
+|poke|p2|Sandslash-Alola, F|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Hatterene, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nesnot)
+|
+|t:|1743876472
+|start
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1743876485
+|move|p2a: Ninetales|Blizzard|p1a: Ribombee
+|-damage|p1a: Ribombee|45/100
+|move|p1a: Ribombee|Sticky Web|p2a: Ninetales
+|-sidestart|p2: nesnot|move: Sticky Web
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743876493
+|move|p2a: Ninetales|Blizzard|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743876500
+|switch|p1a: Heatran|Heatran, M|100/100
+|turn|3
+|
+|t:|1743876511
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-activate|p2a: Hatterene|move: Sticky Web
+|-unboost|p2a: Hatterene|spe|1
+|move|p1a: Heatran|Magma Storm|p2a: Hatterene
+|-damage|p2a: Hatterene|58/100
+|-activate|p2a: Hatterene|move: Magma Storm|[of] p1a: Heatran
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1743876514
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|move: Sticky Web
+|-unboost|p2a: Great Tusk|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743876527
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Weezing
+|-damage|p1a: Weezing|91/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: nesnot|Sticky Web|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743876537
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Weezing|Will-O-Wisp|p2a: Slowking
+|-status|p2a: Slowking|brn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Slowking|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743876551
+|move|p1a: Weezing|Strange Steam|p2a: Slowking|[miss]
+|-miss|p1a: Weezing|p2a: Slowking
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|
+|t:|1743876562
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743876569
+|move|p2a: Ninetales|Encore|p1a: Weezing
+|-start|p1a: Weezing|Encore
+|move|p1a: Weezing|Strange Steam|p2a: Ninetales
+|-damage|p2a: Ninetales|66/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743876578
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: nesnot|move: Aurora Veil
+|move|p1a: Weezing|Strange Steam|p2a: Ninetales
+|-damage|p2a: Ninetales|49/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743876586
+|switch|p2a: Cetitan|Cetitan, M|100/100
+|move|p1a: Weezing|Strange Steam|p2a: Cetitan
+|-damage|p2a: Cetitan|84/100
+|
+|-end|p1a: Weezing|Encore
+|upkeep
+|turn|10
+|
+|t:|1743876596
+|switch|p2a: Hatterene|Hatterene, F|58/100
+|move|p1a: Weezing|Will-O-Wisp|p2a: Hatterene
+|move|p2a: Hatterene|Will-O-Wisp|p1a: Weezing|[from] ability: Magic Bounce
+|-status|p1a: Weezing|brn
+|
+|-damage|p1a: Weezing|85/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743876609
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Hatterene|Psychic Noise|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|88/100
+|-start|p1a: Heatran|move: Heal Block
+|
+|upkeep
+|turn|12
+|
+|t:|1743876618
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Heatran|Magma Storm|p2a: Great Tusk
+|-damage|p2a: Great Tusk|71/100
+|-activate|p2a: Great Tusk|move: Magma Storm|[of] p1a: Heatran
+|
+|-heal|p2a: Great Tusk|77/100|[from] item: Leftovers
+|-damage|p2a: Great Tusk|65/100|[from] move: Magma Storm|[partiallytrapped]
+|-end|p1a: Heatran|move: Heal Block
+|-sideend|p2: nesnot|move: Aurora Veil
+|upkeep
+|turn|13
+|
+|t:|1743876633
+|switch|p1a: Weezing|Weezing-Galar, M|85/100 brn
+|move|p2a: Great Tusk|Stealth Rock|p1a: Weezing
+|-sidestart|p1: Mestregriffins|move: Stealth Rock
+|
+|-heal|p2a: Great Tusk|71/100|[from] item: Leftovers
+|-damage|p1a: Weezing|79/100 brn|[from] brn
+|-end|p2a: Great Tusk|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|turn|14
+|
+|t:|1743876644
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Ninetales|Ninetales-Alola, M|49/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Weezing|Strange Steam|p2a: Ninetales|[miss]
+|-miss|p1a: Weezing|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Weezing|73/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743876656
+|move|p2a: Ninetales|Encore|p1a: Weezing
+|-start|p1a: Weezing|Encore
+|move|p1a: Weezing|Strange Steam|p2a: Ninetales
+|-damage|p2a: Ninetales|18/100
+|-start|p2a: Ninetales|confusion
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Weezing|67/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743876667
+|-activate|p2a: Ninetales|confusion
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: nesnot|move: Aurora Veil
+|move|p1a: Weezing|Strange Steam|p2a: Ninetales
+|-damage|p2a: Ninetales|2/100
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Weezing|61/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743876683
+|switch|p2a: Sandslash|Sandslash-Alola, F|100/100
+|move|p1a: Weezing|Strange Steam|p2a: Sandslash
+|-resisted|p2a: Sandslash
+|-damage|p2a: Sandslash|89/100
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Weezing|55/100 brn|[from] brn
+|-end|p1a: Weezing|Encore
+|upkeep
+|turn|18
+|
+|t:|1743876694
+|move|p2a: Sandslash|Icicle Crash|p1a: Weezing|[miss]
+|-miss|p2a: Sandslash|p1a: Weezing
+|move|p1a: Weezing|Will-O-Wisp|p2a: Sandslash
+|-status|p2a: Sandslash|brn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Sandslash|83/100 brn|[from] brn
+|-damage|p1a: Weezing|49/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1743876706
+|move|p2a: Sandslash|Icicle Crash|p1a: Weezing
+|-damage|p1a: Weezing|32/100 brn
+|-damage|p2a: Sandslash|73/100 brn|[from] item: Life Orb
+|cant|p1a: Weezing|flinch
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Sandslash|66/100 brn|[from] brn
+|-damage|p1a: Weezing|26/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1743876717
+|move|p2a: Sandslash|Icicle Crash|p1a: Weezing
+|-damage|p1a: Weezing|8/100 brn
+|-damage|p2a: Sandslash|57/100 brn|[from] item: Life Orb
+|move|p1a: Weezing|Pain Split|p2a: Sandslash
+|-sethp|p2a: Sandslash|33/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|29/100 brn|[from] move: Pain Split
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Sandslash|27/100 brn|[from] brn
+|-damage|p1a: Weezing|23/100 brn|[from] brn
+|-sideend|p2: nesnot|move: Aurora Veil
+|upkeep
+|turn|21
+|
+|t:|1743876741
+|move|p2a: Sandslash|Knock Off|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|16/100 brn
+|-enditem|p1a: Weezing|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Sandslash
+|-damage|p2a: Sandslash|17/100 brn|[from] item: Life Orb
+|move|p1a: Weezing|Strange Steam|p2a: Sandslash
+|-resisted|p2a: Sandslash
+|-damage|p2a: Sandslash|0 fnt
+|faint|p2a: Sandslash
+|
+|-weather|none
+|-damage|p1a: Weezing|10/100 brn|[from] brn
+|upkeep
+|
+|t:|1743876745
+|switch|p2a: Ninetales|Ninetales-Alola, M|2/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|22
+|
+|t:|1743876758
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: nesnot|move: Aurora Veil
+|move|p1a: Weezing|Strange Steam|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Weezing|4/100 brn|[from] brn
+|upkeep
+|
+|t:|1743876766
+|switch|p2a: Cetitan|Cetitan, M|84/100
+|turn|23
+|
+|t:|1743876771
+|move|p2a: Cetitan|Ice Shard|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743876778
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|24
+|
+|t:|1743876785
+|-terastallize|p1a: Dragonite|Normal
+|move|p2a: Cetitan|Ice Spinner|p1a: Dragonite
+|-damage|p1a: Dragonite|79/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1743876795
+|-terastallize|p2a: Cetitan|Ice
+|move|p1a: Dragonite|Extreme Speed|p2a: Cetitan
+|-damage|p2a: Cetitan|60/100
+|move|p2a: Cetitan|Ice Spinner|p1a: Dragonite
+|-damage|p1a: Dragonite|18/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1743876807
+|move|p2a: Cetitan|Ice Spinner|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p2: nesnot|move: Aurora Veil
+|upkeep
+|
+|t:|1743876818
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|turn|27
+|
+|t:|1743876827
+|switch|p2a: Slowking|Slowking-Galar, F|100/100 brn
+|move|p1a: Keldeo|Secret Sword|p2a: Slowking
+|-resisted|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|85/100 brn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Slowking|78/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1743876839
+|move|p1a: Keldeo|Surf|p2a: Slowking
+|-damage|p2a: Slowking|52/100 brn
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|
+|t:|1743876844
+|switch|p2a: Hatterene|Hatterene, F|58/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|29
+|
+|t:|1743876853
+|switch|p1a: Heatran|Heatran, M|88/100
+|-damage|p1a: Heatran|75/100|[from] Stealth Rock
+|move|p2a: Hatterene|Nuzzle|p1a: Heatran
+|-damage|p1a: Heatran|72/100
+|-status|p1a: Heatran|par
+|
+|-weather|none
+|-heal|p1a: Heatran|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1743876864
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|move|p1a: Heatran|Magma Storm|p2: Hatterene|[notarget]
+|-fail|p1a: Heatran
+|
+|-heal|p1a: Heatran|84/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1743876869
+|switch|p2a: Cetitan|Cetitan, M, tera:Ice|60/100
+|-heal|p2a: Cetitan|100/100|[from] move: Healing Wish
+|turn|31
+|
+|t:|1743876875
+|move|p2a: Cetitan|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1743876885
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|turn|32
+|
+|t:|1743876890
+|switch|p2a: Slowking|Slowking-Galar, F|85/100 brn
+|move|p1a: Keldeo|Surf|p2a: Slowking
+|-damage|p2a: Slowking|57/100 brn
+|
+|-damage|p2a: Slowking|51/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1743876898
+|move|p1a: Keldeo|Surf|p2a: Slowking
+|-damage|p2a: Slowking|22/100 brn
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743876901
+|switch|p2a: Cetitan|Cetitan, M, tera:Ice|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|34
+|
+|t:|1743876910
+|move|p2a: Cetitan|Earthquake|p1a: Keldeo
+|-damage|p1a: Keldeo|60/100
+|move|p1a: Keldeo|Secret Sword|p2a: Cetitan
+|-supereffective|p2a: Cetitan
+|-damage|p2a: Cetitan|39/100
+|-enditem|p2a: Cetitan|Sitrus Berry|[eat]
+|-heal|p2a: Cetitan|64/100|[from] item: Sitrus Berry
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|35
+|
+|t:|1743876922
+|move|p2a: Cetitan|Ice Spinner|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|29/100
+|move|p1a: Keldeo|Secret Sword|p2a: Cetitan
+|-supereffective|p2a: Cetitan
+|-damage|p2a: Cetitan|5/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|36
+|
+|t:|1743876932
+|move|p1a: Keldeo|Vacuum Wave|p2a: Cetitan
+|-supereffective|p2a: Cetitan
+|-damage|p2a: Cetitan|0 fnt
+|faint|p2a: Cetitan
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743876935
+|switch|p2a: Slowking|Slowking-Galar, F|55/100 brn
+|turn|37
+|
+|t:|1743876943
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|-damage|p1a: Mamoswine|88/100|[from] Stealth Rock
+|move|p2a: Slowking|Psychic Noise|p1a: Mamoswine
+|-damage|p1a: Mamoswine|51/100
+|-start|p1a: Mamoswine|move: Heal Block
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Slowking|49/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|t:|1743876958
+|move|p1a: Mamoswine|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|-damage|p1a: Mamoswine|41/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Mamoswine|move: Heal Block
+|upkeep
+|
+|t:|1743876962
+|switch|p2a: Great Tusk|Great Tusk|71/100
+|turn|39
+|
+|t:|1743876971
+|move|p1a: Mamoswine|Ice Shard|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|44/100
+|-damage|p1a: Mamoswine|31/100|[from] item: Life Orb
+|move|p2a: Great Tusk|Knock Off|p1a: Mamoswine
+|-damage|p1a: Mamoswine|10/100
+|-enditem|p1a: Mamoswine|Life Orb|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Great Tusk|50/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1743876985
+|move|p1a: Mamoswine|Ice Shard|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|28/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|-boost|p2a: Great Tusk|spe|1
+|faint|p1a: Mamoswine
+|
+|-weather|none
+|-heal|p2a: Great Tusk|34/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743876996
+|switch|p1a: Keldeo|Keldeo-Resolute|29/100
+|turn|41
+|
+|t:|1743877003
+|move|p1a: Keldeo|Vacuum Wave|p2a: Great Tusk
+|-damage|p2a: Great Tusk|4/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Keldeo
+|
+|win|nesnot
+|raw|Mestregriffins's rating: 1231 &rarr; <strong>1207</strong><br />(-24 for losing)
+|raw|nesnot's rating: 1248 &rarr; <strong>1272</strong><br />(+24 for winning)
+|l|☆Mestregriffins
+|player|p1|

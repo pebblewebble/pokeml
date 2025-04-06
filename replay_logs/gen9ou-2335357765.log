@@ -1,0 +1,462 @@
+|j|☆juicelightning
+|j|☆CACHUMBO
+|t:|1743787459
+|gametype|singles
+|player|p1|juicelightning|benga|1437
+|player|p2|CACHUMBO|169|1450
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Ogerpon, F|
+|poke|p1|Milotic, M|
+|poke|p1|Ribombee, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Malamar, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Slowking-Galar, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by juicelightning)
+|inactive|CACHUMBO also wants the timer to be on.
+|
+|t:|1743787466
+|start
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|turn|1
+|
+|t:|1743787469
+|move|p1a: Ribombee|Sticky Web|p2a: Kingambit
+|-sidestart|p2: CACHUMBO|move: Sticky Web
+|move|p2a: Kingambit|Flamethrower|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-enditem|p1a: Ribombee|Focus Sash
+|-damage|p1a: Ribombee|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743787483
+|move|p1a: Ribombee|Psychic|p2a: Kingambit
+|-damage|p2a: Kingambit|50/100
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|move|p2a: Zoroark|Shadow Ball|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|t:|1743787487
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|3
+|
+|t:|1743787490
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-activate|p2a: Toxapex|move: Sticky Web
+|-unboost|p2a: Toxapex|spe|1
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|4
+|
+|t:|1743787497
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|move|p1a: Cinderace|Zen Headbutt|p2a: Kingambit
+|-immune|p2a: Kingambit
+|
+|upkeep
+|turn|5
+|
+|t:|1743787504
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|88/100
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743787511
+|move|p1a: Cinderace|Zen Headbutt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|64/100
+|move|p2a: Toxapex|Toxic|p1a: Cinderace
+|-status|p1a: Cinderace|tox
+|
+|-heal|p2a: Toxapex|70/100|[from] item: Leftovers
+|-damage|p1a: Cinderace|95/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743787521
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Toxapex|Toxic|p1a: Kingambit
+|-immune|p1a: Kingambit
+|
+|-heal|p2a: Toxapex|76/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743787528
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|9
+|
+|t:|1743787535
+|move|p2a: Kingambit|Brick Break|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-enditem|p1a: Kingambit|Chople Berry|[eat]
+|-enditem|p1a: Kingambit|Chople Berry|[weaken]
+|-damage|p1a: Kingambit|62/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|37/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743787542
+|move|p2a: Kingambit|Sucker Punch|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|50/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|upkeep
+|turn|11
+|
+|t:|1743787545
+|move|p1a: Kingambit|Sucker Punch|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-crit|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|
+|upkeep
+|
+|t:|1743787554
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|12
+|
+|t:|1743787557
+|-terastallize|p2a: Slowking|Fairy
+|move|p2a: Slowking|Flamethrower|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|3/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|25/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743787566
+|switch|p2a: Toxapex|Toxapex, F|50/100
+|move|p1a: Kingambit|Iron Head|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|faint|p2a: Zoroark
+|
+|upkeep
+|
+|t:|1743787570
+|switch|p2a: Slowking|Slowking-Galar, M, tera:Fairy|58/100
+|turn|14
+|
+|t:|1743787587
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|upkeep
+|turn|15
+|
+|t:|1743787592
+|move|p2a: Thundurus|Volt Switch|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|
+|t:|1743787594
+|switch|p2a: Meowscarada|Meowscarada, F|100/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1743787598
+|switch|p1a: Malamar|Malamar, M|100/100
+|-activate|p1a: Malamar|move: Sticky Web
+|-boost|p1a: Malamar|spe|1
+|turn|16
+|
+|t:|1743787601
+|move|p2a: Meowscarada|U-turn|p1a: Malamar
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-supereffective|p1a: Malamar
+|-enditem|p1a: Malamar|Focus Sash
+|-damage|p1a: Malamar|1/100
+|
+|t:|1743787606
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100|[from] U-turn
+|move|p1a: Malamar|Superpower|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|74/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|
+|upkeep
+|turn|17
+|
+|t:|1743787614
+|move|p1a: Malamar|Superpower|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|38/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|move|p2a: Thundurus|Volt Switch|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|
+|t:|1743787616
+|switch|p2a: Meowscarada|Meowscarada, F|100/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1743787635
+|switch|p1a: Cinderace|Cinderace, M|95/100 tox
+|turn|18
+|
+|t:|1743787648
+|switch|p1a: Ogerpon|Ogerpon, F|100/100
+|-activate|p1a: Ogerpon|move: Sticky Web
+|-unboost|p1a: Ogerpon|spe|1
+|-ability|p1a: Ogerpon|Defiant|boost
+|-boost|p1a: Ogerpon|atk|2
+|move|p2a: Meowscarada|U-turn|p1a: Ogerpon
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|28/100
+|-enditem|p1a: Ogerpon|Weakness Policy
+|-boost|p1a: Ogerpon|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Ogerpon|spa|2|[from] item: Weakness Policy
+|
+|t:|1743787652
+|switch|p2a: Thundurus|Thundurus-Therian, M|38/100|[from] U-turn
+|
+|upkeep
+|turn|19
+|
+|t:|1743787660
+|-terastallize|p1a: Ogerpon|Grass
+|detailschange|p1a: Ogerpon|Ogerpon-Teal-Tera, F, tera:Grass
+|-ability|p1a: Ogerpon|Embody Aspect (Teal)|boost
+|-boost|p1a: Ogerpon|spe|1
+|move|p2a: Thundurus|Tera Blast|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743787666
+|switch|p1a: Milotic|Milotic, M|100/100
+|-activate|p1a: Milotic|move: Sticky Web
+|-unboost|p1a: Milotic|spe|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|turn|20
+|
+|t:|1743787676
+|move|p2a: Thundurus|Volt Switch|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|47/100
+|
+|t:|1743787678
+|switch|p2a: Slowking|Slowking-Galar, M, tera:Fairy|91/100|[from] Volt Switch
+|move|p1a: Milotic|Hydro Pump|p2a: Slowking
+|-damage|p2a: Slowking|54/100
+|
+|-heal|p1a: Milotic|53/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743787686
+|move|p1a: Milotic|Coil|p1a: Milotic
+|-boost|p1a: Milotic|atk|1
+|-boost|p1a: Milotic|def|1
+|-boost|p1a: Milotic|accuracy|1
+|move|p2a: Slowking|Sludge Bomb|p1a: Milotic
+|-damage|p1a: Milotic|30/100
+|
+|-heal|p1a: Milotic|37/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743787691
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|87/100
+|move|p2a: Slowking|Future Sight|p1a: Milotic
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p1a: Milotic|93/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743787695
+|move|p1a: Milotic|Hydro Pump|p2a: Slowking
+|-damage|p2a: Slowking|18/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Milotic
+|-damage|p1a: Milotic|70/100
+|
+|-heal|p1a: Milotic|76/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1743787702
+|move|p1a: Milotic|Hydro Pump|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-end|p1a: Milotic|move: Future Sight
+|-damage|p1a: Milotic|45/100
+|-heal|p1a: Milotic|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743787704
+|switch|p2a: Thundurus|Thundurus-Therian, M|38/100
+|turn|25
+|
+|t:|1743787708
+|switch|p1a: Cinderace|Cinderace, M|95/100 tox
+|move|p2a: Thundurus|Volt Switch|p1a: Cinderace
+|-damage|p1a: Cinderace|37/100 tox
+|
+|t:|1743787710
+|switch|p2a: Meowscarada|Meowscarada, F|100/100|[from] Volt Switch
+|
+|-damage|p1a: Cinderace|31/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1743787714
+|move|p2a: Meowscarada|U-turn|p1a: Cinderace
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|7/100 tox
+|
+|t:|1743787716
+|switch|p2a: Toxapex|Toxapex, F|100/100|[from] U-turn
+|move|p1a: Cinderace|High Jump Kick|p2a: Toxapex
+|-start|p1a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|80/100
+|
+|-heal|p2a: Toxapex|86/100|[from] item: Leftovers
+|-damage|p1a: Cinderace|0 fnt|[from] psn
+|faint|p1a: Cinderace
+|upkeep
+|
+|t:|1743787720
+|switch|p1a: Milotic|Milotic, M|51/100
+|-activate|p1a: Milotic|move: Sticky Web
+|-unboost|p1a: Milotic|spe|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|turn|27
+|
+|t:|1743787725
+|move|p1a: Milotic|Hydro Pump|p2a: Toxapex|[miss]
+|-miss|p1a: Milotic|p2a: Toxapex
+|move|p2a: Toxapex|Toxic|p1a: Milotic
+|-status|p1a: Milotic|tox
+|
+|-heal|p1a: Milotic|57/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|92/100|[from] item: Leftovers
+|-damage|p1a: Milotic|51/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1743787730
+|move|p1a: Milotic|Coil|p1a: Milotic
+|-boost|p1a: Milotic|atk|1
+|-boost|p1a: Milotic|def|1
+|-boost|p1a: Milotic|accuracy|1
+|move|p2a: Toxapex|Surf|p1a: Milotic
+|-resisted|p1a: Milotic
+|-damage|p1a: Milotic|45/100 tox
+|
+|-heal|p1a: Milotic|51/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|98/100|[from] item: Leftovers
+|-damage|p1a: Milotic|39/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1743787732
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|89/100 tox
+|
+|-heal|p1a: Milotic|95/100 tox|[from] item: Leftovers
+|-heal|p2a: Toxapex|100/100|[from] item: Leftovers
+|-damage|p1a: Milotic|76/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1743787736
+|move|p1a: Milotic|Hydro Pump|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|62/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-heal|p1a: Milotic|82/100 tox|[from] item: Leftovers
+|-damage|p1a: Milotic|58/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1743787740
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Milotic|Hydro Pump|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Milotic|64/100 tox|[from] item: Leftovers
+|-damage|p1a: Milotic|34/100 tox|[from] psn
+|upkeep
+|turn|32
+|-message|juicelightning forfeited.
+|
+|win|CACHUMBO
+|raw|juicelightning's rating: 1437 &rarr; <strong>1418</strong><br />(-19 for losing)
+|raw|CACHUMBO's rating: 1450 &rarr; <strong>1469</strong><br />(+19 for winning)
+|l|☆juicelightning
+|player|p1|
+|l|☆CACHUMBO
+|player|p2|

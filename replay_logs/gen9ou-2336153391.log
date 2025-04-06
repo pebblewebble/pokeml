@@ -1,0 +1,231 @@
+|j|☆Skibidi Toothpaste
+|j|☆YobroYayWhat
+|t:|1743884282
+|gametype|singles
+|player|p1|Skibidi Toothpaste|volkner|1235
+|player|p2|YobroYayWhat|gambler|1211
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Treads|
+|poke|p1|Volcanion|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Ursaluna, M|
+|poke|p2|Glimmora, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Gholdengo|
+|poke|p2|Maushold-Four|
+|poke|p2|Pecharunt|
+|poke|p2|Iron Boulder|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Skibidi Toothpaste)
+|
+|t:|1743884287
+|start
+|switch|p1a: The Domain|Rillaboom, M|100/100
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: The Domain
+|turn|1
+|
+|t:|1743884293
+|move|p2a: Glimmora|Stealth Rock|p1a: The Domain
+|-sidestart|p1: Skibidi Toothpaste|move: Stealth Rock
+|move|p1a: The Domain|Swords Dance|p1a: The Domain
+|-boost|p1a: The Domain|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1743884298
+|move|p1a: The Domain|Grassy Glide|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Skibidi Toothpaste|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1743884322
+|switch|p2a: Gholdengo|Gholdengo, shiny|100/100
+|turn|3
+|
+|t:|1743884326
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: The Domain|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-enditem|p2a: Gholdengo|White Herb|[from] move: Knock Off|[of] p1a: The Domain
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743884338
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p2a: Iron Boulder|Booster Energy
+|-activate|p2a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Boulder|quarkdrivespe
+|turn|4
+|
+|t:|1743884343
+|move|p1a: The Domain|Grassy Glide|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|0 fnt
+|faint|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743884350
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|5
+|
+|t:|1743884352
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|76/100
+|move|p1a: The Domain|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|82/100|[from] Grassy Terrain
+|-heal|p2a: Dragapult|88/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743884371
+|move|p2a: Dragapult|Substitute|p2a: Dragapult
+|-start|p2a: Dragapult|Substitute
+|-damage|p2a: Dragapult|63/100
+|move|p1a: The Domain|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-end|p2a: Dragapult|Substitute
+|
+|-heal|p2a: Dragapult|69/100|[from] Grassy Terrain
+|-heal|p2a: Dragapult|75/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743884378
+|move|p2a: Dragapult|Dragon Darts|p1a: The Domain
+|-damage|p1a: The Domain|70/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: The Domain
+|-damage|p1a: The Domain|41/100
+|move|p1a: The Domain|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Leftovers|[from] move: Knock Off|[of] p1a: The Domain
+|faint|p2a: Dragapult
+|
+|-heal|p1a: The Domain|47/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743884384
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|8
+|
+|t:|1743884388
+|move|p2a: Pecharunt|Malignant Chain|p1a: The Domain
+|-supereffective|p1a: The Domain
+|-damage|p1a: The Domain|0 fnt
+|faint|p1a: The Domain
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1743884394
+|switch|p1a: The Remover|Iron Treads|100/100
+|-damage|p1a: The Remover|97/100|[from] Stealth Rock
+|-enditem|p1a: The Remover|Booster Energy
+|-activate|p1a: The Remover|ability: Quark Drive|[fromitem]
+|-start|p1a: The Remover|quarkdrivespe
+|turn|9
+|
+|t:|1743884409
+|move|p1a: The Remover|Knock Off|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|58/100
+|-enditem|p2a: Pecharunt|Leftovers|[from] move: Knock Off|[of] p1a: The Remover
+|move|p2a: Pecharunt|Parting Shot|p1a: The Remover
+|-unboost|p1a: The Remover|atk|1
+|-unboost|p1a: The Remover|spa|1
+|
+|t:|1743884415
+|switch|p2a: Maushold|Maushold-Four, shiny|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|10
+|
+|t:|1743884433
+|-terastallize|p1a: The Remover|Ghost
+|move|p1a: The Remover|Rapid Spin|p2a: Maushold
+|-damage|p2a: Maushold|84/100
+|-boost|p1a: The Remover|spe|1
+|-sideend|p1: Skibidi Toothpaste|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: The Remover
+|-sideend|p1: Skibidi Toothpaste|Stealth Rock|[from] move: Rapid Spin|[of] p1a: The Remover
+|move|p2a: Maushold|Tidy Up|p2a: Maushold
+|-boost|p2a: Maushold|atk|1
+|-boost|p2a: Maushold|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1743884448
+|move|p1a: The Remover|High Horsepower|p2a: Maushold
+|-damage|p2a: Maushold|36/100
+|move|p2a: Maushold|U-turn|p1a: The Remover
+|-resisted|p1a: The Remover
+|-damage|p1a: The Remover|85/100
+|
+|t:|1743884453
+|switch|p2a: Pecharunt|Pecharunt|58/100|[from] U-turn
+|
+|upkeep
+|turn|12
+|
+|t:|1743884458
+|move|p1a: The Remover|High Horsepower|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|18/100
+|move|p2a: Pecharunt|Hex|p1a: The Remover
+|-supereffective|p1a: The Remover
+|-damage|p1a: The Remover|16/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743884465
+|move|p1a: The Remover|Knock Off|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|t:|1743884469
+|switch|p2a: Maushold|Maushold-Four, shiny|36/100
+|turn|14
+|
+|t:|1743884472
+|move|p1a: The Remover|High Horsepower|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|faint|p2a: Maushold
+|
+|win|Skibidi Toothpaste
+|raw|Skibidi Toothpaste's rating: 1235 &rarr; <strong>1258</strong><br />(+23 for winning)
+|raw|YobroYayWhat's rating: 1211 &rarr; <strong>1188</strong><br />(-23 for losing)
+|l|☆YobroYayWhat
+|player|p2|
+|c|☆Skibidi Toothpaste|Gg

@@ -1,0 +1,223 @@
+|j|☆Scarbo1014
+|j|☆Vbgr
+|t:|1743834893
+|gametype|singles
+|player|p1|Scarbo1014|cyrus|1465
+|player|p2|Vbgr|artist-gen4|1511
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Pecharunt|
+|poke|p1|Reuniclus, F|
+|poke|p1|Darkrai|
+|poke|p1|Kingambit, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Valiant|
+|poke|p2|Zamazenta-*|
+|poke|p2|Kingambit, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Vbgr)
+|
+|t:|1743834911
+|start
+|switch|p1a: Valediction|Samurott-Hisui, F|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743834922
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Valediction|Aqua Cutter|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|40/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743834924
+|move|p2a: Iron Valiant|Moonblast|p1a: Valediction
+|-supereffective|p1a: Valediction
+|-enditem|p1a: Valediction|Focus Sash
+|-damage|p1a: Valediction|1/100
+|move|p1a: Valediction|Aqua Cutter|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743834933
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|3
+|
+|t:|1743834941
+|-terastallize|p1a: Valediction|Ghost
+|move|p1a: Valediction|Ceaseless Edge|p2a: Dragonite
+|-damage|p2a: Dragonite|78/100
+|-sidestart|p2: Vbgr|Spikes
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743834949
+|-terastallize|p2a: Dragonite|Ghost
+|move|p2a: Dragonite|Tera Blast|p1a: Valediction|[anim] Tera Blast Ghost
+|-supereffective|p1a: Valediction
+|-damage|p1a: Valediction|0 fnt
+|faint|p1a: Valediction
+|
+|upkeep
+|
+|t:|1743834962
+|switch|p1a: Murasama|Kingambit, F|100/100
+|-activate|p1a: Murasama|ability: Supreme Overlord
+|-start|p1a: Murasama|fallen1|[silent]
+|turn|5
+|
+|t:|1743834967
+|move|p2a: Dragonite|Low Kick|p1a: Murasama
+|-supereffective|p1a: Murasama
+|-damage|p1a: Murasama|0 fnt
+|faint|p1a: Murasama
+|-end|p1a: Murasama|fallen1|[silent]
+|
+|upkeep
+|
+|t:|1743834970
+|switch|p1a: Azathoth|Pecharunt|100/100
+|turn|6
+|
+|t:|1743834974
+|move|p2a: Dragonite|Tera Blast|p1a: Azathoth|[anim] Tera Blast Ghost
+|-supereffective|p1a: Azathoth
+|-damage|p1a: Azathoth|0 fnt
+|faint|p1a: Azathoth
+|
+|upkeep
+|
+|t:|1743834984
+|switch|p1a: Mani Katti|Iron Valiant|100/100
+|-enditem|p1a: Mani Katti|Booster Energy
+|-activate|p1a: Mani Katti|ability: Quark Drive|[fromitem]
+|-start|p1a: Mani Katti|quarkdrivespa
+|turn|7
+|
+|t:|1743834989
+|move|p2a: Dragonite|Tera Blast|p1a: Mani Katti|[anim] Tera Blast Ghost
+|-damage|p1a: Mani Katti|19/100
+|move|p1a: Mani Katti|Shadow Ball|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1743834996
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-damage|p2a: Ting-Lu|88/100|[from] Spikes
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|8
+|
+|t:|1743835001
+|move|p1a: Mani Katti|Moonblast|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|31/100
+|-enditem|p2a: Ting-Lu|Red Card|[of] p1a: Mani Katti
+|-end|p1a: Mani Katti|Quark Drive|[silent]
+|drag|p1a: Scarlet Devil|Darkrai|100/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Scarlet Devil
+|-damage|p1a: Scarlet Devil|52/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743835008
+|move|p1a: Scarlet Devil|Ice Beam|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|3/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Scarlet Devil
+|-damage|p1a: Scarlet Devil|0 fnt
+|faint|p1a: Scarlet Devil
+|
+|upkeep
+|
+|t:|1743835013
+|switch|p1a: Mani Katti|Iron Valiant|19/100
+|turn|10
+|
+|t:|1743835016
+|move|p1a: Mani Katti|Moonblast|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743835019
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-damage|p2a: Zamazenta|88/100|[from] Spikes
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|11
+|
+|t:|1743835021
+|move|p2a: Zamazenta|Ice Fang|p1a: Mani Katti
+|-damage|p1a: Mani Katti|0 fnt
+|faint|p1a: Mani Katti
+|-end|p1a: Mani Katti|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743835022
+|switch|p1a: Metastasis|Reuniclus, F|100/100
+|turn|12
+|
+|t:|1743835026
+|move|p2a: Zamazenta|Crunch|p1a: Metastasis
+|-supereffective|p1a: Metastasis
+|-damage|p1a: Metastasis|46/100
+|move|p1a: Metastasis|Psychic Noise|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1743835029
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|13
+|
+|t:|1743835033
+|move|p2a: Gholdengo|Shadow Ball|p1a: Metastasis
+|-supereffective|p1a: Metastasis
+|-damage|p1a: Metastasis|0 fnt
+|faint|p1a: Metastasis
+|
+|win|Vbgr
+|raw|Scarbo1014's rating: 1465 &rarr; <strong>1448</strong><br />(-17 for losing)
+|raw|Vbgr's rating: 1511 &rarr; <strong>1528</strong><br />(+17 for winning)
+|l|☆Vbgr
+|player|p2|
+|l|☆Scarbo1014
+|player|p1|

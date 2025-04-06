@@ -1,0 +1,274 @@
+|j|☆fushigxro
+|j|☆ddthejj-test
+|t:|1743917687
+|gametype|singles
+|player|p1|fushigxro|hugh|1165
+|player|p2|ddthejj-test|hiker-gen4|1107
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Moth|
+|poke|p1|Mamoswine, M|
+|poke|p1|Iron Crown|
+|poke|p1|Iron Hands|
+|poke|p1|Meowscarada, M|
+|poke|p1|Primarina, M|
+|poke|p2|Revavroom, M|
+|poke|p2|Galvantula, F|
+|poke|p2|Great Tusk|
+|poke|p2|Probopass, F|
+|poke|p2|Iron Moth|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ddthejj-test)
+|
+|t:|1743917712
+|start
+|switch|p1a: Symbolism|Iron Moth, shiny|100/100
+|switch|p2a: Galvantula|Galvantula, F|100/100
+|-enditem|p1a: Symbolism|Booster Energy
+|-activate|p1a: Symbolism|ability: Quark Drive|[fromitem]
+|-start|p1a: Symbolism|quarkdrivespe
+|turn|1
+|
+|t:|1743917730
+|move|p1a: Symbolism|Fiery Dance|p2a: Galvantula
+|-supereffective|p2a: Galvantula
+|-enditem|p2a: Galvantula|Focus Sash
+|-damage|p2a: Galvantula|1/100
+|-boost|p1a: Symbolism|spa|1
+|move|p2a: Galvantula|Volt Switch|p1a: Symbolism
+|-damage|p1a: Symbolism|71/100
+|
+|t:|1743917743
+|switch|p2a: Probopass|Probopass, F|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|2
+|
+|t:|1743917754
+|-terastallize|p1a: Symbolism|Ground
+|move|p1a: Symbolism|Tera Blast|p2a: Probopass|[anim] Tera Blast Ground
+|-supereffective|p2a: Probopass
+|-damage|p2a: Probopass|0 fnt
+|faint|p2a: Probopass
+|
+|upkeep
+|
+|t:|1743917763
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|3
+|
+|t:|1743917772
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p1a: Symbolism|Sludge Wave|p2a: Ogerpon
+|-damage|p2a: Ogerpon|40/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Symbolism|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Symbolism
+|-damage|p1a: Symbolism|0 fnt
+|faint|p1a: Symbolism
+|-end|p1a: Symbolism|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743917792
+|switch|p1a: Braveheart|Iron Crown|100/100
+|turn|4
+|
+|t:|1743917800
+|move|p2a: Ogerpon|Knock Off|p1a: Braveheart
+|-supereffective|p1a: Braveheart
+|-damage|p1a: Braveheart|20/100
+|-enditem|p1a: Braveheart|Choice Specs|[from] move: Knock Off|[of] p2a: Ogerpon
+|move|p1a: Braveheart|Volt Switch|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|4/100
+|
+|t:|1743917803
+|-end|p1a: Braveheart|Quark Drive|[silent]
+|switch|p1a: Behemoth|Mamoswine, M, shiny|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|5
+|
+|t:|1743917810
+|move|p2a: Ogerpon|Horn Leech|p1a: Behemoth
+|-supereffective|p1a: Behemoth
+|-enditem|p1a: Behemoth|Focus Sash
+|-damage|p1a: Behemoth|1/100
+|-heal|p2a: Ogerpon|64/100|[from] drain|[of] p1a: Behemoth
+|move|p1a: Behemoth|Stealth Rock|p2a: Ogerpon
+|-sidestart|p2: ddthejj-test|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1743917820
+|move|p1a: Behemoth|Ice Shard|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|51/100
+|move|p2a: Ogerpon|Horn Leech|p1a: Behemoth
+|-supereffective|p1a: Behemoth
+|-damage|p1a: Behemoth|0 fnt
+|-heal|p2a: Ogerpon|51/100|[from] drain|[of] p1a: Behemoth
+|faint|p1a: Behemoth
+|
+|upkeep
+|
+|t:|1743917824
+|switch|p1a: Liberacy|Meowscarada, M, shiny|100/100
+|turn|7
+|
+|t:|1743917827
+|move|p1a: Liberacy|Petal Blizzard|p2a: Ogerpon
+|-start|p1a: Liberacy|typechange|Grass|[from] ability: Protean
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743917835
+|switch|p2a: Revavroom|Revavroom, M|100/100
+|-damage|p2a: Revavroom|95/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1743917845
+|switch|p1a: Celestine|Primarina, M, shiny|100/100
+|move|p2a: Revavroom|Shift Gear|p2a: Revavroom
+|-boost|p2a: Revavroom|spe|2
+|-boost|p2a: Revavroom|atk|1
+|
+|upkeep
+|turn|9
+|
+|t:|1743917850
+|move|p2a: Revavroom|Poison Jab|p1a: Celestine
+|-supereffective|p1a: Celestine
+|-damage|p1a: Celestine|1/100
+|-status|p1a: Celestine|psn
+|move|p1a: Celestine|Psychic Noise|p2a: Revavroom
+|-damage|p2a: Revavroom|47/100
+|-start|p2a: Revavroom|move: Heal Block
+|
+|-heal|p1a: Celestine|7/100 psn|[from] item: Leftovers
+|-damage|p1a: Celestine|0 fnt|[from] psn
+|faint|p1a: Celestine
+|upkeep
+|
+|t:|1743917865
+|switch|p1a: Terminator|Iron Hands, shiny|100/100
+|-enditem|p1a: Terminator|Booster Energy
+|-activate|p1a: Terminator|ability: Quark Drive|[fromitem]
+|-start|p1a: Terminator|quarkdriveatk
+|turn|10
+|
+|t:|1743917876
+|move|p2a: Revavroom|Poison Jab|p1a: Terminator
+|-crit|p1a: Terminator
+|-damage|p1a: Terminator|39/100
+|move|p1a: Terminator|Close Combat|p2a: Revavroom
+|-damage|p2a: Revavroom|0 fnt
+|-unboost|p1a: Terminator|def|1
+|-unboost|p1a: Terminator|spd|1
+|faint|p2a: Revavroom
+|
+|upkeep
+|
+|t:|1743917884
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1743917889
+|move|p2a: Great Tusk|Rapid Spin|p1a: Terminator
+|-damage|p1a: Terminator|24/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: ddthejj-test|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Terminator|Ice Punch|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|48/100
+|-damage|p1a: Terminator|8/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|12
+|
+|t:|1743917900
+|move|p2a: Great Tusk|Ice Spinner|p1a: Terminator
+|-damage|p1a: Terminator|0 fnt
+|faint|p1a: Terminator
+|-end|p1a: Terminator|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743917902
+|switch|p1a: Liberacy|Meowscarada, M, shiny|100/100
+|turn|13
+|
+|t:|1743917923
+|move|p1a: Liberacy|Triple Axel|p2a: Great Tusk
+|-start|p1a: Liberacy|typechange|Ice|[from] ability: Protean
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|37/100
+|-damage|p1a: Liberacy|84/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|15/100
+|-damage|p1a: Liberacy|68/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-damage|p1a: Liberacy|51/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-hitcount|p2: Great Tusk|3
+|
+|upkeep
+|
+|t:|1743917927
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|14
+|
+|t:|1743917931
+|switch|p1a: Braveheart|Iron Crown|20/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Braveheart
+|-supereffective|p1a: Braveheart
+|-damage|p1a: Braveheart|0 fnt
+|faint|p1a: Braveheart
+|-end|p1a: Braveheart|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743917933
+|switch|p1a: Liberacy|Meowscarada, M, shiny|51/100
+|turn|15
+|
+|t:|1743917941
+|move|p1a: Liberacy|Triple Axel|p2a: Iron Moth|[miss]
+|-start|p1a: Liberacy|typechange|Ice|[from] ability: Protean
+|-miss|p1a: Liberacy|p2a: Iron Moth
+|move|p2a: Iron Moth|Sludge Wave|p1a: Liberacy
+|-damage|p1a: Liberacy|0 fnt
+|faint|p1a: Liberacy
+|
+|win|ddthejj-test
+|raw|fushigxro's rating: 1165 &rarr; <strong>1136</strong><br />(-29 for losing)
+|raw|ddthejj-test's rating: 1107 &rarr; <strong>1136</strong><br />(+29 for winning)
+|l|☆fushigxro
+|player|p1|
+|l|☆ddthejj-test
+|player|p2|

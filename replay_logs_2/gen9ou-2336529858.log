@@ -1,0 +1,295 @@
+|j|☆abadi000722
+|j|☆iagal
+|t:|1743934118
+|gametype|singles
+|player|p1|abadi000722|2|1185
+|player|p2|iagal|169|1228
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Moth|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Kingambit, F|
+|poke|p1|Great Tusk|
+|poke|p1|Yanmega, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Gliscor, F|
+|poke|p2|Blaziken, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by abadi000722)
+|
+|t:|1743934123
+|start
+|switch|p1a: Yanmega|Yanmega, F|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|1
+|
+|t:|1743934129
+|move|p2a: Samurott|Flip Turn|p1a: Yanmega
+|-damage|p1a: Yanmega|63/100
+|
+|t:|1743934143
+|switch|p2a: Gliscor|Gliscor, F|100/100|[from] Flip Turn
+|move|p1a: Yanmega|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|94/100
+|
+|t:|1743934155
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743934165
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Great Tusk|Ice Spinner|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|t:|1743934187
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|77/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743934206
+|move|p2a: Samurott|Razor Shell|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|27/100
+|-unboost|p1a: Great Tusk|def|1
+|move|p1a: Great Tusk|Close Combat|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Samurott
+|
+|upkeep
+|inactive|iagal has 120 seconds left.
+|
+|t:|1743934216
+|switch|p2a: Blaziken|Blaziken, M|100/100
+|turn|5
+|
+|t:|1743934222
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Great Tusk|Headlong Rush|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|6
+|
+|t:|1743934235
+|move|p2a: Blaziken|Flare Blitz|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: Blaziken|90/100|[from] Recoil
+|-damage|p2a: Blaziken|80/100|[from] item: Life Orb
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743934245
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|7
+|
+|t:|1743934257
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox
+|move|p1a: Iron Moth|Psychic|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|43/100 tox
+|
+|-heal|p2a: Gliscor|56/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1743934264
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Iron Moth|Fiery Dance|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|68/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|t:|1743934272
+|move|p1a: Iron Moth|Fiery Dance|p2a: Gliscor
+|-damage|p2a: Gliscor|17/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p2a: Gliscor|29/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743934281
+|switch|p1a: Yanmega|Yanmega, F|63/100
+|turn|10
+|
+|t:|1743934297
+|move|p1a: Yanmega|Psychic|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|
+|t:|1743934306
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|11
+|
+|t:|1743934320
+|move|p1a: Yanmega|Psychic|p2a: Raging Bolt
+|-crit|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|36/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Yanmega
+|-supereffective|p1a: Yanmega
+|-damage|p1a: Yanmega|0 fnt
+|faint|p1a: Yanmega
+|
+|upkeep
+|
+|t:|1743934329
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|12
+|
+|t:|1743934335
+|move|p2a: Raging Bolt|Thunderclap|p1a: Ogerpon
+|-damage|p1a: Ogerpon|38/100
+|move|p1a: Ogerpon|Play Rough|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743934349
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|13
+|
+|t:|1743934357
+|move|p2a: Iron Valiant|Moonblast|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743934373
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|14
+|
+|t:|1743934379
+|-terastallize|p1a: Kingambit|Dark
+|move|p2a: Iron Valiant|Close Combat|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|
+|t:|1743934386
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|15
+|
+|t:|1743934393
+|move|p1a: Raging Bolt|Thunderclap|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743934404
+|switch|p2a: Blaziken|Blaziken, M|80/100
+|turn|16
+|
+|t:|1743934410
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|17
+|
+|t:|1743934418
+|move|p1a: Raging Bolt|Thunderclap|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|
+|upkeep
+|
+|t:|1743934421
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|18
+|
+|t:|1743934433
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|win|abadi000722
+|raw|abadi000722's rating: 1185 &rarr; <strong>1213</strong><br />(+28 for winning)
+|raw|iagal's rating: 1228 &rarr; <strong>1200</strong><br />(-28 for losing)
+|l|☆iagal
+|player|p2|
+|l|☆abadi000722
+|player|p1|

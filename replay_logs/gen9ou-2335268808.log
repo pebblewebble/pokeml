@@ -1,0 +1,270 @@
+|j|☆FiveTomatoes
+|j|☆nhg445
+|t:|1743780122
+|gametype|singles
+|player|p1|FiveTomatoes|1|1609
+|player|p2|nhg445|cynthia|1614
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Greninja-*, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Rillaboom, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Garganacl, F|
+|poke|p1|Dragapult, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Iron Treads|
+|poke|p2|Iron Crown|
+|poke|p2|Moltres|
+|poke|p2|Weavile, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FiveTomatoes)
+|inactive|nhg445 also wants the timer to be on.
+|
+|t:|1743780135
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|1
+|
+|t:|1743780140
+|move|p1a: Rotom|Volt Switch|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-crit|p2a: Samurott
+|-enditem|p2a: Samurott|Focus Sash
+|-damage|p2a: Samurott|1/100
+|
+|t:|1743780145
+|switch|p1a: Greninja|Greninja, M|100/100|[from] Volt Switch
+|move|p2a: Samurott|Knock Off|p1a: Greninja
+|-resisted|p1a: Greninja
+|-damage|p1a: Greninja|66/100
+|-enditem|p1a: Greninja|Assault Vest|[from] move: Knock Off|[of] p2a: Samurott
+|
+|upkeep
+|turn|2
+|
+|t:|1743780149
+|move|p1a: Greninja|Dark Pulse|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|-ability|p1a: Greninja|Battle Bond|boost
+|-boost|p1a: Greninja|atk|1
+|-boost|p1a: Greninja|spa|1
+|-boost|p1a: Greninja|spe|1
+|-activate|p1a: Greninja|ability: Battle Bond
+|
+|upkeep
+|
+|t:|1743780153
+|switch|p2a: shouting planet|Dragonite, M|100/100
+|turn|3
+|
+|t:|1743780163
+|-terastallize|p1a: Greninja|Ghost
+|-terastallize|p2a: shouting planet|Flying
+|move|p1a: Greninja|Ice Beam|p2a: shouting planet
+|-supereffective|p2a: shouting planet
+|-damage|p2a: shouting planet|57/100
+|move|p2a: shouting planet|Tera Blast|p1a: Greninja|[anim] Tera Blast Flying
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|upkeep
+|
+|t:|1743780171
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|turn|4
+|
+|t:|1743780182
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Rotom|Trick|p2a: Iron Treads
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Iron Treads
+|-item|p2a: Iron Treads|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|
+|upkeep
+|turn|5
+|
+|t:|1743780208
+|move|p2a: Iron Treads|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|59/100
+|-enditem|p1a: Rotom|Leftovers|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Rotom|Hydro Pump|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743780216
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|turn|6
+|
+|t:|1743780219
+|move|p2a: Iron Crown|Psyshock|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1743780226
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|7
+|
+|t:|1743780231
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: shouting planet|Dragonite, M, tera:Flying|57/100
+|move|p1a: Dragapult|Thunder Wave|p2a: shouting planet
+|-status|p2a: shouting planet|par
+|
+|upkeep
+|turn|8
+|
+|t:|1743780238
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|move|p2a: shouting planet|Tera Blast|p1a: Dragapult|[anim] Tera Blast Flying
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743780242
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: shouting planet|Tera Blast|p1a: Garganacl|[anim] Tera Blast Flying
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|86/100
+|
+|-heal|p1a: Garganacl|92/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743780246
+|cant|p2a: shouting planet|par
+|move|p1a: Garganacl|Salt Cure|p2a: shouting planet
+|-supereffective|p2a: shouting planet
+|-damage|p2a: shouting planet|27/100 par
+|-start|p2a: shouting planet|Salt Cure
+|
+|-heal|p1a: Garganacl|98/100|[from] item: Leftovers
+|-damage|p2a: shouting planet|15/100 par|[from] Salt Cure
+|upkeep
+|turn|11
+|
+|t:|1743780250
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: shouting planet|Earthquake|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p2a: shouting planet|2/100 par|[from] Salt Cure
+|upkeep
+|turn|12
+|
+|t:|1743780263
+|move|p2a: shouting planet|Earthquake|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|63/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|-damage|p2a: shouting planet|0 fnt|[from] Salt Cure
+|faint|p2a: shouting planet
+|upkeep
+|
+|t:|1743780265
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|turn|13
+|
+|t:|1743780267
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|upkeep
+|turn|14
+|
+|t:|1743780271
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Rillaboom
+|-damage|p1a: Rillaboom|60/100
+|-damage|p1a: Rillaboom|16/100
+|-hitcount|p1a: Rillaboom|2
+|
+|-heal|p1a: Rillaboom|22/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1743780274
+|move|p1a: Rillaboom|Grassy Glide|p2a: Iron Crown
+|-resisted|p2a: Iron Crown
+|-damage|p2a: Iron Crown|73/100
+|-damage|p1a: Rillaboom|13/100|[from] item: Life Orb
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-hitcount|p1: Rillaboom|1
+|
+|-heal|p2a: Iron Crown|80/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743780276
+|switch|p1a: Dragapult|Dragapult, F|82/100
+|turn|16
+|
+|t:|1743780278
+|move|p1a: Dragapult|Thunder Wave|p2a: Iron Crown
+|-status|p2a: Iron Crown|par
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Dragapult
+|-damage|p1a: Dragapult|37/100
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-hitcount|p1: Dragapult|2
+|
+|-heal|p2a: Iron Crown|86/100 par|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743780283
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|turn|17
+|
+|t:|1743780285
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|33/100
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|-hitcount|p1: Garganacl|2
+|
+|-heal|p2a: Iron Crown|92/100 par|[from] Grassy Terrain
+|upkeep
+|-message|FiveTomatoes forfeited.
+|
+|win|nhg445
+|raw|FiveTomatoes's rating: 1625 &rarr; <strong>1604</strong><br />(-21 for losing)
+|raw|nhg445's rating: 1614 &rarr; <strong>1635</strong><br />(+21 for winning)
+|l|☆FiveTomatoes
+|player|p1|
+|l|☆nhg445
+|player|p2|

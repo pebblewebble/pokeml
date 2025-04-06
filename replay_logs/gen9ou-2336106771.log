@@ -1,0 +1,298 @@
+|j|☆riloid
+|j|☆zaR34
+|t:|1743879482
+|gametype|singles
+|player|p1|riloid|steven|1184
+|player|p2|zaR34|benga|1138
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Regigigas|
+|poke|p1|Meloetta|
+|poke|p1|Porygon2|
+|poke|p1|Dudunsparce-*, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Ditto|
+|poke|p2|Zapdos|
+|poke|p2|Tyranitar, M|
+|poke|p2|Primarina, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Toxapex, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by riloid)
+|
+|t:|1743879499
+|start
+|switch|p1a: Regigigas|Regigigas|100/100
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-start|p1a: Regigigas|ability: Slow Start
+|turn|1
+|
+|t:|1743879510
+|move|p1a: Regigigas|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|85/100
+|-enditem|p2a: Toxapex|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Regigigas
+|move|p2a: Toxapex|Acid Spray|p1a: Regigigas
+|-damage|p1a: Regigigas|91/100
+|-unboost|p1a: Regigigas|spd|2
+|
+|upkeep
+|turn|2
+|
+|t:|1743879528
+|move|p2a: Toxapex|Acid Spray|p1a: Regigigas
+|-damage|p1a: Regigigas|73/100
+|-unboost|p1a: Regigigas|spd|2
+|move|p1a: Regigigas|Avalanche|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|75/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743879546
+|move|p1a: Regigigas|Drain Punch|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|69/100
+|-heal|p1a: Regigigas|76/100|[from] drain|[of] p2a: Toxapex
+|move|p2a: Toxapex|Surf|p1a: Regigigas
+|-damage|p1a: Regigigas|13/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743879553
+|move|p1a: Regigigas|Rest|p1a: Regigigas
+|-status|p1a: Regigigas|slp|[from] move: Rest
+|-heal|p1a: Regigigas|100/100 slp|[silent]
+|-enditem|p1a: Regigigas|Chesto Berry|[eat]
+|-curestatus|p1a: Regigigas|slp|[msg]
+|move|p2a: Toxapex|Surf|p1a: Regigigas
+|-damage|p1a: Regigigas|40/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743879567
+|move|p1a: Regigigas|Drain Punch|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|63/100
+|-heal|p1a: Regigigas|42/100|[from] drain|[of] p2a: Toxapex
+|move|p2a: Toxapex|Surf|p1a: Regigigas
+|-damage|p1a: Regigigas|0 fnt
+|faint|p1a: Regigigas
+|-end|p1a: Regigigas|Slow Start|[silent]
+|
+|upkeep
+|
+|t:|1743879578
+|switch|p1a: witch|Meloetta|100/100
+|turn|6
+|
+|t:|1743879584
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: witch|Psychic|p2a: Tyranitar
+|-immune|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: witch|94/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1743879601
+|switch|p1a: game changer|Dudunsparce, F|100/100
+|move|p2a: Tyranitar|Knock Off|p1a: game changer
+|-damage|p1a: game changer|39/100
+|-enditem|p1a: game changer|Leftovers|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: game changer|33/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1743879609
+|move|p1a: game changer|Blizzard|p2a: Tyranitar
+|-damage|p2a: Tyranitar|89/100
+|move|p2a: Tyranitar|Low Kick|p1a: game changer
+|-supereffective|p1a: game changer
+|-damage|p1a: game changer|0 fnt
+|faint|p1a: game changer
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743879622
+|switch|p1a: witch|Meloetta|94/100
+|turn|9
+|
+|t:|1743879634
+|move|p1a: witch|Energy Ball|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|52/100
+|move|p2a: Tyranitar|Knock Off|p1a: witch
+|-supereffective|p1a: witch
+|-damage|p1a: witch|0 fnt
+|-enditem|p1a: witch|Choice Specs|[from] move: Knock Off|[of] p2a: Tyranitar
+|faint|p1a: witch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743879643
+|switch|p1a: Trap card|Ditto|100/100
+|-transform|p1a: Trap card|p2a: Tyranitar|[from] ability: Imposter
+|turn|10
+|
+|t:|1743879650
+|-terastallize|p2a: Tyranitar|Ghost
+|move|p2a: Tyranitar|Low Kick|p1a: Trap card
+|-supereffective|p1a: Trap card
+|-damage|p1a: Trap card|0 fnt
+|faint|p1a: Trap card
+|
+|-weather|none
+|upkeep
+|
+|t:|1743879659
+|switch|p1a: Super Porygon|Porygon2, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Super Porygon
+|-ability|p1a: Super Porygon|Sand Stream|[from] ability: Trace|[of] p2a: Tyranitar
+|turn|11
+|
+|t:|1743879670
+|move|p2a: Tyranitar|Low Kick|p1a: Super Porygon
+|-supereffective|p1a: Super Porygon
+|-damage|p1a: Super Porygon|70/100
+|move|p1a: Super Porygon|Discharge|p2a: Tyranitar
+|-damage|p2a: Tyranitar|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|31/100|[from] Sandstorm
+|-damage|p1a: Super Porygon|64/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1743879688
+|move|p2a: Tyranitar|Low Kick|p1a: Super Porygon
+|-supereffective|p1a: Super Porygon
+|-damage|p1a: Super Porygon|36/100
+|move|p1a: Super Porygon|Discharge|p2a: Tyranitar
+|-damage|p2a: Tyranitar|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|8/100|[from] Sandstorm
+|-damage|p1a: Super Porygon|30/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1743879708
+|-terastallize|p1a: Super Porygon|Ghost
+|move|p2a: Tyranitar|Low Kick|p1a: Super Porygon
+|-immune|p1a: Super Porygon
+|move|p1a: Super Porygon|Recover|p1a: Super Porygon
+|-heal|p1a: Super Porygon|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|2/100|[from] Sandstorm
+|-damage|p1a: Super Porygon|74/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1743879717
+|move|p2a: Tyranitar|Knock Off|p1a: Super Porygon
+|-supereffective|p1a: Super Porygon
+|-damage|p1a: Super Porygon|4/100
+|-enditem|p1a: Super Porygon|Eviolite|[from] move: Knock Off|[of] p2a: Tyranitar
+|move|p1a: Super Porygon|Recover|p1a: Super Porygon
+|-heal|p1a: Super Porygon|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|0 fnt|[from] Sandstorm
+|-damage|p1a: Super Porygon|48/100|[from] Sandstorm
+|faint|p2a: Tyranitar
+|upkeep
+|
+|t:|1743879728
+|switch|p2a: Toxapex|Toxapex, F|97/100
+|turn|15
+|
+|t:|1743879732
+|move|p1a: Super Porygon|Discharge|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|53/100
+|move|p2a: Toxapex|Acid Spray|p1a: Super Porygon
+|-resisted|p1a: Super Porygon
+|-damage|p1a: Super Porygon|43/100
+|-unboost|p1a: Super Porygon|spd|2
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1743879740
+|move|p1a: Super Porygon|Discharge|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|9/100
+|-status|p2a: Toxapex|par
+|move|p2a: Toxapex|Surf|p1a: Super Porygon
+|-damage|p1a: Super Porygon|0 fnt
+|faint|p1a: Super Porygon
+|
+|upkeep
+|
+|t:|1743879748
+|switch|p1a: Redmoon|Ursaluna, F|100/100
+|turn|17
+|
+|t:|1743879753
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Redmoon|Body Press|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|-status|p1a: Redmoon|psn
+|
+|-damage|p1a: Redmoon|88/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1743879762
+|move|p1a: Redmoon|Body Slam|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-damage|p1a: Redmoon|76/100 psn|[from] psn
+|upkeep
+|
+|t:|1743879768
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|19
+|
+|t:|1743879772
+|move|p2a: Meowscarada|Triple Axel|p1a: Redmoon
+|-start|p2a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-supereffective|p1a: Redmoon
+|-damage|p1a: Redmoon|62/100 psn
+|-supereffective|p1a: Redmoon
+|-damage|p1a: Redmoon|31/100 psn
+|-supereffective|p1a: Redmoon
+|-damage|p1a: Redmoon|0 fnt
+|faint|p1a: Redmoon
+|-hitcount|p1: Redmoon|3
+|
+|win|zaR34
+|raw|riloid's rating: 1184 &rarr; <strong>1156</strong><br />(-28 for losing)
+|raw|zaR34's rating: 1138 &rarr; <strong>1166</strong><br />(+28 for winning)
+|l|☆riloid
+|player|p1|

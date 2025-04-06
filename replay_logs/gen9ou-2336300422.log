@@ -1,0 +1,325 @@
+|j|☆Darkblood A.
+|j|☆PolarBearXTB
+|t:|1743900209
+|gametype|singles
+|player|p1|Darkblood A.|proton|1170
+|player|p2|PolarBearXTB|n|1162
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garganacl, F|
+|poke|p1|Scizor, F|
+|poke|p1|Conkeldurr, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Clefable, F|
+|poke|p1|Great Tusk|
+|poke|p2|Iron Moth|
+|poke|p2|Gholdengo|
+|poke|p2|Regigigas|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Lokix, F|
+|poke|p2|Enamorus, F|
+|teampreview
+|
+|t:|1743900220
+|start
+|switch|p1a: Clefable|Clefable, F|100/100
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|1
+|
+|t:|1743900229
+|move|p2a: Ogerpon|Taunt|p1a: Clefable
+|-start|p1a: Clefable|move: Taunt
+|cant|p1a: Clefable|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743900235
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Clefable|[anim] Ivy Cudgel Water
+|-damage|p1a: Clefable|35/100
+|move|p1a: Clefable|Moonblast|p2a: Ogerpon
+|-damage|p2a: Ogerpon|67/100
+|
+|-heal|p1a: Clefable|41/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743900244
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Clefable|[anim] Ivy Cudgel Water
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|t:|1743900268
+|switch|p1a: Conkeldurr|Conkeldurr, F|100/100
+|turn|4
+|
+|t:|1743900271
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Conkeldurr|[anim] Ivy Cudgel Water
+|-damage|p1a: Conkeldurr|48/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-heal|p1a: Conkeldurr|72/100|[from] drain|[of] p2a: Ogerpon
+|faint|p2a: Ogerpon
+|-damage|p1a: Conkeldurr|62/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743900282
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|5
+|
+|t:|1743900291
+|switch|p1a: Scizor|Scizor, F|100/100
+|move|p2a: Enamorus|Moonblast|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|68/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743900301
+|switch|p2a: Regigigas|Regigigas|100/100
+|-start|p2a: Regigigas|ability: Slow Start
+|move|p1a: Scizor|Bullet Punch|p2a: Regigigas
+|-damage|p2a: Regigigas|63/100
+|
+|-heal|p2a: Regigigas|70/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743900309
+|switch|p1a: Conkeldurr|Conkeldurr, F|62/100
+|move|p2a: Regigigas|Thunder Wave|p1a: Conkeldurr
+|-status|p1a: Conkeldurr|par
+|
+|-heal|p2a: Regigigas|76/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743900315
+|move|p2a: Regigigas|Knock Off|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|53/100 par
+|-enditem|p1a: Conkeldurr|Life Orb|[from] move: Knock Off|[of] p2a: Regigigas
+|move|p1a: Conkeldurr|Drain Punch|p2a: Regigigas
+|-supereffective|p2a: Regigigas
+|-damage|p2a: Regigigas|0 fnt
+|-heal|p1a: Conkeldurr|91/100 par|[from] drain|[of] p2a: Regigigas
+|faint|p2a: Regigigas
+|-end|p2a: Regigigas|Slow Start|[silent]
+|
+|upkeep
+|
+|t:|1743900327
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|9
+|
+|t:|1743900331
+|move|p2a: Enamorus|Moonblast|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|t:|1743900338
+|switch|p1a: Scizor|Scizor, F|68/100
+|turn|10
+|
+|t:|1743900347
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|move|p1a: Scizor|U-turn|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-crit|p2a: Iron Moth
+|-damage|p2a: Iron Moth|64/100
+|
+|t:|1743900367
+|switch|p1a: Garganacl|Garganacl, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|11
+|
+|t:|1743900384
+|move|p2a: Iron Moth|Sludge Wave|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|67/100
+|move|p1a: Garganacl|Earthquake|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p1a: Garganacl|73/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743900390
+|switch|p2a: Lokix|Lokix, F|100/100
+|turn|12
+|
+|t:|1743900402
+|move|p2a: Lokix|Axe Kick|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|29/100
+|-start|p1a: Garganacl|confusion
+|-damage|p2a: Lokix|91/100|[from] item: Life Orb
+|-activate|p1a: Garganacl|confusion
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|79/100
+|
+|-heal|p1a: Garganacl|86/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743900412
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Lokix|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p2a: Lokix
+|faint|p1a: Dragapult
+|-damage|p2a: Lokix|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743900419
+|switch|p1a: Garganacl|Garganacl, F|86/100
+|turn|14
+|
+|t:|1743900421
+|move|p2a: Lokix|Knock Off|p1a: Garganacl
+|-damage|p1a: Garganacl|57/100
+|-enditem|p1a: Garganacl|Leftovers|[from] move: Knock Off|[of] p2a: Lokix
+|-damage|p2a: Lokix|71/100|[from] item: Life Orb
+|move|p1a: Garganacl|Salt Cure|p2a: Lokix
+|-supereffective|p2a: Lokix
+|-damage|p2a: Lokix|30/100
+|-start|p2a: Lokix|Salt Cure
+|
+|-damage|p2a: Lokix|17/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1743900435
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|-terastallize|p1a: Garganacl|Water
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|100/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743900446
+|move|p2a: Enamorus|Moonblast|p1a: Garganacl
+|-damage|p1a: Garganacl|51/100
+|move|p1a: Garganacl|Substitute|p1a: Garganacl
+|-start|p1a: Garganacl|Substitute
+|-damage|p1a: Garganacl|26/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743900451
+|move|p2a: Enamorus|Moonblast|p1a: Garganacl
+|-end|p1a: Garganacl|Substitute
+|move|p1a: Garganacl|Salt Cure|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|57/100
+|-start|p2a: Enamorus|Salt Cure
+|
+|-damage|p2a: Enamorus|44/100|[from] Salt Cure
+|upkeep
+|turn|18
+|
+|t:|1743900458
+|move|p2a: Enamorus|Moonblast|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|-damage|p2a: Enamorus|32/100|[from] Salt Cure
+|upkeep
+|
+|t:|1743900468
+|switch|p1a: Scizor|Scizor, F|68/100
+|turn|19
+|
+|t:|1743900476
+|move|p2a: Enamorus|Moonblast|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|40/100
+|move|p1a: Scizor|Knock Off|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|-enditem|p2a: Enamorus|Choice Scarf|[from] move: Knock Off|[of] p1a: Scizor
+|faint|p2a: Enamorus
+|
+|upkeep
+|
+|t:|1743900484
+|switch|p2a: Lokix|Lokix, F|17/100
+|turn|20
+|
+|t:|1743900489
+|move|p2a: Lokix|First Impression|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|-damage|p2a: Lokix|8/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743900492
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|turn|21
+|
+|t:|1743900498
+|move|p2a: Lokix|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|60/100
+|-enditem|p1a: Great Tusk|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Lokix
+|-damage|p2a: Lokix|0 fnt|[from] item: Life Orb
+|faint|p2a: Lokix
+|move|p1a: Great Tusk|Rapid Spin|p2: Lokix|[notarget]
+|-fail|p1a: Great Tusk
+|
+|upkeep
+|
+|t:|1743900505
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|22
+|
+|t:|1743900510
+|move|p1a: Great Tusk|Ice Spinner|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|84/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|win|PolarBearXTB
+|raw|Darkblood A.'s rating: 1170 &rarr; <strong>1144</strong><br />(-26 for losing)
+|raw|PolarBearXTB's rating: 1162 &rarr; <strong>1188</strong><br />(+26 for winning)
+|l|☆Darkblood A.
+|player|p1|
+|c|☆PolarBearXTB|gg
+|l|☆PolarBearXTB
+|player|p2|

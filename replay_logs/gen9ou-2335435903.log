@@ -1,0 +1,292 @@
+|j|☆UserBr
+|j|☆ToeNail Timmy
+|t:|1743794079
+|gametype|singles
+|player|p1|UserBr|101|1126
+|player|p2|ToeNail Timmy|swimmer|1139
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Ting-Lu|
+|poke|p1|Corviknight, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Toxapex, M|
+|poke|p2|Indeedee-F, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Dunsparce, F|
+|poke|p2|Hawlucha, F|
+|poke|p2|Galvantula, F|
+|teampreview
+|
+|t:|1743794093
+|start
+|switch|p1a: Sentinel|Weezing-Galar, M, shiny|100/100
+|switch|p2a: Galvantula|Galvantula, F|100/100
+|-ability|p1a: Sentinel|Neutralizing Gas
+|turn|1
+|
+|t:|1743794100
+|move|p2a: Galvantula|Sticky Web|p1a: Sentinel
+|-sidestart|p1: UserBr|move: Sticky Web
+|move|p1a: Sentinel|Will-O-Wisp|p2a: Galvantula
+|-status|p2a: Galvantula|brn
+|
+|-damage|p2a: Galvantula|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1743794104
+|move|p2a: Galvantula|Thunder Wave|p1a: Sentinel
+|-status|p1a: Sentinel|par
+|move|p1a: Sentinel|Defog|p2a: Galvantula
+|-unboost|p2a: Galvantula|evasion|1
+|-sideend|p1: UserBr|Sticky Web|[from] move: Defog|[of] p1a: Sentinel
+|
+|-damage|p2a: Galvantula|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743794110
+|move|p2a: Galvantula|Sticky Web|p1a: Sentinel
+|-sidestart|p1: UserBr|move: Sticky Web
+|cant|p1a: Sentinel|par
+|
+|-damage|p2a: Galvantula|82/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743794115
+|move|p2a: Galvantula|Thunder|p1a: Sentinel
+|-damage|p1a: Sentinel|46/100 par
+|move|p1a: Sentinel|Defog|p2a: Galvantula
+|-unboost|p2a: Galvantula|evasion|1
+|-sideend|p1: UserBr|Sticky Web|[from] move: Defog|[of] p1a: Sentinel
+|
+|-damage|p2a: Galvantula|76/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743794139
+|-end|p1a: Sentinel|ability: Neutralizing Gas
+|switch|p1a: Kyotaro|Kyurem, shiny|100/100
+|-ability|p1a: Kyotaro|Pressure
+|move|p2a: Galvantula|Sticky Web|p1a: Kyotaro
+|-sidestart|p1: UserBr|move: Sticky Web
+|
+|-damage|p2a: Galvantula|70/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743794146
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Kyotaro|Substitute|p1a: Kyotaro
+|-start|p1a: Kyotaro|Substitute
+|-damage|p1a: Kyotaro|76/100
+|
+|-heal|p1a: Kyotaro|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743794155
+|move|p1a: Kyotaro|Earth Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|51/100
+|move|p2a: Toxapex|Infestation|p1a: Kyotaro
+|-activate|p1a: Kyotaro|move: Substitute|[damage]
+|
+|-heal|p1a: Kyotaro|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743794159
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Kyotaro|Earth Power|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p1a: Kyotaro|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743794165
+|switch|p2a: Dunsparce|Dunsparce, F|100/100
+|move|p1a: Kyotaro|Earth Power|p2a: Dunsparce
+|-damage|p2a: Dunsparce|79/100
+|
+|-heal|p1a: Kyotaro|99/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743794169
+|move|p1a: Kyotaro|Freeze-Dry|p2a: Dunsparce
+|-damage|p2a: Dunsparce|53/100
+|move|p2a: Dunsparce|Mud-Slap|p1a: Kyotaro
+|-activate|p1a: Kyotaro|move: Substitute|[damage]
+|
+|-heal|p1a: Kyotaro|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743794174
+|move|p1a: Kyotaro|Freeze-Dry|p2a: Dunsparce
+|-damage|p2a: Dunsparce|30/100
+|move|p2a: Dunsparce|Roost|p2a: Dunsparce
+|-heal|p2a: Dunsparce|80/100
+|-singleturn|p2a: Dunsparce|move: Roost
+|
+|upkeep
+|turn|12
+|
+|t:|1743794179
+|move|p1a: Kyotaro|Freeze-Dry|p2a: Dunsparce
+|-damage|p2a: Dunsparce|54/100
+|-status|p2a: Dunsparce|frz
+|cant|p2a: Dunsparce|frz
+|
+|upkeep
+|turn|13
+|
+|t:|1743794187
+|switch|p2a: Toxapex|Toxapex, F|84/100
+|move|p1a: Kyotaro|Freeze-Dry|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|29/100
+|-status|p2a: Toxapex|frz
+|
+|upkeep
+|turn|14
+|
+|t:|1743794195
+|switch|p2a: Indeedee|Indeedee-F, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Kyotaro|Earth Power|p2a: Indeedee
+|-damage|p2a: Indeedee|74/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743794199
+|move|p1a: Kyotaro|Freeze-Dry|p2a: Indeedee
+|-damage|p2a: Indeedee|41/100
+|move|p2a: Indeedee|Calm Mind|p2a: Indeedee
+|-boost|p2a: Indeedee|spa|1
+|-boost|p2a: Indeedee|spd|1
+|
+|upkeep
+|turn|16
+|
+|t:|1743794208
+|-terastallize|p2a: Indeedee|Fairy
+|move|p1a: Kyotaro|Freeze-Dry|p2a: Indeedee
+|-damage|p2a: Indeedee|17/100
+|-status|p2a: Indeedee|frz
+|-curestatus|p2a: Indeedee|frz|[msg]
+|move|p2a: Indeedee|Draining Kiss|p1a: Kyotaro
+|-supereffective|p1a: Kyotaro
+|-end|p1a: Kyotaro|Substitute
+|-heal|p2a: Indeedee|38/100|[from] drain|[of] p1a: Kyotaro
+|
+|upkeep
+|turn|17
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by UserBr)
+|
+|t:|1743794220
+|switch|p1a: Yami|Corviknight, M, shiny|100/100
+|-ability|p1a: Yami|Pressure
+|move|p2a: Indeedee|Draining Kiss|p1a: Yami
+|-resisted|p1a: Yami
+|-damage|p1a: Yami|86/100
+|-heal|p2a: Indeedee|54/100|[from] drain|[of] p1a: Yami
+|-damage|p2a: Indeedee|37/100|[from] item: Rocky Helmet|[of] p1a: Yami
+|
+|upkeep
+|turn|18
+|
+|t:|1743794225
+|switch|p2a: Toxapex|Toxapex, F|62/100 frz
+|move|p1a: Yami|Brave Bird|p2a: Toxapex
+|-damage|p2a: Toxapex|32/100 frz
+|-damage|p1a: Yami|80/100|[from] Recoil
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|19
+|
+|t:|1743794228
+|move|p1a: Yami|Brave Bird|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|-damage|p1a: Yami|73/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743794233
+|switch|p2a: Galvantula|Galvantula, F|70/100 brn
+|turn|20
+|
+|t:|1743794237
+|move|p2a: Galvantula|Thunder|p1a: Yami
+|-supereffective|p1a: Yami
+|-damage|p1a: Yami|0 fnt
+|faint|p1a: Yami
+|
+|-damage|p2a: Galvantula|64/100 brn|[from] brn
+|upkeep
+|
+|t:|1743794243
+|switch|p1a: Kyotaro|Kyurem, shiny|100/100
+|-activate|p1a: Kyotaro|move: Sticky Web
+|-unboost|p1a: Kyotaro|spe|1
+|-ability|p1a: Kyotaro|Pressure
+|turn|21
+|
+|t:|1743794247
+|switch|p2a: Dunsparce|Dunsparce, F|54/100 frz
+|move|p1a: Kyotaro|Substitute|p1a: Kyotaro
+|-start|p1a: Kyotaro|Substitute
+|-damage|p1a: Kyotaro|76/100
+|
+|-heal|p1a: Kyotaro|82/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743794250
+|move|p1a: Kyotaro|Earth Power|p2a: Dunsparce
+|-damage|p2a: Dunsparce|33/100 frz
+|-unboost|p2a: Dunsparce|spd|1
+|cant|p2a: Dunsparce|frz
+|
+|-heal|p1a: Kyotaro|88/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743794257
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|move|p1a: Kyotaro|Earth Power|p2a: Hawlucha
+|-immune|p2a: Hawlucha
+|
+|-heal|p1a: Kyotaro|94/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|-message|UserBr forfeited.
+|
+|win|ToeNail Timmy
+|raw|UserBr's rating: 1126 &rarr; <strong>1102</strong><br />(-24 for losing)
+|raw|ToeNail Timmy's rating: 1139 &rarr; <strong>1163</strong><br />(+24 for winning)
+|l|☆UserBr
+|player|p1|
+|l|☆ToeNail Timmy
+|player|p2|

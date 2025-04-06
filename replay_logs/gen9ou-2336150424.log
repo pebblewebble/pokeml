@@ -1,0 +1,322 @@
+|j|☆berlious
+|j|☆the.ramen.gang
+|t:|1743883973
+|gametype|singles
+|player|p1|berlious|102|1147
+|player|p2|the.ramen.gang|170|1149
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Great Tusk|
+|poke|p1|Kyurem|
+|poke|p1|Moltres|
+|poke|p2|Scrafty, M|
+|poke|p2|Florges, F|
+|poke|p2|Houndstone, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Oricorio-Pom-Pom, M|
+|poke|p2|Clawitzer, F|
+|teampreview
+|
+|t:|1743883987
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Clawitzer|Clawitzer, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by berlious)
+|
+|t:|1743883997
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Clawitzer|Water Pulse|p1a: Ogerpon
+|-immune|p1a: Ogerpon|[from] ability: Water Absorb
+|
+|upkeep
+|turn|2
+|
+|t:|1743884005
+|switch|p2a: Oricorio|Oricorio-Pom-Pom, M|100/100
+|move|p1a: Ogerpon|Horn Leech|p2a: Oricorio
+|-resisted|p2a: Oricorio
+|-damage|p2a: Oricorio|67/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743884024
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Oricorio|Air Slash|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743884034
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|4
+|
+|t:|1743884044
+|move|p1a: Kyurem|Icicle Spear|p2a: Oricorio
+|-supereffective|p2a: Oricorio
+|-damage|p2a: Oricorio|21/100
+|-supereffective|p2a: Oricorio
+|-damage|p2a: Oricorio|0 fnt
+|faint|p2a: Oricorio
+|-hitcount|p2: Oricorio|2
+|
+|upkeep
+|
+|t:|1743884049
+|switch|p2a: Houndstone|Houndstone, M|100/100
+|turn|5
+|
+|t:|1743884060
+|move|p2a: Houndstone|Will-O-Wisp|p1a: Kyurem
+|-status|p1a: Kyurem|brn
+|move|p1a: Kyurem|Roar|p2a: Houndstone
+|drag|p2a: Scrafty|Scrafty, M|100/100
+|
+|-damage|p1a: Kyurem|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743884075
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: Scrafty|Drain Punch|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|81/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743884089
+|-terastallize|p2a: Scrafty|Poison
+|move|p1a: Iron Valiant|Moonblast|p2a: Scrafty
+|-resisted|p2a: Scrafty
+|-damage|p2a: Scrafty|82/100
+|move|p2a: Scrafty|Poison Jab|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|4/100
+|-status|p1a: Iron Valiant|psn
+|
+|-damage|p1a: Iron Valiant|0 fnt|[from] psn
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|upkeep
+|
+|t:|1743884111
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|8
+|
+|t:|1743884124
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Scrafty|[anim] Ivy Cudgel Water
+|-damage|p2a: Scrafty|7/100
+|move|p2a: Scrafty|Poison Jab|p1a: Ogerpon
+|-damage|p1a: Ogerpon|64/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743884136
+|move|p1a: Ogerpon|Horn Leech|p2a: Scrafty
+|-resisted|p2a: Scrafty
+|-crit|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|-heal|p1a: Ogerpon|67/100|[from] drain|[of] p2a: Scrafty
+|faint|p2a: Scrafty
+|
+|upkeep
+|
+|t:|1743884144
+|switch|p2a: Houndstone|Houndstone, M|100/100
+|turn|10
+|
+|t:|1743884149
+|move|p1a: Ogerpon|Knock Off|p2a: Houndstone
+|-supereffective|p2a: Houndstone
+|-damage|p2a: Houndstone|72/100
+|-damage|p1a: Ogerpon|50/100|[from] item: Rocky Helmet|[of] p2a: Houndstone
+|-enditem|p2a: Houndstone|Rocky Helmet|[from] move: Knock Off|[of] p1a: Ogerpon
+|move|p2a: Houndstone|Will-O-Wisp|p1a: Ogerpon|[miss]
+|-miss|p2a: Houndstone|p1a: Ogerpon
+|
+|upkeep
+|turn|11
+|
+|t:|1743884159
+|move|p1a: Ogerpon|U-turn|p2a: Houndstone
+|-resisted|p2a: Houndstone
+|-damage|p2a: Houndstone|68/100
+|
+|t:|1743884162
+|switch|p1a: Kingambit|Kingambit, F|100/100|[from] U-turn
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Houndstone|Will-O-Wisp|p1a: Kingambit
+|-status|p1a: Kingambit|brn
+|
+|-damage|p1a: Kingambit|94/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743884170
+|move|p2a: Houndstone|Body Press|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|14/100 brn
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Houndstone
+|-supereffective|p2a: Houndstone
+|-damage|p2a: Houndstone|46/100
+|
+|-damage|p1a: Kingambit|8/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743884184
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Houndstone|Body Press|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|89/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743884192
+|move|p1a: Moltres|Flamethrower|p2a: Houndstone
+|-damage|p2a: Houndstone|0 fnt
+|faint|p2a: Houndstone
+|
+|upkeep
+|
+|t:|1743884197
+|switch|p2a: Clawitzer|Clawitzer, F|100/100
+|turn|15
+|
+|t:|1743884208
+|switch|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water|50/100
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p2a: Clawitzer|Dragon Pulse|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743884225
+|switch|p1a: Kingambit|Kingambit, F|8/100 brn
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|16
+|
+|t:|1743884232
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-damage|p1a: Kingambit|2/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743884238
+|move|p2a: Rotom|Nasty Plot|p2a: Rotom
+|-boost|p2a: Rotom|spa|2
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Rotom
+|-damage|p2a: Rotom|65/100
+|
+|-damage|p1a: Kingambit|0 fnt|[from] brn
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|upkeep
+|
+|t:|1743884248
+|switch|p1a: Kyurem|Kyurem|94/100 brn
+|-ability|p1a: Kyurem|Pressure
+|turn|18
+|
+|t:|1743884256
+|move|p1a: Kyurem|Scale Shot|p2a: Rotom
+|-damage|p2a: Rotom|57/100
+|-damage|p2a: Rotom|51/100
+|-damage|p2a: Rotom|44/100
+|-damage|p2a: Rotom|37/100
+|-hitcount|p2a: Rotom|4
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Rotom|Hydro Pump|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|58/100 brn
+|
+|-damage|p1a: Kyurem|51/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1743884270
+|move|p1a: Kyurem|Icicle Spear|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|34/100
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|30/100
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|27/100
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|23/100
+|-hitcount|p2a: Rotom|4
+|move|p2a: Rotom|Hydro Pump|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|12/100 brn
+|
+|-damage|p1a: Kyurem|6/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1743884280
+|move|p1a: Kyurem|Scale Shot|p2a: Rotom|[miss]
+|-miss|p1a: Kyurem|p2a: Rotom
+|move|p2a: Rotom|Hydro Pump|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|t:|1743884284
+|switch|p1a: Moltres|Moltres|89/100
+|turn|21
+|
+|t:|1743884287
+|move|p1a: Moltres|Air Cutter|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|9/100
+|move|p2a: Rotom|Hydro Pump|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|win|the.ramen.gang
+|raw|berlious's rating: 1147 &rarr; <strong>1122</strong><br />(-25 for losing)
+|raw|the.ramen.gang's rating: 1149 &rarr; <strong>1174</strong><br />(+25 for winning)
+|l|☆berlious
+|player|p1|

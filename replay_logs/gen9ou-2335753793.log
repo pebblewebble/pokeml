@@ -1,0 +1,199 @@
+|j|☆Be happy every
+|j|☆ss_shedinja
+|t:|1743830608
+|gametype|singles
+|player|p1|Be happy every|n|1196
+|player|p2|ss_shedinja|barry|1153
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Primarina, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Great Tusk|
+|poke|p1|Tinkaton, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Dondozo, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Clodsire, M|
+|poke|p2|Quagsire, M|
+|poke|p2|Skeledirge, M|
+|poke|p2|Iron Thorns|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Be happy every)
+|
+|t:|1743830617
+|start
+|switch|p1a: Primarina|Primarina, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Primarina|atk|1
+|turn|1
+|
+|t:|1743830622
+|move|p2a: Landorus|U-turn|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|87/100
+|
+|t:|1743830629
+|switch|p2a: Iron Thorns|Iron Thorns|100/100|[from] U-turn
+|move|p1a: Primarina|Flip Turn|p2a: Iron Thorns
+|-supereffective|p2a: Iron Thorns
+|-damage|p2a: Iron Thorns|79/100
+|-enditem|p2a: Iron Thorns|Weakness Policy
+|-boost|p2a: Iron Thorns|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Iron Thorns|spa|2|[from] item: Weakness Policy
+|
+|t:|1743830638
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|2
+|
+|t:|1743830646
+|-terastallize|p2a: Iron Thorns|Grass
+|move|p1a: Great Tusk|Stealth Rock|p2a: Iron Thorns
+|-sidestart|p2: ss_shedinja|move: Stealth Rock
+|move|p2a: Iron Thorns|Dragon Dance|p2a: Iron Thorns
+|-boost|p2a: Iron Thorns|atk|1
+|-boost|p2a: Iron Thorns|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743830658
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-item|p1a: Tinkaton|Air Balloon
+|move|p2a: Iron Thorns|Ice Punch|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-crit|p1a: Tinkaton
+|-damage|p1a: Tinkaton|47/100
+|-enditem|p1a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|4
+|
+|t:|1743830672
+|move|p2a: Iron Thorns|Wild Charge|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|-damage|p2a: Iron Thorns|67/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743830677
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|5
+|
+|t:|1743830682
+|move|p1a: Dragapult|Dragon Darts|p2a: Iron Thorns
+|-damage|p2a: Iron Thorns|30/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Iron Thorns
+|-damage|p2a: Iron Thorns|0 fnt
+|faint|p2a: Iron Thorns
+|-end|p2a: Iron Thorns|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743830696
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|-damage|p2a: Quagsire|94/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1743830701
+|-terastallize|p1a: Dragapult|Dragon
+|move|p1a: Dragapult|Dragon Darts|p2a: Quagsire
+|-damage|p2a: Quagsire|63/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Quagsire
+|-damage|p2a: Quagsire|28/100
+|move|p2a: Quagsire|Toxic|p1a: Dragapult
+|-status|p1a: Dragapult|tox
+|
+|-damage|p1a: Dragapult|95/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743830710
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|78/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743830719
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Primarina|Primarina, M|87/100
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100
+|
+|-heal|p1a: Primarina|93/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743830738
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|-damage|p2a: Clodsire|94/100|[from] Stealth Rock
+|move|p1a: Primarina|Energy Ball|p2a: Clodsire
+|-damage|p2a: Clodsire|78/100
+|
+|-heal|p1a: Primarina|99/100|[from] item: Leftovers
+|-heal|p2a: Clodsire|84/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1743830745
+|move|p1a: Primarina|Flip Turn|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-crit|p2a: Clodsire
+|-damage|p2a: Clodsire|33/100
+|
+|t:|1743830750
+|switch|p1a: Dragapult|Dragapult, M, tera:Dragon|95/100 tox|[from] Flip Turn
+|move|p2a: Clodsire|Toxic|p1a: Dragapult
+|-fail|p1a: Dragapult|tox
+|
+|-heal|p2a: Clodsire|40/100|[from] item: Black Sludge
+|-damage|p1a: Dragapult|89/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743830759
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|-damage|p2a: Quagsire|94/100|[from] Stealth Rock
+|move|p1a: Dragapult|Dragon Darts|p2a: Quagsire
+|-damage|p2a: Quagsire|58/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Quagsire
+|-damage|p2a: Quagsire|23/100
+|
+|-damage|p1a: Dragapult|77/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743830768
+|move|p1a: Dragapult|Dragon Darts|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|-damage|p1a: Dragapult|59/100 tox|[from] psn
+|upkeep
+|-message|ss_shedinja forfeited.
+|
+|win|Be happy every
+|raw|Be happy every's rating: 1196 &rarr; <strong>1218</strong><br />(+22 for winning)
+|raw|ss_shedinja's rating: 1153 &rarr; <strong>1131</strong><br />(-22 for losing)
+|l|☆ss_shedinja
+|player|p2|

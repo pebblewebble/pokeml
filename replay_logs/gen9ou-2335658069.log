@@ -1,0 +1,277 @@
+|j|☆ProteinMan11
+|j|☆DiceyRice
+|t:|1743817847
+|gametype|singles
+|player|p1|ProteinMan11|hiker-gen4|1628
+|player|p2|DiceyRice|miku-psychic|1686
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Deoxys-Speed|
+|poke|p1|Iron Valiant|
+|poke|p1|Great Tusk|
+|poke|p1|Polteageist|
+|poke|p2|Comfey, M|
+|poke|p2|Whimsicott, M|
+|poke|p2|Iron Moth|
+|poke|p2|Walking Wake|
+|poke|p2|Great Tusk|
+|poke|p2|Ninetales, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ProteinMan11)
+|
+|t:|1743817867
+|start
+|switch|p1a: Darius|Iron Valiant|100/100
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-enditem|p1a: Darius|Booster Energy
+|-activate|p1a: Darius|ability: Quark Drive|[fromitem]
+|-start|p1a: Darius|quarkdrivespe
+|turn|1
+|
+|t:|1743817873
+|move|p1a: Darius|Spirit Break|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|26/100
+|-unboost|p2a: Walking Wake|spa|1
+|move|p2a: Walking Wake|Hydro Steam|p1a: Darius
+|-damage|p1a: Darius|54/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743817881
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Darius|Swords Dance|p1a: Darius
+|-boost|p1a: Darius|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743817888
+|switch|p2a: Whimsicott|Whimsicott, M|100/100
+|move|p1a: Darius|Close Combat|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|17/100
+|-unboost|p1a: Darius|def|1
+|-unboost|p1a: Darius|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743817898
+|move|p2a: Whimsicott|Giga Drain|p1a: Darius
+|-damage|p1a: Darius|0 fnt
+|-heal|p2a: Whimsicott|42/100|[from] drain|[of] p1a: Darius
+|faint|p1a: Darius
+|-end|p1a: Darius|Quark Drive|[silent]
+|-damage|p2a: Whimsicott|32/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743817915
+|switch|p1a: Michael|Dragonite, M|100/100
+|turn|5
+|
+|t:|1743817919
+|-terastallize|p2a: Whimsicott|Ghost
+|move|p2a: Whimsicott|Moonblast|p1a: Michael
+|-supereffective|p1a: Michael
+|-damage|p1a: Michael|60/100
+|-unboost|p1a: Michael|spa|1
+|-enditem|p1a: Michael|Weakness Policy
+|-boost|p1a: Michael|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Michael|spa|2|[from] item: Weakness Policy
+|-damage|p2a: Whimsicott|22/100|[from] item: Life Orb
+|move|p1a: Michael|Dragon Dance|p1a: Michael
+|-boost|p1a: Michael|atk|1
+|-boost|p1a: Michael|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743817926
+|-terastallize|p1a: Michael|Normal
+|move|p2a: Whimsicott|Moonblast|p1a: Michael
+|-damage|p1a: Michael|19/100
+|-damage|p2a: Whimsicott|12/100|[from] item: Life Orb
+|move|p1a: Michael|Earthquake|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743817928
+|switch|p2a: Comfey|Comfey, M|100/100
+|turn|7
+|
+|t:|1743817932
+|move|p2a: Comfey|Draining Kiss|p1a: Michael
+|-damage|p1a: Michael|0 fnt
+|faint|p1a: Michael
+|-damage|p2a: Comfey|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743817939
+|switch|p1a: This-a-way|Deoxys-Speed, shiny|100/100
+|-ability|p1a: This-a-way|Pressure
+|turn|8
+|
+|t:|1743817941
+|move|p1a: This-a-way|Cosmic Power|p1a: This-a-way
+|-boost|p1a: This-a-way|def|1
+|-boost|p1a: This-a-way|spd|1
+|move|p2a: Comfey|Growth|p2a: Comfey
+|-boost|p2a: Comfey|atk|2
+|-boost|p2a: Comfey|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743817947
+|move|p1a: This-a-way|Cosmic Power|p1a: This-a-way
+|-boost|p1a: This-a-way|def|1
+|-boost|p1a: This-a-way|spd|1
+|move|p2a: Comfey|Growth|p2a: Comfey
+|-boost|p2a: Comfey|atk|2
+|-boost|p2a: Comfey|spa|2
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1743817955
+|move|p2a: Comfey|Draining Kiss|p1a: This-a-way
+|-damage|p1a: This-a-way|53/100
+|-heal|p2a: Comfey|100/100|[from] drain|[of] p1a: This-a-way
+|-damage|p2a: Comfey|91/100|[from] item: Life Orb
+|move|p1a: This-a-way|Stored Power|p2a: Comfey
+|-damage|p2a: Comfey|46/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743817958
+|move|p2a: Comfey|Draining Kiss|p1a: This-a-way
+|-damage|p1a: This-a-way|3/100
+|-heal|p2a: Comfey|83/100|[from] drain|[of] p1a: This-a-way
+|-damage|p2a: Comfey|74/100|[from] item: Life Orb
+|move|p1a: This-a-way|Recover|p1a: This-a-way
+|-heal|p1a: This-a-way|53/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743817961
+|move|p2a: Comfey|Draining Kiss|p1a: This-a-way
+|-damage|p1a: This-a-way|3/100
+|-heal|p2a: Comfey|100/100|[from] drain|[of] p1a: This-a-way
+|-damage|p2a: Comfey|91/100|[from] item: Life Orb
+|move|p1a: This-a-way|Recover|p1a: This-a-way
+|-heal|p1a: This-a-way|53/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743817965
+|move|p2a: Comfey|Draining Kiss|p1a: This-a-way
+|-damage|p1a: This-a-way|2/100
+|-heal|p2a: Comfey|100/100|[from] drain|[of] p1a: This-a-way
+|-damage|p2a: Comfey|91/100|[from] item: Life Orb
+|move|p1a: This-a-way|Recover|p1a: This-a-way
+|-heal|p1a: This-a-way|52/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743817967
+|move|p2a: Comfey|Draining Kiss|p1a: This-a-way
+|-crit|p1a: This-a-way
+|-damage|p1a: This-a-way|0 fnt
+|-heal|p2a: Comfey|100/100|[from] drain|[of] p1a: This-a-way
+|faint|p1a: This-a-way
+|-damage|p2a: Comfey|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743817974
+|switch|p1a: WAAAAATER|Polteageist|100/100
+|turn|15
+|
+|t:|1743817980
+|move|p1a: WAAAAATER|Shadow Ball|p2a: Comfey
+|-damage|p2a: Comfey|43/100
+|move|p2a: Comfey|Stored Power|p1a: WAAAAATER
+|-enditem|p1a: WAAAAATER|Focus Sash
+|-damage|p1a: WAAAAATER|1/100
+|-damage|p2a: Comfey|34/100|[from] item: Life Orb
+|
+|upkeep
+|turn|16
+|
+|t:|1743817985
+|move|p2a: Comfey|Draining Kiss|p1a: WAAAAATER
+|-damage|p1a: WAAAAATER|0 fnt
+|-heal|p2a: Comfey|34/100|[from] drain|[of] p1a: WAAAAATER
+|faint|p1a: WAAAAATER
+|-damage|p2a: Comfey|24/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743817992
+|switch|p1a: Donald Trump|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Donald Trump
+|turn|17
+|
+|t:|1743817993
+|move|p2a: Comfey|Draining Kiss|p1a: Donald Trump
+|-damage|p1a: Donald Trump|0 fnt
+|-heal|p2a: Comfey|95/100|[from] drain|[of] p1a: Donald Trump
+|faint|p1a: Donald Trump
+|-damage|p2a: Comfey|85/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743817996
+|switch|p1a: Great Bust|Great Tusk|100/100
+|turn|18
+|
+|t:|1743818000
+|move|p2a: Comfey|Draining Kiss|p1a: Great Bust
+|-supereffective|p1a: Great Bust
+|-damage|p1a: Great Bust|0 fnt
+|-heal|p2a: Comfey|100/100|[from] drain|[of] p1a: Great Bust
+|faint|p1a: Great Bust
+|-end|p1a: Great Bust|Protosynthesis|[silent]
+|-damage|p2a: Comfey|91/100|[from] item: Life Orb
+|
+|win|DiceyRice
+|raw|ProteinMan11's rating: 1628 &rarr; <strong>1611</strong><br />(-17 for losing)
+|raw|DiceyRice's rating: 1686 &rarr; <strong>1703</strong><br />(+17 for winning)
+|l|☆ProteinMan11
+|player|p1|
+|l|☆DiceyRice
+|player|p2|

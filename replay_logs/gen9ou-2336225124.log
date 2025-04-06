@@ -1,0 +1,576 @@
+|j|☆XYZ15
+|j|☆LITLE0
+|t:|1743891732
+|gametype|singles
+|player|p1|XYZ15|lucas|1356
+|player|p2|LITLE0|unknown|1334
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Glimmora, M|
+|poke|p1|Tinkaton, F|
+|poke|p1|Meowscarada, M|
+|poke|p1|Polteageist|
+|poke|p2|Rillaboom, M|
+|poke|p2|Drifblim, F|
+|poke|p2|Iron Treads|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Moltres|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|t:|1743891742
+|start
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|1
+|
+|t:|1743891753
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Meowscarada|U-turn|p2a: Moltres
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|95/100
+|
+|t:|1743891759
+|switch|p1a: Glimmora|Glimmora, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1743891767
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Glimmora|Earth Power|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|70/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743891777
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|move|p2a: Slowking|Future Sight|p1a: Meowscarada
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|4
+|
+|t:|1743891783
+|switch|p2a: Moltres|Moltres|95/100
+|move|p1a: Meowscarada|Knock Off|p2a: Moltres
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Moltres|66/100
+|-status|p1a: Meowscarada|brn|[from] ability: Flame Body|[of] p2a: Moltres
+|-enditem|p2a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Meowscarada
+|
+|-damage|p1a: Meowscarada|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743891793
+|move|p1a: Meowscarada|U-turn|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|64/100
+|
+|t:|1743891797
+|switch|p1a: Glimmora|Glimmora, M|100/100|[from] U-turn
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|100/100
+|-singleturn|p2a: Moltres|move: Roost
+|
+|-end|p1a: Glimmora|move: Future Sight
+|-supereffective|p1a: Glimmora
+|-enditem|p1a: Glimmora|Focus Sash
+|-damage|p1a: Glimmora|1/100
+|upkeep
+|turn|6
+|
+|t:|1743891804
+|move|p1a: Glimmora|Stealth Rock|p2a: Moltres
+|-sidestart|p2: LITLE0|move: Stealth Rock
+|move|p2a: Moltres|U-turn|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: LITLE0|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|t:|1743891810
+|switch|p2a: Slowking|Slowking-Galar, M|100/100|[from] U-turn
+|-sideend|p2: LITLE0|move: Toxic Spikes|[of] p2a: Slowking
+|
+|upkeep
+|
+|t:|1743891816
+|switch|p1a: Polteageist|Polteageist|100/100
+|turn|7
+|
+|t:|1743891824
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|move|p2a: Slowking|Hex|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|45/100
+|-enditem|p1a: Polteageist|Weakness Policy
+|-boost|p1a: Polteageist|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Polteageist|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|8
+|
+|t:|1743891836
+|switch|p2a: Moltres|Moltres|100/100
+|-damage|p2a: Moltres|51/100|[from] Stealth Rock
+|move|p1a: Polteageist|Shadow Ball|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|upkeep
+|
+|t:|1743891838
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-damage|p2a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|9
+|
+|t:|1743891844
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|move|p2a: Rillaboom|Grassy Glide|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|76/100
+|
+|-heal|p2a: Rillaboom|94/100|[from] Grassy Terrain
+|-heal|p1a: Raging Bolt|82/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1743891850
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Slowking
+|-damage|p2a: Slowking|54/100
+|-unboost|p1a: Raging Bolt|spa|2
+|-enditem|p1a: Raging Bolt|Eject Pack
+|
+|t:|1743891856
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Polteageist|Polteageist|45/100
+|
+|-heal|p1a: Polteageist|51/100|[from] Grassy Terrain
+|-heal|p2a: Slowking|60/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1743891865
+|move|p1a: Polteageist|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|6/100
+|-unboost|p2a: Slowking|spd|1
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743891872
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] Chilly Reception
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Iron Treads|100/100|[from] Grassy Terrain
+|-heal|p1a: Polteageist|58/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1743891888
+|move|p2a: Iron Treads|Knock Off|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743891899
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|-item|p1a: Tinkaton|Air Balloon
+|turn|13
+|
+|t:|1743891905
+|move|p2a: Iron Treads|Rapid Spin|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|90/100
+|-boost|p2a: Iron Treads|spe|1
+|-enditem|p1a: Tinkaton|Air Balloon
+|-sideend|p2: LITLE0|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Tinkaton|Encore|p2a: Iron Treads
+|-start|p2a: Iron Treads|Encore
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Tinkaton|96/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1743891915
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Slowking|Slowking-Galar, M|39/100
+|move|p1a: Tinkaton|Swords Dance|p1a: Tinkaton
+|-boost|p1a: Tinkaton|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743891922
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-crit|p2a: Iron Treads
+|-damage|p2a: Iron Treads|24/100
+|
+|-weather|none
+|upkeep
+|turn|16
+|
+|t:|1743891930
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Iron Treads|Earthquake|p1a: Pelipper
+|-immune|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743891944
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Rillaboom|Rillaboom, M|94/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Pelipper|U-turn|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|76/100
+|
+|t:|1743891950
+|switch|p1a: Raging Bolt|Raging Bolt|82/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|82/100|[from] Grassy Terrain
+|-heal|p1a: Raging Bolt|89/100|[from] Grassy Terrain
+|upkeep
+|turn|18
+|
+|t:|1743891953
+|move|p2a: Rillaboom|U-turn|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|58/100
+|
+|t:|1743891956
+|switch|p2a: Slowking|Slowking-Galar, M|73/100|[from] U-turn
+|move|p1a: Raging Bolt|Thunder|p2a: Slowking
+|-damage|p2a: Slowking|37/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Raging Bolt|65/100|[from] Grassy Terrain
+|-heal|p2a: Slowking|43/100|[from] Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1743891964
+|switch|p2a: Iron Treads|Iron Treads|24/100
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|-unboost|p1a: Raging Bolt|spa|2
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Raging Bolt|71/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743891970
+|switch|p2a: Drifblim|Drifblim, F|100/100
+|-enditem|p2a: Drifblim|Grassy Seed
+|-boost|p2a: Drifblim|def|1|[from] item: Grassy Seed
+|turn|20
+|
+|t:|1743891977
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Tinkaton|Tinkaton, F|96/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Drifblim|Calm Mind|p2a: Drifblim
+|-boost|p2a: Drifblim|spa|1
+|-boost|p2a: Drifblim|spd|1
+|
+|-weather|none
+|-heal|p1a: Tinkaton|100/100|[from] Grassy Terrain
+|upkeep
+|turn|21
+|
+|t:|1743891986
+|move|p2a: Drifblim|Will-O-Wisp|p1a: Tinkaton
+|-status|p1a: Tinkaton|brn
+|move|p1a: Tinkaton|Encore|p2a: Drifblim
+|-start|p2a: Drifblim|Encore
+|
+|-damage|p1a: Tinkaton|94/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|22
+|
+|t:|1743891994
+|move|p2a: Drifblim|Will-O-Wisp|p1a: Tinkaton
+|-fail|p1a: Tinkaton|brn
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Drifblim
+|-damage|p2a: Drifblim|83/100
+|
+|-damage|p1a: Tinkaton|88/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1743892010
+|move|p2a: Drifblim|Will-O-Wisp|p1a: Tinkaton
+|-fail|p1a: Tinkaton|brn
+|move|p1a: Tinkaton|Swords Dance|p1a: Tinkaton
+|-boost|p1a: Tinkaton|atk|2
+|
+|-damage|p1a: Tinkaton|82/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1743892017
+|move|p2a: Drifblim|Will-O-Wisp|p1a: Tinkaton
+|-fail|p1a: Tinkaton|brn
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Drifblim
+|-damage|p2a: Drifblim|52/100
+|
+|-damage|p1a: Tinkaton|76/100 brn|[from] brn
+|-end|p2a: Drifblim|Encore
+|upkeep
+|turn|25
+|
+|t:|1743892022
+|move|p2a: Drifblim|Strength Sap|p1a: Tinkaton
+|-unboost|p1a: Tinkaton|atk|1
+|-heal|p2a: Drifblim|100/100
+|move|p1a: Tinkaton|Encore|p2a: Drifblim
+|-start|p2a: Drifblim|Encore
+|
+|-damage|p1a: Tinkaton|70/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1743892027
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Drifblim|Strength Sap|p1a: Pelipper
+|-unboost|p1a: Pelipper|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1743892030
+|move|p2a: Drifblim|Strength Sap|p1a: Pelipper
+|-unboost|p1a: Pelipper|atk|1
+|move|p1a: Pelipper|U-turn|p2a: Drifblim
+|-resisted|p2a: Drifblim
+|-damage|p2a: Drifblim|99/100
+|
+|t:|1743892033
+|switch|p1a: Raging Bolt|Raging Bolt|71/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1743892036
+|-terastallize|p2a: Drifblim|Fairy
+|move|p2a: Drifblim|Strength Sap|p1a: Raging Bolt
+|-unboost|p1a: Raging Bolt|atk|1
+|-heal|p2a: Drifblim|100/100
+|move|p1a: Raging Bolt|Thunder|p2a: Drifblim
+|-damage|p2a: Drifblim|53/100
+|
+|-weather|RainDance|[upkeep]
+|-end|p2a: Drifblim|Encore
+|upkeep
+|turn|29
+|
+|t:|1743892048
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|move|p2a: Drifblim|Calm Mind|p2a: Drifblim
+|-boost|p2a: Drifblim|spa|1
+|-boost|p2a: Drifblim|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|30
+|
+|t:|1743892054
+|move|p2a: Drifblim|Hex|p1a: Pelipper
+|-damage|p1a: Pelipper|47/100
+|move|p1a: Pelipper|Hurricane|p2a: Drifblim
+|-damage|p2a: Drifblim|32/100
+|-start|p2a: Drifblim|confusion
+|
+|-weather|none
+|upkeep
+|turn|31
+|
+|t:|1743892058
+|switch|p1a: Tinkaton|Tinkaton, F|70/100 brn
+|-ability|p1a: Tinkaton|Mold Breaker
+|-activate|p2a: Drifblim|confusion
+|move|p2a: Drifblim|Hex|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|upkeep
+|
+|t:|1743892071
+|switch|p1a: Meowscarada|Meowscarada, M|94/100 brn
+|turn|32
+|
+|t:|1743892077
+|-terastallize|p1a: Meowscarada|Grass
+|-activate|p2a: Drifblim|confusion
+|move|p2a: Drifblim|Strength Sap|p1a: Meowscarada
+|-unboost|p1a: Meowscarada|atk|1
+|-heal|p2a: Drifblim|95/100
+|move|p1a: Meowscarada|Flower Trick|p2a: Drifblim
+|-crit|p2a: Drifblim
+|-damage|p2a: Drifblim|67/100
+|
+|-damage|p1a: Meowscarada|88/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1743892088
+|-activate|p2a: Drifblim|confusion
+|move|p2a: Drifblim|Hex|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|upkeep
+|
+|t:|1743892092
+|switch|p1a: Pelipper|Pelipper, F|47/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|34
+|
+|t:|1743892095
+|-end|p2a: Drifblim|confusion
+|move|p2a: Drifblim|Hex|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743892100
+|switch|p1a: Raging Bolt|Raging Bolt|71/100
+|turn|35
+|
+|t:|1743892104
+|move|p2a: Drifblim|Calm Mind|p2a: Drifblim
+|-boost|p2a: Drifblim|spa|1
+|-boost|p2a: Drifblim|spd|1
+|move|p1a: Raging Bolt|Thunder|p2a: Drifblim
+|-damage|p2a: Drifblim|39/100
+|-status|p2a: Drifblim|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|36
+|
+|t:|1743892115
+|move|p2a: Drifblim|Strength Sap|p1a: Raging Bolt
+|-unboost|p1a: Raging Bolt|atk|1
+|-heal|p2a: Drifblim|69/100 par
+|move|p1a: Raging Bolt|Thunder|p2a: Drifblim
+|-damage|p2a: Drifblim|38/100 par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|37
+|
+|t:|1743892119
+|cant|p2a: Drifblim|par
+|move|p1a: Raging Bolt|Thunder|p2a: Drifblim
+|-damage|p2a: Drifblim|8/100 par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|38
+|
+|t:|1743892125
+|move|p2a: Drifblim|Hex|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|28/100
+|move|p1a: Raging Bolt|Thunder|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|
+|-weather|none
+|upkeep
+|
+|t:|1743892130
+|switch|p2a: Slowking|Slowking-Galar, M|76/100
+|turn|39
+|
+|t:|1743892136
+|move|p1a: Raging Bolt|Thunder|p2a: Slowking|[miss]
+|-miss|p1a: Raging Bolt|p2a: Slowking
+|move|p2a: Slowking|Future Sight|p1a: Raging Bolt
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|40
+|
+|t:|1743892140
+|move|p1a: Raging Bolt|Thunder|p2a: Slowking|[miss]
+|-miss|p1a: Raging Bolt|p2a: Slowking
+|move|p2a: Slowking|Hex|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|15/100
+|
+|upkeep
+|turn|41
+|
+|t:|1743892143
+|move|p1a: Raging Bolt|Thunder|p2a: Slowking
+|-damage|p2a: Slowking|40/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743892146
+|switch|p2a: Rillaboom|Rillaboom, M|82/100|[from] Chilly Reception
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Raging Bolt|move: Future Sight
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|LITLE0
+|raw|XYZ15's rating: 1356 &rarr; <strong>1335</strong><br />(-21 for losing)
+|raw|LITLE0's rating: 1334 &rarr; <strong>1355</strong><br />(+21 for winning)
+|l|☆LITLE0
+|player|p2|

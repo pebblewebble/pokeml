@@ -1,0 +1,414 @@
+|j|☆Dojaxsza
+|j|☆srbawa
+|t:|1743890100
+|gametype|singles
+|player|p1|Dojaxsza|266|1268
+|player|p2|srbawa|burglar|1256
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Clefable, F|
+|poke|p1|Morpeko, F|
+|poke|p1|Skeledirge, F|
+|poke|p1|Medicham, F|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Decidueye, F|
+|poke|p2|Great Tusk|
+|poke|p2|Amoonguss, F|
+|poke|p2|Alomomola, F|
+|poke|p2|Blissey, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Skeledirge, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by srbawa)
+|
+|t:|1743890115
+|start
+|switch|p1a: Medicham|Medicham, F|100/100
+|switch|p2a: Trichterbecker|Great Tusk|100/100
+|turn|1
+|
+|t:|1743890129
+|move|p1a: Medicham|Psycho Cut|p2a: Trichterbecker
+|-supereffective|p2a: Trichterbecker
+|-damage|p2a: Trichterbecker|53/100
+|move|p2a: Trichterbecker|Knock Off|p1a: Medicham
+|-damage|p1a: Medicham|57/100
+|-enditem|p1a: Medicham|Choice Scarf|[from] move: Knock Off|[of] p2a: Trichterbecker
+|
+|-heal|p2a: Trichterbecker|60/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743890147
+|move|p1a: Medicham|Trick|p2a: Trichterbecker
+|-activate|p1a: Medicham|move: Trick|[of] p2a: Trichterbecker
+|-enditem|p2a: Trichterbecker|Leftovers|[silent]|[from] move: Trick
+|-item|p1a: Medicham|Leftovers|[from] move: Trick
+|move|p2a: Trichterbecker|Earthquake|p1a: Medicham
+|-damage|p1a: Medicham|0 fnt
+|faint|p1a: Medicham
+|
+|upkeep
+|
+|t:|1743890153
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|3
+|
+|t:|1743890163
+|-end|p2a: Trichterbecker|Protosynthesis|[silent]
+|switch|p2a: Cuca|Skeledirge, F|100/100
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Dojaxsza|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743890173
+|switch|p1a: Decidueye|Decidueye, F|100/100
+|move|p2a: Cuca|Roar|p1a: Decidueye
+|drag|p1a: Clefable|Clefable, F|100/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743890182
+|move|p1a: Clefable|Stealth Rock|p2a: Cuca
+|-sidestart|p2: srbawa|move: Stealth Rock
+|move|p2a: Cuca|Roar|p1a: Clefable
+|drag|p1a: Morpeko|Morpeko, F|100/100
+|
+|-weather|Snowscape|[upkeep]
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|6
+|
+|t:|1743890194
+|move|p1a: Morpeko|Knock Off|p2a: Cuca
+|-supereffective|p2a: Cuca
+|-damage|p2a: Cuca|38/100
+|-enditem|p2a: Cuca|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Morpeko
+|move|p2a: Cuca|Will-O-Wisp|p1a: Morpeko
+|-status|p1a: Morpeko|brn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Morpeko|94/100 brn|[from] brn
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|7
+|
+|t:|1743890202
+|move|p1a: Morpeko|Parting Shot|p2a: Cuca
+|-unboost|p2a: Cuca|atk|1
+|-unboost|p2a: Cuca|spa|1
+|
+|t:|1743890206
+|switch|p1a: Decidueye|Decidueye, F|100/100|[from] Parting Shot
+|move|p2a: Cuca|Will-O-Wisp|p1a: Decidueye|[miss]
+|-miss|p2a: Cuca|p1a: Decidueye
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1743890223
+|-terastallize|p2a: Cuca|Dark
+|move|p1a: Decidueye|Spirit Shackle|p2a: Cuca
+|-resisted|p2a: Cuca
+|-damage|p2a: Cuca|21/100
+|-activate|p2a: Cuca|trapped
+|move|p2a: Cuca|Will-O-Wisp|p1a: Decidueye
+|-status|p1a: Decidueye|brn
+|
+|-damage|p1a: Decidueye|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743890234
+|move|p1a: Decidueye|Swords Dance|p1a: Decidueye
+|-boost|p1a: Decidueye|atk|2
+|move|p2a: Cuca|Slack Off|p2a: Cuca
+|-heal|p2a: Cuca|71/100
+|
+|-damage|p1a: Decidueye|88/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743890242
+|move|p1a: Decidueye|Leaf Blade|p2a: Cuca
+|-damage|p2a: Cuca|54/100
+|move|p2a: Cuca|Roar|p1a: Decidueye
+|drag|p1a: Morpeko|Morpeko, F|94/100 brn
+|
+|-damage|p1a: Morpeko|88/100 brn|[from] brn
+|-sideend|p1: Dojaxsza|move: Aurora Veil
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|11
+|
+|t:|1743890253
+|move|p1a: Morpeko|Parting Shot|p2a: Cuca
+|-unboost|p2a: Cuca|atk|1
+|-unboost|p2a: Cuca|spa|1
+|
+|t:|1743890257
+|switch|p1a: Clefable|Clefable, F|100/100|[from] Parting Shot
+|move|p2a: Cuca|Slack Off|p2a: Cuca
+|-heal|p2a: Cuca|100/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743890267
+|move|p1a: Clefable|Thunder Wave|p2a: Cuca
+|-status|p2a: Cuca|par
+|move|p2a: Cuca|Roar|p1a: Clefable
+|drag|p1a: Skeledirge|Skeledirge, F|100/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743890281
+|switch|p2a: Carmilla|Slowking-Galar, F, shiny|100/100
+|move|p1a: Skeledirge|Torch Song|p2a: Carmilla
+|-damage|p2a: Carmilla|83/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|upkeep
+|turn|14
+|
+|t:|1743890289
+|move|p1a: Skeledirge|Shadow Ball|p2a: Carmilla
+|-supereffective|p2a: Carmilla
+|-damage|p2a: Carmilla|36/100
+|move|p2a: Carmilla|Toxic|p1a: Skeledirge
+|-status|p1a: Skeledirge|tox
+|
+|-damage|p1a: Skeledirge|94/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743890301
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Skeledirge|Torch Song|p2a: Blissey
+|-damage|p2a: Blissey|87/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|-heal|p1a: Skeledirge|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Skeledirge|88/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743890315
+|switch|p1a: Morpeko|Morpeko, F|88/100 brn
+|move|p2a: Blissey|Heal Bell|p2a: Blissey
+|-activate|p2a: Blissey|move: Heal Bell
+|-curestatus|p2: Cuca|par|[msg]
+|
+|-damage|p1a: Morpeko|82/100 brn|[from] brn
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|17
+|
+|t:|1743890327
+|switch|p2a: Trichterbecker|Great Tusk|60/100
+|-damage|p2a: Trichterbecker|57/100|[from] Stealth Rock
+|move|p1a: Morpeko|Knock Off|p2a: Trichterbecker
+|-resisted|p2a: Trichterbecker
+|-damage|p2a: Trichterbecker|53/100
+|
+|-damage|p1a: Morpeko|76/100 brn|[from] brn
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|18
+|
+|t:|1743890346
+|move|p1a: Morpeko|Parting Shot|p2a: Trichterbecker
+|-unboost|p2a: Trichterbecker|atk|1
+|-unboost|p2a: Trichterbecker|spa|1
+|
+|t:|1743890367
+|switch|p1a: Clefable|Clefable, F|100/100|[from] Parting Shot
+|move|p2a: Trichterbecker|Stealth Rock|p1a: Clefable
+|-sidestart|p1: Dojaxsza|move: Stealth Rock
+|
+|upkeep
+|turn|19
+|
+|t:|1743890386
+|-end|p2a: Trichterbecker|Protosynthesis|[silent]
+|switch|p2a: Carmilla|Slowking-Galar, F, shiny|69/100
+|move|p1a: Clefable|Moonblast|p2a: Carmilla
+|-resisted|p2a: Carmilla
+|-damage|p2a: Carmilla|56/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743890394
+|move|p1a: Clefable|Thunder Wave|p2a: Carmilla
+|-status|p2a: Carmilla|par
+|move|p2a: Carmilla|Future Sight|p1a: Clefable
+|-start|p2a: Carmilla|move: Future Sight
+|
+|upkeep
+|turn|21
+|
+|t:|1743890405
+|switch|p1a: Morpeko|Morpeko, F|76/100 brn
+|move|p2a: Carmilla|Toxic||[still]
+|-fail|p2a: Carmilla
+|
+|-damage|p1a: Morpeko|69/100 brn|[from] brn
+|-formechange|p1a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|22
+|
+|t:|1743890415
+|switch|p2a: Trichterbecker|Great Tusk|53/100
+|-damage|p2a: Trichterbecker|50/100|[from] Stealth Rock
+|move|p1a: Morpeko|Rapid Spin|p2a: Trichterbecker
+|-damage|p2a: Trichterbecker|47/100
+|-boost|p1a: Morpeko|spe|1
+|-sideend|p1: Dojaxsza|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Morpeko
+|
+|-end|p1a: Morpeko|move: Future Sight
+|-immune|p1a: Morpeko
+|-damage|p1a: Morpeko|63/100 brn|[from] brn
+|-formechange|p1a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|23
+|
+|t:|1743890431
+|move|p1a: Morpeko|Parting Shot|p2a: Trichterbecker
+|-unboost|p2a: Trichterbecker|atk|1
+|-unboost|p2a: Trichterbecker|spa|1
+|
+|t:|1743890437
+|switch|p1a: Decidueye|Decidueye, F|88/100 brn|[from] Parting Shot
+|move|p2a: Trichterbecker|Rapid Spin|p1a: Decidueye
+|-immune|p1a: Decidueye
+|
+|-damage|p1a: Decidueye|82/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1743890453
+|-end|p2a: Trichterbecker|Protosynthesis|[silent]
+|switch|p2a: Trans Rights|Amoonguss, F|100/100
+|-damage|p2a: Trans Rights|88/100|[from] Stealth Rock
+|move|p1a: Decidueye|Leaf Blade|p2a: Trans Rights
+|-resisted|p2a: Trans Rights
+|-damage|p2a: Trans Rights|84/100
+|-damage|p1a: Decidueye|66/100 brn|[from] item: Rocky Helmet|[of] p2a: Trans Rights
+|
+|-damage|p1a: Decidueye|60/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1743890469
+|move|p1a: Decidueye|Swords Dance|p1a: Decidueye
+|-boost|p1a: Decidueye|atk|2
+|move|p2a: Trans Rights|Hex|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|14/100 brn
+|
+|-damage|p1a: Decidueye|8/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1743890483
+|move|p1a: Decidueye|Spirit Shackle|p2a: Trans Rights
+|-damage|p2a: Trans Rights|51/100
+|-activate|p2a: Trans Rights|trapped
+|move|p2a: Trans Rights|Hex|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|0 fnt
+|faint|p1a: Decidueye
+|
+|upkeep
+|
+|t:|1743890492
+|switch|p1a: Skeledirge|Skeledirge, F|88/100 tox
+|turn|27
+|
+|t:|1743890500
+|switch|p2a: Copas|Alomomola, F|100/100
+|-damage|p2a: Copas|88/100|[from] Stealth Rock
+|move|p1a: Skeledirge|Torch Song|p2a: Copas
+|-resisted|p2a: Copas
+|-damage|p2a: Copas|71/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|-heal|p1a: Skeledirge|94/100 tox|[from] item: Leftovers
+|-heal|p2a: Copas|77/100|[from] item: Leftovers
+|-damage|p1a: Skeledirge|88/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1743890527
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Copas|Flip Turn|p1a: Clefable
+|-damage|p1a: Clefable|84/100
+|
+|t:|1743890537
+|switch|p2a: Trans Rights|Amoonguss, F|84/100|[from] Flip Turn
+|-damage|p2a: Trans Rights|72/100|[from] Stealth Rock
+|
+|upkeep
+|turn|29
+|
+|t:|1743890548
+|move|p1a: Clefable|Thunder Wave|p2a: Trans Rights
+|-status|p2a: Trans Rights|par
+|move|p2a: Trans Rights|Sludge Bomb|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|47/100
+|
+|upkeep
+|turn|30
+|
+|t:|1743890559
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|97/100
+|move|p2a: Trans Rights|Sludge Bomb|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|63/100
+|-status|p1a: Clefable|psn
+|
+|upkeep
+|turn|31
+|inactive|Dojaxsza has 120 seconds left.
+|
+|t:|1743890602
+|switch|p1a: Skeledirge|Skeledirge, F|88/100 tox
+|switch|p2a: Blissey|Blissey, F|87/100
+|
+|-heal|p1a: Skeledirge|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Skeledirge|88/100 tox|[from] psn
+|upkeep
+|turn|32
+|-message|Dojaxsza forfeited.
+|
+|win|srbawa
+|raw|Dojaxsza's rating: 1268 &rarr; <strong>1242</strong><br />(-26 for losing)
+|raw|srbawa's rating: 1256 &rarr; <strong>1282</strong><br />(+26 for winning)
+|l|☆Dojaxsza
+|player|p1|
+|l|☆srbawa
+|player|p2|
+|j|☆srbawa
+|player|p2|srbawa|burglar|

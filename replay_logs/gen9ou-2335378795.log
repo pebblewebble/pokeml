@@ -1,0 +1,535 @@
+|j|☆murrrh
+|j|☆jojosworld
+|t:|1743789202
+|gametype|singles
+|player|p1|murrrh|worker|1375
+|player|p2|jojosworld|bellelba|1377
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Clodsire, F|
+|poke|p1|Kingdra, M|
+|poke|p1|Corviknight, F|
+|poke|p1|Tornadus-Therian, M|
+|poke|p2|Latios, M|
+|poke|p2|Clefable, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Alomomola, M|
+|poke|p2|Cacturne, F|
+|poke|p2|Galvantula, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jojosworld)
+|
+|t:|1743789214
+|start
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Galvantula|Galvantula, F, shiny|100/100
+|turn|1
+|
+|t:|1743789221
+|switch|p2a: Alomomola|Alomomola, M, shiny|100/100
+|move|p1a: Tornadus|Taunt|p2a: Alomomola
+|-start|p2a: Alomomola|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1743789227
+|move|p1a: Tornadus|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|93/100
+|
+|t:|1743789230
+|switch|p1a: Clodsire|Clodsire, F|100/100|[from] U-turn
+|move|p2a: Alomomola|Flip Turn|p1a: Clodsire
+|-immune|p1a: Clodsire|[from] ability: Water Absorb
+|
+|upkeep
+|turn|3
+|
+|t:|1743789237
+|switch|p2a: Clefable|Clefable, F, shiny|100/100
+|move|p1a: Clodsire|Toxic|p2a: Clefable
+|-status|p2a: Clefable|tox
+|
+|-damage|p2a: Clefable|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743789243
+|move|p2a: Clefable|Stealth Rock|p1a: Clodsire
+|-sidestart|p1: murrrh|move: Stealth Rock
+|move|p1a: Clodsire|Stealth Rock|p2a: Clefable
+|-sidestart|p2: jojosworld|move: Stealth Rock
+|
+|-heal|p2a: Clefable|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Clefable|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743789249
+|move|p2a: Clefable|Knock Off|p1a: Clodsire
+|-damage|p1a: Clodsire|83/100
+|-enditem|p1a: Clodsire|Leftovers|[from] move: Knock Off|[of] p2a: Clefable
+|move|p1a: Clodsire|Earthquake|p2a: Clefable
+|-damage|p2a: Clefable|66/100 tox
+|
+|-heal|p2a: Clefable|72/100 tox|[from] item: Leftovers
+|-damage|p2a: Clefable|54/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743789258
+|switch|p2a: Corviknight|Corviknight, F, shiny|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Clodsire|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|upkeep
+|turn|7
+|
+|t:|1743789268
+|move|p2a: Corviknight|Brave Bird|p1a: Clodsire
+|-damage|p1a: Clodsire|41/100
+|-damage|p2a: Corviknight|72/100|[from] Recoil
+|move|p1a: Clodsire|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|upkeep
+|turn|8
+|
+|t:|1743789275
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|move|p2a: Corviknight|Defog|p1a: Corviknight
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Corviknight|evasion|1
+|-sideend|p1: murrrh|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: jojosworld|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|9
+|
+|t:|1743789286
+|move|p2a: Corviknight|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|86/100
+|-damage|p2a: Corviknight|56/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|t:|1743789287
+|switch|p2a: Alomomola|Alomomola, M, shiny|100/100|[from] U-turn
+|move|p1a: Corviknight|U-turn|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|90/100
+|
+|t:|1743789296
+|switch|p1a: Clodsire|Clodsire, F|41/100|[from] U-turn
+|
+|upkeep
+|turn|10
+|
+|t:|1743789301
+|switch|p2a: Latios|Latios, M, shiny|100/100
+|move|p1a: Clodsire|Stealth Rock|p2a: Latios
+|-sidestart|p2: jojosworld|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|t:|1743789309
+|move|p2a: Latios|Luster Purge|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|upkeep
+|
+|t:|1743789316
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|12
+|
+|t:|1743789321
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: Latios|Luster Purge|p1a: Tornadus
+|-damage|p1a: Tornadus|13/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743789332
+|switch|p2a: Alomomola|Alomomola, M, shiny|100/100
+|move|p1a: Tornadus|Taunt|p2a: Alomomola
+|-start|p2a: Alomomola|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743789338
+|move|p1a: Tornadus|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|93/100
+|
+|t:|1743789342
+|switch|p1a: Corviknight|Corviknight, F|86/100|[from] U-turn
+|move|p2a: Alomomola|Flip Turn|p1a: Corviknight
+|-damage|p1a: Corviknight|72/100
+|-damage|p2a: Alomomola|77/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|t:|1743789348
+|switch|p2a: Corviknight|Corviknight, F, shiny|56/100|[from] Flip Turn
+|-damage|p2a: Corviknight|44/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743789355
+|move|p2a: Corviknight|Defog|p1a: Corviknight
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Corviknight|evasion|1
+|-sideend|p2: jojosworld|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743789382
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|94/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Corviknight|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|90/100
+|-damage|p1a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|t:|1743789389
+|switch|p1a: Kingdra|Kingdra, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743789397
+|switch|p2a: Alomomola|Alomomola, M, shiny|100/100
+|move|p1a: Kingdra|Weather Ball|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|40/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743789404
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Kingdra|Weather Ball|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743789407
+|switch|p2a: Cacturne|Cacturne, F, shiny|100/100
+|move|p1a: Kingdra|Weather Ball|p2a: Cacturne
+|-immune|p2a: Cacturne|[from] ability: Water Absorb
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|t:|1743789415
+|switch|p1a: Corviknight|Corviknight, F|84/100
+|move|p2a: Cacturne|Bullet Seed|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|82/100
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|80/100
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|78/100
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|77/100
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|75/100
+|-hitcount|p1a: Corviknight|5
+|
+|upkeep
+|turn|21
+|
+|t:|1743789427
+|switch|p2a: Alomomola|Alomomola, M, shiny|73/100
+|move|p1a: Corviknight|Body Press|p2a: Alomomola
+|-damage|p2a: Alomomola|59/100
+|
+|upkeep
+|turn|22
+|
+|t:|1743789434
+|move|p1a: Corviknight|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|51/100
+|
+|t:|1743789437
+|switch|p1a: Pelipper|Pelipper, M|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Alomomola|Flip Turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|91/100
+|
+|t:|1743789442
+|switch|p2a: Latios|Latios, M, shiny|100/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1743789451
+|switch|p1a: Tornadus|Tornadus-Therian, M|47/100
+|move|p2a: Latios|Draco Meteor|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|-unboost|p2a: Latios|spa|2
+|faint|p1a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743789458
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|turn|24
+|
+|t:|1743789463
+|switch|p2a: Corviknight|Corviknight, F, shiny|90/100
+|-ability|p2a: Corviknight|Pressure
+|-terastallize|p1a: Kingdra|Steel
+|move|p1a: Kingdra|Weather Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743789465
+|switch|p2a: Cacturne|Cacturne, F, shiny|100/100
+|turn|25
+|
+|t:|1743789475
+|switch|p1a: Corviknight|Corviknight, F|75/100
+|switch|p2a: Alomomola|Alomomola, M, shiny|85/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1743789481
+|move|p1a: Corviknight|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|76/100
+|
+|t:|1743789485
+|switch|p1a: Kingdra|Kingdra, M, tera:Steel|100/100|[from] U-turn
+|move|p2a: Alomomola|Flip Turn|p1a: Kingdra
+|-damage|p1a: Kingdra|73/100
+|
+|t:|1743789492
+|switch|p2a: Galvantula|Galvantula, F, shiny|100/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1743789498
+|move|p1a: Kingdra|Weather Ball|p2a: Galvantula
+|-enditem|p2a: Galvantula|Focus Sash
+|-damage|p2a: Galvantula|1/100
+|move|p2a: Galvantula|Thunder|p1a: Kingdra
+|-damage|p1a: Kingdra|17/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1743789507
+|switch|p2a: Cacturne|Cacturne, F, shiny|100/100
+|move|p1a: Kingdra|Weather Ball|p2a: Cacturne
+|-immune|p2a: Cacturne|[from] ability: Water Absorb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|29
+|
+|t:|1743789514
+|switch|p2a: Alomomola|Alomomola, M, shiny|100/100
+|move|p1a: Kingdra|Weather Ball|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|39/100
+|
+|-weather|none
+|upkeep
+|turn|30
+|
+|t:|1743789521
+|switch|p1a: Corviknight|Corviknight, F|75/100
+|move|p2a: Alomomola|Flip Turn|p1a: Corviknight
+|-damage|p1a: Corviknight|64/100
+|-damage|p2a: Alomomola|22/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|t:|1743789524
+|switch|p2a: Galvantula|Galvantula, F, shiny|1/100|[from] Flip Turn
+|
+|upkeep
+|turn|31
+|
+|t:|1743789532
+|move|p2a: Galvantula|Thunder|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1743789535
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|turn|32
+|
+|t:|1743789539
+|switch|p2a: Alomomola|Alomomola, M, shiny|55/100
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|43/100
+|
+|upkeep
+|turn|33
+|
+|t:|1743789546
+|switch|p1a: Pelipper|Pelipper, M|91/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Alomomola|Flip Turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|83/100
+|
+|t:|1743789556
+|switch|p2a: Latios|Latios, M, shiny|100/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|34
+|
+|t:|1743789562
+|move|p2a: Latios|Draco Meteor|p1a: Pelipper|[miss]
+|-miss|p2a: Latios|p1a: Pelipper
+|move|p1a: Pelipper|U-turn|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|76/100
+|
+|t:|1743789568
+|switch|p1a: Kingdra|Kingdra, M, tera:Steel|17/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|35
+|
+|t:|1743789573
+|switch|p2a: Clefable|Clefable, F, shiny|54/100 tox
+|move|p1a: Kingdra|Draco Meteor|p2a: Clefable
+|-immune|p2a: Clefable
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Clefable|60/100 tox|[from] item: Leftovers
+|-damage|p2a: Clefable|54/100 tox|[from] psn
+|upkeep
+|turn|36
+|
+|t:|1743789577
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100
+|move|p2a: Clefable|Stealth Rock|p1a: Crawdaunt
+|-sidestart|p1: murrrh|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Clefable|60/100 tox|[from] item: Leftovers
+|-damage|p2a: Clefable|48/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1743789585
+|switch|p2a: Cacturne|Cacturne, F, shiny|100/100
+|move|p1a: Crawdaunt|Knock Off|p2a: Cacturne
+|-resisted|p2a: Cacturne
+|-damage|p2a: Cacturne|17/100
+|-enditem|p2a: Cacturne|Loaded Dice|[from] move: Knock Off|[of] p1a: Crawdaunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|38
+|
+|t:|1743789593
+|move|p2a: Cacturne|Bullet Seed|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|69/100
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|40/100
+|-hitcount|p1a: Crawdaunt|2
+|move|p1a: Crawdaunt|Knock Off|p2a: Cacturne
+|-resisted|p2a: Cacturne
+|-damage|p2a: Cacturne|0 fnt
+|faint|p2a: Cacturne
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743789603
+|switch|p2a: Clefable|Clefable, F, shiny|48/100 tox
+|turn|39
+|
+|t:|1743789606
+|move|p2a: Clefable|Moonblast|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Clefable|54/100 tox|[from] item: Leftovers
+|-damage|p2a: Clefable|48/100 tox|[from] psn
+|upkeep
+|
+|t:|1743789610
+|switch|p1a: Kingdra|Kingdra, M, tera:Steel|17/100
+|-damage|p1a: Kingdra|11/100|[from] Stealth Rock
+|turn|40
+|
+|t:|1743789614
+|move|p1a: Kingdra|Draco Meteor|p2a: Clefable
+|-immune|p2a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Kingdra
+|-resisted|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|
+|-weather|none
+|-heal|p2a: Clefable|54/100 tox|[from] item: Leftovers
+|-damage|p2a: Clefable|42/100 tox|[from] psn
+|upkeep
+|-message|murrrh forfeited.
+|
+|win|jojosworld
+|raw|murrrh's rating: 1375 &rarr; <strong>1355</strong><br />(-20 for losing)
+|raw|jojosworld's rating: 1377 &rarr; <strong>1397</strong><br />(+20 for winning)
+|l|☆murrrh
+|player|p1|
+|l|☆jojosworld
+|player|p2|

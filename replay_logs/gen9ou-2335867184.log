@@ -1,0 +1,333 @@
+|j|☆ouvt zie
+|j|☆dmac99
+|t:|1743850864
+|gametype|singles
+|player|p1|ouvt zie|265|1573
+|player|p2|dmac99|veteran|1501
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Moth|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Kingambit, M|
+|poke|p2|Zapdos|
+|poke|p2|Volcanion|
+|poke|p2|Dragapult, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Great Tusk|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ouvt zie)
+|
+|t:|1743850894
+|start
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|1
+|
+|t:|1743850920
+|move|p2a: Dragapult|Dragon Darts|p1a: Araquanid
+|-damage|p1a: Araquanid|68/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Araquanid
+|-damage|p1a: Araquanid|36/100
+|move|p1a: Araquanid|Sticky Web|p2a: Dragapult
+|-sidestart|p2: dmac99|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743850926
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|84/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|67/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743850936
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Zapdos
+|-damage|p2a: Zapdos|61/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743850954
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|move|p2a: Zapdos|Hurricane|p1a: Iron Moth
+|-damage|p1a: Iron Moth|50/100
+|
+|upkeep
+|turn|5
+|inactive|dmac99 has 120 seconds left.
+|
+|t:|1743850991
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|-activate|p2a: Goodra|move: Sticky Web
+|-unboost|p2a: Goodra|spe|1
+|move|p1a: Iron Moth|Fiery Dance|p2a: Goodra
+|-damage|p2a: Goodra|79/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743851016
+|move|p1a: Iron Moth|Fiery Dance|p2a: Goodra
+|-damage|p2a: Goodra|58/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Goodra|Dragon Tail|p1a: Iron Moth
+|-damage|p1a: Iron Moth|15/100
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|drag|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|
+|upkeep
+|turn|7
+|
+|t:|1743851030
+|switch|p2a: Zapdos|Zapdos|61/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|upkeep
+|turn|8
+|
+|t:|1743851038
+|move|p1a: Great Tusk|Head Smash|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-damage|p1a: Great Tusk|69/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743851041
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|9
+|
+|t:|1743851047
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Great Tusk|Rapid Spin|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|10
+|
+|t:|1743851053
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Goodra|Goodra-Hisui, M|58/100
+|-activate|p2a: Goodra|move: Sticky Web
+|-unboost|p2a: Goodra|spe|1
+|move|p1a: Gholdengo|Shadow Ball|p2a: Goodra
+|-damage|p2a: Goodra|41/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743851060
+|switch|p1a: Araquanid|Araquanid, F|36/100
+|move|p2a: Goodra|Flamethrower|p1a: Araquanid
+|-damage|p1a: Araquanid|27/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743851077
+|switch|p2a: Volcanion|Volcanion|100/100
+|-activate|p2a: Volcanion|move: Sticky Web
+|-unboost|p2a: Volcanion|spe|1
+|move|p1a: Araquanid|Liquidation|p2a: Volcanion
+|-immune|p2a: Volcanion|[from] ability: Water Absorb
+|
+|upkeep
+|turn|13
+|
+|t:|1743851085
+|move|p2a: Volcanion|Steam Eruption|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1743851101
+|switch|p1a: Great Tusk|Great Tusk|69/100
+|turn|14
+|
+|t:|1743851111
+|move|p1a: Great Tusk|Headlong Rush|p2a: Volcanion
+|-supereffective|p2a: Volcanion
+|-damage|p2a: Volcanion|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Volcanion
+|
+|upkeep
+|
+|t:|1743851113
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|15
+|
+|t:|1743851131
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Great Tusk|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|38/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|16
+|
+|t:|1743851141
+|move|p1a: Gholdengo|Dazzling Gleam|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743851147
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-activate|p2a: Dragapult|move: Sticky Web
+|-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
+|turn|17
+|
+|t:|1743851152
+|move|p2a: Dragapult|Dragon Darts|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|18/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743851159
+|switch|p1a: Kingambit|Kingambit, M|67/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|turn|18
+|
+|t:|1743851173
+|switch|p2a: Goodra|Goodra-Hisui, M|41/100
+|-activate|p2a: Goodra|move: Sticky Web
+|-unboost|p2a: Goodra|spe|1
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|upkeep
+|
+|t:|1743851176
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-activate|p2a: Indeedee|move: Sticky Web
+|-unboost|p2a: Indeedee|spe|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|19
+|
+|t:|1743851205
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Iron Moth|Iron Moth|15/100
+|move|p2a: Indeedee|Trick|p1a: Iron Moth
+|-activate|p2a: Indeedee|move: Trick|[of] p1a: Iron Moth
+|-item|p1a: Iron Moth|Choice Scarf|[from] move: Trick
+|-enditem|p2a: Indeedee|Choice Scarf|[silent]|[from] move: Trick
+|
+|upkeep
+|turn|20
+|
+|t:|1743851213
+|move|p1a: Iron Moth|Sludge Wave|p2a: Indeedee
+|-damage|p2a: Indeedee|31/100
+|-status|p2a: Indeedee|psn
+|move|p2a: Indeedee|Expanding Force|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-damage|p2a: Indeedee|19/100 psn|[from] psn
+|upkeep
+|
+|t:|1743851216
+|switch|p1a: Great Tusk|Great Tusk|69/100
+|turn|21
+|
+|t:|1743851219
+|move|p1a: Great Tusk|Rapid Spin|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-boost|p1a: Great Tusk|spe|1
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1743851221
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-activate|p2a: Dragapult|move: Sticky Web
+|-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
+|turn|22
+|
+|t:|1743851231
+|-terastallize|p2a: Dragapult|Dragon
+|move|p1a: Great Tusk|Ice Spinner|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|27/100
+|-fieldend|move: Psychic Terrain
+|move|p2a: Dragapult|Dragon Darts|p1a: Great Tusk
+|-damage|p1a: Great Tusk|35/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743851233
+|switch|p1a: Kingambit|Kingambit, M|67/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|23
+|
+|t:|1743851235
+|move|p1a: Kingambit|Sucker Punch|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|win|ouvt zie
+|raw|ouvt zie's rating: 1573 &rarr; <strong>1589</strong><br />(+16 for winning)
+|raw|dmac99's rating: 1501 &rarr; <strong>1485</strong><br />(-16 for losing)
+|l|☆dmac99
+|player|p2|
+|l|☆ouvt zie
+|player|p1|

@@ -1,0 +1,323 @@
+|j|☆T-Garchomp
+|j|☆Kis Vegallomas
+|t:|1743843916
+|gametype|singles
+|player|p1|T-Garchomp|unknown|1253
+|player|p2|Kis Vegallomas|265|1432
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Moth|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Kingambit, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Donphan, M|
+|poke|p2|Frosmoth, M|
+|poke|p2|Klefki, F|
+|poke|p2|Polteageist-Antique|
+|poke|p2|Cinderace, M|
+|teampreview
+|
+|t:|1743843924
+|start
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Donphan|Donphan, M|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|1
+|
+|t:|1743843931
+|move|p2a: Donphan|Ice Shard|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|93/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1743843951
+|-terastallize|p1a: Gholdengo|Fairy
+|move|p1a: Gholdengo|Dazzling Gleam|p2a: Donphan
+|-ability|p2a: Donphan|Sturdy
+|-damage|p2a: Donphan|1/100
+|move|p2a: Donphan|Earthquake|p1a: Gholdengo
+|-damage|p1a: Gholdengo|30/100
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kis Vegallomas)
+|-enditem|p2a: Donphan|Custap Berry|[eat]
+|-activate|p2a: Donphan|item: Custap Berry|[consumed]
+|
+|t:|1743843986
+|move|p2a: Donphan|Earthquake|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743843999
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|4
+|
+|t:|1743844009
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|upkeep
+|turn|5
+|
+|t:|1743844027
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Mandibuzz|Foul Play|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|52/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743844037
+|move|p1a: Kingambit|Tera Blast|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|90/100
+|move|p2a: Mandibuzz|Foul Play|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|3/100
+|
+|-heal|p2a: Mandibuzz|96/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743844043
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Mandibuzz
+|-resisted|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|65/100
+|move|p2a: Mandibuzz|Foul Play|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|
+|-heal|p2a: Mandibuzz|71/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743844053
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|8
+|
+|t:|1743844060
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|move|p2a: Mandibuzz|Toxic|p1a: Raging Bolt
+|-status|p1a: Raging Bolt|tox
+|
+|-heal|p2a: Mandibuzz|77/100|[from] item: Leftovers
+|-damage|p1a: Raging Bolt|94/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743844070
+|switch|p2a: Donphan|Donphan, M|1/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-damage|p1a: Raging Bolt|82/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743844074
+|switch|p2a: Klefki|Klefki, F|100/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Klefki
+|-immune|p2a: Klefki
+|
+|-damage|p1a: Raging Bolt|64/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743844085
+|move|p2a: Klefki|Light Screen|p2a: Klefki
+|-sidestart|p2: Kis Vegallomas|move: Light Screen
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Klefki
+|-damage|p2a: Klefki|16/100
+|
+|-damage|p1a: Raging Bolt|39/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743844098
+|move|p2a: Klefki|Reflect|p2a: Klefki
+|-sidestart|p2: Kis Vegallomas|Reflect
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Klefki
+|-immune|p2a: Klefki
+|
+|-damage|p1a: Raging Bolt|8/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1743844101
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|-damage|p1a: Raging Bolt|0 fnt|[from] psn
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1743844110
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|switch|p2a: Frosmoth|Frosmoth, M|100/100
+|turn|14
+|
+|t:|1743844120
+|-terastallize|p2a: Frosmoth|Water
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|move|p1a: Araquanid|Mirror Coat||[still]
+|-fail|p1a: Araquanid
+|
+|upkeep
+|turn|15
+|
+|t:|1743844131
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|move|p1a: Araquanid|Sticky Web|p2a: Frosmoth
+|-sidestart|p2: Kis Vegallomas|move: Sticky Web
+|
+|upkeep
+|turn|16
+|
+|t:|1743844140
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|move|p1a: Araquanid|Lunge|p2a: Frosmoth
+|-damage|p2a: Frosmoth|80/100
+|-unboost|p2a: Frosmoth|atk|1
+|
+|upkeep
+|turn|17
+|
+|t:|1743844150
+|move|p2a: Frosmoth|Giga Drain|p1a: Araquanid
+|-damage|p1a: Araquanid|51/100
+|-heal|p2a: Frosmoth|100/100|[from] drain|[of] p1a: Araquanid
+|move|p1a: Araquanid|Mirror Coat|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|faint|p2a: Frosmoth
+|
+|upkeep
+|
+|t:|1743844159
+|switch|p2a: Polteageist|Polteageist-Antique, shiny|100/100
+|-activate|p2a: Polteageist|move: Sticky Web
+|-unboost|p2a: Polteageist|spe|1
+|turn|18
+|
+|t:|1743844173
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|move|p1a: Araquanid|Mirror Coat||[still]
+|-fail|p1a: Araquanid
+|
+|-sideend|p2: Kis Vegallomas|move: Light Screen
+|upkeep
+|turn|19
+|
+|t:|1743844178
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|move|p1a: Araquanid|Liquidation|p2a: Polteageist
+|-damage|p2a: Polteageist|20/100
+|-unboost|p2a: Polteageist|def|1
+|-ability|p2a: Polteageist|Weak Armor|boost
+|-unboost|p2a: Polteageist|def|1
+|-boost|p2a: Polteageist|spe|2
+|
+|-sideend|p2: Kis Vegallomas|Reflect
+|upkeep
+|turn|20
+|
+|t:|1743844187
+|move|p2a: Polteageist|Stored Power|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1743844198
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|21
+|
+|t:|1743844208
+|move|p2a: Polteageist|Stored Power|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743844212
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|22
+|c|☆T-Garchomp|gg
+|
+|t:|1743844223
+|move|p2a: Polteageist|Stored Power|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|win|Kis Vegallomas
+|raw|T-Garchomp's rating: 1253 &rarr; <strong>1240</strong><br />(-13 for losing)
+|raw|Kis Vegallomas's rating: 1432 &rarr; <strong>1443</strong><br />(+11 for winning)
+|l|☆T-Garchomp
+|player|p1|
+|l|☆Kis Vegallomas
+|player|p2|
+|j|☆Kis Vegallomas
+|player|p2|Kis Vegallomas|265|

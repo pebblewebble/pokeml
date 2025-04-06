@@ -1,0 +1,390 @@
+|j|☆deathprofessor21
+|j|☆delz123
+|t:|1743784206
+|gametype|singles
+|player|p1|deathprofessor21|170|1375
+|player|p2|delz123|169|1358
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Lokix, M|
+|poke|p1|Scizor, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Alomomola, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Ursaluna, M|
+|poke|p2|Magnezone|
+|poke|p2|Pawmot, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Hydrapple, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Gastrodon, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by deathprofessor21)
+|
+|t:|1743784224
+|start
+|switch|p1a: Scizor|Scizor, F|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|t:|1743784239
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|84/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743784245
+|move|p2a: Cinderace|U-turn|p1a: Alomomola
+|-damage|p1a: Alomomola|72/100
+|
+|t:|1743784247
+|switch|p2a: Gastrodon|Gastrodon, M, shiny|100/100|[from] U-turn
+|move|p1a: Alomomola|Flip Turn|p2a: Gastrodon
+|-ability|p2a: Gastrodon|Storm Drain|boost
+|-boost|p2a: Gastrodon|spa|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743784253
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Gastrodon|Sand Tomb|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|80/100
+|-activate|p1a: Slowking|move: Sand Tomb|[of] p2a: Gastrodon
+|
+|-damage|p1a: Slowking|68/100|[from] move: Sand Tomb|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1743784263
+|move|p2a: Gastrodon|Sand Tomb|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|49/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743784274
+|switch|p1a: Ursaluna|Ursaluna, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1743784281
+|move|p1a: Ursaluna|Facade|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1743784288
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|6
+|
+|t:|1743784292
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Cinderace|High Jump Kick|p1a: Alomomola
+|-damage|p1a: Alomomola|78/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743784299
+|move|p2a: Cinderace|U-turn|p1a: Alomomola
+|-damage|p1a: Alomomola|65/100
+|
+|t:|1743784303
+|switch|p2a: BeefBuns|Pawmot, M, shiny|100/100|[from] U-turn
+|move|p1a: Alomomola|Flip Turn|p2a: BeefBuns
+|-damage|p2a: BeefBuns|78/100
+|
+|t:|1743784333
+|switch|p1a: Raging Bolt|Raging Bolt|100/100|[from] Flip Turn
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743784346
+|move|p2a: BeefBuns|Ice Punch|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|58/100
+|move|p1a: Raging Bolt|Weather Ball|p2a: BeefBuns
+|-damage|p2a: BeefBuns|0 fnt
+|faint|p2a: BeefBuns
+|
+|-weather|none
+|upkeep
+|
+|t:|1743784363
+|switch|p2a: Catnip|Meowscarada, F, shiny|100/100
+|turn|9
+|
+|t:|1743784368
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Scizor|Scizor, F|100/100
+|move|p2a: Catnip|Knock Off|p1a: Scizor
+|-start|p2a: Catnip|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Scizor|53/100
+|-enditem|p1a: Scizor|Life Orb|[from] move: Knock Off|[of] p2a: Catnip
+|
+|upkeep
+|turn|10
+|
+|t:|1743784379
+|switch|p2a: T-Rapper|Magnezone, shiny|100/100
+|move|p1a: Scizor|Close Combat|p2a: T-Rapper
+|-supereffective|p2a: T-Rapper
+|-damage|p2a: T-Rapper|13/100
+|-unboost|p1a: Scizor|def|1
+|-unboost|p1a: Scizor|spd|1
+|
+|upkeep
+|turn|11
+|
+|t:|1743784392
+|switch|p2a: Quintatta|Hydrapple, F, shiny|100/100
+|move|p1a: Scizor|Bullet Punch|p2a: Quintatta
+|-damage|p2a: Quintatta|81/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743784400
+|switch|p1a: Slowking|Slowking-Galar, F|82/100
+|move|p2a: Quintatta|Earth Power|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|48/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743784412
+|move|p2a: Quintatta|Earth Power|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|16/100
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|upkeep
+|turn|14
+|
+|t:|1743784431
+|move|p2a: Quintatta|Fickle Beam|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1743784440
+|switch|p1a: Ursaluna|Ursaluna, M|94/100 brn
+|turn|15
+|
+|t:|1743784445
+|move|p2a: Quintatta|Giga Drain|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|36/100 brn
+|-heal|p2a: Quintatta|100/100|[from] drain|[of] p1a: Ursaluna
+|move|p1a: Ursaluna|Facade|p2a: Quintatta
+|-damage|p2a: Quintatta|29/100
+|
+|-damage|p1a: Ursaluna|30/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743784461
+|switch|p1a: Lokix|Lokix, M|100/100
+|move|p2a: Quintatta|Fickle Beam|p1a: Lokix
+|-damage|p1a: Lokix|37/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743784467
+|switch|p2a: T-Rapper|Magnezone, shiny|13/100
+|move|p1a: Lokix|First Impression|p2a: T-Rapper
+|-resisted|p2a: T-Rapper
+|-damage|p2a: T-Rapper|0 fnt
+|faint|p2a: T-Rapper
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743784480
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|18
+|
+|t:|1743784487
+|switch|p1a: Alomomola|Alomomola, M|98/100
+|move|p2a: Cinderace|U-turn|p1a: Alomomola
+|-damage|p1a: Alomomola|86/100
+|
+|t:|1743784491
+|switch|p2a: Quintatta|Hydrapple, F, shiny|62/100|[from] U-turn
+|
+|upkeep
+|turn|19
+|
+|t:|1743784501
+|move|p1a: Alomomola|Ice Beam|p2a: Quintatta
+|-supereffective|p2a: Quintatta
+|-damage|p2a: Quintatta|27/100
+|move|p2a: Quintatta|Hydro Pump|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|67/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743784512
+|switch|p1a: Scizor|Scizor, F|53/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743784519
+|move|p2a: Cinderace|Pyro Ball|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1743784522
+|switch|p1a: Raging Bolt|Raging Bolt|58/100
+|turn|22
+|
+|t:|1743784536
+|move|p2a: Cinderace|High Jump Kick|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|26/100
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-unboost|p1a: Raging Bolt|spa|2
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1743784544
+|switch|p2a: Quintatta|Hydrapple, F, shiny|61/100
+|turn|23
+|
+|t:|1743784559
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Ursaluna|Ursaluna, M|30/100 brn
+|move|p2a: Quintatta|Fickle Beam|p1a: Ursaluna
+|-damage|p1a: Ursaluna|2/100 brn
+|
+|-damage|p1a: Ursaluna|0 fnt|[from] brn
+|faint|p1a: Ursaluna
+|upkeep
+|
+|t:|1743784562
+|switch|p1a: Lokix|Lokix, M|37/100
+|turn|24
+|
+|t:|1743784571
+|-terastallize|p1a: Lokix|Bug
+|-terastallize|p2a: Quintatta|Steel
+|move|p1a: Lokix|U-turn|p2a: Quintatta
+|-resisted|p2a: Quintatta
+|-damage|p2a: Quintatta|36/100
+|
+|t:|1743784582
+|switch|p1a: Alomomola|Alomomola, M|100/100|[from] U-turn
+|move|p2a: Quintatta|Fickle Beam|p1a: Alomomola
+|-damage|p1a: Alomomola|63/100
+|
+|upkeep
+|turn|25
+|
+|t:|1743784587
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Quintatta|Giga Drain|p1a: Alomomola
+|-supereffective|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|-heal|p2a: Quintatta|77/100|[from] drain|[of] p1a: Alomomola
+|faint|p1a: Alomomola
+|
+|upkeep
+|
+|t:|1743784610
+|switch|p1a: Lokix|Lokix, M, tera:Bug|37/100
+|turn|26
+|
+|t:|1743784613
+|move|p1a: Lokix|Axe Kick|p2a: Quintatta
+|-supereffective|p2a: Quintatta
+|-damage|p2a: Quintatta|38/100
+|move|p2a: Quintatta|Fickle Beam|p1a: Lokix
+|-damage|p1a: Lokix|0 fnt
+|faint|p1a: Lokix
+|
+|upkeep
+|
+|t:|1743784616
+|switch|p1a: Raging Bolt|Raging Bolt|26/100
+|turn|27
+|
+|t:|1743784626
+|switch|p2a: Catnip|Meowscarada, F, shiny|100/100
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|upkeep
+|turn|28
+|
+|t:|1743784633
+|move|p1a: Raging Bolt|Thunderclap|p2a: Catnip
+|-resisted|p2a: Catnip
+|-damage|p2a: Catnip|49/100
+|move|p2a: Catnip|Play Rough|p1a: Raging Bolt|[miss]
+|-start|p2a: Catnip|typechange|Fairy|[from] ability: Protean
+|-miss|p2a: Catnip|p1a: Raging Bolt
+|
+|upkeep
+|turn|29
+|
+|t:|1743784640
+|switch|p2a: Quintatta|Hydrapple, F, shiny, tera:Steel|71/100
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|upkeep
+|turn|30
+|
+|t:|1743784647
+|move|p1a: Raging Bolt|Thunderclap|p2a: Quintatta
+|-damage|p2a: Quintatta|27/100
+|move|p2a: Quintatta|Fickle Beam|p1a: Raging Bolt|[anim] Fickle Beam All Out
+|-activate|p2a: Quintatta|move: Fickle Beam
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|delz123
+|raw|deathprofessor21's rating: 1375 &rarr; <strong>1354</strong><br />(-21 for losing)
+|raw|delz123's rating: 1358 &rarr; <strong>1379</strong><br />(+21 for winning)
+|l|☆delz123
+|player|p2|

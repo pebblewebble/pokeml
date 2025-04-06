@@ -1,0 +1,263 @@
+|j|☆guesyo
+|j|☆impotent wretch
+|t:|1743934421
+|gametype|singles
+|player|p1|guesyo|unknownf|1612
+|player|p2|impotent wretch|2|1591
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, F|
+|poke|p1|Zapdos|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Cinderace, M|
+|poke|p2|Tinkaton, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Gliscor, M|
+|poke|p2|Kommo-o, M|
+|teampreview
+|
+|t:|1743934444
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by impotent wretch)
+|
+|t:|1743934449
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Zapdos|Roost||[still]
+|-fail|p1a: Zapdos|heal
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743934456
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Gliscor|Knock Off|p1a: Ogerpon
+|-damage|p1a: Ogerpon|81/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743934464
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Kommo-o|[anim] Ivy Cudgel Water
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|72/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743934473
+|move|p1a: Ogerpon|U-turn|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-crit|p2a: Kommo-o
+|-damage|p2a: Kommo-o|52/100
+|
+|t:|1743934476
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|move|p2a: Kommo-o|Drain Punch|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|93/100
+|-heal|p2a: Kommo-o|58/100|[from] drain|[of] p1a: Slowking
+|
+|upkeep
+|turn|5
+|
+|t:|1743934486
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-item|p2a: Tinkaton|Air Balloon
+|move|p1a: Slowking|Ice Beam|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|87/100
+|-status|p2a: Tinkaton|frz
+|-enditem|p2a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|6
+|
+|t:|1743934498
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743934504
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Rotom
+|-damage|p2a: Rotom|86/100
+|-boost|p1a: Great Tusk|spe|1
+|-damage|p1a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p2a: Rotom
+|
+|upkeep
+|turn|8
+|
+|t:|1743934512
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Slowking
+|-status|p1a: Slowking|brn
+|
+|-damage|p1a: Slowking|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743934520
+|move|p2a: Rotom|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|82/100 brn
+|
+|t:|1743934524
+|switch|p2a: Tinkaton|Tinkaton, F|87/100 frz|[from] Volt Switch
+|move|p1a: Slowking|Psyshock|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|66/100 frz
+|
+|-damage|p1a: Slowking|76/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743934531
+|cant|p2a: Tinkaton|frz
+|move|p1a: Slowking|Flamethrower|p2a: Tinkaton
+|-supereffective|p2a: Tinkaton
+|-damage|p2a: Tinkaton|10/100 frz
+|-curestatus|p2a: Tinkaton|frz|[msg]
+|
+|-damage|p1a: Slowking|70/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743934559
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|82/100
+|
+|upkeep
+|turn|12
+|inactive|impotent wretch has 120 seconds left.
+|
+|t:|1743934582
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Zapdos|Volt Switch|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|upkeep
+|turn|13
+|
+|t:|1743934594
+|switch|p1a: Great Tusk|Great Tusk, shiny|84/100
+|move|p2a: Gliscor|Toxic|p1a: Great Tusk
+|-status|p1a: Great Tusk|tox
+|
+|-damage|p1a: Great Tusk|78/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743934601
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Great Tusk|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: impotent wretch|move: Stealth Rock
+|
+|-damage|p1a: Great Tusk|65/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743934612
+|switch|p2a: Rotom|Rotom-Wash|86/100
+|-damage|p2a: Rotom|73/100|[from] Stealth Rock
+|move|p1a: Great Tusk|Ice Spinner|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|61/100
+|-damage|p1a: Great Tusk|49/100 tox|[from] item: Rocky Helmet|[of] p2a: Rotom
+|
+|-damage|p1a: Great Tusk|30/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743934620
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Slowking|Slowking-Galar, F|100/100 brn
+|move|p2a: Rotom|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|88/100 brn
+|
+|t:|1743934640
+|switch|p2a: Tinkaton|Tinkaton, F|10/100|[from] Volt Switch
+|-damage|p2a: Tinkaton|3/100|[from] Stealth Rock
+|
+|-damage|p1a: Slowking|82/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743934654
+|switch|p1a: Zapdos|Zapdos|82/100
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|67/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743934659
+|move|p2a: Tinkaton|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: guesyo|move: Stealth Rock
+|move|p1a: Zapdos|Hurricane|p2a: Tinkaton|[miss]
+|-miss|p1a: Zapdos|p2a: Tinkaton
+|
+|upkeep
+|turn|19
+|
+|t:|1743934667
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|49/100
+|move|p1a: Zapdos|Hurricane|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|
+|upkeep
+|
+|t:|1743934685
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-damage|p2a: Deoxys|88/100|[from] Stealth Rock
+|-ability|p2a: Deoxys|Pressure
+|turn|20
+|
+|t:|1743934696
+|move|p2a: Deoxys|Knock Off|p1a: Zapdos
+|-damage|p1a: Zapdos|26/100
+|-enditem|p1a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Deoxys
+|-damage|p2a: Deoxys|78/100|[from] item: Life Orb
+|move|p1a: Zapdos|Thunder Wave|p2a: Deoxys
+|-status|p2a: Deoxys|par
+|
+|upkeep
+|turn|21
+|-message|impotent wretch forfeited.
+|
+|win|guesyo
+|raw|guesyo's rating: 1612 &rarr; <strong>1631</strong><br />(+19 for winning)
+|raw|impotent wretch's rating: 1591 &rarr; <strong>1572</strong><br />(-19 for losing)
+|l|☆impotent wretch
+|player|p2|
+|l|☆guesyo
+|player|p1|

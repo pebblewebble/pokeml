@@ -1,0 +1,243 @@
+|j|☆IFengYunI
+|j|☆neon co bc chi
+|t:|1743832164
+|gametype|singles
+|player|p1|IFengYunI|red|1101
+|player|p2|neon co bc chi|biker-gen4|1075
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Amoonguss, F|
+|poke|p1|Kingdra, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Zapdos|
+|poke|p1|Great Tusk|
+|poke|p2|Surskit, F|
+|poke|p2|Pelipper, M|
+|poke|p2|Basculegion, M|
+|poke|p2|Greninja-*, M|
+|poke|p2|Jirachi|
+|poke|p2|Iron Treads|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by neon co bc chi)
+|
+|t:|1743832192
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Surskit|Surskit, F|100/100
+|turn|1
+|
+|t:|1743832200
+|move|p2a: Surskit|Sticky Web|p1a: Zapdos
+|-sidestart|p1: IFengYunI|move: Sticky Web
+|move|p1a: Zapdos|Hurricane|p2a: Surskit
+|-supereffective|p2a: Surskit
+|-enditem|p2a: Surskit|Focus Sash
+|-damage|p2a: Surskit|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743832208
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Zapdos|Thunder|p2a: Iron Treads
+|-immune|p2a: Iron Treads
+|
+|upkeep
+|turn|3
+|
+|t:|1743832221
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Amoonguss
+|-sidestart|p1: IFengYunI|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1743832235
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Jirachi|Jirachi|100/100
+|move|p1a: Amoonguss|Giga Drain|p2a: Jirachi
+|-resisted|p2a: Jirachi
+|-damage|p2a: Jirachi|95/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743832244
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|move: Sticky Web
+|-unboost|p1a: Great Tusk|spe|1
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|move|p2a: Jirachi|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|92/100
+|-damage|p2a: Jirachi|78/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|t:|1743832254
+|switch|p2a: Pelipper|Pelipper, M|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743832261
+|move|p1a: Great Tusk|Rapid Spin|p2a: Pelipper
+|-damage|p2a: Pelipper|86/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: IFengYunI|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: IFengYunI|Sticky Web|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Pelipper|Surf|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743832275
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|7
+|
+|t:|1743832281
+|switch|p1a: Kingdra|Kingdra, F|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743832291
+|move|p1a: Kingdra|Hydro Pump|p2a: Iron Treads|[miss]
+|-miss|p1a: Kingdra|p2a: Iron Treads
+|move|p2a: Iron Treads|Stealth Rock|p1a: Kingdra
+|-sidestart|p1: IFengYunI|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743832299
+|move|p1a: Kingdra|Hydro Pump|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-crit|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|-damage|p1a: Kingdra|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743832302
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|turn|10
+|
+|t:|1743832314
+|switch|p2a: Surskit|Surskit, F|1/100
+|move|p1a: Kingdra|Draco Meteor|p2a: Surskit
+|-damage|p2a: Surskit|0 fnt
+|-unboost|p1a: Kingdra|spa|2
+|faint|p2a: Surskit
+|-damage|p1a: Kingdra|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743832324
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|11
+|
+|t:|1743832329
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Greninja|Dark Pulse|p1a: Zapdos
+|-damage|p1a: Zapdos|55/100
+|-damage|p2a: Greninja|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743832342
+|move|p2a: Greninja|Hydro Pump|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-ability|p2a: Greninja|Battle Bond|boost
+|-boost|p2a: Greninja|atk|1
+|-boost|p2a: Greninja|spa|1
+|-boost|p2a: Greninja|spe|1
+|-activate|p2a: Greninja|ability: Battle Bond
+|-damage|p2a: Greninja|81/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1743832353
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|turn|13
+|
+|t:|1743832363
+|move|p2a: Greninja|Dark Pulse|p1a: Amoonguss
+|-damage|p1a: Amoonguss|35/100
+|-damage|p2a: Greninja|71/100|[from] item: Life Orb
+|move|p1a: Amoonguss|Toxic|p2a: Greninja
+|-status|p2a: Greninja|tox
+|
+|-damage|p2a: Greninja|65/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743832374
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-damage|p1a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Greninja|Dark Pulse|p1a: Pelipper
+|-crit|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|-damage|p2a: Greninja|55/100 tox|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Greninja|43/100 tox|[from] psn
+|upkeep
+|
+|t:|1743832390
+|switch|p1a: Kingdra|Kingdra, F|81/100
+|-damage|p1a: Kingdra|68/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743832398
+|-terastallize|p1a: Kingdra|Water
+|move|p2a: Greninja|Dark Pulse|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|-damage|p2a: Greninja|33/100 tox|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Greninja|16/100 tox|[from] psn
+|upkeep
+|-message|IFengYunI forfeited.
+|
+|win|neon co bc chi
+|raw|IFengYunI's rating: 1101 &rarr; <strong>1074</strong><br />(-27 for losing)
+|raw|neon co bc chi's rating: 1075 &rarr; <strong>1106</strong><br />(+31 for winning)
+|l|☆IFengYunI
+|player|p1|
+|l|☆neon co bc chi
+|player|p2|

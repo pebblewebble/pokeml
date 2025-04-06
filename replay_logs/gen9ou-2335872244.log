@@ -1,0 +1,369 @@
+|j|☆Baby Monster MAGA
+|j|☆hugobui0105
+|t:|1743851729
+|gametype|singles
+|player|p1|Baby Monster MAGA|101|1466
+|player|p2|hugobui0105|scientist-gen4dp|1514
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Rillaboom, F|
+|poke|p1|Sandy Shocks|
+|poke|p1|Great Tusk|
+|poke|p1|Venusaur, M|
+|poke|p1|Goodra-Hisui, M|
+|poke|p2|Kyurem|
+|poke|p2|Ting-Lu|
+|poke|p2|Corviknight, M|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Toxapex, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Baby Monster MAGA)
+|
+|t:|1743851743
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Goliath|Ting-Lu|100/100
+|-ability|p2a: Goliath|Vessel of Ruin
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1743851747
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Goliath|Ruination|p1a: Rillaboom
+|-damage|p1a: Rillaboom|50/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rillaboom|57/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1743851761
+|switch|p2a: Yami|Corviknight, M, shiny|100/100
+|-ability|p2a: Yami|Pressure
+|move|p1a: Rillaboom|U-turn|p2a: Yami
+|-resisted|p2a: Yami
+|-damage|p2a: Yami|96/100
+|-damage|p1a: Rillaboom|40/100|[from] item: Rocky Helmet|[of] p2a: Yami
+|-damage|p1a: Rillaboom|30/100|[from] item: Life Orb
+|
+|t:|1743851765
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100|[from] U-turn
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis
+|-start|p1a: Sandy Shocks|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743851769
+|switch|p2a: Goliath|Ting-Lu|100/100
+|-ability|p2a: Goliath|Vessel of Ruin
+|move|p1a: Sandy Shocks|Stealth Rock|p2a: Goliath
+|-sidestart|p2: hugobui0105|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743851779
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|move|p2a: Goliath|Earthquake|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-damage|p1a: Venusaur|63/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Venusaur|69/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1743851785
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|move|p2a: Goliath|Ruination|p1a: Venusaur
+|-damage|p1a: Venusaur|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Venusaur|41/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1743851794
+|move|p1a: Venusaur|Solar Beam||[still]
+|-prepare|p1a: Venusaur|Solar Beam
+|-anim|p1a: Venusaur|Solar Beam|p2a: Goliath
+|-supereffective|p2a: Goliath
+|-damage|p2a: Goliath|0 fnt
+|faint|p2a: Goliath
+|-damage|p1a: Venusaur|31/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743851804
+|switch|p2a: Serpentine|Toxapex, M, shiny|100/100
+|-damage|p2a: Serpentine|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1743851808
+|move|p1a: Venusaur|Earth Power|p2a: Serpentine
+|-supereffective|p2a: Serpentine
+|-damage|p2a: Serpentine|11/100
+|-unboost|p2a: Serpentine|spd|1
+|-damage|p1a: Venusaur|21/100|[from] item: Life Orb
+|move|p2a: Serpentine|Ice Beam|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743851816
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis
+|-start|p1a: Sandy Shocks|protosynthesisspe
+|turn|8
+|
+|t:|1743851819
+|move|p1a: Sandy Shocks|Thunderbolt|p2a: Serpentine
+|-supereffective|p2a: Serpentine
+|-damage|p2a: Serpentine|0 fnt
+|faint|p2a: Serpentine
+|
+|-weather|none
+|-end|p1a: Sandy Shocks|Protosynthesis
+|upkeep
+|-enditem|p1a: Sandy Shocks|Booster Energy
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p1a: Sandy Shocks|protosynthesisspe
+|
+|t:|1743851822
+|switch|p2a: Kyurem|Kyurem|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|turn|9
+|
+|t:|1743851825
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p1a: Goodra|Goodra-Hisui, M|100/100
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743851833
+|-terastallize|p2a: Kyurem|Ground
+|move|p2a: Kyurem|Icicle Spear|p1a: Goodra
+|-damage|p1a: Goodra|81/100
+|-damage|p1a: Goodra|59/100
+|-damage|p1a: Goodra|39/100
+|-hitcount|p1a: Goodra|3
+|move|p1a: Goodra|Flash Cannon|p2a: Kyurem
+|-damage|p2a: Kyurem|37/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743851844
+|move|p2a: Kyurem|Icicle Spear|p1a: Goodra
+|-damage|p1a: Goodra|19/100
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|-hitcount|p1: Goodra|2
+|
+|upkeep
+|
+|t:|1743851845
+|switch|p1a: Rillaboom|Rillaboom, F|30/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|12
+|
+|t:|1743851850
+|switch|p2a: Yami|Corviknight, M, shiny|96/100
+|-damage|p2a: Yami|84/100|[from] Stealth Rock
+|-ability|p2a: Yami|Pressure
+|move|p1a: Rillaboom|Grassy Glide|p2a: Yami
+|-resisted|p2a: Yami
+|-damage|p2a: Yami|76/100
+|-damage|p1a: Rillaboom|14/100|[from] item: Rocky Helmet|[of] p2a: Yami
+|-damage|p1a: Rillaboom|4/100|[from] item: Life Orb
+|
+|-heal|p1a: Rillaboom|10/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1743851853
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Yami|U-turn|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|96/100
+|
+|t:|1743851861
+|switch|p2a: Kyurem|Kyurem, tera:Ground|37/100|[from] U-turn
+|-damage|p2a: Kyurem|31/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kyurem|37/100|[from] Grassy Terrain
+|-heal|p1a: Torkoal|100/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1743851872
+|-terastallize|p1a: Torkoal|Flying
+|move|p2a: Kyurem|Earth Power|p1a: Torkoal
+|-immune|p1a: Torkoal
+|move|p1a: Torkoal|Lava Plume|p2a: Kyurem
+|-damage|p2a: Kyurem|4/100
+|-status|p2a: Kyurem|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kyurem|10/100 brn|[from] Grassy Terrain
+|-damage|p2a: Kyurem|4/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743851879
+|switch|p1a: Rillaboom|Rillaboom, F|10/100
+|move|p2a: Kyurem|Freeze-Dry|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kyurem|10/100 brn|[from] Grassy Terrain
+|-damage|p2a: Kyurem|4/100 brn|[from] brn
+|upkeep
+|
+|t:|1743851882
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis
+|-start|p1a: Sandy Shocks|protosynthesisspe
+|turn|16
+|
+|t:|1743851890
+|move|p1a: Sandy Shocks|Earth Power|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1743851896
+|switch|p2a: Trojan|Zamazenta, shiny|100/100
+|-damage|p2a: Trojan|94/100|[from] Stealth Rock
+|-ability|p2a: Trojan|Dauntless Shield|boost
+|-boost|p2a: Trojan|def|1
+|turn|17
+|
+|t:|1743851907
+|move|p1a: Sandy Shocks|Thunderbolt|p2a: Trojan
+|-damage|p2a: Trojan|56/100
+|move|p2a: Trojan|Close Combat|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|1/100
+|-unboost|p2a: Trojan|def|1
+|-unboost|p2a: Trojan|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743851914
+|switch|p2a: Sentinel|Weezing-Galar, M, shiny|100/100
+|-ability|p2a: Sentinel|Neutralizing Gas
+|move|p1a: Sandy Shocks|Thunderbolt|p2a: Sentinel
+|-damage|p2a: Sentinel|42/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743851920
+|move|p1a: Sandy Shocks|Thunderbolt|p2a: Sentinel
+|-damage|p2a: Sentinel|0 fnt
+|faint|p2a: Sentinel
+|-end|p2a: Sentinel|ability: Neutralizing Gas
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743851923
+|switch|p2a: Trojan|Zamazenta, shiny|56/100
+|-damage|p2a: Trojan|49/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743851942
+|move|p1a: Sandy Shocks|Thunderbolt|p2a: Trojan
+|-damage|p2a: Trojan|12/100
+|-status|p2a: Trojan|par
+|move|p2a: Trojan|Close Combat|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|0 fnt
+|-unboost|p2a: Trojan|def|1
+|-unboost|p2a: Trojan|spd|1
+|faint|p1a: Sandy Shocks
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743851949
+|switch|p1a: Torkoal|Torkoal, F, tera:Flying|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|21
+|
+|t:|1743851951
+|move|p2a: Trojan|Close Combat|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|76/100
+|-unboost|p2a: Trojan|def|1
+|-unboost|p2a: Trojan|spd|1
+|move|p1a: Torkoal|Lava Plume|p2a: Trojan
+|-damage|p2a: Trojan|0 fnt
+|faint|p2a: Trojan
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743851954
+|switch|p2a: Yami|Corviknight, M, shiny|76/100
+|-damage|p2a: Yami|63/100|[from] Stealth Rock
+|-ability|p2a: Yami|Pressure
+|turn|22
+|
+|t:|1743851956
+|move|p2a: Yami|Body Press|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|68/100
+|move|p1a: Torkoal|Lava Plume|p2a: Yami
+|-supereffective|p2a: Yami
+|-damage|p2a: Yami|0 fnt
+|faint|p2a: Yami
+|
+|win|Baby Monster MAGA
+|raw|Baby Monster MAGA's rating: 1466 &rarr; <strong>1489</strong><br />(+23 for winning)
+|raw|hugobui0105's rating: 1514 &rarr; <strong>1491</strong><br />(-23 for losing)
+|l|☆Baby Monster MAGA
+|player|p1|
+|l|☆hugobui0105
+|player|p2|

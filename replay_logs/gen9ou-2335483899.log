@@ -1,0 +1,388 @@
+|j|‽Spoozy
+|j|☆The_Corperation
+|t:|1743798521
+|gametype|singles
+|player|p1|Spoozy|may-masters|1209
+|player|p2|The_Corperation|2|1237
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ceruledge, M|
+|poke|p1|Ninetales, F|
+|poke|p1|Leavanny, F|
+|poke|p1|Great Tusk|
+|poke|p1|Raging Bolt|
+|poke|p1|Walking Wake|
+|poke|p2|Infernape, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Valiant|
+|poke|p2|Great Tusk|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by The_Corperation)
+|
+|t:|1743798543
+|start
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|switch|p2a: Infernape|Infernape, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1743798551
+|move|p1a: Ninetales|Scorching Sands|p2a: Infernape
+|-supereffective|p2a: Infernape
+|-damage|p2a: Infernape|56/100
+|move|p2a: Infernape|Stealth Rock|p1a: Ninetales
+|-sidestart|p1: Spoozy|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743798564
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|move|p1a: Ninetales|Encore||[still]
+|-fail|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743798570
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Samurott|Ceaseless Edge|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|85/100
+|-sidestart|p1: Spoozy|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743798582
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Great Tusk|Rapid Spin|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743798586
+|-terastallize|p1a: Great Tusk|Fire
+|move|p1a: Great Tusk|Temper Flare|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-enditem|p2a: Gholdengo|Air Balloon
+|faint|p2a: Gholdengo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743798591
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|6
+|
+|t:|1743798600
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Great Tusk
+|-damage|p1a: Great Tusk|40/100
+|-status|p1a: Great Tusk|par
+|move|p1a: Great Tusk|Rapid Spin|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|72/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: Spoozy|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: Spoozy|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743798617
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Leavanny|Leavanny, F|100/100
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743798623
+|move|p1a: Leavanny|Sticky Web|p2a: Iron Valiant
+|-sidestart|p2: The_Corperation|move: Sticky Web
+|move|p2a: Iron Valiant|Moonblast|p1a: Leavanny
+|-damage|p1a: Leavanny|0 fnt
+|faint|p1a: Leavanny
+|
+|-weather|none
+|upkeep
+|
+|t:|1743798629
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|9
+|
+|t:|1743798645
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Ninetales|Weather Ball|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|27/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743798652
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Ninetales
+|-damage|p1a: Ninetales|47/100
+|move|p1a: Ninetales|Weather Ball|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743798660
+|switch|p2a: Infernape|Infernape, M|56/100
+|-activate|p2a: Infernape|move: Sticky Web
+|-unboost|p2a: Infernape|spe|1
+|turn|11
+|
+|t:|1743798677
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|move|p2a: Infernape|Overheat|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|73/100
+|-unboost|p2a: Infernape|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743798690
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|-activate|p2a: Samurott|move: Sticky Web
+|-unboost|p2a: Samurott|spe|1
+|move|p1a: Walking Wake|Hydro Steam|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|68/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743798708
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Ceruledge|Ceruledge, M|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-enditem|p1a: Ceruledge|Focus Sash
+|-damage|p1a: Ceruledge|1/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|-sidestart|p1: Spoozy|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743798720
+|move|p2a: Samurott|Aqua Jet|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743798728
+|switch|p1a: Walking Wake|Walking Wake|73/100
+|-damage|p1a: Walking Wake|61/100|[from] Spikes
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|15
+|
+|t:|1743798735
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Samurott
+|-damage|p2a: Samurott|21/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Walking Wake
+|-damage|p1a: Walking Wake|10/100
+|-sidestart|p1: Spoozy|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743798748
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Samurott|Aqua Jet|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|97/100
+|
+|-weather|none
+|-end|p1a: Raging Bolt|Protosynthesis
+|upkeep
+|turn|17
+|
+|t:|1743798760
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|move: Sticky Web
+|-unboost|p2a: Great Tusk|spe|1
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Raging Bolt|Sunny Day|p1a: Raging Bolt
+|-weather|SunnyDay
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743798782
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, F|47/100
+|-damage|p1a: Ninetales|31/100|[from] Spikes
+|move|p2a: Great Tusk|Headlong Rush|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743798792
+|switch|p1a: Great Tusk|Great Tusk, tera:Fire|40/100 par
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|19
+|
+|t:|1743798802
+|move|p2a: Great Tusk|Headlong Rush|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743798806
+|switch|p1a: Walking Wake|Walking Wake|10/100
+|-damage|p1a: Walking Wake|0 fnt|[from] Spikes
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|t:|1743798808
+|switch|p1a: Raging Bolt|Raging Bolt|97/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|20
+|
+|t:|1743798813
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743798815
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-activate|p2a: Zamazenta|move: Sticky Web
+|-unboost|p2a: Zamazenta|spe|1
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|21
+|
+|t:|1743798825
+|move|p2a: Zamazenta|Body Press|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|53/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Zamazenta
+|-damage|p2a: Zamazenta|50/100
+|
+|-weather|none
+|-end|p1a: Raging Bolt|Protosynthesis
+|-heal|p2a: Zamazenta|56/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743798842
+|move|p2a: Zamazenta|Body Press|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|6/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Zamazenta
+|-damage|p2a: Zamazenta|12/100
+|
+|-heal|p2a: Zamazenta|18/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743798866
+|move|p1a: Raging Bolt|Thunderclap|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1743798868
+|switch|p2a: Infernape|Infernape, M|56/100
+|-activate|p2a: Infernape|move: Sticky Web
+|-unboost|p2a: Infernape|spe|1
+|turn|24
+|
+|t:|1743798873
+|move|p1a: Raging Bolt|Thunderclap|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|upkeep
+|
+|t:|1743798880
+|switch|p2a: Samurott|Samurott-Hisui, F|21/100
+|-activate|p2a: Samurott|move: Sticky Web
+|-unboost|p2a: Samurott|spe|1
+|turn|25
+|
+|t:|1743798889
+|-terastallize|p2a: Samurott|Ghost
+|move|p1a: Raging Bolt|Thunderclap|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|win|Spoozy
+|raw|Spoozy's rating: 1209 &rarr; <strong>1236</strong><br />(+27 for winning)
+|raw|The_Corperation's rating: 1237 &rarr; <strong>1210</strong><br />(-27 for losing)
+|l|☆The_Corperation
+|player|p2|

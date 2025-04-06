@@ -1,0 +1,320 @@
+|j|☆random tera ghost
+|j|☆surprise blissey
+|t:|1743865060
+|gametype|singles
+|player|p1|random tera ghost|1|1571
+|player|p2|surprise blissey|blaine|1545
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, M|
+|poke|p1|Scovillain, M|
+|poke|p1|Walking Wake|
+|poke|p1|Hatterene, F|
+|poke|p1|Great Tusk|
+|poke|p1|Ceruledge, M|
+|poke|p2|Blissey, F|
+|poke|p2|Dondozo, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Pecharunt|
+|poke|p2|Regice|
+|poke|p2|Clefable, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by surprise blissey)
+|
+|t:|1743865078
+|start
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1743865081
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743865086
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Clefable|Clefable, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743865091
+|move|p2a: Clefable|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|85/100
+|-enditem|p1a: Hatterene|Eject Button|[from] move: Knock Off|[of] p2a: Clefable
+|move|p1a: Hatterene|Nuzzle|p2a: Clefable
+|-damage|p2a: Clefable|97/100
+|-status|p2a: Clefable|par
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Hatterene|73/100|[from] item: Sticky Barb
+|upkeep
+|turn|4
+|
+|t:|1743865101
+|move|p1a: Hatterene|Mystical Fire|p2a: Clefable
+|-damage|p2a: Clefable|68/100 par
+|-unboost|p2a: Clefable|spa|1
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Hatterene|60/100|[from] item: Sticky Barb
+|upkeep
+|turn|5
+|
+|t:|1743865112
+|move|p1a: Hatterene|Psyshock|p2a: Clefable
+|-damage|p2a: Clefable|40/100 par
+|move|p2a: Clefable|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|46/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743865117
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|cant|p2a: Clefable|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743865125
+|switch|p2a: Blissey|Blissey, F|100/100
+|-terastallize|p1a: Walking Wake|Water
+|move|p1a: Walking Wake|Hydro Steam|p2a: Blissey
+|-damage|p2a: Blissey|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743865129
+|move|p1a: Walking Wake|Hydro Steam|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|upkeep
+|
+|t:|1743865132
+|switch|p2a: Regice|Regice|100/100
+|turn|9
+|
+|t:|1743865136
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|-terastallize|p2a: Regice|Water
+|move|p2a: Regice|Body Press|p1a: Ninetales
+|-damage|p1a: Ninetales|70/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743865142
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Regice|[miss]
+|-miss|p1a: Ninetales|p2a: Regice
+|move|p2a: Regice|Body Press|p1a: Ninetales
+|-damage|p1a: Ninetales|40/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743865146
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Regice
+|-status|p2a: Regice|brn
+|move|p2a: Regice|Body Press|p1a: Ninetales
+|-damage|p1a: Ninetales|26/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Regice|94/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743865152
+|switch|p1a: Scovillain|Scovillain, M, shiny|100/100
+|move|p2a: Regice|Ice Beam|p1a: Scovillain
+|-damage|p1a: Scovillain|40/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Regice|88/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743865172
+|move|p1a: Scovillain|Solar Beam||[still]
+|-prepare|p1a: Scovillain|Solar Beam
+|-anim|p1a: Scovillain|Solar Beam|p2a: Regice
+|-supereffective|p2a: Regice
+|-damage|p2a: Regice|26/100 brn
+|-damage|p1a: Scovillain|30/100|[from] item: Life Orb
+|move|p2a: Regice|Amnesia|p2a: Regice
+|-boost|p2a: Regice|spd|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Regice|20/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743865179
+|move|p1a: Scovillain|Solar Beam||[still]
+|-prepare|p1a: Scovillain|Solar Beam
+|-anim|p1a: Scovillain|Solar Beam|p2a: Regice
+|-supereffective|p2a: Regice
+|-damage|p2a: Regice|0 fnt
+|faint|p2a: Regice
+|-damage|p1a: Scovillain|20/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743865183
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox
+|turn|15
+|
+|t:|1743865187
+|switch|p1a: Hatterene|Hatterene, F|46/100
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743865195
+|move|p2a: Gliscor|Facade|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|none
+|upkeep
+|
+|t:|1743865198
+|switch|p1a: Ninetales|Ninetales, M|26/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|17
+|
+|t:|1743865206
+|switch|p1a: Scovillain|Scovillain, M, shiny|20/100
+|move|p2a: Gliscor|Knock Off|p1a: Scovillain
+|-damage|p1a: Scovillain|0 fnt
+|-enditem|p1a: Scovillain|Life Orb|[from] move: Knock Off|[of] p2a: Gliscor
+|faint|p1a: Scovillain
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743865209
+|switch|p1a: Walking Wake|Walking Wake, tera:Water|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|18
+|
+|t:|1743865211
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Walking Wake|Hydro Steam|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743865216
+|switch|p2a: Clefable|Clefable, F|40/100 par
+|move|p1a: Walking Wake|Hydro Steam|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743865220
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|turn|20
+|
+|t:|1743865222
+|move|p1a: Walking Wake|Hydro Steam|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|14/100
+|move|p2a: Dondozo|Body Press|p1a: Walking Wake
+|-damage|p1a: Walking Wake|69/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743865225
+|move|p1a: Walking Wake|Hydro Steam|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743865227
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|22
+|
+|t:|1743865229
+|move|p1a: Walking Wake|Hydro Steam|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743865230
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox
+|turn|23
+|
+|t:|1743865234
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Walking Wake|Hydro Steam|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|24
+|c|☆surprise blissey|Gg
+|c|☆random tera ghost|GG
+|-message|surprise blissey forfeited.
+|
+|win|random tera ghost
+|raw|random tera ghost's rating: 1571 &rarr; <strong>1590</strong><br />(+19 for winning)
+|raw|surprise blissey's rating: 1545 &rarr; <strong>1526</strong><br />(-19 for losing)
+|l|☆surprise blissey
+|player|p2|
+|l|☆random tera ghost
+|player|p1|

@@ -1,0 +1,403 @@
+|j|☆testteambill2
+|j|☆yamiyuu
+|t:|1743916641
+|gametype|singles
+|player|p1|testteambill2|1|1124
+|player|p2|yamiyuu|265|1071
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Magnezone|
+|poke|p1|Alomomola, M|
+|poke|p1|Lycanroc-Dusk, F|
+|poke|p1|Houndoom, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Hawlucha, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Blaziken, F|
+|poke|p2|Gengar, M|
+|poke|p2|Kommo-o, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Alomomola, M|
+|teampreview
+|
+|t:|1743916652
+|start
+|switch|p1a: Magnezone|Magnezone|100/100
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|turn|1
+|
+|t:|1743916659
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Kommo-o|Belly Drum|p2a: Kommo-o
+|-damage|p2a: Kommo-o|51/100
+|-setboost|p2a: Kommo-o|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|2
+|
+|t:|1743916667
+|move|p2a: Kommo-o|Scale Shot|p1a: Alomomola
+|-damage|p1a: Alomomola|76/100
+|-damage|p1a: Alomomola|48/100
+|-hitcount|p1a: Alomomola|2
+|-unboost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spe|1
+|move|p1a: Alomomola|Flip Turn|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|40/100
+|-enditem|p2a: Kommo-o|Sitrus Berry|[eat]
+|-heal|p2a: Kommo-o|64/100|[from] item: Sitrus Berry
+|
+|t:|1743916676
+|switch|p1a: Lycanroc|Lycanroc-Dusk, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|3
+|
+|t:|1743916680
+|move|p1a: Lycanroc|Endure|p1a: Lycanroc
+|-singleturn|p1a: Lycanroc|move: Endure
+|move|p2a: Kommo-o|Scale Shot|p1a: Lycanroc
+|-damage|p1a: Lycanroc|28/100
+|-activate|p1a: Lycanroc|move: Endure
+|-damage|p1a: Lycanroc|1/100
+|-activate|p1a: Lycanroc|move: Endure
+|-damage|p1a: Lycanroc|1/100
+|-hitcount|p1a: Lycanroc|3
+|-unboost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743916693
+|-terastallize|p1a: Lycanroc|Rock
+|move|p1a: Lycanroc|Accelerock|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|28/100
+|move|p2a: Kommo-o|Scale Shot|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|faint|p1a: Lycanroc
+|-hitcount|p1: Lycanroc|1
+|-unboost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spe|1
+|
+|upkeep
+|
+|t:|1743916705
+|switch|p1a: Magnezone|Magnezone|100/100
+|turn|5
+|
+|t:|1743916708
+|move|p2a: Kommo-o|Scale Shot|p1a: Magnezone|[miss]
+|-miss|p2a: Kommo-o|p1a: Magnezone
+|move|p1a: Magnezone|Body Press|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|upkeep
+|
+|t:|1743916716
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|6
+|
+|t:|1743916721
+|switch|p1a: Alomomola|Alomomola, M|81/100
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1743916727
+|move|p2a: Ceruledge|Poltergeist|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Poltergeist|Covert Cloak
+|-damage|p1a: Alomomola|13/100
+|move|p1a: Alomomola|Flip Turn|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|57/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|
+|t:|1743916735
+|switch|p1a: Hawlucha|Hawlucha, M|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|8
+|
+|t:|1743916739
+|move|p1a: Hawlucha|Endure|p1a: Hawlucha
+|-singleturn|p1a: Hawlucha|move: Endure
+|move|p2a: Ceruledge|Bitter Blade|p1a: Hawlucha
+|-activate|p1a: Hawlucha|move: Endure
+|-damage|p1a: Hawlucha|1/100
+|-heal|p2a: Ceruledge|100/100|[from] drain|[of] p1a: Hawlucha
+|-enditem|p1a: Hawlucha|Liechi Berry|[eat]
+|-boost|p1a: Hawlucha|atk|1|[from] item: Liechi Berry
+|
+|upkeep
+|turn|9
+|
+|t:|1743916748
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|
+|t:|1743916753
+|switch|p1a: Alomomola|Alomomola, M|46/100
+|turn|10
+|
+|t:|1743916755
+|move|p2a: Ceruledge|Poltergeist|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Poltergeist|Covert Cloak
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|upkeep
+|
+|t:|1743916757
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|turn|11
+|
+|t:|1743916763
+|move|p2a: Ceruledge|Poltergeist|p1a: Mandibuzz
+|-activate|p1a: Mandibuzz|move: Poltergeist|Heavy-Duty Boots
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|67/100
+|move|p1a: Mandibuzz|Knock Off|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|
+|upkeep
+|turn|12
+|
+|t:|1743916773
+|move|p2a: Ceruledge|Bitter Blade|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|13/100
+|-heal|p2a: Ceruledge|40/100|[from] drain|[of] p1a: Mandibuzz
+|move|p1a: Mandibuzz|Knock Off|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|upkeep
+|
+|t:|1743916782
+|switch|p2a: Blaziken|Blaziken, F|100/100
+|turn|13
+|
+|t:|1743916787
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|63/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|14
+|
+|t:|1743916797
+|move|p2a: Blaziken|Flare Blitz|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|24/100
+|-damage|p2a: Blaziken|83/100|[from] Recoil
+|move|p1a: Mandibuzz|Defog|p2a: Blaziken
+|-unboost|p2a: Blaziken|evasion|1
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|15
+|
+|t:|1743916806
+|move|p2a: Blaziken|Flare Blitz|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|-damage|p2a: Blaziken|72/100|[from] Recoil
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743916808
+|switch|p1a: Touch my body|Houndoom, M, shiny|100/100
+|turn|16
+|
+|t:|1743916816
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|2
+|move|p1a: Touch my body|Counter||[still]
+|-fail|p1a: Touch my body
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|17
+|
+|t:|1743916823
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Touch my body|Counter||[still]
+|-fail|p1a: Touch my body
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|18
+|
+|t:|1743916829
+|move|p1a: Touch my body|Protect|p1a: Touch my body
+|-singleturn|p1a: Touch my body|Protect
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|2
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|19
+|
+|t:|1743916836
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Touch my body|Counter||[still]
+|-fail|p1a: Touch my body
+|
+|upkeep
+|turn|20
+|
+|t:|1743916841
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|2
+|move|p1a: Touch my body|Counter||[still]
+|-fail|p1a: Touch my body
+|
+|upkeep
+|turn|21
+|
+|t:|1743916846
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Touch my body|Counter||[still]
+|-fail|p1a: Touch my body
+|
+|upkeep
+|turn|22
+|
+|t:|1743916854
+|move|p1a: Touch my body|Protect|p1a: Touch my body
+|-singleturn|p1a: Touch my body|Protect
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|0
+|
+|upkeep
+|turn|23
+|
+|t:|1743916860
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Touch my body|Fire Spin|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|upkeep
+|turn|24
+|
+|t:|1743916866
+|-singleturn|p2a: Blaziken|move: Focus Punch
+|move|p1a: Touch my body|Protect|p1a: Touch my body
+|-singleturn|p1a: Touch my body|Protect
+|move|p2a: Blaziken|Focus Punch|p1a: Touch my body
+|-activate|p1a: Touch my body|move: Protect
+|
+|upkeep
+|turn|25
+|
+|t:|1743916873
+|-singleturn|p2a: Blaziken|move: Focus Punch
+|move|p2a: Blaziken|Focus Punch|p1a: Touch my body
+|-supereffective|p1a: Touch my body
+|-enditem|p1a: Touch my body|Focus Sash
+|-damage|p1a: Touch my body|1/100
+|move|p1a: Touch my body|Counter|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|
+|upkeep
+|
+|t:|1743916884
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|turn|26
+|
+|t:|1743916890
+|move|p1a: Touch my body|Protect|p1a: Touch my body
+|-singleturn|p1a: Touch my body|Protect
+|move|p2a: Alomomola|Flip Turn|p1a: Touch my body
+|-activate|p1a: Touch my body|move: Protect
+|
+|upkeep
+|turn|27
+|
+|t:|1743916896
+|move|p1a: Touch my body|Destiny Bond|p1a: Touch my body
+|-singlemove|p1a: Touch my body|Destiny Bond
+|move|p2a: Alomomola|Flip Turn|p1a: Touch my body
+|-supereffective|p1a: Touch my body
+|-damage|p1a: Touch my body|0 fnt
+|faint|p1a: Touch my body
+|-activate|p1a: Touch my body|move: Destiny Bond
+|faint|p2a: Alomomola
+|
+|upkeep
+|
+|t:|1743916908
+|switch|p1a: Magnezone|Magnezone|100/100
+|switch|p2a: Gengar|Gengar, M|100/100
+|turn|28
+|
+|t:|1743916914
+|move|p2a: Gengar|Will-O-Wisp|p1a: Magnezone
+|-status|p1a: Magnezone|brn
+|move|p1a: Magnezone|Mirror Coat||[still]
+|-fail|p1a: Magnezone
+|
+|-damage|p1a: Magnezone|94/100 brn|[from] brn
+|upkeep
+|turn|29
+|c|☆yamiyuu|counter team?
+|
+|t:|1743916929
+|-terastallize|p2a: Gengar|Ghost
+|move|p2a: Gengar|Hex|p1a: Magnezone
+|-damage|p1a: Magnezone|3/100 brn
+|move|p1a: Magnezone|Mirror Coat|p2a: Gengar
+|-enditem|p2a: Gengar|Focus Sash
+|-damage|p2a: Gengar|1/100
+|
+|-damage|p1a: Magnezone|0 fnt|[from] brn
+|faint|p1a: Magnezone
+|
+|win|yamiyuu
+|raw|testteambill2's rating: 1124 &rarr; <strong>1095</strong><br />(-29 for losing)
+|raw|yamiyuu's rating: 1071 &rarr; <strong>1105</strong><br />(+34 for winning)
+|l|☆testteambill2
+|player|p1|
+|l|☆yamiyuu
+|player|p2|

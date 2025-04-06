@@ -1,0 +1,249 @@
+|j|☆Purple Mamba
+|j|‽stormhero
+|t:|1743877952
+|gametype|singles
+|player|p1|Purple Mamba|101|1251
+|player|p2|stormhero|hugh|1253
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Salazzle, F|
+|poke|p1|Torkoal, F|
+|poke|p1|Skeledirge, F|
+|poke|p1|Scizor, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Great Tusk|
+|poke|p2|Cinderace, F|
+|poke|p2|Gholdengo|
+|poke|p2|Tinkaton, F|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Enamorus, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Purple Mamba)
+|
+|t:|1743877958
+|start
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|1
+|
+|t:|1743877968
+|move|p1a: Salazzle|Toxic Spikes|p2a: Ogerpon
+|-sidestart|p2: stormhero|move: Toxic Spikes
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Salazzle|[anim] Ivy Cudgel Rock
+|-supereffective|p1a: Salazzle
+|-enditem|p1a: Salazzle|Focus Sash
+|-damage|p1a: Salazzle|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743877978
+|move|p1a: Salazzle|Mud-Slap|p2a: Ogerpon
+|-damage|p2a: Ogerpon|94/100
+|-unboost|p2a: Ogerpon|accuracy|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Salazzle|[anim] Ivy Cudgel Rock|[miss]
+|-miss|p2a: Ogerpon|p1a: Salazzle
+|
+|upkeep
+|turn|3
+|
+|t:|1743877994
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-status|p2a: Ting-Lu|psn
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Salazzle|Mud-Slap|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|98/100 psn
+|-unboost|p2a: Ting-Lu|accuracy|1
+|
+|-heal|p2a: Ting-Lu|100/100 psn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|88/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743878006
+|move|p1a: Salazzle|Taunt|p2a: Ting-Lu
+|-start|p2a: Ting-Lu|move: Taunt
+|cant|p2a: Ting-Lu|move: Taunt|Whirlwind
+|
+|-heal|p2a: Ting-Lu|94/100 psn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|82/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743878015
+|move|p1a: Salazzle|Knock Off|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|76/100 psn
+|-enditem|p2a: Ting-Lu|Leftovers|[from] move: Knock Off|[of] p1a: Salazzle
+|move|p2a: Ting-Lu|Earthquake|p1a: Salazzle|[miss]
+|-miss|p2a: Ting-Lu|p1a: Salazzle
+|
+|-damage|p2a: Ting-Lu|64/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743878025
+|move|p1a: Salazzle|Mud-Slap|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|61/100 psn
+|-unboost|p2a: Ting-Lu|accuracy|1
+|move|p2a: Ting-Lu|Earthquake|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-damage|p1a: Salazzle|0 fnt
+|faint|p1a: Salazzle
+|
+|-damage|p2a: Ting-Lu|49/100 psn|[from] psn
+|-end|p2a: Ting-Lu|move: Taunt
+|upkeep
+|
+|t:|1743878039
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|7
+|
+|t:|1743878047
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|move|p1a: Scizor|Trailblaze|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|83/100
+|-boost|p1a: Scizor|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743878058
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Tinkaton|Thunder Wave|p1a: Torkoal
+|-status|p1a: Torkoal|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743878067
+|move|p2a: Tinkaton|Knock Off|p1a: Torkoal
+|-damage|p1a: Torkoal|91/100 par
+|-enditem|p1a: Torkoal|Heat Rock|[from] move: Knock Off|[of] p2a: Tinkaton
+|move|p1a: Torkoal|Stealth Rock|p2a: Tinkaton
+|-sidestart|p2: stormhero|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743878076
+|move|p2a: Tinkaton|Stealth Rock|p1a: Torkoal
+|-sidestart|p1: Purple Mamba|move: Stealth Rock
+|cant|p1a: Torkoal|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743878083
+|switch|p2a: Ting-Lu|Ting-Lu|49/100 psn
+|-damage|p2a: Ting-Lu|43/100 psn|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Torkoal|Rapid Spin|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|38/100 psn
+|-boost|p1a: Torkoal|spe|1
+|-sideend|p1: Purple Mamba|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ting-Lu|25/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743878096
+|move|p2a: Ting-Lu|Ruination|p1a: Torkoal
+|-damage|p1a: Torkoal|46/100 par
+|cant|p1a: Torkoal|par
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ting-Lu|13/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1743878109
+|switch|p1a: Skeledirge|Skeledirge, F|100/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|43/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Skeledirge|49/100|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|0 fnt|[from] psn
+|faint|p2a: Ting-Lu
+|upkeep
+|
+|t:|1743878124
+|switch|p2a: Cinderace|Cinderace, F, shiny|100/100
+|turn|14
+|
+|t:|1743878130
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743878141
+|switch|p2a: Gholdengo|Gholdengo, shiny|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|-weather|none
+|-end|p1a: Great Tusk|Protosynthesis
+|upkeep
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|16
+|
+|t:|1743878160
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|-terastallize|p1a: Great Tusk|Steel
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|
+|upkeep
+|turn|17
+|
+|t:|1743878177
+|-terastallize|p2a: Enamorus|Steel
+|move|p2a: Enamorus|Earth Power|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: Enamorus|91/100|[from] item: Life Orb
+|
+|upkeep
+|-message|Purple Mamba forfeited.
+|
+|win|stormhero
+|raw|Purple Mamba's rating: 1251 &rarr; <strong>1226</strong><br />(-25 for losing)
+|raw|stormhero's rating: 1253 &rarr; <strong>1278</strong><br />(+25 for winning)
+|l|☆Purple Mamba
+|player|p1|
+|l|‽stormhero
+|player|p2|

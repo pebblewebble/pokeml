@@ -1,0 +1,286 @@
+|j|☆berlious
+|j|☆WAAHAAHEE
+|t:|1743912904
+|gametype|singles
+|player|p1|berlious|2|1209
+|player|p2|WAAHAAHEE|2|1221
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Kyurem|
+|poke|p1|Iron Moth|
+|poke|p1|Iron Treads|
+|poke|p1|Walking Wake|
+|poke|p2|Tyranitar, M|
+|poke|p2|Gholdengo|
+|poke|p2|Excadrill, F|
+|poke|p2|Clodsire, M|
+|poke|p2|Torterra, F|
+|poke|p2|Gliscor, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WAAHAAHEE)
+|
+|t:|1743912913
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1743912926
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|-terastallize|p2a: Tyranitar|Grass
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Tyranitar|[anim] Ivy Cudgel Water
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|68/100
+|move|p2a: Tyranitar|Thunder Wave|p1a: Ogerpon
+|-status|p1a: Ogerpon|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ogerpon|95/100 par|[from] Sandstorm
+|-damage|p2a: Tyranitar|62/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1743912941
+|move|p1a: Ogerpon|Knock Off|p2a: Tyranitar
+|-damage|p2a: Tyranitar|31/100
+|-enditem|p2a: Tyranitar|Smooth Rock|[from] move: Knock Off|[of] p1a: Ogerpon
+|move|p2a: Tyranitar|Stealth Rock|p1a: Ogerpon
+|-sidestart|p1: berlious|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ogerpon|89/100 par|[from] Sandstorm
+|-damage|p2a: Tyranitar|25/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1743912950
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|move|p1a: Ogerpon|Knock Off|p2a: Clodsire
+|-damage|p2a: Clodsire|60/100
+|-enditem|p2a: Clodsire|Leftovers|[from] move: Knock Off|[of] p1a: Ogerpon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ogerpon|83/100 par|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1743912958
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Clodsire|Curse|p2a: Clodsire
+|-unboost|p2a: Clodsire|spe|1
+|-boost|p2a: Clodsire|atk|1
+|-boost|p2a: Clodsire|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743912964
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Iron Treads|Rapid Spin|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743912969
+|move|p2a: Gholdengo|Trick|p1a: Iron Treads
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Iron Treads
+|-item|p1a: Iron Treads|Choice Scarf|[from] move: Trick
+|-item|p2a: Gholdengo|Heavy-Duty Boots|[from] move: Trick
+|move|p1a: Iron Treads|Stealth Rock|p2a: Gholdengo
+|-sidestart|p2: WAAHAAHEE|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743912993
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-damage|p1a: Walking Wake|88/100|[from] Stealth Rock
+|-enditem|p1a: Walking Wake|Booster Energy
+|-activate|p1a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p1a: Walking Wake|protosynthesisspa
+|move|p2a: Gholdengo|Shadow Ball|p1a: Walking Wake
+|-damage|p1a: Walking Wake|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Walking Wake|31/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1743913009
+|switch|p2a: Clodsire|Clodsire, M|60/100
+|-damage|p2a: Clodsire|54/100|[from] Stealth Rock
+|move|p1a: Walking Wake|Flamethrower|p2a: Clodsire
+|-damage|p2a: Clodsire|30/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743913018
+|move|p1a: Walking Wake|Hydro Steam|p2a: Clodsire
+|-heal|p2a: Clodsire|55/100|[from] ability: Water Absorb|[of] p1a: Walking Wake
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743913027
+|move|p1a: Walking Wake|Flip Turn|p2a: Clodsire
+|-immune|p2a: Clodsire|[from] ability: Water Absorb
+|move|p2a: Clodsire|Toxic|p1a: Walking Wake
+|-status|p1a: Walking Wake|tox
+|
+|-damage|p1a: Walking Wake|24/100 tox|[from] psn
+|upkeep
+|turn|11
+|c|☆WAAHAAHEE|Lol
+|c|☆berlious|hehe
+|c|☆WAAHAAHEE|HEHEHEHA
+|
+|t:|1743913049
+|move|p1a: Walking Wake|Hydro Steam|p2a: Clodsire
+|-immune|p2a: Clodsire|[from] ability: Water Absorb
+|move|p2a: Clodsire|Curse|p2a: Clodsire
+|-unboost|p2a: Clodsire|spe|1
+|-boost|p2a: Clodsire|atk|1
+|-boost|p2a: Clodsire|def|1
+|
+|-damage|p1a: Walking Wake|12/100 tox|[from] psn
+|upkeep
+|turn|12
+|c|☆WAAHAAHEE|HEHEHEHA
+|c|☆berlious|meowwww
+|c|☆WAAHAAHEE|HEHEHEHA
+|
+|t:|1743913069
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Kyurem|Kyurem|100/100
+|-damage|p1a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Clodsire|Curse|p2a: Clodsire
+|-unboost|p2a: Clodsire|spe|1
+|-boost|p2a: Clodsire|atk|1
+|-boost|p2a: Clodsire|def|1
+|
+|upkeep
+|turn|13
+|
+|t:|1743913076
+|move|p1a: Kyurem|Ice Beam|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|43/100
+|move|p2a: Clodsire|Toxic|p1a: Kyurem
+|-status|p1a: Kyurem|tox
+|
+|-damage|p1a: Kyurem|70/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743913083
+|move|p1a: Kyurem|Ice Beam|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|-damage|p1a: Kyurem|57/100 tox|[from] psn
+|upkeep
+|
+|t:|1743913085
+|switch|p2a: Tyranitar|Tyranitar, M, tera:Grass|25/100
+|-damage|p2a: Tyranitar|13/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|15
+|
+|t:|1743913095
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Kyurem|Ice Beam|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|51/100 tox|[from] Sandstorm
+|-damage|p1a: Kyurem|33/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743913102
+|move|p1a: Kyurem|Earth Power|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|27/100 tox|[from] Sandstorm
+|-damage|p1a: Kyurem|2/100 tox|[from] psn
+|upkeep
+|
+|t:|1743913106
+|switch|p2a: Torterra|Torterra, F|100/100
+|-damage|p2a: Torterra|94/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743913110
+|move|p1a: Kyurem|Ice Beam|p2a: Torterra
+|-supereffective|p2a: Torterra
+|-damage|p2a: Torterra|0 fnt
+|faint|p2a: Torterra
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|0 fnt|[from] Sandstorm
+|faint|p1a: Kyurem
+|upkeep
+|c|☆berlious|O.O
+|
+|t:|1743913121
+|switch|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water|83/100 par
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p1a: Ogerpon|70/100 par|[from] Stealth Rock
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|turn|18
+|c|☆WAAHAAHEE|HEHEHEHA
+|
+|t:|1743913130
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Excadrill|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ogerpon|64/100 par|[from] Sandstorm
+|upkeep
+|-message|WAAHAAHEE forfeited.
+|
+|win|berlious
+|raw|berlious's rating: 1209 &rarr; <strong>1235</strong><br />(+26 for winning)
+|raw|WAAHAAHEE's rating: 1221 &rarr; <strong>1195</strong><br />(-26 for losing)
+|l|☆WAAHAAHEE
+|player|p2|
+|c|☆berlious|:(
+|l|☆berlious
+|player|p1|

@@ -1,0 +1,221 @@
+|j|☆Lamelunaire
+|j|☆Cybereli01
+|t:|1743855585
+|gametype|singles
+|player|p1|Lamelunaire|steven|1178
+|player|p2|Cybereli01|caitlin|1237
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tauros-Paldea-Combat, M|
+|poke|p1|Iron Treads|
+|poke|p1|Raging Bolt|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Moltres|
+|poke|p1|Hatterene, F|
+|poke|p2|Rabsca, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Azumarill, F|
+|poke|p2|Mimikyu, M|
+|poke|p2|Kingambit, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lamelunaire)
+|inactive|Cybereli01 also wants the timer to be on.
+|
+|t:|1743855591
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Chad|Azumarill, F|100/100
+|turn|1
+|
+|t:|1743855602
+|move|p1a: Samurott|Ceaseless Edge|p2a: Chad|[miss]
+|-miss|p1a: Samurott|p2a: Chad
+|move|p2a: Chad|Play Rough|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-enditem|p1a: Samurott|Focus Sash
+|-damage|p1a: Samurott|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743855610
+|move|p2a: Chad|Aqua Jet|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1743855619
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|3
+|
+|t:|1743855625
+|-terastallize|p2a: Chad|Grass
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Chad
+|-resisted|p2a: Chad
+|-damage|p2a: Chad|77/100
+|move|p2a: Chad|Play Rough|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743855633
+|switch|p1a: Moltres|Moltres|100/100
+|turn|4
+|
+|t:|1743855641
+|switch|p2a: Decoy|Mimikyu, M|100/100
+|move|p1a: Moltres|Will-O-Wisp|p2a: Decoy
+|-status|p2a: Decoy|brn
+|
+|-damage|p2a: Decoy|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743855648
+|move|p1a: Moltres|U-turn|p2a: Decoy
+|-activate|p2a: Decoy|ability: Disguise
+|-damage|p2a: Decoy|94/100 brn
+|detailschange|p2a: Decoy|Mimikyu-Busted, M
+|-damage|p2a: Decoy|82/100 brn|[from] pokemon: Mimikyu-Busted
+|
+|t:|1743855656
+|switch|p1a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|move|p2a: Decoy|Trick Room|p2a: Decoy
+|-fieldstart|move: Trick Room|[of] p2a: Decoy
+|
+|-damage|p2a: Decoy|76/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743855664
+|move|p2a: Decoy|Curse|p1a: Iron Treads
+|-start|p1a: Iron Treads|Curse|[of] p2a: Decoy
+|-damage|p2a: Decoy|26/100 brn
+|move|p1a: Iron Treads|Knock Off|p2a: Decoy
+|-damage|p2a: Decoy|0 fnt
+|-enditem|p2a: Decoy|Mental Herb|[from] move: Knock Off|[of] p1a: Iron Treads
+|faint|p2a: Decoy
+|
+|-damage|p1a: Iron Treads|75/100|[from] Curse
+|upkeep
+|
+|t:|1743855673
+|switch|p2a: Village Crusher|Ursaluna, F|100/100
+|turn|7
+|
+|t:|1743855679
+|move|p2a: Village Crusher|Swords Dance|p2a: Village Crusher
+|-boost|p2a: Village Crusher|atk|2
+|move|p1a: Iron Treads|Knock Off|p2a: Village Crusher
+|-crit|p2a: Village Crusher
+|-damage|p2a: Village Crusher|74/100
+|-enditem|p2a: Village Crusher|Flame Orb|[from] move: Knock Off|[of] p1a: Iron Treads
+|
+|-heal|p1a: Iron Treads|82/100|[from] item: Leftovers
+|-damage|p1a: Iron Treads|57/100|[from] Curse
+|upkeep
+|turn|8
+|
+|t:|1743855688
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Village Crusher|Headlong Rush|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-unboost|p2a: Village Crusher|def|1
+|-unboost|p2a: Village Crusher|spd|1
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1743855699
+|switch|p1a: Tauros|Tauros-Paldea-Combat, M|100/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Village Crusher|atk|1
+|turn|9
+|
+|t:|1743855706
+|move|p2a: Village Crusher|Headlong Rush|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|-unboost|p2a: Village Crusher|def|1
+|-unboost|p2a: Village Crusher|spd|1
+|faint|p1a: Tauros
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743855713
+|switch|p1a: Iron Treads|Iron Treads|57/100
+|turn|10
+|
+|t:|1743855716
+|move|p1a: Iron Treads|Earthquake|p2a: Village Crusher
+|-damage|p2a: Village Crusher|16/100
+|move|p2a: Village Crusher|Headlong Rush|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-unboost|p2a: Village Crusher|def|1
+|-unboost|p2a: Village Crusher|spd|1
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743855725
+|switch|p1a: Moltres|Moltres|100/100
+|turn|11
+|
+|t:|1743855729
+|move|p1a: Moltres|Flamethrower|p2a: Village Crusher
+|-damage|p2a: Village Crusher|0 fnt
+|faint|p2a: Village Crusher
+|
+|upkeep
+|
+|t:|1743855731
+|switch|p2a: Chad|Azumarill, F, tera:Grass|77/100
+|turn|12
+|
+|t:|1743855734
+|move|p1a: Moltres|Flamethrower|p2a: Chad
+|-supereffective|p2a: Chad
+|-damage|p2a: Chad|30/100
+|move|p2a: Chad|Liquidation|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|26/100
+|-unboost|p1a: Moltres|def|1
+|
+|upkeep
+|turn|13
+|c|☆Cybereli01|gg
+|
+|t:|1743855745
+|move|p2a: Chad|Aqua Jet|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|win|Cybereli01
+|raw|Lamelunaire's rating: 1178 &rarr; <strong>1157</strong><br />(-21 for losing)
+|raw|Cybereli01's rating: 1237 &rarr; <strong>1258</strong><br />(+21 for winning)
+|l|☆Lamelunaire
+|player|p1|

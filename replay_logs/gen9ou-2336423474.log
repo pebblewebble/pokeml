@@ -1,0 +1,263 @@
+|j|☆imnewbutillbeatu
+|j|☆btagrere
+|t:|1743915412
+|gametype|singles
+|player|p1|imnewbutillbeatu|1|1152
+|player|p2|btagrere|unknown|1172
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Moth|
+|poke|p1|Dragapult, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Hawlucha, M|
+|poke|p1|Cloyster, M|
+|poke|p1|Great Tusk|
+|poke|p2|Dragonite, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Gholdengo|
+|poke|p2|Blastoise, M|
+|poke|p2|Corviknight, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by btagrere)
+|
+|t:|1743915428
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1743915439
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|move|p1a: Great Tusk|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|upkeep
+|turn|2
+|
+|t:|1743915450
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|move|p2a: Corviknight|Brave Bird|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|71/100
+|-damage|p2a: Corviknight|90/100|[from] Recoil
+|
+|upkeep
+|turn|3
+|
+|t:|1743915460
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|move|p2a: Corviknight|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|69/100
+|
+|t:|1743915466
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|
+|upkeep
+|turn|4
+|
+|t:|1743915476
+|move|p2a: Iron Valiant|Moonblast|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743915489
+|switch|p1a: Hawlucha|Hawlucha, M|100/100
+|turn|5
+|
+|t:|1743915499
+|-terastallize|p2a: Iron Valiant|Steel
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|
+|upkeep
+|turn|6
+|
+|t:|1743915508
+|move|p2a: Iron Valiant|Moonblast|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-enditem|p1a: Hawlucha|Focus Sash
+|-damage|p1a: Hawlucha|1/100
+|-unboost|p1a: Hawlucha|spa|1
+|move|p1a: Hawlucha|Close Combat|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-unboost|p1a: Hawlucha|def|1
+|-unboost|p1a: Hawlucha|spd|1
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743915520
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|7
+|
+|t:|1743915526
+|move|p1a: Hawlucha|Acrobatics|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|49/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|
+|t:|1743915541
+|switch|p1a: Cloyster|Cloyster, M|100/100
+|turn|8
+|
+|t:|1743915552
+|switch|p2a: Corviknight|Corviknight, F|90/100
+|move|p1a: Cloyster|Shell Smash|p1a: Cloyster
+|-unboost|p1a: Cloyster|def|1
+|-unboost|p1a: Cloyster|spd|1
+|-boost|p1a: Cloyster|atk|2
+|-boost|p1a: Cloyster|spa|2
+|-boost|p1a: Cloyster|spe|2
+|
+|upkeep
+|turn|9
+|
+|t:|1743915560
+|move|p1a: Cloyster|Rock Blast|p2a: Corviknight|[miss]
+|-miss|p1a: Cloyster|p2a: Corviknight
+|move|p2a: Corviknight|Brave Bird|p1a: Cloyster
+|-damage|p1a: Cloyster|57/100
+|-damage|p2a: Corviknight|81/100|[from] Recoil
+|
+|upkeep
+|turn|10
+|
+|t:|1743915568
+|move|p1a: Cloyster|Rock Blast|p2a: Corviknight
+|-damage|p2a: Corviknight|71/100
+|-damage|p2a: Corviknight|63/100
+|-damage|p2a: Corviknight|54/100
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|41/100
+|-damage|p2a: Corviknight|32/100
+|-hitcount|p2a: Corviknight|5
+|move|p2a: Corviknight|Brave Bird|p1a: Cloyster
+|-damage|p1a: Cloyster|12/100
+|-damage|p2a: Corviknight|23/100|[from] Recoil
+|
+|upkeep
+|turn|11
+|
+|t:|1743915585
+|move|p1a: Cloyster|Icicle Spear|p2a: Corviknight
+|-damage|p2a: Corviknight|9/100
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|-hitcount|p2: Corviknight|2
+|
+|upkeep
+|
+|t:|1743915591
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|12
+|
+|t:|1743915596
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Dragonite|Extreme Speed|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|upkeep
+|turn|13
+|
+|t:|1743915607
+|-terastallize|p1a: Dragapult|Dragon
+|move|p1a: Dragapult|Dragon Darts|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|42/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|c|☆imnewbutillbeatu|hi
+|
+|t:|1743915626
+|switch|p2a: Slowking|Slowking-Galar, F, shiny|100/100
+|turn|14
+|c|☆imnewbutillbeatu|glhf
+|c|☆imnewbutillbeatu|srry I'm late
+|
+|t:|1743915634
+|move|p1a: Dragapult|Dragon Darts|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|29/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1743915641
+|switch|p2a: Gholdengo|Gholdengo|49/100
+|turn|15
+|
+|t:|1743915646
+|move|p2a: Gholdengo|Make It Rain|p1a: Dragapult
+|-damage|p1a: Dragapult|19/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Dragapult|Dragon Darts|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|23/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743915658
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|turn|16
+|c|☆imnewbutillbeatu|nice scarf dengho
+|
+|t:|1743915663
+|move|p1a: Dragapult|Dragon Darts|p2a: Blastoise
+|-damage|p2a: Blastoise|45/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|win|imnewbutillbeatu
+|raw|imnewbutillbeatu's rating: 1152 &rarr; <strong>1178</strong><br />(+26 for winning)
+|raw|btagrere's rating: 1172 &rarr; <strong>1146</strong><br />(-26 for losing)
+|l|☆btagrere
+|player|p2|
+|l|☆imnewbutillbeatu
+|player|p1|

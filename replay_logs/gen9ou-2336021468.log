@@ -1,0 +1,271 @@
+|j|☆ThunderClapYaMama
+|j|☆jiotave
+|t:|1743870754
+|gametype|singles
+|player|p1|ThunderClapYaMama|ltsurge|1599
+|player|p2|jiotave|hilbert|1577
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Gholdengo|
+|poke|p1|Raging Bolt|
+|poke|p2|Torkoal, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Walking Wake|
+|poke|p2|Iron Moth|
+|poke|p2|Venusaur, M|
+|poke|p2|Great Tusk|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jiotave)
+|
+|t:|1743870767
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1743870777
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Landorus|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|46/100
+|-enditem|p2a: Hatterene|Eject Button
+|
+|t:|1743870798
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743870811
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Landorus|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|95/100
+|
+|t:|1743870817
+|switch|p1a: Ting-Lu|Ting-Lu|100/100|[from] U-turn
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743870825
+|move|p2a: Great Tusk|Ice Spinner|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|66/100
+|move|p1a: Ting-Lu|Whirlwind|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|drag|p2a: Dreamfyre|Walking Wake|100/100
+|-activate|p2a: Dreamfyre|ability: Protosynthesis
+|-start|p2a: Dreamfyre|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ting-Lu|72/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743870837
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Dreamfyre|Flamethrower|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743870845
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|5
+|
+|t:|1743870851
+|-end|p2a: Dreamfyre|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|46/100
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Hatterene
+|-immune|p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743870863
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Ting-Lu|Ting-Lu|72/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ting-Lu|79/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743870873
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|turn|7
+|
+|t:|1743870879
+|move|p2a: Venusaur|Solar Beam||[still]
+|-prepare|p2a: Venusaur|Solar Beam
+|-anim|p2a: Venusaur|Solar Beam|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|11/100
+|-damage|p2a: Venusaur|91/100|[from] item: Life Orb
+|move|p1a: Ting-Lu|Whirlwind|p2a: Venusaur
+|drag|p2a: Torkoal|Torkoal, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ting-Lu|17/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743870892
+|move|p1a: Ting-Lu|Ruination|p2a: Torkoal|[miss]
+|-miss|p1a: Ting-Lu|p2a: Torkoal
+|move|p2a: Torkoal|Body Press|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|-weather|none
+|upkeep
+|
+|t:|1743870913
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|9
+|
+|t:|1743870919
+|switch|p2a: Great Tusk|Great Tusk|95/100
+|-heal|p2a: Great Tusk|100/100|[from] move: Healing Wish
+|move|p1a: Great Tusk|Knock Off|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|91/100
+|-enditem|p2a: Great Tusk|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|10
+|
+|t:|1743870930
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|upkeep
+|turn|11
+|
+|t:|1743870939
+|-terastallize|p2a: Great Tusk|Ice
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743870959
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Great Tusk|[anim] Ivy Cudgel Water
+|-damage|p2a: Great Tusk|55/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Ogerpon
+|-damage|p1a: Ogerpon|63/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|upkeep
+|turn|13
+|
+|t:|1743870971
+|move|p2a: Great Tusk|Ice Spinner|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743870978
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|turn|14
+|
+|t:|1743870984
+|move|p2a: Great Tusk|Ice Spinner|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743870988
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|15
+|
+|t:|1743870999
+|-terastallize|p1a: Raging Bolt|Electric
+|move|p2a: Great Tusk|Headlong Rush|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|c|☆jiotave|Lol
+|
+|t:|1743871007
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|16
+|
+|t:|1743871016
+|move|p2a: Great Tusk|Ice Spinner|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|35/100
+|-damage|p2a: Great Tusk|39/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|move|p1a: Great Tusk|Rapid Spin|p2a: Great Tusk
+|-damage|p2a: Great Tusk|31/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|upkeep
+|turn|17
+|
+|t:|1743871025
+|move|p2a: Great Tusk|Ice Spinner|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-damage|p2a: Great Tusk|15/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|win|jiotave
+|raw|ThunderClapYaMama's rating: 1599 &rarr; <strong>1578</strong><br />(-21 for losing)
+|raw|jiotave's rating: 1577 &rarr; <strong>1598</strong><br />(+21 for winning)
+|l|☆ThunderClapYaMama
+|player|p1|
+|l|☆jiotave
+|player|p2|

@@ -1,0 +1,307 @@
+|j|‽Uvah
+|j|☆E4Sens
+|t:|1743801190
+|gametype|singles
+|player|p1|Uvah|clown|1178
+|player|p2|E4Sens|sidney|1232
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Corviknight, F|
+|poke|p1|Torkoal, F|
+|poke|p1|Scizor, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Pachirisu, F|
+|poke|p1|Typhlosion, F|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Malamar, M|
+|poke|p2|Weavile, M|
+|poke|p2|Greninja-*, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Iron Jugulis|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by E4Sens)
+|
+|t:|1743801237
+|start
+|switch|p1a: Pachirisu|Pachirisu, F|100/100
+|switch|p2a: Weavile|Weavile, M|100/100
+|turn|1
+|
+|t:|1743801246
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|move|p1a: Pachirisu|U-turn|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|75/100
+|
+|t:|1743801255
+|switch|p1a: Scizor|Scizor, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1743801263
+|move|p1a: Scizor|Bullet Punch|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|-damage|p1a: Scizor|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743801274
+|switch|p2a: Iron Jugulis|Iron Jugulis|100/100
+|-enditem|p2a: Iron Jugulis|Booster Energy
+|-activate|p2a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Jugulis|quarkdrivespa
+|turn|3
+|
+|t:|1743801302
+|switch|p1a: Pachirisu|Pachirisu, F|100/100
+|move|p2a: Iron Jugulis|Dark Pulse|p1a: Pachirisu
+|-damage|p1a: Pachirisu|51/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743801310
+|move|p2a: Iron Jugulis|Dark Pulse|p1a: Pachirisu
+|-damage|p1a: Pachirisu|0 fnt
+|faint|p1a: Pachirisu
+|
+|upkeep
+|
+|t:|1743801325
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|5
+|
+|t:|1743801330
+|move|p2a: Iron Jugulis|Taunt|p1a: Raging Bolt
+|-start|p1a: Raging Bolt|move: Taunt
+|cant|p1a: Raging Bolt|move: Taunt|Calm Mind
+|
+|upkeep
+|turn|6
+|
+|t:|1743801335
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Hoopa
+|-damage|p2a: Hoopa|74/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743801343
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Hoopa|Psychic Noise|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|78/100
+|-start|p1a: Corviknight|move: Heal Block
+|
+|upkeep
+|turn|8
+|
+|t:|1743801350
+|move|p2a: Hoopa|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1743801354
+|switch|p1a: Scizor|Scizor, M|91/100
+|turn|9
+|
+|t:|1743801359
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Scizor|U-turn|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|73/100
+|-damage|p1a: Scizor|74/100|[from] item: Rocky Helmet|[of] p2a: Mandibuzz
+|-damage|p1a: Scizor|64/100|[from] item: Life Orb
+|
+|t:|1743801369
+|switch|p1a: Torkoal|Torkoal, F|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743801375
+|move|p2a: Mandibuzz|Taunt|p1a: Torkoal
+|-start|p1a: Torkoal|move: Taunt
+|cant|p1a: Torkoal|move: Taunt|Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743801380
+|switch|p2a: Hoopa|Hoopa-Unbound|74/100
+|move|p1a: Torkoal|Lava Plume|p2a: Hoopa
+|-damage|p2a: Hoopa|58/100
+|-status|p2a: Hoopa|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Hoopa|52/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743801397
+|move|p2a: Hoopa|Psychic Noise|p1a: Torkoal
+|-damage|p1a: Torkoal|39/100
+|-start|p1a: Torkoal|move: Heal Block
+|move|p1a: Torkoal|Earthquake|p2a: Hoopa
+|-damage|p2a: Hoopa|22/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Hoopa|16/100 brn|[from] brn
+|-end|p1a: Torkoal|move: Taunt
+|upkeep
+|turn|13
+|inactive|Uvah has 120 seconds left.
+|
+|t:|1743801423
+|switch|p1a: Scizor|Scizor, M|64/100
+|move|p2a: Hoopa|Psychic Noise|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|33/100
+|-start|p1a: Scizor|move: Heal Block
+|
+|-weather|none
+|-damage|p2a: Hoopa|10/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743801433
+|switch|p2a: Mandibuzz|Mandibuzz, F|73/100
+|move|p1a: Scizor|Bullet Punch|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|47/100
+|-damage|p1a: Scizor|16/100|[from] item: Rocky Helmet|[of] p2a: Mandibuzz
+|-damage|p1a: Scizor|6/100|[from] item: Life Orb
+|
+|-end|p1a: Scizor|move: Heal Block
+|upkeep
+|turn|15
+|
+|t:|1743801443
+|move|p1a: Scizor|Bullet Punch|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|23/100
+|-damage|p1a: Scizor|0 fnt|[from] item: Rocky Helmet|[of] p2a: Mandibuzz
+|faint|p1a: Scizor
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|73/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|upkeep
+|
+|t:|1743801449
+|switch|p1a: Torkoal|Torkoal, F|39/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|16
+|
+|t:|1743801453
+|move|p2a: Mandibuzz|Taunt|p1a: Torkoal
+|-start|p1a: Torkoal|move: Taunt
+|move|p1a: Torkoal|Lava Plume|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|42/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743801463
+|switch|p2a: Hoopa|Hoopa-Unbound|10/100 brn
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Hoopa|4/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743801487
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|move|p2a: Hoopa|Psychic Noise|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|66/100
+|-start|p1a: Raging Bolt|move: Heal Block
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Hoopa|0 fnt|[from] brn
+|faint|p2a: Hoopa
+|upkeep
+|
+|t:|1743801500
+|switch|p2a: Malamar|Malamar, M|100/100
+|turn|19
+|
+|t:|1743801506
+|-terastallize|p1a: Raging Bolt|Electric
+|move|p2a: Malamar|Knock Off|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|30/100
+|-enditem|p1a: Raging Bolt|Leftovers|[from] move: Knock Off|[of] p2a: Malamar
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Malamar
+|-damage|p2a: Malamar|0 fnt
+|faint|p2a: Malamar
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Raging Bolt|move: Heal Block
+|upkeep
+|
+|t:|1743801518
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|20
+|
+|t:|1743801521
+|-terastallize|p2a: Greninja|Water
+|move|p2a: Greninja|Water Shuriken|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|28/100
+|-damage|p1a: Raging Bolt|25/100
+|-damage|p1a: Raging Bolt|21/100
+|-damage|p1a: Raging Bolt|18/100
+|-damage|p1a: Raging Bolt|15/100
+|-hitcount|p1a: Raging Bolt|5
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|-weather|none
+|-end|p1a: Raging Bolt|Protosynthesis
+|upkeep
+|turn|21
+|
+|t:|1743801543
+|move|p1a: Raging Bolt|Thunderclap|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|upkeep
+|-message|E4Sens forfeited.
+|
+|win|Uvah
+|raw|Uvah's rating: 1178 &rarr; <strong>1207</strong><br />(+29 for winning)
+|raw|E4Sens's rating: 1232 &rarr; <strong>1203</strong><br />(-29 for losing)
+|l|☆E4Sens
+|player|p2|
+|l|‽Uvah
+|player|p1|
+|j|‽Uvah
+|player|p1|Uvah|clown|
+|n|‽Uvah|uvah

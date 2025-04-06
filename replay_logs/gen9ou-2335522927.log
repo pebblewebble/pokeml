@@ -1,0 +1,173 @@
+|j|☆voltz24
+|j|☆E4Sens
+|t:|1743802338
+|gametype|singles
+|player|p1|voltz24|preschooler|1231
+|player|p2|E4Sens|sidney|1207
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Sneasel-Hisui, M|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Dragapult, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Primarina, M|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Malamar, M|
+|poke|p2|Weavile, F|
+|poke|p2|Greninja-*, M|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Iron Jugulis|
+|teampreview
+|
+|t:|1743802371
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Weavile|Weavile, F|100/100
+|turn|1
+|
+|t:|1743802386
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|move|p1a: Great Tusk|Headlong Rush|p2a: Weavile
+|-enditem|p2a: Weavile|Focus Sash
+|-damage|p2a: Weavile|1/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-enditem|p1a: Great Tusk|Rocky Helmet|[silent]|[from] ability: Pickpocket|[of] p1a: Great Tusk
+|-item|p2a: Weavile|Rocky Helmet|[from] ability: Pickpocket|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|2
+|
+|t:|1743802409
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|move|p2a: Weavile|Triple Axel|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|93/100
+|-hitcount|p1a: Kingambit|1
+|
+|-heal|p1a: Kingambit|99/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743802417
+|move|p2a: Weavile|Ice Shard|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|83/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p1a: Kingambit|89/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743802425
+|move|p1a: Kingambit|Sucker Punch|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-damage|p1a: Kingambit|73/100|[from] item: Rocky Helmet|[of] p2a: Weavile
+|faint|p2a: Weavile
+|
+|-heal|p1a: Kingambit|79/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743802432
+|switch|p2a: Malamar|Malamar, M|100/100
+|turn|5
+|
+|t:|1743802451
+|move|p1a: Kingambit|Sucker Punch|p2a: Malamar
+|-damage|p2a: Malamar|0 fnt
+|faint|p2a: Malamar
+|
+|-heal|p1a: Kingambit|85/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743802468
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|turn|6
+|
+|t:|1743802477
+|move|p2a: Hoopa|Drain Punch|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|5/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|-heal|p1a: Kingambit|11/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743802486
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|7
+|
+|t:|1743802491
+|move|p2a: Greninja|Water Shuriken|p1a: Kingambit
+|-damage|p1a: Kingambit|3/100
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|-ability|p2a: Greninja|Battle Bond|boost
+|-boost|p2a: Greninja|atk|1
+|-boost|p2a: Greninja|spa|1
+|-boost|p2a: Greninja|spe|1
+|-activate|p2a: Greninja|ability: Battle Bond
+|-hitcount|p1: Kingambit|2
+|
+|upkeep
+|
+|t:|1743802519
+|switch|p1a: Sneasel|Sneasel-Hisui, M|100/100
+|turn|8
+|
+|t:|1743802529
+|-terastallize|p1a: Sneasel|Water
+|move|p2a: Greninja|Dark Pulse|p1a: Sneasel
+|-damage|p1a: Sneasel|35/100
+|move|p1a: Sneasel|Close Combat|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|-unboost|p1a: Sneasel|def|1
+|-unboost|p1a: Sneasel|spd|1
+|faint|p2a: Greninja
+|
+|upkeep
+|
+|t:|1743802538
+|switch|p2a: Iron Jugulis|Iron Jugulis|100/100
+|-enditem|p2a: Iron Jugulis|Booster Energy
+|-activate|p2a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Jugulis|quarkdrivespa
+|turn|9
+|
+|t:|1743802548
+|move|p1a: Sneasel|Close Combat|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|37/100
+|-unboost|p1a: Sneasel|def|1
+|-unboost|p1a: Sneasel|spd|1
+|move|p2a: Iron Jugulis|Air Slash|p1a: Sneasel|[miss]
+|-miss|p2a: Iron Jugulis|p1a: Sneasel
+|
+|upkeep
+|turn|10
+|-message|E4Sens forfeited.
+|
+|win|voltz24
+|raw|voltz24's rating: 1231 &rarr; <strong>1254</strong><br />(+23 for winning)
+|raw|E4Sens's rating: 1207 &rarr; <strong>1184</strong><br />(-23 for losing)
+|l|☆E4Sens
+|player|p2|

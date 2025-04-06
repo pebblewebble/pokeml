@@ -1,0 +1,160 @@
+|j|☆g2zach
+|j|☆kodezter
+|t:|1743912708
+|gametype|singles
+|player|p1|g2zach|2|1337
+|player|p2|kodezter|266|1342
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blaziken, F|
+|poke|p1|Great Tusk|
+|poke|p1|Raging Bolt|
+|poke|p1|Kingambit, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Alomomola, F|
+|poke|p2|Kyurem|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Gliscor, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Sinistcha|
+|teampreview
+|
+|t:|1743912722
+|start
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|1
+|
+|t:|1743912726
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Enamorus|Moonblast|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743912732
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743912746
+|switch|p2a: Sinistcha|Sinistcha|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|69/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743912765
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Sinistcha|Strength Sap|p1a: Raging Bolt
+|-unboost|p1a: Raging Bolt|atk|1
+|-heal|p2a: Sinistcha|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743912786
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|62/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743912795
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Slowking
+|-damage|p2a: Slowking|2/100
+|-unboost|p1a: Raging Bolt|spa|2
+|move|p2a: Slowking|Future Sight|p1a: Raging Bolt
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|7
+|
+|t:|1743912821
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743912830
+|-terastallize|p1a: Raging Bolt|Electric
+|move|p2a: Iron Valiant|Moonblast|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|75/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-end|p1a: Raging Bolt|move: Future Sight
+|-damage|p1a: Raging Bolt|55/100
+|upkeep
+|turn|9
+|
+|t:|1743912842
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Slowking|Slowking-Galar, M|35/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1743912853
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|10
+|
+|t:|1743912858
+|move|p2a: Kyurem|Earth Power|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|16/100
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-unboost|p1a: Raging Bolt|spa|2
+|faint|p2a: Kyurem
+|
+|upkeep
+|-message|kodezter forfeited.
+|
+|win|g2zach
+|raw|g2zach's rating: 1337 &rarr; <strong>1357</strong><br />(+20 for winning)
+|raw|kodezter's rating: 1342 &rarr; <strong>1322</strong><br />(-20 for losing)
+|l|☆kodezter
+|player|p2|
+|l|☆g2zach
+|player|p1|

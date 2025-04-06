@@ -1,0 +1,331 @@
+|j|☆sakanachi
+|j|☆Shadow4cTest3r
+|t:|1743837424
+|gametype|singles
+|player|p1|sakanachi|265|1489
+|player|p2|Shadow4cTest3r|101|1496
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Indeedee, M|
+|poke|p1|Armarouge, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Polteageist|
+|poke|p1|Hawlucha, F|
+|poke|p1|Deoxys-Speed|
+|poke|p2|Garganacl, M|
+|poke|p2|Hydrapple, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Ting-Lu|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Weezing-Galar, F|
+|teampreview
+|
+|t:|1743837436
+|start
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1743837439
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|71/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1743837445
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|-enditem|p1a: Hawlucha|Psychic Seed
+|-boost|p1a: Hawlucha|spd|1|[from] item: Psychic Seed
+|
+|upkeep
+|turn|2
+|
+|t:|1743837447
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Hawlucha|Encore||[still]
+|-fail|p1a: Hawlucha
+|
+|upkeep
+|turn|3
+|
+|t:|1743837450
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Weezing|Strange Steam|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|52/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743837452
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Weezing|Strange Steam|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|upkeep
+|
+|t:|1743837456
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|turn|5
+|
+|t:|1743837462
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|-ability|p1a: Deoxys|Pressure
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Deoxys|Knock Off|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|93/100
+|-enditem|p2a: Ting-Lu|Leftovers|[from] move: Knock Off|[of] p1a: Deoxys
+|-damage|p1a: Deoxys|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|t:|1743837467
+|move|p1a: Deoxys|Ice Beam|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|63/100
+|-damage|p1a: Deoxys|81/100|[from] item: Life Orb
+|move|p2a: Ting-Lu|Earthquake|p1a: Deoxys
+|-damage|p1a: Deoxys|20/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743837470
+|move|p1a: Deoxys|Ice Beam|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|31/100
+|-damage|p1a: Deoxys|10/100|[from] item: Life Orb
+|move|p2a: Ting-Lu|Earthquake|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|
+|t:|1743837477
+|switch|p1a: Hatterene|Hatterene, F|71/100
+|turn|8
+|
+|t:|1743837481
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Garganacl
+|-damage|p2a: Garganacl|84/100
+|-heal|p1a: Hatterene|87/100|[from] drain|[of] p2a: Garganacl
+|
+|-heal|p2a: Garganacl|90/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|t:|1743837486
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Garganacl|Salt Cure|p1a: Indeedee
+|-damage|p1a: Indeedee|78/100
+|-start|p1a: Indeedee|Salt Cure
+|
+|-heal|p2a: Garganacl|97/100|[from] item: Leftovers
+|-damage|p1a: Indeedee|66/100|[from] Salt Cure
+|upkeep
+|turn|10
+|
+|t:|1743837490
+|switch|p2a: Ting-Lu|Ting-Lu|31/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Indeedee|Healing Wish|p1a: Indeedee
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|t:|1743837493
+|switch|p1a: Polteageist|Polteageist|100/100
+|turn|11
+|
+|t:|1743837495
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|move|p2a: Ting-Lu|Whirlwind|p1a: Polteageist
+|drag|p1a: Hatterene|Hatterene, F|87/100
+|-heal|p1a: Hatterene|100/100|[from] move: Healing Wish
+|
+|upkeep
+|turn|12
+|
+|t:|1743837502
+|switch|p2a: Garganacl|Garganacl, M|97/100
+|move|p1a: Hatterene|Draining Kiss|p2a: Garganacl
+|-crit|p2a: Garganacl
+|-damage|p2a: Garganacl|73/100
+|
+|-heal|p2a: Garganacl|79/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743837507
+|move|p2a: Garganacl|Salt Cure|p1a: Hatterene
+|-damage|p1a: Hatterene|89/100
+|-start|p1a: Hatterene|Salt Cure
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|
+|-heal|p2a: Garganacl|85/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743837509
+|switch|p1a: Polteageist|Polteageist|100/100
+|turn|14
+|
+|t:|1743837511
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|move|p2a: Garganacl|Salt Cure|p1a: Polteageist
+|-damage|p1a: Polteageist|60/100
+|-start|p1a: Polteageist|Salt Cure
+|-ability|p1a: Polteageist|Weak Armor|boost
+|-unboost|p1a: Polteageist|def|1
+|-boost|p1a: Polteageist|spe|2
+|
+|-heal|p2a: Garganacl|91/100|[from] item: Leftovers
+|-damage|p1a: Polteageist|48/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1743837516
+|switch|p2a: Ting-Lu|Ting-Lu|31/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Polteageist|Tera Blast|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|6/100
+|
+|-damage|p1a: Polteageist|35/100|[from] Salt Cure
+|upkeep
+|turn|16
+|
+|t:|1743837519
+|move|p1a: Polteageist|Shadow Ball|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|-damage|p1a: Polteageist|23/100|[from] Salt Cure
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1743837525
+|switch|p2a: Hydrapple|Hydrapple, M|100/100
+|turn|17
+|
+|t:|1743837527
+|move|p1a: Polteageist|Stored Power|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|
+|-damage|p1a: Polteageist|11/100|[from] Salt Cure
+|upkeep
+|
+|t:|1743837533
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|18
+|
+|t:|1743837536
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Polteageist|Shadow Ball|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|-damage|p1a: Polteageist|0 fnt|[from] Salt Cure
+|faint|p1a: Polteageist
+|upkeep
+|
+|t:|1743837543
+|switch|p1a: Armarouge|Armarouge, F|100/100
+|switch|p2a: Garganacl|Garganacl, M|91/100
+|turn|19
+|
+|t:|1743837547
+|-terastallize|p1a: Armarouge|Psychic
+|move|p1a: Armarouge|Calm Mind|p1a: Armarouge
+|-boost|p1a: Armarouge|spa|1
+|-boost|p1a: Armarouge|spd|1
+|move|p2a: Garganacl|Salt Cure|p1a: Armarouge
+|-damage|p1a: Armarouge|86/100
+|-start|p1a: Armarouge|Salt Cure
+|-ability|p1a: Armarouge|Weak Armor|boost
+|-unboost|p1a: Armarouge|def|1
+|-boost|p1a: Armarouge|spe|2
+|
+|-heal|p2a: Garganacl|97/100|[from] item: Leftovers
+|-damage|p1a: Armarouge|73/100|[from] Salt Cure
+|upkeep
+|turn|20
+|
+|t:|1743837557
+|move|p1a: Armarouge|Expanding Force|p2a: Garganacl
+|-crit|p2a: Garganacl
+|-damage|p2a: Garganacl|8/100
+|move|p2a: Garganacl|Earthquake|p1a: Armarouge
+|-damage|p1a: Armarouge|35/100
+|-ability|p1a: Armarouge|Weak Armor|boost
+|-unboost|p1a: Armarouge|def|1
+|-boost|p1a: Armarouge|spe|2
+|
+|-heal|p2a: Garganacl|14/100|[from] item: Leftovers
+|-damage|p1a: Armarouge|23/100|[from] Salt Cure
+|upkeep
+|turn|21
+|
+|t:|1743837560
+|move|p1a: Armarouge|Expanding Force|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-damage|p1a: Armarouge|10/100|[from] Salt Cure
+|upkeep
+|
+|t:|1743837562
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|22
+|
+|t:|1743837564
+|move|p1a: Armarouge|Expanding Force|p2a: Slowking
+|-damage|p2a: Slowking|63/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|
+|win|Shadow4cTest3r
+|raw|sakanachi's rating: 1489 &rarr; <strong>1469</strong><br />(-20 for losing)
+|raw|Shadow4cTest3r's rating: 1496 &rarr; <strong>1516</strong><br />(+20 for winning)
+|l|☆sakanachi
+|player|p1|
+|l|☆Shadow4cTest3r
+|player|p2|

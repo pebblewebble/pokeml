@@ -1,0 +1,294 @@
+|j|☆prime zakery
+|j|☆jibreel69
+|t:|1743878822
+|gametype|singles
+|player|p1|prime zakery|unknown|1150
+|player|p2|jibreel69|clair|1117
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Quaquaval, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Hawlucha, F|
+|poke|p1|Iron Treads|
+|poke|p1|Dragapult, F|
+|poke|p1|Raging Bolt|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Alomomola, M|
+|poke|p2|Alcremie, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Blaziken, M|
+|teampreview
+|
+|t:|1743878831
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Blaziken|Blaziken, M|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1743878845
+|switch|p2a: Thundurus|Thundurus-Therian, M, shiny|100/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Thundurus
+|-immune|p2a: Thundurus|[from] ability: Volt Absorb
+|
+|upkeep
+|turn|2
+|
+|t:|1743878868
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Thundurus|Dark Pulse|p1a: Iron Treads
+|-damage|p1a: Iron Treads|35/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743878880
+|switch|p2a: Alomomola|Alomomola, M, shiny|100/100
+|move|p1a: Iron Treads|Earth Power|p2a: Alomomola
+|-damage|p2a: Alomomola|73/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743878886
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|move|p2a: Alomomola|Flip Turn|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|93/100
+|
+|t:|1743878901
+|switch|p2a: Alcremie|Alcremie, F, shiny|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|5
+|
+|t:|1743878909
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Alcremie
+|-damage|p2a: Alcremie|54/100
+|move|p2a: Alcremie|Calm Mind|p2a: Alcremie
+|-boost|p2a: Alcremie|spa|1
+|-boost|p2a: Alcremie|spd|1
+|
+|-heal|p2a: Alcremie|60/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743878919
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Alcremie
+|-damage|p2a: Alcremie|31/100
+|move|p2a: Alcremie|Draining Kiss|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|41/100
+|-heal|p2a: Alcremie|76/100|[from] drain|[of] p1a: Raging Bolt
+|
+|-heal|p2a: Alcremie|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743878928
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Alcremie
+|-damage|p2a: Alcremie|50/100
+|move|p2a: Alcremie|Calm Mind|p2a: Alcremie
+|-boost|p2a: Alcremie|spa|1
+|-boost|p2a: Alcremie|spd|1
+|
+|-heal|p2a: Alcremie|56/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743878940
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Iron Treads|Iron Treads|35/100
+|move|p2a: Alcremie|Draining Kiss|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|7/100
+|-heal|p2a: Alcremie|77/100|[from] drain|[of] p1a: Iron Treads
+|
+|-heal|p2a: Alcremie|83/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743878949
+|move|p1a: Iron Treads|Flash Cannon|p2a: Alcremie
+|-supereffective|p2a: Alcremie
+|-damage|p2a: Alcremie|59/100
+|move|p2a: Alcremie|Acid Armor|p2a: Alcremie
+|-boost|p2a: Alcremie|def|2
+|
+|-heal|p2a: Alcremie|65/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743878961
+|move|p1a: Iron Treads|Flash Cannon|p2a: Alcremie
+|-supereffective|p2a: Alcremie
+|-damage|p2a: Alcremie|41/100
+|move|p2a: Alcremie|Draining Kiss|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-heal|p2a: Alcremie|45/100|[from] drain|[of] p1a: Iron Treads
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p2a: Alcremie|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743878964
+|switch|p1a: Raging Bolt|Raging Bolt|41/100
+|turn|11
+|
+|t:|1743878972
+|move|p1a: Raging Bolt|Thunderclap|p2a: Alcremie
+|-damage|p2a: Alcremie|32/100
+|move|p2a: Alcremie|Draining Kiss|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|-heal|p2a: Alcremie|68/100|[from] drain|[of] p1a: Raging Bolt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-heal|p2a: Alcremie|74/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743878979
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|12
+|
+|t:|1743878986
+|move|p1a: Rillaboom|U-turn|p2a: Alcremie
+|-resisted|p2a: Alcremie
+|-damage|p2a: Alcremie|68/100
+|
+|t:|1743878988
+|switch|p1a: Hawlucha|Hawlucha, F, shiny|100/100|[from] U-turn
+|-enditem|p1a: Hawlucha|Grassy Seed
+|-boost|p1a: Hawlucha|def|1|[from] item: Grassy Seed
+|move|p2a: Alcremie|Stored Power|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-heal|p2a: Alcremie|74/100|[from] Grassy Terrain
+|-heal|p2a: Alcremie|80/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743878990
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|turn|13
+|
+|t:|1743879001
+|move|p1a: Rillaboom|Wood Hammer|p2a: Alcremie
+|-damage|p2a: Alcremie|38/100
+|-damage|p1a: Rillaboom|87/100|[from] Recoil
+|move|p2a: Alcremie|Draining Kiss|p1a: Rillaboom
+|-damage|p1a: Rillaboom|40/100
+|-heal|p2a: Alcremie|74/100|[from] drain|[of] p1a: Rillaboom
+|-damage|p2a: Alcremie|58/100|[from] item: Rocky Helmet|[of] p1a: Rillaboom
+|
+|-heal|p1a: Rillaboom|46/100|[from] Grassy Terrain
+|-heal|p2a: Alcremie|64/100|[from] Grassy Terrain
+|-heal|p2a: Alcremie|70/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743879014
+|move|p1a: Rillaboom|Grassy Glide|p2a: Alcremie
+|-damage|p2a: Alcremie|50/100
+|move|p2a: Alcremie|Draining Kiss|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-heal|p2a: Alcremie|85/100|[from] drain|[of] p1a: Rillaboom
+|-damage|p2a: Alcremie|69/100|[from] item: Rocky Helmet|[of] p1a: Rillaboom
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Alcremie|75/100|[from] Grassy Terrain
+|-heal|p2a: Alcremie|81/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743879018
+|switch|p1a: Quaquaval|Quaquaval, M|100/100
+|turn|15
+|
+|t:|1743879028
+|move|p1a: Quaquaval|Aqua Step|p2a: Alcremie
+|-damage|p2a: Alcremie|62/100
+|-boost|p1a: Quaquaval|spe|1
+|move|p2a: Alcremie|Draining Kiss|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-damage|p1a: Quaquaval|4/100
+|-heal|p2a: Alcremie|100/100|[from] drain|[of] p1a: Quaquaval
+|-damage|p2a: Alcremie|84/100|[from] item: Rocky Helmet|[of] p1a: Quaquaval
+|
+|-heal|p1a: Quaquaval|10/100|[from] Grassy Terrain
+|-heal|p2a: Alcremie|90/100|[from] Grassy Terrain
+|-heal|p2a: Alcremie|96/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743879043
+|move|p1a: Quaquaval|Triple Axel|p2a: Alcremie
+|-damage|p2a: Alcremie|93/100
+|-hitcount|p2a: Alcremie|1
+|move|p2a: Alcremie|Draining Kiss|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|-heal|p2a: Alcremie|99/100|[from] drain|[of] p1a: Quaquaval
+|-damage|p2a: Alcremie|83/100|[from] item: Rocky Helmet|[of] p1a: Quaquaval
+|faint|p1a: Quaquaval
+|
+|-heal|p2a: Alcremie|89/100|[from] Grassy Terrain
+|-heal|p2a: Alcremie|95/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1743879045
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|17
+|
+|t:|1743879057
+|-terastallize|p1a: Dragapult|Fairy
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Alcremie
+|-status|p2a: Alcremie|brn
+|move|p2a: Alcremie|Draining Kiss|p1a: Dragapult
+|-damage|p1a: Dragapult|46/100
+|-heal|p2a: Alcremie|100/100 brn|[from] drain|[of] p1a: Dragapult
+|-damage|p2a: Alcremie|84/100 brn|[from] item: Rocky Helmet|[of] p1a: Dragapult
+|
+|-heal|p2a: Alcremie|90/100 brn|[from] item: Leftovers
+|-damage|p2a: Alcremie|84/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743879071
+|move|p1a: Dragapult|Flamethrower|p2a: Alcremie
+|-damage|p2a: Alcremie|72/100 brn
+|move|p2a: Alcremie|Draining Kiss|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-heal|p2a: Alcremie|100/100 brn|[from] drain|[of] p1a: Dragapult
+|-damage|p2a: Alcremie|84/100 brn|[from] item: Rocky Helmet|[of] p1a: Dragapult
+|faint|p1a: Dragapult
+|
+|win|jibreel69
+|raw|prime zakery's rating: 1150 &rarr; <strong>1123</strong><br />(-27 for losing)
+|raw|jibreel69's rating: 1117 &rarr; <strong>1144</strong><br />(+27 for winning)
+|l|☆prime zakery
+|player|p1|

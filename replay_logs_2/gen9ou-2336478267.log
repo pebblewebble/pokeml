@@ -1,0 +1,237 @@
+|j|☆Itkenreiza
+|j|☆rrbrru
+|t:|1743924509
+|gametype|singles
+|player|p1|Itkenreiza|169|1412
+|player|p2|rrbrru|roxie|1366
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Zapdos-Galar|
+|poke|p1|Politoed, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Darkrai|
+|poke|p2|Iron Treads|
+|poke|p2|Iron Valiant|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Itkenreiza)
+|
+|t:|1743924536
+|start
+|switch|p1a: Politoed|Politoed, M|100/100
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|t:|1743924545
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|move|p2a: Alomomola|Flip Turn|p1a: Zapdos
+|-damage|p1a: Zapdos|73/100
+|
+|t:|1743924560
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] Flip Turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|-ability|p1a: Zapdos|Defiant|boost
+|-boost|p1a: Zapdos|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743924563
+|move|p1a: Zapdos|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|46/100
+|-enditem|p2a: Landorus|Light Ball|[from] move: Knock Off|[of] p1a: Zapdos
+|move|p2a: Landorus|Fling||[still]
+|-fail|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743924573
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Ogerpon
+|-sidestart|p1: Itkenreiza|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743924582
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Landorus|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743924584
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|5
+|
+|t:|1743924602
+|switch|p1a: Politoed|Politoed, M|100/100
+|-damage|p1a: Politoed|88/100|[from] Stealth Rock
+|move|p2a: Zamazenta|Close Combat|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743924607
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|-damage|p1a: Enamorus|76/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1743924619
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Enamorus|Weather Ball|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|77/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743924624
+|move|p1a: Enamorus|Superpower|p2a: Alomomola
+|-damage|p2a: Alomomola|61/100
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|move|p2a: Alomomola|Flip Turn|p1a: Enamorus
+|-damage|p1a: Enamorus|51/100
+|
+|t:|1743924648
+|switch|p2a: Darkrai|Darkrai|100/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743924657
+|-terastallize|p1a: Enamorus|Ground
+|move|p2a: Darkrai|Ice Beam|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|6/100
+|move|p1a: Enamorus|Superpower|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|def|1
+|faint|p2a: Darkrai
+|
+|-weather|none
+|upkeep
+|
+|t:|1743924680
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|9
+|
+|t:|1743924688
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|upkeep
+|
+|t:|1743924691
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|10
+|
+|t:|1743924697
+|-terastallize|p2a: Iron Valiant|Ghost
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|11
+|
+|t:|1743924712
+|move|p2a: Iron Valiant|Encore|p1a: Cinderace
+|-start|p1a: Cinderace|Encore
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|12
+|inactive|rrbrru has 120 seconds left.
+|
+|t:|1743924743
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|-damage|p1a: Basculegion|88/100|[from] Stealth Rock
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|
+|upkeep
+|turn|13
+|inactive|rrbrru has 120 seconds left.
+|
+|t:|1743924775
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|upkeep
+|
+|t:|1743924779
+|switch|p1a: Zapdos|Zapdos-Galar|73/100
+|-damage|p1a: Zapdos|61/100|[from] Stealth Rock
+|turn|14
+|inactive|rrbrru has 90 seconds left.
+|
+|t:|1743924808
+|move|p2a: Iron Valiant|Moonblast|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1743924812
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|turn|15
+|-message|Itkenreiza forfeited.
+|
+|win|rrbrru
+|raw|Itkenreiza's rating: 1412 &rarr; <strong>1389</strong><br />(-23 for losing)
+|raw|rrbrru's rating: 1366 &rarr; <strong>1389</strong><br />(+23 for winning)
+|l|☆Itkenreiza
+|player|p1|
+|l|☆rrbrru
+|player|p2|

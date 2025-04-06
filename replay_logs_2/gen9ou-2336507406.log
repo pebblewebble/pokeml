@@ -1,0 +1,313 @@
+|j|☆randomblabla
+|j|☆AlphaOnDc
+|t:|1743930022
+|gametype|singles
+|player|p1|randomblabla|265|1198
+|player|p2|AlphaOnDc|dawn|1224
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ribombee, M|
+|poke|p1|Great Tusk|
+|poke|p1|Blaziken, M|
+|poke|p1|Serperior, F|
+|poke|p1|Darkrai|
+|poke|p1|Dugtrio, M|
+|poke|p2|Quaquaval, F|
+|poke|p2|Clodsire, M|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Valiant|
+|poke|p2|Zapdos|
+|poke|p2|Garganacl, M|
+|teampreview
+|
+|t:|1743930028
+|start
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|-item|p2a: Quaquaval|Air Balloon
+|turn|1
+|
+|t:|1743930038
+|move|p1a: Dugtrio|Memento|p2a: Quaquaval
+|-unboost|p2a: Quaquaval|atk|2
+|-unboost|p2a: Quaquaval|spa|2
+|faint|p1a: Dugtrio
+|move|p2a: Quaquaval|Aqua Step|p1: Dugtrio|[notarget]
+|-fail|p2a: Quaquaval
+|
+|upkeep
+|
+|t:|1743930045
+|switch|p1a: Serperior|Serperior, F|100/100
+|turn|2
+|
+|t:|1743930049
+|switch|p2a: Clodsire|Clodsire, M, shiny|100/100
+|move|p1a: Serperior|Leaf Storm|p2a: Clodsire
+|-damage|p2a: Clodsire|71/100
+|-boost|p1a: Serperior|spa|2
+|
+|-heal|p2a: Clodsire|77/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743930059
+|move|p1a: Serperior|Glare|p2a: Clodsire
+|-status|p2a: Clodsire|par
+|cant|p2a: Clodsire|par
+|
+|-heal|p2a: Clodsire|83/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743930073
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|move|p2a: Clodsire|Toxic|p1a: Great Tusk
+|-status|p1a: Great Tusk|tox
+|
+|-heal|p2a: Clodsire|90/100 par|[from] item: Leftovers
+|-damage|p1a: Great Tusk|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743930090
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|
+|-damage|p1a: Great Tusk|82/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743930099
+|move|p1a: Great Tusk|Ice Spinner|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|10/100
+|move|p2a: Zapdos|Tailwind|p2a: Zapdos
+|-sidestart|p2: AlphaOnDc|move: Tailwind
+|
+|-heal|p2a: Zapdos|16/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|63/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743930108
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|66/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Great Tusk|Ice Spinner|p2a: Zapdos
+|-damage|p2a: Zapdos|24/100
+|
+|-heal|p2a: Zapdos|30/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|38/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743930119
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|80/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Great Tusk|Close Combat|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Zapdos
+|
+|-damage|p1a: Great Tusk|7/100 tox|[from] psn
+|upkeep
+|
+|t:|1743930133
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|-item|p2a: Quaquaval|Air Balloon
+|turn|9
+|
+|t:|1743930139
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Serperior|Serperior, F|100/100
+|move|p2a: Quaquaval|Aqua Step|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|76/100
+|-boost|p2a: Quaquaval|spe|1
+|
+|-sideend|p2: AlphaOnDc|move: Tailwind
+|upkeep
+|turn|10
+|
+|t:|1743930150
+|-terastallize|p2a: Quaquaval|Steel
+|move|p2a: Quaquaval|Ice Spinner|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|10/100
+|move|p1a: Serperior|Leaf Storm|p2a: Quaquaval
+|-resisted|p2a: Quaquaval
+|-damage|p2a: Quaquaval|66/100
+|-boost|p1a: Serperior|spa|2
+|-enditem|p2a: Quaquaval|Air Balloon
+|
+|upkeep
+|turn|11
+|
+|t:|1743930167
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|move|p2a: Quaquaval|Acrobatics|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1743930174
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|12
+|
+|t:|1743930178
+|move|p1a: Darkrai|Trick|p2a: Quaquaval
+|-activate|p1a: Darkrai|move: Trick|[of] p2a: Quaquaval
+|-item|p2a: Quaquaval|Choice Scarf|[from] move: Trick
+|-enditem|p1a: Darkrai|Choice Scarf|[silent]|[from] move: Trick
+|move|p2a: Quaquaval|Close Combat|p1a: Darkrai
+|-supereffective|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|-unboost|p2a: Quaquaval|def|1
+|-unboost|p2a: Quaquaval|spd|1
+|faint|p1a: Darkrai
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1743930185
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|turn|13
+|
+|t:|1743930202
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|
+|upkeep
+|turn|14
+|
+|t:|1743930212
+|-terastallize|p1a: Ribombee|Fire
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|move|p2a: Garganacl|Salt Cure|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|52/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743930224
+|move|p1a: Ribombee|Stored Power|p2a: Garganacl
+|-damage|p2a: Garganacl|2/100
+|-damage|p1a: Ribombee|42/100|[from] item: Life Orb
+|move|p2a: Garganacl|Salt Cure|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|-heal|p2a: Garganacl|9/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743930238
+|switch|p1a: Serperior|Serperior, F|10/100
+|turn|16
+|
+|t:|1743930244
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Serperior|Leaf Storm|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p2a: Garganacl|15/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743930253
+|switch|p2a: Clodsire|Clodsire, M, shiny|90/100 par
+|move|p1a: Serperior|Leaf Storm|p2a: Clodsire
+|-damage|p2a: Clodsire|60/100 par
+|-boost|p1a: Serperior|spa|2
+|
+|-heal|p2a: Clodsire|66/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743930262
+|switch|p1a: Great Tusk|Great Tusk|7/100 tox
+|move|p2a: Clodsire|Toxic|p1a: Great Tusk
+|-fail|p1a: Great Tusk|tox
+|
+|-heal|p2a: Clodsire|72/100 par|[from] item: Leftovers
+|-damage|p1a: Great Tusk|1/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1743930271
+|move|p2a: Clodsire|Protect|p2a: Clodsire
+|-singleturn|p2a: Clodsire|Protect
+|move|p1a: Great Tusk|Headlong Rush|p2a: Clodsire
+|-activate|p2a: Clodsire|move: Protect
+|
+|-heal|p2a: Clodsire|78/100 par|[from] item: Leftovers
+|-damage|p1a: Great Tusk|0 fnt|[from] psn
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1743930274
+|switch|p1a: Serperior|Serperior, F|10/100
+|turn|20
+|
+|t:|1743930284
+|move|p1a: Serperior|Leaf Storm|p2a: Clodsire
+|-damage|p2a: Clodsire|49/100 par
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Clodsire|Toxic|p1a: Serperior
+|-status|p1a: Serperior|tox
+|
+|-heal|p2a: Clodsire|55/100 par|[from] item: Leftovers
+|-damage|p1a: Serperior|4/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1743930295
+|move|p2a: Clodsire|Protect|p2a: Clodsire
+|-singleturn|p2a: Clodsire|Protect
+|move|p1a: Serperior|Glare|p2a: Clodsire
+|-activate|p2a: Clodsire|move: Protect
+|
+|-heal|p2a: Clodsire|62/100 par|[from] item: Leftovers
+|-damage|p1a: Serperior|0 fnt|[from] psn
+|faint|p1a: Serperior
+|
+|win|AlphaOnDc
+|raw|randomblabla's rating: 1198 &rarr; <strong>1175</strong><br />(-23 for losing)
+|raw|AlphaOnDc's rating: 1224 &rarr; <strong>1247</strong><br />(+23 for winning)
+|l|☆AlphaOnDc
+|player|p2|
+|l|☆randomblabla
+|player|p1|

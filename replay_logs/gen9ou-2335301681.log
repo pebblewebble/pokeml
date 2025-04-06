@@ -1,0 +1,246 @@
+|j|☆luckeyluuk
+|j|☆NeverStandard
+|t:|1743782843
+|gametype|singles
+|player|p1|luckeyluuk|wattson|1145
+|player|p2|NeverStandard|265|1170
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Delphox, M|
+|poke|p1|Ceruledge, F|
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Dondozo, F|
+|poke|p1|Chesnaught, M|
+|poke|p2|Darkrai|
+|poke|p2|Enamorus, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Sudowoodo, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|t:|1743782863
+|start
+|switch|p1a: Delphox|Delphox, M|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|1
+|
+|t:|1743782872
+|move|p1a: Delphox|Overheat|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-unboost|p1a: Delphox|spa|2
+|-enditem|p1a: Delphox|Eject Pack
+|-enditem|p2a: Gholdengo|Air Balloon
+|faint|p2a: Gholdengo
+|
+|t:|1743782880
+|switch|p1a: Chesnaught|Chesnaught, M|100/100
+|
+|upkeep
+|
+|t:|1743782897
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|2
+|
+|t:|1743782916
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|move|p2a: Iron Valiant|Zen Headbutt|p1a: Dondozo
+|-damage|p1a: Dondozo|84/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743782929
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Sudowoodo|Sudowoodo, M|100/100
+|move|p1a: Dondozo|Liquidation|p2a: Sudowoodo
+|-supereffective|p2a: Sudowoodo
+|-damage|p2a: Sudowoodo|52/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743782939
+|move|p1a: Dondozo|Liquidation|p2a: Sudowoodo
+|-supereffective|p2a: Sudowoodo
+|-damage|p2a: Sudowoodo|0 fnt
+|faint|p2a: Sudowoodo
+|
+|upkeep
+|
+|t:|1743782952
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|5
+|
+|t:|1743782959
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-terastallize|p2a: Enamorus|Stellar
+|move|p2a: Enamorus|Tera Blast|p1a: Weezing|[anim] Tera Blast Stellar
+|-damage|p1a: Weezing|49/100
+|-unboost|p2a: Enamorus|atk|1
+|-unboost|p2a: Enamorus|spa|1
+|
+|upkeep
+|turn|6
+|
+|t:|1743782975
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Weezing|Pain Split|p2a: Cinderace
+|-sethp|p2a: Cinderace|77/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|70/100|[from] move: Pain Split
+|
+|upkeep
+|turn|7
+|
+|t:|1743782984
+|move|p2a: Cinderace|Pyro Ball|p1a: Weezing
+|-damage|p1a: Weezing|25/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Cinderace
+|-damage|p2a: Cinderace|34/100
+|-status|p2a: Cinderace|psn
+|
+|-damage|p2a: Cinderace|22/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743782994
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Chesnaught|Chesnaught, M|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Chesnaught
+|-immune|p1a: Chesnaught|[from] ability: Bulletproof
+|
+|-damage|p2a: Cinderace|10/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743783004
+|move|p2a: Cinderace|Gunk Shot|p1a: Chesnaught
+|-start|p2a: Cinderace|typechange|Poison|[from] ability: Libero
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|0 fnt
+|faint|p1a: Chesnaught
+|
+|-damage|p2a: Cinderace|0 fnt|[from] psn
+|faint|p2a: Cinderace
+|upkeep
+|
+|t:|1743783017
+|switch|p2a: Enamorus|Enamorus, F, tera:Stellar|100/100
+|switch|p1a: Delphox|Delphox, M|100/100
+|turn|10
+|
+|t:|1743783026
+|move|p2a: Enamorus|Tera Blast|p1a: Delphox|[anim] Tera Blast Stellar
+|-damage|p1a: Delphox|61/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|spa|1
+|move|p1a: Delphox|Overheat|p2a: Enamorus
+|-damage|p2a: Enamorus|11/100
+|-unboost|p1a: Delphox|spa|2
+|-item|p1a: Delphox|Choice Scarf|[from] ability: Magician|[of] p2a: Enamorus
+|
+|upkeep
+|turn|11
+|
+|t:|1743783038
+|move|p1a: Delphox|Psyshock|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|upkeep
+|
+|t:|1743783056
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|12
+|
+|t:|1743783061
+|switch|p1a: Weezing|Weezing-Galar, F|25/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|
+|upkeep
+|turn|13
+|
+|t:|1743783074
+|move|p2a: Darkrai|Ice Beam|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|
+|upkeep
+|
+|t:|1743783079
+|switch|p1a: Dondozo|Dondozo, F|84/100
+|turn|14
+|
+|t:|1743783088
+|move|p2a: Darkrai|Dark Pulse|p1a: Dondozo
+|-damage|p1a: Dondozo|55/100
+|move|p1a: Dondozo|Liquidation|p2a: Darkrai
+|-damage|p2a: Darkrai|42/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743783095
+|move|p2a: Darkrai|Dark Pulse|p1a: Dondozo
+|-damage|p1a: Dondozo|30/100
+|move|p1a: Dondozo|Liquidation|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|upkeep
+|
+|t:|1743783101
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|16
+|
+|t:|1743783109
+|move|p2a: Iron Valiant|Close Combat|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1a: Dondozo
+|
+|upkeep
+|
+|t:|1743783118
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|17
+|
+|t:|1743783130
+|move|p2a: Iron Valiant|Spirit Break|p1a: Hatterene
+|-damage|p1a: Hatterene|60/100
+|-unboost|p1a: Hatterene|spa|1
+|move|p1a: Hatterene|Psyshock|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|win|luckeyluuk
+|raw|luckeyluuk's rating: 1145 &rarr; <strong>1172</strong><br />(+27 for winning)
+|raw|NeverStandard's rating: 1170 &rarr; <strong>1143</strong><br />(-27 for losing)
+|l|☆NeverStandard
+|player|p2|
+|l|☆luckeyluuk
+|player|p1|

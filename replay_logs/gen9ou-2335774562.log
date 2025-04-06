@@ -1,0 +1,433 @@
+|j|☆Kishon234
+|j|☆Daddy3141
+|t:|1743834012
+|gametype|singles
+|player|p1|Kishon234|101|1299
+|player|p2|Daddy3141|bruno-gen3|1340
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Boulder|
+|poke|p1|Ting-Lu|
+|poke|p1|Corviknight, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Slowking-Galar, F|
+|poke|p2|Blaziken, F|
+|poke|p2|Pecharunt|
+|poke|p2|Great Tusk|
+|poke|p2|Meowscarada, M|
+|poke|p2|Kyurem|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|t:|1743834041
+|start
+|switch|p1a: Iron Boulder|Iron Boulder|100/100
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|1
+|
+|t:|1743834049
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Iron Boulder|Mighty Cleave|p2a: Pecharunt
+|-damage|p2a: Pecharunt|60/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743834056
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Pecharunt|Parting Shot|p1a: Slowking
+|-unboost|p1a: Slowking|atk|1
+|-unboost|p1a: Slowking|spa|1
+|
+|t:|1743834067
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|3
+|
+|t:|1743834076
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Great Tusk|Knock Off|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|91/100
+|-enditem|p1a: Ting-Lu|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|4
+|
+|t:|1743834082
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Ting-Lu|Ruination|p2a: Kyurem
+|-damage|p2a: Kyurem|51/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743834085
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Kyurem|Draco Meteor|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|47/100
+|-unboost|p2a: Kyurem|spa|2
+|
+|upkeep
+|turn|6
+|
+|t:|1743834096
+|switch|p2a: Pecharunt|Pecharunt|60/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|97/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|7
+|
+|t:|1743834100
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|100/100
+|move|p1a: Corviknight|U-turn|p2a: Pecharunt
+|-resisted|p2a: Pecharunt
+|-damage|p2a: Pecharunt|98/100
+|
+|t:|1743834116
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100|[from] U-turn
+|
+|upkeep
+|turn|8
+|
+|t:|1743834127
+|move|p1a: Hoopa|Psychic|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|4/100
+|move|p2a: Pecharunt|Parting Shot|p1a: Hoopa
+|-unboost|p1a: Hoopa|atk|1
+|-unboost|p1a: Hoopa|spa|1
+|
+|t:|1743834131
+|switch|p2a: Meowscarada|Meowscarada, M|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|9
+|
+|t:|1743834145
+|switch|p1a: Corviknight|Corviknight, M|97/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Meowscarada|Spikes|p1a: Corviknight
+|-start|p2a: Meowscarada|typechange|Ground|[from] ability: Protean
+|-sidestart|p1: Kishon234|Spikes
+|
+|upkeep
+|turn|10
+|
+|t:|1743834170
+|move|p2a: Meowscarada|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|80/100
+|-damage|p2a: Meowscarada|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|-enditem|p1a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p2a: Meowscarada
+|move|p1a: Corviknight|Defog|p2a: Meowscarada
+|-unboost|p2a: Meowscarada|evasion|1
+|-sideend|p1: Kishon234|Spikes|[from] move: Defog|[of] p1a: Corviknight
+|
+|upkeep
+|turn|11
+|
+|t:|1743834189
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Corviknight|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|95/100
+|
+|t:|1743834213
+|switch|p1a: Ting-Lu|Ting-Lu|91/100|[from] U-turn
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|
+|upkeep
+|turn|12
+|
+|t:|1743834219
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Kyurem|Kyurem|51/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Ting-Lu|Ruination|p2a: Kyurem
+|-damage|p2a: Kyurem|26/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743834224
+|switch|p1a: Corviknight|Corviknight, M|80/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Kyurem|Ice Beam|p1a: Corviknight
+|-damage|p1a: Corviknight|17/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743834228
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Kyurem|Ice Beam|p1a: Slowking
+|-damage|p1a: Slowking|63/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743834241
+|switch|p2a: Great Tusk|Great Tusk|95/100
+|move|p1a: Slowking|Flamethrower|p2a: Great Tusk
+|-damage|p2a: Great Tusk|52/100
+|-status|p2a: Great Tusk|brn
+|
+|-damage|p2a: Great Tusk|46/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743834250
+|switch|p1a: Corviknight|Corviknight, M|17/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Great Tusk|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: Kishon234|move: Stealth Rock
+|
+|-damage|p2a: Great Tusk|40/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743834254
+|move|p2a: Great Tusk|Close Combat|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Corviknight
+|
+|-damage|p2a: Great Tusk|33/100 brn|[from] brn
+|upkeep
+|
+|t:|1743834264
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|-damage|p1a: Hoopa|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1743834272
+|move|p1a: Hoopa|Psychic|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743834275
+|switch|p2a: Meowscarada|Meowscarada, M|84/100
+|turn|19
+|
+|t:|1743834278
+|switch|p1a: Ting-Lu|Ting-Lu|91/100
+|-damage|p1a: Ting-Lu|85/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Meowscarada|Spikes|p1a: Ting-Lu
+|-start|p2a: Meowscarada|typechange|Ground|[from] ability: Protean
+|-sidestart|p1: Kishon234|Spikes
+|
+|upkeep
+|turn|20
+|
+|t:|1743834292
+|switch|p2a: Kyurem|Kyurem|26/100
+|-ability|p2a: Kyurem|Pressure
+|switch|p1a: Slowking|Slowking-Galar, F|96/100
+|-damage|p1a: Slowking|84/100|[from] Stealth Rock
+|-damage|p1a: Slowking|72/100|[from] Spikes
+|
+|upkeep
+|turn|21
+|
+|t:|1743834322
+|move|p2a: Kyurem|Draco Meteor|p1a: Slowking
+|-damage|p1a: Slowking|19/100
+|-unboost|p2a: Kyurem|spa|2
+|move|p1a: Slowking|Psyshock|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1743834330
+|switch|p2a: Meowscarada|Meowscarada, M|84/100
+|turn|22
+|
+|t:|1743834338
+|move|p2a: Meowscarada|Knock Off|p1a: Slowking
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-enditem|p1a: Slowking|Assault Vest|[from] move: Knock Off|[of] p2a: Meowscarada
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1743834348
+|switch|p1a: Iron Boulder|Iron Boulder|100/100
+|-damage|p1a: Iron Boulder|88/100|[from] Stealth Rock
+|-damage|p1a: Iron Boulder|76/100|[from] Spikes
+|turn|23
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Daddy3141)
+|
+|t:|1743834421
+|move|p1a: Iron Boulder|Earthquake|p2a: Meowscarada
+|-damage|p2a: Meowscarada|4/100
+|move|p2a: Meowscarada|Knock Off|p1a: Iron Boulder
+|-supereffective|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|0 fnt
+|-enditem|p1a: Iron Boulder|Choice Band|[from] move: Knock Off|[of] p2a: Meowscarada
+|faint|p1a: Iron Boulder
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743834439
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-damage|p1a: Raging Bolt|88/100|[from] Stealth Rock
+|-damage|p1a: Raging Bolt|76/100|[from] Spikes
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|24
+|
+|t:|1743834447
+|move|p1a: Raging Bolt|Thunderclap|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|upkeep
+|
+|t:|1743834472
+|switch|p2a: Pecharunt|Pecharunt|4/100
+|turn|25
+|
+|t:|1743834480
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|54/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|inactive|Daddy3141 has 120 seconds left.
+|
+|t:|1743834501
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|turn|26
+|
+|t:|1743834508
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Kingambit
+|-damage|p2a: Kingambit|34/100
+|-enditem|p2a: Kingambit|Air Balloon
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|13/100
+|
+|upkeep
+|turn|27
+|inactive|Daddy3141 has 120 seconds left.
+|
+|t:|1743834534
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Ting-Lu|Ting-Lu|85/100
+|-damage|p1a: Ting-Lu|79/100|[from] Stealth Rock
+|-damage|p1a: Ting-Lu|66/100|[from] Spikes
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|47/100
+|
+|upkeep
+|turn|28
+|inactive|Daddy3141 has 120 seconds left.
+|
+|t:|1743834545
+|move|p2a: Kingambit|Iron Head|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|13/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|
+|t:|1743834549
+|switch|p2a: Blaziken|Blaziken, F|100/100
+|turn|29
+|
+|t:|1743834561
+|move|p2a: Blaziken|Close Combat|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|faint|p1a: Ting-Lu
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743834563
+|switch|p1a: Hoopa|Hoopa-Unbound|88/100
+|-damage|p1a: Hoopa|76/100|[from] Stealth Rock
+|-damage|p1a: Hoopa|64/100|[from] Spikes
+|turn|30
+|
+|t:|1743834571
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Hoopa|Psychic|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|31
+|
+|t:|1743834574
+|-terastallize|p2a: Blaziken|Fire
+|move|p2a: Blaziken|Overheat|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|-unboost|p2a: Blaziken|spa|2
+|faint|p1a: Hoopa
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743834575
+|switch|p1a: Raging Bolt|Raging Bolt|13/100
+|-damage|p1a: Raging Bolt|0 fnt|[from] Stealth Rock
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|Daddy3141
+|raw|Kishon234's rating: 1299 &rarr; <strong>1277</strong><br />(-22 for losing)
+|raw|Daddy3141's rating: 1340 &rarr; <strong>1358</strong><br />(+18 for winning)
+|l|☆Daddy3141
+|player|p2|
+|l|☆Kishon234
+|player|p1|

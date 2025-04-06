@@ -1,0 +1,373 @@
+|j|☆Treecheur
+|j|☆Thenix12
+|t:|1743884678
+|gametype|singles
+|player|p1|Treecheur|aaron|1326
+|player|p2|Thenix12|nurse|1319
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Azelf|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Weavile, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Keldeo-Resolute|
+|poke|p2|Emboar, M|
+|poke|p2|Cinccino, M|
+|poke|p2|Hydrapple, F|
+|poke|p2|Iron Crown|
+|poke|p2|Basculin-Blue-Striped, M|
+|poke|p2|Clodsire, F|
+|teampreview
+|
+|t:|1743884690
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Cinccino|Cinccino, M|100/100
+|turn|1
+|
+|t:|1743884701
+|move|p1a: Azelf|Knock Off|p2a: Cinccino
+|-damage|p2a: Cinccino|40/100
+|-enditem|p2a: Cinccino|Loaded Dice|[from] move: Knock Off|[of] p1a: Azelf
+|move|p2a: Cinccino|Tidy Up|p2a: Cinccino
+|-boost|p2a: Cinccino|atk|1
+|-boost|p2a: Cinccino|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743884711
+|move|p2a: Cinccino|Tail Slap|p1a: Azelf
+|-damage|p1a: Azelf|64/100
+|-damage|p1a: Azelf|24/100
+|-crit|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|-hitcount|p1: Azelf|3
+|
+|upkeep
+|
+|t:|1743884729
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|3
+|
+|t:|1743884740
+|switch|p2a: Emboar|Emboar, M|100/100
+|move|p1a: Weavile|Ice Shard|p2a: Emboar
+|-resisted|p2a: Emboar
+|-damage|p2a: Emboar|88/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743884752
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Emboar|atk|1
+|move|p2a: Emboar|Flare Blitz|p1a: Landorus
+|-damage|p1a: Landorus|7/100
+|-damage|p2a: Emboar|63/100|[from] Recoil
+|
+|upkeep
+|turn|5
+|
+|t:|1743884762
+|switch|p2a: Hydrapple|Hydrapple, F|100/100
+|move|p1a: Landorus|Earthquake|p2a: Hydrapple
+|-resisted|p2a: Hydrapple
+|-damage|p2a: Hydrapple|86/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743884767
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Hydrapple|Giga Drain|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|92/100
+|-heal|p2a: Hydrapple|90/100|[from] drain|[of] p1a: Slowking
+|
+|-heal|p1a: Slowking|98/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1743884772
+|move|p2a: Hydrapple|Protect|p2a: Hydrapple
+|-singleturn|p2a: Hydrapple|Protect
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743884777
+|switch|p1a: Weavile|Weavile, M|100/100|[from] Chilly Reception
+|-ability|p1a: Weavile|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743884794
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Hydrapple|Body Press|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|93/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Slowking|99/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1743884799
+|move|p2a: Hydrapple|Protect|p2a: Hydrapple
+|-singleturn|p2a: Hydrapple|Protect
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|
+|t:|1743884801
+|switch|p1a: Weavile|Weavile, M|100/100|[from] Chilly Reception
+|-ability|p1a: Weavile|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743884809
+|-terastallize|p2a: Hydrapple|Steel
+|move|p1a: Weavile|Triple Axel|p2a: Hydrapple|[miss]
+|-miss|p1a: Weavile|p2a: Hydrapple
+|move|p2a: Hydrapple|Body Press|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-crit|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743884820
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|turn|11
+|
+|t:|1743884838
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|-terastallize|p1a: Keldeo|Fighting
+|move|p1a: Keldeo|Calm Mind|p1a: Keldeo
+|-boost|p1a: Keldeo|spa|1
+|-boost|p1a: Keldeo|spd|1
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1743884844
+|move|p1a: Keldeo|Secret Sword|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|58/100
+|-damage|p1a: Keldeo|91/100|[from] item: Life Orb
+|move|p2a: Clodsire|Toxic|p1a: Keldeo
+|-status|p1a: Keldeo|tox
+|
+|-heal|p2a: Clodsire|64/100|[from] item: Leftovers
+|-damage|p1a: Keldeo|84/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1743884852
+|move|p1a: Keldeo|Hydro Pump|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|-damage|p1a: Keldeo|74/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Keldeo|62/100 tox|[from] psn
+|upkeep
+|
+|t:|1743884869
+|switch|p2a: Hydrapple|Hydrapple, F, tera:Steel|100/100
+|turn|14
+|
+|t:|1743884872
+|move|p2a: Hydrapple|Protect|p2a: Hydrapple
+|-singleturn|p2a: Hydrapple|Protect
+|move|p1a: Keldeo|Secret Sword|p2a: Hydrapple
+|-activate|p2a: Hydrapple|move: Protect
+|
+|-damage|p1a: Keldeo|44/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743884877
+|move|p1a: Keldeo|Secret Sword|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|-damage|p1a: Keldeo|34/100 tox|[from] item: Life Orb
+|
+|-damage|p1a: Keldeo|9/100 tox|[from] psn
+|upkeep
+|
+|t:|1743884880
+|switch|p2a: Basculin|Basculin-Blue-Striped, M|100/100
+|turn|16
+|
+|t:|1743884887
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Basculin|Aqua Jet|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|89/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743884892
+|move|p1a: Dragapult|Shadow Ball|p2a: Basculin
+|-enditem|p2a: Basculin|Focus Sash
+|-damage|p2a: Basculin|1/100
+|move|p2a: Basculin|Blizzard|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|12/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743884901
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Basculin|Aqua Jet|p1a: Slowking
+|-damage|p1a: Slowking|81/100
+|
+|-heal|p1a: Slowking|87/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|t:|1743884911
+|move|p2a: Basculin|Hydro Pump|p1a: Slowking
+|-damage|p1a: Slowking|56/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Basculin
+|-crit|p2a: Basculin
+|-damage|p2a: Basculin|0 fnt
+|faint|p2a: Basculin
+|
+|-heal|p1a: Slowking|62/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1743884926
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespa
+|turn|20
+|
+|t:|1743884934
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Slowking
+|-damage|p1a: Slowking|45/100
+|-damage|p1a: Slowking|27/100
+|-hitcount|p1a: Slowking|2
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743884946
+|switch|p1a: Dragapult|Dragapult, M|12/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743884955
+|move|p1a: Dragapult|Flamethrower|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|25/100
+|-status|p2a: Iron Crown|brn
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-hitcount|p1: Dragapult|1
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Iron Crown|19/100 brn|[from] brn
+|upkeep
+|
+|t:|1743884964
+|switch|p1a: Landorus|Landorus-Therian, M|7/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Crown|atk|1
+|turn|22
+|
+|t:|1743884966
+|move|p1a: Landorus|Earthquake|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743884969
+|switch|p2a: Cinccino|Cinccino, M|40/100
+|turn|23
+|
+|t:|1743884971
+|move|p1a: Landorus|Earthquake|p2a: Cinccino
+|-damage|p2a: Cinccino|0 fnt
+|faint|p2a: Cinccino
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743884973
+|switch|p2a: Emboar|Emboar, M|63/100
+|turn|24
+|c|☆Treecheur|gg
+|
+|t:|1743884977
+|move|p2a: Emboar|Sucker Punch|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|none
+|upkeep
+|
+|t:|1743884984
+|switch|p1a: Slowking|Slowking-Galar, F|60/100
+|turn|25
+|
+|t:|1743884987
+|move|p2a: Emboar|Sucker Punch|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1743884990
+|switch|p1a: Keldeo|Keldeo-Resolute, tera:Fighting|9/100 tox
+|turn|26
+|
+|t:|1743884995
+|move|p2a: Emboar|Sucker Punch|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|win|Thenix12
+|raw|Treecheur's rating: 1326 &rarr; <strong>1304</strong><br />(-22 for losing)
+|raw|Thenix12's rating: 1292 &rarr; <strong>1319</strong><br />(+27 for winning)
+|c|☆Thenix12|gg
+|l|☆Treecheur
+|player|p1|
+|l|☆Thenix12
+|player|p2|

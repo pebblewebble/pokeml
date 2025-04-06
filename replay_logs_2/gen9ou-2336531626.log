@@ -1,0 +1,389 @@
+|j|☆jianwuhua
+|j|☆ymddiheiriadau
+|t:|1743934444
+|gametype|singles
+|player|p1|jianwuhua|170|1185
+|player|p2|ymddiheiriadau|169|1164
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Kingambit, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Weavile, M|
+|poke|p1|Primarina, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Talonflame, M|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Gliscor, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Jolteon, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ymddiheiriadau)
+|
+|t:|1743934452
+|start
+|switch|p1a: Primarina|Primarina, M, shiny|100/100
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|turn|1
+|
+|t:|1743934458
+|move|p2a: Salazzle|Sludge Wave|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|31/100
+|move|p1a: Primarina|Hyper Voice|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-enditem|p2a: Salazzle|Focus Sash
+|-damage|p2a: Salazzle|1/100
+|
+|-heal|p1a: Primarina|37/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743934462
+|move|p2a: Salazzle|Sludge Wave|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|upkeep
+|
+|t:|1743934466
+|switch|p1a: Weavile|Weavile, M, shiny|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|3
+|
+|t:|1743934471
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|move|p1a: Weavile|Ice Shard|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|94/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743934475
+|move|p1a: Weavile|Lash Out|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|80/100
+|move|p2a: Kingambit|Brick Break|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-enditem|p1a: Weavile|Focus Sash
+|-damage|p1a: Weavile|1/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743934480
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|move|p2a: Kingambit|Brick Break|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|92/100
+|-damage|p2a: Kingambit|64/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|upkeep
+|turn|6
+|
+|t:|1743934484
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Salazzle|Salazzle, F|1/100
+|move|p1a: Landorus|Stealth Rock|p2a: Salazzle
+|-sidestart|p2: ymddiheiriadau|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1743934489
+|move|p2a: Salazzle|Endeavor|p1a: Landorus
+|-damage|p1a: Landorus|1/100
+|-damage|p2a: Salazzle|0 fnt|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p2a: Salazzle
+|move|p1a: Landorus|U-turn|p2: Salazzle|[notarget]
+|-fail|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743934492
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|turn|8
+|
+|t:|1743934499
+|move|p2a: Talonflame|Air Slash|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743934504
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|9
+|
+|t:|1743934511
+|-terastallize|p1a: Iron Valiant|Electric
+|move|p2a: Talonflame|Air Slash|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|78/100
+|cant|p1a: Iron Valiant|flinch
+|
+|upkeep
+|turn|10
+|
+|t:|1743934518
+|move|p2a: Talonflame|Defog|p1a: Iron Valiant
+|-unboost|p1a: Iron Valiant|evasion|1
+|-sideend|p2: ymddiheiriadau|Stealth Rock|[from] move: Defog|[of] p2a: Talonflame
+|move|p1a: Iron Valiant|Thunderbolt|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|upkeep
+|
+|t:|1743934525
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|turn|11
+|
+|t:|1743934533
+|move|p1a: Iron Valiant|Moonblast|p2a: Jolteon
+|-crit|p2a: Jolteon
+|-damage|p2a: Jolteon|8/100
+|move|p2a: Jolteon|Tera Blast|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|35/100
+|
+|-heal|p2a: Jolteon|13/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743934537
+|move|p1a: Iron Valiant|Moonblast|p2a: Jolteon
+|-damage|p2a: Jolteon|0 fnt
+|faint|p2a: Jolteon
+|
+|upkeep
+|
+|t:|1743934540
+|switch|p2a: Kingambit|Kingambit, M|64/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|13
+|
+|t:|1743934543
+|move|p2a: Kingambit|Sucker Punch|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743934547
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|14
+|
+|t:|1743934557
+|-end|p2a: Kingambit|fallen3|[silent]
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: Zamazenta|Roar|p2a: Deoxys
+|drag|p2a: Kingambit|Kingambit, M|64/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|
+|upkeep
+|turn|15
+|
+|t:|1743934561
+|-end|p2a: Kingambit|fallen3|[silent]
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|move|p1a: Zamazenta|Body Press|p2a: Deoxys
+|-resisted|p2a: Deoxys
+|-damage|p2a: Deoxys|68/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743934568
+|move|p2a: Deoxys|Trick|p1a: Zamazenta
+|-activate|p2a: Deoxys|move: Trick|[of] p1a: Zamazenta
+|-item|p1a: Zamazenta|Choice Scarf|[from] move: Trick
+|-item|p2a: Deoxys|Leftovers|[from] move: Trick
+|move|p1a: Zamazenta|Crunch|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|14/100
+|
+|-heal|p2a: Deoxys|20/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743934574
+|move|p1a: Zamazenta|Crunch|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|upkeep
+|
+|t:|1743934578
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|turn|18
+|
+|t:|1743934583
+|move|p1a: Zamazenta|Crunch|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|79/100
+|move|p2a: Gliscor|Toxic|p1a: Zamazenta
+|-status|p1a: Zamazenta|tox
+|
+|-damage|p1a: Zamazenta|94/100 tox|[from] psn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|19
+|
+|t:|1743934589
+|move|p1a: Zamazenta|Crunch|p2a: Gliscor
+|-damage|p2a: Gliscor|65/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Zamazenta
+|-damage|p1a: Zamazenta|77/100 tox
+|
+|-damage|p1a: Zamazenta|65/100 tox|[from] psn
+|-heal|p2a: Gliscor|77/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|
+|t:|1743934593
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Zamazenta|Crunch|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Zamazenta|46/100 tox|[from] psn
+|-heal|p2a: Gliscor|90/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|
+|t:|1743934602
+|move|p1a: Zamazenta|Crunch|p2a: Gliscor
+|-damage|p2a: Gliscor|76/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Zamazenta
+|-damage|p1a: Zamazenta|27/100 tox
+|
+|-damage|p1a: Zamazenta|2/100 tox|[from] psn
+|-heal|p2a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|
+|t:|1743934605
+|move|p1a: Zamazenta|Crunch|p2a: Gliscor
+|-damage|p2a: Gliscor|75/100 tox
+|-unboost|p2a: Gliscor|def|1
+|move|p2a: Gliscor|Earthquake|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743934609
+|switch|p1a: Weavile|Weavile, M, shiny|1/100
+|-ability|p1a: Weavile|Pressure
+|turn|23
+|
+|t:|1743934612
+|-terastallize|p2a: Gliscor|Water
+|move|p1a: Weavile|Triple Axel|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|84/100 tox
+|-resisted|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|69/100 tox
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|55/100 tox
+|-hitcount|p2a: Gliscor|3
+|move|p2a: Gliscor|Knock Off|p1a: Weavile
+|-resisted|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-heal|p2a: Gliscor|68/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743934615
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|24
+|
+|t:|1743934631
+|move|p1a: Kingambit|Sucker Punch|p2a: Gliscor
+|-damage|p2a: Gliscor|12/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|42/100
+|
+|-heal|p1a: Kingambit|49/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|24/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|
+|t:|1743934636
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-heal|p1a: Kingambit|55/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|37/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|26
+|
+|t:|1743934641
+|move|p2a: Gliscor|Toxic|p1a: Kingambit
+|-immune|p1a: Kingambit
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-heal|p1a: Kingambit|61/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743934643
+|switch|p2a: Kingambit|Kingambit, M|64/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|27
+|
+|t:|1743934651
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|35/100
+|move|p2a: Kingambit|Brick Break|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|ymddiheiriadau
+|raw|jianwuhua's rating: 1185 &rarr; <strong>1158</strong><br />(-27 for losing)
+|raw|ymddiheiriadau's rating: 1164 &rarr; <strong>1191</strong><br />(+27 for winning)
+|l|☆jianwuhua
+|player|p1|
+|l|☆ymddiheiriadau
+|player|p2|

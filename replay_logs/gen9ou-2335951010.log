@@ -1,0 +1,390 @@
+|j|☆pikachu soup
+|j|☆Zorom123
+|t:|1743862950
+|gametype|singles
+|player|p1|pikachu soup|170|1333
+|player|p2|Zorom123|lance|1281
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gliscor, F|
+|poke|p1|Meowscarada, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Skarmory, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p2|Walking Wake|
+|poke|p2|Meowscarada, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Hitmonlee, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Cinderace, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Zorom123)
+|
+|t:|1743862980
+|start
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|t:|1743862996
+|move|p1a: Meowscarada|Spikes|p2a: Cinderace
+|-start|p1a: Meowscarada|typechange|Ground|[from] ability: Protean
+|-sidestart|p2: Zorom123|Spikes
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Meowscarada|[miss]
+|-miss|p2a: Cinderace|p1a: Meowscarada
+|
+|upkeep
+|turn|2
+|
+|t:|1743863004
+|move|p1a: Meowscarada|U-turn|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|86/100
+|
+|t:|1743863007
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from] U-turn
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|3
+|
+|t:|1743863015
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Dragapult|Draco Meteor|p2a: Slowking
+|-damage|p2a: Slowking|69/100
+|-unboost|p1a: Dragapult|spa|2
+|
+|upkeep
+|turn|4
+|
+|t:|1743863024
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Slowking
+|-status|p2a: Slowking|brn
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743863043
+|switch|p2a: Meowscarada|Meowscarada, F, shiny|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743863048
+|move|p2a: Meowscarada|Knock Off|p1a: Dragapult
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Meowscarada
+|faint|p1a: Dragapult
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743863066
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|turn|6
+|
+|t:|1743863076
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|move|p1a: Gliscor|Protect||[still]
+|-fail|p1a: Gliscor
+|
+|-weather|Snowscape|[upkeep]
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+|
+|t:|1743863083
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Walking Wake|Hydro Pump|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|30/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743863092
+|move|p2a: Walking Wake|Hydro Pump|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-weather|none
+|upkeep
+|
+|t:|1743863098
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|turn|9
+|
+|t:|1743863106
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Meowscarada|atk|1
+|move|p1a: Meowscarada|Spikes|p2a: Landorus
+|-start|p1a: Meowscarada|typechange|Ground|[from] ability: Protean
+|-sidestart|p2: Zorom123|Spikes
+|
+|upkeep
+|turn|10
+|
+|t:|1743863117
+|move|p1a: Meowscarada|Triple Axel|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|89/100
+|-damage|p1a: Meowscarada|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|63/100
+|-damage|p1a: Meowscarada|68/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-hitcount|p2a: Landorus|2
+|move|p2a: Landorus|Stealth Rock|p1a: Meowscarada
+|-sidestart|p1: pikachu soup|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|t:|1743863136
+|switch|p2a: Cinderace|Cinderace, F|86/100
+|move|p1a: Meowscarada|Spikes|p2a: Cinderace
+|-sidestart|p2: Zorom123|Spikes
+|
+|upkeep
+|turn|12
+|
+|t:|1743863143
+|move|p1a: Meowscarada|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|60/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Meowscarada
+|move|p2a: Cinderace|Pyro Ball|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|upkeep
+|
+|t:|1743863150
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|turn|13
+|
+|t:|1743863157
+|switch|p2a: Landorus|Landorus-Therian, M|63/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|move|p1a: Ursaluna|Headlong Rush|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|14
+|
+|t:|1743863171
+|move|p2a: Landorus|Earth Power|p1a: Ursaluna
+|-damage|p1a: Ursaluna|78/100
+|move|p1a: Ursaluna|Ice Punch|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|13/100
+|-damage|p1a: Ursaluna|61/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|upkeep
+|turn|15
+|
+|t:|1743863179
+|switch|p2a: Cinderace|Cinderace, F|60/100
+|-damage|p2a: Cinderace|44/100|[from] Spikes
+|move|p1a: Ursaluna|Ice Punch|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|33/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743863187
+|move|p2a: Cinderace|Pyro Ball|p1a: Ursaluna
+|-immune|p1a: Ursaluna|[from] ability: Bulletproof
+|move|p1a: Ursaluna|Rest|p1a: Ursaluna
+|-status|p1a: Ursaluna|slp|[from] move: Rest
+|-heal|p1a: Ursaluna|100/100 slp|[silent]
+|
+|upkeep
+|turn|17
+|
+|t:|1743863200
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-damage|p2a: Walking Wake|84/100|[from] Spikes
+|cant|p1a: Ursaluna|slp
+|move|p1a: Ursaluna|Sleep Talk|p1a: Ursaluna
+|move|p1a: Ursaluna|Rest||[from] move: Sleep Talk|[still]
+|-fail|p1a: Ursaluna
+|
+|upkeep
+|turn|18
+|
+|t:|1743863212
+|-terastallize|p1a: Ursaluna|Steel
+|move|p2a: Walking Wake|Hydro Pump|p1a: Ursaluna|[miss]
+|-miss|p2a: Walking Wake|p1a: Ursaluna
+|cant|p1a: Ursaluna|slp
+|move|p1a: Ursaluna|Sleep Talk|p1a: Ursaluna
+|move|p1a: Ursaluna|Rest||[from] move: Sleep Talk|[still]
+|-fail|p1a: Ursaluna
+|
+|upkeep
+|turn|19
+|
+|t:|1743863226
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|13/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|-curestatus|p1a: Ursaluna|slp|[msg]
+|move|p1a: Ursaluna|Headlong Rush|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|20
+|
+|t:|1743863235
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|-damage|p1a: Skarmory|88/100|[from] Stealth Rock
+|move|p2a: Landorus|Earth Power|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|upkeep
+|turn|21
+|
+|t:|1743863244
+|move|p2a: Landorus|Stone Edge|p1a: Skarmory
+|-damage|p1a: Skarmory|70/100
+|move|p1a: Skarmory|Stealth Rock|p2a: Landorus
+|-sidestart|p2: Zorom123|move: Stealth Rock
+|
+|upkeep
+|turn|22
+|
+|t:|1743863255
+|move|p2a: Landorus|Stone Edge|p1a: Skarmory
+|-damage|p1a: Skarmory|52/100
+|move|p1a: Skarmory|Whirlwind|p2a: Landorus
+|drag|p2a: Slowking|Slowking-Galar, F|100/100 brn
+|
+|-damage|p2a: Slowking|94/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1743863264
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100
+|-singleturn|p1a: Skarmory|move: Roost
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743863277
+|switch|p2a: Leeman|Hitmonlee, M|100/100|[from] Chilly Reception
+|-damage|p2a: Leeman|84/100|[from] Spikes
+|-damage|p2a: Leeman|78/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1743863285
+|move|p2a: Leeman|High Jump Kick|p1a: Skarmory
+|-damage|p1a: Skarmory|22/100
+|-damage|p2a: Leeman|61/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|move|p1a: Skarmory|Brave Bird|p2a: Leeman
+|-supereffective|p2a: Leeman
+|-damage|p2a: Leeman|0 fnt
+|faint|p2a: Leeman
+|-damage|p1a: Skarmory|8/100|[from] Recoil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743863308
+|switch|p2a: Meowscarada|Meowscarada, F, shiny|100/100
+|-damage|p2a: Meowscarada|84/100|[from] Spikes
+|-damage|p2a: Meowscarada|72/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1743863313
+|move|p2a: Meowscarada|Knock Off|p1a: Skarmory
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Skarmory|0 fnt
+|-damage|p2a: Meowscarada|55/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|-enditem|p1a: Skarmory|Rocky Helmet|[from] move: Knock Off|[of] p2a: Meowscarada
+|faint|p1a: Skarmory
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743863322
+|switch|p1a: Gliscor|Gliscor, F|100/100 tox
+|-damage|p1a: Gliscor|88/100 tox|[from] Stealth Rock
+|turn|26
+|
+|t:|1743863330
+|switch|p2a: Landorus|Landorus-Therian, M|13/100
+|-damage|p2a: Landorus|0 fnt|[from] Stealth Rock
+|faint|p2a: Landorus
+|move|p1a: Gliscor|Facade|p2: Landorus|[notarget]
+|-fail|p1a: Gliscor
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743863340
+|switch|p2a: Walking Wake|Walking Wake|84/100
+|-damage|p2a: Walking Wake|67/100|[from] Spikes
+|-damage|p2a: Walking Wake|55/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1743863347
+|switch|p1a: Ursaluna|Ursaluna, F, tera:Steel|100/100
+|move|p2a: Walking Wake|Hydro Pump|p1a: Ursaluna
+|-damage|p1a: Ursaluna|36/100
+|
+|-weather|none
+|upkeep
+|turn|28
+|
+|t:|1743863362
+|move|p2a: Walking Wake|Hydro Pump|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1743863367
+|switch|p1a: Gliscor|Gliscor, F|100/100 tox
+|-damage|p1a: Gliscor|88/100 tox|[from] Stealth Rock
+|turn|29
+|
+|t:|1743863378
+|move|p2a: Walking Wake|Hydro Pump|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|win|Zorom123
+|raw|pikachu soup's rating: 1333 &rarr; <strong>1310</strong><br />(-23 for losing)
+|raw|Zorom123's rating: 1281 &rarr; <strong>1310</strong><br />(+29 for winning)
+|l|☆pikachu soup
+|player|p1|
+|l|☆Zorom123
+|player|p2|

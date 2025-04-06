@@ -1,0 +1,357 @@
+|j|☆KFC_Emperor
+|j|☆chemnuoc
+|t:|1743876356
+|gametype|singles
+|player|p1|KFC_Emperor|n|1142
+|player|p2|chemnuoc|169|1173
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zoroark, F|
+|poke|p1|Azelf|
+|poke|p1|Torkoal, F|
+|poke|p1|Blaziken, M|
+|poke|p1|Moltres-Galar|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Iron Moth|
+|poke|p2|Zapdos|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Clefable, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KFC_Emperor)
+|
+|t:|1743876387
+|start
+|switch|p1a: Blaziken|Blaziken, M, shiny|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|inactive|KFC_Emperor has 120 seconds left.
+|
+|t:|1743876427
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Great Tusk|Knock Off|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|2
+|
+|t:|1743876440
+|move|p1a: Blaziken|U-turn|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|89/100
+|-damage|p1a: Blaziken|91/100|[from] item: Life Orb
+|
+|t:|1743876453
+|switch|p1a: Torkoal|Torkoal, F|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p2a: Great Tusk|Knock Off|p1a: Torkoal
+|-damage|p1a: Torkoal|57/100
+|-enditem|p1a: Torkoal|Heat Rock|[from] move: Knock Off|[of] p2a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743876479
+|-terastallize|p1a: Torkoal|Water
+|move|p2a: Great Tusk|Knock Off|p1a: Torkoal
+|-damage|p1a: Torkoal|25/100
+|move|p1a: Torkoal|Earth Power|p2a: Great Tusk
+|-damage|p2a: Great Tusk|57/100
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743876493
+|move|p2a: Great Tusk|Knock Off|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743876496
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|5
+|
+|t:|1743876503
+|move|p1a: Lilligant|Leaf Blade|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743876513
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|6
+|inactive|KFC_Emperor has 120 seconds left.
+|
+|t:|1743876547
+|switch|p1a: Blaziken|Blaziken, M, shiny|91/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Blaziken
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|30/100
+|-boost|p2a: Iron Moth|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|inactive|chemnuoc has 120 seconds left.
+|
+|t:|1743876577
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Iron Moth|Substitute|p2a: Iron Moth
+|-start|p2a: Iron Moth|Substitute
+|-damage|p2a: Iron Moth|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|8
+|inactive|KFC_Emperor has 90 seconds left.
+|
+|t:|1743876618
+|move|p1a: Blaziken|Blaze Kick|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-end|p2a: Iron Moth|Substitute
+|-damage|p1a: Blaziken|20/100|[from] item: Life Orb
+|move|p2a: Iron Moth|Psychic|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743876628
+|switch|p1a: Azelf|Azelf, shiny|100/100
+|turn|9
+|
+|t:|1743876635
+|move|p2a: Iron Moth|Sludge Wave|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|replace|p1a: Zoroark|Zoroark, F, shiny
+|-end|p1a: Zoroark|Illusion
+|faint|p1a: Zoroark
+|
+|-weather|none
+|upkeep
+|
+|t:|1743876642
+|switch|p1a: Azelf|Azelf, shiny|100/100
+|turn|10
+|
+|t:|1743876648
+|move|p1a: Azelf|Psycho Cut|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743876652
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|11
+|
+|t:|1743876659
+|move|p1a: Azelf|U-turn|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|94/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|t:|1743876666
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100|[from] U-turn
+|move|p2a: Gholdengo|Shadow Ball|p1a: Lilligant
+|-damage|p1a: Lilligant|54/100
+|
+|upkeep
+|turn|12
+|inactive|KFC_Emperor has 90 seconds left.
+|
+|t:|1743876693
+|-terastallize|p2a: Gholdengo|Fairy
+|move|p1a: Lilligant|Leaf Blade|p2a: Gholdengo
+|-damage|p2a: Gholdengo|42/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|upkeep
+|turn|13
+|
+|t:|1743876697
+|move|p1a: Lilligant|Leaf Blade|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|c|☆chemnuoc|fking retar
+|c|☆chemnuoc|choice scarf
+|
+|t:|1743876709
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Lilligant|atk|1
+|turn|14
+|c|☆KFC_Emperor|???
+|
+|t:|1743876718
+|switch|p1a: Azelf|Azelf, shiny|100/100
+|move|p2a: Landorus|U-turn|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-damage|p1a: Azelf|24/100
+|
+|t:|1743876725
+|switch|p2a: Zapdos|Zapdos|100/100|[from] U-turn
+|
+|-heal|p1a: Azelf|31/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|KFC_Emperor has 90 seconds left.
+|
+|t:|1743876753
+|move|p1a: Azelf|Psycho Cut|p2a: Zapdos
+|-damage|p2a: Zapdos|61/100
+|move|p2a: Zapdos|Thunder|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|faint|p1a: Azelf
+|
+|upkeep
+|inactive|KFC_Emperor has 90 seconds left.
+|
+|t:|1743876759
+|switch|p1a: Lilligant|Lilligant-Hisui, F|54/100
+|turn|16
+|
+|t:|1743876764
+|move|p1a: Lilligant|Poison Jab|p2a: Zapdos
+|-damage|p2a: Zapdos|36/100
+|-status|p2a: Zapdos|psn
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|86/100 psn
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-damage|p2a: Zapdos|74/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1743876773
+|move|p1a: Lilligant|Leaf Blade|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|52/100 psn
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100 psn
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-damage|p2a: Zapdos|88/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1743876781
+|move|p1a: Lilligant|Poison Jab|p2a: Zapdos
+|-damage|p2a: Zapdos|62/100 psn
+|move|p2a: Zapdos|Heat Wave|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-crit|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|-damage|p2a: Zapdos|50/100 psn|[from] psn
+|upkeep
+|
+|t:|1743876784
+|switch|p1a: Moltres|Moltres-Galar, shiny|100/100
+|turn|19
+|inactive|KFC_Emperor has 120 seconds left.
+|
+|t:|1743876794
+|move|p1a: Moltres|Sucker Punch||[still]
+|-fail|p1a: Moltres
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|99/100 psn
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-damage|p2a: Zapdos|87/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1743876799
+|move|p1a: Moltres|Sucker Punch|p2a: Zapdos
+|-damage|p2a: Zapdos|66/100 psn
+|move|p2a: Zapdos|Thunder|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|15/100
+|-status|p1a: Moltres|par
+|-ability|p1a: Moltres|Berserk|boost
+|-boost|p1a: Moltres|spa|1
+|-enditem|p1a: Moltres|Sitrus Berry|[eat]
+|-heal|p1a: Moltres|39/100 par|[from] item: Sitrus Berry
+|
+|-damage|p2a: Zapdos|54/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1743876808
+|move|p2a: Zapdos|Thunder|p1a: Moltres|[miss]
+|-miss|p2a: Zapdos|p1a: Moltres
+|move|p1a: Moltres|Fiery Wrath|p2a: Zapdos
+|-damage|p2a: Zapdos|15/100 psn
+|
+|-damage|p2a: Zapdos|3/100 psn|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1743876811
+|move|p1a: Moltres|Sucker Punch|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1743876814
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Moltres|atk|1
+|turn|23
+|
+|t:|1743876819
+|move|p2a: Landorus|Stone Edge|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|win|chemnuoc
+|raw|KFC_Emperor's rating: 1142 &rarr; <strong>1117</strong><br />(-25 for losing)
+|raw|chemnuoc's rating: 1145 &rarr; <strong>1170</strong><br />(+25 for winning)
+|l|☆chemnuoc
+|player|p2|
+|l|☆KFC_Emperor
+|player|p1|

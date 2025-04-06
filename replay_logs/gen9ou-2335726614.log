@@ -1,0 +1,431 @@
+|j|☆monarkx
+|j|☆lzxszsd
+|t:|1743826691
+|gametype|singles
+|player|p1|monarkx|pokemonranger-gen4|1057
+|player|p2|lzxszsd|rosa|1079
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Goodra, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Sylveon, F|
+|poke|p1|Mienshao, F|
+|poke|p1|Gengar, M|
+|poke|p1|Zoroark, F|
+|poke|p2|Sceptile, F|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Rillaboom, F|
+|poke|p2|Conkeldurr, F|
+|poke|p2|Gogoat, F|
+|poke|p2|Talonflame, M|
+|teampreview
+|
+|t:|1743826706
+|start
+|switch|p1a: Mienshao|Mienshao, F, shiny|100/100
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1743826720
+|move|p1a: Mienshao|Fake Out|p2a: Rillaboom
+|-damage|p2a: Rillaboom|87/100
+|cant|p2a: Rillaboom|flinch
+|
+|-heal|p2a: Rillaboom|94/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743826729
+|move|p1a: Mienshao|Knock Off|p2a: Rillaboom
+|-damage|p2a: Rillaboom|68/100
+|-enditem|p2a: Rillaboom|Leftovers|[from] move: Knock Off|[of] p1a: Mienshao
+|move|p2a: Rillaboom|U-turn|p1a: Mienshao
+|-resisted|p1a: Mienshao
+|-damage|p1a: Mienshao|78/100
+|
+|t:|1743826748
+|switch|p2a: Gogoat|Gogoat, F|100/100|[from] U-turn
+|
+|-heal|p1a: Mienshao|84/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1743826758
+|move|p1a: Mienshao|U-turn|p2a: Gogoat
+|-supereffective|p2a: Gogoat
+|-damage|p2a: Gogoat|68/100
+|
+|t:|1743826761
+|switch|p1a: Goodra|Goodra, F|100/100|[from] U-turn
+|move|p2a: Gogoat|Bulk Up|p2a: Gogoat
+|-boost|p2a: Gogoat|atk|1
+|-boost|p2a: Gogoat|def|1
+|
+|-heal|p2a: Gogoat|74/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1743826774
+|-terastallize|p1a: Goodra|Water
+|move|p1a: Goodra|Flamethrower|p2a: Gogoat
+|-supereffective|p2a: Gogoat
+|-crit|p2a: Gogoat
+|-damage|p2a: Gogoat|0 fnt
+|faint|p2a: Gogoat
+|
+|upkeep
+|
+|t:|1743826788
+|switch|p2a: Sceptile|Sceptile, F|100/100
+|-enditem|p2a: Sceptile|Grassy Seed
+|-boost|p2a: Sceptile|def|1|[from] item: Grassy Seed
+|turn|5
+|
+|t:|1743826798
+|-terastallize|p2a: Sceptile|Grass
+|move|p2a: Sceptile|Leaf Blade|p1a: Goodra
+|-ability|p1a: Goodra|Sap Sipper|boost
+|-boost|p1a: Goodra|atk|1
+|move|p1a: Goodra|Flamethrower|p2a: Sceptile
+|-supereffective|p2a: Sceptile
+|-damage|p2a: Sceptile|16/100
+|
+|-heal|p2a: Sceptile|22/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1743826813
+|move|p2a: Sceptile|Thunder Punch|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|46/100
+|move|p1a: Goodra|Thunderbolt|p2a: Sceptile
+|-resisted|p2a: Sceptile
+|-damage|p2a: Sceptile|1/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743826822
+|switch|p1a: Sylveon|Sylveon, F|100/100
+|move|p2a: Sceptile|Thunder Punch|p1a: Sylveon
+|-damage|p1a: Sylveon|85/100
+|
+|-heal|p1a: Sylveon|91/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743826834
+|move|p2a: Sceptile|Leaf Blade|p1a: Sylveon
+|-damage|p1a: Sylveon|53/100
+|move|p1a: Sylveon|Calm Mind|p1a: Sylveon
+|-boost|p1a: Sylveon|spa|1
+|-boost|p1a: Sylveon|spd|1
+|
+|-heal|p1a: Sylveon|59/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743826844
+|move|p2a: Sceptile|Leaf Blade|p1a: Sylveon
+|-damage|p1a: Sylveon|19/100
+|move|p1a: Sylveon|Wish|p1a: Sylveon
+|
+|-heal|p1a: Sylveon|25/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743826853
+|switch|p1a: Goodra|Goodra, F, tera:Water|46/100
+|move|p2a: Sceptile|Leaf Blade|p1a: Goodra
+|-ability|p1a: Goodra|Sap Sipper|boost
+|-boost|p1a: Goodra|atk|1
+|
+|-heal|p1a: Goodra|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|11
+|
+|t:|1743826864
+|move|p2a: Sceptile|Thunder Punch|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|49/100
+|move|p1a: Goodra|Dragon Pulse|p2a: Sceptile
+|-crit|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|
+|upkeep
+|
+|t:|1743826878
+|switch|p2a: Rillaboom|Rillaboom, F|68/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|12
+|
+|t:|1743826886
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|move|p1a: Goodra|Flamethrower|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|65/100
+|
+|-heal|p1a: Goodra|55/100|[from] Grassy Terrain
+|-heal|p2a: Conkeldurr|71/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1743826898
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Conkeldurr|Thunder Punch|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|22/100
+|-damage|p2a: Conkeldurr|54/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|-heal|p2a: Conkeldurr|60/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1743826911
+|move|p1a: Corviknight|Brave Bird|p2a: Conkeldurr
+|-supereffective|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|0 fnt
+|faint|p2a: Conkeldurr
+|-damage|p1a: Corviknight|0 fnt|[from] Recoil
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1743826924
+|switch|p1a: Mienshao|Mienshao, F, shiny|100/100
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|turn|15
+|
+|t:|1743826933
+|move|p1a: Mienshao|Trick|p2a: Crawdaunt
+|-activate|p1a: Mienshao|move: Trick|[of] p2a: Crawdaunt
+|-item|p2a: Crawdaunt|Choice Scarf|[from] move: Trick
+|-item|p1a: Mienshao|Metronome|[from] move: Trick
+|move|p2a: Crawdaunt|Close Combat|p1a: Mienshao
+|-supereffective|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|-unboost|p2a: Crawdaunt|def|1
+|-unboost|p2a: Crawdaunt|spd|1
+|replace|p1a: Zoroark|Zoroark, F
+|-end|p1a: Zoroark|Illusion
+|faint|p1a: Zoroark
+|
+|upkeep
+|
+|t:|1743826943
+|switch|p1a: Gengar|Gengar, M|100/100
+|turn|16
+|
+|t:|1743826954
+|switch|p2a: Talonflame|Talonflame, M|100/100
+|move|p1a: Gengar|Substitute|p1a: Gengar
+|-start|p1a: Gengar|Substitute
+|-damage|p1a: Gengar|76/100
+|
+|-heal|p1a: Gengar|82/100|[from] Grassy Terrain
+|-heal|p1a: Gengar|88/100|[from] item: Black Sludge
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1743826967
+|move|p2a: Talonflame|Substitute|p2a: Talonflame
+|-start|p2a: Talonflame|Substitute
+|-damage|p2a: Talonflame|76/100
+|move|p1a: Gengar|Disable|p2a: Talonflame
+|-start|p2a: Talonflame|Disable|Substitute
+|
+|-heal|p1a: Gengar|94/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|t:|1743826982
+|move|p2a: Talonflame|U-turn|p1a: Gengar
+|-resisted|p1a: Gengar
+|-activate|p1a: Gengar|move: Substitute|[damage]
+|
+|t:|1743826989
+|switch|p2a: Rillaboom|Rillaboom, F|68/100|[from] U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Gengar|Shadow Ball|p2a: Rillaboom
+|-crit|p2a: Rillaboom
+|-damage|p2a: Rillaboom|1/100
+|-unboost|p2a: Rillaboom|spd|1
+|
+|-heal|p1a: Gengar|99/100|[from] Grassy Terrain
+|-heal|p1a: Gengar|100/100|[from] item: Black Sludge
+|-heal|p2a: Rillaboom|7/100|[from] Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1743827009
+|move|p1a: Gengar|Shadow Ball|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|upkeep
+|
+|t:|1743827016
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|turn|20
+|
+|t:|1743827025
+|move|p1a: Gengar|Shadow Ball|p2a: Crawdaunt
+|-resisted|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|56/100
+|move|p2a: Crawdaunt|Crunch|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-end|p1a: Gengar|Substitute
+|
+|-heal|p2a: Crawdaunt|62/100|[from] Grassy Terrain
+|upkeep
+|turn|21
+|
+|t:|1743827037
+|move|p1a: Gengar|Disable|p2a: Crawdaunt
+|-start|p2a: Crawdaunt|Disable|Crunch
+|cant|p2a: Crawdaunt|Disable|Crunch
+|
+|-heal|p2a: Crawdaunt|68/100|[from] Grassy Terrain
+|upkeep
+|turn|22
+|
+|t:|1743827047
+|switch|p2a: Talonflame|Talonflame, M|76/100
+|move|p1a: Gengar|Substitute|p1a: Gengar
+|-start|p1a: Gengar|Substitute
+|-damage|p1a: Gengar|76/100
+|
+|-heal|p1a: Gengar|82/100|[from] Grassy Terrain
+|-heal|p1a: Gengar|88/100|[from] item: Black Sludge
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|23
+|
+|t:|1743827059
+|move|p2a: Talonflame|Substitute|p2a: Talonflame
+|-start|p2a: Talonflame|Substitute
+|-damage|p2a: Talonflame|51/100
+|move|p1a: Gengar|Shadow Ball|p2a: Talonflame
+|-end|p2a: Talonflame|Substitute
+|
+|-heal|p1a: Gengar|94/100|[from] item: Black Sludge
+|upkeep
+|turn|24
+|
+|t:|1743827070
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|100/100
+|-singleturn|p2a: Talonflame|move: Roost
+|move|p1a: Gengar|Shadow Ball|p2a: Talonflame
+|-damage|p2a: Talonflame|45/100
+|
+|-heal|p1a: Gengar|99/100|[from] item: Black Sludge
+|upkeep
+|turn|25
+|
+|t:|1743827081
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|95/100
+|-singleturn|p2a: Talonflame|move: Roost
+|move|p1a: Gengar|Shadow Ball|p2a: Talonflame
+|-damage|p2a: Talonflame|42/100
+|
+|-heal|p1a: Gengar|100/100|[from] item: Black Sludge
+|upkeep
+|turn|26
+|
+|t:|1743827092
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|92/100
+|-singleturn|p2a: Talonflame|move: Roost
+|move|p1a: Gengar|Disable|p2a: Talonflame
+|-start|p2a: Talonflame|Disable|Roost
+|
+|upkeep
+|turn|27
+|
+|t:|1743827102
+|move|p2a: Talonflame|Substitute|p2a: Talonflame
+|-start|p2a: Talonflame|Substitute
+|-damage|p2a: Talonflame|68/100
+|move|p1a: Gengar|Shadow Ball|p2a: Talonflame
+|-end|p2a: Talonflame|Substitute
+|
+|upkeep
+|turn|28
+|
+|t:|1743827115
+|move|p2a: Talonflame|Substitute|p2a: Talonflame
+|-start|p2a: Talonflame|Substitute
+|-damage|p2a: Talonflame|43/100
+|move|p1a: Gengar|Sludge Wave|p2a: Talonflame
+|-end|p2a: Talonflame|Substitute
+|
+|upkeep
+|turn|29
+|
+|t:|1743827123
+|move|p2a: Talonflame|Substitute|p2a: Talonflame
+|-start|p2a: Talonflame|Substitute
+|-damage|p2a: Talonflame|18/100
+|move|p1a: Gengar|Sludge Wave|p2a: Talonflame
+|-end|p2a: Talonflame|Substitute
+|
+|upkeep
+|turn|30
+|
+|t:|1743827131
+|move|p2a: Talonflame|U-turn|p1a: Gengar
+|-resisted|p1a: Gengar
+|-activate|p1a: Gengar|move: Substitute|[damage]
+|
+|t:|1743827136
+|switch|p2a: Crawdaunt|Crawdaunt, F|68/100|[from] U-turn
+|move|p1a: Gengar|Sludge Wave|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|upkeep
+|
+|t:|1743827146
+|switch|p2a: Talonflame|Talonflame, M|18/100
+|turn|31
+|
+|t:|1743827152
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|68/100
+|-singleturn|p2a: Talonflame|move: Roost
+|move|p1a: Gengar|Sludge Wave|p2a: Talonflame
+|-damage|p2a: Talonflame|4/100
+|
+|upkeep
+|turn|32
+|
+|t:|1743827160
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|54/100
+|-singleturn|p2a: Talonflame|move: Roost
+|move|p1a: Gengar|Sludge Wave|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|win|monarkx
+|raw|monarkx's rating: 1057 &rarr; <strong>1090</strong><br />(+33 for winning)
+|raw|lzxszsd's rating: 1079 &rarr; <strong>1056</strong><br />(-23 for losing)
+|l|☆monarkx
+|player|p1|

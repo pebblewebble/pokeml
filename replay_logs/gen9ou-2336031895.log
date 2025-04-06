@@ -1,0 +1,382 @@
+|j|☆chip witley
+|j|☆Air Glider
+|t:|1743871820
+|gametype|singles
+|player|p1|chip witley|lance|1722
+|player|p2|Air Glider|170|1770
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mabosstiff, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Zapdos|
+|poke|p1|Kyurem|
+|poke|p1|Zamazenta-*|
+|poke|p1|Iron Treads|
+|poke|p2|Pelipper, M|
+|poke|p2|Iron Treads|
+|poke|p2|Basculegion, M|
+|poke|p2|Latios, M|
+|poke|p2|Keldeo-Resolute|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|t:|1743871848
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1743871855
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Iron Treads|Earthquake|p2a: Pelipper
+|-immune|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743871859
+|move|p1a: Iron Treads|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: Air Glider|move: Stealth Rock
+|move|p2a: Pelipper|U-turn|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|96/100
+|
+|t:|1743871866
+|switch|p2a: Basculegion|Basculegion, M|100/100|[from] U-turn
+|-damage|p2a: Basculegion|88/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743871870
+|move|p2a: Basculegion|Wave Crash|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|-damage|p2a: Basculegion|62/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743871877
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|4
+|
+|t:|1743871879
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|98/100|[from] Stealth Rock
+|move|p1a: Kyurem|Freeze-Dry|p2a: Iron Treads
+|-damage|p2a: Iron Treads|51/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Treads|57/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743871885
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Iron Treads|Rapid Spin|p1a: Zapdos
+|-damage|p1a: Zapdos|92/100
+|-boost|p2a: Iron Treads|spe|1
+|-status|p2a: Iron Treads|par|[from] ability: Static|[of] p1a: Zapdos
+|-sideend|p2: Air Glider|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Treads|63/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743871888
+|move|p1a: Zapdos|Hurricane|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|44/100 par
+|move|p2a: Iron Treads|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: chip witley|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Treads|50/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743871891
+|move|p1a: Zapdos|Hurricane|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|32/100 par
+|-start|p2a: Iron Treads|confusion
+|-activate|p2a: Iron Treads|confusion
+|move|p2a: Iron Treads|Volt Switch|p1a: Zapdos
+|-damage|p1a: Zapdos|82/100
+|
+|t:|1743871901
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743871916
+|switch|p1a: Mabosstiff|Mabosstiff, F|100/100
+|-damage|p1a: Mabosstiff|88/100|[from] Stealth Rock
+|move|p2a: Keldeo|Hydro Pump|p1a: Mabosstiff|[miss]
+|-miss|p2a: Keldeo|p1a: Mabosstiff
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743871921
+|move|p2a: Keldeo|Hydro Pump|p1a: Mabosstiff
+|-damage|p1a: Mabosstiff|0 fnt
+|faint|p1a: Mabosstiff
+|
+|upkeep
+|
+|t:|1743871923
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|turn|10
+|
+|t:|1743871930
+|switch|p2a: Iron Treads|Iron Treads|32/100 par
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743871932
+|switch|p1a: Zamazenta|Zamazenta|100/100|[from] Chilly Reception
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Iron Treads|38/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743871935
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Zamazenta|Stone Edge|p2a: Pelipper|[miss]
+|-miss|p1a: Zamazenta|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743871947
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Pelipper|Hurricane|p1a: Slowking
+|-damage|p1a: Slowking|77/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743871950
+|move|p2a: Pelipper|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|68/100
+|
+|t:|1743871953
+|switch|p2a: Iron Treads|Iron Treads|38/100 par|[from] U-turn
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743871956
+|switch|p1a: Zamazenta|Zamazenta|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Iron Treads|44/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743871958
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Zamazenta|Stone Edge|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|26/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743871966
+|switch|p2a: Iron Treads|Iron Treads|44/100 par
+|move|p1a: Zamazenta|Crunch|p2a: Iron Treads
+|-damage|p2a: Iron Treads|24/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Iron Treads|30/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743871969
+|move|p1a: Zamazenta|Crunch|p2a: Iron Treads
+|-damage|p2a: Iron Treads|10/100 par
+|-unboost|p2a: Iron Treads|def|1
+|move|p2a: Iron Treads|Volt Switch|p1a: Zamazenta
+|-damage|p1a: Zamazenta|90/100
+|
+|t:|1743872033
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743872039
+|switch|p1a: Kyurem|Kyurem|100/100
+|-damage|p1a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Keldeo|Surf|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|22/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743872042
+|move|p2a: Keldeo|Surf|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743872043
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|turn|19
+|
+|t:|1743872049
+|switch|p2a: Iron Treads|Iron Treads|10/100 par
+|-terastallize|p1a: Slowking|Water
+|move|p1a: Slowking|Psychic Noise|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743872073
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|20
+|
+|t:|1743872076
+|move|p2a: Dragapult|Dragon Dance|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|spe|1
+|move|p1a: Slowking|Thunder Wave|p2a: Dragapult
+|-status|p2a: Dragapult|par
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743872080
+|move|p2a: Dragapult|Dragon Darts|p1a: Slowking
+|-damage|p1a: Slowking|58/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Slowking
+|-damage|p1a: Slowking|14/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743872083
+|switch|p1a: Zamazenta|Zamazenta|90/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1743872086
+|move|p1a: Zamazenta|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|30/100 par
+|cant|p2a: Dragapult|par
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1743872091
+|move|p1a: Zamazenta|Crunch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743872094
+|switch|p2a: Pelipper|Pelipper, M|26/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|24
+|
+|t:|1743872137
+|switch|p1a: Slowking|Slowking-Galar, M, tera:Water|47/100
+|move|p2a: Pelipper|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|38/100
+|
+|t:|1743872145
+|switch|p2a: Keldeo|Keldeo-Resolute|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1743872148
+|switch|p1a: Zapdos|Zapdos|82/100
+|move|p2a: Keldeo|Surf|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743872152
+|switch|p1a: Slowking|Slowking-Galar, M, tera:Water|71/100
+|turn|26
+|
+|t:|1743872155
+|move|p2a: Keldeo|Surf|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|41/100
+|move|p1a: Slowking|Thunder Wave|p2a: Keldeo|[miss]
+|-miss|p1a: Slowking|p2a: Keldeo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|-message|chip witley forfeited.
+|
+|win|Air Glider
+|raw|chip witley's rating: 1722 &rarr; <strong>1705</strong><br />(-17 for losing)
+|raw|Air Glider's rating: 1770 &rarr; <strong>1787</strong><br />(+17 for winning)

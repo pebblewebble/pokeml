@@ -1,0 +1,298 @@
+|j|☆kownish
+|j|☆maractus' no1 fan
+|t:|1743919328
+|gametype|singles
+|player|p1|kownish|170|1508
+|player|p2|maractus' no1 fan|pokemonbreeder-gen4|1587
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Darkrai|
+|poke|p1|Manaphy|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Gholdengo|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Valiant|
+|poke|p2|Kingambit, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Latias, F|
+|poke|p2|Azumarill, F|
+|poke|p2|Iron Treads|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kownish)
+|
+|t:|1743919348
+|start
+|switch|p1a: Manaphy|Manaphy|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|1
+|
+|t:|1743919353
+|move|p2a: Iron Treads|Knock Off|p1a: Manaphy
+|-damage|p1a: Manaphy|72/100
+|-enditem|p1a: Manaphy|Covert Cloak|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Manaphy|Tail Glow|p1a: Manaphy
+|-boost|p1a: Manaphy|spa|3
+|
+|upkeep
+|turn|2
+|
+|t:|1743919357
+|move|p2a: Iron Treads|Earthquake|p1a: Manaphy
+|-damage|p1a: Manaphy|29/100
+|move|p1a: Manaphy|Surf|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743919365
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|3
+|
+|t:|1743919371
+|move|p2a: Dragapult|Shadow Ball|p1a: Manaphy
+|-damage|p1a: Manaphy|0 fnt
+|faint|p1a: Manaphy
+|
+|upkeep
+|
+|t:|1743919379
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|4
+|
+|t:|1743919388
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Darkrai|Nasty Plot|p1a: Darkrai
+|-boost|p1a: Darkrai|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743919391
+|move|p1a: Darkrai|Dark Pulse|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743919395
+|switch|p2a: Azumarill|Azumarill, F|100/100
+|turn|6
+|
+|t:|1743919401
+|-terastallize|p2a: Azumarill|Water
+|move|p2a: Azumarill|Aqua Jet|p1a: Darkrai
+|-damage|p1a: Darkrai|35/100
+|move|p1a: Darkrai|Sludge Bomb|p2a: Azumarill
+|-damage|p2a: Azumarill|33/100
+|-enditem|p2a: Azumarill|Sitrus Berry|[eat]
+|-heal|p2a: Azumarill|58/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743919418
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Azumarill|atk|1
+|move|p2a: Azumarill|Aqua Jet|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|41/100
+|-damage|p2a: Azumarill|42/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743919430
+|move|p2a: Azumarill|Aqua Jet|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Azumarill|25/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743919437
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|9
+|
+|t:|1743919464
+|move|p1a: Raging Bolt|Thunderclap|p2a: Azumarill
+|-supereffective|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743919471
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|10
+|
+|t:|1743919474
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Kingambit
+|-damage|p2a: Kingambit|37/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|40/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743919481
+|-end|p2a: Kingambit|fallen3|[silent]
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|50/100
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1743919491
+|move|p1a: Raging Bolt|Thunderclap|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|13/100
+|move|p2a: Dragapult|Shadow Ball|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743919499
+|switch|p1a: Darkrai|Darkrai|35/100
+|turn|13
+|
+|t:|1743919502
+|move|p2a: Dragapult|Shadow Ball|p1a: Darkrai
+|-resisted|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|upkeep
+|
+|t:|1743919505
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|14
+|
+|t:|1743919508
+|move|p1a: Iron Valiant|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1743919510
+|switch|p2a: Latias|Latias, F|100/100
+|turn|15
+|
+|t:|1743919519
+|-terastallize|p1a: Iron Valiant|Dark
+|move|p1a: Iron Valiant|Knock Off|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|26/100
+|-enditem|p2a: Latias|Weakness Policy
+|-boost|p2a: Latias|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Latias|spa|2|[from] item: Weakness Policy
+|move|p2a: Latias|Agility|p2a: Latias
+|-boost|p2a: Latias|spe|2
+|
+|upkeep
+|turn|16
+|
+|t:|1743919534
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Latias|Surf|p1a: Gholdengo
+|-damage|p1a: Gholdengo|59/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|17
+|
+|t:|1743919541
+|move|p2a: Latias|Stored Power|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|8/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|upkeep
+|
+|t:|1743919544
+|switch|p2a: Kingambit|Kingambit, F|37/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|18
+|
+|t:|1743919552
+|move|p1a: Gholdengo|Make It Rain|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|4/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|19
+|
+|t:|1743919561
+|move|p2a: Kingambit|Sucker Punch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743919563
+|switch|p1a: Iron Valiant|Iron Valiant, tera:Dark|100/100
+|turn|20
+|
+|t:|1743919566
+|move|p2a: Kingambit|Sucker Punch|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|win|maractus' no1 fan
+|raw|kownish's rating: 1508 &rarr; <strong>1492</strong><br />(-16 for losing)
+|raw|maractus&apos; no1 fan's rating: 1587 &rarr; <strong>1603</strong><br />(+16 for winning)
+|l|☆maractus' no1 fan
+|player|p2|
+|l|☆kownish
+|player|p1|

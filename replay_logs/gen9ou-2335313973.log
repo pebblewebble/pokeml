@@ -1,0 +1,315 @@
+|j|☆SirShakes
+|j|☆gogotoat
+|t:|1743783854
+|gametype|singles
+|player|p1|SirShakes|firebreather|1371
+|player|p2|gogotoat|dawn|1360
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Glimmora, M|
+|poke|p1|Sinistcha|
+|poke|p1|Ting-Lu|
+|poke|p1|Scizor, M|
+|poke|p1|Alomomola, F|
+|poke|p2|Necrozma|
+|poke|p2|Excadrill, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Dragapult, F|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Quaquaval, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SirShakes)
+|
+|t:|1743783869
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Necrozma|Necrozma|100/100
+|turn|1
+|
+|t:|1743783887
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Necrozma|Photon Geyser|p1a: Ting-Lu
+|-immune|p1a: Ting-Lu
+|
+|upkeep
+|turn|2
+|
+|t:|1743783904
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Quaquaval
+|-sidestart|p2: gogotoat|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1743783911
+|switch|p1a: Sinistcha|Sinistcha|100/100
+|move|p2a: Quaquaval|Aqua Step|p1a: Sinistcha
+|-resisted|p1a: Sinistcha
+|-damage|p1a: Sinistcha|87/100
+|-boost|p2a: Quaquaval|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743783920
+|-terastallize|p2a: Quaquaval|Poison
+|move|p2a: Quaquaval|Knock Off|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|44/100
+|-enditem|p1a: Sinistcha|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Quaquaval
+|move|p1a: Sinistcha|Strength Sap|p2a: Quaquaval
+|-unboost|p2a: Quaquaval|atk|1
+|-heal|p1a: Sinistcha|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743783935
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-damage|p2a: Ninetales|76/100|[from] Stealth Rock
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Ninetales
+|-damage|p2a: Ninetales|44/100
+|-status|p2a: Ninetales|brn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Ninetales|38/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743783940
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: gogotoat|move: Aurora Veil
+|move|p1a: Sinistcha|Hex|p2a: Ninetales
+|-damage|p2a: Ninetales|12/100 brn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Ninetales|6/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743783948
+|move|p2a: Ninetales|Freeze-Dry|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-crit|p1a: Sinistcha
+|-damage|p1a: Sinistcha|24/100
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|-heal|p1a: Sinistcha|27/100|[from] drain|[of] p2a: Ninetales
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743783957
+|switch|p2a: Quaquaval|Quaquaval, F, tera:Poison|100/100
+|-damage|p2a: Quaquaval|88/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1743783977
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|move|p2a: Quaquaval|Knock Off|p1a: Goodra
+|-damage|p1a: Goodra|75/100
+|-ability|p1a: Goodra|Gooey
+|-unboost|p2a: Quaquaval|spe|1
+|-enditem|p1a: Goodra|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Quaquaval
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743783984
+|move|p2a: Quaquaval|Close Combat|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|-unboost|p2a: Quaquaval|def|1
+|-unboost|p2a: Quaquaval|spd|1
+|-ability|p1a: Goodra|Gooey
+|-unboost|p2a: Quaquaval|spe|1
+|faint|p1a: Goodra
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|-weather|none
+|upkeep
+|inactive|SirShakes has 120 seconds left.
+|
+|t:|1743784011
+|switch|p1a: Sinistcha|Sinistcha|27/100
+|turn|10
+|
+|t:|1743784024
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|move|p1a: Sinistcha|Strength Sap|p2a: Raging Bolt
+|-unboost|p2a: Raging Bolt|atk|1
+|-heal|p1a: Sinistcha|71/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743784032
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|78/100
+|
+|-heal|p1a: Ting-Lu|84/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743784047
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Quaquaval|Quaquaval, F, tera:Poison|88/100
+|-damage|p2a: Quaquaval|76/100|[from] Stealth Rock
+|move|p1a: Ting-Lu|Spikes|p2a: Quaquaval
+|-sidestart|p2: gogotoat|Spikes
+|
+|-heal|p1a: Ting-Lu|91/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743784057
+|switch|p1a: Sinistcha|Sinistcha|71/100
+|move|p2a: Quaquaval|Triple Axel|p1a: Sinistcha|[miss]
+|-miss|p2a: Quaquaval|p1a: Sinistcha
+|
+|-sideend|p2: gogotoat|move: Aurora Veil
+|upkeep
+|turn|14
+|
+|t:|1743784068
+|switch|p2a: Necrozma|Necrozma|100/100
+|-damage|p2a: Necrozma|88/100|[from] Stealth Rock
+|-damage|p2a: Necrozma|76/100|[from] Spikes
+|move|p1a: Sinistcha|Strength Sap|p2a: Necrozma
+|-unboost|p2a: Necrozma|atk|1
+|-heal|p1a: Sinistcha|100/100
+|
+|-heal|p2a: Necrozma|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743784079
+|switch|p1a: Ting-Lu|Ting-Lu|91/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Necrozma|Calm Mind|p2a: Necrozma
+|-boost|p2a: Necrozma|spa|1
+|-boost|p2a: Necrozma|spd|1
+|
+|-heal|p2a: Necrozma|88/100|[from] item: Leftovers
+|-heal|p1a: Ting-Lu|97/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743784083
+|move|p2a: Necrozma|Earth Power|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|75/100
+|move|p1a: Ting-Lu|Whirlwind|p2a: Necrozma
+|drag|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|-damage|p2a: Dragapult|76/100|[from] Spikes
+|
+|-heal|p1a: Ting-Lu|81/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743784087
+|move|p2a: Dragapult|U-turn|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|38/100
+|
+|t:|1743784092
+|switch|p2a: Quaquaval|Quaquaval, F, tera:Poison|76/100|[from] U-turn
+|-damage|p2a: Quaquaval|63/100|[from] Stealth Rock
+|-damage|p2a: Quaquaval|51/100|[from] Spikes
+|move|p1a: Ting-Lu|Spikes|p2a: Quaquaval
+|-sidestart|p2: gogotoat|Spikes
+|
+|-heal|p1a: Ting-Lu|45/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|inactive|SirShakes has 120 seconds left.
+|
+|t:|1743784126
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Quaquaval|Triple Axel|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|99/100
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|95/100
+|-resisted|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|88/100
+|-hitcount|p1a: Alomomola|3
+|
+|upkeep
+|turn|19
+|
+|t:|1743784133
+|move|p2a: Quaquaval|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|72/100
+|-enditem|p1a: Alomomola|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Quaquaval
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|20
+|
+|t:|1743784140
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-damage|p2a: Excadrill|81/100|[from] Spikes
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Alomomola|Tickle|p2a: Excadrill
+|-unboost|p2a: Excadrill|atk|1
+|-unboost|p2a: Excadrill|def|1
+|
+|-heal|p1a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|21
+|
+|t:|1743784155
+|switch|p1a: Sinistcha|Sinistcha|100/100
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|
+|upkeep
+|turn|22
+|
+|t:|1743784159
+|move|p2a: Excadrill|Swords Dance|p2a: Excadrill
+|-boost|p2a: Excadrill|atk|2
+|move|p1a: Sinistcha|Foul Play|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|t:|1743784167
+|switch|p2a: Dragapult|Dragapult, F|76/100
+|-damage|p2a: Dragapult|64/100|[from] Stealth Rock
+|-damage|p2a: Dragapult|47/100|[from] Spikes
+|turn|23
+|-message|gogotoat forfeited.
+|
+|win|SirShakes
+|raw|SirShakes's rating: 1371 &rarr; <strong>1390</strong><br />(+19 for winning)
+|raw|gogotoat's rating: 1360 &rarr; <strong>1341</strong><br />(-19 for losing)
+|l|☆gogotoat
+|player|p2|
+|l|☆SirShakes
+|player|p1|

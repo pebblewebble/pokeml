@@ -1,0 +1,360 @@
+|j|☆gostemy
+|j|☆RosaJG
+|t:|1743866695
+|gametype|singles
+|player|p1|gostemy|youngster|1468
+|player|p2|RosaJG|265|1391
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Treads|
+|poke|p1|Gholdengo|
+|poke|p1|Enamorus, F|
+|poke|p1|Dragonite, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Gliscor, F|
+|poke|p2|Sinistcha|
+|poke|p2|Keldeo|
+|poke|p2|Tinkaton, F|
+|poke|p2|Dragonite, M|
+|teampreview
+|
+|t:|1743866724
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: My Little Pwny|Keldeo|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1743866740
+|move|p1a: Iron Treads|Stealth Rock|p2a: My Little Pwny
+|-sidestart|p2: RosaJG|move: Stealth Rock
+|move|p2a: My Little Pwny|Aura Sphere|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-crit|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743866747
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|2
+|
+|t:|1743866757
+|switch|p2a: Tchavis Scott|Sinistcha|100/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Tchavis Scott|[anim] Ivy Cudgel Water
+|-resisted|p2a: Tchavis Scott
+|-damage|p2a: Tchavis Scott|79/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743866765
+|move|p1a: Ogerpon|U-turn|p2a: Tchavis Scott
+|-damage|p2a: Tchavis Scott|59/100
+|
+|t:|1743866769
+|switch|p1a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Tchavis Scott|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|20/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|4
+|
+|t:|1743866780
+|switch|p2a: Cuphead|Ting-Lu|100/100
+|-damage|p2a: Cuphead|94/100|[from] Stealth Rock
+|-ability|p2a: Cuphead|Vessel of Ruin
+|move|p1a: Gholdengo|Shadow Ball|p2a: Cuphead
+|-resisted|p2a: Cuphead
+|-damage|p2a: Cuphead|87/100
+|-unboost|p2a: Cuphead|spd|1
+|
+|-heal|p2a: Cuphead|93/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743866798
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Cuphead|Spikes|p1a: Ogerpon
+|-sidestart|p1: gostemy|Spikes
+|
+|-heal|p2a: Cuphead|99/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743866806
+|switch|p2a: Tchavis Scott|Sinistcha|59/100
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1743866813
+|move|p1a: Ogerpon|U-turn|p2a: Tchavis Scott
+|-damage|p2a: Tchavis Scott|25/100
+|
+|t:|1743866837
+|switch|p1a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-damage|p1a: Iron Valiant|88/100|[from] Spikes
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: Tchavis Scott|Matcha Gotcha|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|20/100
+|-heal|p2a: Tchavis Scott|53/100|[from] drain|[of] p1a: Iron Valiant
+|
+|upkeep
+|turn|8
+|
+|t:|1743866853
+|move|p1a: Iron Valiant|Knock Off|p2a: Tchavis Scott
+|-supereffective|p2a: Tchavis Scott
+|-damage|p2a: Tchavis Scott|12/100
+|-enditem|p2a: Tchavis Scott|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Iron Valiant
+|move|p2a: Tchavis Scott|Strength Sap|p1a: Iron Valiant
+|-unboost|p1a: Iron Valiant|atk|1
+|-heal|p2a: Tchavis Scott|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743866860
+|move|p1a: Iron Valiant|Encore|p2a: Tchavis Scott
+|-start|p2a: Tchavis Scott|Encore
+|move|p2a: Tchavis Scott|Strength Sap|p1a: Iron Valiant
+|-unboost|p1a: Iron Valiant|atk|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743866871
+|switch|p2a: Secret Service|Dragonite, M|100/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Secret Service
+|-supereffective|p2a: Secret Service
+|-damage|p2a: Secret Service|64/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743866904
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Gholdengo|Gholdengo|20/100
+|-damage|p1a: Gholdengo|7/100|[from] Spikes
+|move|p2a: Secret Service|Extreme Speed|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|12
+|
+|t:|1743866910
+|move|p1a: Gholdengo|Make It Rain|p2a: Secret Service
+|-damage|p2a: Secret Service|15/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2a: Secret Service|Roost|p2a: Secret Service
+|-heal|p2a: Secret Service|65/100
+|-singleturn|p2a: Secret Service|move: Roost
+|
+|upkeep
+|turn|13
+|
+|t:|1743866927
+|switch|p1a: Iron Valiant|Iron Valiant|20/100
+|-damage|p1a: Iron Valiant|7/100|[from] Spikes
+|move|p2a: Secret Service|Roost|p2a: Secret Service
+|-heal|p2a: Secret Service|100/100
+|-singleturn|p2a: Secret Service|move: Roost
+|
+|upkeep
+|turn|14
+|
+|t:|1743866931
+|move|p2a: Secret Service|Extreme Speed|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743866943
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|15
+|
+|t:|1743866949
+|switch|p2a: Tinkki Minaj|Tinkaton, F|100/100
+|-damage|p2a: Tinkki Minaj|94/100|[from] Stealth Rock
+|-item|p2a: Tinkki Minaj|Air Balloon
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Ice Spinner|p2a: Tinkki Minaj
+|-resisted|p2a: Tinkki Minaj
+|-damage|p2a: Tinkki Minaj|78/100
+|-enditem|p2a: Tinkki Minaj|Air Balloon
+|-enditem|p1a: Dragonite|Heavy-Duty Boots|[silent]|[from] ability: Pickpocket|[of] p1a: Dragonite
+|-item|p2a: Tinkki Minaj|Heavy-Duty Boots|[from] ability: Pickpocket|[of] p1a: Dragonite
+|
+|upkeep
+|turn|16
+|
+|t:|1743866963
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Spikes
+|move|p2a: Tinkki Minaj|Thunder Wave|p1a: Ogerpon|[miss]
+|-miss|p2a: Tinkki Minaj|p1a: Ogerpon
+|
+|upkeep
+|turn|17
+|
+|t:|1743866972
+|switch|p2a: Tchavis Scott|Sinistcha|100/100
+|-damage|p2a: Tchavis Scott|88/100|[from] Stealth Rock
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Tchavis Scott|[anim] Ivy Cudgel Water
+|-resisted|p2a: Tchavis Scott
+|-crit|p2a: Tchavis Scott
+|-damage|p2a: Tchavis Scott|60/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743866985
+|move|p1a: Ogerpon|U-turn|p2a: Tchavis Scott
+|-damage|p2a: Tchavis Scott|39/100
+|
+|t:|1743866988
+|switch|p1a: Enamorus|Enamorus, F|100/100|[from] U-turn
+|move|p2a: Tchavis Scott|Matcha Gotcha|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|79/100
+|-heal|p2a: Tchavis Scott|49/100|[from] drain|[of] p1a: Enamorus
+|
+|upkeep
+|turn|19
+|
+|t:|1743866998
+|switch|p2a: Tinkki Minaj|Tinkaton, F|78/100
+|move|p1a: Enamorus|Moonblast|p2a: Tinkki Minaj
+|-resisted|p2a: Tinkki Minaj
+|-damage|p2a: Tinkki Minaj|57/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743867003
+|switch|p1a: Gholdengo|Gholdengo|7/100
+|-damage|p1a: Gholdengo|0 fnt|[from] Spikes
+|faint|p1a: Gholdengo
+|move|p2a: Tinkki Minaj|Thunder Wave|p1: Gholdengo|[notarget]
+|-fail|p2a: Tinkki Minaj
+|
+|upkeep
+|
+|t:|1743867008
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|88/100
+|-damage|p1a: Ogerpon|76/100|[from] Spikes
+|turn|21
+|
+|t:|1743867019
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|move|p2a: Tinkki Minaj|Thunder Wave|p1a: Ogerpon
+|-status|p1a: Ogerpon|par
+|
+|upkeep
+|turn|22
+|
+|t:|1743867024
+|move|p2a: Tinkki Minaj|Encore|p1a: Ogerpon
+|-start|p1a: Ogerpon|Encore
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|upkeep
+|turn|23
+|
+|t:|1743867028
+|move|p2a: Tinkki Minaj|Gigaton Hammer|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|49/100 par
+|cant|p1a: Ogerpon|par
+|
+|upkeep
+|turn|24
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RosaJG)
+|
+|t:|1743867072
+|switch|p1a: Enamorus|Enamorus, F|79/100
+|move|p2a: Tinkki Minaj|Stealth Rock|p1a: Enamorus
+|-sidestart|p1: gostemy|move: Stealth Rock
+|
+|upkeep
+|turn|25
+|
+|t:|1743867082
+|switch|p2a: Secret Service|Dragonite, M|100/100
+|move|p1a: Enamorus|Earth Power|p2a: Secret Service
+|-immune|p2a: Secret Service
+|
+|upkeep
+|turn|26
+|
+|t:|1743867094
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|49/100 par
+|-damage|p1a: Ogerpon|37/100 par|[from] Spikes
+|-damage|p1a: Ogerpon|25/100 par|[from] Stealth Rock
+|move|p2a: Secret Service|Extreme Speed|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743867098
+|switch|p1a: Dragonite|Dragonite, F, tera:Normal|100/100
+|-damage|p1a: Dragonite|88/100|[from] Spikes
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1743867112
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Secret Service|Earthquake|p1a: Dragonite
+|-damage|p1a: Dragonite|35/100
+|
+|upkeep
+|turn|28
+|
+|t:|1743867122
+|move|p1a: Dragonite|Ice Spinner|p2a: Secret Service
+|-supereffective|p2a: Secret Service
+|-damage|p2a: Secret Service|21/100
+|move|p2a: Secret Service|Earthquake|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|-message|gostemy forfeited.
+|
+|win|RosaJG
+|raw|gostemy's rating: 1468 &rarr; <strong>1444</strong><br />(-24 for losing)
+|raw|RosaJG's rating: 1391 &rarr; <strong>1415</strong><br />(+24 for winning)
+|l|☆gostemy
+|player|p1|

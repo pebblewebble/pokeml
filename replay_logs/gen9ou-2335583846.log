@@ -1,0 +1,269 @@
+|j|☆IASASAY
+|j|☆shnore
+|t:|1743808972
+|gametype|singles
+|player|p1|IASASAY|ghetsis|1224
+|player|p2|shnore|medium|1288
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Inteleon, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Alomomola, M|
+|poke|p1|Ting-Lu|
+|poke|p2|Pelipper, M|
+|poke|p2|Barraskewda, F|
+|poke|p2|Swampert, M|
+|poke|p2|Primarina, M|
+|poke|p2|Maushold-Four|
+|poke|p2|Zapdos|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by shnore)
+|
+|t:|1743808985
+|start
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1743808994
+|move|p2a: Pelipper|Weather Ball|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|48/100
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: shnore|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ting-Lu|54/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743809004
+|switch|p1a: Inteleon|Inteleon, M|100/100
+|move|p2a: Pelipper|U-turn|p1a: Inteleon
+|-damage|p1a: Inteleon|83/100
+|
+|t:|1743809007
+|switch|p2a: Zapdos|Zapdos|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743809014
+|move|p1a: Inteleon|Surf|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743809017
+|switch|p2a: Barraskewda|Barraskewda, F|100/100
+|-damage|p2a: Barraskewda|88/100|[from] Stealth Rock
+|turn|4
+|
+|t:|1743809025
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Barraskewda|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|64/100
+|-unboost|p2a: Barraskewda|def|1
+|-unboost|p2a: Barraskewda|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743809035
+|switch|p2a: Swampert|Swampert, M|100/100
+|-damage|p2a: Swampert|94/100|[from] Stealth Rock
+|move|p1a: Alomomola|Flip Turn|p2a: Swampert
+|-damage|p2a: Swampert|73/100
+|
+|t:|1743809042
+|switch|p1a: Inteleon|Inteleon, M|83/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Swampert|79/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743809052
+|-terastallize|p1a: Inteleon|Water
+|move|p1a: Inteleon|Surf|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743809057
+|switch|p2a: Barraskewda|Barraskewda, F|88/100
+|-damage|p2a: Barraskewda|76/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1743809063
+|switch|p1a: Alomomola|Alomomola, M|98/100
+|move|p2a: Barraskewda|Liquidation|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|71/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743809071
+|move|p2a: Barraskewda|Liquidation|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|42/100
+|move|p1a: Alomomola|Flip Turn|p2a: Barraskewda
+|-resisted|p2a: Barraskewda
+|-crit|p2a: Barraskewda
+|-damage|p2a: Barraskewda|41/100
+|
+|t:|1743809080
+|switch|p1a: Cinderace|Cinderace, M|100/100|[from] Flip Turn
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743809087
+|move|p1a: Cinderace|Sucker Punch|p2a: Barraskewda
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|upkeep
+|
+|t:|1743809089
+|switch|p2a: Primarina|Primarina, M|100/100
+|-damage|p2a: Primarina|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743809096
+|move|p1a: Cinderace|Pyro Ball|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|62/100
+|move|p2a: Primarina|Moonblast|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743809106
+|switch|p1a: Inteleon|Inteleon, M, tera:Water|83/100
+|turn|11
+|
+|t:|1743809110
+|move|p1a: Inteleon|Surf|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|17/100
+|move|p2a: Primarina|Moonblast|p1a: Inteleon
+|-damage|p1a: Inteleon|0 fnt
+|faint|p1a: Inteleon
+|
+|upkeep
+|
+|t:|1743809126
+|switch|p1a: Ting-Lu|Ting-Lu|54/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|12
+|
+|t:|1743809131
+|move|p2a: Primarina|Moonblast|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|6/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|-heal|p1a: Ting-Lu|13/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743809134
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-damage|p2a: Pelipper|75/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|13
+|
+|t:|1743809146
+|move|p2a: Pelipper|Weather Ball|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743809155
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|14
+|
+|t:|1743809158
+|move|p1a: Dragapult|Dragon Darts|p2a: Pelipper
+|-damage|p2a: Pelipper|41/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Pelipper
+|-damage|p2a: Pelipper|5/100
+|move|p2a: Pelipper|U-turn|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|94/100
+|
+|t:|1743809160
+|switch|p2a: Maushold|Maushold-Four, shiny|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|c|☆IASASAY|Gg
+|
+|t:|1743809172
+|move|p1a: Dragapult|Dragon Darts|p2a: Maushold
+|-damage|p2a: Maushold|49/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Maushold
+|-damage|p2a: Maushold|3/100
+|move|p2a: Maushold|Tidy Up|p2a: Maushold
+|-sideend|p2: shnore|Stealth Rock
+|-activate|p2a: Maushold|move: Tidy Up
+|-boost|p2a: Maushold|atk|1
+|-boost|p2a: Maushold|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743809183
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Maushold|Population Bomb|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|96/100
+|-damage|p2a: Maushold|0 fnt|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p2a: Maushold
+|-hitcount|p1a: Corviknight|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|shnore forfeited.
+|
+|win|IASASAY
+|raw|IASASAY's rating: 1224 &rarr; <strong>1254</strong><br />(+30 for winning)
+|raw|shnore's rating: 1288 &rarr; <strong>1258</strong><br />(-30 for losing)
+|l|☆shnore
+|player|p2|

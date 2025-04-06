@@ -1,0 +1,389 @@
+|j|☆hgvghv
+|j|☆taeraee
+|t:|1743831105
+|gametype|singles
+|player|p1|hgvghv|2|1160
+|player|p2|taeraee|wallace-masters|1174
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Sableye, M|
+|poke|p1|Araquanid, F|
+|poke|p1|Dragalge, M|
+|poke|p1|Pawmot, F|
+|poke|p1|Revavroom, F|
+|poke|p1|Crawdaunt, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Great Tusk|
+|poke|p2|Articuno-Galar|
+|poke|p2|Primarina, F|
+|teampreview
+|
+|t:|1743831109
+|start
+|switch|p1a: Sableye|Sableye, M|100/100
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hgvghv)
+|
+|t:|1743831121
+|move|p1a: Sableye|Thunder Wave|p2a: Dragapult
+|-status|p2a: Dragapult|par
+|cant|p2a: Dragapult|par
+|
+|upkeep
+|turn|2
+|
+|t:|1743831126
+|move|p2a: Dragapult|Light Screen|p2a: Dragapult
+|-sidestart|p2: taeraee|move: Light Screen
+|move|p1a: Sableye|Foul Play|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|7/100 par
+|
+|upkeep
+|turn|3
+|
+|t:|1743831130
+|move|p2a: Dragapult|Reflect|p2a: Dragapult
+|-sidestart|p2: taeraee|Reflect
+|move|p1a: Sableye|Foul Play|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1743831138
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|4
+|
+|t:|1743831146
+|move|p1a: Sableye|Thunder Wave|p2a: Great Tusk
+|-immune|p2a: Great Tusk
+|move|p2a: Great Tusk|Stealth Rock|p1a: Sableye
+|-sidestart|p1: hgvghv|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1743831152
+|move|p1a: Sableye|Encore|p2a: Great Tusk
+|-start|p2a: Great Tusk|Encore
+|move|p2a: Great Tusk|Stealth Rock||[still]
+|-fail|p2a: Great Tusk
+|
+|upkeep
+|turn|6
+|
+|t:|1743831159
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Meowscarada|Meowscarada, M, shiny|100/100
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|-damage|p1a: Araquanid|76/100|[from] Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1743831168
+|move|p1a: Araquanid|Endure|p1a: Araquanid
+|-singleturn|p1a: Araquanid|move: Endure
+|move|p2a: Meowscarada|U-turn|p1a: Araquanid
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-damage|p1a: Araquanid|38/100
+|
+|t:|1743831176
+|switch|p2a: pink pony club|Primarina, F, shiny|100/100|[from] U-turn
+|
+|upkeep
+|turn|8
+|
+|t:|1743831180
+|move|p2a: pink pony club|Draining Kiss|p1a: Araquanid
+|-damage|p1a: Araquanid|4/100
+|move|p1a: Araquanid|Sticky Web|p2a: pink pony club
+|-sidestart|p2: taeraee|move: Sticky Web
+|
+|upkeep
+|turn|9
+|-enditem|p1a: Araquanid|Custap Berry|[eat]
+|-activate|p1a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1743831186
+|move|p1a: Araquanid|Leech Life|p2a: pink pony club
+|-resisted|p2a: pink pony club
+|-damage|p2a: pink pony club|91/100
+|-heal|p1a: Araquanid|9/100|[from] drain|[of] p2a: pink pony club
+|move|p2a: pink pony club|Draining Kiss|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|-heal|p2a: pink pony club|97/100|[from] drain|[of] p1a: Araquanid
+|faint|p1a: Araquanid
+|
+|-sideend|p2: taeraee|move: Light Screen
+|upkeep
+|
+|t:|1743831194
+|switch|p1a: Dragalge|Dragalge, M|100/100
+|-damage|p1a: Dragalge|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743831198
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|-activate|p2a: Great Tusk|move: Sticky Web
+|-unboost|p2a: Great Tusk|spe|1
+|move|p1a: Dragalge|Sludge Wave|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|57/100
+|
+|-sideend|p2: taeraee|Reflect
+|upkeep
+|turn|11
+|
+|t:|1743831206
+|move|p2a: Great Tusk|Earthquake|p1a: Dragalge
+|-supereffective|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|faint|p1a: Dragalge
+|
+|upkeep
+|
+|t:|1743831210
+|switch|p1a: Crawdaunt|Crawdaunt, M, shiny|100/100
+|-damage|p1a: Crawdaunt|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1743831219
+|move|p1a: Crawdaunt|Dragon Dance|p1a: Crawdaunt
+|-boost|p1a: Crawdaunt|atk|1
+|-boost|p1a: Crawdaunt|spe|1
+|move|p2a: Great Tusk|Rapid Spin|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|60/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: taeraee|Sticky Web|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|13
+|
+|t:|1743831228
+|move|p1a: Crawdaunt|Crabhammer|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743831231
+|switch|p2a: Meowscarada|Meowscarada, M, shiny|100/100
+|turn|14
+|
+|t:|1743831237
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|63/100
+|move|p2a: Meowscarada|U-turn|p1a: Crawdaunt
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|faint|p1a: Crawdaunt
+|
+|t:|1743831245
+|switch|p2a: pink pony club|Primarina, F, shiny|97/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743831252
+|switch|p1a: Sableye|Sableye, M|100/100
+|-damage|p1a: Sableye|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743831256
+|switch|p2a: Meowscarada|Meowscarada, M, shiny|63/100
+|move|p1a: Sableye|Thunder Wave|p2a: Meowscarada
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Meowscarada
+|
+|-heal|p1a: Sableye|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743831262
+|move|p2a: Meowscarada|Play Rough|p1a: Sableye
+|-start|p2a: Meowscarada|typechange|Fairy|[from] ability: Protean
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|7/100
+|move|p1a: Sableye|Foul Play|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|30/100
+|
+|-heal|p1a: Sableye|13/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743831270
+|switch|p2a: pink pony club|Primarina, F, shiny|97/100
+|move|p1a: Sableye|Thunder Wave|p2a: pink pony club
+|-status|p2a: pink pony club|par
+|
+|-heal|p1a: Sableye|19/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743831273
+|switch|p2a: Meowscarada|Meowscarada, M, shiny|30/100
+|move|p1a: Sableye|Pain Split|p2a: Meowscarada
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Meowscarada
+|
+|-heal|p1a: Sableye|25/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743831280
+|switch|p1a: Revavroom|Revavroom, F|100/100
+|-damage|p1a: Revavroom|95/100|[from] Stealth Rock
+|-item|p1a: Revavroom|Air Balloon
+|move|p2a: Meowscarada|Knock Off|p1a: Revavroom
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Revavroom|38/100
+|-enditem|p1a: Revavroom|Air Balloon
+|
+|upkeep
+|turn|20
+|
+|t:|1743831289
+|move|p2a: Meowscarada|Knock Off|p1a: Revavroom
+|-damage|p1a: Revavroom|0 fnt
+|faint|p1a: Revavroom
+|
+|upkeep
+|
+|t:|1743831293
+|switch|p1a: Pawmot|Pawmot, F|100/100
+|-damage|p1a: Pawmot|94/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1743831298
+|switch|p2a: pink pony club|Primarina, F, shiny|97/100 par
+|move|p1a: Pawmot|Double Shock|p2a: pink pony club
+|-supereffective|p2a: pink pony club
+|-damage|p2a: pink pony club|0 fnt
+|-start|p1a: Pawmot|typechange|???/Fighting|[from] move: Double Shock
+|faint|p2a: pink pony club
+|
+|upkeep
+|
+|t:|1743831301
+|switch|p2a: Articuno|Articuno-Galar, shiny|100/100
+|turn|22
+|
+|t:|1743831305
+|-terastallize|p1a: Pawmot|Electric
+|-terastallize|p2a: Articuno|Steel
+|move|p1a: Pawmot|Double Shock|p2a: Articuno
+|-damage|p2a: Articuno|26/100
+|-start|p1a: Pawmot|typechange|Electric|[from] move: Double Shock
+|move|p2a: Articuno|Air Slash|p1a: Pawmot
+|-resisted|p1a: Pawmot
+|-damage|p1a: Pawmot|58/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743831310
+|move|p1a: Pawmot|Revival Blessing|p1a: Pawmot
+|
+|t:|1743831318
+|-heal|p1: Dragalge|50/100|[from] move: Revival Blessing
+|move|p2a: Articuno|Air Slash|p1a: Pawmot|[miss]
+|-miss|p2a: Articuno|p1a: Pawmot
+|
+|upkeep
+|turn|24
+|
+|t:|1743831321
+|move|p1a: Pawmot|Fire Punch|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|upkeep
+|
+|t:|1743831326
+|switch|p2a: Meowscarada|Meowscarada, M, shiny|30/100
+|turn|25
+|
+|t:|1743831332
+|move|p2a: Meowscarada|Flower Trick|p1a: Pawmot
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-crit|p1a: Pawmot
+|-damage|p1a: Pawmot|0 fnt
+|faint|p1a: Pawmot
+|
+|upkeep
+|
+|t:|1743831335
+|switch|p1a: Sableye|Sableye, M|25/100
+|-damage|p1a: Sableye|13/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1743831337
+|move|p1a: Sableye|Pain Split|p2a: Meowscarada
+|-sethp|p2a: Meowscarada|21/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Sableye|21/100|[from] move: Pain Split
+|move|p2a: Meowscarada|Flower Trick|p1a: Sableye
+|-crit|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|upkeep
+|
+|t:|1743831340
+|switch|p1a: Dragalge|Dragalge, M|50/100
+|-damage|p1a: Dragalge|38/100|[from] Stealth Rock
+|turn|27
+|
+|t:|1743831348
+|move|p2a: Meowscarada|Flower Trick|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-crit|p1a: Dragalge
+|-damage|p1a: Dragalge|26/100
+|move|p1a: Dragalge|Sludge Wave|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|upkeep
+|
+|t:|1743831350
+|switch|p2a: Braviary|Braviary-Hisui, M, shiny|100/100
+|turn|28
+|
+|t:|1743831352
+|move|p2a: Braviary|Psychic|p1a: Dragalge
+|-supereffective|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|faint|p1a: Dragalge
+|
+|win|taeraee
+|raw|hgvghv's rating: 1160 &rarr; <strong>1136</strong><br />(-24 for losing)
+|raw|taeraee's rating: 1174 &rarr; <strong>1198</strong><br />(+24 for winning)
+|l|☆taeraee
+|player|p2|
+|l|☆hgvghv
+|player|p1|

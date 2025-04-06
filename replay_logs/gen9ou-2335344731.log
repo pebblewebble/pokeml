@@ -1,0 +1,439 @@
+|j|☆Johnnytravs1
+|j|☆Floopywoop
+|t:|1743786388
+|gametype|singles
+|player|p1|Johnnytravs1|2|1159
+|player|p2|Floopywoop|1|1197
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Misdreavus, M|
+|poke|p1|Maushold|
+|poke|p1|Primarina, M|
+|poke|p1|Metagross|
+|poke|p1|Weavile, M|
+|poke|p1|Cinderace, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Rillaboom, F|
+|poke|p2|Hawlucha, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Raging Bolt|
+|poke|p2|Talonflame, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Floopywoop)
+|
+|t:|1743786424
+|start
+|switch|p1a: Maushold|Maushold|100/100
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1743786435
+|move|p2a: Rillaboom|Grassy Glide|p1a: Maushold
+|-crit|p1a: Maushold
+|-damage|p1a: Maushold|11/100
+|move|p1a: Maushold|Thunder Wave|p2a: Rillaboom
+|-status|p2a: Rillaboom|par
+|
+|-heal|p1a: Maushold|17/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1743786451
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Rillaboom|Grassy Glide|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|86/100
+|
+|-heal|p1a: Metagross|92/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1743786464
+|move|p1a: Metagross|Agility|p1a: Metagross
+|-boost|p1a: Metagross|spe|2
+|move|p2a: Rillaboom|Knock Off|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|37/100
+|-enditem|p1a: Metagross|Weakness Policy
+|-boost|p1a: Metagross|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Metagross|spa|2|[from] item: Weakness Policy
+|
+|-heal|p1a: Metagross|43/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1743786480
+|move|p1a: Metagross|Psychic Fangs|p2a: Rillaboom
+|-damage|p2a: Rillaboom|22/100 par
+|move|p2a: Rillaboom|U-turn|p1a: Metagross
+|-damage|p1a: Metagross|23/100
+|
+|t:|1743786491
+|switch|p2a: Hawlucha|Hawlucha, M|100/100|[from] U-turn
+|-enditem|p2a: Hawlucha|Grassy Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Grassy Seed
+|
+|-heal|p1a: Metagross|29/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1743786508
+|move|p1a: Metagross|Bullet Punch|p2a: Hawlucha
+|-damage|p2a: Hawlucha|66/100
+|move|p2a: Hawlucha|Close Combat|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|faint|p1a: Metagross
+|
+|upkeep
+|
+|t:|1743786523
+|switch|p1a: Misdreavus|Misdreavus, M|100/100
+|turn|6
+|
+|t:|1743786529
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Misdreavus|Will-O-Wisp|p2a: Hawlucha
+|-status|p2a: Hawlucha|brn
+|
+|-damage|p2a: Hawlucha|60/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743786550
+|move|p2a: Hawlucha|Encore|p1a: Misdreavus
+|-start|p1a: Misdreavus|Encore
+|move|p1a: Misdreavus|Will-O-Wisp|p2a: Hawlucha
+|-fail|p2a: Hawlucha|brn
+|
+|-damage|p2a: Hawlucha|54/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743786567
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|
+|-damage|p2a: Hawlucha|48/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1743786578
+|move|p1a: Weavile|Ice Shard|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|-damage|p1a: Weavile|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743786588
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|10
+|
+|t:|1743786597
+|switch|p1a: Misdreavus|Misdreavus, M|100/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|upkeep
+|turn|11
+|
+|t:|1743786606
+|move|p2a: Zamazenta|Crunch|p1a: Misdreavus
+|-supereffective|p1a: Misdreavus
+|-damage|p1a: Misdreavus|45/100
+|move|p1a: Misdreavus|Will-O-Wisp|p2a: Zamazenta
+|-status|p2a: Zamazenta|brn
+|
+|-damage|p2a: Zamazenta|94/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743786619
+|move|p2a: Zamazenta|Crunch|p1a: Misdreavus
+|-supereffective|p1a: Misdreavus
+|-damage|p1a: Misdreavus|19/100
+|move|p1a: Misdreavus|Draining Kiss|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|75/100 brn
+|-heal|p1a: Misdreavus|41/100|[from] drain|[of] p2a: Zamazenta
+|
+|-heal|p2a: Zamazenta|81/100 brn|[from] item: Leftovers
+|-damage|p2a: Zamazenta|75/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743786630
+|move|p2a: Zamazenta|Crunch|p1a: Misdreavus
+|-supereffective|p1a: Misdreavus
+|-damage|p1a: Misdreavus|10/100
+|move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+|-boost|p1a: Misdreavus|spa|1
+|-boost|p1a: Misdreavus|spd|1
+|
+|-heal|p2a: Zamazenta|81/100 brn|[from] item: Leftovers
+|-damage|p2a: Zamazenta|75/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743786641
+|-terastallize|p1a: Misdreavus|Fairy
+|move|p2a: Zamazenta|Crunch|p1a: Misdreavus
+|-resisted|p1a: Misdreavus
+|-damage|p1a: Misdreavus|4/100
+|move|p1a: Misdreavus|Draining Kiss|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|17/100 brn
+|-heal|p1a: Misdreavus|68/100|[from] drain|[of] p2a: Zamazenta
+|
+|-heal|p2a: Zamazenta|23/100 brn|[from] item: Leftovers
+|-damage|p2a: Zamazenta|17/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743786665
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Misdreavus|Draining Kiss|p2a: Hatterene
+|-damage|p2a: Hatterene|83/100
+|-heal|p1a: Misdreavus|84/100|[from] drain|[of] p2a: Hatterene
+|
+|upkeep
+|turn|16
+|
+|t:|1743786675
+|move|p1a: Misdreavus|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|30/100
+|-unboost|p2a: Hatterene|spd|1
+|move|p2a: Hatterene|Nuzzle|p1a: Misdreavus
+|-damage|p1a: Misdreavus|78/100
+|-status|p1a: Misdreavus|par
+|
+|upkeep
+|turn|17
+|inactive|Floopywoop has 120 seconds left.
+|
+|t:|1743786707
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Misdreavus|Shadow Ball|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|55/100
+|-unboost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|18
+|inactive|Floopywoop has 120 seconds left.
+|
+|t:|1743786722
+|-terastallize|p2a: Raging Bolt|Fairy
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|cant|p1a: Misdreavus|par
+|
+|upkeep
+|turn|19
+|inactive|Floopywoop has 120 seconds left.
+|
+|t:|1743786732
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Misdreavus
+|-damage|p1a: Misdreavus|9/100 par
+|move|p1a: Misdreavus|Calm Mind|p1a: Misdreavus
+|-boost|p1a: Misdreavus|spa|1
+|-boost|p1a: Misdreavus|spd|1
+|
+|upkeep
+|turn|20
+|inactive|Floopywoop has 120 seconds left.
+|
+|t:|1743786740
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Misdreavus
+|-damage|p1a: Misdreavus|0 fnt
+|faint|p1a: Misdreavus
+|
+|upkeep
+|
+|t:|1743786742
+|switch|p1a: Weavile|Weavile, M|91/100
+|-ability|p1a: Weavile|Pressure
+|turn|21
+|
+|t:|1743786757
+|move|p1a: Weavile|Fake Out|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|38/100
+|-damage|p1a: Weavile|81/100|[from] item: Life Orb
+|cant|p2a: Raging Bolt|flinch
+|
+|upkeep
+|turn|22
+|
+|t:|1743786766
+|move|p2a: Raging Bolt|Thunderclap|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1743786774
+|switch|p1a: Maushold|Maushold|17/100
+|turn|23
+|
+|t:|1743786782
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Maushold|Thunder Wave|p2a: Raging Bolt
+|-status|p2a: Raging Bolt|par
+|
+|upkeep
+|turn|24
+|
+|t:|1743786788
+|cant|p2a: Raging Bolt|par
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|upkeep
+|turn|25
+|
+|t:|1743786794
+|cant|p2a: Raging Bolt|par
+|move|p1a: Maushold|Population Bomb|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|21/100 par
+|-hitcount|p2a: Raging Bolt|1
+|
+|upkeep
+|turn|26
+|
+|t:|1743786809
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Maushold|Tidy Up|p1a: Maushold
+|-boost|p1a: Maushold|atk|1
+|-boost|p1a: Maushold|spe|1
+|
+|upkeep
+|turn|27
+|
+|t:|1743786817
+|cant|p2a: Raging Bolt|par
+|move|p1a: Maushold|Population Bomb|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|1/100 par
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|-hitcount|p2: Raging Bolt|2
+|
+|upkeep
+|
+|t:|1743786829
+|switch|p2a: Talonflame|Talonflame, F|100/100
+|turn|28
+|
+|t:|1743786839
+|move|p1a: Maushold|Population Bomb|p2a: Talonflame
+|-damage|p2a: Talonflame|80/100
+|-status|p1a: Maushold|brn|[from] ability: Flame Body|[of] p2a: Talonflame
+|-damage|p2a: Talonflame|70/100
+|-crit|p2a: Talonflame
+|-damage|p2a: Talonflame|56/100
+|-damage|p2a: Talonflame|47/100
+|-damage|p2a: Talonflame|37/100
+|-hitcount|p2a: Talonflame|5
+|move|p2a: Talonflame|Flamethrower|p1a: Maushold
+|-crit|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|
+|upkeep
+|inactive|Johnnytravs1 has 120 seconds left.
+|
+|t:|1743786898
+|switch|p1a: Primarina|Primarina, M|100/100
+|turn|29
+|
+|t:|1743786914
+|move|p2a: Talonflame|Roost|p2a: Talonflame
+|-heal|p2a: Talonflame|87/100
+|-singleturn|p2a: Talonflame|move: Roost
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|
+|upkeep
+|turn|30
+|
+|t:|1743786926
+|switch|p2a: Rillaboom|Rillaboom, F|22/100 par
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Primarina|Hyper Voice|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|upkeep
+|
+|t:|1743786934
+|switch|p2a: Hatterene|Hatterene, F|30/100
+|turn|31
+|
+|t:|1743786939
+|move|p1a: Primarina|Hyper Voice|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1743786943
+|switch|p2a: Zamazenta|Zamazenta|17/100 brn
+|turn|32
+|
+|t:|1743786947
+|move|p1a: Primarina|Draining Kiss|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1743786950
+|switch|p2a: Talonflame|Talonflame, F|87/100
+|turn|33
+|
+|t:|1743786957
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Primarina
+|-status|p1a: Primarina|brn
+|move|p1a: Primarina|Hyper Voice|p2a: Talonflame
+|-supereffective|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|win|Johnnytravs1
+|raw|Johnnytravs1's rating: 1159 &rarr; <strong>1187</strong><br />(+28 for winning)
+|raw|Floopywoop's rating: 1197 &rarr; <strong>1169</strong><br />(-28 for losing)
+|l|☆Johnnytravs1
+|player|p1|
+|l|☆Floopywoop
+|player|p2|

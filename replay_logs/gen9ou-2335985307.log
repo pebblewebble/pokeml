@@ -1,0 +1,311 @@
+|j|☆Caffeine Badger
+|j|☆guesyo
+|t:|1743866882
+|gametype|singles
+|player|p1|Caffeine Badger|lady-gen4|1409
+|player|p2|guesyo|unknownf|1423
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Gyarados, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Dragapult, F|
+|poke|p1|Ogerpon, F|
+|poke|p1|Glimmora, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Bronzong|
+|poke|p2|Corviknight, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|t:|1743866888
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Caffeine Badger)
+|
+|t:|1743866892
+|move|p1a: Grimmsnarl|Trick|p2a: Bronzong
+|-activate|p1a: Grimmsnarl|move: Trick|[of] p2a: Bronzong
+|-item|p2a: Bronzong|Choice Band|[from] move: Trick
+|-item|p1a: Grimmsnarl|Leftovers|[from] move: Trick
+|move|p2a: Bronzong|Stealth Rock|p1a: Grimmsnarl
+|-sidestart|p1: Caffeine Badger|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743866912
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1743866916
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Gliscor
+|-unboost|p2a: Gliscor|atk|1
+|-unboost|p2a: Gliscor|spa|1
+|
+|t:|1743866918
+|switch|p1a: Glimmora|Glimmora, M|100/100|[from] Parting Shot
+|-damage|p1a: Glimmora|88/100|[from] Stealth Rock
+|move|p2a: Gliscor|Knock Off|p1a: Glimmora
+|-damage|p1a: Glimmora|71/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: guesyo|move: Toxic Spikes
+|-enditem|p1a: Glimmora|Focus Sash|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|upkeep
+|turn|4
+|
+|t:|1743866928
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-status|p2a: Ogerpon|psn
+|move|p1a: Glimmora|Stealth Rock|p2a: Ogerpon
+|-sidestart|p2: guesyo|move: Stealth Rock
+|
+|-damage|p2a: Ogerpon|88/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743866933
+|move|p2a: Ogerpon|Spikes|p1a: Glimmora
+|-sidestart|p1: Caffeine Badger|Spikes
+|move|p1a: Glimmora|Mortal Spin|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|70/100 psn
+|-sideend|p1: Caffeine Badger|Spikes|[from] move: Mortal Spin|[of] p1a: Glimmora
+|-sideend|p1: Caffeine Badger|Stealth Rock|[from] move: Mortal Spin|[of] p1a: Glimmora
+|
+|-damage|p2a: Ogerpon|57/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743866938
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Glimmora|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: guesyo|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|-damage|p2a: Ogerpon|45/100 psn|[from] psn
+|upkeep
+|
+|t:|1743866945
+|switch|p1a: Ogerpon|Ogerpon, F|100/100
+|turn|7
+|
+|t:|1743866951
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|move|p2a: Ogerpon|U-turn|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|33/100
+|-enditem|p1a: Ogerpon|Red Card|[of] p2a: Ogerpon
+|drag|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ogerpon|atk|1
+|-ability|p1a: Ogerpon|Defiant|boost
+|-boost|p1a: Ogerpon|atk|2
+|
+|upkeep
+|turn|8
+|
+|t:|1743866963
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|45/100 psn
+|-damage|p2a: Ogerpon|33/100 psn|[from] Stealth Rock
+|-terastallize|p1a: Ogerpon|Grass
+|detailschange|p1a: Ogerpon|Ogerpon-Teal-Tera, F, tera:Grass
+|-ability|p1a: Ogerpon|Embody Aspect (Teal)|boost
+|-boost|p1a: Ogerpon|spe|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743866969
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|9
+|
+|t:|1743866972
+|move|p1a: Ogerpon|Superpower|p2a: Corviknight
+|-damage|p2a: Corviknight|25/100
+|-unboost|p1a: Ogerpon|atk|1
+|-unboost|p1a: Ogerpon|def|1
+|-damage|p1a: Ogerpon|16/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|move|p2a: Corviknight|Body Press|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743866981
+|switch|p1a: Gyarados|Gyarados, M, shiny|100/100
+|turn|10
+|
+|t:|1743866987
+|move|p1a: Gyarados|Taunt|p2a: Corviknight
+|-start|p2a: Corviknight|move: Taunt
+|cant|p2a: Corviknight|move: Taunt|Roost
+|
+|upkeep
+|turn|11
+|
+|t:|1743866992
+|switch|p2a: Landorus|Landorus-Therian, M|88/100
+|-damage|p2a: Landorus|76/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gyarados|atk|1
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743867001
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p1a: Gyarados|Waterfall|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|30/100 tox
+|
+|-heal|p2a: Gliscor|43/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|t:|1743867008
+|-terastallize|p2a: Gliscor|Normal
+|move|p1a: Gyarados|Waterfall|p2a: Gliscor
+|-damage|p2a: Gliscor|14/100 tox
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-heal|p2a: Gliscor|27/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|t:|1743867014
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Gyarados|Earthquake|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|39/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|t:|1743867018
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|move|p2a: Gliscor|Facade|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-heal|p2a: Gliscor|52/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743867021
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|16
+|
+|t:|1743867023
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|-heal|p2a: Gliscor|64/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|
+|t:|1743867029
+|move|p1a: Dragapult|Dragon Darts|p2a: Gliscor
+|-damage|p2a: Gliscor|40/100 tox
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Gliscor
+|-damage|p2a: Gliscor|12/100 tox
+|move|p2a: Gliscor|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Weakness Policy|[from] move: Knock Off|[of] p2a: Gliscor
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Gliscor|25/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743867035
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|18
+|
+|t:|1743867039
+|move|p1a: Iron Valiant|Aura Sphere|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1743867042
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p2a: Gholdengo|Air Balloon
+|turn|19
+|
+|t:|1743867046
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Gholdengo|Make It Rain|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743867048
+|switch|p1a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|turn|20
+|l|☆Caffeine Badger
+|inactive|Caffeine Badger disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|Caffeine Badger has 30 seconds to reconnect!
+|inactive|Caffeine Badger has 20 seconds to reconnect!
+|inactive|Caffeine Badger has 15 seconds to reconnect!
+|inactive|Caffeine Badger has 10 seconds to reconnect!
+|inactive|Caffeine Badger has 5 seconds to reconnect!
+|-message|Caffeine Badger lost due to inactivity.
+|
+|win|guesyo
+|raw|Caffeine Badger's rating: 1409 &rarr; <strong>1390</strong><br />(-19 for losing)
+|raw|guesyo's rating: 1423 &rarr; <strong>1442</strong><br />(+19 for winning)
+|l|☆guesyo
+|player|p2|

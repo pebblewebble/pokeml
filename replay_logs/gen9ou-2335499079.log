@@ -1,0 +1,280 @@
+|j|☆Adromas
+|j|☆hallo darkniss
+|t:|1743799994
+|gametype|singles
+|player|p1|Adromas|clerk|1106
+|player|p2|hallo darkniss|bea|1092
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pecharunt|
+|poke|p1|Abomasnow, M|
+|poke|p1|Dewgong, M|
+|poke|p1|Cetitan, F|
+|poke|p1|Mamoswine, M|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Slither Wing|
+|poke|p2|Garchomp, F|
+|poke|p2|Iron Treads|
+|poke|p2|Sinistcha|
+|poke|p2|Lucario, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hallo darkniss)
+|
+|t:|1743800002
+|start
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Abomasnow|atk|1
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|1
+|
+|t:|1743800012
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Arcanine|Flare Blitz|p1a: Pecharunt
+|-damage|p1a: Pecharunt|72/100
+|-damage|p2a: Arcanine|91/100|[from] Recoil
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Pecharunt|78/100|[from] item: Black Sludge
+|upkeep
+|turn|2
+|
+|t:|1743800024
+|switch|p2a: Lucario|Lucario, F|100/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Lucario
+|-immune|p2a: Lucario
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Pecharunt|84/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1743800033
+|move|p2a: Lucario|Dark Pulse|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|41/100
+|cant|p1a: Pecharunt|flinch
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Pecharunt|47/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1743800043
+|switch|p1a: Dewgong|Dewgong, M|100/100
+|move|p2a: Lucario|Dark Pulse|p1a: Dewgong
+|-damage|p1a: Dewgong|85/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Dewgong|91/100|[from] ability: Ice Body
+|upkeep
+|turn|5
+|
+|t:|1743800053
+|move|p2a: Lucario|Aura Sphere|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|42/100
+|move|p1a: Dewgong|Whirlpool|p2a: Lucario
+|-damage|p2a: Lucario|94/100
+|-activate|p2a: Lucario|move: Whirlpool|[of] p1a: Dewgong
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Dewgong|48/100|[from] ability: Ice Body
+|-damage|p2a: Lucario|81/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|t:|1743800072
+|move|p2a: Lucario|Aura Sphere|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|3/100
+|move|p1a: Dewgong|Disable|p2a: Lucario
+|-start|p2a: Lucario|Disable|Aura Sphere
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Dewgong|9/100|[from] ability: Ice Body
+|-damage|p2a: Lucario|69/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1743800084
+|move|p2a: Lucario|Vacuum Wave|p1a: Dewgong
+|-supereffective|p1a: Dewgong
+|-damage|p1a: Dewgong|0 fnt
+|faint|p1a: Dewgong
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Lucario|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1743800092
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|turn|8
+|
+|t:|1743800103
+|switch|p2a: Arcanine|Arcanine-Hisui, M|91/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Mamoswine|atk|1
+|move|p1a: Mamoswine|Icicle Crash|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|79/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743800113
+|move|p1a: Mamoswine|Earthquake|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|t:|1743800124
+|switch|p2a: Lucario|Lucario, F|69/100
+|turn|10
+|
+|t:|1743800133
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Lucario|Aura Sphere|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|75/100
+|
+|-heal|p1a: Mandibuzz|81/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743800144
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|move|p1a: Mandibuzz|Foul Play|p2a: Garchomp
+|-damage|p2a: Garchomp|52/100
+|-damage|p1a: Mandibuzz|68/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|
+|-heal|p1a: Mandibuzz|75/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743800158
+|-terastallize|p2a: Garchomp|Steel
+|move|p2a: Garchomp|Outrage|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|29/100
+|-damage|p2a: Garchomp|42/100|[from] item: Life Orb
+|move|p1a: Mandibuzz|Foul Play|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Mandibuzz|16/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|-heal|p1a: Mandibuzz|22/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743800166
+|switch|p2a: Lucario|Lucario, F|69/100
+|turn|13
+|
+|t:|1743800176
+|move|p2a: Lucario|Aura Sphere|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|
+|t:|1743800182
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|turn|14
+|
+|t:|1743800187
+|move|p1a: Mamoswine|Earthquake|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|upkeep
+|
+|t:|1743800189
+|switch|p2a: yummy|Sinistcha|100/100
+|turn|15
+|
+|t:|1743800200
+|move|p1a: Mamoswine|Icicle Crash|p2a: yummy
+|-supereffective|p2a: yummy
+|-damage|p2a: yummy|11/100
+|cant|p2a: yummy|flinch
+|
+|upkeep
+|turn|16
+|
+|t:|1743800206
+|move|p1a: Mamoswine|Ice Shard|p2a: yummy
+|-supereffective|p2a: yummy
+|-damage|p2a: yummy|0 fnt
+|faint|p2a: yummy
+|
+|upkeep
+|
+|t:|1743800209
+|switch|p2a: racecare|Iron Treads, shiny|100/100
+|-enditem|p2a: racecare|Booster Energy
+|-activate|p2a: racecare|ability: Quark Drive|[fromitem]
+|-start|p2a: racecare|quarkdrivespe
+|turn|17
+|
+|t:|1743800217
+|move|p2a: racecare|Earthquake|p1a: Mamoswine
+|-damage|p1a: Mamoswine|50/100
+|move|p1a: Mamoswine|Earthquake|p2a: racecare
+|-supereffective|p2a: racecare
+|-damage|p2a: racecare|0 fnt
+|faint|p2a: racecare
+|-end|p2a: racecare|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743800219
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|-enditem|p2a: Slither Wing|Booster Energy
+|-activate|p2a: Slither Wing|ability: Protosynthesis|[fromitem]
+|-start|p2a: Slither Wing|protosynthesisatk
+|turn|18
+|
+|t:|1743800230
+|move|p1a: Mamoswine|Icicle Crash|p2a: Slither Wing
+|-damage|p2a: Slither Wing|50/100
+|cant|p2a: Slither Wing|flinch
+|
+|upkeep
+|turn|19
+|
+|t:|1743800237
+|move|p1a: Mamoswine|Icicle Crash|p2a: Slither Wing
+|-damage|p2a: Slither Wing|2/100
+|cant|p2a: Slither Wing|flinch
+|
+|upkeep
+|turn|20
+|
+|t:|1743800243
+|move|p1a: Mamoswine|Ice Shard|p2a: Slither Wing
+|-damage|p2a: Slither Wing|0 fnt
+|faint|p2a: Slither Wing
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|
+|win|Adromas
+|raw|Adromas's rating: 1106 &rarr; <strong>1130</strong><br />(+24 for winning)
+|raw|hallo darkniss's rating: 1092 &rarr; <strong>1069</strong><br />(-23 for losing)
+|l|☆hallo darkniss
+|player|p2|
+|l|☆Adromas
+|player|p1|

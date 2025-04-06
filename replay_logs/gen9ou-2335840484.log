@@ -1,0 +1,275 @@
+|j|☆Thaichuoi
+|j|☆Kpro1234
+|t:|1743846134
+|gametype|singles
+|player|p1|Thaichuoi|rosa|1092
+|player|p2|Kpro1234|steven|1131
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Conkeldurr, M|
+|poke|p1|Incineroar, F|
+|poke|p1|Rhyperior, M|
+|poke|p1|Gholdengo|
+|poke|p1|Metagross|
+|poke|p1|Oricorio-Pom-Pom, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Iron Crown|
+|poke|p2|Iron Valiant|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|
+|t:|1743846157
+|start
+|switch|p1a: Oricorio|Oricorio-Pom-Pom, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Oricorio|atk|1
+|turn|1
+|
+|t:|1743846167
+|move|p2a: Landorus|Stealth Rock|p1a: Oricorio
+|-sidestart|p1: Thaichuoi|move: Stealth Rock
+|move|p1a: Oricorio|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|97/100
+|-damage|p1a: Oricorio|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|t:|1743846175
+|switch|p1a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p1a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Thaichuoi)
+|
+|t:|1743846223
+|move|p2a: Landorus|Taunt|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|upkeep
+|turn|3
+|
+|t:|1743846238
+|move|p2a: Landorus|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|87/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|t:|1743846251
+|switch|p2a: Iron Crown|Iron Crown|100/100|[from] U-turn
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespe
+|move|p1a: Gholdengo|Power Gem|p2a: Iron Crown
+|-resisted|p2a: Iron Crown
+|-damage|p2a: Iron Crown|74/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743846278
+|move|p2a: Iron Crown|Calm Mind|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spa|1
+|-boost|p2a: Iron Crown|spd|1
+|move|p1a: Gholdengo|Shadow Ball|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743846286
+|switch|p2a: Landorus|Landorus-Therian, M|97/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gholdengo|atk|1
+|turn|5
+|
+|t:|1743846294
+|move|p2a: Landorus|Scorching Sands|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743846304
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p1a: Conkeldurr|95/100|[from] Stealth Rock
+|turn|6
+|inactive|Thaichuoi has 120 seconds left.
+|
+|t:|1743846335
+|-terastallize|p1a: Conkeldurr|Ground
+|move|p2a: Landorus|U-turn|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|77/100
+|inactive|Kpro1234 has 120 seconds left.
+|
+|t:|1743846364
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespa
+|move|p1a: Conkeldurr|Defog|p2a: Iron Valiant
+|-unboost|p2a: Iron Valiant|evasion|1
+|-sideend|p1: Thaichuoi|Stealth Rock|[from] move: Defog|[of] p1a: Conkeldurr
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|inactive|Thaichuoi has 120 seconds left.
+|
+|t:|1743846381
+|switch|p1a: Metagross|Metagross|100/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|58/100
+|
+|upkeep
+|turn|8
+|inactive|Kpro1234 has 90 seconds left.
+|
+|t:|1743846412
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|97/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-fail|p1a: Metagross|unboost|[from] ability: Clear Body|[of] p1a: Metagross
+|move|p1a: Metagross|Meteor Beam||[still]
+|-prepare|p1a: Metagross|Meteor Beam
+|-boost|p1a: Metagross|spa|1
+|-enditem|p1a: Metagross|Power Herb
+|-anim|p1a: Metagross|Meteor Beam|p2a: Landorus
+|-damage|p2a: Landorus|33/100
+|
+|upkeep
+|turn|9
+|inactive|Kpro1234 has 90 seconds left.
+|inactive|Thaichuoi has 120 seconds left.
+|
+|t:|1743846431
+|switch|p1a: Oricorio|Oricorio-Pom-Pom, M|84/100
+|move|p2a: Landorus|Scorching Sands|p1a: Oricorio
+|-immune|p1a: Oricorio
+|
+|upkeep
+|turn|10
+|inactive|Thaichuoi has 120 seconds left.
+|
+|t:|1743846443
+|move|p2a: Landorus|Stealth Rock|p1a: Oricorio
+|-sidestart|p1: Thaichuoi|move: Stealth Rock
+|move|p1a: Oricorio|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|28/100
+|-damage|p1a: Oricorio|68/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|inactive|Thaichuoi has 120 seconds left.
+|
+|t:|1743846467
+|switch|p1a: Conkeldurr|Conkeldurr, M, tera:Ground|77/100 brn|[from] U-turn
+|-damage|p1a: Conkeldurr|71/100 brn|[from] Stealth Rock
+|
+|-damage|p1a: Conkeldurr|65/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743846477
+|move|p1a: Conkeldurr|Mach Punch|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|11/100
+|-damage|p1a: Conkeldurr|48/100 brn|[from] item: Rocky Helmet|[of] p2a: Landorus
+|move|p2a: Landorus|Taunt|p1a: Conkeldurr
+|-start|p1a: Conkeldurr|move: Taunt
+|
+|-damage|p1a: Conkeldurr|42/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743846485
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|move|p1a: Conkeldurr|Mach Punch|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|78/100
+|
+|-damage|p1a: Conkeldurr|36/100 brn|[from] brn
+|upkeep
+|turn|13
+|inactive|Thaichuoi has 120 seconds left.
+|
+|t:|1743846500
+|switch|p1a: Metagross|Metagross|58/100
+|-damage|p1a: Metagross|52/100|[from] Stealth Rock
+|move|p2a: Iron Valiant|Moonblast|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|17/100
+|
+|upkeep
+|turn|14
+|inactive|Thaichuoi has 120 seconds left.
+|
+|t:|1743846512
+|move|p2a: Iron Valiant|Moonblast|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|upkeep
+|
+|t:|1743846518
+|switch|p1a: Rhyperior|Rhyperior, M|100/100
+|-damage|p1a: Rhyperior|94/100|[from] Stealth Rock
+|turn|15
+|inactive|Thaichuoi has 120 seconds left.
+|
+|t:|1743846545
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Rhyperior|Curse|p1a: Rhyperior
+|-unboost|p1a: Rhyperior|spe|1
+|-boost|p1a: Rhyperior|atk|1
+|-boost|p1a: Rhyperior|def|1
+|
+|upkeep
+|turn|16
+|inactive|Thaichuoi has 120 seconds left.
+|inactive|Kpro1234 has 90 seconds left.
+|
+|t:|1743846586
+|switch|p1a: Oricorio|Oricorio-Pom-Pom, M|68/100
+|-damage|p1a: Oricorio|43/100|[from] Stealth Rock
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Oricorio|[anim] Ivy Cudgel Water
+|-damage|p1a: Oricorio|0 fnt
+|faint|p1a: Oricorio
+|
+|upkeep
+|-message|Thaichuoi forfeited.
+|
+|win|Kpro1234
+|raw|Thaichuoi's rating: 1092 &rarr; <strong>1071</strong><br />(-21 for losing)
+|raw|Kpro1234's rating: 1131 &rarr; <strong>1153</strong><br />(+22 for winning)
+|l|☆Thaichuoi
+|player|p1|
+|c|☆Kpro1234|Bgg
+|l|☆Kpro1234
+|player|p2|

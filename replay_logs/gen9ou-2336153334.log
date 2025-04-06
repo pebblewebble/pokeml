@@ -1,0 +1,234 @@
+|j|☆masterbetachi
+|j|☆mr tickley
+|t:|1743884276
+|gametype|singles
+|player|p1|masterbetachi|266|1537
+|player|p2|mr tickley|101|1627
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zapdos-Galar|
+|poke|p1|Iron Moth|
+|poke|p1|Deoxys-Speed|
+|poke|p1|Dragonite, F|
+|poke|p1|Gholdengo|
+|poke|p1|Iron Valiant|
+|poke|p2|Jirachi|
+|poke|p2|Empoleon, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Pecharunt|
+|poke|p2|Dragonite, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mr tickley)
+|inactive|masterbetachi also wants the timer to be on.
+|
+|t:|1743884295
+|start
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|1
+|
+|t:|1743884305
+|move|p1a: Zapdos|Knock Off|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|4/100
+|-enditem|p2a: Jirachi|Assault Vest|[from] move: Knock Off|[of] p1a: Zapdos
+|move|p2a: Jirachi|Psychic Noise|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|29/100
+|-start|p1a: Zapdos|move: Heal Block
+|
+|upkeep
+|turn|2
+|
+|t:|1743884314
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|-ability|p1a: Zapdos|Defiant|boost
+|-boost|p1a: Zapdos|atk|2
+|move|p1a: Zapdos|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|11/100
+|-damage|p1a: Zapdos|13/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-enditem|p2a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p1a: Zapdos
+|
+|-end|p1a: Zapdos|move: Heal Block
+|upkeep
+|turn|3
+|
+|t:|1743884320
+|move|p1a: Zapdos|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743884322
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|4
+|
+|t:|1743884327
+|move|p1a: Zapdos|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|58/100
+|-enditem|p2a: Dragonite|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Zapdos
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|5
+|
+|t:|1743884330
+|move|p2a: Dragonite|Extreme Speed|p1a: Zapdos
+|-crit|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1743884339
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|6
+|
+|t:|1743884344
+|switch|p2a: Empoleon|Empoleon, M|100/100
+|move|p1a: Gholdengo|Dazzling Gleam|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|92/100
+|
+|-heal|p2a: Empoleon|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743884353
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|-ability|p1a: Deoxys|Pressure
+|move|p2a: Empoleon|Flip Turn|p1a: Deoxys
+|-damage|p1a: Deoxys|74/100
+|
+|t:|1743884365
+|switch|p2a: Meowscarada|Meowscarada, M|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|8
+|
+|t:|1743884371
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|move|p2a: Meowscarada|Knock Off|p1a: Iron Moth
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Iron Moth|56/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743884387
+|switch|p2a: Dragonite|Dragonite, M|58/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|39/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743884391
+|move|p2a: Dragonite|Extreme Speed|p1a: Iron Moth
+|-damage|p1a: Iron Moth|12/100
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1743884395
+|switch|p2a: Empoleon|Empoleon, M|99/100
+|turn|11
+|
+|t:|1743884399
+|move|p1a: Iron Moth|Fiery Dance|p2a: Empoleon
+|-damage|p2a: Empoleon|74/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Empoleon|Flip Turn|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|t:|1743884405
+|switch|p2a: Meowscarada|Meowscarada, M|100/100|[from] Flip Turn
+|
+|upkeep
+|
+|t:|1743884419
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|12
+|
+|t:|1743884438
+|move|p2a: Meowscarada|U-turn|p1a: Gholdengo
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|94/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|t:|1743884443
+|switch|p2a: Empoleon|Empoleon, M|74/100|[from] U-turn
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|-heal|p2a: Empoleon|80/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743884448
+|move|p1a: Gholdengo|Shadow Ball|p2a: Empoleon
+|-damage|p2a: Empoleon|31/100
+|move|p2a: Empoleon|Surf|p1a: Gholdengo
+|-damage|p1a: Gholdengo|55/100
+|
+|-heal|p2a: Empoleon|37/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743884456
+|move|p1a: Gholdengo|Shadow Ball|p2a: Empoleon
+|-damage|p2a: Empoleon|0 fnt
+|faint|p2a: Empoleon
+|
+|upkeep
+|
+|t:|1743884457
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|15
+|
+|t:|1743884461
+|move|p1a: Gholdengo|Shadow Ball|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|-message|mr tickley forfeited.
+|
+|win|masterbetachi
+|raw|masterbetachi's rating: 1537 &rarr; <strong>1562</strong><br />(+25 for winning)
+|raw|mr tickley's rating: 1627 &rarr; <strong>1602</strong><br />(-25 for losing)
+|l|☆mr tickley
+|player|p2|
+|l|☆masterbetachi
+|player|p1|

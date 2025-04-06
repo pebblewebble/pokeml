@@ -1,0 +1,411 @@
+|j|☆Le_B_Bourbier
+|j|☆Excadrillings
+|t:|1743875195
+|gametype|singles
+|player|p1|Le_B_Bourbier|steven|1530
+|player|p2|Excadrillings|burglar|1498
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Scizor, F|
+|poke|p1|Enamorus, F|
+|poke|p1|Great Tusk|
+|poke|p2|Slither Wing|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Heatran, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Dragonite, M|
+|teampreview
+|
+|t:|1743875216
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Speech Impediment|Slither Wing|100/100
+|turn|1
+|
+|t:|1743875232
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Speech Impediment|U-turn|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|88/100
+|
+|t:|1743875238
+|-end|p2a: Speech Impediment|Protosynthesis|[silent]
+|switch|p2a: Arms Race|Heatran, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1743875260
+|move|p2a: Arms Race|Protect|p2a: Arms Race
+|-singleturn|p2a: Arms Race|Protect
+|move|p1a: Enamorus|Earth Power|p2a: Arms Race
+|-activate|p2a: Arms Race|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1743875299
+|switch|p2a: LandoGyalRizzian|Landorus-Therian, M|100/100
+|-ability|p2a: LandoGyalRizzian|Intimidate|boost
+|-boost|p1a: Enamorus|atk|1
+|move|p1a: Enamorus|Earth Power|p2a: LandoGyalRizzian
+|-immune|p2a: LandoGyalRizzian
+|
+|upkeep
+|turn|4
+|
+|t:|1743875313
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: LandoGyalRizzian|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|92/100
+|
+|t:|1743875326
+|switch|p2a: Speech Impediment|Slither Wing|100/100|[from] U-turn
+|
+|upkeep
+|turn|5
+|
+|t:|1743875331
+|move|p1a: Great Tusk|Knock Off|p2a: Speech Impediment
+|-resisted|p2a: Speech Impediment
+|-damage|p2a: Speech Impediment|88/100
+|-enditem|p2a: Speech Impediment|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Speech Impediment|Will-O-Wisp|p1a: Great Tusk
+|-status|p1a: Great Tusk|brn
+|
+|-damage|p1a: Great Tusk|86/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743875338
+|move|p1a: Great Tusk|Rapid Spin|p2a: Speech Impediment
+|-damage|p2a: Speech Impediment|81/100
+|-boost|p1a: Great Tusk|spe|1
+|move|p2a: Speech Impediment|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|74/100 brn
+|
+|t:|1743875343
+|-end|p2a: Speech Impediment|Protosynthesis|[silent]
+|switch|p2a: Layer Cake|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|
+|-damage|p1a: Great Tusk|68/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743875349
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Layer Cake|Ivy Cudgel|p1a: Ogerpon|[anim] Ivy Cudgel Water
+|-immune|p1a: Ogerpon|[from] ability: Water Absorb
+|
+|upkeep
+|turn|8
+|
+|t:|1743875354
+|switch|p2a: George|Dragonite, M, shiny|100/100
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|upkeep
+|turn|9
+|
+|t:|1743875358
+|move|p1a: Ogerpon|Play Rough|p2a: George|[miss]
+|-miss|p1a: Ogerpon|p2a: George
+|move|p2a: George|Dragon Dance|p2a: George
+|-boost|p2a: George|atk|1
+|-boost|p2a: George|spe|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743875362
+|move|p2a: George|Extreme Speed|p1a: Ogerpon
+|-damage|p1a: Ogerpon|46/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: George|[anim] Ivy Cudgel Water
+|-resisted|p2a: George
+|-damage|p2a: George|75/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743875367
+|switch|p1a: Great Tusk|Great Tusk|68/100 brn
+|move|p2a: George|Extreme Speed|p1a: Great Tusk
+|-damage|p1a: Great Tusk|38/100 brn
+|
+|-damage|p1a: Great Tusk|32/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743875382
+|move|p2a: George|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743875388
+|switch|p1a: Enamorus|Enamorus, F|88/100
+|turn|13
+|
+|t:|1743875437
+|switch|p2a: Arms Race|Heatran, M|100/100
+|move|p1a: Enamorus|Moonblast|p2a: Arms Race
+|-resisted|p2a: Arms Race
+|-damage|p2a: Arms Race|93/100
+|
+|-heal|p2a: Arms Race|99/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743875457
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|46/100
+|move|p2a: Arms Race|Will-O-Wisp|p1a: Ogerpon
+|-status|p1a: Ogerpon|brn
+|
+|-heal|p2a: Arms Race|100/100|[from] item: Leftovers
+|-damage|p1a: Ogerpon|40/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743875487
+|switch|p2a: Speech Impediment|Slither Wing|81/100
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|-damage|p1a: Ogerpon|34/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743875502
+|move|p2a: Speech Impediment|First Impression|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743875520
+|switch|p1a: Scizor|Scizor, F|100/100
+|turn|17
+|
+|t:|1743875567
+|move|p2a: Speech Impediment|Will-O-Wisp|p1a: Scizor
+|-status|p1a: Scizor|brn
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-damage|p1a: Scizor|94/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743875584
+|move|p2a: Speech Impediment|U-turn|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|78/100 brn
+|
+|t:|1743875600
+|-end|p2a: Speech Impediment|Protosynthesis|[silent]
+|switch|p2a: LandoGyalRizzian|Landorus-Therian, M|100/100|[from] U-turn
+|-ability|p2a: LandoGyalRizzian|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-damage|p1a: Scizor|72/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1743875607
+|-terastallize|p1a: Scizor|Normal
+|move|p1a: Scizor|Quick Attack|p2a: LandoGyalRizzian
+|-damage|p2a: LandoGyalRizzian|49/100
+|-damage|p1a: Scizor|56/100 brn|[from] item: Rocky Helmet|[of] p2a: LandoGyalRizzian
+|-damage|p1a: Scizor|46/100 brn|[from] item: Life Orb
+|move|p2a: LandoGyalRizzian|Stealth Rock|p1a: Scizor
+|-sidestart|p1: Le_B_Bourbier|move: Stealth Rock
+|
+|-damage|p1a: Scizor|40/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1743875633
+|move|p1a: Scizor|Quick Attack|p2a: LandoGyalRizzian
+|-crit|p2a: LandoGyalRizzian
+|-damage|p2a: LandoGyalRizzian|0 fnt
+|-damage|p1a: Scizor|23/100 brn|[from] item: Rocky Helmet|[of] p2a: LandoGyalRizzian
+|faint|p2a: LandoGyalRizzian
+|-damage|p1a: Scizor|13/100 brn|[from] item: Life Orb
+|
+|-damage|p1a: Scizor|7/100 brn|[from] brn
+|upkeep
+|
+|t:|1743875636
+|switch|p2a: George|Dragonite, M, shiny|75/100
+|turn|21
+|
+|t:|1743875639
+|move|p2a: George|Extreme Speed|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1743875646
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|22
+|
+|t:|1743875662
+|switch|p2a: Dickens|Weezing-Galar, M|100/100
+|-ability|p2a: Dickens|Neutralizing Gas
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|
+|upkeep
+|turn|23
+|
+|t:|1743875709
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Dickens
+|-damage|p2a: Dickens|49/100
+|move|p2a: Dickens|Strange Steam|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|32/100
+|
+|upkeep
+|turn|24
+|
+|t:|1743875728
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Dickens
+|-damage|p2a: Dickens|0 fnt
+|faint|p2a: Dickens
+|-end|p2a: Dickens|ability: Neutralizing Gas
+|
+|upkeep
+|
+|t:|1743875730
+|switch|p2a: George|Dragonite, M, shiny|75/100
+|turn|25
+|
+|t:|1743875747
+|move|p2a: George|Extreme Speed|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743875762
+|switch|p1a: Enamorus|Enamorus, F|88/100
+|-damage|p1a: Enamorus|64/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1743875776
+|switch|p2a: Arms Race|Heatran, M|100/100
+|move|p1a: Enamorus|Earth Power|p2a: Arms Race
+|-supereffective|p2a: Arms Race
+|-damage|p2a: Arms Race|19/100
+|
+|-heal|p2a: Arms Race|25/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1743875781
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|move|p2a: Arms Race|Protect||[still]
+|-fail|p2a: Arms Race
+|
+|-heal|p2a: Arms Race|31/100|[from] item: Leftovers
+|-heal|p1a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1743875787
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Arms Race|Will-O-Wisp|p1a: Kingambit
+|-status|p1a: Kingambit|brn
+|
+|-heal|p2a: Arms Race|37/100|[from] item: Leftovers
+|-damage|p1a: Kingambit|94/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1743875793
+|move|p2a: Arms Race|Magma Storm|p1a: Kingambit|[miss]
+|-miss|p2a: Arms Race|p1a: Kingambit
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Arms Race
+|-damage|p2a: Arms Race|6/100
+|
+|-heal|p2a: Arms Race|12/100|[from] item: Leftovers
+|-heal|p1a: Kingambit|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Kingambit|94/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1743875798
+|move|p2a: Arms Race|Magma Storm|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|-heal|p2a: Arms Race|19/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743875800
+|switch|p1a: Enamorus|Enamorus, F|64/100
+|-damage|p1a: Enamorus|39/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1743875827
+|move|p2a: Arms Race|Protect|p2a: Arms Race
+|-singleturn|p2a: Arms Race|Protect
+|move|p1a: Enamorus|Moonblast|p2a: Arms Race
+|-activate|p2a: Arms Race|move: Protect
+|
+|-heal|p2a: Arms Race|25/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1743875864
+|move|p1a: Enamorus|Moonblast|p2a: Arms Race
+|-resisted|p2a: Arms Race
+|-damage|p2a: Arms Race|17/100
+|move|p2a: Arms Race|Magma Storm|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|win|Excadrillings
+|raw|Le_B_Bourbier's rating: 1530 &rarr; <strong>1508</strong><br />(-22 for losing)
+|raw|Excadrillings's rating: 1498 &rarr; <strong>1520</strong><br />(+22 for winning)
+|l|☆Le_B_Bourbier
+|player|p1|
+|l|☆Excadrillings
+|player|p2|

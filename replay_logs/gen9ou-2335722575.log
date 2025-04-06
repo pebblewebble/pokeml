@@ -1,0 +1,416 @@
+|j|☆Nonoth
+|j|☆Dmitrio
+|t:|1743826130
+|gametype|singles
+|player|p1|Nonoth|101|1295
+|player|p2|Dmitrio|worker|1226
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, F|
+|poke|p1|Gholdengo|
+|poke|p1|Ceruledge, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Kyurem|
+|poke|p1|Ursaluna, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Vaporeon, F|
+|poke|p2|Brute Bonnet|
+|poke|p2|Reuniclus, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Dmitrio)
+|
+|t:|1743826153
+|start
+|switch|p1a: Dewdrop|Araquanid, F|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743826161
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Dewdrop|Sticky Web|p2a: Iron Valiant
+|-sidestart|p2: Dmitrio|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743826166
+|move|p2a: Iron Valiant|Encore|p1a: Dewdrop
+|-start|p1a: Dewdrop|Encore
+|move|p1a: Dewdrop|Sticky Web||[still]
+|-fail|p1a: Dewdrop
+|
+|upkeep
+|turn|3
+|
+|t:|1743826175
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1743826182
+|move|p2a: Iron Valiant|Moonblast|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1743826187
+|switch|p1a: Dewdrop|Araquanid, F|100/100
+|turn|5
+|
+|t:|1743826189
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Dewdrop|Surf|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|62/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743826197
+|move|p2a: Iron Valiant|Moonblast|p1a: Dewdrop
+|-damage|p1a: Dewdrop|3/100
+|move|p1a: Dewdrop|Surf|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|21/100
+|
+|upkeep
+|turn|7
+|-enditem|p1a: Dewdrop|Custap Berry|[eat]
+|-activate|p1a: Dewdrop|item: Custap Berry|[consumed]
+|
+|t:|1743826203
+|move|p1a: Dewdrop|Surf|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743826210
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|-activate|p2a: Reuniclus|move: Sticky Web
+|-unboost|p2a: Reuniclus|spe|1
+|turn|8
+|
+|t:|1743826214
+|move|p1a: Dewdrop|Endeavor|p2a: Reuniclus
+|-damage|p2a: Reuniclus|3/100
+|move|p2a: Reuniclus|Trick Room|p2a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p2a: Reuniclus
+|
+|upkeep
+|turn|9
+|
+|t:|1743826221
+|move|p2a: Reuniclus|Psychic Noise|p1a: Dewdrop
+|-damage|p1a: Dewdrop|0 fnt
+|faint|p1a: Dewdrop
+|
+|upkeep
+|
+|t:|1743826229
+|switch|p1a: Goldylocks|Gholdengo|100/100
+|-item|p1a: Goldylocks|Air Balloon
+|turn|10
+|
+|t:|1743826235
+|move|p2a: Reuniclus|Shadow Ball|p1a: Goldylocks
+|-supereffective|p1a: Goldylocks
+|-damage|p1a: Goldylocks|10/100
+|-enditem|p1a: Goldylocks|Air Balloon
+|move|p1a: Goldylocks|Nasty Plot|p1a: Goldylocks
+|-boost|p1a: Goldylocks|spa|2
+|
+|upkeep
+|turn|11
+|
+|t:|1743826242
+|move|p2a: Reuniclus|Psychic Noise|p1a: Goldylocks
+|-resisted|p1a: Goldylocks
+|-damage|p1a: Goldylocks|0 fnt
+|faint|p1a: Goldylocks
+|
+|upkeep
+|
+|t:|1743826247
+|switch|p1a: Hellblade|Ceruledge, M|100/100
+|turn|12
+|
+|t:|1743826253
+|move|p1a: Hellblade|Shadow Sneak|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743826256
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|-activate|p2a: Vaporeon|move: Sticky Web
+|-unboost|p2a: Vaporeon|spe|1
+|turn|13
+|
+|t:|1743826262
+|switch|p1a: Zeus|Raging Bolt|100/100
+|-enditem|p1a: Zeus|Booster Energy
+|-activate|p1a: Zeus|ability: Protosynthesis|[fromitem]
+|-start|p1a: Zeus|protosynthesisspa
+|move|p2a: Vaporeon|Flip Turn|p1a: Zeus
+|-resisted|p1a: Zeus
+|-damage|p1a: Zeus|95/100
+|
+|t:|1743826268
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] Flip Turn
+|-activate|p2a: Ogerpon|move: Sticky Web
+|-unboost|p2a: Ogerpon|spe|1
+|
+|upkeep
+|turn|14
+|
+|t:|1743826277
+|move|p1a: Zeus|Thunderbolt|p2a: Ogerpon
+|-damage|p2a: Ogerpon|23/100
+|move|p2a: Ogerpon|U-turn|p1a: Zeus
+|-damage|p1a: Zeus|70/100
+|
+|t:|1743826283
+|switch|p2a: Vaporeon|Vaporeon, F|100/100|[from] U-turn
+|-activate|p2a: Vaporeon|move: Sticky Web
+|-unboost|p2a: Vaporeon|spe|1
+|
+|upkeep
+|turn|15
+|
+|t:|1743826287
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|23/100
+|-activate|p2a: Ogerpon|move: Sticky Web
+|-unboost|p2a: Ogerpon|spe|1
+|move|p1a: Zeus|Calm Mind|p1a: Zeus
+|-boost|p1a: Zeus|spa|1
+|-boost|p1a: Zeus|spd|1
+|
+|upkeep
+|turn|16
+|
+|t:|1743826294
+|move|p1a: Zeus|Thunderbolt|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743826299
+|switch|p2a: Brute Bonnet|Brute Bonnet|100/100
+|turn|17
+|
+|t:|1743826306
+|move|p1a: Zeus|Draco Meteor|p2a: Brute Bonnet
+|-damage|p2a: Brute Bonnet|0 fnt
+|-unboost|p1a: Zeus|spa|2
+|faint|p2a: Brute Bonnet
+|-end|p2a: Brute Bonnet|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743826309
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|move: Sticky Web
+|-unboost|p2a: Kingambit|spe|1
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|18
+|
+|t:|1743826316
+|move|p1a: Zeus|Calm Mind|p1a: Zeus
+|-boost|p1a: Zeus|spa|1
+|-boost|p1a: Zeus|spd|1
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Zeus
+|-damage|p1a: Zeus|10/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743826326
+|move|p1a: Zeus|Thunderclap|p2a: Kingambit
+|-damage|p2a: Kingambit|37/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Zeus
+|-damage|p1a: Zeus|0 fnt
+|faint|p1a: Zeus
+|-end|p1a: Zeus|Protosynthesis|[silent]
+|
+|-heal|p2a: Kingambit|43/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743826333
+|switch|p1a: Hellblade|Ceruledge, M|100/100
+|turn|20
+|
+|t:|1743826339
+|-end|p2a: Kingambit|fallen4|[silent]
+|switch|p2a: Vaporeon|Vaporeon, F|100/100
+|-activate|p2a: Vaporeon|move: Sticky Web
+|-unboost|p2a: Vaporeon|spe|1
+|move|p1a: Hellblade|Close Combat|p2a: Vaporeon
+|-damage|p2a: Vaporeon|66/100
+|-unboost|p1a: Hellblade|def|1
+|-unboost|p1a: Hellblade|spd|1
+|
+|-heal|p2a: Vaporeon|72/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743826349
+|switch|p1a: Shimo|Kyurem|100/100
+|-ability|p1a: Shimo|Pressure
+|move|p2a: Vaporeon|Flip Turn|p1a: Shimo
+|-resisted|p1a: Shimo
+|-damage|p1a: Shimo|94/100
+|
+|t:|1743826351
+|switch|p2a: Kingambit|Kingambit, F|43/100|[from] Flip Turn
+|-activate|p2a: Kingambit|move: Sticky Web
+|-unboost|p2a: Kingambit|spe|1
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|
+|-heal|p2a: Kingambit|49/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743826365
+|-terastallize|p1a: Shimo|Fire
+|move|p1a: Shimo|Dragon Dance|p1a: Shimo
+|-boost|p1a: Shimo|atk|1
+|-boost|p1a: Shimo|spe|1
+|move|p2a: Kingambit|Iron Head|p1a: Shimo
+|-resisted|p1a: Shimo
+|-damage|p1a: Shimo|62/100
+|
+|-heal|p2a: Kingambit|56/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743826374
+|-end|p2a: Kingambit|fallen4|[silent]
+|switch|p2a: Vaporeon|Vaporeon, F|72/100
+|-activate|p2a: Vaporeon|move: Sticky Web
+|-unboost|p2a: Vaporeon|spe|1
+|move|p1a: Shimo|Tera Blast|p2a: Vaporeon|[anim] Tera Blast Fire
+|-resisted|p2a: Vaporeon
+|-damage|p2a: Vaporeon|49/100
+|
+|-heal|p2a: Vaporeon|55/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1743826384
+|move|p2a: Vaporeon|Protect|p2a: Vaporeon
+|-singleturn|p2a: Vaporeon|Protect
+|move|p1a: Shimo|Scale Shot|p2a: Vaporeon
+|-activate|p2a: Vaporeon|move: Protect
+|
+|-heal|p2a: Vaporeon|61/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1743826393
+|move|p1a: Shimo|Dragon Dance|p1a: Shimo
+|-boost|p1a: Shimo|atk|1
+|-boost|p1a: Shimo|spe|1
+|move|p2a: Vaporeon|Scald|p1a: Shimo
+|-supereffective|p1a: Shimo
+|-damage|p1a: Shimo|3/100
+|
+|-heal|p2a: Vaporeon|68/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1743826401
+|move|p1a: Shimo|Scale Shot|p2a: Vaporeon
+|-damage|p2a: Vaporeon|49/100
+|-damage|p2a: Vaporeon|29/100
+|-damage|p2a: Vaporeon|10/100
+|-damage|p2a: Vaporeon|0 fnt
+|faint|p2a: Vaporeon
+|-hitcount|p2: Vaporeon|4
+|-unboost|p1a: Shimo|def|1
+|-boost|p1a: Shimo|spe|1
+|
+|upkeep
+|
+|t:|1743826406
+|switch|p2a: Kingambit|Kingambit, F|56/100
+|-activate|p2a: Kingambit|move: Sticky Web
+|-unboost|p2a: Kingambit|spe|1
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|27
+|
+|t:|1743826414
+|move|p2a: Kingambit|Sucker Punch|p1a: Shimo
+|-damage|p1a: Shimo|0 fnt
+|faint|p1a: Shimo
+|
+|-heal|p2a: Kingambit|62/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743826420
+|switch|p1a: Hellblade|Ceruledge, M|100/100
+|turn|28
+|
+|t:|1743826449
+|-terastallize|p2a: Kingambit|Ghost
+|move|p1a: Hellblade|Swords Dance|p1a: Hellblade
+|-boost|p1a: Hellblade|atk|2
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Hellblade
+|-supereffective|p1a: Hellblade
+|-enditem|p1a: Hellblade|Focus Sash
+|-damage|p1a: Hellblade|1/100
+|-ability|p1a: Hellblade|Weak Armor|boost
+|-unboost|p1a: Hellblade|def|1
+|-boost|p1a: Hellblade|spe|2
+|
+|-heal|p2a: Kingambit|68/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1743826461
+|move|p1a: Hellblade|Shadow Sneak|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|Nonoth
+|raw|Nonoth's rating: 1295 &rarr; <strong>1315</strong><br />(+20 for winning)
+|raw|Dmitrio's rating: 1226 &rarr; <strong>1206</strong><br />(-20 for losing)
+|l|☆Nonoth
+|player|p1|
+|l|☆Dmitrio
+|player|p2|

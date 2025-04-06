@@ -1,0 +1,335 @@
+|j|☆chemnuoc
+|j|☆prof_dlight
+|t:|1743918476
+|gametype|singles
+|player|p1|chemnuoc|2|1213
+|player|p2|prof_dlight|maid|1168
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hawlucha, M|
+|poke|p1|Porygon-Z|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Rillaboom, F|
+|poke|p1|Iron Moth|
+|poke|p1|Hitmontop, M|
+|poke|p2|Primarina, M|
+|poke|p2|Gholdengo|
+|poke|p2|Gliscor, M|
+|poke|p2|Moltres|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Raging Bolt|
+|teampreview
+|
+|t:|1743918483
+|start
+|switch|p1a: Hitmontop|Hitmontop, M, shiny|100/100
+|switch|p2a: Primarina|Primarina, M|100/100
+|turn|1
+|
+|t:|1743918491
+|move|p1a: Hitmontop|Fake Out|p2a: Primarina
+|-damage|p2a: Primarina|83/100
+|cant|p2a: Primarina|flinch
+|
+|-heal|p2a: Primarina|89/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743918503
+|switch|p1a: Rillaboom|Rillaboom, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Primarina|Moonblast|p1a: Rillaboom
+|-damage|p1a: Rillaboom|30/100
+|-unboost|p1a: Rillaboom|spa|1
+|
+|-heal|p1a: Rillaboom|36/100|[from] Grassy Terrain
+|-heal|p2a: Primarina|95/100|[from] Grassy Terrain
+|-heal|p2a: Primarina|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743918517
+|move|p1a: Rillaboom|U-turn|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|82/100
+|
+|t:|1743918525
+|switch|p1a: Porygon-Z|Porygon-Z, shiny|100/100|[from] U-turn
+|move|p2a: Primarina|Moonblast|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|27/100
+|
+|-heal|p1a: Porygon-Z|33/100|[from] Grassy Terrain
+|-heal|p2a: Primarina|88/100|[from] Grassy Terrain
+|-heal|p2a: Primarina|94/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743918535
+|move|p1a: Porygon-Z|Tri Attack|p2a: Primarina
+|-damage|p2a: Primarina|18/100
+|move|p2a: Primarina|Moonblast|p1a: Porygon-Z
+|-damage|p1a: Porygon-Z|0 fnt
+|faint|p1a: Porygon-Z
+|
+|-heal|p2a: Primarina|24/100|[from] Grassy Terrain
+|-heal|p2a: Primarina|30/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743918548
+|switch|p1a: Iron Moth|Iron Moth, shiny|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|5
+|
+|t:|1743918556
+|move|p1a: Iron Moth|Sludge Wave|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1743918561
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|6
+|
+|t:|1743918568
+|-terastallize|p1a: Iron Moth|Flying
+|move|p1a: Iron Moth|Fiery Dance|p2a: Gliscor
+|-damage|p2a: Gliscor|63/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Gliscor|Toxic|p1a: Iron Moth
+|-status|p1a: Iron Moth|tox
+|
+|-damage|p1a: Iron Moth|95/100 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+|
+|t:|1743918580
+|move|p1a: Iron Moth|Fiery Dance|p2a: Gliscor
+|-damage|p2a: Gliscor|9/100 tox
+|move|p2a: Gliscor|Knock Off|p1a: Iron Moth
+|-damage|p1a: Iron Moth|75/100 tox
+|
+|-damage|p1a: Iron Moth|63/100 tox|[from] psn
+|-heal|p2a: Gliscor|22/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|c|☆chemnuoc|didn't think you are that dumb
+|
+|t:|1743918593
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|71/100
+|-boost|p1a: Iron Moth|spa|1
+|
+|-damage|p1a: Iron Moth|45/100 tox|[from] psn
+|upkeep
+|turn|9
+|c|☆chemnuoc|iron moth base type is posion
+|
+|t:|1743918607
+|move|p1a: Iron Moth|Sludge Wave|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|-damage|p1a: Iron Moth|21/100 tox|[from] psn
+|upkeep
+|
+|t:|1743918617
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|10
+|
+|t:|1743918624
+|-terastallize|p2a: Gholdengo|Water
+|move|p1a: Iron Moth|Fiery Dance|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|61/100
+|-boost|p1a: Iron Moth|spa|1
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Hex|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743918634
+|switch|p1a: Rillaboom|Rillaboom, F, shiny|36/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|11
+|
+|t:|1743918648
+|move|p1a: Rillaboom|Wood Hammer|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|-damage|p1a: Rillaboom|14/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|20/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743918655
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|12
+|
+|t:|1743918660
+|move|p1a: Rillaboom|Wood Hammer|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|41/100
+|-damage|p1a: Rillaboom|0 fnt|[from] Recoil
+|faint|p1a: Rillaboom
+|move|p2a: Raging Bolt|Thunderbolt|p1: Rillaboom|[notarget]
+|-fail|p2a: Raging Bolt
+|
+|-heal|p2a: Raging Bolt|47/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743918672
+|switch|p1a: Hawlucha|Hawlucha, M, shiny|100/100
+|-enditem|p1a: Hawlucha|Grassy Seed
+|-boost|p1a: Hawlucha|def|1|[from] item: Grassy Seed
+|turn|13
+|
+|t:|1743918682
+|move|p2a: Raging Bolt|Thunderclap|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|
+|-heal|p2a: Raging Bolt|53/100|[from] Grassy Terrain
+|upkeep
+|c|☆chemnuoc|what's retar move
+|c|☆chemnuoc|70 power, alway go first
+|
+|t:|1743918716
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Raging Bolt|atk|1
+|turn|14
+|
+|t:|1743918723
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Landorus|U-turn|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|35/100
+|
+|t:|1743918725
+|switch|p1a: Hitmontop|Hitmontop, M, shiny|100/100|[from] U-turn
+|
+|-heal|p2a: Ogerpon|41/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1743918733
+|move|p1a: Hitmontop|Fake Out|p2a: Ogerpon
+|-damage|p2a: Ogerpon|18/100
+|cant|p2a: Ogerpon|flinch
+|
+|-heal|p2a: Ogerpon|24/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1743918739
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Hitmontop|[anim] Ivy Cudgel Water
+|-damage|p1a: Hitmontop|14/100
+|move|p1a: Hitmontop|Close Combat|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-unboost|p1a: Hitmontop|def|1
+|-unboost|p1a: Hitmontop|spd|1
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743918753
+|switch|p2a: Raging Bolt|Raging Bolt|53/100
+|turn|17
+|
+|t:|1743918761
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Raging Bolt|atk|1
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|upkeep
+|turn|18
+|
+|t:|1743918769
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Gliscor|Gliscor, M|22/100 tox
+|move|p1a: Landorus|Stone Edge|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1743918777
+|switch|p2a: Raging Bolt|Raging Bolt|53/100
+|turn|19
+|
+|t:|1743918780
+|move|p1a: Landorus|Stone Edge|p2a: Raging Bolt|[miss]
+|-miss|p1a: Landorus|p2a: Raging Bolt
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Landorus
+|-damage|p1a: Landorus|33/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743918786
+|move|p1a: Landorus|Stone Edge|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|19/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743918788
+|switch|p1a: Hitmontop|Hitmontop, M, shiny|14/100
+|turn|21
+|
+|t:|1743918794
+|move|p1a: Hitmontop|Fake Out|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|2/100
+|cant|p2a: Raging Bolt|flinch
+|
+|upkeep
+|turn|22
+|
+|t:|1743918799
+|move|p2a: Raging Bolt|Thunderclap|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|faint|p1a: Hitmontop
+|
+|win|prof_dlight
+|raw|chemnuoc's rating: 1213 &rarr; <strong>1185</strong><br />(-28 for losing)
+|raw|prof_dlight's rating: 1168 &rarr; <strong>1196</strong><br />(+28 for winning)
+|c|☆chemnuoc|fking tar
+|c|☆prof_dlight|?
+|c|☆chemnuoc|fking retar move
+|l|☆chemnuoc
+|player|p1|
+|c|☆prof_dlight|silly noob

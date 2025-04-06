@@ -1,0 +1,257 @@
+|j|☆Yhvh777
+|j|☆MoobSai
+|t:|1743834937
+|gametype|singles
+|player|p1|Yhvh777|red|1119
+|player|p2|MoobSai|n|1176
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Salamence, M|
+|poke|p1|Mamoswine, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Kingambit, F|
+|poke|p1|Iron Valiant|
+|poke|p2|Kommo-o, F|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Skeledirge, F|
+|poke|p2|Hydrapple, F|
+|poke|p2|Fezandipiti, M|
+|teampreview
+|
+|t:|1743834954
+|start
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|switch|p2a: Hydrapple|Hydrapple, F|100/100
+|turn|1
+|
+|t:|1743834967
+|move|p1a: Mamoswine|Ice Shard|p2a: Hydrapple
+|-damage|p2a: Hydrapple|55/100
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|move|p2a: Zoroark|Trick|p1a: Mamoswine
+|-activate|p2a: Zoroark|move: Trick|[of] p1a: Mamoswine
+|-item|p1a: Mamoswine|Choice Scarf|[from] move: Trick
+|-item|p2a: Zoroark|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Zoroark|61/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743834978
+|switch|p2a: Fezandipiti|Fezandipiti, M|100/100
+|move|p1a: Mamoswine|Earthquake|p2a: Fezandipiti
+|-supereffective|p2a: Fezandipiti
+|-damage|p2a: Fezandipiti|0 fnt
+|faint|p2a: Fezandipiti
+|
+|upkeep
+|
+|t:|1743835000
+|switch|p2a: Hydrapple|Hydrapple, F|100/100
+|turn|3
+|
+|t:|1743835011
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|move|p2a: Hydrapple|Nasty Plot|p2a: Hydrapple
+|-boost|p2a: Hydrapple|spa|2
+|
+|upkeep
+|turn|4
+|
+|t:|1743835026
+|-terastallize|p1a: Kingambit|Flying
+|-terastallize|p2a: Hydrapple|Fire
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Hydrapple|Tera Blast|p1a: Kingambit|[anim] Tera Blast Fire
+|-damage|p1a: Kingambit|4/100
+|
+|-heal|p1a: Kingambit|10/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743835040
+|move|p1a: Kingambit|Sucker Punch|p2a: Hydrapple
+|-damage|p2a: Hydrapple|45/100
+|move|p2a: Hydrapple|Tera Blast|p1a: Kingambit|[anim] Tera Blast Fire
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|
+|-heal|p2a: Hydrapple|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743835051
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|turn|6
+|
+|t:|1743835066
+|switch|p2a: Hydrapple|Hydrapple, F|61/100
+|move|p1a: Mamoswine|Earthquake|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|replace|p2a: Zoroark|Zoroark-Hisui, M
+|-end|p2a: Zoroark|Illusion
+|faint|p2a: Zoroark
+|
+|upkeep
+|
+|t:|1743835073
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|turn|7
+|
+|t:|1743835078
+|move|p1a: Mamoswine|Earthquake|p2a: Kommo-o
+|-damage|p2a: Kommo-o|41/100
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|8/100
+|-enditem|p2a: Kommo-o|Throat Spray
+|-boost|p2a: Kommo-o|spa|1|[from] item: Throat Spray
+|
+|upkeep
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MoobSai)
+|
+|t:|1743835108
+|switch|p1a: Salamence|Salamence, M|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Kommo-o|atk|1
+|move|p2a: Kommo-o|Aura Sphere|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|62/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743835121
+|move|p2a: Kommo-o|Boomburst|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|upkeep
+|
+|t:|1743835129
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|10
+|
+|t:|1743835139
+|move|p2a: Kommo-o|Clangorous Soul||[still]
+|-fail|p2a: Kommo-o
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|upkeep
+|
+|t:|1743835149
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|turn|11
+|
+|t:|1743835152
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Skeledirge
+|-damage|p2a: Skeledirge|40/100
+|move|p2a: Skeledirge|Torch Song|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|83/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|-heal|p2a: Skeledirge|46/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743835169
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|
+|upkeep
+|
+|t:|1743835173
+|switch|p2a: Hydrapple|Hydrapple, F, tera:Fire|85/100
+|turn|13
+|
+|t:|1743835177
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Hydrapple
+|-damage|p2a: Hydrapple|27/100
+|move|p2a: Hydrapple|Fickle Beam|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|2/100
+|
+|-heal|p2a: Hydrapple|33/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743835185
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|
+|upkeep
+|
+|t:|1743835201
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|15
+|
+|t:|1743835206
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Kingambit
+|-damage|p2a: Kingambit|43/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|16
+|
+|t:|1743835228
+|move|p2a: Kingambit|Sucker Punch|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|-damage|p2a: Kingambit|33/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743835234
+|switch|p1a: Beatrice|Iron Valiant|100/100
+|-enditem|p1a: Beatrice|Booster Energy
+|-activate|p1a: Beatrice|ability: Quark Drive|[fromitem]
+|-start|p1a: Beatrice|quarkdrivespe
+|turn|17
+|
+|t:|1743835241
+|move|p1a: Beatrice|Close Combat|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: Beatrice|def|1
+|-unboost|p1a: Beatrice|spd|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|Yhvh777
+|raw|Yhvh777's rating: 1119 &rarr; <strong>1148</strong><br />(+29 for winning)
+|raw|MoobSai's rating: 1176 &rarr; <strong>1147</strong><br />(-29 for losing)
+|l|☆MoobSai
+|player|p2|
+|l|☆Yhvh777
+|player|p1|

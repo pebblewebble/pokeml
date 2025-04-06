@@ -1,0 +1,225 @@
+|j|☆Wedlinysokolow
+|j|☆Jaxieggboi
+|t:|1743847094
+|gametype|singles
+|player|p1|Wedlinysokolow|266|1080
+|player|p2|Jaxieggboi|265|1071
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Treads|
+|poke|p1|Pelipper, F|
+|poke|p1|Kingdra, F|
+|poke|p1|Rillaboom, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Raging Bolt|
+|poke|p2|Galvantula, L85, F|
+|poke|p2|Gholdengo, L87|
+|poke|p2|Arboliva, L84, M|
+|poke|p2|Charizard, L83, M|
+|poke|p2|Maushold-Four|
+|poke|p2|Toxapex, L88, F|
+|teampreview
+|
+|t:|1743847108
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Galvantula|Galvantula, L85, F|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1743847116
+|move|p1a: Iron Treads|Stealth Rock|p2a: Galvantula
+|-sidestart|p2: Jaxieggboi|move: Stealth Rock
+|move|p2a: Galvantula|Sticky Web|p1a: Iron Treads
+|-sidestart|p1: Wedlinysokolow|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743847134
+|move|p1a: Iron Treads|Steel Beam|p2a: Galvantula
+|-resisted|p2a: Galvantula
+|-damage|p2a: Galvantula|51/100
+|-damage|p1a: Iron Treads|50/100|[from] steelbeam
+|move|p2a: Galvantula|Bug Buzz|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|34/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743847143
+|move|p1a: Iron Treads|Rapid Spin|p2a: Galvantula
+|-damage|p2a: Galvantula|29/100
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: Wedlinysokolow|Sticky Web|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|-enditem|p2a: Galvantula|Sitrus Berry|[eat]
+|-heal|p2a: Galvantula|54/100|[from] item: Sitrus Berry
+|move|p2a: Galvantula|Volt Switch|p1a: Iron Treads
+|-immune|p1a: Iron Treads
+|
+|upkeep
+|turn|4
+|
+|t:|1743847153
+|move|p1a: Iron Treads|Earth Power|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|upkeep
+|
+|t:|1743847158
+|switch|p2a: Maushold|Maushold-Four|100/100
+|-damage|p2a: Maushold|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1743847164
+|move|p1a: Iron Treads|Earth Power|p2a: Maushold
+|-damage|p2a: Maushold|43/100
+|move|p2a: Maushold|Tidy Up|p2a: Maushold
+|-sideend|p2: Jaxieggboi|Stealth Rock
+|-activate|p2a: Maushold|move: Tidy Up
+|-boost|p2a: Maushold|atk|1
+|-boost|p2a: Maushold|spe|1
+|
+|upkeep
+|turn|6
+|
+|t:|1743847172
+|move|p1a: Iron Treads|Earth Power|p2a: Maushold
+|-damage|p2a: Maushold|1/100
+|move|p2a: Maushold|Population Bomb|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|27/100
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|20/100
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|13/100
+|-resisted|p1a: Iron Treads
+|-crit|p1a: Iron Treads
+|-damage|p1a: Iron Treads|3/100
+|-resisted|p1a: Iron Treads
+|-crit|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|-hitcount|p1: Iron Treads|5
+|
+|upkeep
+|
+|t:|1743847180
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|7
+|
+|t:|1743847193
+|switch|p1a: Basculegion|Basculegion, M|100/100
+|move|p2a: Maushold|Population Bomb|p1a: Basculegion
+|-immune|p1a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743847202
+|move|p1a: Basculegion|Wave Crash|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|faint|p2a: Maushold
+|-damage|p1a: Basculegion|99/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743847210
+|switch|p2a: Arboliva|Arboliva, L84, M|100/100
+|turn|9
+|
+|t:|1743847215
+|switch|p1a: Kingdra|Kingdra, F|100/100
+|move|p2a: Arboliva|Leech Seed|p1a: Kingdra
+|-start|p1a: Kingdra|move: Leech Seed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Kingdra|88/100|[from] Leech Seed|[of] p2a: Arboliva
+|upkeep
+|turn|10
+|
+|t:|1743847222
+|move|p1a: Kingdra|Hurricane|p2a: Arboliva
+|-supereffective|p2a: Arboliva
+|-damage|p2a: Arboliva|0 fnt
+|faint|p2a: Arboliva
+|-damage|p1a: Kingdra|78/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743847228
+|switch|p2a: Toxapex|Toxapex, L88, F|100/100
+|turn|11
+|
+|t:|1743847235
+|move|p1a: Kingdra|Flip Turn|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|81/100
+|-damage|p1a: Kingdra|68/100|[from] item: Life Orb
+|
+|t:|1743847238
+|switch|p1a: Rillaboom|Rillaboom, F|100/100|[from] Flip Turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Toxapex|Toxic Spikes|p1a: Rillaboom
+|-sidestart|p1: Wedlinysokolow|move: Toxic Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Toxapex|87/100|[from] Grassy Terrain
+|-heal|p2a: Toxapex|93/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1743847250
+|move|p1a: Rillaboom|Wood Hammer|p2a: Toxapex
+|-damage|p2a: Toxapex|6/100
+|-damage|p1a: Rillaboom|83/100|[from] Recoil
+|move|p2a: Toxapex|Sludge Bomb|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rillaboom|63/100|[from] Grassy Terrain
+|-heal|p2a: Toxapex|12/100|[from] Grassy Terrain
+|-heal|p2a: Toxapex|18/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1743847266
+|switch|p2a: Charizard|Charizard, L83, M|100/100
+|move|p1a: Rillaboom|Grassy Glide|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|83/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rillaboom|69/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|-message|Jaxieggboi forfeited.
+|
+|win|Wedlinysokolow
+|raw|Wedlinysokolow's rating: 1080 &rarr; <strong>1107</strong><br />(+27 for winning)
+|raw|Jaxieggboi's rating: 1071 &rarr; <strong>1051</strong><br />(-20 for losing)
+|l|☆Jaxieggboi
+|player|p2|
+|l|☆Wedlinysokolow
+|player|p1|

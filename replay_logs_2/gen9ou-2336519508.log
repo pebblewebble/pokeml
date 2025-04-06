@@ -1,0 +1,338 @@
+|j|☆PlumRedGlow
+|j|☆sa44dz
+|t:|1743932232
+|gametype|singles
+|player|p1|PlumRedGlow|bellelba|1025
+|player|p2|sa44dz|170|1055
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Misdreavus, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Mimikyu, M|
+|poke|p1|Banette, M|
+|poke|p1|Mismagius, F|
+|poke|p1|Pecharunt|
+|poke|p2|Serperior, M|
+|poke|p2|Great Tusk|
+|poke|p2|Zapdos|
+|poke|p2|Gholdengo|
+|poke|p2|Tyranitar, M|
+|poke|p2|Porygon-Z|
+|teampreview
+|
+|t:|1743932248
+|start
+|switch|p1a: Mori|Banette, M|100/100
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|turn|1
+|
+|t:|1743932264
+|move|p2a: Porygon-Z|Shadow Ball|p1a: Mori
+|-supereffective|p1a: Mori
+|-damage|p1a: Mori|0 fnt
+|-start|p2a: Porygon-Z|Disable|Shadow Ball|[from] ability: Cursed Body|[of] p1a: Mori
+|faint|p1a: Mori
+|
+|upkeep
+|
+|t:|1743932275
+|switch|p1a: Missy|Mismagius, F|100/100
+|turn|2
+|
+|t:|1743932291
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Missy|Mystical Fire|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|58/100
+|-unboost|p2a: Zapdos|spa|1
+|-damage|p1a: Missy|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1743932301
+|move|p1a: Missy|Hex|p2a: Zapdos
+|-damage|p2a: Zapdos|18/100
+|-damage|p1a: Missy|81/100|[from] item: Life Orb
+|move|p2a: Zapdos|Thunder Wave|p1a: Missy
+|-status|p1a: Missy|par
+|
+|upkeep
+|turn|4
+|
+|t:|1743932310
+|move|p2a: Zapdos|Volt Switch|p1a: Missy
+|-damage|p1a: Missy|48/100 par
+|
+|t:|1743932319
+|switch|p2a: Tyranitar|Tyranitar, M|100/100|[from] Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Missy|Dazzling Gleam|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|71/100
+|-damage|p1a: Missy|38/100 par|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Missy|32/100 par|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1743932334
+|move|p2a: Tyranitar|Knock Off|p1a: Missy
+|-supereffective|p1a: Missy
+|-damage|p1a: Missy|0 fnt
+|-enditem|p1a: Missy|Life Orb|[from] move: Knock Off|[of] p2a: Tyranitar
+|faint|p1a: Missy
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743932340
+|switch|p1a: Memento|Mimikyu, M, shiny|100/100
+|turn|6
+|
+|t:|1743932345
+|move|p1a: Memento|Curse|p2a: Tyranitar
+|-start|p2a: Tyranitar|Curse|[of] p1a: Memento
+|-damage|p1a: Memento|50/100
+|-enditem|p1a: Memento|Sitrus Berry|[eat]
+|-heal|p1a: Memento|75/100|[from] item: Sitrus Berry
+|move|p2a: Tyranitar|Knock Off|p1a: Memento
+|-activate|p1a: Memento|ability: Disguise
+|-damage|p1a: Memento|75/100
+|detailschange|p1a: Memento|Mimikyu-Busted, M, shiny
+|-damage|p1a: Memento|63/100|[from] pokemon: Mimikyu-Busted
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Memento|57/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|46/100|[from] Curse
+|upkeep
+|turn|7
+|
+|t:|1743932359
+|move|p1a: Memento|Protect|p1a: Memento
+|-singleturn|p1a: Memento|Protect
+|move|p2a: Tyranitar|Knock Off|p1a: Memento
+|-activate|p1a: Memento|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Memento|51/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|22/100|[from] Curse
+|upkeep
+|turn|8
+|
+|t:|1743932369
+|move|p1a: Memento|Shadow Sneak|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|16/100
+|move|p2a: Tyranitar|Knock Off|p1a: Memento
+|-damage|p1a: Memento|13/100
+|
+|-weather|none
+|-damage|p2a: Tyranitar|0 fnt|[from] Curse
+|faint|p2a: Tyranitar
+|upkeep
+|
+|t:|1743932398
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|turn|9
+|
+|t:|1743932404
+|move|p2a: Porygon-Z|Shadow Ball|p1a: Memento
+|-supereffective|p1a: Memento
+|-damage|p1a: Memento|0 fnt
+|faint|p1a: Memento
+|
+|upkeep
+|
+|t:|1743932410
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|turn|10
+|
+|t:|1743932423
+|move|p2a: Porygon-Z|Shadow Ball|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|37/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|54/100
+|-status|p2a: Porygon-Z|tox
+|-start|p2a: Porygon-Z|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-heal|p1a: Pecharunt|43/100|[from] item: Black Sludge
+|-damage|p2a: Porygon-Z|48/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743932436
+|-activate|p2a: Porygon-Z|confusion
+|move|p2a: Porygon-Z|Shadow Ball|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|-damage|p2a: Porygon-Z|36/100 tox|[from] psn
+|upkeep
+|
+|t:|1743932443
+|switch|p1a: Omen|Misdreavus, F|100/100
+|turn|12
+|
+|t:|1743932448
+|-terastallize|p1a: Omen|Poison
+|-activate|p2a: Porygon-Z|confusion
+|-damage|p2a: Porygon-Z|26/100 tox|[from] confusion
+|move|p1a: Omen|Mean Look|p2a: Porygon-Z
+|-activate|p2a: Porygon-Z|trapped
+|
+|-damage|p2a: Porygon-Z|8/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1743932463
+|-activate|p2a: Porygon-Z|confusion
+|move|p2a: Porygon-Z|Shadow Ball|p1a: Omen
+|-damage|p1a: Omen|65/100
+|move|p1a: Omen|Phantom Force||[still]
+|-prepare|p1a: Omen|Phantom Force
+|
+|-damage|p2a: Porygon-Z|0 fnt|[from] psn
+|faint|p2a: Porygon-Z
+|upkeep
+|
+|t:|1743932483
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|14
+|
+|t:|1743932497
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Omen|Phantom Force|p2a: Great Tusk|[from] lockedmove
+|-damage|p2a: Great Tusk|87/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743932520
+|move|p2a: Great Tusk|Head Smash|p1a: Omen
+|-damage|p1a: Omen|10/100
+|-damage|p2a: Great Tusk|66/100|[from] Recoil
+|move|p1a: Omen|Perish Song|p1a: Omen
+|-start|p1a: Omen|perish3|[silent]
+|-start|p2a: Great Tusk|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-start|p2a: Great Tusk|perish3
+|-start|p1a: Omen|perish3
+|upkeep
+|turn|16
+|
+|t:|1743932537
+|move|p2a: Great Tusk|Ice Spinner|p1a: Omen
+|-damage|p1a: Omen|0 fnt
+|faint|p1a: Omen
+|
+|-start|p2a: Great Tusk|perish2
+|upkeep
+|
+|t:|1743932543
+|switch|p1a: Barrel|Dragapult, F|100/100
+|turn|17
+|
+|t:|1743932548
+|-terastallize|p2a: Great Tusk|Rock
+|move|p1a: Barrel|Protect|p1a: Barrel
+|-singleturn|p1a: Barrel|Protect
+|move|p2a: Great Tusk|Head Smash|p1a: Barrel
+|-activate|p1a: Barrel|move: Protect
+|
+|-start|p2a: Great Tusk|perish1
+|upkeep
+|turn|18
+|
+|t:|1743932557
+|move|p1a: Barrel|Phantom Force||[still]
+|-prepare|p1a: Barrel|Phantom Force
+|move|p2a: Great Tusk|Head Smash|p1a: Barrel|[miss]
+|-miss|p2a: Great Tusk|p1a: Barrel
+|
+|-start|p2a: Great Tusk|perish0
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1743932569
+|switch|p2a: Serperior|Serperior, M|100/100
+|turn|19
+|
+|t:|1743932574
+|move|p1a: Barrel|Phantom Force|p2a: Serperior|[from] lockedmove
+|-damage|p2a: Serperior|59/100
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|34/100
+|
+|-heal|p2a: Serperior|40/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743932585
+|move|p1a: Barrel|Dragon Darts|p2a: Serperior
+|-damage|p2a: Serperior|13/100
+|-anim|p1a: Barrel|Dragon Darts|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|upkeep
+|
+|t:|1743932599
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|21
+|
+|t:|1743932607
+|move|p1a: Barrel|Phantom Force||[still]
+|-prepare|p1a: Barrel|Phantom Force
+|move|p2a: Gholdengo|Thunder Wave|p1a: Barrel|[miss]
+|-miss|p2a: Gholdengo|p1a: Barrel
+|
+|upkeep
+|turn|22
+|
+|t:|1743932620
+|move|p1a: Barrel|Phantom Force|p2a: Gholdengo|[from] lockedmove
+|-supereffective|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-enditem|p2a: Gholdengo|Air Balloon
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743932627
+|switch|p2a: Zapdos|Zapdos|18/100
+|turn|23
+|
+|t:|1743932636
+|move|p1a: Barrel|Dragon Darts|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|win|PlumRedGlow
+|raw|PlumRedGlow's rating: 1025 &rarr; <strong>1064</strong><br />(+39 for winning)
+|raw|sa44dz's rating: 1055 &rarr; <strong>1035</strong><br />(-20 for losing)
+|l|☆PlumRedGlow
+|player|p1|

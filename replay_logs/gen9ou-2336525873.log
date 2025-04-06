@@ -1,0 +1,325 @@
+|j|☆Dianic468
+|j|☆PlumRedGlow
+|t:|1743933387
+|gametype|singles
+|player|p1|Dianic468|102|1096
+|player|p2|PlumRedGlow|bellelba|1061
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Serperior, F|
+|poke|p1|Kommo-o, M|
+|poke|p1|Deoxys-Speed|
+|poke|p1|Cinderace, F|
+|poke|p1|Tinkaton, F|
+|poke|p1|Hydreigon, M|
+|poke|p2|Misdreavus, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Mimikyu, M|
+|poke|p2|Banette, M|
+|poke|p2|Mismagius, F|
+|poke|p2|Pecharunt|
+|teampreview
+|
+|t:|1743933397
+|start
+|switch|p1a: Deoxys|Deoxys-Speed, shiny|100/100
+|switch|p2a: Missy|Mismagius, F|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|
+|t:|1743933405
+|move|p1a: Deoxys|Knock Off|p2a: Missy
+|-supereffective|p2a: Missy
+|-damage|p2a: Missy|0 fnt
+|-enditem|p2a: Missy|Life Orb|[from] move: Knock Off|[of] p1a: Deoxys
+|faint|p2a: Missy
+|
+|upkeep
+|
+|t:|1743933410
+|switch|p2a: Mori|Banette, M|100/100
+|turn|2
+|
+|t:|1743933414
+|move|p2a: Mori|Endure|p2a: Mori
+|-singleturn|p2a: Mori|move: Endure
+|move|p1a: Deoxys|Knock Off|p2a: Mori
+|-supereffective|p2a: Mori
+|-damage|p2a: Mori|25/100
+|-enditem|p2a: Mori|Weakness Policy
+|-boost|p2a: Mori|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Mori|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|3
+|
+|t:|1743933422
+|move|p2a: Mori|Sucker Punch|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-enditem|p1a: Deoxys|Focus Sash
+|-damage|p1a: Deoxys|1/100
+|move|p1a: Deoxys|Knock Off|p2a: Mori
+|-supereffective|p2a: Mori
+|-crit|p2a: Mori
+|-damage|p2a: Mori|0 fnt
+|-start|p1a: Deoxys|Disable|Knock Off|[from] ability: Cursed Body|[of] p2a: Mori
+|faint|p2a: Mori
+|
+|upkeep
+|
+|t:|1743933434
+|switch|p2a: Memento|Mimikyu, M, shiny|100/100
+|turn|4
+|
+|t:|1743933441
+|move|p2a: Memento|Shadow Sneak|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|
+|t:|1743933449
+|switch|p1a: Serperior|Serperior, F, shiny|100/100
+|turn|5
+|
+|t:|1743933454
+|move|p1a: Serperior|Leaf Storm|p2a: Memento
+|-activate|p2a: Memento|ability: Disguise
+|-damage|p2a: Memento|100/100
+|-boost|p1a: Serperior|spa|2
+|detailschange|p2a: Memento|Mimikyu-Busted, M, shiny
+|-damage|p2a: Memento|88/100|[from] pokemon: Mimikyu-Busted
+|move|p2a: Memento|Curse|p1a: Serperior
+|-start|p1a: Serperior|Curse|[of] p2a: Memento
+|-damage|p2a: Memento|38/100
+|-enditem|p2a: Memento|Sitrus Berry|[eat]
+|-heal|p2a: Memento|63/100|[from] item: Sitrus Berry
+|
+|-damage|p1a: Serperior|75/100|[from] Curse
+|upkeep
+|turn|6
+|
+|t:|1743933474
+|move|p2a: Memento|Protect|p2a: Memento
+|-singleturn|p2a: Memento|Protect
+|move|p1a: Serperior|Leaf Storm|p2a: Memento
+|-activate|p2a: Memento|move: Protect
+|
+|-damage|p1a: Serperior|50/100|[from] Curse
+|upkeep
+|turn|7
+|
+|t:|1743933482
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Serperior|Leaf Storm|p2a: Pecharunt
+|-resisted|p2a: Pecharunt
+|-damage|p2a: Pecharunt|62/100
+|-boost|p1a: Serperior|spa|2
+|
+|-heal|p2a: Pecharunt|68/100|[from] item: Black Sludge
+|-damage|p1a: Serperior|25/100|[from] Curse
+|upkeep
+|turn|8
+|
+|t:|1743933494
+|move|p1a: Serperior|Giga Drain|p2a: Pecharunt
+|-resisted|p2a: Pecharunt
+|-damage|p2a: Pecharunt|38/100
+|-heal|p1a: Serperior|45/100|[from] drain|[of] p2a: Pecharunt
+|move|p2a: Pecharunt|Malignant Chain|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|-heal|p2a: Pecharunt|44/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1743933505
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|turn|9
+|
+|t:|1743933509
+|move|p1a: Hydreigon|Dark Pulse|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|t:|1743933514
+|switch|p2a: Memento|Mimikyu-Busted, M, shiny|63/100
+|turn|10
+|
+|t:|1743933523
+|-terastallize|p1a: Hydreigon|Poison
+|move|p1a: Hydreigon|Dark Pulse|p2a: Memento
+|-damage|p2a: Memento|21/100
+|move|p2a: Memento|Pain Split|p1a: Hydreigon
+|-sethp|p1a: Hydreigon|60/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Memento|63/100|[from] move: Pain Split
+|
+|upkeep
+|turn|11
+|
+|t:|1743933532
+|move|p1a: Hydreigon|Dark Pulse|p2a: Memento
+|-damage|p2a: Memento|22/100
+|move|p2a: Memento|Curse|p1a: Hydreigon
+|-start|p1a: Hydreigon|Curse|[of] p2a: Memento
+|-damage|p2a: Memento|0 fnt
+|faint|p2a: Memento
+|
+|-damage|p1a: Hydreigon|36/100|[from] Curse
+|upkeep
+|
+|t:|1743933541
+|switch|p2a: Omen|Misdreavus, F|100/100
+|turn|12
+|
+|t:|1743933550
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|-terastallize|p2a: Omen|Poison
+|move|p2a: Omen|Mean Look|p1a: Kommo-o
+|-activate|p1a: Kommo-o|trapped
+|
+|upkeep
+|turn|13
+|l|☆PlumRedGlow
+|player|p2|
+|j|☆PlumRedGlow
+|player|p2|PlumRedGlow|bellelba|
+|
+|t:|1743933583
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|68/100
+|move|p2a: Omen|Perish Song|p2a: Omen
+|-start|p1a: Kommo-o|perish3|[silent]
+|-start|p2a: Omen|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-start|p1a: Kommo-o|perish3
+|-start|p2a: Omen|perish3
+|upkeep
+|turn|14
+|
+|t:|1743933597
+|move|p1a: Kommo-o|Clanging Scales|p2a: Omen
+|-damage|p2a: Omen|48/100
+|-unboost|p1a: Kommo-o|def|1
+|move|p2a: Omen|Phantom Force||[still]
+|-prepare|p2a: Omen|Phantom Force
+|
+|-start|p1a: Kommo-o|perish2
+|-start|p2a: Omen|perish2
+|upkeep
+|turn|15
+|
+|t:|1743933613
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|35/100
+|-enditem|p1a: Kommo-o|Sitrus Berry|[eat]
+|-heal|p1a: Kommo-o|59/100|[from] item: Sitrus Berry
+|move|p2a: Omen|Phantom Force|p1a: Kommo-o|[from] lockedmove
+|-damage|p1a: Kommo-o|49/100
+|
+|-start|p1a: Kommo-o|perish1
+|-start|p2a: Omen|perish1
+|upkeep
+|turn|16
+|
+|t:|1743933628
+|move|p1a: Kommo-o|Clanging Scales|p2a: Omen
+|-damage|p2a: Omen|0 fnt
+|faint|p2a: Omen
+|-unboost|p1a: Kommo-o|def|1
+|
+|-start|p1a: Kommo-o|perish0
+|upkeep
+|faint|p1a: Kommo-o
+|
+|t:|1743933642
+|switch|p1a: Hydreigon|Hydreigon, M, tera:Poison|36/100
+|switch|p2a: Barrel|Dragapult, F|100/100
+|turn|17
+|
+|t:|1743933651
+|move|p2a: Barrel|Dragon Darts|p1a: Hydreigon
+|-damage|p1a: Hydreigon|2/100
+|-anim|p2a: Barrel|Dragon Darts|p1a: Hydreigon
+|-crit|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|t:|1743933658
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|turn|18
+|
+|t:|1743933665
+|move|p2a: Barrel|Flamethrower|p1a: Tinkaton
+|-supereffective|p1a: Tinkaton
+|-damage|p1a: Tinkaton|71/100
+|move|p1a: Tinkaton|Thunder Wave|p2a: Barrel
+|-status|p2a: Barrel|par
+|
+|-heal|p1a: Tinkaton|77/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743933674
+|move|p1a: Tinkaton|Knock Off|p2a: Barrel
+|-supereffective|p2a: Barrel
+|-damage|p2a: Barrel|35/100 par
+|-enditem|p2a: Barrel|Dragon Fang|[from] move: Knock Off|[of] p1a: Tinkaton
+|move|p2a: Barrel|Phantom Force||[still]
+|-prepare|p2a: Barrel|Phantom Force
+|
+|-heal|p1a: Tinkaton|83/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743933683
+|move|p1a: Tinkaton|Encore|p2a: Barrel|[miss]
+|-miss|p1a: Tinkaton|p2a: Barrel
+|move|p2a: Barrel|Phantom Force|p1a: Tinkaton|[from] lockedmove
+|-damage|p1a: Tinkaton|22/100
+|
+|-heal|p1a: Tinkaton|28/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743933691
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Barrel
+|-damage|p2a: Barrel|0 fnt
+|faint|p2a: Barrel
+|
+|win|Dianic468
+|raw|Dianic468's rating: 1096 &rarr; <strong>1119</strong><br />(+23 for winning)
+|raw|PlumRedGlow's rating: 1061 &rarr; <strong>1044</strong><br />(-17 for losing)
+|l|☆PlumRedGlow
+|player|p2|
+|l|☆Dianic468
+|player|p1|

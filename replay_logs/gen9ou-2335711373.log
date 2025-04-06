@@ -1,0 +1,471 @@
+|j|☆lupiit
+|j|☆jibreel69
+|t:|1743824616
+|gametype|singles
+|player|p1|lupiit|dragontamer|1292
+|player|p2|jibreel69|clair|1229
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blissey, F|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Smeargle, F|
+|poke|p1|Breloom, M|
+|poke|p1|Dondozo, F|
+|poke|p1|Comfey, M|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Iron Treads|
+|poke|p2|Walking Wake|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lupiit)
+|
+|t:|1743824641
+|start
+|switch|p1a: Smeargle|Smeargle, F|100/100
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|turn|1
+|
+|t:|1743824647
+|move|p1a: Smeargle|Burning Bulwark|p1a: Smeargle
+|-singleturn|p1a: Smeargle|move: Protect
+|move|p2a: Walking Wake|Knock Off|p1a: Smeargle
+|-activate|p1a: Smeargle|move: Protect
+|-status|p2a: Walking Wake|brn
+|
+|-damage|p2a: Walking Wake|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1743824652
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|move|p2a: Walking Wake|Knock Off|p1a: Dondozo
+|-damage|p1a: Dondozo|95/100
+|-enditem|p1a: Dondozo|Leftovers|[from] move: Knock Off|[of] p2a: Walking Wake
+|
+|-damage|p2a: Walking Wake|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743824664
+|move|p2a: Walking Wake|Draco Meteor|p1a: Dondozo
+|-damage|p1a: Dondozo|47/100
+|-unboost|p2a: Walking Wake|spa|2
+|move|p1a: Dondozo|Waterfall|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|80/100 brn
+|
+|-damage|p2a: Walking Wake|74/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743824669
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Walking Wake|Flip Turn|p1a: Blissey
+|-damage|p1a: Blissey|93/100
+|
+|t:|1743824677
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from] Flip Turn
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|5
+|
+|t:|1743824682
+|switch|p1a: Dondozo|Dondozo, F|47/100
+|move|p2a: Corviknight|Body Press|p1a: Dondozo
+|-damage|p1a: Dondozo|28/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743824690
+|move|p2a: Corviknight|Brave Bird|p1a: Dondozo
+|-damage|p1a: Dondozo|2/100
+|-damage|p2a: Corviknight|91/100|[from] Recoil
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|7
+|
+|t:|1743824698
+|switch|p2a: Thundurus|Thundurus-Therian, M, shiny|100/100
+|cant|p1a: Dondozo|slp
+|
+|upkeep
+|turn|8
+|
+|t:|1743824705
+|switch|p1a: Blissey|Blissey, F|93/100
+|move|p2a: Thundurus|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|68/100
+|
+|t:|1743824713
+|switch|p2a: Corviknight|Corviknight, M|91/100|[from] Volt Switch
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|9
+|
+|t:|1743824733
+|switch|p1a: Dondozo|Dondozo, F|100/100 slp
+|move|p2a: Corviknight|Body Press|p1a: Dondozo
+|-damage|p1a: Dondozo|82/100 slp
+|
+|upkeep
+|turn|10
+|
+|t:|1743824738
+|switch|p2a: Thundurus|Thundurus-Therian, M, shiny|100/100
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Waterfall|p2a: Thundurus|[from] move: Sleep Talk
+|-damage|p2a: Thundurus|38/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743824745
+|switch|p1a: Blissey|Blissey, F|68/100
+|move|p2a: Thundurus|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|42/100
+|
+|t:|1743824753
+|switch|p2a: Alomomola|Alomomola, F, shiny|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|12
+|
+|t:|1743824757
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|92/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743824763
+|switch|p2a: Thundurus|Thundurus-Therian, M, shiny|38/100
+|move|p1a: Blissey|Seismic Toss|p2a: Thundurus
+|-damage|p2a: Thundurus|5/100
+|
+|-heal|p2a: Thundurus|83/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|14
+|inactive|jibreel69 has 120 seconds left.
+|
+|t:|1743824797
+|move|p2a: Thundurus|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|66/100
+|inactive|jibreel69 has 120 seconds left.
+|
+|t:|1743824805
+|switch|p2a: Corviknight|Corviknight, M|91/100|[from] Volt Switch
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Blissey|Seismic Toss|p2a: Corviknight
+|-damage|p2a: Corviknight|66/100
+|-damage|p1a: Blissey|50/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|upkeep
+|turn|15
+|
+|t:|1743824832
+|move|p2a: Corviknight|Body Press|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|upkeep
+|
+|t:|1743824841
+|switch|p1a: Smeargle|Smeargle, F|100/100
+|turn|16
+|
+|t:|1743824853
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|switch|p2a: Walking Wake|Walking Wake|74/100 brn
+|
+|-damage|p2a: Walking Wake|68/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743824861
+|switch|p1a: Comfey|Comfey, M|100/100
+|move|p2a: Walking Wake|Knock Off|p1a: Comfey
+|-resisted|p1a: Comfey
+|-damage|p1a: Comfey|95/100
+|-enditem|p1a: Comfey|Metronome|[from] move: Knock Off|[of] p2a: Walking Wake
+|
+|-damage|p2a: Walking Wake|62/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743824871
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, M|66/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Comfey|Knock Off|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|55/100
+|-damage|p1a: Comfey|79/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Comfey
+|
+|upkeep
+|turn|19
+|
+|t:|1743824881
+|switch|p1a: Dondozo|Dondozo, F|82/100 slp
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|20
+|
+|t:|1743824898
+|switch|p2a: Thundurus|Thundurus-Therian, M, shiny|83/100
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Sleep Talk||[still]
+|-fail|p1a: Dondozo
+|
+|upkeep
+|turn|21
+|
+|t:|1743824909
+|switch|p1a: Comfey|Comfey, M|79/100
+|move|p2a: Thundurus|Volt Switch|p1a: Comfey
+|-damage|p1a: Comfey|21/100
+|
+|t:|1743824924
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from] Volt Switch
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|22
+|
+|t:|1743824931
+|move|p1a: Comfey|Draining Kiss|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|90/100
+|-heal|p1a: Comfey|31/100|[from] drain|[of] p2a: Corviknight
+|move|p2a: Corviknight|Brave Bird|p1a: Comfey
+|-damage|p1a: Comfey|0 fnt
+|faint|p1a: Comfey
+|-damage|p2a: Corviknight|82/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743824937
+|switch|p1a: Smeargle|Smeargle, F|100/100
+|turn|23
+|
+|t:|1743824945
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Smeargle|Counter||[still]
+|-fail|p1a: Smeargle
+|
+|upkeep
+|turn|24
+|
+|t:|1743824955
+|switch|p2a: Walking Wake|Walking Wake|62/100 brn
+|move|p1a: Smeargle|Counter||[still]
+|-fail|p1a: Smeargle
+|
+|-damage|p2a: Walking Wake|56/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1743824962
+|move|p1a: Smeargle|Burning Bulwark|p1a: Smeargle
+|-singleturn|p1a: Smeargle|move: Protect
+|move|p2a: Walking Wake|Knock Off|p1a: Smeargle
+|-activate|p1a: Smeargle|move: Protect
+|
+|-damage|p2a: Walking Wake|49/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1743824966
+|switch|p1a: Dondozo|Dondozo, F|82/100
+|move|p2a: Walking Wake|Knock Off|p1a: Dondozo
+|-damage|p1a: Dondozo|79/100
+|
+|-damage|p2a: Walking Wake|43/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1743824973
+|move|p2a: Walking Wake|Flip Turn|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|76/100
+|
+|t:|1743824978
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Alomomola|Alomomola, F, shiny|100/100|[from] Flip Turn
+|move|p1a: Dondozo|Waterfall|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|88/100
+|-damage|p1a: Dondozo|59/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|
+|upkeep
+|turn|28
+|
+|t:|1743824987
+|switch|p1a: Breloom|Breloom, M|100/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|29
+|
+|t:|1743824994
+|switch|p2a: Walking Wake|Walking Wake|43/100 brn
+|move|p1a: Breloom|Swords Dance|p1a: Breloom
+|-boost|p1a: Breloom|atk|2
+|
+|-heal|p2a: Walking Wake|100/100 brn|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Walking Wake|94/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1743825001
+|switch|p1a: Dondozo|Dondozo, F|59/100
+|move|p2a: Walking Wake|Draco Meteor|p1a: Dondozo
+|-damage|p1a: Dondozo|11/100
+|-unboost|p2a: Walking Wake|spa|2
+|
+|-damage|p2a: Walking Wake|88/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1743825013
+|switch|p1a: Breloom|Breloom, M|100/100
+|move|p2a: Walking Wake|Draco Meteor|p1a: Breloom
+|-damage|p1a: Breloom|38/100
+|-unboost|p2a: Walking Wake|spa|2
+|
+|-damage|p2a: Walking Wake|82/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1743825026
+|move|p1a: Breloom|Mach Punch|p2a: Walking Wake
+|-damage|p2a: Walking Wake|49/100 brn
+|move|p2a: Walking Wake|Flip Turn|p1a: Breloom
+|-resisted|p1a: Breloom
+|-damage|p1a: Breloom|32/100
+|
+|t:|1743825039
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Thundurus|Thundurus-Therian, M, shiny|83/100|[from] Flip Turn
+|
+|upkeep
+|turn|33
+|
+|t:|1743825045
+|switch|p1a: Dondozo|Dondozo, F|11/100
+|move|p2a: Thundurus|Psychic|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|
+|upkeep
+|
+|t:|1743825052
+|switch|p1a: Smeargle|Smeargle, F|100/100
+|turn|34
+|
+|t:|1743825058
+|switch|p2a: Alomomola|Alomomola, F, shiny|100/100
+|move|p1a: Smeargle|Mirror Coat||[still]
+|-fail|p1a: Smeargle
+|
+|upkeep
+|turn|35
+|
+|t:|1743825065
+|switch|p1a: Breloom|Breloom, M|32/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|36
+|
+|t:|1743825070
+|switch|p2a: Walking Wake|Walking Wake|49/100 brn
+|move|p1a: Breloom|Bullet Seed|p2a: Walking Wake
+|-damage|p2a: Walking Wake|29/100 brn
+|-damage|p2a: Walking Wake|7/100 brn
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|-hitcount|p2: Walking Wake|3
+|
+|upkeep
+|
+|t:|1743825078
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|37
+|
+|t:|1743825090
+|move|p1a: Breloom|Mach Punch|p2a: Corviknight
+|-damage|p2a: Corviknight|78/100
+|move|p2a: Corviknight|Brave Bird|p1a: Breloom
+|-supereffective|p1a: Breloom
+|-damage|p1a: Breloom|0 fnt
+|faint|p1a: Breloom
+|-damage|p2a: Corviknight|71/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743825091
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|turn|38
+|inactive|jibreel69 has 120 seconds left.
+|
+|t:|1743825127
+|move|p1a: Hoopa|Dark Pulse|p2a: Corviknight
+|-damage|p2a: Corviknight|20/100
+|move|p2a: Corviknight|Brave Bird|p1a: Hoopa
+|-damage|p1a: Hoopa|33/100
+|-damage|p2a: Corviknight|3/100|[from] Recoil
+|
+|-heal|p1a: Hoopa|39/100|[from] item: Leftovers
+|upkeep
+|turn|39
+|inactive|jibreel69 has 120 seconds left.
+|
+|t:|1743825137
+|move|p1a: Hoopa|Dark Pulse|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-heal|p1a: Hoopa|45/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743825146
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|40
+|-message|lupiit forfeited.
+|
+|win|jibreel69
+|raw|lupiit's rating: 1292 &rarr; <strong>1263</strong><br />(-29 for losing)
+|raw|jibreel69's rating: 1229 &rarr; <strong>1258</strong><br />(+29 for winning)
+|l|☆lupiit
+|player|p1|

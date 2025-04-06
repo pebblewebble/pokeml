@@ -1,0 +1,638 @@
+|j|☆ZoitiG
+|j|☆TrainerGoldAlt
+|t:|1743790546
+|gametype|singles
+|player|p1|ZoitiG|shadowtriad|1492
+|player|p2|TrainerGoldAlt|ethan-masters|1461
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Alomomola, M|
+|poke|p1|Blissey, F|
+|poke|p1|Quagsire, M|
+|poke|p1|Toxapex, M|
+|poke|p1|Cresselia, F|
+|poke|p1|Garchomp, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Darkrai|
+|poke|p2|Kingambit, F|
+|poke|p2|Reuniclus, M|
+|poke|p2|Pecharunt|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TrainerGoldAlt)
+|
+|t:|1743790571
+|start
+|switch|p1a: Toxapex|Toxapex, M, shiny|100/100
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|1
+|
+|t:|1743790583
+|switch|p1a: Blissey|Blissey, F|100/100
+|-terastallize|p2a: Darkrai|Poison
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1743790592
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Blissey|Light Screen|p1a: Blissey
+|-sidestart|p1: ZoitiG|move: Light Screen
+|
+|upkeep
+|turn|3
+|
+|t:|1743790597
+|move|p2a: Pecharunt|Parting Shot|p1a: Blissey
+|-unboost|p1a: Blissey|atk|1
+|-unboost|p1a: Blissey|spa|1
+|
+|t:|1743790598
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] Parting Shot
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Blissey|Shadow Ball|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|82/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743790610
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|move|p2a: Iron Valiant|Knock Off|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|72/100
+|-enditem|p1a: Cresselia|Leftovers|[from] move: Knock Off|[of] p2a: Iron Valiant
+|
+|upkeep
+|turn|5
+|
+|t:|1743790618
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: Cresselia|Reflect|p1a: Cresselia
+|-sidestart|p1: ZoitiG|Reflect
+|
+|upkeep
+|turn|6
+|
+|t:|1743790623
+|switch|p1a: Garchomp|Garchomp, M|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Garchomp
+|-damage|p1a: Garchomp|84/100
+|-damage|p2a: Samurott|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-sidestart|p1: ZoitiG|Spikes
+|
+|-heal|p1a: Garchomp|90/100|[from] item: Leftovers
+|-sideend|p1: ZoitiG|move: Light Screen
+|upkeep
+|turn|7
+|
+|t:|1743790633
+|move|p1a: Garchomp|Spikes|p2a: Samurott
+|-sidestart|p2: TrainerGoldAlt|Spikes
+|move|p2a: Samurott|Taunt|p1a: Garchomp
+|-start|p1a: Garchomp|move: Taunt
+|
+|-heal|p1a: Garchomp|96/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743790641
+|move|p1a: Garchomp|Iron Head|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|76/100
+|move|p2a: Samurott|Knock Off|p1a: Garchomp
+|-damage|p1a: Garchomp|79/100
+|-damage|p2a: Samurott|63/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-enditem|p1a: Garchomp|Leftovers|[from] move: Knock Off|[of] p2a: Samurott
+|
+|upkeep
+|turn|9
+|
+|t:|1743790655
+|move|p1a: Garchomp|Iron Head|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|49/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Garchomp|[miss]
+|-miss|p2a: Samurott|p1a: Garchomp
+|
+|-sideend|p1: ZoitiG|Reflect
+|upkeep
+|turn|10
+|
+|t:|1743790664
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Garchomp|Iron Head|p2a: Pecharunt
+|-crit|p2a: Pecharunt
+|-damage|p2a: Pecharunt|80/100
+|
+|-end|p1a: Garchomp|move: Taunt
+|upkeep
+|turn|11
+|
+|t:|1743790676
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Blissey
+|-damage|p1a: Blissey|92/100
+|-status|p1a: Blissey|tox
+|-start|p1a: Blissey|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|
+|-damage|p1a: Blissey|86/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743790686
+|-curestatus|p1a: Blissey|tox|[from] ability: Natural Cure
+|switch|p1a: Toxapex|Toxapex, M, shiny|100/100
+|move|p2a: Pecharunt|Parting Shot|p1a: Toxapex
+|-unboost|p1a: Toxapex|atk|1
+|-unboost|p1a: Toxapex|spa|1
+|
+|t:|1743790700
+|switch|p2a: Samurott|Samurott-Hisui, M|49/100|[from] Parting Shot
+|-damage|p2a: Samurott|37/100|[from] Spikes
+|
+|upkeep
+|turn|13
+|
+|t:|1743790706
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Samurott|Ceaseless Edge|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|-status|p2a: Samurott|psn
+|
+|-damage|p2a: Samurott|24/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743790715
+|switch|p1a: Garchomp|Garchomp, M|79/100
+|-damage|p1a: Garchomp|67/100|[from] Spikes
+|move|p2a: Samurott|Ceaseless Edge|p1a: Garchomp|[miss]
+|-miss|p2a: Samurott|p1a: Garchomp
+|
+|-damage|p2a: Samurott|12/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743790727
+|move|p1a: Garchomp|Spikes|p2a: Samurott
+|-sidestart|p2: TrainerGoldAlt|Spikes
+|move|p2a: Samurott|Razor Shell|p1a: Garchomp|[miss]
+|-miss|p2a: Samurott|p1a: Garchomp
+|
+|-damage|p2a: Samurott|0 fnt|[from] psn
+|faint|p2a: Samurott
+|upkeep
+|
+|t:|1743790740
+|switch|p2a: Darkrai|Darkrai, tera:Poison|100/100
+|turn|16
+|
+|t:|1743790746
+|switch|p1a: Blissey|Blissey, F|86/100
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|
+|upkeep
+|turn|17
+|
+|t:|1743790753
+|move|p2a: Darkrai|Sludge Bomb|p1a: Blissey
+|-damage|p1a: Blissey|61/100
+|move|p1a: Blissey|Light Screen|p1a: Blissey
+|-sidestart|p1: ZoitiG|move: Light Screen
+|
+|upkeep
+|turn|18
+|
+|t:|1743790760
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|84/100|[from] Spikes
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|move|p1a: Blissey|Seismic Toss|p2a: Kingambit
+|-damage|p2a: Kingambit|55/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743790772
+|switch|p1a: Quagsire|Quagsire, M|100/100
+|-damage|p1a: Quagsire|88/100|[from] Spikes
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Quagsire
+|-damage|p1a: Quagsire|49/100
+|
+|-heal|p1a: Quagsire|55/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743790782
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Reuniclus|Reuniclus, M|100/100
+|move|p1a: Quagsire|Recover|p1a: Quagsire
+|-heal|p1a: Quagsire|100/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743790789
+|move|p2a: Reuniclus|Knock Off|p1a: Quagsire
+|-damage|p1a: Quagsire|88/100
+|-enditem|p1a: Quagsire|Leftovers|[from] move: Knock Off|[of] p2a: Reuniclus
+|move|p1a: Quagsire|Toxic|p2a: Reuniclus
+|-status|p2a: Reuniclus|tox
+|
+|-sideend|p1: ZoitiG|move: Light Screen
+|upkeep
+|turn|22
+|
+|t:|1743790800
+|move|p1a: Quagsire|Protect|p1a: Quagsire
+|-singleturn|p1a: Quagsire|Protect
+|move|p2a: Reuniclus|Psychic Noise|p1a: Quagsire
+|-activate|p1a: Quagsire|move: Protect
+|
+|upkeep
+|turn|23
+|
+|t:|1743790816
+|switch|p1a: Cresselia|Cresselia, F|72/100
+|move|p2a: Reuniclus|Focus Blast|p1a: Cresselia
+|-resisted|p1a: Cresselia
+|-damage|p1a: Cresselia|54/100
+|-unboost|p1a: Cresselia|spd|1
+|
+|upkeep
+|turn|24
+|
+|t:|1743790823
+|move|p1a: Cresselia|Reflect|p1a: Cresselia
+|-sidestart|p1: ZoitiG|Reflect
+|move|p2a: Reuniclus|Psychic Noise|p1a: Cresselia
+|-resisted|p1a: Cresselia
+|-damage|p1a: Cresselia|29/100
+|-start|p1a: Cresselia|move: Heal Block
+|
+|upkeep
+|turn|25
+|inactive|ZoitiG has 120 seconds left.
+|
+|t:|1743790855
+|switch|p1a: Blissey|Blissey, F|61/100
+|switch|p2a: Pecharunt|Pecharunt|80/100
+|
+|upkeep
+|turn|26
+|
+|t:|1743790879
+|switch|p2a: Reuniclus|Reuniclus, M|100/100 tox
+|move|p1a: Blissey|Light Screen|p1a: Blissey
+|-sidestart|p1: ZoitiG|move: Light Screen
+|
+|upkeep
+|turn|27
+|
+|t:|1743790885
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|move|p2a: Reuniclus|Knock Off|p1a: Blissey
+|-damage|p1a: Blissey|85/100
+|-enditem|p1a: Blissey|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Reuniclus
+|
+|upkeep
+|turn|28
+|
+|t:|1743790892
+|move|p1a: Blissey|Seismic Toss|p2a: Reuniclus
+|-damage|p2a: Reuniclus|77/100 tox
+|move|p2a: Reuniclus|Psychic Noise|p1a: Blissey
+|-damage|p1a: Blissey|78/100
+|-start|p1a: Blissey|move: Heal Block
+|
+|-sideend|p1: ZoitiG|Reflect
+|upkeep
+|turn|29
+|
+|t:|1743790901
+|move|p1a: Blissey|Seismic Toss|p2a: Reuniclus
+|-damage|p2a: Reuniclus|53/100 tox
+|move|p2a: Reuniclus|Focus Blast|p1a: Blissey
+|-supereffective|p1a: Blissey
+|-damage|p1a: Blissey|61/100
+|
+|-end|p1a: Blissey|move: Heal Block
+|upkeep
+|turn|30
+|
+|t:|1743790910
+|move|p1a: Blissey|Seismic Toss|p2a: Reuniclus
+|-damage|p2a: Reuniclus|30/100 tox
+|move|p2a: Reuniclus|Psychic Noise|p1a: Blissey
+|-damage|p1a: Blissey|54/100
+|-start|p1a: Blissey|move: Heal Block
+|
+|-sideend|p1: ZoitiG|move: Light Screen
+|upkeep
+|turn|31
+|
+|t:|1743790919
+|move|p1a: Blissey|Light Screen|p1a: Blissey
+|-sidestart|p1: ZoitiG|move: Light Screen
+|move|p2a: Reuniclus|Recover|p2a: Reuniclus
+|-heal|p2a: Reuniclus|80/100 tox
+|
+|-end|p1a: Blissey|move: Heal Block
+|upkeep
+|turn|32
+|
+|t:|1743790926
+|switch|p2a: Iron Valiant|Iron Valiant|82/100
+|-damage|p2a: Iron Valiant|65/100|[from] Spikes
+|move|p1a: Blissey|Seismic Toss|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|31/100
+|
+|upkeep
+|turn|33
+|
+|t:|1743790936
+|switch|p1a: Toxapex|Toxapex, M, shiny|100/100
+|move|p2a: Iron Valiant|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|84/100
+|-enditem|p1a: Toxapex|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Iron Valiant
+|
+|upkeep
+|turn|34
+|
+|t:|1743790943
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Kingambit|Kingambit, F|55/100
+|-damage|p2a: Kingambit|38/100|[from] Spikes
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|move|p1a: Toxapex|Infestation|p2a: Kingambit
+|-damage|p2a: Kingambit|35/100
+|-activate|p2a: Kingambit|move: Infestation|[of] p1a: Toxapex
+|
+|-damage|p2a: Kingambit|23/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|35
+|
+|t:|1743790954
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Toxapex|Infestation|p2a: Kingambit
+|-damage|p2a: Kingambit|19/100
+|
+|-damage|p2a: Kingambit|7/100|[from] move: Infestation|[partiallytrapped]
+|-sideend|p1: ZoitiG|move: Light Screen
+|upkeep
+|turn|36
+|
+|t:|1743790962
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-damage|p2a: Kingambit|0 fnt|[from] move: Infestation|[partiallytrapped]
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|upkeep
+|
+|t:|1743790965
+|switch|p2a: Reuniclus|Reuniclus, M|80/100 tox
+|turn|37
+|
+|t:|1743790982
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|move|p2a: Reuniclus|Psychic Noise|p1a: Alomomola
+|-damage|p1a: Alomomola|38/100
+|-start|p1a: Alomomola|move: Heal Block
+|
+|upkeep
+|turn|38
+|
+|t:|1743790992
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Reuniclus|Psychic Noise|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-end|p1a: Alomomola|move: Heal Block
+|upkeep
+|turn|39
+|
+|t:|1743791006
+|switch|p1a: Toxapex|Toxapex, M, shiny|100/100
+|-damage|p1a: Toxapex|88/100|[from] Spikes
+|move|p2a: Reuniclus|Psychic Noise|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|t:|1743791017
+|switch|p1a: Alomomola|Alomomola, M|71/100
+|turn|40
+|
+|t:|1743791022
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Reuniclus|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|61/100
+|-enditem|p1a: Alomomola|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Reuniclus
+|
+|upkeep
+|turn|41
+|
+|t:|1743791030
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Reuniclus|Psychic Noise|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-heal|p1a: Alomomola|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|42
+|
+|t:|1743791039
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|move|p2a: Reuniclus|Psychic Noise|p1a: Alomomola
+|-damage|p1a: Alomomola|32/100
+|-start|p1a: Alomomola|move: Heal Block
+|
+|upkeep
+|turn|43
+|
+|t:|1743791047
+|switch|p1a: Cresselia|Cresselia, F|29/100
+|move|p2a: Reuniclus|Psychic Noise|p1a: Cresselia
+|-resisted|p1a: Cresselia
+|-damage|p1a: Cresselia|12/100
+|-start|p1a: Cresselia|move: Heal Block
+|
+|upkeep
+|turn|44
+|
+|t:|1743791056
+|switch|p1a: Blissey|Blissey, F|54/100
+|-damage|p1a: Blissey|41/100|[from] Spikes
+|move|p2a: Reuniclus|Knock Off|p1a: Blissey
+|-damage|p1a: Blissey|21/100
+|
+|upkeep
+|turn|45
+|
+|t:|1743791063
+|move|p1a: Blissey|Light Screen|p1a: Blissey
+|-sidestart|p1: ZoitiG|move: Light Screen
+|move|p2a: Reuniclus|Psychic Noise|p1a: Blissey
+|-damage|p1a: Blissey|14/100
+|-start|p1a: Blissey|move: Heal Block
+|
+|upkeep
+|turn|46
+|
+|t:|1743791071
+|switch|p1a: Quagsire|Quagsire, M|88/100
+|-damage|p1a: Quagsire|75/100|[from] Spikes
+|move|p2a: Reuniclus|Knock Off|p1a: Quagsire
+|-damage|p1a: Quagsire|66/100
+|
+|upkeep
+|turn|47
+|
+|t:|1743791078
+|move|p2a: Reuniclus|Psychic Noise|p1a: Quagsire
+|-damage|p1a: Quagsire|35/100
+|-start|p1a: Quagsire|move: Heal Block
+|move|p1a: Quagsire|Earthquake|p2a: Reuniclus
+|-damage|p2a: Reuniclus|47/100 tox
+|
+|upkeep
+|turn|48
+|
+|t:|1743791089
+|move|p1a: Quagsire|Protect|p1a: Quagsire
+|-singleturn|p1a: Quagsire|Protect
+|move|p2a: Reuniclus|Psychic Noise|p1a: Quagsire
+|-activate|p1a: Quagsire|move: Protect
+|
+|-end|p1a: Quagsire|move: Heal Block
+|upkeep
+|turn|49
+|
+|t:|1743791101
+|switch|p1a: Garchomp|Garchomp, M|67/100
+|-damage|p1a: Garchomp|55/100|[from] Spikes
+|move|p2a: Reuniclus|Psychic Noise|p1a: Garchomp
+|-damage|p1a: Garchomp|27/100
+|-start|p1a: Garchomp|move: Heal Block
+|
+|-sideend|p1: ZoitiG|move: Light Screen
+|upkeep
+|turn|50
+|
+|t:|1743791117
+|switch|p2a: Pecharunt|Pecharunt|80/100
+|move|p1a: Garchomp|Iron Head|p2a: Pecharunt
+|-damage|p2a: Pecharunt|68/100
+|
+|-end|p1a: Garchomp|move: Heal Block
+|upkeep
+|turn|51
+|
+|t:|1743791126
+|-terastallize|p1a: Garchomp|Steel
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2a: Pecharunt|Malignant Chain|p1a: Garchomp
+|-immune|p1a: Garchomp
+|
+|upkeep
+|turn|52
+|
+|t:|1743791134
+|move|p1a: Garchomp|Iron Head|p2a: Pecharunt
+|-damage|p2a: Pecharunt|31/100
+|move|p2a: Pecharunt|Hex|p1a: Garchomp
+|-damage|p1a: Garchomp|4/100
+|
+|upkeep
+|turn|53
+|
+|t:|1743791144
+|move|p1a: Garchomp|Iron Head|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|t:|1743791159
+|switch|p2a: Darkrai|Darkrai, tera:Poison|100/100
+|turn|54
+|
+|t:|1743791163
+|move|p2a: Darkrai|Dark Pulse|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1743791168
+|switch|p1a: Blissey|Blissey, F|14/100
+|-damage|p1a: Blissey|2/100|[from] Spikes
+|turn|55
+|
+|t:|1743791172
+|move|p2a: Darkrai|Dark Pulse|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|upkeep
+|
+|t:|1743791178
+|switch|p1a: Alomomola|Alomomola, M|65/100
+|-damage|p1a: Alomomola|53/100|[from] Spikes
+|turn|56
+|
+|t:|1743791183
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|57
+|
+|t:|1743791189
+|switch|p1a: Quagsire|Quagsire, M|35/100
+|-damage|p1a: Quagsire|22/100|[from] Spikes
+|move|p2a: Darkrai|Dark Pulse|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|faint|p1a: Quagsire
+|
+|upkeep
+|-message|ZoitiG forfeited.
+|
+|win|TrainerGoldAlt
+|raw|ZoitiG's rating: 1492 &rarr; <strong>1470</strong><br />(-22 for losing)
+|raw|TrainerGoldAlt's rating: 1461 &rarr; <strong>1483</strong><br />(+22 for winning)
+|l|☆ZoitiG
+|player|p1|

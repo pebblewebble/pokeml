@@ -1,0 +1,254 @@
+|j|☆BigZThreats
+|j|☆PlzShinyMetaGross
+|t:|1743823021
+|gametype|singles
+|player|p1|BigZThreats|pokekid|1116
+|player|p2|PlzShinyMetaGross|unknown|1067
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Mamoswine, M|
+|poke|p1|Kyurem|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Corviknight, F|
+|poke|p1|Zamazenta-*|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Pecharunt|
+|poke|p2|Gliscor, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Moltres|
+|poke|p2|Iron Treads|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PlzShinyMetaGross)
+|
+|t:|1743823047
+|start
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|1
+|
+|t:|1743823057
+|move|p2a: Samurott|Flip Turn|p1a: Zamazenta
+|-damage|p1a: Zamazenta|82/100
+|
+|t:|1743823078
+|switch|p2a: Pecharunt|Pecharunt|100/100|[from] Flip Turn
+|move|p1a: Zamazenta|Crunch|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|77/100
+|-damage|p1a: Zamazenta|65/100|[from] item: Rocky Helmet|[of] p2a: Pecharunt
+|
+|upkeep
+|turn|2
+|
+|t:|1743823103
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Hoopa
+|-damage|p1a: Hoopa|85/100
+|-status|p1a: Hoopa|tox
+|-start|p1a: Hoopa|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|
+|-damage|p1a: Hoopa|79/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1743823121
+|move|p2a: Pecharunt|Parting Shot|p1a: Hoopa
+|-unboost|p1a: Hoopa|atk|1
+|-unboost|p1a: Hoopa|spa|1
+|
+|t:|1743823131
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100|[from] Parting Shot
+|-activate|p1a: Hoopa|confusion
+|move|p1a: Hoopa|Knock Off|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|78/100
+|-enditem|p2a: Samurott|Choice Scarf|[from] move: Knock Off|[of] p1a: Hoopa
+|
+|-damage|p1a: Hoopa|67/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743823148
+|switch|p1a: Zamazenta|Zamazenta|65/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|46/100
+|-sidestart|p1: BigZThreats|Spikes
+|
+|upkeep
+|turn|5
+|inactive|PlzShinyMetaGross has 120 seconds left.
+|
+|t:|1743823165
+|move|p1a: Zamazenta|Close Combat|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|faint|p2a: Samurott
+|
+|upkeep
+|inactive|PlzShinyMetaGross has 120 seconds left.
+|
+|t:|1743823171
+|switch|p2a: Pecharunt|Pecharunt|77/100
+|turn|6
+|
+|t:|1743823180
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743823188
+|move|p2a: Pecharunt|Parting Shot|p1a: Corviknight
+|-unboost|p1a: Corviknight|atk|1
+|-unboost|p1a: Corviknight|spa|1
+|inactive|PlzShinyMetaGross has 120 seconds left.
+|
+|t:|1743823203
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] Parting Shot
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Corviknight|Defog|p2a: Iron Valiant
+|-unboost|p2a: Iron Valiant|evasion|1
+|-sideend|p1: BigZThreats|Spikes|[from] move: Defog|[of] p1a: Corviknight
+|
+|upkeep
+|turn|8
+|inactive|PlzShinyMetaGross has 120 seconds left.
+|
+|t:|1743823220
+|move|p2a: Iron Valiant|Thunder Wave|p1a: Corviknight
+|-status|p1a: Corviknight|par
+|move|p1a: Corviknight|Brave Bird|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|34/100
+|-damage|p1a: Corviknight|85/100 par|[from] Recoil
+|
+|upkeep
+|turn|9
+|inactive|PlzShinyMetaGross has 120 seconds left.
+|
+|t:|1743823231
+|move|p2a: Iron Valiant|Destiny Bond|p2a: Iron Valiant
+|-singlemove|p2a: Iron Valiant|Destiny Bond
+|cant|p1a: Corviknight|par
+|
+|upkeep
+|turn|10
+|inactive|PlzShinyMetaGross has 120 seconds left.
+|
+|t:|1743823239
+|move|p2a: Iron Valiant|Destiny Bond||[still]
+|-fail|p2a: Iron Valiant
+|move|p1a: Corviknight|Brave Bird|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|-damage|p1a: Corviknight|77/100 par|[from] Recoil
+|
+|upkeep
+|inactive|PlzShinyMetaGross has 120 seconds left.
+|c|☆PlzShinyMetaGross|Bs game
+|
+|t:|1743823272
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|11
+|inactive|PlzShinyMetaGross has 90 seconds left.
+|
+|t:|1743823287
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|12
+|inactive|PlzShinyMetaGross has 90 seconds left.
+|
+|t:|1743823312
+|-terastallize|p2a: Gliscor|Water
+|move|p2a: Gliscor|Knock Off|p1a: Mamoswine
+|-damage|p1a: Mamoswine|34/100
+|-enditem|p1a: Mamoswine|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Mamoswine|Icicle Crash|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|79/100 tox
+|
+|-heal|p2a: Gliscor|91/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|t:|1743823327
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|move|p1a: Mamoswine|Earthquake|p2a: Gliscor
+|-damage|p2a: Gliscor|45/100 tox
+|
+|-heal|p2a: Gliscor|57/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|t:|1743823336
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Mamoswine|Earthquake|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|69/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|t:|1743823348
+|move|p2a: Gliscor|Knock Off|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|-heal|p2a: Gliscor|82/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743823362
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|16
+|inactive|PlzShinyMetaGross has 90 seconds left.
+|
+|t:|1743823382
+|move|p1a: Kyurem|Freeze-Dry|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|c|☆BigZThreats|stupid
+|-message|PlzShinyMetaGross forfeited.
+|
+|win|BigZThreats
+|raw|BigZThreats's rating: 1116 &rarr; <strong>1137</strong><br />(+21 for winning)
+|raw|PlzShinyMetaGross's rating: 1067 &rarr; <strong>1050</strong><br />(-17 for losing)
+|l|☆PlzShinyMetaGross
+|player|p2|
+|l|☆BigZThreats
+|player|p1|
+|j|☆BigZThreats
+|player|p1|BigZThreats|pokekid|

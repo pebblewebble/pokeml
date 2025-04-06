@@ -1,0 +1,336 @@
+|j|☆Wandering Hiker
+|j|☆wannabe3
+|t:|1743897669
+|gametype|singles
+|player|p1|Wandering Hiker|hiker-gen4|1122
+|player|p2|wannabe3|crasherwake|1090
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Walking Wake|
+|poke|p1|Rotom-Fan|
+|poke|p1|Iron Treads|
+|poke|p1|Slither Wing|
+|poke|p2|Sceptile, M|
+|poke|p2|Empoleon, F|
+|poke|p2|Arcanine, F|
+|poke|p2|Chandelure, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Kyurem|
+|teampreview
+|
+|t:|1743897682
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1743897693
+|switch|p2a: Sceptile|Sceptile, M|100/100
+|move|p1a: Pelipper|Weather Ball|p2a: Sceptile
+|-resisted|p2a: Sceptile
+|-damage|p2a: Sceptile|70/100
+|-enditem|p2a: Sceptile|Absorb Bulb
+|-boost|p2a: Sceptile|spa|1|[from] item: Absorb Bulb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743897706
+|move|p2a: Sceptile|Giga Drain|p1a: Pelipper
+|-damage|p1a: Pelipper|28/100
+|-heal|p2a: Sceptile|100/100|[from] drain|[of] p1a: Pelipper
+|move|p1a: Pelipper|Hurricane|p2a: Sceptile
+|-supereffective|p2a: Sceptile
+|-damage|p2a: Sceptile|18/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743897720
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Sceptile|Giga Drain|p1a: Iron Treads
+|-damage|p1a: Iron Treads|33/100
+|-heal|p2a: Sceptile|56/100|[from] drain|[of] p1a: Iron Treads
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Iron Treads|39/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743897737
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Rotom|Rotom-Fan|100/100
+|move|p2a: Sceptile|Giga Drain|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|61/100
+|-heal|p2a: Sceptile|69/100|[from] drain|[of] p1a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743897747
+|move|p2a: Sceptile|Focus Blast|p1a: Rotom|[miss]
+|-miss|p2a: Sceptile|p1a: Rotom
+|move|p1a: Rotom|Air Slash|p2a: Sceptile
+|-supereffective|p2a: Sceptile
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743897761
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|turn|6
+|
+|t:|1743897787
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|move|p2a: Excadrill|Stealth Rock|p1a: Walking Wake
+|-sidestart|p1: Wandering Hiker|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743897803
+|switch|p2a: Empoleon|Empoleon, F|100/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|74/100
+|-damage|p1a: Walking Wake|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Empoleon|81/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743897818
+|move|p1a: Walking Wake|Flip Turn|p2a: Empoleon
+|-resisted|p2a: Empoleon
+|-damage|p2a: Empoleon|63/100
+|-damage|p1a: Walking Wake|81/100|[from] item: Life Orb
+|
+|t:|1743897823
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Slither Wing|Slither Wing|100/100|[from] Flip Turn
+|-damage|p1a: Slither Wing|88/100|[from] Stealth Rock
+|move|p2a: Empoleon|Roost|p2a: Empoleon
+|-heal|p2a: Empoleon|100/100
+|-singleturn|p2a: Empoleon|move: Roost
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743897835
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|-item|p2a: Chandelure|Air Balloon
+|move|p1a: Slither Wing|Close Combat|p2a: Chandelure
+|-immune|p2a: Chandelure
+|
+|upkeep
+|turn|10
+|
+|t:|1743897852
+|move|p1a: Slither Wing|U-turn|p2a: Chandelure
+|-resisted|p2a: Chandelure
+|-damage|p2a: Chandelure|87/100
+|-enditem|p2a: Chandelure|Air Balloon
+|
+|t:|1743897864
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Pelipper|Pelipper, M|28/100|[from] U-turn
+|-damage|p1a: Pelipper|3/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Chandelure|Flame Charge|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|1/100
+|-boost|p2a: Chandelure|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743897889
+|switch|p1a: Walking Wake|Walking Wake|81/100
+|-damage|p1a: Walking Wake|69/100|[from] Stealth Rock
+|move|p2a: Chandelure|Flame Charge|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|67/100
+|-boost|p2a: Chandelure|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743897917
+|move|p2a: Chandelure|Energy Ball|p1a: Walking Wake
+|-damage|p1a: Walking Wake|24/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-crit|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|-damage|p1a: Walking Wake|14/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743897953
+|switch|p2a: Arcanine|Arcanine, F, shiny|100/100
+|turn|13
+|
+|t:|1743897963
+|move|p2a: Arcanine|Extreme Speed|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|-damage|p2a: Arcanine|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743897993
+|switch|p1a: Rotom|Rotom-Fan|61/100
+|-damage|p1a: Rotom|37/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743898005
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|move|p1a: Rotom|Thunder|p2a: Excadrill
+|-immune|p2a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743898018
+|switch|p1a: Slither Wing|Slither Wing|88/100
+|-damage|p1a: Slither Wing|76/100|[from] Stealth Rock
+|move|p2a: Excadrill|Earthquake|p1a: Slither Wing
+|-resisted|p1a: Slither Wing
+|-damage|p1a: Slither Wing|40/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743898028
+|move|p1a: Slither Wing|First Impression|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|64/100
+|move|p2a: Excadrill|Earthquake|p1a: Slither Wing
+|-resisted|p1a: Slither Wing
+|-damage|p1a: Slither Wing|8/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743898043
+|move|p2a: Excadrill|Earthquake|p1a: Slither Wing
+|-resisted|p1a: Slither Wing
+|-damage|p1a: Slither Wing|0 fnt
+|faint|p1a: Slither Wing
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743898049
+|switch|p1a: Pelipper|Pelipper, M|1/100
+|-damage|p1a: Pelipper|0 fnt|[from] Stealth Rock
+|faint|p1a: Pelipper
+|
+|t:|1743898053
+|switch|p1a: Rotom|Rotom-Fan|37/100
+|-damage|p1a: Rotom|12/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1743898077
+|switch|p2a: Arcanine|Arcanine, F, shiny|91/100
+|move|p1a: Rotom|Air Slash|p2a: Arcanine
+|-damage|p2a: Arcanine|44/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743898102
+|move|p2a: Arcanine|Extreme Speed|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|-damage|p2a: Arcanine|35/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743898112
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|-damage|p1a: Tornadus|76/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743898122
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Tornadus|Sludge Wave|p2a: Kyurem
+|-damage|p2a: Kyurem|55/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743898139
+|switch|p1a: Iron Treads|Iron Treads|39/100
+|-damage|p1a: Iron Treads|36/100|[from] Stealth Rock
+|move|p2a: Kyurem|Icicle Spear|p1a: Iron Treads
+|-damage|p1a: Iron Treads|24/100
+|-damage|p1a: Iron Treads|13/100
+|-damage|p1a: Iron Treads|1/100
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|-hitcount|p1: Iron Treads|4
+|
+|upkeep
+|
+|t:|1743898152
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|-damage|p1a: Tornadus|76/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1743898160
+|move|p1a: Tornadus|Hurricane|p2a: Kyurem|[miss]
+|-miss|p1a: Tornadus|p2a: Kyurem
+|move|p2a: Kyurem|Icicle Spear|p1a: Tornadus
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|36/100
+|-supereffective|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|-hitcount|p1: Tornadus|2
+|
+|win|wannabe3
+|raw|Wandering Hiker's rating: 1122 &rarr; <strong>1095</strong><br />(-27 for losing)
+|raw|wannabe3's rating: 1090 &rarr; <strong>1119</strong><br />(+29 for winning)
+|l|☆Wandering Hiker
+|player|p1|
+|l|☆wannabe3
+|player|p2|

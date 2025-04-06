@@ -1,0 +1,168 @@
+|j|☆sasukeuchiwho
+|j|☆Adromas
+|t:|1743863050
+|gametype|singles
+|player|p1|sasukeuchiwho|bellelba|1251
+|player|p2|Adromas|clerk|1218
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, M|
+|poke|p1|Great Tusk|
+|poke|p1|Walking Wake|
+|poke|p1|Blaziken, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p2|Pecharunt|
+|poke|p2|Abomasnow, M|
+|poke|p2|Carbink|
+|poke|p2|Cloyster, M|
+|poke|p2|Mamoswine, M|
+|poke|p2|Mandibuzz, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sasukeuchiwho)
+|
+|t:|1743863060
+|start
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|1
+|
+|t:|1743863067
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Blaziken|Focus Energy|p1a: Blaziken
+|-start|p1a: Blaziken|move: Focus Energy
+|
+|-weather|Snowscape|[upkeep]
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|2
+|
+|t:|1743863080
+|-terastallize|p1a: Blaziken|Fire
+|move|p1a: Blaziken|Overheat|p2a: Mandibuzz
+|-crit|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|0 fnt
+|-unboost|p1a: Blaziken|spa|2
+|faint|p2a: Mandibuzz
+|
+|-weather|Snowscape|[upkeep]
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743863091
+|switch|p2a: Carbink|Carbink|100/100
+|turn|3
+|
+|t:|1743863099
+|move|p1a: Blaziken|Overheat|p2a: Carbink
+|-resisted|p2a: Carbink
+|-crit|p2a: Carbink
+|-damage|p2a: Carbink|57/100
+|-unboost|p1a: Blaziken|spa|2
+|move|p2a: Carbink|Stealth Rock|p1a: Blaziken
+|-sidestart|p1: sasukeuchiwho|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Carbink|63/100|[from] item: Leftovers
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|4
+|
+|t:|1743863119
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Carbink|Body Press|p1a: Ninetales
+|-damage|p1a: Ninetales|41/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Carbink|69/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743863131
+|move|p1a: Ninetales|Will-O-Wisp|p2a: Carbink
+|-status|p2a: Carbink|brn
+|move|p2a: Carbink|Spikes|p1a: Ninetales
+|-sidestart|p1: sasukeuchiwho|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Carbink|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Carbink|69/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743863146
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|-damage|p1a: Hatterene|88/100|[from] Stealth Rock
+|-damage|p1a: Hatterene|76/100|[from] Spikes
+|move|p2a: Carbink|Body Press|p1a: Hatterene
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|73/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1743863160
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-damage|p1a: Great Tusk|85/100|[from] Spikes
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Carbink|75/100 brn|[from] item: Leftovers
+|-damage|p2a: Carbink|69/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743863172
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Pecharunt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743863184
+|switch|p2a: Mamoswine|Mamoswine, M|100/100
+|turn|8
+|
+|t:|1743863188
+|move|p2a: Mamoswine|Icicle Crash|p1a: Great Tusk|[miss]
+|-miss|p2a: Mamoswine|p1a: Great Tusk
+|move|p1a: Great Tusk|Close Combat|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Mamoswine
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Adromas forfeited.
+|
+|win|sasukeuchiwho
+|raw|sasukeuchiwho's rating: 1251 &rarr; <strong>1274</strong><br />(+23 for winning)
+|raw|Adromas's rating: 1218 &rarr; <strong>1195</strong><br />(-23 for losing)
+|l|☆Adromas
+|player|p2|
+|l|☆sasukeuchiwho
+|player|p1|

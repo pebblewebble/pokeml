@@ -1,0 +1,413 @@
+|j|☆shabealuya
+|j|☆MIT POG MOMENT
+|t:|1743778301
+|gametype|singles
+|player|p1|shabealuya|preschoolerf|1584
+|player|p2|MIT POG MOMENT|crasherwake|1631
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Alomomola, F|
+|poke|p1|Iron Crown|
+|poke|p1|Great Tusk|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Gholdengo|
+|poke|p1|Raging Bolt|
+|poke|p2|Corviknight, F|
+|poke|p2|Quaquaval, F|
+|poke|p2|Iron Boulder|
+|poke|p2|Zapdos|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|t:|1743778313
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743778321
+|move|p2a: Iron Valiant|Moonblast|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-enditem|p1a: Samurott|Focus Sash
+|-damage|p1a: Samurott|1/100
+|move|p1a: Samurott|Razor Shell|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|37/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743778331
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|51/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743778335
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743778339
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|4
+|
+|t:|1743778345
+|move|p2a: Iron Valiant|Moonblast|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|15/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p1a: Raging Bolt|21/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743778356
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|turn|5
+|
+|t:|1743778362
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Samurott|Samurott-Hisui, F|1/100
+|move|p2a: Goodra|Ice Beam|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1743778364
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by shabealuya)
+|
+|t:|1743778389
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|21/100
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|
+|-heal|p1a: Raging Bolt|28/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743778402
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-heal|p1a: Raging Bolt|34/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743778405
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Goodra
+|-damage|p2a: Goodra|68/100
+|move|p2a: Goodra|Ice Beam|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743778408
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|9
+|
+|t:|1743778417
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Great Tusk|Close Combat|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|65/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743778423
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Zapdos|Hurricane|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|78/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|11
+|
+|t:|1743778431
+|move|p2a: Zapdos|Volt Switch|p1a: Gholdengo
+|-damage|p1a: Gholdengo|50/100
+|
+|t:|1743778432
+|switch|p2a: Goodra|Goodra-Hisui, M|68/100|[from] Volt Switch
+|move|p1a: Gholdengo|Thunder Wave|p2a: Goodra
+|-status|p2a: Goodra|par
+|
+|upkeep
+|turn|12
+|
+|t:|1743778453
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|100/100
+|move|p2a: Goodra|Flamethrower|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|51/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743778463
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|cant|p2a: Goodra|par
+|
+|upkeep
+|turn|14
+|
+|t:|1743778469
+|switch|p2a: Zapdos|Zapdos|65/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|23/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743778473
+|move|p1a: Great Tusk|Ice Spinner|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1743778476
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|turn|16
+|
+|t:|1743778496
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Quaquaval|Aqua Step|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|89/100
+|-boost|p2a: Quaquaval|spe|1
+|
+|upkeep
+|turn|17
+|
+|t:|1743778502
+|move|p2a: Quaquaval|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|71/100
+|-enditem|p1a: Alomomola|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Quaquaval
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|18
+|
+|t:|1743778509
+|switch|p2a: Goodra|Goodra-Hisui, M|68/100 par
+|move|p1a: Alomomola|Flip Turn|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|62/100 par
+|-ability|p2a: Goodra|Gooey
+|-unboost|p1a: Alomomola|spe|1
+|
+|t:|1743778512
+|switch|p1a: Gholdengo|Gholdengo|51/100|[from] Flip Turn
+|
+|-heal|p1a: Gholdengo|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|19
+|
+|t:|1743778516
+|move|p1a: Gholdengo|Hex|p2a: Goodra
+|-damage|p2a: Goodra|37/100 par
+|move|p2a: Goodra|Flamethrower|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|45/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743778525
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p2a: Iron Boulder|Booster Energy
+|-activate|p2a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Boulder|quarkdrivespe
+|
+|upkeep
+|turn|21
+|
+|t:|1743778535
+|move|p2a: Iron Boulder|Swords Dance|p2a: Iron Boulder
+|-boost|p2a: Iron Boulder|atk|2
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|22
+|
+|t:|1743778544
+|move|p2a: Iron Boulder|Mighty Cleave|p1a: Alomomola
+|-damage|p1a: Alomomola|48/100
+|move|p1a: Alomomola|Flip Turn|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|63/100
+|
+|t:|1743778554
+|switch|p1a: Gholdengo|Gholdengo|45/100|[from] Flip Turn
+|
+|-heal|p1a: Gholdengo|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|23
+|
+|t:|1743778557
+|move|p2a: Iron Boulder|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|16/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743778560
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|turn|24
+|
+|t:|1743778565
+|switch|p1a: Alomomola|Alomomola, F|82/100
+|move|p2a: Quaquaval|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|47/100
+|-unboost|p2a: Quaquaval|def|1
+|-unboost|p2a: Quaquaval|spd|1
+|
+|upkeep
+|turn|25
+|
+|t:|1743778568
+|move|p2a: Quaquaval|Close Combat|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|-unboost|p2a: Quaquaval|def|1
+|-unboost|p2a: Quaquaval|spd|1
+|faint|p1a: Alomomola
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1743778574
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|26
+|
+|t:|1743778578
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Great Tusk|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|65/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-damage|p1a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|upkeep
+|turn|27
+|
+|t:|1743778582
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|16/100
+|move|p2a: Corviknight|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|13/100
+|
+|t:|1743778584
+|switch|p2a: Quaquaval|Quaquaval, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|28
+|
+|t:|1743778589
+|move|p2a: Quaquaval|Aqua Step|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-boost|p2a: Quaquaval|spe|1
+|faint|p1a: Gholdengo
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1743778591
+|switch|p1a: Great Tusk|Great Tusk|84/100
+|turn|29
+|
+|t:|1743778597
+|-terastallize|p1a: Great Tusk|Steel
+|move|p2a: Quaquaval|Aqua Step|p1a: Great Tusk
+|-damage|p1a: Great Tusk|41/100
+|-boost|p2a: Quaquaval|spe|1
+|-damage|p2a: Quaquaval|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|move|p1a: Great Tusk|Close Combat|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Quaquaval
+|
+|upkeep
+|
+|t:|1743778600
+|switch|p2a: Corviknight|Corviknight, F|65/100
+|-ability|p2a: Corviknight|Pressure
+|turn|30
+|
+|t:|1743778606
+|move|p1a: Great Tusk|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|24/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-damage|p1a: Great Tusk|24/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|move|p2a: Corviknight|Body Press|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-damage|p2a: Corviknight|7/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|win|MIT POG MOMENT
+|raw|shabealuya's rating: 1584 &rarr; <strong>1567</strong><br />(-17 for losing)
+|raw|MIT POG MOMENT's rating: 1631 &rarr; <strong>1648</strong><br />(+17 for winning)
+|l|☆MIT POG MOMENT
+|player|p2|
+|l|☆shabealuya
+|player|p1|

@@ -1,0 +1,177 @@
+|j|☆china sanxie
+|j|☆kokoromana
+|t:|1743854400
+|gametype|singles
+|player|p1|china sanxie|101|1340
+|player|p2|kokoromana|liza|1317
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Raging Bolt|
+|poke|p1|Scizor, F|
+|poke|p1|Iron Hands|
+|poke|p1|Moltres|
+|poke|p1|Kingambit, M|
+|poke|p1|Great Tusk|
+|poke|p2|Iron Boulder|
+|poke|p2|Indeedee, M|
+|poke|p2|Armarouge, M|
+|poke|p2|Serperior, F|
+|poke|p2|Iron Treads|
+|poke|p2|Zamazenta-*|
+|teampreview
+|
+|t:|1743854414
+|start
+|switch|p1a: Scizor|Scizor, F|100/100
+|switch|p2a: Serperior|Serperior, F|100/100
+|turn|1
+|
+|t:|1743854440
+|move|p2a: Serperior|Glare|p1a: Scizor
+|-status|p1a: Scizor|par
+|move|p1a: Scizor|Sunny Day|p1a: Scizor
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743854446
+|switch|p2a: Indeedee|Indeedee, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Scizor|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|t:|1743854464
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743854480
+|switch|p2a: Armarouge|Armarouge, M, shiny|100/100
+|turn|3
+|
+|t:|1743854490
+|-terastallize|p2a: Armarouge|Fairy
+|move|p1a: Great Tusk|Earthquake|p2a: Armarouge
+|-damage|p2a: Armarouge|24/100
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|move|p2a: Armarouge|Expanding Force|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743854505
+|switch|p1a: Scizor|Scizor, F|100/100 par
+|turn|4
+|
+|t:|1743854507
+|move|p2a: Armarouge|Armor Cannon|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|faint|p1a: Scizor
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743854513
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|5
+|
+|t:|1743854532
+|move|p2a: Armarouge|Meteor Beam||[still]
+|-prepare|p2a: Armarouge|Meteor Beam
+|-boost|p2a: Armarouge|spa|1
+|-enditem|p2a: Armarouge|Power Herb
+|-anim|p2a: Armarouge|Meteor Beam|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|47/100
+|move|p1a: Raging Bolt|Volt Switch|p2a: Armarouge
+|-damage|p2a: Armarouge|0 fnt
+|faint|p2a: Armarouge
+|-damage|p1a: Raging Bolt|37/100|[from] item: Life Orb
+|
+|t:|1743854554
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Moltres|Moltres|100/100|[from] Volt Switch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743854557
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p2a: Iron Boulder|Booster Energy
+|-activate|p2a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Boulder|quarkdrivespe
+|turn|6
+|
+|t:|1743854572
+|move|p2a: Iron Boulder|Mighty Cleave|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743854581
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|7
+|
+|t:|1743854590
+|move|p2a: Iron Boulder|Earthquake|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|55/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743854596
+|-terastallize|p1a: Kingambit|Dark
+|move|p2a: Iron Boulder|Close Combat|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-unboost|p2a: Iron Boulder|def|1
+|-unboost|p2a: Iron Boulder|spd|1
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|
+|-weather|none
+|upkeep
+|-message|china sanxie forfeited.
+|
+|win|kokoromana
+|raw|china sanxie's rating: 1340 &rarr; <strong>1319</strong><br />(-21 for losing)
+|raw|kokoromana's rating: 1317 &rarr; <strong>1338</strong><br />(+21 for winning)
+|l|☆china sanxie
+|player|p1|

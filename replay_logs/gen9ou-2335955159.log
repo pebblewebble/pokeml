@@ -1,0 +1,245 @@
+|j|☆hopsiuo
+|j|☆tyvubin
+|t:|1743863439
+|gametype|singles
+|player|p1|hopsiuo|101|1070
+|player|p2|tyvubin|101|1056
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Glimmora, M|
+|poke|p1|Scizor, M|
+|poke|p1|Gliscor, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Toxapex, F|
+|poke|p1|Iron Valiant|
+|poke|p2|Porygon2|
+|poke|p2|Skuntank, F|
+|poke|p2|Galvantula, F|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Copperajah, M|
+|poke|p2|Swanna, F|
+|teampreview
+|
+|t:|1743863443
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Galvantula|Galvantula, F|100/100
+|turn|1
+|
+|t:|1743863452
+|switch|p2a: Copperajah|Copperajah, M|100/100
+|move|p1a: Glimmora|Spikes|p2a: Copperajah
+|-sidestart|p2: tyvubin|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1743863459
+|move|p1a: Glimmora|Stealth Rock|p2a: Copperajah
+|-sidestart|p2: tyvubin|move: Stealth Rock
+|move|p2a: Copperajah|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-enditem|p1a: Glimmora|Focus Sash
+|-damage|p1a: Glimmora|1/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: tyvubin|move: Toxic Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1743863472
+|move|p1a: Glimmora|Power Gem|p2a: Copperajah
+|-resisted|p2a: Copperajah
+|-damage|p2a: Copperajah|81/100
+|move|p2a: Copperajah|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: tyvubin|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|-heal|p2a: Copperajah|87/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743863486
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|4
+|
+|t:|1743863496
+|-terastallize|p2a: Copperajah|Ground
+|move|p1a: Iron Valiant|Close Combat|p2a: Copperajah
+|-damage|p2a: Copperajah|40/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|move|p2a: Copperajah|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p2a: Copperajah|46/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743863509
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|turn|5
+|
+|t:|1743863512
+|move|p2a: Copperajah|Earthquake|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|33/100
+|move|p1a: Toxapex|Surf|p2a: Copperajah
+|-supereffective|p2a: Copperajah
+|-crit|p2a: Copperajah
+|-damage|p2a: Copperajah|0 fnt
+|faint|p2a: Copperajah
+|
+|-heal|p1a: Toxapex|39/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1743863522
+|switch|p2a: Skuntank|Skuntank, F|100/100
+|-damage|p2a: Skuntank|88/100|[from] Spikes
+|-damage|p2a: Skuntank|76/100|[from] Stealth Rock
+|-sideend|p2: tyvubin|move: Toxic Spikes|[of] p2a: Skuntank
+|turn|6
+|
+|t:|1743863529
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Skuntank|Knock Off|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p1a: Toxapex|45/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1743863538
+|move|p1a: Toxapex|Baneful Bunker||[still]
+|-fail|p1a: Toxapex
+|move|p2a: Skuntank|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|5/100
+|-enditem|p1a: Toxapex|Black Sludge|[from] move: Knock Off|[of] p2a: Skuntank
+|
+|upkeep
+|turn|8
+|
+|t:|1743863547
+|move|p2a: Skuntank|Knock Off|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|
+|upkeep
+|
+|t:|1743863557
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|9
+|
+|t:|1743863565
+|move|p2a: Skuntank|Knock Off|p1a: Scizor
+|-damage|p1a: Scizor|36/100
+|-enditem|p1a: Scizor|Leftovers|[from] move: Knock Off|[of] p2a: Skuntank
+|move|p1a: Scizor|Close Combat|p2a: Skuntank
+|-damage|p2a: Skuntank|8/100
+|-unboost|p1a: Scizor|def|1
+|-unboost|p1a: Scizor|spd|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743863576
+|move|p1a: Scizor|Bullet Punch|p2a: Skuntank
+|-damage|p2a: Skuntank|0 fnt
+|-damage|p1a: Scizor|11/100|[from] ability: Aftermath|[of] p2a: Skuntank
+|faint|p2a: Skuntank
+|
+|upkeep
+|
+|t:|1743863582
+|switch|p2a: Swanna|Swanna, F|100/100
+|-damage|p2a: Swanna|76/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1743863592
+|move|p2a: Swanna|Aqua Jet|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1743863601
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|12
+|
+|t:|1743863607
+|-terastallize|p1a: Dragapult|Dragon
+|move|p1a: Dragapult|Shadow Ball|p2a: Swanna
+|-damage|p2a: Swanna|15/100
+|move|p2a: Swanna|Brave Bird|p1a: Dragapult
+|-damage|p1a: Dragapult|24/100
+|-damage|p2a: Swanna|0 fnt|[from] Recoil
+|faint|p2a: Swanna
+|
+|upkeep
+|
+|t:|1743863623
+|switch|p2a: Porygon2|Porygon2|100/100
+|-damage|p2a: Porygon2|88/100|[from] Spikes
+|-damage|p2a: Porygon2|76/100|[from] Stealth Rock
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|turn|13
+|
+|t:|1743863633
+|move|p1a: Dragapult|Shadow Ball|p2a: Porygon2
+|-immune|p2a: Porygon2
+|move|p2a: Porygon2|Ice Beam|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1743863641
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|turn|14
+|
+|t:|1743863645
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Porygon2|Ice Beam|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|15
+|
+|t:|1743863656
+|move|p1a: Gliscor|Earthquake|p2a: Porygon2
+|-damage|p2a: Porygon2|54/100
+|move|p2a: Porygon2|Ice Beam|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|win|tyvubin
+|raw|hopsiuo's rating: 1070 &rarr; <strong>1049</strong><br />(-21 for losing)
+|raw|tyvubin's rating: 1056 &rarr; <strong>1089</strong><br />(+33 for winning)
+|l|☆hopsiuo
+|player|p1|
+|l|☆tyvubin
+|player|p2|

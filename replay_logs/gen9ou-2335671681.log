@@ -1,0 +1,296 @@
+|j|☆Scizorag
+|j|☆HD Fire
+|t:|1743819528
+|gametype|singles
+|player|p1|Scizorag|red|1157
+|player|p2|HD Fire|youngster-gen4dp|1146
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Gliscor, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Raging Bolt|
+|poke|p2|Ursaluna, M|
+|poke|p2|Glastrier|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Snorlax, M|
+|poke|p2|Maushold-Four|
+|poke|p2|Iron Moth|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HD Fire)
+|
+|t:|1743819577
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Maushold|Maushold-Four|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743819585
+|move|p1a: Iron Valiant|Close Combat|p2a: Maushold
+|-supereffective|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|faint|p2a: Maushold
+|
+|upkeep
+|
+|t:|1743819593
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|2
+|
+|t:|1743819598
+|move|p1a: Iron Valiant|Knock Off|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|88/100
+|-enditem|p2a: Ninetales|Light Clay|[from] move: Knock Off|[of] p1a: Iron Valiant
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: HD Fire|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743819606
+|move|p1a: Iron Valiant|Encore|p2a: Ninetales
+|-start|p2a: Ninetales|Encore
+|move|p2a: Ninetales|Aurora Veil||[still]
+|-fail|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743819612
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|move|p1a: Iron Valiant|Close Combat|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|79/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743819624
+|move|p1a: Iron Valiant|Knock Off|p2a: Iron Moth
+|-damage|p2a: Iron Moth|63/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743819633
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|6
+|
+|t:|1743819640
+|move|p1a: Samurott|Razor Shell|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-crit|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|none
+|-sideend|p2: HD Fire|move: Aurora Veil
+|upkeep
+|
+|t:|1743819647
+|switch|p2a: Glastrier|Glastrier|100/100
+|turn|7
+|inactive|Scizorag has 120 seconds left.
+|c|☆Scizorag|Crit didn’t matter
+|
+|t:|1743819692
+|-terastallize|p2a: Glastrier|Electric
+|move|p1a: Samurott|Razor Shell|p2a: Glastrier
+|-damage|p2a: Glastrier|67/100
+|move|p2a: Glastrier|Tera Blast|p1a: Samurott|[anim] Tera Blast Electric
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|
+|upkeep
+|
+|t:|1743819706
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|8
+|
+|t:|1743819712
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Glastrier|Tera Blast|p1a: Kyurem|[anim] Tera Blast Electric
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|68/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743819722
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Glastrier|Close Combat|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|-unboost|p2a: Glastrier|def|1
+|-unboost|p2a: Glastrier|spd|1
+|faint|p1a: Kyurem
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|
+|upkeep
+|c|☆Scizorag|Nice hiding
+|c|☆Scizorag|thought band
+|
+|t:|1743819745
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|turn|10
+|
+|t:|1743819748
+|move|p1a: Gliscor|Earthquake|p2a: Glastrier
+|-supereffective|p2a: Glastrier
+|-damage|p2a: Glastrier|3/100
+|move|p2a: Glastrier|Avalanche|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|
+|upkeep
+|
+|t:|1743819761
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|turn|11
+|
+|t:|1743819764
+|move|p1a: Conkeldurr|Mach Punch|p2a: Glastrier
+|-damage|p2a: Glastrier|0 fnt
+|faint|p2a: Glastrier
+|
+|upkeep
+|
+|t:|1743819768
+|switch|p2a: Ninetales|Ninetales-Alola, F|88/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|12
+|
+|t:|1743819777
+|-terastallize|p1a: Conkeldurr|Electric
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: HD Fire|move: Aurora Veil
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ninetales
+|-damage|p2a: Ninetales|55/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743819785
+|move|p2a: Ninetales|Blizzard|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|55/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ninetales
+|-damage|p2a: Ninetales|22/100
+|-heal|p1a: Conkeldurr|66/100|[from] drain|[of] p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743819797
+|move|p2a: Ninetales|Blizzard|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|21/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|-heal|p1a: Conkeldurr|29/100|[from] drain|[of] p2a: Ninetales
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743819807
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|turn|15
+|
+|t:|1743819812
+|move|p1a: Conkeldurr|Drain Punch|p2a: Snorlax
+|-supereffective|p2a: Snorlax
+|-crit|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|-heal|p1a: Conkeldurr|92/100|[from] drain|[of] p2a: Snorlax
+|faint|p2a: Snorlax
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743819818
+|switch|p2a: Ursaluna|Ursaluna, M, shiny|100/100
+|turn|16
+|c|☆Scizorag|Crit definitely matters
+|
+|t:|1743819828
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|55/100
+|-heal|p1a: Conkeldurr|100/100|[from] drain|[of] p2a: Ursaluna
+|move|p2a: Ursaluna|Earthquake|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|-weather|none
+|-sideend|p2: HD Fire|move: Aurora Veil
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1743819841
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|17
+|
+|t:|1743819844
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Ursaluna
+|-damage|p2a: Ursaluna|13/100 brn
+|move|p2a: Ursaluna|Avalanche|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|HD Fire
+|raw|Scizorag's rating: 1157 &rarr; <strong>1131</strong><br />(-26 for losing)
+|raw|HD Fire's rating: 1146 &rarr; <strong>1172</strong><br />(+26 for winning)
+|c|☆HD Fire|gg
+|c|☆Scizorag|Gg
+|l|☆HD Fire
+|player|p2|
+|c|☆Scizorag|I am testing this tea

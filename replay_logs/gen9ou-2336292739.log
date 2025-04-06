@@ -1,0 +1,445 @@
+|j|☆Driz0
+|j|☆ducks12345
+|t:|1743899314
+|gametype|singles
+|player|p1|Driz0|169|1334
+|player|p2|ducks12345|170|1371
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Bellibolt, F|
+|poke|p1|Bisharp, F|
+|poke|p1|Froslass, F|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Valiant|
+|poke|p1|Gholdengo|
+|poke|p2|Scizor, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Cinderace, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Kyurem|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Driz0)
+|
+|t:|1743899323
+|start
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|turn|1
+|
+|t:|1743899329
+|-terastallize|p1a: Gholdengo|Ground
+|move|p1a: Gholdengo|Tera Blast|p2a: Raging Bolt|[anim] Tera Blast Ground
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|19/100
+|move|p2a: Raging Bolt|Volt Switch|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|2
+|
+|t:|1743899338
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|move|p1a: Gholdengo|Tera Blast|p2a: Meowscarada|[anim] Tera Blast Ground
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|67/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743899350
+|switch|p1a: Bellibolt|Bellibolt, F|100/100
+|move|p2a: Meowscarada|Flower Trick|p1a: Bellibolt
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-crit|p1a: Bellibolt
+|-damage|p1a: Bellibolt|54/100
+|-start|p1a: Bellibolt|Charge|Flower Trick|[from] ability: Electromorphosis
+|
+|-heal|p1a: Bellibolt|60/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|ducks12345 has 120 seconds left.
+|
+|t:|1743899384
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Bellibolt|Parabolic Charge|p2a: Slowking
+|-damage|p2a: Slowking|60/100
+|-heal|p1a: Bellibolt|79/100|[from] drain|[of] p2a: Slowking
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|-heal|p1a: Bellibolt|86/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743899393
+|switch|p1a: Froslass|Froslass, F|100/100
+|move|p2a: Slowking|Future Sight|p1a: Froslass
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|6
+|
+|t:|1743899399
+|move|p1a: Froslass|Trick|p2a: Slowking
+|-activate|p1a: Froslass|move: Trick|[of] p2a: Slowking
+|-item|p2a: Slowking|Choice Scarf|[from] move: Trick
+|-item|p1a: Froslass|Heavy-Duty Boots|[from] move: Trick
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743899404
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743899411
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|67/100
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Great Tusk|move: Future Sight
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1743899424
+|switch|p1a: Bellibolt|Bellibolt, F|86/100
+|turn|8
+|
+|t:|1743899431
+|move|p2a: Cinderace|U-turn|p1a: Bellibolt
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Bellibolt|58/100
+|-start|p1a: Bellibolt|Charge|U-turn|[from] ability: Electromorphosis
+|
+|t:|1743899433
+|switch|p2a: Slowking|Slowking-Galar, F|93/100|[from] U-turn
+|move|p1a: Bellibolt|Parabolic Charge|p2a: Slowking
+|-damage|p2a: Slowking|54/100
+|-heal|p1a: Bellibolt|77/100|[from] drain|[of] p2a: Slowking
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Bellibolt|83/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743899446
+|switch|p1a: Bisharp|Bisharp, F|100/100
+|move|p2a: Slowking|Future Sight|p1a: Bisharp
+|-start|p2a: Slowking|move: Future Sight
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743899456
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Bisharp|Thunder Wave|p2a: Cinderace
+|-status|p2a: Cinderace|par
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1743899466
+|move|p1a: Bisharp|Sucker Punch|p2a: Cinderace
+|-damage|p2a: Cinderace|52/100 par
+|move|p2a: Cinderace|Pyro Ball|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|30/100
+|
+|-end|p1a: Bisharp|move: Future Sight
+|-immune|p1a: Bisharp
+|upkeep
+|turn|12
+|
+|t:|1743899479
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-fail|p2a: Cinderace
+|move|p1a: Bisharp|Stealth Rock|p2a: Cinderace
+|-sidestart|p2: ducks12345|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1743899489
+|switch|p1a: Bellibolt|Bellibolt, F|83/100
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|-heal|p1a: Bellibolt|89/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743899499
+|switch|p2a: Slowking|Slowking-Galar, F|88/100
+|move|p1a: Bellibolt|Parabolic Charge|p2a: Slowking
+|-damage|p2a: Slowking|69/100
+|-heal|p1a: Bellibolt|97/100|[from] drain|[of] p2a: Slowking
+|
+|-heal|p1a: Bellibolt|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743899508
+|switch|p1a: Froslass|Froslass, F|100/100
+|move|p2a: Slowking|Toxic|p1a: Froslass
+|-status|p1a: Froslass|tox
+|
+|-damage|p1a: Froslass|94/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743899515
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Froslass|Spikes|p2a: Scizor
+|-sidestart|p2: ducks12345|Spikes
+|
+|-damage|p1a: Froslass|82/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1743899522
+|move|p1a: Froslass|Will-O-Wisp|p2a: Scizor
+|-status|p2a: Scizor|brn
+|move|p2a: Scizor|U-turn|p1a: Froslass
+|-resisted|p1a: Froslass
+|-damage|p1a: Froslass|62/100 tox
+|
+|t:|1743899537
+|switch|p2a: Meowscarada|Meowscarada, F|67/100|[from] U-turn
+|-damage|p2a: Meowscarada|54/100|[from] Spikes
+|
+|-damage|p1a: Froslass|43/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1743899542
+|move|p2a: Meowscarada|Knock Off|p1a: Froslass
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|-start|p2a: Meowscarada|Disable|Knock Off|[from] ability: Cursed Body|[of] p1a: Froslass
+|-enditem|p1a: Froslass|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Meowscarada
+|faint|p1a: Froslass
+|
+|upkeep
+|
+|t:|1743899550
+|switch|p1a: Gholdengo|Gholdengo, tera:Ground|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743899563
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|-damage|p2a: Slowking|88/100|[from] Spikes
+|move|p1a: Gholdengo|Tera Blast|p2a: Slowking|[anim] Tera Blast Ground
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|36/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743899569
+|switch|p2a: Scizor|Scizor, F|100/100 brn
+|-damage|p2a: Scizor|88/100 brn|[from] Spikes
+|move|p1a: Gholdengo|Tera Blast|p2a: Scizor|[anim] Tera Blast Ground
+|-damage|p2a: Scizor|19/100 brn
+|
+|-damage|p2a: Scizor|13/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1743899577
+|move|p2a: Scizor|Bullet Punch|p1a: Gholdengo
+|-damage|p1a: Gholdengo|66/100
+|move|p1a: Gholdengo|Tera Blast|p2a: Scizor|[anim] Tera Blast Ground
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1743899585
+|switch|p2a: Meowscarada|Meowscarada, F|54/100
+|-damage|p2a: Meowscarada|42/100|[from] Spikes
+|turn|22
+|
+|t:|1743899591
+|switch|p1a: Bisharp|Bisharp, F|30/100
+|-damage|p1a: Bisharp|24/100|[from] Stealth Rock
+|move|p2a: Meowscarada|Flower Trick|p1a: Bisharp
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-resisted|p1a: Bisharp
+|-crit|p1a: Bisharp
+|-damage|p1a: Bisharp|10/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743899600
+|move|p1a: Bisharp|Sucker Punch|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|upkeep
+|
+|t:|1743899610
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|24
+|
+|t:|1743899615
+|move|p2a: Kyurem|Freeze-Dry|p1a: Bisharp
+|-resisted|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|t:|1743899621
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|25
+|
+|t:|1743899626
+|-terastallize|p2a: Kyurem|Steel
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Kyurem|Earth Power|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|50/100
+|-unboost|p1a: Iron Valiant|spd|1
+|
+|upkeep
+|turn|26
+|
+|t:|1743899634
+|move|p1a: Iron Valiant|Aura Sphere|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1743899640
+|switch|p2a: Slowking|Slowking-Galar, F|70/100
+|-damage|p2a: Slowking|57/100|[from] Spikes
+|turn|27
+|
+|t:|1743899644
+|move|p1a: Iron Valiant|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|32/100
+|move|p2a: Slowking|Toxic|p1a: Iron Valiant
+|-status|p1a: Iron Valiant|tox
+|
+|-damage|p1a: Iron Valiant|44/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1743899660
+|switch|p2a: Cinderace|Cinderace, M|52/100 par
+|move|p1a: Iron Valiant|Thunderbolt|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-damage|p1a: Iron Valiant|31/100 tox|[from] psn
+|upkeep
+|
+|t:|1743899663
+|switch|p2a: Slowking|Slowking-Galar, F|65/100
+|-damage|p2a: Slowking|53/100|[from] Spikes
+|turn|29
+|
+|t:|1743899667
+|move|p1a: Iron Valiant|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|28/100
+|-status|p2a: Slowking|par
+|move|p2a: Slowking|Future Sight|p1a: Iron Valiant
+|-start|p2a: Slowking|move: Future Sight
+|
+|-damage|p1a: Iron Valiant|13/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1743899673
+|move|p1a: Iron Valiant|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|3/100 par
+|cant|p2a: Slowking|par
+|
+|-damage|p1a: Iron Valiant|0 fnt|[from] psn
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|upkeep
+|
+|t:|1743899680
+|switch|p1a: Bellibolt|Bellibolt, F|100/100
+|-damage|p1a: Bellibolt|88/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1743899684
+|move|p1a: Bellibolt|Parabolic Charge|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-heal|p1a: Bellibolt|89/100|[from] drain|[of] p2a: Slowking
+|faint|p2a: Slowking
+|
+|-end|p1a: Bellibolt|move: Future Sight
+|-damage|p1a: Bellibolt|47/100
+|-start|p1a: Bellibolt|Charge|Future Sight|[from] ability: Electromorphosis
+|-heal|p1a: Bellibolt|53/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743899686
+|switch|p2a: Raging Bolt|Raging Bolt|19/100
+|-damage|p2a: Raging Bolt|6/100|[from] Spikes
+|turn|32
+|
+|t:|1743899690
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Bellibolt
+|-damage|p1a: Bellibolt|0 fnt
+|faint|p1a: Bellibolt
+|
+|upkeep
+|
+|t:|1743899693
+|switch|p1a: Gholdengo|Gholdengo, tera:Ground|66/100
+|-damage|p1a: Gholdengo|60/100|[from] Stealth Rock
+|turn|33
+|
+|t:|1743899695
+|move|p1a: Gholdengo|Tera Blast|p2a: Raging Bolt|[anim] Tera Blast Ground
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|Driz0
+|raw|Driz0's rating: 1334 &rarr; <strong>1356</strong><br />(+22 for winning)
+|raw|ducks12345's rating: 1371 &rarr; <strong>1349</strong><br />(-22 for losing)
+|l|☆ducks12345
+|player|p2|
+|l|☆Driz0
+|player|p1|

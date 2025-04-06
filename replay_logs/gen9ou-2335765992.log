@@ -1,0 +1,245 @@
+|j|☆air555
+|j|☆VivaLaDavis
+|t:|1743832557
+|gametype|singles
+|player|p1|air555|red|1111
+|player|p2|VivaLaDavis|170|1115
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, F|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p1|Sceptile, M|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Rotom-Heat|
+|poke|p2|Morpeko, F|
+|poke|p2|Golem-Alola, M|
+|poke|p2|Toxtricity, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Luxray, F|
+|poke|p2|Bellibolt, F|
+|teampreview
+|
+|t:|1743832566
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Morpeko|Morpeko, F|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1743832578
+|move|p2a: Morpeko|Taunt|p1a: Great Tusk
+|-start|p1a: Great Tusk|move: Taunt
+|cant|p1a: Great Tusk|move: Taunt|Stealth Rock
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|2
+|
+|t:|1743832589
+|move|p2a: Morpeko|Parting Shot|p1a: Great Tusk
+|-unboost|p1a: Great Tusk|atk|1
+|-unboost|p1a: Great Tusk|spa|1
+|
+|t:|1743832592
+|switch|p2a: Luxray|Luxray, F|100/100|[from] Parting Shot
+|-ability|p2a: Luxray|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Rapid Spin|p2a: Luxray
+|-damage|p2a: Luxray|88/100
+|-boost|p1a: Great Tusk|spe|1
+|-enditem|p2a: Luxray|Eject Button
+|
+|t:|1743832604
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743832613
+|-terastallize|p2a: Toxtricity|Normal
+|move|p1a: Great Tusk|Headlong Rush|p2a: Toxtricity
+|-damage|p2a: Toxtricity|39/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Toxtricity|Shift Gear|p2a: Toxtricity
+|-boost|p2a: Toxtricity|spe|2
+|-boost|p2a: Toxtricity|atk|1
+|
+|-end|p1a: Great Tusk|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1743832626
+|move|p1a: Great Tusk|Headlong Rush|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Toxtricity
+|
+|upkeep
+|
+|t:|1743832633
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|5
+|
+|t:|1743832641
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|move|p2a: Rotom|Hydro Pump|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|82/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743832649
+|switch|p2a: Morpeko|Morpeko, F|100/100
+|move|p1a: Araquanid|Mirror Coat||[still]
+|-fail|p1a: Araquanid
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|7
+|
+|t:|1743832657
+|move|p2a: Morpeko|Aura Wheel|p1a: Araquanid
+|-damage|p1a: Araquanid|35/100
+|-boost|p2a: Morpeko|spe|1
+|move|p1a: Araquanid|Sticky Web|p2a: Morpeko
+|-sidestart|p2: VivaLaDavis|move: Sticky Web
+|
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|8
+|
+|t:|1743832668
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Morpeko|Aura Wheel|p1a: Great Tusk
+|-immune|p1a: Great Tusk
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|9
+|
+|t:|1743832683
+|move|p2a: Morpeko|Parting Shot|p1a: Great Tusk
+|-unboost|p1a: Great Tusk|atk|1
+|-unboost|p1a: Great Tusk|spa|1
+|
+|t:|1743832686
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from] Parting Shot
+|move|p1a: Great Tusk|Headlong Rush|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|upkeep
+|turn|10
+|
+|t:|1743832707
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Araquanid|Araquanid, F|35/100
+|move|p2a: Rotom|Hydro Pump|p1a: Araquanid|[miss]
+|-miss|p2a: Rotom|p1a: Araquanid
+|
+|upkeep
+|turn|11
+|
+|t:|1743832716
+|switch|p2a: Morpeko|Morpeko, F|100/100
+|move|p1a: Araquanid|Mirror Coat||[still]
+|-fail|p1a: Araquanid
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|12
+|
+|t:|1743832725
+|move|p2a: Morpeko|Rapid Spin|p1a: Araquanid
+|-damage|p1a: Araquanid|20/100
+|-boost|p2a: Morpeko|spe|1
+|-damage|p2a: Morpeko|84/100|[from] item: Rocky Helmet|[of] p1a: Araquanid
+|-sideend|p2: VivaLaDavis|Sticky Web|[from] move: Rapid Spin|[of] p2a: Morpeko
+|move|p1a: Araquanid|Liquidation|p2a: Morpeko
+|-damage|p2a: Morpeko|0 fnt
+|faint|p2a: Morpeko
+|
+|upkeep
+|
+|t:|1743832747
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|13
+|
+|t:|1743832751
+|move|p2a: Rotom|Hydro Pump|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|2/100
+|move|p1a: Araquanid|Sticky Web|p2a: Rotom
+|-sidestart|p2: VivaLaDavis|move: Sticky Web
+|
+|upkeep
+|turn|14
+|
+|t:|1743832761
+|move|p2a: Rotom|Hydro Pump|p1a: Araquanid|[miss]
+|-miss|p2a: Rotom|p1a: Araquanid
+|move|p1a: Araquanid|Liquidation|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|62/100
+|-unboost|p2a: Rotom|def|1
+|
+|upkeep
+|turn|15
+|
+|t:|1743832773
+|move|p2a: Rotom|Hydro Pump|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1743832781
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|16
+|
+|t:|1743832786
+|move|p2a: Rotom|Hydro Pump|p1a: Ogerpon
+|-damage|p1a: Ogerpon|39/100
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|upkeep
+|turn|17
+|
+|t:|1743832795
+|move|p2a: Rotom|Hydro Pump|p1a: Ogerpon|[miss]
+|-miss|p2a: Rotom|p1a: Ogerpon
+|move|p1a: Ogerpon|Trailblaze|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|-boost|p1a: Ogerpon|spe|1
+|faint|p2a: Rotom
+|
+|upkeep
+|-message|VivaLaDavis forfeited.
+|
+|win|air555
+|raw|air555's rating: 1111 &rarr; <strong>1136</strong><br />(+25 for winning)
+|raw|VivaLaDavis's rating: 1115 &rarr; <strong>1090</strong><br />(-25 for losing)
+|l|☆VivaLaDavis
+|player|p2|
+|l|☆air555
+|player|p1|

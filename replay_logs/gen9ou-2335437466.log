@@ -1,0 +1,326 @@
+|j|☆mayomama
+|j|☆dang21
+|t:|1743794223
+|gametype|singles
+|player|p1|mayomama|170|1227
+|player|p2|dang21|265|1245
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Meowscarada, F|
+|poke|p1|Slither Wing|
+|poke|p1|Kyurem|
+|poke|p1|Munkidori, M|
+|poke|p1|Iron Treads|
+|poke|p2|Iron Valiant|
+|poke|p2|Sylveon, F|
+|poke|p2|Iron Moth|
+|poke|p2|Kingambit, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mayomama)
+|
+|t:|1743794253
+|start
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tornadus|atk|1
+|turn|1
+|
+|t:|1743794270
+|move|p1a: Tornadus|Substitute|p1a: Tornadus
+|-start|p1a: Tornadus|Substitute
+|-damage|p1a: Tornadus|76/100
+|move|p2a: Landorus|U-turn|p1a: Tornadus
+|-resisted|p1a: Tornadus
+|-activate|p1a: Tornadus|move: Substitute|[damage]
+|inactive|dang21 has 120 seconds left.
+|
+|t:|1743794292
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1743794296
+|move|p1a: Tornadus|Air Slash|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|17/100
+|cant|p2a: Ogerpon|flinch
+|
+|upkeep
+|turn|3
+|
+|t:|1743794304
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-immune|p1a: Tornadus
+|move|p1a: Tornadus|Air Slash|p2a: Landorus
+|-damage|p2a: Landorus|61/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743794313
+|move|p1a: Tornadus|Air Slash|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743794317
+|switch|p2a: Sylveon|Sylveon, F|100/100
+|turn|5
+|
+|t:|1743794323
+|move|p1a: Tornadus|U-turn|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|95/100
+|
+|t:|1743794325
+|switch|p1a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|move|p2a: Sylveon|Hyper Voice|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|77/100
+|
+|-heal|p2a: Sylveon|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743794332
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|move|p1a: Iron Treads|Stealth Rock|p2a: Kingambit
+|-sidestart|p2: dang21|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1743794338
+|move|p1a: Iron Treads|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|47/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|8
+|
+|t:|1743794342
+|move|p2a: Kingambit|Sucker Punch|p1a: Iron Treads
+|-damage|p1a: Iron Treads|2/100
+|move|p1a: Iron Treads|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|upkeep
+|
+|t:|1743794351
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|17/100
+|-damage|p2a: Ogerpon|4/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743794355
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|move|p2a: Ogerpon|Spikes|p1a: Slither Wing
+|-sidestart|p1: mayomama|Spikes
+|
+|upkeep
+|turn|10
+|
+|t:|1743794361
+|move|p1a: Slither Wing|First Impression|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743794365
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|turn|11
+|
+|t:|1743794369
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Iron Treads|Iron Treads|2/100
+|-damage|p1a: Iron Treads|0 fnt|[from] Spikes
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|move|p2a: Iron Moth|Substitute|p2a: Iron Moth
+|-start|p2a: Iron Moth|Substitute
+|-damage|p2a: Iron Moth|76/100
+|
+|upkeep
+|
+|t:|1743794379
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|turn|12
+|
+|t:|1743794384
+|move|p1a: Tornadus|Air Slash|p2a: Iron Moth
+|-end|p2a: Iron Moth|Substitute
+|move|p2a: Iron Moth|Fiery Dance|p1a: Tornadus
+|-damage|p1a: Tornadus|46/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743794395
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Sylveon|Sylveon, F|100/100
+|-damage|p2a: Sylveon|88/100|[from] Stealth Rock
+|move|p1a: Tornadus|Air Slash|p2a: Sylveon|[miss]
+|-miss|p1a: Tornadus|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743794413
+|move|p1a: Tornadus|U-turn|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|85/100
+|
+|t:|1743794417
+|switch|p1a: Munkidori|Munkidori, M|100/100|[from] U-turn
+|-damage|p1a: Munkidori|88/100|[from] Spikes
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|91/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743794428
+|-terastallize|p2a: Sylveon|Steel
+|move|p1a: Munkidori|Sludge Wave|p2a: Sylveon
+|-immune|p2a: Sylveon
+|move|p2a: Sylveon|Shadow Ball|p1a: Munkidori
+|-supereffective|p1a: Munkidori
+|-damage|p1a: Munkidori|44/100
+|-unboost|p1a: Munkidori|spd|1
+|
+|-heal|p2a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|16
+|
+|t:|1743794445
+|switch|p1a: Tornadus|Tornadus-Therian, M|80/100
+|switch|p2a: Iron Moth|Iron Moth|76/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743794460
+|move|p1a: Tornadus|Air Slash|p2a: Iron Moth
+|-damage|p2a: Iron Moth|41/100
+|cant|p2a: Iron Moth|flinch
+|
+|upkeep
+|turn|18
+|
+|t:|1743794467
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Sylveon|Sylveon, F, tera:Steel|100/100
+|-damage|p2a: Sylveon|94/100|[from] Stealth Rock
+|move|p1a: Tornadus|Air Slash|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|86/100
+|
+|-heal|p2a: Sylveon|92/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743794474
+|move|p1a: Tornadus|U-turn|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|83/100
+|
+|t:|1743794475
+|switch|p1a: Munkidori|Munkidori, M|44/100|[from] U-turn
+|-damage|p1a: Munkidori|32/100|[from] Spikes
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|90/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743794483
+|move|p1a: Munkidori|Parting Shot|p2a: Sylveon
+|-unboost|p2a: Sylveon|atk|1
+|-unboost|p2a: Sylveon|spa|1
+|
+|t:|1743794489
+|switch|p1a: Slither Wing|Slither Wing|100/100|[from] Parting Shot
+|move|p2a: Sylveon|Shadow Ball|p1a: Slither Wing
+|-damage|p1a: Slither Wing|88/100
+|
+|-heal|p2a: Sylveon|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|21
+|
+|t:|1743794499
+|move|p1a: Slither Wing|Earthquake|p2a: Sylveon
+|-supereffective|p2a: Sylveon
+|-damage|p2a: Sylveon|3/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|9/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743794514
+|switch|p2a: Iron Moth|Iron Moth|41/100
+|move|p1a: Slither Wing|Earthquake|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743794518
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|23
+|
+|t:|1743794527
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|move|p1a: Slither Wing|Whirlwind|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|drag|p2a: Sylveon|Sylveon, F, tera:Steel|9/100
+|-damage|p2a: Sylveon|3/100|[from] Stealth Rock
+|
+|-heal|p2a: Sylveon|9/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|-message|dang21 forfeited.
+|
+|win|mayomama
+|raw|mayomama's rating: 1227 &rarr; <strong>1253</strong><br />(+26 for winning)
+|raw|dang21's rating: 1245 &rarr; <strong>1219</strong><br />(-26 for losing)
+|l|☆dang21
+|player|p2|
+|l|☆mayomama
+|player|p1|

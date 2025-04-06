@@ -1,0 +1,227 @@
+|j|☆averagekalelm1
+|j|☆Bml589
+|t:|1743917376
+|gametype|singles
+|player|p1|averagekalelm1|266|1068
+|player|p2|Bml589|265|1080
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Weavile, F|
+|poke|p1|Gholdengo|
+|poke|p1|Glimmora, M|
+|poke|p1|Iron Moth|
+|poke|p2|Scizor, M|
+|poke|p2|Hydreigon, F|
+|poke|p2|Toxicroak, M|
+|poke|p2|Gyarados, F|
+|poke|p2|Gardevoir, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|
+|t:|1743917382
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Depression|Ogerpon-Wellspring, F|100/100
+|turn|1
+|
+|t:|1743917388
+|-terastallize|p1a: Glimmora|Grass
+|move|p2a: Depression|Swords Dance|p2a: Depression
+|-boost|p2a: Depression|atk|2
+|move|p1a: Glimmora|Rock Polish|p1a: Glimmora
+|-boost|p1a: Glimmora|spe|2
+|
+|upkeep
+|turn|2
+|
+|t:|1743917397
+|move|p1a: Glimmora|Sludge Wave|p2a: Depression
+|-supereffective|p2a: Depression
+|-damage|p2a: Depression|0 fnt
+|faint|p2a: Depression
+|
+|upkeep
+|
+|t:|1743917412
+|switch|p2a: Snipper|Scizor, M|100/100
+|turn|3
+|
+|t:|1743917420
+|move|p1a: Glimmora|Earth Power|p2a: Snipper
+|-damage|p2a: Snipper|49/100
+|move|p2a: Snipper|Swords Dance|p2a: Snipper
+|-boost|p2a: Snipper|atk|2
+|
+|upkeep
+|turn|4
+|
+|t:|1743917439
+|move|p2a: Snipper|Bullet Punch|p1a: Glimmora
+|-damage|p1a: Glimmora|9/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Bml589|move: Toxic Spikes
+|move|p1a: Glimmora|Earth Power|p2a: Snipper
+|-damage|p2a: Snipper|0 fnt
+|faint|p2a: Snipper
+|
+|-heal|p1a: Glimmora|15/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743917453
+|switch|p2a: Ribbit|Toxicroak, M|100/100
+|-sideend|p2: Bml589|move: Toxic Spikes|[of] p2a: Ribbit
+|turn|5
+|
+|t:|1743917464
+|move|p2a: Ribbit|Bullet Punch|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Bml589|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1743917471
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|6
+|
+|t:|1743917480
+|move|p2a: Ribbit|Bullet Punch|p1a: Dragapult
+|-damage|p1a: Dragapult|74/100
+|move|p1a: Dragapult|Thunder Wave|p2a: Ribbit
+|-status|p2a: Ribbit|par
+|
+|-heal|p1a: Dragapult|80/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743917496
+|switch|p2a: Hail Hydra|Hydreigon, F|100/100
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|
+|-heal|p1a: Dragapult|86/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743917510
+|move|p1a: Dragapult|Dragon Darts|p2a: Hail Hydra
+|-supereffective|p2a: Hail Hydra
+|-damage|p2a: Hail Hydra|4/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Hail Hydra
+|-supereffective|p2a: Hail Hydra
+|-damage|p2a: Hail Hydra|0 fnt
+|faint|p2a: Hail Hydra
+|
+|-heal|p1a: Dragapult|92/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743917533
+|switch|p2a: Fleshlight|Gyarados, F|100/100
+|-ability|p2a: Fleshlight|Intimidate|boost
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|turn|9
+|
+|t:|1743917546
+|move|p1a: Dragapult|Dragon Darts|p2a: Fleshlight
+|-damage|p2a: Fleshlight|61/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Fleshlight
+|-damage|p2a: Fleshlight|20/100
+|move|p2a: Fleshlight|Avalanche|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1743917558
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|turn|10
+|
+|t:|1743917582
+|switch|p2a: Ribbit|Toxicroak, M|100/100 par
+|-sideend|p2: Bml589|move: Toxic Spikes|[of] p2a: Ribbit
+|move|p1a: Iron Moth|Sludge Wave|p2a: Ribbit
+|-resisted|p2a: Ribbit
+|-damage|p2a: Ribbit|61/100 par
+|
+|upkeep
+|turn|11
+|
+|t:|1743917604
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|cant|p2a: Ribbit|par
+|
+|upkeep
+|turn|12
+|
+|t:|1743917638
+|move|p1a: Gholdengo|Make It Rain|p2a: Ribbit
+|-damage|p2a: Ribbit|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Ribbit
+|
+|upkeep
+|
+|t:|1743917649
+|switch|p2a: PP Princess|Gardevoir, F|100/100
+|turn|13
+|
+|t:|1743917681
+|move|p2a: PP Princess|Moonblast|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|79/100
+|move|p1a: Gholdengo|Make It Rain|p2a: PP Princess
+|-supereffective|p2a: PP Princess
+|-damage|p2a: PP Princess|6/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-heal|p2a: PP Princess|12/100|[from] item: Leftovers
+|-heal|p1a: Gholdengo|85/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743917693
+|move|p2a: PP Princess|Destiny Bond|p2a: PP Princess
+|-singlemove|p2a: PP Princess|Destiny Bond
+|move|p1a: Gholdengo|Hex|p2a: PP Princess
+|-supereffective|p2a: PP Princess
+|-damage|p2a: PP Princess|0 fnt
+|faint|p2a: PP Princess
+|-activate|p2a: PP Princess|move: Destiny Bond
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743917701
+|switch|p2a: Fleshlight|Gyarados, F|20/100
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-ability|p2a: Fleshlight|Intimidate|boost
+|-unboost|p1a: Iron Moth|atk|1
+|turn|15
+|
+|t:|1743917718
+|move|p1a: Iron Moth|Sludge Wave|p2a: Fleshlight
+|-damage|p2a: Fleshlight|0 fnt
+|faint|p2a: Fleshlight
+|
+|win|averagekalelm1
+|raw|averagekalelm1's rating: 1068 &rarr; <strong>1099</strong><br />(+31 for winning)
+|raw|Bml589's rating: 1080 &rarr; <strong>1057</strong><br />(-23 for losing)
+|l|☆averagekalelm1
+|player|p1|

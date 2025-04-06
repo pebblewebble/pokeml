@@ -1,0 +1,194 @@
+|j|☆tyvubin
+|j|☆shanshanlaichi
+|t:|1743870073
+|gametype|singles
+|player|p1|tyvubin|101|1110
+|player|p2|shanshanlaichi|101|1101
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Porygon2|
+|poke|p1|Skuntank, F|
+|poke|p1|Galvantula, M|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Copperajah, F|
+|poke|p1|Cramorant, M|
+|poke|p2|Lokix, M|
+|poke|p2|Gholdengo|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Crown|
+|teampreview
+|
+|t:|1743870084
+|start
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|switch|p2a: Lokix|Lokix, M|100/100
+|turn|1
+|
+|t:|1743870092
+|move|p1a: Galvantula|Sticky Web|p2a: Lokix
+|-sidestart|p2: shanshanlaichi|move: Sticky Web
+|move|p2a: Lokix|Knock Off|p1a: Galvantula
+|-damage|p1a: Galvantula|20/100
+|-enditem|p1a: Galvantula|Magnet|[from] move: Knock Off|[of] p2a: Lokix
+|
+|upkeep
+|turn|2
+|
+|t:|1743870102
+|move|p1a: Galvantula|Thunder|p2a: Lokix
+|-crit|p2a: Lokix
+|-enditem|p2a: Lokix|Focus Sash
+|-damage|p2a: Lokix|1/100
+|move|p2a: Lokix|Leech Life|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|-heal|p2a: Lokix|11/100|[from] drain|[of] p1a: Galvantula
+|faint|p1a: Galvantula
+|
+|upkeep
+|
+|t:|1743870117
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|turn|3
+|
+|t:|1743870124
+|move|p1a: Skuntank|Sucker Punch|p2a: Lokix
+|-resisted|p2a: Lokix
+|-damage|p2a: Lokix|0 fnt
+|faint|p2a: Lokix
+|
+|upkeep
+|
+|t:|1743870137
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|move: Sticky Web
+|-unboost|p2a: Great Tusk|spe|1
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|4
+|
+|t:|1743870149
+|switch|p1a: Cramorant|Cramorant, M|100/100
+|move|p2a: Great Tusk|Close Combat|p1a: Cramorant
+|-resisted|p1a: Cramorant
+|-damage|p1a: Cramorant|28/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|5
+|
+|t:|1743870158
+|move|p1a: Cramorant|Surf|p2a: Great Tusk
+|-formechange|p1a: Cramorant|Cramorant-Gorging|
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743870173
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-activate|p2a: Iron Crown|move: Sticky Web
+|-unboost|p2a: Iron Crown|spe|1
+|turn|6
+|
+|t:|1743870186
+|-terastallize|p2a: Iron Crown|Steel
+|move|p1a: Cramorant|Surf|p2a: Iron Crown
+|-damage|p2a: Iron Crown|60/100
+|move|p2a: Iron Crown|Calm Mind|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spa|1
+|-boost|p2a: Iron Crown|spd|1
+|
+|upkeep
+|turn|7
+|
+|t:|1743870200
+|move|p1a: Cramorant|Surf|p2a: Iron Crown
+|-damage|p2a: Iron Crown|35/100
+|move|p2a: Iron Crown|Calm Mind|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spa|1
+|-boost|p2a: Iron Crown|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743870209
+|move|p1a: Cramorant|Surf|p2a: Iron Crown
+|-damage|p2a: Iron Crown|17/100
+|move|p2a: Iron Crown|Psychic Noise|p1a: Cramorant
+|-damage|p1a: Cramorant|0 fnt
+|-damage|p2a: Iron Crown|0 fnt|[from] ability: Gulp Missile|[of] p1a: Cramorant
+|-formechange|p1a: Cramorant|Cramorant|
+|faint|p1a: Cramorant
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743870224
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Porygon2|atk|1
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|atk|1
+|turn|9
+|
+|t:|1743870238
+|move|p2a: Landorus|Earthquake|p1a: Porygon2
+|-damage|p1a: Porygon2|70/100
+|move|p1a: Porygon2|Ice Beam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743870245
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|10
+|
+|t:|1743870253
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|upkeep
+|turn|11
+|
+|t:|1743870263
+|move|p2a: Gholdengo|Recover||[still]
+|-fail|p2a: Gholdengo|heal
+|move|p1a: Skuntank|Crunch|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-enditem|p2a: Gholdengo|Air Balloon
+|faint|p2a: Gholdengo
+|
+|upkeep
+|-message|shanshanlaichi forfeited.
+|
+|win|tyvubin
+|raw|tyvubin's rating: 1110 &rarr; <strong>1134</strong><br />(+24 for winning)
+|raw|shanshanlaichi's rating: 1101 &rarr; <strong>1077</strong><br />(-24 for losing)
+|l|☆shanshanlaichi
+|player|p2|
+|l|☆tyvubin
+|player|p1|

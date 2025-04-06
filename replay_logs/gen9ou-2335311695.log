@@ -1,0 +1,397 @@
+|j|☆LordBeck01
+|j|☆sostewed
+|t:|1743783665
+|gametype|singles
+|player|p1|LordBeck01|101|1166
+|player|p2|sostewed|scientistf|1224
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mudsdale, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Kilowattrel, F|
+|poke|p1|Weavile, M|
+|poke|p1|Blastoise, M|
+|poke|p1|Haxorus, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Samurott-Hisui, F|
+|teampreview
+|
+|t:|1743783675
+|start
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|1
+|
+|t:|1743783682
+|move|p2a: Samurott|Ceaseless Edge|p1a: Blastoise
+|-crit|p1a: Blastoise
+|-damage|p1a: Blastoise|23/100
+|-sidestart|p1: LordBeck01|Spikes
+|move|p1a: Blastoise|Shell Smash|p1a: Blastoise
+|-unboost|p1a: Blastoise|def|1
+|-unboost|p1a: Blastoise|spd|1
+|-boost|p1a: Blastoise|atk|2
+|-boost|p1a: Blastoise|spa|2
+|-boost|p1a: Blastoise|spe|2
+|-enditem|p1a: Blastoise|White Herb
+|-clearnegativeboost|p1a: Blastoise|[silent]
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sostewed)
+|
+|t:|1743783692
+|move|p1a: Blastoise|Dragon Pulse|p2a: Samurott
+|-damage|p2a: Samurott|39/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|-sidestart|p1: LordBeck01|Spikes
+|faint|p1a: Blastoise
+|
+|upkeep
+|
+|t:|1743783699
+|switch|p1a: Kilowattrel|Kilowattrel, F|100/100
+|turn|3
+|
+|t:|1743783706
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|move|p1a: Kilowattrel|Thunderbolt|p2a: Garganacl
+|-damage|p2a: Garganacl|77/100
+|
+|-heal|p2a: Garganacl|84/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743783713
+|move|p1a: Kilowattrel|Volt Switch|p2a: Garganacl
+|-damage|p2a: Garganacl|63/100
+|
+|t:|1743783717
+|switch|p1a: Mudsdale|Mudsdale, F|100/100|[from] Volt Switch
+|-damage|p1a: Mudsdale|84/100|[from] Spikes
+|move|p2a: Garganacl|Salt Cure|p1a: Mudsdale
+|-resisted|p1a: Mudsdale
+|-damage|p1a: Mudsdale|78/100
+|-start|p1a: Mudsdale|Salt Cure
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|
+|-heal|p1a: Mudsdale|84/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|69/100|[from] item: Leftovers
+|-damage|p1a: Mudsdale|72/100|[from] Salt Cure
+|upkeep
+|turn|5
+|
+|t:|1743783747
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Mudsdale|Iron Head|p2a: Dragapult
+|-damage|p2a: Dragapult|60/100
+|
+|-heal|p1a: Mudsdale|78/100|[from] item: Leftovers
+|-damage|p1a: Mudsdale|66/100|[from] Salt Cure
+|upkeep
+|turn|6
+|
+|t:|1743783758
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Mudsdale|[miss]
+|-miss|p2a: Dragapult|p1a: Mudsdale
+|move|p1a: Mudsdale|Earthquake|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Mudsdale|72/100|[from] item: Leftovers
+|-damage|p1a: Mudsdale|60/100|[from] Salt Cure
+|upkeep
+|
+|t:|1743783769
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|7
+|
+|t:|1743783774
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Mudsdale|Body Press|p2a: Corviknight
+|-damage|p2a: Corviknight|92/100
+|-damage|p1a: Mudsdale|43/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-heal|p1a: Mudsdale|49/100|[from] item: Leftovers
+|-damage|p1a: Mudsdale|37/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1743783788
+|move|p2a: Corviknight|Brave Bird|p1a: Mudsdale
+|-damage|p1a: Mudsdale|16/100
+|-ability|p1a: Mudsdale|Stamina|boost
+|-boost|p1a: Mudsdale|def|1
+|-damage|p2a: Corviknight|85/100|[from] Recoil
+|move|p1a: Mudsdale|Stone Edge|p2a: Corviknight
+|-damage|p2a: Corviknight|73/100
+|
+|-heal|p1a: Mudsdale|22/100|[from] item: Leftovers
+|-damage|p1a: Mudsdale|10/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1743783800
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Mudsdale|Stone Edge|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|95/100
+|
+|-heal|p1a: Mudsdale|16/100|[from] item: Leftovers
+|-damage|p1a: Mudsdale|3/100|[from] Salt Cure
+|upkeep
+|turn|10
+|
+|t:|1743783809
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Mudsdale|Body Press|p2a: Corviknight
+|-damage|p2a: Corviknight|87/100
+|-damage|p1a: Mudsdale|0 fnt|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p1a: Mudsdale
+|
+|upkeep
+|
+|t:|1743783817
+|switch|p1a: Kilowattrel|Kilowattrel, F|100/100
+|turn|11
+|
+|t:|1743783830
+|-terastallize|p2a: Corviknight|Fighting
+|move|p1a: Kilowattrel|Thunderbolt|p2a: Corviknight
+|-damage|p2a: Corviknight|49/100
+|-status|p2a: Corviknight|par
+|cant|p2a: Corviknight|par
+|
+|upkeep
+|turn|12
+|
+|t:|1743783838
+|move|p1a: Kilowattrel|Air Slash|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1743783845
+|switch|p2a: Garganacl|Garganacl, M|69/100
+|turn|13
+|
+|t:|1743783849
+|move|p1a: Kilowattrel|Volt Switch|p2a: Garganacl
+|-damage|p2a: Garganacl|50/100
+|
+|t:|1743783856
+|switch|p1a: Haxorus|Haxorus, M|100/100|[from] Volt Switch
+|-damage|p1a: Haxorus|84/100|[from] Spikes
+|-ability|p1a: Haxorus|Mold Breaker
+|move|p2a: Garganacl|Salt Cure|p1a: Haxorus
+|-damage|p1a: Haxorus|66/100
+|-start|p1a: Haxorus|Salt Cure
+|
+|-heal|p2a: Garganacl|56/100|[from] item: Leftovers
+|-damage|p1a: Haxorus|53/100|[from] Salt Cure
+|upkeep
+|turn|14
+|
+|t:|1743783874
+|move|p1a: Haxorus|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|5/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|55/100
+|
+|-heal|p2a: Garganacl|62/100|[from] item: Leftovers
+|-damage|p1a: Haxorus|41/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1743783895
+|move|p1a: Haxorus|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|8/100
+|move|p2a: Garganacl|Salt Cure|p1a: Haxorus
+|-damage|p1a: Haxorus|24/100
+|
+|-heal|p2a: Garganacl|14/100|[from] item: Leftovers
+|-damage|p1a: Haxorus|11/100|[from] Salt Cure
+|upkeep
+|turn|16
+|
+|t:|1743783903
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Haxorus|Earthquake|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-heal|p2a: Garganacl|21/100|[from] item: Leftovers
+|-damage|p1a: Haxorus|0 fnt|[from] Salt Cure
+|faint|p1a: Haxorus
+|upkeep
+|
+|t:|1743783912
+|switch|p1a: Weavile|Weavile, M|100/100
+|-damage|p1a: Weavile|84/100|[from] Spikes
+|-ability|p1a: Weavile|Pressure
+|turn|17
+|
+|t:|1743783924
+|move|p1a: Weavile|Ice Spinner|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|-damage|p1a: Weavile|74/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743783929
+|switch|p2a: Samurott|Samurott-Hisui, F|39/100
+|turn|18
+|
+|t:|1743783931
+|move|p2a: Samurott|Razor Shell|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1743783935
+|switch|p1a: Kilowattrel|Kilowattrel, F|100/100
+|turn|19
+|
+|t:|1743783939
+|move|p2a: Samurott|Razor Shell|p1a: Kilowattrel
+|-damage|p1a: Kilowattrel|12/100
+|-unboost|p1a: Kilowattrel|def|1
+|-ability|p1a: Kilowattrel|Competitive|boost
+|-boost|p1a: Kilowattrel|spa|2
+|move|p1a: Kilowattrel|Thunderbolt|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743783947
+|switch|p2a: Aspamithares|Slowking-Galar, F|100/100
+|turn|20
+|
+|t:|1743783951
+|move|p1a: Kilowattrel|Thunderbolt|p2a: Aspamithares
+|-damage|p2a: Aspamithares|69/100
+|move|p2a: Aspamithares|Psychic Noise|p1a: Kilowattrel
+|-damage|p1a: Kilowattrel|0 fnt
+|faint|p1a: Kilowattrel
+|
+|upkeep
+|
+|t:|1743783958
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|84/100|[from] Spikes
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|21
+|
+|t:|1743783964
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Aspamithares
+|-supereffective|p2a: Aspamithares
+|-damage|p2a: Aspamithares|0 fnt
+|faint|p2a: Aspamithares
+|
+|upkeep
+|
+|t:|1743783967
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|22
+|
+|t:|1743783972
+|move|p2a: Weezing|Will-O-Wisp|p1a: Kingambit
+|-status|p1a: Kingambit|brn
+|move|p1a: Kingambit|Iron Head|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|71/100
+|
+|-heal|p2a: Weezing|77/100|[from] item: Black Sludge
+|-damage|p1a: Kingambit|78/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1743783999
+|move|p2a: Weezing|Strange Steam|p1a: Kingambit
+|-damage|p1a: Kingambit|60/100 brn
+|move|p1a: Kingambit|Iron Head|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|46/100
+|
+|-heal|p2a: Weezing|52/100|[from] item: Black Sludge
+|-damage|p1a: Kingambit|54/100 brn|[from] brn
+|upkeep
+|turn|24
+|inactive|sostewed has 120 seconds left.
+|
+|t:|1743784019
+|move|p2a: Weezing|Pain Split|p1a: Kingambit
+|-sethp|p1a: Kingambit|49/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|59/100|[from] move: Pain Split
+|move|p1a: Kingambit|Iron Head|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|27/100
+|
+|-heal|p2a: Weezing|33/100|[from] item: Black Sludge
+|-damage|p1a: Kingambit|43/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1743784029
+|move|p2a: Weezing|Pain Split|p1a: Kingambit
+|-sethp|p1a: Kingambit|35/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|42/100|[from] move: Pain Split
+|move|p1a: Kingambit|Iron Head|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|12/100
+|
+|-heal|p2a: Weezing|18/100|[from] item: Black Sludge
+|-damage|p1a: Kingambit|28/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1743784038
+|move|p2a: Weezing|Strange Steam|p1a: Kingambit
+|-damage|p1a: Kingambit|11/100 brn
+|move|p1a: Kingambit|Iron Head|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|
+|win|LordBeck01
+|raw|LordBeck01's rating: 1166 &rarr; <strong>1195</strong><br />(+29 for winning)
+|raw|sostewed's rating: 1224 &rarr; <strong>1195</strong><br />(-29 for losing)
+|l|☆LordBeck01
+|player|p1|
+|l|☆sostewed
+|player|p2|

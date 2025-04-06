@@ -1,0 +1,242 @@
+|j|☆wangyuhua
+|j|☆GSSushi
+|t:|1743935652
+|gametype|singles
+|player|p1|wangyuhua|101|1072
+|player|p2|GSSushi|harlequin|1101
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ceruledge, F|
+|poke|p1|Kyurem|
+|poke|p1|Kingambit, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Araquanid, M|
+|poke|p1|Great Tusk|
+|poke|p2|Sableye, M|
+|poke|p2|Breloom, M|
+|poke|p2|Bisharp, M|
+|poke|p2|Yanmega, M|
+|poke|p2|Ribombee, M|
+|poke|p2|Weezing, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by wangyuhua)
+|
+|t:|1743935662
+|start
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|switch|p2a: Weezing|Weezing, F, shiny|100/100
+|turn|1
+|
+|t:|1743935671
+|move|p2a: Weezing|Toxic|p1a: Araquanid
+|-status|p1a: Araquanid|tox
+|move|p1a: Araquanid|Sticky Web|p2a: Weezing
+|-sidestart|p2: GSSushi|move: Sticky Web
+|
+|-damage|p1a: Araquanid|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1743935682
+|switch|p1a: Kingambit|Kingambit, M, shiny|100/100
+|-item|p1a: Kingambit|Air Balloon
+|move|p2a: Weezing|Sludge Bomb|p1a: Kingambit
+|-immune|p1a: Kingambit
+|
+|upkeep
+|turn|3
+|
+|t:|1743935692
+|move|p1a: Kingambit|Iron Head|p2a: Weezing
+|-crit|p2a: Weezing
+|-damage|p2a: Weezing|34/100
+|-damage|p1a: Kingambit|84/100|[from] item: Rocky Helmet|[of] p2a: Weezing
+|cant|p2a: Weezing|flinch
+|
+|upkeep
+|turn|4
+|
+|t:|1743935698
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|-damage|p1a: Kingambit|68/100|[from] item: Rocky Helmet|[of] p2a: Weezing
+|faint|p2a: Weezing
+|
+|upkeep
+|
+|t:|1743935705
+|switch|p2a: Sableye|Sableye, M, shiny|100/100
+|-activate|p2a: Sableye|move: Sticky Web
+|-unboost|p2a: Sableye|spe|1
+|turn|5
+|
+|t:|1743935714
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Araquanid|Araquanid, M|94/100 tox
+|move|p2a: Sableye|Fake Out|p1a: Araquanid
+|-damage|p1a: Araquanid|84/100 tox
+|
+|-damage|p1a: Araquanid|78/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743935724
+|switch|p2a: Bisharp|Bisharp, M, shiny|100/100
+|-activate|p2a: Bisharp|move: Sticky Web
+|-unboost|p2a: Bisharp|spe|1
+|-ability|p2a: Bisharp|Defiant|boost
+|-boost|p2a: Bisharp|atk|2
+|move|p1a: Araquanid|Surf|p2a: Bisharp
+|-damage|p2a: Bisharp|34/100
+|
+|-damage|p1a: Araquanid|65/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743935735
+|move|p2a: Bisharp|Sucker Punch|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1743935741
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|8
+|
+|t:|1743935748
+|move|p2a: Bisharp|Sucker Punch|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|73/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Bisharp
+|-supereffective|p2a: Bisharp
+|-damage|p2a: Bisharp|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Bisharp
+|
+|upkeep
+|
+|t:|1743935760
+|switch|p2a: Breloom|Breloom, M|100/100
+|-activate|p2a: Breloom|move: Sticky Web
+|-unboost|p2a: Breloom|spe|1
+|turn|9
+|
+|t:|1743935768
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|move|p2a: Breloom|Bullet Seed|p1a: Ceruledge
+|-resisted|p1a: Ceruledge
+|-damage|p1a: Ceruledge|86/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|-resisted|p1a: Ceruledge
+|-damage|p1a: Ceruledge|61/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|-resisted|p1a: Ceruledge
+|-damage|p1a: Ceruledge|33/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|-resisted|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|-hitcount|p1: Ceruledge|4
+|
+|upkeep
+|
+|t:|1743935777
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|10
+|
+|t:|1743935791
+|-terastallize|p1a: Kyurem|Fire
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Breloom|Brick Break|p1a: Kyurem
+|-damage|p1a: Kyurem|58/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743935801
+|move|p2a: Breloom|Mach Punch|p1a: Kyurem
+|-damage|p1a: Kyurem|26/100
+|move|p1a: Kyurem|Icicle Spear|p2a: Breloom
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|41/100
+|-supereffective|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|-hitcount|p2: Breloom|2
+|
+|upkeep
+|
+|t:|1743935811
+|switch|p2a: Sableye|Sableye, M, shiny|100/100
+|-activate|p2a: Sableye|move: Sticky Web
+|-unboost|p2a: Sableye|spe|1
+|turn|12
+|
+|t:|1743935818
+|move|p2a: Sableye|Fake Out|p1a: Kyurem
+|-damage|p1a: Kyurem|17/100
+|cant|p1a: Kyurem|flinch
+|
+|upkeep
+|turn|13
+|
+|t:|1743935824
+|move|p1a: Kyurem|Icicle Spear|p2a: Sableye
+|-damage|p2a: Sableye|65/100
+|-crit|p2a: Sableye
+|-damage|p2a: Sableye|13/100
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|-hitcount|p2: Sableye|3
+|
+|upkeep
+|
+|t:|1743935830
+|switch|p2a: Yanmega|Yanmega, M, shiny|100/100
+|turn|14
+|
+|t:|1743935834
+|move|p1a: Kyurem|Icicle Spear|p2a: Yanmega
+|-supereffective|p2a: Yanmega
+|-damage|p2a: Yanmega|51/100
+|-supereffective|p2a: Yanmega
+|-damage|p2a: Yanmega|0 fnt
+|faint|p2a: Yanmega
+|-hitcount|p2: Yanmega|2
+|
+|upkeep
+|-message|GSSushi forfeited.
+|
+|win|wangyuhua
+|raw|wangyuhua's rating: 1072 &rarr; <strong>1104</strong><br />(+32 for winning)
+|raw|GSSushi's rating: 1101 &rarr; <strong>1074</strong><br />(-27 for losing)
+|l|☆GSSushi
+|player|p2|
+|l|☆wangyuhua
+|player|p1|

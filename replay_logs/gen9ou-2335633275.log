@@ -1,0 +1,171 @@
+|j|☆a jellyfish
+|j|☆abGodc
+|t:|1743814867
+|gametype|singles
+|player|p1|a jellyfish|fisherman-gen4|1675
+|player|p2|abGodc|266|1730
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Staraptor, F|
+|poke|p1|Iron Treads|
+|poke|p1|Zamazenta-*|
+|poke|p1|Dragonite, M|
+|poke|p1|Gholdengo|
+|poke|p1|Moltres-Galar|
+|poke|p2|Kyurem|
+|poke|p2|Ting-Lu|
+|poke|p2|Corviknight, M|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Toxapex, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by abGodc)
+|inactive|a jellyfish also wants the timer to be on.
+|inactive|abGodc has 120 seconds left.
+|
+|t:|1743814898
+|start
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Kyotaro|Kyurem, shiny|100/100
+|-ability|p2a: Kyotaro|Pressure
+|turn|1
+|
+|t:|1743814902
+|switch|p1a: Moltres|Moltres-Galar|100/100
+|move|p2a: Kyotaro|Protect||[still]
+|-fail|p2a: Kyotaro
+|
+|upkeep
+|turn|2
+|
+|t:|1743814909
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Kyotaro|Freeze-Dry|p1a: Iron Treads
+|-damage|p1a: Iron Treads|55/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743814914
+|move|p1a: Iron Treads|Knock Off|p2a: Kyotaro
+|-damage|p2a: Kyotaro|79/100
+|-enditem|p2a: Kyotaro|Leftovers|[from] move: Knock Off|[of] p1a: Iron Treads
+|move|p2a: Kyotaro|Earth Power|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743814929
+|switch|p1a: Staraptor|Staraptor, F|100/100
+|turn|4
+|
+|t:|1743814936
+|move|p2a: Kyotaro|Protect|p2a: Kyotaro
+|-singleturn|p2a: Kyotaro|Protect
+|move|p1a: Staraptor|Close Combat|p2a: Kyotaro
+|-activate|p2a: Kyotaro|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1743814945
+|move|p1a: Staraptor|Close Combat|p2a: Kyotaro
+|-supereffective|p2a: Kyotaro
+|-damage|p2a: Kyotaro|4/100
+|-unboost|p1a: Staraptor|def|1
+|-unboost|p1a: Staraptor|spd|1
+|move|p2a: Kyotaro|Freeze-Dry|p1a: Staraptor
+|-supereffective|p1a: Staraptor
+|-damage|p1a: Staraptor|0 fnt
+|faint|p1a: Staraptor
+|
+|upkeep
+|
+|t:|1743814950
+|switch|p1a: Moltres|Moltres-Galar|100/100
+|turn|6
+|
+|t:|1743814973
+|move|p2a: Kyotaro|Freeze-Dry|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|42/100
+|-ability|p1a: Moltres|Berserk|boost
+|-boost|p1a: Moltres|spa|1
+|move|p1a: Moltres|Fiery Wrath|p2a: Kyotaro
+|-damage|p2a: Kyotaro|0 fnt
+|faint|p2a: Kyotaro
+|
+|-heal|p1a: Moltres|48/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743814977
+|switch|p2a: Trojan|Zamazenta, shiny|100/100
+|-ability|p2a: Trojan|Dauntless Shield|boost
+|-boost|p2a: Trojan|def|1
+|turn|7
+|
+|t:|1743814981
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Trojan|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|34/100
+|
+|-heal|p1a: Gholdengo|40/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743814989
+|switch|p2a: Serpentine|Toxapex, M, shiny|100/100
+|-terastallize|p1a: Gholdengo|Fairy
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|-heal|p1a: Gholdengo|47/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743814994
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|97/100
+|move|p2a: Serpentine|Sludge Bomb|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|39/100
+|
+|-heal|p1a: Gholdengo|45/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743815002
+|move|p1a: Gholdengo|Shadow Ball|p2a: Serpentine
+|-crit|p2a: Serpentine
+|-damage|p2a: Serpentine|35/100
+|move|p2a: Serpentine|Sludge Bomb|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|-message|a jellyfish forfeited.
+|
+|win|abGodc
+|raw|a jellyfish's rating: 1675 &rarr; <strong>1658</strong><br />(-17 for losing)
+|raw|abGodc's rating: 1730 &rarr; <strong>1747</strong><br />(+17 for winning)
+|l|☆a jellyfish
+|player|p1|

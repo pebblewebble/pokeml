@@ -1,0 +1,290 @@
+|j|☆monfernep
+|j|☆letoto_csm
+|t:|1743935712
+|gametype|singles
+|player|p1|monfernep|riley|1218
+|player|p2|letoto_csm|alder|1173
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cobalion|
+|poke|p1|Terrakion|
+|poke|p1|Virizion|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Iron Boulder|
+|poke|p1|Donphan, F|
+|poke|p2|Blaziken, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Great Tusk|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Enamorus, F|
+|teampreview
+|
+|t:|1743935725
+|start
+|switch|p1a: JUSTICE!!|Cobalion|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|1
+|
+|t:|1743935740
+|switch|p1a: JUSTICE!¡! ¡! ¡|Virizion|100/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: JUSTICE!¡! ¡! ¡
+|-resisted|p1a: JUSTICE!¡! ¡! ¡
+|-damage|p1a: JUSTICE!¡! ¡! ¡|63/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743935757
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Blaziken|Blaziken, F|100/100
+|move|p1a: JUSTICE!¡! ¡! ¡|Giga Drain|p2a: Blaziken
+|-resisted|p2a: Blaziken
+|-damage|p2a: Blaziken|71/100
+|-heal|p1a: JUSTICE!¡! ¡! ¡|77/100|[from] drain|[of] p2a: Blaziken
+|-damage|p1a: JUSTICE!¡! ¡! ¡|67/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1743935769
+|move|p1a: JUSTICE!¡! ¡! ¡|Taunt|p2a: Blaziken
+|-start|p2a: Blaziken|move: Taunt
+|move|p2a: Blaziken|Knock Off|p1a: JUSTICE!¡! ¡! ¡
+|-resisted|p1a: JUSTICE!¡! ¡! ¡
+|-damage|p1a: JUSTICE!¡! ¡! ¡|37/100
+|-ability|p1a: JUSTICE!¡! ¡! ¡|Justified|boost
+|-boost|p1a: JUSTICE!¡! ¡! ¡|atk|1
+|-enditem|p1a: JUSTICE!¡! ¡! ¡|Life Orb|[from] move: Knock Off|[of] p2a: Blaziken
+|-damage|p2a: Blaziken|61/100|[from] item: Life Orb
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|4
+|
+|t:|1743935781
+|-terastallize|p1a: JUSTICE!¡! ¡! ¡|Rock
+|move|p2a: Blaziken|Close Combat|p1a: JUSTICE!¡! ¡! ¡
+|-supereffective|p1a: JUSTICE!¡! ¡! ¡
+|-damage|p1a: JUSTICE!¡! ¡! ¡|0 fnt
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|faint|p1a: JUSTICE!¡! ¡! ¡
+|-damage|p2a: Blaziken|51/100|[from] item: Life Orb
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743935798
+|switch|p1a: Justice.|Donphan, F|100/100
+|turn|5
+|
+|t:|1743935803
+|move|p2a: Blaziken|Knock Off|p1a: Justice.
+|-damage|p1a: Justice.|73/100
+|-enditem|p1a: Justice.|Assault Vest|[from] move: Knock Off|[of] p2a: Blaziken
+|-damage|p2a: Blaziken|41/100|[from] item: Life Orb
+|move|p1a: Justice.|Earthquake|p2a: Blaziken
+|-supereffective|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|
+|upkeep
+|
+|t:|1743935813
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|6
+|
+|t:|1743935823
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Justice.|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Justice.
+|-damage|p1a: Justice.|0 fnt
+|faint|p1a: Justice.
+|
+|upkeep
+|
+|t:|1743935829
+|switch|p1a: JUSTICE!!|Cobalion|100/100
+|turn|7
+|
+|t:|1743935841
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: JUSTICE!!|Thunder Wave|p2a: Enamorus
+|-status|p2a: Enamorus|par
+|
+|upkeep
+|turn|8
+|
+|t:|1743935860
+|switch|p1a: Justice???|Iron Boulder|100/100
+|-enditem|p1a: Justice???|Booster Energy
+|-activate|p1a: Justice???|ability: Quark Drive|[fromitem]
+|-start|p1a: Justice???|quarkdrivespe
+|move|p2a: Enamorus|Earth Power|p1a: Justice???
+|-supereffective|p1a: Justice???
+|-damage|p1a: Justice???|41/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743935870
+|move|p1a: Justice???|Mighty Cleave|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|upkeep
+|
+|t:|1743935882
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|10
+|
+|t:|1743935888
+|move|p1a: Justice???|Psycho Cut|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|60/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Justice???
+|-supereffective|p1a: Justice???
+|-damage|p1a: Justice???|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Justice???
+|-end|p1a: Justice???|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743935894
+|switch|p1a: JUSTICE!!!!|Keldeo-Resolute|100/100
+|turn|11
+|
+|t:|1743935902
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: JUSTICE!!!!|Hydro Pump|p2a: Ogerpon
+|-immune|p2a: Ogerpon|[from] ability: Water Absorb
+|
+|upkeep
+|turn|12
+|
+|t:|1743935914
+|switch|p1a: JUSTICE!!!|Terrakion|100/100
+|move|p2a: Ogerpon|Play Rough|p1a: JUSTICE!!!
+|-supereffective|p1a: JUSTICE!!!
+|-damage|p1a: JUSTICE!!!|13/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743935923
+|move|p2a: Ogerpon|Knock Off|p1a: JUSTICE!!!
+|-resisted|p1a: JUSTICE!!!
+|-damage|p1a: JUSTICE!!!|0 fnt
+|-enditem|p1a: JUSTICE!!!|Expert Belt|[from] move: Knock Off|[of] p2a: Ogerpon
+|faint|p1a: JUSTICE!!!
+|
+|upkeep
+|
+|t:|1743935926
+|switch|p1a: JUSTICE!!|Cobalion|100/100
+|turn|14
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by monfernep)
+|
+|t:|1743935938
+|move|p2a: Ogerpon|Play Rough|p1a: JUSTICE!!
+|-damage|p1a: JUSTICE!!|74/100
+|-damage|p2a: Ogerpon|84/100|[from] item: Rocky Helmet|[of] p1a: JUSTICE!!
+|move|p1a: JUSTICE!!|Iron Defense|p1a: JUSTICE!!
+|-boost|p1a: JUSTICE!!|def|2
+|
+|upkeep
+|turn|15
+|
+|t:|1743935946
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: JUSTICE!!|Body Press|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|upkeep
+|turn|16
+|
+|t:|1743935958
+|-terastallize|p2a: Dragapult|Dragon
+|move|p2a: Dragapult|Draco Meteor|p1a: JUSTICE!!
+|-resisted|p1a: JUSTICE!!
+|-damage|p1a: JUSTICE!!|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: JUSTICE!!
+|
+|upkeep
+|
+|t:|1743935963
+|switch|p1a: JUSTICE!!!!|Keldeo-Resolute|100/100
+|turn|17
+|
+|t:|1743935969
+|move|p2a: Dragapult|Draco Meteor|p1a: JUSTICE!!!!
+|-damage|p1a: JUSTICE!!!!|35/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: JUSTICE!!!!|Calm Mind|p1a: JUSTICE!!!!
+|-boost|p1a: JUSTICE!!!!|spa|1
+|-boost|p1a: JUSTICE!!!!|spd|1
+|
+|upkeep
+|turn|18
+|
+|t:|1743935978
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|84/100
+|move|p1a: JUSTICE!!!!|Secret Sword|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743935986
+|switch|p2a: Great Tusk|Great Tusk|60/100
+|turn|19
+|
+|t:|1743935993
+|move|p1a: JUSTICE!!!!|Hydro Pump|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743935998
+|switch|p2a: Dragapult|Dragapult, F, tera:Dragon|100/100
+|turn|20
+|
+|t:|1743936002
+|move|p2a: Dragapult|Draco Meteor|p1a: JUSTICE!!!!
+|-damage|p1a: JUSTICE!!!!|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: JUSTICE!!!!
+|
+|win|letoto_csm
+|raw|monfernep's rating: 1218 &rarr; <strong>1190</strong><br />(-28 for losing)
+|raw|letoto_csm's rating: 1173 &rarr; <strong>1201</strong><br />(+28 for winning)
+|l|☆letoto_csm
+|player|p2|
+|l|☆monfernep
+|player|p1|

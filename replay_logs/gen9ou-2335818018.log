@@ -1,0 +1,310 @@
+|j|☆bnk1801
+|j|☆gaasss
+|t:|1743842065
+|gametype|singles
+|player|p1|bnk1801|acetrainer|1265
+|player|p2|gaasss|nate|1249
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Ursaluna, F|
+|poke|p1|Indeedee-F, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Torkoal, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Garganacl, F|
+|poke|p2|Ninetales-Alola, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Cinderace, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bnk1801)
+|
+|t:|1743842076
+|start
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1743842082
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: gaasss|move: Aurora Veil
+|move|p1a: Slowking|Sludge Wave|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|56/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743842088
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743842095
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|
+|t:|1743842096
+|switch|p1a: Ursaluna|Ursaluna, F|100/100|[from] Chilly Reception
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1743842108
+|move|p2a: Kingambit|Sucker Punch|p1a: Ursaluna
+|-damage|p1a: Ursaluna|39/100 brn
+|move|p1a: Ursaluna|Headlong Rush|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|22/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Ursaluna|33/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743842134
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1743842148
+|move|p1a: Hatterene|Mystical Fire|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|1/100
+|-unboost|p2a: Kingambit|spa|1
+|-ability|p2a: Kingambit|Defiant|boost
+|-boost|p2a: Kingambit|atk|2
+|move|p2a: Kingambit|Iron Head|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743842163
+|switch|p1a: Indeedee|Indeedee-F, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|7
+|
+|t:|1743842171
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|turn|8
+|
+|t:|1743842181
+|switch|p1a: Ursaluna|Ursaluna, F|33/100 brn
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-damage|p1a: Ursaluna|27/100 brn|[from] brn
+|-sideend|p2: gaasss|move: Aurora Veil
+|upkeep
+|turn|9
+|
+|t:|1743842189
+|move|p2a: Kingambit|Sucker Punch|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Psychic Terrain
+|move|p1a: Ursaluna|Facade|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|
+|-damage|p1a: Ursaluna|21/100 brn|[from] brn
+|upkeep
+|
+|t:|1743842206
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|turn|10
+|
+|t:|1743842211
+|-terastallize|p2a: Garganacl|Ghost
+|move|p1a: Ursaluna|Headlong Rush|p2a: Garganacl
+|-damage|p2a: Garganacl|22/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|move|p2a: Garganacl|Salt Cure|p1a: Ursaluna
+|-resisted|p1a: Ursaluna
+|-damage|p1a: Ursaluna|14/100 brn
+|-start|p1a: Ursaluna|Salt Cure
+|
+|-heal|p2a: Garganacl|28/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|8/100 brn|[from] brn
+|-damage|p1a: Ursaluna|0 fnt|[from] Salt Cure
+|faint|p1a: Ursaluna
+|upkeep
+|
+|t:|1743842224
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|11
+|
+|t:|1743842230
+|move|p1a: Torkoal|Eruption|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1743842237
+|switch|p2a: Ninetales|Ninetales-Alola, M|56/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|12
+|
+|t:|1743842241
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: gaasss|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743842251
+|move|p2a: Ninetales|Freeze-Dry|p1a: Slowking
+|-damage|p1a: Slowking|83/100
+|move|p1a: Slowking|Trick Room|p1a: Slowking
+|-fieldstart|move: Trick Room|[of] p1a: Slowking
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743842261
+|move|p1a: Slowking|Sludge Wave|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|17/100
+|move|p2a: Ninetales|Ice Beam|p1a: Slowking
+|-damage|p1a: Slowking|61/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743842279
+|move|p1a: Slowking|Sludge Wave|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743842289
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|16
+|
+|t:|1743842300
+|move|p1a: Slowking|Sludge Wave|p2a: Cinderace
+|-damage|p2a: Cinderace|77/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Slowking
+|-damage|p1a: Slowking|6/100
+|
+|-weather|none
+|upkeep
+|turn|17
+|
+|t:|1743842310
+|move|p1a: Slowking|Sludge Wave|p2a: Cinderace
+|-damage|p2a: Cinderace|50/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Slowking|[miss]
+|-miss|p2a: Cinderace|p1a: Slowking
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|18
+|
+|t:|1743842319
+|move|p2a: Cinderace|Pyro Ball|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1743842321
+|switch|p1a: Indeedee|Indeedee-F, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|19
+|
+|t:|1743842335
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-sideend|p2: gaasss|move: Aurora Veil
+|upkeep
+|turn|20
+|
+|t:|1743842341
+|move|p1a: Indeedee|Psychic|p2a: Ogerpon
+|-damage|p2a: Ogerpon|57/100
+|-unboost|p2a: Ogerpon|spd|1
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|upkeep
+|turn|21
+|
+|t:|1743842349
+|move|p1a: Indeedee|Psychic|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743842353
+|switch|p2a: Cinderace|Cinderace, F|50/100
+|turn|22
+|
+|t:|1743842357
+|move|p1a: Indeedee|Psychic|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|-message|gaasss forfeited.
+|
+|win|bnk1801
+|raw|bnk1801's rating: 1265 &rarr; <strong>1289</strong><br />(+24 for winning)
+|raw|gaasss's rating: 1249 &rarr; <strong>1225</strong><br />(-24 for losing)
+|l|☆gaasss
+|player|p2|
+|l|☆bnk1801
+|player|p1|

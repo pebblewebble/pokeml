@@ -1,0 +1,268 @@
+|j|☆tehei
+|j|☆TwistedWinds
+|t:|1743814269
+|gametype|singles
+|player|p1|tehei|170|1428
+|player|p2|TwistedWinds|cyclist|1387
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Moth|
+|poke|p1|Kingambit, M|
+|poke|p1|Dragonite, M|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Raging Bolt|
+|poke|p2|Hatterene, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Porygon2|
+|poke|p2|Hoopa-Unbound|
+|teampreview
+|
+|t:|1743814279
+|start
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tehei)
+|
+|t:|1743814292
+|move|p1a: Ogerpon|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|61/100
+|-enditem|p2a: Hatterene|Focus Sash|[from] move: Knock Off|[of] p1a: Ogerpon
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1743814302
+|move|p2a: Hatterene|Misty Explosion|p1a: Ogerpon
+|-damage|p1a: Ogerpon|30/100
+|faint|p2a: Hatterene
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|upkeep
+|
+|t:|1743814306
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|turn|3
+|
+|t:|1743814309
+|move|p2a: Crawdaunt|Knock Off|p1a: Ogerpon
+|-crit|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|-damage|p2a: Crawdaunt|90/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743814317
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|4
+|
+|t:|1743814327
+|move|p2a: Crawdaunt|Crabhammer|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|-damage|p2a: Crawdaunt|80/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743814339
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|5
+|
+|t:|1743814348
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-fieldend|move: Trick Room
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1743814355
+|-terastallize|p1a: Raging Bolt|Ghost
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Ursaluna
+|-damage|p2a: Ursaluna|10/100 brn
+|move|p2a: Ursaluna|Headlong Rush|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|1/100
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|
+|-damage|p2a: Ursaluna|4/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743814367
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1743814369
+|switch|p2a: Crawdaunt|Crawdaunt, M|80/100
+|turn|8
+|
+|t:|1743814375
+|move|p1a: Raging Bolt|Thunderclap|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|upkeep
+|
+|t:|1743814389
+|switch|p2a: Porygon2|Porygon2, shiny|100/100
+|turn|9
+|
+|t:|1743814395
+|move|p1a: Raging Bolt|Thunderclap|p2a: Porygon2
+|-damage|p2a: Porygon2|58/100
+|move|p2a: Porygon2|Ice Beam|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743814402
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|10
+|
+|t:|1743814405
+|move|p1a: Iron Moth|Fiery Dance|p2a: Porygon2
+|-damage|p2a: Porygon2|36/100
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|upkeep
+|turn|11
+|
+|t:|1743814411
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-enditem|p2a: Hoopa|Room Service
+|-unboost|p2a: Hoopa|spe|1|[from] item: Room Service
+|move|p1a: Iron Moth|Fiery Dance|p2a: Hoopa
+|-damage|p2a: Hoopa|72/100
+|-boost|p1a: Iron Moth|spa|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743814435
+|move|p2a: Hoopa|Psyshock|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743814444
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|13
+|
+|t:|1743814461
+|move|p2a: Hoopa|Dark Pulse|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|57/100
+|-item|p2a: Hoopa|Heavy-Duty Boots|[from] ability: Magician|[of] p1a: Dragonite
+|move|p1a: Dragonite|Earthquake|p2a: Hoopa
+|-damage|p2a: Hoopa|13/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743814469
+|move|p1a: Dragonite|Extreme Speed|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743814476
+|switch|p2a: Porygon2|Porygon2, shiny|36/100
+|-ability|p2a: Porygon2|Multiscale|[from] ability: Trace|[of] p1a: Dragonite
+|turn|15
+|
+|t:|1743814487
+|move|p1a: Dragonite|Extreme Speed|p2a: Porygon2
+|-damage|p2a: Porygon2|18/100
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|68/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743814493
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|move|p2a: Porygon2|Ice Beam|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|89/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743814503
+|-terastallize|p2a: Porygon2|Fighting
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Porygon2
+|-resisted|p2a: Porygon2
+|-damage|p2a: Porygon2|47/100
+|move|p2a: Porygon2|Tera Blast|p1a: Kingambit|[anim] Tera Blast Fighting
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|
+|t:|1743814512
+|switch|p1a: Dragonite|Dragonite, M|57/100
+|turn|18
+|
+|t:|1743814520
+|move|p1a: Dragonite|Extreme Speed|p2a: Porygon2
+|-damage|p2a: Porygon2|26/100
+|move|p2a: Porygon2|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|TwistedWinds
+|raw|tehei's rating: 1428 &rarr; <strong>1406</strong><br />(-22 for losing)
+|raw|TwistedWinds's rating: 1387 &rarr; <strong>1409</strong><br />(+22 for winning)
+|l|☆tehei
+|player|p1|
+|l|☆TwistedWinds
+|player|p2|

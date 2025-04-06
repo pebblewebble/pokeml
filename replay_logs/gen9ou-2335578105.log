@@ -1,0 +1,283 @@
+|j|☆WarioLandIV
+|j|☆ian_yo
+|t:|1743808317
+|gametype|singles
+|player|p1|WarioLandIV|petrel|1405
+|player|p2|ian_yo|skier|1506
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Iron Treads|
+|poke|p1|Floatzel, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Walking Wake|
+|poke|p1|Raging Bolt|
+|poke|p2|Torkoal, M|
+|poke|p2|Klefki, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Rabsca, M|
+|poke|p2|Toedscruel, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ian_yo)
+|c|☆WarioLandIV|gl hf
+|
+|t:|1743808328
+|start
+|switch|p1a: scrumbingo|Walking Wake|100/100
+|switch|p2a: Klefki|Klefki, M|100/100
+|turn|1
+|
+|t:|1743808333
+|-end|p1a: scrumbingo|Protosynthesis|[silent]
+|switch|p1a: TheWeatherUpThere|Raging Bolt|100/100
+|-enditem|p1a: TheWeatherUpThere|Booster Energy
+|-activate|p1a: TheWeatherUpThere|ability: Protosynthesis|[fromitem]
+|-start|p1a: TheWeatherUpThere|protosynthesisspa
+|move|p2a: Klefki|Trick Room|p2a: Klefki
+|-fieldstart|move: Trick Room|[of] p2a: Klefki
+|
+|upkeep
+|turn|2
+|
+|t:|1743808342
+|move|p2a: Klefki|Spikes|p1a: TheWeatherUpThere
+|-sidestart|p1: WarioLandIV|Spikes
+|move|p1a: TheWeatherUpThere|Thunderclap||[still]
+|-fail|p1a: TheWeatherUpThere
+|
+|upkeep
+|turn|3
+|
+|t:|1743808344
+|move|p2a: Klefki|Calm Mind|p2a: Klefki
+|-boost|p2a: Klefki|spa|1
+|-boost|p2a: Klefki|spd|1
+|move|p1a: TheWeatherUpThere|Taunt|p2a: Klefki
+|-start|p2a: Klefki|move: Taunt
+|
+|upkeep
+|turn|4
+|
+|t:|1743808346
+|move|p1a: TheWeatherUpThere|Thunderclap|p2a: Klefki
+|-damage|p2a: Klefki|58/100
+|move|p2a: Klefki|Steel Beam|p1a: TheWeatherUpThere
+|-resisted|p1a: TheWeatherUpThere
+|-damage|p1a: TheWeatherUpThere|58/100
+|-damage|p2a: Klefki|8/100|[from] steelbeam
+|
+|upkeep
+|turn|5
+|
+|t:|1743808348
+|move|p1a: TheWeatherUpThere|Thunderclap|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|faint|p2a: Klefki
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743808355
+|switch|p2a: Toedscruel|Toedscruel, F|100/100
+|turn|6
+|
+|t:|1743808359
+|move|p1a: TheWeatherUpThere|Dragon Pulse|p2a: Toedscruel
+|-damage|p2a: Toedscruel|45/100
+|move|p2a: Toedscruel|Trick Room|p2a: Toedscruel
+|-fieldstart|move: Trick Room|[of] p2a: Toedscruel
+|
+|upkeep
+|turn|7
+|
+|t:|1743808364
+|move|p2a: Toedscruel|Leaf Storm|p1a: TheWeatherUpThere
+|-resisted|p1a: TheWeatherUpThere
+|-damage|p1a: TheWeatherUpThere|39/100
+|-unboost|p2a: Toedscruel|spa|2
+|-enditem|p2a: Toedscruel|Eject Pack
+|
+|t:|1743808368
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: TheWeatherUpThere|Dragon Pulse|p2a: Torkoal
+|-damage|p2a: Torkoal|7/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743808372
+|switch|p2a: Cresselia|Cresselia, F|100/100
+|move|p1a: TheWeatherUpThere|Thunderclap||[still]
+|-fail|p1a: TheWeatherUpThere
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743808374
+|move|p2a: Cresselia|Moonblast|p1a: TheWeatherUpThere
+|-supereffective|p1a: TheWeatherUpThere
+|-damage|p1a: TheWeatherUpThere|7/100
+|move|p1a: TheWeatherUpThere|Weather Ball|p2a: Cresselia
+|-damage|p2a: Cresselia|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743808377
+|move|p1a: TheWeatherUpThere|Thunderclap|p2a: Cresselia
+|-damage|p2a: Cresselia|35/100
+|move|p2a: Cresselia|Moonblast|p1a: TheWeatherUpThere
+|-supereffective|p1a: TheWeatherUpThere
+|-damage|p1a: TheWeatherUpThere|0 fnt
+|faint|p1a: TheWeatherUpThere
+|-end|p1a: TheWeatherUpThere|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743808382
+|switch|p1a: Limp Bizkit|Iron Treads|100/100
+|-damage|p1a: Limp Bizkit|88/100|[from] Spikes
+|turn|11
+|
+|t:|1743808384
+|move|p1a: Limp Bizkit|Rapid Spin|p2a: Cresselia
+|-damage|p2a: Cresselia|24/100
+|-boost|p1a: Limp Bizkit|spe|1
+|-sideend|p1: WarioLandIV|Spikes|[from] move: Rapid Spin|[of] p1a: Limp Bizkit
+|move|p2a: Cresselia|Trick Room|p2a: Cresselia
+|-fieldstart|move: Trick Room|[of] p2a: Cresselia
+|
+|-weather|none
+|-heal|p1a: Limp Bizkit|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743808391
+|move|p2a: Cresselia|Lunar Dance|p2a: Cresselia
+|faint|p2a: Cresselia
+|move|p1a: Limp Bizkit|Earthquake|p2: Cresselia|[notarget]
+|-fail|p1a: Limp Bizkit
+|
+|-heal|p1a: Limp Bizkit|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743808393
+|switch|p2a: Torkoal|Torkoal, M|7/100
+|-heal|p2a: Torkoal|100/100|[from] move: Lunar Dance
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|13
+|
+|t:|1743808399
+|-end|p1a: Limp Bizkit|Quark Drive|[silent]
+|switch|p1a: scrumbingo|Walking Wake|100/100
+|-activate|p1a: scrumbingo|ability: Protosynthesis
+|-start|p1a: scrumbingo|protosynthesisspe
+|-terastallize|p2a: Torkoal|Fire
+|move|p2a: Torkoal|Eruption|p1a: scrumbingo
+|-resisted|p1a: scrumbingo
+|-damage|p1a: scrumbingo|43/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743808418
+|-end|p1a: scrumbingo|Protosynthesis|[silent]
+|switch|p1a: ItsRainingMen|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: ItsRainingMen
+|move|p2a: Torkoal|Eruption|p1a: ItsRainingMen
+|-resisted|p1a: ItsRainingMen
+|-damage|p1a: ItsRainingMen|45/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743808422
+|move|p2a: Torkoal|Eruption|p1a: ItsRainingMen
+|-resisted|p1a: ItsRainingMen
+|-damage|p1a: ItsRainingMen|0 fnt
+|faint|p1a: ItsRainingMen
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743808425
+|switch|p1a: The Juice|Floatzel, M|100/100
+|turn|16
+|
+|t:|1743808428
+|switch|p2a: Toedscruel|Toedscruel, F|45/100
+|-terastallize|p1a: The Juice|Water
+|move|p1a: The Juice|Waterfall|p2a: Toedscruel
+|-damage|p2a: Toedscruel|0 fnt
+|faint|p2a: Toedscruel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743808430
+|switch|p2a: Rabsca|Rabsca, M|100/100
+|turn|17
+|
+|t:|1743808431
+|move|p1a: The Juice|Waterfall|p2a: Rabsca
+|-damage|p2a: Rabsca|15/100
+|move|p2a: Rabsca|Trick Room|p2a: Rabsca
+|-fieldstart|move: Trick Room|[of] p2a: Rabsca
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743808435
+|move|p2a: Rabsca|Revival Blessing|p2a: Rabsca
+|
+|t:|1743808440
+|-heal|p2: Cresselia|50/100|[from] move: Revival Blessing
+|move|p1a: The Juice|Waterfall|p2a: Rabsca
+|-damage|p2a: Rabsca|0 fnt
+|faint|p2a: Rabsca
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743808442
+|switch|p2a: Torkoal|Torkoal, M, tera:Fire|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|19
+|
+|t:|1743808446
+|move|p2a: Torkoal|Eruption|p1a: The Juice
+|-resisted|p1a: The Juice
+|-damage|p1a: The Juice|0 fnt
+|faint|p1a: The Juice
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|WarioLandIV forfeited.
+|
+|win|ian_yo
+|raw|WarioLandIV's rating: 1405 &rarr; <strong>1388</strong><br />(-17 for losing)
+|raw|ian_yo's rating: 1465 &rarr; <strong>1482</strong><br />(+17 for winning)
+|l|☆WarioLandIV
+|player|p1|

@@ -1,0 +1,501 @@
+|j|☆Diarreia Mortal
+|j|☆bigene
+|t:|1743901078
+|gametype|singles
+|player|p1|Diarreia Mortal|fisherman-gen4|1180
+|player|p2|bigene|102|1209
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Toxtricity, M|
+|poke|p1|Mew|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Bruxish, F|
+|poke|p1|Toucannon, F|
+|poke|p1|Ditto|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Crown|
+|poke|p2|Dondozo, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Greninja-*, M|
+|poke|p2|Tyranitar, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bigene)
+|
+|t:|1743901102
+|start
+|switch|p1a: Toxtricity|Toxtricity, M|100/100
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespa
+|turn|1
+|
+|t:|1743901120
+|move|p2a: Iron Crown|Volt Switch|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|79/100
+|
+|t:|1743901132
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Tyranitar|Tyranitar, F|100/100|[from] Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Toxtricity|Volt Switch|p2a: Tyranitar
+|-damage|p2a: Tyranitar|80/100
+|
+|t:|1743901148
+|switch|p1a: Bruxish|Bruxish, F|100/100|[from] Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bruxish|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|inactive|bigene has 120 seconds left.
+|
+|t:|1743901175
+|switch|p2a: Greninja|Greninja, M|100/100
+|move|p1a: Bruxish|Flip Turn|p2a: Greninja
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|65/100
+|
+|t:|1743901191
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100|[from] Flip Turn
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743901198
+|move|p2a: Greninja|U-turn|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|94/100
+|
+|t:|1743901205
+|switch|p2a: Iron Crown|Iron Crown|100/100|[from] U-turn
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Diarreia Mortal|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743901224
+|switch|p1a: Toxtricity|Toxtricity, M|79/100
+|move|p2a: Iron Crown|Calm Mind|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spa|1
+|-boost|p2a: Iron Crown|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743901234
+|move|p2a: Iron Crown|Calm Mind|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spa|1
+|-boost|p2a: Iron Crown|spd|1
+|move|p1a: Toxtricity|Volt Switch|p2a: Iron Crown
+|-damage|p2a: Iron Crown|78/100
+|
+|t:|1743901250
+|switch|p1a: Ditto|Ditto|100/100|[from] Volt Switch
+|-transform|p1a: Ditto|p2a: Iron Crown|[from] ability: Imposter
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743901269
+|move|p1a: Ditto|Tachyon Cutter|p2a: Iron Crown
+|-resisted|p2a: Iron Crown
+|-damage|p2a: Iron Crown|66/100
+|-resisted|p2a: Iron Crown
+|-damage|p2a: Iron Crown|54/100
+|-hitcount|p2a: Iron Crown|2
+|move|p2a: Iron Crown|Volt Switch|p1a: Ditto
+|-damage|p1a: Ditto|88/100
+|
+|t:|1743901293
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from] Volt Switch
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1743901301
+|move|p1a: Ditto|Tachyon Cutter|p2a: Dragapult
+|-damage|p2a: Dragapult|28/100
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|-hitcount|p2: Dragapult|2
+|
+|upkeep
+|
+|t:|1743901310
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|8
+|
+|t:|1743901320
+|-end|p1a: Ditto|Quark Drive|[silent]
+|switch|p1a: Toxtricity|Toxtricity, M|79/100
+|move|p2a: Gholdengo|Thunder Wave|p1a: Toxtricity
+|-immune|p1a: Toxtricity
+|
+|upkeep
+|turn|9
+|
+|t:|1743901331
+|move|p2a: Gholdengo|Hex|p1a: Toxtricity
+|-damage|p1a: Toxtricity|59/100
+|move|p1a: Toxtricity|Volt Switch|p2a: Gholdengo
+|-damage|p2a: Gholdengo|50/100
+|
+|t:|1743901337
+|switch|p1a: Ditto|Ditto|88/100|[from] Volt Switch
+|-transform|p1a: Ditto|p2a: Gholdengo|[from] ability: Imposter
+|
+|-heal|p2a: Gholdengo|56/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743901353
+|move|p1a: Ditto|Hex|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|3/100
+|move|p2a: Gholdengo|Hex|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|50/100
+|
+|-heal|p2a: Gholdengo|9/100|[from] item: Leftovers
+|-sideend|p1: Diarreia Mortal|move: Aurora Veil
+|upkeep
+|turn|11
+|
+|t:|1743901361
+|move|p1a: Ditto|Hex|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743901366
+|switch|p2a: Greninja|Greninja, M|65/100
+|turn|12
+|
+|t:|1743901373
+|switch|p1a: Ninetales|Ninetales-Alola, F|94/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Greninja|Dark Pulse|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|73/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743901385
+|move|p2a: Greninja|Water Shuriken|p1a: Ninetales
+|-damage|p1a: Ninetales|65/100
+|-damage|p1a: Ninetales|56/100
+|-damage|p1a: Ninetales|47/100
+|-damage|p1a: Ninetales|38/100
+|-hitcount|p1a: Ninetales|4
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Diarreia Mortal|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743901394
+|move|p2a: Greninja|U-turn|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|35/100
+|
+|t:|1743901398
+|switch|p2a: Tyranitar|Tyranitar, F|80/100|[from] U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Ninetales|Draining Kiss|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|65/100
+|-heal|p1a: Ninetales|51/100|[from] drain|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninetales|45/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1743901413
+|move|p1a: Ninetales|Chilling Water|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|56/100
+|-unboost|p2a: Tyranitar|atk|1
+|move|p2a: Tyranitar|Stone Edge|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743901426
+|switch|p1a: Mew|Mew|100/100
+|turn|16
+|
+|t:|1743901432
+|switch|p2a: Iron Crown|Iron Crown|54/100
+|move|p1a: Mew|Dragon Dance|p1a: Mew
+|-boost|p1a: Mew|atk|1
+|-boost|p1a: Mew|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|94/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|t:|1743901444
+|move|p1a: Mew|Earthquake|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743901452
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|turn|18
+|
+|t:|1743901461
+|switch|p1a: Toxtricity|Toxtricity, M|59/100
+|move|p2a: Dondozo|Liquidation|p1a: Toxtricity
+|-damage|p1a: Toxtricity|39/100
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|t:|1743901468
+|switch|p2a: Tyranitar|Tyranitar, F|56/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Toxtricity|Volt Switch|p2a: Tyranitar
+|-damage|p2a: Tyranitar|34/100
+|
+|t:|1743901488
+|switch|p1a: Toucannon|Toucannon, F|100/100|[from] Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toucannon|94/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|t:|1743901498
+|-singleturn|p1a: Toucannon|move: Beak Blast
+|move|p2a: Tyranitar|Stone Edge|p1a: Toucannon
+|-supereffective|p1a: Toucannon
+|-damage|p1a: Toucannon|19/100
+|move|p1a: Toucannon|Beak Blast|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|2/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toucannon|13/100|[from] Sandstorm
+|-sideend|p1: Diarreia Mortal|move: Aurora Veil
+|upkeep
+|turn|21
+|
+|t:|1743901508
+|-singleturn|p1a: Toucannon|move: Beak Blast
+|move|p2a: Tyranitar|Stone Edge|p1a: Toucannon
+|-supereffective|p1a: Toucannon
+|-damage|p1a: Toucannon|0 fnt
+|faint|p1a: Toucannon
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743901518
+|switch|p1a: Bruxish|Bruxish, F|94/100
+|turn|22
+|
+|t:|1743901527
+|move|p1a: Bruxish|Flip Turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|t:|1743901531
+|switch|p1a: Toxtricity|Toxtricity, M|39/100|[from] Flip Turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Toxtricity|33/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743901538
+|switch|p2a: Greninja|Greninja, M|65/100
+|turn|23
+|
+|t:|1743901547
+|move|p2a: Greninja|Water Shuriken|p1a: Toxtricity
+|-damage|p1a: Toxtricity|25/100
+|-damage|p1a: Toxtricity|17/100
+|-damage|p1a: Toxtricity|8/100
+|-damage|p1a: Toxtricity|0 fnt
+|faint|p1a: Toxtricity
+|-ability|p2a: Greninja|Battle Bond|boost
+|-boost|p2a: Greninja|atk|1
+|-boost|p2a: Greninja|spa|1
+|-boost|p2a: Greninja|spe|1
+|-activate|p2a: Greninja|ability: Battle Bond
+|-hitcount|p1: Toxtricity|4
+|
+|-weather|none
+|upkeep
+|
+|t:|1743901561
+|switch|p1a: Ditto|Ditto|50/100
+|-transform|p1a: Ditto|p2a: Greninja|[from] ability: Imposter
+|turn|24
+|
+|t:|1743901573
+|move|p1a: Ditto|Dark Pulse|p2a: Greninja
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|23/100
+|cant|p2a: Greninja|flinch
+|
+|upkeep
+|turn|25
+|
+|t:|1743901581
+|move|p1a: Ditto|Dark Pulse|p2a: Greninja
+|-resisted|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|upkeep
+|
+|t:|1743901586
+|switch|p2a: Dondozo|Dondozo, F|100/100
+|turn|26
+|
+|t:|1743901589
+|move|p1a: Ditto|Dark Pulse|p2a: Dondozo
+|-damage|p2a: Dondozo|79/100
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|85/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1743901598
+|switch|p1a: Bruxish|Bruxish, F|94/100
+|move|p2a: Dondozo|Liquidation|p1a: Bruxish
+|-resisted|p1a: Bruxish
+|-damage|p1a: Bruxish|61/100
+|
+|-heal|p2a: Dondozo|91/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1743901614
+|move|p1a: Bruxish|Psychic Fangs|p2a: Dondozo
+|-damage|p2a: Dondozo|60/100
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|66/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1743901624
+|move|p1a: Bruxish|Psychic Fangs|p2a: Dondozo
+|-damage|p2a: Dondozo|43/100
+|move|p2a: Dondozo|Liquidation|p1a: Bruxish
+|-resisted|p1a: Bruxish
+|-damage|p1a: Bruxish|15/100
+|
+|-heal|p2a: Dondozo|49/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1743901632
+|move|p1a: Bruxish|Psychic Fangs|p2a: Dondozo
+|-damage|p2a: Dondozo|25/100
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|31
+|
+|t:|1743901650
+|move|p1a: Bruxish|Psychic Fangs|p2a: Dondozo
+|-damage|p2a: Dondozo|76/100 slp
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Rest||[from] move: Sleep Talk|[still]
+|-fail|p2a: Dondozo
+|
+|-heal|p2a: Dondozo|83/100 slp|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1743901672
+|move|p1a: Bruxish|Psychic Fangs|p2a: Dondozo
+|-damage|p2a: Dondozo|58/100 slp
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Liquidation|p1a: Bruxish|[from] move: Sleep Talk
+|-resisted|p1a: Bruxish
+|-damage|p1a: Bruxish|0 fnt
+|faint|p1a: Bruxish
+|
+|-heal|p2a: Dondozo|64/100 slp|[from] item: Leftovers
+|upkeep
+|
+|t:|1743901681
+|switch|p1a: Ditto|Ditto|50/100
+|-transform|p1a: Ditto|p2a: Dondozo|[from] ability: Imposter
+|turn|33
+|
+|t:|1743901687
+|move|p1a: Ditto|Liquidation|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|55/100 slp
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|61/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|-message|Diarreia Mortal forfeited.
+|
+|win|bigene
+|raw|Diarreia Mortal's rating: 1180 &rarr; <strong>1157</strong><br />(-23 for losing)
+|raw|bigene's rating: 1209 &rarr; <strong>1232</strong><br />(+23 for winning)
+|l|☆Diarreia Mortal
+|player|p1|
+|l|☆bigene
+|player|p2|

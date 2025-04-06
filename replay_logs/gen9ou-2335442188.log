@@ -1,0 +1,264 @@
+|j|☆kabutopzboy
+|j|☆ToeNail Timmy
+|t:|1743794641
+|gametype|singles
+|player|p1|kabutopzboy|n|1196
+|player|p2|ToeNail Timmy|swimmer|1163
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Politoed, M|
+|poke|p1|Zapdos|
+|poke|p1|Overqwil, F|
+|poke|p1|Blastoise, F|
+|poke|p1|Registeel|
+|poke|p1|Amoonguss, F|
+|poke|p2|Indeedee-F, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Dunsparce, F|
+|poke|p2|Hawlucha, M|
+|poke|p2|Galvantula, M|
+|teampreview
+|
+|t:|1743794681
+|start
+|switch|p1a: Bla$t|Blastoise, F|100/100
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|turn|1
+|
+|t:|1743794689
+|-terastallize|p1a: Bla$t|Ground
+|move|p2a: Galvantula|Thunder Wave|p1a: Bla$t
+|-immune|p1a: Bla$t
+|move|p1a: Bla$t|Earthquake|p2a: Galvantula
+|-damage|p2a: Galvantula|32/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743794696
+|move|p2a: Galvantula|Sticky Web|p1a: Bla$t
+|-sidestart|p1: kabutopzboy|move: Sticky Web
+|move|p1a: Bla$t|Shell Smash|p1a: Bla$t
+|-unboost|p1a: Bla$t|def|1
+|-unboost|p1a: Bla$t|spd|1
+|-boost|p1a: Bla$t|atk|2
+|-boost|p1a: Bla$t|spa|2
+|-boost|p1a: Bla$t|spe|2
+|-enditem|p1a: Bla$t|White Herb
+|-clearnegativeboost|p1a: Bla$t|[silent]
+|
+|upkeep
+|turn|3
+|
+|t:|1743794704
+|move|p1a: Bla$t|Rapid Spin|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|-boost|p1a: Bla$t|spe|1
+|-sideend|p1: kabutopzboy|Sticky Web|[from] move: Rapid Spin|[of] p1a: Bla$t
+|faint|p2a: Galvantula
+|
+|upkeep
+|
+|t:|1743794719
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|4
+|
+|t:|1743794725
+|move|p1a: Bla$t|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|t:|1743794731
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|turn|5
+|
+|t:|1743794736
+|move|p2a: Hawlucha|Endure|p2a: Hawlucha
+|-singleturn|p2a: Hawlucha|move: Endure
+|move|p1a: Bla$t|Ice Beam|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-activate|p2a: Hawlucha|move: Endure
+|-damage|p2a: Hawlucha|1/100
+|-enditem|p2a: Hawlucha|Weakness Policy
+|-boost|p2a: Hawlucha|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Hawlucha|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|6
+|
+|t:|1743794744
+|move|p2a: Hawlucha|Close Combat|p1a: Bla$t
+|-damage|p1a: Bla$t|0 fnt
+|-unboost|p2a: Hawlucha|def|1
+|-unboost|p2a: Hawlucha|spd|1
+|faint|p1a: Bla$t
+|
+|upkeep
+|
+|t:|1743794750
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|turn|7
+|
+|t:|1743794754
+|move|p2a: Hawlucha|Acrobatics|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p2a: Hawlucha|0 fnt|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|faint|p1a: Amoonguss
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|t:|1743794760
+|switch|p2a: Dunsparce|Dunsparce, F|100/100
+|switch|p1a: Toad|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Toad
+|turn|8
+|
+|t:|1743794766
+|move|p2a: Dunsparce|Nasty Plot|p2a: Dunsparce
+|-boost|p2a: Dunsparce|spa|2
+|move|p1a: Toad|Weather Ball|p2a: Dunsparce
+|-enditem|p2a: Dunsparce|Focus Sash
+|-damage|p2a: Dunsparce|1/100
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743794775
+|move|p2a: Zoroark|Shadow Ball|p1a: Toad
+|-damage|p1a: Toad|13/100
+|move|p1a: Toad|Weather Ball|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743794780
+|switch|p2a: Dunsparce|Dunsparce, F|100/100
+|turn|10
+|
+|t:|1743794784
+|move|p1a: Toad|Perish Song|p1a: Toad
+|-start|p1a: Toad|perish3|[silent]
+|-start|p2a: Dunsparce|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Dunsparce|Toxic|p1a: Toad
+|-status|p1a: Toad|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Toad|6/100 tox|[from] psn
+|-start|p1a: Toad|perish3
+|-start|p2a: Dunsparce|perish3
+|upkeep
+|turn|11
+|
+|t:|1743794793
+|switch|p1a: Registeel|Registeel|100/100
+|switch|p2a: Indeedee|Indeedee-F, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743794800
+|move|p2a: Indeedee|Calm Mind|p2a: Indeedee
+|-boost|p2a: Indeedee|spa|1
+|-boost|p2a: Indeedee|spd|1
+|move|p1a: Registeel|Curse|p1a: Registeel
+|-unboost|p1a: Registeel|spe|1
+|-boost|p1a: Registeel|atk|1
+|-boost|p1a: Registeel|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743794808
+|move|p2a: Indeedee|Calm Mind|p2a: Indeedee
+|-boost|p2a: Indeedee|spa|1
+|-boost|p2a: Indeedee|spd|1
+|move|p1a: Registeel|Body Press|p2a: Indeedee
+|-damage|p2a: Indeedee|46/100
+|-damage|p1a: Registeel|84/100|[from] item: Rocky Helmet|[of] p2a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743794819
+|-terastallize|p2a: Indeedee|Fairy
+|move|p2a: Indeedee|Psych Up|p1a: Registeel
+|-copyboost|p2a: Indeedee|p1a: Registeel|[from] move: Psych Up
+|move|p1a: Registeel|Body Press|p2a: Indeedee
+|-resisted|p2a: Indeedee
+|-damage|p2a: Indeedee|26/100
+|-damage|p1a: Registeel|67/100|[from] item: Rocky Helmet|[of] p2a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743794828
+|move|p2a: Indeedee|Shadow Ball|p1a: Registeel
+|-damage|p1a: Registeel|53/100
+|move|p1a: Registeel|Iron Head|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p1a: Registeel|36/100|[from] item: Rocky Helmet|[of] p2a: Indeedee
+|faint|p2a: Indeedee
+|
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1743794831
+|switch|p2a: Dunsparce|Dunsparce, F|100/100
+|turn|16
+|
+|t:|1743794839
+|move|p2a: Dunsparce|Mud-Slap|p1a: Registeel
+|-supereffective|p1a: Registeel
+|-damage|p1a: Registeel|31/100
+|move|p1a: Registeel|Body Press|p2a: Dunsparce
+|-supereffective|p2a: Dunsparce
+|-damage|p2a: Dunsparce|34/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743794846
+|move|p2a: Dunsparce|Glare|p1a: Registeel
+|-status|p1a: Registeel|par
+|move|p1a: Registeel|Body Press|p2a: Dunsparce
+|-supereffective|p2a: Dunsparce
+|-damage|p2a: Dunsparce|0 fnt
+|faint|p2a: Dunsparce
+|
+|win|kabutopzboy
+|raw|kabutopzboy's rating: 1196 &rarr; <strong>1219</strong><br />(+23 for winning)
+|raw|ToeNail Timmy's rating: 1163 &rarr; <strong>1140</strong><br />(-23 for losing)
+|l|☆ToeNail Timmy
+|player|p2|
+|l|☆kabutopzboy
+|player|p1|

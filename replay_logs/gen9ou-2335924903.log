@@ -1,0 +1,484 @@
+|j|☆projectzone
+|j|☆Fakenshow
+|t:|1743859645
+|gametype|singles
+|player|p1|projectzone|2|1301
+|player|p2|Fakenshow|170|1288
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ursaluna, F|
+|poke|p1|Corviknight, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Ting-Lu|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Gholdengo|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Zapdos|
+|poke|p2|Lilligant-Hisui, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fakenshow)
+|
+|t:|1743859654
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1743859662
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p1a: Ogerpon|U-turn|p2a: Lilligant
+|-damage|p2a: Lilligant|54/100
+|
+|t:|1743859680
+|switch|p1a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743859694
+|move|p2a: Lilligant|Victory Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|1
+|-boost|p2a: Lilligant|def|1
+|-boost|p2a: Lilligant|spe|1
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743859700
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|3
+|
+|t:|1743859714
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Arcanine|Head Smash|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|78/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743859729
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Ting-Lu|Body Press|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|90/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743859737
+|move|p2a: Zapdos|U-turn|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|63/100
+|
+|t:|1743859741
+|switch|p2a: Torkoal|Torkoal, M|100/100|[from] U-turn
+|move|p1a: Ting-Lu|Ruination|p2a: Torkoal
+|-damage|p2a: Torkoal|51/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743859750
+|switch|p2a: Zapdos|Zapdos|90/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743859760
+|move|p2a: Zapdos|Hurricane|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|50/100
+|-start|p1a: Ting-Lu|confusion
+|-activate|p1a: Ting-Lu|confusion
+|move|p1a: Ting-Lu|Body Press|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|79/100
+|-status|p1a: Ting-Lu|par|[from] ability: Static|[of] p2a: Zapdos
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743859775
+|move|p2a: Zapdos|Hurricane|p1a: Ting-Lu|[miss]
+|-miss|p2a: Zapdos|p1a: Ting-Lu
+|-end|p1a: Ting-Lu|confusion
+|move|p1a: Ting-Lu|Ruination|p2a: Zapdos
+|-damage|p2a: Zapdos|40/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743859784
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|90/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|upkeep
+|turn|10
+|
+|t:|1743859808
+|switch|p1a: Ting-Lu|Ting-Lu|50/100 par
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Zapdos|Hurricane|p1a: Ting-Lu|[miss]
+|-miss|p2a: Zapdos|p1a: Ting-Lu
+|
+|upkeep
+|turn|11
+|
+|t:|1743859815
+|move|p2a: Zapdos|U-turn|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|36/100 par
+|
+|t:|1743859818
+|switch|p2a: Torkoal|Torkoal, M|51/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Ting-Lu|Ruination|p2a: Torkoal
+|-damage|p2a: Torkoal|26/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743859836
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|cant|p1a: Ting-Lu|par
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743859844
+|-terastallize|p2a: Arcanine|Fire
+|move|p2a: Arcanine|Flare Blitz|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743859869
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|14
+|
+|t:|1743859873
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p2a: Arcanine|Flare Blitz|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|13/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Arcanine|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|10/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|inactive|projectzone has 120 seconds left.
+|
+|t:|1743859904
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Arcanine|Flare Blitz|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|4/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|inactive|projectzone has 120 seconds left.
+|
+|t:|1743859915
+|move|p2a: Arcanine|Flare Blitz|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|projectzone has 120 seconds left.
+|
+|t:|1743859924
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|17
+|
+|t:|1743859931
+|switch|p2a: Zapdos|Zapdos|90/100
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743859939
+|move|p2a: Zapdos|U-turn|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|89/100
+|
+|t:|1743859944
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Gholdengo
+|-damage|p2a: Gholdengo|38/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|-weather|none
+|-end|p1a: Raging Bolt|Protosynthesis
+|upkeep
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|19
+|
+|t:|1743859958
+|move|p2a: Gholdengo|Make It Rain|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|59/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743859967
+|switch|p2a: Torkoal|Torkoal, M|26/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|20
+|
+|t:|1743859973
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743859979
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|21
+|
+|t:|1743859983
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Corviknight
+|-damage|p1a: Corviknight|73/100
+|-damage|p2a: Samurott|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|-sidestart|p1: projectzone|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1743859994
+|move|p2a: Samurott|Ceaseless Edge|p1a: Corviknight|[miss]
+|-miss|p2a: Samurott|p1a: Corviknight
+|move|p1a: Corviknight|Power Trip|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|81/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1743860003
+|move|p2a: Samurott|Ceaseless Edge|p1a: Corviknight
+|-damage|p1a: Corviknight|46/100
+|-damage|p2a: Samurott|65/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|-sidestart|p1: projectzone|Spikes
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|96/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1743860014
+|move|p2a: Samurott|Ceaseless Edge|p1a: Corviknight
+|-damage|p1a: Corviknight|68/100
+|-damage|p2a: Samurott|48/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|-sidestart|p1: projectzone|Spikes
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1743860024
+|switch|p2a: Arcanine|Arcanine-Hisui, M, tera:Fire|10/100
+|move|p1a: Corviknight|Power Trip|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743860026
+|switch|p2a: Zapdos|Zapdos|90/100
+|turn|26
+|
+|t:|1743860039
+|move|p2a: Zapdos|Hurricane|p1a: Corviknight|[miss]
+|-miss|p2a: Zapdos|p1a: Corviknight
+|move|p1a: Corviknight|Power Trip|p2a: Zapdos
+|-damage|p2a: Zapdos|72/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1743860048
+|move|p2a: Zapdos|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-weather|none
+|upkeep
+|
+|t:|1743860057
+|switch|p1a: Raging Bolt|Raging Bolt|59/100
+|-damage|p1a: Raging Bolt|34/100|[from] Spikes
+|turn|28
+|
+|t:|1743860062
+|move|p1a: Raging Bolt|Thunderclap|p2a: Zapdos
+|-crit|p2a: Zapdos
+|-damage|p2a: Zapdos|27/100
+|move|p2a: Zapdos|Hurricane|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|14/100
+|
+|upkeep
+|turn|29
+|
+|t:|1743860069
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|78/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|58/100
+|
+|upkeep
+|turn|30
+|
+|t:|1743860084
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|upkeep
+|turn|31
+|
+|t:|1743860090
+|move|p2a: Zapdos|Hurricane|p1a: Raging Bolt|[miss]
+|-miss|p2a: Zapdos|p1a: Raging Bolt
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Zapdos
+|-damage|p2a: Zapdos|64/100
+|
+|upkeep
+|turn|32
+|
+|t:|1743860097
+|move|p2a: Zapdos|Hurricane|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743860103
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|-damage|p1a: Ursaluna|76/100|[from] Spikes
+|turn|33
+|
+|t:|1743860113
+|move|p2a: Zapdos|Hurricane|p1a: Ursaluna|[miss]
+|-miss|p2a: Zapdos|p1a: Ursaluna
+|move|p1a: Ursaluna|Smack Down|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|25/100
+|-start|p2a: Zapdos|Smack Down
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|34
+|
+|t:|1743860123
+|move|p2a: Zapdos|Hurricane|p1a: Ursaluna|[miss]
+|-miss|p2a: Zapdos|p1a: Ursaluna
+|move|p1a: Ursaluna|Earthquake|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-damage|p1a: Ursaluna|70/100 brn|[from] brn
+|upkeep
+|
+|t:|1743860126
+|switch|p2a: Samurott|Samurott-Hisui, F|48/100
+|turn|35
+|
+|t:|1743860138
+|move|p2a: Samurott|Razor Shell|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1743860143
+|switch|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water|13/100
+|-damage|p1a: Ogerpon|0 fnt|[from] Spikes
+|faint|p1a: Ogerpon
+|
+|win|Fakenshow
+|raw|projectzone's rating: 1301 &rarr; <strong>1280</strong><br />(-21 for losing)
+|raw|Fakenshow's rating: 1288 &rarr; <strong>1314</strong><br />(+26 for winning)
+|l|☆projectzone
+|player|p1|
+|l|☆Fakenshow
+|player|p2|

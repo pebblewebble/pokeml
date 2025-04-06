@@ -1,0 +1,383 @@
+|j|☆Driz0
+|j|☆tperz
+|t:|1743898692
+|gametype|singles
+|player|p1|Driz0|169|1372
+|player|p2|tperz|burglar|1356
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Bellibolt, M|
+|poke|p1|Bisharp, M|
+|poke|p1|Froslass, F|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Valiant|
+|poke|p1|Gholdengo|
+|poke|p2|Kommo-o, M|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Magnezone|
+|poke|p2|Chandelure, M|
+|poke|p2|Glimmora, M|
+|poke|p2|Ursaluna, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Driz0)
+|inactive|tperz also wants the timer to be on.
+|
+|t:|1743898703
+|start
+|switch|p1a: Froslass|Froslass, F|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1743898709
+|move|p1a: Froslass|Trick|p2a: Ninetales
+|-activate|p1a: Froslass|move: Trick|[of] p2a: Ninetales
+|-item|p2a: Ninetales|Choice Scarf|[from] move: Trick
+|-item|p1a: Froslass|Light Clay|[from] move: Trick
+|move|p2a: Ninetales|Moonblast|p1a: Froslass
+|-damage|p1a: Froslass|56/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743898721
+|move|p2a: Ninetales|Moonblast|p1a: Froslass
+|-damage|p1a: Froslass|10/100
+|move|p1a: Froslass|Spikes|p2a: Ninetales
+|-sidestart|p2: tperz|Spikes
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743898731
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Ninetales|Moonblast|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|82/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743898741
+|switch|p2a: Magnezone|Magnezone|100/100
+|-damage|p2a: Magnezone|88/100|[from] Spikes
+|move|p1a: Gholdengo|Make It Rain|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|69/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743898749
+|switch|p1a: Bellibolt|Bellibolt, M|100/100
+|move|p2a: Magnezone|Thunderbolt|p1a: Bellibolt
+|-resisted|p1a: Bellibolt
+|-damage|p1a: Bellibolt|80/100
+|-start|p1a: Bellibolt|Charge|Thunderbolt|[from] ability: Electromorphosis
+|
+|-weather|none
+|-heal|p1a: Bellibolt|86/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743898761
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|-damage|p2a: Ursaluna|88/100|[from] Spikes
+|move|p1a: Bellibolt|Muddy Water|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|39/100
+|-unboost|p2a: Ursaluna|accuracy|1
+|
+|-heal|p1a: Bellibolt|92/100|[from] item: Leftovers
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|t:|1743898775
+|switch|p1a: Froslass|Froslass, F|10/100
+|move|p2a: Ursaluna|Trailblaze|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|-boost|p2a: Ursaluna|spe|1
+|-start|p2a: Ursaluna|Disable|Trailblaze|[from] ability: Cursed Body|[of] p1a: Froslass
+|faint|p1a: Froslass
+|
+|-damage|p2a: Ursaluna|32/100 brn|[from] brn
+|upkeep
+|
+|t:|1743898789
+|switch|p1a: Gholdengo|Gholdengo|82/100
+|turn|8
+|
+|t:|1743898811
+|-terastallize|p1a: Gholdengo|Ground
+|move|p1a: Gholdengo|Tera Blast|p2a: Ursaluna|[anim] Tera Blast Ground
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1743898819
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-damage|p2a: Ninetales|88/100|[from] Spikes
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|9
+|
+|t:|1743898825
+|switch|p1a: Bellibolt|Bellibolt, M|92/100
+|move|p2a: Ninetales|Blizzard|p1a: Bellibolt
+|-crit|p1a: Bellibolt
+|-damage|p1a: Bellibolt|42/100
+|-status|p1a: Bellibolt|frz
+|-start|p1a: Bellibolt|Charge|Blizzard|[from] ability: Electromorphosis
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Bellibolt|49/100 frz|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743898831
+|move|p2a: Ninetales|Blizzard|p1a: Bellibolt
+|-damage|p1a: Bellibolt|10/100 frz
+|-start|p1a: Bellibolt|Charge|Blizzard|[from] ability: Electromorphosis
+|-curestatus|p1a: Bellibolt|frz|[msg]
+|move|p1a: Bellibolt|Parabolic Charge|p2a: Ninetales
+|-damage|p2a: Ninetales|21/100
+|-heal|p1a: Bellibolt|35/100|[from] drain|[of] p2a: Ninetales
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Bellibolt|41/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743898841
+|move|p2a: Ninetales|Blizzard|p1a: Bellibolt
+|-damage|p1a: Bellibolt|7/100
+|-start|p1a: Bellibolt|Charge|Blizzard|[from] ability: Electromorphosis
+|move|p1a: Bellibolt|Parabolic Charge|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|-heal|p1a: Bellibolt|15/100|[from] drain|[of] p2a: Ninetales
+|faint|p2a: Ninetales
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Bellibolt|21/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743898846
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|-damage|p2a: Kommo-o|88/100|[from] Spikes
+|turn|12
+|
+|t:|1743898854
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|55/100
+|move|p1a: Bellibolt|Toxic|p2a: Kommo-o
+|-status|p2a: Kommo-o|tox
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Bellibolt|27/100|[from] item: Leftovers
+|-damage|p2a: Kommo-o|49/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1743898867
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|16/100 tox
+|-enditem|p2a: Kommo-o|Aguav Berry|[eat]
+|-heal|p2a: Kommo-o|50/100 tox|[from] item: Aguav Berry
+|move|p1a: Bellibolt|Parabolic Charge|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|43/100 tox
+|-heal|p1a: Bellibolt|30/100|[from] drain|[of] p2a: Kommo-o
+|
+|-weather|none
+|-heal|p1a: Bellibolt|36/100|[from] item: Leftovers
+|-damage|p2a: Kommo-o|30/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743898883
+|move|p2a: Kommo-o|Drain Punch|p1a: Bellibolt
+|-damage|p1a: Bellibolt|0 fnt
+|-heal|p2a: Kommo-o|52/100 tox|[from] drain|[of] p1a: Bellibolt
+|faint|p1a: Bellibolt
+|
+|-damage|p2a: Kommo-o|33/100 tox|[from] psn
+|upkeep
+|
+|t:|1743898893
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|15
+|
+|t:|1743898900
+|move|p1a: Iron Valiant|Moonblast|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|upkeep
+|
+|t:|1743898905
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|-damage|p2a: Glimmora|88/100|[from] Spikes
+|turn|16
+|
+|t:|1743898915
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Gholdengo|Gholdengo, tera:Ground|82/100
+|move|p2a: Glimmora|Mortal Spin|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|79/100
+|-status|p1a: Gholdengo|psn
+|-sideend|p2: tperz|Spikes|[from] move: Mortal Spin|[of] p2a: Glimmora
+|
+|-heal|p2a: Glimmora|94/100|[from] item: Black Sludge
+|-damage|p1a: Gholdengo|67/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1743898922
+|move|p2a: Glimmora|Spiky Shield|p2a: Glimmora
+|-singleturn|p2a: Glimmora|move: Protect
+|move|p1a: Gholdengo|Tera Blast|p2a: Glimmora|[anim] Tera Blast Ground
+|-activate|p2a: Glimmora|move: Protect
+|
+|-heal|p2a: Glimmora|100/100|[from] item: Black Sludge
+|-damage|p1a: Gholdengo|54/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1743898929
+|move|p1a: Gholdengo|Tera Blast|p2a: Glimmora|[anim] Tera Blast Ground
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|-damage|p1a: Gholdengo|42/100 psn|[from] psn
+|upkeep
+|
+|t:|1743898931
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|turn|19
+|
+|t:|1743898937
+|move|p2a: Chandelure|Hex|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743898945
+|switch|p1a: Bisharp|Bisharp, M|100/100
+|turn|20
+|
+|t:|1743898950
+|switch|p2a: Magnezone|Magnezone|69/100
+|move|p1a: Bisharp|Thunder Wave|p2a: Magnezone
+|-immune|p2a: Magnezone
+|
+|upkeep
+|turn|21
+|
+|t:|1743898959
+|move|p1a: Bisharp|Sucker Punch|p2a: Magnezone
+|-damage|p2a: Magnezone|42/100
+|-damage|p1a: Bisharp|84/100|[from] item: Rocky Helmet|[of] p2a: Magnezone
+|move|p2a: Magnezone|Body Press|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|28/100
+|
+|upkeep
+|turn|22
+|
+|t:|1743898965
+|move|p1a: Bisharp|Sucker Punch|p2a: Magnezone
+|-damage|p2a: Magnezone|15/100
+|-damage|p1a: Bisharp|11/100|[from] item: Rocky Helmet|[of] p2a: Magnezone
+|move|p2a: Magnezone|Body Press|p1a: Bisharp
+|-supereffective|p1a: Bisharp
+|-damage|p1a: Bisharp|0 fnt
+|faint|p1a: Bisharp
+|
+|upkeep
+|
+|t:|1743898972
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|23
+|
+|t:|1743898976
+|move|p1a: Great Tusk|Rapid Spin|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|7/100
+|-boost|p1a: Great Tusk|spe|1
+|-damage|p1a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p2a: Magnezone
+|move|p2a: Magnezone|Flash Cannon|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|7/100
+|
+|-heal|p1a: Great Tusk|13/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|c|☆Driz0|damn
+|
+|t:|1743898997
+|move|p1a: Great Tusk|Rapid Spin|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|-boost|p1a: Great Tusk|spe|1
+|-damage|p1a: Great Tusk|0 fnt|[from] item: Rocky Helmet|[of] p2a: Magnezone
+|faint|p2a: Magnezone
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743898999
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|turn|25
+|
+|t:|1743899004
+|move|p2a: Chandelure|Overheat|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|-unboost|p2a: Chandelure|spa|2
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|win|tperz
+|raw|Driz0's rating: 1372 &rarr; <strong>1351</strong><br />(-21 for losing)
+|raw|tperz's rating: 1356 &rarr; <strong>1377</strong><br />(+21 for winning)
+|l|☆tperz
+|player|p2|
+|l|☆Driz0
+|player|p1|

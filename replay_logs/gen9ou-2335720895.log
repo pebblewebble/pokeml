@@ -1,0 +1,185 @@
+|j|☆Emonstar
+|j|☆sdfjisdiosdf
+|t:|1743825896
+|gametype|singles
+|player|p1|Emonstar|1|1140
+|player|p2|sdfjisdiosdf|cheryl|1105
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Klefki, F|
+|poke|p1|Poliwrath, M|
+|poke|p1|Armarouge, M|
+|poke|p1|Frosmoth, F|
+|poke|p1|Garchomp, F|
+|poke|p1|Magnezone|
+|poke|p2|Hitmonlee, M|
+|poke|p2|Polteageist-Antique|
+|poke|p2|Greninja-*, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Pecharunt|
+|poke|p2|Iron Boulder|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sdfjisdiosdf)
+|
+|t:|1743825906
+|start
+|switch|p1a: Armarouge|Armarouge, M|100/100
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|1
+|
+|t:|1743825915
+|switch|p1a: Frosmoth|Frosmoth, F|100/100
+|move|p2a: Greninja|Hydro Pump|p1a: Frosmoth
+|-damage|p1a: Frosmoth|77/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743825926
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Frosmoth|Giga Drain|p2a: Pecharunt
+|-resisted|p2a: Pecharunt
+|-damage|p2a: Pecharunt|88/100
+|-heal|p1a: Frosmoth|86/100|[from] drain|[of] p2a: Pecharunt
+|
+|-heal|p2a: Pecharunt|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743825934
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Pecharunt|Nasty Plot|p2a: Pecharunt
+|-boost|p2a: Pecharunt|spa|2
+|
+|-heal|p2a: Pecharunt|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743825941
+|move|p1a: Magnezone|Steel Beam|p2a: Pecharunt
+|-damage|p2a: Pecharunt|43/100
+|-damage|p1a: Magnezone|50/100|[from] steelbeam
+|move|p2a: Pecharunt|Hex|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|-heal|p2a: Pecharunt|49/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743825960
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|turn|5
+|
+|t:|1743825965
+|move|p1a: Garchomp|Stealth Rock|p2a: Pecharunt
+|-sidestart|p2: sdfjisdiosdf|move: Stealth Rock
+|move|p2a: Pecharunt|Malignant Chain|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|62/100
+|
+|-heal|p2a: Pecharunt|55/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743825972
+|move|p1a: Garchomp|Earthquake|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|3/100
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|53/100
+|
+|-heal|p2a: Pecharunt|59/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743825980
+|move|p2a: Pecharunt|Hex|p1a: Garchomp
+|-damage|p1a: Garchomp|5/100
+|move|p1a: Garchomp|Dragon Tail|p2a: Pecharunt
+|-damage|p2a: Pecharunt|43/100
+|drag|p2a: Iron Boulder|Iron Boulder|100/100
+|-damage|p2a: Iron Boulder|88/100|[from] Stealth Rock
+|-enditem|p2a: Iron Boulder|Booster Energy
+|-activate|p2a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Boulder|quarkdrivespe
+|
+|upkeep
+|turn|8
+|
+|t:|1743825993
+|switch|p1a: Klefki|Klefki, F|100/100
+|move|p2a: Iron Boulder|Mighty Cleave|p1a: Klefki
+|-resisted|p1a: Klefki
+|-damage|p1a: Klefki|83/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743826000
+|move|p1a: Klefki|Rain Dance|p1a: Klefki
+|-weather|RainDance
+|move|p2a: Iron Boulder|Earthquake|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|32/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743826009
+|move|p1a: Klefki|Magic Room|p1a: Klefki
+|-fieldstart|move: Magic Room|[of] p1a: Klefki
+|move|p2a: Iron Boulder|Earthquake|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743826019
+|switch|p1a: Poliwrath|Poliwrath, M|100/100
+|turn|11
+|
+|t:|1743826037
+|move|p2a: Iron Boulder|Swords Dance|p2a: Iron Boulder
+|-boost|p2a: Iron Boulder|atk|2
+|move|p1a: Poliwrath|Belly Drum|p1a: Poliwrath
+|-damage|p1a: Poliwrath|51/100
+|-setboost|p1a: Poliwrath|atk|6|[from] move: Belly Drum
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743826047
+|-terastallize|p2a: Iron Boulder|Fighting
+|move|p2a: Iron Boulder|Close Combat|p1a: Poliwrath
+|-crit|p1a: Poliwrath
+|-damage|p1a: Poliwrath|0 fnt
+|-unboost|p2a: Iron Boulder|def|1
+|-unboost|p2a: Iron Boulder|spd|1
+|faint|p1a: Poliwrath
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|Emonstar forfeited.
+|
+|win|sdfjisdiosdf
+|raw|Emonstar's rating: 1140 &rarr; <strong>1112</strong><br />(-28 for losing)
+|raw|sdfjisdiosdf's rating: 1105 &rarr; <strong>1133</strong><br />(+28 for winning)
+|l|☆Emonstar
+|player|p1|
+|l|☆sdfjisdiosdf
+|player|p2|

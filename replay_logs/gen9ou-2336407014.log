@@ -1,0 +1,218 @@
+|j|‽norebuhl
+|j|☆toastyCaesar
+|t:|1743913081
+|gametype|singles
+|player|p1|norebuhl|101|1494
+|player|p2|toastyCaesar|266|1486
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Kyurem|
+|poke|p1|Ting-Lu|
+|poke|p1|Iron Moth|
+|poke|p1|Iron Valiant|
+|poke|p1|Gholdengo|
+|poke|p2|Tinkaton, F|
+|poke|p2|Weavile, F|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Greninja-*, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by toastyCaesar)
+|
+|t:|1743913093
+|start
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|-item|p2a: Tinkaton|Air Balloon
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|1
+|
+|t:|1743913103
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Iron Moth|Substitute|p1a: Iron Moth
+|-start|p1a: Iron Moth|Substitute
+|-damage|p1a: Iron Moth|76/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743913109
+|move|p1a: Iron Moth|Fiery Dance|p2a: Slowking
+|-damage|p2a: Slowking|75/100
+|move|p2a: Slowking|Future Sight|p1a: Iron Moth
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|3
+|
+|t:|1743913114
+|move|p1a: Iron Moth|Fiery Dance|p2a: Slowking
+|-damage|p2a: Slowking|49/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-activate|p1a: Iron Moth|move: Substitute|[damage]
+|
+|upkeep
+|turn|4
+|
+|t:|1743913120
+|move|p1a: Iron Moth|Fiery Dance|p2a: Slowking
+|-damage|p2a: Slowking|24/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Slowking|Sludge Bomb|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-end|p1a: Iron Moth|Substitute
+|
+|-end|p1a: Iron Moth|move: Future Sight
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|upkeep
+|
+|t:|1743913134
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|5
+|
+|t:|1743913139
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|-item|p2a: Tinkaton|Air Balloon
+|move|p1a: Gholdengo|Trick|p2a: Tinkaton
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Tinkaton
+|-item|p2a: Tinkaton|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Air Balloon
+|-item|p1a: Gholdengo|Air Balloon|[from] move: Trick
+|
+|upkeep
+|turn|6
+|
+|t:|1743913152
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Tinkaton|Encore||[still]
+|-fail|p2a: Tinkaton
+|
+|upkeep
+|turn|7
+|
+|t:|1743913161
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|
+|upkeep
+|turn|8
+|
+|t:|1743913168
+|-terastallize|p1a: Kyurem|Fire
+|move|p2a: Gholdengo|Make It Rain|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|70/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|
+|upkeep
+|turn|9
+|
+|t:|1743913178
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743913185
+|-terastallize|p2a: Tinkaton|Water
+|move|p1a: Kyurem|Tera Blast|p2a: Tinkaton|[anim] Tera Blast Fire
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|54/100
+|move|p2a: Tinkaton|Thunder Wave|p1a: Kyurem
+|-status|p1a: Kyurem|par
+|
+|upkeep
+|turn|11
+|
+|t:|1743913203
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743913209
+|move|p1a: Kyurem|Icicle Spear|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|53/100
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|7/100
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-hitcount|p2: Great Tusk|3
+|
+|upkeep
+|
+|t:|1743913212
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|13
+|
+|t:|1743913219
+|move|p1a: Kyurem|Scale Shot|p2a: Greninja
+|-damage|p2a: Greninja|45/100
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|-hitcount|p2: Greninja|2
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|
+|upkeep
+|
+|t:|1743913232
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|14
+|
+|t:|1743913236
+|move|p1a: Kyurem|Scale Shot|p2a: Weavile
+|-damage|p2a: Weavile|41/100
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|-hitcount|p2: Weavile|2
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|
+|upkeep
+|-message|toastyCaesar forfeited.
+|
+|win|norebuhl
+|raw|norebuhl's rating: 1494 &rarr; <strong>1514</strong><br />(+20 for winning)
+|raw|toastyCaesar's rating: 1486 &rarr; <strong>1466</strong><br />(-20 for losing)
+|l|☆toastyCaesar
+|player|p2|
+|l|‽norebuhl
+|player|p1|

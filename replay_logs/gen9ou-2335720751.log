@@ -1,0 +1,366 @@
+|j|☆Markuss205
+|j|☆Waterfallquest
+|t:|1743825878
+|gametype|singles
+|player|p1|Markuss205|101|1263
+|player|p2|Waterfallquest|101|1377
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Heatran, F|
+|poke|p1|Gliscor, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Zapdos|
+|poke|p1|Scizor, M|
+|poke|p1|Dragonite, M|
+|poke|p2|Clefable, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Kingambit, M|
+|teampreview
+|
+|t:|1743825926
+|start
+|switch|p1a: Heatran|Heatran, F|100/100
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-item|p1a: Heatran|Air Balloon
+|turn|1
+|
+|t:|1743825934
+|move|p2a: Dragapult|Shadow Ball|p1a: Heatran
+|-damage|p1a: Heatran|57/100
+|-unboost|p1a: Heatran|spd|1
+|-enditem|p1a: Heatran|Air Balloon
+|move|p1a: Heatran|Will-O-Wisp|p2a: Dragapult|[miss]
+|-miss|p1a: Heatran|p2a: Dragapult
+|
+|upkeep
+|turn|2
+|
+|t:|1743825945
+|move|p2a: Dragapult|Shadow Ball|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1743825950
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|3
+|
+|t:|1743825957
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|t:|1743825961
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Gliscor|Toxic|p1a: Dragonite
+|-status|p1a: Dragonite|tox
+|
+|-damage|p1a: Dragonite|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743825967
+|move|p1a: Dragonite|Dragon Claw|p2a: Gliscor
+|-damage|p2a: Gliscor|38/100 tox
+|move|p2a: Gliscor|Knock Off|p1a: Dragonite
+|-damage|p1a: Dragonite|72/100 tox
+|-enditem|p1a: Dragonite|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-damage|p1a: Dragonite|59/100 tox|[from] psn
+|-heal|p2a: Gliscor|51/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1743825977
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Dragonite|Dragon Claw|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-damage|p1a: Dragonite|41/100 tox|[from] psn
+|-heal|p2a: Gliscor|63/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1743825983
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Dragonite|Dragon Claw|p2a: Clefable
+|-immune|p2a: Clefable
+|
+|-damage|p1a: Dragonite|16/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743825994
+|switch|p2a: Gliscor|Gliscor, F|63/100 tox
+|move|p1a: Dragonite|Earthquake|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|-damage|p1a: Dragonite|0 fnt|[from] psn
+|faint|p1a: Dragonite
+|-heal|p2a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743825997
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|9
+|
+|t:|1743826000
+|move|p2a: Gliscor|Spikes|p1a: Scizor
+|-sidestart|p1: Markuss205|Spikes
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-heal|p2a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|t:|1743826004
+|move|p2a: Gliscor|Knock Off|p1a: Scizor
+|-damage|p1a: Scizor|77/100
+|-enditem|p1a: Scizor|Life Orb|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|t:|1743826010
+|move|p2a: Gliscor|Spikes|p1a: Scizor
+|-sidestart|p1: Markuss205|Spikes
+|move|p1a: Scizor|Dual Wingbeat|p2a: Gliscor
+|-damage|p2a: Gliscor|55/100 tox
+|-damage|p2a: Gliscor|8/100 tox
+|-hitcount|p2a: Gliscor|2
+|
+|-heal|p2a: Gliscor|21/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|t:|1743826020
+|move|p1a: Scizor|Bullet Punch|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1743826022
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|13
+|
+|t:|1743826027
+|move|p2a: Great Tusk|Headlong Rush|p1a: Scizor
+|-damage|p1a: Scizor|16/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Scizor|Dual Wingbeat|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-hitcount|p2: Great Tusk|1
+|
+|upkeep
+|
+|t:|1743826035
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|14
+|
+|t:|1743826039
+|move|p1a: Scizor|Bullet Punch|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|60/100
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|upkeep
+|turn|15
+|
+|t:|1743826048
+|-terastallize|p1a: Scizor|Steel
+|move|p1a: Scizor|Bullet Punch|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|9/100
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1743826054
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|turn|16
+|
+|t:|1743826059
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Gliscor|U-turn|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|94/100
+|
+|t:|1743826064
+|switch|p1a: Slowking|Slowking-Galar, M|100/100|[from] U-turn
+|-damage|p1a: Slowking|84/100|[from] Spikes
+|
+|-heal|p2a: Clefable|100/100|[from] item: Leftovers
+|-heal|p1a: Slowking|90/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|t:|1743826072
+|move|p2a: Clefable|Calm Mind|p2a: Clefable
+|-boost|p2a: Clefable|spa|1
+|-boost|p2a: Clefable|spd|1
+|move|p1a: Slowking|Sludge Wave|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|38/100
+|
+|-heal|p2a: Clefable|44/100|[from] item: Leftovers
+|-heal|p1a: Slowking|96/100|[from] item: Black Sludge
+|upkeep
+|turn|18
+|
+|t:|1743826079
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Slowking|Future Sight|p2a: Slowking
+|-start|p1a: Slowking|move: Future Sight
+|
+|-heal|p1a: Slowking|100/100|[from] item: Black Sludge
+|upkeep
+|turn|19
+|
+|t:|1743826083
+|move|p2a: Slowking|Future Sight|p1a: Slowking
+|-start|p2a: Slowking|move: Future Sight
+|move|p1a: Slowking|Sludge Wave|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|86/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743826099
+|move|p2a: Slowking|Flamethrower|p1a: Slowking
+|-damage|p1a: Slowking|84/100
+|-status|p1a: Slowking|brn
+|move|p1a: Slowking|Psyshock|p2a: Slowking
+|-damage|p2a: Slowking|41/100
+|
+|-end|p2a: Slowking|move: Future Sight
+|-damage|p2a: Slowking|7/100
+|-heal|p1a: Slowking|90/100 brn|[from] item: Black Sludge
+|-damage|p1a: Slowking|84/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1743826113
+|switch|p2a: Kingambit|Kingambit, M|9/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|move|p1a: Slowking|Sludge Wave|p2a: Kingambit
+|-immune|p2a: Kingambit
+|
+|-end|p1a: Slowking|move: Future Sight
+|-damage|p1a: Slowking|47/100 brn
+|-heal|p1a: Slowking|54/100 brn|[from] item: Black Sludge
+|-damage|p1a: Slowking|47/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1743826118
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1743826121
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|23
+|
+|t:|1743826126
+|move|p2a: Kingambit|Sucker Punch|p1a: Zapdos
+|-damage|p1a: Zapdos|39/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|upkeep
+|
+|t:|1743826131
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|24
+|
+|t:|1743826135
+|-terastallize|p2a: Dragapult|Ghost
+|move|p2a: Dragapult|Shadow Ball|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1743826138
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|turn|25
+|
+|t:|1743826141
+|move|p2a: Dragapult|Shadow Ball|p1a: Gliscor
+|-damage|p1a: Gliscor|41/100
+|move|p1a: Gliscor|Toxic|p2a: Dragapult
+|-status|p2a: Dragapult|tox
+|
+|-damage|p2a: Dragapult|95/100 tox|[from] psn
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|26
+|
+|t:|1743826149
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Dragapult|Shadow Ball|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-damage|p2a: Dragapult|83/100 tox|[from] psn
+|-heal|p1a: Gliscor|54/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|27
+|
+|t:|1743826159
+|move|p2a: Dragapult|Shadow Ball|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|win|Waterfallquest
+|raw|Markuss205's rating: 1263 &rarr; <strong>1246</strong><br />(-17 for losing)
+|raw|Waterfallquest's rating: 1377 &rarr; <strong>1391</strong><br />(+14 for winning)
+|l|☆Waterfallquest
+|player|p2|
+|l|☆Markuss205
+|player|p1|

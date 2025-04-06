@@ -1,0 +1,299 @@
+|j|☆Polgre VII
+|j|☆cuervotesteador
+|t:|1743873700
+|gametype|singles
+|player|p1|Polgre VII|drayden|1391
+|player|p2|cuervotesteador|102|1390
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ting-Lu|
+|poke|p1|Blaziken, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Great Tusk|
+|poke|p1|Enamorus, F|
+|poke|p1|Gholdengo|
+|poke|p2|Hitmonchan, M|
+|poke|p2|Moltres|
+|poke|p2|Frosmoth, F|
+|poke|p2|Iron Crown|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|
+|t:|1743873737
+|start
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ting-Lu|atk|1
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1743873745
+|move|p2a: Landorus|U-turn|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|79/100
+|
+|t:|1743873748
+|switch|p2a: Hitmonchan|Hitmonchan, M|100/100|[from] U-turn
+|move|p1a: Ting-Lu|Ruination|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|51/100
+|
+|-heal|p1a: Ting-Lu|85/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743873756
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Hitmonchan|Knock Off|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|76/100
+|-enditem|p1a: Enamorus|Leftovers|[from] move: Knock Off|[of] p2a: Hitmonchan
+|
+|upkeep
+|turn|3
+|
+|t:|1743873766
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Enamorus|Substitute|p1a: Enamorus
+|-start|p1a: Enamorus|Substitute
+|-damage|p1a: Enamorus|51/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743873772
+|move|p1a: Enamorus|Mystical Fire|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|86/100
+|-unboost|p2a: Moltres|spa|1
+|move|p2a: Moltres|Flamethrower|p1a: Enamorus
+|-end|p1a: Enamorus|Substitute
+|
+|upkeep
+|turn|5
+|
+|t:|1743873780
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Moltres|U-turn|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|62/100
+|
+|t:|1743873789
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ogerpon|atk|1
+|
+|upkeep
+|turn|6
+|
+|t:|1743873801
+|move|p2a: Landorus|U-turn|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|t:|1743873811
+|switch|p2a: Moltres|Moltres|86/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743873816
+|switch|p1a: Ting-Lu|Ting-Lu|85/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|7
+|
+|t:|1743873820
+|move|p2a: Moltres|U-turn|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|74/100
+|
+|t:|1743873823
+|switch|p2a: Hitmonchan|Hitmonchan, M|51/100|[from] U-turn
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Hitmonchan
+|-sidestart|p2: cuervotesteador|move: Stealth Rock
+|
+|-heal|p1a: Ting-Lu|80/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743873841
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Hitmonchan|Rapid Spin|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|9
+|
+|t:|1743873858
+|move|p2a: Hitmonchan|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|43/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Shadow Ball|p2a: Hitmonchan
+|-crit|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|
+|upkeep
+|
+|t:|1743873879
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743873885
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Gholdengo|[anim] Ivy Cudgel Water
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743873889
+|switch|p1a: Ting-Lu|Ting-Lu|80/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|11
+|
+|t:|1743873898
+|move|p2a: Ogerpon|Taunt|p1a: Ting-Lu
+|-start|p1a: Ting-Lu|move: Taunt
+|cant|p1a: Ting-Lu|move: Taunt|Spikes
+|
+|-heal|p1a: Ting-Lu|86/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743873907
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|move|p1a: Ting-Lu|Ruination|p2a: Ogerpon
+|-damage|p2a: Ogerpon|44/100
+|
+|-heal|p1a: Ting-Lu|93/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743873914
+|move|p2a: Ogerpon|Horn Leech|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|24/100
+|-heal|p2a: Ogerpon|100/100|[from] drain|[of] p1a: Ting-Lu
+|move|p1a: Ting-Lu|Ruination|p2a: Ogerpon
+|-damage|p2a: Ogerpon|51/100
+|
+|-heal|p1a: Ting-Lu|30/100|[from] item: Leftovers
+|-end|p1a: Ting-Lu|move: Taunt
+|upkeep
+|turn|14
+|
+|t:|1743873924
+|move|p2a: Ogerpon|Horn Leech|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|-heal|p2a: Ogerpon|76/100|[from] drain|[of] p1a: Ting-Lu
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743873929
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|turn|15
+|
+|t:|1743873932
+|-terastallize|p1a: Blaziken|Grass
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Blaziken|[anim] Ivy Cudgel Water
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|17/100
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|16
+|
+|t:|1743873962
+|switch|p2a: Frosmoth|Frosmoth, F|100/100
+|move|p1a: Blaziken|Close Combat|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|faint|p2a: Frosmoth
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743873971
+|switch|p2a: Moltres|Moltres|86/100
+|turn|17
+|
+|t:|1743873983
+|move|p1a: Blaziken|Flare Blitz|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|42/100
+|-damage|p1a: Blaziken|0 fnt|[from] Recoil
+|faint|p1a: Blaziken
+|move|p2a: Moltres|Flamethrower|p1: Blaziken|[notarget]
+|-fail|p2a: Moltres
+|
+|upkeep
+|
+|t:|1743873987
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|18
+|
+|t:|1743873992
+|move|p1a: Great Tusk|Knock Off|p2a: Moltres
+|-damage|p2a: Moltres|24/100
+|-enditem|p2a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|74/100
+|-singleturn|p2a: Moltres|move: Roost
+|
+|upkeep
+|turn|19
+|
+|t:|1743874000
+|move|p1a: Great Tusk|Rapid Spin|p2a: Moltres
+|-damage|p2a: Moltres|65/100
+|-boost|p1a: Great Tusk|spe|1
+|move|p2a: Moltres|Flamethrower|p1a: Great Tusk
+|-damage|p1a: Great Tusk|50/100
+|
+|-heal|p1a: Great Tusk|56/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743874009
+|move|p1a: Great Tusk|Knock Off|p2a: Moltres
+|-damage|p2a: Moltres|53/100
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|100/100
+|-singleturn|p2a: Moltres|move: Roost
+|
+|-heal|p1a: Great Tusk|62/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by cuervotesteador)
+|-message|Polgre VII forfeited.
+|
+|win|cuervotesteador
+|raw|Polgre VII's rating: 1369 &rarr; <strong>1350</strong><br />(-19 for losing)
+|raw|cuervotesteador's rating: 1390 &rarr; <strong>1409</strong><br />(+19 for winning)
+|l|☆Polgre VII
+|player|p1|
+|l|☆cuervotesteador
+|player|p2|

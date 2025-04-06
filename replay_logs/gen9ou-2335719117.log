@@ -1,0 +1,231 @@
+|j|☆Assumpcao_fs
+|j|☆lc872244
+|t:|1743825644
+|gametype|singles
+|player|p1|Assumpcao_fs|gentleman-gen4|1157
+|player|p2|lc872244|marley|1093
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Delphox, M|
+|poke|p1|Salamence, M|
+|poke|p1|Tsareena, F|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Clawitzer, F|
+|poke|p1|Golurk|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Gardevoir, F|
+|poke|p2|Clodsire, M|
+|poke|p2|Zoroark-Hisui, M|
+|poke|p2|Hydrapple, F|
+|poke|p2|Ceruledge, M|
+|teampreview
+|
+|t:|1743825663
+|start
+|switch|p1a: Golurk|Golurk|100/100
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|turn|1
+|
+|t:|1743825685
+|move|p1a: Golurk|Earthquake|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|upkeep
+|
+|t:|1743825699
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|2
+|
+|t:|1743825706
+|move|p2a: Ceruledge|Shadow Ball|p1a: Golurk
+|-supereffective|p1a: Golurk
+|-damage|p1a: Golurk|0 fnt
+|faint|p1a: Golurk
+|-damage|p2a: Ceruledge|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743825713
+|switch|p1a: Clawitzer|Clawitzer, F|100/100
+|turn|3
+|
+|t:|1743825717
+|move|p2a: Ceruledge|U-turn|p1a: Clawitzer
+|-damage|p1a: Clawitzer|75/100
+|-damage|p2a: Ceruledge|81/100|[from] item: Life Orb
+|
+|t:|1743825721
+|switch|p2a: Hydrapple|Hydrapple, F|100/100|[from] U-turn
+|move|p1a: Clawitzer|Water Pulse|p2a: Hydrapple
+|-resisted|p2a: Hydrapple
+|-damage|p2a: Hydrapple|83/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743825729
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Hydrapple|Giga Drain|p1a: Ninetales
+|-damage|p1a: Ninetales|52/100
+|-heal|p2a: Hydrapple|99/100|[from] drain|[of] p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Ninetales|58/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743825737
+|switch|p2a: Samurott|Samurott-Hisui, F, shiny|100/100
+|move|p1a: Ninetales|Blizzard|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|72/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Ninetales|64/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743825750
+|switch|p1a: Salamence|Salamence, M|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Salamence
+|-damage|p1a: Salamence|48/100
+|-sidestart|p1: Assumpcao_fs|Spikes
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743825768
+|move|p2a: Samurott|Ceaseless Edge|p1a: Salamence|[miss]
+|-miss|p2a: Samurott|p1a: Salamence
+|move|p1a: Salamence|Dragon Claw|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|-damage|p1a: Salamence|38/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743825782
+|switch|p2a: Gardevoir|Gardevoir, F|100/100
+|-ability|p2a: Gardevoir|Moxie|[from] ability: Trace|[of] p1a: Salamence
+|turn|8
+|
+|t:|1743825789
+|-terastallize|p1a: Salamence|Steel
+|move|p2a: Gardevoir|Alluring Voice|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|12/100
+|move|p1a: Salamence|Iron Head|p2a: Gardevoir
+|-supereffective|p2a: Gardevoir
+|-crit|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|-damage|p1a: Salamence|2/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1743825796
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|9
+|
+|t:|1743825801
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|upkeep
+|
+|t:|1743825824
+|switch|p1a: Clawitzer|Clawitzer, F|75/100
+|-damage|p1a: Clawitzer|62/100|[from] Spikes
+|turn|10
+|
+|t:|1743825840
+|switch|p2a: Hydrapple|Hydrapple, F|100/100
+|move|p1a: Clawitzer|Dragon Pulse|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|
+|upkeep
+|
+|t:|1743825846
+|switch|p2a: Ceruledge|Ceruledge, M|81/100
+|turn|11
+|
+|t:|1743825852
+|move|p2a: Ceruledge|Shadow Ball|p1a: Clawitzer
+|-damage|p1a: Clawitzer|0 fnt
+|faint|p1a: Clawitzer
+|-damage|p2a: Ceruledge|71/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743825871
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|turn|12
+|
+|t:|1743825874
+|move|p2a: Ceruledge|Flamethrower|p1a: Tsareena
+|-supereffective|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|faint|p1a: Tsareena
+|-damage|p2a: Ceruledge|61/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743825881
+|switch|p1a: Ninetales|Ninetales-Alola, M|64/100
+|-damage|p1a: Ninetales|52/100|[from] Spikes
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|13
+|
+|t:|1743825888
+|move|p2a: Ceruledge|Flamethrower|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|-damage|p2a: Ceruledge|51/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743825892
+|switch|p1a: Delphox|Delphox, M, shiny|100/100
+|-damage|p1a: Delphox|88/100|[from] Spikes
+|turn|14
+|
+|t:|1743825900
+|move|p2a: Ceruledge|Shadow Ball|p1a: Delphox
+|-supereffective|p1a: Delphox
+|-damage|p1a: Delphox|0 fnt
+|faint|p1a: Delphox
+|-damage|p2a: Ceruledge|41/100|[from] item: Life Orb
+|
+|win|lc872244
+|raw|Assumpcao_fs's rating: 1157 &rarr; <strong>1127</strong><br />(-30 for losing)
+|raw|lc872244's rating: 1093 &rarr; <strong>1124</strong><br />(+31 for winning)
+|l|☆Assumpcao_fs
+|player|p1|
+|l|☆lc872244
+|player|p2|

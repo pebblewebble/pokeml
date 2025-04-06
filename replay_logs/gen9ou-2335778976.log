@@ -1,0 +1,315 @@
+|j|☆Shadow4cTest3r
+|j|☆metakill4r
+|t:|1743834791
+|gametype|singles
+|player|p1|Shadow4cTest3r|101|1540
+|player|p2|metakill4r|boarder|1566
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garganacl, M|
+|poke|p1|Hydrapple, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Ting-Lu|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p2|Ninetales-Alola, M|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Kyurem|
+|poke|p2|Gholdengo|
+|poke|p2|Greninja-*, M|
+|teampreview
+|
+|t:|1743834797
+|start
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|1
+|
+|t:|1743834802
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Gholdengo|Trick|p1a: Slowking
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Slowking
+|-item|p1a: Slowking|Choice Scarf|[from] move: Trick
+|-item|p2a: Gholdengo|Assault Vest|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|t:|1743834809
+|move|p2a: Gholdengo|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|47/100
+|move|p1a: Slowking|Flamethrower|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|66/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743834815
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Gholdengo|Shadow Ball|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|91/100
+|
+|-heal|p1a: Ting-Lu|97/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743834818
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Ninetales
+|-sidestart|p2: metakill4r|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Ting-Lu|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743834820
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: metakill4r|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Shadow4cTest3r)
+|
+|t:|1743834854
+|switch|p2a: Temu Mamo|Great Tusk|100/100
+|-damage|p2a: Temu Mamo|98/100|[from] Stealth Rock
+|-enditem|p2a: Temu Mamo|Booster Energy
+|-activate|p2a: Temu Mamo|ability: Protosynthesis|[fromitem]
+|-start|p2a: Temu Mamo|protosynthesisatk
+|move|p1a: Garganacl|Salt Cure|p2a: Temu Mamo
+|-resisted|p2a: Temu Mamo
+|-damage|p2a: Temu Mamo|96/100
+|-start|p2a: Temu Mamo|Salt Cure
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Temu Mamo|84/100|[from] Salt Cure
+|upkeep
+|turn|7
+|
+|t:|1743834858
+|switch|p1a: Hydrapple|Hydrapple, F|100/100
+|move|p2a: Temu Mamo|Rapid Spin|p1a: Hydrapple
+|-damage|p1a: Hydrapple|88/100
+|-boost|p2a: Temu Mamo|spe|1
+|-sideend|p2: metakill4r|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Temu Mamo
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Temu Mamo|72/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1743834865
+|move|p2a: Temu Mamo|Ice Spinner|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|9/100
+|move|p1a: Hydrapple|Giga Drain|p2a: Temu Mamo
+|-supereffective|p2a: Temu Mamo
+|-damage|p2a: Temu Mamo|24/100
+|-heal|p1a: Hydrapple|30/100|[from] drain|[of] p2a: Temu Mamo
+|
+|-weather|none
+|-damage|p2a: Temu Mamo|12/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1743834878
+|move|p2a: Temu Mamo|Headlong Rush|p1a: Hydrapple
+|-resisted|p1a: Hydrapple
+|-damage|p1a: Hydrapple|8/100
+|-unboost|p2a: Temu Mamo|def|1
+|-unboost|p2a: Temu Mamo|spd|1
+|move|p1a: Hydrapple|Giga Drain|p2a: Temu Mamo
+|-supereffective|p2a: Temu Mamo
+|-damage|p2a: Temu Mamo|0 fnt
+|-heal|p1a: Hydrapple|13/100|[from] drain|[of] p2a: Temu Mamo
+|faint|p2a: Temu Mamo
+|-end|p2a: Temu Mamo|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743834889
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|10
+|
+|t:|1743834894
+|switch|p1a: Slowking|Slowking-Galar, M|80/100
+|move|p2a: Greninja|Dark Pulse|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|23/100
+|-damage|p2a: Greninja|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|11
+|
+|t:|1743834904
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Greninja|Dark Pulse|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|91/100
+|-damage|p2a: Greninja|81/100|[from] item: Life Orb
+|
+|-heal|p1a: Ting-Lu|97/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743834913
+|-terastallize|p2a: Greninja|Water
+|-terastallize|p1a: Ting-Lu|Bug
+|move|p2a: Greninja|Surf|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|67/100
+|-damage|p2a: Greninja|71/100|[from] item: Life Orb
+|move|p1a: Ting-Lu|Earthquake|p2a: Greninja
+|-damage|p2a: Greninja|37/100
+|
+|-heal|p1a: Ting-Lu|74/100|[from] item: Leftovers
+|-sideend|p2: metakill4r|move: Aurora Veil
+|upkeep
+|turn|13
+|
+|t:|1743834923
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Ting-Lu|Earthquake|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-damage|p2a: Ninetales|57/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Ting-Lu|80/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743834926
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: metakill4r|move: Aurora Veil
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Ninetales
+|-sidestart|p2: metakill4r|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Ting-Lu|86/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743834929
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: Ninetales|Encore||[still]
+|-fail|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743834933
+|move|p2a: Ninetales|Freeze-Dry|p1a: Garganacl
+|-damage|p1a: Garganacl|85/100
+|move|p1a: Garganacl|Salt Cure|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|45/100
+|-start|p2a: Ninetales|Salt Cure
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Garganacl|92/100|[from] item: Leftovers
+|-damage|p2a: Ninetales|33/100|[from] Salt Cure
+|upkeep
+|turn|17
+|
+|t:|1743834935
+|move|p2a: Ninetales|Encore|p1a: Garganacl
+|-start|p1a: Garganacl|Encore
+|move|p1a: Garganacl|Salt Cure|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|20/100
+|
+|-weather|none
+|-heal|p1a: Garganacl|98/100|[from] item: Leftovers
+|-damage|p2a: Ninetales|8/100|[from] Salt Cure
+|upkeep
+|turn|18
+|
+|t:|1743834940
+|move|p2a: Ninetales|Freeze-Dry|p1a: Garganacl
+|-damage|p1a: Garganacl|83/100
+|move|p1a: Garganacl|Salt Cure|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-heal|p1a: Garganacl|89/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743834947
+|switch|p2a: Gholdengo|Gholdengo|66/100
+|-damage|p2a: Gholdengo|60/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743834952
+|switch|p2a: Kyurem|Kyurem|100/100
+|-damage|p2a: Kyurem|76/100|[from] Stealth Rock
+|-ability|p2a: Kyurem|Pressure
+|switch|p1a: Ting-Lu|Ting-Lu, tera:Bug|86/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|
+|-heal|p1a: Ting-Lu|92/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743834959
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|move|p1a: Ting-Lu|Whirlwind|p2a: Kyurem
+|drag|p2a: Greninja|Greninja, M, tera:Water|37/100
+|-damage|p2a: Greninja|25/100|[from] Stealth Rock
+|
+|-heal|p1a: Ting-Lu|99/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743834964
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|-damage|p2a: Slowking|88/100|[from] Stealth Rock
+|move|p1a: Ting-Lu|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|47/100
+|
+|-heal|p1a: Ting-Lu|100/100|[from] item: Leftovers
+|-sideend|p2: metakill4r|move: Aurora Veil
+|upkeep
+|turn|22
+|
+|t:|1743834967
+|move|p1a: Ting-Lu|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|-message|metakill4r forfeited.
+|
+|win|Shadow4cTest3r
+|raw|Shadow4cTest3r's rating: 1540 &rarr; <strong>1561</strong><br />(+21 for winning)
+|raw|metakill4r's rating: 1566 &rarr; <strong>1545</strong><br />(-21 for losing)
+|l|☆metakill4r
+|player|p2|
+|l|☆Shadow4cTest3r
+|player|p1|

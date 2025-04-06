@@ -1,0 +1,312 @@
+|j|‽SupplementaryDisco
+|j|☆myout
+|t:|1743798856
+|gametype|singles
+|player|p1|SupplementaryDisco|clemont|1435
+|player|p2|myout|hexmaniac-gen6|1398
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dondozo, M|
+|poke|p1|Mabosstiff, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Iron Treads|
+|poke|p1|Zapdos|
+|poke|p1|Clefable, F|
+|poke|p2|Meloetta|
+|poke|p2|Araquanid, M|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Moth|
+|poke|p2|Enamorus, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SupplementaryDisco)
+|inactive|myout also wants the timer to be on.
+|inactive|myout has 120 seconds left.
+|
+|t:|1743798896
+|start
+|switch|p1a: Zapdos|Zapdos, shiny|100/100
+|switch|p2a: Michael|Gholdengo|100/100
+|-item|p2a: Michael|Air Balloon
+|turn|1
+|
+|t:|1743798919
+|switch|p2a: Béjart|Great Tusk|100/100
+|-enditem|p2a: Béjart|Booster Energy
+|-activate|p2a: Béjart|ability: Protosynthesis|[fromitem]
+|-start|p2a: Béjart|protosynthesisatk
+|move|p1a: Zapdos|U-turn|p2a: Béjart
+|-resisted|p2a: Béjart
+|-damage|p2a: Béjart|96/100
+|
+|t:|1743798928
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1743798935
+|move|p2a: Béjart|Headlong Rush|p1a: Hatterene
+|-damage|p1a: Hatterene|16/100
+|-unboost|p2a: Béjart|def|1
+|-unboost|p2a: Béjart|spd|1
+|move|p1a: Hatterene|Draining Kiss|p2a: Béjart
+|-supereffective|p2a: Béjart
+|-damage|p2a: Béjart|0 fnt
+|-heal|p1a: Hatterene|99/100|[from] drain|[of] p2a: Béjart
+|faint|p2a: Béjart
+|-end|p2a: Béjart|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743798941
+|switch|p2a: Michael|Gholdengo|100/100
+|-item|p2a: Michael|Air Balloon
+|turn|3
+|
+|t:|1743798950
+|move|p2a: Michael|Make It Rain|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-unboost|p2a: Michael|spa|1
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1743798953
+|switch|p1a: Mabosstiff|Mabosstiff, F, shiny|100/100
+|turn|4
+|
+|t:|1743798965
+|switch|p2a: Esmeralda|Enamorus, F|100/100
+|move|p1a: Mabosstiff|Crunch|p2a: Esmeralda
+|-resisted|p2a: Esmeralda
+|-damage|p2a: Esmeralda|0 fnt
+|faint|p2a: Esmeralda
+|
+|upkeep
+|
+|t:|1743798968
+|switch|p2a: Domingo|Araquanid, M|100/100
+|turn|5
+|
+|t:|1743798992
+|move|p1a: Mabosstiff|Crunch|p2a: Domingo
+|-damage|p2a: Domingo|36/100
+|move|p2a: Domingo|Sticky Web|p1a: Mabosstiff
+|-sidestart|p1: SupplementaryDisco|move: Sticky Web
+|
+|upkeep
+|turn|6
+|
+|t:|1743799007
+|move|p2a: Domingo|Endure|p2a: Domingo
+|-singleturn|p2a: Domingo|move: Endure
+|move|p1a: Mabosstiff|Crunch|p2a: Domingo
+|-activate|p2a: Domingo|move: Endure
+|-damage|p2a: Domingo|1/100
+|-unboost|p2a: Domingo|def|1
+|
+|upkeep
+|turn|7
+|-enditem|p2a: Domingo|Custap Berry|[eat]
+|-activate|p2a: Domingo|item: Custap Berry|[consumed]
+|
+|t:|1743799026
+|switch|p1a: Clefable|Clefable, F, shiny|100/100
+|-activate|p1a: Clefable|move: Sticky Web
+|-unboost|p1a: Clefable|spe|1
+|move|p2a: Domingo|Endeavor|p1a: Clefable
+|-damage|p1a: Clefable|1/100
+|
+|upkeep
+|turn|8
+|-enditem|p1a: Clefable|Custap Berry|[eat]
+|-activate|p1a: Clefable|item: Custap Berry|[consumed]
+|
+|t:|1743799030
+|move|p1a: Clefable|Stealth Rock|p2a: Domingo
+|-sidestart|p2: myout|move: Stealth Rock
+|move|p2a: Domingo|Endeavor|p1a: Clefable
+|-immune|p1a: Clefable
+|
+|upkeep
+|turn|9
+|
+|t:|1743799035
+|move|p2a: Domingo|Surf|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|t:|1743799048
+|switch|p1a: Zapdos|Zapdos, shiny|100/100
+|turn|10
+|
+|t:|1743799054
+|move|p1a: Zapdos|U-turn|p2a: Domingo
+|-damage|p2a: Domingo|0 fnt
+|faint|p2a: Domingo
+|
+|t:|1743799057
+|switch|p1a: Mabosstiff|Mabosstiff, F, shiny|100/100|[from] U-turn
+|-activate|p1a: Mabosstiff|move: Sticky Web
+|-unboost|p1a: Mabosstiff|spe|1
+|
+|upkeep
+|
+|t:|1743799077
+|switch|p2a: Noureev|Iron Moth|100/100
+|-damage|p2a: Noureev|76/100|[from] Stealth Rock
+|-enditem|p2a: Noureev|Booster Energy
+|-activate|p2a: Noureev|ability: Quark Drive|[fromitem]
+|-start|p2a: Noureev|quarkdrivespa
+|turn|11
+|
+|t:|1743799096
+|move|p2a: Noureev|Dazzling Gleam|p1a: Mabosstiff
+|-supereffective|p1a: Mabosstiff
+|-damage|p1a: Mabosstiff|0 fnt
+|faint|p1a: Mabosstiff
+|
+|upkeep
+|
+|t:|1743799101
+|switch|p1a: Zapdos|Zapdos, shiny|100/100
+|turn|12
+|
+|t:|1743799104
+|move|p2a: Noureev|Fiery Dance|p1a: Zapdos
+|-damage|p1a: Zapdos|57/100
+|-boost|p2a: Noureev|spa|1
+|move|p1a: Zapdos|Thunder Wave|p2a: Noureev
+|-status|p2a: Noureev|par
+|
+|upkeep
+|turn|13
+|
+|t:|1743799113
+|move|p1a: Zapdos|Hurricane|p2a: Noureev
+|-damage|p2a: Noureev|25/100 par
+|move|p2a: Noureev|Fiery Dance|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-boost|p2a: Noureev|spa|1
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1743799118
+|switch|p1a: Iron Treads|Iron Treads, shiny|100/100
+|-activate|p1a: Iron Treads|move: Sticky Web
+|-unboost|p1a: Iron Treads|spe|1
+|turn|14
+|
+|t:|1743799123
+|move|p1a: Iron Treads|Earthquake|p2a: Noureev
+|-supereffective|p2a: Noureev
+|-crit|p2a: Noureev
+|-damage|p2a: Noureev|0 fnt
+|faint|p2a: Noureev
+|-end|p2a: Noureev|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743799128
+|switch|p2a: Michael|Gholdengo|100/100
+|-damage|p2a: Michael|94/100|[from] Stealth Rock
+|-item|p2a: Michael|Air Balloon
+|turn|15
+|
+|t:|1743799135
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Dondozo|Dondozo, M, shiny|100/100
+|-activate|p1a: Dondozo|move: Sticky Web
+|-unboost|p1a: Dondozo|spe|1
+|move|p2a: Michael|Shadow Ball|p1a: Dondozo
+|-damage|p1a: Dondozo|58/100
+|
+|-heal|p1a: Dondozo|64/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743799139
+|move|p2a: Michael|Shadow Ball|p1a: Dondozo
+|-damage|p1a: Dondozo|20/100
+|-unboost|p1a: Dondozo|spd|1
+|move|p1a: Dondozo|Liquidation|p2a: Michael
+|-damage|p2a: Michael|64/100
+|-enditem|p2a: Michael|Air Balloon
+|
+|-heal|p1a: Dondozo|26/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743799159
+|switch|p1a: Iron Treads|Iron Treads, shiny|100/100
+|-activate|p1a: Iron Treads|move: Sticky Web
+|-unboost|p1a: Iron Treads|spe|1
+|move|p2a: Michael|Shadow Ball|p1a: Iron Treads
+|-damage|p1a: Iron Treads|42/100
+|-unboost|p1a: Iron Treads|spd|1
+|
+|upkeep
+|turn|18
+|
+|t:|1743799164
+|move|p1a: Iron Treads|Earthquake|p2a: Michael
+|-supereffective|p2a: Michael
+|-damage|p2a: Michael|0 fnt
+|faint|p2a: Michael
+|
+|upkeep
+|
+|t:|1743799169
+|switch|p2a: Meloetta|Meloetta|100/100
+|-damage|p2a: Meloetta|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743799193
+|move|p1a: Iron Treads|Earthquake|p2a: Meloetta
+|-damage|p2a: Meloetta|21/100
+|move|p2a: Meloetta|Relic Song|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|-formechange|p2a: Meloetta|Meloetta-Pirouette|[msg]
+|-damage|p2a: Meloetta|11/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743799197
+|switch|p1a: Dondozo|Dondozo, M, shiny|26/100
+|-activate|p1a: Dondozo|move: Sticky Web
+|-unboost|p1a: Dondozo|spe|1
+|turn|20
+|
+|t:|1743799201
+|move|p2a: Meloetta|Relic Song|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|-formechange|p2a: Meloetta|Meloetta|[msg]
+|-damage|p2a: Meloetta|1/100|[from] item: Life Orb
+|
+|win|myout
+|raw|SupplementaryDisco's rating: 1435 &rarr; <strong>1413</strong><br />(-22 for losing)
+|raw|myout's rating: 1398 &rarr; <strong>1420</strong><br />(+22 for winning)
+|l|‽SupplementaryDisco
+|player|p1|
+|l|☆myout
+|player|p2|

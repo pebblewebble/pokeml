@@ -1,0 +1,169 @@
+|j|☆Brutalshaman
+|j|☆Bum_Muncha
+|t:|1743785246
+|gametype|singles
+|player|p1|Brutalshaman|170|1515
+|player|p2|Bum_Muncha|169|1596
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Scovillain, F|
+|poke|p1|Walking Wake|
+|poke|p1|Hatterene, F|
+|poke|p1|Great Tusk|
+|poke|p1|Ceruledge, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Pecharunt|
+|poke|p2|Darkrai|
+|poke|p2|Kyurem|
+|poke|p2|Zapdos-Galar|
+|teampreview
+|
+|t:|1743785267
+|start
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1743785296
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|move|p2a: Garchomp|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|54/100
+|-enditem|p1a: Hatterene|Eject Button
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|
+|t:|1743785321
+|switch|p1a: Ceruledge|Ceruledge, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743785326
+|move|p2a: Garchomp|Draco Meteor|p1a: Ceruledge
+|-damage|p1a: Ceruledge|21/100
+|-unboost|p2a: Garchomp|spa|2
+|-damage|p2a: Garchomp|81/100|[from] item: Life Orb
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743785339
+|switch|p1a: Hatterene|Hatterene, F, shiny|54/100
+|move|p2a: Garchomp|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|3/100
+|-damage|p2a: Garchomp|71/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743785348
+|switch|p1a: Don|Great Tusk, shiny|100/100
+|-activate|p1a: Don|ability: Protosynthesis
+|-start|p1a: Don|protosynthesisatk
+|move|p2a: Garchomp|Earthquake|p1a: Don
+|-damage|p1a: Don|57/100
+|-damage|p2a: Garchomp|61/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743785352
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-item|p2a: Pecharunt|Air Balloon
+|move|p1a: Don|Ice Spinner|p2a: Pecharunt
+|-damage|p2a: Pecharunt|81/100
+|-enditem|p2a: Pecharunt|Air Balloon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743785355
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|move|p1a: Don|Headlong Rush|p2a: Zapdos
+|-immune|p2a: Zapdos
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743785379
+|-end|p1a: Don|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F, shiny|3/100
+|move|p2a: Zapdos|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|t:|1743785385
+|switch|p2a: Garchomp|Garchomp, M|61/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743785389
+|switch|p1a: Scovillain|Scovillain, F|100/100
+|turn|8
+|
+|t:|1743785395
+|move|p1a: Scovillain|Flamethrower|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|11/100
+|-damage|p1a: Scovillain|91/100|[from] item: Life Orb
+|move|p2a: Garchomp|Stealth Rock|p1a: Scovillain
+|-sidestart|p1: Brutalshaman|move: Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743785401
+|move|p2a: Garchomp|Earthquake|p1a: Scovillain
+|-damage|p1a: Scovillain|0 fnt
+|faint|p1a: Scovillain
+|-damage|p2a: Garchomp|1/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743785405
+|switch|p1a: Don|Great Tusk, shiny|57/100
+|-damage|p1a: Don|54/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743785409
+|move|p2a: Garchomp|Draco Meteor|p1a: Don
+|-damage|p1a: Don|0 fnt
+|-unboost|p2a: Garchomp|spa|2
+|faint|p1a: Don
+|-end|p1a: Don|Protosynthesis|[silent]
+|-damage|p2a: Garchomp|0 fnt|[from] item: Life Orb
+|faint|p2a: Garchomp
+|
+|upkeep
+|-message|Brutalshaman forfeited.
+|
+|win|Bum_Muncha
+|raw|Brutalshaman's rating: 1515 &rarr; <strong>1500</strong><br />(-15 for losing)
+|raw|Bum_Muncha's rating: 1596 &rarr; <strong>1611</strong><br />(+15 for winning)
+|l|☆Brutalshaman
+|player|p1|
+|l|☆Bum_Muncha
+|player|p2|

@@ -1,0 +1,366 @@
+|j|☆obstruzyskybs
+|j|☆ArmandoJ
+|t:|1743839965
+|gametype|singles
+|player|p1|obstruzyskybs|101|1156
+|player|p2|ArmandoJ|dancer|1148
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Bellibolt, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Araquanid, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Kommo-o, F|
+|poke|p1|Fezandipiti, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Malamar, F|
+|poke|p2|Serperior, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Galvantula, M|
+|poke|p2|Haunter, M|
+|teampreview
+|
+|t:|1743839969
+|start
+|switch|p1a: Araquanid|Araquanid, F, shiny|100/100
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ArmandoJ)
+|
+|t:|1743839974
+|move|p2a: Galvantula|Thunder Wave|p1a: Araquanid
+|-status|p1a: Araquanid|par
+|move|p1a: Araquanid|Sticky Web|p2a: Galvantula
+|-sidestart|p2: ArmandoJ|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743839986
+|move|p2a: Galvantula|Sticky Web|p1a: Araquanid
+|-sidestart|p1: obstruzyskybs|move: Sticky Web
+|cant|p1a: Araquanid|par
+|
+|upkeep
+|turn|3
+|
+|t:|1743839991
+|move|p2a: Galvantula|Volt Switch|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|55/100 par
+|
+|t:|1743839995
+|switch|p2a: Haunter|Haunter, M|100/100|[from] Volt Switch
+|move|p1a: Araquanid|Poison Jab|p2a: Haunter
+|-resisted|p2a: Haunter
+|-damage|p2a: Haunter|91/100
+|
+|-heal|p2a: Haunter|97/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1743840001
+|move|p2a: Haunter|Substitute|p2a: Haunter
+|-start|p2a: Haunter|Substitute
+|-damage|p2a: Haunter|72/100
+|move|p1a: Araquanid|Liquidation|p2a: Haunter
+|-end|p2a: Haunter|Substitute
+|
+|-heal|p2a: Haunter|78/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1743840006
+|move|p2a: Haunter|Disable|p1a: Araquanid
+|-start|p1a: Araquanid|Disable|Liquidation
+|cant|p1a: Araquanid|Disable|Liquidation
+|
+|-heal|p2a: Haunter|84/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1743840014
+|move|p2a: Haunter|Shadow Ball|p1a: Araquanid
+|-damage|p1a: Araquanid|26/100 par
+|move|p1a: Araquanid|Leech Life|p2a: Haunter
+|-resisted|p2a: Haunter
+|-damage|p2a: Haunter|69/100
+|-heal|p1a: Araquanid|32/100 par|[from] drain|[of] p2a: Haunter
+|
+|-heal|p2a: Haunter|75/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1743840022
+|move|p2a: Haunter|Shadow Ball|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|-heal|p2a: Haunter|81/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1743840033
+|switch|p1a: Zamazenta|Zamazenta, shiny|100/100
+|-activate|p1a: Zamazenta|move: Sticky Web
+|-unboost|p1a: Zamazenta|spe|1
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|8
+|
+|t:|1743840041
+|move|p2a: Haunter|Substitute|p2a: Haunter
+|-start|p2a: Haunter|Substitute
+|-damage|p2a: Haunter|56/100
+|move|p1a: Zamazenta|Trailblaze|p2a: Haunter
+|-resisted|p2a: Haunter
+|-activate|p2a: Haunter|move: Substitute|[damage]
+|-boost|p1a: Zamazenta|spe|1
+|
+|-heal|p2a: Haunter|62/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1743840048
+|move|p1a: Zamazenta|Crunch|p2a: Haunter
+|-supereffective|p2a: Haunter
+|-end|p2a: Haunter|Substitute
+|move|p2a: Haunter|Shadow Ball|p1a: Zamazenta
+|-damage|p1a: Zamazenta|67/100
+|
+|-heal|p1a: Zamazenta|73/100|[from] item: Leftovers
+|-heal|p2a: Haunter|68/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1743840055
+|move|p1a: Zamazenta|Trailblaze|p2a: Haunter
+|-resisted|p2a: Haunter
+|-damage|p2a: Haunter|48/100
+|-boost|p1a: Zamazenta|spe|1
+|move|p2a: Haunter|Disable|p1a: Zamazenta
+|-start|p1a: Zamazenta|Disable|Trailblaze
+|
+|-heal|p1a: Zamazenta|79/100|[from] item: Leftovers
+|-heal|p2a: Haunter|54/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1743840063
+|move|p1a: Zamazenta|Crunch|p2a: Haunter
+|-supereffective|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|
+|-heal|p1a: Zamazenta|85/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743840069
+|switch|p2a: Serperior|Serperior, M|100/100
+|-activate|p2a: Serperior|move: Sticky Web
+|-boost|p2a: Serperior|spe|1
+|turn|12
+|
+|t:|1743840075
+|-terastallize|p2a: Serperior|Poison
+|move|p1a: Zamazenta|Body Press|p2a: Serperior
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|64/100
+|move|p2a: Serperior|Leaf Storm|p1a: Zamazenta
+|-damage|p1a: Zamazenta|40/100
+|-boost|p2a: Serperior|spa|2
+|
+|-heal|p1a: Zamazenta|46/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743840084
+|move|p1a: Zamazenta|Crunch|p2a: Serperior
+|-damage|p2a: Serperior|36/100
+|move|p2a: Serperior|Leaf Storm|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1743840106
+|switch|p1a: Fezandipiti|Fezandipiti, M|100/100
+|-activate|p1a: Fezandipiti|move: Sticky Web
+|-unboost|p1a: Fezandipiti|spe|1
+|turn|14
+|
+|t:|1743840113
+|move|p2a: Serperior|Tera Blast|p1a: Fezandipiti|[anim] Tera Blast Poison
+|-damage|p1a: Fezandipiti|43/100
+|move|p1a: Fezandipiti|Lash Out|p2a: Serperior
+|-damage|p2a: Serperior|15/100
+|
+|-heal|p1a: Fezandipiti|49/100|[from] item: Black Sludge
+|upkeep
+|turn|15
+|
+|t:|1743840119
+|-terastallize|p1a: Fezandipiti|Poison
+|move|p2a: Serperior|Tera Blast|p1a: Fezandipiti|[anim] Tera Blast Poison
+|-resisted|p1a: Fezandipiti
+|-damage|p1a: Fezandipiti|19/100
+|move|p1a: Fezandipiti|Lash Out|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|-heal|p1a: Fezandipiti|25/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1743840129
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|-activate|p2a: Galvantula|move: Sticky Web
+|-unboost|p2a: Galvantula|spe|1
+|turn|16
+|
+|t:|1743840133
+|move|p2a: Galvantula|Volt Switch|p1a: Fezandipiti
+|-damage|p1a: Fezandipiti|7/100
+|
+|t:|1743840136
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from] Volt Switch
+|move|p1a: Fezandipiti|Roost|p1a: Fezandipiti
+|-heal|p1a: Fezandipiti|57/100
+|
+|-heal|p1a: Fezandipiti|63/100|[from] item: Black Sludge
+|upkeep
+|turn|17
+|
+|t:|1743840144
+|move|p2a: Cinderace|U-turn|p1a: Fezandipiti
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Fezandipiti
+|-damage|p1a: Fezandipiti|44/100
+|
+|t:|1743840146
+|switch|p2a: Galvantula|Galvantula, M|100/100|[from] U-turn
+|-activate|p2a: Galvantula|move: Sticky Web
+|-unboost|p2a: Galvantula|spe|1
+|move|p1a: Fezandipiti|Poison Jab|p2a: Galvantula
+|-damage|p2a: Galvantula|30/100
+|-status|p2a: Galvantula|psn
+|
+|-heal|p1a: Fezandipiti|50/100|[from] item: Black Sludge
+|-damage|p2a: Galvantula|17/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1743840152
+|move|p2a: Galvantula|Thunder Wave|p1a: Fezandipiti
+|-status|p1a: Fezandipiti|par
+|move|p1a: Fezandipiti|Roost|p1a: Fezandipiti
+|-heal|p1a: Fezandipiti|99/100 par
+|
+|-heal|p1a: Fezandipiti|100/100 par|[from] item: Black Sludge
+|-damage|p2a: Galvantula|5/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1743840160
+|move|p2a: Galvantula|Bug Buzz|p1a: Fezandipiti
+|-resisted|p1a: Fezandipiti
+|-damage|p1a: Fezandipiti|88/100 par
+|move|p1a: Fezandipiti|Double Kick|p2a: Galvantula
+|-resisted|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|-hitcount|p2: Galvantula|1
+|
+|-heal|p1a: Fezandipiti|94/100 par|[from] item: Black Sludge
+|upkeep
+|
+|t:|1743840171
+|switch|p2a: Malamar|Malamar, F|100/100
+|-activate|p2a: Malamar|move: Sticky Web
+|-boost|p2a: Malamar|spe|1
+|turn|20
+|
+|t:|1743840175
+|move|p2a: Malamar|Knock Off|p1a: Fezandipiti
+|-damage|p1a: Fezandipiti|44/100 par
+|-enditem|p1a: Fezandipiti|Black Sludge|[from] move: Knock Off|[of] p2a: Malamar
+|cant|p1a: Fezandipiti|par
+|
+|upkeep
+|turn|21
+|
+|t:|1743840180
+|move|p2a: Malamar|Psycho Cut|p1a: Fezandipiti
+|-supereffective|p1a: Fezandipiti
+|-damage|p1a: Fezandipiti|0 fnt
+|faint|p1a: Fezandipiti
+|
+|upkeep
+|
+|t:|1743840186
+|switch|p1a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-boost|p2a: Malamar|atk|1
+|turn|22
+|
+|t:|1743840193
+|move|p1a: Landorus|U-turn|p2a: Malamar
+|-supereffective|p2a: Malamar
+|-damage|p2a: Malamar|0 fnt
+|faint|p2a: Malamar
+|
+|t:|1743840197
+|switch|p1a: Bellibolt|Bellibolt, F, shiny|100/100|[from] U-turn
+|-activate|p1a: Bellibolt|move: Sticky Web
+|-unboost|p1a: Bellibolt|spe|1
+|
+|upkeep
+|
+|t:|1743840202
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|23
+|
+|t:|1743840207
+|move|p2a: Cinderace|High Jump Kick|p1a: Bellibolt
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-damage|p1a: Bellibolt|63/100
+|-start|p1a: Bellibolt|Charge|High Jump Kick|[from] ability: Electromorphosis
+|move|p1a: Bellibolt|Soak|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Water
+|
+|-heal|p1a: Bellibolt|69/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1743840219
+|move|p2a: Cinderace|High Jump Kick|p1a: Bellibolt
+|-damage|p1a: Bellibolt|42/100
+|-start|p1a: Bellibolt|Charge|High Jump Kick|[from] ability: Electromorphosis
+|move|p1a: Bellibolt|Parabolic Charge|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|-heal|p1a: Bellibolt|78/100|[from] drain|[of] p2a: Cinderace
+|faint|p2a: Cinderace
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|-heal|p1a: Bellibolt|84/100|[from] item: Leftovers
+|upkeep
+|-message|ArmandoJ forfeited.
+|
+|win|obstruzyskybs
+|raw|obstruzyskybs's rating: 1156 &rarr; <strong>1180</strong><br />(+24 for winning)
+|raw|ArmandoJ's rating: 1148 &rarr; <strong>1124</strong><br />(-24 for losing)
+|l|☆ArmandoJ
+|player|p2|
+|l|☆obstruzyskybs
+|player|p1|

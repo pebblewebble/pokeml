@@ -1,0 +1,302 @@
+|j|☆equinox000
+|j|☆Prav33nmoon
+|t:|1743829613
+|gametype|singles
+|player|p1|equinox000|101|1569
+|player|p2|Prav33nmoon|koga|1602
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Iron Moth|
+|poke|p1|Iron Valiant|
+|poke|p1|Kyurem|
+|poke|p1|Gholdengo|
+|poke|p2|Iron Treads|
+|poke|p2|Ogerpon, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Zapdos|
+|poke|p2|Kyurem|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Prav33nmoon)
+|
+|t:|1743829627
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Ogerpon|Ogerpon, F|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743829635
+|move|p1a: Iron Valiant|Moonblast|p2a: Ogerpon
+|-damage|p2a: Ogerpon|53/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|5/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743829640
+|move|p1a: Iron Valiant|Close Combat|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743829645
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|3
+|
+|t:|1743829654
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Samurott|Aqua Jet|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|90/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743829661
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Samurott|Ceaseless Edge|p1a: Kyurem
+|-damage|p1a: Kyurem|41/100
+|-sidestart|p1: equinox000|Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1743829672
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p1a: Kyurem|Scale Shot|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|92/100
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|84/100
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|76/100
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|68/100
+|-hitcount|p2a: Iron Treads|4
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|
+|upkeep
+|turn|6
+|
+|t:|1743829679
+|-terastallize|p1a: Kyurem|Fire
+|move|p1a: Kyurem|Tera Blast|p2a: Iron Treads|[anim] Tera Blast Fire
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743829683
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|7
+|
+|t:|1743829691
+|switch|p1a: Iron Valiant|Iron Valiant|5/100
+|-damage|p1a: Iron Valiant|0 fnt|[from] Spikes
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|move|p2a: Samurott|Aqua Jet|p1: Iron Valiant|[notarget]
+|-fail|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743829698
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|88/100|[from] Spikes
+|turn|8
+|
+|t:|1743829702
+|move|p1a: Gholdengo|Dazzling Gleam|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|52/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-sidestart|p1: equinox000|Spikes
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743829715
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|9
+|
+|t:|1743829721
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743829726
+|move|p1a: Dragonite|Ice Spinner|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|43/100
+|-status|p1a: Dragonite|par|[from] ability: Static|[of] p2a: Zapdos
+|move|p2a: Zapdos|Thunder Wave|p1a: Dragonite
+|-fail|p1a: Dragonite|par
+|
+|upkeep
+|turn|11
+|
+|t:|1743829734
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|93/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Dragonite|Ice Spinner|p2a: Zapdos
+|-damage|p2a: Zapdos|60/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743829738
+|move|p2a: Zapdos|Hurricane|p1a: Dragonite
+|-damage|p1a: Dragonite|77/100 par
+|cant|p1a: Dragonite|par
+|
+|upkeep
+|turn|13
+|
+|t:|1743829743
+|move|p2a: Zapdos|Hurricane|p1a: Dragonite
+|-damage|p1a: Dragonite|26/100 par
+|move|p1a: Dragonite|Ice Spinner|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1743829756
+|switch|p2a: Kyurem|Kyurem, shiny|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|14
+|
+|t:|1743829760
+|move|p1a: Dragonite|Extreme Speed|p2a: Kyurem
+|-damage|p2a: Kyurem|57/100
+|move|p2a: Kyurem|Icicle Spear|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|-hitcount|p1: Dragonite|1
+|
+|upkeep
+|
+|t:|1743829765
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-damage|p1a: Ting-Lu|84/100|[from] Spikes
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|15
+|
+|t:|1743829770
+|move|p2a: Kyurem|Icicle Spear|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|68/100
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|51/100
+|-supereffective|p1a: Ting-Lu
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|27/100
+|-hitcount|p1a: Ting-Lu|3
+|move|p1a: Ting-Lu|Earthquake|p2a: Kyurem
+|-damage|p2a: Kyurem|17/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743829778
+|move|p2a: Kyurem|Icicle Spear|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|12/100
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|-hitcount|p1: Ting-Lu|2
+|
+|upkeep
+|
+|t:|1743829788
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-damage|p1a: Iron Moth|84/100|[from] Spikes
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|17
+|
+|t:|1743829793
+|move|p1a: Iron Moth|Fiery Dance|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1743829795
+|switch|p2a: Samurott|Samurott-Hisui, F|52/100
+|turn|18
+|
+|t:|1743829800
+|-terastallize|p2a: Samurott|Poison
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|36/100
+|move|p2a: Samurott|Razor Shell|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743829803
+|switch|p1a: Kyurem|Kyurem, tera:Fire|41/100
+|-damage|p1a: Kyurem|24/100|[from] Spikes
+|-ability|p1a: Kyurem|Pressure
+|turn|19
+|
+|t:|1743829806
+|move|p2a: Samurott|Aqua Jet|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|win|Prav33nmoon
+|raw|equinox000's rating: 1569 &rarr; <strong>1551</strong><br />(-18 for losing)
+|raw|Prav33nmoon's rating: 1602 &rarr; <strong>1620</strong><br />(+18 for winning)
+|l|☆equinox000
+|player|p1|
+|l|☆Prav33nmoon
+|player|p2|

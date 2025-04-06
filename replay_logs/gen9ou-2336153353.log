@@ -1,0 +1,483 @@
+|j|☆Benjo4545
+|j|☆pichin
+|t:|1743884278
+|gametype|singles
+|player|p1|Benjo4545|1|1107
+|player|p2|pichin|mira|1126
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ogerpon, F|
+|poke|p1|Primarina, F|
+|poke|p1|Ting-Lu|
+|poke|p1|Skarmory, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Kingambit, M|
+|poke|p2|Tropius, F|
+|poke|p2|Ursaring, F|
+|poke|p2|Arcanine, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Arbok, M|
+|poke|p2|Altaria, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pichin)
+|
+|t:|1743884290
+|start
+|switch|p1a: Ogerpon|Ogerpon, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ogerpon|atk|1
+|-ability|p1a: Ogerpon|Defiant|boost
+|-boost|p1a: Ogerpon|atk|2
+|turn|1
+|
+|t:|1743884317
+|-terastallize|p1a: Ogerpon|Grass
+|detailschange|p1a: Ogerpon|Ogerpon-Teal-Tera, F, tera:Grass
+|-ability|p1a: Ogerpon|Embody Aspect (Teal)|boost
+|-boost|p1a: Ogerpon|spe|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743884327
+|switch|p2a: Tropius|Tropius, F|100/100
+|turn|2
+|
+|t:|1743884334
+|move|p1a: Ogerpon|Knock Off|p2a: Tropius
+|-damage|p2a: Tropius|62/100
+|-enditem|p2a: Tropius|Sitrus Berry|[from] move: Knock Off|[of] p1a: Ogerpon
+|move|p2a: Tropius|Substitute|p2a: Tropius
+|-start|p2a: Tropius|Substitute
+|-damage|p2a: Tropius|37/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743884351
+|-terastallize|p2a: Tropius|Ghost
+|move|p1a: Ogerpon|Encore|p2a: Tropius
+|-start|p2a: Tropius|Encore
+|move|p2a: Tropius|Substitute|p2a: Tropius
+|-fail|p2a: Tropius|move: Substitute
+|
+|upkeep
+|turn|4
+|
+|t:|1743884361
+|move|p1a: Ogerpon|U-turn|p2a: Tropius
+|-resisted|p2a: Tropius
+|-crit|p2a: Tropius
+|-activate|p2a: Tropius|move: Substitute|[damage]
+|
+|t:|1743884376
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from] U-turn
+|move|p2a: Tropius|Substitute|p2a: Tropius
+|-fail|p2a: Tropius|move: Substitute
+|
+|upkeep
+|turn|5
+|
+|t:|1743884384
+|move|p1a: Dragapult|Hex|p2a: Tropius
+|-supereffective|p2a: Tropius
+|-damage|p2a: Tropius|0 fnt
+|faint|p2a: Tropius
+|
+|upkeep
+|
+|t:|1743884389
+|switch|p2a: Altaria|Altaria, M|100/100
+|turn|6
+|
+|t:|1743884394
+|move|p1a: Dragapult|Draco Meteor|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|28/100
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Altaria|Fire Spin|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|96/100
+|-activate|p1a: Dragapult|move: Fire Spin|[of] p2a: Altaria
+|
+|-heal|p2a: Altaria|34/100|[from] item: Leftovers
+|-damage|p1a: Dragapult|84/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1743884407
+|move|p1a: Dragapult|U-turn|p2a: Altaria
+|-resisted|p2a: Altaria
+|-damage|p2a: Altaria|25/100
+|
+|t:|1743884420
+|switch|p1a: Ogerpon|Ogerpon-Teal-Tera, F, tera:Grass|100/100|[from] U-turn
+|-ability|p1a: Ogerpon|Embody Aspect (Teal)|boost
+|-boost|p1a: Ogerpon|spe|1
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|75/100
+|-singleturn|p2a: Altaria|move: Roost
+|
+|-heal|p2a: Altaria|81/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743884435
+|move|p1a: Ogerpon|Encore|p2a: Altaria
+|-start|p2a: Altaria|Encore
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|100/100
+|-singleturn|p2a: Altaria|move: Roost
+|
+|upkeep
+|turn|9
+|
+|t:|1743884458
+|switch|p2a: Arcanine|Arcanine, F|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Ogerpon|atk|1
+|move|p1a: Ogerpon|Knock Off|p2a: Arcanine
+|-damage|p2a: Arcanine|84/100
+|-damage|p1a: Ogerpon|84/100|[from] item: Rocky Helmet|[of] p2a: Arcanine
+|-enditem|p2a: Arcanine|Rocky Helmet|[from] move: Knock Off|[of] p1a: Ogerpon
+|
+|upkeep
+|turn|10
+|
+|t:|1743884476
+|move|p1a: Ogerpon|U-turn|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|79/100
+|
+|t:|1743884491
+|switch|p1a: Primarina|Primarina, F|100/100|[from] U-turn
+|move|p2a: Arcanine|Will-O-Wisp|p1a: Primarina|[miss]
+|-miss|p2a: Arcanine|p1a: Primarina
+|
+|upkeep
+|turn|11
+|
+|t:|1743884502
+|switch|p2a: Altaria|Altaria, M|100/100
+|move|p1a: Primarina|Substitute|p1a: Primarina
+|-start|p1a: Primarina|Substitute
+|-damage|p1a: Primarina|76/100
+|
+|-heal|p1a: Primarina|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743884514
+|move|p2a: Altaria|Perish Song|p2a: Altaria
+|-start|p1a: Primarina|perish3|[silent]
+|-start|p2a: Altaria|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|
+|-heal|p1a: Primarina|88/100|[from] item: Leftovers
+|-start|p2a: Altaria|perish3
+|-start|p1a: Primarina|perish3
+|upkeep
+|turn|13
+|
+|t:|1743884529
+|move|p2a: Altaria|Fire Spin|p1a: Primarina|[miss]
+|-miss|p2a: Altaria|p1a: Primarina
+|move|p1a: Primarina|Draining Kiss|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|60/100
+|-heal|p1a: Primarina|100/100|[from] drain|[of] p2a: Altaria
+|
+|-heal|p2a: Altaria|66/100|[from] item: Leftovers
+|-start|p2a: Altaria|perish2
+|-start|p1a: Primarina|perish2
+|upkeep
+|turn|14
+|inactive|Benjo4545 has 120 seconds left.
+|
+|t:|1743884550
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|100/100
+|-singleturn|p2a: Altaria|move: Roost
+|move|p1a: Primarina|Draining Kiss|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|56/100
+|
+|-heal|p2a: Altaria|63/100|[from] item: Leftovers
+|-start|p2a: Altaria|perish1
+|-start|p1a: Primarina|perish1
+|upkeep
+|turn|15
+|inactive|Benjo4545 has 120 seconds left.
+|
+|t:|1743884565
+|switch|p2a: Arbok|Arbok, M|100/100
+|-ability|p2a: Arbok|Intimidate|boost
+|-immune|p1a: Primarina
+|switch|p1a: Dragapult|Dragapult, M|84/100
+|
+|upkeep
+|turn|16
+|inactive|Benjo4545 has 120 seconds left.
+|
+|t:|1743884577
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Arbok
+|-status|p2a: Arbok|brn
+|move|p2a: Arbok|Stockpile|p2a: Arbok
+|-start|p2a: Arbok|stockpile1
+|-boost|p2a: Arbok|def|1
+|-boost|p2a: Arbok|spd|1
+|
+|-damage|p2a: Arbok|94/100 brn|[from] brn
+|upkeep
+|turn|17
+|inactive|Benjo4545 has 120 seconds left.
+|
+|t:|1743884592
+|move|p1a: Dragapult|Draco Meteor|p2a: Arbok
+|-damage|p2a: Arbok|53/100 brn
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Arbok|Switcheroo|p1a: Dragapult
+|-activate|p2a: Arbok|move: Trick|[of] p1a: Dragapult
+|-item|p1a: Dragapult|Black Sludge|[from] move: Switcheroo
+|-item|p2a: Arbok|Heavy-Duty Boots|[from] move: Switcheroo
+|
+|-damage|p1a: Dragapult|71/100|[from] item: Black Sludge
+|-damage|p2a: Arbok|46/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743884605
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Arbok|Toxic|p1a: Skarmory
+|-immune|p1a: Skarmory
+|
+|-damage|p2a: Arbok|40/100 brn|[from] brn
+|upkeep
+|turn|19
+|inactive|Benjo4545 has 120 seconds left.
+|
+|t:|1743884626
+|switch|p2a: Arcanine|Arcanine, F|79/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Skarmory|atk|1
+|move|p1a: Skarmory|Iron Defense|p1a: Skarmory
+|-boost|p1a: Skarmory|def|2
+|
+|upkeep
+|turn|20
+|inactive|Benjo4545 has 120 seconds left.
+|
+|t:|1743884648
+|move|p2a: Arcanine|Fire Spin|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|65/100
+|-activate|p1a: Skarmory|move: Fire Spin|[of] p2a: Arcanine
+|move|p1a: Skarmory|Iron Defense|p1a: Skarmory
+|-boost|p1a: Skarmory|def|2
+|
+|-damage|p1a: Skarmory|52/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|21
+|
+|t:|1743884657
+|move|p2a: Arcanine|Morning Sun|p2a: Arcanine
+|-heal|p2a: Arcanine|100/100
+|move|p1a: Skarmory|Body Press|p2a: Arcanine
+|-crit|p2a: Arcanine
+|-damage|p2a: Arcanine|3/100
+|
+|-damage|p1a: Skarmory|40/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|22
+|
+|t:|1743884676
+|move|p2a: Arcanine|Fire Spin|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|4/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|54/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-damage|p1a: Skarmory|42/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|23
+|
+|t:|1743884695
+|move|p2a: Arcanine|Fire Spin|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-crit|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|upkeep
+|inactive|Benjo4545 has 120 seconds left.
+|
+|t:|1743884724
+|switch|p1a: Dragapult|Dragapult, M|71/100
+|turn|24
+|
+|t:|1743884733
+|move|p1a: Dragapult|Hex|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-damage|p1a: Dragapult|59/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1743884746
+|switch|p2a: Ursaring|Ursaring, F|100/100
+|turn|25
+|
+|t:|1743884756
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Ursaring
+|-status|p2a: Ursaring|brn
+|move|p2a: Ursaring|Rest|p2a: Ursaring
+|-fail|p2a: Ursaring|heal
+|
+|-damage|p1a: Dragapult|47/100|[from] item: Black Sludge
+|-damage|p2a: Ursaring|94/100 brn|[from] brn
+|upkeep
+|turn|26
+|inactive|Benjo4545 has 120 seconds left.
+|
+|t:|1743884781
+|move|p1a: Dragapult|U-turn|p2a: Ursaring
+|-damage|p2a: Ursaring|76/100 brn
+|inactive|Benjo4545 has 120 seconds left.
+|
+|t:|1743884791
+|switch|p1a: Ogerpon|Ogerpon-Teal-Tera, F, tera:Grass|84/100|[from] U-turn
+|-ability|p1a: Ogerpon|Embody Aspect (Teal)|boost
+|-boost|p1a: Ogerpon|spe|1
+|move|p2a: Ursaring|Earthquake|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|44/100
+|
+|-damage|p2a: Ursaring|70/100 brn|[from] brn
+|upkeep
+|turn|27
+|inactive|Benjo4545 has 120 seconds left.
+|
+|t:|1743884803
+|switch|p2a: Arbok|Arbok, M|40/100 brn
+|-ability|p2a: Arbok|Intimidate|boost
+|-unboost|p1a: Ogerpon|atk|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Arbok
+|-resisted|p2a: Arbok
+|-damage|p2a: Arbok|17/100 brn
+|
+|-damage|p2a: Arbok|11/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1743884816
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Arbok
+|-resisted|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|
+|upkeep
+|
+|t:|1743884821
+|switch|p2a: Ursaring|Ursaring, F|70/100 brn
+|turn|29
+|
+|t:|1743884827
+|move|p1a: Ogerpon|Knock Off|p2a: Ursaring
+|-damage|p2a: Ursaring|46/100 brn
+|-enditem|p2a: Ursaring|Flame Orb|[from] move: Knock Off|[of] p1a: Ogerpon
+|move|p2a: Ursaring|Facade|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-damage|p2a: Ursaring|40/100 brn|[from] brn
+|upkeep
+|
+|t:|1743884834
+|switch|p1a: Dragapult|Dragapult, M|47/100
+|turn|30
+|
+|t:|1743884843
+|move|p1a: Dragapult|Draco Meteor|p2a: Ursaring
+|-damage|p2a: Ursaring|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Ursaring
+|
+|-damage|p1a: Dragapult|35/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1743884851
+|switch|p2a: Altaria|Altaria, M|63/100
+|turn|31
+|
+|t:|1743884863
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Altaria
+|-status|p2a: Altaria|brn
+|move|p2a: Altaria|Fire Spin|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|31/100
+|-activate|p1a: Dragapult|move: Fire Spin|[of] p2a: Altaria
+|
+|-damage|p1a: Dragapult|18/100|[from] item: Black Sludge
+|-heal|p2a: Altaria|69/100 brn|[from] item: Leftovers
+|-damage|p2a: Altaria|63/100 brn|[from] brn
+|-damage|p1a: Dragapult|6/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|32
+|
+|t:|1743884876
+|move|p1a: Dragapult|U-turn|p2a: Altaria
+|-resisted|p2a: Altaria
+|-damage|p2a: Altaria|54/100 brn
+|
+|t:|1743884879
+|switch|p1a: Kingambit|Kingambit, M|100/100|[from] U-turn
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Altaria|Roost|p2a: Altaria
+|-heal|p2a: Altaria|100/100 brn
+|-singleturn|p2a: Altaria|move: Roost
+|
+|-damage|p2a: Altaria|94/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1743884893
+|move|p2a: Altaria|Fire Spin|p1a: Kingambit|[miss]
+|-miss|p2a: Altaria|p1a: Kingambit
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p2a: Altaria|100/100 brn|[from] item: Leftovers
+|-damage|p2a: Altaria|94/100 brn|[from] brn
+|upkeep
+|turn|34
+|inactive|pichin has 120 seconds left.
+|
+|t:|1743884928
+|move|p1a: Kingambit|Sucker Punch|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|faint|p2a: Altaria
+|
+|win|Benjo4545
+|raw|Benjo4545's rating: 1107 &rarr; <strong>1133</strong><br />(+26 for winning)
+|raw|pichin's rating: 1126 &rarr; <strong>1100</strong><br />(-26 for losing)
+|l|☆Benjo4545
+|player|p1|

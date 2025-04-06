@@ -1,0 +1,415 @@
+|j|☆czar625
+|j|☆Darthanasius
+|t:|1743785275
+|gametype|singles
+|player|p1|czar625|169|1353
+|player|p2|Darthanasius|101|1358
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Leaves|
+|poke|p1|Araquanid, M|
+|poke|p1|Avalugg, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Beartic, F|
+|poke|p1|Hitmontop, M|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Great Tusk|
+|poke|p2|Toxapex, M|
+|poke|p2|Slither Wing|
+|teampreview
+|
+|t:|1743785293
+|start
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100
+|turn|1
+|
+|t:|1743785296
+|move|p1a: Hitmontop|Fake Out|p2a: Thundurus
+|-damage|p2a: Thundurus|71/100
+|cant|p2a: Thundurus|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1743785299
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Thundurus|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|65/100
+|
+|t:|1743785305
+|switch|p2a: Toxapex|Toxapex, M|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|3
+|
+|t:|1743785309
+|move|p2a: Toxapex|Infestation|p1a: Slowking
+|-damage|p1a: Slowking|62/100
+|-activate|p1a: Slowking|move: Infestation|[of] p2a: Toxapex
+|move|p1a: Slowking|Future Sight|p2a: Toxapex
+|-start|p1a: Slowking|move: Future Sight
+|
+|-damage|p1a: Slowking|50/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1743785321
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743785327
+|switch|p1a: Beartic|Beartic, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743785350
+|move|p2a: Meowscarada|Knock Off|p1a: Beartic
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Beartic|60/100
+|-enditem|p1a: Beartic|Loaded Dice|[from] move: Knock Off|[of] p2a: Meowscarada
+|move|p1a: Beartic|Icicle Spear|p2a: Meowscarada
+|-damage|p2a: Meowscarada|82/100
+|-damage|p2a: Meowscarada|61/100
+|-damage|p2a: Meowscarada|42/100
+|-damage|p2a: Meowscarada|22/100
+|-damage|p2a: Meowscarada|1/100
+|-hitcount|p2a: Meowscarada|5
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Meowscarada|move: Future Sight
+|-immune|p2a: Meowscarada
+|upkeep
+|turn|6
+|
+|t:|1743785366
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Beartic|Earthquake|p2a: Hatterene
+|-damage|p2a: Hatterene|70/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Hatterene|76/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743785370
+|move|p1a: Beartic|Substitute|p1a: Beartic
+|-start|p1a: Beartic|Substitute
+|-damage|p1a: Beartic|35/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Beartic
+|-end|p1a: Beartic|Substitute
+|-heal|p2a: Hatterene|96/100|[from] drain|[of] p1a: Beartic
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Hatterene|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743785381
+|switch|p1a: Slowking|Slowking-Galar, F|83/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|76/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743785385
+|move|p2a: Hatterene|Psychic Noise|p1a: Slowking
+|-damage|p1a: Slowking|53/100
+|-start|p1a: Slowking|move: Heal Block
+|move|p1a: Slowking|Sludge Bomb|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|19/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Hatterene|25/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743785395
+|switch|p2a: Slither Wing|Slither Wing|100/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Slither Wing
+|-damage|p2a: Slither Wing|73/100
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Slowking|move: Heal Block
+|upkeep
+|turn|11
+|
+|t:|1743785399
+|switch|p1a: Avalugg|Avalugg, M|100/100
+|move|p2a: Slither Wing|U-turn|p1a: Avalugg
+|-damage|p1a: Avalugg|90/100
+|-damage|p2a: Slither Wing|57/100|[from] item: Rocky Helmet|[of] p1a: Avalugg
+|
+|t:|1743785408
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|switch|p2a: Thundurus|Thundurus-Therian, M|71/100|[from] U-turn
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1743785415
+|switch|p1a: Slowking|Slowking-Galar, F|86/100
+|move|p2a: Thundurus|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|49/100
+|
+|t:|1743785427
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|13
+|
+|t:|1743785430
+|switch|p1a: Avalugg|Avalugg, M|90/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Avalugg
+|-damage|p1a: Avalugg|70/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-damage|p2a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p1a: Avalugg
+|
+|upkeep
+|turn|14
+|
+|t:|1743785437
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Avalugg|Recover|p1a: Avalugg
+|-heal|p1a: Avalugg|100/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743785441
+|switch|p1a: Slowking|Slowking-Galar, F|83/100
+|move|p2a: Toxapex|Infestation|p1a: Slowking
+|-damage|p1a: Slowking|80/100
+|-activate|p1a: Slowking|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1a: Slowking|68/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|t:|1743785446
+|move|p2a: Toxapex|Acid Spray|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|64/100
+|-unboost|p1a: Slowking|spd|2
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743785458
+|switch|p1a: Beartic|Beartic, F|35/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743785461
+|move|p1a: Beartic|Substitute|p1a: Beartic
+|-start|p1a: Beartic|Substitute
+|-damage|p1a: Beartic|10/100
+|move|p2a: Toxapex|Sludge Bomb|p1a: Beartic
+|-end|p1a: Beartic|Substitute
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743785464
+|move|p1a: Beartic|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|47/100
+|move|p2a: Toxapex|Sludge Bomb|p1a: Beartic
+|-damage|p1a: Beartic|0 fnt
+|faint|p1a: Beartic
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743785494
+|switch|p1a: Slowking|Slowking-Galar, F|97/100
+|turn|19
+|
+|t:|1743785498
+|switch|p2a: Slither Wing|Slither Wing|57/100
+|move|p1a: Slowking|Future Sight|p2a: Slither Wing
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1743785504
+|switch|p1a: Avalugg|Avalugg, M|100/100
+|move|p2a: Slither Wing|Earthquake|p1a: Avalugg
+|-damage|p1a: Avalugg|91/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743785514
+|move|p2a: Slither Wing|Close Combat|p1a: Avalugg
+|-supereffective|p1a: Avalugg
+|-damage|p1a: Avalugg|56/100
+|-unboost|p2a: Slither Wing|def|1
+|-unboost|p2a: Slither Wing|spd|1
+|-damage|p2a: Slither Wing|41/100|[from] item: Rocky Helmet|[of] p1a: Avalugg
+|move|p1a: Avalugg|Body Press|p2a: Slither Wing
+|-resisted|p2a: Slither Wing
+|-damage|p2a: Slither Wing|0 fnt
+|faint|p2a: Slither Wing
+|-end|p2a: Slither Wing|Protosynthesis|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-hint|Future Sight did not hit because the target is fainted.
+|upkeep
+|
+|t:|1743785520
+|switch|p2a: Thundurus|Thundurus-Therian, M|71/100
+|turn|22
+|
+|t:|1743785523
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Thundurus|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|64/100
+|
+|t:|1743785525
+|switch|p2a: Meowscarada|Meowscarada, F|1/100|[from] Volt Switch
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1743785528
+|switch|p1a: Avalugg|Avalugg, M|56/100
+|move|p2a: Meowscarada|Knock Off|p1a: Avalugg
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Avalugg|42/100
+|-damage|p2a: Meowscarada|0 fnt|[from] item: Rocky Helmet|[of] p1a: Avalugg
+|faint|p2a: Meowscarada
+|
+|-weather|none
+|upkeep
+|
+|t:|1743785531
+|switch|p2a: Thundurus|Thundurus-Therian, M|71/100
+|turn|24
+|
+|t:|1743785534
+|switch|p1a: Slowking|Slowking-Galar, F|97/100
+|move|p2a: Thundurus|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|54/100
+|-enditem|p1a: Slowking|Icy Rock|[from] move: Knock Off|[of] p2a: Thundurus
+|
+|upkeep
+|turn|25
+|
+|t:|1743785541
+|switch|p2a: Toxapex|Toxapex, M|80/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743785553
+|switch|p1a: Araquanid|Araquanid, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1743785557
+|move|p1a: Araquanid|Liquidation|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|56/100
+|move|p2a: Toxapex|Acid Spray|p1a: Araquanid
+|-damage|p1a: Araquanid|93/100
+|-unboost|p1a: Araquanid|spd|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1743785564
+|move|p2a: Toxapex|Sludge Bomb|p1a: Araquanid
+|-damage|p1a: Araquanid|62/100
+|-status|p1a: Araquanid|psn
+|move|p1a: Araquanid|Mirror Coat|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Araquanid|50/100 psn|[from] psn
+|upkeep
+|
+|t:|1743785569
+|switch|p2a: Thundurus|Thundurus-Therian, M|71/100
+|turn|28
+|
+|t:|1743785573
+|switch|p1a: Slowking|Slowking-Galar, F|87/100
+|move|p2a: Thundurus|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|53/100
+|
+|t:|1743785574
+|switch|p2a: Great Tusk|Great Tusk|84/100|[from] Volt Switch
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|29
+|
+|t:|1743785579
+|switch|p1a: Avalugg|Avalugg, M|42/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Avalugg
+|-damage|p1a: Avalugg|29/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-damage|p2a: Great Tusk|67/100|[from] item: Rocky Helmet|[of] p1a: Avalugg
+|
+|-weather|none
+|upkeep
+|turn|30
+|
+|t:|1743785585
+|move|p2a: Great Tusk|Headlong Rush|p1a: Avalugg
+|-damage|p1a: Avalugg|8/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-damage|p2a: Great Tusk|51/100|[from] item: Rocky Helmet|[of] p1a: Avalugg
+|move|p1a: Avalugg|Recover|p1a: Avalugg
+|-heal|p1a: Avalugg|58/100
+|
+|upkeep
+|turn|31
+|-message|Darthanasius forfeited.
+|
+|win|czar625
+|raw|czar625's rating: 1353 &rarr; <strong>1373</strong><br />(+20 for winning)
+|raw|Darthanasius's rating: 1358 &rarr; <strong>1338</strong><br />(-20 for losing)
+|l|☆Darthanasius
+|player|p2|
+|l|☆czar625
+|player|p1|

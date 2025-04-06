@@ -1,0 +1,300 @@
+|j|☆grem2220
+|j|☆theperro
+|t:|1743817501
+|gametype|singles
+|player|p1|grem2220|unknown|1107
+|player|p2|theperro|psychic-gen4|1055
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Meowscarada, M|
+|poke|p1|Iron Crown|
+|poke|p1|Great Tusk|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Dragapult, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Galvantula, M|
+|poke|p2|Darkrai|
+|poke|p2|Mimikyu, M|
+|teampreview
+|
+|t:|1743817511
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Galvantula|Galvantula, M, shiny|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Galvantula|atk|1
+|turn|1
+|
+|t:|1743817521
+|move|p2a: Galvantula|Sticky Web|p1a: Landorus
+|-sidestart|p1: grem2220|move: Sticky Web
+|move|p1a: Landorus|Taunt|p2a: Galvantula
+|-start|p2a: Galvantula|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1743817528
+|move|p2a: Galvantula|Volt Switch|p1a: Landorus
+|-immune|p1a: Landorus
+|move|p1a: Landorus|Stealth Rock|p2a: Galvantula
+|-sidestart|p2: theperro|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1743817534
+|move|p2a: Galvantula|Bug Buzz|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|81/100
+|move|p1a: Landorus|Earthquake|p2a: Galvantula
+|-damage|p2a: Galvantula|16/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743817549
+|move|p2a: Galvantula|Bug Buzz|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|61/100
+|move|p1a: Landorus|U-turn|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|t:|1743817557
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743817566
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1743817577
+|move|p1a: Great Tusk|Rapid Spin|p2a: Toxapex
+|-damage|p2a: Toxapex|78/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: grem2220|Sticky Web|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Toxapex|Iron Defense|p2a: Toxapex
+|-boost|p2a: Toxapex|def|2
+|
+|-heal|p2a: Toxapex|84/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1743817588
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Toxapex|Iron Defense|p2a: Toxapex
+|-boost|p2a: Toxapex|def|2
+|
+|-heal|p2a: Toxapex|91/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1743817598
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|move|p2a: Toxapex|Toxic|p1a: Raging Bolt
+|-status|p1a: Raging Bolt|tox
+|
+|-heal|p2a: Toxapex|97/100|[from] item: Black Sludge
+|-damage|p1a: Raging Bolt|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743817608
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|move|p2a: Toxapex|Iron Defense|p2a: Toxapex
+|-boost|p2a: Toxapex|def|2
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Black Sludge
+|-damage|p1a: Raging Bolt|82/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743817621
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p1a: Raging Bolt|64/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743817639
+|-terastallize|p2a: Toxapex|Grass
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|40/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|90/100
+|
+|-damage|p2a: Toxapex|78/100|[from] item: Black Sludge
+|-damage|p1a: Raging Bolt|39/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743817651
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p2a: Toxapex|65/100|[from] item: Black Sludge
+|-damage|p1a: Raging Bolt|8/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743817661
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|-damage|p1a: Raging Bolt|0 fnt|[from] psn
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1743817676
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|switch|p2a: Mimikyu|Mimikyu, M, shiny|100/100
+|-damage|p2a: Mimikyu|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743817689
+|move|p1a: Meowscarada|U-turn|p2a: Mimikyu
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|88/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M, shiny
+|-damage|p2a: Mimikyu|76/100|[from] pokemon: Mimikyu-Busted
+|
+|t:|1743817701
+|switch|p1a: Iron Crown|Iron Crown|100/100|[from] U-turn
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|
+|upkeep
+|turn|14
+|
+|t:|1743817712
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Mimikyu
+|-supereffective|p2a: Mimikyu
+|-damage|p2a: Mimikyu|13/100
+|-supereffective|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|-hitcount|p2: Mimikyu|2
+|
+|upkeep
+|
+|t:|1743817721
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743817738
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|move|p2a: Dragapult|Flamethrower|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|upkeep
+|
+|t:|1743817751
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|16
+|
+|t:|1743817757
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p2a: Dragapult|Flamethrower|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|86/100
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|upkeep
+|turn|17
+|
+|t:|1743817770
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-damage|p2a: Hoopa|88/100|[from] Stealth Rock
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|upkeep
+|turn|18
+|
+|t:|1743817785
+|move|p1a: Ogerpon|Play Rough|p2a: Hoopa
+|-supereffective|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+|
+|t:|1743817792
+|switch|p2a: Darkrai|Darkrai|100/100
+|-damage|p2a: Darkrai|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743817800
+|move|p2a: Darkrai|Ice Beam|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|66/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Darkrai|[anim] Ivy Cudgel Water
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|upkeep
+|
+|t:|1743817808
+|switch|p2a: Dragapult|Dragapult, M|88/100
+|-damage|p2a: Dragapult|76/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743817816
+|move|p2a: Dragapult|U-turn|p1a: Ogerpon
+|-damage|p1a: Ogerpon|42/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Dragapult|[anim] Ivy Cudgel Water
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|win|grem2220
+|raw|grem2220's rating: 1107 &rarr; <strong>1128</strong><br />(+21 for winning)
+|raw|theperro's rating: 1055 &rarr; <strong>1039</strong><br />(-16 for losing)
+|l|☆theperro
+|player|p2|
+|l|☆grem2220
+|player|p1|
+|j|☆grem2220
+|player|p1|grem2220|unknown|

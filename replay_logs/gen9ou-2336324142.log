@@ -1,0 +1,250 @@
+|j|☆FriedStuw
+|j|☆cjcrazy138
+|t:|1743902999
+|gametype|singles
+|player|p1|FriedStuw|ingo|1060
+|player|p2|cjcrazy138|1|1063
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Rillaboom, F|
+|poke|p1|Iron Valiant|
+|poke|p2|Zapdos|
+|poke|p2|Blastoise, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Ivysaur, M|
+|poke|p2|Ludicolo, M|
+|teampreview
+|
+|t:|1743903013
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Pelipper|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1743903025
+|move|p1a: Landorus|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: cjcrazy138|move: Stealth Rock
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: cjcrazy138|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743903032
+|move|p2a: Pelipper|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|97/100
+|
+|t:|1743903037
+|switch|p2a: Ludicolo|Ludicolo, M|100/100|[from] U-turn
+|-damage|p2a: Ludicolo|88/100|[from] Stealth Rock
+|move|p1a: Landorus|Earthquake|p2a: Ludicolo
+|-resisted|p2a: Ludicolo
+|-damage|p2a: Ludicolo|53/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Landorus|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743903054
+|move|p2a: Ludicolo|Weather Ball|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743903061
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|turn|4
+|
+|t:|1743903070
+|-terastallize|p2a: Ludicolo|Water
+|move|p1a: Rillaboom|Fake Out|p2a: Ludicolo
+|-damage|p2a: Ludicolo|33/100
+|cant|p2a: Ludicolo|flinch
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: cjcrazy138|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1743903079
+|move|p2a: Ludicolo|Weather Ball|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|41/100
+|move|p1a: Rillaboom|Leech Seed|p2a: Ludicolo
+|-start|p2a: Ludicolo|move: Leech Seed
+|
+|-weather|none
+|-heal|p1a: Rillaboom|47/100|[from] item: Leftovers
+|-damage|p2a: Ludicolo|21/100|[from] Leech Seed|[of] p1a: Rillaboom
+|-heal|p1a: Rillaboom|58/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1743903098
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-damage|p2a: Torkoal|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Rillaboom|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1a: Rillaboom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rillaboom|64/100|[from] item: Leftovers
+|-heal|p2a: Torkoal|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743903111
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|move|p2a: Torkoal|Substitute|p2a: Torkoal
+|-start|p2a: Torkoal|Substitute
+|-damage|p2a: Torkoal|57/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Torkoal|63/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743903125
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p1a: Samurott|Knock Off|p2a: Torkoal
+|-activate|p2a: Torkoal|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Torkoal|69/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743903135
+|move|p1a: Samurott|Swords Dance|p1a: Samurott
+|-boost|p1a: Samurott|atk|2
+|move|p2a: Torkoal|Curse|p2a: Torkoal
+|-unboost|p2a: Torkoal|spe|1
+|-boost|p2a: Torkoal|atk|1
+|-boost|p2a: Torkoal|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Torkoal|75/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743903145
+|move|p1a: Samurott|Swords Dance|p1a: Samurott
+|-boost|p1a: Samurott|atk|2
+|move|p2a: Torkoal|Curse|p2a: Torkoal
+|-unboost|p2a: Torkoal|spe|1
+|-boost|p2a: Torkoal|atk|1
+|-boost|p2a: Torkoal|def|1
+|
+|-weather|none
+|-heal|p2a: Torkoal|81/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743903161
+|move|p1a: Samurott|Razor Shell|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-end|p2a: Torkoal|Substitute
+|move|p2a: Torkoal|Curse|p2a: Torkoal
+|-unboost|p2a: Torkoal|spe|1
+|-boost|p2a: Torkoal|atk|1
+|-boost|p2a: Torkoal|def|1
+|
+|-heal|p2a: Torkoal|87/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743903181
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p1a: Samurott|Razor Shell|p2a: Torkoal
+|-activate|p2a: Torkoal|move: Protect
+|
+|-heal|p2a: Torkoal|93/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743903190
+|move|p1a: Samurott|Razor Shell|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|5/100
+|-unboost|p2a: Torkoal|def|1
+|move|p2a: Torkoal|Curse|p2a: Torkoal
+|-unboost|p2a: Torkoal|spe|1
+|-boost|p2a: Torkoal|atk|1
+|-boost|p2a: Torkoal|def|1
+|
+|-heal|p2a: Torkoal|11/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743903201
+|move|p1a: Samurott|Razor Shell|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|upkeep
+|
+|t:|1743903214
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-damage|p2a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|15
+|
+|t:|1743903222
+|move|p1a: Samurott|Knock Off|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743903230
+|switch|p2a: Ivysaur|Ivysaur, M|100/100
+|-damage|p2a: Ivysaur|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743903236
+|move|p1a: Samurott|Knock Off|p2a: Ivysaur
+|-damage|p2a: Ivysaur|0 fnt
+|-enditem|p2a: Ivysaur|Eviolite|[from] move: Knock Off|[of] p1a: Samurott
+|faint|p2a: Ivysaur
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|cjcrazy138 forfeited.
+|
+|win|FriedStuw
+|raw|FriedStuw's rating: 1060 &rarr; <strong>1091</strong><br />(+31 for winning)
+|raw|cjcrazy138's rating: 1063 &rarr; <strong>1043</strong><br />(-20 for losing)
+|l|☆cjcrazy138
+|player|p2|
+|l|☆FriedStuw
+|player|p1|

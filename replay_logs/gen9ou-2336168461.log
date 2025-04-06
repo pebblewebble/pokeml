@@ -1,0 +1,251 @@
+|j|☆cuitcx
+|j|☆Kastle17
+|t:|1743885839
+|gametype|singles
+|player|p1|cuitcx|acetrainer-gen4dp|1202
+|player|p2|Kastle17|169|1194
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Ceruledge, M|
+|poke|p1|Slowking, M|
+|poke|p1|Arboliva, F|
+|poke|p2|Ambipom, M|
+|poke|p2|Ribombee, M|
+|poke|p2|Tauros, M|
+|poke|p2|Cetitan, M|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Feraligatr, M|
+|teampreview
+|
+|t:|1743885842
+|start
+|switch|p1a: Arboliva|Arboliva, F, shiny|100/100
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kastle17)
+|
+|t:|1743885849
+|move|p2a: Ribombee|Sticky Web|p1a: Arboliva
+|-sidestart|p1: cuitcx|move: Sticky Web
+|move|p1a: Arboliva|Leech Seed|p2a: Ribombee
+|-start|p2a: Ribombee|move: Leech Seed
+|
+|-damage|p2a: Ribombee|88/100|[from] Leech Seed|[of] p1a: Arboliva
+|upkeep
+|turn|2
+|
+|t:|1743885858
+|move|p2a: Ribombee|Bug Buzz|p1a: Arboliva
+|-supereffective|p1a: Arboliva
+|-damage|p1a: Arboliva|38/100
+|-enditem|p1a: Arboliva|Sitrus Berry|[eat]
+|-heal|p1a: Arboliva|63/100|[from] item: Sitrus Berry
+|move|p1a: Arboliva|Hyper Voice|p2a: Ribombee
+|-damage|p2a: Ribombee|4/100
+|
+|-damage|p2a: Ribombee|0 fnt|[from] Leech Seed|[of] p1a: Arboliva
+|-heal|p1a: Arboliva|66/100|[silent]
+|faint|p2a: Ribombee
+|upkeep
+|
+|t:|1743885870
+|switch|p2a: Feraligatr|Feraligatr, M|100/100
+|turn|3
+|
+|t:|1743885876
+|move|p2a: Feraligatr|Ice Punch|p1a: Arboliva
+|-supereffective|p1a: Arboliva
+|-damage|p1a: Arboliva|0 fnt
+|faint|p1a: Arboliva
+|
+|upkeep
+|
+|t:|1743885882
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|turn|4
+|
+|t:|1743885895
+|move|p2a: Feraligatr|Dragon Dance|p2a: Feraligatr
+|-boost|p2a: Feraligatr|atk|1
+|-boost|p2a: Feraligatr|spe|1
+|move|p1a: Weezing|Toxic|p2a: Feraligatr
+|-status|p2a: Feraligatr|tox
+|
+|-damage|p2a: Feraligatr|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743885912
+|move|p2a: Feraligatr|Liquidation|p1a: Weezing
+|-damage|p1a: Weezing|26/100
+|move|p1a: Weezing|Defog|p2a: Feraligatr
+|-unboost|p2a: Feraligatr|evasion|1
+|-sideend|p1: cuitcx|Sticky Web|[from] move: Defog|[of] p1a: Weezing
+|
+|-heal|p1a: Weezing|32/100|[from] item: Black Sludge
+|-damage|p2a: Feraligatr|82/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743885924
+|move|p2a: Feraligatr|Liquidation|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|
+|-damage|p2a: Feraligatr|64/100 tox|[from] psn
+|upkeep
+|
+|t:|1743885932
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|7
+|
+|t:|1743885951
+|move|p2a: Feraligatr|Ice Punch|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-damage|p2a: Feraligatr|40/100 tox|[from] psn
+|upkeep
+|
+|t:|1743885966
+|switch|p1a: Ceruledge|Ceruledge, M, shiny|100/100
+|turn|8
+|
+|t:|1743885973
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Feraligatr
+|-damage|p2a: Feraligatr|16/100 tox
+|move|p2a: Feraligatr|Liquidation|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-enditem|p1a: Ceruledge|Focus Sash
+|-damage|p1a: Ceruledge|1/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|
+|-damage|p2a: Feraligatr|0 fnt|[from] psn
+|faint|p2a: Feraligatr
+|upkeep
+|
+|t:|1743885998
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100
+|turn|9
+|
+|t:|1743886006
+|move|p1a: Ceruledge|Bitter Blade|p2a: Braviary
+|-damage|p2a: Braviary|38/100
+|-heal|p1a: Ceruledge|40/100|[from] drain|[of] p2a: Braviary
+|move|p2a: Braviary|Psychic|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|upkeep
+|
+|t:|1743886019
+|switch|p1a: Slowking|Slowking, M|100/100
+|turn|10
+|
+|t:|1743886043
+|move|p2a: Braviary|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|43/100
+|move|p1a: Slowking|Scald|p2a: Braviary
+|-crit|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|-heal|p1a: Slowking|49/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743886049
+|switch|p2a: Ambipom|Ambipom, M|100/100
+|turn|11
+|
+|t:|1743886059
+|move|p2a: Ambipom|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-enditem|p1a: Slowking|Leftovers|[from] move: Knock Off|[of] p2a: Ambipom
+|faint|p1a: Slowking
+|-damage|p2a: Ambipom|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743886067
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|turn|12
+|
+|t:|1743886075
+|move|p2a: Ambipom|Knock Off|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|83/100
+|-enditem|p1a: Conkeldurr|Assault Vest|[from] move: Knock Off|[of] p2a: Ambipom
+|-damage|p2a: Ambipom|81/100|[from] item: Life Orb
+|move|p1a: Conkeldurr|Drain Punch|p2a: Ambipom
+|-supereffective|p2a: Ambipom
+|-damage|p2a: Ambipom|0 fnt
+|-heal|p1a: Conkeldurr|100/100|[from] drain|[of] p2a: Ambipom
+|faint|p2a: Ambipom
+|
+|upkeep
+|
+|t:|1743886091
+|switch|p2a: Tauros|Tauros, M|100/100
+|turn|13
+|
+|t:|1743886095
+|move|p2a: Tauros|Zen Headbutt|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|28/100
+|move|p1a: Conkeldurr|Drain Punch|p2a: Tauros
+|-supereffective|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|-heal|p1a: Conkeldurr|66/100|[from] drain|[of] p2a: Tauros
+|faint|p2a: Tauros
+|
+|upkeep
+|
+|t:|1743886101
+|switch|p2a: Cetitan|Cetitan, M|100/100
+|turn|14
+|
+|t:|1743886110
+|move|p2a: Cetitan|Play Rough|p1a: Conkeldurr|[miss]
+|-miss|p2a: Cetitan|p1a: Conkeldurr
+|move|p1a: Conkeldurr|Drain Punch|p2a: Cetitan
+|-supereffective|p2a: Cetitan
+|-damage|p2a: Cetitan|19/100
+|-heal|p1a: Conkeldurr|100/100|[from] drain|[of] p2a: Cetitan
+|
+|upkeep
+|turn|15
+|c|☆Kastle17|ah dang
+|
+|t:|1743886120
+|move|p1a: Conkeldurr|Mach Punch|p2a: Cetitan
+|-supereffective|p2a: Cetitan
+|-damage|p2a: Cetitan|0 fnt
+|faint|p2a: Cetitan
+|
+|win|cuitcx
+|raw|cuitcx's rating: 1202 &rarr; <strong>1226</strong><br />(+24 for winning)
+|raw|Kastle17's rating: 1194 &rarr; <strong>1170</strong><br />(-24 for losing)
+|c|☆Kastle17|play rough sucks
+|l|☆Kastle17
+|player|p2|
+|l|☆cuitcx
+|player|p1|

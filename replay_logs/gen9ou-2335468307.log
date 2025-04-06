@@ -1,0 +1,374 @@
+|j|☆NagariTest
+|j|☆Beaudo1
+|t:|1743797036
+|gametype|singles
+|player|p1|NagariTest|n|1350
+|player|p2|Beaudo1|1|1298
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rhyperior, F|
+|poke|p1|Iron Boulder|
+|poke|p1|Kyurem|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Dragapult, F|
+|poke|p2|Garganacl, M|
+|poke|p2|Mimikyu, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Toxapex, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NagariTest)
+|
+|t:|1743797044
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1743797052
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Ting-Lu|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|38/100
+|-enditem|p2a: Ting-Lu|Red Card|[of] p1a: Ogerpon
+|drag|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Ting-Lu|Spikes|p1a: Slowking
+|-sidestart|p1: NagariTest|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1743797064
+|move|p2a: Ting-Lu|Ruination|p1a: Slowking
+|-damage|p1a: Slowking|50/100
+|move|p1a: Slowking|Toxic Spikes|p2a: Ting-Lu
+|-sidestart|p2: Beaudo1|move: Toxic Spikes
+|
+|-heal|p1a: Slowking|57/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743797072
+|move|p2a: Ting-Lu|Earthquake|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1743797075
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Spikes
+|turn|4
+|
+|t:|1743797084
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|move|p2a: Ting-Lu|Spikes|p1a: Ogerpon
+|-sidestart|p1: NagariTest|Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1743797090
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Ting-Lu|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743797100
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-sideend|p2: Beaudo1|move: Toxic Spikes|[of] p2a: Toxapex
+|turn|6
+|
+|t:|1743797105
+|move|p1a: Ogerpon|Power Whip|p2a: Toxapex
+|-damage|p2a: Toxapex|15/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-heal|p2a: Toxapex|22/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743797125
+|move|p1a: Ogerpon|Power Whip|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|t:|1743797133
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|turn|8
+|
+|t:|1743797141
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|-terastallize|p2a: Garganacl|Fairy
+|move|p2a: Garganacl|Salt Cure|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-crit|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|74/100
+|-start|p1a: Mandibuzz|Salt Cure
+|
+|-damage|p1a: Mandibuzz|62/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1743797154
+|move|p1a: Mandibuzz|Defog|p2a: Garganacl
+|-unboost|p2a: Garganacl|evasion|1
+|-sideend|p1: NagariTest|Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-damage|p1a: Mandibuzz|50/100|[from] Salt Cure
+|upkeep
+|turn|10
+|inactive|Beaudo1 has 120 seconds left.
+|
+|t:|1743797186
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Garganacl|Salt Cure|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-crit|p1a: Kyurem
+|-damage|p1a: Kyurem|40/100
+|-start|p1a: Kyurem|Salt Cure
+|
+|-damage|p1a: Kyurem|28/100|[from] Salt Cure
+|upkeep
+|turn|11
+|inactive|Beaudo1 has 120 seconds left.
+|
+|t:|1743797198
+|move|p1a: Kyurem|Ice Beam|p2a: Garganacl
+|-damage|p2a: Garganacl|52/100
+|move|p2a: Garganacl|Curse|p2a: Garganacl
+|-unboost|p2a: Garganacl|spe|1
+|-boost|p2a: Garganacl|atk|1
+|-boost|p2a: Garganacl|def|1
+|
+|-heal|p2a: Garganacl|58/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|16/100|[from] Salt Cure
+|upkeep
+|turn|12
+|inactive|Beaudo1 has 120 seconds left.
+|
+|t:|1743797208
+|move|p1a: Kyurem|Ice Beam|p2a: Garganacl
+|-damage|p2a: Garganacl|14/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|64/100
+|
+|-heal|p2a: Garganacl|71/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|3/100|[from] Salt Cure
+|upkeep
+|turn|13
+|
+|t:|1743797218
+|move|p1a: Kyurem|Ice Beam|p2a: Garganacl
+|-damage|p2a: Garganacl|23/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|73/100
+|
+|-heal|p2a: Garganacl|79/100|[from] item: Leftovers
+|-damage|p1a: Kyurem|0 fnt|[from] Salt Cure
+|faint|p1a: Kyurem
+|upkeep
+|
+|t:|1743797224
+|switch|p1a: Rhyp|Rhyperior, F|100/100
+|turn|14
+|
+|t:|1743797234
+|move|p1a: Rhyp|Swords Dance|p1a: Rhyp
+|-boost|p1a: Rhyp|atk|2
+|move|p2a: Garganacl|Earthquake|p1a: Rhyp
+|-supereffective|p1a: Rhyp
+|-damage|p1a: Rhyp|50/100
+|-enditem|p1a: Rhyp|Weakness Policy
+|-boost|p1a: Rhyp|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Rhyp|spa|2|[from] item: Weakness Policy
+|
+|-heal|p2a: Garganacl|85/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743797245
+|-terastallize|p1a: Rhyp|Ground
+|move|p1a: Rhyp|Earthquake|p2a: Garganacl
+|-damage|p2a: Garganacl|9/100
+|move|p2a: Garganacl|Earthquake|p1a: Rhyp
+|-damage|p1a: Rhyp|15/100
+|
+|-heal|p2a: Garganacl|15/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743797260
+|move|p1a: Rhyp|Earthquake|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|upkeep
+|
+|t:|1743797265
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|17
+|
+|t:|1743797269
+|move|p2a: Dragapult|Shadow Ball|p1a: Rhyp
+|-damage|p1a: Rhyp|0 fnt
+|faint|p1a: Rhyp
+|
+|upkeep
+|
+|t:|1743797271
+|switch|p1a: Mandibuzz|Mandibuzz, F|50/100
+|turn|18
+|
+|t:|1743797280
+|move|p2a: Dragapult|Shadow Ball|p1a: Mandibuzz
+|-resisted|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|36/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|86/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|19
+|
+|t:|1743797290
+|move|p2a: Dragapult|Draco Meteor|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|39/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Mandibuzz|Foul Play|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-enditem|p2a: Dragapult|Focus Sash
+|-damage|p2a: Dragapult|1/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743797299
+|move|p2a: Dragapult|Dragon Darts|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|27/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|15/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|66/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|21
+|
+|t:|1743797310
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|move|p1a: Mandibuzz|Roost|p1a: Mandibuzz
+|-heal|p1a: Mandibuzz|100/100
+|-singleturn|p1a: Mandibuzz|move: Roost
+|
+|upkeep
+|turn|22
+|
+|t:|1743797318
+|move|p2a: Mimikyu|Swords Dance|p2a: Mimikyu
+|-boost|p2a: Mimikyu|atk|2
+|move|p1a: Mandibuzz|U-turn|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|
+|t:|1743797324
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|88/100|[from] U-turn
+|
+|upkeep
+|turn|23
+|
+|t:|1743797332
+|move|p1a: Ogerpon|Power Whip|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|upkeep
+|
+|t:|1743797338
+|switch|p2a: Dragapult|Dragapult, F|1/100
+|turn|24
+|
+|t:|1743797347
+|move|p2a: Dragapult|Draco Meteor|p1a: Ogerpon
+|-damage|p1a: Ogerpon|23/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Dragapult|[anim] Ivy Cudgel Water
+|-resisted|p2a: Dragapult
+|-crit|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1743797357
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|turn|25
+|
+|t:|1743797363
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Kingambit|[anim] Ivy Cudgel Water
+|-damage|p2a: Kingambit|56/100
+|-enditem|p2a: Kingambit|Air Balloon
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|26
+|
+|t:|1743797372
+|move|p2a: Kingambit|Sucker Punch|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743797374
+|switch|p1a: The Boulder|Iron Boulder|100/100
+|-enditem|p1a: The Boulder|Booster Energy
+|-activate|p1a: The Boulder|ability: Quark Drive|[fromitem]
+|-start|p1a: The Boulder|quarkdrivespe
+|turn|27
+|
+|t:|1743797382
+|move|p1a: The Boulder|Close Combat|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: The Boulder|def|1
+|-unboost|p1a: The Boulder|spd|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|NagariTest
+|raw|NagariTest's rating: 1350 &rarr; <strong>1367</strong><br />(+17 for winning)
+|raw|Beaudo1's rating: 1298 &rarr; <strong>1277</strong><br />(-21 for losing)
+|l|☆Beaudo1
+|player|p2|

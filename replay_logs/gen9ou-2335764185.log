@@ -1,0 +1,390 @@
+|j|☆jhonss
+|j|☆Waterpon400
+|t:|1743832256
+|gametype|singles
+|player|p1|jhonss|clown|1257
+|player|p2|Waterpon400|linebacker|1273
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Walking Wake|
+|poke|p1|Torkoal, F|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Thundurus, M|
+|poke|p1|Gholdengo|
+|poke|p1|Great Tusk|
+|poke|p2|Araquanid, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Moth|
+|poke|p2|Kyurem|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Waterpon400)
+|
+|t:|1743832266
+|start
+|switch|p1a: Gholdengo|Gholdengo, shiny|100/100
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|turn|1
+|
+|t:|1743832270
+|move|p1a: Gholdengo|Trick|p2a: Araquanid
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Araquanid
+|-item|p2a: Araquanid|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Custap Berry|[from] move: Trick
+|move|p2a: Araquanid|Liquidation|p1a: Gholdengo
+|-damage|p1a: Gholdengo|23/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743832279
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Araquanid|Liquidation|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743832303
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743832314
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Iron Moth|Fiery Dance|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|72/100
+|-boost|p2a: Iron Moth|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743832335
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Araquanid
+|-damage|p2a: Araquanid|27/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743832346
+|move|p2a: Araquanid|Endure|p2a: Araquanid
+|-singleturn|p2a: Araquanid|move: Endure
+|move|p1a: Walking Wake|Draco Meteor|p2a: Araquanid
+|-activate|p2a: Araquanid|move: Endure
+|-damage|p2a: Araquanid|1/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743832357
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Iron Moth
+|-damage|p2a: Iron Moth|67/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743832367
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Thundurus|Thundurus, M, shiny|100/100
+|move|p2a: Iron Moth|Sludge Wave|p1a: Thundurus
+|-damage|p1a: Thundurus|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743832370
+|move|p1a: Thundurus|Thunder Wave|p2a: Iron Moth
+|-status|p2a: Iron Moth|par
+|move|p2a: Iron Moth|Overheat|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|-unboost|p2a: Iron Moth|spa|2
+|faint|p1a: Thundurus
+|
+|-weather|none
+|upkeep
+|
+|t:|1743832382
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|10
+|
+|t:|1743832386
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743832389
+|switch|p2a: Araquanid|Araquanid, M|1/100
+|turn|11
+|
+|t:|1743832395
+|move|p1a: Great Tusk|Headlong Rush|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|t:|1743832412
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|12
+|
+|t:|1743832426
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|65/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Kyurem|Icicle Spear|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|61/100
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|56/100
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|53/100
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|48/100
+|-hitcount|p1a: Torkoal|4
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743832432
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|move|p1a: Torkoal|Stealth Rock|p2a: Kyurem
+|-sidestart|p2: Waterpon400|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743832438
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|move|p1a: Torkoal|Will-O-Wisp|p2a: Kyurem
+|-status|p2a: Kyurem|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Kyurem|94/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743832447
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|move|p1a: Torkoal|Lava Plume|p2a: Kyurem
+|-damage|p2a: Kyurem|58/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Kyurem|52/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743832456
+|switch|p1a: Gholdengo|Gholdengo, shiny|23/100
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Kyurem|46/100 brn|[from] brn
+|upkeep
+|turn|17
+|-enditem|p1a: Gholdengo|Custap Berry|[eat]
+|-activate|p1a: Gholdengo|item: Custap Berry|[consumed]
+|
+|t:|1743832461
+|move|p1a: Gholdengo|Trick|p2a: Kyurem
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Kyurem
+|-enditem|p2a: Kyurem|Loaded Dice|[silent]|[from] move: Trick
+|-item|p1a: Gholdengo|Loaded Dice|[from] move: Trick
+|move|p2a: Kyurem|Icicle Spear|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|11/100
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|-hitcount|p1: Gholdengo|2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Kyurem|40/100 brn|[from] brn
+|upkeep
+|
+|t:|1743832490
+|switch|p1a: Walking Wake|Walking Wake|72/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|18
+|
+|t:|1743832494
+|-terastallize|p1a: Walking Wake|Water
+|move|p2a: Kyurem|Icicle Spear|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|60/100
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|48/100
+|-hitcount|p1a: Walking Wake|2
+|move|p1a: Walking Wake|Flamethrower|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743832512
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743832526
+|move|p1a: Walking Wake|Flamethrower|p2a: Ogerpon
+|-damage|p2a: Ogerpon|2/100
+|move|p2a: Ogerpon|Horn Leech|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|-heal|p2a: Ogerpon|29/100|[from] drain|[of] p1a: Walking Wake
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743832532
+|switch|p1a: Torkoal|Torkoal, F|48/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|20
+|
+|t:|1743832535
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Torkoal|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|14/100
+|move|p1a: Torkoal|Lava Plume|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743832541
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|21
+|
+|t:|1743832544
+|move|p2a: Great Tusk|Rapid Spin|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Waterpon400|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743832548
+|switch|p1a: Lilligant|Lilligant-Hisui, F, shiny|100/100
+|turn|22
+|
+|t:|1743832555
+|-terastallize|p2a: Great Tusk|Dark
+|move|p1a: Lilligant|Solar Blade||[still]
+|-prepare|p1a: Lilligant|Solar Blade
+|-anim|p1a: Lilligant|Solar Blade|p2a: Great Tusk
+|-damage|p2a: Great Tusk|45/100
+|-damage|p1a: Lilligant|91/100|[from] item: Life Orb
+|move|p2a: Great Tusk|Close Combat|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Lilligant
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743832565
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|23
+|
+|t:|1743832573
+|move|p1a: Great Tusk|Headlong Rush|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆Waterpon400|How?
+|
+|t:|1743832600
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|24
+|
+|t:|1743832610
+|move|p1a: Great Tusk|Headlong Rush|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|move|p2a: Gholdengo|Make It Rain|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|win|Waterpon400
+|raw|jhonss's rating: 1257 &rarr; <strong>1233</strong><br />(-24 for losing)
+|raw|Waterpon400's rating: 1273 &rarr; <strong>1297</strong><br />(+24 for winning)
+|c|☆jhonss|scarf
+|c|☆Waterpon400|Lol
+|l|☆jhonss
+|player|p1|
+|l|☆Waterpon400
+|player|p2|

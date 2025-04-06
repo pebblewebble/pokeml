@@ -1,0 +1,365 @@
+|j|☆ThemedMemeTeam
+|j|☆literallylukas
+|t:|1743888081
+|gametype|singles
+|player|p1|ThemedMemeTeam|veteran|1114
+|player|p2|literallylukas|101|1121
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, F|
+|poke|p1|Torkoal, M|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Pincurchin, F|
+|poke|p1|Indeedee, M|
+|poke|p1|Politoed, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Azumarill, M|
+|poke|p2|Lapras, F|
+|poke|p2|Quagsire, F|
+|poke|p2|Lanturn, F|
+|poke|p2|Tentacruel, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by literallylukas)
+|
+|t:|1743888100
+|start
+|switch|p1a: Pincurchin|Pincurchin, F|100/100
+|switch|p2a: Tentacruel|Tentacruel, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|1
+|
+|t:|1743888108
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Pincurchin
+|-sidestart|p1: ThemedMemeTeam|move: Toxic Spikes
+|move|p1a: Pincurchin|Discharge|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|40/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743888121
+|-terastallize|p2a: Tentacruel|Ground
+|move|p2a: Tentacruel|Toxic Spikes|p1a: Pincurchin
+|-sidestart|p1: ThemedMemeTeam|move: Toxic Spikes
+|move|p1a: Pincurchin|Discharge|p2a: Tentacruel
+|-immune|p2a: Tentacruel
+|
+|upkeep
+|turn|3
+|
+|t:|1743888133
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Tentacruel|Poison Jab|p1a: Torkoal
+|-damage|p1a: Torkoal|80/100
+|-status|p1a: Torkoal|psn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Torkoal|67/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743888146
+|move|p2a: Tentacruel|Flip Turn|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|51/100 psn
+|
+|t:|1743888149
+|switch|p2a: Pelipper|Pelipper, F|100/100|[from] Flip Turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Torkoal|Rapid Spin|p2a: Pelipper
+|-damage|p2a: Pelipper|88/100
+|-boost|p1a: Torkoal|spe|1
+|-sideend|p1: ThemedMemeTeam|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Torkoal
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Torkoal|39/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743888165
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Pelipper|Weather Ball|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|81/100
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1743888178
+|move|p2a: Pelipper|Protect|p2a: Pelipper
+|-singleturn|p2a: Pelipper|Protect
+|move|p1a: Ninetales|Freeze-Dry|p2a: Pelipper
+|-activate|p2a: Pelipper|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743888186
+|switch|p2a: Lapras|Lapras, F|100/100
+|move|p1a: Ninetales|Moonblast|p2a: Lapras
+|-damage|p2a: Lapras|75/100
+|-unboost|p2a: Lapras|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Lapras|81/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743888195
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: ThemedMemeTeam|move: Aurora Veil
+|move|p2a: Lapras|Whirlpool|p1a: Ninetales
+|-damage|p1a: Ninetales|77/100
+|-activate|p1a: Ninetales|move: Whirlpool|[of] p2a: Lapras
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Lapras|88/100|[from] item: Leftovers
+|-damage|p1a: Ninetales|65/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|t:|1743888205
+|move|p1a: Ninetales|Encore|p2a: Lapras
+|-start|p2a: Lapras|Encore
+|move|p2a: Lapras|Whirlpool|p1a: Ninetales
+|-damage|p1a: Ninetales|60/100
+|
+|-weather|none
+|-heal|p2a: Lapras|94/100|[from] item: Leftovers
+|-damage|p1a: Ninetales|48/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|t:|1743888220
+|switch|p2a: Pelipper|Pelipper, F|88/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Ninetales|Moonblast|p2a: Pelipper
+|-damage|p2a: Pelipper|44/100
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Ninetales|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|11
+|
+|t:|1743888237
+|switch|p1a: Pincurchin|Pincurchin, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|switch|p2a: Lapras|Lapras, F|94/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lapras|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743888250
+|move|p2a: Lapras|Whirlpool|p1a: Pincurchin
+|-damage|p1a: Pincurchin|90/100
+|-activate|p1a: Pincurchin|move: Whirlpool|[of] p2a: Lapras
+|move|p1a: Pincurchin|Spikes|p2a: Lapras
+|-sidestart|p2: literallylukas|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lapras|100/100|[from] item: Leftovers
+|-damage|p1a: Pincurchin|78/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|13
+|
+|t:|1743888260
+|move|p2a: Lapras|Perish Song|p2a: Lapras
+|-start|p1a: Pincurchin|perish3|[silent]
+|-start|p2a: Lapras|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Pincurchin|Spikes|p2a: Lapras
+|-sidestart|p2: literallylukas|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pincurchin|66/100|[from] move: Whirlpool|[partiallytrapped]
+|-start|p2a: Lapras|perish3
+|-start|p1a: Pincurchin|perish3
+|upkeep
+|turn|14
+|
+|t:|1743888271
+|move|p2a: Lapras|Protect|p2a: Lapras
+|-singleturn|p2a: Lapras|Protect
+|move|p1a: Pincurchin|Discharge|p2a: Lapras
+|-activate|p2a: Lapras|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pincurchin|53/100|[from] move: Whirlpool|[partiallytrapped]
+|-start|p2a: Lapras|perish2
+|-start|p1a: Pincurchin|perish2
+|upkeep
+|turn|15
+|
+|t:|1743888282
+|move|p2a: Lapras|Rest|p2a: Lapras
+|-fail|p2a: Lapras|heal
+|move|p1a: Pincurchin|Discharge|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|56/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Lapras|62/100|[from] item: Leftovers
+|-damage|p1a: Pincurchin|41/100|[from] move: Whirlpool|[partiallytrapped]
+|-start|p2a: Lapras|perish1
+|-start|p1a: Pincurchin|perish1
+|-sideend|p1: ThemedMemeTeam|move: Aurora Veil
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|16
+|
+|t:|1743888295
+|switch|p2a: Tentacruel|Tentacruel, M, tera:Ground|40/100
+|move|p1a: Pincurchin|Spikes|p2a: Tentacruel
+|-sidestart|p2: literallylukas|Spikes
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Tentacruel|46/100|[from] ability: Rain Dish
+|-end|p1a: Pincurchin|Whirlpool|[partiallytrapped]
+|-start|p1a: Pincurchin|perish0
+|upkeep
+|faint|p1a: Pincurchin
+|
+|t:|1743888303
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|17
+|
+|t:|1743888308
+|-terastallize|p1a: Rillaboom|Grass
+|move|p1a: Rillaboom|Grassy Glide|p2a: Tentacruel
+|-supereffective|p2a: Tentacruel
+|-damage|p2a: Tentacruel|0 fnt
+|faint|p2a: Tentacruel
+|
+|-weather|none
+|upkeep
+|
+|t:|1743888317
+|switch|p2a: Azumarill|Azumarill, M|100/100
+|-damage|p2a: Azumarill|76/100|[from] Spikes
+|turn|18
+|
+|t:|1743888327
+|move|p1a: Rillaboom|Grassy Glide|p2a: Azumarill
+|-ability|p2a: Azumarill|Sap Sipper|boost
+|-boost|p2a: Azumarill|atk|1
+|move|p2a: Azumarill|Ice Spinner|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|39/100
+|-fieldend|move: Grassy Terrain
+|-damage|p2a: Azumarill|66/100|[from] item: Life Orb
+|
+|upkeep
+|turn|19
+|
+|t:|1743888340
+|switch|p1a: Ninetales|Ninetales-Alola, M|48/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Azumarill|Play Rough|p1a: Ninetales|[miss]
+|-miss|p2a: Azumarill|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1743888356
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: ThemedMemeTeam|move: Aurora Veil
+|move|p2a: Azumarill|Liquidation|p1a: Ninetales
+|-damage|p1a: Ninetales|23/100
+|-damage|p2a: Azumarill|56/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743888371
+|switch|p2a: Lanturn|Lanturn, F|100/100
+|-item|p2a: Lanturn|Air Balloon
+|move|p1a: Ninetales|Freeze-Dry|p2a: Lanturn
+|-supereffective|p2a: Lanturn
+|-damage|p2a: Lanturn|58/100
+|-enditem|p2a: Lanturn|Air Balloon
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1743888382
+|move|p1a: Ninetales|Freeze-Dry|p2a: Lanturn
+|-supereffective|p2a: Lanturn
+|-damage|p2a: Lanturn|17/100
+|move|p2a: Lanturn|Rain Dance|p2a: Lanturn
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1743888391
+|move|p1a: Ninetales|Freeze-Dry|p2a: Lanturn
+|-supereffective|p2a: Lanturn
+|-damage|p2a: Lanturn|0 fnt
+|faint|p2a: Lanturn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743888398
+|switch|p2a: Azumarill|Azumarill, M|56/100
+|-damage|p2a: Azumarill|31/100|[from] Spikes
+|turn|24
+|
+|t:|1743888403
+|move|p2a: Azumarill|Aqua Jet|p1a: Ninetales
+|-damage|p1a: Ninetales|6/100
+|-damage|p2a: Azumarill|21/100|[from] item: Life Orb
+|move|p1a: Ninetales|Freeze-Dry|p2a: Azumarill
+|-supereffective|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743888416
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|-damage|p2a: Quagsire|75/100|[from] Spikes
+|turn|25
+|
+|t:|1743888421
+|move|p1a: Ninetales|Freeze-Dry|p2a: Quagsire
+|-supereffective|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|literallylukas forfeited.
+|
+|win|ThemedMemeTeam
+|raw|ThemedMemeTeam's rating: 1114 &rarr; <strong>1140</strong><br />(+26 for winning)
+|raw|literallylukas's rating: 1121 &rarr; <strong>1095</strong><br />(-26 for losing)
+|l|☆literallylukas
+|player|p2|
+|l|☆ThemedMemeTeam
+|player|p1|

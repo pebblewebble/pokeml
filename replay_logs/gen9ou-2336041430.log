@@ -1,0 +1,216 @@
+|j|☆OwlTimer
+|j|☆projectzone
+|t:|1743872798
+|gametype|singles
+|player|p1|OwlTimer|roughneck|1311
+|player|p2|projectzone|1|1309
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Feraligatr, F|
+|poke|p1|Araquanid, M|
+|poke|p1|Gholdengo|
+|poke|p1|Ceruledge, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Kyurem|
+|poke|p2|Ursaluna, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Ting-Lu|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|
+|t:|1743872805
+|start
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1743872813
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Araquanid
+|-damage|p1a: Araquanid|45/100
+|move|p1a: Araquanid|Sticky Web|p2a: Raging Bolt
+|-sidestart|p2: projectzone|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743872823
+|move|p1a: Araquanid|Endure|p1a: Araquanid
+|-singleturn|p1a: Araquanid|move: Endure
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743872831
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1743872847
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|4
+|
+|t:|1743872853
+|-terastallize|p2a: Raging Bolt|Fairy
+|move|p1a: Kyurem|Scale Shot|p2a: Raging Bolt
+|-immune|p2a: Raging Bolt
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|t:|1743872857
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by projectzone)
+|
+|t:|1743872884
+|switch|p1a: Feraligatr|Feraligatr, F|100/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Feraligatr
+|-supereffective|p1a: Feraligatr
+|-damage|p1a: Feraligatr|0 fnt
+|faint|p1a: Feraligatr
+|
+|upkeep
+|
+|t:|1743872890
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|turn|6
+|
+|t:|1743872895
+|move|p1a: Ceruledge|Bitter Blade|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|58/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Ceruledge
+|-enditem|p1a: Ceruledge|Focus Sash
+|-damage|p1a: Ceruledge|1/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743872905
+|move|p1a: Ceruledge|Bitter Blade|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|16/100
+|-heal|p1a: Ceruledge|34/100|[from] drain|[of] p2a: Raging Bolt
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|upkeep
+|
+|t:|1743872909
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|8
+|
+|t:|1743872919
+|move|p1a: Raging Bolt|Thunderclap|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743872924
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-activate|p2a: Ting-Lu|move: Sticky Web
+|-unboost|p2a: Ting-Lu|spe|1
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|9
+|
+|t:|1743872933
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|73/100
+|-unboost|p1a: Raging Bolt|spa|2
+|move|p2a: Ting-Lu|Ruination|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|51/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743872941
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Ting-Lu|Earthquake|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|11
+|
+|t:|1743872950
+|move|p1a: Gholdengo|Dazzling Gleam|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|55/100
+|move|p2a: Ting-Lu|Ruination|p1a: Gholdengo
+|-damage|p1a: Gholdengo|51/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|12
+|
+|t:|1743872960
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Ting-Lu|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743872962
+|switch|p1a: Raging Bolt|Raging Bolt|51/100
+|turn|13
+|
+|t:|1743872975
+|-terastallize|p1a: Raging Bolt|Fairy
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|32/100
+|-unboost|p1a: Raging Bolt|spa|2
+|move|p2a: Ting-Lu|Earthquake|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|14/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743872989
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|21/100
+|-unboost|p1a: Raging Bolt|spa|2
+|move|p2a: Ting-Lu|Earthquake|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|projectzone
+|raw|OwlTimer's rating: 1311 &rarr; <strong>1291</strong><br />(-20 for losing)
+|raw|projectzone's rating: 1309 &rarr; <strong>1329</strong><br />(+20 for winning)
+|l|☆OwlTimer
+|player|p1|

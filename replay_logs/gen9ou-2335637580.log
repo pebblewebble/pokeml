@@ -1,0 +1,122 @@
+|j|☆3phaseshort
+|j|☆equinox000
+|t:|1743815389
+|gametype|singles
+|player|p1|3phaseshort|n|1499
+|player|p2|equinox000|170|1596
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hydrapple, M|
+|poke|p1|Skarmory, M|
+|poke|p1|Tyranitar, M|
+|poke|p1|Alomomola, M|
+|poke|p1|Clodsire, M|
+|poke|p1|Clefable, M|
+|poke|p2|Zarude-Dada|
+|poke|p2|Suicune|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Treads|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|t:|1743815396
+|start
+|switch|p1a: Alomomola|Alomomola, M, shiny|100/100
+|switch|p2a: Zarude|Zarude-Dada|100/100
+|turn|1
+|
+|t:|1743815412
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|move|p2a: Zarude|Bulk Up|p2a: Zarude
+|-boost|p2a: Zarude|atk|1
+|-boost|p2a: Zarude|def|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743815418
+|move|p2a: Zarude|Knock Off|p1a: Skarmory
+|-damage|p1a: Skarmory|56/100
+|-damage|p2a: Zarude|84/100|[from] item: Rocky Helmet|[of] p1a: Skarmory
+|-enditem|p1a: Skarmory|Rocky Helmet|[from] move: Knock Off|[of] p2a: Zarude
+|move|p1a: Skarmory|Iron Defense|p1a: Skarmory
+|-boost|p1a: Skarmory|def|2
+|
+|-heal|p2a: Zarude|90/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 3phaseshort)
+|
+|t:|1743815424
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Skarmory|Spikes|p2a: Iron Moth
+|-sidestart|p2: equinox000|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1743815427
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Clodsire
+|-damage|p1a: Clodsire|75/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743815443
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Suicune|Suicune|100/100
+|-damage|p2a: Suicune|88/100|[from] Spikes
+|-ability|p2a: Suicune|Pressure
+|move|p1a: Clodsire|Toxic|p2a: Suicune
+|-status|p2a: Suicune|tox
+|
+|-heal|p2a: Suicune|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Suicune|88/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743815462
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|88/100|[from] Spikes
+|switch|p1a: Alomomola|Alomomola, M, shiny|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743815466
+|move|p2a: Gholdengo|Shadow Ball|p1a: Alomomola
+|-damage|p1a: Alomomola|61/100
+|-unboost|p1a: Alomomola|spd|1
+|move|p1a: Alomomola|Flip Turn|p2a: Gholdengo
+|-damage|p2a: Gholdengo|70/100
+|
+|t:|1743815472
+|switch|p1a: Clodsire|Clodsire, M|75/100|[from] Flip Turn
+|
+|upkeep
+|turn|8
+|-message|equinox000 forfeited.
+|
+|win|3phaseshort
+|raw|3phaseshort's rating: 1476 &rarr; <strong>1503</strong><br />(+27 for winning)
+|raw|equinox000's rating: 1596 &rarr; <strong>1569</strong><br />(-27 for losing)
+|l|☆equinox000
+|player|p2|
+|l|☆3phaseshort
+|player|p1|

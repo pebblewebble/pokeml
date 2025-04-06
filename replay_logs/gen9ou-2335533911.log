@@ -1,0 +1,298 @@
+|j|☆Adromas
+|j|☆leftoverbitch
+|t:|1743803457
+|gametype|singles
+|player|p1|Adromas|clerk|1119
+|player|p2|leftoverbitch|byron|1159
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pecharunt|
+|poke|p1|Abomasnow, M|
+|poke|p1|Dewgong, M|
+|poke|p1|Cetitan, F|
+|poke|p1|Mamoswine, M|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Toxapex, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Zapdos|
+|poke|p2|Mew|
+|poke|p2|Dragonite, F|
+|teampreview
+|
+|t:|1743803461
+|start
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|switch|p2a: Mew|Mew|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Adromas)
+|
+|t:|1743803469
+|move|p2a: Mew|Fire Spin|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|76/100
+|-activate|p1a: Abomasnow|move: Fire Spin|[of] p2a: Mew
+|move|p1a: Abomasnow|Aurora Veil|p1a: Abomasnow
+|-sidestart|p1: Adromas|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Abomasnow|64/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1743803483
+|move|p2a: Mew|Imprison|p2a: Mew
+|-start|p2a: Mew|move: Imprison
+|move|p1a: Abomasnow|Leech Seed|p2a: Mew
+|-start|p2a: Mew|move: Leech Seed
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Mew|88/100|[from] Leech Seed|[of] p1a: Abomasnow
+|-heal|p1a: Abomasnow|75/100|[silent]
+|-damage|p1a: Abomasnow|63/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1743803495
+|move|p2a: Mew|Transform|p1a: Abomasnow
+|-transform|p2a: Mew|p1a: Abomasnow
+|cant|p1a: Abomasnow|move: Imprison|Giga Drain
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Mew|94/100|[from] item: Leftovers
+|-damage|p2a: Mew|82/100|[from] Leech Seed|[of] p1a: Abomasnow
+|-heal|p1a: Abomasnow|74/100|[silent]
+|-damage|p1a: Abomasnow|62/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|4
+|inactive|leftoverbitch has 120 seconds left.
+|
+|t:|1743803527
+|move|p2a: Mew|Aurora Veil|p2a: Mew
+|-sidestart|p2: leftoverbitch|move: Aurora Veil
+|-activate|p1a: Abomasnow|move: Struggle
+|move|p1a: Abomasnow|Struggle|p2a: Mew
+|-damage|p2a: Mew|79/100
+|-damage|p1a: Abomasnow|37/100|[from] recoil
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Mew|85/100|[from] item: Leftovers
+|-damage|p2a: Mew|72/100|[from] Leech Seed|[of] p1a: Abomasnow
+|-heal|p1a: Abomasnow|47/100|[silent]
+|-damage|p1a: Abomasnow|35/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|5
+|inactive|leftoverbitch has 120 seconds left.
+|
+|t:|1743803540
+|move|p2a: Mew|Giga Drain|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-crit|p1a: Abomasnow
+|-damage|p1a: Abomasnow|21/100
+|-heal|p2a: Mew|80/100|[from] drain|[of] p1a: Abomasnow
+|-activate|p1a: Abomasnow|move: Struggle
+|move|p1a: Abomasnow|Struggle|p2a: Mew
+|-damage|p2a: Mew|76/100
+|-damage|p1a: Abomasnow|0 fnt|[from] recoil
+|faint|p1a: Abomasnow
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Mew|83/100|[from] item: Leftovers
+|-sideend|p1: Adromas|move: Aurora Veil
+|upkeep
+|
+|t:|1743803555
+|switch|p1a: Cetitan|Cetitan, F|100/100
+|turn|6
+|
+|t:|1743803561
+|move|p1a: Cetitan|Belly Drum|p1a: Cetitan
+|-damage|p1a: Cetitan|50/100
+|-setboost|p1a: Cetitan|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Cetitan|Sitrus Berry|[eat]
+|-heal|p1a: Cetitan|75/100|[from] item: Sitrus Berry
+|move|p2a: Mew|Leech Seed|p1a: Cetitan
+|-start|p1a: Cetitan|move: Leech Seed
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Mew|89/100|[from] item: Leftovers
+|-damage|p1a: Cetitan|63/100|[from] Leech Seed|[of] p2a: Mew
+|-heal|p2a: Mew|100/100|[silent]
+|-damage|p2a: Mew|88/100|[from] Leech Seed|[of] p1a: Cetitan
+|-heal|p1a: Cetitan|72/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1743803575
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Cetitan|Icicle Crash|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|75/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Toxapex|81/100|[from] item: Black Sludge
+|-damage|p1a: Cetitan|59/100|[from] Leech Seed|[of] p2a: Toxapex
+|-heal|p2a: Toxapex|100/100|[silent]
+|upkeep
+|turn|8
+|
+|t:|1743803586
+|move|p1a: Cetitan|Icicle Crash|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|75/100
+|cant|p2a: Toxapex|flinch
+|
+|-weather|none
+|-heal|p2a: Toxapex|82/100|[from] item: Black Sludge
+|-damage|p1a: Cetitan|47/100|[from] Leech Seed|[of] p2a: Toxapex
+|-heal|p2a: Toxapex|100/100|[silent]
+|-sideend|p2: leftoverbitch|move: Aurora Veil
+|upkeep
+|turn|9
+|
+|t:|1743803599
+|move|p1a: Cetitan|Earthquake|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|t:|1743803610
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|10
+|
+|t:|1743803616
+|move|p1a: Cetitan|Icicle Crash|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743803626
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|11
+|
+|t:|1743803636
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Cetitan|[anim] Ivy Cudgel Water
+|-damage|p1a: Cetitan|0 fnt
+|faint|p1a: Cetitan
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743803652
+|switch|p1a: Dewgong|Dewgong, M|100/100
+|turn|12
+|
+|t:|1743803663
+|move|p2a: Ogerpon|Play Rough|p1a: Dewgong
+|-damage|p1a: Dewgong|60/100
+|move|p1a: Dewgong|Perish Song|p1a: Dewgong
+|-start|p1a: Dewgong|perish3|[silent]
+|-start|p2a: Ogerpon|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Ogerpon|perish3
+|-start|p1a: Dewgong|perish3
+|upkeep
+|turn|13
+|
+|t:|1743803684
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Dewgong|Whirlpool|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|97/100
+|-activate|p2a: Dragonite|move: Whirlpool|[of] p1a: Dewgong
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Dragonite|84/100|[from] move: Whirlpool|[partiallytrapped]
+|-start|p1a: Dewgong|perish2
+|upkeep
+|turn|14
+|
+|t:|1743803695
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-end|p2a: Dragonite|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|15
+|
+|t:|1743803704
+|move|p2a: Dragonite|Waterfall|p1a: Pecharunt
+|-damage|p1a: Pecharunt|70/100
+|cant|p1a: Pecharunt|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Pecharunt|76/100|[from] item: Black Sludge
+|upkeep
+|turn|16
+|
+|t:|1743803712
+|move|p2a: Dragonite|Waterfall|p1a: Pecharunt
+|-damage|p1a: Pecharunt|45/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Dragonite
+|-damage|p2a: Dragonite|52/100
+|-status|p2a: Dragonite|tox
+|-start|p2a: Dragonite|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Pecharunt|51/100|[from] item: Black Sludge
+|-damage|p2a: Dragonite|46/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1743803725
+|-activate|p2a: Dragonite|confusion
+|move|p2a: Dragonite|Waterfall|p1a: Pecharunt
+|-damage|p1a: Pecharunt|18/100
+|cant|p1a: Pecharunt|flinch
+|
+|-weather|none
+|-heal|p1a: Pecharunt|24/100|[from] item: Black Sludge
+|-damage|p2a: Dragonite|33/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1743803735
+|-activate|p2a: Dragonite|confusion
+|-damage|p2a: Dragonite|8/100 tox|[from] confusion
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|74/100
+|
+|-heal|p1a: Pecharunt|80/100|[from] item: Black Sludge
+|-damage|p2a: Dragonite|0 fnt|[from] psn
+|faint|p2a: Dragonite
+|upkeep
+|-message|leftoverbitch forfeited.
+|
+|win|Adromas
+|raw|Adromas's rating: 1119 &rarr; <strong>1147</strong><br />(+28 for winning)
+|raw|leftoverbitch's rating: 1159 &rarr; <strong>1131</strong><br />(-28 for losing)
+|l|☆leftoverbitch
+|player|p2|
+|l|☆Adromas
+|player|p1|

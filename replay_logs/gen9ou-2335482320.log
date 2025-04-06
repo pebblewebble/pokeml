@@ -1,0 +1,188 @@
+|j|☆Hyde-D-Rastom
+|j|‽XIXINANA
+|t:|1743798369
+|gametype|singles
+|player|p1|Hyde-D-Rastom|calem|1315
+|player|p2|XIXINANA|hilbert|1329
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Infernape, M|
+|poke|p1|Empoleon, M|
+|poke|p1|Torterra, M|
+|poke|p1|Drifblim, F|
+|poke|p1|Electivire, M|
+|poke|p1|Darkrai|
+|poke|p2|Iron Valiant|
+|poke|p2|Braviary-Hisui, M|
+|poke|p2|Enamorus-Therian, F|
+|poke|p2|Fezandipiti, M|
+|poke|p2|Brute Bonnet|
+|poke|p2|Magmortar, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hyde-D-Rastom)
+|
+|t:|1743798394
+|start
+|switch|p1a: Infernape|Infernape, M|100/100
+|switch|p2a: Braviary|Braviary-Hisui, M|100/100
+|turn|1
+|
+|t:|1743798418
+|move|p1a: Infernape|U-turn|p2a: Braviary
+|-damage|p2a: Braviary|73/100
+|
+|t:|1743798421
+|switch|p1a: Darkrai|Darkrai|100/100|[from] U-turn
+|move|p2a: Braviary|Psychic|p1a: Darkrai
+|-immune|p1a: Darkrai
+|
+|upkeep
+|turn|2
+|
+|t:|1743798427
+|switch|p2a: Fezandipiti|Fezandipiti, M|100/100
+|move|p1a: Darkrai|Dark Pulse|p2a: Fezandipiti
+|-resisted|p2a: Fezandipiti
+|-damage|p2a: Fezandipiti|76/100
+|-damage|p1a: Darkrai|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1743798444
+|switch|p1a: Empoleon|Empoleon, M|100/100
+|move|p2a: Fezandipiti|Play Rough|p1a: Empoleon|[miss]
+|-miss|p2a: Fezandipiti|p1a: Empoleon
+|
+|upkeep
+|turn|4
+|
+|t:|1743798455
+|switch|p2a: Braviary|Braviary-Hisui, M|73/100
+|move|p1a: Empoleon|Flash Cannon|p2a: Braviary
+|-damage|p2a: Braviary|25/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743798465
+|move|p2a: Braviary|Heat Wave|p1a: Empoleon
+|-damage|p1a: Empoleon|43/100
+|move|p1a: Empoleon|Ice Beam|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|upkeep
+|
+|t:|1743798474
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|6
+|
+|t:|1743798497
+|move|p2a: Iron Valiant|Close Combat|p1a: Empoleon
+|-supereffective|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1a: Empoleon
+|-damage|p2a: Iron Valiant|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743798502
+|switch|p1a: Infernape|Infernape, M|100/100
+|turn|7
+|
+|t:|1743798511
+|move|p1a: Infernape|Flare Blitz|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|-damage|p1a: Infernape|71/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743798515
+|switch|p2a: Magmortar|Magmortar, M|100/100
+|turn|8
+|
+|t:|1743798528
+|switch|p1a: Electivire|Electivire, M|100/100
+|-item|p1a: Electivire|Air Balloon
+|move|p2a: Magmortar|Flame Charge|p1a: Electivire
+|-damage|p1a: Electivire|65/100
+|-boost|p2a: Magmortar|spe|1
+|-enditem|p1a: Electivire|Air Balloon
+|-damage|p2a: Magmortar|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|t:|1743798538
+|move|p2a: Magmortar|Fire Blast|p1a: Electivire
+|-damage|p1a: Electivire|0 fnt
+|faint|p1a: Electivire
+|-damage|p2a: Magmortar|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743798545
+|switch|p1a: Torterra|Torterra, M|100/100
+|turn|10
+|
+|t:|1743798549
+|-terastallize|p1a: Torterra|Water
+|move|p2a: Magmortar|Fire Blast|p1a: Torterra|[miss]
+|-miss|p2a: Magmortar|p1a: Torterra
+|move|p1a: Torterra|Shell Smash|p1a: Torterra
+|-unboost|p1a: Torterra|def|1
+|-unboost|p1a: Torterra|spd|1
+|-boost|p1a: Torterra|atk|2
+|-boost|p1a: Torterra|spa|2
+|-boost|p1a: Torterra|spe|2
+|
+|upkeep
+|turn|11
+|
+|t:|1743798556
+|move|p2a: Magmortar|Thunderbolt|p1a: Torterra
+|-supereffective|p1a: Torterra
+|-damage|p1a: Torterra|0 fnt
+|faint|p1a: Torterra
+|-damage|p2a: Magmortar|71/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743798561
+|switch|p1a: Darkrai|Darkrai|91/100
+|turn|12
+|
+|t:|1743798569
+|move|p2a: Magmortar|Fire Blast|p1a: Darkrai
+|-crit|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|-damage|p2a: Magmortar|61/100|[from] item: Life Orb
+|
+|upkeep
+|-message|Hyde-D-Rastom forfeited.
+|
+|win|XIXINANA
+|raw|Hyde-D-Rastom's rating: 1334 &rarr; <strong>1314</strong><br />(-20 for losing)
+|raw|XIXINANA's rating: 1329 &rarr; <strong>1349</strong><br />(+20 for winning)
+|l|☆Hyde-D-Rastom
+|player|p1|
+|l|‽XIXINANA
+|player|p2|

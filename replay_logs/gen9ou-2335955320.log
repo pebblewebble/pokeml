@@ -1,0 +1,180 @@
+|j|☆Decay_ZA
+|j|☆Swankentora
+|t:|1743863460
+|gametype|singles
+|player|p1|Decay_ZA|gentleman-gen4|1212
+|player|p2|Swankentora|n|1286
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Moltres|
+|poke|p1|Primarina, F|
+|poke|p2|Great Tusk|
+|poke|p2|Araquanid, F|
+|poke|p2|Gholdengo|
+|poke|p2|Raging Bolt|
+|poke|p2|Garchomp, M|
+|poke|p2|Ogerpon-Cornerstone, F|
+|teampreview
+|
+|t:|1743863468
+|start
+|switch|p1a: Moltres|Moltres|100/100
+|switch|p2a: Araquanid|Araquanid, F, shiny|100/100
+|turn|1
+|
+|t:|1743863499
+|move|p1a: Moltres|U-turn|p2a: Araquanid
+|-damage|p2a: Araquanid|86/100
+|
+|t:|1743863502
+|switch|p1a: Zamazenta|Zamazenta|100/100|[from] U-turn
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Araquanid|Surf|p1a: Zamazenta
+|-damage|p1a: Zamazenta|53/100
+|
+|-heal|p1a: Zamazenta|59/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743863508
+|move|p1a: Zamazenta|Body Press|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|56/100
+|move|p2a: Araquanid|Sticky Web|p1a: Zamazenta
+|-sidestart|p1: Decay_ZA|move: Sticky Web
+|
+|-heal|p1a: Zamazenta|65/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743863520
+|move|p1a: Zamazenta|Body Press|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|27/100
+|move|p2a: Araquanid|Endeavor|p1a: Zamazenta
+|-damage|p1a: Zamazenta|29/100
+|
+|-heal|p1a: Zamazenta|35/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743863526
+|move|p2a: Araquanid|Endure|p2a: Araquanid
+|-singleturn|p2a: Araquanid|move: Endure
+|move|p1a: Zamazenta|Body Press|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-activate|p2a: Araquanid|move: Endure
+|-damage|p2a: Araquanid|1/100
+|
+|-heal|p1a: Zamazenta|41/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|-enditem|p2a: Araquanid|Custap Berry|[eat]
+|-activate|p2a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1743863542
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-item|p1a: Excadrill|Air Balloon
+|move|p2a: Araquanid|Endeavor|p1a: Excadrill
+|-damage|p1a: Excadrill|1/100
+|-enditem|p1a: Excadrill|Air Balloon
+|
+|upkeep
+|turn|6
+|
+|t:|1743863552
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Excadrill|Rapid Spin|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|upkeep
+|turn|7
+|
+|t:|1743863556
+|move|p1a: Excadrill|Earthquake|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|move|p2a: Gholdengo|Shadow Ball|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|t:|1743863560
+|switch|p1a: Moltres|Moltres|100/100
+|turn|8
+|
+|t:|1743863566
+|switch|p2a: Araquanid|Araquanid, F, shiny|1/100
+|move|p1a: Moltres|Flamethrower|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|t:|1743863570
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|9
+|
+|t:|1743863583
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Moltres|[anim] Ivy Cudgel Rock
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|
+|t:|1743863595
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-activate|p1a: Ogerpon|move: Sticky Web
+|-unboost|p1a: Ogerpon|spe|1
+|turn|10
+|
+|t:|1743863599
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p2a: Ogerpon|Power Whip|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-crit|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743863614
+|switch|p1a: Zamazenta|Zamazenta|41/100
+|-activate|p1a: Zamazenta|move: Sticky Web
+|-unboost|p1a: Zamazenta|spe|1
+|turn|11
+|
+|t:|1743863618
+|move|p2a: Ogerpon|Power Whip|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|-message|Decay_ZA forfeited.
+|
+|win|Swankentora
+|raw|Decay_ZA's rating: 1234 &rarr; <strong>1213</strong><br />(-21 for losing)
+|raw|Swankentora's rating: 1286 &rarr; <strong>1307</strong><br />(+21 for winning)
+|l|☆Decay_ZA
+|player|p1|

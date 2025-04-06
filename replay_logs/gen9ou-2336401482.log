@@ -1,0 +1,212 @@
+|j|☆ajack187
+|j|☆H1217
+|t:|1743912333
+|gametype|singles
+|player|p1|ajack187|265|1094
+|player|p2|H1217|bruno|1145
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dugtrio, M|
+|poke|p1|Azumarill, M|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Jolteon, M|
+|poke|p1|Kommo-o, F|
+|poke|p1|Hoopa-Unbound|
+|poke|p2|Lokix, M|
+|poke|p2|Great Tusk|
+|poke|p2|Torkoal, M|
+|poke|p2|Gholdengo|
+|poke|p2|Walking Wake|
+|poke|p2|Alomomola, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by H1217)
+|
+|t:|1743912339
+|start
+|switch|p1a: Dugtrio|Dugtrio, M|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1743912355
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Dugtrio|Sandstorm|p1a: Dugtrio
+|-weather|Sandstorm
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Alomomola|94/100|[from] Sandstorm
+|-heal|p2a: Alomomola|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743912367
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|move|p2a: Alomomola|Scald|p1a: Hoopa
+|-damage|p1a: Hoopa|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hoopa|82/100|[from] Sandstorm
+|-damage|p2a: Alomomola|94/100|[from] Sandstorm
+|-heal|p2a: Alomomola|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743912380
+|-terastallize|p1a: Hoopa|Psychic
+|move|p1a: Hoopa|Zen Headbutt|p2a: Alomomola
+|-damage|p2a: Alomomola|62/100
+|move|p2a: Alomomola|Flip Turn|p1a: Hoopa
+|-damage|p1a: Hoopa|56/100
+|
+|t:|1743912390
+|switch|p2a: Lokix|Lokix, M|100/100|[from] Flip Turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lokix|94/100|[from] Sandstorm
+|-damage|p1a: Hoopa|50/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1743912402
+|move|p2a: Lokix|U-turn|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|t:|1743912407
+|switch|p2a: Torkoal|Torkoal, M|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743912410
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|5
+|
+|t:|1743912417
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: ajack187|move: Aurora Veil
+|move|p2a: Torkoal|Stealth Rock|p1a: Ninetales
+|-sidestart|p1: ajack187|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743912425
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|-damage|p1a: Kommo-o|94/100|[from] Stealth Rock
+|move|p2a: Torkoal|Eruption|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|76/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743912438
+|switch|p2a: Alomomola|Alomomola, M|95/100
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|43/100
+|-enditem|p1a: Kommo-o|Throat Spray
+|-boost|p1a: Kommo-o|spa|1|[from] item: Throat Spray
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Alomomola|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743912453
+|move|p1a: Kommo-o|Focus Blast|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743912460
+|switch|p2a: Lokix|Lokix, M|94/100
+|turn|9
+|
+|t:|1743912468
+|-terastallize|p2a: Lokix|Bug
+|move|p2a: Lokix|First Impression|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|25/100
+|move|p1a: Kommo-o|Clanging Scales|p2a: Lokix
+|-damage|p2a: Lokix|0 fnt
+|faint|p2a: Lokix
+|-unboost|p1a: Kommo-o|def|1
+|
+|-weather|none
+|upkeep
+|
+|t:|1743912483
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|10
+|
+|t:|1743912487
+|move|p1a: Kommo-o|Flamethrower|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743912494
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|11
+|
+|t:|1743912501
+|move|p1a: Kommo-o|Focus Blast|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743912507
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|12
+|
+|t:|1743912513
+|move|p1a: Kommo-o|Clanging Scales|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|-unboost|p1a: Kommo-o|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: ajack187|move: Aurora Veil
+|upkeep
+|-message|H1217 forfeited.
+|
+|win|ajack187
+|raw|ajack187's rating: 1094 &rarr; <strong>1124</strong><br />(+30 for winning)
+|raw|H1217's rating: 1145 &rarr; <strong>1116</strong><br />(-29 for losing)
+|l|☆H1217
+|player|p2|
+|l|☆ajack187
+|player|p1|

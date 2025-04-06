@@ -1,0 +1,219 @@
+|j|☆Zmeeer
+|j|☆Mattoball
+|t:|1743791222
+|gametype|singles
+|player|p1|Zmeeer|2|1099
+|player|p2|Mattoball|pokefan|1048
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Weavile, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Dragapult, M|
+|poke|p1|Heatran, F|
+|poke|p2|Toxapex, F|
+|poke|p2|Ditto|
+|poke|p2|Corviknight, F|
+|poke|p2|Ceruledge, F|
+|poke|p2|Iron Hands|
+|poke|p2|Pelipper, F|
+|teampreview
+|
+|t:|1743791234
+|start
+|switch|p1a: Colossal Tusk|Great Tusk|100/100
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|turn|1
+|
+|t:|1743791248
+|-terastallize|p2a: Iron Hands|Fighting
+|move|p2a: Iron Hands|Fake Out|p1a: Colossal Tusk
+|-damage|p1a: Colossal Tusk|90/100
+|cant|p1a: Colossal Tusk|flinch
+|
+|-heal|p1a: Colossal Tusk|96/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743791277
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|move|p1a: Colossal Tusk|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: Mattoball|move: Stealth Rock
+|
+|-heal|p1a: Colossal Tusk|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743791285
+|move|p1a: Colossal Tusk|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|77/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Colossal Tusk
+|move|p2a: Corviknight|Air Slash|p1a: Colossal Tusk
+|-supereffective|p1a: Colossal Tusk
+|-damage|p1a: Colossal Tusk|35/100
+|
+|-heal|p1a: Colossal Tusk|41/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743791306
+|-end|p1a: Colossal Tusk|Protosynthesis|[silent]
+|switch|p1a: FIRE! FIRE! FIRE!|Heatran, F|100/100
+|move|p2a: Corviknight|Air Slash|p1a: FIRE! FIRE! FIRE!
+|-resisted|p1a: FIRE! FIRE! FIRE!
+|-damage|p1a: FIRE! FIRE! FIRE!|91/100
+|
+|-heal|p1a: FIRE! FIRE! FIRE!|97/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743791320
+|switch|p2a: Iron Hands|Iron Hands, tera:Fighting|100/100
+|-damage|p2a: Iron Hands|94/100|[from] Stealth Rock
+|move|p1a: FIRE! FIRE! FIRE!|Lava Plume|p2a: Iron Hands
+|-damage|p2a: Iron Hands|54/100
+|-status|p2a: Iron Hands|brn
+|
+|-heal|p1a: FIRE! FIRE! FIRE!|100/100|[from] item: Leftovers
+|-damage|p2a: Iron Hands|48/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743791331
+|move|p2a: Iron Hands|Fake Out|p1a: FIRE! FIRE! FIRE!
+|-resisted|p1a: FIRE! FIRE! FIRE!
+|-damage|p1a: FIRE! FIRE! FIRE!|97/100
+|cant|p1a: FIRE! FIRE! FIRE!|flinch
+|
+|-heal|p1a: FIRE! FIRE! FIRE!|100/100|[from] item: Leftovers
+|-damage|p2a: Iron Hands|42/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743791338
+|move|p1a: FIRE! FIRE! FIRE!|Magma Storm|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743791347
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-damage|p2a: Pelipper|76/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1743791359
+|move|p1a: FIRE! FIRE! FIRE!|Lava Plume|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|44/100
+|move|p2a: Pelipper|Hydro Pump|p1a: FIRE! FIRE! FIRE!
+|-supereffective|p1a: FIRE! FIRE! FIRE!
+|-damage|p1a: FIRE! FIRE! FIRE!|24/100
+|
+|-heal|p1a: FIRE! FIRE! FIRE!|31/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743791367
+|switch|p1a: Dragon DEEZ NUTS|Dragapult, M|100/100
+|move|p2a: Pelipper|Protect||[still]
+|-fail|p2a: Pelipper
+|
+|upkeep
+|turn|10
+|
+|t:|1743791381
+|move|p2a: Pelipper|Protect|p2a: Pelipper
+|-singleturn|p2a: Pelipper|Protect
+|move|p1a: Dragon DEEZ NUTS|Dragon Dance|p1a: Dragon DEEZ NUTS
+|-boost|p1a: Dragon DEEZ NUTS|atk|1
+|-boost|p1a: Dragon DEEZ NUTS|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1743791394
+|move|p1a: Dragon DEEZ NUTS|Dragon Darts|p2a: Pelipper
+|-damage|p2a: Pelipper|2/100
+|-anim|p1a: Dragon DEEZ NUTS|Dragon Darts|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|-damage|p1a: Dragon DEEZ NUTS|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743791404
+|switch|p2a: Ditto|Ditto|100/100
+|-damage|p2a: Ditto|88/100|[from] Stealth Rock
+|-transform|p2a: Ditto|p1a: Dragon DEEZ NUTS|[from] ability: Imposter
+|turn|12
+|
+|t:|1743791419
+|move|p1a: Dragon DEEZ NUTS|Sucker Punch|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|-damage|p1a: Dragon DEEZ NUTS|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743791426
+|switch|p2a: Corviknight|Corviknight, F|77/100
+|-damage|p2a: Corviknight|64/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743791436
+|-terastallize|p1a: Dragon DEEZ NUTS|Ghost
+|move|p1a: Dragon DEEZ NUTS|Tera Blast|p2a: Corviknight|[anim] Tera Blast Ghost
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|-damage|p1a: Dragon DEEZ NUTS|71/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743791443
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743791451
+|move|p1a: Dragon DEEZ NUTS|Tera Blast|p2a: Toxapex|[anim] Tera Blast Ghost
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|-damage|p1a: Dragon DEEZ NUTS|61/100|[from] item: Life Orb
+|
+|upkeep
+|c|☆Mattoball|wha
+|
+|t:|1743791457
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|-damage|p2a: Ceruledge|76/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743791473
+|move|p1a: Dragon DEEZ NUTS|Sucker Punch|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|-damage|p1a: Dragon DEEZ NUTS|52/100|[from] item: Life Orb
+|
+|win|Zmeeer
+|raw|Zmeeer's rating: 1099 &rarr; <strong>1120</strong><br />(+21 for winning)
+|raw|Mattoball's rating: 1048 &rarr; <strong>1033</strong><br />(-15 for losing)

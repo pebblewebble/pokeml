@@ -1,0 +1,245 @@
+|j|☆iospix
+|j|☆Rovvan!
+|t:|1743796060
+|gametype|singles
+|player|p1|iospix|102|1248
+|player|p2|Rovvan!|265|1240
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, M|
+|poke|p1|Iron Treads|
+|poke|p1|Cinderace, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Pecharunt|
+|poke|p1|Dragonite, M|
+|poke|p2|Great Tusk|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Iron Crown|
+|poke|p2|Samurott-Hisui, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by iospix)
+|
+|t:|1743796069
+|start
+|switch|p1a: Araquanid|Araquanid, M, shiny|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|t:|1743796081
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|move|p1a: Araquanid|Sticky Web|p2a: Glimmora
+|-sidestart|p2: Rovvan!|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743796090
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdriveatk
+|move|p2a: Glimmora|Stealth Rock|p1a: Iron Treads
+|-sidestart|p1: iospix|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1743796101
+|move|p1a: Iron Treads|Rapid Spin|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|87/100
+|-boost|p1a: Iron Treads|spe|1
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: iospix|move: Toxic Spikes
+|-sideend|p1: iospix|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|-sideend|p1: iospix|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|move|p2a: Glimmora|Earth Power|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|6/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743796112
+|move|p1a: Iron Treads|Earthquake|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: iospix|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1743796120
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|-activate|p2a: Samurott|move: Sticky Web
+|-unboost|p2a: Samurott|spe|1
+|turn|5
+|
+|t:|1743796123
+|move|p1a: Iron Treads|Supercell Slam|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743796128
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|6
+|
+|t:|1743796136
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|-item|p1a: Pecharunt|Air Balloon
+|move|p2a: Great Tusk|Rapid Spin|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|
+|upkeep
+|turn|7
+|
+|t:|1743796141
+|move|p1a: Pecharunt|Nasty Plot|p1a: Pecharunt
+|-boost|p1a: Pecharunt|spa|2
+|move|p2a: Great Tusk|Knock Off|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|56/100
+|-enditem|p1a: Pecharunt|Air Balloon
+|
+|upkeep
+|turn|8
+|
+|t:|1743796150
+|move|p1a: Pecharunt|Shadow Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|10/100
+|move|p2a: Great Tusk|Earthquake|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1743796157
+|switch|p1a: Iron Treads|Iron Treads|6/100
+|turn|9
+|
+|t:|1743796162
+|move|p1a: Iron Treads|Rapid Spin|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: iospix|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743796165
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-activate|p2a: Ninetales|move: Sticky Web
+|-unboost|p2a: Ninetales|spe|1
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|10
+|c|☆Rovvan!|Ihy
+|
+|t:|1743796173
+|move|p1a: Iron Treads|Iron Head|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743796177
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|-activate|p2a: Meowscarada|move: Sticky Web
+|-unboost|p2a: Meowscarada|spe|1
+|turn|11
+|
+|t:|1743796181
+|move|p1a: Iron Treads|Iron Head|p2a: Meowscarada
+|-damage|p2a: Meowscarada|36/100
+|move|p2a: Meowscarada|Knock Off|p1a: Iron Treads
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743796199
+|switch|p1a: Araquanid|Araquanid, M, shiny|100/100
+|turn|12
+|
+|t:|1743796204
+|move|p2a: Meowscarada|Knock Off|p1a: Araquanid
+|-damage|p1a: Araquanid|46/100
+|-enditem|p1a: Araquanid|Mental Herb|[from] move: Knock Off|[of] p2a: Meowscarada
+|move|p1a: Araquanid|Lunge|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743796206
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-activate|p2a: Iron Crown|move: Sticky Web
+|-unboost|p2a: Iron Crown|spe|1
+|turn|13
+|
+|t:|1743796213
+|move|p2a: Iron Crown|Agility|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spe|2
+|move|p1a: Araquanid|Endeavor|p2a: Iron Crown
+|-damage|p2a: Iron Crown|49/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Iron Crown|55/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743796229
+|move|p2a: Iron Crown|Calm Mind|p2a: Iron Crown
+|-boost|p2a: Iron Crown|spa|1
+|-boost|p2a: Iron Crown|spd|1
+|move|p1a: Araquanid|Liquidation|p2a: Iron Crown
+|-damage|p2a: Iron Crown|10/100
+|
+|-weather|none
+|-heal|p2a: Iron Crown|16/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743796237
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|31/100
+|-resisted|p1a: Araquanid
+|-damage|p1a: Araquanid|15/100
+|-hitcount|p1a: Araquanid|2
+|move|p1a: Araquanid|Liquidation|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|win|iospix
+|raw|iospix's rating: 1248 &rarr; <strong>1272</strong><br />(+24 for winning)
+|raw|Rovvan!'s rating: 1240 &rarr; <strong>1216</strong><br />(-24 for losing)
+|l|☆iospix
+|player|p1|

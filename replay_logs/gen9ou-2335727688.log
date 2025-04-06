@@ -1,0 +1,224 @@
+|j|☆Play With Lapras
+|j|☆KrimsonDaTyrant
+|t:|1743826846
+|gametype|singles
+|player|p1|Play With Lapras|miku-flying|1056
+|player|p2|KrimsonDaTyrant|2|1095
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ribombee, F|
+|poke|p1|Pelipper, F|
+|poke|p1|Lapras, F|
+|poke|p1|Greninja-*, M|
+|poke|p1|Mamoswine, M|
+|poke|p1|Comfey, F|
+|poke|p2|Iron Crown|
+|poke|p2|Iron Hands|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Great Tusk|
+|poke|p2|Dragonite, F|
+|poke|p2|Glimmora, M|
+|teampreview
+|
+|t:|1743826863
+|start
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|turn|1
+|
+|t:|1743826867
+|move|p1a: Ribombee|Protect|p1a: Ribombee
+|-singleturn|p1a: Ribombee|Protect
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: KrimsonDaTyrant|move: Light Screen
+|
+|upkeep
+|turn|2
+|
+|t:|1743826877
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Ribombee
+|-unboost|p1a: Ribombee|atk|1
+|-unboost|p1a: Ribombee|spa|1
+|
+|t:|1743826894
+|switch|p2a: Dragonite|Dragonite, F|100/100|[from] Parting Shot
+|move|p1a: Ribombee|Sticky Web|p2a: Dragonite
+|-sidestart|p2: KrimsonDaTyrant|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|t:|1743826929
+|move|p1a: Ribombee|Pounce|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|99/100
+|-unboost|p2a: Dragonite|spe|1
+|move|p2a: Dragonite|Encore|p1a: Ribombee
+|-start|p1a: Ribombee|Encore
+|
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KrimsonDaTyrant)
+|
+|t:|1743826938
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|5
+|
+|t:|1743826966
+|-terastallize|p2a: Dragonite|Fire
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Mamoswine|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|33/100
+|-enditem|p2a: Dragonite|Loaded Dice|[from] move: Knock Off|[of] p1a: Mamoswine
+|
+|upkeep
+|turn|6
+|
+|t:|1743826978
+|move|p2a: Dragonite|Fire Punch|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|0 fnt
+|faint|p1a: Mamoswine
+|
+|upkeep
+|
+|t:|1743826981
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|7
+|
+|t:|1743826988
+|move|p2a: Dragonite|Scale Shot|p1a: Pelipper
+|-damage|p1a: Pelipper|78/100
+|-damage|p1a: Pelipper|54/100
+|-damage|p1a: Pelipper|32/100
+|-damage|p1a: Pelipper|10/100
+|-hitcount|p1a: Pelipper|4
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Pelipper|Weather Ball|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743827000
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|move: Sticky Web
+|-unboost|p2a: Great Tusk|spe|1
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|8
+|
+|t:|1743827003
+|move|p2a: Great Tusk|Rapid Spin|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: KrimsonDaTyrant|Sticky Web|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: KrimsonDaTyrant|move: Light Screen
+|upkeep
+|
+|t:|1743827012
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|9
+|
+|t:|1743827023
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Grimmsnarl|Grimmsnarl, M, shiny|100/100
+|move|p1a: Greninja|Weather Ball|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|-ability|p1a: Greninja|Battle Bond|boost
+|-boost|p1a: Greninja|atk|1
+|-boost|p1a: Greninja|spa|1
+|-boost|p1a: Greninja|spe|1
+|-activate|p1a: Greninja|ability: Battle Bond
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743827034
+|switch|p2a: ZachuVGC|Iron Hands|100/100
+|turn|10
+|
+|t:|1743827044
+|-terastallize|p1a: Greninja|Water
+|move|p1a: Greninja|Weather Ball|p2a: ZachuVGC
+|-damage|p2a: ZachuVGC|0 fnt
+|faint|p2a: ZachuVGC
+|-end|p2a: ZachuVGC|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743827055
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespe
+|turn|11
+|
+|t:|1743827065
+|move|p1a: Greninja|Weather Ball|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743827068
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|12
+|
+|t:|1743827073
+|move|p1a: Greninja|Weather Ball|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743827075
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|turn|13
+|
+|t:|1743827080
+|move|p1a: Greninja|Weather Ball|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|win|Play With Lapras
+|raw|Play With Lapras's rating: 1056 &rarr; <strong>1091</strong><br />(+35 for winning)
+|raw|KrimsonDaTyrant's rating: 1095 &rarr; <strong>1068</strong><br />(-27 for losing)
+|l|☆KrimsonDaTyrant
+|player|p2|
+|l|☆Play With Lapras
+|player|p1|

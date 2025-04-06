@@ -1,0 +1,277 @@
+|j|☆d7n1el
+|j|☆Amaroviic_
+|t:|1743862621
+|gametype|singles
+|player|p1|d7n1el|1|1242
+|player|p2|Amaroviic_|170|1248
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Gholdengo|
+|poke|p1|Iron Valiant|
+|poke|p1|Zamazenta-*|
+|poke|p1|Kingambit, M|
+|poke|p2|Ogerpon, F|
+|poke|p2|Salamence, M|
+|poke|p2|Lokix, M|
+|poke|p2|Oricorio-Pom-Pom, F|
+|poke|p2|Gallade, M|
+|poke|p2|Whimsicott, F|
+|teampreview
+|
+|t:|1743862667
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Gallade|Gallade, M, shiny|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743862677
+|switch|p2a: Whimsicott|Whimsicott, F, shiny|100/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Whimsicott
+|-damage|p2a: Whimsicott|36/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743862687
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: Amaroviic_|move: Tailwind
+|
+|upkeep
+|turn|3
+|
+|t:|1743862700
+|switch|p2a: Lokix|Lokix, M|100/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Lokix
+|-resisted|p2a: Lokix
+|-damage|p2a: Lokix|58/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743862711
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|move|p2a: Lokix|Swords Dance|p2a: Lokix
+|-boost|p2a: Lokix|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1743862724
+|move|p2a: Lokix|Leech Life|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|40/100
+|-heal|p2a: Lokix|88/100|[from] drain|[of] p1a: Iron Valiant
+|-damage|p2a: Lokix|79/100|[from] item: Life Orb
+|move|p1a: Iron Valiant|Moonblast|p2a: Lokix
+|-supereffective|p2a: Lokix
+|-damage|p2a: Lokix|0 fnt
+|faint|p2a: Lokix
+|
+|-sideend|p2: Amaroviic_|move: Tailwind
+|upkeep
+|
+|t:|1743862750
+|switch|p2a: Whimsicott|Whimsicott, F, shiny|36/100
+|turn|6
+|
+|t:|1743862765
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: Amaroviic_|move: Tailwind
+|
+|upkeep
+|turn|7
+|
+|t:|1743862780
+|switch|p2a: Oricorio|Oricorio-Pom-Pom, F, shiny|100/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Oricorio
+|-damage|p2a: Oricorio|37/100
+|-unboost|p2a: Oricorio|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743862803
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Oricorio|Revelation Dance|p1a: Ting-Lu
+|-immune|p1a: Ting-Lu
+|
+|upkeep
+|turn|9
+|
+|t:|1743862809
+|move|p2a: Oricorio|Hurricane|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|70/100
+|-start|p1a: Ting-Lu|confusion
+|-enditem|p1a: Ting-Lu|Red Card|[of] p2a: Oricorio
+|drag|p2a: Whimsicott|Whimsicott, F, shiny|36/100
+|-activate|p1a: Ting-Lu|confusion
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Whimsicott
+|-sidestart|p2: Amaroviic_|move: Stealth Rock
+|
+|-sideend|p2: Amaroviic_|move: Tailwind
+|upkeep
+|turn|10
+|
+|t:|1743862822
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: Amaroviic_|move: Tailwind
+|-activate|p1a: Ting-Lu|confusion
+|move|p1a: Ting-Lu|Ruination|p2a: Whimsicott
+|-damage|p2a: Whimsicott|18/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743862831
+|switch|p2a: Gallade|Gallade, M, shiny|100/100
+|-damage|p2a: Gallade|94/100|[from] Stealth Rock
+|-activate|p1a: Ting-Lu|confusion
+|move|p1a: Ting-Lu|Ruination|p2a: Gallade
+|-damage|p2a: Gallade|47/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743862843
+|move|p2a: Gallade|Night Slash|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|56/100
+|-damage|p2a: Gallade|38/100|[from] item: Life Orb
+|-end|p1a: Ting-Lu|confusion
+|move|p1a: Ting-Lu|Taunt|p2a: Gallade
+|-start|p2a: Gallade|move: Taunt
+|
+|upkeep
+|turn|13
+|
+|t:|1743862847
+|move|p2a: Gallade|Sacred Sword|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|-damage|p2a: Gallade|28/100|[from] item: Life Orb
+|
+|-sideend|p2: Amaroviic_|move: Tailwind
+|upkeep
+|
+|t:|1743862857
+|switch|p1a: Iron Valiant|Iron Valiant|40/100
+|turn|14
+|
+|t:|1743862861
+|switch|p2a: Oricorio|Oricorio-Pom-Pom, F, shiny|37/100
+|-damage|p2a: Oricorio|12/100|[from] Stealth Rock
+|move|p1a: Iron Valiant|Moonblast|p2a: Oricorio
+|-damage|p2a: Oricorio|0 fnt
+|faint|p2a: Oricorio
+|
+|upkeep
+|
+|t:|1743862863
+|switch|p2a: Whimsicott|Whimsicott, F, shiny|18/100
+|-damage|p2a: Whimsicott|6/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743862867
+|move|p1a: Iron Valiant|Vacuum Wave|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|upkeep
+|
+|t:|1743862877
+|switch|p2a: Ogerpon|Ogerpon, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743862886
+|move|p1a: Iron Valiant|Moonblast|p2a: Ogerpon
+|-damage|p2a: Ogerpon|29/100
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|upkeep
+|turn|17
+|
+|t:|1743862894
+|-terastallize|p2a: Ogerpon|Grass
+|detailschange|p2a: Ogerpon|Ogerpon-Teal-Tera, F, tera:Grass
+|-ability|p2a: Ogerpon|Embody Aspect (Teal)|boost
+|-boost|p2a: Ogerpon|spe|1
+|move|p2a: Ogerpon|Horn Leech|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|-heal|p2a: Ogerpon|49/100|[from] drain|[of] p1a: Iron Valiant
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|-damage|p2a: Ogerpon|39/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743862915
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|18
+|
+|t:|1743862922
+|move|p2a: Ogerpon|Play Rough|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|3/100
+|-damage|p2a: Ogerpon|29/100|[from] item: Life Orb
+|move|p1a: Zamazenta|Ice Fang|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743862933
+|switch|p2a: Salamence|Salamence, M|100/100
+|-damage|p2a: Salamence|76/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743862940
+|move|p1a: Zamazenta|Ice Fang|p2a: Salamence
+|-supereffective|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|upkeep
+|
+|t:|1743862944
+|switch|p2a: Gallade|Gallade, M, shiny|28/100
+|-damage|p2a: Gallade|22/100|[from] Stealth Rock
+|turn|20
+|-message|Amaroviic_ forfeited.
+|
+|win|d7n1el
+|raw|d7n1el's rating: 1242 &rarr; <strong>1267</strong><br />(+25 for winning)
+|raw|Amaroviic_'s rating: 1248 &rarr; <strong>1223</strong><br />(-25 for losing)
+|l|☆Amaroviic_
+|player|p2|
+|l|☆d7n1el
+|player|p1|

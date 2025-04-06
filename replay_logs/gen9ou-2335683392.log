@@ -1,0 +1,252 @@
+|j|☆sauceybake
+|j|☆mellymelmel
+|t:|1743821035
+|gametype|singles
+|player|p1|sauceybake|riley|1151
+|player|p2|mellymelmel|waiter-gen4dp|1116
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Eelektross, F|
+|poke|p1|Mew|
+|poke|p1|Azelf|
+|poke|p1|Wooper, M|
+|poke|p1|Clodsire, F|
+|poke|p1|Lokix, M|
+|poke|p2|Tinkaton, F|
+|poke|p2|Tyranitar, F|
+|poke|p2|Moltres|
+|poke|p2|Iron Moth|
+|poke|p2|Excadrill, M|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|t:|1743821047
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-item|p2a: Tinkaton|Air Balloon
+|turn|1
+|
+|t:|1743821052
+|move|p1a: Azelf|Taunt|p2a: Tinkaton
+|-start|p2a: Tinkaton|move: Taunt
+|cant|p2a: Tinkaton|move: Taunt|Thunder Wave
+|
+|upkeep
+|turn|2
+|
+|t:|1743821056
+|move|p1a: Azelf|Stealth Rock|p2a: Tinkaton
+|-sidestart|p2: mellymelmel|move: Stealth Rock
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Azelf
+|-damage|p1a: Azelf|30/100
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mellymelmel)
+|
+|t:|1743821073
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Azelf|Future Sight|p2a: Tyranitar
+|-start|p1a: Azelf|move: Future Sight
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Azelf|24/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1743821082
+|move|p1a: Azelf|Taunt|p2a: Tyranitar
+|-start|p2a: Tyranitar|move: Taunt
+|move|p2a: Tyranitar|Knock Off|p1a: Azelf
+|-supereffective|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|-enditem|p1a: Azelf|Focus Sash|[from] move: Knock Off|[of] p2a: Tyranitar
+|faint|p1a: Azelf
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743821091
+|switch|p1a: Lokix|Lokix, M|100/100
+|turn|5
+|
+|t:|1743821104
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|-item|p2a: Excadrill|Air Balloon
+|move|p1a: Lokix|First Impression|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|22/100
+|-enditem|p2a: Excadrill|Air Balloon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lokix|95/100|[from] Sandstorm
+|-end|p2a: Excadrill|move: Future Sight
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|upkeep
+|
+|t:|1743821117
+|switch|p2a: Moltres|Moltres|100/100
+|turn|6
+|
+|t:|1743821124
+|switch|p1a: Clodsire|Clodsire, F, shiny|100/100
+|move|p2a: Moltres|Flamethrower|p1a: Clodsire
+|-damage|p1a: Clodsire|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Moltres|94/100|[from] Sandstorm
+|-heal|p1a: Clodsire|85/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743821136
+|move|p2a: Moltres|Will-O-Wisp|p1a: Clodsire|[miss]
+|-miss|p2a: Moltres|p1a: Clodsire
+|move|p1a: Clodsire|Toxic|p2a: Moltres
+|-status|p2a: Moltres|tox
+|
+|-weather|none
+|-heal|p1a: Clodsire|91/100|[from] item: Leftovers
+|-damage|p2a: Moltres|88/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743821140
+|move|p1a: Clodsire|Protect|p1a: Clodsire
+|-singleturn|p1a: Clodsire|Protect
+|move|p2a: Moltres|Will-O-Wisp|p1a: Clodsire
+|-activate|p1a: Clodsire|move: Protect
+|
+|-heal|p1a: Clodsire|98/100|[from] item: Leftovers
+|-damage|p2a: Moltres|76/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743821157
+|switch|p1a: Mew|Mew, shiny|100/100
+|move|p2a: Moltres|Flamethrower|p1a: Mew
+|-damage|p1a: Mew|63/100
+|
+|-damage|p2a: Moltres|58/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743821165
+|switch|p2a: Tyranitar|Tyranitar, F|88/100
+|-damage|p2a: Tyranitar|76/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Mew|Dragon Dance|p1a: Mew
+|-boost|p1a: Mew|atk|1
+|-boost|p1a: Mew|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|56/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1743821173
+|move|p1a: Mew|Close Combat|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Mew|def|1
+|-unboost|p1a: Mew|spd|1
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Mew|50/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743821179
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-damage|p2a: Tinkaton|94/100|[from] Stealth Rock
+|-item|p2a: Tinkaton|Air Balloon
+|turn|12
+|
+|t:|1743821196
+|move|p1a: Mew|Close Combat|p2a: Tinkaton
+|-damage|p2a: Tinkaton|26/100
+|-unboost|p1a: Mew|def|1
+|-unboost|p1a: Mew|spd|1
+|-enditem|p2a: Tinkaton|Air Balloon
+|-enditem|p1a: Mew|Twisted Spoon|[silent]|[from] ability: Pickpocket|[of] p1a: Mew
+|-item|p2a: Tinkaton|Twisted Spoon|[from] ability: Pickpocket|[of] p1a: Mew
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743821204
+|switch|p1a: Lokix|Lokix, M|95/100
+|turn|13
+|
+|t:|1743821208
+|move|p2a: Tinkaton|Stealth Rock|p1a: Lokix
+|-sidestart|p1: sauceybake|move: Stealth Rock
+|move|p1a: Lokix|Swords Dance|p1a: Lokix
+|-boost|p1a: Lokix|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lokix|89/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1743821212
+|move|p2a: Tinkaton|Thunder Wave|p1a: Lokix
+|-status|p1a: Lokix|par
+|move|p1a: Lokix|Leech Life|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|-heal|p1a: Lokix|100/100 par|[from] drain|[of] p2a: Tinkaton
+|faint|p2a: Tinkaton
+|
+|-weather|none
+|upkeep
+|
+|t:|1743821217
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-damage|p2a: Iron Moth|76/100|[from] Stealth Rock
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|15
+|
+|t:|1743821224
+|move|p1a: Lokix|Sucker Punch|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743821227
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Lokix|atk|1
+|turn|16
+|-message|mellymelmel forfeited.
+|
+|win|sauceybake
+|raw|sauceybake's rating: 1151 &rarr; <strong>1173</strong><br />(+22 for winning)
+|raw|mellymelmel's rating: 1116 &rarr; <strong>1094</strong><br />(-22 for losing)
+|l|☆mellymelmel
+|player|p2|

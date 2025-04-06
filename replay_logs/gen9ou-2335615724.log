@@ -1,0 +1,253 @@
+|j|☆Adromas
+|j|☆Vangnex
+|t:|1743812692
+|gametype|singles
+|player|p1|Adromas|clerk|1197
+|player|p2|Vangnex|lady|1152
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pecharunt|
+|poke|p1|Abomasnow, M|
+|poke|p1|Dewgong, M|
+|poke|p1|Cloyster, M|
+|poke|p1|Mamoswine, M|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Blaziken, F|
+|poke|p2|Smeargle, F|
+|poke|p2|Golem, F|
+|poke|p2|Squawkabilly-Blue, M|
+|poke|p2|Cyclizar, F|
+|poke|p2|Whimsicott, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Adromas)
+|
+|t:|1743812705
+|start
+|switch|p1a: Abomasnow|Abomasnow, M|100/100
+|switch|p2a: Smeargle|Smeargle, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|1
+|
+|t:|1743812719
+|move|p2a: Smeargle|Sticky Web|p1a: Abomasnow
+|-sidestart|p1: Adromas|move: Sticky Web
+|move|p1a: Abomasnow|Leech Seed|p2a: Smeargle
+|-start|p2a: Smeargle|move: Leech Seed
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Smeargle|88/100|[from] Leech Seed|[of] p1a: Abomasnow
+|upkeep
+|turn|2
+|
+|t:|1743812732
+|move|p2a: Smeargle|Ceaseless Edge|p1a: Abomasnow
+|-damage|p1a: Abomasnow|94/100
+|-sidestart|p1: Adromas|Spikes
+|move|p1a: Abomasnow|Blizzard|p2a: Smeargle
+|-damage|p2a: Smeargle|4/100
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Smeargle|0 fnt|[from] Leech Seed|[of] p1a: Abomasnow
+|-heal|p1a: Abomasnow|97/100|[silent]
+|faint|p2a: Smeargle
+|upkeep
+|
+|t:|1743812746
+|switch|p2a: Cyclizar|Cyclizar, F|100/100
+|turn|3
+|
+|t:|1743812750
+|move|p2a: Cyclizar|Overheat|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|-unboost|p2a: Cyclizar|spa|2
+|faint|p1a: Abomasnow
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743812765
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|turn|4
+|
+|t:|1743812776
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|move|p1a: Mandibuzz|Defog|p2a: Whimsicott
+|-unboost|p2a: Whimsicott|evasion|1
+|-sideend|p1: Adromas|Spikes|[from] move: Defog|[of] p1a: Mandibuzz
+|-sideend|p1: Adromas|Sticky Web|[from] move: Defog|[of] p1a: Mandibuzz
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743812787
+|switch|p1a: Cloyster|Cloyster, M, shiny|100/100
+|move|p2a: Whimsicott|Encore||[still]
+|-fail|p2a: Whimsicott
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743812799
+|move|p2a: Whimsicott|Leech Seed|p1a: Cloyster
+|-start|p1a: Cloyster|move: Leech Seed
+|move|p1a: Cloyster|Icicle Spear|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|72/100
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|42/100
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|13/100
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|-hitcount|p2: Whimsicott|4
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743812805
+|switch|p2a: Golem|Golem, F|100/100
+|turn|7
+|
+|t:|1743812820
+|move|p1a: Cloyster|Icicle Spear|p2a: Golem
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|82/100
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|66/100
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|49/100
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|32/100
+|-supereffective|p2a: Golem
+|-damage|p2a: Golem|15/100
+|-hitcount|p2a: Golem|5
+|move|p2a: Golem|Stealth Rock|p1a: Cloyster
+|-sidestart|p1: Adromas|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Cloyster|88/100|[from] Leech Seed|[of] p2a: Golem
+|-heal|p2a: Golem|24/100|[silent]
+|upkeep
+|turn|8
+|-enditem|p2a: Golem|Custap Berry|[eat]
+|-activate|p2a: Golem|item: Custap Berry|[consumed]
+|
+|t:|1743812836
+|move|p2a: Golem|Explosion|p1a: Cloyster
+|-damage|p1a: Cloyster|35/100
+|faint|p2a: Golem
+|move|p1a: Cloyster|Icicle Spear|p2: Golem|[notarget]
+|-fail|p1a: Cloyster
+|
+|-weather|none
+|upkeep
+|
+|t:|1743812844
+|switch|p2a: Cyclizar|Cyclizar, F|100/100
+|turn|9
+|
+|t:|1743812858
+|move|p2a: Cyclizar|Thunderbolt|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|
+|upkeep
+|
+|t:|1743812864
+|switch|p1a: Mamoswine|Mamoswine, M|100/100
+|-damage|p1a: Mamoswine|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743812875
+|switch|p2a: Squawkabilly|Squawkabilly-Blue, M|100/100
+|move|p1a: Mamoswine|Icicle Crash|p2a: Squawkabilly
+|-supereffective|p2a: Squawkabilly
+|-damage|p2a: Squawkabilly|0 fnt
+|faint|p2a: Squawkabilly
+|
+|upkeep
+|
+|t:|1743812879
+|switch|p2a: Blaziken|Blaziken, F|100/100
+|turn|11
+|
+|t:|1743812886
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|-damage|p1a: Pecharunt|88/100|[from] Stealth Rock
+|-terastallize|p2a: Blaziken|Ice
+|move|p2a: Blaziken|Focus Energy|p2a: Blaziken
+|-start|p2a: Blaziken|move: Focus Energy
+|
+|-heal|p1a: Pecharunt|94/100|[from] item: Black Sludge
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|12
+|
+|t:|1743812898
+|move|p2a: Blaziken|Overheat|p1a: Pecharunt
+|-crit|p1a: Pecharunt
+|-damage|p1a: Pecharunt|8/100
+|-unboost|p2a: Blaziken|spa|2
+|move|p1a: Pecharunt|Malignant Chain|p2a: Blaziken
+|-damage|p2a: Blaziken|57/100
+|
+|-heal|p1a: Pecharunt|14/100|[from] item: Black Sludge
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|13
+|
+|t:|1743812911
+|move|p2a: Blaziken|Tera Blast|p1a: Pecharunt|[anim] Tera Blast Ice
+|-crit|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743812921
+|switch|p1a: Mamoswine|Mamoswine, M|88/100
+|-damage|p1a: Mamoswine|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743812932
+|move|p2a: Blaziken|Overheat|p1a: Mamoswine|[miss]
+|-miss|p2a: Blaziken|p1a: Mamoswine
+|move|p1a: Mamoswine|Earthquake|p2a: Blaziken
+|-crit|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|
+|upkeep
+|
+|t:|1743812935
+|switch|p2a: Cyclizar|Cyclizar, F|100/100
+|turn|15
+|-message|Vangnex forfeited.
+|
+|win|Adromas
+|raw|Adromas's rating: 1197 &rarr; <strong>1219</strong><br />(+22 for winning)
+|raw|Vangnex's rating: 1152 &rarr; <strong>1130</strong><br />(-22 for losing)
+|l|☆Vangnex
+|player|p2|
+|l|☆Adromas
+|player|p1|

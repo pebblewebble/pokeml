@@ -1,0 +1,497 @@
+|j|☆DicksonYang
+|j|☆zzkoslow
+|t:|1743825723
+|gametype|singles
+|player|p1|DicksonYang|leaf-masters|1345
+|player|p2|zzkoslow|pokemonranger|1279
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Iron Treads|
+|poke|p1|Primarina, M|
+|poke|p1|Gholdengo|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Kyurem|
+|poke|p2|Darkrai|
+|poke|p2|Corviknight, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by zzkoslow)
+|
+|t:|1743825737
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Valiant|atk|1
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743825745
+|move|p1a: Iron Valiant|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|80/100
+|-enditem|p2a: Landorus|Life Orb|[from] move: Knock Off|[of] p1a: Iron Valiant
+|move|p2a: Landorus|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|33/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743825753
+|move|p1a: Iron Valiant|Destiny Bond|p1a: Iron Valiant
+|-singlemove|p1a: Iron Valiant|Destiny Bond
+|move|p2a: Landorus|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-activate|p1a: Iron Valiant|move: Destiny Bond
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743825778
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Darkrai|Darkrai, shiny|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|3
+|
+|t:|1743825786
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Darkrai|Dark Pulse|p1a: Iron Treads
+|-damage|p1a: Iron Treads|34/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743825793
+|move|p2a: Darkrai|Dark Pulse|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743825798
+|switch|p1a: Primarina|Primarina, M|100/100
+|turn|5
+|
+|t:|1743825803
+|switch|p2a: Slowking|Slowking-Galar, M, shiny|100/100
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1743825812
+|-terastallize|p1a: Primarina|Steel
+|move|p1a: Primarina|Substitute|p1a: Primarina
+|-start|p1a: Primarina|Substitute
+|-damage|p1a: Primarina|75/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Primarina
+|-immune|p1a: Primarina
+|
+|-heal|p1a: Primarina|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743825827
+|move|p1a: Primarina|Psychic Noise|p2a: Slowking
+|-damage|p2a: Slowking|72/100
+|-start|p2a: Slowking|move: Heal Block
+|move|p2a: Slowking|Psychic Noise|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|73/100
+|-start|p1a: Primarina|move: Heal Block
+|
+|upkeep
+|turn|8
+|
+|t:|1743825834
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743825842
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Primarina|move: Heal Block
+|upkeep
+|turn|9
+|
+|t:|1743825849
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Primarina|[anim] Ivy Cudgel Water
+|-end|p1a: Primarina|Substitute
+|move|p1a: Primarina|Draining Kiss|p2a: Ogerpon
+|-damage|p2a: Ogerpon|70/100
+|-heal|p1a: Primarina|92/100|[from] drain|[of] p2a: Ogerpon
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Primarina|98/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743825868
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Primarina|[anim] Ivy Cudgel Water
+|-damage|p1a: Primarina|30/100
+|move|p1a: Primarina|Draining Kiss|p2a: Ogerpon
+|-damage|p2a: Ogerpon|34/100
+|-heal|p1a: Primarina|52/100|[from] drain|[of] p2a: Ogerpon
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Primarina|58/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743825879
+|switch|p2a: Slowking|Slowking-Galar, M, shiny|100/100
+|move|p1a: Primarina|Draining Kiss|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|88/100
+|-heal|p1a: Primarina|68/100|[from] drain|[of] p2a: Slowking
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Primarina|74/100|[from] item: Leftovers
+|-heal|p2a: Slowking|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743825885
+|move|p1a: Primarina|Substitute|p1a: Primarina
+|-start|p1a: Primarina|Substitute
+|-damage|p1a: Primarina|49/100
+|move|p2a: Slowking|Psychic Noise|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|43/100
+|-start|p1a: Primarina|move: Heal Block
+|
+|-weather|none
+|-heal|p2a: Slowking|99/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743825897
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743825905
+|switch|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water|34/100|[from] Chilly Reception
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Primarina|move: Heal Block
+|upkeep
+|turn|14
+|
+|t:|1743825908
+|move|p2a: Ogerpon|Encore|p1a: Primarina
+|-start|p1a: Primarina|Encore
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Primarina|49/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743825917
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Primarina|55/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743825922
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Primarina|[anim] Ivy Cudgel Water
+|-end|p1a: Primarina|Substitute
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Primarina|61/100|[from] item: Leftovers
+|-end|p1a: Primarina|Encore
+|upkeep
+|turn|17
+|
+|t:|1743825927
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|move|p2a: Ogerpon|Encore||[still]
+|-fail|p2a: Ogerpon
+|
+|-weather|none
+|upkeep
+|turn|18
+|
+|t:|1743825933
+|move|p2a: Ogerpon|Horn Leech|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-enditem|p1a: Samurott|Focus Sash
+|-damage|p1a: Samurott|1/100
+|-heal|p2a: Ogerpon|88/100|[from] drain|[of] p1a: Samurott
+|move|p1a: Samurott|Ceaseless Edge|p2a: Ogerpon
+|-damage|p2a: Ogerpon|25/100
+|-sidestart|p2: zzkoslow|Spikes
+|
+|upkeep
+|turn|19
+|
+|t:|1743825941
+|move|p2a: Ogerpon|Horn Leech|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-heal|p2a: Ogerpon|25/100|[from] drain|[of] p1a: Samurott
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1743825945
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|20
+|
+|t:|1743825955
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Corviknight
+|-damage|p2a: Corviknight|63/100
+|-damage|p1a: Kingambit|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-heal|p1a: Kingambit|90/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743825963
+|-end|p1a: Kingambit|fallen3|[silent]
+|switch|p1a: Primarina|Primarina, M, tera:Steel|61/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p1a: Primarina|67/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743825970
+|move|p2a: Corviknight|U-turn|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|61/100
+|
+|t:|1743825973
+|switch|p2a: Slowking|Slowking-Galar, M, shiny|100/100|[from] U-turn
+|-damage|p2a: Slowking|88/100|[from] Spikes
+|move|p1a: Primarina|Substitute|p1a: Primarina
+|-start|p1a: Primarina|Substitute
+|-damage|p1a: Primarina|36/100
+|
+|-heal|p1a: Primarina|42/100|[from] item: Leftovers
+|-heal|p2a: Slowking|94/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743825981
+|move|p1a: Primarina|Draining Kiss|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|88/100
+|-heal|p1a: Primarina|48/100|[from] drain|[of] p2a: Slowking
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743825987
+|switch|p2a: Corviknight|Corviknight, F|100/100|[from] Chilly Reception
+|-ability|p2a: Corviknight|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Primarina|54/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1743825999
+|move|p2a: Corviknight|U-turn|p1a: Primarina
+|-resisted|p1a: Primarina
+|-activate|p1a: Primarina|move: Substitute|[damage]
+|
+|t:|1743826002
+|switch|p2a: Slowking|Slowking-Galar, M, shiny|100/100|[from] U-turn
+|-damage|p2a: Slowking|88/100|[from] Spikes
+|move|p1a: Primarina|Draining Kiss|p2a: Slowking
+|-resisted|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|78/100
+|-heal|p1a: Primarina|62/100|[from] drain|[of] p2a: Slowking
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Primarina|68/100|[from] item: Leftovers
+|-heal|p2a: Slowking|84/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1743826012
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|move|p2a: Slowking|Psychic Noise|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|60/100
+|-start|p1a: Primarina|move: Heal Block
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Slowking|90/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1743826036
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|
+|t:|1743826040
+|switch|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water|25/100|[from] Chilly Reception
+|-damage|p2a: Ogerpon|13/100|[from] Spikes
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Primarina|move: Heal Block
+|upkeep
+|turn|27
+|
+|t:|1743826046
+|move|p2a: Ogerpon|Encore|p1a: Primarina
+|-start|p1a: Primarina|Encore
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|
+|-weather|none
+|-heal|p1a: Primarina|66/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1743826053
+|switch|p1a: Kingambit|Kingambit, M|90/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Kingambit|[anim] Ivy Cudgel Water
+|-damage|p1a: Kingambit|27/100
+|
+|-heal|p1a: Kingambit|33/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1743826057
+|move|p1a: Kingambit|Sucker Punch|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-heal|p1a: Kingambit|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743826067
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|30
+|
+|t:|1743826073
+|move|p2a: Corviknight|U-turn|p1a: Kingambit
+|-damage|p1a: Kingambit|29/100
+|
+|t:|1743826085
+|switch|p2a: Darkrai|Darkrai, shiny|100/100|[from] U-turn
+|-damage|p2a: Darkrai|88/100|[from] Spikes
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p1a: Kingambit|35/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1743826091
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Darkrai|Trick|p1a: Kingambit
+|-activate|p2a: Darkrai|move: Trick|[of] p1a: Kingambit
+|-item|p1a: Kingambit|Choice Scarf|[from] move: Trick
+|-item|p2a: Darkrai|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Darkrai|94/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1743826100
+|switch|p2a: Kyurem|Kyurem|100/100
+|-damage|p2a: Kyurem|88/100|[from] Spikes
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|upkeep
+|
+|t:|1743826113
+|switch|p2a: Darkrai|Darkrai, shiny|94/100
+|-damage|p2a: Darkrai|82/100|[from] Spikes
+|turn|33
+|
+|t:|1743826120
+|move|p2a: Darkrai|Dark Pulse|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|13/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Darkrai
+|-resisted|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|upkeep
+|-message|zzkoslow forfeited.
+|
+|win|DicksonYang
+|raw|DicksonYang's rating: 1345 &rarr; <strong>1361</strong><br />(+16 for winning)
+|raw|zzkoslow's rating: 1279 &rarr; <strong>1259</strong><br />(-20 for losing)
+|l|☆zzkoslow
+|player|p2|
+|l|☆DicksonYang
+|player|p1|

@@ -1,0 +1,288 @@
+|j|☆Radiant-Spirit
+|j|☆soomby
+|t:|1743918333
+|gametype|singles
+|player|p1|Radiant-Spirit|1|1105
+|player|p2|soomby|cheren-gen5bw2|1114
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Galvantula, M|
+|poke|p1|Serperior, F|
+|poke|p1|Heracross, F|
+|poke|p1|Mismagius, F|
+|poke|p1|Salamence, F|
+|poke|p2|Weavile, M|
+|poke|p2|Kyurem|
+|poke|p2|Great Tusk|
+|poke|p2|Corviknight, F|
+|poke|p2|Clefable, M|
+|poke|p2|Iron Moth|
+|teampreview
+|
+|t:|1743918366
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|switch|p2a: dumb moth|Iron Moth|100/100
+|-enditem|p2a: dumb moth|Booster Energy
+|-activate|p2a: dumb moth|ability: Quark Drive|[fromitem]
+|-start|p2a: dumb moth|quarkdrivespe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Radiant-Spirit)
+|
+|t:|1743918372
+|move|p1a: Grimmsnarl|Thunder Wave|p2a: dumb moth
+|-status|p2a: dumb moth|par
+|move|p2a: dumb moth|Sludge Wave|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1743918381
+|switch|p1a: Heracross|Heracross, F|100/100
+|turn|2
+|
+|t:|1743918385
+|move|p1a: Heracross|Earthquake|p2a: dumb moth
+|-supereffective|p2a: dumb moth
+|-damage|p2a: dumb moth|0 fnt
+|faint|p2a: dumb moth
+|-end|p2a: dumb moth|Quark Drive|[silent]
+|-ability|p1a: Heracross|Moxie|boost
+|-boost|p1a: Heracross|atk|1
+|
+|upkeep
+|
+|t:|1743918396
+|switch|p2a: bird flu|Corviknight, F|100/100
+|turn|3
+|
+|t:|1743918402
+|switch|p1a: Salamence|Salamence, F|100/100
+|move|p2a: bird flu|Iron Defense|p2a: bird flu
+|-boost|p2a: bird flu|def|2
+|
+|upkeep
+|turn|4
+|
+|t:|1743918406
+|switch|p2a: fatass|Clefable, M|100/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|upkeep
+|turn|5
+|
+|t:|1743918411
+|move|p1a: Salamence|Dual Wingbeat|p2a: fatass
+|-damage|p2a: fatass|58/100
+|-damage|p2a: fatass|16/100
+|-hitcount|p2a: fatass|2
+|move|p2a: fatass|Moonblast|p1a: Salamence
+|-supereffective|p1a: Salamence
+|-crit|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|-heal|p2a: fatass|22/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743918421
+|switch|p1a: Serperior|Serperior, F|100/100
+|turn|6
+|
+|t:|1743918430
+|move|p1a: Serperior|Leaf Storm|p2a: fatass
+|-damage|p2a: fatass|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: fatass
+|
+|upkeep
+|
+|t:|1743918433
+|switch|p2a: Penile|Weavile, M|100/100
+|turn|7
+|
+|t:|1743918435
+|move|p1a: Serperior|Protect|p1a: Serperior
+|-singleturn|p1a: Serperior|Protect
+|move|p2a: Penile|Triple Axel|p1a: Serperior
+|-activate|p1a: Serperior|move: Protect
+|
+|upkeep
+|turn|8
+|
+|t:|1743918441
+|move|p2a: Penile|Triple Axel|p1a: Serperior|[miss]
+|-miss|p2a: Penile|p1a: Serperior
+|move|p1a: Serperior|Glare|p2a: Penile
+|-status|p2a: Penile|par
+|
+|upkeep
+|turn|9
+|
+|t:|1743918447
+|move|p2a: Penile|Ice Shard|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|50/100
+|move|p1a: Serperior|Leaf Storm|p2a: Penile
+|-damage|p2a: Penile|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Penile
+|
+|upkeep
+|
+|t:|1743918450
+|switch|p2a: ugly|Kyurem|100/100
+|-ability|p2a: ugly|Pressure
+|turn|10
+|
+|t:|1743918454
+|move|p1a: Serperior|Dragon Pulse|p2a: ugly
+|-supereffective|p2a: ugly
+|-damage|p2a: ugly|0 fnt
+|faint|p2a: ugly
+|
+|upkeep
+|
+|t:|1743918461
+|switch|p2a: bird flu|Corviknight, F|100/100
+|turn|11
+|
+|t:|1743918463
+|move|p1a: Serperior|Glare|p2a: bird flu
+|-status|p2a: bird flu|par
+|move|p2a: bird flu|Brave Bird|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|-damage|p2a: bird flu|88/100 par|[from] Recoil
+|
+|upkeep
+|
+|t:|1743918471
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|turn|12
+|
+|t:|1743918476
+|move|p1a: Galvantula|Sticky Web|p2a: bird flu
+|-sidestart|p2: soomby|move: Sticky Web
+|move|p2a: bird flu|Brave Bird|p1a: Galvantula
+|-damage|p1a: Galvantula|33/100
+|-damage|p2a: bird flu|73/100 par|[from] Recoil
+|
+|-heal|p1a: Galvantula|39/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743918482
+|move|p1a: Galvantula|Discharge|p2a: bird flu
+|-supereffective|p2a: bird flu
+|-damage|p2a: bird flu|11/100 par
+|move|p2a: bird flu|Brave Bird|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|-damage|p2a: bird flu|2/100 par|[from] Recoil
+|
+|upkeep
+|
+|t:|1743918490
+|switch|p1a: Heracross|Heracross, F|100/100
+|turn|14
+|
+|t:|1743918493
+|move|p1a: Heracross|Brick Break|p2a: bird flu
+|-damage|p2a: bird flu|0 fnt
+|-damage|p1a: Heracross|84/100|[from] item: Rocky Helmet|[of] p2a: bird flu
+|faint|p2a: bird flu
+|-ability|p1a: Heracross|Moxie|boost
+|-boost|p1a: Heracross|atk|1
+|
+|upkeep
+|
+|t:|1743918495
+|switch|p2a: Big Guy|Great Tusk|100/100
+|-activate|p2a: Big Guy|move: Sticky Web
+|-unboost|p2a: Big Guy|spe|1
+|turn|15
+|
+|t:|1743918502
+|move|p1a: Heracross|Earthquake|p2a: Big Guy
+|-damage|p2a: Big Guy|68/100
+|move|p2a: Big Guy|Rapid Spin|p1a: Heracross
+|-damage|p1a: Heracross|63/100
+|-boost|p2a: Big Guy|spe|1
+|-sideend|p2: soomby|Sticky Web|[from] move: Rapid Spin|[of] p2a: Big Guy
+|
+|-heal|p2a: Big Guy|74/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|-activate|p1a: Heracross|item: Quick Claw
+|
+|t:|1743918511
+|move|p1a: Heracross|Megahorn|p2a: Big Guy
+|-resisted|p2a: Big Guy
+|-damage|p2a: Big Guy|44/100
+|move|p2a: Big Guy|Knock Off|p1a: Heracross
+|-resisted|p1a: Heracross
+|-damage|p1a: Heracross|41/100
+|-enditem|p1a: Heracross|Quick Claw|[from] move: Knock Off|[of] p2a: Big Guy
+|
+|-heal|p2a: Big Guy|50/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743918522
+|move|p2a: Big Guy|Headlong Rush|p1a: Heracross
+|-resisted|p1a: Heracross
+|-damage|p1a: Heracross|6/100
+|-unboost|p2a: Big Guy|def|1
+|-unboost|p2a: Big Guy|spd|1
+|move|p1a: Heracross|Earthquake|p2a: Big Guy
+|-damage|p2a: Big Guy|4/100
+|
+|-heal|p2a: Big Guy|10/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743918526
+|move|p2a: Big Guy|Rapid Spin|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|-boost|p2a: Big Guy|spe|1
+|faint|p1a: Heracross
+|
+|-heal|p2a: Big Guy|16/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743918528
+|switch|p1a: Mismagius|Mismagius, F|100/100
+|turn|19
+|
+|t:|1743918531
+|move|p2a: Big Guy|Knock Off|p1a: Mismagius
+|-supereffective|p1a: Mismagius
+|-damage|p1a: Mismagius|0 fnt
+|-enditem|p1a: Mismagius|Leftovers|[from] move: Knock Off|[of] p2a: Big Guy
+|faint|p1a: Mismagius
+|
+|win|soomby
+|raw|Radiant-Spirit's rating: 1105 &rarr; <strong>1081</strong><br />(-24 for losing)
+|raw|soomby's rating: 1114 &rarr; <strong>1138</strong><br />(+24 for winning)
+|l|☆Radiant-Spirit
+|player|p1|
+|l|☆soomby
+|player|p2|

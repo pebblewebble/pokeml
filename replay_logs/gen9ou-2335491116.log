@@ -1,0 +1,281 @@
+|j|☆myout
+|j|☆brodiewhaat.
+|t:|1743799221
+|gametype|singles
+|player|p1|myout|hexmaniac-gen6|1420
+|player|p2|brodiewhaat.|bugcatcher-gen4dp|1428
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Meloetta|
+|poke|p1|Araquanid, M|
+|poke|p1|Gholdengo|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Moth|
+|poke|p1|Enamorus, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Darkrai|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking-Galar, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by brodiewhaat.)
+|inactive|myout also wants the timer to be on.
+|
+|t:|1743799234
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: pult|Dragapult, M|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1743799241
+|move|p2a: pult|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|83/100
+|
+|t:|1743799247
+|switch|p2a: tusk|Great Tusk|100/100|[from] U-turn
+|move|p1a: Great Tusk|Headlong Rush|p2a: tusk
+|-damage|p2a: tusk|59/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-heal|p2a: tusk|66/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743799258
+|move|p1a: Great Tusk|Stealth Rock|p2a: tusk
+|-sidestart|p2: brodiewhaat.|move: Stealth Rock
+|move|p2a: tusk|Body Press|p1a: Great Tusk
+|-damage|p1a: Great Tusk|32/100
+|
+|-heal|p2a: tusk|72/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743799268
+|move|p1a: Great Tusk|Rapid Spin|p2a: tusk
+|-damage|p2a: tusk|61/100
+|-boost|p1a: Great Tusk|spe|1
+|move|p2a: tusk|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|21/100
+|
+|-heal|p2a: tusk|67/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743799274
+|move|p1a: Great Tusk|Headlong Rush|p2a: tusk
+|-damage|p2a: tusk|27/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: tusk|Rapid Spin|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-boost|p2a: tusk|spe|1
+|-sideend|p2: brodiewhaat.|Stealth Rock|[from] move: Rapid Spin|[of] p2a: tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-heal|p2a: tusk|33/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743799279
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|5
+|
+|t:|1743799283
+|-end|p2a: tusk|Protosynthesis|[silent]
+|switch|p2a: glowking|Slowking-Galar, M|100/100
+|move|p1a: Enamorus|Earth Power|p2a: glowking
+|-supereffective|p2a: glowking
+|-damage|p2a: glowking|72/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743799290
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|move|p2a: glowking|Sludge Bomb|p1a: Araquanid
+|-damage|p1a: Araquanid|69/100
+|-status|p1a: Araquanid|psn
+|
+|-damage|p1a: Araquanid|57/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743799298
+|move|p1a: Araquanid|Sticky Web|p2a: glowking
+|-sidestart|p2: brodiewhaat.|move: Sticky Web
+|move|p2a: glowking|Sludge Bomb|p1a: Araquanid
+|-damage|p1a: Araquanid|23/100 psn
+|
+|-damage|p1a: Araquanid|11/100 psn|[from] psn
+|upkeep
+|turn|8
+|-enditem|p1a: Araquanid|Custap Berry|[eat]
+|-activate|p1a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1743799305
+|switch|p2a: pult|Dragapult, M|100/100
+|-activate|p2a: pult|move: Sticky Web
+|-fail|p2a: pult|unboost|[from] ability: Clear Body|[of] p2a: pult
+|move|p1a: Araquanid|Endeavor|p2a: pult
+|-immune|p2a: pult
+|
+|-damage|p1a: Araquanid|0 fnt|[from] psn
+|faint|p1a: Araquanid
+|upkeep
+|
+|t:|1743799319
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|9
+|
+|t:|1743799323
+|switch|p2a: glowking|Slowking-Galar, M|100/100
+|-activate|p2a: glowking|move: Sticky Web
+|-unboost|p2a: glowking|spe|1
+|move|p1a: Enamorus|Moonblast|p2a: glowking
+|-resisted|p2a: glowking
+|-damage|p2a: glowking|88/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743799332
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|move|p2a: glowking|Sludge Bomb|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|80/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743799336
+|move|p1a: Iron Moth|Fiery Dance|p2a: glowking
+|-damage|p2a: glowking|62/100
+|move|p2a: glowking|Psychic Noise|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|11/100
+|-start|p1a: Iron Moth|move: Heal Block
+|
+|upkeep
+|turn|12
+|
+|t:|1743799345
+|move|p1a: Iron Moth|Fiery Dance|p2a: glowking
+|-damage|p2a: glowking|37/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: glowking|Sludge Bomb|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743799351
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|13
+|
+|t:|1743799369
+|switch|p2a: rai|Darkrai|100/100
+|-activate|p2a: rai|move: Sticky Web
+|-unboost|p2a: rai|spe|1
+|move|p1a: Gholdengo|Shadow Ball|p2a: rai
+|-resisted|p2a: rai
+|-damage|p2a: rai|71/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743799377
+|move|p1a: Gholdengo|Make It Rain|p2a: rai
+|-damage|p2a: rai|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: rai
+|
+|upkeep
+|
+|t:|1743799383
+|switch|p2a: woger|Ogerpon-Wellspring, F|100/100
+|-activate|p2a: woger|move: Sticky Web
+|-unboost|p2a: woger|spe|1
+|turn|15
+|
+|t:|1743799405
+|-terastallize|p2a: woger|Water
+|detailschange|p2a: woger|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: woger|Embody Aspect (Wellspring)|boost
+|-boost|p2a: woger|spd|1
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: woger|Trailblaze|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|74/100
+|-boost|p2a: woger|spe|1
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|16
+|
+|t:|1743799412
+|move|p2a: woger|Ivy Cudgel|p1a: Gholdengo|[anim] Ivy Cudgel Water
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743799417
+|switch|p1a: Meloetta|Meloetta|100/100
+|turn|17
+|
+|t:|1743799422
+|move|p2a: woger|Trailblaze|p1a: Meloetta
+|-damage|p1a: Meloetta|57/100
+|-boost|p2a: woger|spe|1
+|move|p1a: Meloetta|Relic Song|p2a: woger
+|-damage|p2a: woger|64/100
+|-formechange|p1a: Meloetta|Meloetta-Pirouette|[msg]
+|-damage|p1a: Meloetta|47/100|[from] item: Life Orb
+|
+|upkeep
+|turn|18
+|
+|t:|1743799431
+|move|p2a: woger|Ivy Cudgel|p1a: Meloetta|[anim] Ivy Cudgel Water
+|-crit|p1a: Meloetta
+|-damage|p1a: Meloetta|0 fnt
+|faint|p1a: Meloetta
+|
+|upkeep
+|-message|myout forfeited.
+|
+|win|brodiewhaat.
+|raw|myout's rating: 1420 &rarr; <strong>1400</strong><br />(-20 for losing)
+|raw|brodiewhaat.'s rating: 1428 &rarr; <strong>1448</strong><br />(+20 for winning)
+|l|☆myout
+|player|p1|
+|l|☆brodiewhaat.
+|player|p2|

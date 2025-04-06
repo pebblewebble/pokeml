@@ -1,0 +1,198 @@
+|j|☆hawker_mk5
+|j|☆ouku tommy
+|t:|1743848553
+|gametype|singles
+|player|p1|hawker_mk5|volkner|1534
+|player|p2|ouku tommy|2|1660
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Metagross|
+|poke|p1|Rotom-Wash|
+|poke|p1|Kyurem|
+|poke|p1|Primarina, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Gliscor, M|
+|poke|p2|Pecharunt|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Gholdengo|
+|poke|p2|Ting-Lu|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Raging Bolt|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hawker_mk5)
+|
+|t:|1743848570
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|1
+|
+|t:|1743848575
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Pecharunt
+|-damage|p2a: Pecharunt|73/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743848584
+|move|p1a: Cinderace|U-turn|p2a: Pecharunt
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Pecharunt
+|-damage|p2a: Pecharunt|69/100
+|
+|t:|1743848588
+|switch|p1a: Gliscor|Gliscor, M|100/100|[from] U-turn
+|move|p2a: Pecharunt|Parting Shot|p1a: Gliscor
+|-unboost|p1a: Gliscor|atk|1
+|-unboost|p1a: Gliscor|spa|1
+|
+|t:|1743848596
+|switch|p2a: Zapdos|Zapdos-Galar|100/100|[from] Parting Shot
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1743848603
+|move|p2a: Zapdos|Substitute|p2a: Zapdos
+|-start|p2a: Zapdos|Substitute
+|-damage|p2a: Zapdos|76/100
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|
+|-heal|p2a: Zapdos|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743848609
+|move|p2a: Zapdos|Bulk Up|p2a: Zapdos
+|-boost|p2a: Zapdos|atk|1
+|-boost|p2a: Zapdos|def|1
+|move|p1a: Gliscor|Facade|p2a: Zapdos
+|-activate|p2a: Zapdos|move: Substitute|[damage]
+|
+|-heal|p2a: Zapdos|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743848619
+|move|p2a: Zapdos|Thunderous Kick|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|78/100 tox
+|-unboost|p1a: Gliscor|def|1
+|move|p1a: Gliscor|Facade|p2a: Zapdos
+|-end|p2a: Zapdos|Substitute
+|
+|-heal|p2a: Zapdos|94/100|[from] item: Leftovers
+|-heal|p1a: Gliscor|91/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1743848626
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Zapdos|Brave Bird|p1a: Rotom
+|-resisted|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|52/100
+|-damage|p2a: Zapdos|81/100|[from] Recoil
+|
+|-heal|p2a: Zapdos|87/100|[from] item: Leftovers
+|-heal|p1a: Rotom|58/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743848635
+|move|p2a: Zapdos|Thunderous Kick|p1a: Rotom
+|-damage|p1a: Rotom|13/100
+|-unboost|p1a: Rotom|def|1
+|move|p1a: Rotom|Will-O-Wisp|p2a: Zapdos
+|-status|p2a: Zapdos|brn
+|
+|-heal|p2a: Zapdos|93/100 brn|[from] item: Leftovers
+|-heal|p1a: Rotom|19/100|[from] item: Leftovers
+|-damage|p2a: Zapdos|87/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743848649
+|switch|p1a: Gliscor|Gliscor, M|91/100 tox
+|move|p2a: Zapdos|Thunderous Kick|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|79/100 tox
+|-unboost|p1a: Gliscor|def|1
+|
+|-heal|p2a: Zapdos|93/100 brn|[from] item: Leftovers
+|-heal|p1a: Gliscor|91/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Zapdos|87/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743848657
+|move|p2a: Zapdos|Bulk Up|p2a: Zapdos
+|-boost|p2a: Zapdos|atk|1
+|-boost|p2a: Zapdos|def|1
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|
+|-heal|p2a: Zapdos|93/100 brn|[from] item: Leftovers
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Zapdos|87/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743848662
+|move|p2a: Zapdos|Brave Bird|p1a: Gliscor
+|-damage|p1a: Gliscor|40/100 tox
+|-damage|p2a: Zapdos|68/100 brn|[from] Recoil
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|
+|-heal|p2a: Zapdos|75/100 brn|[from] item: Leftovers
+|-heal|p1a: Gliscor|53/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Zapdos|68/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743848668
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Zapdos|Brave Bird|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p2a: Zapdos|75/100 brn|[from] item: Leftovers
+|-heal|p1a: Gliscor|65/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Zapdos|68/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743848679
+|move|p2a: Zapdos|Brave Bird|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|-damage|p2a: Zapdos|48/100 brn|[from] Recoil
+|
+|-heal|p2a: Zapdos|54/100 brn|[from] item: Leftovers
+|-damage|p2a: Zapdos|48/100 brn|[from] brn
+|upkeep
+|-message|hawker_mk5 forfeited.
+|
+|win|ouku tommy
+|raw|hawker_mk5's rating: 1534 &rarr; <strong>1521</strong><br />(-13 for losing)
+|raw|ouku tommy's rating: 1660 &rarr; <strong>1673</strong><br />(+13 for winning)
+|l|☆hawker_mk5
+|player|p1|
+|l|☆ouku tommy
+|player|p2|

@@ -1,0 +1,332 @@
+|j|☆james_dean111
+|j|☆joeDawg23
+|t:|1743884698
+|gametype|singles
+|player|p1|james_dean111|169|1074
+|player|p2|joeDawg23|red|1099
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Azelf|
+|poke|p1|Grafaiai, F|
+|poke|p1|Graveler-Alola, M|
+|poke|p1|Garganacl, F|
+|poke|p1|Flamigo, F|
+|poke|p1|Meowscarada, F|
+|poke|p2|Blaziken, F|
+|poke|p2|Garchomp, M|
+|poke|p2|Azumarill, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Haxorus, F|
+|poke|p2|Metagross|
+|teampreview
+|
+|t:|1743884710
+|start
+|switch|p1a: Azelf|Azelf|100/100
+|switch|p2a: Azumarill|Azumarill, F, shiny|100/100
+|turn|1
+|
+|t:|1743884716
+|move|p1a: Azelf|Zen Headbutt|p2a: Azumarill
+|-crit|p2a: Azumarill
+|-damage|p2a: Azumarill|31/100
+|cant|p2a: Azumarill|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1743884751
+|move|p2a: Azumarill|Aqua Jet|p1a: Azelf
+|-crit|p1a: Azelf
+|-damage|p1a: Azelf|44/100
+|move|p1a: Azelf|Zen Headbutt|p2a: Azumarill
+|-damage|p2a: Azumarill|0 fnt
+|faint|p2a: Azumarill
+|
+|upkeep
+|
+|t:|1743884760
+|switch|p2a: Metagross|Metagross, shiny|100/100
+|turn|3
+|
+|t:|1743884786
+|switch|p1a: Graveler|Graveler-Alola, M|100/100
+|move|p2a: Metagross|Knock Off|p1a: Graveler
+|-damage|p1a: Graveler|65/100
+|-enditem|p1a: Graveler|Leftovers|[from] move: Knock Off|[of] p2a: Metagross
+|
+|upkeep
+|turn|4
+|
+|t:|1743884799
+|move|p2a: Metagross|Heavy Slam|p1a: Graveler
+|-damage|p1a: Graveler|5/100
+|move|p1a: Graveler|Earthquake|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|50/100
+|
+|-heal|p2a: Metagross|57/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743884822
+|move|p1a: Graveler|Protect|p1a: Graveler
+|-singleturn|p1a: Graveler|Protect
+|move|p2a: Metagross|Bullet Punch|p1a: Graveler
+|-activate|p1a: Graveler|move: Protect
+|
+|-heal|p2a: Metagross|63/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743884830
+|move|p2a: Metagross|Bullet Punch|p1a: Graveler
+|-damage|p1a: Graveler|0 fnt
+|faint|p1a: Graveler
+|
+|-heal|p2a: Metagross|69/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743884842
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|turn|7
+|
+|t:|1743884848
+|switch|p2a: Blaziken|Blaziken, F|100/100
+|move|p1a: Meowscarada|Knock Off|p2a: Blaziken
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-resisted|p2a: Blaziken
+|-damage|p2a: Blaziken|60/100
+|-enditem|p2a: Blaziken|Life Orb|[from] move: Knock Off|[of] p1a: Meowscarada
+|-damage|p1a: Meowscarada|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|t:|1743884862
+|move|p1a: Meowscarada|U-turn|p2a: Blaziken
+|-resisted|p2a: Blaziken
+|-damage|p2a: Blaziken|49/100
+|-damage|p1a: Meowscarada|81/100|[from] item: Life Orb
+|
+|t:|1743884869
+|switch|p1a: Azelf|Azelf|44/100|[from] U-turn
+|move|p2a: Blaziken|Close Combat|p1a: Azelf
+|-resisted|p1a: Azelf
+|-damage|p1a: Azelf|0 fnt
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|faint|p1a: Azelf
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743884876
+|switch|p1a: Flamigo|Flamigo, F|100/100
+|turn|9
+|
+|t:|1743884890
+|move|p1a: Flamigo|Brave Bird|p2a: Blaziken
+|-supereffective|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|-damage|p1a: Flamigo|84/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743884900
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|10
+|
+|t:|1743884917
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|upkeep
+|turn|11
+|
+|t:|1743884925
+|move|p2a: Corviknight|Body Press|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|36/100
+|-damage|p2a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p1a: Garganacl
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|
+|-heal|p2a: Corviknight|90/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743884963
+|move|p2a: Corviknight|Body Press|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|-damage|p2a: Corviknight|73/100|[from] item: Rocky Helmet|[of] p1a: Garganacl
+|faint|p1a: Garganacl
+|
+|-heal|p2a: Corviknight|79/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743884981
+|switch|p1a: Flamigo|Flamigo, F|84/100
+|turn|13
+|
+|t:|1743884985
+|move|p1a: Flamigo|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|62/100
+|-unboost|p1a: Flamigo|def|1
+|-unboost|p1a: Flamigo|spd|1
+|move|p2a: Corviknight|U-turn|p1a: Flamigo
+|-resisted|p1a: Flamigo
+|-damage|p1a: Flamigo|77/100
+|
+|t:|1743884998
+|switch|p2a: Garchomp|Garchomp, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|14
+|
+|t:|1743885003
+|move|p1a: Flamigo|Close Combat|p2a: Garchomp
+|-damage|p2a: Garchomp|62/100
+|-unboost|p1a: Flamigo|def|1
+|-unboost|p1a: Flamigo|spd|1
+|-damage|p1a: Flamigo|64/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Flamigo|48/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|move|p2a: Garchomp|Spikes|p1a: Flamigo
+|-sidestart|p1: james_dean111|Spikes
+|
+|upkeep
+|turn|15
+|
+|t:|1743885013
+|move|p1a: Flamigo|Close Combat|p2a: Garchomp
+|-damage|p2a: Garchomp|26/100
+|-unboost|p1a: Flamigo|def|1
+|-unboost|p1a: Flamigo|spd|1
+|-damage|p1a: Flamigo|35/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Flamigo|19/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|move|p2a: Garchomp|Stealth Rock|p1a: Flamigo
+|-sidestart|p1: james_dean111|move: Stealth Rock
+|
+|upkeep
+|turn|16
+|
+|t:|1743885028
+|move|p1a: Flamigo|Close Combat|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-unboost|p1a: Flamigo|def|1
+|-unboost|p1a: Flamigo|spd|1
+|-damage|p1a: Flamigo|6/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Flamigo|0 fnt|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|faint|p1a: Flamigo
+|
+|upkeep
+|
+|t:|1743885040
+|switch|p1a: Grafaiai|Grafaiai, F|100/100
+|switch|p2a: Corviknight|Corviknight, M|62/100
+|-damage|p1a: Grafaiai|88/100|[from] Spikes
+|-damage|p1a: Grafaiai|76/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|turn|17
+|
+|t:|1743885052
+|move|p1a: Grafaiai|Copycat|p1a: Grafaiai
+|move|p1a: Grafaiai|Close Combat|p2a: Corviknight|[from] move: Copycat
+|-damage|p2a: Corviknight|28/100
+|-unboost|p1a: Grafaiai|def|1
+|-unboost|p1a: Grafaiai|spd|1
+|move|p2a: Corviknight|Body Press|p1a: Grafaiai
+|-damage|p1a: Grafaiai|2/100
+|
+|-heal|p2a: Corviknight|34/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743885066
+|move|p1a: Grafaiai|Copycat|p1a: Grafaiai
+|move|p1a: Grafaiai|Body Press|p2a: Corviknight|[from] move: Copycat
+|-damage|p2a: Corviknight|26/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|76/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743885079
+|move|p1a: Grafaiai|Copycat|p1a: Grafaiai
+|move|p1a: Grafaiai|Roost|p1a: Grafaiai|[from] move: Copycat
+|-heal|p1a: Grafaiai|53/100
+|-singleturn|p1a: Grafaiai|move: Roost
+|move|p2a: Corviknight|Body Press|p1a: Grafaiai
+|-damage|p1a: Grafaiai|0 fnt
+|faint|p1a: Grafaiai
+|
+|-heal|p2a: Corviknight|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743885116
+|switch|p1a: Meowscarada|Meowscarada, F|81/100
+|-damage|p1a: Meowscarada|68/100|[from] Spikes
+|-damage|p1a: Meowscarada|56/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743885122
+|move|p1a: Meowscarada|Knock Off|p2a: Corviknight
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Corviknight|55/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Meowscarada
+|-damage|p1a: Meowscarada|46/100|[from] item: Life Orb
+|move|p2a: Corviknight|U-turn|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|5/100
+|
+|t:|1743885131
+|switch|p2a: Metagross|Metagross, shiny|69/100|[from] U-turn
+|
+|-heal|p2a: Metagross|75/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|l|☆james_dean111
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by joeDawg23)
+|j|☆james_dean111
+|inactive|james_dean111 reconnected and has 145 seconds left.
+|player|p1|james_dean111|169|
+|
+|t:|1743885257
+|move|p1a: Meowscarada|Knock Off|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|-enditem|p2a: Metagross|Leftovers|[from] move: Knock Off|[of] p1a: Meowscarada
+|faint|p2a: Metagross
+|-damage|p1a: Meowscarada|0 fnt|[from] item: Life Orb
+|faint|p1a: Meowscarada
+|
+|win|joeDawg23
+|raw|james_dean111's rating: 1074 &rarr; <strong>1054</strong><br />(-20 for losing)
+|raw|joeDawg23's rating: 1099 &rarr; <strong>1122</strong><br />(+23 for winning)
+|l|☆james_dean111
+|player|p1|
+|l|☆joeDawg23
+|player|p2|

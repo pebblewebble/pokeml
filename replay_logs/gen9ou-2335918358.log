@@ -1,0 +1,360 @@
+|j|☆Belugea
+|j|☆rrbrru
+|t:|1743858765
+|gametype|singles
+|player|p1|Belugea|fisherman-gen4|1392
+|player|p2|rrbrru|roxie|1401
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Garganacl, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Gliscor, M|
+|poke|p1|Alomomola, M|
+|poke|p2|Moltres|
+|poke|p2|Iron Valiant|
+|poke|p2|Dragonite, M|
+|poke|p2|Zangoose, F|
+|poke|p2|Iron Treads|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Belugea)
+|
+|t:|1743858774
+|start
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|switch|p2a: Zangoose|Zangoose, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1743858786
+|move|p2a: Zangoose|Final Gambit|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p2a: Zangoose
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|
+|upkeep
+|
+|t:|1743858799
+|switch|p2a: Moltres|Moltres|100/100
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|turn|2
+|
+|t:|1743858808
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Moltres|Flamethrower|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1743858815
+|move|p1a: Gliscor|Toxic|p2a: Moltres
+|-status|p2a: Moltres|tox
+|move|p2a: Moltres|Flamethrower|p1a: Gliscor
+|-damage|p1a: Gliscor|10/100 tox
+|
+|-heal|p1a: Gliscor|23/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Moltres|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743858830
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Moltres|Flamethrower|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|35/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Moltres|82/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743858837
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|
+|upkeep
+|turn|6
+|inactive|rrbrru has 120 seconds left.
+|
+|t:|1743858881
+|move|p2a: Zamazenta|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|38/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|move|p1a: Alomomola|Scald|p2a: Zamazenta
+|-damage|p2a: Zamazenta|80/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743858891
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Zamazenta|Close Combat|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|76/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743858894
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-item|p2a: Iron Treads|Air Balloon
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743858902
+|switch|p1a: Alomomola|Alomomola, M|71/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743858914
+|move|p2a: Iron Treads|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|48/100
+|-enditem|p1a: Alomomola|Assault Vest|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Alomomola|Flip Turn|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|74/100
+|-enditem|p2a: Iron Treads|Air Balloon
+|
+|t:|1743858925
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from] Flip Turn
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743858930
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Moltres|Moltres|82/100 tox
+|move|p1a: Cinderace|Pyro Ball|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|53/100 tox
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Moltres|47/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743858939
+|switch|p1a: Alomomola|Alomomola, M|82/100
+|move|p2a: Moltres|Hurricane|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Moltres|34/100 tox|[from] psn
+|upkeep
+|
+|t:|1743858950
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|turn|12
+|
+|t:|1743858966
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Garganacl|Salt Cure|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-crit|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|87/100
+|-start|p2a: Iron Valiant|Salt Cure
+|
+|-weather|none
+|-damage|p2a: Iron Valiant|74/100|[from] Salt Cure
+|upkeep
+|turn|13
+|
+|t:|1743858979
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|move|p1a: Garganacl|Iron Defense|p1a: Garganacl
+|-boost|p1a: Garganacl|def|2
+|
+|-damage|p2a: Iron Valiant|62/100|[from] Salt Cure
+|upkeep
+|turn|14
+|
+|t:|1743858993
+|move|p2a: Iron Valiant|Encore|p1a: Garganacl
+|-start|p1a: Garganacl|Encore
+|move|p1a: Garganacl|Iron Defense|p1a: Garganacl
+|-boost|p1a: Garganacl|def|2
+|
+|-damage|p2a: Iron Valiant|49/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1743859000
+|move|p2a: Iron Valiant|Close Combat|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|54/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|-damage|p2a: Iron Valiant|33/100|[from] item: Rocky Helmet|[of] p1a: Garganacl
+|move|p1a: Garganacl|Iron Defense|p1a: Garganacl
+|-boost|p1a: Garganacl|def|2
+|
+|-damage|p2a: Iron Valiant|20/100|[from] Salt Cure
+|upkeep
+|turn|16
+|
+|t:|1743859010
+|move|p2a: Iron Valiant|Close Combat|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|23/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|-damage|p2a: Iron Valiant|4/100|[from] item: Rocky Helmet|[of] p1a: Garganacl
+|move|p1a: Garganacl|Iron Defense|p1a: Garganacl
+|-boost|p1a: Garganacl|def|0
+|
+|-damage|p2a: Iron Valiant|0 fnt|[from] Salt Cure
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|-end|p1a: Garganacl|Encore
+|upkeep
+|
+|t:|1743859016
+|switch|p2a: Zamazenta|Zamazenta|80/100
+|turn|17
+|
+|t:|1743859020
+|move|p2a: Zamazenta|Close Combat|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|1/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|-damage|p2a: Zamazenta|64/100|[from] item: Rocky Helmet|[of] p1a: Garganacl
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|51/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743859043
+|switch|p2a: Iron Treads|Iron Treads|74/100
+|move|p1a: Garganacl|Salt Cure|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|71/100
+|-start|p2a: Iron Treads|Salt Cure
+|
+|-damage|p2a: Iron Treads|46/100|[from] Salt Cure
+|upkeep
+|turn|19
+|
+|t:|1743859050
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Iron Treads|Knock Off|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-damage|p2a: Iron Treads|21/100|[from] Salt Cure
+|upkeep
+|turn|20
+|
+|t:|1743859057
+|move|p2a: Iron Treads|Knock Off|p1a: Garganacl
+|-damage|p1a: Garganacl|48/100
+|-damage|p2a: Iron Treads|4/100|[from] item: Rocky Helmet|[of] p1a: Garganacl
+|-enditem|p1a: Garganacl|Rocky Helmet|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|98/100
+|
+|-damage|p2a: Iron Treads|0 fnt|[from] Salt Cure
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|upkeep
+|
+|t:|1743859060
+|switch|p2a: Moltres|Moltres|34/100 tox
+|turn|21
+|
+|t:|1743859082
+|-terastallize|p2a: Moltres|Ground
+|move|p2a: Moltres|Scorching Sands|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|-damage|p2a: Moltres|28/100 tox|[from] psn
+|upkeep
+|
+|t:|1743859090
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|22
+|
+|t:|1743859096
+|move|p1a: Cinderace|Sucker Punch|p2a: Moltres
+|-start|p1a: Cinderace|typechange|Dark|[from] ability: Libero
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|upkeep
+|
+|t:|1743859101
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|23
+|
+|t:|1743859106
+|move|p1a: Cinderace|U-turn|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|95/100
+|
+|t:|1743859113
+|switch|p1a: Gliscor|Gliscor, M|35/100 tox|[from] U-turn
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-heal|p1a: Gliscor|48/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|
+|t:|1743859121
+|-terastallize|p1a: Gliscor|Water
+|move|p2a: Dragonite|Scale Shot|p1a: Gliscor
+|-damage|p1a: Gliscor|33/100 tox
+|-damage|p1a: Gliscor|21/100 tox
+|-damage|p1a: Gliscor|8/100 tox
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|-hitcount|p1: Gliscor|4
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|-message|Belugea forfeited.
+|
+|win|rrbrru
+|raw|Belugea's rating: 1392 &rarr; <strong>1373</strong><br />(-19 for losing)
+|raw|rrbrru's rating: 1417 &rarr; <strong>1436</strong><br />(+19 for winning)
+|l|☆Belugea
+|player|p1|
+|l|☆rrbrru
+|player|p2|

@@ -1,0 +1,290 @@
+|j|☆jrm69
+|j|☆honeyfee
+|t:|1743928563
+|gametype|singles
+|player|p1|jrm69|1|1185
+|player|p2|honeyfee|ltsurge|1220
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, M|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Valiant|
+|poke|p1|Dragapult, M|
+|poke|p1|Quagsire, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Ninetales-Alola, M|
+|poke|p2|Gholdengo|
+|poke|p2|Kingambit, F|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Hands|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by honeyfee)
+|
+|t:|1743928591
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|1
+|
+|t:|1743928604
+|move|p1a: Dragapult|U-turn|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|24/100
+|
+|t:|1743928608
+|switch|p1a: Quagsire|Quagsire, F|100/100|[from] U-turn
+|move|p2a: Samurott|Swords Dance|p2a: Samurott
+|-boost|p2a: Samurott|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1743928623
+|move|p2a: Samurott|Ceaseless Edge|p1a: Quagsire
+|-damage|p1a: Quagsire|64/100
+|-damage|p2a: Samurott|8/100|[from] item: Rocky Helmet|[of] p1a: Quagsire
+|-sidestart|p1: jrm69|Spikes
+|move|p1a: Quagsire|Liquidation|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743928633
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|3
+|
+|t:|1743928642
+|move|p2a: Ninetales|Freeze-Dry|p1a: Quagsire
+|-supereffective|p1a: Quagsire
+|-damage|p1a: Quagsire|0 fnt
+|faint|p1a: Quagsire
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743928666
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|-damage|p1a: Slowking|88/100|[from] Spikes
+|turn|4
+|
+|t:|1743928692
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: honeyfee|move: Aurora Veil
+|move|p1a: Slowking|Thunder Wave|p2a: Ninetales
+|-status|p2a: Ninetales|par
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Slowking|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743928702
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|move|p1a: Slowking|Future Sight|p2a: Iron Hands
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Slowking|99/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|inactive|honeyfee has 120 seconds left.
+|
+|t:|1743928748
+|move|p2a: Iron Hands|Swords Dance|p2a: Iron Hands
+|-boost|p2a: Iron Hands|atk|2
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|
+|t:|1743928754
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from] Chilly Reception
+|-damage|p1a: Dragapult|88/100|[from] Spikes
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|inactive|honeyfee has 90 seconds left.
+|inactive|honeyfee has 60 seconds left.
+|
+|t:|1743928819
+|-terastallize|p1a: Dragapult|Ghost
+|move|p1a: Dragapult|Psychic Fangs|p2a: Iron Hands
+|-sideend|p2: honeyfee|move: Aurora Veil
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|51/100
+|move|p2a: Iron Hands|Ice Punch|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-weather|none
+|-end|p2a: Iron Hands|move: Future Sight
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|upkeep
+|inactive|jrm69 has 120 seconds left.
+|
+|t:|1743928853
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100 par
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|-damage|p1a: Slowking|88/100|[from] Spikes
+|turn|8
+|inactive|honeyfee has 60 seconds left.
+|
+|t:|1743928868
+|move|p2a: Ninetales|Freeze-Dry|p1a: Slowking
+|-damage|p1a: Slowking|77/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|37/100 par
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Slowking|83/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743928879
+|cant|p2a: Ninetales|par
+|move|p1a: Slowking|Sludge Bomb|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Slowking|89/100|[from] item: Leftovers
+|upkeep
+|inactive|honeyfee has 60 seconds left.
+|
+|t:|1743928890
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|10
+|inactive|jrm69 has 120 seconds left.
+|
+|t:|1743928903
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|
+|t:|1743928914
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|inactive|honeyfee has 60 seconds left.
+|
+|t:|1743928939
+|move|p1a: Great Tusk|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|9/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Make It Rain|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743928967
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|88/100|[from] Spikes
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|12
+|inactive|honeyfee has 60 seconds left.
+|
+|t:|1743929005
+|move|p1a: Iron Valiant|Thunderbolt|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-weather|none
+|upkeep
+|
+|t:|1743929008
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|13
+|
+|t:|1743929021
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|-damage|p1a: Slowking|88/100|[from] Spikes
+|move|p2a: Iron Moth|Sludge Wave|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|74/100
+|
+|-heal|p1a: Slowking|80/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|inactive|jrm69 has 90 seconds left.
+|inactive|honeyfee has 30 seconds left.
+|inactive|honeyfee has 20 seconds left.
+|inactive|honeyfee has 15 seconds left.
+|inactive|honeyfee has 10 seconds left.
+|inactive|honeyfee has 5 seconds left.
+|
+|t:|1743929078
+|move|p2a: Iron Moth|Fiery Dance|p1a: Slowking
+|-damage|p1a: Slowking|54/100
+|move|p1a: Slowking|Future Sight|p2a: Iron Moth
+|-start|p1a: Slowking|move: Future Sight
+|
+|-heal|p1a: Slowking|60/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|inactive|honeyfee has 15 seconds left this turn.
+|inactive|jrm69 has 90 seconds left.
+|
+|t:|1743929087
+|move|p2a: Iron Moth|Fiery Dance|p1a: Slowking
+|-damage|p1a: Slowking|35/100
+|move|p1a: Slowking|Thunder Wave|p2a: Iron Moth
+|-status|p2a: Iron Moth|par
+|
+|-heal|p1a: Slowking|41/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|inactive|honeyfee has 25 seconds left this turn.
+|l|☆honeyfee
+|inactive|honeyfee disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|honeyfee has 20 seconds left.
+|inactive|jrm69 has 90 seconds left.
+|inactive|honeyfee has 15 seconds left.
+|inactive|honeyfee has 10 seconds left.
+|inactive|honeyfee has 5 seconds left.
+|-message|honeyfee lost due to inactivity.
+|
+|win|jrm69
+|raw|jrm69's rating: 1185 &rarr; <strong>1210</strong><br />(+25 for winning)
+|raw|honeyfee's rating: 1191 &rarr; <strong>1166</strong><br />(-25 for losing)
+|l|☆jrm69
+|player|p1|

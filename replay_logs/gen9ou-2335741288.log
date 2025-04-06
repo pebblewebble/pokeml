@@ -1,0 +1,335 @@
+|j|☆lvl99luck
+|j|☆alinare12
+|t:|1743828795
+|gametype|singles
+|player|p1|lvl99luck|dahlia|1247
+|player|p2|alinare12|pokemonrangerf-gen4|1199
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Abomasnow, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Kyurem|
+|poke|p1|Cinderace, F|
+|poke|p1|Gholdengo|
+|poke|p1|Gliscor, M|
+|poke|p2|Garganacl, M|
+|poke|p2|Glimmora, F|
+|poke|p2|Iron Boulder|
+|poke|p2|Tyranitar, M|
+|poke|p2|Diancie|
+|poke|p2|Ogerpon-Cornerstone, F|
+|teampreview
+|
+|t:|1743828804
+|start
+|switch|p1a: Kaching|Gholdengo|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1743828812
+|move|p1a: Kaching|Make It Rain|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|44/100
+|-unboost|p1a: Kaching|spa|1
+|move|p2a: Tyranitar|Knock Off|p1a: Kaching
+|-supereffective|p1a: Kaching
+|-damage|p1a: Kaching|0 fnt
+|-enditem|p1a: Kaching|Choice Scarf|[from] move: Knock Off|[of] p2a: Tyranitar
+|faint|p1a: Kaching
+|-damage|p2a: Tyranitar|34/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743828822
+|switch|p1a: Bouncer|Cinderace, F|100/100
+|turn|2
+|
+|t:|1743828826
+|move|p2a: Tyranitar|Protect|p2a: Tyranitar
+|-singleturn|p2a: Tyranitar|Protect
+|move|p1a: Bouncer|U-turn|p2a: Tyranitar
+|-start|p1a: Bouncer|typechange|Bug|[from] ability: Libero
+|-activate|p2a: Tyranitar|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bouncer|95/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1743828832
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|move|p1a: Bouncer|U-turn|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|81/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: lvl99luck|move: Toxic Spikes
+|
+|t:|1743828849
+|switch|p1a: Stoker|Gliscor, M|100/100|[from] U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-status|p1a: Stoker|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|t:|1743828860
+|move|p2a: Glimmora|Venoshock|p1a: Stoker
+|-resisted|p1a: Stoker
+|-damage|p1a: Stoker|74/100 tox
+|move|p1a: Stoker|Knock Off|p2a: Glimmora
+|-damage|p2a: Glimmora|55/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: lvl99luck|move: Toxic Spikes
+|-enditem|p2a: Glimmora|Focus Sash|[from] move: Knock Off|[of] p1a: Stoker
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Stoker|87/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|t:|1743828871
+|move|p2a: Glimmora|Stealth Rock|p1a: Stoker
+|-sidestart|p1: lvl99luck|move: Stealth Rock
+|move|p1a: Stoker|Stone Edge|p2a: Glimmora
+|-damage|p2a: Glimmora|31/100
+|
+|-weather|none
+|-heal|p1a: Stoker|99/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1743828878
+|switch|p1a: Bouncer|Cinderace, F|95/100
+|move|p2a: Glimmora|Venoshock|p1a: Bouncer
+|-damage|p1a: Bouncer|46/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743828883
+|move|p2a: Glimmora|Spiky Shield|p2a: Glimmora
+|-singleturn|p2a: Glimmora|move: Protect
+|move|p1a: Bouncer|Court Change|p1a: Bouncer
+|-start|p1a: Bouncer|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Bouncer|move: Court Change
+|
+|upkeep
+|turn|8
+|
+|t:|1743828896
+|switch|p1a: Stoker|Gliscor, M|99/100 tox
+|move|p2a: Glimmora|Mortal Spin|p1a: Stoker
+|-resisted|p1a: Stoker
+|-damage|p1a: Stoker|97/100 tox
+|-sideend|p2: alinare12|Toxic Spikes|[from] move: Mortal Spin|[of] p2a: Glimmora
+|-sideend|p2: alinare12|Stealth Rock|[from] move: Mortal Spin|[of] p2a: Glimmora
+|
+|-heal|p1a: Stoker|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|t:|1743828907
+|move|p2a: Glimmora|Spiky Shield|p2a: Glimmora
+|-singleturn|p2a: Glimmora|move: Protect
+|move|p1a: Stoker|Knock Off|p2a: Glimmora
+|-activate|p2a: Glimmora|move: Protect
+|-damage|p1a: Stoker|88/100 tox|[from] Spiky Shield|[of] p2a: Glimmora
+|
+|-heal|p1a: Stoker|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|t:|1743828914
+|move|p2a: Glimmora|Stealth Rock|p1a: Stoker
+|-sidestart|p1: lvl99luck|move: Stealth Rock
+|move|p1a: Stoker|Knock Off|p2a: Glimmora
+|-damage|p2a: Glimmora|14/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: lvl99luck|move: Toxic Spikes
+|
+|upkeep
+|turn|11
+|
+|t:|1743828925
+|switch|p2a: Tyranitar|Tyranitar, M|34/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Stoker|Knock Off|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|26/100
+|-enditem|p2a: Tyranitar|Life Orb|[from] move: Knock Off|[of] p1a: Stoker
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743828937
+|move|p1a: Stoker|Stone Edge|p2a: Tyranitar
+|-damage|p2a: Tyranitar|10/100
+|move|p2a: Tyranitar|Knock Off|p1a: Stoker
+|-damage|p1a: Stoker|66/100 tox
+|-enditem|p1a: Stoker|Toxic Orb|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Stoker|79/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|t:|1743828945
+|move|p1a: Stoker|Stone Edge|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Stoker|91/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743828948
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p2a: Iron Boulder|Booster Energy
+|-activate|p2a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Boulder|quarkdrivespe
+|turn|14
+|
+|t:|1743828962
+|switch|p1a: Sasquatch|Abomasnow, M|100/100
+|-damage|p1a: Sasquatch|75/100|[from] Stealth Rock
+|-status|p1a: Sasquatch|psn
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Sasquatch
+|-terastallize|p2a: Iron Boulder|Rock
+|move|p2a: Iron Boulder|Swords Dance|p2a: Iron Boulder
+|-boost|p2a: Iron Boulder|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Sasquatch|63/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743828977
+|-terastallize|p1a: Sasquatch|Ground
+|move|p2a: Iron Boulder|Mighty Cleave|p1a: Sasquatch
+|-resisted|p1a: Sasquatch
+|-damage|p1a: Sasquatch|0 fnt
+|faint|p1a: Sasquatch
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743828989
+|switch|p1a: Pridwen|Zamazenta, shiny|100/100
+|-damage|p1a: Pridwen|94/100|[from] Stealth Rock
+|-status|p1a: Pridwen|psn
+|-ability|p1a: Pridwen|Dauntless Shield|boost
+|-boost|p1a: Pridwen|def|1
+|turn|16
+|
+|t:|1743828992
+|move|p2a: Iron Boulder|Psycho Cut|p1a: Pridwen
+|-supereffective|p1a: Pridwen
+|-damage|p1a: Pridwen|25/100 psn
+|move|p1a: Pridwen|Body Press|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|0 fnt
+|faint|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Pridwen|31/100 psn|[from] item: Leftovers
+|-damage|p1a: Pridwen|19/100 psn|[from] psn
+|upkeep
+|
+|t:|1743829002
+|switch|p2a: Diancie|Diancie|100/100
+|turn|17
+|
+|t:|1743829008
+|move|p1a: Pridwen|Iron Head|p2a: Diancie
+|-supereffective|p2a: Diancie
+|-damage|p2a: Diancie|39/100
+|move|p2a: Diancie|Diamond Storm|p1a: Pridwen
+|-resisted|p1a: Pridwen
+|-damage|p1a: Pridwen|7/100 psn
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Pridwen|13/100 psn|[from] item: Leftovers
+|-damage|p1a: Pridwen|1/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1743829018
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|move|p1a: Pridwen|Iron Head|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|48/100
+|
+|-weather|none
+|-heal|p1a: Pridwen|7/100 psn|[from] item: Leftovers
+|-damage|p1a: Pridwen|0 fnt|[from] psn
+|faint|p1a: Pridwen
+|upkeep
+|
+|t:|1743829030
+|switch|p1a: Bouncer|Cinderace, F|46/100
+|turn|19
+|
+|t:|1743829035
+|move|p1a: Bouncer|Court Change|p1a: Bouncer
+|-start|p1a: Bouncer|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Bouncer|move: Court Change
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Bouncer|[anim] Ivy Cudgel Rock
+|-damage|p1a: Bouncer|0 fnt
+|faint|p1a: Bouncer
+|
+|upkeep
+|
+|t:|1743829043
+|switch|p1a: BlueEyes|Kyurem|100/100
+|-ability|p1a: BlueEyes|Pressure
+|turn|20
+|
+|t:|1743829049
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: BlueEyes|[anim] Ivy Cudgel Rock
+|-supereffective|p1a: BlueEyes
+|-damage|p1a: BlueEyes|0 fnt
+|faint|p1a: BlueEyes
+|
+|upkeep
+|
+|t:|1743829053
+|switch|p1a: Stoker|Gliscor, M|91/100 tox
+|turn|21
+|
+|t:|1743829055
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Stoker|[anim] Ivy Cudgel Rock
+|-damage|p1a: Stoker|44/100 tox
+|move|p1a: Stoker|Knock Off|p2a: Ogerpon
+|-damage|p2a: Ogerpon|28/100
+|
+|-heal|p1a: Stoker|56/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|c|☆lvl99luck|gg
+|-message|lvl99luck forfeited.
+|
+|win|alinare12
+|raw|lvl99luck's rating: 1247 &rarr; <strong>1219</strong><br />(-28 for losing)
+|raw|alinare12's rating: 1199 &rarr; <strong>1227</strong><br />(+28 for winning)
+|l|☆lvl99luck
+|player|p1|
+|c|☆alinare12|gg
+|l|☆alinare12
+|player|p2|

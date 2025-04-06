@@ -1,0 +1,409 @@
+|j|☆DrW4rio
+|j|☆Hush Is Here
+|t:|1743803459
+|gametype|singles
+|player|p1|DrW4rio|roxie|1095
+|player|p2|Hush Is Here|caitlin|1062
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Weavile, F|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Metagross|
+|poke|p1|Ariados, M|
+|poke|p1|Slowbro, F|
+|poke|p2|Lurantis, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Chandelure, M|
+|poke|p2|Azumarill, M|
+|poke|p2|Hariyama, F|
+|teampreview
+|
+|t:|1743803466
+|start
+|switch|p1a: Ariados|Ariados, M|100/100
+|switch|p2a: Bimpo|Chandelure, M|100/100
+|turn|1
+|
+|t:|1743803473
+|move|p2a: Bimpo|Will-O-Wisp|p1a: Ariados|[miss]
+|-miss|p2a: Bimpo|p1a: Ariados
+|move|p1a: Ariados|Sticky Web|p2a: Bimpo
+|-sidestart|p2: Hush Is Here|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743803485
+|move|p1a: Ariados|Sucker Punch||[still]
+|-fail|p1a: Ariados
+|move|p2a: Bimpo|Will-O-Wisp|p1a: Ariados
+|-status|p1a: Ariados|brn
+|
+|-damage|p1a: Ariados|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743803494
+|move|p1a: Ariados|Poison Jab|p2a: Bimpo
+|-resisted|p2a: Bimpo
+|-damage|p2a: Bimpo|91/100
+|move|p2a: Bimpo|Trick Room|p2a: Bimpo
+|-fieldstart|move: Trick Room|[of] p2a: Bimpo
+|
+|-damage|p1a: Ariados|88/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743803508
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|move|p2a: Bimpo|Overheat|p1a: Slowbro
+|-resisted|p1a: Slowbro
+|-damage|p1a: Slowbro|71/100
+|-unboost|p2a: Bimpo|spa|2
+|-enditem|p2a: Bimpo|Eject Pack
+|
+|t:|1743803518
+|switch|p2a: Doom Bringer|Lurantis, F|100/100
+|-activate|p2a: Doom Bringer|move: Sticky Web
+|-boost|p2a: Doom Bringer|spe|1
+|
+|upkeep
+|turn|5
+|
+|t:|1743803525
+|switch|p1a: Ariados|Ariados, M|88/100 brn
+|move|p2a: Doom Bringer|Superpower|p1a: Ariados
+|-resisted|p1a: Ariados
+|-damage|p1a: Ariados|75/100 brn
+|-boost|p2a: Doom Bringer|atk|1
+|-boost|p2a: Doom Bringer|def|1
+|
+|-damage|p1a: Ariados|68/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743803540
+|-terastallize|p2a: Doom Bringer|Fire
+|move|p1a: Ariados|Poison Jab|p2a: Doom Bringer
+|-damage|p2a: Doom Bringer|88/100
+|-status|p2a: Doom Bringer|psn
+|move|p2a: Doom Bringer|Tera Blast|p1a: Ariados|[anim] Tera Blast Fire
+|-supereffective|p1a: Ariados
+|-damage|p1a: Ariados|0 fnt
+|faint|p1a: Ariados
+|
+|-damage|p2a: Doom Bringer|76/100 psn|[from] psn
+|upkeep
+|
+|t:|1743803556
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|7
+|
+|t:|1743803566
+|move|p1a: Pelipper|Weather Ball|p2a: Doom Bringer
+|-supereffective|p2a: Doom Bringer
+|-damage|p2a: Doom Bringer|0 fnt
+|faint|p2a: Doom Bringer
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743803574
+|switch|p2a: Zorpo|Cresselia, F|100/100
+|turn|8
+|
+|t:|1743803583
+|switch|p1a: Weavile|Weavile, F|100/100
+|move|p2a: Zorpo|Trick Room|p2a: Zorpo
+|-fieldstart|move: Trick Room|[of] p2a: Zorpo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743803614
+|move|p2a: Zorpo|Moonblast|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|55/100
+|-enditem|p1a: Weavile|Weakness Policy
+|-boost|p1a: Weavile|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Weavile|spa|2|[from] item: Weakness Policy
+|move|p1a: Weavile|Swords Dance|p1a: Weavile
+|-boost|p1a: Weavile|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743803629
+|move|p2a: Zorpo|Moonblast|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|6/100
+|-unboost|p1a: Weavile|spa|1
+|move|p1a: Weavile|Triple Axel|p2a: Zorpo
+|-damage|p2a: Zorpo|86/100
+|-hitcount|p2a: Zorpo|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743803641
+|move|p1a: Weavile|Ice Shard|p2a: Zorpo
+|-damage|p2a: Zorpo|57/100
+|move|p2a: Zorpo|Ice Beam|p1a: Weavile
+|-resisted|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-weather|none
+|upkeep
+|
+|t:|1743803660
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|12
+|
+|t:|1743803665
+|move|p1a: Pelipper|U-turn|p2a: Zorpo
+|-supereffective|p2a: Zorpo
+|-damage|p2a: Zorpo|47/100
+|
+|t:|1743803668
+|switch|p1a: Crawdaunt|Crawdaunt, M|100/100|[from] U-turn
+|move|p2a: Zorpo|Ice Beam|p1a: Crawdaunt
+|-resisted|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|85/100
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|13
+|
+|t:|1743803678
+|move|p1a: Crawdaunt|Knock Off|p2a: Zorpo
+|-supereffective|p2a: Zorpo
+|-damage|p2a: Zorpo|0 fnt
+|-enditem|p2a: Zorpo|Mental Herb|[from] move: Knock Off|[of] p1a: Crawdaunt
+|faint|p2a: Zorpo
+|-heal|p1a: Crawdaunt|94/100|[from] item: Shell Bell|[of] p2: Zorpo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743803694
+|switch|p2a: Bob|Hariyama, F|100/100
+|-activate|p2a: Bob|move: Sticky Web
+|-unboost|p2a: Bob|spe|1
+|turn|14
+|
+|t:|1743803704
+|switch|p1a: Slowbro|Slowbro, F|100/100
+|move|p2a: Bob|Knock Off|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|56/100
+|-enditem|p1a: Slowbro|Sitrus Berry|[from] move: Knock Off|[of] p2a: Bob
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Bob|brn|[from] item: Flame Orb
+|upkeep
+|turn|15
+|
+|t:|1743803719
+|move|p1a: Slowbro|Waterfall|p2a: Bob
+|-damage|p2a: Bob|63/100 brn
+|move|p2a: Bob|Knock Off|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|7/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Bob|57/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743803741
+|switch|p1a: Metagross|Metagross, shiny|100/100
+|move|p2a: Bob|Knock Off|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|37/100
+|-enditem|p1a: Metagross|Assault Vest|[from] move: Knock Off|[of] p2a: Bob
+|
+|-weather|none
+|-damage|p2a: Bob|50/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743803755
+|switch|p2a: Bimpo|Chandelure, M|91/100
+|-activate|p2a: Bimpo|move: Sticky Web
+|-unboost|p2a: Bimpo|spe|1
+|move|p1a: Metagross|Stealth Rock|p2a: Bimpo
+|-sidestart|p2: Hush Is Here|move: Stealth Rock
+|
+|upkeep
+|turn|18
+|
+|t:|1743803766
+|move|p1a: Metagross|Earthquake|p2a: Bimpo
+|-supereffective|p2a: Bimpo
+|-damage|p2a: Bimpo|9/100
+|move|p2a: Bimpo|Will-O-Wisp|p1a: Metagross
+|-status|p1a: Metagross|brn
+|
+|-damage|p1a: Metagross|31/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1743803777
+|move|p1a: Metagross|Earthquake|p2a: Bimpo
+|-supereffective|p2a: Bimpo
+|-damage|p2a: Bimpo|0 fnt
+|faint|p2a: Bimpo
+|
+|-damage|p1a: Metagross|25/100 brn|[from] brn
+|upkeep
+|
+|t:|1743803785
+|switch|p2a: Ohohoho|Hatterene, F|100/100
+|-activate|p2a: Ohohoho|move: Sticky Web
+|-unboost|p2a: Ohohoho|spe|1
+|-damage|p2a: Ohohoho|88/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743803795
+|move|p1a: Metagross|Meteor Mash|p2a: Ohohoho
+|-supereffective|p2a: Ohohoho
+|-damage|p2a: Ohohoho|32/100
+|move|p2a: Ohohoho|Trick Room|p2a: Ohohoho
+|-fieldstart|move: Trick Room|[of] p2a: Ohohoho
+|
+|-damage|p1a: Metagross|19/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1743803818
+|move|p1a: Metagross|Bullet Punch|p2a: Ohohoho
+|-supereffective|p2a: Ohohoho
+|-damage|p2a: Ohohoho|5/100
+|move|p2a: Ohohoho|Mystical Fire|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|upkeep
+|
+|t:|1743803827
+|switch|p1a: Crawdaunt|Crawdaunt, M|94/100
+|turn|22
+|
+|t:|1743803838
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Ohohoho
+|-damage|p2a: Ohohoho|0 fnt
+|faint|p2a: Ohohoho
+|-heal|p1a: Crawdaunt|95/100|[from] item: Shell Bell|[of] p2: Ohohoho
+|
+|upkeep
+|
+|t:|1743803846
+|switch|p2a: Bob|Hariyama, F|50/100 brn
+|-activate|p2a: Bob|move: Sticky Web
+|-unboost|p2a: Bob|spe|1
+|-damage|p2a: Bob|44/100 brn|[from] Stealth Rock
+|turn|23
+|
+|t:|1743803857
+|switch|p1a: Slowbro|Slowbro, F|40/100
+|move|p2a: Bob|Fake Out|p1a: Slowbro
+|-damage|p1a: Slowbro|25/100
+|
+|-damage|p2a: Bob|38/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1743803866
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Bob|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|55/100
+|-enditem|p1a: Pelipper|Choice Specs|[from] move: Knock Off|[of] p2a: Bob
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Bob|32/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|25
+|
+|t:|1743803879
+|move|p1a: Pelipper|Hurricane|p2a: Bob
+|-supereffective|p2a: Bob
+|-damage|p2a: Bob|0 fnt
+|faint|p2a: Bob
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743803884
+|switch|p2a: Flebus|Azumarill, M|100/100
+|-activate|p2a: Flebus|move: Sticky Web
+|-unboost|p2a: Flebus|spe|1
+|-damage|p2a: Flebus|88/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1743803894
+|move|p1a: Pelipper|U-turn|p2a: Flebus
+|-resisted|p2a: Flebus
+|-damage|p2a: Flebus|84/100
+|
+|t:|1743803898
+|switch|p1a: Slowbro|Slowbro, F|59/100|[from] U-turn
+|move|p2a: Flebus|Belly Drum|p2a: Flebus
+|-damage|p2a: Flebus|34/100
+|-setboost|p2a: Flebus|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Flebus|Sitrus Berry|[eat]
+|-heal|p2a: Flebus|59/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1743803911
+|move|p1a: Slowbro|Earthquake|p2a: Flebus
+|-damage|p2a: Flebus|33/100
+|move|p2a: Flebus|Play Rough|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743803922
+|switch|p1a: Pelipper|Pelipper, F|55/100
+|turn|28
+|
+|t:|1743803932
+|move|p1a: Pelipper|Hurricane|p2a: Flebus
+|-damage|p2a: Flebus|0 fnt
+|faint|p2a: Flebus
+|
+|win|DrW4rio
+|raw|DrW4rio's rating: 1095 &rarr; <strong>1118</strong><br />(+23 for winning)
+|raw|Hush Is Here's rating: 1062 &rarr; <strong>1045</strong><br />(-17 for losing)
+|l|☆Hush Is Here
+|player|p2|
+|l|☆DrW4rio
+|player|p1|

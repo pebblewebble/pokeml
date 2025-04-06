@@ -1,0 +1,359 @@
+|j|☆Lewy
+|j|☆sa44dz
+|t:|1743939004
+|gametype|singles
+|player|p1|Lewy|hilbert|1136
+|player|p2|sa44dz|101|1067
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Araquanid, M|
+|poke|p1|Infernape, F|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Naclstack, M|
+|poke|p2|Serperior, F|
+|poke|p2|Great Tusk|
+|poke|p2|Zapdos|
+|poke|p2|Gholdengo|
+|poke|p2|Tyranitar, M|
+|poke|p2|Porygon-Z|
+|teampreview
+|
+|t:|1743939018
+|start
+|switch|p1a: a|Araquanid, M|100/100
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|turn|1
+|
+|t:|1743939028
+|move|p2a: Porygon-Z|Tri Attack|p1a: a
+|-damage|p1a: a|22/100
+|move|p1a: a|Sticky Web|p2a: Porygon-Z
+|-sidestart|p2: sa44dz|move: Sticky Web
+|
+|upkeep
+|turn|2
+|-enditem|p1a: a|Custap Berry|[eat]
+|-activate|p1a: a|item: Custap Berry|[consumed]
+|
+|t:|1743939039
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: a|Endeavor|p2a: Zapdos
+|-damage|p2a: Zapdos|20/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743939058
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|70/100
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: a|Surf|p2a: Zapdos
+|-damage|p2a: Zapdos|11/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743939067
+|move|p2a: Zapdos|Volt Switch|p1a: a
+|-supereffective|p1a: a
+|-damage|p1a: a|0 fnt
+|faint|p1a: a
+|
+|t:|1743939077
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|-activate|p2a: Great Tusk|move: Sticky Web
+|-unboost|p2a: Great Tusk|spe|1
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|
+|upkeep
+|
+|t:|1743939089
+|switch|p1a: e|Electrode-Hisui|100/100
+|turn|5
+|
+|t:|1743939095
+|move|p1a: e|Leaf Storm|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: e|spa|2
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743939113
+|switch|p2a: Serperior|Serperior, F|100/100
+|-activate|p2a: Serperior|move: Sticky Web
+|-boost|p2a: Serperior|spe|1
+|turn|6
+|
+|t:|1743939125
+|move|p2a: Serperior|Glare|p1a: e
+|-immune|p1a: e
+|move|p1a: e|Volt Switch|p2a: Serperior
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|94/100
+|
+|t:|1743939202
+|switch|p1a: w|Weezing-Galar, M|100/100|[from] Volt Switch
+|-ability|p1a: w|Neutralizing Gas
+|
+|-heal|p2a: Serperior|99/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743939218
+|move|p2a: Serperior|Glare|p1a: w
+|-status|p1a: w|par
+|cant|p1a: w|par
+|
+|-heal|p2a: Serperior|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743939226
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|76/100
+|move|p1a: w|Strange Steam|p2a: Serperior
+|-activate|p2a: Serperior|move: Substitute|[damage]
+|
+|-heal|p2a: Serperior|82/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743939238
+|move|p2a: Serperior|Leaf Storm|p1a: w
+|-resisted|p1a: w
+|-damage|p1a: w|76/100 par
+|-unboost|p2a: Serperior|spa|2
+|move|p1a: w|Strange Steam|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|88/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743939249
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|63/100
+|move|p1a: w|Strange Steam|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|69/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743939263
+|move|p2a: Serperior|Leech Seed|p1a: w
+|-start|p1a: w|move: Leech Seed
+|cant|p1a: w|par
+|
+|-heal|p2a: Serperior|76/100|[from] item: Leftovers
+|-damage|p1a: w|64/100 par|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|87/100|[silent]
+|upkeep
+|turn|12
+|
+|t:|1743939274
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|62/100
+|cant|p1a: w|par
+|
+|-heal|p2a: Serperior|69/100|[from] item: Leftovers
+|-damage|p1a: w|52/100 par|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|80/100|[silent]
+|upkeep
+|turn|13
+|
+|t:|1743939286
+|-end|p1a: w|ability: Neutralizing Gas
+|switch|p1a: i|Infernape, F|100/100
+|move|p2a: Serperior|Glare|p1a: i
+|-status|p1a: i|par
+|
+|-heal|p2a: Serperior|86/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743939298
+|move|p2a: Serperior|Leech Seed|p1a: i
+|-start|p1a: i|move: Leech Seed
+|cant|p1a: i|par
+|
+|-heal|p2a: Serperior|93/100|[from] item: Leftovers
+|-damage|p1a: i|88/100 par|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|100/100|[silent]
+|upkeep
+|turn|15
+|
+|t:|1743939310
+|move|p2a: Serperior|Leaf Storm|p1a: i
+|-resisted|p1a: i
+|-damage|p1a: i|74/100 par
+|-boost|p2a: Serperior|spa|2
+|cant|p1a: i|par
+|
+|-damage|p1a: i|62/100 par|[from] Leech Seed|[of] p2a: Serperior
+|upkeep
+|turn|16
+|
+|t:|1743939320
+|move|p2a: Serperior|Leaf Storm|p1a: i
+|-resisted|p1a: i
+|-damage|p1a: i|34/100 par
+|-boost|p2a: Serperior|spa|2
+|move|p1a: i|U-turn|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|t:|1743939337
+|switch|p1a: w|Weezing-Galar, M|52/100 par|[from] U-turn
+|-ability|p1a: w|Neutralizing Gas
+|
+|upkeep
+|turn|17
+|
+|t:|1743939353
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|76/100
+|cant|p1a: w|par
+|
+|-heal|p2a: Serperior|82/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c|☆Lewy|wot
+|
+|t:|1743939362
+|move|p2a: Serperior|Leech Seed|p1a: w
+|-start|p1a: w|move: Leech Seed
+|move|p1a: w|Strange Steam|p2a: Serperior
+|-crit|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|88/100|[from] item: Leftovers
+|-damage|p1a: w|39/100 par|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|99/100|[silent]
+|upkeep
+|turn|19
+|
+|t:|1743939372
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|75/100
+|move|p1a: w|Strange Steam|p2a: Serperior
+|-activate|p2a: Serperior|move: Substitute|[damage]
+|
+|-heal|p2a: Serperior|81/100|[from] item: Leftovers
+|-damage|p1a: w|27/100 par|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|93/100|[silent]
+|upkeep
+|turn|20
+|
+|t:|1743939385
+|move|p2a: Serperior|Glare|p1a: w
+|-fail|p1a: w|par
+|move|p1a: w|Strange Steam|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|99/100|[from] item: Leftovers
+|-damage|p1a: w|15/100 par|[from] Leech Seed|[of] p2a: Serperior
+|-heal|p2a: Serperior|100/100|[silent]
+|upkeep
+|turn|21
+|
+|t:|1743939398
+|-end|p1a: w|ability: Neutralizing Gas
+|switch|p1a: i|Infernape, F|34/100 par
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|76/100
+|
+|-heal|p2a: Serperior|82/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743939410
+|move|p2a: Serperior|Leaf Storm|p1a: i
+|-resisted|p1a: i
+|-damage|p1a: i|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: i
+|
+|-heal|p2a: Serperior|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743939416
+|switch|p1a: K|Kyurem|100/100
+|-ability|p1a: K|Pressure
+|turn|23
+|
+|t:|1743939435
+|move|p2a: Serperior|Glare|p1a: K
+|-status|p1a: K|par
+|move|p1a: K|Dragon Dance|p1a: K
+|-boost|p1a: K|atk|1
+|-boost|p1a: K|spe|1
+|
+|-heal|p2a: Serperior|94/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1743939445
+|move|p2a: Serperior|Leaf Storm|p1a: K
+|-resisted|p1a: K
+|-damage|p1a: K|53/100 par
+|-boost|p2a: Serperior|spa|2
+|cant|p1a: K|par
+|
+|-heal|p2a: Serperior|100/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|c|☆Lewy|wth
+|c|☆Lewy|haha
+|
+|t:|1743939455
+|move|p2a: Serperior|Leaf Storm|p1a: K
+|-resisted|p1a: K
+|-damage|p1a: K|0 fnt
+|faint|p1a: K
+|
+|upkeep
+|
+|t:|1743939459
+|switch|p1a: n|Naclstack, M|100/100
+|turn|26
+|
+|t:|1743939469
+|move|p2a: Serperior|Glare|p1a: n
+|-immune|p1a: n|[from] ability: Purifying Salt
+|move|p1a: n|Salt Cure|p2a: Serperior
+|-activate|p2a: Serperior|move: Substitute|[damage]
+|
+|upkeep
+|turn|27
+|-message|Lewy forfeited.
+|
+|win|sa44dz
+|raw|Lewy's rating: 1136 &rarr; <strong>1106</strong><br />(-30 for losing)
+|raw|sa44dz's rating: 1067 &rarr; <strong>1103</strong><br />(+36 for winning)
+|l|☆Lewy
+|player|p1|

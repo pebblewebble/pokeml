@@ -1,0 +1,364 @@
+|j|☆Aimsss
+|j|☆civic jpg
+|t:|1743908533
+|gametype|singles
+|player|p1|Aimsss|policeman-gen4|1422
+|player|p2|civic jpg|101|1412
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Hawlucha, F|
+|poke|p1|Glimmora, F|
+|poke|p1|Chesnaught, F|
+|poke|p1|Gallade, M|
+|poke|p2|Manaphy|
+|poke|p2|Kingambit, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Darkrai|
+|poke|p2|Sandy Shocks|
+|poke|p2|Dragonite, F|
+|teampreview
+|
+|t:|1743908540
+|start
+|switch|p1a: Chesnaught|Chesnaught, F|100/100
+|switch|p2a: Sandy Shocks|Sandy Shocks|100/100
+|-item|p2a: Sandy Shocks|Air Balloon
+|turn|1
+|
+|t:|1743908552
+|move|p2a: Sandy Shocks|Stealth Rock|p1a: Chesnaught
+|-sidestart|p1: Aimsss|move: Stealth Rock
+|move|p1a: Chesnaught|Drain Punch|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|67/100
+|-enditem|p2a: Sandy Shocks|Air Balloon
+|
+|upkeep
+|turn|2
+|
+|t:|1743908559
+|move|p2a: Sandy Shocks|Spikes|p1a: Chesnaught
+|-sidestart|p1: Aimsss|Spikes
+|move|p1a: Chesnaught|Leech Seed|p2a: Sandy Shocks
+|-start|p2a: Sandy Shocks|move: Leech Seed
+|
+|-damage|p2a: Sandy Shocks|55/100|[from] Leech Seed|[of] p1a: Chesnaught
+|upkeep
+|turn|3
+|
+|t:|1743908567
+|move|p2a: Sandy Shocks|Spikes|p1a: Chesnaught
+|-sidestart|p1: Aimsss|Spikes
+|move|p1a: Chesnaught|Drain Punch|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|23/100
+|
+|-damage|p2a: Sandy Shocks|11/100|[from] Leech Seed|[of] p1a: Chesnaught
+|upkeep
+|turn|4
+|
+|t:|1743908590
+|move|p2a: Sandy Shocks|Spikes|p1a: Chesnaught
+|-sidestart|p1: Aimsss|Spikes
+|move|p1a: Chesnaught|Drain Punch|p2a: Sandy Shocks
+|-damage|p2a: Sandy Shocks|0 fnt
+|faint|p2a: Sandy Shocks
+|-end|p2a: Sandy Shocks|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743908619
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|5
+|
+|t:|1743908624
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|-damage|p1a: Glimmora|88/100|[from] Stealth Rock
+|-item|p1a: Glimmora|Air Balloon
+|move|p2a: Iron Valiant|Psychic|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|35/100
+|-enditem|p1a: Glimmora|Air Balloon
+|
+|upkeep
+|turn|6
+|
+|t:|1743908635
+|-terastallize|p1a: Glimmora|Grass
+|move|p2a: Iron Valiant|Psychic|p1a: Glimmora
+|-damage|p1a: Glimmora|6/100
+|move|p1a: Glimmora|Mortal Spin|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|84/100
+|-status|p2a: Iron Valiant|psn
+|-sideend|p1: Aimsss|Spikes|[from] move: Mortal Spin|[of] p1a: Glimmora
+|-sideend|p1: Aimsss|Stealth Rock|[from] move: Mortal Spin|[of] p1a: Glimmora
+|
+|-damage|p2a: Iron Valiant|71/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743908648
+|move|p2a: Iron Valiant|Psychic|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|-damage|p2a: Iron Valiant|59/100 psn|[from] psn
+|upkeep
+|
+|t:|1743908655
+|switch|p1a: Chesnaught|Chesnaught, F|100/100
+|turn|8
+|
+|t:|1743908659
+|move|p2a: Iron Valiant|Psychic|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|50/100
+|move|p1a: Chesnaught|Leech Seed|p2a: Iron Valiant
+|-start|p2a: Iron Valiant|move: Leech Seed
+|
+|-heal|p1a: Chesnaught|57/100|[from] item: Leftovers
+|-damage|p2a: Iron Valiant|47/100 psn|[from] Leech Seed|[of] p1a: Chesnaught
+|-heal|p1a: Chesnaught|66/100|[silent]
+|-damage|p2a: Iron Valiant|34/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743908669
+|move|p1a: Chesnaught|Spiky Shield|p1a: Chesnaught
+|-singleturn|p1a: Chesnaught|move: Protect
+|move|p2a: Iron Valiant|Psychic|p1a: Chesnaught
+|-activate|p1a: Chesnaught|move: Protect
+|
+|-heal|p1a: Chesnaught|72/100|[from] item: Leftovers
+|-damage|p2a: Iron Valiant|22/100 psn|[from] Leech Seed|[of] p1a: Chesnaught
+|-heal|p1a: Chesnaught|82/100|[silent]
+|-damage|p2a: Iron Valiant|9/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743908680
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|move|p2a: Iron Valiant|Psychic|p1a: Kingambit
+|-immune|p1a: Kingambit
+|
+|-damage|p2a: Iron Valiant|0 fnt|[from] Leech Seed|[of] p1a: Kingambit
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|upkeep
+|
+|t:|1743908692
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|11
+|
+|t:|1743908701
+|move|p2a: Dragonite|Fire Punch|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|60/100
+|move|p1a: Kingambit|Iron Head|p2a: Dragonite
+|-damage|p2a: Dragonite|74/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743908708
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|13
+|
+|t:|1743908741
+|move|p1a: Dragapult|Dragon Darts|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|26/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Aimsss)
+|
+|t:|1743908749
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|14
+|
+|t:|1743908754
+|switch|p1a: Chesnaught|Chesnaught, F|82/100
+|move|p2a: Darkrai|Dark Pulse|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|64/100
+|
+|-heal|p1a: Chesnaught|70/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743908763
+|-terastallize|p2a: Darkrai|Poison
+|move|p2a: Darkrai|Ice Beam|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|14/100
+|move|p1a: Chesnaught|Drain Punch|p2a: Darkrai
+|-resisted|p2a: Darkrai
+|-damage|p2a: Darkrai|84/100
+|-heal|p1a: Chesnaught|20/100|[from] drain|[of] p2a: Darkrai
+|
+|-heal|p1a: Chesnaught|26/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743908776
+|move|p2a: Darkrai|Ice Beam|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught
+|-damage|p1a: Chesnaught|0 fnt
+|faint|p1a: Chesnaught
+|
+|upkeep
+|
+|t:|1743908782
+|switch|p1a: Kingambit|Kingambit, M|60/100
+|turn|17
+|
+|t:|1743908789
+|move|p2a: Darkrai|Dark Pulse|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|41/100
+|move|p1a: Kingambit|Iron Head|p2a: Darkrai
+|-damage|p2a: Darkrai|22/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743908798
+|switch|p2a: Manaphy|Manaphy|100/100
+|move|p1a: Kingambit|Iron Head|p2a: Manaphy
+|-resisted|p2a: Manaphy
+|-damage|p2a: Manaphy|77/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743908806
+|move|p2a: Manaphy|Surf|p1a: Kingambit
+|-damage|p1a: Kingambit|7/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|20
+|
+|t:|1743908813
+|move|p2a: Manaphy|Tail Glow|p2a: Manaphy
+|-boost|p2a: Manaphy|spa|3
+|move|p1a: Kingambit|Iron Head|p2a: Manaphy
+|-resisted|p2a: Manaphy
+|-damage|p2a: Manaphy|33/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743908819
+|move|p1a: Kingambit|Sucker Punch|p2a: Manaphy
+|-crit|p2a: Manaphy
+|-damage|p2a: Manaphy|0 fnt
+|faint|p2a: Manaphy
+|
+|upkeep
+|
+|t:|1743908823
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|22
+|
+|t:|1743908828
+|move|p2a: Kingambit|Sucker Punch|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|
+|upkeep
+|
+|t:|1743908834
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|23
+|
+|t:|1743908839
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Kingambit
+|-status|p2a: Kingambit|brn
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-damage|p2a: Kingambit|94/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1743908847
+|move|p2a: Kingambit|Sucker Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Kingambit|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1743908854
+|switch|p1a: Hawlucha|Hawlucha, F|100/100
+|turn|25
+|
+|t:|1743908860
+|move|p2a: Kingambit|Sucker Punch|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|53/100
+|-enditem|p1a: Hawlucha|Red Card|[of] p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|drag|p2a: Darkrai|Darkrai, tera:Poison|22/100
+|move|p1a: Hawlucha|Drain Punch|p2a: Darkrai
+|-resisted|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|-heal|p1a: Hawlucha|63/100|[from] drain|[of] p2a: Darkrai
+|faint|p2a: Darkrai
+|
+|upkeep
+|
+|t:|1743908871
+|switch|p2a: Kingambit|Kingambit, F|88/100 brn
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|26
+|
+|t:|1743908879
+|move|p2a: Kingambit|Sucker Punch|p1a: Hawlucha
+|-resisted|p1a: Hawlucha
+|-damage|p1a: Hawlucha|36/100
+|move|p1a: Hawlucha|Drain Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-heal|p1a: Hawlucha|86/100|[from] drain|[of] p2a: Kingambit
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|Aimsss
+|raw|Aimsss's rating: 1422 &rarr; <strong>1441</strong><br />(+19 for winning)
+|raw|civic jpg's rating: 1412 &rarr; <strong>1393</strong><br />(-19 for losing)
+|l|☆civic jpg
+|player|p2|
+|l|☆Aimsss
+|player|p1|

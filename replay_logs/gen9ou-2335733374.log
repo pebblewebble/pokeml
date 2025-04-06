@@ -1,0 +1,300 @@
+|j|☆Dj8dhejdh
+|j|☆hebdbsnamakaka
+|t:|1743827660
+|gametype|singles
+|player|p1|Dj8dhejdh|101|1071
+|player|p2|hebdbsnamakaka|2|1096
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garganacl, F|
+|poke|p1|Blaziken, F|
+|poke|p1|Gholdengo|
+|poke|p1|Blitzle, L1, M|
+|poke|p1|Darkrai|
+|poke|p1|Raging Bolt|
+|poke|p2|Torkoal, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Porygon2|
+|poke|p2|Ursaluna, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Zoroark-Hisui, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by hebdbsnamakaka)
+|
+|t:|1743827687
+|start
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|switch|p2a: Porygon2|Porygon2|100/100
+|turn|1
+|
+|t:|1743827694
+|move|p2a: Porygon2|Trick|p1a: Blaziken
+|-activate|p2a: Porygon2|move: Trick|[of] p1a: Blaziken
+|-item|p1a: Blaziken|Choice Scarf|[from] move: Trick
+|-item|p2a: Porygon2|Clear Amulet|[from] move: Trick
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|2
+|
+|t:|1743827711
+|switch|p1a: Garganacl|Garganacl, F, shiny|100/100
+|move|p2a: Porygon2|U-turn|p1a: Garganacl
+|-damage|p1a: Garganacl|93/100
+|
+|t:|1743827726
+|switch|p2a: Porygon2|Porygon2|100/100|[from] U-turn
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|
+|-heal|p1a: Garganacl|99/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743827731
+|move|p1a: Garganacl|Salt Cure|p2a: Porygon2
+|-crit|p2a: Porygon2
+|-damage|p2a: Porygon2|88/100
+|-start|p2a: Porygon2|Salt Cure
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p2a: Porygon2|76/100|[from] Salt Cure
+|upkeep
+|turn|4
+|
+|t:|1743827744
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|move|p1a: Garganacl|Protect||[still]
+|-fail|p1a: Garganacl
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1743827756
+|-terastallize|p1a: Garganacl|Poison
+|move|p1a: Garganacl|Salt Cure|p2a: Ursaluna
+|-resisted|p2a: Ursaluna
+|-damage|p2a: Ursaluna|95/100 brn
+|-start|p2a: Ursaluna|Salt Cure
+|move|p2a: Ursaluna|Headlong Rush|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Garganacl
+|
+|-damage|p2a: Ursaluna|89/100 brn|[from] brn
+|-damage|p2a: Ursaluna|77/100 brn|[from] Salt Cure
+|upkeep
+|
+|t:|1743827774
+|switch|p1a: Blitzle|Blitzle, L1, M|100/100
+|turn|6
+|
+|t:|1743827780
+|move|p1a: Blitzle|Endeavor|p2a: Ursaluna
+|-damage|p2a: Ursaluna|3/100 brn
+|move|p2a: Ursaluna|Facade|p1a: Blitzle
+|-enditem|p1a: Blitzle|Focus Sash
+|-damage|p1a: Blitzle|9/100
+|
+|-damage|p2a: Ursaluna|0 fnt|[from] brn
+|faint|p2a: Ursaluna
+|upkeep
+|
+|t:|1743827807
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|7
+|
+|t:|1743827813
+|move|p2a: Rillaboom|Grassy Glide|p1a: Blitzle
+|-damage|p1a: Blitzle|0 fnt
+|faint|p1a: Blitzle
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743827821
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|turn|8
+|
+|t:|1743827840
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Blaziken|Close Combat|p2a: Torkoal
+|-damage|p2a: Torkoal|57/100
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Torkoal|63/100|[from] Grassy Terrain
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|9
+|
+|t:|1743827851
+|move|p1a: Blaziken|Close Combat|p2a: Torkoal
+|-damage|p2a: Torkoal|15/100
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|move|p2a: Torkoal|Stealth Rock|p1a: Blaziken
+|-sidestart|p1: Dj8dhejdh|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Torkoal|21/100|[from] Grassy Terrain
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|10
+|
+|t:|1743827856
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|move|p1a: Blaziken|Close Combat|p2a: Torkoal
+|-immune|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|11
+|
+|t:|1743827867
+|switch|p1a: Darkrai|Darkrai|100/100
+|-damage|p1a: Darkrai|88/100|[from] Stealth Rock
+|move|p2a: Torkoal|Flamethrower|p1a: Darkrai
+|-damage|p1a: Darkrai|32/100
+|-enditem|p1a: Darkrai|Sitrus Berry|[eat]
+|-heal|p1a: Darkrai|57/100|[from] item: Sitrus Berry
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Darkrai|63/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1743827885
+|switch|p2a: Porygon2|Porygon2|76/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|move|p1a: Darkrai|Knock Off|p2a: Porygon2
+|-damage|p2a: Porygon2|57/100
+|-enditem|p2a: Porygon2|Eviolite|[from] move: Knock Off|[of] p1a: Darkrai
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1743827902
+|move|p1a: Darkrai|Taunt|p2a: Porygon2
+|-start|p2a: Porygon2|move: Taunt
+|cant|p2a: Porygon2|move: Taunt|Trick Room
+|
+|upkeep
+|turn|14
+|
+|t:|1743827914
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|switch|p2a: Torkoal|Torkoal, F|21/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743827920
+|move|p1a: Gholdengo|Shadow Ball|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|-damage|p1a: Gholdengo|85/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743827948
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-activate|p2a: Raging Bolt|ability: Protosynthesis
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|16
+|
+|t:|1743827960
+|-terastallize|p2a: Raging Bolt|Fairy
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743827971
+|move|p2a: Raging Bolt|Thunderclap|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743827983
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-damage|p1a: Raging Bolt|88/100|[from] Stealth Rock
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|18
+|
+|t:|1743827989
+|move|p1a: Raging Bolt|Thunderclap|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|63/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|none
+|-end|p2a: Raging Bolt|Protosynthesis
+|upkeep
+|
+|t:|1743827994
+|switch|p1a: Darkrai|Darkrai|63/100
+|-damage|p1a: Darkrai|51/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743827999
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|-damage|p1a: Blaziken|88/100|[from] Stealth Rock
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|upkeep
+|turn|20
+|-message|Dj8dhejdh forfeited.
+|
+|win|hebdbsnamakaka
+|raw|Dj8dhejdh's rating: 1071 &rarr; <strong>1052</strong><br />(-19 for losing)
+|raw|hebdbsnamakaka's rating: 1096 &rarr; <strong>1120</strong><br />(+24 for winning)
+|l|☆Dj8dhejdh
+|player|p1|
+|l|☆hebdbsnamakaka
+|player|p2|

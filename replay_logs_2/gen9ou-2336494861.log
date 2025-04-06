@@ -1,0 +1,281 @@
+|j|☆JimmyCWard
+|j|☆tay2xtra
+|t:|1743927687
+|gametype|singles
+|player|p1|JimmyCWard|veteran|1093
+|player|p2|tay2xtra|hoopster|1084
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kleavor, F|
+|poke|p1|Rhydon, M|
+|poke|p1|Electrode-Hisui|
+|poke|p1|Great Tusk|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Grafaiai, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Great Tusk|
+|poke|p2|Toxicroak, F|
+|poke|p2|Pawmot, M|
+|poke|p2|Hawlucha, M|
+|poke|p2|Passimian, M|
+|teampreview
+|c|☆JimmyCWard|hi
+|c|☆JimmyCWard|hi
+|c|☆JimmyCWard|hi
+|c|☆JimmyCWard|hi
+|c|☆JimmyCWard|hi
+|c|☆JimmyCWard|hi
+|c|☆JimmyCWard|hi
+|c|☆JimmyCWard|hi
+|c|☆JimmyCWard|hi
+|c|☆JimmyCWard|hi
+|c|☆tay2xtra|hello?
+|c|☆JimmyCWard|hi
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JimmyCWard)
+|inactive|tay2xtra also wants the timer to be on.
+|
+|t:|1743927727
+|start
+|switch|p1a: Kleavor|Kleavor, F, shiny|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743927738
+|switch|p1a: Rhydon|Rhydon, M|100/100
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743927755
+|-terastallize|p1a: Rhydon|Flying
+|move|p2a: Iron Valiant|Moonblast|p1a: Rhydon
+|-damage|p1a: Rhydon|27/100
+|-unboost|p1a: Rhydon|spa|1
+|move|p1a: Rhydon|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|26/100
+|
+|upkeep
+|turn|3
+|j| Wolfprint
+|
+|t:|1743927765
+|move|p2a: Iron Valiant|Moonblast|p1a: Rhydon
+|-damage|p1a: Rhydon|0 fnt
+|faint|p1a: Rhydon
+|
+|upkeep
+|
+|t:|1743927771
+|switch|p1a: Electrode|Electrode-Hisui, shiny|100/100
+|turn|4
+|
+|t:|1743927781
+|move|p2a: Iron Valiant|Moonblast|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|
+|upkeep
+|
+|t:|1743927803
+|switch|p1a: Grafaiai|Grafaiai, F|100/100
+|turn|5
+|
+|t:|1743927810
+|move|p2a: Iron Valiant|Moonblast|p1a: Grafaiai
+|-resisted|p1a: Grafaiai
+|-damage|p1a: Grafaiai|39/100
+|move|p1a: Grafaiai|Poison Jab|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743927823
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|6
+|
+|t:|1743927837
+|switch|p1a: Grafaiai|Grafaiai, F|100/100
+|move|p2a: Great Tusk|Stealth Rock|p1a: Grafaiai
+|-sidestart|p1: JimmyCWard|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1743927849
+|move|p1a: Grafaiai|Trick|p2a: Great Tusk
+|-activate|p1a: Grafaiai|move: Trick|[of] p2a: Great Tusk
+|-item|p2a: Great Tusk|Choice Specs|[from] move: Trick
+|-item|p1a: Grafaiai|Leftovers|[from] move: Trick
+|move|p2a: Great Tusk|Earthquake|p1a: Grafaiai
+|-damage|p1a: Grafaiai|9/100
+|replace|p1a: Zoroark|Zoroark-Hisui, M
+|-end|p1a: Zoroark|Illusion
+|
+|-heal|p1a: Zoroark|15/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743927862
+|move|p1a: Zoroark|Hyper Voice|p2a: Great Tusk
+|-damage|p2a: Great Tusk|45/100
+|move|p2a: Great Tusk|Earthquake|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|
+|upkeep
+|
+|t:|1743927873
+|switch|p1a: Grafaiai|Grafaiai, F|39/100
+|-damage|p1a: Grafaiai|26/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743927879
+|move|p1a: Grafaiai|Acrobatics|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|28/100
+|move|p2a: Great Tusk|Earthquake|p1a: Grafaiai
+|-supereffective|p1a: Grafaiai
+|-damage|p1a: Grafaiai|0 fnt
+|faint|p1a: Grafaiai
+|
+|upkeep
+|c|☆tay2xtra|hi
+|c|☆tay2xtra|hi
+|
+|t:|1743927889
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|turn|10
+|c|☆tay2xtra|hi
+|c|☆tay2xtra|hi
+|c|☆tay2xtra|hi
+|c|☆tay2xtra|hi
+|c|☆tay2xtra|hi
+|c|☆JimmyCWard|reported
+|
+|t:|1743927905
+|-terastallize|p2a: Great Tusk|Water
+|move|p1a: Great Tusk|Ice Spinner|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|20/100
+|move|p2a: Great Tusk|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|64/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743927914
+|move|p1a: Great Tusk|Knock Off|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-enditem|p2a: Great Tusk|Choice Specs|[from] move: Knock Off|[of] p1a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743927936
+|switch|p2a: Hawlucha|Hawlucha, M|100/100
+|turn|12
+|inactive|tay2xtra has 120 seconds left.
+|
+|t:|1743927953
+|move|p2a: Hawlucha|Taunt|p1a: Great Tusk
+|-start|p1a: Great Tusk|move: Taunt
+|move|p1a: Great Tusk|Ice Spinner|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|17/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743927961
+|move|p2a: Hawlucha|Acrobatics|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|31/100
+|-damage|p2a: Hawlucha|0 fnt|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p2a: Hawlucha
+|move|p1a: Great Tusk|Ice Spinner|p2: Hawlucha|[notarget]
+|-fail|p1a: Great Tusk
+|
+|upkeep
+|
+|t:|1743927966
+|switch|p2a: Passimian|Passimian, M|100/100
+|turn|14
+|
+|t:|1743927981
+|move|p2a: Passimian|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|-damage|p2a: Passimian|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743927991
+|switch|p1a: Kleavor|Kleavor, F, shiny|100/100
+|-damage|p1a: Kleavor|76/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743928006
+|move|p2a: Passimian|Close Combat|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|-unboost|p2a: Passimian|def|1
+|-unboost|p2a: Passimian|spd|1
+|faint|p1a: Kleavor
+|
+|win|tay2xtra
+|raw|JimmyCWard's rating: 1093 &rarr; <strong>1068</strong><br />(-25 for losing)
+|raw|tay2xtra's rating: 1084 &rarr; <strong>1112</strong><br />(+28 for winning)
+|c|☆tay2xtra|hi
+|c|☆tay2xtra|hi
+|c|☆tay2xtra|hi
+|c|☆JimmyCWard|gg
+|c|☆tay2xtra|hih
+|c|☆tay2xtra|hi
+|c|☆tay2xtra|hi
+|c|☆JimmyCWard|gg
+|c|☆tay2xtra|hi
+|c|☆tay2xtra|hi
+|c|☆JimmyCWard|gg
+|c|☆tay2xtra|hi
+|c|☆JimmyCWard|gg
+|c|☆tay2xtra|hi
+|c|☆JimmyCWard|gg
+|c|☆tay2xtra|hi
+|c|☆JimmyCWard|gg
+|c|☆JimmyCWard|gg
+|c|☆JimmyCWard|gg
+|c|☆JimmyCWard|gg
+|c|☆JimmyCWard|gg
+|c|☆JimmyCWard|gg
+|c|☆JimmyCWard|gg
+|c|☆JimmyCWard|gg
+|c|☆JimmyCWard|gg
+|c|☆JimmyCWard|gg
+|c|☆JimmyCWard|gg
+|c|☆tay2xtra|L
+|c|☆JimmyCWard|:(
+|l| Wolfprint

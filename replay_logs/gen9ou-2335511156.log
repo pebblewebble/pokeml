@@ -1,0 +1,281 @@
+|j|☆JGabrielCO
+|j|☆Carlos132
+|t:|1743801158
+|gametype|singles
+|player|p1|JGabrielCO|101|1195
+|player|p2|Carlos132|byron|1173
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Bruxish, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Meowscarada, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Clodsire, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Flamigo, M|
+|poke|p2|Froslass, F|
+|teampreview
+|
+|t:|1743801164
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Flamigo|Flamigo, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Carlos132)
+|
+|t:|1743801171
+|-terastallize|p2a: Flamigo|Fighting
+|move|p2a: Flamigo|Close Combat|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-unboost|p2a: Flamigo|def|1
+|-unboost|p2a: Flamigo|spd|1
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743801188
+|switch|p1a: Bruxish|Bruxish, F|100/100
+|turn|2
+|
+|t:|1743801194
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|move|p1a: Bruxish|Flip Turn|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|68/100
+|
+|t:|1743801197
+|switch|p1a: Meowscarada|Meowscarada, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|3
+|
+|t:|1743801200
+|move|p1a: Meowscarada|U-turn|p2a: Meowscarada
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|t:|1743801207
+|switch|p1a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743801212
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|4
+|
+|t:|1743801215
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|79/100
+|-damage|p2a: Hatterene|91/100|[from] item: Life Orb
+|
+|-heal|p1a: Slowking|85/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1743801230
+|move|p2a: Hatterene|Psychic Noise|p1a: Slowking
+|-damage|p1a: Slowking|43/100
+|-start|p1a: Slowking|move: Heal Block
+|-damage|p2a: Hatterene|81/100|[from] item: Life Orb
+|move|p1a: Slowking|Sludge Bomb|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|9/100
+|-status|p2a: Hatterene|psn
+|
+|-damage|p2a: Hatterene|0 fnt|[from] psn
+|faint|p2a: Hatterene
+|upkeep
+|
+|t:|1743801235
+|switch|p2a: Froslass|Froslass, F|100/100
+|turn|6
+|
+|t:|1743801241
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|move|p2a: Froslass|Shadow Ball|p1a: Meowscarada
+|-resisted|p1a: Meowscarada
+|-damage|p1a: Meowscarada|67/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743801247
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Meowscarada|Knock Off|p2a: Rotom
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Rotom|67/100
+|-enditem|p2a: Rotom|Leftovers|[from] move: Knock Off|[of] p1a: Meowscarada
+|
+|upkeep
+|turn|8
+|
+|t:|1743801256
+|switch|p1a: Slowking|Slowking-Galar, F|76/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Slowking|[miss]
+|-miss|p2a: Rotom|p1a: Slowking
+|
+|-heal|p1a: Slowking|82/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1743801262
+|move|p2a: Rotom|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|66/100
+|
+|t:|1743801266
+|switch|p2a: Froslass|Froslass, F|100/100|[from] Volt Switch
+|move|p1a: Slowking|Future Sight|p2a: Froslass
+|-start|p1a: Slowking|move: Future Sight
+|
+|-heal|p1a: Slowking|72/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1743801272
+|-terastallize|p1a: Slowking|Poison
+|move|p2a: Froslass|Shadow Ball|p1a: Slowking
+|-damage|p1a: Slowking|39/100
+|-unboost|p1a: Slowking|spd|1
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743801282
+|switch|p1a: Meowscarada|Meowscarada, F|67/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743801285
+|switch|p2a: Rotom|Rotom-Wash|67/100
+|move|p1a: Meowscarada|Knock Off|p2a: Rotom
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Rotom|43/100
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Rotom|move: Future Sight
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|upkeep
+|
+|t:|1743801287
+|switch|p2a: Flamigo|Flamigo, M, tera:Fighting|100/100
+|turn|12
+|
+|t:|1743801298
+|switch|p1a: Slowking|Slowking-Galar, F, tera:Poison|72/100
+|move|p2a: Flamigo|Close Combat|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|42/100
+|-unboost|p2a: Flamigo|def|1
+|-unboost|p2a: Flamigo|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Slowking|48/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1743801304
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|
+|t:|1743801308
+|switch|p1a: Bruxish|Bruxish, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743801312
+|move|p1a: Bruxish|Psychic Fangs|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|-weather|none
+|upkeep
+|
+|t:|1743801318
+|switch|p2a: Froslass|Froslass, F|100/100
+|turn|15
+|
+|t:|1743801323
+|switch|p1a: Meowscarada|Meowscarada, F|67/100
+|move|p2a: Froslass|Ice Beam|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|upkeep
+|
+|t:|1743801330
+|switch|p1a: Bruxish|Bruxish, F|100/100
+|turn|16
+|
+|t:|1743801333
+|move|p2a: Froslass|Ice Beam|p1a: Bruxish
+|-resisted|p1a: Bruxish
+|-crit|p1a: Bruxish
+|-damage|p1a: Bruxish|41/100
+|move|p1a: Bruxish|Psychic Fangs|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|faint|p2a: Froslass
+|
+|upkeep
+|
+|t:|1743801337
+|switch|p2a: Flamigo|Flamigo, M, tera:Fighting|100/100
+|turn|17
+|
+|t:|1743801341
+|move|p2a: Flamigo|Brave Bird|p1a: Bruxish
+|-damage|p1a: Bruxish|0 fnt
+|faint|p1a: Bruxish
+|-damage|p2a: Flamigo|88/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743801344
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-fail|p2a: Flamigo|unboost|Attack|[from] ability: Scrappy|[of] p2a: Flamigo
+|turn|18
+|
+|t:|1743801349
+|move|p2a: Flamigo|Brave Bird|p1a: Landorus
+|-damage|p1a: Landorus|35/100
+|-damage|p2a: Flamigo|72/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-damage|p2a: Flamigo|49/100|[from] Recoil
+|move|p1a: Landorus|Earthquake|p2a: Flamigo
+|-damage|p2a: Flamigo|0 fnt
+|faint|p2a: Flamigo
+|
+|win|JGabrielCO
+|raw|JGabrielCO's rating: 1195 &rarr; <strong>1218</strong><br />(+23 for winning)
+|raw|Carlos132's rating: 1173 &rarr; <strong>1150</strong><br />(-23 for losing)
+|l|☆Carlos132
+|player|p2|
+|l|☆JGabrielCO
+|player|p1|

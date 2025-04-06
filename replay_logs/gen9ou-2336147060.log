@@ -1,0 +1,299 @@
+|j|☆Colonel Jessica
+|j|☆NeverStandard
+|t:|1743883624
+|gametype|singles
+|player|p1|Colonel Jessica|266|1339
+|player|p2|NeverStandard|266|1342
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hawlucha, M|
+|poke|p1|Rillaboom, F|
+|poke|p1|Regidrago|
+|poke|p1|Zamazenta-*|
+|poke|p1|Iron Crown|
+|poke|p1|Grafaiai, M|
+|poke|p2|Darkrai|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Bronzong|
+|poke|p2|Galvantula, F|
+|poke|p2|Forretress, M|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|t:|1743883639
+|start
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|switch|p2a: Galvantula|Galvantula, F|100/100
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespa
+|turn|1
+|
+|t:|1743883651
+|move|p2a: Galvantula|Sticky Web|p1a: Iron Crown
+|-sidestart|p1: Colonel Jessica|move: Sticky Web
+|move|p1a: Iron Crown|Psychic|p2a: Galvantula
+|-damage|p2a: Galvantula|2/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743883659
+|move|p2a: Galvantula|Thunder|p1a: Iron Crown|[miss]
+|-miss|p2a: Galvantula|p1a: Iron Crown
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Galvantula
+|-resisted|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|-hitcount|p2: Galvantula|1
+|
+|upkeep
+|
+|t:|1743883668
+|switch|p2a: Forretress|Forretress, M|100/100
+|turn|3
+|
+|t:|1743883675
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|76/100
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|53/100
+|-hitcount|p2a: Forretress|2
+|move|p2a: Forretress|Spikes|p1a: Iron Crown
+|-sidestart|p1: Colonel Jessica|Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1743883686
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|28/100
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|6/100
+|-hitcount|p2a: Forretress|2
+|move|p2a: Forretress|Gravity|p2a: Forretress
+|-fieldstart|move: Gravity
+|
+|upkeep
+|turn|5
+|
+|t:|1743883694
+|move|p1a: Iron Crown|Psychic|p2a: Forretress
+|-resisted|p2a: Forretress
+|-damage|p2a: Forretress|0 fnt
+|faint|p2a: Forretress
+|
+|upkeep
+|
+|t:|1743883699
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdriveatk
+|turn|6
+|
+|t:|1743883708
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|78/100
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|57/100
+|-hitcount|p2a: Iron Treads|2
+|move|p2a: Iron Treads|Earthquake|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743883720
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-activate|p1a: Zamazenta|move: Sticky Web
+|-unboost|p1a: Zamazenta|spe|1
+|-damage|p1a: Zamazenta|88/100|[from] Spikes
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|7
+|
+|t:|1743883731
+|move|p2a: Iron Treads|Earthquake|p1a: Zamazenta
+|-damage|p1a: Zamazenta|52/100
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|
+|-heal|p1a: Zamazenta|58/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743883740
+|move|p2a: Iron Treads|Earthquake|p1a: Zamazenta
+|-damage|p1a: Zamazenta|37/100
+|move|p1a: Zamazenta|Body Press|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p1a: Zamazenta|43/100|[from] item: Leftovers
+|-fieldend|move: Gravity
+|upkeep
+|
+|t:|1743883757
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|9
+|
+|t:|1743883768
+|move|p1a: Zamazenta|Body Press|p2a: Bronzong
+|-damage|p2a: Bronzong|26/100
+|move|p2a: Bronzong|Psych Up|p1a: Zamazenta
+|-copyboost|p2a: Bronzong|p1a: Zamazenta|[from] move: Psych Up
+|
+|-heal|p1a: Zamazenta|49/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743883776
+|move|p1a: Zamazenta|Body Press|p2a: Bronzong
+|-damage|p2a: Bronzong|1/100
+|move|p2a: Bronzong|Trick|p1a: Zamazenta
+|-activate|p2a: Bronzong|move: Trick|[of] p1a: Zamazenta
+|-item|p1a: Zamazenta|Toxic Orb|[from] move: Trick
+|-item|p2a: Bronzong|Leftovers|[from] move: Trick
+|
+|-heal|p2a: Bronzong|7/100|[from] item: Leftovers
+|-status|p1a: Zamazenta|tox|[from] item: Toxic Orb
+|upkeep
+|turn|11
+|
+|t:|1743883790
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Zamazenta|Body Press|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|88/100
+|
+|-heal|p2a: Weezing|94/100|[from] item: Black Sludge
+|-damage|p1a: Zamazenta|43/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743883807
+|move|p1a: Zamazenta|Iron Head|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|67/100
+|move|p2a: Weezing|Toxic Spikes|p1a: Zamazenta
+|-sidestart|p1: Colonel Jessica|move: Toxic Spikes
+|
+|-heal|p2a: Weezing|73/100|[from] item: Black Sludge
+|-damage|p1a: Zamazenta|31/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1743883827
+|move|p1a: Zamazenta|Iron Head|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|43/100
+|move|p2a: Weezing|Strange Steam|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-heal|p2a: Weezing|49/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1743883861
+|switch|p1a: Grafaiai|Grafaiai, M|100/100
+|-activate|p1a: Grafaiai|move: Sticky Web
+|-unboost|p1a: Grafaiai|spe|1
+|-damage|p1a: Grafaiai|88/100|[from] Spikes
+|-sideend|p1: Colonel Jessica|move: Toxic Spikes|[of] p1a: Grafaiai
+|turn|14
+|
+|t:|1743883873
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Bronzong|Bronzong|7/100
+|move|p1a: Grafaiai|Swords Dance|p1a: Grafaiai
+|-boost|p1a: Grafaiai|atk|2
+|
+|-heal|p2a: Bronzong|13/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743883883
+|move|p1a: Grafaiai|Throat Chop|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|upkeep
+|
+|t:|1743883902
+|switch|p2a: Weezing|Weezing-Galar, F|49/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|16
+|
+|t:|1743883908
+|move|p1a: Grafaiai|Acrobatics|p2a: Weezing
+|-damage|p2a: Weezing|28/100
+|move|p2a: Weezing|Memento|p1a: Grafaiai
+|-unboost|p1a: Grafaiai|atk|2
+|-unboost|p1a: Grafaiai|spa|2
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|upkeep
+|
+|t:|1743883921
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|17
+|
+|t:|1743883930
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|move|p1a: Grafaiai|Acrobatics|p2a: Darkrai
+|-damage|p2a: Darkrai|78/100
+|
+|upkeep
+|turn|18
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Colonel Jessica)
+|
+|t:|1743883937
+|move|p2a: Darkrai|Dark Pulse|p1a: Grafaiai
+|-damage|p1a: Grafaiai|0 fnt
+|faint|p1a: Grafaiai
+|-damage|p2a: Darkrai|68/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743883943
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-activate|p1a: Rillaboom|move: Sticky Web
+|-unboost|p1a: Rillaboom|spe|1
+|-damage|p1a: Rillaboom|88/100|[from] Spikes
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|19
+|
+|t:|1743883950
+|move|p1a: Rillaboom|Grassy Glide|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|win|Colonel Jessica
+|raw|Colonel Jessica's rating: 1339 &rarr; <strong>1359</strong><br />(+20 for winning)
+|raw|NeverStandard's rating: 1342 &rarr; <strong>1322</strong><br />(-20 for losing)
+|l|☆NeverStandard
+|player|p2|

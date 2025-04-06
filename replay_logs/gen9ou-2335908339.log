@@ -1,0 +1,374 @@
+|j|☆projectzone
+|j|☆air555
+|t:|1743857369
+|gametype|singles
+|player|p1|projectzone|2|1260
+|player|p2|air555|pokemonranger-gen4|1244
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ursaluna, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Ting-Lu|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Sceptile, M|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Araquanid, F|
+|poke|p2|Rotom-Heat|
+|teampreview
+|
+|t:|1743857382
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1743857389
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743857413
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Corviknight
+|-immune|p1a: Corviknight
+|
+|upkeep
+|turn|3
+|
+|t:|1743857422
+|move|p2a: Great Tusk|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: projectzone|move: Stealth Rock
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743857429
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Corviknight|Defog|p2a: Rotom
+|-unboost|p2a: Rotom|evasion|1
+|-sideend|p1: projectzone|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|upkeep
+|turn|5
+|
+|t:|1743857438
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Rotom|Will-O-Wisp|p1a: Ting-Lu
+|-status|p1a: Ting-Lu|brn
+|
+|-damage|p1a: Ting-Lu|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743857455
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|move|p1a: Ting-Lu|Ruination|p2a: Araquanid
+|-damage|p2a: Araquanid|50/100
+|
+|-damage|p1a: Ting-Lu|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743857471
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Araquanid|Sticky Web|p1a: Corviknight
+|-sidestart|p1: projectzone|move: Sticky Web
+|
+|upkeep
+|turn|8
+|
+|t:|1743857480
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|upkeep
+|turn|9
+|
+|t:|1743857488
+|move|p2a: Gholdengo|Thunder Wave|p1a: Corviknight
+|-status|p1a: Corviknight|par
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743857496
+|move|p2a: Gholdengo|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|66/100 par
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Gholdengo|spd|1
+|move|p1a: Corviknight|Power Trip|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|47/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|11
+|
+|t:|1743857515
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|cant|p1a: Corviknight|par
+|
+|upkeep
+|turn|12
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by projectzone)
+|
+|t:|1743857521
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|-activate|p1a: Ursaluna|move: Sticky Web
+|-unboost|p1a: Ursaluna|spe|1
+|move|p2a: Rotom|Thunderbolt|p1a: Ursaluna
+|-immune|p1a: Ursaluna
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|13
+|
+|t:|1743857540
+|switch|p2a: Gholdengo|Gholdengo|47/100
+|move|p1a: Ursaluna|Facade|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743857552
+|switch|p2a: Sceptile|Sceptile, M|100/100
+|switch|p1a: Ting-Lu|Ting-Lu|88/100 brn
+|-activate|p1a: Ting-Lu|move: Sticky Web
+|-unboost|p1a: Ting-Lu|spe|1
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|
+|-damage|p1a: Ting-Lu|82/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743857564
+|move|p2a: Sceptile|Swords Dance|p2a: Sceptile
+|-boost|p2a: Sceptile|atk|2
+|move|p1a: Ting-Lu|Ruination|p2a: Sceptile|[miss]
+|-miss|p1a: Ting-Lu|p2a: Sceptile
+|
+|-damage|p1a: Ting-Lu|76/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743857575
+|switch|p1a: Corviknight|Corviknight, M|66/100 par
+|move|p2a: Sceptile|Leaf Blade|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|54/100 par
+|-damage|p2a: Sceptile|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|upkeep
+|turn|17
+|
+|t:|1743857583
+|move|p2a: Sceptile|Rock Slide|p1a: Corviknight
+|-damage|p1a: Corviknight|30/100 par
+|cant|p1a: Corviknight|par
+|
+|upkeep
+|turn|18
+|
+|t:|1743857589
+|move|p2a: Sceptile|Rock Slide|p1a: Corviknight
+|-damage|p1a: Corviknight|4/100 par
+|cant|p1a: Corviknight|par
+|
+|upkeep
+|turn|19
+|
+|t:|1743857595
+|move|p2a: Sceptile|Rock Slide|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1743857600
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|20
+|
+|t:|1743857604
+|-terastallize|p1a: Cinderace|Grass
+|move|p2a: Sceptile|Rock Slide|p1a: Cinderace
+|-damage|p1a: Cinderace|49/100
+|move|p1a: Cinderace|Will-O-Wisp|p2a: Sceptile
+|-status|p2a: Sceptile|brn
+|
+|-damage|p2a: Sceptile|78/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1743857615
+|move|p2a: Sceptile|Rock Slide|p1a: Cinderace|[miss]
+|-miss|p2a: Sceptile|p1a: Cinderace
+|move|p1a: Cinderace|U-turn|p2a: Sceptile
+|-supereffective|p2a: Sceptile
+|-damage|p2a: Sceptile|6/100 brn
+|
+|t:|1743857629
+|switch|p1a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|-activate|p1a: Raging Bolt|move: Sticky Web
+|-unboost|p1a: Raging Bolt|spe|1
+|
+|-damage|p2a: Sceptile|0 fnt|[from] brn
+|faint|p2a: Sceptile
+|upkeep
+|
+|t:|1743857639
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|22
+|
+|t:|1743857654
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Cinderace|Cinderace, F, tera:Grass|49/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743857663
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-activate|p1a: Ogerpon|move: Sticky Web
+|-unboost|p1a: Ogerpon|spe|1
+|turn|23
+|
+|t:|1743857691
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Araquanid|Araquanid, F|50/100
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|upkeep
+|turn|24
+|
+|t:|1743857700
+|move|p1a: Ogerpon|Superpower|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|3/100
+|-unboost|p1a: Ogerpon|atk|1
+|-unboost|p1a: Ogerpon|def|1
+|-damage|p1a: Ogerpon|84/100|[from] item: Rocky Helmet|[of] p2a: Araquanid
+|move|p2a: Araquanid|Infestation|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|74/100
+|-activate|p1a: Ogerpon|move: Infestation|[of] p2a: Araquanid
+|
+|-damage|p1a: Ogerpon|62/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|25
+|
+|t:|1743857718
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Araquanid|[anim] Ivy Cudgel Water
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|-end|p1a: Ogerpon|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1743857725
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|26
+|
+|t:|1743857730
+|switch|p1a: Ting-Lu|Ting-Lu|76/100 brn
+|-activate|p1a: Ting-Lu|move: Sticky Web
+|-unboost|p1a: Ting-Lu|spe|1
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|-damage|p1a: Ting-Lu|69/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1743857743
+|move|p2a: Ogerpon|Trailblaze|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|8/100 brn
+|-boost|p2a: Ogerpon|spe|1
+|move|p1a: Ting-Lu|Ruination|p2a: Ogerpon
+|-damage|p2a: Ogerpon|51/100
+|
+|-damage|p1a: Ting-Lu|2/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1743857753
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Ting-Lu|[anim] Ivy Cudgel Rock
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743857759
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-activate|p1a: Raging Bolt|move: Sticky Web
+|-unboost|p1a: Raging Bolt|spe|1
+|turn|29
+|
+|t:|1743857768
+|move|p1a: Raging Bolt|Thunderclap|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|25/100
+|move|p2a: Ogerpon|Horn Leech|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|66/100
+|-heal|p2a: Ogerpon|51/100|[from] drain|[of] p1a: Raging Bolt
+|
+|upkeep
+|turn|30
+|-message|projectzone forfeited.
+|
+|win|air555
+|raw|projectzone's rating: 1260 &rarr; <strong>1234</strong><br />(-26 for losing)
+|raw|air555's rating: 1244 &rarr; <strong>1270</strong><br />(+26 for winning)
+|l|☆projectzone
+|player|p1|
+|l|☆air555
+|player|p2|

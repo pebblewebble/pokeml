@@ -1,0 +1,283 @@
+|j|☆Arieon
+|j|☆Cenotaphs
+|t:|1743860945
+|gametype|singles
+|player|p1|Arieon|265|1505
+|player|p2|Cenotaphs|marley|1472
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Quaquaval, F|
+|poke|p1|Ting-Lu|
+|poke|p1|Clefable, M|
+|poke|p1|Moltres|
+|poke|p1|Dragapult, M|
+|poke|p1|Blissey, F|
+|poke|p2|Garganacl, M|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Samurott-Hisui, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cenotaphs)
+|
+|t:|1743860954
+|start
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|1
+|
+|t:|1743860960
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Quaquaval|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|64/100
+|-unboost|p1a: Quaquaval|def|1
+|-unboost|p1a: Quaquaval|spd|1
+|-damage|p1a: Quaquaval|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|upkeep
+|turn|2
+|
+|t:|1743860967
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|3
+|
+|t:|1743860974
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|move|p1a: Moltres|Will-O-Wisp|p2a: Garganacl
+|-immune|p2a: Garganacl|[from] ability: Purifying Salt
+|
+|upkeep
+|turn|4
+|
+|t:|1743860980
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Garganacl|Salt Cure|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|97/100
+|-start|p1a: Ting-Lu|Salt Cure
+|
+|-heal|p1a: Ting-Lu|100/100|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|88/100|[from] Salt Cure
+|upkeep
+|turn|5
+|
+|t:|1743860982
+|move|p1a: Ting-Lu|Spikes|p2a: Garganacl
+|-sidestart|p2: Cenotaphs|Spikes
+|move|p2a: Garganacl|Stealth Rock|p1a: Ting-Lu
+|-sidestart|p1: Arieon|move: Stealth Rock
+|
+|-heal|p1a: Ting-Lu|94/100|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|82/100|[from] Salt Cure
+|upkeep
+|turn|6
+|
+|t:|1743860991
+|switch|p1a: Clefable|Clefable, M|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|-damage|p2a: Samurott|88/100|[from] Spikes
+|
+|upkeep
+|turn|7
+|
+|t:|1743860995
+|move|p2a: Samurott|Knock Off|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|83/100
+|-enditem|p1a: Clefable|Leftovers|[from] move: Knock Off|[of] p2a: Samurott
+|move|p1a: Clefable|Moonblast|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743861002
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|-damage|p2a: Slowking|88/100|[from] Spikes
+|turn|8
+|
+|t:|1743861007
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Slowking|Future Sight|p1a: Blissey
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|9
+|
+|t:|1743861012
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|-damage|p2a: Garganacl|88/100|[from] Spikes
+|move|p1a: Blissey|Thunder Wave|p2a: Garganacl
+|-immune|p2a: Garganacl|[from] ability: Purifying Salt
+|
+|-heal|p2a: Garganacl|94/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743861019
+|switch|p1a: Clefable|Clefable, M|83/100
+|move|p2a: Garganacl|Salt Cure|p1a: Clefable
+|-damage|p1a: Clefable|73/100
+|-start|p1a: Clefable|Salt Cure
+|
+|-end|p1a: Clefable|move: Future Sight
+|-damage|p1a: Clefable|31/100
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743861027
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|81/100
+|
+|-damage|p1a: Clefable|68/100|[from] Salt Cure
+|upkeep
+|turn|12
+|
+|t:|1743861032
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Weezing|Will-O-Wisp|p1a: Blissey
+|-status|p1a: Blissey|brn
+|
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743861036
+|move|p2a: Weezing|Strange Steam|p1a: Blissey
+|-damage|p1a: Blissey|87/100 brn
+|move|p1a: Blissey|Stealth Rock|p2a: Weezing
+|-sidestart|p2: Cenotaphs|move: Stealth Rock
+|
+|-damage|p1a: Blissey|81/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743861040
+|move|p2a: Weezing|Pain Split|p1a: Blissey
+|-sethp|p1a: Blissey|64/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|100/100|[from] move: Pain Split
+|move|p1a: Blissey|Seismic Toss|p2a: Weezing
+|-damage|p2a: Weezing|71/100
+|
+|-damage|p1a: Blissey|58/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743861043
+|move|p2a: Weezing|Pain Split|p1a: Blissey
+|-sethp|p1a: Blissey|46/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|97/100|[from] move: Pain Split
+|move|p1a: Blissey|Thunder Wave|p2a: Weezing
+|-status|p2a: Weezing|par
+|
+|-damage|p1a: Blissey|39/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743861048
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|89/100 brn
+|move|p2a: Weezing|Will-O-Wisp|p1a: Blissey
+|-fail|p1a: Blissey|brn
+|
+|-damage|p1a: Blissey|83/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743861056
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Weezing|Pain Split|p1a: Moltres
+|-sethp|p1a: Moltres|92/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|100/100 par|[from] move: Pain Split
+|
+|upkeep
+|turn|18
+|
+|t:|1743861061
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Garganacl|Garganacl, M|100/100
+|-damage|p2a: Garganacl|88/100|[from] Spikes
+|-damage|p2a: Garganacl|76/100|[from] Stealth Rock
+|move|p1a: Moltres|Flamethrower|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|64/100
+|
+|-heal|p2a: Garganacl|70/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743861075
+|switch|p1a: Clefable|Clefable, M|68/100
+|move|p2a: Garganacl|Salt Cure|p1a: Clefable
+|-damage|p1a: Clefable|58/100
+|-start|p1a: Clefable|Salt Cure
+|
+|-heal|p2a: Garganacl|76/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743861084
+|switch|p1a: Ting-Lu|Ting-Lu|82/100
+|-damage|p1a: Ting-Lu|76/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|100/100
+|
+|-heal|p1a: Ting-Lu|82/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743861092
+|move|p1a: Ting-Lu|Spikes|p2a: Garganacl
+|-sidestart|p2: Cenotaphs|Spikes
+|move|p2a: Garganacl|Salt Cure|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|76/100
+|-start|p1a: Ting-Lu|Salt Cure
+|
+|-heal|p1a: Ting-Lu|83/100|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|70/100|[from] Salt Cure
+|upkeep
+|turn|22
+|
+|t:|1743861100
+|switch|p1a: Clefable|Clefable, M|58/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|23
+|-message|Cenotaphs forfeited.
+|
+|win|Arieon
+|raw|Arieon's rating: 1505 &rarr; <strong>1523</strong><br />(+18 for winning)
+|raw|Cenotaphs's rating: 1472 &rarr; <strong>1454</strong><br />(-18 for losing)
+|l|☆Cenotaphs
+|player|p2|
+|l|☆Arieon
+|player|p1|

@@ -1,0 +1,271 @@
+|j|☆jxrx
+|j|☆banjin
+|t:|1743860252
+|gametype|singles
+|player|p1|jxrx|norman|1263
+|player|p2|banjin|beauty-gen6xy|1320
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Muk-Alola, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Empoleon, M|
+|poke|p1|Vileplume, M|
+|poke|p1|Iron Moth|
+|poke|p2|Minior-Blue|
+|poke|p2|Lokix, F|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Muk-Alola, F|
+|poke|p2|Emboar, M|
+|poke|p2|Ditto|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by banjin)
+|c|☆banjin|yoo
+|c|☆banjin|hello muk
+|c|☆jxrx|hahaha
+|c|☆jxrx|hi
+|
+|t:|1743860273
+|start
+|switch|p1a: Muk|Muk-Alola, F|100/100
+|switch|p2a: Beppo|Muk-Alola, F|100/100
+|turn|1
+|-activate|p2a: Beppo|item: Quick Claw
+|
+|t:|1743860283
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|move|p2a: Beppo|Knock Off|p1a: Vileplume
+|-damage|p1a: Vileplume|60/100
+|-damage|p2a: Beppo|84/100|[from] item: Rocky Helmet|[of] p1a: Vileplume
+|-enditem|p1a: Vileplume|Rocky Helmet|[from] move: Knock Off|[of] p2a: Beppo
+|
+|upkeep
+|turn|2
+|
+|t:|1743860292
+|switch|p2a: Mr. Brightside|Minior-Blue|100/100
+|-formechange|p2a: Mr. Brightside|Minior-Meteor||[from] ability: Shields Down
+|move|p1a: Vileplume|Strength Sap|p2a: Mr. Brightside
+|-unboost|p2a: Mr. Brightside|atk|1
+|-heal|p1a: Vileplume|100/100
+|-enditem|p2a: Mr. Brightside|White Herb
+|-clearnegativeboost|p2a: Mr. Brightside|[silent]
+|
+|upkeep
+|turn|3
+|
+|t:|1743860301
+|move|p2a: Mr. Brightside|Shell Smash|p2a: Mr. Brightside
+|-unboost|p2a: Mr. Brightside|def|1
+|-unboost|p2a: Mr. Brightside|spd|1
+|-boost|p2a: Mr. Brightside|atk|2
+|-boost|p2a: Mr. Brightside|spa|2
+|-boost|p2a: Mr. Brightside|spe|2
+|move|p1a: Vileplume|Giga Drain|p2a: Mr. Brightside
+|-damage|p2a: Mr. Brightside|47/100
+|
+|-formechange|p2a: Mr. Brightside|Minior-Blue||[from] ability: Shields Down
+|upkeep
+|turn|4
+|
+|t:|1743860315
+|move|p2a: Mr. Brightside|Substitute|p2a: Mr. Brightside
+|-start|p2a: Mr. Brightside|Substitute
+|-damage|p2a: Mr. Brightside|22/100
+|move|p1a: Vileplume|Strength Sap||[still]
+|-fail|p1a: Vileplume
+|
+|upkeep
+|turn|5
+|
+|t:|1743860319
+|move|p2a: Mr. Brightside|Acrobatics|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|-status|p2a: Mr. Brightside|psn|[from] ability: Effect Spore|[of] p1a: Vileplume
+|faint|p1a: Vileplume
+|
+|-damage|p2a: Mr. Brightside|9/100 psn|[from] psn
+|upkeep
+|
+|t:|1743860336
+|switch|p1a: Empoleon|Empoleon, M|100/100
+|turn|6
+|
+|t:|1743860338
+|move|p2a: Mr. Brightside|Earthquake|p1a: Empoleon
+|-supereffective|p1a: Empoleon
+|-damage|p1a: Empoleon|0 fnt
+|faint|p1a: Empoleon
+|
+|-damage|p2a: Mr. Brightside|0 fnt|[from] psn
+|faint|p2a: Mr. Brightside
+|upkeep
+|
+|t:|1743860344
+|switch|p2a: Paws|Thundurus-Therian, M|100/100
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|7
+|
+|t:|1743860348
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Muk|Muk-Alola, F|100/100
+|move|p2a: Paws|Grass Knot|p1a: Muk
+|-resisted|p1a: Muk
+|-damage|p1a: Muk|93/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743860352
+|move|p2a: Paws|Thunderbolt|p1a: Muk
+|-damage|p1a: Muk|72/100
+|move|p1a: Muk|Knock Off|p2a: Paws
+|-damage|p2a: Paws|44/100
+|-status|p2a: Paws|psn|[from] ability: Poison Touch|[of] p1a: Muk
+|-enditem|p2a: Paws|Focus Sash|[from] move: Knock Off|[of] p1a: Muk
+|
+|-damage|p2a: Paws|32/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743860363
+|move|p2a: Paws|Nasty Plot|p2a: Paws
+|-boost|p2a: Paws|spa|2
+|move|p1a: Muk|Knock Off|p2a: Paws
+|-damage|p2a: Paws|0 fnt
+|faint|p2a: Paws
+|
+|upkeep
+|
+|t:|1743860368
+|switch|p2a: Dragmire|Emboar, M, shiny|100/100
+|turn|10
+|
+|t:|1743860376
+|-terastallize|p2a: Dragmire|Ground
+|move|p2a: Dragmire|Earthquake|p1a: Muk
+|-supereffective|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|
+|upkeep
+|
+|t:|1743860384
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|turn|11
+|
+|t:|1743860393
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Dragmire|Flare Blitz|p1a: Great Tusk
+|-damage|p1a: Great Tusk|53/100
+|-damage|p2a: Dragmire|84/100|[from] Recoil
+|
+|upkeep
+|turn|12
+|
+|t:|1743860403
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Katy|Lokix, F|100/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743860412
+|move|p2a: Katy|First Impression|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|65/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Katy
+|-supereffective|p2a: Katy
+|-damage|p2a: Katy|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Katy
+|
+|upkeep
+|
+|t:|1743860417
+|switch|p2a: 𒉎|Ditto|100/100
+|-transform|p2a: 𒉎|p1a: Iron Moth|[from] ability: Imposter
+|turn|14
+|
+|t:|1743860434
+|move|p2a: 𒉎|Toxic Spikes|p1a: Iron Moth
+|-sidestart|p1: jxrx|move: Toxic Spikes
+|move|p1a: Iron Moth|Fiery Dance|p2a: 𒉎
+|-resisted|p2a: 𒉎
+|-damage|p2a: 𒉎|65/100
+|-boost|p1a: Iron Moth|spa|1
+|
+|upkeep
+|turn|15
+|
+|t:|1743860437
+|move|p2a: 𒉎|Toxic Spikes|p1a: Iron Moth
+|-sidestart|p1: jxrx|move: Toxic Spikes
+|move|p1a: Iron Moth|Fiery Dance|p2a: 𒉎
+|-resisted|p2a: 𒉎
+|-damage|p2a: 𒉎|16/100
+|-boost|p1a: Iron Moth|spa|1
+|
+|upkeep
+|turn|16
+|
+|t:|1743860444
+|-end|p2a: 𒉎|Quark Drive|[silent]
+|switch|p2a: Dragmire|Emboar, M, shiny, tera:Ground|84/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Dragmire
+|-damage|p2a: Dragmire|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Dragmire
+|
+|upkeep
+|
+|t:|1743860448
+|switch|p2a: 𒉎|Ditto|16/100
+|-transform|p2a: 𒉎|p1a: Iron Moth|[from] ability: Imposter
+|turn|17
+|
+|t:|1743860451
+|move|p2a: 𒉎|Fiery Dance|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|-boost|p2a: 𒉎|spa|1
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743860457
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-status|p1a: Dragapult|tox
+|turn|18
+|
+|t:|1743860461
+|move|p2a: 𒉎|Fiery Dance|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|-message|jxrx forfeited.
+|
+|win|banjin
+|raw|jxrx's rating: 1263 &rarr; <strong>1242</strong><br />(-21 for losing)
+|raw|banjin's rating: 1320 &rarr; <strong>1337</strong><br />(+17 for winning)
+|l|☆jxrx
+|player|p1|
+|l|☆banjin
+|player|p2|

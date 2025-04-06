@@ -1,0 +1,440 @@
+|j|☆SlimyTime
+|j|☆festivalofchampion
+|t:|1743778116
+|gametype|singles
+|player|p1|SlimyTime|102|1434
+|player|p2|festivalofchampion|169|1393
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Iron Moth|
+|poke|p1|Iron Valiant|
+|poke|p1|Kyurem|
+|poke|p1|Gholdengo|
+|poke|p2|Rillaboom, F|
+|poke|p2|Blaziken, M|
+|poke|p2|Greninja-*, M|
+|poke|p2|Scizor, M|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Garchomp, F|
+|teampreview
+|
+|t:|1743778128
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743778137
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Scizor|Bullet Punch|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|71/100
+|-damage|p2a: Scizor|84/100|[from] item: Rocky Helmet|[of] p1a: Ting-Lu
+|
+|upkeep
+|turn|2
+|
+|t:|1743778147
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743778156
+|move|p1a: Iron Moth|Substitute|p1a: Iron Moth
+|-start|p1a: Iron Moth|Substitute
+|-damage|p1a: Iron Moth|76/100
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: festivalofchampion|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743778163
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|91/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743778170
+|move|p1a: Iron Moth|Fiery Dance|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|81/100
+|move|p2a: Garchomp|Earthquake|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-crit|p1a: Iron Moth
+|-end|p1a: Iron Moth|Substitute
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743778178
+|move|p1a: Iron Moth|Substitute|p1a: Iron Moth
+|-start|p1a: Iron Moth|Substitute
+|-damage|p1a: Iron Moth|51/100
+|move|p2a: Garchomp|Earthquake|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-end|p1a: Iron Moth|Substitute
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1743778185
+|move|p1a: Iron Moth|Substitute|p1a: Iron Moth
+|-start|p1a: Iron Moth|Substitute
+|-damage|p1a: Iron Moth|26/100
+|move|p2a: Garchomp|Earthquake|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-end|p1a: Iron Moth|Substitute
+|
+|-sideend|p2: festivalofchampion|move: Aurora Veil
+|upkeep
+|turn|8
+|
+|t:|1743778193
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|27/100
+|move|p2a: Garchomp|Earthquake|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743778200
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|turn|9
+|
+|t:|1743778208
+|switch|p2a: Scizor|Scizor, M|84/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|59/100
+|-unboost|p2a: Scizor|spa|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743778215
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Ting-Lu|Ting-Lu|71/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Scizor|Bullet Punch|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|42/100
+|-damage|p2a: Scizor|42/100|[from] item: Rocky Helmet|[of] p1a: Ting-Lu
+|
+|upkeep
+|turn|11
+|
+|t:|1743778227
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Garchomp|Garchomp, F|27/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743778234
+|move|p1a: Iron Valiant|Moonblast|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1743778242
+|switch|p2a: Scizor|Scizor, M|42/100
+|turn|13
+|
+|t:|1743778251
+|move|p1a: Iron Valiant|Close Combat|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1743778260
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|14
+|
+|t:|1743778265
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Greninja|Surf|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|75/100
+|-damage|p2a: Greninja|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|15
+|
+|t:|1743778274
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Kyurem|Scale Shot|p2a: Ninetales
+|-immune|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743778281
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: festivalofchampion|move: Aurora Veil
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743778308
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Ninetales|Moonblast|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|81/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743778323
+|switch|p2a: Blaziken|Blaziken, M|100/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Blaziken
+|-resisted|p2a: Blaziken
+|-damage|p2a: Blaziken|76/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743778343
+|switch|p1a: Ting-Lu|Ting-Lu|42/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|2
+|
+|-weather|none
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|20
+|
+|t:|1743778353
+|move|p2a: Blaziken|Blaze Kick|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|-damage|p2a: Blaziken|59/100|[from] item: Rocky Helmet|[of] p1a: Ting-Lu
+|faint|p1a: Ting-Lu
+|-damage|p2a: Blaziken|49/100|[from] item: Life Orb
+|
+|-sideend|p2: festivalofchampion|move: Aurora Veil
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743778365
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|turn|21
+|
+|t:|1743778384
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Iron Valiant|Moonblast|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|22
+|
+|t:|1743778390
+|move|p2a: Blaziken|Blaze Kick|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|-damage|p2a: Blaziken|39/100|[from] item: Life Orb
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743778398
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|23
+|
+|t:|1743778405
+|move|p2a: Blaziken|Close Combat|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|55/100
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|-damage|p2a: Blaziken|29/100|[from] item: Life Orb
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|24
+|
+|t:|1743778415
+|move|p1a: Dragonite|Extreme Speed|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|
+|upkeep
+|
+|t:|1743778420
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|25
+|
+|t:|1743778436
+|-terastallize|p1a: Dragonite|Ground
+|move|p1a: Dragonite|Earthquake|p2a: Ninetales
+|-damage|p2a: Ninetales|27/100
+|move|p2a: Ninetales|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743778447
+|switch|p1a: Gholdengo|Gholdengo|81/100
+|turn|26
+|
+|t:|1743778451
+|move|p1a: Gholdengo|Dazzling Gleam|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743778456
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|27
+|
+|t:|1743778476
+|switch|p1a: Kyurem|Kyurem|75/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Rillaboom|High Horsepower|p1a: Kyurem
+|-damage|p1a: Kyurem|45/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Kyurem|51/100|[from] Grassy Terrain
+|upkeep
+|turn|28
+|
+|t:|1743778485
+|move|p2a: Rillaboom|High Horsepower|p1a: Kyurem
+|-damage|p1a: Kyurem|23/100
+|move|p1a: Kyurem|Scale Shot|p2a: Rillaboom
+|-damage|p2a: Rillaboom|86/100
+|-damage|p2a: Rillaboom|69/100
+|-damage|p2a: Rillaboom|54/100
+|-damage|p2a: Rillaboom|37/100
+|-hitcount|p2a: Rillaboom|4
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Kyurem|29/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|43/100|[from] Grassy Terrain
+|upkeep
+|turn|29
+|
+|t:|1743778499
+|move|p1a: Kyurem|Scale Shot|p2a: Rillaboom
+|-damage|p2a: Rillaboom|26/100
+|-damage|p2a: Rillaboom|10/100
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|-hitcount|p2: Rillaboom|3
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|
+|-weather|none
+|-heal|p1a: Kyurem|35/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743778508
+|switch|p2a: Greninja|Greninja, M|91/100
+|turn|30
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SlimyTime)
+|
+|t:|1743778550
+|move|p1a: Kyurem|Scale Shot|p2a: Greninja|[miss]
+|-miss|p1a: Kyurem|p2a: Greninja
+|move|p2a: Greninja|Dark Pulse|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|-ability|p2a: Greninja|Battle Bond|boost
+|-boost|p2a: Greninja|atk|1
+|-boost|p2a: Greninja|spa|1
+|-boost|p2a: Greninja|spe|1
+|-activate|p2a: Greninja|ability: Battle Bond
+|-damage|p2a: Greninja|81/100|[from] item: Life Orb
+|
+|-heal|p2a: Greninja|87/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743778567
+|switch|p1a: Gholdengo|Gholdengo|81/100
+|turn|31
+|
+|t:|1743778571
+|-terastallize|p2a: Greninja|Water
+|move|p2a: Greninja|Dark Pulse|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|-damage|p2a: Greninja|77/100|[from] item: Life Orb
+|
+|win|festivalofchampion
+|raw|SlimyTime's rating: 1434 &rarr; <strong>1412</strong><br />(-22 for losing)
+|raw|festivalofchampion's rating: 1393 &rarr; <strong>1415</strong><br />(+22 for winning)
+|l|☆SlimyTime
+|player|p1|
+|l|☆festivalofchampion
+|player|p2|

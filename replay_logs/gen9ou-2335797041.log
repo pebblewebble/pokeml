@@ -1,0 +1,364 @@
+|j|☆ScoobGG
+|j|☆xiaob
+|t:|1743838076
+|gametype|singles
+|player|p1|ScoobGG|170|1166
+|player|p2|xiaob|n|1215
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Beartic, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Cryogonal|
+|poke|p1|Frosmoth, F|
+|poke|p1|Ursaluna, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Pecharunt|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xiaob)
+|
+|t:|1743838083
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1743838100
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|83/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743838104
+|move|p2a: Pecharunt|Parting Shot|p1a: Slowking
+|-unboost|p1a: Slowking|atk|1
+|-unboost|p1a: Slowking|spa|1
+|
+|t:|1743838107
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100|[from] Parting Shot
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Slowking|atk|1
+|move|p1a: Slowking|Future Sight|p2a: Landorus
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743838115
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|move|p2a: Landorus|Stone Edge|p1a: Ninetales|[miss]
+|-miss|p2a: Landorus|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743838142
+|move|p1a: Ninetales|Blizzard|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|Snowscape|[upkeep]
+|-hint|Future Sight did not hit because the target is fainted.
+|upkeep
+|
+|t:|1743838150
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|5
+|
+|t:|1743838154
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: ScoobGG|move: Aurora Veil
+|move|p2a: Pecharunt|Hex|p1a: Ninetales
+|-damage|p1a: Ninetales|82/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743838159
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|92/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743838162
+|move|p2a: Pecharunt|Parting Shot|p1a: Slowking
+|-unboost|p1a: Slowking|atk|1
+|-unboost|p1a: Slowking|spa|1
+|
+|t:|1743838168
+|switch|p2a: Zamazenta|Zamazenta, shiny|100/100|[from] Parting Shot
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Slowking|Future Sight|p2a: Zamazenta
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743838173
+|move|p2a: Zamazenta|Crunch|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|65/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Zamazenta
+|-damage|p2a: Zamazenta|66/100
+|-damage|p1a: Slowking|55/100|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p2a: Zamazenta|72/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743838180
+|move|p2a: Zamazenta|Crunch|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|29/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Zamazenta
+|-damage|p2a: Zamazenta|36/100
+|-damage|p1a: Slowking|19/100|[from] item: Life Orb
+|
+|-end|p2a: Zamazenta|move: Future Sight
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|-damage|p1a: Slowking|9/100|[from] item: Life Orb
+|-sideend|p1: ScoobGG|move: Aurora Veil
+|upkeep
+|
+|t:|1743838189
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|10
+|
+|t:|1743838193
+|switch|p1a: Ninetales|Ninetales-Alola, F|82/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Iron Valiant|Moonblast|p1a: Ninetales
+|-damage|p1a: Ninetales|22/100
+|-unboost|p1a: Ninetales|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743838206
+|move|p2a: Iron Valiant|Moonblast|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743838210
+|switch|p1a: Frosmoth|Frosmoth, F|100/100
+|turn|12
+|
+|t:|1743838221
+|move|p2a: Iron Valiant|Moonblast|p1a: Frosmoth
+|-crit|p1a: Frosmoth
+|-damage|p1a: Frosmoth|54/100
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743838226
+|move|p2a: Iron Valiant|Encore|p1a: Frosmoth
+|-start|p1a: Frosmoth|Encore
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743838229
+|move|p2a: Iron Valiant|Knock Off|p1a: Frosmoth
+|-damage|p1a: Frosmoth|18/100
+|-enditem|p1a: Frosmoth|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743838238
+|switch|p1a: Ursaluna|Ursaluna, M|100/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Ursaluna
+|-damage|p1a: Ursaluna|62/100
+|
+|-weather|Snowscape|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|16
+|
+|t:|1743838247
+|move|p2a: Iron Valiant|Knock Off|p1a: Ursaluna
+|-damage|p1a: Ursaluna|41/100 brn
+|-enditem|p1a: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Ursaluna|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Ursaluna|35/100 brn|[from] brn
+|upkeep
+|
+|t:|1743838254
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|17
+|
+|t:|1743838259
+|switch|p1a: Frosmoth|Frosmoth, F|18/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Frosmoth|[anim] Ivy Cudgel Water
+|-damage|p1a: Frosmoth|0 fnt
+|faint|p1a: Frosmoth
+|
+|-weather|none
+|upkeep
+|
+|t:|1743838261
+|switch|p1a: Slowking|Slowking-Galar, M|43/100
+|turn|18
+|
+|t:|1743838267
+|switch|p1a: Cryogonal|Cryogonal|100/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Cryogonal|[anim] Ivy Cudgel Water
+|-damage|p1a: Cryogonal|0 fnt
+|faint|p1a: Cryogonal
+|
+|upkeep
+|
+|t:|1743838269
+|switch|p1a: Slowking|Slowking-Galar, M|76/100
+|turn|19
+|
+|t:|1743838284
+|-terastallize|p1a: Slowking|Poison
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Slowking|[anim] Ivy Cudgel Water
+|-damage|p1a: Slowking|17/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|-damage|p1a: Slowking|7/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743838297
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|20
+|
+|t:|1743838306
+|switch|p1a: Ursaluna|Ursaluna, M|35/100 brn
+|move|p2a: Pecharunt|Hex|p1a: Ursaluna
+|-immune|p1a: Ursaluna
+|
+|-damage|p1a: Ursaluna|29/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1743838309
+|move|p2a: Pecharunt|Malignant Chain|p1a: Ursaluna
+|-resisted|p1a: Ursaluna
+|-damage|p1a: Ursaluna|10/100 brn
+|move|p1a: Ursaluna|Earthquake|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|-damage|p1a: Ursaluna|4/100 brn|[from] brn
+|upkeep
+|
+|t:|1743838330
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|22
+|
+|t:|1743838336
+|-terastallize|p2a: Dragonite|Normal
+|move|p2a: Dragonite|Extreme Speed|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1743838348
+|switch|p1a: Slowking|Slowking-Galar, M, tera:Poison|41/100
+|turn|23
+|
+|t:|1743838353
+|switch|p1a: Beartic|Beartic, M|100/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|24
+|
+|t:|1743838361
+|move|p2a: Dragonite|Fire Punch|p1a: Beartic
+|-supereffective|p1a: Beartic
+|-damage|p1a: Beartic|0 fnt
+|faint|p1a: Beartic
+|
+|upkeep
+|
+|t:|1743838363
+|switch|p1a: Slowking|Slowking-Galar, M, tera:Poison|74/100
+|turn|25
+|
+|t:|1743838368
+|move|p2a: Dragonite|Extreme Speed|p1a: Slowking
+|-damage|p1a: Slowking|1/100
+|move|p1a: Slowking|Flamethrower|p2a: Dragonite
+|-damage|p2a: Dragonite|78/100
+|-damage|p1a: Slowking|0 fnt|[from] item: Life Orb
+|faint|p1a: Slowking
+|
+|win|xiaob
+|raw|ScoobGG's rating: 1166 &rarr; <strong>1145</strong><br />(-21 for losing)
+|raw|xiaob's rating: 1215 &rarr; <strong>1236</strong><br />(+21 for winning)
+|l|☆ScoobGG
+|player|p1|
+|l|☆xiaob
+|player|p2|

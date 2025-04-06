@@ -1,0 +1,294 @@
+|j|☆ayush6984
+|j|☆918kw
+|t:|1743828272
+|gametype|singles
+|player|p1|ayush6984|170|1133
+|player|p2|918kw|lucas|1128
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingdra, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Indeedee, M|
+|poke|p1|Barraskewda, F|
+|poke|p1|Iron Treads|
+|poke|p1|Golduck, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Beartic, F|
+|poke|p2|Incineroar, F|
+|poke|p2|Araquanid, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Basculegion, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 918kw)
+|
+|t:|1743828289
+|start
+|switch|p1a: Golduck|Golduck, M|100/100
+|switch|p2a: Beartic|Beartic, F|100/100
+|turn|1
+|
+|t:|1743828303
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743828325
+|move|p1a: Iron Treads|Stealth Rock|p2a: Araquanid
+|-sidestart|p2: 918kw|move: Stealth Rock
+|move|p2a: Araquanid|Liquidation|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743828333
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|3
+|
+|t:|1743828338
+|move|p1a: Pelipper|Hurricane|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|29/100
+|-start|p2a: Araquanid|confusion
+|-activate|p2a: Araquanid|confusion
+|move|p2a: Araquanid|Sticky Web|p1a: Pelipper
+|-sidestart|p1: ayush6984|move: Sticky Web
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743828350
+|move|p1a: Pelipper|Hurricane|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743828363
+|switch|p2a: Beartic|Beartic, F|100/100
+|-damage|p2a: Beartic|76/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1743828370
+|move|p2a: Beartic|Icicle Spear|p1a: Pelipper
+|-damage|p1a: Pelipper|88/100
+|-damage|p1a: Pelipper|77/100
+|-damage|p1a: Pelipper|66/100
+|-damage|p1a: Pelipper|54/100
+|-hitcount|p1a: Pelipper|4
+|move|p1a: Pelipper|U-turn|p2a: Beartic
+|-damage|p2a: Beartic|63/100
+|
+|t:|1743828378
+|switch|p1a: Barraskewda|Barraskewda, F|100/100|[from] U-turn
+|-activate|p1a: Barraskewda|move: Sticky Web
+|-unboost|p1a: Barraskewda|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743828383
+|move|p1a: Barraskewda|Close Combat|p2a: Beartic
+|-supereffective|p2a: Beartic
+|-damage|p2a: Beartic|0 fnt
+|-unboost|p1a: Barraskewda|def|1
+|-unboost|p1a: Barraskewda|spd|1
+|faint|p2a: Beartic
+|-damage|p1a: Barraskewda|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743828388
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|100/100
+|-damage|p2a: Grimmsnarl|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1743828393
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: 918kw|Reflect
+|move|p1a: Barraskewda|Poison Jab|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|45/100
+|-status|p2a: Grimmsnarl|psn
+|-damage|p1a: Barraskewda|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Grimmsnarl|51/100 psn|[from] item: Leftovers
+|-damage|p2a: Grimmsnarl|39/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743828399
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Barraskewda
+|-unboost|p1a: Barraskewda|atk|1
+|-unboost|p1a: Barraskewda|spa|1
+|
+|t:|1743828403
+|switch|p2a: Pelipper|Pelipper, F|100/100|[from] Parting Shot
+|-damage|p2a: Pelipper|76/100|[from] Stealth Rock
+|move|p1a: Barraskewda|Liquidation|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|60/100
+|-damage|p1a: Barraskewda|71/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743828412
+|switch|p1a: Pelipper|Pelipper, M|54/100
+|move|p2a: Pelipper|Hurricane|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743828416
+|switch|p1a: Golduck|Golduck, M|100/100
+|-activate|p1a: Golduck|move: Sticky Web
+|-unboost|p1a: Golduck|spe|1
+|turn|10
+|inactive|918kw has 120 seconds left.
+|
+|t:|1743828456
+|move|p1a: Golduck|Nasty Plot|p1a: Golduck
+|-boost|p1a: Golduck|spa|2
+|move|p2a: Pelipper|Hurricane|p1a: Golduck
+|-damage|p1a: Golduck|38/100
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1743828473
+|move|p1a: Golduck|Ice Beam|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|-damage|p1a: Golduck|28/100|[from] item: Life Orb
+|
+|-sideend|p2: 918kw|Reflect
+|upkeep
+|inactive|918kw has 120 seconds left.
+|
+|t:|1743828485
+|switch|p2a: Incineroar|Incineroar, F|100/100
+|-damage|p2a: Incineroar|76/100|[from] Stealth Rock
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Golduck|atk|1
+|turn|12
+|
+|t:|1743828492
+|move|p2a: Incineroar|Power Trip|p1a: Golduck
+|-damage|p1a: Golduck|14/100
+|move|p1a: Golduck|Surf|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|-damage|p1a: Golduck|4/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743828494
+|switch|p2a: Basculegion|Basculegion, M|100/100
+|-damage|p2a: Basculegion|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743828501
+|move|p2a: Basculegion|Wave Crash|p1a: Golduck
+|-resisted|p1a: Golduck
+|-damage|p1a: Golduck|0 fnt
+|faint|p1a: Golduck
+|-damage|p2a: Basculegion|87/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743828518
+|switch|p1a: Kingdra|Kingdra, M|100/100
+|-activate|p1a: Kingdra|move: Sticky Web
+|-unboost|p1a: Kingdra|spe|1
+|turn|14
+|
+|t:|1743828525
+|move|p2a: Basculegion|Phantom Force||[still]
+|-prepare|p2a: Basculegion|Phantom Force
+|move|p1a: Kingdra|Draco Meteor|p2a: Basculegion|[miss]
+|-miss|p1a: Kingdra|p2a: Basculegion
+|
+|upkeep
+|turn|15
+|
+|t:|1743828530
+|move|p2a: Basculegion|Phantom Force|p1a: Kingdra|[from] lockedmove
+|-damage|p1a: Kingdra|10/100
+|move|p1a: Kingdra|Draco Meteor|p2a: Basculegion
+|-damage|p2a: Basculegion|10/100
+|-unboost|p1a: Kingdra|spa|2
+|-damage|p1a: Kingdra|0 fnt|[from] item: Life Orb
+|faint|p1a: Kingdra
+|
+|upkeep
+|
+|t:|1743828539
+|switch|p1a: Indeedee|Indeedee, M|100/100
+|-activate|p1a: Indeedee|move: Sticky Web
+|-unboost|p1a: Indeedee|spe|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|16
+|
+|t:|1743828565
+|-terastallize|p1a: Indeedee|Fairy
+|move|p2a: Basculegion|Wave Crash|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|-damage|p2a: Basculegion|0 fnt|[from] Recoil
+|faint|p2a: Basculegion
+|
+|upkeep
+|
+|t:|1743828571
+|switch|p1a: Barraskewda|Barraskewda, F|71/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, M|39/100 psn
+|-activate|p1a: Barraskewda|move: Sticky Web
+|-unboost|p1a: Barraskewda|spe|1
+|-damage|p2a: Grimmsnarl|26/100 psn|[from] Stealth Rock
+|turn|17
+|
+|t:|1743828575
+|-terastallize|p2a: Grimmsnarl|Dark
+|move|p1a: Barraskewda|Poison Jab|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|-damage|p1a: Barraskewda|61/100|[from] item: Life Orb
+|
+|win|ayush6984
+|raw|ayush6984's rating: 1133 &rarr; <strong>1156</strong><br />(+23 for winning)
+|raw|918kw's rating: 1107 &rarr; <strong>1084</strong><br />(-23 for losing)
+|l|☆918kw
+|player|p2|
+|l|☆ayush6984
+|player|p1|

@@ -1,0 +1,342 @@
+|j|☆chikenym
+|j|☆HiHoItsTime4u2go
+|t:|1743844188
+|gametype|singles
+|player|p1|chikenym|preschooler|1124
+|player|p2|HiHoItsTime4u2go|benga|1081
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Quaquaval, F|
+|poke|p1|Rillaboom, M|
+|poke|p1|Hawlucha, M|
+|poke|p1|Iron Treads|
+|poke|p1|Dragapult, F|
+|poke|p1|Raging Bolt|
+|poke|p2|Torkoal, F|
+|poke|p2|Victreebel, M|
+|poke|p2|Slaking, F|
+|poke|p2|Honchkrow, M|
+|poke|p2|Maushold-Four|
+|poke|p2|Deoxys-Defense|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HiHoItsTime4u2go)
+|
+|t:|1743844202
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Torkoal|Torkoal, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1743844214
+|move|p1a: Iron Treads|Earth Power|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|40/100
+|-unboost|p2a: Torkoal|spd|1
+|move|p2a: Torkoal|Weather Ball|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743844225
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|2
+|
+|t:|1743844237
+|move|p1a: Dragapult|Draco Meteor|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743844243
+|switch|p2a: Maushold|Maushold-Four, shiny|100/100
+|turn|3
+|
+|t:|1743844248
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Maushold|[miss]
+|-miss|p1a: Dragapult|p2a: Maushold
+|move|p2a: Maushold|Tidy Up|p2a: Maushold
+|-boost|p2a: Maushold|atk|1
+|-boost|p2a: Maushold|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743844263
+|move|p2a: Maushold|Encore|p1a: Dragapult
+|-start|p1a: Dragapult|Encore
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Maushold|[miss]
+|-miss|p1a: Dragapult|p2a: Maushold
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743844268
+|move|p2a: Maushold|Tidy Up|p2a: Maushold
+|-boost|p2a: Maushold|atk|1
+|-boost|p2a: Maushold|spe|1
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Maushold
+|-status|p2a: Maushold|brn
+|
+|-weather|none
+|-damage|p2a: Maushold|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743844276
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|move|p2a: Maushold|Tidy Up|p2a: Maushold
+|-boost|p2a: Maushold|atk|1
+|-boost|p2a: Maushold|spe|1
+|
+|-damage|p2a: Maushold|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743844285
+|-terastallize|p2a: Maushold|Ghost
+|-terastallize|p1a: Quaquaval|Steel
+|move|p2a: Maushold|Tidy Up|p2a: Maushold
+|-boost|p2a: Maushold|atk|1
+|-boost|p2a: Maushold|spe|1
+|move|p1a: Quaquaval|Close Combat|p2a: Maushold
+|-immune|p2a: Maushold
+|
+|-damage|p2a: Maushold|82/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743844295
+|move|p2a: Maushold|Encore|p1a: Quaquaval
+|-start|p1a: Quaquaval|Encore
+|move|p1a: Quaquaval|Close Combat|p2a: Maushold
+|-immune|p2a: Maushold
+|
+|-damage|p2a: Maushold|76/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743844304
+|move|p2a: Maushold|Tidy Up|p2a: Maushold
+|-boost|p2a: Maushold|atk|1
+|-boost|p2a: Maushold|spe|1
+|move|p1a: Quaquaval|Close Combat|p2a: Maushold
+|-immune|p2a: Maushold
+|
+|-damage|p2a: Maushold|69/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743844312
+|move|p2a: Maushold|Shadow Claw|p1a: Quaquaval
+|-damage|p1a: Quaquaval|43/100
+|move|p1a: Quaquaval|Close Combat|p2a: Maushold
+|-immune|p2a: Maushold
+|
+|-damage|p2a: Maushold|63/100 brn|[from] brn
+|-end|p1a: Quaquaval|Encore
+|upkeep
+|turn|11
+|
+|t:|1743844321
+|move|p2a: Maushold|Encore|p1a: Quaquaval
+|-start|p1a: Quaquaval|Encore
+|move|p1a: Quaquaval|Close Combat|p2a: Maushold
+|-immune|p2a: Maushold
+|
+|-damage|p2a: Maushold|57/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743844328
+|move|p2a: Maushold|Tidy Up|p2a: Maushold
+|-boost|p2a: Maushold|atk|1
+|-boost|p2a: Maushold|spe|1
+|move|p1a: Quaquaval|Close Combat|p2a: Maushold
+|-immune|p2a: Maushold
+|
+|-damage|p2a: Maushold|51/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743844336
+|move|p2a: Maushold|Shadow Claw|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|
+|-damage|p2a: Maushold|44/100 brn|[from] brn
+|upkeep
+|
+|t:|1743844339
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|14
+|
+|t:|1743844348
+|move|p1a: Rillaboom|Grassy Glide|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|faint|p2a: Maushold
+|
+|upkeep
+|
+|t:|1743844355
+|switch|p2a: Victreebel|Victreebel, M, shiny|100/100
+|turn|15
+|
+|t:|1743844368
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Victreebel|Sludge Bomb|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|70/100
+|
+|-heal|p1a: Raging Bolt|76/100|[from] Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1743844380
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Victreebel
+|-damage|p2a: Victreebel|0 fnt
+|-unboost|p1a: Raging Bolt|spa|2
+|faint|p2a: Victreebel
+|
+|-heal|p1a: Raging Bolt|83/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743844386
+|switch|p2a: Deoxys|Deoxys-Defense, shiny|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|17
+|
+|t:|1743844399
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Deoxys|Meteor Beam||[still]
+|-prepare|p2a: Deoxys|Meteor Beam
+|-boost|p2a: Deoxys|spa|1
+|-enditem|p2a: Deoxys|Power Herb
+|-anim|p2a: Deoxys|Meteor Beam|p1a: Dragapult|[miss]
+|-miss|p2a: Deoxys|p1a: Dragapult
+|
+|upkeep
+|turn|18
+|
+|t:|1743844409
+|move|p1a: Dragapult|Thunder Wave|p2a: Deoxys
+|-status|p2a: Deoxys|par
+|move|p2a: Deoxys|Ice Beam|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|13/100
+|
+|-heal|p1a: Dragapult|19/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1743844422
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Deoxys|Thunderbolt|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|78/100
+|
+|-heal|p1a: Rillaboom|84/100|[from] Grassy Terrain
+|upkeep
+|turn|20
+|
+|t:|1743844430
+|move|p1a: Rillaboom|Wood Hammer|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|-damage|p1a: Rillaboom|57/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|63/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743844437
+|switch|p2a: Honchkrow|Honchkrow, M, shiny|100/100
+|turn|21
+|
+|t:|1743844442
+|switch|p1a: Hawlucha|Hawlucha, M, shiny|100/100
+|-enditem|p1a: Hawlucha|Grassy Seed
+|-boost|p1a: Hawlucha|def|1|[from] item: Grassy Seed
+|move|p2a: Honchkrow|Brave Bird|p1a: Hawlucha
+|-supereffective|p1a: Hawlucha
+|-damage|p1a: Hawlucha|0 fnt
+|faint|p1a: Hawlucha
+|-ability|p2a: Honchkrow|Moxie|boost
+|-boost|p2a: Honchkrow|atk|1
+|-damage|p2a: Honchkrow|73/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743844445
+|switch|p1a: Raging Bolt|Raging Bolt|83/100
+|turn|22
+|
+|t:|1743844458
+|move|p2a: Honchkrow|Sucker Punch|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|32/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Honchkrow
+|-supereffective|p2a: Honchkrow
+|-damage|p2a: Honchkrow|0 fnt
+|faint|p2a: Honchkrow
+|
+|-heal|p1a: Raging Bolt|38/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743844467
+|switch|p2a: Slaking|Slaking, F, shiny|100/100
+|turn|23
+|
+|t:|1743844471
+|move|p1a: Raging Bolt|Thunderclap|p2a: Slaking
+|-damage|p2a: Slaking|64/100
+|move|p2a: Slaking|Knock Off|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|13/100
+|
+|-heal|p2a: Slaking|70/100|[from] Grassy Terrain
+|-heal|p1a: Raging Bolt|19/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|24
+|
+|t:|1743844478
+|cant|p2a: Slaking|ability: Truant
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Slaking
+|-damage|p2a: Slaking|0 fnt
+|-unboost|p1a: Raging Bolt|spa|2
+|faint|p2a: Slaking
+|
+|win|chikenym
+|raw|chikenym's rating: 1124 &rarr; <strong>1146</strong><br />(+22 for winning)
+|raw|HiHoItsTime4u2go's rating: 1081 &rarr; <strong>1062</strong><br />(-19 for losing)
+|l|☆HiHoItsTime4u2go
+|player|p2|
+|l|☆chikenym
+|player|p1|

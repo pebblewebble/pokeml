@@ -1,0 +1,314 @@
+|j|☆AgentJollyPert
+|j|☆mio3777
+|t:|1743858901
+|gametype|singles
+|player|p1|AgentJollyPert|ingo|1338
+|player|p2|mio3777|266|1372
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Moth|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Kingambit, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Gholdengo|
+|poke|p2|Dondozo, M|
+|poke|p2|Blissey, F|
+|poke|p2|Rotom-Heat|
+|poke|p2|Hoopa-Unbound|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AgentJollyPert)
+|inactive|mio3777 has 120 seconds left.
+|
+|t:|1743858933
+|start
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|1
+|
+|t:|1743858940
+|move|p2a: Rotom|Volt Switch|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|56/100
+|
+|t:|1743858948
+|switch|p2a: Dondozo|Dondozo, M|100/100|[from] Volt Switch
+|move|p1a: Araquanid|Sticky Web|p2a: Dondozo
+|-sidestart|p2: mio3777|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743858954
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743858971
+|-terastallize|p2a: Dondozo|Dragon
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|move|p2a: Dondozo|Tera Blast|p1a: Raging Bolt|[anim] Tera Blast Dragon
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743858990
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|4
+|
+|t:|1743858995
+|switch|p2a: Blissey|Blissey, F|100/100
+|-activate|p2a: Blissey|move: Sticky Web
+|-unboost|p2a: Blissey|spe|1
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|upkeep
+|turn|5
+|
+|t:|1743859009
+|move|p1a: Gholdengo|Psyshock|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|upkeep
+|
+|t:|1743859016
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|6
+|
+|t:|1743859025
+|move|p2a: Rotom|Overheat|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|-enditem|p1a: Gholdengo|Air Balloon
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743859029
+|switch|p1a: Araquanid|Araquanid, F|56/100
+|turn|7
+|
+|t:|1743859040
+|switch|p2a: Dondozo|Dondozo, M, tera:Dragon|100/100
+|-activate|p2a: Dondozo|move: Sticky Web
+|-unboost|p2a: Dondozo|spe|1
+|move|p1a: Araquanid|Liquidation|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|88/100
+|-damage|p1a: Araquanid|39/100|[from] item: Rocky Helmet|[of] p2a: Dondozo
+|
+|upkeep
+|turn|8
+|
+|t:|1743859049
+|move|p1a: Araquanid|Lunge|p2a: Dondozo
+|-damage|p2a: Dondozo|75/100
+|-unboost|p2a: Dondozo|atk|1
+|-damage|p1a: Araquanid|23/100|[from] item: Rocky Helmet|[of] p2a: Dondozo
+|move|p2a: Dondozo|Liquidation|p1a: Araquanid
+|-resisted|p1a: Araquanid
+|-crit|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1743859066
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|9
+|
+|t:|1743859077
+|-terastallize|p1a: Iron Moth|Fairy
+|move|p1a: Iron Moth|Fiery Dance|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|45/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Dondozo|Liquidation|p1a: Iron Moth
+|-damage|p1a: Iron Moth|53/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743859091
+|move|p1a: Iron Moth|Fiery Dance|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|15/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Dondozo|Liquidation|p1a: Iron Moth
+|-damage|p1a: Iron Moth|8/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743859104
+|move|p1a: Iron Moth|Fiery Dance|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Dondozo
+|
+|upkeep
+|
+|t:|1743859123
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|12
+|
+|t:|1743859132
+|move|p2a: Rotom|Overheat|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743859141
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|13
+|
+|t:|1743859148
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-activate|p2a: Glimmora|move: Sticky Web
+|-unboost|p2a: Glimmora|spe|1
+|move|p1a: Great Tusk|Rapid Spin|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|89/100
+|-boost|p1a: Great Tusk|spe|1
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: AgentJollyPert|move: Toxic Spikes
+|-sideend|p1: AgentJollyPert|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-enditem|p2a: Glimmora|Red Card|[of] p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|drag|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|turn|14
+|
+|t:|1743859168
+|-end|p1a: Kingambit|fallen4|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Glimmora|Earth Power|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|46/100
+|-unboost|p1a: Great Tusk|spd|1
+|
+|upkeep
+|turn|15
+|inactive|mio3777 has 120 seconds left.
+|
+|t:|1743859201
+|move|p1a: Great Tusk|Headlong Rush|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: AgentJollyPert|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1743859208
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|16
+|
+|t:|1743859211
+|move|p2a: Rotom|Overheat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743859214
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|17
+|
+|t:|1743859222
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-activate|p2a: Hoopa|move: Sticky Web
+|-unboost|p2a: Hoopa|spe|1
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|18
+|
+|t:|1743859232
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Hoopa|Trick|p1a: Kingambit
+|-activate|p2a: Hoopa|move: Trick|[of] p1a: Kingambit
+|-item|p1a: Kingambit|Choice Scarf|[from] move: Trick
+|-item|p2a: Hoopa|Lum Berry|[from] move: Trick
+|
+|upkeep
+|turn|19
+|
+|t:|1743859242
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|upkeep
+|
+|t:|1743859246
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|turn|20
+|
+|t:|1743859250
+|move|p2a: Rotom|Overheat|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|
+|win|mio3777
+|raw|AgentJollyPert's rating: 1338 &rarr; <strong>1320</strong><br />(-18 for losing)
+|raw|mio3777's rating: 1372 &rarr; <strong>1390</strong><br />(+18 for winning)
+|l|☆AgentJollyPert
+|player|p1|
+|l|☆mio3777
+|player|p2|

@@ -1,0 +1,226 @@
+|j|☆Aiaoqppqqppq
+|j|☆neoqx
+|t:|1743843141
+|gametype|singles
+|player|p1|Aiaoqppqqppq|170|1185
+|player|p2|neoqx|sabrina|1237
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Moth|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Kingambit, M|
+|poke|p2|Blissey, F|
+|poke|p2|Dondozo, F|
+|poke|p2|Clodsire, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Gliscor, M|
+|teampreview
+|
+|t:|1743843155
+|start
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|switch|p2a: Gliscor|Gliscor, M, shiny|100/100
+|turn|1
+|l|☆neoqx
+|player|p2|
+|j|☆neoqx
+|player|p2|neoqx|sabrina|
+|
+|t:|1743843186
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743843205
+|switch|p2a: Dondozo|Dondozo, F, shiny|100/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|92/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743843230
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Dondozo|Waterfall|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|88/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743843238
+|switch|p2a: Blissey|Blissey, F, shiny|100/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|5
+|
+|t:|1743843246
+|switch|p2a: Clodsire|Clodsire, M, shiny|100/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Clodsire
+|-immune|p2a: Clodsire
+|
+|upkeep
+|turn|6
+|
+|t:|1743843249
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Clodsire
+|-damage|p2a: Clodsire|66/100
+|move|p2a: Clodsire|Stealth Rock|p1a: Raging Bolt
+|-sidestart|p1: Aiaoqppqqppq|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1743843253
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Clodsire
+|-damage|p2a: Clodsire|29/100
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|79/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743843262
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|move|p2a: Clodsire|Amnesia|p2a: Clodsire
+|-boost|p2a: Clodsire|spd|2
+|
+|upkeep
+|turn|9
+|
+|t:|1743843273
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Clodsire|Poison Jab|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|10
+|
+|t:|1743843285
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743843295
+|switch|p2a: Blissey|Blissey, F, shiny|100/100
+|move|p1a: Gholdengo|Psyshock|p2a: Blissey
+|-damage|p2a: Blissey|45/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743843304
+|-terastallize|p2a: Blissey|Water
+|move|p1a: Gholdengo|Dazzling Gleam|p2a: Blissey
+|-damage|p2a: Blissey|26/100
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|76/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743843311
+|move|p1a: Gholdengo|Psyshock|p2a: Blissey
+|-damage|p2a: Blissey|19/100
+|move|p2a: Blissey|Calm Mind|p2a: Blissey
+|-boost|p2a: Blissey|spa|1
+|-boost|p2a: Blissey|spd|1
+|
+|upkeep
+|turn|14
+|
+|t:|1743843315
+|move|p1a: Gholdengo|Psyshock|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|upkeep
+|
+|t:|1743843325
+|switch|p2a: Clodsire|Clodsire, M, shiny|100/100
+|turn|15
+|
+|t:|1743843345
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Gholdengo|Psyshock|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|81/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743843350
+|move|p1a: Gholdengo|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1743843354
+|switch|p2a: Toxapex|Toxapex, F, shiny|100/100
+|turn|17
+|
+|t:|1743843358
+|move|p1a: Gholdengo|Psyshock|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|34/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|upkeep
+|turn|18
+|
+|t:|1743843367
+|move|p1a: Gholdengo|Psyshock|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|-message|neoqx forfeited.
+|
+|win|Aiaoqppqqppq
+|raw|Aiaoqppqqppq's rating: 1185 &rarr; <strong>1214</strong><br />(+29 for winning)
+|raw|neoqx's rating: 1237 &rarr; <strong>1208</strong><br />(-29 for losing)
+|l|☆neoqx
+|player|p2|

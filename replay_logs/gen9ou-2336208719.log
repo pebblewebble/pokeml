@@ -1,0 +1,346 @@
+|j|☆solta carta krai
+|j|☆TeaPause
+|t:|1743889994
+|gametype|singles
+|player|p1|solta carta krai|102|1460
+|player|p2|TeaPause|waiter|1429
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tauros-Paldea-Blaze, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Pecharunt|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Great Tusk|
+|poke|p2|Scyther, M|
+|poke|p2|Great Tusk|
+|poke|p2|Magnezone|
+|poke|p2|Weavile, M|
+|poke|p2|Slowking, M|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TeaPause)
+|inactive|solta carta krai also wants the timer to be on.
+|inactive|TeaPause has 120 seconds left.
+|
+|t:|1743890038
+|start
+|switch|p1a: Tauros|Tauros-Paldea-Blaze, M|100/100
+|switch|p2a: Magnezone|Magnezone|100/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Magnezone|atk|1
+|turn|1
+|
+|t:|1743890047
+|-terastallize|p2a: Magnezone|Ground
+|move|p1a: Tauros|Flare Blitz|p2a: Magnezone
+|-damage|p2a: Magnezone|36/100
+|-damage|p1a: Tauros|79/100|[from] Recoil
+|move|p2a: Magnezone|Tera Blast|p1a: Tauros|[anim] Tera Blast Ground
+|-supereffective|p1a: Tauros
+|-crit|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|upkeep
+|
+|t:|1743890061
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|2
+|
+|t:|1743890067
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|move|p2a: Magnezone|Volt Switch|p1a: Ogerpon
+|-damage|p1a: Ogerpon|49/100
+|
+|t:|1743890072
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|3
+|
+|t:|1743890078
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|80/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743890084
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Magnezone|Magnezone, tera:Ground|36/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|24/100
+|-status|p2a: Magnezone|tox
+|-start|p2a: Magnezone|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-damage|p2a: Magnezone|18/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743890094
+|move|p1a: Pecharunt|Malignant Chain|p2a: Magnezone
+|-resisted|p2a: Magnezone
+|-damage|p2a: Magnezone|4/100 tox
+|-activate|p2a: Magnezone|confusion
+|move|p2a: Magnezone|Flash Cannon|p1a: Pecharunt
+|-damage|p1a: Pecharunt|32/100
+|
+|-damage|p2a: Magnezone|0 fnt|[from] psn
+|faint|p2a: Magnezone
+|upkeep
+|
+|t:|1743890103
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|6
+|
+|t:|1743890109
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|-item|p1a: Kingambit|Air Balloon
+|move|p2a: Weavile|Knock Off|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|75/100
+|-enditem|p1a: Kingambit|Air Balloon
+|-damage|p2a: Weavile|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|t:|1743890119
+|move|p2a: Weavile|Low Kick|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|-damage|p2a: Weavile|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743890122
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|8
+|
+|t:|1743890134
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|move|p1a: Ting-Lu|Earthquake|p2a: Weavile
+|-damage|p2a: Weavile|17/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743890140
+|switch|p1a: Pecharunt|Pecharunt|32/100
+|move|p2a: Weavile|Low Kick|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|
+|upkeep
+|turn|10
+|
+|t:|1743890145
+|move|p2a: Weavile|Knock Off|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|-enditem|p1a: Pecharunt|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Weavile
+|faint|p1a: Pecharunt
+|-damage|p2a: Weavile|7/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743890148
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|49/100
+|turn|11
+|
+|t:|1743890153
+|move|p2a: Weavile|Ice Shard|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|-damage|p2a: Weavile|0 fnt|[from] item: Life Orb
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|t:|1743890163
+|switch|p2a: Slowking|Slowking, M|100/100
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|12
+|
+|t:|1743890169
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Slowking
+|-sidestart|p2: TeaPause|move: Stealth Rock
+|move|p2a: Slowking|Scald|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|77/100
+|-status|p1a: Ting-Lu|brn
+|
+|-heal|p1a: Ting-Lu|83/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|77/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743890179
+|move|p1a: Ting-Lu|Ruination|p2a: Slowking
+|-damage|p2a: Slowking|51/100
+|move|p2a: Slowking|Scald|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|53/100 brn
+|
+|-heal|p1a: Ting-Lu|59/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|53/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743890194
+|move|p1a: Ting-Lu|Ruination|p2a: Slowking
+|-damage|p2a: Slowking|26/100
+|move|p2a: Slowking|Disable|p1a: Ting-Lu
+|-start|p1a: Ting-Lu|Disable|Ruination
+|
+|-heal|p1a: Ting-Lu|59/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|53/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743890202
+|move|p1a: Ting-Lu|Earthquake|p2a: Slowking
+|-damage|p2a: Slowking|8/100
+|move|p2a: Slowking|Scald|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|29/100 brn
+|
+|-heal|p1a: Ting-Lu|36/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|29/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743890213
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Ting-Lu|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|83/100
+|
+|-heal|p1a: Ting-Lu|36/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|29/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743890225
+|move|p2a: Great Tusk|Rapid Spin|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|16/100 brn
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: TeaPause|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: TeaPause|move: Stealth Rock
+|
+|-heal|p1a: Ting-Lu|22/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|16/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743890234
+|move|p2a: Great Tusk|Rapid Spin|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|1/100 brn
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: TeaPause|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Ting-Lu|Whirlwind|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|drag|p2a: Scyther|Scyther, M|100/100
+|
+|-heal|p1a: Ting-Lu|8/100 brn|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|1/100 brn|[from] brn
+|-end|p1a: Ting-Lu|Disable
+|upkeep
+|turn|19
+|
+|t:|1743890246
+|move|p2a: Scyther|Quick Attack|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743890257
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|20
+|
+|t:|1743890261
+|move|p2a: Scyther|Swords Dance|p2a: Scyther
+|-boost|p2a: Scyther|atk|2
+|move|p1a: Great Tusk|Temper Flare|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|46/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743890272
+|-terastallize|p1a: Great Tusk|Steel
+|move|p2a: Scyther|Dual Wingbeat|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|82/100
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|61/100
+|-hitcount|p1a: Great Tusk|2
+|move|p1a: Great Tusk|Rapid Spin|p2a: Scyther
+|-damage|p2a: Scyther|28/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|upkeep
+|turn|22
+|
+|t:|1743890283
+|move|p2a: Scyther|Quick Attack|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|48/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Scyther
+|-supereffective|p2a: Scyther
+|-damage|p2a: Scyther|0 fnt
+|faint|p2a: Scyther
+|
+|upkeep
+|
+|t:|1743890289
+|switch|p2a: Great Tusk|Great Tusk|83/100
+|turn|23
+|
+|t:|1743890293
+|move|p1a: Great Tusk|Temper Flare|p2a: Great Tusk
+|-damage|p2a: Great Tusk|64/100
+|move|p2a: Great Tusk|Close Combat|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|win|TeaPause
+|raw|solta carta krai's rating: 1460 &rarr; <strong>1438</strong><br />(-22 for losing)
+|raw|TeaPause's rating: 1429 &rarr; <strong>1451</strong><br />(+22 for winning)
+|l|☆TeaPause
+|player|p2|
+|l|☆solta carta krai
+|player|p1|

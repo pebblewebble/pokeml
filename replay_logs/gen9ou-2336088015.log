@@ -1,0 +1,535 @@
+|j|☆andy miloknockis
+|j|☆MarMarteau
+|t:|1743877570
+|gametype|singles
+|player|p1|andy miloknockis|flannery|1312
+|player|p2|MarMarteau|collector|1409
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Scizor, M|
+|poke|p1|Grafaiai, M|
+|poke|p1|Gholdengo|
+|poke|p1|Ting-Lu|
+|poke|p1|Volcanion|
+|poke|p1|Electivire, M|
+|poke|p2|Moltres|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Weavile, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MarMarteau)
+|
+|t:|1743877613
+|start
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1743877629
+|move|p2a: Weavile|Knock Off|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|86/100
+|-enditem|p1a: Ting-Lu|Mental Herb|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Ting-Lu|Whirlwind|p2a: Weavile
+|drag|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|
+|upkeep
+|turn|2
+|
+|t:|1743877639
+|move|p2a: Iron Valiant|Moonblast|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|28/100
+|move|p1a: Ting-Lu|Whirlwind|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|drag|p2a: Kingambit|Kingambit, F|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743877646
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Moltres
+|-sidestart|p2: MarMarteau|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1743877654
+|move|p1a: Ting-Lu|Spikes|p2a: Moltres
+|-sidestart|p2: MarMarteau|Spikes
+|move|p2a: Moltres|Roar|p1a: Ting-Lu
+|drag|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|5
+|
+|t:|1743877659
+|switch|p1a: Volcanion|Volcanion|100/100
+|move|p2a: Moltres|Flamethrower|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|91/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743877668
+|move|p2a: Moltres|U-turn|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-crit|p1a: Volcanion
+|-damage|p1a: Volcanion|84/100
+|
+|t:|1743877671
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|-damage|p2a: Ogerpon|76/100|[from] Spikes
+|move|p1a: Volcanion|Roar|p2a: Ogerpon
+|drag|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-damage|p2a: Kingambit|82/100|[from] Spikes
+|
+|-heal|p2a: Kingambit|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743877681
+|move|p1a: Volcanion|Flamethrower|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|10/100
+|-status|p2a: Kingambit|brn
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Volcanion
+|-damage|p1a: Volcanion|68/100
+|
+|-heal|p2a: Kingambit|16/100 brn|[from] item: Leftovers
+|-damage|p2a: Kingambit|10/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743877690
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Volcanion|Roar|p2a: Kingambit
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|drag|p2a: Weavile|Weavile, F|100/100
+|-damage|p2a: Weavile|76/100|[from] Stealth Rock
+|-damage|p2a: Weavile|63/100|[from] Spikes
+|-ability|p2a: Weavile|Pressure
+|
+|upkeep
+|turn|9
+|
+|t:|1743877698
+|move|p2a: Weavile|Knock Off|p1a: Volcanion
+|-damage|p1a: Volcanion|26/100
+|-enditem|p1a: Volcanion|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Volcanion|Flamethrower|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|t:|1743877704
+|switch|p2a: Kingambit|Kingambit, F|10/100 brn
+|-damage|p2a: Kingambit|4/100 brn|[from] Stealth Rock
+|-damage|p2a: Kingambit|0 fnt|[from] Spikes
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|
+|t:|1743877708
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Volcanion|atk|1
+|turn|10
+|
+|t:|1743877714
+|switch|p1a: Ting-Lu|Ting-Lu|28/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Landorus|Earth Power|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|10/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743877720
+|move|p2a: Landorus|Earth Power|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743877728
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|12
+|
+|t:|1743877731
+|move|p2a: Landorus|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|97/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|t:|1743877733
+|switch|p2a: Moltres|Moltres|100/100|[from] U-turn
+|move|p1a: Gholdengo|Make It Rain|p2a: Moltres
+|-resisted|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|61/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|upkeep
+|turn|13
+|
+|t:|1743877738
+|move|p2a: Moltres|Roost|p2a: Moltres
+|-heal|p2a: Moltres|100/100
+|-singleturn|p2a: Moltres|move: Roost
+|move|p1a: Gholdengo|Thunder Wave|p2a: Moltres
+|-status|p2a: Moltres|par
+|
+|upkeep
+|turn|14
+|inactive|MarMarteau has 120 seconds left.
+|inactive|MarMarteau has 90 seconds left.
+|inactive|MarMarteau has 60 seconds left.
+|
+|t:|1743877856
+|switch|p1a: Volcanion|Volcanion|26/100
+|move|p2a: Moltres|Flamethrower|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|17/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743877865
+|cant|p2a: Moltres|par
+|move|p1a: Volcanion|Roar|p2a: Moltres
+|drag|p2a: Landorus|Landorus-Therian, M|88/100
+|-damage|p2a: Landorus|76/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Volcanion|atk|1
+|
+|upkeep
+|turn|16
+|
+|t:|1743877873
+|switch|p1a: Electivire|Electivire, M|100/100
+|-item|p1a: Electivire|Air Balloon
+|move|p2a: Landorus|Earth Power|p1a: Electivire
+|-immune|p1a: Electivire
+|
+|upkeep
+|turn|17
+|
+|t:|1743877879
+|switch|p1a: Grafaiai|Grafaiai, M|100/100
+|move|p2a: Landorus|U-turn|p1a: Grafaiai
+|-resisted|p1a: Grafaiai
+|-damage|p1a: Grafaiai|86/100
+|
+|t:|1743877889
+|switch|p2a: Moltres|Moltres|100/100 par|[from] U-turn
+|
+|upkeep
+|turn|18
+|
+|t:|1743877904
+|move|p1a: Grafaiai|Knock Off|p2a: Moltres
+|-damage|p2a: Moltres|81/100 par
+|-status|p1a: Grafaiai|brn|[from] ability: Flame Body|[of] p2a: Moltres
+|-enditem|p2a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Grafaiai
+|move|p2a: Moltres|Roar|p1a: Grafaiai
+|drag|p1a: Electivire|Electivire, M|100/100
+|-item|p1a: Electivire|Air Balloon
+|
+|upkeep
+|turn|19
+|inactive|MarMarteau has 60 seconds left.
+|inactive|MarMarteau has 30 seconds left.
+|
+|t:|1743877947
+|switch|p1a: Grafaiai|Grafaiai, M|86/100 brn
+|move|p2a: Moltres|Flamethrower|p1a: Grafaiai
+|-damage|p1a: Grafaiai|37/100 brn
+|
+|-damage|p1a: Grafaiai|31/100 brn|[from] brn
+|upkeep
+|turn|20
+|inactive|MarMarteau has 30 seconds left.
+|inactive|MarMarteau has 20 seconds left.
+|inactive|MarMarteau has 15 seconds left.
+|inactive|MarMarteau has 10 seconds left.
+|
+|t:|1743877979
+|move|p1a: Grafaiai|Encore|p2a: Moltres
+|-start|p2a: Moltres|Encore
+|cant|p2a: Moltres|par
+|
+|-damage|p1a: Grafaiai|25/100 brn|[from] brn
+|upkeep
+|turn|21
+|inactive|MarMarteau has 20 seconds left this turn.
+|
+|t:|1743877986
+|move|p1a: Grafaiai|Knock Off|p2a: Moltres
+|-damage|p2a: Moltres|75/100 par
+|cant|p2a: Moltres|par
+|
+|-damage|p1a: Grafaiai|19/100 brn|[from] brn
+|upkeep
+|turn|22
+|inactive|MarMarteau has 30 seconds left this turn.
+|
+|t:|1743877991
+|move|p1a: Grafaiai|Knock Off|p2a: Moltres
+|-damage|p2a: Moltres|69/100 par
+|move|p2a: Moltres|Flamethrower|p1a: Grafaiai
+|-damage|p1a: Grafaiai|0 fnt
+|faint|p1a: Grafaiai
+|
+|-end|p2a: Moltres|Encore
+|upkeep
+|inactive|MarMarteau has 30 seconds left this turn.
+|inactive|andy miloknockis has 120 seconds left.
+|inactive|andy miloknockis has 90 seconds left.
+|
+|t:|1743878059
+|switch|p1a: Volcanion|Volcanion|17/100
+|turn|23
+|inactive|MarMarteau has 30 seconds left.
+|inactive|MarMarteau has 20 seconds left.
+|
+|t:|1743878082
+|move|p2a: Moltres|Flamethrower|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|7/100
+|move|p1a: Volcanion|Roar|p2a: Moltres
+|drag|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-damage|p2a: Iron Valiant|82/100|[from] Spikes
+|
+|upkeep
+|turn|24
+|inactive|MarMarteau has 30 seconds left this turn.
+|inactive|MarMarteau has 20 seconds left.
+|inactive|MarMarteau has 15 seconds left.
+|
+|t:|1743878100
+|move|p2a: Iron Valiant|Moonblast|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|upkeep
+|inactive|MarMarteau has 20 seconds left this turn.
+|
+|t:|1743878104
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|25
+|inactive|MarMarteau has 30 seconds left this turn.
+|inactive|MarMarteau has 20 seconds left.
+|inactive|MarMarteau has 15 seconds left.
+|inactive|MarMarteau has 10 seconds left.
+|
+|t:|1743878125
+|-terastallize|p2a: Iron Valiant|Ghost
+|move|p1a: Scizor|Bullet Punch|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|37/100
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|
+|upkeep
+|turn|26
+|inactive|MarMarteau has 20 seconds left this turn.
+|inactive|MarMarteau has 15 seconds left.
+|
+|t:|1743878133
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Moltres|Moltres|69/100 par
+|-damage|p2a: Moltres|19/100 par|[from] Stealth Rock
+|move|p1a: Scizor|Bullet Punch|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|6/100 par
+|
+|upkeep
+|turn|27
+|inactive|MarMarteau has 25 seconds left this turn.
+|inactive|MarMarteau has 20 seconds left.
+|inactive|andy miloknockis has 120 seconds left.
+|
+|t:|1743878147
+|switch|p1a: Gholdengo|Gholdengo|97/100
+|move|p2a: Moltres|Flamethrower|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|25/100
+|
+|upkeep
+|turn|28
+|inactive|MarMarteau has 30 seconds left this turn.
+|
+|t:|1743878153
+|move|p1a: Gholdengo|Hex|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|upkeep
+|inactive|MarMarteau has 30 seconds left this turn.
+|
+|t:|1743878158
+|switch|p2a: Landorus|Landorus-Therian, M|76/100
+|-damage|p2a: Landorus|63/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gholdengo|atk|1
+|turn|29
+|
+|t:|1743878167
+|move|p2a: Landorus|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|22/100
+|
+|t:|1743878172
+|switch|p2a: Iron Valiant|Iron Valiant, tera:Ghost|37/100|[from] U-turn
+|-damage|p2a: Iron Valiant|25/100|[from] Stealth Rock
+|-damage|p2a: Iron Valiant|12/100|[from] Spikes
+|move|p1a: Gholdengo|Make It Rain|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743878174
+|switch|p2a: Landorus|Landorus-Therian, M|63/100
+|-damage|p2a: Landorus|51/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gholdengo|atk|1
+|turn|30
+|
+|t:|1743878184
+|switch|p1a: Electivire|Electivire, M|100/100
+|-item|p1a: Electivire|Air Balloon
+|move|p2a: Landorus|U-turn|p1a: Electivire
+|-damage|p1a: Electivire|66/100
+|-enditem|p1a: Electivire|Air Balloon
+|
+|t:|1743878188
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|76/100|[from] U-turn
+|-damage|p2a: Ogerpon|64/100|[from] Stealth Rock
+|-damage|p2a: Ogerpon|51/100|[from] Spikes
+|
+|upkeep
+|turn|31
+|
+|t:|1743878191
+|move|p2a: Ogerpon|Horn Leech|p1a: Electivire
+|-damage|p1a: Electivire|0 fnt
+|-heal|p2a: Ogerpon|83/100|[from] drain|[of] p1a: Electivire
+|faint|p1a: Electivire
+|
+|upkeep
+|
+|t:|1743878196
+|switch|p1a: Scizor|Scizor, M|100/100
+|turn|32
+|
+|t:|1743878201
+|switch|p2a: Landorus|Landorus-Therian, M|51/100
+|-damage|p2a: Landorus|39/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|Close Combat|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|25/100
+|-unboost|p1a: Scizor|def|1
+|-unboost|p1a: Scizor|spd|1
+|-damage|p1a: Scizor|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|upkeep
+|turn|33
+|
+|t:|1743878215
+|switch|p1a: Gholdengo|Gholdengo|22/100
+|move|p2a: Landorus|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|18/100
+|
+|t:|1743878219
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|83/100|[from] U-turn
+|-damage|p2a: Ogerpon|71/100|[from] Stealth Rock
+|-damage|p2a: Ogerpon|59/100|[from] Spikes
+|
+|upkeep
+|turn|34
+|
+|t:|1743878224
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Gholdengo|[anim] Ivy Cudgel Water
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743878225
+|switch|p1a: Scizor|Scizor, M|84/100
+|turn|35
+|
+|t:|1743878227
+|switch|p2a: Landorus|Landorus-Therian, M|25/100
+|-damage|p2a: Landorus|13/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|Close Combat|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-unboost|p1a: Scizor|def|1
+|-unboost|p1a: Scizor|spd|1
+|-damage|p1a: Scizor|67/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743878233
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|59/100
+|-damage|p2a: Ogerpon|46/100|[from] Stealth Rock
+|-damage|p2a: Ogerpon|34/100|[from] Spikes
+|turn|36
+|
+|t:|1743878243
+|-terastallize|p1a: Scizor|Steel
+|move|p1a: Scizor|Bullet Punch|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|14/100
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Scizor|[anim] Ivy Cudgel Water
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|win|MarMarteau
+|raw|andy miloknockis's rating: 1291 &rarr; <strong>1274</strong><br />(-17 for losing)
+|raw|MarMarteau's rating: 1409 &rarr; <strong>1422</strong><br />(+13 for winning)
+|l|☆andy miloknockis
+|player|p1|
+|l|☆MarMarteau
+|player|p2|

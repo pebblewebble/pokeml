@@ -1,0 +1,217 @@
+|j|☆LostInTheTallGrass
+|j|☆MKUtopias
+|t:|1743798633
+|gametype|singles
+|player|p1|LostInTheTallGrass|hiker-gen4|1289
+|player|p2|MKUtopias|lance-gen3|1241
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Slowbro, M|
+|poke|p1|Rillaboom, M|
+|poke|p1|Great Tusk|
+|poke|p1|Zamazenta-*|
+|poke|p1|Kingambit, M|
+|poke|p1|Heatran, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Alomomola, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Sinistcha|
+|poke|p2|Iron Treads|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LostInTheTallGrass)
+|
+|t:|1743798641
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1743798648
+|switch|p2a: Sinistcha|Sinistcha|100/100
+|move|p1a: Rillaboom|Grassy Glide|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|85/100
+|
+|-heal|p2a: Sinistcha|91/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1743798654
+|move|p1a: Rillaboom|Taunt|p2a: Sinistcha
+|-start|p2a: Sinistcha|move: Taunt
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|76/100
+|-heal|p2a: Sinistcha|100/100|[from] drain|[of] p1a: Rillaboom
+|-status|p1a: Rillaboom|brn
+|
+|-heal|p1a: Rillaboom|83/100 brn|[from] Grassy Terrain
+|-damage|p1a: Rillaboom|76/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743798658
+|move|p1a: Rillaboom|U-turn|p2a: Sinistcha
+|-damage|p2a: Sinistcha|91/100
+|
+|t:|1743798660
+|switch|p1a: Slowbro|Slowbro, M|100/100|[from] U-turn
+|move|p2a: Sinistcha|Shadow Ball|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-crit|p1a: Slowbro
+|-damage|p1a: Slowbro|8/100
+|-unboost|p1a: Slowbro|spd|1
+|
+|-heal|p2a: Sinistcha|97/100|[from] Grassy Terrain
+|-heal|p1a: Slowbro|14/100|[from] Grassy Terrain
+|-heal|p1a: Slowbro|20/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743798665
+|switch|p1a: Heatran|Heatran, M|100/100
+|move|p2a: Sinistcha|Shadow Ball|p1a: Heatran
+|-damage|p1a: Heatran|80/100
+|
+|-heal|p2a: Sinistcha|100/100|[from] Grassy Terrain
+|-heal|p1a: Heatran|86/100|[from] Grassy Terrain
+|-heal|p1a: Heatran|92/100|[from] item: Leftovers
+|-end|p2a: Sinistcha|move: Taunt
+|upkeep
+|turn|5
+|
+|t:|1743798669
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Heatran|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: MKUtopias|move: Stealth Rock
+|
+|-heal|p1a: Heatran|98/100|[from] Grassy Terrain
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1743798674
+|move|p1a: Heatran|Will-O-Wisp|p2a: Alomomola
+|-status|p2a: Alomomola|brn
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-damage|p2a: Alomomola|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743798677
+|move|p1a: Heatran|Will-O-Wisp|p2a: Alomomola|[miss]
+|-miss|p1a: Heatran|p2a: Alomomola
+|move|p2a: Alomomola|Flip Turn|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|88/100
+|
+|t:|1743798683
+|switch|p2a: Big Bear|Ursaluna, F|100/100|[from] Flip Turn
+|-damage|p2a: Big Bear|94/100|[from] Stealth Rock
+|
+|-heal|p2a: Big Bear|100/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|-status|p2a: Big Bear|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|t:|1743798688
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Big Bear|Headlong Rush|p1a: Zamazenta
+|-damage|p1a: Zamazenta|38/100
+|-unboost|p2a: Big Bear|def|1
+|-unboost|p2a: Big Bear|spd|1
+|
+|-damage|p2a: Big Bear|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743798694
+|switch|p2a: Sinistcha|Sinistcha|100/100
+|move|p1a: Zamazenta|Body Press|p2a: Sinistcha
+|-immune|p2a: Sinistcha
+|
+|upkeep
+|turn|10
+|
+|t:|1743798697
+|switch|p1a: Rillaboom|Rillaboom, M|76/100 brn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|52/100 brn
+|
+|-heal|p1a: Rillaboom|58/100 brn|[from] Grassy Terrain
+|-damage|p1a: Rillaboom|52/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743798700
+|move|p1a: Rillaboom|U-turn|p2a: Sinistcha
+|-damage|p2a: Sinistcha|92/100
+|
+|t:|1743798703
+|switch|p1a: Zamazenta|Zamazenta|38/100|[from] U-turn
+|-enditem|p1a: Zamazenta|Grassy Seed
+|-boost|p1a: Zamazenta|def|1|[from] item: Grassy Seed
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|
+|-heal|p1a: Zamazenta|44/100|[from] Grassy Terrain
+|-heal|p2a: Sinistcha|98/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1743798708
+|-terastallize|p2a: Sinistcha|Poison
+|move|p1a: Zamazenta|Crunch|p2a: Sinistcha
+|-damage|p2a: Sinistcha|79/100
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|-heal|p2a: Sinistcha|99/100|[from] drain|[of] p1a: Zamazenta
+|faint|p1a: Zamazenta
+|
+|-heal|p2a: Sinistcha|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743798710
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|13
+|
+|t:|1743798713
+|move|p1a: Great Tusk|Ice Spinner|p2a: Sinistcha
+|-damage|p2a: Sinistcha|85/100
+|-fieldend|move: Grassy Terrain
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-heal|p2a: Sinistcha|100/100|[from] drain|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|-message|LostInTheTallGrass forfeited.
+|
+|win|MKUtopias
+|raw|LostInTheTallGrass's rating: 1289 &rarr; <strong>1261</strong><br />(-28 for losing)
+|raw|MKUtopias's rating: 1241 &rarr; <strong>1269</strong><br />(+28 for winning)
+|l|☆LostInTheTallGrass
+|player|p1|

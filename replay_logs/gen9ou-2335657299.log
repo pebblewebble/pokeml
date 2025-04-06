@@ -1,0 +1,291 @@
+|j|☆Ornaug
+|j|☆jiotave
+|t:|1743817755
+|gametype|singles
+|player|p1|Ornaug|swimmer|1432
+|player|p2|jiotave|hilbert|1405
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Frosmoth, M|
+|poke|p1|Gliscor, M|
+|poke|p1|Primarina, M|
+|poke|p1|Regidrago|
+|poke|p1|Rotom|
+|poke|p2|Araquanid, M|
+|poke|p2|Gholdengo|
+|poke|p2|Raging Bolt|
+|poke|p2|Feraligatr, M|
+|poke|p2|Kyurem|
+|poke|p2|Ceruledge, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ornaug)
+|
+|t:|1743817766
+|start
+|switch|p1a: Regidrago|Regidrago|100/100
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|turn|1
+|c|☆jiotave|Dragon energy
+|
+|t:|1743817783
+|move|p1a: Regidrago|Dragon Energy|p2a: Araquanid
+|-damage|p2a: Araquanid|20/100
+|move|p2a: Araquanid|Sticky Web|p1a: Regidrago
+|-sidestart|p1: Ornaug|move: Sticky Web
+|
+|upkeep
+|turn|2
+|-enditem|p2a: Araquanid|Custap Berry|[eat]
+|-activate|p2a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1743817791
+|move|p2a: Araquanid|Endeavor|p1a: Regidrago
+|-damage|p1a: Regidrago|13/100
+|move|p1a: Regidrago|Dragon Energy|p2a: Araquanid
+|-damage|p2a: Araquanid|9/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743817800
+|switch|p1a: Rotom|Rotom|100/100
+|move|p2a: Araquanid|Surf|p1a: Rotom
+|-damage|p1a: Rotom|17/100
+|
+|-heal|p1a: Rotom|23/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743817808
+|move|p1a: Rotom|Volt Switch|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|t:|1743817813
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1743817818
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|turn|5
+|
+|t:|1743817829
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|upkeep
+|turn|6
+|
+|t:|1743817838
+|move|p1a: Cinderace|U-turn|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|93/100
+|-ability|p2a: Ceruledge|Weak Armor|boost
+|-unboost|p2a: Ceruledge|def|1
+|-boost|p2a: Ceruledge|spe|2
+|
+|t:|1743817844
+|switch|p1a: Gliscor|Gliscor, M|100/100|[from] U-turn
+|move|p2a: Ceruledge|Bitter Blade|p1a: Gliscor
+|-damage|p1a: Gliscor|48/100
+|-heal|p2a: Ceruledge|100/100|[from] drain|[of] p1a: Gliscor
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+|
+|t:|1743817855
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: Gliscor|Toxic|p2a: Ceruledge|[miss]
+|-miss|p1a: Gliscor|p2a: Ceruledge
+|
+|-heal|p1a: Gliscor|60/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1743817864
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Ceruledge|Bitter Blade|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|73/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|t:|1743817873
+|-terastallize|p1a: Gliscor|Water
+|move|p2a: Ceruledge|Bitter Blade|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|30/100 tox
+|move|p1a: Gliscor|Toxic|p2a: Ceruledge|[miss]
+|-miss|p1a: Gliscor|p2a: Ceruledge
+|
+|-heal|p1a: Gliscor|43/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|c|☆jiotave|LOL
+|
+|t:|1743817885
+|move|p2a: Ceruledge|Bitter Blade|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|4/100 tox
+|move|p1a: Gliscor|Toxic|p2a: Ceruledge
+|-status|p2a: Ceruledge|tox
+|
+|-damage|p2a: Ceruledge|94/100 tox|[from] psn
+|-heal|p1a: Gliscor|17/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|t:|1743817896
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|
+|-damage|p2a: Ceruledge|82/100 tox|[from] psn
+|-heal|p1a: Gliscor|29/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|t:|1743817906
+|switch|p1a: Rotom|Rotom|23/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-heal|p2a: Ceruledge|94/100 tox|[from] drain|[of] p1a: Rotom
+|faint|p1a: Rotom
+|
+|-damage|p2a: Ceruledge|75/100 tox|[from] psn
+|upkeep
+|
+|t:|1743817912
+|switch|p1a: Gliscor|Gliscor, M, tera:Water|29/100 tox
+|turn|13
+|
+|t:|1743817919
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Ceruledge|Bitter Blade|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-damage|p2a: Ceruledge|50/100 tox|[from] psn
+|-heal|p1a: Gliscor|42/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|t:|1743817930
+|switch|p1a: Regidrago|Regidrago|13/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Regidrago
+|-resisted|p1a: Regidrago
+|-damage|p1a: Regidrago|0 fnt
+|-heal|p2a: Ceruledge|62/100 tox|[from] drain|[of] p1a: Regidrago
+|faint|p1a: Regidrago
+|
+|-damage|p2a: Ceruledge|31/100 tox|[from] psn
+|upkeep
+|
+|t:|1743817933
+|switch|p1a: Gliscor|Gliscor, M, tera:Water|42/100 tox
+|turn|15
+|
+|t:|1743817943
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Ceruledge|Bitter Blade|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-damage|p2a: Ceruledge|0 fnt|[from] psn
+|faint|p2a: Ceruledge
+|-heal|p1a: Gliscor|54/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743817958
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|16
+|
+|t:|1743817963
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Gliscor|U-turn|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|97/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|t:|1743817970
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|17
+|
+|t:|1743817993
+|-terastallize|p2a: Gholdengo|Fairy
+|move|p1a: Cinderace|Pyro Ball|p2a: Gholdengo|[miss]
+|-miss|p1a: Cinderace|p2a: Gholdengo
+|move|p2a: Gholdengo|Shadow Ball|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|inactive|Ornaug has 120 seconds left.
+|
+|t:|1743818025
+|switch|p1a: Frosmoth|Frosmoth, M|100/100
+|turn|18
+|
+|t:|1743818031
+|move|p2a: Gholdengo|Psyshock|p1a: Frosmoth
+|-damage|p1a: Frosmoth|54/100
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|
+|upkeep
+|turn|19
+|
+|t:|1743818039
+|move|p2a: Gholdengo|Psyshock|p1a: Frosmoth
+|-damage|p1a: Frosmoth|10/100
+|move|p1a: Frosmoth|Giga Drain|p2a: Gholdengo
+|-damage|p2a: Gholdengo|62/100
+|-heal|p1a: Frosmoth|26/100|[from] drain|[of] p2a: Gholdengo
+|
+|upkeep
+|turn|20
+|
+|t:|1743818047
+|move|p2a: Gholdengo|Psyshock|p1a: Frosmoth
+|-damage|p1a: Frosmoth|0 fnt
+|faint|p1a: Frosmoth
+|
+|upkeep
+|-message|Ornaug forfeited.
+|
+|win|jiotave
+|raw|Ornaug's rating: 1432 &rarr; <strong>1410</strong><br />(-22 for losing)
+|raw|jiotave's rating: 1405 &rarr; <strong>1427</strong><br />(+22 for winning)
+|l|☆Ornaug
+|player|p1|
+|l|☆jiotave
+|player|p2|

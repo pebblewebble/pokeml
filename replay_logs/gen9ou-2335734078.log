@@ -1,0 +1,167 @@
+|j|☆Avester
+|j|☆Marco264
+|t:|1743827760
+|gametype|singles
+|player|p1|Avester|volkner|1203
+|player|p2|Marco264|2|1255
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Alomomola, F|
+|poke|p1|Gholdengo|
+|poke|p1|Weavile, M|
+|poke|p1|Rillaboom, F|
+|poke|p1|Hatterene, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Skeledirge, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Masquerain, M|
+|poke|p2|Quaquaval, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Avester)
+|
+|t:|1743827769
+|start
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1743827779
+|move|p2a: Meowscarada|Triple Axel|p1a: Rillaboom
+|-start|p2a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|78/100
+|-hitcount|p1a: Rillaboom|1
+|move|p1a: Rillaboom|U-turn|p2a: Meowscarada
+|-damage|p2a: Meowscarada|42/100
+|
+|t:|1743827800
+|switch|p1a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|
+|-heal|p2a: Meowscarada|49/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1743827805
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|52/100
+|
+|-heal|p2a: Slowking|58/100|[from] Grassy Terrain
+|-heal|p2a: Slowking|64/100|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1743827813
+|move|p1a: Gholdengo|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|15/100
+|move|p2a: Slowking|Future Sight|p1a: Gholdengo
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p2a: Slowking|21/100|[from] Grassy Terrain
+|-heal|p2a: Slowking|27/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1743827831
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|switch|p2a: Meowscarada|Meowscarada, F|49/100
+|
+|-heal|p2a: Meowscarada|55/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1743827843
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|move|p1a: Weavile|Triple Axel|p2a: Corviknight|[miss]
+|-miss|p1a: Weavile|p2a: Corviknight
+|
+|-end|p1a: Weavile|move: Future Sight
+|-immune|p1a: Weavile
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|inactive|Avester has 120 seconds left.
+|
+|t:|1743827874
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Corviknight|Body Press|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|7
+|inactive|Avester has 120 seconds left.
+|
+|t:|1743827880
+|switch|p2a: Slowking|Slowking-Galar, M|60/100
+|move|p1a: Gholdengo|Trick|p2a: Slowking
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Slowking
+|-item|p2a: Slowking|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Black Sludge|[from] move: Trick
+|
+|-damage|p1a: Gholdengo|88/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|inactive|Avester has 120 seconds left.
+|
+|t:|1743827891
+|move|p1a: Gholdengo|Trick|p2a: Slowking
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Slowking
+|-item|p2a: Slowking|Black Sludge|[from] move: Trick
+|-item|p1a: Gholdengo|Choice Scarf|[from] move: Trick
+|move|p2a: Slowking|Slack Off|p2a: Slowking
+|-heal|p2a: Slowking|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743827900
+|switch|p2a: Masquerain|Masquerain, M|100/100
+|-ability|p2a: Masquerain|Intimidate|boost
+|-unboost|p1a: Gholdengo|atk|1
+|move|p1a: Gholdengo|Shadow Ball|p2a: Masquerain
+|-damage|p2a: Masquerain|41/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743827914
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Quaquaval
+|-damage|p2a: Quaquaval|38/100
+|-unboost|p2a: Quaquaval|spd|1
+|
+|upkeep
+|turn|11
+|
+|t:|1743827920
+|move|p1a: Gholdengo|Shadow Ball|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|upkeep
+|-message|Marco264 forfeited.
+|
+|win|Avester
+|raw|Avester's rating: 1203 &rarr; <strong>1232</strong><br />(+29 for winning)
+|raw|Marco264's rating: 1255 &rarr; <strong>1226</strong><br />(-29 for losing)
+|l|☆Marco264
+|player|p2|
+|l|☆Avester
+|player|p1|

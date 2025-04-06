@@ -1,0 +1,259 @@
+|j|☆xxholderoftehhaxxx
+|j|☆pamphilus
+|t:|1743891739
+|gametype|singles
+|player|p1|xxholderoftehhaxxx|harlequin|1473
+|player|p2|pamphilus|steven|1539
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Electrode-Hisui|
+|poke|p1|Alomomola, F|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Meowscarada, M|
+|poke|p1|Cetitan, M|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Alomomola, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Sinistcha|
+|poke|p2|Zamazenta-*|
+|poke|p2|Scizor, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xxholderoftehhaxxx)
+|
+|t:|1743891743
+|start
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|1
+|
+|t:|1743891749
+|move|p1a: Electrode|Volt Switch|p2a: Scizor
+|-damage|p2a: Scizor|54/100
+|-damage|p1a: Electrode|91/100|[from] item: Life Orb
+|
+|t:|1743891752
+|switch|p1a: Alomomola|Alomomola, F|100/100|[from] Volt Switch
+|move|p2a: Scizor|Knock Off|p1a: Alomomola
+|-damage|p1a: Alomomola|67/100
+|-damage|p2a: Scizor|37/100|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|-enditem|p1a: Alomomola|Rocky Helmet|[from] move: Knock Off|[of] p2a: Scizor
+|
+|upkeep
+|turn|2
+|
+|t:|1743891762
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Alomomola|Flip Turn|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|95/100
+|
+|t:|1743891764
+|switch|p1a: Electrode|Electrode-Hisui|91/100|[from] Flip Turn
+|
+|upkeep
+|turn|3
+|
+|t:|1743891769
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Electrode|Leaf Storm|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-crit|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|16/100
+|-unboost|p1a: Electrode|spa|2
+|-damage|p1a: Electrode|81/100|[from] item: Life Orb
+|
+|-heal|p2a: Ting-Lu|23/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743891776
+|switch|p2a: Scizor|Scizor, F|37/100
+|move|p1a: Electrode|Leaf Storm|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|27/100
+|-unboost|p1a: Electrode|spa|2
+|-damage|p1a: Electrode|71/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|t:|1743891785
+|move|p1a: Electrode|Foul Play|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|-damage|p1a: Electrode|61/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743891795
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|turn|6
+|
+|t:|1743891798
+|move|p1a: Electrode|Taunt|p2a: Alomomola
+|-start|p2a: Alomomola|move: Taunt
+|cant|p2a: Alomomola|move: Taunt|Wish
+|
+|upkeep
+|turn|7
+|
+|t:|1743891803
+|move|p1a: Electrode|Volt Switch|p2a: Alomomola
+|-supereffective|p2a: Alomomola
+|-damage|p2a: Alomomola|77/100
+|-damage|p1a: Electrode|51/100|[from] item: Life Orb
+|
+|t:|1743891809
+|switch|p1a: Meowscarada|Meowscarada, M|100/100|[from] Volt Switch
+|move|p2a: Alomomola|Flip Turn|p1a: Meowscarada
+|-resisted|p1a: Meowscarada
+|-damage|p1a: Meowscarada|88/100
+|
+|t:|1743891816
+|switch|p2a: Zamazenta|Zamazenta|100/100|[from] Flip Turn
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743891822
+|move|p1a: Meowscarada|U-turn|p2a: Zamazenta
+|-start|p1a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|92/100
+|
+|t:|1743891830
+|switch|p1a: Alomomola|Alomomola, F|99/100|[from] U-turn
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|upkeep
+|turn|9
+|
+|t:|1743891833
+|move|p2a: Zamazenta|Body Press|p1a: Alomomola
+|-damage|p1a: Alomomola|45/100
+|move|p1a: Alomomola|Alluring Voice|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|74/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743891839
+|move|p2a: Zamazenta|Body Press|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|upkeep
+|
+|t:|1743891842
+|switch|p1a: Electrode|Electrode-Hisui|51/100
+|turn|11
+|
+|t:|1743891845
+|move|p1a: Electrode|Leaf Storm|p2a: Zamazenta
+|-damage|p2a: Zamazenta|16/100
+|-unboost|p1a: Electrode|spa|2
+|-damage|p1a: Electrode|41/100|[from] item: Life Orb
+|move|p2a: Zamazenta|Body Press|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|-damage|p2a: Zamazenta|0 fnt|[from] ability: Aftermath|[of] p1a: Electrode
+|faint|p1a: Electrode
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1743891856
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|turn|12
+|
+|t:|1743891861
+|-terastallize|p2a: Alomomola|Ghost
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|-unboost|p1a: Raging Bolt|spa|2
+|faint|p2a: Alomomola
+|
+|upkeep
+|
+|t:|1743891873
+|switch|p2a: Sinistcha|Sinistcha|100/100
+|turn|13
+|
+|t:|1743891877
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Cetitan|Cetitan, M|100/100
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|
+|upkeep
+|turn|14
+|
+|t:|1743891880
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Cetitan
+|-damage|p1a: Cetitan|72/100
+|-status|p1a: Cetitan|brn
+|move|p1a: Cetitan|Avalanche|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-crit|p2a: Sinistcha
+|-damage|p2a: Sinistcha|33/100
+|
+|-damage|p1a: Cetitan|66/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743891890
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|move|p2a: Sinistcha|Strength Sap|p1a: Raging Bolt
+|-unboost|p1a: Raging Bolt|atk|1
+|-heal|p2a: Sinistcha|81/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743891894
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|-unboost|p1a: Raging Bolt|spa|2
+|faint|p2a: Sinistcha
+|
+|upkeep
+|
+|t:|1743891899
+|switch|p2a: Ting-Lu|Ting-Lu|23/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|17
+|
+|t:|1743891902
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|-unboost|p1a: Raging Bolt|spa|2
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|-message|pamphilus forfeited.
+|
+|win|xxholderoftehhaxxx
+|raw|xxholderoftehhaxxx's rating: 1473 &rarr; <strong>1497</strong><br />(+24 for winning)
+|raw|pamphilus's rating: 1539 &rarr; <strong>1515</strong><br />(-24 for losing)
+|l|☆pamphilus
+|player|p2|
+|l|☆xxholderoftehhaxxx
+|player|p1|

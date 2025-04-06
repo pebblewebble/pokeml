@@ -1,0 +1,380 @@
+|j|☆Artorius365
+|j|☆quducks
+|t:|1743901187
+|gametype|singles
+|player|p1|Artorius365|102|1304
+|player|p2|quducks|265|1325
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Leaves|
+|poke|p1|Pincurchin, M|
+|poke|p1|Iron Crown|
+|poke|p1|Iron Valiant|
+|poke|p1|Gliscor, M|
+|poke|p1|Primarina, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Gholdengo|
+|poke|p2|Cinderace, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Glimmora, M|
+|poke|p2|Darkrai|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by quducks)
+|
+|t:|1743901211
+|start
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|switch|p2a: Darkrai|Darkrai|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|turn|1
+|
+|t:|1743901221
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-activate|p1a: Iron Valiant|ability: Quark Drive
+|-start|p1a: Iron Valiant|quarkdrivespe
+|
+|upkeep
+|turn|2
+|
+|t:|1743901229
+|move|p1a: Iron Valiant|Moonblast|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|25/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p2a: Raging Bolt|31/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743901236
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-activate|p1a: Iron Crown|ability: Quark Drive
+|-start|p1a: Iron Crown|quarkdrivespa
+|turn|3
+|
+|t:|1743901243
+|move|p2a: Raging Bolt|Thunderclap|p1a: Iron Crown
+|-damage|p1a: Iron Crown|67/100
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|16/100
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|2/100
+|-hitcount|p2a: Raging Bolt|2
+|
+|-heal|p2a: Raging Bolt|9/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743901250
+|move|p1a: Iron Crown|Psychic Noise|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743901265
+|switch|p2a: Bugz|Cinderace, F|100/100
+|turn|5
+|
+|t:|1743901270
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Bugz|Pyro Ball|p1a: Gliscor
+|-damage|p1a: Gliscor|64/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|6
+|
+|t:|1743901281
+|move|p2a: Bugz|U-turn|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|57/100 tox
+|
+|t:|1743901283
+|switch|p2a: Gholdengo|Gholdengo|100/100|[from] U-turn
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Gliscor|Earthquake|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|-heal|p1a: Gliscor|69/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1743901291
+|switch|p1a: Primarina|Primarina, F|100/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Primarina
+|-damage|p1a: Primarina|75/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743901300
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Primarina|Hyper Voice|p2a: Gholdengo
+|-damage|p2a: Gholdengo|50/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|9
+|
+|t:|1743901322
+|-terastallize|p2a: Gholdengo|Water
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|99/100
+|move|p1a: Primarina|Hyper Voice|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|77/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743901326
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Primarina|Moonblast|p2a: Gholdengo
+|-damage|p2a: Gholdengo|25/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743901337
+|move|p2a: Gholdengo|Make It Rain|p1a: Primarina
+|-damage|p1a: Primarina|6/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Primarina|Moonblast|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743901344
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|turn|12
+|
+|t:|1743901349
+|move|p2a: Glimmora|Power Gem|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|upkeep
+|
+|t:|1743901352
+|switch|p1a: Iron Crown|Iron Crown|67/100
+|turn|13
+|
+|t:|1743901358
+|switch|p2a: Bugz|Cinderace, F|100/100
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Bugz
+|-resisted|p2a: Bugz
+|-crit|p2a: Bugz
+|-damage|p2a: Bugz|76/100
+|-resisted|p2a: Bugz
+|-damage|p2a: Bugz|58/100
+|-hitcount|p2a: Bugz|2
+|
+|upkeep
+|turn|14
+|
+|t:|1743901365
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Gliscor|Gliscor, M|69/100 tox
+|move|p2a: Bugz|Pyro Ball|p1a: Gliscor
+|-damage|p1a: Gliscor|36/100 tox
+|
+|-heal|p1a: Gliscor|49/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|t:|1743901370
+|move|p2a: Bugz|U-turn|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|41/100 tox
+|
+|t:|1743901376
+|switch|p2a: Glimmora|Glimmora, M|100/100|[from] U-turn
+|move|p1a: Gliscor|Facade|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|81/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Artorius365|move: Toxic Spikes
+|
+|-heal|p1a: Gliscor|54/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|t:|1743901386
+|move|p2a: Glimmora|Power Gem|p1a: Gliscor
+|-damage|p1a: Gliscor|6/100 tox
+|move|p1a: Gliscor|Earthquake|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Artorius365|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|-heal|p1a: Gliscor|19/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743901390
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|17
+|
+|t:|1743901393
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Darkrai|Dark Pulse|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|31/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|18
+|
+|t:|1743901399
+|switch|p1a: Pincurchin|Pincurchin, M|100/100
+|-status|p1a: Pincurchin|tox
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|move|p2a: Darkrai|Dark Pulse|p1a: Pincurchin
+|-damage|p1a: Pincurchin|63/100 tox
+|
+|-damage|p1a: Pincurchin|57/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1743901405
+|switch|p2a: Bugz|Cinderace, F|58/100
+|move|p1a: Pincurchin|Discharge|p2a: Bugz
+|-damage|p2a: Bugz|9/100
+|-status|p2a: Bugz|par
+|
+|-damage|p1a: Pincurchin|45/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1743901411
+|move|p2a: Bugz|Pyro Ball|p1a: Pincurchin|[miss]
+|-miss|p2a: Bugz|p1a: Pincurchin
+|move|p1a: Pincurchin|Scald|p2a: Bugz
+|-supereffective|p2a: Bugz
+|-damage|p2a: Bugz|0 fnt
+|faint|p2a: Bugz
+|
+|-damage|p1a: Pincurchin|27/100 tox|[from] psn
+|upkeep
+|
+|t:|1743901417
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|21
+|
+|t:|1743901419
+|move|p2a: Darkrai|Dark Pulse|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|
+|upkeep
+|
+|t:|1743901425
+|switch|p1a: Iron Crown|Iron Crown|67/100
+|-activate|p1a: Iron Crown|ability: Quark Drive
+|-start|p1a: Iron Crown|quarkdrivespa
+|turn|22
+|
+|t:|1743901429
+|-terastallize|p1a: Iron Crown|Fairy
+|move|p2a: Darkrai|Dark Pulse|p1a: Iron Crown
+|-resisted|p1a: Iron Crown
+|-damage|p1a: Iron Crown|51/100
+|cant|p1a: Iron Crown|flinch
+|
+|upkeep
+|turn|23
+|
+|t:|1743901437
+|move|p2a: Darkrai|Sludge Bomb|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|11/100
+|-status|p1a: Iron Crown|psn
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Darkrai
+|-damage|p2a: Darkrai|61/100
+|-damage|p2a: Darkrai|19/100
+|-hitcount|p2a: Darkrai|2
+|
+|-damage|p1a: Iron Crown|0 fnt|[from] psn
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|upkeep
+|
+|t:|1743901445
+|switch|p1a: Iron Leaves|Iron Leaves|100/100
+|-status|p1a: Iron Leaves|tox
+|-activate|p1a: Iron Leaves|ability: Quark Drive
+|-start|p1a: Iron Leaves|quarkdriveatk
+|turn|24
+|
+|t:|1743901454
+|move|p2a: Darkrai|Dark Pulse|p1a: Iron Leaves
+|-supereffective|p1a: Iron Leaves
+|-damage|p1a: Iron Leaves|7/100 tox
+|move|p1a: Iron Leaves|Close Combat|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|-unboost|p1a: Iron Leaves|def|1
+|-unboost|p1a: Iron Leaves|spd|1
+|faint|p2a: Darkrai
+|
+|-damage|p1a: Iron Leaves|1/100 tox|[from] psn
+|upkeep
+|
+|t:|1743901458
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|25
+|
+|t:|1743901468
+|move|p1a: Iron Leaves|Close Combat|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|78/100
+|-unboost|p1a: Iron Leaves|def|1
+|-unboost|p1a: Iron Leaves|spd|1
+|move|p2a: Dragonite|Ice Spinner|p1a: Iron Leaves
+|-supereffective|p1a: Iron Leaves
+|-damage|p1a: Iron Leaves|0 fnt
+|-fieldend|move: Electric Terrain
+|faint|p1a: Iron Leaves
+|-end|p1a: Iron Leaves|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743901472
+|switch|p1a: Gliscor|Gliscor, M|31/100 tox
+|turn|26
+|
+|t:|1743901474
+|move|p2a: Dragonite|Ice Spinner|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|win|quducks
+|raw|Artorius365's rating: 1304 &rarr; <strong>1285</strong><br />(-19 for losing)
+|raw|quducks's rating: 1325 &rarr; <strong>1344</strong><br />(+19 for winning)
+|l|☆Artorius365
+|player|p1|

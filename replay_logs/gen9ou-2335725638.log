@@ -1,0 +1,216 @@
+|j|☆ChilemRaen
+|j|☆DangerMouse2
+|t:|1743826555
+|gametype|singles
+|player|p1|ChilemRaen|266|1203
+|player|p2|DangerMouse2|dragontamer|1238
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ribombee, M|
+|poke|p1|Gholdengo|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Moth|
+|poke|p1|Decidueye-Hisui, F|
+|poke|p1|Iron Boulder|
+|poke|p2|Pelipper, M|
+|poke|p2|Zapdos|
+|poke|p2|Iron Crown|
+|poke|p2|Iron Jugulis|
+|poke|p2|Iron Treads|
+|poke|p2|Barraskewda, M|
+|teampreview
+|
+|t:|1743826583
+|start
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1743826589
+|move|p1a: Gholdengo|Shadow Ball|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743826598
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|turn|2
+|
+|t:|1743826604
+|-terastallize|p2a: Barraskewda|Water
+|move|p2a: Barraskewda|Flip Turn|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|t:|1743826612
+|switch|p2a: Zapdos|Zapdos|100/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743826616
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|turn|3
+|
+|t:|1743826625
+|move|p1a: Ribombee|Sticky Web|p2a: Zapdos
+|-sidestart|p2: DangerMouse2|move: Sticky Web
+|move|p2a: Zapdos|Thunder|p1a: Ribombee
+|-enditem|p1a: Ribombee|Focus Sash
+|-damage|p1a: Ribombee|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743826635
+|move|p1a: Ribombee|Psychic|p2a: Zapdos
+|-damage|p2a: Zapdos|76/100
+|move|p2a: Zapdos|Hurricane|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743826669
+|switch|p1a: Decidueye|Decidueye-Hisui, F|100/100
+|turn|5
+|
+|t:|1743826675
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|move|p2a: Zapdos|Hurricane|p1a: Iron Moth
+|-damage|p1a: Iron Moth|34/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743826692
+|move|p1a: Iron Moth|Sludge Wave|p2a: Zapdos
+|-damage|p2a: Zapdos|14/100
+|move|p2a: Zapdos|Hurricane|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743826698
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|7
+|
+|t:|1743826701
+|move|p1a: Great Tusk|Rapid Spin|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-boost|p1a: Great Tusk|spe|1
+|faint|p2a: Zapdos
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743826707
+|switch|p2a: Barraskewda|Barraskewda, M, tera:Water|100/100
+|-activate|p2a: Barraskewda|move: Sticky Web
+|-unboost|p2a: Barraskewda|spe|1
+|turn|8
+|
+|t:|1743826715
+|move|p2a: Barraskewda|Flip Turn|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|t:|1743826722
+|switch|p2a: Iron Jugulis|Iron Jugulis|100/100|[from] Flip Turn
+|
+|-weather|none
+|upkeep
+|
+|t:|1743826733
+|switch|p1a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p1a: Iron Boulder|Booster Energy
+|-activate|p1a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Boulder|quarkdrivespe
+|turn|9
+|
+|t:|1743826743
+|-terastallize|p1a: Iron Boulder|Water
+|move|p1a: Iron Boulder|Swords Dance|p1a: Iron Boulder
+|-boost|p1a: Iron Boulder|atk|2
+|move|p2a: Iron Jugulis|Dark Pulse|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|59/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743826751
+|move|p1a: Iron Boulder|Mighty Cleave|p2a: Iron Jugulis
+|-supereffective|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|0 fnt
+|faint|p2a: Iron Jugulis
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743826763
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-activate|p2a: Iron Crown|move: Sticky Web
+|-unboost|p2a: Iron Crown|spe|1
+|turn|11
+|
+|t:|1743826767
+|move|p1a: Iron Boulder|Close Combat|p2a: Iron Crown
+|-damage|p2a: Iron Crown|20/100
+|-unboost|p1a: Iron Boulder|def|1
+|-unboost|p1a: Iron Boulder|spd|1
+|move|p2a: Iron Crown|Psyshock|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|0 fnt
+|faint|p1a: Iron Boulder
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743826771
+|switch|p1a: Decidueye|Decidueye-Hisui, F|100/100
+|turn|12
+|
+|t:|1743826774
+|move|p1a: Decidueye|Trailblaze|p2a: Iron Crown
+|-resisted|p2a: Iron Crown
+|-damage|p2a: Iron Crown|8/100
+|-boost|p1a: Decidueye|spe|1
+|move|p2a: Iron Crown|Psyshock|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|0 fnt
+|faint|p1a: Decidueye
+|
+|win|DangerMouse2
+|raw|ChilemRaen's rating: 1203 &rarr; <strong>1181</strong><br />(-22 for losing)
+|raw|DangerMouse2's rating: 1238 &rarr; <strong>1260</strong><br />(+22 for winning)
+|l|☆DangerMouse2
+|player|p2|
+|c|☆ChilemRaen|Gg
+|l|☆ChilemRaen
+|player|p1|

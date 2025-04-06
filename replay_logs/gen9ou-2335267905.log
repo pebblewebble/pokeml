@@ -1,0 +1,387 @@
+|j|☆2(H2O)
+|j|☆Mr.diversity
+|t:|1743780046
+|gametype|singles
+|player|p1|2(H2O)|chase|1758
+|player|p2|Mr.diversity|102|1800
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Walking Wake|
+|poke|p1|Ninetales, F|
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Great Tusk|
+|poke|p2|Heatran, M|
+|poke|p2|Clodsire, F|
+|poke|p2|Armarouge, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 2(H2O))
+|
+|t:|1743780053
+|start
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ninetales|atk|1
+|turn|1
+|
+|t:|1743780060
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Landorus|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|27/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1743780066
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|-item|p2a: Landorus|Choice Band|[from] ability: Frisk|[of] p1a: Typhlosion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743780071
+|move|p1a: Typhlosion|Focus Blast|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|64/100
+|move|p2a: Landorus|Earthquake|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743780076
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisspe
+|turn|3
+|
+|t:|1743780078
+|switch|p2a: Armarouge|Armarouge, M|100/100
+|move|p1a: Great Tusk|Stealth Rock|p2a: Armarouge
+|-sidestart|p2: Mr.diversity|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743780082
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|27/100
+|move|p2a: Armarouge|Endure||[still]
+|-fail|p2a: Armarouge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743780086
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|move|p2a: Armarouge|Armor Cannon|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|75/100
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743780094
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|-damage|p2a: Clodsire|94/100|[from] Stealth Rock
+|move|p1a: Walking Wake|Draco Meteor|p2a: Clodsire
+|-damage|p2a: Clodsire|46/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Clodsire|52/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743780097
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisspe
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743780104
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Walking Wake|Walking Wake|75/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|switch|p2a: Landorus|Landorus-Therian, M|64/100
+|-damage|p2a: Landorus|51/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Walking Wake|atk|1
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|upkeep
+|turn|9
+|
+|t:|1743780111
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Landorus|Earthquake|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|j| js snsjsjsjs
+|
+|t:|1743780123
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisspe
+|turn|10
+|j| ayayalaptop
+|
+|t:|1743780127
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Great Tusk|Ice Spinner|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|66/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743780130
+|move|p1a: Great Tusk|Ice Spinner|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|31/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Great Tusk
+|-damage|p1a: Great Tusk|87/100
+|-boost|p2a: Great Tusk|spe|1
+|-damage|p2a: Great Tusk|14/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|-sideend|p2: Mr.diversity|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743780134
+|move|p2a: Great Tusk|Ice Spinner|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|39/100
+|-damage|p2a: Great Tusk|0 fnt|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|move|p1a: Great Tusk|Ice Spinner|p2: Great Tusk|[notarget]
+|-fail|p1a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743780142
+|switch|p2a: Landorus|Landorus-Therian, M|51/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|turn|13
+|l| ayayalaptop
+|
+|t:|1743780145
+|move|p1a: Great Tusk|Ice Spinner|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743780147
+|switch|p2a: Armarouge|Armarouge, M|100/100
+|turn|14
+|
+|t:|1743780148
+|move|p1a: Great Tusk|Stealth Rock|p2a: Armarouge
+|-sidestart|p2: Mr.diversity|move: Stealth Rock
+|move|p2a: Armarouge|Armor Cannon|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743780150
+|switch|p1a: Walking Wake|Walking Wake|75/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|15
+|
+|t:|1743780152
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|-damage|p2a: Clodsire|94/100|[from] Stealth Rock
+|move|p1a: Walking Wake|Hydro Steam|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100|[from] ability: Water Absorb|[of] p1a: Walking Wake
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743780156
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|27/100
+|switch|p2a: Heatran|Heatran, M|100/100
+|-damage|p2a: Heatran|88/100|[from] Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|17
+|
+|t:|1743780163
+|move|p2a: Heatran|Power Gem|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1743780165
+|switch|p1a: Walking Wake|Walking Wake|75/100
+|turn|18
+|
+|t:|1743780171
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|-damage|p2a: Clodsire|94/100|[from] Stealth Rock
+|move|p1a: Walking Wake|Hydro Steam|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100|[from] ability: Water Absorb|[of] p1a: Walking Wake
+|
+|upkeep
+|turn|19
+|
+|t:|1743780174
+|switch|p2a: Armarouge|Armarouge, M|100/100
+|-damage|p2a: Armarouge|76/100|[from] Stealth Rock
+|move|p1a: Walking Wake|Hydro Steam|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|0 fnt
+|faint|p2a: Armarouge
+|
+|upkeep
+|
+|t:|1743780177
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|-damage|p2a: Cinderace|76/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743780179
+|move|p2a: Cinderace|High Jump Kick|p1a: Walking Wake|[miss]
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-miss|p2a: Cinderace|p1a: Walking Wake
+|-damage|p2a: Cinderace|26/100|[from] highjumpkick
+|move|p1a: Walking Wake|Hydro Steam|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1743780184
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|-damage|p2a: Clodsire|94/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1743780186
+|move|p1a: Walking Wake|Hydro Steam|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100|[from] ability: Water Absorb|[of] p1a: Walking Wake
+|move|p2a: Clodsire|Earthquake|p1a: Walking Wake
+|-damage|p1a: Walking Wake|46/100
+|
+|upkeep
+|turn|22
+|
+|t:|1743780189
+|switch|p2a: Heatran|Heatran, M|88/100
+|-damage|p2a: Heatran|76/100|[from] Stealth Rock
+|move|p1a: Walking Wake|Hydro Steam|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1743780190
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|-damage|p2a: Clodsire|94/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1743780192
+|move|p1a: Walking Wake|Hydro Steam|p2a: Clodsire
+|-heal|p2a: Clodsire|100/100|[from] ability: Water Absorb|[of] p1a: Walking Wake
+|move|p2a: Clodsire|Earthquake|p1a: Walking Wake
+|-damage|p1a: Walking Wake|14/100
+|
+|upkeep
+|turn|24
+|
+|t:|1743780196
+|move|p1a: Walking Wake|Hydro Steam|p2a: Clodsire
+|-immune|p2a: Clodsire|[from] ability: Water Absorb
+|move|p2a: Clodsire|Earthquake|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743780197
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|25
+|
+|t:|1743780199
+|-terastallize|p1a: Kingambit|Dark
+|-terastallize|p2a: Clodsire|Dark
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|28/100
+|move|p2a: Clodsire|Earthquake|p1a: Kingambit
+|-damage|p1a: Kingambit|79/100
+|
+|-heal|p2a: Clodsire|35/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|-message|Mr.diversity forfeited.
+|
+|win|2(H2O)
+|raw|2(H2O)'s rating: 1758 &rarr; <strong>1780</strong><br />(+22 for winning)
+|raw|Mr.diversity's rating: 1800 &rarr; <strong>1778</strong><br />(-22 for losing)
+|l|☆Mr.diversity
+|player|p2|
+|l|☆2(H2O)
+|player|p1|

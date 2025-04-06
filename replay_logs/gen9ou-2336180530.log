@@ -1,0 +1,296 @@
+|j|☆macicrack
+|j|☆Alexander90281
+|t:|1743887097
+|gametype|singles
+|player|p1|macicrack|hoopster|1573
+|player|p2|Alexander90281|tateandliza-gen3|1572
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, F|
+|poke|p1|Darkrai|
+|poke|p1|Ting-Lu|
+|poke|p1|Iron Valiant|
+|poke|p1|Moltres-Galar|
+|poke|p1|Weezing-Galar, M|
+|poke|p2|Mimikyu, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Latios, M|
+|teampreview
+|
+|t:|1743887110
+|start
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1743887119
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Ursaluna
+|-damage|p2a: Ursaluna|63/100
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|j| bybvdn
+|
+|t:|1743887132
+|move|p1a: Ting-Lu|Spikes|p2a: Ursaluna
+|-sidestart|p2: Alexander90281|Spikes
+|move|p2a: Ursaluna|Facade|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|28/100
+|
+|-heal|p1a: Ting-Lu|34/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|57/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743887139
+|move|p1a: Ting-Lu|Earthquake|p2a: Ursaluna
+|-crit|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-heal|p1a: Ting-Lu|40/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743887143
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Spikes
+|turn|4
+|l| bybvdn
+|
+|t:|1743887154
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Ting-Lu|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743887168
+|switch|p1a: Moltres|Moltres-Galar|100/100
+|turn|5
+|
+|t:|1743887175
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|move|p1a: Moltres|Agility|p1a: Moltres
+|-boost|p1a: Moltres|spe|2
+|
+|upkeep
+|turn|6
+|
+|t:|1743887180
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p1a: Moltres|Fiery Wrath|p2a: Ogerpon
+|-damage|p2a: Ogerpon|55/100
+|cant|p2a: Ogerpon|flinch
+|
+|upkeep
+|turn|7
+|
+|t:|1743887188
+|move|p1a: Moltres|Fiery Wrath|p2a: Ogerpon
+|-damage|p2a: Ogerpon|22/100
+|move|p2a: Ogerpon|Play Rough|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|
+|t:|1743887194
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|8
+|
+|t:|1743887198
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|-damage|p2a: Mimikyu|88/100|[from] Spikes
+|move|p1a: Iron Valiant|Knock Off|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|88/100
+|-enditem|p2a: Mimikyu|Mental Herb|[from] move: Knock Off|[of] p1a: Iron Valiant
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|76/100|[from] pokemon: Mimikyu-Busted
+|
+|upkeep
+|turn|9
+|
+|t:|1743887225
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Weezing|Weezing-Galar, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Mimikyu|Trick Room|p2a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p2a: Mimikyu
+|
+|upkeep
+|turn|10
+|
+|t:|1743887233
+|move|p1a: Weezing|Strange Steam|p2a: Mimikyu
+|-damage|p2a: Mimikyu|48/100
+|move|p2a: Mimikyu|Curse|p1a: Weezing
+|-start|p1a: Weezing|Curse|[of] p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|-damage|p1a: Weezing|76/100|[from] Curse
+|upkeep
+|
+|t:|1743887244
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|88/100|[from] Spikes
+|turn|11
+|
+|t:|1743887256
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|88/100|[from] Spikes
+|move|p1a: Weezing|Will-O-Wisp|p2a: Hatterene
+|-status|p2a: Hatterene|brn
+|
+|-heal|p1a: Weezing|82/100|[from] item: Black Sludge
+|-damage|p2a: Hatterene|82/100 brn|[from] brn
+|-damage|p1a: Weezing|57/100|[from] Curse
+|upkeep
+|turn|12
+|
+|t:|1743887266
+|move|p2a: Hatterene|Mystical Fire|p1a: Weezing
+|-damage|p1a: Weezing|16/100
+|-unboost|p1a: Weezing|spa|1
+|move|p1a: Weezing|Strange Steam|p2a: Hatterene
+|-damage|p2a: Hatterene|64/100 brn
+|
+|-heal|p1a: Weezing|22/100|[from] item: Black Sludge
+|-damage|p2a: Hatterene|58/100 brn|[from] brn
+|-damage|p1a: Weezing|0 fnt|[from] Curse
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|upkeep
+|
+|t:|1743887274
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|13
+|
+|t:|1743887277
+|move|p2a: Hatterene|Healing Wish|p2a: Hatterene
+|faint|p2a: Hatterene
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743887284
+|switch|p2a: Kingambit|Kingambit, M|88/100
+|-heal|p2a: Kingambit|100/100|[from] move: Healing Wish
+|-damage|p2a: Kingambit|88/100|[from] Spikes
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|14
+|
+|t:|1743887290
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|45/100
+|move|p2a: Kingambit|Iron Head|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|76/100
+|
+|-heal|p1a: Kingambit|82/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743887298
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Kingambit|Iron Head|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|60/100
+|
+|-heal|p1a: Kingambit|66/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743887304
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|-heal|p1a: Kingambit|73/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743887308
+|switch|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water|22/100
+|-damage|p2a: Ogerpon|10/100|[from] Spikes
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|turn|17
+|
+|t:|1743887312
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-heal|p1a: Kingambit|79/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743887314
+|switch|p2a: Latios|Latios, M|100/100
+|turn|18
+|
+|t:|1743887316
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Latios|Calm Mind|p2a: Latios
+|-boost|p2a: Latios|spa|1
+|-boost|p2a: Latios|spd|1
+|
+|-heal|p1a: Kingambit|85/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743887319
+|move|p2a: Latios|Dragon Pulse|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|50/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|win|macicrack
+|raw|macicrack's rating: 1573 &rarr; <strong>1593</strong><br />(+20 for winning)
+|raw|Alexander90281's rating: 1572 &rarr; <strong>1552</strong><br />(-20 for losing)
+|l|☆macicrack
+|player|p1|
+|l|☆Alexander90281
+|player|p2|

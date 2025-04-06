@@ -1,0 +1,410 @@
+|j|☆CACHUMBO
+|j|☆lolcano46
+|t:|1743791298
+|gametype|singles
+|player|p1|CACHUMBO|169|1449
+|player|p2|lolcano46|fisherman-gen4|1505
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Meowscarada, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Toxapex, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p2|Azelf|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Scizor, F|
+|poke|p2|Gengar, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Cinderace, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lolcano46)
+|inactive|CACHUMBO also wants the timer to be on.
+|
+|t:|1743791302
+|start
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|switch|p2a: Gengar|Gengar, M|100/100
+|turn|1
+|
+|t:|1743791309
+|move|p2a: Gengar|Trick|p1a: Kingambit
+|-activate|p2a: Gengar|move: Trick|[of] p1a: Kingambit
+|-item|p1a: Kingambit|Choice Scarf|[from] move: Trick
+|-item|p2a: Gengar|Heavy-Duty Boots|[from] move: Trick
+|move|p1a: Kingambit|Shadow Ball|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|t:|1743791317
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|2
+|
+|t:|1743791319
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-fail|p2a: Cinderace
+|
+|upkeep
+|turn|3
+|
+|t:|1743791324
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Toxapex|Toxic|p2a: Scizor
+|-immune|p2a: Scizor
+|
+|upkeep
+|turn|4
+|
+|t:|1743791329
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1743791334
+|move|p1a: Kingambit|Flamethrower|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1743791339
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|6
+|
+|t:|1743791341
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|move|p2a: Ogerpon|Play Rough|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|upkeep
+|
+|t:|1743791346
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|turn|7
+|
+|t:|1743791350
+|move|p1a: Kingambit|U-turn|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|59/100
+|
+|t:|1743791352
+|switch|p1a: Toxapex|Toxapex, M|100/100|[from] U-turn
+|move|p2a: Ogerpon|Horn Leech|p1a: Toxapex
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|56/100
+|-heal|p2a: Ogerpon|82/100|[from] drain|[of] p1a: Toxapex
+|
+|-heal|p1a: Toxapex|62/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743791361
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743791367
+|move|p2a: Ogerpon|Horn Leech|p1a: Toxapex
+|-damage|p1a: Toxapex|41/100
+|-heal|p2a: Ogerpon|100/100|[from] drain|[of] p1a: Toxapex
+|move|p1a: Toxapex|Toxic|p2a: Ogerpon
+|-status|p2a: Ogerpon|tox
+|
+|-heal|p1a: Toxapex|47/100|[from] item: Leftovers
+|-damage|p2a: Ogerpon|95/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743791372
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|-heal|p1a: Toxapex|53/100|[from] item: Leftovers
+|-damage|p2a: Ogerpon|83/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743791379
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|move|p2a: Ogerpon|Horn Leech|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|42/100
+|-heal|p2a: Ogerpon|100/100 tox|[from] drain|[of] p1a: Kingambit
+|
+|-damage|p2a: Ogerpon|83/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743791388
+|move|p1a: Kingambit|Sucker Punch|p2a: Ogerpon
+|-damage|p2a: Ogerpon|25/100 tox
+|move|p2a: Ogerpon|Horn Leech|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-heal|p2a: Ogerpon|49/100 tox|[from] drain|[of] p1a: Kingambit
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|
+|-damage|p2a: Ogerpon|25/100 tox|[from] psn
+|upkeep
+|
+|t:|1743791392
+|switch|p1a: Toxapex|Toxapex, M|86/100
+|turn|13
+|
+|t:|1743791401
+|switch|p2a: Azelf|Azelf|100/100
+|move|p1a: Toxapex|Baneful Bunker||[still]
+|-fail|p1a: Toxapex
+|
+|-heal|p1a: Toxapex|92/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743791408
+|-terastallize|p1a: Toxapex|Flying
+|move|p2a: Azelf|Psychic|p1a: Toxapex
+|-damage|p1a: Toxapex|57/100
+|-unboost|p1a: Toxapex|spd|1
+|move|p1a: Toxapex|Toxic|p2a: Azelf
+|-status|p2a: Azelf|tox
+|
+|-heal|p1a: Toxapex|63/100|[from] item: Leftovers
+|-damage|p2a: Azelf|94/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743791414
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Azelf|Thunderbolt|p1a: Slowking
+|-damage|p1a: Slowking|88/100
+|
+|-damage|p2a: Azelf|82/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743791418
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Slowking|Future Sight|p2a: Cinderace
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|17
+|
+|t:|1743791423
+|switch|p1a: Toxapex|Toxapex, M, tera:Flying|96/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|61/100
+|
+|-heal|p1a: Toxapex|67/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743791432
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|25/100 tox
+|move|p1a: Toxapex|Toxic|p2a: Ogerpon
+|-fail|p2a: Ogerpon|tox
+|
+|-end|p2a: Ogerpon|move: Future Sight
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|-heal|p1a: Toxapex|73/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743791439
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|19
+|
+|t:|1743791444
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|20
+|
+|t:|1743791450
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Slowking
+|-damage|p1a: Slowking|56/100
+|move|p1a: Slowking|Future Sight|p2a: Raging Bolt
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|21
+|
+|t:|1743791454
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Slowking
+|-damage|p1a: Slowking|14/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|76/100
+|-status|p2a: Raging Bolt|psn
+|
+|-damage|p2a: Raging Bolt|64/100 psn|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1743791460
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|-end|p2a: Raging Bolt|move: Future Sight
+|-damage|p2a: Raging Bolt|32/100 psn
+|-damage|p2a: Raging Bolt|20/100 psn|[from] psn
+|upkeep
+|
+|t:|1743791465
+|switch|p1a: Toxapex|Toxapex, M, tera:Flying|100/100
+|turn|23
+|
+|t:|1743791472
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-damage|p2a: Raging Bolt|7/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1743791479
+|switch|p1a: Slowking|Slowking-Galar, M|47/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-damage|p2a: Raging Bolt|0 fnt|[from] psn
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1743791489
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|switch|p1a: Toxapex|Toxapex, M, tera:Flying|100/100
+|turn|25
+|
+|t:|1743791493
+|move|p2a: Cinderace|Sucker Punch||[still]
+|-fail|p2a: Cinderace
+|move|p1a: Toxapex|Toxic|p2a: Cinderace
+|-status|p2a: Cinderace|tox
+|
+|-damage|p2a: Cinderace|95/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1743791499
+|move|p2a: Cinderace|Pyro Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|66/100
+|move|p1a: Toxapex|Surf|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|43/100 tox
+|
+|-heal|p1a: Toxapex|72/100|[from] item: Leftovers
+|-damage|p2a: Cinderace|31/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1743791504
+|move|p2a: Cinderace|Pyro Ball|p1a: Toxapex|[miss]
+|-miss|p2a: Cinderace|p1a: Toxapex
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100
+|
+|-damage|p2a: Cinderace|13/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1743791507
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Cinderace|Pyro Ball|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-damage|p2a: Cinderace|0 fnt|[from] psn
+|faint|p2a: Cinderace
+|upkeep
+|
+|t:|1743791510
+|switch|p2a: Azelf|Azelf|82/100 tox
+|turn|29
+|
+|t:|1743791513
+|move|p2a: Azelf|Thunderbolt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|40/100
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|91/100
+|
+|-heal|p1a: Toxapex|97/100|[from] item: Leftovers
+|-damage|p2a: Azelf|76/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1743791517
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2a: Azelf|Thunderbolt|p1a: Toxapex
+|-activate|p1a: Toxapex|move: Protect
+|
+|-heal|p1a: Toxapex|100/100|[from] item: Leftovers
+|-damage|p2a: Azelf|64/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1743791520
+|move|p2a: Azelf|Thunderbolt|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|47/100
+|move|p1a: Toxapex|Surf|p2a: Azelf
+|-damage|p2a: Azelf|35/100 tox
+|
+|-heal|p1a: Toxapex|53/100|[from] item: Leftovers
+|-damage|p2a: Azelf|16/100 tox|[from] psn
+|upkeep
+|turn|32
+|-message|lolcano46 forfeited.
+|
+|win|CACHUMBO
+|raw|CACHUMBO's rating: 1449 &rarr; <strong>1472</strong><br />(+23 for winning)
+|raw|lolcano46's rating: 1505 &rarr; <strong>1482</strong><br />(-23 for losing)
+|l|☆lolcano46
+|player|p2|
+|l|☆CACHUMBO
+|player|p1|

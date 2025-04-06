@@ -1,0 +1,241 @@
+|j|☆shuita.otter
+|j|☆Shztter
+|t:|1743922112
+|gametype|singles
+|player|p1|shuita.otter|serena-anime|1328
+|player|p2|Shztter|101|1277
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Greninja-*, M|
+|poke|p1|Scizor, F|
+|poke|p1|Sandy Shocks|
+|poke|p1|Raging Bolt|
+|poke|p2|Corviknight, M|
+|poke|p2|Umbreon, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Barraskewda, M|
+|poke|p2|Iron Treads|
+|poke|p2|Ceruledge, M|
+|teampreview
+|
+|t:|1743922127
+|start
+|switch|p1a: Scizor|Scizor, F, shiny|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by shuita.otter)
+|
+|t:|1743922194
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdriveatk
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1743922206
+|move|p2a: Iron Treads|Earthquake|p1a: Scizor
+|-crit|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1743922213
+|switch|p1a: Pelipper|Pelipper, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|3
+|
+|t:|1743922218
+|move|p2a: Iron Treads|Supercell Slam|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743922232
+|switch|p1a: Basculegion|Basculegion, M, shiny|100/100
+|turn|4
+|
+|t:|1743922239
+|-terastallize|p1a: Basculegion|Water
+|-terastallize|p2a: Iron Treads|Ghost
+|move|p1a: Basculegion|Wave Crash|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|-damage|p1a: Basculegion|73/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743922244
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|turn|5
+|
+|t:|1743922253
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|-enditem|p1a: Sandy Shocks|Booster Energy
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p1a: Sandy Shocks|protosynthesisspe
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743922267
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Umbreon|Umbreon, F|100/100
+|move|p1a: Sandy Shocks|Thunderbolt|p2a: Umbreon
+|-damage|p2a: Umbreon|78/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Umbreon|84/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743922277
+|move|p1a: Sandy Shocks|Earth Power|p2a: Umbreon
+|-damage|p2a: Umbreon|62/100
+|move|p2a: Umbreon|Toxic|p1a: Sandy Shocks
+|-status|p1a: Sandy Shocks|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Umbreon|68/100|[from] item: Leftovers
+|-damage|p1a: Sandy Shocks|94/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743922288
+|move|p1a: Sandy Shocks|Tri Attack|p2a: Umbreon
+|-damage|p2a: Umbreon|55/100
+|-status|p2a: Umbreon|frz
+|cant|p2a: Umbreon|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Umbreon|61/100 frz|[from] item: Leftovers
+|-damage|p1a: Sandy Shocks|82/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743922299
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|switch|p1a: Basculegion|Basculegion, M, shiny, tera:Water|73/100
+|cant|p2a: Umbreon|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Umbreon|67/100 frz|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743922309
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|move|p1a: Basculegion|Wave Crash|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|26/100
+|-damage|p1a: Basculegion|44/100|[from] Recoil
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1743922319
+|switch|p1a: Greninja|Greninja, M|100/100
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-unboost|p2a: Raging Bolt|spa|2
+|faint|p1a: Greninja
+|
+|upkeep
+|
+|t:|1743922329
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|12
+|
+|t:|1743922336
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Umbreon|Umbreon, F|67/100 frz
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Umbreon
+|-damage|p2a: Umbreon|30/100 frz
+|
+|-heal|p2a: Umbreon|36/100 frz|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743922345
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Umbreon
+|-damage|p2a: Umbreon|2/100 frz
+|-curestatus|p2a: Umbreon|frz|[msg]
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|8/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743922360
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-heal|p2a: Umbreon|58/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Umbreon|64/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743922371
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Umbreon
+|-damage|p2a: Umbreon|32/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-heal|p2a: Umbreon|38/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743922379
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|move|p2a: Umbreon|Toxic|p1a: Raging Bolt
+|-status|p1a: Raging Bolt|tox
+|
+|-heal|p2a: Umbreon|88/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Umbreon|94/100|[from] item: Leftovers
+|-damage|p1a: Raging Bolt|94/100 tox|[from] psn
+|upkeep
+|turn|17
+|-message|shuita.otter forfeited.
+|
+|win|Shztter
+|raw|shuita.otter's rating: 1328 &rarr; <strong>1305</strong><br />(-23 for losing)
+|raw|Shztter's rating: 1277 &rarr; <strong>1306</strong><br />(+29 for winning)
+|l|☆shuita.otter
+|player|p1|
+|l|☆Shztter
+|player|p2|

@@ -1,0 +1,355 @@
+|j|☆Lupni
+|j|☆cuervotesteador
+|t:|1743871166
+|gametype|singles
+|player|p1|Lupni|morty-masters|1310
+|player|p2|cuervotesteador|102|1327
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Skarmory, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Gholdengo|
+|poke|p1|Glimmora, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Crawdaunt, F|
+|poke|p2|Hitmonchan, M|
+|poke|p2|Moltres|
+|poke|p2|Frosmoth, F|
+|poke|p2|Iron Crown|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lupni)
+|
+|t:|1743871181
+|start
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1743871187
+|move|p2a: Iron Crown|Future Sight|p1a: Ting-Lu
+|-start|p2a: Iron Crown|move: Future Sight
+|move|p1a: Ting-Lu|Spikes|p2a: Iron Crown
+|-sidestart|p2: cuervotesteador|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1743871192
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Hitmonchan|Hitmonchan, M|100/100
+|-damage|p2a: Hitmonchan|88/100|[from] Spikes
+|move|p1a: Ting-Lu|Spikes|p2a: Hitmonchan
+|-sidestart|p2: cuervotesteador|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1743871218
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Hitmonchan|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|58/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|-end|p1a: Gholdengo|move: Future Sight
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|22/100
+|upkeep
+|turn|4
+|
+|t:|1743871230
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|move|p2a: Hitmonchan|Knock Off|p1a: Glimmora
+|-damage|p1a: Glimmora|65/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: cuervotesteador|move: Toxic Spikes
+|-enditem|p1a: Glimmora|Red Card|[from] move: Knock Off|[of] p2a: Hitmonchan
+|
+|upkeep
+|turn|5
+|
+|t:|1743871238
+|move|p1a: Glimmora|Sludge Wave|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|25/100
+|move|p2a: Hitmonchan|Drain Punch|p1a: Glimmora
+|-damage|p1a: Glimmora|14/100
+|-heal|p2a: Hitmonchan|57/100|[from] drain|[of] p1a: Glimmora
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: cuervotesteador|move: Toxic Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1743871255
+|move|p2a: Hitmonchan|Mach Punch|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1743871260
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|7
+|
+|t:|1743871265
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Iron Valiant|Encore||[still]
+|-fail|p1a: Iron Valiant
+|
+|upkeep
+|turn|8
+|
+|t:|1743871272
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Moltres|Roar|p1a: Ting-Lu
+|drag|p1a: Iron Valiant|Iron Valiant|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743871291
+|move|p1a: Iron Valiant|Encore|p2a: Moltres
+|-start|p2a: Moltres|Encore
+|move|p2a: Moltres|Roar|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|drag|p1a: Skarmory|Skarmory, M|100/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743871309
+|switch|p2a: Frosmoth|Frosmoth, F|100/100
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|
+|upkeep
+|turn|11
+|
+|t:|1743871317
+|move|p2a: Frosmoth|Defog|p1a: Ting-Lu
+|-unboost|p1a: Ting-Lu|evasion|1
+|-sideend|p2: cuervotesteador|Spikes|[from] move: Defog|[of] p2a: Frosmoth
+|-sideend|p2: cuervotesteador|Toxic Spikes|[from] move: Defog|[of] p2a: Frosmoth
+|move|p1a: Ting-Lu|Whirlwind|p2a: Frosmoth
+|drag|p2a: Iron Crown|Iron Crown|100/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743871327
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Hitmonchan|Hitmonchan, M|57/100
+|move|p1a: Ting-Lu|Spikes|p2a: Hitmonchan
+|-sidestart|p2: cuervotesteador|Spikes
+|
+|upkeep
+|turn|13
+|
+|t:|1743871337
+|switch|p1a: Gholdengo|Gholdengo|22/100
+|move|p2a: Hitmonchan|Rapid Spin|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|14
+|
+|t:|1743871350
+|move|p2a: Hitmonchan|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743871354
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|turn|15
+|
+|t:|1743871357
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|77/100
+|-unboost|p2a: Moltres|spa|1
+|
+|upkeep
+|turn|16
+|
+|t:|1743871364
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Moltres
+|-damage|p2a: Moltres|49/100
+|move|p2a: Moltres|U-turn|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|96/100
+|
+|t:|1743871388
+|switch|p2a: Frosmoth|Frosmoth, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|17
+|
+|t:|1743871392
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Frosmoth|Ice Beam|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|51/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743871398
+|move|p1a: Iron Valiant|Moonblast|p2a: Frosmoth
+|-damage|p2a: Frosmoth|74/100
+|-unboost|p2a: Frosmoth|spa|1
+|move|p2a: Frosmoth|Ice Beam|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|21/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743871407
+|move|p1a: Iron Valiant|Moonblast|p2a: Frosmoth
+|-damage|p2a: Frosmoth|46/100
+|move|p2a: Frosmoth|Ice Beam|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743871417
+|switch|p1a: Crawdaunt|Crawdaunt, F|100/100
+|turn|20
+|
+|t:|1743871419
+|move|p1a: Crawdaunt|Knock Off|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|-enditem|p2a: Frosmoth|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Crawdaunt
+|faint|p2a: Frosmoth
+|
+|upkeep
+|
+|t:|1743871429
+|switch|p2a: Hitmonchan|Hitmonchan, M|57/100
+|-damage|p2a: Hitmonchan|44/100|[from] Spikes
+|turn|21
+|
+|t:|1743871434
+|move|p2a: Hitmonchan|Drain Punch|p1a: Crawdaunt
+|-supereffective|p1a: Crawdaunt
+|-damage|p1a: Crawdaunt|0 fnt
+|-heal|p2a: Hitmonchan|99/100|[from] drain|[of] p1a: Crawdaunt
+|faint|p1a: Crawdaunt
+|
+|upkeep
+|
+|t:|1743871441
+|switch|p1a: Skarmory|Skarmory, M|100/100
+|turn|22
+|
+|t:|1743871444
+|move|p2a: Hitmonchan|Rapid Spin|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|95/100
+|-boost|p2a: Hitmonchan|spe|1
+|-ability|p1a: Skarmory|Weak Armor|boost
+|-unboost|p1a: Skarmory|def|1
+|-boost|p1a: Skarmory|spe|2
+|-sideend|p2: cuervotesteador|Spikes|[from] move: Rapid Spin|[of] p2a: Hitmonchan
+|move|p1a: Skarmory|Swords Dance|p1a: Skarmory
+|-boost|p1a: Skarmory|atk|2
+|
+|-heal|p1a: Skarmory|100/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743871455
+|switch|p2a: Moltres|Moltres|49/100
+|move|p1a: Skarmory|Swords Dance|p1a: Skarmory
+|-boost|p1a: Skarmory|atk|2
+|
+|upkeep
+|turn|24
+|
+|t:|1743871464
+|move|p1a: Skarmory|Brave Bird|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|-damage|p1a: Skarmory|78/100|[from] Recoil
+|
+|-heal|p1a: Skarmory|84/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743871475
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|turn|25
+|
+|t:|1743871485
+|-terastallize|p1a: Skarmory|Ground
+|move|p1a: Skarmory|Brave Bird|p2a: Iron Crown
+|-resisted|p2a: Iron Crown
+|-crit|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|-damage|p1a: Skarmory|45/100|[from] Recoil
+|
+|-heal|p1a: Skarmory|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743871494
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Skarmory|atk|1
+|turn|26
+|
+|t:|1743871499
+|move|p2a: Landorus|Earthquake|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|upkeep
+|
+|t:|1743871502
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|27
+|
+|t:|1743871506
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Ting-Lu|Heavy Slam|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|82/100
+|
+|upkeep
+|turn|28
+|-message|Lupni forfeited.
+|
+|win|cuervotesteador
+|raw|Lupni's rating: 1310 &rarr; <strong>1291</strong><br />(-19 for losing)
+|raw|cuervotesteador's rating: 1327 &rarr; <strong>1346</strong><br />(+19 for winning)
+|l|☆Lupni
+|player|p1|
+|l|☆cuervotesteador
+|player|p2|

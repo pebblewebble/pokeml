@@ -1,0 +1,363 @@
+|j|☆Apexmello95
+|j|☆geldren
+|t:|1743904259
+|gametype|singles
+|player|p1|Apexmello95|dragontamer|
+|player|p2|geldren|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gliscor, M|
+|poke|p1|Gholdengo|
+|poke|p1|Iron Valiant|
+|poke|p1|Pecharunt|
+|poke|p1|Grimmsnarl, M|
+|poke|p1|Dragapult, F|
+|poke|p2|Weavile, M|
+|poke|p2|Latias, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Iron Moth|
+|poke|p2|Clefable, F|
+|poke|p2|Meowscarada, F|
+|teampreview
+|
+|t:|1743904287
+|start
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|1
+|
+|t:|1743904301
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100
+|move|p2a: Meowscarada|U-turn|p1a: Grimmsnarl
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-damage|p1a: Grimmsnarl|54/100
+|-damage|p2a: Meowscarada|91/100|[from] item: Life Orb
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Apexmello95)
+|
+|t:|1743904321
+|switch|p2a: Iron Moth|Iron Moth|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1743904333
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Iron Moth
+|-unboost|p2a: Iron Moth|atk|1
+|-unboost|p2a: Iron Moth|spa|1
+|
+|t:|1743904336
+|switch|p1a: Gliscor|Gliscor, M|100/100|[from] Parting Shot
+|move|p2a: Iron Moth|Sludge Wave|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|75/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1743904347
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|move|p1a: Gliscor|Swords Dance|p1a: Gliscor
+|-boost|p1a: Gliscor|atk|2
+|
+|-heal|p1a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|t:|1743904356
+|move|p1a: Gliscor|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|67/100
+|-damage|p1a: Gliscor|71/100 tox|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Corviknight|Brave Bird|p1a: Gliscor
+|-damage|p1a: Gliscor|32/100 tox
+|-damage|p2a: Corviknight|58/100|[from] Recoil
+|
+|-heal|p1a: Gliscor|44/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|t:|1743904371
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Corviknight|U-turn|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|57/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1743904385
+|move|p1a: Gliscor|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|35/100
+|move|p2a: Corviknight|U-turn|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|49/100 tox
+|
+|t:|1743904394
+|switch|p2a: Weavile|Weavile, M|100/100|[from] U-turn
+|-ability|p2a: Weavile|Pressure
+|
+|-heal|p1a: Gliscor|61/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1743904403
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|54/100
+|move|p2a: Weavile|Icicle Crash|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|7/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743904410
+|move|p2a: Weavile|Ice Shard|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1743904415
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdriveatk
+|turn|9
+|
+|t:|1743904423
+|switch|p2a: Corviknight|Corviknight, F|35/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|13/100
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: Iron Valiant|spa|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743904436
+|move|p1a: Iron Valiant|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1743904462
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|11
+|
+|t:|1743904475
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Clefable|Thunder Wave|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|
+|upkeep
+|turn|12
+|
+|t:|1743904487
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Clefable|Stealth Rock|p1a: Gholdengo
+|-sidestart|p1: Apexmello95|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1743904495
+|move|p1a: Gholdengo|Shadow Ball|p2a: Clefable
+|-damage|p2a: Clefable|68/100
+|move|p2a: Clefable|Moonblast|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|81/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-heal|p1a: Gholdengo|87/100|[from] item: Leftovers
+|-heal|p2a: Clefable|74/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743904508
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Clefable|Moonblast|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|68/100
+|
+|-heal|p1a: Gholdengo|74/100|[from] item: Leftovers
+|-heal|p2a: Clefable|80/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743904519
+|move|p1a: Gholdengo|Make It Rain|p2a: Clefable
+|-supereffective|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Clefable
+|
+|-heal|p1a: Gholdengo|80/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743904535
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|turn|16
+|
+|t:|1743904544
+|-terastallize|p1a: Gholdengo|Water
+|move|p2a: Iron Moth|Fiery Dance|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|57/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Gholdengo|Tera Blast|p2a: Iron Moth|[anim] Tera Blast Water
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p1a: Gholdengo|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743904560
+|switch|p2a: Meowscarada|Meowscarada, F|91/100
+|turn|17
+|
+|t:|1743904564
+|move|p2a: Meowscarada|Flower Trick|p1a: Gholdengo
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-supereffective|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|-damage|p2a: Meowscarada|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743904576
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|-damage|p1a: Pecharunt|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1743904585
+|move|p2a: Meowscarada|Knock Off|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|41/100
+|-enditem|p1a: Pecharunt|Leftovers|[from] move: Knock Off|[of] p2a: Meowscarada
+|-damage|p2a: Meowscarada|71/100|[from] item: Life Orb
+|move|p1a: Pecharunt|Toxic|p2a: Meowscarada
+|-status|p2a: Meowscarada|tox
+|-start|p2a: Meowscarada|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-damage|p2a: Meowscarada|65/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1743904601
+|switch|p2a: Latias|Latias, F|100/100
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|91/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743904609
+|move|p2a: Latias|Mist Ball|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|11/100
+|-unboost|p1a: Pecharunt|spa|1
+|move|p1a: Pecharunt|Toxic|p2a: Latias
+|-status|p2a: Latias|tox
+|-start|p2a: Latias|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-damage|p2a: Latias|95/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1743904621
+|-activate|p2a: Latias|confusion
+|move|p2a: Latias|Mist Ball|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|-heal|p2a: Latias|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Latias|89/100 tox|[from] psn
+|upkeep
+|
+|t:|1743904630
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|94/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1743904638
+|-activate|p2a: Latias|confusion
+|move|p2a: Latias|Mist Ball|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p2a: Latias|95/100 tox|[from] item: Leftovers
+|-damage|p2a: Latias|77/100 tox|[from] psn
+|upkeep
+|
+|t:|1743904650
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1743904655
+|move|p1a: Dragapult|Dragon Darts|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|11/100 tox
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Latias
+|-supereffective|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|upkeep
+|
+|t:|1743904669
+|switch|p2a: Meowscarada|Meowscarada, F|65/100 tox
+|turn|24
+|
+|t:|1743904674
+|switch|p1a: Gliscor|Gliscor, M|61/100 tox
+|-damage|p1a: Gliscor|49/100 tox|[from] Stealth Rock
+|move|p2a: Meowscarada|Knock Off|p1a: Gliscor
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Gliscor|0 fnt
+|-enditem|p1a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p2a: Meowscarada
+|faint|p1a: Gliscor
+|-damage|p2a: Meowscarada|55/100 tox|[from] item: Life Orb
+|
+|-damage|p2a: Meowscarada|49/100 tox|[from] psn
+|upkeep
+|
+|t:|1743904687
+|switch|p1a: Dragapult|Dragapult, F|88/100
+|-damage|p1a: Dragapult|76/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1743904693
+|move|p2a: Meowscarada|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|White Herb|[from] move: Knock Off|[of] p2a: Meowscarada
+|faint|p1a: Dragapult
+|-damage|p2a: Meowscarada|39/100 tox|[from] item: Life Orb
+|
+|win|geldren

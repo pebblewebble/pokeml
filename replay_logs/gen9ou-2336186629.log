@@ -1,0 +1,556 @@
+|j|☆okfernankk
+|j|☆CherN0ble
+|t:|1743887718
+|gametype|singles
+|player|p1|okfernankk|2|1605
+|player|p2|CherN0ble|gambler|1559
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hydrapple, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Alomomola, M|
+|poke|p1|Clodsire, F|
+|poke|p1|Clefable, M|
+|poke|p1|Corviknight, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Kingambit, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Iron Moth|
+|teampreview
+|
+|t:|1743887728
+|start
+|switch|p1a: Clefable|Clefable, M|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|1
+|
+|t:|1743887736
+|move|p2a: Samurott|Ceaseless Edge|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|83/100
+|-sidestart|p1: okfernankk|Spikes
+|move|p1a: Clefable|Moonblast|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|5/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743887744
+|move|p2a: Samurott|Knock Off|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|65/100
+|-enditem|p1a: Clefable|Sticky Barb|[from] move: Knock Off|[of] p2a: Samurott
+|move|p1a: Clefable|Moonblast|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743887750
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|3
+|
+|t:|1743887753
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Iron Moth|Fiery Dance|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Moth|95/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1743887762
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|move|p1a: Tyranitar|Stealth Rock|p2a: Landorus
+|-sidestart|p2: CherN0ble|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743887766
+|move|p2a: Landorus|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|55/100
+|
+|t:|1743887768
+|switch|p2a: Zamazenta|Zamazenta|100/100|[from] U-turn
+|-damage|p2a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Tyranitar|Ice Beam|p2a: Zamazenta
+|-damage|p2a: Zamazenta|79/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zamazenta|72/100|[from] Sandstorm
+|-heal|p2a: Zamazenta|79/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743887775
+|switch|p1a: Alomomola|Alomomola, M, shiny|100/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zamazenta|72/100|[from] Sandstorm
+|-damage|p1a: Alomomola|94/100|[from] Sandstorm
+|-heal|p2a: Zamazenta|79/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743887777
+|move|p2a: Zamazenta|Body Press|p1a: Alomomola
+|-damage|p1a: Alomomola|42/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-weather|none
+|-heal|p2a: Zamazenta|85/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743887783
+|switch|p1a: Clefable|Clefable, M|65/100
+|move|p2a: Zamazenta|Body Press|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|34/100
+|
+|-heal|p1a: Clefable|94/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p2a: Zamazenta|91/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743887788
+|switch|p2a: Iron Moth|Iron Moth|95/100
+|-damage|p2a: Iron Moth|70/100|[from] Stealth Rock
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|upkeep
+|turn|10
+|
+|t:|1743887791
+|switch|p1a: Tyranitar|Tyranitar, F|55/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Iron Moth|Fiery Dance|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|43/100
+|-boost|p2a: Iron Moth|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Moth|64/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|92/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|11
+|
+|t:|1743887800
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Zamazenta|Zamazenta|91/100
+|-damage|p2a: Zamazenta|85/100|[from] Stealth Rock
+|move|p1a: Tyranitar|Knock Off|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|68/100
+|-enditem|p2a: Zamazenta|Leftovers|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zamazenta|62/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1743887806
+|switch|p1a: Alomomola|Alomomola, M, shiny|75/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zamazenta|55/100|[from] Sandstorm
+|-damage|p1a: Alomomola|69/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1743887811
+|switch|p1a: Clefable|Clefable, M|94/100
+|move|p2a: Zamazenta|Body Press|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zamazenta|49/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1743887816
+|move|p1a: Clefable|Wish|p1a: Clefable
+|move|p2a: Zamazenta|Roar|p1a: Clefable
+|drag|p1a: Hydrapple|Hydrapple, M|100/100
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|t:|1743887823
+|switch|p1a: Clefable|Clefable, M|68/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-heal|p1a: Clefable|100/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|16
+|
+|t:|1743887828
+|move|p2a: Zamazenta|Body Press|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|62/100
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|upkeep
+|turn|17
+|
+|t:|1743887830
+|move|p2a: Zamazenta|Body Press|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|22/100
+|move|p1a: Clefable|Moonblast|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|1/100
+|
+|-heal|p1a: Clefable|72/100|[from] move: Wish|[wisher] Clefable
+|upkeep
+|turn|18
+|
+|t:|1743887833
+|move|p2a: Zamazenta|Body Press|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|35/100
+|move|p1a: Clefable|Wish|p1a: Clefable
+|
+|upkeep
+|turn|19
+|
+|t:|1743887837
+|move|p2a: Zamazenta|Body Press|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|t:|1743887840
+|switch|p1a: Tyranitar|Tyranitar, F|92/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|20
+|
+|t:|1743887843
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Zamazenta|Body Press|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zamazenta|0 fnt|[from] Sandstorm
+|faint|p2a: Zamazenta
+|upkeep
+|
+|t:|1743887849
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-damage|p2a: Landorus|88/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Clodsire|atk|1
+|turn|21
+|
+|t:|1743887855
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Corviknight
+|-sidestart|p1: okfernankk|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1743887859
+|move|p2a: Landorus|Taunt|p1a: Corviknight
+|-start|p1a: Corviknight|move: Taunt
+|move|p1a: Corviknight|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|82/100
+|-damage|p1a: Corviknight|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|t:|1743887863
+|switch|p1a: Hydrapple|Hydrapple, M|100/100|[from] U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hydrapple|94/100|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|t:|1743887869
+|move|p2a: Landorus|U-turn|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|69/100
+|
+|t:|1743887871
+|switch|p2a: Iron Moth|Iron Moth|64/100|[from] U-turn
+|-damage|p2a: Iron Moth|39/100|[from] Stealth Rock
+|move|p1a: Hydrapple|Giga Drain|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|29/100
+|-heal|p1a: Hydrapple|73/100|[from] drain|[of] p2a: Iron Moth
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Moth|23/100|[from] Sandstorm
+|-damage|p1a: Hydrapple|67/100|[from] Sandstorm
+|upkeep
+|turn|24
+|
+|t:|1743887877
+|switch|p1a: Tyranitar|Tyranitar, F|92/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|83/100
+|-boost|p2a: Iron Moth|spa|1
+|
+|-weather|none
+|upkeep
+|turn|25
+|
+|t:|1743887882
+|move|p2a: Iron Moth|Sludge Wave|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|49/100
+|move|p1a: Tyranitar|Knock Off|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743887888
+|switch|p2a: Landorus|Landorus-Therian, M|82/100
+|-damage|p2a: Landorus|70/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|turn|26
+|
+|t:|1743887893
+|switch|p1a: Corviknight|Corviknight, M|84/100
+|-damage|p1a: Corviknight|71/100|[from] Stealth Rock
+|move|p2a: Landorus|U-turn|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|67/100
+|
+|t:|1743887899
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|
+|-heal|p1a: Corviknight|73/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1743887903
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|24/100
+|move|p1a: Corviknight|U-turn|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|90/100
+|
+|t:|1743887907
+|switch|p1a: Clodsire|Clodsire, F|88/100|[from] U-turn
+|
+|upkeep
+|turn|28
+|
+|t:|1743887910
+|move|p2a: Iron Valiant|Psyshock|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-crit|p1a: Clodsire
+|-damage|p1a: Clodsire|24/100
+|move|p1a: Clodsire|Toxic|p2a: Iron Valiant
+|-status|p2a: Iron Valiant|tox
+|
+|-damage|p2a: Iron Valiant|84/100 tox|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1743887924
+|switch|p1a: Tyranitar|Tyranitar, F|49/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Iron Valiant|Psyshock|p1a: Tyranitar
+|-immune|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|78/100 tox|[from] Sandstorm
+|-damage|p2a: Iron Valiant|65/100 tox|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1743887931
+|switch|p1a: Alomomola|Alomomola, M, shiny|100/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|40/100
+|-unboost|p1a: Alomomola|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|59/100 tox|[from] Sandstorm
+|-damage|p1a: Alomomola|34/100|[from] Sandstorm
+|-damage|p2a: Iron Valiant|40/100 tox|[from] psn
+|upkeep
+|turn|31
+|
+|t:|1743887935
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Iron Valiant|Moonblast|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|34/100 tox|[from] Sandstorm
+|-damage|p1a: Alomomola|28/100|[from] Sandstorm
+|-damage|p2a: Iron Valiant|9/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1743887946
+|switch|p1a: Clodsire|Clodsire, F|24/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|8/100
+|-unboost|p1a: Clodsire|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|3/100 tox|[from] Sandstorm
+|-damage|p2a: Iron Valiant|0 fnt|[from] psn
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|upkeep
+|
+|t:|1743887955
+|switch|p2a: Landorus|Landorus-Therian, M|70/100
+|-damage|p2a: Landorus|57/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Clodsire|atk|1
+|turn|33
+|
+|t:|1743887961
+|move|p2a: Landorus|Earthquake|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|-weather|none
+|upkeep
+|
+|t:|1743887966
+|switch|p1a: Hydrapple|Hydrapple, M|99/100
+|turn|34
+|
+|t:|1743887973
+|move|p2a: Landorus|Earthquake|p1a: Hydrapple
+|-resisted|p1a: Hydrapple
+|-damage|p1a: Hydrapple|85/100
+|move|p1a: Hydrapple|Giga Drain|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|4/100
+|-heal|p1a: Hydrapple|100/100|[from] drain|[of] p2a: Landorus
+|
+|upkeep
+|turn|35
+|
+|t:|1743887975
+|move|p2a: Landorus|Earthquake|p1a: Hydrapple
+|-resisted|p1a: Hydrapple
+|-damage|p1a: Hydrapple|86/100
+|move|p1a: Hydrapple|Nasty Plot|p1a: Hydrapple
+|-boost|p1a: Hydrapple|spa|2
+|
+|upkeep
+|turn|36
+|
+|t:|1743887977
+|move|p2a: Landorus|Earthquake|p1a: Hydrapple
+|-resisted|p1a: Hydrapple
+|-damage|p1a: Hydrapple|72/100
+|move|p1a: Hydrapple|Giga Drain|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-heal|p1a: Hydrapple|74/100|[from] drain|[of] p2a: Landorus
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743887979
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|37
+|
+|t:|1743887994
+|-terastallize|p2a: Kingambit|Ghost
+|-terastallize|p1a: Hydrapple|Steel
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Hydrapple|Earth Power|p2a: Kingambit
+|-damage|p2a: Kingambit|41/100
+|
+|-heal|p2a: Kingambit|47/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1743888001
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Hydrapple
+|-damage|p1a: Hydrapple|0 fnt
+|faint|p1a: Hydrapple
+|
+|-heal|p2a: Kingambit|53/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743888005
+|switch|p1a: Corviknight|Corviknight, M|24/100
+|-damage|p1a: Corviknight|12/100|[from] Stealth Rock
+|turn|39
+|
+|t:|1743888007
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-heal|p2a: Kingambit|59/100|[from] item: Leftovers
+|upkeep
+|-message|okfernankk forfeited.
+|
+|win|CherN0ble
+|raw|okfernankk's rating: 1605 &rarr; <strong>1582</strong><br />(-23 for losing)
+|raw|CherN0ble's rating: 1559 &rarr; <strong>1582</strong><br />(+23 for winning)
+|l|☆okfernankk
+|player|p1|

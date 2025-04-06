@@ -1,0 +1,278 @@
+|j|☆andrewtb491
+|j|☆Kleosteus
+|t:|1743927984
+|gametype|singles
+|player|p1|andrewtb491|2|1444
+|player|p2|Kleosteus|colress|1396
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Greninja-*, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Conkeldurr, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Cinderace, F|
+|poke|p1|Dragapult, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Rillaboom, M|
+|poke|p2|Iron Moth|
+|poke|p2|Kyurem|
+|poke|p2|Empoleon, F|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|t:|1743928003
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: 铁武者|Iron Valiant|100/100
+|turn|1
+|
+|t:|1743928020
+|move|p2a: 铁武者|Focus Blast|p1a: Cinderace
+|-damage|p1a: Cinderace|11/100
+|-unboost|p1a: Cinderace|spd|1
+|move|p1a: Cinderace|Pyro Ball|p2a: 铁武者
+|-damage|p2a: 铁武者|31/100
+|-status|p2a: 铁武者|brn
+|
+|-damage|p2a: 铁武者|24/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1743928065
+|-end|p2a: 铁武者|Quark Drive|[silent]
+|switch|p2a: 帝王拿波|Empoleon, F|100/100
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743928085
+|move|p2a: 帝王拿波|Surf|p1a: Slowking
+|-damage|p1a: Slowking|41/100
+|move|p1a: Slowking|Thunder Wave|p2a: 帝王拿波
+|-status|p2a: 帝王拿波|par
+|
+|-heal|p1a: Slowking|47/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743928094
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743928098
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100|[from] Chilly Reception
+|move|p2a: 帝王拿波|Surf|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|19/100
+|
+|-weather|Snowscape|[upkeep]
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1743928147
+|switch|p2a: 铁武者|Iron Valiant|24/100 brn
+|move|p1a: Conkeldurr|Drain Punch|p2a: 铁武者
+|-resisted|p2a: 铁武者
+|-damage|p2a: 铁武者|0 fnt
+|-heal|p1a: Conkeldurr|28/100 brn|[from] drain|[of] p2a: 铁武者
+|faint|p2a: 铁武者
+|-end|p2a: 铁武者|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Conkeldurr|22/100 brn|[from] brn
+|upkeep
+|
+|t:|1743928164
+|switch|p2a: 铁毒蛾|Iron Moth|100/100
+|-enditem|p2a: 铁毒蛾|Booster Energy
+|-activate|p2a: 铁毒蛾|ability: Quark Drive|[fromitem]
+|-start|p2a: 铁毒蛾|quarkdrivespe
+|turn|6
+|
+|t:|1743928175
+|move|p2a: 铁毒蛾|Substitute|p2a: 铁毒蛾
+|-start|p2a: 铁毒蛾|Substitute
+|-damage|p2a: 铁毒蛾|76/100
+|move|p1a: Conkeldurr|Knock Off|p2a: 铁毒蛾
+|-end|p2a: 铁毒蛾|Substitute
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Conkeldurr|16/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743928183
+|move|p2a: 铁毒蛾|Fiery Dance|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|faint|p1a: Conkeldurr
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743928197
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: 铁毒蛾|atk|1
+|turn|8
+|
+|t:|1743928205
+|-terastallize|p2a: 铁毒蛾|Flying
+|move|p2a: 铁毒蛾|Fiery Dance|p1a: Landorus
+|-damage|p1a: Landorus|50/100
+|move|p1a: Landorus|Stealth Rock|p2a: 铁毒蛾
+|-sidestart|p2: Kleosteus|move: Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743928219
+|move|p2a: 铁毒蛾|Fiery Dance|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743928225
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|10
+|
+|t:|1743928250
+|move|p2a: 铁毒蛾|Acid Spray|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|81/100
+|-unboost|p1a: Dragapult|spd|2
+|move|p1a: Dragapult|Shadow Ball|p2a: 铁毒蛾
+|-damage|p2a: 铁毒蛾|21/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743928268
+|switch|p1a: Slowking|Slowking-Galar, M|80/100
+|move|p2a: 铁毒蛾|Sludge Wave|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|61/100
+|
+|-heal|p1a: Slowking|68/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743928278
+|move|p2a: 铁毒蛾|Fiery Dance|p1a: Slowking
+|-damage|p1a: Slowking|36/100
+|move|p1a: Slowking|Sludge Bomb|p2a: 铁毒蛾
+|-damage|p2a: 铁毒蛾|0 fnt
+|faint|p2a: 铁毒蛾
+|-end|p2a: 铁毒蛾|Quark Drive|[silent]
+|
+|-heal|p1a: Slowking|42/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743928300
+|switch|p2a: 魔幻假面喵|Meowscarada, F|100/100
+|-damage|p2a: 魔幻假面喵|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743928307
+|move|p2a: 魔幻假面喵|Knock Off|p1a: Slowking
+|-start|p2a: 魔幻假面喵|typechange|Dark|[from] ability: Protean
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-enditem|p1a: Slowking|Leftovers|[from] move: Knock Off|[of] p2a: 魔幻假面喵
+|faint|p1a: Slowking
+|-damage|p2a: 魔幻假面喵|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743928322
+|switch|p1a: Dragapult|Dragapult, F|81/100
+|turn|14
+|
+|t:|1743928335
+|switch|p2a: 帝王拿波|Empoleon, F|100/100 par
+|-damage|p2a: 帝王拿波|94/100 par|[from] Stealth Rock
+|move|p1a: Dragapult|U-turn|p2a: 帝王拿波
+|-resisted|p2a: 帝王拿波
+|-damage|p2a: 帝王拿波|85/100 par
+|
+|t:|1743928342
+|switch|p1a: Cinderace|Cinderace, F|11/100|[from] U-turn
+|
+|upkeep
+|turn|15
+|
+|t:|1743928362
+|switch|p2a: 轰雷金刚猩|Rillaboom, M|100/100
+|-damage|p2a: 轰雷金刚猩|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: 轰雷金刚猩
+|move|p1a: Cinderace|Pyro Ball|p2a: 轰雷金刚猩
+|-supereffective|p2a: 轰雷金刚猩
+|-damage|p2a: 轰雷金刚猩|0 fnt
+|faint|p2a: 轰雷金刚猩
+|
+|-heal|p1a: Cinderace|17/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743928386
+|switch|p2a: 魔幻假面喵|Meowscarada, F|78/100
+|-damage|p2a: 魔幻假面喵|66/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743928395
+|move|p2a: 魔幻假面喵|Flower Trick|p1a: Cinderace
+|-start|p2a: 魔幻假面喵|typechange|Grass|[from] ability: Protean
+|-resisted|p1a: Cinderace
+|-crit|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|-damage|p2a: 魔幻假面喵|56/100|[from] item: Life Orb
+|
+|-heal|p2a: 魔幻假面喵|62/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743928406
+|switch|p1a: Dragapult|Dragapult, F|81/100
+|turn|17
+|
+|t:|1743928411
+|move|p2a: 魔幻假面喵|Sucker Punch|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-damage|p2a: 魔幻假面喵|53/100|[from] item: Life Orb
+|
+|-heal|p2a: 魔幻假面喵|59/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743928419
+|switch|p1a: Greninja|Greninja, M|100/100
+|turn|18
+|
+|t:|1743928426
+|move|p2a: 魔幻假面喵|Flower Trick|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-crit|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|-damage|p2a: 魔幻假面喵|49/100|[from] item: Life Orb
+|
+|win|Kleosteus
+|raw|andrewtb491's rating: 1444 &rarr; <strong>1421</strong><br />(-23 for losing)
+|raw|Kleosteus's rating: 1396 &rarr; <strong>1419</strong><br />(+23 for winning)
+|l|☆Kleosteus
+|player|p2|

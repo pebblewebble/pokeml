@@ -1,0 +1,293 @@
+|j|☆jushudawu
+|j|☆poisonstingpete
+|t:|1743827442
+|gametype|singles
+|player|p1|jushudawu|steven-masters2|1088
+|player|p2|poisonstingpete|bugcatcher-gen4dp|1155
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Valiant|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Rotom-Wash|
+|poke|p1|Kingambit, F|
+|poke|p1|Sandy Shocks|
+|poke|p2|Enamorus, F|
+|poke|p2|Darkrai|
+|poke|p2|Cinderace, F|
+|poke|p2|Greninja-*, M|
+|poke|p2|Iron Boulder|
+|poke|p2|Araquanid, F|
+|teampreview
+|
+|t:|1743827448
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|turn|1
+|
+|t:|1743827454
+|move|p1a: Rotom|Trick|p2a: Araquanid
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Araquanid
+|-item|p2a: Araquanid|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Leftovers|[from] move: Trick
+|move|p2a: Araquanid|Sticky Web|p1a: Rotom
+|-sidestart|p1: jushudawu|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743827461
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p2a: Iron Boulder|Booster Energy
+|-activate|p2a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Boulder|quarkdriveatk
+|move|p1a: Rotom|Volt Switch|p2a: Iron Boulder
+|-crit|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|55/100
+|
+|t:|1743827469
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|-activate|p1a: Great Tusk|move: Sticky Web
+|-unboost|p1a: Great Tusk|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743827474
+|move|p2a: Iron Boulder|Zen Headbutt|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|45/100
+|move|p1a: Great Tusk|Earthquake|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|0 fnt
+|faint|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|
+|-heal|p1a: Great Tusk|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743827478
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|4
+|
+|t:|1743827488
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Greninja|Extrasensory|p1a: Rotom
+|-damage|p1a: Rotom|70/100
+|
+|-heal|p1a: Rotom|76/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743827496
+|switch|p2a: Darkrai|Darkrai|100/100
+|move|p1a: Rotom|Volt Switch|p2a: Darkrai
+|-damage|p2a: Darkrai|62/100
+|
+|t:|1743827508
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100|[from] Volt Switch
+|-activate|p1a: Sandy Shocks|move: Sticky Web
+|-unboost|p1a: Sandy Shocks|spe|1
+|
+|upkeep
+|turn|6
+|
+|t:|1743827516
+|move|p2a: Darkrai|Ice Beam|p1a: Sandy Shocks
+|-supereffective|p1a: Sandy Shocks
+|-damage|p1a: Sandy Shocks|0 fnt
+|faint|p1a: Sandy Shocks
+|-end|p1a: Sandy Shocks|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743827519
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|7
+|
+|t:|1743827527
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: Kingambit|Iron Head|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|upkeep
+|
+|t:|1743827529
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|8
+|
+|t:|1743827532
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Rotom|Rotom-Wash|76/100
+|move|p2a: Cinderace|U-turn|p1a: Rotom
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Rotom|29/100
+|
+|t:|1743827536
+|switch|p2a: Darkrai|Darkrai|62/100|[from] U-turn
+|
+|-heal|p1a: Rotom|35/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743827540
+|move|p2a: Darkrai|Dark Pulse|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1743827543
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-activate|p1a: Iron Valiant|move: Sticky Web
+|-unboost|p1a: Iron Valiant|spe|1
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespa
+|turn|10
+|
+|t:|1743827549
+|move|p2a: Darkrai|Dark Pulse|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|70/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|upkeep
+|
+|t:|1743827552
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|11
+|
+|t:|1743827554
+|move|p2a: Greninja|Water Shuriken|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|58/100
+|-damage|p1a: Iron Valiant|44/100
+|-damage|p1a: Iron Valiant|32/100
+|-damage|p1a: Iron Valiant|20/100
+|-hitcount|p1a: Iron Valiant|4
+|move|p1a: Iron Valiant|Moonblast|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|upkeep
+|
+|t:|1743827568
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|12
+|
+|t:|1743827573
+|move|p2a: Cinderace|Pyro Ball|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743827575
+|switch|p1a: Great Tusk|Great Tusk|51/100
+|-activate|p1a: Great Tusk|move: Sticky Web
+|-unboost|p1a: Great Tusk|spe|1
+|turn|13
+|
+|t:|1743827578
+|move|p2a: Cinderace|Zen Headbutt|p1a: Great Tusk
+|-start|p2a: Cinderace|typechange|Psychic|[from] ability: Libero
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|13/100
+|cant|p1a: Great Tusk|flinch
+|
+|-heal|p1a: Great Tusk|19/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743827583
+|move|p2a: Cinderace|Pyro Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743827585
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|15
+|
+|t:|1743827588
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|upkeep
+|turn|16
+|
+|t:|1743827591
+|move|p2a: Araquanid|Reflect|p2a: Araquanid
+|-sidestart|p2: poisonstingpete|Reflect
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|17
+|
+|t:|1743827594
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|18
+|
+|t:|1743827599
+|-terastallize|p2a: Cinderace|Fire
+|-terastallize|p1a: Kingambit|Dark
+|move|p1a: Kingambit|Sucker Punch|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1743827601
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|turn|19
+|
+|t:|1743827605
+|move|p2a: Araquanid|Liquidation|p1a: Kingambit
+|-damage|p1a: Kingambit|50/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|win|jushudawu
+|raw|jushudawu's rating: 1088 &rarr; <strong>1120</strong><br />(+32 for winning)
+|raw|poisonstingpete's rating: 1155 &rarr; <strong>1125</strong><br />(-30 for losing)
+|l|☆poisonstingpete
+|player|p2|
+|l|☆jushudawu
+|player|p1|

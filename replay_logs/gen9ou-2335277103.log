@@ -1,0 +1,374 @@
+|j|☆GooseFragger
+|j|☆alan456
+|t:|1743780818
+|gametype|singles
+|player|p1|GooseFragger|265|1311
+|player|p2|alan456|169|1336
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Ting-Lu|
+|poke|p1|Corviknight, M|
+|poke|p1|Weezing-Galar, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Primarina, F|
+|poke|p2|Staraptor, F|
+|poke|p2|Serperior, F|
+|poke|p2|Torterra, M|
+|poke|p2|Mew|
+|poke|p2|Corviknight, M|
+|poke|p2|Ting-Lu|
+|teampreview
+|
+|t:|1743780844
+|start
+|switch|p1a: Kyotaro|Kyurem, shiny|100/100
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p1a: Kyotaro|Pressure
+|-ability|p2a: Corviknight|Pressure
+|turn|1
+|
+|t:|1743780851
+|move|p1a: Kyotaro|Protect|p1a: Kyotaro
+|-singleturn|p1a: Kyotaro|Protect
+|move|p2a: Corviknight|U-turn|p1a: Kyotaro
+|-activate|p1a: Kyotaro|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1743780855
+|move|p1a: Kyotaro|Substitute|p1a: Kyotaro
+|-start|p1a: Kyotaro|Substitute
+|-damage|p1a: Kyotaro|76/100
+|move|p2a: Corviknight|U-turn|p1a: Kyotaro
+|-activate|p1a: Kyotaro|move: Substitute|[damage]
+|
+|t:|1743780866
+|switch|p2a: Ting-Lu|Ting-Lu|100/100|[from] U-turn
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|-heal|p1a: Kyotaro|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743780874
+|move|p1a: Kyotaro|Freeze-Dry|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|73/100
+|move|p2a: Ting-Lu|Whirlwind|p1a: Kyotaro
+|drag|p1a: Sentinel|Weezing-Galar, M, shiny|100/100
+|-ability|p1a: Sentinel|Neutralizing Gas
+|
+|-heal|p2a: Ting-Lu|79/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743780882
+|move|p1a: Sentinel|Will-O-Wisp|p2a: Ting-Lu
+|-status|p2a: Ting-Lu|brn
+|move|p2a: Ting-Lu|Earthquake|p1a: Sentinel
+|-supereffective|p1a: Sentinel
+|-damage|p1a: Sentinel|77/100
+|
+|-heal|p2a: Ting-Lu|86/100 brn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|79/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743780897
+|-end|p1a: Sentinel|ability: Neutralizing Gas
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|switch|p1a: Trojan|Zamazenta, shiny|100/100
+|-ability|p1a: Trojan|Dauntless Shield|boost
+|-boost|p1a: Trojan|def|1
+|move|p2a: Ting-Lu|Ruination|p1a: Trojan
+|-damage|p1a: Trojan|51/100
+|
+|-heal|p2a: Ting-Lu|86/100 brn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|79/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743780919
+|switch|p2a: Mew|Mew|100/100
+|move|p1a: Trojan|Close Combat|p2a: Mew
+|-resisted|p2a: Mew
+|-damage|p2a: Mew|66/100
+|-unboost|p1a: Trojan|def|1
+|-unboost|p1a: Trojan|spd|1
+|
+|-heal|p2a: Mew|73/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743780929
+|switch|p1a: Goliath|Ting-Lu|100/100
+|-ability|p1a: Goliath|Vessel of Ruin
+|move|p2a: Mew|Stealth Rock|p1a: Goliath
+|-sidestart|p1: GooseFragger|move: Stealth Rock
+|
+|-heal|p2a: Mew|79/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743780949
+|move|p2a: Mew|Fire Spin|p1a: Goliath
+|-damage|p1a: Goliath|97/100
+|-activate|p1a: Goliath|move: Fire Spin|[of] p2a: Mew
+|move|p1a: Goliath|Stealth Rock|p2a: Mew
+|-sidestart|p2: alan456|move: Stealth Rock
+|
+|-heal|p2a: Mew|85/100|[from] item: Leftovers
+|-heal|p1a: Goliath|100/100|[from] item: Leftovers
+|-damage|p1a: Goliath|88/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|t:|1743780956
+|move|p2a: Mew|Imprison|p2a: Mew
+|-start|p2a: Mew|move: Imprison
+|move|p1a: Goliath|Whirlwind|p2a: Mew
+|drag|p2a: Ting-Lu|Ting-Lu|79/100 brn
+|-damage|p2a: Ting-Lu|73/100 brn|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|-heal|p1a: Goliath|94/100|[from] item: Leftovers
+|-heal|p2a: Ting-Lu|79/100 brn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|73/100 brn|[from] brn
+|-end|p1a: Goliath|Fire Spin|[partiallytrapped]|[silent]
+|upkeep
+|turn|10
+|
+|t:|1743780964
+|move|p2a: Ting-Lu|Ruination|p1a: Goliath
+|-damage|p1a: Goliath|47/100
+|move|p1a: Goliath|Ruination|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|37/100 brn
+|
+|-heal|p2a: Ting-Lu|43/100 brn|[from] item: Leftovers
+|-heal|p1a: Goliath|54/100|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|37/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743780970
+|move|p1a: Goliath|Earthquake|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|17/100 brn
+|move|p2a: Ting-Lu|Ruination|p1a: Goliath
+|-damage|p1a: Goliath|27/100
+|
+|-heal|p1a: Goliath|33/100|[from] item: Leftovers
+|-heal|p2a: Ting-Lu|23/100 brn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|17/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743780974
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-damage|p2a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Goliath|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p1a: Goliath|40/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743780979
+|move|p2a: Corviknight|U-turn|p1a: Goliath
+|-supereffective|p1a: Goliath
+|-damage|p1a: Goliath|25/100
+|
+|t:|1743780982
+|switch|p2a: Ting-Lu|Ting-Lu|17/100 brn|[from] U-turn
+|-damage|p2a: Ting-Lu|11/100 brn|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Goliath|Ruination|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|6/100 brn
+|
+|-heal|p2a: Ting-Lu|12/100 brn|[from] item: Leftovers
+|-heal|p1a: Goliath|31/100|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|6/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743780985
+|move|p1a: Goliath|Earthquake|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|-heal|p1a: Goliath|37/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743780990
+|switch|p2a: Staraptor|Staraptor, F|100/100
+|-damage|p2a: Staraptor|76/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743780998
+|switch|p1a: Sentinel|Weezing-Galar, M, shiny|77/100
+|-ability|p1a: Sentinel|Neutralizing Gas
+|move|p2a: Staraptor|Close Combat|p1a: Sentinel
+|-resisted|p1a: Sentinel
+|-damage|p1a: Sentinel|70/100
+|-unboost|p2a: Staraptor|def|1
+|-unboost|p2a: Staraptor|spd|1
+|
+|upkeep
+|turn|16
+|
+|t:|1743781010
+|switch|p2a: Serperior|Serperior, F|100/100
+|-damage|p2a: Serperior|88/100|[from] Stealth Rock
+|move|p1a: Sentinel|Will-O-Wisp|p2a: Serperior|[miss]
+|-miss|p1a: Sentinel|p2a: Serperior
+|
+|-heal|p2a: Serperior|94/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743781018
+|-end|p1a: Sentinel|ability: Neutralizing Gas
+|switch|p1a: Yami|Corviknight, M, shiny|100/100
+|-damage|p1a: Yami|88/100|[from] Stealth Rock
+|-ability|p1a: Yami|Pressure
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|69/100
+|
+|-heal|p2a: Serperior|76/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743781023
+|move|p2a: Serperior|Glare|p1a: Yami
+|-status|p1a: Yami|par
+|move|p1a: Yami|Brave Bird|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|-damage|p1a: Yami|81/100 par|[from] Recoil|[of] p2a: Serperior
+|
+|-heal|p2a: Serperior|82/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743781026
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|57/100
+|move|p1a: Yami|Brave Bird|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|-damage|p1a: Yami|74/100 par|[from] Recoil|[of] p2a: Serperior
+|
+|-heal|p2a: Serperior|63/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743781030
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|38/100
+|move|p1a: Yami|Brave Bird|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|-damage|p1a: Yami|66/100 par|[from] Recoil|[of] p2a: Serperior
+|
+|-heal|p2a: Serperior|45/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743781033
+|switch|p2a: Corviknight|Corviknight, M|88/100
+|-damage|p2a: Corviknight|75/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|cant|p1a: Yami|par
+|
+|upkeep
+|turn|22
+|
+|t:|1743781037
+|move|p2a: Corviknight|U-turn|p1a: Yami
+|-resisted|p1a: Yami
+|-damage|p1a: Yami|64/100 par
+|-damage|p2a: Corviknight|59/100|[from] item: Rocky Helmet|[of] p1a: Yami
+|
+|t:|1743781040
+|switch|p2a: Serperior|Serperior, F|45/100|[from] U-turn
+|-damage|p2a: Serperior|32/100|[from] Stealth Rock
+|move|p1a: Yami|U-turn|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|3/100
+|
+|t:|1743781046
+|switch|p1a: Trojan|Zamazenta, shiny|51/100|[from] U-turn
+|-damage|p1a: Trojan|44/100|[from] Stealth Rock
+|
+|-heal|p2a: Serperior|9/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743781056
+|switch|p2a: Corviknight|Corviknight, M|59/100
+|-damage|p2a: Corviknight|46/100|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Trojan|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-unboost|p1a: Trojan|def|1
+|-unboost|p1a: Trojan|spd|1
+|-damage|p1a: Trojan|28/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1743781076
+|switch|p2a: Torterra|Torterra, M|100/100
+|-damage|p2a: Torterra|94/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1743781082
+|-terastallize|p1a: Trojan|Fighting
+|move|p1a: Trojan|Close Combat|p2a: Torterra
+|-damage|p2a: Torterra|0 fnt
+|-unboost|p1a: Trojan|def|1
+|-unboost|p1a: Trojan|spd|1
+|faint|p2a: Torterra
+|
+|upkeep
+|
+|t:|1743781089
+|switch|p2a: Staraptor|Staraptor, F|76/100
+|-damage|p2a: Staraptor|51/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1743781095
+|switch|p1a: Goliath|Ting-Lu|37/100
+|-damage|p1a: Goliath|31/100|[from] Stealth Rock
+|-ability|p1a: Goliath|Vessel of Ruin
+|move|p2a: Staraptor|Brave Bird|p1a: Goliath
+|-damage|p1a: Goliath|0 fnt
+|faint|p1a: Goliath
+|-damage|p2a: Staraptor|34/100|[from] Recoil
+|
+|upkeep
+|-message|alan456 forfeited.
+|
+|win|GooseFragger
+|raw|GooseFragger's rating: 1311 &rarr; <strong>1332</strong><br />(+21 for winning)
+|raw|alan456's rating: 1336 &rarr; <strong>1315</strong><br />(-21 for losing)
+|l|☆alan456
+|player|p2|
+|l|☆GooseFragger
+|player|p1|

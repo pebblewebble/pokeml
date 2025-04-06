@@ -1,0 +1,570 @@
+|j|☆TRISMERCHANT
+|j|☆Lavisse
+|t:|1743806084
+|gametype|singles
+|player|p1|TRISMERCHANT|clay|1098
+|player|p2|Lavisse|grimsley-gen7|1077
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Treads|
+|poke|p1|Pelipper, F|
+|poke|p1|Kingdra, F|
+|poke|p1|Rillaboom, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Raging Bolt|
+|poke|p2|Pecharunt|
+|poke|p2|Rotom-Wash|
+|poke|p2|Kyurem|
+|poke|p2|Great Tusk|
+|poke|p2|Toxapex, F|
+|poke|p2|Cinderace, M|
+|teampreview
+|
+|t:|1743806095
+|start
+|switch|p1a: CIA|Pelipper, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: CIA
+|turn|1
+|
+|t:|1743806100
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Rotom|Volt Switch|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|91/100
+|
+|t:|1743806117
+|switch|p2a: Kyurem|Kyurem|100/100|[from] Volt Switch
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rillaboom|97/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1743806130
+|-terastallize|p1a: Rillaboom|Steel
+|move|p2a: Kyurem|Dragon Dance|p2a: Kyurem
+|-boost|p2a: Kyurem|atk|1
+|-boost|p2a: Kyurem|spe|1
+|move|p1a: Rillaboom|Low Kick|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|18/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|24/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1743806147
+|-terastallize|p2a: Kyurem|Fire
+|move|p1a: Rillaboom|Grassy Glide|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|5/100
+|move|p2a: Kyurem|Tera Blast|p1a: Rillaboom|[anim] Tera Blast Fire
+|-supereffective|p1a: Rillaboom
+|-crit|p1a: Rillaboom
+|-damage|p1a: Rillaboom|20/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kyurem|11/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|26/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1743806168
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|move|p1a: Rillaboom|Grassy Glide|p2a: Toxapex
+|-damage|p2a: Toxapex|69/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rillaboom|32/100|[from] Grassy Terrain
+|-heal|p2a: Toxapex|75/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1743806185
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Rillaboom|Wood Hammer|p2a: Pecharunt
+|-resisted|p2a: Pecharunt
+|-damage|p2a: Pecharunt|76/100
+|-damage|p1a: Rillaboom|25/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Pecharunt|82/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|31/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1743806198
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Pecharunt|Parting Shot|p1a: Iron Treads
+|-unboost|p1a: Iron Treads|atk|1
+|-unboost|p1a: Iron Treads|spa|1
+|
+|t:|1743806220
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from] Parting Shot
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743806228
+|move|p1a: Iron Treads|Earth Power|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|45/100
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Iron Treads
+|-status|p1a: Iron Treads|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Iron Treads|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743806240
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Iron Treads|Stealth Rock|p2a: Rotom
+|-sidestart|p2: Lavisse|move: Stealth Rock
+|
+|-weather|none
+|-damage|p1a: Iron Treads|88/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743806248
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: CIA|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: CIA
+|move|p2a: Rotom|Hydro Pump|p1a: CIA
+|-resisted|p1a: CIA
+|-damage|p1a: CIA|59/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743806258
+|switch|p1a: Iron Treads|Iron Treads|88/100 brn
+|move|p2a: Rotom|Volt Switch|p1a: Iron Treads
+|-immune|p1a: Iron Treads
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Iron Treads|82/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743806263
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|move|p1a: Iron Treads|Steel Beam|p2a: Great Tusk
+|-damage|p2a: Great Tusk|28/100
+|-damage|p1a: Iron Treads|32/100 brn|[from] steelbeam
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Iron Treads|25/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743806279
+|move|p1a: Iron Treads|Earth Power|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Iron Treads|19/100 brn|[from] brn
+|upkeep
+|
+|t:|1743806290
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-damage|p2a: Rotom|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743806294
+|move|p1a: Iron Treads|Steel Beam|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|74/100
+|-damage|p1a: Iron Treads|0 fnt|[from] steelbeam
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|move|p2a: Rotom|Volt Switch|p1: Iron Treads|[notarget]
+|-fail|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|80/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743806298
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|turn|14
+|
+|t:|1743806308
+|switch|p2a: Pecharunt|Pecharunt|82/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743806313
+|move|p2a: Pecharunt|Malignant Chain|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|81/100
+|move|p1a: Raging Bolt|Weather Ball|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743806322
+|switch|p2a: Kyurem|Kyurem, tera:Fire|11/100
+|-damage|p2a: Kyurem|0 fnt|[from] Stealth Rock
+|faint|p2a: Kyurem
+|
+|t:|1743806327
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|turn|16
+|
+|t:|1743806333
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-weather|none
+|upkeep
+|turn|17
+|
+|t:|1743806337
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: CIA|Pelipper, F|59/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: CIA
+|move|p2a: Toxapex|Toxic|p1a: CIA
+|-status|p1a: CIA|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: CIA|53/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1743806342
+|switch|p2a: Rotom|Rotom-Wash|80/100
+|-damage|p2a: Rotom|68/100|[from] Stealth Rock
+|move|p1a: CIA|Roost|p1a: CIA
+|-heal|p1a: CIA|100/100 tox
+|-singleturn|p1a: CIA|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|74/100|[from] item: Leftovers
+|-damage|p1a: CIA|88/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1743806348
+|switch|p1a: Rillaboom|Rillaboom, F, tera:Steel|31/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Rotom|Hydro Pump|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rotom|80/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743806350
+|switch|p1a: Chillplay Mogger|Basculegion, M|100/100
+|turn|20
+|
+|t:|1743806360
+|move|p1a: Chillplay Mogger|Wave Crash|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|31/100
+|-damage|p1a: Chillplay Mogger|87/100|[from] Recoil
+|move|p2a: Rotom|Will-O-Wisp|p1a: Chillplay Mogger
+|-status|p1a: Chillplay Mogger|brn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Chillplay Mogger|93/100 brn|[from] Grassy Terrain
+|-heal|p2a: Rotom|37/100|[from] item: Leftovers
+|-damage|p1a: Chillplay Mogger|87/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1743806367
+|move|p1a: Chillplay Mogger|Wave Crash|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|13/100
+|-damage|p1a: Chillplay Mogger|81/100 brn|[from] Recoil
+|move|p2a: Rotom|Volt Switch|p1a: Chillplay Mogger
+|-supereffective|p1a: Chillplay Mogger
+|-damage|p1a: Chillplay Mogger|24/100 brn
+|
+|t:|1743806374
+|switch|p2a: Toxapex|Toxapex, F|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Chillplay Mogger|30/100 brn|[from] Grassy Terrain
+|-damage|p1a: Chillplay Mogger|24/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1743806378
+|move|p1a: Chillplay Mogger|Wave Crash|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|75/100
+|-damage|p1a: Chillplay Mogger|18/100 brn|[from] Recoil
+|move|p2a: Toxapex|Infestation|p1a: Chillplay Mogger
+|-resisted|p1a: Chillplay Mogger
+|-damage|p1a: Chillplay Mogger|16/100 brn
+|-activate|p1a: Chillplay Mogger|move: Infestation|[of] p2a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Chillplay Mogger|22/100 brn|[from] Grassy Terrain
+|-heal|p2a: Toxapex|81/100|[from] Grassy Terrain
+|-damage|p1a: Chillplay Mogger|16/100 brn|[from] brn
+|-damage|p1a: Chillplay Mogger|4/100 brn|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|23
+|
+|t:|1743806382
+|move|p1a: Chillplay Mogger|Wave Crash|p2a: Toxapex
+|-resisted|p2a: Toxapex
+|-damage|p2a: Toxapex|57/100
+|-damage|p1a: Chillplay Mogger|0 fnt|[from] Recoil
+|faint|p1a: Chillplay Mogger
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1743806386
+|switch|p1a: Raging Bolt|Raging Bolt|81/100
+|turn|24
+|
+|t:|1743806391
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|move|p2a: Toxapex|Toxic|p1a: Raging Bolt
+|-status|p1a: Raging Bolt|tox
+|
+|-weather|none
+|-damage|p1a: Raging Bolt|74/100 tox|[from] psn
+|upkeep
+|turn|25
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TRISMERCHANT)
+|
+|t:|1743806411
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: CIA|Pelipper, F|88/100 tox
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: CIA
+|switch|p2a: Cinderace|Cinderace, M|45/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: CIA|82/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1743806417
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: CIA|Roost|p1a: CIA
+|-heal|p1a: CIA|100/100 tox
+|-singleturn|p1a: CIA|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: CIA|88/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1743806422
+|move|p2a: Cinderace|U-turn|p1a: CIA
+|-resisted|p1a: CIA
+|-damage|p1a: CIA|80/100 tox
+|
+|t:|1743806425
+|switch|p2a: Rotom|Rotom-Wash|13/100|[from] U-turn
+|move|p1a: CIA|Weather Ball|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: CIA|61/100 tox|[from] psn
+|upkeep
+|
+|t:|1743806428
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|turn|28
+|
+|t:|1743806431
+|move|p1a: CIA|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|78/100
+|move|p2a: Toxapex|Infestation|p1a: CIA
+|-resisted|p1a: CIA
+|-damage|p1a: CIA|59/100 tox
+|-activate|p1a: CIA|move: Infestation|[of] p2a: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: CIA|35/100 tox|[from] psn
+|-damage|p1a: CIA|22/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|29
+|
+|t:|1743806441
+|move|p1a: CIA|Roost|p1a: CIA
+|-heal|p1a: CIA|72/100 tox
+|-singleturn|p1a: CIA|move: Roost
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|100/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: CIA|41/100 tox|[from] psn
+|-damage|p1a: CIA|29/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|30
+|
+|t:|1743806452
+|move|p1a: CIA|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|77/100
+|move|p2a: Toxapex|Infestation|p1a: CIA
+|-resisted|p1a: CIA
+|-damage|p1a: CIA|27/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: CIA|0 fnt|[from] psn
+|faint|p1a: CIA
+|upkeep
+|
+|t:|1743806455
+|switch|p1a: Raging Bolt|Raging Bolt|74/100 tox
+|-damage|p1a: Raging Bolt|62/100 tox|[from] Stealth Rock
+|turn|31
+|
+|t:|1743806468
+|switch|p2a: Cinderace|Cinderace, M|45/100
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Raging Bolt|56/100 tox|[from] psn
+|upkeep
+|turn|32
+|
+|t:|1743806473
+|move|p1a: Raging Bolt|Thunderclap|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-weather|none
+|-damage|p1a: Raging Bolt|44/100 tox|[from] psn
+|upkeep
+|
+|t:|1743806478
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|turn|33
+|
+|t:|1743806485
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Toxapex
+|-damage|p2a: Toxapex|54/100
+|move|p2a: Toxapex|Haze|p2a: Toxapex
+|-clearallboost
+|
+|-damage|p1a: Raging Bolt|25/100 tox|[from] psn
+|upkeep
+|turn|34
+|
+|t:|1743806492
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Toxapex
+|-damage|p2a: Toxapex|24/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|74/100
+|
+|-damage|p1a: Raging Bolt|1/100 tox|[from] psn
+|upkeep
+|turn|35
+|
+|t:|1743806497
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Toxapex
+|-damage|p2a: Toxapex|39/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|89/100
+|
+|-damage|p1a: Raging Bolt|0 fnt|[from] psn
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1743806500
+|switch|p1a: Kingdra|Kingdra, F|100/100
+|-damage|p1a: Kingdra|88/100|[from] Stealth Rock
+|turn|36
+|
+|t:|1743806507
+|move|p1a: Kingdra|Hurricane|p2a: Toxapex|[miss]
+|-miss|p1a: Kingdra|p2a: Toxapex
+|move|p2a: Toxapex|Toxic|p1a: Kingdra
+|-status|p1a: Kingdra|tox
+|
+|-damage|p1a: Kingdra|82/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1743806509
+|move|p1a: Kingdra|Hurricane|p2a: Toxapex|[miss]
+|-miss|p1a: Kingdra|p2a: Toxapex
+|move|p2a: Toxapex|Infestation|p1a: Kingdra
+|-damage|p1a: Kingdra|77/100 tox
+|-activate|p1a: Kingdra|move: Infestation|[of] p2a: Toxapex
+|
+|-damage|p1a: Kingdra|65/100 tox|[from] psn
+|-damage|p1a: Kingdra|53/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|38
+|n|!TRISMERCHANT|trismerchant
+|
+|t:|1743806519
+|move|p1a: Kingdra|Hurricane|p2a: Toxapex
+|-damage|p2a: Toxapex|64/100
+|-start|p2a: Toxapex|confusion
+|-damage|p1a: Kingdra|43/100 tox|[from] item: Life Orb
+|-activate|p2a: Toxapex|confusion
+|move|p2a: Toxapex|Infestation|p1a: Kingdra
+|-damage|p1a: Kingdra|39/100 tox
+|
+|-damage|p1a: Kingdra|20/100 tox|[from] psn
+|-damage|p1a: Kingdra|8/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|39
+|
+|t:|1743806529
+|move|p1a: Kingdra|Draco Meteor|p2a: Toxapex
+|-damage|p2a: Toxapex|19/100
+|-unboost|p1a: Kingdra|spa|2
+|-damage|p1a: Kingdra|0 fnt|[from] item: Life Orb
+|faint|p1a: Kingdra
+|
+|win|Lavisse

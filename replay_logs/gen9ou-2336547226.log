@@ -1,0 +1,330 @@
+|j|☆hei_mao666
+|j|☆b888izi
+|t:|1743937203
+|gametype|singles
+|player|p1|hei_mao666|hilbert|1130
+|player|p2|b888izi|red|1151
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gholdengo|
+|poke|p1|Dragapult, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Walking Wake|
+|poke|p1|Torkoal, F|
+|poke|p1|Raging Bolt|
+|poke|p2|Pikachu, F|
+|poke|p2|Blastoise, M|
+|poke|p2|Charizard, F|
+|poke|p2|Venusaur, F|
+|poke|p2|Snorlax, M|
+|poke|p2|Lapras, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by b888izi)
+|
+|t:|1743937218
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Blastoise|Blastoise, M|100/100
+|turn|1
+|
+|t:|1743937239
+|-terastallize|p2a: Blastoise|Steel
+|move|p2a: Blastoise|Shell Smash|p2a: Blastoise
+|-unboost|p2a: Blastoise|def|1
+|-unboost|p2a: Blastoise|spd|1
+|-boost|p2a: Blastoise|atk|2
+|-boost|p2a: Blastoise|spa|2
+|-boost|p2a: Blastoise|spe|2
+|-enditem|p2a: Blastoise|White Herb
+|-clearnegativeboost|p2a: Blastoise|[silent]
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Blastoise
+|-damage|p2a: Blastoise|34/100
+|-damage|p1a: Raging Bolt|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|t:|1743937254
+|move|p1a: Raging Bolt|Thunderclap|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|-damage|p1a: Raging Bolt|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743937261
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|turn|3
+|
+|t:|1743937265
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdriveatk
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743937280
+|switch|p2a: Venusaur|Venusaur, F|100/100
+|move|p1a: Iron Valiant|Close Combat|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|57/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|
+|-heal|p2a: Venusaur|63/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743937290
+|move|p1a: Iron Valiant|Psycho Cut|p2a: Venusaur
+|-supereffective|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|upkeep
+|
+|t:|1743937297
+|switch|p2a: Charizard|Charizard, F|100/100
+|turn|6
+|
+|t:|1743937301
+|move|p1a: Iron Valiant|Spirit Break|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|65/100
+|-unboost|p2a: Charizard|spa|1
+|move|p2a: Charizard|Hurricane|p1a: Iron Valiant|[miss]
+|-miss|p2a: Charizard|p1a: Iron Valiant
+|
+|upkeep
+|turn|7
+|
+|t:|1743937310
+|move|p1a: Iron Valiant|Close Combat|p2a: Charizard
+|-resisted|p2a: Charizard
+|-damage|p2a: Charizard|6/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|move|p2a: Charizard|Flamethrower|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743937321
+|switch|p1a: Raging Bolt|Raging Bolt|81/100
+|turn|8
+|
+|t:|1743937328
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|upkeep
+|turn|9
+|
+|t:|1743937337
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743937346
+|move|p1a: Gholdengo|Make It Rain|p2a: Snorlax
+|-damage|p2a: Snorlax|57/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|upkeep
+|turn|11
+|
+|t:|1743937358
+|switch|p1a: Dragapult|Dragapult, M, shiny|100/100
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|100/100 slp|[silent]
+|-enditem|p2a: Snorlax|Chesto Berry|[eat]
+|-curestatus|p2a: Snorlax|slp|[msg]
+|
+|upkeep
+|turn|12
+|
+|t:|1743937375
+|-terastallize|p1a: Dragapult|Dragon
+|move|p1a: Dragapult|Dragon Darts|p2a: Snorlax
+|-damage|p2a: Snorlax|77/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Snorlax
+|-damage|p2a: Snorlax|56/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|upkeep
+|turn|13
+|
+|t:|1743937399
+|move|p1a: Dragapult|Dragon Darts|p2a: Snorlax
+|-damage|p2a: Snorlax|37/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Snorlax
+|-damage|p2a: Snorlax|19/100
+|move|p2a: Snorlax|Rest|p2a: Snorlax
+|-status|p2a: Snorlax|slp|[from] move: Rest
+|-heal|p2a: Snorlax|100/100 slp|[silent]
+|
+|upkeep
+|turn|14
+|
+|t:|1743937410
+|switch|p1a: Raging Bolt|Raging Bolt|81/100
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|15
+|
+|t:|1743937417
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Snorlax
+|-damage|p2a: Snorlax|70/100 slp
+|-damage|p1a: Raging Bolt|71/100|[from] item: Life Orb
+|cant|p2a: Snorlax|slp
+|
+|upkeep
+|turn|16
+|
+|t:|1743937423
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Snorlax
+|-damage|p2a: Snorlax|43/100 slp
+|-damage|p1a: Raging Bolt|61/100|[from] item: Life Orb
+|-curestatus|p2a: Snorlax|slp|[msg]
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|upkeep
+|turn|17
+|
+|t:|1743937433
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|-unboost|p1a: Raging Bolt|spa|2
+|faint|p2a: Snorlax
+|-damage|p1a: Raging Bolt|51/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743937441
+|switch|p2a: Pikachu|Pikachu, F|100/100
+|turn|18
+|
+|t:|1743937449
+|move|p2a: Pikachu|Knock Off|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|17/100
+|-enditem|p1a: Raging Bolt|Life Orb|[from] move: Knock Off|[of] p2a: Pikachu
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Pikachu
+|-damage|p2a: Pikachu|0 fnt
+|-unboost|p1a: Raging Bolt|spa|2
+|faint|p2a: Pikachu
+|
+|upkeep
+|
+|t:|1743937458
+|switch|p2a: Lapras|Lapras, F|100/100
+|turn|19
+|
+|t:|1743937462
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Lapras|Ice Shard|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|96/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1743937473
+|move|p2a: Lapras|Hydro Pump|p1a: Torkoal|[miss]
+|-miss|p2a: Lapras|p1a: Torkoal
+|move|p1a: Torkoal|Solar Beam||[still]
+|-prepare|p1a: Torkoal|Solar Beam
+|-anim|p1a: Torkoal|Solar Beam|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|71/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743937481
+|move|p2a: Lapras|Hydro Pump|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|23/100
+|move|p1a: Torkoal|Overheat|p2a: Lapras
+|-damage|p2a: Lapras|31/100
+|-unboost|p1a: Torkoal|spa|2
+|-enditem|p1a: Torkoal|Eject Pack
+|
+|t:|1743937494
+|switch|p1a: Raging Bolt|Raging Bolt|17/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1743937500
+|move|p2a: Lapras|Ice Shard|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|1/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-crit|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|l|☆b888izi
+|inactive|b888izi disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|b888izi has 30 seconds to reconnect!
+|inactive|b888izi has 20 seconds to reconnect!
+|inactive|b888izi has 15 seconds to reconnect!
+|inactive|b888izi has 10 seconds to reconnect!
+|inactive|b888izi has 5 seconds to reconnect!
+|-message|b888izi lost due to inactivity.
+|
+|win|hei_mao666
+|raw|hei_mao666's rating: 1130 &rarr; <strong>1157</strong><br />(+27 for winning)
+|raw|b888izi's rating: 1151 &rarr; <strong>1124</strong><br />(-27 for losing)
+|l|☆hei_mao666
+|player|p1|

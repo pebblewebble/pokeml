@@ -1,0 +1,378 @@
+|j|☆Bum_Muncha
+|j|☆PekPicPek
+|t:|1743894168
+|gametype|singles
+|player|p1|Bum_Muncha|102|1679
+|player|p2|PekPicPek|chuck|1659
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ting-Lu|
+|poke|p1|Gliscor, M|
+|poke|p1|Sinistcha|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Tinkaton, F|
+|poke|p1|Dragonite, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Great Tusk|
+|poke|p2|Moltres|
+|poke|p2|Azumarill, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Klawf, M|
+|teampreview
+|
+|t:|1743894176
+|start
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|switch|p2a: Mr T|Great Tusk|100/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|-item|p1a: Tinkaton|Air Balloon
+|-enditem|p2a: Mr T|Booster Energy
+|-activate|p2a: Mr T|ability: Protosynthesis|[fromitem]
+|-start|p2a: Mr T|protosynthesisatk
+|turn|1
+|
+|t:|1743894182
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Mr T
+|-damage|p2a: Mr T|67/100
+|move|p2a: Mr T|Ice Spinner|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|80/100
+|-enditem|p1a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|2
+|
+|t:|1743894188
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|move|p2a: Mr T|Ice Spinner|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|33/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743894192
+|move|p1a: Dragonite|Extreme Speed|p2a: Mr T
+|-damage|p2a: Mr T|46/100
+|move|p2a: Mr T|Rapid Spin|p1a: Dragonite
+|-damage|p1a: Dragonite|10/100
+|-boost|p2a: Mr T|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743894196
+|move|p1a: Dragonite|Extreme Speed|p2a: Mr T
+|-damage|p2a: Mr T|22/100
+|move|p2a: Mr T|Ice Spinner|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1743894199
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|turn|5
+|
+|t:|1743894202
+|-end|p2a: Mr T|Protosynthesis|[silent]
+|switch|p2a: Its U-turn|Dragapult, F, shiny|100/100
+|move|p1a: Keldeo|Vacuum Wave|p2a: Its U-turn
+|-immune|p2a: Its U-turn
+|
+|upkeep
+|turn|6
+|
+|t:|1743894208
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Its U-turn|U-turn|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|83/100
+|
+|t:|1743894210
+|switch|p2a: Mr T|Great Tusk|22/100|[from] U-turn
+|
+|-heal|p1a: Ting-Lu|89/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743894213
+|move|p2a: Mr T|Close Combat|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|21/100
+|-unboost|p2a: Mr T|def|1
+|-unboost|p2a: Mr T|spd|1
+|move|p1a: Ting-Lu|Earthquake|p2a: Mr T
+|-damage|p2a: Mr T|0 fnt
+|faint|p2a: Mr T
+|-end|p2a: Mr T|Protosynthesis|[silent]
+|
+|-heal|p1a: Ting-Lu|27/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743894221
+|switch|p2a: Mr Bushido|Kingambit, M|100/100
+|-activate|p2a: Mr Bushido|ability: Supreme Overlord
+|-start|p2a: Mr Bushido|fallen1|[silent]
+|turn|8
+|
+|t:|1743894239
+|move|p2a: Mr Bushido|Iron Head|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743894242
+|switch|p1a: Tinkaton|Tinkaton, F|80/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|turn|9
+|
+|t:|1743894245
+|move|p1a: Tinkaton|Stealth Rock|p2a: Mr Bushido
+|-sidestart|p2: PekPicPek|move: Stealth Rock
+|move|p2a: Mr Bushido|Iron Head|p1a: Tinkaton
+|-damage|p1a: Tinkaton|26/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743894251
+|move|p1a: Tinkaton|Thunder Wave|p2a: Mr Bushido
+|-status|p2a: Mr Bushido|par
+|move|p2a: Mr Bushido|Iron Head|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|upkeep
+|
+|t:|1743894254
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|turn|11
+|
+|t:|1743894257
+|-end|p2a: Mr Bushido|fallen1|[silent]
+|switch|p2a: Its U-turn|Dragapult, F, shiny|100/100
+|-damage|p2a: Its U-turn|88/100|[from] Stealth Rock
+|move|p1a: Keldeo|Secret Sword|p2a: Its U-turn
+|-immune|p2a: Its U-turn
+|
+|upkeep
+|turn|12
+|
+|t:|1743894259
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Its U-turn|Shadow Ball|p1a: Gliscor
+|-damage|p1a: Gliscor|37/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|13
+|
+|t:|1743894267
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Its U-turn|Shadow Ball|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|50/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|t:|1743894271
+|-terastallize|p1a: Gliscor|Normal
+|move|p2a: Its U-turn|Shadow Ball|p1a: Gliscor
+|-immune|p1a: Gliscor
+|move|p1a: Gliscor|Knock Off|p2a: Its U-turn
+|-supereffective|p2a: Its U-turn
+|-damage|p2a: Its U-turn|33/100
+|-enditem|p2a: Its U-turn|Choice Specs|[from] move: Knock Off|[of] p1a: Gliscor
+|
+|-heal|p1a: Gliscor|62/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|t:|1743894278
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Its U-turn|Draco Meteor|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|75/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|t:|1743894283
+|move|p2a: Its U-turn|Draco Meteor|p1a: Gliscor
+|-damage|p1a: Gliscor|4/100 tox
+|-unboost|p2a: Its U-turn|spa|2
+|move|p1a: Gliscor|Knock Off|p2a: Its U-turn
+|-supereffective|p2a: Its U-turn
+|-damage|p2a: Its U-turn|0 fnt
+|faint|p2a: Its U-turn
+|
+|-heal|p1a: Gliscor|17/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743894292
+|switch|p2a: Wyatt|Klawf, M|100/100
+|-damage|p2a: Wyatt|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743894326
+|move|p1a: Gliscor|Knock Off|p2a: Wyatt
+|-damage|p2a: Wyatt|62/100
+|-enditem|p2a: Wyatt|Focus Sash|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Wyatt|Rock Blast|p1a: Gliscor
+|-damage|p1a: Gliscor|7/100 tox
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|-hitcount|p1: Gliscor|2
+|
+|upkeep
+|
+|t:|1743894328
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|turn|18
+|
+|t:|1743894331
+|move|p1a: Keldeo|Surf|p2a: Wyatt
+|-supereffective|p2a: Wyatt
+|-damage|p2a: Wyatt|0 fnt
+|faint|p2a: Wyatt
+|
+|upkeep
+|
+|t:|1743894335
+|switch|p2a: Lucia|Azumarill, M|100/100
+|-damage|p2a: Lucia|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743894337
+|move|p1a: Keldeo|Flip Turn|p2a: Lucia
+|-resisted|p2a: Lucia
+|-damage|p2a: Lucia|81/100
+|
+|t:|1743894339
+|switch|p1a: Sinistcha|Sinistcha|100/100|[from] Flip Turn
+|move|p2a: Lucia|Play Rough|p1a: Sinistcha
+|-damage|p1a: Sinistcha|61/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743894341
+|switch|p2a: Emily|Moltres|100/100
+|move|p1a: Sinistcha|Strength Sap|p2a: Emily
+|-unboost|p2a: Emily|atk|1
+|-heal|p1a: Sinistcha|100/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743894345
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|move|p2a: Emily|Hurricane|p1a: Keldeo|[miss]
+|-miss|p2a: Emily|p1a: Keldeo
+|
+|upkeep
+|turn|22
+|
+|t:|1743894349
+|-terastallize|p2a: Emily|Grass
+|move|p1a: Keldeo|Surf|p2a: Emily
+|-resisted|p2a: Emily
+|-crit|p2a: Emily
+|-damage|p2a: Emily|64/100
+|move|p2a: Emily|Hurricane|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|1/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743894357
+|move|p1a: Keldeo|Flip Turn|p2a: Emily
+|-resisted|p2a: Emily
+|-damage|p2a: Emily|59/100
+|
+|t:|1743894359
+|switch|p1a: Sinistcha|Sinistcha|100/100|[from] Flip Turn
+|move|p2a: Emily|Flamethrower|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|55/100
+|
+|upkeep
+|turn|24
+|
+|t:|1743894363
+|move|p2a: Emily|Hurricane|p1a: Sinistcha|[miss]
+|-miss|p2a: Emily|p1a: Sinistcha
+|move|p1a: Sinistcha|Shadow Ball|p2a: Emily
+|-damage|p2a: Emily|25/100
+|
+|upkeep
+|turn|25
+|
+|t:|1743894366
+|move|p2a: Emily|Roost|p2a: Emily
+|-heal|p2a: Emily|75/100
+|move|p1a: Sinistcha|Shadow Ball|p2a: Emily
+|-damage|p2a: Emily|40/100
+|
+|upkeep
+|turn|26
+|
+|t:|1743894372
+|move|p2a: Emily|Flamethrower|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|12/100
+|-status|p1a: Sinistcha|brn
+|move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+|-boost|p1a: Sinistcha|spa|1
+|-boost|p1a: Sinistcha|spd|1
+|
+|-damage|p1a: Sinistcha|9/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1743894377
+|move|p2a: Emily|Flamethrower|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|
+|upkeep
+|
+|t:|1743894378
+|switch|p1a: Keldeo|Keldeo-Resolute|1/100
+|turn|28
+|
+|t:|1743894380
+|move|p1a: Keldeo|Secret Sword|p2a: Emily
+|-damage|p2a: Emily|10/100
+|move|p2a: Emily|Flamethrower|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|win|PekPicPek
+|raw|Bum_Muncha's rating: 1679 &rarr; <strong>1658</strong><br />(-21 for losing)
+|raw|PekPicPek's rating: 1659 &rarr; <strong>1680</strong><br />(+21 for winning)
+|l|☆Bum_Muncha
+|player|p1|
+|l|☆PekPicPek
+|player|p2|

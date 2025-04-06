@@ -1,0 +1,342 @@
+|j|☆WhisperWhite0
+|j|☆Adromas
+|t:|1743869461
+|gametype|singles
+|player|p1|WhisperWhite0|cynthia|1153
+|player|p2|Adromas|clerk|1182
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Great Tusk|
+|poke|p1|Venusaur, F|
+|poke|p1|Blissey, F|
+|poke|p1|Latios, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Great Tusk|
+|poke|p2|Klawf, F|
+|poke|p2|Mandibuzz, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Cacturne, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WhisperWhite0)
+|
+|t:|1743869471
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1743869483
+|move|p2a: Tyranitar|Stone Edge|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|11/100
+|move|p1a: Torkoal|Solar Beam||[still]
+|-prepare|p1a: Torkoal|Solar Beam
+|-anim|p1a: Torkoal|Solar Beam|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|41/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743869504
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|move|p2a: Tyranitar|Crunch|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|91/100
+|-unboost|p1a: Great Tusk|def|1
+|-damage|p2a: Tyranitar|24/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743869523
+|switch|p2a: Mandibuzz|Mandibuzz, F|100/100
+|move|p1a: Great Tusk|Body Press|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|84/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Mandibuzz|90/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743869535
+|move|p1a: Great Tusk|Stealth Rock|p2a: Mandibuzz
+|-sidestart|p2: Adromas|move: Stealth Rock
+|move|p2a: Mandibuzz|Toxic|p1a: Great Tusk
+|-status|p1a: Great Tusk|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Mandibuzz|96/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|85/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743869548
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Mandibuzz|atk|1
+|move|p2a: Mandibuzz|Defog|p1a: Landorus
+|-unboost|p1a: Landorus|evasion|1
+|-sideend|p2: Adromas|Stealth Rock|[from] move: Defog|[of] p2a: Mandibuzz
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Mandibuzz|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743869559
+|move|p1a: Landorus|Smack Down|p2a: Mandibuzz
+|-supereffective|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|75/100
+|-start|p2a: Mandibuzz|Smack Down
+|move|p2a: Mandibuzz|Toxic|p1a: Landorus
+|-status|p1a: Landorus|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Mandibuzz|82/100|[from] item: Leftovers
+|-damage|p1a: Landorus|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743869572
+|move|p1a: Landorus|Bulk Up|p1a: Landorus
+|-boost|p1a: Landorus|atk|1
+|-boost|p1a: Landorus|def|1
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|100/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Landorus|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|88/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743869584
+|move|p1a: Landorus|Bulk Up|p1a: Landorus
+|-boost|p1a: Landorus|atk|1
+|-boost|p1a: Landorus|def|1
+|move|p2a: Mandibuzz|Foul Play|p1a: Landorus
+|-damage|p1a: Landorus|16/100 tox
+|
+|-weather|none
+|-heal|p1a: Landorus|22/100 tox|[from] item: Leftovers
+|-damage|p1a: Landorus|3/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743869598
+|move|p1a: Landorus|Earthquake|p2a: Mandibuzz
+|-damage|p2a: Mandibuzz|32/100
+|move|p2a: Mandibuzz|Roost|p2a: Mandibuzz
+|-heal|p2a: Mandibuzz|82/100
+|-singleturn|p2a: Mandibuzz|move: Roost
+|
+|-heal|p1a: Landorus|10/100 tox|[from] item: Leftovers
+|-heal|p2a: Mandibuzz|88/100|[from] item: Leftovers
+|-damage|p1a: Landorus|0 fnt|[from] psn
+|faint|p1a: Landorus
+|upkeep
+|inactive|WhisperWhite0 has 120 seconds left.
+|
+|t:|1743869618
+|switch|p1a: Latios|Latios, M|100/100
+|turn|10
+|
+|t:|1743869642
+|switch|p2a: Tyranitar|Tyranitar, F|24/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Latios|Ice Beam|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|95/100|[from] Sandstorm
+|upkeep
+|inactive|Adromas has 120 seconds left.
+|
+|t:|1743869664
+|switch|p2a: Klawf|Klawf, F|100/100
+|turn|11
+|
+|t:|1743869679
+|move|p1a: Latios|Calm Mind|p1a: Latios
+|-boost|p1a: Latios|spa|1
+|-boost|p1a: Latios|spd|1
+|move|p2a: Klawf|Swords Dance|p2a: Klawf
+|-boost|p2a: Klawf|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|89/100|[from] Sandstorm
+|upkeep
+|turn|12
+|inactive|WhisperWhite0 has 120 seconds left.
+|
+|t:|1743869707
+|move|p1a: Latios|Ice Beam|p2a: Klawf
+|-damage|p2a: Klawf|49/100
+|-ability|p2a: Klawf|Anger Shell|boost
+|-boost|p2a: Klawf|atk|1
+|-boost|p2a: Klawf|spa|1
+|-boost|p2a: Klawf|spe|1
+|-unboost|p2a: Klawf|def|1
+|-unboost|p2a: Klawf|spd|1
+|move|p2a: Klawf|Crabhammer|p1a: Latios
+|-resisted|p1a: Latios
+|-damage|p1a: Latios|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|30/100|[from] Sandstorm
+|upkeep
+|turn|13
+|inactive|WhisperWhite0 has 120 seconds left.
+|
+|t:|1743869721
+|move|p1a: Latios|Ice Beam|p2a: Klawf
+|-damage|p2a: Klawf|0 fnt
+|faint|p2a: Klawf
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latios|24/100|[from] Sandstorm
+|upkeep
+|inactive|Adromas has 120 seconds left.
+|
+|t:|1743869737
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|14
+|inactive|Adromas has 120 seconds left.
+|
+|t:|1743869744
+|-terastallize|p2a: Great Tusk|Water
+|move|p1a: Latios|Ice Beam|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|68/100
+|move|p2a: Great Tusk|Knock Off|p1a: Latios
+|-supereffective|p1a: Latios
+|-damage|p1a: Latios|0 fnt
+|-enditem|p1a: Latios|Soul Dew|[from] move: Knock Off|[of] p2a: Great Tusk
+|faint|p1a: Latios
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Great Tusk|62/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743869756
+|switch|p1a: Torkoal|Torkoal, M|11/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|15
+|inactive|Adromas has 120 seconds left.
+|
+|t:|1743869773
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|move|p2a: Great Tusk|Ice Spinner|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|inactive|Adromas has 120 seconds left.
+|
+|t:|1743869784
+|move|p1a: Venusaur|Solar Beam||[still]
+|-prepare|p1a: Venusaur|Solar Beam
+|-anim|p1a: Venusaur|Solar Beam|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Adromas has 120 seconds left.
+|
+|t:|1743869800
+|switch|p2a: Cacturne|Cacturne, F|100/100
+|turn|17
+|
+|t:|1743869810
+|-terastallize|p1a: Venusaur|Poison
+|move|p2a: Cacturne|Sucker Punch|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|-damage|p2a: Cacturne|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743869821
+|switch|p1a: Great Tusk|Great Tusk|85/100 tox
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|turn|18
+|inactive|Adromas has 120 seconds left.
+|
+|t:|1743869832
+|move|p1a: Great Tusk|Stealth Rock|p2a: Cacturne
+|-sidestart|p2: Adromas|move: Stealth Rock
+|move|p2a: Cacturne|Leaf Storm|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Cacturne|spa|2
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: Cacturne|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743869841
+|switch|p1a: Blissey|Blissey, F|100/100
+|turn|19
+|
+|t:|1743869847
+|move|p2a: Cacturne|Knock Off|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|-enditem|p1a: Blissey|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Cacturne
+|faint|p1a: Blissey
+|-damage|p2a: Cacturne|71/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743869853
+|switch|p1a: Torkoal|Torkoal, M|11/100
+|turn|20
+|
+|t:|1743869858
+|move|p2a: Cacturne|Sucker Punch|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|-damage|p2a: Cacturne|61/100|[from] item: Life Orb
+|
+|win|Adromas
+|raw|WhisperWhite0's rating: 1153 &rarr; <strong>1130</strong><br />(-23 for losing)
+|raw|Adromas's rating: 1182 &rarr; <strong>1205</strong><br />(+23 for winning)
+|l|☆WhisperWhite0
+|player|p1|
+|l|☆Adromas
+|player|p2|

@@ -1,0 +1,370 @@
+|j|☆vryfast
+|j|☆Huozhiyepian
+|t:|1743917185
+|gametype|singles
+|player|p1|vryfast|unknown|1202
+|player|p2|Huozhiyepian|giovanni|1205
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Infernape, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Weavile, M|
+|poke|p1|Latios, M|
+|poke|p1|Typhlosion-Hisui, F|
+|poke|p1|Mandibuzz, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Exeggutor, F|
+|poke|p2|Walking Wake|
+|poke|p2|Primarina, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Heatran, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vryfast)
+|
+|t:|1743917191
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1743917200
+|move|p1a: Landorus|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-crit|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743917205
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|turn|2
+|
+|t:|1743917216
+|-terastallize|p1a: Landorus|Ground
+|move|p1a: Landorus|Earthquake|p2a: Walking Wake
+|-damage|p2a: Walking Wake|7/100
+|move|p2a: Walking Wake|Draco Meteor|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743917229
+|switch|p1a: Infernape|Infernape, F|100/100
+|turn|3
+|
+|t:|1743917246
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Infernape|atk|1
+|move|p1a: Infernape|Swords Dance|p1a: Infernape
+|-boost|p1a: Infernape|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743917259
+|move|p1a: Infernape|Swords Dance|p1a: Infernape
+|-boost|p1a: Infernape|atk|2
+|move|p2a: Landorus|Earthquake|p1a: Infernape
+|-supereffective|p1a: Infernape
+|-enditem|p1a: Infernape|Focus Sash
+|-damage|p1a: Infernape|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743917270
+|move|p1a: Infernape|Fire Punch|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Infernape|0 fnt|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p2a: Landorus
+|faint|p1a: Infernape
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743917284
+|switch|p1a: Typhlosion|Typhlosion-Hisui, F|100/100
+|switch|p2a: Primarina|Primarina, F|100/100
+|-item|p2a: Primarina|Leftovers|[from] ability: Frisk|[of] p1a: Typhlosion
+|turn|6
+|
+|t:|1743917291
+|move|p1a: Typhlosion|Solar Beam||[still]
+|-prepare|p1a: Typhlosion|Solar Beam
+|-anim|p1a: Typhlosion|Solar Beam|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-crit|p2a: Primarina
+|-damage|p2a: Primarina|3/100
+|move|p2a: Primarina|Flip Turn|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|69/100
+|
+|t:|1743917298
+|switch|p2a: Heatran|Heatran, F|100/100|[from] Flip Turn
+|-item|p2a: Heatran|Air Balloon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743917309
+|switch|p1a: Mandibuzz|Mandibuzz, F|100/100
+|move|p2a: Heatran|Power Gem|p1a: Mandibuzz
+|-supereffective|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743917318
+|move|p1a: Mandibuzz|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|98/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|t:|1743917332
+|switch|p1a: Typhlosion|Typhlosion-Hisui, F|69/100|[from] U-turn
+|move|p2a: Heatran|Fire Blast|p1a: Typhlosion
+|-resisted|p1a: Typhlosion
+|-damage|p1a: Typhlosion|8/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743917343
+|move|p1a: Typhlosion|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|64/100
+|move|p2a: Heatran|Power Gem|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|
+|upkeep
+|
+|t:|1743917356
+|switch|p1a: Latios|Latios, M, shiny|100/100
+|turn|10
+|
+|t:|1743917363
+|switch|p2a: Primarina|Primarina, F|3/100
+|move|p1a: Latios|Aura Sphere|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1743917374
+|switch|p2a: Exeggutor|Exeggutor, F|100/100
+|turn|11
+|
+|t:|1743917379
+|switch|p1a: Mandibuzz|Mandibuzz, F|62/100
+|move|p2a: Exeggutor|Leech Seed|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|move: Leech Seed
+|
+|-damage|p1a: Mandibuzz|50/100|[from] Leech Seed|[of] p2a: Exeggutor
+|upkeep
+|turn|12
+|
+|t:|1743917388
+|switch|p2a: Heatran|Heatran, F|64/100
+|move|p1a: Mandibuzz|Toxic|p2a: Heatran
+|-immune|p2a: Heatran
+|
+|-damage|p1a: Mandibuzz|37/100|[from] Leech Seed|[of] p2a: Heatran
+|-heal|p2a: Heatran|77/100|[silent]
+|upkeep
+|turn|13
+|
+|t:|1743917396
+|move|p1a: Mandibuzz|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|75/100
+|
+|t:|1743917402
+|switch|p1a: Latios|Latios, M, shiny|100/100|[from] U-turn
+|move|p2a: Heatran|Power Gem|p1a: Latios
+|-damage|p1a: Latios|74/100
+|
+|upkeep
+|turn|14
+|l|☆vryfast
+|inactive|vryfast disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|vryfast has 30 seconds to reconnect!
+|j|☆vryfast
+|inactive|vryfast reconnected and has 100 seconds left.
+|player|p1|vryfast|unknown|
+|
+|t:|1743917460
+|switch|p2a: Exeggutor|Exeggutor, F|100/100
+|move|p1a: Latios|Aura Sphere|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|81/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743917480
+|switch|p1a: Mandibuzz|Mandibuzz, F|37/100
+|move|p2a: Exeggutor|Leech Seed|p1a: Mandibuzz
+|-start|p1a: Mandibuzz|move: Leech Seed
+|
+|-damage|p1a: Mandibuzz|25/100|[from] Leech Seed|[of] p2a: Exeggutor
+|-heal|p2a: Exeggutor|97/100|[silent]
+|upkeep
+|turn|16
+|
+|t:|1743917489
+|switch|p2a: Heatran|Heatran, F|75/100
+|move|p1a: Mandibuzz|U-turn|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|74/100
+|
+|t:|1743917495
+|switch|p1a: Latios|Latios, M, shiny|74/100|[from] U-turn
+|
+|upkeep
+|turn|17
+|
+|t:|1743917503
+|switch|p2a: Exeggutor|Exeggutor, F|97/100
+|move|p1a: Latios|Luster Purge|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|60/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743917510
+|move|p1a: Latios|Luster Purge|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|27/100
+|-unboost|p2a: Exeggutor|spd|1
+|move|p2a: Exeggutor|Leech Seed|p1a: Latios
+|-start|p1a: Latios|move: Leech Seed
+|
+|-damage|p1a: Latios|62/100|[from] Leech Seed|[of] p2a: Exeggutor
+|-heal|p2a: Exeggutor|39/100|[silent]
+|upkeep
+|turn|19
+|inactive|vryfast has 120 seconds left.
+|
+|t:|1743917516
+|switch|p2a: Heatran|Heatran, F|74/100
+|move|p1a: Latios|Luster Purge|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|51/100
+|-unboost|p2a: Heatran|spd|1
+|
+|-damage|p1a: Latios|49/100|[from] Leech Seed|[of] p2a: Heatran
+|-heal|p2a: Heatran|61/100|[silent]
+|upkeep
+|turn|20
+|
+|t:|1743917522
+|switch|p1a: Mandibuzz|Mandibuzz, F|25/100
+|-terastallize|p2a: Heatran|Fire
+|move|p2a: Heatran|Fire Blast|p1a: Mandibuzz
+|-damage|p1a: Mandibuzz|0 fnt
+|faint|p1a: Mandibuzz
+|
+|upkeep
+|inactive|vryfast has 120 seconds left.
+|
+|t:|1743917538
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|21
+|inactive|vryfast has 120 seconds left.
+|
+|t:|1743917544
+|move|p1a: Weavile|Swords Dance|p1a: Weavile
+|-boost|p1a: Weavile|atk|2
+|move|p2a: Heatran|Fire Blast|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-enditem|p1a: Weavile|Focus Sash
+|-damage|p1a: Weavile|1/100
+|
+|upkeep
+|turn|22
+|
+|t:|1743917553
+|move|p1a: Weavile|Knock Off|p2a: Heatran
+|-damage|p2a: Heatran|9/100
+|move|p2a: Heatran|Power Gem|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1743917557
+|switch|p1a: Latios|Latios, M, shiny|49/100
+|turn|23
+|c|☆Huozhiyepian|GG
+|
+|t:|1743917570
+|move|p1a: Latios|Luster Purge|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1743917572
+|switch|p2a: Exeggutor|Exeggutor, F|39/100
+|turn|24
+|
+|t:|1743917577
+|move|p1a: Latios|Luster Purge|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|upkeep
+|
+|t:|1743917580
+|switch|p2a: Walking Wake|Walking Wake|7/100
+|turn|25
+|
+|t:|1743917585
+|move|p1a: Latios|Luster Purge|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|win|vryfast
+|raw|vryfast's rating: 1202 &rarr; <strong>1227</strong><br />(+25 for winning)
+|raw|Huozhiyepian's rating: 1205 &rarr; <strong>1180</strong><br />(-25 for losing)
+|l|☆Huozhiyepian
+|player|p2|
+|l|☆vryfast
+|player|p1|

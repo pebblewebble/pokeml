@@ -1,0 +1,425 @@
+|j|☆redbloo
+|j|☆supergameguy11
+|t:|1743921615
+|gametype|singles
+|player|p1|redbloo|265|1317
+|player|p2|supergameguy11|lucas-gen4pt|1214
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hydrapple, F|
+|poke|p1|Tinkaton, F|
+|poke|p1|Moltres|
+|poke|p1|Rotom-Wash|
+|poke|p1|Great Tusk|
+|poke|p1|Darkrai|
+|poke|p2|Metagross|
+|poke|p2|Garchomp, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Sylveon, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1743921632
+|start
+|switch|p1a: Darkrai|Darkrai|100/100
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|turn|1
+|
+|t:|1743921641
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Meowscarada|Play Rough|p1a: Moltres
+|-start|p2a: Meowscarada|typechange|Fairy|[from] ability: Protean
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|79/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743921656
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|move|p1a: Moltres|U-turn|p2a: Garchomp
+|-damage|p2a: Garchomp|92/100
+|-damage|p1a: Moltres|67/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Moltres|50/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|
+|t:|1743921666
+|switch|p1a: Darkrai|Darkrai|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1743921679
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|move|p1a: Darkrai|Nasty Plot|p1a: Darkrai
+|-boost|p1a: Darkrai|spa|2
+|
+|upkeep
+|turn|4
+|
+|t:|1743921712
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Sylveon|Calm Mind|p2a: Sylveon
+|-boost|p2a: Sylveon|spa|1
+|-boost|p2a: Sylveon|spd|1
+|
+|upkeep
+|turn|5
+|
+|t:|1743921729
+|switch|p2a: Garchomp|Garchomp, F|92/100
+|move|p1a: Tinkaton|Encore||[still]
+|-fail|p1a: Tinkaton
+|
+|upkeep
+|turn|6
+|
+|t:|1743921742
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Garchomp|Earthquake|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|
+|upkeep
+|turn|7
+|
+|t:|1743921749
+|move|p2a: Garchomp|Stealth Rock|p1a: Rotom
+|-sidestart|p1: redbloo|move: Stealth Rock
+|move|p1a: Rotom|Will-O-Wisp|p2a: Garchomp
+|-status|p2a: Garchomp|brn
+|
+|-damage|p2a: Garchomp|85/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743921755
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Garchomp|Spikes|p1a: Great Tusk
+|-sidestart|p1: redbloo|Spikes
+|
+|-damage|p2a: Garchomp|79/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743921769
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Ogerpon
+|-damage|p2a: Ogerpon|64/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743921778
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|upkeep
+|turn|11
+|
+|t:|1743921785
+|-terastallize|p1a: Rotom|Steel
+|move|p2a: Ogerpon|Horn Leech|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|52/100
+|-heal|p2a: Ogerpon|82/100|[from] drain|[of] p1a: Rotom
+|-damage|p2a: Ogerpon|66/100|[from] item: Rocky Helmet|[of] p1a: Rotom
+|move|p1a: Rotom|Volt Switch|p2a: Ogerpon
+|-damage|p2a: Ogerpon|35/100
+|
+|t:|1743921797
+|switch|p1a: Darkrai|Darkrai|100/100|[from] Volt Switch
+|-damage|p1a: Darkrai|88/100|[from] Stealth Rock
+|-damage|p1a: Darkrai|76/100|[from] Spikes
+|
+|-heal|p1a: Darkrai|82/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743921829
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: Darkrai|Dark Pulse|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|44/100
+|
+|-heal|p1a: Darkrai|88/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743921837
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743921848
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Moltres|Moltres|50/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|35/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743921855
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|85/100
+|-singleturn|p1a: Moltres|move: Roost
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|upkeep
+|turn|16
+|
+|t:|1743921865
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|35/100
+|move|p1a: Moltres|Roar|p2a: Ogerpon
+|drag|p2a: Meowscarada|Meowscarada, M|100/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743921873
+|move|p2a: Meowscarada|Knock Off|p1a: Moltres
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Moltres|39/100
+|-status|p2a: Meowscarada|brn|[from] ability: Flame Body|[of] p1a: Moltres
+|-enditem|p1a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Meowscarada
+|move|p1a: Moltres|U-turn|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-crit|p2a: Meowscarada
+|-damage|p2a: Meowscarada|36/100 brn
+|
+|t:|1743921883
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|
+|-damage|p2a: Meowscarada|30/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743921892
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Sylveon
+|-damage|p2a: Sylveon|85/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: redbloo|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: redbloo|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-heal|p2a: Sylveon|91/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743921902
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Rotom|Rotom-Wash, tera:Steel|52/100
+|move|p2a: Sylveon|Calm Mind|p2a: Sylveon
+|-boost|p2a: Sylveon|spa|1
+|-boost|p2a: Sylveon|spd|1
+|
+|-heal|p2a: Sylveon|97/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743921915
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Sylveon|Protect||[still]
+|-fail|p2a: Sylveon
+|
+|-heal|p2a: Sylveon|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743921925
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Tinkaton|Stealth Rock|p2a: Sylveon
+|-sidestart|p2: supergameguy11|move: Stealth Rock
+|
+|upkeep
+|turn|22
+|
+|t:|1743921932
+|move|p1a: Tinkaton|Knock Off|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|93/100
+|-enditem|p2a: Sylveon|Leftovers|[from] move: Knock Off|[of] p1a: Tinkaton
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|upkeep
+|turn|23
+|
+|t:|1743921949
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|35/100
+|-damage|p2a: Ogerpon|23/100|[from] Stealth Rock
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Ogerpon
+|-resisted|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743921954
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|97/100|[from] Stealth Rock
+|-item|p2a: Great Tusk|Air Balloon
+|turn|24
+|
+|t:|1743921964
+|switch|p1a: Rotom|Rotom-Wash, tera:Steel|52/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|46/100
+|-boost|p2a: Great Tusk|spe|1
+|-damage|p2a: Great Tusk|81/100|[from] item: Rocky Helmet|[of] p1a: Rotom
+|-sideend|p2: supergameguy11|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|25
+|
+|t:|1743921975
+|move|p2a: Great Tusk|Close Combat|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-damage|p2a: Great Tusk|64/100|[from] item: Rocky Helmet|[of] p1a: Rotom
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1743921982
+|switch|p1a: Moltres|Moltres|39/100
+|turn|26
+|
+|t:|1743921995
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Garchomp|Garchomp, F|79/100 brn
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|90/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-damage|p2a: Garchomp|73/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1743922004
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Garchomp|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: redbloo|move: Stealth Rock
+|
+|-damage|p2a: Garchomp|67/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1743922012
+|switch|p2a: Sylveon|Sylveon, M|93/100
+|move|p1a: Great Tusk|Knock Off|p2a: Sylveon
+|-resisted|p2a: Sylveon
+|-damage|p2a: Sylveon|84/100
+|
+|upkeep
+|turn|29
+|
+|t:|1743922023
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-damage|p1a: Tinkaton|94/100|[from] Stealth Rock
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Sylveon|Protect||[still]
+|-fail|p2a: Sylveon
+|
+|-heal|p1a: Tinkaton|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1743922032
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Sylveon
+|-supereffective|p2a: Sylveon
+|-damage|p2a: Sylveon|9/100
+|move|p2a: Sylveon|Wish|p2a: Sylveon
+|
+|upkeep
+|turn|31
+|
+|t:|1743922042
+|switch|p2a: Great Tusk|Great Tusk|64/100
+|-item|p2a: Great Tusk|Air Balloon
+|move|p1a: Tinkaton|Stealth Rock|p2a: Great Tusk
+|-sidestart|p2: supergameguy11|move: Stealth Rock
+|
+|-heal|p2a: Great Tusk|100/100|[from] move: Wish|[wisher] Sylveon
+|upkeep
+|turn|32
+|
+|t:|1743922050
+|switch|p1a: Moltres|Moltres|90/100
+|-damage|p1a: Moltres|40/100|[from] Stealth Rock
+|move|p2a: Great Tusk|Rapid Spin|p1a: Moltres
+|-damage|p1a: Moltres|25/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: supergameguy11|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|33
+|
+|t:|1743922102
+|move|p2a: Great Tusk|Rapid Spin|p1a: Moltres
+|-damage|p1a: Moltres|11/100
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: Moltres|Flamethrower|p2a: Great Tusk
+|-damage|p2a: Great Tusk|49/100
+|-status|p2a: Great Tusk|brn
+|-enditem|p2a: Great Tusk|Air Balloon
+|
+|-damage|p2a: Great Tusk|43/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1743922119
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Garchomp|Garchomp, F|67/100 brn
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|61/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-damage|p2a: Garchomp|61/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1743922131
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Garchomp|Dragon Tail|p1a: Great Tusk
+|-damage|p1a: Great Tusk|91/100
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|drag|p1a: Darkrai|Darkrai|88/100
+|-damage|p1a: Darkrai|75/100|[from] Stealth Rock
+|
+|-heal|p1a: Darkrai|81/100|[from] item: Leftovers
+|-damage|p2a: Garchomp|54/100 brn|[from] brn
+|upkeep
+|turn|36
+|-message|supergameguy11 forfeited.
+|
+|win|redbloo
+|raw|redbloo's rating: 1317 &rarr; <strong>1331</strong><br />(+14 for winning)
+|raw|supergameguy11's rating: 1214 &rarr; <strong>1196</strong><br />(-18 for losing)
+|l|☆supergameguy11
+|player|p2|
+|l|☆redbloo
+|player|p1|

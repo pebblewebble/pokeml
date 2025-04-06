@@ -1,0 +1,382 @@
+|j|☆Thaichuoi
+|j|☆Xstyr
+|t:|1743849693
+|gametype|singles
+|player|p1|Thaichuoi|rosa|1072
+|player|p2|Xstyr|102|1111
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Conkeldurr, M|
+|poke|p1|Incineroar, F|
+|poke|p1|Gholdengo|
+|poke|p1|Metagross|
+|poke|p1|Scyther, F|
+|poke|p1|Grimmsnarl, M|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Mamoswine, F|
+|poke|p2|Lapras, M|
+|poke|p2|Crabominable, M|
+|poke|p2|Froslass, F|
+|poke|p2|Cetitan, F|
+|teampreview
+|
+|t:|1743849698
+|start
+|switch|p1a: Scyther|Scyther, F|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1743849705
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: Xstyr|move: Aurora Veil
+|move|p1a: Scyther|U-turn|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|89/100
+|-damage|p1a: Scyther|91/100|[from] item: Life Orb
+|
+|t:|1743849711
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|100/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743849718
+|switch|p2a: Mamoswine|Mamoswine, F|100/100
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Thaichuoi|Reflect
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743849727
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Thaichuoi|move: Light Screen
+|move|p2a: Mamoswine|Trailblaze|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|93/100
+|-boost|p2a: Mamoswine|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743849737
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Mamoswine
+|-unboost|p2a: Mamoswine|atk|1
+|-unboost|p2a: Mamoswine|spa|1
+|
+|t:|1743849743
+|switch|p1a: Incineroar|Incineroar, F|100/100|[from] Parting Shot
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Mamoswine|atk|1
+|move|p2a: Mamoswine|Trailblaze|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|99/100
+|-boost|p2a: Mamoswine|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743849758
+|move|p2a: Mamoswine|Earthquake|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|78/100
+|move|p1a: Incineroar|Flare Blitz|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|78/100
+|-enditem|p2a: Mamoswine|Weakness Policy
+|-boost|p2a: Mamoswine|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Mamoswine|spa|2|[from] item: Weakness Policy
+|-damage|p1a: Incineroar|69/100|[from] Recoil
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1743849795
+|move|p2a: Mamoswine|Earthquake|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|22/100
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|47/100|[from] item: Sitrus Berry
+|move|p1a: Incineroar|Will-O-Wisp|p2a: Mamoswine
+|-status|p2a: Mamoswine|brn
+|
+|-damage|p2a: Mamoswine|72/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743849809
+|switch|p1a: Scyther|Scyther, F|91/100
+|move|p2a: Mamoswine|Earthquake|p1a: Scyther
+|-immune|p1a: Scyther
+|
+|-damage|p2a: Mamoswine|66/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743849823
+|move|p2a: Mamoswine|Icicle Crash|p1a: Scyther
+|-supereffective|p1a: Scyther
+|-damage|p1a: Scyther|60/100
+|move|p1a: Scyther|Trailblaze|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|36/100 brn
+|-boost|p1a: Scyther|spe|1
+|-damage|p1a: Scyther|50/100|[from] item: Life Orb
+|
+|-damage|p2a: Mamoswine|29/100 brn|[from] brn
+|-sideend|p2: Xstyr|move: Aurora Veil
+|upkeep
+|turn|9
+|
+|t:|1743849843
+|move|p1a: Scyther|Trailblaze|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|-boost|p1a: Scyther|spe|1
+|faint|p2a: Mamoswine
+|-damage|p1a: Scyther|40/100|[from] item: Life Orb
+|
+|-sideend|p1: Thaichuoi|Reflect
+|upkeep
+|
+|t:|1743849853
+|switch|p2a: Crabominable|Crabominable, M|100/100
+|turn|10
+|
+|t:|1743849862
+|move|p1a: Scyther|U-turn|p2a: Crabominable
+|-resisted|p2a: Crabominable
+|-damage|p2a: Crabominable|76/100
+|-damage|p1a: Scyther|30/100|[from] item: Life Orb
+|
+|t:|1743849866
+|switch|p1a: Grimmsnarl|Grimmsnarl, M|93/100|[from] U-turn
+|move|p2a: Crabominable|Thunder Punch|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|61/100
+|-status|p1a: Grimmsnarl|par
+|
+|-sideend|p1: Thaichuoi|move: Light Screen
+|upkeep
+|turn|11
+|
+|t:|1743849875
+|cant|p1a: Grimmsnarl|par
+|move|p2a: Crabominable|Drain Punch|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|8/100 par
+|-heal|p2a: Crabominable|99/100|[from] drain|[of] p1a: Grimmsnarl
+|
+|upkeep
+|turn|12
+|
+|t:|1743849882
+|cant|p1a: Grimmsnarl|par
+|move|p2a: Crabominable|Drain Punch|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|-heal|p2a: Crabominable|100/100|[from] drain|[of] p1a: Grimmsnarl
+|faint|p1a: Grimmsnarl
+|
+|upkeep
+|
+|t:|1743849893
+|switch|p1a: Incineroar|Incineroar, F|47/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Crabominable|atk|1
+|turn|13
+|
+|t:|1743849903
+|-terastallize|p1a: Incineroar|Fighting
+|move|p1a: Incineroar|Will-O-Wisp|p2a: Crabominable|[miss]
+|-miss|p1a: Incineroar|p2a: Crabominable
+|move|p2a: Crabominable|Drain Punch|p1a: Incineroar
+|-crit|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|upkeep
+|
+|t:|1743849917
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|14
+|
+|t:|1743849923
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Crabominable|Drain Punch|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|15
+|
+|t:|1743849936
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Crabominable|Ice Hammer|p1a: Gholdengo|[miss]
+|-miss|p2a: Crabominable|p1a: Gholdengo
+|
+|upkeep
+|turn|16
+|
+|t:|1743849965
+|move|p1a: Gholdengo|Shadow Ball|p2a: Crabominable
+|-damage|p2a: Crabominable|0 fnt
+|faint|p2a: Crabominable
+|
+|upkeep
+|
+|t:|1743849972
+|switch|p2a: Ninetales|Ninetales-Alola, F|89/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|17
+|
+|t:|1743849985
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: Xstyr|move: Aurora Veil
+|move|p1a: Gholdengo|Shadow Ball|p2a: Ninetales
+|-damage|p2a: Ninetales|11/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743849998
+|move|p2a: Ninetales|Dark Pulse|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|62/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Shadow Ball|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743850007
+|switch|p2a: Lapras|Lapras, M|100/100
+|turn|19
+|
+|t:|1743850011
+|move|p1a: Gholdengo|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|20/100
+|move|p2a: Lapras|Haze|p2a: Lapras
+|-clearallboost
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Lapras|26/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743850022
+|move|p1a: Gholdengo|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|2/100
+|move|p2a: Lapras|Freeze-Dry|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|52/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Lapras|8/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743850035
+|move|p1a: Gholdengo|Thunderbolt|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|
+|-weather|none
+|upkeep
+|
+|t:|1743850040
+|switch|p2a: Froslass|Froslass, F|100/100
+|turn|22
+|
+|t:|1743850052
+|move|p2a: Froslass|Snowscape|p2a: Froslass
+|-weather|Snowscape
+|move|p1a: Gholdengo|Shadow Ball|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|27/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1743850061
+|move|p2a: Froslass|Hex|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743850071
+|switch|p1a: Metagross|Metagross|100/100
+|turn|24
+|
+|t:|1743850074
+|move|p1a: Metagross|Bullet Punch|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|5/100
+|move|p2a: Froslass|Thunder Wave|p1a: Metagross
+|-status|p1a: Metagross|par
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p2: Xstyr|move: Aurora Veil
+|upkeep
+|turn|25
+|
+|t:|1743850080
+|move|p1a: Metagross|Bullet Punch|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|faint|p2a: Froslass
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743850085
+|switch|p2a: Cetitan|Cetitan, F|100/100
+|turn|26
+|
+|t:|1743850102
+|move|p2a: Cetitan|Belly Drum|p2a: Cetitan
+|-damage|p2a: Cetitan|50/100
+|-setboost|p2a: Cetitan|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Cetitan|Sitrus Berry|[eat]
+|-heal|p2a: Cetitan|75/100|[from] item: Sitrus Berry
+|move|p1a: Metagross|Meteor Beam||[still]
+|-prepare|p1a: Metagross|Meteor Beam
+|-boost|p1a: Metagross|spa|1
+|-enditem|p1a: Metagross|Power Herb
+|-anim|p1a: Metagross|Meteor Beam|p2a: Cetitan
+|-supereffective|p2a: Cetitan
+|-damage|p2a: Cetitan|0 fnt
+|faint|p2a: Cetitan
+|
+|win|Thaichuoi
+|raw|Thaichuoi's rating: 1072 &rarr; <strong>1104</strong><br />(+32 for winning)
+|raw|Xstyr's rating: 1111 &rarr; <strong>1083</strong><br />(-28 for losing)
+|l|☆Xstyr
+|player|p2|
+|l|☆Thaichuoi
+|player|p1|

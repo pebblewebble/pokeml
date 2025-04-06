@@ -1,0 +1,386 @@
+|j|☆Marcusoniplay
+|j|☆UtterlyIncapable
+|t:|1743878524
+|gametype|singles
+|player|p1|Marcusoniplay|169|
+|player|p2|UtterlyIncapable|roxie|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Arcanine, F|
+|poke|p1|Aipom, F|
+|poke|p1|Feraligatr, F|
+|poke|p1|Gyarados, M|
+|poke|p1|Umbreon, F|
+|poke|p2|Morpeko, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Galvantula, M|
+|poke|p2|Magnezone|
+|poke|p2|Raichu, M|
+|poke|p2|Vikavolt, M|
+|teampreview
+|
+|t:|1743878542
+|start
+|switch|p1a: Aipom|Aipom, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|t:|1743878551
+|move|p2a: Rotom|Volt Switch|p1a: Aipom
+|-damage|p1a: Aipom|22/100
+|
+|t:|1743878554
+|switch|p2a: Magnezone|Magnezone|100/100|[from] Volt Switch
+|move|p1a: Aipom|Knock Off|p2a: Magnezone
+|-damage|p2a: Magnezone|76/100
+|-enditem|p2a: Magnezone|Blunder Policy|[from] move: Knock Off|[of] p1a: Aipom
+|
+|upkeep
+|turn|2
+|
+|t:|1743878565
+|-singleturn|p1a: Aipom|move: Focus Punch
+|move|p2a: Magnezone|Thunder|p1a: Aipom
+|-damage|p1a: Aipom|0 fnt
+|faint|p1a: Aipom
+|
+|upkeep
+|
+|t:|1743878571
+|switch|p1a: Feraligatr|Feraligatr, F|100/100
+|turn|3
+|
+|t:|1743878578
+|-terastallize|p1a: Feraligatr|Ground
+|move|p2a: Magnezone|Zap Cannon|p1a: Feraligatr
+|-immune|p1a: Feraligatr
+|move|p1a: Feraligatr|Earthquake|p2a: Magnezone
+|-supereffective|p2a: Magnezone
+|-crit|p2a: Magnezone
+|-damage|p2a: Magnezone|0 fnt
+|faint|p2a: Magnezone
+|
+|upkeep
+|
+|t:|1743878587
+|switch|p2a: Raichu|Raichu, M|100/100
+|turn|4
+|
+|t:|1743878594
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Feraligatr|Earthquake|p2a: Rotom
+|-immune|p2a: Rotom|[from] ability: Levitate
+|
+|upkeep
+|turn|5
+|
+|t:|1743878601
+|move|p2a: Rotom|Hydro Pump|p1a: Feraligatr
+|-supereffective|p1a: Feraligatr
+|-damage|p1a: Feraligatr|0 fnt
+|faint|p1a: Feraligatr
+|
+|upkeep
+|
+|t:|1743878610
+|switch|p1a: Umbreon|Umbreon, F|100/100
+|turn|6
+|
+|t:|1743878620
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|move|p1a: Umbreon|Toxic|p2a: Galvantula
+|-status|p2a: Galvantula|tox
+|
+|-damage|p2a: Galvantula|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743878625
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Galvantula|Bug Buzz|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-damage|p2a: Galvantula|82/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743878629
+|move|p2a: Galvantula|Bug Buzz|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-damage|p1a: Umbreon|41/100
+|move|p1a: Umbreon|Lash Out|p2a: Galvantula
+|-damage|p2a: Galvantula|48/100 tox
+|
+|-heal|p1a: Umbreon|47/100|[from] item: Leftovers
+|-damage|p2a: Galvantula|30/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743878638
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Galvantula|Bug Buzz|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|53/100|[from] item: Leftovers
+|-damage|p2a: Galvantula|6/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743878649
+|switch|p1a: Arcanine|Arcanine, F|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Galvantula|atk|1
+|-item|p1a: Arcanine|Air Balloon
+|move|p2a: Galvantula|Bug Buzz|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|66/100
+|-enditem|p1a: Arcanine|Air Balloon
+|
+|-damage|p2a: Galvantula|0 fnt|[from] psn
+|faint|p2a: Galvantula
+|upkeep
+|
+|t:|1743878654
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|11
+|
+|t:|1743878667
+|move|p2a: Rotom|Volt Switch|p1a: Arcanine
+|-damage|p1a: Arcanine|20/100
+|
+|t:|1743878671
+|switch|p2a: Morpeko|Morpeko, F|100/100|[from] Volt Switch
+|-item|p2a: Morpeko|Air Balloon
+|move|p1a: Arcanine|Dig||[still]
+|-prepare|p1a: Arcanine|Dig
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|12
+|
+|t:|1743878678
+|move|p2a: Morpeko|Rapid Spin|p1a: Arcanine|[miss]
+|-miss|p2a: Morpeko|p1a: Arcanine
+|move|p1a: Arcanine|Dig|p2a: Morpeko|[from] lockedmove
+|-immune|p2a: Morpeko
+|
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|13
+|
+|t:|1743878684
+|move|p1a: Arcanine|Extreme Speed|p2a: Morpeko
+|-damage|p2a: Morpeko|39/100
+|-enditem|p2a: Morpeko|Air Balloon
+|move|p2a: Morpeko|Aura Wheel|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-boost|p2a: Morpeko|spe|1
+|faint|p1a: Arcanine
+|
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|
+|t:|1743878689
+|switch|p1a: Umbreon|Umbreon, F|53/100
+|turn|14
+|
+|t:|1743878700
+|move|p2a: Morpeko|Tera Blast|p1a: Umbreon
+|-damage|p1a: Umbreon|46/100
+|move|p1a: Umbreon|Toxic|p2a: Morpeko
+|-status|p2a: Morpeko|tox
+|
+|-heal|p1a: Umbreon|52/100|[from] item: Leftovers
+|-damage|p2a: Morpeko|33/100 tox|[from] psn
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|15
+|
+|t:|1743878711
+|move|p1a: Umbreon|Protect|p1a: Umbreon
+|-singleturn|p1a: Umbreon|Protect
+|move|p2a: Morpeko|Aura Wheel|p1a: Umbreon
+|-activate|p1a: Umbreon|move: Protect
+|
+|-heal|p1a: Umbreon|58/100|[from] item: Leftovers
+|-damage|p2a: Morpeko|21/100 tox|[from] psn
+|-formechange|p2a: Morpeko|Morpeko-Hangry||[from] ability: Hunger Switch
+|upkeep
+|turn|16
+|
+|t:|1743878718
+|move|p2a: Morpeko|Aura Wheel|p1a: Umbreon
+|-resisted|p1a: Umbreon
+|-damage|p1a: Umbreon|39/100
+|-boost|p2a: Morpeko|spe|1
+|move|p1a: Umbreon|Moonlight|p1a: Umbreon
+|-heal|p1a: Umbreon|89/100
+|
+|-heal|p1a: Umbreon|95/100|[from] item: Leftovers
+|-damage|p2a: Morpeko|2/100 tox|[from] psn
+|-formechange|p2a: Morpeko|Morpeko||[from] ability: Hunger Switch
+|upkeep
+|turn|17
+|
+|t:|1743878729
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Umbreon|Protect||[still]
+|-fail|p1a: Umbreon
+|
+|-heal|p1a: Umbreon|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743878734
+|move|p2a: Rotom|Trick|p1a: Umbreon
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Umbreon
+|-item|p1a: Umbreon|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Leftovers|[from] move: Trick
+|move|p1a: Umbreon|Toxic|p2a: Rotom
+|-status|p2a: Rotom|tox
+|
+|-damage|p2a: Rotom|94/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1743878746
+|move|p2a: Rotom|Thunder Wave||[still]
+|-status|p1a: Umbreon|par
+|-activate|p1a: Umbreon|ability: Synchronize
+|-fail|p1a: Umbreon
+|move|p1a: Umbreon|Toxic|p2a: Rotom
+|-fail|p2a: Rotom|tox
+|
+|-heal|p2a: Rotom|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|88/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1743878751
+|move|p2a: Rotom|Hydro Pump|p1a: Umbreon|[miss]
+|-miss|p2a: Rotom|p1a: Umbreon
+|move|p1a: Umbreon|Toxic|p2a: Rotom
+|-fail|p2a: Rotom|tox
+|
+|-heal|p2a: Rotom|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|76/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1743878756
+|move|p2a: Rotom|Hydro Pump|p1a: Umbreon|[miss]
+|-miss|p2a: Rotom|p1a: Umbreon
+|move|p1a: Umbreon|Toxic|p2a: Rotom
+|-fail|p2a: Rotom|tox
+|
+|-heal|p2a: Rotom|82/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|57/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1743878764
+|move|p2a: Rotom|Hydro Pump|p1a: Umbreon
+|-damage|p1a: Umbreon|70/100 par
+|cant|p1a: Umbreon|par
+|
+|-heal|p2a: Rotom|63/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|32/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1743878777
+|move|p2a: Rotom|Hydro Pump|p1a: Umbreon
+|-damage|p1a: Umbreon|44/100 par
+|move|p1a: Umbreon|Toxic|p2a: Rotom
+|-fail|p2a: Rotom|tox
+|
+|-heal|p2a: Rotom|38/100 tox|[from] item: Leftovers
+|-damage|p2a: Rotom|1/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1743878788
+|move|p2a: Rotom|Volt Switch|p1a: Umbreon
+|-damage|p1a: Umbreon|26/100 par
+|
+|t:|1743878790
+|switch|p2a: Morpeko|Morpeko, F|2/100 tox|[from] Volt Switch
+|move|p1a: Umbreon|Toxic|p2a: Morpeko|[miss]
+|-miss|p1a: Umbreon|p2a: Morpeko
+|
+|-damage|p2a: Morpeko|0 fnt|[from] psn
+|faint|p2a: Morpeko
+|upkeep
+|
+|t:|1743878799
+|switch|p2a: Vikavolt|Vikavolt, M|100/100
+|turn|25
+|
+|t:|1743878804
+|move|p2a: Vikavolt|Agility|p2a: Vikavolt
+|-boost|p2a: Vikavolt|spe|2
+|cant|p1a: Umbreon|par
+|
+|upkeep
+|turn|26
+|
+|t:|1743878809
+|move|p2a: Vikavolt|Bug Buzz|p1a: Umbreon
+|-supereffective|p1a: Umbreon
+|-crit|p1a: Umbreon
+|-damage|p1a: Umbreon|0 fnt
+|faint|p1a: Umbreon
+|-enditem|p2a: Vikavolt|Throat Spray
+|-boost|p2a: Vikavolt|spa|1|[from] item: Throat Spray
+|
+|upkeep
+|
+|t:|1743878816
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|27
+|
+|t:|1743878819
+|move|p2a: Vikavolt|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|57/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|28
+|
+|t:|1743878829
+|move|p1a: Dragonite|Extreme Speed|p2a: Vikavolt
+|-damage|p2a: Vikavolt|41/100
+|move|p2a: Vikavolt|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1743878833
+|switch|p1a: Gyarados|Gyarados, M, shiny|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Vikavolt|atk|1
+|turn|29
+|
+|t:|1743878835
+|move|p2a: Vikavolt|Thunderbolt|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|win|UtterlyIncapable

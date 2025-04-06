@@ -1,0 +1,230 @@
+|j|‽AaronXu
+|j|☆amacklai
+|t:|1743862339
+|gametype|singles
+|player|p1|AaronXu|1|1152
+|player|p2|amacklai|101|1143
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Crown|
+|poke|p1|Incineroar, M|
+|poke|p1|Klefki, F|
+|poke|p1|Ceruledge, M|
+|poke|p1|Zoroark-Hisui, F|
+|poke|p1|Espeon, F|
+|poke|p2|Delphox, M|
+|poke|p2|Revavroom, M|
+|poke|p2|Garchomp, F|
+|poke|p2|Cinccino, F|
+|poke|p2|Grimmsnarl, M|
+|poke|p2|Glimmora, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by AaronXu)
+|
+|t:|1743862367
+|start
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|1
+|
+|t:|1743862374
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Espeon|Espeon, F|100/100
+|move|p2a: Garchomp|Earthquake|p1a: Espeon
+|-damage|p1a: Espeon|6/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743862387
+|move|p1a: Espeon|Trick|p2a: Garchomp
+|-activate|p1a: Espeon|move: Trick|[of] p2a: Garchomp
+|-item|p2a: Garchomp|Choice Scarf|[from] move: Trick
+|-item|p1a: Espeon|Rocky Helmet|[from] move: Trick
+|move|p2a: Garchomp|Earthquake|p1a: Espeon
+|-damage|p1a: Espeon|0 fnt
+|faint|p1a: Espeon
+|
+|upkeep
+|
+|t:|1743862400
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|turn|3
+|
+|t:|1743862411
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743862423
+|switch|p2a: Revavroom|Revavroom, M|100/100
+|-item|p2a: Revavroom|Air Balloon
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Revavroom
+|-resisted|p2a: Revavroom
+|-damage|p2a: Revavroom|80/100
+|-enditem|p2a: Revavroom|Air Balloon
+|-resisted|p2a: Revavroom
+|-damage|p2a: Revavroom|60/100
+|-hitcount|p2a: Revavroom|2
+|
+|upkeep
+|turn|5
+|
+|t:|1743862434
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Revavroom|atk|1
+|move|p2a: Revavroom|Shift Gear|p2a: Revavroom
+|-boost|p2a: Revavroom|spe|2
+|-boost|p2a: Revavroom|atk|1
+|-enditem|p1a: Incineroar|Mirror Herb
+|-boost|p1a: Incineroar|spe|2|[from] item: Mirror Herb
+|-boost|p1a: Incineroar|atk|1|[from] item: Mirror Herb
+|
+|upkeep
+|turn|6
+|
+|t:|1743862449
+|move|p2a: Revavroom|High Horsepower|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|29/100
+|move|p1a: Incineroar|Bulk Up|p1a: Incineroar
+|-boost|p1a: Incineroar|atk|1
+|-boost|p1a: Incineroar|def|1
+|
+|upkeep
+|turn|7
+|
+|t:|1743862456
+|-terastallize|p1a: Incineroar|Dark
+|move|p2a: Revavroom|High Horsepower|p1a: Incineroar
+|-damage|p1a: Incineroar|4/100
+|move|p1a: Incineroar|Drain Punch|p2a: Revavroom
+|-damage|p2a: Revavroom|13/100
+|-heal|p1a: Incineroar|26/100|[from] drain|[of] p2a: Revavroom
+|
+|upkeep
+|turn|8
+|
+|t:|1743862471
+|move|p2a: Revavroom|Iron Head|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|upkeep
+|
+|t:|1743862478
+|switch|p1a: Klefki|Klefki, F|100/100
+|turn|9
+|
+|t:|1743862486
+|move|p2a: Revavroom|High Horsepower|p1a: Klefki
+|-damage|p1a: Klefki|34/100
+|replace|p1a: Zoroark|Zoroark-Hisui, F
+|-end|p1a: Zoroark|Illusion
+|move|p1a: Zoroark|Trick|p2a: Revavroom
+|-activate|p1a: Zoroark|move: Trick|[of] p2a: Revavroom
+|-item|p2a: Revavroom|Choice Specs|[from] move: Trick
+|-enditem|p1a: Zoroark|Choice Specs|[silent]|[from] move: Trick
+|
+|upkeep
+|turn|10
+|
+|t:|1743862499
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|move|p2a: Revavroom|Iron Head|p1a: Iron Crown
+|-resisted|p1a: Iron Crown
+|-damage|p1a: Iron Crown|77/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743862510
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Klefki|Klefki, F|100/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743862523
+|move|p1a: Klefki|Reflect|p1a: Klefki
+|-sidestart|p1: AaronXu|Reflect
+|move|p2a: Garchomp|Stealth Rock|p1a: Klefki
+|-sidestart|p1: AaronXu|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1743862535
+|switch|p2a: Delphox|Delphox, M|100/100
+|move|p1a: Klefki|Light Screen|p1a: Klefki
+|-sidestart|p1: AaronXu|move: Light Screen
+|
+|upkeep
+|turn|14
+|
+|t:|1743862542
+|move|p2a: Delphox|Future Sight|p1a: Klefki
+|-start|p2a: Delphox|move: Future Sight
+|move|p1a: Klefki|Steel Beam|p2a: Delphox
+|-resisted|p2a: Delphox
+|-damage|p2a: Delphox|79/100
+|-damage|p1a: Klefki|50/100|[from] steelbeam
+|
+|upkeep
+|turn|15
+|
+|t:|1743862550
+|move|p1a: Klefki|Magic Room|p1a: Klefki
+|-fieldstart|move: Magic Room|[of] p1a: Klefki
+|move|p2a: Delphox|Flamethrower|p1a: Klefki
+|-supereffective|p1a: Klefki
+|-damage|p1a: Klefki|0 fnt
+|faint|p1a: Klefki
+|-item|p2a: Delphox|Light Clay|[from] ability: Magician|[of] p1: Klefki
+|
+|upkeep
+|
+|t:|1743862560
+|switch|p1a: Ceruledge|Ceruledge, M|100/100
+|-damage|p1a: Ceruledge|75/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743862565
+|move|p2a: Delphox|Psyshock|p1a: Ceruledge
+|-crit|p1a: Ceruledge
+|-damage|p1a: Ceruledge|6/100
+|move|p1a: Ceruledge|Bulk Up|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|1
+|-boost|p1a: Ceruledge|def|1
+|
+|-end|p1a: Ceruledge|move: Future Sight
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|upkeep
+|-message|AaronXu forfeited.
+|
+|win|amacklai
+|raw|AaronXu's rating: 1152 &rarr; <strong>1126</strong><br />(-26 for losing)
+|raw|amacklai's rating: 1143 &rarr; <strong>1169</strong><br />(+26 for winning)
+|l|‽AaronXu
+|player|p1|
+|l|☆amacklai
+|player|p2|

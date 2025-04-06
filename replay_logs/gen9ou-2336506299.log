@@ -1,0 +1,275 @@
+|j|☆olopito
+|j|☆Harabon
+|t:|1743929812
+|gametype|singles
+|player|p1|olopito|102|1197
+|player|p2|Harabon|170|1253
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gallade, M|
+|poke|p1|Kyurem|
+|poke|p1|Great Tusk|
+|poke|p1|Galvantula, M|
+|poke|p1|Moltres|
+|poke|p1|Azumarill, F|
+|poke|p2|Barraskewda, M|
+|poke|p2|Overqwil, M|
+|poke|p2|Pelipper, M|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Iron Treads|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Harabon)
+|
+|t:|1743929830
+|start
+|switch|p1a: Kyurem|Kyurem|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|1
+|
+|t:|1743929846
+|move|p1a: Kyurem|Earth Power|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743929852
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|2
+|
+|t:|1743929858
+|switch|p1a: Galvantula|Galvantula, M|100/100
+|move|p2a: Pelipper|U-turn|p1a: Galvantula
+|-damage|p1a: Galvantula|84/100
+|
+|t:|1743929863
+|switch|p2a: Barraskewda|Barraskewda, M|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743929875
+|move|p2a: Barraskewda|Flip Turn|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|t:|1743929883
+|switch|p2a: Overqwil|Overqwil, M|100/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743929908
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|4
+|
+|t:|1743929914
+|move|p2a: Overqwil|Gunk Shot|p1a: Kyurem|[miss]
+|-miss|p2a: Overqwil|p1a: Kyurem
+|move|p1a: Kyurem|Freeze-Dry|p2a: Overqwil
+|-damage|p2a: Overqwil|20/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743929925
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Overqwil|Gunk Shot|p1a: Great Tusk|[miss]
+|-miss|p2a: Overqwil|p1a: Great Tusk
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743929934
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Tornadus
+|-damage|p2a: Tornadus|66/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743929945
+|move|p1a: Great Tusk|Knock Off|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|-enditem|p2a: Tornadus|Choice Specs|[from] move: Knock Off|[of] p1a: Great Tusk
+|faint|p2a: Tornadus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743929951
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|turn|8
+|
+|t:|1743929968
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Barraskewda|Flip Turn|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|5/100
+|
+|t:|1743929975
+|switch|p2a: Pelipper|Pelipper, M|100/100|[from] Flip Turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743929981
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|55/100
+|-singleturn|p1a: Moltres|move: Roost
+|move|p2a: Pelipper|Hurricane|p1a: Moltres
+|-damage|p1a: Moltres|18/100
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1743929993
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|move|p1a: Moltres|Hurricane|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|79/100
+|-start|p2a: Raging Bolt|confusion
+|
+|-heal|p2a: Raging Bolt|85/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743930001
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Moltres|Scorching Sands|p2a: Pelipper
+|-immune|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743930010
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|68/100
+|-singleturn|p1a: Moltres|move: Roost
+|move|p2a: Pelipper|Hurricane|p1a: Moltres
+|-damage|p1a: Moltres|31/100
+|-start|p1a: Moltres|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743930030
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Pelipper|Weather Ball|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|75/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743930040
+|-terastallize|p2a: Pelipper|Poison
+|move|p1a: Kyurem|Freeze-Dry|p2a: Pelipper
+|-damage|p2a: Pelipper|29/100
+|-status|p2a: Pelipper|frz
+|-curestatus|p2a: Pelipper|frz|[msg]
+|move|p2a: Pelipper|U-turn|p1a: Kyurem
+|-damage|p1a: Kyurem|67/100
+|
+|t:|1743930049
+|switch|p2a: Overqwil|Overqwil, M|20/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743930054
+|switch|p1a: Moltres|Moltres|31/100
+|move|p2a: Overqwil|Swords Dance|p2a: Overqwil
+|-boost|p2a: Overqwil|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743930062
+|move|p2a: Overqwil|Liquidation|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|-damage|p2a: Overqwil|10/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743930076
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|turn|17
+|
+|t:|1743930082
+|switch|p2a: Raging Bolt|Raging Bolt|85/100
+|move|p1a: Azumarill|Aqua Jet|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|57/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Raging Bolt|63/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743930096
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Great Tusk
+|-damage|p1a: Great Tusk|33/100
+|
+|-weather|none
+|-heal|p2a: Raging Bolt|69/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743930112
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|move|p1a: Great Tusk|Earthquake|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|upkeep
+|-message|Harabon forfeited.
+|
+|win|olopito
+|raw|olopito's rating: 1197 &rarr; <strong>1226</strong><br />(+29 for winning)
+|raw|Harabon's rating: 1253 &rarr; <strong>1224</strong><br />(-29 for losing)
+|l|☆Harabon
+|player|p2|
+|l|☆olopito
+|player|p1|

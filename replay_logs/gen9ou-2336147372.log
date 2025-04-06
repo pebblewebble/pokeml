@@ -1,0 +1,289 @@
+|j|☆tyvubin
+|j|☆Jammin Toxtricity
+|t:|1743883654
+|gametype|singles
+|player|p1|tyvubin|170|1145
+|player|p2|Jammin Toxtricity|hilda-wonderlauncher|1124
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Porygon2|
+|poke|p1|Skuntank, F|
+|poke|p1|Galvantula, F|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Copperajah, M|
+|poke|p1|Cramorant, M|
+|poke|p2|Sinistcha|
+|poke|p2|Tinkaton, F|
+|poke|p2|Iron Boulder|
+|poke|p2|Quaquaval, M|
+|poke|p2|Regidrago|
+|poke|p2|Tornadus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jammin Toxtricity)
+|
+|t:|1743883663
+|start
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|turn|1
+|
+|t:|1743883671
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|move|p1a: Galvantula|Sticky Web|p2a: Tinkaton
+|-sidestart|p2: Jammin Toxtricity|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743883679
+|move|p1a: Galvantula|Thunder|p2a: Tinkaton
+|-damage|p2a: Tinkaton|56/100
+|move|p2a: Tinkaton|Knock Off|p1a: Galvantula
+|-damage|p1a: Galvantula|65/100
+|-enditem|p1a: Galvantula|Magnet|[from] move: Knock Off|[of] p2a: Tinkaton
+|
+|-heal|p2a: Tinkaton|62/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743883689
+|move|p1a: Galvantula|Thunder|p2a: Tinkaton
+|-damage|p2a: Tinkaton|26/100
+|-status|p2a: Tinkaton|par
+|move|p2a: Tinkaton|Play Rough|p1a: Galvantula
+|-damage|p1a: Galvantula|16/100
+|-unboost|p1a: Galvantula|atk|1
+|
+|-heal|p2a: Tinkaton|32/100 par|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743883702
+|move|p1a: Galvantula|Thunder|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|
+|upkeep
+|
+|t:|1743883707
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|-activate|p2a: Quaquaval|move: Sticky Web
+|-unboost|p2a: Quaquaval|spe|1
+|turn|5
+|
+|t:|1743883716
+|move|p1a: Galvantula|Thunder|p2a: Quaquaval
+|-supereffective|p2a: Quaquaval
+|-damage|p2a: Quaquaval|21/100
+|move|p2a: Quaquaval|Rapid Spin|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|-boost|p2a: Quaquaval|spe|1
+|-sideend|p2: Jammin Toxtricity|Sticky Web|[from] move: Rapid Spin|[of] p2a: Quaquaval
+|faint|p1a: Galvantula
+|-ability|p2a: Quaquaval|Moxie|boost
+|-boost|p2a: Quaquaval|atk|1
+|
+|upkeep
+|
+|t:|1743883729
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|turn|6
+|
+|t:|1743883736
+|move|p1a: Skuntank|Sucker Punch|p2a: Quaquaval
+|-resisted|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|upkeep
+|
+|t:|1743883743
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|-enditem|p2a: Iron Boulder|Booster Energy
+|-activate|p2a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Boulder|quarkdrivespe
+|turn|7
+|
+|t:|1743883750
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p2a: Iron Boulder|Swords Dance|p2a: Iron Boulder
+|-boost|p2a: Iron Boulder|atk|2
+|
+|upkeep
+|turn|8
+|
+|t:|1743883758
+|move|p2a: Iron Boulder|Zen Headbutt|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|
+|upkeep
+|
+|t:|1743883763
+|switch|p1a: Copperajah|Copperajah, M|100/100
+|turn|9
+|
+|t:|1743883770
+|-terastallize|p2a: Iron Boulder|Fighting
+|-terastallize|p1a: Copperajah|Ground
+|move|p2a: Iron Boulder|Swords Dance|p2a: Iron Boulder
+|-boost|p2a: Iron Boulder|atk|2
+|move|p1a: Copperajah|Iron Head|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|29/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743883779
+|move|p2a: Iron Boulder|Sacred Sword|p1a: Copperajah
+|-damage|p1a: Copperajah|0 fnt
+|-damage|p2a: Iron Boulder|13/100|[from] item: Rocky Helmet|[of] p1a: Copperajah
+|faint|p1a: Copperajah
+|
+|upkeep
+|
+|t:|1743883785
+|switch|p1a: Skuntank|Skuntank, F|100/100
+|turn|11
+|
+|t:|1743883789
+|move|p1a: Skuntank|Sucker Punch|p2a: Iron Boulder
+|-resisted|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|0 fnt
+|faint|p2a: Iron Boulder
+|-end|p2a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743883795
+|switch|p2a: Regidrago|Regidrago|100/100
+|turn|12
+|
+|t:|1743883798
+|move|p1a: Skuntank|Sucker Punch|p2a: Regidrago
+|-damage|p2a: Regidrago|49/100
+|move|p2a: Regidrago|Dragon Energy|p1a: Skuntank
+|-damage|p1a: Skuntank|24/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743883806
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Skuntank|Sucker Punch||[still]
+|-fail|p1a: Skuntank
+|
+|upkeep
+|turn|14
+|
+|t:|1743883813
+|move|p1a: Skuntank|Sucker Punch|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|5/100
+|move|p2a: Tornadus|Hurricane|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|faint|p1a: Skuntank
+|-damage|p2a: Tornadus|0 fnt|[from] item: Life Orb
+|faint|p2a: Tornadus
+|
+|upkeep
+|
+|t:|1743883823
+|switch|p2a: Sinistcha|Sinistcha|100/100
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|turn|15
+|
+|t:|1743883828
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|move|p1a: Porygon2|Ice Beam|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|45/100
+|
+|-heal|p2a: Sinistcha|51/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743883835
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Porygon2
+|-damage|p1a: Porygon2|72/100
+|-heal|p2a: Sinistcha|65/100|[from] drain|[of] p1a: Porygon2
+|-status|p1a: Porygon2|brn
+|move|p1a: Porygon2|Ice Beam|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|15/100
+|-status|p2a: Sinistcha|frz
+|
+|-heal|p2a: Sinistcha|21/100 frz|[from] item: Leftovers
+|-damage|p1a: Porygon2|66/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743883848
+|-curestatus|p2a: Sinistcha|frz|[from] move: Scald
+|move|p2a: Sinistcha|Scald|p1a: Porygon2
+|-damage|p1a: Porygon2|48/100 brn
+|move|p1a: Porygon2|Ice Beam|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|
+|-damage|p1a: Porygon2|42/100 brn|[from] brn
+|upkeep
+|
+|t:|1743883858
+|switch|p2a: Regidrago|Regidrago|49/100
+|turn|18
+|
+|t:|1743883866
+|move|p2a: Regidrago|Draco Meteor|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|-unboost|p2a: Regidrago|spa|2
+|faint|p1a: Porygon2
+|
+|upkeep
+|
+|t:|1743883870
+|switch|p1a: Cramorant|Cramorant, M|100/100
+|turn|19
+|
+|t:|1743883873
+|move|p2a: Regidrago|Draco Meteor|p1a: Cramorant
+|-damage|p1a: Cramorant|43/100
+|-unboost|p2a: Regidrago|spa|2
+|move|p1a: Cramorant|Air Slash|p2a: Regidrago
+|-damage|p2a: Regidrago|15/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743883880
+|move|p2a: Regidrago|Draco Meteor|p1a: Cramorant|[miss]
+|-miss|p2a: Regidrago|p1a: Cramorant
+|move|p1a: Cramorant|Air Slash|p2a: Regidrago
+|-damage|p2a: Regidrago|0 fnt
+|faint|p2a: Regidrago
+|
+|win|tyvubin
+|raw|tyvubin's rating: 1145 &rarr; <strong>1168</strong><br />(+23 for winning)
+|raw|Jammin Toxtricity's rating: 1124 &rarr; <strong>1101</strong><br />(-23 for losing)
+|l|☆Jammin Toxtricity
+|player|p2|
+|l|☆tyvubin
+|player|p1|

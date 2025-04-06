@@ -1,0 +1,183 @@
+|j|☆tesmon
+|j|☆Tscher
+|t:|1743837509
+|gametype|singles
+|player|p1|tesmon|2|1281
+|player|p2|Tscher|266|1295
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Salamence, M|
+|poke|p1|Serperior, M|
+|poke|p1|Weavile, M|
+|poke|p1|Sableye, M|
+|poke|p1|Gliscor, M|
+|poke|p1|Tentacruel, M|
+|poke|p2|Cinccino, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Great Tusk|
+|poke|p2|Ceruledge, F|
+|poke|p2|Kyurem|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1743837518
+|start
+|switch|p1a: Serperior|Serperior, M, shiny|100/100
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|turn|1
+|
+|t:|1743837525
+|switch|p1a: Gliscor|Gliscor, M, shiny|100/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|60/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743837534
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: Gliscor|Stealth Rock|p2a: Ceruledge
+|-sidestart|p2: Tscher|move: Stealth Rock
+|
+|-heal|p1a: Gliscor|72/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|t:|1743837546
+|switch|p1a: Sableye|Sableye, M|100/100
+|move|p2a: Ceruledge|Poltergeist|p1a: Sableye
+|-activate|p1a: Sableye|move: Poltergeist|Leftovers
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|upkeep
+|
+|t:|1743837556
+|switch|p1a: Weavile|Weavile, M|100/100
+|turn|4
+|
+|t:|1743837560
+|move|p1a: Weavile|Knock Off|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-enditem|p2a: Ceruledge|Focus Sash
+|-damage|p2a: Ceruledge|1/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|-heal|p2a: Ceruledge|49/100|[from] drain|[of] p1a: Weavile
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1743837570
+|switch|p1a: Salamence|Salamence, M|100/100
+|turn|5
+|
+|t:|1743837575
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Salamence
+|-damage|p1a: Salamence|50/100
+|move|p1a: Salamence|Earthquake|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|
+|upkeep
+|
+|t:|1743837581
+|switch|p2a: Don|Cinccino, M|100/100
+|-damage|p2a: Don|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1743837590
+|switch|p1a: Gliscor|Gliscor, M, shiny|72/100 tox
+|move|p2a: Don|Triple Axel|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|60/100 tox
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|35/100 tox
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|4/100 tox
+|-hitcount|p1a: Gliscor|3
+|
+|-heal|p1a: Gliscor|17/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1743837604
+|switch|p1a: Tentacruel|Tentacruel, M|100/100
+|move|p2a: Don|Tidy Up|p2a: Don
+|-sideend|p2: Tscher|Stealth Rock
+|-activate|p2a: Don|move: Tidy Up
+|-boost|p2a: Don|atk|1
+|-boost|p2a: Don|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743837612
+|move|p2a: Don|Bullet Seed|p1a: Tentacruel
+|-damage|p1a: Tentacruel|90/100
+|-damage|p1a: Tentacruel|78/100
+|-damage|p1a: Tentacruel|66/100
+|-damage|p1a: Tentacruel|55/100
+|-damage|p1a: Tentacruel|45/100
+|-hitcount|p1a: Tentacruel|5
+|move|p1a: Tentacruel|Toxic Spikes|p2a: Don
+|-sidestart|p2: Tscher|move: Toxic Spikes
+|
+|-heal|p1a: Tentacruel|51/100|[from] item: Black Sludge
+|upkeep
+|turn|9
+|
+|t:|1743837623
+|move|p2a: Don|Tidy Up|p2a: Don
+|-sideend|p2: Tscher|Toxic Spikes
+|-activate|p2a: Don|move: Tidy Up
+|-boost|p2a: Don|atk|1
+|-boost|p2a: Don|spe|1
+|move|p1a: Tentacruel|Flip Turn|p2a: Don
+|-damage|p2a: Don|68/100
+|
+|t:|1743837630
+|switch|p1a: Serperior|Serperior, M, shiny|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|10
+|
+|t:|1743837635
+|move|p2a: Don|Triple Axel|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|76/100
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|32/100
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|-hitcount|p1: Serperior|3
+|
+|upkeep
+|-message|tesmon forfeited.
+|
+|win|Tscher
+|raw|tesmon's rating: 1281 &rarr; <strong>1257</strong><br />(-24 for losing)
+|raw|Tscher's rating: 1295 &rarr; <strong>1319</strong><br />(+24 for winning)
+|l|☆tesmon
+|player|p1|
+|l|☆Tscher
+|player|p2|

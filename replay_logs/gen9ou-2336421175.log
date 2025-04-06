@@ -1,0 +1,199 @@
+|j|☆shinriley
+|j|☆fluox366
+|t:|1743915075
+|gametype|singles
+|player|p1|shinriley|unknown|1051
+|player|p2|fluox366|265|1092
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Swampert, M|
+|poke|p1|Muk-Alola, M|
+|poke|p1|Gardevoir, F|
+|poke|p1|Golurk|
+|poke|p1|Cryogonal|
+|poke|p1|Alomomola, F|
+|poke|p2|Meloetta|
+|poke|p2|Araquanid, M|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Moth|
+|poke|p2|Enamorus, F|
+|teampreview
+|
+|t:|1743915093
+|start
+|switch|p1a: Muk|Muk-Alola, M|100/100
+|switch|p2a: Domingo|Araquanid, M|100/100
+|turn|1
+|
+|t:|1743915102
+|move|p1a: Muk|Knock Off|p2a: Domingo
+|-crit|p2a: Domingo
+|-damage|p2a: Domingo|26/100
+|-enditem|p2a: Domingo|Custap Berry|[from] move: Knock Off|[of] p1a: Muk
+|move|p2a: Domingo|Sticky Web|p1a: Muk
+|-sidestart|p1: shinriley|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743915120
+|move|p1a: Muk|Knock Off|p2a: Domingo
+|-damage|p2a: Domingo|0 fnt
+|faint|p2a: Domingo
+|
+|upkeep
+|
+|t:|1743915138
+|switch|p2a: Béjart|Great Tusk|100/100
+|-enditem|p2a: Béjart|Booster Energy
+|-activate|p2a: Béjart|ability: Protosynthesis|[fromitem]
+|-start|p2a: Béjart|protosynthesisatk
+|turn|3
+|
+|t:|1743915150
+|switch|p1a: Cryogonal|Cryogonal|100/100
+|move|p2a: Béjart|Headlong Rush|p1a: Cryogonal
+|-immune|p1a: Cryogonal|[from] ability: Levitate
+|
+|upkeep
+|turn|4
+|
+|t:|1743915163
+|-end|p2a: Béjart|Protosynthesis|[silent]
+|switch|p2a: Michael|Gholdengo|100/100
+|-item|p2a: Michael|Air Balloon
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|-activate|p1a: Alomomola|move: Sticky Web
+|-unboost|p1a: Alomomola|spe|1
+|
+|upkeep
+|turn|5
+|
+|t:|1743915174
+|move|p2a: Michael|Nasty Plot|p2a: Michael
+|-boost|p2a: Michael|spa|2
+|move|p1a: Alomomola|Snowscape|p1a: Alomomola
+|-weather|Snowscape
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743915185
+|move|p2a: Michael|Nasty Plot|p2a: Michael
+|-boost|p2a: Michael|spa|2
+|move|p1a: Alomomola|Flip Turn|p2a: Michael
+|-damage|p2a: Michael|81/100
+|-enditem|p2a: Michael|Air Balloon
+|
+|t:|1743915192
+|switch|p1a: Muk|Muk-Alola, M|100/100|[from] Flip Turn
+|-activate|p1a: Muk|move: Sticky Web
+|-unboost|p1a: Muk|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743915225
+|move|p1a: Muk|Shadow Sneak|p2a: Michael
+|-supereffective|p2a: Michael
+|-damage|p2a: Michael|52/100
+|move|p2a: Michael|Make It Rain|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|-unboost|p2a: Michael|spa|1
+|faint|p1a: Muk
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743915237
+|switch|p1a: Swampert|Swampert, M|100/100
+|-activate|p1a: Swampert|move: Sticky Web
+|-unboost|p1a: Swampert|spe|1
+|turn|8
+|
+|t:|1743915251
+|-terastallize|p2a: Michael|Flying
+|move|p2a: Michael|Shadow Ball|p1a: Swampert
+|-damage|p1a: Swampert|3/100
+|move|p1a: Swampert|Liquidation|p2a: Michael
+|-damage|p2a: Michael|0 fnt
+|faint|p2a: Michael
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743915265
+|switch|p2a: Melodie|Meloetta|100/100
+|turn|9
+|
+|t:|1743915271
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|-activate|p1a: Alomomola|move: Sticky Web
+|-unboost|p1a: Alomomola|spe|1
+|move|p2a: Melodie|Relic Song|p1a: Alomomola
+|-damage|p1a: Alomomola|65/100
+|-formechange|p2a: Melodie|Meloetta-Pirouette|[msg]
+|-damage|p2a: Melodie|91/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1743915301
+|move|p2a: Melodie|Relic Song|p1a: Alomomola
+|-damage|p1a: Alomomola|40/100
+|-formechange|p2a: Melodie|Meloetta|[msg]
+|-damage|p2a: Melodie|81/100|[from] item: Life Orb
+|move|p1a: Alomomola|Snowscape|p1a: Alomomola
+|-weather|Snowscape
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743915317
+|switch|p1a: Cryogonal|Cryogonal|100/100
+|move|p2a: Melodie|Relic Song|p1a: Cryogonal
+|-crit|p1a: Cryogonal
+|-damage|p1a: Cryogonal|52/100
+|-formechange|p2a: Melodie|Meloetta-Pirouette|[msg]
+|-damage|p2a: Melodie|71/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743915329
+|move|p2a: Melodie|Close Combat|p1a: Cryogonal
+|-supereffective|p1a: Cryogonal
+|-damage|p1a: Cryogonal|0 fnt
+|-unboost|p2a: Melodie|def|1
+|-unboost|p2a: Melodie|spd|1
+|faint|p1a: Cryogonal
+|-damage|p2a: Melodie|61/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|-message|shinriley forfeited.
+|
+|win|fluox366
+|raw|shinriley's rating: 1051 &rarr; <strong>1035</strong><br />(-16 for losing)
+|raw|fluox366's rating: 1092 &rarr; <strong>1115</strong><br />(+23 for winning)
+|l|☆shinriley
+|player|p1|
+|l|☆fluox366
+|player|p2|

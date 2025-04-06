@@ -1,0 +1,190 @@
+|j|☆alanfournumbers
+|j|☆RoaringMoonlight2
+|t:|1743794197
+|gametype|singles
+|player|p1|alanfournumbers|102|1609
+|player|p2|RoaringMoonlight2|170|1694
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Latios, M|
+|poke|p1|Magnezone|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Maushold-Four|
+|poke|p1|Lokix, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Glimmora, F|
+|poke|p2|Gholdengo|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Raging Bolt|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RoaringMoonlight2)
+|
+|t:|1743794213
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|1
+|
+|t:|1743794219
+|move|p1a: Samurott|Ceaseless Edge|p2a: Glimmora|[miss]
+|-miss|p1a: Samurott|p2a: Glimmora
+|move|p2a: Glimmora|Energy Ball|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|5/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743794225
+|move|p1a: Samurott|Ceaseless Edge|p2a: Glimmora
+|-damage|p2a: Glimmora|50/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: alanfournumbers|move: Toxic Spikes
+|-sidestart|p2: RoaringMoonlight2|Spikes
+|move|p2a: Glimmora|Mortal Spin|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-sideend|p2: RoaringMoonlight2|Spikes|[from] move: Mortal Spin|[of] p2a: Glimmora
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1743794239
+|switch|p1a: Latios|Latios, M|100/100
+|turn|3
+|
+|t:|1743794252
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Latios|Ice Beam|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|73/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743794264
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|-sideend|p1: alanfournumbers|move: Toxic Spikes|[of] p1a: Slowking
+|move|p2a: Gholdengo|Trick|p1a: Slowking
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Slowking
+|-item|p1a: Slowking|Choice Scarf|[from] move: Trick
+|-item|p2a: Gholdengo|Heavy-Duty Boots|[from] move: Trick
+|
+|upkeep
+|turn|5
+|
+|t:|1743794273
+|move|p2a: Gholdengo|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|53/100
+|-unboost|p1a: Slowking|spd|1
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743794277
+|switch|p1a: Lokix|Lokix, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743794287
+|move|p2a: Gholdengo|Make It Rain|p1a: Lokix
+|-damage|p1a: Lokix|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Lokix
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743794295
+|switch|p1a: Magnezone|Magnezone|100/100
+|turn|7
+|j| stierball
+|
+|t:|1743794299
+|move|p2a: Gholdengo|Focus Blast|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|27/100
+|move|p1a: Magnezone|Volt Switch|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|t:|1743794306
+|switch|p1a: Latios|Latios, M|100/100|[from] Volt Switch
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743794312
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|8
+|
+|t:|1743794328
+|switch|p1a: Slowking|Slowking-Galar, F|86/100
+|move|p2a: Iron Valiant|Spirit Break|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|66/100
+|-unboost|p1a: Slowking|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743794341
+|switch|p1a: Magnezone|Magnezone|27/100
+|-terastallize|p2a: Iron Valiant|Dark
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1743794351
+|move|p2a: Iron Valiant|Knock Off|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|-enditem|p1a: Magnezone|Choice Specs|[from] move: Knock Off|[of] p2a: Iron Valiant
+|faint|p1a: Magnezone
+|
+|upkeep
+|
+|t:|1743794358
+|switch|p1a: Slowking|Slowking-Galar, F|99/100
+|turn|11
+|
+|t:|1743794362
+|-terastallize|p1a: Slowking|Water
+|move|p2a: Iron Valiant|Knock Off|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-enditem|p1a: Slowking|Choice Scarf|[from] move: Knock Off|[of] p2a: Iron Valiant
+|faint|p1a: Slowking
+|
+|upkeep
+|l| stierball
+|-message|alanfournumbers forfeited.
+|
+|win|RoaringMoonlight2
+|raw|alanfournumbers's rating: 1609 &rarr; <strong>1594</strong><br />(-15 for losing)
+|raw|RoaringMoonlight2's rating: 1694 &rarr; <strong>1709</strong><br />(+15 for winning)
+|l|☆alanfournumbers
+|player|p1|
+|l|☆RoaringMoonlight2
+|player|p2|

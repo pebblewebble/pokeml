@@ -1,0 +1,356 @@
+|j|☆dblq
+|j|☆deebeeweebee
+|t:|1743841080
+|gametype|singles
+|player|p1|dblq|170|1146
+|player|p2|deebeeweebee|2|1190
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Venusaur, F|
+|poke|p1|Scovillain, M|
+|poke|p1|Iron Moth|
+|poke|p1|Great Tusk|
+|poke|p1|Ninetales, F|
+|poke|p2|Orthworm, F|
+|poke|p2|Clodsire, F|
+|poke|p2|Pecharunt|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking, F|
+|poke|p2|Weavile, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dblq)
+|
+|t:|1743841090
+|start
+|switch|p1a: Scovillain|Scovillain, M|100/100
+|switch|p2a: Slowking|Slowking, F, shiny|100/100
+|turn|1
+|
+|t:|1743841099
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Scovillain|Giga Drain|p2a: Pecharunt
+|-resisted|p2a: Pecharunt
+|-damage|p2a: Pecharunt|82/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743841110
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Pecharunt|Parting Shot|p1a: Torkoal
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1a: Torkoal|spa|1
+|
+|t:|1743841113
+|switch|p2a: Slowking|Slowking, F, shiny|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743841126
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|inactiveoff|Battle timer is now OFF.
+|
+|t:|1743841162
+|switch|p2a: Clodsire|Clodsire, F, shiny|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743841172
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-terastallize|p2a: Clodsire|Water
+|move|p2a: Clodsire|Earthquake|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|68/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743841179
+|switch|p2a: Slowking|Slowking, F, shiny|100/100
+|move|p1a: Torkoal|Stealth Rock|p2a: Slowking
+|-sidestart|p2: deebeeweebee|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743841188
+|move|p1a: Torkoal|Lava Plume|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|90/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743841193
+|switch|p2a: Clodsire|Clodsire, F, shiny, tera:Water|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743841200
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Clodsire|Earthquake|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|12/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743841214
+|move|p1a: Ninetales|Solar Beam||[still]
+|-prepare|p1a: Ninetales|Solar Beam
+|-anim|p1a: Ninetales|Solar Beam|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|56/100
+|-damage|p1a: Ninetales|2/100|[from] item: Life Orb
+|move|p2a: Clodsire|Stealth Rock|p1a: Ninetales
+|-sidestart|p1: dblq|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743841226
+|move|p1a: Ninetales|Solar Beam||[still]
+|-prepare|p1a: Ninetales|Solar Beam
+|-anim|p1a: Ninetales|Solar Beam|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|10/100
+|-damage|p1a: Ninetales|0 fnt|[from] item: Life Orb
+|faint|p1a: Ninetales
+|move|p2a: Clodsire|Recover|p2a: Clodsire
+|-heal|p2a: Clodsire|60/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743841250
+|switch|p1a: Venusaur|Venusaur, F|100/100
+|-damage|p1a: Venusaur|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743841264
+|switch|p2a: Orthworm|Orthworm, F, shiny|100/100
+|-damage|p2a: Orthworm|95/100|[from] Stealth Rock
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743841274
+|move|p1a: Venusaur|Weather Ball|p2a: Orthworm
+|-supereffective|p2a: Orthworm
+|-damage|p2a: Orthworm|0 fnt
+|faint|p2a: Orthworm
+|-damage|p1a: Venusaur|78/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1743841280
+|switch|p2a: Weavile|Weavile, F, shiny|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|12
+|
+|t:|1743841287
+|switch|p1a: Torkoal|Torkoal, M|68/100
+|-damage|p1a: Torkoal|44/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Weavile|Triple Axel|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|41/100
+|-resisted|p1a: Torkoal
+|-crit|p1a: Torkoal
+|-damage|p1a: Torkoal|33/100
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|24/100
+|-hitcount|p1a: Torkoal|3
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743841299
+|move|p2a: Weavile|Knock Off|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-enditem|p1a: Torkoal|Heat Rock|[from] move: Knock Off|[of] p2a: Weavile
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743841315
+|switch|p1a: Scovillain|Scovillain, M|100/100
+|-damage|p1a: Scovillain|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743841370
+|switch|p2a: Slowking|Slowking, F, shiny|100/100
+|move|p1a: Scovillain|Solar Beam||[still]
+|-prepare|p1a: Scovillain|Solar Beam
+|-anim|p1a: Scovillain|Solar Beam|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|38/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743841380
+|switch|p2a: Pecharunt|Pecharunt|82/100
+|move|p1a: Scovillain|Solar Beam||[still]
+|-prepare|p1a: Scovillain|Solar Beam
+|-anim|p1a: Scovillain|Solar Beam|p2a: Pecharunt
+|-resisted|p2a: Pecharunt
+|-damage|p2a: Pecharunt|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743841395
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Pecharunt|Parting Shot|p1a: Great Tusk
+|-unboost|p1a: Great Tusk|atk|1
+|-unboost|p1a: Great Tusk|spa|1
+|
+|t:|1743841409
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100|[from] Parting Shot
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743841424
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Scovillain|Scovillain, M|76/100
+|-damage|p1a: Scovillain|51/100|[from] Stealth Rock
+|move|p2a: Great Tusk|Rapid Spin|p1a: Scovillain
+|-damage|p1a: Scovillain|8/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: deebeeweebee|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743841435
+|move|p1a: Scovillain|Giga Drain|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-heal|p1a: Scovillain|77/100|[from] drain|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743841458
+|switch|p2a: Pecharunt|Pecharunt|55/100
+|turn|19
+|
+|t:|1743841475
+|move|p1a: Scovillain|Giga Drain|p2a: Pecharunt
+|-resisted|p2a: Pecharunt
+|-damage|p2a: Pecharunt|39/100
+|-heal|p1a: Scovillain|88/100|[from] drain|[of] p2a: Pecharunt
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|89/100
+|
+|-weather|none
+|upkeep
+|turn|20
+|
+|t:|1743841493
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|move|p2a: Pecharunt|Parting Shot|p1a: Great Tusk
+|-unboost|p1a: Great Tusk|atk|1
+|-unboost|p1a: Great Tusk|spa|1
+|
+|t:|1743841506
+|switch|p2a: Slowking|Slowking, F, shiny|71/100|[from] Parting Shot
+|
+|-heal|p1a: Great Tusk|100/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743841524
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Scovillain|Scovillain, M|88/100
+|-damage|p1a: Scovillain|63/100|[from] Stealth Rock
+|move|p2a: Slowking|Future Sight|p1a: Scovillain
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|22
+|
+|t:|1743841537
+|switch|p2a: Pecharunt|Pecharunt|89/100
+|move|p1a: Scovillain|Overheat|p2a: Pecharunt
+|-damage|p2a: Pecharunt|28/100
+|-unboost|p1a: Scovillain|spa|2
+|
+|upkeep
+|turn|23
+|
+|t:|1743841555
+|switch|p2a: Slowking|Slowking, F, shiny|100/100
+|move|p1a: Scovillain|Overheat|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|91/100
+|-unboost|p1a: Scovillain|spa|2
+|
+|-end|p1a: Scovillain|move: Future Sight
+|-damage|p1a: Scovillain|0 fnt
+|faint|p1a: Scovillain
+|upkeep
+|
+|t:|1743841566
+|switch|p1a: Venusaur|Venusaur, F|78/100
+|-damage|p1a: Venusaur|66/100|[from] Stealth Rock
+|turn|24
+|-message|dblq forfeited.
+|
+|win|deebeeweebee
+|raw|dblq's rating: 1146 &rarr; <strong>1124</strong><br />(-22 for losing)
+|raw|deebeeweebee's rating: 1190 &rarr; <strong>1212</strong><br />(+22 for winning)
+|l|☆dblq
+|player|p1|
+|l|☆deebeeweebee
+|player|p2|

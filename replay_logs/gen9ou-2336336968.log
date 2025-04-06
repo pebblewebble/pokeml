@@ -1,0 +1,312 @@
+|j|☆DiegoaliasDJ
+|j|☆Palleiro
+|t:|1743904500
+|gametype|singles
+|player|p1|DiegoaliasDJ|cress|1191
+|player|p2|Palleiro|gentleman-gen4|1186
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Gholdengo|
+|poke|p1|Ting-Lu|
+|poke|p1|Darkrai|
+|poke|p1|Grafaiai, M|
+|poke|p1|Corviknight, F|
+|poke|p2|Regirock|
+|poke|p2|Bronzong|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Rhyperior, F|
+|poke|p2|Hitmonlee, M|
+|poke|p2|Garchomp, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DiegoaliasDJ)
+|
+|t:|1743904508
+|start
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Gholdengo|atk|1
+|turn|1
+|
+|t:|1743904514
+|move|p1a: Gholdengo|Trick|p2a: Landorus
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Landorus
+|-item|p2a: Landorus|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Life Orb|[from] move: Trick
+|move|p2a: Landorus|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743904520
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|turn|2
+|
+|t:|1743904526
+|switch|p2a: Bronzong|Bronzong|100/100
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|upkeep
+|turn|3
+|
+|t:|1743904531
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|move|p2a: Bronzong|Metal Sound|p1a: Corviknight
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Bronzong|spd|2
+|
+|upkeep
+|turn|4
+|
+|t:|1743904537
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|move|p2a: Bronzong|Gravity|p2a: Bronzong
+|-fieldstart|move: Gravity
+|
+|upkeep
+|turn|5
+|
+|t:|1743904543
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Landorus|atk|1
+|move|p1a: Corviknight|Body Press|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|46/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743904551
+|move|p2a: Landorus|Earthquake|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|86/100
+|move|p1a: Corviknight|Body Press|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743904555
+|switch|p2a: Rhyperior|Rhyperior, F|100/100
+|turn|7
+|
+|t:|1743904559
+|move|p1a: Corviknight|Body Press|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|11/100
+|-enditem|p2a: Rhyperior|Weakness Policy
+|-boost|p2a: Rhyperior|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Rhyperior|spa|2|[from] item: Weakness Policy
+|move|p2a: Rhyperior|Earthquake|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|45/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743904567
+|move|p1a: Corviknight|Body Press|p2a: Rhyperior
+|-supereffective|p2a: Rhyperior
+|-damage|p2a: Rhyperior|0 fnt
+|faint|p2a: Rhyperior
+|
+|-fieldend|move: Gravity
+|upkeep
+|
+|t:|1743904573
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|9
+|
+|t:|1743904576
+|move|p1a: Corviknight|Body Press|p2a: Bronzong
+|-damage|p2a: Bronzong|14/100
+|-enditem|p2a: Bronzong|Sitrus Berry|[eat]
+|-heal|p2a: Bronzong|39/100|[from] item: Sitrus Berry
+|move|p2a: Bronzong|Gravity|p2a: Bronzong
+|-fieldstart|move: Gravity
+|
+|upkeep
+|turn|10
+|
+|t:|1743904581
+|move|p1a: Corviknight|Body Press|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|upkeep
+|
+|t:|1743904590
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|11
+|
+|t:|1743904596
+|move|p2a: Garchomp|Fire Blast|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|7/100
+|move|p1a: Corviknight|Body Press|p2a: Garchomp
+|-damage|p2a: Garchomp|9/100
+|-damage|p1a: Corviknight|0 fnt|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1743904604
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|12
+|
+|t:|1743904611
+|move|p2a: Garchomp|Fire Blast|p1a: Darkrai
+|-damage|p1a: Darkrai|72/100
+|-status|p1a: Darkrai|brn
+|move|p1a: Darkrai|Dark Pulse|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-damage|p1a: Darkrai|66/100 brn|[from] brn
+|upkeep
+|
+|t:|1743904616
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|turn|13
+|
+|t:|1743904625
+|switch|p1a: Grafaiai|Grafaiai, M|100/100
+|move|p2a: Hitmonlee|Endure||[still]
+|-fail|p2a: Hitmonlee
+|
+|-fieldend|move: Gravity
+|upkeep
+|turn|14
+|
+|t:|1743904649
+|-terastallize|p2a: Hitmonlee|Fighting
+|move|p1a: Grafaiai|Encore|p2a: Hitmonlee
+|-start|p2a: Hitmonlee|Encore
+|move|p2a: Hitmonlee|Endure||[still]
+|-fail|p2a: Hitmonlee
+|
+|upkeep
+|turn|15
+|
+|t:|1743904655
+|switch|p2a: Regirock|Regirock|100/100
+|move|p1a: Grafaiai|Toxic|p2a: Regirock
+|-status|p2a: Regirock|tox
+|
+|-damage|p2a: Regirock|94/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743904662
+|move|p1a: Grafaiai|Parting Shot|p2a: Regirock
+|-fail|p2a: Regirock|unboost|[from] ability: Clear Body|[of] p2a: Regirock
+|move|p2a: Regirock|Gravity|p2a: Regirock
+|-fieldstart|move: Gravity
+|
+|-heal|p2a: Regirock|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Regirock|88/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1743904669
+|move|p1a: Grafaiai|Encore|p2a: Regirock
+|-start|p2a: Regirock|Encore
+|move|p2a: Regirock|Gravity||[still]
+|-fail|p2a: Regirock
+|
+|-heal|p2a: Regirock|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Regirock|76/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1743904675
+|switch|p2a: Hitmonlee|Hitmonlee, M, tera:Fighting|100/100
+|move|p1a: Grafaiai|Toxic|p2a: Hitmonlee
+|-status|p2a: Hitmonlee|tox
+|
+|-damage|p2a: Hitmonlee|94/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1743904682
+|move|p1a: Grafaiai|Parting Shot|p2a: Hitmonlee
+|-unboost|p2a: Hitmonlee|atk|1
+|-unboost|p2a: Hitmonlee|spa|1
+|
+|t:|1743904686
+|switch|p1a: Dragonite|Dragonite, M|100/100|[from] Parting Shot
+|move|p2a: Hitmonlee|Blaze Kick|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|96/100
+|
+|-damage|p2a: Hitmonlee|82/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1743904691
+|move|p2a: Hitmonlee|Stone Edge|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|47/100
+|-enditem|p1a: Dragonite|Weakness Policy
+|-boost|p1a: Dragonite|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Dragonite|spa|2|[from] item: Weakness Policy
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-damage|p2a: Hitmonlee|63/100 tox|[from] psn
+|-fieldend|move: Gravity
+|upkeep
+|turn|21
+|
+|t:|1743904699
+|-terastallize|p1a: Dragonite|Normal
+|move|p2a: Hitmonlee|Endure|p2a: Hitmonlee
+|-singleturn|p2a: Hitmonlee|move: Endure
+|move|p1a: Dragonite|Extreme Speed|p2a: Hitmonlee
+|-activate|p2a: Hitmonlee|move: Endure
+|-damage|p2a: Hitmonlee|1/100 tox
+|-enditem|p2a: Hitmonlee|Liechi Berry|[eat]
+|-boost|p2a: Hitmonlee|atk|1|[from] item: Liechi Berry
+|
+|-damage|p2a: Hitmonlee|0 fnt|[from] psn
+|faint|p2a: Hitmonlee
+|upkeep
+|
+|t:|1743904702
+|switch|p2a: Regirock|Regirock|76/100 tox
+|turn|22
+|
+|t:|1743904711
+|move|p1a: Dragonite|Earthquake|p2a: Regirock
+|-supereffective|p2a: Regirock
+|-damage|p2a: Regirock|0 fnt
+|faint|p2a: Regirock
+|
+|win|DiegoaliasDJ
+|raw|DiegoaliasDJ's rating: 1191 &rarr; <strong>1216</strong><br />(+25 for winning)
+|raw|Palleiro's rating: 1186 &rarr; <strong>1161</strong><br />(-25 for losing)
+|l|☆DiegoaliasDJ
+|player|p1|
+|l|☆Palleiro
+|player|p2|

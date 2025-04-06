@@ -1,0 +1,255 @@
+|j|☆jlightninbolt
+|j|☆Cynthia Blueheart
+|t:|1743928230
+|gametype|singles
+|player|p1|jlightninbolt|266|1533
+|player|p2|Cynthia Blueheart|acetrainerf|1475
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Duraludon, M|
+|poke|p1|Primarina, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Great Tusk|
+|poke|p1|Dragapult, F|
+|poke|p1|Corviknight, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Gholdengo|
+|poke|p2|Ting-Lu|
+|poke|p2|Quaquaval, M|
+|poke|p2|Alomomola, M|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cynthia Blueheart)
+|
+|t:|1743928237
+|start
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|1
+|
+|t:|1743928241
+|move|p2a: Gholdengo|Trick|p1a: Duraludon
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Duraludon
+|-item|p1a: Duraludon|Choice Scarf|[from] move: Trick
+|-item|p2a: Gholdengo|Eviolite|[from] move: Trick
+|move|p1a: Duraludon|Metal Burst||[still]
+|-fail|p1a: Duraludon
+|
+|upkeep
+|turn|2
+|
+|t:|1743928247
+|switch|p1a: Primarina|Primarina, F|100/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Primarina
+|-damage|p1a: Primarina|78/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743928252
+|move|p2a: Gholdengo|Trick|p1a: Primarina
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Primarina
+|-item|p1a: Primarina|Eviolite|[from] move: Trick
+|-item|p2a: Gholdengo|Assault Vest|[from] move: Trick
+|move|p1a: Primarina|Surf|p2a: Gholdengo
+|-damage|p2a: Gholdengo|62/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743928257
+|move|p2a: Gholdengo|Thunderbolt|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|23/100
+|move|p1a: Primarina|Flip Turn|p2a: Gholdengo
+|-damage|p2a: Gholdengo|37/100
+|
+|t:|1743928261
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Flip Turn
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|
+|upkeep
+|turn|5
+|
+|t:|1743928266
+|move|p1a: Great Tusk|Headlong Rush|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743928270
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|turn|6
+|
+|t:|1743928273
+|move|p1a: Great Tusk|Headlong Rush|p2a: Quaquaval
+|-damage|p2a: Quaquaval|25/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Quaquaval|Aqua Step|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|5/100
+|-boost|p2a: Quaquaval|spe|1
+|
+|upkeep
+|turn|7
+|
+|t:|1743928282
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Quaquaval|Aqua Step|p1a: Corviknight
+|-damage|p1a: Corviknight|82/100
+|-boost|p2a: Quaquaval|spe|1
+|-damage|p2a: Quaquaval|9/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|upkeep
+|turn|8
+|
+|t:|1743928285
+|move|p2a: Quaquaval|Roost|p2a: Quaquaval
+|-heal|p2a: Quaquaval|59/100
+|-singleturn|p2a: Quaquaval|move: Roost
+|move|p1a: Corviknight|Body Press|p2a: Quaquaval
+|-damage|p2a: Quaquaval|34/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743928290
+|move|p2a: Quaquaval|Roost|p2a: Quaquaval
+|-heal|p2a: Quaquaval|84/100
+|-singleturn|p2a: Quaquaval|move: Roost
+|move|p1a: Corviknight|Body Press|p2a: Quaquaval
+|-crit|p2a: Quaquaval
+|-damage|p2a: Quaquaval|49/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743928294
+|move|p2a: Quaquaval|Roost|p2a: Quaquaval
+|-heal|p2a: Quaquaval|99/100
+|-singleturn|p2a: Quaquaval|move: Roost
+|move|p1a: Corviknight|Body Press|p2a: Quaquaval
+|-damage|p2a: Quaquaval|76/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743928297
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Corviknight|Body Press|p2a: Alomomola
+|-damage|p2a: Alomomola|85/100
+|-damage|p1a: Corviknight|66/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|
+|upkeep
+|turn|12
+|
+|t:|1743928302
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Alomomola|Flip Turn|p1a: Corviknight
+|-damage|p1a: Corviknight|91/100
+|-damage|p2a: Alomomola|68/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|t:|1743928305
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|13
+|
+|t:|1743928308
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Corviknight|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|92/100
+|-damage|p1a: Corviknight|74/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|
+|t:|1743928313
+|switch|p1a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|
+|upkeep
+|turn|14
+|
+|t:|1743928316
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|move|p2a: Alomomola|Flip Turn|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|81/100
+|
+|t:|1743928318
+|switch|p2a: Ting-Lu|Ting-Lu|100/100|[from] Flip Turn
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|upkeep
+|turn|15
+|
+|t:|1743928321
+|-terastallize|p2a: Ting-Lu|Fairy
+|move|p1a: Iron Valiant|Moonblast|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|65/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|36/100
+|
+|-heal|p2a: Ting-Lu|71/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743928327
+|move|p1a: Iron Valiant|Moonblast|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|39/100
+|-unboost|p2a: Ting-Lu|spa|1
+|move|p2a: Ting-Lu|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p2a: Ting-Lu|45/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743928339
+|switch|p1a: Duraludon|Duraludon, M|100/100
+|turn|17
+|
+|t:|1743928345
+|move|p1a: Duraludon|Metal Burst||[still]
+|-fail|p1a: Duraludon
+|move|p2a: Ting-Lu|Earthquake|p1a: Duraludon
+|-supereffective|p1a: Duraludon
+|-damage|p1a: Duraludon|45/100
+|
+|-heal|p2a: Ting-Lu|51/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|-message|jlightninbolt forfeited.
+|
+|win|Cynthia Blueheart
+|raw|jlightninbolt's rating: 1533 &rarr; <strong>1510</strong><br />(-23 for losing)
+|raw|Cynthia Blueheart's rating: 1475 &rarr; <strong>1498</strong><br />(+23 for winning)
+|l|☆jlightninbolt
+|player|p1|
+|l|☆Cynthia Blueheart
+|player|p2|

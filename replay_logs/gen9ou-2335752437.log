@@ -1,0 +1,365 @@
+|j|☆JP ShinySeeker
+|j|☆Moeyel
+|t:|1743830405
+|gametype|singles
+|player|p1|JP ShinySeeker|grimsley|1435
+|player|p2|Moeyel|101|1448
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Manaphy|
+|poke|p1|Raging Bolt|
+|poke|p1|Hydrapple, F|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Avalugg, M|
+|poke|p1|Garchomp, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Moeyel)
+|
+|t:|1743830423
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1743830431
+|move|p2a: Tornadus|U-turn|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|87/100
+|
+|t:|1743830433
+|switch|p2a: Slowking|Slowking-Galar, M|100/100|[from] U-turn
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|62/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743830437
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743830441
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743830445
+|move|p2a: Ogerpon|Encore|p1a: Raging Bolt
+|-start|p1a: Raging Bolt|Encore
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743830449
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Avalugg|Avalugg, M|100/100
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743830455
+|move|p2a: Ogerpon|Horn Leech|p1a: Avalugg
+|-damage|p1a: Avalugg|75/100
+|move|p1a: Avalugg|Avalanche|p2a: Ogerpon
+|-damage|p2a: Ogerpon|36/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743830462
+|move|p2a: Ogerpon|Horn Leech|p1a: Avalugg
+|-damage|p1a: Avalugg|49/100
+|-heal|p2a: Ogerpon|53/100|[from] drain|[of] p1a: Avalugg
+|move|p1a: Avalugg|Body Press|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-weather|none
+|upkeep
+|
+|t:|1743830469
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|turn|7
+|
+|t:|1743830472
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|move|p2a: Tornadus|Heat Wave|p1a: Hoopa
+|-damage|p1a: Hoopa|86/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743830476
+|move|p2a: Tornadus|U-turn|p1a: Hoopa
+|-supereffective|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|t:|1743830479
+|switch|p2a: Meowscarada|Meowscarada, F|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743830483
+|switch|p1a: Raging Bolt|Raging Bolt|87/100
+|turn|9
+|
+|t:|1743830491
+|-terastallize|p1a: Raging Bolt|Fairy
+|move|p2a: Meowscarada|Triple Axel|p1a: Raging Bolt|[miss]
+|-start|p2a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-miss|p2a: Meowscarada|p1a: Raging Bolt
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Meowscarada
+|-damage|p2a: Meowscarada|18/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743830497
+|switch|p2a: Slowking|Slowking-Galar, M|96/100
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|upkeep
+|turn|11
+|
+|t:|1743830501
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Garchomp
+|-resisted|p1a: Garchomp
+|-damage|p1a: Garchomp|81/100
+|-status|p1a: Garchomp|psn
+|
+|-damage|p1a: Garchomp|68/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743830505
+|switch|p2a: Iron Valiant|Iron Valiant, shiny|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Garchomp|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|33/100
+|
+|-damage|p1a: Garchomp|56/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1743830509
+|move|p2a: Iron Valiant|Moonblast|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|upkeep
+|
+|t:|1743830512
+|switch|p1a: Raging Bolt|Raging Bolt, tera:Fairy|87/100
+|turn|14
+|
+|t:|1743830517
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|68/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743830520
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|move|p2a: Slowking|Sludge Bomb|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|42/100
+|-status|p1a: Raging Bolt|psn
+|
+|-damage|p1a: Raging Bolt|30/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743830523
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Slowking
+|-damage|p2a: Slowking|17/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743830528
+|switch|p1a: Hydrapple|Hydrapple, F, shiny|100/100
+|turn|17
+|
+|t:|1743830532
+|move|p1a: Hydrapple|Earth Power|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1743830536
+|switch|p2a: Meowscarada|Meowscarada, F|18/100
+|turn|18
+|
+|t:|1743830540
+|switch|p1a: Avalugg|Avalugg, M|49/100
+|move|p2a: Meowscarada|U-turn|p1a: Avalugg
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-damage|p1a: Avalugg|35/100
+|
+|t:|1743830543
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|19
+|
+|t:|1743830546
+|move|p2a: Tornadus|Hurricane|p1a: Avalugg
+|-damage|p1a: Avalugg|0 fnt
+|faint|p1a: Avalugg
+|
+|upkeep
+|
+|t:|1743830548
+|switch|p1a: Manaphy|Manaphy|100/100
+|turn|20
+|
+|t:|1743830552
+|move|p2a: Tornadus|Hurricane|p1a: Manaphy
+|-damage|p1a: Manaphy|47/100
+|move|p1a: Manaphy|Substitute|p1a: Manaphy
+|-start|p1a: Manaphy|Substitute
+|-damage|p1a: Manaphy|22/100
+|
+|-heal|p1a: Manaphy|28/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743830556
+|move|p2a: Tornadus|Hurricane|p1a: Manaphy
+|-end|p1a: Manaphy|Substitute
+|move|p1a: Manaphy|Surf|p2a: Tornadus
+|-damage|p2a: Tornadus|50/100
+|
+|-heal|p1a: Manaphy|34/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743830558
+|move|p2a: Tornadus|Hurricane|p1a: Manaphy|[miss]
+|-miss|p2a: Tornadus|p1a: Manaphy
+|move|p1a: Manaphy|Surf|p2a: Tornadus
+|-damage|p2a: Tornadus|1/100
+|
+|-heal|p1a: Manaphy|40/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743830562
+|move|p2a: Tornadus|Hurricane|p1a: Manaphy|[miss]
+|-miss|p2a: Tornadus|p1a: Manaphy
+|move|p1a: Manaphy|Surf|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|-heal|p1a: Manaphy|47/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743830565
+|switch|p2a: Meowscarada|Meowscarada, F|18/100
+|turn|24
+|
+|t:|1743830571
+|move|p2a: Meowscarada|U-turn|p1a: Manaphy
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-damage|p1a: Manaphy|8/100
+|
+|t:|1743830574
+|switch|p2a: Iron Valiant|Iron Valiant, shiny|33/100|[from] U-turn
+|move|p1a: Manaphy|Alluring Voice|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p1a: Manaphy|15/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743830577
+|switch|p2a: Meowscarada|Meowscarada, F|18/100
+|turn|25
+|
+|t:|1743830581
+|move|p2a: Meowscarada|Triple Axel|p1a: Manaphy
+|-start|p2a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-resisted|p1a: Manaphy
+|-damage|p1a: Manaphy|10/100
+|-resisted|p1a: Manaphy
+|-damage|p1a: Manaphy|0 fnt
+|faint|p1a: Manaphy
+|-hitcount|p1: Manaphy|2
+|
+|upkeep
+|
+|t:|1743830582
+|switch|p1a: Hydrapple|Hydrapple, F, shiny|100/100
+|turn|26
+|
+|t:|1743830584
+|move|p2a: Meowscarada|Triple Axel|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|69/100
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|8/100
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|0 fnt
+|faint|p1a: Hydrapple
+|-hitcount|p1: Hydrapple|3
+|
+|win|Moeyel
+|raw|JP ShinySeeker's rating: 1435 &rarr; <strong>1416</strong><br />(-19 for losing)
+|raw|Moeyel's rating: 1448 &rarr; <strong>1467</strong><br />(+19 for winning)
+|l|☆JP ShinySeeker
+|player|p1|
+|l|☆Moeyel
+|player|p2|

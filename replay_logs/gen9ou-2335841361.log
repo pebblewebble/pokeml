@@ -1,0 +1,329 @@
+|j|☆Diarreia Mortal
+|j|☆RMB.mp4
+|t:|1743846288
+|gametype|singles
+|player|p1|Diarreia Mortal|fisherman-gen4|1198
+|player|p2|RMB.mp4|acerola-masters|1153
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Toxtricity, F|
+|poke|p1|Mew|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Deoxys-Speed|
+|poke|p1|Toucannon, M|
+|poke|p1|Ditto|
+|poke|p2|Meloetta|
+|poke|p2|Araquanid, M|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Moth|
+|poke|p2|Enamorus, F|
+|teampreview
+|
+|t:|1743846304
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Domingo|Araquanid, M|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|
+|t:|1743846319
+|move|p1a: Deoxys|Psycho Boost|p2a: Domingo
+|-damage|p2a: Domingo|50/100
+|-unboost|p1a: Deoxys|spa|2
+|move|p2a: Domingo|Surf|p1a: Deoxys
+|-damage|p1a: Deoxys|10/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743846329
+|move|p1a: Deoxys|Stealth Rock|p2a: Domingo
+|-sidestart|p2: RMB.mp4|move: Stealth Rock
+|move|p2a: Domingo|Sticky Web|p1a: Deoxys
+|-sidestart|p1: Diarreia Mortal|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|t:|1743846336
+|move|p1a: Deoxys|Spikes|p2a: Domingo
+|-sidestart|p2: RMB.mp4|Spikes
+|move|p2a: Domingo|Surf|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|
+|t:|1743846352
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-activate|p1a: Ninetales|move: Sticky Web
+|-unboost|p1a: Ninetales|spe|1
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|4
+|
+|t:|1743846359
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Diarreia Mortal|move: Aurora Veil
+|move|p2a: Domingo|Surf|p1a: Ninetales
+|-damage|p1a: Ninetales|71/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743846371
+|switch|p1a: Ditto|Ditto|100/100
+|-activate|p1a: Ditto|move: Sticky Web
+|-unboost|p1a: Ditto|spe|1
+|-transform|p1a: Ditto|p2a: Domingo|[from] ability: Imposter
+|move|p2a: Domingo|Surf|p1a: Ditto
+|-resisted|p1a: Ditto
+|-damage|p1a: Ditto|87/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743846380
+|move|p1a: Ditto|Sticky Web|p2a: Domingo
+|-sidestart|p2: RMB.mp4|move: Sticky Web
+|move|p2a: Domingo|Endeavor|p1a: Ditto
+|-damage|p1a: Ditto|57/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743846387
+|switch|p1a: Toucannon|Toucannon, M|100/100
+|move|p2a: Domingo|Surf|p1a: Toucannon
+|-damage|p1a: Toucannon|68/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743846394
+|-singleturn|p1a: Toucannon|move: Beak Blast
+|move|p2a: Domingo|Surf|p1a: Toucannon
+|-damage|p1a: Toucannon|37/100
+|move|p1a: Toucannon|Beak Blast|p2a: Domingo
+|-supereffective|p2a: Domingo
+|-damage|p2a: Domingo|0 fnt
+|faint|p2a: Domingo
+|
+|-weather|none
+|upkeep
+|
+|t:|1743846401
+|switch|p2a: Béjart|Great Tusk|100/100
+|-damage|p2a: Béjart|98/100|[from] Stealth Rock
+|-damage|p2a: Béjart|85/100|[from] Spikes
+|-activate|p2a: Béjart|move: Sticky Web
+|-unboost|p2a: Béjart|spe|1
+|-enditem|p2a: Béjart|Booster Energy
+|-activate|p2a: Béjart|ability: Protosynthesis|[fromitem]
+|-start|p2a: Béjart|protosynthesisatk
+|turn|9
+|
+|t:|1743846407
+|-singleturn|p1a: Toucannon|move: Beak Blast
+|move|p2a: Béjart|Rapid Spin|p1a: Toucannon
+|-damage|p1a: Toucannon|23/100
+|-status|p2a: Béjart|brn
+|-boost|p2a: Béjart|spe|1
+|-sideend|p2: RMB.mp4|Spikes|[from] move: Rapid Spin|[of] p2a: Béjart
+|-sideend|p2: RMB.mp4|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Béjart
+|-sideend|p2: RMB.mp4|Sticky Web|[from] move: Rapid Spin|[of] p2a: Béjart
+|move|p1a: Toucannon|Beak Blast|p2a: Béjart
+|-supereffective|p2a: Béjart
+|-damage|p2a: Béjart|0 fnt
+|faint|p2a: Béjart
+|-end|p2a: Béjart|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743846414
+|switch|p2a: Noureev|Iron Moth|100/100
+|-enditem|p2a: Noureev|Booster Energy
+|-activate|p2a: Noureev|ability: Quark Drive|[fromitem]
+|-start|p2a: Noureev|quarkdrivespa
+|turn|10
+|
+|t:|1743846421
+|-singleturn|p1a: Toucannon|move: Beak Blast
+|move|p2a: Noureev|Fiery Dance|p1a: Toucannon
+|-crit|p1a: Toucannon
+|-damage|p1a: Toucannon|0 fnt
+|faint|p1a: Toucannon
+|
+|upkeep
+|
+|t:|1743846429
+|switch|p1a: Toxtricity|Toxtricity, F|100/100
+|-activate|p1a: Toxtricity|move: Sticky Web
+|-unboost|p1a: Toxtricity|spe|1
+|turn|11
+|
+|t:|1743846436
+|move|p2a: Noureev|Psychic|p1a: Toxtricity
+|-supereffective|p1a: Toxtricity
+|-damage|p1a: Toxtricity|49/100
+|move|p1a: Toxtricity|Psychic Noise|p2a: Noureev
+|-supereffective|p2a: Noureev
+|-damage|p2a: Noureev|0 fnt
+|faint|p2a: Noureev
+|-end|p2a: Noureev|Quark Drive|[silent]
+|
+|-sideend|p1: Diarreia Mortal|move: Aurora Veil
+|upkeep
+|
+|t:|1743846444
+|switch|p2a: Esmeralda|Enamorus, F|100/100
+|turn|12
+|
+|t:|1743846450
+|-terastallize|p2a: Esmeralda|Stellar
+|move|p2a: Esmeralda|Tera Blast|p1a: Toxtricity|[anim] Tera Blast Stellar
+|-damage|p1a: Toxtricity|0 fnt
+|-boost|p2a: Esmeralda|atk|1
+|-boost|p2a: Esmeralda|spa|1
+|faint|p1a: Toxtricity
+|
+|upkeep
+|
+|t:|1743846465
+|switch|p1a: Ninetales|Ninetales-Alola, F|71/100
+|-activate|p1a: Ninetales|move: Sticky Web
+|-unboost|p1a: Ninetales|spe|1
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|13
+|
+|t:|1743846468
+|move|p2a: Esmeralda|Tera Blast|p1a: Ninetales|[anim] Tera Blast Stellar
+|-damage|p1a: Ninetales|2/100
+|-boost|p2a: Esmeralda|atk|1
+|-boost|p2a: Esmeralda|spa|1
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Diarreia Mortal|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743846472
+|move|p2a: Esmeralda|Tera Blast|p1a: Ninetales|[anim] Tera Blast Stellar
+|-damage|p1a: Ninetales|0 fnt
+|-boost|p2a: Esmeralda|atk|1
+|-boost|p2a: Esmeralda|spa|1
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743846477
+|switch|p1a: Ditto|Ditto|57/100
+|-activate|p1a: Ditto|move: Sticky Web
+|-unboost|p1a: Ditto|spe|1
+|-transform|p1a: Ditto|p2a: Esmeralda|[from] ability: Imposter
+|-start|p1a: Ditto|typechange|Fairy/Flying|[silent]
+|turn|15
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RMB.mp4)
+|
+|t:|1743846500
+|move|p1a: Ditto|Moonblast|p2a: Esmeralda
+|-damage|p2a: Esmeralda|0 fnt
+|faint|p2a: Esmeralda
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743846505
+|switch|p2a: Michael|Gholdengo|100/100
+|-item|p2a: Michael|Air Balloon
+|turn|16
+|
+|t:|1743846511
+|move|p1a: Ditto|Moonblast|p2a: Michael
+|-resisted|p2a: Michael
+|-damage|p2a: Michael|33/100
+|-enditem|p2a: Michael|Air Balloon
+|move|p2a: Michael|Make It Rain|p1a: Ditto
+|-supereffective|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|-unboost|p2a: Michael|spa|1
+|faint|p1a: Ditto
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743846517
+|switch|p1a: Mew|Mew|100/100
+|-activate|p1a: Mew|move: Sticky Web
+|-unboost|p1a: Mew|spe|1
+|turn|17
+|
+|t:|1743846523
+|move|p2a: Michael|Shadow Ball|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|72/100
+|-enditem|p1a: Mew|Weakness Policy
+|-boost|p1a: Mew|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Mew|spa|2|[from] item: Weakness Policy
+|move|p1a: Mew|Dragon Dance|p1a: Mew
+|-boost|p1a: Mew|atk|1
+|-boost|p1a: Mew|spe|1
+|
+|-weather|none
+|upkeep
+|turn|18
+|
+|t:|1743846536
+|move|p2a: Michael|Shadow Ball|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|44/100
+|move|p1a: Mew|Dragon Dance|p1a: Mew
+|-boost|p1a: Mew|atk|1
+|-boost|p1a: Mew|spe|1
+|
+|upkeep
+|turn|19
+|
+|t:|1743846544
+|move|p1a: Mew|Earthquake|p2a: Michael
+|-supereffective|p2a: Michael
+|-damage|p2a: Michael|0 fnt
+|faint|p2a: Michael
+|
+|upkeep
+|
+|t:|1743846546
+|switch|p2a: Meloetta|Meloetta|100/100
+|turn|20
+|
+|t:|1743846555
+|-terastallize|p1a: Mew|Fighting
+|move|p1a: Mew|Drain Punch|p2a: Meloetta
+|-damage|p2a: Meloetta|0 fnt
+|-heal|p1a: Mew|95/100|[from] drain|[of] p2a: Meloetta
+|faint|p2a: Meloetta
+|
+|win|Diarreia Mortal
+|raw|Diarreia Mortal's rating: 1198 &rarr; <strong>1220</strong><br />(+22 for winning)
+|raw|RMB.mp4's rating: 1153 &rarr; <strong>1131</strong><br />(-22 for losing)
+|l|☆RMB.mp4
+|player|p2|
+|l|☆Diarreia Mortal
+|player|p1|

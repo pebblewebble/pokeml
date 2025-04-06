@@ -1,0 +1,285 @@
+|j|☆SahilChant
+|j|☆Reiiji
+|t:|1743832887
+|gametype|singles
+|player|p1|SahilChant|102|1189
+|player|p2|Reiiji|steven|1201
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blastoise, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Scizor, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Gengar, M|
+|poke|p2|Iron Moth|
+|poke|p2|Kommo-o, M|
+|poke|p2|Frosmoth, F|
+|poke|p2|Hydrapple, F|
+|poke|p2|Iron Boulder|
+|poke|p2|Samurott-Hisui, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SahilChant)
+|
+|t:|1743832896
+|start
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|switch|p2a: Hydrapple|Hydrapple, F, shiny|100/100
+|turn|1
+|
+|t:|1743832905
+|move|p1a: Blastoise|Shell Smash|p1a: Blastoise
+|-unboost|p1a: Blastoise|def|1
+|-unboost|p1a: Blastoise|spd|1
+|-boost|p1a: Blastoise|atk|2
+|-boost|p1a: Blastoise|spa|2
+|-boost|p1a: Blastoise|spe|2
+|-enditem|p1a: Blastoise|White Herb
+|-clearnegativeboost|p1a: Blastoise|[silent]
+|move|p2a: Hydrapple|Leaf Storm|p1a: Blastoise
+|-supereffective|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|-unboost|p2a: Hydrapple|spa|2
+|faint|p1a: Blastoise
+|
+|upkeep
+|
+|t:|1743832917
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Hydrapple|atk|1
+|turn|2
+|
+|t:|1743832922
+|move|p1a: Landorus|Stealth Rock|p2a: Hydrapple
+|-sidestart|p2: Reiiji|move: Stealth Rock
+|move|p2a: Hydrapple|Leaf Storm|p1a: Landorus
+|-damage|p1a: Landorus|35/100
+|-unboost|p2a: Hydrapple|spa|2
+|
+|upkeep
+|turn|3
+|
+|t:|1743832929
+|move|p1a: Landorus|U-turn|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|63/100
+|
+|t:|1743832935
+|switch|p1a: Scizor|Scizor, M, shiny|100/100|[from] U-turn
+|move|p2a: Hydrapple|Leaf Storm|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|90/100
+|-unboost|p2a: Hydrapple|spa|2
+|
+|upkeep
+|turn|4
+|
+|t:|1743832944
+|switch|p2a: Iron Moth|Iron Moth, shiny|100/100
+|-damage|p2a: Iron Moth|76/100|[from] Stealth Rock
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Scizor|Dual Wingbeat|p2a: Iron Moth
+|-damage|p2a: Iron Moth|33/100
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|-hitcount|p2: Iron Moth|2
+|
+|upkeep
+|
+|t:|1743832957
+|switch|p2a: Hydrapple|Hydrapple, F, shiny|97/100
+|-damage|p2a: Hydrapple|84/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1743832972
+|-terastallize|p2a: Hydrapple|Fire
+|move|p1a: Scizor|Dual Wingbeat|p2a: Hydrapple
+|-damage|p2a: Hydrapple|68/100
+|-damage|p2a: Hydrapple|51/100
+|-hitcount|p2a: Hydrapple|2
+|move|p2a: Hydrapple|Tera Blast|p1a: Scizor|[anim] Tera Blast Fire
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1743832985
+|switch|p1a: Landorus|Landorus-Therian, M|35/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Hydrapple|atk|1
+|turn|6
+|
+|t:|1743832991
+|move|p1a: Landorus|Earthquake|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|
+|upkeep
+|
+|t:|1743832996
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|-damage|p2a: Samurott|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1743833002
+|move|p2a: Samurott|Aqua Jet|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Samurott|71/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743833012
+|switch|p1a: Rotom|Rotom-Wash, shiny|100/100
+|turn|8
+|
+|t:|1743833020
+|move|p1a: Rotom|Trick|p2a: Samurott
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Samurott
+|-item|p2a: Samurott|Flame Orb|[from] move: Trick
+|-item|p1a: Rotom|Salac Berry|[from] move: Trick
+|move|p2a: Samurott|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|38/100
+|-enditem|p1a: Rotom|Salac Berry|[from] move: Knock Off|[of] p2a: Samurott
+|
+|-status|p2a: Samurott|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|t:|1743833032
+|move|p1a: Rotom|Discharge|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743833041
+|switch|p2a: Frosmoth|Frosmoth, F|100/100
+|turn|10
+|
+|t:|1743833051
+|move|p1a: Rotom|Discharge|p2a: Frosmoth
+|-damage|p2a: Frosmoth|78/100
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1743833067
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|move|p1a: Rotom|Trick|p2a: Frosmoth
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Frosmoth
+|-enditem|p2a: Frosmoth|Heavy-Duty Boots|[silent]|[from] move: Trick
+|-item|p1a: Rotom|Heavy-Duty Boots|[from] move: Trick
+|
+|upkeep
+|turn|12
+|
+|t:|1743833080
+|move|p2a: Frosmoth|Ice Beam|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1743833087
+|switch|p1a: Gengar|Gengar, M|100/100
+|-item|p1a: Gengar|Air Balloon
+|turn|13
+|
+|t:|1743833094
+|move|p2a: Frosmoth|Ice Beam|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-start|p2a: Frosmoth|Disable|Ice Beam|[from] ability: Cursed Body|[of] p1a: Gengar
+|-enditem|p1a: Gengar|Air Balloon
+|faint|p1a: Gengar
+|
+|upkeep
+|
+|t:|1743833102
+|switch|p1a: Dragapult|Dragapult, F, shiny|100/100
+|turn|14
+|
+|t:|1743833110
+|switch|p2a: Kommo-o|Kommo-o, M|100/100
+|-damage|p2a: Kommo-o|94/100|[from] Stealth Rock
+|-terastallize|p1a: Dragapult|Dragon
+|move|p1a: Dragapult|Draco Meteor|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|-enditem|p1a: Dragapult|White Herb
+|-clearnegativeboost|p1a: Dragapult|[silent]
+|faint|p2a: Kommo-o
+|
+|upkeep
+|
+|t:|1743833133
+|switch|p2a: Frosmoth|Frosmoth, F|78/100
+|-damage|p2a: Frosmoth|28/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743833138
+|move|p1a: Dragapult|Flamethrower|p2a: Frosmoth
+|-supereffective|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|faint|p2a: Frosmoth
+|
+|upkeep
+|
+|t:|1743833142
+|switch|p2a: Iron Boulder|Iron Boulder|100/100
+|-damage|p2a: Iron Boulder|88/100|[from] Stealth Rock
+|-enditem|p2a: Iron Boulder|Booster Energy
+|-activate|p2a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Boulder|quarkdrivespe
+|turn|16
+|
+|t:|1743833151
+|move|p2a: Iron Boulder|Mighty Cleave|p1a: Dragapult
+|-damage|p1a: Dragapult|36/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Iron Boulder
+|-supereffective|p2a: Iron Boulder
+|-damage|p2a: Iron Boulder|17/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743833159
+|move|p2a: Iron Boulder|Mighty Cleave|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|Reiiji
+|raw|SahilChant's rating: 1189 &rarr; <strong>1165</strong><br />(-24 for losing)
+|raw|Reiiji's rating: 1201 &rarr; <strong>1225</strong><br />(+24 for winning)
+|l|☆SahilChant
+|player|p1|
+|l|☆Reiiji
+|player|p2|

@@ -1,0 +1,364 @@
+|j|☆idkopkuntal
+|j|☆TriscutsAnon
+|t:|1743826789
+|gametype|singles
+|player|p1|idkopkuntal|102|1052
+|player|p2|TriscutsAnon|101|1065
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gholdengo|
+|poke|p1|Iron Valiant|
+|poke|p1|Great Tusk|
+|poke|p1|Dragapult, F|
+|poke|p1|Clodsire, M|
+|poke|p1|Kingambit, M|
+|poke|p2|Blissey, F|
+|poke|p2|Amoonguss, M|
+|poke|p2|Bronzong|
+|poke|p2|Gliscor, F|
+|poke|p2|Dondozo, M|
+|poke|p2|Alomomola, M|
+|teampreview
+|
+|t:|1743826808
+|start
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by idkopkuntal)
+|
+|t:|1743826845
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|move|p1a: Clodsire|Toxic|p2a: Dondozo
+|-status|p2a: Dondozo|tox
+|
+|-damage|p2a: Dondozo|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1743826863
+|move|p1a: Clodsire|Stealth Rock|p2a: Dondozo
+|-sidestart|p2: TriscutsAnon|move: Stealth Rock
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|3
+|
+|t:|1743826870
+|move|p1a: Clodsire|Earthquake|p2a: Dondozo
+|-damage|p2a: Dondozo|87/100 slp
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Curse|p2a: Dondozo|[from] move: Sleep Talk
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743826888
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Rest||[from] move: Sleep Talk|[still]
+|-fail|p2a: Dondozo
+|
+|upkeep
+|turn|5
+|
+|t:|1743826902
+|move|p1a: Iron Valiant|Close Combat|p2a: Dondozo
+|-damage|p2a: Dondozo|73/100 slp
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Avalanche|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|27/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743826914
+|move|p1a: Iron Valiant|Knock Off|p2a: Dondozo
+|-damage|p2a: Dondozo|65/100
+|-enditem|p2a: Dondozo|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Iron Valiant
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|7
+|
+|t:|1743826926
+|move|p1a: Iron Valiant|Spirit Break|p2a: Dondozo
+|-damage|p2a: Dondozo|92/100 slp
+|-unboost|p2a: Dondozo|spa|1
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Rest||[from] move: Sleep Talk|[still]
+|-fail|p2a: Dondozo
+|
+|upkeep
+|turn|8
+|
+|t:|1743826937
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Avalanche|p1a: Dragapult|[from] move: Sleep Talk
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|19/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743826949
+|move|p1a: Dragapult|Draco Meteor|p2a: Dondozo
+|-damage|p2a: Dondozo|17/100 slp
+|-unboost|p1a: Dragapult|spa|2
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Avalanche|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1743826953
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|10
+|
+|t:|1743826965
+|move|p1a: Gholdengo|Make It Rain|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Dondozo
+|
+|upkeep
+|
+|t:|1743826980
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1743826986
+|move|p1a: Gholdengo|Make It Rain|p2a: Gliscor
+|-damage|p2a: Gliscor|55/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2a: Gliscor|Spikes|p1a: Gholdengo
+|-sidestart|p1: idkopkuntal|Spikes
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|12
+|
+|t:|1743826996
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Gliscor|Spikes|p1a: Gholdengo
+|-sidestart|p1: idkopkuntal|Spikes
+|
+|-heal|p2a: Gliscor|67/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|t:|1743827005
+|move|p1a: Gholdengo|Make It Rain|p2a: Gliscor
+|-damage|p2a: Gliscor|18/100 tox
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2a: Gliscor|Spikes|p1a: Gholdengo
+|-sidestart|p1: idkopkuntal|Spikes
+|
+|-heal|p2a: Gliscor|30/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|t:|1743827015
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Gholdengo|Shadow Ball|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|43/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|t:|1743827026
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Gliscor|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|39/100
+|
+|-heal|p1a: Gholdengo|45/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|55/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|t:|1743827036
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Gholdengo|Make It Rain|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p1a: Gholdengo|51/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|68/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|
+|t:|1743827046
+|move|p1a: Gholdengo|Make It Rain|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Gliscor
+|
+|-heal|p1a: Gholdengo|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743827067
+|switch|p2a: Blissey|Blissey, F|100/100
+|turn|18
+|
+|t:|1743827075
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|-damage|p1a: Clodsire|75/100|[from] Spikes
+|move|p2a: Blissey|Flamethrower|p1a: Clodsire
+|-damage|p1a: Clodsire|66/100
+|
+|-heal|p1a: Clodsire|73/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743827091
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Clodsire|Toxic|p2a: Amoonguss
+|-immune|p2a: Amoonguss
+|
+|-heal|p1a: Clodsire|79/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|TriscutsAnon has 120 seconds left.
+|
+|t:|1743827109
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Clodsire|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|85/100
+|
+|-heal|p1a: Clodsire|85/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|TriscutsAnon has 120 seconds left.
+|
+|t:|1743827120
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Clodsire|Toxic|p2a: Alomomola
+|-status|p2a: Alomomola|tox
+|
+|-heal|p1a: Clodsire|91/100|[from] item: Leftovers
+|-damage|p2a: Alomomola|79/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1743827134
+|move|p2a: Alomomola|Flip Turn|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|56/100
+|
+|t:|1743827139
+|switch|p2a: Bronzong|Bronzong|100/100|[from] Flip Turn
+|-damage|p2a: Bronzong|94/100|[from] Stealth Rock
+|move|p1a: Clodsire|Earthquake|p2a: Bronzong
+|-immune|p2a: Bronzong|[from] ability: Levitate
+|
+|-heal|p2a: Bronzong|100/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Clodsire|62/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743827153
+|move|p2a: Bronzong|Stealth Rock|p1a: Clodsire
+|-sidestart|p1: idkopkuntal|move: Stealth Rock
+|move|p1a: Clodsire|Toxic|p2a: Bronzong
+|-immune|p2a: Bronzong
+|
+|-heal|p1a: Clodsire|69/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|TriscutsAnon has 120 seconds left.
+|
+|t:|1743827176
+|switch|p1a: Gholdengo|Gholdengo|57/100
+|-damage|p1a: Gholdengo|32/100|[from] Spikes
+|-damage|p1a: Gholdengo|26/100|[from] Stealth Rock
+|move|p2a: Bronzong|Body Press|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|-heal|p1a: Gholdengo|32/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|TriscutsAnon has 120 seconds left.
+|
+|t:|1743827191
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|82/100
+|
+|-heal|p1a: Gholdengo|88/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|TriscutsAnon has 120 seconds left.
+|
+|t:|1743827202
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|76/100|[from] Spikes
+|-damage|p1a: Great Tusk|73/100|[from] Stealth Rock
+|move|p2a: Blissey|Calm Mind|p2a: Blissey
+|-boost|p2a: Blissey|spa|1
+|-boost|p2a: Blissey|spd|1
+|
+|-heal|p1a: Great Tusk|79/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|TriscutsAnon has 120 seconds left.
+|l|☆TriscutsAnon
+|inactive|TriscutsAnon disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|TriscutsAnon has 30 seconds to reconnect!
+|inactive|TriscutsAnon has 20 seconds to reconnect!
+|inactive|TriscutsAnon has 15 seconds to reconnect!
+|inactive|TriscutsAnon has 10 seconds to reconnect!
+|inactive|TriscutsAnon has 5 seconds to reconnect!
+|-message|TriscutsAnon lost due to inactivity.
+|
+|win|idkopkuntal
+|raw|idkopkuntal's rating: 1052 &rarr; <strong>1085</strong><br />(+33 for winning)
+|raw|TriscutsAnon's rating: 1065 &rarr; <strong>1045</strong><br />(-20 for losing)
+|l|☆idkopkuntal
+|player|p1|
+|j|☆TriscutsAnon
+|player|p2|TriscutsAnon|101|
+|l|☆TriscutsAnon
+|player|p2|

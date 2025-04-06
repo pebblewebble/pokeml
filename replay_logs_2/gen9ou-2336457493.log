@@ -1,0 +1,305 @@
+|j|☆N_Alder
+|j|☆dia45
+|t:|1743920764
+|gametype|singles
+|player|p1|N_Alder|drayden|1505
+|player|p2|dia45|rancher|1460
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Valiant|
+|poke|p1|Samurott-Hisui, M|
+|poke|p2|Lokix, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Moltres|
+|poke|p2|Okidogi, M|
+|poke|p2|Enamorus, F|
+|poke|p2|Iron Treads|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dia45)
+|inactive|N_Alder also wants the timer to be on.
+|inactive|dia45 has 120 seconds left.
+|
+|t:|1743920819
+|start
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743920830
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|100/100
+|move|p2a: Slowking|Future Sight|p1a: Samurott
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|2
+|
+|t:|1743920841
+|switch|p2a: Okidogi|Okidogi, M|100/100
+|move|p1a: Samurott|Razor Shell|p2a: Okidogi
+|-damage|p2a: Okidogi|58/100
+|-unboost|p2a: Okidogi|def|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743920865
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Samurott|Razor Shell|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|20/100
+|-unboost|p2a: Slowking|def|1
+|
+|-end|p1a: Samurott|move: Future Sight
+|-immune|p1a: Samurott
+|upkeep
+|turn|4
+|
+|t:|1743920876
+|switch|p2a: Lokix|Lokix, F|100/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Lokix
+|-resisted|p2a: Lokix
+|-damage|p2a: Lokix|64/100
+|-sidestart|p2: dia45|Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1743920889
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|move|p2a: Lokix|First Impression|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|59/100
+|
+|-heal|p1a: Raging Bolt|65/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743920904
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|88/100|[from] Spikes
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Dragapult|Dragapult, F, shiny|100/100
+|
+|-heal|p2a: Iron Treads|94/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743920909
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Iron Treads|[miss]
+|-miss|p1a: Dragapult|p2a: Iron Treads
+|move|p2a: Iron Treads|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|40/100
+|
+|-heal|p1a: Dragapult|46/100|[from] item: Leftovers
+|-heal|p2a: Iron Treads|100/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743920922
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Iron Treads
+|-status|p2a: Iron Treads|brn
+|move|p2a: Iron Treads|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: N_Alder|move: Stealth Rock
+|
+|-heal|p1a: Dragapult|52/100|[from] item: Leftovers
+|-damage|p2a: Iron Treads|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743920927
+|move|p1a: Dragapult|Hex|p2a: Iron Treads
+|-damage|p2a: Iron Treads|15/100 brn
+|move|p2a: Iron Treads|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|23/100
+|
+|-heal|p1a: Dragapult|28/100|[from] item: Leftovers
+|-heal|p2a: Iron Treads|21/100 brn|[from] item: Leftovers
+|-damage|p2a: Iron Treads|15/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743920940
+|move|p1a: Dragapult|Hex|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p1a: Dragapult|34/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743920944
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|11
+|
+|t:|1743920953
+|switch|p1a: Cinderace|Cinderace, M, shiny|100/100
+|move|p2a: Enamorus|Earth Power|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|12/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743920959
+|move|p2a: Enamorus|Earth Power|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743920962
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|100/100
+|turn|13
+|
+|t:|1743920969
+|switch|p2a: Slowking|Slowking-Galar, F|54/100
+|move|p1a: Samurott|Razor Shell|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1743920972
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|14
+|l|☆N_Alder
+|inactive|N_Alder disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆N_Alder
+|inactive|N_Alder reconnected.
+|player|p1|N_Alder|drayden|
+|inactive|dia45 has 120 seconds left.
+|
+|t:|1743921015
+|-terastallize|p1a: Samurott|Poison
+|move|p2a: Enamorus|Earth Power|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1743921027
+|switch|p1a: Raging Bolt|Raging Bolt|65/100
+|-damage|p1a: Raging Bolt|53/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743921034
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|-heal|p1a: Raging Bolt|59/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743921042
+|move|p2a: Moltres|U-turn|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|47/100
+|
+|t:|1743921045
+|switch|p2a: Okidogi|Okidogi, M|58/100|[from] U-turn
+|-damage|p2a: Okidogi|45/100|[from] Spikes
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-heal|p1a: Raging Bolt|54/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743921050
+|move|p1a: Raging Bolt|Thunderclap|p2a: Okidogi
+|-damage|p2a: Okidogi|1/100
+|move|p2a: Okidogi|Drain Punch|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|19/100
+|-heal|p2a: Okidogi|21/100|[from] drain|[of] p1a: Raging Bolt
+|
+|-heal|p1a: Raging Bolt|25/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743921055
+|move|p2a: Okidogi|Drain Punch|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|-heal|p2a: Okidogi|36/100|[from] drain|[of] p1a: Raging Bolt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743921058
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|-damage|p1a: Iron Valiant|94/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743921064
+|move|p1a: Iron Valiant|Moonblast|p2a: Okidogi
+|-damage|p2a: Okidogi|2/100
+|-unboost|p2a: Okidogi|spa|1
+|move|p2a: Okidogi|Gunk Shot|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743921069
+|switch|p1a: Dragapult|Dragapult, F, shiny|34/100
+|-damage|p1a: Dragapult|22/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743921071
+|move|p1a: Dragapult|Hex|p2a: Okidogi
+|-damage|p2a: Okidogi|0 fnt
+|faint|p2a: Okidogi
+|
+|-heal|p1a: Dragapult|28/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743921081
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|21
+|
+|t:|1743921085
+|move|p2a: Enamorus|Earth Power|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1743921087
+|switch|p1a: Kingambit|Kingambit, F, shiny|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|22
+|-message|N_Alder forfeited.
+|
+|win|dia45
+|raw|N_Alder's rating: 1505 &rarr; <strong>1482</strong><br />(-23 for losing)
+|raw|dia45's rating: 1460 &rarr; <strong>1483</strong><br />(+23 for winning)
+|l|☆N_Alder
+|player|p1|
+|l|☆dia45
+|player|p2|

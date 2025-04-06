@@ -1,0 +1,401 @@
+|j|☆Violet1994
+|j|☆Desra75
+|t:|1743890115
+|gametype|singles
+|player|p1|Violet1994|cheryl|1126
+|player|p2|Desra75|102|1161
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Meganium, F|
+|poke|p1|Mienshao, M|
+|poke|p1|Gardevoir, F|
+|poke|p1|Milotic, F|
+|poke|p1|Chandelure, M|
+|poke|p1|Dragonite, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Valiant|
+|poke|p2|Zamazenta-*|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Violet1994)
+|
+|t:|1743890120
+|start
+|switch|p1a: Mienshao|Mienshao, M, shiny|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|t:|1743890125
+|move|p1a: Mienshao|Fake Out|p2a: Samurott
+|-damage|p2a: Samurott|84/100
+|cant|p2a: Samurott|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1743890130
+|move|p1a: Mienshao|Close Combat|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|-unboost|p1a: Mienshao|def|1
+|-unboost|p1a: Mienshao|spd|1
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743890135
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|3
+|
+|t:|1743890141
+|switch|p1a: Chandelure|Chandelure, M, shiny|100/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|76/100
+|-unboost|p1a: Chandelure|spa|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743890159
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Chandelure|atk|1
+|move|p1a: Chandelure|Trick Room|p1a: Chandelure
+|-fieldstart|move: Trick Room|[of] p1a: Chandelure
+|
+|upkeep
+|turn|5
+|
+|t:|1743890165
+|move|p1a: Chandelure|Shadow Ball|p2a: Landorus
+|-damage|p2a: Landorus|66/100
+|move|p2a: Landorus|Stealth Rock|p1a: Chandelure
+|-sidestart|p1: Violet1994|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1743890171
+|move|p1a: Chandelure|Energy Ball|p2a: Landorus
+|-damage|p2a: Landorus|40/100
+|move|p2a: Landorus|Earthquake|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|upkeep
+|
+|t:|1743890179
+|switch|p1a: Mienshao|Mienshao, M, shiny|100/100
+|-damage|p1a: Mienshao|95/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1743890185
+|move|p1a: Mienshao|Fake Out|p2a: Landorus
+|-damage|p2a: Landorus|26/100
+|-damage|p1a: Mienshao|78/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|cant|p2a: Landorus|flinch
+|
+|upkeep
+|turn|8
+|
+|t:|1743890189
+|move|p2a: Landorus|U-turn|p1a: Mienshao
+|-resisted|p1a: Mienshao
+|-damage|p1a: Mienshao|56/100
+|
+|t:|1743890195
+|switch|p2a: Iron Moth|Iron Moth|100/100|[from] U-turn
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Mienshao|Triple Axel|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|96/100
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|87/100
+|-resisted|p2a: Iron Moth
+|-crit|p2a: Iron Moth
+|-damage|p2a: Iron Moth|65/100
+|-hitcount|p2a: Iron Moth|3
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|t:|1743890202
+|move|p2a: Iron Moth|Psychic|p1a: Mienshao
+|-supereffective|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|faint|p1a: Mienshao
+|
+|upkeep
+|
+|t:|1743890209
+|switch|p1a: Dragonite|Dragonite, M, shiny|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743890218
+|-terastallize|p1a: Dragonite|Flying
+|move|p2a: Iron Moth|Sludge Wave|p1a: Dragonite
+|-damage|p1a: Dragonite|32/100
+|-status|p1a: Dragonite|psn
+|move|p1a: Dragonite|Tera Blast|p2a: Iron Moth|[anim] Tera Blast Flying
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-damage|p1a: Dragonite|20/100 psn|[from] psn
+|upkeep
+|
+|t:|1743890236
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|turn|11
+|
+|t:|1743890242
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1743890250
+|switch|p1a: Meganium|Meganium, F, shiny|100/100
+|-damage|p1a: Meganium|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1743890254
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Meganium|Swords Dance|p1a: Meganium
+|-boost|p1a: Meganium|atk|2
+|
+|upkeep
+|turn|13
+|
+|t:|1743890261
+|move|p2a: Iron Valiant|Moonblast|p1a: Meganium
+|-damage|p1a: Meganium|26/100
+|move|p1a: Meganium|Petal Blizzard|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743890264
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|14
+|
+|t:|1743890268
+|move|p2a: Zamazenta|Body Press|p1a: Meganium
+|-damage|p1a: Meganium|0 fnt
+|faint|p1a: Meganium
+|
+|upkeep
+|
+|t:|1743890270
+|switch|p1a: Gardevoir|Gardevoir, F, shiny|100/100
+|-damage|p1a: Gardevoir|88/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Dauntless Shield|boost
+|-boost|p1a: Gardevoir|def|1
+|-ability|p1a: Gardevoir|Dauntless Shield|[from] ability: Trace|[of] p2a: Zamazenta
+|turn|15
+|
+|t:|1743890275
+|move|p1a: Gardevoir|Moonblast|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|24/100
+|move|p2a: Zamazenta|Roar|p1a: Gardevoir
+|drag|p1a: Milotic|Milotic, F, shiny|100/100
+|-damage|p1a: Milotic|88/100|[from] Stealth Rock
+|
+|-heal|p2a: Zamazenta|30/100|[from] item: Leftovers
+|-heal|p1a: Milotic|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743890289
+|switch|p1a: Gardevoir|Gardevoir, F, shiny|88/100
+|-damage|p1a: Gardevoir|76/100|[from] Stealth Rock
+|-ability|p1a: Gardevoir|Dauntless Shield|[from] ability: Trace|[of] p2a: Zamazenta
+|move|p2a: Zamazenta|Body Press|p1a: Gardevoir
+|-resisted|p1a: Gardevoir
+|-damage|p1a: Gardevoir|58/100
+|
+|-heal|p2a: Zamazenta|37/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743890297
+|-terastallize|p2a: Zamazenta|Fire
+|move|p2a: Zamazenta|Crunch|p1a: Gardevoir
+|-crit|p1a: Gardevoir
+|-damage|p1a: Gardevoir|15/100
+|move|p1a: Gardevoir|Moonblast|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|14/100
+|
+|-heal|p2a: Zamazenta|20/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743890300
+|move|p2a: Zamazenta|Crunch|p1a: Gardevoir
+|-damage|p1a: Gardevoir|0 fnt
+|faint|p1a: Gardevoir
+|
+|-heal|p2a: Zamazenta|26/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743890302
+|switch|p1a: Milotic|Milotic, F, shiny|94/100
+|-damage|p1a: Milotic|82/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743890304
+|move|p2a: Zamazenta|Body Press|p1a: Milotic
+|-damage|p1a: Milotic|49/100
+|move|p1a: Milotic|Scald|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-heal|p1a: Milotic|55/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743890306
+|switch|p2a: Kingambit|Kingambit, M, shiny|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|20
+|
+|t:|1743890311
+|move|p1a: Milotic|Scald|p2a: Kingambit
+|-damage|p2a: Kingambit|73/100
+|-status|p2a: Kingambit|brn
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Milotic
+|-damage|p1a: Milotic|30/100
+|
+|-heal|p1a: Milotic|36/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|79/100 brn|[from] item: Leftovers
+|-damage|p2a: Kingambit|73/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1743890317
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|86/100
+|
+|-heal|p1a: Milotic|92/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|79/100 brn|[from] item: Leftovers
+|-damage|p2a: Kingambit|73/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1743890321
+|move|p1a: Milotic|Scald|p2a: Kingambit
+|-damage|p2a: Kingambit|43/100 brn
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p1a: Milotic|98/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|49/100 brn|[from] item: Leftovers
+|-damage|p2a: Kingambit|43/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1743890327
+|move|p1a: Milotic|Scald|p2a: Kingambit
+|-damage|p2a: Kingambit|14/100 brn
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Milotic
+|-damage|p1a: Milotic|44/100
+|
+|-heal|p1a: Milotic|50/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|21/100 brn|[from] item: Leftovers
+|-damage|p2a: Kingambit|14/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1743890332
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|99/100
+|
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|-heal|p2a: Kingambit|21/100 brn|[from] item: Leftovers
+|-damage|p2a: Kingambit|14/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1743890336
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Milotic|Haze|p1a: Milotic
+|-clearallboost
+|
+|-heal|p2a: Kingambit|21/100 brn|[from] item: Leftovers
+|-damage|p2a: Kingambit|14/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1743890338
+|move|p2a: Kingambit|Sucker Punch|p1a: Milotic
+|-damage|p1a: Milotic|80/100
+|move|p1a: Milotic|Scald|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|
+|-heal|p1a: Milotic|86/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743890340
+|switch|p2a: Landorus|Landorus-Therian, M|26/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Milotic|atk|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|turn|27
+|
+|t:|1743890345
+|move|p2a: Landorus|Earthquake|p1a: Milotic
+|-damage|p1a: Milotic|49/100
+|move|p1a: Milotic|Ice Beam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|win|Violet1994
+|raw|Violet1994's rating: 1126 &rarr; <strong>1154</strong><br />(+28 for winning)
+|raw|Desra75's rating: 1161 &rarr; <strong>1133</strong><br />(-28 for losing)
+|l|☆Desra75
+|player|p2|
+|l|☆Violet1994
+|player|p1|

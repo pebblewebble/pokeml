@@ -1,0 +1,350 @@
+|j|☆namiismywife
+|j|☆TheAverage1
+|t:|1743832786
+|gametype|singles
+|player|p1|namiismywife|rosa-pokestar|1201
+|player|p2|TheAverage1|camper|1231
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Serperior, M|
+|poke|p1|Gliscor, M|
+|poke|p1|Tinkaton, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Moltres|
+|poke|p1|Dragonite, M|
+|poke|p2|Ribombee, F|
+|poke|p2|Gholdengo|
+|poke|p2|Serperior, F|
+|poke|p2|Great Tusk|
+|poke|p2|Enamorus, F|
+|poke|p2|Glimmora, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TheAverage1)
+|
+|t:|1743832798
+|start
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-item|p1a: Tinkaton|Air Balloon
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|1
+|
+|t:|1743832825
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Great Tusk|Taunt|p1a: Gliscor
+|-start|p1a: Gliscor|move: Taunt
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743832840
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|switch|p1a: Moltres|Moltres|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743832847
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|move|p1a: Moltres|Flamethrower|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-crit|p2a: Glimmora
+|-damage|p2a: Glimmora|62/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743832853
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-item|p1a: Tinkaton|Air Balloon
+|move|p2a: Glimmora|Meteor Beam||[still]
+|-prepare|p2a: Glimmora|Meteor Beam
+|-boost|p2a: Glimmora|spa|1
+|-enditem|p2a: Glimmora|Power Herb
+|-anim|p2a: Glimmora|Meteor Beam|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|60/100
+|-enditem|p1a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|5
+|
+|t:|1743832864
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: namiismywife|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1743832873
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|6
+|
+|t:|1743832879
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Great Tusk|Taunt|p1a: Moltres
+|-start|p1a: Moltres|move: Taunt
+|
+|upkeep
+|turn|7
+|
+|t:|1743832889
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|move|p1a: Moltres|Flamethrower|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-crit|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743832897
+|move|p2a: Ribombee|Sticky Web|p1a: Moltres
+|-sidestart|p1: namiismywife|move: Sticky Web
+|move|p1a: Moltres|Flamethrower|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|-end|p1a: Moltres|move: Taunt
+|upkeep
+|
+|t:|1743832905
+|switch|p2a: Enamorus|Enamorus, F, shiny|100/100
+|turn|9
+|
+|t:|1743832912
+|switch|p1a: Tinkaton|Tinkaton, F|60/100
+|-activate|p1a: Tinkaton|move: Sticky Web
+|-unboost|p1a: Tinkaton|spe|1
+|-terastallize|p2a: Enamorus|Stellar
+|move|p2a: Enamorus|Tera Blast|p1a: Tinkaton|[anim] Tera Blast Stellar
+|-damage|p1a: Tinkaton|23/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|spa|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743832927
+|move|p2a: Enamorus|Tera Blast|p1a: Tinkaton|[anim] Tera Blast Stellar
+|-damage|p1a: Tinkaton|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|spa|1
+|faint|p1a: Tinkaton
+|
+|upkeep
+|inactive|namiismywife has 120 seconds left.
+|c|☆namiismywife|what type is that??
+|c|☆TheAverage1|stellar
+|c|☆namiismywife|the tera blast tho
+|inactive|namiismywife has 90 seconds left.
+|c|☆TheAverage1|ya works great with contrary
+|c|☆namiismywife|what type is the tera blast bro
+|inactive|namiismywife has 60 seconds left.
+|c|☆namiismywife|and I never seen tera blast lower your stats
+|
+|t:|1743833026
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|11
+|c|☆TheAverage1|Stellar Type bro
+|
+|t:|1743833034
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Extreme Speed|p2a: Enamorus
+|-damage|p2a: Enamorus|20/100
+|move|p2a: Enamorus|Tera Blast|p1a: Dragonite|[anim] Tera Blast Stellar
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|27/100
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|spa|1
+|
+|upkeep
+|turn|12
+|inactive|namiismywife has 60 seconds left.
+|c|☆namiismywife|how was that super effective
+|c|☆namiismywife|wtf is a stellar type
+|
+|t:|1743833051
+|move|p1a: Dragonite|Extreme Speed|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|upkeep
+|c|☆TheAverage1|its super effective against tera types only
+|
+|t:|1743833073
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|13
+|
+|t:|1743833081
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Gholdengo|Focus Blast|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|77/100
+|
+|upkeep
+|turn|14
+|c|☆namiismywife|so silly
+|
+|t:|1743833094
+|move|p2a: Gholdengo|Shadow Ball|p1a: Moltres
+|-damage|p1a: Moltres|29/100
+|move|p1a: Moltres|Flamethrower|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|17/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|15
+|inactive|namiismywife has 60 seconds left.
+|
+|t:|1743833121
+|move|p2a: Gholdengo|Shadow Ball|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|inactive|namiismywife has 60 seconds left.
+|
+|t:|1743833127
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-status|p1a: Zamazenta|psn
+|-activate|p1a: Zamazenta|move: Sticky Web
+|-unboost|p1a: Zamazenta|spe|1
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|16
+|
+|t:|1743833139
+|move|p1a: Zamazenta|Crunch|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-damage|p1a: Zamazenta|88/100 psn|[from] psn
+|upkeep
+|
+|t:|1743833146
+|switch|p2a: Serperior|Serperior, F|100/100
+|turn|17
+|
+|t:|1743833152
+|move|p2a: Serperior|Leaf Storm|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|30/100 psn
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Zamazenta|Body Press|p2a: Serperior
+|-damage|p2a: Serperior|41/100
+|
+|-heal|p2a: Serperior|47/100|[from] item: Leftovers
+|-heal|p1a: Zamazenta|36/100 psn|[from] item: Leftovers
+|-damage|p1a: Zamazenta|24/100 psn|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1743833163
+|move|p2a: Serperior|Leaf Storm|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Zamazenta
+|
+|-heal|p2a: Serperior|53/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743833166
+|switch|p1a: Dragonite|Dragonite, M, tera:Normal|27/100
+|turn|19
+|
+|t:|1743833177
+|move|p1a: Dragonite|Extreme Speed|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|upkeep
+|
+|t:|1743833181
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|20
+|
+|t:|1743833190
+|move|p1a: Dragonite|Extreme Speed|p2a: Great Tusk
+|-damage|p2a: Great Tusk|69/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1743833198
+|switch|p1a: Gliscor|Gliscor, M|100/100 tox
+|turn|21
+|
+|t:|1743833204
+|move|p2a: Great Tusk|Taunt|p1a: Gliscor
+|-start|p1a: Gliscor|move: Taunt
+|cant|p1a: Gliscor|move: Taunt|Toxic
+|
+|upkeep
+|turn|22
+|
+|t:|1743833209
+|move|p2a: Great Tusk|Rapid Spin|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|84/100 tox
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: Gliscor|Knock Off|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|62/100
+|
+|-heal|p1a: Gliscor|97/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|
+|t:|1743833224
+|move|p2a: Great Tusk|Close Combat|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|76/100 tox
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Gliscor|Knock Off|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|54/100
+|
+|-heal|p1a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|-end|p1a: Gliscor|move: Taunt
+|upkeep
+|turn|24
+|-message|TheAverage1 forfeited.
+|
+|win|namiismywife
+|raw|namiismywife's rating: 1201 &rarr; <strong>1228</strong><br />(+27 for winning)
+|raw|TheAverage1's rating: 1231 &rarr; <strong>1204</strong><br />(-27 for losing)
+|l|☆TheAverage1
+|player|p2|
+|l|☆namiismywife
+|player|p1|

@@ -1,0 +1,487 @@
+|j|☆Kanto's Finest
+|j|☆Diarreia Mortal
+|t:|1743805481
+|gametype|singles
+|player|p1|Kanto's Finest|tamer-gen1rb|1080
+|player|p2|Diarreia Mortal|fisherman-gen4|1127
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Clefable, F|
+|poke|p1|Golduck, M|
+|poke|p1|Chansey, F|
+|poke|p1|Vileplume, M|
+|poke|p1|Hitmonlee, M|
+|poke|p1|Jolteon, M|
+|poke|p2|Volbeat, M|
+|poke|p2|Mew|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Salamence, M|
+|poke|p2|Serperior, M|
+|teampreview
+|
+|t:|1743805502
+|start
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|switch|p2a: Serperior|Serperior, M|100/100
+|turn|1
+|
+|t:|1743805512
+|-terastallize|p1a: Jolteon|Ice
+|move|p1a: Jolteon|Tera Blast|p2a: Serperior|[anim] Tera Blast Ice
+|-damage|p2a: Serperior|33/100
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|move|p2a: Zoroark|Curse|p1a: Jolteon
+|-start|p1a: Jolteon|Curse|[of] p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|
+|-damage|p1a: Jolteon|75/100|[from] Curse
+|-status|p1a: Jolteon|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1743805522
+|switch|p2a: Volbeat|Volbeat, M|100/100
+|turn|2
+|
+|t:|1743805539
+|move|p1a: Jolteon|Volt Switch|p2a: Volbeat
+|-damage|p2a: Volbeat|72/100
+|
+|t:|1743805545
+|switch|p1a: FuckaDuck|Golduck, M, shiny|100/100|[from] Volt Switch
+|-ability|p1a: FuckaDuck|Cloud Nine
+|move|p2a: Volbeat|Seismic Toss|p1a: FuckaDuck
+|-damage|p1a: FuckaDuck|73/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743805552
+|move|p2a: Volbeat|Thunder Wave|p1a: FuckaDuck|[miss]
+|-miss|p2a: Volbeat|p1a: FuckaDuck
+|move|p1a: FuckaDuck|Disable|p2a: Volbeat
+|-start|p2a: Volbeat|Disable|Thunder Wave
+|
+|upkeep
+|turn|4
+|
+|t:|1743805558
+|move|p2a: Volbeat|Encore|p1a: FuckaDuck
+|-start|p1a: FuckaDuck|Encore
+|move|p1a: FuckaDuck|Disable||[still]
+|-fail|p1a: FuckaDuck
+|
+|upkeep
+|turn|5
+|
+|t:|1743805563
+|switch|p1a: Jolteon|Jolteon, M, tera:Ice|75/100 brn
+|move|p2a: Volbeat|Seismic Toss|p1a: Jolteon
+|-damage|p1a: Jolteon|39/100 brn
+|
+|-damage|p1a: Jolteon|32/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743805567
+|move|p1a: Jolteon|Tera Blast|p2a: Volbeat|[anim] Tera Blast Ice
+|-damage|p2a: Volbeat|40/100
+|move|p2a: Volbeat|Seismic Toss|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|upkeep
+|
+|t:|1743805572
+|switch|p1a: Strawberry F|Vileplume, M|100/100
+|turn|7
+|
+|t:|1743805577
+|move|p2a: Volbeat|Roost|p2a: Volbeat
+|-heal|p2a: Volbeat|90/100
+|-singleturn|p2a: Volbeat|move: Roost
+|move|p1a: Strawberry F|Leech Seed|p2a: Volbeat
+|-start|p2a: Volbeat|move: Leech Seed
+|
+|-damage|p2a: Volbeat|78/100|[from] Leech Seed|[of] p1a: Strawberry F
+|-end|p2a: Volbeat|Disable
+|upkeep
+|turn|8
+|
+|t:|1743805585
+|switch|p1a: The Eggman|Chansey, F|100/100
+|move|p2a: Volbeat|Thunder Wave|p1a: The Eggman
+|-status|p1a: The Eggman|par
+|
+|-damage|p2a: Volbeat|65/100|[from] Leech Seed|[of] p1a: The Eggman
+|upkeep
+|turn|9
+|
+|t:|1743805593
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|cant|p1a: The Eggman|par
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743805601
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: Diarreia Mortal|move: Aurora Veil
+|move|p1a: The Eggman|Stealth Rock|p2a: Ninetales
+|-sidestart|p2: Diarreia Mortal|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743805607
+|move|p2a: Ninetales|Encore|p1a: The Eggman
+|-start|p1a: The Eggman|Encore
+|move|p1a: The Eggman|Stealth Rock||[still]
+|-fail|p1a: The Eggman
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743805613
+|-curestatus|p1a: The Eggman|par|[from] ability: Natural Cure
+|switch|p1a: Sgt Pep pep|Hitmonlee, M|100/100
+|move|p2a: Ninetales|Blizzard|p1a: Sgt Pep pep
+|-damage|p1a: Sgt Pep pep|53/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743805620
+|move|p1a: Sgt Pep pep|Fake Out|p2a: Ninetales
+|-enditem|p1a: Sgt Pep pep|Normal Gem|[from] gem
+|-damage|p2a: Ninetales|91/100
+|cant|p2a: Ninetales|flinch
+|
+|-weather|none
+|upkeep
+|turn|14
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Kanto's Finest)
+|
+|t:|1743805622
+|move|p1a: Sgt Pep pep|High Jump Kick|p2a: Ninetales
+|-damage|p2a: Ninetales|36/100
+|move|p2a: Ninetales|Draining Kiss|p1a: Sgt Pep pep
+|-supereffective|p1a: Sgt Pep pep
+|-damage|p1a: Sgt Pep pep|13/100
+|-heal|p2a: Ninetales|68/100|[from] drain|[of] p1a: Sgt Pep pep
+|
+|upkeep
+|turn|15
+|
+|t:|1743805632
+|move|p1a: Sgt Pep pep|High Jump Kick|p2a: Ninetales
+|-damage|p2a: Ninetales|11/100
+|move|p2a: Ninetales|Draining Kiss|p1a: Sgt Pep pep
+|-supereffective|p1a: Sgt Pep pep
+|-crit|p1a: Sgt Pep pep
+|-damage|p1a: Sgt Pep pep|0 fnt
+|-heal|p2a: Ninetales|20/100|[from] drain|[of] p1a: Sgt Pep pep
+|faint|p1a: Sgt Pep pep
+|
+|upkeep
+|
+|t:|1743805641
+|switch|p1a: Mr. Moonlight|Clefable, F|100/100
+|turn|16
+|
+|t:|1743805647
+|switch|p2a: Volbeat|Volbeat, M|65/100
+|move|p1a: Mr. Moonlight|Cosmic Power|p1a: Mr. Moonlight
+|-boost|p1a: Mr. Moonlight|def|1
+|-boost|p1a: Mr. Moonlight|spd|1
+|
+|upkeep
+|turn|17
+|
+|t:|1743805653
+|switch|p1a: The Eggman|Chansey, F|100/100
+|move|p2a: Volbeat|Encore||[still]
+|-fail|p2a: Volbeat
+|
+|-sideend|p2: Diarreia Mortal|move: Aurora Veil
+|upkeep
+|turn|18
+|
+|t:|1743805657
+|move|p2a: Volbeat|Thunder Wave|p1a: The Eggman
+|-status|p1a: The Eggman|par
+|move|p1a: The Eggman|Seismic Toss|p2a: Volbeat
+|-damage|p2a: Volbeat|36/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743805664
+|move|p2a: Volbeat|Roost|p2a: Volbeat
+|-heal|p2a: Volbeat|86/100
+|-singleturn|p2a: Volbeat|move: Roost
+|move|p1a: The Eggman|Seismic Toss|p2a: Volbeat
+|-damage|p2a: Volbeat|56/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743805674
+|switch|p2a: Ninetales|Ninetales-Alola, F|20/100
+|-damage|p2a: Ninetales|0 fnt|[from] Stealth Rock
+|faint|p2a: Ninetales
+|cant|p1a: The Eggman|par
+|
+|upkeep
+|
+|t:|1743805686
+|switch|p2a: Mew|Mew|100/100
+|-damage|p2a: Mew|88/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1743805692
+|-curestatus|p1a: The Eggman|par|[from] ability: Natural Cure
+|switch|p1a: FuckaDuck|Golduck, M, shiny|73/100
+|-ability|p1a: FuckaDuck|Cloud Nine
+|move|p2a: Mew|Dragon Dance|p2a: Mew
+|-boost|p2a: Mew|atk|1
+|-boost|p2a: Mew|spe|1
+|
+|upkeep
+|turn|22
+|
+|t:|1743805701
+|move|p2a: Mew|Dragon Dance|p2a: Mew
+|-boost|p2a: Mew|atk|1
+|-boost|p2a: Mew|spe|1
+|move|p1a: FuckaDuck|Encore|p2a: Mew
+|-start|p2a: Mew|Encore
+|
+|upkeep
+|turn|23
+|
+|t:|1743805708
+|switch|p2a: Volbeat|Volbeat, M|56/100
+|move|p1a: FuckaDuck|Whirlpool|p2a: Volbeat|[miss]
+|-miss|p1a: FuckaDuck|p2a: Volbeat
+|
+|upkeep
+|turn|24
+|
+|t:|1743805717
+|move|p2a: Volbeat|Thunder Wave|p1a: FuckaDuck|[miss]
+|-miss|p2a: Volbeat|p1a: FuckaDuck
+|move|p1a: FuckaDuck|Whirlpool|p2a: Volbeat
+|-damage|p2a: Volbeat|46/100
+|-activate|p2a: Volbeat|move: Whirlpool|[of] p1a: FuckaDuck
+|
+|-damage|p2a: Volbeat|34/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|25
+|
+|t:|1743805725
+|move|p1a: FuckaDuck|Protect|p1a: FuckaDuck
+|-singleturn|p1a: FuckaDuck|Protect
+|move|p2a: Volbeat|Thunder Wave|p1a: FuckaDuck
+|-activate|p1a: FuckaDuck|move: Protect
+|
+|-damage|p2a: Volbeat|22/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|26
+|
+|t:|1743805732
+|move|p2a: Volbeat|Encore|p1a: FuckaDuck
+|-start|p1a: FuckaDuck|Encore
+|move|p1a: FuckaDuck|Protect||[still]
+|-fail|p1a: FuckaDuck
+|
+|-damage|p2a: Volbeat|9/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|27
+|
+|t:|1743805745
+|switch|p1a: The Eggman|Chansey, F|100/100
+|move|p2a: Volbeat|Roost|p2a: Volbeat
+|-heal|p2a: Volbeat|59/100
+|-singleturn|p2a: Volbeat|move: Roost
+|
+|-end|p2a: Volbeat|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|28
+|inactive|Kanto's Finest has 120 seconds left.
+|
+|t:|1743805776
+|move|p2a: Volbeat|Roost|p2a: Volbeat
+|-heal|p2a: Volbeat|100/100
+|-singleturn|p2a: Volbeat|move: Roost
+|move|p1a: The Eggman|Seismic Toss|p2a: Volbeat
+|-damage|p2a: Volbeat|71/100
+|
+|upkeep
+|turn|29
+|
+|t:|1743805790
+|switch|p2a: Serperior|Serperior, M|100/100
+|-damage|p2a: Serperior|88/100|[from] Stealth Rock
+|move|p1a: The Eggman|Seismic Toss|p2a: Serperior
+|-damage|p2a: Serperior|54/100
+|
+|-heal|p2a: Serperior|60/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|Kanto's Finest has 120 seconds left.
+|
+|t:|1743805811
+|switch|p1a: Mr. Moonlight|Clefable, F|100/100
+|move|p2a: Serperior|Leaf Storm|p1a: Mr. Moonlight
+|-damage|p1a: Mr. Moonlight|60/100
+|-boost|p2a: Serperior|spa|2
+|
+|-heal|p2a: Serperior|66/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1743805820
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|41/100
+|move|p1a: Mr. Moonlight|Cosmic Power|p1a: Mr. Moonlight
+|-boost|p1a: Mr. Moonlight|def|1
+|-boost|p1a: Mr. Moonlight|spd|1
+|
+|-heal|p2a: Serperior|48/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1743805829
+|move|p2a: Serperior|Taunt|p1a: Mr. Moonlight
+|-start|p1a: Mr. Moonlight|move: Taunt
+|cant|p1a: Mr. Moonlight|move: Taunt|Moonlight
+|
+|-heal|p2a: Serperior|54/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1743805831
+|move|p2a: Serperior|Leaf Storm|p1a: Mr. Moonlight|[miss]
+|-miss|p2a: Serperior|p1a: Mr. Moonlight
+|move|p1a: Mr. Moonlight|Flamethrower|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|
+|-heal|p2a: Serperior|60/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1743805837
+|move|p2a: Serperior|Leaf Storm|p1a: Mr. Moonlight
+|-damage|p1a: Mr. Moonlight|33/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Mr. Moonlight|Flamethrower|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|13/100
+|
+|-heal|p2a: Serperior|19/100|[from] item: Leftovers
+|-end|p1a: Mr. Moonlight|move: Taunt
+|upkeep
+|turn|35
+|
+|t:|1743805856
+|move|p2a: Serperior|Leaf Storm|p1a: Mr. Moonlight
+|-damage|p1a: Mr. Moonlight|7/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Mr. Moonlight|Flamethrower|p2a: Serperior
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|faint|p2a: Serperior
+|
+|upkeep
+|
+|t:|1743805867
+|switch|p2a: Salamence|Salamence, M|100/100
+|-damage|p2a: Salamence|76/100|[from] Stealth Rock
+|turn|36
+|
+|t:|1743805872
+|switch|p1a: Strawberry F|Vileplume, M|100/100
+|move|p2a: Salamence|Earthquake|p1a: Strawberry F
+|-damage|p1a: Strawberry F|72/100
+|
+|upkeep
+|turn|37
+|
+|t:|1743805879
+|move|p2a: Salamence|Dual Wingbeat|p1a: Strawberry F
+|-supereffective|p1a: Strawberry F
+|-damage|p1a: Strawberry F|34/100
+|-damage|p2a: Salamence|59/100|[from] item: Rocky Helmet|[of] p1a: Strawberry F
+|-supereffective|p1a: Strawberry F
+|-damage|p1a: Strawberry F|0 fnt
+|-damage|p2a: Salamence|42/100|[from] item: Rocky Helmet|[of] p1a: Strawberry F
+|faint|p1a: Strawberry F
+|-ability|p2a: Salamence|Moxie|boost
+|-boost|p2a: Salamence|atk|1
+|-hitcount|p1: Strawberry F|2
+|
+|upkeep
+|
+|t:|1743805907
+|switch|p1a: The Eggman|Chansey, F|100/100
+|turn|38
+|inactive|Kanto's Finest has 120 seconds left.
+|
+|t:|1743805933
+|move|p2a: Salamence|Dragon Claw|p1a: The Eggman
+|-damage|p1a: The Eggman|56/100
+|move|p1a: The Eggman|Seismic Toss|p2a: Salamence
+|-damage|p2a: Salamence|12/100
+|
+|upkeep
+|turn|39
+|
+|t:|1743805950
+|move|p2a: Salamence|Dual Wingbeat|p1a: The Eggman
+|-damage|p1a: The Eggman|32/100
+|-damage|p1a: The Eggman|8/100
+|-hitcount|p1a: The Eggman|2
+|move|p1a: The Eggman|Seismic Toss|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|
+|upkeep
+|
+|t:|1743805964
+|switch|p2a: Volbeat|Volbeat, M|71/100
+|turn|40
+|inactive|Kanto's Finest has 90 seconds left.
+|inactive|Kanto's Finest has 60 seconds left.
+|inactive|Kanto's Finest has 30 seconds left.
+|inactive|Kanto's Finest has 20 seconds left.
+|inactive|Kanto's Finest has 15 seconds left.
+|inactive|Kanto's Finest has 10 seconds left.
+|inactive|Kanto's Finest has 5 seconds left.
+|-message|Kanto's Finest lost due to inactivity.
+|
+|win|Diarreia Mortal
+|raw|Kanto&apos;s Finest's rating: 1080 &rarr; <strong>1061</strong><br />(-19 for losing)
+|raw|Diarreia Mortal's rating: 1127 &rarr; <strong>1149</strong><br />(+22 for winning)
+|l|☆Diarreia Mortal
+|player|p2|

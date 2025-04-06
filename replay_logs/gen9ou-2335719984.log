@@ -1,0 +1,351 @@
+|j|☆FireBro11
+|j|☆Papa Criv
+|t:|1743825764
+|gametype|singles
+|player|p1|FireBro11|265|1098
+|player|p2|Papa Criv|acetrainer-gen4dp|1154
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, M|
+|poke|p1|Great Tusk|
+|poke|p1|Raikou|
+|poke|p1|Terrakion|
+|poke|p1|Amoonguss, M|
+|poke|p1|Greninja-*, M|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Alomomola, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Pecharunt|
+|poke|p2|Gholdengo|
+|poke|p2|Glimmora, F|
+|teampreview
+|
+|t:|1743825771
+|start
+|switch|p1a: Sir Tusk|Great Tusk|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1743825790
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Sir Tusk|Close Combat|p2a: Pecharunt
+|-immune|p2a: Pecharunt
+|
+|upkeep
+|turn|2
+|
+|t:|1743825814
+|move|p2a: Pecharunt|Malignant Chain|p1a: Sir Tusk
+|-resisted|p1a: Sir Tusk
+|-damage|p1a: Sir Tusk|78/100
+|-status|p1a: Sir Tusk|tox
+|-start|p1a: Sir Tusk|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|-activate|p1a: Sir Tusk|confusion
+|move|p1a: Sir Tusk|Headlong Rush|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|21/100
+|-unboost|p1a: Sir Tusk|def|1
+|-unboost|p1a: Sir Tusk|spd|1
+|
+|-damage|p1a: Sir Tusk|72/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1743825837
+|-end|p1a: Sir Tusk|Protosynthesis|[silent]
+|switch|p1a: Amongus|Amoonguss, M|100/100
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|71/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743825847
+|move|p2a: Pecharunt|Parting Shot|p1a: Amongus
+|-unboost|p1a: Amongus|atk|1
+|-unboost|p1a: Amongus|spa|1
+|
+|t:|1743825853
+|switch|p2a: Ting-Lu|Ting-Lu|100/100|[from] Parting Shot
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Amongus|Hex|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|99/100
+|
+|-heal|p2a: Ting-Lu|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743825874
+|move|p2a: Ting-Lu|Spikes|p1a: Amongus
+|-sidestart|p1: FireBro11|Spikes
+|move|p1a: Amongus|Toxic|p2a: Ting-Lu
+|-status|p2a: Ting-Lu|tox
+|
+|-damage|p2a: Ting-Lu|94/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743825891
+|switch|p1a: The Franchise|Greninja, M|100/100
+|-damage|p1a: The Franchise|88/100|[from] Spikes
+|move|p2a: Ting-Lu|Spikes|p1a: The Franchise
+|-sidestart|p1: FireBro11|Spikes
+|
+|-heal|p2a: Ting-Lu|100/100 tox|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|88/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743825902
+|switch|p2a: Heavy Weather|Goodra-Hisui, M, shiny|100/100
+|move|p1a: The Franchise|Ice Beam|p2a: Heavy Weather
+|-damage|p2a: Heavy Weather|85/100
+|-damage|p1a: The Franchise|78/100|[from] item: Life Orb
+|
+|-heal|p2a: Heavy Weather|91/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743825915
+|switch|p1a: Sir Tusk|Great Tusk|72/100 tox
+|-damage|p1a: Sir Tusk|55/100 tox|[from] Spikes
+|move|p2a: Heavy Weather|Substitute|p2a: Heavy Weather
+|-start|p2a: Heavy Weather|Substitute
+|-damage|p2a: Heavy Weather|66/100
+|
+|-heal|p2a: Heavy Weather|72/100|[from] item: Leftovers
+|-damage|p1a: Sir Tusk|49/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743825924
+|-terastallize|p2a: Heavy Weather|Ghost
+|move|p1a: Sir Tusk|Rapid Spin|p2a: Heavy Weather
+|-immune|p2a: Heavy Weather
+|move|p2a: Heavy Weather|Acid Armor|p2a: Heavy Weather
+|-boost|p2a: Heavy Weather|def|2
+|
+|-heal|p2a: Heavy Weather|78/100|[from] item: Leftovers
+|-damage|p1a: Sir Tusk|37/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743825937
+|move|p1a: Sir Tusk|Headlong Rush|p2a: Heavy Weather
+|-end|p2a: Heavy Weather|Substitute
+|-unboost|p1a: Sir Tusk|def|1
+|-unboost|p1a: Sir Tusk|spd|1
+|move|p2a: Heavy Weather|Acid Armor|p2a: Heavy Weather
+|-boost|p2a: Heavy Weather|def|2
+|
+|-heal|p2a: Heavy Weather|84/100|[from] item: Leftovers
+|-damage|p1a: Sir Tusk|18/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743825948
+|-end|p1a: Sir Tusk|Protosynthesis|[silent]
+|switch|p1a: Amongus|Amoonguss, M|100/100
+|-damage|p1a: Amongus|84/100|[from] Spikes
+|move|p2a: Heavy Weather|Substitute|p2a: Heavy Weather
+|-start|p2a: Heavy Weather|Substitute
+|-damage|p2a: Heavy Weather|59/100
+|
+|-heal|p2a: Heavy Weather|65/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743825955
+|move|p2a: Heavy Weather|Acid Armor|p2a: Heavy Weather
+|-boost|p2a: Heavy Weather|def|2
+|move|p1a: Amongus|Clear Smog|p2a: Heavy Weather
+|-resisted|p2a: Heavy Weather
+|-activate|p2a: Heavy Weather|move: Substitute|[damage]
+|
+|-heal|p2a: Heavy Weather|71/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743825975
+|move|p1a: Amongus|Giga Drain|p2a: Heavy Weather
+|-ability|p2a: Heavy Weather|Sap Sipper|boost
+|-boost|p2a: Heavy Weather|atk|1
+|move|p2a: Heavy Weather|Dragon Tail|p1a: Amongus
+|-damage|p1a: Amongus|59/100
+|-damage|p2a: Heavy Weather|54/100|[from] item: Rocky Helmet|[of] p1a: Amongus
+|drag|p1a: Sir Tusk|Great Tusk|18/100 tox
+|-damage|p1a: Sir Tusk|2/100 tox|[from] Spikes
+|
+|-heal|p2a: Heavy Weather|60/100|[from] item: Leftovers
+|-damage|p1a: Sir Tusk|0 fnt|[from] psn
+|faint|p1a: Sir Tusk
+|-end|p1a: Sir Tusk|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1743825990
+|switch|p1a: The Franchise|Greninja, M|78/100
+|-damage|p1a: The Franchise|62/100|[from] Spikes
+|turn|14
+|
+|t:|1743826012
+|move|p1a: The Franchise|Dark Pulse|p2a: Heavy Weather
+|-supereffective|p2a: Heavy Weather
+|-end|p2a: Heavy Weather|Substitute
+|-damage|p1a: The Franchise|52/100|[from] item: Life Orb
+|move|p2a: Heavy Weather|Body Press|p1a: The Franchise
+|-supereffective|p1a: The Franchise
+|-damage|p1a: The Franchise|0 fnt
+|faint|p1a: The Franchise
+|
+|-heal|p2a: Heavy Weather|66/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743826023
+|switch|p1a: Gambino|Kingambit, M|100/100
+|-damage|p1a: Gambino|84/100|[from] Spikes
+|-activate|p1a: Gambino|ability: Supreme Overlord
+|-start|p1a: Gambino|fallen2|[silent]
+|turn|15
+|
+|t:|1743826032
+|move|p1a: Gambino|Kowtow Cleave|p2a: Heavy Weather
+|-supereffective|p2a: Heavy Weather
+|-damage|p2a: Heavy Weather|33/100
+|move|p2a: Heavy Weather|Body Press|p1a: Gambino
+|-supereffective|p1a: Gambino
+|-damage|p1a: Gambino|0 fnt
+|faint|p1a: Gambino
+|-end|p1a: Gambino|fallen2|[silent]
+|
+|-heal|p2a: Heavy Weather|39/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743826042
+|switch|p1a: Amongus|Amoonguss, M|92/100
+|-damage|p1a: Amongus|75/100|[from] Spikes
+|turn|16
+|
+|t:|1743826050
+|move|p2a: Heavy Weather|Substitute|p2a: Heavy Weather
+|-start|p2a: Heavy Weather|Substitute
+|-damage|p2a: Heavy Weather|14/100
+|move|p1a: Amongus|Clear Smog|p2a: Heavy Weather
+|-resisted|p2a: Heavy Weather
+|-activate|p2a: Heavy Weather|move: Substitute|[damage]
+|
+|-heal|p2a: Heavy Weather|20/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743826060
+|move|p1a: Amongus|Giga Drain|p2a: Heavy Weather
+|-ability|p2a: Heavy Weather|Sap Sipper|boost
+|-boost|p2a: Heavy Weather|atk|1
+|move|p2a: Heavy Weather|Dragon Tail|p1a: Amongus
+|-crit|p1a: Amongus
+|-damage|p1a: Amongus|26/100
+|-damage|p2a: Heavy Weather|4/100|[from] item: Rocky Helmet|[of] p1a: Amongus
+|drag|p1a: Bossman TK|Terrakion|100/100
+|-damage|p1a: Bossman TK|84/100|[from] Spikes
+|
+|-heal|p2a: Heavy Weather|10/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743826079
+|move|p1a: Bossman TK|Quick Attack|p2a: Heavy Weather
+|-immune|p2a: Heavy Weather
+|move|p2a: Heavy Weather|Body Press|p1a: Bossman TK
+|-supereffective|p1a: Bossman TK
+|-damage|p1a: Bossman TK|0 fnt
+|faint|p1a: Bossman TK
+|
+|-heal|p2a: Heavy Weather|16/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743826100
+|switch|p1a: Amongus|Amoonguss, M|59/100
+|-damage|p1a: Amongus|43/100|[from] Spikes
+|turn|19
+|
+|t:|1743826120
+|move|p2a: Heavy Weather|Body Press|p1a: Amongus
+|-resisted|p1a: Amongus
+|-damage|p1a: Amongus|13/100
+|-damage|p2a: Heavy Weather|0 fnt|[from] item: Rocky Helmet|[of] p1a: Amongus
+|faint|p2a: Heavy Weather
+|move|p1a: Amongus|Clear Smog|p2: Heavy Weather|[notarget]
+|-fail|p1a: Amongus
+|
+|upkeep
+|
+|t:|1743826130
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|20
+|
+|t:|1743826143
+|move|p2a: Glimmora|Acid Spray|p1a: Amongus
+|-damage|p1a: Amongus|0 fnt
+|faint|p1a: Amongus
+|
+|upkeep
+|
+|t:|1743826147
+|switch|p1a: Ra|Raikou|100/100
+|-damage|p1a: Ra|84/100|[from] Spikes
+|-ability|p1a: Ra|Pressure
+|turn|21
+|
+|t:|1743826153
+|move|p1a: Ra|Extrasensory|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|35/100
+|move|p2a: Glimmora|Acid Spray|p1a: Ra
+|-damage|p1a: Ra|62/100
+|-unboost|p1a: Ra|spd|2
+|
+|-heal|p1a: Ra|68/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743826161
+|switch|p2a: Ting-Lu|Ting-Lu|88/100 tox
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Ra|Extrasensory|p2a: Ting-Lu
+|-immune|p2a: Ting-Lu
+|
+|-heal|p1a: Ra|75/100|[from] item: Leftovers
+|-heal|p2a: Ting-Lu|94/100 tox|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|88/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1743826171
+|move|p1a: Ra|Aura Sphere|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|65/100 tox
+|move|p2a: Ting-Lu|Earthquake|p1a: Ra
+|-supereffective|p1a: Ra
+|-damage|p1a: Ra|0 fnt
+|faint|p1a: Ra
+|
+|win|Papa Criv
+|raw|FireBro11's rating: 1098 &rarr; <strong>1077</strong><br />(-21 for losing)
+|raw|Papa Criv's rating: 1154 &rarr; <strong>1175</strong><br />(+21 for winning)
+|l|☆Papa Criv
+|player|p2|
+|l|☆FireBro11
+|player|p1|

@@ -1,0 +1,392 @@
+|j|☆afroier
+|j|☆ner555
+|t:|1743937381
+|gametype|singles
+|player|p1|afroier|1|1063
+|player|p2|ner555|169|1066
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Venomoth, M|
+|poke|p1|Klefki, F|
+|poke|p1|Electivire, M|
+|poke|p1|Raikou|
+|poke|p1|Regigigas|
+|poke|p1|Ribombee, M|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Darkrai|
+|poke|p2|Glastrier|
+|poke|p2|Ribombee, M|
+|poke|p2|Bastiodon, F|
+|poke|p2|Sneasel-Hisui, F|
+|teampreview
+|
+|t:|1743937396
+|start
+|switch|p1a: Klefki|Klefki, F|100/100
+|switch|p2a: Sneasel|Sneasel-Hisui, F|100/100
+|-item|p1a: Klefki|Air Balloon
+|turn|1
+|
+|t:|1743937403
+|move|p1a: Klefki|Spikes|p2a: Sneasel
+|-sidestart|p2: ner555|Spikes
+|move|p2a: Sneasel|Toxic Spikes|p1a: Klefki
+|-sidestart|p1: afroier|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1743937413
+|move|p1a: Klefki|Spikes|p2a: Sneasel
+|-sidestart|p2: ner555|Spikes
+|move|p2a: Sneasel|Bulk Up|p2a: Sneasel
+|-boost|p2a: Sneasel|atk|1
+|-boost|p2a: Sneasel|def|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743937428
+|move|p1a: Klefki|Spikes|p2a: Sneasel
+|-sidestart|p2: ner555|Spikes
+|move|p2a: Sneasel|Toxic Spikes|p1a: Klefki
+|-sidestart|p1: afroier|move: Toxic Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1743937439
+|switch|p1a: Venomoth|Venomoth, M|100/100
+|-sideend|p1: afroier|move: Toxic Spikes|[of] p1a: Venomoth
+|move|p2a: Sneasel|Toxic Spikes|p1a: Venomoth
+|-sidestart|p1: afroier|move: Toxic Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1743937480
+|switch|p1a: Klefki|Klefki, F|100/100
+|-item|p1a: Klefki|Air Balloon
+|move|p2a: Sneasel|Toxic Spikes|p1a: Klefki
+|-sidestart|p1: afroier|move: Toxic Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1743937530
+|switch|p1a: Regigigas|Regigigas|100/100
+|-status|p1a: Regigigas|tox
+|-start|p1a: Regigigas|ability: Slow Start
+|move|p2a: Sneasel|Bulk Up|p2a: Sneasel
+|-boost|p2a: Sneasel|atk|1
+|-boost|p2a: Sneasel|def|1
+|
+|-damage|p1a: Regigigas|94/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743937542
+|move|p2a: Sneasel|Bulk Up|p2a: Sneasel
+|-boost|p2a: Sneasel|atk|1
+|-boost|p2a: Sneasel|def|1
+|move|p1a: Regigigas|Knock Off|p2a: Sneasel
+|-resisted|p2a: Sneasel
+|-damage|p2a: Sneasel|93/100
+|-enditem|p2a: Sneasel|Focus Sash|[from] move: Knock Off|[of] p1a: Regigigas
+|
+|-damage|p1a: Regigigas|82/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743937561
+|move|p2a: Sneasel|Bulk Up|p2a: Sneasel
+|-boost|p2a: Sneasel|atk|1
+|-boost|p2a: Sneasel|def|1
+|move|p1a: Regigigas|Drain Punch|p2a: Sneasel
+|-resisted|p2a: Sneasel
+|-damage|p2a: Sneasel|88/100
+|-heal|p1a: Regigigas|84/100 tox|[from] drain|[of] p2a: Sneasel
+|
+|-damage|p1a: Regigigas|65/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743937575
+|move|p1a: Regigigas|Protect|p1a: Regigigas
+|-singleturn|p1a: Regigigas|Protect
+|move|p2a: Sneasel|Gunk Shot|p1a: Regigigas
+|-activate|p1a: Regigigas|move: Protect
+|
+|-damage|p1a: Regigigas|41/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743937584
+|move|p2a: Sneasel|Bulk Up|p2a: Sneasel
+|-boost|p2a: Sneasel|atk|1
+|-boost|p2a: Sneasel|def|1
+|move|p1a: Regigigas|Rest|p1a: Regigigas
+|-status|p1a: Regigigas|slp|[from] move: Rest
+|-heal|p1a: Regigigas|100/100 slp|[silent]
+|
+|upkeep
+|turn|11
+|
+|t:|1743937593
+|-end|p1a: Regigigas|Slow Start|[silent]
+|switch|p1a: Venomoth|Venomoth, M|100/100
+|-sideend|p1: afroier|move: Toxic Spikes|[of] p1a: Venomoth
+|move|p2a: Sneasel|Bulk Up|p2a: Sneasel
+|-boost|p2a: Sneasel|atk|1
+|-boost|p2a: Sneasel|def|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743937601
+|move|p2a: Sneasel|Gunk Shot|p1a: Venomoth
+|-resisted|p1a: Venomoth
+|-damage|p1a: Venomoth|0 fnt
+|faint|p1a: Venomoth
+|
+|upkeep
+|
+|t:|1743937620
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|turn|13
+|
+|t:|1743937643
+|move|p1a: Ribombee|Psychic|p2a: Sneasel
+|-supereffective|p2a: Sneasel
+|-damage|p2a: Sneasel|0 fnt
+|faint|p2a: Sneasel
+|
+|upkeep
+|
+|t:|1743937648
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|-damage|p2a: Ribombee|76/100|[from] Spikes
+|turn|14
+|
+|t:|1743937676
+|move|p2a: Ribombee|Sticky Web|p1a: Ribombee
+|-sidestart|p1: afroier|move: Sticky Web
+|move|p1a: Ribombee|Sticky Web|p2a: Ribombee
+|-sidestart|p2: ner555|move: Sticky Web
+|
+|upkeep
+|turn|15
+|
+|t:|1743937696
+|switch|p1a: Raikou|Raikou|100/100
+|-activate|p1a: Raikou|move: Sticky Web
+|-unboost|p1a: Raikou|spe|1
+|-ability|p1a: Raikou|Pressure
+|move|p2a: Ribombee|Stun Spore|p1a: Raikou
+|-immune|p1a: Raikou
+|
+|upkeep
+|turn|16
+|
+|t:|1743937715
+|move|p2a: Ribombee|Bug Buzz|p1a: Raikou
+|-damage|p1a: Raikou|72/100
+|move|p1a: Raikou|Light Screen|p1a: Raikou
+|-sidestart|p1: afroier|move: Light Screen
+|
+|upkeep
+|turn|17
+|
+|t:|1743937724
+|move|p2a: Ribombee|Quiver Dance|p2a: Ribombee
+|-boost|p2a: Ribombee|spa|1
+|-boost|p2a: Ribombee|spd|1
+|-boost|p2a: Ribombee|spe|1
+|move|p1a: Raikou|Volt Switch|p2a: Ribombee
+|-damage|p2a: Ribombee|46/100
+|
+|t:|1743937766
+|switch|p1a: Klefki|Klefki, F|100/100|[from] Volt Switch
+|-item|p1a: Klefki|Air Balloon
+|
+|upkeep
+|turn|18
+|
+|t:|1743937785
+|move|p2a: Ribombee|Stun Spore|p1a: Klefki
+|-status|p1a: Klefki|par
+|move|p1a: Klefki|Steel Beam|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|-damage|p1a: Klefki|50/100 par|[from] steelbeam
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1743937796
+|switch|p2a: Darkrai|Darkrai|100/100
+|-damage|p2a: Darkrai|76/100|[from] Spikes
+|-activate|p2a: Darkrai|move: Sticky Web
+|-unboost|p2a: Darkrai|spe|1
+|turn|19
+|
+|t:|1743937812
+|move|p2a: Darkrai|Ice Beam|p1a: Klefki
+|-resisted|p1a: Klefki
+|-crit|p1a: Klefki
+|-damage|p1a: Klefki|10/100 par
+|-enditem|p1a: Klefki|Air Balloon
+|-damage|p2a: Darkrai|66/100|[from] item: Life Orb
+|move|p1a: Klefki|Trick Room|p1a: Klefki
+|-fieldstart|move: Trick Room|[of] p1a: Klefki
+|
+|upkeep
+|turn|20
+|
+|t:|1743937824
+|move|p1a: Klefki|Steel Beam|p2a: Darkrai
+|-damage|p2a: Darkrai|11/100
+|-damage|p1a: Klefki|0 fnt|[from] steelbeam
+|faint|p1a: Klefki
+|move|p2a: Darkrai|Dark Pulse|p1: Klefki|[notarget]
+|-fail|p2a: Darkrai
+|
+|upkeep
+|
+|t:|1743937840
+|switch|p1a: Regigigas|Regigigas|100/100 slp
+|-activate|p1a: Regigigas|move: Sticky Web
+|-unboost|p1a: Regigigas|spe|1
+|-start|p1a: Regigigas|ability: Slow Start
+|turn|21
+|
+|t:|1743937874
+|cant|p1a: Regigigas|slp
+|move|p2a: Darkrai|Dark Pulse|p1a: Regigigas
+|-damage|p1a: Regigigas|77/100 slp
+|-damage|p2a: Darkrai|1/100|[from] item: Life Orb
+|
+|-damage|p1a: Regigigas|64/100 slp|[from] ability: Bad Dreams|[of] p2a: Darkrai
+|upkeep
+|turn|22
+|
+|t:|1743937886
+|cant|p1a: Regigigas|slp
+|move|p2a: Darkrai|Ice Beam|p1a: Regigigas
+|-damage|p1a: Regigigas|46/100 slp
+|-damage|p2a: Darkrai|0 fnt|[from] item: Life Orb
+|faint|p2a: Darkrai
+|
+|upkeep
+|
+|t:|1743937893
+|switch|p2a: Glastrier|Glastrier|100/100
+|-damage|p2a: Glastrier|76/100|[from] Spikes
+|-activate|p2a: Glastrier|move: Sticky Web
+|-unboost|p2a: Glastrier|spe|1
+|turn|23
+|
+|t:|1743937906
+|move|p2a: Glastrier|Close Combat|p1a: Regigigas
+|-supereffective|p1a: Regigigas
+|-damage|p1a: Regigigas|0 fnt
+|-unboost|p2a: Glastrier|def|1
+|-unboost|p2a: Glastrier|spd|1
+|-damage|p2a: Glastrier|59/100|[from] item: Rocky Helmet|[of] p1a: Regigigas
+|faint|p1a: Regigigas
+|-end|p1a: Regigigas|Slow Start|[silent]
+|-ability|p2a: Glastrier|Chilling Neigh|boost
+|-boost|p2a: Glastrier|atk|1
+|
+|-heal|p2a: Glastrier|65/100|[from] item: Leftovers
+|-sideend|p1: afroier|move: Light Screen
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743937926
+|switch|p1a: Electivire|Electivire, M|100/100
+|-activate|p1a: Electivire|move: Sticky Web
+|-unboost|p1a: Electivire|spe|1
+|turn|24
+|
+|t:|1743937943
+|move|p1a: Electivire|Brick Break|p2a: Glastrier
+|-supereffective|p2a: Glastrier
+|-crit|p2a: Glastrier
+|-damage|p2a: Glastrier|0 fnt
+|faint|p2a: Glastrier
+|
+|upkeep
+|
+|t:|1743937948
+|switch|p2a: Bastiodon|Bastiodon, F|100/100
+|-damage|p2a: Bastiodon|76/100|[from] Spikes
+|-activate|p2a: Bastiodon|move: Sticky Web
+|-unboost|p2a: Bastiodon|spe|1
+|turn|25
+|
+|t:|1743937957
+|move|p1a: Electivire|Brick Break|p2a: Bastiodon
+|-supereffective|p2a: Bastiodon
+|-damage|p2a: Bastiodon|4/100
+|move|p2a: Bastiodon|Earthquake|p1a: Electivire
+|-supereffective|p1a: Electivire
+|-damage|p1a: Electivire|55/100
+|
+|-heal|p2a: Bastiodon|10/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1743937967
+|move|p1a: Electivire|Brick Break|p2a: Bastiodon
+|-supereffective|p2a: Bastiodon
+|-damage|p2a: Bastiodon|0 fnt
+|faint|p2a: Bastiodon
+|
+|upkeep
+|
+|t:|1743937970
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-damage|p2a: Hoopa|76/100|[from] Spikes
+|-activate|p2a: Hoopa|move: Sticky Web
+|-unboost|p2a: Hoopa|spe|1
+|turn|27
+|
+|t:|1743937981
+|-terastallize|p2a: Hoopa|Grass
+|move|p1a: Electivire|Brick Break|p2a: Hoopa
+|-damage|p2a: Hoopa|30/100
+|move|p2a: Hoopa|Energy Ball|p1a: Electivire
+|-damage|p1a: Electivire|0 fnt
+|faint|p1a: Electivire
+|-damage|p2a: Hoopa|20/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743937995
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|turn|28
+|
+|t:|1743938001
+|move|p1a: Ribombee|Draining Kiss|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|win|afroier
+|raw|afroier's rating: 1063 &rarr; <strong>1094</strong><br />(+31 for winning)
+|raw|ner555's rating: 1066 &rarr; <strong>1046</strong><br />(-20 for losing)
+|l|☆ner555
+|player|p2|
+|l|☆afroier
+|player|p1|

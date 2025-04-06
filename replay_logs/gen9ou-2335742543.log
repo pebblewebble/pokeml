@@ -1,0 +1,177 @@
+|j|☆DexTrainerRed
+|j|☆maemikon
+|t:|1743828979
+|gametype|singles
+|player|p1|DexTrainerRed|ash-kalos|1076
+|player|p2|maemikon|169|1119
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Charizard, M|
+|poke|p1|Pikachu, M|
+|poke|p1|Blastoise, M|
+|poke|p1|Venusaur, M|
+|poke|p1|Snorlax, M|
+|poke|p1|Dragonite, F|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Weavile, M|
+|poke|p2|Greninja-*, M|
+|poke|p2|Avalugg, M|
+|poke|p2|Frosmoth, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DexTrainerRed)
+|
+|t:|1743828984
+|start
+|switch|p1a: Snorlax|Snorlax, M|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1743828993
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: maemikon|move: Aurora Veil
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743829001
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Snorlax|Body Slam|p2a: Slowking
+|-damage|p2a: Slowking|78/100
+|-status|p2a: Slowking|par
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Slowking|84/100 par|[from] item: Black Sludge
+|upkeep
+|turn|3
+|
+|t:|1743829011
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|move|p2a: Slowking|Toxic|p1a: Snorlax
+|-status|p1a: Snorlax|tox
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Slowking|90/100 par|[from] item: Black Sludge
+|-damage|p1a: Snorlax|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743829023
+|switch|p2a: Avalugg|Avalugg, M|100/100
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Snorlax|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Snorlax|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743829034
+|move|p2a: Avalugg|Body Press|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|67/100 tox
+|move|p1a: Snorlax|Body Slam|p2a: Avalugg
+|-damage|p2a: Avalugg|90/100
+|-status|p2a: Avalugg|par
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Avalugg|96/100 par|[from] ability: Ice Body
+|-heal|p1a: Snorlax|73/100 tox|[from] item: Leftovers
+|-damage|p1a: Snorlax|55/100 tox|[from] psn
+|-sideend|p2: maemikon|move: Aurora Veil
+|upkeep
+|turn|6
+|
+|t:|1743829048
+|move|p1a: Snorlax|Curse|p1a: Snorlax
+|-unboost|p1a: Snorlax|spe|1
+|-boost|p1a: Snorlax|atk|1
+|-boost|p1a: Snorlax|def|1
+|move|p2a: Avalugg|Body Press|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|35/100 tox
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Avalugg|100/100 par|[from] ability: Ice Body
+|-heal|p1a: Snorlax|41/100 tox|[from] item: Leftovers
+|-damage|p1a: Snorlax|17/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743829061
+|move|p1a: Snorlax|Rest|p1a: Snorlax
+|-status|p1a: Snorlax|slp|[from] move: Rest
+|-heal|p1a: Snorlax|100/100 slp|[silent]
+|move|p2a: Avalugg|Body Press|p1a: Snorlax
+|-supereffective|p1a: Snorlax
+|-damage|p1a: Snorlax|81/100 slp
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Snorlax|87/100 slp|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743829071
+|switch|p2a: Frosmoth|Frosmoth, F|100/100
+|cant|p1a: Snorlax|slp
+|
+|-weather|none
+|-heal|p1a: Snorlax|94/100 slp|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743829079
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|cant|p1a: Snorlax|slp
+|
+|-heal|p1a: Snorlax|99/100 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743829088
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|-curestatus|p1a: Snorlax|slp|[msg]
+|move|p1a: Snorlax|Body Slam|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|faint|p2a: Frosmoth
+|
+|-heal|p1a: Snorlax|100/100|[from] item: Leftovers
+|upkeep
+|-message|maemikon forfeited.
+|
+|win|DexTrainerRed
+|raw|DexTrainerRed's rating: 1076 &rarr; <strong>1108</strong><br />(+32 for winning)
+|raw|maemikon's rating: 1119 &rarr; <strong>1091</strong><br />(-28 for losing)
+|l|☆maemikon
+|player|p2|
+|l|☆DexTrainerRed
+|player|p1|

@@ -1,0 +1,314 @@
+|j|☆Pika Master Fine
+|j|☆cybertrike96
+|t:|1743818947
+|gametype|singles
+|player|p1|Pika Master Fine|dawn|1079
+|player|p2|cybertrike96|ghetsis|1090
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Clefable, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Samurott-Hisui, F|
+|poke|p2|Scizor, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Cinderace, F|
+|poke|p2|Darkrai|
+|poke|p2|Enamorus, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1743818960
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|t:|1743818972
+|move|p1a: Dragapult|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|78/100
+|
+|t:|1743818975
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from] U-turn
+|move|p2a: Rotom|Thunder Wave|p1a: Rotom
+|-immune|p1a: Rotom
+|
+|-heal|p2a: Rotom|84/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743818994
+|move|p1a: Rotom|Volt Switch|p2a: Rotom
+|-damage|p2a: Rotom|55/100
+|
+|t:|1743819006
+|switch|p1a: Landorus|Landorus-Therian, M|100/100|[from] Volt Switch
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Rotom|atk|1
+|move|p2a: Rotom|Volt Switch|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-heal|p2a: Rotom|61/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743819029
+|move|p1a: Landorus|U-turn|p2a: Rotom
+|-damage|p2a: Rotom|29/100
+|
+|t:|1743819033
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from] U-turn
+|move|p2a: Rotom|Will-O-Wisp|p1a: Rotom
+|-status|p1a: Rotom|brn
+|
+|-heal|p2a: Rotom|34/100|[from] item: Leftovers
+|-damage|p1a: Rotom|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743819051
+|move|p1a: Rotom|Hydro Pump|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|13/100
+|move|p2a: Rotom|Hydro Pump|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|64/100 brn
+|
+|-heal|p1a: Rotom|70/100 brn|[from] item: Leftovers
+|-heal|p2a: Rotom|19/100|[from] item: Leftovers
+|-damage|p1a: Rotom|64/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743819071
+|move|p1a: Rotom|Hydro Pump|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-heal|p1a: Rotom|70/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|64/100 brn|[from] brn
+|upkeep
+|
+|t:|1743819080
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|6
+|
+|t:|1743819088
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|move|p1a: Rotom|Pain Split|p2a: Darkrai
+|-sethp|p2a: Darkrai|84/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Rotom|78/100 brn|[from] move: Pain Split
+|
+|-heal|p1a: Rotom|84/100 brn|[from] item: Leftovers
+|-damage|p1a: Rotom|78/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743819099
+|move|p2a: Darkrai|Dark Pulse|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1743819120
+|switch|p1a: Clefable|Clefable, F|100/100
+|turn|8
+|
+|t:|1743819138
+|-terastallize|p1a: Clefable|Bug
+|move|p2a: Darkrai|Sludge Bomb|p1a: Clefable
+|-damage|p1a: Clefable|43/100
+|-status|p1a: Clefable|psn
+|move|p1a: Clefable|Moonblast|p2a: Darkrai
+|-supereffective|p2a: Darkrai
+|-crit|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|
+|upkeep
+|
+|t:|1743819148
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|9
+|
+|t:|1743819156
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|93/100 psn
+|
+|upkeep
+|turn|10
+|
+|t:|1743819164
+|move|p2a: Scizor|Dual Wingbeat|p1a: Clefable|[miss]
+|-miss|p2a: Scizor|p1a: Clefable
+|move|p1a: Clefable|Flamethrower|p2a: Scizor
+|-supereffective|p2a: Scizor
+|-damage|p2a: Scizor|3/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743819187
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-fail|p2a: Scizor|unboost|[from] item: Clear Amulet|[of] p2a: Scizor
+|move|p2a: Scizor|Dual Wingbeat|p1a: Landorus
+|-damage|p1a: Landorus|43/100
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|-hitcount|p1: Landorus|2
+|
+|upkeep
+|
+|t:|1743819200
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|12
+|
+|t:|1743819204
+|move|p2a: Scizor|Bullet Punch|p1a: Dragapult
+|-damage|p1a: Dragapult|5/100
+|move|p1a: Dragapult|U-turn|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|t:|1743819218
+|switch|p1a: Clefable|Clefable, F, tera:Bug|93/100 psn|[from] U-turn
+|
+|upkeep
+|
+|t:|1743819222
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|13
+|
+|t:|1743819226
+|move|p2a: Cinderace|Swords Dance|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-boost|p2a: Cinderace|atk|2
+|move|p1a: Clefable|Calm Mind|p1a: Clefable
+|-boost|p1a: Clefable|spa|1
+|-boost|p1a: Clefable|spd|1
+|
+|upkeep
+|turn|14
+|
+|t:|1743819237
+|move|p2a: Cinderace|Pyro Ball|p1a: Clefable|[miss]
+|-miss|p2a: Cinderace|p1a: Clefable
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|100/100 psn
+|
+|upkeep
+|turn|15
+|
+|t:|1743819244
+|move|p2a: Cinderace|Pyro Ball|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|t:|1743819253
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|turn|16
+|
+|t:|1743819260
+|-terastallize|p2a: Cinderace|Flying
+|move|p1a: Zamazenta|Close Combat|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|45/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|-damage|p1a: Zamazenta|91/100|[from] item: Life Orb
+|move|p2a: Cinderace|Swords Dance|p2a: Cinderace
+|-boost|p2a: Cinderace|atk|2
+|
+|upkeep
+|turn|17
+|
+|t:|1743819275
+|move|p1a: Zamazenta|Stone Edge|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|-damage|p1a: Zamazenta|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743819281
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|18
+|
+|t:|1743819288
+|move|p1a: Zamazenta|Heavy Slam|p2a: Enamorus
+|-supereffective|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|-damage|p1a: Zamazenta|71/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743819293
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|19
+|
+|t:|1743819307
+|move|p1a: Zamazenta|Close Combat|p2a: Great Tusk
+|-damage|p2a: Great Tusk|41/100
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|-damage|p1a: Zamazenta|61/100|[from] item: Life Orb
+|move|p2a: Great Tusk|Ice Spinner|p1a: Zamazenta
+|-damage|p1a: Zamazenta|10/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743819317
+|move|p2a: Great Tusk|Protect|p2a: Great Tusk
+|-singleturn|p2a: Great Tusk|Protect
+|move|p1a: Zamazenta|Close Combat|p2a: Great Tusk
+|-activate|p2a: Great Tusk|move: Protect
+|
+|upkeep
+|turn|21
+|
+|t:|1743819325
+|move|p1a: Zamazenta|Close Combat|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-damage|p1a: Zamazenta|0 fnt|[from] item: Life Orb
+|faint|p1a: Zamazenta
+|
+|win|Pika Master Fine
+|raw|Pika Master Fine's rating: 1079 &rarr; <strong>1108</strong><br />(+29 for winning)
+|raw|cybertrike96's rating: 1090 &rarr; <strong>1066</strong><br />(-24 for losing)
+|l|☆cybertrike96
+|player|p2|

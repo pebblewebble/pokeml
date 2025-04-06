@@ -1,0 +1,370 @@
+|j|☆jieoogle
+|j|☆UtterlyIncapable
+|t:|1743875173
+|gametype|singles
+|player|p1|jieoogle|gambler|1142
+|player|p2|UtterlyIncapable|roxie|1133
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Typhlosion, F|
+|poke|p1|Thundurus, M|
+|poke|p1|Kommo-o, F|
+|poke|p1|Iron Treads|
+|poke|p1|Clodsire, F|
+|poke|p1|Ninetales-Alola, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Delphox, F|
+|poke|p2|Armarouge, M|
+|poke|p2|Ceruledge, F|
+|poke|p2|Chandelure, M|
+|poke|p2|Salazzle, F|
+|teampreview
+|
+|t:|1743875188
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdriveatk
+|turn|1
+|
+|t:|1743875197
+|move|p1a: Iron Treads|Earthquake|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|upkeep
+|
+|t:|1743875202
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|turn|2
+|
+|t:|1743875209
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Kommo-o|Kommo-o, F|100/100
+|move|p2a: Salazzle|Disable||[still]
+|-fail|p2a: Salazzle
+|
+|upkeep
+|turn|3
+|
+|t:|1743875214
+|move|p2a: Salazzle|Sand Attack|p1a: Kommo-o
+|-unboost|p1a: Kommo-o|accuracy|1
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|68/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743875226
+|move|p1a: Kommo-o|Boomburst|p2a: Salazzle
+|-damage|p2a: Salazzle|8/100
+|move|p2a: Salazzle|Toxic|p1a: Kommo-o
+|-status|p1a: Kommo-o|tox
+|
+|-heal|p2a: Salazzle|14/100|[from] item: Black Sludge
+|-damage|p1a: Kommo-o|62/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743875232
+|switch|p1a: Clodsire|Clodsire, F, shiny|100/100
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743875241
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Clodsire|Earth Power|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|63/100
+|-unboost|p2a: Torkoal|spd|1
+|-enditem|p2a: Torkoal|Eject Pack
+|
+|t:|1743875246
+|switch|p2a: Salazzle|Salazzle, F|14/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Salazzle|20/100|[from] item: Black Sludge
+|upkeep
+|turn|7
+|
+|t:|1743875253
+|move|p2a: Salazzle|Disable|p1a: Clodsire
+|-start|p1a: Clodsire|Disable|Earth Power
+|cant|p1a: Clodsire|Disable|Earth Power
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Salazzle|27/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1743875260
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Salazzle|Toxic|p1a: Ninetales
+|-status|p1a: Ninetales|tox
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Salazzle|33/100|[from] item: Black Sludge
+|-damage|p1a: Ninetales|95/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743875264
+|switch|p2a: Torkoal|Torkoal, M|63/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Ninetales|Aurora Veil||[still]
+|-fail|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ninetales|83/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743875276
+|move|p1a: Ninetales|Moonblast|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|44/100
+|-unboost|p2a: Torkoal|spa|1
+|move|p2a: Torkoal|Rock Tomb|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|48/100 tox
+|-unboost|p1a: Ninetales|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ninetales|30/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743875289
+|switch|p1a: Kommo-o|Kommo-o, F|62/100 tox
+|switch|p2a: Delphox|Delphox, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Kommo-o|55/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743875295
+|move|p2a: Delphox|Dazzling Gleam|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743875300
+|switch|p1a: Thundurus|Thundurus, M|100/100
+|turn|13
+|
+|t:|1743875307
+|move|p1a: Thundurus|Thunder Wave|p2a: Delphox
+|-status|p2a: Delphox|par
+|move|p2a: Delphox|Flamethrower|p1a: Thundurus
+|-damage|p1a: Thundurus|19/100
+|
+|-weather|none
+|upkeep
+|turn|14
+|
+|t:|1743875317
+|move|p1a: Thundurus|Thunderbolt|p2a: Delphox
+|-damage|p2a: Delphox|43/100 par
+|move|p2a: Delphox|Flamethrower|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|t:|1743875320
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|turn|15
+|
+|t:|1743875325
+|move|p1a: Iron Treads|Earthquake|p2a: Delphox
+|-supereffective|p2a: Delphox
+|-damage|p2a: Delphox|0 fnt
+|faint|p2a: Delphox
+|
+|upkeep
+|
+|t:|1743875334
+|switch|p2a: Armarouge|Armarouge, M|100/100
+|turn|16
+|
+|t:|1743875340
+|move|p1a: Iron Treads|Earthquake|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-enditem|p2a: Armarouge|Focus Sash
+|-damage|p2a: Armarouge|1/100
+|-ability|p2a: Armarouge|Weak Armor|boost
+|-unboost|p2a: Armarouge|def|1
+|-boost|p2a: Armarouge|spe|2
+|move|p2a: Armarouge|Armor Cannon|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-unboost|p2a: Armarouge|def|1
+|-unboost|p2a: Armarouge|spd|1
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743875346
+|switch|p1a: Clodsire|Clodsire, F, shiny|100/100
+|turn|17
+|
+|t:|1743875349
+|move|p2a: Armarouge|Destiny Bond|p2a: Armarouge
+|-singlemove|p2a: Armarouge|Destiny Bond
+|move|p1a: Clodsire|Earth Power|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|0 fnt
+|faint|p2a: Armarouge
+|-activate|p2a: Armarouge|move: Destiny Bond
+|faint|p1a: Clodsire
+|
+|upkeep
+|
+|t:|1743875357
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|switch|p1a: Typhlosion|Typhlosion, F|100/100
+|turn|18
+|
+|t:|1743875371
+|-terastallize|p2a: Ceruledge|Stellar
+|move|p1a: Typhlosion|Scorching Sands|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|45/100
+|-enditem|p2a: Ceruledge|Weakness Policy
+|-boost|p2a: Ceruledge|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Ceruledge|spa|2|[from] item: Weakness Policy
+|move|p2a: Ceruledge|Bitter Blade|p1a: Typhlosion
+|-start|p1a: Typhlosion|ability: Flash Fire
+|
+|upkeep
+|turn|19
+|c|☆UtterlyIncapable|oh shit
+|c|☆jieoogle|groovy
+|
+|t:|1743875382
+|move|p1a: Typhlosion|Scorching Sands|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|upkeep
+|
+|t:|1743875391
+|switch|p2a: Torkoal|Torkoal, M|44/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|20
+|
+|t:|1743875395
+|move|p1a: Typhlosion|Scorching Sands|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|2/100
+|move|p2a: Torkoal|Rock Tomb|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|71/100
+|-unboost|p1a: Typhlosion|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743875401
+|move|p1a: Typhlosion|Scorching Sands|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743875403
+|switch|p2a: Salazzle|Salazzle, F|33/100
+|turn|22
+|
+|t:|1743875405
+|-end|p1a: Typhlosion|ability: Flash Fire|[silent]
+|switch|p1a: Ninetales|Ninetales-Alola, M|30/100 tox
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Salazzle|Disable||[still]
+|-fail|p2a: Salazzle
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Salazzle|39/100|[from] item: Black Sludge
+|-damage|p1a: Ninetales|24/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1743875408
+|move|p2a: Salazzle|Sand Attack|p1a: Ninetales
+|-unboost|p1a: Ninetales|accuracy|1
+|move|p1a: Ninetales|Freeze-Dry|p2a: Salazzle|[miss]
+|-miss|p1a: Ninetales|p2a: Salazzle
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Salazzle|45/100|[from] item: Black Sludge
+|-damage|p1a: Ninetales|12/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1743875414
+|move|p2a: Salazzle|Sand Attack|p1a: Ninetales
+|-unboost|p1a: Ninetales|accuracy|1
+|move|p1a: Ninetales|Moonblast|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|31/100
+|-unboost|p2a: Salazzle|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Salazzle|37/100|[from] item: Black Sludge
+|-damage|p1a: Ninetales|0 fnt|[from] psn
+|faint|p1a: Ninetales
+|upkeep
+|
+|t:|1743875416
+|switch|p1a: Typhlosion|Typhlosion, F|71/100
+|turn|25
+|
+|t:|1743875422
+|move|p1a: Typhlosion|Scorching Sands|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|win|jieoogle
+|raw|jieoogle's rating: 1142 &rarr; <strong>1166</strong><br />(+24 for winning)
+|raw|UtterlyIncapable's rating: 1133 &rarr; <strong>1109</strong><br />(-24 for losing)
+|c|☆UtterlyIncapable|gg
+|c|☆jieoogle|g
+|c|☆jieoogle|g
+|l|☆UtterlyIncapable
+|player|p2|
+|l|☆jieoogle
+|player|p1|

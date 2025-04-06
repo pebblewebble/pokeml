@@ -1,0 +1,219 @@
+|j|☆twigs26
+|j|‽smogonules
+|t:|1743787734
+|gametype|singles
+|player|p1|twigs26|swimmer-gen4|1479
+|player|p2|smogonules|2|1397
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Ting-Lu|
+|poke|p1|Pecharunt|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Great Tusk|
+|poke|p2|Jirachi|
+|poke|p2|Great Tusk|
+|poke|p2|Latios, M|
+|poke|p2|Gardevoir, M|
+|poke|p2|Polteageist|
+|poke|p2|Crawdaunt, M|
+|teampreview
+|
+|t:|1743787741
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Jirachi|Jirachi|100/100
+|turn|1
+|
+|t:|1743787745
+|-terastallize|p1a: Dragapult|Ghost
+|move|p1a: Dragapult|Tera Blast|p2a: Jirachi|[anim] Tera Blast Ghost
+|-supereffective|p2a: Jirachi
+|-enditem|p2a: Jirachi|Focus Sash
+|-damage|p2a: Jirachi|1/100
+|move|p2a: Jirachi|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|
+|upkeep
+|turn|2
+|
+|t:|1743787754
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Jirachi|Stealth Rock|p1a: Ting-Lu
+|-sidestart|p1: twigs26|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1743787760
+|move|p2a: Jirachi|Ice Punch|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|78/100
+|-damage|p2a: Jirachi|0 fnt|[from] item: Rocky Helmet|[of] p1a: Ting-Lu
+|faint|p2a: Jirachi
+|move|p1a: Ting-Lu|Spikes|p2: Jirachi
+|-sidestart|p2: smogonules|Spikes
+|
+|upkeep
+|
+|t:|1743787768
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100
+|-damage|p2a: Crawdaunt|88/100|[from] Spikes
+|turn|4
+|
+|t:|1743787775
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|move|p2a: Crawdaunt|Crabhammer|p1a: Ogerpon
+|-heal|p1a: Ogerpon|100/100|[from] ability: Water Absorb|[of] p2a: Crawdaunt
+|
+|upkeep
+|turn|5
+|
+|t:|1743787778
+|move|p1a: Ogerpon|Power Whip|p2a: Crawdaunt|[miss]
+|-miss|p1a: Ogerpon|p2a: Crawdaunt
+|move|p2a: Crawdaunt|Knock Off|p1a: Ogerpon
+|-damage|p1a: Ogerpon|15/100
+|-damage|p2a: Crawdaunt|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|t:|1743787785
+|move|p1a: Ogerpon|Power Whip|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|upkeep
+|
+|t:|1743787788
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|7
+|
+|t:|1743787795
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|-damage|p1a: Pecharunt|88/100|[from] Stealth Rock
+|-item|p1a: Pecharunt|Air Balloon
+|move|p2a: Great Tusk|Rapid Spin|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|
+|upkeep
+|turn|8
+|
+|t:|1743787803
+|move|p1a: Pecharunt|Nasty Plot|p1a: Pecharunt
+|-boost|p1a: Pecharunt|spa|2
+|move|p2a: Great Tusk|Ice Spinner|p1a: Pecharunt
+|-damage|p1a: Pecharunt|69/100
+|-enditem|p1a: Pecharunt|Air Balloon
+|
+|upkeep
+|turn|9
+|
+|t:|1743787808
+|move|p1a: Pecharunt|Shadow Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743787812
+|switch|p2a: Latios|Latios, M|100/100
+|turn|10
+|
+|t:|1743787814
+|move|p2a: Latios|Simple Beam|p1a: Pecharunt
+|-endability|p1a: Pecharunt|Poison Puppeteer|[from] move: Simple Beam
+|-ability|p1a: Pecharunt|Simple|[from] move: Simple Beam
+|move|p1a: Pecharunt|Shadow Ball|p2a: Latios
+|-supereffective|p2a: Latios
+|-damage|p2a: Latios|0 fnt
+|faint|p2a: Latios
+|
+|upkeep
+|
+|t:|1743787816
+|switch|p2a: Gardevoir|Gardevoir, M|100/100
+|-damage|p2a: Gardevoir|88/100|[from] Spikes
+|-ability|p2a: Gardevoir|Simple|[from] ability: Trace|[of] p1a: Pecharunt
+|turn|11
+|
+|t:|1743787821
+|-terastallize|p2a: Gardevoir|Steel
+|move|p1a: Pecharunt|Malignant Chain|p2a: Gardevoir
+|-immune|p2a: Gardevoir
+|move|p2a: Gardevoir|Calm Mind|p2a: Gardevoir
+|-boost|p2a: Gardevoir|spa|2
+|-boost|p2a: Gardevoir|spd|2
+|
+|upkeep
+|turn|12
+|
+|t:|1743787824
+|move|p1a: Pecharunt|Shadow Ball|p2a: Gardevoir
+|-damage|p2a: Gardevoir|62/100
+|move|p2a: Gardevoir|Calm Mind|p2a: Gardevoir
+|-boost|p2a: Gardevoir|spa|2
+|-boost|p2a: Gardevoir|spd|2
+|
+|upkeep
+|turn|13
+|
+|t:|1743787828
+|move|p1a: Pecharunt|Shadow Ball|p2a: Gardevoir
+|-damage|p2a: Gardevoir|42/100
+|move|p2a: Gardevoir|Substitute|p2a: Gardevoir
+|-start|p2a: Gardevoir|Substitute
+|-damage|p2a: Gardevoir|17/100
+|-enditem|p2a: Gardevoir|Salac Berry|[eat]
+|-boost|p2a: Gardevoir|spe|2|[from] item: Salac Berry
+|
+|upkeep
+|turn|14
+|
+|t:|1743787832
+|move|p2a: Gardevoir|Stored Power|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1743787844
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|-damage|p1a: Dragonite|76/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743787854
+|move|p2a: Gardevoir|Draining Kiss|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-heal|p2a: Gardevoir|71/100|[from] drain|[of] p1a: Dragonite
+|faint|p1a: Dragonite
+|
+|upkeep
+|-message|twigs26 forfeited.
+|
+|win|smogonules
+|raw|twigs26's rating: 1479 &rarr; <strong>1454</strong><br />(-25 for losing)
+|raw|smogonules's rating: 1397 &rarr; <strong>1422</strong><br />(+25 for winning)
+|l|☆twigs26
+|player|p1|
+|l|‽smogonules
+|player|p2|

@@ -1,0 +1,297 @@
+|j|☆antwan420
+|j|☆Thai Ladyboi
+|t:|1743908211
+|gametype|singles
+|player|p1|antwan420|unknown|1308
+|player|p2|Thai Ladyboi|266|1262
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Necrozma|
+|poke|p1|Cyclizar, M|
+|poke|p1|Glaceon, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Mimikyu, F|
+|poke|p1|Donphan, M|
+|poke|p2|Kyurem|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Okidogi, M|
+|poke|p2|Sinistcha|
+|poke|p2|Rillaboom, M|
+|poke|p2|Cinderace, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Thai Ladyboi)
+|
+|t:|1743908241
+|start
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|turn|1
+|
+|t:|1743908253
+|move|p2a: Rillaboom|Leech Seed|p1a: Gyarados
+|-start|p1a: Gyarados|move: Leech Seed
+|move|p1a: Gyarados|Thunder Wave|p2a: Rillaboom|[miss]
+|-miss|p1a: Gyarados|p2a: Rillaboom
+|
+|-damage|p1a: Gyarados|88/100|[from] Leech Seed|[of] p2a: Rillaboom
+|upkeep
+|turn|2
+|
+|t:|1743908277
+|move|p2a: Rillaboom|U-turn|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|80/100
+|
+|t:|1743908285
+|switch|p2a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|move|p1a: Gyarados|Temper Flare|p2a: Slowking
+|-damage|p2a: Slowking|55/100
+|
+|-heal|p2a: Slowking|61/100|[from] Grassy Terrain
+|-damage|p1a: Gyarados|68/100|[from] Leech Seed|[of] p2a: Slowking
+|-heal|p2a: Slowking|73/100|[silent]
+|upkeep
+|turn|3
+|
+|t:|1743908300
+|switch|p1a: Donphan|Donphan, M|100/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743908306
+|switch|p2a: Rillaboom|Rillaboom, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743908315
+|switch|p1a: Gyarados|Gyarados, F|68/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|move|p2a: Rillaboom|Grassy Glide|p1a: Gyarados
+|-damage|p1a: Gyarados|41/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743908324
+|move|p2a: Rillaboom|U-turn|p1a: Gyarados
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|33/100
+|
+|t:|1743908327
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from] U-turn
+|move|p1a: Gyarados|Thunder Wave|p2a: Cinderace
+|-status|p2a: Cinderace|par
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743908337
+|switch|p2a: Sinistcha|Sinistcha|100/100
+|move|p1a: Gyarados|Waterfall|p2a: Sinistcha
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|87/100
+|-damage|p1a: Gyarados|17/100|[from] item: Rocky Helmet|[of] p2a: Sinistcha
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Sinistcha|94/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1743908351
+|move|p1a: Gyarados|Thunder Wave|p2a: Sinistcha
+|-status|p2a: Sinistcha|par
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Gyarados|[miss]
+|-miss|p2a: Sinistcha|p1a: Gyarados
+|
+|-weather|none
+|-heal|p2a: Sinistcha|99/100 par|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1743908361
+|switch|p1a: Glaceon|Glaceon, F|100/100
+|move|p2a: Sinistcha|Calm Mind|p2a: Sinistcha
+|-boost|p2a: Sinistcha|spa|1
+|-boost|p2a: Sinistcha|spd|1
+|
+|-heal|p2a: Sinistcha|100/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1743908370
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Glaceon|Ice Beam|p2a: Slowking
+|-damage|p2a: Slowking|76/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743908379
+|move|p1a: Glaceon|Ice Beam|p2a: Slowking
+|-damage|p2a: Slowking|53/100
+|move|p2a: Slowking|Light Screen|p2a: Slowking
+|-sidestart|p2: Thai Ladyboi|move: Light Screen
+|
+|upkeep
+|turn|11
+|
+|t:|1743908386
+|move|p1a: Glaceon|Ice Beam|p2a: Slowking
+|-damage|p2a: Slowking|42/100
+|move|p2a: Slowking|Future Sight|p1a: Glaceon
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|12
+|
+|t:|1743908391
+|move|p1a: Glaceon|Ice Beam|p2a: Slowking
+|-damage|p2a: Slowking|30/100
+|move|p2a: Slowking|Thunder Wave|p1a: Glaceon
+|-status|p1a: Glaceon|par
+|
+|upkeep
+|turn|13
+|
+|t:|1743908402
+|switch|p1a: Gyarados|Gyarados, F|17/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Slowking|atk|1
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743908409
+|switch|p2a: Rillaboom|Rillaboom, M|100/100|[from] Chilly Reception
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Gyarados|move: Future Sight
+|-crit|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|upkeep
+|
+|t:|1743908425
+|switch|p1a: Cyclizar|Cyclizar, M|100/100
+|turn|14
+|
+|t:|1743908435
+|move|p1a: Cyclizar|Knock Off|p2a: Rillaboom
+|-damage|p2a: Rillaboom|80/100
+|-enditem|p2a: Rillaboom|Terrain Extender|[from] move: Knock Off|[of] p1a: Cyclizar
+|move|p2a: Rillaboom|U-turn|p1a: Cyclizar
+|-damage|p1a: Cyclizar|62/100
+|
+|t:|1743908447
+|switch|p2a: Okidogi|Okidogi, M|100/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Cyclizar|68/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1743908456
+|switch|p2a: Rillaboom|Rillaboom, M|80/100
+|move|p1a: Cyclizar|U-turn|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|49/100
+|
+|t:|1743908467
+|switch|p1a: Mimikyu|Mimikyu, F|100/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Rillaboom|55/100|[from] Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1743908474
+|move|p1a: Mimikyu|Swords Dance|p1a: Mimikyu
+|-boost|p1a: Mimikyu|atk|2
+|move|p2a: Rillaboom|Leech Seed|p1a: Mimikyu
+|-start|p1a: Mimikyu|move: Leech Seed
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Rillaboom|61/100|[from] Grassy Terrain
+|-damage|p1a: Mimikyu|88/100|[from] Leech Seed|[of] p2a: Rillaboom
+|-heal|p2a: Rillaboom|69/100|[silent]
+|upkeep
+|turn|17
+|
+|t:|1743908484
+|move|p2a: Rillaboom|Grassy Glide|p1a: Mimikyu
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|88/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, F
+|-damage|p1a: Mimikyu|76/100|[from] pokemon: Mimikyu-Busted
+|move|p1a: Mimikyu|Shadow Claw|p2a: Rillaboom
+|-crit|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-weather|none
+|-heal|p1a: Mimikyu|82/100|[from] Grassy Terrain
+|-sideend|p2: Thai Ladyboi|move: Light Screen
+|upkeep
+|
+|t:|1743908502
+|switch|p2a: Cinderace|Cinderace, F|100/100 par
+|turn|18
+|
+|t:|1743908514
+|-terastallize|p1a: Mimikyu|Ghost
+|move|p1a: Mimikyu|Shadow Claw|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-heal|p1a: Mimikyu|88/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743908522
+|switch|p2a: Okidogi|Okidogi, M|100/100
+|turn|19
+|
+|t:|1743908527
+|move|p1a: Mimikyu|Shadow Claw|p2a: Okidogi
+|-crit|p2a: Okidogi
+|-damage|p2a: Okidogi|16/100
+|move|p2a: Okidogi|Bulk Up|p2a: Okidogi
+|-boost|p2a: Okidogi|atk|1
+|-boost|p2a: Okidogi|def|1
+|
+|-heal|p1a: Mimikyu|94/100|[from] Grassy Terrain
+|-heal|p2a: Okidogi|22/100|[from] Grassy Terrain
+|-damage|p1a: Mimikyu|81/100|[from] Leech Seed|[of] p2a: Okidogi
+|-heal|p2a: Okidogi|30/100|[silent]
+|upkeep
+|turn|20
+|-message|Thai Ladyboi forfeited.
+|
+|win|antwan420
+|raw|antwan420's rating: 1308 &rarr; <strong>1325</strong><br />(+17 for winning)
+|raw|Thai Ladyboi's rating: 1262 &rarr; <strong>1240</strong><br />(-22 for losing)
+|l|☆Thai Ladyboi
+|player|p2|
+|l|☆antwan420
+|player|p1|

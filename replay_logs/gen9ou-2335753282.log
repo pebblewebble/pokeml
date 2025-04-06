@@ -1,0 +1,231 @@
+|j|☆Xephelix
+|j|☆Play With Lapras
+|t:|1743830529
+|gametype|singles
+|player|p1|Xephelix|janitor|1150
+|player|p2|Play With Lapras|miku-flying|1113
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Glimmora, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Serperior, F|
+|poke|p1|Gholdengo|
+|poke|p1|Zapdos-Galar|
+|poke|p1|Dragonite, F|
+|poke|p2|Ribombee, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Lapras, M|
+|poke|p2|Greninja-*, M|
+|poke|p2|Mamoswine, F|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|t:|1743830542
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|turn|1
+|
+|t:|1743830551
+|move|p2a: Ribombee|Sticky Web|p1a: Glimmora
+|-sidestart|p1: Xephelix|move: Sticky Web
+|move|p1a: Glimmora|Mortal Spin|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|77/100
+|-sideend|p1: Xephelix|Sticky Web|[from] move: Mortal Spin|[of] p1a: Glimmora
+|
+|upkeep
+|turn|2
+|
+|t:|1743830563
+|move|p2a: Ribombee|Sticky Web|p1a: Glimmora
+|-sidestart|p1: Xephelix|move: Sticky Web
+|move|p1a: Glimmora|Power Gem|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1743830573
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|3
+|
+|t:|1743830578
+|move|p1a: Glimmora|Mortal Spin|p2a: Pelipper
+|-damage|p2a: Pelipper|96/100
+|-status|p2a: Pelipper|psn
+|-sideend|p1: Xephelix|Sticky Web|[from] move: Mortal Spin|[of] p1a: Glimmora
+|move|p2a: Pelipper|Weather Ball|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-enditem|p1a: Glimmora|Focus Sash
+|-damage|p1a: Glimmora|1/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|83/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743830586
+|move|p1a: Glimmora|Stealth Rock|p2a: Pelipper
+|-sidestart|p2: Play With Lapras|move: Stealth Rock
+|move|p2a: Pelipper|Weather Ball|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|71/100 psn|[from] psn
+|upkeep
+|
+|t:|1743830598
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|5
+|
+|t:|1743830604
+|move|p1a: Gholdengo|Shadow Ball|p2a: Pelipper
+|-damage|p2a: Pelipper|15/100 psn
+|move|p2a: Pelipper|Weather Ball|p1a: Gholdengo
+|-damage|p1a: Gholdengo|37/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|2/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743830611
+|move|p1a: Gholdengo|Shadow Ball|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743830624
+|switch|p2a: Greninja|Greninja, M|100/100
+|-damage|p2a: Greninja|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1743830635
+|switch|p1a: Zapdos|Zapdos-Galar|100/100
+|move|p2a: Greninja|Weather Ball|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|-ability|p2a: Greninja|Battle Bond|boost
+|-boost|p2a: Greninja|atk|1
+|-boost|p2a: Greninja|spa|1
+|-boost|p2a: Greninja|spe|1
+|-activate|p2a: Greninja|ability: Battle Bond
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743830660
+|switch|p1a: Serperior|Serperior, F|100/100
+|turn|8
+|
+|t:|1743830665
+|-terastallize|p2a: Greninja|Water
+|move|p2a: Greninja|Weather Ball|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743830672
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|9
+|
+|t:|1743830674
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Extreme Speed|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743830687
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdriveatk
+|turn|10
+|
+|t:|1743830700
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|move|p2a: Iron Treads|Rapid Spin|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|91/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: Play With Lapras|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|
+|-weather|none
+|-heal|p1a: Kingambit|97/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743830711
+|move|p2a: Iron Treads|Earthquake|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen3|[silent]
+|
+|upkeep
+|
+|t:|1743830715
+|switch|p1a: Gholdengo|Gholdengo|37/100
+|turn|12
+|
+|t:|1743830720
+|move|p2a: Iron Treads|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743830725
+|switch|p1a: Dragonite|Dragonite, F, tera:Normal|100/100
+|turn|13
+|
+|t:|1743830733
+|move|p2a: Iron Treads|Earthquake|p1a: Dragonite
+|-damage|p1a: Dragonite|63/100
+|move|p1a: Dragonite|Fire Punch|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|17/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743830738
+|move|p2a: Iron Treads|Earthquake|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|Play With Lapras
+|raw|Xephelix's rating: 1150 &rarr; <strong>1122</strong><br />(-28 for losing)
+|raw|Play With Lapras's rating: 1113 &rarr; <strong>1141</strong><br />(+28 for winning)
+|l|☆Play With Lapras
+|player|p2|
+|l|☆Xephelix
+|player|p1|

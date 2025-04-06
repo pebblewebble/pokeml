@@ -1,0 +1,309 @@
+|j|☆N_Alder
+|j|☆NGamerOP
+|t:|1743878767
+|gametype|singles
+|player|p1|N_Alder|drayden|1511
+|player|p2|NGamerOP|barry|1525
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, M|
+|poke|p1|Dragapult, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Raging Bolt|
+|poke|p1|Iron Valiant|
+|poke|p1|Samurott-Hisui, M|
+|poke|p2|Comfey, M|
+|poke|p2|Whimsicott, F|
+|poke|p2|Iron Moth|
+|poke|p2|Walking Wake|
+|poke|p2|Great Tusk|
+|poke|p2|Ninetales, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by N_Alder)
+|
+|t:|1743878779
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|1
+|
+|t:|1743878790
+|switch|p2a: Whimsicott|Whimsicott, F|100/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Whimsicott
+|-immune|p2a: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743878795
+|move|p2a: Whimsicott|Growth|p2a: Whimsicott
+|-boost|p2a: Whimsicott|atk|2
+|-boost|p2a: Whimsicott|spa|2
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|54/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743878801
+|move|p1a: Raging Bolt|Thunderclap|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|15/100
+|move|p2a: Whimsicott|Moonblast|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|-damage|p2a: Whimsicott|5/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743878813
+|switch|p1a: Kingambit|Kingambit, M, shiny|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|4
+|
+|t:|1743878817
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisspe
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743878823
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Dragapult|Dragapult, F, shiny|100/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Dragapult
+|-damage|p1a: Dragapult|26/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Dragapult|32/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743878833
+|move|p2a: Great Tusk|Headlong Rush|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743878837
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|7
+|
+|t:|1743878845
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Comfey|Comfey, M|100/100
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Comfey
+|-damage|p2a: Comfey|74/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743878849
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Cinderace|Cinderace, M, shiny|100/100
+|move|p2a: Comfey|Draining Kiss|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|82/100
+|-heal|p2a: Comfey|87/100|[from] drain|[of] p1a: Cinderace
+|-damage|p2a: Comfey|78/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743878854
+|switch|p2a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1a: Cinderace|Gunk Shot|p2a: Ninetales|[miss]
+|-start|p1a: Cinderace|typechange|Poison|[from] ability: Libero
+|-miss|p1a: Cinderace|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743878859
+|move|p1a: Cinderace|Gunk Shot|p2a: Ninetales
+|-damage|p2a: Ninetales|32/100
+|move|p2a: Ninetales|Healing Wish|p2a: Ninetales
+|faint|p2a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743878862
+|switch|p2a: Whimsicott|Whimsicott, F|5/100
+|-heal|p2a: Whimsicott|100/100|[from] move: Healing Wish
+|turn|11
+|
+|t:|1743878865
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|move|p1a: Cinderace|Gunk Shot|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|49/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743878871
+|move|p1a: Cinderace|Gunk Shot|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743878877
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|13
+|
+|t:|1743878899
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|move|p2a: Walking Wake|Hydro Steam|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|3/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743878911
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Comfey|Comfey, M|78/100
+|move|p1a: Iron Valiant|Vacuum Wave|p2a: Comfey
+|-resisted|p2a: Comfey
+|-damage|p2a: Comfey|68/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743878917
+|move|p1a: Iron Valiant|Moonblast|p2a: Comfey
+|-damage|p2a: Comfey|18/100
+|move|p2a: Comfey|Growth|p2a: Comfey
+|-boost|p2a: Comfey|atk|2
+|-boost|p2a: Comfey|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743878923
+|move|p2a: Comfey|Draining Kiss|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|-heal|p2a: Comfey|20/100|[from] drain|[of] p1a: Iron Valiant
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|-damage|p2a: Comfey|10/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1743878925
+|switch|p1a: Samurott|Samurott-Hisui, M, shiny|100/100
+|turn|17
+|
+|t:|1743878928
+|move|p2a: Comfey|Draining Kiss|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-heal|p2a: Comfey|89/100|[from] drain|[of] p1a: Samurott
+|faint|p1a: Samurott
+|-damage|p2a: Comfey|79/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743878930
+|switch|p1a: Cinderace|Cinderace, M, shiny|82/100
+|turn|18
+|
+|t:|1743878940
+|-terastallize|p2a: Comfey|Water
+|move|p1a: Cinderace|Pyro Ball|p2a: Comfey
+|-resisted|p2a: Comfey
+|-damage|p2a: Comfey|43/100
+|move|p2a: Comfey|Stored Power|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|-damage|p2a: Comfey|33/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743878945
+|switch|p1a: Kingambit|Kingambit, M, shiny|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|19
+|
+|t:|1743878950
+|move|p2a: Comfey|Draining Kiss|p1a: Kingambit
+|-damage|p1a: Kingambit|46/100
+|-heal|p2a: Comfey|88/100|[from] drain|[of] p1a: Kingambit
+|-damage|p2a: Comfey|78/100|[from] item: Life Orb
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p1a: Kingambit|52/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743878954
+|move|p2a: Comfey|Draining Kiss|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-heal|p2a: Comfey|100/100|[from] drain|[of] p1a: Kingambit
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen5|[silent]
+|-damage|p2a: Comfey|91/100|[from] item: Life Orb
+|
+|win|NGamerOP
+|raw|N_Alder's rating: 1511 &rarr; <strong>1492</strong><br />(-19 for losing)
+|raw|NGamerOP's rating: 1525 &rarr; <strong>1544</strong><br />(+19 for winning)
+|c|☆NGamerOP|?
+|l|☆N_Alder
+|player|p1|
+|l|☆NGamerOP
+|player|p2|

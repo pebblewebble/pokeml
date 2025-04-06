@@ -1,0 +1,298 @@
+|j|☆quolius
+|j|☆SSE
+|t:|1743817289
+|gametype|singles
+|player|p1|quolius|2|1338
+|player|p2|SSE|roxie|1351
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Glimmora, M|
+|poke|p1|Hoopa|
+|poke|p1|Iron Treads|
+|poke|p1|Enamorus, F|
+|poke|p1|Revavroom, F|
+|poke|p1|Iron Valiant|
+|poke|p2|Glimmora, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Latias, F|
+|poke|p2|Gholdengo|
+|poke|p2|Dragonite, M|
+|poke|p2|Weavile, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by quolius)
+|
+|t:|1743817301
+|start
+|switch|p1a: Hoopa|Hoopa|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|1
+|
+|t:|1743817307
+|switch|p2a: Weavile|Weavile, M|100/100
+|move|p1a: Hoopa|Psychic Noise|p2a: Weavile
+|-immune|p2a: Weavile
+|
+|upkeep
+|turn|2
+|
+|t:|1743817314
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|move|p2a: Weavile|Swords Dance|p2a: Weavile
+|-boost|p2a: Weavile|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1743817320
+|move|p2a: Weavile|Triple Axel|p1a: Glimmora
+|-damage|p1a: Glimmora|73/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: SSE|move: Toxic Spikes
+|-hitcount|p1a: Glimmora|1
+|-enditem|p1a: Glimmora|Red Card|[of] p2a: Weavile
+|drag|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Glimmora|Stealth Rock|p2a: Dragonite
+|-sidestart|p2: SSE|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1743817331
+|move|p1a: Glimmora|Mortal Spin|p2a: Dragonite
+|-damage|p2a: Dragonite|97/100
+|-status|p2a: Dragonite|psn
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-damage|p2a: Dragonite|84/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743817350
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|move|p2a: Dragonite|Ice Spinner|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|-damage|p2a: Dragonite|72/100 psn|[from] psn
+|upkeep
+|
+|t:|1743817354
+|switch|p1a: Glimmora|Glimmora, M|73/100
+|turn|6
+|
+|t:|1743817360
+|move|p2a: Dragonite|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: SSE|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|-damage|p2a: Dragonite|60/100 psn|[from] psn
+|upkeep
+|
+|t:|1743817366
+|switch|p1a: Revavroom|Revavroom, F|100/100
+|-item|p1a: Revavroom|Air Balloon
+|turn|7
+|
+|t:|1743817369
+|move|p2a: Dragonite|Ice Spinner|p1a: Revavroom
+|-resisted|p1a: Revavroom
+|-damage|p1a: Revavroom|72/100
+|-enditem|p1a: Revavroom|Air Balloon
+|move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+|-boost|p1a: Revavroom|spe|2
+|-boost|p1a: Revavroom|atk|1
+|
+|-damage|p2a: Dragonite|47/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743817373
+|move|p1a: Revavroom|Iron Head|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1743817380
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-status|p2a: Zamazenta|tox
+|-damage|p2a: Zamazenta|94/100 tox|[from] Stealth Rock
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|9
+|
+|t:|1743817387
+|move|p1a: Revavroom|Iron Head|p2a: Zamazenta
+|-damage|p2a: Zamazenta|59/100 tox
+|move|p2a: Zamazenta|Body Press|p1a: Revavroom
+|-damage|p1a: Revavroom|13/100
+|
+|-heal|p2a: Zamazenta|65/100 tox|[from] item: Leftovers
+|-damage|p2a: Zamazenta|59/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743817392
+|move|p1a: Revavroom|Iron Head|p2a: Zamazenta
+|-damage|p2a: Zamazenta|26/100 tox
+|cant|p2a: Zamazenta|flinch
+|
+|-heal|p2a: Zamazenta|32/100 tox|[from] item: Leftovers
+|-damage|p2a: Zamazenta|20/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743817399
+|move|p1a: Revavroom|Iron Head|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1743817408
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1743817416
+|-terastallize|p2a: Gholdengo|Fairy
+|move|p1a: Revavroom|High Horsepower|p2a: Gholdengo
+|-damage|p2a: Gholdengo|40/100
+|move|p2a: Gholdengo|Dazzling Gleam|p1a: Revavroom
+|-resisted|p1a: Revavroom
+|-damage|p1a: Revavroom|0 fnt
+|faint|p1a: Revavroom
+|
+|upkeep
+|
+|t:|1743817435
+|switch|p1a: Hoopa|Hoopa|100/100
+|turn|13
+|
+|t:|1743817439
+|move|p1a: Hoopa|Shadow Ball|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743817445
+|switch|p2a: Weavile|Weavile, M|100/100
+|-status|p2a: Weavile|tox
+|-damage|p2a: Weavile|76/100 tox|[from] Stealth Rock
+|turn|14
+|
+|t:|1743817449
+|move|p1a: Hoopa|Shadow Ball|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|45/100 tox
+|move|p2a: Weavile|Triple Axel|p1a: Hoopa
+|-damage|p1a: Hoopa|80/100
+|-hitcount|p1a: Hoopa|1
+|-damage|p2a: Weavile|35/100 tox|[from] item: Life Orb
+|
+|-damage|p2a: Weavile|29/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743817461
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Weavile|Knock Off|p1a: Iron Treads
+|-damage|p1a: Iron Treads|40/100
+|-enditem|p1a: Iron Treads|Assault Vest|[from] move: Knock Off|[of] p2a: Weavile
+|-damage|p2a: Weavile|19/100 tox|[from] item: Life Orb
+|
+|-damage|p2a: Weavile|7/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743817469
+|move|p2a: Weavile|Triple Axel|p1a: Iron Treads
+|-damage|p1a: Iron Treads|27/100
+|-hitcount|p1a: Iron Treads|1
+|-damage|p2a: Weavile|0 fnt|[from] item: Life Orb
+|faint|p2a: Weavile
+|move|p1a: Iron Treads|Rapid Spin|p2: Weavile|[notarget]
+|-fail|p1a: Iron Treads
+|
+|upkeep
+|
+|t:|1743817478
+|switch|p2a: Latias|Latias, F|100/100
+|-damage|p2a: Latias|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743817483
+|move|p1a: Iron Treads|Iron Head|p2a: Latias
+|-damage|p2a: Latias|53/100
+|cant|p2a: Latias|flinch
+|
+|-heal|p2a: Latias|59/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743817488
+|move|p1a: Iron Treads|Iron Head|p2a: Latias
+|-damage|p2a: Latias|24/100
+|move|p2a: Latias|Agility|p2a: Latias
+|-boost|p2a: Latias|spe|2
+|
+|-heal|p2a: Latias|31/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743817494
+|move|p2a: Latias|Draining Kiss|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-crit|p1a: Iron Treads
+|-damage|p1a: Iron Treads|12/100
+|-heal|p2a: Latias|41/100|[from] drain|[of] p1a: Iron Treads
+|move|p1a: Iron Treads|Iron Head|p2a: Latias
+|-damage|p2a: Latias|10/100
+|
+|-heal|p2a: Latias|16/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743817497
+|move|p2a: Latias|Draining Kiss|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|3/100
+|-heal|p2a: Latias|22/100|[from] drain|[of] p1a: Iron Treads
+|move|p1a: Iron Treads|Iron Head|p2a: Latias
+|-damage|p2a: Latias|0 fnt
+|faint|p2a: Latias
+|
+|upkeep
+|
+|t:|1743817501
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-sideend|p2: SSE|move: Toxic Spikes|[of] p2a: Glimmora
+|-damage|p2a: Glimmora|88/100|[from] Stealth Rock
+|turn|21
+|-message|SSE forfeited.
+|
+|win|quolius
+|raw|quolius's rating: 1338 &rarr; <strong>1359</strong><br />(+21 for winning)
+|raw|SSE's rating: 1351 &rarr; <strong>1330</strong><br />(-21 for losing)
+|l|☆SSE
+|player|p2|
+|l|☆quolius
+|player|p1|

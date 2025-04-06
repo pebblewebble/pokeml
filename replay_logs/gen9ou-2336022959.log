@@ -1,0 +1,153 @@
+|j|☆AscentPhoenix
+|j|☆Vangnex
+|t:|1743870908
+|gametype|singles
+|player|p1|AscentPhoenix|gambler|1062
+|player|p2|Vangnex|lady|1080
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Sceptile, F|
+|poke|p1|Rillaboom, F|
+|poke|p1|Garganacl, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Cinderace, F|
+|poke|p2|Glimmora, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Ursaluna, F|
+|poke|p2|Ursaring, F|
+|poke|p2|Zangoose, M|
+|poke|p2|Conkeldurr, F|
+|teampreview
+|
+|t:|1743870916
+|start
+|switch|p1a: Sceptile|Sceptile, F, shiny|100/100
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|turn|1
+|
+|t:|1743870925
+|move|p1a: Sceptile|Giga Drain|p2a: Glimmora
+|-damage|p2a: Glimmora|38/100
+|-damage|p1a: Sceptile|91/100|[from] item: Life Orb
+|move|p2a: Glimmora|Sludge Wave|p1a: Sceptile
+|-supereffective|p1a: Sceptile
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|
+|upkeep
+|
+|t:|1743870938
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|-ability|p1a: Basculegion|Mold Breaker
+|turn|2
+|
+|t:|1743870945
+|move|p2a: Glimmora|Power Gem|p1a: Basculegion
+|-damage|p1a: Basculegion|49/100
+|move|p1a: Basculegion|Agility|p1a: Basculegion
+|-boost|p1a: Basculegion|spe|2
+|
+|upkeep
+|turn|3
+|
+|t:|1743870953
+|move|p1a: Basculegion|Surf|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-crit|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1743870966
+|switch|p2a: Zangoose|Zangoose, M|100/100
+|turn|4
+|
+|t:|1743870973
+|move|p1a: Basculegion|Endure|p1a: Basculegion
+|-singleturn|p1a: Basculegion|move: Endure
+|move|p2a: Zangoose|Knock Off|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-activate|p1a: Basculegion|move: Endure
+|-damage|p1a: Basculegion|1/100
+|-enditem|p1a: Basculegion|Weakness Policy
+|-boost|p1a: Basculegion|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Basculegion|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|5
+|
+|t:|1743870990
+|move|p1a: Basculegion|Surf|p2a: Zangoose
+|-damage|p2a: Zangoose|0 fnt
+|faint|p2a: Zangoose
+|
+|upkeep
+|
+|t:|1743871002
+|switch|p2a: Ursaring|Ursaring, F|100/100
+|turn|6
+|
+|t:|1743871007
+|move|p1a: Basculegion|Surf|p2a: Ursaring
+|-damage|p2a: Ursaring|27/100
+|move|p2a: Ursaring|Fire Punch|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|upkeep
+|
+|t:|1743871017
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|7
+|
+|t:|1743871024
+|move|p1a: Cinderace|U-turn|p2a: Ursaring
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p2a: Ursaring|0 fnt
+|faint|p2a: Ursaring
+|
+|t:|1743871032
+|switch|p1a: Garganacl|Garganacl, M|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743871056
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|turn|8
+|
+|t:|1743871061
+|-terastallize|p1a: Garganacl|Fighting
+|move|p2a: Conkeldurr|Drain Punch|p1a: Garganacl
+|-damage|p1a: Garganacl|66/100
+|-damage|p2a: Conkeldurr|84/100|[from] item: Rocky Helmet|[of] p1a: Garganacl
+|move|p1a: Garganacl|Salt Cure|p2a: Conkeldurr
+|-resisted|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|78/100
+|-start|p2a: Conkeldurr|Salt Cure
+|
+|-damage|p2a: Conkeldurr|66/100|[from] Salt Cure
+|upkeep
+|turn|9
+|-message|Vangnex forfeited.
+|
+|win|AscentPhoenix
+|raw|AscentPhoenix's rating: 1062 &rarr; <strong>1094</strong><br />(+32 for winning)
+|raw|Vangnex's rating: 1080 &rarr; <strong>1057</strong><br />(-23 for losing)
+|l|☆Vangnex
+|player|p2|
+|l|☆AscentPhoenix
+|player|p1|

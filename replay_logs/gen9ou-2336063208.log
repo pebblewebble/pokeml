@@ -1,0 +1,271 @@
+|j|☆Wahter
+|j|☆chemnuoc
+|t:|1743875024
+|gametype|singles
+|player|p1|Wahter|101|1148
+|player|p2|chemnuoc|169|1161
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Glimmora, F|
+|poke|p1|Dondozo, F|
+|poke|p1|Kommo-o, M|
+|poke|p1|Mienshao, F|
+|poke|p1|Ariados, F|
+|poke|p1|Okidogi, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Iron Moth|
+|poke|p2|Zapdos|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Clefable, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Wahter)
+|
+|t:|1743875028
+|start
+|switch|p1a: Ariados|Ariados, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|t:|1743875035
+|move|p2a: Great Tusk|Earthquake|p1a: Ariados
+|-enditem|p1a: Ariados|Focus Sash
+|-damage|p1a: Ariados|1/100
+|move|p1a: Ariados|Sticky Web|p2a: Great Tusk
+|-sidestart|p2: chemnuoc|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743875042
+|move|p2a: Great Tusk|Earthquake|p1a: Ariados
+|-damage|p1a: Ariados|0 fnt
+|faint|p1a: Ariados
+|
+|upkeep
+|
+|t:|1743875053
+|switch|p1a: Kommo-o|Kommo-o, M, shiny|100/100
+|turn|3
+|
+|t:|1743875070
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Kommo-o|atk|1
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|68/100
+|-enditem|p1a: Kommo-o|Throat Spray
+|-boost|p1a: Kommo-o|spa|1|[from] item: Throat Spray
+|
+|upkeep
+|turn|4
+|
+|t:|1743875078
+|move|p2a: Landorus|Stone Edge|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|56/100
+|move|p1a: Kommo-o|Clanging Scales|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|-unboost|p1a: Kommo-o|def|1
+|
+|upkeep
+|inactive|chemnuoc has 120 seconds left.
+|
+|t:|1743875109
+|switch|p2a: Clefable|Clefable, F|100/100
+|-activate|p2a: Clefable|move: Sticky Web
+|-unboost|p2a: Clefable|spe|1
+|turn|5
+|
+|t:|1743875115
+|move|p1a: Kommo-o|Boomburst|p2a: Clefable
+|-damage|p2a: Clefable|13/100
+|move|p2a: Clefable|Moonblast|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|-heal|p2a: Clefable|19/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743875120
+|switch|p1a: Okidogi|Okidogi, M|100/100
+|turn|6
+|
+|t:|1743875125
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Okidogi|Iron Head|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|
+|-heal|p2a: Clefable|25/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743875135
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Okidogi|Iron Head|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|85/100
+|
+|upkeep
+|turn|8
+|inactive|chemnuoc has 120 seconds left.
+|
+|t:|1743875168
+|move|p2a: Zapdos|Thunder Wave|p1a: Okidogi
+|-status|p1a: Okidogi|par
+|move|p1a: Okidogi|Gunk Shot|p2a: Zapdos
+|-damage|p2a: Zapdos|10/100
+|-status|p2a: Zapdos|tox|[from] ability: Toxic Chain|[of] p1a: Okidogi
+|
+|-damage|p2a: Zapdos|4/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743875180
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|54/100 tox
+|-singleturn|p2a: Zapdos|move: Roost
+|move|p1a: Okidogi|Knock Off|p2a: Zapdos
+|-damage|p2a: Zapdos|16/100 tox
+|-enditem|p2a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Okidogi
+|
+|-damage|p2a: Zapdos|3/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743875190
+|move|p2a: Zapdos|Thunder|p1a: Okidogi
+|-damage|p1a: Okidogi|66/100 par
+|move|p1a: Okidogi|Iron Head|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1743875200
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-activate|p2a: Iron Moth|move: Sticky Web
+|-unboost|p2a: Iron Moth|spe|1
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|11
+|
+|t:|1743875219
+|move|p2a: Iron Moth|Psychic|p1a: Okidogi
+|-supereffective|p1a: Okidogi
+|-damage|p1a: Okidogi|0 fnt
+|faint|p1a: Okidogi
+|
+|upkeep
+|
+|t:|1743875226
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|turn|12
+|
+|t:|1743875235
+|-terastallize|p2a: Iron Moth|Flying
+|move|p2a: Iron Moth|Sludge Wave|p1a: Dondozo
+|-damage|p1a: Dondozo|44/100
+|move|p1a: Dondozo|Wave Crash|p2a: Iron Moth
+|-damage|p2a: Iron Moth|21/100
+|-damage|p1a: Dondozo|29/100|[from] Recoil
+|
+|-heal|p1a: Dondozo|35/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743875239
+|move|p2a: Iron Moth|Sludge Wave|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|
+|upkeep
+|
+|t:|1743875242
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|turn|14
+|
+|t:|1743875250
+|move|p1a: Glimmora|Sludge Wave|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743875254
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|move: Sticky Web
+|-unboost|p2a: Great Tusk|spe|1
+|turn|15
+|
+|t:|1743875259
+|move|p1a: Glimmora|Meteor Beam||[still]
+|-prepare|p1a: Glimmora|Meteor Beam
+|-boost|p1a: Glimmora|spa|1
+|-enditem|p1a: Glimmora|Power Herb
+|-anim|p1a: Glimmora|Meteor Beam|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|64/100
+|move|p2a: Great Tusk|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: chemnuoc|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1743875260
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|turn|16
+|
+|t:|1743875269
+|move|p1a: Mienshao|Triple Axel|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|47/100
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|15/100
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-hitcount|p2: Great Tusk|3
+|
+|upkeep
+|
+|t:|1743875273
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|17
+|-message|Wahter forfeited.
+|
+|win|chemnuoc
+|raw|Wahter's rating: 1148 &rarr; <strong>1124</strong><br />(-24 for losing)
+|raw|chemnuoc's rating: 1161 &rarr; <strong>1185</strong><br />(+24 for winning)
+|l|☆Wahter
+|player|p1|
+|l|☆chemnuoc
+|player|p2|

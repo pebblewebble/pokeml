@@ -1,0 +1,220 @@
+|j|☆bellingham is mine
+|j|☆weiweihu
+|t:|1743917063
+|gametype|singles
+|player|p1|bellingham is mine|skier|1171
+|player|p2|weiweihu|cynthia|1214
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Corviknight, F|
+|poke|p1|Skeledirge, F|
+|poke|p1|Latias, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Mew|
+|poke|p2|Kleavor, F|
+|poke|p2|Gholdengo|
+|poke|p2|Hydreigon, F|
+|poke|p2|Iron Moth|
+|poke|p2|Ogerpon, F|
+|poke|p2|Tyranitar, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by weiweihu)
+|
+|t:|1743917093
+|start
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-ability|p1a: Corviknight|Pressure
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|1
+|
+|t:|1743917104
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Iron Moth|Sludge Wave|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|86/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743917114
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|move|p1a: Slowking|Future Sight|p2a: Kleavor
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|3
+|
+|t:|1743917119
+|move|p2a: Kleavor|Stone Axe|p1a: Slowking
+|-damage|p1a: Slowking|41/100
+|-sidestart|p1: bellingham is mine|move: Stealth Rock
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743917128
+|switch|p1a: Latias|Latias, F|100/100|[from] Chilly Reception
+|-damage|p1a: Latias|88/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743917135
+|move|p1a: Latias|Agility|p1a: Latias
+|-boost|p1a: Latias|spe|2
+|move|p2a: Kleavor|U-turn|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|10/100
+|-enditem|p1a: Latias|Weakness Policy
+|-boost|p1a: Latias|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Latias|spa|2|[from] item: Weakness Policy
+|
+|t:|1743917145
+|switch|p2a: Tyranitar|Tyranitar, F, shiny|100/100|[from] U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latias|4/100|[from] Sandstorm
+|-end|p2a: Tyranitar|move: Future Sight
+|-immune|p2a: Tyranitar
+|upkeep
+|turn|5
+|
+|t:|1743917150
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|move|p1a: Latias|Draco Meteor|p2a: Kleavor
+|-crit|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|-unboost|p1a: Latias|spa|2
+|faint|p2a: Kleavor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Latias|0 fnt|[from] Sandstorm
+|faint|p1a: Latias
+|upkeep
+|
+|t:|1743917164
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|turn|6
+|
+|t:|1743917170
+|move|p2a: Gholdengo|Thunder Wave|p1a: Corviknight
+|-status|p1a: Corviknight|par
+|move|p1a: Corviknight|U-turn|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|98/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|t:|1743917178
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ogerpon|82/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1743917188
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Gholdengo|[anim] Ivy Cudgel Water
+|-damage|p2a: Gholdengo|50/100
+|move|p2a: Gholdengo|Thunder Wave|p1a: Ogerpon
+|-status|p1a: Ogerpon|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ogerpon|76/100 par|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1743917194
+|move|p2a: Gholdengo|Hex|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-weather|none
+|upkeep
+|
+|t:|1743917199
+|switch|p1a: Mew|Mew, shiny|100/100
+|-damage|p1a: Mew|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743917204
+|move|p1a: Mew|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|23/100
+|move|p2a: Gholdengo|Hex|p1a: Mew
+|-supereffective|p1a: Mew
+|-damage|p1a: Mew|32/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743917216
+|switch|p1a: Corviknight|Corviknight, F|88/100 par
+|-damage|p1a: Corviknight|76/100 par|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Gholdengo|Hex|p1a: Corviknight
+|-damage|p1a: Corviknight|13/100 par
+|
+|upkeep
+|turn|11
+|
+|t:|1743917219
+|move|p2a: Gholdengo|Hex|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1743917221
+|switch|p1a: Skeledirge|Skeledirge, F|100/100
+|turn|12
+|
+|t:|1743917227
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-terastallize|p1a: Skeledirge|Fairy
+|move|p1a: Skeledirge|Torch Song|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|88/100
+|-boost|p1a: Skeledirge|spa|1
+|
+|upkeep
+|turn|13
+|
+|t:|1743917233
+|move|p2a: Iron Moth|Sludge Wave|p1a: Skeledirge
+|-supereffective|p1a: Skeledirge
+|-damage|p1a: Skeledirge|0 fnt
+|faint|p1a: Skeledirge
+|
+|upkeep
+|-message|bellingham is mine forfeited.
+|
+|win|weiweihu
+|raw|bellingham is mine's rating: 1171 &rarr; <strong>1149</strong><br />(-22 for losing)
+|raw|weiweihu's rating: 1214 &rarr; <strong>1236</strong><br />(+22 for winning)
+|l|☆bellingham is mine
+|player|p1|
+|l|☆weiweihu
+|player|p2|

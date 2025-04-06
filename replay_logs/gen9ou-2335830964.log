@@ -1,0 +1,358 @@
+|j|☆Aure35190
+|j|☆ollin34
+|t:|1743844447
+|gametype|singles
+|player|p1|Aure35190|red|1190
+|player|p2|ollin34|170|1208
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ambipom, F|
+|poke|p1|Gholdengo|
+|poke|p1|Kingambit, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Meowscarada, F|
+|poke|p1|Corviknight, F|
+|poke|p2|Tinkaton, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Skeledirge, F|
+|poke|p2|Meowscarada, M|
+|poke|p2|Galvantula, M|
+|teampreview
+|
+|t:|1743844452
+|start
+|switch|p1a: Ambipom|Ambipom, F|100/100
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-item|p2a: Tinkaton|Air Balloon
+|turn|1
+|
+|t:|1743844461
+|move|p1a: Ambipom|Fake Out|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|87/100
+|-enditem|p2a: Tinkaton|Air Balloon
+|-enditem|p1a: Ambipom|Silk Scarf|[silent]|[from] ability: Pickpocket|[of] p1a: Ambipom
+|-item|p2a: Tinkaton|Silk Scarf|[from] ability: Pickpocket|[of] p1a: Ambipom
+|cant|p2a: Tinkaton|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1743844477
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Tinkaton|Thunder Wave|p1a: Corviknight|[miss]
+|-miss|p2a: Tinkaton|p1a: Corviknight
+|
+|upkeep
+|turn|3
+|
+|t:|1743844486
+|move|p2a: Tinkaton|Thunder Wave|p1a: Corviknight
+|-status|p1a: Corviknight|par
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|upkeep
+|turn|4
+|
+|t:|1743844495
+|move|p2a: Tinkaton|Encore|p1a: Corviknight
+|-start|p1a: Corviknight|Encore
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|upkeep
+|turn|5
+|
+|t:|1743844510
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Tinkaton|Stealth Rock|p1a: Gholdengo
+|-sidestart|p1: Aure35190|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1743844520
+|move|p2a: Tinkaton|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|63/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Shadow Ball|p2a: Tinkaton
+|-damage|p2a: Tinkaton|51/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743844539
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|-terastallize|p1a: Gholdengo|Steel
+|move|p1a: Gholdengo|Shadow Ball|p2a: Galvantula
+|-damage|p2a: Galvantula|25/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743844553
+|switch|p2a: Ursaluna|Ursaluna, F|100/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Ursaluna
+|-immune|p2a: Ursaluna
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|t:|1743844572
+|switch|p1a: Corviknight|Corviknight, F|100/100 par
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ursaluna|Close Combat|p1a: Corviknight
+|-crit|p1a: Corviknight
+|-damage|p1a: Corviknight|19/100 par
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743844584
+|switch|p2a: Tinkaton|Tinkaton, F|51/100
+|cant|p1a: Corviknight|par
+|
+|upkeep
+|turn|11
+|
+|t:|1743844595
+|switch|p1a: Gholdengo|Gholdengo, tera:Steel|63/100
+|-damage|p1a: Gholdengo|57/100|[from] Stealth Rock
+|move|p2a: Tinkaton|Knock Off|p1a: Gholdengo
+|-damage|p1a: Gholdengo|44/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743844605
+|move|p2a: Tinkaton|Encore|p1a: Gholdengo
+|-immune|p1a: Gholdengo|[from] ability: Good as Gold
+|move|p1a: Gholdengo|Shadow Ball|p2a: Tinkaton
+|-damage|p2a: Tinkaton|12/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743844616
+|move|p2a: Tinkaton|Knock Off|p1a: Gholdengo
+|-damage|p1a: Gholdengo|33/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|
+|upkeep
+|
+|t:|1743844622
+|switch|p2a: Ursaluna|Ursaluna, F|94/100 brn
+|turn|14
+|
+|t:|1743844628
+|move|p1a: Gholdengo|Make It Rain|p2a: Ursaluna
+|-damage|p2a: Ursaluna|24/100 brn
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2a: Ursaluna|Facade|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-damage|p2a: Ursaluna|18/100 brn|[from] brn
+|upkeep
+|
+|t:|1743844641
+|switch|p1a: Ambipom|Ambipom, F|100/100
+|-damage|p1a: Ambipom|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743844647
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Ambipom|Fake Out|p2a: Gliscor
+|-damage|p2a: Gliscor|78/100
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|16
+|
+|t:|1743844655
+|move|p1a: Ambipom|Triple Axel|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|47/100 tox
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|-hitcount|p2: Gliscor|2
+|
+|upkeep
+|
+|t:|1743844658
+|switch|p2a: Skeledirge|Skeledirge, F|100/100
+|turn|17
+|
+|t:|1743844667
+|switch|p1a: Corviknight|Corviknight, F|19/100 par
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Skeledirge|Torch Song|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1743844678
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1743844683
+|-terastallize|p2a: Skeledirge|Fairy
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Skeledirge|[anim] Ivy Cudgel Water
+|-damage|p2a: Skeledirge|53/100
+|move|p2a: Skeledirge|Torch Song|p1a: Ogerpon
+|-damage|p1a: Ogerpon|17/100
+|-boost|p2a: Skeledirge|spa|1
+|
+|upkeep
+|turn|19
+|
+|t:|1743844695
+|move|p1a: Ogerpon|Knock Off|p2a: Skeledirge
+|-resisted|p2a: Skeledirge
+|-damage|p2a: Skeledirge|37/100
+|-enditem|p2a: Skeledirge|Assault Vest|[from] move: Knock Off|[of] p1a: Ogerpon
+|move|p2a: Skeledirge|Torch Song|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|-boost|p2a: Skeledirge|spa|1
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743844706
+|switch|p1a: Ambipom|Ambipom, F|88/100
+|-damage|p1a: Ambipom|76/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743844711
+|move|p1a: Ambipom|Fake Out|p2a: Skeledirge
+|-damage|p2a: Skeledirge|13/100
+|cant|p2a: Skeledirge|flinch
+|
+|upkeep
+|turn|21
+|
+|t:|1743844732
+|move|p1a: Ambipom|Trailblaze|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|-boost|p1a: Ambipom|spe|1
+|faint|p2a: Skeledirge
+|
+|upkeep
+|
+|t:|1743844737
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|turn|22
+|
+|t:|1743844742
+|move|p1a: Ambipom|Triple Axel|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|75/100
+|-hitcount|p2a: Meowscarada|1
+|move|p2a: Meowscarada|Play Rough|p1a: Ambipom
+|-start|p2a: Meowscarada|typechange|Fairy|[from] ability: Protean
+|-damage|p1a: Ambipom|0 fnt
+|faint|p1a: Ambipom
+|
+|upkeep
+|
+|t:|1743844756
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|-damage|p1a: Meowscarada|88/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1743844760
+|move|p2a: Meowscarada|Play Rough|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|upkeep
+|
+|t:|1743844766
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|24
+|
+|t:|1743844772
+|move|p1a: Kingambit|Sucker Punch|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|27/100
+|move|p2a: Meowscarada|Play Rough|p1a: Kingambit
+|-damage|p1a: Kingambit|50/100
+|
+|upkeep
+|turn|25
+|
+|t:|1743844779
+|switch|p2a: Galvantula|Galvantula, M|25/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|upkeep
+|turn|26
+|
+|t:|1743844785
+|move|p1a: Kingambit|Sucker Punch|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|upkeep
+|
+|t:|1743844787
+|switch|p2a: Ursaluna|Ursaluna, F|18/100 brn
+|turn|27
+|
+|t:|1743844792
+|move|p1a: Kingambit|Sucker Punch|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1743844793
+|switch|p2a: Meowscarada|Meowscarada, M|27/100
+|turn|28
+|
+|t:|1743844798
+|move|p1a: Kingambit|Sucker Punch|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|win|Aure35190
+|raw|Aure35190's rating: 1190 &rarr; <strong>1216</strong><br />(+26 for winning)
+|raw|ollin34's rating: 1208 &rarr; <strong>1182</strong><br />(-26 for losing)
+|l|☆ollin34
+|player|p2|
+|l|☆Aure35190
+|player|p1|

@@ -1,0 +1,297 @@
+|j|☆ChessDennis
+|j|☆thebigclimb
+|t:|1743831707
+|gametype|singles
+|player|p1|ChessDennis|101|1453
+|player|p2|thebigclimb|burglar|1485
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hydreigon, F|
+|poke|p1|Gholdengo|
+|poke|p1|Dragapult, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Raging Bolt|
+|poke|p2|Cinderace, F|
+|poke|p2|Garchomp, F|
+|poke|p2|Scizor, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Slowking-Galar, M|
+|teampreview
+|
+|t:|1743831728
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Scizor|Scizor, M|100/100
+|turn|1
+|
+|t:|1743831734
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Scizor
+|-status|p2a: Scizor|brn
+|move|p2a: Scizor|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|24/100
+|-enditem|p1a: Dragapult|Eject Pack|[from] move: Knock Off|[of] p2a: Scizor
+|
+|-damage|p2a: Scizor|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1743831743
+|move|p1a: Dragapult|Draco Meteor|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|54/100 brn
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Scizor|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Scizor|48/100 brn|[from] brn
+|upkeep
+|
+|t:|1743831749
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Scizor|atk|1
+|turn|3
+|
+|t:|1743831755
+|move|p1a: Landorus|Stealth Rock|p2a: Scizor
+|-sidestart|p2: thebigclimb|move: Stealth Rock
+|move|p2a: Scizor|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|83/100
+|-damage|p2a: Scizor|31/100 brn|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-enditem|p1a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p2a: Scizor
+|
+|-damage|p2a: Scizor|25/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743831764
+|move|p1a: Landorus|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|upkeep
+|
+|t:|1743831771
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1743831777
+|move|p1a: Landorus|Taunt|p2a: Garchomp
+|-start|p2a: Garchomp|move: Taunt
+|cant|p2a: Garchomp|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1743831782
+|move|p1a: Landorus|Earthquake|p2a: Garchomp
+|-damage|p2a: Garchomp|65/100
+|move|p2a: Garchomp|Dragon Tail|p1a: Landorus
+|-damage|p1a: Landorus|57/100
+|drag|p1a: Gholdengo|Gholdengo|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743831792
+|move|p1a: Gholdengo|Dazzling Gleam|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1743831805
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|8
+|
+|t:|1743831809
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|move|p2a: Cinderace|U-turn|p1a: Raging Bolt
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Raging Bolt|74/100
+|
+|t:|1743831818
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from] U-turn
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|9
+|
+|t:|1743831824
+|move|p2a: Dragapult|Draco Meteor|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743831829
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|10
+|
+|t:|1743831836
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|35/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743831844
+|move|p1a: Gholdengo|Shadow Ball|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1743831856
+|switch|p2a: Dragapult|Dragapult, F|88/100
+|-damage|p2a: Dragapult|76/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1743831867
+|move|p2a: Dragapult|Draco Meteor|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|62/100
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Gholdengo|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1743831883
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|13
+|
+|t:|1743831887
+|switch|p1a: Landorus|Landorus-Therian, M|57/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|14
+|
+|t:|1743831902
+|move|p2a: Cinderace|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|50/100
+|
+|t:|1743831906
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Landorus|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|40/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743831914
+|move|p2a: Iron Valiant|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743831918
+|switch|p1a: Gholdengo|Gholdengo|62/100
+|-damage|p1a: Gholdengo|56/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743831922
+|move|p2a: Iron Valiant|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-enditem|p1a: Gholdengo|Choice Specs|[from] move: Knock Off|[of] p2a: Iron Valiant
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743831925
+|switch|p1a: Hydreigon|Hydreigon, F|100/100
+|-damage|p1a: Hydreigon|88/100|[from] Stealth Rock
+|turn|17
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ChessDennis)
+|
+|t:|1743831967
+|-terastallize|p1a: Hydreigon|Steel
+|move|p2a: Iron Valiant|Close Combat|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|faint|p1a: Hydreigon
+|
+|upkeep
+|
+|t:|1743831971
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|turn|18
+|c|☆thebigclimb|!dt ogerpon-wellspring
+|raw|<div class="message"><ul class="utilichart"><li class="result"><span class="col numcol">OU</span> <span class="col iconcol"><psicon pokemon="ogerponwellspring"/></span> <span class="col pokemonnamecol" style="white-space:nowrap"><a href="https://dex.pokemonshowdown.com/pokemon/ogerponwellspring" target="_blank">Ogerpon-Wellspring</a></span> <span class="col typecol"><img src="https://play.pokemonshowdown.com/sprites/types/Grass.png" alt="Grass" height="14" width="32"><img src="https://play.pokemonshowdown.com/sprites/types/Water.png" alt="Water" height="14" width="32"></span> <span style="float:left;min-height:26px"><span class="col abilitycol">Water Absorb</span><span class="col abilitycol"></span></span><span style="float:left;min-height:26px"><span class="col statcol"><em>HP</em><br />80</span> <span class="col statcol"><em>Atk</em><br />120</span> <span class="col statcol"><em>Def</em><br />84</span> <span class="col statcol"><em>SpA</em><br />60</span> <span class="col statcol"><em>SpD</em><br />96</span> <span class="col statcol"><em>Spe</em><br />110</span> <span class="col bstcol"><em>BST<br />550</em></span> </span></li><li style="clear:both"></li></ul></div>
+|raw|<font size="1"><font color="#686868">Dex#:</font> 1017&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 9&nbsp;|&ThickSpace;<font color="#686868">Height:</font> 1.2 m&nbsp;|&ThickSpace;<font color="#686868">Weight:</font> 39.8 kg <em>(60 BP)</em>&nbsp;|&ThickSpace;<font color="#686868">Dex Colour:</font> Blue&nbsp;|&ThickSpace;<font color="#686868">Egg Group(s):</font> Undiscovered&nbsp;|&ThickSpace;<font color="#686868">Does Not Evolve</font></font>
+
+|inactive|thebigclimb has 120 seconds left.
+|
+|t:|1743832004
+|move|p2a: Iron Valiant|Close Combat|p1a: Ogerpon
+|-damage|p1a: Ogerpon|18/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Iron Valiant|[anim] Ivy Cudgel Water
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|inactive|thebigclimb has 120 seconds left.
+|
+|t:|1743832013
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|19
+|
+|t:|1743832016
+|move|p2a: Cinderace|U-turn|p1a: Ogerpon
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|win|thebigclimb
+|raw|ChessDennis's rating: 1453 &rarr; <strong>1435</strong><br />(-18 for losing)
+|raw|thebigclimb's rating: 1485 &rarr; <strong>1503</strong><br />(+18 for winning)
+|c|☆thebigclimb|gg
+|l|☆ChessDennis
+|player|p1|
+|l|☆thebigclimb
+|player|p2|

@@ -1,0 +1,436 @@
+|j|☆MegaMarowak usher
+|j|☆bakabomb
+|t:|1743827148
+|gametype|singles
+|player|p1|MegaMarowak usher|1|1203
+|player|p2|bakabomb|eusine|1179
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gliscor, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Mienshao, F|
+|poke|p1|Quaquaval, F|
+|poke|p1|Sableye, M|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p2|Reuniclus, F|
+|poke|p2|Porygon2|
+|poke|p2|Kingambit, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Chandelure, M|
+|poke|p2|Conkeldurr, F|
+|teampreview
+|
+|t:|1743827156
+|start
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Regenerator|[from] ability: Trace|[of] p1a: Mienshao
+|turn|1
+|
+|t:|1743827165
+|move|p1a: Mienshao|Fake Out|p2a: Porygon2
+|-damage|p2a: Porygon2|88/100
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|cant|p2a: Porygon2|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1743827175
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|upkeep
+|turn|3
+|
+|t:|1743827202
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|move|p1a: Slowking|Flamethrower|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|64/100
+|
+|-status|p2a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1743827219
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Conkeldurr|atk|1
+|move|p2a: Conkeldurr|Facade|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|76/100
+|
+|-damage|p2a: Conkeldurr|58/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743827239
+|move|p2a: Conkeldurr|Bulk Up|p2a: Conkeldurr
+|-boost|p2a: Conkeldurr|atk|1
+|-boost|p2a: Conkeldurr|def|1
+|move|p1a: Arcanine|Heat Crash|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|48/100 brn
+|
+|-damage|p2a: Conkeldurr|42/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743827254
+|switch|p1a: Sableye|Sableye, M|100/100
+|move|p2a: Conkeldurr|Drain Punch|p1a: Sableye
+|-immune|p1a: Sableye
+|
+|-damage|p2a: Conkeldurr|36/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1743827265
+|move|p1a: Sableye|Encore|p2a: Conkeldurr
+|-start|p2a: Conkeldurr|Encore
+|move|p2a: Conkeldurr|Drain Punch|p1a: Sableye
+|-immune|p1a: Sableye
+|
+|-damage|p2a: Conkeldurr|30/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743827273
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Prankster|[from] ability: Trace|[of] p1a: Sableye
+|move|p1a: Sableye|Reflect|p1a: Sableye
+|-sidestart|p1: MegaMarowak usher|Reflect
+|
+|upkeep
+|turn|9
+|
+|t:|1743827283
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|upkeep
+|turn|10
+|
+|t:|1743827294
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|move|p1a: Slowking|Surf|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-damage|p2a: Chandelure|30/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743827327
+|-terastallize|p1a: Slowking|Poison
+|move|p1a: Slowking|Surf|p2a: Chandelure
+|-supereffective|p2a: Chandelure
+|-crit|p2a: Chandelure
+|-damage|p2a: Chandelure|0 fnt
+|faint|p2a: Chandelure
+|
+|upkeep
+|
+|t:|1743827363
+|switch|p2a: Reuniclus|Reuniclus, F, shiny|100/100
+|turn|12
+|
+|t:|1743827375
+|switch|p1a: Sableye|Sableye, M|100/100
+|move|p2a: Reuniclus|Psychic|p1a: Sableye
+|-immune|p1a: Sableye
+|
+|upkeep
+|turn|13
+|
+|t:|1743827398
+|-terastallize|p2a: Reuniclus|Fairy
+|move|p2a: Reuniclus|Tera Blast|p1a: Sableye|[anim] Tera Blast Fairy
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743827425
+|switch|p1a: Slowking|Slowking-Galar, F, tera:Poison|100/100
+|turn|14
+|
+|t:|1743827521
+|move|p1a: Slowking|Sludge Bomb|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|upkeep
+|
+|t:|1743827524
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|turn|15
+|
+|t:|1743827541
+|switch|p1a: Arcanine|Arcanine-Hisui, F|76/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-sideend|p1: MegaMarowak usher|Reflect
+|upkeep
+|turn|16
+|
+|t:|1743827607
+|move|p1a: Arcanine|Will-O-Wisp|p2a: Kingambit
+|-status|p2a: Kingambit|brn
+|move|p2a: Kingambit|Substitute|p2a: Kingambit
+|-start|p2a: Kingambit|Substitute
+|-damage|p2a: Kingambit|75/100 brn
+|
+|-damage|p2a: Kingambit|69/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743827622
+|move|p1a: Arcanine|Heat Crash|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-activate|p2a: Kingambit|move: Substitute|[damage]
+|-enditem|p2a: Kingambit|Air Balloon
+|move|p2a: Kingambit|Iron Head|p1a: Arcanine
+|-crit|p1a: Arcanine
+|-damage|p1a: Arcanine|15/100
+|
+|-damage|p2a: Kingambit|63/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743827647
+|switch|p1a: Gliscor|Gliscor, F, shiny|100/100
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-damage|p2a: Kingambit|57/100 brn|[from] brn
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|19
+|
+|t:|1743827674
+|move|p1a: Gliscor|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-end|p2a: Kingambit|Substitute
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-damage|p2a: Kingambit|51/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1743827694
+|move|p2a: Kingambit|Sucker Punch|p1a: Gliscor
+|-damage|p1a: Gliscor|59/100 tox
+|move|p1a: Gliscor|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|7/100 brn
+|
+|-heal|p1a: Gliscor|72/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Kingambit|1/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1743827763
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|47/100 tox
+|
+|-heal|p1a: Gliscor|59/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Kingambit|0 fnt|[from] brn
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|upkeep
+|
+|t:|1743827765
+|switch|p2a: Porygon2|Porygon2|100/100
+|-ability|p2a: Porygon2|Poison Heal|[from] ability: Trace|[of] p1a: Gliscor
+|turn|22
+|
+|t:|1743827781
+|move|p1a: Gliscor|Toxic|p2a: Porygon2
+|-status|p2a: Porygon2|tox
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|-heal|p1a: Gliscor|72/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|
+|t:|1743827790
+|move|p2a: Porygon2|Ice Beam|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|move|p1a: Gliscor|Earthquake|p2a: Porygon2
+|-damage|p2a: Porygon2|81/100 tox
+|
+|-heal|p2a: Porygon2|94/100 tox|[from] ability: Poison Heal
+|-heal|p1a: Gliscor|84/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|
+|t:|1743827815
+|switch|p1a: Slowking|Slowking-Galar, F, tera:Poison|100/100
+|move|p2a: Porygon2|Ice Beam|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|84/100
+|
+|-heal|p2a: Porygon2|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|
+|t:|1743827902
+|move|p1a: Slowking|Future Sight|p2a: Porygon2
+|-start|p1a: Slowking|move: Future Sight
+|move|p2a: Porygon2|Tri Attack|p1a: Slowking
+|-damage|p1a: Slowking|68/100
+|
+|upkeep
+|turn|26
+|
+|t:|1743827914
+|move|p1a: Slowking|Sludge Bomb|p2a: Porygon2
+|-damage|p2a: Porygon2|70/100 tox
+|move|p2a: Porygon2|Tri Attack|p1a: Slowking
+|-damage|p1a: Slowking|53/100
+|
+|-heal|p2a: Porygon2|82/100 tox|[from] ability: Poison Heal
+|-fieldend|move: Trick Room
+|upkeep
+|turn|27
+|
+|t:|1743827929
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100 tox
+|move|p1a: Slowking|Sludge Bomb|p2a: Porygon2
+|-damage|p2a: Porygon2|71/100 tox
+|
+|-end|p2a: Porygon2|move: Future Sight
+|-damage|p2a: Porygon2|40/100 tox
+|-heal|p2a: Porygon2|53/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|
+|t:|1743827955
+|switch|p1a: Arcanine|Arcanine-Hisui, F|15/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Porygon2|atk|1
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100 tox
+|
+|upkeep
+|turn|29
+|
+|t:|1743827970
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|65/100
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|upkeep
+|turn|30
+|
+|t:|1743827978
+|move|p2a: Porygon2|Tri Attack|p1a: Arcanine
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|54/100
+|move|p1a: Arcanine|Morning Sun|p1a: Arcanine
+|-heal|p1a: Arcanine|100/100
+|
+|upkeep
+|turn|31
+|
+|t:|1743828066
+|switch|p2a: Conkeldurr|Conkeldurr, F|30/100 brn
+|move|p1a: Arcanine|Heat Crash|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|17/100 brn
+|
+|-damage|p2a: Conkeldurr|11/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1743828094
+|move|p2a: Conkeldurr|Drain Punch|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-enditem|p1a: Arcanine|Focus Sash
+|-damage|p1a: Arcanine|1/100
+|-heal|p2a: Conkeldurr|58/100 brn|[from] drain|[of] p1a: Arcanine
+|move|p1a: Arcanine|Heat Crash|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|46/100 brn
+|
+|-damage|p2a: Conkeldurr|40/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1743828113
+|switch|p1a: Gliscor|Gliscor, F, shiny|84/100 tox
+|move|p2a: Conkeldurr|Knock Off|p1a: Gliscor
+|-damage|p1a: Gliscor|47/100 tox
+|-enditem|p1a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p2a: Conkeldurr
+|
+|-heal|p1a: Gliscor|59/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Conkeldurr|34/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|34
+|
+|t:|1743828152
+|move|p1a: Gliscor|Earthquake|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|5/100 brn
+|move|p2a: Conkeldurr|Facade|p1a: Gliscor
+|-damage|p1a: Gliscor|7/100 tox
+|
+|-heal|p1a: Gliscor|19/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Conkeldurr|0 fnt|[from] brn
+|faint|p2a: Conkeldurr
+|upkeep
+|
+|t:|1743828157
+|switch|p2a: Porygon2|Porygon2|100/100 tox
+|-ability|p2a: Porygon2|Poison Heal|[from] ability: Trace|[of] p1a: Gliscor
+|turn|35
+|
+|t:|1743828176
+|switch|p1a: Slowking|Slowking-Galar, F, tera:Poison|86/100
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|upkeep
+|turn|36
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MegaMarowak usher)
+|inactive|bakabomb has 120 seconds left.
+|inactive|bakabomb has 90 seconds left.
+|inactive|bakabomb has 60 seconds left.
+|inactive|bakabomb has 30 seconds left.
+|inactive|bakabomb has 20 seconds left.
+|inactive|bakabomb has 15 seconds left.
+|inactive|bakabomb has 10 seconds left.
+|inactive|bakabomb has 5 seconds left.
+|-message|bakabomb lost due to inactivity.
+|
+|win|MegaMarowak usher
+|raw|MegaMarowak usher's rating: 1203 &rarr; <strong>1226</strong><br />(+23 for winning)
+|raw|bakabomb's rating: 1179 &rarr; <strong>1156</strong><br />(-23 for losing)

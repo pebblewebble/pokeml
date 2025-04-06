@@ -1,0 +1,415 @@
+|j|☆MegaMarowak usher
+|j|☆Melonnolem
+|t:|1743828404
+|gametype|singles
+|player|p1|MegaMarowak usher|1|1203
+|player|p2|Melonnolem|arven-s|1213
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gliscor, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Mienshao, F|
+|poke|p1|Quaquaval, F|
+|poke|p1|Sableye, M|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p2|Tinkaton, F|
+|poke|p2|Cinderace, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Pecharunt|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Darkrai|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Melonnolem)
+|
+|t:|1743828415
+|start
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-item|p2a: Tinkaton|Air Balloon
+|turn|1
+|
+|t:|1743828425
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-terastallize|p1a: Mienshao|Fighting
+|move|p1a: Mienshao|High Jump Kick|p2a: Pecharunt
+|-immune|p2a: Pecharunt
+|-damage|p1a: Mienshao|51/100|[from] highjumpkick
+|
+|upkeep
+|turn|2
+|
+|t:|1743828453
+|move|p1a: Mienshao|Knock Off|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|60/100
+|-damage|p1a: Mienshao|34/100|[from] item: Rocky Helmet|[of] p2a: Pecharunt
+|-enditem|p2a: Pecharunt|Rocky Helmet|[from] move: Knock Off|[of] p1a: Mienshao
+|-damage|p1a: Mienshao|24/100|[from] item: Life Orb
+|move|p2a: Pecharunt|Parting Shot|p1a: Mienshao
+|-unboost|p1a: Mienshao|atk|1
+|-unboost|p1a: Mienshao|spa|1
+|
+|t:|1743828458
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] Parting Shot
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Mienshao|atk|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743828475
+|switch|p1a: Sableye|Sableye, M|100/100
+|move|p2a: Landorus|U-turn|p1a: Sableye
+|-damage|p1a: Sableye|79/100
+|
+|t:|1743828483
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|4
+|
+|t:|1743828487
+|move|p1a: Sableye|Reflect|p1a: Sableye
+|-sidestart|p1: MegaMarowak usher|Reflect
+|move|p2a: Cinderace|Pyro Ball|p1a: Sableye
+|-damage|p1a: Sableye|51/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743828494
+|move|p1a: Sableye|Recover|p1a: Sableye
+|-heal|p1a: Sableye|100/100
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|6
+|
+|t:|1743828510
+|move|p1a: Sableye|Reflect|p1a: Sableye
+|-sidestart|p1: MegaMarowak usher|Reflect
+|move|p2a: Cinderace|U-turn|p1a: Sableye
+|-damage|p1a: Sableye|89/100
+|
+|t:|1743828513
+|switch|p2a: Tinkaton|Tinkaton, F|100/100|[from] U-turn
+|-item|p2a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|7
+|
+|t:|1743828523
+|switch|p1a: Gliscor|Gliscor, F, shiny|100/100
+|move|p2a: Tinkaton|Swords Dance|p2a: Tinkaton
+|-boost|p2a: Tinkaton|atk|2
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|8
+|
+|t:|1743828538
+|move|p2a: Tinkaton|Swords Dance|p2a: Tinkaton
+|-boost|p2a: Tinkaton|atk|2
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|76/100 tox
+|
+|-heal|p1a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|t:|1743828550
+|move|p2a: Tinkaton|Encore|p1a: Gliscor
+|-start|p1a: Gliscor|Encore
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-fail|p1a: Gliscor|move: Substitute
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|t:|1743828568
+|move|p2a: Tinkaton|Play Rough|p1a: Gliscor
+|-end|p1a: Gliscor|Substitute
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|76/100 tox
+|
+|-heal|p1a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|t:|1743828579
+|move|p2a: Tinkaton|Swords Dance|p2a: Tinkaton
+|-boost|p2a: Tinkaton|atk|2
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-fail|p1a: Gliscor|move: Substitute
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-end|p1a: Gliscor|Encore
+|-sideend|p2: Melonnolem|Reflect
+|upkeep
+|turn|12
+|
+|t:|1743828602
+|switch|p1a: Sableye|Sableye, M|89/100
+|move|p2a: Tinkaton|Play Rough|p1a: Sableye
+|-supereffective|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|upkeep
+|inactive|MegaMarowak usher has 120 seconds left.
+|
+|t:|1743828628
+|switch|p1a: Mienshao|Mienshao, F, tera:Fighting|57/100
+|turn|13
+|
+|t:|1743828635
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Mienshao|atk|1
+|move|p1a: Mienshao|High Jump Kick|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|54/100
+|-damage|p1a: Mienshao|41/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-damage|p1a: Mienshao|31/100|[from] item: Life Orb
+|
+|-sideend|p1: MegaMarowak usher|Reflect
+|upkeep
+|turn|14
+|
+|t:|1743828649
+|switch|p1a: Gliscor|Gliscor, F, shiny|100/100 tox
+|move|p2a: Landorus|U-turn|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|95/100 tox
+|
+|t:|1743828659
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|inactive|MegaMarowak usher has 120 seconds left.
+|
+|t:|1743828668
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|move|p1a: Gliscor|Toxic|p2a: Ogerpon
+|-status|p2a: Ogerpon|tox
+|
+|-damage|p2a: Ogerpon|95/100 tox|[from] psn
+|upkeep
+|turn|16
+|inactive|MegaMarowak usher has 120 seconds left.
+|
+|t:|1743828693
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|move|p2a: Ogerpon|Encore||[still]
+|-fail|p2a: Ogerpon
+|
+|-damage|p2a: Ogerpon|83/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1743828703
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Ogerpon|atk|1
+|move|p2a: Ogerpon|Horn Leech|p1a: Arcanine
+|-damage|p1a: Arcanine|36/100
+|-heal|p2a: Ogerpon|100/100 tox|[from] drain|[of] p1a: Arcanine
+|
+|-damage|p2a: Ogerpon|83/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1743828728
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|-damage|p2a: Ogerpon|59/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1743828744
+|switch|p1a: Arcanine|Arcanine-Hisui, M|36/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Ogerpon|atk|1
+|move|p2a: Ogerpon|Horn Leech|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-heal|p2a: Ogerpon|82/100 tox|[from] drain|[of] p1a: Arcanine
+|faint|p1a: Arcanine
+|
+|-damage|p2a: Ogerpon|52/100 tox|[from] psn
+|upkeep
+|inactive|MegaMarowak usher has 90 seconds left.
+|
+|t:|1743828757
+|switch|p1a: Mienshao|Mienshao, F, tera:Fighting|64/100
+|turn|20
+|
+|t:|1743828762
+|move|p1a: Mienshao|Fake Out|p2a: Ogerpon
+|-damage|p2a: Ogerpon|26/100 tox
+|-damage|p1a: Mienshao|54/100|[from] item: Life Orb
+|cant|p2a: Ogerpon|flinch
+|
+|-damage|p2a: Ogerpon|0 fnt|[from] psn
+|faint|p2a: Ogerpon
+|upkeep
+|
+|t:|1743828771
+|switch|p2a: Pecharunt|Pecharunt|60/100
+|turn|21
+|
+|t:|1743828784
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|100/100
+|
+|upkeep
+|turn|22
+|
+|t:|1743828791
+|move|p2a: Pecharunt|Parting Shot|p1a: Slowking
+|-unboost|p1a: Slowking|atk|1
+|-unboost|p1a: Slowking|spa|1
+|
+|t:|1743828793
+|switch|p2a: Landorus|Landorus-Therian, M|54/100|[from] Parting Shot
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Slowking|atk|1
+|move|p1a: Slowking|Future Sight|p2a: Landorus
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|23
+|
+|t:|1743828814
+|move|p2a: Landorus|Taunt|p1a: Slowking
+|-start|p1a: Slowking|move: Taunt
+|move|p1a: Slowking|Surf|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|1/100
+|
+|upkeep
+|turn|24
+|
+|t:|1743828832
+|switch|p1a: Gliscor|Gliscor, F, shiny|100/100 tox
+|move|p2a: Landorus|U-turn|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|95/100 tox
+|
+|t:|1743828837
+|switch|p2a: Darkrai|Darkrai|100/100|[from] U-turn
+|
+|-end|p2a: Darkrai|move: Future Sight
+|-immune|p2a: Darkrai
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|
+|t:|1743828848
+|move|p2a: Darkrai|Ice Beam|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|inactive|MegaMarowak usher has 90 seconds left.
+|
+|t:|1743828868
+|switch|p1a: Mienshao|Mienshao, F, tera:Fighting|87/100
+|turn|26
+|
+|t:|1743828874
+|-terastallize|p2a: Darkrai|Ghost
+|move|p1a: Mienshao|Fake Out|p2a: Darkrai
+|-immune|p2a: Darkrai
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|
+|upkeep
+|turn|27
+|
+|t:|1743828885
+|move|p2a: Darkrai|Ice Beam|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|faint|p1a: Mienshao
+|
+|upkeep
+|
+|t:|1743828896
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|turn|28
+|
+|t:|1743828925
+|move|p2a: Darkrai|Dark Pulse|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|5/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Darkrai
+|-resisted|p2a: Darkrai
+|-damage|p2a: Darkrai|71/100
+|-status|p2a: Darkrai|psn
+|
+|-heal|p2a: Darkrai|77/100 psn|[from] item: Leftovers
+|-damage|p2a: Darkrai|65/100 psn|[from] psn
+|upkeep
+|turn|29
+|
+|t:|1743828937
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|move|p1a: Slowking|Sludge Bomb|p2a: Darkrai
+|-resisted|p2a: Darkrai
+|-damage|p2a: Darkrai|34/100 psn
+|
+|-heal|p2a: Darkrai|40/100 psn|[from] item: Leftovers
+|-damage|p2a: Darkrai|27/100 psn|[from] psn
+|upkeep
+|turn|30
+|
+|t:|1743828948
+|move|p2a: Darkrai|Dark Pulse|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|-heal|p2a: Darkrai|33/100 psn|[from] item: Leftovers
+|-damage|p2a: Darkrai|21/100 psn|[from] psn
+|upkeep
+|
+|t:|1743828958
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|turn|31
+|
+|t:|1743828975
+|move|p2a: Darkrai|Sludge Bomb|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|
+|win|Melonnolem
+|raw|MegaMarowak usher's rating: 1226 &rarr; <strong>1200</strong><br />(-26 for losing)
+|raw|Melonnolem's rating: 1213 &rarr; <strong>1239</strong><br />(+26 for winning)
+|l|☆Melonnolem
+|player|p2|
+|l|☆MegaMarowak usher
+|player|p1|

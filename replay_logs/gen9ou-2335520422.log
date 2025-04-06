@@ -1,0 +1,295 @@
+|j|☆Seltzergod
+|j|☆Cam1610
+|t:|1743802085
+|gametype|singles
+|player|p1|Seltzergod|flannery|1509
+|player|p2|Cam1610|hiker-gen4|1522
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blaziken, F|
+|poke|p1|Great Tusk|
+|poke|p1|Muk, F|
+|poke|p1|Alomomola, F|
+|poke|p1|Ting-Lu|
+|poke|p1|Kyurem|
+|poke|p2|Darkrai|
+|poke|p2|Ceruledge, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Noivern, M|
+|poke|p2|Scizor, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cam1610)
+|
+|t:|1743802090
+|start
+|switch|p1a: Savior|Alomomola, F|100/100
+|switch|p2a: Beru|Scizor, F|100/100
+|turn|1
+|
+|t:|1743802093
+|move|p2a: Beru|U-turn|p1a: Savior
+|-damage|p1a: Savior|64/100
+|
+|t:|1743802098
+|switch|p2a: Tusk|Darkrai, shiny|100/100|[from] U-turn
+|move|p1a: Savior|Flip Turn|p2a: Tusk
+|-damage|p2a: Tusk|78/100
+|
+|t:|1743802113
+|switch|p1a: Monster Munch|Muk, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|2
+|
+|t:|1743802120
+|move|p2a: Tusk|Dark Pulse|p1a: Monster Munch
+|-damage|p1a: Monster Munch|72/100
+|-damage|p2a: Tusk|68/100|[from] item: Life Orb
+|cant|p1a: Monster Munch|flinch
+|
+|upkeep
+|turn|3
+|
+|t:|1743802125
+|move|p2a: Tusk|Dark Pulse|p1a: Monster Munch
+|-damage|p1a: Monster Munch|39/100
+|-damage|p2a: Tusk|58/100|[from] item: Life Orb
+|move|p1a: Monster Munch|Drain Punch|p2a: Tusk
+|-supereffective|p2a: Tusk
+|-damage|p2a: Tusk|0 fnt
+|-heal|p1a: Monster Munch|58/100|[from] drain|[of] p2a: Tusk
+|faint|p2a: Tusk
+|
+|upkeep
+|
+|t:|1743802130
+|switch|p2a: Tank|Ursaluna, M, shiny|100/100
+|turn|4
+|
+|t:|1743802136
+|switch|p1a: Savior|Alomomola, F|97/100
+|move|p2a: Tank|Protect||[still]
+|-fail|p2a: Tank
+|
+|-status|p2a: Tank|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1743802139
+|move|p2a: Tank|Facade|p1a: Savior
+|-damage|p1a: Savior|21/100
+|move|p1a: Savior|Flip Turn|p2a: Tank
+|-supereffective|p2a: Tank
+|-damage|p2a: Tank|75/100 brn
+|
+|t:|1743802148
+|switch|p1a: Larry Bird|Blaziken, F|100/100|[from] Flip Turn
+|-item|p1a: Larry Bird|Air Balloon
+|
+|-damage|p2a: Tank|69/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743802151
+|move|p1a: Larry Bird|Close Combat|p2a: Tank
+|-supereffective|p2a: Tank
+|-damage|p2a: Tank|0 fnt
+|-unboost|p1a: Larry Bird|def|1
+|-unboost|p1a: Larry Bird|spd|1
+|faint|p2a: Tank
+|
+|-ability|p1a: Larry Bird|Speed Boost|boost
+|-boost|p1a: Larry Bird|spe|1
+|upkeep
+|
+|t:|1743802156
+|switch|p2a: Igris|Ceruledge, F|100/100
+|turn|7
+|
+|t:|1743802162
+|move|p1a: Larry Bird|Earthquake|p2a: Igris
+|-supereffective|p2a: Igris
+|-damage|p2a: Igris|12/100
+|-ability|p2a: Igris|Weak Armor|boost
+|-unboost|p2a: Igris|def|1
+|-boost|p2a: Igris|spe|2
+|move|p2a: Igris|Swords Dance|p2a: Igris
+|-boost|p2a: Igris|atk|2
+|
+|-ability|p1a: Larry Bird|Speed Boost|boost
+|-boost|p1a: Larry Bird|spe|1
+|upkeep
+|turn|8
+|
+|t:|1743802167
+|move|p2a: Igris|Bitter Blade|p1a: Larry Bird
+|-resisted|p1a: Larry Bird
+|-damage|p1a: Larry Bird|0 fnt
+|-heal|p2a: Igris|64/100|[from] drain|[of] p1a: Larry Bird
+|-enditem|p1a: Larry Bird|Air Balloon
+|faint|p1a: Larry Bird
+|
+|upkeep
+|
+|t:|1743802179
+|switch|p1a: Tutankhamun|Great Tusk|100/100
+|-enditem|p1a: Tutankhamun|Booster Energy
+|-activate|p1a: Tutankhamun|ability: Protosynthesis|[fromitem]
+|-start|p1a: Tutankhamun|protosynthesisspe
+|turn|9
+|
+|t:|1743802182
+|move|p2a: Igris|Bitter Blade|p1a: Tutankhamun
+|-damage|p1a: Tutankhamun|48/100
+|-heal|p2a: Igris|100/100|[from] drain|[of] p1a: Tutankhamun
+|move|p1a: Tutankhamun|Headlong Rush|p2a: Igris
+|-supereffective|p2a: Igris
+|-enditem|p2a: Igris|Focus Sash
+|-damage|p2a: Igris|1/100
+|-unboost|p1a: Tutankhamun|def|1
+|-unboost|p1a: Tutankhamun|spd|1
+|-ability|p2a: Igris|Weak Armor|boost
+|-unboost|p2a: Igris|def|1
+|-boost|p2a: Igris|spe|2
+|
+|upkeep
+|turn|10
+|
+|t:|1743802191
+|-end|p1a: Tutankhamun|Protosynthesis|[silent]
+|switch|p1a: XIV|Ting-Lu|100/100
+|-ability|p1a: XIV|Vessel of Ruin
+|move|p2a: Igris|Bitter Blade|p1a: XIV
+|-damage|p1a: XIV|49/100
+|-heal|p2a: Igris|47/100|[from] drain|[of] p1a: XIV
+|
+|-heal|p1a: XIV|55/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743802196
+|move|p2a: Igris|Bitter Blade|p1a: XIV
+|-damage|p1a: XIV|4/100
+|-heal|p2a: Igris|92/100|[from] drain|[of] p1a: XIV
+|move|p1a: XIV|Earthquake|p2a: Igris
+|-supereffective|p2a: Igris
+|-damage|p2a: Igris|0 fnt
+|faint|p2a: Igris
+|
+|-heal|p1a: XIV|10/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743802199
+|switch|p2a: Kaisel|Noivern, M|100/100
+|turn|12
+|
+|t:|1743802202
+|move|p2a: Kaisel|Boomburst|p1a: XIV
+|-damage|p1a: XIV|0 fnt
+|faint|p1a: XIV
+|-enditem|p2a: Kaisel|Throat Spray
+|-boost|p2a: Kaisel|spa|1|[from] item: Throat Spray
+|
+|upkeep
+|
+|t:|1743802210
+|switch|p1a: Monster Munch|Muk, F|58/100
+|turn|13
+|
+|t:|1743802212
+|move|p2a: Kaisel|Hurricane|p1a: Monster Munch|[miss]
+|-miss|p2a: Kaisel|p1a: Monster Munch
+|move|p1a: Monster Munch|Ice Punch|p2a: Kaisel
+|-supereffective|p2a: Kaisel
+|-damage|p2a: Kaisel|0 fnt
+|faint|p2a: Kaisel
+|
+|upkeep
+|
+|t:|1743802214
+|switch|p2a: Beru|Scizor, F|100/100
+|turn|14
+|
+|t:|1743802220
+|switch|p1a: Tutankhamun|Great Tusk|48/100
+|move|p2a: Beru|Dual Wingbeat|p1a: Tutankhamun
+|-supereffective|p1a: Tutankhamun
+|-damage|p1a: Tutankhamun|9/100
+|-supereffective|p1a: Tutankhamun
+|-damage|p1a: Tutankhamun|0 fnt
+|faint|p1a: Tutankhamun
+|-end|p1a: Tutankhamun|Protosynthesis|[silent]
+|-hitcount|p1: Tutankhamun|2
+|
+|upkeep
+|
+|t:|1743802235
+|switch|p1a: Metal Cooler|Kyurem|100/100
+|-ability|p1a: Metal Cooler|Pressure
+|turn|15
+|
+|t:|1743802237
+|move|p1a: Metal Cooler|Earth Power|p2a: Beru
+|-damage|p2a: Beru|47/100
+|-unboost|p2a: Beru|spd|1
+|move|p2a: Beru|Dual Wingbeat|p1a: Metal Cooler
+|-damage|p1a: Metal Cooler|69/100
+|-damage|p1a: Metal Cooler|35/100
+|-hitcount|p1a: Metal Cooler|2
+|
+|upkeep
+|turn|16
+|
+|t:|1743802244
+|move|p1a: Metal Cooler|Earth Power|p2a: Beru
+|-damage|p2a: Beru|0 fnt
+|faint|p2a: Beru
+|
+|upkeep
+|
+|t:|1743802245
+|switch|p2a: Sung Jin Woo|Kingambit, M, shiny|100/100
+|-activate|p2a: Sung Jin Woo|ability: Supreme Overlord
+|-start|p2a: Sung Jin Woo|fallen5|[silent]
+|turn|17
+|
+|t:|1743802250
+|-terastallize|p2a: Sung Jin Woo|Fairy
+|move|p2a: Sung Jin Woo|Sucker Punch|p1a: Metal Cooler
+|-damage|p1a: Metal Cooler|0 fnt
+|faint|p1a: Metal Cooler
+|
+|upkeep
+|
+|t:|1743802264
+|switch|p1a: Monster Munch|Muk, F|58/100
+|turn|18
+|
+|t:|1743802272
+|-terastallize|p1a: Monster Munch|Dark
+|move|p2a: Sung Jin Woo|Iron Head|p1a: Monster Munch
+|-damage|p1a: Monster Munch|0 fnt
+|faint|p1a: Monster Munch
+|
+|upkeep
+|-message|Seltzergod forfeited.
+|
+|win|Cam1610
+|raw|Seltzergod's rating: 1509 &rarr; <strong>1490</strong><br />(-19 for losing)
+|raw|Cam1610's rating: 1522 &rarr; <strong>1541</strong><br />(+19 for winning)
+|l|☆Seltzergod
+|player|p1|
+|l|☆Cam1610
+|player|p2|

@@ -1,0 +1,323 @@
+|j|☆EmperadorSRN
+|j|☆MegaMHX
+|t:|1743864532
+|gametype|singles
+|player|p1|EmperadorSRN|gambler|1466
+|player|p2|MegaMHX|sada-ai|1533
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garganacl, M|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Araquanid, F|
+|poke|p1|Houndstone, M|
+|poke|p1|Serperior, F|
+|poke|p1|Glimmora, F|
+|poke|p2|Crawdaunt, M|
+|poke|p2|Lokix, F|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Treads|
+|poke|p2|Raging Bolt|
+|poke|p2|Enamorus, F|
+|teampreview
+|
+|t:|1743864539
+|start
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|turn|1
+|
+|t:|1743864546
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|10/100
+|move|p1a: Araquanid|Sticky Web|p2a: Raging Bolt
+|-sidestart|p2: MegaMHX|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743864551
+|move|p2a: Raging Bolt|Thunderclap|p1a: Araquanid
+|-supereffective|p1a: Araquanid
+|-damage|p1a: Araquanid|0 fnt
+|faint|p1a: Araquanid
+|
+|upkeep
+|
+|t:|1743864556
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|turn|3
+|
+|t:|1743864564
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Garganacl
+|-damage|p1a: Garganacl|68/100
+|move|p1a: Garganacl|Salt Cure|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|88/100
+|-start|p2a: Raging Bolt|Salt Cure
+|
+|-heal|p1a: Garganacl|74/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|76/100|[from] Salt Cure
+|upkeep
+|turn|4
+|
+|t:|1743864570
+|move|p2a: Raging Bolt|Volt Switch|p1a: Garganacl
+|-crit|p1a: Garganacl
+|-damage|p1a: Garganacl|30/100
+|
+|t:|1743864593
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Crawdaunt|Crawdaunt, M|100/100|[from] Volt Switch
+|-activate|p2a: Crawdaunt|move: Sticky Web
+|-unboost|p2a: Crawdaunt|spe|1
+|move|p1a: Garganacl|Iron Defense|p1a: Garganacl
+|-boost|p1a: Garganacl|def|2
+|
+|-heal|p1a: Garganacl|36/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743864606
+|move|p2a: Crawdaunt|Liquidation|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|upkeep
+|
+|t:|1743864609
+|switch|p1a: Serperior|Serperior, F|100/100
+|turn|6
+|
+|t:|1743864616
+|move|p1a: Serperior|Substitute|p1a: Serperior
+|-start|p1a: Serperior|Substitute
+|-damage|p1a: Serperior|75/100
+|move|p2a: Crawdaunt|Knock Off|p1a: Serperior
+|-end|p1a: Serperior|Substitute
+|
+|-heal|p1a: Serperior|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743864620
+|move|p1a: Serperior|Leaf Storm|p2a: Crawdaunt
+|-supereffective|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|-boost|p1a: Serperior|spa|2
+|faint|p2a: Crawdaunt
+|
+|-heal|p1a: Serperior|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743864622
+|switch|p2a: Lokix|Lokix, F|100/100
+|turn|8
+|
+|t:|1743864625
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|move|p2a: Lokix|First Impression|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|59/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: MegaMHX|move: Toxic Spikes
+|
+|upkeep
+|turn|9
+|
+|t:|1743864647
+|move|p2a: Lokix|Knock Off|p1a: Glimmora
+|-damage|p1a: Glimmora|17/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: MegaMHX|move: Toxic Spikes
+|-enditem|p1a: Glimmora|Focus Sash|[from] move: Knock Off|[of] p2a: Lokix
+|move|p1a: Glimmora|Power Gem|p2a: Lokix
+|-supereffective|p2a: Lokix
+|-damage|p2a: Lokix|0 fnt
+|faint|p2a: Lokix
+|
+|upkeep
+|
+|t:|1743864681
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-activate|p2a: Iron Treads|move: Sticky Web
+|-unboost|p2a: Iron Treads|spe|1
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdriveatk
+|turn|10
+|
+|t:|1743864686
+|switch|p1a: Houndstone|Houndstone, M|100/100
+|move|p2a: Iron Treads|Earthquake|p1a: Houndstone
+|-damage|p1a: Houndstone|56/100
+|
+|-heal|p1a: Houndstone|62/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743864692
+|move|p2a: Iron Treads|Earthquake|p1a: Houndstone
+|-damage|p1a: Houndstone|16/100
+|move|p1a: Houndstone|Will-O-Wisp|p2a: Iron Treads
+|-status|p2a: Iron Treads|brn
+|
+|-heal|p1a: Houndstone|22/100|[from] item: Leftovers
+|-damage|p2a: Iron Treads|94/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743864699
+|move|p2a: Iron Treads|Earthquake|p1a: Houndstone
+|-damage|p1a: Houndstone|0 fnt
+|faint|p1a: Houndstone
+|
+|-damage|p2a: Iron Treads|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1743864701
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|13
+|
+|t:|1743864714
+|move|p1a: Arcanine|Flare Blitz|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743864720
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|turn|14
+|
+|t:|1743864725
+|-terastallize|p1a: Arcanine|Normal
+|move|p2a: Enamorus|Earth Power|p1a: Arcanine
+|-damage|p1a: Arcanine|60/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|
+|upkeep
+|
+|t:|1743864736
+|switch|p2a: Raging Bolt|Raging Bolt|76/100
+|-activate|p2a: Raging Bolt|move: Sticky Web
+|-unboost|p2a: Raging Bolt|spe|1
+|-status|p2a: Raging Bolt|tox
+|turn|15
+|
+|t:|1743864741
+|switch|p1a: Glimmora|Glimmora, F|17/100
+|-terastallize|p2a: Raging Bolt|Electric
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|-damage|p2a: Raging Bolt|70/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743864748
+|move|p1a: Glimmora|Stealth Rock|p2a: Raging Bolt
+|-sidestart|p2: MegaMHX|move: Stealth Rock
+|move|p2a: Raging Bolt|Volt Switch|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|t:|1743864750
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Iron Moth|Iron Moth|100/100|[from] Volt Switch
+|-activate|p2a: Iron Moth|move: Sticky Web
+|-unboost|p2a: Iron Moth|spe|1
+|-sideend|p2: MegaMHX|move: Toxic Spikes|[of] p2a: Iron Moth
+|-damage|p2a: Iron Moth|75/100|[from] Stealth Rock
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|
+|upkeep
+|
+|t:|1743864755
+|switch|p1a: Arcanine|Arcanine-Hisui, M, tera:Normal|60/100
+|turn|17
+|
+|t:|1743864762
+|move|p1a: Arcanine|Head Smash|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743864764
+|switch|p2a: Raging Bolt|Raging Bolt, tera:Electric|70/100 tox
+|-activate|p2a: Raging Bolt|move: Sticky Web
+|-unboost|p2a: Raging Bolt|spe|1
+|-damage|p2a: Raging Bolt|57/100 tox|[from] Stealth Rock
+|turn|18
+|
+|t:|1743864766
+|switch|p1a: Serperior|Serperior, F|88/100
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|-heal|p1a: Serperior|94/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|51/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1743864770
+|move|p1a: Serperior|Substitute|p1a: Serperior
+|-start|p1a: Serperior|Substitute
+|-damage|p1a: Serperior|69/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Serperior
+|-end|p1a: Serperior|Substitute
+|
+|-heal|p1a: Serperior|75/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|39/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1743864775
+|move|p1a: Serperior|Substitute|p1a: Serperior
+|-start|p1a: Serperior|Substitute
+|-damage|p1a: Serperior|50/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Serperior
+|-end|p1a: Serperior|Substitute
+|
+|-heal|p1a: Serperior|56/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|20/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1743864780
+|move|p1a: Serperior|Substitute|p1a: Serperior
+|-start|p1a: Serperior|Substitute
+|-damage|p1a: Serperior|31/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Serperior
+|-end|p1a: Serperior|Substitute
+|
+|-heal|p1a: Serperior|37/100|[from] item: Leftovers
+|-damage|p2a: Raging Bolt|0 fnt|[from] psn
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|EmperadorSRN
+|raw|EmperadorSRN's rating: 1466 &rarr; <strong>1490</strong><br />(+24 for winning)
+|raw|MegaMHX's rating: 1533 &rarr; <strong>1509</strong><br />(-24 for losing)
+|l|☆MegaMHX
+|player|p2|

@@ -1,0 +1,385 @@
+|j|☆Un0eg0
+|j|☆sarl7
+|t:|1743846877
+|gametype|singles
+|player|p1|Un0eg0|dancer|1288
+|player|p2|sarl7|saturn|1361
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ceruledge, M|
+|poke|p1|Iron Hands|
+|poke|p1|Goodra, M|
+|poke|p1|Incineroar, M|
+|poke|p1|Iron Treads|
+|poke|p1|Iron Moth|
+|poke|p2|Infernape, F|
+|poke|p2|Spiritomb, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Quaquaval, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Iron Moth|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Un0eg0)
+|
+|t:|1743846893
+|start
+|switch|p1a: El Tigre|Incineroar, M|100/100
+|switch|p2a: Infernape|Infernape, F|100/100
+|-ability|p1a: El Tigre|Intimidate|boost
+|-unboost|p2a: Infernape|atk|1
+|turn|1
+|
+|t:|1743846907
+|switch|p1a: Megaman|Ceruledge, M|100/100
+|move|p2a: Infernape|Switcheroo|p1a: Megaman
+|-activate|p2a: Infernape|move: Trick|[of] p1a: Megaman
+|-item|p1a: Megaman|Choice Scarf|[from] move: Switcheroo
+|-item|p2a: Infernape|Focus Sash|[from] move: Switcheroo
+|
+|upkeep
+|turn|2
+|
+|t:|1743846917
+|switch|p2a: Spiritomb|Spiritomb, F|100/100
+|-ability|p2a: Spiritomb|Pressure
+|move|p1a: Megaman|Bitter Blade|p2a: Spiritomb
+|-damage|p2a: Spiritomb|65/100
+|
+|-heal|p2a: Spiritomb|71/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743846926
+|move|p1a: Megaman|Bitter Blade|p2a: Spiritomb
+|-damage|p2a: Spiritomb|37/100
+|move|p2a: Spiritomb|Payback|p1a: Megaman
+|-supereffective|p1a: Megaman
+|-crit|p1a: Megaman
+|-damage|p1a: Megaman|0 fnt
+|faint|p1a: Megaman
+|
+|-heal|p2a: Spiritomb|44/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743846937
+|switch|p1a: Ultimate Big Chill|Iron Moth|100/100
+|turn|4
+|
+|t:|1743846962
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Ultimate Big Chill|Fiery Dance|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|81/100
+|-boost|p1a: Ultimate Big Chill|spa|1
+|
+|-heal|p2a: Ting-Lu|87/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743846975
+|move|p1a: Ultimate Big Chill|Fiery Dance|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|62/100
+|-boost|p1a: Ultimate Big Chill|spa|1
+|move|p2a: Ting-Lu|Earthquake|p1a: Ultimate Big Chill
+|-supereffective|p1a: Ultimate Big Chill
+|-damage|p1a: Ultimate Big Chill|0 fnt
+|faint|p1a: Ultimate Big Chill
+|-end|p1a: Ultimate Big Chill|Quark Drive|[silent]
+|
+|-heal|p2a: Ting-Lu|68/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743846982
+|switch|p1a: Rollie poly|Iron Treads|100/100
+|-enditem|p1a: Rollie poly|Booster Energy
+|-activate|p1a: Rollie poly|ability: Quark Drive|[fromitem]
+|-start|p1a: Rollie poly|quarkdriveatk
+|turn|6
+|
+|t:|1743846996
+|move|p1a: Rollie poly|Stealth Rock|p2a: Ting-Lu
+|-sidestart|p2: sarl7|move: Stealth Rock
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Rollie poly
+|-sidestart|p1: Un0eg0|move: Stealth Rock
+|
+|-heal|p2a: Ting-Lu|74/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743847004
+|move|p1a: Rollie poly|Rapid Spin|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|63/100
+|-boost|p1a: Rollie poly|spe|1
+|-sideend|p1: Un0eg0|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Rollie poly
+|move|p2a: Ting-Lu|Whirlwind|p1a: Rollie poly
+|-end|p1a: Rollie poly|Quark Drive|[silent]
+|drag|p1a: TT|Goodra, M|100/100
+|
+|-heal|p2a: Ting-Lu|69/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743847009
+|move|p1a: TT|Dragon Pulse|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|54/100
+|move|p2a: Ting-Lu|Stealth Rock|p1a: TT
+|-sidestart|p1: Un0eg0|move: Stealth Rock
+|
+|-heal|p2a: Ting-Lu|60/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743847039
+|move|p1a: TT|Flamethrower|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|47/100
+|move|p2a: Ting-Lu|Ruination|p1a: TT
+|-damage|p1a: TT|51/100
+|
+|-heal|p2a: Ting-Lu|54/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743847049
+|move|p1a: TT|Dragon Pulse|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|37/100
+|move|p2a: Ting-Lu|Whirlwind|p1a: TT
+|drag|p1a: El Tigre|Incineroar, M|100/100
+|-ability|p1a: El Tigre|Intimidate|boost
+|-unboost|p2a: Ting-Lu|atk|1
+|
+|-heal|p2a: Ting-Lu|43/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743847063
+|switch|p2a: Spiritomb|Spiritomb, F|44/100
+|-damage|p2a: Spiritomb|31/100|[from] Stealth Rock
+|-ability|p2a: Spiritomb|Pressure
+|move|p1a: El Tigre|Will-O-Wisp|p2a: Spiritomb
+|-status|p2a: Spiritomb|brn
+|
+|-heal|p2a: Spiritomb|37/100 brn|[from] item: Leftovers
+|-damage|p2a: Spiritomb|31/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743847074
+|move|p1a: El Tigre|Flare Blitz|p2a: Spiritomb
+|-damage|p2a: Spiritomb|0 fnt
+|faint|p2a: Spiritomb
+|-damage|p1a: El Tigre|93/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743847080
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|turn|13
+|
+|t:|1743847085
+|switch|p1a: TT|Goodra, M|51/100
+|-damage|p1a: TT|38/100|[from] Stealth Rock
+|move|p2a: Quaquaval|Rapid Spin|p1a: TT
+|-damage|p1a: TT|10/100
+|-boost|p2a: Quaquaval|spe|1
+|-ability|p1a: TT|Gooey
+|-unboost|p2a: Quaquaval|spe|1
+|-sideend|p2: sarl7|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Quaquaval
+|
+|upkeep
+|turn|14
+|
+|t:|1743847097
+|switch|p2a: Ting-Lu|Ting-Lu|43/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: TT|Thunderbolt|p2a: Ting-Lu
+|-immune|p2a: Ting-Lu
+|
+|-heal|p2a: Ting-Lu|50/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743847106
+|switch|p1a: El Tigre|Incineroar, M|93/100
+|-ability|p1a: El Tigre|Intimidate|boost
+|-unboost|p2a: Ting-Lu|atk|1
+|move|p2a: Ting-Lu|Earthquake|p1a: El Tigre
+|-supereffective|p1a: El Tigre
+|-damage|p1a: El Tigre|43/100
+|
+|-heal|p2a: Ting-Lu|56/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743847114
+|move|p1a: El Tigre|Flare Blitz|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|30/100
+|-damage|p1a: El Tigre|32/100|[from] Recoil
+|move|p2a: Ting-Lu|Earthquake|p1a: El Tigre
+|-supereffective|p1a: El Tigre
+|-crit|p1a: El Tigre
+|-damage|p1a: El Tigre|0 fnt
+|faint|p1a: El Tigre
+|
+|-heal|p2a: Ting-Lu|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743847120
+|switch|p1a: Rollie poly|Iron Treads|100/100
+|-damage|p1a: Rollie poly|97/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743847127
+|move|p1a: Rollie poly|Earthquake|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|7/100
+|move|p2a: Ting-Lu|Whirlwind|p1a: Rollie poly
+|-end|p1a: Rollie poly|Quark Drive|[silent]
+|drag|p1a: Robot Boy|Iron Hands|100/100
+|-damage|p1a: Robot Boy|94/100|[from] Stealth Rock
+|
+|-heal|p1a: Robot Boy|100/100|[from] item: Leftovers
+|-heal|p2a: Ting-Lu|13/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743847132
+|move|p1a: Robot Boy|Ice Punch|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743847143
+|switch|p2a: Infernape|Infernape, F|100/100
+|turn|19
+|
+|t:|1743847149
+|move|p2a: Infernape|Swords Dance|p2a: Infernape
+|-boost|p2a: Infernape|atk|2
+|move|p1a: Robot Boy|Drain Punch|p2a: Infernape
+|-crit|p2a: Infernape
+|-enditem|p2a: Infernape|Focus Sash
+|-damage|p2a: Infernape|1/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743847156
+|-end|p1a: Robot Boy|Quark Drive|[silent]
+|switch|p1a: TT|Goodra, M|10/100
+|-damage|p1a: TT|0 fnt|[from] Stealth Rock
+|faint|p1a: TT
+|move|p2a: Infernape|Fire Punch|p1: TT|[notarget]
+|-fail|p2a: Infernape
+|
+|upkeep
+|
+|t:|1743847158
+|switch|p1a: Robot Boy|Iron Hands|100/100
+|-damage|p1a: Robot Boy|94/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1743847163
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|move|p1a: Robot Boy|Fake Out|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|-heal|p1a: Robot Boy|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743847174
+|switch|p2a: Infernape|Infernape, F|1/100
+|move|p1a: Robot Boy|Ice Punch|p2a: Infernape
+|-resisted|p2a: Infernape
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|upkeep
+|
+|t:|1743847196
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|turn|23
+|
+|t:|1743847201
+|move|p2a: Iron Moth|Psychic|p1a: Robot Boy
+|-supereffective|p1a: Robot Boy
+|-damage|p1a: Robot Boy|39/100
+|move|p1a: Robot Boy|Supercell Slam|p2a: Iron Moth
+|-crit|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p1a: Robot Boy|46/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743847213
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|turn|24
+|inactive|sarl7 has 120 seconds left.
+|
+|t:|1743847235
+|move|p2a: Dragapult|Shadow Ball|p1a: Robot Boy
+|-damage|p1a: Robot Boy|3/100
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|move|p1a: Robot Boy|Ice Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|6/100
+|
+|-heal|p1a: Robot Boy|9/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1743847247
+|move|p2a: Dragapult|Shadow Ball|p1a: Robot Boy
+|-damage|p1a: Robot Boy|0 fnt
+|faint|p1a: Robot Boy
+|-end|p1a: Robot Boy|Quark Drive|[silent]
+|-damage|p2a: Dragapult|0 fnt|[from] item: Life Orb
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1743847250
+|switch|p2a: Quaquaval|Quaquaval, F|100/100
+|switch|p1a: Rollie poly|Iron Treads|97/100
+|-damage|p1a: Rollie poly|94/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1743847263
+|-terastallize|p1a: Rollie poly|Ghost
+|move|p1a: Rollie poly|Earthquake|p2a: Quaquaval
+|-damage|p2a: Quaquaval|42/100
+|move|p2a: Quaquaval|Aqua Step|p1a: Rollie poly
+|-damage|p1a: Rollie poly|53/100
+|-boost|p2a: Quaquaval|spe|1
+|
+|upkeep
+|turn|27
+|
+|t:|1743847275
+|-terastallize|p2a: Quaquaval|Ground
+|move|p2a: Quaquaval|Aqua Step|p1a: Rollie poly
+|-damage|p1a: Rollie poly|10/100
+|-boost|p2a: Quaquaval|spe|1
+|move|p1a: Rollie poly|Earthquake|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|win|Un0eg0
+|raw|Un0eg0's rating: 1288 &rarr; <strong>1318</strong><br />(+30 for winning)
+|raw|sarl7's rating: 1361 &rarr; <strong>1337</strong><br />(-24 for losing)
+|l|☆sarl7
+|player|p2|

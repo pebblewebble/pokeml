@@ -1,0 +1,309 @@
+|j|☆18forgreen2024
+|j|‽Mattplti25
+|t:|1743938803
+|gametype|singles
+|player|p1|18forgreen2024|cilan|1454
+|player|p2|Mattplti25|red|1434
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, M|
+|poke|p1|Sinistcha|
+|poke|p1|Iron Valiant|
+|poke|p1|Iron Moth|
+|poke|p1|Zapdos|
+|poke|p1|Great Tusk|
+|poke|p2|Ribombee, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Serperior, F|
+|poke|p2|Mimikyu, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Bisharp, M|
+|teampreview
+|
+|t:|1743938821
+|start
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mattplti25)
+|
+|t:|1743938826
+|move|p1a: Iron Moth|Substitute|p1a: Iron Moth
+|-start|p1a: Iron Moth|Substitute
+|-damage|p1a: Iron Moth|76/100
+|move|p2a: Ribombee|Stun Spore|p1a: Iron Moth|[miss]
+|-miss|p2a: Ribombee|p1a: Iron Moth
+|
+|upkeep
+|turn|2
+|
+|t:|1743938835
+|move|p1a: Iron Moth|Fiery Dance|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100
+|move|p2a: Ribombee|Sticky Web|p1a: Iron Moth
+|-sidestart|p1: 18forgreen2024|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|t:|1743938841
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p2a: Mimikyu|Red Card|[of] p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|drag|p1a: Zapdos|Zapdos|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743938855
+|move|p2a: Mimikyu|Will-O-Wisp|p1a: Zapdos
+|-status|p1a: Zapdos|brn
+|move|p1a: Zapdos|Volt Switch|p2a: Mimikyu
+|-damage|p2a: Mimikyu|52/100
+|
+|t:|1743938876
+|switch|p1a: Iron Moth|Iron Moth|76/100|[from] Volt Switch
+|-activate|p1a: Iron Moth|move: Sticky Web
+|-unboost|p1a: Iron Moth|spe|1
+|
+|upkeep
+|turn|5
+|
+|t:|1743938885
+|switch|p2a: Ribombee|Ribombee, M|1/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-crit|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1743938889
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|6
+|
+|t:|1743938899
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Zapdos|Zapdos|100/100 brn
+|move|p2a: Dragapult|Dragon Darts|p1a: Zapdos
+|-damage|p1a: Zapdos|75/100 brn
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Zapdos
+|-damage|p1a: Zapdos|46/100 brn
+|-damage|p2a: Dragapult|91/100|[from] item: Life Orb
+|
+|-damage|p1a: Zapdos|40/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743938909
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-activate|p1a: Iron Valiant|move: Sticky Web
+|-unboost|p1a: Iron Valiant|spe|1
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdriveatk
+|move|p2a: Dragapult|Dragon Darts|p1a: Iron Valiant
+|-immune|p1a: Iron Valiant
+|
+|upkeep
+|turn|8
+|
+|t:|1743938922
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Iron Valiant|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|34/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Iron Valiant
+|
+|upkeep
+|turn|9
+|
+|t:|1743938931
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Iron Valiant
+|-status|p1a: Iron Valiant|brn
+|move|p1a: Iron Valiant|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|12/100
+|
+|-damage|p1a: Iron Valiant|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743938934
+|move|p2a: Cinderace|Pyro Ball|p1a: Iron Valiant|[miss]
+|-miss|p2a: Cinderace|p1a: Iron Valiant
+|move|p1a: Iron Valiant|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-damage|p1a: Iron Valiant|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1743938939
+|switch|p2a: Serperior|Serperior, F|100/100
+|turn|11
+|
+|t:|1743938952
+|move|p2a: Serperior|Substitute|p2a: Serperior
+|-start|p2a: Serperior|Substitute
+|-damage|p2a: Serperior|76/100
+|move|p1a: Iron Valiant|Close Combat|p2a: Serperior
+|-end|p2a: Serperior|Substitute
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|
+|-heal|p2a: Serperior|82/100|[from] item: Leftovers
+|-damage|p1a: Iron Valiant|82/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743938956
+|move|p2a: Serperior|Leaf Storm|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p2a: Serperior|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743938960
+|switch|p1a: Iron Moth|Iron Moth|76/100
+|-activate|p1a: Iron Moth|move: Sticky Web
+|-unboost|p1a: Iron Moth|spe|1
+|turn|13
+|
+|t:|1743938969
+|switch|p2a: Dragapult|Dragapult, F|91/100
+|move|p1a: Iron Moth|Fiery Dance|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|61/100
+|-boost|p1a: Iron Moth|spa|1
+|
+|upkeep
+|turn|14
+|
+|t:|1743938975
+|-terastallize|p1a: Iron Moth|Ice
+|move|p2a: Dragapult|Dragon Darts|p1a: Iron Moth
+|-damage|p1a: Iron Moth|41/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Iron Moth
+|-damage|p1a: Iron Moth|4/100
+|-damage|p2a: Dragapult|52/100|[from] item: Life Orb
+|move|p1a: Iron Moth|Tera Blast|p2a: Dragapult|[anim] Tera Blast Ice
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1743938983
+|switch|p2a: Serperior|Serperior, F|88/100
+|turn|15
+|
+|t:|1743938986
+|move|p2a: Serperior|Leaf Storm|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p2a: Serperior|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743938988
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|-item|p1a: Kingambit|Air Balloon
+|turn|16
+|
+|t:|1743938995
+|-terastallize|p2a: Serperior|Fire
+|move|p2a: Serperior|Tera Blast|p1a: Kingambit|[anim] Tera Blast Fire
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-enditem|p1a: Kingambit|Air Balloon
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|
+|-heal|p2a: Serperior|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743939000
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|move: Sticky Web
+|-unboost|p1a: Great Tusk|spe|1
+|turn|17
+|
+|t:|1743939003
+|move|p2a: Serperior|Leaf Storm|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743939006
+|switch|p1a: Zapdos|Zapdos|40/100 brn
+|turn|18
+|
+|t:|1743939008
+|move|p2a: Serperior|Tera Blast|p1a: Zapdos|[anim] Tera Blast Fire
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1743939011
+|switch|p1a: Sinistcha|Sinistcha|100/100
+|-activate|p1a: Sinistcha|move: Sticky Web
+|-unboost|p1a: Sinistcha|spe|1
+|turn|19
+|
+|t:|1743939012
+|move|p2a: Serperior|Tera Blast|p1a: Sinistcha|[anim] Tera Blast Fire
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|6/100
+|move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+|-boost|p1a: Sinistcha|spa|1
+|-boost|p1a: Sinistcha|spd|1
+|
+|upkeep
+|turn|20
+|
+|t:|1743939015
+|move|p2a: Serperior|Tera Blast|p1a: Sinistcha|[anim] Tera Blast Fire
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|
+|win|Mattplti25
+|raw|18forgreen2024's rating: 1454 &rarr; <strong>1433</strong><br />(-21 for losing)
+|raw|Mattplti25's rating: 1434 &rarr; <strong>1455</strong><br />(+21 for winning)
+|l|☆18forgreen2024
+|player|p1|
+|l|‽Mattplti25
+|player|p2|

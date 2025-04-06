@@ -1,0 +1,280 @@
+|j|☆Sauceity
+|j|☆gregegeg
+|t:|1743834986
+|gametype|singles
+|player|p1|Sauceity|102|1090
+|player|p2|gregegeg|266|1093
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Walking Wake|
+|poke|p1|Clodsire, M|
+|poke|p1|Cyclizar, M|
+|poke|p1|Zapdos|
+|poke|p1|Dragonite, F|
+|poke|p2|Blaziken, F|
+|poke|p2|Ludicolo, F|
+|poke|p2|Gyarados, F|
+|poke|p2|Darkrai|
+|poke|p2|Corviknight, F|
+|poke|p2|Clodsire, F|
+|teampreview
+|
+|t:|1743834994
+|start
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1743835005
+|switch|p2a: Ludicolo|Ludicolo, F, shiny|100/100
+|move|p1a: Pelipper|U-turn|p2a: Ludicolo
+|-supereffective|p2a: Ludicolo
+|-damage|p2a: Ludicolo|77/100
+|
+|t:|1743835011
+|switch|p1a: Zapdos|Zapdos|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ludicolo|83/100|[from] ability: Rain Dish
+|-heal|p2a: Ludicolo|89/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743835023
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Zapdos|Hurricane|p2a: Clodsire
+|-damage|p2a: Clodsire|78/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743835030
+|move|p1a: Zapdos|Hurricane|p2a: Clodsire
+|-damage|p2a: Clodsire|56/100
+|move|p2a: Clodsire|Toxic|p1a: Zapdos
+|-status|p1a: Zapdos|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Zapdos|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743835038
+|move|p1a: Zapdos|Hurricane|p2a: Clodsire
+|-damage|p2a: Clodsire|33/100
+|-start|p2a: Clodsire|confusion
+|-activate|p2a: Clodsire|confusion
+|-damage|p2a: Clodsire|28/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Zapdos|82/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743835046
+|-end|p2a: Clodsire|confusion
+|move|p2a: Clodsire|Protect|p2a: Clodsire
+|-singleturn|p2a: Clodsire|Protect
+|move|p1a: Zapdos|Hurricane|p2a: Clodsire
+|-activate|p2a: Clodsire|move: Protect
+|
+|-weather|none
+|-damage|p1a: Zapdos|64/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743835056
+|move|p1a: Zapdos|Hurricane|p2a: Clodsire
+|-damage|p2a: Clodsire|3/100
+|move|p2a: Clodsire|Stealth Rock|p1a: Zapdos
+|-sidestart|p1: Sauceity|move: Stealth Rock
+|
+|-damage|p1a: Zapdos|40/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743835064
+|move|p2a: Clodsire|Protect|p2a: Clodsire
+|-singleturn|p2a: Clodsire|Protect
+|move|p1a: Zapdos|Hurricane|p2a: Clodsire
+|-activate|p2a: Clodsire|move: Protect
+|
+|-damage|p1a: Zapdos|10/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743835074
+|move|p1a: Zapdos|Hurricane|p2a: Clodsire
+|-damage|p2a: Clodsire|0 fnt
+|faint|p2a: Clodsire
+|
+|-damage|p1a: Zapdos|0 fnt|[from] psn
+|faint|p1a: Zapdos
+|upkeep
+|
+|t:|1743835083
+|switch|p1a: Cyclizar|Cyclizar, M|100/100
+|switch|p2a: Gyarados|Gyarados, F, shiny|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Cyclizar|atk|1
+|turn|9
+|
+|t:|1743835089
+|move|p1a: Cyclizar|Rapid Spin|p2a: Gyarados
+|-damage|p2a: Gyarados|84/100
+|-boost|p1a: Cyclizar|spe|1
+|-sideend|p1: Sauceity|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Cyclizar
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-heal|p2a: Gyarados|90/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743835098
+|move|p1a: Cyclizar|U-turn|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|82/100
+|
+|t:|1743835101
+|switch|p1a: Pelipper|Pelipper, M|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|88/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743835110
+|move|p2a: Gyarados|Crunch|p1a: Pelipper
+|-damage|p1a: Pelipper|32/100
+|-enditem|p1a: Pelipper|Eject Button
+|
+|t:|1743835116
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|94/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743835123
+|-terastallize|p2a: Gyarados|Water
+|move|p2a: Gyarados|Waterfall|p1a: Clodsire
+|-immune|p1a: Clodsire|[from] ability: Water Absorb
+|move|p1a: Clodsire|Sludge Bomb|p2a: Gyarados
+|-damage|p2a: Gyarados|76/100
+|-status|p2a: Gyarados|psn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|82/100 psn|[from] item: Leftovers
+|-damage|p2a: Gyarados|69/100 psn|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1743835134
+|move|p2a: Gyarados|Earthquake|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gyarados|75/100 psn|[from] item: Leftovers
+|-damage|p2a: Gyarados|63/100 psn|[from] psn
+|upkeep
+|
+|t:|1743835139
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|turn|14
+|
+|t:|1743835146
+|-terastallize|p1a: Walking Wake|Steel
+|move|p2a: Gyarados|Earthquake|p1a: Walking Wake
+|-supereffective|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|none
+|-heal|p2a: Gyarados|69/100 psn|[from] item: Leftovers
+|-damage|p2a: Gyarados|57/100 psn|[from] psn
+|upkeep
+|
+|t:|1743835150
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|15
+|
+|t:|1743835158
+|move|p2a: Gyarados|Waterfall|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|67/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p2a: Gyarados|63/100 psn|[from] item: Leftovers
+|-damage|p2a: Gyarados|50/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743835167
+|move|p1a: Dragonite|Extreme Speed|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|-heal|p1a: Dragonite|73/100|[from] item: Shell Bell|[of] p2: Gyarados
+|
+|upkeep
+|
+|t:|1743835184
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|turn|17
+|
+|t:|1743835205
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|upkeep
+|turn|18
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gregegeg)
+|
+|t:|1743835212
+|move|p1a: Dragonite|Extreme Speed|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|89/100
+|-damage|p1a: Dragonite|57/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-heal|p1a: Dragonite|58/100|[from] item: Shell Bell|[of] p2a: Corviknight
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|upkeep
+|turn|19
+|-message|Sauceity forfeited.
+|
+|win|gregegeg
+|raw|Sauceity's rating: 1090 &rarr; <strong>1067</strong><br />(-23 for losing)
+|raw|gregegeg's rating: 1093 &rarr; <strong>1119</strong><br />(+26 for winning)
+|l|☆Sauceity
+|player|p1|
+|l|☆gregegeg
+|player|p2|

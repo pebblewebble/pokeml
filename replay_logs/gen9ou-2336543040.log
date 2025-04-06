@@ -1,0 +1,667 @@
+|j|☆riderofdeez
+|j|☆bbones150
+|t:|1743936472
+|gametype|singles
+|player|p1|riderofdeez|acerola-masters3|1396
+|player|p2|bbones150|ltsurge|1435
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Moltres|
+|poke|p1|Ogerpon, F|
+|poke|p1|Tinkaton, F|
+|poke|p1|Pecharunt|
+|poke|p1|Primarina, F|
+|poke|p1|Great Tusk|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by riderofdeez)
+|inactive|bbones150 has 120 seconds left.
+|
+|t:|1743936503
+|start
+|switch|p1a: Primarina|Primarina, F|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|t:|1743936510
+|move|p2a: Cinderace|U-turn|p1a: Primarina
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|84/100
+|
+|t:|1743936536
+|switch|p2a: Slowking|Slowking-Galar, F|100/100|[from] U-turn
+|move|p1a: Primarina|Moonblast|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|88/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743936545
+|move|p1a: Primarina|Flip Turn|p2a: Slowking
+|-damage|p2a: Slowking|74/100
+|
+|t:|1743936551
+|switch|p1a: Tinkaton|Tinkaton, F|100/100|[from] Flip Turn
+|-ability|p1a: Tinkaton|Mold Breaker
+|-item|p1a: Tinkaton|Air Balloon
+|move|p2a: Slowking|Future Sight|p1a: Tinkaton
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|3
+|
+|t:|1743936560
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Tinkaton|Encore||[still]
+|-fail|p1a: Tinkaton
+|
+|upkeep
+|turn|4
+|
+|t:|1743936566
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|76/100
+|
+|-end|p1a: Moltres|move: Future Sight
+|-damage|p1a: Moltres|41/100
+|upkeep
+|turn|5
+|
+|t:|1743936573
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|91/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|upkeep
+|turn|6
+|
+|t:|1743936584
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Ogerpon|Encore||[still]
+|-fail|p2a: Ogerpon
+|
+|upkeep
+|turn|7
+|
+|t:|1743936594
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Pecharunt|Parting Shot|p2a: Slowking
+|-unboost|p2a: Slowking|atk|1
+|-unboost|p2a: Slowking|spa|1
+|
+|t:|1743936597
+|switch|p1a: Tinkaton|Tinkaton, F|100/100|[from] Parting Shot
+|-ability|p1a: Tinkaton|Mold Breaker
+|-item|p1a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|8
+|
+|t:|1743936606
+|move|p1a: Tinkaton|Thunder Wave|p2a: Slowking|[miss]
+|-miss|p1a: Tinkaton|p2a: Slowking
+|move|p2a: Slowking|Thunder Wave|p1a: Tinkaton
+|-status|p1a: Tinkaton|par
+|
+|upkeep
+|turn|9
+|
+|t:|1743936612
+|cant|p1a: Tinkaton|par
+|move|p2a: Slowking|Future Sight|p1a: Tinkaton
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|10
+|
+|t:|1743936616
+|cant|p1a: Tinkaton|par
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743936625
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743936629
+|move|p2a: Cinderace|Pyro Ball|p1a: Tinkaton
+|-supereffective|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|-enditem|p1a: Tinkaton|Air Balloon
+|faint|p1a: Tinkaton
+|
+|-weather|Snowscape|[upkeep]
+|-hint|Future Sight did not hit because the target is fainted.
+|upkeep
+|
+|t:|1743936642
+|switch|p1a: Moltres|Moltres|91/100
+|turn|12
+|inactive|bbones150 has 120 seconds left.
+|inactive|bbones150 has 90 seconds left.
+|
+|t:|1743936710
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Moltres|Will-O-Wisp|p2a: Slowking
+|-status|p2a: Slowking|brn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Slowking|94/100 brn|[from] brn
+|upkeep
+|turn|13
+|inactive|bbones150 has 90 seconds left.
+|
+|t:|1743936737
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Slowking|Future Sight|p1a: Great Tusk
+|-start|p2a: Slowking|move: Future Sight
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Slowking|88/100 brn|[from] brn
+|upkeep
+|turn|14
+|inactive|bbones150 has 90 seconds left.
+|inactive|bbones150 has 60 seconds left.
+|
+|t:|1743936780
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Ice Spinner|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|30/100
+|-damage|p1a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|t:|1743936797
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Primarina|Primarina, F|84/100
+|move|p2a: Landorus|Stealth Rock|p1a: Primarina
+|-sidestart|p1: riderofdeez|move: Stealth Rock
+|
+|-end|p1a: Primarina|move: Future Sight
+|-damage|p1a: Primarina|47/100
+|upkeep
+|turn|16
+|
+|t:|1743936812
+|switch|p1a: Moltres|Moltres|91/100
+|move|p2a: Landorus|U-turn|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|86/100
+|-status|p2a: Landorus|brn|[from] ability: Flame Body|[of] p1a: Moltres
+|inactive|bbones150 has 60 seconds left.
+|
+|t:|1743936842
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from] U-turn
+|
+|upkeep
+|turn|17
+|
+|t:|1743936852
+|move|p2a: Cinderace|Trick|p1a: Moltres
+|-activate|p2a: Cinderace|move: Trick|[of] p1a: Moltres
+|-item|p1a: Moltres|Choice Scarf|[from] move: Trick
+|-item|p2a: Cinderace|Heavy-Duty Boots|[from] move: Trick
+|move|p1a: Moltres|U-turn|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|86/100
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|inactive|riderofdeez has 120 seconds left.
+|
+|t:|1743936890
+|switch|p1a: Great Tusk|Great Tusk|84/100|[from] U-turn
+|
+|upkeep
+|turn|18
+|inactive|bbones150 has 60 seconds left.
+|inactive|bbones150 has 30 seconds left.
+|inactive|bbones150 has 20 seconds left.
+|
+|t:|1743936937
+|switch|p2a: Landorus|Landorus-Therian, M|30/100 brn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Headlong Rush|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|-damage|p2a: Landorus|24/100 brn|[from] brn
+|upkeep
+|turn|19
+|inactive|bbones150 has 30 seconds left this turn.
+|inactive|riderofdeez has 120 seconds left.
+|
+|t:|1743936943
+|move|p2a: Landorus|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|68/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Landorus
+|-damage|p2a: Landorus|14/100 brn
+|-boost|p1a: Great Tusk|spe|1
+|-damage|p1a: Great Tusk|52/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-sideend|p1: riderofdeez|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-damage|p2a: Landorus|8/100 brn|[from] brn
+|upkeep
+|turn|20
+|inactive|bbones150 has 30 seconds left.
+|inactive|riderofdeez has 120 seconds left.
+|
+|t:|1743936956
+|move|p1a: Great Tusk|Ice Spinner|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-damage|p1a: Great Tusk|35/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p2a: Landorus
+|
+|upkeep
+|inactive|bbones150 has 30 seconds left.
+|inactive|bbones150 has 20 seconds left.
+|
+|t:|1743936971
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|21
+|inactive|bbones150 has 30 seconds left this turn.
+|inactive|riderofdeez has 120 seconds left.
+|
+|t:|1743936986
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Zamazenta|Body Press|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|
+|upkeep
+|turn|22
+|inactive|bbones150 has 30 seconds left.
+|
+|t:|1743936995
+|switch|p2a: Slowking|Slowking-Galar, F|100/100 brn
+|move|p1a: Pecharunt|Malignant Chain|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|92/100 brn
+|
+|-damage|p2a: Slowking|85/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1743937000
+|switch|p2a: Cinderace|Cinderace, F|86/100
+|move|p1a: Pecharunt|Hex|p2a: Cinderace
+|-immune|p2a: Cinderace
+|
+|upkeep
+|turn|24
+|
+|t:|1743937008
+|switch|p1a: Moltres|Moltres|86/100
+|move|p2a: Cinderace|Bitter Malice|p1a: Moltres
+|-damage|p1a: Moltres|60/100
+|-unboost|p1a: Moltres|atk|1
+|
+|upkeep
+|turn|25
+|
+|t:|1743937017
+|switch|p2a: Slowking|Slowking-Galar, F|100/100 brn
+|move|p1a: Moltres|Flamethrower|p2a: Slowking
+|-damage|p2a: Slowking|77/100 brn
+|
+|-damage|p2a: Slowking|71/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1743937024
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743937029
+|switch|p2a: Cinderace|Cinderace, F|86/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1743937034
+|switch|p1a: Moltres|Moltres|60/100
+|move|p2a: Cinderace|Bitter Malice|p1a: Moltres
+|-damage|p1a: Moltres|29/100
+|-unboost|p1a: Moltres|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1743937043
+|move|p2a: Cinderace|Bitter Malice|p1a: Moltres
+|-damage|p1a: Moltres|2/100
+|-unboost|p1a: Moltres|atk|1
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|52/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|29
+|
+|t:|1743937056
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Cinderace|Hyper Voice|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|30
+|
+|t:|1743937072
+|switch|p2a: Slowking|Slowking-Galar, F|100/100 brn
+|switch|p1a: Moltres|Moltres|52/100
+|
+|-weather|none
+|-damage|p2a: Slowking|94/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1743937079
+|move|p1a: Moltres|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|79/100 brn
+|
+|t:|1743937087
+|switch|p1a: Pecharunt|Pecharunt|100/100|[from] U-turn
+|move|p2a: Slowking|Thunder Wave|p1a: Pecharunt|[miss]
+|-miss|p2a: Slowking|p1a: Pecharunt
+|
+|-damage|p2a: Slowking|73/100 brn|[from] brn
+|upkeep
+|turn|32
+|inactive|bbones150 has 90 seconds left.
+|
+|t:|1743937099
+|move|p1a: Pecharunt|Malignant Chain|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|63/100 brn
+|move|p2a: Slowking|Thunder Wave|p1a: Pecharunt
+|-status|p1a: Pecharunt|par
+|
+|-damage|p2a: Slowking|57/100 brn|[from] brn
+|upkeep
+|turn|33
+|inactive|bbones150 has 90 seconds left.
+|
+|t:|1743937105
+|switch|p2a: Cinderace|Cinderace, F|86/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|56/100
+|-status|p2a: Cinderace|tox
+|-start|p2a: Cinderace|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|
+|-damage|p2a: Zoroark|50/100 tox|[from] psn
+|upkeep
+|turn|34
+|inactive|bbones150 has 90 seconds left.
+|
+|t:|1743937119
+|switch|p2a: Slowking|Slowking-Galar, F|91/100 brn
+|switch|p1a: Moltres|Moltres|52/100
+|
+|-damage|p2a: Slowking|84/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1743937125
+|move|p1a: Moltres|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|71/100 brn
+|
+|t:|1743937127
+|switch|p1a: Great Tusk|Great Tusk|35/100|[from] U-turn
+|move|p2a: Slowking|Future Sight|p1a: Great Tusk
+|-start|p2a: Slowking|move: Future Sight
+|
+|-damage|p2a: Slowking|65/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1743937139
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Zamazenta
+|-damage|p2a: Zamazenta|53/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-heal|p2a: Zamazenta|59/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|inactive|bbones150 has 90 seconds left.
+|
+|t:|1743937196
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Moltres|Moltres|52/100
+|move|p2a: Zamazenta|Crunch|p1a: Moltres
+|-damage|p1a: Moltres|32/100
+|-unboost|p1a: Moltres|def|1
+|
+|-end|p1a: Moltres|move: Future Sight
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|-heal|p2a: Zamazenta|66/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743937210
+|switch|p1a: Primarina|Primarina, F|47/100
+|turn|38
+|
+|t:|1743937217
+|switch|p2a: Slowking|Slowking-Galar, F|98/100 brn
+|move|p1a: Primarina|Flip Turn|p2a: Slowking
+|-damage|p2a: Slowking|83/100 brn
+|
+|t:|1743937227
+|switch|p1a: Great Tusk|Great Tusk|35/100|[from] Flip Turn
+|
+|-damage|p2a: Slowking|77/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|t:|1743937251
+|switch|p2a: Zamazenta|Zamazenta|66/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Zamazenta
+|-damage|p2a: Zamazenta|25/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|-heal|p2a: Zamazenta|31/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1743937260
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Pecharunt|Pecharunt|100/100 par
+|move|p2a: Zamazenta|Body Press|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|
+|-heal|p2a: Zamazenta|37/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1743937267
+|move|p2a: Zamazenta|Crunch|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|73/100 par
+|-unboost|p1a: Pecharunt|def|1
+|cant|p1a: Pecharunt|par
+|
+|-heal|p2a: Zamazenta|43/100|[from] item: Leftovers
+|upkeep
+|turn|42
+|inactive|bbones150 has 90 seconds left.
+|
+|t:|1743937274
+|move|p2a: Zamazenta|Crunch|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|34/100 par
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|84/100 par
+|
+|-heal|p2a: Zamazenta|49/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1743937282
+|switch|p1a: Primarina|Primarina, F|47/100
+|move|p2a: Zamazenta|Crunch|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|36/100
+|
+|-heal|p2a: Zamazenta|56/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1743937289
+|switch|p1a: Pecharunt|Pecharunt|84/100 par
+|move|p2a: Zamazenta|Heavy Slam|p1a: Pecharunt
+|-damage|p1a: Pecharunt|65/100 par
+|
+|-heal|p2a: Zamazenta|62/100|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1743937294
+|move|p2a: Zamazenta|Crunch|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|42/100 par
+|cant|p1a: Pecharunt|par
+|
+|-heal|p2a: Zamazenta|68/100|[from] item: Leftovers
+|upkeep
+|turn|46
+|
+|t:|1743937301
+|move|p2a: Zamazenta|Crunch|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-crit|p1a: Pecharunt
+|-damage|p1a: Pecharunt|3/100 par
+|cant|p1a: Pecharunt|par
+|
+|-heal|p2a: Zamazenta|74/100|[from] item: Leftovers
+|upkeep
+|turn|47
+|c|☆riderofdeez|...
+|c|☆bbones150|yup
+|
+|t:|1743937315
+|switch|p1a: Primarina|Primarina, F|36/100
+|move|p2a: Zamazenta|Heavy Slam|p1a: Primarina
+|-damage|p1a: Primarina|10/100
+|
+|-heal|p2a: Zamazenta|80/100|[from] item: Leftovers
+|upkeep
+|turn|48
+|-enditem|p1a: Primarina|Custap Berry|[eat]
+|-activate|p1a: Primarina|item: Custap Berry|[consumed]
+|
+|t:|1743937322
+|move|p1a: Primarina|Moonblast|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|7/100
+|-unboost|p2a: Zamazenta|spa|1
+|move|p2a: Zamazenta|Heavy Slam|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|-heal|p2a: Zamazenta|13/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743937332
+|switch|p1a: Ogerpon|Ogerpon, F|100/100
+|turn|49
+|
+|t:|1743937340
+|move|p2a: Zamazenta|Body Press|p1a: Ogerpon
+|-damage|p1a: Ogerpon|58/100
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|-heal|p2a: Zamazenta|19/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1743937348
+|-terastallize|p1a: Ogerpon|Grass
+|detailschange|p1a: Ogerpon|Ogerpon-Teal-Tera, F, tera:Grass
+|-ability|p1a: Ogerpon|Embody Aspect (Teal)|boost
+|-boost|p1a: Ogerpon|spe|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1743937355
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|51
+|
+|t:|1743937361
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1743937368
+|switch|p2a: Slowking|Slowking-Galar, F|100/100 brn
+|turn|52
+|
+|t:|1743937371
+|move|p1a: Ogerpon|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-enditem|p2a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Ogerpon
+|faint|p2a: Slowking
+|
+|upkeep
+|-message|bbones150 forfeited.
+|
+|win|riderofdeez
+|raw|riderofdeez's rating: 1396 &rarr; <strong>1418</strong><br />(+22 for winning)
+|raw|bbones150's rating: 1435 &rarr; <strong>1413</strong><br />(-22 for losing)
+|l|☆bbones150
+|player|p2|
+|c|☆riderofdeez|yup
+|l|☆riderofdeez
+|player|p1|

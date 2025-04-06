@@ -1,0 +1,320 @@
+|j|☆etude_suzuki
+|j|☆Yung phi
+|t:|1743845576
+|gametype|singles
+|player|p1|etude_suzuki|265|1090
+|player|p2|Yung phi|169|1083
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pikachu, M|
+|poke|p1|Lucario, M|
+|poke|p1|Zoroark, M|
+|poke|p1|Gardevoir, F|
+|poke|p1|Lapras, F|
+|poke|p1|Charizard, M|
+|poke|p2|Walking Wake|
+|poke|p2|Meowscarada, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Hitmonlee, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Cinderace, F|
+|teampreview
+|
+|t:|1743845584
+|start
+|switch|p1a: Lucario|Lucario, M|100/100
+|switch|p2a: Meowscarada|Meowscarada, M, shiny|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by etude_suzuki)
+|
+|t:|1743845590
+|move|p2a: Meowscarada|U-turn|p1a: Lucario
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Lucario
+|-damage|p1a: Lucario|88/100
+|
+|t:|1743845596
+|switch|p2a: Slowking|Slowking-Galar, M|100/100|[from] U-turn
+|move|p1a: Lucario|Close Combat|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|86/100
+|-unboost|p1a: Lucario|def|1
+|-unboost|p1a: Lucario|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743845607
+|switch|p1a: Lapras|Lapras, F|100/100
+|move|p2a: Slowking|Thunder Wave|p1a: Lapras
+|-status|p1a: Lapras|par
+|
+|upkeep
+|turn|3
+|
+|t:|1743845614
+|move|p1a: Lapras|Swords Dance|p1a: Lapras
+|-boost|p1a: Lapras|atk|2
+|move|p2a: Slowking|Future Sight|p1a: Lapras
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|4
+|
+|t:|1743845619
+|cant|p1a: Lapras|par
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743845628
+|switch|p2a: Leeman|Hitmonlee, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743845636
+|switch|p1a: Gardevoir|Gardevoir, F|100/100
+|-ability|p1a: Gardevoir|Reckless|[from] ability: Trace|[of] p2a: Leeman
+|move|p2a: Leeman|High Jump Kick|p1a: Gardevoir
+|-resisted|p1a: Gardevoir
+|-damage|p1a: Gardevoir|50/100
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Gardevoir|move: Future Sight
+|-resisted|p1a: Gardevoir
+|-damage|p1a: Gardevoir|26/100
+|-heal|p1a: Gardevoir|33/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743845655
+|switch|p1a: Charizard|Charizard, M|100/100
+|move|p2a: Leeman|High Jump Kick|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|15/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743845667
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|move|p1a: Charizard|Air Slash|p2a: Walking Wake
+|-damage|p2a: Walking Wake|62/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743845673
+|switch|p1a: Lapras|Lapras, F|100/100
+|move|p2a: Walking Wake|Flip Turn|p1a: Lapras
+|-immune|p1a: Lapras|[from] ability: Water Absorb
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743845679
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Meowscarada|Meowscarada, M, shiny|100/100
+|move|p1a: Lapras|Freeze-Dry|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|14/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743845685
+|move|p1a: Lapras|Ice Shard|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|upkeep
+|
+|t:|1743845689
+|switch|p2a: Leeman|Hitmonlee, M|100/100
+|turn|11
+|
+|t:|1743845703
+|switch|p1a: Charizard|Charizard, M|15/100
+|move|p2a: Leeman|High Jump Kick|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|upkeep
+|
+|t:|1743845718
+|switch|p1a: Lapras|Lapras, F|100/100 par
+|turn|12
+|
+|t:|1743845722
+|move|p2a: Leeman|High Jump Kick|p1a: Lapras|[miss]
+|-miss|p2a: Leeman|p1a: Lapras
+|-damage|p2a: Leeman|51/100|[from] highjumpkick
+|cant|p1a: Lapras|par
+|
+|upkeep
+|turn|13
+|
+|t:|1743845744
+|move|p2a: Leeman|High Jump Kick|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-enditem|p1a: Lapras|Focus Sash
+|-damage|p1a: Lapras|1/100 par
+|replace|p1a: Zoroark|Zoroark, M
+|-end|p1a: Zoroark|Illusion
+|move|p1a: Zoroark|Counter|p2a: Leeman
+|-damage|p2a: Leeman|0 fnt
+|faint|p2a: Leeman
+|
+|upkeep
+|
+|t:|1743845751
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|14
+|
+|t:|1743845760
+|move|p1a: Zoroark|Sucker Punch|p2a: Cinderace
+|-damage|p2a: Cinderace|59/100
+|move|p2a: Cinderace|U-turn|p1a: Zoroark
+|-supereffective|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|
+|t:|1743845764
+|switch|p2a: Slowking|Slowking-Galar, M|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743845769
+|switch|p1a: Lucario|Lucario, M|88/100
+|turn|15
+|
+|t:|1743845773
+|move|p1a: Lucario|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|37/100
+|move|p2a: Slowking|Thunder Wave|p1a: Lucario
+|-status|p1a: Lucario|par
+|
+|upkeep
+|turn|16
+|
+|t:|1743845779
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-fail|p1a: Lucario|unboost|Attack|[from] ability: Inner Focus|[of] p1a: Lucario
+|move|p1a: Lucario|Earthquake|p2a: Landorus
+|-immune|p2a: Landorus
+|
+|upkeep
+|turn|17
+|
+|t:|1743845790
+|switch|p1a: Pikachu|Pikachu, M|100/100
+|move|p2a: Landorus|Earth Power|p1a: Pikachu
+|-supereffective|p1a: Pikachu
+|-damage|p1a: Pikachu|0 fnt
+|faint|p1a: Pikachu
+|
+|upkeep
+|
+|t:|1743845797
+|switch|p1a: Lapras|Lapras, F|100/100
+|turn|18
+|
+|t:|1743845803
+|move|p2a: Landorus|Stealth Rock|p1a: Lapras
+|-sidestart|p1: etude_suzuki|move: Stealth Rock
+|move|p1a: Lapras|Sparkling Aria|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|28/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743845809
+|move|p1a: Lapras|Ice Shard|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743845815
+|switch|p2a: Walking Wake|Walking Wake|62/100
+|turn|20
+|
+|t:|1743845821
+|move|p2a: Walking Wake|Draco Meteor|p1a: Lapras
+|-damage|p1a: Lapras|48/100
+|-unboost|p2a: Walking Wake|spa|2
+|move|p1a: Lapras|Freeze-Dry|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743845827
+|switch|p2a: Cinderace|Cinderace, F|59/100
+|turn|21
+|
+|t:|1743845835
+|move|p2a: Cinderace|Pyro Ball|p1a: Lapras
+|-damage|p1a: Lapras|7/100
+|move|p1a: Lapras|Sparkling Aria|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1743845838
+|switch|p2a: Slowking|Slowking-Galar, M|70/100
+|turn|22
+|
+|t:|1743845847
+|move|p1a: Lapras|Sparkling Aria|p2a: Slowking
+|-damage|p2a: Slowking|50/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|upkeep
+|
+|t:|1743845853
+|switch|p1a: Lucario|Lucario, M|88/100 par
+|-damage|p1a: Lucario|85/100 par|[from] Stealth Rock
+|turn|23
+|
+|t:|1743845859
+|move|p1a: Lucario|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|win|etude_suzuki
+|raw|etude_suzuki's rating: 1090 &rarr; <strong>1116</strong><br />(+26 for winning)
+|raw|Yung phi's rating: 1083 &rarr; <strong>1061</strong><br />(-22 for losing)
+|l|☆Yung phi
+|player|p2|
+|l|☆etude_suzuki
+|player|p1|

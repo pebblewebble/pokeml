@@ -1,0 +1,336 @@
+|j|☆urr02
+|j|☆PokeChampTroy
+|t:|1743823395
+|gametype|singles
+|player|p1|urr02|1|1266
+|player|p2|PokeChampTroy|170|1300
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, F|
+|poke|p1|Entei|
+|poke|p1|Lycanroc-Dusk, F|
+|poke|p1|Mamoswine, F|
+|poke|p1|Scizor, M|
+|poke|p1|Kingambit, F|
+|poke|p2|Greninja-*, M|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Clefable, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Gliscor, M|
+|poke|p2|Iron Moth|
+|teampreview
+|
+|t:|1743823403
+|start
+|switch|p1a: Lycanroc|Lycanroc-Dusk, F|100/100
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|turn|1
+|
+|t:|1743823413
+|move|p1a: Lycanroc|Drill Run|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|10/100
+|move|p2a: Goodra|Ice Beam|p1a: Lycanroc
+|-damage|p1a: Lycanroc|47/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743823422
+|switch|p1a: Entei|Entei|100/100
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1743823433
+|switch|p1a: Lycanroc|Lycanroc-Dusk, F|47/100
+|move|p2a: Gliscor|Knock Off|p1a: Lycanroc
+|-damage|p1a: Lycanroc|13/100
+|-enditem|p1a: Lycanroc|Choice Band|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|upkeep
+|turn|4
+|
+|t:|1743823446
+|move|p1a: Lycanroc|Accelerock|p2a: Gliscor
+|-damage|p2a: Gliscor|81/100 tox
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-heal|p2a: Gliscor|94/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|t:|1743823457
+|move|p1a: Lycanroc|Play Rough|p2a: Gliscor
+|-damage|p2a: Gliscor|67/100 tox
+|move|p2a: Gliscor|Facade|p1a: Lycanroc
+|-resisted|p1a: Lycanroc
+|-damage|p1a: Lycanroc|0 fnt
+|faint|p1a: Lycanroc
+|
+|-heal|p2a: Gliscor|79/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743823462
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|6
+|
+|t:|1743823472
+|move|p2a: Gliscor|Knock Off|p1a: Dragonite
+|-damage|p1a: Dragonite|81/100
+|-enditem|p1a: Dragonite|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p2a: Gliscor|92/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1743823480
+|move|p1a: Dragonite|Ice Spinner|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1743823491
+|switch|p2a: Clefable|Clefable, M|100/100
+|turn|8
+|
+|t:|1743823499
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Extreme Speed|p2a: Clefable
+|-damage|p2a: Clefable|52/100
+|move|p2a: Clefable|Thunder Wave|p1a: Dragonite
+|-status|p1a: Dragonite|par
+|
+|-heal|p2a: Clefable|58/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743823512
+|move|p2a: Clefable|Stealth Rock|p1a: Dragonite
+|-sidestart|p1: urr02|move: Stealth Rock
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p2a: Clefable|64/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743823520
+|cant|p1a: Dragonite|par
+|move|p2a: Clefable|Draining Kiss|p1a: Dragonite
+|-damage|p1a: Dragonite|66/100 par
+|-heal|p2a: Clefable|75/100|[from] drain|[of] p1a: Dragonite
+|
+|-heal|p2a: Clefable|81/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743823530
+|move|p1a: Dragonite|Extreme Speed|p2a: Clefable
+|-damage|p2a: Clefable|7/100
+|move|p2a: Clefable|Draining Kiss|p1a: Dragonite
+|-damage|p1a: Dragonite|50/100 par
+|-heal|p2a: Clefable|19/100|[from] drain|[of] p1a: Dragonite
+|
+|-heal|p2a: Clefable|25/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743823540
+|switch|p2a: Goodra|Goodra-Hisui, M|10/100
+|cant|p1a: Dragonite|par
+|
+|upkeep
+|turn|13
+|
+|t:|1743823547
+|cant|p1a: Dragonite|par
+|move|p2a: Goodra|Draco Meteor|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-unboost|p2a: Goodra|spa|2
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1743823553
+|switch|p1a: Entei|Entei|100/100
+|-damage|p1a: Entei|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743823558
+|move|p1a: Entei|Swagger|p2a: Goodra
+|-boost|p2a: Goodra|atk|2
+|-start|p2a: Goodra|confusion
+|-enditem|p1a: Entei|Mirror Herb
+|-boost|p1a: Entei|atk|2|[from] item: Mirror Herb
+|-activate|p2a: Goodra|confusion
+|-damage|p2a: Goodra|0 fnt|[from] confusion
+|faint|p2a: Goodra
+|
+|upkeep
+|
+|t:|1743823568
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|15
+|
+|t:|1743823587
+|move|p1a: Entei|Extreme Speed|p2a: Greninja
+|-damage|p2a: Greninja|12/100
+|move|p2a: Greninja|Surf|p1a: Entei
+|-supereffective|p1a: Entei
+|-crit|p1a: Entei
+|-damage|p1a: Entei|0 fnt
+|faint|p1a: Entei
+|-ability|p2a: Greninja|Battle Bond|boost
+|-boost|p2a: Greninja|atk|1
+|-boost|p2a: Greninja|spa|1
+|-boost|p2a: Greninja|spe|1
+|-activate|p2a: Greninja|ability: Battle Bond
+|-damage|p2a: Greninja|2/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743823602
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743823607
+|move|p2a: Greninja|Water Shuriken|p1a: Scizor
+|-damage|p1a: Scizor|72/100
+|-damage|p1a: Scizor|56/100
+|-damage|p1a: Scizor|39/100
+|-hitcount|p1a: Scizor|3
+|-damage|p2a: Greninja|0 fnt|[from] item: Life Orb
+|faint|p2a: Greninja
+|move|p1a: Scizor|Bullet Punch|p2: Greninja|[notarget]
+|-fail|p1a: Scizor
+|
+|upkeep
+|
+|t:|1743823627
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|17
+|
+|t:|1743823636
+|move|p2a: Corviknight|U-turn|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|31/100
+|
+|t:|1743823642
+|switch|p2a: Iron Moth|Iron Moth|100/100|[from] U-turn
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Scizor|Swords Dance|p1a: Scizor
+|-boost|p1a: Scizor|atk|2
+|
+|upkeep
+|turn|18
+|
+|t:|1743823663
+|move|p1a: Scizor|Bullet Punch|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|41/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1743823676
+|switch|p1a: Mamoswine|Mamoswine, F|100/100
+|-damage|p1a: Mamoswine|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743823707
+|move|p1a: Mamoswine|Ice Shard|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|14/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine
+|-damage|p1a: Mamoswine|40/100
+|-boost|p2a: Iron Moth|spa|1
+|
+|upkeep
+|turn|20
+|
+|t:|1743823720
+|move|p1a: Mamoswine|Ice Shard|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743823724
+|switch|p2a: Clefable|Clefable, M|25/100
+|turn|21
+|
+|t:|1743823728
+|move|p1a: Mamoswine|Ice Shard|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|upkeep
+|
+|t:|1743823732
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|22
+|
+|t:|1743823736
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|move|p2a: Corviknight|Brave Bird|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|82/100
+|-damage|p2a: Corviknight|96/100|[from] Recoil
+|
+|-heal|p1a: Kingambit|88/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743823748
+|move|p2a: Corviknight|U-turn|p1a: Kingambit
+|-damage|p1a: Kingambit|77/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p1a: Kingambit|83/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|-message|PokeChampTroy forfeited.
+|
+|win|urr02
+|raw|urr02's rating: 1266 &rarr; <strong>1293</strong><br />(+27 for winning)
+|raw|PokeChampTroy's rating: 1300 &rarr; <strong>1273</strong><br />(-27 for losing)
+|l|☆PokeChampTroy
+|player|p2|
+|l|☆urr02
+|player|p1|

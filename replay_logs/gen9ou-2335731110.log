@@ -1,0 +1,286 @@
+|j|☆shinygz
+|j|☆cuervotesteador
+|t:|1743827332
+|gametype|singles
+|player|p1|shinygz|pilot|1259
+|player|p2|cuervotesteador|1|1205
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Barraskewda, M|
+|poke|p1|Iron Treads|
+|poke|p1|Raging Bolt|
+|poke|p1|Scizor, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Hitmonchan, M|
+|poke|p2|Moltres|
+|poke|p2|Frosmoth, M|
+|poke|p2|Iron Crown|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by shinygz)
+|inactive|cuervotesteador has 120 seconds left.
+|
+|t:|1743827369
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|turn|1
+|
+|t:|1743827378
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Treads|atk|1
+|move|p1a: Iron Treads|Stealth Rock|p2a: Landorus
+|-sidestart|p2: cuervotesteador|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743827396
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Stealth Rock|p1a: Landorus
+|-sidestart|p1: shinygz|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1743827405
+|switch|p2a: Moltres|Moltres|100/100
+|move|p1a: Landorus|U-turn|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|96/100
+|-status|p1a: Landorus|brn|[from] ability: Flame Body|[of] p2a: Moltres
+|
+|t:|1743827423
+|switch|p1a: Iron Treads|Iron Treads|100/100|[from] U-turn
+|-damage|p1a: Iron Treads|97/100|[from] Stealth Rock
+|
+|-heal|p1a: Iron Treads|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743827436
+|move|p1a: Iron Treads|Rapid Spin|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|79/100
+|-boost|p1a: Iron Treads|spe|1
+|-sideend|p1: shinygz|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Iron Treads
+|move|p2a: Moltres|Flamethrower|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743827445
+|switch|p1a: Pelipper|Pelipper, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|5
+|
+|t:|1743827451
+|switch|p2a: Frosmoth|Frosmoth, M|100/100
+|move|p1a: Pelipper|Hurricane|p2a: Frosmoth
+|-supereffective|p2a: Frosmoth
+|-damage|p2a: Frosmoth|71/100
+|-start|p2a: Frosmoth|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743827463
+|switch|p1a: Scizor|Scizor, M, shiny|100/100
+|-activate|p2a: Frosmoth|confusion
+|move|p2a: Frosmoth|Defog|p1a: Scizor
+|-unboost|p1a: Scizor|evasion|1
+|-sideend|p2: cuervotesteador|Stealth Rock|[from] move: Defog|[of] p2a: Frosmoth
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743827470
+|switch|p2a: Moltres|Moltres|79/100
+|move|p1a: Scizor|U-turn|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|68/100
+|
+|t:|1743827480
+|switch|p1a: Raging Bolt|Raging Bolt|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743827497
+|switch|p2a: Frosmoth|Frosmoth, M|71/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Frosmoth
+|-damage|p2a: Frosmoth|50/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743827506
+|move|p1a: Raging Bolt|Volt Switch|p2a: Frosmoth
+|-damage|p2a: Frosmoth|35/100
+|
+|t:|1743827511
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Scizor|Scizor, M, shiny|100/100|[from] Volt Switch
+|move|p2a: Frosmoth|Ice Beam|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|77/100
+|-status|p1a: Scizor|frz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743827523
+|switch|p1a: Barraskewda|Barraskewda, M, shiny|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Barraskewda|atk|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743827530
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Barraskewda|Flip Turn|p2a: Ogerpon
+|-immune|p2a: Ogerpon|[from] ability: Water Absorb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743827543
+|switch|p1a: Landorus|Landorus-Therian, M|100/100 brn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ogerpon|atk|1
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|
+|-weather|none
+|-damage|p1a: Landorus|94/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743827556
+|move|p2a: Landorus|Stealth Rock|p1a: Landorus
+|-sidestart|p1: shinygz|move: Stealth Rock
+|move|p1a: Landorus|Stealth Rock|p2a: Landorus
+|-sidestart|p2: cuervotesteador|move: Stealth Rock
+|
+|-damage|p1a: Landorus|88/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743827568
+|switch|p2a: Hitmonchan|Hitmonchan, M|100/100
+|-damage|p2a: Hitmonchan|94/100|[from] Stealth Rock
+|move|p1a: Landorus|U-turn|p2a: Hitmonchan
+|-resisted|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|87/100
+|
+|t:|1743827575
+|switch|p1a: Pelipper|Pelipper, F, shiny|100/100|[from] U-turn
+|-damage|p1a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743827582
+|move|p2a: Hitmonchan|Rapid Spin|p1a: Pelipper
+|-damage|p1a: Pelipper|64/100
+|-boost|p2a: Hitmonchan|spe|1
+|-sideend|p2: cuervotesteador|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Hitmonchan
+|move|p1a: Pelipper|Hurricane|p2a: Hitmonchan
+|-supereffective|p2a: Hitmonchan
+|-damage|p2a: Hitmonchan|0 fnt
+|faint|p2a: Hitmonchan
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743827592
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|turn|16
+|
+|t:|1743827599
+|switch|p1a: Landorus|Landorus-Therian, M|88/100 brn
+|-damage|p1a: Landorus|76/100 brn|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Crown|atk|1
+|move|p2a: Iron Crown|Psychic Noise|p1a: Landorus
+|-damage|p1a: Landorus|28/100 brn
+|-start|p1a: Landorus|move: Heal Block
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Landorus|22/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743827611
+|switch|p1a: Scizor|Scizor, M, shiny|77/100 frz
+|-damage|p1a: Scizor|65/100 frz|[from] Stealth Rock
+|move|p2a: Iron Crown|Psychic Noise|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|44/100 frz
+|-start|p1a: Scizor|move: Heal Block
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743827622
+|move|p2a: Iron Crown|Psychic Noise|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|20/100 frz
+|cant|p1a: Scizor|frz
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Scizor|move: Heal Block
+|upkeep
+|turn|19
+|
+|t:|1743827631
+|move|p2a: Iron Crown|Psychic Noise|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|shinygz forfeited.
+|
+|win|cuervotesteador
+|raw|shinygz's rating: 1259 &rarr; <strong>1230</strong><br />(-29 for losing)
+|raw|cuervotesteador's rating: 1205 &rarr; <strong>1234</strong><br />(+29 for winning)
+|l|☆shinygz
+|player|p1|
+|l|☆cuervotesteador
+|player|p2|

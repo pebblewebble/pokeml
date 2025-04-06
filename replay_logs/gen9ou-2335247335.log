@@ -1,0 +1,267 @@
+|j|☆sumofsquares
+|j|☆Rocketlife
+|t:|1743778334
+|gametype|singles
+|player|p1|sumofsquares|wallace|1442
+|player|p2|Rocketlife|170|1445
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Lucario, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Great Tusk|
+|poke|p1|Enamorus, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Dragonite, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Corviknight, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rocketlife)
+|
+|t:|1743778342
+|start
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743778347
+|move|p2a: Iron Valiant|Destiny Bond|p2a: Iron Valiant
+|-singlemove|p2a: Iron Valiant|Destiny Bond
+|move|p1a: Enamorus|Moonblast|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-activate|p2a: Iron Valiant|move: Destiny Bond
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|faint|p1a: Enamorus
+|
+|upkeep
+|inactive|sumofsquares has 120 seconds left.
+|
+|t:|1743778377
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|2
+|
+|t:|1743778382
+|move|p1a: Samurott|Ceaseless Edge|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-sidestart|p2: Rocketlife|Spikes
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1743778386
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|3
+|
+|t:|1743778392
+|move|p1a: Samurott|Ceaseless Edge|p2a: Corviknight
+|-damage|p2a: Corviknight|66/100
+|-sidestart|p2: Rocketlife|Spikes
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|72/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743778403
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|78/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743778409
+|move|p1a: Dragapult|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|25/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|75/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|81/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743778417
+|-terastallize|p1a: Dragapult|Fire
+|move|p1a: Dragapult|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|1/100
+|-status|p2a: Corviknight|brn
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|51/100 brn
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|-heal|p2a: Corviknight|58/100 brn|[from] item: Leftovers
+|-damage|p2a: Corviknight|51/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743778430
+|move|p1a: Dragapult|Flamethrower|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1743778432
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-damage|p2a: Hoopa|84/100|[from] Spikes
+|turn|8
+|
+|t:|1743778438
+|move|p1a: Dragapult|Flamethrower|p2a: Hoopa
+|-damage|p2a: Hoopa|50/100
+|move|p2a: Hoopa|Knock Off|p1a: Dragapult
+|-damage|p1a: Dragapult|27/100
+|-enditem|p1a: Dragapult|Choice Specs|[from] move: Knock Off|[of] p2a: Hoopa
+|
+|upkeep
+|turn|9
+|
+|t:|1743778446
+|move|p1a: Dragapult|U-turn|p2a: Hoopa
+|-supereffective|p2a: Hoopa
+|-damage|p2a: Hoopa|0 fnt
+|faint|p2a: Hoopa
+|
+|t:|1743778458
+|switch|p1a: Lucario|Lucario, F|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743778464
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|10
+|
+|t:|1743778470
+|move|p1a: Lucario|Crunch|p2a: Dragonite
+|-damage|p2a: Dragonite|87/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1743778474
+|move|p1a: Lucario|Extreme Speed|p2a: Dragonite
+|-damage|p2a: Dragonite|59/100
+|move|p2a: Dragonite|Fire Punch|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-enditem|p1a: Lucario|Focus Sash
+|-damage|p1a: Lucario|1/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743778482
+|move|p1a: Lucario|Extreme Speed|p2a: Dragonite
+|-damage|p2a: Dragonite|29/100
+|move|p2a: Dragonite|Fire Punch|p1a: Lucario
+|-supereffective|p1a: Lucario
+|-damage|p1a: Lucario|0 fnt
+|faint|p1a: Lucario
+|
+|upkeep
+|
+|t:|1743778496
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|13
+|
+|t:|1743778499
+|-terastallize|p2a: Dragonite|Flying
+|move|p2a: Dragonite|Tera Blast|p1a: Great Tusk|[anim] Tera Blast Flying
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743778507
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|14
+|
+|t:|1743778513
+|move|p1a: Samurott|Razor Shell|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1743778516
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-damage|p2a: Hatterene|84/100|[from] Spikes
+|turn|15
+|
+|t:|1743778521
+|move|p1a: Samurott|Razor Shell|p2a: Hatterene
+|-damage|p2a: Hatterene|42/100
+|-unboost|p2a: Hatterene|def|1
+|move|p2a: Hatterene|Draining Kiss|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|34/100
+|-heal|p2a: Hatterene|92/100|[from] drain|[of] p1a: Samurott
+|
+|-heal|p2a: Hatterene|98/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743778528
+|move|p1a: Samurott|Razor Shell|p2a: Hatterene
+|-damage|p2a: Hatterene|36/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-heal|p2a: Hatterene|62/100|[from] drain|[of] p1a: Samurott
+|faint|p1a: Samurott
+|
+|-heal|p2a: Hatterene|68/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743778534
+|switch|p1a: Dragapult|Dragapult, M, tera:Fire|27/100
+|turn|17
+|
+|t:|1743778540
+|move|p1a: Dragapult|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|win|sumofsquares
+|raw|sumofsquares's rating: 1442 &rarr; <strong>1462</strong><br />(+20 for winning)
+|raw|Rocketlife's rating: 1445 &rarr; <strong>1425</strong><br />(-20 for losing)
+|l|☆Rocketlife
+|player|p2|
+|l|☆sumofsquares
+|player|p1|

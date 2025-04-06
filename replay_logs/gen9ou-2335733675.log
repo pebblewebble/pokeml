@@ -1,0 +1,377 @@
+|j|☆pichin
+|j|☆Tacoloney3
+|t:|1743827704
+|gametype|singles
+|player|p1|pichin|mira|1107
+|player|p2|Tacoloney3|n|1130
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hippowdon, F|
+|poke|p1|Sandslash, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Lapras, M|
+|poke|p1|Sudowoodo, L1, F|
+|poke|p1|Gengar, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Lycanroc-Dusk, M|
+|poke|p2|Excadrill, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Rotom-Heat|
+|poke|p2|Clodsire, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pichin)
+|
+|t:|1743827720
+|start
+|switch|p1a: Gengar|Gengar, M|100/100
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|turn|1
+|
+|t:|1743827726
+|move|p1a: Gengar|Trick|p2a: Clodsire
+|-activate|p1a: Gengar|move: Trick|[of] p2a: Clodsire
+|-item|p2a: Clodsire|Choice Scarf|[from] move: Trick
+|-item|p1a: Gengar|Black Sludge|[from] move: Trick
+|move|p2a: Clodsire|Stealth Rock|p1a: Gengar
+|-sidestart|p1: pichin|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743827739
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|move|p1a: Gengar|Shadow Ball|p2a: Corviknight
+|-damage|p2a: Corviknight|65/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743827748
+|move|p1a: Gengar|Trick|p2a: Corviknight
+|-activate|p1a: Gengar|move: Trick|[of] p2a: Corviknight
+|-item|p2a: Corviknight|Black Sludge|[from] move: Trick
+|-item|p1a: Gengar|Rocky Helmet|[from] move: Trick
+|move|p2a: Corviknight|Tailwind|p2a: Corviknight
+|-sidestart|p2: Tacoloney3|move: Tailwind
+|
+|-damage|p2a: Corviknight|53/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1743827771
+|switch|p2a: Rotom|Rotom-Heat|100/100
+|move|p1a: Gengar|Thunderbolt|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|81/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743827779
+|switch|p1a: Tyranitar|Tyranitar, F|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Rotom|Shadow Ball|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|82/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|75/100|[from] Sandstorm
+|upkeep
+|turn|6
+|inactive|Tacoloney3 has 120 seconds left.
+|
+|t:|1743827806
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|move|p1a: Tyranitar|Stone Edge|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-sideend|p2: Tacoloney3|move: Tailwind
+|upkeep
+|turn|7
+|
+|t:|1743827818
+|move|p1a: Tyranitar|Stone Edge|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|51/100
+|move|p2a: Clodsire|Earthquake|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|38/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743827833
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|move|p2a: Clodsire|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743827842
+|move|p1a: Hippowdon|Stealth Rock|p2a: Clodsire
+|-sidestart|p2: Tacoloney3|move: Stealth Rock
+|move|p2a: Clodsire|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743827859
+|move|p2a: Clodsire|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|45/100
+|move|p1a: Hippowdon|Roar|p2a: Clodsire
+|drag|p2a: Tyranitar|Tyranitar, F|100/100
+|-damage|p2a: Tyranitar|88/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743827868
+|move|p2a: Tyranitar|Ice Punch|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|11/100
+|-damage|p2a: Tyranitar|72/100|[from] item: Rocky Helmet|[of] p1a: Hippowdon
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|61/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743827880
+|move|p2a: Tyranitar|Ice Punch|p1a: Hippowdon
+|-supereffective|p1a: Hippowdon
+|-damage|p1a: Hippowdon|29/100
+|-damage|p2a: Tyranitar|55/100|[from] item: Rocky Helmet|[of] p1a: Hippowdon
+|move|p1a: Hippowdon|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|none
+|upkeep
+|
+|t:|1743827897
+|switch|p2a: Corviknight|Corviknight, M|53/100
+|-damage|p2a: Corviknight|40/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743827904
+|move|p2a: Corviknight|Body Press|p1a: Hippowdon
+|-damage|p1a: Hippowdon|16/100
+|-damage|p2a: Corviknight|24/100|[from] item: Rocky Helmet|[of] p1a: Hippowdon
+|move|p1a: Hippowdon|Slack Off|p1a: Hippowdon
+|-heal|p1a: Hippowdon|66/100
+|
+|-damage|p2a: Corviknight|11/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|
+|t:|1743827922
+|move|p2a: Corviknight|Tailwind|p2a: Corviknight
+|-sidestart|p2: Tacoloney3|move: Tailwind
+|move|p1a: Hippowdon|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-damage|p2a: Corviknight|0 fnt|[from] item: Black Sludge
+|faint|p2a: Corviknight
+|upkeep
+|
+|t:|1743827932
+|switch|p2a: Excadrill|Excadrill, F|100/100
+|-damage|p2a: Excadrill|97/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743827942
+|move|p2a: Excadrill|Rapid Spin|p1a: Hippowdon
+|-damage|p1a: Hippowdon|53/100
+|-boost|p2a: Excadrill|spe|1
+|-damage|p2a: Excadrill|81/100|[from] item: Rocky Helmet|[of] p1a: Hippowdon
+|-sideend|p2: Tacoloney3|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Excadrill
+|-damage|p2a: Excadrill|71/100|[from] item: Life Orb
+|move|p1a: Hippowdon|Roar|p2a: Excadrill
+|drag|p2a: Rotom|Rotom-Heat|75/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743827967
+|switch|p1a: Lapras|Lapras, M|100/100
+|-damage|p1a: Lapras|76/100|[from] Stealth Rock
+|move|p2a: Rotom|Trick|p1a: Lapras
+|-activate|p2a: Rotom|move: Trick|[of] p1a: Lapras
+|-item|p1a: Lapras|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Chesto Berry|[from] move: Trick
+|
+|upkeep
+|turn|17
+|
+|t:|1743827981
+|-terastallize|p1a: Lapras|Fire
+|move|p2a: Rotom|Thunderbolt|p1a: Lapras
+|-damage|p1a: Lapras|48/100
+|move|p1a: Lapras|Dragon Dance|p1a: Lapras
+|-boost|p1a: Lapras|atk|1
+|-boost|p1a: Lapras|spe|1
+|
+|-sideend|p2: Tacoloney3|move: Tailwind
+|upkeep
+|turn|18
+|inactive|pichin has 120 seconds left.
+|
+|t:|1743828012
+|switch|p1a: Tyranitar|Tyranitar, F|38/100
+|-damage|p1a: Tyranitar|25/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Rotom|Shadow Ball|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|69/100|[from] Sandstorm
+|upkeep
+|turn|19
+|
+|t:|1743828032
+|move|p2a: Rotom|Thunderbolt|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|63/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743828040
+|switch|p1a: Sandslash|Sandslash, M|100/100
+|-damage|p1a: Sandslash|94/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743828050
+|move|p1a: Sandslash|Rock Slide|p2a: Rotom|[miss]
+|-miss|p1a: Sandslash|p2a: Rotom
+|move|p2a: Rotom|Shadow Ball|p1a: Sandslash
+|-damage|p1a: Sandslash|47/100
+|-unboost|p1a: Sandslash|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|57/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|t:|1743828065
+|move|p1a: Sandslash|Rock Slide|p2a: Rotom
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|-damage|p1a: Sandslash|37/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743828085
+|switch|p2a: Excadrill|Excadrill, F|71/100
+|turn|22
+|
+|t:|1743828098
+|move|p2a: Excadrill|Earthquake|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|-damage|p2a: Excadrill|61/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743828105
+|switch|p1a: Hippowdon|Hippowdon, F|53/100
+|-damage|p1a: Hippowdon|47/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1743828112
+|move|p2a: Excadrill|Earthquake|p1a: Hippowdon
+|-crit|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|-damage|p2a: Excadrill|51/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|inactive|pichin has 120 seconds left.
+|
+|t:|1743828120
+|switch|p1a: Lapras|Lapras, M, tera:Fire|48/100
+|-damage|p1a: Lapras|23/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1743828127
+|move|p2a: Excadrill|Earthquake|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|-damage|p2a: Excadrill|41/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743828134
+|switch|p1a: Sudowoodo|Sudowoodo, L1, F|100/100
+|-damage|p1a: Sudowoodo|92/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1743828148
+|move|p2a: Excadrill|Earthquake|p1a: Sudowoodo
+|-supereffective|p1a: Sudowoodo
+|-damage|p1a: Sudowoodo|0 fnt
+|faint|p1a: Sudowoodo
+|-damage|p2a: Excadrill|31/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1743828157
+|switch|p1a: Gengar|Gengar, M|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|turn|26
+|
+|t:|1743828163
+|move|p1a: Gengar|Shadow Ball|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|upkeep
+|
+|t:|1743828174
+|switch|p2a: Lycanroc|Lycanroc-Dusk, M|100/100
+|turn|27
+|
+|t:|1743828186
+|move|p2a: Lycanroc|Psychic Fangs|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-damage|p2a: Lycanroc|84/100|[from] item: Rocky Helmet|[of] p1a: Gengar
+|faint|p1a: Gengar
+|
+|win|Tacoloney3
+|raw|pichin's rating: 1107 &rarr; <strong>1084</strong><br />(-23 for losing)
+|raw|Tacoloney3's rating: 1130 &rarr; <strong>1153</strong><br />(+23 for winning)
+|l|☆Tacoloney3
+|player|p2|

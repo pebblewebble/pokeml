@@ -1,0 +1,379 @@
+|j|☆tbt123
+|j|‽JackRG1
+|t:|1743867212
+|gametype|singles
+|player|p1|tbt123|veteran|1471
+|player|p2|JackRG1|iris|1514
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Cresselia, F|
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Ursaluna, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Sinistcha|
+|poke|p2|Clodsire, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JackRG1)
+|
+|t:|1743867223
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|
+|t:|1743867228
+|move|p2a: Cinderace|Pyro Ball|p1a: Hatterene
+|-damage|p1a: Hatterene|59/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1743867234
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Hatterene|Psychic Noise|p2a: Slowking
+|-damage|p2a: Slowking|77/100
+|-start|p2a: Slowking|move: Heal Block
+|
+|upkeep
+|turn|3
+|
+|t:|1743867241
+|move|p1a: Hatterene|Mystical Fire|p2a: Slowking
+|-damage|p2a: Slowking|60/100
+|-unboost|p2a: Slowking|spa|1
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743867246
+|switch|p2a: Sinistcha|Sinistcha|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743867249
+|move|p1a: Hatterene|Mystical Fire|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|72/100
+|-unboost|p2a: Sinistcha|spa|1
+|move|p2a: Sinistcha|Shadow Ball|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|17/100
+|-unboost|p1a: Hatterene|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Sinistcha|78/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743867258
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|move|p2a: Sinistcha|Shadow Ball|p1: Hatterene|[notarget]
+|-fail|p2a: Sinistcha
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Sinistcha|84/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743867261
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|turn|6
+|
+|t:|1743867266
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Hoopa|Trick Room|p1a: Hoopa
+|-fieldstart|move: Trick Room|[of] p1a: Hoopa
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743867271
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Cinderace
+|-damage|p2a: Cinderace|25/100
+|-unboost|p1a: Hoopa|def|1
+|-enditem|p1a: Hoopa|Eject Pack
+|
+|t:|1743867277
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|move|p2a: Cinderace|U-turn|p1a: Ursaluna
+|-damage|p1a: Ursaluna|87/100
+|
+|t:|1743867280
+|switch|p2a: Sinistcha|Sinistcha|84/100|[from] U-turn
+|
+|-weather|none
+|-heal|p2a: Sinistcha|90/100|[from] item: Leftovers
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|t:|1743867292
+|move|p1a: Ursaluna|Swords Dance|p1a: Ursaluna
+|-boost|p1a: Ursaluna|atk|2
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|25/100 brn
+|-heal|p2a: Sinistcha|100/100|[from] drain|[of] p1a: Ursaluna
+|
+|-damage|p1a: Ursaluna|19/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743867300
+|move|p1a: Ursaluna|Fire Punch|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|39/100
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-heal|p2a: Sinistcha|51/100|[from] drain|[of] p1a: Ursaluna
+|faint|p1a: Ursaluna
+|
+|-heal|p2a: Sinistcha|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743867306
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|turn|10
+|
+|t:|1743867312
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Hoopa|Hyperspace Fury|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|82/100
+|-unboost|p1a: Hoopa|def|1
+|-item|p1a: Hoopa|Choice Band|[from] ability: Magician|[of] p2a: Zamazenta
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1743867318
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100
+|move|p2a: Zamazenta|Crunch|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|89/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743867325
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Enamorus|Draining Kiss|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|89/100
+|-heal|p1a: Enamorus|99/100|[from] drain|[of] p2a: Clodsire
+|
+|upkeep
+|turn|13
+|
+|t:|1743867332
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|move|p2a: Clodsire|Stealth Rock|p1a: Cresselia
+|-sidestart|p1: tbt123|move: Stealth Rock
+|
+|upkeep
+|turn|14
+|
+|t:|1743867340
+|move|p2a: Clodsire|Toxic|p1a: Cresselia
+|-status|p1a: Cresselia|tox
+|move|p1a: Cresselia|Trick Room|p1a: Cresselia
+|-fieldstart|move: Trick Room|[of] p1a: Cresselia
+|
+|-damage|p1a: Cresselia|94/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743867346
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Clodsire|Earthquake|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|53/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743867358
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|17
+|
+|t:|1743867369
+|-terastallize|p1a: Kingambit|Flying
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Corviknight
+|-damage|p2a: Corviknight|10/100
+|-damage|p1a: Kingambit|36/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|move|p2a: Corviknight|Body Press|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|26/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743867378
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p1a: Kingambit|10/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|faint|p2a: Corviknight
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743867381
+|switch|p2a: Cinderace|Cinderace, M|25/100
+|turn|19
+|
+|t:|1743867384
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Kingambit
+|-status|p1a: Kingambit|brn
+|
+|-damage|p1a: Kingambit|4/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1743867400
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Enamorus|Enamorus-Therian, F|99/100
+|-heal|p1a: Enamorus|100/100|[from] move: Healing Wish
+|-damage|p1a: Enamorus|75/100|[from] Stealth Rock
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Enamorus|[miss]
+|-miss|p2a: Cinderace|p1a: Enamorus
+|
+|upkeep
+|turn|21
+|
+|t:|1743867412
+|move|p2a: Cinderace|U-turn|p1a: Enamorus
+|-resisted|p1a: Enamorus
+|-damage|p1a: Enamorus|72/100
+|
+|t:|1743867415
+|switch|p2a: Slowking|Slowking-Galar, M|93/100|[from] U-turn
+|move|p1a: Enamorus|Earth Power|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-enditem|p2a: Slowking|Shuca Berry|[eat]
+|-enditem|p2a: Slowking|Shuca Berry|[weaken]
+|-damage|p2a: Slowking|51/100
+|
+|upkeep
+|turn|22
+|
+|t:|1743867421
+|switch|p1a: Kingambit|Kingambit, F, tera:Flying|4/100 brn
+|-damage|p1a: Kingambit|0 fnt|[from] Stealth Rock
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Slowking|Ice Beam|p1: Kingambit|[notarget]
+|-fail|p2a: Slowking
+|
+|upkeep
+|
+|t:|1743867426
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|-damage|p1a: Hoopa|88/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1743867432
+|move|p2a: Slowking|Thunder Wave|p1a: Hoopa
+|-status|p1a: Hoopa|par
+|move|p1a: Hoopa|Trick Room|p1a: Hoopa
+|-fieldstart|move: Trick Room|[of] p1a: Hoopa
+|
+|upkeep
+|turn|24
+|
+|t:|1743867450
+|switch|p1a: Enamorus|Enamorus-Therian, F|72/100
+|-damage|p1a: Enamorus|47/100|[from] Stealth Rock
+|move|p2a: Slowking|Ice Beam|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|3/100
+|
+|upkeep
+|turn|25
+|
+|t:|1743867454
+|move|p2a: Slowking|Ice Beam|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-crit|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|upkeep
+|
+|t:|1743867458
+|switch|p1a: Hoopa|Hoopa-Unbound|88/100 par
+|-damage|p1a: Hoopa|76/100 par|[from] Stealth Rock
+|turn|26
+|
+|t:|1743867464
+|switch|p2a: Cinderace|Cinderace, M|25/100
+|move|p1a: Hoopa|Psychic|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1743867466
+|switch|p2a: Clodsire|Clodsire, F|89/100
+|turn|27
+|
+|t:|1743867469
+|move|p1a: Hoopa|Psychic|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|41/100
+|move|p2a: Clodsire|Earthquake|p1a: Hoopa
+|-damage|p1a: Hoopa|38/100 par
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|28
+|
+|t:|1743867477
+|move|p2a: Clodsire|Earthquake|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|
+|upkeep
+|-message|tbt123 forfeited.
+|
+|win|JackRG1
+|raw|tbt123's rating: 1471 &rarr; <strong>1453</strong><br />(-18 for losing)
+|raw|JackRG1's rating: 1514 &rarr; <strong>1532</strong><br />(+18 for winning)
+|l|☆tbt123
+|player|p1|

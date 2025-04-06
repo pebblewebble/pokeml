@@ -1,0 +1,358 @@
+|j|☆varimare
+|j|☆javitheguy
+|t:|1743782448
+|gametype|singles
+|player|p1|varimare|giovanni|1224
+|player|p2|javitheguy|266|1186
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Serperior, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Gliscor, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Iron Boulder|
+|poke|p1|Altaria, M|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Meowscarada, F|
+|poke|p2|Clefable, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Walking Wake|
+|teampreview
+|
+|t:|1743782459
+|start
+|switch|p1a: Iron Boulder|Iron Boulder|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|-enditem|p1a: Iron Boulder|Booster Energy
+|-activate|p1a: Iron Boulder|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Boulder|quarkdriveatk
+|turn|1
+|
+|t:|1743782470
+|move|p2a: Ninetales|Encore||[still]
+|-fail|p2a: Ninetales
+|move|p1a: Iron Boulder|Mighty Cleave|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743782486
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|2
+|
+|t:|1743782496
+|-terastallize|p1a: Iron Boulder|Flying
+|move|p2a: Meowscarada|U-turn|p1a: Iron Boulder
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|81/100
+|
+|t:|1743782523
+|switch|p2a: Walking Wake|Walking Wake|100/100|[from] U-turn
+|-enditem|p2a: Walking Wake|Booster Energy
+|-activate|p2a: Walking Wake|ability: Protosynthesis|[fromitem]
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p1a: Iron Boulder|Close Combat|p2a: Walking Wake
+|-damage|p2a: Walking Wake|35/100
+|-unboost|p1a: Iron Boulder|def|1
+|-unboost|p1a: Iron Boulder|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743782540
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Walking Wake|Draco Meteor|p1a: Ogerpon
+|-damage|p1a: Ogerpon|2/100
+|-unboost|p2a: Walking Wake|spa|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743782553
+|move|p1a: Ogerpon|Spiky Shield|p1a: Ogerpon
+|-singleturn|p1a: Ogerpon|move: Protect
+|move|p2a: Walking Wake|Aqua Jet|p1a: Ogerpon
+|-activate|p1a: Ogerpon|move: Protect
+|-damage|p2a: Walking Wake|23/100|[from] Spiky Shield|[of] p1a: Ogerpon
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743782564
+|move|p2a: Walking Wake|Aqua Jet|p1a: Ogerpon
+|-heal|p1a: Ogerpon|27/100|[from] ability: Water Absorb|[of] p2a: Walking Wake
+|move|p1a: Ogerpon|U-turn|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|t:|1743782573
+|switch|p1a: Iron Boulder|Iron Boulder, tera:Flying|81/100|[from] U-turn
+|
+|-weather|none
+|upkeep
+|
+|t:|1743782581
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|6
+|
+|t:|1743782588
+|move|p1a: Iron Boulder|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|27/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Iron Boulder
+|-damage|p1a: Iron Boulder|39/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743782596
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|move|p1a: Iron Boulder|Earthquake|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|74/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743782604
+|move|p2a: Meowscarada|Play Rough|p1a: Iron Boulder
+|-start|p2a: Meowscarada|typechange|Fairy|[from] ability: Protean
+|-damage|p1a: Iron Boulder|0 fnt
+|faint|p1a: Iron Boulder
+|-end|p1a: Iron Boulder|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743782621
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|27/100
+|turn|9
+|
+|t:|1743782628
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Ogerpon|Spiky Shield||[still]
+|-fail|p1a: Ogerpon
+|
+|upkeep
+|turn|10
+|
+|t:|1743782636
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Clefable|[anim] Ivy Cudgel Water
+|-damage|p2a: Clefable|30/100
+|move|p2a: Clefable|Moonblast|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-heal|p2a: Clefable|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743782647
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|turn|11
+|
+|t:|1743782656
+|switch|p2a: Meowscarada|Meowscarada, F|74/100
+|move|p1a: Gliscor|Earthquake|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|42/100
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|12
+|
+|t:|1743782665
+|move|p2a: Meowscarada|Flower Trick|p1a: Gliscor
+|-start|p2a: Meowscarada|typechange|Grass|[from] ability: Protean
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|57/100 tox
+|move|p1a: Gliscor|Dual Wingbeat|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|-hitcount|p2: Meowscarada|1
+|
+|-heal|p1a: Gliscor|69/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743782684
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|13
+|
+|t:|1743782690
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Cinderace|Pyro Ball|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|82/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|t:|1743782705
+|-terastallize|p2a: Cinderace|Fighting
+|move|p2a: Cinderace|Pyro Ball|p1a: Gliscor
+|-damage|p1a: Gliscor|9/100 tox
+|move|p1a: Gliscor|Earthquake|p2a: Cinderace
+|-damage|p2a: Cinderace|42/100
+|
+|-heal|p1a: Gliscor|21/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|t:|1743782718
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Cinderace|Pyro Ball|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|34/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|t:|1743782727
+|switch|p1a: Kamikaze|Corviknight, M, shiny|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Kamikaze
+|-supereffective|p1a: Kamikaze
+|-damage|p1a: Kamikaze|0 fnt
+|faint|p1a: Kamikaze
+|
+|upkeep
+|
+|t:|1743782730
+|switch|p1a: Altaria|Altaria, M|100/100
+|-ability|p1a: Altaria|Cloud Nine
+|turn|17
+|
+|t:|1743782742
+|switch|p2a: Clefable|Clefable, F|36/100
+|move|p1a: Altaria|Brave Bird|p2a: Clefable
+|-damage|p2a: Clefable|4/100
+|-damage|p1a: Altaria|87/100|[from] Recoil
+|
+|-heal|p2a: Clefable|10/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743782753
+|switch|p1a: Serperior|Serperior, M, shiny|100/100
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|60/100
+|
+|-heal|p2a: Clefable|66/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743782762
+|move|p1a: Serperior|Leaf Storm|p2a: Clefable|[miss]
+|-miss|p1a: Serperior|p2a: Clefable
+|move|p2a: Clefable|Fire Blast|p1a: Serperior
+|-supereffective|p1a: Serperior
+|-damage|p1a: Serperior|23/100
+|
+|-heal|p2a: Clefable|73/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743782771
+|move|p1a: Serperior|Leaf Storm|p2a: Clefable
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|5/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Clefable|Moonblast|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|-heal|p2a: Clefable|11/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743782775
+|switch|p1a: Gliscor|Gliscor, M|34/100 tox
+|turn|21
+|
+|t:|1743782784
+|move|p1a: Gliscor|Dual Wingbeat|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|-hitcount|p2: Clefable|1
+|
+|-heal|p1a: Gliscor|46/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743782793
+|switch|p2a: Cinderace|Cinderace, F, tera:Fighting|42/100
+|turn|22
+|
+|t:|1743782799
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Cinderace|Pyro Ball|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|59/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|
+|t:|1743782807
+|move|p2a: Cinderace|Pyro Ball|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|t:|1743782809
+|switch|p1a: Altaria|Altaria, M|87/100
+|-ability|p1a: Altaria|Cloud Nine
+|turn|24
+|
+|t:|1743782816
+|move|p2a: Cinderace|Pyro Ball|p1a: Altaria
+|-resisted|p1a: Altaria
+|-damage|p1a: Altaria|45/100
+|move|p1a: Altaria|Brave Bird|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|-damage|p1a: Altaria|32/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743782825
+|switch|p2a: Slowking|Slowking-Galar, M|61/100
+|turn|25
+|
+|t:|1743782830
+|move|p1a: Altaria|Brave Bird|p2a: Slowking
+|-damage|p2a: Slowking|31/100
+|-damage|p1a: Altaria|20/100|[from] Recoil
+|move|p2a: Slowking|Psychic|p1a: Altaria
+|-damage|p1a: Altaria|0 fnt
+|faint|p1a: Altaria
+|
+|win|javitheguy
+|raw|varimare's rating: 1224 &rarr; <strong>1196</strong><br />(-28 for losing)
+|raw|javitheguy's rating: 1186 &rarr; <strong>1214</strong><br />(+28 for winning)
+|l|☆varimare
+|player|p1|
+|l|☆javitheguy
+|player|p2|

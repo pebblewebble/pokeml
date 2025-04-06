@@ -1,0 +1,294 @@
+|j|☆JSD717
+|j|☆staaarz
+|t:|1743869252
+|gametype|singles
+|player|p1|JSD717|skyla|1522
+|player|p2|staaarz|petrel|1476
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Quaquaval, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Weavile, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Moltres|
+|poke|p1|Slowking-Galar, F|
+|poke|p2|Blissey, F|
+|poke|p2|Dondozo, M|
+|poke|p2|Clodsire, M|
+|poke|p2|Toxapex, M|
+|poke|p2|Corviknight, F|
+|poke|p2|Gliscor, F|
+|teampreview
+|
+|t:|1743869262
+|start
+|switch|p1a: Weavile|Weavile, M|100/100
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|1
+|
+|t:|1743869272
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Weavile|Knock Off|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743869283
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|move|p1a: Weavile|Knock Off|p2a: Toxapex
+|-damage|p2a: Toxapex|69/100
+|-enditem|p2a: Toxapex|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Weavile
+|
+|upkeep
+|turn|3
+|
+|t:|1743869294
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Toxapex|Toxic|p1a: Slowking
+|-immune|p1a: Slowking
+|
+|upkeep
+|turn|4
+|
+|t:|1743869306
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743869322
+|switch|p1a: Glimmora|Glimmora, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743869332
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox
+|move|p1a: Glimmora|Earth Power|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743869340
+|move|p1a: Glimmora|Meteor Beam||[still]
+|-prepare|p1a: Glimmora|Meteor Beam
+|-boost|p1a: Glimmora|spa|1
+|-enditem|p1a: Glimmora|Power Herb
+|-anim|p1a: Glimmora|Meteor Beam|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by JSD717)
+|
+|t:|1743869368
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|turn|7
+|
+|t:|1743869376
+|move|p1a: Glimmora|Earth Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|26/100
+|move|p2a: Toxapex|Surf|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|51/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743869392
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Glimmora|Meteor Beam||[still]
+|-prepare|p1a: Glimmora|Meteor Beam
+|-boost|p1a: Glimmora|spa|1
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743869399
+|move|p1a: Glimmora|Meteor Beam|p2a: Corviknight|[from] lockedmove
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1743869406
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|turn|10
+|
+|t:|1743869412
+|move|p1a: Glimmora|Sludge Wave|p2a: Dondozo
+|-damage|p2a: Dondozo|51/100
+|move|p2a: Dondozo|Waterfall|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: staaarz|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1743869429
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|11
+|
+|t:|1743869457
+|move|p1a: Weavile|Knock Off|p2a: Dondozo
+|-damage|p2a: Dondozo|28/100
+|-enditem|p2a: Dondozo|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743869478
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-heal|p2a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|13
+|
+|t:|1743869487
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|-sideend|p2: staaarz|move: Toxic Spikes|[of] p2a: Clodsire
+|move|p1a: Iron Valiant|Encore||[still]
+|-fail|p1a: Iron Valiant
+|
+|upkeep
+|turn|14
+|
+|t:|1743869498
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Clodsire|Stealth Rock|p1a: Slowking
+|-sidestart|p1: JSD717|move: Stealth Rock
+|
+|upkeep
+|turn|15
+|
+|t:|1743869508
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Slowking|Future Sight|p2a: Blissey
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|16
+|inactive|staaarz has 120 seconds left.
+|
+|t:|1743869548
+|move|p2a: Blissey|Seismic Toss|p1a: Slowking
+|-damage|p1a: Slowking|75/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743869554
+|switch|p1a: Quaquaval|Quaquaval, F|100/100|[from] Chilly Reception
+|-damage|p1a: Quaquaval|94/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743869561
+|switch|p2a: Clodsire|Clodsire, M|100/100
+|move|p1a: Quaquaval|Rapid Spin|p2a: Clodsire
+|-damage|p2a: Clodsire|82/100
+|-boost|p1a: Quaquaval|spe|1
+|-sideend|p1: JSD717|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Quaquaval
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Clodsire|move: Future Sight
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|30/100
+|upkeep
+|turn|18
+|
+|t:|1743869573
+|switch|p2a: Dondozo|Dondozo, M|100/100 slp
+|move|p1a: Quaquaval|Close Combat|p2a: Dondozo
+|-damage|p2a: Dondozo|73/100 slp
+|-unboost|p1a: Quaquaval|def|1
+|-unboost|p1a: Quaquaval|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743869583
+|move|p1a: Quaquaval|Close Combat|p2a: Dondozo
+|-damage|p2a: Dondozo|47/100 slp
+|-unboost|p1a: Quaquaval|def|1
+|-unboost|p1a: Quaquaval|spd|1
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Waterfall|p1a: Quaquaval|[from] move: Sleep Talk
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|77/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1743869595
+|move|p1a: Quaquaval|Close Combat|p2a: Dondozo
+|-damage|p2a: Dondozo|15/100 slp
+|-unboost|p1a: Quaquaval|def|1
+|-unboost|p1a: Quaquaval|spd|1
+|cant|p2a: Dondozo|slp
+|move|p2a: Dondozo|Sleep Talk|p2a: Dondozo
+|move|p2a: Dondozo|Rest||[from] move: Sleep Talk|[still]
+|-fail|p2a: Dondozo
+|
+|-weather|none
+|upkeep
+|turn|21
+|
+|t:|1743869604
+|move|p1a: Quaquaval|Close Combat|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|-unboost|p1a: Quaquaval|def|1
+|-unboost|p1a: Quaquaval|spd|1
+|faint|p2a: Dondozo
+|-ability|p1a: Quaquaval|Moxie|boost
+|-boost|p1a: Quaquaval|atk|1
+|
+|upkeep
+|-message|staaarz forfeited.
+|
+|win|JSD717
+|raw|JSD717's rating: 1522 &rarr; <strong>1539</strong><br />(+17 for winning)
+|raw|staaarz's rating: 1476 &rarr; <strong>1459</strong><br />(-17 for losing)
+|l|☆JSD717
+|player|p1|

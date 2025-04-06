@@ -1,0 +1,321 @@
+|j|☆SnekAndLiz
+|j|☆charizardkill0999
+|t:|1743848458
+|gametype|singles
+|player|p1|SnekAndLiz|doubleteam|
+|player|p2|charizardkill0999|volkner|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Slowbro-Galar, M|
+|poke|p1|Armarouge, M|
+|poke|p1|Meowscarada, F|
+|poke|p1|Iron Treads|
+|poke|p1|Weavile, M|
+|poke|p1|Clefable, M|
+|poke|p2|Charizard, M|
+|poke|p2|Darkrai|
+|poke|p2|Iron Valiant|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Braviary, M|
+|teampreview
+|
+|t:|1743848488
+|start
+|switch|p1a: Lanturn.|Clefable, M|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743848505
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|move|p1a: Lanturn.|Stealth Rock|p2a: Iron Valiant
+|-sidestart|p2: charizardkill0999|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743848513
+|move|p2a: Iron Valiant|Will-O-Wisp|p1a: Lanturn.|[miss]
+|-miss|p2a: Iron Valiant|p1a: Lanturn.
+|move|p1a: Lanturn.|Knock Off|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|26/100
+|-damage|p1a: Lanturn.|84/100|[from] item: Rocky Helmet|[of] p2a: Iron Valiant
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|-enditem|p2a: Zoroark|Rocky Helmet|[from] move: Knock Off|[of] p1a: Lanturn.
+|
+|-heal|p1a: Lanturn.|90/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743848537
+|move|p2a: Zoroark|Will-O-Wisp|p1a: Lanturn.
+|-status|p1a: Lanturn.|brn
+|move|p1a: Lanturn.|Knock Off|p2a: Zoroark
+|-supereffective|p2a: Zoroark
+|-damage|p2a: Zoroark|4/100
+|
+|-heal|p1a: Lanturn.|96/100 brn|[from] item: Leftovers
+|-damage|p1a: Lanturn.|90/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743848554
+|move|p2a: Zoroark|Hex|p1a: Lanturn.
+|-damage|p1a: Lanturn.|48/100 brn
+|move|p1a: Lanturn.|Knock Off|p2a: Zoroark
+|-supereffective|p2a: Zoroark
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|
+|-heal|p1a: Lanturn.|54/100 brn|[from] item: Leftovers
+|-damage|p1a: Lanturn.|48/100 brn|[from] brn
+|upkeep
+|
+|t:|1743848559
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|5
+|
+|t:|1743848593
+|switch|p2a: Braviary|Braviary, M|100/100
+|-damage|p2a: Braviary|76/100|[from] Stealth Rock
+|switch|p1a: M4NNY|Iron Treads, shiny|100/100
+|-enditem|p1a: M4NNY|Booster Energy
+|-activate|p1a: M4NNY|ability: Quark Drive|[fromitem]
+|-start|p1a: M4NNY|quarkdrivespe
+|
+|upkeep
+|turn|6
+|
+|t:|1743848603
+|move|p1a: M4NNY|Ice Spinner|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|14/100
+|-enditem|p2a: Braviary|Sitrus Berry|[eat]
+|-heal|p2a: Braviary|39/100|[from] item: Sitrus Berry
+|move|p2a: Braviary|Defog|p1a: M4NNY
+|-unboost|p1a: M4NNY|evasion|1
+|-sideend|p2: charizardkill0999|Stealth Rock|[from] move: Defog|[of] p2a: Braviary
+|
+|upkeep
+|turn|7
+|
+|t:|1743848617
+|move|p1a: M4NNY|Ice Spinner|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|upkeep
+|
+|t:|1743848627
+|switch|p2a: Charizard|Charizard, M, shiny|100/100
+|turn|8
+|
+|t:|1743848665
+|-end|p1a: M4NNY|Quark Drive|[silent]
+|switch|p1a: Brooooo|Slowbro-Galar, M|100/100
+|-terastallize|p2a: Charizard|Fire
+|move|p2a: Charizard|Flamethrower|p1a: Brooooo
+|-damage|p1a: Brooooo|27/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743848693
+|move|p2a: Charizard|Scorching Sands|p1a: Brooooo
+|-supereffective|p1a: Brooooo
+|-damage|p1a: Brooooo|0 fnt
+|faint|p1a: Brooooo
+|
+|upkeep
+|
+|t:|1743848711
+|switch|p1a: Satria|Armarouge, M|100/100
+|turn|10
+|
+|t:|1743848726
+|move|p2a: Charizard|Scorching Sands|p1a: Satria
+|-supereffective|p1a: Satria
+|-damage|p1a: Satria|47/100
+|-enditem|p1a: Satria|Weakness Policy
+|-boost|p1a: Satria|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Satria|spa|2|[from] item: Weakness Policy
+|move|p1a: Satria|Calm Mind|p1a: Satria
+|-boost|p1a: Satria|spa|1
+|-boost|p1a: Satria|spd|1
+|
+|upkeep
+|turn|11
+|
+|t:|1743848751
+|-terastallize|p1a: Satria|Psychic
+|move|p2a: Charizard|Scorching Sands|p1a: Satria
+|-damage|p1a: Satria|29/100
+|move|p1a: Satria|Stored Power|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|upkeep
+|
+|t:|1743848778
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|12
+|
+|t:|1743848802
+|move|p1a: Satria|Endure|p1a: Satria
+|-singleturn|p1a: Satria|move: Endure
+|move|p2a: Deoxys|Shadow Ball|p1a: Satria
+|-supereffective|p1a: Satria
+|-activate|p1a: Satria|move: Endure
+|-damage|p1a: Satria|1/100
+|-unboost|p1a: Satria|spd|1
+|
+|upkeep
+|turn|13
+|
+|t:|1743848833
+|switch|p1a: M4NNY|Iron Treads, shiny|100/100
+|move|p2a: Deoxys|Extreme Speed|p1a: M4NNY
+|-resisted|p1a: M4NNY
+|-damage|p1a: M4NNY|92/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743848866
+|move|p2a: Deoxys|Shadow Ball|p1a: M4NNY
+|-damage|p1a: M4NNY|59/100
+|move|p1a: M4NNY|Knock Off|p2a: Deoxys
+|-supereffective|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|-enditem|p2a: Deoxys|Leftovers|[from] move: Knock Off|[of] p1a: M4NNY
+|faint|p2a: Deoxys
+|
+|upkeep
+|
+|t:|1743848889
+|switch|p2a: Darkrai|Darkrai|100/100
+|turn|15
+|
+|t:|1743848903
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|move|p1a: M4NNY|Earthquake|p2a: Darkrai
+|-damage|p2a: Darkrai|40/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743848930
+|move|p2a: Darkrai|Dark Pulse|p1a: M4NNY
+|-damage|p1a: M4NNY|0 fnt
+|faint|p1a: M4NNY
+|-end|p1a: M4NNY|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743848983
+|switch|p1a: Zoe?|Meowscarada, F, shiny|100/100
+|turn|17
+|
+|t:|1743848999
+|move|p2a: Darkrai|Sludge Bomb|p1a: Zoe?
+|-supereffective|p1a: Zoe?
+|-damage|p1a: Zoe?|0 fnt
+|faint|p1a: Zoe?
+|
+|upkeep
+|
+|t:|1743849006
+|switch|p1a: Snazzy|Weavile, M, shiny|100/100
+|turn|18
+|c|☆SnekAndLiz|Lets go gambling
+|
+|t:|1743849039
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|move|p1a: Snazzy|Triple Axel|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|89/100
+|-damage|p2a: Iron Valiant|62/100
+|-hitcount|p2a: Iron Valiant|2
+|
+|upkeep
+|turn|19
+|
+|t:|1743849086
+|switch|p1a: Lanturn.|Clefable, M|48/100 brn
+|move|p2a: Iron Valiant|Moonblast|p1a: Lanturn.
+|-damage|p1a: Lanturn.|15/100 brn
+|-unboost|p1a: Lanturn.|spa|1
+|
+|-heal|p1a: Lanturn.|22/100 brn|[from] item: Leftovers
+|-damage|p1a: Lanturn.|15/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1743849109
+|move|p2a: Iron Valiant|Moonblast|p1a: Lanturn.
+|-damage|p1a: Lanturn.|0 fnt
+|faint|p1a: Lanturn.
+|
+|upkeep
+|
+|t:|1743849116
+|switch|p1a: Satria|Armarouge, M, tera:Psychic|1/100
+|turn|21
+|
+|t:|1743849129
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Satria
+|-damage|p1a: Satria|0 fnt
+|faint|p1a: Satria
+|
+|upkeep
+|
+|t:|1743849134
+|switch|p1a: Snazzy|Weavile, M, shiny|100/100
+|turn|22
+|
+|t:|1743849145
+|move|p1a: Snazzy|Triple Axel|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|50/100
+|-damage|p2a: Iron Valiant|23/100
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|-hitcount|p2: Iron Valiant|3
+|
+|upkeep
+|
+|t:|1743849150
+|switch|p2a: Darkrai|Darkrai|40/100
+|turn|23
+|
+|t:|1743849183
+|move|p2a: Darkrai|Sludge Bomb|p1a: Snazzy
+|-damage|p1a: Snazzy|53/100
+|move|p1a: Snazzy|Triple Axel|p2a: Darkrai
+|-damage|p2a: Darkrai|26/100
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|-hitcount|p2: Darkrai|2
+|
+|win|SnekAndLiz
+|l|☆charizardkill0999
+|player|p2|
+|c|☆SnekAndLiz|Gg

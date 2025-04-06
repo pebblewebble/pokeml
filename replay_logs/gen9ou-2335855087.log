@@ -1,0 +1,203 @@
+|j|☆VBix
+|j|☆wenchaojiayang
+|t:|1743848767
+|gametype|singles
+|player|p1|VBix|steven|1472
+|player|p2|wenchaojiayang|lucas|1411
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, F|
+|poke|p1|Walking Wake|
+|poke|p1|Heatran, F|
+|poke|p1|Leavanny, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Great Tusk|
+|poke|p2|Sinistcha|
+|poke|p2|Gholdengo|
+|poke|p2|Dragonite, M|
+|poke|p2|Muk, M|
+|poke|p2|Orthworm, M|
+|poke|p2|Tyranitar, M|
+|teampreview
+|
+|t:|1743848781
+|start
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|switch|p2a: Orthworm|Orthworm, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1743848788
+|switch|p1a: Leavanny|Leavanny, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Leavanny|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1743848799
+|-terastallize|p2a: Tyranitar|Flying
+|move|p1a: Leavanny|Low Kick|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|88/100
+|move|p2a: Tyranitar|Stealth Rock|p1a: Leavanny
+|-sidestart|p1: VBix|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Leavanny|88/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|81/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1743848808
+|move|p1a: Leavanny|Sticky Web|p2a: Tyranitar
+|-sidestart|p2: wenchaojiayang|move: Sticky Web
+|move|p2a: Tyranitar|Knock Off|p1a: Leavanny
+|-damage|p1a: Leavanny|0 fnt
+|-enditem|p1a: Leavanny|Eject Pack|[from] move: Knock Off|[of] p2a: Tyranitar
+|faint|p1a: Leavanny
+|-damage|p2a: Tyranitar|72/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|65/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743848820
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|4
+|
+|t:|1743848827
+|switch|p2a: Sinistcha|Sinistcha|100/100
+|-activate|p2a: Sinistcha|move: Sticky Web
+|-unboost|p2a: Sinistcha|spe|1
+|move|p1a: Great Tusk|Rapid Spin|p2a: Sinistcha
+|-immune|p2a: Sinistcha
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sinistcha|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1743848847
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Heatran|Heatran, F|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|move|p2a: Sinistcha|Strength Sap|p1a: Heatran
+|-unboost|p1a: Heatran|atk|1
+|-heal|p2a: Sinistcha|100/100
+|
+|-weather|none
+|-heal|p1a: Heatran|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743848869
+|switch|p2a: Tyranitar|Tyranitar, M, tera:Flying|65/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Heatran|Will-O-Wisp|p2a: Tyranitar|[miss]
+|-miss|p1a: Heatran|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|59/100|[from] Sandstorm
+|-heal|p1a: Heatran|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743848879
+|move|p1a: Heatran|Will-O-Wisp|p2a: Tyranitar|[miss]
+|-miss|p1a: Heatran|p2a: Tyranitar
+|move|p2a: Tyranitar|Knock Off|p1a: Heatran
+|-damage|p1a: Heatran|42/100
+|-enditem|p1a: Heatran|Leftovers|[from] move: Knock Off|[of] p2a: Tyranitar
+|-damage|p2a: Tyranitar|49/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|43/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1743848895
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-activate|p2a: Gholdengo|move: Sticky Web
+|-unboost|p2a: Gholdengo|spe|1
+|move|p1a: Heatran|Will-O-Wisp|p2a: Gholdengo
+|-immune|p2a: Gholdengo|[from] ability: Good as Gold
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743848906
+|move|p2a: Gholdengo|Shadow Ball|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743848915
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|10
+|
+|t:|1743848955
+|switch|p2a: Sinistcha|Sinistcha|100/100
+|-activate|p2a: Sinistcha|move: Sticky Web
+|-unboost|p2a: Sinistcha|spe|1
+|move|p1a: Great Tusk|Temper Flare|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|82/100
+|-enditem|p2a: Sinistcha|Weakness Policy
+|-boost|p2a: Sinistcha|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Sinistcha|spa|2|[from] item: Weakness Policy
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1743848966
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Sinistcha|Shadow Ball|p1a: Ninetales
+|-damage|p1a: Ninetales|4/100
+|-unboost|p1a: Ninetales|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743848994
+|switch|p2a: Tyranitar|Tyranitar, M, tera:Flying|43/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Ninetales|Healing Wish|p1a: Ninetales
+|faint|p1a: Ninetales
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|37/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743849000
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-damage|p1a: Walking Wake|88/100|[from] Stealth Rock
+|turn|13
+|-message|VBix forfeited.
+|
+|win|wenchaojiayang
+|raw|VBix's rating: 1472 &rarr; <strong>1449</strong><br />(-23 for losing)
+|raw|wenchaojiayang's rating: 1411 &rarr; <strong>1434</strong><br />(+23 for winning)
+|l|☆wenchaojiayang
+|player|p2|

@@ -1,0 +1,473 @@
+|j|☆PapsIGuess31
+|j|☆vanish ct
+|t:|1743926620
+|gametype|singles
+|player|p1|PapsIGuess31|ingo|1140
+|player|p2|vanish ct|n|1208
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hydrapple, M|
+|poke|p1|Ceruledge, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Serperior, M|
+|poke|p1|Inteleon, M|
+|poke|p1|Excadrill, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Corviknight, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Duraludon, M|
+|poke|p2|Rillaboom, M|
+|poke|p2|Hatterene, F|
+|teampreview
+|c|☆PapsIGuess31|glhf!
+|
+|t:|1743926641
+|start
+|switch|p1a: Inteleon|Inteleon, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1743926658
+|switch|p1a: Hydrapple|Hydrapple, M, shiny|100/100
+|-ability|p1a: Hydrapple|Supersweet Syrup
+|-unboost|p2a: Rillaboom|evasion|1
+|move|p2a: Rillaboom|Knock Off|p1a: Hydrapple
+|-damage|p1a: Hydrapple|79/100
+|-enditem|p1a: Hydrapple|Leftovers|[from] move: Knock Off|[of] p2a: Rillaboom
+|
+|-heal|p1a: Hydrapple|85/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vanish ct)
+|
+|t:|1743926670
+|move|p2a: Rillaboom|U-turn|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|54/100
+|
+|t:|1743926673
+|switch|p2a: Hatterene|Hatterene, F|100/100|[from] U-turn
+|move|p1a: Hydrapple|Nasty Plot|p1a: Hydrapple
+|-boost|p1a: Hydrapple|spa|2
+|
+|-heal|p1a: Hydrapple|60/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1743926685
+|-terastallize|p1a: Hydrapple|Steel
+|move|p1a: Hydrapple|Giga Drain|p2a: Hatterene
+|-damage|p2a: Hatterene|45/100
+|-heal|p1a: Hydrapple|82/100|[from] drain|[of] p2a: Hatterene
+|move|p2a: Hatterene|Nuzzle|p1a: Hydrapple
+|-damage|p1a: Hydrapple|79/100
+|-status|p1a: Hydrapple|par
+|
+|-heal|p2a: Hatterene|51/100|[from] Grassy Terrain
+|-heal|p1a: Hydrapple|85/100 par|[from] Grassy Terrain
+|upkeep
+|turn|4
+|l|☆vanish ct
+|inactive|vanish ct disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|vanish ct has 30 seconds to reconnect!
+|j|☆vanish ct
+|inactive|vanish ct reconnected and has 100 seconds left.
+|player|p2|vanish ct|n|
+|
+|t:|1743926742
+|move|p2a: Hatterene|Mystical Fire|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|50/100 par
+|-unboost|p1a: Hydrapple|spa|1
+|move|p1a: Hydrapple|Giga Drain|p2a: Hatterene
+|-damage|p2a: Hatterene|11/100
+|-heal|p1a: Hydrapple|66/100 par|[from] drain|[of] p2a: Hatterene
+|
+|-heal|p2a: Hatterene|17/100|[from] Grassy Terrain
+|-heal|p1a: Hydrapple|72/100 par|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1743926757
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|move|p1a: Hydrapple|Giga Drain|p2a: Rillaboom
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|80/100
+|-heal|p1a: Hydrapple|82/100 par|[from] drain|[of] p2a: Rillaboom
+|
+|-heal|p2a: Rillaboom|86/100|[from] Grassy Terrain
+|-heal|p1a: Hydrapple|88/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1743926764
+|move|p2a: Rillaboom|U-turn|p1a: Hydrapple
+|-resisted|p1a: Hydrapple
+|-damage|p1a: Hydrapple|80/100 par
+|
+|t:|1743926767
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from] U-turn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Hydrapple|Fickle Beam|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|82/100
+|
+|-heal|p2a: Corviknight|88/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743926783
+|switch|p2a: Hatterene|Hatterene, F|17/100
+|switch|p1a: Inteleon|Inteleon, M|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743926788
+|move|p1a: Inteleon|Snipe Shot|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1743926793
+|switch|p2a: Rillaboom|Rillaboom, M|86/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|9
+|
+|t:|1743926801
+|switch|p1a: Serperior|Serperior, M|100/100
+|move|p2a: Rillaboom|Grassy Glide|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|83/100
+|
+|-heal|p1a: Serperior|89/100|[from] Grassy Terrain
+|-heal|p1a: Serperior|95/100|[from] item: Leftovers
+|-heal|p2a: Rillaboom|92/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1743926814
+|move|p1a: Serperior|Glare|p2a: Rillaboom
+|-status|p2a: Rillaboom|par
+|cant|p2a: Rillaboom|par
+|
+|-heal|p1a: Serperior|100/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|98/100 par|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1743926818
+|switch|p1a: Inteleon|Inteleon, M|100/100
+|move|p2a: Rillaboom|Knock Off|p1a: Inteleon
+|-damage|p1a: Inteleon|52/100
+|-enditem|p1a: Inteleon|Scope Lens|[from] move: Knock Off|[of] p2a: Rillaboom
+|
+|-heal|p1a: Inteleon|59/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|100/100 par|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1743926825
+|move|p2a: Rillaboom|Grassy Glide|p1a: Inteleon
+|-supereffective|p1a: Inteleon
+|-damage|p1a: Inteleon|0 fnt
+|faint|p1a: Inteleon
+|
+|upkeep
+|
+|t:|1743926828
+|switch|p1a: Ceruledge|Ceruledge, M|100/100
+|turn|13
+|
+|t:|1743926834
+|move|p1a: Ceruledge|Bitter Blade|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|17/100 par
+|move|p2a: Rillaboom|Knock Off|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|34/100
+|-enditem|p1a: Ceruledge|Big Root|[from] move: Knock Off|[of] p2a: Rillaboom
+|
+|-heal|p1a: Ceruledge|40/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|24/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1743926845
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Ceruledge|Bitter Blade|p2a: Zamazenta
+|-damage|p2a: Zamazenta|70/100
+|-heal|p1a: Ceruledge|55/100|[from] drain|[of] p2a: Zamazenta
+|
+|upkeep
+|turn|15
+|
+|t:|1743926855
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: Zamazenta|Crunch|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|87/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743926861
+|switch|p2a: Rillaboom|Rillaboom, M|24/100 par
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Iron Valiant|Spirit Break|p2a: Rillaboom
+|-crit|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Iron Valiant|93/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743926869
+|switch|p2a: Zamazenta|Zamazenta|70/100
+|turn|17
+|
+|t:|1743926871
+|-terastallize|p2a: Zamazenta|Steel
+|move|p1a: Iron Valiant|Spirit Break|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|42/100
+|-unboost|p2a: Zamazenta|spa|1
+|move|p2a: Zamazenta|Heavy Slam|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p2a: Zamazenta|48/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743926877
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|18
+|
+|t:|1743926884
+|switch|p2a: Corviknight|Corviknight, M|88/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Excadrill|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p2a: Corviknight|95/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743926891
+|switch|p1a: Hydrapple|Hydrapple, M, shiny, tera:Steel|80/100 par
+|switch|p2a: Duraludon|Duraludon, M|100/100
+|
+|-heal|p1a: Hydrapple|86/100 par|[from] Grassy Terrain
+|upkeep
+|turn|20
+|
+|t:|1743926897
+|move|p2a: Duraludon|Body Press|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|58/100 par
+|move|p1a: Hydrapple|Earth Power|p2a: Duraludon
+|-supereffective|p2a: Duraludon
+|-damage|p2a: Duraludon|43/100
+|
+|-heal|p2a: Duraludon|49/100|[from] Grassy Terrain
+|-heal|p1a: Hydrapple|65/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|21
+|
+|t:|1743926906
+|switch|p2a: Corviknight|Corviknight, M|95/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Hydrapple|Earth Power|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743926916
+|switch|p2a: Duraludon|Duraludon, M|49/100
+|move|p1a: Hydrapple|Nasty Plot|p1a: Hydrapple
+|-boost|p1a: Hydrapple|spa|2
+|
+|upkeep
+|turn|23
+|
+|t:|1743926921
+|move|p2a: Duraludon|Body Press|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|36/100 par
+|move|p1a: Hydrapple|Fickle Beam|p2a: Duraludon
+|-damage|p2a: Duraludon|0 fnt
+|faint|p2a: Duraludon
+|
+|upkeep
+|
+|t:|1743926927
+|switch|p2a: Zamazenta|Zamazenta, tera:Steel|48/100
+|turn|24
+|
+|t:|1743926930
+|move|p2a: Zamazenta|Close Combat|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple
+|-damage|p1a: Hydrapple|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Hydrapple
+|
+|upkeep
+|
+|t:|1743926935
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|25
+|
+|t:|1743926938
+|move|p1a: Excadrill|Rock Slide|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|20/100
+|cant|p2a: Zamazenta|flinch
+|
+|upkeep
+|turn|26
+|
+|t:|1743926946
+|move|p1a: Excadrill|Rock Slide|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|2/100
+|cant|p2a: Zamazenta|flinch
+|
+|upkeep
+|turn|27
+|
+|t:|1743926950
+|move|p1a: Excadrill|Rock Slide|p2a: Zamazenta
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1743926954
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|28
+|
+|t:|1743926958
+|switch|p1a: Serperior|Serperior, M|100/100
+|move|p2a: Iron Valiant|Aura Sphere|p1a: Serperior
+|-damage|p1a: Serperior|59/100
+|
+|-heal|p1a: Serperior|65/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|c|☆vanish ct|Bruh
+|
+|t:|1743926968
+|move|p2a: Iron Valiant|Moonblast|p1a: Serperior
+|-damage|p1a: Serperior|20/100
+|-boost|p1a: Serperior|spa|1
+|move|p1a: Serperior|Glare|p2a: Iron Valiant
+|-status|p2a: Iron Valiant|par
+|
+|-heal|p1a: Serperior|26/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1743926974
+|move|p1a: Serperior|Leaf Storm|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|4/100 par
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Iron Valiant|Moonblast|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|
+|t:|1743926980
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|31
+|
+|t:|1743926982
+|move|p1a: Excadrill|Rock Slide|p2a: Iron Valiant|[miss]
+|-miss|p1a: Excadrill|p2a: Iron Valiant
+|move|p2a: Iron Valiant|Aura Sphere|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|t:|1743926984
+|switch|p1a: Ceruledge|Ceruledge, M|55/100
+|turn|32
+|
+|t:|1743926992
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743926993
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|33
+|
+|t:|1743926996
+|move|p1a: Ceruledge|Bitter Blade|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|22/100
+|-heal|p1a: Ceruledge|100/100|[from] drain|[of] p2a: Corviknight
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|28/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1743927000
+|move|p1a: Ceruledge|Bitter Blade|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|win|PapsIGuess31
+|raw|PapsIGuess31's rating: 1140 &rarr; <strong>1170</strong><br />(+30 for winning)
+|raw|vanish ct's rating: 1208 &rarr; <strong>1178</strong><br />(-30 for losing)
+|c|☆PapsIGuess31|gg wp!
+|l|☆vanish ct
+|player|p2|
+|l|☆PapsIGuess31
+|player|p1|

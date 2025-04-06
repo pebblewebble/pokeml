@@ -1,0 +1,412 @@
+|j|☆Th3S33K
+|j|☆maxpenter
+|t:|1743927249
+|gametype|singles
+|player|p1|Th3S33K|101|1114
+|player|p2|maxpenter|hugh|1102
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Comfey, F|
+|poke|p1|Whimsicott, M|
+|poke|p1|Iron Moth|
+|poke|p1|Walking Wake|
+|poke|p1|Great Tusk|
+|poke|p1|Ninetales, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Glimmora, F|
+|poke|p2|Hitmonlee, M|
+|poke|p2|Heatran, M|
+|poke|p2|Primarina, F|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|t:|1743927276
+|start
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|1
+|
+|t:|1743927285
+|move|p1a: Great Tusk|Headlong Rush|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: Th3S33K|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1743927294
+|switch|p2a: Primarina|Primarina, F|100/100
+|turn|2
+|
+|t:|1743927303
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Iron Moth|Iron Moth, shiny|100/100
+|-sideend|p1: Th3S33K|move: Toxic Spikes|[of] p1a: Iron Moth
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|move|p2a: Primarina|Calm Mind|p2a: Primarina
+|-boost|p2a: Primarina|spa|1
+|-boost|p2a: Primarina|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743927314
+|-terastallize|p2a: Primarina|Water
+|move|p1a: Iron Moth|Sludge Wave|p2a: Primarina
+|-damage|p2a: Primarina|68/100
+|move|p2a: Primarina|Hydro Cannon|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|-mustrecharge|p2a: Primarina
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p2a: Primarina|74/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743927326
+|switch|p1a: Whimsicott|Whimsicott, M, shiny|100/100
+|turn|4
+|
+|t:|1743927332
+|move|p1a: Whimsicott|Growth|p1a: Whimsicott
+|-boost|p1a: Whimsicott|atk|1
+|-boost|p1a: Whimsicott|spa|1
+|cant|p2a: Primarina|recharge
+|
+|-heal|p2a: Primarina|80/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743927363
+|switch|p2a: Heatran|Heatran, M|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Whimsicott|Giga Drain|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|88/100
+|-enditem|p2a: Heatran|Air Balloon
+|-damage|p1a: Whimsicott|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|t:|1743927379
+|switch|p1a: Ninetales|Ninetales, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Heatran|Stealth Rock|p1a: Ninetales
+|-sidestart|p1: Th3S33K|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743927387
+|move|p1a: Ninetales|Encore|p2a: Heatran
+|-start|p2a: Heatran|Encore
+|move|p2a: Heatran|Stealth Rock||[still]
+|-fail|p2a: Heatran
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743927397
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-damage|p1a: Walking Wake|88/100|[from] Stealth Rock
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|switch|p2a: Hitmonlee|Hitmonlee, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743927419
+|move|p1a: Walking Wake|Hydro Steam|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|24/100
+|move|p2a: Hitmonlee|Close Combat|p1a: Walking Wake
+|-damage|p1a: Walking Wake|22/100
+|-unboost|p2a: Hitmonlee|def|1
+|-unboost|p2a: Hitmonlee|spd|1
+|-enditem|p2a: Hitmonlee|White Herb
+|-clearnegativeboost|p2a: Hitmonlee|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743927430
+|move|p2a: Hitmonlee|Rapid Spin|p1a: Walking Wake
+|-damage|p1a: Walking Wake|4/100
+|-boost|p2a: Hitmonlee|spe|1
+|move|p1a: Walking Wake|Flip Turn|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|7/100
+|
+|t:|1743927441
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Comfey|Comfey, F, shiny|100/100|[from] Flip Turn
+|-damage|p1a: Comfey|88/100|[from] Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743927451
+|move|p1a: Comfey|Draining Kiss|p2a: Hitmonlee
+|-supereffective|p2a: Hitmonlee
+|-damage|p2a: Hitmonlee|0 fnt
+|-heal|p1a: Comfey|92/100|[from] drain|[of] p2a: Hitmonlee
+|faint|p2a: Hitmonlee
+|-damage|p1a: Comfey|82/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743927462
+|switch|p2a: Heatran|Heatran, M|88/100
+|turn|12
+|
+|t:|1743927472
+|switch|p1a: Ninetales|Ninetales, M, shiny|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|move|p2a: Heatran|Flash Cannon|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|52/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743927484
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ninetales|atk|1
+|move|p1a: Ninetales|Healing Wish|p1a: Ninetales
+|faint|p1a: Ninetales
+|
+|-weather|none
+|upkeep
+|
+|t:|1743927492
+|switch|p1a: Walking Wake|Walking Wake|4/100
+|-heal|p1a: Walking Wake|100/100|[from] move: Healing Wish
+|-damage|p1a: Walking Wake|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743927512
+|switch|p2a: Primarina|Primarina, F, tera:Water|80/100
+|move|p1a: Walking Wake|Hydro Steam|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|66/100
+|
+|-heal|p2a: Primarina|72/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743927526
+|move|p1a: Walking Wake|Flip Turn|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|64/100
+|
+|t:|1743927530
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Whimsicott|Whimsicott, M, shiny|91/100|[from] Flip Turn
+|-damage|p1a: Whimsicott|78/100|[from] Stealth Rock
+|move|p2a: Primarina|Calm Mind|p2a: Primarina
+|-boost|p2a: Primarina|spa|1
+|-boost|p2a: Primarina|spd|1
+|
+|-heal|p2a: Primarina|70/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743927541
+|switch|p2a: Heatran|Heatran, M|88/100
+|move|p1a: Whimsicott|Giga Drain|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|80/100
+|-heal|p1a: Whimsicott|83/100|[from] drain|[of] p2a: Heatran
+|-damage|p1a: Whimsicott|74/100|[from] item: Life Orb
+|
+|upkeep
+|turn|17
+|
+|t:|1743927557
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|move|p2a: Heatran|Flamethrower|p1a: Great Tusk
+|-damage|p1a: Great Tusk|26/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743927577
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Ice Spinner|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|23/100
+|-damage|p1a: Great Tusk|10/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|upkeep
+|turn|19
+|
+|t:|1743927595
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Comfey|Comfey, F, shiny|82/100
+|-damage|p1a: Comfey|69/100|[from] Stealth Rock
+|move|p2a: Landorus|U-turn|p1a: Comfey
+|-resisted|p1a: Comfey
+|-damage|p1a: Comfey|55/100
+|
+|t:|1743927603
+|switch|p2a: Heatran|Heatran, M|80/100|[from] U-turn
+|
+|upkeep
+|turn|20
+|
+|t:|1743927621
+|-terastallize|p1a: Comfey|Water
+|move|p1a: Comfey|Synthesis|p1a: Comfey
+|-heal|p1a: Comfey|100/100
+|move|p2a: Heatran|Flash Cannon|p1a: Comfey
+|-resisted|p1a: Comfey
+|-damage|p1a: Comfey|77/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743927642
+|switch|p2a: Primarina|Primarina, F, tera:Water|70/100
+|move|p1a: Comfey|Growth|p1a: Comfey
+|-boost|p1a: Comfey|atk|1
+|-boost|p1a: Comfey|spa|1
+|
+|-heal|p2a: Primarina|76/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743927667
+|move|p1a: Comfey|Growth|p1a: Comfey
+|-boost|p1a: Comfey|atk|1
+|-boost|p1a: Comfey|spa|1
+|move|p2a: Primarina|Calm Mind|p2a: Primarina
+|-boost|p2a: Primarina|spa|1
+|-boost|p2a: Primarina|spd|1
+|
+|-heal|p2a: Primarina|82/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743927682
+|move|p1a: Comfey|Growth|p1a: Comfey
+|-boost|p1a: Comfey|atk|1
+|-boost|p1a: Comfey|spa|1
+|move|p2a: Primarina|Moonblast|p1a: Comfey
+|-damage|p1a: Comfey|20/100
+|
+|-heal|p2a: Primarina|88/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1743927695
+|move|p1a: Comfey|Stored Power|p2a: Primarina
+|-damage|p2a: Primarina|27/100
+|-damage|p1a: Comfey|10/100|[from] item: Life Orb
+|move|p2a: Primarina|Moonblast|p1a: Comfey
+|-damage|p1a: Comfey|0 fnt
+|faint|p1a: Comfey
+|
+|-heal|p2a: Primarina|33/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743927701
+|switch|p1a: Whimsicott|Whimsicott, M, shiny|74/100
+|-damage|p1a: Whimsicott|61/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1743927719
+|move|p1a: Whimsicott|Giga Drain|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|-heal|p1a: Whimsicott|80/100|[from] drain|[of] p2a: Primarina
+|faint|p2a: Primarina
+|-damage|p1a: Whimsicott|71/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743927739
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|26
+|
+|t:|1743927750
+|move|p2a: Meowscarada|U-turn|p1a: Whimsicott
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-damage|p1a: Whimsicott|27/100
+|
+|t:|1743927754
+|switch|p2a: Heatran|Heatran, M|80/100|[from] U-turn
+|move|p1a: Whimsicott|Moonblast|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|70/100
+|-damage|p1a: Whimsicott|18/100|[from] item: Life Orb
+|
+|upkeep
+|turn|27
+|
+|t:|1743927766
+|move|p1a: Whimsicott|Shadow Ball|p2a: Heatran
+|-damage|p2a: Heatran|45/100
+|-damage|p1a: Whimsicott|8/100|[from] item: Life Orb
+|move|p2a: Heatran|Flamethrower|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|upkeep
+|
+|t:|1743927771
+|switch|p1a: Great Tusk|Great Tusk, shiny|10/100
+|-damage|p1a: Great Tusk|7/100|[from] Stealth Rock
+|turn|28
+|
+|t:|1743927807
+|move|p1a: Great Tusk|Headlong Rush|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1743927817
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|29
+|-message|Th3S33K forfeited.
+|
+|win|maxpenter
+|raw|Th3S33K's rating: 1114 &rarr; <strong>1088</strong><br />(-26 for losing)
+|raw|maxpenter's rating: 1102 &rarr; <strong>1128</strong><br />(+26 for winning)
+|l|☆Th3S33K
+|player|p1|
+|l|☆maxpenter
+|player|p2|

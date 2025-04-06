@@ -1,0 +1,291 @@
+|j|☆Mikunguyen
+|j|☆niteninjas
+|t:|1743912803
+|gametype|singles
+|player|p1|Mikunguyen|169|1071
+|player|p2|niteninjas|elesa|1080
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cloyster, F|
+|poke|p1|Azumarill, F|
+|poke|p1|Cinccino, M|
+|poke|p1|Weavile, M|
+|poke|p1|Raichu-Alola, F|
+|poke|p1|Iron Moth|
+|poke|p2|Torkoal, F|
+|poke|p2|Delphox, M|
+|poke|p2|Walking Wake|
+|poke|p2|Great Tusk|
+|poke|p2|Venusaur, M|
+|poke|p2|Hatterene, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mikunguyen)
+|
+|t:|1743912810
+|start
+|switch|p1a: Raichu|Raichu-Alola, F|100/100
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1743912816
+|move|p1a: Raichu|Nasty Plot|p1a: Raichu
+|-boost|p1a: Raichu|spa|2
+|move|p2a: Torkoal|Stealth Rock|p1a: Raichu
+|-sidestart|p1: Mikunguyen|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743912823
+|move|p1a: Raichu|Surf|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|38/100
+|move|p2a: Torkoal|Clear Smog|p1a: Raichu
+|-damage|p1a: Raichu|86/100
+|-clearboost|p1a: Raichu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743912829
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspa
+|move|p1a: Raichu|Nasty Plot|p1a: Raichu
+|-boost|p1a: Raichu|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743912839
+|move|p1a: Raichu|Draining Kiss|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|54/100
+|-heal|p1a: Raichu|100/100|[from] drain|[of] p2a: Walking Wake
+|move|p2a: Walking Wake|Flamethrower|p1a: Raichu
+|-damage|p1a: Raichu|8/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743912854
+|move|p1a: Raichu|Volt Switch|p2a: Walking Wake
+|-damage|p2a: Walking Wake|9/100
+|
+|t:|1743912869
+|switch|p1a: Iron Moth|Iron Moth|100/100|[from] Volt Switch
+|-damage|p1a: Iron Moth|76/100|[from] Stealth Rock
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|move|p2a: Walking Wake|Flamethrower|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|45/100
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|upkeep
+|turn|6
+|
+|t:|1743912893
+|-terastallize|p1a: Iron Moth|Fire
+|move|p1a: Iron Moth|Sludge Wave|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743912897
+|switch|p2a: Torkoal|Torkoal, F|38/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|7
+|
+|t:|1743912905
+|move|p1a: Iron Moth|Psychic|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743912909
+|switch|p2a: Venusaur|Venusaur, M|100/100
+|turn|8
+|
+|t:|1743912916
+|move|p2a: Venusaur|Earth Power|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|-damage|p2a: Venusaur|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743912936
+|switch|p1a: Cinccino|Cinccino, M|100/100
+|-damage|p1a: Cinccino|88/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743912943
+|move|p2a: Venusaur|Weather Ball|p1a: Cinccino
+|-damage|p1a: Cinccino|0 fnt
+|faint|p1a: Cinccino
+|-damage|p2a: Venusaur|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743912964
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|10
+|
+|t:|1743912981
+|move|p2a: Venusaur|Weather Ball|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|-damage|p2a: Venusaur|71/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743912992
+|switch|p1a: Cloyster|Cloyster, F|100/100
+|-damage|p1a: Cloyster|76/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1743912996
+|move|p2a: Venusaur|Solar Beam||[still]
+|-prepare|p2a: Venusaur|Solar Beam
+|-anim|p2a: Venusaur|Solar Beam|p1a: Cloyster
+|-supereffective|p1a: Cloyster
+|-damage|p1a: Cloyster|0 fnt
+|faint|p1a: Cloyster
+|-damage|p2a: Venusaur|61/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1743913002
+|switch|p1a: Azumarill|Azumarill, F|100/100
+|-damage|p1a: Azumarill|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1743913006
+|move|p2a: Venusaur|Solar Beam||[still]
+|-prepare|p2a: Venusaur|Solar Beam
+|move|p1a: Azumarill|Knock Off|p2a: Venusaur
+|-damage|p2a: Venusaur|5/100
+|-enditem|p2a: Venusaur|Life Orb|[from] move: Knock Off|[of] p1a: Azumarill
+|
+|-heal|p1a: Azumarill|94/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743913011
+|move|p1a: Azumarill|Aqua Jet|p2a: Venusaur
+|-resisted|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|-heal|p1a: Azumarill|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743913015
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|14
+|
+|t:|1743913023
+|move|p1a: Azumarill|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|52/100
+|-enditem|p2a: Hatterene|Leftovers|[from] move: Knock Off|[of] p1a: Azumarill
+|move|p2a: Hatterene|Nuzzle|p1a: Azumarill
+|-supereffective|p1a: Azumarill
+|-damage|p1a: Azumarill|91/100
+|-status|p1a: Azumarill|par
+|
+|-heal|p1a: Azumarill|97/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743913031
+|move|p1a: Azumarill|Liquidation|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-heal|p1a: Azumarill|100/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1743913036
+|switch|p2a: Delphox|Delphox, M|100/100
+|turn|16
+|
+|t:|1743913041
+|move|p2a: Delphox|Psychic|p1a: Azumarill
+|-damage|p1a: Azumarill|54/100 par
+|move|p1a: Azumarill|Knock Off|p2a: Delphox
+|-supereffective|p2a: Delphox
+|-damage|p2a: Delphox|0 fnt
+|-enditem|p2a: Delphox|White Herb|[from] move: Knock Off|[of] p1a: Azumarill
+|faint|p2a: Delphox
+|
+|-heal|p1a: Azumarill|60/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1743913045
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|17
+|
+|t:|1743913056
+|-terastallize|p2a: Great Tusk|Ice
+|move|p2a: Great Tusk|Headlong Rush|p1a: Azumarill
+|-damage|p1a: Azumarill|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Azumarill
+|
+|upkeep
+|
+|t:|1743913062
+|switch|p1a: Raichu|Raichu-Alola, F|8/100
+|turn|18
+|
+|t:|1743913069
+|move|p1a: Raichu|Draining Kiss|p2a: Great Tusk
+|-damage|p2a: Great Tusk|67/100
+|-heal|p1a: Raichu|44/100|[from] drain|[of] p2a: Great Tusk
+|move|p2a: Great Tusk|Headlong Rush|p1a: Raichu
+|-supereffective|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Raichu
+|
+|win|niteninjas
+|raw|Mikunguyen's rating: 1071 &rarr; <strong>1051</strong><br />(-20 for losing)
+|raw|niteninjas's rating: 1080 &rarr; <strong>1107</strong><br />(+27 for winning)
+|c|☆niteninjas|Gg
+|l|☆niteninjas
+|player|p2|
+|l|☆Mikunguyen
+|player|p1|

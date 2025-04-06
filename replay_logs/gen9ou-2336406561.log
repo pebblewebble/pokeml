@@ -1,0 +1,361 @@
+|j|☆Nubulator
+|j|☆prof_dlight
+|t:|1743913019
+|gametype|singles
+|player|p1|Nubulator|jacq|1276
+|player|p2|prof_dlight|maid|1328
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Gliscor, F|
+|poke|p1|Zapdos|
+|poke|p1|Primarina, F|
+|poke|p1|Glimmora, M|
+|poke|p2|Primarina, F|
+|poke|p2|Gholdengo|
+|poke|p2|Gliscor, F|
+|poke|p2|Moltres|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Raging Bolt|
+|teampreview
+|
+|t:|1743913044
+|start
+|switch|p1a: Erich Hartmann|Dragapult, F, shiny|100/100
+|switch|p2a: Primarina|Primarina, F|100/100
+|turn|1
+|
+|t:|1743913062
+|move|p1a: Erich Hartmann|Dragon Dance|p1a: Erich Hartmann
+|-boost|p1a: Erich Hartmann|atk|1
+|-boost|p1a: Erich Hartmann|spe|1
+|move|p2a: Primarina|Moonblast|p1a: Erich Hartmann
+|-supereffective|p1a: Erich Hartmann
+|-enditem|p1a: Erich Hartmann|Focus Sash
+|-damage|p1a: Erich Hartmann|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743913070
+|move|p1a: Erich Hartmann|Phantom Force||[still]
+|-prepare|p1a: Erich Hartmann|Phantom Force
+|move|p2a: Primarina|Psychic Noise|p1a: Erich Hartmann|[miss]
+|-miss|p2a: Primarina|p1a: Erich Hartmann
+|
+|upkeep
+|turn|3
+|
+|t:|1743913075
+|move|p1a: Erich Hartmann|Phantom Force|p2a: Primarina|[from] lockedmove
+|-damage|p2a: Primarina|30/100
+|move|p2a: Primarina|Psychic Noise|p1a: Erich Hartmann
+|-resisted|p1a: Erich Hartmann
+|-damage|p1a: Erich Hartmann|0 fnt
+|faint|p1a: Erich Hartmann
+|
+|-heal|p2a: Primarina|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743913089
+|switch|p1a: The "Guy" Guy|Zapdos|100/100
+|turn|4
+|
+|t:|1743913092
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: The "Guy" Guy|Hurricane|p2a: Gliscor|[miss]
+|-miss|p1a: The "Guy" Guy|p2a: Gliscor
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|t:|1743913110
+|move|p1a: The "Guy" Guy|Hurricane|p2a: Gliscor
+|-damage|p2a: Gliscor|25/100 tox
+|move|p2a: Gliscor|Toxic|p1a: The "Guy" Guy
+|-status|p1a: The "Guy" Guy|tox
+|
+|-damage|p1a: The "Guy" Guy|94/100 tox|[from] psn
+|-heal|p2a: Gliscor|38/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1743913121
+|switch|p1a: Tulip|Glimmora, M|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|7
+|
+|t:|1743913130
+|switch|p1a: Shirahoshi|Primarina, F|100/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Shirahoshi
+|-damage|p1a: Shirahoshi|74/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743913139
+|move|p2a: Gholdengo|Thunder Wave|p1a: Shirahoshi|[miss]
+|-miss|p2a: Gholdengo|p1a: Shirahoshi
+|move|p1a: Shirahoshi|Hydro Pump|p2a: Gholdengo
+|-damage|p2a: Gholdengo|41/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|9
+|
+|t:|1743913147
+|switch|p1a: Vamp Anthem|Gliscor, F|100/100
+|move|p2a: Gholdengo|Thunder Wave|p1a: Vamp Anthem
+|-immune|p1a: Vamp Anthem
+|
+|-status|p1a: Vamp Anthem|tox|[from] item: Toxic Orb
+|upkeep
+|turn|10
+|
+|t:|1743913159
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Vamp Anthem|U-turn|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|60/100
+|
+|t:|1743913170
+|switch|p1a: Tulip|Glimmora, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|11
+|
+|t:|1743913176
+|move|p1a: Tulip|Sludge Bomb|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743913181
+|switch|p2a: Gholdengo|Gholdengo|41/100
+|turn|12
+|
+|t:|1743913192
+|switch|p1a: General Tso|Kingambit, F, shiny|100/100
+|-activate|p1a: General Tso|ability: Supreme Overlord
+|-start|p1a: General Tso|fallen1|[silent]
+|move|p2a: Gholdengo|Make It Rain|p1a: General Tso
+|-resisted|p1a: General Tso
+|-damage|p1a: General Tso|74/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|upkeep
+|turn|13
+|
+|t:|1743913206
+|move|p2a: Gholdengo|Thunder Wave|p1a: General Tso
+|-status|p1a: General Tso|par
+|move|p1a: General Tso|Kowtow Cleave|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743913214
+|switch|p2a: Gliscor|Gliscor, F|38/100 tox
+|turn|14
+|
+|t:|1743913232
+|move|p2a: Gliscor|Earthquake|p1a: General Tso
+|-supereffective|p1a: General Tso
+|-damage|p1a: General Tso|25/100 par
+|-enditem|p1a: General Tso|Aguav Berry|[eat]
+|-heal|p1a: General Tso|58/100 par|[from] item: Aguav Berry
+|move|p1a: General Tso|Swords Dance|p1a: General Tso
+|-boost|p1a: General Tso|atk|2
+|
+|-heal|p2a: Gliscor|50/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|t:|1743913259
+|move|p2a: Gliscor|Earthquake|p1a: General Tso
+|-supereffective|p1a: General Tso
+|-damage|p1a: General Tso|10/100 par
+|move|p1a: General Tso|Kowtow Cleave|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1743913266
+|switch|p2a: Moltres|Moltres|100/100
+|turn|16
+|
+|t:|1743913274
+|cant|p1a: General Tso|par
+|move|p2a: Moltres|Flamethrower|p1a: General Tso
+|-supereffective|p1a: General Tso
+|-damage|p1a: General Tso|0 fnt
+|faint|p1a: General Tso
+|-end|p1a: General Tso|fallen1|[silent]
+|
+|upkeep
+|
+|t:|1743913282
+|switch|p1a: Tulip|Glimmora, M|100/100
+|turn|17
+|
+|t:|1743913304
+|switch|p2a: Primarina|Primarina, F|36/100
+|-terastallize|p1a: Tulip|Rock
+|move|p1a: Tulip|Power Gem|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1743913312
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|18
+|
+|t:|1743913324
+|move|p2a: Raging Bolt|Thunderclap|p1a: Tulip
+|-damage|p1a: Tulip|19/100
+|move|p1a: Tulip|Power Gem|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|49/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743913330
+|switch|p1a: Vamp Anthem|Gliscor, F|100/100 tox
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|upkeep
+|turn|20
+|
+|t:|1743913336
+|-terastallize|p2a: Raging Bolt|Fairy
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Vamp Anthem
+|-damage|p1a: Vamp Anthem|26/100 tox
+|move|p1a: Vamp Anthem|Earthquake|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|17/100
+|
+|-heal|p1a: Vamp Anthem|38/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|
+|t:|1743913349
+|switch|p1a: Shirahoshi|Primarina, F|74/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Shirahoshi
+|-immune|p1a: Shirahoshi
+|
+|upkeep
+|turn|22
+|
+|t:|1743913361
+|move|p2a: Raging Bolt|Thunderclap|p1a: Shirahoshi
+|-supereffective|p1a: Shirahoshi
+|-crit|p1a: Shirahoshi
+|-damage|p1a: Shirahoshi|0 fnt
+|faint|p1a: Shirahoshi
+|
+|upkeep
+|
+|t:|1743913371
+|switch|p1a: Tulip|Glimmora, M, tera:Rock|19/100
+|turn|23
+|
+|t:|1743913375
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Tulip|Toxic|p2a: Raging Bolt
+|-status|p2a: Raging Bolt|tox
+|
+|-damage|p2a: Raging Bolt|11/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1743913381
+|switch|p1a: Vamp Anthem|Gliscor, F|38/100 tox
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|-damage|p2a: Raging Bolt|0 fnt|[from] psn
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|-heal|p1a: Vamp Anthem|50/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743913390
+|switch|p2a: Moltres|Moltres|100/100
+|turn|25
+|
+|t:|1743913396
+|move|p1a: Vamp Anthem|U-turn|p2a: Moltres
+|-resisted|p2a: Moltres
+|-damage|p2a: Moltres|98/100
+|
+|t:|1743913400
+|switch|p1a: The "Guy" Guy|Zapdos|94/100 tox|[from] U-turn
+|move|p2a: Moltres|Hurricane|p1a: The "Guy" Guy
+|-resisted|p1a: The "Guy" Guy
+|-damage|p1a: The "Guy" Guy|67/100 tox
+|
+|-damage|p1a: The "Guy" Guy|61/100 tox|[from] psn
+|upkeep
+|turn|26
+|
+|t:|1743913408
+|move|p1a: The "Guy" Guy|Hurricane|p2a: Moltres|[miss]
+|-miss|p1a: The "Guy" Guy|p2a: Moltres
+|move|p2a: Moltres|Flamethrower|p1a: The "Guy" Guy
+|-damage|p1a: The "Guy" Guy|15/100 tox
+|
+|-damage|p1a: The "Guy" Guy|3/100 tox|[from] psn
+|upkeep
+|turn|27
+|
+|t:|1743913418
+|move|p1a: The "Guy" Guy|Hurricane|p2a: Moltres
+|-damage|p2a: Moltres|10/100
+|move|p2a: Moltres|Flamethrower|p1a: The "Guy" Guy
+|-damage|p1a: The "Guy" Guy|0 fnt
+|faint|p1a: The "Guy" Guy
+|
+|upkeep
+|
+|t:|1743913427
+|switch|p1a: Tulip|Glimmora, M, tera:Rock|19/100
+|turn|28
+|
+|t:|1743913431
+|move|p1a: Tulip|Power Gem|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|win|Nubulator
+|raw|Nubulator's rating: 1276 &rarr; <strong>1305</strong><br />(+29 for winning)
+|raw|prof_dlight's rating: 1328 &rarr; <strong>1305</strong><br />(-23 for losing)
+|c|☆Nubulator|gg
+|c|☆prof_dlight|gg

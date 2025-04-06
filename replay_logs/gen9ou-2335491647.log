@@ -1,0 +1,306 @@
+|j|☆The hatefull 6
+|j|☆Skakakak
+|t:|1743799271
+|gametype|singles
+|player|p1|The hatefull 6|gentleman|1145
+|player|p2|Skakakak|101|1148
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Lokix, F|
+|poke|p1|Mimikyu, M|
+|poke|p1|Weezing-Galar, F|
+|poke|p1|Muk-Alola, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Salazzle, F|
+|poke|p2|Blissey, F|
+|poke|p2|Amoonguss, F|
+|poke|p2|Bronzong|
+|poke|p2|Gliscor, M|
+|poke|p2|Dondozo, M|
+|poke|p2|Alomomola, F|
+|teampreview
+|
+|t:|1743799281
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|1
+|
+|t:|1743799288
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Rotom|Will-O-Wisp|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743799296
+|move|p2a: Gliscor|Spikes|p1a: Rotom
+|-sidestart|p1: The hatefull 6|Spikes
+|move|p1a: Rotom|Hydro Pump|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|28/100 tox
+|
+|-heal|p2a: Gliscor|41/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|t:|1743799307
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|53/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|t:|1743799314
+|move|p1a: Salazzle|Encore|p2a: Gliscor
+|-start|p2a: Gliscor|Encore
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|66/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|t:|1743799324
+|switch|p1a: Weezing|Weezing-Galar, F|100/100
+|switch|p2a: Blissey|Blissey, F|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743799330
+|move|p1a: Weezing|Defog|p2a: Blissey
+|-unboost|p2a: Blissey|evasion|1
+|-sideend|p1: The hatefull 6|Spikes|[from] move: Defog|[of] p1a: Weezing
+|move|p2a: Blissey|Seismic Toss|p1a: Weezing
+|-damage|p1a: Weezing|71/100
+|-damage|p2a: Blissey|84/100|[from] item: Rocky Helmet|[of] p1a: Weezing
+|
+|upkeep
+|turn|7
+|
+|t:|1743799343
+|switch|p1a: Mimikyu|Mimikyu, M|100/100
+|switch|p2a: Gliscor|Gliscor, M|66/100 tox
+|
+|-heal|p2a: Gliscor|78/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1743799355
+|switch|p1a: Weezing|Weezing-Galar, F|71/100
+|move|p2a: Gliscor|Knock Off|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|64/100
+|-damage|p2a: Gliscor|62/100 tox|[from] item: Rocky Helmet|[of] p1a: Weezing
+|-enditem|p1a: Weezing|Rocky Helmet|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|74/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|9
+|
+|t:|1743799368
+|move|p2a: Gliscor|Spikes|p1a: Weezing
+|-sidestart|p1: The hatefull 6|Spikes
+|move|p1a: Weezing|Pain Split|p2a: Gliscor
+|-sethp|p2a: Gliscor|68/100 tox|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|71/100|[from] move: Pain Split
+|
+|-heal|p2a: Gliscor|80/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|10
+|
+|t:|1743799377
+|move|p2a: Gliscor|Knock Off|p1a: Weezing
+|-resisted|p1a: Weezing
+|-crit|p1a: Weezing
+|-damage|p1a: Weezing|64/100
+|move|p1a: Weezing|Pain Split|p2a: Gliscor
+|-sethp|p2a: Gliscor|70/100 tox|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|74/100|[from] move: Pain Split
+|
+|-heal|p2a: Gliscor|83/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|t:|1743799390
+|move|p2a: Gliscor|Spikes|p1a: Weezing
+|-sidestart|p1: The hatefull 6|Spikes
+|move|p1a: Weezing|Defog|p2a: Gliscor
+|-unboost|p2a: Gliscor|evasion|1
+|-sideend|p1: The hatefull 6|Spikes|[from] move: Defog|[of] p1a: Weezing
+|
+|-heal|p2a: Gliscor|95/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|t:|1743799401
+|switch|p2a: Bronzong|Bronzong|100/100
+|move|p1a: Weezing|Pain Split|p2a: Bronzong
+|-sethp|p2a: Bronzong|87/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|88/100|[from] move: Pain Split
+|
+|-heal|p2a: Bronzong|93/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743799412
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|move|p2a: Bronzong|Stealth Rock|p1a: Salazzle
+|-sidestart|p1: The hatefull 6|move: Stealth Rock
+|
+|-heal|p2a: Bronzong|99/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743799419
+|switch|p2a: Gliscor|Gliscor, M|95/100 tox
+|move|p1a: Salazzle|Encore||[still]
+|-fail|p1a: Salazzle
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|t:|1743799430
+|switch|p1a: Weezing|Weezing-Galar, F|88/100
+|-damage|p1a: Weezing|75/100|[from] Stealth Rock
+|move|p2a: Gliscor|Earthquake|p1a: Weezing
+|-immune|p1a: Weezing|[from] ability: Levitate
+|
+|upkeep
+|turn|16
+|
+|t:|1743799438
+|move|p2a: Gliscor|Spikes|p1a: Weezing
+|-sidestart|p1: The hatefull 6|Spikes
+|move|p1a: Weezing|Pain Split|p2a: Gliscor
+|-sethp|p2a: Gliscor|86/100 tox|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|91/100|[from] move: Pain Split
+|
+|-heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|
+|t:|1743799447
+|move|p2a: Gliscor|Spikes|p1a: Weezing
+|-sidestart|p1: The hatefull 6|Spikes
+|move|p1a: Weezing|Defog|p2a: Gliscor
+|-unboost|p2a: Gliscor|evasion|1
+|-sideend|p1: The hatefull 6|Spikes|[from] move: Defog|[of] p1a: Weezing
+|-sideend|p1: The hatefull 6|Stealth Rock|[from] move: Defog|[of] p1a: Weezing
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|18
+|
+|t:|1743799462
+|move|p2a: Gliscor|Spikes|p1a: Weezing
+|-sidestart|p1: The hatefull 6|Spikes
+|move|p1a: Weezing|Pain Split|p2a: Gliscor
+|-sethp|p2a: Gliscor|93/100 tox|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|98/100|[from] move: Pain Split
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|
+|t:|1743799478
+|move|p2a: Gliscor|Spikes|p1a: Weezing
+|-sidestart|p1: The hatefull 6|Spikes
+|move|p1a: Weezing|Defog|p2a: Gliscor
+|-unboost|p2a: Gliscor|evasion|1
+|-sideend|p1: The hatefull 6|Spikes|[from] move: Defog|[of] p1a: Weezing
+|
+|upkeep
+|turn|20
+|
+|t:|1743799486
+|switch|p2a: Bronzong|Bronzong|99/100
+|move|p1a: Weezing|Strange Steam|p2a: Bronzong
+|-resisted|p2a: Bronzong
+|-damage|p2a: Bronzong|90/100
+|
+|-heal|p2a: Bronzong|97/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743799496
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Bronzong|Stealth Rock|p1a: Rotom
+|-sidestart|p1: The hatefull 6|move: Stealth Rock
+|
+|-heal|p2a: Bronzong|100/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743799507
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|switch|p2a: Blissey|Blissey, F|84/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743799521
+|switch|p1a: Weezing|Weezing-Galar, F|98/100
+|-damage|p1a: Weezing|86/100|[from] Stealth Rock
+|move|p2a: Blissey|Seismic Toss|p1a: Weezing
+|-damage|p1a: Weezing|56/100
+|
+|upkeep
+|turn|24
+|
+|t:|1743799529
+|switch|p2a: Bronzong|Bronzong|100/100
+|move|p1a: Weezing|Pain Split|p2a: Bronzong
+|-sethp|p2a: Bronzong|78/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Weezing|79/100|[from] move: Pain Split
+|
+|-heal|p2a: Bronzong|84/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1743799545
+|switch|p1a: Salazzle|Salazzle, F|100/100
+|move|p2a: Bronzong|Psychic Noise|p1a: Salazzle
+|-supereffective|p1a: Salazzle
+|-damage|p1a: Salazzle|27/100
+|-start|p1a: Salazzle|move: Heal Block
+|
+|-heal|p2a: Bronzong|90/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1743799558
+|move|p2a: Bronzong|Protect|p2a: Bronzong
+|-singleturn|p2a: Bronzong|Protect
+|move|p1a: Salazzle|Flamethrower|p2a: Bronzong
+|-activate|p2a: Bronzong|move: Protect
+|
+|-heal|p2a: Bronzong|97/100|[from] item: Leftovers
+|-end|p1a: Salazzle|move: Heal Block
+|upkeep
+|turn|27
+|-message|The hatefull 6 forfeited.
+|
+|win|Skakakak
+|raw|The hatefull 6's rating: 1145 &rarr; <strong>1120</strong><br />(-25 for losing)
+|raw|Skakakak's rating: 1148 &rarr; <strong>1173</strong><br />(+25 for winning)
+|l|☆The hatefull 6
+|player|p1|

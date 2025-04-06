@@ -1,0 +1,374 @@
+|j|☆tyvubin
+|j|☆Adromas
+|t:|1743863911
+|gametype|singles
+|player|p1|tyvubin|101|1112
+|player|p2|Adromas|clerk|1165
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Porygon2|
+|poke|p1|Skuntank, M|
+|poke|p1|Galvantula, F|
+|poke|p1|Lilligant-Hisui, F|
+|poke|p1|Copperajah, F|
+|poke|p1|Swanna, M|
+|poke|p2|Tyranitar, F|
+|poke|p2|Garchomp, M|
+|poke|p2|Pecharunt|
+|poke|p2|Hippowdon, M|
+|poke|p2|Quagsire, M|
+|poke|p2|Goodra-Hisui, M|
+|teampreview
+|
+|t:|1743863926
+|start
+|switch|p1a: Galvantula|Galvantula, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Adromas)
+|
+|t:|1743863935
+|-terastallize|p1a: Galvantula|Grass
+|move|p1a: Galvantula|Sticky Web|p2a: Tyranitar
+|-sidestart|p2: Adromas|move: Sticky Web
+|move|p2a: Tyranitar|Stone Edge|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743863945
+|switch|p1a: Copperajah|Copperajah, F|100/100
+|turn|2
+|
+|t:|1743863959
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|-activate|p2a: Quagsire|move: Sticky Web
+|-unboost|p2a: Quagsire|spe|1
+|move|p1a: Copperajah|Body Press|p2a: Quagsire
+|-damage|p2a: Quagsire|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Quagsire|96/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743863970
+|switch|p1a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p2a: Quagsire|Whirlpool|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|94/100
+|-activate|p1a: Lilligant|move: Whirlpool|[of] p2a: Quagsire
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lilligant|88/100|[from] Sandstorm
+|-heal|p2a: Quagsire|100/100|[from] item: Leftovers
+|-damage|p1a: Lilligant|76/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1743863983
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|-activate|p2a: Goodra|move: Sticky Web
+|-unboost|p2a: Goodra|spe|1
+|move|p1a: Lilligant|Petal Blizzard|p2a: Goodra
+|-ability|p2a: Goodra|Sap Sipper|boost
+|-boost|p2a: Goodra|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lilligant|70/100|[from] Sandstorm
+|-end|p1a: Lilligant|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|5
+|
+|t:|1743863997
+|move|p1a: Lilligant|Axe Kick|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|-damage|p1a: Lilligant|60/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1743864011
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-activate|p2a: Pecharunt|move: Sticky Web
+|-unboost|p2a: Pecharunt|spe|1
+|turn|6
+|
+|t:|1743864017
+|switch|p1a: Skuntank|Skuntank, M|100/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Skuntank
+|-resisted|p1a: Skuntank
+|-damage|p1a: Skuntank|79/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743864028
+|move|p1a: Skuntank|Knock Off|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|42/100
+|-enditem|p2a: Pecharunt|Black Sludge|[from] move: Knock Off|[of] p1a: Skuntank
+|move|p2a: Pecharunt|Parting Shot|p1a: Skuntank
+|-unboost|p1a: Skuntank|atk|1
+|-unboost|p1a: Skuntank|spa|1
+|
+|t:|1743864037
+|switch|p2a: Tyranitar|Tyranitar, F|100/100|[from] Parting Shot
+|-activate|p2a: Tyranitar|move: Sticky Web
+|-unboost|p2a: Tyranitar|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Skuntank|73/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1743864049
+|switch|p1a: Lilligant|Lilligant-Hisui, F|60/100
+|move|p2a: Tyranitar|Stone Edge|p1a: Lilligant
+|-resisted|p1a: Lilligant
+|-damage|p1a: Lilligant|17/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Lilligant|11/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1743864061
+|switch|p2a: Pecharunt|Pecharunt|42/100
+|-activate|p2a: Pecharunt|move: Sticky Web
+|-unboost|p2a: Pecharunt|spe|1
+|move|p1a: Lilligant|Axe Kick|p2a: Pecharunt
+|-immune|p2a: Pecharunt
+|-damage|p1a: Lilligant|0 fnt|[from] highjumpkick
+|faint|p1a: Lilligant
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pecharunt|35/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743864071
+|switch|p1a: Copperajah|Copperajah, F|100/100
+|turn|10
+|
+|t:|1743864075
+|switch|p2a: Quagsire|Quagsire, M|100/100
+|-activate|p2a: Quagsire|move: Sticky Web
+|-unboost|p2a: Quagsire|spe|1
+|move|p1a: Copperajah|Earthquake|p2a: Quagsire
+|-damage|p2a: Quagsire|77/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Quagsire|83/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743864091
+|switch|p1a: Swanna|Swanna, M|100/100
+|move|p2a: Quagsire|Toxic Spikes|p1a: Swanna
+|-sidestart|p1: tyvubin|move: Toxic Spikes
+|
+|-weather|none
+|-heal|p2a: Quagsire|90/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743864102
+|move|p1a: Swanna|Brave Bird|p2a: Quagsire
+|-damage|p2a: Quagsire|56/100
+|-damage|p1a: Swanna|85/100|[from] Recoil
+|move|p2a: Quagsire|Whirlpool|p1a: Swanna
+|-resisted|p1a: Swanna
+|-damage|p1a: Swanna|79/100
+|-activate|p1a: Swanna|move: Whirlpool|[of] p2a: Quagsire
+|
+|-heal|p2a: Quagsire|62/100|[from] item: Leftovers
+|-damage|p1a: Swanna|66/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|13
+|
+|t:|1743864115
+|move|p1a: Swanna|Brave Bird|p2a: Quagsire
+|-damage|p2a: Quagsire|24/100
+|-damage|p1a: Swanna|49/100|[from] Recoil
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|74/100
+|
+|-heal|p2a: Quagsire|80/100|[from] item: Leftovers
+|-damage|p1a: Swanna|37/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|14
+|
+|t:|1743864128
+|move|p1a: Swanna|Flip Turn|p2a: Quagsire
+|-heal|p2a: Quagsire|100/100|[from] ability: Water Absorb|[of] p1a: Swanna
+|move|p2a: Quagsire|Recover||[still]
+|-fail|p2a: Quagsire|heal
+|
+|-damage|p1a: Swanna|24/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|15
+|
+|t:|1743864139
+|move|p1a: Swanna|Brave Bird|p2a: Quagsire
+|-damage|p2a: Quagsire|62/100
+|-damage|p1a: Swanna|7/100|[from] Recoil
+|move|p2a: Quagsire|Whirlpool|p1a: Swanna
+|-resisted|p1a: Swanna
+|-damage|p1a: Swanna|0 fnt
+|faint|p1a: Swanna
+|
+|-heal|p2a: Quagsire|69/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743864150
+|switch|p1a: Skuntank|Skuntank, M|73/100
+|-sideend|p1: tyvubin|move: Toxic Spikes|[of] p1a: Skuntank
+|turn|16
+|
+|t:|1743864156
+|move|p1a: Skuntank|Gunk Shot|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|39/100
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|89/100
+|
+|-heal|p2a: Quagsire|95/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743864165
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|move|p2a: Quagsire|Whirlpool|p1a: Porygon2
+|-damage|p1a: Porygon2|96/100
+|-activate|p1a: Porygon2|move: Whirlpool|[of] p2a: Quagsire
+|
+|-heal|p2a: Quagsire|100/100|[from] item: Leftovers
+|-damage|p1a: Porygon2|83/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|18
+|
+|t:|1743864177
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-activate|p2a: Tyranitar|move: Sticky Web
+|-unboost|p2a: Tyranitar|spe|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Porygon2|Tri Attack|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|91/100
+|-status|p2a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon2|77/100|[from] Sandstorm
+|-end|p1a: Porygon2|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|19
+|
+|t:|1743864192
+|move|p1a: Porygon2|Ice Beam|p2a: Tyranitar
+|-damage|p2a: Tyranitar|78/100 par
+|cant|p2a: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon2|71/100|[from] Sandstorm
+|upkeep
+|turn|20
+|
+|t:|1743864200
+|move|p1a: Porygon2|Discharge|p2a: Tyranitar
+|-damage|p2a: Tyranitar|67/100 par
+|move|p2a: Tyranitar|Crunch|p1a: Porygon2
+|-damage|p1a: Porygon2|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon2|34/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|t:|1743864209
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|84/100
+|move|p2a: Tyranitar|Crunch|p1a: Porygon2
+|-damage|p1a: Porygon2|56/100
+|-unboost|p1a: Porygon2|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Porygon2|50/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|t:|1743864218
+|move|p1a: Porygon2|Ice Beam|p2a: Tyranitar
+|-damage|p2a: Tyranitar|52/100 par
+|move|p2a: Tyranitar|Crunch|p1a: Porygon2
+|-crit|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|
+|-weather|none
+|upkeep
+|
+|t:|1743864226
+|switch|p1a: Copperajah|Copperajah, F|100/100
+|turn|23
+|
+|t:|1743864230
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-activate|p2a: Garchomp|move: Sticky Web
+|-unboost|p2a: Garchomp|spe|1
+|move|p1a: Copperajah|Iron Head|p2a: Garchomp
+|-damage|p2a: Garchomp|71/100
+|-damage|p1a: Copperajah|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Copperajah|71/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|
+|-heal|p1a: Copperajah|78/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1743864242
+|move|p2a: Garchomp|Earthquake|p1a: Copperajah
+|-supereffective|p1a: Copperajah
+|-damage|p1a: Copperajah|0 fnt
+|faint|p1a: Copperajah
+|
+|upkeep
+|
+|t:|1743864246
+|switch|p1a: Skuntank|Skuntank, M|73/100
+|turn|25
+|
+|t:|1743864249
+|move|p1a: Skuntank|Sucker Punch|p2a: Garchomp
+|-damage|p2a: Garchomp|45/100
+|-damage|p1a: Skuntank|60/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Skuntank|44/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|move|p2a: Garchomp|Earthquake|p1a: Skuntank
+|-supereffective|p1a: Skuntank
+|-damage|p1a: Skuntank|0 fnt
+|faint|p1a: Skuntank
+|
+|win|Adromas
+|raw|tyvubin's rating: 1112 &rarr; <strong>1091</strong><br />(-21 for losing)
+|raw|Adromas's rating: 1165 &rarr; <strong>1186</strong><br />(+21 for winning)
+|l|☆tyvubin
+|player|p1|
+|l|☆Adromas
+|player|p2|

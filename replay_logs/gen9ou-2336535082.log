@@ -1,0 +1,311 @@
+|j|☆Dianic
+|j|☆leihuo
+|t:|1743935054
+|gametype|singles
+|player|p1|Dianic|169|1219
+|player|p2|leihuo|102|1215
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Serperior, F|
+|poke|p1|Kommo-o, M|
+|poke|p1|Deoxys-Speed|
+|poke|p1|Cinderace, F|
+|poke|p1|Tinkaton, F|
+|poke|p1|Hydreigon, M|
+|poke|p2|Ninetales-Alola, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Great Tusk|
+|poke|p2|Garganacl, F|
+|poke|p2|Raging Bolt|
+|teampreview
+|
+|t:|1743935076
+|start
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1743935094
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Cinderace|Pyro Ball|p2a: Great Tusk|[miss]
+|-miss|p1a: Cinderace|p2a: Great Tusk
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743935106
+|switch|p1a: Hydreigon|Hydreigon, M|100/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Hydreigon
+|-damage|p1a: Hydreigon|70/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743935120
+|-terastallize|p1a: Hydreigon|Poison
+|move|p2a: Great Tusk|Rapid Spin|p1a: Hydreigon
+|-damage|p1a: Hydreigon|42/100
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: Hydreigon|Draco Meteor|p2a: Great Tusk
+|-damage|p2a: Great Tusk|11/100
+|-unboost|p1a: Hydreigon|spa|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743935136
+|switch|p1a: Deoxys|Deoxys-Speed, shiny|100/100
+|-ability|p1a: Deoxys|Pressure
+|move|p2a: Great Tusk|Headlong Rush|p1a: Deoxys
+|-enditem|p1a: Deoxys|Focus Sash
+|-damage|p1a: Deoxys|1/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743935149
+|move|p1a: Deoxys|Extreme Speed|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743935158
+|switch|p2a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|6
+|
+|t:|1743935162
+|move|p1a: Deoxys|Knock Off|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|86/100
+|-enditem|p2a: Ninetales|Light Clay|[from] move: Knock Off|[of] p1a: Deoxys
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: leihuo|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743935173
+|move|p1a: Deoxys|Psycho Boost|p2a: Ninetales
+|-damage|p2a: Ninetales|54/100
+|-unboost|p1a: Deoxys|spa|2
+|move|p2a: Ninetales|Moonblast|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743935188
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|turn|8
+|
+|t:|1743935203
+|move|p2a: Ninetales|Freeze-Dry|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-crit|p1a: Tinkaton
+|-damage|p1a: Tinkaton|85/100
+|move|p1a: Tinkaton|Thunder Wave|p2a: Ninetales
+|-status|p2a: Ninetales|par
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Tinkaton|91/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743935214
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Tinkaton|98/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743935223
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|10
+|
+|t:|1743935227
+|-terastallize|p2a: Dragonite|Normal
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Tinkaton|Thunder Wave|p2a: Dragonite
+|-status|p2a: Dragonite|par
+|
+|-weather|none
+|-heal|p1a: Tinkaton|100/100|[from] item: Leftovers
+|-sideend|p2: leihuo|move: Aurora Veil
+|upkeep
+|turn|11
+|
+|t:|1743935238
+|move|p1a: Tinkaton|Encore|p2a: Dragonite
+|-start|p2a: Dragonite|Encore
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743935244
+|cant|p2a: Dragonite|par
+|move|p1a: Tinkaton|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|88/100 par
+|-enditem|p2a: Dragonite|Leftovers|[from] move: Knock Off|[of] p1a: Tinkaton
+|
+|upkeep
+|turn|13
+|
+|t:|1743935251
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Dragonite
+|-damage|p2a: Dragonite|22/100 par
+|
+|-end|p2a: Dragonite|Encore
+|upkeep
+|turn|14
+|
+|t:|1743935260
+|move|p2a: Dragonite|Earthquake|p1a: Tinkaton
+|-supereffective|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|upkeep
+|
+|t:|1743935267
+|switch|p1a: Hydreigon|Hydreigon, M, tera:Poison|42/100
+|turn|15
+|
+|t:|1743935273
+|cant|p2a: Dragonite|par
+|move|p1a: Hydreigon|Dark Pulse|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1743935279
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|16
+|
+|t:|1743935284
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Kommo-o
+|-immune|p1a: Kommo-o|[from] ability: Bulletproof
+|
+|upkeep
+|turn|17
+|
+|t:|1743935291
+|move|p2a: Cinderace|U-turn|p1a: Kommo-o
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|87/100
+|
+|t:|1743935294
+|switch|p2a: Garganacl|Garganacl, F|100/100|[from] U-turn
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|54/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743935307
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|21/100
+|-enditem|p1a: Kommo-o|Sitrus Berry|[eat]
+|-heal|p1a: Kommo-o|46/100|[from] item: Sitrus Berry
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|upkeep
+|turn|19
+|
+|t:|1743935318
+|move|p1a: Kommo-o|Aura Sphere|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|12/100
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|-heal|p2a: Garganacl|19/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743935328
+|move|p1a: Kommo-o|Aura Sphere|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|upkeep
+|
+|t:|1743935332
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|21
+|
+|t:|1743935339
+|move|p1a: Kommo-o|Clanging Scales|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|-unboost|p1a: Kommo-o|def|1
+|
+|upkeep
+|-message|leihuo forfeited.
+|
+|win|Dianic
+|raw|Dianic's rating: 1219 &rarr; <strong>1244</strong><br />(+25 for winning)
+|raw|leihuo's rating: 1215 &rarr; <strong>1190</strong><br />(-25 for losing)
+|l|☆leihuo
+|player|p2|
+|l|☆Dianic
+|player|p1|

@@ -1,0 +1,302 @@
+|j|☆bakabomb
+|j|☆zuoxi
+|t:|1743920748
+|gametype|singles
+|player|p1|bakabomb|eusine|1166
+|player|p2|zuoxi|policeman-gen4|1166
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Reuniclus, F|
+|poke|p1|Porygon2|
+|poke|p1|Kingambit, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Chandelure, F|
+|poke|p1|Conkeldurr, M|
+|poke|p2|Torkoal, M|
+|poke|p2|Walking Wake|
+|poke|p2|Chansey, F|
+|poke|p2|Charizard, M|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|
+|t:|1743920773
+|start
+|switch|p1a: Porygon2|Porygon2|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Porygon2|atk|1
+|-ability|p1a: Porygon2|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|-ability|p1a: Porygon2|Intimidate|[from] ability: Trace|[of] p2a: Landorus
+|turn|1
+|
+|t:|1743920777
+|move|p2a: Landorus|Taunt|p1a: Porygon2
+|-start|p1a: Porygon2|move: Taunt
+|cant|p1a: Porygon2|move: Taunt|Trick Room
+|
+|upkeep
+|turn|2
+|
+|t:|1743920785
+|switch|p1a: Chandelure|Chandelure, F|100/100
+|move|p2a: Landorus|Earthquake|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|28/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743920794
+|move|p2a: Landorus|Earthquake|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|upkeep
+|
+|t:|1743920797
+|switch|p1a: Porygon2|Porygon2|100/100
+|-ability|p1a: Porygon2|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|-ability|p1a: Porygon2|Intimidate|[from] ability: Trace|[of] p2a: Landorus
+|turn|4
+|
+|t:|1743920803
+|move|p2a: Landorus|Taunt|p1a: Porygon2
+|-start|p1a: Porygon2|move: Taunt
+|move|p1a: Porygon2|Ice Beam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|15/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743920808
+|move|p2a: Landorus|U-turn|p1a: Porygon2
+|-damage|p1a: Porygon2|94/100
+|
+|t:|1743920810
+|switch|p2a: Torkoal|Torkoal, M|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Porygon2|Tri Attack|p2a: Torkoal
+|-crit|p2a: Torkoal
+|-damage|p2a: Torkoal|46/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743920817
+|switch|p2a: Chansey|Chansey, F|100/100
+|move|p1a: Porygon2|Tri Attack|p2a: Chansey
+|-damage|p2a: Chansey|91/100
+|-status|p2a: Chansey|par
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Porygon2|move: Taunt
+|upkeep
+|turn|7
+|
+|t:|1743920827
+|move|p2a: Chansey|Seismic Toss|p1a: Porygon2
+|-damage|p1a: Porygon2|67/100
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743920831
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|move|p2a: Chansey|Seismic Toss|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|t:|1743920839
+|-curestatus|p2a: Chansey|par|[from] ability: Natural Cure
+|switch|p2a: Landorus|Landorus-Therian, M|15/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Conkeldurr|atk|1
+|move|p1a: Conkeldurr|Bulk Up|p1a: Conkeldurr
+|-boost|p1a: Conkeldurr|atk|1
+|-boost|p1a: Conkeldurr|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Conkeldurr|70/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743920849
+|move|p1a: Conkeldurr|Bulk Up|p1a: Conkeldurr
+|-boost|p1a: Conkeldurr|atk|1
+|-boost|p1a: Conkeldurr|def|1
+|move|p2a: Landorus|Earthquake|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|51/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Conkeldurr|45/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743920853
+|move|p1a: Conkeldurr|Drain Punch|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-heal|p1a: Conkeldurr|52/100 brn|[from] drain|[of] p2a: Landorus
+|-damage|p1a: Conkeldurr|35/100 brn|[from] item: Rocky Helmet|[of] p2a: Landorus
+|faint|p2a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Conkeldurr|29/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743920859
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|turn|12
+|
+|t:|1743920862
+|move|p2a: Lilligant|Growth|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|2
+|-boost|p2a: Lilligant|spa|2
+|move|p1a: Conkeldurr|Drain Punch|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|-heal|p1a: Conkeldurr|63/100 brn|[from] drain|[of] p2a: Lilligant
+|faint|p2a: Lilligant
+|
+|-weather|none
+|-damage|p1a: Conkeldurr|57/100 brn|[from] brn
+|upkeep
+|
+|t:|1743920868
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|13
+|
+|t:|1743920871
+|-terastallize|p1a: Conkeldurr|Normal
+|move|p2a: Charizard|Overheat|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|-unboost|p2a: Charizard|spa|2
+|faint|p1a: Conkeldurr
+|
+|upkeep
+|
+|t:|1743920875
+|switch|p1a: Porygon2|Porygon2|67/100
+|-ability|p1a: Porygon2|Solar Power|[from] ability: Trace|[of] p2a: Charizard
+|turn|14
+|
+|t:|1743920878
+|switch|p2a: Chansey|Chansey, F|91/100
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|upkeep
+|turn|15
+|
+|t:|1743920883
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|-item|p1a: Kingambit|Air Balloon
+|move|p2a: Chansey|Seismic Toss|p1a: Kingambit
+|-damage|p1a: Kingambit|76/100
+|-enditem|p1a: Kingambit|Air Balloon
+|
+|upkeep
+|turn|16
+|
+|t:|1743920893
+|switch|p2a: Torkoal|Torkoal, M|46/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743920900
+|move|p1a: Kingambit|Sucker Punch|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743920910
+|switch|p2a: Chansey|Chansey, F|91/100
+|turn|18
+|
+|t:|1743920912
+|move|p1a: Kingambit|Substitute|p1a: Kingambit
+|-start|p1a: Kingambit|Substitute
+|-damage|p1a: Kingambit|51/100
+|move|p2a: Chansey|Thunder Wave||[still]
+|-fail|p2a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|19
+|
+|t:|1743920916
+|move|p2a: Chansey|Seismic Toss|p1a: Kingambit
+|-activate|p1a: Kingambit|move: Substitute|[damage]
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1743920919
+|move|p1a: Kingambit|Sucker Punch|p2a: Chansey
+|-damage|p2a: Chansey|0 fnt
+|faint|p2a: Chansey
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743920924
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|turn|21
+|
+|t:|1743920926
+|move|p1a: Kingambit|Sucker Punch|p2a: Walking Wake
+|-crit|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|zuoxi forfeited.
+|
+|win|bakabomb
+|raw|bakabomb's rating: 1166 &rarr; <strong>1191</strong><br />(+25 for winning)
+|raw|zuoxi's rating: 1166 &rarr; <strong>1141</strong><br />(-25 for losing)
+|l|☆zuoxi
+|player|p2|
+|l|☆bakabomb
+|player|p1|

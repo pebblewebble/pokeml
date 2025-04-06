@@ -1,0 +1,165 @@
+|j|☆Tscher
+|j|☆shnore
+|t:|1743826289
+|gametype|singles
+|player|p1|Tscher|266|1237
+|player|p2|shnore|medium|1243
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dugtrio-Alola, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Hippowdon, M|
+|poke|p1|Sandslash, M|
+|poke|p1|Mandibuzz, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Pelipper, F|
+|poke|p2|Barraskewda, F|
+|poke|p2|Swampert, F|
+|poke|p2|Primarina, M|
+|poke|p2|Maushold-Four|
+|poke|p2|Zapdos|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by shnore)
+|
+|t:|1743826301
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Pelipper|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1743826304
+|move|p1a: Landorus|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|89/100
+|
+|t:|1743826307
+|switch|p1a: Hippowdon|Hippowdon, M|100/100|[from] U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|move|p2a: Pelipper|Weather Ball|p1a: Hippowdon
+|-resisted|p1a: Hippowdon
+|-damage|p1a: Hippowdon|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pelipper|83/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1743826312
+|move|p2a: Pelipper|U-turn|p1a: Hippowdon
+|-damage|p1a: Hippowdon|85/100
+|
+|t:|1743826314
+|switch|p2a: Maushold|Maushold-Four, shiny|100/100|[from] U-turn
+|move|p1a: Hippowdon|Stealth Rock|p2a: Maushold
+|-sidestart|p2: shnore|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Maushold|95/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1743826317
+|move|p2a: Maushold|Encore|p1a: Hippowdon
+|-start|p1a: Hippowdon|Encore
+|move|p1a: Hippowdon|Stealth Rock||[still]
+|-fail|p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Maushold|89/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1743826327
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|move|p2a: Maushold|Rain Dance|p2a: Maushold
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743826338
+|switch|p2a: Zapdos|Zapdos|100/100
+|switch|p1a: Hippowdon|Hippowdon, M|85/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|94/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1743826348
+|switch|p2a: Swampert|Swampert, F|100/100
+|-damage|p2a: Swampert|94/100|[from] Stealth Rock
+|switch|p1a: Sandslash|Sandslash, M|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Swampert|100/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743826354
+|move|p1a: Sandslash|Knock Off|p2a: Swampert
+|-damage|p2a: Swampert|73/100
+|-enditem|p2a: Swampert|Leftovers|[from] move: Knock Off|[of] p1a: Sandslash
+|move|p2a: Swampert|Liquidation|p1a: Sandslash
+|-supereffective|p1a: Sandslash
+|-damage|p1a: Sandslash|9/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743826360
+|move|p1a: Sandslash|Earthquake|p2a: Swampert
+|-damage|p2a: Swampert|25/100
+|move|p2a: Swampert|Stealth Rock|p1a: Sandslash
+|-sidestart|p1: Tscher|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743826366
+|switch|p2a: Zapdos|Zapdos|94/100
+|move|p1a: Sandslash|Stone Edge|p2a: Zapdos|[miss]
+|-miss|p1a: Sandslash|p2a: Zapdos
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|88/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1743826371
+|move|p1a: Sandslash|Stone Edge|p2a: Zapdos|[miss]
+|-miss|p1a: Sandslash|p2a: Zapdos
+|move|p2a: Zapdos|Hurricane|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Zapdos|82/100|[from] Sandstorm
+|upkeep
+|-message|Tscher forfeited.
+|
+|win|shnore
+|raw|Tscher's rating: 1237 &rarr; <strong>1212</strong><br />(-25 for losing)
+|raw|shnore's rating: 1243 &rarr; <strong>1268</strong><br />(+25 for winning)
+|l|☆Tscher
+|player|p1|
+|l|☆shnore
+|player|p2|

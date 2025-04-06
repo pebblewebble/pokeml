@@ -1,0 +1,343 @@
+|j|☆TeaPause
+|j|☆xadenas
+|t:|1743888141
+|gametype|singles
+|player|p1|TeaPause|waiter|1417
+|player|p2|xadenas|hiker-gen4|1334
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Scyther, F|
+|poke|p1|Great Tusk|
+|poke|p1|Magnezone|
+|poke|p1|Weavile, F|
+|poke|p1|Slowking, M|
+|poke|p1|Iron Valiant|
+|poke|p2|Primarina, M|
+|poke|p2|Exeggutor-Alola, F|
+|poke|p2|Reuniclus, F|
+|poke|p2|Chesnaught, F|
+|poke|p2|Coalossal, M|
+|poke|p2|Frosmoth, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TeaPause)
+|
+|t:|1743888166
+|start
+|switch|p1a: Scyther|Scyther, F|100/100
+|switch|p2a: Chesnaught|Chesnaught, F|100/100
+|turn|1
+|
+|t:|1743888173
+|switch|p2a: Coalossal|Coalossal, M|100/100
+|move|p1a: Scyther|Dual Wingbeat|p2a: Coalossal
+|-resisted|p2a: Coalossal
+|-damage|p2a: Coalossal|92/100
+|-resisted|p2a: Coalossal
+|-damage|p2a: Coalossal|81/100
+|-hitcount|p2a: Coalossal|2
+|
+|upkeep
+|turn|2
+|
+|t:|1743888182
+|switch|p1a: Slowking|Slowking, M|100/100
+|move|p2a: Coalossal|Flare Blitz|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|69/100
+|-damage|p2a: Coalossal|65/100|[from] item: Rocky Helmet|[of] p1a: Slowking
+|-damage|p2a: Coalossal|56/100|[from] Recoil
+|-damage|p2a: Coalossal|46/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1743888191
+|switch|p2a: Primarina|Primarina, M|100/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743888197
+|switch|p1a: Magnezone|Magnezone|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743888202
+|switch|p2a: Exeggutor|Exeggutor-Alola, F|100/100
+|move|p1a: Magnezone|Volt Switch|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|88/100
+|
+|t:|1743888208
+|switch|p1a: Weavile|Weavile, F|100/100|[from] Volt Switch
+|-ability|p1a: Weavile|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743888215
+|switch|p2a: Coalossal|Coalossal, M|46/100
+|move|p1a: Weavile|Swords Dance|p1a: Weavile
+|-boost|p1a: Weavile|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743888222
+|move|p1a: Weavile|Low Kick|p2a: Coalossal
+|-supereffective|p2a: Coalossal
+|-crit|p2a: Coalossal
+|-damage|p2a: Coalossal|0 fnt
+|faint|p2a: Coalossal
+|-damage|p1a: Weavile|91/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743888229
+|switch|p2a: Primarina|Primarina, M|100/100
+|turn|7
+|
+|t:|1743888234
+|move|p1a: Weavile|Knock Off|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|25/100
+|-enditem|p2a: Primarina|Leftovers|[from] move: Knock Off|[of] p1a: Weavile
+|-damage|p1a: Weavile|81/100|[from] item: Life Orb
+|move|p2a: Primarina|Moonblast|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|-weather|none
+|upkeep
+|
+|t:|1743888248
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|turn|8
+|
+|t:|1743888252
+|move|p1a: Iron Valiant|Moonblast|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|
+|t:|1743888258
+|switch|p2a: Frosmoth|Frosmoth, M|100/100
+|turn|9
+|
+|t:|1743888266
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Magnezone|Magnezone|100/100
+|-terastallize|p2a: Frosmoth|Electric
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743888274
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|move|p1a: Magnezone|Body Press|p2a: Frosmoth
+|-damage|p2a: Frosmoth|30/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743888281
+|move|p2a: Frosmoth|Tera Blast|p1a: Magnezone|[anim] Tera Blast Electric
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|61/100
+|move|p1a: Magnezone|Body Press|p2a: Frosmoth
+|-damage|p2a: Frosmoth|0 fnt
+|faint|p2a: Frosmoth
+|
+|upkeep
+|
+|t:|1743888284
+|switch|p2a: Reuniclus|Reuniclus, F|100/100
+|turn|12
+|
+|t:|1743888290
+|move|p1a: Magnezone|Volt Switch|p2a: Reuniclus
+|-damage|p2a: Reuniclus|71/100
+|
+|t:|1743888296
+|switch|p1a: Scyther|Scyther, F|100/100|[from] Volt Switch
+|move|p2a: Reuniclus|Trick Room|p2a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p2a: Reuniclus
+|
+|upkeep
+|turn|13
+|
+|t:|1743888303
+|move|p2a: Reuniclus|Psychic|p1a: Scyther
+|-damage|p1a: Scyther|31/100
+|move|p1a: Scyther|Bug Bite|p2a: Reuniclus
+|-supereffective|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|
+|upkeep
+|
+|t:|1743888305
+|switch|p2a: Exeggutor|Exeggutor-Alola, F|88/100
+|turn|14
+|
+|t:|1743888313
+|switch|p1a: Magnezone|Magnezone|61/100
+|move|p2a: Exeggutor|Flamethrower|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|9/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743888321
+|move|p2a: Exeggutor|Giga Drain|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|-heal|p2a: Exeggutor|91/100|[from] drain|[of] p1a: Magnezone
+|faint|p1a: Magnezone
+|
+|upkeep
+|
+|t:|1743888330
+|switch|p1a: Slowking|Slowking, M|100/100
+|turn|16
+|
+|t:|1743888338
+|move|p1a: Slowking|Disable|p2a: Exeggutor
+|-start|p2a: Exeggutor|Disable|Giga Drain
+|cant|p2a: Exeggutor|Disable|Giga Drain
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|17
+|
+|t:|1743888346
+|move|p1a: Slowking|Future Sight|p2a: Exeggutor
+|-start|p1a: Slowking|move: Future Sight
+|move|p2a: Exeggutor|Trick Room|p2a: Exeggutor
+|-fieldstart|move: Trick Room|[of] p2a: Exeggutor
+|
+|upkeep
+|turn|18
+|
+|t:|1743888355
+|move|p1a: Slowking|Scald|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|84/100
+|move|p2a: Exeggutor|Draco Meteor|p1a: Slowking
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|32/100
+|-unboost|p2a: Exeggutor|spa|2
+|
+|upkeep
+|turn|19
+|
+|t:|1743888364
+|move|p1a: Slowking|Scald|p2a: Exeggutor
+|-resisted|p2a: Exeggutor
+|-damage|p2a: Exeggutor|76/100
+|-status|p2a: Exeggutor|brn
+|move|p2a: Exeggutor|Draco Meteor|p1a: Slowking
+|-damage|p1a: Slowking|9/100
+|-unboost|p2a: Exeggutor|spa|2
+|
+|-end|p2a: Exeggutor|move: Future Sight
+|-damage|p2a: Exeggutor|35/100 brn
+|-enditem|p2a: Exeggutor|Sitrus Berry|[eat]
+|-heal|p2a: Exeggutor|59/100 brn|[from] item: Sitrus Berry
+|-damage|p2a: Exeggutor|53/100 brn|[from] brn
+|-end|p2a: Exeggutor|Disable
+|upkeep
+|turn|20
+|
+|t:|1743888382
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743888390
+|switch|p1a: Iron Valiant|Iron Valiant|100/100|[from] Chilly Reception
+|move|p2a: Exeggutor|Giga Drain|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|71/100
+|-heal|p2a: Exeggutor|64/100 brn|[from] drain|[of] p1a: Iron Valiant
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Exeggutor|58/100 brn|[from] brn
+|-item|p2a: Exeggutor|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|21
+|
+|t:|1743888400
+|switch|p2a: Chesnaught|Chesnaught, F|100/100
+|move|p1a: Iron Valiant|Trick|p2a: Chesnaught
+|-activate|p1a: Iron Valiant|move: Trick|[of] p2a: Chesnaught
+|-item|p2a: Chesnaught|Choice Scarf|[from] move: Trick
+|-item|p1a: Iron Valiant|Leftovers|[from] move: Trick
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Iron Valiant|78/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|22
+|
+|t:|1743888409
+|move|p1a: Iron Valiant|Moonblast|p2a: Chesnaught
+|-supereffective|p2a: Chesnaught
+|-damage|p2a: Chesnaught|15/100
+|-unboost|p2a: Chesnaught|spa|1
+|move|p2a: Chesnaught|Wood Hammer|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|25/100
+|-damage|p2a: Chesnaught|2/100|[from] Recoil
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Iron Valiant|31/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743888419
+|move|p1a: Iron Valiant|Drain Punch|p2a: Chesnaught
+|-damage|p2a: Chesnaught|0 fnt
+|-heal|p1a: Iron Valiant|32/100|[from] drain|[of] p2a: Chesnaught
+|faint|p2a: Chesnaught
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Iron Valiant|38/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743888421
+|switch|p2a: Exeggutor|Exeggutor-Alola, F|58/100 brn
+|turn|24
+|-message|xadenas forfeited.
+|
+|win|TeaPause
+|raw|TeaPause's rating: 1417 &rarr; <strong>1432</strong><br />(+15 for winning)
+|raw|xadenas's rating: 1334 &rarr; <strong>1319</strong><br />(-15 for losing)
+|l|☆xadenas
+|player|p2|
+|l|☆TeaPause
+|player|p1|

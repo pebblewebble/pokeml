@@ -1,0 +1,347 @@
+|j|☆maxx77
+|j|☆Chrisboomin
+|t:|1743790332
+|gametype|singles
+|player|p1|maxx77|2|1338
+|player|p2|Chrisboomin|ethan|1341
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Sandslash-Alola, F|
+|poke|p1|Pecharunt|
+|poke|p1|Zapdos|
+|poke|p1|Kyurem|
+|poke|p1|Corviknight, F|
+|poke|p2|Araquanid, F|
+|poke|p2|Iron Treads|
+|poke|p2|Cinderace, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Pecharunt|
+|poke|p2|Dragonite, M|
+|teampreview
+|
+|t:|1743790351
+|start
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-item|p2a: Pecharunt|Air Balloon
+|turn|1
+|
+|t:|1743790370
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdriveatk
+|move|p1a: Pecharunt|Shadow Ball|p2a: Iron Treads
+|-damage|p2a: Iron Treads|67/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743790382
+|-terastallize|p1a: Pecharunt|Ground
+|move|p2a: Iron Treads|Iron Head|p1a: Pecharunt
+|-damage|p1a: Pecharunt|74/100
+|move|p1a: Pecharunt|Parting Shot|p2a: Iron Treads
+|-unboost|p2a: Iron Treads|atk|1
+|-unboost|p2a: Iron Treads|spa|1
+|
+|t:|1743790401
+|switch|p1a: Zapdos|Zapdos|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|3
+|
+|t:|1743790407
+|move|p2a: Iron Treads|Supercell Slam|p1a: Zapdos
+|-damage|p1a: Zapdos|72/100
+|move|p1a: Zapdos|Heat Wave|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743790415
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-item|p2a: Pecharunt|Air Balloon
+|turn|4
+|
+|t:|1743790420
+|move|p2a: Pecharunt|Malignant Chain|p1a: Zapdos
+|-damage|p1a: Zapdos|35/100
+|-status|p1a: Zapdos|tox
+|-start|p1a: Zapdos|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|-activate|p1a: Zapdos|confusion
+|move|p1a: Zapdos|Thunderbolt|p2a: Pecharunt
+|-damage|p2a: Pecharunt|44/100
+|-enditem|p2a: Pecharunt|Air Balloon
+|
+|-damage|p1a: Zapdos|29/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743790431
+|move|p2a: Pecharunt|Shadow Ball|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1743790439
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|6
+|
+|t:|1743790445
+|move|p1a: Kyurem|Freeze-Dry|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|t:|1743790450
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|7
+|
+|t:|1743790454
+|switch|p1a: Pecharunt|Pecharunt, tera:Ground|74/100
+|move|p2a: Cinderace|Swords Dance|p2a: Cinderace
+|-boost|p2a: Cinderace|atk|2
+|
+|-heal|p1a: Pecharunt|80/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743790461
+|move|p2a: Cinderace|Sucker Punch|p1a: Pecharunt
+|-damage|p1a: Pecharunt|58/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Cinderace
+|-damage|p2a: Cinderace|53/100
+|-status|p2a: Cinderace|tox
+|-start|p2a: Cinderace|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-heal|p1a: Pecharunt|64/100|[from] item: Leftovers
+|-damage|p2a: Cinderace|47/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743790477
+|-activate|p2a: Cinderace|confusion
+|move|p2a: Cinderace|Pyro Ball|p1a: Pecharunt
+|-damage|p1a: Pecharunt|10/100
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|60/100
+|
+|-heal|p1a: Pecharunt|66/100|[from] item: Leftovers
+|-damage|p2a: Cinderace|35/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743790488
+|-activate|p2a: Cinderace|confusion
+|move|p2a: Cinderace|Pyro Ball|p1a: Pecharunt
+|-damage|p1a: Pecharunt|13/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|-heal|p1a: Pecharunt|19/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743790495
+|switch|p2a: Araquanid|Araquanid, F, shiny|100/100
+|turn|11
+|
+|t:|1743790500
+|move|p1a: Pecharunt|Malignant Chain|p2a: Araquanid
+|-damage|p2a: Araquanid|77/100
+|-status|p2a: Araquanid|tox
+|-start|p2a: Araquanid|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|-activate|p2a: Araquanid|confusion
+|-damage|p2a: Araquanid|72/100 tox|[from] confusion
+|
+|-heal|p1a: Pecharunt|25/100|[from] item: Leftovers
+|-damage|p2a: Araquanid|65/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743790513
+|move|p1a: Pecharunt|Parting Shot|p2a: Araquanid
+|-unboost|p2a: Araquanid|atk|1
+|-unboost|p2a: Araquanid|spa|1
+|
+|t:|1743790526
+|switch|p1a: Slowking|Slowking-Galar, F|100/100|[from] Parting Shot
+|-activate|p2a: Araquanid|confusion
+|move|p2a: Araquanid|Liquidation|p1a: Slowking
+|-damage|p1a: Slowking|75/100
+|
+|-heal|p1a: Slowking|81/100|[from] item: Leftovers
+|-damage|p2a: Araquanid|53/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1743790540
+|-activate|p2a: Araquanid|confusion
+|-damage|p2a: Araquanid|50/100 tox|[from] confusion
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743790552
+|switch|p1a: Sandslash|Sandslash-Alola, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Araquanid|31/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743790572
+|move|p1a: Sandslash|Iron Head|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|14/100 tox
+|-damage|p1a: Sandslash|91/100|[from] item: Life Orb
+|-end|p2a: Araquanid|confusion
+|move|p2a: Araquanid|Endeavor|p1a: Sandslash
+|-damage|p1a: Sandslash|16/100
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Araquanid|0 fnt|[from] psn
+|faint|p2a: Araquanid
+|upkeep
+|
+|t:|1743790581
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|turn|15
+|
+|t:|1743790596
+|move|p2a: Dragonite|Extreme Speed|p1a: Sandslash
+|-resisted|p1a: Sandslash
+|-damage|p1a: Sandslash|6/100
+|move|p1a: Sandslash|Ice Shard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|44/100
+|-damage|p1a: Sandslash|0 fnt|[from] item: Life Orb
+|faint|p1a: Sandslash
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743790608
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|turn|16
+|
+|t:|1743790615
+|move|p2a: Dragonite|Extreme Speed|p1a: Kyurem
+|-damage|p1a: Kyurem|81/100
+|move|p1a: Kyurem|Blizzard|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743790621
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|17
+|
+|t:|1743790629
+|switch|p1a: Pecharunt|Pecharunt, tera:Ground|25/100
+|-terastallize|p2a: Kingambit|Dark
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|none
+|-heal|p1a: Pecharunt|31/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743790640
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Pecharunt|Parting Shot|p2a: Kingambit
+|-unboost|p2a: Kingambit|atk|1
+|-unboost|p2a: Kingambit|spa|1
+|
+|t:|1743790645
+|switch|p1a: Corviknight|Corviknight, F|100/100|[from] Parting Shot
+|-ability|p1a: Corviknight|Pressure
+|
+|upkeep
+|turn|19
+|
+|t:|1743790653
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Corviknight|Body Press|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|60/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743790668
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1743790672
+|switch|p1a: Pecharunt|Pecharunt, tera:Ground|31/100
+|turn|21
+|
+|t:|1743790682
+|move|p2a: Kingambit|Sucker Punch|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1743790687
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|turn|22
+|
+|t:|1743790696
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1743790705
+|switch|p1a: Kyurem|Kyurem|81/100
+|-ability|p1a: Kyurem|Pressure
+|turn|23
+|
+|t:|1743790714
+|move|p2a: Kingambit|Sucker Punch|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|win|Chrisboomin
+|raw|maxx77's rating: 1338 &rarr; <strong>1318</strong><br />(-20 for losing)
+|raw|Chrisboomin's rating: 1341 &rarr; <strong>1361</strong><br />(+20 for winning)
+|l|☆maxx77
+|player|p1|
+|c|☆Chrisboomin|gg
+|l|☆Chrisboomin
+|player|p2|

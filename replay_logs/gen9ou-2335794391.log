@@ -1,0 +1,305 @@
+|j|☆Howsthatforaname
+|j|☆BIG Ghettie
+|t:|1743837591
+|gametype|singles
+|player|p1|Howsthatforaname|wattson|1258
+|player|p2|BIG Ghettie|ghetsis|1240
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Jolteon, M|
+|poke|p1|Meganium, M|
+|poke|p1|Gyarados, M|
+|poke|p1|Scizor, M|
+|poke|p1|Excadrill, M|
+|poke|p2|Gengar, F|
+|poke|p2|Arcanine-Hisui, F|
+|poke|p2|Blastoise, F|
+|poke|p2|Skarmory, F|
+|poke|p2|Metagross|
+|poke|p2|Gliscor, M|
+|teampreview
+|
+|t:|1743837614
+|start
+|switch|p1a: Meganium|Meganium, M|100/100
+|switch|p2a: Gliscor|Gliscor, M, shiny|100/100
+|turn|1
+|
+|t:|1743837630
+|move|p2a: Gliscor|Spikes|p1a: Meganium
+|-sidestart|p1: Howsthatforaname|Spikes
+|move|p1a: Meganium|Knock Off|p2a: Gliscor
+|-damage|p2a: Gliscor|87/100
+|-enditem|p2a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p1a: Meganium
+|
+|upkeep
+|turn|2
+|
+|t:|1743837644
+|switch|p1a: Gyarados|Gyarados, M|100/100
+|move|p2a: Gliscor|Toxic|p1a: Gyarados
+|-status|p1a: Gyarados|tox
+|
+|-damage|p1a: Gyarados|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1743837658
+|switch|p2a: Sky|Skarmory, F, shiny|100/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|
+|-heal|p1a: Gyarados|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Gyarados|88/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743837668
+|-terastallize|p1a: Gyarados|Electric
+|move|p1a: Gyarados|Tera Blast|p2a: Sky|[anim] Tera Blast Electric
+|-supereffective|p2a: Sky
+|-damage|p2a: Sky|8/100
+|move|p2a: Sky|Iron Defense|p2a: Sky
+|-boost|p2a: Sky|def|2
+|
+|-heal|p1a: Gyarados|94/100 tox|[from] item: Leftovers
+|-damage|p1a: Gyarados|75/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743837700
+|move|p1a: Gyarados|Waterfall|p2a: Sky
+|-damage|p2a: Sky|0 fnt
+|-damage|p1a: Gyarados|59/100 tox|[from] item: Rocky Helmet|[of] p2a: Sky
+|faint|p2a: Sky
+|-ability|p1a: Gyarados|Moxie|boost
+|-boost|p1a: Gyarados|atk|1
+|
+|-heal|p1a: Gyarados|65/100 tox|[from] item: Leftovers
+|-damage|p1a: Gyarados|40/100 tox|[from] psn
+|upkeep
+|
+|t:|1743837730
+|switch|p2a: Joker|Gengar, F, shiny|100/100
+|turn|6
+|
+|t:|1743837741
+|move|p1a: Gyarados|Waterfall|p2a: Joker
+|-enditem|p2a: Joker|Focus Sash
+|-damage|p2a: Joker|1/100
+|move|p2a: Joker|Shadow Ball|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|upkeep
+|
+|t:|1743837754
+|switch|p1a: Scizor|Scizor, M|100/100
+|-damage|p1a: Scizor|88/100|[from] Spikes
+|turn|7
+|
+|t:|1743837769
+|move|p2a: Joker|Shadow Ball|p1a: Scizor
+|-damage|p1a: Scizor|44/100
+|-unboost|p1a: Scizor|spd|1
+|move|p1a: Scizor|Defog|p2a: Joker
+|-unboost|p2a: Joker|evasion|1
+|-sideend|p1: Howsthatforaname|Spikes|[from] move: Defog|[of] p1a: Scizor
+|
+|-heal|p1a: Scizor|50/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743837792
+|switch|p2a: Big Ghettie|Metagross, shiny|100/100
+|move|p1a: Scizor|Bullet Punch|p2a: Big Ghettie
+|-resisted|p2a: Big Ghettie
+|-damage|p2a: Big Ghettie|86/100
+|
+|-heal|p1a: Scizor|56/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743837805
+|move|p2a: Big Ghettie|Psychic Fangs|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|28/100
+|move|p1a: Scizor|U-turn|p2a: Big Ghettie
+|-damage|p2a: Big Ghettie|55/100
+|
+|t:|1743837823
+|switch|p1a: Dragonite|Dragonite, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|10
+|
+|t:|1743837830
+|switch|p2a: Gliscor|Gliscor, M, shiny|87/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|11
+|
+|t:|1743837837
+|move|p1a: Dragonite|Dragon Claw|p2a: Gliscor
+|-damage|p2a: Gliscor|35/100
+|move|p2a: Gliscor|Toxic|p1a: Dragonite
+|-status|p1a: Dragonite|tox
+|
+|-damage|p1a: Dragonite|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743837848
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-damage|p1a: Dragonite|82/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1743837857
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|move|p1a: Dragonite|Dragon Claw|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|-damage|p1a: Dragonite|63/100 tox|[from] psn
+|upkeep
+|
+|t:|1743837875
+|switch|p2a: Joker|Gengar, F, shiny|1/100
+|turn|14
+|
+|t:|1743837879
+|move|p1a: Dragonite|Dragon Claw|p2a: Joker
+|-damage|p2a: Joker|0 fnt
+|faint|p2a: Joker
+|
+|-damage|p1a: Dragonite|39/100 tox|[from] psn
+|upkeep
+|
+|t:|1743837893
+|switch|p2a: Big Ghettie|Metagross, shiny|55/100
+|turn|15
+|
+|t:|1743837897
+|move|p2a: Big Ghettie|Bullet Punch|p1a: Dragonite
+|-damage|p1a: Dragonite|13/100 tox
+|move|p1a: Dragonite|Fire Punch|p2a: Big Ghettie
+|-supereffective|p2a: Big Ghettie
+|-damage|p2a: Big Ghettie|0 fnt
+|faint|p2a: Big Ghettie
+|
+|-damage|p1a: Dragonite|0 fnt|[from] psn
+|faint|p1a: Dragonite
+|upkeep
+|
+|t:|1743837909
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|switch|p2a: Rocky|Arcanine-Hisui, F, shiny|100/100
+|turn|16
+|
+|t:|1743837919
+|move|p2a: Rocky|Flare Blitz|p1a: Jolteon
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|
+|upkeep
+|
+|t:|1743837927
+|switch|p1a: Scizor|Scizor, M|28/100
+|turn|17
+|
+|t:|1743837945
+|move|p1a: Scizor|Bullet Punch|p2a: Rocky
+|-damage|p2a: Rocky|56/100
+|move|p2a: Rocky|Flare Blitz|p1a: Scizor
+|-supereffective|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|upkeep
+|
+|t:|1743837957
+|switch|p1a: Meganium|Meganium, M|100/100
+|turn|18
+|
+|t:|1743837962
+|move|p2a: Rocky|Flare Blitz|p1a: Meganium
+|-supereffective|p1a: Meganium
+|-damage|p1a: Meganium|12/100
+|move|p1a: Meganium|Body Press|p2a: Rocky
+|-supereffective|p2a: Rocky
+|-damage|p2a: Rocky|0 fnt
+|faint|p2a: Rocky
+|
+|upkeep
+|
+|t:|1743837969
+|switch|p2a: Flow|Blastoise, F, shiny|100/100
+|turn|19
+|
+|t:|1743837975
+|-terastallize|p2a: Flow|Dragon
+|move|p2a: Flow|Shell Smash|p2a: Flow
+|-unboost|p2a: Flow|def|1
+|-unboost|p2a: Flow|spd|1
+|-boost|p2a: Flow|atk|2
+|-boost|p2a: Flow|spa|2
+|-boost|p2a: Flow|spe|2
+|-enditem|p2a: Flow|White Herb
+|-clearnegativeboost|p2a: Flow|[silent]
+|move|p1a: Meganium|Giga Drain|p2a: Flow
+|-resisted|p2a: Flow
+|-damage|p2a: Flow|82/100
+|-heal|p1a: Meganium|20/100|[from] drain|[of] p2a: Flow
+|
+|upkeep
+|turn|20
+|
+|t:|1743837990
+|move|p2a: Flow|Ice Beam|p1a: Meganium
+|-supereffective|p1a: Meganium
+|-damage|p1a: Meganium|0 fnt
+|faint|p1a: Meganium
+|
+|upkeep
+|
+|t:|1743837995
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|21
+|
+|t:|1743837999
+|move|p2a: Flow|Surf|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|win|BIG Ghettie
+|raw|Howsthatforaname's rating: 1258 &rarr; <strong>1232</strong><br />(-26 for losing)
+|raw|BIG Ghettie's rating: 1240 &rarr; <strong>1266</strong><br />(+26 for winning)
+|l|☆Howsthatforaname
+|player|p1|
+|l|☆BIG Ghettie
+|player|p2|

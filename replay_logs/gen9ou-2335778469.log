@@ -1,0 +1,368 @@
+|j|☆Nolpac
+|j|☆guesyo
+|t:|1743834700
+|gametype|singles
+|player|p1|Nolpac|102|1455
+|player|p2|guesyo|unknownf|1443
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, M|
+|poke|p1|Great Tusk|
+|poke|p1|Venusaur, M|
+|poke|p1|Walking Wake|
+|poke|p1|Charizard, F|
+|poke|p1|Shiftry, F|
+|poke|p2|Iron Moth|
+|poke|p2|Mamoswine, M|
+|poke|p2|Iron Crown|
+|poke|p2|Iron Hands|
+|poke|p2|Meowscarada, M|
+|poke|p2|Primarina, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Nolpac)
+|
+|t:|1743834705
+|start
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|switch|p2a: Meowscarada|Meowscarada, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1743834715
+|move|p2a: Meowscarada|Trick|p1a: Ninetales
+|-start|p2a: Meowscarada|typechange|Psychic|[from] ability: Protean
+|-activate|p2a: Meowscarada|move: Trick|[of] p1a: Ninetales
+|-item|p1a: Ninetales|Choice Scarf|[from] move: Trick
+|-item|p2a: Meowscarada|Heat Rock|[from] move: Trick
+|move|p1a: Ninetales|Weather Ball|p2a: Meowscarada
+|-damage|p2a: Meowscarada|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743834721
+|switch|p2a: Primarina|Primarina, M, shiny|100/100
+|move|p1a: Ninetales|Weather Ball|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|82/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Primarina|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743834726
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|move|p2a: Primarina|Substitute|p2a: Primarina
+|-start|p2a: Primarina|Substitute
+|-damage|p2a: Primarina|63/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Primarina|69/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743834734
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|move|p2a: Primarina|Calm Mind|p2a: Primarina
+|-boost|p2a: Primarina|spa|1
+|-boost|p2a: Primarina|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Primarina|75/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743834739
+|move|p1a: Venusaur|Giga Drain|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-crit|p2a: Primarina
+|-end|p2a: Primarina|Substitute
+|-damage|p1a: Venusaur|91/100|[from] item: Life Orb
+|move|p2a: Primarina|Psychic Noise|p1a: Venusaur
+|-resisted|p1a: Venusaur
+|-damage|p1a: Venusaur|78/100
+|-start|p1a: Venusaur|move: Heal Block
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Primarina|81/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743834746
+|switch|p2a: Meowscarada|Meowscarada, M, shiny|36/100
+|move|p1a: Venusaur|Sludge Bomb|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|-damage|p1a: Venusaur|68/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Venusaur|move: Heal Block
+|upkeep
+|
+|t:|1743834749
+|switch|p2a: Mamoswine|Mamoswine, M, shiny|100/100
+|turn|7
+|
+|t:|1743834756
+|move|p1a: Venusaur|Giga Drain|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine
+|-enditem|p2a: Mamoswine|Focus Sash
+|-damage|p2a: Mamoswine|1/100
+|-heal|p1a: Venusaur|100/100|[from] drain|[of] p2a: Mamoswine
+|-damage|p1a: Venusaur|91/100|[from] item: Life Orb
+|move|p2a: Mamoswine|Earthquake|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743834775
+|switch|p1a: Charizard|Charizard, F|100/100
+|turn|8
+|
+|t:|1743834779
+|move|p2a: Mamoswine|Ice Shard|p1a: Charizard
+|-damage|p1a: Charizard|71/100
+|move|p1a: Charizard|Scorching Sands|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|-weather|none
+|upkeep
+|
+|t:|1743834790
+|switch|p2a: Primarina|Primarina, M, shiny|81/100
+|turn|9
+|
+|t:|1743834796
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Primarina|Psychic Noise|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|69/100
+|-start|p1a: Ninetales|move: Heal Block
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Primarina|87/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743834815
+|move|p1a: Ninetales|Encore|p2a: Primarina
+|-start|p2a: Primarina|Encore
+|move|p2a: Primarina|Psychic Noise|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Primarina|93/100|[from] item: Leftovers
+|-end|p1a: Ninetales|move: Heal Block
+|upkeep
+|turn|11
+|
+|t:|1743834818
+|switch|p1a: Shiftry|Shiftry, F|100/100
+|move|p2a: Primarina|Psychic Noise|p1a: Shiftry
+|-resisted|p1a: Shiftry
+|-crit|p1a: Shiftry
+|-damage|p1a: Shiftry|79/100
+|-start|p1a: Shiftry|move: Heal Block
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Primarina|99/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743834827
+|switch|p2a: Iron Hands|Iron Hands, shiny|100/100
+|-enditem|p2a: Iron Hands|Booster Energy
+|-activate|p2a: Iron Hands|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Hands|quarkdriveatk
+|move|p1a: Shiftry|Growth|p1a: Shiftry
+|-boost|p1a: Shiftry|atk|2
+|-boost|p1a: Shiftry|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Shiftry|move: Heal Block
+|upkeep
+|turn|13
+|
+|t:|1743834836
+|-terastallize|p1a: Shiftry|Ghost
+|move|p1a: Shiftry|Solar Beam||[still]
+|-prepare|p1a: Shiftry|Solar Beam
+|-anim|p1a: Shiftry|Solar Beam|p2a: Iron Hands
+|-crit|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|-damage|p1a: Shiftry|69/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1743834859
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|turn|14
+|
+|t:|1743834866
+|switch|p1a: Ninetales|Ninetales, M|36/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|-terastallize|p2a: Iron Crown|Steel
+|move|p2a: Iron Crown|Tachyon Cutter|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|13/100
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|-hitcount|p1: Ninetales|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743834873
+|switch|p1a: Charizard|Charizard, F|71/100
+|turn|15
+|
+|t:|1743834880
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Iron Moth|Iron Moth, shiny|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: Charizard|Weather Ball|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|23/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|59/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+|turn|16
+|
+|t:|1743834885
+|move|p2a: Iron Moth|Sludge Wave|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743834898
+|switch|p1a: Shiftry|Shiftry, F, tera:Ghost|69/100
+|turn|17
+|
+|t:|1743834906
+|move|p2a: Iron Moth|Sludge Wave|p1a: Shiftry
+|-resisted|p1a: Shiftry
+|-damage|p1a: Shiftry|29/100
+|move|p1a: Shiftry|Knock Off|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|-damage|p1a: Shiftry|19/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743834910
+|switch|p2a: Iron Crown|Iron Crown, tera:Steel|100/100
+|turn|18
+|
+|t:|1743834918
+|move|p1a: Shiftry|Knock Off|p2a: Iron Crown
+|-crit|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|-enditem|p2a: Iron Crown|Choice Specs|[from] move: Knock Off|[of] p1a: Shiftry
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|-damage|p1a: Shiftry|9/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1743834920
+|switch|p2a: Primarina|Primarina, M, shiny|99/100
+|turn|19
+|
+|t:|1743834929
+|move|p1a: Shiftry|Knock Off|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|76/100
+|-enditem|p2a: Primarina|Leftovers|[from] move: Knock Off|[of] p1a: Shiftry
+|-damage|p1a: Shiftry|0 fnt|[from] item: Life Orb
+|faint|p1a: Shiftry
+|move|p2a: Primarina|Substitute|p2a: Primarina
+|-start|p2a: Primarina|Substitute
+|-damage|p2a: Primarina|51/100
+|
+|upkeep
+|
+|t:|1743834935
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|20
+|
+|t:|1743834939
+|move|p1a: Great Tusk|Headlong Rush|p2a: Primarina
+|-end|p2a: Primarina|Substitute
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Primarina|Draining Kiss|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|12/100
+|-heal|p2a: Primarina|100/100|[from] drain|[of] p1a: Great Tusk
+|-damage|p2a: Primarina|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|21
+|
+|t:|1743834944
+|move|p1a: Great Tusk|Headlong Rush|p2a: Primarina
+|-damage|p2a: Primarina|39/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Primarina|Draining Kiss|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-heal|p2a: Primarina|49/100|[from] drain|[of] p1a: Great Tusk
+|-damage|p2a: Primarina|33/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743834948
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|turn|22
+|
+|t:|1743834952
+|move|p1a: Walking Wake|Hydro Steam|p2a: Primarina
+|-resisted|p2a: Primarina
+|-crit|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|win|Nolpac
+|raw|Nolpac's rating: 1455 &rarr; <strong>1474</strong><br />(+19 for winning)
+|raw|guesyo's rating: 1443 &rarr; <strong>1424</strong><br />(-19 for losing)
+|l|☆guesyo
+|player|p2|
+|l|☆Nolpac
+|player|p1|

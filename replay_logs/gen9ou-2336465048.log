@@ -1,0 +1,164 @@
+|j|☆10_million_volts
+|j|☆LiDaPang
+|t:|1743922091
+|gametype|singles
+|player|p1|10_million_volts|rocker-gen3|1160
+|player|p2|LiDaPang|bugcatcher-gen4dp|1107
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Polteageist-Antique|
+|poke|p1|Maushold-Four|
+|poke|p1|Dragonite, F|
+|poke|p1|Salamence, F|
+|poke|p1|Crawdaunt, M|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p2|Glimmora, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Latias, F|
+|poke|p2|Gholdengo|
+|poke|p2|Dragonite, F|
+|poke|p2|Weavile, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by LiDaPang)
+|
+|t:|1743922118
+|start
+|switch|p1a: Crawdaunt|Crawdaunt, M, shiny|100/100
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|1
+|
+|t:|1743922133
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|move|p1a: Crawdaunt|Knock Off|p2a: Glimmora
+|-damage|p2a: Glimmora|33/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: 10_million_volts|move: Toxic Spikes
+|-enditem|p2a: Glimmora|Red Card|[from] move: Knock Off|[of] p1a: Crawdaunt
+|
+|upkeep
+|turn|2
+|
+|t:|1743922145
+|move|p1a: Crawdaunt|Aqua Jet|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: 10_million_volts|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1743922159
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|3
+|
+|t:|1743922166
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Crawdaunt|Crabhammer|p2a: Zamazenta
+|-damage|p2a: Zamazenta|78/100
+|
+|-heal|p2a: Zamazenta|84/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743922176
+|switch|p1a: Polteageist|Polteageist-Antique, shiny|100/100
+|-status|p1a: Polteageist|tox
+|move|p2a: Zamazenta|Body Press|p1a: Polteageist
+|-immune|p1a: Polteageist
+|
+|-heal|p2a: Zamazenta|90/100|[from] item: Leftovers
+|-damage|p1a: Polteageist|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743922186
+|move|p2a: Zamazenta|Crunch|p1a: Polteageist
+|-supereffective|p1a: Polteageist
+|-crit|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|-heal|p2a: Zamazenta|97/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743922191
+|switch|p1a: Salamence|Salamence, F, shiny|100/100
+|turn|6
+|
+|t:|1743922202
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|72/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|-heal|p2a: Zamazenta|78/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743922210
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|-heal|p2a: Zamazenta|84/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743922217
+|move|p1a: Salamence|Dual Wingbeat|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|55/100
+|-hitcount|p2a: Zamazenta|2
+|-damage|p1a: Salamence|91/100|[from] item: Life Orb
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|1
+|
+|-heal|p2a: Zamazenta|62/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743922230
+|move|p1a: Salamence|Dual Wingbeat|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|34/100
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|10/100
+|-hitcount|p2a: Zamazenta|2
+|-damage|p1a: Salamence|81/100|[from] item: Life Orb
+|move|p2a: Zamazenta|Body Press|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|-heal|p2a: Zamazenta|16/100|[from] item: Leftovers
+|upkeep
+|-message|10_million_volts forfeited.
+|
+|win|LiDaPang
+|raw|10_million_volts's rating: 1160 &rarr; <strong>1131</strong><br />(-29 for losing)
+|raw|LiDaPang's rating: 1107 &rarr; <strong>1136</strong><br />(+29 for winning)
+|l|☆10_million_volts
+|player|p1|
+|l|☆LiDaPang
+|player|p2|

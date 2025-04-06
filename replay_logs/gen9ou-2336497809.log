@@ -1,0 +1,191 @@
+|j|☆MXR050203
+|j|☆interesting小小露003
+|t:|1743928228
+|gametype|singles
+|player|p1|MXR050203|flint|1144
+|player|p2|interesting小小露003|misty|1099
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gliscor, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Veluza, F|
+|poke|p1|Clodsire, F|
+|poke|p1|Blaziken, M|
+|poke|p1|Walking Wake|
+|poke|p2|Garchomp, M|
+|poke|p2|Metagross|
+|poke|p2|Alomomola, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Primarina, M|
+|poke|p2|Blaziken, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MXR050203)
+|
+|t:|1743928245
+|start
+|switch|p1a: Blaziken|Blaziken, M, shiny|100/100
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|turn|1
+|
+|t:|1743928253
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|move|p2a: Alomomola|Flip Turn|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|59/100
+|
+|t:|1743928267
+|switch|p2a: Primarina|Primarina, M|100/100|[from] Flip Turn
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|2
+|
+|t:|1743928281
+|-terastallize|p1a: Blaziken|Flying
+|move|p1a: Blaziken|Brave Bird|p2a: Primarina
+|-crit|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|-damage|p1a: Blaziken|19/100|[from] Recoil
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743928297
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|turn|3
+|
+|t:|1743928314
+|move|p1a: Blaziken|Reversal|p2a: Corviknight
+|-damage|p2a: Corviknight|31/100
+|-damage|p1a: Blaziken|2/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|move|p2a: Corviknight|Brave Bird|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|-damage|p2a: Corviknight|31/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743928318
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|turn|4
+|
+|t:|1743928333
+|switch|p2a: Metagross|Metagross|100/100
+|move|p1a: Walking Wake|Flamethrower|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|16/100
+|-enditem|p2a: Metagross|Sitrus Berry|[eat]
+|-heal|p2a: Metagross|41/100|[from] item: Sitrus Berry
+|-damage|p1a: Walking Wake|90/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|t:|1743928348
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Walking Wake|Sunny Day|p1a: Walking Wake
+|-weather|SunnyDay
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743928358
+|move|p1a: Walking Wake|Hydro Steam|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-crit|p2a: Alomomola
+|-damage|p2a: Alomomola|37/100
+|-damage|p1a: Walking Wake|80/100|[from] item: Life Orb
+|move|p2a: Alomomola|Mirror Coat|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743928365
+|switch|p1a: Veluza|Veluza, F|100/100
+|turn|7
+|
+|t:|1743928379
+|move|p1a: Veluza|Fillet Away|p1a: Veluza
+|-boost|p1a: Veluza|atk|2
+|-boost|p1a: Veluza|spa|2
+|-boost|p1a: Veluza|spe|2
+|-damage|p1a: Veluza|51/100
+|move|p2a: Alomomola|Flip Turn|p1a: Veluza
+|-resisted|p1a: Veluza
+|-damage|p1a: Veluza|46/100
+|
+|t:|1743928390
+|switch|p2a: Metagross|Metagross|41/100|[from] Flip Turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743928398
+|move|p2a: Metagross|Bullet Punch|p1a: Veluza
+|-resisted|p1a: Veluza
+|-damage|p1a: Veluza|31/100
+|move|p1a: Veluza|Aqua Cutter|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|-damage|p1a: Veluza|21/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743928404
+|switch|p2a: Corviknight|Corviknight, F|31/100
+|turn|9
+|
+|t:|1743928411
+|move|p1a: Veluza|Aqua Cutter|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|-damage|p1a: Veluza|11/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1743928415
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|turn|10
+|
+|t:|1743928429
+|move|p1a: Veluza|Aqua Cutter|p2a: Garchomp
+|-enditem|p2a: Garchomp|Focus Sash
+|-damage|p2a: Garchomp|1/100
+|-damage|p1a: Veluza|1/100|[from] item: Life Orb
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|upkeep
+|turn|11
+|-message|interesting小小露003 forfeited.
+|
+|win|MXR050203
+|raw|MXR050203's rating: 1144 &rarr; <strong>1166</strong><br />(+22 for winning)
+|raw|interesting小小露003's rating: 1099 &rarr; <strong>1077</strong><br />(-22 for losing)
+|l|☆interesting小小露003
+|player|p2|

@@ -1,0 +1,226 @@
+|j|☆simpward
+|j|☆summerflows00.2
+|t:|1743823837
+|gametype|singles
+|player|p1|simpward|unknown|1125
+|player|p2|summerflows00.2|ghetsis|1174
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Meganium, F|
+|poke|p1|Scrafty, M|
+|poke|p1|Dragalge, F|
+|poke|p1|Froslass, F|
+|poke|p1|Chandelure, M|
+|poke|p1|Malamar, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Zoroark-Hisui, F|
+|poke|p2|Dragonite, F|
+|poke|p2|Dodrio, M|
+|poke|p2|Latios, M|
+|poke|p2|Scizor, F|
+|teampreview
+|
+|t:|1743823858
+|start
+|switch|p1a: Meganium|Meganium, F|100/100
+|switch|p2a: Scizor|Scizor, F|100/100
+|turn|1
+|
+|t:|1743823875
+|move|p2a: Scizor|Flamethrower|p1a: Meganium
+|-supereffective|p1a: Meganium
+|-damage|p1a: Meganium|64/100
+|move|p1a: Meganium|Counter||[still]
+|-fail|p1a: Meganium
+|
+|upkeep
+|turn|2
+|
+|t:|1743823884
+|move|p2a: Scizor|Flamethrower|p1a: Meganium
+|-supereffective|p1a: Meganium
+|-damage|p1a: Meganium|24/100
+|move|p1a: Meganium|Petal Blizzard|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|replace|p2a: Zoroark|Zoroark-Hisui, F
+|-end|p2a: Zoroark|Illusion
+|faint|p2a: Zoroark
+|
+|upkeep
+|
+|t:|1743823897
+|switch|p2a: Dodrio|Dodrio, M|100/100
+|turn|3
+|
+|t:|1743823908
+|move|p2a: Dodrio|Knock Off|p1a: Meganium
+|-damage|p1a: Meganium|0 fnt
+|-enditem|p1a: Meganium|Assault Vest|[from] move: Knock Off|[of] p2a: Dodrio
+|faint|p1a: Meganium
+|
+|upkeep
+|
+|t:|1743823920
+|switch|p1a: Dragalge|Dragalge, F|100/100
+|turn|4
+|
+|t:|1743823929
+|move|p2a: Dodrio|Knock Off|p1a: Dragalge
+|-damage|p1a: Dragalge|62/100
+|-enditem|p1a: Dragalge|Assault Vest|[from] move: Knock Off|[of] p2a: Dodrio
+|move|p1a: Dragalge|Thunderbolt|p2a: Dodrio
+|-supereffective|p2a: Dodrio
+|-enditem|p2a: Dodrio|Focus Sash
+|-damage|p2a: Dodrio|1/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743823939
+|move|p2a: Dodrio|Flail|p1a: Dragalge
+|-damage|p1a: Dragalge|0 fnt
+|faint|p1a: Dragalge
+|
+|upkeep
+|
+|t:|1743823948
+|switch|p1a: Malamar|Malamar, M|100/100
+|turn|6
+|
+|t:|1743823953
+|-terastallize|p1a: Malamar|Steel
+|move|p2a: Dodrio|Flail|p1a: Malamar
+|-resisted|p1a: Malamar
+|-damage|p1a: Malamar|51/100
+|move|p1a: Malamar|Trick Room|p1a: Malamar
+|-fieldstart|move: Trick Room|[of] p1a: Malamar
+|
+|upkeep
+|turn|7
+|
+|t:|1743823963
+|move|p2a: Dodrio|Quick Attack|p1a: Malamar
+|-resisted|p1a: Malamar
+|-damage|p1a: Malamar|40/100
+|move|p1a: Malamar|Superpower|p2a: Dodrio
+|-damage|p2a: Dodrio|0 fnt
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|faint|p2a: Dodrio
+|
+|upkeep
+|
+|t:|1743823993
+|switch|p2a: Dragonite|Dragonite, F, shiny|100/100
+|turn|8
+|
+|t:|1743824004
+|move|p1a: Malamar|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|61/100
+|-enditem|p2a: Dragonite|Choice Band|[from] move: Knock Off|[of] p1a: Malamar
+|move|p2a: Dragonite|Earthquake|p1a: Malamar
+|-supereffective|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|
+|upkeep
+|
+|t:|1743824006
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|turn|9
+|
+|t:|1743824020
+|move|p1a: Chandelure|Shadow Ball|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1743824032
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|10
+|
+|t:|1743824040
+|switch|p1a: Scrafty|Scrafty, M|100/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Scrafty
+|-resisted|p1a: Scrafty
+|-damage|p1a: Scrafty|90/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1743824050
+|-end|p2a: Kingambit|fallen3|[silent]
+|switch|p2a: Scizor|Scizor, F|100/100
+|move|p1a: Scrafty|Knock Off|p2a: Scizor
+|-damage|p2a: Scizor|60/100
+|-enditem|p2a: Scizor|Sitrus Berry|[from] move: Knock Off|[of] p1a: Scrafty
+|
+|upkeep
+|turn|12
+|
+|t:|1743824061
+|move|p1a: Scrafty|Dragon Dance|p1a: Scrafty
+|-boost|p1a: Scrafty|atk|1
+|-boost|p1a: Scrafty|spe|1
+|move|p2a: Scizor|Bug Bite|p1a: Scrafty
+|-damage|p1a: Scrafty|42/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743824070
+|move|p1a: Scrafty|Drain Punch|p2a: Scizor
+|-damage|p2a: Scizor|14/100
+|-heal|p1a: Scrafty|68/100|[from] drain|[of] p2a: Scizor
+|move|p2a: Scizor|Bug Bite|p1a: Scrafty
+|-damage|p1a: Scrafty|21/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743824077
+|move|p2a: Scizor|Bullet Punch|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|
+|upkeep
+|
+|t:|1743824088
+|switch|p1a: Froslass|Froslass, F|100/100
+|turn|15
+|
+|t:|1743824092
+|move|p2a: Scizor|Bullet Punch|p1a: Froslass
+|-supereffective|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|-start|p2a: Scizor|Disable|Bullet Punch|[from] ability: Cursed Body|[of] p1a: Froslass
+|faint|p1a: Froslass
+|
+|upkeep
+|-message|simpward forfeited.
+|
+|win|summerflows00.2
+|raw|simpward's rating: 1125 &rarr; <strong>1104</strong><br />(-21 for losing)
+|raw|summerflows00.2's rating: 1174 &rarr; <strong>1195</strong><br />(+21 for winning)
+|l|☆simpward
+|player|p1|
+|l|☆summerflows00.2
+|player|p2|

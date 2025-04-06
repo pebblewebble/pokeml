@@ -1,0 +1,170 @@
+|j|☆PizzaWaffle3
+|j|☆berkano
+|t:|1743892376
+|gametype|singles
+|player|p1|PizzaWaffle3|whitney|1185
+|player|p2|berkano|giovanni|1191
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Primarina, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Moltres|
+|poke|p1|Great Tusk|
+|poke|p1|Rillaboom, M|
+|poke|p1|Scizor, F|
+|poke|p2|Flareon, F|
+|poke|p2|Umbreon, M|
+|poke|p2|Espeon, F|
+|poke|p2|Sylveon, M|
+|poke|p2|Vaporeon, M|
+|poke|p2|Jolteon, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PizzaWaffle3)
+|
+|t:|1743892387
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Jolteon|Jolteon, F|100/100
+|turn|1
+|
+|t:|1743892393
+|switch|p2a: Vaporeon|Vaporeon, M|100/100
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Primarina|Primarina, F|100/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743892405
+|switch|p2a: Espeon|Espeon, F|100/100
+|move|p1a: Primarina|Psychic Noise|p2a: Espeon
+|-resisted|p2a: Espeon
+|-damage|p2a: Espeon|87/100
+|-start|p2a: Espeon|move: Heal Block
+|
+|upkeep
+|turn|3
+|
+|t:|1743892415
+|move|p2a: Espeon|Grass Knot|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|74/100
+|move|p1a: Primarina|Flip Turn|p2a: Espeon
+|-damage|p2a: Espeon|59/100
+|
+|t:|1743892420
+|switch|p1a: Rillaboom|Rillaboom, M|100/100|[from] Flip Turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|
+|-end|p2a: Espeon|move: Heal Block
+|upkeep
+|turn|4
+|
+|t:|1743892426
+|switch|p2a: Flareon|Flareon, F|100/100
+|move|p1a: Rillaboom|U-turn|p2a: Flareon
+|-resisted|p2a: Flareon
+|-damage|p2a: Flareon|73/100
+|
+|t:|1743892430
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|
+|-heal|p2a: Flareon|79/100|[from] Grassy Terrain
+|-status|p2a: Flareon|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|t:|1743892441
+|move|p1a: Great Tusk|Headlong Rush|p2a: Flareon
+|-supereffective|p2a: Flareon
+|-damage|p2a: Flareon|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Flareon
+|
+|upkeep
+|
+|t:|1743892444
+|switch|p2a: Sylveon|Sylveon, M|100/100
+|turn|6
+|
+|t:|1743892448
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Primarina|Primarina, F|74/100
+|move|p2a: Sylveon|Hyper Voice|p1a: Primarina
+|-damage|p1a: Primarina|50/100
+|
+|-heal|p1a: Primarina|56/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1743892454
+|move|p2a: Sylveon|Calm Mind|p2a: Sylveon
+|-boost|p2a: Sylveon|spa|1
+|-boost|p2a: Sylveon|spd|1
+|move|p1a: Primarina|Moonblast|p2a: Sylveon
+|-damage|p2a: Sylveon|81/100
+|
+|-heal|p1a: Primarina|62/100|[from] Grassy Terrain
+|-heal|p2a: Sylveon|87/100|[from] Grassy Terrain
+|-heal|p2a: Sylveon|93/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1743892457
+|move|p2a: Sylveon|Psyshock|p1a: Primarina
+|-damage|p1a: Primarina|13/100
+|move|p1a: Primarina|Flip Turn|p2a: Sylveon
+|-damage|p2a: Sylveon|69/100
+|
+|t:|1743892462
+|switch|p1a: Rillaboom|Rillaboom, M|100/100|[from] Flip Turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|
+|-heal|p2a: Sylveon|75/100|[from] Grassy Terrain
+|-heal|p2a: Sylveon|81/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743892465
+|move|p1a: Rillaboom|Wood Hammer|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|-damage|p1a: Rillaboom|74/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|80/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743892470
+|switch|p2a: Umbreon|Umbreon, M|100/100
+|turn|10
+|
+|t:|1743892472
+|move|p1a: Rillaboom|Wood Hammer|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|faint|p2a: Umbreon
+|-damage|p1a: Rillaboom|47/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|53/100|[from] Grassy Terrain
+|upkeep
+|-message|berkano forfeited.
+|
+|win|PizzaWaffle3
+|raw|PizzaWaffle3's rating: 1185 &rarr; <strong>1210</strong><br />(+25 for winning)
+|raw|berkano's rating: 1191 &rarr; <strong>1166</strong><br />(-25 for losing)
+|l|☆berkano
+|player|p2|
+|l|☆PizzaWaffle3
+|player|p1|

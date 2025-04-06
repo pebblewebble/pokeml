@@ -1,0 +1,318 @@
+|j|☆rodolfomendes00
+|j|☆DXSandstormsXD
+|t:|1743814355
+|gametype|singles
+|player|p1|rodolfomendes00|170|1401
+|player|p2|DXSandstormsXD|101|1374
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Gengar, F|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Zapdos|
+|poke|p1|Tyranitar, M|
+|poke|p1|Scizor, M|
+|poke|p2|Tinkaton, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Goodra-Hisui, F|
+|poke|p2|Gholdengo|
+|poke|p2|Oricorio-Pom-Pom, F|
+|poke|p2|Raging Bolt|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by rodolfomendes00)
+|
+|t:|1743814365
+|start
+|switch|p1a: Gengar|Gengar, F|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|turn|1
+|
+|t:|1743814371
+|switch|p2a: Goodra|Goodra-Hisui, F|100/100
+|move|p1a: Gengar|Shadow Ball|p2a: Goodra
+|-damage|p2a: Goodra|83/100
+|-unboost|p2a: Goodra|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743814377
+|move|p1a: Gengar|Will-O-Wisp|p2a: Goodra|[miss]
+|-miss|p1a: Gengar|p2a: Goodra
+|move|p2a: Goodra|Dragon Tail|p1a: Gengar
+|-crit|p1a: Gengar
+|-damage|p1a: Gengar|41/100
+|-start|p2a: Goodra|Disable|Dragon Tail|[from] ability: Cursed Body|[of] p1a: Gengar
+|drag|p1a: Keldeo|Keldeo-Resolute|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743814387
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Keldeo|Secret Sword|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|
+|upkeep
+|turn|4
+|
+|t:|1743814393
+|switch|p1a: Gengar|Gengar, F|41/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-start|p2a: Gholdengo|Disable|Shadow Ball|[from] ability: Cursed Body|[of] p1a: Gengar
+|faint|p1a: Gengar
+|
+|upkeep
+|
+|t:|1743814401
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|5
+|
+|t:|1743814407
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|move|p1a: Tyranitar|Stealth Rock|p2a: Tinkaton
+|-sidestart|p2: DXSandstormsXD|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743814413
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Tinkaton|Stealth Rock|p1a: Scizor
+|-sidestart|p1: rodolfomendes00|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743814420
+|move|p2a: Tinkaton|Knock Off|p1a: Scizor
+|-damage|p1a: Scizor|78/100
+|-enditem|p1a: Scizor|Occa Berry|[from] move: Knock Off|[of] p2a: Tinkaton
+|move|p1a: Scizor|Lunge|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|85/100
+|-unboost|p2a: Tinkaton|atk|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743814428
+|move|p2a: Tinkaton|Thunder Wave|p1a: Scizor
+|-status|p1a: Scizor|par
+|cant|p1a: Scizor|par
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743814438
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|move|p1a: Scizor|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|11/100
+|-enditem|p2a: Gholdengo|Choice Scarf|[from] move: Knock Off|[of] p1a: Scizor
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1743814447
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|-damage|p2a: Cinderace|76/100|[from] Stealth Rock
+|move|p1a: Scizor|Bullet Punch|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|53/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743814456
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-damage|p1a: Tyranitar|88/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Cinderace|High Jump Kick|p1a: Tyranitar
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|47/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743814471
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|12
+|
+|t:|1743814476
+|switch|p2a: Goodra|Goodra-Hisui, F|83/100
+|-damage|p2a: Goodra|77/100|[from] Stealth Rock
+|move|p1a: Zapdos|Thunderbolt|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zapdos|94/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1743814485
+|switch|p1a: Scizor|Scizor, M|78/100 par
+|-damage|p1a: Scizor|66/100 par|[from] Stealth Rock
+|move|p2a: Goodra|Dragon Tail|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|55/100 par
+|drag|p1a: Keldeo|Keldeo-Resolute|100/100
+|-damage|p1a: Keldeo|94/100|[from] Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|88/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1743814497
+|move|p1a: Keldeo|Secret Sword|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|faint|p2a: Goodra
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Keldeo|82/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743814503
+|switch|p2a: Gholdengo|Gholdengo|11/100
+|-damage|p2a: Gholdengo|5/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743814507
+|move|p1a: Keldeo|Surf|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-weather|none
+|upkeep
+|
+|t:|1743814516
+|switch|p2a: Oricorio|Oricorio-Pom-Pom, F|100/100
+|turn|16
+|
+|t:|1743814520
+|move|p1a: Keldeo|Surf|p2a: Oricorio
+|-damage|p2a: Oricorio|37/100
+|move|p2a: Oricorio|Revelation Dance|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|38/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743814528
+|move|p1a: Keldeo|Surf|p2a: Oricorio
+|-damage|p2a: Oricorio|0 fnt
+|faint|p2a: Oricorio
+|
+|upkeep
+|
+|t:|1743814532
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|88/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1743814535
+|move|p1a: Keldeo|Vacuum Wave|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|69/100
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|-heal|p2a: Raging Bolt|76/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743814545
+|move|p2a: Raging Bolt|Thunderclap|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|-heal|p2a: Raging Bolt|82/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743814551
+|switch|p1a: Scizor|Scizor, M|55/100 par
+|-damage|p1a: Scizor|42/100 par|[from] Stealth Rock
+|turn|20
+|
+|t:|1743814555
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Scizor
+|-damage|p1a: Scizor|0 fnt
+|faint|p1a: Scizor
+|
+|-heal|p2a: Raging Bolt|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743814560
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|21
+|
+|t:|1743814566
+|-terastallize|p2a: Raging Bolt|Fairy
+|move|p1a: Dragonite|Earthquake|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|56/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|56/100
+|
+|-heal|p2a: Raging Bolt|62/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743814578
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Extreme Speed|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|23/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-heal|p2a: Raging Bolt|29/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743814587
+|switch|p1a: Zapdos|Zapdos|94/100
+|turn|23
+|
+|t:|1743814590
+|move|p1a: Zapdos|Thunderbolt|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|5/100
+|move|p2a: Raging Bolt|Draco Meteor|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-unboost|p2a: Raging Bolt|spa|2
+|faint|p1a: Zapdos
+|
+|win|DXSandstormsXD
+|raw|rodolfomendes00's rating: 1401 &rarr; <strong>1379</strong><br />(-22 for losing)
+|raw|DXSandstormsXD's rating: 1374 &rarr; <strong>1396</strong><br />(+22 for winning)
+|l|☆DXSandstormsXD
+|player|p2|
+|l|☆rodolfomendes00
+|player|p1|

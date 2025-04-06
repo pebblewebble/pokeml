@@ -1,0 +1,224 @@
+|j|☆akiral13
+|j|☆olopito
+|t:|1743928043
+|gametype|singles
+|player|p1|akiral13|n-masters|1250
+|player|p2|olopito|102|1243
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Ting-Lu|
+|poke|p1|Clodsire, F|
+|poke|p1|Sinistcha-Masterpiece|
+|poke|p1|Alomomola, F|
+|poke|p1|Darkrai|
+|poke|p2|Leafeon, F|
+|poke|p2|Incineroar, F|
+|poke|p2|Torkoal, M|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Walking Wake|
+|poke|p2|Dragapult, M|
+|teampreview
+|
+|t:|1743928053
+|start
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1743928077
+|switch|p2a: Incineroar|Incineroar, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Ting-Lu|atk|1
+|move|p1a: Ting-Lu|Spikes|p2a: Incineroar
+|-sidestart|p2: olopito|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743928087
+|move|p2a: Incineroar|Parting Shot|p1a: Ting-Lu
+|-unboost|p1a: Ting-Lu|atk|1
+|-unboost|p1a: Ting-Lu|spa|1
+|
+|t:|1743928090
+|switch|p2a: Leafeon|Leafeon, F|100/100|[from] Parting Shot
+|-damage|p2a: Leafeon|88/100|[from] Spikes
+|move|p1a: Ting-Lu|Spikes|p2a: Leafeon
+|-sidestart|p2: olopito|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743928114
+|move|p2a: Leafeon|Swords Dance|p2a: Leafeon
+|-boost|p2a: Leafeon|atk|2
+|move|p1a: Ting-Lu|Spikes|p2a: Leafeon
+|-sidestart|p2: olopito|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743928122
+|move|p2a: Leafeon|Solar Blade||[still]
+|-prepare|p2a: Leafeon|Solar Blade
+|-anim|p2a: Leafeon|Solar Blade|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743928137
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|turn|5
+|
+|t:|1743928146
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Leafeon|Solar Blade||[still]
+|-prepare|p2a: Leafeon|Solar Blade
+|-anim|p2a: Leafeon|Solar Blade|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743928155
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Leafeon|Swords Dance|p2a: Leafeon
+|-boost|p2a: Leafeon|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743928163
+|move|p2a: Leafeon|Solar Blade||[still]
+|-prepare|p2a: Leafeon|Solar Blade
+|-anim|p2a: Leafeon|Solar Blade|p1a: Zamazenta
+|-damage|p1a: Zamazenta|3/100
+|move|p1a: Zamazenta|Roar|p2a: Leafeon
+|drag|p2a: Walking Wake|Walking Wake|100/100
+|-damage|p2a: Walking Wake|76/100|[from] Spikes
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743928185
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Walking Wake|Dragon Pulse|p1a: Clodsire
+|-damage|p1a: Clodsire|67/100
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|upkeep
+|turn|9
+|
+|t:|1743928196
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Hoopa|Hoopa-Unbound|100/100
+|-damage|p2a: Hoopa|75/100|[from] Spikes
+|move|p1a: Clodsire|Toxic|p2a: Hoopa
+|-status|p2a: Hoopa|tox
+|
+|-damage|p2a: Hoopa|69/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743928205
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Hoopa|Taunt|p1a: Alomomola
+|-start|p1a: Alomomola|move: Taunt
+|
+|-damage|p2a: Hoopa|57/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743928214
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-damage|p2a: Torkoal|75/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Alomomola|Flip Turn|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|65/100
+|
+|t:|1743928219
+|switch|p1a: Zamazenta|Zamazenta|3/100|[from] Flip Turn
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743928226
+|move|p1a: Zamazenta|Rest|p1a: Zamazenta
+|-status|p1a: Zamazenta|slp|[from] move: Rest
+|-heal|p1a: Zamazenta|100/100 slp|[silent]
+|move|p2a: Torkoal|Rapid Spin|p1a: Zamazenta
+|-damage|p1a: Zamazenta|93/100 slp
+|-boost|p2a: Torkoal|spe|1
+|-sideend|p2: olopito|Spikes|[from] move: Rapid Spin|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743928237
+|switch|p2a: Walking Wake|Walking Wake|76/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|cant|p1a: Zamazenta|slp
+|move|p1a: Zamazenta|Sleep Talk|p1a: Zamazenta
+|move|p1a: Zamazenta|Rest||[from] move: Sleep Talk|[still]
+|-fail|p1a: Zamazenta
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743928249
+|move|p2a: Walking Wake|Hydro Steam|p1a: Zamazenta
+|-damage|p1a: Zamazenta|19/100 slp
+|cant|p1a: Zamazenta|slp
+|move|p1a: Zamazenta|Sleep Talk|p1a: Zamazenta
+|move|p1a: Zamazenta|Roar|p2a: Walking Wake|[from] move: Sleep Talk
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|drag|p2a: Incineroar|Incineroar, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Zamazenta|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|-message|akiral13 forfeited.
+|
+|win|olopito
+|raw|akiral13's rating: 1250 &rarr; <strong>1224</strong><br />(-26 for losing)
+|raw|olopito's rating: 1243 &rarr; <strong>1269</strong><br />(+26 for winning)
+|l|☆olopito
+|player|p2|
+|l|☆akiral13
+|player|p1|

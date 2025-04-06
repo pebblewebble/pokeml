@@ -1,0 +1,281 @@
+|j|☆Minoluck
+|j|☆xTamer
+|t:|1743915550
+|gametype|singles
+|player|p1|Minoluck|gentleman-gen4|1179
+|player|p2|xTamer|2|1133
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Jirachi|
+|poke|p1|Lokix, M|
+|poke|p1|Mimikyu, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Ting-Lu|
+|poke|p2|Lucario, M|
+|poke|p2|Skarmory, F|
+|poke|p2|Polteageist-Antique|
+|poke|p2|Garchomp, F|
+|poke|p2|Iron Moth|
+|poke|p2|Weezing-Galar, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by xTamer)
+|
+|t:|1743915561
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|1
+|
+|t:|1743915569
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Iron Moth|Fiery Dance|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|68/100
+|
+|-heal|p1a: Ting-Lu|75/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743915581
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: xTamer|move: Stealth Rock
+|
+|-heal|p1a: Ting-Lu|81/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743915594
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Skarmory|Stealth Rock|p1a: Cinderace
+|-sidestart|p1: Minoluck|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1743915599
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-damage|p2a: Weezing|88/100|[from] Stealth Rock
+|-fieldstart|move: Misty Terrain|[from] ability: Misty Surge|[of] p2a: Weezing
+|move|p1a: Cinderace|Pyro Ball|p2a: Weezing
+|-damage|p2a: Weezing|40/100
+|
+|-heal|p2a: Weezing|46/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1743915611
+|move|p1a: Cinderace|Iron Head|p2a: Weezing
+|-start|p1a: Cinderace|typechange|Steel|[from] ability: Libero
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|
+|upkeep
+|
+|t:|1743915618
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|-damage|p2a: Garchomp|94/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1743915631
+|move|p1a: Cinderace|U-turn|p2a: Garchomp
+|-damage|p2a: Garchomp|73/100
+|-damage|p1a: Cinderace|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|
+|t:|1743915635
+|switch|p1a: Gyarados|Gyarados, F|100/100|[from] U-turn
+|-damage|p1a: Gyarados|76/100|[from] Stealth Rock
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|
+|-heal|p1a: Gyarados|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743915647
+|-terastallize|p2a: Garchomp|Fairy
+|move|p2a: Garchomp|Scale Shot|p1a: Gyarados
+|-damage|p1a: Gyarados|59/100
+|-damage|p1a: Gyarados|33/100
+|-damage|p1a: Gyarados|9/100
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|-hitcount|p1: Gyarados|4
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|
+|upkeep
+|
+|t:|1743915659
+|switch|p1a: Lokix|Lokix, M|100/100
+|-damage|p1a: Lokix|76/100|[from] Stealth Rock
+|turn|8
+|
+|t:|1743915667
+|move|p1a: Lokix|First Impression|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Lokix|63/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|-damage|p1a: Lokix|54/100|[from] item: Life Orb
+|
+|-fieldend|Misty Terrain
+|upkeep
+|
+|t:|1743915684
+|switch|p2a: Lucario|Lucario, M|100/100
+|-damage|p2a: Lucario|98/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743915688
+|move|p1a: Lokix|Axe Kick|p2a: Lucario
+|-supereffective|p2a: Lucario
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|-damage|p1a: Lokix|44/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743915694
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-damage|p2a: Iron Moth|76/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743915698
+|move|p2a: Iron Moth|Fiery Dance|p1a: Lokix
+|-supereffective|p1a: Lokix
+|-damage|p1a: Lokix|0 fnt
+|faint|p1a: Lokix
+|
+|upkeep
+|
+|t:|1743915703
+|switch|p1a: Ting-Lu|Ting-Lu|81/100
+|-damage|p1a: Ting-Lu|75/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|11
+|
+|t:|1743915708
+|move|p2a: Iron Moth|Dazzling Gleam|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|42/100
+|move|p1a: Ting-Lu|Whirlwind|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|drag|p2a: Skarmory|Skarmory, F|100/100
+|-damage|p2a: Skarmory|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Ting-Lu|48/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743915733
+|switch|p1a: Cinderace|Cinderace, M|88/100
+|move|p2a: Skarmory|Brave Bird|p1a: Cinderace
+|-damage|p1a: Cinderace|35/100
+|-damage|p2a: Skarmory|73/100|[from] Recoil
+|
+|upkeep
+|turn|13
+|
+|t:|1743915740
+|switch|p2a: Iron Moth|Iron Moth|76/100
+|-damage|p2a: Iron Moth|51/100|[from] Stealth Rock
+|move|p1a: Cinderace|Pyro Ball|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|3/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743915749
+|move|p1a: Cinderace|U-turn|p2a: Iron Moth
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|t:|1743915758
+|switch|p1a: Jirachi|Jirachi|100/100|[from] U-turn
+|-damage|p1a: Jirachi|94/100|[from] Stealth Rock
+|
+|upkeep
+|
+|t:|1743915764
+|switch|p2a: Polteageist|Polteageist-Antique, shiny|100/100
+|-damage|p2a: Polteageist|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743915768
+|move|p1a: Jirachi|Psychic|p2a: Polteageist
+|-damage|p2a: Polteageist|45/100
+|move|p2a: Polteageist|Pain Split|p1a: Jirachi
+|-sethp|p1a: Jirachi|64/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Polteageist|84/100|[from] move: Pain Split
+|
+|upkeep
+|turn|16
+|
+|t:|1743915775
+|move|p1a: Jirachi|Doom Desire|p2a: Polteageist
+|-start|p1a: Jirachi|Doom Desire
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|
+|upkeep
+|turn|17
+|
+|t:|1743915790
+|switch|p1a: Ting-Lu|Ting-Lu|48/100
+|-damage|p1a: Ting-Lu|42/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Polteageist|Dark Pulse|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|23/100
+|
+|-heal|p1a: Ting-Lu|29/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743915813
+|move|p2a: Polteageist|Shadow Ball|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|-end|p2a: Polteageist|move: Doom Desire
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|upkeep
+|-message|xTamer forfeited.
+|
+|win|Minoluck
+|raw|Minoluck's rating: 1179 &rarr; <strong>1201</strong><br />(+22 for winning)
+|raw|xTamer's rating: 1133 &rarr; <strong>1111</strong><br />(-22 for losing)
+|l|☆xTamer
+|player|p2|
+|l|☆Minoluck
+|player|p1|

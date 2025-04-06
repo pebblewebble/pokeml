@@ -1,0 +1,317 @@
+|j|☆mio3777
+|j|☆Kazio1
+|t:|1743865086
+|gametype|singles
+|player|p1|mio3777|266|1438
+|player|p2|Kazio1|red|1401
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Glimmora, F|
+|poke|p1|Gholdengo|
+|poke|p1|Dondozo, M|
+|poke|p1|Blissey, F|
+|poke|p1|Rotom-Heat|
+|poke|p1|Hoopa-Unbound|
+|poke|p2|Raging Bolt|
+|poke|p2|Pelipper, M|
+|poke|p2|Kingdra, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Great Tusk|
+|poke|p2|Weavile, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mio3777)
+|
+|t:|1743865113
+|start
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|1
+|
+|t:|1743865123
+|-terastallize|p2a: Weavile|Dark
+|move|p1a: Rotom|Overheat|p2a: Weavile
+|-damage|p2a: Weavile|7/100
+|-unboost|p1a: Rotom|spa|2
+|move|p2a: Weavile|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-enditem|p1a: Rotom|Choice Scarf|[from] move: Knock Off|[of] p2a: Weavile
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1743865134
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|turn|2
+|
+|t:|1743865139
+|move|p2a: Weavile|Knock Off|p1a: Glimmora
+|-damage|p1a: Glimmora|8/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Kazio1|move: Toxic Spikes
+|-enditem|p1a: Glimmora|Red Card|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Glimmora|Stealth Rock|p2a: Weavile
+|-sidestart|p2: Kazio1|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1743865148
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|move|p2a: Weavile|Knock Off|p1a: Dondozo
+|-damage|p1a: Dondozo|48/100
+|-damage|p2a: Weavile|0 fnt|[from] item: Rocky Helmet|[of] p1a: Dondozo
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|t:|1743865165
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-status|p2a: Great Tusk|psn
+|-damage|p2a: Great Tusk|98/100 psn|[from] Stealth Rock
+|turn|4
+|
+|t:|1743865175
+|move|p2a: Great Tusk|Ice Spinner|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|40/100
+|-damage|p2a: Great Tusk|81/100 psn|[from] item: Rocky Helmet|[of] p1a: Dondozo
+|move|p1a: Dondozo|Liquidation|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|20/100 psn
+|-unboost|p2a: Great Tusk|def|1
+|
+|-damage|p2a: Great Tusk|7/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743865191
+|move|p2a: Great Tusk|Headlong Rush|p1a: Dondozo
+|-damage|p1a: Dondozo|1/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|-damage|p2a: Great Tusk|0 fnt|[from] item: Rocky Helmet|[of] p1a: Dondozo
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|move|p1a: Dondozo|Liquidation|p2: Great Tusk|[notarget]
+|-fail|p1a: Dondozo
+|
+|upkeep
+|
+|t:|1743865203
+|switch|p2a: Pelipper|Pelipper, M, shiny|100/100
+|-damage|p2a: Pelipper|76/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|6
+|
+|t:|1743865212
+|switch|p1a: Glimmora|Glimmora, F|8/100
+|move|p2a: Pelipper|U-turn|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|3/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Kazio1|move: Toxic Spikes
+|
+|t:|1743865220
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100|[from] U-turn
+|-status|p2a: Dragapult|tox
+|-damage|p2a: Dragapult|88/100 tox|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Dragapult|82/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743865231
+|move|p2a: Dragapult|Hex|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Dragapult|70/100 tox|[from] psn
+|upkeep
+|
+|t:|1743865237
+|switch|p1a: Blissey|Blissey, F|100/100
+|turn|8
+|
+|t:|1743865250
+|move|p2a: Dragapult|U-turn|p1a: Blissey
+|-damage|p1a: Blissey|62/100
+|
+|t:|1743865254
+|switch|p2a: Kingdra|Kingdra, M, shiny|100/100|[from] U-turn
+|-status|p2a: Kingdra|tox
+|-damage|p2a: Kingdra|88/100 tox|[from] Stealth Rock
+|move|p1a: Blissey|Ice Beam|p2a: Kingdra
+|-damage|p2a: Kingdra|51/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Kingdra|45/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743865263
+|switch|p1a: Dondozo|Dondozo, M|1/100
+|move|p2a: Kingdra|Wave Crash|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|-damage|p2a: Kingdra|29/100 tox|[from] item: Rocky Helmet|[of] p1a: Dondozo
+|faint|p1a: Dondozo
+|-damage|p2a: Kingdra|28/100 tox|[from] Recoil
+|-damage|p2a: Kingdra|18/100 tox|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Kingdra|6/100 tox|[from] psn
+|upkeep
+|
+|t:|1743865291
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|turn|10
+|
+|t:|1743865296
+|move|p2a: Kingdra|Wave Crash|p1a: Hoopa
+|-damage|p1a: Hoopa|0 fnt
+|faint|p1a: Hoopa
+|-damage|p2a: Kingdra|0 fnt|[from] Recoil
+|faint|p2a: Kingdra
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743865305
+|switch|p2a: Dragapult|Dragapult, M, shiny|70/100 tox
+|switch|p1a: Blissey|Blissey, F|62/100
+|-damage|p2a: Dragapult|58/100 tox|[from] Stealth Rock
+|turn|11
+|
+|t:|1743865312
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Blissey
+|-status|p1a: Blissey|brn
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Dragapult|52/100 tox|[from] psn
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743865322
+|move|p2a: Dragapult|Draco Meteor|p1a: Blissey
+|-damage|p1a: Blissey|76/100 brn
+|-unboost|p2a: Dragapult|spa|2
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Dragapult|40/100 tox|[from] psn
+|-damage|p1a: Blissey|94/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743865335
+|-curestatus|p1a: Blissey|brn|[from] ability: Natural Cure
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Dragapult|Draco Meteor|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|85/100
+|-unboost|p2a: Dragapult|spa|2
+|
+|-weather|none
+|-damage|p2a: Dragapult|22/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743865348
+|move|p1a: Gholdengo|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1743865353
+|switch|p2a: Pelipper|Pelipper, M, shiny|76/100
+|-damage|p2a: Pelipper|51/100|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|15
+|
+|t:|1743865358
+|move|p1a: Gholdengo|Shadow Ball|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743865385
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-status|p2a: Raging Bolt|tox
+|-damage|p2a: Raging Bolt|88/100 tox|[from] Stealth Rock
+|turn|16
+|
+|t:|1743865391
+|switch|p1a: Blissey|Blissey, F|94/100
+|move|p2a: Raging Bolt|Weather Ball|p1a: Blissey
+|-damage|p1a: Blissey|74/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Raging Bolt|82/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1743865402
+|move|p2a: Raging Bolt|Thunder|p1a: Blissey
+|-damage|p1a: Blissey|54/100
+|-status|p1a: Blissey|par
+|move|p1a: Blissey|Trick|p2a: Raging Bolt
+|-activate|p1a: Blissey|move: Trick|[of] p2a: Raging Bolt
+|-item|p2a: Raging Bolt|Choice Specs|[from] move: Trick
+|-item|p1a: Blissey|Assault Vest|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Raging Bolt|70/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1743865412
+|move|p2a: Raging Bolt|Thunder|p1a: Blissey
+|-damage|p1a: Blissey|34/100 par
+|move|p1a: Blissey|Ice Beam|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|33/100 tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Raging Bolt|15/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1743865420
+|move|p2a: Raging Bolt|Thunder|p1a: Blissey
+|-damage|p1a: Blissey|13/100 par
+|cant|p1a: Blissey|par
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Raging Bolt|0 fnt|[from] psn
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|win|mio3777
+|raw|mio3777's rating: 1438 &rarr; <strong>1456</strong><br />(+18 for winning)
+|raw|Kazio1's rating: 1401 &rarr; <strong>1383</strong><br />(-18 for losing)
+|l|☆Kazio1
+|player|p2|
+|l|☆mio3777
+|player|p1|

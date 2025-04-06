@@ -1,0 +1,138 @@
+|j|☆Frostywingz
+|j|☆Dinkbink
+|t:|1743919916
+|gametype|singles
+|player|p1|Frostywingz|sabrina|1158
+|player|p2|Dinkbink|265|1093
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dusclops, F|
+|poke|p1|Articuno|
+|poke|p1|Cinccino, M|
+|poke|p1|Meowstic, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Ribombee, F|
+|poke|p2|Araquanid, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Moltres|
+|poke|p2|Pecharunt|
+|poke|p2|Iron Valiant|
+|poke|p2|Iron Treads|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Frostywingz)
+|
+|t:|1743919927
+|start
+|switch|p1a: Articuno|Articuno|100/100
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-ability|p1a: Articuno|Pressure
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743919945
+|move|p2a: Iron Valiant|Knock Off|p1a: Articuno
+|-damage|p1a: Articuno|63/100
+|-enditem|p1a: Articuno|Choice Specs|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Articuno|Hurricane|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743919958
+|switch|p2a: Moltres|Moltres|100/100
+|-ability|p2a: Moltres|Pressure
+|turn|2
+|
+|t:|1743919963
+|move|p2a: Moltres|Tailwind|p2a: Moltres
+|-sidestart|p2: Dinkbink|move: Tailwind
+|move|p1a: Articuno|U-turn|p2a: Moltres
+|-resisted|p2a: Moltres
+|-crit|p2a: Moltres
+|-damage|p2a: Moltres|95/100
+|
+|t:|1743919968
+|switch|p1a: Meowstic|Meowstic, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1743919985
+|move|p1a: Meowstic|Light Screen|p1a: Meowstic
+|-sidestart|p1: Frostywingz|move: Light Screen
+|move|p2a: Moltres|Air Slash|p1a: Meowstic
+|-damage|p1a: Meowstic|82/100
+|
+|upkeep
+|turn|4
+|inactive|Dinkbink has 120 seconds left.
+|
+|t:|1743920019
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|move|p1a: Meowstic|Reflect|p1a: Meowstic
+|-sidestart|p1: Frostywingz|Reflect
+|
+|upkeep
+|turn|5
+|inactive|Dinkbink has 120 seconds left.
+|
+|t:|1743920029
+|move|p1a: Meowstic|Thunder Wave|p2a: Dragapult
+|-status|p2a: Dragapult|par
+|cant|p2a: Dragapult|par
+|
+|-sideend|p2: Dinkbink|move: Tailwind
+|upkeep
+|turn|6
+|inactive|Dinkbink has 120 seconds left.
+|
+|t:|1743920036
+|switch|p1a: Cinccino|Cinccino, M|100/100
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force
+|
+|upkeep
+|turn|7
+|
+|t:|1743920042
+|move|p1a: Cinccino|Tidy Up|p1a: Cinccino
+|-boost|p1a: Cinccino|atk|1
+|-boost|p1a: Cinccino|spe|1
+|cant|p2a: Dragapult|par
+|
+|upkeep
+|turn|8
+|
+|t:|1743920049
+|move|p1a: Cinccino|Knock Off|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-enditem|p2a: Dragapult|Clear Amulet|[from] move: Knock Off|[of] p1a: Cinccino
+|faint|p2a: Dragapult
+|
+|upkeep
+|-message|Dinkbink forfeited.
+|
+|win|Frostywingz
+|raw|Frostywingz's rating: 1158 &rarr; <strong>1178</strong><br />(+20 for winning)
+|raw|Dinkbink's rating: 1093 &rarr; <strong>1073</strong><br />(-20 for losing)
+|l|☆Dinkbink
+|player|p2|
+|l|☆Frostywingz
+|player|p1|

@@ -1,0 +1,313 @@
+|j|☆Assumpcao_fs
+|j|☆TrainerDylan24
+|t:|1743801629
+|gametype|singles
+|player|p1|Assumpcao_fs|gentleman-gen4|1030
+|player|p2|TrainerDylan24|grimsley|1034
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Delphox, F|
+|poke|p1|Salamence, M|
+|poke|p1|Tsareena, F|
+|poke|p1|Clawitzer, F|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Regirock|
+|poke|p2|Gholdengo|
+|poke|p2|Great Tusk|
+|poke|p2|Zapdos|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Kingambit, F|
+|teampreview
+|
+|t:|1743801641
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|-item|p2a: Gholdengo|Air Balloon
+|turn|1
+|
+|t:|1743801650
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Assumpcao_fs|move: Aurora Veil
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743801658
+|move|p1a: Ninetales|Moonblast|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|81/100
+|-unboost|p2a: Gholdengo|spa|1
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743801667
+|switch|p1a: Delphox|Delphox, F, shiny|100/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Delphox
+|-resisted|p1a: Delphox
+|-damage|p1a: Delphox|57/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Delphox|63/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743801680
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Delphox|Flamethrower|p2a: Slowking
+|-damage|p2a: Slowking|60/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Delphox|69/100|[from] item: Leftovers
+|-heal|p2a: Slowking|66/100|[from] item: Black Sludge
+|upkeep
+|turn|5
+|
+|t:|1743801692
+|-terastallize|p1a: Delphox|Fairy
+|move|p1a: Delphox|Calm Mind|p1a: Delphox
+|-boost|p1a: Delphox|spa|1
+|-boost|p1a: Delphox|spd|1
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|
+|t:|1743801720
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Chilly Reception
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|
+|-weather|none
+|-heal|p1a: Delphox|75/100|[from] item: Leftovers
+|-sideend|p1: Assumpcao_fs|move: Aurora Veil
+|upkeep
+|turn|6
+|
+|t:|1743801736
+|-terastallize|p2a: Great Tusk|Ground
+|move|p2a: Great Tusk|Earthquake|p1a: Delphox
+|-damage|p1a: Delphox|0 fnt
+|faint|p1a: Delphox
+|
+|upkeep
+|
+|t:|1743801746
+|switch|p1a: Salamence|Salamence, M|100/100
+|turn|7
+|
+|t:|1743801771
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|100/100
+|move|p1a: Salamence|Dragon Dance|p1a: Salamence
+|-boost|p1a: Salamence|atk|1
+|-boost|p1a: Salamence|spe|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743801782
+|move|p1a: Salamence|Dragon Claw|p2a: Zapdos
+|-damage|p2a: Zapdos|10/100
+|-damage|p1a: Salamence|91/100|[from] item: Life Orb
+|move|p2a: Zapdos|Thunderbolt|p1a: Salamence
+|-damage|p1a: Salamence|33/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743801795
+|move|p1a: Salamence|Dragon Claw|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|-damage|p1a: Salamence|23/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743801801
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|10
+|
+|t:|1743801873
+|switch|p1a: Regirock|Regirock|100/100
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|upkeep
+|turn|11
+|
+|t:|1743801883
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Gholdengo|Gholdengo|81/100
+|move|p1a: Regirock|Earthquake|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|28/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743801890
+|move|p2a: Gholdengo|Make It Rain|p1a: Regirock
+|-supereffective|p1a: Regirock
+|-damage|p1a: Regirock|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Regirock
+|
+|upkeep
+|
+|t:|1743801918
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|13
+|
+|t:|1743801923
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Assumpcao_fs|move: Aurora Veil
+|move|p2a: Gholdengo|Make It Rain|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743801939
+|switch|p1a: Salamence|Salamence, M|23/100
+|turn|14
+|
+|t:|1743801947
+|move|p1a: Salamence|Dragon Claw|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|-ability|p1a: Salamence|Moxie|boost
+|-boost|p1a: Salamence|atk|1
+|-damage|p1a: Salamence|13/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743801973
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|15
+|
+|t:|1743802014
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|move|p2a: Kingambit|Sucker Punch||[still]
+|cant|p1a: Tsareena|ability: Queenly Majesty|Sucker Punch|[of] p2a: Kingambit
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743802020
+|move|p1a: Tsareena|High Jump Kick|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743802031
+|switch|p2a: Great Tusk|Great Tusk, tera:Ground|100/100
+|turn|17
+|
+|t:|1743802053
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Tsareena|Grass Knot|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|44/100
+|
+|-weather|none
+|-sideend|p1: Assumpcao_fs|move: Aurora Veil
+|upkeep
+|turn|18
+|
+|t:|1743802063
+|move|p2a: Great Tusk|Close Combat|p1a: Tsareena
+|-damage|p1a: Tsareena|2/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Tsareena|Grass Knot|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743802075
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|19
+|
+|t:|1743802096
+|move|p2a: Ogerpon|Trailblaze|p1a: Tsareena
+|-resisted|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|-boost|p2a: Ogerpon|spe|1
+|faint|p1a: Tsareena
+|
+|upkeep
+|
+|t:|1743802099
+|switch|p1a: Clawitzer|Clawitzer, F|100/100
+|turn|20
+|
+|t:|1743802107
+|move|p2a: Ogerpon|Horn Leech|p1a: Clawitzer
+|-supereffective|p1a: Clawitzer
+|-damage|p1a: Clawitzer|7/100
+|move|p1a: Clawitzer|Ice Beam|p2a: Ogerpon
+|-damage|p2a: Ogerpon|57/100
+|-damage|p1a: Clawitzer|0 fnt|[from] item: Life Orb
+|faint|p1a: Clawitzer
+|
+|upkeep
+|
+|t:|1743802116
+|switch|p1a: Salamence|Salamence, M|13/100
+|turn|21
+|
+|t:|1743802120
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Salamence|[anim] Ivy Cudgel Water
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|0 fnt
+|faint|p1a: Salamence
+|
+|win|TrainerDylan24
+|raw|Assumpcao_fs's rating: 1030 &rarr; <strong>1016</strong><br />(-14 for losing)
+|raw|TrainerDylan24's rating: 1034 &rarr; <strong>1068</strong><br />(+34 for winning)
+|l|☆Assumpcao_fs
+|player|p1|

@@ -1,0 +1,457 @@
+|j|☆Thibault56
+|j|☆vacheron
+|t:|1743786295
+|gametype|singles
+|player|p1|Thibault56|acetrainer|1836
+|player|p2|vacheron|170|1815
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Clodsire, M|
+|poke|p1|Incineroar, M|
+|poke|p1|Pelipper, M|
+|poke|p1|Barraskewda, F|
+|poke|p1|Zapdos|
+|poke|p1|Corviknight, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Pecharunt|
+|poke|p2|Reuniclus, F|
+|poke|p2|Darkrai|
+|poke|p2|Kingambit, F|
+|teampreview
+|j| Piplup Waltz
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Thibault56)
+|
+|t:|1743786333
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Valediction|Samurott-Hisui, F|100/100
+|turn|1
+|j| STKXY1
+|
+|t:|1743786345
+|move|p1a: Zapdos|Volt Switch|p2a: Valediction
+|-supereffective|p2a: Valediction
+|-damage|p2a: Valediction|1/100
+|
+|t:|1743786349
+|switch|p1a: Corviknight|Corviknight, F|100/100|[from] Volt Switch
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Valediction|Ceaseless Edge|p1a: Corviknight
+|-damage|p1a: Corviknight|73/100
+|-damage|p2a: Valediction|0 fnt|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p2a: Valediction
+|
+|upkeep
+|
+|t:|1743786353
+|switch|p2a: Scarlet Devil|Darkrai|100/100
+|turn|2
+|
+|t:|1743786356
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Scarlet Devil|atk|1
+|move|p2a: Scarlet Devil|Dark Pulse|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|82/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743786364
+|switch|p2a: Azathoth|Pecharunt|100/100
+|move|p1a: Incineroar|Knock Off|p2a: Azathoth
+|-supereffective|p2a: Azathoth
+|-damage|p2a: Azathoth|45/100
+|-enditem|p2a: Azathoth|Shuca Berry|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|turn|4
+|
+|t:|1743786372
+|move|p2a: Azathoth|Malignant Chain|p1a: Incineroar
+|-damage|p1a: Incineroar|57/100
+|-status|p1a: Incineroar|tox
+|-start|p1a: Incineroar|confusion|[from] ability: Poison Puppeteer|[of] p2a: Azathoth
+|-activate|p1a: Incineroar|confusion
+|move|p1a: Incineroar|Parting Shot|p2a: Azathoth
+|-unboost|p2a: Azathoth|atk|1
+|-unboost|p2a: Azathoth|spa|1
+|
+|t:|1743786386
+|switch|p1a: Barraskewda|Barraskewda, F|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|5
+|j| Le Bouquetin
+|
+|t:|1743786390
+|-terastallize|p1a: Barraskewda|Water
+|move|p1a: Barraskewda|Liquidation|p2a: Azathoth
+|-damage|p2a: Azathoth|0 fnt
+|faint|p2a: Azathoth
+|
+|upkeep
+|
+|t:|1743786398
+|switch|p2a: Murasama|Kingambit, F|100/100
+|-activate|p2a: Murasama|ability: Supreme Overlord
+|-start|p2a: Murasama|fallen2|[silent]
+|turn|6
+|
+|t:|1743786404
+|switch|p1a: Incineroar|Incineroar, M|57/100 tox
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Murasama|atk|1
+|-end|p2a: Murasama|fallen2|[silent]
+|switch|p2a: Mani Katti|Iron Valiant|100/100
+|-enditem|p2a: Mani Katti|Booster Energy
+|-activate|p2a: Mani Katti|ability: Quark Drive|[fromitem]
+|-start|p2a: Mani Katti|quarkdrivespa
+|
+|-damage|p1a: Incineroar|51/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743786410
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|move|p2a: Mani Katti|Calm Mind|p2a: Mani Katti
+|-boost|p2a: Mani Katti|spa|1
+|-boost|p2a: Mani Katti|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743786414
+|-end|p2a: Mani Katti|Quark Drive|[silent]
+|switch|p2a: Metastasis|Reuniclus, F|100/100
+|move|p1a: Clodsire|Gunk Shot|p2a: Metastasis
+|-damage|p2a: Metastasis|71/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743786421
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Metastasis|Trick Room|p2a: Metastasis
+|-fieldstart|move: Trick Room|[of] p2a: Metastasis
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743786437
+|move|p2a: Metastasis|Psychic Noise|p1a: Pelipper
+|-damage|p1a: Pelipper|33/100
+|-start|p1a: Pelipper|move: Heal Block
+|move|p1a: Pelipper|Weather Ball|p2a: Metastasis
+|-damage|p2a: Metastasis|13/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|j| NotoriousIG
+|
+|t:|1743786446
+|switch|p1a: Incineroar|Incineroar, M|51/100 tox
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Metastasis|atk|1
+|move|p2a: Metastasis|Focus Blast|p1a: Incineroar|[miss]
+|-miss|p2a: Metastasis|p1a: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Incineroar|45/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743786457
+|switch|p1a: Clodsire|Clodsire, M|100/100
+|move|p2a: Metastasis|Psychic Noise|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|48/100
+|-start|p1a: Clodsire|move: Heal Block
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|j| The Juggg
+|
+|t:|1743786463
+|move|p2a: Metastasis|Psychic Noise|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743786465
+|switch|p1a: Barraskewda|Barraskewda, F, tera:Water|100/100
+|turn|14
+|
+|t:|1743786473
+|move|p1a: Barraskewda|Liquidation|p2a: Metastasis
+|-damage|p2a: Metastasis|0 fnt
+|faint|p2a: Metastasis
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|j| union boss
+|
+|t:|1743786488
+|switch|p2a: Murasama|Kingambit, F|100/100
+|-activate|p2a: Murasama|ability: Supreme Overlord
+|-start|p2a: Murasama|fallen3|[silent]
+|turn|15
+|
+|t:|1743786491
+|-terastallize|p2a: Murasama|Dark
+|move|p2a: Murasama|Sucker Punch|p1a: Barraskewda
+|-damage|p1a: Barraskewda|0 fnt
+|faint|p1a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|j| LillieisLostAgain
+|
+|t:|1743786499
+|switch|p1a: Incineroar|Incineroar, M|45/100 tox
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Murasama|atk|1
+|turn|16
+|
+|t:|1743786505
+|-end|p2a: Murasama|fallen3|[silent]
+|switch|p2a: Scarlet Devil|Darkrai|100/100
+|move|p1a: Incineroar|Parting Shot|p2a: Scarlet Devil
+|-unboost|p2a: Scarlet Devil|atk|1
+|-unboost|p2a: Scarlet Devil|spa|1
+|
+|t:|1743786514
+|switch|p1a: Corviknight|Corviknight, F|73/100|[from] Parting Shot
+|-ability|p1a: Corviknight|Pressure
+|
+|-weather|none
+|upkeep
+|turn|17
+|
+|t:|1743786517
+|switch|p2a: Mani Katti|Iron Valiant|100/100
+|move|p1a: Corviknight|Body Press|p2a: Mani Katti
+|-resisted|p2a: Mani Katti
+|-damage|p2a: Mani Katti|84/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743786525
+|switch|p1a: Pelipper|Pelipper, M|33/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Mani Katti|Shadow Ball|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743786526
+|switch|p1a: Incineroar|Incineroar, M|45/100 tox
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Mani Katti|atk|1
+|turn|19
+|
+|t:|1743786531
+|switch|p1a: Corviknight|Corviknight, F|73/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Mani Katti|Moonblast|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|48/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1743786534
+|move|p2a: Mani Katti|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|19/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|69/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743786537
+|move|p2a: Mani Katti|Calm Mind|p2a: Mani Katti
+|-boost|p2a: Mani Katti|spa|1
+|-boost|p2a: Mani Katti|spd|1
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1743786539
+|move|p2a: Mani Katti|Shadow Ball|p1a: Corviknight
+|-damage|p1a: Corviknight|58/100
+|move|p1a: Corviknight|U-turn|p2a: Mani Katti
+|-resisted|p2a: Mani Katti
+|-damage|p2a: Mani Katti|79/100
+|
+|t:|1743786542
+|switch|p1a: Zapdos|Zapdos|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1743786544
+|move|p1a: Zapdos|Hurricane|p2a: Mani Katti
+|-supereffective|p2a: Mani Katti
+|-damage|p2a: Mani Katti|0 fnt
+|faint|p2a: Mani Katti
+|-end|p2a: Mani Katti|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743786549
+|switch|p2a: Scarlet Devil|Darkrai|100/100
+|turn|24
+|
+|t:|1743786553
+|move|p2a: Scarlet Devil|Ice Beam|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|23/100
+|move|p1a: Zapdos|Thunder|p2a: Scarlet Devil
+|-damage|p2a: Scarlet Devil|11/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1743786564
+|move|p2a: Scarlet Devil|Dark Pulse|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|-weather|none
+|upkeep
+|
+|t:|1743786568
+|switch|p1a: Corviknight|Corviknight, F|58/100
+|-ability|p1a: Corviknight|Pressure
+|turn|26
+|
+|t:|1743786570
+|move|p2a: Scarlet Devil|Dark Pulse|p1a: Corviknight
+|-damage|p1a: Corviknight|8/100
+|move|p1a: Corviknight|U-turn|p2a: Scarlet Devil
+|-supereffective|p2a: Scarlet Devil
+|-crit|p2a: Scarlet Devil
+|-damage|p2a: Scarlet Devil|0 fnt
+|faint|p2a: Scarlet Devil
+|
+|t:|1743786576
+|switch|p1a: Incineroar|Incineroar, M|45/100 tox|[from] U-turn
+|
+|-damage|p1a: Incineroar|39/100 tox|[from] psn
+|upkeep
+|
+|t:|1743786577
+|switch|p2a: Murasama|Kingambit, F, tera:Dark|100/100
+|-activate|p2a: Murasama|ability: Supreme Overlord
+|-start|p2a: Murasama|fallen5|[silent]
+|turn|27
+|
+|t:|1743786585
+|move|p1a: Incineroar|Will-O-Wisp|p2a: Murasama
+|-status|p2a: Murasama|brn
+|move|p2a: Murasama|Kowtow Cleave|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|15/100 tox
+|
+|-damage|p1a: Incineroar|3/100 tox|[from] psn
+|-damage|p2a: Murasama|94/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1743786591
+|move|p2a: Murasama|Sucker Punch|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-damage|p2a: Murasama|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1743786594
+|switch|p1a: Corviknight|Corviknight, F|8/100
+|-ability|p1a: Corviknight|Pressure
+|turn|29
+|
+|t:|1743786595
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|57/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Murasama|Kowtow Cleave|p1a: Corviknight
+|-damage|p1a: Corviknight|26/100
+|-damage|p2a: Murasama|72/100 brn|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|-damage|p2a: Murasama|65/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1743786601
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|76/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Murasama|Swords Dance|p2a: Murasama
+|-boost|p2a: Murasama|atk|2
+|
+|-damage|p2a: Murasama|59/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1743786621
+|move|p1a: Corviknight|Body Press|p2a: Murasama
+|-supereffective|p2a: Murasama
+|-damage|p2a: Murasama|24/100 brn
+|-enditem|p2a: Murasama|Weakness Policy
+|-boost|p2a: Murasama|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Murasama|spa|2|[from] item: Weakness Policy
+|move|p2a: Murasama|Kowtow Cleave|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|-damage|p2a: Murasama|7/100 brn|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|faint|p1a: Corviknight
+|
+|win|vacheron
+|raw|Thibault56's rating: 1836 &rarr; <strong>1815</strong><br />(-21 for losing)
+|raw|vacheron's rating: 1815 &rarr; <strong>1836</strong><br />(+21 for winning)
+|l|☆vacheron
+|player|p2|
+|c| NotoriousIG|OOOOOOOOOOO
+|l| LillieisLostAgain
+|l| STKXY1
+|c| NotoriousIG|well played
+|l|☆Thibault56
+|player|p1|
+|l| NotoriousIG
+|l| The Juggg

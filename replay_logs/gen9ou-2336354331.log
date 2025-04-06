@@ -1,0 +1,385 @@
+|j|☆Mood1e
+|j|☆Westblowfish
+|t:|1743906556
+|gametype|singles
+|player|p1|Mood1e|palmer|
+|player|p2|Westblowfish|265|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rillaboom, M|
+|poke|p1|Corviknight, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Mimikyu, M|
+|poke|p1|Gastrodon, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Basculegion-F, F|
+|poke|p2|Politoed, M|
+|poke|p2|Barraskewda, M|
+|poke|p2|Toxapex, F|
+|poke|p2|Raging Bolt|
+|teampreview
+|j| tasty toilet water
+|j| jumblemuffler
+|
+|t:|1743906717
+|start
+|switch|p1a: Brody|Corviknight, M, shiny|100/100
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|-ability|p1a: Brody|Pressure
+|turn|1
+|
+|t:|1743906821
+|move|p2a: Politoed|Encore||[still]
+|-fail|p2a: Politoed
+|move|p1a: Brody|Roost||[still]
+|-fail|p1a: Brody|heal
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|j| Bankai99
+|j| kthehighkid
+|
+|t:|1743906841
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Brody|Iron Defense|p1a: Brody
+|-boost|p1a: Brody|def|2
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1743906860
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Brody|Body Press|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|59/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743906971
+|switch|p1a: Pikachow|Mimikyu, M|100/100
+|move|p2a: Raging Bolt|Thunder|p1a: Pikachow
+|-activate|p1a: Pikachow|ability: Disguise
+|-damage|p1a: Pikachow|100/100
+|-status|p1a: Pikachow|par
+|detailschange|p1a: Pikachow|Mimikyu-Busted, M
+|-damage|p1a: Pikachow|88/100 par|[from] pokemon: Mimikyu-Busted
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|c| tasty toilet water|lmao
+|
+|t:|1743907017
+|move|p2a: Raging Bolt|Thunder|p1a: Pikachow
+|-damage|p1a: Pikachow|0 fnt
+|faint|p1a: Pikachow
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743907112
+|switch|p1a: Sped|Excadrill, M, shiny|100/100
+|-ability|p1a: Sped|Mold Breaker
+|turn|6
+|
+|t:|1743907123
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox
+|move|p1a: Sped|Swords Dance|p1a: Sped
+|-boost|p1a: Sped|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743907171
+|switch|p1a: Brody|Corviknight, M, shiny|100/100
+|-ability|p1a: Brody|Pressure
+|move|p2a: Gliscor|Earthquake|p1a: Brody
+|-immune|p1a: Brody
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743907185
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|move|p1a: Brody|Iron Defense|p1a: Brody
+|-boost|p1a: Brody|def|2
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743907234
+|switch|p1a: Bilo|Slowking-Galar, M, shiny|100/100
+|move|p2a: Basculegion|Shadow Ball|p1a: Bilo
+|-supereffective|p1a: Bilo
+|-damage|p1a: Bilo|52/100
+|-unboost|p1a: Bilo|spd|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743907267
+|switch|p1a: Sheldon|Rillaboom, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Sheldon
+|move|p2a: Basculegion|Shadow Ball|p1a: Sheldon
+|-damage|p1a: Sheldon|25/100
+|-unboost|p1a: Sheldon|spd|1
+|
+|-heal|p1a: Sheldon|31/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1743907319
+|switch|p2a: Gliscor|Gliscor, F|100/100 tox
+|move|p1a: Sheldon|Grassy Glide|p2a: Gliscor
+|-damage|p2a: Gliscor|56/100 tox
+|
+|-heal|p1a: Sheldon|37/100|[from] Grassy Terrain
+|-heal|p2a: Gliscor|69/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|t:|1743907457
+|switch|p1a: Brody|Corviknight, M, shiny|100/100
+|-ability|p1a: Brody|Pressure
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-heal|p2a: Gliscor|81/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|t:|1743907474
+|switch|p2a: Politoed|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|switch|p1a: Svetlana|Gastrodon, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743907489
+|move|p2a: Politoed|Whirlpool|p1a: Svetlana
+|-ability|p1a: Svetlana|Storm Drain|boost
+|-boost|p1a: Svetlana|spa|1
+|move|p1a: Svetlana|Stealth Rock|p2a: Politoed
+|-sidestart|p2: Westblowfish|move: Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1743907497
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Svetlana|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Svetlana|Ice Beam|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|88/100
+|-status|p2a: Politoed|frz
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Politoed|perish3
+|-start|p1a: Svetlana|perish3
+|upkeep
+|turn|16
+|
+|t:|1743907535
+|switch|p1a: Sheldon|Rillaboom, M, shiny|37/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Sheldon
+|cant|p2a: Politoed|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sheldon|43/100|[from] Grassy Terrain
+|-heal|p2a: Politoed|94/100 frz|[from] Grassy Terrain
+|-start|p2a: Politoed|perish2
+|upkeep
+|turn|17
+|
+|t:|1743907570
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|move|p1a: Sheldon|Wood Hammer|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|-damage|p1a: Sheldon|18/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sheldon|24/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743907590
+|switch|p2a: Basculegion|Basculegion-F, F|100/100
+|-damage|p2a: Basculegion|88/100|[from] Stealth Rock
+|turn|18
+|c| jumblemuffler|cuppa thinkers
+|c| jumblemuffler|giga close game...
+|
+|t:|1743907784
+|switch|p1a: Sped|Excadrill, M, shiny|100/100
+|-ability|p1a: Sped|Mold Breaker
+|move|p2a: Basculegion|Shadow Ball|p1a: Sped
+|-damage|p1a: Sped|32/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Basculegion|94/100|[from] Grassy Terrain
+|-heal|p1a: Sped|38/100|[from] Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1743907796
+|-terastallize|p1a: Sped|Dark
+|move|p2a: Basculegion|Shadow Ball|p1a: Sped
+|-resisted|p1a: Sped
+|-damage|p1a: Sped|3/100
+|move|p1a: Sped|Throat Chop|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|-damage|p1a: Sped|0 fnt|[from] item: Life Orb
+|faint|p1a: Sped
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c| jumblemuffler|keeping it so even
+|
+|t:|1743907856
+|switch|p1a: Bilo|Slowking-Galar, M, shiny|85/100
+|switch|p2a: Barraskewda|Barraskewda, M|100/100
+|-damage|p2a: Barraskewda|88/100|[from] Stealth Rock
+|turn|20
+|c| Bankai99|this is making me ahrd
+|c| Bankai99|hard*
+|
+|t:|1743907896
+|move|p2a: Barraskewda|Flip Turn|p1a: Bilo
+|-damage|p1a: Bilo|8/100
+|
+|t:|1743907905
+|switch|p2a: Politoed|Politoed, M|94/100 frz|[from] Flip Turn
+|-damage|p2a: Politoed|81/100 frz|[from] Stealth Rock
+|move|p1a: Bilo|Sludge Bomb|p2a: Politoed
+|-damage|p2a: Politoed|43/100 frz
+|
+|-weather|none
+|-heal|p2a: Politoed|49/100 frz|[from] Grassy Terrain
+|-heal|p1a: Bilo|14/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|21
+|c| jumblemuffler|ohhhhh myyyy gyattt
+|c| kthehighkid|moodles skibbing
+|
+|t:|1743907941
+|switch|p2a: Gliscor|Gliscor, F|81/100 tox
+|-damage|p2a: Gliscor|69/100 tox|[from] Stealth Rock
+|move|p1a: Bilo|Ice Beam|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1743907952
+|switch|p2a: Politoed|Politoed, M|49/100 frz
+|-damage|p2a: Politoed|37/100 frz|[from] Stealth Rock
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|22
+|
+|t:|1743907960
+|switch|p1a: Sheldon|Rillaboom, M, shiny|24/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Sheldon
+|cant|p2a: Politoed|frz
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sheldon|30/100|[from] Grassy Terrain
+|-heal|p2a: Politoed|43/100 frz|[from] Grassy Terrain
+|upkeep
+|turn|23
+|
+|t:|1743907970
+|move|p1a: Sheldon|Grassy Glide|p2a: Politoed
+|-supereffective|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sheldon|36/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743907977
+|switch|p2a: Barraskewda|Barraskewda, M|88/100
+|-damage|p2a: Barraskewda|76/100|[from] Stealth Rock
+|turn|24
+|c| Bankai99|horrrnnnyyy
+|
+|t:|1743907983
+|move|p1a: Sheldon|Grassy Glide|p2a: Barraskewda
+|-supereffective|p2a: Barraskewda
+|-damage|p2a: Barraskewda|0 fnt
+|faint|p2a: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sheldon|42/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743907992
+|switch|p2a: Raging Bolt|Raging Bolt|59/100
+|-damage|p2a: Raging Bolt|46/100|[from] Stealth Rock
+|turn|25
+|c| jumblemuffler|mogging spree.....
+|
+|t:|1743907997
+|move|p1a: Sheldon|Grassy Glide|p2a: Raging Bolt
+|-resisted|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|21/100
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Sheldon|48/100|[from] Grassy Terrain
+|-heal|p2a: Raging Bolt|27/100|[from] Grassy Terrain
+|upkeep
+|turn|26
+|
+|t:|1743908024
+|switch|p1a: Svetlana|Gastrodon, F|100/100
+|-terastallize|p2a: Raging Bolt|Electric
+|move|p2a: Raging Bolt|Thunder|p1a: Svetlana
+|-immune|p1a: Svetlana
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Raging Bolt|33/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|27
+|-message|Westblowfish forfeited.
+|
+|win|Mood1e
+|l|☆Westblowfish
+|player|p2|
+|c| tasty toilet water|gg

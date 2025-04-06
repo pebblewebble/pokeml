@@ -1,0 +1,217 @@
+|j|☆PalaBbbb
+|j|☆Sunym
+|t:|1743826856
+|gametype|singles
+|player|p1|PalaBbbb|jasmine|1367
+|player|p2|Sunym|nate|1282
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blissey, F|
+|poke|p1|Clefable, F|
+|poke|p1|Gliscor, F|
+|poke|p1|Ting-Lu|
+|poke|p1|Dondozo, F|
+|poke|p1|Amoonguss, F|
+|poke|p2|Araquanid, F|
+|poke|p2|Iron Treads|
+|poke|p2|Cinderace, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Pecharunt|
+|poke|p2|Dragonite, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sunym)
+|inactive|PalaBbbb also wants the timer to be on.
+|
+|t:|1743826866
+|start
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|1
+|
+|t:|1743826872
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Cinderace|Swords Dance|p2a: Cinderace
+|-boost|p2a: Cinderace|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1743826876
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|move|p2a: Cinderace|Gunk Shot|p1a: Dondozo
+|-damage|p1a: Dondozo|83/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743826883
+|move|p2a: Cinderace|Gunk Shot|p1a: Dondozo
+|-damage|p1a: Dondozo|67/100
+|move|p1a: Dondozo|Waterfall|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|15/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743826890
+|move|p2a: Cinderace|Gunk Shot|p1a: Dondozo
+|-damage|p1a: Dondozo|49/100
+|move|p1a: Dondozo|Waterfall|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1743826906
+|switch|p2a: Araquanid|Araquanid, F, shiny|100/100
+|turn|5
+|
+|t:|1743826911
+|move|p2a: Araquanid|Sticky Web|p1a: Dondozo
+|-sidestart|p1: PalaBbbb|move: Sticky Web
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|6
+|
+|t:|1743826914
+|move|p2a: Araquanid|Endeavor|p1a: Dondozo
+|-damage|p1a: Dondozo|68/100 slp
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Curse|p1a: Dondozo|[from] move: Sleep Talk
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|upkeep
+|turn|7
+|
+|t:|1743826918
+|move|p2a: Araquanid|Lunge|p1a: Dondozo
+|-damage|p1a: Dondozo|62/100 slp
+|-unboost|p1a: Dondozo|atk|1
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Curse|p1a: Dondozo|[from] move: Sleep Talk
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743826922
+|move|p2a: Araquanid|Lunge|p1a: Dondozo
+|-damage|p1a: Dondozo|57/100 slp
+|-unboost|p1a: Dondozo|atk|1
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|9
+|
+|t:|1743826938
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|move|p2a: Araquanid|Lunge|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|94/100
+|-unboost|p1a: Gliscor|atk|1
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|10
+|
+|t:|1743826943
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Araquanid|Liquidation|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|84/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743826953
+|move|p2a: Araquanid|Endeavor|p1a: Amoonguss
+|-damage|p1a: Amoonguss|79/100
+|move|p1a: Amoonguss|Toxic|p2a: Araquanid
+|-status|p2a: Araquanid|tox
+|
+|-damage|p2a: Araquanid|94/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743826966
+|switch|p1a: Gliscor|Gliscor, F|94/100 tox
+|move|p2a: Araquanid|Liquidation|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|40/100 tox
+|
+|-heal|p1a: Gliscor|52/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Araquanid|82/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1743826973
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Araquanid|Liquidation|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|65/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Araquanid|63/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743826975
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Araquanid|Liquidation|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|86/100
+|
+|-damage|p2a: Araquanid|39/100 tox|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743826981
+|move|p2a: Araquanid|Liquidation|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|72/100
+|move|p1a: Amoonguss|Synthesis|p1a: Amoonguss
+|-heal|p1a: Amoonguss|100/100
+|
+|-damage|p2a: Araquanid|8/100 tox|[from] psn
+|upkeep
+|turn|16
+|l|☆Sunym
+|inactive|Sunym disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|Sunym has 30 seconds to reconnect!
+|inactive|Sunym has 20 seconds to reconnect!
+|inactive|Sunym has 15 seconds to reconnect!
+|inactive|Sunym has 10 seconds to reconnect!
+|inactive|Sunym has 5 seconds to reconnect!
+|-message|Sunym lost due to inactivity.
+|
+|win|PalaBbbb
+|raw|PalaBbbb's rating: 1367 &rarr; <strong>1382</strong><br />(+15 for winning)
+|raw|Sunym's rating: 1282 &rarr; <strong>1263</strong><br />(-19 for losing)
+|l|☆PalaBbbb
+|player|p1|

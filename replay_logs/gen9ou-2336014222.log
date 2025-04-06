@@ -1,0 +1,354 @@
+|j|☆hentro faux
+|j|☆Ruby Xoxo
+|t:|1743870004
+|gametype|singles
+|player|p1|hentro faux|265|1592
+|player|p2|Ruby Xoxo|iris-gen5bw2|1610
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blissey, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Dondozo, F|
+|poke|p1|Cresselia, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Gliscor, M|
+|poke|p2|Rotom-Frost|
+|poke|p2|Pelipper, F|
+|poke|p2|Kingdra, F|
+|poke|p2|Overqwil, F|
+|poke|p2|Iron Treads|
+|poke|p2|Whiscash, F|
+|teampreview
+|
+|t:|1743870016
+|start
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|turn|1
+|
+|t:|1743870020
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Rotom|Blizzard|p1a: Blissey|[miss]
+|-miss|p2a: Rotom|p1a: Blissey
+|
+|upkeep
+|turn|2
+|
+|t:|1743870024
+|move|p2a: Rotom|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|91/100
+|
+|t:|1743870026
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] Volt Switch
+|move|p1a: Blissey|Stealth Rock|p2a: Iron Treads
+|-sidestart|p2: Ruby Xoxo|move: Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1743870029
+|switch|p1a: Cresselia|Cresselia, F, shiny|100/100
+|move|p2a: Iron Treads|Knock Off|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|68/100
+|-enditem|p1a: Cresselia|Covert Cloak|[from] move: Knock Off|[of] p2a: Iron Treads
+|
+|upkeep
+|turn|4
+|
+|t:|1743870032
+|move|p2a: Iron Treads|Rapid Spin|p1a: Cresselia
+|-damage|p1a: Cresselia|59/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: Ruby Xoxo|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Cresselia|Moonlight|p1a: Cresselia
+|-heal|p1a: Cresselia|100/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743870039
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Overqwil|Overqwil, F|100/100
+|-item|p2a: Overqwil|Air Balloon
+|move|p1a: Cresselia|Moonblast|p2a: Overqwil
+|-damage|p2a: Overqwil|73/100
+|-enditem|p2a: Overqwil|Air Balloon
+|
+|upkeep
+|turn|6
+|
+|t:|1743870052
+|switch|p2a: Whiscash|Whiscash, F|100/100
+|switch|p1a: Dondozo|Dondozo, F|100/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743870061
+|move|p2a: Whiscash|Spikes|p1a: Dondozo
+|-sidestart|p1: hentro faux|Spikes
+|move|p1a: Dondozo|Waterfall|p2a: Whiscash
+|-damage|p2a: Whiscash|82/100
+|-damage|p1a: Dondozo|84/100|[from] item: Rocky Helmet|[of] p2a: Whiscash
+|
+|upkeep
+|turn|8
+|
+|t:|1743870064
+|move|p2a: Whiscash|Spikes|p1a: Dondozo
+|-sidestart|p1: hentro faux|Spikes
+|move|p1a: Dondozo|Waterfall|p2a: Whiscash
+|-damage|p2a: Whiscash|63/100
+|-damage|p1a: Dondozo|67/100|[from] item: Rocky Helmet|[of] p2a: Whiscash
+|
+|upkeep
+|turn|9
+|
+|t:|1743870066
+|move|p2a: Whiscash|Earthquake|p1a: Dondozo
+|-damage|p1a: Dondozo|55/100
+|move|p1a: Dondozo|Waterfall|p2a: Whiscash
+|-damage|p2a: Whiscash|43/100
+|-damage|p1a: Dondozo|39/100|[from] item: Rocky Helmet|[of] p2a: Whiscash
+|
+|upkeep
+|turn|10
+|
+|t:|1743870080
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|11
+|
+|t:|1743870089
+|switch|p1a: Blissey|Blissey, F|91/100
+|move|p2a: Rotom|Rain Dance|p2a: Rotom
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743870093
+|move|p2a: Rotom|Volt Switch|p1a: Blissey
+|-damage|p1a: Blissey|81/100
+|
+|t:|1743870100
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] Volt Switch
+|move|p1a: Blissey|Seismic Toss|p2a: Iron Treads
+|-damage|p2a: Iron Treads|69/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743870107
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Overqwil|Overqwil, F|73/100
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|14
+|
+|t:|1743870113
+|-terastallize|p2a: Overqwil|Water
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Overqwil|Liquidation|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743870118
+|move|p2a: Overqwil|Liquidation|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-weather|none
+|upkeep
+|
+|t:|1743870121
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-damage|p1a: Raging Bolt|84/100|[from] Spikes
+|turn|16
+|
+|t:|1743870125
+|switch|p2a: Whiscash|Whiscash, F|43/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Whiscash
+|-damage|p2a: Whiscash|0 fnt
+|faint|p2a: Whiscash
+|
+|-heal|p1a: Raging Bolt|90/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743870128
+|switch|p2a: Rotom|Rotom-Frost|100/100
+|turn|17
+|
+|t:|1743870133
+|move|p2a: Rotom|Rain Dance|p2a: Rotom
+|-weather|RainDance
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Rotom
+|-damage|p2a: Rotom|43/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Raging Bolt|96/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743870138
+|move|p2a: Rotom|Volt Switch|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|92/100
+|
+|t:|1743870140
+|switch|p2a: Iron Treads|Iron Treads|69/100|[from] Volt Switch
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|45/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Raging Bolt|98/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743870145
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Cresselia|Cresselia, F, shiny|100/100
+|move|p2a: Iron Treads|Knock Off|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|81/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1743870148
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Overqwil|Overqwil, F, tera:Water|73/100
+|move|p1a: Cresselia|Moonblast|p2a: Overqwil
+|-damage|p2a: Overqwil|47/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1743870153
+|move|p2a: Overqwil|Crunch|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|37/100
+|move|p1a: Cresselia|Moonblast|p2a: Overqwil
+|-damage|p2a: Overqwil|20/100
+|
+|-weather|none
+|upkeep
+|turn|22
+|
+|t:|1743870161
+|-terastallize|p1a: Cresselia|Poison
+|move|p2a: Overqwil|Crunch|p1a: Cresselia
+|-damage|p1a: Cresselia|17/100
+|move|p1a: Cresselia|Moonlight|p1a: Cresselia
+|-heal|p1a: Cresselia|67/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743870165
+|move|p2a: Overqwil|Swords Dance|p2a: Overqwil
+|-boost|p2a: Overqwil|atk|2
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|
+|upkeep
+|turn|24
+|
+|t:|1743870170
+|move|p2a: Overqwil|Crunch|p1a: Cresselia
+|-damage|p1a: Cresselia|25/100
+|move|p1a: Cresselia|Moonblast|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|faint|p2a: Overqwil
+|
+|upkeep
+|
+|t:|1743870176
+|switch|p2a: Kingdra|Kingdra, F|100/100
+|turn|25
+|
+|t:|1743870178
+|move|p2a: Kingdra|Draco Meteor|p1a: Cresselia
+|-damage|p1a: Cresselia|0 fnt
+|-unboost|p2a: Kingdra|spa|2
+|faint|p1a: Cresselia
+|
+|upkeep
+|
+|t:|1743870184
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|turn|26
+|
+|t:|1743870188
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Kingdra|Draco Meteor|p1a: Cinderace
+|-damage|p1a: Cinderace|42/100
+|-unboost|p2a: Kingdra|spa|2
+|
+|upkeep
+|turn|27
+|
+|t:|1743870193
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Cinderace|High Jump Kick|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|84/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1743870201
+|move|p1a: Cinderace|Will-O-Wisp|p2a: Pelipper
+|-status|p2a: Pelipper|brn
+|move|p2a: Pelipper|Knock Off|p1a: Cinderace
+|-damage|p1a: Cinderace|34/100
+|-enditem|p1a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|78/100 brn|[from] brn
+|upkeep
+|turn|29
+|-message|Ruby Xoxo forfeited.
+|
+|win|hentro faux
+|raw|hentro faux's rating: 1592 &rarr; <strong>1613</strong><br />(+21 for winning)
+|raw|Ruby Xoxo's rating: 1610 &rarr; <strong>1589</strong><br />(-21 for losing)
+|l|☆hentro faux
+|player|p1|
+|l|☆Ruby Xoxo
+|player|p2|

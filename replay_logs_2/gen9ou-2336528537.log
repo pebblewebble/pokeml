@@ -1,0 +1,201 @@
+|j|☆ascet0
+|j|☆The hatefull 6
+|t:|1743933877
+|gametype|singles
+|player|p1|ascet0|170|1120
+|player|p2|The hatefull 6|gentleman|1120
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Serperior, F|
+|poke|p1|Skarmory, F|
+|poke|p1|Araquanid, F|
+|poke|p1|Sandslash, F|
+|poke|p1|Skeledirge, M|
+|poke|p1|Tyranitar, M|
+|poke|p2|Lokix, F|
+|poke|p2|Mimikyu, M|
+|poke|p2|Weezing-Galar, F|
+|poke|p2|Muk-Alola, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Salazzle, F|
+|teampreview
+|
+|t:|1743933923
+|start
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|1
+|
+|t:|1743933929
+|switch|p1a: Serperior|Serperior, F|100/100
+|move|p2a: Rotom|Thunder Wave|p1a: Serperior
+|-status|p1a: Serperior|par
+|
+|upkeep
+|turn|2
+|
+|t:|1743933936
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|move|p1a: Serperior|Coil|p1a: Serperior
+|-boost|p1a: Serperior|atk|1
+|-boost|p1a: Serperior|def|1
+|-boost|p1a: Serperior|accuracy|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743933944
+|-terastallize|p1a: Serperior|Ground
+|move|p2a: Salazzle|Encore|p1a: Serperior
+|-start|p1a: Serperior|Encore
+|move|p1a: Serperior|Coil|p1a: Serperior
+|-boost|p1a: Serperior|atk|1
+|-boost|p1a: Serperior|def|1
+|-boost|p1a: Serperior|accuracy|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743933954
+|move|p2a: Salazzle|Sludge Wave|p1a: Serperior
+|-resisted|p1a: Serperior
+|-damage|p1a: Serperior|74/100 par
+|move|p1a: Serperior|Coil|p1a: Serperior
+|-boost|p1a: Serperior|atk|1
+|-boost|p1a: Serperior|def|1
+|-boost|p1a: Serperior|accuracy|1
+|
+|-heal|p1a: Serperior|80/100 par|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743933964
+|move|p2a: Salazzle|Flamethrower|p1a: Serperior
+|-damage|p1a: Serperior|28/100 par
+|move|p1a: Serperior|Coil|p1a: Serperior
+|-boost|p1a: Serperior|atk|1
+|-boost|p1a: Serperior|def|1
+|-boost|p1a: Serperior|accuracy|1
+|
+|-heal|p1a: Serperior|34/100 par|[from] item: Leftovers
+|-end|p1a: Serperior|Encore
+|upkeep
+|turn|6
+|
+|t:|1743933974
+|move|p2a: Salazzle|Encore|p1a: Serperior
+|-start|p1a: Serperior|Encore
+|move|p1a: Serperior|Coil|p1a: Serperior
+|-boost|p1a: Serperior|atk|1
+|-boost|p1a: Serperior|def|1
+|-boost|p1a: Serperior|accuracy|1
+|
+|-heal|p1a: Serperior|40/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743933983
+|move|p2a: Salazzle|Flamethrower|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|
+|upkeep
+|
+|t:|1743933987
+|switch|p1a: Araquanid|Araquanid, F|100/100
+|turn|8
+|
+|t:|1743934000
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Araquanid|Liquidation|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|78/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743934009
+|switch|p1a: Sandslash|Sandslash, F|100/100
+|move|p2a: Rotom|Thunder Wave|p1a: Sandslash
+|-immune|p1a: Sandslash
+|
+|upkeep
+|turn|10
+|
+|t:|1743934015
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Rotom|Hydro Pump|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|72/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1743934026
+|move|p2a: Rotom|Will-O-Wisp|p1a: Tyranitar
+|-status|p1a: Tyranitar|brn
+|move|p1a: Tyranitar|Thunder Punch|p2a: Rotom
+|-damage|p2a: Rotom|60/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|53/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|66/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743934036
+|switch|p2a: Weezing|Weezing-Galar, F|100/100
+|move|p1a: Tyranitar|Knock Off|p2a: Weezing
+|-resisted|p2a: Weezing
+|-damage|p2a: Weezing|91/100
+|-damage|p1a: Tyranitar|49/100 brn|[from] item: Rocky Helmet|[of] p2a: Weezing
+|-enditem|p2a: Weezing|Rocky Helmet|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weezing|85/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|43/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743934048
+|switch|p1a: Sandslash|Sandslash, F|100/100
+|move|p2a: Weezing|Strange Steam|p1a: Sandslash
+|-damage|p1a: Sandslash|48/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Weezing|79/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1743934057
+|move|p1a: Sandslash|Stone Edge|p2a: Weezing
+|-damage|p2a: Weezing|58/100
+|move|p2a: Weezing|Strange Steam|p1a: Sandslash
+|-damage|p1a: Sandslash|0 fnt
+|faint|p1a: Sandslash
+|
+|-weather|none
+|upkeep
+|-message|ascet0 forfeited.
+|
+|win|The hatefull 6
+|raw|ascet0's rating: 1120 &rarr; <strong>1095</strong><br />(-25 for losing)
+|raw|The hatefull 6's rating: 1120 &rarr; <strong>1145</strong><br />(+25 for winning)
+|l|☆ascet0
+|player|p1|
+|l|☆The hatefull 6
+|player|p2|

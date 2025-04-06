@@ -1,0 +1,308 @@
+|j|☆pied nuque
+|j|☆Wrenellen
+|t:|1743839937
+|gametype|singles
+|player|p1|pied nuque|1|1499
+|player|p2|Wrenellen|grimsley|1494
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Moltres|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Dragapult, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Corviknight, F|
+|poke|p2|Garchomp, F|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Polteageist|
+|poke|p2|Ribombee, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Wrenellen)
+|
+|t:|1743839967
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Polteageist|Polteageist|100/100
+|turn|1
+|
+|t:|1743839983
+|move|p1a: Dragapult|U-turn|p2a: Polteageist
+|-resisted|p2a: Polteageist
+|-damage|p2a: Polteageist|91/100
+|
+|t:|1743839989
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100|[from] U-turn
+|move|p2a: Polteageist|Shadow Ball|p1a: Ogerpon
+|-damage|p1a: Ogerpon|61/100
+|-unboost|p1a: Ogerpon|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743839999
+|move|p1a: Ogerpon|Knock Off|p2a: Polteageist
+|-supereffective|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|-enditem|p2a: Polteageist|White Herb|[from] move: Knock Off|[of] p1a: Ogerpon
+|faint|p2a: Polteageist
+|
+|upkeep
+|
+|t:|1743840006
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|turn|3
+|
+|t:|1743840014
+|move|p1a: Ogerpon|U-turn|p2a: Ribombee
+|-resisted|p2a: Ribombee
+|-damage|p2a: Ribombee|85/100
+|-enditem|p2a: Ribombee|Kee Berry|[eat]
+|-boost|p2a: Ribombee|def|1|[from] item: Kee Berry
+|
+|t:|1743840022
+|switch|p1a: Moltres|Moltres|100/100|[from] U-turn
+|move|p2a: Ribombee|Quiver Dance|p2a: Ribombee
+|-boost|p2a: Ribombee|spa|1
+|-boost|p2a: Ribombee|spd|1
+|-boost|p2a: Ribombee|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743840029
+|move|p2a: Ribombee|Stored Power|p1a: Moltres
+|-damage|p1a: Moltres|70/100
+|move|p1a: Moltres|U-turn|p2a: Ribombee
+|-resisted|p2a: Ribombee
+|-damage|p2a: Ribombee|80/100
+|
+|t:|1743840041
+|switch|p1a: Zamazenta|Zamazenta|100/100|[from] U-turn
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|
+|upkeep
+|turn|5
+|
+|t:|1743840049
+|-terastallize|p1a: Zamazenta|Steel
+|move|p2a: Ribombee|Moonblast|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|78/100
+|-unboost|p1a: Zamazenta|spa|1
+|move|p1a: Zamazenta|Heavy Slam|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1743840054
+|switch|p2a: Garchomp|Garchomp, F|100/100
+|turn|6
+|
+|t:|1743840057
+|switch|p1a: Moltres|Moltres|70/100
+|move|p2a: Garchomp|Earth Power|p1a: Moltres
+|-immune|p1a: Moltres
+|
+|upkeep
+|turn|7
+|
+|t:|1743840062
+|move|p2a: Garchomp|Stealth Rock|p1a: Moltres
+|-sidestart|p1: pied nuque|move: Stealth Rock
+|move|p1a: Moltres|U-turn|p2a: Garchomp
+|-damage|p2a: Garchomp|87/100
+|-damage|p1a: Moltres|58/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|
+|t:|1743840065
+|switch|p1a: Corviknight|Corviknight, F|100/100|[from] U-turn
+|-damage|p1a: Corviknight|88/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|
+|-heal|p1a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743840071
+|move|p2a: Garchomp|Flamethrower|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|63/100
+|move|p1a: Corviknight|Defog|p2a: Garchomp
+|-unboost|p2a: Garchomp|evasion|1
+|-sideend|p1: pied nuque|Stealth Rock|[from] move: Defog|[of] p1a: Corviknight
+|
+|-heal|p1a: Corviknight|69/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743840075
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Garchomp|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: pied nuque|move: Stealth Rock
+|
+|upkeep
+|turn|10
+|
+|t:|1743840079
+|switch|p2a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Dragapult|Draco Meteor|p2a: Ninetales
+|-immune|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743840088
+|switch|p1a: Moltres|Moltres|58/100
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: Wrenellen|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743840097
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|-item|p2a: Excadrill|Air Balloon
+|move|p1a: Moltres|U-turn|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|96/100
+|-enditem|p2a: Excadrill|Air Balloon
+|
+|t:|1743840108
+|switch|p1a: Dragapult|Dragapult, F|100/100|[from] U-turn
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743840111
+|move|p1a: Dragapult|Flamethrower|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743840114
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|14
+|
+|t:|1743840125
+|switch|p1a: Moltres|Moltres|58/100
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|move|p2a: Ogerpon|Knock Off|p1a: Moltres
+|-damage|p1a: Moltres|31/100
+|-enditem|p1a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Ogerpon
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|t:|1743840134
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Moltres|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|
+|t:|1743840147
+|switch|p1a: Dragapult|Dragapult, F|88/100
+|-damage|p1a: Dragapult|76/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743840151
+|move|p1a: Dragapult|U-turn|p2a: Ogerpon
+|-damage|p2a: Ogerpon|79/100
+|
+|t:|1743840154
+|switch|p1a: Corviknight|Corviknight, F|69/100|[from] U-turn
+|-damage|p1a: Corviknight|57/100|[from] Stealth Rock
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Ogerpon|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|23/100
+|-enditem|p1a: Corviknight|Leftovers|[from] move: Knock Off|[of] p2a: Ogerpon
+|
+|upkeep
+|turn|17
+|
+|t:|1743840160
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Corviknight|[anim] Ivy Cudgel Water
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1743840164
+|switch|p1a: Dragapult|Dragapult, F|76/100
+|-damage|p1a: Dragapult|64/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1743840170
+|move|p1a: Dragapult|U-turn|p2a: Ogerpon
+|-damage|p2a: Ogerpon|55/100
+|
+|t:|1743840174
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|61/100|[from] U-turn
+|-damage|p1a: Ogerpon|48/100|[from] Stealth Rock
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Ogerpon|[anim] Ivy Cudgel Water
+|-heal|p1a: Ogerpon|73/100|[from] ability: Water Absorb|[of] p2a: Ogerpon
+|
+|-sideend|p2: Wrenellen|move: Aurora Veil
+|upkeep
+|turn|19
+|
+|t:|1743840183
+|move|p2a: Ogerpon|Power Whip|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743840190
+|switch|p1a: Zamazenta|Zamazenta, tera:Steel|78/100
+|-damage|p1a: Zamazenta|72/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743840205
+|switch|p2a: Garchomp|Garchomp, F|87/100
+|move|p1a: Zamazenta|Close Combat|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-unboost|p1a: Zamazenta|def|1
+|-unboost|p1a: Zamazenta|spd|1
+|-damage|p1a: Zamazenta|60/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|upkeep
+|-message|Wrenellen forfeited.
+|
+|win|pied nuque
+|raw|pied nuque's rating: 1499 &rarr; <strong>1519</strong><br />(+20 for winning)
+|raw|Wrenellen's rating: 1494 &rarr; <strong>1474</strong><br />(-20 for losing)
+|l|☆Wrenellen
+|player|p2|
+|l|☆pied nuque
+|player|p1|

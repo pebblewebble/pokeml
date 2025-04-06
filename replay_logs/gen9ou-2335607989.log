@@ -1,0 +1,377 @@
+|j|☆Liiiy
+|j|☆deli chees
+|t:|1743811775
+|gametype|singles
+|player|p1|Liiiy|101|1453
+|player|p2|deli chees|artist|1410
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Exeggutor-Alola, M|
+|poke|p1|Clefable, M|
+|poke|p1|Great Tusk|
+|poke|p1|Scizor, M|
+|poke|p1|Moltres|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Kingambit, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Pecharunt|
+|poke|p2|Hydreigon, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Liiiy)
+|
+|t:|1743811798
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|1
+|
+|t:|1743811805
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Scizor|Scizor, M|100/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Scizor
+|-immune|p1a: Scizor
+|
+|upkeep
+|turn|2
+|
+|t:|1743811815
+|move|p2a: Pecharunt|Parting Shot|p1a: Scizor
+|-unboost|p1a: Scizor|atk|1
+|-unboost|p1a: Scizor|spa|1
+|
+|t:|1743811817
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] Parting Shot
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Scizor|atk|1
+|move|p1a: Scizor|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|73/100
+|-damage|p1a: Scizor|84/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-enditem|p2a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p1a: Scizor
+|
+|upkeep
+|turn|3
+|
+|t:|1743811825
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Landorus|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: Liiiy|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1743811832
+|move|p2a: Landorus|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|94/100
+|-damage|p2a: Landorus|56/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|t:|1743811835
+|switch|p2a: Pecharunt|Pecharunt|100/100|[from] U-turn
+|move|p1a: Great Tusk|Earthquake|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|47/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743811844
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|97/100
+|move|p1a: Great Tusk|Knock Off|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|64/100
+|-enditem|p2a: Pecharunt|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|6
+|
+|t:|1743811851
+|move|p2a: Pecharunt|Malignant Chain|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|73/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Pecharunt
+|-immune|p2a: Pecharunt
+|
+|upkeep
+|turn|7
+|
+|t:|1743811856
+|move|p2a: Pecharunt|Parting Shot|p1a: Great Tusk
+|-unboost|p1a: Great Tusk|atk|1
+|-unboost|p1a: Great Tusk|spa|1
+|
+|t:|1743811858
+|switch|p2a: Landorus|Landorus-Therian, M|56/100|[from] Parting Shot
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Great Tusk|atk|1
+|move|p1a: Great Tusk|Rapid Spin|p2a: Landorus
+|-damage|p2a: Landorus|49/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: Liiiy|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|8
+|
+|t:|1743811873
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|switch|p2a: Pecharunt|Pecharunt|64/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743811879
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|100/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743811887
+|move|p1a: Ogerpon|Encore|p2a: Pecharunt
+|-start|p2a: Pecharunt|Encore
+|move|p2a: Pecharunt|Recover||[still]
+|-fail|p2a: Pecharunt|heal
+|
+|upkeep
+|turn|11
+|
+|t:|1743811892
+|switch|p2a: Landorus|Landorus-Therian, M|49/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ogerpon|atk|1
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|upkeep
+|turn|12
+|
+|t:|1743811903
+|move|p1a: Ogerpon|Trailblaze|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-boost|p1a: Ogerpon|spe|1
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743811906
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|13
+|
+|t:|1743811910
+|-terastallize|p1a: Ogerpon|Rock
+|detailschange|p1a: Ogerpon|Ogerpon-Cornerstone-Tera, F, tera:Rock
+|-ability|p1a: Ogerpon|Embody Aspect (Cornerstone)|boost
+|-boost|p1a: Ogerpon|def|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Pecharunt|[anim] Ivy Cudgel Rock
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|t:|1743811917
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|14
+|
+|t:|1743811923
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Zamazenta|[anim] Ivy Cudgel Rock
+|-resisted|p2a: Zamazenta
+|-damage|p2a: Zamazenta|43/100
+|move|p2a: Zamazenta|Close Combat|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743811935
+|switch|p1a: Raging Tree|Exeggutor-Alola, M|100/100
+|turn|15
+|
+|t:|1743811944
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|move|p1a: Raging Tree|Energy Ball|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-crit|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743811949
+|switch|p2a: Hydreigon|Hydreigon, F|100/100
+|turn|16
+|
+|t:|1743811962
+|switch|p1a: Clefable|Clefable, M|100/100
+|move|p2a: Hydreigon|Substitute|p2a: Hydreigon
+|-start|p2a: Hydreigon|Substitute
+|-damage|p2a: Hydreigon|76/100
+|
+|-heal|p2a: Hydreigon|82/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743811969
+|-terastallize|p2a: Hydreigon|Steel
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|move|p1a: Clefable|Moonblast|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-activate|p2a: Hydreigon|move: Substitute|[damage]
+|
+|-heal|p2a: Hydreigon|88/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743811979
+|move|p2a: Hydreigon|Flash Cannon|p1a: Clefable
+|-supereffective|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|-heal|p2a: Hydreigon|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743811983
+|switch|p1a: Moltres|Moltres|100/100
+|turn|19
+|
+|t:|1743811987
+|move|p2a: Hydreigon|Draco Meteor|p1a: Moltres
+|-damage|p1a: Moltres|14/100
+|-unboost|p2a: Hydreigon|spa|2
+|move|p1a: Moltres|Flamethrower|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-end|p2a: Hydreigon|Substitute
+|
+|-heal|p2a: Hydreigon|100/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743812001
+|move|p2a: Hydreigon|Flash Cannon|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|1/100
+|move|p1a: Moltres|Flamethrower|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|22/100
+|
+|-heal|p2a: Hydreigon|28/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743812013
+|switch|p1a: Scizor|Scizor, M|84/100
+|move|p2a: Hydreigon|Flash Cannon|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|58/100
+|
+|-heal|p2a: Hydreigon|35/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743812041
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|move|p1a: Scizor|Close Combat|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: Scizor|def|1
+|-unboost|p1a: Scizor|spd|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen3|[silent]
+|
+|upkeep
+|
+|t:|1743812045
+|switch|p2a: Zamazenta|Zamazenta|43/100
+|turn|23
+|
+|t:|1743812054
+|switch|p1a: Great Tusk|Great Tusk|73/100
+|move|p2a: Zamazenta|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|35/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|-damage|p2a: Zamazenta|26/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|24
+|
+|t:|1743812062
+|move|p2a: Zamazenta|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|-damage|p2a: Zamazenta|10/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743812067
+|switch|p1a: Scizor|Scizor, M|58/100
+|turn|25
+|
+|t:|1743812071
+|move|p1a: Scizor|Bullet Punch|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1743812072
+|switch|p2a: Hydreigon|Hydreigon, F, tera:Steel|35/100
+|turn|26
+|
+|t:|1743812076
+|move|p1a: Scizor|Bullet Punch|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|6/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Scizor
+|-resisted|p1a: Scizor
+|-damage|p1a: Scizor|16/100
+|-unboost|p2a: Hydreigon|spa|2
+|
+|-heal|p2a: Hydreigon|12/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1743812082
+|move|p1a: Scizor|Bullet Punch|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|win|Liiiy
+|raw|Liiiy's rating: 1453 &rarr; <strong>1471</strong><br />(+18 for winning)
+|raw|deli chees's rating: 1410 &rarr; <strong>1392</strong><br />(-18 for losing)
+|l|☆deli chees
+|player|p2|
+|l|☆Liiiy
+|player|p1|
+|j|☆Liiiy
+|player|p1|Liiiy|101|
+|l|☆Liiiy
+|player|p1|

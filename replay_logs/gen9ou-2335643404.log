@@ -1,0 +1,317 @@
+|j|☆dajiangbanlema
+|j|☆SushiSlice
+|t:|1743816086
+|gametype|singles
+|player|p1|dajiangbanlema|170|1640
+|player|p2|SushiSlice|dawn|1669
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, M|
+|poke|p1|Walking Wake|
+|poke|p1|Tornadus, M|
+|poke|p1|Great Tusk|
+|poke|p1|Cinderace, M|
+|poke|p1|Glimmora, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Gliscor, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Gholdengo|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|
+|t:|1743816093
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|1
+|
+|t:|1743816097
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|move|p2a: Zamazenta|Close Combat|p1a: Glimmora
+|-damage|p1a: Glimmora|40/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: SushiSlice|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1743816111
+|-terastallize|p1a: Glimmora|Fairy
+|move|p2a: Zamazenta|Light Screen|p2a: Zamazenta
+|-sidestart|p2: SushiSlice|move: Light Screen
+|move|p1a: Glimmora|Dazzling Gleam|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|50/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743816117
+|move|p2a: Zamazenta|Reflect|p2a: Zamazenta
+|-sidestart|p2: SushiSlice|Reflect
+|move|p1a: Glimmora|Dazzling Gleam|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1743816119
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|4
+|
+|t:|1743816122
+|move|p1a: Glimmora|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: SushiSlice|move: Stealth Rock
+|move|p2a: Gliscor|Agility|p2a: Gliscor
+|-boost|p2a: Gliscor|spe|2
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|t:|1743816129
+|switch|p1a: Tornadus|Tornadus, M|100/100
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|upkeep
+|turn|6
+|
+|t:|1743816134
+|move|p1a: Tornadus|Taunt|p2a: Gliscor
+|-start|p2a: Gliscor|move: Taunt
+|move|p2a: Gliscor|Dual Wingbeat|p1a: Tornadus
+|-damage|p1a: Tornadus|67/100
+|-damage|p1a: Tornadus|31/100
+|-hitcount|p1a: Tornadus|2
+|-enditem|p1a: Tornadus|Eject Button
+|
+|t:|1743816136
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743816139
+|switch|p1a: Tornadus|Tornadus, M|31/100
+|move|p2a: Gliscor|Earthquake|p1a: Tornadus
+|-immune|p1a: Tornadus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743816141
+|move|p1a: Tornadus|Tailwind|p1a: Tornadus
+|-sidestart|p1: dajiangbanlema|move: Tailwind
+|move|p2a: Gliscor|Dual Wingbeat|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|-hitcount|p1: Tornadus|1
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Gliscor|move: Taunt
+|upkeep
+|
+|t:|1743816144
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|9
+|
+|t:|1743816147
+|move|p1a: Cinderace|Pyro Ball|p2a: Gliscor|[miss]
+|-miss|p1a: Cinderace|p2a: Gliscor
+|move|p2a: Gliscor|Earthquake|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: SushiSlice|move: Light Screen
+|upkeep
+|
+|t:|1743816149
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|10
+|
+|t:|1743816158
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-status|p2a: Ogerpon|psn
+|-damage|p2a: Ogerpon|88/100 psn|[from] Stealth Rock
+|move|p1a: Walking Wake|Hydro Steam|p2a: Ogerpon
+|-heal|p2a: Ogerpon|100/100 psn|[from] ability: Water Absorb|[of] p1a: Walking Wake
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ogerpon|88/100 psn|[from] psn
+|-sideend|p2: SushiSlice|Reflect
+|upkeep
+|turn|11
+|
+|t:|1743816163
+|move|p1a: Walking Wake|Weather Ball|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: dajiangbanlema|move: Tailwind
+|upkeep
+|
+|t:|1743816177
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-status|p2a: Hatterene|psn
+|-damage|p2a: Hatterene|88/100 psn|[from] Stealth Rock
+|turn|12
+|
+|t:|1743816180
+|move|p1a: Walking Wake|Hydro Steam|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743816196
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743816199
+|move|p1a: Walking Wake|Weather Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|upkeep
+|
+|t:|1743816201
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|14
+|
+|t:|1743816205
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743816211
+|-end|p2a: Kingambit|fallen4|[silent]
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p1a: Ninetales|Encore||[still]
+|-fail|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|t:|1743816223
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|move|p2a: Gliscor|Earthquake|p1a: Walking Wake
+|-damage|p1a: Walking Wake|48/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743816239
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|move|p1a: Walking Wake|Hydro Steam|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen4|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743816241
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|turn|18
+|
+|t:|1743816245
+|-terastallize|p2a: Gliscor|Water
+|move|p1a: Walking Wake|Hydro Steam|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|23/100 tox
+|move|p2a: Gliscor|Agility|p2a: Gliscor
+|-boost|p2a: Gliscor|spe|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|35/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|
+|t:|1743816251
+|move|p2a: Gliscor|Earthquake|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|47/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743816254
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|20
+|
+|t:|1743816257
+|move|p2a: Gliscor|Dual Wingbeat|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|71/100
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|43/100
+|-hitcount|p1a: Great Tusk|2
+|move|p1a: Great Tusk|Headlong Rush|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Gliscor
+|-damage|p1a: Great Tusk|33/100|[from] item: Life Orb
+|
+|win|dajiangbanlema
+|raw|dajiangbanlema's rating: 1640 &rarr; <strong>1662</strong><br />(+22 for winning)
+|raw|SushiSlice's rating: 1669 &rarr; <strong>1647</strong><br />(-22 for losing)
+|l|☆SushiSlice
+|player|p2|
+|l|☆dajiangbanlema
+|player|p1|

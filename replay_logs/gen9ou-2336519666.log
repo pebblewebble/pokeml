@@ -1,0 +1,211 @@
+|j|☆OnigiriDesu
+|j|☆ArmandoJ
+|t:|1743932263
+|gametype|singles
+|player|p1|OnigiriDesu|hilbert|1078
+|player|p2|ArmandoJ|dancer|1123
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Skarmory, F|
+|poke|p1|Minior|
+|poke|p1|Electivire, M|
+|poke|p1|Blastoise, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Toxapex, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Malamar, F|
+|poke|p2|Serperior, F|
+|poke|p2|Enamorus, F|
+|poke|p2|Galvantula, F|
+|poke|p2|Haunter, M|
+|teampreview
+|
+|t:|1743932267
+|start
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|switch|p2a: Galvantula|Galvantula, F|100/100
+|turn|1
+|
+|t:|1743932273
+|move|p2a: Galvantula|Thunder Wave|p1a: Skarmory
+|-status|p1a: Skarmory|par
+|move|p1a: Skarmory|Stealth Rock|p2a: Galvantula
+|-sidestart|p2: ArmandoJ|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743932282
+|move|p2a: Galvantula|Sticky Web|p1a: Skarmory
+|-sidestart|p1: OnigiriDesu|move: Sticky Web
+|move|p1a: Skarmory|Iron Defense|p1a: Skarmory
+|-boost|p1a: Skarmory|def|2
+|
+|upkeep
+|turn|3
+|
+|t:|1743932288
+|move|p2a: Galvantula|Volt Switch|p1a: Skarmory
+|-supereffective|p1a: Skarmory
+|-damage|p1a: Skarmory|30/100 par
+|
+|t:|1743932291
+|switch|p2a: Haunter|Haunter, M|100/100|[from] Volt Switch
+|-damage|p2a: Haunter|88/100|[from] Stealth Rock
+|move|p1a: Skarmory|Iron Defense|p1a: Skarmory
+|-boost|p1a: Skarmory|def|2
+|
+|-heal|p2a: Haunter|94/100|[from] item: Black Sludge
+|upkeep
+|turn|4
+|
+|t:|1743932298
+|move|p2a: Haunter|Substitute|p2a: Haunter
+|-start|p2a: Haunter|Substitute
+|-damage|p2a: Haunter|69/100
+|move|p1a: Skarmory|Whirlwind|p2a: Haunter
+|drag|p2a: Serperior|Serperior, F|100/100
+|-damage|p2a: Serperior|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1743932310
+|move|p2a: Serperior|Leaf Storm|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|16/100 par
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Skarmory|Whirlwind|p2a: Serperior
+|drag|p2a: Haunter|Haunter, M|69/100
+|-damage|p2a: Haunter|57/100|[from] Stealth Rock
+|
+|-heal|p2a: Haunter|63/100|[from] item: Black Sludge
+|upkeep
+|turn|6
+|
+|t:|1743932321
+|move|p2a: Haunter|Shadow Ball|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|-heal|p2a: Haunter|69/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1743932328
+|switch|p1a: Minior|Minior|100/100
+|-formechange|p1a: Minior|Minior-Meteor||[from] ability: Shields Down
+|turn|7
+|
+|t:|1743932339
+|move|p2a: Haunter|Shadow Ball|p1a: Minior
+|-damage|p1a: Minior|52/100
+|-unboost|p1a: Minior|spd|1
+|-enditem|p1a: Minior|White Herb
+|-clearnegativeboost|p1a: Minior|[silent]
+|move|p1a: Minior|Shell Smash|p1a: Minior
+|-unboost|p1a: Minior|def|1
+|-unboost|p1a: Minior|spd|1
+|-boost|p1a: Minior|atk|2
+|-boost|p1a: Minior|spa|2
+|-boost|p1a: Minior|spe|2
+|
+|-heal|p2a: Haunter|75/100|[from] item: Black Sludge
+|upkeep
+|turn|8
+|
+|t:|1743932346
+|move|p1a: Minior|Acrobatics|p2a: Haunter
+|-damage|p2a: Haunter|0 fnt
+|faint|p2a: Haunter
+|
+|upkeep
+|
+|t:|1743932349
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|9
+|
+|t:|1743932352
+|move|p2a: Cinderace|Sucker Punch|p1a: Minior
+|-start|p2a: Cinderace|typechange|Dark|[from] ability: Libero
+|-damage|p1a: Minior|0 fnt
+|faint|p1a: Minior
+|
+|upkeep
+|
+|t:|1743932360
+|switch|p1a: Electivire|Electivire, M|100/100
+|-item|p1a: Electivire|Air Balloon
+|turn|10
+|
+|t:|1743932365
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Electivire|Bulk Up|p1a: Electivire
+|-boost|p1a: Electivire|atk|1
+|-boost|p1a: Electivire|def|1
+|
+|upkeep
+|turn|11
+|
+|t:|1743932369
+|move|p2a: Cinderace|U-turn|p1a: Electivire
+|-crit|p1a: Electivire
+|-damage|p1a: Electivire|46/100
+|-enditem|p1a: Electivire|Air Balloon
+|
+|t:|1743932374
+|switch|p2a: Serperior|Serperior, F|88/100|[from] U-turn
+|-activate|p2a: Serperior|move: Sticky Web
+|-boost|p2a: Serperior|spe|1
+|move|p1a: Electivire|Earthquake|p2a: Serperior
+|-resisted|p2a: Serperior
+|-damage|p2a: Serperior|52/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743932383
+|move|p2a: Serperior|Leaf Storm|p1a: Electivire
+|-damage|p1a: Electivire|0 fnt
+|-boost|p2a: Serperior|spa|2
+|faint|p1a: Electivire
+|
+|upkeep
+|
+|t:|1743932389
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743932397
+|-terastallize|p2a: Serperior|Poison
+|move|p2a: Serperior|Leaf Storm|p1a: Toxapex
+|-damage|p1a: Toxapex|9/100
+|-boost|p2a: Serperior|spa|2
+|move|p1a: Toxapex|Toxic|p2a: Serperior
+|-immune|p2a: Serperior
+|
+|-heal|p1a: Toxapex|15/100|[from] item: Black Sludge
+|upkeep
+|turn|14
+|-message|OnigiriDesu forfeited.
+|
+|win|ArmandoJ
+|raw|OnigiriDesu's rating: 1078 &rarr; <strong>1059</strong><br />(-19 for losing)
+|raw|ArmandoJ's rating: 1123 &rarr; <strong>1145</strong><br />(+22 for winning)
+|l|☆OnigiriDesu
+|player|p1|
+|l|☆ArmandoJ
+|player|p2|

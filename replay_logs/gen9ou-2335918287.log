@@ -1,0 +1,448 @@
+|j|☆Siisisihisia
+|j|☆chrisalynx
+|t:|1743858754
+|gametype|singles
+|player|p1|Siisisihisia|101|1337
+|player|p2|chrisalynx|101|1324
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Enamorus, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Weezing, M|
+|poke|p1|Gliscor, M|
+|poke|p1|Gengar, M|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Treads|
+|poke|p2|Zamazenta-*|
+|poke|p2|Dragonite, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Iron Valiant|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by chrisalynx)
+|c|☆chrisalynx|weezing
+|c|☆chrisalynx|for gliscor?
+|inactive|chrisalynx has 120 seconds left.
+|
+|t:|1743858788
+|start
+|switch|p1a: Weezing|Weezing, M|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1743858803
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|move|p2a: Iron Treads|Rapid Spin|p1a: Enamorus
+|-damage|p1a: Enamorus|71/100
+|-boost|p2a: Iron Treads|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743858813
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|move|p2a: Iron Treads|Knock Off|p1a: Excadrill
+|-damage|p1a: Excadrill|60/100
+|-enditem|p1a: Excadrill|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Iron Treads
+|
+|upkeep
+|turn|3
+|
+|t:|1743858827
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Iron Treads|Earthquake|p1a: Gliscor
+|-immune|p1a: Gliscor
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|t:|1743858833
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Iron Treads|Knock Off|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1743858842
+|move|p2a: Iron Treads|Stealth Rock|p1a: Gliscor
+|-sidestart|p1: Siisisihisia|move: Stealth Rock
+|move|p1a: Gliscor|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|41/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743858848
+|move|p2a: Iron Treads|Knock Off|p1a: Gliscor
+|-damage|p1a: Gliscor|77/100 tox
+|-enditem|p1a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Gliscor|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-heal|p1a: Gliscor|89/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743858858
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|turn|7
+|
+|t:|1743858862
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Meowscarada|Triple Axel|p1a: Gliscor
+|-start|p2a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1743858867
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|switch|p1a: Weezing|Weezing, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|
+|upkeep
+|turn|9
+|
+|t:|1743858879
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Weezing|Will-O-Wisp|p2a: Dragonite|[miss]
+|-miss|p1a: Weezing|p2a: Dragonite
+|
+|upkeep
+|turn|10
+|
+|t:|1743858893
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|move|p1a: Weezing|Will-O-Wisp|p2a: Iron Moth|[miss]
+|-miss|p1a: Weezing|p2a: Iron Moth
+|
+|upkeep
+|turn|11
+|c|☆chrisalynx|now *that* is scary
+|
+|t:|1743858901
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Iron Moth|Substitute|p2a: Iron Moth
+|-start|p2a: Iron Moth|Substitute
+|-damage|p2a: Iron Moth|76/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Moth|70/100|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1743858909
+|move|p2a: Iron Moth|Dazzling Gleam|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|59/100
+|move|p1a: Tyranitar|Roar|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|drag|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|94/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1743858921
+|switch|p1a: Gengar|Gengar, M|100/100
+|-damage|p1a: Gengar|88/100|[from] Stealth Rock
+|move|p2a: Iron Valiant|Close Combat|p1a: Gengar
+|-immune|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Iron Valiant|88/100|[from] Sandstorm
+|-damage|p1a: Gengar|82/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1743858928
+|move|p2a: Iron Valiant|Destiny Bond|p2a: Iron Valiant
+|-singlemove|p2a: Iron Valiant|Destiny Bond
+|move|p1a: Gengar|Sludge Wave|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-activate|p2a: Iron Valiant|move: Destiny Bond
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|faint|p1a: Gengar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743858948
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|switch|p1a: Excadrill|Excadrill, F|60/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|-damage|p1a: Excadrill|57/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743858958
+|switch|p1a: Weezing|Weezing, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|76/100
+|
+|-weather|none
+|-heal|p2a: Zamazenta|82/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743858967
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Weezing|Fire Blast|p2a: Zamazenta
+|-activate|p2a: Zamazenta|move: Substitute|[damage]
+|
+|-heal|p2a: Zamazenta|88/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743858980
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Weezing|Sludge Bomb|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|
+|-heal|p2a: Zamazenta|94/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743858989
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|69/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|
+|-heal|p2a: Zamazenta|75/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743858997
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|50/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|
+|-heal|p2a: Zamazenta|57/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743859005
+|-terastallize|p2a: Zamazenta|Steel
+|move|p2a: Zamazenta|Substitute|p2a: Zamazenta
+|-start|p2a: Zamazenta|Substitute
+|-damage|p2a: Zamazenta|32/100
+|move|p1a: Weezing|Sludge Bomb|p2a: Zamazenta
+|-immune|p2a: Zamazenta
+|
+|-heal|p2a: Zamazenta|38/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743859015
+|move|p2a: Zamazenta|Body Press|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|61/100
+|move|p1a: Weezing|Fire Blast|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-end|p2a: Zamazenta|Substitute
+|
+|-heal|p2a: Zamazenta|44/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743859025
+|move|p2a: Zamazenta|Body Press|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|21/100
+|move|p1a: Weezing|Fire Blast|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|3/100
+|
+|-heal|p2a: Zamazenta|9/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743859033
+|move|p2a: Zamazenta|Body Press|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|
+|-heal|p2a: Zamazenta|15/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743859035
+|switch|p1a: Enamorus|Enamorus, F|71/100
+|-damage|p1a: Enamorus|47/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1743859045
+|-terastallize|p1a: Enamorus|Stellar
+|move|p1a: Enamorus|Tera Blast|p2a: Zamazenta|[anim] Tera Blast Stellar
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|-boost|p1a: Enamorus|atk|1
+|-boost|p1a: Enamorus|spa|1
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1743859069
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|turn|25
+|
+|t:|1743859076
+|move|p2a: Meowscarada|Triple Axel|p1a: Enamorus
+|-start|p2a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|15/100
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|-hitcount|p1: Enamorus|2
+|
+|upkeep
+|
+|t:|1743859080
+|switch|p1a: Tyranitar|Tyranitar, M|59/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|26
+|
+|t:|1743859089
+|move|p2a: Meowscarada|Triple Axel|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|48/100
+|-damage|p1a: Tyranitar|33/100
+|-damage|p1a: Tyranitar|12/100
+|-hitcount|p1a: Tyranitar|3
+|move|p1a: Tyranitar|Knock Off|p2a: Meowscarada
+|-damage|p2a: Meowscarada|30/100
+|-enditem|p2a: Meowscarada|Choice Scarf|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Meowscarada|23/100|[from] Sandstorm
+|upkeep
+|turn|27
+|c|☆chrisalynx|oooooooooooo
+|c|☆chrisalynx|that works
+|
+|t:|1743859106
+|switch|p1a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p1a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p2a: Meowscarada|Flower Trick|p1a: Gliscor
+|-crit|p1a: Gliscor
+|-damage|p1a: Gliscor|63/100 tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Meowscarada|17/100|[from] Sandstorm
+|-heal|p1a: Gliscor|76/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|
+|t:|1743859117
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Meowscarada|Triple Axel|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Meowscarada|11/100|[from] Sandstorm
+|-heal|p1a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|29
+|
+|t:|1743859127
+|switch|p1a: Tyranitar|Tyranitar, M|12/100
+|move|p2a: Meowscarada|Triple Axel|p1a: Tyranitar
+|-damage|p1a: Tyranitar|5/100
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|-hitcount|p1: Tyranitar|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Meowscarada|5/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743859129
+|switch|p1a: Gliscor|Gliscor, M|88/100 tox
+|-damage|p1a: Gliscor|76/100 tox|[from] Stealth Rock
+|turn|30
+|
+|t:|1743859141
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Meowscarada|Triple Axel|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-weather|none
+|-heal|p1a: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|31
+|
+|t:|1743859146
+|move|p2a: Meowscarada|Triple Axel|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|56/100 tox
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|-hitcount|p1: Gliscor|2
+|
+|upkeep
+|
+|t:|1743859148
+|switch|p1a: Excadrill|Excadrill, F|57/100
+|-damage|p1a: Excadrill|54/100|[from] Stealth Rock
+|turn|32
+|-message|Siisisihisia forfeited.
+|
+|win|chrisalynx
+|raw|Siisisihisia's rating: 1337 &rarr; <strong>1316</strong><br />(-21 for losing)
+|raw|chrisalynx's rating: 1324 &rarr; <strong>1345</strong><br />(+21 for winning)
+|l|☆Siisisihisia
+|player|p1|
+|l|☆chrisalynx
+|player|p2|

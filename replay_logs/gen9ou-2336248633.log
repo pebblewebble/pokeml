@@ -1,0 +1,361 @@
+|j|☆vific
+|j|☆boltblazt
+|t:|1743894306
+|gametype|singles
+|player|p1|vific|clown|1281
+|player|p2|boltblazt|rosa|1340
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Mienshao, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Lapras, M|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Heatran, F|
+|poke|p1|Metagross|
+|poke|p2|Weavile, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Corviknight, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Iron Crown|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by vific)
+|
+|t:|1743894317
+|start
+|switch|p1a: Lapras|Lapras, M|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Lapras|atk|1
+|turn|1
+|
+|t:|1743894326
+|move|p2a: Landorus|U-turn|p1a: Lapras
+|-damage|p1a: Lapras|79/100
+|
+|t:|1743894333
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Lapras|Freeze-Dry|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|40/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743894343
+|move|p2a: Iron Valiant|Aura Sphere|p1a: Lapras
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|19/100
+|move|p1a: Lapras|Freeze-Dry|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743894361
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Lapras|atk|1
+|turn|3
+|
+|t:|1743894373
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|U-turn|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|92/100
+|-damage|p2a: Landorus|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|t:|1743894381
+|switch|p2a: Weavile|Weavile, M|100/100|[from] U-turn
+|-ability|p2a: Weavile|Pressure
+|
+|upkeep
+|turn|4
+|
+|t:|1743894390
+|switch|p1a: Mienshao|Mienshao, F|100/100
+|move|p2a: Weavile|Triple Axel|p1a: Mienshao|[miss]
+|-miss|p2a: Weavile|p1a: Mienshao
+|
+|upkeep
+|turn|5
+|
+|t:|1743894398
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespa
+|move|p1a: Mienshao|Close Combat|p2a: Iron Crown
+|-damage|p2a: Iron Crown|10/100
+|-unboost|p1a: Mienshao|def|1
+|-unboost|p1a: Mienshao|spd|1
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|t:|1743894405
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|move|p1a: Mienshao|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|74/100
+|-damage|p1a: Mienshao|74/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Mienshao
+|-damage|p1a: Mienshao|64/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|t:|1743894412
+|switch|p1a: Heatran|Heatran, F|100/100
+|-item|p1a: Heatran|Air Balloon
+|move|p2a: Corviknight|Brave Bird|p1a: Heatran
+|-resisted|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|76/100
+|-enditem|p1a: Heatran|Air Balloon
+|-damage|p2a: Corviknight|66/100|[from] Recoil
+|
+|upkeep
+|turn|8
+|
+|t:|1743894418
+|move|p1a: Heatran|Magma Storm|p2a: Corviknight|[miss]
+|-miss|p1a: Heatran|p2a: Corviknight
+|move|p2a: Corviknight|U-turn|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|73/100
+|
+|t:|1743894422
+|switch|p2a: Landorus|Landorus-Therian, M|84/100|[from] U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|
+|upkeep
+|turn|9
+|
+|t:|1743894430
+|switch|p1a: Landorus|Landorus-Therian, M|92/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Landorus|atk|1
+|move|p2a: Landorus|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|upkeep
+|turn|10
+|
+|t:|1743894440
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Landorus|Stealth Rock|p2a: Zamazenta
+|-sidestart|p2: boltblazt|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|t:|1743894468
+|move|p2a: Zamazenta|Stone Edge|p1a: Landorus
+|-damage|p1a: Landorus|47/100
+|-damage|p2a: Zamazenta|91/100|[from] item: Life Orb
+|move|p1a: Landorus|Earth Power|p2a: Zamazenta
+|-damage|p2a: Zamazenta|63/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743894476
+|move|p2a: Zamazenta|Stone Edge|p1a: Landorus
+|-damage|p1a: Landorus|4/100
+|-damage|p2a: Zamazenta|53/100|[from] item: Life Orb
+|move|p1a: Landorus|Earth Power|p2a: Zamazenta
+|-damage|p2a: Zamazenta|22/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743894482
+|switch|p1a: Mienshao|Mienshao, F|97/100
+|move|p2a: Zamazenta|Iron Head|p1a: Mienshao
+|-damage|p1a: Mienshao|29/100
+|-damage|p2a: Zamazenta|12/100|[from] item: Life Orb
+|
+|upkeep
+|turn|14
+|
+|t:|1743894489
+|move|p2a: Zamazenta|Iron Head|p1a: Mienshao
+|-damage|p1a: Mienshao|0 fnt
+|faint|p1a: Mienshao
+|-damage|p2a: Zamazenta|3/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743894492
+|switch|p1a: Lapras|Lapras, M|19/100
+|turn|15
+|
+|t:|1743894497
+|move|p1a: Lapras|Ice Shard|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1743894505
+|switch|p2a: Weavile|Weavile, M|100/100
+|-ability|p2a: Weavile|Pressure
+|turn|16
+|
+|t:|1743894514
+|switch|p1a: Landorus|Landorus-Therian, M|4/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Weavile|atk|1
+|move|p2a: Weavile|Knock Off|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Weavile|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|-enditem|p1a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p2a: Weavile
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743894522
+|switch|p1a: Heatran|Heatran, F|73/100
+|turn|17
+|
+|t:|1743894529
+|switch|p2a: Corviknight|Corviknight, M|66/100
+|-damage|p2a: Corviknight|53/100|[from] Stealth Rock
+|move|p1a: Heatran|Magma Storm|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1743894531
+|switch|p2a: Landorus|Landorus-Therian, M|84/100
+|-damage|p2a: Landorus|71/100|[from] Stealth Rock
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Heatran|atk|1
+|turn|18
+|
+|t:|1743894537
+|move|p2a: Landorus|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1743894540
+|switch|p1a: Lapras|Lapras, M|19/100
+|turn|19
+|
+|t:|1743894543
+|-terastallize|p2a: Landorus|Ice
+|move|p1a: Lapras|Ice Shard|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|64/100
+|move|p2a: Landorus|Earthquake|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|faint|p1a: Lapras
+|
+|upkeep
+|
+|t:|1743894557
+|switch|p1a: Metagross|Metagross|100/100
+|turn|20
+|
+|t:|1743894560
+|move|p2a: Landorus|Earthquake|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-enditem|p1a: Metagross|Shuca Berry|[eat]
+|-enditem|p1a: Metagross|Shuca Berry|[weaken]
+|-damage|p1a: Metagross|55/100
+|move|p1a: Metagross|Hammer Arm|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|-unboost|p1a: Metagross|spe|1
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743894567
+|switch|p2a: Weavile|Weavile, M|84/100
+|-ability|p2a: Weavile|Pressure
+|turn|21
+|
+|t:|1743894583
+|move|p1a: Metagross|Bullet Punch|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|1/100
+|move|p2a: Weavile|Knock Off|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|5/100
+|
+|upkeep
+|turn|22
+|
+|t:|1743894589
+|move|p2a: Weavile|Ice Shard|p1a: Metagross
+|-resisted|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|faint|p1a: Metagross
+|
+|upkeep
+|
+|t:|1743894591
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|turn|23
+|
+|t:|1743894600
+|-terastallize|p1a: Slowking|Normal
+|move|p2a: Weavile|Knock Off|p1a: Slowking
+|-damage|p1a: Slowking|49/100
+|-enditem|p1a: Slowking|Colbur Berry|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Slowking|Ice Beam|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|t:|1743894606
+|switch|p2a: Iron Crown|Iron Crown|10/100
+|-damage|p2a: Iron Crown|4/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1743894613
+|move|p2a: Iron Crown|Psychic|p1a: Slowking
+|-damage|p1a: Slowking|21/100
+|-unboost|p1a: Slowking|spd|1
+|move|p1a: Slowking|Ice Beam|p2a: Iron Crown
+|-resisted|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|win|vific
+|raw|vific's rating: 1251 &rarr; <strong>1282</strong><br />(+31 for winning)
+|raw|boltblazt's rating: 1340 &rarr; <strong>1315</strong><br />(-25 for losing)
+|l|☆boltblazt
+|player|p2|
+|l|☆vific
+|player|p1|

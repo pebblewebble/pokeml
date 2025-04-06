@@ -1,0 +1,349 @@
+|j|☆iamsogodley
+|j|☆Treewatching
+|t:|1743825335
+|gametype|singles
+|player|p1|iamsogodley|dahlia|1272
+|player|p2|Treewatching|will|1222
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Quaquaval, F|
+|poke|p1|Rillaboom, M|
+|poke|p1|Hawlucha, F|
+|poke|p1|Iron Treads|
+|poke|p1|Dragapult, F|
+|poke|p1|Raging Bolt|
+|poke|p2|Cinderace, M|
+|poke|p2|Pecharunt|
+|poke|p2|Dragapult, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Gliscor, M|
+|poke|p2|Samurott-Hisui, F|
+|teampreview
+|
+|t:|1743825346
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Treewatching)
+|
+|t:|1743825359
+|move|p1a: Iron Treads|Stealth Rock|p2a: Samurott
+|-sidestart|p2: Treewatching|move: Stealth Rock
+|move|p2a: Samurott|Aqua Cutter|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743825369
+|move|p2a: Samurott|Sucker Punch|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743825373
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|3
+|
+|t:|1743825378
+|move|p1a: Rillaboom|Grassy Glide|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-enditem|p2a: Samurott|Focus Sash
+|-damage|p2a: Samurott|1/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Rillaboom
+|-damage|p1a: Rillaboom|48/100
+|-sidestart|p1: iamsogodley|Spikes
+|
+|-heal|p1a: Rillaboom|54/100|[from] Grassy Terrain
+|-heal|p2a: Samurott|7/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1743825388
+|move|p2a: Samurott|Sucker Punch|p1a: Rillaboom
+|-damage|p1a: Rillaboom|18/100
+|move|p1a: Rillaboom|Grassy Glide|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-heal|p1a: Rillaboom|24/100|[from] Grassy Terrain
+|upkeep
+|inactive|Treewatching has 120 seconds left.
+|
+|t:|1743825414
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|5
+|
+|t:|1743825426
+|move|p1a: Rillaboom|Grassy Glide|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|62/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Dragapult|68/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743825433
+|switch|p1a: Hawlucha|Hawlucha, F, shiny|100/100
+|-enditem|p1a: Hawlucha|Grassy Seed
+|-boost|p1a: Hawlucha|def|1|[from] item: Grassy Seed
+|turn|6
+|
+|t:|1743825447
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Hawlucha|Acrobatics|p2a: Pecharunt
+|-damage|p2a: Pecharunt|72/100
+|
+|-heal|p2a: Pecharunt|78/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1743825455
+|move|p1a: Hawlucha|Swords Dance|p1a: Hawlucha
+|-boost|p1a: Hawlucha|atk|2
+|move|p2a: Pecharunt|Malignant Chain|p1a: Hawlucha
+|-damage|p1a: Hawlucha|55/100
+|-status|p1a: Hawlucha|tox
+|-start|p1a: Hawlucha|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|
+|-heal|p2a: Pecharunt|84/100|[from] Grassy Terrain
+|-damage|p1a: Hawlucha|49/100 tox|[from] psn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1743825468
+|-activate|p1a: Hawlucha|confusion
+|-damage|p1a: Hawlucha|27/100 tox|[from] confusion
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|100/100
+|
+|-damage|p1a: Hawlucha|15/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743825476
+|-end|p1a: Hawlucha|confusion
+|move|p1a: Hawlucha|Acrobatics|p2a: Pecharunt
+|-damage|p2a: Pecharunt|37/100
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|87/100
+|
+|-damage|p1a: Hawlucha|0 fnt|[from] psn
+|faint|p1a: Hawlucha
+|upkeep
+|
+|t:|1743825494
+|switch|p1a: Quaquaval|Quaquaval, F|100/100
+|-damage|p1a: Quaquaval|88/100|[from] Spikes
+|turn|10
+|
+|t:|1743825503
+|-terastallize|p1a: Quaquaval|Steel
+|move|p2a: Pecharunt|Malignant Chain|p1a: Quaquaval
+|-immune|p1a: Quaquaval
+|move|p1a: Quaquaval|Aqua Step|p2a: Pecharunt
+|-damage|p2a: Pecharunt|62/100
+|-boost|p1a: Quaquaval|spe|1
+|
+|upkeep
+|turn|11
+|inactive|Treewatching has 120 seconds left.
+|
+|t:|1743825538
+|move|p1a: Quaquaval|Aqua Step|p2a: Pecharunt
+|-damage|p2a: Pecharunt|38/100
+|-boost|p1a: Quaquaval|spe|1
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|88/100
+|
+|upkeep
+|turn|12
+|inactive|Treewatching has 120 seconds left.
+|
+|t:|1743825550
+|move|p1a: Quaquaval|Aqua Step|p2a: Pecharunt
+|-damage|p2a: Pecharunt|64/100
+|-boost|p1a: Quaquaval|spe|1
+|move|p2a: Pecharunt|Parting Shot|p1a: Quaquaval
+|-unboost|p1a: Quaquaval|atk|1
+|-unboost|p1a: Quaquaval|spa|1
+|
+|t:|1743825568
+|switch|p2a: Dragapult|Dragapult, F|68/100|[from] Parting Shot
+|
+|upkeep
+|turn|13
+|
+|t:|1743825574
+|move|p1a: Quaquaval|Triple Axel|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|54/100
+|-hitcount|p2a: Dragapult|1
+|move|p2a: Dragapult|Thunder Wave|p1a: Quaquaval
+|-status|p1a: Quaquaval|par
+|
+|upkeep
+|turn|14
+|inactive|Treewatching has 120 seconds left.
+|
+|t:|1743825597
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-damage|p2a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Quaquaval|Aqua Step|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|63/100
+|-boost|p1a: Quaquaval|spe|1
+|
+|-heal|p2a: Ting-Lu|69/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743825614
+|move|p1a: Quaquaval|Aqua Step|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|39/100
+|-boost|p1a: Quaquaval|spe|1
+|move|p2a: Ting-Lu|Whirlwind|p1a: Quaquaval
+|drag|p1a: Dragapult|Dragapult, F|100/100
+|
+|-heal|p2a: Ting-Lu|46/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743825633
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Ting-Lu
+|-status|p2a: Ting-Lu|brn
+|move|p2a: Ting-Lu|Ruination|p1a: Dragapult
+|-damage|p1a: Dragapult|51/100
+|
+|-heal|p2a: Ting-Lu|52/100 brn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|46/100 brn|[from] brn
+|upkeep
+|turn|17
+|inactive|Treewatching has 90 seconds left.
+|
+|t:|1743825659
+|move|p1a: Dragapult|Hex|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|35/100 brn
+|move|p2a: Ting-Lu|Spikes|p1a: Dragapult
+|-sidestart|p1: iamsogodley|Spikes
+|
+|-heal|p2a: Ting-Lu|41/100 brn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|35/100 brn|[from] brn
+|upkeep
+|turn|18
+|inactive|Treewatching has 90 seconds left.
+|
+|t:|1743825667
+|move|p1a: Dragapult|Hex|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|22/100 brn
+|move|p2a: Ting-Lu|Spikes|p1a: Dragapult
+|-sidestart|p1: iamsogodley|Spikes
+|
+|-heal|p2a: Ting-Lu|28/100 brn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|22/100 brn|[from] brn
+|upkeep
+|turn|19
+|inactive|Treewatching has 90 seconds left.
+|
+|t:|1743825688
+|move|p1a: Dragapult|Hex|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|9/100 brn
+|move|p2a: Ting-Lu|Ruination|p1a: Dragapult
+|-damage|p1a: Dragapult|26/100
+|
+|-heal|p2a: Ting-Lu|15/100 brn|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|9/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1743825700
+|move|p1a: Dragapult|Hex|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743825712
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|21
+|
+|t:|1743825720
+|move|p1a: Dragapult|Thunder Wave|p2a: Cinderace
+|-status|p2a: Cinderace|par
+|cant|p2a: Cinderace|par
+|
+|upkeep
+|turn|22
+|
+|t:|1743825730
+|move|p1a: Dragapult|Hex|p2a: Cinderace
+|-damage|p2a: Cinderace|18/100 par
+|cant|p2a: Cinderace|par
+|
+|upkeep
+|turn|23
+|
+|t:|1743825742
+|move|p1a: Dragapult|Hex|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|c|☆Treewatching|gdi
+|
+|t:|1743825748
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|-damage|p2a: Gliscor|88/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1743825755
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Gliscor
+|-status|p2a: Gliscor|brn
+|move|p2a: Gliscor|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Gliscor
+|faint|p1a: Dragapult
+|
+|-damage|p2a: Gliscor|82/100 brn|[from] brn
+|upkeep
+|c|☆Treewatching|whoops
+|c|☆Treewatching|gg
+|-message|Treewatching forfeited.
+|
+|win|iamsogodley
+|raw|iamsogodley's rating: 1272 &rarr; <strong>1293</strong><br />(+21 for winning)
+|raw|Treewatching's rating: 1222 &rarr; <strong>1201</strong><br />(-21 for losing)
+|l|☆Treewatching
+|player|p2|
+|l|☆iamsogodley
+|player|p1|

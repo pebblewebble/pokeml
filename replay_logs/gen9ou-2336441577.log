@@ -1,0 +1,332 @@
+|j|‽Skssn
+|j|☆chemnuoc
+|t:|1743918150
+|gametype|singles
+|player|p1|Skssn|n|1166
+|player|p2|chemnuoc|2|1244
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zamazenta-*|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Great Tusk|
+|poke|p1|Kingambit, M|
+|poke|p1|Zapdos|
+|poke|p2|Hawlucha, M|
+|poke|p2|Porygon-Z|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Iron Moth|
+|poke|p2|Hitmontop, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Skssn)
+|
+|t:|1743918169
+|start
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|switch|p2a: Hitmontop|Hitmontop, M, shiny|100/100
+|turn|1
+|
+|t:|1743918190
+|move|p2a: Hitmontop|Fake Out|p1a: Slowking
+|-damage|p1a: Slowking|81/100
+|cant|p1a: Slowking|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1743918208
+|switch|p1a: Zapdos|Zapdos|100/100
+|-terastallize|p2a: Hitmontop|Steel
+|move|p2a: Hitmontop|Bullet Punch|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|90/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743918217
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zapdos|atk|1
+|move|p1a: Zapdos|Hurricane|p2a: Landorus
+|-damage|p2a: Landorus|44/100
+|-start|p2a: Landorus|confusion
+|
+|upkeep
+|turn|4
+|
+|t:|1743918224
+|-activate|p2a: Landorus|confusion
+|move|p2a: Landorus|Stone Edge|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|35/100
+|move|p1a: Zapdos|Hurricane|p2a: Landorus|[miss]
+|-miss|p1a: Zapdos|p2a: Landorus
+|
+|upkeep
+|turn|5
+|
+|t:|1743918231
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-activate|p2a: Landorus|confusion
+|-damage|p2a: Landorus|27/100|[from] confusion
+|
+|upkeep
+|turn|6
+|
+|t:|1743918239
+|switch|p2a: Rillaboom|Rillaboom, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Rillaboom|[anim] Ivy Cudgel Water
+|-resisted|p2a: Rillaboom
+|-damage|p2a: Rillaboom|69/100
+|
+|-heal|p2a: Rillaboom|75/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1743918244
+|switch|p1a: Zapdos|Zapdos|35/100
+|move|p2a: Rillaboom|Knock Off|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|-status|p2a: Rillaboom|par|[from] ability: Static|[of] p1a: Zapdos
+|-enditem|p1a: Zapdos|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Rillaboom
+|faint|p1a: Zapdos
+|
+|-heal|p2a: Rillaboom|81/100 par|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743918250
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|8
+|
+|t:|1743918257
+|move|p1a: Ogerpon|U-turn|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|24/100 par
+|
+|t:|1743918270
+|switch|p1a: Zamazenta|Zamazenta|100/100|[from] U-turn
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Rillaboom|Knock Off|p1a: Zamazenta
+|-resisted|p1a: Zamazenta
+|-damage|p1a: Zamazenta|84/100
+|-enditem|p1a: Zamazenta|Expert Belt|[from] move: Knock Off|[of] p2a: Rillaboom
+|
+|-heal|p1a: Zamazenta|90/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|30/100 par|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1743918276
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|27/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Zamazenta|atk|1
+|move|p1a: Zamazenta|Ice Fang|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-heal|p1a: Zamazenta|96/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743918288
+|switch|p2a: Iron Moth|Iron Moth, shiny|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|10
+|
+|t:|1743918294
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Iron Moth|Psychic|p1a: Slowking
+|-damage|p1a: Slowking|84/100
+|
+|-heal|p1a: Slowking|90/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1743918305
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Hitmontop|Hitmontop, M, shiny, tera:Steel|100/100
+|move|p1a: Slowking|Psyshock|p2a: Hitmontop
+|-resisted|p2a: Hitmontop
+|-damage|p2a: Hitmontop|69/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743918310
+|move|p2a: Hitmontop|Fake Out|p1a: Slowking
+|-damage|p1a: Slowking|72/100
+|cant|p1a: Slowking|flinch
+|
+|upkeep
+|turn|13
+|
+|t:|1743918318
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Hitmontop|Triple Axel|p1a: Ogerpon
+|-damage|p1a: Ogerpon|88/100
+|-damage|p1a: Ogerpon|63/100
+|-damage|p1a: Ogerpon|25/100
+|-hitcount|p1a: Ogerpon|3
+|
+|upkeep
+|turn|14
+|
+|t:|1743918331
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Hitmontop|[anim] Ivy Cudgel Water
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|upkeep
+|
+|t:|1743918343
+|switch|p2a: Iron Moth|Iron Moth, shiny|100/100
+|turn|15
+|
+|t:|1743918346
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Iron Moth|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743918368
+|switch|p2a: Porygon-Z|Porygon-Z, shiny|100/100
+|turn|16
+|
+|t:|1743918378
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Porygon-Z|[anim] Ivy Cudgel Water
+|-damage|p2a: Porygon-Z|6/100
+|move|p2a: Porygon-Z|Tri Attack|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|c|☆chemnuoc|choice spec
+|
+|t:|1743918387
+|switch|p1a: Zamazenta|Zamazenta|96/100
+|turn|17
+|c|☆chemnuoc|so retar
+|
+|t:|1743918397
+|switch|p2a: Rillaboom|Rillaboom, F, shiny|30/100 par
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Zamazenta|Crunch|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Zamazenta|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743918399
+|switch|p2a: Hawlucha|Hawlucha, M, shiny|100/100
+|-enditem|p2a: Hawlucha|Grassy Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Grassy Seed
+|turn|18
+|
+|t:|1743918405
+|move|p2a: Hawlucha|Swords Dance|p2a: Hawlucha
+|-boost|p2a: Hawlucha|atk|2
+|move|p1a: Zamazenta|Ice Fang|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|59/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743918421
+|move|p2a: Hawlucha|Acrobatics|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1743918434
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|turn|20
+|
+|t:|1743918439
+|move|p2a: Hawlucha|Iron Head|p1a: Slowking
+|-damage|p1a: Slowking|49/100
+|cant|p1a: Slowking|flinch
+|
+|-heal|p1a: Slowking|55/100|[from] Grassy Terrain
+|upkeep
+|turn|21
+|
+|t:|1743918446
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|move|p2a: Hawlucha|Acrobatics|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1743918448
+|switch|p1a: Slowking|Slowking-Galar, M|88/100
+|turn|22
+|
+|t:|1743918458
+|move|p2a: Hawlucha|Iron Head|p1a: Slowking
+|-damage|p1a: Slowking|35/100
+|move|p1a: Slowking|Ice Beam|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|t:|1743918461
+|switch|p2a: Porygon-Z|Porygon-Z, shiny|6/100
+|turn|23
+|
+|t:|1743918466
+|move|p2a: Porygon-Z|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1743918468
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|24
+|
+|t:|1743918470
+|move|p1a: Kingambit|Sucker Punch|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|
+|win|Skssn
+|raw|Skssn's rating: 1166 &rarr; <strong>1197</strong><br />(+31 for winning)
+|raw|chemnuoc's rating: 1244 &rarr; <strong>1213</strong><br />(-31 for losing)
+|l|☆chemnuoc
+|player|p2|
+|l|‽Skssn
+|player|p1|

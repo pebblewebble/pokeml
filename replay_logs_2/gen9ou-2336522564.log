@@ -1,0 +1,348 @@
+|j|☆vapeaureon
+|j|☆Xenduuu
+|t:|1743932793
+|gametype|singles
+|player|p1|vapeaureon|winona|1116
+|player|p2|Xenduuu|cynthia-gen4|1132
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Bombirdier, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Whiscash, M|
+|poke|p1|Hitmontop, M|
+|poke|p1|Tinkaton, F|
+|poke|p1|Electrode-Hisui|
+|poke|p2|Torkoal, F|
+|poke|p2|Lilligant-Hisui, F|
+|poke|p2|Walking Wake|
+|poke|p2|Florges-White, F|
+|poke|p2|Typhlosion-Hisui, M|
+|poke|p2|Araquanid, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Xenduuu)
+|
+|t:|1743932812
+|start
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|switch|p2a: Araquanid|Araquanid, F, shiny|100/100
+|turn|1
+|
+|t:|1743932817
+|move|p1a: Electrode|Thunderbolt|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|61/100
+|move|p2a: Araquanid|Sticky Web|p1a: Electrode
+|-sidestart|p1: vapeaureon|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743932826
+|move|p1a: Electrode|Volt Switch|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|31/100
+|
+|t:|1743932831
+|switch|p1a: Hitmontop|Hitmontop, M|100/100|[from] Volt Switch
+|-activate|p1a: Hitmontop|move: Sticky Web
+|-unboost|p1a: Hitmontop|spe|1
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Araquanid|atk|1
+|move|p2a: Araquanid|Mirror Coat|p1a: Hitmontop
+|-damage|p1a: Hitmontop|33/100
+|
+|-heal|p1a: Hitmontop|40/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743932840
+|move|p1a: Hitmontop|Earthquake|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|20/100
+|move|p2a: Araquanid|Sticky Web||[still]
+|-fail|p2a: Araquanid
+|
+|-heal|p1a: Hitmontop|46/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|-enditem|p2a: Araquanid|Custap Berry|[eat]
+|-activate|p2a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1743932843
+|move|p2a: Araquanid|Sticky Web||[still]
+|-fail|p2a: Araquanid
+|move|p1a: Hitmontop|Rapid Spin|p2a: Araquanid
+|-damage|p2a: Araquanid|8/100
+|-boost|p1a: Hitmontop|spe|1
+|-sideend|p1: vapeaureon|Sticky Web|[from] move: Rapid Spin|[of] p1a: Hitmontop
+|
+|-heal|p1a: Hitmontop|52/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743932856
+|move|p1a: Hitmontop|Earthquake|p2a: Araquanid
+|-resisted|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|-heal|p1a: Hitmontop|58/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743932862
+|switch|p2a: Typhlosion|Typhlosion-Hisui, M, shiny|100/100
+|turn|6
+|
+|t:|1743932874
+|move|p2a: Typhlosion|Eruption|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|faint|p1a: Hitmontop
+|
+|upkeep
+|
+|t:|1743932881
+|switch|p1a: Bombirdier|Bombirdier, F|100/100
+|turn|7
+|
+|t:|1743932887
+|move|p1a: Bombirdier|Sucker Punch|p2a: Typhlosion
+|-supereffective|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|
+|upkeep
+|
+|t:|1743932892
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|8
+|
+|t:|1743932897
+|move|p1a: Bombirdier|Sucker Punch||[still]
+|-fail|p1a: Bombirdier
+|move|p2a: Torkoal|Will-O-Wisp|p1a: Bombirdier
+|-status|p1a: Bombirdier|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Bombirdier|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743932902
+|switch|p1a: Whiscash|Whiscash, M|100/100
+|move|p2a: Torkoal|Weather Ball|p1a: Whiscash
+|-resisted|p1a: Whiscash
+|-damage|p1a: Whiscash|77/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743932905
+|move|p1a: Whiscash|Whirlpool|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|89/100
+|-activate|p2a: Torkoal|move: Whirlpool|[of] p1a: Whiscash
+|move|p2a: Torkoal|Will-O-Wisp|p1a: Whiscash
+|-status|p1a: Whiscash|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Whiscash|71/100 brn|[from] brn
+|-damage|p2a: Torkoal|77/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|11
+|
+|t:|1743932911
+|move|p1a: Whiscash|Stealth Rock|p2a: Torkoal
+|-sidestart|p2: Xenduuu|move: Stealth Rock
+|move|p2a: Torkoal|Stealth Rock|p1a: Whiscash
+|-sidestart|p1: vapeaureon|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Whiscash|65/100 brn|[from] brn
+|-damage|p2a: Torkoal|64/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|t:|1743932914
+|move|p1a: Whiscash|Spikes|p2a: Torkoal
+|-sidestart|p2: Xenduuu|Spikes
+|move|p2a: Torkoal|Weather Ball|p1a: Whiscash
+|-resisted|p1a: Whiscash
+|-damage|p1a: Whiscash|40/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Whiscash|34/100 brn|[from] brn
+|-damage|p2a: Torkoal|52/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|13
+|
+|t:|1743932925
+|move|p1a: Whiscash|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|34/100
+|move|p2a: Torkoal|Rapid Spin|p1a: Whiscash
+|-damage|p1a: Whiscash|27/100 brn
+|-boost|p2a: Torkoal|spe|1
+|-sideend|p2: Xenduuu|Spikes|[from] move: Rapid Spin|[of] p2a: Torkoal
+|-sideend|p2: Xenduuu|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|-end|p2a: Torkoal|Whirlpool|[partiallytrapped]
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Whiscash|21/100 brn|[from] brn
+|upkeep
+|-enditem|p1a: Whiscash|Aguav Berry|[eat]
+|-heal|p1a: Whiscash|54/100 brn|[from] item: Aguav Berry
+|turn|14
+|
+|t:|1743932933
+|move|p1a: Whiscash|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|17/100
+|move|p2a: Torkoal|Weather Ball|p1a: Whiscash
+|-resisted|p1a: Whiscash
+|-damage|p1a: Whiscash|31/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Whiscash|25/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743932950
+|move|p1a: Whiscash|Earthquake|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|1/100
+|move|p2a: Torkoal|Rapid Spin|p1a: Whiscash
+|-damage|p1a: Whiscash|18/100 brn
+|-boost|p2a: Torkoal|spe|1
+|
+|-weather|none
+|-damage|p1a: Whiscash|12/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743932960
+|switch|p2a: Lilligant|Lilligant-Hisui, F|100/100
+|move|p1a: Whiscash|Stealth Rock|p2a: Lilligant
+|-sidestart|p2: Xenduuu|move: Stealth Rock
+|
+|-damage|p1a: Whiscash|6/100 brn|[from] brn
+|upkeep
+|turn|17
+|l|☆Xenduuu
+|inactive|Xenduuu disconnected and has a minute to reconnect!
+|player|p2|
+|
+|t:|1743932979
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-damage|p1a: Tinkaton|94/100|[from] Stealth Rock
+|-ability|p1a: Tinkaton|Mold Breaker
+|-item|p1a: Tinkaton|Air Balloon
+|move|p2a: Lilligant|Victory Dance|p2a: Lilligant
+|-boost|p2a: Lilligant|atk|1
+|-boost|p2a: Lilligant|def|1
+|-boost|p2a: Lilligant|spe|1
+|
+|upkeep
+|turn|18
+|j|☆Xenduuu
+|inactive|Xenduuu reconnected and has 145 seconds left.
+|player|p2|Xenduuu|cynthia-gen4|
+|
+|t:|1743933001
+|move|p2a: Lilligant|Close Combat|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|-unboost|p2a: Lilligant|def|1
+|-unboost|p2a: Lilligant|spd|1
+|-enditem|p1a: Tinkaton|Air Balloon
+|faint|p1a: Tinkaton
+|-damage|p2a: Lilligant|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743933012
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743933018
+|move|p2a: Lilligant|Ice Spinner|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-damage|p2a: Lilligant|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743933023
+|switch|p1a: Bombirdier|Bombirdier, F|94/100 brn
+|-damage|p1a: Bombirdier|70/100 brn|[from] Stealth Rock
+|turn|20
+|
+|t:|1743933029
+|move|p1a: Bombirdier|Sucker Punch|p2a: Lilligant
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|62/100
+|move|p2a: Lilligant|Close Combat|p1a: Bombirdier
+|-damage|p1a: Bombirdier|0 fnt
+|-unboost|p2a: Lilligant|def|1
+|-unboost|p2a: Lilligant|spd|1
+|faint|p1a: Bombirdier
+|-damage|p2a: Lilligant|52/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743933034
+|switch|p1a: Electrode|Electrode-Hisui|100/100
+|-damage|p1a: Electrode|88/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1743933039
+|-terastallize|p1a: Electrode|Electric
+|move|p2a: Lilligant|Ice Spinner|p1a: Electrode
+|-damage|p1a: Electrode|10/100
+|-damage|p2a: Lilligant|42/100|[from] item: Life Orb
+|move|p1a: Electrode|Thunderbolt|p2a: Lilligant
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|
+|upkeep
+|
+|t:|1743933044
+|switch|p2a: Florges|Florges-White, F, shiny|100/100
+|-damage|p2a: Florges|88/100|[from] Stealth Rock
+|turn|22
+|
+|t:|1743933049
+|move|p1a: Electrode|Leech Seed|p2a: Florges
+|-start|p2a: Florges|move: Leech Seed
+|move|p2a: Florges|Moonblast|p1a: Electrode
+|-damage|p1a: Electrode|0 fnt
+|faint|p1a: Electrode
+|
+|upkeep
+|
+|t:|1743933052
+|switch|p1a: Whiscash|Whiscash, M|6/100 brn
+|-damage|p1a: Whiscash|0 fnt|[from] Stealth Rock
+|faint|p1a: Whiscash
+|
+|win|Xenduuu
+|raw|vapeaureon's rating: 1116 &rarr; <strong>1092</strong><br />(-24 for losing)
+|raw|Xenduuu's rating: 1132 &rarr; <strong>1156</strong><br />(+24 for winning)
+|l|☆vapeaureon
+|player|p1|
+|l|☆Xenduuu
+|player|p2|

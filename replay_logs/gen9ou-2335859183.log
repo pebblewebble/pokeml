@@ -1,0 +1,262 @@
+|j|☆pellagius the wise
+|j|☆semirammis
+|t:|1743849496
+|gametype|singles
+|player|p1|pellagius the wise|ghetsis|1155
+|player|p2|semirammis|shadowtriad|1107
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Weavile, M|
+|poke|p1|Quaquaval, M|
+|poke|p1|Ribombee, M|
+|poke|p1|Dragalge, M|
+|poke|p1|Corviknight, M|
+|poke|p2|Glimmora, F|
+|poke|p2|Meowscarada, M|
+|poke|p2|Iron Moth|
+|poke|p2|Forretress, F|
+|poke|p2|Garganacl, F|
+|poke|p2|Drednaw, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by semirammis)
+|
+|t:|1743849511
+|start
+|switch|p1a: Quaquaval|Quaquaval, M, shiny|100/100
+|switch|p2a: Forretress|Forretress, F|100/100
+|turn|1
+|
+|t:|1743849524
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|-item|p2a: Forretress|Custap Berry|[from] ability: Frisk|[of] p1a: Typhlosion
+|move|p2a: Forretress|Rapid Spin|p1a: Typhlosion
+|-immune|p1a: Typhlosion
+|
+|upkeep
+|turn|2
+|
+|t:|1743849535
+|switch|p2a: Garganacl|Garganacl, F, shiny|100/100
+|move|p1a: Typhlosion|Eruption|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|61/100
+|
+|-heal|p2a: Garganacl|67/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743849546
+|switch|p1a: Quaquaval|Quaquaval, M, shiny|100/100
+|move|p2a: Garganacl|Salt Cure|p1a: Quaquaval
+|-resisted|p1a: Quaquaval
+|-damage|p1a: Quaquaval|92/100
+|
+|-heal|p2a: Garganacl|74/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743849559
+|-terastallize|p2a: Garganacl|Ghost
+|move|p1a: Quaquaval|Close Combat|p2a: Garganacl
+|-immune|p2a: Garganacl
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|-heal|p2a: Garganacl|80/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743849572
+|move|p1a: Quaquaval|Aqua Step|p2a: Garganacl
+|-damage|p2a: Garganacl|71/100
+|-boost|p1a: Quaquaval|spe|1
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|-heal|p2a: Garganacl|77/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743849584
+|switch|p1a: Typhlosion|Typhlosion-Hisui, M|100/100
+|-item|p2a: Garganacl|Leftovers|[from] ability: Frisk|[of] p1a: Typhlosion
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|-heal|p2a: Garganacl|83/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743849593
+|move|p1a: Typhlosion|Shadow Ball|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|42/100
+|-unboost|p2a: Garganacl|spd|1
+|move|p2a: Garganacl|Salt Cure|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|62/100
+|-start|p1a: Typhlosion|Salt Cure
+|
+|-heal|p2a: Garganacl|49/100|[from] item: Leftovers
+|-damage|p1a: Typhlosion|50/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1743849606
+|-terastallize|p1a: Typhlosion|Ghost
+|move|p1a: Typhlosion|Shadow Ball|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-damage|p1a: Typhlosion|37/100|[from] Salt Cure
+|upkeep
+|
+|t:|1743849619
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|9
+|
+|t:|1743849626
+|switch|p1a: Dragalge|Dragalge, M|100/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|88/100
+|
+|-heal|p1a: Dragalge|94/100|[from] item: Black Sludge
+|upkeep
+|turn|10
+|
+|t:|1743849636
+|move|p2a: Iron Moth|Fiery Dance|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|82/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Dragalge|Sludge Wave|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|79/100
+|
+|-heal|p1a: Dragalge|88/100|[from] item: Black Sludge
+|upkeep
+|turn|11
+|
+|t:|1743849648
+|move|p2a: Iron Moth|Fiery Dance|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|67/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Dragalge|Sludge Wave|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|56/100
+|
+|-heal|p1a: Dragalge|73/100|[from] item: Black Sludge
+|upkeep
+|turn|12
+|
+|t:|1743849658
+|move|p2a: Iron Moth|Fiery Dance|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|47/100
+|move|p1a: Dragalge|Sludge Wave|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|38/100
+|
+|-heal|p1a: Dragalge|53/100|[from] item: Black Sludge
+|upkeep
+|turn|13
+|
+|t:|1743849675
+|move|p2a: Iron Moth|Fiery Dance|p1a: Dragalge
+|-resisted|p1a: Dragalge
+|-damage|p1a: Dragalge|26/100
+|move|p1a: Dragalge|Draco Meteor|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|-unboost|p1a: Dragalge|spa|2
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p1a: Dragalge|32/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1743849687
+|switch|p2a: Drednaw|Drednaw, F|100/100
+|turn|14
+|
+|t:|1743849697
+|switch|p1a: Corviknight|Corviknight, M, shiny|100/100
+|move|p2a: Drednaw|Shell Smash|p2a: Drednaw
+|-unboost|p2a: Drednaw|def|1
+|-unboost|p2a: Drednaw|spd|1
+|-boost|p2a: Drednaw|atk|2
+|-boost|p2a: Drednaw|spa|2
+|-boost|p2a: Drednaw|spe|2
+|
+|upkeep
+|turn|15
+|
+|t:|1743849706
+|move|p2a: Drednaw|Super Fang|p1a: Corviknight
+|-damage|p1a: Corviknight|50/100
+|-damage|p2a: Drednaw|84/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|upkeep
+|turn|16
+|
+|t:|1743849714
+|move|p2a: Drednaw|Super Fang|p1a: Corviknight
+|-damage|p1a: Corviknight|25/100
+|-damage|p2a: Drednaw|68/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|75/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|upkeep
+|turn|17
+|
+|t:|1743849725
+|move|p2a: Drednaw|Crunch|p1a: Corviknight
+|-damage|p1a: Corviknight|43/100
+|-damage|p2a: Drednaw|51/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|move|p1a: Corviknight|Iron Defense|p1a: Corviknight
+|-boost|p1a: Corviknight|def|2
+|
+|upkeep
+|turn|18
+|l|☆semirammis
+|inactive|semirammis disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|semirammis has 30 seconds to reconnect!
+|inactive|semirammis has 20 seconds to reconnect!
+|j|☆semirammis
+|inactive|semirammis reconnected and has 95 seconds left.
+|player|p2|semirammis|shadowtriad|
+|inactive|semirammis has 90 seconds left.
+|inactive|semirammis has 60 seconds left.
+|inactive|semirammis has 30 seconds left.
+|inactive|semirammis has 20 seconds left.
+|inactive|semirammis has 15 seconds left.
+|inactive|semirammis has 10 seconds left.
+|inactive|semirammis has 5 seconds left.
+|-message|semirammis lost due to inactivity.
+|
+|win|pellagius the wise
+|raw|pellagius the wise's rating: 1155 &rarr; <strong>1177</strong><br />(+22 for winning)
+|raw|semirammis's rating: 1107 &rarr; <strong>1085</strong><br />(-22 for losing)
+|l|☆pellagius the wise
+|player|p1|

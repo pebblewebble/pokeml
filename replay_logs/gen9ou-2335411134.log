@@ -1,0 +1,268 @@
+|j|☆wawawawllaam
+|j|☆MiguelCRAKMANN
+|t:|1743791925
+|gametype|singles
+|player|p1|wawawawllaam|dragontamer|1053
+|player|p2|MiguelCRAKMANN|265|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Leaves|
+|poke|p1|Mienshao, M|
+|poke|p1|Entei|
+|poke|p1|Garchomp, F|
+|poke|p1|Moltres-Galar|
+|poke|p1|Inteleon, M|
+|poke|p2|Dondozo, M|
+|poke|p2|Glimmora, F|
+|poke|p2|Alomomola, M|
+|poke|p2|Blissey, F|
+|poke|p2|Cetitan, M|
+|poke|p2|Regidrago|
+|teampreview
+|
+|t:|1743791934
+|start
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|-item|p2a: Glimmora|Air Balloon
+|turn|1
+|
+|t:|1743791944
+|move|p1a: Mienshao|Taunt|p2a: Glimmora
+|-start|p2a: Glimmora|move: Taunt
+|cant|p2a: Glimmora|move: Taunt|Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1743791952
+|switch|p1a: Inteleon|Inteleon, M|100/100
+|move|p2a: Glimmora|Power Gem|p1a: Inteleon
+|-damage|p1a: Inteleon|39/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743791959
+|-terastallize|p1a: Inteleon|Water
+|move|p1a: Inteleon|Snipe Shot|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|14/100
+|-enditem|p2a: Glimmora|Air Balloon
+|move|p2a: Glimmora|Power Gem|p1a: Inteleon
+|-damage|p1a: Inteleon|0 fnt
+|faint|p1a: Inteleon
+|
+|-end|p2a: Glimmora|move: Taunt
+|upkeep
+|
+|t:|1743791971
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|turn|4
+|
+|t:|1743791976
+|move|p1a: Mienshao|U-turn|p2a: Glimmora
+|-resisted|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|
+|t:|1743791985
+|switch|p1a: Moltres|Moltres-Galar|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743791994
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|turn|5
+|
+|t:|1743792002
+|move|p1a: Moltres|Fiery Wrath|p2a: Alomomola
+|-damage|p2a: Alomomola|47/100
+|-damage|p1a: Moltres|91/100|[from] item: Life Orb
+|cant|p2a: Alomomola|flinch
+|
+|-heal|p2a: Alomomola|53/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743792014
+|move|p1a: Moltres|Fiery Wrath|p2a: Alomomola
+|-damage|p2a: Alomomola|2/100
+|-damage|p1a: Moltres|81/100|[from] item: Life Orb
+|move|p2a: Alomomola|Rest|p2a: Alomomola
+|-status|p2a: Alomomola|slp|[from] move: Rest
+|-heal|p2a: Alomomola|100/100 slp|[silent]
+|
+|upkeep
+|turn|7
+|
+|t:|1743792026
+|move|p1a: Moltres|Fiery Wrath|p2a: Alomomola
+|-damage|p2a: Alomomola|41/100 slp
+|-damage|p1a: Moltres|71/100|[from] item: Life Orb
+|cant|p2a: Alomomola|slp
+|move|p2a: Alomomola|Sleep Talk|p2a: Alomomola
+|move|p2a: Alomomola|Rest||[from] move: Sleep Talk|[still]
+|-fail|p2a: Alomomola
+|
+|-heal|p2a: Alomomola|47/100 slp|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743792039
+|move|p1a: Moltres|Fiery Wrath|p2a: Alomomola
+|-damage|p2a: Alomomola|0 fnt
+|faint|p2a: Alomomola
+|-damage|p1a: Moltres|62/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743792045
+|switch|p2a: Dondozo|Dondozo, M|100/100
+|turn|9
+|
+|t:|1743792055
+|move|p1a: Moltres|Fiery Wrath|p2a: Dondozo
+|-damage|p2a: Dondozo|62/100
+|-damage|p1a: Moltres|52/100|[from] item: Life Orb
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|69/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743792066
+|move|p1a: Moltres|Air Slash|p2a: Dondozo
+|-damage|p2a: Dondozo|36/100
+|-damage|p1a: Moltres|42/100|[from] item: Life Orb
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-heal|p2a: Dondozo|42/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743792078
+|move|p1a: Moltres|Fiery Wrath|p2a: Dondozo
+|-damage|p2a: Dondozo|5/100
+|-damage|p1a: Moltres|32/100|[from] item: Life Orb
+|cant|p2a: Dondozo|flinch
+|
+|-heal|p2a: Dondozo|11/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743792092
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Moltres|Fiery Wrath|p2a: Blissey
+|-damage|p2a: Blissey|81/100
+|-damage|p1a: Moltres|23/100|[from] item: Life Orb
+|
+|upkeep
+|turn|13
+|
+|t:|1743792107
+|switch|p1a: Garchomp|Garchomp, F|100/100
+|move|p2a: Blissey|Hyper Beam|p1a: Garchomp
+|-damage|p1a: Garchomp|53/100
+|-mustrecharge|p2a: Blissey
+|
+|upkeep
+|turn|14
+|
+|t:|1743792129
+|move|p1a: Garchomp|Stealth Rock|p2a: Blissey
+|-sidestart|p2: MiguelCRAKMANN|move: Stealth Rock
+|cant|p2a: Blissey|recharge
+|
+|upkeep
+|turn|15
+|
+|t:|1743792136
+|move|p1a: Garchomp|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|34/100
+|move|p2a: Blissey|Focus Blast|p1a: Garchomp
+|-damage|p1a: Garchomp|27/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743792144
+|move|p1a: Garchomp|Earthquake|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|upkeep
+|
+|t:|1743792150
+|switch|p2a: Regidrago|Regidrago|100/100
+|-damage|p2a: Regidrago|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743792157
+|move|p1a: Garchomp|Dragon Claw|p2a: Regidrago
+|-supereffective|p2a: Regidrago
+|-damage|p2a: Regidrago|0 fnt
+|faint|p2a: Regidrago
+|
+|upkeep
+|
+|t:|1743792164
+|switch|p2a: Cetitan|Cetitan, M|100/100
+|-damage|p2a: Cetitan|75/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1743792169
+|move|p1a: Garchomp|Earthquake|p2a: Cetitan
+|-damage|p2a: Cetitan|31/100
+|move|p2a: Cetitan|Icicle Crash|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-heal|p2a: Cetitan|37/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743792180
+|switch|p1a: Mienshao|Mienshao, M|100/100
+|turn|19
+|
+|t:|1743792186
+|move|p1a: Mienshao|Close Combat|p2a: Cetitan
+|-supereffective|p2a: Cetitan
+|-damage|p2a: Cetitan|0 fnt
+|-unboost|p1a: Mienshao|def|1
+|-unboost|p1a: Mienshao|spd|1
+|faint|p2a: Cetitan
+|-damage|p1a: Mienshao|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743792194
+|switch|p2a: Dondozo|Dondozo, M|11/100
+|-damage|p2a: Dondozo|0 fnt|[from] Stealth Rock
+|faint|p2a: Dondozo
+|
+|win|wawawawllaam
+|raw|wawawawllaam's rating: 1053 &rarr; <strong>1080</strong><br />(+27 for winning)
+|raw|MiguelCRAKMANN's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|c|☆wawawawllaam|gg
+|l|☆wawawawllaam
+|player|p1|

@@ -1,0 +1,388 @@
+|j|☆esteostrali
+|j|☆foobarbazqux
+|t:|1743813697
+|gametype|singles
+|player|p1|esteostrali|dragontamer|1564
+|player|p2|foobarbazqux|101|1570
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Tyranitar, M|
+|poke|p1|Excadrill, F|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Crown|
+|poke|p1|Iron Valiant|
+|poke|p1|Dragapult, F|
+|poke|p2|Araquanid, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Serperior, M|
+|poke|p2|Gliscor, M|
+|poke|p2|Milotic, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by foobarbazqux)
+|
+|t:|1743813706
+|start
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|switch|p2a: Araquanid|Araquanid, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1743813734
+|move|p1a: Tyranitar|Stealth Rock|p2a: Araquanid
+|-sidestart|p2: foobarbazqux|move: Stealth Rock
+|move|p2a: Araquanid|Sticky Web|p1a: Tyranitar
+|-sidestart|p1: esteostrali|move: Sticky Web
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Araquanid|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1743813740
+|move|p1a: Tyranitar|Knock Off|p2a: Araquanid
+|-damage|p2a: Araquanid|34/100
+|-enditem|p2a: Araquanid|Custap Berry|[from] move: Knock Off|[of] p1a: Tyranitar
+|move|p2a: Araquanid|Surf|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Araquanid|28/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1743813751
+|move|p1a: Tyranitar|Stone Edge|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743813753
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|4
+|
+|t:|1743813763
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|move: Sticky Web
+|-unboost|p1a: Great Tusk|spe|1
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Great Tusk
+|-status|p1a: Great Tusk|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|94/100|[from] Sandstorm
+|-damage|p1a: Great Tusk|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743813769
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Great Tusk|Rapid Spin|p2a: Cinderace
+|-damage|p2a: Cinderace|84/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: esteostrali|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|78/100|[from] Sandstorm
+|-heal|p1a: Great Tusk|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Great Tusk|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743813780
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Great Tusk|Rapid Spin|p2a: Gliscor
+|-damage|p2a: Gliscor|94/100
+|-boost|p1a: Great Tusk|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Great Tusk|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Great Tusk|94/100 brn|[from] brn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+|
+|t:|1743813787
+|move|p1a: Great Tusk|Rapid Spin|p2a: Gliscor
+|-damage|p2a: Gliscor|87/100 tox
+|-boost|p1a: Great Tusk|spe|1
+|move|p2a: Gliscor|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|86/100 brn
+|-enditem|p1a: Great Tusk|Leftovers|[from] move: Knock Off|[of] p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|99/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Great Tusk|80/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743813791
+|move|p1a: Great Tusk|Ice Spinner|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|52/100 tox
+|move|p2a: Gliscor|Spikes|p1a: Great Tusk
+|-sidestart|p1: esteostrali|Spikes
+|
+|-weather|none
+|-heal|p2a: Gliscor|64/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Great Tusk|74/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743813799
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|
+|-heal|p2a: Gliscor|77/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Great Tusk|68/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743813804
+|switch|p2a: Milotic|Milotic, F|100/100
+|-activate|p2a: Milotic|move: Sticky Web
+|-unboost|p2a: Milotic|spe|1
+|-ability|p2a: Milotic|Competitive|boost
+|-boost|p2a: Milotic|spa|2
+|move|p1a: Great Tusk|Rapid Spin|p2a: Milotic
+|-damage|p2a: Milotic|91/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: esteostrali|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-heal|p2a: Milotic|97/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|61/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743813821
+|move|p1a: Great Tusk|Headlong Rush|p2a: Milotic
+|-damage|p2a: Milotic|61/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Milotic|Hydro Pump|p1a: Great Tusk|[miss]
+|-miss|p2a: Milotic|p1a: Great Tusk
+|
+|-heal|p2a: Milotic|67/100|[from] item: Leftovers
+|-damage|p1a: Great Tusk|55/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743813835
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Tyranitar|Tyranitar, M|34/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|100/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743813845
+|switch|p2a: Gliscor|Gliscor, M|77/100 tox
+|move|p1a: Tyranitar|Knock Off|p2a: Gliscor
+|-damage|p2a: Gliscor|31/100 tox
+|-enditem|p2a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Gliscor|43/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|t:|1743813867
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|95/100|[from] Sandstorm
+|-heal|p2a: Gliscor|56/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|t:|1743813872
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Dragapult|Draco Meteor|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|89/100|[from] Sandstorm
+|-heal|p2a: Gliscor|68/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|t:|1743813876
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|move: Sticky Web
+|-unboost|p2a: Kingambit|spe|1
+|-ability|p2a: Kingambit|Defiant|boost
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Dragapult|Draco Meteor|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|61/100
+|-unboost|p1a: Dragapult|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|83/100|[from] Sandstorm
+|upkeep
+|turn|17
+|
+|t:|1743813884
+|switch|p1a: Great Tusk|Great Tusk|55/100 brn
+|move|p2a: Kingambit|Iron Head|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743813891
+|switch|p1a: Excadrill|Excadrill, F|100/100
+|turn|18
+|
+|t:|1743813896
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|19
+|
+|t:|1743813901
+|move|p2a: Kingambit|Sucker Punch|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|-weather|none
+|upkeep
+|
+|t:|1743813905
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|20
+|
+|t:|1743813911
+|switch|p2a: Milotic|Milotic, F|100/100
+|-activate|p2a: Milotic|move: Sticky Web
+|-unboost|p2a: Milotic|spe|1
+|-ability|p2a: Milotic|Competitive|boost
+|-boost|p2a: Milotic|spa|2
+|move|p1a: Iron Valiant|Close Combat|p2a: Milotic
+|-damage|p2a: Milotic|64/100
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|
+|-heal|p2a: Milotic|70/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743813918
+|move|p1a: Iron Valiant|Moonblast|p2a: Milotic
+|-damage|p2a: Milotic|35/100
+|move|p2a: Milotic|Hydro Pump|p1a: Iron Valiant|[miss]
+|-miss|p2a: Milotic|p1a: Iron Valiant
+|
+|-heal|p2a: Milotic|41/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|c|☆foobarbazqux|jfc
+|
+|t:|1743813936
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Tyranitar|Tyranitar, M|34/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|91/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|85/100|[from] Sandstorm
+|-heal|p2a: Milotic|91/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743813947
+|move|p1a: Tyranitar|Stone Edge|p2a: Milotic
+|-damage|p2a: Milotic|50/100
+|move|p2a: Milotic|Hydro Pump|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|44/100|[from] Sandstorm
+|-heal|p2a: Milotic|50/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743813953
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespe
+|turn|24
+|
+|t:|1743813956
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|99/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|99/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1743813962
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|move|p2a: Milotic|Dragon Tail|p1a: Iron Crown
+|-resisted|p1a: Iron Crown
+|-damage|p1a: Iron Crown|96/100
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|drag|p1a: Dragapult|Dragapult, F|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragapult|77/100|[from] Sandstorm
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-heal|p2a: Milotic|99/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|-message|esteostrali forfeited.
+|
+|win|foobarbazqux
+|raw|esteostrali's rating: 1564 &rarr; <strong>1544</strong><br />(-20 for losing)
+|raw|foobarbazqux's rating: 1570 &rarr; <strong>1590</strong><br />(+20 for winning)
+|l|☆esteostrali
+|player|p1|
+|l|☆foobarbazqux
+|player|p2|

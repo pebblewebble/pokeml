@@ -1,0 +1,252 @@
+|j|☆Talonshadow
+|j|☆Bum_Muncha
+|t:|1743900001
+|gametype|singles
+|player|p1|Talonshadow|101|1687
+|player|p2|Bum_Muncha|102|1626
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ceruledge, M|
+|poke|p1|Great Tusk|
+|poke|p1|Ninetales, F|
+|poke|p1|Walking Wake|
+|poke|p1|Venusaur, M|
+|poke|p1|Hatterene, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Garchomp, M|
+|poke|p2|Pecharunt|
+|poke|p2|Darkrai|
+|poke|p2|Kyurem|
+|poke|p2|Zapdos-Galar|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Talonshadow)
+|
+|t:|1743900021
+|start
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|switch|p2a: Garchomp|Garchomp, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1743900027
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Garchomp|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|54/100
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Hatterene|60/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743900035
+|move|p2a: Garchomp|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|16/100
+|-damage|p2a: Garchomp|81/100|[from] item: Life Orb
+|move|p1a: Hatterene|Draining Kiss|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-heal|p1a: Hatterene|84/100|[from] drain|[of] p2a: Garchomp
+|-damage|p1a: Hatterene|72/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Hatterene|78/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743900039
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-item|p2a: Pecharunt|Air Balloon
+|turn|3
+|
+|t:|1743900045
+|switch|p1a: Venusaur|Venusaur, M|100/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Venusaur
+|-damage|p1a: Venusaur|68/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743900048
+|move|p1a: Venusaur|Growth|p1a: Venusaur
+|-boost|p1a: Venusaur|atk|2
+|-boost|p1a: Venusaur|spa|2
+|move|p2a: Pecharunt|Parting Shot|p1a: Venusaur
+|-unboost|p1a: Venusaur|atk|1
+|-unboost|p1a: Venusaur|spa|1
+|
+|t:|1743900053
+|switch|p2a: Kyurem|Kyurem|100/100|[from] Parting Shot
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743900057
+|-terastallize|p1a: Venusaur|Fire
+|move|p1a: Venusaur|Weather Ball|p2a: Kyurem
+|-crit|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|-damage|p1a: Venusaur|58/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743900061
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|6
+|
+|t:|1743900065
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743900072
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-item|p2a: Pecharunt|Air Balloon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743900075
+|move|p1a: Walking Wake|Hydro Steam|p2a: Pecharunt
+|-damage|p2a: Pecharunt|21/100
+|-enditem|p2a: Pecharunt|Air Balloon
+|move|p2a: Pecharunt|Parting Shot|p1a: Walking Wake
+|-unboost|p1a: Walking Wake|atk|1
+|-unboost|p1a: Walking Wake|spa|1
+|
+|t:|1743900080
+|switch|p2a: Darkrai|Darkrai|100/100|[from] Parting Shot
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|upkeep
+|turn|9
+|
+|t:|1743900091
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Darkrai|Nasty Plot|p2a: Darkrai
+|-boost|p2a: Darkrai|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743900096
+|switch|p1a: Hatterene|Hatterene, F|78/100
+|move|p2a: Darkrai|Dark Pulse|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743900105
+|switch|p1a: Venusaur|Venusaur, M, tera:Fire|58/100
+|turn|11
+|
+|t:|1743900109
+|move|p1a: Venusaur|Weather Ball|p2a: Darkrai
+|-damage|p2a: Darkrai|0 fnt
+|faint|p2a: Darkrai
+|-damage|p1a: Venusaur|48/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743900112
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|12
+|
+|t:|1743900116
+|-end|p2a: Kingambit|fallen3|[silent]
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|move|p1a: Venusaur|Weather Ball|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|-damage|p1a: Venusaur|38/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743900119
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|13
+|
+|t:|1743900122
+|move|p2a: Kingambit|Sucker Punch|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743900126
+|switch|p1a: Ninetales|Ninetales, F|100/100
+|turn|14
+|
+|t:|1743900129
+|move|p1a: Ninetales|Encore|p2a: Kingambit
+|-start|p2a: Kingambit|Encore
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743900133
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|-end|p2a: Kingambit|fallen4|[silent]
+|switch|p2a: Pecharunt|Pecharunt|21/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|-message|Bum_Muncha forfeited.
+|
+|win|Talonshadow
+|raw|Talonshadow's rating: 1687 &rarr; <strong>1704</strong><br />(+17 for winning)
+|raw|Bum_Muncha's rating: 1626 &rarr; <strong>1609</strong><br />(-17 for losing)
+|l|☆Bum_Muncha
+|player|p2|
+|l|☆Talonshadow
+|player|p1|

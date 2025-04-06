@@ -1,0 +1,390 @@
+|j|‽Jacobeiro
+|j|☆Lifematic
+|t:|1743842972
+|gametype|singles
+|player|p1|Jacobeiro|2|1289
+|player|p2|Lifematic|norman|1267
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zapdos|
+|poke|p1|Toxapex, M|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Dragonite, F|
+|poke|p1|Ditto|
+|poke|p2|Ursaluna, M|
+|poke|p2|Skarmory, M|
+|poke|p2|Meowscarada, M|
+|poke|p2|Gliscor, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Slowking-Galar, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lifematic)
+|
+|t:|1743843001
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Meowscarada|Meowscarada, M|100/100
+|turn|1
+|
+|t:|1743843013
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|move|p2a: Meowscarada|U-turn|p1a: Toxapex
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|90/100
+|
+|t:|1743843023
+|switch|p2a: Gliscor|Gliscor, M|100/100|[from] U-turn
+|
+|-heal|p1a: Toxapex|96/100|[from] item: Black Sludge
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743843030
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|upkeep
+|turn|3
+|
+|t:|1743843040
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Great Tusk|Ice Spinner|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1743843059
+|switch|p2a: Skarmory|Skarmory, M|100/100
+|move|p1a: Great Tusk|Ice Spinner|p2a: Skarmory
+|-damage|p2a: Skarmory|82/100
+|-damage|p1a: Great Tusk|84/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|
+|upkeep
+|turn|5
+|
+|t:|1743843071
+|move|p1a: Great Tusk|Stealth Rock|p2a: Skarmory
+|-sidestart|p2: Lifematic|move: Stealth Rock
+|move|p2a: Skarmory|Stealth Rock|p1a: Great Tusk
+|-sidestart|p1: Jacobeiro|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1743843084
+|move|p1a: Great Tusk|Rapid Spin|p2a: Skarmory
+|-resisted|p2a: Skarmory
+|-damage|p2a: Skarmory|77/100
+|-boost|p1a: Great Tusk|spe|1
+|-damage|p1a: Great Tusk|68/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|-sideend|p1: Jacobeiro|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Skarmory|Whirlwind|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|drag|p1a: Ditto|Ditto|100/100
+|-transform|p1a: Ditto|p2a: Skarmory|[from] ability: Imposter
+|
+|upkeep
+|turn|7
+|
+|t:|1743843091
+|move|p2a: Skarmory|Stealth Rock|p1a: Ditto
+|-sidestart|p1: Jacobeiro|move: Stealth Rock
+|move|p1a: Ditto|Whirlwind|p2a: Skarmory
+|drag|p2a: Dragapult|Dragapult, F|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743843099
+|switch|p1a: Zapdos|Zapdos|100/100
+|-damage|p1a: Zapdos|76/100|[from] Stealth Rock
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Zapdos
+|-status|p1a: Zapdos|brn
+|
+|-damage|p1a: Zapdos|70/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743843105
+|move|p2a: Dragapult|Hex|p1a: Zapdos
+|-damage|p1a: Zapdos|19/100 brn
+|move|p1a: Zapdos|Discharge|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|71/100
+|
+|-damage|p1a: Zapdos|13/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743843114
+|move|p2a: Dragapult|Hex|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|upkeep
+|
+|t:|1743843118
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p1a: Gholdengo|Air Balloon
+|turn|11
+|
+|t:|1743843125
+|move|p2a: Dragapult|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|89/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|t:|1743843132
+|switch|p2a: Meowscarada|Meowscarada, M|100/100|[from] U-turn
+|move|p1a: Gholdengo|Shadow Ball|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-crit|p2a: Meowscarada
+|-damage|p2a: Meowscarada|51/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743843142
+|move|p2a: Meowscarada|Knock Off|p1a: Gholdengo
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|20/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Meowscarada
+|
+|upkeep
+|
+|t:|1743843153
+|switch|p2a: Dragapult|Dragapult, F|71/100
+|turn|13
+|
+|t:|1743843160
+|move|p2a: Dragapult|Hex|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743843170
+|switch|p1a: Toxapex|Toxapex, M|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743843196
+|move|p2a: Dragapult|Will-O-Wisp|p1a: Toxapex
+|-status|p1a: Toxapex|brn
+|move|p1a: Toxapex|Surf|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|58/100
+|
+|-heal|p1a: Toxapex|94/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|88/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743843215
+|move|p2a: Dragapult|Hex|p1a: Toxapex
+|-damage|p1a: Toxapex|50/100 brn
+|move|p1a: Toxapex|Toxic|p2a: Dragapult
+|-status|p2a: Dragapult|tox
+|
+|-heal|p1a: Toxapex|57/100 brn|[from] item: Black Sludge
+|-damage|p2a: Dragapult|52/100 tox|[from] psn
+|-damage|p1a: Toxapex|50/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743843222
+|switch|p2a: Skarmory|Skarmory, M|77/100
+|-damage|p2a: Skarmory|64/100|[from] Stealth Rock
+|move|p1a: Toxapex|Recover|p1a: Toxapex
+|-heal|p1a: Toxapex|100/100 brn
+|
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743843228
+|move|p2a: Skarmory|Stealth Rock||[still]
+|-fail|p2a: Skarmory
+|move|p1a: Toxapex|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|40/100
+|
+|-heal|p1a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743843238
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|90/100
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Toxapex|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|63/100
+|
+|-heal|p1a: Toxapex|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1743843244
+|move|p1a: Toxapex|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|37/100
+|move|p2a: Skarmory|Whirlwind|p1a: Toxapex
+|drag|p1a: Dragonite|Dragonite, F|100/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743843253
+|switch|p1a: Toxapex|Toxapex, M|100/100 brn
+|-damage|p1a: Toxapex|88/100 brn|[from] Stealth Rock
+|move|p2a: Skarmory|Body Press|p1a: Toxapex
+|-resisted|p1a: Toxapex
+|-damage|p1a: Toxapex|78/100 brn
+|
+|-heal|p1a: Toxapex|84/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|78/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1743843258
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|87/100
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Toxapex|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|59/100
+|
+|-heal|p1a: Toxapex|84/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|78/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1743843264
+|move|p2a: Skarmory|Roost|p2a: Skarmory
+|-heal|p2a: Skarmory|100/100
+|-singleturn|p2a: Skarmory|move: Roost
+|move|p1a: Toxapex|Surf|p2a: Skarmory
+|-damage|p2a: Skarmory|76/100
+|
+|-heal|p1a: Toxapex|84/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|78/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1743843279
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Toxapex|Surf|p2a: Slowking
+|-damage|p2a: Slowking|90/100
+|
+|-heal|p1a: Toxapex|84/100 brn|[from] item: Black Sludge
+|-damage|p1a: Toxapex|78/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1743843286
+|switch|p1a: Great Tusk|Great Tusk|68/100
+|-damage|p1a: Great Tusk|65/100|[from] Stealth Rock
+|move|p2a: Slowking|Psychic Noise|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743843289
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|25
+|
+|t:|1743843297
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Slowking|Sludge Bomb|p1a: Dragonite
+|-damage|p1a: Dragonite|83/100
+|
+|upkeep
+|turn|26
+|
+|t:|1743843304
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|-damage|p2a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|27
+|
+|t:|1743843310
+|move|p1a: Dragonite|Ice Spinner|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1743843319
+|switch|p2a: Ursaluna|Ursaluna, M|100/100
+|turn|28
+|
+|t:|1743843347
+|-terastallize|p2a: Ursaluna|Poison
+|move|p1a: Dragonite|Ice Spinner|p2a: Ursaluna
+|-damage|p2a: Ursaluna|50/100
+|move|p2a: Ursaluna|Ice Punch|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1743843354
+|switch|p1a: Ditto|Ditto|100/100
+|-damage|p1a: Ditto|88/100|[from] Stealth Rock
+|-transform|p1a: Ditto|p2a: Ursaluna|[from] ability: Imposter
+|-start|p1a: Ditto|typechange|Ground/Normal|[silent]
+|turn|29
+|
+|t:|1743843368
+|switch|p2a: Skarmory|Skarmory, M|76/100
+|-damage|p2a: Skarmory|64/100|[from] Stealth Rock
+|move|p1a: Ditto|Ice Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|49/100
+|-damage|p1a: Ditto|72/100|[from] item: Rocky Helmet|[of] p2a: Skarmory
+|
+|upkeep
+|turn|30
+|-message|Jacobeiro forfeited.
+|
+|win|Lifematic
+|raw|Jacobeiro's rating: 1289 &rarr; <strong>1262</strong><br />(-27 for losing)
+|raw|Lifematic's rating: 1267 &rarr; <strong>1294</strong><br />(+27 for winning)
+|l|‽Jacobeiro
+|player|p1|
+|l|☆Lifematic
+|player|p2|

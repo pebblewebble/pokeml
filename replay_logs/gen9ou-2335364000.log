@@ -1,0 +1,178 @@
+|j|☆clail
+|j|☆temporarylight
+|t:|1743787973
+|gametype|singles
+|player|p1|clail|266|1648
+|player|p2|temporarylight|265|1706
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ceruledge, M|
+|poke|p1|Gholdengo|
+|poke|p1|Ribombee, F|
+|poke|p1|Great Tusk|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Glimmora, M|
+|poke|p2|Darkrai|
+|poke|p2|Zamazenta-*|
+|poke|p2|Enamorus, F|
+|poke|p2|Heatran, M|
+|poke|p2|Great Tusk|
+|poke|p2|Pecharunt|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by clail)
+|
+|t:|1743788006
+|start
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|t:|1743788019
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Heatran|Heatran, M, shiny|100/100
+|-item|p2a: Heatran|Air Balloon
+|move|p1a: Ribombee|Moonblast|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|91/100
+|-enditem|p2a: Heatran|Air Balloon
+|
+|upkeep
+|turn|2
+|
+|t:|1743788025
+|move|p1a: Ribombee|Sticky Web|p2a: Heatran
+|-sidestart|p2: temporarylight|move: Sticky Web
+|move|p2a: Heatran|Lava Plume|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-enditem|p1a: Ribombee|Focus Sash
+|-damage|p1a: Ribombee|1/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743788028
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|move|p2a: Heatran|Stealth Rock|p1a: Glimmora
+|-sidestart|p1: clail|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1743788035
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Glimmora|Earth Power|p2a: Great Tusk
+|-crit|p2a: Great Tusk
+|-damage|p2a: Great Tusk|33/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743788039
+|switch|p1a: Ribombee|Ribombee, F|1/100
+|-damage|p1a: Ribombee|0 fnt|[from] Stealth Rock
+|faint|p1a: Ribombee
+|move|p2a: Great Tusk|Headlong Rush|p1: Ribombee|[notarget]
+|-fail|p2a: Great Tusk
+|
+|upkeep
+|
+|t:|1743788041
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1743788044
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Pecharunt|[anim] Ivy Cudgel Water
+|-damage|p2a: Pecharunt|63/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743788049
+|move|p1a: Ogerpon|Power Whip|p2a: Pecharunt
+|-resisted|p2a: Pecharunt
+|-damage|p2a: Pecharunt|44/100
+|move|p2a: Pecharunt|Foul Play|p1a: Ogerpon
+|-damage|p1a: Ogerpon|48/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743788053
+|-terastallize|p1a: Ogerpon|Water
+|detailschange|p1a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p1a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p1a: Ogerpon|spd|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Pecharunt|[anim] Ivy Cudgel Water
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|t:|1743788071
+|switch|p2a: Enamorus|Enamorus, F, shiny|100/100
+|turn|9
+|
+|t:|1743788073
+|-terastallize|p2a: Enamorus|Stellar
+|move|p2a: Enamorus|Tera Blast|p1a: Ogerpon|[anim] Tera Blast Stellar
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|-boost|p2a: Enamorus|atk|1
+|-boost|p2a: Enamorus|spa|1
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743788076
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|-damage|p1a: Glimmora|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743788090
+|switch|p2a: Great Tusk|Great Tusk|33/100
+|move|p1a: Glimmora|Meteor Beam||[still]
+|-prepare|p1a: Glimmora|Meteor Beam
+|-boost|p1a: Glimmora|spa|1
+|-enditem|p1a: Glimmora|Power Herb
+|-anim|p1a: Glimmora|Meteor Beam|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743788107
+|switch|p2a: Enamorus|Enamorus, F, shiny, tera:Stellar|100/100
+|turn|11
+|inactive|clail has 120 seconds left.
+|inactive|clail has 90 seconds left.
+|inactive|clail has 60 seconds left.
+|inactive|clail has 30 seconds left.
+|inactive|clail has 20 seconds left.
+|inactive|clail has 15 seconds left.
+|inactive|clail has 10 seconds left.
+|inactive|clail has 5 seconds left.
+|-message|clail lost due to inactivity.
+|
+|win|temporarylight
+|raw|clail's rating: 1648 &rarr; <strong>1631</strong><br />(-17 for losing)
+|raw|temporarylight's rating: 1706 &rarr; <strong>1723</strong><br />(+17 for winning)
+|l|☆temporarylight
+|player|p2|
+|l|☆clail
+|player|p1|

@@ -1,0 +1,528 @@
+|j|☆mmmyyy
+|j|☆Hyde-D-Rastom
+|t:|1743861720
+|gametype|singles
+|player|p1|mmmyyy|dawn|1245
+|player|p2|Hyde-D-Rastom|calem|1306
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Crown|
+|poke|p1|Garganacl, M|
+|poke|p1|Enamorus-Therian, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Volcanion|
+|poke|p1|Zamazenta-*|
+|poke|p2|Blaziken, M|
+|poke|p2|Sableye, M|
+|poke|p2|Breloom, M|
+|poke|p2|Milotic, F|
+|poke|p2|Latias, F|
+|poke|p2|Metagross|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Hyde-D-Rastom)
+|
+|t:|1743861730
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Metagross|Metagross|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-fail|p2a: Metagross|unboost|[from] ability: Clear Body|[of] p2a: Metagross
+|turn|1
+|
+|t:|1743861743
+|move|p1a: Landorus|Stealth Rock|p2a: Metagross
+|-sidestart|p2: Hyde-D-Rastom|move: Stealth Rock
+|move|p2a: Metagross|Ice Punch|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743861749
+|switch|p1a: Volcanion|Volcanion|100/100
+|turn|2
+|
+|t:|1743861758
+|move|p1a: Volcanion|Flamethrower|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|28/100
+|move|p2a: Metagross|Earthquake|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|41/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743861766
+|move|p2a: Metagross|Bullet Punch|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|36/100
+|move|p1a: Volcanion|Earth Power|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|upkeep
+|
+|t:|1743861780
+|switch|p2a: Torkenium|Blaziken, M, shiny|100/100
+|turn|4
+|
+|t:|1743861784
+|move|p2a: Torkenium|Detect|p2a: Torkenium
+|-singleturn|p2a: Torkenium|Protect
+|move|p1a: Volcanion|Earth Power|p2a: Torkenium
+|-activate|p2a: Torkenium|move: Protect
+|
+|-ability|p2a: Torkenium|Speed Boost|boost
+|-boost|p2a: Torkenium|spe|1
+|upkeep
+|turn|5
+|
+|t:|1743861792
+|move|p2a: Torkenium|Close Combat|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|-unboost|p2a: Torkenium|def|1
+|-unboost|p2a: Torkenium|spd|1
+|faint|p1a: Volcanion
+|
+|-ability|p2a: Torkenium|Speed Boost|boost
+|-boost|p2a: Torkenium|spe|1
+|upkeep
+|
+|t:|1743861801
+|switch|p1a: Enamorus|Enamorus-Therian, F|100/100
+|turn|6
+|
+|t:|1743861829
+|move|p2a: Torkenium|Blaze Kick|p1a: Enamorus
+|-crit|p1a: Enamorus
+|-damage|p1a: Enamorus|51/100
+|move|p1a: Enamorus|Earth Power|p2a: Torkenium
+|-supereffective|p2a: Torkenium
+|-damage|p2a: Torkenium|0 fnt
+|faint|p2a: Torkenium
+|
+|upkeep
+|
+|t:|1743861834
+|switch|p2a: Breloom|Breloom, M|100/100
+|-damage|p2a: Breloom|94/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1743861842
+|move|p2a: Breloom|Rock Tomb|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|upkeep
+|
+|t:|1743861852
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-enditem|p1a: Iron Crown|Booster Energy
+|-activate|p1a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Crown|quarkdrivespe
+|turn|8
+|
+|t:|1743861865
+|switch|p2a: Sableye|Sableye, M|100/100
+|-damage|p2a: Sableye|88/100|[from] Stealth Rock
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|
+|-heal|p2a: Sableye|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743861873
+|move|p2a: Sableye|Encore|p1a: Iron Crown
+|-start|p1a: Iron Crown|Encore
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|
+|-heal|p2a: Sableye|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743861880
+|switch|p2a: Breloom|Breloom, M|94/100
+|-damage|p2a: Breloom|88/100|[from] Stealth Rock
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|
+|upkeep
+|turn|11
+|
+|t:|1743861887
+|switch|p2a: Sableye|Sableye, M|100/100
+|-damage|p2a: Sableye|88/100|[from] Stealth Rock
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|
+|-heal|p2a: Sableye|94/100|[from] item: Leftovers
+|-end|p1a: Iron Crown|Encore
+|upkeep
+|turn|12
+|
+|t:|1743861901
+|move|p2a: Sableye|Encore|p1a: Iron Crown
+|-start|p1a: Iron Crown|Encore
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|
+|-heal|p2a: Sableye|100/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743861908
+|move|p2a: Sableye|Thunder Wave|p1a: Iron Crown
+|-status|p1a: Iron Crown|par
+|move|p1a: Iron Crown|Calm Mind|p1a: Iron Crown
+|-boost|p1a: Iron Crown|spa|1
+|-boost|p1a: Iron Crown|spd|1
+|
+|upkeep
+|turn|14
+|
+|t:|1743861916
+|cant|p1a: Iron Crown|par
+|move|p2a: Sableye|Foul Play|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|60/100 par
+|
+|-end|p1a: Iron Crown|Encore
+|upkeep
+|turn|15
+|
+|t:|1743861923
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: Sableye|Encore||[still]
+|-fail|p2a: Sableye
+|
+|upkeep
+|turn|16
+|
+|t:|1743861931
+|switch|p2a: Milotic|Milotic, F|100/100
+|-damage|p2a: Milotic|88/100|[from] Stealth Rock
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|
+|-status|p2a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|17
+|
+|t:|1743861944
+|-terastallize|p1a: Garganacl|Dragon
+|move|p2a: Milotic|Scald|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|91/100
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|
+|-heal|p1a: Garganacl|97/100|[from] item: Leftovers
+|-damage|p2a: Milotic|82/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743861956
+|move|p2a: Milotic|Haze|p2a: Milotic
+|-clearallboost
+|move|p1a: Garganacl|Salt Cure|p2a: Milotic
+|-damage|p2a: Milotic|76/100 brn
+|-start|p2a: Milotic|Salt Cure
+|
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p2a: Milotic|70/100 brn|[from] brn
+|-damage|p2a: Milotic|45/100 brn|[from] Salt Cure
+|upkeep
+|turn|19
+|
+|t:|1743861965
+|move|p2a: Milotic|Ice Beam|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|74/100
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|
+|-heal|p1a: Garganacl|80/100|[from] item: Leftovers
+|-damage|p2a: Milotic|39/100 brn|[from] brn
+|-damage|p2a: Milotic|14/100 brn|[from] Salt Cure
+|upkeep
+|turn|20
+|inactive|Hyde-D-Rastom has 120 seconds left.
+|
+|t:|1743862002
+|switch|p2a: Sableye|Sableye, M|100/100
+|-damage|p2a: Sableye|88/100|[from] Stealth Rock
+|move|p1a: Garganacl|Protect||[still]
+|-fail|p1a: Garganacl
+|
+|-heal|p2a: Sableye|94/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|87/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743862011
+|move|p2a: Sableye|Encore|p1a: Garganacl
+|-start|p1a: Garganacl|Encore
+|move|p1a: Garganacl|Protect||[still]
+|-fail|p1a: Garganacl
+|
+|-heal|p2a: Sableye|100/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|93/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743862019
+|switch|p2a: Milotic|Milotic, F|14/100 brn
+|-damage|p2a: Milotic|1/100 brn|[from] Stealth Rock
+|switch|p1a: Iron Crown|Iron Crown|60/100 par
+|
+|-damage|p2a: Milotic|0 fnt|[from] brn
+|faint|p2a: Milotic
+|upkeep
+|
+|t:|1743862033
+|switch|p2a: Breloom|Breloom, M|88/100
+|-damage|p2a: Breloom|82/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1743862040
+|move|p2a: Breloom|Mach Punch|p1a: Iron Crown
+|-damage|p1a: Iron Crown|29/100 par
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Breloom
+|-damage|p2a: Breloom|44/100
+|-crit|p2a: Breloom
+|-damage|p2a: Breloom|0 fnt
+|faint|p2a: Breloom
+|-hitcount|p2: Breloom|2
+|
+|upkeep
+|
+|t:|1743862047
+|switch|p2a: Latias|Latias, F|100/100
+|-damage|p2a: Latias|88/100|[from] Stealth Rock
+|turn|24
+|
+|t:|1743862052
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|switch|p1a: Garganacl|Garganacl, M, tera:Dragon|93/100
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|
+|-heal|p1a: Garganacl|99/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1743862060
+|move|p2a: Latias|Agility|p2a: Latias
+|-boost|p2a: Latias|spe|2
+|move|p1a: Garganacl|Salt Cure|p2a: Latias
+|-damage|p2a: Latias|77/100
+|-start|p2a: Latias|Salt Cure
+|
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p2a: Latias|65/100|[from] Salt Cure
+|upkeep
+|turn|26
+|
+|t:|1743862071
+|move|p2a: Latias|Calm Mind|p2a: Latias
+|-boost|p2a: Latias|spa|1
+|-boost|p2a: Latias|spd|1
+|move|p1a: Garganacl|Salt Cure|p2a: Latias
+|-damage|p2a: Latias|54/100
+|
+|-damage|p2a: Latias|41/100|[from] Salt Cure
+|upkeep
+|turn|27
+|
+|t:|1743862080
+|switch|p1a: Iron Crown|Iron Crown|29/100 par
+|move|p2a: Latias|Stored Power|p1a: Iron Crown
+|-resisted|p1a: Iron Crown
+|-damage|p1a: Iron Crown|8/100 par
+|
+|-damage|p2a: Latias|29/100|[from] Salt Cure
+|upkeep
+|turn|28
+|
+|t:|1743862087
+|move|p2a: Latias|Aura Sphere|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|-damage|p2a: Latias|17/100|[from] Salt Cure
+|upkeep
+|
+|t:|1743862094
+|switch|p1a: Garganacl|Garganacl, M, tera:Dragon|100/100
+|turn|29
+|
+|t:|1743862112
+|move|p1a: Garganacl|Protect|p1a: Garganacl
+|-singleturn|p1a: Garganacl|Protect
+|move|p2a: Latias|Stored Power|p1a: Garganacl
+|-activate|p1a: Garganacl|move: Protect
+|
+|-damage|p2a: Latias|4/100|[from] Salt Cure
+|upkeep
+|turn|30
+|
+|t:|1743862122
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Latias|Stored Power|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|-damage|p2a: Latias|0 fnt|[from] Salt Cure
+|faint|p2a: Latias
+|upkeep
+|
+|t:|1743862133
+|switch|p1a: Garganacl|Garganacl, M, tera:Dragon|100/100
+|switch|p2a: Sableye|Sableye, M|100/100
+|-damage|p2a: Sableye|88/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1743862141
+|move|p2a: Sableye|Foul Play|p1a: Garganacl
+|-damage|p1a: Garganacl|78/100
+|move|p1a: Garganacl|Salt Cure|p2a: Sableye
+|-damage|p2a: Sableye|75/100
+|-start|p2a: Sableye|Salt Cure
+|
+|-heal|p2a: Sableye|81/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|84/100|[from] item: Leftovers
+|-damage|p2a: Sableye|69/100|[from] Salt Cure
+|upkeep
+|turn|32
+|
+|t:|1743862151
+|move|p2a: Sableye|Foul Play|p1a: Garganacl
+|-damage|p1a: Garganacl|60/100
+|move|p1a: Garganacl|Salt Cure|p2a: Sableye
+|-damage|p2a: Sableye|56/100
+|
+|-heal|p2a: Sableye|62/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|67/100|[from] item: Leftovers
+|-damage|p2a: Sableye|50/100|[from] Salt Cure
+|upkeep
+|turn|33
+|
+|t:|1743862161
+|move|p2a: Sableye|Foul Play|p1a: Garganacl
+|-damage|p1a: Garganacl|46/100
+|move|p1a: Garganacl|Salt Cure|p2a: Sableye
+|-damage|p2a: Sableye|36/100
+|
+|-heal|p2a: Sableye|42/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|52/100|[from] item: Leftovers
+|-damage|p2a: Sableye|29/100|[from] Salt Cure
+|upkeep
+|turn|34
+|
+|t:|1743862170
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|79/100
+|move|p1a: Garganacl|Salt Cure|p2a: Sableye
+|-damage|p2a: Sableye|64/100
+|
+|-heal|p2a: Sableye|71/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|59/100|[from] item: Leftovers
+|-damage|p2a: Sableye|58/100|[from] Salt Cure
+|upkeep
+|turn|35
+|
+|t:|1743862180
+|move|p2a: Sableye|Foul Play|p1a: Garganacl
+|-damage|p1a: Garganacl|35/100
+|move|p1a: Garganacl|Salt Cure|p2a: Sableye
+|-damage|p2a: Sableye|43/100
+|
+|-heal|p2a: Sableye|50/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|41/100|[from] item: Leftovers
+|-damage|p2a: Sableye|37/100|[from] Salt Cure
+|upkeep
+|turn|36
+|
+|t:|1743862189
+|move|p2a: Sableye|Foul Play|p1a: Garganacl
+|-damage|p1a: Garganacl|20/100
+|move|p1a: Garganacl|Salt Cure|p2a: Sableye
+|-damage|p2a: Sableye|23/100
+|
+|-heal|p2a: Sableye|29/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|26/100|[from] item: Leftovers
+|-damage|p2a: Sableye|17/100|[from] Salt Cure
+|upkeep
+|turn|37
+|
+|t:|1743862204
+|move|p2a: Sableye|Recover|p2a: Sableye
+|-heal|p2a: Sableye|67/100
+|move|p1a: Garganacl|Salt Cure|p2a: Sableye
+|-damage|p2a: Sableye|52/100
+|
+|-heal|p2a: Sableye|59/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|32/100|[from] item: Leftovers
+|-damage|p2a: Sableye|46/100|[from] Salt Cure
+|upkeep
+|turn|38
+|
+|t:|1743862215
+|move|p2a: Sableye|Foul Play|p1a: Garganacl
+|-damage|p1a: Garganacl|9/100
+|move|p1a: Garganacl|Salt Cure|p2a: Sableye
+|-damage|p2a: Sableye|33/100
+|
+|-heal|p2a: Sableye|40/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|15/100|[from] item: Leftovers
+|-damage|p2a: Sableye|27/100|[from] Salt Cure
+|upkeep
+|turn|39
+|
+|t:|1743862224
+|move|p2a: Sableye|Foul Play|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|win|Hyde-D-Rastom
+|raw|mmmyyy's rating: 1245 &rarr; <strong>1224</strong><br />(-21 for losing)
+|raw|Hyde-D-Rastom's rating: 1306 &rarr; <strong>1323</strong><br />(+17 for winning)
+|l|☆mmmyyy
+|player|p1|
+|l|☆Hyde-D-Rastom
+|player|p2|

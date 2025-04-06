@@ -1,0 +1,360 @@
+|j|☆Mreow
+|j|☆Futz1
+|t:|1743869719
+|gametype|singles
+|player|p1|Mreow|pokemaniac|1528
+|player|p2|Futz1|iris|1541
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Shiftry, M|
+|poke|p1|Kommo-o, M|
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Zamazenta-*|
+|poke|p1|Hatterene, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Pawmot, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Heatran, M|
+|poke|p2|Clefable, F|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|t:|1743869746
+|start
+|switch|p1a: Weedy|Shiftry, M|100/100
+|switch|p2a: Clefable|Clefable, F|100/100
+|turn|1
+|
+|t:|1743869760
+|move|p1a: Weedy|Tailwind|p1a: Weedy
+|-sidestart|p1: Mreow|move: Tailwind
+|-ability|p1a: Weedy|Wind Rider|boost
+|-boost|p1a: Weedy|atk|1
+|move|p2a: Clefable|Moonblast|p1a: Weedy
+|-supereffective|p1a: Weedy
+|-damage|p1a: Weedy|9/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743869767
+|move|p1a: Weedy|Explosion|p2a: Clefable
+|-damage|p2a: Clefable|15/100
+|faint|p1a: Weedy
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|65/100
+|
+|upkeep
+|
+|t:|1743869776
+|switch|p1a: Shady|Hoopa-Unbound|100/100
+|turn|3
+|
+|t:|1743869780
+|switch|p2a: Heatran|Heatran, M|100/100
+|move|p1a: Shady|Psychic|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|68/100
+|
+|-heal|p2a: Heatran|75/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743869790
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Shady|atk|1
+|move|p1a: Shady|Psychic|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-sideend|p1: Mreow|move: Tailwind
+|upkeep
+|
+|t:|1743869795
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|5
+|
+|t:|1743869801
+|move|p2a: Ogerpon|U-turn|p1a: Shady
+|-supereffective|p1a: Shady
+|-damage|p1a: Shady|0 fnt
+|faint|p1a: Shady
+|
+|t:|1743869811
+|switch|p2a: Pawmot|Pawmot, F|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743869828
+|switch|p1a: Dragoboi|Kommo-o, M|100/100
+|turn|6
+|
+|t:|1743869831
+|move|p2a: Pawmot|Ice Punch|p1a: Dragoboi
+|-supereffective|p1a: Dragoboi
+|-damage|p1a: Dragoboi|54/100
+|-status|p1a: Dragoboi|frz
+|cant|p1a: Dragoboi|frz
+|
+|upkeep
+|turn|7
+|
+|t:|1743869835
+|move|p2a: Pawmot|Ice Punch|p1a: Dragoboi
+|-supereffective|p1a: Dragoboi
+|-damage|p1a: Dragoboi|12/100 frz
+|-curestatus|p1a: Dragoboi|frz|[msg]
+|move|p1a: Dragoboi|Flamethrower|p2a: Pawmot
+|-damage|p2a: Pawmot|47/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743869839
+|move|p2a: Pawmot|Ice Punch|p1a: Dragoboi
+|-supereffective|p1a: Dragoboi
+|-damage|p1a: Dragoboi|0 fnt
+|faint|p1a: Dragoboi
+|
+|upkeep
+|
+|t:|1743869840
+|switch|p1a: Poulpe 🐙|Hatterene, F|100/100
+|turn|9
+|
+|t:|1743869846
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Poulpe 🐙|Calm Mind|p1a: Poulpe 🐙
+|-boost|p1a: Poulpe 🐙|spa|1
+|-boost|p1a: Poulpe 🐙|spd|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743869849
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Poulpe 🐙|[anim] Ivy Cudgel Water
+|-damage|p1a: Poulpe 🐙|52/100
+|move|p1a: Poulpe 🐙|Draining Kiss|p2a: Ogerpon
+|-damage|p2a: Ogerpon|59/100
+|-heal|p1a: Poulpe 🐙|81/100|[from] drain|[of] p2a: Ogerpon
+|
+|-heal|p1a: Poulpe 🐙|87/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743869855
+|move|p2a: Ogerpon|Knock Off|p1a: Poulpe 🐙
+|-damage|p1a: Poulpe 🐙|51/100
+|-enditem|p1a: Poulpe 🐙|Leftovers|[from] move: Knock Off|[of] p2a: Ogerpon
+|move|p1a: Poulpe 🐙|Draining Kiss|p2a: Ogerpon
+|-damage|p2a: Ogerpon|18/100
+|-heal|p1a: Poulpe 🐙|81/100|[from] drain|[of] p2a: Ogerpon
+|
+|upkeep
+|turn|12
+|
+|t:|1743869865
+|move|p2a: Ogerpon|U-turn|p1a: Poulpe 🐙
+|-damage|p1a: Poulpe 🐙|56/100
+|
+|t:|1743869867
+|switch|p2a: Heatran|Heatran, M|75/100|[from] U-turn
+|move|p1a: Poulpe 🐙|Draining Kiss|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|69/100
+|-heal|p1a: Poulpe 🐙|62/100|[from] drain|[of] p2a: Heatran
+|
+|-heal|p2a: Heatran|75/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743869869
+|move|p2a: Heatran|Magma Storm|p1a: Poulpe 🐙|[miss]
+|-miss|p2a: Heatran|p1a: Poulpe 🐙
+|move|p1a: Poulpe 🐙|Nuzzle|p2a: Heatran
+|-damage|p2a: Heatran|72/100
+|-status|p2a: Heatran|par
+|
+|-heal|p2a: Heatran|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743869872
+|cant|p2a: Heatran|par
+|move|p1a: Poulpe 🐙|Calm Mind|p1a: Poulpe 🐙
+|-boost|p1a: Poulpe 🐙|spa|1
+|-boost|p1a: Poulpe 🐙|spd|1
+|
+|-heal|p2a: Heatran|84/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743869874
+|move|p2a: Heatran|Magma Storm|p1a: Poulpe 🐙
+|-damage|p1a: Poulpe 🐙|39/100
+|-activate|p1a: Poulpe 🐙|move: Magma Storm|[of] p2a: Heatran
+|move|p1a: Poulpe 🐙|Calm Mind|p1a: Poulpe 🐙
+|-boost|p1a: Poulpe 🐙|spa|1
+|-boost|p1a: Poulpe 🐙|spd|1
+|
+|-heal|p2a: Heatran|90/100 par|[from] item: Leftovers
+|-damage|p1a: Poulpe 🐙|27/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|t:|1743869877
+|move|p2a: Heatran|Earth Power|p1a: Poulpe 🐙
+|-damage|p1a: Poulpe 🐙|16/100
+|move|p1a: Poulpe 🐙|Psyshock|p2a: Heatran
+|-resisted|p2a: Heatran
+|-damage|p2a: Heatran|51/100 par
+|
+|-heal|p2a: Heatran|58/100 par|[from] item: Leftovers
+|-damage|p1a: Poulpe 🐙|4/100|[from] move: Magma Storm|[partiallytrapped]
+|upkeep
+|turn|17
+|
+|t:|1743869881
+|move|p2a: Heatran|Earth Power|p1a: Poulpe 🐙
+|-damage|p1a: Poulpe 🐙|0 fnt
+|faint|p1a: Poulpe 🐙
+|
+|-heal|p2a: Heatran|64/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1743869884
+|switch|p1a: Tigrou|Landorus-Therian, M|100/100
+|-ability|p1a: Tigrou|Intimidate|boost
+|-unboost|p2a: Heatran|atk|1
+|turn|18
+|
+|t:|1743869892
+|move|p1a: Tigrou|Earthquake|p2a: Heatran
+|-supereffective|p2a: Heatran
+|-damage|p2a: Heatran|0 fnt
+|faint|p2a: Heatran
+|
+|upkeep
+|
+|t:|1743869894
+|switch|p2a: Pawmot|Pawmot, F|47/100
+|turn|19
+|
+|t:|1743869895
+|move|p2a: Pawmot|Ice Punch|p1a: Tigrou
+|-supereffective|p1a: Tigrou
+|-damage|p1a: Tigrou|0 fnt
+|faint|p1a: Tigrou
+|
+|upkeep
+|
+|t:|1743869898
+|switch|p1a: Scooby|Zamazenta|100/100
+|-ability|p1a: Scooby|Dauntless Shield|boost
+|-boost|p1a: Scooby|def|1
+|turn|20
+|
+|t:|1743869908
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Scooby|Play Rough|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743869917
+|switch|p2a: Clefable|Clefable, F|65/100
+|turn|21
+|
+|t:|1743869920
+|-terastallize|p1a: Scooby|Fairy
+|move|p1a: Scooby|Play Rough|p2a: Clefable
+|-damage|p2a: Clefable|16/100
+|-damage|p1a: Scooby|84/100|[from] item: Rocky Helmet|[of] p2a: Clefable
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|66/100
+|
+|upkeep
+|turn|22
+|
+|t:|1743869925
+|move|p1a: Scooby|Play Rough|p2a: Clefable
+|-damage|p2a: Clefable|12/100
+|-damage|p1a: Scooby|67/100|[from] item: Rocky Helmet|[of] p2a: Clefable
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|62/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743869928
+|move|p1a: Scooby|Play Rough|p2a: Clefable
+|-damage|p2a: Clefable|13/100
+|-damage|p1a: Scooby|51/100|[from] item: Rocky Helmet|[of] p2a: Clefable
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|63/100
+|
+|upkeep
+|turn|24
+|
+|t:|1743869931
+|move|p1a: Scooby|Play Rough|p2a: Clefable
+|-damage|p2a: Clefable|14/100
+|-damage|p1a: Scooby|34/100|[from] item: Rocky Helmet|[of] p2a: Clefable
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|64/100
+|
+|upkeep
+|turn|25
+|
+|t:|1743869934
+|move|p1a: Scooby|Play Rough|p2a: Clefable
+|-damage|p2a: Clefable|12/100
+|-damage|p1a: Scooby|17/100|[from] item: Rocky Helmet|[of] p2a: Clefable
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|62/100
+|
+|upkeep
+|turn|26
+|
+|t:|1743869937
+|move|p1a: Scooby|Play Rough|p2a: Clefable
+|-damage|p2a: Clefable|15/100
+|-damage|p1a: Scooby|1/100|[from] item: Rocky Helmet|[of] p2a: Clefable
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|65/100
+|
+|upkeep
+|turn|27
+|
+|t:|1743869939
+|move|p1a: Scooby|Play Rough|p2a: Clefable
+|-damage|p2a: Clefable|13/100
+|-damage|p1a: Scooby|0 fnt|[from] item: Rocky Helmet|[of] p2a: Clefable
+|faint|p1a: Scooby
+|
+|win|Futz1
+|raw|Mreow's rating: 1528 &rarr; <strong>1509</strong><br />(-19 for losing)
+|raw|Futz1's rating: 1541 &rarr; <strong>1560</strong><br />(+19 for winning)
+|l|☆Mreow
+|player|p1|
+|l|☆Futz1
+|player|p2|

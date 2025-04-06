@@ -1,0 +1,275 @@
+|j|☆OrangeSammy
+|j|☆KirbyKillua
+|t:|1743835411
+|gametype|singles
+|player|p1|OrangeSammy|boarder|1134
+|player|p2|KirbyKillua|miku-water|1138
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Iron Crown|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Darkrai|
+|poke|p2|Meowscarada, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Decidueye, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Alcremie-Ruby-Cream, F|
+|poke|p2|Tinkaton, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KirbyKillua)
+|
+|t:|1743835432
+|start
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|100/100
+|switch|p2a: Decidueye|Decidueye, M|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743835439
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|46/100
+|move|p2a: Decidueye|Swords Dance|p2a: Decidueye
+|-boost|p2a: Decidueye|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1743835445
+|move|p2a: Decidueye|Shadow Sneak|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|35/100
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|
+|upkeep
+|
+|t:|1743835450
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|turn|3
+|
+|t:|1743835468
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Tinkaton|Thunder Wave|p1a: Cinderace
+|-status|p1a: Cinderace|par
+|
+|upkeep
+|turn|4
+|
+|t:|1743835478
+|move|p2a: Tinkaton|Knock Off|p1a: Cinderace
+|-damage|p1a: Cinderace|75/100 par
+|-enditem|p1a: Cinderace|Wide Lens|[from] move: Knock Off|[of] p2a: Tinkaton
+|cant|p1a: Cinderace|par
+|
+|upkeep
+|turn|5
+|
+|t:|1743835485
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Cinderace|Pyro Ball|p2a: Ogerpon
+|-damage|p2a: Ogerpon|31/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743835492
+|move|p2a: Ogerpon|Horn Leech|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|42/100 par
+|-heal|p2a: Ogerpon|47/100|[from] drain|[of] p1a: Cinderace
+|cant|p1a: Cinderace|par
+|
+|upkeep
+|turn|7
+|
+|t:|1743835498
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Cinderace|[anim] Ivy Cudgel Water
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743835506
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ogerpon|atk|1
+|turn|8
+|
+|t:|1743835513
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|move|p1a: Landorus|U-turn|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|93/100
+|
+|t:|1743835531
+|switch|p1a: Iron Valiant|Iron Valiant, shiny|35/100|[from] U-turn
+|
+|-heal|p2a: Tinkaton|99/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743835537
+|move|p1a: Iron Valiant|Destiny Bond|p1a: Iron Valiant
+|-singlemove|p1a: Iron Valiant|Destiny Bond
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-activate|p1a: Iron Valiant|move: Destiny Bond
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|faint|p2a: Tinkaton
+|
+|upkeep
+|
+|t:|1743835565
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Cinderace|atk|1
+|turn|10
+|
+|t:|1743835573
+|move|p1a: Landorus|Earthquake|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1743835576
+|switch|p2a: Alcremie|Alcremie-Ruby-Cream, F|100/100
+|turn|11
+|
+|t:|1743835579
+|move|p1a: Landorus|Earthquake|p2a: Alcremie
+|-damage|p2a: Alcremie|53/100
+|move|p2a: Alcremie|Acid Armor|p2a: Alcremie
+|-boost|p2a: Alcremie|def|2
+|
+|-heal|p2a: Alcremie|59/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743835586
+|move|p1a: Landorus|Earthquake|p2a: Alcremie
+|-damage|p2a: Alcremie|33/100
+|move|p2a: Alcremie|Calm Mind|p2a: Alcremie
+|-boost|p2a: Alcremie|spa|1
+|-boost|p2a: Alcremie|spd|1
+|
+|-heal|p2a: Alcremie|39/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743835598
+|move|p1a: Landorus|Earthquake|p2a: Alcremie
+|-damage|p2a: Alcremie|12/100
+|move|p2a: Alcremie|Draining Kiss|p1a: Landorus
+|-damage|p1a: Landorus|63/100
+|-heal|p2a: Alcremie|39/100|[from] drain|[of] p1a: Landorus
+|
+|-heal|p2a: Alcremie|45/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743835606
+|move|p1a: Landorus|Earthquake|p2a: Alcremie
+|-damage|p2a: Alcremie|18/100
+|move|p2a: Alcremie|Draining Kiss|p1a: Landorus
+|-damage|p1a: Landorus|26/100
+|-heal|p2a: Alcremie|45/100|[from] drain|[of] p1a: Landorus
+|
+|-heal|p2a: Alcremie|51/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743835611
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|move|p2a: Alcremie|Calm Mind|p2a: Alcremie
+|-boost|p2a: Alcremie|spa|1
+|-boost|p2a: Alcremie|spd|1
+|
+|-heal|p2a: Alcremie|57/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743835620
+|-terastallize|p2a: Alcremie|Steel
+|move|p1a: Iron Crown|Tachyon Cutter|p2a: Alcremie
+|-resisted|p2a: Alcremie
+|-damage|p2a: Alcremie|50/100
+|-resisted|p2a: Alcremie
+|-damage|p2a: Alcremie|44/100
+|-hitcount|p2a: Alcremie|2
+|move|p2a: Alcremie|Calm Mind|p2a: Alcremie
+|-boost|p2a: Alcremie|spa|1
+|-boost|p2a: Alcremie|spd|1
+|
+|-heal|p2a: Alcremie|50/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743835633
+|move|p1a: Iron Crown|Focus Blast|p2a: Alcremie
+|-supereffective|p2a: Alcremie
+|-damage|p2a: Alcremie|19/100
+|move|p2a: Alcremie|Draining Kiss|p1a: Iron Crown
+|-resisted|p1a: Iron Crown
+|-damage|p1a: Iron Crown|87/100
+|-heal|p2a: Alcremie|31/100|[from] drain|[of] p1a: Iron Crown
+|
+|-heal|p2a: Alcremie|37/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743835642
+|move|p1a: Iron Crown|Focus Blast|p2a: Alcremie
+|-supereffective|p2a: Alcremie
+|-damage|p2a: Alcremie|5/100
+|move|p2a: Alcremie|Draining Kiss|p1a: Iron Crown
+|-resisted|p1a: Iron Crown
+|-damage|p1a: Iron Crown|75/100
+|-heal|p2a: Alcremie|15/100|[from] drain|[of] p1a: Iron Crown
+|
+|-heal|p2a: Alcremie|21/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743835651
+|move|p1a: Iron Crown|Focus Blast|p2a: Alcremie
+|-supereffective|p2a: Alcremie
+|-damage|p2a: Alcremie|0 fnt
+|faint|p2a: Alcremie
+|
+|upkeep
+|-message|KirbyKillua forfeited.
+|
+|win|OrangeSammy
+|raw|OrangeSammy's rating: 1134 &rarr; <strong>1159</strong><br />(+25 for winning)
+|raw|KirbyKillua's rating: 1138 &rarr; <strong>1113</strong><br />(-25 for losing)
+|l|☆KirbyKillua
+|player|p2|
+|l|☆OrangeSammy
+|player|p1|

@@ -1,0 +1,309 @@
+|j|☆FeelMeUp
+|j|☆Goobler34
+|t:|1743830716
+|gametype|singles
+|player|p1|FeelMeUp|youngcouple-gen4dp|1167
+|player|p2|Goobler34|petrel|1283
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Pecharunt|
+|poke|p1|Reuniclus, F|
+|poke|p1|Darkrai|
+|poke|p1|Kingambit, F|
+|poke|p2|Greninja-*, M|
+|poke|p2|Kleavor, M|
+|poke|p2|Glimmora, F|
+|poke|p2|Quagsire, F|
+|poke|p2|Salazzle, F|
+|poke|p2|Conkeldurr, F|
+|teampreview
+|
+|t:|1743830721
+|start
+|switch|p1a: Valediction|Samurott-Hisui, F, shiny|100/100
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|turn|1
+|
+|t:|1743830731
+|move|p2a: Kleavor|U-turn|p1a: Valediction
+|-supereffective|p1a: Valediction
+|-damage|p1a: Valediction|3/100
+|
+|t:|1743830739
+|switch|p2a: Glimmora|Glimmora, F|100/100|[from] U-turn
+|move|p1a: Valediction|Aqua Cutter|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-enditem|p2a: Glimmora|Focus Sash
+|-damage|p2a: Glimmora|1/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: FeelMeUp|move: Toxic Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1743830753
+|move|p1a: Valediction|Aqua Jet|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: FeelMeUp|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|upkeep
+|
+|t:|1743830759
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|turn|3
+|
+|t:|1743830765
+|move|p2a: Kleavor|Stone Axe|p1a: Valediction|[miss]
+|-miss|p2a: Kleavor|p1a: Valediction
+|move|p1a: Valediction|Ceaseless Edge|p2a: Kleavor|[miss]
+|-miss|p1a: Valediction|p2a: Kleavor
+|
+|upkeep
+|turn|4
+|c|☆FeelMeUp|well
+|
+|t:|1743830777
+|move|p2a: Kleavor|Stone Axe|p1a: Valediction
+|-damage|p1a: Valediction|0 fnt
+|-sidestart|p1: FeelMeUp|move: Stealth Rock
+|faint|p1a: Valediction
+|
+|upkeep
+|c|☆Goobler34|Lol
+|
+|t:|1743830818
+|switch|p1a: Azathoth|Pecharunt|100/100
+|-sideend|p1: FeelMeUp|move: Toxic Spikes|[of] p1a: Azathoth
+|-damage|p1a: Azathoth|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1743830831
+|switch|p2a: Conkeldurr|Conkeldurr, F|100/100
+|move|p1a: Azathoth|Malignant Chain|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|70/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743830840
+|move|p1a: Azathoth|Malignant Chain|p2a: Conkeldurr
+|-damage|p2a: Conkeldurr|36/100
+|move|p2a: Conkeldurr|Knock Off|p1a: Azathoth
+|-supereffective|p1a: Azathoth
+|-damage|p1a: Azathoth|30/100
+|-enditem|p1a: Azathoth|Shuca Berry|[from] move: Knock Off|[of] p2a: Conkeldurr
+|
+|upkeep
+|turn|7
+|
+|t:|1743830853
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|move|p1a: Azathoth|Malignant Chain|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|68/100
+|
+|-heal|p2a: Salazzle|75/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743830863
+|-terastallize|p1a: Azathoth|Ground
+|move|p2a: Salazzle|Toxic|p1a: Azathoth
+|-status|p1a: Azathoth|tox
+|move|p1a: Azathoth|Tera Blast|p2a: Salazzle|[anim] Tera Blast Ground
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|-damage|p1a: Azathoth|24/100 tox|[from] psn
+|upkeep
+|
+|t:|1743830884
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|9
+|
+|t:|1743830890
+|move|p2a: Greninja|Dark Pulse|p1a: Azathoth
+|-damage|p1a: Azathoth|0 fnt
+|faint|p1a: Azathoth
+|-ability|p2a: Greninja|Battle Bond|boost
+|-boost|p2a: Greninja|atk|1
+|-boost|p2a: Greninja|spa|1
+|-boost|p2a: Greninja|spe|1
+|-activate|p2a: Greninja|ability: Battle Bond
+|-damage|p2a: Greninja|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743830919
+|switch|p1a: Metastasis|Reuniclus, F, shiny|100/100
+|turn|10
+|
+|t:|1743830924
+|move|p2a: Greninja|Dark Pulse|p1a: Metastasis
+|-supereffective|p1a: Metastasis
+|-damage|p1a: Metastasis|0 fnt
+|faint|p1a: Metastasis
+|-damage|p2a: Greninja|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743830931
+|switch|p1a: Mani Katti|Iron Valiant|100/100
+|-damage|p1a: Mani Katti|94/100|[from] Stealth Rock
+|-enditem|p1a: Mani Katti|Booster Energy
+|-activate|p1a: Mani Katti|ability: Quark Drive|[fromitem]
+|-start|p1a: Mani Katti|quarkdrivespa
+|turn|11
+|
+|t:|1743830943
+|move|p1a: Mani Katti|Vacuum Wave|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|upkeep
+|
+|t:|1743830954
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|turn|12
+|
+|t:|1743830964
+|move|p2a: Kleavor|Aerial Ace|p1a: Mani Katti
+|-supereffective|p1a: Mani Katti
+|-damage|p1a: Mani Katti|14/100
+|move|p1a: Mani Katti|Calm Mind|p1a: Mani Katti
+|-boost|p1a: Mani Katti|spa|1
+|-boost|p1a: Mani Katti|spd|1
+|
+|upkeep
+|turn|13
+|
+|t:|1743830978
+|-end|p1a: Mani Katti|Quark Drive|[silent]
+|switch|p1a: Murasama|Kingambit, F|100/100
+|-damage|p1a: Murasama|94/100|[from] Stealth Rock
+|-activate|p1a: Murasama|ability: Supreme Overlord
+|-start|p1a: Murasama|fallen3|[silent]
+|move|p2a: Kleavor|Aerial Ace|p1a: Murasama
+|-resisted|p1a: Murasama
+|-damage|p1a: Murasama|83/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743830989
+|switch|p2a: Quagsire|Quagsire, F|100/100
+|move|p1a: Murasama|Swords Dance|p1a: Murasama
+|-boost|p1a: Murasama|atk|2
+|
+|upkeep
+|turn|15
+|
+|t:|1743830999
+|move|p1a: Murasama|Iron Head|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|80/100
+|move|p2a: Quagsire|Earthquake|p1a: Murasama
+|-supereffective|p1a: Murasama
+|-damage|p1a: Murasama|43/100
+|-enditem|p1a: Murasama|Weakness Policy
+|-boost|p1a: Murasama|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Murasama|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|16
+|
+|t:|1743831015
+|move|p1a: Murasama|Kowtow Cleave|p2a: Quagsire
+|-damage|p2a: Quagsire|36/100
+|move|p2a: Quagsire|Recover|p2a: Quagsire
+|-heal|p2a: Quagsire|86/100
+|
+|upkeep
+|turn|17
+|
+|t:|1743831031
+|move|p1a: Murasama|Iron Head|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|66/100
+|move|p2a: Quagsire|Earthquake|p1a: Murasama
+|-supereffective|p1a: Murasama
+|-damage|p1a: Murasama|5/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743831039
+|move|p1a: Murasama|Iron Head|p2a: Quagsire
+|-resisted|p2a: Quagsire
+|-damage|p2a: Quagsire|45/100
+|move|p2a: Quagsire|Earthquake|p1a: Murasama
+|-supereffective|p1a: Murasama
+|-damage|p1a: Murasama|0 fnt
+|faint|p1a: Murasama
+|-end|p1a: Murasama|fallen3|[silent]
+|
+|upkeep
+|
+|t:|1743831053
+|switch|p1a: Scarlet Devil|Darkrai|100/100
+|-damage|p1a: Scarlet Devil|88/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743831061
+|move|p1a: Scarlet Devil|Dark Pulse|p2a: Quagsire
+|-damage|p2a: Quagsire|0 fnt
+|faint|p2a: Quagsire
+|
+|upkeep
+|
+|t:|1743831084
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|turn|20
+|
+|t:|1743831092
+|move|p2a: Kleavor|X-Scissor|p1a: Scarlet Devil
+|-supereffective|p1a: Scarlet Devil
+|-damage|p1a: Scarlet Devil|0 fnt
+|faint|p1a: Scarlet Devil
+|
+|upkeep
+|
+|t:|1743831098
+|switch|p1a: Mani Katti|Iron Valiant|14/100
+|-damage|p1a: Mani Katti|8/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1743831106
+|move|p1a: Mani Katti|Vacuum Wave|p2a: Kleavor
+|-damage|p2a: Kleavor|67/100
+|move|p2a: Kleavor|X-Scissor|p1a: Mani Katti
+|-resisted|p1a: Mani Katti
+|-damage|p1a: Mani Katti|0 fnt
+|faint|p1a: Mani Katti
+|-end|p1a: Mani Katti|Quark Drive|[silent]
+|
+|win|Goobler34
+|raw|FeelMeUp's rating: 1167 &rarr; <strong>1150</strong><br />(-17 for losing)
+|raw|Goobler34's rating: 1283 &rarr; <strong>1300</strong><br />(+17 for winning)
+|l|☆FeelMeUp
+|player|p1|
+|l|☆Goobler34
+|player|p2|

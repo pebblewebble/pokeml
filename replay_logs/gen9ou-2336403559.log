@@ -1,0 +1,322 @@
+|j|‽norebuhl
+|j|☆yl5293
+|t:|1743912607
+|gametype|singles
+|player|p1|norebuhl|101|1515
+|player|p2|yl5293|lucas|1570
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragonite, M|
+|poke|p1|Kyurem|
+|poke|p1|Ting-Lu|
+|poke|p1|Iron Moth|
+|poke|p1|Iron Valiant|
+|poke|p1|Gholdengo|
+|poke|p2|Zamazenta-*|
+|poke|p2|Kingambit, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Iron Moth|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by yl5293)
+|
+|t:|1743912625
+|start
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|1
+|
+|t:|1743912634
+|move|p1a: Iron Moth|Fiery Dance|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|69/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Samurott|Ceaseless Edge|p1a: Iron Moth
+|-damage|p1a: Iron Moth|31/100
+|-sidestart|p1: norebuhl|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1743912643
+|move|p2a: Samurott|Aqua Jet|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743912651
+|switch|p1a: Kyurem|Kyurem|100/100
+|-damage|p1a: Kyurem|88/100|[from] Spikes
+|-ability|p1a: Kyurem|Pressure
+|turn|3
+|
+|t:|1743912666
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743912678
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|88/100|[from] Spikes
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: Zamazenta|Body Press|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|54/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743912698
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Iron Valiant|atk|1
+|move|p1a: Iron Valiant|Knock Off|p2a: Landorus
+|-damage|p2a: Landorus|81/100
+|-damage|p1a: Iron Valiant|37/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|-enditem|p2a: Landorus|Rocky Helmet|[from] move: Knock Off|[of] p1a: Iron Valiant
+|
+|upkeep
+|turn|6
+|
+|t:|1743912707
+|move|p1a: Iron Valiant|Moonblast|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|15/100
+|move|p2a: Landorus|Earthquake|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743912717
+|switch|p1a: Kyurem|Kyurem|88/100
+|-damage|p1a: Kyurem|76/100|[from] Spikes
+|-ability|p1a: Kyurem|Pressure
+|turn|7
+|
+|t:|1743912724
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Landorus|Stealth Rock|p1a: Kyurem
+|-sidestart|p1: norebuhl|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1743912732
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Landorus|Earthquake|p1a: Kyurem
+|-damage|p1a: Kyurem|34/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743912739
+|move|p1a: Kyurem|Icicle Spear|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|-hitcount|p2: Landorus|1
+|
+|upkeep
+|
+|t:|1743912747
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|10
+|
+|t:|1743912756
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Kingambit|Iron Head|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|t:|1743912764
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|88/100|[from] Spikes
+|-damage|p1a: Gholdengo|82/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1743912770
+|move|p1a: Gholdengo|Trick|p2a: Kingambit
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Kingambit
+|-item|p2a: Kingambit|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Leftovers|[from] move: Trick
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743912779
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-damage|p1a: Ting-Lu|88/100|[from] Spikes
+|-damage|p1a: Ting-Lu|82/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|12
+|
+|t:|1743912789
+|-end|p2a: Kingambit|fallen1|[silent]
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Zamazenta
+|-sidestart|p2: yl5293|move: Stealth Rock
+|
+|upkeep
+|turn|13
+|
+|t:|1743912797
+|move|p2a: Zamazenta|Body Press|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|47/100
+|-damage|p2a: Zamazenta|84/100|[from] item: Rocky Helmet|[of] p1a: Ting-Lu
+|move|p1a: Ting-Lu|Ruination|p2a: Zamazenta
+|-damage|p2a: Zamazenta|42/100
+|
+|-heal|p2a: Zamazenta|49/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743912806
+|move|p2a: Zamazenta|Body Press|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|-damage|p2a: Zamazenta|32/100|[from] item: Rocky Helmet|[of] p1a: Ting-Lu
+|faint|p1a: Ting-Lu
+|
+|-heal|p2a: Zamazenta|38/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743912814
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|15
+|
+|t:|1743912819
+|move|p2a: Zamazenta|Crunch|p1a: Dragonite
+|-damage|p1a: Dragonite|87/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p2a: Zamazenta|44/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743912830
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|17
+|
+|t:|1743912841
+|-terastallize|p1a: Dragonite|Normal
+|move|p1a: Dragonite|Extreme Speed|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743912863
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|18
+|
+|t:|1743912872
+|move|p1a: Dragonite|Extreme Speed|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|59/100
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|upkeep
+|turn|19
+|
+|t:|1743912878
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Samurott|Samurott-Hisui, M|69/100
+|-damage|p2a: Samurott|56/100|[from] Stealth Rock
+|move|p1a: Dragonite|Extreme Speed|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743912881
+|switch|p2a: Kingambit|Kingambit, M|59/100
+|-damage|p2a: Kingambit|53/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen3|[silent]
+|turn|20
+|
+|t:|1743912889
+|-terastallize|p2a: Kingambit|Ghost
+|move|p1a: Dragonite|Extreme Speed|p2a: Kingambit
+|-immune|p2a: Kingambit
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Dragonite
+|-damage|p1a: Dragonite|20/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743912897
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|yl5293
+|raw|norebuhl's rating: 1515 &rarr; <strong>1498</strong><br />(-17 for losing)
+|raw|yl5293's rating: 1570 &rarr; <strong>1587</strong><br />(+17 for winning)
+|l|‽norebuhl
+|player|p1|
+|l|☆yl5293
+|player|p2|

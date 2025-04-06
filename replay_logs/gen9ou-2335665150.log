@@ -1,0 +1,166 @@
+|j|☆showbiz_carton
+|j|☆sauceybake
+|t:|1743818710
+|gametype|singles
+|player|p1|showbiz_carton|flint|1167
+|player|p2|sauceybake|riley|1125
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Infernape, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Ribombee, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Gholdengo|
+|poke|p1|Iron Treads|
+|poke|p2|Furret, M|
+|poke|p2|Galvantula, M|
+|poke|p2|Heracross, M|
+|poke|p2|Quagsire, M|
+|poke|p2|Chandelure, M|
+|poke|p2|Sneasel, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by showbiz_carton)
+|
+|t:|1743818726
+|start
+|switch|p1a: Zuko|Infernape, M, shiny|100/100
+|switch|p2a: Sneasel|Sneasel, M|100/100
+|turn|1
+|
+|t:|1743818731
+|move|p2a: Sneasel|Fake Out|p1a: Zuko
+|-damage|p1a: Zuko|83/100
+|cant|p1a: Zuko|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1743818742
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|move|p1a: Zuko|Mach Punch|p2a: Chandelure
+|-immune|p2a: Chandelure
+|
+|upkeep
+|turn|3
+|
+|t:|1743818753
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|move|p2a: Chandelure|Shadow Ball|p1a: Rotom
+|-damage|p1a: Rotom|49/100
+|
+|-heal|p1a: Rotom|55/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743818763
+|switch|p2a: Galvantula|Galvantula, M, shiny|100/100
+|move|p1a: Rotom|Hydro Pump|p2a: Galvantula
+|-crit|p2a: Galvantula
+|-enditem|p2a: Galvantula|Focus Sash
+|-damage|p2a: Galvantula|1/100
+|
+|-heal|p1a: Rotom|62/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743818773
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Galvantula|atk|1
+|move|p2a: Galvantula|Sticky Web|p1a: Landorus
+|-sidestart|p1: showbiz_carton|move: Sticky Web
+|
+|upkeep
+|turn|6
+|
+|t:|1743818784
+|switch|p2a: Sneasel|Sneasel, M|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: Sneasel
+|-sidestart|p2: sauceybake|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1743818791
+|switch|p1a: Rotom|Rotom-Wash|62/100
+|move|p2a: Sneasel|Swords Dance|p2a: Sneasel
+|-boost|p2a: Sneasel|atk|2
+|
+|-heal|p1a: Rotom|68/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743818802
+|move|p2a: Sneasel|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-enditem|p1a: Rotom|Leftovers|[from] move: Knock Off|[of] p2a: Sneasel
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1743818807
+|switch|p1a: Amile|Ribombee, F, shiny|100/100
+|-activate|p1a: Amile|move: Sticky Web
+|-unboost|p1a: Amile|spe|1
+|turn|9
+|
+|t:|1743818815
+|move|p2a: Sneasel|Knock Off|p1a: Amile
+|-resisted|p1a: Amile
+|-damage|p1a: Amile|33/100
+|-enditem|p1a: Amile|Focus Sash|[from] move: Knock Off|[of] p2a: Sneasel
+|move|p1a: Amile|Moonblast|p2a: Sneasel
+|-supereffective|p2a: Sneasel
+|-damage|p2a: Sneasel|32/100
+|-unboost|p2a: Sneasel|spa|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743818826
+|move|p1a: Amile|Protect|p1a: Amile
+|-singleturn|p1a: Amile|Protect
+|move|p2a: Sneasel|Ice Shard|p1a: Amile
+|-activate|p1a: Amile|move: Protect
+|
+|upkeep
+|turn|11
+|
+|t:|1743818832
+|switch|p1a: Zuko|Infernape, M, shiny|83/100
+|-activate|p1a: Zuko|move: Sticky Web
+|-unboost|p1a: Zuko|spe|1
+|move|p2a: Sneasel|Knock Off|p1a: Zuko
+|-resisted|p1a: Zuko
+|-damage|p1a: Zuko|20/100
+|-enditem|p1a: Zuko|Punching Glove|[from] move: Knock Off|[of] p2a: Sneasel
+|
+|upkeep
+|turn|12
+|
+|t:|1743818843
+|-terastallize|p2a: Sneasel|Ghost
+|move|p2a: Sneasel|Knock Off|p1a: Zuko
+|-resisted|p1a: Zuko
+|-damage|p1a: Zuko|0 fnt
+|faint|p1a: Zuko
+|
+|upkeep
+|-message|showbiz_carton forfeited.
+|
+|win|sauceybake
+|raw|showbiz_carton's rating: 1167 &rarr; <strong>1139</strong><br />(-28 for losing)
+|raw|sauceybake's rating: 1125 &rarr; <strong>1153</strong><br />(+28 for winning)
+|l|☆showbiz_carton
+|player|p1|

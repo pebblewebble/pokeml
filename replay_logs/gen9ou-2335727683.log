@@ -1,0 +1,460 @@
+|j|☆heartsxyz
+|j|☆jibreel69
+|t:|1743826845
+|gametype|singles
+|player|p1|heartsxyz|veteran|1211
+|player|p2|jibreel69|clair|1216
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, M|
+|poke|p1|Zapdos|
+|poke|p1|Primarina, F|
+|poke|p1|Barraskewda, F|
+|poke|p1|Magnezone|
+|poke|p1|Tsareena, F|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Alomomola, F|
+|poke|p2|Iron Treads|
+|poke|p2|Walking Wake|
+|teampreview
+|
+|t:|1743826880
+|start
+|switch|p1a: Zapdos|Zapdos|100/100
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|turn|1
+|
+|t:|1743826886
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Thundurus|Thundurus-Therian, M, shiny|100/100
+|move|p1a: Zapdos|Volt Switch|p2a: Thundurus
+|-immune|p2a: Thundurus|[from] ability: Volt Absorb
+|
+|upkeep
+|turn|2
+|
+|t:|1743826895
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|move|p2a: Thundurus|Volt Switch|p1a: Tsareena
+|-resisted|p1a: Tsareena
+|-damage|p1a: Tsareena|80/100
+|
+|t:|1743826903
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from] Volt Switch
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|3
+|
+|t:|1743826908
+|move|p1a: Tsareena|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|80/100
+|-damage|p1a: Tsareena|63/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|-enditem|p2a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p1a: Tsareena
+|move|p2a: Corviknight|Brave Bird|p1a: Tsareena
+|-supereffective|p1a: Tsareena
+|-damage|p1a: Tsareena|0 fnt
+|faint|p1a: Tsareena
+|-damage|p2a: Corviknight|62/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743826914
+|switch|p1a: Magnezone|Magnezone|100/100
+|turn|4
+|
+|t:|1743826957
+|move|p2a: Corviknight|Body Press|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|57/100
+|move|p1a: Magnezone|Volt Switch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|t:|1743826970
+|switch|p1a: Barraskewda|Barraskewda, F|100/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1743826980
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|turn|5
+|
+|t:|1743826984
+|move|p1a: Barraskewda|Flip Turn|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|89/100
+|
+|t:|1743826989
+|switch|p1a: Primarina|Primarina, F|100/100|[from] Flip Turn
+|move|p2a: Walking Wake|Knock Off|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|90/100
+|-enditem|p1a: Primarina|Assault Vest|[from] move: Knock Off|[of] p2a: Walking Wake
+|
+|upkeep
+|turn|6
+|
+|t:|1743826997
+|move|p2a: Walking Wake|Flip Turn|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|78/100
+|
+|t:|1743827004
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Alomomola|Alomomola, F, shiny|100/100|[from] Flip Turn
+|move|p1a: Primarina|Moonblast|p2a: Alomomola
+|-damage|p2a: Alomomola|51/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743827010
+|move|p1a: Primarina|Psychic Noise|p2a: Alomomola
+|-damage|p2a: Alomomola|23/100
+|-start|p2a: Alomomola|move: Heal Block
+|cant|p2a: Alomomola|move: Heal Block|Wish
+|
+|upkeep
+|turn|8
+|
+|t:|1743827024
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Primarina|Moonblast|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-end|p2a: Alomomola|move: Heal Block
+|upkeep
+|turn|9
+|
+|t:|1743827045
+|switch|p2a: Walking Wake|Walking Wake|89/100
+|move|p1a: Primarina|Psychic Noise|p2a: Walking Wake
+|-damage|p2a: Walking Wake|69/100
+|-start|p2a: Walking Wake|move: Heal Block
+|
+|upkeep
+|turn|10
+|
+|t:|1743827058
+|move|p2a: Walking Wake|Flip Turn|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|68/100
+|
+|t:|1743827070
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Iron Treads|Iron Treads|100/100|[from] Flip Turn
+|move|p1a: Primarina|Moonblast|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|75/100
+|-unboost|p2a: Iron Treads|spa|1
+|
+|upkeep
+|turn|11
+|
+|t:|1743827086
+|switch|p1a: Magnezone|Magnezone|57/100
+|move|p2a: Iron Treads|Supercell Slam|p1a: Magnezone
+|-resisted|p1a: Magnezone
+|-damage|p1a: Magnezone|45/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743827094
+|move|p2a: Iron Treads|Earthquake|p1a: Magnezone
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|upkeep
+|
+|t:|1743827100
+|switch|p1a: Barraskewda|Barraskewda, F|100/100
+|turn|13
+|
+|t:|1743827108
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Alomomola|Alomomola, F, shiny|57/100
+|move|p1a: Barraskewda|Flip Turn|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|41/100
+|-damage|p1a: Barraskewda|84/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|
+|t:|1743827117
+|switch|p1a: Primarina|Primarina, F|68/100|[from] Flip Turn
+|
+|upkeep
+|turn|14
+|
+|t:|1743827126
+|move|p1a: Primarina|Psychic Noise|p2a: Alomomola
+|-damage|p2a: Alomomola|18/100
+|-start|p2a: Alomomola|move: Heal Block
+|move|p2a: Alomomola|Mirror Coat|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|upkeep
+|
+|t:|1743827136
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|15
+|
+|t:|1743827163
+|switch|p2a: Walking Wake|Walking Wake|69/100
+|move|p1a: Pelipper|Knock Off|p2a: Walking Wake
+|-damage|p2a: Walking Wake|56/100
+|-enditem|p2a: Walking Wake|Assault Vest|[from] move: Knock Off|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743827172
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Walking Wake|Knock Off|p1a: Zapdos
+|-damage|p1a: Zapdos|80/100
+|-enditem|p1a: Zapdos|Choice Scarf|[from] move: Knock Off|[of] p2a: Walking Wake
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743827182
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Thundurus|Thundurus-Therian, M, shiny|100/100
+|move|p1a: Zapdos|Hurricane|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|62/100
+|-start|p2a: Thundurus|confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743827194
+|-activate|p2a: Thundurus|confusion
+|move|p2a: Thundurus|Volt Switch|p1a: Zapdos
+|-damage|p1a: Zapdos|5/100
+|
+|t:|1743827200
+|switch|p2a: Iron Treads|Iron Treads|75/100|[from] Volt Switch
+|move|p1a: Zapdos|Weather Ball|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743827212
+|switch|p2a: Alomomola|Alomomola, F, shiny|51/100
+|turn|19
+|
+|t:|1743827217
+|switch|p2a: Thundurus|Thundurus-Therian, M, shiny|62/100
+|move|p1a: Zapdos|Hurricane|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|22/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1743827239
+|move|p2a: Thundurus|Volt Switch|p1a: Zapdos
+|-damage|p1a: Zapdos|0 fnt
+|faint|p1a: Zapdos
+|
+|t:|1743827253
+|switch|p2a: Alomomola|Alomomola, F, shiny|84/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743827258
+|switch|p1a: Pelipper|Pelipper, M|100/100
+|turn|21
+|
+|t:|1743827264
+|move|p1a: Pelipper|Knock Off|p2a: Alomomola
+|-damage|p2a: Alomomola|76/100
+|-damage|p1a: Pelipper|84/100|[from] item: Rocky Helmet|[of] p2a: Alomomola
+|-enditem|p2a: Alomomola|Rocky Helmet|[from] move: Knock Off|[of] p1a: Pelipper
+|move|p2a: Alomomola|Mirror Coat||[still]
+|-fail|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|22
+|c|☆heartsxyz|!dt mirror coat
+|raw|<ul class="utilichart"><li class="result"><span class="col movenamecol"><a href="https://dex.pokemonshowdown.com/moves/mirrorcoat">Mirror Coat</a></span> <span class="col typecol"><img src="//play.pokemonshowdown.com/sprites/types/Psychic.png" alt="Psychic" width="32" height="14"><img src="//play.pokemonshowdown.com/sprites/categories/Special.png" alt="Special" width="32" height="14"></span> <span class="col widelabelcol"><em>Accuracy</em><br>100%</span> <span class="col pplabelcol"><em>PP</em><br>32</span> <span class="col movedesccol">If hit by special attack, returns double damage.</span> </li><li style="clear:both"></li></ul>
+|raw|<font size="1"><font color="#686868">Priority:</font> -5&nbsp;|&ThickSpace;<font color="#686868">Gen:</font> 2&nbsp;|&ThickSpace;<font color="#686868">Z-Power:</font> 100&nbsp;|&ThickSpace;<font color="#686868">Target:</font> Chosen Automatically</font>
+
+|
+|t:|1743827280
+|move|p2a: Alomomola|Flip Turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|75/100
+|
+|t:|1743827287
+|switch|p2a: Walking Wake|Walking Wake|56/100|[from] Flip Turn
+|move|p1a: Pelipper|Knock Off|p2a: Walking Wake
+|-damage|p2a: Walking Wake|48/100
+|
+|-weather|none
+|upkeep
+|turn|23
+|
+|t:|1743827300
+|move|p2a: Walking Wake|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|62/100
+|-enditem|p1a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p2a: Walking Wake
+|move|p1a: Pelipper|Hurricane|p2a: Walking Wake
+|-damage|p2a: Walking Wake|10/100
+|
+|upkeep
+|turn|24
+|
+|t:|1743827309
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Alomomola|Alomomola, F, shiny|100/100
+|move|p1a: Pelipper|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|94/100
+|
+|t:|1743827313
+|switch|p1a: Barraskewda|Barraskewda, F|84/100|[from] U-turn
+|
+|upkeep
+|turn|25
+|
+|t:|1743827318
+|move|p1a: Barraskewda|Flip Turn|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|80/100
+|
+|t:|1743827321
+|switch|p1a: Pelipper|Pelipper, M|62/100|[from] Flip Turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|26
+|
+|t:|1743827329
+|move|p2a: Alomomola|Flip Turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|52/100
+|
+|t:|1743827336
+|switch|p2a: Thundurus|Thundurus-Therian, M, shiny|22/100|[from] Flip Turn
+|move|p1a: Pelipper|Roost|p1a: Pelipper
+|-heal|p1a: Pelipper|100/100
+|-singleturn|p1a: Pelipper|move: Roost
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Thundurus|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|27
+|
+|t:|1743827349
+|-terastallize|p1a: Pelipper|Ground
+|move|p2a: Thundurus|Volt Switch|p1a: Pelipper
+|-immune|p1a: Pelipper
+|move|p1a: Pelipper|Knock Off|p2a: Thundurus
+|-damage|p2a: Thundurus|81/100
+|-enditem|p2a: Thundurus|Choice Specs|[from] move: Knock Off|[of] p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1743827363
+|move|p2a: Thundurus|Psychic|p1a: Pelipper
+|-damage|p1a: Pelipper|52/100
+|move|p1a: Pelipper|Hurricane|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|56/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|29
+|
+|t:|1743827371
+|move|p2a: Thundurus|Psychic|p1a: Pelipper
+|-damage|p1a: Pelipper|7/100
+|move|p1a: Pelipper|U-turn|p2a: Thundurus
+|-resisted|p2a: Thundurus
+|-damage|p2a: Thundurus|48/100
+|
+|t:|1743827374
+|switch|p1a: Barraskewda|Barraskewda, F|84/100|[from] U-turn
+|
+|-weather|none
+|upkeep
+|turn|30
+|
+|t:|1743827384
+|move|p1a: Barraskewda|Psychic Fangs|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|faint|p2a: Thundurus
+|
+|upkeep
+|
+|t:|1743827395
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|31
+|
+|t:|1743827399
+|switch|p1a: Pelipper|Pelipper, M, tera:Ground|7/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-terastallize|p2a: Cinderace|Water
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Pelipper
+|-status|p1a: Pelipper|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|0 fnt|[from] brn
+|faint|p1a: Pelipper
+|upkeep
+|
+|t:|1743827400
+|switch|p1a: Barraskewda|Barraskewda, F|84/100
+|turn|32
+|
+|t:|1743827410
+|move|p1a: Barraskewda|Liquidation|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|25/100
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Barraskewda
+|-status|p1a: Barraskewda|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Barraskewda|78/100 brn|[from] brn
+|upkeep
+|turn|33
+|-message|heartsxyz forfeited.
+|
+|win|jibreel69
+|raw|heartsxyz's rating: 1211 &rarr; <strong>1186</strong><br />(-25 for losing)
+|raw|jibreel69's rating: 1216 &rarr; <strong>1241</strong><br />(+25 for winning)
+|l|☆heartsxyz
+|player|p1|

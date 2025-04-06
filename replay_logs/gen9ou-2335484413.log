@@ -1,0 +1,304 @@
+|j|☆twistmebabe
+|j|☆Retien
+|t:|1743798572
+|gametype|singles
+|player|p1|twistmebabe|wallace|1164
+|player|p2|Retien|depotagent|1209
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, F|
+|poke|p1|Walking Wake|
+|poke|p1|Leavanny, M|
+|poke|p1|Great Tusk|
+|poke|p1|Comfey, F|
+|poke|p1|Tornadus-Therian, M|
+|poke|p2|Regigigas|
+|poke|p2|Araquanid, F|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Zapdos|
+|poke|p2|Pecharunt|
+|poke|p2|Samurott-Hisui, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Retien)
+|inactive|twistmebabe also wants the timer to be on.
+|
+|t:|1743798590
+|start
+|switch|p1a: Ninetales|Ninetales, F, shiny|100/100
+|switch|p2a: MAUCH|Araquanid, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1743798597
+|move|p1a: Ninetales|Scorching Sands|p2a: MAUCH
+|-resisted|p2a: MAUCH
+|-damage|p2a: MAUCH|95/100
+|move|p2a: MAUCH|Sticky Web|p1a: Ninetales
+|-sidestart|p1: twistmebabe|move: Sticky Web
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743798608
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|move: Sticky Web
+|-unboost|p1a: Walking Wake|spe|1
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|move|p2a: MAUCH|Surf|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|93/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743798615
+|move|p2a: MAUCH|Endure|p2a: MAUCH
+|-singleturn|p2a: MAUCH|move: Endure
+|move|p1a: Walking Wake|Draco Meteor|p2a: MAUCH
+|-activate|p2a: MAUCH|move: Endure
+|-damage|p2a: MAUCH|1/100
+|-unboost|p1a: Walking Wake|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|-enditem|p2a: MAUCH|Custap Berry|[eat]
+|-activate|p2a: MAUCH|item: Custap Berry|[consumed]
+|
+|t:|1743798622
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100
+|move|p2a: MAUCH|Endeavor|p1a: Tornadus
+|-damage|p1a: Tornadus|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743798635
+|move|p2a: MAUCH|Endure|p2a: MAUCH
+|-singleturn|p2a: MAUCH|move: Endure
+|move|p1a: Tornadus|U-turn|p2a: MAUCH
+|-activate|p2a: MAUCH|move: Endure
+|-damage|p2a: MAUCH|1/100
+|
+|t:|1743798641
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisdef
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743798647
+|move|p1a: Great Tusk|Headlong Rush|p2a: MAUCH
+|-resisted|p2a: MAUCH
+|-damage|p2a: MAUCH|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: MAUCH
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743798651
+|switch|p2a: PAS LUI|Samurott-Hisui, M|100/100
+|turn|7
+|
+|t:|1743798654
+|move|p2a: PAS LUI|Ceaseless Edge|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|85/100
+|-sidestart|p1: twistmebabe|Spikes
+|move|p1a: Great Tusk|Rapid Spin|p2a: PAS LUI
+|-damage|p2a: PAS LUI|77/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: twistmebabe|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|-sideend|p1: twistmebabe|Sticky Web|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743798660
+|switch|p2a: Gna|Pecharunt|100/100
+|-item|p2a: Gna|Air Balloon
+|move|p1a: Great Tusk|Close Combat|p2a: Gna
+|-immune|p2a: Gna
+|
+|-weather|none
+|-end|p1a: Great Tusk|Protosynthesis
+|upkeep
+|turn|9
+|
+|t:|1743798666
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Ninetales|Ninetales, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Gna|Malignant Chain|p1a: Ninetales
+|-damage|p1a: Ninetales|80/100
+|-status|p1a: Ninetales|tox
+|-start|p1a: Ninetales|confusion|[from] ability: Poison Puppeteer|[of] p2a: Gna
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ninetales|74/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743798671
+|-activate|p1a: Ninetales|confusion
+|move|p1a: Ninetales|Weather Ball|p2a: Gna
+|-damage|p2a: Gna|59/100
+|-enditem|p2a: Gna|Air Balloon
+|move|p2a: Gna|Hex|p1a: Ninetales
+|-damage|p1a: Ninetales|45/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ninetales|33/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743798686
+|-end|p1a: Ninetales|confusion
+|move|p1a: Ninetales|Scorching Sands|p2a: Gna
+|-supereffective|p2a: Gna
+|-damage|p2a: Gna|32/100
+|move|p2a: Gna|Parting Shot|p1a: Ninetales
+|-unboost|p1a: Ninetales|atk|1
+|-unboost|p1a: Ninetales|spa|1
+|
+|t:|1743798691
+|switch|p2a: Static 100%|Zapdos|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ninetales|15/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743798699
+|switch|p1a: Leavanny|Leavanny, M, shiny|100/100
+|move|p2a: Static 100%|Volt Switch|p1a: Leavanny
+|-resisted|p1a: Leavanny
+|-damage|p1a: Leavanny|78/100
+|
+|t:|1743798707
+|switch|p2a: LA TUEUR|Regigigas|100/100|[from] Volt Switch
+|-start|p2a: LA TUEUR|ability: Slow Start
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: LA TUEUR|brn|[from] item: Flame Orb
+|upkeep
+|turn|13
+|
+|t:|1743798718
+|move|p1a: Leavanny|Sticky Web|p2a: LA TUEUR
+|-sidestart|p2: Retien|move: Sticky Web
+|move|p2a: LA TUEUR|Facade|p1a: Leavanny
+|-damage|p1a: Leavanny|17/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: LA TUEUR|94/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743798737
+|move|p1a: Leavanny|Low Kick|p2a: LA TUEUR
+|-supereffective|p2a: LA TUEUR
+|-damage|p2a: LA TUEUR|30/100 brn
+|move|p2a: LA TUEUR|Facade|p1a: Leavanny
+|-damage|p1a: Leavanny|0 fnt
+|faint|p1a: Leavanny
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: LA TUEUR|24/100 brn|[from] brn
+|upkeep
+|
+|t:|1743798759
+|switch|p1a: Comfey|Comfey, F, shiny|100/100
+|turn|15
+|
+|t:|1743798763
+|-terastallize|p1a: Comfey|Steel
+|move|p1a: Comfey|Growth|p1a: Comfey
+|-boost|p1a: Comfey|atk|2
+|-boost|p1a: Comfey|spa|2
+|move|p2a: LA TUEUR|Rest|p2a: LA TUEUR
+|-status|p2a: LA TUEUR|slp|[from] move: Rest
+|-heal|p2a: LA TUEUR|100/100 slp|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743798771
+|move|p1a: Comfey|Growth|p1a: Comfey
+|-boost|p1a: Comfey|atk|2
+|-boost|p1a: Comfey|spa|2
+|cant|p2a: LA TUEUR|slp
+|move|p2a: LA TUEUR|Sleep Talk|p2a: LA TUEUR
+|move|p2a: LA TUEUR|Earthquake|p1a: Comfey|[from] move: Sleep Talk
+|-supereffective|p1a: Comfey
+|-damage|p1a: Comfey|50/100
+|
+|-weather|none
+|upkeep
+|turn|17
+|
+|t:|1743798781
+|move|p1a: Comfey|Draining Kiss|p2a: LA TUEUR
+|-damage|p2a: LA TUEUR|49/100 slp
+|-heal|p1a: Comfey|100/100|[from] drain|[of] p2a: LA TUEUR
+|cant|p2a: LA TUEUR|slp
+|move|p2a: LA TUEUR|Sleep Talk|p2a: LA TUEUR
+|move|p2a: LA TUEUR|Rest||[from] move: Sleep Talk|[still]
+|-fail|p2a: LA TUEUR
+|
+|-end|p2a: LA TUEUR|Slow Start
+|upkeep
+|turn|18
+|
+|t:|1743798791
+|-terastallize|p2a: LA TUEUR|Ghost
+|move|p1a: Comfey|Draining Kiss|p2a: LA TUEUR
+|-damage|p2a: LA TUEUR|0 fnt
+|faint|p2a: LA TUEUR
+|-end|p2a: LA TUEUR|Slow Start|[silent]
+|
+|upkeep
+|
+|t:|1743798797
+|switch|p2a: Static 100%|Zapdos|100/100
+|turn|19
+|
+|t:|1743798802
+|move|p1a: Comfey|Draining Kiss|p2a: Static 100%
+|-damage|p2a: Static 100%|21/100
+|move|p2a: Static 100%|Discharge|p1a: Comfey
+|-damage|p1a: Comfey|66/100
+|
+|upkeep
+|turn|20
+|-message|Retien forfeited.
+|
+|win|twistmebabe
+|raw|twistmebabe's rating: 1164 &rarr; <strong>1192</strong><br />(+28 for winning)
+|raw|Retien's rating: 1209 &rarr; <strong>1181</strong><br />(-28 for losing)
+|l|☆Retien
+|player|p2|
+|l|☆twistmebabe
+|player|p1|

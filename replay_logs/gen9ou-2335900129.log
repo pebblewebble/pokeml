@@ -1,0 +1,461 @@
+|j|☆Ch4rle5
+|j|☆Lewy
+|t:|1743856177
+|gametype|singles
+|player|p1|Ch4rle5|2|1044
+|player|p2|Lewy|hilbert|1094
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hatterene, F|
+|poke|p1|Garganacl, F|
+|poke|p1|Pecharunt|
+|poke|p1|Primarina, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Alomomola, M|
+|poke|p2|Keldeo|
+|poke|p2|Heatran, M|
+|poke|p2|Avalugg, M|
+|poke|p2|Latios, M|
+|poke|p2|Iron Leaves|
+|poke|p2|Skeledirge, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ch4rle5)
+|
+|t:|1743856186
+|start
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|switch|p2a: l|Latios, M|100/100
+|turn|1
+|
+|t:|1743856192
+|move|p2a: l|Trick|p1a: Garganacl
+|-activate|p2a: l|move: Trick|[of] p1a: Garganacl
+|-item|p1a: Garganacl|Choice Scarf|[from] move: Trick
+|-item|p2a: l|Rocky Helmet|[from] move: Trick
+|move|p1a: Garganacl|Stealth Rock|p2a: l
+|-sidestart|p2: Lewy|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743856206
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|-item|p1a: Pecharunt|Air Balloon
+|move|p2a: l|Flip Turn|p1a: Pecharunt
+|-crit|p1a: Pecharunt
+|-damage|p1a: Pecharunt|91/100
+|-enditem|p1a: Pecharunt|Air Balloon
+|
+|t:|1743856214
+|switch|p2a: h|Heatran, M|100/100|[from] Flip Turn
+|-damage|p2a: h|88/100|[from] Stealth Rock
+|
+|-heal|p2a: h|94/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743856222
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: h|Taunt|p1a: Garganacl
+|-start|p1a: Garganacl|move: Taunt
+|
+|-heal|p2a: h|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743856232
+|switch|p2a: a|Avalugg, M|100/100
+|move|p1a: Garganacl|Salt Cure|p2a: a
+|-supereffective|p2a: a
+|-damage|p2a: a|88/100
+|-start|p2a: a|Salt Cure
+|
+|-damage|p2a: a|75/100|[from] Salt Cure
+|upkeep
+|turn|5
+|
+|t:|1743856249
+|switch|p1a: Primarina|Primarina, F|100/100
+|switch|p2a: l|Latios, M|100/100
+|-damage|p2a: l|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1743856258
+|move|p2a: l|Flip Turn|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|93/100
+|
+|t:|1743856269
+|switch|p2a: i|Iron Leaves|100/100|[from] Flip Turn
+|-damage|p2a: i|88/100|[from] Stealth Rock
+|-enditem|p2a: i|Booster Energy
+|-activate|p2a: i|ability: Quark Drive|[fromitem]
+|-start|p2a: i|quarkdrivespe
+|move|p1a: Primarina|Moonblast|p2a: i
+|-damage|p2a: i|38/100
+|-unboost|p2a: i|spa|1
+|
+|upkeep
+|turn|7
+|
+|t:|1743856289
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: i|Leaf Blade|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|72/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743856298
+|move|p2a: i|Psyblade|p1a: Cinderace
+|-damage|p1a: Cinderace|11/100
+|move|p1a: Cinderace|U-turn|p2a: i
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p2a: i
+|-damage|p2a: i|0 fnt
+|faint|p2a: i
+|-end|p2a: i|Quark Drive|[silent]
+|
+|t:|1743856307
+|switch|p1a: Alomomola|Alomomola, M|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743856333
+|switch|p2a: s|Skeledirge, F|100/100
+|turn|9
+|
+|t:|1743856345
+|move|p2a: s|Will-O-Wisp|p1a: Alomomola
+|-status|p1a: Alomomola|brn
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|-damage|p1a: Alomomola|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743856360
+|move|p2a: s|Torch Song|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|77/100 brn
+|-boost|p2a: s|spa|1
+|move|p1a: Alomomola|Flip Turn|p2a: s
+|-supereffective|p2a: s
+|-damage|p2a: s|87/100
+|
+|t:|1743856371
+|switch|p1a: Primarina|Primarina, F|93/100|[from] Flip Turn
+|
+|-heal|p1a: Primarina|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|11
+|
+|t:|1743856379
+|move|p2a: s|Will-O-Wisp|p1a: Primarina
+|-status|p1a: Primarina|brn
+|-enditem|p1a: Primarina|Lum Berry|[eat]
+|-curestatus|p1a: Primarina|brn|[msg]
+|move|p1a: Primarina|Perish Song|p1a: Primarina
+|-start|p1a: Primarina|perish3|[silent]
+|-start|p2a: s|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-start|p2a: s|perish3
+|-start|p1a: Primarina|perish3
+|upkeep
+|turn|12
+|
+|t:|1743856390
+|move|p2a: s|Will-O-Wisp|p1a: Primarina
+|-status|p1a: Primarina|brn
+|move|p1a: Primarina|Flip Turn|p2a: s
+|-supereffective|p2a: s
+|-damage|p2a: s|75/100
+|
+|t:|1743856402
+|switch|p1a: Garganacl|Garganacl, F|100/100|[from] Flip Turn
+|
+|-start|p2a: s|perish2
+|upkeep
+|turn|13
+|
+|t:|1743856413
+|switch|p2a: a|Avalugg, M|75/100
+|move|p1a: Garganacl|Salt Cure|p2a: a
+|-supereffective|p2a: a
+|-damage|p2a: a|64/100
+|-start|p2a: a|Salt Cure
+|
+|-damage|p2a: a|52/100|[from] Salt Cure
+|upkeep
+|turn|14
+|
+|t:|1743856428
+|switch|p1a: Primarina|Primarina, F|100/100 brn
+|move|p2a: a|Rapid Spin|p1a: Primarina
+|-damage|p1a: Primarina|86/100 brn
+|-boost|p2a: a|spe|1
+|-sideend|p2: Lewy|Stealth Rock|[from] move: Rapid Spin|[of] p2a: a
+|
+|-damage|p1a: Primarina|80/100 brn|[from] brn
+|-damage|p2a: a|39/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1743856443
+|switch|p2a: h|Heatran, M|100/100
+|move|p1a: Primarina|Hyper Voice|p2a: h
+|-supereffective|p2a: h
+|-damage|p2a: h|31/100
+|
+|-heal|p2a: h|37/100|[from] item: Leftovers
+|-damage|p1a: Primarina|74/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743856460
+|move|p2a: h|Stealth Rock|p1a: Primarina
+|-sidestart|p1: Ch4rle5|move: Stealth Rock
+|move|p1a: Primarina|Hyper Voice|p2a: h
+|-supereffective|p2a: h
+|-damage|p2a: h|0 fnt
+|faint|p2a: h
+|
+|-damage|p1a: Primarina|68/100 brn|[from] brn
+|upkeep
+|inactive|Lewy has 120 seconds left.
+|
+|t:|1743856480
+|switch|p2a: s|Skeledirge, F|75/100
+|turn|17
+|
+|t:|1743856486
+|switch|p1a: Alomomola|Alomomola, M|100/100 brn
+|-damage|p1a: Alomomola|88/100 brn|[from] Stealth Rock
+|-terastallize|p2a: s|Fairy
+|move|p2a: s|Torch Song|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|71/100 brn
+|-boost|p2a: s|spa|1
+|
+|-damage|p1a: Alomomola|65/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743856499
+|move|p2a: s|Hex|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|upkeep
+|
+|t:|1743856508
+|switch|p1a: Cinderace|Cinderace, F|11/100
+|turn|19
+|
+|t:|1743856514
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: s|Hex|p1a: Cinderace
+|-immune|p1a: Cinderace
+|
+|upkeep
+|turn|20
+|
+|t:|1743856521
+|move|p1a: Cinderace|Pyro Ball|p2a: s
+|-damage|p2a: s|42/100
+|move|p2a: s|Torch Song|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-boost|p2a: s|spa|1
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743856540
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|turn|21
+|
+|t:|1743856565
+|move|p2a: s|Slack Off|p2a: s
+|-heal|p2a: s|92/100
+|move|p1a: Garganacl|Salt Cure|p2a: s
+|-damage|p2a: s|81/100
+|-start|p2a: s|Salt Cure
+|
+|-damage|p2a: s|68/100|[from] Salt Cure
+|upkeep
+|turn|22
+|
+|t:|1743856572
+|switch|p2a: a|Avalugg, M|39/100
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743856584
+|switch|p1a: Pecharunt|Pecharunt|91/100
+|move|p2a: a|Rapid Spin|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|
+|upkeep
+|turn|24
+|
+|t:|1743856591
+|move|p1a: Pecharunt|Malignant Chain|p2a: a
+|-damage|p2a: a|0 fnt
+|faint|p2a: a
+|
+|upkeep
+|
+|t:|1743856596
+|switch|p2a: l|Latios, M|88/100
+|-damage|p2a: l|76/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1743856601
+|move|p2a: l|Luster Purge|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|26/100
+|-unboost|p1a: Pecharunt|spd|1
+|move|p1a: Pecharunt|Malignant Chain|p2a: l
+|-damage|p2a: l|42/100
+|
+|upkeep
+|turn|26
+|
+|t:|1743856610
+|switch|p1a: Primarina|Primarina, F|68/100 brn
+|move|p2a: l|Luster Purge|p1a: Primarina
+|-damage|p1a: Primarina|24/100 brn
+|-unboost|p1a: Primarina|spd|1
+|
+|-damage|p1a: Primarina|18/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1743856625
+|move|p2a: l|Luster Purge|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|upkeep
+|
+|t:|1743856629
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|28
+|
+|t:|1743856645
+|move|p2a: l|Flip Turn|p1a: Hatterene
+|-damage|p1a: Hatterene|88/100
+|
+|t:|1743856649
+|switch|p2a: s|Skeledirge, F, tera:Fairy|68/100|[from] Flip Turn
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|-heal|p1a: Hatterene|94/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1743856664
+|move|p2a: s|Torch Song|p1a: Hatterene
+|-damage|p1a: Hatterene|61/100
+|-boost|p2a: s|spa|1
+|move|p1a: Hatterene|Psychic Noise|p2a: s
+|-damage|p2a: s|36/100
+|-start|p2a: s|move: Heal Block
+|
+|-heal|p1a: Hatterene|67/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1743856679
+|-terastallize|p1a: Hatterene|Psychic
+|move|p2a: s|Hex|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-end|p2a: s|move: Heal Block
+|upkeep
+|
+|t:|1743856686
+|switch|p1a: Pecharunt|Pecharunt|26/100
+|turn|31
+|
+|t:|1743856696
+|move|p1a: Pecharunt|Malignant Chain|p2a: s
+|-supereffective|p2a: s
+|-damage|p2a: s|0 fnt
+|faint|p2a: s
+|
+|upkeep
+|
+|t:|1743856702
+|switch|p2a: l|Latios, M|42/100
+|-damage|p2a: l|29/100|[from] Stealth Rock
+|turn|32
+|
+|t:|1743856706
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: l|Luster Purge|p1a: Garganacl
+|-damage|p1a: Garganacl|53/100
+|
+|upkeep
+|turn|33
+|
+|t:|1743856714
+|move|p2a: l|Luster Purge|p1a: Garganacl
+|-damage|p1a: Garganacl|6/100
+|move|p1a: Garganacl|Salt Cure|p2a: l
+|-damage|p2a: l|11/100
+|-start|p2a: l|Salt Cure
+|
+|-damage|p2a: l|0 fnt|[from] Salt Cure
+|faint|p2a: l
+|upkeep
+|
+|t:|1743856717
+|switch|p2a: K|Keldeo|100/100
+|turn|34
+|
+|t:|1743856726
+|move|p2a: K|Aura Sphere|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|upkeep
+|
+|t:|1743856731
+|switch|p1a: Pecharunt|Pecharunt|26/100
+|turn|35
+|
+|t:|1743856735
+|move|p2a: K|Surf|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|win|Lewy
+|raw|Ch4rle5's rating: 1044 &rarr; <strong>1030</strong><br />(-14 for losing)
+|raw|Lewy's rating: 1094 &rarr; <strong>1116</strong><br />(+22 for winning)
+|c|☆Lewy|gg

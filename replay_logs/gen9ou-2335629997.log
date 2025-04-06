@@ -1,0 +1,322 @@
+|j|☆onirbaff
+|j|☆sdgdshgfkgk
+|t:|1743814460
+|gametype|singles
+|player|p1|onirbaff|hilbert|1071
+|player|p2|sdgdshgfkgk|1|1137
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Incineroar, M|
+|poke|p1|Rotom-Mow|
+|poke|p1|Alomomola, F|
+|poke|p1|Hitmontop, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Persian, F|
+|poke|p2|Ursaluna, F|
+|poke|p2|Gliscor, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Volcanion|
+|poke|p2|Slither Wing|
+|poke|p2|Meowscarada, F|
+|teampreview
+|
+|t:|1743814470
+|start
+|switch|p1a: Rotom|Rotom-Mow|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sdgdshgfkgk)
+|
+|t:|1743814488
+|-terastallize|p1a: Rotom|Electric
+|move|p2a: Meowscarada|U-turn|p1a: Rotom
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-damage|p1a: Rotom|62/100
+|
+|t:|1743814497
+|switch|p2a: Gliscor|Gliscor, M|100/100|[from] U-turn
+|move|p1a: Rotom|Trick|p2a: Gliscor
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Gliscor
+|-item|p2a: Gliscor|Sticky Barb|[from] move: Trick
+|-item|p1a: Rotom|Toxic Orb|[from] move: Trick
+|
+|-damage|p2a: Gliscor|88/100|[from] item: Sticky Barb
+|-status|p1a: Rotom|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743814511
+|move|p2a: Gliscor|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|47/100 tox
+|
+|t:|1743814515
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from] U-turn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Rotom|Will-O-Wisp|p2a: Corviknight
+|-status|p2a: Corviknight|brn
+|
+|-damage|p1a: Rotom|41/100 tox|[from] psn
+|-damage|p2a: Corviknight|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743814531
+|switch|p2a: Gliscor|Gliscor, M|88/100
+|move|p1a: Rotom|Volt Switch|p2a: Gliscor
+|-immune|p2a: Gliscor
+|
+|-damage|p1a: Rotom|29/100 tox|[from] psn
+|-damage|p2a: Gliscor|76/100|[from] item: Sticky Barb
+|upkeep
+|turn|4
+|
+|t:|1743814541
+|move|p2a: Gliscor|U-turn|p1a: Rotom
+|-damage|p1a: Rotom|13/100 tox
+|
+|t:|1743814544
+|switch|p2a: Ursaluna|Ursaluna, F|100/100|[from] U-turn
+|move|p1a: Rotom|Foul Play|p2a: Ursaluna
+|-damage|p2a: Ursaluna|79/100
+|
+|-damage|p1a: Rotom|0 fnt|[from] psn
+|faint|p1a: Rotom
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1743814561
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|turn|5
+|
+|t:|1743814572
+|-terastallize|p2a: Ursaluna|Ground
+|move|p1a: Incineroar|Fake Out|p2a: Ursaluna
+|-damage|p2a: Ursaluna|72/100 brn
+|cant|p2a: Ursaluna|flinch
+|
+|-damage|p2a: Ursaluna|66/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743814582
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Ursaluna|Facade|p1a: Alomomola
+|-damage|p1a: Alomomola|56/100
+|-damage|p2a: Ursaluna|49/100 brn|[from] item: Rocky Helmet|[of] p1a: Alomomola
+|
+|-damage|p2a: Ursaluna|43/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743814597
+|switch|p2a: Corviknight|Corviknight, M|94/100 brn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Alomomola|Aqua Jet|p2a: Corviknight
+|-damage|p2a: Corviknight|88/100 brn
+|-damage|p1a: Alomomola|39/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-damage|p2a: Corviknight|82/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743814620
+|switch|p1a: Incineroar|Incineroar, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Corviknight|atk|1
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743814634
+|switch|p2a: Corviknight|Corviknight, M|82/100 brn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Incineroar|Fake Out|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|78/100 brn
+|-damage|p1a: Incineroar|84/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|-damage|p2a: Corviknight|72/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743814645
+|switch|p2a: Volcanion|Volcanion|100/100
+|move|p1a: Incineroar|Flare Blitz|p2a: Volcanion
+|-resisted|p2a: Volcanion
+|-damage|p2a: Volcanion|90/100
+|-damage|p1a: Incineroar|80/100|[from] Recoil
+|
+|upkeep
+|turn|11
+|
+|t:|1743814657
+|move|p2a: Volcanion|Steam Eruption|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|31/100
+|move|p1a: Incineroar|Knock Off|p2a: Volcanion
+|-damage|p2a: Volcanion|55/100
+|-enditem|p2a: Volcanion|Assault Vest|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|turn|12
+|
+|t:|1743814669
+|switch|p1a: Hitmontop|Hitmontop, M|100/100
+|move|p2a: Volcanion|Steam Eruption|p1a: Hitmontop
+|-damage|p1a: Hitmontop|47/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743814679
+|switch|p2a: Gliscor|Gliscor, M|76/100
+|move|p1a: Hitmontop|Fake Out|p2a: Gliscor
+|-damage|p2a: Gliscor|62/100
+|
+|-damage|p2a: Gliscor|49/100|[from] item: Sticky Barb
+|upkeep
+|turn|14
+|
+|t:|1743814688
+|move|p2a: Gliscor|Dual Wingbeat|p1a: Hitmontop
+|-supereffective|p1a: Hitmontop
+|-damage|p1a: Hitmontop|7/100
+|-supereffective|p1a: Hitmontop
+|-damage|p1a: Hitmontop|0 fnt
+|faint|p1a: Hitmontop
+|-hitcount|p1: Hitmontop|2
+|
+|-damage|p2a: Gliscor|37/100|[from] item: Sticky Barb
+|upkeep
+|
+|t:|1743814699
+|switch|p1a: Persian|Persian, F, shiny|100/100
+|turn|15
+|
+|t:|1743814708
+|move|p1a: Persian|Icy Wind|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1743814718
+|switch|p2a: Ursaluna|Ursaluna, F, tera:Ground|43/100 brn
+|turn|16
+|
+|t:|1743814722
+|move|p1a: Persian|Icy Wind|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|11/100 brn
+|-unboost|p2a: Ursaluna|spe|1
+|move|p2a: Ursaluna|Facade|p1a: Persian
+|-damage|p1a: Persian|0 fnt
+|faint|p1a: Persian
+|
+|-damage|p2a: Ursaluna|5/100 brn|[from] brn
+|upkeep
+|
+|t:|1743814736
+|switch|p1a: Alomomola|Alomomola, F|73/100
+|turn|17
+|
+|t:|1743814742
+|move|p1a: Alomomola|Aqua Jet|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|upkeep
+|
+|t:|1743814745
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|18
+|
+|t:|1743814755
+|switch|p1a: Thundurus|Thundurus-Therian, M, shiny|100/100
+|move|p2a: Meowscarada|Knock Off|p1a: Thundurus
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-crit|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|-enditem|p1a: Thundurus|Choice Scarf|[from] move: Knock Off|[of] p2a: Meowscarada
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|t:|1743814766
+|switch|p1a: Incineroar|Incineroar, M|31/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Meowscarada|atk|1
+|turn|19
+|
+|t:|1743814775
+|switch|p2a: Volcanion|Volcanion|55/100
+|move|p1a: Incineroar|Fake Out|p2a: Volcanion
+|-damage|p2a: Volcanion|45/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743814782
+|switch|p1a: Alomomola|Alomomola, F|100/100
+|move|p2a: Volcanion|Earthquake|p1a: Alomomola
+|-damage|p1a: Alomomola|88/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743814792
+|move|p1a: Alomomola|Healing Wish|p1a: Alomomola
+|faint|p1a: Alomomola
+|move|p2a: Volcanion|Earthquake|p1: Alomomola|[notarget]
+|-fail|p2a: Volcanion
+|
+|upkeep
+|
+|t:|1743814797
+|switch|p1a: Incineroar|Incineroar, M|31/100
+|-heal|p1a: Incineroar|100/100|[from] move: Healing Wish
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Volcanion|atk|1
+|turn|22
+|
+|t:|1743814803
+|move|p2a: Volcanion|Steam Eruption|p1a: Incineroar|[miss]
+|-miss|p2a: Volcanion|p1a: Incineroar
+|move|p1a: Incineroar|Drain Punch|p2a: Volcanion
+|-damage|p2a: Volcanion|28/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743814813
+|move|p2a: Volcanion|Steam Eruption|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|48/100
+|move|p1a: Incineroar|Knock Off|p2a: Volcanion
+|-damage|p2a: Volcanion|4/100
+|
+|upkeep
+|turn|24
+|-message|onirbaff forfeited.
+|
+|win|sdgdshgfkgk
+|raw|onirbaff's rating: 1071 &rarr; <strong>1054</strong><br />(-17 for losing)
+|raw|sdgdshgfkgk's rating: 1137 &rarr; <strong>1157</strong><br />(+20 for winning)
+|l|☆onirbaff
+|player|p1|

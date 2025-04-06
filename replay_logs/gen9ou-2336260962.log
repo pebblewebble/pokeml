@@ -1,0 +1,305 @@
+|j|☆Wkkakoqoqo
+|j|☆Ep1c_Squ1d
+|t:|1743895693
+|gametype|singles
+|player|p1|Wkkakoqoqo|1|1040
+|player|p2|Ep1c_Squ1d|hiker-gen4|1073
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Darkrai|
+|poke|p1|Cresselia, F|
+|poke|p1|Dragonite, F|
+|poke|p1|Iron Treads|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Slowking-Galar, F|
+|poke|p2|Oranguru, M|
+|poke|p2|Abomasnow, M|
+|poke|p2|Polteageist|
+|poke|p2|Houndoom, M|
+|poke|p2|Amoonguss, M|
+|poke|p2|Quaquaval, M|
+|teampreview
+|
+|t:|1743895705
+|start
+|switch|p1a: Darkrai|Darkrai|100/100
+|switch|p2a: Oranguru|Oranguru, M|100/100
+|turn|1
+|
+|t:|1743895713
+|-terastallize|p2a: Oranguru|Normal
+|move|p1a: Darkrai|Dark Pulse|p2a: Oranguru
+|-damage|p2a: Oranguru|45/100
+|move|p2a: Oranguru|Trick Room|p2a: Oranguru
+|-fieldstart|move: Trick Room|[of] p2a: Oranguru
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ep1c_Squ1d)
+|
+|t:|1743895757
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|move|p2a: Oranguru|Thunderbolt|p1a: Dragonite
+|-damage|p1a: Dragonite|89/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743895768
+|switch|p2a: Abomasnow|Abomasnow, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|move|p1a: Dragonite|Extreme Speed|p2a: Abomasnow
+|-damage|p2a: Abomasnow|76/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743895779
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Abomasnow|Aurora Veil|p2a: Abomasnow
+|-sidestart|p2: Ep1c_Squ1d|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743895787
+|switch|p2a: Amoonguss|Amoonguss, M|100/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Amoonguss
+|-damage|p2a: Amoonguss|86/100
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1743895796
+|move|p1a: Slowking|Future Sight|p2a: Amoonguss
+|-start|p1a: Slowking|move: Future Sight
+|move|p2a: Amoonguss|Hex|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|78/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743895806
+|move|p2a: Amoonguss|Giga Drain|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|69/100
+|-heal|p2a: Amoonguss|90/100|[from] drain|[of] p1a: Slowking
+|move|p1a: Slowking|Thunder Wave|p2a: Amoonguss
+|-status|p2a: Amoonguss|par
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1743895822
+|switch|p2a: Houndoom|Houndoom, M|100/100
+|move|p1a: Slowking|Sludge Bomb|p2a: Houndoom
+|-damage|p2a: Houndoom|76/100
+|-status|p2a: Houndoom|psn
+|
+|-end|p2a: Houndoom|move: Future Sight
+|-immune|p2a: Houndoom
+|-damage|p2a: Houndoom|63/100 psn|[from] psn
+|-sideend|p2: Ep1c_Squ1d|move: Aurora Veil
+|upkeep
+|turn|9
+|
+|t:|1743895833
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Houndoom|Sucker Punch||[still]
+|-fail|p2a: Houndoom
+|
+|-damage|p2a: Houndoom|51/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743895841
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|move|p1a: Iron Treads|Stealth Rock|p2a: Quaquaval
+|-sidestart|p2: Ep1c_Squ1d|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|t:|1743895848
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Quaquaval|Brick Break|p1a: Ogerpon
+|-damage|p1a: Ogerpon|49/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743895856
+|move|p1a: Ogerpon|Power Whip|p2a: Quaquaval|[miss]
+|-miss|p1a: Ogerpon|p2a: Quaquaval
+|move|p2a: Quaquaval|Brick Break|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743895860
+|switch|p1a: Cresselia|Cresselia, F|100/100
+|turn|13
+|
+|t:|1743895870
+|switch|p2a: Houndoom|Houndoom, M|51/100 psn
+|-damage|p2a: Houndoom|26/100 psn|[from] Stealth Rock
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|
+|-damage|p2a: Houndoom|14/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743895881
+|move|p2a: Houndoom|Fire Blast|p1a: Cresselia
+|-damage|p1a: Cresselia|80/100
+|move|p1a: Cresselia|Moonlight|p1a: Cresselia
+|-heal|p1a: Cresselia|100/100
+|
+|-damage|p2a: Houndoom|2/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743895889
+|move|p2a: Houndoom|Fire Blast|p1a: Cresselia
+|-damage|p1a: Cresselia|78/100
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|
+|-heal|p1a: Cresselia|84/100|[from] item: Leftovers
+|-damage|p2a: Houndoom|0 fnt|[from] psn
+|faint|p2a: Houndoom
+|upkeep
+|
+|t:|1743895902
+|switch|p2a: Polteageist|Polteageist|100/100
+|-damage|p2a: Polteageist|88/100|[from] Stealth Rock
+|turn|16
+|
+|t:|1743895912
+|move|p2a: Polteageist|Shell Smash|p2a: Polteageist
+|-unboost|p2a: Polteageist|def|1
+|-unboost|p2a: Polteageist|spd|1
+|-boost|p2a: Polteageist|atk|2
+|-boost|p2a: Polteageist|spa|2
+|-boost|p2a: Polteageist|spe|2
+|-enditem|p2a: Polteageist|White Herb
+|-clearnegativeboost|p2a: Polteageist|[silent]
+|move|p1a: Cresselia|Stored Power|p2a: Polteageist
+|-damage|p2a: Polteageist|27/100
+|
+|-heal|p1a: Cresselia|90/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743895924
+|-terastallize|p1a: Cresselia|Poison
+|move|p2a: Polteageist|Shadow Ball|p1a: Cresselia
+|-damage|p1a: Cresselia|58/100
+|move|p1a: Cresselia|Stored Power|p2a: Polteageist
+|-damage|p2a: Polteageist|0 fnt
+|faint|p2a: Polteageist
+|
+|-heal|p1a: Cresselia|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743895940
+|switch|p2a: Quaquaval|Quaquaval, M|100/100
+|-damage|p2a: Quaquaval|94/100|[from] Stealth Rock
+|turn|18
+|
+|t:|1743895946
+|move|p2a: Quaquaval|Brick Break|p1a: Cresselia
+|-resisted|p1a: Cresselia
+|-damage|p1a: Cresselia|55/100
+|move|p1a: Cresselia|Stored Power|p2a: Quaquaval
+|-supereffective|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|
+|-heal|p1a: Cresselia|61/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743895961
+|switch|p2a: Oranguru|Oranguru, M, tera:Normal|45/100
+|-damage|p2a: Oranguru|33/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743895965
+|move|p1a: Cresselia|Moonblast|p2a: Oranguru
+|-damage|p2a: Oranguru|7/100
+|-unboost|p2a: Oranguru|spa|1
+|move|p2a: Oranguru|Psychic|p1a: Cresselia
+|-supereffective|p1a: Cresselia
+|-damage|p1a: Cresselia|44/100
+|
+|-heal|p1a: Cresselia|50/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743895976
+|move|p1a: Cresselia|Moonblast|p2a: Oranguru
+|-damage|p2a: Oranguru|0 fnt
+|faint|p2a: Oranguru
+|
+|-heal|p1a: Cresselia|56/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743895984
+|switch|p2a: Abomasnow|Abomasnow, M|76/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|21
+|
+|t:|1743896001
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|move|p2a: Abomasnow|Aurora Veil|p2a: Abomasnow
+|-sidestart|p2: Ep1c_Squ1d|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Cresselia|62/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743896008
+|move|p1a: Cresselia|Calm Mind|p1a: Cresselia
+|-boost|p1a: Cresselia|spa|1
+|-boost|p1a: Cresselia|spd|1
+|move|p2a: Abomasnow|Blizzard|p1a: Cresselia
+|-damage|p1a: Cresselia|51/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Cresselia|57/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|-message|Ep1c_Squ1d forfeited.
+|
+|win|Wkkakoqoqo
+|raw|Wkkakoqoqo's rating: 1040 &rarr; <strong>1077</strong><br />(+37 for winning)
+|raw|Ep1c_Squ1d's rating: 1073 &rarr; <strong>1050</strong><br />(-23 for losing)

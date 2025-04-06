@@ -1,0 +1,411 @@
+|j|☆megustamimir
+|j|☆crkk
+|t:|1743908378
+|gametype|singles
+|player|p1|megustamimir|palmer|1116
+|player|p2|crkk|102|1141
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Primarina, F|
+|poke|p1|Garganacl, M|
+|poke|p1|Zapdos|
+|poke|p1|Iron Moth|
+|poke|p1|Galvantula, F|
+|poke|p1|Great Tusk|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Toxapex, M|
+|poke|p2|Kleavor, M|
+|poke|p2|Snorlax, M|
+|poke|p2|Ceruledge, F|
+|teampreview
+|
+|t:|1743908391
+|start
+|switch|p1a: Galvantula|Galvantula, F, shiny|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1743908422
+|move|p1a: Galvantula|Sticky Web|p2a: Ting-Lu
+|-sidestart|p2: crkk|move: Sticky Web
+|move|p2a: Ting-Lu|Earthquake|p1a: Galvantula
+|-damage|p1a: Galvantula|49/100
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by crkk)
+|
+|t:|1743908439
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Ting-Lu|Spikes|p1a: Zapdos
+|-sidestart|p1: megustamimir|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1743908445
+|move|p1a: Zapdos|U-turn|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|85/100
+|
+|t:|1743908457
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|-damage|p1a: Great Tusk|88/100|[from] Spikes
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|move|p2a: Ting-Lu|Whirlwind|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|drag|p1a: Primarina|Primarina, F, shiny|100/100
+|-damage|p1a: Primarina|88/100|[from] Spikes
+|
+|-heal|p2a: Ting-Lu|92/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743908462
+|move|p1a: Primarina|Sparkling Aria|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|48/100
+|move|p2a: Ting-Lu|Whirlwind|p1a: Primarina
+|drag|p1a: Garganacl|Garganacl, M|100/100
+|-damage|p1a: Garganacl|88/100|[from] Spikes
+|
+|-heal|p2a: Ting-Lu|54/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743908472
+|move|p2a: Ting-Lu|Earthquake|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|57/100
+|move|p1a: Garganacl|Stealth Rock|p2a: Ting-Lu
+|-sidestart|p2: crkk|move: Stealth Rock
+|
+|-heal|p2a: Ting-Lu|60/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|63/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743908476
+|move|p2a: Ting-Lu|Earthquake|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-crit|p1a: Garganacl
+|-damage|p1a: Garganacl|5/100
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|55/100
+|
+|-heal|p2a: Ting-Lu|67/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|61/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743908479
+|move|p2a: Ting-Lu|Spikes|p1a: Garganacl
+|-sidestart|p1: megustamimir|Spikes
+|move|p1a: Garganacl|Avalanche|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|51/100
+|
+|-heal|p2a: Ting-Lu|58/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|67/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743908490
+|move|p2a: Ting-Lu|Spikes|p1a: Garganacl
+|-sidestart|p1: megustamimir|Spikes
+|move|p1a: Garganacl|Salt Cure|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|54/100
+|-start|p2a: Ting-Lu|Salt Cure
+|
+|-heal|p2a: Ting-Lu|60/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|74/100|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|47/100|[from] Salt Cure
+|upkeep
+|turn|9
+|
+|t:|1743908497
+|move|p2a: Ting-Lu|Ruination|p1a: Garganacl|[miss]
+|-miss|p2a: Ting-Lu|p1a: Garganacl
+|move|p1a: Garganacl|Avalanche|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|31/100
+|
+|-heal|p2a: Ting-Lu|38/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|80/100|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|25/100|[from] Salt Cure
+|upkeep
+|turn|10
+|
+|t:|1743908502
+|move|p2a: Ting-Lu|Earthquake|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|39/100
+|move|p1a: Garganacl|Avalanche|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|-heal|p1a: Garganacl|45/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743908505
+|switch|p2a: Toxapex|Toxapex, M|100/100
+|-activate|p2a: Toxapex|move: Sticky Web
+|-unboost|p2a: Toxapex|spe|1
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1743908509
+|move|p1a: Garganacl|Salt Cure|p2a: Toxapex
+|-damage|p2a: Toxapex|77/100
+|-start|p2a: Toxapex|Salt Cure
+|move|p2a: Toxapex|Chilling Water|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|13/100
+|-unboost|p1a: Garganacl|atk|1
+|
+|-heal|p1a: Garganacl|19/100|[from] item: Leftovers
+|-damage|p2a: Toxapex|53/100|[from] Salt Cure
+|upkeep
+|turn|12
+|
+|t:|1743908515
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|69/100
+|move|p2a: Toxapex|Chilling Water|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|39/100
+|-unboost|p1a: Garganacl|atk|1
+|
+|-heal|p1a: Garganacl|45/100|[from] item: Leftovers
+|-damage|p2a: Toxapex|28/100|[from] Salt Cure
+|upkeep
+|turn|13
+|
+|t:|1743908520
+|move|p1a: Garganacl|Recover|p1a: Garganacl
+|-heal|p1a: Garganacl|95/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|78/100
+|
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p2a: Toxapex|53/100|[from] Salt Cure
+|upkeep
+|turn|14
+|
+|t:|1743908558
+|switch|p1a: Zapdos|Zapdos|100/100
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|
+|-damage|p2a: Toxapex|29/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1743908576
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Zapdos|Thunderbolt|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-damage|p2a: Toxapex|4/100|[from] Salt Cure
+|upkeep
+|turn|16
+|
+|t:|1743908587
+|move|p1a: Zapdos|Thunderbolt|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|upkeep
+|
+|t:|1743908593
+|switch|p2a: Kleavor|Kleavor, M|100/100
+|-activate|p2a: Kleavor|move: Sticky Web
+|-unboost|p2a: Kleavor|spe|1
+|-damage|p2a: Kleavor|76/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743908599
+|move|p1a: Zapdos|Heat Wave|p2a: Kleavor
+|-damage|p2a: Kleavor|15/100
+|move|p2a: Kleavor|Stone Axe|p1a: Zapdos|[miss]
+|-miss|p2a: Kleavor|p1a: Zapdos
+|
+|upkeep
+|turn|18
+|
+|t:|1743908606
+|move|p1a: Zapdos|Thunderbolt|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|faint|p2a: Kleavor
+|
+|upkeep
+|
+|t:|1743908609
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|-activate|p2a: Ceruledge|move: Sticky Web
+|-unboost|p2a: Ceruledge|spe|1
+|-damage|p2a: Ceruledge|76/100|[from] Stealth Rock
+|turn|19
+|
+|t:|1743908612
+|move|p1a: Zapdos|Thunderbolt|p2a: Ceruledge
+|-damage|p2a: Ceruledge|16/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Zapdos
+|-damage|p1a: Zapdos|54/100
+|-heal|p2a: Ceruledge|47/100|[from] drain|[of] p1a: Zapdos
+|-status|p2a: Ceruledge|par|[from] ability: Static|[of] p1a: Zapdos
+|
+|-heal|p1a: Zapdos|60/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743908618
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Zapdos
+|-damage|p1a: Zapdos|37/100
+|move|p1a: Zapdos|Thunderbolt|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|
+|-heal|p1a: Zapdos|43/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743908622
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|-activate|p2a: Goodra|move: Sticky Web
+|-unboost|p2a: Goodra|spe|1
+|-damage|p2a: Goodra|94/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1743908627
+|move|p1a: Zapdos|Thunderbolt|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|84/100
+|move|p2a: Goodra|Dragon Tail|p1a: Zapdos
+|-damage|p1a: Zapdos|25/100
+|drag|p1a: Great Tusk|Great Tusk|88/100
+|-damage|p1a: Great Tusk|63/100|[from] Spikes
+|
+|upkeep
+|turn|22
+|
+|t:|1743908635
+|move|p1a: Great Tusk|Headlong Rush|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Goodra
+|
+|upkeep
+|
+|t:|1743908638
+|switch|p2a: Snorlax|Snorlax, M|100/100
+|-activate|p2a: Snorlax|move: Sticky Web
+|-unboost|p2a: Snorlax|spe|1
+|-damage|p2a: Snorlax|88/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1743908664
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|-damage|p1a: Garganacl|75/100|[from] Spikes
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p1a: Garganacl|82/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|94/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1743908672
+|move|p1a: Garganacl|Salt Cure|p2a: Snorlax
+|-damage|p2a: Snorlax|86/100
+|-start|p2a: Snorlax|Salt Cure
+|move|p2a: Snorlax|Heat Crash|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|78/100
+|
+|-heal|p1a: Garganacl|84/100|[from] item: Leftovers
+|-heal|p2a: Snorlax|92/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|80/100|[from] Salt Cure
+|upkeep
+|turn|25
+|
+|t:|1743908678
+|switch|p1a: Galvantula|Galvantula, F, shiny|49/100
+|-damage|p1a: Galvantula|24/100|[from] Spikes
+|move|p2a: Snorlax|Body Slam|p1a: Galvantula
+|-damage|p1a: Galvantula|0 fnt
+|faint|p1a: Galvantula
+|
+|-heal|p2a: Snorlax|86/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|73/100|[from] Salt Cure
+|upkeep
+|
+|t:|1743908689
+|switch|p1a: Primarina|Primarina, F, shiny|88/100
+|-damage|p1a: Primarina|63/100|[from] Spikes
+|turn|26
+|
+|t:|1743908694
+|move|p1a: Primarina|Sparkling Aria|p2a: Snorlax
+|-damage|p2a: Snorlax|52/100
+|move|p2a: Snorlax|Curse|p2a: Snorlax
+|-unboost|p2a: Snorlax|spe|1
+|-boost|p2a: Snorlax|atk|1
+|-boost|p2a: Snorlax|def|1
+|
+|-heal|p2a: Snorlax|58/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|46/100|[from] Salt Cure
+|upkeep
+|turn|27
+|
+|t:|1743908698
+|move|p1a: Primarina|Sparkling Aria|p2a: Snorlax
+|-damage|p2a: Snorlax|25/100
+|move|p2a: Snorlax|Body Slam|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|-heal|p2a: Snorlax|31/100|[from] item: Leftovers
+|-damage|p2a: Snorlax|18/100|[from] Salt Cure
+|upkeep
+|
+|t:|1743908701
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-damage|p1a: Iron Moth|76/100|[from] Spikes
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|turn|28
+|
+|t:|1743908707
+|move|p1a: Iron Moth|Sludge Wave|p2a: Snorlax
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|
+|win|megustamimir
+|raw|megustamimir's rating: 1116 &rarr; <strong>1143</strong><br />(+27 for winning)
+|raw|crkk's rating: 1141 &rarr; <strong>1114</strong><br />(-27 for losing)

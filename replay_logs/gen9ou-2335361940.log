@@ -1,0 +1,668 @@
+|j|‽bighamsterbaseball
+|j|‽tyetye2024
+|t:|1743787803
+|gametype|singles
+|player|p1|bighamsterbaseball|pokemaniac|1342
+|player|p2|tyetye2024|102|1342
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Talonflame, F|
+|poke|p1|Beartic, F|
+|poke|p1|Iron Treads|
+|poke|p1|Dondozo, M|
+|poke|p1|Raging Bolt|
+|poke|p2|Ting-Lu|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Garganacl, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tyetye2024)
+|inactive|bighamsterbaseball has 120 seconds left.
+|inactive|tyetye2024 has 120 seconds left.
+|
+|t:|1743787855
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1743787867
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Iron Treads|Heavy Slam|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|88/100
+|
+|-heal|p2a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|bighamsterbaseball has 120 seconds left.
+|
+|t:|1743787899
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Corviknight|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|94/100
+|inactive|tyetye2024 has 120 seconds left.
+|
+|t:|1743787929
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|inactive|bighamsterbaseball has 120 seconds left.
+|
+|t:|1743787949
+|move|p2a: Dragapult|Shadow Ball|p1a: Pelipper
+|-damage|p1a: Pelipper|27/100
+|move|p1a: Pelipper|U-turn|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|94/100
+|inactive|bighamsterbaseball has 120 seconds left.
+|
+|t:|1743787954
+|switch|p1a: Talonflame|Talonflame, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743787968
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|move|p1a: Talonflame|Hurricane|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|80/100
+|-start|p2a: Garganacl|confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Garganacl|86/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743787989
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-activate|p2a: Garganacl|confusion
+|move|p2a: Garganacl|Salt Cure|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|89/100
+|-start|p1a: Raging Bolt|Salt Cure
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Garganacl|93/100|[from] item: Leftovers
+|-damage|p1a: Raging Bolt|76/100|[from] Salt Cure
+|upkeep
+|turn|6
+|inactive|bighamsterbaseball has 120 seconds left.
+|inactive|tyetye2024 has 90 seconds left.
+|
+|t:|1743788037
+|-activate|p2a: Garganacl|confusion
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Raging Bolt|Taunt|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Garganacl|99/100|[from] item: Leftovers
+|-damage|p1a: Raging Bolt|64/100|[from] Salt Cure
+|upkeep
+|turn|7
+|
+|t:|1743788049
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Raging Bolt|Taunt|p2a: Slowking
+|-start|p2a: Slowking|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Raging Bolt|52/100|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1743788063
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Beartic|Beartic, F|100/100
+|move|p2a: Slowking|Sludge Bomb|p1a: Beartic
+|-damage|p1a: Beartic|57/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743788077
+|switch|p2a: Corviknight|Corviknight, F|94/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Beartic|Earthquake|p2a: Corviknight
+|-immune|p2a: Corviknight
+|
+|-weather|none
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743788101
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|move|p2a: Corviknight|U-turn|p1a: Dondozo
+|-damage|p1a: Dondozo|91/100
+|inactive|tyetye2024 has 60 seconds left.
+|
+|t:|1743788131
+|switch|p2a: Garganacl|Garganacl, F|99/100|[from] U-turn
+|
+|-heal|p1a: Dondozo|98/100|[from] item: Leftovers
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743788145
+|-terastallize|p1a: Dondozo|Grass
+|move|p2a: Garganacl|Salt Cure|p1a: Dondozo
+|-damage|p1a: Dondozo|89/100
+|-start|p1a: Dondozo|Salt Cure
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-heal|p1a: Dondozo|95/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|83/100|[from] Salt Cure
+|upkeep
+|turn|12
+|inactive|tyetye2024 has 60 seconds left.
+|
+|t:|1743788160
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-heal|p1a: Dondozo|89/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|76/100|[from] Salt Cure
+|upkeep
+|turn|13
+|
+|t:|1743788176
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Dondozo|Liquidation|p2a: Corviknight
+|-damage|p2a: Corviknight|67/100
+|
+|-heal|p2a: Corviknight|73/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|82/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|70/100|[from] Salt Cure
+|upkeep
+|turn|14
+|inactive|bighamsterbaseball has 90 seconds left.
+|inactive|tyetye2024 has 60 seconds left.
+|
+|t:|1743788207
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Dondozo|Body Press|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|55/100
+|
+|-heal|p2a: Corviknight|61/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|76/100|[from] item: Leftovers
+|-damage|p1a: Dondozo|64/100|[from] Salt Cure
+|upkeep
+|turn|15
+|
+|t:|1743788234
+|switch|p1a: Talonflame|Talonflame, F|100/100
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|-heal|p2a: Corviknight|67/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743788248
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|move|p1a: Talonflame|Overheat|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|76/100
+|-unboost|p1a: Talonflame|spa|2
+|
+|-heal|p2a: Garganacl|83/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|inactive|bighamsterbaseball has 60 seconds left.
+|inactive|tyetye2024 has 60 seconds left.
+|
+|t:|1743788287
+|switch|p1a: Pelipper|Pelipper, F|27/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Garganacl|Salt Cure|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|3/100
+|-start|p1a: Pelipper|Salt Cure
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Garganacl|89/100|[from] item: Leftovers
+|-damage|p1a: Pelipper|0 fnt|[from] Salt Cure
+|faint|p1a: Pelipper
+|upkeep
+|inactive|bighamsterbaseball has 30 seconds left.
+|
+|t:|1743788308
+|switch|p1a: Dondozo|Dondozo, M, tera:Grass|64/100
+|turn|18
+|inactive|bighamsterbaseball has 30 seconds left.
+|
+|t:|1743788316
+|switch|p2a: Corviknight|Corviknight, F|67/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|73/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|70/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|inactive|bighamsterbaseball has 30 seconds left.
+|
+|t:|1743788332
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Dondozo|Liquidation|p2a: Corviknight
+|-damage|p2a: Corviknight|32/100
+|-unboost|p2a: Corviknight|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|38/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|76/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|inactive|bighamsterbaseball has 30 seconds left.
+|
+|t:|1743788344
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|88/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Dondozo|Body Press|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|48/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|54/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|82/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|inactive|bighamsterbaseball has 30 seconds left.
+|
+|t:|1743788356
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|60/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|88/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|inactive|bighamsterbaseball has 30 seconds left.
+|inactive|tyetye2024 has 90 seconds left.
+|
+|t:|1743788371
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Dondozo|Liquidation|p2a: Corviknight
+|-damage|p2a: Corviknight|12/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|18/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|94/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|inactive|bighamsterbaseball has 30 seconds left.
+|
+|t:|1743788381
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|68/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Dondozo|Liquidation|p2a: Corviknight
+|-damage|p2a: Corviknight|19/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Corviknight|25/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|100/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|inactive|bighamsterbaseball has 30 seconds left.
+|
+|t:|1743788398
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|75/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Dondozo|Liquidation|p2a: Corviknight
+|-damage|p2a: Corviknight|18/100
+|
+|-weather|none
+|-heal|p2a: Corviknight|24/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|inactive|bighamsterbaseball has 30 seconds left.
+|
+|t:|1743788408
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|74/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-heal|p2a: Corviknight|80/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|inactive|bighamsterbaseball has 30 seconds left.
+|
+|t:|1743788429
+|move|p2a: Corviknight|Body Press|p1a: Dondozo
+|-damage|p1a: Dondozo|94/100
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-heal|p2a: Corviknight|86/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|99/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|inactive|bighamsterbaseball has 30 seconds left.
+|inactive|bighamsterbaseball has 20 seconds left.
+|inactive|bighamsterbaseball has 15 seconds left.
+|
+|t:|1743788455
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-heal|p2a: Corviknight|92/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|100/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|inactive|bighamsterbaseball has 25 seconds left this turn.
+|inactive|bighamsterbaseball has 20 seconds left.
+|inactive|bighamsterbaseball has 15 seconds left.
+|inactive|tyetye2024 has 90 seconds left.
+|
+|t:|1743788492
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|0
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|-heal|p2a: Corviknight|98/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|inactive|bighamsterbaseball has 25 seconds left this turn.
+|inactive|bighamsterbaseball has 20 seconds left.
+|inactive|bighamsterbaseball has 15 seconds left.
+|
+|t:|1743788504
+|move|p2a: Corviknight|Body Press|p1a: Dondozo
+|-damage|p1a: Dondozo|97/100
+|move|p1a: Dondozo|Body Press|p2a: Corviknight
+|-damage|p2a: Corviknight|49/100
+|
+|-heal|p2a: Corviknight|55/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|100/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|inactive|bighamsterbaseball has 25 seconds left this turn.
+|inactive|bighamsterbaseball has 20 seconds left.
+|inactive|bighamsterbaseball has 15 seconds left.
+|
+|t:|1743788517
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Dondozo|Body Press|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|inactive|bighamsterbaseball has 20 seconds left this turn.
+|
+|t:|1743788523
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|31
+|inactive|bighamsterbaseball has 30 seconds left this turn.
+|
+|t:|1743788530
+|move|p2a: Ting-Lu|Ruination|p1a: Dondozo
+|-damage|p1a: Dondozo|50/100
+|move|p1a: Dondozo|Liquidation|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|-heal|p1a: Dondozo|57/100|[from] item: Leftovers
+|upkeep
+|inactive|bighamsterbaseball has 30 seconds left this turn.
+|
+|t:|1743788532
+|switch|p2a: Dragapult|Dragapult, F|94/100
+|turn|32
+|inactive|bighamsterbaseball has 30 seconds left.
+|
+|t:|1743788548
+|move|p2a: Dragapult|Flamethrower|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|9/100
+|move|p1a: Dondozo|Avalanche|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-heal|p1a: Dondozo|16/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743788552
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|33
+|
+|t:|1743788564
+|-terastallize|p2a: Cinderace|Fire
+|move|p2a: Cinderace|Pyro Ball|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|
+|upkeep
+|inactive|bighamsterbaseball has 30 seconds left.
+|inactive|bighamsterbaseball has 20 seconds left.
+|
+|t:|1743788589
+|switch|p1a: Raging Bolt|Raging Bolt|52/100
+|turn|34
+|inactive|bighamsterbaseball has 30 seconds left this turn.
+|
+|t:|1743788595
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|upkeep
+|turn|35
+|inactive|bighamsterbaseball has 30 seconds left.
+|
+|t:|1743788608
+|move|p1a: Raging Bolt|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|74/100
+|inactive|bighamsterbaseball has 30 seconds left this turn.
+|inactive|bighamsterbaseball has 20 seconds left.
+|inactive|bighamsterbaseball has 15 seconds left.
+|
+|t:|1743788627
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Beartic|Beartic, F|57/100|[from] Volt Switch
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|inactive|bighamsterbaseball has 20 seconds left this turn.
+|
+|t:|1743788637
+|switch|p2a: Cinderace|Cinderace, F, tera:Fire|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|36
+|inactive|bighamsterbaseball has 30 seconds left this turn.
+|inactive|bighamsterbaseball has 20 seconds left.
+|
+|t:|1743788652
+|move|p2a: Cinderace|Pyro Ball|p1a: Beartic
+|-supereffective|p1a: Beartic
+|-damage|p1a: Beartic|0 fnt
+|faint|p1a: Beartic
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|inactive|bighamsterbaseball has 25 seconds left this turn.
+|inactive|bighamsterbaseball has 20 seconds left.
+|
+|t:|1743788659
+|switch|p1a: Talonflame|Talonflame, F|100/100
+|turn|37
+|inactive|bighamsterbaseball has 30 seconds left this turn.
+|
+|t:|1743788662
+|move|p1a: Talonflame|Hurricane|p2a: Cinderace|[miss]
+|-miss|p1a: Talonflame|p2a: Cinderace
+|move|p2a: Cinderace|U-turn|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|94/100
+|
+|t:|1743788667
+|switch|p2a: Garganacl|Garganacl, F|89/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Garganacl|95/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1743788679
+|switch|p1a: Raging Bolt|Raging Bolt|52/100
+|move|p2a: Garganacl|Salt Cure|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|41/100
+|-start|p1a: Raging Bolt|Salt Cure
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p1a: Raging Bolt|28/100|[from] Salt Cure
+|upkeep
+|turn|39
+|
+|t:|1743788694
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|move|p2a: Garganacl|Protect||[still]
+|-fail|p2a: Garganacl
+|
+|-weather|none
+|upkeep
+|turn|40
+|inactive|bighamsterbaseball has 30 seconds left.
+|
+|t:|1743788711
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Iron Treads|Stealth Rock|p2a: Garganacl
+|-sidestart|p2: tyetye2024|move: Stealth Rock
+|
+|upkeep
+|turn|41
+|inactive|bighamsterbaseball has 30 seconds left.
+|
+|t:|1743788735
+|move|p1a: Iron Treads|Rapid Spin|p2a: Garganacl
+|-resisted|p2a: Garganacl
+|-damage|p2a: Garganacl|95/100
+|-boost|p1a: Iron Treads|spe|1
+|move|p2a: Garganacl|Salt Cure|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|97/100
+|-start|p1a: Iron Treads|Salt Cure
+|
+|-heal|p2a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p1a: Iron Treads|72/100|[from] Salt Cure
+|upkeep
+|turn|42
+|inactive|bighamsterbaseball has 30 seconds left.
+|inactive|bighamsterbaseball has 20 seconds left.
+|inactive|bighamsterbaseball has 15 seconds left.
+|inactive|bighamsterbaseball has 10 seconds left.
+|
+|t:|1743788765
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Iron Treads|Earthquake|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|
+|-damage|p1a: Iron Treads|48/100|[from] Salt Cure
+|upkeep
+|turn|43
+|inactive|bighamsterbaseball has 20 seconds left this turn.
+|inactive|bighamsterbaseball has 15 seconds left.
+|
+|t:|1743788775
+|move|p1a: Iron Treads|Earthquake|p2a: Garganacl
+|-supereffective|p2a: Garganacl
+|-damage|p2a: Garganacl|44/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|94/100
+|
+|-heal|p2a: Garganacl|99/100|[from] item: Leftovers
+|-damage|p1a: Iron Treads|23/100|[from] Salt Cure
+|upkeep
+|turn|44
+|inactive|bighamsterbaseball has 25 seconds left this turn.
+|inactive|bighamsterbaseball has 20 seconds left.
+|-message|bighamsterbaseball forfeited.
+|
+|win|tyetye2024
+|inactive|bighamsterbaseball has 25 seconds left this turn.
+|raw|bighamsterbaseball's rating: 1342 &rarr; <strong>1322</strong><br />(-20 for losing)
+|raw|tyetye2024's rating: 1342 &rarr; <strong>1362</strong><br />(+20 for winning)
+|l|‽bighamsterbaseball
+|player|p1|
+|l|‽tyetye2024
+|player|p2|

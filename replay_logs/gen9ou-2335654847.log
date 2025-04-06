@@ -1,0 +1,426 @@
+|j|☆Kiwi Weewee
+|j|☆temp2783
+|t:|1743817456
+|gametype|singles
+|player|p1|Kiwi Weewee|265|1235
+|player|p2|temp2783|1|1260
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Conkeldurr, M|
+|poke|p1|Spidops, F|
+|poke|p1|Greninja-*, F|
+|poke|p1|Gardevoir, M|
+|poke|p1|Tsareena, F|
+|poke|p1|Pecharunt|
+|poke|p2|Blissey, F|
+|poke|p2|Clefable, F|
+|poke|p2|Gliscor, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Dondozo, F|
+|poke|p2|Amoonguss, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by temp2783)
+|
+|t:|1743817486
+|start
+|switch|p1a: Spidops|Spidops, F|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1743817495
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Spidops
+|-sidestart|p1: Kiwi Weewee|move: Stealth Rock
+|move|p1a: Spidops|Sticky Web|p2a: Ting-Lu
+|-sidestart|p2: temp2783|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743817507
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|move|p1a: Spidops|Leech Life|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|80/100
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1743817520
+|move|p2a: Gliscor|Toxic|p1a: Spidops
+|-status|p1a: Spidops|tox
+|move|p1a: Spidops|Circle Throw|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|73/100 tox
+|drag|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|
+|-damage|p1a: Spidops|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743817532
+|switch|p2a: Gliscor|Gliscor, F|73/100 tox
+|move|p1a: Spidops|Leech Life|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|52/100 tox
+|-heal|p1a: Spidops|100/100 tox|[from] drain|[of] p2a: Gliscor
+|
+|-heal|p2a: Gliscor|65/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Spidops|88/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743817537
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Spidops|Circle Throw|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|77/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Spidops|70/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743817552
+|move|p2a: Gliscor|Spikes|p1a: Spidops
+|-sidestart|p1: Kiwi Weewee|Spikes
+|move|p1a: Spidops|Circle Throw|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|73/100 tox
+|drag|p2a: Clefable|Clefable, F|100/100
+|-activate|p2a: Clefable|move: Sticky Web
+|-unboost|p2a: Clefable|spe|1
+|
+|-damage|p1a: Spidops|45/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1743817575
+|switch|p2a: Gliscor|Gliscor, F|73/100 tox
+|move|p1a: Spidops|Knock Off|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|27/100 tox
+|-enditem|p2a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p1a: Spidops
+|
+|-heal|p2a: Gliscor|39/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Spidops|15/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743817578
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Spidops|Leech Life|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|52/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Spidops|0 fnt|[from] psn
+|faint|p1a: Spidops
+|upkeep
+|
+|t:|1743817585
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|-damage|p1a: Pecharunt|88/100|[from] Stealth Rock
+|-damage|p1a: Pecharunt|76/100|[from] Spikes
+|turn|9
+|
+|t:|1743817593
+|move|p2a: Gliscor|Knock Off|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|52/100
+|-damage|p2a: Gliscor|35/100 tox|[from] item: Rocky Helmet|[of] p1a: Pecharunt
+|-enditem|p1a: Pecharunt|Rocky Helmet|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Pecharunt|Curse|p2a: Gliscor
+|-start|p2a: Gliscor|Curse|[of] p1a: Pecharunt
+|-damage|p1a: Pecharunt|2/100
+|
+|-heal|p2a: Gliscor|48/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Gliscor|23/100 tox|[from] Curse
+|upkeep
+|turn|10
+|
+|t:|1743817612
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|52/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743817621
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|100/100
+|move|p2a: Amoonguss|Foul Play|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|83/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743817648
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Blissey
+|-damage|p2a: Blissey|90/100
+|-status|p2a: Blissey|tox
+|-start|p2a: Blissey|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-damage|p2a: Blissey|84/100 tox|[from] psn
+|upkeep
+|turn|13
+|inactive|temp2783 has 120 seconds left.
+|
+|t:|1743817668
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Pecharunt|Curse|p2a: Ting-Lu
+|-start|p2a: Ting-Lu|Curse|[of] p1a: Pecharunt
+|-damage|p1a: Pecharunt|33/100
+|
+|-damage|p2a: Ting-Lu|76/100|[from] Curse
+|upkeep
+|turn|14
+|
+|t:|1743817684
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|83/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|42/100
+|
+|-damage|p2a: Ting-Lu|51/100|[from] Curse
+|upkeep
+|turn|15
+|inactive|temp2783 has 120 seconds left.
+|
+|t:|1743817699
+|switch|p2a: Blissey|Blissey, F|84/100
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|92/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743817706
+|move|p1a: Pecharunt|Malignant Chain|p2a: Blissey
+|-damage|p2a: Blissey|75/100
+|-status|p2a: Blissey|tox
+|-start|p2a: Blissey|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|-activate|p2a: Blissey|confusion
+|move|p2a: Blissey|Calm Mind|p2a: Blissey
+|-boost|p2a: Blissey|spa|1
+|-boost|p2a: Blissey|spd|1
+|
+|-damage|p2a: Blissey|68/100 tox|[from] psn
+|upkeep
+|turn|17
+|inactive|temp2783 has 120 seconds left.
+|
+|t:|1743817730
+|move|p1a: Pecharunt|Curse|p2a: Blissey
+|-start|p2a: Blissey|Curse|[of] p1a: Pecharunt
+|-damage|p1a: Pecharunt|42/100
+|-activate|p2a: Blissey|confusion
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100 tox
+|
+|-damage|p2a: Blissey|88/100 tox|[from] psn
+|-damage|p2a: Blissey|63/100 tox|[from] Curse
+|upkeep
+|turn|18
+|inactive|temp2783 has 120 seconds left.
+|
+|t:|1743817743
+|-curestatus|p2a: Blissey|tox|[from] ability: Natural Cure
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|move|p1a: Pecharunt|Hex|p2a: Amoonguss
+|-damage|p2a: Amoonguss|82/100
+|
+|upkeep
+|turn|19
+|inactive|temp2783 has 120 seconds left.
+|
+|t:|1743817759
+|switch|p2a: Blissey|Blissey, F|63/100
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|92/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743817765
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|-damage|p1a: Conkeldurr|94/100|[from] Stealth Rock
+|-damage|p1a: Conkeldurr|82/100|[from] Spikes
+|move|p2a: Blissey|Soft-Boiled|p2a: Blissey
+|-heal|p2a: Blissey|100/100
+|
+|-status|p1a: Conkeldurr|brn|[from] item: Flame Orb
+|upkeep
+|turn|21
+|
+|t:|1743817780
+|switch|p2a: Clefable|Clefable, F|100/100
+|-activate|p2a: Clefable|move: Sticky Web
+|-unboost|p2a: Clefable|spe|1
+|move|p1a: Conkeldurr|Knock Off|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|77/100
+|-enditem|p2a: Clefable|Sticky Barb|[from] move: Knock Off|[of] p1a: Conkeldurr
+|
+|-damage|p1a: Conkeldurr|76/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1743817790
+|move|p1a: Conkeldurr|Drain Punch|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|50/100
+|-heal|p1a: Conkeldurr|89/100 brn|[from] drain|[of] p2a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|18/100 brn
+|-unboost|p1a: Conkeldurr|spa|1
+|
+|-damage|p1a: Conkeldurr|12/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1743817799
+|-terastallize|p1a: Conkeldurr|Steel
+|move|p1a: Conkeldurr|Drain Punch|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|26/100
+|-heal|p1a: Conkeldurr|23/100 brn|[from] drain|[of] p2a: Clefable
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|76/100
+|
+|-damage|p1a: Conkeldurr|17/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1743817823
+|move|p1a: Conkeldurr|Drain Punch|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|51/100
+|-heal|p1a: Conkeldurr|29/100 brn|[from] drain|[of] p2a: Clefable
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|100/100
+|
+|-damage|p1a: Conkeldurr|23/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1743817831
+|move|p1a: Conkeldurr|Drain Punch|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|76/100
+|-heal|p1a: Conkeldurr|35/100 brn|[from] drain|[of] p2a: Clefable
+|move|p2a: Clefable|Knock Off|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|23/100 brn
+|-enditem|p1a: Conkeldurr|Flame Orb|[from] move: Knock Off|[of] p2a: Clefable
+|
+|-damage|p1a: Conkeldurr|17/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1743817843
+|move|p1a: Conkeldurr|Drain Punch|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|49/100
+|-heal|p1a: Conkeldurr|30/100 brn|[from] drain|[of] p2a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|12/100 brn
+|
+|-damage|p1a: Conkeldurr|6/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1743817847
+|move|p1a: Conkeldurr|Drain Punch|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|21/100
+|-heal|p1a: Conkeldurr|19/100 brn|[from] drain|[of] p2a: Clefable
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|71/100
+|
+|-damage|p1a: Conkeldurr|13/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1743817851
+|move|p1a: Conkeldurr|Drain Punch|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|42/100
+|-heal|p1a: Conkeldurr|27/100 brn|[from] drain|[of] p2a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|8/100 brn
+|
+|-damage|p1a: Conkeldurr|2/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1743817857
+|move|p1a: Conkeldurr|Drain Punch|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|15/100
+|-heal|p1a: Conkeldurr|16/100 brn|[from] drain|[of] p2a: Clefable
+|move|p2a: Clefable|Moonlight|p2a: Clefable
+|-heal|p2a: Clefable|65/100
+|
+|-damage|p1a: Conkeldurr|10/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1743817861
+|move|p1a: Conkeldurr|Drain Punch|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|40/100
+|-heal|p1a: Conkeldurr|22/100 brn|[from] drain|[of] p2a: Clefable
+|move|p2a: Clefable|Moonblast|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|3/100 brn
+|
+|-damage|p1a: Conkeldurr|0 fnt|[from] brn
+|faint|p1a: Conkeldurr
+|upkeep
+|
+|t:|1743817870
+|switch|p1a: Tsareena|Tsareena, F|100/100
+|-damage|p1a: Tsareena|88/100|[from] Stealth Rock
+|-damage|p1a: Tsareena|76/100|[from] Spikes
+|turn|31
+|
+|t:|1743817878
+|move|p1a: Tsareena|High Jump Kick|p2a: Clefable
+|-resisted|p2a: Clefable
+|-damage|p2a: Clefable|22/100
+|move|p2a: Clefable|Wish|p2a: Clefable
+|
+|upkeep
+|turn|32
+|-message|Kiwi Weewee forfeited.
+|
+|win|temp2783
+|raw|Kiwi Weewee's rating: 1235 &rarr; <strong>1212</strong><br />(-23 for losing)
+|raw|temp2783's rating: 1260 &rarr; <strong>1283</strong><br />(+23 for winning)
+|l|☆Kiwi Weewee
+|player|p1|
+|l|☆temp2783
+|player|p2|

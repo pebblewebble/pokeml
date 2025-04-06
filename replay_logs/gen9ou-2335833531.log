@@ -1,0 +1,388 @@
+|j|☆Joserichi
+|j|☆UtterlyIncapable
+|t:|1743844915
+|gametype|singles
+|player|p1|Joserichi|169|1119
+|player|p2|UtterlyIncapable|roxie|1137
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blissey, F|
+|poke|p1|Amoonguss, F|
+|poke|p1|Bronzong|
+|poke|p1|Gliscor, F|
+|poke|p1|Dondozo, M|
+|poke|p1|Alomomola, M|
+|poke|p2|Hatterene, F|
+|poke|p2|Honchkrow, F|
+|poke|p2|Donphan, M|
+|poke|p2|Torkoal, F|
+|poke|p2|Mimikyu, F|
+|poke|p2|Kleavor, F|
+|teampreview
+|
+|t:|1743844925
+|start
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|switch|p2a: Donphan|Donphan, M|100/100
+|turn|1
+|
+|t:|1743844941
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Gliscor|Protect||[still]
+|-fail|p1a: Gliscor
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743844954
+|move|p1a: Gliscor|Knock Off|p2a: Hatterene
+|-damage|p2a: Hatterene|78/100
+|-enditem|p2a: Hatterene|Focus Sash|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|3
+|
+|t:|1743844978
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Hatterene|Misty Explosion|p1a: Blissey
+|-damage|p1a: Blissey|82/100
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1743844980
+|switch|p2a: Honchkrow|Honchkrow, F|100/100
+|-enditem|p2a: Honchkrow|Room Service
+|-unboost|p2a: Honchkrow|spe|1|[from] item: Room Service
+|turn|4
+|
+|t:|1743844995
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|move|p2a: Honchkrow|Acrobatics|p1a: Dondozo
+|-damage|p1a: Dondozo|72/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743845002
+|move|p2a: Honchkrow|Acrobatics|p1a: Dondozo
+|-damage|p1a: Dondozo|44/100
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|upkeep
+|turn|6
+|
+|t:|1743845024
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|move|p2a: Honchkrow|Night Slash|p1a: Dondozo
+|-damage|p1a: Dondozo|89/100 slp
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1743845034
+|switch|p2a: Donphan|Donphan, M|100/100
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Avalanche|p2a: Donphan|[from] move: Sleep Talk
+|-supereffective|p2a: Donphan
+|-damage|p2a: Donphan|43/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743845043
+|move|p2a: Donphan|Stealth Rock|p1a: Dondozo
+|-sidestart|p1: Joserichi|move: Stealth Rock
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Avalanche|p2a: Donphan|[from] move: Sleep Talk
+|-supereffective|p2a: Donphan
+|-damage|p2a: Donphan|0 fnt
+|faint|p2a: Donphan
+|
+|upkeep
+|
+|t:|1743845051
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|turn|9
+|
+|t:|1743845057
+|move|p2a: Mimikyu|Taunt|p1a: Dondozo
+|-start|p1a: Dondozo|move: Taunt
+|-curestatus|p1a: Dondozo|slp|[msg]
+|cant|p1a: Dondozo|move: Taunt|Curse
+|
+|upkeep
+|turn|10
+|
+|t:|1743845071
+|move|p1a: Dondozo|Avalanche|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p2a: Mimikyu|Red Card|[of] p1a: Dondozo
+|drag|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Mimikyu|Trick Room|p2a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p2a: Mimikyu
+|
+|upkeep
+|turn|11
+|
+|t:|1743845087
+|move|p1a: Amoonguss|Toxic|p2a: Mimikyu
+|-status|p2a: Mimikyu|tox
+|move|p2a: Mimikyu|Curse|p1a: Amoonguss
+|-start|p1a: Amoonguss|Curse|[of] p2a: Mimikyu
+|-damage|p2a: Mimikyu|38/100 tox
+|
+|-damage|p2a: Mimikyu|32/100 tox|[from] psn
+|-damage|p1a: Amoonguss|76/100|[from] Curse
+|upkeep
+|turn|12
+|
+|t:|1743845099
+|switch|p1a: Gliscor|Gliscor, F|100/100 tox
+|-damage|p1a: Gliscor|88/100 tox|[from] Stealth Rock
+|move|p2a: Mimikyu|Taunt|p1a: Gliscor
+|-start|p1a: Gliscor|move: Taunt
+|
+|-damage|p2a: Mimikyu|20/100 tox|[from] psn
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|t:|1743845111
+|move|p2a: Mimikyu|Curse|p1a: Gliscor
+|-start|p1a: Gliscor|Curse|[of] p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|move|p1a: Gliscor|Knock Off|p2: Mimikyu|[notarget]
+|-fail|p1a: Gliscor
+|
+|-damage|p1a: Gliscor|75/100 tox|[from] Curse
+|upkeep
+|
+|t:|1743845123
+|switch|p2a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|14
+|
+|t:|1743845127
+|switch|p1a: Blissey|Blissey, F|82/100
+|move|p2a: Torkoal|Eruption|p1a: Blissey
+|-damage|p1a: Blissey|39/100
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|15
+|
+|t:|1743845141
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|89/100
+|move|p2a: Torkoal|Eruption|p1a: Blissey
+|-damage|p1a: Blissey|42/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743845147
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|92/100
+|move|p2a: Torkoal|Eruption|p1a: Blissey
+|-damage|p1a: Blissey|49/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743845158
+|switch|p2a: Kleavor|Kleavor, F|100/100
+|move|p1a: Blissey|Seismic Toss|p2a: Kleavor
+|-damage|p2a: Kleavor|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743845176
+|switch|p1a: Dondozo|Dondozo, M|89/100
+|-terastallize|p2a: Kleavor|Bug
+|move|p2a: Kleavor|Agility|p2a: Kleavor
+|-boost|p2a: Kleavor|spe|2
+|
+|-weather|none
+|upkeep
+|turn|19
+|
+|t:|1743845189
+|move|p2a: Kleavor|Fury Cutter|p1a: Dondozo
+|-damage|p1a: Dondozo|66/100
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|upkeep
+|turn|20
+|
+|t:|1743845204
+|move|p2a: Kleavor|Fury Cutter|p1a: Dondozo
+|-damage|p1a: Dondozo|34/100
+|move|p1a: Dondozo|Curse|p1a: Dondozo
+|-unboost|p1a: Dondozo|spe|1
+|-boost|p1a: Dondozo|atk|1
+|-boost|p1a: Dondozo|def|1
+|
+|upkeep
+|turn|21
+|
+|t:|1743845246
+|move|p2a: Kleavor|Fury Cutter|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|
+|upkeep
+|
+|t:|1743845251
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|turn|22
+|
+|t:|1743845260
+|-terastallize|p1a: Alomomola|Steel
+|move|p2a: Kleavor|Fury Cutter|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|6/100
+|move|p1a: Alomomola|Scald|p2a: Kleavor
+|-damage|p2a: Kleavor|43/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743845268
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Kleavor|Fury Cutter|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|upkeep
+|turn|24
+|
+|t:|1743845286
+|switch|p1a: Gliscor|Gliscor, F|75/100 tox
+|-damage|p1a: Gliscor|63/100 tox|[from] Stealth Rock
+|move|p2a: Kleavor|Fury Cutter|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|43/100 tox
+|
+|-heal|p1a: Gliscor|56/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|
+|t:|1743845297
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Kleavor|Fury Cutter|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|68/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|26
+|
+|t:|1743845305
+|move|p2a: Kleavor|Stone Axe|p1a: Gliscor
+|-damage|p1a: Gliscor|20/100 tox
+|move|p1a: Gliscor|Knock Off|p2a: Kleavor
+|-damage|p2a: Kleavor|14/100
+|-enditem|p2a: Kleavor|Metronome|[from] move: Knock Off|[of] p1a: Gliscor
+|
+|-heal|p1a: Gliscor|32/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|27
+|
+|t:|1743845320
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Kleavor|Stone Axe|p1a: Gliscor
+|-activate|p1a: Gliscor|move: Protect
+|
+|-heal|p1a: Gliscor|45/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|
+|t:|1743845332
+|switch|p1a: Amoonguss|Amoonguss, F|100/100
+|move|p2a: Kleavor|Stone Axe|p1a: Amoonguss
+|-damage|p1a: Amoonguss|62/100
+|
+|upkeep
+|turn|29
+|
+|t:|1743845340
+|move|p2a: Kleavor|Fury Cutter|p1a: Amoonguss
+|-damage|p1a: Amoonguss|27/100
+|move|p1a: Amoonguss|Foul Play|p2a: Kleavor
+|-damage|p2a: Kleavor|0 fnt
+|faint|p2a: Kleavor
+|
+|upkeep
+|
+|t:|1743845347
+|switch|p2a: Honchkrow|Honchkrow, F|100/100
+|turn|30
+|
+|t:|1743845355
+|switch|p1a: Gliscor|Gliscor, F|45/100 tox
+|-damage|p1a: Gliscor|32/100 tox|[from] Stealth Rock
+|move|p2a: Honchkrow|Acrobatics|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|-ability|p2a: Honchkrow|Moxie|boost
+|-boost|p2a: Honchkrow|atk|1
+|
+|upkeep
+|
+|t:|1743845367
+|switch|p1a: Bronzong|Bronzong|100/100
+|-damage|p1a: Bronzong|94/100|[from] Stealth Rock
+|turn|31
+|
+|t:|1743845376
+|move|p2a: Honchkrow|Night Slash|p1a: Bronzong
+|-supereffective|p1a: Bronzong
+|-damage|p1a: Bronzong|0 fnt
+|faint|p1a: Bronzong
+|-ability|p2a: Honchkrow|Moxie|boost
+|-boost|p2a: Honchkrow|atk|1
+|
+|upkeep
+|-message|Joserichi forfeited.
+|
+|win|UtterlyIncapable
+|raw|Joserichi's rating: 1119 &rarr; <strong>1095</strong><br />(-24 for losing)
+|raw|UtterlyIncapable's rating: 1137 &rarr; <strong>1161</strong><br />(+24 for winning)
+|l|☆Joserichi
+|player|p1|

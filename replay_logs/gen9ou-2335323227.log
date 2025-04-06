@@ -1,0 +1,315 @@
+|j|☆Brutalshaman
+|j|☆GauMongStyle
+|t:|1743784622
+|gametype|singles
+|player|p1|Brutalshaman|170|1520
+|player|p2|GauMongStyle|veteran-gen4|1443
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Scovillain, M|
+|poke|p1|Walking Wake|
+|poke|p1|Hatterene, F|
+|poke|p1|Great Tusk|
+|poke|p1|Ceruledge, F|
+|poke|p2|Dragapult, F|
+|poke|p2|Primarina, M|
+|poke|p2|Iron Crown|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Landorus-Therian, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GauMongStyle)
+|inactive|Brutalshaman has 120 seconds left.
+|
+|t:|1743784656
+|start
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Dragapult|Dragapult, F, shiny|100/100
+|turn|1
+|
+|t:|1743784666
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F, shiny|100/100
+|move|p2a: Dragapult|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|71/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1743784672
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743784676
+|move|p2a: Dragapult|U-turn|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|85/100
+|
+|t:|1743784681
+|switch|p2a: Landorus|Landorus-Therian, M|100/100|[from] U-turn
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|move|p1a: Torkoal|Stealth Rock|p2a: Landorus
+|-sidestart|p2: GauMongStyle|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743784686
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|move|p2a: Landorus|Stealth Rock|p1a: Walking Wake
+|-sidestart|p1: Brutalshaman|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743784694
+|move|p1a: Walking Wake|Hydro Steam|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743784697
+|switch|p2a: Primarina|Primarina, M|100/100
+|turn|5
+|
+|t:|1743784713
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F, shiny|71/100
+|-damage|p1a: Hatterene|59/100|[from] Stealth Rock
+|move|p2a: Primarina|Moonblast|p1a: Hatterene
+|-damage|p1a: Hatterene|18/100
+|-unboost|p1a: Hatterene|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743784723
+|switch|p1a: Scovillain|Scovillain, M|100/100
+|-damage|p1a: Scovillain|76/100|[from] Stealth Rock
+|move|p2a: Primarina|Moonblast|p1a: Scovillain
+|-resisted|p1a: Scovillain
+|-damage|p1a: Scovillain|31/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743784732
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-damage|p2a: Iron Crown|94/100|[from] Stealth Rock
+|move|p1a: Scovillain|Giga Drain|p2a: Iron Crown
+|-resisted|p2a: Iron Crown
+|-damage|p2a: Iron Crown|78/100
+|-heal|p1a: Scovillain|41/100|[from] drain|[of] p2a: Iron Crown
+|-damage|p1a: Scovillain|31/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743784742
+|move|p1a: Scovillain|Flamethrower|p2a: Iron Crown
+|-supereffective|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|-damage|p1a: Scovillain|21/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1743784750
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|9
+|
+|t:|1743784757
+|switch|p1a: Don|Great Tusk, shiny|100/100
+|-damage|p1a: Don|98/100|[from] Stealth Rock
+|move|p2a: Samurott|Ceaseless Edge|p1a: Don
+|-resisted|p1a: Don
+|-damage|p1a: Don|81/100
+|-damage|p2a: Samurott|84/100|[from] item: Rocky Helmet|[of] p1a: Don
+|-sidestart|p1: Brutalshaman|Spikes
+|
+|upkeep
+|turn|10
+|
+|t:|1743784764
+|move|p2a: Samurott|Razor Shell|p1a: Don
+|-supereffective|p1a: Don
+|-crit|p1a: Don
+|-damage|p1a: Don|0 fnt
+|-damage|p2a: Samurott|67/100|[from] item: Rocky Helmet|[of] p1a: Don
+|faint|p1a: Don
+|-end|p1a: Don|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743784769
+|switch|p1a: Torkoal|Torkoal, F|85/100
+|-damage|p1a: Torkoal|60/100|[from] Stealth Rock
+|-damage|p1a: Torkoal|48/100|[from] Spikes
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|11
+|
+|t:|1743784783
+|switch|p2a: Dragapult|Dragapult, F, shiny|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|switch|p1a: Hatterene|Hatterene, F, shiny|18/100
+|-damage|p1a: Hatterene|6/100|[from] Stealth Rock
+|-damage|p1a: Hatterene|0 fnt|[from] Spikes
+|faint|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Brutalshaman has 120 seconds left.
+|
+|t:|1743784811
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|-damage|p1a: Ceruledge|76/100|[from] Stealth Rock
+|-damage|p1a: Ceruledge|63/100|[from] Spikes
+|turn|12
+|inactive|Brutalshaman has 120 seconds left.
+|
+|t:|1743784821
+|move|p1a: Ceruledge|Shadow Sneak|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|22/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Ceruledge
+|-damage|p1a: Ceruledge|15/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Brutalshaman has 120 seconds left.
+|
+|t:|1743784834
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-damage|p1a: Walking Wake|88/100|[from] Stealth Rock
+|-damage|p1a: Walking Wake|76/100|[from] Spikes
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|turn|13
+|inactive|Brutalshaman has 120 seconds left.
+|
+|t:|1743784848
+|-terastallize|p1a: Walking Wake|Fairy
+|move|p2a: Dragapult|Dragon Darts|p1a: Walking Wake
+|-immune|p1a: Walking Wake
+|move|p1a: Walking Wake|Hydro Steam|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743784856
+|switch|p2a: Primarina|Primarina, M|100/100
+|turn|14
+|
+|t:|1743784864
+|move|p1a: Walking Wake|Hydro Steam|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|49/100
+|move|p2a: Primarina|Moonblast|p1a: Walking Wake
+|-damage|p1a: Walking Wake|19/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|inactive|GauMongStyle has 120 seconds left.
+|inactive|GauMongStyle has 90 seconds left.
+|
+|t:|1743784926
+|move|p1a: Walking Wake|Hydro Steam|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|GauMongStyle has 90 seconds left.
+|
+|t:|1743784932
+|switch|p2a: Samurott|Samurott-Hisui, F|67/100
+|turn|16
+|
+|t:|1743784937
+|move|p1a: Walking Wake|Hydro Steam|p2a: Samurott
+|-resisted|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743784940
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|17
+|
+|t:|1743784945
+|move|p2a: Kingambit|Sucker Punch|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kingambit|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743784949
+|switch|p1a: Scovillain|Scovillain, M|21/100
+|-damage|p1a: Scovillain|0 fnt|[from] Stealth Rock
+|faint|p1a: Scovillain
+|
+|t:|1743784954
+|switch|p1a: Torkoal|Torkoal, F|48/100
+|-damage|p1a: Torkoal|23/100|[from] Stealth Rock
+|-damage|p1a: Torkoal|11/100|[from] Spikes
+|turn|18
+|
+|t:|1743784959
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|win|GauMongStyle
+|raw|Brutalshaman's rating: 1520 &rarr; <strong>1496</strong><br />(-24 for losing)
+|raw|GauMongStyle's rating: 1443 &rarr; <strong>1467</strong><br />(+24 for winning)
+|l|☆Brutalshaman
+|player|p1|
+|l|☆GauMongStyle
+|player|p2|

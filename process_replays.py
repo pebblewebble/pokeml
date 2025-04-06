@@ -32,7 +32,7 @@ PSEUDO_WEATHERS = {'Trick Room'}
 
 # Includes hazards and non-hazards for parsing robustness
 SIDE_CONDITIONS = {
-    'Reflect', 'Light Screen', 'Aurora Veil', 'Safeguard', 'Mist', 'Tailwind',
+    'Reflect', 'Light Screen', 'Aurora Veil', 'Safeguard', 'Tailwind',
  'Stealth Rock', 'Spikes', 'Toxic Spikes', 'Sticky Web',
 }
 HAZARD_CONDITIONS = {'Stealth Rock', 'Spikes', 'Toxic Spikes', 'Sticky Web'}

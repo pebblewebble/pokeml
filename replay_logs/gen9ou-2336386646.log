@@ -1,0 +1,373 @@
+|j|☆Frozen Shogun
+|j|☆VictorHugo2908
+|t:|1743910422
+|gametype|singles
+|player|p1|Frozen Shogun|n|1187
+|player|p2|VictorHugo2908|giovanni|1235
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Glimmora, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Gholdengo|
+|poke|p1|Dragapult, M|
+|poke|p1|Corviknight, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Kingambit, M|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Iron Moth|
+|teampreview
+|
+|t:|1743910446
+|start
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|t:|1743910463
+|move|p2a: Samurott|Razor Shell|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|15/100
+|-damage|p2a: Samurott|84/100|[from] item: Rocky Helmet|[of] p1a: Glimmora
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: VictorHugo2908|move: Toxic Spikes
+|move|p1a: Glimmora|Toxic|p2a: Samurott
+|-status|p2a: Samurott|tox
+|
+|-damage|p2a: Samurott|78/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1743910474
+|move|p1a: Glimmora|Spiky Shield|p1a: Glimmora
+|-singleturn|p1a: Glimmora|move: Protect
+|move|p2a: Samurott|Ceaseless Edge|p1a: Glimmora
+|-activate|p1a: Glimmora|move: Protect
+|-damage|p2a: Samurott|65/100 tox|[from] Spiky Shield|[of] p1a: Glimmora
+|
+|-damage|p2a: Samurott|53/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1743910487
+|switch|p1a: Corviknight|Corviknight, F|100/100
+|-ability|p1a: Corviknight|Pressure
+|move|p2a: Samurott|Ceaseless Edge|p1a: Corviknight
+|-damage|p1a: Corviknight|62/100
+|-damage|p2a: Samurott|36/100 tox|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|-sidestart|p1: Frozen Shogun|Spikes
+|
+|-damage|p2a: Samurott|18/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743910500
+|move|p2a: Samurott|Knock Off|p1a: Corviknight
+|-damage|p1a: Corviknight|20/100
+|-damage|p2a: Samurott|1/100 tox|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|-enditem|p1a: Corviknight|Rocky Helmet|[from] move: Knock Off|[of] p2a: Samurott
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|70/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-damage|p2a: Samurott|0 fnt|[from] psn
+|faint|p2a: Samurott
+|upkeep
+|
+|t:|1743910524
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-sideend|p2: VictorHugo2908|move: Toxic Spikes|[of] p2a: Iron Moth
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|5
+|
+|t:|1743910543
+|move|p2a: Iron Moth|Fiery Dance|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|14/100
+|-boost|p2a: Iron Moth|spa|1
+|move|p1a: Corviknight|Defog|p2a: Iron Moth
+|-unboost|p2a: Iron Moth|evasion|1
+|-sideend|p1: Frozen Shogun|Spikes|[from] move: Defog|[of] p1a: Corviknight
+|
+|upkeep
+|turn|6
+|
+|t:|1743910557
+|switch|p1a: Glimmora|Glimmora, M|15/100
+|move|p2a: Iron Moth|Fiery Dance|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-boost|p2a: Iron Moth|spa|1
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1743910565
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Moth|atk|1
+|turn|7
+|
+|t:|1743910606
+|move|p2a: Iron Moth|Sludge Wave|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|38/100
+|move|p1a: Landorus|Earthquake|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743910624
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|8
+|
+|t:|1743910640
+|move|p1a: Landorus|Earthquake|p2a: Zamazenta
+|-damage|p2a: Zamazenta|68/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|upkeep
+|turn|9
+|
+|t:|1743910651
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|
+|upkeep
+|turn|10
+|
+|t:|1743910660
+|move|p1a: Gholdengo|Trick|p2a: Zamazenta
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Zamazenta
+|-item|p2a: Zamazenta|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Lum Berry|[from] move: Trick
+|move|p2a: Zamazenta|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|54/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743910694
+|switch|p1a: Landorus|Landorus-Therian, M|38/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Zamazenta|atk|1
+|move|p2a: Zamazenta|Crunch|p1a: Landorus
+|-damage|p1a: Landorus|21/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743910705
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|U-turn|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|92/100
+|-damage|p1a: Landorus|5/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|t:|1743910709
+|switch|p1a: Rotom|Rotom-Wash|100/100|[from] U-turn
+|
+|upkeep
+|turn|13
+|
+|t:|1743910751
+|move|p1a: Rotom|Hydro Pump|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|upkeep
+|
+|t:|1743910761
+|switch|p2a: Zamazenta|Zamazenta|68/100
+|turn|14
+|
+|t:|1743910771
+|move|p2a: Zamazenta|Body Press|p1a: Rotom
+|-damage|p1a: Rotom|57/100
+|move|p1a: Rotom|Hydro Pump|p2a: Zamazenta|[miss]
+|-miss|p1a: Rotom|p2a: Zamazenta
+|
+|upkeep
+|turn|15
+|
+|t:|1743910776
+|move|p2a: Zamazenta|Body Press|p1a: Rotom
+|-damage|p1a: Rotom|13/100
+|move|p1a: Rotom|Hydro Pump|p2a: Zamazenta
+|-damage|p2a: Zamazenta|32/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743910781
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Zamazenta|Body Press|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|upkeep
+|turn|17
+|
+|t:|1743910794
+|-terastallize|p1a: Dragapult|Fairy
+|move|p2a: Zamazenta|Body Press|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|77/100
+|move|p1a: Dragapult|Tera Blast|p2a: Zamazenta|[anim] Tera Blast Fairy
+|-supereffective|p2a: Zamazenta
+|-crit|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1743910824
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|18
+|
+|t:|1743910834
+|move|p2a: Iron Valiant|Moonblast|p1a: Dragapult
+|-damage|p1a: Dragapult|10/100
+|move|p1a: Dragapult|Tera Blast|p2a: Iron Valiant|[anim] Tera Blast Fairy
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743910842
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|19
+|
+|t:|1743910851
+|move|p1a: Dragapult|Tera Blast|p2a: Kingambit|[anim] Tera Blast Fairy
+|-damage|p2a: Kingambit|52/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p2a: Kingambit|58/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743910875
+|move|p1a: Dragapult|Tera Blast|p2a: Kingambit|[anim] Tera Blast Fairy
+|-damage|p2a: Kingambit|6/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-heal|p2a: Kingambit|12/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743910879
+|move|p2a: Kingambit|Sucker Punch|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Kingambit|18/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743910882
+|switch|p1a: Corviknight|Corviknight, F|14/100
+|-ability|p1a: Corviknight|Pressure
+|turn|22
+|
+|t:|1743910900
+|switch|p1a: Landorus|Landorus-Therian, M|5/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|-terastallize|p2a: Kingambit|Ghost
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|-heal|p2a: Kingambit|24/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743910909
+|switch|p1a: Gholdengo|Gholdengo|54/100
+|turn|23
+|
+|t:|1743910916
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Gholdengo|Trick|p2a: Kingambit
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Kingambit
+|-item|p2a: Kingambit|Lum Berry|[from] move: Trick
+|-item|p1a: Gholdengo|Leftovers|[from] move: Trick
+|
+|-heal|p1a: Gholdengo|60/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1743910925
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743910933
+|switch|p1a: Rotom|Rotom-Wash|13/100
+|turn|25
+|
+|t:|1743910938
+|move|p2a: Kingambit|Sucker Punch|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1743910943
+|switch|p1a: Corviknight|Corviknight, F|14/100
+|-ability|p1a: Corviknight|Pressure
+|turn|26
+|
+|t:|1743910951
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|64/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|win|VictorHugo2908
+|raw|Frozen Shogun's rating: 1187 &rarr; <strong>1165</strong><br />(-22 for losing)
+|raw|VictorHugo2908's rating: 1235 &rarr; <strong>1257</strong><br />(+22 for winning)
+|l|☆Frozen Shogun
+|player|p1|

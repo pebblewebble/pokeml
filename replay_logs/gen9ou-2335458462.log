@@ -1,0 +1,324 @@
+|j|☆Death Coil
+|j|☆Praise The Salt
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1743796120
+|gametype|singles
+|player|p1|Death Coil|bruno|
+|player|p2|Praise The Salt|ballguy|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|Tournament battle
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blastoise, F|
+|poke|p1|Arcanine, F|
+|poke|p1|Raikou|
+|poke|p1|Tyranitar, M|
+|poke|p1|Urshifu-*, F|
+|poke|p1|Ursaluna, F|
+|poke|p2|Corviknight, F|
+|poke|p2|Great Tusk|
+|poke|p2|Primarina, M|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Urshifu-*, F|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Death Coil has 120 seconds left.
+|
+|t:|1743796167
+|start
+|switch|p1a: Arcanine|Arcanine, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Great Tusk|atk|1
+|turn|1
+|
+|t:|1743796181
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Primarina|Primarina, M|100/100
+|move|p1a: Arcanine|Will-O-Wisp|p2a: Primarina
+|-status|p2a: Primarina|brn
+|
+|-damage|p2a: Primarina|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1743796191
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Primarina|Psychic Noise|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|49/100
+|-start|p1a: Tyranitar|move: Heal Block
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Primarina|88/100 brn|[from] Sandstorm
+|-heal|p2a: Primarina|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Primarina|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743796195
+|move|p1a: Tyranitar|Knock Off|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|69/100 brn
+|-enditem|p2a: Primarina|Leftovers|[from] move: Knock Off|[of] p1a: Tyranitar
+|move|p2a: Primarina|Psychic Noise|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|5/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Primarina|63/100 brn|[from] Sandstorm
+|-damage|p2a: Primarina|57/100 brn|[from] brn
+|-end|p1a: Tyranitar|move: Heal Block
+|upkeep
+|turn|4
+|j|#SetsuStsna
+|
+|t:|1743796205
+|move|p1a: Tyranitar|Rock Slide|p2a: Primarina|[miss]
+|-miss|p1a: Tyranitar|p2a: Primarina
+|move|p2a: Primarina|Draining Kiss|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-heal|p2a: Primarina|61/100 brn|[from] drain|[of] p1a: Tyranitar
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Primarina|55/100 brn|[from] Sandstorm
+|-damage|p2a: Primarina|49/100 brn|[from] brn
+|upkeep
+|
+|t:|1743796225
+|switch|p1a: Raikou|Raikou, shiny|100/100
+|turn|5
+|inactive|Death Coil has 120 seconds left.
+|
+|t:|1743796253
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Raikou|Thunder|p2a: Slowking
+|-damage|p2a: Slowking|66/100
+|-damage|p1a: Raikou|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raikou|84/100|[from] Sandstorm
+|-damage|p2a: Slowking|60/100|[from] Sandstorm
+|upkeep
+|turn|6
+|inactive|Death Coil has 120 seconds left.
+|
+|t:|1743796269
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743796277
+|switch|p2a: Urshifu|Urshifu, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|inactive|Death Coil has 120 seconds left.
+|
+|t:|1743796287
+|switch|p1a: Arcanine|Arcanine, F|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Urshifu|atk|1
+|move|p2a: Urshifu|Close Combat|p1a: Arcanine
+|-damage|p1a: Arcanine|10/100
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|inactive|Death Coil has 120 seconds left.
+|
+|t:|1743796298
+|move|p1a: Arcanine|Scorching Sands|p2a: Urshifu
+|-damage|p2a: Urshifu|50/100
+|-status|p2a: Urshifu|brn
+|move|p2a: Urshifu|Close Combat|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-unboost|p2a: Urshifu|def|1
+|-unboost|p2a: Urshifu|spd|1
+|faint|p1a: Arcanine
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Urshifu|44/100 brn|[from] brn
+|upkeep
+|inactive|Death Coil has 120 seconds left.
+|
+|t:|1743796309
+|switch|p1a: Blastoise|Blastoise, F|100/100
+|turn|9
+|c|☆Praise The Salt|dang fast arcanine with scorching
+|c|☆Praise The Salt|i did not predict that
+|
+|t:|1743796316
+|switch|p2a: Slowking|Slowking-Galar, M|93/100
+|move|p1a: Blastoise|Shell Smash|p1a: Blastoise
+|-unboost|p1a: Blastoise|def|1
+|-unboost|p1a: Blastoise|spd|1
+|-boost|p1a: Blastoise|atk|2
+|-boost|p1a: Blastoise|spa|2
+|-boost|p1a: Blastoise|spe|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743796321
+|move|p1a: Blastoise|Earthquake|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|-damage|p1a: Blastoise|91/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|c|☆Praise The Salt|or that
+|c|☆Praise The Salt|wow
+|c|☆Death Coil|lol
+|
+|t:|1743796349
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|11
+|
+|t:|1743796352
+|move|p1a: Blastoise|Hydro Pump|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|-damage|p1a: Blastoise|81/100|[from] item: Life Orb
+|
+|upkeep
+|c|☆Praise The Salt|holy
+|inactive|Praise The Salt has 120 seconds left.
+|inactive|Praise The Salt has 90 seconds left.
+|
+|t:|1743796406
+|switch|p2a: Urshifu|Urshifu, F|44/100 brn
+|turn|12
+|inactive|Death Coil has 120 seconds left.
+|inactive|Death Coil has 90 seconds left.
+|
+|t:|1743796480
+|-terastallize|p2a: Urshifu|Dark
+|move|p2a: Urshifu|Sucker Punch|p1a: Blastoise
+|-damage|p1a: Blastoise|14/100
+|move|p1a: Blastoise|Earthquake|p2a: Urshifu
+|-damage|p2a: Urshifu|0 fnt
+|faint|p2a: Urshifu
+|-damage|p1a: Blastoise|4/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Praise The Salt has 90 seconds left.
+|
+|t:|1743796498
+|switch|p2a: Primarina|Primarina, M|49/100 brn
+|turn|13
+|inactive|Death Coil has 90 seconds left.
+|
+|t:|1743796504
+|move|p1a: Blastoise|Earthquake|p2a: Primarina
+|-damage|p2a: Primarina|7/100 brn
+|-damage|p1a: Blastoise|0 fnt|[from] item: Life Orb
+|faint|p1a: Blastoise
+|move|p2a: Primarina|Draining Kiss|p1: Blastoise|[notarget]
+|-fail|p2a: Primarina
+|
+|-damage|p2a: Primarina|1/100 brn|[from] brn
+|upkeep
+|inactive|Death Coil has 90 seconds left.
+|
+|t:|1743796516
+|switch|p1a: Urshifu|Urshifu, F|100/100
+|turn|14
+|inactive|Death Coil has 90 seconds left.
+|
+|t:|1743796538
+|-terastallize|p1a: Urshifu|Fire
+|move|p1a: Urshifu|Swords Dance|p1a: Urshifu
+|-boost|p1a: Urshifu|atk|2
+|move|p2a: Primarina|Draining Kiss|p1a: Urshifu
+|-resisted|p1a: Urshifu
+|-damage|p1a: Urshifu|86/100
+|-heal|p2a: Primarina|12/100 brn|[from] drain|[of] p1a: Urshifu
+|
+|-damage|p2a: Primarina|6/100 brn|[from] brn
+|upkeep
+|turn|15
+|inactive|Praise The Salt has 120 seconds left.
+|
+|t:|1743796547
+|move|p1a: Urshifu|Wicked Blow|p2a: Primarina
+|-resisted|p2a: Primarina
+|-crit|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|upkeep
+|inactive|Praise The Salt has 120 seconds left.
+|
+|t:|1743796560
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|16
+|inactive|Praise The Salt has 120 seconds left.
+|
+|t:|1743796566
+|move|p2a: Great Tusk|Rapid Spin|p1a: Urshifu
+|-damage|p1a: Urshifu|69/100
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: Urshifu|Close Combat|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-unboost|p1a: Urshifu|def|1
+|-unboost|p1a: Urshifu|spd|1
+|-damage|p1a: Urshifu|53/100|[from] item: Rocky Helmet|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|c|☆Praise The Salt|oh
+|inactive|Praise The Salt has 120 seconds left.
+|c|☆Praise The Salt|ada
+|c|☆Praise The Salt|i should have just headlonged lol
+|c|☆Death Coil|yea lol
+|
+|t:|1743796584
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|17
+|
+|t:|1743796589
+|move|p1a: Urshifu|Wicked Blow|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|12/100
+|move|p2a: Corviknight|Brave Bird|p1a: Urshifu
+|-damage|p1a: Urshifu|0 fnt
+|faint|p1a: Urshifu
+|-damage|p2a: Corviknight|0 fnt|[from] Recoil
+|faint|p2a: Corviknight
+|
+|win|Death Coil
+|n|☆Death Coil|deathcoil
+|n|☆Praise The Salt|praisethesalt
+|n|+SetsuStsna|setsustsna
+|c|☆Praise The Salt|man
+|c|☆Praise The Salt|i got cooked
+|c|☆Praise The Salt|gg
+|l|+SetsuStsna
+|c|☆Death Coil|gg bro
+|l|☆Praise The Salt
+|player|p2|

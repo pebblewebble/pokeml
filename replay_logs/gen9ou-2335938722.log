@@ -1,0 +1,162 @@
+|j|☆lordnabos
+|j|☆love is simple
+|t:|1743861438
+|gametype|singles
+|player|p1|lordnabos|102|1436
+|player|p2|love is simple|dawn|1455
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Clodsire, F|
+|poke|p1|Dondozo, M|
+|poke|p1|Alomomola, M|
+|poke|p1|Talonflame, F|
+|poke|p1|Toxapex, F|
+|poke|p1|Blissey, F|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Keldeo|
+|poke|p2|Dragapult, F|
+|poke|p2|Gliscor, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by love is simple)
+|
+|t:|1743861462
+|start
+|switch|p1a: Blissey|Blissey, F|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|t:|1743861473
+|switch|p1a: Dondozo|Dondozo, M|100/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Dondozo
+|-damage|p1a: Dondozo|79/100
+|-sidestart|p1: lordnabos|Spikes
+|
+|upkeep
+|turn|2
+|
+|t:|1743861479
+|move|p2a: Samurott|Knock Off|p1a: Dondozo
+|-damage|p1a: Dondozo|58/100
+|-enditem|p1a: Dondozo|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Samurott
+|move|p1a: Dondozo|Body Press|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|33/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743861489
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|switch|p1a: Blissey|Blissey, F|100/100
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|t:|1743861498
+|move|p2a: Gliscor|Knock Off|p1a: Blissey
+|-damage|p1a: Blissey|58/100
+|-enditem|p1a: Blissey|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Blissey|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: love is simple|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1743861507
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743861512
+|switch|p1a: Dondozo|Dondozo, M|58/100
+|-damage|p1a: Dondozo|45/100|[from] Spikes
+|move|p2a: Gliscor|Facade|p1a: Dondozo
+|-damage|p1a: Dondozo|30/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743861519
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Dondozo|Rest|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Rest
+|-heal|p1a: Dondozo|100/100 slp|[silent]
+|
+|upkeep
+|turn|8
+|
+|t:|1743861536
+|cant|p1a: Dondozo|slp
+|move|p1a: Dondozo|Sleep Talk|p1a: Dondozo
+|move|p1a: Dondozo|Rest||[from] move: Sleep Talk|[still]
+|-fail|p1a: Dondozo
+|move|p2a: Slowking|Future Sight|p1a: Dondozo
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|9
+|
+|t:|1743861543
+|switch|p1a: Blissey|Blissey, F|100/100
+|-damage|p1a: Blissey|88/100|[from] Spikes
+|move|p2a: Slowking|Sludge Bomb|p1a: Blissey
+|-damage|p1a: Blissey|78/100
+|-status|p1a: Blissey|psn
+|
+|-damage|p1a: Blissey|66/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743861553
+|move|p1a: Blissey|Soft-Boiled|p1a: Blissey
+|-heal|p1a: Blissey|100/100 psn
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743861561
+|switch|p2a: Dragapult|Dragapult, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Blissey|move: Future Sight
+|-damage|p1a: Blissey|87/100 psn
+|-damage|p1a: Blissey|75/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743861571
+|move|p2a: Dragapult|Dragon Darts|p1a: Blissey
+|-damage|p1a: Blissey|33/100 psn
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|-message|lordnabos forfeited.
+|
+|win|love is simple
+|raw|lordnabos's rating: 1436 &rarr; <strong>1417</strong><br />(-19 for losing)
+|raw|love is simple's rating: 1455 &rarr; <strong>1474</strong><br />(+19 for winning)
+|l|☆lordnabos
+|player|p1|
+|l|☆love is simple
+|player|p2|

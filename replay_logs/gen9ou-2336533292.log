@@ -1,0 +1,294 @@
+|j|☆Reldr
+|j|☆yllassue
+|t:|1743934735
+|gametype|singles
+|player|p1|Reldr|shadowtriad|1374
+|player|p2|yllassue|gambler|1422
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Dragapult, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Kingambit, M|
+|poke|p2|Garganacl, F|
+|poke|p2|Blissey, F|
+|poke|p2|Excadrill, M|
+|poke|p2|Iron Moth|
+|poke|p2|Gyarados, F|
+|poke|p2|Breloom, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Reldr)
+|
+|t:|1743934753
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Excadrill|Excadrill, M|100/100
+|-ability|p2a: Excadrill|Mold Breaker
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|turn|1
+|
+|t:|1743934757
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Landorus|atk|1
+|move|p1a: Landorus|Earthquake|p2a: Gyarados
+|-immune|p2a: Gyarados
+|
+|upkeep
+|turn|2
+|
+|t:|1743934766
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743934770
+|move|p2a: Gyarados|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-enditem|p1a: Glimmora|Focus Sash
+|-damage|p1a: Glimmora|1/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: yllassue|move: Toxic Spikes
+|move|p1a: Glimmora|Power Gem|p2a: Gyarados
+|-supereffective|p2a: Gyarados
+|-damage|p2a: Gyarados|10/100
+|
+|-heal|p2a: Gyarados|16/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743934782
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gyarados|atk|1
+|move|p2a: Gyarados|Earthquake|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|-heal|p2a: Gyarados|22/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743934789
+|switch|p1a: Glimmora|Glimmora, M|1/100
+|move|p2a: Gyarados|Ice Fang|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: yllassue|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|-heal|p2a: Gyarados|28/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743934810
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|6
+|
+|t:|1743934814
+|move|p1a: Iron Valiant|Moonblast|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|t:|1743934817
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-sideend|p2: yllassue|move: Toxic Spikes|[of] p2a: Iron Moth
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|7
+|
+|t:|1743934821
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Moth|atk|1
+|move|p2a: Iron Moth|Sludge Wave|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|78/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743934843
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Breloom|Breloom, F|100/100
+|move|p1a: Landorus|Earthquake|p2a: Breloom
+|-resisted|p2a: Breloom
+|-damage|p2a: Breloom|66/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743934847
+|move|p2a: Breloom|Rock Tomb|p1a: Landorus
+|-damage|p1a: Landorus|49/100
+|-unboost|p1a: Landorus|spe|1
+|move|p1a: Landorus|U-turn|p2a: Breloom
+|-damage|p2a: Breloom|32/100
+|
+|t:|1743934855
+|switch|p1a: Dragapult|Dragapult, M, shiny|100/100|[from] U-turn
+|
+|upkeep
+|turn|10
+|
+|t:|1743934862
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Blissey
+|-damage|p2a: Blissey|49/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|
+|upkeep
+|
+|t:|1743934864
+|switch|p2a: Garganacl|Garganacl, F|100/100
+|turn|11
+|
+|t:|1743934870
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|76/100
+|move|p2a: Garganacl|Salt Cure|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|upkeep
+|turn|12
+|
+|t:|1743934878
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|upkeep
+|turn|13
+|
+|t:|1743934884
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|upkeep
+|turn|14
+|
+|t:|1743934890
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Garganacl|Iron Defense|p2a: Garganacl
+|-boost|p2a: Garganacl|def|2
+|
+|upkeep
+|turn|15
+|
+|t:|1743934896
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Garganacl|Salt Cure|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|upkeep
+|turn|16
+|
+|t:|1743934902
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|51/100
+|move|p2a: Garganacl|Salt Cure|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|upkeep
+|turn|17
+|
+|t:|1743934908
+|move|p1a: Dragapult|Dragon Darts|p2a: Garganacl
+|-damage|p2a: Garganacl|86/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Garganacl
+|-damage|p2a: Garganacl|72/100
+|move|p2a: Garganacl|Salt Cure|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|upkeep
+|turn|18
+|
+|t:|1743934914
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|26/100
+|move|p2a: Garganacl|Salt Cure|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|
+|upkeep
+|turn|19
+|
+|t:|1743934919
+|move|p1a: Dragapult|Dragon Darts|p2a: Garganacl
+|-damage|p2a: Garganacl|58/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Garganacl
+|-damage|p2a: Garganacl|43/100
+|move|p2a: Garganacl|Salt Cure|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|upkeep
+|turn|20
+|
+|t:|1743934925
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|1/100
+|move|p2a: Garganacl|Recover|p2a: Garganacl
+|-heal|p2a: Garganacl|93/100
+|
+|upkeep
+|turn|21
+|c|☆Reldr|I might be cookes
+|c|☆Reldr|Cooked
+|
+|t:|1743934944
+|move|p1a: Dragapult|Dragon Darts|p2a: Garganacl
+|-crit|p2a: Garganacl
+|-damage|p2a: Garganacl|13/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Garganacl
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|upkeep
+|c|☆Reldr|Oh lucky me
+|c|☆Reldr|gg
+|-message|yllassue forfeited.
+|
+|win|Reldr
+|raw|Reldr's rating: 1374 &rarr; <strong>1397</strong><br />(+23 for winning)
+|raw|yllassue's rating: 1422 &rarr; <strong>1399</strong><br />(-23 for losing)
+|l|☆yllassue
+|player|p2|
+|l|☆Reldr
+|player|p1|

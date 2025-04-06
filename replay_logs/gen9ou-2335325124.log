@@ -1,0 +1,335 @@
+|j|☆dewottsoldier370
+|j|☆HarryBobber
+|t:|1743784776
+|gametype|singles
+|player|p1|dewottsoldier370|170|1423
+|player|p2|HarryBobber|2|1444
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Garganacl, M|
+|poke|p1|Hippowdon, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Zamazenta-*|
+|poke|p2|Iron Treads|
+|poke|p2|Greninja-*, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Dragonite, F|
+|poke|p2|Glimmora, M|
+|poke|p2|Gholdengo|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by HarryBobber)
+|
+|t:|1743784785
+|start
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1743784813
+|move|p2a: Iron Treads|Stealth Rock|p1a: Slowking
+|-sidestart|p1: dewottsoldier370|move: Stealth Rock
+|move|p1a: Slowking|Flamethrower|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|23/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743784819
+|move|p2a: Iron Treads|Earth Power|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|72/100
+|move|p1a: Slowking|Flamethrower|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743784831
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|3
+|
+|t:|1743784840
+|move|p2a: Iron Valiant|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|1/100
+|-enditem|p1a: Slowking|Assault Vest|[from] move: Knock Off|[of] p2a: Iron Valiant
+|move|p1a: Slowking|Sludge Bomb|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743784855
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|4
+|
+|t:|1743784861
+|switch|p1a: Zamazenta|Zamazenta|100/100
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|move|p2a: Greninja|Hydro Pump|p1a: Zamazenta
+|-damage|p1a: Zamazenta|36/100
+|-damage|p2a: Greninja|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|t:|1743784874
+|-terastallize|p2a: Greninja|Ghost
+|move|p1a: Zamazenta|Close Combat|p2a: Greninja
+|-immune|p2a: Greninja
+|move|p2a: Greninja|Hydro Pump|p1a: Zamazenta|[miss]
+|-miss|p2a: Greninja|p1a: Zamazenta
+|
+|upkeep
+|turn|6
+|
+|t:|1743784885
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Zamazenta|Crunch|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|49/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|7
+|
+|t:|1743784891
+|move|p1a: Zamazenta|Crunch|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|15/100
+|move|p2a: Gholdengo|Dazzling Gleam|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1743784902
+|switch|p1a: Hippowdon|Hippowdon, F|100/100
+|-damage|p1a: Hippowdon|94/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|8
+|
+|t:|1743784919
+|move|p2a: Gholdengo|Shadow Ball|p1a: Hippowdon
+|-damage|p1a: Hippowdon|61/100
+|move|p1a: Hippowdon|Earthquake|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743784925
+|switch|p2a: Greninja|Greninja, M, tera:Ghost|91/100
+|turn|9
+|
+|t:|1743784931
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|-damage|p1a: Garganacl|88/100|[from] Stealth Rock
+|move|p2a: Greninja|Ice Beam|p1a: Garganacl
+|-damage|p1a: Garganacl|73/100
+|-damage|p2a: Greninja|81/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Greninja|75/100|[from] Sandstorm
+|-heal|p1a: Garganacl|79/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743784935
+|move|p2a: Greninja|Hydro Pump|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|23/100
+|-damage|p2a: Greninja|65/100|[from] item: Life Orb
+|move|p1a: Garganacl|Salt Cure|p2a: Greninja
+|-damage|p2a: Greninja|43/100
+|-start|p2a: Greninja|Salt Cure
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Greninja|37/100|[from] Sandstorm
+|-heal|p1a: Garganacl|29/100|[from] item: Leftovers
+|-damage|p2a: Greninja|24/100|[from] Salt Cure
+|upkeep
+|turn|11
+|
+|t:|1743784942
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|move|p2a: Greninja|Hydro Pump|p1a: Ogerpon
+|-heal|p1a: Ogerpon|100/100|[from] ability: Water Absorb|[of] p2a: Greninja
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Greninja|18/100|[from] Sandstorm
+|-damage|p1a: Ogerpon|95/100|[from] Sandstorm
+|-damage|p2a: Greninja|6/100|[from] Salt Cure
+|upkeep
+|turn|12
+|
+|t:|1743784946
+|move|p2a: Greninja|Dark Pulse|p1a: Ogerpon
+|-damage|p1a: Ogerpon|40/100
+|-damage|p2a: Greninja|0 fnt|[from] item: Life Orb
+|faint|p2a: Greninja
+|cant|p1a: Ogerpon|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ogerpon|34/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743784954
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|13
+|inactive|dewottsoldier370 has 120 seconds left.
+|
+|t:|1743784993
+|move|p1a: Ogerpon|Play Rough|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|61/100
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|55/100|[from] Sandstorm
+|-damage|p1a: Ogerpon|28/100|[from] Sandstorm
+|upkeep
+|turn|14
+|inactive|dewottsoldier370 has 120 seconds left.
+|
+|t:|1743785004
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|move|p1a: Ogerpon|Play Rough|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|52/100|[from] Sandstorm
+|-damage|p1a: Ogerpon|22/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1743785011
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|move|p1a: Ogerpon|Play Rough|p2a: Dragonite|[miss]
+|-miss|p1a: Ogerpon|p2a: Dragonite
+|
+|-weather|none
+|upkeep
+|turn|16
+|inactive|dewottsoldier370 has 120 seconds left.
+|
+|t:|1743785059
+|move|p2a: Dragonite|Extreme Speed|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743785066
+|switch|p1a: Hippowdon|Hippowdon, F|61/100
+|-damage|p1a: Hippowdon|55/100|[from] Stealth Rock
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|17
+|inactive|HarryBobber has 120 seconds left.
+|
+|t:|1743785115
+|move|p2a: Dragonite|Earthquake|p1a: Hippowdon
+|-damage|p1a: Hippowdon|23/100
+|move|p1a: Hippowdon|Stone Edge|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|65/100|[from] Sandstorm
+|upkeep
+|turn|18
+|
+|t:|1743785124
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|-item|p1a: Excadrill|Air Balloon
+|move|p2a: Dragonite|Roost|p2a: Dragonite
+|-heal|p2a: Dragonite|100/100
+|-singleturn|p2a: Dragonite|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|94/100|[from] Sandstorm
+|upkeep
+|turn|19
+|inactive|HarryBobber has 120 seconds left.
+|
+|t:|1743785133
+|-terastallize|p1a: Excadrill|Steel
+|move|p2a: Dragonite|Extreme Speed|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|64/100
+|-enditem|p1a: Excadrill|Air Balloon
+|move|p1a: Excadrill|Iron Head|p2a: Dragonite
+|-damage|p2a: Dragonite|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|23/100|[from] Sandstorm
+|upkeep
+|turn|20
+|inactive|dewottsoldier370 has 120 seconds left.
+|
+|t:|1743785146
+|move|p1a: Excadrill|Iron Head|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743785148
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|turn|21
+|
+|t:|1743785152
+|move|p1a: Excadrill|Earthquake|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: dewottsoldier370|move: Toxic Spikes
+|faint|p2a: Glimmora
+|
+|win|dewottsoldier370
+|raw|dewottsoldier370's rating: 1405 &rarr; <strong>1427</strong><br />(+22 for winning)
+|raw|HarryBobber's rating: 1444 &rarr; <strong>1422</strong><br />(-22 for losing)
+|l|☆dewottsoldier370
+|player|p1|
+|l|☆HarryBobber
+|player|p2|

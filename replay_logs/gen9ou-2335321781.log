@@ -1,0 +1,223 @@
+|j|☆partcore32
+|j|☆star_head_boy
+|t:|1743784502
+|gametype|singles
+|player|p1|partcore32|fisherman|1024
+|player|p2|star_head_boy|cilan|1063
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hydrapple, M|
+|poke|p1|Orthworm, F|
+|poke|p1|Wugtrio, F|
+|poke|p1|Gyarados, F|
+|poke|p1|Dudunsparce-*, F|
+|poke|p1|Eelektross, M|
+|poke|p2|Bronzong|
+|poke|p2|Metagross|
+|poke|p2|Gholdengo|
+|poke|p2|Kingambit, F|
+|poke|p2|Forretress, F|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|t:|1743784523
+|start
+|switch|p1a: Tapeworm|Eelektross, M|100/100
+|switch|p2a: Metagross|Metagross, shiny|100/100
+|turn|1
+|
+|t:|1743784534
+|-terastallize|p1a: Tapeworm|Steel
+|move|p2a: Metagross|Knock Off|p1a: Tapeworm
+|-damage|p1a: Tapeworm|54/100
+|-enditem|p1a: Tapeworm|Assault Vest|[from] move: Knock Off|[of] p2a: Metagross
+|-damage|p2a: Metagross|90/100|[from] item: Life Orb
+|move|p1a: Tapeworm|Knock Off|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|34/100
+|-enditem|p2a: Metagross|Life Orb|[from] move: Knock Off|[of] p1a: Tapeworm
+|
+|upkeep
+|turn|2
+|
+|t:|1743784548
+|move|p2a: Metagross|Bullet Punch|p1a: Tapeworm
+|-resisted|p1a: Tapeworm
+|-damage|p1a: Tapeworm|44/100
+|move|p1a: Tapeworm|Knock Off|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|upkeep
+|
+|t:|1743784557
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivedef
+|turn|3
+|
+|t:|1743784565
+|move|p2a: Iron Treads|Body Press|p1a: Tapeworm
+|-supereffective|p1a: Tapeworm
+|-damage|p1a: Tapeworm|0 fnt
+|faint|p1a: Tapeworm
+|
+|upkeep
+|
+|t:|1743784571
+|switch|p1a: Bigger worm|Orthworm, F|100/100
+|turn|4
+|
+|t:|1743784576
+|move|p2a: Iron Treads|Iron Defense|p2a: Iron Treads
+|-boost|p2a: Iron Treads|def|2
+|move|p1a: Bigger worm|Body Press|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|85/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743784584
+|move|p2a: Iron Treads|Iron Defense|p2a: Iron Treads
+|-boost|p2a: Iron Treads|def|2
+|move|p1a: Bigger worm|Stealth Rock|p2a: Iron Treads
+|-sidestart|p2: star_head_boy|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1743784590
+|-terastallize|p2a: Iron Treads|Ghost
+|move|p2a: Iron Treads|Iron Defense|p2a: Iron Treads
+|-boost|p2a: Iron Treads|def|2
+|move|p1a: Bigger worm|Iron Defense|p1a: Bigger worm
+|-boost|p1a: Bigger worm|def|2
+|
+|upkeep
+|turn|7
+|
+|t:|1743784597
+|move|p2a: Iron Treads|Body Press|p1a: Bigger worm
+|-supereffective|p1a: Bigger worm
+|-damage|p1a: Bigger worm|39/100
+|move|p1a: Bigger worm|Heavy Slam|p2a: Iron Treads
+|-damage|p2a: Iron Treads|82/100
+|
+|-heal|p1a: Bigger worm|45/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743784607
+|move|p2a: Iron Treads|Body Press|p1a: Bigger worm
+|-supereffective|p1a: Bigger worm
+|-damage|p1a: Bigger worm|0 fnt
+|faint|p1a: Bigger worm
+|
+|upkeep
+|
+|t:|1743784610
+|switch|p1a: Big worm|Dudunsparce, F|100/100
+|turn|9
+|
+|t:|1743784614
+|move|p2a: Iron Treads|Body Press|p1a: Big worm
+|-supereffective|p1a: Big worm
+|-damage|p1a: Big worm|0 fnt
+|faint|p1a: Big worm
+|
+|upkeep
+|
+|t:|1743784622
+|switch|p1a: Multi-worm|Hydrapple, M|100/100
+|turn|10
+|
+|t:|1743784626
+|move|p2a: Iron Treads|Body Press|p1a: Multi-worm
+|-damage|p1a: Multi-worm|29/100
+|move|p1a: Multi-worm|Fickle Beam|p2a: Iron Treads|[anim] Fickle Beam All Out
+|-activate|p1a: Multi-worm|move: Fickle Beam
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743784635
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-damage|p2a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|11
+|
+|t:|1743784644
+|move|p2a: Kingambit|Sucker Punch|p1a: Multi-worm
+|-damage|p1a: Multi-worm|0 fnt
+|faint|p1a: Multi-worm
+|
+|upkeep
+|
+|t:|1743784658
+|switch|p1a: Tri-worm|Wugtrio, F|100/100
+|turn|12
+|
+|t:|1743784662
+|move|p1a: Tri-worm|Sucker Punch|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-crit|p2a: Kingambit
+|-damage|p2a: Kingambit|81/100
+|move|p2a: Kingambit|Iron Head|p1a: Tri-worm
+|-resisted|p1a: Tri-worm
+|-damage|p1a: Tri-worm|35/100
+|-ability|p1a: Tri-worm|Gooey
+|-unboost|p2a: Kingambit|spe|1
+|
+|upkeep
+|turn|13
+|
+|t:|1743784672
+|move|p1a: Tri-worm|Stomping Tantrum|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|45/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|14
+|
+|t:|1743784679
+|move|p2a: Kingambit|Sucker Punch|p1a: Tri-worm
+|-damage|p1a: Tri-worm|0 fnt
+|-ability|p1a: Tri-worm|Gooey
+|-unboost|p2a: Kingambit|spe|1
+|faint|p1a: Tri-worm
+|
+|upkeep
+|
+|t:|1743784682
+|switch|p1a: Biggest worm|Gyarados, F, shiny|100/100
+|turn|15
+|
+|t:|1743784689
+|move|p2a: Kingambit|Sucker Punch|p1a: Biggest worm
+|-damage|p1a: Biggest worm|0 fnt
+|faint|p1a: Biggest worm
+|
+|win|star_head_boy
+|raw|partcore32's rating: 1024 &rarr; <strong>1012</strong><br />(-12 for losing)
+|raw|star_head_boy's rating: 1063 &rarr; <strong>1090</strong><br />(+27 for winning)
+|l|☆partcore32
+|player|p1|

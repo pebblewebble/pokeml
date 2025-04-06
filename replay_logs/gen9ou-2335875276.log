@@ -1,0 +1,358 @@
+|j|☆valey59286
+|j|☆zdxasdqwe
+|t:|1743852240
+|gametype|singles
+|player|p1|valey59286|boarder|1119
+|player|p2|zdxasdqwe|red|1181
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Serperior, M|
+|poke|p1|Cinderace, M|
+|poke|p1|Darkrai|
+|poke|p1|Great Tusk|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Pecharunt|
+|poke|p2|Great Tusk|
+|poke|p2|Hydrapple, F|
+|poke|p2|Vileplume, F|
+|poke|p2|Vikavolt, M|
+|poke|p2|Incineroar, F|
+|poke|p2|Mimikyu, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by zdxasdqwe)
+|
+|t:|1743852250
+|start
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|1
+|
+|t:|1743852262
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Vileplume|Vileplume, F|100/100
+|move|p1a: Cinderace|U-turn|p2a: Vileplume
+|-start|p1a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p2a: Vileplume|72/100
+|-damage|p1a: Cinderace|84/100|[from] item: Rocky Helmet|[of] p2a: Vileplume
+|-status|p1a: Cinderace|slp|[from] ability: Effect Spore|[of] p2a: Vileplume
+|
+|t:|1743852278
+|switch|p1a: Slowking|Slowking-Galar, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|2
+|
+|t:|1743852290
+|move|p2a: Vileplume|Leech Seed|p1a: Slowking
+|-start|p1a: Slowking|move: Leech Seed
+|move|p1a: Slowking|Future Sight|p2a: Vileplume
+|-start|p1a: Slowking|move: Future Sight
+|
+|-damage|p1a: Slowking|88/100|[from] Leech Seed|[of] p2a: Vileplume
+|-heal|p2a: Vileplume|86/100|[silent]
+|upkeep
+|turn|3
+|
+|t:|1743852304
+|switch|p2a: Incineroar|Incineroar, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Slowking|atk|1
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743852315
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100|[from] Chilly Reception
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|inactive|zdxasdqwe has 120 seconds left.
+|
+|t:|1743852351
+|switch|p2a: Mimikyu|Mimikyu, F|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, F
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Mimikyu|move: Future Sight
+|-damage|p2a: Mimikyu|32/100
+|upkeep
+|turn|5
+|inactive|zdxasdqwe has 120 seconds left.
+|
+|t:|1743852372
+|switch|p2a: Vikavolt|Vikavolt, M|100/100
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743852383
+|move|p2a: Vikavolt|Zap Cannon|p1a: Slowking
+|-damage|p1a: Slowking|55/100
+|-status|p1a: Slowking|par
+|move|p1a: Slowking|Future Sight|p2a: Vikavolt
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Slowking|61/100 par|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743852392
+|move|p2a: Vikavolt|Zap Cannon|p1a: Slowking
+|-damage|p1a: Slowking|17/100 par
+|cant|p1a: Slowking|par
+|
+|-weather|none
+|-heal|p1a: Slowking|23/100 par|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|zdxasdqwe has 120 seconds left.
+|
+|t:|1743852407
+|switch|p1a: Great Tusk|Great Tusk, shiny|100/100
+|-terastallize|p2a: Vikavolt|Ice
+|move|p2a: Vikavolt|Tera Blast|p1a: Great Tusk|[anim] Tera Blast Ice
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-end|p2a: Vikavolt|move: Future Sight
+|-damage|p2a: Vikavolt|31/100
+|upkeep
+|
+|t:|1743852426
+|switch|p1a: Slowking|Slowking-Galar, M|57/100 par
+|turn|9
+|
+|t:|1743852432
+|move|p2a: Vikavolt|Zap Cannon|p1a: Slowking
+|-damage|p1a: Slowking|10/100 par
+|move|p1a: Slowking|Future Sight|p2a: Vikavolt
+|-start|p1a: Slowking|move: Future Sight
+|
+|-heal|p1a: Slowking|16/100 par|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743852440
+|switch|p1a: Cinderace|Cinderace, M|84/100 slp
+|move|p2a: Vikavolt|Thunderbolt|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743852447
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|11
+|
+|t:|1743852453
+|switch|p2a: Incineroar|Incineroar, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Darkrai|atk|1
+|move|p1a: Darkrai|Dark Pulse|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|83/100
+|
+|-end|p2a: Incineroar|move: Future Sight
+|-immune|p2a: Incineroar
+|upkeep
+|turn|12
+|
+|t:|1743852468
+|switch|p1a: Slowking|Slowking-Galar, M|49/100 par
+|move|p2a: Incineroar|Drain Punch|p1a: Slowking
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|43/100 par
+|-heal|p2a: Incineroar|87/100|[from] drain|[of] p1a: Slowking
+|
+|-heal|p1a: Slowking|49/100 par|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743852478
+|move|p2a: Incineroar|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|-enditem|p1a: Slowking|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1a: Slowking
+|
+|upkeep
+|
+|t:|1743852500
+|switch|p1a: Serperior|Serperior, M, shiny|100/100
+|turn|14
+|
+|t:|1743852506
+|-terastallize|p1a: Serperior|Ground
+|move|p1a: Serperior|Leaf Storm|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|67/100
+|-boost|p1a: Serperior|spa|2
+|move|p2a: Incineroar|Flare Blitz|p1a: Serperior
+|-damage|p1a: Serperior|29/100
+|-damage|p2a: Incineroar|49/100|[from] Recoil
+|
+|upkeep
+|turn|15
+|
+|t:|1743852520
+|move|p1a: Serperior|Dragon Pulse|p2a: Incineroar
+|-damage|p2a: Incineroar|11/100
+|move|p2a: Incineroar|Flare Blitz|p1a: Serperior
+|-damage|p1a: Serperior|0 fnt
+|faint|p1a: Serperior
+|-damage|p2a: Incineroar|4/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743852529
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|16
+|
+|t:|1743852534
+|move|p1a: Darkrai|Ice Beam|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|upkeep
+|
+|t:|1743852538
+|switch|p2a: Hydrapple|Hydrapple, F|100/100
+|turn|17
+|
+|t:|1743852542
+|move|p1a: Darkrai|Ice Beam|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|36/100
+|-status|p2a: Hydrapple|frz
+|cant|p2a: Hydrapple|frz
+|
+|upkeep
+|turn|18
+|
+|t:|1743852549
+|move|p1a: Darkrai|Ice Beam|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|
+|upkeep
+|
+|t:|1743852561
+|switch|p2a: Mimikyu|Mimikyu-Busted, F|32/100
+|turn|19
+|
+|t:|1743852565
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|75/100
+|-damage|p2a: Mimikyu|22/100|[from] item: Life Orb
+|
+|-heal|p1a: Pecharunt|81/100|[from] item: Black Sludge
+|upkeep
+|turn|20
+|
+|t:|1743852595
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|56/100
+|-damage|p2a: Mimikyu|12/100|[from] item: Life Orb
+|move|p1a: Pecharunt|Hex|p2a: Mimikyu
+|-supereffective|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|-heal|p1a: Pecharunt|62/100|[from] item: Black Sludge
+|upkeep
+|inactive|zdxasdqwe has 120 seconds left.
+|
+|t:|1743852608
+|switch|p2a: Vikavolt|Vikavolt, M, tera:Ice|31/100
+|turn|21
+|
+|t:|1743852618
+|move|p1a: Pecharunt|Malignant Chain|p2a: Vikavolt
+|-damage|p2a: Vikavolt|0 fnt
+|faint|p2a: Vikavolt
+|
+|-heal|p1a: Pecharunt|68/100|[from] item: Black Sludge
+|upkeep
+|
+|t:|1743852621
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|22
+|
+|t:|1743852631
+|move|p2a: Great Tusk|Headlong Rush|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Pecharunt
+|-damage|p2a: Great Tusk|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743852639
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|23
+|
+|t:|1743852643
+|move|p1a: Darkrai|Ice Beam|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743852645
+|switch|p2a: Vileplume|Vileplume, F|86/100
+|turn|24
+|
+|t:|1743852652
+|move|p1a: Darkrai|Ice Beam|p2a: Vileplume
+|-supereffective|p2a: Vileplume
+|-damage|p2a: Vileplume|22/100
+|move|p2a: Vileplume|Leech Seed|p1a: Darkrai|[miss]
+|-miss|p2a: Vileplume|p1a: Darkrai
+|
+|upkeep
+|turn|25
+|-message|zdxasdqwe forfeited.
+|
+|win|valey59286
+|raw|valey59286's rating: 1119 &rarr; <strong>1148</strong><br />(+29 for winning)
+|raw|zdxasdqwe's rating: 1181 &rarr; <strong>1152</strong><br />(-29 for losing)
+|l|☆zdxasdqwe
+|player|p2|
+|l|☆valey59286
+|player|p1|

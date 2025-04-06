@@ -1,0 +1,385 @@
+|j|☆smokesniper
+|j|☆Team BBIO 38
+|t:|1743903598
+|gametype|singles
+|player|p1|smokesniper|veteran|1389
+|player|p2|Team BBIO 38|dragontamer|1319
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Volcanion|
+|poke|p1|Scream Tail|
+|poke|p1|Corviknight, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Ting-Lu|
+|poke|p1|Rillaboom, M|
+|poke|p2|Dusclops, M|
+|poke|p2|Blissey, F|
+|poke|p2|Flamigo, M|
+|poke|p2|Mimikyu, M|
+|poke|p2|Rotom-Wash|
+|poke|p2|Alcremie-Mint-Cream, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Team BBIO 38)
+|
+|t:|1743903615
+|start
+|switch|p1a: Rillaboom|Rillaboom, M|100/100
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1743903623
+|switch|p2a: Dusclops|Dusclops, M|100/100
+|-item|p1a: Rillaboom|Choice Band|[from] ability: Frisk|[of] p2a: Dusclops
+|move|p1a: Rillaboom|Wood Hammer|p2a: Dusclops
+|-damage|p2a: Dusclops|48/100
+|-damage|p1a: Rillaboom|86/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|92/100|[from] Grassy Terrain
+|-heal|p2a: Dusclops|54/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1743903637
+|-terastallize|p1a: Rillaboom|Grass
+|move|p1a: Rillaboom|Wood Hammer|p2a: Dusclops
+|-damage|p2a: Dusclops|0 fnt
+|faint|p2a: Dusclops
+|-damage|p1a: Rillaboom|78/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|84/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743903653
+|switch|p2a: Flamigo|Flamigo, M|100/100
+|turn|3
+|
+|t:|1743903657
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|move|p2a: Flamigo|Brave Bird|p1a: Scream Tail
+|-damage|p1a: Scream Tail|55/100
+|-damage|p2a: Flamigo|80/100|[from] Recoil
+|
+|-heal|p1a: Scream Tail|62/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1743903676
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Scream Tail|Thunder Wave|p2a: Blissey|[miss]
+|-miss|p1a: Scream Tail|p2a: Blissey
+|
+|-heal|p1a: Scream Tail|68/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1743903685
+|move|p1a: Scream Tail|Wish|p1a: Scream Tail
+|move|p2a: Blissey|Stealth Rock|p1a: Scream Tail
+|-sidestart|p1: smokesniper|move: Stealth Rock
+|
+|-heal|p1a: Scream Tail|74/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1743903694
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Rillaboom|Rillaboom, M, tera:Grass|84/100
+|-damage|p1a: Rillaboom|71/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Blissey|Seismic Toss|p1a: Rillaboom
+|-damage|p1a: Rillaboom|42/100
+|
+|-heal|p1a: Rillaboom|100/100|[from] move: Wish|[wisher] Scream Tail
+|upkeep
+|turn|7
+|
+|t:|1743903710
+|switch|p2a: Mimikyu|Mimikyu, M|100/100
+|move|p1a: Rillaboom|Wood Hammer|p2a: Mimikyu
+|-activate|p2a: Mimikyu|ability: Disguise
+|-damage|p2a: Mimikyu|100/100
+|detailschange|p2a: Mimikyu|Mimikyu-Busted, M
+|-damage|p2a: Mimikyu|88/100|[from] pokemon: Mimikyu-Busted
+|-enditem|p2a: Mimikyu|Red Card|[of] p1a: Rillaboom
+|drag|p1a: Zamazenta|Zamazenta|100/100
+|-damage|p1a: Zamazenta|94/100|[from] Stealth Rock
+|-ability|p1a: Zamazenta|Dauntless Shield|boost
+|-boost|p1a: Zamazenta|def|1
+|
+|-heal|p1a: Zamazenta|100/100|[from] Grassy Terrain
+|-heal|p2a: Mimikyu|94/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1743903730
+|move|p1a: Zamazenta|Iron Defense|p1a: Zamazenta
+|-boost|p1a: Zamazenta|def|2
+|move|p2a: Mimikyu|Taunt|p1a: Zamazenta
+|-start|p1a: Zamazenta|move: Taunt
+|
+|-heal|p2a: Mimikyu|99/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1743903737
+|move|p1a: Zamazenta|Crunch|p2a: Mimikyu
+|-damage|p2a: Mimikyu|67/100
+|move|p2a: Mimikyu|Play Rough|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|80/100
+|
+|-heal|p1a: Zamazenta|86/100|[from] Grassy Terrain
+|-heal|p1a: Zamazenta|92/100|[from] item: Leftovers
+|-heal|p2a: Mimikyu|73/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1743903747
+|move|p1a: Zamazenta|Crunch|p2a: Mimikyu
+|-damage|p2a: Mimikyu|41/100
+|move|p2a: Mimikyu|Play Rough|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|72/100
+|-unboost|p1a: Zamazenta|atk|1
+|
+|-heal|p1a: Zamazenta|78/100|[from] Grassy Terrain
+|-heal|p1a: Zamazenta|84/100|[from] item: Leftovers
+|-heal|p2a: Mimikyu|47/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1743903764
+|move|p1a: Zamazenta|Crunch|p2a: Mimikyu
+|-damage|p2a: Mimikyu|24/100
+|move|p2a: Mimikyu|Play Rough|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-crit|p1a: Zamazenta
+|-damage|p1a: Zamazenta|7/100
+|
+|-heal|p1a: Zamazenta|13/100|[from] item: Leftovers
+|-end|p1a: Zamazenta|move: Taunt
+|upkeep
+|turn|12
+|
+|t:|1743903773
+|move|p1a: Zamazenta|Crunch|p2a: Mimikyu
+|-damage|p2a: Mimikyu|2/100
+|-unboost|p2a: Mimikyu|def|1
+|move|p2a: Mimikyu|Play Rough|p1a: Zamazenta
+|-supereffective|p1a: Zamazenta
+|-damage|p1a: Zamazenta|0 fnt
+|faint|p1a: Zamazenta
+|
+|upkeep
+|
+|t:|1743903782
+|switch|p1a: Rillaboom|Rillaboom, M, tera:Grass|100/100
+|-damage|p1a: Rillaboom|88/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|13
+|
+|t:|1743903794
+|move|p2a: Mimikyu|Shadow Sneak|p1a: Rillaboom
+|-damage|p1a: Rillaboom|69/100
+|move|p1a: Rillaboom|Grassy Glide|p2a: Mimikyu
+|-damage|p2a: Mimikyu|0 fnt
+|faint|p2a: Mimikyu
+|
+|-heal|p1a: Rillaboom|75/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743903803
+|switch|p2a: Flamigo|Flamigo, M|80/100
+|turn|14
+|
+|t:|1743903807
+|switch|p1a: Scream Tail|Scream Tail|74/100
+|move|p2a: Flamigo|Brave Bird|p1a: Scream Tail
+|-damage|p1a: Scream Tail|32/100
+|-damage|p2a: Flamigo|60/100|[from] Recoil
+|
+|-heal|p1a: Scream Tail|38/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1743903814
+|move|p1a: Scream Tail|Protect|p1a: Scream Tail
+|-singleturn|p1a: Scream Tail|Protect
+|move|p2a: Flamigo|Brave Bird|p1a: Scream Tail
+|-activate|p1a: Scream Tail|move: Protect
+|
+|-heal|p1a: Scream Tail|44/100|[from] Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1743903825
+|switch|p2a: Alcremie|Alcremie-Mint-Cream, F|100/100
+|move|p1a: Scream Tail|Thunder Wave|p2a: Alcremie
+|-status|p2a: Alcremie|par
+|
+|-heal|p1a: Scream Tail|50/100|[from] Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1743903832
+|move|p1a: Scream Tail|Wish|p1a: Scream Tail
+|move|p2a: Alcremie|Acid Armor|p2a: Alcremie
+|-boost|p2a: Alcremie|def|2
+|
+|-heal|p1a: Scream Tail|57/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|18
+|
+|t:|1743903839
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Volcanion|Volcanion|100/100
+|move|p2a: Alcremie|Calm Mind|p2a: Alcremie
+|-boost|p2a: Alcremie|spa|1
+|-boost|p2a: Alcremie|spd|1
+|
+|upkeep
+|turn|19
+|inactive|Team BBIO 38 has 120 seconds left.
+|
+|t:|1743903869
+|move|p1a: Volcanion|Taunt|p2a: Alcremie
+|-block|p2a: Alcremie|ability: Aroma Veil|[of] p2a: Alcremie
+|cant|p2a: Alcremie|par
+|
+|upkeep
+|turn|20
+|
+|t:|1743903875
+|move|p1a: Volcanion|Fire Spin|p2a: Alcremie
+|-damage|p2a: Alcremie|92/100 par
+|-activate|p2a: Alcremie|move: Fire Spin|[of] p1a: Volcanion
+|move|p2a: Alcremie|Calm Mind|p2a: Alcremie
+|-boost|p2a: Alcremie|spa|1
+|-boost|p2a: Alcremie|spd|1
+|
+|-heal|p2a: Alcremie|98/100 par|[from] item: Leftovers
+|-damage|p2a: Alcremie|85/100 par|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|21
+|
+|t:|1743903889
+|move|p1a: Volcanion|Steam Eruption|p2a: Alcremie|[miss]
+|-miss|p1a: Volcanion|p2a: Alcremie
+|move|p2a: Alcremie|Acid Armor|p2a: Alcremie
+|-boost|p2a: Alcremie|def|2
+|
+|-heal|p2a: Alcremie|91/100 par|[from] item: Leftovers
+|-damage|p2a: Alcremie|79/100 par|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|22
+|
+|t:|1743903902
+|move|p1a: Volcanion|Steam Eruption|p2a: Alcremie
+|-damage|p2a: Alcremie|56/100 par
+|move|p2a: Alcremie|Calm Mind|p2a: Alcremie
+|-boost|p2a: Alcremie|spa|1
+|-boost|p2a: Alcremie|spd|1
+|
+|-heal|p2a: Alcremie|62/100 par|[from] item: Leftovers
+|-damage|p2a: Alcremie|50/100 par|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|23
+|
+|t:|1743903911
+|move|p1a: Volcanion|Steam Eruption|p2a: Alcremie
+|-damage|p2a: Alcremie|31/100 par
+|move|p2a: Alcremie|Draining Kiss|p1a: Volcanion
+|-resisted|p1a: Volcanion
+|-damage|p1a: Volcanion|78/100
+|-heal|p2a: Alcremie|50/100 par|[from] drain|[of] p1a: Volcanion
+|
+|-heal|p2a: Alcremie|56/100 par|[from] item: Leftovers
+|-damage|p2a: Alcremie|44/100 par|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|24
+|
+|t:|1743903923
+|move|p1a: Volcanion|Steam Eruption|p2a: Alcremie
+|-damage|p2a: Alcremie|25/100 par
+|move|p2a: Alcremie|Stored Power|p1a: Volcanion
+|-crit|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|faint|p1a: Volcanion
+|
+|-heal|p2a: Alcremie|31/100 par|[from] item: Leftovers
+|-end|p2a: Alcremie|Fire Spin|[partiallytrapped]
+|upkeep
+|
+|t:|1743903933
+|switch|p1a: Rillaboom|Rillaboom, M, tera:Grass|75/100
+|-damage|p1a: Rillaboom|63/100|[from] Stealth Rock
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|25
+|
+|t:|1743903941
+|-terastallize|p2a: Alcremie|Steel
+|move|p1a: Rillaboom|Wood Hammer|p2a: Alcremie
+|-resisted|p2a: Alcremie
+|-damage|p2a: Alcremie|7/100 par
+|-damage|p1a: Rillaboom|55/100|[from] Recoil
+|move|p2a: Alcremie|Draining Kiss|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-heal|p2a: Alcremie|48/100 par|[from] drain|[of] p1a: Rillaboom
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Alcremie|54/100 par|[from] Grassy Terrain
+|-heal|p2a: Alcremie|60/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1743903950
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-damage|p1a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|26
+|
+|t:|1743903960
+|move|p2a: Alcremie|Draining Kiss|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|57/100
+|-heal|p2a: Alcremie|100/100 par|[from] drain|[of] p1a: Ting-Lu
+|move|p1a: Ting-Lu|Whirlwind|p2a: Alcremie
+|drag|p2a: Rotom|Rotom-Wash|100/100
+|
+|-heal|p1a: Ting-Lu|63/100|[from] Grassy Terrain
+|-heal|p1a: Ting-Lu|69/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1743903971
+|move|p2a: Rotom|Hydro Pump|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|c|☆smokesniper|gg
+|-message|smokesniper forfeited.
+|
+|win|Team BBIO 38
+|raw|smokesniper's rating: 1389 &rarr; <strong>1365</strong><br />(-24 for losing)
+|raw|Team BBIO 38's rating: 1319 &rarr; <strong>1343</strong><br />(+24 for winning)
+|l|☆smokesniper
+|player|p1|
+|c|☆Team BBIO 38|gg
+|l|☆Team BBIO 38
+|player|p2|

@@ -1,0 +1,386 @@
+|j|☆technogiri
+|j|☆shoregay
+|t:|1743917568
+|gametype|singles
+|player|p1|technogiri|marshal|1119
+|player|p2|shoregay|marnie|1100
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ogerpon, F|
+|poke|p1|Greninja-*, F|
+|poke|p1|Forretress, M|
+|poke|p1|Goodra-Hisui, M|
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Revavroom, M|
+|poke|p2|Kyurem|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Crawdaunt, F|
+|poke|p2|Zapdos|
+|poke|p2|Iron Treads|
+|poke|p2|Cinderace, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by technogiri)
+|
+|t:|1743917583
+|start
+|switch|p1a: Greninja|Greninja, F|100/100
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|1
+|
+|t:|1743917590
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Greninja|Surf|p2a: Slowking
+|-start|p1a: Greninja|typechange|Water|[from] ability: Protean
+|-damage|p2a: Slowking|68/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743917597
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Slowking|Thunder Wave|p1a: Thundurus
+|-immune|p1a: Thundurus|[from] ability: Volt Absorb
+|
+|upkeep
+|turn|3
+|
+|t:|1743917609
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Thundurus|Dark Pulse|p2a: Iron Treads
+|-crit|p2a: Iron Treads
+|-damage|p2a: Iron Treads|59/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743917620
+|move|p1a: Thundurus|Dark Pulse|p2a: Iron Treads
+|-damage|p2a: Iron Treads|31/100
+|move|p2a: Iron Treads|Ice Spinner|p1a: Thundurus
+|-supereffective|p1a: Thundurus
+|-damage|p1a: Thundurus|40/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743917631
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Crawdaunt|Crawdaunt, F|100/100
+|move|p1a: Thundurus|Dark Pulse|p2a: Crawdaunt
+|-resisted|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|69/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743917636
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|t:|1743917644
+|switch|p1a: Ogerpon|Ogerpon, F|100/100
+|turn|7
+|
+|t:|1743917651
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|-terastallize|p1a: Ogerpon|Grass
+|detailschange|p1a: Ogerpon|Ogerpon-Teal-Tera, F, tera:Grass
+|-ability|p1a: Ogerpon|Embody Aspect (Teal)|boost
+|-boost|p1a: Ogerpon|spe|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|37/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743917656
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1743917662
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|9
+|
+|t:|1743917670
+|switch|p1a: Goodra|Goodra-Hisui, M|100/100
+|move|p2a: Zapdos|Hurricane|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|91/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743917676
+|move|p2a: Zapdos|Thunder Wave|p1a: Goodra
+|-status|p1a: Goodra|par
+|move|p1a: Goodra|Flamethrower|p2a: Zapdos
+|-damage|p2a: Zapdos|71/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743917683
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|cant|p1a: Goodra|par
+|
+|upkeep
+|turn|12
+|
+|t:|1743917689
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Goodra|Acid Spray|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|97/100
+|-unboost|p2a: Slowking|spd|2
+|
+|upkeep
+|turn|13
+|
+|t:|1743917695
+|move|p1a: Goodra|Draco Meteor|p2a: Slowking
+|-damage|p2a: Slowking|25/100
+|-unboost|p1a: Goodra|spa|2
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743917712
+|switch|p2a: Kyurem|Kyurem|100/100|[from] Chilly Reception
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743917717
+|move|p2a: Kyurem|Earth Power|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|49/100 par
+|move|p1a: Goodra|Dragon Tail|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|72/100
+|drag|p2a: Iron Treads|Iron Treads|31/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743917725
+|move|p2a: Iron Treads|Rapid Spin|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|43/100 par
+|-boost|p2a: Iron Treads|spe|1
+|move|p1a: Goodra|Dragon Tail|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|22/100
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|drag|p2a: Kyurem|Kyurem|72/100
+|-ability|p2a: Kyurem|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743917734
+|move|p2a: Kyurem|Earth Power|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743917742
+|switch|p1a: Revavroom|Revavroom, M|100/100
+|-item|p1a: Revavroom|Air Balloon
+|turn|17
+|
+|t:|1743917752
+|switch|p2a: Slowking|Slowking-Galar, M|58/100
+|move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+|-boost|p1a: Revavroom|spe|2
+|-boost|p1a: Revavroom|atk|1
+|
+|-weather|none
+|upkeep
+|turn|18
+|
+|t:|1743917758
+|move|p1a: Revavroom|Iron Head|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|upkeep
+|
+|t:|1743917763
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|19
+|
+|t:|1743917767
+|move|p1a: Revavroom|Poison Jab|p2a: Zapdos
+|-damage|p2a: Zapdos|55/100
+|-damage|p1a: Revavroom|84/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|-status|p1a: Revavroom|par|[from] ability: Static|[of] p2a: Zapdos
+|move|p2a: Zapdos|Thunder Wave|p1a: Revavroom
+|-fail|p1a: Revavroom|par
+|
+|upkeep
+|turn|20
+|
+|t:|1743917775
+|cant|p1a: Revavroom|par
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|100/100
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|upkeep
+|turn|21
+|
+|t:|1743917780
+|move|p1a: Revavroom|Shift Gear|p1a: Revavroom
+|-boost|p1a: Revavroom|spe|2
+|-boost|p1a: Revavroom|atk|1
+|move|p2a: Zapdos|U-turn|p1a: Revavroom
+|-resisted|p1a: Revavroom
+|-damage|p1a: Revavroom|80/100 par
+|-enditem|p1a: Revavroom|Air Balloon
+|
+|t:|1743917790
+|switch|p2a: Crawdaunt|Crawdaunt, F|69/100|[from] U-turn
+|
+|upkeep
+|turn|22
+|
+|t:|1743917796
+|-terastallize|p2a: Crawdaunt|Water
+|move|p2a: Crawdaunt|Aqua Jet|p1a: Revavroom
+|-damage|p1a: Revavroom|16/100 par
+|move|p1a: Revavroom|Poison Jab|p2a: Crawdaunt
+|-damage|p2a: Crawdaunt|0 fnt
+|faint|p2a: Crawdaunt
+|
+|upkeep
+|
+|t:|1743917814
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|23
+|
+|t:|1743917818
+|move|p1a: Revavroom|Poison Jab|p2a: Zapdos
+|-damage|p2a: Zapdos|36/100
+|-damage|p1a: Revavroom|0 fnt|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|faint|p1a: Revavroom
+|move|p2a: Zapdos|Hurricane|p1: Revavroom|[notarget]
+|-fail|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1743917827
+|switch|p1a: Greninja|Greninja, F|100/100
+|turn|24
+|
+|t:|1743917833
+|switch|p2a: Iron Treads|Iron Treads|22/100
+|move|p1a: Greninja|Surf|p2a: Iron Treads
+|-start|p1a: Greninja|typechange|Water|[from] ability: Protean
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743917835
+|switch|p2a: Kyurem|Kyurem|72/100
+|-ability|p2a: Kyurem|Pressure
+|turn|25
+|
+|t:|1743917837
+|switch|p1a: Forretress|Forretress, M|100/100
+|move|p2a: Kyurem|Draco Meteor|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|23/100
+|-unboost|p2a: Kyurem|spa|2
+|
+|upkeep
+|turn|26
+|
+|t:|1743917842
+|move|p2a: Kyurem|Draco Meteor|p1a: Forretress
+|-resisted|p1a: Forretress
+|-damage|p1a: Forretress|0 fnt
+|-unboost|p2a: Kyurem|spa|2
+|faint|p1a: Forretress
+|
+|upkeep
+|
+|t:|1743917845
+|switch|p1a: Ogerpon|Ogerpon-Teal-Tera, F, tera:Grass|100/100
+|-ability|p1a: Ogerpon|Embody Aspect (Teal)|boost
+|-boost|p1a: Ogerpon|spe|1
+|turn|27
+|
+|t:|1743917850
+|switch|p2a: Zapdos|Zapdos|36/100
+|move|p1a: Ogerpon|Knock Off|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|-damage|p1a: Ogerpon|84/100|[from] item: Rocky Helmet|[of] p2a: Zapdos
+|-enditem|p2a: Zapdos|Rocky Helmet|[from] move: Knock Off|[of] p1a: Ogerpon
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1743917851
+|switch|p2a: Kyurem|Kyurem|72/100
+|-ability|p2a: Kyurem|Pressure
+|turn|28
+|
+|t:|1743917855
+|switch|p1a: Greninja|Greninja, F|100/100
+|move|p2a: Kyurem|Freeze-Dry|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|upkeep
+|
+|t:|1743917859
+|switch|p1a: Ogerpon|Ogerpon-Teal-Tera, F, tera:Grass|84/100
+|-ability|p1a: Ogerpon|Embody Aspect (Teal)|boost
+|-boost|p1a: Ogerpon|spe|1
+|turn|29
+|
+|t:|1743917861
+|move|p1a: Ogerpon|Low Kick|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|win|technogiri
+|raw|technogiri's rating: 1119 &rarr; <strong>1143</strong><br />(+24 for winning)
+|raw|shoregay's rating: 1100 &rarr; <strong>1076</strong><br />(-24 for losing)
+|l|☆shoregay
+|player|p2|
+|l|☆technogiri
+|player|p1|

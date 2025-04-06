@@ -1,0 +1,679 @@
+|j|☆Beeman1000
+|j|☆FittedCrib04
+|t:|1743866133
+|gametype|singles
+|player|p1|Beeman1000|101|1470
+|player|p2|FittedCrib04|wallace|1510
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Gliscor, M|
+|poke|p1|Great Tusk|
+|poke|p1|Tinkaton, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Garganacl, M|
+|poke|p2|Suicune|
+|poke|p2|Corviknight, F|
+|poke|p2|Cresselia, F|
+|poke|p2|Darkrai|
+|poke|p2|Scream Tail|
+|poke|p2|Skeledirge, M|
+|teampreview
+|
+|t:|1743866151
+|start
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|switch|p2a: The Menace|Darkrai|100/100
+|turn|1
+|
+|t:|1743866159
+|move|p2a: The Menace|Nasty Plot|p2a: The Menace
+|-boost|p2a: The Menace|spa|2
+|move|p1a: Garganacl|Salt Cure|p2a: The Menace
+|-damage|p2a: The Menace|81/100
+|-start|p2a: The Menace|Salt Cure
+|
+|-heal|p2a: The Menace|87/100|[from] item: Leftovers
+|-damage|p2a: The Menace|75/100|[from] Salt Cure
+|upkeep
+|turn|2
+|
+|t:|1743866167
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-item|p1a: Tinkaton|Air Balloon
+|move|p2a: The Menace|Dark Pulse|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|66/100
+|-enditem|p1a: Tinkaton|Air Balloon
+|
+|-heal|p2a: The Menace|81/100|[from] item: Leftovers
+|-damage|p2a: The Menace|68/100|[from] Salt Cure
+|upkeep
+|turn|3
+|
+|t:|1743866174
+|switch|p2a: Scream Tail|Scream Tail|100/100
+|move|p1a: Tinkaton|Stealth Rock|p2a: Scream Tail
+|-sidestart|p2: FittedCrib04|move: Stealth Rock
+|
+|upkeep
+|turn|4
+|
+|t:|1743866180
+|move|p2a: Scream Tail|Protect|p2a: Scream Tail
+|-singleturn|p2a: Scream Tail|Protect
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Scream Tail
+|-activate|p2a: Scream Tail|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1743866187
+|move|p2a: Scream Tail|Disable|p1a: Tinkaton
+|-start|p1a: Tinkaton|Disable|Gigaton Hammer
+|move|p1a: Tinkaton|Knock Off|p2a: Scream Tail
+|-damage|p2a: Scream Tail|86/100
+|-enditem|p2a: Scream Tail|Leftovers|[from] move: Knock Off|[of] p1a: Tinkaton
+|
+|upkeep
+|turn|6
+|
+|t:|1743866195
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Scream Tail|Wish|p2a: Scream Tail
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|7
+|
+|t:|1743866204
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|switch|p2a: The Replacement|Corviknight, F|100/100
+|-damage|p2a: The Replacement|88/100|[from] Stealth Rock
+|-ability|p2a: The Replacement|Pressure
+|move|p1a: Gliscor|Toxic|p2a: The Replacement
+|-immune|p2a: The Replacement
+|
+|-heal|p2a: The Replacement|100/100|[from] move: Wish|[wisher] Scream Tail
+|upkeep
+|turn|8
+|
+|t:|1743866215
+|switch|p2a: The Indomitable|Suicune|100/100
+|-damage|p2a: The Indomitable|88/100|[from] Stealth Rock
+|-ability|p2a: The Indomitable|Pressure
+|move|p1a: Gliscor|Protect||[still]
+|-fail|p1a: Gliscor
+|
+|-heal|p2a: The Indomitable|94/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743866248
+|switch|p1a: Tinkaton|Tinkaton, F|66/100
+|switch|p2a: The Replacement|Corviknight, F|100/100
+|-damage|p2a: The Replacement|88/100|[from] Stealth Rock
+|-ability|p2a: The Replacement|Pressure
+|
+|upkeep
+|turn|10
+|
+|t:|1743866256
+|move|p1a: Tinkaton|Knock Off|p2a: The Replacement
+|-damage|p2a: The Replacement|78/100
+|-damage|p1a: Tinkaton|49/100|[from] item: Rocky Helmet|[of] p2a: The Replacement
+|-enditem|p2a: The Replacement|Rocky Helmet|[from] move: Knock Off|[of] p1a: Tinkaton
+|move|p2a: The Replacement|Defog|p1a: Tinkaton
+|-unboost|p1a: Tinkaton|evasion|1
+|-sideend|p2: FittedCrib04|Stealth Rock|[from] move: Defog|[of] p2a: The Replacement
+|
+|upkeep
+|turn|11
+|
+|t:|1743866268
+|switch|p2a: The Light|Cresselia, F|100/100
+|move|p1a: Tinkaton|Encore||[still]
+|-fail|p1a: Tinkaton
+|
+|upkeep
+|turn|12
+|
+|t:|1743866274
+|move|p2a: The Light|Trick|p1a: Tinkaton
+|-activate|p2a: The Light|move: Trick|[of] p1a: Tinkaton
+|-item|p1a: Tinkaton|Choice Scarf|[from] move: Trick
+|-enditem|p2a: The Light|Choice Scarf|[silent]|[from] move: Trick
+|move|p1a: Tinkaton|Knock Off|p2a: The Light
+|-supereffective|p2a: The Light
+|-damage|p2a: The Light|84/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743866295
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|switch|p2a: The Menace|Darkrai|68/100
+|
+|-heal|p2a: The Menace|74/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743866302
+|switch|p1a: Tinkaton|Tinkaton, F|49/100
+|move|p2a: The Menace|Nasty Plot|p2a: The Menace
+|-boost|p2a: The Menace|spa|2
+|
+|-heal|p2a: The Menace|80/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743866316
+|move|p1a: Tinkaton|Encore|p2a: The Menace
+|-start|p2a: The Menace|Encore
+|move|p2a: The Menace|Nasty Plot|p2a: The Menace
+|-boost|p2a: The Menace|spa|2
+|
+|-heal|p2a: The Menace|86/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743866322
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: The Menace|Nasty Plot|p2a: The Menace
+|-boost|p2a: The Menace|spa|2
+|
+|-heal|p2a: The Menace|92/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743866327
+|switch|p2a: Scream Tail|Scream Tail|86/100
+|move|p1a: Dragapult|Draco Meteor|p2a: Scream Tail
+|-immune|p2a: Scream Tail
+|
+|upkeep
+|turn|18
+|
+|t:|1743866341
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Scream Tail
+|-status|p2a: Scream Tail|brn
+|move|p2a: Scream Tail|Dazzling Gleam|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|49/100
+|
+|-damage|p2a: Scream Tail|79/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1743866351
+|move|p1a: Dragapult|Hex|p2a: Scream Tail
+|-supereffective|p2a: Scream Tail
+|-damage|p2a: Scream Tail|8/100 brn
+|move|p2a: Scream Tail|Wish|p2a: Scream Tail
+|
+|-damage|p2a: Scream Tail|2/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1743866361
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: Scream Tail|Protect||[still]
+|-fail|p2a: Scream Tail
+|
+|-heal|p2a: Scream Tail|52/100 brn|[from] move: Wish|[wisher] Scream Tail
+|-damage|p2a: Scream Tail|46/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1743866371
+|move|p2a: Scream Tail|Protect|p2a: Scream Tail
+|-singleturn|p2a: Scream Tail|Protect
+|move|p1a: Garganacl|Salt Cure|p2a: Scream Tail
+|-activate|p2a: Scream Tail|move: Protect
+|
+|-damage|p2a: Scream Tail|40/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1743866375
+|move|p2a: Scream Tail|Disable|p1a: Garganacl
+|-start|p1a: Garganacl|Disable|Salt Cure
+|cant|p1a: Garganacl|Disable|Salt Cure
+|
+|-damage|p2a: Scream Tail|33/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1743866379
+|move|p2a: Scream Tail|Wish|p2a: Scream Tail
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|
+|-damage|p2a: Scream Tail|27/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1743866387
+|move|p2a: Scream Tail|Dazzling Gleam|p1a: Garganacl
+|-damage|p1a: Garganacl|87/100
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|
+|-heal|p2a: Scream Tail|77/100 brn|[from] move: Wish|[wisher] Scream Tail
+|-heal|p1a: Garganacl|93/100|[from] item: Leftovers
+|-damage|p2a: Scream Tail|71/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1743866403
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|switch|p2a: The Indomitable|Suicune|94/100
+|-ability|p2a: The Indomitable|Pressure
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|
+|-heal|p2a: The Indomitable|100/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|99/100|[from] item: Leftovers
+|-end|p1a: Garganacl|Disable
+|upkeep
+|turn|26
+|
+|t:|1743866408
+|move|p2a: The Indomitable|Substitute|p2a: The Indomitable
+|-start|p2a: The Indomitable|Substitute
+|-damage|p2a: The Indomitable|75/100
+|move|p1a: Garganacl|Earthquake|p2a: The Indomitable
+|-end|p2a: The Indomitable|Substitute
+|
+|-heal|p2a: The Indomitable|82/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1743866411
+|move|p2a: The Indomitable|Protect|p2a: The Indomitable
+|-singleturn|p2a: The Indomitable|Protect
+|move|p1a: Garganacl|Salt Cure|p2a: The Indomitable
+|-activate|p2a: The Indomitable|move: Protect
+|
+|-heal|p2a: The Indomitable|88/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1743866419
+|move|p2a: The Indomitable|Substitute|p2a: The Indomitable
+|-start|p2a: The Indomitable|Substitute
+|-damage|p2a: The Indomitable|63/100
+|move|p1a: Garganacl|Salt Cure|p2a: The Indomitable
+|-end|p2a: The Indomitable|Substitute
+|
+|-heal|p2a: The Indomitable|69/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1743866423
+|move|p2a: The Indomitable|Protect|p2a: The Indomitable
+|-singleturn|p2a: The Indomitable|Protect
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|
+|-heal|p2a: The Indomitable|75/100|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1743866428
+|move|p2a: The Indomitable|Substitute|p2a: The Indomitable
+|-start|p2a: The Indomitable|Substitute
+|-damage|p2a: The Indomitable|50/100
+|move|p1a: Garganacl|Salt Cure|p2a: The Indomitable
+|-end|p2a: The Indomitable|Substitute
+|
+|-heal|p2a: The Indomitable|56/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1743866432
+|move|p2a: The Indomitable|Protect|p2a: The Indomitable
+|-singleturn|p2a: The Indomitable|Protect
+|move|p1a: Garganacl|Salt Cure|p2a: The Indomitable
+|-activate|p2a: The Indomitable|move: Protect
+|
+|-heal|p2a: The Indomitable|63/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1743866435
+|move|p2a: The Indomitable|Substitute|p2a: The Indomitable
+|-start|p2a: The Indomitable|Substitute
+|-damage|p2a: The Indomitable|38/100
+|move|p1a: Garganacl|Salt Cure|p2a: The Indomitable
+|-end|p2a: The Indomitable|Substitute
+|
+|-heal|p2a: The Indomitable|44/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1743866440
+|switch|p1a: Dragapult|Dragapult, F|49/100
+|move|p2a: The Indomitable|Substitute|p2a: The Indomitable
+|-start|p2a: The Indomitable|Substitute
+|-damage|p2a: The Indomitable|19/100
+|
+|-heal|p2a: The Indomitable|25/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1743866443
+|move|p2a: The Indomitable|Protect|p2a: The Indomitable
+|-singleturn|p2a: The Indomitable|Protect
+|move|p1a: Dragapult|Draco Meteor|p2a: The Indomitable
+|-activate|p2a: The Indomitable|move: Protect
+|
+|-heal|p2a: The Indomitable|31/100|[from] item: Leftovers
+|upkeep
+|turn|35
+|
+|t:|1743866456
+|move|p1a: Dragapult|Hex|p2a: The Indomitable
+|-damage|p2a: The Indomitable|16/100
+|move|p2a: The Indomitable|Scald|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|31/100
+|
+|-heal|p2a: The Indomitable|23/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|
+|t:|1743866463
+|move|p2a: The Indomitable|Protect|p2a: The Indomitable
+|-singleturn|p2a: The Indomitable|Protect
+|move|p1a: Dragapult|Will-O-Wisp|p2a: The Indomitable
+|-activate|p2a: The Indomitable|move: Protect
+|
+|-heal|p2a: The Indomitable|29/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1743866476
+|switch|p2a: The Unbothered|Skeledirge, M|100/100
+|move|p1a: Dragapult|Draco Meteor|p2a: The Unbothered
+|-damage|p2a: The Unbothered|62/100
+|-unboost|p1a: Dragapult|spa|2
+|
+|upkeep
+|turn|38
+|
+|t:|1743866485
+|move|p1a: Dragapult|U-turn|p2a: The Unbothered
+|-resisted|p2a: The Unbothered
+|-damage|p2a: The Unbothered|58/100
+|
+|t:|1743866490
+|switch|p1a: Tinkaton|Tinkaton, F|49/100|[from] U-turn
+|move|p2a: The Unbothered|Hex|p1a: Tinkaton
+|-damage|p1a: Tinkaton|28/100
+|
+|upkeep
+|turn|39
+|
+|t:|1743866505
+|switch|p2a: Scream Tail|Scream Tail|71/100 brn
+|move|p1a: Tinkaton|Stealth Rock|p2a: Scream Tail
+|-sidestart|p2: FittedCrib04|move: Stealth Rock
+|
+|-damage|p2a: Scream Tail|65/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|t:|1743866517
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: Scream Tail|Wish|p2a: Scream Tail
+|
+|-damage|p2a: Scream Tail|59/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|t:|1743866528
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|switch|p2a: The Indomitable|Suicune|29/100
+|-damage|p2a: The Indomitable|16/100|[from] Stealth Rock
+|-ability|p2a: The Indomitable|Pressure
+|move|p1a: Garganacl|Salt Cure|p2a: The Indomitable
+|-damage|p2a: The Indomitable|5/100
+|-start|p2a: The Indomitable|Salt Cure
+|
+|-heal|p2a: The Indomitable|59/100|[from] move: Wish|[wisher] Scream Tail
+|-heal|p2a: The Indomitable|65/100|[from] item: Leftovers
+|-damage|p2a: The Indomitable|40/100|[from] Salt Cure
+|upkeep
+|turn|42
+|
+|t:|1743866547
+|switch|p2a: The Menace|Darkrai|92/100
+|-damage|p2a: The Menace|80/100|[from] Stealth Rock
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|
+|-heal|p2a: The Menace|86/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1743866551
+|move|p2a: The Menace|Will-O-Wisp|p1a: Samurott
+|-status|p1a: Samurott|brn
+|move|p1a: Samurott|Aqua Cutter|p2a: The Menace
+|-damage|p2a: The Menace|52/100
+|
+|-heal|p2a: The Menace|58/100|[from] item: Leftovers
+|-damage|p1a: Samurott|94/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|t:|1743866560
+|move|p2a: The Menace|Sludge Bomb|p1a: Samurott
+|-damage|p1a: Samurott|48/100 brn
+|move|p1a: Samurott|Ceaseless Edge|p2a: The Menace
+|-resisted|p2a: The Menace
+|-damage|p2a: The Menace|41/100
+|-sidestart|p2: FittedCrib04|Spikes
+|
+|-heal|p2a: The Menace|47/100|[from] item: Leftovers
+|-damage|p1a: Samurott|42/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|t:|1743866574
+|move|p2a: The Menace|Nasty Plot|p2a: The Menace
+|-boost|p2a: The Menace|spa|2
+|move|p1a: Samurott|Ceaseless Edge|p2a: The Menace
+|-resisted|p2a: The Menace
+|-damage|p2a: The Menace|32/100
+|-sidestart|p2: FittedCrib04|Spikes
+|
+|-heal|p2a: The Menace|38/100|[from] item: Leftovers
+|-damage|p1a: Samurott|36/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|t:|1743866583
+|move|p1a: Samurott|Sucker Punch|p2a: The Menace
+|-resisted|p2a: The Menace
+|-damage|p2a: The Menace|27/100
+|move|p2a: The Menace|Dark Pulse|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|-heal|p2a: The Menace|33/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743866591
+|switch|p1a: Dragapult|Dragapult, F|31/100
+|turn|47
+|
+|t:|1743866611
+|switch|p2a: The Replacement|Corviknight, F|78/100
+|-damage|p2a: The Replacement|65/100|[from] Stealth Rock
+|-ability|p2a: The Replacement|Pressure
+|move|p1a: Dragapult|Draco Meteor|p2a: The Replacement|[miss]
+|-miss|p1a: Dragapult|p2a: The Replacement
+|
+|upkeep
+|turn|48
+|
+|t:|1743866620
+|move|p1a: Dragapult|Will-O-Wisp|p2a: The Replacement
+|-status|p2a: The Replacement|brn
+|move|p2a: The Replacement|Brave Bird|p1a: Dragapult
+|-damage|p1a: Dragapult|7/100
+|-damage|p2a: The Replacement|59/100 brn|[from] Recoil
+|
+|-damage|p2a: The Replacement|53/100 brn|[from] brn
+|upkeep
+|turn|49
+|
+|t:|1743866632
+|switch|p1a: Garganacl|Garganacl, M|100/100
+|move|p2a: The Replacement|Brave Bird|p1a: Garganacl
+|-resisted|p1a: Garganacl
+|-damage|p1a: Garganacl|95/100
+|-damage|p2a: The Replacement|51/100 brn|[from] Recoil
+|
+|-heal|p1a: Garganacl|100/100|[from] item: Leftovers
+|-damage|p2a: The Replacement|44/100 brn|[from] brn
+|upkeep
+|turn|50
+|
+|t:|1743866639
+|move|p2a: The Replacement|Roost|p2a: The Replacement
+|-heal|p2a: The Replacement|94/100 brn
+|-singleturn|p2a: The Replacement|move: Roost
+|move|p1a: Garganacl|Salt Cure|p2a: The Replacement
+|-resisted|p2a: The Replacement
+|-damage|p2a: The Replacement|90/100 brn
+|-start|p2a: The Replacement|Salt Cure
+|
+|-damage|p2a: The Replacement|84/100 brn|[from] brn
+|-damage|p2a: The Replacement|59/100 brn|[from] Salt Cure
+|upkeep
+|turn|51
+|
+|t:|1743866650
+|move|p2a: The Replacement|Defog|p1a: Garganacl
+|-unboost|p1a: Garganacl|evasion|1
+|-sideend|p2: FittedCrib04|Spikes|[from] move: Defog|[of] p2a: The Replacement
+|-sideend|p2: FittedCrib04|Stealth Rock|[from] move: Defog|[of] p2a: The Replacement
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|
+|-damage|p2a: The Replacement|52/100 brn|[from] brn
+|-damage|p2a: The Replacement|27/100 brn|[from] Salt Cure
+|upkeep
+|turn|52
+|
+|t:|1743866655
+|move|p2a: The Replacement|Roost|p2a: The Replacement
+|-heal|p2a: The Replacement|77/100 brn
+|-singleturn|p2a: The Replacement|move: Roost
+|move|p1a: Garganacl|Earthquake|p2a: The Replacement
+|-supereffective|p2a: The Replacement
+|-damage|p2a: The Replacement|36/100 brn
+|
+|-damage|p2a: The Replacement|30/100 brn|[from] brn
+|-damage|p2a: The Replacement|5/100 brn|[from] Salt Cure
+|upkeep
+|turn|53
+|
+|t:|1743866661
+|switch|p2a: Scream Tail|Scream Tail|59/100 brn
+|move|p1a: Garganacl|Curse|p1a: Garganacl
+|-unboost|p1a: Garganacl|spe|1
+|-boost|p1a: Garganacl|atk|1
+|-boost|p1a: Garganacl|def|1
+|
+|-damage|p2a: Scream Tail|52/100 brn|[from] brn
+|upkeep
+|turn|54
+|
+|t:|1743866666
+|move|p2a: Scream Tail|Wish|p2a: Scream Tail
+|move|p1a: Garganacl|Salt Cure|p2a: Scream Tail
+|-damage|p2a: Scream Tail|31/100 brn
+|-start|p2a: Scream Tail|Salt Cure
+|
+|-damage|p2a: Scream Tail|24/100 brn|[from] brn
+|-damage|p2a: Scream Tail|12/100 brn|[from] Salt Cure
+|upkeep
+|turn|55
+|
+|t:|1743866676
+|move|p2a: Scream Tail|Disable|p1a: Garganacl
+|-start|p1a: Garganacl|Disable|Salt Cure
+|move|p1a: Garganacl|Earthquake|p2a: Scream Tail
+|-damage|p2a: Scream Tail|0 fnt
+|faint|p2a: Scream Tail
+|-end|p2a: Scream Tail|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743866688
+|switch|p2a: The Replacement|Corviknight, F|5/100 brn
+|-ability|p2a: The Replacement|Pressure
+|turn|56
+|
+|t:|1743866697
+|move|p2a: The Replacement|Roost|p2a: The Replacement
+|-heal|p2a: The Replacement|55/100 brn
+|-singleturn|p2a: The Replacement|move: Roost
+|move|p1a: Garganacl|Earthquake|p2a: The Replacement
+|-supereffective|p2a: The Replacement
+|-damage|p2a: The Replacement|0 fnt
+|faint|p2a: The Replacement
+|
+|upkeep
+|
+|t:|1743866704
+|switch|p2a: The Indomitable|Suicune|40/100
+|-ability|p2a: The Indomitable|Pressure
+|turn|57
+|
+|t:|1743866711
+|move|p2a: The Indomitable|Scald|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|69/100
+|move|p1a: Garganacl|Earthquake|p2a: The Indomitable
+|-damage|p2a: The Indomitable|4/100
+|
+|-heal|p2a: The Indomitable|10/100|[from] item: Leftovers
+|-heal|p1a: Garganacl|75/100|[from] item: Leftovers
+|upkeep
+|turn|58
+|-message|FittedCrib04 forfeited.
+|
+|win|Beeman1000
+|raw|Beeman1000's rating: 1470 &rarr; <strong>1492</strong><br />(+22 for winning)
+|raw|FittedCrib04's rating: 1510 &rarr; <strong>1488</strong><br />(-22 for losing)
+|l|☆FittedCrib04
+|player|p2|
+|l|☆Beeman1000
+|player|p1|

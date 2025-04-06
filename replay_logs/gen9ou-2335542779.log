@@ -1,0 +1,235 @@
+|j|☆Nric15
+|j|☆gavialg36
+|t:|1743804390
+|gametype|singles
+|player|p1|Nric15|266|1060
+|player|p2|gavialg36|ghetsis|1088
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Iron Moth|
+|poke|p1|Hatterene, F|
+|poke|p1|Meowscarada, M|
+|poke|p1|Gliscor, F|
+|poke|p1|Iron Treads|
+|poke|p2|Meloetta|
+|poke|p2|Iron Jugulis|
+|poke|p2|Tinkaton, F|
+|poke|p2|Scizor, M|
+|poke|p2|Glaceon, F|
+|poke|p2|Latios, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Nric15)
+|
+|t:|1743804400
+|start
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|turn|1
+|
+|t:|1743804413
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespa
+|move|p2a: Tinkaton|Sweet Kiss|p1a: Iron Moth
+|-start|p1a: Iron Moth|confusion
+|
+|upkeep
+|turn|2
+|
+|t:|1743804422
+|-activate|p1a: Iron Moth|confusion
+|move|p1a: Iron Moth|Fiery Dance|p2a: Tinkaton
+|-supereffective|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|
+|upkeep
+|
+|t:|1743804431
+|switch|p2a: Iron Jugulis|Iron Jugulis|100/100
+|-enditem|p2a: Iron Jugulis|Booster Energy
+|-activate|p2a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Jugulis|quarkdrivespa
+|turn|3
+|
+|t:|1743804436
+|-end|p1a: Iron Moth|confusion
+|move|p1a: Iron Moth|Fiery Dance|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|31/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: Iron Jugulis|Earth Power|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743804449
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|turn|4
+|
+|t:|1743804454
+|move|p1a: Meowscarada|Triple Axel|p2a: Iron Jugulis
+|-start|p1a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-supereffective|p2a: Iron Jugulis
+|-damage|p2a: Iron Jugulis|9/100
+|-hitcount|p2a: Iron Jugulis|1
+|move|p2a: Iron Jugulis|Air Slash|p1a: Meowscarada|[miss]
+|-miss|p2a: Iron Jugulis|p1a: Meowscarada
+|
+|upkeep
+|turn|5
+|
+|t:|1743804470
+|-end|p2a: Iron Jugulis|Quark Drive|[silent]
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Meowscarada|Triple Axel|p2a: Scizor
+|-resisted|p2a: Scizor
+|-damage|p2a: Scizor|95/100
+|-hitcount|p2a: Scizor|1
+|
+|upkeep
+|turn|6
+|
+|t:|1743804478
+|move|p2a: Scizor|Bullet Punch|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|-damage|p2a: Scizor|85/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743804487
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdriveatk
+|turn|7
+|
+|t:|1743804494
+|move|p1a: Iron Treads|Earthquake|p2a: Scizor
+|-damage|p2a: Scizor|17/100
+|move|p2a: Scizor|Brick Break|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|36/100
+|-damage|p2a: Scizor|8/100|[from] item: Life Orb
+|
+|upkeep
+|turn|8
+|
+|t:|1743804502
+|move|p2a: Scizor|Bullet Punch|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|16/100
+|-damage|p2a: Scizor|0 fnt|[from] item: Life Orb
+|faint|p2a: Scizor
+|move|p1a: Iron Treads|Earthquake|p2: Scizor|[notarget]
+|-fail|p1a: Iron Treads
+|
+|upkeep
+|
+|t:|1743804510
+|switch|p2a: The only fight|Meloetta|100/100
+|turn|9
+|
+|t:|1743804519
+|-terastallize|p2a: The only fight|Fighting
+|move|p1a: Iron Treads|Iron Head|p2a: The only fight
+|-damage|p2a: The only fight|37/100
+|move|p2a: The only fight|Relic Song|p1a: Iron Treads
+|-resisted|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|-formechange|p2a: The only fight|Meloetta-Pirouette|[msg]
+|-damage|p2a: The only fight|27/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743804531
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|turn|10
+|
+|t:|1743804537
+|move|p2a: The only fight|Knock Off|p1a: Hatterene
+|-crit|p1a: Hatterene
+|-damage|p1a: Hatterene|32/100
+|-damage|p2a: The only fight|10/100|[from] item: Rocky Helmet|[of] p1a: Hatterene
+|-enditem|p1a: Hatterene|Rocky Helmet|[from] move: Knock Off|[of] p2a: The only fight
+|-damage|p2a: The only fight|0 fnt|[from] item: Life Orb
+|faint|p2a: The only fight
+|move|p1a: Hatterene|Psychic Noise|p2: The only fight|[notarget]
+|-fail|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1743804548
+|switch|p2a: Glaceon|Glaceon, F|100/100
+|turn|11
+|
+|t:|1743804553
+|move|p2a: Glaceon|Freeze-Dry|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|upkeep
+|
+|t:|1743804558
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|turn|12
+|
+|t:|1743804564
+|move|p2a: Glaceon|Freeze-Dry|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-enditem|p1a: Samurott|Focus Sash
+|-damage|p1a: Samurott|1/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Glaceon
+|-damage|p2a: Glaceon|44/100
+|-sidestart|p2: gavialg36|Spikes
+|
+|upkeep
+|turn|13
+|
+|t:|1743804575
+|move|p1a: Samurott|Aqua Jet|p2a: Glaceon
+|-damage|p2a: Glaceon|19/100
+|move|p2a: Glaceon|Freeze-Dry|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1743804583
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|turn|14
+|
+|t:|1743804590
+|move|p2a: Glaceon|Freeze-Dry|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|win|gavialg36
+|raw|Nric15's rating: 1060 &rarr; <strong>1043</strong><br />(-17 for losing)
+|raw|gavialg36's rating: 1088 &rarr; <strong>1113</strong><br />(+25 for winning)
+|l|☆Nric15
+|player|p1|
+|l|☆gavialg36
+|player|p2|

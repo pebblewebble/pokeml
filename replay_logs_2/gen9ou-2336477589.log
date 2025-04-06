@@ -1,0 +1,298 @@
+|j|☆Niyomi511
+|j|☆jasonsegers2008
+|t:|1743924379
+|gametype|singles
+|player|p1|Niyomi511|karen|1105
+|player|p2|jasonsegers2008|benga|1067
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Sylveon, F|
+|poke|p1|Jolteon, M|
+|poke|p1|Leafeon, M|
+|poke|p1|Flareon, M|
+|poke|p1|Vaporeon, M|
+|poke|p1|Espeon, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Clefable, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jasonsegers2008)
+|
+|t:|1743924407
+|start
+|switch|p1a: Vaporeowave|Vaporeon, M|100/100
+|switch|p2a: Meowscarada|Meowscarada, F|100/100
+|turn|1
+|
+|t:|1743924418
+|move|p2a: Meowscarada|U-turn|p1a: Vaporeowave
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-damage|p1a: Vaporeowave|75/100
+|-damage|p2a: Meowscarada|84/100|[from] item: Rocky Helmet|[of] p1a: Vaporeowave
+|
+|t:|1743924427
+|switch|p2a: Clefable|Clefable, M|100/100|[from] U-turn
+|move|p1a: Vaporeowave|Ice Beam|p2a: Clefable
+|-damage|p2a: Clefable|77/100
+|
+|-heal|p2a: Clefable|83/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743924436
+|move|p1a: Vaporeowave|Scald|p2a: Clefable
+|-damage|p2a: Clefable|54/100
+|-status|p2a: Clefable|brn
+|move|p2a: Clefable|Thunder Wave|p1a: Vaporeowave
+|-status|p1a: Vaporeowave|par
+|
+|-heal|p2a: Clefable|60/100 brn|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743924447
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Vaporeowave|Scald|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|37/100
+|-status|p2a: Iron Valiant|brn
+|
+|-damage|p2a: Iron Valiant|31/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1743924463
+|move|p2a: Iron Valiant|Moonblast|p1a: Vaporeowave
+|-damage|p1a: Vaporeowave|40/100 par
+|-unboost|p1a: Vaporeowave|spa|1
+|move|p1a: Vaporeowave|Scald|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743924468
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|turn|5
+|
+|t:|1743924472
+|-terastallize|p2a: Ogerpon|Rock
+|detailschange|p2a: Ogerpon|Ogerpon-Cornerstone-Tera, F, tera:Rock
+|-ability|p2a: Ogerpon|Embody Aspect (Cornerstone)|boost
+|-boost|p2a: Ogerpon|def|1
+|move|p2a: Ogerpon|Power Whip|p1a: Vaporeowave
+|-supereffective|p1a: Vaporeowave
+|-damage|p1a: Vaporeowave|0 fnt
+|-damage|p2a: Ogerpon|84/100|[from] item: Rocky Helmet|[of] p1a: Vaporeowave
+|faint|p1a: Vaporeowave
+|
+|upkeep
+|
+|t:|1743924483
+|switch|p1a: Leafeon|Leafeon, M|100/100
+|turn|6
+|
+|t:|1743924490
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Leafeon|[anim] Ivy Cudgel Rock
+|-damage|p1a: Leafeon|48/100
+|move|p1a: Leafeon|Seed Bomb|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|35/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743924501
+|switch|p2a: Meowscarada|Meowscarada, F|84/100
+|move|p1a: Leafeon|Quick Attack|p2a: Meowscarada
+|-damage|p2a: Meowscarada|69/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743924517
+|move|p2a: Meowscarada|U-turn|p1a: Leafeon
+|-start|p2a: Meowscarada|typechange|Bug|[from] ability: Protean
+|-supereffective|p1a: Leafeon
+|-damage|p1a: Leafeon|10/100
+|-enditem|p1a: Leafeon|Weakness Policy
+|-boost|p1a: Leafeon|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Leafeon|spa|2|[from] item: Weakness Policy
+|
+|t:|1743924524
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from] U-turn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Leafeon|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|72/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Leafeon
+|
+|upkeep
+|turn|9
+|
+|t:|1743924534
+|move|p1a: Leafeon|Quick Attack|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|67/100
+|move|p2a: Corviknight|U-turn|p1a: Leafeon
+|-supereffective|p1a: Leafeon
+|-damage|p1a: Leafeon|0 fnt
+|faint|p1a: Leafeon
+|
+|t:|1743924545
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from] U-turn
+|
+|upkeep
+|inactive|Niyomi511 has 120 seconds left.
+|
+|t:|1743924576
+|switch|p1a: Violet|Espeon, M|100/100
+|turn|10
+|
+|t:|1743924580
+|move|p2a: Cinderace|High Jump Kick|p1a: Violet
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-resisted|p1a: Violet
+|-damage|p1a: Violet|47/100
+|move|p1a: Violet|Psychic|p2a: Cinderace
+|-supereffective|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1743924584
+|switch|p2a: Ogerpon|Ogerpon-Cornerstone-Tera, F, tera:Rock|35/100
+|-ability|p2a: Ogerpon|Embody Aspect (Cornerstone)|boost
+|-boost|p2a: Ogerpon|def|1
+|turn|11
+|
+|t:|1743924594
+|move|p2a: Ogerpon|Power Whip|p1a: Violet|[miss]
+|-miss|p2a: Ogerpon|p1a: Violet
+|move|p1a: Violet|Psychic|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743924599
+|switch|p2a: Meowscarada|Meowscarada, F|69/100
+|turn|12
+|
+|t:|1743924606
+|switch|p1a: Jolteon|Jolteon, M|100/100
+|move|p2a: Meowscarada|Triple Axel|p1a: Jolteon
+|-start|p2a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-damage|p1a: Jolteon|83/100
+|-damage|p1a: Jolteon|46/100
+|-damage|p1a: Jolteon|0 fnt
+|faint|p1a: Jolteon
+|-hitcount|p1: Jolteon|3
+|
+|upkeep
+|
+|t:|1743924611
+|switch|p1a: Flareon|Flareon, M|100/100
+|turn|13
+|
+|t:|1743924620
+|switch|p2a: Clefable|Clefable, M|60/100 brn
+|move|p1a: Flareon|Flare Blitz|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|-damage|p1a: Flareon|72/100|[from] Recoil
+|-damage|p1a: Flareon|62/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743924623
+|switch|p2a: Meowscarada|Meowscarada, F|69/100
+|turn|14
+|
+|t:|1743924629
+|move|p2a: Meowscarada|Knock Off|p1a: Flareon
+|-start|p2a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Flareon|0 fnt
+|-enditem|p1a: Flareon|Life Orb|[from] move: Knock Off|[of] p2a: Meowscarada
+|faint|p1a: Flareon
+|
+|upkeep
+|
+|t:|1743924635
+|switch|p1a: Beauty|Sylveon, F|100/100
+|turn|15
+|
+|t:|1743924640
+|switch|p2a: Corviknight|Corviknight, M|67/100
+|-ability|p2a: Corviknight|Pressure
+|-terastallize|p1a: Beauty|Fairy
+|move|p1a: Beauty|Calm Mind|p1a: Beauty
+|-boost|p1a: Beauty|spa|1
+|-boost|p1a: Beauty|spd|1
+|
+|upkeep
+|turn|16
+|
+|t:|1743924649
+|move|p2a: Corviknight|Brave Bird|p1a: Beauty
+|-damage|p1a: Beauty|48/100
+|-damage|p2a: Corviknight|52/100|[from] Recoil
+|move|p1a: Beauty|Hyper Voice|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-heal|p1a: Beauty|54/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743924652
+|switch|p2a: Meowscarada|Meowscarada, F|69/100
+|turn|17
+|
+|t:|1743924658
+|move|p2a: Meowscarada|Triple Axel|p1a: Beauty
+|-start|p2a: Meowscarada|typechange|Ice|[from] ability: Protean
+|-damage|p1a: Beauty|40/100
+|-damage|p1a: Beauty|13/100
+|-crit|p1a: Beauty
+|-damage|p1a: Beauty|0 fnt
+|faint|p1a: Beauty
+|-hitcount|p1: Beauty|3
+|
+|upkeep
+|
+|t:|1743924661
+|switch|p1a: Violet|Espeon, M|47/100
+|turn|18
+|
+|t:|1743924667
+|move|p2a: Meowscarada|Triple Axel|p1a: Violet
+|-damage|p1a: Violet|30/100
+|-hitcount|p1a: Violet|1
+|move|p1a: Violet|Psychic|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|win|Niyomi511
+|raw|Niyomi511's rating: 1105 &rarr; <strong>1127</strong><br />(+22 for winning)
+|raw|jasonsegers2008's rating: 1067 &rarr; <strong>1049</strong><br />(-18 for losing)
+|c|☆Niyomi511|kool
+|l|☆jasonsegers2008
+|player|p2|

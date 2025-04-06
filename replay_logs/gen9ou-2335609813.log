@@ -1,0 +1,274 @@
+|j|☆danagrio2002
+|j|☆daderpystarfish
+|t:|1743811990
+|gametype|singles
+|player|p1|danagrio2002|camper|1397
+|player|p2|daderpystarfish|2|1414
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Iron Crown|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Ting-Lu|
+|poke|p2|Gliscor, M|
+|poke|p2|Iron Moth|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Great Tusk|
+|poke|p2|Blissey, F|
+|teampreview
+|
+|t:|1743812018
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by daderpystarfish)
+|
+|t:|1743812030
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Iron Moth|Sludge Wave|p1a: Ting-Lu
+|-resisted|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|90/100
+|
+|-heal|p1a: Ting-Lu|96/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743812052
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Gliscor
+|-sidestart|p2: daderpystarfish|move: Stealth Rock
+|
+|-heal|p1a: Ting-Lu|100/100|[from] item: Leftovers
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|3
+|
+|t:|1743812058
+|move|p2a: Gliscor|Toxic|p1a: Ting-Lu
+|-status|p1a: Ting-Lu|tox
+|move|p1a: Ting-Lu|Whirlwind|p2a: Gliscor
+|drag|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|
+|-damage|p1a: Ting-Lu|94/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743812068
+|move|p2a: Ogerpon|Horn Leech|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|52/100 tox
+|-heal|p2a: Ogerpon|100/100|[from] drain|[of] p1a: Ting-Lu
+|move|p1a: Ting-Lu|Whirlwind|p2a: Ogerpon
+|drag|p2a: Iron Moth|Iron Moth|100/100
+|-damage|p2a: Iron Moth|76/100|[from] Stealth Rock
+|
+|-heal|p1a: Ting-Lu|58/100 tox|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|46/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743812082
+|move|p2a: Iron Moth|Substitute|p2a: Iron Moth
+|-start|p2a: Iron Moth|Substitute
+|-damage|p2a: Iron Moth|51/100
+|move|p1a: Ting-Lu|Whirlwind|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|drag|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p2a: Ogerpon|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Ting-Lu|52/100 tox|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|33/100 tox|[from] psn
+|upkeep
+|turn|6
+|l|☆daderpystarfish
+|inactive|daderpystarfish disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆daderpystarfish
+|inactive|daderpystarfish reconnected and has 105 seconds left.
+|player|p2|daderpystarfish|2|
+|
+|t:|1743812139
+|switch|p1a: Corviknight|Corviknight, M|100/100
+|move|p2a: Ogerpon|Horn Leech|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|91/100
+|-heal|p2a: Ogerpon|94/100|[from] drain|[of] p1a: Corviknight
+|-damage|p2a: Ogerpon|77/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|
+|upkeep
+|turn|7
+|
+|t:|1743812147
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|move|p1a: Corviknight|Brave Bird|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|44/100
+|-damage|p1a: Corviknight|73/100|[from] Recoil
+|
+|upkeep
+|turn|8
+|
+|t:|1743812153
+|move|p2a: Great Tusk|Rapid Spin|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|64/100
+|-boost|p2a: Great Tusk|spe|1
+|-damage|p2a: Great Tusk|27/100|[from] item: Rocky Helmet|[of] p1a: Corviknight
+|-sideend|p2: daderpystarfish|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|move|p1a: Corviknight|Brave Bird|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|-damage|p1a: Corviknight|55/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743812163
+|switch|p2a: Iron Moth|Iron Moth|51/100
+|turn|9
+|
+|t:|1743812170
+|switch|p1a: Ting-Lu|Ting-Lu|33/100 tox
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Iron Moth|Fiery Dance|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|15/100 tox
+|
+|-heal|p1a: Ting-Lu|21/100 tox|[from] item: Leftovers
+|-damage|p1a: Ting-Lu|15/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743812177
+|move|p2a: Iron Moth|Fiery Dance|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743812183
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|turn|11
+|
+|t:|1743812191
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Blissey|Blissey, F|100/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Blissey
+|-damage|p2a: Blissey|74/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Blissey
+|-damage|p2a: Blissey|47/100
+|-damage|p1a: Dragapult|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Blissey|53/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743812198
+|move|p1a: Dragapult|Dragon Darts|p2a: Blissey
+|-damage|p2a: Blissey|29/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Blissey
+|-damage|p2a: Blissey|3/100
+|-damage|p1a: Dragapult|81/100|[from] item: Life Orb
+|move|p2a: Blissey|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|
+|-heal|p2a: Blissey|9/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743812207
+|move|p1a: Dragapult|U-turn|p2a: Blissey
+|-damage|p2a: Blissey|0 fnt
+|faint|p2a: Blissey
+|-damage|p1a: Dragapult|71/100 par|[from] item: Life Orb
+|
+|t:|1743812214
+|switch|p1a: Arcanine|Arcanine-Hisui, F|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743812227
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|77/100
+|turn|14
+|
+|t:|1743812235
+|-terastallize|p2a: Ogerpon|Water
+|detailschange|p2a: Ogerpon|Ogerpon-Wellspring-Tera, F, tera:Water
+|-ability|p2a: Ogerpon|Embody Aspect (Wellspring)|boost
+|-boost|p2a: Ogerpon|spd|1
+|-terastallize|p1a: Arcanine|Normal
+|move|p1a: Arcanine|Extreme Speed|p2a: Ogerpon
+|-damage|p2a: Ogerpon|15/100
+|-damage|p1a: Arcanine|91/100|[from] item: Life Orb
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|
+|upkeep
+|turn|15
+|
+|t:|1743812244
+|move|p1a: Arcanine|Extreme Speed|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|-damage|p1a: Arcanine|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743812248
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|16
+|
+|t:|1743812255
+|move|p1a: Arcanine|Head Smash|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|8/100
+|-damage|p1a: Arcanine|71/100|[from] item: Life Orb
+|move|p2a: Raging Bolt|Calm Mind|p2a: Raging Bolt
+|-boost|p2a: Raging Bolt|spa|1
+|-boost|p2a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|17
+|
+|t:|1743812258
+|move|p1a: Arcanine|Extreme Speed|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|-damage|p1a: Arcanine|61/100|[from] item: Life Orb
+|
+|upkeep
+|-message|daderpystarfish forfeited.
+|
+|win|danagrio2002
+|raw|danagrio2002's rating: 1397 &rarr; <strong>1418</strong><br />(+21 for winning)
+|raw|daderpystarfish's rating: 1414 &rarr; <strong>1393</strong><br />(-21 for losing)
+|l|☆daderpystarfish
+|player|p2|

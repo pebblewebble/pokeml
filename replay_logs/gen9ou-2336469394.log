@@ -1,0 +1,521 @@
+|j|☆Jagger is a boss
+|j|☆Mayeda
+|t:|1743922870
+|gametype|singles
+|player|p1|Jagger is a boss|pokekid|1133
+|player|p2|Mayeda|pokemonbreederf-gen4|1093
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Decidueye-Hisui, M|
+|poke|p1|Whimsicott, M|
+|poke|p1|Blaziken, M|
+|poke|p1|Toedscruel, M|
+|poke|p1|Vaporeon, F|
+|poke|p1|Tinkaton, F|
+|poke|p2|Wo-Chien|
+|poke|p2|Iron Hands|
+|poke|p2|Okidogi, M|
+|poke|p2|Kilowattrel, F|
+|poke|p2|Brambleghast, M|
+|poke|p2|Toxtricity-Low-Key, F|
+|teampreview
+|
+|t:|1743922887
+|start
+|switch|p1a: Whimsicott|Whimsicott, M|100/100
+|switch|p2a: Wo-Chien|Wo-Chien|100/100
+|-ability|p2a: Wo-Chien|Tablets of Ruin
+|turn|1
+|
+|t:|1743922894
+|move|p1a: Whimsicott|Moonblast|p2a: Wo-Chien
+|-supereffective|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|70/100
+|move|p2a: Wo-Chien|Mean Look|p1a: Whimsicott
+|-activate|p1a: Whimsicott|trapped
+|
+|upkeep
+|turn|2
+|
+|t:|1743922902
+|move|p1a: Whimsicott|Substitute|p1a: Whimsicott
+|-start|p1a: Whimsicott|Substitute
+|-damage|p1a: Whimsicott|76/100
+|move|p2a: Wo-Chien|Leech Seed|p1a: Whimsicott
+|-immune|p1a: Whimsicott
+|
+|upkeep
+|turn|3
+|
+|t:|1743922910
+|switch|p2a: Toxtricity|Toxtricity-Low-Key, F|100/100
+|move|p1a: Whimsicott|Moonblast|p2a: Toxtricity
+|-resisted|p2a: Toxtricity
+|-damage|p2a: Toxtricity|84/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743922913
+|move|p1a: Whimsicott|Stun Spore|p2a: Toxtricity
+|-immune|p2a: Toxtricity
+|move|p2a: Toxtricity|Volt Switch|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-end|p1a: Whimsicott|Substitute
+|
+|t:|1743922927
+|switch|p2a: Zaptrecuno|Kilowattrel, F, shiny|100/100|[from] Volt Switch
+|
+|upkeep
+|turn|5
+|
+|t:|1743922936
+|switch|p1a: Toedscruel|Toedscruel, M|100/100
+|move|p2a: Zaptrecuno|Hurricane|p1a: Toedscruel|[miss]
+|-miss|p2a: Zaptrecuno|p1a: Toedscruel
+|
+|upkeep
+|turn|6
+|
+|t:|1743922945
+|move|p2a: Zaptrecuno|Hurricane|p1a: Toedscruel
+|-supereffective|p1a: Toedscruel
+|-damage|p1a: Toedscruel|39/100
+|move|p1a: Toedscruel|Knock Off|p2a: Zaptrecuno
+|-damage|p2a: Zaptrecuno|73/100
+|-enditem|p2a: Zaptrecuno|Focus Band|[from] move: Knock Off|[of] p1a: Toedscruel
+|
+|upkeep
+|turn|7
+|
+|t:|1743922956
+|move|p2a: Zaptrecuno|Hurricane|p1a: Toedscruel|[miss]
+|-miss|p2a: Zaptrecuno|p1a: Toedscruel
+|move|p1a: Toedscruel|Giga Drain|p2a: Zaptrecuno
+|-resisted|p2a: Zaptrecuno
+|-damage|p2a: Zaptrecuno|45/100
+|-heal|p1a: Toedscruel|52/100|[from] drain|[of] p2a: Zaptrecuno
+|
+|upkeep
+|turn|8
+|
+|t:|1743922959
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Zaptrecuno|Hurricane|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|80/100
+|
+|-heal|p1a: Tinkaton|86/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743922972
+|move|p2a: Zaptrecuno|Tailwind|p2a: Zaptrecuno
+|-sidestart|p2: Mayeda|move: Tailwind
+|-start|p2a: Zaptrecuno|Charge|Tailwind|[from] ability: Wind Power
+|move|p1a: Tinkaton|Stealth Rock|p2a: Zaptrecuno
+|-sidestart|p2: Mayeda|move: Stealth Rock
+|
+|-heal|p1a: Tinkaton|92/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743922979
+|move|p2a: Zaptrecuno|Electro Ball|p1a: Tinkaton
+|-damage|p1a: Tinkaton|1/100
+|-end|p2a: Zaptrecuno|Charge|[silent]
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Zaptrecuno
+|-resisted|p2a: Zaptrecuno
+|-damage|p2a: Zaptrecuno|5/100
+|
+|-heal|p1a: Tinkaton|7/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743922986
+|move|p1a: Tinkaton|Protect|p1a: Tinkaton
+|-singleturn|p1a: Tinkaton|Protect
+|move|p2a: Zaptrecuno|Electro Ball|p1a: Tinkaton
+|-activate|p1a: Tinkaton|move: Protect
+|
+|-heal|p1a: Tinkaton|14/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743922992
+|move|p2a: Zaptrecuno|Hurricane|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|-sideend|p2: Mayeda|move: Tailwind
+|upkeep
+|
+|t:|1743922996
+|switch|p1a: Blaziken|Blaziken, M|100/100
+|turn|13
+|
+|t:|1743923003
+|move|p2a: Zaptrecuno|Endeavor|p1a: Blaziken
+|-damage|p1a: Blaziken|5/100
+|move|p1a: Blaziken|Overheat|p2a: Zaptrecuno
+|-damage|p2a: Zaptrecuno|0 fnt
+|-unboost|p1a: Blaziken|spa|2
+|-enditem|p1a: Blaziken|White Herb
+|-clearnegativeboost|p1a: Blaziken|[silent]
+|faint|p2a: Zaptrecuno
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743923007
+|switch|p2a: Brambleghast|Brambleghast, M|100/100
+|-damage|p2a: Brambleghast|88/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743923016
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Brambleghast|Shadow Sneak|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|15
+|
+|t:|1743923023
+|switch|p1a: Toedscruel|Toedscruel, M|52/100
+|move|p2a: Brambleghast|Shadow Sneak|p1a: Toedscruel
+|-damage|p1a: Toedscruel|28/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743923036
+|move|p2a: Brambleghast|Poltergeist|p1a: Toedscruel
+|-activate|p1a: Toedscruel|move: Poltergeist|Assault Vest
+|-damage|p1a: Toedscruel|0 fnt
+|faint|p1a: Toedscruel
+|
+|upkeep
+|
+|t:|1743923044
+|switch|p1a: Decidueye|Decidueye-Hisui, M|100/100
+|turn|17
+|
+|t:|1743923049
+|move|p1a: Decidueye|Brave Bird|p2a: Brambleghast
+|-supereffective|p2a: Brambleghast
+|-damage|p2a: Brambleghast|0 fnt
+|faint|p2a: Brambleghast
+|-damage|p1a: Decidueye|78/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743923070
+|switch|p2a: Wo-Chien|Wo-Chien|70/100
+|-damage|p2a: Wo-Chien|57/100|[from] Stealth Rock
+|-ability|p2a: Wo-Chien|Tablets of Ruin
+|turn|18
+|
+|t:|1743923073
+|-terastallize|p2a: Wo-Chien|Electric
+|move|p1a: Decidueye|Brave Bird|p2a: Wo-Chien
+|-resisted|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|45/100
+|-damage|p1a: Decidueye|73/100|[from] Recoil
+|move|p2a: Wo-Chien|Mean Look|p1a: Decidueye
+|-activate|p1a: Decidueye|trapped
+|
+|upkeep
+|turn|19
+|
+|t:|1743923078
+|move|p1a: Decidueye|Brave Bird|p2a: Wo-Chien
+|-resisted|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|33/100
+|-damage|p1a: Decidueye|68/100|[from] Recoil
+|move|p2a: Wo-Chien|Leech Seed|p1a: Decidueye
+|-immune|p1a: Decidueye
+|
+|upkeep
+|turn|20
+|
+|t:|1743923082
+|move|p1a: Decidueye|Brave Bird|p2a: Wo-Chien
+|-resisted|p2a: Wo-Chien
+|-crit|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|14/100
+|-damage|p1a: Decidueye|62/100|[from] Recoil
+|move|p2a: Wo-Chien|Leech Seed|p1a: Decidueye
+|-immune|p1a: Decidueye
+|
+|upkeep
+|turn|21
+|
+|t:|1743923086
+|move|p1a: Decidueye|Brave Bird|p2a: Wo-Chien
+|-resisted|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|3/100
+|-damage|p1a: Decidueye|57/100|[from] Recoil
+|move|p2a: Wo-Chien|Mud-Slap|p1a: Decidueye
+|-resisted|p1a: Decidueye
+|-damage|p1a: Decidueye|55/100
+|-unboost|p1a: Decidueye|accuracy|1
+|
+|upkeep
+|turn|22
+|
+|t:|1743923092
+|move|p1a: Decidueye|Brave Bird|p2a: Wo-Chien
+|-resisted|p2a: Wo-Chien
+|-damage|p2a: Wo-Chien|0 fnt
+|faint|p2a: Wo-Chien
+|-damage|p1a: Decidueye|54/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743923100
+|switch|p2a: Iron Hands|Iron Hands|100/100
+|-damage|p2a: Iron Hands|94/100|[from] Stealth Rock
+|turn|23
+|
+|t:|1743923103
+|move|p1a: Decidueye|Brave Bird|p2a: Iron Hands
+|-damage|p2a: Iron Hands|71/100
+|-damage|p1a: Decidueye|43/100|[from] Recoil
+|move|p2a: Iron Hands|Ice Punch|p1a: Decidueye
+|-supereffective|p1a: Decidueye
+|-damage|p1a: Decidueye|0 fnt
+|faint|p1a: Decidueye
+|
+|upkeep
+|
+|t:|1743923107
+|switch|p1a: Blaziken|Blaziken, M|5/100
+|turn|24
+|-activate|p2a: Iron Hands|item: Quick Claw
+|
+|t:|1743923110
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Iron Hands|Drain Punch|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|25
+|
+|t:|1743923117
+|move|p1a: Blaziken|Acrobatics|p2a: Iron Hands
+|-damage|p2a: Iron Hands|49/100
+|move|p2a: Iron Hands|Drain Punch|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|-heal|p2a: Iron Hands|51/100|[from] drain|[of] p1a: Blaziken
+|faint|p1a: Blaziken
+|
+|upkeep
+|
+|t:|1743923121
+|switch|p1a: Whimsicott|Whimsicott, M|76/100
+|turn|26
+|-activate|p2a: Iron Hands|item: Quick Claw
+|
+|t:|1743923126
+|move|p1a: Whimsicott|Leech Seed|p2a: Iron Hands
+|-start|p2a: Iron Hands|move: Leech Seed
+|move|p2a: Iron Hands|Ice Punch|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|9/100
+|
+|-damage|p2a: Iron Hands|39/100|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|30/100|[silent]
+|upkeep
+|turn|27
+|
+|t:|1743923136
+|move|p1a: Whimsicott|Substitute|p1a: Whimsicott
+|-start|p1a: Whimsicott|Substitute
+|-damage|p1a: Whimsicott|5/100
+|move|p2a: Iron Hands|Charge|p2a: Iron Hands
+|-boost|p2a: Iron Hands|spd|1
+|-start|p2a: Iron Hands|Charge
+|
+|-damage|p2a: Iron Hands|26/100|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|26/100|[silent]
+|upkeep
+|turn|28
+|
+|t:|1743923143
+|move|p1a: Whimsicott|Moonblast|p2a: Iron Hands
+|-supereffective|p2a: Iron Hands
+|-damage|p2a: Iron Hands|0 fnt
+|faint|p2a: Iron Hands
+|-end|p2a: Iron Hands|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743923148
+|switch|p2a: Toxtricity|Toxtricity-Low-Key, F|84/100
+|-damage|p2a: Toxtricity|71/100|[from] Stealth Rock
+|turn|29
+|
+|t:|1743923151
+|move|p1a: Whimsicott|Leech Seed|p2a: Toxtricity
+|-start|p2a: Toxtricity|move: Leech Seed
+|move|p2a: Toxtricity|Volt Switch|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-end|p1a: Whimsicott|Substitute
+|
+|t:|1743923154
+|switch|p2a: Okidogi|Okidogi, M|100/100|[from] Volt Switch
+|-damage|p2a: Okidogi|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|30
+|
+|t:|1743923159
+|move|p1a: Whimsicott|Leech Seed|p2a: Okidogi
+|-start|p2a: Okidogi|move: Leech Seed
+|move|p2a: Okidogi|Crunch|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|13/100
+|
+|-damage|p2a: Okidogi|82/100|[from] Leech Seed|[of] p1a: Whimsicott
+|-heal|p1a: Whimsicott|31/100|[silent]
+|upkeep
+|turn|31
+|
+|t:|1743923163
+|move|p1a: Whimsicott|Moonblast|p2a: Okidogi
+|-damage|p2a: Okidogi|62/100
+|move|p2a: Okidogi|Gunk Shot|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|upkeep
+|
+|t:|1743923168
+|switch|p1a: Vaporeon|Vaporeon, F|100/100
+|turn|32
+|
+|t:|1743923172
+|move|p2a: Okidogi|Gunk Shot|p1a: Vaporeon
+|-damage|p1a: Vaporeon|46/100
+|move|p1a: Vaporeon|Calm Mind|p1a: Vaporeon
+|-boost|p1a: Vaporeon|spa|1
+|-boost|p1a: Vaporeon|spd|1
+|
+|-heal|p1a: Vaporeon|52/100|[from] item: Leftovers
+|-damage|p2a: Okidogi|50/100|[from] Leech Seed|[of] p1a: Vaporeon
+|-heal|p1a: Vaporeon|64/100|[silent]
+|upkeep
+|turn|33
+|
+|t:|1743923178
+|move|p2a: Okidogi|Gunk Shot|p1a: Vaporeon
+|-damage|p1a: Vaporeon|13/100
+|move|p1a: Vaporeon|Acid Armor|p1a: Vaporeon
+|-boost|p1a: Vaporeon|def|2
+|
+|-heal|p1a: Vaporeon|20/100|[from] item: Leftovers
+|-damage|p2a: Okidogi|37/100|[from] Leech Seed|[of] p1a: Vaporeon
+|-heal|p1a: Vaporeon|31/100|[silent]
+|upkeep
+|turn|34
+|
+|t:|1743923186
+|move|p2a: Okidogi|Drain Punch|p1a: Vaporeon
+|-damage|p1a: Vaporeon|15/100
+|-heal|p2a: Okidogi|46/100|[from] drain|[of] p1a: Vaporeon
+|move|p1a: Vaporeon|Acid Armor|p1a: Vaporeon
+|-boost|p1a: Vaporeon|def|2
+|
+|-heal|p1a: Vaporeon|21/100|[from] item: Leftovers
+|-damage|p2a: Okidogi|34/100|[from] Leech Seed|[of] p1a: Vaporeon
+|-heal|p1a: Vaporeon|33/100|[silent]
+|upkeep
+|turn|35
+|
+|t:|1743923198
+|move|p2a: Okidogi|Gunk Shot|p1a: Vaporeon
+|-damage|p1a: Vaporeon|16/100
+|move|p1a: Vaporeon|Acid Armor|p1a: Vaporeon
+|-boost|p1a: Vaporeon|def|2
+|
+|-heal|p1a: Vaporeon|22/100|[from] item: Leftovers
+|-damage|p2a: Okidogi|21/100|[from] Leech Seed|[of] p1a: Vaporeon
+|-heal|p1a: Vaporeon|34/100|[silent]
+|upkeep
+|turn|36
+|
+|t:|1743923206
+|move|p2a: Okidogi|Gunk Shot|p1a: Vaporeon
+|-damage|p1a: Vaporeon|22/100
+|-status|p1a: Vaporeon|psn
+|move|p1a: Vaporeon|Calm Mind|p1a: Vaporeon
+|-boost|p1a: Vaporeon|spa|1
+|-boost|p1a: Vaporeon|spd|1
+|
+|-heal|p1a: Vaporeon|28/100 psn|[from] item: Leftovers
+|-damage|p2a: Okidogi|9/100|[from] Leech Seed|[of] p1a: Vaporeon
+|-heal|p1a: Vaporeon|40/100 psn|[silent]
+|-damage|p1a: Vaporeon|27/100 psn|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1743923221
+|move|p2a: Okidogi|Gunk Shot|p1a: Vaporeon|[miss]
+|-miss|p2a: Okidogi|p1a: Vaporeon
+|move|p1a: Vaporeon|Calm Mind|p1a: Vaporeon
+|-boost|p1a: Vaporeon|spa|1
+|-boost|p1a: Vaporeon|spd|1
+|
+|-heal|p1a: Vaporeon|34/100 psn|[from] item: Leftovers
+|-damage|p2a: Okidogi|0 fnt|[from] Leech Seed|[of] p1a: Vaporeon
+|-heal|p1a: Vaporeon|42/100 psn|[silent]
+|faint|p2a: Okidogi
+|-damage|p1a: Vaporeon|29/100 psn|[from] psn
+|upkeep
+|
+|t:|1743923224
+|switch|p2a: Toxtricity|Toxtricity-Low-Key, F|71/100
+|-damage|p2a: Toxtricity|59/100|[from] Stealth Rock
+|turn|38
+|
+|t:|1743923233
+|-terastallize|p1a: Vaporeon|Fire
+|move|p2a: Toxtricity|Hex|p1a: Vaporeon
+|-damage|p1a: Vaporeon|11/100 psn
+|move|p1a: Vaporeon|Stored Power|p2a: Toxtricity
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|win|Jagger is a boss
+|raw|Jagger is a boss's rating: 1133 &rarr; <strong>1155</strong><br />(+22 for winning)
+|raw|Mayeda's rating: 1093 &rarr; <strong>1072</strong><br />(-21 for losing)
+|l|☆Mayeda
+|player|p2|
+|l|☆Jagger is a boss
+|player|p1|
+|j|☆Jagger is a boss
+|player|p1|Jagger is a boss|pokekid|
+|l|☆Jagger is a boss
+|player|p1|

@@ -1,0 +1,319 @@
+|j|☆tohelpu
+|j|☆N0AH__123__
+|t:|1743851127
+|gametype|singles
+|player|p1|tohelpu|1|1171
+|player|p2|N0AH__123__|boarder|1283
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Reuniclus, F|
+|poke|p1|Slither Wing|
+|poke|p1|Jirachi|
+|poke|p1|Primarina, M|
+|poke|p1|Excadrill, M|
+|poke|p1|Vikavolt, F|
+|poke|p2|Pelipper, F|
+|poke|p2|Overqwil, F|
+|poke|p2|Scizor, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Tornadus-Therian, M|
+|poke|p2|Iron Treads|
+|teampreview
+|
+|t:|1743851174
+|start
+|switch|p1a: Jirachi|Jirachi|100/100
+|switch|p2a: Pelipper|Pelipper, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1743851180
+|move|p1a: Jirachi|Trick|p2a: Pelipper
+|-activate|p1a: Jirachi|move: Trick|[of] p2a: Pelipper
+|-item|p2a: Pelipper|Choice Band|[from] move: Trick
+|-item|p1a: Jirachi|Damp Rock|[from] move: Trick
+|move|p2a: Pelipper|U-turn|p1a: Jirachi
+|-damage|p1a: Jirachi|88/100
+|
+|t:|1743851211
+|switch|p2a: Overqwil|Overqwil, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743851223
+|-terastallize|p1a: Jirachi|Steel
+|move|p2a: Overqwil|Crunch|p1a: Jirachi
+|-damage|p1a: Jirachi|41/100
+|-unboost|p1a: Jirachi|def|1
+|-damage|p2a: Overqwil|91/100|[from] item: Life Orb
+|move|p1a: Jirachi|Iron Head|p2a: Overqwil
+|-damage|p2a: Overqwil|43/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743851237
+|switch|p1a: Slither Wing|Slither Wing|100/100
+|move|p2a: Overqwil|Crunch|p1a: Slither Wing
+|-resisted|p1a: Slither Wing
+|-damage|p1a: Slither Wing|75/100
+|-unboost|p1a: Slither Wing|def|1
+|-damage|p2a: Overqwil|33/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743851245
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Slither Wing|atk|1
+|move|p1a: Slither Wing|First Impression|p2a: Landorus
+|-resisted|p2a: Landorus
+|-damage|p2a: Landorus|77/100
+|-damage|p1a: Slither Wing|58/100|[from] item: Rocky Helmet|[of] p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743851259
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|switch|p1a: Jirachi|Jirachi, tera:Steel|41/100
+|move|p2a: Landorus|Weather Ball|p1a: Jirachi
+|-damage|p1a: Jirachi|0 fnt
+|faint|p1a: Jirachi
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743851274
+|switch|p1a: Primarina|Primarina, M|100/100
+|turn|6
+|
+|t:|1743851279
+|move|p2a: Landorus|U-turn|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|89/100
+|
+|t:|1743851283
+|switch|p2a: Pelipper|Pelipper, F|100/100|[from] U-turn
+|move|p1a: Primarina|Moonblast|p2a: Pelipper
+|-damage|p2a: Pelipper|19/100
+|-unboost|p2a: Pelipper|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743851292
+|switch|p2a: Landorus|Landorus-Therian, M|77/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Primarina|atk|1
+|move|p1a: Primarina|Surf|p2a: Landorus
+|-supereffective|p2a: Landorus
+|-crit|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743851294
+|switch|p2a: Overqwil|Overqwil, F|33/100
+|turn|8
+|
+|t:|1743851306
+|switch|p1a: Slither Wing|Slither Wing|58/100
+|move|p2a: Overqwil|Poison Jab|p1a: Slither Wing
+|-damage|p1a: Slither Wing|7/100
+|-damage|p2a: Overqwil|23/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743851313
+|switch|p2a: Tornadus|Tornadus-Therian, M|100/100
+|move|p1a: Slither Wing|U-turn|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-damage|p2a: Tornadus|64/100
+|-damage|p1a: Slither Wing|0 fnt|[from] item: Rocky Helmet|[of] p2a: Tornadus
+|faint|p1a: Slither Wing
+|-end|p1a: Slither Wing|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743851327
+|switch|p1a: Vikavolt|Vikavolt, F|100/100
+|turn|10
+|
+|t:|1743851331
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|switch|p1a: Primarina|Primarina, M|89/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743851339
+|move|p2a: Iron Treads|Stealth Rock|p1a: Primarina
+|-sidestart|p1: tohelpu|move: Stealth Rock
+|move|p1a: Primarina|Surf|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743851347
+|switch|p2a: Pelipper|Pelipper, F|19/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|12
+|
+|t:|1743851353
+|move|p1a: Primarina|Surf|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743851356
+|switch|p2a: Overqwil|Overqwil, F|23/100
+|turn|13
+|
+|t:|1743851379
+|switch|p1a: Excadrill|Excadrill, M|100/100
+|-damage|p1a: Excadrill|97/100|[from] Stealth Rock
+|move|p2a: Overqwil|Poison Jab|p1a: Excadrill
+|-immune|p1a: Excadrill
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743851386
+|move|p2a: Overqwil|Liquidation|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|-damage|p2a: Overqwil|13/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743851402
+|switch|p1a: Vikavolt|Vikavolt, F|100/100
+|-damage|p1a: Vikavolt|75/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743851415
+|switch|p2a: Scizor|Scizor, M|100/100
+|move|p1a: Vikavolt|Volt Switch|p2a: Scizor
+|-damage|p2a: Scizor|36/100
+|
+|t:|1743851420
+|switch|p1a: Primarina|Primarina, M|89/100|[from] Volt Switch
+|-damage|p1a: Primarina|77/100|[from] Stealth Rock
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743851433
+|-terastallize|p2a: Scizor|Steel
+|move|p2a: Scizor|Bullet Punch|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|-weather|none
+|upkeep
+|
+|t:|1743851441
+|switch|p1a: Vikavolt|Vikavolt, F|75/100
+|-damage|p1a: Vikavolt|50/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743851447
+|move|p2a: Scizor|Bullet Punch|p1a: Vikavolt
+|-resisted|p1a: Vikavolt
+|-damage|p1a: Vikavolt|25/100
+|move|p1a: Vikavolt|Volt Switch|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|
+|t:|1743851454
+|switch|p1a: Reuniclus|Reuniclus, F|100/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1743851460
+|switch|p2a: Tornadus|Tornadus-Therian, M|97/100
+|turn|18
+|
+|t:|1743851463
+|move|p2a: Tornadus|Knock Off|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|70/100
+|-enditem|p1a: Reuniclus|Life Orb|[from] move: Knock Off|[of] p2a: Tornadus
+|move|p1a: Reuniclus|Trick Room|p1a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p1a: Reuniclus
+|
+|upkeep
+|turn|19
+|
+|t:|1743851469
+|move|p1a: Reuniclus|Psyshock|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|22/100
+|move|p2a: Tornadus|Knock Off|p1a: Reuniclus
+|-supereffective|p1a: Reuniclus
+|-damage|p1a: Reuniclus|51/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743851476
+|move|p1a: Reuniclus|Focus Blast|p2a: Tornadus
+|-resisted|p2a: Tornadus
+|-crit|p2a: Tornadus
+|-damage|p2a: Tornadus|0 fnt
+|faint|p2a: Tornadus
+|
+|upkeep
+|
+|t:|1743851479
+|switch|p2a: Overqwil|Overqwil, F|13/100
+|turn|21
+|
+|t:|1743851487
+|move|p1a: Reuniclus|Shadow Ball|p2a: Overqwil
+|-resisted|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|faint|p2a: Overqwil
+|
+|win|tohelpu
+|raw|tohelpu's rating: 1171 &rarr; <strong>1204</strong><br />(+33 for winning)
+|raw|N0AH__123__'s rating: 1283 &rarr; <strong>1250</strong><br />(-33 for losing)
+|l|☆N0AH__123__
+|player|p2|
+|c|☆tohelpu|gg

@@ -1,0 +1,574 @@
+|j|☆jxrx
+|j|☆btagrere
+|t:|1743879104
+|gametype|singles
+|player|p1|jxrx|norman|1295
+|player|p2|btagrere|silver|1253
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Muk-Alola, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Vileplume, M|
+|poke|p1|Magnezone|
+|poke|p1|Blastoise, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Primarina, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Glimmora, F|
+|poke|p2|Slowking-Galar, M|
+|poke|p2|Beartic, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by btagrere)
+|
+|t:|1743879123
+|start
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|switch|p2a: Glimmora|Glimmora, F|100/100
+|turn|1
+|
+|t:|1743879134
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Blastoise|Surf|p2a: Slowking
+|-damage|p2a: Slowking|79/100
+|
+|-heal|p2a: Slowking|85/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743879142
+|switch|p1a: Muk|Muk-Alola, F|100/100
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-heal|p2a: Slowking|91/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743879150
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743879155
+|switch|p2a: Glimmora|Glimmora, F|100/100|[from] Chilly Reception
+|move|p1a: Muk|Knock Off|p2a: Glimmora
+|-damage|p2a: Glimmora|57/100
+|-enditem|p2a: Glimmora|Focus Sash|[from] move: Knock Off|[of] p1a: Muk
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743879170
+|switch|p1a: Magnezone|Magnezone|100/100
+|move|p2a: Glimmora|Toxic|p1a: Magnezone
+|-status|p1a: Magnezone|tox
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Magnezone|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743879182
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|move|p1a: Magnezone|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|67/100
+|
+|t:|1743879188
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Volt Switch
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Slowking|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743879196
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|
+|t:|1743879201
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from] Chilly Reception
+|move|p1a: Great Tusk|Stealth Rock|p2a: Rotom
+|-sidestart|p2: btagrere|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1743879210
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Muk|Muk-Alola, F|100/100
+|move|p2a: Rotom|Will-O-Wisp|p1a: Muk
+|-status|p1a: Muk|brn
+|
+|-weather|none
+|-damage|p1a: Muk|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743879221
+|switch|p2a: Glimmora|Glimmora, F|57/100
+|-damage|p2a: Glimmora|45/100|[from] Stealth Rock
+|move|p1a: Muk|Knock Off|p2a: Glimmora
+|-damage|p2a: Glimmora|29/100
+|
+|-damage|p1a: Muk|88/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743879232
+|move|p2a: Glimmora|Mortal Spin|p1a: Muk
+|-resisted|p1a: Muk
+|-damage|p1a: Muk|85/100 brn
+|-sideend|p2: btagrere|Stealth Rock|[from] move: Mortal Spin|[of] p2a: Glimmora
+|move|p1a: Muk|Drain Punch|p2a: Glimmora
+|-damage|p2a: Glimmora|18/100
+|-heal|p1a: Muk|90/100 brn|[from] drain|[of] p2a: Glimmora
+|
+|-damage|p1a: Muk|84/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743879243
+|move|p2a: Glimmora|Spikes|p1a: Muk
+|-sidestart|p1: jxrx|Spikes
+|move|p1a: Muk|Drain Punch|p2a: Glimmora
+|-damage|p2a: Glimmora|7/100
+|-heal|p1a: Muk|88/100 brn|[from] drain|[of] p2a: Glimmora
+|
+|-damage|p1a: Muk|82/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743879252
+|move|p2a: Glimmora|Spikes|p1a: Muk
+|-sidestart|p1: jxrx|Spikes
+|move|p1a: Muk|Drain Punch|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|-heal|p1a: Muk|84/100 brn|[from] drain|[of] p2a: Glimmora
+|faint|p2a: Glimmora
+|
+|-damage|p1a: Muk|78/100 brn|[from] brn
+|upkeep
+|
+|t:|1743879262
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Muk|atk|1
+|turn|12
+|
+|t:|1743879279
+|move|p2a: Landorus|U-turn|p1a: Muk
+|-damage|p1a: Muk|38/100 brn
+|
+|t:|1743879287
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from] U-turn
+|move|p1a: Muk|Poison Fang|p2a: Rotom
+|-damage|p2a: Rotom|92/100
+|-status|p2a: Rotom|tox
+|
+|-damage|p2a: Rotom|86/100 tox|[from] psn
+|-damage|p1a: Muk|32/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743879302
+|move|p2a: Rotom|Volt Switch|p1a: Muk
+|-damage|p1a: Muk|20/100 brn
+|
+|t:|1743879308
+|switch|p2a: Primarina|Primarina, F, shiny|100/100|[from] Volt Switch
+|move|p1a: Muk|Knock Off|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|93/100
+|-enditem|p2a: Primarina|Assault Vest|[from] move: Knock Off|[of] p1a: Muk
+|
+|-damage|p1a: Muk|14/100 brn|[from] brn
+|upkeep
+|turn|14
+|inactive|jxrx has 120 seconds left.
+|
+|t:|1743879368
+|switch|p2a: Rotom|Rotom-Wash|86/100 tox
+|move|p1a: Muk|Poison Fang|p2a: Rotom
+|-damage|p2a: Rotom|78/100 tox
+|
+|-damage|p2a: Rotom|71/100 tox|[from] psn
+|-damage|p1a: Muk|8/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743879377
+|move|p2a: Rotom|Volt Switch|p1a: Muk
+|-damage|p1a: Muk|0 fnt
+|faint|p1a: Muk
+|
+|t:|1743879384
+|switch|p2a: Slowking|Slowking-Galar, M|100/100|[from] Volt Switch
+|
+|upkeep
+|inactive|jxrx has 90 seconds left.
+|inactive|jxrx has 60 seconds left.
+|
+|t:|1743879442
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|turn|16
+|
+|t:|1743879455
+|switch|p2a: Rotom|Rotom-Wash|71/100 tox
+|move|p1a: Great Tusk|Rapid Spin|p2a: Rotom
+|-damage|p2a: Rotom|49/100 tox
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: jxrx|Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|
+|-damage|p2a: Rotom|42/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1743879465
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Magnezone|Magnezone|94/100 tox
+|move|p2a: Rotom|Will-O-Wisp||[still]
+|-fail|p2a: Rotom
+|
+|-damage|p2a: Rotom|30/100 tox|[from] psn
+|-damage|p1a: Magnezone|88/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1743879477
+|move|p2a: Rotom|Will-O-Wisp||[still]
+|-fail|p2a: Rotom
+|move|p1a: Magnezone|Tri Attack|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-damage|p1a: Magnezone|76/100 tox|[from] psn
+|upkeep
+|
+|t:|1743879486
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|19
+|
+|t:|1743879491
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743879497
+|switch|p2a: Primarina|Primarina, F, shiny|93/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|20
+|inactive|jxrx has 90 seconds left.
+|inactive|jxrx has 60 seconds left.
+|
+|t:|1743879552
+|move|p1a: Great Tusk|Headlong Rush|p2a: Primarina
+|-damage|p2a: Primarina|11/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Primarina|Psychic Noise|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743879557
+|switch|p1a: Magnezone|Magnezone|76/100 tox
+|turn|21
+|
+|t:|1743879569
+|move|p1a: Magnezone|Flash Cannon|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Magnezone|70/100 tox|[from] psn
+|upkeep
+|
+|t:|1743879576
+|switch|p2a: Slowking|Slowking-Galar, M|100/100
+|turn|22
+|
+|t:|1743879587
+|move|p1a: Magnezone|Flash Cannon|p2a: Slowking
+|-damage|p2a: Slowking|59/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|
+|t:|1743879592
+|switch|p2a: Beartic|Beartic, M, shiny|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Magnezone|58/100 tox|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1743879613
+|-terastallize|p2a: Beartic|Fire
+|move|p2a: Beartic|Tera Blast|p1a: Magnezone|[anim] Tera Blast Fire
+|-supereffective|p1a: Magnezone
+|-damage|p1a: Magnezone|0 fnt
+|faint|p1a: Magnezone
+|
+|-weather|none
+|upkeep
+|inactive|jxrx has 60 seconds left.
+|
+|t:|1743879644
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|turn|24
+|
+|t:|1743879648
+|switch|p2a: Slowking|Slowking-Galar, M|92/100
+|move|p1a: Blastoise|Shell Smash|p1a: Blastoise
+|-unboost|p1a: Blastoise|def|1
+|-unboost|p1a: Blastoise|spd|1
+|-boost|p1a: Blastoise|atk|2
+|-boost|p1a: Blastoise|spa|2
+|-boost|p1a: Blastoise|spe|2
+|
+|-heal|p2a: Slowking|98/100|[from] item: Leftovers
+|upkeep
+|turn|25
+|
+|t:|1743879660
+|move|p1a: Blastoise|Dark Pulse|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|22/100
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-heal|p2a: Slowking|28/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1743879672
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743879675
+|switch|p2a: Beartic|Beartic, M, shiny, tera:Fire|100/100|[from] Chilly Reception
+|move|p1a: Blastoise|Dark Pulse|p2a: Beartic
+|-damage|p2a: Beartic|40/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|27
+|
+|t:|1743879692
+|switch|p1a: Vileplume|Vileplume, M|100/100
+|move|p2a: Beartic|Ice Punch|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|7/100
+|-damage|p2a: Beartic|23/100|[from] item: Rocky Helmet|[of] p1a: Vileplume
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|28
+|
+|t:|1743879701
+|move|p1a: Vileplume|Strength Sap|p2a: Beartic
+|-unboost|p2a: Beartic|atk|1
+|-heal|p1a: Vileplume|100/100
+|move|p2a: Beartic|Ice Punch|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|29/100
+|-damage|p2a: Beartic|7/100|[from] item: Rocky Helmet|[of] p1a: Vileplume
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|29
+|
+|t:|1743879715
+|switch|p2a: Slowking|Slowking-Galar, M|61/100
+|move|p1a: Vileplume|Strength Sap|p2a: Slowking
+|-unboost|p2a: Slowking|atk|1
+|-heal|p1a: Vileplume|67/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Slowking|67/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|30
+|
+|t:|1743879737
+|move|p1a: Vileplume|Leech Seed|p2a: Slowking
+|-start|p2a: Slowking|move: Leech Seed
+|move|p2a: Slowking|Sludge Bomb|p1a: Vileplume
+|-damage|p1a: Vileplume|30/100
+|
+|-weather|none
+|-heal|p2a: Slowking|73/100|[from] item: Leftovers
+|-damage|p2a: Slowking|61/100|[from] Leech Seed|[of] p1a: Vileplume
+|-heal|p1a: Vileplume|44/100|[silent]
+|upkeep
+|turn|31
+|inactive|jxrx has 90 seconds left.
+|inactive|jxrx has 60 seconds left.
+|inactive|jxrx has 30 seconds left.
+|
+|t:|1743879806
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743879813
+|switch|p2a: Beartic|Beartic, M, shiny, tera:Fire|7/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|32
+|
+|t:|1743879822
+|switch|p1a: Vileplume|Vileplume, M|44/100
+|move|p2a: Beartic|Ice Punch|p1a: Vileplume
+|-supereffective|p1a: Vileplume
+|-damage|p1a: Vileplume|0 fnt
+|-damage|p2a: Beartic|0 fnt|[from] item: Rocky Helmet|[of] p1a: Vileplume
+|faint|p1a: Vileplume
+|faint|p2a: Beartic
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743879832
+|switch|p2a: Slowking|Slowking-Galar, M|94/100
+|switch|p1a: Blastoise|Blastoise, M|100/100
+|turn|33
+|inactive|jxrx has 60 seconds left.
+|
+|t:|1743879851
+|move|p1a: Blastoise|Shell Smash|p1a: Blastoise
+|-unboost|p1a: Blastoise|def|1
+|-unboost|p1a: Blastoise|spd|1
+|-boost|p1a: Blastoise|atk|2
+|-boost|p1a: Blastoise|spa|2
+|-boost|p1a: Blastoise|spe|2
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Slowking|99/100|[from] item: Leftovers
+|upkeep
+|turn|34
+|
+|t:|1743879860
+|move|p2a: Slowking|Sludge Bomb|p1a: Blastoise
+|-damage|p1a: Blastoise|55/100
+|-status|p1a: Blastoise|psn
+|move|p1a: Blastoise|Dark Pulse|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|51/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Slowking|57/100|[from] item: Leftovers
+|-heal|p1a: Blastoise|61/100 psn|[from] item: Leftovers
+|-damage|p1a: Blastoise|48/100 psn|[from] psn
+|upkeep
+|turn|35
+|inactive|jxrx has 60 seconds left.
+|
+|t:|1743879874
+|move|p2a: Slowking|Sludge Bomb|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|-weather|none
+|-heal|p2a: Slowking|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743879877
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|turn|36
+|
+|t:|1743879884
+|move|p2a: Slowking|Sludge Bomb|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|78/100
+|move|p1a: Dragapult|Substitute|p1a: Dragapult
+|-start|p1a: Dragapult|Substitute
+|-damage|p1a: Dragapult|53/100
+|
+|-heal|p2a: Slowking|69/100|[from] item: Leftovers
+|-heal|p1a: Dragapult|59/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1743879901
+|move|p2a: Slowking|Sludge Bomb|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-activate|p1a: Dragapult|move: Substitute|[damage]
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force
+|
+|-heal|p2a: Slowking|75/100|[from] item: Leftovers
+|-heal|p1a: Dragapult|65/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|38
+|
+|t:|1743879910
+|move|p1a: Dragapult|Phantom Force|p2a: Slowking|[from] lockedmove
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-heal|p1a: Dragapult|71/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743879917
+|switch|p2a: Landorus|Landorus-Therian, M, shiny|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-immune|p1a: Dragapult
+|turn|39
+|inactive|jxrx has 90 seconds left.
+|
+|t:|1743879924
+|-terastallize|p1a: Dragapult|Dragon
+|move|p1a: Dragapult|Dragon Dance|p1a: Dragapult
+|-boost|p1a: Dragapult|atk|1
+|-boost|p1a: Dragapult|spe|1
+|move|p2a: Landorus|Crunch|p1a: Dragapult
+|-end|p1a: Dragapult|Substitute
+|
+|-heal|p1a: Dragapult|77/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1743879935
+|move|p1a: Dragapult|Dragon Darts|p2a: Landorus
+|-damage|p2a: Landorus|47/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Landorus
+|-damage|p2a: Landorus|0 fnt
+|faint|p2a: Landorus
+|
+|win|jxrx
+|raw|jxrx's rating: 1266 &rarr; <strong>1290</strong><br />(+24 for winning)
+|raw|btagrere's rating: 1253 &rarr; <strong>1229</strong><br />(-24 for losing)
+|l|☆jxrx
+|player|p1|
+|l|☆btagrere
+|player|p2|

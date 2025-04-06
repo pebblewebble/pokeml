@@ -1,0 +1,247 @@
+|j|☆Buunie099
+|j|☆fake29117
+|t:|1743872903
+|gametype|singles
+|player|p1|Buunie099|1|1087
+|player|p2|fake29117|alder|1176
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Polteageist-Antique|
+|poke|p1|Garganacl, F|
+|poke|p1|Kommo-o, M|
+|poke|p1|Basculegion-F, F|
+|poke|p1|Iron Moth|
+|poke|p1|Tinkaton, F|
+|poke|p2|Ursaluna, M|
+|poke|p2|Gliscor, M|
+|poke|p2|Greninja-*, M|
+|poke|p2|Blaziken, M|
+|poke|p2|Tinkaton, F|
+|poke|p2|Electivire, F|
+|teampreview
+|
+|t:|1743872920
+|start
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|switch|p2a: Blaziken|Blaziken, M|100/100
+|turn|1
+|
+|t:|1743872932
+|switch|p2a: Greninja|Greninja, M|100/100
+|move|p1a: Basculegion|Waterfall|p2a: Greninja
+|-resisted|p2a: Greninja
+|-crit|p2a: Greninja
+|-damage|p2a: Greninja|45/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743872946
+|switch|p1a: Kommo-o|Kommo-o, M|100/100
+|move|p2a: Greninja|Dark Pulse|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|82/100
+|
+|-heal|p1a: Kommo-o|88/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743872958
+|move|p2a: Greninja|Ice Beam|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|23/100
+|move|p1a: Kommo-o|Body Press|p2a: Greninja
+|-supereffective|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|-heal|p1a: Kommo-o|29/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743872972
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|4
+|
+|t:|1743872986
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|move|p2a: Gliscor|Earthquake|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|60/100
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|5
+|
+|t:|1743873003
+|-terastallize|p2a: Gliscor|Ground
+|move|p2a: Gliscor|Earthquake|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|7/100
+|move|p1a: Garganacl|Salt Cure|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|94/100 tox
+|-start|p2a: Gliscor|Salt Cure
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Gliscor|88/100 tox|[from] Salt Cure
+|upkeep
+|turn|6
+|
+|t:|1743873021
+|switch|p1a: Basculegion|Basculegion-F, F|100/100
+|move|p2a: Gliscor|Earthquake|p1a: Basculegion
+|-crit|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Gliscor|88/100 tox|[from] Salt Cure
+|upkeep
+|
+|t:|1743873032
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-item|p1a: Iron Moth|Air Balloon
+|turn|7
+|
+|t:|1743873043
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Gliscor
+|-damage|p2a: Gliscor|44/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Iron Moth
+|-immune|p1a: Iron Moth
+|
+|-heal|p2a: Gliscor|57/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Gliscor|44/100 tox|[from] Salt Cure
+|upkeep
+|turn|8
+|
+|t:|1743873054
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|-item|p2a: Tinkaton|Air Balloon
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|82/100
+|-enditem|p2a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|9
+|
+|t:|1743873072
+|switch|p2a: Electivire|Electivire, F|100/100
+|-item|p2a: Electivire|Air Balloon
+|move|p1a: Iron Moth|Fiery Dance|p2a: Electivire
+|-damage|p2a: Electivire|39/100
+|-boost|p1a: Iron Moth|spa|1
+|-enditem|p2a: Electivire|Air Balloon
+|
+|upkeep
+|turn|10
+|
+|t:|1743873085
+|move|p1a: Iron Moth|Fiery Dance|p2a: Electivire
+|-damage|p2a: Electivire|0 fnt
+|faint|p2a: Electivire
+|
+|upkeep
+|
+|t:|1743873091
+|switch|p2a: Ursaluna|Ursaluna, M, shiny|100/100
+|turn|11
+|
+|t:|1743873112
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Ursaluna
+|-damage|p2a: Ursaluna|54/100
+|move|p2a: Ursaluna|Facade|p1a: Iron Moth
+|-damage|p1a: Iron Moth|27/100
+|-enditem|p1a: Iron Moth|Air Balloon
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|12
+|
+|t:|1743873132
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Ursaluna
+|-damage|p2a: Ursaluna|10/100 brn
+|move|p2a: Ursaluna|Earthquake|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-damage|p2a: Ursaluna|4/100 brn|[from] brn
+|upkeep
+|
+|t:|1743873150
+|switch|p1a: Polteageist|Polteageist-Antique|100/100
+|turn|13
+|
+|t:|1743873157
+|move|p1a: Polteageist|Shell Smash|p1a: Polteageist
+|-unboost|p1a: Polteageist|def|1
+|-unboost|p1a: Polteageist|spd|1
+|-boost|p1a: Polteageist|atk|2
+|-boost|p1a: Polteageist|spa|2
+|-boost|p1a: Polteageist|spe|2
+|move|p2a: Ursaluna|Play Rough|p1a: Polteageist
+|-damage|p1a: Polteageist|0 fnt
+|faint|p1a: Polteageist
+|
+|-damage|p2a: Ursaluna|0 fnt|[from] brn
+|faint|p2a: Ursaluna
+|upkeep
+|
+|t:|1743873177
+|switch|p1a: Kommo-o|Kommo-o, M|29/100
+|switch|p2a: Gliscor|Gliscor, M, tera:Ground|44/100 tox
+|turn|14
+|
+|t:|1743873190
+|move|p2a: Gliscor|Earthquake|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|-heal|p2a: Gliscor|57/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743873199
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|turn|15
+|
+|t:|1743873210
+|move|p2a: Gliscor|Earthquake|p1a: Tinkaton
+|-supereffective|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|-heal|p2a: Gliscor|69/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743873217
+|switch|p1a: Garganacl|Garganacl, F|7/100
+|turn|16
+|
+|t:|1743873222
+|move|p2a: Gliscor|Earthquake|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|faint|p1a: Garganacl
+|
+|win|fake29117
+|raw|Buunie099's rating: 1087 &rarr; <strong>1070</strong><br />(-17 for losing)
+|raw|fake29117's rating: 1176 &rarr; <strong>1195</strong><br />(+19 for winning)
+|l|☆fake29117
+|player|p2|
+|l|☆Buunie099
+|player|p1|

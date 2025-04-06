@@ -1,0 +1,242 @@
+|j|☆Skedjinet
+|j|☆Breeeeeeev
+|t:|1743840988
+|gametype|singles
+|player|p1|Skedjinet|skier|1040
+|player|p2|Breeeeeeev|102|1000
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kyurem|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Zamazenta-*|
+|poke|p1|Iron Treads|
+|poke|p1|Samurott-Hisui, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Greninja-*, M|
+|poke|p2|Suicune|
+|poke|p2|Corviknight, M|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|t:|1743841009
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Iron Valiant|Iron Valiant, shiny|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1743841020
+|move|p1a: Iron Treads|Steel Beam|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-damage|p1a: Iron Treads|50/100|[from] steelbeam
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743841026
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|2
+|
+|t:|1743841032
+|move|p2a: Greninja|Water Shuriken|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|29/100
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|10/100
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|-ability|p2a: Greninja|Battle Bond|boost
+|-boost|p2a: Greninja|atk|1
+|-boost|p2a: Greninja|spa|1
+|-boost|p2a: Greninja|spe|1
+|-activate|p2a: Greninja|ability: Battle Bond
+|-hitcount|p1: Iron Treads|3
+|
+|upkeep
+|
+|t:|1743841044
+|switch|p1a: Ninetales|Ninetales-Alola, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|3
+|
+|t:|1743841049
+|move|p2a: Greninja|Acrobatics|p1a: Ninetales
+|-damage|p1a: Ninetales|88/100
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Skedjinet|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743841058
+|switch|p2a: Ceruledge|Ceruledge, M, shiny|100/100
+|move|p1a: Ninetales|Moonblast|p2a: Ceruledge
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|84/100
+|-unboost|p2a: Ceruledge|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743841068
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Ceruledge|Bitter Blade|p1a: Kyurem
+|-damage|p1a: Kyurem|77/100
+|-heal|p2a: Ceruledge|99/100|[from] drain|[of] p1a: Kyurem
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743841079
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Ceruledge|Bitter Blade|p1a: Kyurem
+|-damage|p1a: Kyurem|52/100
+|-heal|p2a: Ceruledge|100/100|[from] drain|[of] p1a: Kyurem
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743841088
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Ceruledge|Bitter Blade|p1a: Kyurem
+|-damage|p1a: Kyurem|28/100
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1743841100
+|move|p1a: Kyurem|Scale Shot|p2a: Ceruledge
+|-damage|p2a: Ceruledge|60/100
+|-damage|p2a: Ceruledge|17/100
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|-hitcount|p2: Ceruledge|3
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|
+|upkeep
+|
+|t:|1743841110
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100
+|turn|9
+|
+|t:|1743841118
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Kyurem|Icicle Spear|p2a: Corviknight
+|-damage|p2a: Corviknight|79/100
+|-damage|p2a: Corviknight|59/100
+|-damage|p2a: Corviknight|38/100
+|-damage|p2a: Corviknight|16/100
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|-hitcount|p2: Corviknight|5
+|
+|upkeep
+|
+|t:|1743841131
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|10
+|
+|t:|1743841138
+|move|p2a: Greninja|Water Shuriken|p1a: Kyurem
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|27/100
+|-resisted|p1a: Kyurem
+|-damage|p1a: Kyurem|25/100
+|-hitcount|p1a: Kyurem|2
+|move|p1a: Kyurem|Scale Shot|p2a: Greninja
+|-damage|p2a: Greninja|56/100
+|-damage|p2a: Greninja|15/100
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|-hitcount|p2: Greninja|3
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|
+|-sideend|p1: Skedjinet|move: Aurora Veil
+|upkeep
+|
+|t:|1743841152
+|switch|p2a: Suicune|Suicune, shiny|100/100
+|-item|p2a: Suicune|Air Balloon
+|turn|11
+|
+|t:|1743841160
+|-terastallize|p2a: Suicune|Water
+|move|p1a: Kyurem|Scale Shot|p2a: Suicune
+|-damage|p2a: Suicune|81/100
+|-enditem|p2a: Suicune|Air Balloon
+|-damage|p2a: Suicune|60/100
+|-damage|p2a: Suicune|41/100
+|-damage|p2a: Suicune|20/100
+|-damage|p2a: Suicune|1/100
+|-hitcount|p2a: Suicune|5
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|move|p2a: Suicune|Shadow Ball|p1a: Kyurem
+|-damage|p1a: Kyurem|5/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743841176
+|move|p1a: Kyurem|Scale Shot|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|-hitcount|p2: Suicune|1
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|
+|upkeep
+|
+|t:|1743841183
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100
+|turn|13
+|
+|t:|1743841189
+|move|p1a: Kyurem|Icicle Spear|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|19/100
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-start|p1a: Kyurem|Disable|Icicle Spear|[from] ability: Cursed Body|[of] p2a: Dragapult
+|faint|p2a: Dragapult
+|-hitcount|p2: Dragapult|2
+|
+|win|Skedjinet
+|raw|Skedjinet's rating: 1040 &rarr; <strong>1070</strong><br />(+30 for winning)
+|raw|Breeeeeeev's rating: 1000 &rarr; <strong>1000</strong><br />(+0 for losing)
+|l|☆Breeeeeeev
+|player|p2|
+|l|☆Skedjinet
+|player|p1|

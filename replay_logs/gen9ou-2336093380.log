@@ -1,0 +1,290 @@
+|j|☆quanvoytv
+|j|☆waterdrinker48
+|t:|1743878120
+|gametype|singles
+|player|p1|quanvoytv|1|1105
+|player|p2|waterdrinker48|pokemaniac|1134
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Sunflora, F|
+|poke|p1|Torkoal, M|
+|poke|p1|Rotom-Wash|
+|poke|p1|Darkrai|
+|poke|p1|Iron Moth|
+|poke|p1|Clodsire, M|
+|poke|p2|Bellibolt, F|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Kyurem|
+|poke|p2|Corviknight, M|
+|poke|p2|Mienshao, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by waterdrinker48)
+|
+|t:|1743878128
+|start
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|1
+|
+|t:|1743878145
+|move|p1a: Rotom|Thunder Wave|p2a: Slowking
+|-status|p2a: Slowking|par
+|move|p2a: Slowking|Toxic|p1a: Rotom
+|-status|p1a: Rotom|tox
+|
+|-damage|p1a: Rotom|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1743878168
+|switch|p1a: Darkrai|Darkrai, shiny|100/100
+|move|p2a: Slowking|Future Sight|p1a: Darkrai
+|-start|p2a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|3
+|
+|t:|1743878176
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743878183
+|switch|p2a: Bellibolt|Bellibolt, F|100/100|[from] Chilly Reception
+|move|p1a: Darkrai|Trick|p2a: Bellibolt
+|-activate|p1a: Darkrai|move: Trick|[of] p2a: Bellibolt
+|-item|p2a: Bellibolt|Lagging Tail|[from] move: Trick
+|-item|p1a: Darkrai|Leftovers|[from] move: Trick
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743878197
+|move|p1a: Darkrai|Dark Pulse|p2a: Bellibolt
+|-damage|p2a: Bellibolt|61/100
+|-start|p2a: Bellibolt|Charge|Dark Pulse|[from] ability: Electromorphosis
+|move|p2a: Bellibolt|Soak|p1a: Darkrai
+|-start|p1a: Darkrai|typechange|Water
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Darkrai|move: Future Sight
+|-damage|p1a: Darkrai|36/100
+|-heal|p1a: Darkrai|42/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743878216
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Bellibolt|Thunderbolt|p1a: Torkoal
+|-damage|p1a: Torkoal|20/100
+|-end|p2a: Bellibolt|Charge|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743878229
+|switch|p1a: Clodsire|Clodsire, M, shiny|100/100
+|move|p2a: Bellibolt|Thunderbolt|p1a: Clodsire
+|-immune|p1a: Clodsire
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743878238
+|switch|p1a: Sunflora|Sunflora, F, shiny|100/100
+|move|p2a: Bellibolt|Soak|p1a: Sunflora
+|-start|p1a: Sunflora|typechange|Water
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Sunflora|88/100|[from] ability: Solar Power|[of] p1a: Sunflora
+|upkeep
+|turn|8
+|
+|t:|1743878252
+|move|p1a: Sunflora|Solar Beam||[still]
+|-prepare|p1a: Sunflora|Solar Beam
+|-anim|p1a: Sunflora|Solar Beam|p2a: Bellibolt
+|-damage|p2a: Bellibolt|0 fnt
+|faint|p2a: Bellibolt
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Sunflora|76/100|[from] ability: Solar Power|[of] p1a: Sunflora
+|upkeep
+|
+|t:|1743878266
+|switch|p2a: Mienshao|Mienshao, F|100/100
+|turn|9
+|
+|t:|1743878270
+|move|p2a: Mienshao|High Jump Kick|p1a: Sunflora|[miss]
+|-miss|p2a: Mienshao|p1a: Sunflora
+|-damage|p2a: Mienshao|51/100|[from] highjumpkick
+|move|p1a: Sunflora|Solar Beam||[still]
+|-prepare|p1a: Sunflora|Solar Beam
+|-anim|p1a: Sunflora|Solar Beam|p2a: Mienshao
+|-damage|p2a: Mienshao|0 fnt
+|faint|p2a: Mienshao
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Sunflora|63/100|[from] ability: Solar Power|[of] p1a: Sunflora
+|upkeep
+|
+|t:|1743878274
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|10
+|
+|t:|1743878286
+|-terastallize|p1a: Sunflora|Fire
+|move|p2a: Kyurem|Freeze-Dry|p1a: Sunflora
+|-resisted|p1a: Sunflora
+|-damage|p1a: Sunflora|33/100
+|move|p1a: Sunflora|Solar Beam||[still]
+|-prepare|p1a: Sunflora|Solar Beam
+|-anim|p1a: Sunflora|Solar Beam|p2a: Kyurem
+|-resisted|p2a: Kyurem
+|-damage|p2a: Kyurem|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Sunflora|21/100|[from] ability: Solar Power|[of] p1a: Sunflora
+|upkeep
+|turn|11
+|
+|t:|1743878294
+|move|p2a: Kyurem|Freeze-Dry|p1a: Sunflora
+|-resisted|p1a: Sunflora
+|-crit|p1a: Sunflora
+|-damage|p1a: Sunflora|0 fnt
+|faint|p1a: Sunflora
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743878300
+|switch|p1a: Rotom|Rotom-Wash|94/100 tox
+|turn|12
+|
+|t:|1743878308
+|move|p2a: Kyurem|Freeze-Dry|p1a: Rotom
+|-supereffective|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|none
+|upkeep
+|
+|t:|1743878315
+|switch|p1a: Iron Moth|Iron Moth, shiny|100/100
+|turn|13
+|
+|t:|1743878318
+|switch|p2a: Slowking|Slowking-Galar, F|100/100 par
+|move|p1a: Iron Moth|Fiery Dance|p2a: Slowking
+|-damage|p2a: Slowking|69/100 par
+|
+|upkeep
+|turn|14
+|
+|t:|1743878326
+|move|p1a: Iron Moth|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|59/100 par
+|
+|t:|1743878330
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Darkrai|Darkrai, shiny|42/100|[from] U-turn
+|move|p2a: Slowking|Future Sight|p1a: Darkrai
+|-start|p2a: Slowking|move: Future Sight
+|
+|-heal|p1a: Darkrai|48/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743878342
+|move|p1a: Darkrai|Ice Beam|p2a: Slowking
+|-damage|p2a: Slowking|36/100 par
+|move|p2a: Slowking|Flamethrower|p1a: Darkrai
+|-damage|p1a: Darkrai|18/100
+|
+|-heal|p1a: Darkrai|24/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743878349
+|switch|p1a: Torkoal|Torkoal, M|20/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Slowking|Flamethrower|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|2/100
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Torkoal|move: Future Sight
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|upkeep
+|
+|t:|1743878357
+|switch|p1a: Iron Moth|Iron Moth, shiny|100/100
+|turn|17
+|
+|t:|1743878363
+|move|p1a: Iron Moth|Fiery Dance|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Slowking
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743878366
+|switch|p2a: Kyurem|Kyurem|55/100
+|-ability|p2a: Kyurem|Pressure
+|turn|18
+|
+|t:|1743878369
+|move|p1a: Iron Moth|Fiery Dance|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: Kyurem
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743878372
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|19
+|
+|t:|1743878375
+|move|p1a: Iron Moth|Energy Ball|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|waterdrinker48 forfeited.
+|
+|win|quanvoytv
+|raw|quanvoytv's rating: 1105 &rarr; <strong>1132</strong><br />(+27 for winning)
+|raw|waterdrinker48's rating: 1134 &rarr; <strong>1107</strong><br />(-27 for losing)
+|l|☆waterdrinker48
+|player|p2|

@@ -1,0 +1,179 @@
+|j|☆earl5000
+|j|☆OceanicGamer3
+|t:|1743792142
+|gametype|singles
+|player|p1|earl5000|palmer|1555
+|player|p2|OceanicGamer3|juggler|1607
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Great Tusk|
+|poke|p1|Iron Valiant|
+|poke|p1|Dragonite, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Glimmora, F|
+|poke|p1|Gholdengo|
+|poke|p2|Araquanid, F|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Valiant|
+|poke|p2|Raging Bolt|
+|poke|p2|Kingambit, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by earl5000)
+|inactive|OceanicGamer3 also wants the timer to be on.
+|
+|t:|1743792171
+|start
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Azure|Araquanid, F|100/100
+|turn|1
+|
+|t:|1743792180
+|move|p1a: Samurott|Ceaseless Edge|p2a: Azure
+|-damage|p2a: Azure|58/100
+|-sidestart|p2: OceanicGamer3|Spikes
+|move|p2a: Azure|Lunge|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|48/100
+|-unboost|p1a: Samurott|atk|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743792185
+|move|p1a: Samurott|Ceaseless Edge|p2a: Azure
+|-damage|p2a: Azure|27/100
+|-sidestart|p2: OceanicGamer3|Spikes
+|move|p2a: Azure|Sticky Web|p1a: Samurott
+|-sidestart|p1: earl5000|move: Sticky Web
+|
+|upkeep
+|turn|3
+|
+|t:|1743792192
+|move|p1a: Samurott|Ceaseless Edge|p2a: Azure
+|-damage|p2a: Azure|0 fnt
+|-sidestart|p2: OceanicGamer3|Spikes
+|faint|p2a: Azure
+|
+|upkeep
+|
+|t:|1743792206
+|switch|p2a: Vermillion|Iron Moth|100/100
+|-damage|p2a: Vermillion|76/100|[from] Spikes
+|-enditem|p2a: Vermillion|Booster Energy
+|-activate|p2a: Vermillion|ability: Quark Drive|[fromitem]
+|-start|p2a: Vermillion|quarkdrivespa
+|turn|4
+|
+|t:|1743792211
+|move|p1a: Samurott|Aqua Jet|p2a: Vermillion
+|-supereffective|p2a: Vermillion
+|-damage|p2a: Vermillion|29/100
+|move|p2a: Vermillion|Energy Ball|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1743792218
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|-activate|p1a: Glimmora|move: Sticky Web
+|-unboost|p1a: Glimmora|spe|1
+|turn|5
+|
+|t:|1743792221
+|-end|p2a: Vermillion|Quark Drive|[silent]
+|switch|p2a: Golden|Gholdengo|100/100
+|-item|p2a: Golden|Air Balloon
+|move|p1a: Glimmora|Mortal Spin|p2a: Golden
+|-immune|p2a: Golden
+|
+|upkeep
+|turn|6
+|
+|t:|1743792230
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-activate|p1a: Gholdengo|move: Sticky Web
+|-unboost|p1a: Gholdengo|spe|1
+|move|p2a: Golden|Nasty Plot|p2a: Golden
+|-boost|p2a: Golden|spa|2
+|
+|upkeep
+|turn|7
+|
+|t:|1743792233
+|move|p2a: Golden|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743792239
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-activate|p1a: Great Tusk|move: Sticky Web
+|-unboost|p1a: Great Tusk|spe|1
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|8
+|
+|t:|1743792243
+|-terastallize|p1a: Great Tusk|Water
+|move|p2a: Golden|Make It Rain|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|17/100
+|-unboost|p2a: Golden|spa|1
+|move|p1a: Great Tusk|Knock Off|p2a: Golden
+|-supereffective|p2a: Golden
+|-damage|p2a: Golden|19/100
+|-enditem|p2a: Golden|Air Balloon
+|
+|upkeep
+|turn|9
+|
+|t:|1743792253
+|move|p2a: Golden|Shadow Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743792257
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-activate|p1a: Iron Valiant|move: Sticky Web
+|-unboost|p1a: Iron Valiant|spe|1
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespa
+|turn|10
+|
+|t:|1743792261
+|move|p2a: Golden|Psyshock|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|-message|earl5000 forfeited.
+|
+|win|OceanicGamer3
+|raw|earl5000's rating: 1555 &rarr; <strong>1538</strong><br />(-17 for losing)
+|raw|OceanicGamer3's rating: 1607 &rarr; <strong>1624</strong><br />(+17 for winning)
+|l|☆earl5000
+|player|p1|

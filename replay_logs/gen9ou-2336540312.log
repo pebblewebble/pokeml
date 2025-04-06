@@ -1,0 +1,277 @@
+|j|☆hariolos
+|j|☆impotent wretch
+|t:|1743935993
+|gametype|singles
+|player|p1|hariolos|hooligans|1505
+|player|p2|impotent wretch|2|1537
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Cetitan, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Iron Moth|
+|poke|p1|Weavile, M|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Cinderace, M|
+|poke|p2|Tinkaton, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Gliscor, M|
+|poke|p2|Kommo-o, F|
+|teampreview
+|
+|t:|1743936008
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|turn|1
+|
+|t:|1743936013
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Dragapult|Draco Meteor|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743936017
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-item|p2a: Tinkaton|Air Balloon
+|move|p1a: Dragapult|Draco Meteor|p2a: Tinkaton
+|-immune|p2a: Tinkaton
+|
+|upkeep
+|turn|3
+|
+|t:|1743936021
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|23/100
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1743936024
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743936032
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox
+|move|p1a: Iron Moth|Fiery Dance|p2a: Gliscor
+|-damage|p2a: Gliscor|61/100 tox
+|-boost|p1a: Iron Moth|spa|1
+|
+|-heal|p2a: Gliscor|74/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|t:|1743936047
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Hatterene|Hatterene, F|23/100
+|move|p2a: Gliscor|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-heal|p2a: Gliscor|86/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743936052
+|switch|p1a: Weavile|Weavile, M|100/100
+|turn|6
+|
+|t:|1743936058
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|move|p1a: Weavile|Triple Axel|p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|97/100
+|-damage|p1a: Weavile|84/100|[from] item: Rocky Helmet|[of] p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|89/100
+|-damage|p1a: Weavile|68/100|[from] item: Rocky Helmet|[of] p2a: Rotom
+|-resisted|p2a: Rotom
+|-damage|p2a: Rotom|77/100
+|-damage|p1a: Weavile|51/100|[from] item: Rocky Helmet|[of] p2a: Rotom
+|-hitcount|p2a: Rotom|3
+|
+|upkeep
+|turn|7
+|
+|t:|1743936072
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Rotom|Volt Switch|p1a: Ninetales
+|-damage|p1a: Ninetales|72/100
+|
+|t:|1743936083
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from] Volt Switch
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743936092
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|move|p2a: Cinderace|Gunk Shot|p1a: Dragapult
+|-start|p2a: Cinderace|typechange|Poison|[from] ability: Libero
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|65/100
+|-status|p1a: Dragapult|psn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Dragapult|52/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743936107
+|switch|p2a: Kommo-o|Kommo-o, F|100/100
+|move|p1a: Dragapult|Shadow Ball|p2a: Kommo-o
+|-damage|p2a: Kommo-o|36/100
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Dragapult|40/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743936114
+|move|p1a: Dragapult|Shadow Ball|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Dragapult|28/100 psn|[from] psn
+|upkeep
+|
+|t:|1743936119
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|11
+|
+|t:|1743936125
+|switch|p1a: Weavile|Weavile, M|51/100
+|move|p2a: Deoxys|Ice Beam|p1a: Weavile
+|-resisted|p1a: Weavile
+|-damage|p1a: Weavile|25/100
+|-damage|p2a: Deoxys|91/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743936137
+|move|p1a: Weavile|Ice Shard|p2a: Deoxys
+|-damage|p2a: Deoxys|58/100
+|move|p2a: Deoxys|Superpower|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|-unboost|p2a: Deoxys|atk|1
+|-unboost|p2a: Deoxys|def|1
+|faint|p1a: Weavile
+|-damage|p2a: Deoxys|48/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743936146
+|switch|p1a: Ninetales|Ninetales-Alola, F|72/100
+|turn|13
+|
+|t:|1743936151
+|move|p2a: Deoxys|Psycho Boost|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-unboost|p2a: Deoxys|spa|2
+|faint|p1a: Ninetales
+|-damage|p2a: Deoxys|38/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743936155
+|switch|p1a: Cetitan|Cetitan, F|100/100
+|turn|14
+|
+|t:|1743936166
+|switch|p2a: Tinkaton|Tinkaton, F|100/100
+|-item|p2a: Tinkaton|Air Balloon
+|move|p1a: Cetitan|Belly Drum|p1a: Cetitan
+|-damage|p1a: Cetitan|50/100
+|-setboost|p1a: Cetitan|atk|6|[from] move: Belly Drum
+|-enditem|p1a: Cetitan|Sitrus Berry|[eat]
+|-heal|p1a: Cetitan|75/100|[from] item: Sitrus Berry
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|t:|1743936180
+|-terastallize|p1a: Cetitan|Ghost
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Cetitan
+|-damage|p1a: Cetitan|29/100
+|move|p1a: Cetitan|Knock Off|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|36/100
+|-enditem|p2a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|16
+|
+|t:|1743936190
+|move|p2a: Tinkaton|Encore|p1a: Cetitan
+|-start|p1a: Cetitan|Encore
+|move|p1a: Cetitan|Knock Off|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|
+|upkeep
+|
+|t:|1743936196
+|switch|p2a: Deoxys|Deoxys-Speed|38/100
+|-ability|p2a: Deoxys|Pressure
+|turn|17
+|
+|t:|1743936198
+|move|p2a: Deoxys|Knock Off|p1a: Cetitan
+|-supereffective|p1a: Cetitan
+|-damage|p1a: Cetitan|0 fnt
+|faint|p1a: Cetitan
+|-damage|p2a: Deoxys|28/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743936200
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|turn|18
+|
+|t:|1743936204
+|move|p2a: Deoxys|Psycho Boost|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|-unboost|p2a: Deoxys|spa|2
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|-damage|p2a: Deoxys|18/100|[from] item: Life Orb
+|
+|upkeep
+|-message|hariolos forfeited.
+|
+|win|impotent wretch
+|raw|hariolos's rating: 1505 &rarr; <strong>1487</strong><br />(-18 for losing)
+|raw|impotent wretch's rating: 1537 &rarr; <strong>1555</strong><br />(+18 for winning)
+|l|☆hariolos
+|player|p1|
+|l|☆impotent wretch
+|player|p2|

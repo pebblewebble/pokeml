@@ -1,0 +1,316 @@
+|j|☆AZZBoi
+|j|☆togethernespresso
+|t:|1743922606
+|gametype|singles
+|player|p1|AZZBoi|2|1115
+|player|p2|togethernespresso|pokemonranger-gen4|1176
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gyarados, F|
+|poke|p1|Dragonite, M|
+|poke|p1|Incineroar, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Zapdos|
+|poke|p2|Garchomp, M|
+|poke|p2|Arcanine-Hisui, M|
+|poke|p2|Ninetales-Alola, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Umbreon, M|
+|poke|p2|Articuno-Galar|
+|teampreview
+|
+|t:|1743922693
+|start
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, M, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743922723
+|switch|p2a: Articuno|Articuno-Galar, shiny|100/100
+|move|p1a: Iron Valiant|Calm Mind|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|spa|1
+|-boost|p1a: Iron Valiant|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743922733
+|move|p1a: Iron Valiant|Thunderbolt|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|27/100
+|move|p2a: Articuno|Future Sight|p1a: Iron Valiant
+|-start|p2a: Articuno|move: Future Sight
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743922751
+|switch|p2a: Garchomp|Garchomp, M, shiny|100/100
+|move|p1a: Iron Valiant|Moonblast|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743922772
+|switch|p2a: Umbreon|Umbreon, M, shiny|100/100
+|turn|4
+|
+|t:|1743922776
+|move|p1a: Iron Valiant|Aura Sphere|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|41/100
+|move|p2a: Umbreon|Toxic|p1a: Iron Valiant
+|-status|p1a: Iron Valiant|tox
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Iron Valiant|move: Future Sight
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|-heal|p2a: Umbreon|47/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743922788
+|switch|p1a: Incineroar|Incineroar, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Umbreon|unboost|Attack|[from] ability: Inner Focus|[of] p2a: Umbreon
+|turn|5
+|
+|t:|1743922794
+|move|p2a: Umbreon|Toxic|p1a: Incineroar
+|-status|p1a: Incineroar|tox
+|move|p1a: Incineroar|Cross Chop|p2a: Umbreon
+|-supereffective|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|faint|p2a: Umbreon
+|
+|-weather|none
+|-damage|p1a: Incineroar|94/100 tox|[from] psn
+|upkeep
+|
+|t:|1743922805
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|6
+|
+|t:|1743922811
+|move|p2a: Arcanine|Head Smash|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|upkeep
+|
+|t:|1743922867
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Arcanine|atk|1
+|turn|7
+|
+|t:|1743922876
+|switch|p2a: Ninetales|Ninetales-Alola, M, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1a: Landorus|Earthquake|p2a: Ninetales
+|-damage|p2a: Ninetales|54/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743922904
+|switch|p1a: Gyarados|Gyarados, F|100/100
+|move|p2a: Ninetales|Blizzard|p1a: Gyarados
+|-damage|p1a: Gyarados|54/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Gyarados|60/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743922922
+|move|p2a: Ninetales|Freeze-Dry|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743922931
+|switch|p1a: Zapdos|Zapdos|100/100
+|turn|10
+|
+|t:|1743922943
+|move|p2a: Ninetales|Blizzard|p1a: Zapdos
+|-supereffective|p1a: Zapdos
+|-damage|p1a: Zapdos|23/100
+|move|p1a: Zapdos|Heat Wave|p2a: Ninetales
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743922960
+|switch|p2a: Arcanine|Arcanine-Hisui, M|100/100
+|turn|11
+|
+|t:|1743922975
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Arcanine|atk|1
+|move|p2a: Arcanine|Extreme Speed|p1a: Landorus
+|-damage|p1a: Landorus|83/100
+|-damage|p2a: Arcanine|84/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1743922985
+|switch|p2a: Articuno|Articuno-Galar, shiny|27/100
+|move|p1a: Landorus|Earthquake|p2a: Articuno
+|-immune|p2a: Articuno
+|
+|upkeep
+|turn|13
+|
+|t:|1743922995
+|move|p1a: Landorus|Stone Edge|p2a: Articuno
+|-supereffective|p2a: Articuno
+|-damage|p2a: Articuno|0 fnt
+|faint|p2a: Articuno
+|
+|upkeep
+|
+|t:|1743923052
+|switch|p2a: Corviknight|Corviknight, M, shiny|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|14
+|
+|t:|1743923058
+|move|p1a: Landorus|U-turn|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|97/100
+|-damage|p1a: Landorus|67/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|
+|t:|1743923066
+|switch|p1a: Zapdos|Zapdos|23/100|[from] U-turn
+|move|p2a: Corviknight|Body Press|p1a: Zapdos
+|-resisted|p1a: Zapdos
+|-damage|p1a: Zapdos|14/100
+|-status|p2a: Corviknight|par|[from] ability: Static|[of] p1a: Zapdos
+|
+|upkeep
+|turn|15
+|
+|t:|1743923137
+|switch|p2a: Arcanine|Arcanine-Hisui, M|84/100
+|move|p1a: Zapdos|Roost|p1a: Zapdos
+|-heal|p1a: Zapdos|64/100
+|-singleturn|p1a: Zapdos|move: Roost
+|
+|upkeep
+|turn|16
+|
+|t:|1743923149
+|switch|p1a: Landorus|Landorus-Therian, M|67/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Arcanine|atk|1
+|move|p2a: Arcanine|Head Smash|p1a: Landorus
+|-damage|p1a: Landorus|15/100
+|-damage|p2a: Arcanine|67/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|
+|upkeep
+|turn|17
+|
+|t:|1743923161
+|move|p2a: Arcanine|Head Smash|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|-damage|p2a: Arcanine|51/100|[from] item: Rocky Helmet|[of] p1a: Landorus
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743923169
+|switch|p1a: Dragonite|Dragonite, M|100/100
+|turn|18
+|
+|t:|1743923180
+|-terastallize|p1a: Dragonite|Normal
+|move|p2a: Arcanine|Head Smash|p1a: Dragonite
+|-damage|p1a: Dragonite|68/100
+|move|p1a: Dragonite|Earthquake|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|upkeep
+|
+|t:|1743923196
+|switch|p2a: Corviknight|Corviknight, M, shiny|97/100 par
+|-ability|p2a: Corviknight|Pressure
+|turn|19
+|
+|t:|1743923202
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Corviknight|Body Press|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|23/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743923224
+|move|p1a: Dragonite|Fire Punch|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|46/100 par
+|-damage|p1a: Dragonite|6/100|[from] item: Rocky Helmet|[of] p2a: Corviknight
+|move|p2a: Corviknight|Body Press|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1743923232
+|switch|p1a: Zapdos|Zapdos|64/100
+|turn|21
+|
+|t:|1743923245
+|move|p1a: Zapdos|Heat Wave|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|win|AZZBoi
+|raw|AZZBoi's rating: 1115 &rarr; <strong>1144</strong><br />(+29 for winning)
+|raw|togethernespresso's rating: 1176 &rarr; <strong>1147</strong><br />(-29 for losing)
+|l|☆togethernespresso
+|player|p2|
+|l|☆AZZBoi
+|player|p1|

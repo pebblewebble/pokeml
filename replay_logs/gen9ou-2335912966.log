@@ -1,0 +1,519 @@
+|j|☆XJohnson
+|j|☆Exe_Q8
+|t:|1743858027
+|gametype|singles
+|player|p1|XJohnson|bea-masters|1226
+|player|p2|Exe_Q8|skier|1234
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Quaquaval, M|
+|poke|p1|Moltres|
+|poke|p1|Ninetales-Alola, F|
+|poke|p1|Kyurem|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Walking Wake|
+|poke|p2|Gliscor, M|
+|poke|p2|Dondozo, M|
+|poke|p2|Electivire, M|
+|poke|p2|Metagross|
+|poke|p2|Iron Moth|
+|poke|p2|Greninja-*, M|
+|teampreview
+|
+|t:|1743858035
+|start
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|switch|p2a: Metagross|Metagross, shiny|100/100
+|turn|1
+|
+|t:|1743858043
+|move|p1a: Walking Wake|Flip Turn|p2a: Metagross
+|-damage|p2a: Metagross|89/100
+|
+|t:|1743858044
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Moltres|Moltres|100/100|[from] Flip Turn
+|-ability|p1a: Moltres|Pressure
+|move|p2a: Metagross|Thunder Punch|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|58/100
+|
+|-heal|p2a: Metagross|95/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743858067
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|100/100
+|-singleturn|p1a: Moltres|move: Roost
+|move|p2a: Metagross|Thunder Punch|p1a: Moltres
+|-damage|p1a: Moltres|79/100
+|
+|-heal|p2a: Metagross|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743858089
+|move|p1a: Moltres|Burning Jealousy|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|34/100
+|move|p2a: Metagross|Thunder Punch|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|32/100
+|
+|-heal|p2a: Metagross|40/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743858106
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|82/100
+|-singleturn|p1a: Moltres|move: Roost
+|move|p2a: Metagross|Thunder Punch|p1a: Moltres
+|-damage|p1a: Moltres|59/100
+|
+|-heal|p2a: Metagross|46/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743858118
+|switch|p2a: Electivire|Electivire, M, shiny|100/100
+|move|p1a: Moltres|Burning Jealousy|p2a: Electivire
+|-damage|p2a: Electivire|59/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743858125
+|switch|p1a: Ninetales|Ninetales-Alola, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2a: Electivire|Supercell Slam|p1a: Ninetales
+|-damage|p1a: Ninetales|48/100
+|-damage|p2a: Electivire|49/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743858136
+|move|p1a: Ninetales|Moonblast|p2a: Electivire
+|-crit|p2a: Electivire
+|-damage|p2a: Electivire|0 fnt
+|faint|p2a: Electivire
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743858145
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|8
+|
+|t:|1743858151
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Greninja|Sludge Wave|p1a: Slowking
+|-start|p2a: Greninja|typechange|Poison|[from] ability: Protean
+|-resisted|p1a: Slowking
+|-damage|p1a: Slowking|82/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743858162
+|switch|p2a: Gliscor|Gliscor, M, shiny|100/100
+|move|p1a: Slowking|Future Sight|p2a: Gliscor
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|Snowscape|[upkeep]
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|10
+|
+|t:|1743858172
+|move|p2a: Gliscor|Knock Off|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|34/100
+|-enditem|p1a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Gliscor
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|
+|t:|1743858178
+|switch|p1a: Blizzaga|Kyurem|100/100|[from] Chilly Reception
+|-ability|p1a: Blizzaga|Pressure
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1743858190
+|switch|p1a: Moltres|Moltres|59/100
+|-ability|p1a: Moltres|Pressure
+|-terastallize|p2a: Gliscor|Steel
+|move|p2a: Gliscor|Earthquake|p1a: Moltres
+|-immune|p1a: Moltres
+|
+|-end|p2a: Gliscor|move: Future Sight
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|68/100 tox
+|-heal|p2a: Gliscor|80/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|t:|1743858203
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Moltres|Burning Jealousy|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|92/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|t:|1743858219
+|move|p2a: Gliscor|Knock Off|p1a: Moltres
+|-damage|p1a: Moltres|37/100
+|-enditem|p1a: Moltres|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|87/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|t:|1743858232
+|switch|p2a: Dondozo|Dondozo, M, shiny|100/100
+|move|p1a: Moltres|Burning Jealousy|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|89/100
+|
+|-heal|p2a: Dondozo|95/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743858244
+|switch|p1a: Slowking|Slowking-Galar, M|68/100
+|move|p2a: Dondozo|Liquidation|p1a: Slowking
+|-damage|p1a: Slowking|40/100
+|-unboost|p1a: Slowking|def|1
+|
+|-heal|p2a: Dondozo|100/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743858253
+|move|p2a: Dondozo|Liquidation|p1a: Slowking
+|-damage|p1a: Slowking|12/100
+|move|p1a: Slowking|Acid Spray|p2a: Dondozo
+|-damage|p2a: Dondozo|90/100
+|-unboost|p2a: Dondozo|spd|2
+|
+|-heal|p2a: Dondozo|96/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743858277
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|move|p2a: Dondozo|Liquidation|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|92/100
+|
+|-heal|p2a: Dondozo|100/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743858290
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Dondozo
+|-damage|p2a: Dondozo|37/100
+|move|p2a: Dondozo|Liquidation|p1a: Walking Wake
+|-resisted|p1a: Walking Wake
+|-damage|p1a: Walking Wake|83/100
+|
+|-heal|p2a: Dondozo|44/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743858299
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|upkeep
+|
+|t:|1743858309
+|switch|p2a: Greninja|Greninja, M|100/100
+|turn|20
+|
+|t:|1743858314
+|move|p1a: Walking Wake|Dragon Pulse|p2a: Greninja
+|-damage|p2a: Greninja|23/100
+|move|p2a: Greninja|Grass Knot|p1a: Walking Wake
+|-start|p2a: Greninja|typechange|Grass|[from] ability: Protean
+|-damage|p1a: Walking Wake|0 fnt
+|faint|p1a: Walking Wake
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743858320
+|switch|p1a: Slowking|Slowking-Galar, M|46/100
+|turn|21
+|
+|t:|1743858328
+|switch|p2a: Gliscor|Gliscor, M, shiny, tera:Steel|100/100 tox
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743858331
+|switch|p1a: Blizzaga|Kyurem|100/100|[from] Chilly Reception
+|-ability|p1a: Blizzaga|Pressure
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|22
+|
+|t:|1743858341
+|move|p2a: Gliscor|Knock Off|p1a: Blizzaga
+|-damage|p1a: Blizzaga|82/100
+|-enditem|p1a: Blizzaga|Choice Specs|[from] move: Knock Off|[of] p2a: Gliscor
+|move|p1a: Blizzaga|Blizzard|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|59/100 tox
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|72/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|23
+|
+|t:|1743858351
+|switch|p1a: Moltres|Moltres|87/100
+|-ability|p1a: Moltres|Pressure
+|move|p2a: Gliscor|Earthquake|p1a: Moltres
+|-immune|p1a: Moltres
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|84/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|24
+|
+|t:|1743858362
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Moltres|Burning Jealousy|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gliscor|96/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|25
+|
+|t:|1743858370
+|move|p2a: Gliscor|Acrobatics|p1a: Moltres
+|-damage|p1a: Moltres|70/100
+|move|p1a: Moltres|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|90/100 tox
+|
+|t:|1743858374
+|switch|p1a: Quaquaval|Quaquaval, M|100/100|[from] U-turn
+|
+|-weather|none
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|26
+|
+|t:|1743858383
+|move|p2a: Gliscor|Acrobatics|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-damage|p1a: Quaquaval|43/100
+|move|p1a: Quaquaval|Aqua Step|p2a: Gliscor
+|-crit|p2a: Gliscor
+|-damage|p2a: Gliscor|46/100 tox
+|-boost|p1a: Quaquaval|spe|1
+|
+|-heal|p2a: Gliscor|58/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|27
+|
+|t:|1743858401
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Quaquaval|Close Combat|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|70/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|28
+|
+|t:|1743858431
+|switch|p1a: Moltres|Moltres|70/100
+|-ability|p1a: Moltres|Pressure
+|move|p2a: Gliscor|Acrobatics|p1a: Moltres
+|-damage|p1a: Moltres|54/100
+|
+|-heal|p2a: Gliscor|83/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|29
+|
+|t:|1743858442
+|move|p2a: Gliscor|Acrobatics|p1a: Moltres
+|-damage|p1a: Moltres|35/100
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|85/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-heal|p2a: Gliscor|95/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|30
+|
+|t:|1743858451
+|move|p2a: Gliscor|Acrobatics|p1a: Moltres
+|-damage|p1a: Moltres|66/100
+|move|p1a: Moltres|Burning Jealousy|p2a: Gliscor
+|-supereffective|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|faint|p2a: Gliscor
+|
+|upkeep
+|
+|t:|1743858460
+|switch|p2a: Greninja|Greninja, M|23/100
+|turn|31
+|
+|t:|1743858468
+|move|p2a: Greninja|Sludge Wave|p1a: Moltres
+|-start|p2a: Greninja|typechange|Poison|[from] ability: Protean
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|
+|t:|1743858471
+|switch|p1a: Slowking|Slowking-Galar, M|79/100
+|turn|32
+|
+|t:|1743858481
+|switch|p2a: Iron Moth|Iron Moth, shiny|100/100
+|move|p1a: Slowking|Future Sight|p2a: Iron Moth
+|-start|p1a: Slowking|move: Future Sight
+|
+|upkeep
+|turn|33
+|
+|t:|1743858488
+|move|p2a: Iron Moth|Fiery Dance|p1a: Slowking
+|-damage|p1a: Slowking|52/100
+|-boost|p2a: Iron Moth|spa|1
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743858494
+|switch|p1a: Ninetales|Ninetales-Alola, F|48/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|34
+|
+|t:|1743858509
+|move|p2a: Iron Moth|Fiery Dance|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Iron Moth|move: Future Sight
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|upkeep
+|
+|t:|1743858522
+|switch|p2a: Metagross|Metagross, shiny|46/100
+|switch|p1a: Quaquaval|Quaquaval, M|43/100
+|turn|35
+|
+|t:|1743858527
+|-terastallize|p1a: Quaquaval|Water
+|move|p1a: Quaquaval|Aqua Step|p2a: Metagross
+|-damage|p2a: Metagross|7/100
+|-boost|p1a: Quaquaval|spe|1
+|move|p2a: Metagross|Thunder Punch|p1a: Quaquaval
+|-supereffective|p1a: Quaquaval
+|-damage|p1a: Quaquaval|0 fnt
+|faint|p1a: Quaquaval
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Metagross|13/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743858529
+|switch|p1a: Blizzaga|Kyurem|82/100
+|-ability|p1a: Blizzaga|Pressure
+|turn|36
+|
+|t:|1743858543
+|move|p2a: Metagross|Bullet Punch|p1a: Blizzaga
+|-supereffective|p1a: Blizzaga
+|-damage|p1a: Blizzaga|50/100
+|move|p1a: Blizzaga|Blizzard|p2a: Metagross
+|-resisted|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743858552
+|switch|p2a: Greninja|Greninja, M|23/100
+|turn|37
+|l|☆Exe_Q8
+|player|p2|
+|j|☆Exe_Q8
+|player|p2|Exe_Q8|skier|
+|
+|t:|1743858596
+|move|p2a: Greninja|Dark Pulse|p1a: Blizzaga
+|-start|p2a: Greninja|typechange|Dark|[from] ability: Protean
+|-damage|p1a: Blizzaga|0 fnt
+|faint|p1a: Blizzaga
+|
+|-weather|none
+|upkeep
+|
+|t:|1743858600
+|switch|p1a: Slowking|Slowking-Galar, M|86/100
+|turn|38
+|
+|t:|1743858606
+|move|p2a: Greninja|Dark Pulse|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|13/100
+|move|p1a: Slowking|Flamethrower|p2a: Greninja
+|-damage|p2a: Greninja|0 fnt
+|faint|p2a: Greninja
+|
+|win|XJohnson
+|raw|XJohnson's rating: 1226 &rarr; <strong>1252</strong><br />(+26 for winning)
+|raw|Exe_Q8's rating: 1234 &rarr; <strong>1208</strong><br />(-26 for losing)
+|l|☆XJohnson
+|player|p1|
+|l|☆Exe_Q8
+|player|p2|
+|j|☆Exe_Q8
+|player|p2|Exe_Q8|skier|
+|l|☆Exe_Q8
+|player|p2|

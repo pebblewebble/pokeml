@@ -1,0 +1,405 @@
+|j|☆Bum_Muncha
+|j|☆Rocktar Made
+|t:|1743885794
+|gametype|singles
+|player|p1|Bum_Muncha|102|1685
+|player|p2|Rocktar Made|lass-gen4dp|1768
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Gliscor, M|
+|poke|p1|Great Tusk|
+|poke|p1|Tinkaton, F|
+|poke|p1|Dragapult, F|
+|poke|p1|Garganacl, F|
+|poke|p2|Weezing-Galar, M|
+|poke|p2|Alomomola, M|
+|poke|p2|Thundurus-Therian, M|
+|poke|p2|Iron Treads|
+|poke|p2|Lokix, M|
+|poke|p2|Zamazenta-*|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Rocktar Made)
+|
+|t:|1743885803
+|start
+|switch|p1a: Dragapult|Dragapult, F|100/100
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|1
+|
+|t:|1743885807
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Alomomola
+|-status|p2a: Alomomola|brn
+|
+|-damage|p2a: Alomomola|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1743885811
+|move|p1a: Dragapult|Hex|p2a: Alomomola
+|-damage|p2a: Alomomola|63/100 brn
+|move|p2a: Alomomola|Mirror Coat|p1a: Dragapult
+|-damage|p1a: Dragapult|6/100
+|
+|-damage|p2a: Alomomola|57/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743885814
+|move|p1a: Dragapult|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|45/100 brn
+|
+|t:|1743885818
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100|[from] U-turn
+|move|p2a: Alomomola|Flip Turn|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|96/100
+|
+|t:|1743885824
+|switch|p2a: Thundurus|Thundurus-Therian, M|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|4
+|j| eiscuepro
+|
+|t:|1743885832
+|-terastallize|p2a: Thundurus|Flying
+|move|p2a: Thundurus|Tera Blast|p1a: Samurott|[anim] Tera Blast Flying
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|l| eiscuepro
+|
+|t:|1743885837
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|turn|5
+|
+|t:|1743885841
+|switch|p2a: Weezing|Weezing-Galar, M|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Garganacl|Salt Cure|p2a: Weezing
+|-damage|p2a: Weezing|91/100
+|-start|p2a: Weezing|Salt Cure
+|
+|-heal|p2a: Weezing|97/100|[from] item: Leftovers
+|-damage|p2a: Weezing|85/100|[from] Salt Cure
+|upkeep
+|turn|6
+|
+|t:|1743885848
+|switch|p1a: Tinkaton|Tinkaton, F|100/100
+|-item|p1a: Tinkaton|Air Balloon
+|move|p2a: Weezing|Will-O-Wisp|p1a: Tinkaton
+|-status|p1a: Tinkaton|brn
+|
+|-heal|p2a: Weezing|91/100|[from] item: Leftovers
+|-damage|p1a: Tinkaton|94/100 brn|[from] brn
+|-damage|p2a: Weezing|79/100|[from] Salt Cure
+|upkeep
+|turn|7
+|
+|t:|1743885853
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|move|p1a: Tinkaton|Stealth Rock|p2a: Iron Treads
+|-sidestart|p2: Rocktar Made|move: Stealth Rock
+|
+|-damage|p1a: Tinkaton|88/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743885856
+|move|p1a: Tinkaton|Knock Off|p2a: Iron Treads
+|-damage|p2a: Iron Treads|94/100
+|-enditem|p2a: Iron Treads|Leftovers|[from] move: Knock Off|[of] p1a: Tinkaton
+|move|p2a: Iron Treads|Rapid Spin|p1a: Tinkaton
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|81/100 brn
+|-boost|p2a: Iron Treads|spe|1
+|-enditem|p1a: Tinkaton|Air Balloon
+|-sideend|p2: Rocktar Made|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|
+|-damage|p1a: Tinkaton|74/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743885861
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Gliscor
+|-sidestart|p1: Bum_Muncha|move: Stealth Rock
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|10
+|
+|t:|1743885869
+|move|p2a: Iron Treads|Knock Off|p1a: Gliscor
+|-damage|p1a: Gliscor|82/100 tox
+|-enditem|p1a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p2a: Iron Treads
+|move|p1a: Gliscor|Earthquake|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|41/100
+|
+|-heal|p1a: Gliscor|94/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|
+|t:|1743885873
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|switch|p2a: Weezing|Weezing-Galar, M|79/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|move|p1a: Gliscor|Earthquake|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|36/100
+|
+|-heal|p2a: Weezing|42/100|[from] item: Leftovers
+|-damage|p1a: Gliscor|82/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743885877
+|move|p1a: Gliscor|Earthquake|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|
+|-heal|p1a: Gliscor|94/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743885878
+|switch|p2a: Thundurus|Thundurus-Therian, M, tera:Flying|100/100
+|turn|13
+|
+|t:|1743885881
+|move|p2a: Thundurus|Tera Blast|p1a: Gliscor|[anim] Tera Blast Flying
+|-damage|p1a: Gliscor|23/100 tox
+|move|p1a: Gliscor|Toxic|p2a: Thundurus
+|-status|p2a: Thundurus|tox
+|
+|-damage|p2a: Thundurus|94/100 tox|[from] psn
+|-heal|p1a: Gliscor|36/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|14
+|
+|t:|1743885885
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Thundurus|Tera Blast|p1a: Gliscor|[anim] Tera Blast Flying
+|-activate|p1a: Gliscor|move: Protect
+|
+|-damage|p2a: Thundurus|82/100 tox|[from] psn
+|-heal|p1a: Gliscor|48/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|15
+|
+|t:|1743885888
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|switch|p1a: Garganacl|Garganacl, F|100/100
+|-damage|p1a: Garganacl|88/100|[from] Stealth Rock
+|
+|-heal|p1a: Garganacl|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743885894
+|move|p2a: Zamazenta|Close Combat|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Garganacl
+|-damage|p2a: Zamazenta|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743885897
+|switch|p1a: Dragapult|Dragapult, F|6/100
+|turn|17
+|
+|t:|1743885901
+|switch|p2a: Alomomola|Alomomola, M|78/100 brn
+|move|p1a: Dragapult|Draco Meteor|p2a: Alomomola
+|-damage|p2a: Alomomola|46/100 brn
+|-unboost|p1a: Dragapult|spa|2
+|
+|-damage|p2a: Alomomola|40/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743885904
+|move|p1a: Dragapult|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|28/100 brn
+|
+|t:|1743885908
+|switch|p1a: Gliscor|Gliscor, M|48/100 tox|[from] U-turn
+|-damage|p1a: Gliscor|36/100 tox|[from] Stealth Rock
+|move|p2a: Alomomola|Flip Turn|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|23/100 tox
+|
+|t:|1743885911
+|switch|p2a: Thundurus|Thundurus-Therian, M, tera:Flying|82/100 tox|[from] Flip Turn
+|
+|-damage|p2a: Thundurus|76/100 tox|[from] psn
+|-heal|p1a: Gliscor|35/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|
+|t:|1743885913
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Thundurus|Tera Blast|p1a: Gliscor|[anim] Tera Blast Flying
+|-activate|p1a: Gliscor|move: Protect
+|
+|-damage|p2a: Thundurus|64/100 tox|[from] psn
+|-heal|p1a: Gliscor|48/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|20
+|
+|t:|1743885915
+|switch|p1a: Tinkaton|Tinkaton, F|74/100 brn
+|-damage|p1a: Tinkaton|68/100 brn|[from] Stealth Rock
+|move|p2a: Thundurus|Tera Blast|p1a: Tinkaton|[anim] Tera Blast Flying
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|31/100 brn
+|
+|-damage|p2a: Thundurus|46/100 tox|[from] psn
+|-damage|p1a: Tinkaton|25/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1743885918
+|move|p2a: Thundurus|Tera Blast|p1a: Tinkaton|[anim] Tera Blast Flying
+|-resisted|p1a: Tinkaton
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|-damage|p2a: Thundurus|22/100 tox|[from] psn
+|upkeep
+|
+|t:|1743885920
+|switch|p1a: Dragapult|Dragapult, F|6/100
+|turn|22
+|
+|t:|1743885923
+|switch|p2a: Lokix|Lokix, M|100/100
+|move|p1a: Dragapult|Hex|p2a: Lokix
+|-resisted|p2a: Lokix
+|-damage|p2a: Lokix|74/100
+|
+|upkeep
+|turn|23
+|
+|t:|1743885927
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|97/100|[from] Stealth Rock
+|move|p2a: Lokix|U-turn|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|67/100
+|-damage|p2a: Lokix|57/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|t:|1743885929
+|switch|p2a: Thundurus|Thundurus-Therian, M, tera:Flying|22/100 tox|[from] U-turn
+|
+|-damage|p2a: Thundurus|16/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1743885932
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Gliscor|Gliscor, M|48/100 tox
+|-damage|p1a: Gliscor|35/100 tox|[from] Stealth Rock
+|move|p2a: Thundurus|Tera Blast|p1a: Gliscor|[anim] Tera Blast Flying
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-damage|p2a: Thundurus|4/100 tox|[from] psn
+|upkeep
+|
+|t:|1743885934
+|switch|p1a: Dragapult|Dragapult, F|6/100
+|turn|25
+|
+|t:|1743885939
+|switch|p2a: Iron Treads|Iron Treads|41/100
+|move|p1a: Dragapult|U-turn|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|34/100
+|
+|t:|1743885940
+|switch|p1a: Great Tusk|Great Tusk|67/100|[from] U-turn
+|-damage|p1a: Great Tusk|64/100|[from] Stealth Rock
+|
+|upkeep
+|turn|26
+|
+|t:|1743885945
+|move|p1a: Great Tusk|Rapid Spin|p2a: Iron Treads
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|28/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: Bum_Muncha|Stealth Rock|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Iron Treads|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|56/100
+|-damage|p2a: Iron Treads|11/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|-enditem|p1a: Great Tusk|Rocky Helmet|[from] move: Knock Off|[of] p2a: Iron Treads
+|
+|upkeep
+|turn|27
+|
+|t:|1743885948
+|move|p1a: Great Tusk|Ice Spinner|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743885954
+|switch|p2a: Zamazenta|Zamazenta|91/100
+|turn|28
+|
+|t:|1743885961
+|move|p1a: Great Tusk|Headlong Rush|p2a: Zamazenta
+|-damage|p2a: Zamazenta|43/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|move|p2a: Zamazenta|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: Zamazenta|33/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743885962
+|switch|p1a: Dragapult|Dragapult, F|6/100
+|turn|29
+|-message|Bum_Muncha forfeited.
+|
+|win|Rocktar Made
+|raw|Bum_Muncha's rating: 1685 &rarr; <strong>1670</strong><br />(-15 for losing)
+|raw|Rocktar Made's rating: 1768 &rarr; <strong>1783</strong><br />(+15 for winning)
+|l|☆Bum_Muncha
+|player|p1|
+|l|☆Rocktar Made
+|player|p2|

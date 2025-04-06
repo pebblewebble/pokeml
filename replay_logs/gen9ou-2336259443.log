@@ -1,0 +1,240 @@
+|j|☆Scr2ez
+|j|☆WHP_CRM
+|t:|1743895521
+|gametype|singles
+|player|p1|Scr2ez|101|
+|player|p2|WHP_CRM|1|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Treads|
+|poke|p1|Iron Valiant|
+|poke|p1|Zoroark-Hisui, M|
+|poke|p1|Volcanion|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Talonflame, M|
+|poke|p2|Bronzong|
+|poke|p2|Hatterene, F|
+|poke|p2|Magnezone|
+|poke|p2|Ursaluna, M|
+|poke|p2|Hawlucha, F|
+|poke|p2|Ninetales-Alola, M|
+|teampreview
+|c|☆Scr2ez|Treads-Steel
+|j| JustBlissful
+|c|☆WHP_CRM|Bronzong - Fighting, Hatterene - Psychic, Magnezone - Fighting, Ursalune - Ghost, Hawlucha - Fire, Ninetails - Dark
+|c|☆Scr2ez|Val-Fairy, Zoroark-Fighting, Volcanion-Fairy, Sam-Fighting, Talonflame-Ground
+|
+|t:|1743895661
+|start
+|switch|p1a: Talonflame|Talonflame, M|100/100
+|switch|p2a: Bronzong|Bronzong|100/100
+|turn|1
+|
+|t:|1743895688
+|move|p1a: Talonflame|Flamethrower|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-damage|p2a: Bronzong|61/100
+|move|p2a: Bronzong|Trick Room|p2a: Bronzong
+|-fieldstart|move: Trick Room|[of] p2a: Bronzong
+|
+|upkeep
+|turn|2
+|
+|t:|1743895709
+|move|p2a: Bronzong|Gyro Ball|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|68/100
+|-status|p2a: Bronzong|brn|[from] ability: Flame Body|[of] p1a: Talonflame
+|move|p1a: Talonflame|Flamethrower|p2a: Bronzong
+|-supereffective|p2a: Bronzong
+|-crit|p2a: Bronzong
+|-damage|p2a: Bronzong|0 fnt
+|faint|p2a: Bronzong
+|
+|upkeep
+|
+|t:|1743895728
+|switch|p2a: Magnezone|Magnezone|100/100
+|turn|3
+|
+|t:|1743895737
+|move|p2a: Magnezone|Volt Switch|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|t:|1743895773
+|switch|p2a: Ursaluna|Ursaluna, M|100/100|[from] Volt Switch
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1743895794
+|switch|p1a: Volcanion|Volcanion|100/100
+|turn|4
+|
+|t:|1743895815
+|move|p2a: Ursaluna|Headlong Rush|p1a: Volcanion
+|-supereffective|p1a: Volcanion
+|-damage|p1a: Volcanion|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Volcanion
+|
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1743895831
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|turn|5
+|
+|t:|1743895863
+|move|p2a: Ursaluna|Headlong Rush|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-damage|p2a: Ursaluna|88/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743895876
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|6
+|
+|t:|1743895936
+|switch|p2a: Hawlucha|Hawlucha, F|100/100
+|move|p1a: Samurott|Aqua Cutter|p2a: Hawlucha
+|-damage|p2a: Hawlucha|27/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743895951
+|move|p1a: Samurott|Aqua Cutter|p2a: Hawlucha
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|
+|upkeep
+|
+|t:|1743895966
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|turn|8
+|
+|t:|1743895980
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|turn|9
+|
+|t:|1743896025
+|move|p2a: Hatterene|Draining Kiss|p1a: Samurott
+|-crit|p1a: Samurott
+|-damage|p1a: Samurott|16/100
+|replace|p1a: Zoroark|Zoroark-Hisui, M
+|-end|p1a: Zoroark|Illusion
+|move|p1a: Zoroark|Hyper Voice|p2a: Hatterene
+|-damage|p2a: Hatterene|24/100
+|
+|-heal|p2a: Hatterene|30/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743896035
+|move|p2a: Hatterene|Draining Kiss|p1a: Zoroark
+|-crit|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|-heal|p2a: Hatterene|39/100|[from] drain|[of] p1a: Zoroark
+|faint|p1a: Zoroark
+|
+|-heal|p2a: Hatterene|45/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743896040
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|11
+|
+|t:|1743896063
+|move|p2a: Hatterene|Draining Kiss|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|8/100
+|-heal|p2a: Hatterene|100/100|[from] drain|[of] p1a: Samurott
+|move|p1a: Samurott|Aqua Cutter|p2a: Hatterene
+|-damage|p2a: Hatterene|43/100
+|
+|-heal|p2a: Hatterene|49/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743896072
+|move|p2a: Hatterene|Draining Kiss|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|-heal|p2a: Hatterene|55/100|[from] drain|[of] p1a: Samurott
+|faint|p1a: Samurott
+|
+|-heal|p2a: Hatterene|61/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743896074
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|13
+|
+|t:|1743896095
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|6/100
+|-unboost|p2a: Hatterene|spd|1
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-heal|p2a: Hatterene|12/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743896105
+|-terastallize|p1a: Iron Valiant|Fairy
+|move|p2a: Hatterene|Draining Kiss|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|46/100
+|-heal|p2a: Hatterene|49/100|[from] drain|[of] p1a: Iron Valiant
+|move|p1a: Iron Valiant|Shadow Ball|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|c|☆Scr2ez|Gg
+|
+|t:|1743896117
+|switch|p2a: Magnezone|Magnezone|100/100
+|turn|15
+|
+|t:|1743896124
+|move|p2a: Magnezone|Flash Cannon|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|win|WHP_CRM
+|l|☆Scr2ez
+|player|p1|

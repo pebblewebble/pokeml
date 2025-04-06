@@ -1,0 +1,286 @@
+|j|☆prof_dlight
+|j|☆Minoluck
+|t:|1743915832
+|gametype|singles
+|player|p1|prof_dlight|maid|1234
+|player|p2|Minoluck|gentleman-gen4|1201
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Deoxys-Speed|
+|poke|p1|Gholdengo|
+|poke|p1|Gliscor, M|
+|poke|p1|Moltres|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Raging Bolt|
+|poke|p2|Jirachi|
+|poke|p2|Lokix, M|
+|poke|p2|Mimikyu, F|
+|poke|p2|Gyarados, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Ting-Lu|
+|teampreview
+|
+|t:|1743915844
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Deoxys|Pressure
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1743915850
+|move|p1a: Deoxys|Taunt|p2a: Ting-Lu
+|-start|p2a: Ting-Lu|move: Taunt
+|cant|p2a: Ting-Lu|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743915855
+|move|p1a: Deoxys|Stealth Rock|p2a: Ting-Lu
+|-sidestart|p2: Minoluck|move: Stealth Rock
+|move|p2a: Ting-Lu|Earthquake|p1a: Deoxys
+|-crit|p1a: Deoxys
+|-damage|p1a: Deoxys|14/100
+|-enditem|p1a: Deoxys|Red Card|[of] p2a: Ting-Lu
+|drag|p2a: Jirachi|Jirachi|100/100
+|-damage|p2a: Jirachi|94/100|[from] Stealth Rock
+|
+|upkeep
+|turn|3
+|
+|t:|1743915864
+|move|p1a: Deoxys|Knock Off|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|54/100
+|-enditem|p2a: Jirachi|Iron Plate|[from] move: Knock Off|[of] p1a: Deoxys
+|move|p2a: Jirachi|Doom Desire|p1a: Deoxys
+|-start|p2a: Jirachi|Doom Desire
+|
+|upkeep
+|turn|4
+|
+|t:|1743915872
+|move|p1a: Deoxys|Knock Off|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|26/100
+|move|p2a: Jirachi|Flash Cannon|p1a: Deoxys
+|-damage|p1a: Deoxys|0 fnt
+|faint|p1a: Deoxys
+|
+|upkeep
+|
+|t:|1743915883
+|switch|p1a: Moltres|Moltres|100/100
+|turn|5
+|
+|t:|1743915886
+|move|p2a: Jirachi|Thunder|p1a: Moltres|[miss]
+|-miss|p2a: Jirachi|p1a: Moltres
+|move|p1a: Moltres|Flamethrower|p2a: Jirachi
+|-supereffective|p2a: Jirachi
+|-damage|p2a: Jirachi|0 fnt
+|faint|p2a: Jirachi
+|
+|-end|p1a: Moltres|move: Doom Desire
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|67/100
+|upkeep
+|
+|t:|1743915892
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|6
+|
+|t:|1743915898
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Moltres|Hurricane|p2a: Cinderace|[miss]
+|-miss|p1a: Moltres|p2a: Cinderace
+|
+|upkeep
+|turn|7
+|
+|t:|1743915911
+|move|p2a: Cinderace|Pyro Ball|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|54/100
+|move|p1a: Moltres|Hurricane|p2a: Cinderace
+|-damage|p2a: Cinderace|35/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743915918
+|switch|p2a: Gyarados|Gyarados, F|100/100
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Moltres|atk|1
+|move|p1a: Moltres|Flamethrower|p2a: Gyarados
+|-resisted|p2a: Gyarados
+|-damage|p2a: Gyarados|81/100
+|
+|-heal|p2a: Gyarados|87/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743915927
+|move|p2a: Gyarados|Dragon Dance|p2a: Gyarados
+|-boost|p2a: Gyarados|atk|1
+|-boost|p2a: Gyarados|spe|1
+|move|p1a: Moltres|Will-O-Wisp|p2a: Gyarados|[miss]
+|-miss|p1a: Moltres|p2a: Gyarados
+|
+|-heal|p2a: Gyarados|93/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743915935
+|move|p2a: Gyarados|Waterfall|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|-heal|p2a: Gyarados|99/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743915942
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|-item|p1a: Gholdengo|Air Balloon
+|turn|11
+|
+|t:|1743915949
+|move|p2a: Gyarados|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|28/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Thunder Wave|p2a: Gyarados
+|-status|p2a: Gyarados|par
+|
+|-heal|p2a: Gyarados|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743915958
+|move|p1a: Gholdengo|Hex|p2a: Gyarados
+|-damage|p2a: Gyarados|42/100 par
+|move|p2a: Gyarados|Crunch|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-heal|p2a: Gyarados|48/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1743915966
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|turn|13
+|
+|t:|1743915971
+|move|p1a: Ogerpon|Power Whip|p2a: Gyarados
+|-damage|p2a: Gyarados|0 fnt
+|faint|p2a: Gyarados
+|
+|upkeep
+|
+|t:|1743915975
+|switch|p2a: Lokix|Lokix, M|100/100
+|turn|14
+|
+|t:|1743915979
+|move|p2a: Lokix|First Impression|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|-damage|p2a: Lokix|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743915985
+|switch|p1a: Gliscor|Gliscor, M|100/100
+|-damage|p1a: Gliscor|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743915989
+|move|p2a: Lokix|Knock Off|p1a: Gliscor
+|-damage|p1a: Gliscor|48/100
+|-enditem|p1a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p2a: Lokix
+|-damage|p2a: Lokix|81/100|[from] item: Life Orb
+|move|p1a: Gliscor|Toxic|p2a: Lokix
+|-status|p2a: Lokix|tox
+|
+|-damage|p2a: Lokix|75/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743915998
+|move|p2a: Lokix|U-turn|p1a: Gliscor
+|-resisted|p1a: Gliscor
+|-damage|p1a: Gliscor|19/100
+|-damage|p2a: Lokix|65/100 tox|[from] item: Life Orb
+|
+|t:|1743916001
+|switch|p2a: Cinderace|Cinderace, F|35/100|[from] U-turn
+|move|p1a: Gliscor|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|7/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Gliscor
+|
+|upkeep
+|turn|17
+|
+|t:|1743916008
+|move|p2a: Cinderace|Pyro Ball|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|upkeep
+|
+|t:|1743916013
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-damage|p1a: Raging Bolt|88/100|[from] Stealth Rock
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|18
+|
+|t:|1743916021
+|-terastallize|p1a: Raging Bolt|Fairy
+|move|p2a: Cinderace|Pyro Ball|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|37/100
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Cinderace
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1743916028
+|switch|p2a: Lokix|Lokix, M|65/100 tox
+|turn|19
+|
+|t:|1743916033
+|move|p2a: Lokix|First Impression|p1a: Raging Bolt
+|-resisted|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|-damage|p2a: Lokix|55/100 tox|[from] item: Life Orb
+|
+|win|Minoluck
+|raw|prof_dlight's rating: 1234 &rarr; <strong>1207</strong><br />(-27 for losing)
+|raw|Minoluck's rating: 1201 &rarr; <strong>1228</strong><br />(+27 for winning)
+|l|☆Minoluck
+|player|p2|

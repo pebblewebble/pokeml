@@ -1,0 +1,282 @@
+|j|☆MegaNegan
+|j|☆EDETANVS
+|t:|1743786813
+|gametype|singles
+|player|p1|MegaNegan|gambler|1123
+|player|p2|EDETANVS|veteran|1169
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Feraligatr, F|
+|poke|p1|Araquanid, M|
+|poke|p1|Gholdengo|
+|poke|p1|Ceruledge, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Kyurem|
+|poke|p2|Cottonee, L1, M|
+|poke|p2|Ditto|
+|poke|p2|Pineco, L1, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Salazzle, F|
+|poke|p2|Kingambit, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MegaNegan)
+|
+|t:|1743786840
+|start
+|switch|p1a: Araquanid|Araquanid, M|100/100
+|switch|p2a: Cottonee|Cottonee, L1, M|100/100
+|turn|1
+|
+|t:|1743786845
+|move|p2a: Cottonee|Leech Seed|p1a: Araquanid
+|-start|p1a: Araquanid|move: Leech Seed
+|move|p1a: Araquanid|Sticky Web|p2a: Cottonee
+|-sidestart|p2: EDETANVS|move: Sticky Web
+|
+|-damage|p1a: Araquanid|88/100|[from] Leech Seed|[of] p2a: Cottonee
+|upkeep
+|turn|2
+|
+|t:|1743786852
+|move|p2a: Cottonee|Substitute|p2a: Cottonee
+|-start|p2a: Cottonee|Substitute
+|-damage|p2a: Cottonee|75/100
+|move|p1a: Araquanid|Surf|p2a: Cottonee
+|-resisted|p2a: Cottonee
+|-crit|p2a: Cottonee
+|-end|p2a: Cottonee|Substitute
+|
+|-damage|p1a: Araquanid|76/100|[from] Leech Seed|[of] p2a: Cottonee
+|-heal|p2a: Cottonee|100/100|[silent]
+|upkeep
+|turn|3
+|
+|t:|1743786860
+|move|p2a: Cottonee|Substitute|p2a: Cottonee
+|-start|p2a: Cottonee|Substitute
+|-damage|p2a: Cottonee|75/100
+|move|p1a: Araquanid|Surf|p2a: Cottonee
+|-resisted|p2a: Cottonee
+|-end|p2a: Cottonee|Substitute
+|
+|-damage|p1a: Araquanid|63/100|[from] Leech Seed|[of] p2a: Cottonee
+|-heal|p2a: Cottonee|100/100|[silent]
+|upkeep
+|turn|4
+|
+|t:|1743786867
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Cottonee|Substitute|p2a: Cottonee
+|-start|p2a: Cottonee|Substitute
+|-damage|p2a: Cottonee|75/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743786875
+|move|p2a: Cottonee|Leech Seed|p1a: Kyurem
+|-start|p1a: Kyurem|move: Leech Seed
+|move|p1a: Kyurem|Icicle Spear|p2a: Cottonee
+|-supereffective|p2a: Cottonee
+|-end|p2a: Cottonee|Substitute
+|-supereffective|p2a: Cottonee
+|-damage|p2a: Cottonee|0 fnt
+|faint|p2a: Cottonee
+|-hitcount|p2: Cottonee|2
+|
+|upkeep
+|
+|t:|1743786900
+|switch|p2a: Pineco|Pineco, L1, M|100/100
+|turn|6
+|
+|t:|1743786907
+|switch|p1a: Araquanid|Araquanid, M|63/100
+|move|p2a: Pineco|Protect||[still]
+|-fail|p2a: Pineco
+|
+|upkeep
+|turn|7
+|
+|t:|1743786912
+|move|p1a: Araquanid|Endeavor|p2a: Pineco
+|-immune|p2a: Pineco
+|move|p2a: Pineco|Pain Split|p1a: Araquanid
+|-sethp|p1a: Araquanid|34/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Pineco|100/100|[from] move: Pain Split
+|
+|upkeep
+|turn|8
+|
+|t:|1743786919
+|move|p1a: Araquanid|Endeavor|p2a: Pineco
+|-immune|p2a: Pineco
+|move|p2a: Pineco|Pain Split|p1a: Araquanid
+|-sethp|p1a: Araquanid|19/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Pineco|100/100|[from] move: Pain Split
+|
+|upkeep
+|turn|9
+|-enditem|p1a: Araquanid|Custap Berry|[eat]
+|-activate|p1a: Araquanid|item: Custap Berry|[consumed]
+|
+|t:|1743786925
+|move|p1a: Araquanid|Surf|p2a: Pineco
+|-ability|p2a: Pineco|Sturdy
+|-damage|p2a: Pineco|9/100
+|move|p2a: Pineco|Pain Split|p1a: Araquanid
+|-sethp|p1a: Araquanid|10/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Pineco|100/100|[from] move: Pain Split
+|
+|upkeep
+|turn|10
+|
+|t:|1743786945
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Pineco|Pain Split|p1a: Kyurem
+|-sethp|p1a: Kyurem|52/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Pineco|100/100|[from] move: Pain Split
+|
+|upkeep
+|turn|11
+|
+|t:|1743786952
+|move|p2a: Pineco|Protect|p2a: Pineco
+|-singleturn|p2a: Pineco|Protect
+|move|p1a: Kyurem|Icicle Spear|p2a: Pineco
+|-activate|p2a: Pineco|move: Protect
+|
+|upkeep
+|turn|12
+|
+|t:|1743786958
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|-item|p2a: Salazzle|Air Balloon
+|move|p1a: Kyurem|Icicle Spear|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|89/100
+|-enditem|p2a: Salazzle|Air Balloon
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|77/100
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|65/100
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|53/100
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|42/100
+|-hitcount|p2a: Salazzle|5
+|
+|upkeep
+|turn|13
+|
+|t:|1743786972
+|switch|p1a: Feraligatr|Feraligatr, F|100/100
+|move|p2a: Salazzle|Flamethrower|p1a: Feraligatr
+|-resisted|p1a: Feraligatr
+|-damage|p1a: Feraligatr|74/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743786984
+|move|p2a: Salazzle|Toxic Spikes|p1a: Feraligatr
+|-sidestart|p1: MegaNegan|move: Toxic Spikes
+|move|p1a: Feraligatr|Liquidation|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|upkeep
+|
+|t:|1743787000
+|switch|p2a: Pineco|Pineco, L1, M|100/100
+|turn|15
+|inactive|EDETANVS has 120 seconds left.
+|
+|t:|1743787032
+|switch|p1a: Kyurem|Kyurem|52/100
+|-status|p1a: Kyurem|psn
+|-ability|p1a: Kyurem|Pressure
+|move|p2a: Pineco|Pain Split|p1a: Kyurem
+|-sethp|p1a: Kyurem|28/100 psn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Pineco|100/100|[from] move: Pain Split
+|
+|-damage|p1a: Kyurem|15/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743787043
+|move|p2a: Pineco|Protect|p2a: Pineco
+|-singleturn|p2a: Pineco|Protect
+|move|p1a: Kyurem|Dragon Dance|p1a: Kyurem
+|-boost|p1a: Kyurem|atk|1
+|-boost|p1a: Kyurem|spe|1
+|
+|-damage|p1a: Kyurem|3/100 psn|[from] psn
+|upkeep
+|turn|17
+|inactive|EDETANVS has 120 seconds left.
+|
+|t:|1743787058
+|move|p2a: Pineco|Protect|p2a: Pineco
+|-singleturn|p2a: Pineco|Protect
+|move|p1a: Kyurem|Icicle Spear|p2a: Pineco
+|-activate|p2a: Pineco|move: Protect
+|
+|-damage|p1a: Kyurem|0 fnt|[from] psn
+|faint|p1a: Kyurem
+|upkeep
+|
+|t:|1743787084
+|switch|p1a: Ceruledge|Ceruledge, F|100/100
+|-status|p1a: Ceruledge|psn
+|turn|18
+|
+|t:|1743787089
+|move|p1a: Ceruledge|Bitter Blade|p2a: Pineco
+|-supereffective|p2a: Pineco
+|-ability|p2a: Pineco|Sturdy
+|-damage|p2a: Pineco|9/100
+|move|p2a: Pineco|Pain Split|p1a: Ceruledge
+|-sethp|p1a: Ceruledge|51/100 psn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Pineco|100/100|[from] move: Pain Split
+|
+|-damage|p1a: Ceruledge|38/100 psn|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1743787099
+|move|p1a: Ceruledge|Bitter Blade|p2a: Pineco
+|-supereffective|p2a: Pineco
+|-ability|p2a: Pineco|Sturdy
+|-damage|p2a: Pineco|9/100
+|-heal|p1a: Ceruledge|40/100 psn|[from] drain|[of] p2a: Pineco
+|move|p2a: Pineco|Pain Split|p1a: Ceruledge
+|-sethp|p1a: Ceruledge|20/100 psn|[from] move: Pain Split|[silent]
+|-sethp|p2a: Pineco|100/100|[from] move: Pain Split
+|
+|-damage|p1a: Ceruledge|8/100 psn|[from] psn
+|upkeep
+|turn|20
+|-message|MegaNegan forfeited.
+|
+|win|EDETANVS
+|raw|MegaNegan's rating: 1123 &rarr; <strong>1101</strong><br />(-22 for losing)
+|raw|EDETANVS's rating: 1169 &rarr; <strong>1191</strong><br />(+22 for winning)
+|l|☆MegaNegan
+|player|p1|
+|l|☆EDETANVS
+|player|p2|

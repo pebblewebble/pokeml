@@ -1,0 +1,356 @@
+|j|☆AMOYSC
+|j|☆Quintesshou
+|t:|1743887481
+|gametype|singles
+|player|p1|AMOYSC|265|1184
+|player|p2|Quintesshou|clerkf|1178
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Treads|
+|poke|p1|Pelipper, F|
+|poke|p1|Kingdra, F|
+|poke|p1|Rillaboom, F|
+|poke|p1|Basculegion, M|
+|poke|p1|Raging Bolt|
+|poke|p2|Ninetales-Alola, F|
+|poke|p2|Frosmoth, F|
+|poke|p2|Cetitan, F|
+|poke|p2|Glaceon, F|
+|poke|p2|Dewgong, F|
+|poke|p2|Abomasnow, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Quintesshou)
+|
+|t:|1743887509
+|start
+|switch|p1a: Pelipper|Pelipper, F, shiny|100/100
+|switch|p2a: Snowbelle|Ninetales-Alola, F, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Snowbelle
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1743887518
+|switch|p1a: Iron Treads|Iron Treads, shiny|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|move|p2a: Snowbelle|Freeze-Dry|p1a: Iron Treads
+|-damage|p1a: Iron Treads|64/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743887530
+|switch|p2a: SnowMommy|Abomasnow, F, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: SnowMommy
+|move|p1a: Iron Treads|Steel Beam|p2a: SnowMommy|[miss]
+|-miss|p1a: Iron Treads|p2a: SnowMommy
+|-damage|p1a: Iron Treads|14/100|[from] steelbeam
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743887542
+|move|p1a: Iron Treads|Stealth Rock|p2a: SnowMommy
+|-sidestart|p2: Quintesshou|move: Stealth Rock
+|move|p2a: SnowMommy|Earthquake|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743887549
+|switch|p1a: Pelipper|Pelipper, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|4
+|
+|t:|1743887561
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|switch|p2a: Frostora|Frosmoth, F, shiny|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743887581
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|move|p2a: Frostora|Defog|p1a: Raging Bolt
+|-unboost|p1a: Raging Bolt|evasion|1
+|-sideend|p2: Quintesshou|Stealth Rock|[from] move: Defog|[of] p2a: Frostora
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743887590
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Frostora
+|-damage|p2a: Frostora|78/100
+|move|p2a: Frostora|Blizzard|p1a: Raging Bolt
+|-supereffective|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|8/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743887597
+|move|p1a: Raging Bolt|Thunderclap|p2a: Frostora
+|-damage|p2a: Frostora|60/100
+|move|p2a: Frostora|Bug Buzz|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743887600
+|switch|p1a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|8
+|
+|t:|1743887616
+|switch|p2a: SnowMommy|Abomasnow, F, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: SnowMommy
+|-terastallize|p1a: Rillaboom|Steel
+|move|p1a: Rillaboom|Low Kick|p2a: SnowMommy
+|-supereffective|p2a: SnowMommy
+|-damage|p2a: SnowMommy|48/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: SnowMommy|54/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1743887627
+|move|p1a: Rillaboom|Low Kick|p2a: SnowMommy
+|-supereffective|p2a: SnowMommy
+|-damage|p2a: SnowMommy|0 fnt
+|faint|p2a: SnowMommy
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743887633
+|switch|p2a: Icebreaker|Cetitan, F, shiny|100/100
+|turn|10
+|
+|t:|1743887640
+|switch|p1a: Pelipper|Pelipper, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-terastallize|p2a: Icebreaker|Fire
+|move|p2a: Icebreaker|Belly Drum|p2a: Icebreaker
+|-damage|p2a: Icebreaker|50/100
+|-setboost|p2a: Icebreaker|atk|6|[from] move: Belly Drum
+|-enditem|p2a: Icebreaker|Sitrus Berry|[eat]
+|-heal|p2a: Icebreaker|75/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Icebreaker|82/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1743887655
+|move|p2a: Icebreaker|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-enditem|p1a: Pelipper|Damp Rock|[from] move: Knock Off|[of] p2a: Icebreaker
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Icebreaker|88/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743887659
+|switch|p1a: Kingdra|Kingdra, F, shiny|100/100
+|turn|12
+|
+|t:|1743887668
+|switch|p2a: Snowbelle|Ninetales-Alola, F, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Snowbelle
+|move|p1a: Kingdra|Hydro Pump|p2a: Snowbelle|[miss]
+|-miss|p1a: Kingdra|p2a: Snowbelle
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1743887681
+|move|p2a: Snowbelle|Aurora Veil|p2a: Snowbelle
+|-sidestart|p2: Quintesshou|move: Aurora Veil
+|move|p1a: Kingdra|Hydro Pump|p2a: Snowbelle|[miss]
+|-miss|p1a: Kingdra|p2a: Snowbelle
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|c|☆AMOYSC|................................
+|
+|t:|1743887691
+|move|p2a: Snowbelle|Freeze-Dry|p1a: Kingdra
+|-supereffective|p1a: Kingdra
+|-damage|p1a: Kingdra|0 fnt
+|faint|p1a: Kingdra
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743887693
+|switch|p1a: Basculegion|Basculegion, M, shiny|100/100
+|turn|15
+|
+|t:|1743887703
+|move|p2a: Snowbelle|Freeze-Dry|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|39/100
+|-status|p1a: Basculegion|frz
+|cant|p1a: Basculegion|frz
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|c|☆AMOYSC|lol
+|
+|t:|1743887712
+|move|p2a: Snowbelle|Freeze-Dry|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-crit|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|-weather|none
+|upkeep
+|c|☆AMOYSC|I lost to this anyway, gg
+|
+|t:|1743887728
+|switch|p1a: Rillaboom|Rillaboom, F, tera:Steel|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|17
+|c|☆Quintesshou|i just got into a lose streak, finally i got lucky :<
+|
+|t:|1743887746
+|move|p2a: Snowbelle|Freeze-Dry|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|91/100
+|move|p1a: Rillaboom|Wood Hammer|p2a: Snowbelle
+|-damage|p2a: Snowbelle|37/100
+|-damage|p1a: Rillaboom|76/100|[from] Recoil
+|
+|-heal|p2a: Snowbelle|44/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|82/100|[from] Grassy Terrain
+|upkeep
+|turn|18
+|
+|t:|1743887758
+|switch|p2a: Bubblefreeze|Dewgong, F, shiny|100/100
+|move|p1a: Rillaboom|Wood Hammer|p2a: Bubblefreeze
+|-supereffective|p2a: Bubblefreeze
+|-damage|p2a: Bubblefreeze|11/100
+|-damage|p1a: Rillaboom|59/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|65/100|[from] Grassy Terrain
+|-heal|p2a: Bubblefreeze|18/100|[from] Grassy Terrain
+|-heal|p2a: Bubblefreeze|24/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743887770
+|move|p1a: Rillaboom|Grassy Glide|p2a: Bubblefreeze
+|-supereffective|p2a: Bubblefreeze
+|-damage|p2a: Bubblefreeze|0 fnt
+|faint|p2a: Bubblefreeze
+|
+|-heal|p1a: Rillaboom|71/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743887782
+|switch|p2a: Snowbelle|Ninetales-Alola, F, shiny|44/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Snowbelle
+|turn|20
+|
+|t:|1743887798
+|move|p2a: Snowbelle|Moonblast|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|57/100
+|-unboost|p1a: Rillaboom|spa|1
+|move|p1a: Rillaboom|Wood Hammer|p2a: Snowbelle
+|-crit|p2a: Snowbelle
+|-damage|p2a: Snowbelle|0 fnt
+|faint|p2a: Snowbelle
+|-damage|p1a: Rillaboom|47/100|[from] Recoil
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Rillaboom|53/100|[from] Grassy Terrain
+|-sideend|p2: Quintesshou|move: Aurora Veil
+|upkeep
+|inactive|Quintesshou has 120 seconds left.
+|
+|t:|1743887809
+|switch|p2a: Shivver|Glaceon, F, shiny|100/100
+|turn|21
+|
+|t:|1743887813
+|move|p2a: Shivver|Wish|p2a: Shivver
+|move|p1a: Rillaboom|Low Kick|p2a: Shivver
+|-supereffective|p2a: Shivver
+|-damage|p2a: Shivver|68/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Shivver|74/100|[from] ability: Ice Body
+|-heal|p2a: Shivver|81/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|60/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|22
+|
+|t:|1743887823
+|switch|p2a: Icebreaker|Cetitan, F, shiny, tera:Fire|88/100
+|move|p1a: Rillaboom|Low Kick|p2a: Icebreaker
+|-damage|p2a: Icebreaker|46/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Icebreaker|74/100|[from] move: Wish|[wisher] Shivver
+|upkeep
+|turn|23
+|
+|t:|1743887834
+|move|p2a: Icebreaker|Earthquake|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|6/100
+|move|p1a: Rillaboom|Low Kick|p2a: Icebreaker
+|-damage|p2a: Icebreaker|30/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1743887840
+|move|p2a: Icebreaker|Earthquake|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|win|Quintesshou
+|raw|AMOYSC's rating: 1184 &rarr; <strong>1159</strong><br />(-25 for losing)
+|raw|Quintesshou's rating: 1178 &rarr; <strong>1203</strong><br />(+25 for winning)
+|l|☆AMOYSC
+|player|p1|
+|l|☆Quintesshou
+|player|p2|

@@ -1,0 +1,725 @@
+|j|☆Celest107
+|j|‽Qiko
+|t:|1743831965
+|gametype|singles
+|player|p1|Celest107|miku-fire|
+|player|p2|Qiko|rosa-pokestar|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Alomomola, M|
+|poke|p1|Glimmora, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Pecharunt|
+|poke|p1|Ursaluna, F|
+|poke|p1|Scream Tail|
+|poke|p2|Zamazenta-*|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Great Tusk|
+|poke|p2|Kingambit, M|
+|poke|p2|Zapdos|
+|teampreview
+|
+|t:|1743831985
+|start
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|switch|p2a: Zapdos|Zapdos|100/100
+|turn|1
+|
+|t:|1743831995
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|move|p2a: Zapdos|Hurricane|p1a: Landorus
+|-damage|p1a: Landorus|44/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743832003
+|move|p1a: Landorus|U-turn|p2a: Zapdos
+|-resisted|p2a: Zapdos
+|-damage|p2a: Zapdos|91/100
+|
+|t:|1743832011
+|switch|p1a: Alomomola|Alomomola, M|100/100|[from] U-turn
+|move|p2a: Zapdos|Hurricane|p1a: Alomomola
+|-crit|p1a: Alomomola
+|-damage|p1a: Alomomola|39/100
+|-start|p1a: Alomomola|confusion
+|
+|upkeep
+|turn|3
+|
+|t:|1743832040
+|switch|p1a: Landorus|Landorus-Therian, M|44/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Zapdos|atk|1
+|move|p2a: Zapdos|Volt Switch|p1a: Landorus
+|-immune|p1a: Landorus
+|
+|upkeep
+|turn|4
+|
+|t:|1743832047
+|-terastallize|p1a: Landorus|Ice
+|move|p1a: Landorus|Tera Blast|p2a: Zapdos|[anim] Tera Blast Ice
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|22/100
+|move|p2a: Zapdos|Hurricane|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743832060
+|switch|p1a: Glimmora|Glimmora, F|100/100
+|turn|5
+|
+|t:|1743832063
+|move|p1a: Glimmora|Toxic|p2a: Zapdos
+|-status|p2a: Zapdos|tox
+|move|p2a: Zapdos|Roost|p2a: Zapdos
+|-heal|p2a: Zapdos|72/100 tox
+|-singleturn|p2a: Zapdos|move: Roost
+|
+|-damage|p2a: Zapdos|66/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743832068
+|move|p1a: Glimmora|Substitute|p1a: Glimmora
+|-start|p1a: Glimmora|Substitute
+|-damage|p1a: Glimmora|76/100
+|move|p2a: Zapdos|Volt Switch|p1a: Glimmora
+|-end|p1a: Glimmora|Substitute
+|
+|t:|1743832080
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100|[from] Volt Switch
+|
+|-heal|p1a: Glimmora|82/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743832093
+|move|p1a: Glimmora|Spiky Shield|p1a: Glimmora
+|-singleturn|p1a: Glimmora|move: Protect
+|move|p2a: Great Tusk|Stealth Rock|p1a: Glimmora
+|-sidestart|p1: Celest107|move: Stealth Rock
+|
+|-heal|p1a: Glimmora|88/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743832103
+|switch|p1a: Scream Tail|Scream Tail|100/100
+|-damage|p1a: Scream Tail|88/100|[from] Stealth Rock
+|move|p2a: Great Tusk|Headlong Rush|p1a: Scream Tail
+|-damage|p1a: Scream Tail|55/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|upkeep
+|turn|9
+|
+|t:|1743832115
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zapdos|Zapdos|66/100 tox
+|move|p1a: Scream Tail|Trick Room|p1a: Scream Tail
+|-fieldstart|move: Trick Room|[of] p1a: Scream Tail
+|
+|-damage|p2a: Zapdos|60/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743832123
+|move|p2a: Zapdos|Thunder Wave|p1a: Scream Tail
+|-status|p1a: Scream Tail|par
+|cant|p1a: Scream Tail|par
+|
+|-damage|p2a: Zapdos|48/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743832139
+|move|p1a: Scream Tail|Encore|p2a: Zapdos
+|-start|p2a: Zapdos|Encore
+|move|p2a: Zapdos|Thunder Wave|p1a: Scream Tail
+|-fail|p1a: Scream Tail|par
+|
+|-damage|p2a: Zapdos|30/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743832157
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|move|p1a: Scream Tail|Wish|p1a: Scream Tail
+|
+|upkeep
+|turn|13
+|
+|t:|1743832173
+|move|p2a: Slowking|Psyshock|p1a: Scream Tail
+|-resisted|p1a: Scream Tail
+|-damage|p1a: Scream Tail|43/100 par
+|cant|p1a: Scream Tail|par
+|
+|-heal|p1a: Scream Tail|93/100 par|[from] move: Wish|[wisher] Scream Tail
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|t:|1743832179
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Alomomola|Alomomola, M|72/100
+|-damage|p1a: Alomomola|59/100|[from] Stealth Rock
+|move|p2a: Slowking|Sludge Bomb|p1a: Alomomola
+|-damage|p1a: Alomomola|17/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743832190
+|switch|p1a: Glimmora|Glimmora, F|88/100
+|-damage|p1a: Glimmora|76/100|[from] Stealth Rock
+|move|p2a: Slowking|Sludge Bomb|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|64/100
+|
+|-heal|p1a: Glimmora|70/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743832197
+|move|p1a: Glimmora|Mortal Spin|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|97/100
+|-status|p2a: Slowking|psn
+|-sideend|p1: Celest107|Stealth Rock|[from] move: Mortal Spin|[of] p1a: Glimmora
+|move|p2a: Slowking|Psyshock|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|
+|-damage|p2a: Slowking|85/100 psn|[from] psn
+|upkeep
+|
+|t:|1743832201
+|switch|p1a: Ursaluna|Ursaluna, F|100/100
+|turn|17
+|
+|t:|1743832213
+|switch|p2a: Zapdos|Zapdos|30/100 tox
+|move|p1a: Ursaluna|Facade|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1743832226
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|18
+|
+|t:|1743832229
+|switch|p1a: Scream Tail|Scream Tail|93/100 par
+|move|p2a: Zamazenta|Close Combat|p1a: Scream Tail
+|-resisted|p1a: Scream Tail
+|-damage|p1a: Scream Tail|85/100 par
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|
+|upkeep
+|turn|19
+|
+|t:|1743832237
+|switch|p2a: Slowking|Slowking-Galar, F|100/100 psn
+|move|p1a: Scream Tail|Reflect|p1a: Scream Tail
+|-sidestart|p1: Celest107|Reflect
+|
+|-damage|p2a: Slowking|88/100 psn|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1743832248
+|move|p1a: Scream Tail|Wish|p1a: Scream Tail
+|move|p2a: Slowking|Sludge Bomb|p1a: Scream Tail
+|-supereffective|p1a: Scream Tail
+|-damage|p1a: Scream Tail|17/100 par
+|
+|-damage|p2a: Slowking|76/100 psn|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1743832259
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Alomomola|Alomomola, M|51/100
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|
+|-heal|p1a: Alomomola|96/100|[from] move: Wish|[wisher] Scream Tail
+|upkeep
+|turn|22
+|
+|t:|1743832279
+|move|p2a: Zamazenta|Crunch|p1a: Alomomola
+|-damage|p1a: Alomomola|89/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|23
+|
+|t:|1743832285
+|switch|p2a: Slowking|Slowking-Galar, F|100/100 psn
+|move|p1a: Alomomola|Flip Turn|p2a: Slowking
+|-damage|p2a: Slowking|83/100 psn
+|
+|t:|1743832287
+|switch|p1a: Scream Tail|Scream Tail|17/100 par|[from] Flip Turn
+|
+|-heal|p1a: Scream Tail|71/100 par|[from] move: Wish|[wisher] Alomomola
+|-damage|p2a: Slowking|71/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1743832292
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Ursaluna|Ursaluna, F|100/100 brn
+|move|p2a: Slowking|Sludge Bomb|p1a: Ursaluna
+|-resisted|p1a: Ursaluna
+|-damage|p1a: Ursaluna|78/100 brn
+|
+|-damage|p2a: Slowking|59/100 psn|[from] psn
+|-damage|p1a: Ursaluna|72/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1743832301
+|-terastallize|p2a: Slowking|Water
+|move|p1a: Ursaluna|Earthquake|p2a: Slowking
+|-damage|p2a: Slowking|0 fnt
+|faint|p2a: Slowking
+|
+|-damage|p1a: Ursaluna|66/100 brn|[from] brn
+|upkeep
+|
+|t:|1743832317
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|turn|26
+|
+|t:|1743832324
+|switch|p1a: Scream Tail|Scream Tail|71/100 par
+|move|p2a: Great Tusk|Stealth Rock|p1a: Scream Tail
+|-sidestart|p1: Celest107|move: Stealth Rock
+|
+|-sideend|p1: Celest107|Reflect
+|upkeep
+|turn|27
+|
+|t:|1743832335
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|move|p1a: Scream Tail|Trick Room|p1a: Scream Tail
+|-fieldstart|move: Trick Room|[of] p1a: Scream Tail
+|
+|upkeep
+|turn|28
+|
+|t:|1743832341
+|move|p1a: Scream Tail|Reflect|p1a: Scream Tail
+|-sidestart|p1: Celest107|Reflect
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|29
+|
+|t:|1743832351
+|move|p1a: Scream Tail|Encore|p2a: Kingambit
+|-start|p2a: Kingambit|Encore
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|30
+|
+|t:|1743832356
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|switch|p1a: Ursaluna|Ursaluna, F|66/100 brn
+|-damage|p1a: Ursaluna|60/100 brn|[from] Stealth Rock
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-damage|p1a: Ursaluna|53/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1743832363
+|-end|p2a: Kingambit|fallen2|[silent]
+|switch|p2a: Great Tusk|Great Tusk, shiny|100/100
+|move|p1a: Ursaluna|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|40/100
+|
+|-damage|p1a: Ursaluna|47/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|32
+|
+|t:|1743832378
+|switch|p1a: Alomomola|Alomomola, M|100/100
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|move|p2a: Great Tusk|Rapid Spin|p1a: Alomomola
+|-damage|p1a: Alomomola|83/100
+|-boost|p2a: Great Tusk|spe|1
+|
+|upkeep
+|turn|33
+|
+|t:|1743832388
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|34
+|
+|t:|1743832400
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Ogerpon|Knock Off|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|82/100
+|-enditem|p1a: Pecharunt|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Ogerpon
+|
+|-heal|p1a: Pecharunt|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|35
+|
+|t:|1743832411
+|move|p2a: Ogerpon|U-turn|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|99/100
+|
+|t:|1743832413
+|switch|p2a: Kingambit|Kingambit, M|100/100|[from] U-turn
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|move|p1a: Pecharunt|Parting Shot|p2a: Kingambit
+|-unboost|p2a: Kingambit|atk|1
+|-unboost|p2a: Kingambit|spa|1
+|
+|t:|1743832422
+|switch|p1a: Ursaluna|Ursaluna, F|47/100 brn|[from] Parting Shot
+|-damage|p1a: Ursaluna|41/100 brn|[from] Stealth Rock
+|
+|-damage|p1a: Ursaluna|35/100 brn|[from] brn
+|-sideend|p1: Celest107|Reflect
+|upkeep
+|turn|36
+|
+|t:|1743832431
+|move|p1a: Ursaluna|Earthquake|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen2|[silent]
+|
+|-damage|p1a: Ursaluna|28/100 brn|[from] brn
+|upkeep
+|
+|t:|1743832440
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|turn|37
+|
+|t:|1743832444
+|switch|p1a: Scream Tail|Scream Tail|71/100 par
+|-damage|p1a: Scream Tail|59/100 par|[from] Stealth Rock
+|move|p2a: Zamazenta|Crunch|p1a: Scream Tail
+|-damage|p1a: Scream Tail|44/100 par
+|
+|upkeep
+|turn|38
+|
+|t:|1743832453
+|move|p2a: Zamazenta|Crunch|p1a: Scream Tail
+|-damage|p1a: Scream Tail|28/100 par
+|cant|p1a: Scream Tail|par
+|
+|upkeep
+|turn|39
+|
+|t:|1743832457
+|move|p2a: Zamazenta|Crunch|p1a: Scream Tail
+|-damage|p1a: Scream Tail|12/100 par
+|cant|p1a: Scream Tail|par
+|
+|upkeep
+|turn|40
+|
+|t:|1743832461
+|move|p2a: Zamazenta|Crunch|p1a: Scream Tail
+|-damage|p1a: Scream Tail|0 fnt
+|faint|p1a: Scream Tail
+|-end|p1a: Scream Tail|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743832465
+|switch|p1a: Pecharunt|Pecharunt|99/100
+|-damage|p1a: Pecharunt|87/100|[from] Stealth Rock
+|turn|41
+|
+|t:|1743832472
+|switch|p2a: Great Tusk|Great Tusk, shiny|40/100
+|move|p1a: Pecharunt|Parting Shot|p2a: Great Tusk
+|-unboost|p2a: Great Tusk|atk|1
+|-unboost|p2a: Great Tusk|spa|1
+|
+|t:|1743832478
+|switch|p1a: Alomomola|Alomomola, M|100/100|[from] Parting Shot
+|-damage|p1a: Alomomola|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|42
+|
+|t:|1743832483
+|move|p2a: Great Tusk|Headlong Rush|p1a: Alomomola
+|-damage|p1a: Alomomola|62/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|43
+|
+|t:|1743832490
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|move|p1a: Alomomola|Flip Turn|p2a: Zamazenta
+|-damage|p2a: Zamazenta|86/100
+|
+|t:|1743832496
+|switch|p1a: Ursaluna|Ursaluna, F|28/100 brn|[from] Flip Turn
+|-damage|p1a: Ursaluna|22/100 brn|[from] Stealth Rock
+|
+|-heal|p1a: Ursaluna|81/100 brn|[from] move: Wish|[wisher] Alomomola
+|-damage|p1a: Ursaluna|75/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|t:|1743832500
+|switch|p1a: Pecharunt|Pecharunt|87/100
+|-damage|p1a: Pecharunt|74/100|[from] Stealth Rock
+|move|p2a: Zamazenta|Close Combat|p1a: Pecharunt
+|-immune|p1a: Pecharunt
+|
+|upkeep
+|turn|45
+|
+|t:|1743832505
+|move|p2a: Zamazenta|Crunch|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|45/100
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|95/100
+|
+|upkeep
+|turn|46
+|
+|t:|1743832511
+|move|p2a: Zamazenta|Crunch|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|64/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Zamazenta
+|-damage|p2a: Zamazenta|57/100
+|
+|upkeep
+|turn|47
+|
+|t:|1743832519
+|move|p2a: Zamazenta|Crunch|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-crit|p1a: Pecharunt
+|-damage|p1a: Pecharunt|23/100
+|-unboost|p1a: Pecharunt|def|1
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|74/100
+|
+|upkeep
+|turn|48
+|
+|t:|1743832525
+|switch|p1a: Alomomola|Alomomola, M|95/100
+|-damage|p1a: Alomomola|83/100|[from] Stealth Rock
+|move|p2a: Zamazenta|Crunch|p1a: Alomomola
+|-damage|p1a: Alomomola|65/100
+|
+|upkeep
+|turn|49
+|
+|t:|1743832534
+|move|p2a: Zamazenta|Close Combat|p1a: Alomomola
+|-damage|p1a: Alomomola|29/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|50
+|
+|t:|1743832541
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p1a: Pecharunt|Pecharunt|74/100
+|-damage|p1a: Pecharunt|61/100|[from] Stealth Rock
+|
+|-heal|p1a: Pecharunt|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|51
+|
+|t:|1743832556
+|move|p2a: Ogerpon|U-turn|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|97/100
+|
+|t:|1743832559
+|switch|p2a: Great Tusk|Great Tusk, shiny|40/100|[from] U-turn
+|move|p1a: Pecharunt|Malignant Chain|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|15/100
+|-status|p2a: Great Tusk|tox
+|-start|p2a: Great Tusk|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|
+|-damage|p2a: Great Tusk|9/100 tox|[from] psn
+|upkeep
+|turn|52
+|
+|t:|1743832571
+|switch|p1a: Alomomola|Alomomola, M|62/100
+|-damage|p1a: Alomomola|50/100|[from] Stealth Rock
+|-activate|p2a: Great Tusk|confusion
+|-damage|p2a: Great Tusk|0 fnt|[from] confusion
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743832579
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|53
+|
+|t:|1743832584
+|switch|p1a: Pecharunt|Pecharunt|97/100
+|-damage|p1a: Pecharunt|85/100|[from] Stealth Rock
+|move|p2a: Ogerpon|Power Whip|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|70/100
+|
+|upkeep
+|turn|54
+|
+|t:|1743832590
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Pecharunt|[anim] Ivy Cudgel Water
+|-damage|p1a: Pecharunt|44/100
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|94/100
+|
+|upkeep
+|turn|55
+|
+|t:|1743832595
+|move|p2a: Ogerpon|U-turn|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|91/100
+|
+|t:|1743832602
+|switch|p2a: Zamazenta|Zamazenta|57/100|[from] U-turn
+|move|p1a: Pecharunt|Malignant Chain|p2a: Zamazenta
+|-damage|p2a: Zamazenta|26/100
+|
+|upkeep
+|turn|56
+|
+|t:|1743832618
+|move|p2a: Zamazenta|Crunch|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|62/100
+|-unboost|p1a: Pecharunt|def|1
+|move|p1a: Pecharunt|Parting Shot|p2a: Zamazenta
+|-unboost|p2a: Zamazenta|atk|1
+|-unboost|p2a: Zamazenta|spa|1
+|
+|t:|1743832621
+|switch|p1a: Alomomola|Alomomola, M|83/100|[from] Parting Shot
+|-damage|p1a: Alomomola|70/100|[from] Stealth Rock
+|
+|upkeep
+|turn|57
+|
+|t:|1743832627
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: Alomomola|Wish|p1a: Alomomola
+|
+|upkeep
+|turn|58
+|
+|t:|1743832634
+|switch|p1a: Pecharunt|Pecharunt|62/100
+|-damage|p1a: Pecharunt|50/100|[from] Stealth Rock
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Pecharunt|[anim] Ivy Cudgel Water
+|-damage|p1a: Pecharunt|24/100
+|
+|-heal|p1a: Pecharunt|87/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|59
+|
+|t:|1743832645
+|move|p2a: Ogerpon|U-turn|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|83/100
+|
+|t:|1743832648
+|switch|p2a: Zamazenta|Zamazenta|26/100|[from] U-turn
+|move|p1a: Pecharunt|Malignant Chain|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1743832653
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|60
+|
+|t:|1743832659
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Pecharunt|[anim] Ivy Cudgel Water
+|-damage|p1a: Pecharunt|54/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|30/100
+|
+|upkeep
+|turn|61
+|
+|t:|1743832666
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Pecharunt|[anim] Ivy Cudgel Water
+|-damage|p1a: Pecharunt|24/100
+|move|p1a: Pecharunt|Malignant Chain|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|win|Celest107
+|l|‽Qiko
+|player|p2|

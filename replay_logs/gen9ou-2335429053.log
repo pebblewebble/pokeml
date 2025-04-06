@@ -1,0 +1,323 @@
+|j|☆juicelightning
+|j|‽RainebowValiant
+|t:|1743793478
+|gametype|singles
+|player|p1|juicelightning|benga|1416
+|player|p2|RainebowValiant|bellelba|1443
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cinderace, M|
+|poke|p1|Ogerpon, F|
+|poke|p1|Milotic, F|
+|poke|p1|Ribombee, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Malamar, M|
+|poke|p2|Araquanid, F|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Valiant|
+|poke|p2|Raging Bolt|
+|poke|p2|Kingambit, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RainebowValiant)
+|inactive|juicelightning also wants the timer to be on.
+|
+|t:|1743793488
+|start
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|switch|p2a: Araquanid|Araquanid, F|100/100
+|turn|1
+|
+|t:|1743793491
+|move|p1a: Ribombee|Sticky Web|p2a: Araquanid
+|-sidestart|p2: RainebowValiant|move: Sticky Web
+|move|p2a: Araquanid|Sticky Web|p1a: Ribombee
+|-sidestart|p1: juicelightning|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743793495
+|move|p1a: Ribombee|Moonblast|p2a: Araquanid
+|-damage|p2a: Araquanid|69/100
+|move|p2a: Araquanid|Surf|p1a: Ribombee
+|-damage|p1a: Ribombee|22/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743793499
+|move|p1a: Ribombee|Psychic|p2a: Araquanid
+|-damage|p2a: Araquanid|48/100
+|move|p2a: Araquanid|Surf|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|t:|1743793508
+|switch|p1a: Ogerpon|Ogerpon, F|100/100
+|-activate|p1a: Ogerpon|move: Sticky Web
+|-unboost|p1a: Ogerpon|spe|1
+|-ability|p1a: Ogerpon|Defiant|boost
+|-boost|p1a: Ogerpon|atk|2
+|turn|4
+|
+|t:|1743793512
+|move|p1a: Ogerpon|Encore|p2a: Araquanid
+|-start|p2a: Araquanid|Encore
+|move|p2a: Araquanid|Surf|p1a: Ogerpon
+|-resisted|p1a: Ogerpon
+|-damage|p1a: Ogerpon|76/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743793517
+|move|p1a: Ogerpon|Trailblaze|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|-boost|p1a: Ogerpon|spe|1
+|faint|p2a: Araquanid
+|
+|upkeep
+|
+|t:|1743793520
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|-item|p2a: Kingambit|Air Balloon
+|turn|6
+|
+|t:|1743793525
+|move|p1a: Ogerpon|Horn Leech|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|64/100
+|-heal|p1a: Ogerpon|95/100|[from] drain|[of] p2a: Kingambit
+|-enditem|p2a: Kingambit|Air Balloon
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Ogerpon
+|-damage|p1a: Ogerpon|32/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743793535
+|move|p1a: Ogerpon|Horn Leech|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|28/100
+|-heal|p1a: Ogerpon|51/100|[from] drain|[of] p2a: Kingambit
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743793542
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|8
+|
+|t:|1743793552
+|move|p1a: Cinderace|Pyro Ball|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|upkeep
+|
+|t:|1743793557
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-activate|p2a: Iron Moth|move: Sticky Web
+|-unboost|p2a: Iron Moth|spe|1
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespa
+|turn|9
+|
+|t:|1743793562
+|move|p1a: Cinderace|Zen Headbutt|p2a: Iron Moth
+|-start|p1a: Cinderace|typechange|Psychic|[from] ability: Libero
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743793569
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-activate|p2a: Raging Bolt|move: Sticky Web
+|-unboost|p2a: Raging Bolt|spe|1
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|turn|10
+|
+|t:|1743793573
+|move|p1a: Cinderace|High Jump Kick|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|62/100
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Cinderace
+|-damage|p1a: Cinderace|1/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743793579
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|12
+|
+|t:|1743793581
+|move|p2a: Raging Bolt|Thunderclap|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743793588
+|switch|p1a: Malamar|Malamar, M|100/100
+|-activate|p1a: Malamar|move: Sticky Web
+|-boost|p1a: Malamar|spe|1
+|turn|13
+|
+|t:|1743793591
+|move|p1a: Malamar|Superpower|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|31/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Malamar
+|-damage|p1a: Malamar|12/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743793607
+|move|p2a: Raging Bolt|Thunderclap|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|
+|upkeep
+|
+|t:|1743793610
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|turn|15
+|
+|t:|1743793615
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Kingambit
+|-damage|p1a: Kingambit|37/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743793617
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-activate|p2a: Iron Valiant|move: Sticky Web
+|-unboost|p2a: Iron Valiant|spe|1
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespa
+|turn|16
+|
+|t:|1743793622
+|-terastallize|p1a: Kingambit|Flying
+|move|p2a: Iron Valiant|Moonblast|p1a: Kingambit
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|
+|upkeep
+|
+|t:|1743793625
+|switch|p1a: Milotic|Milotic, F|100/100
+|-activate|p1a: Milotic|move: Sticky Web
+|-unboost|p1a: Milotic|spe|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|turn|17
+|
+|t:|1743793632
+|move|p2a: Iron Valiant|Moonblast|p1a: Milotic
+|-damage|p1a: Milotic|58/100
+|move|p1a: Milotic|Coil|p1a: Milotic
+|-boost|p1a: Milotic|atk|1
+|-boost|p1a: Milotic|def|1
+|-boost|p1a: Milotic|accuracy|1
+|
+|-heal|p1a: Milotic|64/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743793636
+|move|p2a: Iron Valiant|Moonblast|p1a: Milotic
+|-damage|p1a: Milotic|18/100
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|68/100
+|
+|-heal|p1a: Milotic|74/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743793641
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Milotic|Recover|p1a: Milotic
+|-heal|p1a: Milotic|100/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743793643
+|move|p2a: Iron Valiant|Moonblast|p1a: Milotic
+|-damage|p1a: Milotic|40/100
+|move|p1a: Milotic|Hydro Pump|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p1a: Milotic|46/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743793645
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|21
+|
+|t:|1743793649
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Milotic|Hydro Pump|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-enditem|p2a: Gholdengo|Air Balloon
+|faint|p2a: Gholdengo
+|
+|win|juicelightning
+|raw|juicelightning's rating: 1416 &rarr; <strong>1438</strong><br />(+22 for winning)
+|raw|RainebowValiant's rating: 1443 &rarr; <strong>1421</strong><br />(-22 for losing)
+|c|☆juicelightning|gg
+|l|‽RainebowValiant
+|player|p2|
+|l|☆juicelightning
+|player|p1|

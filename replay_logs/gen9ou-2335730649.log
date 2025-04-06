@@ -1,0 +1,439 @@
+|j|☆000red000
+|j|☆phonsei
+|t:|1743827268
+|gametype|singles
+|player|p1|000red000|266|1165
+|player|p2|phonsei|li|1122
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Honchkrow, M|
+|poke|p1|Hatterene, F|
+|poke|p1|Sinistcha-Masterpiece|
+|poke|p1|Clodsire, M|
+|poke|p1|Iron Thorns|
+|poke|p1|Blastoise, F|
+|poke|p2|Blaziken, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Dragapult, F|
+|poke|p2|Rotom-Wash|
+|poke|p2|Great Tusk|
+|poke|p2|Slowking, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 000red000)
+|
+|t:|1743827278
+|start
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|switch|p2a: Slowking|Slowking, M|100/100
+|turn|1
+|
+|t:|1743827286
+|move|p2a: Slowking|Future Sight|p1a: Hatterene
+|-start|p2a: Slowking|move: Future Sight
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1743827291
+|move|p1a: Hatterene|Misty Explosion|p2a: Slowking
+|-damage|p2a: Slowking|66/100
+|faint|p1a: Hatterene
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743827307
+|switch|p2a: Rotom|Rotom-Wash|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743827325
+|switch|p1a: Honchkrow|Honchkrow, M|100/100
+|-enditem|p1a: Honchkrow|Room Service
+|-unboost|p1a: Honchkrow|spe|1|[from] item: Room Service
+|turn|3
+|
+|t:|1743827345
+|-terastallize|p1a: Honchkrow|Ground
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Honchkrow|Night Slash|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Honchkrow|move: Future Sight
+|-damage|p1a: Honchkrow|39/100
+|upkeep
+|turn|4
+|
+|t:|1743827361
+|switch|p1a: Mudpie|Clodsire, M, shiny|100/100
+|move|p2a: Rotom|Volt Switch|p1a: Mudpie
+|-immune|p1a: Mudpie
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743827375
+|move|p1a: Mudpie|Stealth Rock|p2a: Rotom
+|-sidestart|p2: phonsei|move: Stealth Rock
+|move|p2a: Rotom|Hydro Pump|p1a: Mudpie
+|-immune|p1a: Mudpie|[from] ability: Water Absorb
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1743827384
+|move|p2a: Rotom|Will-O-Wisp|p1a: Mudpie
+|-status|p1a: Mudpie|brn
+|move|p1a: Mudpie|Curse|p1a: Mudpie
+|-unboost|p1a: Mudpie|spe|1
+|-boost|p1a: Mudpie|atk|1
+|-boost|p1a: Mudpie|def|1
+|
+|-weather|none
+|-damage|p1a: Mudpie|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743827397
+|switch|p2a: Slowking|Slowking, M|99/100
+|move|p1a: Mudpie|Poison Jab|p2a: Slowking
+|-crit|p2a: Slowking
+|-damage|p2a: Slowking|65/100
+|-status|p2a: Slowking|psn
+|
+|-heal|p1a: Mudpie|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Slowking|52/100 psn|[from] psn
+|-damage|p1a: Mudpie|94/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743827408
+|move|p2a: Slowking|Slack Off|p2a: Slowking
+|-heal|p2a: Slowking|100/100 psn
+|move|p1a: Mudpie|Earthquake|p2a: Slowking
+|-damage|p2a: Slowking|71/100 psn
+|
+|-heal|p1a: Mudpie|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Slowking|58/100 psn|[from] psn
+|-damage|p1a: Mudpie|94/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743827411
+|move|p2a: Slowking|Future Sight|p1a: Mudpie
+|-start|p2a: Slowking|move: Future Sight
+|move|p1a: Mudpie|Earthquake|p2a: Slowking
+|-damage|p2a: Slowking|32/100 psn
+|
+|-heal|p1a: Mudpie|100/100 brn|[from] item: Black Sludge
+|-damage|p2a: Slowking|19/100 psn|[from] psn
+|-damage|p1a: Mudpie|94/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1743827417
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743827427
+|switch|p2a: Great Tusk|Great Tusk|100/100|[from] Chilly Reception
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|move|p1a: Mudpie|Earthquake|p2a: Great Tusk
+|-damage|p2a: Great Tusk|81/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Great Tusk|87/100|[from] item: Leftovers
+|-heal|p1a: Mudpie|100/100 brn|[from] item: Black Sludge
+|-damage|p1a: Mudpie|94/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1743827438
+|move|p2a: Great Tusk|Knock Off|p1a: Mudpie
+|-damage|p1a: Mudpie|68/100 brn
+|-enditem|p1a: Mudpie|Black Sludge|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Mudpie|Poison Jab|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|81/100
+|
+|-weather|Snowscape|[upkeep]
+|-end|p1a: Mudpie|move: Future Sight
+|-supereffective|p1a: Mudpie
+|-damage|p1a: Mudpie|18/100 brn
+|-heal|p2a: Great Tusk|87/100|[from] item: Leftovers
+|-damage|p1a: Mudpie|12/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743827446
+|move|p2a: Great Tusk|Rapid Spin|p1a: Mudpie
+|-damage|p1a: Mudpie|0 fnt
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: phonsei|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|faint|p1a: Mudpie
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Great Tusk|94/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743827456
+|switch|p1a: Matches|Sinistcha-Masterpiece, shiny|100/100
+|turn|13
+|
+|t:|1743827467
+|move|p2a: Great Tusk|Ice Spinner|p1a: Matches
+|-supereffective|p1a: Matches
+|-damage|p1a: Matches|66/100
+|move|p1a: Matches|Strength Sap|p2a: Great Tusk
+|-unboost|p2a: Great Tusk|atk|1
+|-heal|p1a: Matches|100/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Great Tusk|99/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743827477
+|move|p2a: Great Tusk|Knock Off|p1a: Matches
+|-supereffective|p1a: Matches
+|-crit|p1a: Matches
+|-damage|p1a: Matches|36/100
+|-enditem|p1a: Matches|Leftovers|[from] move: Knock Off|[of] p2a: Great Tusk
+|move|p1a: Matches|Calm Mind|p1a: Matches
+|-boost|p1a: Matches|spa|1
+|-boost|p1a: Matches|spd|1
+|
+|-weather|none
+|-heal|p2a: Great Tusk|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743827481
+|move|p2a: Great Tusk|Knock Off|p1a: Matches
+|-supereffective|p1a: Matches
+|-damage|p1a: Matches|15/100
+|move|p1a: Matches|Strength Sap|p2a: Great Tusk
+|-unboost|p2a: Great Tusk|atk|1
+|-heal|p1a: Matches|76/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743827489
+|move|p2a: Great Tusk|Ice Spinner|p1a: Matches
+|-supereffective|p1a: Matches
+|-damage|p1a: Matches|57/100
+|move|p1a: Matches|Calm Mind|p1a: Matches
+|-boost|p1a: Matches|spa|1
+|-boost|p1a: Matches|spd|1
+|
+|upkeep
+|turn|17
+|
+|t:|1743827500
+|move|p2a: Great Tusk|Ice Spinner|p1a: Matches
+|-supereffective|p1a: Matches
+|-damage|p1a: Matches|38/100
+|move|p1a: Matches|Strength Sap|p2a: Great Tusk
+|-unboost|p2a: Great Tusk|atk|1
+|-heal|p1a: Matches|84/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743827504
+|move|p2a: Great Tusk|Ice Spinner|p1a: Matches
+|-supereffective|p1a: Matches
+|-damage|p1a: Matches|71/100
+|move|p1a: Matches|Matcha Gotcha|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-heal|p1a: Matches|100/100|[from] drain|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743827513
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|turn|19
+|
+|t:|1743827516
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force
+|move|p1a: Matches|Shadow Ball|p2a: Dragapult|[miss]
+|-miss|p1a: Matches|p2a: Dragapult
+|
+|upkeep
+|turn|20
+|
+|t:|1743827521
+|move|p2a: Dragapult|Phantom Force|p1a: Matches|[from] lockedmove
+|-supereffective|p1a: Matches
+|-damage|p1a: Matches|10/100
+|move|p1a: Matches|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1743827532
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|21
+|
+|t:|1743827538
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Matches
+|-supereffective|p1a: Matches
+|-damage|p1a: Matches|0 fnt
+|faint|p1a: Matches
+|
+|upkeep
+|
+|t:|1743827550
+|switch|p1a: Blastoise|Blastoise, F|100/100
+|turn|22
+|
+|t:|1743827558
+|move|p2a: Iron Valiant|Calm Mind|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|spa|1
+|-boost|p2a: Iron Valiant|spd|1
+|move|p1a: Blastoise|Liquidation|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|50/100
+|
+|upkeep
+|turn|23
+|inactive|phonsei has 120 seconds left.
+|
+|t:|1743827603
+|move|p2a: Iron Valiant|Moonblast|p1a: Blastoise
+|-damage|p1a: Blastoise|42/100
+|move|p1a: Blastoise|Liquidation|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|6/100
+|
+|-heal|p1a: Blastoise|48/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1743827613
+|move|p2a: Iron Valiant|Moonblast|p1a: Blastoise
+|-damage|p1a: Blastoise|0 fnt
+|faint|p1a: Blastoise
+|
+|upkeep
+|
+|t:|1743827615
+|switch|p1a: Honchkrow|Honchkrow, M, tera:Ground|39/100
+|turn|25
+|
+|t:|1743827626
+|move|p1a: Honchkrow|Sucker Punch|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|-ability|p1a: Honchkrow|Moxie|boost
+|-boost|p1a: Honchkrow|atk|1
+|
+|upkeep
+|
+|t:|1743827629
+|switch|p2a: Rotom|Rotom-Wash|100/100
+|turn|26
+|
+|t:|1743827637
+|move|p2a: Rotom|Protect|p2a: Rotom
+|-singleturn|p2a: Rotom|Protect
+|move|p1a: Honchkrow|Night Slash|p2a: Rotom
+|-activate|p2a: Rotom|move: Protect
+|
+|upkeep
+|turn|27
+|
+|t:|1743827646
+|move|p2a: Rotom|Hydro Pump|p1a: Honchkrow
+|-supereffective|p1a: Honchkrow
+|-crit|p1a: Honchkrow
+|-damage|p1a: Honchkrow|0 fnt
+|faint|p1a: Honchkrow
+|
+|upkeep
+|
+|t:|1743827648
+|switch|p1a: Iron Thorns|Iron Thorns|100/100
+|turn|28
+|
+|t:|1743827660
+|-terastallize|p2a: Rotom|Grass
+|move|p1a: Iron Thorns|Dragon Dance|p1a: Iron Thorns
+|-boost|p1a: Iron Thorns|atk|1
+|-boost|p1a: Iron Thorns|spe|1
+|move|p2a: Rotom|Hydro Pump|p1a: Iron Thorns|[miss]
+|-miss|p2a: Rotom|p1a: Iron Thorns
+|
+|upkeep
+|turn|29
+|
+|t:|1743827667
+|move|p1a: Iron Thorns|Rock Blast|p2a: Rotom
+|-damage|p2a: Rotom|85/100
+|-damage|p2a: Rotom|70/100
+|-damage|p2a: Rotom|54/100
+|-damage|p2a: Rotom|36/100
+|-hitcount|p2a: Rotom|4
+|move|p2a: Rotom|Will-O-Wisp|p1a: Iron Thorns
+|-status|p1a: Iron Thorns|brn
+|
+|-heal|p2a: Rotom|42/100|[from] item: Leftovers
+|-damage|p1a: Iron Thorns|94/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1743827673
+|move|p1a: Iron Thorns|Rock Blast|p2a: Rotom
+|-damage|p2a: Rotom|33/100
+|-damage|p2a: Rotom|24/100
+|-damage|p2a: Rotom|16/100
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|5/100
+|-hitcount|p2a: Rotom|4
+|move|p2a: Rotom|Hydro Pump|p1a: Iron Thorns
+|-supereffective|p1a: Iron Thorns
+|-damage|p1a: Iron Thorns|8/100 brn
+|
+|-heal|p2a: Rotom|11/100|[from] item: Leftovers
+|-damage|p1a: Iron Thorns|1/100 brn|[from] brn
+|upkeep
+|turn|31
+|-message|000red000 forfeited.
+|
+|win|phonsei
+|raw|000red000's rating: 1165 &rarr; <strong>1137</strong><br />(-28 for losing)
+|raw|phonsei's rating: 1122 &rarr; <strong>1150</strong><br />(+28 for winning)
+|l|☆000red000
+|player|p1|
+|l|☆phonsei
+|player|p2|

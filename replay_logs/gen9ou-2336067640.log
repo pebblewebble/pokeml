@@ -1,0 +1,320 @@
+|j|☆Matatex
+|j|☆CarrotStix
+|t:|1743875471
+|gametype|singles
+|player|p1|Matatex|hiker|1265
+|player|p2|CarrotStix|plasmagruntf-gen5bw|1237
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Darkrai|
+|poke|p1|Blaziken, F|
+|poke|p1|Great Tusk|
+|poke|p1|Primarina, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p2|Pincurchin, M|
+|poke|p2|Iron Thorns|
+|poke|p2|Iron Crown|
+|poke|p2|Iron Valiant|
+|poke|p2|Iron Treads|
+|poke|p2|Porygon-Z|
+|teampreview
+|
+|t:|1743875478
+|start
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|switch|p2a: Pincurchin|Pincurchin, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|1
+|
+|t:|1743875487
+|move|p1a: Blaziken|Swords Dance|p1a: Blaziken
+|-boost|p1a: Blaziken|atk|2
+|move|p2a: Pincurchin|Surf|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|17/100
+|
+|-heal|p1a: Blaziken|23/100|[from] item: Leftovers
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|2
+|
+|t:|1743875494
+|move|p1a: Blaziken|Close Combat|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|-unboost|p1a: Blaziken|def|1
+|-unboost|p1a: Blaziken|spd|1
+|faint|p2a: Pincurchin
+|
+|-heal|p1a: Blaziken|29/100|[from] item: Leftovers
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743875502
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|-ability|p2a: Porygon-Z|Download|boost
+|-boost|p2a: Porygon-Z|spa|1
+|turn|3
+|
+|t:|1743875508
+|-terastallize|p2a: Porygon-Z|Ghost
+|move|p1a: Blaziken|Close Combat|p2a: Porygon-Z
+|-immune|p2a: Porygon-Z
+|move|p2a: Porygon-Z|Tri Attack|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|upkeep
+|
+|t:|1743875517
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|4
+|
+|t:|1743875528
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-activate|p2a: Iron Valiant|ability: Quark Drive
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Darkrai|Dark Pulse|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|81/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743875534
+|switch|p1a: Primarina|Primarina, F|100/100
+|move|p2a: Iron Valiant|Close Combat|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|35/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|
+|upkeep
+|turn|6
+|
+|t:|1743875543
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Iron Valiant|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|56/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|-damage|p2a: Iron Valiant|65/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|
+|upkeep
+|turn|7
+|
+|t:|1743875557
+|move|p2a: Iron Valiant|Close Combat|p1a: Great Tusk
+|-damage|p1a: Great Tusk|10/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|-damage|p2a: Iron Valiant|48/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|move|p1a: Great Tusk|Headlong Rush|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743875567
+|switch|p2a: Porygon-Z|Porygon-Z, tera:Ghost|100/100
+|-ability|p2a: Porygon-Z|Download|boost
+|-boost|p2a: Porygon-Z|spa|1
+|turn|8
+|
+|t:|1743875574
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Primarina|Primarina, F|35/100
+|move|p2a: Porygon-Z|Tri Attack|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1743875587
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|9
+|
+|t:|1743875598
+|move|p1a: Darkrai|Dark Pulse|p2a: Porygon-Z
+|-supereffective|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|faint|p2a: Porygon-Z
+|
+|upkeep
+|
+|t:|1743875604
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|turn|10
+|
+|t:|1743875608
+|switch|p1a: Great Tusk|Great Tusk|10/100
+|move|p2a: Iron Treads|Rapid Spin|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-boost|p2a: Iron Treads|spe|1
+|-damage|p2a: Iron Treads|84/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|-damage|p2a: Iron Treads|74/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743875630
+|switch|p1a: Darkrai|Darkrai|100/100
+|turn|11
+|
+|t:|1743875638
+|move|p1a: Darkrai|Will-O-Wisp|p2a: Iron Treads
+|-status|p2a: Iron Treads|brn
+|move|p2a: Iron Treads|Earthquake|p1a: Darkrai
+|-damage|p1a: Darkrai|67/100
+|-damage|p2a: Iron Treads|64/100 brn|[from] item: Life Orb
+|
+|-damage|p2a: Iron Treads|58/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743875644
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|move|p2a: Iron Treads|Stealth Rock|p1a: Ogerpon
+|-sidestart|p1: Matatex|move: Stealth Rock
+|
+|-damage|p2a: Iron Treads|52/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1743875649
+|move|p2a: Iron Treads|Earthquake|p1a: Ogerpon
+|-damage|p1a: Ogerpon|68/100
+|-damage|p2a: Iron Treads|42/100 brn|[from] item: Life Orb
+|move|p1a: Ogerpon|Swords Dance|p1a: Ogerpon
+|-boost|p1a: Ogerpon|atk|2
+|
+|-damage|p2a: Iron Treads|35/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1743875655
+|move|p2a: Iron Treads|Earthquake|p1a: Ogerpon
+|-damage|p1a: Ogerpon|35/100
+|-damage|p2a: Iron Treads|25/100 brn|[from] item: Life Orb
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Iron Treads|[anim] Ivy Cudgel Rock
+|-resisted|p2a: Iron Treads
+|-damage|p2a: Iron Treads|5/100 brn
+|
+|-damage|p2a: Iron Treads|0 fnt|[from] brn
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|upkeep
+|
+|t:|1743875669
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|turn|15
+|
+|t:|1743875682
+|-terastallize|p1a: Ogerpon|Rock
+|detailschange|p1a: Ogerpon|Ogerpon-Cornerstone-Tera, F, tera:Rock
+|-ability|p1a: Ogerpon|Embody Aspect (Cornerstone)|boost
+|-boost|p1a: Ogerpon|def|1
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Iron Crown|[anim] Ivy Cudgel Rock
+|-resisted|p2a: Iron Crown
+|-damage|p2a: Iron Crown|37/100
+|move|p2a: Iron Crown|Future Sight|p1a: Ogerpon
+|-start|p2a: Iron Crown|move: Future Sight
+|
+|upkeep
+|turn|16
+|
+|t:|1743875693
+|move|p1a: Ogerpon|Power Whip|p2a: Iron Crown
+|-resisted|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743875697
+|switch|p2a: Iron Thorns|Iron Thorns|100/100
+|-item|p2a: Iron Thorns|Air Balloon
+|turn|17
+|
+|t:|1743875707
+|switch|p1a: Darkrai|Darkrai|67/100
+|-damage|p1a: Darkrai|55/100|[from] Stealth Rock
+|move|p2a: Iron Thorns|Earthquake|p1a: Darkrai
+|-damage|p1a: Darkrai|7/100
+|
+|-end|p1a: Darkrai|move: Future Sight
+|-immune|p1a: Darkrai
+|upkeep
+|turn|18
+|
+|t:|1743875722
+|move|p1a: Darkrai|Will-O-Wisp|p2a: Iron Thorns
+|-status|p2a: Iron Thorns|brn
+|move|p2a: Iron Thorns|Earthquake|p1a: Darkrai
+|-damage|p1a: Darkrai|0 fnt
+|faint|p1a: Darkrai
+|
+|-damage|p2a: Iron Thorns|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1743875727
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone-Tera, F, tera:Rock|35/100
+|-damage|p1a: Ogerpon|22/100|[from] Stealth Rock
+|-ability|p1a: Ogerpon|Embody Aspect (Cornerstone)|boost
+|-boost|p1a: Ogerpon|def|1
+|turn|19
+|
+|t:|1743875734
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Iron Thorns|[anim] Ivy Cudgel Rock
+|-damage|p2a: Iron Thorns|21/100 brn
+|-enditem|p2a: Iron Thorns|Air Balloon
+|move|p2a: Iron Thorns|Earthquake|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-damage|p2a: Iron Thorns|15/100 brn|[from] brn
+|upkeep
+|
+|t:|1743875744
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-damage|p1a: Raging Bolt|88/100|[from] Stealth Rock
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|turn|20
+|
+|t:|1743875748
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Iron Thorns
+|-resisted|p2a: Iron Thorns
+|-damage|p2a: Iron Thorns|0 fnt
+|faint|p2a: Iron Thorns
+|-end|p2a: Iron Thorns|Quark Drive|[silent]
+|
+|win|Matatex
+|raw|Matatex's rating: 1265 &rarr; <strong>1288</strong><br />(+23 for winning)
+|raw|CarrotStix's rating: 1237 &rarr; <strong>1214</strong><br />(-23 for losing)
+|l|☆CarrotStix
+|player|p2|
+|l|☆Matatex
+|player|p1|

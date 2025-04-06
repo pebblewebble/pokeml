@@ -1,0 +1,248 @@
+|j|☆fuxiaoLuna
+|j|☆CapitolG
+|t:|1743854983
+|gametype|singles
+|player|p1|fuxiaoLuna|cynthia|1154
+|player|p2|CapitolG|170|1140
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Gholdengo|
+|poke|p1|Enamorus, F|
+|poke|p1|Dragonite, F|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Ting-Lu|
+|poke|p1|Iron Moth|
+|poke|p2|Chandelure, M|
+|poke|p2|Gothitelle, M|
+|poke|p2|Milotic, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Cinderace, F|
+|poke|p2|Leavanny, F|
+|teampreview
+|
+|t:|1743854992
+|start
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|switch|p2a: Leavanny|Leavanny, F|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1743855000
+|move|p2a: Leavanny|Sticky Web|p1a: Ting-Lu
+|-sidestart|p1: fuxiaoLuna|move: Sticky Web
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Leavanny
+|-sidestart|p2: CapitolG|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743855007
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Ting-Lu|Spikes|p2a: Cinderace
+|-sidestart|p2: CapitolG|Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1743855015
+|move|p2a: Cinderace|High Jump Kick|p1a: Ting-Lu
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|43/100
+|move|p1a: Ting-Lu|Earthquake|p2a: Cinderace
+|-damage|p2a: Cinderace|53/100
+|
+|-heal|p1a: Ting-Lu|49/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743855027
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-activate|p1a: Gholdengo|move: Sticky Web
+|-unboost|p1a: Gholdengo|spe|1
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|5
+|
+|t:|1743855051
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|-damage|p1a: Ogerpon|76/100|[from] Spikes
+|move|p2a: Cinderace|Pyro Ball|p1a: Ogerpon
+|-damage|p1a: Ogerpon|33/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743855062
+|move|p2a: Cinderace|Fling|p1a: Ogerpon
+|-damage|p1a: Ogerpon|6/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Fling
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Cinderace|[anim] Ivy Cudgel Water
+|-crit|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1743855069
+|switch|p2a: Leavanny|Leavanny, F|100/100
+|-activate|p2a: Leavanny|move: Sticky Web
+|-unboost|p2a: Leavanny|spe|1
+|turn|7
+|
+|t:|1743855076
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Leavanny|[anim] Ivy Cudgel Water
+|-resisted|p2a: Leavanny
+|-damage|p2a: Leavanny|68/100
+|move|p2a: Leavanny|Lunge|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743855089
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-damage|p1a: Iron Moth|75/100|[from] Stealth Rock
+|-damage|p1a: Iron Moth|63/100|[from] Spikes
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|8
+|
+|t:|1743855103
+|move|p1a: Iron Moth|Fiery Dance|p2a: Leavanny
+|-supereffective|p2a: Leavanny
+|-damage|p2a: Leavanny|0 fnt
+|faint|p2a: Leavanny
+|
+|upkeep
+|
+|t:|1743855109
+|switch|p2a: Chandelure|Chandelure, M|100/100
+|-activate|p2a: Chandelure|move: Sticky Web
+|-unboost|p2a: Chandelure|spe|1
+|turn|9
+|
+|t:|1743855122
+|move|p1a: Iron Moth|Fiery Dance|p2a: Chandelure
+|-resisted|p2a: Chandelure
+|-damage|p2a: Chandelure|85/100
+|move|p2a: Chandelure|Trick Room|p2a: Chandelure
+|-fieldstart|move: Trick Room|[of] p2a: Chandelure
+|
+|upkeep
+|turn|10
+|
+|t:|1743855133
+|switch|p2a: Gothitelle|Gothitelle, M|100/100
+|-activate|p2a: Gothitelle|move: Sticky Web
+|-unboost|p2a: Gothitelle|spe|1
+|-ability|p2a: Gothitelle|Competitive|boost
+|-boost|p2a: Gothitelle|spa|2
+|move|p1a: Iron Moth|Sludge Wave|p2a: Gothitelle
+|-damage|p2a: Gothitelle|54/100
+|
+|-heal|p2a: Gothitelle|60/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743855148
+|move|p2a: Gothitelle|Psyshock|p1a: Iron Moth
+|-supereffective|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|-heal|p2a: Gothitelle|66/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743855159
+|switch|p1a: Ting-Lu|Ting-Lu|49/100
+|-damage|p1a: Ting-Lu|43/100|[from] Stealth Rock
+|-damage|p1a: Ting-Lu|30/100|[from] Spikes
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|12
+|
+|t:|1743855166
+|move|p2a: Gothitelle|Grass Knot|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|-heal|p2a: Gothitelle|72/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743855175
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|13
+|
+|t:|1743855186
+|switch|p2a: Chandelure|Chandelure, M|85/100
+|-activate|p2a: Chandelure|move: Sticky Web
+|-unboost|p2a: Chandelure|spe|1
+|move|p1a: Dragonite|Dragon Tail|p2a: Chandelure
+|-damage|p2a: Chandelure|48/100
+|drag|p2a: Milotic|Milotic, F|100/100
+|-activate|p2a: Milotic|move: Sticky Web
+|-unboost|p2a: Milotic|spe|1
+|-ability|p2a: Milotic|Competitive|boost
+|-boost|p2a: Milotic|spa|2
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|t:|1743855207
+|move|p1a: Dragonite|Earthquake|p2a: Milotic
+|-damage|p2a: Milotic|62/100
+|move|p2a: Milotic|Ice Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1743855217
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-damage|p1a: Gholdengo|94/100|[from] Stealth Rock
+|-damage|p1a: Gholdengo|82/100|[from] Spikes
+|turn|15
+|
+|t:|1743855226
+|move|p1a: Gholdengo|Make It Rain|p2a: Milotic
+|-resisted|p2a: Milotic
+|-damage|p2a: Milotic|46/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2a: Milotic|Scald|p1a: Gholdengo
+|-damage|p1a: Gholdengo|8/100
+|-status|p1a: Gholdengo|brn
+|
+|-damage|p1a: Gholdengo|1/100 brn|[from] brn
+|upkeep
+|turn|16
+|-message|fuxiaoLuna forfeited.
+|
+|win|CapitolG
+|raw|fuxiaoLuna's rating: 1154 &rarr; <strong>1130</strong><br />(-24 for losing)
+|raw|CapitolG's rating: 1167 &rarr; <strong>1191</strong><br />(+24 for winning)
+|l|☆fuxiaoLuna
+|player|p1|
+|l|☆CapitolG
+|player|p2|

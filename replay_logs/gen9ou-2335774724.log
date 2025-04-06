@@ -1,0 +1,308 @@
+|j|☆sandro001
+|j|☆dashmaster1
+|t:|1743834039
+|gametype|singles
+|player|p1|sandro001|102|1103
+|player|p2|dashmaster1|170|1155
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Rotom-Wash|
+|poke|p1|Blaziken, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Ribombee, F|
+|poke|p1|Kingambit, F|
+|poke|p2|Garchomp, F|
+|poke|p2|Metagross|
+|poke|p2|Gengar, M|
+|poke|p2|Gallade, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Pincurchin, M|
+|teampreview
+|
+|t:|1743834048
+|start
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|switch|p2a: Pincurchin|Pincurchin, M, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sandro001)
+|
+|t:|1743834065
+|move|p1a: Ribombee|Sticky Web|p2a: Pincurchin
+|-sidestart|p2: dashmaster1|move: Sticky Web
+|move|p2a: Pincurchin|Thunder Wave|p1a: Ribombee
+|-status|p1a: Ribombee|par
+|
+|upkeep
+|turn|2
+|
+|t:|1743834072
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|move|p2a: Pincurchin|Toxic Spikes|p1a: Ribombee
+|-sidestart|p1: sandro001|move: Toxic Spikes
+|
+|upkeep
+|turn|3
+|
+|t:|1743834079
+|switch|p2a: Metagross|Metagross, shiny|100/100
+|-activate|p2a: Metagross|move: Sticky Web
+|-fail|p2a: Metagross|unboost|[from] ability: Clear Body|[of] p2a: Metagross
+|cant|p1a: Ribombee|par
+|
+|upkeep
+|turn|4
+|
+|t:|1743834086
+|cant|p1a: Ribombee|par
+|move|p2a: Metagross|Heavy Slam|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-enditem|p1a: Ribombee|Focus Sash
+|-damage|p1a: Ribombee|1/100 par
+|
+|upkeep
+|turn|5
+|
+|t:|1743834092
+|move|p2a: Metagross|Bullet Punch|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|t:|1743834095
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|turn|6
+|
+|t:|1743834116
+|switch|p2a: Garchomp|Garchomp, F, shiny|100/100
+|-activate|p2a: Garchomp|move: Sticky Web
+|-unboost|p2a: Garchomp|spe|1
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1743834128
+|move|p1a: Kingambit|Iron Head|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|12/100
+|-damage|p1a: Kingambit|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Kingambit|72/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|move|p2a: Garchomp|Stealth Rock|p1a: Kingambit
+|-sidestart|p1: sandro001|move: Stealth Rock
+|
+|upkeep
+|turn|8
+|
+|t:|1743834135
+|move|p1a: Kingambit|Iron Head|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Kingambit|59/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Kingambit|43/100|[from] item: Rocky Helmet|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1743834148
+|switch|p2a: Iron Valiant|Iron Valiant, shiny|100/100
+|-activate|p2a: Iron Valiant|move: Sticky Web
+|-unboost|p2a: Iron Valiant|spe|1
+|turn|9
+|
+|t:|1743834170
+|move|p2a: Iron Valiant|Aura Sphere|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen1|[silent]
+|
+|upkeep
+|
+|t:|1743834182
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-damage|p1a: Landorus|88/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Iron Valiant|atk|1
+|turn|10
+|
+|t:|1743834191
+|move|p1a: Landorus|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|33/100
+|move|p2a: Iron Valiant|Moonblast|p1a: Landorus
+|-damage|p1a: Landorus|30/100
+|
+|-heal|p1a: Landorus|36/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1743834199
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Pincurchin|Pincurchin, M, shiny|100/100
+|-activate|p2a: Pincurchin|move: Sticky Web
+|-unboost|p2a: Pincurchin|spe|1
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Pincurchin
+|move|p1a: Landorus|Earthquake|p2a: Pincurchin
+|-supereffective|p2a: Pincurchin
+|-damage|p2a: Pincurchin|0 fnt
+|faint|p2a: Pincurchin
+|
+|-heal|p1a: Landorus|42/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743834210
+|switch|p2a: Iron Valiant|Iron Valiant, shiny|33/100
+|-activate|p2a: Iron Valiant|move: Sticky Web
+|-unboost|p2a: Iron Valiant|spe|1
+|-activate|p2a: Iron Valiant|ability: Quark Drive
+|-start|p2a: Iron Valiant|quarkdrivespa
+|turn|12
+|
+|t:|1743834216
+|move|p1a: Landorus|Earthquake|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-heal|p1a: Landorus|48/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743834219
+|switch|p2a: Gallade|Gallade, M, shiny|100/100
+|-activate|p2a: Gallade|move: Sticky Web
+|-unboost|p2a: Gallade|spe|1
+|turn|13
+|
+|t:|1743834223
+|move|p1a: Landorus|Earthquake|p2a: Gallade
+|-damage|p2a: Gallade|7/100
+|move|p2a: Gallade|Aqua Cutter|p1a: Landorus
+|-supereffective|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743834231
+|switch|p1a: Blaziken|Blaziken, F|100/100
+|-status|p1a: Blaziken|psn
+|-damage|p1a: Blaziken|88/100 psn|[from] Stealth Rock
+|turn|14
+|
+|t:|1743834239
+|move|p1a: Blaziken|Flare Blitz|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|-damage|p1a: Blaziken|86/100 psn|[from] Recoil
+|-damage|p1a: Blaziken|76/100 psn|[from] item: Life Orb
+|
+|-damage|p1a: Blaziken|64/100 psn|[from] psn
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743834248
+|switch|p2a: Gengar|Gengar, M, shiny|100/100
+|-activate|p2a: Gengar|move: Sticky Web
+|-unboost|p2a: Gengar|spe|1
+|turn|15
+|
+|t:|1743834250
+|move|p1a: Blaziken|Flare Blitz|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-start|p1a: Blaziken|Disable|Flare Blitz|[from] ability: Cursed Body|[of] p2a: Gengar
+|faint|p2a: Gengar
+|-damage|p1a: Blaziken|35/100 psn|[from] Recoil
+|-damage|p1a: Blaziken|25/100 psn|[from] item: Life Orb
+|
+|-damage|p1a: Blaziken|13/100 psn|[from] psn
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|
+|t:|1743834260
+|switch|p2a: Metagross|Metagross, shiny|100/100
+|-activate|p2a: Metagross|move: Sticky Web
+|-fail|p2a: Metagross|unboost|[from] ability: Clear Body|[of] p2a: Metagross
+|turn|16
+|
+|t:|1743834265
+|move|p2a: Metagross|Bullet Punch|p1a: Blaziken
+|-resisted|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|upkeep
+|
+|t:|1743834269
+|switch|p1a: Rotom|Rotom-Wash|100/100
+|-damage|p1a: Rotom|88/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743834273
+|move|p1a: Rotom|Trick|p2a: Metagross
+|-activate|p1a: Rotom|move: Trick|[of] p2a: Metagross
+|-item|p2a: Metagross|Choice Scarf|[from] move: Trick
+|-item|p1a: Rotom|Normal Gem|[from] move: Trick
+|move|p2a: Metagross|Heavy Slam|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|74/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743834279
+|move|p2a: Metagross|Heavy Slam|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|60/100
+|move|p1a: Rotom|Hydro Pump|p2a: Metagross
+|-damage|p2a: Metagross|55/100
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|19
+|
+|t:|1743834284
+|move|p2a: Metagross|Heavy Slam|p1a: Rotom
+|-resisted|p1a: Rotom
+|-damage|p1a: Rotom|46/100
+|move|p1a: Rotom|Hydro Pump|p2a: Metagross|[miss]
+|-miss|p1a: Rotom|p2a: Metagross
+|
+|upkeep
+|turn|20
+|l|☆dashmaster1
+|inactive|dashmaster1 disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|dashmaster1 has 30 seconds to reconnect!
+|inactive|dashmaster1 has 20 seconds to reconnect!
+|inactive|dashmaster1 has 15 seconds to reconnect!
+|inactive|dashmaster1 has 10 seconds to reconnect!
+|inactive|dashmaster1 has 5 seconds to reconnect!
+|-message|dashmaster1 lost due to inactivity.
+|
+|win|sandro001
+|raw|sandro001's rating: 1103 &rarr; <strong>1129</strong><br />(+26 for winning)
+|raw|dashmaster1's rating: 1123 &rarr; <strong>1097</strong><br />(-26 for losing)
+|l|☆sandro001
+|player|p1|

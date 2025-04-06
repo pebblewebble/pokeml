@@ -1,0 +1,198 @@
+|j|☆thebacchusbraviary
+|j|☆IwillPrayForyou
+|t:|1743852545
+|gametype|singles
+|player|p1|thebacchusbraviary|skyla|1239
+|player|p2|IwillPrayForyou|veteran-gen4|1135
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Braviary, M|
+|poke|p1|Tyranitar, F|
+|poke|p1|Regice|
+|poke|p1|Greninja-*, M|
+|poke|p1|Arcanine-Hisui, F|
+|poke|p1|Thundurus-Therian, M|
+|poke|p2|Meowscarada, F|
+|poke|p2|Hoopa-Unbound|
+|poke|p2|Haxorus, F|
+|poke|p2|Hatterene, F|
+|poke|p2|Slowking-Galar, F|
+|poke|p2|Rillaboom, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by thebacchusbraviary)
+|inactive|IwillPrayForyou also wants the timer to be on.
+|inactive|IwillPrayForyou has 120 seconds left.
+|
+|t:|1743852602
+|start
+|switch|p1a: Braviary|Braviary, M|100/100
+|switch|p2a: Slowking|Slowking-Galar, F|100/100
+|turn|1
+|
+|t:|1743852622
+|move|p1a: Braviary|U-turn|p2a: Slowking
+|-damage|p2a: Slowking|77/100
+|
+|t:|1743852625
+|switch|p1a: Tyranitar|Tyranitar, F|100/100|[from] U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Slowking|Trick Room|p2a: Slowking
+|-fieldstart|move: Trick Room|[of] p2a: Slowking
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Slowking|71/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1743852635
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743852643
+|switch|p2a: Rillaboom|Rillaboom, M|100/100|[from] Chilly Reception
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Tyranitar|Knock Off|p2a: Rillaboom
+|-damage|p2a: Rillaboom|35/100
+|-enditem|p2a: Rillaboom|Choice Band|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Rillaboom|41/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1743852657
+|switch|p1a: Regice|Regice|100/100
+|move|p2a: Rillaboom|Wood Hammer|p1a: Regice
+|-damage|p1a: Regice|66/100
+|-damage|p2a: Rillaboom|29/100|[from] Recoil
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Regice|72/100|[from] Grassy Terrain
+|-heal|p1a: Regice|79/100|[from] item: Leftovers
+|-heal|p2a: Rillaboom|35/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1743852663
+|move|p1a: Regice|Thunder Wave|p2a: Rillaboom
+|-status|p2a: Rillaboom|par
+|move|p2a: Rillaboom|Knock Off|p1a: Regice
+|-damage|p1a: Regice|64/100
+|-enditem|p1a: Regice|Leftovers|[from] move: Knock Off|[of] p2a: Rillaboom
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Regice|70/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|41/100 par|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1743852671
+|move|p1a: Regice|Ice Beam|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Regice|76/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743852680
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|-enditem|p2a: Hatterene|Grassy Seed
+|-boost|p2a: Hatterene|def|1|[from] item: Grassy Seed
+|turn|6
+|
+|t:|1743852685
+|move|p1a: Regice|Thunder Wave|p2a: Hatterene
+|move|p2a: Hatterene|Thunder Wave|p1a: Regice|[from] ability: Magic Bounce
+|-status|p1a: Regice|par
+|move|p2a: Hatterene|Substitute|p2a: Hatterene
+|-start|p2a: Hatterene|Substitute
+|-damage|p2a: Hatterene|76/100
+|
+|-weather|none
+|-heal|p1a: Regice|82/100 par|[from] Grassy Terrain
+|-heal|p2a: Hatterene|82/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1743852695
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743852703
+|move|p1a: Thundurus|Sludge Wave|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-end|p2a: Hatterene|Substitute
+|move|p2a: Hatterene|Calm Mind|p2a: Hatterene
+|-boost|p2a: Hatterene|spa|1
+|-boost|p2a: Hatterene|spd|1
+|
+|upkeep
+|turn|9
+|
+|t:|1743852713
+|move|p1a: Thundurus|Sludge Wave|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|23/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Thundurus
+|-damage|p1a: Thundurus|41/100
+|-heal|p2a: Hatterene|65/100|[from] drain|[of] p1a: Thundurus
+|
+|upkeep
+|turn|10
+|
+|t:|1743852724
+|-terastallize|p2a: Hatterene|Water
+|move|p1a: Thundurus|Sludge Wave|p2a: Hatterene
+|-damage|p2a: Hatterene|39/100
+|move|p2a: Hatterene|Draining Kiss|p1a: Thundurus
+|-damage|p1a: Thundurus|0 fnt
+|-heal|p2a: Hatterene|68/100|[from] drain|[of] p1a: Thundurus
+|faint|p1a: Thundurus
+|
+|upkeep
+|
+|t:|1743852731
+|switch|p1a: Braviary|Braviary, M|100/100
+|turn|11
+|
+|t:|1743852739
+|-terastallize|p1a: Braviary|Flying
+|move|p1a: Braviary|Brave Bird|p2a: Hatterene
+|-damage|p2a: Hatterene|21/100
+|-damage|p1a: Braviary|86/100|[from] Recoil
+|move|p2a: Hatterene|Draining Kiss|p1a: Braviary
+|-damage|p1a: Braviary|30/100
+|-heal|p2a: Hatterene|67/100|[from] drain|[of] p1a: Braviary
+|
+|upkeep
+|turn|12
+|-message|thebacchusbraviary forfeited.
+|
+|win|IwillPrayForyou
+|raw|thebacchusbraviary's rating: 1239 &rarr; <strong>1207</strong><br />(-32 for losing)
+|raw|IwillPrayForyou's rating: 1135 &rarr; <strong>1167</strong><br />(+32 for winning)
+|l|☆thebacchusbraviary
+|player|p1|
+|l|☆IwillPrayForyou
+|player|p2|

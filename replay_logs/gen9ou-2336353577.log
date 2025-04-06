@@ -1,0 +1,290 @@
+|j|☆Anderson .Pack
+|j|☆Dunoks
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|t:|1743906464
+|gametype|singles
+|player|p1|Anderson .Pack|hilbert|
+|player|p2|Dunoks|#fcl9mighty|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|Tournament battle
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ribombee, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Gholdengo|
+|poke|p1|Enamorus, F|
+|poke|p1|Iron Moth|
+|poke|p1|Kingambit, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Gholdengo|
+|poke|p2|Kyurem|
+|poke|p2|Great Tusk|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Iron Valiant|
+|teampreview
+|j|*Lady Monita ❄
+|inactive|Anderson .Pack also wants the timer to be on.
+|
+|t:|1743906474
+|start
+|switch|p1a: geeked|Ribombee, F|100/100
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|turn|1
+|
+|t:|1743906482
+|move|p2a: Great Tusk|Stone Edge|p1a: geeked
+|-supereffective|p1a: geeked
+|-crit|p1a: geeked
+|-enditem|p1a: geeked|Focus Sash
+|-damage|p1a: geeked|1/100
+|move|p1a: geeked|Sticky Web|p2a: Great Tusk
+|-sidestart|p2: Dunoks|move: Sticky Web
+|
+|upkeep
+|turn|2
+|j| dfxcgvh
+|
+|t:|1743906492
+|move|p2a: Great Tusk|Rapid Spin|p1a: geeked
+|-damage|p1a: geeked|0 fnt
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: Dunoks|Sticky Web|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|faint|p1a: geeked
+|
+|upkeep
+|
+|t:|1743906501
+|switch|p1a: penny|Gholdengo|100/100
+|-item|p1a: penny|Air Balloon
+|turn|3
+|inactive|Dunoks has 120 seconds left.
+|
+|t:|1743906536
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: penny|Make It Rain|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|75/100
+|-unboost|p1a: penny|spa|1
+|-enditem|p2a: Ting-Lu|Red Card|[of] p1a: penny
+|drag|p1a: pump 1|Enamorus, F|100/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743906547
+|move|p1a: pump 1|Moonblast|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|8/100
+|move|p2a: Ting-Lu|Stealth Rock|p1a: pump 1
+|-sidestart|p1: Anderson .Pack|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|inactive|Dunoks has 120 seconds left.
+|
+|t:|1743906591
+|move|p1a: pump 1|Moonblast|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743906594
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|6
+|
+|t:|1743906598
+|switch|p1a: whomper stomper|Iron Moth|100/100
+|-damage|p1a: whomper stomper|76/100|[from] Stealth Rock
+|-enditem|p1a: whomper stomper|Booster Energy
+|-activate|p1a: whomper stomper|ability: Quark Drive|[fromitem]
+|-start|p1a: whomper stomper|quarkdrivespa
+|move|p2a: Gholdengo|Shadow Ball|p1a: whomper stomper
+|-damage|p1a: whomper stomper|32/100
+|
+|upkeep
+|turn|7
+|inactive|Dunoks has 120 seconds left.
+|
+|t:|1743906608
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p1a: whomper stomper|Fiery Dance|p2a: Ogerpon
+|-damage|p2a: Ogerpon|30/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743906610
+|move|p1a: whomper stomper|Fiery Dance|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|-boost|p1a: whomper stomper|spa|1
+|faint|p2a: Ogerpon
+|
+|upkeep
+|
+|t:|1743906615
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|9
+|
+|t:|1743906619
+|-terastallize|p2a: Iron Valiant|Ghost
+|move|p2a: Iron Valiant|Shadow Ball|p1a: whomper stomper
+|-damage|p1a: whomper stomper|0 fnt
+|faint|p1a: whomper stomper
+|-end|p1a: whomper stomper|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743906645
+|switch|p1a: smiley61st|Kingambit, F|100/100
+|-damage|p1a: smiley61st|94/100|[from] Stealth Rock
+|-activate|p1a: smiley61st|ability: Supreme Overlord
+|-start|p1a: smiley61st|fallen2|[silent]
+|-item|p1a: smiley61st|Air Balloon
+|turn|10
+|
+|t:|1743906665
+|-terastallize|p1a: smiley61st|Ghost
+|move|p2a: Iron Valiant|Vacuum Wave|p1a: smiley61st
+|-immune|p1a: smiley61st
+|move|p1a: smiley61st|Kowtow Cleave|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743906668
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|11
+|
+|t:|1743906685
+|-end|p1a: smiley61st|fallen2|[silent]
+|switch|p1a: penny|Gholdengo|100/100
+|-damage|p1a: penny|94/100|[from] Stealth Rock
+|-item|p1a: penny|Air Balloon
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743906689
+|move|p2a: Great Tusk|Stone Edge|p1a: penny
+|-resisted|p1a: penny
+|-damage|p1a: penny|73/100
+|-enditem|p1a: penny|Air Balloon
+|move|p1a: penny|Make It Rain|p2a: Great Tusk
+|-damage|p2a: Great Tusk|21/100
+|-unboost|p1a: penny|spa|1
+|
+|upkeep
+|turn|13
+|
+|t:|1743906691
+|move|p2a: Great Tusk|Headlong Rush|p1a: penny
+|-supereffective|p1a: penny
+|-damage|p1a: penny|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: penny
+|
+|upkeep
+|
+|t:|1743906692
+|switch|p1a: pump 1|Enamorus, F|100/100
+|-damage|p1a: pump 1|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743906694
+|move|p1a: pump 1|Moonblast|p2a: Great Tusk
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743906695
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|15
+|
+|t:|1743906698
+|switch|p1a: rondo|Raging Bolt|100/100
+|-damage|p1a: rondo|88/100|[from] Stealth Rock
+|-enditem|p1a: rondo|Booster Energy
+|-activate|p1a: rondo|ability: Protosynthesis|[fromitem]
+|-start|p1a: rondo|protosynthesisspa
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|upkeep
+|turn|16
+|
+|t:|1743906700
+|move|p1a: rondo|Thunderclap|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|18/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|move|p2a: Gholdengo|Dazzling Gleam|p1a: rondo
+|-supereffective|p1a: rondo
+|-damage|p1a: rondo|0 fnt
+|faint|p1a: rondo
+|-end|p1a: rondo|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743906703
+|switch|p1a: pump 1|Enamorus, F|76/100
+|-damage|p1a: pump 1|51/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743906706
+|move|p1a: pump 1|Moonblast|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743906707
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|18
+|
+|t:|1743906709
+|move|p1a: pump 1|Moonblast|p2a: Kyurem
+|-supereffective|p2a: Kyurem
+|-damage|p2a: Kyurem|0 fnt
+|faint|p2a: Kyurem
+|
+|win|Anderson .Pack
+|n|☆Anderson .Pack|andersonpack
+|n|☆Dunoks|dunoks
+|n|*Lady Monita ❄|ladymonita
+|n| dfxcgvh|dfxcgvh
+|l|*Lady Monita ❄
+|c|☆Dunoks|Yikes
+|l|☆Dunoks
+|player|p2|

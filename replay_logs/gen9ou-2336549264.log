@@ -1,0 +1,259 @@
+|j|☆jero putero
+|j|☆dct_spite
+|t:|1743937566
+|gametype|singles
+|player|p1|jero putero|2|1514
+|player|p2|dct_spite|janitor|1635
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, F|
+|poke|p1|Corviknight, M|
+|poke|p1|Venusaur, M|
+|poke|p1|Great Tusk|
+|poke|p1|Typhlosion-Hisui, M|
+|poke|p1|Walking Wake|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Valiant|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Ogerpon-Wellspring, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dct_spite)
+|
+|t:|1743937589
+|start
+|switch|p1a: T= r*Fsin(theta)|Torkoal, F|100/100
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: T= r*Fsin(theta)
+|turn|1
+|
+|t:|1743937599
+|move|p2a: Deoxys|Taunt|p1a: T= r*Fsin(theta)
+|-start|p1a: T= r*Fsin(theta)|move: Taunt
+|cant|p1a: T= r*Fsin(theta)|move: Taunt|Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743937604
+|move|p2a: Deoxys|Stealth Rock|p1a: T= r*Fsin(theta)
+|-sidestart|p1: jero putero|move: Stealth Rock
+|move|p1a: T= r*Fsin(theta)|Rapid Spin|p2a: Deoxys
+|-damage|p2a: Deoxys|89/100
+|-boost|p1a: T= r*Fsin(theta)|spe|1
+|-sideend|p1: jero putero|Stealth Rock|[from] move: Rapid Spin|[of] p1a: T= r*Fsin(theta)
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743937616
+|switch|p1a: Dubya|Walking Wake|100/100
+|-activate|p1a: Dubya|ability: Protosynthesis
+|-start|p1a: Dubya|protosynthesisspe
+|move|p2a: Deoxys|Psycho Boost|p1a: Dubya
+|-damage|p1a: Dubya|51/100
+|-unboost|p2a: Deoxys|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743937622
+|move|p1a: Dubya|Hydro Steam|p2a: Deoxys
+|-damage|p2a: Deoxys|0 fnt
+|faint|p2a: Deoxys
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743937626
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|5
+|
+|t:|1743937635
+|-end|p1a: Dubya|Protosynthesis|[silent]
+|switch|p1a: VVS Diamonds|Venusaur, M|100/100
+|move|p2a: Ogerpon|Knock Off|p1a: VVS Diamonds
+|-damage|p1a: VVS Diamonds|47/100
+|-enditem|p1a: VVS Diamonds|Life Orb|[from] move: Knock Off|[of] p2a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743937647
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|move|p1a: VVS Diamonds|Sludge Bomb|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|81/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|inactive|jero putero has 120 seconds left.
+|
+|t:|1743937683
+|switch|p1a: I Serve The Face|Great Tusk|100/100
+|-activate|p1a: I Serve The Face|ability: Protosynthesis
+|-start|p1a: I Serve The Face|protosynthesisatk
+|move|p2a: Iron Moth|Fiery Dance|p1a: I Serve The Face
+|-damage|p1a: I Serve The Face|14/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743937690
+|move|p2a: Iron Moth|Fiery Dance|p1a: I Serve The Face
+|-damage|p1a: I Serve The Face|0 fnt
+|-boost|p2a: Iron Moth|spa|1
+|faint|p1a: I Serve The Face
+|-end|p1a: I Serve The Face|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743937693
+|switch|p1a: T= r*Fsin(theta)|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: T= r*Fsin(theta)
+|turn|9
+|
+|t:|1743937695
+|move|p2a: Iron Moth|Sludge Wave|p1a: T= r*Fsin(theta)
+|-damage|p1a: T= r*Fsin(theta)|26/100
+|move|p1a: T= r*Fsin(theta)|Earthquake|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743937707
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: T= r*Fsin(theta)|atk|1
+|turn|10
+|
+|t:|1743937713
+|switch|p1a: Dubya|Walking Wake|51/100
+|-activate|p1a: Dubya|ability: Protosynthesis
+|-start|p1a: Dubya|protosynthesisspe
+|move|p2a: Landorus|U-turn|p1a: Dubya
+|-damage|p1a: Dubya|4/100
+|
+|t:|1743937728
+|switch|p2a: Iron Valiant|Iron Valiant|100/100|[from] U-turn
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743937743
+|-end|p1a: Dubya|Protosynthesis|[silent]
+|switch|p1a: Corvfefe|Corviknight, M|100/100
+|-ability|p1a: Corvfefe|Pressure
+|move|p2a: Iron Valiant|Knock Off|p1a: Corvfefe
+|-crit|p1a: Corvfefe
+|-damage|p1a: Corvfefe|71/100
+|-damage|p2a: Iron Valiant|84/100|[from] item: Rocky Helmet|[of] p1a: Corvfefe
+|-enditem|p1a: Corvfefe|Rocky Helmet|[from] move: Knock Off|[of] p2a: Iron Valiant
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743937747
+|move|p2a: Iron Valiant|Swords Dance|p2a: Iron Valiant
+|-boost|p2a: Iron Valiant|atk|2
+|move|p1a: Corvfefe|Brave Bird|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|-damage|p1a: Corvfefe|51/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743937753
+|switch|p2a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|turn|13
+|
+|t:|1743937757
+|move|p2a: Ogerpon|Swords Dance|p2a: Ogerpon
+|-boost|p2a: Ogerpon|atk|2
+|move|p1a: Corvfefe|Brave Bird|p2a: Ogerpon
+|-supereffective|p2a: Ogerpon
+|-damage|p2a: Ogerpon|4/100
+|-damage|p1a: Corvfefe|27/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743937761
+|move|p2a: Ogerpon|Ivy Cudgel|p1a: Corvfefe|[anim] Ivy Cudgel Water
+|-damage|p1a: Corvfefe|0 fnt
+|faint|p1a: Corvfefe
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743937764
+|switch|p1a: Ty Collar Sign|Typhlosion-Hisui, M|100/100
+|turn|15
+|
+|t:|1743937767
+|move|p1a: Ty Collar Sign|Eruption|p2a: Ogerpon
+|-damage|p2a: Ogerpon|0 fnt
+|faint|p2a: Ogerpon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743937775
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|16
+|
+|t:|1743937778
+|-terastallize|p1a: Ty Collar Sign|Fire
+|move|p1a: Ty Collar Sign|Eruption|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|-weather|none
+|upkeep
+|-message|dct_spite forfeited.
+|
+|win|jero putero
+|raw|jero putero's rating: 1541 &rarr; <strong>1566</strong><br />(+25 for winning)
+|raw|dct_spite's rating: 1635 &rarr; <strong>1610</strong><br />(-25 for losing)
+|l|☆dct_spite
+|player|p2|
+|l|☆jero putero
+|player|p1|

@@ -1,0 +1,359 @@
+|j|☆Tillman1000
+|j|☆kinsword
+|t:|1743863564
+|gametype|singles
+|player|p1|Tillman1000|swimmer|1309
+|player|p2|kinsword|2|1285
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Enamorus, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Great Tusk|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Dragapult, M|
+|poke|p2|Eelektross, M|
+|poke|p2|Zapdos-Galar|
+|poke|p2|Brambleghast, F|
+|poke|p2|Goodra-Hisui, M|
+|poke|p2|Entei|
+|poke|p2|Suicune|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kinsword)
+|
+|t:|1743863574
+|start
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|switch|p2a: Eelektross|Eelektross, M|100/100
+|turn|1
+|
+|t:|1743863581
+|move|p1a: Dragapult|U-turn|p2a: Eelektross
+|-damage|p2a: Eelektross|82/100
+|
+|t:|1743863588
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] U-turn
+|move|p2a: Eelektross|Knock Off|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|90/100
+|-damage|p2a: Eelektross|65/100|[from] item: Rocky Helmet|[of] p1a: Great Tusk
+|-enditem|p1a: Great Tusk|Rocky Helmet|[from] move: Knock Off|[of] p2a: Eelektross
+|
+|-heal|p2a: Eelektross|71/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743863601
+|move|p1a: Great Tusk|Knock Off|p2a: Eelektross
+|-damage|p2a: Eelektross|42/100
+|-enditem|p2a: Eelektross|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Eelektross|Coil|p2a: Eelektross
+|-boost|p2a: Eelektross|atk|1
+|-boost|p2a: Eelektross|def|1
+|-boost|p2a: Eelektross|accuracy|1
+|
+|upkeep
+|turn|3
+|
+|t:|1743863615
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Eelektross|Liquidation|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|70/100
+|-unboost|p1a: Dragapult|def|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743863630
+|switch|p2a: Goodra|Goodra-Hisui, M|100/100
+|move|p1a: Dragapult|Draco Meteor|p2a: Goodra
+|-damage|p2a: Goodra|68/100
+|-unboost|p1a: Dragapult|spa|2
+|
+|-heal|p2a: Goodra|74/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743863645
+|move|p1a: Dragapult|U-turn|p2a: Goodra
+|-resisted|p2a: Goodra
+|-damage|p2a: Goodra|66/100
+|
+|t:|1743863651
+|switch|p1a: Great Tusk|Great Tusk|90/100|[from] U-turn
+|move|p2a: Goodra|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|77/100
+|
+|-heal|p2a: Goodra|72/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743863661
+|move|p1a: Great Tusk|Knock Off|p2a: Goodra
+|-damage|p2a: Goodra|46/100
+|-enditem|p2a: Goodra|Leftovers|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Goodra|Draco Meteor|p1a: Great Tusk
+|-damage|p1a: Great Tusk|10/100
+|-unboost|p2a: Goodra|spa|2
+|
+|upkeep
+|turn|7
+|
+|t:|1743863671
+|switch|p2a: Eelektross|Eelektross, M|42/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Eelektross
+|-immune|p2a: Eelektross|[from] ability: Levitate
+|
+|upkeep
+|turn|8
+|
+|t:|1743863685
+|move|p1a: Great Tusk|Ice Spinner|p2a: Eelektross
+|-damage|p2a: Eelektross|15/100
+|move|p2a: Eelektross|Liquidation|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743863699
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|9
+|
+|t:|1743863704
+|move|p1a: Enamorus|Moonblast|p2a: Eelektross
+|-damage|p2a: Eelektross|0 fnt
+|faint|p2a: Eelektross
+|
+|upkeep
+|
+|t:|1743863711
+|switch|p2a: Entei|Entei, shiny|100/100
+|-ability|p2a: Entei|Pressure
+|turn|10
+|
+|t:|1743863733
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|move|p2a: Entei|Sacred Fire|p1a: Ogerpon
+|-damage|p1a: Ogerpon|29/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743863742
+|move|p2a: Entei|Extreme Speed|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743863752
+|switch|p1a: Dragapult|Dragapult, M|70/100
+|turn|12
+|
+|t:|1743863761
+|switch|p2a: Goodra|Goodra-Hisui, M|46/100
+|-terastallize|p1a: Dragapult|Dragon
+|move|p1a: Dragapult|Draco Meteor|p2a: Goodra
+|-damage|p2a: Goodra|7/100
+|-unboost|p1a: Dragapult|spa|2
+|
+|upkeep
+|turn|13
+|
+|t:|1743863772
+|switch|p2a: Suicune|Suicune|100/100
+|-ability|p2a: Suicune|Pressure
+|move|p1a: Dragapult|Draco Meteor|p2a: Suicune
+|-damage|p2a: Suicune|73/100
+|-unboost|p1a: Dragapult|spa|2
+|
+|-heal|p2a: Suicune|79/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743863783
+|move|p1a: Dragapult|Thunder Wave|p2a: Suicune
+|-status|p2a: Suicune|par
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1743863794
+|move|p1a: Dragapult|U-turn|p2a: Suicune
+|-damage|p2a: Suicune|75/100 par
+|
+|t:|1743863797
+|switch|p1a: Kingambit|Kingambit, M|100/100|[from] U-turn
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Suicune|Calm Mind|p2a: Suicune
+|-boost|p2a: Suicune|spa|1
+|-boost|p2a: Suicune|spd|1
+|
+|-heal|p2a: Suicune|81/100 par|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743863809
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Suicune
+|-damage|p2a: Suicune|48/100 par
+|cant|p2a: Suicune|par
+|
+|-heal|p2a: Suicune|54/100 par|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743863819
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Suicune
+|-damage|p2a: Suicune|19/100 par
+|move|p2a: Suicune|Scald|p1a: Kingambit
+|-damage|p1a: Kingambit|55/100
+|
+|-heal|p1a: Kingambit|61/100|[from] item: Leftovers
+|-heal|p2a: Suicune|25/100 par|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743863831
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Suicune
+|-damage|p2a: Suicune|0 fnt
+|faint|p2a: Suicune
+|
+|-heal|p1a: Kingambit|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743863840
+|switch|p2a: Entei|Entei, shiny|100/100
+|-ability|p2a: Entei|Pressure
+|turn|19
+|
+|t:|1743863855
+|move|p1a: Kingambit|Sucker Punch|p2a: Entei
+|-damage|p2a: Entei|47/100
+|move|p2a: Entei|Sacred Fire|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen2|[silent]
+|
+|upkeep
+|
+|t:|1743863868
+|switch|p1a: Dragapult|Dragapult, M, tera:Dragon|70/100
+|turn|20
+|
+|t:|1743863875
+|switch|p2a: Goodra|Goodra-Hisui, M|7/100
+|move|p1a: Dragapult|Thunder Wave|p2a: Goodra|[miss]
+|-miss|p1a: Dragapult|p2a: Goodra
+|
+|upkeep
+|turn|21
+|
+|t:|1743863887
+|switch|p2a: Zapdos|Zapdos-Galar|100/100
+|move|p1a: Dragapult|Hex|p2a: Zapdos
+|-damage|p2a: Zapdos|69/100
+|
+|upkeep
+|turn|22
+|
+|t:|1743863902
+|switch|p1a: Slowking|Slowking-Galar, M|100/100
+|move|p2a: Zapdos|Brave Bird|p1a: Slowking
+|-damage|p1a: Slowking|36/100
+|-damage|p2a: Zapdos|43/100|[from] Recoil
+|
+|upkeep
+|turn|23
+|
+|t:|1743863911
+|move|p2a: Zapdos|Brave Bird|p1a: Slowking
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|-damage|p2a: Zapdos|28/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1743863919
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|turn|24
+|
+|t:|1743863923
+|move|p1a: Enamorus|Moonblast|p2a: Zapdos
+|-supereffective|p2a: Zapdos
+|-damage|p2a: Zapdos|0 fnt
+|faint|p2a: Zapdos
+|
+|upkeep
+|
+|t:|1743863929
+|switch|p2a: Entei|Entei, shiny|47/100
+|-ability|p2a: Entei|Pressure
+|turn|25
+|
+|t:|1743863939
+|move|p1a: Enamorus|Moonblast|p2a: Entei
+|-resisted|p2a: Entei
+|-damage|p2a: Entei|20/100
+|move|p2a: Entei|Stone Edge|p1a: Enamorus
+|-supereffective|p1a: Enamorus
+|-damage|p1a: Enamorus|0 fnt
+|faint|p1a: Enamorus
+|
+|upkeep
+|
+|t:|1743863947
+|switch|p1a: Dragapult|Dragapult, M, tera:Dragon|70/100
+|turn|26
+|
+|t:|1743863962
+|move|p2a: Entei|Extreme Speed|p1a: Dragapult
+|-damage|p1a: Dragapult|35/100
+|move|p1a: Dragapult|Hex|p2a: Entei
+|-damage|p2a: Entei|0 fnt
+|faint|p2a: Entei
+|
+|upkeep
+|
+|t:|1743863970
+|switch|p2a: Brambleghast|Brambleghast, F|100/100
+|turn|27
+|
+|t:|1743863981
+|-terastallize|p2a: Brambleghast|Fire
+|move|p1a: Dragapult|Draco Meteor|p2a: Brambleghast
+|-damage|p2a: Brambleghast|3/100
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Brambleghast|Power Whip|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|kinsword
+|raw|Tillman1000's rating: 1309 &rarr; <strong>1288</strong><br />(-21 for losing)
+|raw|kinsword's rating: 1285 &rarr; <strong>1312</strong><br />(+27 for winning)
+|l|☆Tillman1000
+|player|p1|
+|l|☆kinsword
+|player|p2|

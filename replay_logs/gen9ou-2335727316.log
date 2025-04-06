@@ -1,0 +1,364 @@
+|j|☆bakabomb
+|j|☆kabutopzboy
+|t:|1743826790
+|gametype|singles
+|player|p1|bakabomb|eusine|1153
+|player|p2|kabutopzboy|n|1170
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Reuniclus, M|
+|poke|p1|Porygon2|
+|poke|p1|Kingambit, F|
+|poke|p1|Raging Bolt|
+|poke|p1|Chandelure, M|
+|poke|p1|Conkeldurr, M|
+|poke|p2|Politoed, M|
+|poke|p2|Iron Jugulis|
+|poke|p2|Overqwil, M|
+|poke|p2|Zapdos|
+|poke|p2|Registeel|
+|poke|p2|Thundurus, M|
+|teampreview
+|
+|t:|1743826802
+|start
+|switch|p1a: Porygon2|Porygon2|100/100
+|switch|p2a: Geeked up|Politoed, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Geeked up
+|-ability|p1a: Porygon2|Drizzle|[from] ability: Trace|[of] p2a: Geeked up
+|turn|1
+|
+|t:|1743826811
+|move|p2a: Geeked up|Weather Ball|p1a: Porygon2
+|-damage|p1a: Porygon2|70/100
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743826819
+|move|p1a: Porygon2|Tri Attack|p2a: Geeked up
+|-damage|p2a: Geeked up|70/100
+|move|p2a: Geeked up|Encore|p1a: Porygon2
+|-start|p1a: Porygon2|Encore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743826827
+|move|p1a: Porygon2|Tri Attack|p2a: Geeked up
+|-damage|p2a: Geeked up|40/100
+|move|p2a: Geeked up|Perish Song|p2a: Geeked up
+|-start|p1a: Porygon2|perish3|[silent]
+|-start|p2a: Geeked up|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Porygon2|perish3
+|-start|p2a: Geeked up|perish3
+|upkeep
+|turn|4
+|
+|t:|1743826841
+|switch|p2a: Registeel|Registeel|100/100
+|move|p1a: Porygon2|Tri Attack|p2a: Registeel
+|-resisted|p2a: Registeel
+|-damage|p2a: Registeel|90/100
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Porygon2|perish2
+|upkeep
+|turn|5
+|
+|t:|1743826853
+|switch|p1a: Chandelure|Chandelure, M|100/100
+|move|p2a: Registeel|Curse|p2a: Registeel
+|-unboost|p2a: Registeel|spe|1
+|-boost|p2a: Registeel|atk|1
+|-boost|p2a: Registeel|def|1
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1743826863
+|-terastallize|p2a: Registeel|Ghost
+|move|p1a: Chandelure|Will-O-Wisp|p2a: Registeel
+|-status|p2a: Registeel|brn
+|move|p2a: Registeel|Curse|p1a: Chandelure
+|-start|p1a: Chandelure|Curse|[of] p2a: Registeel
+|-damage|p2a: Registeel|40/100 brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Registeel|34/100 brn|[from] brn
+|-damage|p1a: Chandelure|75/100|[from] Curse
+|upkeep
+|turn|7
+|
+|t:|1743826874
+|move|p2a: Registeel|Rest|p2a: Registeel
+|-status|p2a: Registeel|slp|[from] move: Rest
+|-heal|p2a: Registeel|100/100 slp|[silent]
+|-enditem|p2a: Registeel|Chesto Berry|[eat]
+|-curestatus|p2a: Registeel|slp|[msg]
+|move|p1a: Chandelure|Trick Room|p1a: Chandelure
+|-fieldstart|move: Trick Room|[of] p1a: Chandelure
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Chandelure|50/100|[from] Curse
+|upkeep
+|turn|8
+|
+|t:|1743826887
+|move|p2a: Registeel|Iron Head|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|25/100
+|move|p1a: Chandelure|Hex|p2a: Registeel
+|-supereffective|p2a: Registeel
+|-damage|p2a: Registeel|30/100
+|
+|-weather|none
+|-damage|p1a: Chandelure|0 fnt|[from] Curse
+|faint|p1a: Chandelure
+|upkeep
+|
+|t:|1743826914
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen1|[silent]
+|-item|p1a: Kingambit|Air Balloon
+|turn|9
+|
+|t:|1743826935
+|move|p2a: Registeel|Curse|p1a: Kingambit
+|-start|p1a: Kingambit|Curse|[of] p2a: Registeel
+|-damage|p2a: Registeel|0 fnt
+|faint|p2a: Registeel
+|move|p1a: Kingambit|Iron Head|p2: Registeel|[notarget]
+|-fail|p1a: Kingambit
+|
+|-damage|p1a: Kingambit|75/100|[from] Curse
+|upkeep
+|
+|t:|1743826947
+|switch|p2a: Geeked up|Politoed, M|40/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Geeked up
+|turn|10
+|
+|t:|1743826952
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Geeked up|Perish Song|p2a: Geeked up
+|-start|p1a: Kingambit|perish3|[silent]
+|-start|p2a: Geeked up|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Kingambit|50/100|[from] Curse
+|-start|p1a: Kingambit|perish3
+|-start|p2a: Geeked up|perish3
+|upkeep
+|turn|11
+|
+|t:|1743826962
+|-end|p1a: Kingambit|fallen1|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Geeked up|Encore||[still]
+|-fail|p2a: Geeked up
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Geeked up|perish2
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|
+|t:|1743826975
+|switch|p2a: Thundurus|Thundurus, M|100/100
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Thundurus
+|-damage|p2a: Thundurus|0 fnt
+|-unboost|p1a: Raging Bolt|spa|2
+|faint|p2a: Thundurus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743826991
+|switch|p2a: Overqwil|Overqwil, M, shiny|100/100
+|turn|13
+|
+|t:|1743827011
+|move|p2a: Overqwil|Swords Dance|p2a: Overqwil
+|-boost|p2a: Overqwil|atk|2
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743827023
+|move|p2a: Overqwil|Poison Jab|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|31/100
+|-status|p1a: Raging Bolt|psn
+|move|p1a: Raging Bolt|Draco Meteor|p2a: Overqwil
+|-damage|p2a: Overqwil|10/100
+|-unboost|p1a: Raging Bolt|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Overqwil|16/100|[from] item: Leftovers
+|-damage|p1a: Raging Bolt|19/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1743827034
+|move|p1a: Raging Bolt|Thunderclap|p2a: Overqwil
+|-damage|p2a: Overqwil|0 fnt
+|faint|p2a: Overqwil
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Raging Bolt|6/100 psn|[from] psn
+|upkeep
+|
+|t:|1743827039
+|switch|p2a: $hmoney|Iron Jugulis, shiny|100/100
+|-enditem|p2a: $hmoney|Booster Energy
+|-activate|p2a: $hmoney|ability: Quark Drive|[fromitem]
+|-start|p2a: $hmoney|quarkdrivespe
+|turn|16
+|
+|t:|1743827045
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|move|p2a: $hmoney|Work Up|p2a: $hmoney
+|-boost|p2a: $hmoney|atk|1
+|-boost|p2a: $hmoney|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Raging Bolt|0 fnt|[from] psn
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1743827051
+|switch|p1a: Porygon2|Porygon2|70/100
+|turn|17
+|
+|t:|1743827055
+|move|p2a: $hmoney|Hurricane|p1a: Porygon2
+|-damage|p1a: Porygon2|30/100
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|-weather|none
+|upkeep
+|turn|18
+|
+|t:|1743827062
+|move|p1a: Porygon2|Ice Beam|p2a: $hmoney
+|-supereffective|p2a: $hmoney
+|-damage|p2a: $hmoney|50/100
+|move|p2a: $hmoney|Hurricane|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|
+|upkeep
+|
+|t:|1743827074
+|switch|p1a: Reuniclus|Reuniclus, M, shiny|100/100
+|turn|19
+|
+|t:|1743827083
+|-terastallize|p1a: Reuniclus|Fairy
+|move|p1a: Reuniclus|Tera Blast|p2a: $hmoney|[anim] Tera Blast Fairy
+|-supereffective|p2a: $hmoney
+|-damage|p2a: $hmoney|0 fnt
+|faint|p2a: $hmoney
+|-end|p2a: $hmoney|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743827089
+|switch|p2a: Geeked up|Politoed, M|40/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Geeked up
+|turn|20
+|
+|t:|1743827102
+|move|p1a: Reuniclus|Tera Blast|p2a: Geeked up|[anim] Tera Blast Fairy
+|-damage|p2a: Geeked up|0 fnt
+|faint|p2a: Geeked up
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743827107
+|switch|p2a: Zapp|Zapdos|100/100
+|turn|21
+|
+|t:|1743827111
+|move|p1a: Reuniclus|Tera Blast|p2a: Zapp|[anim] Tera Blast Fairy
+|-damage|p2a: Zapp|33/100
+|move|p2a: Zapp|Hurricane|p1a: Reuniclus
+|-damage|p1a: Reuniclus|60/100
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|22
+|
+|t:|1743827119
+|move|p2a: Zapp|Hurricane|p1a: Reuniclus
+|-damage|p1a: Reuniclus|18/100
+|-start|p1a: Reuniclus|confusion
+|-activate|p1a: Reuniclus|confusion
+|-damage|p1a: Reuniclus|12/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1743827126
+|move|p2a: Zapp|Hurricane|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743827128
+|switch|p1a: Kingambit|Kingambit, F|50/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|-item|p1a: Kingambit|Air Balloon
+|turn|24
+|
+|t:|1743827136
+|move|p1a: Kingambit|Sucker Punch|p2a: Zapp
+|-damage|p2a: Zapp|0 fnt
+|faint|p2a: Zapp
+|
+|win|bakabomb
+|raw|bakabomb's rating: 1153 &rarr; <strong>1179</strong><br />(+26 for winning)
+|raw|kabutopzboy's rating: 1170 &rarr; <strong>1144</strong><br />(-26 for losing)
+|l|☆kabutopzboy
+|player|p2|
+|l|☆bakabomb
+|player|p1|

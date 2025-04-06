@@ -1,0 +1,325 @@
+|j|☆Benshy
+|j|☆Noxxam
+|t:|1743889575
+|gametype|singles
+|player|p1|Benshy|n|1330
+|player|p2|Noxxam|102|1359
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Articuno|
+|poke|p1|Tauros-Paldea-Aqua, M|
+|poke|p1|Arcanine-Hisui, M|
+|poke|p1|Gliscor, F|
+|poke|p1|Iron Crown|
+|poke|p1|Dragonite, F|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Araquanid, M|
+|poke|p2|Great Tusk|
+|poke|p2|Gholdengo|
+|poke|p2|Enamorus, F|
+|poke|p2|Iron Moth|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Noxxam)
+|inactive|Benshy also wants the timer to be on.
+|
+|t:|1743889605
+|start
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|switch|p2a: Rude Boy|Great Tusk|100/100
+|turn|1
+|
+|t:|1743889616
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|move|p2a: Rude Boy|Knock Off|p1a: Gliscor
+|-damage|p1a: Gliscor|83/100
+|-enditem|p1a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p2a: Rude Boy
+|
+|upkeep
+|turn|2
+|
+|t:|1743889623
+|move|p2a: Rude Boy|Ice Spinner|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|25/100
+|move|p1a: Gliscor|Toxic|p2a: Rude Boy
+|-status|p2a: Rude Boy|tox
+|
+|-damage|p2a: Rude Boy|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1743889634
+|-end|p2a: Rude Boy|Protosynthesis|[silent]
+|switch|p2a: Chemin d'or|Araquanid, M|100/100
+|move|p1a: Gliscor|Protect||[still]
+|-fail|p1a: Gliscor
+|
+|upkeep
+|turn|4
+|
+|t:|1743889639
+|move|p1a: Gliscor|Toxic|p2a: Chemin d'or
+|-status|p2a: Chemin d'or|tox
+|move|p2a: Chemin d'or|Sticky Web|p1a: Gliscor
+|-sidestart|p1: Benshy|move: Sticky Web
+|
+|-damage|p2a: Chemin d'or|94/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1743889658
+|move|p1a: Gliscor|Knock Off|p2a: Chemin d'or
+|-damage|p2a: Chemin d'or|70/100 tox
+|-enditem|p2a: Chemin d'or|Red Card|[from] move: Knock Off|[of] p1a: Gliscor
+|move|p2a: Chemin d'or|Scary Face|p1a: Gliscor
+|-unboost|p1a: Gliscor|spe|2
+|
+|-damage|p2a: Chemin d'or|58/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743889673
+|move|p2a: Chemin d'or|Surf|p1a: Gliscor
+|-supereffective|p1a: Gliscor
+|-damage|p1a: Gliscor|0 fnt
+|faint|p1a: Gliscor
+|
+|-damage|p2a: Chemin d'or|39/100 tox|[from] psn
+|upkeep
+|
+|t:|1743889680
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|turn|7
+|
+|t:|1743889683
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Chemin d'or|Scary Face|p1a: Dragonite
+|-unboost|p1a: Dragonite|spe|2
+|
+|-damage|p2a: Chemin d'or|15/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743889692
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Chemin d'or|Scary Face|p1a: Dragonite
+|-unboost|p1a: Dragonite|spe|2
+|
+|-damage|p2a: Chemin d'or|0 fnt|[from] psn
+|faint|p2a: Chemin d'or
+|upkeep
+|
+|t:|1743889696
+|switch|p2a: Rude Boy|Great Tusk|94/100 tox
+|turn|9
+|
+|t:|1743889702
+|move|p2a: Rude Boy|Ice Spinner|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|50/100
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-damage|p2a: Rude Boy|88/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743889719
+|switch|p1a: Tauros|Tauros-Paldea-Aqua, M|100/100
+|-activate|p1a: Tauros|move: Sticky Web
+|-unboost|p1a: Tauros|spe|1
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Rude Boy|atk|1
+|move|p2a: Rude Boy|Ice Spinner|p1a: Tauros
+|-resisted|p1a: Tauros
+|-damage|p1a: Tauros|92/100
+|
+|-damage|p2a: Rude Boy|76/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743889733
+|move|p2a: Rude Boy|Knock Off|p1a: Tauros
+|-resisted|p1a: Tauros
+|-damage|p1a: Tauros|82/100
+|-enditem|p1a: Tauros|Life Orb|[from] move: Knock Off|[of] p2a: Rude Boy
+|move|p1a: Tauros|Trailblaze|p2a: Rude Boy
+|-supereffective|p2a: Rude Boy
+|-damage|p2a: Rude Boy|56/100 tox
+|-boost|p1a: Tauros|spe|1
+|-damage|p1a: Tauros|65/100|[from] item: Rocky Helmet|[of] p2a: Rude Boy
+|
+|-damage|p2a: Rude Boy|37/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1743889751
+|move|p1a: Tauros|Trailblaze|p2a: Rude Boy
+|-supereffective|p2a: Rude Boy
+|-damage|p2a: Rude Boy|17/100 tox
+|-boost|p1a: Tauros|spe|1
+|-damage|p1a: Tauros|49/100|[from] item: Rocky Helmet|[of] p2a: Rude Boy
+|move|p2a: Rude Boy|Headlong Rush|p1a: Tauros
+|-damage|p1a: Tauros|13/100
+|-unboost|p2a: Rude Boy|def|1
+|-unboost|p2a: Rude Boy|spd|1
+|
+|-damage|p2a: Rude Boy|0 fnt|[from] psn
+|faint|p2a: Rude Boy
+|-end|p2a: Rude Boy|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1743889760
+|switch|p2a: Millionaire|Gholdengo|100/100
+|-item|p2a: Millionaire|Air Balloon
+|turn|13
+|
+|t:|1743889770
+|move|p1a: Tauros|Wave Crash|p2a: Millionaire
+|-damage|p2a: Millionaire|40/100
+|-enditem|p2a: Millionaire|Air Balloon
+|-damage|p1a: Tauros|0 fnt|[from] Recoil
+|faint|p1a: Tauros
+|move|p2a: Millionaire|Shadow Ball|p1: Tauros|[notarget]
+|-fail|p2a: Millionaire
+|
+|upkeep
+|
+|t:|1743889779
+|switch|p1a: Dragonite|Dragonite, F|50/100
+|turn|14
+|
+|t:|1743889782
+|move|p2a: Millionaire|Make It Rain|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-unboost|p2a: Millionaire|spa|1
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1743889803
+|switch|p1a: Arcanine|Arcanine-Hisui, M|100/100
+|-activate|p1a: Arcanine|move: Sticky Web
+|-unboost|p1a: Arcanine|spe|1
+|turn|15
+|
+|t:|1743889808
+|move|p2a: Millionaire|Focus Blast|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|32/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Millionaire
+|-supereffective|p2a: Millionaire
+|-damage|p2a: Millionaire|0 fnt
+|faint|p2a: Millionaire
+|-damage|p1a: Arcanine|22/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Noxxam has 120 seconds left.
+|
+|t:|1743889846
+|switch|p2a: Escorte|Enamorus, F|100/100
+|turn|16
+|
+|t:|1743889856
+|move|p2a: Escorte|Superpower|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|-boost|p2a: Escorte|atk|1
+|-boost|p2a: Escorte|def|1
+|faint|p1a: Arcanine
+|
+|upkeep
+|
+|t:|1743889868
+|switch|p1a: Articuno|Articuno|100/100
+|-ability|p1a: Articuno|Pressure
+|turn|17
+|
+|t:|1743889878
+|-terastallize|p1a: Articuno|Ground
+|move|p2a: Escorte|Iron Head|p1a: Articuno
+|-damage|p1a: Articuno|66/100
+|move|p1a: Articuno|Ice Beam|p2a: Escorte
+|-supereffective|p2a: Escorte
+|-damage|p2a: Escorte|9/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743889895
+|move|p2a: Escorte|Superpower|p1a: Articuno
+|-damage|p1a: Articuno|18/100
+|-boost|p2a: Escorte|atk|1
+|-boost|p2a: Escorte|def|1
+|move|p1a: Articuno|Ice Beam|p2a: Escorte
+|-supereffective|p2a: Escorte
+|-damage|p2a: Escorte|0 fnt
+|faint|p2a: Escorte
+|
+|upkeep
+|
+|t:|1743889901
+|switch|p2a: Ciao|Iron Moth|100/100
+|-enditem|p2a: Ciao|Booster Energy
+|-activate|p2a: Ciao|ability: Quark Drive|[fromitem]
+|-start|p2a: Ciao|quarkdrivespa
+|turn|19
+|
+|t:|1743889907
+|move|p2a: Ciao|Fiery Dance|p1a: Articuno
+|-damage|p1a: Articuno|0 fnt
+|-boost|p2a: Ciao|spa|1
+|faint|p1a: Articuno
+|
+|upkeep
+|
+|t:|1743889912
+|switch|p1a: Iron Crown|Iron Crown|100/100
+|-activate|p1a: Iron Crown|move: Sticky Web
+|-unboost|p1a: Iron Crown|spe|1
+|turn|20
+|
+|t:|1743889918
+|move|p2a: Ciao|Fiery Dance|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|8/100
+|-boost|p2a: Ciao|spa|1
+|move|p1a: Iron Crown|Psychic Noise|p2a: Ciao
+|-supereffective|p2a: Ciao
+|-damage|p2a: Ciao|7/100
+|-start|p2a: Ciao|move: Heal Block
+|
+|upkeep
+|turn|21
+|
+|t:|1743889928
+|move|p2a: Ciao|Fiery Dance|p1a: Iron Crown
+|-supereffective|p1a: Iron Crown
+|-damage|p1a: Iron Crown|0 fnt
+|-boost|p2a: Ciao|spa|1
+|faint|p1a: Iron Crown
+|-end|p1a: Iron Crown|Quark Drive|[silent]
+|
+|win|Noxxam
+|raw|Benshy's rating: 1330 &rarr; <strong>1312</strong><br />(-18 for losing)
+|raw|Noxxam's rating: 1359 &rarr; <strong>1377</strong><br />(+18 for winning)
+|l|☆Benshy
+|player|p1|
+|l|☆Noxxam
+|player|p2|

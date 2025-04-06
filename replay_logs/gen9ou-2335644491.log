@@ -1,0 +1,91 @@
+|j|☆2(H2O)
+|j|☆a jellyfish
+|t:|1743816218
+|gametype|singles
+|player|p1|2(H2O)|chase|1826
+|player|p2|a jellyfish|fisherman-gen4|1738
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Sandy Shocks|
+|poke|p1|Gholdengo|
+|poke|p1|Iron Valiant|
+|poke|p1|Walking Wake|
+|poke|p2|Staraptor, F|
+|poke|p2|Iron Treads|
+|poke|p2|Zamazenta-*|
+|poke|p2|Dragonite, F|
+|poke|p2|Gholdengo|
+|poke|p2|Moltres-Galar|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by a jellyfish)
+|
+|t:|1743816232
+|start
+|switch|p1a: Sandy Shocks|Sandy Shocks|100/100
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p1a: Sandy Shocks|Booster Energy
+|-activate|p1a: Sandy Shocks|ability: Protosynthesis|[fromitem]
+|-start|p1a: Sandy Shocks|protosynthesisspe
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1743816243
+|move|p1a: Sandy Shocks|Earth Power|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743816258
+|switch|p2a: Moltres|Moltres-Galar|100/100
+|turn|2
+|
+|t:|1743816261
+|move|p1a: Sandy Shocks|Thunderbolt|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|32/100
+|-ability|p2a: Moltres|Berserk|boost
+|-boost|p2a: Moltres|spa|1
+|move|p2a: Moltres|Pain Split|p1a: Sandy Shocks
+|-sethp|p1a: Sandy Shocks|66/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Moltres|66/100|[from] move: Pain Split
+|
+|-heal|p2a: Moltres|72/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743816268
+|move|p1a: Sandy Shocks|Thunderbolt|p2a: Moltres
+|-supereffective|p2a: Moltres
+|-damage|p2a: Moltres|0 fnt
+|faint|p2a: Moltres
+|
+|upkeep
+|-message|a jellyfish forfeited.
+|
+|win|2(H2O)
+|raw|2(H2O)'s rating: 1826 &rarr; <strong>1841</strong><br />(+15 for winning)
+|raw|a jellyfish's rating: 1738 &rarr; <strong>1723</strong><br />(-15 for losing)
+|l|☆a jellyfish
+|player|p2|
+|j| spicy boii
+|l| spicy boii
+|l|☆2(H2O)
+|player|p1|

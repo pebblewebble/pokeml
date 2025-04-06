@@ -1,0 +1,438 @@
+|j|☆rlau1209
+|j|☆SIGM4
+|t:|1743844642
+|gametype|singles
+|player|p1|rlau1209|2|1112
+|player|p2|SIGM4|gentleman-gen4|1107
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Torkoal, M|
+|poke|p1|Leafeon, M|
+|poke|p1|Walking Wake|
+|poke|p1|Grafaiai, F|
+|poke|p1|Chandelure, F|
+|poke|p1|Leavanny, M|
+|poke|p2|Iron Moth|
+|poke|p2|Umbreon, F|
+|poke|p2|Kingambit, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Slowking, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1743844657
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: flopman|Slowking, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1743844676
+|switch|p1a: Leafeon|Leafeon, M|100/100
+|move|p2a: flopman|Scald|p1a: Leafeon
+|-resisted|p1a: Leafeon
+|-damage|p1a: Leafeon|87/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743844688
+|move|p1a: Leafeon|Knock Off|p2a: flopman
+|-supereffective|p2a: flopman
+|-damage|p2a: flopman|35/100
+|-enditem|p2a: flopman|Leftovers|[from] move: Knock Off|[of] p1a: Leafeon
+|-damage|p1a: Leafeon|77/100|[from] item: Life Orb
+|-prepare|p2a: flopman|Chilly Reception|[premajor]
+|move|p2a: flopman|Chilly Reception|p2a: flopman
+|-weather|Snowscape
+|
+|t:|1743844705
+|switch|p2a: bite-de-fer|Iron Moth|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743844714
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: bite-de-fer|Sludge Wave|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743844727
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|4
+|
+|t:|1743844741
+|-end|p2a: bite-de-fer|Quark Drive|[silent]
+|switch|p2a: Umbreon|Umbreon, F, shiny|100/100
+|move|p1a: Walking Wake|Draco Meteor|p2a: Umbreon
+|-damage|p2a: Umbreon|60/100
+|-unboost|p1a: Walking Wake|spa|2
+|-enditem|p1a: Walking Wake|White Herb
+|-clearnegativeboost|p1a: Walking Wake|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Umbreon|66/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743844753
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Walking Wake|Hydro Steam|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Umbreon|72/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|l|☆rlau1209
+|player|p1|
+|j|☆rlau1209
+|player|p1|rlau1209|2|
+|
+|t:|1743844778
+|move|p1a: Walking Wake|Hydro Steam|p2a: Umbreon
+|-damage|p2a: Umbreon|35/100
+|move|p2a: Umbreon|Wish|p2a: Umbreon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Umbreon|41/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743844800
+|move|p1a: Walking Wake|Hydro Steam|p2a: Umbreon
+|-damage|p2a: Umbreon|6/100
+|move|p2a: Umbreon|Foul Play|p1a: Walking Wake
+|-damage|p1a: Walking Wake|72/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Umbreon|56/100|[from] move: Wish|[wisher] Umbreon
+|-heal|p2a: Umbreon|62/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743844813
+|move|p1a: Walking Wake|Hydro Steam|p2a: Umbreon
+|-damage|p2a: Umbreon|26/100
+|move|p2a: Umbreon|Toxic|p1a: Walking Wake
+|-status|p1a: Walking Wake|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Umbreon|32/100|[from] item: Leftovers
+|-damage|p1a: Walking Wake|66/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743844823
+|move|p2a: Umbreon|Protect|p2a: Umbreon
+|-singleturn|p2a: Umbreon|Protect
+|move|p1a: Walking Wake|Hydro Steam|p2a: Umbreon
+|-activate|p2a: Umbreon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Umbreon|38/100|[from] item: Leftovers
+|-damage|p1a: Walking Wake|53/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1743844845
+|move|p1a: Walking Wake|Draco Meteor|p2a: Umbreon
+|-damage|p2a: Umbreon|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: Umbreon
+|
+|-weather|none
+|-end|p1a: Walking Wake|Protosynthesis
+|-damage|p1a: Walking Wake|35/100 tox|[from] psn
+|upkeep
+|
+|t:|1743844857
+|switch|p2a: flopman|Slowking, F|68/100
+|turn|11
+|
+|t:|1743844866
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Grafaiai|Grafaiai, F|100/100
+|move|p2a: flopman|Slack Off|p2a: flopman
+|-heal|p2a: flopman|100/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743844896
+|move|p1a: Grafaiai|Encore|p2a: flopman
+|-start|p2a: flopman|Encore
+|move|p2a: flopman|Slack Off||[still]
+|-fail|p2a: flopman|heal
+|
+|upkeep
+|turn|13
+|
+|t:|1743844908
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|move|p1a: Grafaiai|Sunny Day|p1a: Grafaiai
+|-weather|SunnyDay
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743844928
+|switch|p1a: Leavanny|Leavanny, M|100/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Leavanny
+|-resisted|p1a: Leavanny
+|-damage|p1a: Leavanny|66/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743844940
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: bite-de-fer|Iron Moth|100/100
+|move|p1a: Leavanny|Leaf Blade|p2a: bite-de-fer
+|-resisted|p2a: bite-de-fer
+|-damage|p2a: bite-de-fer|81/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743844978
+|switch|p1a: Chandelure|Chandelure, F|100/100
+|move|p2a: bite-de-fer|Sludge Wave|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|47/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743844988
+|move|p1a: Chandelure|Shadow Ball|p2a: bite-de-fer
+|-damage|p2a: bite-de-fer|32/100
+|move|p2a: bite-de-fer|Sludge Wave|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|-weather|none
+|upkeep
+|
+|t:|1743845009
+|switch|p1a: Walking Wake|Walking Wake|35/100 tox
+|turn|18
+|
+|t:|1743845017
+|move|p1a: Walking Wake|Aqua Jet|p2a: bite-de-fer
+|-supereffective|p2a: bite-de-fer
+|-damage|p2a: bite-de-fer|0 fnt
+|faint|p2a: bite-de-fer
+|-end|p2a: bite-de-fer|Quark Drive|[silent]
+|
+|-damage|p1a: Walking Wake|29/100 tox|[from] psn
+|upkeep
+|
+|t:|1743845023
+|switch|p2a: Jack|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Jack
+|turn|19
+|
+|t:|1743845039
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Grafaiai|Grafaiai, F|100/100
+|move|p2a: Jack|Grassy Glide|p1a: Grafaiai
+|-resisted|p1a: Grafaiai
+|-damage|p1a: Grafaiai|47/100
+|
+|-heal|p1a: Grafaiai|53/100|[from] Grassy Terrain
+|upkeep
+|turn|20
+|
+|t:|1743845049
+|move|p1a: Grafaiai|Sunny Day|p1a: Grafaiai
+|-weather|SunnyDay
+|move|p2a: Jack|Grassy Glide|p1a: Grafaiai
+|-resisted|p1a: Grafaiai
+|-damage|p1a: Grafaiai|6/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Grafaiai|12/100|[from] Grassy Terrain
+|upkeep
+|turn|21
+|
+|t:|1743845060
+|switch|p2a: flopman|Slowking, F|100/100
+|move|p1a: Grafaiai|Gunk Shot|p2a: flopman
+|-damage|p2a: flopman|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Grafaiai|18/100|[from] Grassy Terrain
+|-heal|p2a: flopman|71/100|[from] Grassy Terrain
+|upkeep
+|turn|22
+|
+|t:|1743845076
+|switch|p1a: Leafeon|Leafeon, M|77/100
+|-prepare|p2a: flopman|Chilly Reception|[premajor]
+|move|p2a: flopman|Chilly Reception|p2a: flopman
+|-weather|Snowscape
+|
+|t:|1743845091
+|switch|p2a: Jack|Rillaboom, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Leafeon|83/100|[from] Grassy Terrain
+|upkeep
+|turn|23
+|
+|t:|1743845101
+|-terastallize|p1a: Leafeon|Fire
+|move|p1a: Leafeon|Tera Blast|p2a: Jack|[anim] Tera Blast Fire
+|-supereffective|p2a: Jack
+|-damage|p2a: Jack|0 fnt
+|faint|p2a: Jack
+|-damage|p1a: Leafeon|73/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Leafeon|79/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1743845113
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|turn|24
+|
+|t:|1743845130
+|switch|p1a: Leavanny|Leavanny, M|66/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Leavanny
+|-resisted|p1a: Leavanny
+|-damage|p1a: Leavanny|44/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1743845143
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Mifune|Kingambit, M|100/100
+|-activate|p2a: Mifune|ability: Supreme Overlord
+|-start|p2a: Mifune|fallen3|[silent]
+|move|p1a: Leavanny|Triple Axel|p2a: Mifune
+|-resisted|p2a: Mifune
+|-damage|p2a: Mifune|98/100
+|-resisted|p2a: Mifune
+|-damage|p2a: Mifune|93/100
+|-resisted|p2a: Mifune
+|-damage|p2a: Mifune|87/100
+|-hitcount|p2a: Mifune|3
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Mifune|93/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1743845165
+|move|p1a: Leavanny|Leaf Blade|p2a: Mifune
+|-resisted|p2a: Mifune
+|-damage|p2a: Mifune|78/100
+|move|p2a: Mifune|Swords Dance|p2a: Mifune
+|-boost|p2a: Mifune|atk|2
+|
+|-weather|none
+|-heal|p2a: Mifune|84/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1743845183
+|move|p1a: Leavanny|Leaf Blade|p2a: Mifune
+|-resisted|p2a: Mifune
+|-damage|p2a: Mifune|67/100
+|move|p2a: Mifune|Swords Dance|p2a: Mifune
+|-boost|p2a: Mifune|atk|2
+|
+|-heal|p2a: Mifune|73/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1743845195
+|move|p1a: Leavanny|Fell Stinger|p2a: Mifune
+|-damage|p2a: Mifune|54/100
+|move|p2a: Mifune|Swords Dance|p2a: Mifune
+|-boost|p2a: Mifune|atk|2
+|
+|-heal|p2a: Mifune|60/100|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1743845204
+|move|p2a: Mifune|Sucker Punch|p1a: Leavanny
+|-damage|p1a: Leavanny|0 fnt
+|faint|p1a: Leavanny
+|
+|-heal|p2a: Mifune|66/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743845210
+|switch|p1a: Grafaiai|Grafaiai, F|18/100
+|turn|30
+|
+|t:|1743845216
+|move|p1a: Grafaiai|Sunny Day|p1a: Grafaiai
+|-weather|SunnyDay
+|move|p2a: Mifune|Kowtow Cleave|p1a: Grafaiai
+|-damage|p1a: Grafaiai|0 fnt
+|faint|p1a: Grafaiai
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Mifune|72/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743845223
+|switch|p1a: Leafeon|Leafeon, M, tera:Fire|79/100
+|turn|31
+|
+|t:|1743845230
+|move|p2a: Mifune|Sucker Punch|p1a: Leafeon
+|-damage|p1a: Leafeon|0 fnt
+|faint|p1a: Leafeon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Mifune|78/100|[from] item: Leftovers
+|upkeep
+|-message|rlau1209 forfeited.
+|
+|win|SIGM4
+|raw|rlau1209's rating: 1112 &rarr; <strong>1087</strong><br />(-25 for losing)
+|raw|SIGM4's rating: 1107 &rarr; <strong>1132</strong><br />(+25 for winning)
+|l|☆rlau1209
+|player|p1|
+|l|☆SIGM4
+|player|p2|

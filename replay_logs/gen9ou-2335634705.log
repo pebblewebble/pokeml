@@ -1,0 +1,268 @@
+|j|☆Fermmin
+|j|☆tastyjason
+|t:|1743815044
+|gametype|singles
+|player|p1|Fermmin|rood|1321
+|player|p2|tastyjason|2|1394
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pawmot, F|
+|poke|p1|Dusclops, M|
+|poke|p1|Hoopa|
+|poke|p1|Zamazenta-*|
+|poke|p1|Goodra-Hisui, F|
+|poke|p1|Milotic, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Talonflame, F|
+|poke|p2|Primarina, F|
+|poke|p2|Slowking-Galar, L99, F|
+|poke|p2|Kyurem|
+|poke|p2|Kingambit, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fermmin)
+|inactive|tastyjason has 120 seconds left.
+|
+|t:|1743815081
+|start
+|switch|p1a: Goodra|Goodra-Hisui, F|100/100
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|turn|1
+|
+|t:|1743815087
+|move|p1a: Goodra|Curse|p1a: Goodra
+|-unboost|p1a: Goodra|spe|1
+|-boost|p1a: Goodra|atk|1
+|-boost|p1a: Goodra|def|1
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1743815093
+|move|p2a: Kingambit|Low Kick|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|-damage|p2a: Kingambit|84/100|[from] item: Rocky Helmet|[of] p1a: Goodra
+|faint|p1a: Goodra
+|
+|upkeep
+|
+|t:|1743815097
+|switch|p1a: Pawmot|Pawmot, F|100/100
+|turn|3
+|inactive|tastyjason has 120 seconds left.
+|inactive|tastyjason has 90 seconds left.
+|
+|t:|1743815161
+|-end|p2a: Kingambit|fallenundefined|[silent]
+|switch|p2a: Slowking|Slowking-Galar, L99, F|100/100
+|move|p1a: Pawmot|Close Combat|p2a: Slowking
+|-resisted|p2a: Slowking
+|-damage|p2a: Slowking|89/100
+|-unboost|p1a: Pawmot|def|1
+|-unboost|p1a: Pawmot|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743815168
+|move|p1a: Pawmot|Volt Switch|p2a: Slowking
+|-damage|p2a: Slowking|79/100
+|
+|t:|1743815173
+|switch|p1a: Milotic|Milotic, F|100/100|[from] Volt Switch
+|move|p2a: Slowking|Psychic Noise|p1a: Milotic
+|-damage|p1a: Milotic|86/100
+|-start|p1a: Milotic|move: Heal Block
+|
+|-status|p1a: Milotic|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1743815182
+|move|p1a: Milotic|Coil|p1a: Milotic
+|-boost|p1a: Milotic|atk|1
+|-boost|p1a: Milotic|def|1
+|-boost|p1a: Milotic|accuracy|1
+|move|p2a: Slowking|Sludge Bomb|p1a: Milotic
+|-damage|p1a: Milotic|68/100 brn
+|
+|-damage|p1a: Milotic|62/100 brn|[from] brn
+|-end|p1a: Milotic|move: Heal Block
+|upkeep
+|turn|6
+|
+|t:|1743815199
+|move|p1a: Milotic|Coil|p1a: Milotic
+|-boost|p1a: Milotic|atk|1
+|-boost|p1a: Milotic|def|1
+|-boost|p1a: Milotic|accuracy|1
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743815202
+|switch|p2a: Dragapult|Dragapult, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Milotic|56/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743815206
+|move|p2a: Dragapult|Draco Meteor|p1a: Milotic
+|-crit|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|-unboost|p2a: Dragapult|spa|2
+|faint|p1a: Milotic
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743815210
+|switch|p1a: Pawmot|Pawmot, F|100/100
+|turn|8
+|
+|t:|1743815214
+|switch|p2a: Slowking|Slowking-Galar, L99, F|100/100
+|move|p1a: Pawmot|Revival Blessing|p1a: Pawmot
+|-enditem|p1a: Pawmot|Leppa Berry|[eat]
+|-activate|p1a: Pawmot|item: Leppa Berry|Revival Blessing|[consumed]
+|
+|t:|1743815225
+|-heal|p1: Goodra|50/100|[from] move: Revival Blessing
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1743815231
+|move|p1a: Pawmot|Revival Blessing|p1a: Pawmot
+|
+|t:|1743815233
+|-heal|p1: Milotic|50/100|[from] move: Revival Blessing
+|move|p2a: Slowking|Psychic Noise|p1a: Pawmot
+|-supereffective|p1a: Pawmot
+|-damage|p1a: Pawmot|25/100
+|-start|p1a: Pawmot|move: Heal Block
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743815237
+|move|p1a: Pawmot|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking
+|-damage|p2a: Slowking|47/100
+|-enditem|p2a: Slowking|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Pawmot
+|move|p2a: Slowking|Psychic Noise|p1a: Pawmot
+|-supereffective|p1a: Pawmot
+|-damage|p1a: Pawmot|0 fnt
+|faint|p1a: Pawmot
+|
+|-weather|none
+|upkeep
+|
+|t:|1743815245
+|switch|p1a: Goodra|Goodra-Hisui, F|50/100
+|turn|11
+|
+|t:|1743815251
+|move|p1a: Goodra|Curse|p1a: Goodra
+|-unboost|p1a: Goodra|spe|1
+|-boost|p1a: Goodra|atk|1
+|-boost|p1a: Goodra|def|1
+|move|p2a: Slowking|Thunder Wave|p1a: Goodra
+|-status|p1a: Goodra|par
+|
+|upkeep
+|turn|12
+|
+|t:|1743815257
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1743815260
+|switch|p2a: Talonflame|Talonflame, F|100/100|[from] Chilly Reception
+|cant|p1a: Goodra|par
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743815263
+|move|p2a: Talonflame|Flamethrower|p1a: Goodra
+|-damage|p1a: Goodra|39/100 par
+|move|p1a: Goodra|Rest|p1a: Goodra
+|-status|p1a: Goodra|slp|[from] move: Rest
+|-heal|p1a: Goodra|100/100 slp|[silent]
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743815267
+|move|p2a: Talonflame|U-turn|p1a: Goodra
+|-resisted|p1a: Goodra
+|-damage|p1a: Goodra|97/100 slp
+|-damage|p2a: Talonflame|84/100|[from] item: Rocky Helmet|[of] p1a: Goodra
+|
+|t:|1743815269
+|switch|p2a: Kingambit|Kingambit, M|84/100|[from] U-turn
+|cant|p1a: Goodra|slp
+|move|p1a: Goodra|Sleep Talk|p1a: Goodra
+|move|p1a: Goodra|Rest||[from] move: Sleep Talk|[still]
+|-fail|p1a: Goodra
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743815277
+|-terastallize|p1a: Goodra|Ghost
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|cant|p1a: Goodra|slp
+|move|p1a: Goodra|Sleep Talk|p1a: Goodra
+|move|p1a: Goodra|Rest||[from] move: Sleep Talk|[still]
+|-fail|p1a: Goodra
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743815292
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Goodra
+|-supereffective|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|-damage|p2a: Kingambit|68/100|[from] item: Rocky Helmet|[of] p1a: Goodra
+|faint|p1a: Goodra
+|
+|-weather|none
+|upkeep
+|
+|t:|1743815296
+|switch|p1a: Hoopa|Hoopa|100/100
+|turn|17
+|-message|Fermmin forfeited.
+|
+|win|tastyjason
+|raw|Fermmin's rating: 1321 &rarr; <strong>1305</strong><br />(-16 for losing)
+|raw|tastyjason's rating: 1394 &rarr; <strong>1410</strong><br />(+16 for winning)
+|l|☆Fermmin
+|player|p1|
+|l|☆tastyjason
+|player|p2|

@@ -1,0 +1,393 @@
+|j|☆DicksonYang
+|j|☆jp8 the marth main
+|t:|1743826146
+|gametype|singles
+|player|p1|DicksonYang|leaf-masters|1361
+|player|p2|jp8 the marth main|101|1424
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Kingambit, M|
+|poke|p1|Iron Valiant|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Iron Treads|
+|poke|p1|Primarina, F|
+|poke|p1|Gholdengo|
+|poke|p2|Fezandipiti, M|
+|poke|p2|Great Tusk|
+|poke|p2|Hydrapple, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Salazzle, F|
+|poke|p2|Weavile, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DicksonYang)
+|
+|t:|1743826159
+|start
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|switch|p2a: Salazzle|Salazzle, F|100/100
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivespe
+|turn|1
+|
+|t:|1743826162
+|move|p1a: Iron Treads|Earthquake|p2a: Salazzle
+|-supereffective|p2a: Salazzle
+|-enditem|p2a: Salazzle|Focus Sash
+|-damage|p2a: Salazzle|1/100
+|move|p2a: Salazzle|Fire Blast|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743826167
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|2
+|
+|t:|1743826177
+|switch|p2a: Fezandipiti|Fezandipiti, M|100/100
+|move|p1a: Iron Valiant|Knock Off|p2a: Fezandipiti
+|-resisted|p2a: Fezandipiti
+|-damage|p2a: Fezandipiti|83/100
+|-enditem|p2a: Fezandipiti|Choice Band|[from] move: Knock Off|[of] p1a: Iron Valiant
+|
+|upkeep
+|turn|3
+|
+|t:|1743826183
+|move|p1a: Iron Valiant|Destiny Bond|p1a: Iron Valiant
+|-singlemove|p1a: Iron Valiant|Destiny Bond
+|move|p2a: Fezandipiti|Play Rough|p1a: Iron Valiant
+|-supereffective|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-activate|p1a: Iron Valiant|move: Destiny Bond
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|faint|p2a: Fezandipiti
+|
+|upkeep
+|
+|t:|1743826189
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|switch|p2a: Salazzle|Salazzle, F|1/100
+|turn|4
+|
+|t:|1743826193
+|switch|p2a: Hydrapple|Hydrapple, M, shiny|100/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Hydrapple
+|-damage|p2a: Hydrapple|63/100
+|-sidestart|p2: jp8 the marth main|Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1743826201
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen2|[silent]
+|move|p2a: Hydrapple|Giga Drain|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|79/100
+|-heal|p2a: Hydrapple|73/100|[from] drain|[of] p1a: Kingambit
+|
+|-heal|p1a: Kingambit|85/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743826212
+|-end|p1a: Kingambit|fallen2|[silent]
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|move|p2a: Hydrapple|Earth Power|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|
+|upkeep
+|turn|7
+|
+|t:|1743826217
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Hydrapple|Giga Drain|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|76/100
+|-heal|p2a: Hydrapple|82/100|[from] drain|[of] p1a: Gholdengo
+|-enditem|p1a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|8
+|
+|t:|1743826225
+|move|p1a: Gholdengo|Shadow Ball|p2a: Hydrapple
+|-damage|p2a: Hydrapple|3/100
+|move|p2a: Hydrapple|Earth Power|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1743826228
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|turn|9
+|
+|t:|1743826233
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-damage|p2a: Raging Bolt|88/100|[from] Spikes
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Samurott|Ceaseless Edge|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|48/100
+|-sidestart|p2: jp8 the marth main|Spikes
+|
+|upkeep
+|turn|10
+|
+|t:|1743826240
+|move|p1a: Samurott|Ceaseless Edge|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|12/100
+|-sidestart|p2: jp8 the marth main|Spikes
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-crit|p1a: Samurott
+|-enditem|p1a: Samurott|Focus Sash
+|-damage|p1a: Samurott|1/100
+|
+|upkeep
+|turn|11
+|
+|t:|1743826244
+|move|p2a: Raging Bolt|Thunderclap||[still]
+|-fail|p2a: Raging Bolt
+|move|p1a: Samurott|Encore|p2a: Raging Bolt
+|-start|p2a: Raging Bolt|Encore
+|
+|upkeep
+|turn|12
+|
+|t:|1743826258
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|switch|p2a: Weavile|Weavile, F|100/100
+|-ability|p2a: Weavile|Pressure
+|move|p1a: Samurott|Ceaseless Edge|p2a: Weavile
+|-resisted|p2a: Weavile
+|-damage|p2a: Weavile|61/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743826263
+|move|p2a: Weavile|Ice Shard|p1a: Samurott
+|-resisted|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1743826267
+|switch|p1a: Primarina|Primarina, F|100/100
+|turn|14
+|
+|t:|1743826274
+|move|p2a: Weavile|Knock Off|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|82/100
+|-enditem|p1a: Primarina|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|move|p1a: Primarina|Substitute|p1a: Primarina
+|-start|p1a: Primarina|Substitute
+|-damage|p1a: Primarina|57/100
+|
+|upkeep
+|turn|15
+|
+|t:|1743826282
+|move|p2a: Weavile|Triple Axel|p1a: Primarina
+|-resisted|p1a: Primarina
+|-activate|p1a: Primarina|move: Substitute|[damage]
+|-resisted|p1a: Primarina
+|-activate|p1a: Primarina|move: Substitute|[damage]
+|-resisted|p1a: Primarina
+|-activate|p1a: Primarina|move: Substitute|[damage]
+|-hitcount|p1a: Primarina|3
+|move|p1a: Primarina|Draining Kiss|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|3/100
+|-heal|p1a: Primarina|90/100|[from] drain|[of] p2a: Weavile
+|
+|upkeep
+|turn|16
+|
+|t:|1743826289
+|move|p2a: Weavile|Triple Axel|p1a: Primarina
+|-resisted|p1a: Primarina
+|-end|p1a: Primarina|Substitute
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|83/100
+|-resisted|p1a: Primarina
+|-crit|p1a: Primarina
+|-damage|p1a: Primarina|65/100
+|-hitcount|p1a: Primarina|3
+|move|p1a: Primarina|Calm Mind|p1a: Primarina
+|-boost|p1a: Primarina|spa|1
+|-boost|p1a: Primarina|spd|1
+|
+|upkeep
+|turn|17
+|
+|t:|1743826294
+|move|p2a: Weavile|Triple Axel|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|61/100
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|52/100
+|-hitcount|p1a: Primarina|2
+|move|p1a: Primarina|Substitute|p1a: Primarina
+|-start|p1a: Primarina|Substitute
+|-damage|p1a: Primarina|27/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743826299
+|move|p2a: Weavile|Knock Off|p1a: Primarina
+|-resisted|p1a: Primarina
+|-activate|p1a: Primarina|move: Substitute|[damage]
+|move|p1a: Primarina|Draining Kiss|p2a: Weavile
+|-supereffective|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|-heal|p1a: Primarina|29/100|[from] drain|[of] p2a: Weavile
+|faint|p2a: Weavile
+|
+|upkeep
+|
+|t:|1743826303
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|76/100|[from] Spikes
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|19
+|
+|t:|1743826309
+|-terastallize|p2a: Great Tusk|Water
+|move|p2a: Great Tusk|Rapid Spin|p1a: Primarina
+|-end|p1a: Primarina|Substitute
+|-sideend|p2: jp8 the marth main|Spikes|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|-boost|p2a: Great Tusk|spe|1
+|move|p1a: Primarina|Draining Kiss|p2a: Great Tusk
+|-damage|p2a: Great Tusk|30/100
+|-heal|p1a: Primarina|63/100|[from] drain|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|20
+|
+|t:|1743826314
+|move|p2a: Great Tusk|Headlong Rush|p1a: Primarina
+|-damage|p1a: Primarina|2/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Primarina|Draining Kiss|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|-heal|p1a: Primarina|24/100|[from] drain|[of] p2a: Great Tusk
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743826318
+|switch|p2a: Salazzle|Salazzle, F|1/100
+|turn|21
+|
+|t:|1743826324
+|move|p2a: Salazzle|Sludge Wave|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|upkeep
+|
+|t:|1743826326
+|switch|p1a: Kingambit|Kingambit, M|85/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|22
+|
+|t:|1743826330
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Salazzle|Encore|p1a: Kingambit
+|-start|p1a: Kingambit|Encore
+|
+|-heal|p1a: Kingambit|91/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743826333
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Salazzle|Toxic|p1a: Kingambit
+|-status|p1a: Kingambit|tox
+|
+|-heal|p1a: Kingambit|97/100 tox|[from] item: Leftovers
+|-damage|p1a: Kingambit|91/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1743826339
+|switch|p2a: Hydrapple|Hydrapple, M, shiny|36/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-heal|p1a: Kingambit|97/100 tox|[from] item: Leftovers
+|-damage|p1a: Kingambit|85/100 tox|[from] psn
+|upkeep
+|turn|25
+|
+|t:|1743826342
+|switch|p2a: Salazzle|Salazzle, F|1/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-heal|p1a: Kingambit|91/100 tox|[from] item: Leftovers
+|-damage|p1a: Kingambit|73/100 tox|[from] psn
+|-end|p1a: Kingambit|Encore
+|upkeep
+|turn|26
+|
+|t:|1743826347
+|-terastallize|p1a: Kingambit|Ghost
+|move|p2a: Salazzle|Encore|p1a: Kingambit
+|-start|p1a: Kingambit|Encore
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-heal|p1a: Kingambit|79/100 tox|[from] item: Leftovers
+|-damage|p1a: Kingambit|54/100 tox|[from] psn
+|upkeep
+|turn|27
+|-message|DicksonYang forfeited.
+|
+|win|jp8 the marth main
+|raw|DicksonYang's rating: 1361 &rarr; <strong>1345</strong><br />(-16 for losing)
+|raw|jp8 the marth main's rating: 1424 &rarr; <strong>1440</strong><br />(+16 for winning)
+|l|☆DicksonYang
+|player|p1|
+|l|☆jp8 the marth main
+|player|p2|

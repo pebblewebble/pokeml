@@ -1,0 +1,177 @@
+|j|☆OujAxy
+|j|☆Chunkapillar
+|t:|1743914172
+|gametype|singles
+|player|p1|OujAxy|169|1363
+|player|p2|Chunkapillar|rancher|1326
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Raging Bolt|
+|poke|p1|Walking Wake|
+|poke|p1|Torkoal, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Iron Moth|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p2|Darkrai|
+|poke|p2|Glimmora, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Zamazenta-*|
+|poke|p2|Corviknight, M|
+|poke|p2|Iron Valiant|
+|teampreview
+|
+|t:|1743914184
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Garbage Man|Glimmora, F|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Garbage Man|atk|1
+|turn|1
+|
+|t:|1743914191
+|switch|p2a: birb|Corviknight, M|100/100
+|-ability|p2a: birb|Pressure
+|move|p1a: Landorus|Earthquake|p2a: birb
+|-immune|p2a: birb
+|
+|upkeep
+|turn|2
+|
+|t:|1743914198
+|move|p1a: Landorus|Stealth Rock|p2a: birb
+|-sidestart|p2: Chunkapillar|move: Stealth Rock
+|move|p2a: birb|Defog|p1a: Landorus
+|-unboost|p1a: Landorus|evasion|1
+|-sideend|p2: Chunkapillar|Stealth Rock|[from] move: Defog|[of] p2a: birb
+|
+|upkeep
+|turn|3
+|
+|t:|1743914203
+|move|p1a: Landorus|Stealth Rock|p2a: birb
+|-sidestart|p2: Chunkapillar|move: Stealth Rock
+|move|p2a: birb|Defog|p1a: Landorus
+|-unboost|p1a: Landorus|evasion|1
+|-sideend|p2: Chunkapillar|Stealth Rock|[from] move: Defog|[of] p2a: birb
+|
+|upkeep
+|turn|4
+|
+|t:|1743914208
+|move|p1a: Landorus|Taunt|p2a: birb
+|-start|p2a: birb|move: Taunt
+|cant|p2a: birb|move: Taunt|Defog
+|
+|upkeep
+|turn|5
+|
+|t:|1743914215
+|switch|p2a: ...|Darkrai, shiny|100/100
+|move|p1a: Landorus|Stealth Rock|p2a: ...
+|-sidestart|p2: Chunkapillar|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|
+|t:|1743914220
+|switch|p1a: Torkoal|Torkoal, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: ...|Nasty Plot|p2a: ...
+|-boost|p2a: ...|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743914234
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-activate|p1a: Raging Bolt|ability: Protosynthesis
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: ...|Dark Pulse|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743914282
+|move|p1a: Raging Bolt|Thunderclap|p2a: ...
+|-damage|p2a: ...|29/100
+|move|p2a: ...|Dark Pulse|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|0 fnt
+|faint|p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743914288
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspe
+|turn|9
+|c|☆OujAxy|Fun fact of the day your water resist is fake
+|
+|t:|1743914344
+|switch|p2a: Garbage Man|Glimmora, F|100/100
+|-damage|p2a: Garbage Man|88/100|[from] Stealth Rock
+|move|p1a: Walking Wake|Hydro Steam|p2a: Garbage Man
+|-supereffective|p2a: Garbage Man
+|-damage|p2a: Garbage Man|0 fnt
+|faint|p2a: Garbage Man
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743914355
+|switch|p2a: Sparky|Iron Valiant, shiny|100/100
+|-damage|p2a: Sparky|94/100|[from] Stealth Rock
+|-enditem|p2a: Sparky|Booster Energy
+|-activate|p2a: Sparky|ability: Quark Drive|[fromitem]
+|-start|p2a: Sparky|quarkdrivespe
+|turn|10
+|
+|t:|1743914367
+|-terastallize|p1a: Walking Wake|Water
+|move|p2a: Sparky|Knock Off|p1a: Walking Wake
+|-damage|p1a: Walking Wake|72/100
+|-enditem|p1a: Walking Wake|Choice Specs|[from] move: Knock Off|[of] p2a: Sparky
+|move|p1a: Walking Wake|Hydro Steam|p2a: Sparky
+|-damage|p2a: Sparky|0 fnt
+|faint|p2a: Sparky
+|-end|p2a: Sparky|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743914395
+|switch|p2a: F-14|Dragapult, M, shiny|100/100
+|turn|11
+|
+|t:|1743914413
+|move|p1a: Walking Wake|Draco Meteor|p2a: F-14
+|-supereffective|p2a: F-14
+|-damage|p2a: F-14|0 fnt
+|-unboost|p1a: Walking Wake|spa|2
+|faint|p2a: F-14
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Chunkapillar forfeited.
+|
+|win|OujAxy
+|raw|OujAxy's rating: 1363 &rarr; <strong>1381</strong><br />(+18 for winning)
+|raw|Chunkapillar's rating: 1326 &rarr; <strong>1308</strong><br />(-18 for losing)
+|l|☆Chunkapillar
+|player|p2|

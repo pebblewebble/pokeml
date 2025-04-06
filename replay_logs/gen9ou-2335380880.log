@@ -1,0 +1,192 @@
+|j|☆Squige137
+|j|☆KungfuPlatypus
+|t:|1743789378
+|gametype|singles
+|player|p1|Squige137|infielder|1077
+|player|p2|KungfuPlatypus|parasollady|1046
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Pelipper, F|
+|poke|p1|Overqwil, M|
+|poke|p1|Zapdos|
+|poke|p1|Primarina, F|
+|poke|p1|Meowscarada, M|
+|poke|p1|Iron Treads|
+|poke|p2|Araquanid, M|
+|poke|p2|Iron Treads|
+|poke|p2|Cinderace, F|
+|poke|p2|Kingambit, F|
+|poke|p2|Pecharunt|
+|poke|p2|Dragonite, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Squige137)
+|c|☆Squige137|glhf
+|
+|t:|1743789386
+|start
+|switch|p1a: Meowscarada|Meowscarada, M|100/100
+|switch|p2a: Araquanid|Araquanid, M, shiny|100/100
+|turn|1
+|
+|t:|1743789394
+|move|p1a: Meowscarada|Toxic Spikes|p2a: Araquanid
+|-start|p1a: Meowscarada|typechange|Poison|[from] ability: Protean
+|-sidestart|p2: KungfuPlatypus|move: Toxic Spikes
+|move|p2a: Araquanid|Sticky Web|p1a: Meowscarada
+|-sidestart|p1: Squige137|move: Sticky Web
+|
+|upkeep
+|turn|2
+|
+|t:|1743789403
+|move|p1a: Meowscarada|U-turn|p2a: Araquanid
+|-damage|p2a: Araquanid|85/100
+|
+|t:|1743789407
+|switch|p1a: Pelipper|Pelipper, F|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Araquanid|Liquidation|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|58/100
+|-unboost|p1a: Pelipper|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743789417
+|move|p1a: Pelipper|Hurricane|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|14/100
+|move|p2a: Araquanid|Liquidation|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1743789425
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-activate|p1a: Iron Treads|move: Sticky Web
+|-unboost|p1a: Iron Treads|spe|1
+|-enditem|p1a: Iron Treads|Booster Energy
+|-activate|p1a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Treads|quarkdrivedef
+|turn|4
+|
+|t:|1743789432
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-item|p2a: Pecharunt|Air Balloon
+|move|p1a: Iron Treads|Rapid Spin|p2a: Pecharunt
+|-immune|p2a: Pecharunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743789440
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|switch|p1a: Overqwil|Overqwil, M|100/100
+|-activate|p1a: Overqwil|move: Sticky Web
+|-unboost|p1a: Overqwil|spe|1
+|move|p2a: Pecharunt|Nasty Plot|p2a: Pecharunt
+|-boost|p2a: Pecharunt|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743789448
+|switch|p2a: Araquanid|Araquanid, M, shiny|14/100
+|-status|p2a: Araquanid|psn
+|move|p1a: Overqwil|Crunch|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|-damage|p1a: Overqwil|91/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1743789453
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-enditem|p2a: Iron Treads|Booster Energy
+|-activate|p2a: Iron Treads|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Treads|quarkdriveatk
+|turn|7
+|
+|t:|1743789460
+|-terastallize|p1a: Overqwil|Water
+|move|p2a: Iron Treads|Rapid Spin|p1a: Overqwil
+|-damage|p1a: Overqwil|66/100
+|-boost|p2a: Iron Treads|spe|1
+|-sideend|p2: KungfuPlatypus|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: Iron Treads
+|move|p1a: Overqwil|Liquidation|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|0 fnt
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|-damage|p1a: Overqwil|56/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|KungfuPlatypus has 120 seconds left.
+|
+|t:|1743789502
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen2|[silent]
+|turn|8
+|
+|t:|1743789512
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1a: Overqwil|Liquidation|p2a: Kingambit
+|-damage|p2a: Kingambit|53/100
+|-damage|p1a: Overqwil|46/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|t:|1743789519
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-activate|p1a: Iron Treads|move: Sticky Web
+|-unboost|p1a: Iron Treads|spe|1
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743789533
+|switch|p1a: Primarina|Primarina, F|100/100
+|-activate|p1a: Primarina|move: Sticky Web
+|-unboost|p1a: Primarina|spe|1
+|turn|10
+|
+|t:|1743789539
+|move|p2a: Kingambit|Iron Head|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|upkeep
+|-message|Squige137 forfeited.
+|
+|win|KungfuPlatypus
+|raw|Squige137's rating: 1077 &rarr; <strong>1054</strong><br />(-23 for losing)
+|raw|KungfuPlatypus's rating: 1046 &rarr; <strong>1082</strong><br />(+36 for winning)
+|l|☆Squige137
+|player|p1|
+|c|☆KungfuPlatypus|lol
+|c|☆KungfuPlatypus|that tera

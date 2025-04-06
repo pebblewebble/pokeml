@@ -1,0 +1,219 @@
+|j|☆Dark Signs
+|j|☆CyanIdle
+|t:|1743861677
+|gametype|singles
+|player|p1|Dark Signs|102|1384
+|player|p2|CyanIdle|janine|1417
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Weavile, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Moltres|
+|poke|p1|Iron Treads|
+|poke|p1|Primarina, M|
+|poke|p1|Ogerpon, F|
+|poke|p2|Zamazenta-*|
+|poke|p2|Kingambit, M|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Iron Moth|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CyanIdle)
+|
+|t:|1743861695
+|start
+|switch|p1a: Ogerpon|Ogerpon, F|100/100
+|switch|p2a: Landorus|Landorus-Therian, M|100/100
+|-ability|p2a: Landorus|Intimidate|boost
+|-unboost|p1a: Ogerpon|atk|1
+|-ability|p1a: Ogerpon|Defiant|boost
+|-boost|p1a: Ogerpon|atk|2
+|turn|1
+|
+|t:|1743861706
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Landorus
+|-damage|p2a: Landorus|30/100
+|move|p2a: Landorus|U-turn|p1a: Ogerpon
+|-supereffective|p1a: Ogerpon
+|-damage|p1a: Ogerpon|38/100
+|
+|t:|1743861713
+|switch|p2a: Iron Moth|Iron Moth|100/100|[from] U-turn
+|-enditem|p2a: Iron Moth|Booster Energy
+|-activate|p2a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Moth|quarkdrivespe
+|
+|upkeep
+|turn|2
+|inactive|Dark Signs has 120 seconds left.
+|
+|t:|1743861756
+|switch|p1a: Primarina|Primarina, M|100/100
+|move|p2a: Iron Moth|Sludge Wave|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|34/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743861767
+|-terastallize|p1a: Primarina|Steel
+|move|p2a: Iron Moth|Sludge Wave|p1a: Primarina
+|-immune|p1a: Primarina
+|move|p1a: Primarina|Surf|p2a: Iron Moth
+|-supereffective|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743861772
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|4
+|inactive|Dark Signs has 120 seconds left.
+|
+|t:|1743861799
+|move|p2a: Zamazenta|Iron Defense|p2a: Zamazenta
+|-boost|p2a: Zamazenta|def|2
+|move|p1a: Primarina|Moonblast|p2a: Zamazenta
+|-supereffective|p2a: Zamazenta
+|-damage|p2a: Zamazenta|16/100
+|
+|-heal|p2a: Zamazenta|23/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743861809
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Zamazenta|Body Press|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|68/100
+|
+|-heal|p2a: Zamazenta|29/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743861822
+|move|p2a: Zamazenta|Crunch|p1a: Moltres
+|-damage|p1a: Moltres|53/100
+|-status|p2a: Zamazenta|brn|[from] ability: Flame Body|[of] p1a: Moltres
+|move|p1a: Moltres|Flamethrower|p2a: Zamazenta
+|-damage|p2a: Zamazenta|0 fnt
+|faint|p2a: Zamazenta
+|
+|upkeep
+|
+|t:|1743861830
+|switch|p2a: Samurott|Samurott-Hisui, F|100/100
+|turn|7
+|inactive|Dark Signs has 90 seconds left.
+|
+|t:|1743861865
+|switch|p1a: Primarina|Primarina, M, tera:Steel|34/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|-sidestart|p1: Dark Signs|Spikes
+|faint|p1a: Primarina
+|
+|upkeep
+|inactive|Dark Signs has 60 seconds left.
+|
+|t:|1743861908
+|switch|p1a: Ogerpon|Ogerpon, F|38/100
+|turn|8
+|
+|t:|1743861917
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-enditem|p2a: Samurott|Focus Sash
+|-damage|p2a: Samurott|1/100
+|move|p2a: Samurott|Ceaseless Edge|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|-sidestart|p1: Dark Signs|Spikes
+|faint|p1a: Ogerpon
+|
+|upkeep
+|inactive|Dark Signs has 60 seconds left.
+|
+|t:|1743861925
+|switch|p1a: Iron Treads|Iron Treads|100/100
+|-damage|p1a: Iron Treads|84/100|[from] Spikes
+|turn|9
+|
+|t:|1743861939
+|-terastallize|p2a: Samurott|Ghost
+|move|p1a: Iron Treads|Rapid Spin|p2a: Samurott
+|-immune|p2a: Samurott
+|move|p2a: Samurott|Razor Shell|p1a: Iron Treads
+|-supereffective|p1a: Iron Treads
+|-damage|p1a: Iron Treads|0 fnt
+|faint|p1a: Iron Treads
+|-end|p1a: Iron Treads|Quark Drive|[silent]
+|
+|upkeep
+|inactive|Dark Signs has 60 seconds left.
+|
+|t:|1743861961
+|switch|p1a: Weavile|Weavile, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|10
+|inactive|Dark Signs has 60 seconds left.
+|
+|t:|1743861975
+|move|p1a: Weavile|Ice Shard|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743861978
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|11
+|inactive|Dark Signs has 60 seconds left.
+|
+|t:|1743862017
+|move|p2a: Iron Valiant|Moonblast|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1743862019
+|switch|p1a: Moltres|Moltres|53/100
+|turn|12
+|
+|t:|1743862026
+|move|p2a: Iron Valiant|Thunderbolt|p1a: Moltres
+|-supereffective|p1a: Moltres
+|-damage|p1a: Moltres|0 fnt
+|faint|p1a: Moltres
+|
+|upkeep
+|-message|Dark Signs forfeited.
+|
+|win|CyanIdle
+|raw|Dark Signs's rating: 1384 &rarr; <strong>1366</strong><br />(-18 for losing)
+|raw|CyanIdle's rating: 1417 &rarr; <strong>1435</strong><br />(+18 for winning)
+|l|☆Dark Signs
+|player|p1|
+|l|☆CyanIdle
+|player|p2|

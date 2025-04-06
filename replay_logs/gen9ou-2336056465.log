@@ -1,0 +1,197 @@
+|j|☆Olly457
+|j|☆Ceron75
+|t:|1743874333
+|gametype|singles
+|player|p1|Olly457|blue|1246
+|player|p2|Ceron75|colress|1235
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Thundurus-Therian, M|
+|poke|p1|Meowscarada, F|
+|poke|p1|Hatterene, F|
+|poke|p1|Great Tusk|
+|poke|p1|Toxapex, F|
+|poke|p1|Slither Wing|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Murkrow, F|
+|poke|p2|Ribombee, F|
+|poke|p2|Clodsire, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Kingambit, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Ceron75)
+|
+|t:|1743874342
+|start
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|t:|1743874351
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Thundurus|Volt Switch|p2a: Clodsire
+|-immune|p2a: Clodsire
+|
+|upkeep
+|turn|2
+|
+|t:|1743874356
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Clodsire|Toxic|p1a: Hatterene
+|move|p1a: Hatterene|Toxic|p2a: Clodsire|[from] ability: Magic Bounce
+|-immune|p2a: Clodsire
+|
+|upkeep
+|turn|3
+|
+|t:|1743874364
+|switch|p2a: Murkrow|Murkrow, F|100/100
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743874371
+|move|p2a: Murkrow|Perish Song|p2a: Murkrow
+|-start|p1a: Hatterene|perish3|[silent]
+|-start|p2a: Murkrow|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Hatterene|Nuzzle|p2a: Murkrow
+|-supereffective|p2a: Murkrow
+|-damage|p2a: Murkrow|86/100
+|-status|p2a: Murkrow|par
+|
+|-start|p2a: Murkrow|perish3
+|-start|p1a: Hatterene|perish3
+|upkeep
+|turn|5
+|
+|t:|1743874383
+|cant|p2a: Murkrow|par
+|move|p1a: Hatterene|Draining Kiss|p2a: Murkrow
+|-supereffective|p2a: Murkrow
+|-damage|p2a: Murkrow|9/100 par
+|
+|-start|p2a: Murkrow|perish2
+|-start|p1a: Hatterene|perish2
+|upkeep
+|turn|6
+|
+|t:|1743874392
+|move|p2a: Murkrow|U-turn|p1a: Hatterene
+|-damage|p1a: Hatterene|89/100
+|
+|t:|1743874408
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from] U-turn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Hatterene|Nuzzle|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|96/100
+|-status|p2a: Corviknight|par
+|
+|-heal|p1a: Hatterene|95/100|[from] item: Leftovers
+|-start|p1a: Hatterene|perish1
+|upkeep
+|turn|7
+|
+|t:|1743874416
+|switch|p1a: Thundurus|Thundurus-Therian, M|100/100
+|move|p2a: Corviknight|Body Press|p1a: Thundurus
+|-resisted|p1a: Thundurus
+|-damage|p1a: Thundurus|80/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743874424
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Thundurus|U-turn|p2a: Clodsire
+|-resisted|p2a: Clodsire
+|-damage|p2a: Clodsire|94/100
+|
+|t:|1743874428
+|switch|p1a: Hatterene|Hatterene, F|95/100|[from] U-turn
+|
+|-heal|p1a: Hatterene|100/100|[from] item: Leftovers
+|-heal|p2a: Clodsire|100/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1743874438
+|switch|p2a: Murkrow|Murkrow, F|9/100 par
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|
+|upkeep
+|turn|10
+|
+|t:|1743874444
+|cant|p2a: Murkrow|par
+|move|p1a: Hatterene|Draining Kiss|p2a: Murkrow
+|-supereffective|p2a: Murkrow
+|-damage|p2a: Murkrow|0 fnt
+|faint|p2a: Murkrow
+|
+|upkeep
+|
+|t:|1743874456
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|11
+|
+|t:|1743874462
+|-terastallize|p2a: Samurott|Ghost
+|move|p2a: Samurott|Ceaseless Edge|p1a: Hatterene
+|-damage|p1a: Hatterene|56/100
+|-sidestart|p1: Olly457|Spikes
+|move|p1a: Hatterene|Draining Kiss|p2a: Samurott
+|-damage|p2a: Samurott|46/100
+|-heal|p1a: Hatterene|97/100|[from] drain|[of] p2a: Samurott
+|
+|-heal|p1a: Hatterene|100/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1743874477
+|switch|p2a: Clodsire|Clodsire, F|100/100
+|move|p1a: Hatterene|Psychic Noise|p2a: Clodsire
+|-supereffective|p2a: Clodsire
+|-damage|p2a: Clodsire|56/100
+|-start|p2a: Clodsire|move: Heal Block
+|
+|upkeep
+|turn|13
+|
+|t:|1743874484
+|move|p1a: Hatterene|Calm Mind|p1a: Hatterene
+|-boost|p1a: Hatterene|spa|1
+|-boost|p1a: Hatterene|spd|1
+|move|p2a: Clodsire|Earthquake|p1a: Hatterene
+|-damage|p1a: Hatterene|77/100
+|
+|-heal|p1a: Hatterene|83/100|[from] item: Leftovers
+|-end|p2a: Clodsire|move: Heal Block
+|upkeep
+|turn|14
+|-message|Ceron75 forfeited.
+|
+|win|Olly457
+|raw|Olly457's rating: 1246 &rarr; <strong>1270</strong><br />(+24 for winning)
+|raw|Ceron75's rating: 1235 &rarr; <strong>1211</strong><br />(-24 for losing)
+|l|☆Ceron75
+|player|p2|
+|l|☆Olly457
+|player|p1|

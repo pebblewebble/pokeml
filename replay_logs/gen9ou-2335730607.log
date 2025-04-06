@@ -1,0 +1,190 @@
+|j|☆CapitolG
+|j|☆Wiizard_64
+|t:|1743827262
+|gametype|singles
+|player|p1|CapitolG|1|1209
+|player|p2|Wiizard_64|hilbert|1245
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Chandelure, F|
+|poke|p1|Gothitelle, M|
+|poke|p1|Milotic, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Cinderace, M|
+|poke|p1|Leavanny, F|
+|poke|p2|Scizor, M|
+|poke|p2|Great Tusk|
+|poke|p2|Samurott-Hisui, M|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Raging Bolt|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|t:|1743827266
+|start
+|switch|p1a: Chandelure|Chandelure, F|100/100
+|switch|p2a: Samurott|Samurott-Hisui, M|100/100
+|turn|1
+|
+|t:|1743827272
+|move|p2a: Samurott|Ceaseless Edge|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-enditem|p1a: Chandelure|Focus Sash
+|-damage|p1a: Chandelure|1/100
+|-status|p2a: Samurott|brn|[from] ability: Flame Body|[of] p1a: Chandelure
+|-sidestart|p1: CapitolG|Spikes
+|move|p1a: Chandelure|Trick Room|p1a: Chandelure
+|-fieldstart|move: Trick Room|[of] p1a: Chandelure
+|
+|-damage|p2a: Samurott|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CapitolG)
+|
+|t:|1743827285
+|switch|p1a: Leavanny|Leavanny, F|100/100
+|-damage|p1a: Leavanny|88/100|[from] Spikes
+|move|p2a: Samurott|Flip Turn|p1a: Leavanny
+|-resisted|p1a: Leavanny
+|-damage|p1a: Leavanny|80/100
+|
+|t:|1743827302
+|switch|p2a: Scizor|Scizor, M|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|3
+|
+|t:|1743827307
+|-terastallize|p2a: Scizor|Steel
+|move|p2a: Scizor|Bullet Punch|p1a: Leavanny
+|-damage|p1a: Leavanny|1/100
+|move|p1a: Leavanny|Sticky Web|p2a: Scizor
+|-sidestart|p2: Wiizard_64|move: Sticky Web
+|
+|upkeep
+|turn|4
+|
+|t:|1743827314
+|move|p2a: Scizor|Bullet Punch|p1a: Leavanny
+|-damage|p1a: Leavanny|0 fnt
+|faint|p1a: Leavanny
+|
+|upkeep
+|
+|t:|1743827317
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|turn|5
+|
+|t:|1743827323
+|switch|p2a: Samurott|Samurott-Hisui, M|94/100 brn
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|
+|-damage|p2a: Samurott|88/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1743827332
+|move|p1a: Cinderace|High Jump Kick|p2a: Samurott
+|-supereffective|p2a: Samurott
+|-damage|p2a: Samurott|0 fnt
+|faint|p2a: Samurott
+|
+|upkeep
+|
+|t:|1743827338
+|switch|p2a: Scizor|Scizor, M, tera:Steel|100/100
+|-damage|p2a: Scizor|88/100|[from] Spikes
+|turn|7
+|
+|t:|1743827343
+|move|p2a: Scizor|Bullet Punch|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743827346
+|switch|p1a: Chandelure|Chandelure, F|1/100
+|-activate|p1a: Chandelure|move: Sticky Web
+|-unboost|p1a: Chandelure|spe|1
+|turn|8
+|
+|t:|1743827351
+|move|p2a: Scizor|Bullet Punch|p1a: Chandelure
+|-resisted|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|upkeep
+|
+|t:|1743827355
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|turn|9
+|
+|t:|1743827368
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-damage|p2a: Great Tusk|88/100|[from] Spikes
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisspe
+|move|p1a: Kingambit|Brick Break|p2a: Great Tusk
+|-damage|p2a: Great Tusk|50/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743827378
+|move|p2a: Great Tusk|Bulk Up|p2a: Great Tusk
+|-boost|p2a: Great Tusk|atk|1
+|-boost|p2a: Great Tusk|def|1
+|move|p1a: Kingambit|Throat Chop|p2a: Great Tusk
+|-resisted|p2a: Great Tusk
+|-damage|p2a: Great Tusk|30/100
+|-start|p2a: Great Tusk|Throat Chop|[silent]
+|
+|upkeep
+|turn|11
+|
+|t:|1743827386
+|switch|p1a: Gothitelle|Gothitelle, M|100/100
+|-activate|p1a: Gothitelle|move: Sticky Web
+|-unboost|p1a: Gothitelle|spe|1
+|-ability|p1a: Gothitelle|Competitive|boost
+|-boost|p1a: Gothitelle|spa|2
+|move|p2a: Great Tusk|Headlong Rush|p1a: Gothitelle
+|-damage|p1a: Gothitelle|22/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-heal|p1a: Gothitelle|28/100|[from] item: Leftovers
+|-end|p2a: Great Tusk|Throat Chop|[silent]
+|upkeep
+|turn|12
+|-message|CapitolG forfeited.
+|
+|win|Wiizard_64
+|raw|CapitolG's rating: 1209 &rarr; <strong>1187</strong><br />(-22 for losing)
+|raw|Wiizard_64's rating: 1245 &rarr; <strong>1267</strong><br />(+22 for winning)
+|l|☆CapitolG
+|player|p1|
+|l|☆Wiizard_64
+|player|p2|

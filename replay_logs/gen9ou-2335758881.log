@@ -1,0 +1,404 @@
+|j|☆juicelightning
+|j|☆zhiyongyici
+|t:|1743831402
+|gametype|singles
+|player|p1|juicelightning|benga|1381
+|player|p2|zhiyongyici|169|1369
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Cinderace, F|
+|poke|p1|Milotic, M|
+|poke|p1|Ribombee, F|
+|poke|p1|Kingambit, M|
+|poke|p1|Pecharunt|
+|poke|p1|Primeape, M|
+|poke|p2|Walking Wake|
+|poke|p2|Torkoal, M|
+|poke|p2|Great Tusk|
+|poke|p2|Iron Moth|
+|poke|p2|Hatterene, F|
+|poke|p2|Corviknight, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by juicelightning)
+|
+|t:|1743831415
+|start
+|switch|p1a: Ribombee|Ribombee, F|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1743831426
+|move|p1a: Ribombee|Sticky Web|p2a: Torkoal
+|-sidestart|p2: zhiyongyici|move: Sticky Web
+|move|p2a: Torkoal|Lava Plume|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-enditem|p1a: Ribombee|Focus Sash
+|-damage|p1a: Ribombee|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743831431
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|-item|p1a: Pecharunt|Air Balloon
+|move|p2a: Torkoal|Stealth Rock|p1a: Pecharunt
+|-sidestart|p1: juicelightning|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743831444
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|-activate|p2a: Iron Moth|move: Sticky Web
+|-unboost|p2a: Iron Moth|spe|1
+|move|p1a: Pecharunt|Parting Shot|p2a: Iron Moth
+|-unboost|p2a: Iron Moth|atk|1
+|-unboost|p2a: Iron Moth|spa|1
+|
+|t:|1743831448
+|switch|p1a: Cinderace|Cinderace, F|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743831454
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-activate|p2a: Torkoal|move: Sticky Web
+|-unboost|p2a: Torkoal|spe|1
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743831467
+|move|p1a: Cinderace|High Jump Kick|p2a: Torkoal
+|-damage|p2a: Torkoal|77/100
+|move|p2a: Torkoal|Lava Plume|p1a: Cinderace
+|-damage|p1a: Cinderace|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743831476
+|move|p1a: Cinderace|Pyro Ball|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|61/100
+|move|p2a: Torkoal|Rapid Spin|p1a: Cinderace
+|-damage|p1a: Cinderace|28/100
+|-boost|p2a: Torkoal|spe|1
+|-sideend|p2: zhiyongyici|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743831483
+|switch|p2a: Walking Wake|Walking Wake|100/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|move|p1a: Cinderace|High Jump Kick|p2a: Walking Wake
+|-damage|p2a: Walking Wake|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743831501
+|move|p2a: Walking Wake|Draco Meteor|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-unboost|p2a: Walking Wake|spa|2
+|faint|p1a: Cinderace
+|
+|-weather|none
+|-end|p2a: Walking Wake|Protosynthesis
+|upkeep
+|
+|t:|1743831505
+|switch|p1a: Milotic|Milotic, M|100/100
+|-activate|p1a: Milotic|move: Sticky Web
+|-unboost|p1a: Milotic|spe|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|turn|9
+|
+|t:|1743831523
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Hatterene|Hatterene, F|100/100
+|move|p1a: Milotic|Hydro Pump|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|upkeep
+|
+|t:|1743831532
+|switch|p2a: Torkoal|Torkoal, M|61/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|10
+|
+|t:|1743831551
+|switch|p2a: Walking Wake|Walking Wake|56/100
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|move|p1a: Milotic|Hydro Pump|p2a: Walking Wake
+|-resisted|p2a: Walking Wake
+|-damage|p2a: Walking Wake|41/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743831559
+|switch|p1a: Ribombee|Ribombee, F|1/100
+|-activate|p1a: Ribombee|move: Sticky Web
+|-unboost|p1a: Ribombee|spe|1
+|move|p2a: Walking Wake|Draco Meteor|p1a: Ribombee
+|-immune|p1a: Ribombee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743831564
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|switch|p2a: Iron Moth|Iron Moth|100/100
+|move|p1a: Ribombee|Moonblast|p2a: Iron Moth
+|-resisted|p2a: Iron Moth
+|-damage|p2a: Iron Moth|91/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743831573
+|move|p2a: Iron Moth|Sludge Wave|p1a: Ribombee
+|-supereffective|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743831578
+|switch|p1a: Milotic|Milotic, M|100/100
+|-activate|p1a: Milotic|move: Sticky Web
+|-unboost|p1a: Milotic|spe|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|turn|14
+|
+|t:|1743831596
+|move|p2a: Iron Moth|Sludge Wave|p1a: Milotic
+|-damage|p1a: Milotic|77/100
+|move|p1a: Milotic|Dragon Pulse|p2a: Iron Moth
+|-damage|p2a: Iron Moth|34/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743831601
+|move|p2a: Iron Moth|Sludge Wave|p1a: Milotic
+|-damage|p1a: Milotic|51/100
+|move|p1a: Milotic|Dragon Pulse|p2a: Iron Moth
+|-damage|p2a: Iron Moth|0 fnt
+|faint|p2a: Iron Moth
+|-end|p2a: Iron Moth|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743831607
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|turn|16
+|
+|t:|1743831611
+|move|p2a: Corviknight|U-turn|p1a: Milotic
+|-damage|p1a: Milotic|36/100
+|
+|t:|1743831622
+|switch|p2a: Walking Wake|Walking Wake|41/100|[from] U-turn
+|-activate|p2a: Walking Wake|ability: Protosynthesis
+|-start|p2a: Walking Wake|protosynthesisspe
+|move|p1a: Milotic|Hydro Pump|p2a: Walking Wake|[miss]
+|-miss|p1a: Milotic|p2a: Walking Wake
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743831633
+|-terastallize|p1a: Milotic|Fairy
+|move|p2a: Walking Wake|Draco Meteor|p1a: Milotic
+|-immune|p1a: Milotic
+|move|p1a: Milotic|Draining Kiss|p2a: Walking Wake
+|-supereffective|p2a: Walking Wake
+|-damage|p2a: Walking Wake|0 fnt
+|-heal|p1a: Milotic|62/100|[from] drain|[of] p2a: Walking Wake
+|faint|p2a: Walking Wake
+|-end|p2a: Walking Wake|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743831639
+|switch|p2a: Torkoal|Torkoal, M|61/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|18
+|
+|t:|1743831642
+|move|p1a: Milotic|Hydro Pump|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743831646
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|19
+|
+|t:|1743831652
+|move|p2a: Great Tusk|Headlong Rush|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Milotic
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743831655
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|-item|p1a: Pecharunt|Air Balloon
+|turn|20
+|
+|t:|1743831660
+|move|p2a: Great Tusk|Ice Spinner|p1a: Pecharunt
+|-damage|p1a: Pecharunt|80/100
+|-enditem|p1a: Pecharunt|Air Balloon
+|move|p1a: Pecharunt|Shadow Ball|p2a: Great Tusk
+|-damage|p2a: Great Tusk|36/100
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|43/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743831671
+|move|p2a: Great Tusk|Headlong Rush|p1a: Pecharunt
+|-supereffective|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|faint|p1a: Pecharunt
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Great Tusk|49/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743831673
+|switch|p1a: Primeape|Primeape, M|100/100
+|-activate|p1a: Primeape|move: Sticky Web
+|-unboost|p1a: Primeape|spe|1
+|-ability|p1a: Primeape|Defiant|boost
+|-boost|p1a: Primeape|atk|2
+|turn|22
+|
+|t:|1743831677
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|switch|p2a: Corviknight|Corviknight, F|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Primeape|Endure||[still]
+|-fail|p1a: Primeape
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|23
+|
+|t:|1743831684
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-activate|p1a: Kingambit|move: Sticky Web
+|-unboost|p1a: Kingambit|spe|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|24
+|
+|t:|1743831691
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|25
+|
+|t:|1743831695
+|move|p2a: Corviknight|Body Press|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-enditem|p1a: Kingambit|Chople Berry|[eat]
+|-enditem|p1a: Kingambit|Chople Berry|[weaken]
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|
+|-weather|none
+|upkeep
+|
+|t:|1743831699
+|switch|p1a: Primeape|Primeape, M|100/100
+|-activate|p1a: Primeape|move: Sticky Web
+|-unboost|p1a: Primeape|spe|1
+|-ability|p1a: Primeape|Defiant|boost
+|-boost|p1a: Primeape|atk|2
+|turn|26
+|
+|t:|1743831706
+|move|p1a: Primeape|Protect|p1a: Primeape
+|-singleturn|p1a: Primeape|Protect
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|upkeep
+|turn|27
+|
+|t:|1743831709
+|move|p2a: Corviknight|Body Press|p1a: Primeape
+|-damage|p1a: Primeape|0 fnt
+|faint|p1a: Primeape
+|
+|win|zhiyongyici
+|raw|juicelightning's rating: 1381 &rarr; <strong>1360</strong><br />(-21 for losing)
+|raw|zhiyongyici's rating: 1369 &rarr; <strong>1390</strong><br />(+21 for winning)
+|l|☆juicelightning
+|player|p1|

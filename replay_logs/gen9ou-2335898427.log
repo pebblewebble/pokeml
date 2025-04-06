@@ -1,0 +1,321 @@
+|j|☆Ultimate Fight
+|j|☆YoTeH
+|t:|1743855924
+|gametype|singles
+|player|p1|Ultimate Fight|102|1717
+|player|p2|YoTeH|marnie|1686
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Moth|
+|poke|p1|Kingambit, F|
+|poke|p1|Dragonite, F|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Raging Bolt|
+|poke|p2|Dragonite, F|
+|poke|p2|Ting-Lu|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Valiant|
+|poke|p2|Zamazenta-*|
+|poke|p2|Raging Bolt|
+|teampreview
+|j| AveryRadiant
+|
+|t:|1743855936
+|start
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|1
+|
+|t:|1743855950
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|move|p2a: Gholdengo|Thunder Wave|p1a: Kingambit
+|-status|p1a: Kingambit|par
+|-enditem|p1a: Kingambit|Lum Berry|[eat]
+|-curestatus|p1a: Kingambit|par|[msg]
+|
+|upkeep
+|turn|2
+|
+|t:|1743855957
+|move|p2a: Gholdengo|Thunder Wave|p1a: Kingambit
+|-status|p1a: Kingambit|par
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|21/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|3
+|j| jyrfcv
+|
+|t:|1743855985
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p1a: Raging Bolt|Booster Energy
+|-activate|p1a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p1a: Raging Bolt|protosynthesisspa
+|move|p2a: Gholdengo|Recover|p2a: Gholdengo
+|-heal|p2a: Gholdengo|71/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743855993
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Raging Bolt|Calm Mind|p1a: Raging Bolt
+|-boost|p1a: Raging Bolt|spa|1
+|-boost|p1a: Raging Bolt|spd|1
+|
+|upkeep
+|turn|5
+|
+|t:|1743855997
+|move|p1a: Raging Bolt|Dragon Pulse|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|61/100
+|-enditem|p2a: Ting-Lu|Red Card|[of] p1a: Raging Bolt
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|drag|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Iron Moth
+|-sidestart|p1: Ultimate Fight|move: Stealth Rock
+|
+|upkeep
+|turn|6
+|l| jyrfcv
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by YoTeH)
+|
+|t:|1743856027
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Ogerpon|Ogerpon-Cornerstone, F|100/100
+|-damage|p1a: Ogerpon|88/100|[from] Stealth Rock
+|move|p2a: Ting-Lu|Earthquake|p1a: Ogerpon
+|-damage|p1a: Ogerpon|39/100
+|
+|upkeep
+|turn|7
+|
+|t:|1743856038
+|move|p1a: Ogerpon|Power Whip|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|faint|p2a: Ting-Lu
+|
+|upkeep
+|
+|t:|1743856040
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|8
+|
+|t:|1743856056
+|move|p2a: Iron Valiant|Moonblast|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743856060
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-damage|p1a: Iron Moth|76/100|[from] Stealth Rock
+|turn|9
+|
+|t:|1743856068
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|move|p1a: Iron Moth|Sludge Wave|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|57/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743856074
+|move|p2a: Raging Bolt|Thunderclap|p1a: Iron Moth
+|-damage|p1a: Iron Moth|18/100
+|move|p1a: Iron Moth|Dazzling Gleam|p2a: Raging Bolt
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|5/100
+|
+|upkeep
+|turn|11
+|j| notorious ned
+|j| jyrfcv
+|l| notorious ned
+|inactive|Ultimate Fight has 120 seconds left.
+|l| jyrfcv
+|
+|t:|1743856110
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|27/100
+|
+|upkeep
+|turn|12
+|inactive|Ultimate Fight has 120 seconds left.
+|
+|t:|1743856119
+|move|p1a: Dragonite|Extreme Speed|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743856124
+|switch|p2a: Zamazenta|Zamazenta|100/100
+|-ability|p2a: Zamazenta|Dauntless Shield|boost
+|-boost|p2a: Zamazenta|def|1
+|turn|13
+|
+|t:|1743856132
+|move|p2a: Zamazenta|Howl|p2a: Zamazenta
+|-boost|p2a: Zamazenta|atk|1
+|move|p1a: Dragonite|Dragon Dance|p1a: Dragonite
+|-boost|p1a: Dragonite|atk|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|turn|14
+|
+|t:|1743856138
+|move|p2a: Zamazenta|Ice Fang|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1743856148
+|switch|p1a: Raging Bolt|Raging Bolt|100/100
+|-damage|p1a: Raging Bolt|88/100|[from] Stealth Rock
+|turn|15
+|j| Acrylate
+|
+|t:|1743856163
+|move|p2a: Zamazenta|Close Combat|p1a: Raging Bolt
+|-damage|p1a: Raging Bolt|7/100
+|-unboost|p2a: Zamazenta|def|1
+|-unboost|p2a: Zamazenta|spd|1
+|move|p1a: Raging Bolt|Thunderbolt|p2a: Zamazenta
+|-damage|p2a: Zamazenta|32/100
+|
+|upkeep
+|turn|16
+|
+|t:|1743856172
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|upkeep
+|turn|17
+|inactive|Ultimate Fight has 120 seconds left.
+|
+|t:|1743856197
+|-terastallize|p1a: Raging Bolt|Ghost
+|move|p2a: Dragonite|Encore|p1a: Raging Bolt
+|-start|p1a: Raging Bolt|Encore
+|move|p1a: Raging Bolt|Thunderclap||[still]
+|-fail|p1a: Raging Bolt
+|
+|upkeep
+|turn|18
+|
+|t:|1743856206
+|-end|p1a: Raging Bolt|Protosynthesis|[silent]
+|switch|p1a: Iron Moth|Iron Moth|18/100
+|-damage|p1a: Iron Moth|0 fnt|[from] Stealth Rock
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|
+|t:|1743856210
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-damage|p1a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|turn|19
+|
+|t:|1743856213
+|move|p1a: Iron Valiant|Destiny Bond|p1a: Iron Valiant
+|-singlemove|p1a: Iron Valiant|Destiny Bond
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|20
+|
+|t:|1743856222
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Iron Valiant|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|82/100
+|-enditem|p2a: Dragonite|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Iron Valiant
+|
+|upkeep
+|turn|21
+|
+|t:|1743856228
+|-terastallize|p2a: Dragonite|Ghost
+|move|p2a: Dragonite|Tera Blast|p1a: Iron Valiant|[anim] Tera Blast Ghost
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743856233
+|switch|p1a: Kingambit|Kingambit, F|100/100 par
+|-damage|p1a: Kingambit|94/100 par|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|turn|22
+|
+|t:|1743856239
+|move|p2a: Dragonite|Low Kick|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|-message|Ultimate Fight forfeited.
+|
+|win|YoTeH
+|raw|Ultimate Fight's rating: 1717 &rarr; <strong>1695</strong><br />(-22 for losing)
+|raw|YoTeH's rating: 1686 &rarr; <strong>1708</strong><br />(+22 for winning)
+|l|☆Ultimate Fight
+|player|p1|
+|l|☆YoTeH
+|player|p2|
+|l| AveryRadiant
+|l| Acrylate

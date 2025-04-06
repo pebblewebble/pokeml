@@ -1,0 +1,246 @@
+|j|☆No Skill Involved
+|j|‽esteostrali
+|t:|1743902553
+|gametype|singles
+|player|p1|No Skill Involved|266|1438
+|player|p2|esteostrali|dragontamer|1551
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Leavanny, F|
+|poke|p1|Torkoal, M|
+|poke|p1|Great Tusk|
+|poke|p1|Gardevoir, F|
+|poke|p1|Whimsicott, F|
+|poke|p1|Samurott-Hisui, F|
+|poke|p2|Ribombee, M|
+|poke|p2|Great Tusk|
+|poke|p2|Pecharunt|
+|poke|p2|Enamorus, F|
+|poke|p2|Iron Crown|
+|poke|p2|Rillaboom, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by No Skill Involved)
+|
+|t:|1743902564
+|start
+|switch|p1a: Torkoal|Torkoal, M|100/100
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1743902576
+|move|p2a: Ribombee|Trick|p1a: Torkoal
+|-activate|p2a: Ribombee|move: Trick|[of] p1a: Torkoal
+|-item|p1a: Torkoal|Choice Scarf|[from] move: Trick
+|-item|p2a: Ribombee|Heat Rock|[from] move: Trick
+|move|p1a: Torkoal|Lava Plume|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743902595
+|switch|p2a: Great Tusk|Great Tusk|100/100
+|-activate|p2a: Great Tusk|ability: Protosynthesis
+|-start|p2a: Great Tusk|protosynthesisatk
+|turn|2
+|
+|t:|1743902604
+|move|p2a: Great Tusk|Headlong Rush|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|12/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|move|p1a: Torkoal|Lava Plume|p2a: Great Tusk
+|-damage|p2a: Great Tusk|12/100
+|-status|p2a: Great Tusk|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Great Tusk|6/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1743902613
+|switch|p1a: Leavanny|Leavanny, F|100/100
+|move|p2a: Great Tusk|Headlong Rush|p1a: Leavanny
+|-resisted|p1a: Leavanny
+|-damage|p1a: Leavanny|87/100
+|-unboost|p2a: Great Tusk|def|1
+|-unboost|p2a: Great Tusk|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Great Tusk|0 fnt|[from] brn
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|upkeep
+|
+|t:|1743902621
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|turn|4
+|
+|t:|1743902630
+|move|p1a: Leavanny|Sticky Web|p2a: Pecharunt
+|-sidestart|p2: esteostrali|move: Sticky Web
+|move|p2a: Pecharunt|Malignant Chain|p1a: Leavanny
+|-supereffective|p1a: Leavanny
+|-damage|p1a: Leavanny|0 fnt
+|faint|p1a: Leavanny
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743902642
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|turn|5
+|
+|t:|1743902650
+|switch|p2a: Enamorus|Enamorus, F|100/100
+|move|p1a: Samurott|Ceaseless Edge|p2a: Enamorus
+|-resisted|p2a: Enamorus
+|-damage|p2a: Enamorus|66/100
+|-sidestart|p2: esteostrali|Spikes
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743902659
+|switch|p1a: Gardevoir|Gardevoir, F, shiny|100/100
+|-ability|p1a: Gardevoir|Contrary|[from] ability: Trace|[of] p2a: Enamorus
+|move|p2a: Enamorus|Moonblast|p1a: Gardevoir
+|-damage|p1a: Gardevoir|68/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gardevoir|75/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1743902677
+|switch|p2a: Iron Crown|Iron Crown|100/100
+|-activate|p2a: Iron Crown|move: Sticky Web
+|-unboost|p2a: Iron Crown|spe|1
+|-damage|p2a: Iron Crown|88/100|[from] Spikes
+|-enditem|p2a: Iron Crown|Booster Energy
+|-activate|p2a: Iron Crown|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Crown|quarkdrivespa
+|move|p1a: Gardevoir|Teleport|p1a: Gardevoir
+|
+|t:|1743902682
+|switch|p1a: Great Tusk|Great Tusk|100/100|[from] Teleport
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743902692
+|-terastallize|p2a: Iron Crown|Fairy
+|move|p1a: Great Tusk|Temper Flare|p2a: Iron Crown
+|-damage|p2a: Iron Crown|31/100
+|move|p2a: Iron Crown|Psychic Noise|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|none
+|upkeep
+|
+|t:|1743902705
+|switch|p1a: Samurott|Samurott-Hisui, F|100/100
+|turn|9
+|
+|t:|1743902712
+|move|p1a: Samurott|Aqua Cutter|p2a: Iron Crown
+|-damage|p2a: Iron Crown|0 fnt
+|faint|p2a: Iron Crown
+|-end|p2a: Iron Crown|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743902724
+|switch|p2a: Rillaboom|Rillaboom, M|100/100
+|-activate|p2a: Rillaboom|move: Sticky Web
+|-unboost|p2a: Rillaboom|spe|1
+|-damage|p2a: Rillaboom|88/100|[from] Spikes
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|10
+|
+|t:|1743902731
+|switch|p1a: Torkoal|Torkoal, M|12/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Rillaboom|Grassy Glide|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rillaboom|94/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743902740
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|turn|11
+|
+|t:|1743902751
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|move|p1a: Whimsicott|Growth|p1a: Whimsicott
+|-boost|p1a: Whimsicott|atk|2
+|-boost|p1a: Whimsicott|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1743902758
+|move|p1a: Whimsicott|Shadow Ball|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|-damage|p1a: Whimsicott|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Whimsicott|97/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743902762
+|switch|p2a: Enamorus|Enamorus, F|66/100
+|turn|13
+|
+|t:|1743902769
+|move|p1a: Whimsicott|Moonblast|p2a: Enamorus
+|-damage|p2a: Enamorus|0 fnt
+|faint|p2a: Enamorus
+|-damage|p1a: Whimsicott|87/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Whimsicott|93/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1743902772
+|switch|p2a: Rillaboom|Rillaboom, M|94/100
+|-activate|p2a: Rillaboom|move: Sticky Web
+|-unboost|p2a: Rillaboom|spe|1
+|-damage|p2a: Rillaboom|82/100|[from] Spikes
+|turn|14
+|-message|esteostrali forfeited.
+|
+|win|No Skill Involved
+|raw|No Skill Involved's rating: 1438 &rarr; <strong>1464</strong><br />(+26 for winning)
+|raw|esteostrali's rating: 1551 &rarr; <strong>1525</strong><br />(-26 for losing)
+|l|‽esteostrali
+|player|p2|

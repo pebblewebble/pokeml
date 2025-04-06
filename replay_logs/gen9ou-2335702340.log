@@ -1,0 +1,207 @@
+|j|☆Mysterious Serpent
+|j|☆necro977
+|t:|1743823445
+|gametype|singles
+|player|p1|Mysterious Serpent|hilbert|
+|player|p2|necro977|morty|
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p1|Ninetales-Alola, M|
+|poke|p1|Ceruledge, M|
+|poke|p1|Raichu-Alola, M|
+|poke|p1|Pincurchin, M|
+|poke|p1|Iron Valiant|
+|poke|p2|Metagross|
+|poke|p2|Charizard, M|
+|poke|p2|Gastrodon-East, F|
+|poke|p2|Hydreigon, M|
+|poke|p2|Heracross, M|
+|poke|p2|Toxtricity, M|
+|teampreview
+|
+|t:|1743823462
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, M, shiny|100/100
+|switch|p2a: Metagross|Metagross|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|-item|p2a: Metagross|Air Balloon
+|turn|1
+|
+|t:|1743823475
+|switch|p1a: Pincurchin|Pincurchin, M, shiny|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|-terastallize|p2a: Metagross|Steel
+|move|p2a: Metagross|Meteor Mash|p1a: Pincurchin
+|-resisted|p1a: Pincurchin
+|-damage|p1a: Pincurchin|72/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743823489
+|move|p2a: Metagross|Earthquake|p1a: Pincurchin
+|-supereffective|p1a: Pincurchin
+|-damage|p1a: Pincurchin|10/100
+|move|p1a: Pincurchin|Thunder Wave|p2a: Metagross
+|-status|p2a: Metagross|par
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743823500
+|move|p2a: Metagross|Psychic Fangs|p1a: Pincurchin
+|-damage|p1a: Pincurchin|0 fnt
+|faint|p1a: Pincurchin
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743823519
+|switch|p1a: Ninetales|Ninetales-Alola, M, shiny|100/100
+|turn|4
+|
+|t:|1743823523
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Mysterious Serpent|move: Aurora Veil
+|cant|p2a: Metagross|par
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1743823540
+|switch|p1a: Ceruledge|Ceruledge, M, shiny|100/100
+|cant|p2a: Metagross|par
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1743823550
+|move|p1a: Ceruledge|Bulk Up|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|1
+|-boost|p1a: Ceruledge|def|1
+|move|p2a: Metagross|Earthquake|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|75/100
+|-ability|p1a: Ceruledge|Weak Armor|boost
+|-unboost|p1a: Ceruledge|def|1
+|-boost|p1a: Ceruledge|spe|2
+|-enditem|p1a: Ceruledge|Weakness Policy
+|-boost|p1a: Ceruledge|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Ceruledge|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|7
+|
+|t:|1743823572
+|move|p1a: Ceruledge|Bitter Blade|p2a: Metagross
+|-supereffective|p2a: Metagross
+|-damage|p2a: Metagross|0 fnt
+|-heal|p1a: Ceruledge|100/100|[from] drain|[of] p2a: Metagross
+|-enditem|p2a: Metagross|Air Balloon
+|faint|p2a: Metagross
+|
+|upkeep
+|
+|t:|1743823586
+|switch|p2a: Charizard|Charizard, M|100/100
+|turn|8
+|
+|t:|1743823591
+|move|p1a: Ceruledge|Poltergeist|p2a: Charizard
+|-activate|p2a: Charizard|move: Poltergeist|Assault Vest
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1743823599
+|switch|p2a: Gastrodon|Gastrodon-East, F|100/100
+|turn|9
+|
+|t:|1743823604
+|move|p1a: Ceruledge|Poltergeist|p2a: Gastrodon
+|-activate|p2a: Gastrodon|move: Poltergeist|Focus Sash
+|-enditem|p2a: Gastrodon|Focus Sash
+|-damage|p2a: Gastrodon|1/100
+|move|p2a: Gastrodon|Surf|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|65/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743823614
+|move|p1a: Ceruledge|Bitter Blade|p2a: Gastrodon
+|-resisted|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|-heal|p1a: Ceruledge|65/100|[from] drain|[of] p2a: Gastrodon
+|faint|p2a: Gastrodon
+|
+|upkeep
+|
+|t:|1743823622
+|switch|p2a: Hydreigon|Hydreigon, M|100/100
+|turn|11
+|
+|t:|1743823628
+|move|p1a: Ceruledge|Bitter Blade|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|38/100
+|-heal|p1a: Ceruledge|96/100|[from] drain|[of] p2a: Hydreigon
+|move|p2a: Hydreigon|Dark Pulse|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|61/100
+|
+|-sideend|p1: Mysterious Serpent|move: Aurora Veil
+|upkeep
+|turn|12
+|
+|t:|1743823639
+|move|p1a: Ceruledge|Bitter Blade|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-heal|p1a: Ceruledge|79/100|[from] drain|[of] p2a: Hydreigon
+|faint|p2a: Hydreigon
+|
+|upkeep
+|
+|t:|1743823646
+|switch|p2a: Heracross|Heracross, M|100/100
+|turn|13
+|
+|t:|1743823651
+|move|p1a: Ceruledge|Bitter Blade|p2a: Heracross
+|-supereffective|p2a: Heracross
+|-damage|p2a: Heracross|0 fnt
+|-heal|p1a: Ceruledge|100/100|[from] drain|[of] p2a: Heracross
+|faint|p2a: Heracross
+|
+|upkeep
+|
+|t:|1743823658
+|switch|p2a: Toxtricity|Toxtricity, M|100/100
+|turn|14
+|
+|t:|1743823664
+|move|p1a: Ceruledge|Psycho Cut|p2a: Toxtricity
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|win|Mysterious Serpent

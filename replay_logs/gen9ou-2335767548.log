@@ -1,0 +1,125 @@
+|j|☆air555
+|j|☆Colonel fromage
+|t:|1743832826
+|gametype|singles
+|player|p1|air555|red|1136
+|player|p2|Colonel fromage|hiker-gen4|1138
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Araquanid, M|
+|poke|p1|Ogerpon-Cornerstone, F|
+|poke|p1|Sceptile, M|
+|poke|p1|Great Tusk|
+|poke|p1|Gholdengo|
+|poke|p1|Rotom-Heat|
+|poke|p2|Gengar, M|
+|poke|p2|Iron Moth|
+|poke|p2|Dragapult, M|
+|poke|p2|Serperior, M|
+|poke|p2|Glimmora, F|
+|poke|p2|Skarmory, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Colonel fromage)
+|
+|t:|1743832843
+|start
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|switch|p2a: Gengar|Gengar, M|100/100
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|1
+|
+|t:|1743832858
+|move|p2a: Gengar|Nasty Plot|p2a: Gengar
+|-boost|p2a: Gengar|spa|2
+|move|p1a: Great Tusk|Headlong Rush|p2a: Gengar
+|-supereffective|p2a: Gengar
+|-enditem|p2a: Gengar|Focus Sash
+|-damage|p2a: Gengar|1/100
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1743832877
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Sceptile|Sceptile, M|100/100
+|-terastallize|p2a: Gengar|Flying
+|move|p2a: Gengar|Tera Blast|p1a: Sceptile|[anim] Tera Blast Flying
+|-supereffective|p1a: Sceptile
+|-enditem|p1a: Sceptile|Focus Sash
+|-damage|p1a: Sceptile|1/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743832892
+|move|p1a: Sceptile|Acrobatics|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|upkeep
+|
+|t:|1743832910
+|switch|p2a: Skarmory|Skarmory, F|100/100
+|turn|4
+|
+|t:|1743832919
+|move|p1a: Sceptile|Drain Punch|p2a: Skarmory
+|-damage|p2a: Skarmory|82/100
+|-heal|p1a: Sceptile|10/100|[from] drain|[of] p2a: Skarmory
+|-ability|p2a: Skarmory|Weak Armor|boost
+|-unboost|p2a: Skarmory|def|1
+|-boost|p2a: Skarmory|spe|2
+|move|p2a: Skarmory|Spikes|p1a: Sceptile
+|-sidestart|p1: air555|Spikes
+|
+|-heal|p2a: Skarmory|88/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743832940
+|switch|p1a: Rotom|Rotom-Heat|100/100
+|move|p2a: Skarmory|Swords Dance|p2a: Skarmory
+|-boost|p2a: Skarmory|atk|2
+|
+|-heal|p2a: Skarmory|94/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1743832952
+|move|p1a: Rotom|Overheat|p2a: Skarmory
+|-supereffective|p2a: Skarmory
+|-damage|p2a: Skarmory|0 fnt
+|-unboost|p1a: Rotom|spa|2
+|faint|p2a: Skarmory
+|
+|upkeep
+|l|☆Colonel fromage
+|inactive|Colonel fromage disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|Colonel fromage has 30 seconds to reconnect!
+|inactive|Colonel fromage has 20 seconds to reconnect!
+|inactive|Colonel fromage has 15 seconds to reconnect!
+|inactive|Colonel fromage has 10 seconds to reconnect!
+|inactive|Colonel fromage has 5 seconds to reconnect!
+|-message|Colonel fromage lost due to inactivity.
+|
+|win|air555
+|raw|air555's rating: 1136 &rarr; <strong>1161</strong><br />(+25 for winning)
+|raw|Colonel fromage's rating: 1138 &rarr; <strong>1113</strong><br />(-25 for losing)
+|l|☆air555
+|player|p1|

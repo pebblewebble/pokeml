@@ -1,0 +1,839 @@
+|j|☆Avenged7mold
+|j|‽SSATFAW
+|t:|1743790201
+|gametype|singles
+|player|p1|Avenged7mold|iono|1444
+|player|p2|SSATFAW|ghetsis|1397
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Weavile, F|
+|poke|p1|Pecharunt|
+|poke|p1|Ting-Lu|
+|poke|p1|Tinkaton, F|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Dragonite, F|
+|poke|p2|Inteleon, M|
+|poke|p2|Dragapult, M|
+|poke|p2|Cinderace, M|
+|poke|p2|Corviknight, M|
+|poke|p2|Alomomola, M|
+|poke|p2|Ting-Lu|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Avenged7mold)
+|
+|t:|1743790223
+|start
+|switch|p1a: Weavile|Weavile, F|100/100
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|-ability|p1a: Weavile|Pressure
+|turn|1
+|
+|t:|1743790231
+|switch|p1a: Pecharunt|Pecharunt|100/100
+|move|p2a: Cinderace|Pyro Ball|p1a: Pecharunt
+|-damage|p1a: Pecharunt|74/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743790237
+|move|p2a: Cinderace|U-turn|p1a: Pecharunt
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|70/100
+|
+|t:|1743790243
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from] U-turn
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Pecharunt|Parting Shot|p2a: Corviknight
+|-unboost|p2a: Corviknight|atk|1
+|-unboost|p2a: Corviknight|spa|1
+|
+|t:|1743790251
+|switch|p1a: Tinkaton|Tinkaton, F|100/100|[from] Parting Shot
+|-item|p1a: Tinkaton|Air Balloon
+|
+|upkeep
+|turn|3
+|
+|t:|1743790258
+|move|p1a: Tinkaton|Thunder Wave|p2a: Corviknight
+|-status|p2a: Corviknight|par
+|move|p2a: Corviknight|Body Press|p1a: Tinkaton
+|-damage|p1a: Tinkaton|72/100
+|-enditem|p1a: Tinkaton|Air Balloon
+|-enditem|p2a: Corviknight|Rocky Helmet|[silent]|[from] ability: Pickpocket|[of] p2a: Corviknight
+|-item|p1a: Tinkaton|Rocky Helmet|[from] ability: Pickpocket|[of] p2a: Corviknight
+|
+|upkeep
+|turn|4
+|
+|t:|1743790268
+|move|p1a: Tinkaton|Stealth Rock|p2a: Corviknight
+|-sidestart|p2: SSATFAW|move: Stealth Rock
+|move|p2a: Corviknight|Defog|p1a: Tinkaton
+|-unboost|p1a: Tinkaton|evasion|1
+|-sideend|p2: SSATFAW|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|5
+|
+|t:|1743790276
+|move|p1a: Tinkaton|Encore|p2a: Corviknight
+|-start|p2a: Corviknight|Encore
+|move|p2a: Corviknight|Defog|p1a: Tinkaton
+|-unboost|p1a: Tinkaton|evasion|1
+|
+|upkeep
+|turn|6
+|
+|t:|1743790289
+|switch|p1a: Weavile|Weavile, F|100/100
+|-ability|p1a: Weavile|Pressure
+|move|p2a: Corviknight|Defog|p1a: Weavile
+|-unboost|p1a: Weavile|evasion|1
+|
+|upkeep
+|turn|7
+|
+|t:|1743790297
+|switch|p2a: Alomomola|Alomomola, M|100/100
+|move|p1a: Weavile|Swords Dance|p1a: Weavile
+|-boost|p1a: Weavile|atk|2
+|
+|upkeep
+|turn|8
+|
+|t:|1743790304
+|move|p1a: Weavile|Swords Dance|p1a: Weavile
+|-boost|p1a: Weavile|atk|2
+|move|p2a: Alomomola|Scald|p1a: Weavile
+|-damage|p1a: Weavile|84/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743790314
+|move|p1a: Weavile|Knock Off|p2a: Alomomola
+|-damage|p2a: Alomomola|25/100
+|-enditem|p2a: Alomomola|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Weavile
+|move|p2a: Alomomola|Flip Turn|p1a: Weavile
+|-damage|p1a: Weavile|55/100
+|
+|t:|1743790320
+|switch|p2a: Inteleon|Inteleon, M|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|10
+|
+|t:|1743790325
+|move|p2a: Inteleon|Vacuum Wave|p1a: Weavile
+|-supereffective|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1743790333
+|switch|p1a: Tinkaton|Tinkaton, F|72/100
+|turn|11
+|
+|t:|1743790337
+|switch|p2a: Alomomola|Alomomola, M|58/100
+|move|p1a: Tinkaton|Stealth Rock|p2a: Alomomola
+|-sidestart|p2: SSATFAW|move: Stealth Rock
+|
+|upkeep
+|turn|12
+|
+|t:|1743790343
+|move|p1a: Tinkaton|Thunder Wave|p2a: Alomomola
+|-status|p2a: Alomomola|par
+|move|p2a: Alomomola|Scald|p1a: Tinkaton
+|-damage|p1a: Tinkaton|61/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743790357
+|switch|p1a: Pecharunt|Pecharunt|70/100
+|move|p2a: Alomomola|Scald|p1a: Pecharunt
+|-damage|p1a: Pecharunt|59/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743790364
+|move|p1a: Pecharunt|Hex|p2a: Alomomola
+|-damage|p2a: Alomomola|10/100 par
+|move|p2a: Alomomola|Flip Turn|p1a: Pecharunt
+|-damage|p1a: Pecharunt|51/100
+|
+|t:|1743790372
+|switch|p2a: Corviknight|Corviknight, M|100/100 par|[from] Flip Turn
+|-damage|p2a: Corviknight|88/100 par|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|15
+|
+|t:|1743790381
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-damage|p2a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|-terastallize|p1a: Pecharunt|Ghost
+|move|p1a: Pecharunt|Hex|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|88/100
+|
+|-heal|p2a: Ting-Lu|94/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743790393
+|move|p1a: Pecharunt|Malignant Chain|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|87/100
+|move|p2a: Ting-Lu|Ruination|p1a: Pecharunt
+|-damage|p1a: Pecharunt|26/100
+|
+|-heal|p2a: Ting-Lu|93/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743790402
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|76/100
+|move|p2a: Ting-Lu|Ruination|p1a: Pecharunt|[miss]
+|-miss|p2a: Ting-Lu|p1a: Pecharunt
+|
+|-heal|p2a: Ting-Lu|99/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743790410
+|move|p1a: Pecharunt|Malignant Chain|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|93/100
+|move|p2a: Ting-Lu|Ruination|p1a: Pecharunt
+|-damage|p1a: Pecharunt|38/100
+|
+|-heal|p2a: Ting-Lu|99/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743790419
+|move|p1a: Pecharunt|Malignant Chain|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|92/100
+|-status|p2a: Ting-Lu|tox
+|-start|p2a: Ting-Lu|confusion|[from] ability: Poison Puppeteer|[of] p1a: Pecharunt
+|-activate|p2a: Ting-Lu|confusion
+|-damage|p2a: Ting-Lu|87/100 tox|[from] confusion
+|
+|-heal|p2a: Ting-Lu|93/100 tox|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|87/100 tox|[from] psn
+|upkeep
+|turn|20
+|
+|t:|1743790430
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|88/100
+|-activate|p2a: Ting-Lu|confusion
+|move|p2a: Ting-Lu|Ruination|p1a: Pecharunt
+|-damage|p1a: Pecharunt|45/100
+|
+|-heal|p2a: Ting-Lu|93/100 tox|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|80/100 tox|[from] psn
+|upkeep
+|turn|21
+|
+|t:|1743790439
+|move|p1a: Pecharunt|Parting Shot|p2a: Ting-Lu
+|-unboost|p2a: Ting-Lu|atk|1
+|-unboost|p2a: Ting-Lu|spa|1
+|
+|t:|1743790446
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100|[from] Parting Shot
+|-end|p2a: Ting-Lu|confusion
+|move|p2a: Ting-Lu|Ruination|p1a: Keldeo
+|-damage|p1a: Keldeo|51/100
+|-ability|p1a: Keldeo|Justified|boost
+|-boost|p1a: Keldeo|atk|1
+|
+|-heal|p2a: Ting-Lu|87/100 tox|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|68/100 tox|[from] psn
+|upkeep
+|turn|22
+|
+|t:|1743790461
+|switch|p2a: Alomomola|Alomomola, M|43/100 par
+|-damage|p2a: Alomomola|31/100 par|[from] Stealth Rock
+|move|p1a: Keldeo|Flip Turn|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|25/100 par
+|
+|t:|1743790466
+|switch|p1a: Pecharunt|Pecharunt, tera:Ghost|45/100|[from] Flip Turn
+|
+|upkeep
+|turn|23
+|
+|t:|1743790472
+|switch|p2a: Ting-Lu|Ting-Lu|68/100 tox
+|-damage|p2a: Ting-Lu|62/100 tox|[from] Stealth Rock
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Pecharunt|Hex|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|49/100 tox
+|
+|-heal|p2a: Ting-Lu|55/100 tox|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|49/100 tox|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1743790484
+|switch|p2a: Alomomola|Alomomola, M|59/100 par
+|-damage|p2a: Alomomola|46/100 par|[from] Stealth Rock
+|move|p1a: Pecharunt|Parting Shot|p2a: Alomomola
+|-unboost|p2a: Alomomola|atk|1
+|-unboost|p2a: Alomomola|spa|1
+|
+|t:|1743790492
+|switch|p1a: Dragonite|Dragonite, F|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|25
+|
+|t:|1743790502
+|switch|p2a: Corviknight|Corviknight, M|88/100 par
+|-damage|p2a: Corviknight|76/100 par|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Dragonite|Hurricane|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|57/100 par
+|
+|upkeep
+|turn|26
+|
+|t:|1743790514
+|switch|p1a: Keldeo|Keldeo-Resolute|51/100
+|cant|p2a: Corviknight|par
+|
+|upkeep
+|turn|27
+|
+|t:|1743790526
+|switch|p2a: Alomomola|Alomomola, M|80/100 par
+|-damage|p2a: Alomomola|67/100 par|[from] Stealth Rock
+|move|p1a: Keldeo|Hydro Pump|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|30/100 par
+|
+|upkeep
+|turn|28
+|
+|t:|1743790534
+|move|p1a: Keldeo|Secret Sword|p2a: Alomomola
+|-damage|p2a: Alomomola|6/100 par
+|move|p2a: Alomomola|Flip Turn|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|41/100
+|
+|t:|1743790541
+|switch|p2a: Inteleon|Inteleon, M|100/100|[from] Flip Turn
+|-damage|p2a: Inteleon|88/100|[from] Stealth Rock
+|
+|upkeep
+|turn|29
+|
+|t:|1743790553
+|move|p2a: Inteleon|Surf|p1a: Keldeo
+|-resisted|p1a: Keldeo
+|-damage|p1a: Keldeo|5/100
+|move|p1a: Keldeo|Secret Sword|p2a: Inteleon
+|-damage|p2a: Inteleon|7/100
+|
+|upkeep
+|turn|30
+|
+|t:|1743790560
+|switch|p2a: Dragapult|Dragapult, M|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|move|p1a: Keldeo|Vacuum Wave|p2a: Dragapult
+|-immune|p2a: Dragapult
+|
+|upkeep
+|turn|31
+|
+|t:|1743790574
+|switch|p1a: Tinkaton|Tinkaton, F|61/100
+|-terastallize|p2a: Dragapult|Ghost
+|move|p2a: Dragapult|Tera Blast|p1a: Tinkaton|[anim] Tera Blast Ghost
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|upkeep
+|
+|t:|1743790580
+|switch|p1a: Ting-Lu|Ting-Lu|100/100
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|turn|32
+|
+|t:|1743790588
+|switch|p2a: Corviknight|Corviknight, M|57/100 par
+|-damage|p2a: Corviknight|45/100 par|[from] Stealth Rock
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Ting-Lu|Spikes|p2a: Corviknight
+|-sidestart|p2: SSATFAW|Spikes
+|
+|upkeep
+|turn|33
+|
+|t:|1743790599
+|move|p1a: Ting-Lu|Ruination|p2a: Corviknight
+|-damage|p2a: Corviknight|23/100 par
+|move|p2a: Corviknight|Defog|p1a: Ting-Lu
+|-unboost|p1a: Ting-Lu|evasion|1
+|-sideend|p2: SSATFAW|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: SSATFAW|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|34
+|
+|t:|1743790606
+|move|p1a: Ting-Lu|Spikes|p2a: Corviknight
+|-sidestart|p2: SSATFAW|Spikes
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|73/100 par
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|35
+|
+|t:|1743790615
+|switch|p1a: Pecharunt|Pecharunt, tera:Ghost|45/100
+|move|p2a: Corviknight|Defog|p1a: Pecharunt
+|-unboost|p1a: Pecharunt|evasion|1
+|-sideend|p2: SSATFAW|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|36
+|
+|t:|1743790623
+|switch|p2a: Ting-Lu|Ting-Lu|49/100 tox
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|move|p1a: Pecharunt|Hex|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|38/100 tox
+|
+|-heal|p2a: Ting-Lu|44/100 tox|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|38/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1743790637
+|move|p1a: Pecharunt|Parting Shot|p2a: Ting-Lu
+|-unboost|p2a: Ting-Lu|atk|1
+|-unboost|p2a: Ting-Lu|spa|1
+|
+|t:|1743790639
+|switch|p1a: Keldeo|Keldeo-Resolute|5/100|[from] Parting Shot
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Keldeo
+|-sidestart|p1: Avenged7mold|move: Stealth Rock
+|
+|-heal|p2a: Ting-Lu|44/100 tox|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|31/100 tox|[from] psn
+|upkeep
+|turn|38
+|
+|t:|1743790648
+|move|p1a: Keldeo|Flip Turn|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|16/100 tox
+|
+|t:|1743790652
+|switch|p1a: Ting-Lu|Ting-Lu|100/100|[from] Flip Turn
+|-damage|p1a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Ting-Lu|Earthquake|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|82/100
+|
+|-heal|p1a: Ting-Lu|88/100|[from] item: Leftovers
+|-heal|p2a: Ting-Lu|22/100 tox|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|3/100 tox|[from] psn
+|upkeep
+|turn|39
+|
+|t:|1743790665
+|move|p1a: Ting-Lu|Spikes|p2a: Ting-Lu
+|-sidestart|p2: SSATFAW|Spikes
+|move|p2a: Ting-Lu|Ruination|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|44/100
+|
+|-heal|p1a: Ting-Lu|50/100|[from] item: Leftovers
+|-heal|p2a: Ting-Lu|10/100 tox|[from] item: Leftovers
+|-damage|p2a: Ting-Lu|0 fnt|[from] psn
+|faint|p2a: Ting-Lu
+|upkeep
+|
+|t:|1743790676
+|switch|p2a: Corviknight|Corviknight, M|73/100 par
+|-ability|p2a: Corviknight|Pressure
+|turn|40
+|
+|t:|1743790682
+|move|p1a: Ting-Lu|Ruination|p2a: Corviknight|[miss]
+|-miss|p1a: Ting-Lu|p2a: Corviknight
+|move|p2a: Corviknight|Body Press|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|25/100
+|
+|-heal|p1a: Ting-Lu|31/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1743790694
+|switch|p1a: Pecharunt|Pecharunt, tera:Ghost|45/100
+|move|p2a: Corviknight|Defog|p1a: Pecharunt
+|-unboost|p1a: Pecharunt|evasion|1
+|-sideend|p1: Avenged7mold|Stealth Rock|[from] move: Defog|[of] p2a: Corviknight
+|-sideend|p2: SSATFAW|Spikes|[from] move: Defog|[of] p2a: Corviknight
+|
+|upkeep
+|turn|42
+|
+|t:|1743790702
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|95/100
+|
+|upkeep
+|turn|43
+|
+|t:|1743790711
+|move|p2a: Cinderace|U-turn|p1a: Pecharunt
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|87/100
+|
+|t:|1743790719
+|switch|p2a: Dragapult|Dragapult, M, tera:Ghost|88/100|[from] U-turn
+|move|p1a: Pecharunt|Malignant Chain|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|67/100
+|
+|upkeep
+|turn|44
+|
+|t:|1743790736
+|move|p2a: Dragapult|U-turn|p1a: Pecharunt
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|79/100
+|
+|t:|1743790742
+|switch|p2a: Cinderace|Cinderace, M|100/100|[from] U-turn
+|move|p1a: Pecharunt|Hex|p2a: Cinderace
+|-damage|p2a: Cinderace|59/100
+|
+|upkeep
+|turn|45
+|
+|t:|1743790750
+|move|p2a: Cinderace|U-turn|p1a: Pecharunt
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Pecharunt
+|-damage|p1a: Pecharunt|70/100
+|
+|t:|1743790761
+|switch|p2a: Alomomola|Alomomola, M|39/100 par|[from] U-turn
+|move|p1a: Pecharunt|Parting Shot|p2a: Alomomola
+|-unboost|p2a: Alomomola|atk|1
+|-unboost|p2a: Alomomola|spa|1
+|
+|t:|1743790766
+|switch|p1a: Dragonite|Dragonite, F|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|46
+|
+|t:|1743790773
+|switch|p1a: Pecharunt|Pecharunt, tera:Ghost|70/100
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|47
+|
+|t:|1743790786
+|switch|p2a: Cinderace|Cinderace, M|59/100
+|move|p1a: Pecharunt|Hex|p2a: Cinderace
+|-damage|p2a: Cinderace|23/100
+|
+|-heal|p2a: Cinderace|100/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|48
+|
+|t:|1743790796
+|move|p2a: Cinderace|Pyro Ball|p1a: Pecharunt
+|-damage|p1a: Pecharunt|43/100
+|move|p1a: Pecharunt|Parting Shot|p2a: Cinderace
+|-unboost|p2a: Cinderace|atk|1
+|-unboost|p2a: Cinderace|spa|1
+|
+|t:|1743790801
+|switch|p1a: Ting-Lu|Ting-Lu|31/100|[from] Parting Shot
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|
+|-heal|p1a: Ting-Lu|37/100|[from] item: Leftovers
+|upkeep
+|turn|49
+|
+|t:|1743790809
+|move|p2a: Cinderace|U-turn|p1a: Ting-Lu
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|15/100
+|
+|t:|1743790815
+|switch|p2a: Inteleon|Inteleon, M|7/100|[from] U-turn
+|move|p1a: Ting-Lu|Spikes|p2a: Inteleon
+|-sidestart|p2: SSATFAW|Spikes
+|
+|-heal|p1a: Ting-Lu|21/100|[from] item: Leftovers
+|upkeep
+|turn|50
+|
+|t:|1743790828
+|switch|p1a: Dragonite|Dragonite, F|100/100
+|move|p2a: Inteleon|Surf|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|77/100
+|
+|upkeep
+|turn|51
+|
+|t:|1743790835
+|switch|p2a: Corviknight|Corviknight, M|73/100 par
+|-ability|p2a: Corviknight|Pressure
+|switch|p1a: Pecharunt|Pecharunt, tera:Ghost|43/100
+|
+|upkeep
+|turn|52
+|
+|t:|1743790846
+|move|p1a: Pecharunt|Hex|p2a: Corviknight
+|-damage|p2a: Corviknight|19/100 par
+|cant|p2a: Corviknight|par
+|
+|upkeep
+|turn|53
+|
+|t:|1743790852
+|move|p1a: Pecharunt|Hex|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1743790856
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|turn|54
+|
+|t:|1743790863
+|switch|p1a: Dragonite|Dragonite, F|77/100
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|55
+|
+|t:|1743790871
+|switch|p2a: Alomomola|Alomomola, M|73/100 par
+|move|p1a: Dragonite|Hurricane|p2a: Alomomola
+|-damage|p2a: Alomomola|25/100 par
+|
+|upkeep
+|turn|56
+|
+|t:|1743790880
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Dragonite|Hurricane|p2a: Cinderace|[miss]
+|-miss|p1a: Dragonite|p2a: Cinderace
+|
+|upkeep
+|turn|57
+|
+|t:|1743790887
+|move|p2a: Cinderace|U-turn|p1a: Dragonite
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|59/100
+|
+|t:|1743790891
+|switch|p2a: Alomomola|Alomomola, M|58/100 par|[from] U-turn
+|move|p1a: Dragonite|Earthquake|p2a: Alomomola
+|-damage|p2a: Alomomola|38/100 par
+|
+|upkeep
+|turn|58
+|
+|t:|1743790899
+|switch|p2a: Cinderace|Cinderace, M|100/100
+|move|p1a: Dragonite|Hurricane|p2a: Cinderace
+|-damage|p2a: Cinderace|51/100
+|
+|upkeep
+|turn|59
+|
+|t:|1743790906
+|move|p2a: Cinderace|Pyro Ball|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|31/100
+|move|p1a: Dragonite|Hurricane|p2a: Cinderace|[miss]
+|-miss|p1a: Dragonite|p2a: Cinderace
+|
+|upkeep
+|turn|60
+|
+|t:|1743790913
+|move|p2a: Cinderace|Pyro Ball|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|3/100
+|move|p1a: Dragonite|Roost|p1a: Dragonite
+|-heal|p1a: Dragonite|54/100
+|-singleturn|p1a: Dragonite|move: Roost
+|
+|upkeep
+|turn|61
+|
+|t:|1743790922
+|move|p2a: Cinderace|Pyro Ball|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|7/100
+|move|p1a: Dragonite|Hurricane|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1743790931
+|switch|p2a: Dragapult|Dragapult, M, tera:Ghost|67/100
+|turn|62
+|
+|t:|1743790943
+|move|p2a: Dragapult|Dragon Darts|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1743790947
+|switch|p1a: Pecharunt|Pecharunt, tera:Ghost|43/100
+|turn|63
+|
+|t:|1743790958
+|move|p2a: Dragapult|Dragon Darts|p1a: Pecharunt
+|-damage|p1a: Pecharunt|25/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Pecharunt
+|-damage|p1a: Pecharunt|8/100
+|move|p1a: Pecharunt|Recover|p1a: Pecharunt
+|-heal|p1a: Pecharunt|59/100
+|
+|upkeep
+|turn|64
+|
+|t:|1743790967
+|move|p2a: Dragapult|Dragon Darts|p1a: Pecharunt
+|-damage|p1a: Pecharunt|40/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Pecharunt
+|-damage|p1a: Pecharunt|22/100
+|move|p1a: Pecharunt|Hex|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1743790979
+|switch|p2a: Inteleon|Inteleon, M|7/100
+|turn|65
+|
+|t:|1743790982
+|move|p2a: Inteleon|Surf|p1a: Pecharunt
+|-damage|p1a: Pecharunt|0 fnt
+|faint|p1a: Pecharunt
+|
+|upkeep
+|
+|t:|1743790984
+|switch|p1a: Keldeo|Keldeo-Resolute|5/100
+|turn|66
+|
+|t:|1743790989
+|switch|p2a: Alomomola|Alomomola, M|71/100 par
+|move|p1a: Keldeo|Vacuum Wave|p2a: Alomomola
+|-damage|p2a: Alomomola|47/100 par
+|
+|upkeep
+|turn|67
+|
+|t:|1743790995
+|switch|p1a: Ting-Lu|Ting-Lu|21/100
+|-damage|p1a: Ting-Lu|9/100|[from] Spikes
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|-heal|p1a: Ting-Lu|15/100|[from] item: Leftovers
+|upkeep
+|turn|68
+|
+|t:|1743791004
+|move|p1a: Ting-Lu|Spikes|p2a: Alomomola
+|-sidestart|p2: SSATFAW|Spikes
+|move|p2a: Alomomola|Flip Turn|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|
+|t:|1743791011
+|switch|p2a: Inteleon|Inteleon, M|7/100|[from] Flip Turn
+|-damage|p2a: Inteleon|0 fnt|[from] Spikes
+|faint|p2a: Inteleon
+|
+|upkeep
+|
+|t:|1743791017
+|switch|p2a: Alomomola|Alomomola, M|80/100 par
+|switch|p1a: Keldeo|Keldeo-Resolute|5/100
+|-damage|p2a: Alomomola|68/100 par|[from] Spikes
+|turn|69
+|
+|t:|1743791025
+|move|p1a: Keldeo|Hydro Pump|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|35/100 par
+|move|p2a: Alomomola|Play Rough|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|win|SSATFAW
+|raw|Avenged7mold's rating: 1444 &rarr; <strong>1421</strong><br />(-23 for losing)
+|raw|SSATFAW's rating: 1397 &rarr; <strong>1420</strong><br />(+23 for winning)
+|l|☆Avenged7mold
+|player|p1|

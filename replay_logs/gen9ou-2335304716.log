@@ -1,0 +1,639 @@
+|j|☆tyranitarticuno
+|j|☆vacheron
+|t:|1743783091
+|gametype|singles
+|player|p1|tyranitarticuno|blue|1654
+|player|p2|vacheron|170|1769
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hydrapple, M|
+|poke|p1|Skarmory, F|
+|poke|p1|Tyranitar, M|
+|poke|p1|Alomomola, M|
+|poke|p1|Clodsire, F|
+|poke|p1|Clefable, F|
+|poke|p2|Samurott-Hisui, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Pecharunt|
+|poke|p2|Reuniclus, F|
+|poke|p2|Darkrai|
+|poke|p2|Kingambit, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tyranitarticuno)
+|
+|t:|1743783151
+|start
+|switch|p1a: Hydrapple|Hydrapple, M|100/100
+|switch|p2a: Valediction|Samurott-Hisui, F|100/100
+|turn|1
+|
+|t:|1743783157
+|move|p2a: Valediction|Ceaseless Edge|p1a: Hydrapple
+|-damage|p1a: Hydrapple|75/100
+|-sidestart|p1: tyranitarticuno|Spikes
+|move|p1a: Hydrapple|Nasty Plot|p1a: Hydrapple
+|-boost|p1a: Hydrapple|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1743783179
+|switch|p2a: Murasama|Kingambit, F|100/100
+|move|p1a: Hydrapple|Earth Power|p2a: Murasama
+|-supereffective|p2a: Murasama
+|-damage|p2a: Murasama|8/100
+|-enditem|p2a: Murasama|Weakness Policy
+|-boost|p2a: Murasama|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Murasama|spa|2|[from] item: Weakness Policy
+|
+|upkeep
+|turn|3
+|
+|t:|1743783199
+|move|p2a: Murasama|Kowtow Cleave|p1a: Hydrapple
+|-damage|p1a: Hydrapple|11/100
+|move|p1a: Hydrapple|Giga Drain|p2a: Murasama
+|-resisted|p2a: Murasama
+|-damage|p2a: Murasama|0 fnt
+|-heal|p1a: Hydrapple|15/100|[from] drain|[of] p2a: Murasama
+|faint|p2a: Murasama
+|-end|p2a: Murasama|fallenundefined|[silent]
+|
+|upkeep
+|
+|t:|1743783206
+|switch|p2a: Valediction|Samurott-Hisui, F|100/100
+|turn|4
+|
+|t:|1743783217
+|switch|p1a: Alomomola|Alomomola, M, shiny|100/100
+|move|p2a: Valediction|Ceaseless Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|75/100
+|-sidestart|p1: tyranitarticuno|Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1743783242
+|move|p2a: Valediction|Ceaseless Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|51/100
+|-sidestart|p1: tyranitarticuno|Spikes
+|move|p1a: Alomomola|Flip Turn|p2a: Valediction
+|-resisted|p2a: Valediction
+|-damage|p2a: Valediction|91/100
+|
+|t:|1743783245
+|switch|p1a: Skarmory|Skarmory, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|6
+|
+|t:|1743783247
+|move|p2a: Valediction|Taunt|p1a: Skarmory
+|-start|p1a: Skarmory|move: Taunt
+|cant|p1a: Skarmory|move: Taunt|Spikes
+|
+|upkeep
+|turn|7
+|
+|t:|1743783255
+|switch|p2a: Azathoth|Pecharunt|100/100
+|switch|p1a: Alomomola|Alomomola, M, shiny|85/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743783259
+|move|p2a: Azathoth|Malignant Chain|p1a: Alomomola
+|-damage|p1a: Alomomola|48/100
+|-status|p1a: Alomomola|tox
+|-start|p1a: Alomomola|confusion|[from] ability: Poison Puppeteer|[of] p2a: Azathoth
+|-activate|p1a: Alomomola|confusion
+|-damage|p1a: Alomomola|43/100 tox|[from] confusion
+|
+|-damage|p1a: Alomomola|37/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743783267
+|switch|p2a: Valediction|Samurott-Hisui, F|91/100
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743783274
+|switch|p1a: Alomomola|Alomomola, M, shiny|70/100 tox
+|move|p2a: Valediction|Taunt|p1a: Alomomola
+|-start|p1a: Alomomola|move: Taunt
+|
+|-damage|p1a: Alomomola|64/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1743783279
+|move|p2a: Valediction|Ceaseless Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|37/100 tox
+|move|p1a: Alomomola|Flip Turn|p2a: Valediction
+|-resisted|p2a: Valediction
+|-crit|p2a: Valediction
+|-damage|p2a: Valediction|76/100
+|
+|t:|1743783289
+|switch|p1a: Skarmory|Skarmory, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|12
+|
+|t:|1743783294
+|move|p2a: Valediction|Taunt|p1a: Skarmory
+|-start|p1a: Skarmory|move: Taunt
+|cant|p1a: Skarmory|move: Taunt|Spikes
+|
+|upkeep
+|turn|13
+|
+|t:|1743783301
+|switch|p2a: Azathoth|Pecharunt|100/100
+|switch|p1a: Alomomola|Alomomola, M, shiny|70/100 tox
+|
+|-damage|p1a: Alomomola|64/100 tox|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743783305
+|move|p2a: Azathoth|Malignant Chain|p1a: Alomomola
+|-damage|p1a: Alomomola|27/100 tox
+|move|p1a: Alomomola|Flip Turn|p2a: Azathoth
+|-damage|p2a: Azathoth|89/100
+|
+|t:|1743783309
+|switch|p1a: Clodsire|Clodsire, F|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|15
+|
+|t:|1743783314
+|switch|p2a: Valediction|Samurott-Hisui, F|76/100
+|move|p1a: Clodsire|Toxic|p2a: Valediction
+|-status|p2a: Valediction|tox
+|
+|-damage|p2a: Valediction|70/100 tox|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743783319
+|switch|p1a: Alomomola|Alomomola, M, shiny|60/100 tox
+|move|p2a: Valediction|Razor Shell|p1a: Alomomola
+|-resisted|p1a: Alomomola
+|-damage|p1a: Alomomola|44/100 tox
+|-unboost|p1a: Alomomola|def|1
+|
+|-damage|p2a: Valediction|58/100 tox|[from] psn
+|-damage|p1a: Alomomola|38/100 tox|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1743783328
+|switch|p1a: Hydrapple|Hydrapple, M|49/100
+|move|p2a: Valediction|Ceaseless Edge|p1a: Hydrapple
+|-crit|p1a: Hydrapple
+|-damage|p1a: Hydrapple|6/100
+|
+|-damage|p2a: Valediction|39/100 tox|[from] psn
+|upkeep
+|turn|18
+|
+|t:|1743783336
+|switch|p1a: Alomomola|Alomomola, M, shiny|71/100 tox
+|move|p2a: Valediction|Ceaseless Edge|p1a: Alomomola
+|-damage|p1a: Alomomola|43/100 tox
+|
+|-damage|p2a: Valediction|14/100 tox|[from] psn
+|-damage|p1a: Alomomola|37/100 tox|[from] psn
+|upkeep
+|turn|19
+|
+|t:|1743783345
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Valediction|Ceaseless Edge|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-damage|p2a: Valediction|0 fnt|[from] psn
+|faint|p2a: Valediction
+|-damage|p1a: Alomomola|25/100 tox|[from] psn
+|upkeep
+|
+|t:|1743783348
+|switch|p2a: Scarlet Devil|Darkrai|100/100
+|turn|20
+|
+|t:|1743783352
+|switch|p1a: Tyranitar|Tyranitar, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Scarlet Devil|Knock Off|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|87/100
+|-enditem|p1a: Tyranitar|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Scarlet Devil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Scarlet Devil|94/100|[from] Sandstorm
+|upkeep
+|turn|21
+|
+|t:|1743783364
+|switch|p2a: Azathoth|Pecharunt|89/100
+|move|p1a: Tyranitar|Roar|p2a: Azathoth
+|drag|p2a: Scarlet Devil|Darkrai|94/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Scarlet Devil|88/100|[from] Sandstorm
+|upkeep
+|turn|22
+|
+|t:|1743783370
+|switch|p2a: Azathoth|Pecharunt|89/100
+|move|p1a: Tyranitar|Knock Off|p2a: Azathoth
+|-supereffective|p2a: Azathoth
+|-damage|p2a: Azathoth|26/100
+|-enditem|p2a: Azathoth|Shuca Berry|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Azathoth|20/100|[from] Sandstorm
+|upkeep
+|turn|23
+|
+|t:|1743783376
+|move|p2a: Azathoth|Malignant Chain|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|78/100
+|move|p1a: Tyranitar|Stealth Rock|p2a: Azathoth
+|-sidestart|p2: vacheron|move: Stealth Rock
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Azathoth|14/100|[from] Sandstorm
+|upkeep
+|turn|24
+|
+|t:|1743783380
+|move|p2a: Azathoth|Malignant Chain|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|70/100
+|move|p1a: Tyranitar|Knock Off|p2a: Azathoth
+|-supereffective|p2a: Azathoth
+|-damage|p2a: Azathoth|0 fnt
+|faint|p2a: Azathoth
+|
+|-weather|none
+|upkeep
+|
+|t:|1743783382
+|switch|p2a: Mani Katti|Iron Valiant|100/100
+|-damage|p2a: Mani Katti|94/100|[from] Stealth Rock
+|-enditem|p2a: Mani Katti|Booster Energy
+|-activate|p2a: Mani Katti|ability: Quark Drive|[fromitem]
+|-start|p2a: Mani Katti|quarkdrivespa
+|turn|25
+|
+|t:|1743783386
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Mani Katti|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|42/100
+|
+|upkeep
+|turn|26
+|
+|t:|1743783395
+|move|p2a: Mani Katti|Moonblast|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|
+|upkeep
+|
+|t:|1743783407
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|turn|27
+|
+|t:|1743783411
+|-end|p2a: Mani Katti|Quark Drive|[silent]
+|switch|p2a: Metastasis|Reuniclus, F|100/100
+|move|p1a: Clodsire|Toxic|p2a: Metastasis
+|-status|p2a: Metastasis|tox
+|
+|upkeep
+|turn|28
+|
+|t:|1743783417
+|switch|p1a: Tyranitar|Tyranitar, M|70/100
+|-damage|p1a: Tyranitar|45/100|[from] Spikes
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Metastasis|Trick Room|p2a: Metastasis
+|-fieldstart|move: Trick Room|[of] p2a: Metastasis
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|29
+|
+|t:|1743783421
+|move|p2a: Metastasis|Focus Blast|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743783431
+|switch|p1a: Skarmory|Skarmory, F|100/100
+|turn|30
+|
+|t:|1743783440
+|move|p2a: Metastasis|Shadow Ball|p1a: Skarmory
+|-damage|p1a: Skarmory|55/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|31
+|
+|t:|1743783451
+|move|p2a: Metastasis|Shadow Ball|p1a: Skarmory
+|-damage|p1a: Skarmory|52/100
+|move|p1a: Skarmory|Roost|p1a: Skarmory
+|-heal|p1a: Skarmory|100/100
+|-singleturn|p1a: Skarmory|move: Roost
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|32
+|
+|t:|1743783457
+|move|p2a: Metastasis|Psychic Noise|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|67/100
+|-start|p1a: Skarmory|move: Heal Block
+|move|p1a: Skarmory|Iron Defense|p1a: Skarmory
+|-boost|p1a: Skarmory|def|2
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|upkeep
+|turn|33
+|
+|t:|1743783465
+|move|p1a: Skarmory|Body Press|p2a: Metastasis
+|-resisted|p2a: Metastasis
+|-damage|p2a: Metastasis|70/100 tox
+|move|p2a: Metastasis|Trick Room|p2a: Metastasis
+|-fieldstart|move: Trick Room|[of] p2a: Metastasis
+|
+|-end|p1a: Skarmory|move: Heal Block
+|upkeep
+|turn|34
+|
+|t:|1743783471
+|move|p2a: Metastasis|Psychic Noise|p1a: Skarmory
+|-resisted|p1a: Skarmory
+|-damage|p1a: Skarmory|35/100
+|-start|p1a: Skarmory|move: Heal Block
+|move|p1a: Skarmory|Body Press|p2a: Metastasis
+|-resisted|p2a: Metastasis
+|-damage|p2a: Metastasis|38/100 tox
+|
+|upkeep
+|turn|35
+|
+|t:|1743783493
+|move|p2a: Metastasis|Shadow Ball|p1a: Skarmory
+|-damage|p1a: Skarmory|0 fnt
+|faint|p1a: Skarmory
+|
+|upkeep
+|
+|t:|1743783498
+|switch|p1a: Hydrapple|Hydrapple, M|39/100
+|turn|36
+|
+|t:|1743783510
+|switch|p2a: Mani Katti|Iron Valiant|94/100
+|-damage|p2a: Mani Katti|88/100|[from] Stealth Rock
+|switch|p1a: Alomomola|Alomomola, M, shiny|58/100 tox
+|
+|-damage|p1a: Alomomola|52/100 tox|[from] psn
+|upkeep
+|turn|37
+|
+|t:|1743783515
+|move|p1a: Alomomola|Flip Turn|p2a: Mani Katti
+|-damage|p2a: Mani Katti|66/100
+|
+|t:|1743783518
+|switch|p1a: Clodsire|Clodsire, F|100/100|[from] Flip Turn
+|move|p2a: Mani Katti|Moonblast|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|82/100
+|-unboost|p1a: Clodsire|spa|1
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|38
+|
+|t:|1743783528
+|move|p2a: Mani Katti|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|64/100
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|100/100
+|
+|upkeep
+|turn|39
+|
+|t:|1743783532
+|move|p2a: Mani Katti|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|83/100
+|move|p1a: Clodsire|Earthquake|p2a: Mani Katti
+|-damage|p2a: Mani Katti|33/100
+|
+|upkeep
+|turn|40
+|
+|t:|1743783537
+|move|p2a: Mani Katti|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|65/100
+|move|p1a: Clodsire|Toxic|p2a: Mani Katti
+|-status|p2a: Mani Katti|tox
+|
+|-damage|p2a: Mani Katti|27/100 tox|[from] psn
+|upkeep
+|turn|41
+|
+|t:|1743783539
+|move|p2a: Mani Katti|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|45/100
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|96/100
+|
+|-damage|p2a: Mani Katti|14/100 tox|[from] psn
+|upkeep
+|turn|42
+|
+|t:|1743783542
+|move|p2a: Mani Katti|Shadow Ball|p1a: Clodsire
+|-damage|p1a: Clodsire|77/100
+|-unboost|p1a: Clodsire|spd|1
+|move|p1a: Clodsire|Recover|p1a: Clodsire
+|-heal|p1a: Clodsire|100/100
+|
+|-damage|p2a: Mani Katti|0 fnt|[from] psn
+|faint|p2a: Mani Katti
+|-end|p2a: Mani Katti|Quark Drive|[silent]
+|upkeep
+|
+|t:|1743783546
+|switch|p2a: Metastasis|Reuniclus, F|38/100 tox
+|turn|43
+|
+|t:|1743783551
+|switch|p1a: Alomomola|Alomomola, M, shiny|85/100 tox
+|move|p2a: Metastasis|Trick Room|p2a: Metastasis
+|-fieldstart|move: Trick Room|[of] p2a: Metastasis
+|
+|-damage|p1a: Alomomola|79/100 tox|[from] psn
+|upkeep
+|turn|44
+|
+|t:|1743783554
+|move|p2a: Metastasis|Psychic Noise|p1a: Alomomola
+|-damage|p1a: Alomomola|32/100 tox
+|-start|p1a: Alomomola|move: Heal Block
+|cant|p1a: Alomomola|move: Heal Block|Wish
+|
+|-damage|p1a: Alomomola|20/100 tox|[from] psn
+|upkeep
+|turn|45
+|
+|t:|1743783562
+|move|p1a: Alomomola|Protect|p1a: Alomomola
+|-singleturn|p1a: Alomomola|Protect
+|move|p2a: Metastasis|Psychic Noise|p1a: Alomomola
+|-activate|p1a: Alomomola|move: Protect
+|
+|-damage|p1a: Alomomola|1/100 tox|[from] psn
+|-end|p1a: Alomomola|move: Heal Block
+|upkeep
+|turn|46
+|
+|t:|1743783568
+|switch|p1a: Hydrapple|Hydrapple, M|72/100
+|move|p2a: Metastasis|Psychic Noise|p1a: Hydrapple
+|-damage|p1a: Hydrapple|19/100
+|-start|p1a: Hydrapple|move: Heal Block
+|
+|upkeep
+|turn|47
+|
+|t:|1743783571
+|switch|p1a: Alomomola|Alomomola, M, shiny|34/100 tox
+|move|p2a: Metastasis|Psychic Noise|p1a: Alomomola
+|-damage|p1a: Alomomola|0 fnt
+|faint|p1a: Alomomola
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1743783575
+|switch|p1a: Hydrapple|Hydrapple, M|53/100
+|turn|48
+|
+|t:|1743783582
+|switch|p2a: Scarlet Devil|Darkrai|88/100
+|-damage|p2a: Scarlet Devil|76/100|[from] Stealth Rock
+|move|p1a: Hydrapple|Giga Drain|p2a: Scarlet Devil
+|-damage|p2a: Scarlet Devil|32/100
+|-heal|p1a: Hydrapple|68/100|[from] drain|[of] p2a: Scarlet Devil
+|
+|upkeep
+|turn|49
+|
+|t:|1743783595
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Scarlet Devil|Ice Beam|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|60/100
+|-status|p1a: Clodsire|frz
+|
+|upkeep
+|turn|50
+|
+|t:|1743783603
+|move|p2a: Scarlet Devil|Knock Off|p1a: Clodsire
+|-damage|p1a: Clodsire|31/100 frz
+|-enditem|p1a: Clodsire|Heavy-Duty Boots|[from] move: Knock Off|[of] p2a: Scarlet Devil
+|cant|p1a: Clodsire|frz
+|
+|upkeep
+|turn|51
+|
+|t:|1743783606
+|move|p2a: Scarlet Devil|Ice Beam|p1a: Clodsire
+|-supereffective|p1a: Clodsire
+|-damage|p1a: Clodsire|0 fnt
+|faint|p1a: Clodsire
+|
+|upkeep
+|
+|t:|1743783608
+|switch|p1a: Hydrapple|Hydrapple, M|100/100
+|turn|52
+|
+|t:|1743783615
+|-terastallize|p1a: Hydrapple|Steel
+|move|p2a: Scarlet Devil|Ice Beam|p1a: Hydrapple
+|-resisted|p1a: Hydrapple
+|-damage|p1a: Hydrapple|84/100
+|-status|p1a: Hydrapple|frz
+|cant|p1a: Hydrapple|frz
+|
+|upkeep
+|turn|53
+|c|☆tyranitarticuno|no
+|c|☆vacheron|lol sorry
+|c|☆vacheron|lmao
+|
+|t:|1743783626
+|-terastallize|p2a: Scarlet Devil|Dark
+|move|p2a: Scarlet Devil|Dark Pulse|p1a: Hydrapple
+|-damage|p1a: Hydrapple|20/100 frz
+|cant|p1a: Hydrapple|frz
+|
+|upkeep
+|turn|54
+|c|☆tyranitarticuno|that did not just happen man
+|
+|t:|1743783643
+|move|p2a: Scarlet Devil|Dark Pulse|p1a: Hydrapple
+|-damage|p1a: Hydrapple|0 fnt
+|faint|p1a: Hydrapple
+|
+|win|vacheron
+|raw|tyranitarticuno's rating: 1654 &rarr; <strong>1639</strong><br />(-15 for losing)
+|raw|vacheron's rating: 1750 &rarr; <strong>1765</strong><br />(+15 for winning)
+|j| Lario
+|c|☆vacheron|yikes
+|l|☆vacheron
+|player|p2|
+|c|☆tyranitarticuno|ggs
+|l| Lario

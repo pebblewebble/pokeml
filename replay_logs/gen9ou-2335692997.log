@@ -1,0 +1,399 @@
+|j|☆J.GenBax
+|j|☆ikuri
+|t:|1743822246
+|gametype|singles
+|player|p1|J.GenBax|ingo|1143
+|player|p2|ikuri|hilbert|1195
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Ogerpon, F|
+|poke|p1|Mew|
+|poke|p1|Greedent, M|
+|poke|p1|Rotom|
+|poke|p1|Cinderace, M|
+|poke|p2|Quaquaval, F|
+|poke|p2|Gholdengo|
+|poke|p2|Lokix, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Gliscor, M|
+|poke|p2|Kyurem|
+|teampreview
+|
+|t:|1743822257
+|start
+|switch|p1a: Mew|Mew|100/100
+|switch|p2a: Lokix|Lokix, F|100/100
+|turn|1
+|
+|t:|1743822279
+|-terastallize|p1a: Mew|Fairy
+|move|p2a: Lokix|First Impression|p1a: Mew
+|-resisted|p1a: Mew
+|-damage|p1a: Mew|58/100
+|move|p1a: Mew|Imprison|p1a: Mew
+|-start|p1a: Mew|move: Imprison
+|
+|-heal|p1a: Mew|64/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1743822294
+|move|p1a: Mew|Transform|p2a: Lokix
+|-transform|p1a: Mew|p2a: Lokix
+|cant|p2a: Lokix|move: Imprison|Knock Off
+|
+|-heal|p1a: Mew|70/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743822303
+|switch|p2a: Gliscor|Gliscor, M|100/100
+|move|p1a: Mew|First Impression||[still]
+|-hint|First Impression only works on your first turn out.
+|-fail|p1a: Mew
+|
+|-heal|p1a: Mew|76/100|[from] item: Leftovers
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|4
+|
+|t:|1743822314
+|move|p1a: Mew|Knock Off|p2a: Gliscor
+|-damage|p2a: Gliscor|67/100 tox
+|-enditem|p2a: Gliscor|Toxic Orb|[from] move: Knock Off|[of] p1a: Mew
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-heal|p1a: Mew|82/100|[from] item: Leftovers
+|-heal|p2a: Gliscor|79/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|5
+|
+|t:|1743822325
+|move|p1a: Mew|U-turn|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|54/100 tox
+|
+|t:|1743822340
+|switch|p1a: Ogerpon|Ogerpon, F|100/100|[from] U-turn
+|move|p2a: Gliscor|Facade|p1a: Ogerpon
+|-damage|p1a: Ogerpon|26/100
+|
+|-heal|p2a: Gliscor|66/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1743822349
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Ogerpon|Bullet Seed|p2a: Gliscor
+|-activate|p2a: Gliscor|move: Protect
+|
+|-heal|p2a: Gliscor|79/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1743822357
+|switch|p2a: Lokix|Lokix, F|100/100
+|move|p1a: Ogerpon|Bullet Seed|p2a: Lokix
+|-resisted|p2a: Lokix
+|-damage|p2a: Lokix|92/100
+|-resisted|p2a: Lokix
+|-damage|p2a: Lokix|84/100
+|-resisted|p2a: Lokix
+|-damage|p2a: Lokix|75/100
+|-resisted|p2a: Lokix
+|-damage|p2a: Lokix|67/100
+|-resisted|p2a: Lokix
+|-damage|p2a: Lokix|58/100
+|-hitcount|p2a: Lokix|5
+|
+|upkeep
+|turn|8
+|
+|t:|1743822374
+|switch|p1a: Cinderace|Cinderace, M|100/100
+|move|p2a: Lokix|First Impression|p1a: Cinderace
+|-resisted|p1a: Cinderace
+|-damage|p1a: Cinderace|28/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743822388
+|move|p1a: Cinderace|Fire Blast|p2a: Lokix|[miss]
+|-miss|p1a: Cinderace|p2a: Lokix
+|move|p2a: Lokix|Knock Off|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-enditem|p1a: Cinderace|Focus Sash|[from] move: Knock Off|[of] p2a: Lokix
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743822400
+|switch|p1a: Rotom|Rotom|100/100
+|turn|10
+|
+|t:|1743822405
+|move|p1a: Rotom|Thunderbolt|p2a: Lokix
+|-damage|p2a: Lokix|0 fnt
+|faint|p2a: Lokix
+|
+|upkeep
+|
+|t:|1743822410
+|switch|p2a: Gliscor|Gliscor, M|79/100 tox
+|turn|11
+|
+|t:|1743822419
+|switch|p1a: Greedent|Greedent, M|100/100
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-heal|p2a: Gliscor|91/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|12
+|
+|t:|1743822428
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|move|p1a: Greedent|Curse|p1a: Greedent
+|-unboost|p1a: Greedent|spe|1
+|-boost|p1a: Greedent|atk|1
+|-boost|p1a: Greedent|def|1
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|13
+|
+|t:|1743822436
+|move|p2a: Gliscor|Facade|p1a: Greedent
+|-damage|p1a: Greedent|52/100
+|move|p1a: Greedent|Curse|p1a: Greedent
+|-unboost|p1a: Greedent|spe|1
+|-boost|p1a: Greedent|atk|1
+|-boost|p1a: Greedent|def|1
+|
+|upkeep
+|turn|14
+|
+|t:|1743822446
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|move|p1a: Greedent|Curse|p1a: Greedent
+|-unboost|p1a: Greedent|spe|1
+|-boost|p1a: Greedent|atk|1
+|-boost|p1a: Greedent|def|1
+|
+|upkeep
+|turn|15
+|
+|t:|1743822454
+|move|p2a: Gholdengo|Trick|p1a: Greedent
+|-activate|p2a: Gholdengo|move: Trick|[of] p1a: Greedent
+|-item|p1a: Greedent|Choice Scarf|[from] move: Trick
+|-item|p2a: Gholdengo|Sitrus Berry|[from] move: Trick
+|move|p1a: Greedent|Knock Off|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-enditem|p2a: Gholdengo|Sitrus Berry|[from] move: Knock Off|[of] p1a: Greedent
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1743822466
+|switch|p2a: Cinderace|Cinderace, F, shiny|100/100
+|turn|16
+|
+|t:|1743822470
+|move|p2a: Cinderace|Will-O-Wisp|p1a: Greedent
+|-status|p1a: Greedent|brn
+|move|p1a: Greedent|Knock Off|p2a: Cinderace
+|-damage|p2a: Cinderace|60/100
+|-enditem|p2a: Cinderace|Heavy-Duty Boots|[from] move: Knock Off|[of] p1a: Greedent
+|
+|-damage|p1a: Greedent|46/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743822481
+|move|p2a: Cinderace|U-turn|p1a: Greedent
+|-start|p2a: Cinderace|typechange|Bug|[from] ability: Libero
+|-damage|p1a: Greedent|37/100 brn
+|
+|t:|1743822485
+|switch|p2a: Gliscor|Gliscor, M|100/100 tox|[from] U-turn
+|move|p1a: Greedent|Knock Off|p2a: Gliscor
+|-damage|p2a: Gliscor|85/100 tox
+|
+|-heal|p2a: Gliscor|97/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Greedent|31/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743822495
+|switch|p1a: Ogerpon|Ogerpon, F|26/100
+|move|p2a: Gliscor|Swords Dance|p2a: Gliscor
+|-boost|p2a: Gliscor|atk|2
+|
+|-heal|p2a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|19
+|
+|t:|1743822503
+|move|p1a: Ogerpon|Bullet Seed|p2a: Gliscor
+|-damage|p2a: Gliscor|92/100 tox
+|-damage|p2a: Gliscor|83/100 tox
+|-damage|p2a: Gliscor|74/100 tox
+|-damage|p2a: Gliscor|65/100 tox
+|-hitcount|p2a: Gliscor|4
+|move|p2a: Gliscor|Facade|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|-heal|p2a: Gliscor|77/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743822515
+|switch|p1a: Mew|Mew, tera:Fairy|82/100
+|turn|20
+|
+|t:|1743822533
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Gliscor|Facade|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|-heal|p2a: Gliscor|90/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|21
+|
+|t:|1743822542
+|move|p1a: Dragapult|Dragon Rush|p2a: Gliscor
+|-damage|p2a: Gliscor|52/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|14/100
+|
+|-heal|p2a: Gliscor|64/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|22
+|
+|t:|1743822551
+|move|p1a: Dragapult|Sucker Punch|p2a: Gliscor
+|-damage|p2a: Gliscor|49/100 tox
+|move|p2a: Gliscor|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|-heal|p2a: Gliscor|61/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743822560
+|switch|p1a: Rotom|Rotom|100/100
+|turn|23
+|
+|t:|1743822576
+|switch|p2a: Cinderace|Cinderace, F, shiny|60/100
+|move|p1a: Rotom|Shadow Ball|p2a: Cinderace
+|-damage|p2a: Cinderace|18/100
+|
+|upkeep
+|turn|24
+|
+|t:|1743822583
+|move|p1a: Rotom|Shadow Ball|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1743822588
+|switch|p2a: Kyurem|Kyurem|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|25
+|
+|t:|1743822593
+|switch|p1a: Mew|Mew, tera:Fairy|82/100
+|move|p2a: Kyurem|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|36/100
+|
+|-heal|p1a: Mew|42/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1743822602
+|move|p1a: Mew|Imprison|p1a: Mew
+|-start|p1a: Mew|move: Imprison
+|move|p2a: Kyurem|Ice Beam|p1a: Mew
+|-damage|p1a: Mew|0 fnt
+|faint|p1a: Mew
+|
+|upkeep
+|
+|t:|1743822609
+|switch|p1a: Greedent|Greedent, M|31/100 brn
+|turn|27
+|
+|t:|1743822613
+|move|p2a: Kyurem|Ice Beam|p1a: Greedent
+|-damage|p1a: Greedent|0 fnt
+|faint|p1a: Greedent
+|
+|upkeep
+|
+|t:|1743822618
+|switch|p1a: Rotom|Rotom|100/100
+|turn|28
+|
+|t:|1743822624
+|move|p1a: Rotom|Shadow Ball|p2a: Kyurem
+|-damage|p2a: Kyurem|69/100
+|move|p2a: Kyurem|Draco Meteor|p1a: Rotom|[miss]
+|-miss|p2a: Kyurem|p1a: Rotom
+|
+|upkeep
+|turn|29
+|
+|t:|1743822631
+|move|p1a: Rotom|Shadow Ball|p2a: Kyurem
+|-damage|p2a: Kyurem|37/100
+|move|p2a: Kyurem|Draco Meteor|p1a: Rotom|[miss]
+|-miss|p2a: Kyurem|p1a: Rotom
+|
+|upkeep
+|turn|30
+|
+|t:|1743822641
+|move|p1a: Rotom|Shadow Ball|p2a: Kyurem
+|-damage|p2a: Kyurem|3/100
+|move|p2a: Kyurem|Ice Beam|p1a: Rotom
+|-damage|p1a: Rotom|18/100
+|-status|p1a: Rotom|frz
+|
+|upkeep
+|turn|31
+|
+|t:|1743822649
+|cant|p1a: Rotom|frz
+|move|p2a: Kyurem|Ice Beam|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|win|ikuri
+|raw|J.GenBax's rating: 1143 &rarr; <strong>1122</strong><br />(-21 for losing)
+|raw|ikuri's rating: 1195 &rarr; <strong>1216</strong><br />(+21 for winning)
+|c|☆ikuri|ggwp
+|l|☆ikuri
+|player|p2|
+|l|☆J.GenBax
+|player|p1|

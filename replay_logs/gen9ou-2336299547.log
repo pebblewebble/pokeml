@@ -1,0 +1,310 @@
+|j|☆JGabrielCO
+|j|☆BrunHasTeeth
+|t:|1743900110
+|gametype|singles
+|player|p1|JGabrielCO|1|1169
+|player|p2|BrunHasTeeth|cilan|1181
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Slowking-Galar, F|
+|poke|p1|Bruxish, F|
+|poke|p1|Iron Valiant|
+|poke|p1|Meowscarada, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Landorus-Therian, M|
+|poke|p2|Latias, F|
+|poke|p2|Moltres|
+|poke|p2|Clefable, F|
+|poke|p2|Alomomola, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Amoonguss, F|
+|teampreview
+|
+|t:|1743900134
+|start
+|switch|p1a: Bruxish|Bruxish, F|100/100
+|switch|p2a: Moltres|Moltres|100/100
+|turn|1
+|
+|t:|1743900144
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|-terastallize|p1a: Bruxish|Psychic
+|move|p1a: Bruxish|Psychic Fangs|p2a: Alomomola
+|-damage|p2a: Alomomola|38/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743900156
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Alomomola|Scald|p1a: Cinderace
+|-supereffective|p1a: Cinderace
+|-damage|p1a: Cinderace|63/100
+|
+|upkeep
+|turn|3
+|
+|t:|1743900164
+|move|p1a: Cinderace|U-turn|p2a: Alomomola
+|-damage|p2a: Alomomola|26/100
+|
+|t:|1743900166
+|switch|p1a: Bruxish|Bruxish, F, tera:Psychic|100/100|[from] U-turn
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|
+|upkeep
+|turn|4
+|
+|t:|1743900186
+|move|p2a: Alomomola|Protect|p2a: Alomomola
+|-singleturn|p2a: Alomomola|Protect
+|move|p1a: Bruxish|Psychic Fangs|p2a: Alomomola
+|-activate|p2a: Alomomola|move: Protect
+|
+|-heal|p2a: Alomomola|76/100|[from] move: Wish|[wisher] Alomomola
+|upkeep
+|turn|5
+|
+|t:|1743900195
+|switch|p1a: Meowscarada|Meowscarada, F|100/100
+|move|p2a: Alomomola|Flip Turn|p1a: Meowscarada
+|-resisted|p1a: Meowscarada
+|-crit|p1a: Meowscarada
+|-damage|p1a: Meowscarada|84/100
+|
+|t:|1743900214
+|switch|p2a: Corviknight|Corviknight, M|100/100|[from] Flip Turn
+|-ability|p2a: Corviknight|Pressure
+|
+|upkeep
+|turn|6
+|
+|t:|1743900223
+|move|p1a: Meowscarada|Knock Off|p2a: Corviknight
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-damage|p2a: Corviknight|71/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Meowscarada
+|move|p2a: Corviknight|Iron Defense|p2a: Corviknight
+|-boost|p2a: Corviknight|def|2
+|
+|upkeep
+|turn|7
+|
+|t:|1743900239
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|
+|upkeep
+|turn|8
+|
+|t:|1743900247
+|move|p1a: Iron Valiant|Thunderbolt|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|15/100
+|move|p2a: Corviknight|Body Press|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|65/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743900258
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|switch|p1a: Bruxish|Bruxish, F, tera:Psychic|100/100
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743900268
+|switch|p2a: Corviknight|Corviknight, M|15/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Bruxish|Psychic Fangs|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1743900280
+|switch|p2a: Moltres|Moltres|100/100
+|turn|11
+|
+|t:|1743900287
+|switch|p1a: Slowking|Slowking-Galar, F|100/100
+|move|p2a: Moltres|Will-O-Wisp|p1a: Slowking
+|-status|p1a: Slowking|brn
+|
+|-damage|p1a: Slowking|94/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1743900295
+|switch|p2a: Amoonguss|Amoonguss, F|100/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743900297
+|switch|p1a: Bruxish|Bruxish, F, tera:Psychic|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1743900307
+|switch|p2a: Alomomola|Alomomola, F|100/100
+|move|p1a: Bruxish|Wave Crash|p2a: Alomomola
+|-resisted|p2a: Alomomola
+|-damage|p2a: Alomomola|79/100
+|-damage|p1a: Bruxish|87/100|[from] Recoil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|14
+|
+|t:|1743900316
+|switch|p1a: Slowking|Slowking-Galar, F|100/100 brn
+|move|p2a: Alomomola|Scald|p1a: Slowking
+|-damage|p1a: Slowking|90/100 brn
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Slowking|96/100 brn|[from] item: Black Sludge
+|-damage|p1a: Slowking|90/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1743900327
+|move|p2a: Alomomola|Wish|p2a: Alomomola
+|move|p1a: Slowking|Future Sight|p2a: Alomomola
+|-start|p1a: Slowking|move: Future Sight
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Slowking|96/100 brn|[from] item: Black Sludge
+|-damage|p1a: Slowking|90/100 brn|[from] brn
+|upkeep
+|turn|16
+|
+|t:|1743900333
+|move|p2a: Alomomola|Flip Turn|p1a: Slowking
+|-damage|p1a: Slowking|79/100 brn
+|
+|t:|1743900339
+|switch|p2a: Latias|Latias, F|100/100|[from] Flip Turn
+|move|p1a: Slowking|Sludge Bomb|p2a: Latias
+|-damage|p2a: Latias|88/100
+|
+|-weather|none
+|-heal|p2a: Latias|100/100|[from] move: Wish|[wisher] Alomomola
+|-heal|p1a: Slowking|85/100 brn|[from] item: Black Sludge
+|-damage|p1a: Slowking|79/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1743900355
+|move|p2a: Latias|Psychic|p1a: Slowking
+|-damage|p1a: Slowking|56/100 brn
+|move|p1a: Slowking|Thunder Wave|p2a: Latias|[miss]
+|-miss|p1a: Slowking|p2a: Latias
+|
+|-end|p2a: Latias|move: Future Sight
+|-resisted|p2a: Latias
+|-damage|p2a: Latias|91/100
+|-heal|p1a: Slowking|62/100 brn|[from] item: Black Sludge
+|-damage|p1a: Slowking|56/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743900366
+|switch|p2a: Clefable|Clefable, F|100/100
+|move|p1a: Slowking|Thunder Wave|p2a: Clefable
+|-status|p2a: Clefable|par
+|
+|-heal|p1a: Slowking|62/100 brn|[from] item: Black Sludge
+|-damage|p1a: Slowking|56/100 brn|[from] brn
+|upkeep
+|turn|19
+|
+|t:|1743900374
+|cant|p2a: Clefable|par
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743900377
+|switch|p1a: Bruxish|Bruxish, F, tera:Psychic|87/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1743900384
+|move|p1a: Bruxish|Psychic Fangs|p2a: Clefable
+|-damage|p2a: Clefable|7/100 par
+|move|p2a: Clefable|Stealth Rock|p1a: Bruxish
+|-sidestart|p1: JGabrielCO|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Clefable|13/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743900390
+|move|p1a: Bruxish|Psychic Fangs|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1743900397
+|switch|p2a: Moltres|Moltres|100/100
+|turn|22
+|
+|t:|1743900401
+|switch|p1a: Slowking|Slowking-Galar, F|89/100 brn
+|-damage|p1a: Slowking|77/100 brn|[from] Stealth Rock
+|move|p2a: Moltres|U-turn|p1a: Slowking
+|-damage|p1a: Slowking|64/100 brn
+|
+|t:|1743900407
+|switch|p2a: Latias|Latias, F|91/100|[from] U-turn
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Slowking|70/100 brn|[from] item: Black Sludge
+|-damage|p1a: Slowking|64/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1743900416
+|move|p2a: Latias|Psychic|p1a: Slowking
+|-damage|p1a: Slowking|42/100 brn
+|move|p1a: Slowking|Thunder Wave|p2a: Latias
+|-status|p2a: Latias|par
+|
+|-weather|none
+|-heal|p1a: Slowking|48/100 brn|[from] item: Black Sludge
+|-damage|p1a: Slowking|42/100 brn|[from] brn
+|upkeep
+|turn|24
+|-message|BrunHasTeeth forfeited.
+|
+|win|JGabrielCO
+|raw|JGabrielCO's rating: 1169 &rarr; <strong>1195</strong><br />(+26 for winning)
+|raw|BrunHasTeeth's rating: 1181 &rarr; <strong>1155</strong><br />(-26 for losing)
+|l|☆BrunHasTeeth
+|player|p2|

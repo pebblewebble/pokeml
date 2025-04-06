@@ -1,0 +1,493 @@
+|j|☆gabb_brn
+|j|☆Kanto's Finest
+|t:|1743891492
+|gametype|singles
+|player|p1|gabb_brn|bruno|1204
+|player|p2|Kanto's Finest|tamer-gen1rb|1238
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Skeledirge, F|
+|poke|p1|Manaphy|
+|poke|p1|Gholdengo|
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Amoonguss, M|
+|poke|p1|Great Tusk|
+|poke|p2|Clefable, F|
+|poke|p2|Golduck, M|
+|poke|p2|Chansey, F|
+|poke|p2|Vileplume, F|
+|poke|p2|Hitmonlee, M|
+|poke|p2|Mew|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gabb_brn)
+|
+|t:|1743891501
+|start
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|switch|p2a: Lucy|Mew|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Lucy|atk|1
+|turn|1
+|
+|t:|1743891518
+|switch|p1a: trippy troppy|Manaphy, shiny|100/100
+|move|p2a: Lucy|Will-O-Wisp|p1a: trippy troppy
+|-status|p1a: trippy troppy|brn
+|
+|-damage|p1a: trippy troppy|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1743891525
+|move|p2a: Lucy|Toxic Spikes|p1a: trippy troppy
+|-sidestart|p1: gabb_brn|move: Toxic Spikes
+|move|p1a: trippy troppy|Take Heart|p1a: trippy troppy
+|-boost|p1a: trippy troppy|spa|1
+|-boost|p1a: trippy troppy|spd|1
+|-curestatus|p1a: trippy troppy|brn|[msg]
+|
+|-heal|p1a: trippy troppy|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743891537
+|move|p2a: Lucy|Taunt|p1a: trippy troppy
+|-start|p1a: trippy troppy|move: Taunt
+|cant|p1a: trippy troppy|move: Taunt|Take Heart
+|
+|upkeep
+|turn|4
+|
+|t:|1743891543
+|move|p2a: Lucy|Toxic Spikes|p1a: trippy troppy
+|-sidestart|p1: gabb_brn|move: Toxic Spikes
+|move|p1a: trippy troppy|Scald|p2a: Lucy
+|-damage|p2a: Lucy|68/100
+|-status|p2a: Lucy|brn
+|-activate|p2a: Lucy|ability: Synchronize
+|-status|p1a: trippy troppy|brn
+|-enditem|p2a: Lucy|Red Card|[of] p1a: trippy troppy
+|drag|p1a: Great Tusk|Great Tusk|100/100
+|-status|p1a: Great Tusk|tox
+|
+|-damage|p1a: Great Tusk|94/100 tox|[from] psn
+|-damage|p2a: Lucy|62/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1743891559
+|switch|p2a: Strawberry F|Vileplume, F|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: Strawberry F
+|-damage|p2a: Strawberry F|77/100
+|-damage|p1a: Great Tusk|78/100 tox|[from] item: Rocky Helmet|[of] p2a: Strawberry F
+|-enditem|p2a: Strawberry F|Rocky Helmet|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-heal|p1a: Great Tusk|84/100 tox|[from] item: Leftovers
+|-damage|p1a: Great Tusk|71/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1743891572
+|move|p1a: Great Tusk|Rapid Spin|p2a: Strawberry F
+|-crit|p2a: Strawberry F
+|-damage|p2a: Strawberry F|60/100
+|-boost|p1a: Great Tusk|spe|1
+|-sideend|p1: gabb_brn|Toxic Spikes|[from] move: Rapid Spin|[of] p1a: Great Tusk
+|move|p2a: Strawberry F|Giga Drain|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|-heal|p2a: Strawberry F|100/100|[from] drain|[of] p1a: Great Tusk
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743891584
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Strawberry F|atk|1
+|turn|7
+|
+|t:|1743891587
+|move|p1a: Landorus|Stealth Rock|p2a: Strawberry F
+|-sidestart|p2: Kanto's Finest|move: Stealth Rock
+|move|p2a: Strawberry F|Leech Seed|p1a: Landorus
+|-start|p1a: Landorus|move: Leech Seed
+|
+|-damage|p1a: Landorus|88/100|[from] Leech Seed|[of] p2a: Strawberry F
+|upkeep
+|turn|8
+|
+|t:|1743891597
+|move|p1a: Landorus|U-turn|p2a: Strawberry F
+|-damage|p2a: Strawberry F|84/100
+|-status|p1a: Landorus|psn|[from] ability: Effect Spore|[of] p2a: Strawberry F
+|
+|t:|1743891616
+|switch|p1a: bombardirocrocodlo|Skeledirge, F, shiny|100/100|[from] U-turn
+|move|p2a: Strawberry F|Giga Drain|p1a: bombardirocrocodlo
+|-resisted|p1a: bombardirocrocodlo
+|-damage|p1a: bombardirocrocodlo|86/100
+|-heal|p2a: Strawberry F|92/100|[from] drain|[of] p1a: bombardirocrocodlo
+|
+|upkeep
+|turn|9
+|
+|t:|1743891628
+|switch|p2a: FuckaDuck|Golduck, M, shiny|100/100
+|-damage|p2a: FuckaDuck|88/100|[from] Stealth Rock
+|-ability|p2a: FuckaDuck|Cloud Nine
+|move|p1a: bombardirocrocodlo|Will-O-Wisp|p2a: FuckaDuck
+|-status|p2a: FuckaDuck|brn
+|
+|-damage|p2a: FuckaDuck|82/100 brn|[from] brn
+|upkeep
+|turn|10
+|inactive|Kanto's Finest has 120 seconds left.
+|
+|t:|1743891663
+|-terastallize|p1a: bombardirocrocodlo|Fairy
+|move|p2a: FuckaDuck|Whirlpool|p1a: bombardirocrocodlo
+|-damage|p1a: bombardirocrocodlo|73/100
+|-activate|p1a: bombardirocrocodlo|move: Whirlpool|[of] p2a: FuckaDuck
+|move|p1a: bombardirocrocodlo|Hex|p2a: FuckaDuck
+|-damage|p2a: FuckaDuck|30/100 brn
+|
+|-damage|p2a: FuckaDuck|24/100 brn|[from] brn
+|-damage|p1a: bombardirocrocodlo|61/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|11
+|inactive|Kanto's Finest has 120 seconds left.
+|
+|t:|1743891691
+|move|p2a: FuckaDuck|Disable|p1a: bombardirocrocodlo
+|-start|p1a: bombardirocrocodlo|Disable|Hex
+|move|p1a: bombardirocrocodlo|Slack Off|p1a: bombardirocrocodlo
+|-heal|p1a: bombardirocrocodlo|100/100
+|
+|-damage|p2a: FuckaDuck|18/100 brn|[from] brn
+|-damage|p1a: bombardirocrocodlo|88/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|t:|1743891700
+|move|p2a: FuckaDuck|Encore|p1a: bombardirocrocodlo
+|-start|p1a: bombardirocrocodlo|Encore
+|move|p1a: bombardirocrocodlo|Slack Off|p1a: bombardirocrocodlo
+|-heal|p1a: bombardirocrocodlo|100/100
+|
+|-damage|p2a: FuckaDuck|12/100 brn|[from] brn
+|-damage|p1a: bombardirocrocodlo|88/100|[from] move: Whirlpool|[partiallytrapped]
+|upkeep
+|turn|13
+|
+|t:|1743891715
+|switch|p2a: Sgt Pep pep|Hitmonlee, M|100/100
+|-damage|p2a: Sgt Pep pep|95/100|[from] Stealth Rock
+|move|p1a: bombardirocrocodlo|Slack Off|p1a: bombardirocrocodlo
+|-heal|p1a: bombardirocrocodlo|100/100
+|
+|-end|p1a: bombardirocrocodlo|Whirlpool|[partiallytrapped]|[silent]
+|upkeep
+|turn|14
+|
+|t:|1743891723
+|move|p2a: Sgt Pep pep|Rapid Spin|p1a: bombardirocrocodlo
+|-enditem|p2a: Sgt Pep pep|Normal Gem|[from] gem
+|-damage|p1a: bombardirocrocodlo|87/100
+|-boost|p2a: Sgt Pep pep|spe|1
+|-sideend|p2: Kanto's Finest|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Sgt Pep pep
+|move|p1a: bombardirocrocodlo|Slack Off|p1a: bombardirocrocodlo
+|-heal|p1a: bombardirocrocodlo|100/100
+|
+|-end|p1a: bombardirocrocodlo|Encore
+|-end|p1a: bombardirocrocodlo|Disable
+|upkeep
+|turn|15
+|
+|t:|1743891753
+|switch|p2a: Mr. Moonlight|Clefable, F|100/100
+|move|p1a: bombardirocrocodlo|Will-O-Wisp|p2a: Mr. Moonlight
+|-status|p2a: Mr. Moonlight|brn
+|
+|-damage|p2a: Mr. Moonlight|94/100 brn|[from] brn
+|upkeep
+|turn|16
+|l|☆gabb_brn
+|inactive|gabb_brn disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆gabb_brn
+|inactive|gabb_brn reconnected and has 140 seconds left.
+|player|p1|gabb_brn|bruno|
+|
+|t:|1743891771
+|switch|p2a: The Eggman|Chansey, F|100/100
+|move|p1a: bombardirocrocodlo|Torch Song|p2a: The Eggman
+|-damage|p2a: The Eggman|91/100
+|-boost|p1a: bombardirocrocodlo|spa|1
+|
+|upkeep
+|turn|17
+|
+|t:|1743891781
+|move|p1a: bombardirocrocodlo|Torch Song|p2a: The Eggman
+|-damage|p2a: The Eggman|79/100
+|-boost|p1a: bombardirocrocodlo|spa|1
+|move|p2a: The Eggman|Seismic Toss|p1a: bombardirocrocodlo
+|-damage|p1a: bombardirocrocodlo|76/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743891789
+|move|p1a: bombardirocrocodlo|Torch Song|p2a: The Eggman
+|-damage|p2a: The Eggman|61/100
+|-boost|p1a: bombardirocrocodlo|spa|1
+|move|p2a: The Eggman|Seismic Toss|p1a: bombardirocrocodlo
+|-damage|p1a: bombardirocrocodlo|52/100
+|
+|upkeep
+|turn|19
+|
+|t:|1743891810
+|move|p1a: bombardirocrocodlo|Torch Song|p2a: The Eggman
+|-damage|p2a: The Eggman|39/100
+|-boost|p1a: bombardirocrocodlo|spa|1
+|move|p2a: The Eggman|Seismic Toss|p1a: bombardirocrocodlo
+|-damage|p1a: bombardirocrocodlo|28/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743891827
+|switch|p2a: FuckaDuck|Golduck, M, shiny|12/100 brn
+|-ability|p2a: FuckaDuck|Cloud Nine
+|move|p1a: bombardirocrocodlo|Slack Off|p1a: bombardirocrocodlo
+|-heal|p1a: bombardirocrocodlo|78/100
+|
+|-damage|p2a: FuckaDuck|6/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1743891852
+|switch|p1a: Landorus|Landorus-Therian, M|88/100 psn
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: FuckaDuck|atk|1
+|move|p2a: FuckaDuck|Encore||[still]
+|-fail|p2a: FuckaDuck
+|
+|-damage|p1a: Landorus|76/100 psn|[from] psn
+|-damage|p2a: FuckaDuck|0 fnt|[from] brn
+|faint|p2a: FuckaDuck
+|upkeep
+|inactive|Kanto's Finest has 90 seconds left.
+|
+|t:|1743891869
+|switch|p2a: Strawberry F|Vileplume, F|92/100
+|turn|22
+|inactive|gabb_brn has 120 seconds left.
+|l|☆gabb_brn
+|inactive|gabb_brn disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆gabb_brn
+|inactive|gabb_brn reconnected and has 105 seconds left.
+|player|p1|gabb_brn|bruno|
+|
+|t:|1743891914
+|move|p1a: Landorus|Earthquake|p2a: Strawberry F
+|-damage|p2a: Strawberry F|55/100
+|move|p2a: Strawberry F|Leech Seed|p1a: Landorus
+|-start|p1a: Landorus|move: Leech Seed
+|
+|-damage|p1a: Landorus|63/100 psn|[from] Leech Seed|[of] p2a: Strawberry F
+|-heal|p2a: Strawberry F|69/100|[silent]
+|-damage|p1a: Landorus|51/100 psn|[from] psn
+|upkeep
+|turn|23
+|
+|t:|1743891922
+|move|p1a: Landorus|Stealth Rock|p2a: Strawberry F
+|-sidestart|p2: Kanto's Finest|move: Stealth Rock
+|move|p2a: Strawberry F|Sludge Bomb|p1a: Landorus
+|-resisted|p1a: Landorus
+|-damage|p1a: Landorus|31/100 psn
+|
+|-damage|p1a: Landorus|19/100 psn|[from] Leech Seed|[of] p2a: Strawberry F
+|-heal|p2a: Strawberry F|82/100|[silent]
+|-damage|p1a: Landorus|7/100 psn|[from] psn
+|upkeep
+|turn|24
+|
+|t:|1743891931
+|move|p1a: Landorus|Earthquake|p2a: Strawberry F
+|-damage|p2a: Strawberry F|47/100
+|move|p2a: Strawberry F|Strength Sap|p1a: Landorus
+|-unboost|p1a: Landorus|atk|1
+|-heal|p2a: Strawberry F|100/100
+|
+|-damage|p1a: Landorus|0 fnt|[from] Leech Seed|[of] p2a: Strawberry F
+|faint|p1a: Landorus
+|upkeep
+|
+|t:|1743891949
+|switch|p1a: bombardirocrocodlo|Skeledirge, F, shiny, tera:Fairy|78/100
+|turn|25
+|inactive|Kanto's Finest has 120 seconds left.
+|
+|t:|1743891954
+|-terastallize|p2a: Strawberry F|Fire
+|move|p1a: bombardirocrocodlo|Torch Song|p2a: Strawberry F
+|-resisted|p2a: Strawberry F
+|-damage|p2a: Strawberry F|86/100
+|-boost|p1a: bombardirocrocodlo|spa|1
+|move|p2a: Strawberry F|Sludge Bomb|p1a: bombardirocrocodlo
+|-supereffective|p1a: bombardirocrocodlo
+|-damage|p1a: bombardirocrocodlo|1/100
+|-status|p1a: bombardirocrocodlo|psn
+|
+|-damage|p1a: bombardirocrocodlo|0 fnt|[from] psn
+|faint|p1a: bombardirocrocodlo
+|upkeep
+|
+|t:|1743891966
+|switch|p1a: trippy troppy|Manaphy, shiny|100/100 brn
+|turn|26
+|
+|t:|1743891972
+|move|p1a: trippy troppy|Take Heart|p1a: trippy troppy
+|-boost|p1a: trippy troppy|spa|1
+|-boost|p1a: trippy troppy|spd|1
+|-curestatus|p1a: trippy troppy|brn|[msg]
+|move|p2a: Strawberry F|Giga Drain|p1a: trippy troppy
+|-supereffective|p1a: trippy troppy
+|-damage|p1a: trippy troppy|79/100
+|-heal|p2a: Strawberry F|98/100|[from] drain|[of] p1a: trippy troppy
+|
+|-heal|p1a: trippy troppy|85/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1743891982
+|move|p1a: trippy troppy|Take Heart|p1a: trippy troppy
+|-boost|p1a: trippy troppy|spa|1
+|-boost|p1a: trippy troppy|spd|1
+|move|p2a: Strawberry F|Leech Seed|p1a: trippy troppy
+|-start|p1a: trippy troppy|move: Leech Seed
+|
+|-heal|p1a: trippy troppy|92/100|[from] item: Leftovers
+|-damage|p1a: trippy troppy|79/100|[from] Leech Seed|[of] p2a: Strawberry F
+|-heal|p2a: Strawberry F|100/100|[silent]
+|upkeep
+|turn|28
+|
+|t:|1743891990
+|switch|p2a: Lucy|Mew|62/100 brn
+|-damage|p2a: Lucy|49/100 brn|[from] Stealth Rock
+|move|p1a: trippy troppy|Take Heart|p1a: trippy troppy
+|-boost|p1a: trippy troppy|spa|1
+|-boost|p1a: trippy troppy|spd|1
+|
+|-heal|p1a: trippy troppy|85/100|[from] item: Leftovers
+|-damage|p1a: trippy troppy|73/100|[from] Leech Seed|[of] p2a: Lucy
+|-heal|p2a: Lucy|62/100 brn|[silent]
+|-damage|p2a: Lucy|55/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1743892004
+|move|p2a: Lucy|Transform|p1a: trippy troppy
+|-transform|p2a: Lucy|p1a: trippy troppy
+|move|p1a: trippy troppy|Stored Power|p2a: Lucy
+|-damage|p2a: Lucy|37/100 brn
+|
+|-heal|p1a: trippy troppy|79/100|[from] item: Leftovers
+|-damage|p1a: trippy troppy|67/100|[from] Leech Seed|[of] p2a: Lucy
+|-heal|p2a: Lucy|49/100 brn|[silent]
+|-damage|p2a: Lucy|43/100 brn|[from] brn
+|upkeep
+|turn|30
+|l|☆gabb_brn
+|inactive|gabb_brn disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆gabb_brn
+|inactive|gabb_brn reconnected and has 105 seconds left.
+|player|p1|gabb_brn|bruno|
+|
+|t:|1743892043
+|move|p1a: trippy troppy|Stored Power|p2a: Lucy
+|-damage|p2a: Lucy|23/100 brn
+|move|p2a: Lucy|Take Heart|p2a: Lucy
+|-boost|p2a: Lucy|spa|1
+|-boost|p2a: Lucy|spd|1
+|-curestatus|p2a: Lucy|brn|[msg]
+|
+|-heal|p1a: trippy troppy|73/100|[from] item: Leftovers
+|-damage|p1a: trippy troppy|61/100|[from] Leech Seed|[of] p2a: Lucy
+|-heal|p2a: Lucy|36/100|[silent]
+|upkeep
+|turn|31
+|inactive|Kanto's Finest has 120 seconds left.
+|l|☆gabb_brn
+|inactive|gabb_brn disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆gabb_brn
+|inactive|gabb_brn reconnected.
+|player|p1|gabb_brn|bruno|
+|inactive|Kanto's Finest has 90 seconds left.
+|l|☆gabb_brn
+|inactive|gabb_brn disconnected and has a minute to reconnect!
+|player|p1|
+|j|☆gabb_brn
+|inactive|gabb_brn reconnected.
+|player|p1|gabb_brn|bruno|
+|inactive|Kanto's Finest has 60 seconds left.
+|
+|t:|1743892142
+|switch|p1a: Amoonguss|Amoonguss, M, shiny|100/100
+|move|p2a: Lucy|Take Heart|p2a: Lucy
+|-boost|p2a: Lucy|spa|1
+|-boost|p2a: Lucy|spd|1
+|
+|upkeep
+|turn|32
+|
+|t:|1743892158
+|move|p2a: Lucy|Stored Power|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|upkeep
+|
+|t:|1743892163
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|turn|33
+|
+|t:|1743892175
+|move|p1a: Gholdengo|Shadow Ball|p2a: Lucy
+|-damage|p2a: Lucy|28/100
+|move|p2a: Lucy|Scald|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|upkeep
+|-message|gabb_brn forfeited.
+|
+|win|Kanto's Finest
+|raw|gabb_brn's rating: 1204 &rarr; <strong>1181</strong><br />(-23 for losing)
+|raw|Kanto&apos;s Finest's rating: 1238 &rarr; <strong>1261</strong><br />(+23 for winning)
+|l|☆gabb_brn
+|player|p1|
+|l|☆Kanto's Finest
+|player|p2|

@@ -1,0 +1,440 @@
+|j|☆2(H2O)-Alt
+|j|☆weird mon
+|t:|1743924289
+|gametype|singles
+|player|p1|2(H2O)-Alt|chase|1616
+|player|p2|weird mon|battlegirl-gen4|1654
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Iron Valiant|
+|poke|p1|Greninja-*, M|
+|poke|p1|Glimmora, M|
+|poke|p1|Kingambit, F|
+|poke|p1|Iron Jugulis|
+|poke|p1|Iron Moth|
+|poke|p2|Kingambit, F|
+|poke|p2|Iron Moth|
+|poke|p2|Great Tusk|
+|poke|p2|Dragapult, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Ting-Lu|
+|teampreview
+|
+|t:|1743924301
+|start
+|switch|p1a: Iron Jugulis|Iron Jugulis|100/100
+|switch|p2a: From Now On|Great Tusk|100/100
+|-enditem|p1a: Iron Jugulis|Booster Energy
+|-activate|p1a: Iron Jugulis|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Jugulis|quarkdrivespe
+|-enditem|p2a: From Now On|Booster Energy
+|-activate|p2a: From Now On|ability: Protosynthesis|[fromitem]
+|-start|p2a: From Now On|protosynthesisatk
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by 2(H2O)-Alt)
+|
+|t:|1743924308
+|-end|p2a: From Now On|Protosynthesis|[silent]
+|switch|p2a: Lock On Me|Ting-Lu|100/100
+|-ability|p2a: Lock On Me|Vessel of Ruin
+|move|p1a: Iron Jugulis|Hurricane|p2a: Lock On Me|[miss]
+|-miss|p1a: Iron Jugulis|p2a: Lock On Me
+|
+|upkeep
+|turn|2
+|
+|t:|1743924311
+|move|p1a: Iron Jugulis|Taunt|p2a: Lock On Me
+|-start|p2a: Lock On Me|move: Taunt
+|cant|p2a: Lock On Me|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|3
+|j| frindlebabbin
+|
+|t:|1743924316
+|move|p1a: Iron Jugulis|Knock Off|p2a: Lock On Me
+|-resisted|p2a: Lock On Me
+|-damage|p2a: Lock On Me|94/100
+|-damage|p1a: Iron Jugulis|84/100|[from] item: Rocky Helmet|[of] p2a: Lock On Me
+|-enditem|p2a: Lock On Me|Rocky Helmet|[from] move: Knock Off|[of] p1a: Iron Jugulis
+|move|p2a: Lock On Me|Ruination|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|42/100
+|
+|upkeep
+|turn|4
+|
+|t:|1743924322
+|move|p1a: Iron Jugulis|Hurricane|p2a: Lock On Me
+|-damage|p2a: Lock On Me|72/100
+|-start|p2a: Lock On Me|confusion
+|-activate|p2a: Lock On Me|confusion
+|-damage|p2a: Lock On Me|66/100|[from] confusion
+|
+|-end|p2a: Lock On Me|move: Taunt
+|upkeep
+|turn|5
+|j| WangLinWL
+|
+|t:|1743924330
+|move|p1a: Iron Jugulis|Taunt|p2a: Lock On Me
+|-start|p2a: Lock On Me|move: Taunt
+|-activate|p2a: Lock On Me|confusion
+|-damage|p2a: Lock On Me|60/100|[from] confusion
+|
+|upkeep
+|turn|6
+|
+|t:|1743924333
+|move|p1a: Iron Jugulis|Hurricane|p2a: Lock On Me
+|-damage|p2a: Lock On Me|38/100
+|-activate|p2a: Lock On Me|confusion
+|move|p2a: Lock On Me|Ruination|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|21/100
+|
+|upkeep
+|turn|7
+|c| frindlebabbin|jugulis sweep
+|
+|t:|1743924339
+|move|p1a: Iron Jugulis|Hurricane|p2a: Lock On Me|[miss]
+|-miss|p1a: Iron Jugulis|p2a: Lock On Me
+|-end|p2a: Lock On Me|confusion
+|move|p2a: Lock On Me|Ruination|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|11/100
+|
+|-end|p2a: Lock On Me|move: Taunt
+|upkeep
+|turn|8
+|
+|t:|1743924344
+|switch|p2a: Falling Forever|Kingambit, F|100/100
+|-item|p2a: Falling Forever|Air Balloon
+|move|p1a: Iron Jugulis|Taunt|p2a: Falling Forever
+|-start|p2a: Falling Forever|move: Taunt
+|
+|upkeep
+|turn|9
+|
+|t:|1743924354
+|move|p1a: Iron Jugulis|Fire Blast|p2a: Falling Forever
+|-supereffective|p2a: Falling Forever
+|-damage|p2a: Falling Forever|29/100
+|-enditem|p2a: Falling Forever|Air Balloon
+|move|p2a: Falling Forever|Kowtow Cleave|p1a: Iron Jugulis
+|-resisted|p1a: Iron Jugulis
+|-damage|p1a: Iron Jugulis|0 fnt
+|faint|p1a: Iron Jugulis
+|-end|p1a: Iron Jugulis|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743924361
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|turn|10
+|
+|t:|1743924372
+|-end|p2a: Falling Forever|fallenundefined|[silent]
+|switch|p2a: From Now On|Great Tusk|100/100
+|move|p1a: Glimmora|Stealth Rock|p2a: From Now On
+|-sidestart|p2: weird mon|move: Stealth Rock
+|
+|upkeep
+|turn|11
+|
+|t:|1743924380
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: From Now On|Headlong Rush|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|23/100
+|-unboost|p2a: From Now On|def|1
+|-unboost|p2a: From Now On|spd|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743924385
+|-end|p2a: From Now On|Protosynthesis|[silent]
+|switch|p2a: Lock On Me|Ting-Lu|38/100
+|-damage|p2a: Lock On Me|32/100|[from] Stealth Rock
+|-ability|p2a: Lock On Me|Vessel of Ruin
+|move|p1a: Iron Valiant|Swords Dance|p1a: Iron Valiant
+|-boost|p1a: Iron Valiant|atk|2
+|
+|upkeep
+|turn|13
+|
+|t:|1743924398
+|move|p1a: Iron Valiant|Close Combat|p2a: Lock On Me
+|-supereffective|p2a: Lock On Me
+|-damage|p2a: Lock On Me|0 fnt
+|-unboost|p1a: Iron Valiant|def|1
+|-unboost|p1a: Iron Valiant|spd|1
+|faint|p2a: Lock On Me
+|
+|upkeep
+|
+|t:|1743924402
+|switch|p2a: Plutoski|Dragapult, M|100/100
+|-damage|p2a: Plutoski|88/100|[from] Stealth Rock
+|turn|14
+|c| frindlebabbin|imagine if pult got shadow sneak
+|c| frindlebabbin|scary world to think of
+|inactive|weird mon has 120 seconds left.
+|
+|t:|1743924437
+|move|p1a: Iron Valiant|Destiny Bond|p1a: Iron Valiant
+|-singlemove|p1a: Iron Valiant|Destiny Bond
+|move|p2a: Plutoski|Shadow Ball|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-activate|p1a: Iron Valiant|move: Destiny Bond
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|faint|p2a: Plutoski
+|
+|upkeep
+|j| victini05
+|inactive|weird mon has 120 seconds left.
+|
+|t:|1743924451
+|switch|p2a: FE!N|Ogerpon-Wellspring, F|100/100
+|switch|p1a: Greninja|Greninja, M|100/100
+|-damage|p2a: FE!N|88/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743924456
+|move|p1a: Greninja|Dark Pulse|p2a: FE!N
+|-damage|p2a: FE!N|31/100
+|-damage|p1a: Greninja|91/100|[from] item: Life Orb
+|move|p2a: FE!N|Horn Leech|p1a: Greninja
+|-supereffective|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|-heal|p2a: FE!N|74/100|[from] drain|[of] p1a: Greninja
+|faint|p1a: Greninja
+|
+|upkeep
+|c| WangLinWL|no knock off
+|
+|t:|1743924464
+|switch|p1a: Kingambit|Kingambit, F|100/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|turn|16
+|
+|t:|1743924468
+|move|p1a: Kingambit|Sucker Punch|p2a: FE!N
+|-damage|p2a: FE!N|4/100
+|move|p2a: FE!N|Ivy Cudgel|p1a: Kingambit|[anim] Ivy Cudgel Water
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|20/100
+|
+|-heal|p1a: Kingambit|26/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743924473
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: FE!N|Encore|p1a: Kingambit
+|-start|p1a: Kingambit|Encore
+|
+|-heal|p1a: Kingambit|32/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743924476
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: FE!N|Swords Dance|p2a: FE!N
+|-boost|p2a: FE!N|atk|2
+|
+|-heal|p1a: Kingambit|39/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|c| frindlebabbin|cudgel is such a cheap move ong
+|c| frindlebabbin|it did not need the crit chance
+|
+|t:|1743924492
+|switch|p2a: From Now On|Great Tusk|100/100
+|-damage|p2a: From Now On|98/100|[from] Stealth Rock
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|-heal|p1a: Kingambit|45/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743924497
+|-end|p1a: Kingambit|fallen3|[silent]
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|move|p2a: From Now On|Rapid Spin|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|90/100
+|-boost|p2a: From Now On|spe|1
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: weird mon|move: Toxic Spikes
+|-sideend|p2: weird mon|Toxic Spikes|[from] move: Rapid Spin|[of] p2a: From Now On
+|-sideend|p2: weird mon|Stealth Rock|[from] move: Rapid Spin|[of] p2a: From Now On
+|
+|upkeep
+|turn|21
+|
+|t:|1743924504
+|move|p2a: From Now On|Headlong Rush|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-unboost|p2a: From Now On|def|1
+|-unboost|p2a: From Now On|spd|1
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: weird mon|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|upkeep
+|
+|t:|1743924505
+|switch|p1a: Iron Moth|Iron Moth|100/100
+|-enditem|p1a: Iron Moth|Booster Energy
+|-activate|p1a: Iron Moth|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Moth|quarkdrivespe
+|turn|22
+|
+|t:|1743924516
+|-end|p2a: From Now On|Protosynthesis|[silent]
+|switch|p2a: FE!N|Ogerpon-Wellspring, F|4/100
+|-status|p2a: FE!N|psn
+|move|p1a: Iron Moth|Fiery Dance|p2a: FE!N
+|-damage|p2a: FE!N|0 fnt
+|-boost|p1a: Iron Moth|spa|1
+|faint|p2a: FE!N
+|
+|upkeep
+|
+|t:|1743924526
+|switch|p2a: MOTH BALLS|Iron Moth|100/100
+|-sideend|p2: weird mon|move: Toxic Spikes|[of] p2a: MOTH BALLS
+|-enditem|p2a: MOTH BALLS|Booster Energy
+|-activate|p2a: MOTH BALLS|ability: Quark Drive|[fromitem]
+|-start|p2a: MOTH BALLS|quarkdrivespe
+|turn|23
+|
+|t:|1743924532
+|move|p1a: Iron Moth|Fiery Dance|p2a: MOTH BALLS
+|-resisted|p2a: MOTH BALLS
+|-damage|p2a: MOTH BALLS|66/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: MOTH BALLS|Fiery Dance|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|78/100
+|
+|upkeep
+|turn|24
+|
+|t:|1743924545
+|move|p1a: Iron Moth|Fiery Dance|p2a: MOTH BALLS
+|-resisted|p2a: MOTH BALLS
+|-damage|p2a: MOTH BALLS|24/100
+|-boost|p1a: Iron Moth|spa|1
+|move|p2a: MOTH BALLS|Fiery Dance|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|55/100
+|-boost|p2a: MOTH BALLS|spa|1
+|
+|upkeep
+|turn|25
+|
+|t:|1743924553
+|move|p2a: MOTH BALLS|Fiery Dance|p1a: Iron Moth
+|-resisted|p1a: Iron Moth
+|-damage|p1a: Iron Moth|21/100
+|-boost|p2a: MOTH BALLS|spa|1
+|move|p1a: Iron Moth|Fiery Dance|p2a: MOTH BALLS
+|-resisted|p2a: MOTH BALLS
+|-damage|p2a: MOTH BALLS|0 fnt
+|faint|p2a: MOTH BALLS
+|-end|p2a: MOTH BALLS|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743924557
+|switch|p2a: Falling Forever|Kingambit, F|29/100
+|-activate|p2a: Falling Forever|ability: Supreme Overlord
+|-start|p2a: Falling Forever|fallen4|[silent]
+|turn|26
+|
+|t:|1743924561
+|move|p2a: Falling Forever|Sucker Punch|p1a: Iron Moth
+|-damage|p1a: Iron Moth|0 fnt
+|faint|p1a: Iron Moth
+|-end|p1a: Iron Moth|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743924563
+|switch|p1a: Kingambit|Kingambit, F|45/100
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|27
+|j| zeeeth
+|j| iamfrhaan007
+|
+|t:|1743924578
+|move|p1a: Kingambit|Low Kick|p2a: Falling Forever
+|-supereffective|p2a: Falling Forever
+|-damage|p2a: Falling Forever|0 fnt
+|faint|p2a: Falling Forever
+|-end|p2a: Falling Forever|fallen4|[silent]
+|
+|-heal|p1a: Kingambit|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743924582
+|switch|p2a: From Now On|Great Tusk|98/100
+|turn|28
+|
+|t:|1743924591
+|-terastallize|p1a: Kingambit|Fighting
+|move|p2a: From Now On|Knock Off|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|37/100
+|-enditem|p1a: Kingambit|Leftovers|[from] move: Knock Off|[of] p2a: From Now On
+|move|p1a: Kingambit|Low Kick|p2a: From Now On
+|-damage|p2a: From Now On|14/100
+|
+|upkeep
+|turn|29
+|j| i was the rain xD
+|
+|t:|1743924608
+|-terastallize|p2a: From Now On|Ground
+|move|p1a: Kingambit|Sucker Punch|p2a: From Now On
+|-damage|p2a: From Now On|0 fnt
+|faint|p2a: From Now On
+|-end|p2a: From Now On|Protosynthesis|[silent]
+|
+|win|2(H2O)-Alt
+|raw|2(H2O)-Alt's rating: 1616 &rarr; <strong>1638</strong><br />(+22 for winning)
+|raw|weird mon's rating: 1654 &rarr; <strong>1632</strong><br />(-22 for losing)
+|l|☆weird mon
+|player|p2|
+|l| iamfrhaan007
+|c| frindlebabbin|good game
+|l| frindlebabbin
+|c| WangLinWL|but the last two turns
+|c|☆2(H2O)-Alt|gg
+|c| WangLinWL|not so good
+|l|☆2(H2O)-Alt
+|player|p1|
+|l| zeeeth

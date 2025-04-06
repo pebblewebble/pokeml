@@ -1,0 +1,219 @@
+|j|☆randomblabla
+|j|☆mist262
+|t:|1743926592
+|gametype|singles
+|player|p1|randomblabla|265|1128
+|player|p2|mist262|n|1178
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ribombee, M|
+|poke|p1|Great Tusk|
+|poke|p1|Blaziken, M|
+|poke|p1|Serperior, M|
+|poke|p1|Darkrai|
+|poke|p1|Dugtrio, F|
+|poke|p2|Polteageist-Antique|
+|poke|p2|Toxapex, F|
+|poke|p2|Indeedee, M|
+|poke|p2|Dragonite, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Kingambit, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mist262)
+|
+|t:|1743926597
+|start
+|switch|p1a: Dugtrio|Dugtrio, F|100/100
+|switch|p2a: Indeedee|Indeedee, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1743926604
+|move|p1a: Dugtrio|Stealth Rock|p2a: Indeedee
+|-sidestart|p2: mist262|move: Stealth Rock
+|move|p2a: Indeedee|Expanding Force|p1a: Dugtrio
+|-enditem|p1a: Dugtrio|Focus Sash
+|-damage|p1a: Dugtrio|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743926610
+|move|p1a: Dugtrio|Memento|p2a: Indeedee
+|-unboost|p2a: Indeedee|atk|2
+|-unboost|p2a: Indeedee|spa|2
+|faint|p1a: Dugtrio
+|move|p2a: Indeedee|Expanding Force|p1: Dugtrio|[notarget]
+|-fail|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1743926621
+|switch|p1a: Ribombee|Ribombee, M|100/100
+|turn|3
+|
+|t:|1743926629
+|move|p2a: Indeedee|Expanding Force|p1a: Ribombee
+|-damage|p1a: Ribombee|50/100
+|move|p1a: Ribombee|Quiver Dance|p1a: Ribombee
+|-boost|p1a: Ribombee|spa|1
+|-boost|p1a: Ribombee|spd|1
+|-boost|p1a: Ribombee|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1743926638
+|move|p1a: Ribombee|Bug Buzz|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-damage|p1a: Ribombee|41/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743926647
+|switch|p2a: Toxapex|Toxapex, F|100/100
+|-damage|p2a: Toxapex|88/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1743926660
+|move|p1a: Ribombee|Stored Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|-damage|p1a: Ribombee|31/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743926674
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|6
+|
+|t:|1743926679
+|move|p1a: Ribombee|Stored Power|p2a: Cinderace
+|-damage|p2a: Cinderace|15/100
+|-damage|p1a: Ribombee|21/100|[from] item: Life Orb
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|7
+|
+|t:|1743926702
+|move|p1a: Ribombee|Stored Power|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|-damage|p1a: Ribombee|12/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743926708
+|switch|p2a: purple tea|Polteageist-Antique, shiny|100/100
+|turn|8
+|
+|t:|1743926717
+|move|p1a: Ribombee|Stored Power|p2a: purple tea
+|-damage|p2a: purple tea|24/100
+|-damage|p1a: Ribombee|2/100|[from] item: Life Orb
+|move|p2a: purple tea|Shell Smash|p2a: purple tea
+|-unboost|p2a: purple tea|def|1
+|-unboost|p2a: purple tea|spd|1
+|-boost|p2a: purple tea|atk|2
+|-boost|p2a: purple tea|spa|2
+|-boost|p2a: purple tea|spe|2
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|t:|1743926727
+|move|p2a: purple tea|Stored Power|p1a: Ribombee
+|-damage|p1a: Ribombee|0 fnt
+|faint|p1a: Ribombee
+|
+|upkeep
+|
+|t:|1743926731
+|switch|p1a: Darkrai|Darkrai|100/100
+|-damage|p1a: Darkrai|88/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1743926745
+|-terastallize|p2a: purple tea|Fighting
+|move|p1a: Darkrai|Dark Pulse|p2a: purple tea
+|-resisted|p2a: purple tea
+|-damage|p2a: purple tea|0 fnt
+|faint|p2a: purple tea
+|
+|upkeep
+|
+|t:|1743926753
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|11
+|
+|t:|1743926759
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-enditem|p1a: Great Tusk|Booster Energy
+|-activate|p1a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p1a: Great Tusk|protosynthesisspe
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743926768
+|move|p1a: Great Tusk|Ice Spinner|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|48/100
+|move|p2a: Dragonite|Earthquake|p1a: Great Tusk
+|-damage|p1a: Great Tusk|58/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743926778
+|move|p1a: Great Tusk|Ice Spinner|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|upkeep
+|
+|t:|1743926783
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|14
+|
+|t:|1743926787
+|move|p1a: Great Tusk|Close Combat|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|randomblabla
+|raw|randomblabla's rating: 1128 &rarr; <strong>1157</strong><br />(+29 for winning)
+|raw|mist262's rating: 1178 &rarr; <strong>1149</strong><br />(-29 for losing)
+|l|☆mist262
+|player|p2|
+|l|☆randomblabla
+|player|p1|

@@ -1,0 +1,223 @@
+|j|☆beanietest1000
+|j|☆excapilled
+|t:|1743885811
+|gametype|singles
+|player|p1|beanietest1000|schoolkid-gen4dp|1187
+|player|p2|excapilled|101|1182
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Zweilous, F|
+|poke|p1|Excadrill, M|
+|poke|p1|Keldeo-Resolute|
+|poke|p1|Blaziken, F|
+|poke|p1|Froslass, F|
+|poke|p1|Dragonite, F|
+|poke|p2|Reuniclus, M|
+|poke|p2|Kingambit, M|
+|poke|p2|Ogerpon-Wellspring, F|
+|poke|p2|Landorus-Therian, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Cinderace, M|
+|teampreview
+|
+|t:|1743885833
+|start
+|switch|p1a: Zweilous|Zweilous, F, shiny|100/100
+|switch|p2a: Solar Flare|Cinderace, M|100/100
+|turn|1
+|
+|t:|1743885850
+|move|p2a: Solar Flare|U-turn|p1a: Zweilous
+|-start|p2a: Solar Flare|typechange|Bug|[from] ability: Libero
+|-supereffective|p1a: Zweilous
+|-damage|p1a: Zweilous|22/100
+|
+|t:|1743885856
+|switch|p2a: Earth|Landorus-Therian, M|100/100|[from] U-turn
+|-ability|p2a: Earth|Intimidate|boost
+|-unboost|p1a: Zweilous|atk|1
+|move|p1a: Zweilous|Thunder Wave|p2a: Earth
+|-immune|p2a: Earth
+|
+|upkeep
+|turn|2
+|
+|t:|1743885870
+|move|p2a: Earth|U-turn|p1a: Zweilous
+|-supereffective|p1a: Zweilous
+|-crit|p1a: Zweilous
+|-damage|p1a: Zweilous|0 fnt
+|faint|p1a: Zweilous
+|
+|t:|1743885873
+|switch|p2a: Solar Flare|Cinderace, M|100/100|[from] U-turn
+|
+|upkeep
+|
+|t:|1743885891
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|turn|3
+|
+|t:|1743885918
+|switch|p2a: Terratomere|Ogerpon-Wellspring, F|100/100
+|move|p1a: Keldeo|Surf|p2a: Terratomere
+|-immune|p2a: Terratomere|[from] ability: Water Absorb
+|
+|upkeep
+|turn|4
+|
+|t:|1743885937
+|switch|p1a: Froslass|Froslass, F, shiny|100/100
+|move|p2a: Terratomere|Substitute|p2a: Terratomere
+|-start|p2a: Terratomere|Substitute
+|-damage|p2a: Terratomere|76/100
+|
+|upkeep
+|turn|5
+|
+|t:|1743885948
+|move|p1a: Froslass|Ice Beam|p2a: Terratomere
+|-end|p2a: Terratomere|Substitute
+|move|p2a: Terratomere|Swords Dance|p2a: Terratomere
+|-boost|p2a: Terratomere|atk|2
+|
+|upkeep
+|turn|6
+|
+|t:|1743885956
+|move|p2a: Terratomere|Horn Leech|p1a: Froslass
+|-enditem|p1a: Froslass|Focus Sash
+|-damage|p1a: Froslass|1/100
+|-heal|p2a: Terratomere|100/100|[from] drain|[of] p1a: Froslass
+|move|p1a: Froslass|Will-O-Wisp|p2a: Terratomere
+|-status|p2a: Terratomere|brn
+|
+|-damage|p2a: Terratomere|95/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743885965
+|move|p1a: Froslass|Destiny Bond|p1a: Froslass
+|-singlemove|p1a: Froslass|Destiny Bond
+|move|p2a: Terratomere|Horn Leech|p1a: Froslass
+|-damage|p1a: Froslass|0 fnt
+|-heal|p2a: Terratomere|95/100 brn|[from] drain|[of] p1a: Froslass
+|faint|p1a: Froslass
+|-activate|p1a: Froslass|move: Destiny Bond
+|faint|p2a: Terratomere
+|
+|upkeep
+|
+|t:|1743885980
+|switch|p2a: Excelsus|Iron Valiant|100/100
+|switch|p1a: Keldeo|Keldeo-Resolute|100/100
+|turn|8
+|
+|t:|1743886000
+|move|p1a: Keldeo|Air Slash|p2a: Excelsus|[miss]
+|-miss|p1a: Keldeo|p2a: Excelsus
+|move|p2a: Excelsus|Moonblast|p1a: Keldeo
+|-supereffective|p1a: Keldeo
+|-damage|p1a: Keldeo|0 fnt
+|faint|p1a: Keldeo
+|
+|upkeep
+|
+|t:|1743886028
+|switch|p1a: Excadrill|Excadrill, M, shiny|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|9
+|
+|t:|1743886049
+|-end|p2a: Excelsus|Quark Drive|[silent]
+|switch|p2a: Earth|Landorus-Therian, M|100/100
+|-ability|p2a: Earth|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|move|p1a: Excadrill|Rapid Spin|p2a: Earth
+|-damage|p2a: Earth|90/100
+|-boost|p1a: Excadrill|spe|1
+|-damage|p1a: Excadrill|84/100|[from] item: Rocky Helmet|[of] p2a: Earth
+|
+|upkeep
+|turn|10
+|
+|t:|1743886065
+|move|p1a: Excadrill|Stealth Rock|p2a: Earth
+|-sidestart|p2: excapilled|move: Stealth Rock
+|move|p2a: Earth|Earthquake|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|
+|upkeep
+|
+|t:|1743886071
+|switch|p1a: Blaziken|Blaziken, F, shiny|100/100
+|turn|11
+|
+|t:|1743886081
+|move|p1a: Blaziken|Protect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2a: Earth|Earthquake|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|12
+|
+|t:|1743886148
+|move|p1a: Blaziken|Flare Blitz|p2a: Earth
+|-damage|p2a: Earth|7/100
+|-damage|p1a: Blaziken|84/100|[from] item: Rocky Helmet|[of] p2a: Earth
+|-damage|p1a: Blaziken|49/100|[from] Recoil
+|-damage|p1a: Blaziken|39/100|[from] item: Life Orb
+|move|p2a: Earth|Earthquake|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|upkeep
+|
+|t:|1743886157
+|switch|p1a: Dragonite|Dragonite, F, shiny|100/100
+|turn|13
+|
+|t:|1743886190
+|move|p2a: Earth|U-turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|94/100
+|
+|t:|1743886207
+|switch|p2a: Excelsus|Iron Valiant|100/100|[from] U-turn
+|-damage|p2a: Excelsus|94/100|[from] Stealth Rock
+|move|p1a: Dragonite|Earthquake|p2a: Excelsus
+|-damage|p2a: Excelsus|21/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743886213
+|move|p2a: Excelsus|Moonblast|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|excapilled
+|raw|beanietest1000's rating: 1187 &rarr; <strong>1162</strong><br />(-25 for losing)
+|raw|excapilled's rating: 1182 &rarr; <strong>1207</strong><br />(+25 for winning)
+|l|☆excapilled
+|player|p2|
+|l|☆beanietest1000
+|player|p1|

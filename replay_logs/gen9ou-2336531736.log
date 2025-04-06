@@ -1,0 +1,314 @@
+|j|☆VANYR
+|j|☆ykykp
+|t:|1743934459
+|gametype|singles
+|player|p1|VANYR|grimsley|1528
+|player|p2|ykykp|101|1542
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Glimmora, M|
+|poke|p1|Samurott-Hisui, M|
+|poke|p1|Kleavor, F|
+|poke|p1|Sinistcha-Masterpiece|
+|poke|p1|Heatran, F|
+|poke|p1|Conkeldurr, M|
+|poke|p2|Porygon-Z|
+|poke|p2|Ribombee, F|
+|poke|p2|Ceruledge, F|
+|poke|p2|Gallade, M|
+|poke|p2|Dragapult, F|
+|poke|p2|Iron Treads|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by VANYR)
+|
+|t:|1743934464
+|start
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|switch|p2a: Ribombee|Ribombee, F|100/100
+|turn|1
+|
+|t:|1743934472
+|move|p2a: Ribombee|Stun Spore|p1a: Kleavor|[miss]
+|-miss|p2a: Ribombee|p1a: Kleavor
+|move|p1a: Kleavor|Stone Axe|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100
+|-sidestart|p2: ykykp|move: Stealth Rock
+|
+|upkeep
+|turn|2
+|
+|t:|1743934474
+|move|p2a: Ribombee|Sticky Web|p1a: Kleavor
+|-sidestart|p1: VANYR|move: Sticky Web
+|move|p1a: Kleavor|Stone Axe|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|
+|upkeep
+|
+|t:|1743934488
+|switch|p2a: Dragapult|Dragapult, F|100/100
+|-damage|p2a: Dragapult|88/100|[from] Stealth Rock
+|turn|3
+|
+|t:|1743934495
+|switch|p1a: Heatran|Heatran, F|100/100
+|-activate|p1a: Heatran|move: Sticky Web
+|-unboost|p1a: Heatran|spe|1
+|move|p2a: Dragapult|Dragon Darts|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|87/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|74/100
+|-damage|p2a: Dragapult|78/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1743934504
+|switch|p2a: Iron Treads|Iron Treads|100/100
+|-damage|p2a: Iron Treads|97/100|[from] Stealth Rock
+|move|p1a: Heatran|Earth Power|p2a: Iron Treads
+|-supereffective|p2a: Iron Treads
+|-damage|p2a: Iron Treads|34/100
+|-unboost|p2a: Iron Treads|spd|1
+|
+|upkeep
+|turn|5
+|
+|t:|1743934508
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece|100/100
+|-activate|p1a: Sinistcha|move: Sticky Web
+|-unboost|p1a: Sinistcha|spe|1
+|move|p2a: Iron Treads|Rapid Spin|p1a: Sinistcha
+|-immune|p1a: Sinistcha
+|
+|upkeep
+|turn|6
+|
+|t:|1743934513
+|move|p2a: Iron Treads|Steel Beam|p1a: Sinistcha
+|-damage|p1a: Sinistcha|40/100
+|-damage|p2a: Iron Treads|0 fnt|[from] steelbeam
+|faint|p2a: Iron Treads
+|-end|p2a: Iron Treads|Quark Drive|[silent]
+|move|p1a: Sinistcha|Shadow Ball|p2: Iron Treads|[notarget]
+|-fail|p1a: Sinistcha
+|
+|-heal|p1a: Sinistcha|46/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1743934515
+|switch|p2a: Ceruledge|Ceruledge, F|100/100
+|-damage|p2a: Ceruledge|76/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1743934519
+|move|p2a: Ceruledge|Bitter Blade|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|9/100
+|-heal|p2a: Ceruledge|97/100|[from] drain|[of] p1a: Sinistcha
+|move|p1a: Sinistcha|Strength Sap|p2a: Ceruledge
+|-unboost|p2a: Ceruledge|atk|1
+|-heal|p1a: Sinistcha|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1743934526
+|move|p2a: Ceruledge|Swords Dance|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|2
+|move|p1a: Sinistcha|Shadow Ball|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|16/100
+|
+|upkeep
+|turn|9
+|
+|t:|1743934534
+|move|p2a: Ceruledge|Bitter Blade|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|48/100
+|-heal|p2a: Ceruledge|47/100|[from] drain|[of] p1a: Sinistcha
+|move|p1a: Sinistcha|Strength Sap|p2a: Ceruledge
+|-unboost|p2a: Ceruledge|atk|1
+|-heal|p1a: Sinistcha|100/100
+|
+|upkeep
+|turn|10
+|
+|t:|1743934542
+|switch|p2a: Porygon-Z|Porygon-Z|100/100
+|-damage|p2a: Porygon-Z|88/100|[from] Stealth Rock
+|-ability|p2a: Porygon-Z|Download|boost
+|-boost|p2a: Porygon-Z|spa|1
+|move|p1a: Sinistcha|Shadow Ball|p2a: Porygon-Z
+|-immune|p2a: Porygon-Z
+|
+|upkeep
+|turn|11
+|
+|t:|1743934547
+|switch|p1a: Heatran|Heatran, F|74/100
+|-activate|p1a: Heatran|move: Sticky Web
+|-unboost|p1a: Heatran|spe|1
+|move|p2a: Porygon-Z|Ice Beam|p1a: Heatran
+|-resisted|p1a: Heatran
+|-damage|p1a: Heatran|67/100
+|
+|upkeep
+|turn|12
+|
+|t:|1743934555
+|-terastallize|p2a: Porygon-Z|Ground
+|move|p2a: Porygon-Z|Tera Blast|p1a: Heatran|[anim] Tera Blast Ground
+|-supereffective|p1a: Heatran
+|-crit|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1743934568
+|switch|p1a: Samurott|Samurott-Hisui, M|100/100
+|-activate|p1a: Samurott|move: Sticky Web
+|-unboost|p1a: Samurott|spe|1
+|turn|13
+|
+|t:|1743934574
+|move|p1a: Samurott|Sucker Punch|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|24/100
+|move|p2a: Porygon-Z|Thunderbolt|p1a: Samurott
+|-supereffective|p1a: Samurott
+|-damage|p1a: Samurott|0 fnt
+|faint|p1a: Samurott
+|
+|upkeep
+|
+|t:|1743934579
+|switch|p1a: Conkeldurr|Conkeldurr, M|100/100
+|-activate|p1a: Conkeldurr|move: Sticky Web
+|-unboost|p1a: Conkeldurr|spe|1
+|turn|14
+|
+|t:|1743934581
+|move|p2a: Porygon-Z|Psyshock|p1a: Conkeldurr
+|-supereffective|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|8/100
+|move|p1a: Conkeldurr|Knock Off|p2a: Porygon-Z
+|-damage|p2a: Porygon-Z|0 fnt
+|-enditem|p2a: Porygon-Z|Expert Belt|[from] move: Knock Off|[of] p1a: Conkeldurr
+|faint|p2a: Porygon-Z
+|
+|upkeep
+|
+|t:|1743934589
+|switch|p2a: Gallade|Gallade, M|100/100
+|-damage|p2a: Gallade|94/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743934592
+|move|p2a: Gallade|Knock Off|p1a: Conkeldurr
+|-resisted|p1a: Conkeldurr
+|-damage|p1a: Conkeldurr|0 fnt
+|-enditem|p1a: Conkeldurr|Punching Glove|[from] move: Knock Off|[of] p2a: Gallade
+|faint|p1a: Conkeldurr
+|-damage|p2a: Gallade|85/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743934596
+|switch|p1a: Kleavor|Kleavor, F|100/100
+|-activate|p1a: Kleavor|move: Sticky Web
+|-unboost|p1a: Kleavor|spe|1
+|turn|16
+|
+|t:|1743934598
+|move|p2a: Gallade|Sacred Sword|p1a: Kleavor
+|-damage|p1a: Kleavor|0 fnt
+|faint|p1a: Kleavor
+|-damage|p2a: Gallade|75/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1743934603
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece|100/100
+|-activate|p1a: Sinistcha|move: Sticky Web
+|-unboost|p1a: Sinistcha|spe|1
+|turn|17
+|
+|t:|1743934607
+|move|p2a: Gallade|Knock Off|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|36/100
+|-enditem|p1a: Sinistcha|Leftovers|[from] move: Knock Off|[of] p2a: Gallade
+|-damage|p2a: Gallade|65/100|[from] item: Life Orb
+|move|p1a: Sinistcha|Strength Sap|p2a: Gallade
+|-unboost|p2a: Gallade|atk|1
+|-heal|p1a: Sinistcha|100/100
+|
+|upkeep
+|turn|18
+|
+|t:|1743934611
+|switch|p2a: Dragapult|Dragapult, F|78/100
+|-damage|p2a: Dragapult|66/100|[from] Stealth Rock
+|move|p1a: Sinistcha|Calm Mind|p1a: Sinistcha
+|-boost|p1a: Sinistcha|spa|1
+|-boost|p1a: Sinistcha|spd|1
+|
+|upkeep
+|turn|19
+|
+|t:|1743934620
+|move|p2a: Dragapult|Dragon Darts|p1a: Sinistcha
+|-damage|p1a: Sinistcha|78/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Sinistcha
+|-damage|p1a: Sinistcha|57/100
+|-damage|p2a: Dragapult|56/100|[from] item: Life Orb
+|move|p1a: Sinistcha|Shadow Ball|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|
+|upkeep
+|
+|t:|1743934627
+|switch|p2a: Gallade|Gallade, M|65/100
+|-damage|p2a: Gallade|59/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743934630
+|move|p2a: Gallade|Psycho Cut|p1a: Sinistcha
+|-damage|p1a: Sinistcha|1/100
+|-damage|p2a: Gallade|49/100|[from] item: Life Orb
+|move|p1a: Sinistcha|Strength Sap|p2a: Gallade
+|-unboost|p2a: Gallade|atk|1
+|-heal|p1a: Sinistcha|100/100
+|
+|upkeep
+|turn|21
+|-message|ykykp forfeited.
+|
+|win|VANYR
+|raw|VANYR's rating: 1528 &rarr; <strong>1549</strong><br />(+21 for winning)
+|raw|ykykp's rating: 1542 &rarr; <strong>1521</strong><br />(-21 for losing)
+|l|☆ykykp
+|player|p2|
+|l|☆VANYR
+|player|p1|

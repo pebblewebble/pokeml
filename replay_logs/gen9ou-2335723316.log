@@ -1,0 +1,178 @@
+|j|☆CapitolG
+|j|☆GN Radahn
+|t:|1743826233
+|gametype|singles
+|player|p1|CapitolG|1|1151
+|player|p2|GN Radahn|2|1113
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Chandelure, F|
+|poke|p1|Gothitelle, M|
+|poke|p1|Milotic, F|
+|poke|p1|Kingambit, F|
+|poke|p1|Cinderace, F|
+|poke|p1|Leavanny, F|
+|poke|p2|Primeape, M|
+|poke|p2|Swampert, F|
+|poke|p2|Corviknight, M|
+|poke|p2|Galvantula, M|
+|poke|p2|Ceruledge, M|
+|poke|p2|Gardevoir, M|
+|teampreview
+|
+|t:|1743826239
+|start
+|switch|p1a: Chandelure|Chandelure, F|100/100
+|switch|p2a: Swampert|Swampert, F|100/100
+|turn|1
+|
+|t:|1743826246
+|move|p2a: Swampert|Earthquake|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-enditem|p1a: Chandelure|Focus Sash
+|-damage|p1a: Chandelure|1/100
+|move|p1a: Chandelure|Will-O-Wisp|p2a: Swampert
+|-status|p2a: Swampert|brn
+|
+|-damage|p2a: Swampert|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1743826255
+|move|p2a: Swampert|Earthquake|p1a: Chandelure
+|-supereffective|p1a: Chandelure
+|-damage|p1a: Chandelure|0 fnt
+|faint|p1a: Chandelure
+|
+|-damage|p2a: Swampert|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1743826257
+|switch|p1a: Leavanny|Leavanny, F|100/100
+|turn|3
+|
+|t:|1743826262
+|switch|p2a: Ceruledge|Ceruledge, M|100/100
+|move|p1a: Leavanny|Sticky Web|p2a: Ceruledge
+|-sidestart|p2: GN Radahn|move: Sticky Web
+|
+|upkeep
+|turn|4
+|
+|t:|1743826270
+|switch|p1a: Cinderace|Cinderace, F|100/100
+|move|p2a: Ceruledge|Will-O-Wisp|p1a: Cinderace|[miss]
+|-miss|p2a: Ceruledge|p1a: Cinderace
+|
+|upkeep
+|turn|5
+|
+|t:|1743826277
+|move|p1a: Cinderace|Court Change|p1a: Cinderace
+|-start|p1a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: Cinderace|move: Court Change
+|move|p2a: Ceruledge|Bitter Blade|p1a: Cinderace
+|-damage|p1a: Cinderace|42/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743826287
+|move|p1a: Cinderace|Fling|p2a: Ceruledge
+|-supereffective|p2a: Ceruledge
+|-damage|p2a: Ceruledge|43/100
+|-enditem|p1a: Cinderace|Heavy-Duty Boots|[from] move: Fling
+|-enditem|p2a: Ceruledge|Sitrus Berry|[eat]
+|-heal|p2a: Ceruledge|68/100|[from] item: Sitrus Berry
+|move|p2a: Ceruledge|Bitter Blade|p1a: Cinderace
+|-damage|p1a: Cinderace|0 fnt
+|-heal|p2a: Ceruledge|86/100|[from] drain|[of] p1a: Cinderace
+|faint|p1a: Cinderace
+|
+|upkeep
+|
+|t:|1743826295
+|switch|p1a: Milotic|Milotic, F|100/100
+|-activate|p1a: Milotic|move: Sticky Web
+|-unboost|p1a: Milotic|spe|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|turn|7
+|
+|t:|1743826310
+|switch|p2a: Corviknight|Corviknight, M|100/100
+|-ability|p2a: Corviknight|Pressure
+|move|p1a: Milotic|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|31/100
+|-status|p2a: Corviknight|brn
+|-enditem|p2a: Corviknight|Red Card|[of] p1a: Milotic
+|drag|p1a: Leavanny|Leavanny, F|100/100
+|-activate|p1a: Leavanny|move: Sticky Web
+|-unboost|p1a: Leavanny|spe|1
+|
+|-damage|p2a: Corviknight|25/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743826320
+|switch|p1a: Milotic|Milotic, F|100/100
+|-activate|p1a: Milotic|move: Sticky Web
+|-unboost|p1a: Milotic|spe|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|move|p2a: Corviknight|Defog|p1a: Milotic
+|-unboost|p1a: Milotic|evasion|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|-sideend|p1: CapitolG|Sticky Web|[from] move: Defog|[of] p2a: Corviknight
+|
+|-damage|p2a: Corviknight|19/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1743826327
+|move|p2a: Corviknight|Defog|p1a: Milotic
+|-unboost|p1a: Milotic|evasion|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|move|p1a: Milotic|Scald|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|upkeep
+|
+|t:|1743826329
+|switch|p2a: Galvantula|Galvantula, M|100/100
+|-ability|p2a: Galvantula|Unnerve
+|turn|10
+|
+|t:|1743826336
+|-terastallize|p1a: Milotic|Ground
+|move|p2a: Galvantula|Wild Charge|p1a: Milotic
+|-immune|p1a: Milotic
+|move|p1a: Milotic|Scald|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|
+|upkeep
+|-message|GN Radahn forfeited.
+|
+|win|CapitolG
+|raw|CapitolG's rating: 1151 &rarr; <strong>1173</strong><br />(+22 for winning)
+|raw|GN Radahn's rating: 1113 &rarr; <strong>1091</strong><br />(-22 for losing)
+|l|☆GN Radahn
+|player|p2|
+|l|☆CapitolG
+|player|p1|

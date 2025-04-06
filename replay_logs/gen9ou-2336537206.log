@@ -1,0 +1,207 @@
+|j|☆Succhi a Milano
+|j|☆dadwadawdwa
+|t:|1743935444
+|gametype|singles
+|player|p1|Succhi a Milano|265|1194
+|player|p2|dadwadawdwa|102|1220
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Weavile, M|
+|poke|p1|Latias, F|
+|poke|p1|Heatran, M|
+|poke|p1|Gastrodon, F|
+|poke|p1|Dusclops, F|
+|poke|p1|Yanmega, M|
+|poke|p2|Magnezone|
+|poke|p2|Iron Valiant|
+|poke|p2|Kingambit, F|
+|poke|p2|Ogerpon-Cornerstone, F|
+|poke|p2|Deoxys-Speed|
+|poke|p2|Dragonite, F|
+|teampreview
+|
+|t:|1743935455
+|start
+|switch|p1a: Heatran|Heatran, M|100/100
+|switch|p2a: Deoxys|Deoxys-Speed|100/100
+|-ability|p2a: Deoxys|Pressure
+|turn|1
+|
+|t:|1743935465
+|move|p2a: Deoxys|Taunt|p1a: Heatran
+|-start|p1a: Heatran|move: Taunt
+|cant|p1a: Heatran|move: Taunt|Stealth Rock
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dadwadawdwa)
+|
+|t:|1743935470
+|move|p2a: Deoxys|Stealth Rock|p1a: Heatran
+|-sidestart|p1: Succhi a Milano|move: Stealth Rock
+|move|p1a: Heatran|Magma Storm|p2a: Deoxys
+|-crit|p2a: Deoxys
+|-enditem|p2a: Deoxys|Focus Sash
+|-damage|p2a: Deoxys|1/100
+|-activate|p2a: Deoxys|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Deoxys|0 fnt|[from] move: Magma Storm|[partiallytrapped]
+|faint|p2a: Deoxys
+|upkeep
+|
+|t:|1743935480
+|switch|p2a: Dragonite|Dragonite, F|100/100
+|turn|3
+|
+|t:|1743935485
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Heatran|Magma Storm|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|85/100
+|-activate|p2a: Dragonite|move: Magma Storm|[of] p1a: Heatran
+|
+|-damage|p2a: Dragonite|72/100|[from] move: Magma Storm|[partiallytrapped]
+|-end|p1a: Heatran|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1743935504
+|move|p2a: Dragonite|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|-end|p2a: Dragonite|Magma Storm|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1743935516
+|switch|p1a: Weavile|Weavile, M|100/100
+|-damage|p1a: Weavile|76/100|[from] Stealth Rock
+|turn|5
+|
+|t:|1743935521
+|-terastallize|p2a: Dragonite|Normal
+|move|p1a: Weavile|Fake Out|p2a: Dragonite
+|-damage|p2a: Dragonite|57/100
+|cant|p2a: Dragonite|flinch
+|
+|upkeep
+|turn|6
+|
+|t:|1743935531
+|move|p2a: Dragonite|Extreme Speed|p1a: Weavile
+|-damage|p1a: Weavile|0 fnt
+|faint|p1a: Weavile
+|
+|upkeep
+|
+|t:|1743935535
+|switch|p1a: Dusclops|Dusclops, F|100/100
+|-damage|p1a: Dusclops|88/100|[from] Stealth Rock
+|-item|p2a: Dragonite|Heavy-Duty Boots|[from] ability: Frisk|[of] p1a: Dusclops
+|turn|7
+|
+|t:|1743935542
+|move|p2a: Dragonite|Earthquake|p1a: Dusclops
+|-damage|p1a: Dusclops|53/100
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Dragonite
+|-status|p2a: Dragonite|brn
+|
+|-damage|p2a: Dragonite|51/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743935555
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|move|p1a: Dusclops|Haze|p1a: Dusclops
+|-clearallboost
+|
+|upkeep
+|turn|9
+|
+|t:|1743935567
+|switch|p1a: Gastrodon|Gastrodon, F|100/100
+|-damage|p1a: Gastrodon|94/100|[from] Stealth Rock
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Gastrodon
+|-damage|p1a: Gastrodon|33/100
+|
+|-heal|p1a: Gastrodon|39/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743935578
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Gastrodon
+|-damage|p1a: Gastrodon|0 fnt
+|faint|p1a: Gastrodon
+|
+|upkeep
+|
+|t:|1743935587
+|switch|p1a: Latias|Latias, F|100/100
+|-damage|p1a: Latias|88/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1743935591
+|move|p2a: Kingambit|Sucker Punch|p1a: Latias
+|-supereffective|p1a: Latias
+|-damage|p1a: Latias|0 fnt
+|faint|p1a: Latias
+|
+|upkeep
+|
+|t:|1743935595
+|switch|p1a: Yanmega|Yanmega, M|100/100
+|turn|12
+|
+|t:|1743935601
+|move|p2a: Kingambit|Sucker Punch|p1a: Yanmega
+|-damage|p1a: Yanmega|47/100
+|move|p1a: Yanmega|Ancient Power|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|89/100
+|
+|-ability|p1a: Yanmega|Speed Boost|boost
+|-boost|p1a: Yanmega|spe|1
+|upkeep
+|turn|13
+|
+|t:|1743935606
+|move|p1a: Yanmega|Giga Drain|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|73/100
+|-heal|p1a: Yanmega|54/100|[from] drain|[of] p2a: Kingambit
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Yanmega
+|-damage|p1a: Yanmega|0 fnt
+|faint|p1a: Yanmega
+|
+|upkeep
+|
+|t:|1743935610
+|switch|p1a: Dusclops|Dusclops, F|53/100
+|-damage|p1a: Dusclops|41/100|[from] Stealth Rock
+|-item|p2a: Kingambit|Black Glasses|[from] ability: Frisk|[of] p1a: Dusclops
+|turn|14
+|-message|Succhi a Milano forfeited.
+|
+|win|dadwadawdwa
+|raw|Succhi a Milano's rating: 1194 &rarr; <strong>1171</strong><br />(-23 for losing)
+|raw|dadwadawdwa's rating: 1220 &rarr; <strong>1243</strong><br />(+23 for winning)
+|l|☆Succhi a Milano
+|player|p1|
+|l|☆dadwadawdwa
+|player|p2|

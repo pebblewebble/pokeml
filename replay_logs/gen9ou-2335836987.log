@@ -1,0 +1,341 @@
+|j|☆KawaDino
+|j|☆gonichupamatracas
+|t:|1743845526
+|gametype|singles
+|player|p1|KawaDino|170|1233
+|player|p2|gonichupamatracas|shadowtriad|1260
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Deoxys-Speed|
+|poke|p1|Kyurem|
+|poke|p1|Gholdengo|
+|poke|p1|Great Tusk|
+|poke|p1|Iron Valiant|
+|poke|p1|Glimmora, M|
+|poke|p2|Vikavolt, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Tyranitar, F|
+|poke|p2|Dragapult, M|
+|poke|p2|Pecharunt|
+|poke|p2|Cinderace, F|
+|teampreview
+|
+|t:|1743845533
+|start
+|switch|p1a: Deoxys|Deoxys-Speed|100/100
+|switch|p2a: Vikavolt|Vikavolt, M|100/100
+|-ability|p1a: Deoxys|Pressure
+|turn|1
+|
+|t:|1743845538
+|move|p1a: Deoxys|Taunt|p2a: Vikavolt
+|-start|p2a: Vikavolt|move: Taunt
+|move|p2a: Vikavolt|Bug Buzz|p1a: Deoxys
+|-supereffective|p1a: Deoxys
+|-enditem|p1a: Deoxys|Focus Sash
+|-damage|p1a: Deoxys|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743845551
+|switch|p1a: Kyurem|Kyurem|100/100
+|-ability|p1a: Kyurem|Pressure
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kyurem|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1743845560
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|move|p2a: Tyranitar|Stone Edge|p1a: Great Tusk
+|-resisted|p1a: Great Tusk
+|-damage|p1a: Great Tusk|92/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1743845566
+|switch|p2a: Vikavolt|Vikavolt, M|100/100
+|move|p1a: Great Tusk|Knock Off|p2a: Vikavolt
+|-damage|p2a: Vikavolt|61/100
+|-enditem|p2a: Vikavolt|Assault Vest|[from] move: Knock Off|[of] p1a: Great Tusk
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vikavolt|55/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1743845584
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Glimmora|Glimmora, M|100/100
+|move|p2a: Vikavolt|Energy Ball|p1a: Glimmora
+|-damage|p1a: Glimmora|62/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Vikavolt|49/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1743845596
+|move|p1a: Glimmora|Meteor Beam||[still]
+|-prepare|p1a: Glimmora|Meteor Beam
+|-boost|p1a: Glimmora|spa|1
+|-enditem|p1a: Glimmora|Power Herb
+|-anim|p1a: Glimmora|Meteor Beam|p2a: Vikavolt
+|-supereffective|p2a: Vikavolt
+|-damage|p2a: Vikavolt|0 fnt
+|faint|p2a: Vikavolt
+|
+|-weather|none
+|upkeep
+|
+|t:|1743845604
+|switch|p2a: Tyranitar|Tyranitar, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|7
+|
+|t:|1743845611
+|move|p1a: Glimmora|Mortal Spin|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|98/100
+|-status|p2a: Tyranitar|psn
+|move|p2a: Tyranitar|Earthquake|p1a: Glimmora
+|-supereffective|p1a: Glimmora
+|-damage|p1a: Glimmora|0 fnt
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: gonichupamatracas|move: Toxic Spikes
+|faint|p1a: Glimmora
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|86/100 psn|[from] psn
+|upkeep
+|
+|t:|1743845616
+|switch|p1a: Great Tusk|Great Tusk|92/100
+|turn|8
+|
+|t:|1743845624
+|move|p1a: Great Tusk|Knock Off|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|72/100 psn
+|-enditem|p2a: Tyranitar|Assault Vest|[from] move: Knock Off|[of] p1a: Great Tusk
+|move|p2a: Tyranitar|Ice Punch|p1a: Great Tusk
+|-supereffective|p1a: Great Tusk
+|-crit|p1a: Great Tusk
+|-damage|p1a: Great Tusk|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|59/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743845632
+|move|p1a: Great Tusk|Earthquake|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1743845642
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|turn|10
+|
+|t:|1743845648
+|move|p2a: Cinderace|Pyro Ball|p1a: Great Tusk
+|-damage|p1a: Great Tusk|0 fnt
+|faint|p1a: Great Tusk
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Cinderace|95/100|[from] Sandstorm
+|upkeep
+|
+|t:|1743845656
+|switch|p1a: Kyurem|Kyurem|94/100
+|-ability|p1a: Kyurem|Pressure
+|turn|11
+|
+|t:|1743845663
+|-terastallize|p1a: Kyurem|Dragon
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-start|p2a: Cinderace|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|move|p1a: Kyurem|Substitute|p1a: Kyurem
+|-start|p1a: Kyurem|Substitute
+|-damage|p1a: Kyurem|70/100
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1743845673
+|move|p2a: Cinderace|Gunk Shot|p1a: Kyurem
+|-end|p1a: Kyurem|Substitute
+|move|p1a: Kyurem|Scale Shot|p2a: Cinderace
+|-damage|p2a: Cinderace|65/100
+|-damage|p2a: Cinderace|38/100
+|-damage|p2a: Cinderace|10/100
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|-hitcount|p2: Cinderace|4
+|-unboost|p1a: Kyurem|def|1
+|-boost|p1a: Kyurem|spe|1
+|
+|upkeep
+|
+|t:|1743845682
+|switch|p2a: Iron Valiant|Iron Valiant, shiny|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|13
+|
+|t:|1743845686
+|move|p2a: Iron Valiant|Moonblast|p1a: Kyurem
+|-supereffective|p1a: Kyurem
+|-damage|p1a: Kyurem|0 fnt
+|faint|p1a: Kyurem
+|
+|upkeep
+|
+|t:|1743845689
+|switch|p1a: Gholdengo|Gholdengo|100/100
+|-item|p1a: Gholdengo|Air Balloon
+|turn|14
+|
+|t:|1743845706
+|-terastallize|p2a: Iron Valiant|Steel
+|move|p2a: Iron Valiant|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|34/100
+|-enditem|p1a: Gholdengo|Air Balloon
+|move|p1a: Gholdengo|Thunder Wave|p2a: Iron Valiant
+|-status|p2a: Iron Valiant|par
+|
+|upkeep
+|turn|15
+|
+|t:|1743845713
+|switch|p1a: Iron Valiant|Iron Valiant|100/100
+|-status|p1a: Iron Valiant|psn
+|-enditem|p1a: Iron Valiant|Booster Energy
+|-activate|p1a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p1a: Iron Valiant|quarkdrivespe
+|move|p2a: Iron Valiant|Knock Off|p1a: Iron Valiant
+|-resisted|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|93/100 psn
+|
+|-damage|p1a: Iron Valiant|81/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1743845727
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-item|p2a: Pecharunt|Air Balloon
+|move|p1a: Iron Valiant|Close Combat|p2a: Pecharunt
+|-immune|p2a: Pecharunt
+|
+|-damage|p1a: Iron Valiant|68/100 psn|[from] psn
+|upkeep
+|turn|17
+|
+|t:|1743845734
+|move|p1a: Iron Valiant|Knock Off|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|63/100
+|-enditem|p2a: Pecharunt|Air Balloon
+|move|p2a: Pecharunt|Hex|p1a: Iron Valiant
+|-damage|p1a: Iron Valiant|0 fnt
+|faint|p1a: Iron Valiant
+|-end|p1a: Iron Valiant|Quark Drive|[silent]
+|
+|upkeep
+|
+|t:|1743845737
+|switch|p1a: Deoxys|Deoxys-Speed|1/100
+|-status|p1a: Deoxys|psn
+|-ability|p1a: Deoxys|Pressure
+|turn|18
+|
+|t:|1743845746
+|switch|p2a: Iron Valiant|Iron Valiant, shiny, tera:Steel|100/100 par
+|move|p1a: Deoxys|Psycho Boost|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|58/100 par
+|-unboost|p1a: Deoxys|spa|2
+|
+|-damage|p1a: Deoxys|0 fnt|[from] psn
+|faint|p1a: Deoxys
+|upkeep
+|
+|t:|1743845750
+|switch|p1a: Gholdengo|Gholdengo|34/100
+|turn|19
+|
+|t:|1743845753
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|84/100
+|move|p2a: Iron Valiant|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|43/100
+|
+|upkeep
+|turn|20
+|
+|t:|1743845759
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Pecharunt|Pecharunt|63/100
+|move|p1a: Gholdengo|Recover|p1a: Gholdengo
+|-heal|p1a: Gholdengo|93/100
+|
+|upkeep
+|turn|21
+|
+|t:|1743845763
+|move|p2a: Pecharunt|Hex|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|47/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|t:|1743845768
+|switch|p2a: Dragapult|Dragapult, M, shiny|100/100
+|turn|22
+|
+|t:|1743845770
+|move|p2a: Dragapult|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|win|gonichupamatracas
+|raw|KawaDino's rating: 1233 &rarr; <strong>1210</strong><br />(-23 for losing)
+|raw|gonichupamatracas's rating: 1260 &rarr; <strong>1283</strong><br />(+23 for winning)
+|l|☆KawaDino
+|player|p1|
+|l|☆gonichupamatracas
+|player|p2|

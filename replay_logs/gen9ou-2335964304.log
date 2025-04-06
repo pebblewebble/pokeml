@@ -1,0 +1,446 @@
+|j|☆c2-005
+|j|☆juicelightning
+|t:|1743864516
+|gametype|singles
+|player|p1|c2-005|dragontamer|1362
+|player|p2|juicelightning|benga|1360
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Moltres-Galar|
+|poke|p1|Cinderace, M|
+|poke|p1|Great Tusk|
+|poke|p1|Garganacl, M|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Cinderace, F|
+|poke|p2|Milotic, M|
+|poke|p2|Ribombee, M|
+|poke|p2|Kingambit, F|
+|poke|p2|Pecharunt|
+|poke|p2|Primeape, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by juicelightning)
+|inactive|c2-005 also wants the timer to be on.
+|
+|t:|1743864525
+|start
+|switch|p1a: SnickerDoodle|Cinderace, M, shiny|100/100
+|switch|p2a: Ribombee|Ribombee, M|100/100
+|turn|1
+|
+|t:|1743864531
+|move|p2a: Ribombee|Sticky Web|p1a: SnickerDoodle
+|-sidestart|p1: c2-005|move: Sticky Web
+|move|p1a: SnickerDoodle|Pyro Ball|p2a: Ribombee
+|-supereffective|p2a: Ribombee
+|-enditem|p2a: Ribombee|Focus Sash
+|-damage|p2a: Ribombee|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743864537
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: SnickerDoodle|Court Change|p1a: SnickerDoodle
+|-start|p1a: SnickerDoodle|typechange|Normal|[from] ability: Libero
+|-swapsideconditions
+|-activate|p1a: SnickerDoodle|move: Court Change
+|
+|upkeep
+|turn|3
+|
+|t:|1743864545
+|move|p2a: Cinderace|High Jump Kick|p1a: SnickerDoodle
+|-start|p2a: Cinderace|typechange|Fighting|[from] ability: Libero
+|-supereffective|p1a: SnickerDoodle
+|-crit|p1a: SnickerDoodle
+|-damage|p1a: SnickerDoodle|0 fnt
+|faint|p1a: SnickerDoodle
+|
+|upkeep
+|
+|t:|1743864550
+|switch|p1a: GlowKing|Slowking-Galar, M|100/100
+|turn|4
+|
+|t:|1743864556
+|switch|p2a: Ribombee|Ribombee, M|1/100
+|-activate|p2a: Ribombee|move: Sticky Web
+|-unboost|p2a: Ribombee|spe|1
+|move|p1a: GlowKing|Future Sight|p2a: Ribombee
+|-start|p1a: GlowKing|move: Future Sight
+|
+|upkeep
+|turn|5
+|
+|t:|1743864559
+|move|p2a: Ribombee|Sticky Web|p1a: GlowKing
+|-sidestart|p1: c2-005|move: Sticky Web
+|move|p1a: GlowKing|Toxic Spikes|p2a: Ribombee
+|-sidestart|p2: juicelightning|move: Toxic Spikes
+|
+|upkeep
+|turn|6
+|
+|t:|1743864570
+|move|p2a: Ribombee|Psychic|p1a: GlowKing
+|-damage|p1a: GlowKing|80/100
+|-unboost|p1a: GlowKing|spd|1
+|-prepare|p1a: GlowKing|Chilly Reception|[premajor]
+|move|p1a: GlowKing|Chilly Reception|p1a: GlowKing
+|-weather|Snowscape
+|
+|t:|1743864572
+|switch|p1a: Cooler Donphan|Great Tusk|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-end|p2a: Ribombee|move: Future Sight
+|-damage|p2a: Ribombee|0 fnt
+|faint|p2a: Ribombee
+|upkeep
+|
+|t:|1743864592
+|switch|p2a: Pecharunt|Pecharunt|100/100
+|-item|p2a: Pecharunt|Air Balloon
+|turn|7
+|
+|t:|1743864598
+|move|p1a: Cooler Donphan|Knock Off|p2a: Pecharunt
+|-supereffective|p2a: Pecharunt
+|-damage|p2a: Pecharunt|68/100
+|-enditem|p2a: Pecharunt|Air Balloon
+|move|p2a: Pecharunt|Malignant Chain|p1a: Cooler Donphan
+|-resisted|p1a: Cooler Donphan
+|-damage|p1a: Cooler Donphan|76/100
+|-status|p1a: Cooler Donphan|tox
+|-start|p1a: Cooler Donphan|confusion|[from] ability: Poison Puppeteer|[of] p2a: Pecharunt
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Cooler Donphan|70/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1743864608
+|-terastallize|p2a: Pecharunt|Ghost
+|-activate|p1a: Cooler Donphan|confusion
+|move|p1a: Cooler Donphan|Headlong Rush|p2a: Pecharunt
+|-damage|p2a: Pecharunt|34/100
+|-unboost|p1a: Cooler Donphan|def|1
+|-unboost|p1a: Cooler Donphan|spd|1
+|move|p2a: Pecharunt|Recover|p2a: Pecharunt
+|-heal|p2a: Pecharunt|84/100
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Cooler Donphan|58/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1743864617
+|-end|p1a: Cooler Donphan|Protosynthesis|[silent]
+|switch|p1a: GlowKing|Slowking-Galar, M|100/100
+|move|p2a: Pecharunt|Parting Shot|p1a: GlowKing
+|-unboost|p1a: GlowKing|atk|1
+|-unboost|p1a: GlowKing|spa|1
+|
+|t:|1743864621
+|switch|p2a: Cinderace|Cinderace, F|100/100|[from] Parting Shot
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743864636
+|move|p2a: Cinderace|Zen Headbutt|p1a: GlowKing
+|-start|p2a: Cinderace|typechange|Psychic|[from] ability: Libero
+|-damage|p1a: GlowKing|59/100
+|-prepare|p1a: GlowKing|Chilly Reception|[premajor]
+|cant|p1a: GlowKing|flinch
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1743864644
+|switch|p1a: Retribution|Moltres-Galar|100/100
+|move|p2a: Cinderace|Court Change|p2a: Cinderace
+|-swapsideconditions
+|-activate|p2a: Cinderace|move: Court Change
+|
+|upkeep
+|turn|12
+|
+|t:|1743864651
+|switch|p2a: Milotic|Milotic, M|100/100
+|-activate|p2a: Milotic|move: Sticky Web
+|-unboost|p2a: Milotic|spe|1
+|-ability|p2a: Milotic|Competitive|boost
+|-boost|p2a: Milotic|spa|2
+|move|p1a: Retribution|Nasty Plot|p1a: Retribution
+|-boost|p1a: Retribution|spa|2
+|
+|upkeep
+|turn|13
+|
+|t:|1743864658
+|switch|p1a: GlowKing|Slowking-Galar, M|92/100
+|-sideend|p1: c2-005|move: Toxic Spikes|[of] p1a: GlowKing
+|move|p2a: Milotic|Ice Beam|p1a: GlowKing
+|-damage|p1a: GlowKing|49/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743864667
+|move|p2a: Milotic|Hydro Pump|p1a: GlowKing|[miss]
+|-miss|p2a: Milotic|p1a: GlowKing
+|-prepare|p1a: GlowKing|Chilly Reception|[premajor]
+|move|p1a: GlowKing|Chilly Reception|p1a: GlowKing
+|-weather|Snowscape
+|
+|t:|1743864673
+|switch|p1a: Cheap Mon|Ogerpon-Wellspring, F|100/100|[from] Chilly Reception
+|-activate|p1a: Cheap Mon|move: Sticky Web
+|-unboost|p1a: Cheap Mon|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|15
+|
+|t:|1743864679
+|switch|p2a: Pecharunt|Pecharunt, tera:Ghost|84/100
+|-activate|p2a: Pecharunt|move: Sticky Web
+|-unboost|p2a: Pecharunt|spe|1
+|move|p1a: Cheap Mon|Swords Dance|p1a: Cheap Mon
+|-boost|p1a: Cheap Mon|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|16
+|
+|t:|1743864685
+|move|p1a: Cheap Mon|Ivy Cudgel|p2a: Pecharunt|[anim] Ivy Cudgel Water
+|-damage|p2a: Pecharunt|23/100
+|move|p2a: Pecharunt|Malignant Chain|p1a: Cheap Mon
+|-supereffective|p1a: Cheap Mon
+|-damage|p1a: Cheap Mon|28/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|17
+|
+|t:|1743864697
+|switch|p2a: Cinderace|Cinderace, F|100/100
+|move|p1a: Cheap Mon|Horn Leech|p2a: Cinderace
+|-resisted|p2a: Cinderace
+|-damage|p2a: Cinderace|41/100
+|-heal|p1a: Cheap Mon|58/100|[from] drain|[of] p2a: Cinderace
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|18
+|
+|t:|1743864713
+|switch|p1a: GlowKing|Slowking-Galar, M|82/100
+|move|p2a: Cinderace|Pyro Ball|p1a: GlowKing
+|-crit|p1a: GlowKing
+|-damage|p1a: GlowKing|0 fnt
+|faint|p1a: GlowKing
+|
+|-weather|none
+|upkeep
+|
+|t:|1743864724
+|switch|p1a: Retribution|Moltres-Galar|100/100
+|turn|19
+|
+|t:|1743864730
+|move|p2a: Cinderace|Pyro Ball|p1a: Retribution
+|-damage|p1a: Retribution|45/100
+|-ability|p1a: Retribution|Berserk|boost
+|-boost|p1a: Retribution|spa|1
+|-enditem|p1a: Retribution|Sitrus Berry|[eat]
+|-heal|p1a: Retribution|70/100|[from] item: Sitrus Berry
+|move|p1a: Retribution|Agility|p1a: Retribution
+|-boost|p1a: Retribution|spe|2
+|
+|upkeep
+|turn|20
+|
+|t:|1743864739
+|move|p1a: Retribution|Fiery Wrath|p2a: Cinderace
+|-damage|p2a: Cinderace|0 fnt
+|faint|p2a: Cinderace
+|
+|upkeep
+|
+|t:|1743864745
+|switch|p2a: Milotic|Milotic, M|100/100
+|-activate|p2a: Milotic|move: Sticky Web
+|-unboost|p2a: Milotic|spe|1
+|-ability|p2a: Milotic|Competitive|boost
+|-boost|p2a: Milotic|spa|2
+|turn|21
+|
+|t:|1743864749
+|move|p1a: Retribution|Fiery Wrath|p2a: Milotic
+|-damage|p2a: Milotic|74/100
+|move|p2a: Milotic|Draining Kiss|p1a: Retribution
+|-supereffective|p1a: Retribution
+|-damage|p1a: Retribution|27/100
+|-heal|p2a: Milotic|100/100|[from] drain|[of] p1a: Retribution
+|-ability|p1a: Retribution|Berserk|boost
+|-boost|p1a: Retribution|spa|1
+|
+|upkeep
+|turn|22
+|
+|t:|1743864758
+|move|p1a: Retribution|Fiery Wrath|p2a: Milotic
+|-damage|p2a: Milotic|62/100
+|move|p2a: Milotic|Ice Beam|p1a: Retribution
+|-supereffective|p1a: Retribution
+|-damage|p1a: Retribution|0 fnt
+|faint|p1a: Retribution
+|
+|upkeep
+|
+|t:|1743864760
+|switch|p1a: Cheap Mon|Ogerpon-Wellspring, F|58/100
+|-activate|p1a: Cheap Mon|move: Sticky Web
+|-unboost|p1a: Cheap Mon|spe|1
+|turn|23
+|
+|t:|1743864772
+|switch|p2a: Pecharunt|Pecharunt, tera:Ghost|23/100
+|-activate|p2a: Pecharunt|move: Sticky Web
+|-unboost|p2a: Pecharunt|spe|1
+|move|p1a: Cheap Mon|Swords Dance|p1a: Cheap Mon
+|-boost|p1a: Cheap Mon|atk|2
+|
+|upkeep
+|turn|24
+|
+|t:|1743864776
+|move|p1a: Cheap Mon|Horn Leech|p2a: Pecharunt
+|-damage|p2a: Pecharunt|0 fnt
+|-heal|p1a: Cheap Mon|72/100|[from] drain|[of] p2a: Pecharunt
+|faint|p2a: Pecharunt
+|
+|upkeep
+|
+|t:|1743864782
+|switch|p2a: Primeape|Primeape, F|100/100
+|-activate|p2a: Primeape|move: Sticky Web
+|-unboost|p2a: Primeape|spe|1
+|-ability|p2a: Primeape|Defiant|boost
+|-boost|p2a: Primeape|atk|2
+|turn|25
+|
+|t:|1743864787
+|move|p2a: Primeape|Endure|p2a: Primeape
+|-singleturn|p2a: Primeape|move: Endure
+|move|p1a: Cheap Mon|Ivy Cudgel|p2a: Primeape|[anim] Ivy Cudgel Water
+|-activate|p2a: Primeape|move: Endure
+|-damage|p2a: Primeape|1/100
+|
+|upkeep
+|turn|26
+|-enditem|p2a: Primeape|Custap Berry|[eat]
+|-activate|p2a: Primeape|item: Custap Berry|[consumed]
+|
+|t:|1743864796
+|move|p2a: Primeape|Drain Punch|p1a: Cheap Mon
+|-damage|p1a: Cheap Mon|0 fnt
+|-heal|p2a: Primeape|33/100|[from] drain|[of] p1a: Cheap Mon
+|faint|p1a: Cheap Mon
+|
+|upkeep
+|
+|t:|1743864799
+|switch|p1a: Cooler Donphan|Great Tusk|58/100 tox
+|turn|27
+|
+|t:|1743864808
+|move|p2a: Primeape|Endure|p2a: Primeape
+|-singleturn|p2a: Primeape|move: Endure
+|move|p1a: Cooler Donphan|Headlong Rush|p2a: Primeape
+|-activate|p2a: Primeape|move: Endure
+|-damage|p2a: Primeape|1/100
+|-unboost|p1a: Cooler Donphan|def|1
+|-unboost|p1a: Cooler Donphan|spd|1
+|
+|-damage|p1a: Cooler Donphan|51/100 tox|[from] psn
+|upkeep
+|turn|28
+|
+|t:|1743864814
+|move|p1a: Cooler Donphan|Rapid Spin|p2a: Primeape
+|-damage|p2a: Primeape|0 fnt
+|-boost|p1a: Cooler Donphan|spe|1
+|-sideend|p1: c2-005|Sticky Web|[from] move: Rapid Spin|[of] p1a: Cooler Donphan
+|faint|p2a: Primeape
+|
+|-damage|p1a: Cooler Donphan|39/100 tox|[from] psn
+|upkeep
+|
+|t:|1743864819
+|switch|p2a: Kingambit|Kingambit, F|100/100
+|-activate|p2a: Kingambit|move: Sticky Web
+|-unboost|p2a: Kingambit|spe|1
+|-ability|p2a: Kingambit|Defiant|boost
+|-boost|p2a: Kingambit|atk|2
+|turn|29
+|
+|t:|1743864824
+|move|p2a: Kingambit|Sucker Punch|p1a: Cooler Donphan
+|-resisted|p1a: Cooler Donphan
+|-damage|p1a: Cooler Donphan|0 fnt
+|faint|p1a: Cooler Donphan
+|-end|p1a: Cooler Donphan|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743864827
+|switch|p1a: Salting Cures|Garganacl, M|100/100
+|turn|30
+|
+|t:|1743864833
+|move|p1a: Salting Cures|Salt Cure|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|96/100
+|-start|p2a: Kingambit|Salt Cure
+|move|p2a: Kingambit|Iron Head|p1a: Salting Cures
+|-supereffective|p1a: Salting Cures
+|-damage|p1a: Salting Cures|2/100
+|
+|-heal|p1a: Salting Cures|8/100|[from] item: Leftovers
+|-damage|p2a: Kingambit|71/100|[from] Salt Cure
+|upkeep
+|turn|31
+|
+|t:|1743864840
+|move|p1a: Salting Cures|Recover|p1a: Salting Cures
+|-heal|p1a: Salting Cures|58/100
+|move|p2a: Kingambit|Iron Head|p1a: Salting Cures
+|-supereffective|p1a: Salting Cures
+|-damage|p1a: Salting Cures|0 fnt
+|faint|p1a: Salting Cures
+|
+|win|juicelightning
+|raw|c2-005's rating: 1362 &rarr; <strong>1342</strong><br />(-20 for losing)
+|raw|juicelightning's rating: 1360 &rarr; <strong>1380</strong><br />(+20 for winning)
+|l|☆c2-005
+|player|p1|
+|l|☆juicelightning
+|player|p2|

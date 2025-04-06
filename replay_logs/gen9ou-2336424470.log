@@ -1,0 +1,316 @@
+|j|☆Juanpatrox
+|j|☆exifile
+|t:|1743915558
+|gametype|singles
+|player|p1|Juanpatrox|iris|1209
+|player|p2|exifile|2|1197
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Landorus-Therian, M|
+|poke|p1|Dragapult, M|
+|poke|p1|Tornadus-Therian, M|
+|poke|p1|Heatran, M|
+|poke|p1|Kingambit, M|
+|poke|p1|Toxapex, F|
+|poke|p2|Dragonite, M|
+|poke|p2|Ting-Lu|
+|poke|p2|Iron Moth|
+|poke|p2|Iron Valiant|
+|poke|p2|Kyurem|
+|poke|p2|Gholdengo|
+|teampreview
+|
+|t:|1743915575
+|start
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|switch|p2a: Ting-Lu|Ting-Lu|100/100
+|-ability|p2a: Ting-Lu|Vessel of Ruin
+|turn|1
+|
+|t:|1743915581
+|move|p2a: Ting-Lu|Taunt|p1a: Toxapex
+|-start|p1a: Toxapex|move: Taunt
+|cant|p1a: Toxapex|move: Taunt|Toxic
+|
+|upkeep
+|turn|2
+|
+|t:|1743915598
+|switch|p1a: Kingambit|Kingambit, M, shiny|100/100
+|move|p2a: Ting-Lu|Earthquake|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|35/100
+|
+|-heal|p1a: Kingambit|41/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1743915608
+|-terastallize|p1a: Kingambit|Flying
+|move|p2a: Ting-Lu|Earthquake|p1a: Kingambit
+|-immune|p1a: Kingambit
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p1a: Kingambit|47/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1743915619
+|move|p1a: Kingambit|Sucker Punch|p2a: Ting-Lu
+|-resisted|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|77/100
+|-damage|p1a: Kingambit|31/100|[from] item: Rocky Helmet|[of] p2a: Ting-Lu
+|move|p2a: Ting-Lu|Ruination|p1a: Kingambit|[miss]
+|-miss|p2a: Ting-Lu|p1a: Kingambit
+|
+|-heal|p1a: Kingambit|37/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1743915634
+|-end|p1a: Kingambit|fallenundefined|[silent]
+|switch|p1a: Landorus|Landorus-Therian, M|100/100
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Ting-Lu|atk|1
+|move|p2a: Ting-Lu|Ruination|p1a: Landorus
+|-damage|p1a: Landorus|50/100
+|
+|upkeep
+|turn|6
+|
+|t:|1743915643
+|move|p1a: Landorus|Stealth Rock|p2a: Ting-Lu
+|-sidestart|p2: exifile|move: Stealth Rock
+|move|p2a: Ting-Lu|Stealth Rock|p1a: Landorus
+|-sidestart|p1: Juanpatrox|move: Stealth Rock
+|
+|upkeep
+|turn|7
+|
+|t:|1743915650
+|move|p1a: Landorus|U-turn|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|52/100
+|-damage|p1a: Landorus|34/100|[from] item: Rocky Helmet|[of] p2a: Ting-Lu
+|
+|t:|1743915654
+|switch|p1a: Tornadus|Tornadus-Therian, M|100/100|[from] U-turn
+|-damage|p1a: Tornadus|76/100|[from] Stealth Rock
+|move|p2a: Ting-Lu|Ruination|p1a: Tornadus
+|-damage|p1a: Tornadus|38/100
+|
+|-heal|p1a: Tornadus|44/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1743915664
+|move|p1a: Tornadus|U-turn|p2a: Ting-Lu
+|-supereffective|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|34/100
+|-damage|p1a: Tornadus|28/100|[from] item: Rocky Helmet|[of] p2a: Ting-Lu
+|
+|t:|1743915668
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from] U-turn
+|-damage|p1a: Dragapult|88/100|[from] Stealth Rock
+|move|p2a: Ting-Lu|Taunt|p1a: Dragapult
+|-start|p1a: Dragapult|move: Taunt
+|
+|upkeep
+|turn|9
+|
+|t:|1743915678
+|move|p1a: Dragapult|Draco Meteor|p2a: Ting-Lu|[miss]
+|-miss|p1a: Dragapult|p2a: Ting-Lu
+|move|p2a: Ting-Lu|Ruination|p1a: Dragapult|[miss]
+|-miss|p2a: Ting-Lu|p1a: Dragapult
+|
+|upkeep
+|turn|10
+|
+|t:|1743915687
+|move|p1a: Dragapult|Draco Meteor|p2a: Ting-Lu
+|-damage|p2a: Ting-Lu|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2a: Ting-Lu
+|
+|-end|p1a: Dragapult|move: Taunt
+|upkeep
+|
+|t:|1743915701
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-damage|p2a: Gholdengo|94/100|[from] Stealth Rock
+|turn|11
+|
+|t:|1743915709
+|switch|p1a: Landorus|Landorus-Therian, M|34/100
+|-damage|p1a: Landorus|22/100|[from] Stealth Rock
+|-ability|p1a: Landorus|Intimidate|boost
+|-unboost|p2a: Gholdengo|atk|1
+|move|p2a: Gholdengo|Shadow Ball|p1a: Landorus
+|-damage|p1a: Landorus|0 fnt
+|faint|p1a: Landorus
+|
+|upkeep
+|
+|t:|1743915718
+|switch|p1a: Heatran|Heatran, M|100/100
+|-damage|p1a: Heatran|88/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1743915726
+|move|p2a: Gholdengo|Shadow Ball|p1a: Heatran
+|-damage|p1a: Heatran|61/100
+|move|p1a: Heatran|Earth Power|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|44/100
+|
+|-heal|p1a: Heatran|68/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1743915737
+|switch|p2a: Dragonite|Dragonite, M|100/100
+|move|p1a: Heatran|Earth Power|p2a: Dragonite
+|-immune|p2a: Dragonite
+|
+|-heal|p1a: Heatran|74/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1743915746
+|move|p2a: Dragonite|Earthquake|p1a: Heatran
+|-supereffective|p1a: Heatran
+|-damage|p1a: Heatran|0 fnt
+|faint|p1a: Heatran
+|
+|upkeep
+|
+|t:|1743915750
+|switch|p1a: Dragapult|Dragapult, M|88/100
+|-damage|p1a: Dragapult|76/100|[from] Stealth Rock
+|turn|15
+|
+|t:|1743915760
+|move|p1a: Dragapult|Draco Meteor|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|8/100
+|-unboost|p1a: Dragapult|spa|2
+|move|p2a: Dragonite|Earthquake|p1a: Dragapult
+|-damage|p1a: Dragapult|27/100
+|-start|p2a: Dragonite|Disable|Earthquake|[from] ability: Cursed Body|[of] p1a: Dragapult
+|
+|upkeep
+|turn|16
+|
+|t:|1743915774
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-damage|p2a: Iron Valiant|94/100|[from] Stealth Rock
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|move|p1a: Dragapult|Draco Meteor|p2a: Iron Valiant
+|-immune|p2a: Iron Valiant
+|
+|upkeep
+|turn|17
+|
+|t:|1743915785
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|move|p2a: Iron Valiant|Knock Off|p1a: Toxapex
+|-damage|p1a: Toxapex|68/100
+|-enditem|p1a: Toxapex|Leftovers|[from] move: Knock Off|[of] p2a: Iron Valiant
+|
+|upkeep
+|turn|18
+|
+|t:|1743915800
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|switch|p2a: Gholdengo|Gholdengo|44/100
+|-damage|p2a: Gholdengo|38/100|[from] Stealth Rock
+|move|p1a: Toxapex|Toxic|p2a: Gholdengo
+|-immune|p2a: Gholdengo|[from] ability: Good as Gold
+|
+|upkeep
+|turn|19
+|
+|t:|1743915811
+|switch|p1a: Tornadus|Tornadus-Therian, M|61/100
+|-damage|p1a: Tornadus|36/100|[from] Stealth Rock
+|move|p2a: Gholdengo|Shadow Ball|p1a: Tornadus
+|-damage|p1a: Tornadus|0 fnt
+|faint|p1a: Tornadus
+|
+|upkeep
+|
+|t:|1743915820
+|switch|p1a: Dragapult|Dragapult, M|27/100
+|-damage|p1a: Dragapult|15/100|[from] Stealth Rock
+|turn|20
+|
+|t:|1743915826
+|move|p2a: Gholdengo|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1743915865
+|switch|p1a: Toxapex|Toxapex, F|100/100
+|-damage|p1a: Toxapex|88/100|[from] Stealth Rock
+|turn|21
+|
+|t:|1743915891
+|move|p2a: Gholdengo|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|55/100
+|move|p1a: Toxapex|Chilling Water|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|17/100
+|-unboost|p2a: Gholdengo|atk|1
+|
+|upkeep
+|turn|22
+|
+|t:|1743915920
+|move|p2a: Gholdengo|Shadow Ball|p1a: Toxapex
+|-damage|p1a: Toxapex|23/100
+|move|p1a: Toxapex|Chilling Water|p2a: Gholdengo
+|-damage|p2a: Gholdengo|5/100
+|-unboost|p2a: Gholdengo|atk|1
+|
+|upkeep
+|turn|23
+|
+|t:|1743915928
+|switch|p1a: Kingambit|Kingambit, M, shiny, tera:Flying|37/100
+|-damage|p1a: Kingambit|12/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen4|[silent]
+|move|p2a: Gholdengo|Shadow Ball|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-end|p1a: Kingambit|fallen4|[silent]
+|
+|upkeep
+|-message|Juanpatrox forfeited.
+|
+|win|exifile
+|raw|Juanpatrox's rating: 1209 &rarr; <strong>1183</strong><br />(-26 for losing)
+|raw|exifile's rating: 1197 &rarr; <strong>1223</strong><br />(+26 for winning)
+|l|☆Juanpatrox
+|player|p1|
+|l|☆exifile
+|player|p2|

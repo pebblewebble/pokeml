@@ -1,0 +1,544 @@
+|j|☆memer_is_a_slur
+|j|☆keepmomo
+|t:|1743786761
+|gametype|singles
+|player|p1|memer_is_a_slur|blaine|1213
+|player|p2|keepmomo|dawn|1165
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Blissey, F|
+|poke|p1|Clefable, F|
+|poke|p1|Gliscor, F|
+|poke|p1|Ting-Lu|
+|poke|p1|Dondozo, F|
+|poke|p1|Clodsire, F|
+|poke|p2|Comfey, M|
+|poke|p2|Klefki, F|
+|poke|p2|Kingdra, F|
+|poke|p2|Whimsicott, F|
+|poke|p2|Jumpluff, M|
+|poke|p2|Pelipper, F|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by memer_is_a_slur)
+|
+|t:|1743786780
+|start
+|switch|p1a: Gliscor|Gliscor, F|100/100
+|switch|p2a: Jumpluff|Jumpluff, M|100/100
+|turn|1
+|
+|t:|1743786796
+|move|p1a: Gliscor|Protect|p1a: Gliscor
+|-singleturn|p1a: Gliscor|Protect
+|move|p2a: Jumpluff|Reflect|p2a: Jumpluff
+|-sidestart|p2: keepmomo|Reflect
+|
+|-status|p1a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1743786803
+|move|p2a: Jumpluff|Leech Seed|p1a: Gliscor
+|-start|p1a: Gliscor|move: Leech Seed
+|move|p1a: Gliscor|Stealth Rock|p2a: Jumpluff
+|-sidestart|p2: keepmomo|move: Stealth Rock
+|
+|-damage|p1a: Gliscor|88/100 tox|[from] Leech Seed|[of] p2a: Jumpluff
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|t:|1743786806
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Jumpluff|Light Screen|p2a: Jumpluff
+|-sidestart|p2: keepmomo|move: Light Screen
+|
+|upkeep
+|turn|4
+|
+|t:|1743786814
+|move|p2a: Jumpluff|Leech Seed|p1a: Clefable
+|-start|p1a: Clefable|move: Leech Seed
+|move|p1a: Clefable|Knock Off|p2a: Jumpluff
+|-damage|p2a: Jumpluff|91/100
+|-enditem|p2a: Jumpluff|Light Clay|[from] move: Knock Off|[of] p1a: Clefable
+|
+|upkeep
+|turn|5
+|
+|t:|1743786821
+|move|p2a: Jumpluff|Memento|p1a: Clefable
+|-unboost|p1a: Clefable|atk|2
+|-unboost|p1a: Clefable|spa|2
+|faint|p2a: Jumpluff
+|move|p1a: Clefable|Moonblast|p2: Jumpluff|[notarget]
+|-fail|p1a: Clefable
+|
+|upkeep
+|
+|t:|1743786826
+|switch|p2a: Comfey|Comfey, M, shiny|100/100
+|-damage|p2a: Comfey|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1743786830
+|move|p2a: Comfey|Taunt|p1a: Clefable
+|-start|p1a: Clefable|move: Taunt
+|move|p1a: Clefable|Knock Off|p2a: Comfey
+|-resisted|p2a: Comfey
+|-damage|p2a: Comfey|86/100
+|-enditem|p2a: Comfey|Metronome|[from] move: Knock Off|[of] p1a: Clefable
+|
+|upkeep
+|turn|7
+|
+|t:|1743786838
+|move|p2a: Comfey|Calm Mind|p2a: Comfey
+|-boost|p2a: Comfey|spa|1
+|-boost|p2a: Comfey|spd|1
+|move|p1a: Clefable|Moonblast|p2a: Comfey
+|-damage|p2a: Comfey|81/100
+|-unboost|p2a: Comfey|spa|1
+|
+|upkeep
+|turn|8
+|
+|t:|1743786841
+|switch|p1a: Blissey|Blissey, F|100/100
+|move|p2a: Comfey|Calm Mind|p2a: Comfey
+|-boost|p2a: Comfey|spa|1
+|-boost|p2a: Comfey|spd|1
+|
+|-sideend|p2: keepmomo|Reflect
+|upkeep
+|turn|9
+|
+|t:|1743786847
+|move|p2a: Comfey|Taunt|p1a: Blissey
+|-start|p1a: Blissey|move: Taunt
+|cant|p1a: Blissey|move: Taunt|Calm Mind
+|
+|upkeep
+|turn|10
+|
+|t:|1743786852
+|move|p2a: Comfey|Leech Seed|p1a: Blissey
+|-start|p1a: Blissey|move: Leech Seed
+|move|p1a: Blissey|Seismic Toss|p2a: Comfey
+|-damage|p2a: Comfey|49/100
+|
+|-damage|p1a: Blissey|88/100|[from] Leech Seed|[of] p2a: Comfey
+|-heal|p2a: Comfey|75/100|[silent]
+|-sideend|p2: keepmomo|move: Light Screen
+|upkeep
+|turn|11
+|
+|t:|1743786858
+|switch|p1a: Clefable|Clefable, F|100/100
+|move|p2a: Comfey|Calm Mind|p2a: Comfey
+|-boost|p2a: Comfey|spa|1
+|-boost|p2a: Comfey|spd|1
+|
+|upkeep
+|turn|12
+|
+|t:|1743786867
+|move|p2a: Comfey|Taunt|p1a: Clefable
+|-start|p1a: Clefable|move: Taunt
+|move|p1a: Clefable|Moonblast|p2a: Comfey
+|-damage|p2a: Comfey|61/100
+|
+|upkeep
+|turn|13
+|
+|t:|1743786879
+|move|p2a: Comfey|Leech Seed|p1a: Clefable
+|-start|p1a: Clefable|move: Leech Seed
+|move|p1a: Clefable|Moonblast|p2a: Comfey
+|-damage|p2a: Comfey|47/100
+|
+|upkeep
+|turn|14
+|
+|t:|1743786884
+|move|p2a: Comfey|Calm Mind|p2a: Comfey
+|-boost|p2a: Comfey|spa|1
+|-boost|p2a: Comfey|spd|1
+|move|p1a: Clefable|Moonblast|p2a: Comfey
+|-damage|p2a: Comfey|36/100
+|
+|-end|p1a: Clefable|move: Taunt
+|upkeep
+|turn|15
+|
+|t:|1743786889
+|-terastallize|p2a: Comfey|Fairy
+|move|p2a: Comfey|Draining Kiss|p1a: Clefable
+|-damage|p1a: Clefable|23/100
+|-heal|p2a: Comfey|100/100|[from] drain|[of] p1a: Clefable
+|move|p1a: Clefable|Moonblast|p2a: Comfey
+|-damage|p2a: Comfey|90/100
+|-unboost|p2a: Comfey|spa|1
+|
+|-heal|p1a: Clefable|29/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1743786895
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Comfey|Draining Kiss|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-heal|p1a: Clefable|36/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1743786903
+|-terastallize|p1a: Clefable|Steel
+|move|p2a: Comfey|Draining Kiss|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|5/100
+|-heal|p2a: Comfey|100/100|[from] drain|[of] p1a: Clefable
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|55/100
+|
+|-heal|p1a: Clefable|61/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1743786907
+|move|p2a: Comfey|Draining Kiss|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|27/100
+|move|p1a: Clefable|Moonlight|p1a: Clefable
+|-heal|p1a: Clefable|77/100
+|
+|-heal|p1a: Clefable|83/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1743786924
+|move|p2a: Comfey|Draining Kiss|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|49/100
+|move|p1a: Clefable|Moonblast|p2a: Comfey
+|-damage|p2a: Comfey|90/100
+|-unboost|p2a: Comfey|spa|1
+|
+|-heal|p1a: Clefable|55/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743786931
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Comfey|Draining Kiss|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-heal|p1a: Clefable|61/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743786942
+|move|p2a: Comfey|Taunt|p1a: Clefable
+|-start|p1a: Clefable|move: Taunt
+|cant|p1a: Clefable|move: Taunt|Moonlight
+|
+|-heal|p1a: Clefable|67/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743786956
+|move|p2a: Comfey|Calm Mind|p2a: Comfey
+|-boost|p2a: Comfey|spa|1
+|-boost|p2a: Comfey|spd|1
+|move|p1a: Clefable|Moonblast|p2a: Comfey
+|-damage|p2a: Comfey|80/100
+|
+|-heal|p1a: Clefable|73/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743786961
+|switch|p1a: Blissey|Blissey, F|88/100
+|move|p2a: Comfey|Calm Mind|p2a: Comfey
+|-boost|p2a: Comfey|spa|1
+|-boost|p2a: Comfey|spd|1
+|
+|upkeep
+|turn|24
+|
+|t:|1743786968
+|move|p2a: Comfey|Taunt|p1a: Blissey
+|-start|p1a: Blissey|move: Taunt
+|move|p1a: Blissey|Seismic Toss|p2a: Comfey
+|-damage|p2a: Comfey|47/100
+|
+|upkeep
+|turn|25
+|
+|t:|1743786975
+|move|p2a: Comfey|Leech Seed|p1a: Blissey
+|-start|p1a: Blissey|move: Leech Seed
+|move|p1a: Blissey|Seismic Toss|p2a: Comfey
+|-damage|p2a: Comfey|14/100
+|
+|-damage|p1a: Blissey|76/100|[from] Leech Seed|[of] p2a: Comfey
+|-heal|p2a: Comfey|41/100|[silent]
+|upkeep
+|turn|26
+|
+|t:|1743786986
+|switch|p1a: Clefable|Clefable, F, tera:Steel|73/100
+|move|p2a: Comfey|Draining Kiss|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|36/100
+|-heal|p2a: Comfey|77/100|[from] drain|[of] p1a: Clefable
+|
+|-heal|p1a: Clefable|42/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1743786993
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Comfey|Taunt|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-heal|p1a: Clefable|48/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1743787001
+|switch|p1a: Blissey|Blissey, F|76/100
+|move|p2a: Comfey|Taunt|p1a: Blissey
+|-start|p1a: Blissey|move: Taunt
+|
+|upkeep
+|turn|29
+|
+|t:|1743787010
+|move|p2a: Comfey|Leech Seed|p1a: Blissey|[miss]
+|-miss|p2a: Comfey|p1a: Blissey
+|move|p1a: Blissey|Seismic Toss|p2a: Comfey
+|-damage|p2a: Comfey|44/100
+|
+|upkeep
+|turn|30
+|
+|t:|1743787016
+|switch|p1a: Clefable|Clefable, F, tera:Steel|48/100
+|move|p2a: Comfey|Leech Seed|p1a: Clefable|[miss]
+|-miss|p2a: Comfey|p1a: Clefable
+|
+|-heal|p1a: Clefable|54/100|[from] item: Leftovers
+|upkeep
+|turn|31
+|
+|t:|1743787023
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Comfey|Taunt|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-heal|p1a: Clefable|60/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|
+|t:|1743787034
+|move|p2a: Comfey|Taunt|p1a: Clefable
+|-start|p1a: Clefable|move: Taunt
+|move|p1a: Clefable|Moonblast|p2a: Comfey
+|-damage|p2a: Comfey|35/100
+|
+|-heal|p1a: Clefable|66/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|
+|t:|1743787047
+|switch|p1a: Blissey|Blissey, F|76/100
+|move|p2a: Comfey|Draining Kiss|p1a: Blissey
+|-damage|p1a: Blissey|51/100
+|-heal|p2a: Comfey|75/100|[from] drain|[of] p1a: Blissey
+|
+|upkeep
+|turn|34
+|
+|t:|1743787058
+|move|p2a: Comfey|Leech Seed|p1a: Blissey
+|-start|p1a: Blissey|move: Leech Seed
+|move|p1a: Blissey|Seismic Toss|p2a: Comfey
+|-damage|p2a: Comfey|42/100
+|
+|-damage|p1a: Blissey|38/100|[from] Leech Seed|[of] p2a: Comfey
+|-heal|p2a: Comfey|68/100|[silent]
+|upkeep
+|turn|35
+|
+|t:|1743787065
+|move|p2a: Comfey|Taunt|p1a: Blissey
+|-start|p1a: Blissey|move: Taunt
+|cant|p1a: Blissey|move: Taunt|Soft-Boiled
+|
+|-damage|p1a: Blissey|26/100|[from] Leech Seed|[of] p2a: Comfey
+|-heal|p2a: Comfey|95/100|[silent]
+|upkeep
+|turn|36
+|
+|t:|1743787076
+|switch|p1a: Clefable|Clefable, F, tera:Steel|66/100
+|move|p2a: Comfey|Draining Kiss|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|30/100
+|-heal|p2a: Comfey|100/100|[from] drain|[of] p1a: Clefable
+|
+|-heal|p1a: Clefable|36/100|[from] item: Leftovers
+|upkeep
+|turn|37
+|
+|t:|1743787086
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Comfey|Taunt|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-heal|p1a: Clefable|42/100|[from] item: Leftovers
+|upkeep
+|turn|38
+|
+|t:|1743787104
+|switch|p1a: Blissey|Blissey, F|26/100
+|move|p2a: Comfey|Taunt|p1a: Blissey
+|-start|p1a: Blissey|move: Taunt
+|
+|upkeep
+|turn|39
+|
+|t:|1743787123
+|switch|p1a: Clefable|Clefable, F, tera:Steel|42/100
+|move|p2a: Comfey|Draining Kiss|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|1/100
+|
+|-heal|p1a: Clefable|7/100|[from] item: Leftovers
+|upkeep
+|turn|40
+|
+|t:|1743787133
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Comfey|Taunt|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-heal|p1a: Clefable|13/100|[from] item: Leftovers
+|upkeep
+|turn|41
+|
+|t:|1743787149
+|switch|p1a: Blissey|Blissey, F|26/100
+|move|p2a: Comfey|Draining Kiss|p1a: Blissey
+|-damage|p1a: Blissey|0 fnt
+|faint|p1a: Blissey
+|
+|upkeep
+|
+|t:|1743787155
+|switch|p1a: Clefable|Clefable, F, tera:Steel|13/100
+|turn|42
+|
+|t:|1743787158
+|move|p1a: Clefable|Protect|p1a: Clefable
+|-singleturn|p1a: Clefable|Protect
+|move|p2a: Comfey|Taunt|p1a: Clefable
+|-activate|p1a: Clefable|move: Protect
+|
+|-heal|p1a: Clefable|19/100|[from] item: Leftovers
+|upkeep
+|turn|43
+|
+|t:|1743787167
+|move|p1a: Clefable|Protect||[still]
+|-fail|p1a: Clefable
+|move|p2a: Comfey|Taunt|p1a: Clefable
+|-start|p1a: Clefable|move: Taunt
+|
+|-heal|p1a: Clefable|25/100|[from] item: Leftovers
+|upkeep
+|turn|44
+|
+|t:|1743787175
+|switch|p1a: Clodsire|Clodsire, F|100/100
+|move|p2a: Comfey|Draining Kiss|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-damage|p1a: Clodsire|70/100
+|
+|upkeep
+|turn|45
+|
+|t:|1743787187
+|move|p2a: Comfey|Draining Kiss|p1a: Clodsire
+|-resisted|p1a: Clodsire
+|-crit|p1a: Clodsire
+|-damage|p1a: Clodsire|26/100
+|move|p1a: Clodsire|Toxic|p2a: Comfey
+|-status|p2a: Comfey|tox
+|
+|-damage|p2a: Comfey|94/100 tox|[from] psn
+|upkeep
+|turn|46
+|
+|t:|1743787196
+|move|p1a: Clodsire|Protect|p1a: Clodsire
+|-singleturn|p1a: Clodsire|Protect
+|move|p2a: Comfey|Draining Kiss|p1a: Clodsire
+|-activate|p1a: Clodsire|move: Protect
+|
+|-damage|p2a: Comfey|82/100 tox|[from] psn
+|upkeep
+|turn|47
+|
+|t:|1743787206
+|switch|p1a: Clefable|Clefable, F, tera:Steel|25/100
+|move|p2a: Comfey|Draining Kiss|p1a: Clefable
+|-resisted|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|-heal|p2a: Comfey|100/100 tox|[from] drain|[of] p1a: Clefable
+|faint|p1a: Clefable
+|
+|-damage|p2a: Comfey|82/100 tox|[from] psn
+|upkeep
+|
+|t:|1743787215
+|switch|p1a: Clodsire|Clodsire, F|26/100
+|turn|48
+|
+|t:|1743787219
+|move|p1a: Clodsire|Protect|p1a: Clodsire
+|-singleturn|p1a: Clodsire|Protect
+|move|p2a: Comfey|Draining Kiss|p1a: Clodsire
+|-activate|p1a: Clodsire|move: Protect
+|
+|-damage|p2a: Comfey|57/100 tox|[from] psn
+|upkeep
+|turn|49
+|-message|keepmomo forfeited.
+|
+|win|memer_is_a_slur
+|raw|memer_is_a_slur's rating: 1213 &rarr; <strong>1235</strong><br />(+22 for winning)
+|raw|keepmomo's rating: 1165 &rarr; <strong>1143</strong><br />(-22 for losing)
+|l|☆keepmomo
+|player|p2|
+|l|☆memer_is_a_slur
+|player|p1|

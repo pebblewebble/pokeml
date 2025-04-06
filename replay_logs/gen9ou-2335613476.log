@@ -1,0 +1,202 @@
+|j|☆Lucario Cardio
+|j|☆Baby Monster MAGA
+|t:|1743812423
+|gametype|singles
+|player|p1|Lucario Cardio|bea|1421
+|player|p2|Baby Monster MAGA|102|1407
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Hoopa-Unbound|
+|poke|p1|Zamazenta-*|
+|poke|p1|Moltres|
+|poke|p1|Samurott-Hisui, F|
+|poke|p1|Dragapult, M|
+|poke|p1|Iron Treads|
+|poke|p2|Torkoal, M|
+|poke|p2|Rillaboom, F|
+|poke|p2|Iron Valiant|
+|poke|p2|Great Tusk|
+|poke|p2|Venusaur, F|
+|poke|p2|Arcanine, M|
+|teampreview
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Baby Monster MAGA)
+|
+|t:|1743812440
+|start
+|switch|p1a: Hoopa|Hoopa-Unbound|100/100
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1743812454
+|switch|p2a: Rillaboom|Rillaboom, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p2a: Rillaboom|Grassy Seed
+|-boost|p2a: Rillaboom|def|1|[from] item: Grassy Seed
+|move|p1a: Hoopa|Psychic Noise|p2a: Rillaboom
+|-crit|p2a: Rillaboom
+|-damage|p2a: Rillaboom|22/100
+|-start|p2a: Rillaboom|move: Heal Block
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743812462
+|switch|p1a: Moltres|Moltres|100/100
+|move|p2a: Rillaboom|Grassy Glide|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|93/100
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Rillaboom|move: Heal Block
+|upkeep
+|turn|3
+|
+|t:|1743812471
+|move|p2a: Rillaboom|U-turn|p1a: Moltres
+|-resisted|p1a: Moltres
+|-damage|p1a: Moltres|89/100
+|
+|t:|1743812475
+|switch|p2a: Arcanine|Arcanine, M|100/100|[from] U-turn
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Moltres|atk|1
+|move|p1a: Moltres|Flamethrower|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|79/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Arcanine|85/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1743812494
+|switch|p1a: Dragapult|Dragapult, M|100/100
+|move|p2a: Arcanine|Overheat|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|50/100
+|-unboost|p2a: Arcanine|spa|2
+|-enditem|p2a: Arcanine|Eject Pack
+|
+|t:|1743812499
+|switch|p2a: Venusaur|Venusaur, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Dragapult|56/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1743812505
+|move|p2a: Venusaur|Solar Beam||[still]
+|-prepare|p2a: Venusaur|Solar Beam
+|-anim|p2a: Venusaur|Solar Beam|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|-damage|p2a: Venusaur|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Venusaur|97/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1743812508
+|switch|p1a: Moltres|Moltres|89/100
+|turn|6
+|
+|t:|1743812519
+|switch|p2a: Arcanine|Arcanine, M|85/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Moltres|atk|1
+|move|p1a: Moltres|Flamethrower|p2a: Arcanine
+|-resisted|p2a: Arcanine
+|-damage|p2a: Arcanine|64/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1743812524
+|move|p2a: Arcanine|Morning Sun|p2a: Arcanine
+|-heal|p2a: Arcanine|100/100
+|move|p1a: Moltres|Roost|p1a: Moltres
+|-heal|p1a: Moltres|100/100
+|-singleturn|p1a: Moltres|move: Roost
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743812527
+|move|p2a: Arcanine|Roar|p1a: Moltres
+|drag|p1a: Hoopa|Hoopa-Unbound|100/100
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743812537
+|switch|p2a: Torkoal|Torkoal, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Hoopa|Knock Off|p2a: Torkoal
+|-damage|p2a: Torkoal|73/100
+|-enditem|p2a: Torkoal|Heat Rock|[from] move: Knock Off|[of] p1a: Hoopa
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1743812541
+|switch|p2a: Rillaboom|Rillaboom, F|22/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Hoopa|Psychic Noise|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743812554
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|11
+|
+|t:|1743812568
+|-terastallize|p1a: Hoopa|Poison
+|move|p2a: Iron Valiant|Close Combat|p1a: Hoopa
+|-resisted|p1a: Hoopa
+|-damage|p1a: Hoopa|69/100
+|-unboost|p2a: Iron Valiant|def|1
+|-unboost|p2a: Iron Valiant|spd|1
+|move|p1a: Hoopa|Psychic Noise|p2a: Iron Valiant
+|-supereffective|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Hoopa|75/100|[from] Grassy Terrain
+|upkeep
+|-message|Baby Monster MAGA forfeited.
+|
+|win|Lucario Cardio
+|raw|Lucario Cardio's rating: 1421 &rarr; <strong>1440</strong><br />(+19 for winning)
+|raw|Baby Monster MAGA's rating: 1407 &rarr; <strong>1388</strong><br />(-19 for losing)
+|l|☆Baby Monster MAGA
+|player|p2|
+|l|☆Lucario Cardio
+|player|p1|

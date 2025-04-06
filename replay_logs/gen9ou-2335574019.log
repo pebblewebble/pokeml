@@ -1,0 +1,330 @@
+|j|☆TheTyranitard
+|j|‽4thjim
+|t:|1743807856
+|gametype|singles
+|player|p1|TheTyranitard|hiker-gen4|1579
+|player|p2|4thjim|flint|1636
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Ninetales, M|
+|poke|p1|Walking Wake|
+|poke|p1|Ceruledge, M|
+|poke|p1|Whimsicott, F|
+|poke|p1|Great Tusk|
+|poke|p1|Hatterene, F|
+|poke|p2|Toxtricity, F|
+|poke|p2|Glimmora, M|
+|poke|p2|Gholdengo|
+|poke|p2|Kingambit, M|
+|poke|p2|Iron Valiant|
+|poke|p2|Gliscor, F|
+|teampreview
+|
+|t:|1743807870
+|start
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|switch|p2a: Glimmora|Glimmora, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1743807879
+|switch|p1a: Hatterene|Hatterene, F|100/100
+|move|p2a: Glimmora|Stealth Rock|p1a: Hatterene
+|move|p1a: Hatterene|Stealth Rock|p2a: Glimmora|[from] ability: Magic Bounce
+|-sidestart|p2: 4thjim|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1743807886
+|move|p2a: Glimmora|Mortal Spin|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|90/100
+|-status|p1a: Hatterene|psn
+|-sideend|p2: 4thjim|Stealth Rock|[from] move: Mortal Spin|[of] p2a: Glimmora
+|-enditem|p1a: Hatterene|Eject Button
+|
+|t:|1743807893
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1743807897
+|move|p1a: Walking Wake|Hydro Steam|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-enditem|p2a: Glimmora|Focus Sash
+|-damage|p2a: Glimmora|1/100
+|move|p2a: Glimmora|Stealth Rock|p1a: Walking Wake
+|-sidestart|p1: TheTyranitard|move: Stealth Rock
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|j| Le Bouquetin
+|
+|t:|1743807908
+|move|p1a: Walking Wake|Hydro Steam|p2a: Glimmora
+|-supereffective|p2a: Glimmora
+|-damage|p2a: Glimmora|0 fnt
+|faint|p2a: Glimmora
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743807912
+|switch|p2a: Iron Valiant|Iron Valiant|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|5
+|l| Le Bouquetin
+|
+|t:|1743807917
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Ceruledge|Ceruledge, M|100/100
+|-damage|p1a: Ceruledge|76/100|[from] Stealth Rock
+|move|p2a: Iron Valiant|Moonblast|p1a: Ceruledge
+|-resisted|p1a: Ceruledge
+|-damage|p1a: Ceruledge|62/100
+|-unboost|p1a: Ceruledge|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1743807921
+|move|p2a: Iron Valiant|Knock Off|p1a: Ceruledge
+|-supereffective|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|-enditem|p1a: Ceruledge|Assault Vest|[from] move: Knock Off|[of] p2a: Iron Valiant
+|faint|p1a: Ceruledge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743807930
+|switch|p1a: Whimsicott|Whimsicott, F|100/100
+|-damage|p1a: Whimsicott|88/100|[from] Stealth Rock
+|turn|7
+|
+|t:|1743807939
+|move|p1a: Whimsicott|Growth|p1a: Whimsicott
+|-boost|p1a: Whimsicott|atk|2
+|-boost|p1a: Whimsicott|spa|2
+|move|p2a: Iron Valiant|Moonblast|p1a: Whimsicott
+|-damage|p1a: Whimsicott|37/100
+|-unboost|p1a: Whimsicott|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1743807947
+|move|p1a: Whimsicott|Giga Drain|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|0 fnt
+|-heal|p1a: Whimsicott|84/100|[from] drain|[of] p2a: Iron Valiant
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|-damage|p1a: Whimsicott|74/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1743807958
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|9
+|
+|t:|1743807963
+|move|p1a: Whimsicott|Shadow Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|19/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|-damage|p1a: Whimsicott|64/100|[from] item: Life Orb
+|move|p2a: Gholdengo|Make It Rain|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Whimsicott
+|
+|upkeep
+|
+|t:|1743807986
+|switch|p1a: Ninetales|Ninetales, M|100/100
+|-damage|p1a: Ninetales|76/100|[from] Stealth Rock
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|turn|10
+|
+|t:|1743807989
+|switch|p1a: Walking Wake|Walking Wake|100/100
+|-damage|p1a: Walking Wake|88/100|[from] Stealth Rock
+|-activate|p1a: Walking Wake|ability: Protosynthesis
+|-start|p1a: Walking Wake|protosynthesisspa
+|move|p2a: Gholdengo|Shadow Ball|p1a: Walking Wake
+|-damage|p1a: Walking Wake|59/100
+|-unboost|p1a: Walking Wake|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1743807994
+|move|p1a: Walking Wake|Hydro Steam|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1743808001
+|switch|p2a: Gliscor|Gliscor, F|100/100
+|turn|12
+|
+|t:|1743808010
+|-terastallize|p2a: Gliscor|Water
+|move|p1a: Walking Wake|Hydro Steam|p2a: Gliscor
+|-resisted|p2a: Gliscor
+|-damage|p2a: Gliscor|27/100
+|move|p2a: Gliscor|Toxic|p1a: Walking Wake
+|-status|p1a: Walking Wake|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Walking Wake|53/100 tox|[from] psn
+|-status|p2a: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|13
+|
+|t:|1743808024
+|-end|p1a: Walking Wake|Protosynthesis|[silent]
+|switch|p1a: Hatterene|Hatterene, F|90/100 psn
+|-damage|p1a: Hatterene|78/100 psn|[from] Stealth Rock
+|move|p2a: Gliscor|Protect||[still]
+|-fail|p2a: Gliscor
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|40/100 tox|[from] ability: Poison Heal
+|-damage|p1a: Hatterene|66/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1743808032
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Hatterene|Healing Wish|p1a: Hatterene
+|faint|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gliscor|52/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1743808036
+|switch|p1a: Great Tusk|Great Tusk|100/100
+|-damage|p1a: Great Tusk|98/100|[from] Stealth Rock
+|-activate|p1a: Great Tusk|ability: Protosynthesis
+|-start|p1a: Great Tusk|protosynthesisatk
+|turn|15
+|
+|t:|1743808042
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|move|p2a: Gliscor|Toxic|p1a: Great Tusk
+|-status|p1a: Great Tusk|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Great Tusk|91/100 tox|[from] psn
+|-heal|p2a: Gliscor|65/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|16
+|
+|t:|1743808051
+|move|p2a: Gliscor|Protect|p2a: Gliscor
+|-singleturn|p2a: Gliscor|Protect
+|move|p1a: Great Tusk|Bulk Up|p1a: Great Tusk
+|-boost|p1a: Great Tusk|atk|1
+|-boost|p1a: Great Tusk|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Great Tusk|79/100 tox|[from] psn
+|-heal|p2a: Gliscor|77/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|17
+|
+|t:|1743808054
+|move|p1a: Great Tusk|Headlong Rush|p2a: Gliscor
+|-damage|p2a: Gliscor|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Gliscor
+|
+|-weather|none
+|-end|p1a: Great Tusk|Protosynthesis
+|-damage|p1a: Great Tusk|60/100 tox|[from] psn
+|upkeep
+|
+|t:|1743808086
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen4|[silent]
+|turn|18
+|
+|t:|1743808092
+|-end|p2a: Kingambit|fallen4|[silent]
+|switch|p2a: Toxtricity|Toxtricity, F|100/100
+|move|p1a: Great Tusk|Headlong Rush|p2a: Toxtricity
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|-unboost|p1a: Great Tusk|def|1
+|-unboost|p1a: Great Tusk|spd|1
+|faint|p2a: Toxtricity
+|
+|-damage|p1a: Great Tusk|36/100 tox|[from] psn
+|upkeep
+|
+|t:|1743808095
+|switch|p2a: Kingambit|Kingambit, M|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen5|[silent]
+|turn|19
+|
+|t:|1743808100
+|-end|p1a: Great Tusk|Protosynthesis|[silent]
+|switch|p1a: Walking Wake|Walking Wake|53/100 tox
+|-heal|p1a: Walking Wake|100/100|[from] move: Healing Wish
+|-damage|p1a: Walking Wake|88/100|[from] Stealth Rock
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|
+|upkeep
+|turn|20
+|
+|t:|1743808105
+|move|p1a: Walking Wake|Flamethrower|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen5|[silent]
+|
+|win|TheTyranitard
+|raw|TheTyranitard's rating: 1579 &rarr; <strong>1602</strong><br />(+23 for winning)
+|raw|4thjim's rating: 1636 &rarr; <strong>1613</strong><br />(-23 for losing)
+|l|‽4thjim
+|player|p2|
+|l|☆TheTyranitard
+|player|p1|

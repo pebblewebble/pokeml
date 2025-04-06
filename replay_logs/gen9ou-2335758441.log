@@ -1,0 +1,415 @@
+|j|☆Meeses Gangeeses
+|j|☆YoTeH
+|t:|1743831335
+|gametype|singles
+|player|p1|Meeses Gangeeses|skierf|1645
+|player|p2|YoTeH|marnie|1758
+|teamsize|p1|6
+|teamsize|p2|6
+|gen|9
+|tier|[Gen 9] OU
+|rated|
+|rule|HP Percentage Mod: HP is shown in percentages
+|rule|Endless Battle Clause: Forcing endless battles is banned
+|rule|Species Clause: Limit one of each Pokémon
+|rule|OHKO Clause: OHKO moves are banned
+|rule|Evasion Items Clause: Evasion items are banned
+|rule|Evasion Moves Clause: Evasion moves are banned
+|rule|Sleep Moves Clause: Sleep-inducing moves are banned
+|clearpoke
+|poke|p1|Dragapult, M|
+|poke|p1|Ting-Lu|
+|poke|p1|Kingambit, M|
+|poke|p1|Enamorus, F|
+|poke|p1|Slowking-Galar, M|
+|poke|p1|Ogerpon-Wellspring, F|
+|poke|p2|Raging Bolt|
+|poke|p2|Kyurem|
+|poke|p2|Gholdengo|
+|poke|p2|Iron Valiant|
+|poke|p2|Tinkaton, F|
+|poke|p2|Great Tusk|
+|teampreview
+|
+|t:|1743831343
+|start
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|100/100
+|switch|p2a: Iron Valiant|Iron Valiant, shiny|100/100
+|-enditem|p2a: Iron Valiant|Booster Energy
+|-activate|p2a: Iron Valiant|ability: Quark Drive|[fromitem]
+|-start|p2a: Iron Valiant|quarkdrivespe
+|turn|1
+|
+|t:|1743831350
+|move|p2a: Iron Valiant|Destiny Bond|p2a: Iron Valiant
+|-singlemove|p2a: Iron Valiant|Destiny Bond
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Iron Valiant|[anim] Ivy Cudgel Water
+|-damage|p2a: Iron Valiant|27/100
+|
+|upkeep
+|turn|2
+|
+|t:|1743831353
+|move|p2a: Iron Valiant|Moonblast|p1a: Ogerpon
+|-damage|p1a: Ogerpon|48/100
+|move|p1a: Ogerpon|U-turn|p2a: Iron Valiant
+|-resisted|p2a: Iron Valiant
+|-damage|p2a: Iron Valiant|17/100
+|
+|t:|1743831361
+|switch|p1a: Slowking|Slowking-Galar, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|3
+|
+|t:|1743831366
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|68/100
+|move|p1a: Slowking|Toxic|p2a: Iron Valiant
+|-status|p2a: Iron Valiant|tox
+|
+|-damage|p2a: Iron Valiant|11/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1743831370
+|move|p2a: Iron Valiant|Shadow Ball|p1a: Slowking
+|-supereffective|p1a: Slowking
+|-damage|p1a: Slowking|38/100
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1743831374
+|switch|p1a: Dragapult|Dragapult, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Iron Valiant|0 fnt|[from] psn
+|faint|p2a: Iron Valiant
+|-end|p2a: Iron Valiant|Quark Drive|[silent]
+|upkeep
+|
+|t:|1743831376
+|switch|p2a: Tinkaton|Tinkaton, F, shiny|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|-item|p2a: Tinkaton|Air Balloon
+|turn|5
+|
+|t:|1743831381
+|move|p1a: Dragapult|Will-O-Wisp|p2a: Tinkaton
+|-status|p2a: Tinkaton|brn
+|move|p2a: Tinkaton|Stealth Rock|p1a: Dragapult
+|-sidestart|p1: Meeses Gangeeses|move: Stealth Rock
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Tinkaton|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1743831392
+|move|p1a: Dragapult|Hex|p2a: Tinkaton
+|-damage|p2a: Tinkaton|59/100 brn
+|-enditem|p2a: Tinkaton|Air Balloon
+|move|p2a: Tinkaton|Thunder Wave|p1a: Dragapult
+|-status|p1a: Dragapult|par
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2a: Tinkaton|53/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1743831398
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Dragapult
+|-damage|p1a: Dragapult|78/100 par
+|move|p1a: Dragapult|U-turn|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|47/100 brn
+|
+|t:|1743831403
+|switch|p1a: Ting-Lu|Ting-Lu|100/100|[from] U-turn
+|-damage|p1a: Ting-Lu|94/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Ting-Lu|100/100|[from] item: Leftovers
+|-damage|p2a: Tinkaton|41/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1743831407
+|switch|p2a: Kyurem|Kyurem, shiny|100/100
+|-ability|p2a: Kyurem|Pressure
+|move|p1a: Ting-Lu|Stealth Rock|p2a: Kyurem
+|-sidestart|p2: YoTeH|move: Stealth Rock
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1743831414
+|move|p2a: Kyurem|Icicle Spear|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|87/100
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|74/100
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|62/100
+|-supereffective|p1a: Ting-Lu
+|-crit|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|43/100
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|30/100
+|-hitcount|p1a: Ting-Lu|5
+|move|p1a: Ting-Lu|Whirlwind|p2a: Kyurem
+|drag|p2a: Great Tusk|Great Tusk, shiny|100/100
+|-damage|p2a: Great Tusk|98/100|[from] Stealth Rock
+|-enditem|p2a: Great Tusk|Booster Energy
+|-activate|p2a: Great Tusk|ability: Protosynthesis|[fromitem]
+|-start|p2a: Great Tusk|protosynthesisatk
+|
+|-heal|p1a: Ting-Lu|36/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1743831423
+|switch|p1a: Dragapult|Dragapult, M|78/100 par
+|move|p2a: Great Tusk|Rapid Spin|p1a: Dragapult
+|-immune|p1a: Dragapult
+|
+|upkeep
+|turn|11
+|
+|t:|1743831430
+|move|p2a: Great Tusk|Ice Spinner|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1743831433
+|switch|p1a: Ogerpon|Ogerpon-Wellspring, F|48/100
+|-damage|p1a: Ogerpon|35/100|[from] Stealth Rock
+|turn|12
+|
+|t:|1743831436
+|move|p1a: Ogerpon|Ivy Cudgel|p2a: Great Tusk|[anim] Ivy Cudgel Water
+|-supereffective|p2a: Great Tusk
+|-damage|p2a: Great Tusk|6/100
+|move|p2a: Great Tusk|Rapid Spin|p1a: Ogerpon
+|-damage|p1a: Ogerpon|6/100
+|-boost|p2a: Great Tusk|spe|1
+|-sideend|p2: YoTeH|Stealth Rock|[from] move: Rapid Spin|[of] p2a: Great Tusk
+|
+|upkeep
+|turn|13
+|
+|t:|1743831439
+|move|p2a: Great Tusk|Ice Spinner|p1a: Ogerpon
+|-damage|p1a: Ogerpon|0 fnt
+|faint|p1a: Ogerpon
+|
+|upkeep
+|
+|t:|1743831442
+|switch|p1a: Enamorus|Enamorus, F|100/100
+|-damage|p1a: Enamorus|76/100|[from] Stealth Rock
+|turn|14
+|
+|t:|1743831446
+|move|p1a: Enamorus|Earth Power|p2a: Great Tusk
+|-damage|p2a: Great Tusk|0 fnt
+|faint|p2a: Great Tusk
+|-end|p2a: Great Tusk|Protosynthesis|[silent]
+|
+|upkeep
+|
+|t:|1743831451
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|turn|15
+|
+|t:|1743831456
+|switch|p1a: Slowking|Slowking-Galar, M|71/100
+|switch|p2a: Kyurem|Kyurem, shiny|100/100
+|-ability|p2a: Kyurem|Pressure
+|
+|upkeep
+|turn|16
+|
+|t:|1743831458
+|move|p2a: Kyurem|Scale Shot|p1a: Slowking
+|-damage|p1a: Slowking|59/100
+|-damage|p1a: Slowking|45/100
+|-crit|p1a: Slowking
+|-damage|p1a: Slowking|25/100
+|-damage|p1a: Slowking|11/100
+|-damage|p1a: Slowking|0 fnt
+|faint|p1a: Slowking
+|-hitcount|p1: Slowking|5
+|-unboost|p2a: Kyurem|def|1
+|-boost|p2a: Kyurem|spe|1
+|
+|upkeep
+|
+|t:|1743831464
+|switch|p1a: Enamorus|Enamorus, F|76/100
+|-damage|p1a: Enamorus|51/100|[from] Stealth Rock
+|turn|17
+|
+|t:|1743831468
+|switch|p2a: Tinkaton|Tinkaton, F, shiny|41/100 brn
+|-ability|p2a: Tinkaton|Mold Breaker
+|move|p1a: Enamorus|Moonblast|p2a: Tinkaton
+|-resisted|p2a: Tinkaton
+|-damage|p2a: Tinkaton|19/100 brn
+|
+|-damage|p2a: Tinkaton|13/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1743831475
+|switch|p2a: Gholdengo|Gholdengo|100/100
+|-item|p2a: Gholdengo|Air Balloon
+|move|p1a: Enamorus|Moonblast|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|76/100
+|-enditem|p2a: Gholdengo|Air Balloon
+|
+|upkeep
+|turn|19
+|
+|t:|1743831481
+|switch|p1a: Kingambit|Kingambit, M|100/100
+|-damage|p1a: Kingambit|94/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen3|[silent]
+|move|p2a: Gholdengo|Make It Rain|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|66/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|-heal|p1a: Kingambit|72/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1743831491
+|move|p2a: Gholdengo|Thunder Wave|p1a: Kingambit
+|-status|p1a: Kingambit|par
+|move|p1a: Kingambit|Iron Head|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|55/100
+|
+|-heal|p1a: Kingambit|78/100 par|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1743831497
+|switch|p2a: Raging Bolt|Raging Bolt|100/100
+|-enditem|p2a: Raging Bolt|Booster Energy
+|-activate|p2a: Raging Bolt|ability: Protosynthesis|[fromitem]
+|-start|p2a: Raging Bolt|protosynthesisspa
+|cant|p1a: Kingambit|par
+|
+|-heal|p1a: Kingambit|85/100 par|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1743831502
+|-terastallize|p1a: Kingambit|Fairy
+|move|p2a: Raging Bolt|Dragon Pulse|p1a: Kingambit
+|-immune|p1a: Kingambit
+|cant|p1a: Kingambit|par
+|
+|-heal|p1a: Kingambit|91/100 par|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1743831507
+|move|p2a: Raging Bolt|Thunderbolt|p1a: Kingambit
+|-damage|p1a: Kingambit|15/100 par
+|move|p1a: Kingambit|Tera Blast|p2a: Raging Bolt|[anim] Tera Blast Fairy
+|-supereffective|p2a: Raging Bolt
+|-damage|p2a: Raging Bolt|0 fnt
+|faint|p2a: Raging Bolt
+|-end|p2a: Raging Bolt|Protosynthesis|[silent]
+|
+|-heal|p1a: Kingambit|22/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1743831518
+|switch|p2a: Kyurem|Kyurem, shiny|100/100
+|-ability|p2a: Kyurem|Pressure
+|turn|24
+|
+|t:|1743831524
+|-end|p1a: Kingambit|fallen3|[silent]
+|switch|p1a: Ting-Lu|Ting-Lu|36/100
+|-damage|p1a: Ting-Lu|30/100|[from] Stealth Rock
+|-ability|p1a: Ting-Lu|Vessel of Ruin
+|move|p2a: Kyurem|Icicle Spear|p1a: Ting-Lu
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|18/100
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|5/100
+|-supereffective|p1a: Ting-Lu
+|-damage|p1a: Ting-Lu|0 fnt
+|faint|p1a: Ting-Lu
+|-hitcount|p1: Ting-Lu|3
+|
+|upkeep
+|
+|t:|1743831527
+|switch|p1a: Enamorus|Enamorus, F|51/100
+|-damage|p1a: Enamorus|26/100|[from] Stealth Rock
+|turn|25
+|
+|t:|1743831531
+|switch|p2a: Tinkaton|Tinkaton, F, shiny|13/100 brn
+|-ability|p2a: Tinkaton|Mold Breaker
+|move|p1a: Enamorus|Healing Wish|p1a: Enamorus
+|faint|p1a: Enamorus
+|
+|-damage|p2a: Tinkaton|7/100 brn|[from] brn
+|upkeep
+|
+|t:|1743831533
+|switch|p1a: Kingambit|Kingambit, M, tera:Fairy|22/100 par
+|-heal|p1a: Kingambit|100/100|[from] move: Healing Wish
+|-damage|p1a: Kingambit|88/100|[from] Stealth Rock
+|-activate|p1a: Kingambit|ability: Supreme Overlord
+|-start|p1a: Kingambit|fallen5|[silent]
+|turn|26
+|
+|t:|1743831539
+|move|p2a: Tinkaton|Thunder Wave|p1a: Kingambit
+|-status|p1a: Kingambit|par
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p1a: Kingambit|94/100 par|[from] item: Leftovers
+|-damage|p2a: Tinkaton|1/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1743831545
+|cant|p1a: Kingambit|par
+|move|p2a: Tinkaton|Encore|p1a: Kingambit
+|-start|p1a: Kingambit|Encore
+|
+|-heal|p1a: Kingambit|100/100 par|[from] item: Leftovers
+|-damage|p2a: Tinkaton|0 fnt|[from] brn
+|faint|p2a: Tinkaton
+|upkeep
+|
+|t:|1743831547
+|switch|p2a: Gholdengo|Gholdengo|55/100
+|turn|28
+|-message|Meeses Gangeeses forfeited.
+|
+|win|YoTeH
+|raw|Meeses Gangeeses's rating: 1645 &rarr; <strong>1631</strong><br />(-14 for losing)
+|raw|YoTeH's rating: 1758 &rarr; <strong>1772</strong><br />(+14 for winning)
+|l|☆YoTeH
+|player|p2|
