@@ -339,7 +339,7 @@ def train_lgbm_action_predictor(X_train, X_val, X_test,
 
 
 # --- MODIFIED Main execution function ---
-def run_action_training(parquet_path, model_type='tensorflow', feature_set='full', # <-- Existing argument
+def run_action_training(parquet_path, model_type='tensorflow', feature_set='full',
                         min_turn=0, test_split_size=0.2, val_split_size=0.15,
                         epochs=30, batch_size=256, learning_rate=0.001):
     """Loads data, splits, preprocesses based on feature_set, and trains action predictor."""
@@ -358,15 +358,18 @@ def run_action_training(parquet_path, model_type='tensorflow', feature_set='full
     print("\nFiltering data...")
     original_rows = len(df)
     df = df.dropna(subset=['action_taken']) # Essential target
-    # Filter based on player *before* potentially removing player_to_move column
-    if feature_set in ['simplified', 'medium']:
-        print(f"Filtering for player_to_move == 'p1' (for {feature_set} set)...")
-        df = df[df['player_to_move'] == 'p1'].copy()
-        print(f"Rows after filtering for p1's move: {len(df)} (Removed {original_rows - len(df)} initially, plus non-p1 moves)")
-        if df.empty: print(f"Error: No data found for player p1's moves (feature_set={feature_set})."); return
-    else: # full set uses player_to_move as a feature potentially
-        print("Keeping data for both players ('full' feature set).")
+    print(f"Rows after removing missing 'action_taken': {len(df)} (Removed {original_rows - len(df)})")
 
+    # --- APPLY P1 FILTER UNCONDITIONALLY ---
+    # Apply the rule derived from the 'simple' approach to all sets if predicting P1's action
+    print("Filtering for player_to_move == 'p1' (Applied to all feature sets)...")
+    initial_rows_player_filter = len(df)
+    df = df[df['player_to_move'] == 'p1'].copy()
+    rows_after_p1_filter = len(df)
+    print(f"Rows after filtering for p1's move: {rows_after_p1_filter} (Removed {initial_rows_player_filter - rows_after_p1_filter})")
+    if df.empty:
+        print("Error: No data found for player p1's moves after initial filtering."); return
+    # ---------------------------------------
 
     # Filter based on turn number
     if min_turn > 0:
@@ -376,117 +379,83 @@ def run_action_training(parquet_path, model_type='tensorflow', feature_set='full
         if df.empty: print("Error: No data remaining after turn filtering."); return
 
     # --- Conditional Feature Selection and Target Prep ---
+    # Target is now always P1's action_taken from the filtered df
+    y_raw = df['action_taken'].copy()
     X = None
-    y_raw = df['action_taken'].copy() # Target is always action_taken from the (potentially filtered) df
     numerical_features = []
     categorical_features = []
     selected_columns = []
-    label_encoder_suffix = feature_set # For unique filenames
-
+    label_encoder_suffix = feature_set
 
     if feature_set == 'simplified':
-        print("\n--- Using SIMPLIFIED feature set (active species only) ---")
+        print("\n--- Using SIMPLIFIED feature set (Filtered for P1 moves) ---")
+        # (Keep the existing simplified logic, it uses the already filtered df)
         print("Extracting active species for P1 and P2...")
-        # Apply needs the full row context temporarily
         p1_active_series = df.apply(lambda row: find_active_species(row, 'p1'), axis=1)
         p2_active_series = df.apply(lambda row: find_active_species(row, 'p2'), axis=1)
 
         X = pd.DataFrame({
             'p1_active_species': p1_active_series,
             'p2_active_species': p2_active_series
-        }, index=df.index) # Ensure index alignment
+        }, index=df.index)
         print(f"Simplified X shape: {X.shape}")
 
         selected_columns = ['p1_active_species', 'p2_active_species']
         numerical_features = []
         categorical_features = selected_columns
 
-
     elif feature_set == 'medium':
-        print("\n--- Using MEDIUM feature set ---")
-        selected_columns = []
-
-        # 1. Find active slots first (needed for selecting correct columns)
-        # We do this row-by-row extraction later, just identifying column *patterns* here
+        print("\n--- Using MEDIUM feature set (Filtered for P1 moves) ---")
+        # (Keep the existing medium logic, it uses the already filtered df)
+        # ... (Column identification logic as before) ...
         active_p1_col_patterns = []
         active_p2_col_patterns = []
-        print("Identifying column patterns for active Pokemon...")
-        # Assume we need species, hp_perc, status, all boosts, terastallized, tera_type
         base_active_features = ['species', 'hp_perc', 'status', 'boost_atk', 'boost_def', 'boost_spa', 'boost_spd', 'boost_spe', 'terastallized', 'tera_type']
         for feat in base_active_features:
-            active_p1_col_patterns.append(f'p1_slotX_{feat}') # Placeholder X
+            active_p1_col_patterns.append(f'p1_slotX_{feat}')
             active_p2_col_patterns.append(f'p2_slotX_{feat}')
-
-        # 2. Bench State (all slots HP/Status)
         bench_cols = []
-        print("Identifying column patterns for bench Pokemon...")
         for i in range(1, 7):
             for player in ['p1', 'p2']:
                  bench_cols.append(f'{player}_slot{i}_hp_perc')
                  bench_cols.append(f'{player}_slot{i}_status')
-        selected_columns.extend(bench_cols)
-
-        # 3. Field State
         field_cols = ['field_weather', 'field_terrain', 'field_pseudo_weather']
-        selected_columns.extend(field_cols)
-
-        # 4. Hazards
         hazard_cols = []
         hazard_types = ['stealth_rock', 'spikes', 'toxic_spikes', 'sticky_web']
         for player in ['p1', 'p2']:
              for hazard in hazard_types:
-                  hazard_key = hazard.replace(" ", "_") # Already done in parser? Check parser output
-                  # Construct the column name exactly as it appears in the DataFrame
-                  # Example: 'p1_hazard_stealth_rock'
-                  col_name = f'{player}_hazard_{hazard_key}'
+                  col_name = f'{player}_hazard_{hazard.lower().replace(" ", "_")}'
                   hazard_cols.append(col_name)
-        selected_columns.extend(hazard_cols)
-
-
-        # 5. Screens / Tailwind
         side_cond_cols = []
-        side_cond_types = ['reflect', 'light_screen', 'aurora_veil', 'tailwind'] # Add others if parsed
+        side_cond_types = ['reflect', 'light_screen', 'aurora_veil', 'tailwind']
         for player in ['p1', 'p2']:
             for cond in side_cond_types:
                  col_name = f'{player}_side_{cond.lower().replace(" ", "_")}'
                  side_cond_cols.append(col_name)
-        selected_columns.extend(side_cond_cols)
-
-        # 6. Context / Turn
         context_cols = ['last_move_p1', 'last_move_p2', 'turn_number']
-        selected_columns.extend(context_cols)
+        selected_columns = bench_cols + field_cols + hazard_cols + side_cond_cols + context_cols
 
-        # --- Create the 'medium' X DataFrame ---
         print(f"Selecting {len(selected_columns)} base columns + extracting active Pokemon info...")
-        # Select the columns that are consistent across rows first
         valid_selected_columns = [col for col in selected_columns if col in df.columns]
-        print(f"  Found {len(valid_selected_columns)} direct columns in DataFrame.")
         missing_base_cols = set(selected_columns) - set(valid_selected_columns)
-        if missing_base_cols:
-             print(f"  Warning: Could not find the following expected base columns: {missing_base_cols}")
+        if missing_base_cols: print(f"  Warning: Could not find base columns: {missing_base_cols}")
 
         X_medium = df[valid_selected_columns].copy()
 
-        # Now, extract active Pokemon info row-by-row and add as new columns
         print("  Extracting active Pokemon details...")
         active_data = {}
         for i_row, (idx, row) in enumerate(df.iterrows()):
-            if i_row % 50000 == 0: print(f"    Processed {i_row} rows...") # Progress indicator
-            active_p1_slot = -1
-            active_p2_slot = -1
-            # Find active slots for this row
+            # (Row-by-row extraction logic as before)
+            active_p1_slot = -1; active_p2_slot = -1
             for i_slot in range(1, 7):
                 if row.get(f'p1_slot{i_slot}_is_active', 0) == 1: active_p1_slot = i_slot
                 if row.get(f'p2_slot{i_slot}_is_active', 0) == 1: active_p2_slot = i_slot
-
             row_active_data = {}
-            # Extract P1 active data
-            for feat in base_active_features:
+            for feat in base_active_features: # P1
                  col_name = f'p1_active_{feat}'
                  source_col = f'p1_slot{active_p1_slot}_{feat}' if active_p1_slot != -1 else None
-                 row_active_data[col_name] = row.get(source_col, None) if source_col else None # Get value or None
-            # Extract P2 active data
-            for feat in base_active_features:
+                 row_active_data[col_name] = row.get(source_col, None) if source_col else None
+            for feat in base_active_features: # P2
                  col_name = f'p2_active_{feat}'
                  source_col = f'p2_slot{active_p2_slot}_{feat}' if active_p2_slot != -1 else None
                  row_active_data[col_name] = row.get(source_col, None) if source_col else None
@@ -498,127 +467,94 @@ def run_action_training(parquet_path, model_type='tensorflow', feature_set='full
         X = pd.concat([X_medium, active_df], axis=1)
         print(f"Medium X shape: {X.shape}")
 
-        # Define feature types for the 'medium' set
+        # (Define numerical/categorical features for medium set as before)
         numerical_features = []
         categorical_features = []
-
-        # Active Pokemon Features
         for player in ['p1', 'p2']:
             categorical_features.extend([f'{player}_active_species', f'{player}_active_status', f'{player}_active_tera_type'])
-            numerical_features.extend([f'{player}_active_hp_perc',
-                                        f'{player}_active_boost_atk', f'{player}_active_boost_def',
-                                        f'{player}_active_boost_spa', f'{player}_active_boost_spd', f'{player}_active_boost_spe',
-                                        f'{player}_active_terastallized']) # Treat binary flags as numeric
-
-        # Bench State Features
+            numerical_features.extend([f'{player}_active_hp_perc', f'{player}_active_boost_atk', f'{player}_active_boost_def', f'{player}_active_boost_spa', f'{player}_active_boost_spd', f'{player}_active_boost_spe', f'{player}_active_terastallized'])
         for i in range(1, 7):
             for player in ['p1', 'p2']:
                  numerical_features.append(f'{player}_slot{i}_hp_perc')
                  categorical_features.append(f'{player}_slot{i}_status')
-
-        # Field State Features
         categorical_features.extend(field_cols)
-
-        # Hazards Features (Numerical counts/layers)
         numerical_features.extend(hazard_cols)
-
-        # Screens / Tailwind Features (Binary 0/1)
         numerical_features.extend(side_cond_cols)
-
-        # Context Features
         categorical_features.extend(['last_move_p1', 'last_move_p2'])
         numerical_features.append('turn_number')
-
-        # Ensure lists contain only columns actually present in X
         all_medium_cols = list(X.columns)
         numerical_features = sorted([f for f in numerical_features if f in all_medium_cols])
         categorical_features = sorted([f for f in categorical_features if f in all_medium_cols])
 
 
     elif feature_set == 'full':
-        # --- Keep the existing 'full' feature processing ---
-        print("\n--- Using FULL feature set ---")
-        # (Existing code for 'full' feature prep: exclude cols, revealed moves, etc.)
-        # ... (previous 'full' set code goes here) ...
-        print("\nPreparing features and target...")
-        # y_raw assigned earlier
-        base_exclude = ['replay_id', 'action_taken', 'battle_winner', 'player_to_move'] # Exclude player_to_move if not needed as feature
+        print("\n--- Using FULL feature set (Filtered for P1 moves) ---")
+        # Target y_raw is already set from the filtered df
+
+        # --- MODIFY EXCLUSION LIST ---
+        # Ensure player_to_move is excluded as it's now constant 'p1'
+        base_exclude = ['replay_id', 'action_taken', 'battle_winner', 'player_to_move']
+        # -----------------------------
         cols_to_exclude = base_exclude
         feature_columns = [col for col in df.columns if col not in cols_to_exclude]
         X = df[feature_columns].copy()
-        print(f"Initial feature count: {len(feature_columns)}")
+        print(f"Initial feature count for 'full' set: {len(feature_columns)}")
 
-        # --- Preprocessing: Revealed Moves Multi-Hot Encoding ---
+        # (Keep the revealed moves processing logic for the 'full' set)
         print("\nProcessing 'revealed_moves' features (Multi-Hot Encoding)...")
+        # ... (revealed moves logic as before) ...
         revealed_move_cols = sorted([col for col in X.columns if col.endswith('_revealed_moves')])
-        all_revealed_moves = set()
-
         if not revealed_move_cols:
-            print("Warning: No '*_revealed_moves' columns found in the data for 'full' feature set.")
+             print("Warning: No '*_revealed_moves' columns found in the data for 'full' feature set.")
         else:
-            print("  Finding unique revealed moves...")
-            for col in revealed_move_cols:
-                unique_in_col = X[col].fillna('').astype(str).str.split(',').explode().unique()
-                all_revealed_moves.update(m for m in unique_in_col if m and m != 'none' and m != 'error_state')
+             # (multi-hot encoding logic...)
+             all_revealed_moves = set()
+             print("  Finding unique revealed moves...")
+             for col in revealed_move_cols:
+                 unique_in_col = X[col].fillna('').astype(str).str.split(',').explode().unique()
+                 all_revealed_moves.update(m for m in unique_in_col if m and m != 'none' and m != 'error_state')
+             unique_moves_list = sorted(list(all_revealed_moves))
+             print(f"  Found {len(unique_moves_list)} unique revealed moves.")
+             new_binary_move_cols = []
+             print("  Creating and populating binary revealed move columns...")
+             for base_col in revealed_move_cols:
+                 X[base_col] = X[base_col].fillna('none')
+                 try:
+                     revealed_sets = X[base_col].str.split(',').apply(set)
+                     for move in unique_moves_list:
+                         new_col_name = f"{base_col}_{move.replace(' ', '_').replace('-', '_')}"
+                         X[new_col_name] = revealed_sets.apply(lambda move_set: 1 if move in move_set else 0)
+                         new_binary_move_cols.append(new_col_name)
+                     del revealed_sets
+                 except Exception as e:
+                     print(f"  Error processing revealed moves in column {base_col}: {e}")
+                 gc.collect()
+             print(f"  Created {len(new_binary_move_cols)} new binary move features.")
+             print("  Dropping original revealed_moves string columns...")
+             X = X.drop(columns=revealed_move_cols)
+             gc.collect()
 
-            unique_moves_list = sorted(list(all_revealed_moves))
-            print(f"  Found {len(unique_moves_list)} unique revealed moves across all slots.")
 
-            new_binary_move_cols = []
-            print("  Creating and populating binary revealed move columns...")
-            for base_col in revealed_move_cols:
-                X[base_col] = X[base_col].fillna('none')
-                try:
-                    revealed_sets = X[base_col].str.split(',').apply(set)
-                    for move in unique_moves_list:
-                        new_col_name = f"{base_col}_{move.replace(' ', '_').replace('-', '_')}" # Make valid name
-                        X[new_col_name] = revealed_sets.apply(lambda move_set: 1 if move in move_set else 0)
-                        new_binary_move_cols.append(new_col_name)
-                    del revealed_sets
-                except Exception as e:
-                    print(f"  Error processing revealed moves in column {base_col}: {e}")
-                gc.collect()
-
-            print(f"  Created {len(new_binary_move_cols)} new binary move features.")
-            print("  Dropping original revealed_moves string columns...")
-            X = X.drop(columns=revealed_move_cols)
-            gc.collect()
-
-        # --- Identify Final Feature Types and Handle NaNs ---
-        print("\nIdentifying final feature types and handling remaining NaNs for 'full' set...")
-        # No need to handle player_to_move if excluded
-        # if 'player_to_move' in X.columns: X['player_to_move'] = X['player_to_move'].fillna('unknown').astype('category')
+        # (Identify numerical/categorical features for 'full' set as before,
+        #  remembering player_to_move is already excluded)
+        print("\nIdentifying final feature types for 'full' set...")
         if 'last_move_p1' in X.columns: X['last_move_p1'] = X['last_move_p1'].fillna('none').astype('category')
         if 'last_move_p2' in X.columns: X['last_move_p2'] = X['last_move_p2'].fillna('none').astype('category')
-
         obj_cols = X.select_dtypes(include=['object']).columns.tolist()
         for col in obj_cols: X[col] = X[col].fillna('unknown').astype('category')
-
         categorical_features = sorted(list(set(X.select_dtypes(include=['category']).columns.tolist())))
         numerical_features = sorted(list(set(X.select_dtypes(include=np.number).columns.tolist())))
-
         overlap = set(numerical_features) & set(categorical_features)
         if overlap: numerical_features = [f for f in numerical_features if f not in overlap]
-        # (Keep NaN handling as before for 'full' set)
-        if numerical_features:
-             nan_counts = X[numerical_features].isnull().sum()
-             cols_with_nan = nan_counts[nan_counts > 0].index.tolist()
-             if cols_with_nan:
-                 print(f"  Numerical columns have NaNs: {cols_with_nan}. Filling with median.")
-                 for col in cols_with_nan: X[col] = X[col].fillna(X[col].median())
-        if X.isnull().sum().sum() > 0:
-            print("Warning: NaNs still present after handling. Forcing fill.")
-            for col in X.columns:
-                 if X[col].isnull().any():
-                      if pd.api.types.is_numeric_dtype(X[col]): X[col].fillna(0, inplace=True)
-                      else: X[col].fillna('unknown', inplace=True)
 
     else:
         print(f"Error: Invalid feature_set '{feature_set}'. Choose 'full', 'medium', or 'simplified'.")
         return
 
-    # --- Fill NaNs (Crucial before encoding/scaling) ---
+    # --- Fill NaNs (Common step after feature selection) ---
+    # (Keep existing NaN filling logic)
     print(f"\nHandling NaNs for '{feature_set}' set...")
+    # ... (NaN filling logic as before) ...
     nan_report_before = X.isnull().sum()
     cols_with_nan_before = nan_report_before[nan_report_before > 0]
     if not cols_with_nan_before.empty:
@@ -627,110 +563,71 @@ def run_action_training(parquet_path, model_type='tensorflow', feature_set='full
         for col in numerical_features:
             if X[col].isnull().any():
                  median_val = X[col].median()
-                 # Handle cases where median might be NaN (e.g., all NaNs in column)
                  fill_value = median_val if pd.notna(median_val) else 0
                  X[col].fillna(fill_value, inplace=True)
-                 # print(f"Filled NaNs in numerical '{col}' with {fill_value}") # Verbose
-
         # Fill categorical NaNs with 'Unknown' or 'none'
-        default_cat_fill = 'Unknown' # Or 'none' depending on context
+        default_cat_fill = 'Unknown'
         for col in categorical_features:
              if X[col].isnull().any():
-                  # If dtype is already category, add 'Unknown' if not present
                   if isinstance(X[col].dtype, pd.CategoricalDtype):
                       if default_cat_fill not in X[col].cat.categories:
-                           try:
-                               X[col] = X[col].cat.add_categories([default_cat_fill])
-                           except Exception as e:
-                               print(f"  Warning: Could not add category '{default_cat_fill}' to {col}. Coercing to string. Error: {e}")
-                               X[col] = X[col].astype(str) # Fallback to string if add fails
-                  # Fill NaN values
+                           try: X[col] = X[col].cat.add_categories([default_cat_fill])
+                           except Exception as e: X[col] = X[col].astype(str) # Fallback
                   X[col].fillna(default_cat_fill, inplace=True)
-                  # Ensure it's category type after filling
-                  if not isinstance(X[col].dtype, pd.CategoricalDtype):
-                       X[col] = X[col].astype('category')
-                  # print(f"Filled NaNs in categorical '{col}' with '{default_cat_fill}'") # Verbose
+                  if not isinstance(X[col].dtype, pd.CategoricalDtype): X[col] = X[col].astype('category')
         print("  NaN handling complete.")
-    else:
-        print("  No NaNs found before encoding/scaling.")
-
-    # Final Check
+    else: print("  No NaNs found before encoding/scaling.")
     nan_report_after = X.isnull().sum()
-    if nan_report_after.sum() > 0:
-        print("Error: NaNs still present AFTER handling. Columns:")
-        print(nan_report_after[nan_report_after > 0])
-        return
+    if nan_report_after.sum() > 0: print(f"Error: NaNs present AFTER handling: {nan_report_after[nan_report_after > 0]}"); return
 
-
-    # --- Common Steps from here ---
 
     print(f"\nFinal feature counts for '{feature_set}' set:")
     print(f"  Numerical: {len(numerical_features)}")
     print(f"  Categorical: {len(categorical_features)}")
     print(f"  Total Features in X: {X.shape[1]}")
 
-
     # --- Encode Target Variable (y) ---
     # (Keep existing target encoding logic)
-    print(f"\nEncoding target variable (action_taken for '{feature_set}' set)...")
+    print(f"\nEncoding target variable (action_taken for P1)...")
+    # ... (target encoding logic) ...
     label_encoder = LabelEncoder()
-    try:
-        y_encoded = label_encoder.fit_transform(y_raw)
-    except TypeError as e:
-        print(f"Error encoding target: {e}. Check 'action_taken' column content.")
-        return
+    try: y_encoded = label_encoder.fit_transform(y_raw)
+    except TypeError as e: print(f"Error encoding target: {e}."); return
     num_classes = len(label_encoder.classes_)
     print(f"Found {num_classes} unique actions in the target set.")
-    if num_classes < 2: print("Error: Need at least 2 unique actions for classification."); return
-
+    if num_classes < 2: print("Error: Need at least 2 unique actions."); return
     label_encoder_path = f'action_label_encoder_v4_{label_encoder_suffix}.joblib'
     joblib.dump(label_encoder, label_encoder_path)
     print(f"Label encoder saved to {label_encoder_path}")
     del y_raw; gc.collect()
 
-
     # --- Split Data ---
     # (Keep existing splitting logic)
     print("\nSplitting data into Train, Validation, Test sets...")
+    # ... (splitting logic) ...
     try:
-        X_train_full, X_test, y_train_full_encoded, y_test_encoded = train_test_split(
-            X, y_encoded, test_size=test_split_size, random_state=42, stratify=y_encoded
-        )
-        val_size_relative = val_split_size / (1 - test_split_size) if (1 - test_split_size) > 0 else 0
-        if val_size_relative <= 0 or val_size_relative >= 1:
-             print(f"Warning: Invalid relative validation size ({val_size_relative}). Using 0.1 default.")
-             val_size_relative = 0.1
-        X_train, X_val, y_train_encoded, y_val_encoded = train_test_split(
-            X_train_full, y_train_full_encoded, test_size=val_size_relative, random_state=42, stratify=y_train_full_encoded
-        )
+        X_train_full, X_test, y_train_full_encoded, y_test_encoded = train_test_split(X, y_encoded, test_size=test_split_size, random_state=42, stratify=y_encoded)
+        val_size_relative = val_split_size / (1 - test_split_size) if (1 - test_split_size) > 0 else 0.1
+        if val_size_relative <= 0 or val_size_relative >= 1: val_size_relative = 0.1
+        X_train, X_val, y_train_encoded, y_val_encoded = train_test_split(X_train_full, y_train_full_encoded, test_size=val_size_relative, random_state=42, stratify=y_train_full_encoded)
         print("Successfully split data WITH stratification.")
     except ValueError as e:
         print(f"Warning: Stratification failed ({e}). Splitting data WITHOUT stratification.")
-        X_train_full, X_test, y_train_full_encoded, y_test_encoded = train_test_split(
-            X, y_encoded, test_size=test_split_size, random_state=42
-        )
-        val_size_relative = val_split_size / (1 - test_split_size) if (1 - test_split_size) > 0 else 0
-        if val_size_relative <= 0 or val_size_relative >= 1:
-             print(f"Warning: Invalid relative validation size ({val_size_relative}). Using 0.1 default.")
-             val_size_relative = 0.1
-        X_train, X_val, y_train_encoded, y_val_encoded = train_test_split(
-            X_train_full, y_train_full_encoded, test_size=val_size_relative, random_state=42
-        )
+        X_train_full, X_test, y_train_full_encoded, y_test_encoded = train_test_split(X, y_encoded, test_size=test_split_size, random_state=42)
+        val_size_relative = val_split_size / (1 - test_split_size) if (1 - test_split_size) > 0 else 0.1
+        if val_size_relative <= 0 or val_size_relative >= 1: val_size_relative = 0.1
+        X_train, X_val, y_train_encoded, y_val_encoded = train_test_split(X_train_full, y_train_full_encoded, test_size=val_size_relative, random_state=42)
     print(f"Train shape: {X_train.shape}, Val shape: {X_val.shape}, Test shape: {X_test.shape}")
     del X, df, X_train_full, y_train_full_encoded; gc.collect()
 
 
     # --- Calculate Class Weights ---
     # (Keep existing class weight logic)
-    print("\nCalculating class weights for handling imbalance...")
-    # Ensure y_train_encoded is not empty
-    if len(y_train_encoded) == 0:
-        print("Error: y_train_encoded is empty, cannot calculate class weights.")
-        return
+    print("\nCalculating class weights...")
+    # ... (class weight logic) ...
+    if len(y_train_encoded) == 0: print("Error: y_train_encoded is empty."); return
     unique_classes, class_counts = np.unique(y_train_encoded, return_counts=True)
-    if len(unique_classes) < 2:
-         print("Warning: Fewer than 2 classes in training data after split. Class weights might not be meaningful.")
-         class_weight_dict = {cls: 1.0 for cls in unique_classes}
+    if len(unique_classes) < 2: class_weight_dict = {cls: 1.0 for cls in unique_classes}
     else:
         try:
              class_weights = compute_class_weight('balanced', classes=unique_classes, y=y_train_encoded)
@@ -740,77 +637,44 @@ def run_action_training(parquet_path, model_type='tensorflow', feature_set='full
              print(f"Error calculating class weights: {e}. Using uniform weights.")
              class_weight_dict = {cls: 1.0 for cls in unique_classes}
 
+
     # --- Preprocess X data based on model type ---
-    # (Keep existing preprocessing setup, it uses the numerical/categorical lists defined earlier)
+    # (Keep existing preprocessing setup)
     X_train_processed, X_val_processed, X_test_processed = None, None, None
-    preprocessor = None
+    # ... (feature list saving, TF/LGBM preprocessing decision logic) ...
     feature_lists_path = f'action_feature_lists_v4_{label_encoder_suffix}.joblib'
     preprocessor_path = f'action_tf_preprocessor_v4_{label_encoder_suffix}.joblib'
-
     try:
-         joblib.dump({
-             'feature_columns_final': X_train.columns.tolist(), # Use actual columns from X_train
-             'numerical_features': numerical_features,
-             'categorical_features': categorical_features
-             }, feature_lists_path)
+         joblib.dump({'feature_columns_final': X_train.columns.tolist(), 'numerical_features': numerical_features, 'categorical_features': categorical_features}, feature_lists_path)
          print(f"Final feature lists saved to {feature_lists_path}")
     except Exception as e: print(f"Error saving feature lists: {e}")
 
-
     if model_type == 'tensorflow':
         print("\nSetting up TF preprocessing pipeline (OneHotEncoder + Scaler)...")
+        # ... (TF preprocessing logic as before) ...
         transformers = []
-        # Numerical scaling
         valid_num_features = [f for f in numerical_features if f in X_train.columns]
-        if valid_num_features:
-            numerical_transformer = Pipeline(steps=[('scaler', StandardScaler())])
-            transformers.append(('num', numerical_transformer, valid_num_features))
-        else: print("Info: No numerical features to scale for TF.")
-        # Categorical encoding
+        if valid_num_features: transformers.append(('num', Pipeline(steps=[('scaler', StandardScaler())]), valid_num_features))
+        else: print("Info: No numerical features for TF scaler.")
         valid_cat_features = [f for f in categorical_features if f in X_train.columns]
-        if valid_cat_features:
-            categorical_transformer = Pipeline(steps=[('onehot', OneHotEncoder(handle_unknown='ignore', sparse_output=True))])
-            transformers.append(('cat', categorical_transformer, valid_cat_features))
-        else: print("Info: No categorical features to OneHotEncode for TF.")
-
+        if valid_cat_features: transformers.append(('cat', Pipeline(steps=[('onehot', OneHotEncoder(handle_unknown='ignore', sparse_output=True))]), valid_cat_features))
+        else: print("Info: No categorical features for TF OneHot.")
         if not transformers: print("Error: No transformers created for TF!"); return
-
         preprocessor = ColumnTransformer(transformers=transformers, remainder='drop', sparse_threshold=0.3)
-
-        print("Applying TF preprocessing (fit on train, transform all)...")
+        print("Applying TF preprocessing...")
         try:
-            # Fit on training data
             X_train_processed = preprocessor.fit_transform(X_train)
-            print(f"  Fit TF preprocessor on training data (Output shape: {X_train_processed.shape})")
-            # Transform validation and test data
+            print(f"  Fit TF preprocessor (Output shape: {X_train_processed.shape})")
             X_val_processed = preprocessor.transform(X_val)
             X_test_processed = preprocessor.transform(X_test)
             print(f"TF Processed shapes - Train: {X_train_processed.shape}, Val: {X_val_processed.shape}, Test: {X_test_processed.shape}")
             joblib.dump(preprocessor, preprocessor_path)
             print(f"TF preprocessor saved to {preprocessor_path}")
-        except ValueError as e:
-            print(f"ValueError during TF preprocessing: {e}")
-            # Add more debug info if needed
-            for col in valid_cat_features:
-                train_cats = set(X_train[col].unique())
-                val_cats = set(X_val[col].unique())
-                test_cats = set(X_test[col].unique())
-                if val_cats - train_cats or test_cats - train_cats:
-                     print(f"  Mismatch detected in column '{col}':")
-                     print(f"    Val not in Train: {val_cats - train_cats}")
-                     print(f"    Test not in Train: {test_cats - train_cats}")
-            return
-        except MemoryError:
-             print("MemoryError during TF preprocessing. Try reducing features or using more RAM.")
-             return
-        except Exception as e:
-            print(f"Error during TF preprocessing: {e}")
-            import traceback; traceback.print_exc(); return
-
+        except Exception as e: print(f"Error during TF preprocessing: {e}"); import traceback; traceback.print_exc(); return
         del X_train, X_val, X_test; gc.collect()
 
     elif model_type == 'lightgbm':
-        print("\nPreprocessing for LGBM (dtype conversion, scaling) will occur inside its training function.")
+        print("\nPreprocessing for LGBM handled internally by its training function.")
         X_train_processed, X_val_processed, X_test_processed = X_train, X_val, X_test
 
     else:
@@ -818,48 +682,36 @@ def run_action_training(parquet_path, model_type='tensorflow', feature_set='full
 
     # --- Train Selected Model ---
     # (Keep existing training calls)
-    print(f"\n--- Initiating {model_type.upper()} Model Training ({feature_set.upper()} features) ---")
+    print(f"\n--- Initiating {model_type.upper()} Model Training ({feature_set.upper()} features, P1 only) ---")
+    # ... (TF / LGBM training calls as before) ...
     if model_type == 'tensorflow':
          if X_train_processed is not None:
-             train_tensorflow_action_predictor(X_train_processed, X_val_processed, X_test_processed,
-                                               y_train_encoded, y_val_encoded, y_test_encoded,
-                                               num_classes, class_weight_dict, label_encoder,
-                                               epochs, batch_size, learning_rate)
+             train_tensorflow_action_predictor(X_train_processed, X_val_processed, X_test_processed, y_train_encoded, y_val_encoded, y_test_encoded, num_classes, class_weight_dict, label_encoder, epochs, batch_size, learning_rate)
          else: print("Skipping TF training due to preprocessing errors.")
     elif model_type == 'lightgbm':
-         train_lgbm_action_predictor(X_train_processed, X_val_processed, X_test_processed, # Still original DFs here for LGBM
-                                     y_train_encoded, y_val_encoded, y_test_encoded,
-                                     numerical_features, categorical_features, # Pass correct lists
-                                     num_classes, class_weight_dict, label_encoder)
+         train_lgbm_action_predictor(X_train_processed, X_val_processed, X_test_processed, y_train_encoded, y_val_encoded, y_test_encoded, numerical_features, categorical_features, num_classes, class_weight_dict, label_encoder)
 
 
 # --- Main execution block ---
+# (Keep main block, argument parsing is already correct)
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train action predictor (V4) with selectable feature sets.")
-    parser.add_argument("parquet_file", type=str, help="Path to the input Parquet file from the updated parser.")
-    parser.add_argument("--model_type", choices=['tensorflow', 'lightgbm'], default='lightgbm', help="Type of model to train (default: lightgbm).")
-    # --- MODIFIED feature_set choices ---
-    parser.add_argument("--feature_set", choices=['full', 'medium', 'simplified'], default='full',
-                        help="Feature set to use ('full', 'medium', or 'simplified' active species only, default: full).")
-    # ------------------------------------
-    parser.add_argument("--min_turn", type=int, default=1, help="Minimum turn number to include (default: 1). Set to 0 to include turn 0.")
-    parser.add_argument("--test_split", type=float, default=0.2, help="Fraction of data for the test set (default: 0.2).")
-    parser.add_argument("--val_split", type=float, default=0.15, help="Fraction of data for the validation set (relative to initial data, default: 0.15).")
-    # TF specific args
-    parser.add_argument("--epochs", type=int, default=30, help="Number of training epochs (TensorFlow only).")
-    parser.add_argument("--batch_size", type=int, default=256, help="Batch size for training (TensorFlow only).")
-    parser.add_argument("--lr", type=float, default=0.001, help="Learning rate for Adam optimizer (TensorFlow only).")
+    parser.add_argument("parquet_file", type=str, help="Path to the input Parquet file.")
+    parser.add_argument("--model_type", choices=['tensorflow', 'lightgbm'], default='lightgbm', help="Model type.")
+    parser.add_argument("--feature_set", choices=['full', 'medium', 'simplified'], default='full', help="Feature set.")
+    # (Rest of arguments)
+    parser.add_argument("--min_turn", type=int, default=1, help="Minimum turn number.")
+    parser.add_argument("--test_split", type=float, default=0.2, help="Test set fraction.")
+    parser.add_argument("--val_split", type=float, default=0.15, help="Validation set fraction.")
+    parser.add_argument("--epochs", type=int, default=30, help="Epochs (TF only).")
+    parser.add_argument("--batch_size", type=int, default=256, help="Batch size (TF only).")
+    parser.add_argument("--lr", type=float, default=0.001, help="Learning rate (TF only).")
 
     args = parser.parse_args()
-
-    # Validate split sizes
-    if args.test_split + args.val_split >= 1.0:
-        print("Error: Sum of test_split and val_split must be less than 1.0")
+    # (Validation checks)
+    if args.test_split + args.val_split >= 1.0 or args.test_split <= 0 or args.val_split <= 0:
+        print("Error: Invalid split sizes.")
         exit(1)
-    if args.test_split <= 0 or args.val_split <= 0:
-         print("Error: test_split and val_split must be positive.")
-         exit(1)
-
 
     run_action_training(
         parquet_path=args.parquet_file,
@@ -872,6 +724,6 @@ if __name__ == "__main__":
         batch_size=args.batch_size,
         learning_rate=args.lr
     )
-
     print("\nAction predictor training script (v4) finished.")
-# --- END OF (Modified) train_action_predictor_v4.py ---
+
+# --- END OF (Modified Again) train_action_predictor_v4.py ---
