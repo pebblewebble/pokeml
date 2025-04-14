@@ -424,6 +424,18 @@ def predict_moves_with_filter(df_input, model, feature_info, scaler, label_encod
 
     # --- Prepare Data ---
     # Pass the single row DataFrame to the preparation function
+    print("--- Online Input DataFrame Info ---")
+    df_input.info()
+    print("\n--- Online Input DataFrame Head ---")
+    print(df_input.head())
+    print("\n--- Online Input Data Types ---")
+    print(df_input.dtypes)
+    # Log unique values for a few key categorical columns
+    if 'p1_active_species' in df_input.columns:
+        print("\n--- Online Unique p1_active_species ---")
+        print(df_input['p1_active_species'].unique())
+    # Add similar logging for p2_active_species, statuses, tera_types etc.
+    print("------------------------------------")
     X_processed = prepare_input_data_medium(df_input, feature_info, scaler)
     if X_processed is None:
         print("Error during data preparation.")
