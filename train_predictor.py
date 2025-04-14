@@ -235,7 +235,8 @@ def run_training(parquet_path, model_type='tensorflow', min_turn=0, test_split_s
     base_exclude = ['replay_id', 'action_taken', 'battle_winner']
     fainted_cols_to_exclude = [col for col in df.columns if '_is_fainted' in col]
     species_cols_to_exclude = [col for col in df.columns if '_species' in col]
-    cols_to_exclude = base_exclude + fainted_cols_to_exclude + species_cols_to_exclude
+    revealed_cols_to_exclude = [col for col in df.columns if '_revealed_moves' in col]
+    cols_to_exclude = base_exclude + fainted_cols_to_exclude + species_cols_to_exclude + revealed_cols_to_exclude
 
     feature_columns = [col for col in df.columns if col not in cols_to_exclude]
     X = df[feature_columns].copy()

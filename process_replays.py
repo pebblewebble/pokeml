@@ -654,19 +654,12 @@ def flatten_state(state_dict):
 
     # Pokemon States
     for player in ['p1', 'p2']:
-        # Determine expected number of slots (use actual keys or default to 6)
-        num_slots = 6 # Default team size
-        if player in state_dict and isinstance(state_dict[player], dict):
-            slot_keys = [k for k in state_dict[player].keys() if k.startswith('slot')]
-            if slot_keys: # If we found slots, use the highest number found
-                 try:
-                      num_slots = max(int(k.replace('slot','')) for k in slot_keys)
-                 except ValueError: pass # Keep default if keys are weird
-
-        for i in range(num_slots):
+        # --- ALWAYS LOOP 6 TIMES for standard singles ---
+        num_slots_to_generate = 6 # Assume standard 6 slots for output structure
+        for i in range(num_slots_to_generate):
              slot_id = f'slot{i+1}'
              prefix = f'{player}_{slot_id}'
-             # Check if the player and slot exist in the state dictionary
+             # Check if the player and slot exist in the actual state dictionary
              if player in state_dict and isinstance(state_dict[player], dict) and slot_id in state_dict[player]:
                  poke_state = state_dict[player][slot_id]
                  # Check if poke_state is a valid dictionary
@@ -705,7 +698,8 @@ def flatten_state(state_dict):
                       for stat in ['atk', 'def', 'spa', 'spd', 'spe']: flat[f'{prefix}_boost_{stat}'] = 0
                       flat[f'{prefix}_revealed_moves'] = 'error_state'
              else:
-                  # Add placeholder columns if the entire slot is missing (e.g., smaller team size / parsing issue)
+                  # Add placeholder columns if the slot is missing from the state dict
+                  # (handles smaller team sizes correctly now)
                   flat[f'{prefix}_species'] = 'Absent' # Indicate slot doesn't exist or wasn't parsed
                   flat[f'{prefix}_hp_perc'] = 0
                   flat[f'{prefix}_status'] = 'none'
@@ -716,8 +710,7 @@ def flatten_state(state_dict):
                   for stat in ['atk', 'def', 'spa', 'spd', 'spe']: flat[f'{prefix}_boost_{stat}'] = 0
                   flat[f'{prefix}_revealed_moves'] = 'none' # No moves revealed if absent
 
-
-    # Field States
+    # Field States (This part was likely okay, but ensure consistency)
     initial_field = get_initial_field_state() # Use for defaults and checking keys
     if 'field' in state_dict and isinstance(state_dict['field'], dict):
         field_state = state_dict['field']
