@@ -578,102 +578,93 @@ class PredictionPlayer(Player):
         self.expected_features = self.feature_info.get('feature_names_in_order')
         print(f"Player initialized. Expecting {len(self.expected_features)} features.")
 
-
+    
+    
     def map_battle_to_dataframe_row(self, battle: Gen9EnvSinglePlayer.battles) -> dict:
         """
-        *** CRITICAL IMPLEMENTATION ***
+        *** CRITICAL IMPLEMENTATION (REVISED) ***
         Converts the poke-env Battle object into a flat dictionary row suitable
-        for the prediction model. Keys MUST match training features.
+        for the prediction model. Keys and formatting MUST match the output
+        of process_replays.py.
         """
-        print(f"Mapping Battle state for turn {battle.turn}...")
-        flat_state = {}
-
-        # --- Basic Info ---
-        flat_state['replay_id'] = battle.battle_tag
-        flat_state['turn_number'] = battle.turn
-        flat_state['player_to_move'] = 'p1' # Bot's perspective
-
-        # --- Last Moves (Placeholder - Requires manual tracking) ---
-        # Needs implementation if this feature is important for your model
-        flat_state['last_move_p1'] = 'none' # Example placeholder
-        flat_state['last_move_p2'] = 'none' # Example placeholder
-
-        # --- Constants for mapping (ensure these match process_replays.py if logic copied) ---
         HAZARD_CONDITIONS_MAP = {
             'stealthrock': 'stealth_rock', 'spikes': 'spikes',
             'toxicspikes': 'toxic_spikes', 'stickyweb': 'sticky_web'
         }
         SIDE_CONDITIONS_MAP = {
-             'reflect': 'reflect', 'lightscreen': 'light_screen',
-             'auroraveil': 'aurora_veil', 'tailwind': 'tailwind',
-             'safeguard': 'safeguard', #'mist': 'mist', # Add if trained on these
+            'reflect': 'reflect', 'lightscreen': 'light_screen',
+            'auroraveil': 'aurora_veil', 'tailwind': 'tailwind',
+            'safeguard': 'safeguard', #'mist': 'mist', # Add if trained on these
+            # Add other side conditions your parser extracts if needed
         }
-        # These sets help default features to 0 if not present
         ALL_HAZARD_SUFFIXES = set(HAZARD_CONDITIONS_MAP.values())
         ALL_SIDE_SUFFIXES = set(SIDE_CONDITIONS_MAP.values())
+        ALL_EXPECTED_HAZARD_KEYS = {f"{p}_hazard_{s}" for p in ['p1', 'p2'] for s in ALL_HAZARD_SUFFIXES}
+        ALL_EXPECTED_SIDE_KEYS = {f"{p}_side_{s}" for p in ['p1', 'p2'] for s in ALL_SIDE_SUFFIXES}
+        print(f"Mapping Battle state for turn {battle.turn}...")
+        flat_state = {}
 
+        # --- Basic Info (Consistent with Parser) ---
+        flat_state['replay_id'] = battle.battle_tag
+        flat_state['turn_number'] = battle.turn
+        flat_state['player_to_move'] = 'p1' # Bot's perspective (Consistent)
 
-        # --- Player (p1) Team State ---
+        # --- Last Moves (Placeholder - Still requires separate tracking) ---
+        # This information isn't directly in the standard poke-env Battle object snapshot.
+        # You need a mechanism outside this function to track the last move used by each player
+        # leading up to this specific state.
+        flat_state['last_move_p1'] = 'none' # Placeholder - NEEDS EXTERNAL TRACKING
+        flat_state['last_move_p2'] = 'none' # Placeholder - NEEDS EXTERNAL TRACKING
+
+        # --- Player (p1 - Bot) Team State ---
         team = battle.team
         active = battle.active_pokemon
-        for i in range(6): # Always generate 6 slots
+        for i in range(6): # Always generate 6 slots like parser
             slot_id = f"slot{i+1}"
             prefix = f"p1_{slot_id}"
             pkmn: Gen9EnvSinglePlayer.Pokemon = None
-            # Access team members safely by index if available
             team_list = list(team.values())
             if i < len(team_list):
-                 pkmn = team_list[i]
+                pkmn = team_list[i]
 
             if pkmn:
-                flat_state[f'{prefix}_species'] = pkmn.species
+                # *** Normalization to match process_replays.py ***
+                # Species: Use .title() to match 'Great Tusk' format
+                species_name = pkmn.species.title() if pkmn.species else 'Unknown'
+                flat_state[f'{prefix}_species'] = species_name
+
+                # HP/Status/Fainted: Consistent with parser logic
                 flat_state[f'{prefix}_hp_perc'] = round(pkmn.current_hp_fraction * 100)
-                status_str = pkmn.status.name.lower() if pkmn.status else 'none'
+                status_str = pkmn.status.name.lower() if pkmn.status else 'none' # Parser also outputs lowercase status
                 flat_state[f'{prefix}_status'] = status_str
                 flat_state[f'{prefix}_is_active'] = int(pkmn == active)
                 flat_state[f'{prefix}_is_fainted'] = int(pkmn.fainted)
-                # Check for terastallization attribute (adjust if needed)
-                is_tera = getattr(pkmn, 'is_terastallized', pkmn.is_dynamaxed) # Use is_dynamaxed as fallback/proxy
+
+                # Terastallization: Normalize tera type case
+                is_tera = getattr(pkmn, 'is_terastallized', pkmn.is_dynamaxed) # is_dynamaxed likely placeholder
                 flat_state[f'{prefix}_terastallized'] = int(is_tera)
-                tera_type = getattr(pkmn, 'tera_type', None) # Check if attribute exists
-                flat_state[f'{prefix}_tera_type'] = tera_type.name.lower() if tera_type else 'none'
+                tera_type = getattr(pkmn, 'tera_type', None)
+                # Use .title() for tera type name to match parser output ('Water' not 'water')
+                tera_type_name = tera_type.name.title() if tera_type else 'none'
+                flat_state[f'{prefix}_tera_type'] = tera_type_name
+
+                # Boosts: Consistent with parser
                 boosts = pkmn.boosts
-                for stat in ['atk', 'def', 'spa', 'spd', 'spe']: flat_state[f'{prefix}_boost_{stat}'] = boosts.get(stat, 0)
-                # Use move ID for revealed moves string. Filter out non-standard moves if necessary.
-                moves_set = {m.id for m in pkmn.moves.values()}
+                for stat in ['atk', 'def', 'spa', 'spd', 'spe']:
+                    flat_state[f'{prefix}_boost_{stat}'] = boosts.get(stat, 0)
+
+                # Revealed Moves: Normalize move name case to Title Case and format
+                # Filter 'conversion' like parser might implicitly do, adjust if needed
+                moves_set = {m.id.title() for m in pkmn.moves.values() if m.id != 'conversion'}
                 flat_state[f'{prefix}_revealed_moves'] = ",".join(sorted(list(moves_set))) if moves_set else 'none'
 
-                # --- Store the active pokemon's moves string separately for prepare_input ---
-                if pkmn == active:
-                     flat_state['p1_active_revealed_moves_str'] = flat_state[f'{prefix}_revealed_moves']
-                     # Also copy other active stats needed by prepare_input_data_medium
-                     flat_state['p1_active_species'] = flat_state[f'{prefix}_species']
-                     flat_state['p1_active_hp_perc'] = flat_state[f'{prefix}_hp_perc']
-                     flat_state['p1_active_status'] = flat_state[f'{prefix}_status']
-                     flat_state['p1_active_boost_atk'] = flat_state[f'{prefix}_boost_atk']
-                     flat_state['p1_active_boost_def'] = flat_state[f'{prefix}_boost_def']
-                     flat_state['p1_active_boost_spa'] = flat_state[f'{prefix}_boost_spa']
-                     flat_state['p1_active_boost_spd'] = flat_state[f'{prefix}_boost_spd']
-                     flat_state['p1_active_boost_spe'] = flat_state[f'{prefix}_boost_spe']
-                     flat_state['p1_active_terastallized'] = flat_state[f'{prefix}_terastallized']
-                     flat_state['p1_active_tera_type'] = flat_state[f'{prefix}_tera_type']
-
-
             else:
-                # Fill with 'Absent' defaults
+                # Fill with 'Absent' defaults (Consistent with parser's handling of smaller teams)
                 flat_state[f'{prefix}_species'] = 'Absent'
                 flat_state[f'{prefix}_hp_perc'] = 0; flat_state[f'{prefix}_status'] = 'none'; flat_state[f'{prefix}_is_active'] = 0; flat_state[f'{prefix}_is_fainted'] = 1
                 flat_state[f'{prefix}_terastallized'] = 0; flat_state[f'{prefix}_tera_type'] = 'none'
                 for stat in ['atk', 'def', 'spa', 'spd', 'spe']: flat_state[f'{prefix}_boost_{stat}'] = 0
                 flat_state[f'{prefix}_revealed_moves'] = 'none'
-
-        # Default active features if no active pokemon found (shouldn't happen in battle)
-        if 'p1_active_species' not in flat_state:
-             print("Warning: Could not find P1 active Pokemon during mapping.")
-             flat_state['p1_active_species'] = 'Unknown'; flat_state['p1_active_hp_perc'] = 100
-             flat_state['p1_active_status'] = 'none'; flat_state['p1_active_boost_atk'] = 0 # etc.
-             flat_state['p1_active_revealed_moves_str'] = 'none'
-
 
         # --- Opponent (p2) Team State ---
         opp_team = battle.opponent_team
@@ -684,39 +675,32 @@ class PredictionPlayer(Player):
             pkmn: Gen9EnvSinglePlayer.Pokemon = None
             opp_team_list = list(opp_team.values())
             if i < len(opp_team_list):
-                 pkmn = opp_team_list[i]
+                pkmn = opp_team_list[i]
 
             if pkmn:
-                flat_state[f'{prefix}_species'] = pkmn.species
+                # *** Normalization to match process_replays.py ***
+                species_name = pkmn.species.title() if pkmn.species else 'Unknown'
+                flat_state[f'{prefix}_species'] = species_name
+
                 flat_state[f'{prefix}_hp_perc'] = round(pkmn.current_hp_fraction * 100)
                 status_str = pkmn.status.name.lower() if pkmn.status else 'none'
                 flat_state[f'{prefix}_status'] = status_str
                 flat_state[f'{prefix}_is_active'] = int(pkmn == opp_active)
                 flat_state[f'{prefix}_is_fainted'] = int(pkmn.fainted)
+
                 is_tera = getattr(pkmn, 'is_terastallized', pkmn.is_dynamaxed)
                 flat_state[f'{prefix}_terastallized'] = int(is_tera)
                 tera_type = getattr(pkmn, 'tera_type', None)
-                flat_state[f'{prefix}_tera_type'] = tera_type.name.lower() if tera_type else 'none'
-                boosts = pkmn.boosts
-                for stat in ['atk', 'def', 'spa', 'spd', 'spe']: flat_state[f'{prefix}_boost_{stat}'] = boosts.get(stat, 0)
-                # Only include KNOWN opponent moves
-                moves_set = {m.id for m in pkmn.moves.values() if m.id != 'conversion'} # Conversion is often placeholder
-                flat_state[f'{prefix}_revealed_moves'] = ",".join(sorted(list(moves_set))) if moves_set else 'none'
+                tera_type_name = tera_type.name.title() if tera_type else 'none'
+                flat_state[f'{prefix}_tera_type'] = tera_type_name
 
-                 # --- Store the active opponent's moves string separately ---
-                if pkmn == opp_active:
-                     flat_state['p2_active_revealed_moves_str'] = flat_state[f'{prefix}_revealed_moves']
-                     # Also copy other active stats needed by prepare_input_data_medium
-                     flat_state['p2_active_species'] = flat_state[f'{prefix}_species']
-                     flat_state['p2_active_hp_perc'] = flat_state[f'{prefix}_hp_perc']
-                     flat_state['p2_active_status'] = flat_state[f'{prefix}_status']
-                     flat_state['p2_active_boost_atk'] = flat_state[f'{prefix}_boost_atk']
-                     flat_state['p2_active_boost_def'] = flat_state[f'{prefix}_boost_def']
-                     flat_state['p2_active_boost_spa'] = flat_state[f'{prefix}_boost_spa']
-                     flat_state['p2_active_boost_spd'] = flat_state[f'{prefix}_boost_spd']
-                     flat_state['p2_active_boost_spe'] = flat_state[f'{prefix}_boost_spe']
-                     flat_state['p2_active_terastallized'] = flat_state[f'{prefix}_terastallized']
-                     flat_state['p2_active_tera_type'] = flat_state[f'{prefix}_tera_type']
+                boosts = pkmn.boosts
+                for stat in ['atk', 'def', 'spa', 'spd', 'spe']:
+                    flat_state[f'{prefix}_boost_{stat}'] = boosts.get(stat, 0)
+
+                # Revealed Moves: Normalize case and format
+                moves_set = {m.id.title() for m in pkmn.moves.values() if m.id != 'conversion'} # Only known moves
+                flat_state[f'{prefix}_revealed_moves'] = ",".join(sorted(list(moves_set))) if moves_set else 'none'
 
             else:
                 # Fill with 'Absent' defaults
@@ -726,81 +710,101 @@ class PredictionPlayer(Player):
                 for stat in ['atk', 'def', 'spa', 'spd', 'spe']: flat_state[f'{prefix}_boost_{stat}'] = 0
                 flat_state[f'{prefix}_revealed_moves'] = 'none'
 
-        # Default opponent active features if none found
-        if 'p2_active_species' not in flat_state:
-             print("Warning: Could not find P2 active Pokemon during mapping.")
-             flat_state['p2_active_species'] = 'Unknown'; flat_state['p2_active_hp_perc'] = 100 # etc.
-             flat_state['p2_active_revealed_moves_str'] = 'none'
+
+        # --- Active Pokemon Details (for prepare_input_data_medium) ---
+        # Copy details for P1 active Pokemon (using normalized values)
+        active_p1_prefix = None
+        if active:
+            for i in range(len(list(team.values()))): # Find the index/slot of active
+                if list(team.values())[i] == active:
+                    active_p1_prefix = f"p1_slot{i+1}"
+                    break
+        if active_p1_prefix and f'{active_p1_prefix}_species' in flat_state:
+            # Copy relevant fields, ensuring normalized case is used
+            flat_state['p1_active_species'] = flat_state[f'{active_p1_prefix}_species'] # Already Title Case
+            flat_state['p1_active_hp_perc'] = flat_state[f'{active_p1_prefix}_hp_perc']
+            flat_state['p1_active_status'] = flat_state[f'{active_p1_prefix}_status'] # Already lowercase
+            flat_state['p1_active_boost_atk'] = flat_state[f'{active_p1_prefix}_boost_atk']
+            flat_state['p1_active_boost_def'] = flat_state[f'{active_p1_prefix}_boost_def']
+            flat_state['p1_active_boost_spa'] = flat_state[f'{active_p1_prefix}_boost_spa']
+            flat_state['p1_active_boost_spd'] = flat_state[f'{active_p1_prefix}_boost_spd']
+            flat_state['p1_active_boost_spe'] = flat_state[f'{active_p1_prefix}_boost_spe']
+            flat_state['p1_active_terastallized'] = flat_state[f'{active_p1_prefix}_terastallized']
+            flat_state['p1_active_tera_type'] = flat_state[f'{active_p1_prefix}_tera_type'] # Already Title Case
+            flat_state['p1_active_revealed_moves_str'] = flat_state[f'{active_p1_prefix}_revealed_moves'] # Already Title Case moves, comma-sep
+        else:
+            print("Warning: Could not find P1 active Pokemon details during mapping.")
+            # Set defaults consistent with prepare_input expectations
+            flat_state['p1_active_species'] = 'Unknown'; flat_state['p1_active_hp_perc'] = 100; flat_state['p1_active_status'] = 'none'
+            flat_state['p1_active_boost_atk'] = 0; flat_state['p1_active_boost_def'] = 0; flat_state['p1_active_boost_spa'] = 0; flat_state['p1_active_boost_spd'] = 0; flat_state['p1_active_boost_spe'] = 0
+            flat_state['p1_active_terastallized'] = 0; flat_state['p1_active_tera_type'] = 'none'; flat_state['p1_active_revealed_moves_str'] = 'none'
+
+        # Copy details for P2 active Pokemon (using normalized values)
+        active_p2_prefix = None
+        if opp_active:
+            for i in range(len(list(opp_team.values()))): # Find the index/slot of opponent active
+                if list(opp_team.values())[i] == opp_active:
+                    active_p2_prefix = f"p2_slot{i+1}"
+                    break
+        if active_p2_prefix and f'{active_p2_prefix}_species' in flat_state:
+            # Copy relevant fields, ensuring normalized case is used
+            flat_state['p2_active_species'] = flat_state[f'{active_p2_prefix}_species'] # Already Title Case
+            flat_state['p2_active_hp_perc'] = flat_state[f'{active_p2_prefix}_hp_perc']
+            flat_state['p2_active_status'] = flat_state[f'{active_p2_prefix}_status'] # Already lowercase
+            flat_state['p2_active_boost_atk'] = flat_state[f'{active_p2_prefix}_boost_atk']
+            flat_state['p2_active_boost_def'] = flat_state[f'{active_p2_prefix}_boost_def']
+            flat_state['p2_active_boost_spa'] = flat_state[f'{active_p2_prefix}_boost_spa']
+            flat_state['p2_active_boost_spd'] = flat_state[f'{active_p2_prefix}_boost_spd']
+            flat_state['p2_active_boost_spe'] = flat_state[f'{active_p2_prefix}_boost_spe']
+            flat_state['p2_active_terastallized'] = flat_state[f'{active_p2_prefix}_terastallized']
+            flat_state['p2_active_tera_type'] = flat_state[f'{active_p2_prefix}_tera_type'] # Already Title Case
+            flat_state['p2_active_revealed_moves_str'] = flat_state[f'{active_p2_prefix}_revealed_moves'] # Already Title Case moves, comma-sep
+        else:
+            print("Warning: Could not find P2 active Pokemon details during mapping.")
+            # Set defaults consistent with prepare_input expectations
+            flat_state['p2_active_species'] = 'Unknown'; flat_state['p2_active_hp_perc'] = 100; flat_state['p2_active_status'] = 'none'
+            flat_state['p2_active_boost_atk'] = 0; flat_state['p2_active_boost_def'] = 0; flat_state['p2_active_boost_spa'] = 0; flat_state['p2_active_boost_spd'] = 0; flat_state['p2_active_boost_spe'] = 0
+            flat_state['p2_active_terastallized'] = 0; flat_state['p2_active_tera_type'] = 'none'; flat_state['p2_active_revealed_moves_str'] = 'none'
 
 
         # --- Field State ---
-        # Weather mapping
-        flat_state['field_weather'] = battle.weather.name.lower() if battle.weather else 'none'
+        # Weather: Normalize case
+        flat_state['field_weather'] = battle.weather.name.title() if battle.weather else 'none'
 
-        # Terrain mapping - uses the same battle.fields dictionary
-        is_electric_terrain = poke_env.environment.Field.ELECTRIC_TERRAIN in battle.fields
-        is_grassy_terrain = poke_env.environment.Field.GRASSY_TERRAIN in battle.fields
-        is_misty_terrain = poke_env.environment.Field.MISTY_TERRAIN in battle.fields
-        is_psychic_terrain = poke_env.environment.Field.PSYCHIC_TERRAIN in battle.fields
-        # Assign the active terrain, default to 'none'
-        if is_electric_terrain: flat_state['field_terrain'] = 'electricterrain' # Match expected format
-        elif is_grassy_terrain: flat_state['field_terrain'] = 'grassyterrain'
-        elif is_misty_terrain: flat_state['field_terrain'] = 'mistyterrain'
-        elif is_psychic_terrain: flat_state['field_terrain'] = 'psychicterrain'
-        else: flat_state['field_terrain'] = 'none'
+        # Terrain: Not directly available in poke-env Battle object - Set default matching parser's 'none' state.
+        # NEEDS MANUAL TRACKING if model relies heavily on this feature.
+        flat_state['field_terrain'] = 'none' # <<< MODIFIED LINE
 
-        # Pseudo Weather (Check if specific Field enums are keys in battle.fields)
-        is_trick_room = poke_env.environment.Field.TRICK_ROOM in battle.fields
-        # Add checks for other pseudo-weathers if needed (Gravity, Magic Room, etc.)
-        # is_gravity = poke_env.environment.Field.GRAVITY in battle.fields
+        # Pseudo Weather: Also not directly available - Set default.
+        # NEEDS MANUAL TRACKING if model relies heavily on this feature.
+        flat_state['field_pseudo_weather'] = 'none' # Set default, NEEDS EXTERNAL TRACKING if used by model
 
-        flat_state['field_pseudo_weather'] = 'trickroom' if is_trick_room else 'none' # Or map other conditions
+        # Hazards & Side Conditions: Map from poke-env's lowercase keys to parser's feature names
+        # Initialize all expected keys to 0 first
+        for key in ALL_EXPECTED_HAZARD_KEYS.union(ALL_EXPECTED_SIDE_KEYS):
+            flat_state[key] = 0
 
-        # --- Side Conditions / Hazards ---
-        # Initialize all possible side/hazard features to 0
-        for suffix in ALL_HAZARD_SUFFIXES: flat_state[f'p1_hazard_{suffix}'] = 0; flat_state[f'p2_hazard_{suffix}'] = 0
-        for suffix in ALL_SIDE_SUFFIXES: flat_state[f'p1_side_{suffix}'] = 0; flat_state[f'p2_side_{suffix}'] = 0
-
-        # P1 Side/Hazards from battle object
+        # Player 1 Side
         for cond, count in battle.side_conditions.items():
-            cond_id = cond.name.lower().replace(' ', '') # Standardize ID
-            if cond_id in HAZARD_CONDITIONS_MAP:
-                 feature_name = f"p1_hazard_{HAZARD_CONDITIONS_MAP[cond_id]}"
-                 flat_state[feature_name] = count # Use count (layers)
-            elif cond_id in SIDE_CONDITIONS_MAP:
-                 feature_name = f"p1_side_{SIDE_CONDITIONS_MAP[cond_id]}"
-                 flat_state[feature_name] = 1 # Mark as active
+            if cond in HAZARD_CONDITIONS_MAP:
+                key = f'p1_hazard_{HAZARD_CONDITIONS_MAP[cond]}'
+                flat_state[key] = count # Typically layers (1, 2, or 3)
+            elif cond in SIDE_CONDITIONS_MAP:
+                key = f'p1_side_{SIDE_CONDITIONS_MAP[cond]}'
+                flat_state[key] = 1 if count > 0 else 0 # Typically just active (1) or not (0)
 
-        # P2 Side/Hazards from battle object
+        # Player 2 Side
         for cond, count in battle.opponent_side_conditions.items():
-             cond_id = cond.name.lower().replace(' ', '') # Standardize ID
-             if cond_id in HAZARD_CONDITIONS_MAP:
-                  feature_name = f"p2_hazard_{HAZARD_CONDITIONS_MAP[cond_id]}"
-                  flat_state[feature_name] = count
-             elif cond_id in SIDE_CONDITIONS_MAP:
-                  feature_name = f"p2_side_{SIDE_CONDITIONS_MAP[cond_id]}"
-                  flat_state[feature_name] = 1
+            if cond in HAZARD_CONDITIONS_MAP:
+                key = f'p2_hazard_{HAZARD_CONDITIONS_MAP[cond]}'
+                flat_state[key] = count
+            elif cond in SIDE_CONDITIONS_MAP:
+                key = f'p2_side_{SIDE_CONDITIONS_MAP[cond]}'
+                flat_state[key] = 1 if count > 0 else 0
 
-
-        # --- Ensure all expected columns exist ---
-        current_keys = set(flat_state.keys())
-        missing_features = 0
-        for feature in self.expected_features:
-            if feature not in current_keys:
-                 missing_features += 1
-                 # Determine default based on feature name heuristic
-                 if any(p in feature for p in ['_hp_perc', '_boost_', '_hazard_', '_side_', '_is_active', '_is_fainted', '_terastallized']) or feature == 'turn_number': default = 0
-                 elif any(p in feature for p in ['_species', '_status', '_tera_type', 'field_', 'last_move', '_revealed_moves', '_active_revealed_moves_str']): default = 'none' # Default for string cols
-                 else: default = 0 # Default fallback (might apply to binary move cols)
-                 flat_state[feature] = default
-        if missing_features > 0:
-             print(f"Warning: Added {missing_features} missing features with default values during mapping.")
-
-        # --- Final Check: Remove keys not expected by the model? (Optional) ---
-        # final_flat_state = {k: flat_state[k] for k in self.expected_features if k in flat_state}
-        # print(f"Finished mapping state. Generated {len(final_flat_state)} features.")
-        # return final_flat_state
-        print(f"Finished mapping state. Generated {len(flat_state)} features.")
+        # --- Return the flat dictionary ---
+        # print(f"Sample mapped state keys: {list(flat_state.keys())[:10]}...") # Debug
+        # print(f"Sample mapped state values (first 10): {list(flat_state.values())[:10]}...") # Debug
         return flat_state
 
 
