@@ -816,6 +816,11 @@ class PredictionPlayer(Player):
         print(f"Force Switch: {battle.force_switch}")
 
         # --- Optimization Check ---
+        if battle.force_switch and len(battle.available_switches) == 1:
+            the_only_choice = battle.available_switches[0] # This is a Pokemon object
+            print(f"Optimization: Force switch and only one switch available ('{the_only_choice.species}'). Choosing it.")
+            # !!! FIX: Wrap the Pokemon object in a BattleOrder before returning !!!
+            return self.create_order(the_only_choice) # <--- USE create_order HERE
         if not battle.available_switches and len(battle.available_moves) == 1:
             action = battle.available_moves[0]
             print(f"Optimization: Only one move available ('{action.id}'). Choosing it.")
@@ -894,18 +899,6 @@ class PredictionPlayer(Player):
                             chosen_action = available_move
                             current_choice_valid = True
                             break # Found valid move, break inner loop
-                elif action_type == "switch":
-                    # Add similar debug prints for switches if needed
-                    print(f"  Rank {rank_idx+1}: Checking predicted switch '{action_detail}'...")
-                    for available_switch in battle.available_switches:
-                        available_switch_id = available_switch.species.lower().replace(' ','').replace('-','')
-                        print(f"    Comparing prediction '{action_detail}' (Type: {type(action_detail)}) == available '{available_switch_id}' (Type: {type(available_switch_id)})")
-                        if available_switch_id == action_detail:
-                            print(f"      MATCH FOUND!")
-                            print(f"  Rank {rank_idx+1}: Predicted switch '{available_switch.species}' (Prob: {prob:.2%}) - VALID")
-                            chosen_action = available_switch
-                            current_choice_valid = True
-                            break # Found valid switch, break inner loop
 
                 if current_choice_valid:
                      print(f"  Action found and validated. Breaking from prediction loop.")
@@ -913,41 +906,8 @@ class PredictionPlayer(Player):
 
         # 4. Handle cases where NO valid prediction was found
         if not chosen_action:
-            print("Warning: No valid action found among top predictions. Choosing default random action.")
-            chosen_action = self.choose_random_move(battle)
-
-            print(f"    DEBUG: Default action chosen by choose_random_move is: {chosen_action} (Type: {type(chosen_action)})")
-
-            # --- CORRECTED Logging for Default Choice ---
-            action_name = "Unknown Action"
-            action_type_name = "action"
-            if chosen_action is None:
-                print("    ERROR: choose_random_move returned None!")
-            elif isinstance(chosen_action, Move): # Specific type first
-                action_name = chosen_action.id
-                action_type_name = "move"
-            elif isinstance(chosen_action, Pokemon): # Specific type
-                action_name = chosen_action.species
-                action_type_name = "switch"
-            elif isinstance(chosen_action, DefaultBattleOrder): # Specific type
-                action_name = "Default Order"
-                action_type_name = "default order"
-            elif isinstance(chosen_action, BattleOrder): # Check base type LAST
-                # Inspect the 'order' attribute for the actual move/pokemon
-                if isinstance(chosen_action.order, Move):
-                    action_name = chosen_action.order.id
-                    action_type_name = "move (via BattleOrder)"
-                elif isinstance(chosen_action.order, Pokemon):
-                    action_name = chosen_action.order.species
-                    action_type_name = "switch (via BattleOrder)"
-                else:
-                    # It's a BattleOrder but not wrapping a Move/Pokemon directly
-                    action_name = str(chosen_action) # Log the string representation
-                    action_type_name = "generic BattleOrder"
-            # Add elif checks for other BattleOrder subclasses if needed
-
-            print(f"Default Action Choice: Choosing {action_type_name} '{action_name}'")
-            # --- END CORRECTED Logging ---
+            chosen_action = battle.available_switches[0]
+           
 
        # 5. Return the chosen action object
         # --- CORRECTED Final Logging ---
@@ -994,11 +954,13 @@ async def main():
             account_configuration=AccountConfiguration(SHOWDOWN_USERNAME, SHOWDOWN_PASSWORD),
             log_level=LOG_LEVEL,
             server_configuration=server_config,
-            team=team 
+            team=team,
+            max_concurrent_battles=5,
+            start_timer_on_battle_start=True
         )
 
         # Option 1: Accept challenges
-        challenge_count = 1 # Number of challenges to accept
+        challenge_count = 50 # Number of challenges to accept
         print(f"\n{'-'*20}\n Bot ready. Accepting up to {challenge_count} challenge(s) as {SHOWDOWN_USERNAME} in format {BATTLE_FORMAT}...\n{'-'*20}")
         await player.accept_challenges(None, challenge_count) # Accept from anyone ('None')
 
