@@ -855,7 +855,7 @@ class PredictionPlayer(Player):
             print("Choosing default random action due to prediction error.")
             return self.choose_random_move(battle)
 
-         # 3. Process predictions and choose the best *valid* action
+        # 3. Process predictions and choose the best *valid* action
         chosen_action = None
         print("-" * 10 + " Predictions " + "-" * 10)
         if predictions_list and predictions_list[0] is not None and not predictions_list[0].empty:
@@ -876,6 +876,7 @@ class PredictionPlayer(Player):
                     continue
 
                 action_type = action_parts[0]
+                # Line below is just a quick fix, forgot to mention to refactor ltr
                 action_detail = action_parts[1].lower().replace(' ', '').replace('-', '')
 
                 current_choice_valid = False
@@ -971,11 +972,10 @@ class PredictionPlayer(Player):
         # --- END CORRECTED Final Logging ---
 
         print(f">>> Sending Action: {final_action_log}\n")
-        # return chosen_action # <<< OLD LINE
 
         # --- NEW LINE: Wrap the chosen action in a BattleOrder ---
+        print(chosen_action)
         return self.create_order(chosen_action)
-        # --- END NEW LINE ---
 
 
 
