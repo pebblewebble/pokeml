@@ -630,7 +630,7 @@ class PredictionPlayer(Player):
             if pkmn:
                 # *** Normalization to match process_replays.py ***
                 # Species: Use .title() to match 'Great Tusk' format
-                species_name = pkmn.species.title() if pkmn.species else 'Unknown'
+                species_name = pkmn.species.title().lower().replace(" ","") if pkmn.species else 'Unknown'
                 flat_state[f'{prefix}_species'] = species_name
 
                 # HP/Status/Fainted: Consistent with parser logic
