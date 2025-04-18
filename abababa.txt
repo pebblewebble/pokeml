@@ -1,0 +1,35 @@
+python .\train_action_predictor.py 10k.parquet --model_type tensorflow --feature_set medium --epochs 100000 --batch_size 2000 --lr 0.0001
+Epoch 319/100000
+55/55 - 6s - 110ms/step - accuracy: 0.3220 - loss: 1.2279 - top_5_accuracy: 0.6276 - val_accuracy: 0.2989 - val_loss: 3.0744 - val_top_5_accuracy: 0.6696
+Epoch 319: early stopping
+Restoring model weights from the end of the best epoch: 314.
+TF Training finished.
+
+Evaluating TF model on the test set...
+TF Test Loss: 3.0721
+TF Test Accuracy: 0.2984
+TF Test Top-5 Accuracy: 0.6744
+Saving TF model to action_tf_model_v4_medium_move_only.keras
+TF Model saved.
+
+python .\train_action_predictor.py 10k.parquet --model_type lightgbm --feature_set medium --epochs 100000 --batch_size 2000 --lr 0.0001
+Training until validation scores don't improve for 50 rounds
+[50]    train's multi_logloss: 0.911387 train's multi_error: 0.122276   eval's multi_logloss: 2.75119   eval's multi_error: 0.648249
+[100]   train's multi_logloss: 0.429584 train's multi_error: 0.075305   eval's multi_logloss: 2.27553   eval's multi_error: 0.620502
+[150]   train's multi_logloss: 0.257644 train's multi_error: 0.049435   eval's multi_logloss: 2.10085   eval's multi_error: 0.605789
+[200]   train's multi_logloss: 0.175187 train's multi_error: 0.0336962  eval's multi_logloss: 2.03174   eval's multi_error: 0.597633
+[250]   train's multi_logloss: 0.129433 train's multi_error: 0.0234448  eval's multi_logloss: 2.01392   eval's multi_error: 0.594635
+[300]   train's multi_logloss: 0.101796 train's multi_error: 0.0171451  eval's multi_logloss: 2.01768   eval's multi_error: 0.590357
+Early stopping, best iteration is:
+[260]   train's multi_logloss: 0.122809 train's multi_error: 0.0219776  eval's multi_logloss: 2.01311   eval's multi_error: 0.593675
+LGBM Training finished.
+
+Evaluating LGBM model on the test set...
+LGBM Test Accuracy: 0.4120
+LGBM Test Top-5 Accuracy: 0.8870
+Saving LGBM model to action_lgbm_model_v4_medium_move_only.txt
+LGBM Model saved.
+Saving LGBM feature info to action_lgbm_feature_info_v4_medium_move_only.joblib
+LGBM feature info saved.
+Saving LGBM scaler to action_lgbm_scaler_v4_medium_move_only.joblib
+LGBM scaler saved.
