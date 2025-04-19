@@ -549,11 +549,11 @@ def predict_moves_with_filter(df_input, model, feature_info, scaler, label_encod
 # ===========================================
 
 class PredictionPlayer(Player):
-    # last_used_p1 = 'none'
-    # last_used_p2 = 'none'
-    latest_battle_message = ''
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
+
+        self.last_used_p1_move = 'None'
+        self.last_used_p2_move = 'None'
 
         # --- Load Artifacts ONCE during player initialization ---
         # Make load_artifacts robust to potential errors
@@ -581,14 +581,79 @@ class PredictionPlayer(Player):
         self.expected_features = self.feature_info.get('feature_names_in_order')
         print(f"Player initialized. Expecting {len(self.expected_features)} features.")
 
+    def _update_last_moves(self, split_messages):
+        """
+        Checks if the message batch is a turn bundle and updates
+        last_used_p1_move and last_used_p2_move based on move events within it.
+        
+        swapping p1 with p2 for now, as the bot is "p1"
+        """
+        is_turn_bundle = False
+        turn_number = None
+
+        # Check if the last message indicates a new turn
+        if split_messages and len(split_messages) > 1:
+            last_message = split_messages[-1]
+            if len(last_message) >= 3 and last_message[1] == 'turn':
+                try:
+                    turn_number = int(last_message[2])
+                    is_turn_bundle = True
+                    # Reset last moves ONLY when a new turn bundle is confirmed
+                    self.last_used_p1_move = 'None'
+                    self.last_used_p2_move = 'None'
+                    print(f"Turn {turn_number} bundle detected. Reset last moves.")
+                except (ValueError, IndexError):
+                     # Found 'turn' but couldn't parse, treat as not a valid turn bundle start
+                     is_turn_bundle = False
+                     print(f"Malformed 'turn' message: {last_message}")
+
+
+        # If it's not a turn bundle, we don't need to scan for moves
+        if not is_turn_bundle:
+            return
+
+        # Iterate through the messages ONLY if it's a turn bundle
+        print(f"Scanning Turn {turn_number} bundle for move events...")
+        p1_move_found_this_turn = False
+        p2_move_found_this_turn = False
+        for event in split_messages:
+            # Check if it's a move event ' ['', 'move', 'pXa: Pokemon', 'Move Name', ...] '
+            # Requires at least 4 elements to get identifier and move name
+            if len(event) >= 4 and event[1] == 'move':
+                identifier = event[2]
+                move_name = event[3]
+
+                # Update the corresponding player's last move
+                if identifier.startswith('p1'):
+                    self.last_used_p2_move = move_name
+                    p1_move_found_this_turn = True
+                    # Optional: Log only the first time it's updated or every time
+                    print(f"  Updated last_used_p1_move to: '{move_name}'")
+                elif identifier.startswith('p2'):
+                    self.last_used_p1_move = move_name
+                    p2_move_found_this_turn = True
+                    print(f"  Updated last_used_p2_move to: '{move_name}'")
+
+        # Log the final results for the turn after scanning the whole bundle
+        if p1_move_found_this_turn:
+             print(f"Turn {turn_number}: Final last_used_p1_move = '{self.last_used_p1_move}'")
+        else:
+             print(f"Turn {turn_number}: No P1 move found.")
+        if p2_move_found_this_turn:
+             print(f"Turn {turn_number}: Final last_used_p2_move = '{self.last_used_p2_move}'")
+        else:
+             print(f"Turn {turn_number}: No P2 move found.")
+
     def _handle_battle_message(self, split_messages):
-        print("YOOOOOOOOO")
-        print(split_messages)
+        """
+        Overrides the message handler primarily to call _update_last_moves,
+        then passes the messages to the superclass for full state processing.
+        """
+
+        self._update_last_moves(split_messages)
+
         return super()._handle_battle_message(split_messages)
 
-
-    
-    
     def map_battle_to_dataframe_row(self, battle: Gen9EnvSinglePlayer.battles) -> dict:
         """
         *** CRITICAL IMPLEMENTATION (REVISED) ***
