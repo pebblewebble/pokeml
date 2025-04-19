@@ -626,12 +626,12 @@ class PredictionPlayer(Player):
                 # Update the corresponding player's last move
                 if identifier.startswith('p1'):
                     self.last_used_p2_move = move_name
-                    p1_move_found_this_turn = True
+                    p2_move_found_this_turn = True
                     # Optional: Log only the first time it's updated or every time
                     print(f"  Updated last_used_p1_move to: '{move_name}'")
                 elif identifier.startswith('p2'):
                     self.last_used_p1_move = move_name
-                    p2_move_found_this_turn = True
+                    p1_move_found_this_turn = True
                     print(f"  Updated last_used_p2_move to: '{move_name}'")
 
         # Log the final results for the turn after scanning the whole bundle
@@ -684,8 +684,8 @@ class PredictionPlayer(Player):
         flat_state['player_to_move'] = 'p1' # Bot's perspective (Consistent)
 
         # --- Last Moves (Placeholder - Still requires separate tracking) ---
-        flat_state['last_move_p1'] = 'none' # Placeholder - NEEDS EXTERNAL TRACKING
-        flat_state['last_move_p2'] = 'none' # Placeholder - NEEDS EXTERNAL TRACKING
+        flat_state['last_move_p1'] = self.last_used_p1_move 
+        flat_state['last_move_p2'] = self.last_used_p2_move 
 
         # --- Player (p1 - Bot) Team State ---
         team = battle.team
