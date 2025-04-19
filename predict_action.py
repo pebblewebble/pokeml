@@ -549,6 +549,9 @@ def predict_moves_with_filter(df_input, model, feature_info, scaler, label_encod
 # ===========================================
 
 class PredictionPlayer(Player):
+    # last_used_p1 = 'none'
+    # last_used_p2 = 'none'
+    latest_battle_message = ''
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
 
@@ -577,6 +580,12 @@ class PredictionPlayer(Player):
              raise RuntimeError("Feature info is missing or doesn't contain 'feature_names_in_order'.")
         self.expected_features = self.feature_info.get('feature_names_in_order')
         print(f"Player initialized. Expecting {len(self.expected_features)} features.")
+
+    def _handle_battle_message(self, split_messages):
+        print("YOOOOOOOOO")
+        print(split_messages)
+        return super()._handle_battle_message(split_messages)
+
 
     
     
@@ -610,9 +619,6 @@ class PredictionPlayer(Player):
         flat_state['player_to_move'] = 'p1' # Bot's perspective (Consistent)
 
         # --- Last Moves (Placeholder - Still requires separate tracking) ---
-        # This information isn't directly in the standard poke-env Battle object snapshot.
-        # You need a mechanism outside this function to track the last move used by each player
-        # leading up to this specific state.
         flat_state['last_move_p1'] = 'none' # Placeholder - NEEDS EXTERNAL TRACKING
         flat_state['last_move_p2'] = 'none' # Placeholder - NEEDS EXTERNAL TRACKING
 
@@ -629,7 +635,6 @@ class PredictionPlayer(Player):
 
             if pkmn:
                 # *** Normalization to match process_replays.py ***
-                # Species: Use .title() to match 'Great Tusk' format
                 species_name = pkmn.species.title().lower().replace(" ","") if pkmn.species else 'Unknown'
                 flat_state[f'{prefix}_species'] = species_name
 
