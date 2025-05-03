@@ -79,6 +79,11 @@ def train_tensorflow_predictor(X_train_processed, X_val_processed, X_test_proces
     print("\nTF Confusion Matrix:")
     print(confusion_matrix(y_test_np, y_pred)) # <<< Use NumPy array
 
+    print("Saving TensorFlow model...")
+    model_save_path = 'pokemon_tf_win_predictor.keras' 
+    model.save(model_save_path)
+    print(f"TensorFlow model saved to {model_save_path}")
+
     return history, model
 
 # --- Function for LightGBM Model ---
@@ -112,9 +117,12 @@ def train_lgbm_predictor(X_train, X_val, X_test, y_train, y_val, y_test,
         X_train_lgbm[numerical_features] = scaler.fit_transform(X_train_lgbm[numerical_features])
         X_val_lgbm[numerical_features] = scaler.transform(X_val_lgbm[numerical_features])
         X_test_lgbm[numerical_features] = scaler.transform(X_test_lgbm[numerical_features])
-        # Save the scaler
-        joblib.dump(scaler, 'lgbm_scaler.joblib')
-        print("LGBM scaler saved to lgbm_scaler.joblib")
+        scaler_save_path = 'lgbm_scaler.joblib' # Use consistent name
+        try:
+            joblib.dump(scaler, scaler_save_path)
+            print(f"LGBM scaler saved to {scaler_save_path}")
+        except Exception as e:
+            print(f"Error saving LGBM scaler: {e}")
 
 
     print(f"LGBM Processed shapes - Train: {X_train_lgbm.shape}, Val: {X_val_lgbm.shape}, Test: {X_test_lgbm.shape}")
@@ -174,6 +182,11 @@ def train_lgbm_predictor(X_train, X_val, X_test, y_train, y_val, y_test,
         # plt.show()
     except Exception as e_imp:
         print(f"Could not display feature importances: {e_imp}")
+
+    print("Saving LightGBM model...")
+    lgbm_model_save_path = 'pokemon_lgbm_predictor.joblib'
+    joblib.dump(lgbm_model, lgbm_model_save_path)
+    print(f"LightGBM model saved to {lgbm_model_save_path}")
 
     return lgbm_model
 
@@ -243,6 +256,10 @@ def run_training(parquet_path, model_type='tensorflow', min_turn=0, test_split_s
     # X = df[feature_columns].copy()
     print(f"DEBUG: Columns included in features (X): {X.columns.tolist()}")
 
+    features_save_path = 'feature_list.joblib'
+    joblib.dump(feature_columns, features_save_path)
+    print(f"Feature list saved to {features_save_path}")
+
     # ... (rest of feature prep: category conversion, NaN filling) ...
     if 'player_to_move' in X.columns: X['player_to_move'] = X['player_to_move'].fillna('unknown').astype('category')
     categorical_features = []
@@ -280,9 +297,10 @@ def run_training(parquet_path, model_type='tensorflow', min_turn=0, test_split_s
     print(f"Class weights: {class_weight_dict}")
 
 
-     # --- Preprocess X data based on model type ---
+    # --- Preprocess X data based on model type ---
     X_train_processed, X_val_processed, X_test_processed = None, None, None
     preprocessor_path = None # Path to save preprocessor
+    scaler_path_lgbm = None # Path for LGBM scaler
 
     if model_type == 'tensorflow':
         print("\nSetting up TF preprocessing pipeline (OneHotEncoder)...")
@@ -302,6 +320,7 @@ def run_training(parquet_path, model_type='tensorflow', min_turn=0, test_split_s
         print("\nPreprocessing for LGBM will occur inside its training function.")
         # We still need processed X placeholders if TF is not selected, or pass None
         # Let's just pass the original X splits to the LGBM function for simplicity
+        scaler_path_lgbm = 'lgbm_scaler.joblib'
         pass # No pre-processing needed here for LGBM path
 
     else:
@@ -325,15 +344,23 @@ def run_training(parquet_path, model_type='tensorflow', min_turn=0, test_split_s
 
     # --- Train Selected Model ---
     if model_type == 'tensorflow':
+        if preprocessor_path is None or not os.path.exists(preprocessor_path):
+             print(f"Error: TF Preprocessor file '{preprocessor_path}' not found or not saved correctly.")
+             return
          # Pass PROCESSED X data but ORIGINAL y splits
         train_tensorflow_predictor(X_train_processed, X_val_processed, X_test_processed,
                                    y_train, y_val, y_test, # Pass original y Series
                                    class_weight_dict,
-                                   epochs, batch_size, learning_rate)
+                                   epochs, batch_size, learning_rate)   
+        joblib.dump(feature_columns, 'feature_list.joblib')
+
     elif model_type == 'lightgbm':
+        if numerical_features and (scaler_path_lgbm is None or not os.path.exists(scaler_path_lgbm)):
+             print(f"Warning: LGBM Scaler file '{scaler_path_lgbm}' not found or not saved.")
          # Pass ORIGINAL X and y splits
         train_lgbm_predictor(X_train, X_val, X_test, y_train, y_val, y_test,
                              numerical_features, categorical_features, class_weight_dict)
+        joblib.dump(feature_columns, 'feature_list.joblib')
 
 
 # --- Main execution block ---
