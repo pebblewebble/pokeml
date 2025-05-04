@@ -63,3 +63,127 @@ Saving LGBM feature info to action_lgbm_feature_info_v4_medium_move_only.joblib
 LGBM feature info saved.
 Saving LGBM scaler to action_lgbm_scaler_v4_medium_move_only.joblib
 LGBM scaler saved.
+
+
+
+for switch:
+PS C:\Users\Eric\Documents\pokeml> python .\train_switch_predictor.py .\10k.parquet --model_type lightgbm --feature_set simplified 
+2025-05-04 22:58:37.620253: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-05-04 22:58:38.758505: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+--- Starting Switch Predictor Training (V2 - Binary, Redefined Simplified Set) ---
+Model type: LIGHTGBM
+Feature Set: SIMPLIFIED
+Loading data from: .\10k.parquet
+Original data shape: (513416, 184)
+
+Filtering data...
+Rows after dropping NaN action_taken: 513416
+Filtering for player_to_move == 'p1' (for simplified set)...
+Rows after filtering for p1's move: 256619 (Removed 256797)
+Rows after filtering turns >= 1: 246688 (Removed 9931)
+
+Creating binary target variable 'is_switch' (1 if action starts with 'switch', 0 otherwise)...Target distribution: 0 (Move) = 166742, 1 (Switch) = 79946
+
+--- Using REDEFINED SIMPLIFIED feature set + REVEALED MOVES ---
+Selecting 80 base columns for simplified set...
+  Found 80 direct base columns.
+  Extracting active Pokemon details...
+  Active Pokemon details extracted.
+
+  Processing 'revealed_moves' features for simplified set (Multi-Hot Encoding)...
+  Finding unique revealed moves...
+  Found 564 unique revealed moves across relevant slots.
+  Creating and populating binary revealed move columns...
+  Created 6768 new binary move features.
+  Adding active Pokemon and revealed move details to X DataFrame...
+Simplified X final shape: (246688, 6856)
+
+Identifying final feature types for 'simplified + moves' set...
+  Adding 6768 binary revealed move features to numerical list.
+
+Final NaN Check for 'simplified' set...
+  NaNs found BEFORE final handling in columns: ['p1_active_species', 'p1_active_hp_perc', 'p1_active_status', 'p1_active_terastallized', 'p2_active_species', 'p2_active_hp_perc', 'p2_active_status', 'p2_active_terastallized']
+C:\Users\Eric\Documents\pokeml\train_switch_predictor.py:641: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  final_categorical = [col for col in X.columns if pd.api.types.is_categorical_dtype(X[col]) or X[col].dtype == 'object']
+  Applying final fillna round...
+    Filling NaNs in numerical column 'p1_active_hp_perc' with 0.
+    Filling NaNs in numerical column 'p1_active_terastallized' with 0.
+    Filling NaNs in numerical column 'p2_active_hp_perc' with 0.
+    Filling NaNs in numerical column 'p2_active_terastallized' with 0.
+    Filling NaNs in categorical/object column 'p1_active_species' with 'Unknown'.
+C:\Users\Eric\Documents\pokeml\train_switch_predictor.py:655: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if pd.api.types.is_categorical_dtype(X[col]):
+    Filling NaNs in categorical/object column 'p1_active_status' with 'Unknown'.
+C:\Users\Eric\Documents\pokeml\train_switch_predictor.py:655: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if pd.api.types.is_categorical_dtype(X[col]):
+    Filling NaNs in categorical/object column 'p2_active_species' with 'Unknown'.
+C:\Users\Eric\Documents\pokeml\train_switch_predictor.py:655: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if pd.api.types.is_categorical_dtype(X[col]):
+    Filling NaNs in categorical/object column 'p2_active_status' with 'Unknown'.
+C:\Users\Eric\Documents\pokeml\train_switch_predictor.py:655: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if pd.api.types.is_categorical_dtype(X[col]):
+  Final NaN handling applied.
+
+Final feature counts for 'simplified' set:
+  Numerical: 6825
+  Categorical: 31
+  Total Features in X: 6856
+
+Splitting data into Train, Validation, Test sets...
+Successfully split data.
+Train shape: (160346, 6856), Val shape: (37004, 6856), Test shape: (49338, 6856)
+Train target distribution: 0=108381, 1=51965
+Val target distribution:   0=25012, 1=11992
+Test target distribution:  0=33349, 1=15989
+
+Calculating class weights for handling imbalance...
+Class weights calculated: {0: 0.7397329790276893, 1: 1.5428269027229866}
+Final feature lists saved to switch_predictor_feature_lists_v2_simplified_moves.joblib
+
+Preprocessing for LGBM (dtype conversion, scaling) will occur inside its training function.   
+
+--- Initiating LIGHTGBM Model Training (simplified_moves features V2, Binary Switch Prediction) ---
+
+--- Training LightGBM Switch Predictor (Binary) ---
+Using 6825 numerical and 31 categorical features for LGBM.
+Converting categorical features to 'category' dtype for LGBM...
+Scaling numerical features for LGBM...
+Numerical scaling complete.
+Creating LGBM datasets...
+Calculating sample weights for LGBM...
+Sample weights calculated (min: 0.74, max: 1.54).
+Applied sample weights to training dataset.
+Starting LGBM model training...
+Training until validation scores don't improve for 50 rounds
+[50]    train's binary_logloss: 0.545902        train's binary_error: 0.225944  train's auc: 0.854244 eval's binary_logloss: 0.551248 eval's binary_error: 0.234542   eval's auc: 0.844535  
+[100]   train's binary_logloss: 0.49151 train's binary_error: 0.21848   train's auc: 0.86388 eval's binary_logloss: 0.503333  eval's binary_error: 0.230299   eval's auc: 0.850461
+[150]   train's binary_logloss: 0.463205        train's binary_error: 0.209587  train's auc: 0.874681 eval's binary_logloss: 0.482409 eval's binary_error: 0.224462   eval's auc: 0.856136  
+[200]   train's binary_logloss: 0.445024        train's binary_error: 0.202246  train's auc: 0.882518 eval's binary_logloss: 0.471936 eval's binary_error: 0.221922   eval's auc: 0.858606  
+[250]   train's binary_logloss: 0.430992        train's binary_error: 0.195343  train's auc: 0.89003  eval's binary_logloss: 0.465565 eval's binary_error: 0.221436   eval's auc: 0.860641  
+[300]   train's binary_logloss: 0.420005        train's binary_error: 0.188586  train's auc: 0.896267 eval's binary_logloss: 0.462147 eval's binary_error: 0.22003    eval's auc: 0.86137   
+Early stopping, best iteration is:
+[298]   train's binary_logloss: 0.420378        train's binary_error: 0.188944  train's auc: 0.896038 eval's binary_logloss: 0.462202 eval's binary_error: 0.21976    eval's auc: 0.86138   
+LGBM Training finished.
+
+Evaluating LGBM model on the test set...
+LGBM Test Accuracy: 0.7792
+LGBM Test AUC: 0.8600
+
+LGBM Classification Report (Test Set):
+              precision    recall  f1-score   support
+
+    Move (0)       0.88      0.78      0.83     33349
+  Switch (1)       0.63      0.77      0.69     15989
+
+    accuracy                           0.78     49338
+   macro avg       0.75      0.78      0.76     49338
+weighted avg       0.80      0.78      0.78     49338
+
+Saving LGBM model to switch_predictor_lgbm_model_v2_simplified_moves.txt
+LGBM Model saved.
+Saving LGBM feature info to switch_predictor_lgbm_feature_info_v2_simplified_moves.joblib     
+LGBM feature info saved.
+Saving LGBM scaler to switch_predictor_lgbm_scaler_v2_simplified_moves.joblib
+LGBM scaler saved.
+
+--- Switch Predictor Training Script Finished ---
