@@ -226,7 +226,7 @@ def train_lgbm_switch_predictor(X_train, X_val, X_test,
     params = {
         'objective': 'binary', 'metric': ['binary_logloss', 'binary_error', 'auc'],
         'boosting_type': 'gbdt', 'n_estimators': 2500, # Can be increased if needed
-        'learning_rate': 0.02, 'num_leaves': 31, # Can be tuned
+        'learning_rate': 0.02, 'num_leaves': 50, # Can be tuned
         'reg_alpha': 0.1, 'reg_lambda': 0.1, # Regularization
         'colsample_bytree': 0.8, 'subsample': 0.8, # Feature/Data sampling
         'min_child_samples': 20, # Regularization
@@ -251,7 +251,7 @@ def train_lgbm_switch_predictor(X_train, X_val, X_test,
     print("\nEvaluating LGBM model on the test set...")
     try:
         y_pred_proba = lgbm_model.predict(X_test_lgbm, num_iteration=lgbm_model.best_iteration)
-        y_pred_binary = (y_pred_proba > 0.45).astype(int) # Using default 0.5 threshold
+        y_pred_binary = (y_pred_proba > 0.5).astype(int) # Using default 0.5 threshold
         accuracy = accuracy_score(y_test, y_pred_binary)
         auc = roc_auc_score(y_test, y_pred_proba)
         print(f"LGBM Test Accuracy: {accuracy:.4f}")

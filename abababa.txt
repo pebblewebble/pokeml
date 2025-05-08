@@ -67,6 +67,7 @@ LGBM scaler saved.
 
 
 for switch:
+
 PS C:\Users\Eric\Documents\pokeml> python .\train_switch_predictor.py .\10k.parquet --model_type lightgbm --feature_set simplified 
 2025-05-04 22:58:37.620253: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
 2025-05-04 22:58:38.758505: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
@@ -173,6 +174,157 @@ LGBM Classification Report (Test Set):
               precision    recall  f1-score   support
 
     Move (0)       0.88      0.78      0.83     33349
+  Switch (1)       0.63      0.77      0.69     15989
+
+    accuracy                           0.78     49338
+   macro avg       0.75      0.78      0.76     49338
+weighted avg       0.80      0.78      0.78     49338
+
+Saving LGBM model to switch_predictor_lgbm_model_v2_simplified_moves.txt
+LGBM Model saved.
+Saving LGBM feature info to switch_predictor_lgbm_feature_info_v2_simplified_moves.joblib     
+LGBM feature info saved.
+Saving LGBM scaler to switch_predictor_lgbm_scaler_v2_simplified_moves.joblib
+LGBM scaler saved.
+
+--- Switch Predictor Training Script Finished ---
+
+number of leaves = 50
+
+PS C:\Users\Eric\Documents\pokeml> python .\train_switch_predictor.py .\10k.parquet --model_type lightgbm --feature_set simplified
+2025-05-09 00:37:53.427511: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2025-05-09 00:37:55.110526: I tensorflow/core/util/port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+--- Starting Switch Predictor Training (V2 - Binary, Redefined Simplified Set) ---
+Model type: LIGHTGBM
+Feature Set: SIMPLIFIED
+Loading data from: .\10k.parquet
+Original data shape: (513416, 184)
+
+Filtering data...
+Rows after dropping NaN action_taken: 513416
+Filtering for player_to_move == 'p1' (for simplified set)...
+Rows after filtering for p1's move: 256619 (Removed 256797)
+Rows after filtering turns >= 1: 246688 (Removed 9931)
+
+Creating binary target variable 'is_switch' (1 if action starts with 'switch', 0 otherwise)...Target distribution: 0 (Move) = 166742, 1 (Switch) = 79946
+
+--- Using REDEFINED SIMPLIFIED feature set + REVEALED MOVES ---
+Selecting 80 base columns for simplified set...
+  Found 80 direct base columns.
+  Extracting active Pokemon details...
+  Active Pokemon details extracted.
+
+  Processing 'revealed_moves' features for simplified set (Multi-Hot Encoding)...
+  Finding unique revealed moves...
+  Found 564 unique revealed moves across relevant slots.
+  Creating and populating binary revealed move columns...
+  Created 6768 new binary move features.
+  Adding active Pokemon and revealed move details to X DataFrame...
+Simplified X final shape: (246688, 6856)
+
+Identifying final feature types for 'simplified + moves' set...
+  Adding 6768 binary revealed move features to numerical list.
+
+Final NaN Check for 'simplified' set...
+  NaNs found BEFORE final handling in columns: ['p1_active_species', 'p1_active_hp_perc', 'p1_active_status', 'p1_active_terastallized', 'p2_active_species', 'p2_active_hp_perc', 'p2_active_status', 'p2_active_terastallized']
+C:\Users\Eric\Documents\pokeml\train_switch_predictor.py:674: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  final_categorical = [col for col in X.columns if pd.api.types.is_categorical_dtype(X[col]) or X[col].dtype == 'object']
+  Applying final fillna round...
+    Filling NaNs in numerical column 'p1_active_hp_perc' with 0.
+    Filling NaNs in numerical column 'p1_active_terastallized' with 0.
+    Filling NaNs in numerical column 'p2_active_hp_perc' with 0.
+    Filling NaNs in numerical column 'p2_active_terastallized' with 0.
+    Filling NaNs in categorical/object column 'p1_active_species' with 'Unknown'.
+C:\Users\Eric\Documents\pokeml\train_switch_predictor.py:688: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if pd.api.types.is_categorical_dtype(X[col]):
+    Filling NaNs in categorical/object column 'p1_active_status' with 'Unknown'.
+C:\Users\Eric\Documents\pokeml\train_switch_predictor.py:688: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if pd.api.types.is_categorical_dtype(X[col]):
+    Filling NaNs in categorical/object column 'p2_active_species' with 'Unknown'.
+C:\Users\Eric\Documents\pokeml\train_switch_predictor.py:688: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if pd.api.types.is_categorical_dtype(X[col]):
+    Filling NaNs in categorical/object column 'p2_active_status' with 'Unknown'.
+C:\Users\Eric\Documents\pokeml\train_switch_predictor.py:688: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  if pd.api.types.is_categorical_dtype(X[col]):
+  Final NaN handling applied.
+
+Final feature counts for 'simplified' set:
+  Numerical: 6825
+  Categorical: 31
+  Total Features in X: 6856
+
+Splitting data into Train, Validation, Test sets...
+Successfully split data.
+Train shape: (160346, 6856), Val shape: (37004, 6856), Test shape: (49338, 6856)
+Train target distribution: 0=108381, 1=51965
+Val target distribution:   0=25012, 1=11992
+Test target distribution:  0=33349, 1=15989
+
+Calculating class weights for handling imbalance...
+Class weights calculated: {0: 0.7397329790276893, 1: 1.5428269027229866}
+Final feature lists saved to switch_predictor_feature_lists_v2_simplified_moves.joblib
+
+Preprocessing for LGBM (dtype conversion, scaling) will occur inside its training function.   
+
+--- Initiating LIGHTGBM Model Training (simplified_moves features V2, Binary Switch Prediction) ---
+
+--- Training LightGBM Switch Predictor (Binary) ---
+Using 6825 numerical and 31 categorical features for LGBM.
+Converting categorical features to 'category' dtype for LGBM...
+Scaling numerical features for LGBM...
+Numerical scaling complete.
+Creating LGBM datasets...
+Calculating sample weights for LGBM...
+Sample weights calculated (min: 0.74, max: 1.54).
+Applied sample weights to training dataset.
+Starting LGBM model training...
+Training until validation scores don't improve for 50 rounds
+[10]    train's binary_logloss: 0.643452        train's binary_error: 0.225287  train's auc: 0.852469 eval's binary_logloss: 0.64497  eval's binary_error: 0.234083   eval's auc: 0.841245  
+[20]    train's binary_logloss: 0.603122        train's binary_error: 0.225369  train's auc: 0.853511 eval's binary_logloss: 0.606437 eval's binary_error: 0.235299   eval's auc: 0.840675  
+[30]    train's binary_logloss: 0.577758        train's binary_error: 0.219846  train's auc: 0.859634 eval's binary_logloss: 0.58293  eval's binary_error: 0.232245   eval's auc: 0.845197  
+[40]    train's binary_logloss: 0.553397        train's binary_error: 0.218106  train's auc: 0.862406 eval's binary_logloss: 0.560346 eval's binary_error: 0.23238    eval's auc: 0.847278  
+[50]    train's binary_logloss: 0.536772        train's binary_error: 0.215006  train's auc: 0.86608  eval's binary_logloss: 0.545797 eval's binary_error: 0.230948   eval's auc: 0.84932   
+[60]    train's binary_logloss: 0.519508        train's binary_error: 0.213489  train's auc: 0.868056 eval's binary_logloss: 0.530439 eval's binary_error: 0.229678   eval's auc: 0.85049   
+[70]    train's binary_logloss: 0.507046        train's binary_error: 0.21034   train's auc: 0.87132  eval's binary_logloss: 0.520099 eval's binary_error: 0.229624   eval's auc: 0.852412  
+[80]    train's binary_logloss: 0.495872        train's binary_error: 0.208044  train's auc: 0.873521 eval's binary_logloss: 0.511169 eval's binary_error: 0.228165   eval's auc: 0.853049  
+[90]    train's binary_logloss: 0.485472        train's binary_error: 0.206577  train's auc: 0.875408 eval's binary_logloss: 0.503079 eval's binary_error: 0.227867   eval's auc: 0.853622  
+[100]   train's binary_logloss: 0.47624 train's binary_error: 0.204641  train's auc: 0.877802
+eval's binary_logloss: 0.496029 eval's binary_error: 0.226435   eval's auc: 0.854787
+[110]   train's binary_logloss: 0.468409        train's binary_error: 0.202399  train's auc: 0.880426 eval's binary_logloss: 0.490564 eval's binary_error: 0.225922   eval's auc: 0.855883  
+[120]   train's binary_logloss: 0.461313        train's binary_error: 0.200161  train's auc: 0.882768 eval's binary_logloss: 0.485784 eval's binary_error: 0.225057   eval's auc: 0.856776  
+[130]   train's binary_logloss: 0.454765        train's binary_error: 0.198012  train's auc: 0.885028 eval's binary_logloss: 0.481627 eval's binary_error: 0.223976   eval's auc: 0.857501  
+[140]   train's binary_logloss: 0.44899 train's binary_error: 0.195449  train's auc: 0.887478
+eval's binary_logloss: 0.478238 eval's binary_error: 0.223084   eval's auc: 0.85835
+[150]   train's binary_logloss: 0.443485        train's binary_error: 0.192902  train's auc: 0.890076 eval's binary_logloss: 0.475141 eval's binary_error: 0.222489   eval's auc: 0.859353  
+[160]   train's binary_logloss: 0.438212        train's binary_error: 0.191288  train's auc: 0.891979 eval's binary_logloss: 0.472043 eval's binary_error: 0.221625   eval's auc: 0.860024  
+[170]   train's binary_logloss: 0.433574        train's binary_error: 0.189158  train's auc: 0.893931 eval's binary_logloss: 0.469868 eval's binary_error: 0.221949   eval's auc: 0.860366  
+[180]   train's binary_logloss: 0.429157        train's binary_error: 0.187603  train's auc: 0.895848 eval's binary_logloss: 0.467786 eval's binary_error: 0.221246   eval's auc: 0.8608    
+[190]   train's binary_logloss: 0.424986        train's binary_error: 0.185538  train's auc: 0.897739 eval's binary_logloss: 0.465971 eval's binary_error: 0.22076    eval's auc: 0.861175  
+[200]   train's binary_logloss: 0.420858        train's binary_error: 0.18375   train's auc: 0.899598 eval's binary_logloss: 0.464136 eval's binary_error: 0.220192   eval's auc: 0.861655  
+[210]   train's binary_logloss: 0.417106        train's binary_error: 0.181767  train's auc: 0.901553 eval's binary_logloss: 0.462637 eval's binary_error: 0.219949   eval's auc: 0.862127  
+[220]   train's binary_logloss: 0.413407        train's binary_error: 0.179585  train's auc: 0.903361 eval's binary_logloss: 0.461309 eval's binary_error: 0.219165   eval's auc: 0.862414  
+[230]   train's binary_logloss: 0.409926        train's binary_error: 0.177324  train's auc: 0.905185 eval's binary_logloss: 0.460157 eval's binary_error: 0.218787   eval's auc: 0.862716  
+[240]   train's binary_logloss: 0.406607        train's binary_error: 0.175885  train's auc: 0.906835 eval's binary_logloss: 0.459084 eval's binary_error: 0.218301   eval's auc: 0.862908  
+[250]   train's binary_logloss: 0.403494        train's binary_error: 0.174115  train's auc: 0.908363 eval's binary_logloss: 0.458199 eval's binary_error: 0.218193   eval's auc: 0.863007  
+[260]   train's binary_logloss: 0.400515        train's binary_error: 0.172332  train's auc: 0.909951 eval's binary_logloss: 0.457421 eval's binary_error: 0.217976   eval's auc: 0.863134  
+[270]   train's binary_logloss: 0.39767 train's binary_error: 0.17062   train's auc: 0.911421
+eval's binary_logloss: 0.45689  eval's binary_error: 0.218517   eval's auc: 0.863055
+[280]   train's binary_logloss: 0.394787        train's binary_error: 0.168842  train's auc: 0.91291  eval's binary_logloss: 0.456175 eval's binary_error: 0.218544   eval's auc: 0.863171  
+[290]   train's binary_logloss: 0.392148        train's binary_error: 0.167187  train's auc: 0.91425  eval's binary_logloss: 0.455667 eval's binary_error: 0.21849    eval's auc: 0.863121  
+[300]   train's binary_logloss: 0.38961 train's binary_error: 0.165509  train's auc: 0.915641
+eval's binary_logloss: 0.455303 eval's binary_error: 0.218166   eval's auc: 0.863038
+Early stopping, best iteration is:
+[254]   train's binary_logloss: 0.402281        train's binary_error: 0.173346  train's auc: 0.908965 eval's binary_logloss: 0.457856 eval's binary_error: 0.217652   eval's auc: 0.863061  
+LGBM Training finished.
+
+Evaluating LGBM model on the test set...
+LGBM Test Accuracy: 0.7797
+LGBM Test AUC: 0.8614
+
+LGBM Classification Report (Test Set):
+              precision    recall  f1-score   support
+
+    Move (0)       0.88      0.79      0.83     33349
   Switch (1)       0.63      0.77      0.69     15989
 
     accuracy                           0.78     49338
