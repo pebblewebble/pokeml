@@ -240,7 +240,7 @@ def train_lgbm_switch_predictor(X_train, X_val, X_test,
     evals_result = {}
     callbacks = [
         lgb.early_stopping(stopping_rounds=50, verbose=True), # Stop if val score doesn't improve
-        lgb.log_evaluation(period=50), # Print results every 50 rounds
+        lgb.log_evaluation(period=10), # Print results every 50 rounds
         lgb.record_evaluation(evals_result) # Store results for plotting/analysis if needed
     ]
     lgbm_model = lgb.train(params, lgb_train, valid_sets=[lgb_train, lgb_eval],
@@ -323,7 +323,8 @@ def run_switch_training(parquet_path, model_type='tensorflow', feature_set='full
     print(f"Rows after dropping NaN action_taken: {len(df)}")
 
     # Apply player filter *conditionally* IF using simplified, maintain original logic
-    if feature_set == 'simplified':
+    
+    if feature_set == 'simplified' or feature_set == 'minimal_active_species':
          print(f"Filtering for player_to_move == 'p1' (for {feature_set} set)...")
          rows_before_p1_filter = len(df)
          df = df[df['player_to_move'] == 'p1'].copy()
@@ -363,7 +364,39 @@ def run_switch_training(parquet_path, model_type='tensorflow', feature_set='full
     all_revealed_moves_binary_cols = [] # Store names of created move cols
 
     # --- Feature Set Logic ---
-    if feature_set == 'simplified':
+    if feature_set == 'minimal_active_species':
+            print("\n--- Using MINIMAL ACTIVE SPECIES feature set ---")
+            # --- Extract Active Pokemon SPECIES ONLY ---
+            print("  Extracting active Pokemon species...")
+            active_species_data = []
+            for idx, row in df.iterrows(): # Iterate over the filtered df
+                p1_active_species = 'Unknown'
+                p2_active_species = 'Unknown'
+                for i_slot in range(1, 7):
+                    if row.get(f'p1_slot{i_slot}_is_active', 0) == 1:
+                        p1_active_species = row.get(f'p1_slot{i_slot}_species', 'Unknown')
+                        break # Found p1 active
+                for i_slot in range(1, 7):
+                    if row.get(f'p2_slot{i_slot}_is_active', 0) == 1:
+                        p2_active_species = row.get(f'p2_slot{i_slot}_species', 'Unknown')
+                        break # Found p2 active
+                active_species_data.append({
+                    'original_index': idx,
+                    'p1_active_species': p1_active_species,
+                    'p2_active_species': p2_active_species
+                })
+            X = pd.DataFrame(active_species_data).set_index('original_index')
+            print(f"  Active species extracted. X shape: {X.shape}")
+            del active_species_data; gc.collect()
+
+            # --- Identify Final Feature Types for Minimal Set ---
+            categorical_features = ['p1_active_species', 'p2_active_species']
+            numerical_features = [] # No numerical features in this set
+            print("\nIdentifying final feature types for 'minimal_active_species' set...")
+            # Ensure these columns actually exist in X, though they should by construction
+            categorical_features = [col for col in categorical_features if col in X.columns]
+
+    elif feature_set == 'simplified':
         print("\n--- Using REDEFINED SIMPLIFIED feature set + REVEALED MOVES ---")
         # Define the base columns for the simplified set (EXCLUDING revealed moves for now)
         selected_columns = ['turn_number', 'last_move_p1', 'last_move_p2', 'field_weather']
@@ -891,7 +924,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train a binary switch predictor (V2 - Switch vs Move).")
     parser.add_argument("parquet_file", type=str, help="Path to the input Parquet file.")
     parser.add_argument("--model_type", choices=['tensorflow', 'lightgbm'], default='lightgbm', help="Type of model to train.")
-    parser.add_argument("--feature_set", choices=['full', 'simplified'], default='simplified', help="Feature set to use.")
+    parser.add_argument("--feature_set", choices=['full', 'simplified','minimal_active_species'], default='simplified', help="Feature set to use.")
     parser.add_argument("--min_turn", type=int, default=1, help="Minimum turn number to include (default: 1).")
     parser.add_argument("--test_split", type=float, default=0.2, help="Fraction for test set (default: 0.2).")
     parser.add_argument("--val_split", type=float, default=0.15, help="Fraction for validation set (relative to train data, default: 0.15).")
