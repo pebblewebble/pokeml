@@ -18,6 +18,7 @@ import joblib
 import warnings
 import gc # Garbage collector
 import re # For sanitizing move names
+import optuna
 
 # Suppress TensorFlow/warnings
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
@@ -121,181 +122,306 @@ def train_tensorflow_switch_predictor(X_train_processed, X_val_processed, X_test
 
 # --- LGBM Training Function (train_lgbm_switch_predictor - unchanged) ---
 def train_lgbm_switch_predictor(X_train, X_val, X_test,
-                                y_train, y_val, y_test, # Use BINARY y (0/1)
+                                y_train, y_val, y_test,
                                 numerical_features, categorical_features,
-                                class_weight_dict, # Pass weights dict (for sample weights)
-                                model_suffix=""): # Use model_suffix
+                                class_weight_dict,
+                                model_suffix="",
+                                perform_hpo=True, # <<<< New parameter to control HPO
+                                n_hpo_trials=50): # <<<< Number of HPO trials
     print(f"\n--- Training LightGBM Switch Predictor (Binary) ---")
     print(f"Using {len(numerical_features)} numerical and {len(categorical_features)} categorical features for LGBM.")
+    print(f"Perform Hyperparameter Optimization (Optuna): {perform_hpo}")
 
-    # --- Preprocessing Specific to LGBM ---
-    print("Converting categorical features to 'category' dtype for LGBM...")
-    category_map = {}
+    def objective(trial, current_X_train, current_y_train, current_X_val, current_y_val,
+                  numerical_features_obj, categorical_features_obj, class_weight_dict_obj):
+        
+        # Copy data to avoid modification issues across trials if operations are in-place
+        X_train_trial = current_X_train.copy()
+        X_val_trial = current_X_val.copy()
+
+        trial_category_map = {}
+        trial_active_categorical_features = []
+        for col in categorical_features_obj:
+            if col in X_train_trial.columns:
+                trial_active_categorical_features.append(col)
+                all_categories = pd.concat([
+                    X_train_trial[col].astype(str).fillna('Unknown'),
+                    X_val_trial[col].astype(str).fillna('Unknown')
+                ]).unique()
+                all_categories = [c for c in all_categories if isinstance(c, str)]
+                cat_type = pd.CategoricalDtype(categories=sorted(list(all_categories)), ordered=False)
+                try:
+                    X_train_trial[col] = X_train_trial[col].astype(str).fillna('Unknown').astype(cat_type)
+                    X_val_trial[col] = X_val_trial[col].astype(str).fillna('Unknown').astype(cat_type)
+                    trial_category_map[col] = cat_type
+                except ValueError:
+                    X_train_trial[col] = X_train_trial[col].astype(str).fillna('Unknown').astype('category')
+                    X_val_trial[col] = X_val_trial[col].astype(str).fillna('Unknown').astype('category')
+                    trial_category_map[col] = X_train_trial[col].dtype
+
+
+        trial_active_numerical_features = [f for f in numerical_features_obj if f in X_train_trial.columns]
+        if trial_active_numerical_features:
+            scaler_trial = StandardScaler() # Always fit scaler on trial's train data
+            try:
+                X_train_trial[trial_active_numerical_features] = scaler_trial.fit_transform(X_train_trial[trial_active_numerical_features])
+                X_val_trial[trial_active_numerical_features] = scaler_trial.transform(X_val_trial[trial_active_numerical_features])
+            except ValueError: # Handle cases where a column might be all NaN or non-numeric
+                print("Warning: Scaling failed in HPO trial for some numerical features.")
+                # Remove problematic features from list for this trial if necessary, or skip scaling
+                pass
+
+
+        trial_final_feature_names = trial_active_numerical_features + trial_active_categorical_features
+        trial_final_feature_names = [f for f in trial_final_feature_names if f in X_train_trial.columns]
+
+        X_train_trial_processed = X_train_trial[trial_final_feature_names]
+        X_val_trial_processed = X_val_trial[trial_final_feature_names]
+
+        lgb_train_trial = lgb.Dataset(X_train_trial_processed, label=current_y_train,
+                                      categorical_feature=[f for f in trial_active_categorical_features if f in trial_final_feature_names] or 'auto',
+                                      free_raw_data=False)
+        lgb_eval_trial = lgb.Dataset(X_val_trial_processed, label=current_y_val, reference=lgb_train_trial,
+                                     categorical_feature=[f for f in trial_active_categorical_features if f in trial_final_feature_names] or 'auto',
+                                     free_raw_data=False)
+
+        if class_weight_dict_obj:
+            sample_weight_trial = current_y_train.map(class_weight_dict_obj).fillna(1.0).values
+            lgb_train_trial.set_weight(sample_weight_trial)
+
+        # Define the search space for parameters
+        params = {
+            'objective': 'binary',
+            'metric': 'auc', # Optimize for AUC
+            'boosting_type': 'gbdt',
+            'verbosity': -1,
+            'n_jobs': -1,
+            'seed': 42,
+            'learning_rate': trial.suggest_float('learning_rate', 0.005, 0.05, log=True),
+            'n_estimators': trial.suggest_int('n_estimators', 500, 3000), # Upper bound, early stopping will manage
+            'num_leaves': trial.suggest_int('num_leaves', 20, 150), # Key tuning parameter
+            'reg_alpha': trial.suggest_float('reg_alpha', 1e-8, 1.0, log=True), # L1 regularization
+            'reg_lambda': trial.suggest_float('reg_lambda', 1e-8, 1.0, log=True), # L2 regularization
+            'colsample_bytree': trial.suggest_float('colsample_bytree', 0.5, 1.0), # Feature fraction
+            'subsample': trial.suggest_float('subsample', 0.6, 1.0), # Bagging fraction
+            'min_child_samples': trial.suggest_int('min_child_samples', 5, 100), # Min data in a leaf
+            # 'max_depth': trial.suggest_int('max_depth', 3, 12), # Can be an alternative to num_leaves
+        }
+
+        model = lgb.train(
+            params,
+            lgb_train_trial,
+            valid_sets=[lgb_eval_trial],
+            valid_names=['eval'],
+            callbacks=[lgb.early_stopping(stopping_rounds=50, verbose=False)] # Keep verbose False for HPO
+        )
+        
+        preds_proba = model.predict(X_val_trial_processed, num_iteration=model.best_iteration)
+        auc_score = roc_auc_score(current_y_val, preds_proba)
+        return auc_score
+    # --- End of objective function ---
+
+    # --- Initial Data Copies (to be used for HPO and final training) ---
+    # These are the X_train, X_val passed to train_lgbm_switch_predictor
     X_train_lgbm = X_train.copy()
     X_val_lgbm = X_val.copy()
-    X_test_lgbm = X_test.copy()
+    X_test_lgbm = X_test.copy() # For final evaluation
+
+    best_params_from_hpo = {}
+    if perform_hpo:
+        print(f"\n--- Starting Optuna Hyperparameter Optimization ({n_hpo_trials} trials) ---")
+        study = optuna.create_study(direction='maximize', study_name="lgbm_switch_predictor_tuning")
+        # Pass the original X_train, y_train, X_val, y_val for HPO
+        study.optimize(lambda trial: objective(trial, X_train, y_train, X_val, y_val,
+                                               numerical_features, categorical_features, class_weight_dict),
+                       n_trials=n_hpo_trials,
+                       timeout=None) # Optional: set a timeout in seconds: e.g., timeout=3600 for 1 hour
+
+        print("\n--- Optuna HPO Finished ---")
+        print("Best trial:")
+        best_trial = study.best_trial
+        print(f"  Value (AUC): {best_trial.value:.4f}")
+        print("  Params: ")
+        for key, value in best_trial.params.items():
+            print(f"    {key}: {value}")
+        best_params_from_hpo = best_trial.params
+    else:
+        print("Skipping Hyperparameter Optimization.")
+
+
+    # --- Final Model Training (using best HPO params or defaults) ---
+    print("\n--- Preparing Data for Final Model Training ---")
+    # Preprocessing for the final model (applied to X_train_lgbm, X_val_lgbm, X_test_lgbm)
+    # This ensures consistent preprocessing before training the final model.
+    category_map = {}
     active_categorical_features = []
-    for col in categorical_features:
+    for col in categorical_features: # Use original full list of potential cat features
         if col in X_train_lgbm.columns:
             active_categorical_features.append(col)
-            # Combine categories from all splits to ensure consistency
             all_categories = pd.concat([
-                X_train_lgbm[col].astype(str).fillna('Unknown'), # Handle potential NaNs introduced before split
-                X_val_lgbm[col].astype(str).fillna('Unknown'),
-                X_test_lgbm[col].astype(str).fillna('Unknown')
+                X_train_lgbm[col].astype(str).fillna('Unknown'),
+                X_val_lgbm[col].astype(str).fillna('Unknown'), # Include val for full category scope
+                X_test_lgbm[col].astype(str).fillna('Unknown')  # Include test for full category scope
             ]).unique()
-            # Filter out potential numeric types misinterpreted as categories if necessary
-            all_categories = [cat for cat in all_categories if isinstance(cat, str)]
+            all_categories = [c for c in all_categories if isinstance(c, str)]
             cat_type = pd.CategoricalDtype(categories=sorted(list(all_categories)), ordered=False)
             try:
                 X_train_lgbm[col] = X_train_lgbm[col].astype(str).fillna('Unknown').astype(cat_type)
                 X_val_lgbm[col] = X_val_lgbm[col].astype(str).fillna('Unknown').astype(cat_type)
                 X_test_lgbm[col] = X_test_lgbm[col].astype(str).fillna('Unknown').astype(cat_type)
                 category_map[col] = cat_type
-            except ValueError as e:
-                 print(f"Warning: Issue setting category dtype for {col}: {e}. Using default category conversion.")
-                 # Fallback if strict dtype fails (e.g., unexpected values)
-                 X_train_lgbm[col] = X_train_lgbm[col].astype(str).fillna('Unknown').astype('category')
-                 X_val_lgbm[col] = X_val_lgbm[col].astype(str).fillna('Unknown').astype('category')
-                 X_test_lgbm[col] = X_test_lgbm[col].astype(str).fillna('Unknown').astype('category')
-                 # Store the learned categories from train
-                 category_map[col] = X_train_lgbm[col].dtype
+            except ValueError:
+                # Fallback
+                X_train_lgbm[col] = X_train_lgbm[col].astype(str).fillna('Unknown').astype('category')
+                X_val_lgbm[col] = X_val_lgbm[col].astype(str).fillna('Unknown').astype('category')
+                X_test_lgbm[col] = X_test_lgbm[col].astype(str).fillna('Unknown').astype('category')
+                category_map[col] = X_train_lgbm[col].dtype
         else:
-             print(f"Warning: Categorical feature '{col}' not found in training data columns for LGBM.")
+             print(f"Warning: Categorical feature '{col}' not found in X_train_lgbm for final processing.")
 
-    # Ensure correct feature list for scaling
+
     active_numerical_features = [f for f in numerical_features if f in X_train_lgbm.columns]
-
-    # Scale Numerical Features
     scaler = None
     features_scaled = []
-    if active_numerical_features: # Check if list is not empty
-        print("Scaling numerical features for LGBM...")
+    if active_numerical_features:
+        print("Scaling numerical features for final model...")
         scaler = StandardScaler()
         try:
+            # Fit scaler on X_train_lgbm only
             X_train_lgbm[active_numerical_features] = scaler.fit_transform(X_train_lgbm[active_numerical_features])
-            X_val_lgbm[active_numerical_features] = scaler.transform(X_val_lgbm[active_numerical_features])
-            X_test_lgbm[active_numerical_features] = scaler.transform(X_test_lgbm[active_numerical_features])
+            # Transform X_val_lgbm and X_test_lgbm using the SAME fitted scaler
+            if any(col in X_val_lgbm.columns for col in active_numerical_features): # Check if val has these cols
+                X_val_lgbm[active_numerical_features] = scaler.transform(X_val_lgbm[active_numerical_features])
+            if any(col in X_test_lgbm.columns for col in active_numerical_features): # Check if test has these cols
+                X_test_lgbm[active_numerical_features] = scaler.transform(X_test_lgbm[active_numerical_features])
             features_scaled = active_numerical_features
-            print("Numerical scaling complete.")
+            print("Numerical scaling complete for final model.")
         except ValueError as e:
-            print(f"Warning: ValueError during scaling: {e}. Some numerical columns might have non-numeric data or all NaNs. Skipping scaling.")
-            scaler = None # Reset scaler if it failed
-            features_scaled = []
+            print(f"Warning: ValueError during final scaling: {e}. Skipping scaling.")
+            scaler = None; features_scaled = []
         except Exception as e:
-             print(f"Warning: An unexpected error occurred during scaling: {e}. Skipping scaling.")
-             scaler = None
-             features_scaled = []
+             print(f"Warning: An unexpected error during final scaling: {e}. Skipping scaling.")
+             scaler = None; features_scaled = []
     else:
-        print("No numerical features to scale for LGBM.")
+        print("No numerical features to scale for final model.")
 
 
-    # Prepare LGBM Datasets
     final_feature_names = active_numerical_features + active_categorical_features
-    # Ensure final features exist in the dataframe after potential scaling issues etc.
     final_feature_names = [col for col in final_feature_names if col in X_train_lgbm.columns]
-    X_train_lgbm = X_train_lgbm[final_feature_names]
-    X_val_lgbm = X_val_lgbm[final_feature_names]
-    X_test_lgbm = X_test_lgbm[final_feature_names]
 
-    print("Creating LGBM datasets...")
-    lgb_train = lgb.Dataset(X_train_lgbm, label=y_train,
-                            categorical_feature=active_categorical_features if active_categorical_features else 'auto',
-                            feature_name=final_feature_names,
-                            free_raw_data=False)
-    lgb_eval = lgb.Dataset(X_val_lgbm, label=y_val, reference=lgb_train,
-                           categorical_feature=active_categorical_features if active_categorical_features else 'auto',
-                           feature_name=final_feature_names,
-                           free_raw_data=False)
+    # Ensure dataframes for final training only contain the final selected features
+    X_train_lgbm_final = X_train_lgbm[final_feature_names]
+    X_val_lgbm_final = X_val_lgbm[final_feature_names]
+    X_test_lgbm_final = X_test_lgbm[final_feature_names]
 
-    # Class Weights for LGBM -> Sample Weights
-    sample_weight = None
+
+    print("Creating LGBM datasets for final model...")
+    lgb_final_categorical_param = [f for f in active_categorical_features if f in final_feature_names] or 'auto'
+
+    lgb_train_final = lgb.Dataset(X_train_lgbm_final, label=y_train,
+                                  categorical_feature=lgb_final_categorical_param,
+                                  feature_name=final_feature_names, free_raw_data=False)
+    lgb_eval_final = lgb.Dataset(X_val_lgbm_final, label=y_val, reference=lgb_train_final,
+                                 categorical_feature=lgb_final_categorical_param,
+                                 feature_name=final_feature_names, free_raw_data=False)
+    
     if class_weight_dict:
-        print("Calculating sample weights for LGBM...")
-        try:
-             # Ensure y_train indices match weights
-             sample_weight = y_train.map(class_weight_dict).fillna(1.0).values
-             print(f"Sample weights calculated (min: {np.min(sample_weight):.2f}, max: {np.max(sample_weight):.2f}).")
-             lgb_train.set_weight(sample_weight)
-             print("Applied sample weights to training dataset.")
-        except Exception as e:
-             print(f"Warning: Could not compute/apply sample weights for LGBM: {e}.")
-             sample_weight = None
+        print("Applying sample weights to final training dataset...")
+        sample_weight_final = y_train.map(class_weight_dict).fillna(1.0).values
+        lgb_train_final.set_weight(sample_weight_final)
 
-    # Define LGBM Parameters (Binary)
-    params = {
-        'objective': 'binary', 'metric': ['binary_logloss', 'binary_error', 'auc'],
-        'boosting_type': 'gbdt', 'n_estimators': 2500, # Can be increased if needed
-        'learning_rate': 0.02, 'num_leaves': 50, # Can be tuned
-        'reg_alpha': 0.1, 'reg_lambda': 0.1, # Regularization
-        'colsample_bytree': 0.8, 'subsample': 0.8, # Feature/Data sampling
-        'min_child_samples': 20, # Regularization
-        'max_depth': -1, # No limit by default
-        'seed': 42, 'n_jobs': -1, 'verbose': -1,
-        # 'is_unbalance': True, # Alternative/addition to sample_weight - experiment if needed
+
+    # Define Final LGBM Parameters
+    final_params = {
+        'objective': 'binary',
+        'metric': ['binary_logloss', 'binary_error', 'auc'], # Metrics for evaluation
+        'boosting_type': 'gbdt',
+        'seed': 42,
+        'n_jobs': -1,
+        'verbose': -1, # Suppress lgbm's own verbosity during training
+        # Defaults if HPO is not run or fails to provide them
+        'learning_rate': 0.02,
+        'n_estimators': 2500,
+        'num_leaves': 31,
+        'reg_alpha': 0.1,
+        'reg_lambda': 0.1,
+        'colsample_bytree': 0.8,
+        'subsample': 0.8,
+        'min_child_samples': 20,
     }
+    final_params.update(best_params_from_hpo) # Update with HPO results if available
 
-    # Train LightGBM Model
-    print("Starting LGBM model training...")
+    print(f"\nStarting Final LGBM model training with parameters: {final_params}")
     evals_result = {}
-    callbacks = [
-        lgb.early_stopping(stopping_rounds=50, verbose=True), # Stop if val score doesn't improve
-        lgb.log_evaluation(period=10), # Print results every 50 rounds
-        lgb.record_evaluation(evals_result) # Store results for plotting/analysis if needed
+    final_callbacks = [
+        lgb.early_stopping(stopping_rounds=100, verbose=True), # More patience for final model
+        lgb.log_evaluation(period=50),
+        lgb.record_evaluation(evals_result)
     ]
-    lgbm_model = lgb.train(params, lgb_train, valid_sets=[lgb_train, lgb_eval],
-                           valid_names=['train', 'eval'], callbacks=callbacks)
-    print("LGBM Training finished.")
 
-    # Evaluate LightGBM Model
-    print("\nEvaluating LGBM model on the test set...")
+    # Determine valid_sets and valid_names for final training
+    valid_sets_for_final_train = [lgb_train_final]
+    valid_names_for_final_train = ['train']
+    if lgb_eval_final: 
+        valid_sets_for_final_train.append(lgb_eval_final)
+        valid_names_for_final_train.append('eval')
+    else: 
+        pass # early_stopping will monitor the first metric of the first validation set (which is train here)
+
+    lgbm_model = lgb.train(final_params, lgb_train_final,
+                           valid_sets=valid_sets_for_final_train,
+                           valid_names=valid_names_for_final_train,
+                           callbacks=final_callbacks)
+    print("Final LGBM Training finished.")
+
+    # Evaluate Final LightGBM Model on Test Set
+    print("\nEvaluating Final LGBM model on the test set...")
     try:
-        y_pred_proba = lgbm_model.predict(X_test_lgbm, num_iteration=lgbm_model.best_iteration)
-        y_pred_binary = (y_pred_proba > 0.5).astype(int) # Using default 0.5 threshold
+        y_pred_proba = lgbm_model.predict(X_test_lgbm_final, num_iteration=lgbm_model.best_iteration)
+        y_pred_binary = (y_pred_proba > 0.5).astype(int)
         accuracy = accuracy_score(y_test, y_pred_binary)
         auc = roc_auc_score(y_test, y_pred_proba)
-        print(f"LGBM Test Accuracy: {accuracy:.4f}")
-        print(f"LGBM Test AUC: {auc:.4f}")
-        print("\nLGBM Classification Report (Test Set):")
+        print(f"Final LGBM Test Accuracy: {accuracy:.4f}")
+        print(f"Final LGBM Test AUC: {auc:.4f}")
+        print("\nFinal LGBM Classification Report (Test Set):")
         print(classification_report(y_test, y_pred_binary, target_names=['Move (0)', 'Switch (1)']))
     except Exception as e:
-        print(f"Error during LGBM evaluation: {e}")
+        print(f"Error during final LGBM evaluation: {e}")
 
 
     # Save Model and Feature Info
-    model_save_path = f'switch_predictor_lgbm_model_v2_{model_suffix}.txt' # Adjusted name version
-    print(f"Saving LGBM model to {model_save_path}")
+    model_save_path = f'switch_predictor_lgbm_model_v2_{model_suffix}.txt'
+    print(f"Saving final LGBM model to {model_save_path}")
     try:
         lgbm_model.save_model(model_save_path)
-        print("LGBM Model saved.")
+        print("Final LGBM Model saved.")
     except Exception as e:
-        print(f"Error saving LGBM model: {e}")
+        print(f"Error saving final LGBM model: {e}")
 
-    lgbm_info_path = f'switch_predictor_lgbm_feature_info_v2_{model_suffix}.joblib' # Adjusted name version
-    print(f"Saving LGBM feature info to {lgbm_info_path}")
+    lgbm_info_path = f'switch_predictor_lgbm_feature_info_v2_{model_suffix}.joblib'
+    print(f"Saving final LGBM feature info to {lgbm_info_path}")
     try:
-        # Use active_numerical_features and active_categorical_features which reflect the actual columns used
         lgbm_info = {
-            'numerical_features': active_numerical_features,
-            'categorical_features': active_categorical_features,
-            'feature_names_in_order': final_feature_names,
-            'features_scaled': features_scaled, # Record which numerical features were scaled
-            'category_map': category_map # Store category mappings used
+            'numerical_features': active_numerical_features, # From final preprocessing
+            'categorical_features': active_categorical_features, # From final preprocessing
+            'feature_names_in_order': final_feature_names, # From final preprocessing
+            'features_scaled': features_scaled, # From final preprocessing
+            'category_map': category_map, # From final preprocessing
+            'best_hpo_params': best_params_from_hpo if perform_hpo else "HPO not performed"
         }
         joblib.dump(lgbm_info, lgbm_info_path)
-        print(f"LGBM feature info saved.")
+        print(f"Final LGBM feature info saved.")
     except Exception as e:
-         print(f"Error saving LGBM feature info: {e}")
+         print(f"Error saving final LGBM feature info: {e}")
 
-    # Save scaler only if it was successfully created and used
     if scaler and features_scaled:
-        scaler_path = f'switch_predictor_lgbm_scaler_v2_{model_suffix}.joblib' # Adjusted name version
-        print(f"Saving LGBM scaler to {scaler_path}")
+        scaler_path = f'switch_predictor_lgbm_scaler_v2_{model_suffix}.joblib'
+        print(f"Saving final LGBM scaler to {scaler_path}")
         try:
              joblib.dump(scaler, scaler_path)
-             print(f"LGBM scaler saved.")
+             print(f"Final LGBM scaler saved.")
         except Exception as e:
-             print(f"Error saving LGBM scaler: {e}")
+             print(f"Error saving final LGBM scaler: {e}")
 
     return lgbm_model
 
@@ -915,7 +1041,9 @@ def run_switch_training(parquet_path, model_type='tensorflow', feature_set='full
                                      numerical_features, # Pass the final list based on X_train
                                      categorical_features, # Pass the final list based on X_train
                                      class_weight_dict,
-                                     model_suffix=model_suffix) # Pass the potentially updated suffix
+                                     model_suffix=model_suffix,
+                                     perform_hpo=args.perform_hpo, # Pass from argparse
+                                     n_hpo_trials=args.n_hpo_trials) # Pass the potentially updated suffix
     print("\n--- Switch Predictor Training Script Finished ---")
 
 
@@ -931,6 +1059,8 @@ if __name__ == "__main__":
     parser.add_argument("--epochs", type=int, default=30, help="Training epochs (TF only).")
     parser.add_argument("--batch_size", type=int, default=256, help="Batch size (TF only).")
     parser.add_argument("--lr", type=float, default=0.001, help="Learning rate (TF only).")
+    parser.add_argument("--perform_hpo", action='store_true', help="Perform Optuna hyperparameter optimization for LightGBM.")
+    parser.add_argument("--n_hpo_trials", type=int, default=50, help="Number of trials for Optuna HPO (if --perform_hpo is set).")
 
     args = parser.parse_args()
 
@@ -948,5 +1078,5 @@ if __name__ == "__main__":
         val_split_size=args.val_split,
         epochs=args.epochs,
         batch_size=args.batch_size,
-        learning_rate=args.lr
+        learning_rate=args.lr,
     )

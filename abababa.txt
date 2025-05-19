@@ -339,3 +339,251 @@ Saving LGBM scaler to switch_predictor_lgbm_scaler_v2_simplified_moves.joblib
 LGBM scaler saved.
 
 --- Switch Predictor Training Script Finished ---
+
+params = {
+        'objective': 'binary', 'metric': ['binary_logloss', 'binary_error', 'auc'],
+        'boosting_type': 'gbdt', 'n_estimators': 2500, # Can be increased if needed
+        'learning_rate': 0.05, 'num_leaves': 100, # Can be tuned
+        'reg_alpha': 0.1, 'reg_lambda': 1.0, # Regularization
+        'colsample_bytree': 0.5, 'subsample': 0.8, # Feature/Data sampling
+        'min_child_samples': 20, # Regularization
+        'max_depth': -1, # No limit by default
+        'seed': 42, 'n_jobs': -1, 'verbose': -1,
+        # 'is_unbalance': True, # Alternative/addition to sample_weight - experiment if needed
+    }
+
+Training until validation scores don't improve for 50 rounds
+[10]    train's binary_logloss: 0.594355        train's binary_error: 0.210339  train's auc: 0.869602   eval's 
+binary_logloss: 0.603156        eval's binary_error: 0.234948   eval's auc: 0.839033
+[20]    train's binary_logloss: 0.53875 train's binary_error: 0.200626  train's auc: 0.881282   eval's binary_logloss: 0.556645        eval's binary_error: 0.230191   eval's auc: 0.844296
+[30]    train's binary_logloss: 0.506179        train's binary_error: 0.189113  train's auc: 0.893082   eval's 
+binary_logloss: 0.532741        eval's binary_error: 0.227597   eval's auc: 0.849685
+[40]    train's binary_logloss: 0.474759        train's binary_error: 0.183085  train's auc: 0.899964   eval's 
+binary_logloss: 0.509631        eval's binary_error: 0.224138   eval's auc: 0.853371
+[50]    train's binary_logloss: 0.45066 train's binary_error: 0.175792  train's auc: 0.906634   eval's binary_logloss: 0.494468        eval's binary_error: 0.224543   eval's auc: 0.855102
+[60]    train's binary_logloss: 0.429576        train's binary_error: 0.168784  train's auc: 0.912239   eval's 
+binary_logloss: 0.482235        eval's binary_error: 0.223354   eval's auc: 0.856582
+[70]    train's binary_logloss: 0.414731        train's binary_error: 0.161313  train's auc: 0.918187   eval's 
+binary_logloss: 0.476144        eval's binary_error: 0.223246   eval's auc: 0.856796
+[80]    train's binary_logloss: 0.401819        train's binary_error: 0.155521  train's auc: 0.92295    eval's 
+binary_logloss: 0.472093        eval's binary_error: 0.222895   eval's auc: 0.856152
+[90]    train's binary_logloss: 0.38818 train's binary_error: 0.149178  train's auc: 0.927762   eval's binary_logloss: 0.467   eval's binary_error: 0.221625   eval's auc: 0.856628
+[100]   train's binary_logloss: 0.375976        train's binary_error: 0.14344   train's auc: 0.932273   eval's 
+binary_logloss: 0.462838        eval's binary_error: 0.220246   eval's auc: 0.857395
+[110]   train's binary_logloss: 0.364569        train's binary_error: 0.136529  train's auc: 0.937048   eval's 
+binary_logloss: 0.45949 eval's binary_error: 0.219138   eval's auc: 0.858134
+[120]   train's binary_logloss: 0.354494        train's binary_error: 0.130101  train's auc: 0.941265   eval's 
+binary_logloss: 0.457251        eval's binary_error: 0.219436   eval's auc: 0.858222
+[130]   train's binary_logloss: 0.344818        train's binary_error: 0.125022  train's auc: 0.944932   eval's 
+binary_logloss: 0.455305        eval's binary_error: 0.219544   eval's auc: 0.858177
+[140]   train's binary_logloss: 0.336485        train's binary_error: 0.119555  train's auc: 0.948509   eval's 
+binary_logloss: 0.454083        eval's binary_error: 0.219463   eval's auc: 0.858017
+[150]   train's binary_logloss: 0.329079        train's binary_error: 0.115294  train's auc: 0.951672   eval's 
+binary_logloss: 0.453627        eval's binary_error: 0.219841   eval's auc: 0.857531
+[160]   train's binary_logloss: 0.321755        train's binary_error: 0.110772  train's auc: 0.954464   eval's 
+binary_logloss: 0.452845        eval's binary_error: 0.220165   eval's auc: 0.857256
+Early stopping, best iteration is:
+[113]   train's binary_logloss: 0.361572        train's binary_error: 0.134801  train's auc: 0.938239   eval's 
+binary_logloss: 0.458923        eval's binary_error: 0.218787   eval's auc: 0.858027
+LGBM Training finished.
+
+Evaluating LGBM model on the test set...
+LGBM Test Accuracy: 0.7783
+LGBM Test AUC: 0.8560
+
+LGBM Classification Report (Test Set):
+              precision    recall  f1-score   support
+
+    Move (0)       0.87      0.79      0.83     33349
+  Switch (1)       0.63      0.75      0.69     15989
+
+    accuracy                           0.78     49338
+   macro avg       0.75      0.77      0.76     49338
+weighted avg       0.79      0.78      0.78     49338
+
+Saving LGBM model to switch_predictor_lgbm_model_v2_simplified_moves.txt
+LGBM Model saved.
+Saving LGBM feature info to switch_predictor_lgbm_feature_info_v2_simplified_moves.joblib
+LGBM feature info saved.
+Saving LGBM scaler to switch_predictor_lgbm_scaler_v2_simplified_moves.joblib
+LGBM scaler saved.
+
+--- Switch Predictor Training Script Finished ---
+
+
+OPTUNA THE GOAT
+
+--- Starting Optuna Hyperparameter Optimization (2 trials) ---
+[I 2025-05-16 19:53:05,962] A new study created in memory with name: lgbm_switch_predictor_tuning
+[I 2025-05-16 19:59:29,505] Trial 0 finished with value: 0.860695313547696 and parameters: {'learning_rate': 0.005524443613455826, 'n_estimators': 861, 'num_leaves': 43, 'reg_alpha': 0.0006226909934293548, 'reg_lambda': 2.4618236834415608e-05, 'colsample_bytree': 0.9676447711558951, 'subsample': 0.7878165057006843, 'min_child_samples': 9}. Best is trial 0 with value: 0.860695313547696.
+[I 2025-05-16 20:06:17,230] Trial 1 finished with value: 0.8630683005979678 and parameters: {'learning_rate': 0.00791091347949743, 'n_estimators': 1082, 'num_leaves': 41, 'reg_alpha': 0.00032996330377176177, 'reg_lambda': 
+0.01508055791862074, 'colsample_bytree': 0.7637674944561582, 'subsample': 0.8562839173278499, 'min_child_samples': 26}. Best is trial 1 with value: 0.8630683005979678.
+
+--- Optuna HPO Finished ---
+Best trial:
+  Value (AUC): 0.8631
+  Params:
+    learning_rate: 0.00791091347949743
+    n_estimators: 1082
+    num_leaves: 41
+    reg_alpha: 0.00032996330377176177
+    reg_lambda: 0.01508055791862074
+    colsample_bytree: 0.7637674944561582
+    subsample: 0.8562839173278499
+    min_child_samples: 26
+
+--- Preparing Data for Final Model Training ---
+Scaling numerical features for final model...
+Numerical scaling complete for final model.
+Creating LGBM datasets for final model...
+Applying sample weights to final training dataset...
+
+Starting Final LGBM model training with parameters: {'objective': 'binary', 'metric': ['binary_logloss', 'binary_error', 'auc'], 'boosting_type': 'gbdt', 'seed': 42, 'n_jobs': -1, 'verbose': -1, 'learning_rate': 0.00791091347949743, 'n_estimators': 1082, 'num_leaves': 41, 'reg_alpha': 0.00032996330377176177, 'reg_lambda': 0.01508055791862074, 'colsample_bytree': 0.7637674944561582, 'subsample': 0.8562839173278499, 'min_child_samples': 26}  
+Training until validation scores don't improve for 100 rounds
+[50]    train's binary_logloss: 0.611324        train's binary_error: 0.227001  train's auc: 0.853171   eval's 
+binary_logloss: 0.613938        eval's binary_error: 0.237461   eval's auc: 0.842499
+[100]   train's binary_logloss: 0.562257        train's binary_error: 0.222564  train's auc: 0.858554   eval's 
+binary_logloss: 0.567784        eval's binary_error: 0.232921   eval's auc: 0.846019
+[150]   train's binary_logloss: 0.528248        train's binary_error: 0.218665  train's auc: 0.863162   eval's 
+binary_logloss: 0.536989        eval's binary_error: 0.23011    eval's auc: 0.848663
+[200]   train's binary_logloss: 0.504146        train's binary_error: 0.214763  train's auc: 0.867772   eval's 
+binary_logloss: 0.516131        eval's binary_error: 0.228624   eval's auc: 0.851491
+[250]   train's binary_logloss: 0.485472        train's binary_error: 0.211127  train's auc: 0.871804   eval's 
+binary_logloss: 0.50103 eval's binary_error: 0.227002   eval's auc: 0.853378
+[300]   train's binary_logloss: 0.471462        train's binary_error: 0.207049  train's auc: 0.876188   eval's 
+binary_logloss: 0.490958        eval's binary_error: 0.225894   eval's auc: 0.855092
+[350]   train's binary_logloss: 0.459373        train's binary_error: 0.203656  train's auc: 0.880607   eval's 
+binary_logloss: 0.482647        eval's binary_error: 0.224246   eval's auc: 0.857142
+[400]   train's binary_logloss: 0.449297        train's binary_error: 0.199646  train's auc: 0.884558   eval's 
+binary_logloss: 0.476578        eval's binary_error: 0.222733   eval's auc: 0.858449
+[450]   train's binary_logloss: 0.440543        train's binary_error: 0.19591   train's auc: 0.888394   eval's 
+binary_logloss: 0.471696        eval's binary_error: 0.221895   eval's auc: 0.859729
+[500]   train's binary_logloss: 0.433016        train's binary_error: 0.192305  train's auc: 0.891933   eval's 
+binary_logloss: 0.468092        eval's binary_error: 0.221408   eval's auc: 0.860605
+[550]   train's binary_logloss: 0.426156        train's binary_error: 0.188583  train's auc: 0.895371   eval's 
+binary_logloss: 0.465188        eval's binary_error: 0.22049    eval's auc: 0.861341
+[600]   train's binary_logloss: 0.419767        train's binary_error: 0.185927  train's auc: 0.898586   eval's 
+binary_logloss: 0.462634        eval's binary_error: 0.21976    eval's auc: 0.862009
+[650]   train's binary_logloss: 0.414132        train's binary_error: 0.182508  train's auc: 0.90152    eval's 
+binary_logloss: 0.460691        eval's binary_error: 0.21922    eval's auc: 0.862443
+[700]   train's binary_logloss: 0.408927        train's binary_error: 0.17945   train's auc: 0.904322   eval's 
+binary_logloss: 0.459242        eval's binary_error: 0.218436   eval's auc: 0.862664
+[750]   train's binary_logloss: 0.404072        train's binary_error: 0.176833  train's auc: 0.906947   eval's 
+binary_logloss: 0.45791 eval's binary_error: 0.218003   eval's auc: 0.862895
+[800]   train's binary_logloss: 0.399543        train's binary_error: 0.173787  train's auc: 0.909405   eval's 
+binary_logloss: 0.456856        eval's binary_error: 0.218409   eval's auc: 0.863008
+Early stopping, best iteration is:
+[732]   train's binary_logloss: 0.405744        train's binary_error: 0.177645  train's auc: 0.906027   eval's 
+binary_logloss: 0.458319        eval's binary_error: 0.217841   eval's auc: 0.862857
+Final LGBM Training finished.
+
+Evaluating Final LGBM model on the test set...
+Final LGBM Test Accuracy: 0.7810
+Final LGBM Test AUC: 0.8612
+
+Final LGBM Classification Report (Test Set):
+              precision    recall  f1-score   support
+
+    Move (0)       0.88      0.79      0.83     33349
+  Switch (1)       0.63      0.77      0.69     15989
+
+    accuracy                           0.78     49338
+   macro avg       0.76      0.78      0.76     49338
+weighted avg       0.80      0.78      0.79     49338
+
+Saving final LGBM model to switch_predictor_lgbm_model_v2_simplified_moves.txt
+Final LGBM Model saved.
+Saving final LGBM feature info to switch_predictor_lgbm_feature_info_v2_simplified_moves.joblib
+Final LGBM feature info saved.
+Saving final LGBM scaler to switch_predictor_lgbm_scaler_v2_simplified_moves.joblib
+Final LGBM scaler saved.
+
+--- Switch Predictor Training Script Finished ---
+
+
+couldnt finish
+[I 2025-05-18 22:04:15,739] Trial 13 finished with value: 0.8631877529339621 and parameters: {'learning_rate': 
+0.008976910314865513, 'n_estimators': 1764, 'num_leaves': 37, 'reg_alpha': 0.00018082070287646574, 'reg_lambda': 0.5859050435134275, 'colsample_bytree': 0.6922175345970958, 'subsample': 0.6942957302534569, 'min_child_samples': 44}. Best is trial 13 with value: 0.8631877529339621.
+
+
+
+[I 2025-05-19 19:24:06,996] Trial 19 finished with value: 0.8620371377842705 and parameters: {'learning_rate': 
+0.024439341678770182, 'n_estimators': 2058, 'num_leaves': 33, 'reg_alpha': 8.816596049275019e-08, 'reg_lambda': 0.004147640121208209, 'colsample_bytree': 0.7977897614616871, 'subsample': 0.9615545412570154, 'min_child_samples': 74}. Best is trial 14 with value: 0.8629284561155808.
+
+--- Optuna HPO Finished ---
+Best trial:
+  Value (AUC): 0.8629
+  Params:
+    learning_rate: 0.007951642598795808
+    n_estimators: 1523
+    num_leaves: 57
+    reg_alpha: 1.0481789461964229e-08
+    reg_lambda: 0.014150379424030572
+    colsample_bytree: 0.7367153050477556
+    subsample: 0.8800627083856164
+    min_child_samples: 8
+
+--- Preparing Data for Final Model Training ---
+Scaling numerical features for final model...
+Numerical scaling complete for final model.
+Creating LGBM datasets for final model...
+Applying sample weights to final training dataset...
+
+Starting Final LGBM model training with parameters: {'objective': 'binary', 'metric': ['binary_logloss', 'binary_error', 'auc'], 'boosting_type': 'gbdt', 'seed': 42, 'n_jobs': -1, 'verbose': -1, 'learning_rate': 0.007951642598795808, 'n_estimators': 1523, 'num_leaves': 57, 'reg_alpha': 1.0481789461964229e-08, 'reg_lambda': 0.014150379424030572, 'colsample_bytree': 0.7367153050477556, 'subsample': 0.8800627083856164, 'min_child_samples': 8} 
+Training until validation scores don't improve for 100 rounds
+[50]    train's binary_logloss: 0.608038        train's binary_error: 0.219265  train's auc: 0.861094   eval's 
+binary_logloss: 0.611861        eval's binary_error: 0.231083   eval's auc: 0.845534
+[100]   train's binary_logloss: 0.5547  train's binary_error: 0.214732  train's auc: 0.866421   eval's binary_logloss: 0.562828        eval's binary_error: 0.230894   eval's auc: 0.848219
+[150]   train's binary_logloss: 0.519357        train's binary_error: 0.210746  train's auc: 0.871594   eval's 
+binary_logloss: 0.532164        eval's binary_error: 0.229462   eval's auc: 0.850536
+[200]   train's binary_logloss: 0.493506        train's binary_error: 0.205813  train's auc: 0.876883   eval's 
+binary_logloss: 0.510994        eval's binary_error: 0.227057   eval's auc: 0.853299
+[250]   train's binary_logloss: 0.474529        train's binary_error: 0.20104   train's auc: 0.882098   eval's 
+binary_logloss: 0.496993        eval's binary_error: 0.225867   eval's auc: 0.855336
+[300]   train's binary_logloss: 0.45886 train's binary_error: 0.19607   train's auc: 0.886938   eval's binary_logloss: 0.486428        eval's binary_error: 0.224246   eval's auc: 0.857056
+[350]   train's binary_logloss: 0.445554        train's binary_error: 0.191703  train's auc: 0.891254   eval's 
+binary_logloss: 0.478272        eval's binary_error: 0.223922   eval's auc: 0.858397
+[400]   train's binary_logloss: 0.434385        train's binary_error: 0.187536  train's auc: 0.895821   eval's 
+binary_logloss: 0.472359        eval's binary_error: 0.222733   eval's auc: 0.859606
+[450]   train's binary_logloss: 0.424525        train's binary_error: 0.182752  train's auc: 0.900261   eval's 
+binary_logloss: 0.467689        eval's binary_error: 0.221733   eval's auc: 0.860719
+[500]   train's binary_logloss: 0.415562        train's binary_error: 0.178266  train's auc: 0.904262   eval's 
+binary_logloss: 0.463713        eval's binary_error: 0.220814   eval's auc: 0.861708
+[550]   train's binary_logloss: 0.40758 train's binary_error: 0.17428   train's auc: 0.908119   eval's binary_logloss: 0.460766        eval's binary_error: 0.21949    eval's auc: 0.862347
+[600]   train's binary_logloss: 0.400431        train's binary_error: 0.170592  train's auc: 0.911557   eval's 
+binary_logloss: 0.458587        eval's binary_error: 0.218571   eval's auc: 0.862648
+[650]   train's binary_logloss: 0.393909        train's binary_error: 0.166743  train's auc: 0.914804   eval's 
+binary_logloss: 0.456944        eval's binary_error: 0.218706   eval's auc: 0.862759
+[700]   train's binary_logloss: 0.387789        train's binary_error: 0.163099  train's auc: 0.917876   eval's 
+binary_logloss: 0.455525        eval's binary_error: 0.218166   eval's auc: 0.862863
+[750]   train's binary_logloss: 0.381978        train's binary_error: 0.159684  train's auc: 0.920793   eval's 
+binary_logloss: 0.454338        eval's binary_error: 0.217976   eval's auc: 0.862918
+[800]   train's binary_logloss: 0.376738        train's binary_error: 0.156701  train's auc: 0.923451   eval's 
+binary_logloss: 0.453583        eval's binary_error: 0.217787   eval's auc: 0.86274
+Early stopping, best iteration is:
+[722]   train's binary_logloss: 0.385129        train's binary_error: 0.161913  train's auc: 0.919197   eval's 
+binary_logloss: 0.454922        eval's binary_error: 0.217895   eval's auc: 0.862928
+Final LGBM Training finished.
+
+Evaluating Final LGBM model on the test set...
+Final LGBM Test Accuracy: 0.7814
+Final LGBM Test AUC: 0.8615
+
+Final LGBM Classification Report (Test Set):
+              precision    recall  f1-score   support
+
+    Move (0)       0.88      0.79      0.83     33349
+  Switch (1)       0.63      0.77      0.69     15989
+
+    accuracy                           0.78     49338
+   macro avg       0.76      0.78      0.76     49338
+weighted avg       0.80      0.78      0.79     49338
+
+Saving final LGBM model to switch_predictor_lgbm_model_v2_simplified_moves.txt
+Final LGBM Model saved.
+Saving final LGBM feature info to switch_predictor_lgbm_feature_info_v2_simplified_moves.joblib
+Final LGBM feature info saved.
+Saving final LGBM scaler to switch_predictor_lgbm_scaler_v2_simplified_moves.joblib
+Final LGBM scaler saved.
+
+--- Switch Predictor Training Script Finished ---
