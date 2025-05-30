@@ -78,7 +78,7 @@ def train_tensorflow_switch_predictor(X_train_processed, X_val_processed, X_test
     optimizer = Adam(learning_rate=learning_rate)
     model.compile(optimizer=optimizer,
                   loss='categorical_crossentropy',
-                  metrics=['accuracy', tf.keras.metrics.TopKCategoricalAccuracy(k=3, name='top_3_accuracy')]) # k=3 as there are ~5 options
+                  metrics=['accuracy', tf.keras.metrics.TopKCategoricalAccuracy(k=3, name='top_10_accuracy')]) # k=3 as there are ~5 options
     model.summary()
 
     print("\nStarting TF model training...")
@@ -333,31 +333,102 @@ def run_switch_training(parquet_path, model_type='tensorflow', feature_set='full
     # --- Feature Set Logic (largely same as action predictor, but on P2 switch-filtered df) ---
     # NO 'player_to_move == p1' filter will be applied within these blocks.
     if feature_set == 'simplified':
-        print("\n--- Using SIMPLIFIED feature set (all team species) for P2 switch ---") # Updated print message
+        print("\n--- Using SIMPLIFIED feature set (P1 Active + P2 Team + Context) for P2 switch ---") # Updated print message
         
-        features_for_X = {}
-        new_categorical_features_list = []
+        temp_numerical_features = []
+        temp_categorical_features = []
 
-        # Iterate through both players and all 6 slots
-        for player_prefix in ['p1', 'p2']:
-            for i in range(1, 7):  # Slots 1 to 6
-                slot_species_col = f"{player_prefix}_slot{i}_species"
-                
-                if slot_species_col in df.columns:
-                    features_for_X[slot_species_col] = df[slot_species_col]
-                    new_categorical_features_list.append(slot_species_col)
-                else:
-                    print(f"Warning: Column '{slot_species_col}' not found. Filling with 'Absent'.")
-                    features_for_X[slot_species_col] = pd.Series(['Absent'] * len(df), index=df.index, name=slot_species_col)
-                    new_categorical_features_list.append(slot_species_col)
+        # 1. Extract P1's Active Pokémon Details
+        print("  Extracting P1's active Pokémon details...")
+        active_p1_data = {}
+        for i_row, (idx, row) in enumerate(df.iterrows()): # df is already filtered for P2 switches
+            active_p1_slot_num = -1
+            for i_slot in range(1, 7): # Check P1's slots
+                if row.get(f'p1_slot{i_slot}_is_active', 0) == 1:
+                    active_p1_slot_num = i_slot
+                    break
+            
+            row_active_data = {}
+            if active_p1_slot_num != -1:
+                row_active_data['p1_active_species'] = row.get(f'p1_slot{active_p1_slot_num}_species', 'Unknown')
+                row_active_data['p1_active_hp_perc'] = row.get(f'p1_slot{active_p1_slot_num}_hp_perc', 100)
+                row_active_data['p1_active_status'] = row.get(f'p1_slot{active_p1_slot_num}_status', 'none')
+            else: 
+                row_active_data['p1_active_species'] = 'Unknown' # Fallback if P1 active somehow not found
+                row_active_data['p1_active_hp_perc'] = 100
+                row_active_data['p1_active_status'] = 'none'
+            active_p1_data[idx] = row_active_data
         
-        X = pd.DataFrame(features_for_X, index=df.index)
+        active_p1_df = pd.DataFrame.from_dict(active_p1_data, orient='index')
         
-        numerical_features = []  # No numerical features in this simplified set
-        categorical_features = new_categorical_features_list # List of all 12 species columns
+        # Define which of these new 'active' columns to use and their types
+        if 'p1_active_species' in active_p1_df.columns: temp_categorical_features.append('p1_active_species')
+        if 'p1_active_hp_perc' in active_p1_df.columns: temp_numerical_features.append('p1_active_hp_perc')
+        if 'p1_active_status' in active_p1_df.columns: temp_categorical_features.append('p1_active_status')
 
-        print(f"Simplified X shape: {X.shape}")
-        print(f"Selected categorical features for 'simplified': {categorical_features}")
+        # Start building the list of DataFrames to concat for X
+        # The first one is the newly created active_p1_df
+        features_df_list_for_X_concat = [active_p1_df[[col for col in ['p1_active_species', 'p1_active_hp_perc', 'p1_active_status'] if col in active_p1_df.columns]]]
+
+
+        # 2. Player 2's (Bot's) Entire Team Details
+        print("  Adding P2's full team details...")
+        for i in range(1, 7): # Slots 1 to 6 for P2
+            p2_slot_species = f"p2_slot{i}_species"
+            p2_slot_hp = f"p2_slot{i}_hp_perc"
+            p2_slot_status = f"p2_slot{i}_status"
+            p2_slot_fainted = f"p2_slot{i}_is_fainted" # This is numerical (0/1)
+
+            # Add to X if column exists in original df, and track type
+            if p2_slot_species in df.columns:
+                temp_categorical_features.append(p2_slot_species)
+                features_df_list_for_X_concat.append(df[[p2_slot_species]])
+            if p2_slot_hp in df.columns:
+                temp_numerical_features.append(p2_slot_hp)
+                features_df_list_for_X_concat.append(df[[p2_slot_hp]])
+            if p2_slot_status in df.columns:
+                temp_categorical_features.append(p2_slot_status)
+                features_df_list_for_X_concat.append(df[[p2_slot_status]])
+            if p2_slot_fainted in df.columns:
+                temp_numerical_features.append(p2_slot_fainted)
+                features_df_list_for_X_concat.append(df[[p2_slot_fainted]])
+        
+        # 3. General Context
+        print("  Adding general context features...")
+        context_cols_to_add_to_X = []
+        if 'last_move_p1' in df.columns:
+            temp_categorical_features.append('last_move_p1')
+            context_cols_to_add_to_X.append('last_move_p1')
+        if 'last_move_p2' in df.columns:
+            temp_categorical_features.append('last_move_p2')
+            context_cols_to_add_to_X.append('last_move_p2')
+        if 'turn_number' in df.columns:
+            temp_numerical_features.append('turn_number')
+            context_cols_to_add_to_X.append('turn_number')
+        
+        if context_cols_to_add_to_X: # If any context columns were found in df
+            features_df_list_for_X_concat.append(df[context_cols_to_add_to_X])
+
+        # Concatenate all selected features into X
+        if features_df_list_for_X_concat:
+            X = pd.concat(features_df_list_for_X_concat, axis=1)
+        else:
+            X = pd.DataFrame(index=df.index) # Should not happen if df has columns
+            print("Warning: No features selected for 'simplified' set. X is empty.")
+
+        # Finalize feature lists (remove duplicates and ensure order if necessary)
+        numerical_features = sorted(list(set(temp_numerical_features)))
+        categorical_features = sorted(list(set(temp_categorical_features)))
+        
+        overlap = set(numerical_features) & set(categorical_features)
+        if overlap:
+            print(f"Warning: Overlap detected in simplified features: {overlap}. Removing from numerical.")
+            numerical_features = [f for f in numerical_features if f not in overlap]
+
+        print(f"Simplified X shape: {X.shape if X is not None else 'X is None'}")
+        print(f"  Numerical features ({len(numerical_features)}): {numerical_features}")
+        print(f"  Categorical features ({len(categorical_features)}): {categorical_features}")
+        del active_p1_df, features_df_list_for_X_concat, active_p1_data; gc.collect()
 
     elif feature_set == 'medium':
         print("\n--- Using MEDIUM feature set (with Active Revealed Moves) for P2 switch ---")
