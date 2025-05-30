@@ -587,3 +587,12 @@ Saving final LGBM scaler to switch_predictor_lgbm_scaler_v2_simplified_moves.job
 Final LGBM scaler saved.
 
 --- Switch Predictor Training Script Finished ---
+
+
+Evaluating Final LGBM model on the test set...
+Final LGBM Test Accuracy: 0.2111
+Warning: Only 483 classes present in test set out of 593 total. AUC might be misleading or error.
+Final LGBM Test AUC: 0.9454
+LGBM Test Top-3 Accuracy: 0.5328
+
+the above k = 10 
