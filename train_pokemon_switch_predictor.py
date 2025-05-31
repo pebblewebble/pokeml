@@ -330,90 +330,140 @@ def run_switch_training(parquet_path, model_type='tensorflow', feature_set='full
     categorical_features = []
     label_encoder_suffix = f"{feature_set}_p2switch" # Unique suffix for switch predictor
 
-    # --- Feature Set Logic (largely same as action predictor, but on P2 switch-filtered df) ---
-    # NO 'player_to_move == p1' filter will be applied within these blocks.
     if feature_set == 'simplified':
-        print("\n--- Using SIMPLIFIED feature set (P1 Active + P2 Team + Context) for P2 switch ---") # Updated print message
+        print("\n--- Using ENHANCED SIMPLIFIED feature set for P2 switch ---") # Updated print message
         
         temp_numerical_features = []
         temp_categorical_features = []
 
-        # 1. Extract P1's Active Pokémon Details
-        print("  Extracting P1's active Pokémon details...")
-        active_p1_data = {}
+        # 1. Extract P1's (Opponent) and P2's (Self, switching out) Active Pokémon Details
+        print("  Extracting P1's and P2's active Pokémon details...")
+        active_pokemon_data_for_rows = {} # Store all active data for P1 and P2 per row
+        p2_team_tera_status_for_rows = {} # Store if P2 has already used Tera on any team member
+
         for i_row, (idx, row) in enumerate(df.iterrows()): # df is already filtered for P2 switches
             active_p1_slot_num = -1
-            for i_slot in range(1, 7): # Check P1's slots
+            active_p2_slot_num = -1 # For the Pokemon P2 is switching OUT
+
+            for i_slot in range(1, 7):
                 if row.get(f'p1_slot{i_slot}_is_active', 0) == 1:
                     active_p1_slot_num = i_slot
-                    break
+                if row.get(f'p2_slot{i_slot}_is_active', 0) == 1: # Pokemon P2 is switching out
+                    active_p2_slot_num = i_slot
             
-            row_active_data = {}
+            current_row_data = {}
+            # P1's Active (Opponent)
             if active_p1_slot_num != -1:
-                row_active_data['p1_active_species'] = row.get(f'p1_slot{active_p1_slot_num}_species', 'Unknown')
-                row_active_data['p1_active_hp_perc'] = row.get(f'p1_slot{active_p1_slot_num}_hp_perc', 100)
-                row_active_data['p1_active_status'] = row.get(f'p1_slot{active_p1_slot_num}_status', 'none')
+                current_row_data['p1_active_species'] = row.get(f'p1_slot{active_p1_slot_num}_species', 'Unknown')
+                current_row_data['p1_active_hp_perc'] = row.get(f'p1_slot{active_p1_slot_num}_hp_perc', 100)
+                current_row_data['p1_active_status'] = row.get(f'p1_slot{active_p1_slot_num}_status', 'none')
+                current_row_data['p1_active_terastallized'] = row.get(f'p1_slot{active_p1_slot_num}_terastallized', 0)
+                current_row_data['p1_active_tera_type'] = row.get(f'p1_slot{active_p1_slot_num}_tera_type', 'none')
             else: 
-                row_active_data['p1_active_species'] = 'Unknown' # Fallback if P1 active somehow not found
-                row_active_data['p1_active_hp_perc'] = 100
-                row_active_data['p1_active_status'] = 'none'
-            active_p1_data[idx] = row_active_data
+                current_row_data['p1_active_species'] = 'Unknown'
+                current_row_data['p1_active_hp_perc'] = 100
+                current_row_data['p1_active_status'] = 'none'
+                current_row_data['p1_active_terastallized'] = 0
+                current_row_data['p1_active_tera_type'] = 'none'
+
+            # P2's Active (Pokemon being switched OUT by P2)
+            if active_p2_slot_num != -1:
+                current_row_data['p2_current_active_species'] = row.get(f'p2_slot{active_p2_slot_num}_species', 'Unknown')
+                current_row_data['p2_current_active_hp_perc'] = row.get(f'p2_slot{active_p2_slot_num}_hp_perc', 100)
+                current_row_data['p2_current_active_status'] = row.get(f'p2_slot{active_p2_slot_num}_status', 'none')
+                # p2_current_active_terastallized is implicitly handled by p2_can_terastallize later
+            else:
+                current_row_data['p2_current_active_species'] = 'Unknown'
+                current_row_data['p2_current_active_hp_perc'] = 100
+                current_row_data['p2_current_active_status'] = 'none'
+            
+            active_pokemon_data_for_rows[idx] = current_row_data
+
+            # Check if P2 has already used Tera on any team member for p2_can_terastallize
+            p2_has_used_tera_on_team = 0
+            for i_slot_tera_check in range(1, 7):
+                if row.get(f'p2_slot{i_slot_tera_check}_terastallized', 0) == 1:
+                    p2_has_used_tera_on_team = 1
+                    break
+            p2_team_tera_status_for_rows[idx] = {'p2_can_terastallize': 1 - p2_has_used_tera_on_team}
+
         
-        active_p1_df = pd.DataFrame.from_dict(active_p1_data, orient='index')
+        active_pokemon_df = pd.DataFrame.from_dict(active_pokemon_data_for_rows, orient='index')
+        p2_can_tera_df = pd.DataFrame.from_dict(p2_team_tera_status_for_rows, orient='index')
+
+        # Define features from active_pokemon_df and their types
+        active_features_to_use = []
+        if 'p1_active_species' in active_pokemon_df.columns: temp_categorical_features.append('p1_active_species'); active_features_to_use.append('p1_active_species')
+        if 'p1_active_hp_perc' in active_pokemon_df.columns: temp_numerical_features.append('p1_active_hp_perc'); active_features_to_use.append('p1_active_hp_perc')
+        if 'p1_active_status' in active_pokemon_df.columns: temp_categorical_features.append('p1_active_status'); active_features_to_use.append('p1_active_status')
+        if 'p1_active_terastallized' in active_pokemon_df.columns: temp_numerical_features.append('p1_active_terastallized'); active_features_to_use.append('p1_active_terastallized')
+        if 'p1_active_tera_type' in active_pokemon_df.columns: temp_categorical_features.append('p1_active_tera_type'); active_features_to_use.append('p1_active_tera_type')
         
-        # Define which of these new 'active' columns to use and their types
-        if 'p1_active_species' in active_p1_df.columns: temp_categorical_features.append('p1_active_species')
-        if 'p1_active_hp_perc' in active_p1_df.columns: temp_numerical_features.append('p1_active_hp_perc')
-        if 'p1_active_status' in active_p1_df.columns: temp_categorical_features.append('p1_active_status')
+        if 'p2_current_active_species' in active_pokemon_df.columns: temp_categorical_features.append('p2_current_active_species'); active_features_to_use.append('p2_current_active_species')
+        if 'p2_current_active_hp_perc' in active_pokemon_df.columns: temp_numerical_features.append('p2_current_active_hp_perc'); active_features_to_use.append('p2_current_active_hp_perc')
+        if 'p2_current_active_status' in active_pokemon_df.columns: temp_categorical_features.append('p2_current_active_status'); active_features_to_use.append('p2_current_active_status')
 
-        # Start building the list of DataFrames to concat for X
-        # The first one is the newly created active_p1_df
-        features_df_list_for_X_concat = [active_p1_df[[col for col in ['p1_active_species', 'p1_active_hp_perc', 'p1_active_status'] if col in active_p1_df.columns]]]
+        features_df_list_for_X_concat = []
+        if active_features_to_use: # Check if any active features were actually added
+            features_df_list_for_X_concat.append(active_pokemon_df[active_features_to_use])
 
 
-        # 2. Player 2's (Bot's) Entire Team Details
-        print("  Adding P2's full team details...")
+        # 2. Player 2's (Bot's) Entire Team Details (excluding the one being switched out, if identified)
+        print("  Adding P2's full team details (potential switch-ins)...")
+        p2_team_cols_to_add_to_X = []
         for i in range(1, 7): # Slots 1 to 6 for P2
-            p2_slot_species = f"p2_slot{i}_species"
-            p2_slot_hp = f"p2_slot{i}_hp_perc"
-            p2_slot_status = f"p2_slot{i}_status"
-            p2_slot_fainted = f"p2_slot{i}_is_fainted" # This is numerical (0/1)
+            slot_prefix = f"p2_slot{i}"
+            features_to_check = {
+                f"{slot_prefix}_species": temp_categorical_features,
+                f"{slot_prefix}_hp_perc": temp_numerical_features,
+                f"{slot_prefix}_status": temp_categorical_features,
+                f"{slot_prefix}_is_fainted": temp_numerical_features,
+                f"{slot_prefix}_terastallized": temp_numerical_features # Has this specific Pokemon terastallized?
+            }
+            for feature_col, type_list in features_to_check.items():
+                if feature_col in df.columns:
+                    type_list.append(feature_col)
+                    p2_team_cols_to_add_to_X.append(feature_col)
+        
+        if p2_team_cols_to_add_to_X:
+            features_df_list_for_X_concat.append(df[p2_team_cols_to_add_to_X])
 
-            # Add to X if column exists in original df, and track type
-            if p2_slot_species in df.columns:
-                temp_categorical_features.append(p2_slot_species)
-                features_df_list_for_X_concat.append(df[[p2_slot_species]])
-            if p2_slot_hp in df.columns:
-                temp_numerical_features.append(p2_slot_hp)
-                features_df_list_for_X_concat.append(df[[p2_slot_hp]])
-            if p2_slot_status in df.columns:
-                temp_categorical_features.append(p2_slot_status)
-                features_df_list_for_X_concat.append(df[[p2_slot_status]])
-            if p2_slot_fainted in df.columns:
-                temp_numerical_features.append(p2_slot_fainted)
-                features_df_list_for_X_concat.append(df[[p2_slot_fainted]])
+        # Add p2_can_terastallize (team-wide flag)
+        if 'p2_can_terastallize' in p2_can_tera_df.columns:
+            temp_numerical_features.append('p2_can_terastallize')
+            features_df_list_for_X_concat.append(p2_can_tera_df[['p2_can_terastallize']])
+
+        # 3. Field, Hazard, and General Context Features
+        print("  Adding field, hazard, and general context features...")
+        context_field_hazard_cols_to_add_to_X = []
         
-        # 3. General Context
-        print("  Adding general context features...")
-        context_cols_to_add_to_X = []
-        if 'last_move_p1' in df.columns:
-            temp_categorical_features.append('last_move_p1')
-            context_cols_to_add_to_X.append('last_move_p1')
-        if 'last_move_p2' in df.columns:
-            temp_categorical_features.append('last_move_p2')
-            context_cols_to_add_to_X.append('last_move_p2')
-        if 'turn_number' in df.columns:
-            temp_numerical_features.append('turn_number')
-            context_cols_to_add_to_X.append('turn_number')
+        # Field Conditions
+        if 'field_weather' in df.columns: temp_categorical_features.append('field_weather'); context_field_hazard_cols_to_add_to_X.append('field_weather')
+        if 'field_terrain' in df.columns: temp_categorical_features.append('field_terrain'); context_field_hazard_cols_to_add_to_X.append('field_terrain')
         
-        if context_cols_to_add_to_X: # If any context columns were found in df
-            features_df_list_for_X_concat.append(df[context_cols_to_add_to_X])
+        # Hazards (P1's side - affecting P2)
+        for hazard in ['stealth_rock', 'spikes', 'toxic_spikes', 'sticky_web']:
+            col_name = f'p1_hazard_{hazard}'
+            if col_name in df.columns: temp_numerical_features.append(col_name); context_field_hazard_cols_to_add_to_X.append(col_name)
+        # Hazards (P2's side - affecting P1, but good context)
+        for hazard in ['stealth_rock', 'spikes', 'toxic_spikes', 'sticky_web']:
+            col_name = f'p2_hazard_{hazard}'
+            if col_name in df.columns: temp_numerical_features.append(col_name); context_field_hazard_cols_to_add_to_X.append(col_name)
+
+        # General Context
+        if 'last_move_p1' in df.columns: temp_categorical_features.append('last_move_p1'); context_field_hazard_cols_to_add_to_X.append('last_move_p1')
+        if 'last_move_p2' in df.columns: temp_categorical_features.append('last_move_p2'); context_field_hazard_cols_to_add_to_X.append('last_move_p2')
+        # turn_number is already available directly in df, will be added if selected for X
+        if 'turn_number' in df.columns: temp_numerical_features.append('turn_number'); context_field_hazard_cols_to_add_to_X.append('turn_number')
+        
+        if context_field_hazard_cols_to_add_to_X:
+            features_df_list_for_X_concat.append(df[context_field_hazard_cols_to_add_to_X])
 
         # Concatenate all selected features into X
         if features_df_list_for_X_concat:
             X = pd.concat(features_df_list_for_X_concat, axis=1)
         else:
-            X = pd.DataFrame(index=df.index) # Should not happen if df has columns
+            X = pd.DataFrame(index=df.index) 
             print("Warning: No features selected for 'simplified' set. X is empty.")
 
         # Finalize feature lists (remove duplicates and ensure order if necessary)
@@ -425,166 +475,13 @@ def run_switch_training(parquet_path, model_type='tensorflow', feature_set='full
             print(f"Warning: Overlap detected in simplified features: {overlap}. Removing from numerical.")
             numerical_features = [f for f in numerical_features if f not in overlap]
 
-        print(f"Simplified X shape: {X.shape if X is not None else 'X is None'}")
-        print(f"  Numerical features ({len(numerical_features)}): {numerical_features}")
-        print(f"  Categorical features ({len(categorical_features)}): {categorical_features}")
-        del active_p1_df, features_df_list_for_X_concat, active_p1_data; gc.collect()
-
-    elif feature_set == 'medium':
-        print("\n--- Using MEDIUM feature set (with Active Revealed Moves) for P2 switch ---")
-        # (This block is extensive, adapted from train_action_predictor.py)
-        # It selects various bench, field, hazard, side condition, context, and active Pokemon features.
-        # The key is that it operates on the `df` already filtered for P2's switch moves.
-        selected_columns = []
-        base_active_features = ['species', 'hp_perc', 'status', 'boost_atk', 'boost_def', 'boost_spa', 'boost_spd', 'boost_spe', 'terastallized', 'tera_type']
-        bench_cols = [f'{p}_slot{i}_{feat}' for i in range(1, 7) for p in ['p1', 'p2'] for feat in ['hp_perc', 'status', 'species']]
-        selected_columns.extend(bench_cols)
-        field_cols = ['field_weather', 'field_terrain', 'field_pseudo_weather']
-        selected_columns.extend(field_cols)
-        hazard_types = ['stealth_rock', 'spikes', 'toxic_spikes', 'sticky_web']
-        hazard_cols = [f'{p}_hazard_{h.replace(" ", "_")}' for p in ['p1', 'p2'] for h in hazard_types]
-        selected_columns.extend(hazard_cols)
-        side_cond_types = ['reflect', 'light_screen', 'aurora_veil', 'tailwind']
-        side_cond_cols = [f'{p}_side_{c.lower().replace(" ", "_")}' for p in ['p1', 'p2'] for c in side_cond_types]
-        selected_columns.extend(side_cond_cols)
-        context_cols = ['last_move_p1', 'last_move_p2', 'turn_number']
-        selected_columns.extend(context_cols)
-
-        valid_selected_columns = [col for col in selected_columns if col in df.columns]
-        X_medium = df[valid_selected_columns].copy()
-
-        active_data = {}
-        for i_row, (idx, row) in enumerate(df.iterrows()):
-            active_p1_slot, active_p2_slot = -1, -1
-            for i_slot in range(1, 7):
-                if row.get(f'p1_slot{i_slot}_is_active', 0) == 1: active_p1_slot = i_slot
-                if row.get(f'p2_slot{i_slot}_is_active', 0) == 1: active_p2_slot = i_slot
-            row_active_data = {}
-            for p_prefix, active_slot_num in [('p1', active_p1_slot), ('p2', active_p2_slot)]:
-                moves_str = 'none'
-                if active_slot_num != -1:
-                    for feat in base_active_features:
-                        row_active_data[f'{p_prefix}_active_{feat}'] = row.get(f'{p_prefix}_slot{active_slot_num}_{feat}', None)
-                    moves_col_name = f'{p_prefix}_slot{active_slot_num}_revealed_moves'
-                    if moves_col_name in row.index: moves_str = row.get(moves_col_name, 'none')
-                else:
-                    for feat in base_active_features: row_active_data[f'{p_prefix}_active_{feat}'] = None
-                row_active_data[f'{p_prefix}_active_revealed_moves_str'] = moves_str
-            active_data[idx] = row_active_data
+        print(f"Enhanced Simplified X shape: {X.shape if X is not None else 'X is None'}")
+        if X is not None and not X.empty:
+            print(f"  Numerical features ({len(numerical_features)}): {numerical_features[:15]}... (first 15 shown)") # Show sample
+            print(f"  Categorical features ({len(categorical_features)}): {categorical_features[:15]}... (first 15 shown)") # Show sample
         
-        active_df = pd.DataFrame.from_dict(active_data, orient='index')
-        for col in ['p1_active_revealed_moves_str', 'p2_active_revealed_moves_str']:
-            if col in active_df.columns:
-                active_df[col] = active_df[col].fillna('none').astype(str)
-        X = pd.concat([X_medium, active_df], axis=1)
-        del X_medium, active_df, active_data; gc.collect()
-
-        active_revealed_move_cols = ['p1_active_revealed_moves_str', 'p2_active_revealed_moves_str']
-        new_binary_move_cols = []
-        # (Multi-Hot Encoding for active_revealed_moves_str - same logic as action predictor)
-        active_all_revealed_moves = set()
-        for col in active_revealed_move_cols:
-            if col in X.columns:
-                unique_in_col = X[col].fillna('none').astype(str).str.split(',').explode().unique()
-                active_all_revealed_moves.update(m for m in unique_in_col if m and m != 'none' and m != 'error_state')
-        if active_all_revealed_moves:
-            unique_moves_list = sorted(list(active_all_revealed_moves))
-            for base_col in active_revealed_move_cols:
-                if base_col not in X.columns: continue
-                player_prefix = base_col.split('_')[0]
-                new_col_prefix = f"{player_prefix}_active_revealed_move"
-                revealed_sets = X[base_col].fillna('none').astype(str).str.split(',').apply(set)
-                for move in unique_moves_list:
-                    sanitized_move_name = move.replace(' ', '_').replace('-', '_').replace(':', '').replace('%', 'perc')
-                    new_col_name = f"{new_col_prefix}_{sanitized_move_name}"
-                    X[new_col_name] = revealed_sets.apply(lambda move_set: 1 if move in move_set else 0).astype(np.int8)
-                    new_binary_move_cols.append(new_col_name)
-        cols_to_drop = [col for col in active_revealed_move_cols if col in X.columns]
-        if cols_to_drop: X = X.drop(columns=cols_to_drop)
+        del active_pokemon_df, p2_can_tera_df, features_df_list_for_X_concat, active_pokemon_data_for_rows, p2_team_tera_status_for_rows
         gc.collect()
-        
-        # (Identify final numerical/categorical features - same logic as action predictor)
-        numerical_features, categorical_features = [], [] # Re-init
-        for player in ['p1', 'p2']:
-            if f'{player}_active_species' in X.columns: categorical_features.append(f'{player}_active_species')
-            if f'{player}_active_status' in X.columns: categorical_features.append(f'{player}_active_status')
-            if f'{player}_active_tera_type' in X.columns: categorical_features.append(f'{player}_active_tera_type')
-            for feat in ['hp_perc', 'boost_atk', 'boost_def', 'boost_spa', 'boost_spd', 'boost_spe', 'terastallized']:
-                if f'{player}_active_{feat}' in X.columns: numerical_features.append(f'{player}_active_{feat}')
-        numerical_features.extend(new_binary_move_cols)
-        for i in range(1, 7):
-            for player in ['p1', 'p2']:
-                 for feat, ftype in [('hp_perc', numerical_features), ('status', categorical_features), ('species', categorical_features)]:
-                      col_name = f'{player}_slot{i}_{feat}'
-                      if col_name in X.columns: ftype.append(col_name)
-        categorical_features.extend([f for f in field_cols if f in X.columns])
-        numerical_features.extend([f for f in hazard_cols if f in X.columns])
-        numerical_features.extend([f for f in side_cond_cols if f in X.columns])
-        for col in ['last_move_p1', 'last_move_p2']:
-            if col in X.columns: categorical_features.append(col)
-        if 'turn_number' in X.columns: numerical_features.append('turn_number')
-        
-        all_medium_cols = list(X.columns)
-        numerical_features = sorted(list(set([f for f in numerical_features if f in all_medium_cols])))
-        categorical_features = sorted(list(set([f for f in categorical_features if f in all_medium_cols])))
-        overlap = set(numerical_features) & set(categorical_features)
-        if overlap: numerical_features = [f for f in numerical_features if f not in overlap]
-
-
-    elif feature_set == 'full':
-        print("\n--- Using FULL feature set for P2 switch ---")
-        # (This block is extensive, adapted from train_action_predictor.py)
-        # It uses most columns, processes all revealed_moves columns.
-        base_exclude = ['replay_id', 'action_taken', 'battle_winner', 'player_to_move'] # player_to_move already used for filtering
-        feature_columns = [col for col in df.columns if col not in base_exclude]
-        X = df[feature_columns].copy()
-
-        revealed_move_cols = sorted([col for col in X.columns if col.endswith('_revealed_moves')])
-        new_binary_move_cols = []
-        # (Multi-Hot Encoding for ALL revealed_moves - same logic as action predictor)
-        if revealed_move_cols:
-            all_revealed_moves = set()
-            for col in revealed_move_cols:
-                unique_in_col = X[col].fillna('').astype(str).str.split(',').explode().unique()
-                all_revealed_moves.update(m for m in unique_in_col if m and m != 'none' and m != 'error_state')
-            if all_revealed_moves:
-                unique_moves_list = sorted(list(all_revealed_moves))
-                for base_col in revealed_move_cols:
-                    X[base_col] = X[base_col].fillna('none')
-                    revealed_sets = X[base_col].str.split(',').apply(set)
-                    for move in unique_moves_list:
-                        sanitized_move_name = move.replace(' ', '_').replace('-', '_').replace(':', '').replace('%', 'perc')
-                        new_col_name = f"{base_col}_{sanitized_move_name}"
-                        X[new_col_name] = revealed_sets.apply(lambda move_set: 1 if move in move_set else 0).astype(np.int8)
-                        new_binary_move_cols.append(new_col_name)
-                X = X.drop(columns=revealed_move_cols)
-        gc.collect()
-
-        # (Identify final numerical/categorical features and NaN handling - same logic as action predictor)
-        for col_name in ['last_move_p1', 'last_move_p2']:
-            if col_name in X.columns: X[col_name] = X[col_name].fillna('none').astype('category')
-        obj_cols = X.select_dtypes(include=['object']).columns.tolist()
-        for col in obj_cols: X[col] = X[col].fillna('Unknown').astype('category')
-        numerical_features = X.select_dtypes(include=np.number).columns.tolist() + new_binary_move_cols
-        categorical_features = X.select_dtypes(include=['category']).columns.tolist()
-        numerical_features = sorted(list(set(numerical_features)))
-        categorical_features = sorted(list(set(categorical_features)))
-        overlap = set(numerical_features) & set(categorical_features)
-        if overlap: numerical_features = [f for f in numerical_features if f not in overlap]
-        if numerical_features:
-            for col in X[numerical_features].isnull().sum()[lambda s: s > 0].index:
-                X[col] = X[col].fillna(X[col].median() if pd.notna(X[col].median()) else 0)
-        if X.isnull().sum().sum() > 0: # Final catch-all
-            for col in X.columns:
-                if X[col].isnull().any():
-                    if pd.api.types.is_numeric_dtype(X[col]): X[col] = X[col].fillna(0)
-                    else:
-                        if pd.api.types.is_categorical_dtype(X[col]):
-                            if 'Unknown' not in X[col].cat.categories: X[col] = X[col].cat.add_categories(['Unknown'])
-                            X[col] = X[col].fillna('Unknown')
-                        else: X[col] = X[col].fillna('Unknown').astype('category')
-    else:
-        print(f"Error: Invalid feature_set '{feature_set}'."); return
 
     print(f"\nFinal NaN Check for '{feature_set}' set...")
     # (Simplified NaN check from action predictor)
