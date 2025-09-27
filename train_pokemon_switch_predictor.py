@@ -328,32 +328,58 @@ def run_switch_target_training(parquet_path, model_type='tensorflow', feature_se
     df = pd.read_parquet(parquet_path)
     print(f"Original data shape: {df.shape}")
 
-    # --- Filter Data ---
-    print("\nFiltering data...")
-    df = df.dropna(subset=['action_taken'])
+    # The processing script should already do this implicitly, but it's safer to be explicit.
+    df = df.sort_values(by=['replay_id', 'turn_number'], ascending=True).reset_index(drop=True)
 
-    # *** Filter DataFrame to ONLY include rows where a switch occurred ***
-    print("Filtering for rows where action was a 'switch'...")
-    rows_before_switch_filter = len(df)
-    df = df[df['action_taken'].str.startswith('switch', na=False)].copy()
-    print(f"Rows after filtering for switches: {len(df)} (Removed {rows_before_switch_filter - len(df)})")
-    if df.empty:
-        print("Error: No switch actions found in the data. Cannot train a switch target predictor.")
+    # Step 2: Identify rows that are valid preceding states.
+    # A row is a valid preceding state if the *next* row belongs to the same replay.
+    df['is_same_replay_as_next'] = (df['replay_id'] == df['replay_id'].shift(-1))
+
+    # Step 3: Identify the actions that occurred in the *next* row.
+    df['next_action'] = df['action_taken'].shift(-1)
+
+    # Step 4: Find the rows where a switch happens in the *next* turn within the same replay.
+    # These rows are our feature sets (X).
+    is_pre_switch_state = df['next_action'].str.startswith('switch', na=False) & df['is_same_replay_as_next']
+    
+    # Step 5: Create the features (X) and targets (y).
+    # X is the current row if the next action is a switch.
+    X = df[is_pre_switch_state].copy()
+
+    # y is the 'next_action' from those same rows, which is the switch action itself.
+    y_labels = X['next_action']
+
+    # Clean up columns that we created and that could leak information about the future.
+    X = X.drop(columns=['is_same_replay_as_next', 'next_action'])
+
+    print(f"Found {len(X)} valid pre-switch states to use for training.")
+    if X.empty:
+        print("Error: Could not construct a training set. No valid switch actions were found.")
         return
 
+    # --- Filter Data (Now applied to the corrected set) ---
+    print("\nApplying post-correction filters...")
+    # The original filtering is now implicitly handled, but we can keep turn/player filtering.
     if feature_set == 'simplified' or feature_set == 'minimal_active_species':
          print(f"Filtering for player_to_move == 'p1' (for {feature_set} set)...")
-         df = df[df['player_to_move'] == 'p1'].copy()
-         if df.empty: print(f"Error: No data found for player p1's switches."); return
+         original_rows = len(X)
+         X = X[X['player_to_move'] == 'p1'].copy()
+         y_labels = y_labels[X.index] # Keep y aligned with X
+         print(f"Rows after player filter: {len(X)} (Removed {original_rows - len(X)})")
+         if X.empty: print(f"Error: No data found for player p1's switches."); return
+    
     if min_turn > 0:
-        df = df[df['turn_number'] >= min_turn].copy()
-        if df.empty: print("Error: No data remaining after turn filtering."); return
+        original_rows = len(X)
+        X = X[X['turn_number'] >= min_turn].copy()
+        y_labels = y_labels[X.index] # Keep y aligned with X
+        print(f"Rows after turn filter: {len(X)} (Removed {original_rows - len(X)})")
+        if X.empty: print("Error: No data remaining after turn filtering."); return
 
     # --- Create MULTI-CLASS Target Variable ---
     print("\nCreating multi-class target variable 'switch_target'...")
     try:
-        # Extract the species name from actions like "switch:pikachu"
-        y_labels = df['action_taken'].str.split(':', n=1).str[1]
+        # We already have our labels in y_labels, now we just process them.
+        y_labels = y_labels.str.split(':', n=1).str[1]
         print(f"Found {y_labels.nunique()} unique Pokémon switch targets.")
         if y_labels.nunique() < 2:
              print("Error: Only one type of Pokémon was switched into. Cannot train multi-class classifier.")
@@ -365,43 +391,41 @@ def run_switch_target_training(parquet_path, model_type='tensorflow', feature_se
         num_classes = len(label_encoder.classes_)
         print(f"Target variable created with {num_classes} classes.")
 
+        # The y series has the same index as X, but we should reset it before filtering rare classes
+        # This makes the rare class removal logic simpler
+        X = X.reset_index(drop=True)
+        y = y.reset_index(drop=True)
+        
         print("\nChecking for rare classes before splitting...")
         min_samples_per_class = 2  # Set the minimum required samples for a class to be included
         
-        # Count occurrences of each class
         class_counts = y.value_counts()
-        
-        # Identify classes (as integer labels) to be removed
         rare_classes = class_counts[class_counts < min_samples_per_class].index
         
         if len(rare_classes) > 0:
-            # Get the string names of the Pokémon being removed for a clear message
             rare_class_names = label_encoder.inverse_transform(rare_classes)
             print(f"Warning: The following {len(rare_classes)} classes have fewer than {min_samples_per_class} samples and will be removed:")
             print(f"  {list(rare_class_names)}")
 
-            # Find the indices in 'y' that correspond to the rare classes
             indices_to_remove = y[y.isin(rare_classes)].index
             
-            # Remove these indices from both the DataFrame 'df' and the target 'y'
-            original_rows = len(df)
-            df = df.drop(index=indices_to_remove)
+            X = X.drop(index=indices_to_remove)
             y = y.drop(index=indices_to_remove)
+            y_labels = y_labels.reset_index(drop=True)
             
-            print(f"Removed {len(indices_to_remove)} rows corresponding to rare classes. New total rows: {len(df)}")
+            print(f"Removed {len(indices_to_remove)} rows corresponding to rare classes. New total rows: {len(X)}")
 
-            # After filtering, the label encoder might have unused classes. It's cleaner to refit it.
+            # Refit the encoder on the now-filtered data to have a clean mapping
             print("Refitting LabelEncoder on the filtered data...")
-            y_labels_filtered = df['action_taken'].str.split(':', n=1).str[1]
+            y_labels_filtered = y_labels.drop(index=indices_to_remove) # Use the original string labels
             label_encoder = LabelEncoder()
             y = pd.Series(label_encoder.fit_transform(y_labels_filtered), index=y_labels_filtered.index)
             num_classes = len(label_encoder.classes_)
             print(f"Target variable now has {num_classes} classes after filtering.")
-
         else:
             print("No rare classes found. All classes have sufficient samples for splitting.")
 
-        # Save the label encoder for later use (e.g., in an inference script)
+        # Save the label encoder
         model_suffix = f"{feature_set}_moves" if feature_set == 'simplified' else feature_set
         encoder_path = f'switch_target_predictor_label_encoder_{model_suffix}.joblib'
         joblib.dump(label_encoder, encoder_path)
@@ -409,24 +433,30 @@ def run_switch_target_training(parquet_path, model_type='tensorflow', feature_se
 
     except Exception as e:
         print(f"An unexpected error occurred during target variable creation: {e}")
+        import traceback
+        traceback.print_exc()
         return
 
     # --- Feature Selection  ---
-    X = None
     numerical_features = []
     categorical_features = []
     if feature_set == 'minimal_active_species':
             print("\n--- Using MINIMAL ACTIVE SPECIES feature set ---")
             active_species_data = []
-            for idx, row in df.iterrows():
+            # CRITICAL CHANGE: Iterate over the filtered 'X', not the original 'df'.
+            for idx, row in X.iterrows():
                 p1_active_species, p2_active_species = 'Unknown', 'Unknown'
                 for i_slot in range(1, 7):
                     if row.get(f'p1_slot{i_slot}_is_active', 0) == 1: p1_active_species = row.get(f'p1_slot{i_slot}_species', 'Unknown')
                 for i_slot in range(1, 7):
                     if row.get(f'p2_slot{i_slot}_is_active', 0) == 1: p2_active_species = row.get(f'p2_slot{i_slot}_species', 'Unknown')
+                # Use the index from the iterated DataFrame 'X'
                 active_species_data.append({'original_index': idx, 'p1_active_species': p1_active_species, 'p2_active_species': p2_active_species})
-            X = pd.DataFrame(active_species_data).set_index('original_index')
+            
+            X_minimal = pd.DataFrame(active_species_data).set_index('original_index')
+            X = X_minimal # Overwrite X with the newly constructed feature set
             categorical_features = ['p1_active_species', 'p2_active_species']
+
     elif feature_set == 'simplified':
         print("\n--- Using REDEFINED SIMPLIFIED feature set + REVEALED MOVES ---")
         selected_columns = ['turn_number', 'last_move_p1', 'last_move_p2', 'field_weather']
@@ -439,11 +469,15 @@ def run_switch_target_training(parquet_path, model_type='tensorflow', feature_se
         side_cond_types = ['reflect', 'lightscreen', 'auroraveil', 'tailwind']
         for player in ['p1', 'p2']:
             for cond in side_cond_types: selected_columns.append(f'{player}_side_{cond}')
-        valid_selected_columns = [col for col in selected_columns if col in df.columns]
-        X_simplified_base = df[valid_selected_columns].copy()
+        
+        valid_selected_columns = [col for col in selected_columns if col in X.columns]
+        # CRITICAL CHANGE: Select from the filtered 'X', not 'df'.
+        X_simplified_base = X[valid_selected_columns].copy()
+
         active_data_list = []
         base_active_features = ['species', 'hp_perc', 'status', 'terastallized']
-        for idx, row in df.iterrows():
+        # CRITICAL CHANGE: Iterate over the filtered 'X', not 'df'.
+        for idx, row in X.iterrows():
             active_p1_slot, active_p2_slot = -1, -1
             for i_slot in range(1, 7):
                 if row.get(f'p1_slot{i_slot}_is_active', 0) == 1: active_p1_slot = i_slot
@@ -452,43 +486,55 @@ def run_switch_target_training(parquet_path, model_type='tensorflow', feature_se
             for player, active_slot in [('p1', active_p1_slot), ('p2', active_p2_slot)]:
                 for feat in base_active_features: row_active_data[f'{player}_active_{feat}'] = row.get(f'{player}_slot{active_slot}_{feat}', None) if active_slot != -1 else None
             active_data_list.append(row_active_data)
+        
         active_df = pd.DataFrame(active_data_list).set_index('original_index')
-        revealed_move_cols = sorted([col for col in df.columns if col.endswith('_revealed_moves')])
+        
+        revealed_move_cols = sorted([col for col in X.columns if col.endswith('_revealed_moves')])
         all_revealed_moves_binary_cols = []
         if revealed_move_cols:
             all_revealed_moves = set()
             for col in revealed_move_cols:
-                if col in df.columns:
-                    unique_in_col = df[col].dropna().astype(str).str.split(',').explode().unique()
-                    all_revealed_moves.update(m.strip() for m in unique_in_col if m and m.strip() not in ['none', 'error_state', '', 'nan'])
+                # CRITICAL CHANGE: Use filtered 'X' to find unique moves
+                unique_in_col = X[col].dropna().astype(str).str.split(',').explode().unique()
+                all_revealed_moves.update(m.strip() for m in unique_in_col if m and m.strip() not in ['none', 'error_state', '', 'nan'])
+            
             unique_moves_list = sorted(list(all_revealed_moves))
             def sanitize_name(name): return re.sub(r'[^a-zA-Z0-9]+', '_', name).lower()
             new_move_cols_data = {}
             for base_col in revealed_move_cols:
-                if base_col in df.columns:
-                    revealed_sets = df.loc[X_simplified_base.index, base_col].fillna('none').astype(str).str.split(',').apply(set)
-                    for move in unique_moves_list:
-                        new_col_name = f"{base_col}_{sanitize_name(move)}"
-                        new_move_cols_data[new_col_name] = revealed_sets.apply(lambda move_set: 1 if move in move_set else 0).astype(np.int8)
-                        all_revealed_moves_binary_cols.append(new_col_name)
+                # CRITICAL CHANGE: Use filtered 'X' to build move features
+                revealed_sets = X.loc[X_simplified_base.index, base_col].fillna('none').astype(str).str.split(',').apply(set)
+                for move in unique_moves_list:
+                    new_col_name = f"{base_col}_{sanitize_name(move)}"
+                    new_move_cols_data[new_col_name] = revealed_sets.apply(lambda move_set: 1 if move in move_set else 0).astype(np.int8)
+                    all_revealed_moves_binary_cols.append(new_col_name)
+            
             if new_move_cols_data:
                  move_features_df = pd.DataFrame(new_move_cols_data)
                  X = pd.concat([X_simplified_base, active_df, move_features_df], axis=1)
             else: X = pd.concat([X_simplified_base, active_df], axis=1)
         else: X = pd.concat([X_simplified_base, active_df], axis=1)
+
         numerical_features = [f for f in X.columns if ('hp_perc' in f or 'is_active' in f or 'is_fainted' in f or 'turn_number' in f or 'hazard' in f or 'side' in f or 'terastallized' in f)]
         categorical_features = [f for f in X.columns if ('species' in f or 'status' in f or 'last_move' in f or 'field_weather' in f)]
         if all_revealed_moves_binary_cols: numerical_features.extend(all_revealed_moves_binary_cols)
         numerical_features = sorted(list(set(f for f in numerical_features if f in X.columns)))
         categorical_features = sorted(list(set(f for f in categorical_features if f in X.columns and f not in numerical_features)))
+    
     elif feature_set == 'full':
         print("\n--- Using FULL feature set ---")
-        X = df.drop(columns=['replay_id', 'action_taken', 'battle_winner', 'player_to_move'], errors='ignore')
+        # CRITICAL CHANGE: 'X' is already what we want. We just need to drop columns
+        # that aren't features and re-identify the feature types.
+        X = X.drop(columns=['replay_id', 'action_taken', 'battle_winner', 'player_to_move'], errors='ignore')
         numerical_features = X.select_dtypes(include=np.number).columns.tolist()
         categorical_features = X.select_dtypes(include=['object', 'category']).columns.tolist()
+    
     else:
         print(f"Error: Invalid feature_set '{feature_set}'.")
         return
+
+    # Now that X is correctly constructed from the filtered data, we can safely delete the original large dataframe
+    del df; gc.collect()
 
     print(f"\nFinal feature counts for '{feature_set}' set: Numerical: {len(numerical_features)}, Categorical: {len(categorical_features)}")
     if X.empty: print("Error: Feature DataFrame X is empty."); return
@@ -506,7 +552,7 @@ def run_switch_target_training(parquet_path, model_type='tensorflow', feature_se
         return
 
     print(f"Train shape: {X_train.shape}, Val shape: {X_val.shape}, Test shape: {X_test.shape}")
-    del X, y, df, X_train_full, y_train_full; gc.collect()
+    del X, y, X_train_full, y_train_full; gc.collect()
 
     # --- Calculate Class Weights (works for multi-class out of the box) ---
     print("\nCalculating class weights for handling imbalance...")
