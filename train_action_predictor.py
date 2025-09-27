@@ -376,7 +376,6 @@ def run_action_training(parquet_path, model_type='tensorflow', feature_set='full
 
 
     elif feature_set == 'medium':
-        # (Use the 'medium' logic modified previously to include active revealed moves)
         print("\n--- Using MEDIUM feature set (with Active Revealed Moves) ---")
         selected_columns = []
         base_active_features = ['species', 'hp_perc', 'status', 'boost_atk', 'boost_def', 'boost_spa', 'boost_spd', 'boost_spe', 'terastallized', 'tera_type']
@@ -525,6 +524,7 @@ def run_action_training(parquet_path, model_type='tensorflow', feature_set='full
         if 'last_move_p1' in X.columns: categorical_features.append('last_move_p1')
         if 'last_move_p2' in X.columns: categorical_features.append('last_move_p2')
         if 'turn_number' in X.columns: numerical_features.append('turn_number')
+        if 'predicted_winner' in X.columns: categorical_features.append('predicted_winner')
         all_medium_cols = list(X.columns)
         numerical_features = sorted(list(set([f for f in numerical_features if f in all_medium_cols])))
         categorical_features = sorted(list(set([f for f in categorical_features if f in all_medium_cols])))
