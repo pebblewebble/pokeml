@@ -956,9 +956,7 @@ class PredictionPlayer(Player):
 
                 current_choice_valid = False
                 if action_type == "move":
-                    # --- Add Debug Print Here ---
                     print(f"  Rank {rank_idx+1}: Checking predicted move '{action_detail}'...")
-                    # --- End Debug Print ---
                     for available_move in battle.available_moves:
                         # --- Add Detailed Comparison Debug Print Here ---
                         print(f"    Comparing prediction '{action_detail}' (Type: {type(action_detail)}) == available '{available_move.id}' (Type: {type(available_move.id)})")
