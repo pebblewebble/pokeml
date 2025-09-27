@@ -40,10 +40,20 @@ warnings.filterwarnings('ignore', category=FutureWarning) # Ignore pandas 3.0 wa
 # ===========================================
 # Configuration
 # ===========================================
-MODEL_PATH = "action_lgbm_model_v4_medium_move_only.txt"
-INFO_PATH = "action_lgbm_feature_info_v4_medium_move_only.joblib"
-SCALER_PATH = "action_lgbm_scaler_v4_medium_move_only.joblib" # Optional if no scaler used/needed by model
-ENCODER_PATH = "action_label_encoder_v4_medium_move_only.joblib"
+MOVE_MODEL_PATH = "action_lgbm_model_v4_medium_move_only.txt"
+MOVE_INFO_PATH = "action_lgbm_feature_info_v4_medium_move_only.joblib"
+MOVE_SCALER_PATH = "action_lgbm_scaler_v4_medium_move_only.joblib"
+MOVE_ENCODER_PATH = "action_label_encoder_v4_medium_move_only.joblib"
+
+SWITCH_BINARY_MODEL_PATH = "switch_predictor_lgbm_model_v2_simplified.txt"
+SWITCH_BINARY_INFO_PATH = "switch_predictor_lgbm_feature_info_v2_simplified.joblib"
+SWITCH_BINARY_SCALER_PATH = "switch_predictor_lgbm_scaler_v2_simplified.joblib"
+
+SWITCH_TARGET_MODEL_PATH = "switch_target_predictor_lgbm_model_simplified_moves.txt"
+SWITCH_TARGET_INFO_PATH = "switch_target_predictor_lgbm_feature_info_simplified_moves.joblib"
+SWITCH_TARGET_SCALER_PATH = "switch_target_predictor_lgbm_scaler_simplified_moves.joblib"
+SWITCH_TARGET_ENCODER_PATH = "switch_target_predictor_label_encoder_simplified_moves.joblib"
+
 USAGE_STATS_JSON = "gen9ou-0.json" # Path to your Smogon usage stats
 
 # Showdown Credentials (Replace or use environment variables!)
@@ -52,6 +62,7 @@ SHOWDOWN_PASSWORD = os.environ.get("SHOWDOWN_PASS", "vimvimvim333")
 
 BATTLE_FORMAT = "gen9ou"
 LOG_LEVEL = 20 # 10=DEBUG, 20=INFO, 30=WARNING
+SWITCH_THRESHOLD = 0.5
 
 team="""
 Great Tusk @ Heavy-Duty Boots
@@ -120,39 +131,27 @@ Timid Nature
 # ===========================================
 
 # --- Artifact Loading ---
-def load_artifacts(model_path, info_path, scaler_path, encoder_path):
-    """Loads prediction model artifacts."""
-    lgbm_model = None
-    feature_info = None
-    scaler = None
-    label_encoder = None
-    print("-" * 20)
-    print("Loading artifacts...")
+def load_model_artifacts(name, model_path, info_path, scaler_path, encoder_path=None):
+    """Loads a complete set of prediction model artifacts."""
+    print(f"--- Loading Artifacts for '{name}' ---")
     try:
-        print(f"  Model: {model_path}")
         if not os.path.exists(model_path): raise FileNotFoundError(f"Model file not found: {model_path}")
-        lgbm_model = lgb.Booster(model_file=model_path)
+        model = lgb.Booster(model_file=model_path)
 
-        print(f"  Feature Info: {info_path}")
         if not os.path.exists(info_path): raise FileNotFoundError(f"Feature info file not found: {info_path}")
-        feature_info = joblib.load(info_path)
+        info = joblib.load(info_path)
 
-        print(f"  Scaler: {scaler_path}")
-        if os.path.exists(scaler_path):
-            scaler = joblib.load(scaler_path)
-            print("    Scaler loaded.")
-        else:
-            print("    Scaler not found or not applicable.")
+        scaler = joblib.load(scaler_path) if os.path.exists(scaler_path) else None
+        
+        encoder = None
+        if encoder_path:
+            encoder = joblib.load(encoder_path) if os.path.exists(encoder_path) else None
 
-        print(f"  Label Encoder: {encoder_path}")
-        if not os.path.exists(encoder_path): raise FileNotFoundError(f"Label encoder file not found: {encoder_path}")
-        label_encoder = joblib.load(encoder_path)
-
-        print("Artifacts loaded successfully.")
-        print("-" * 20)
-        return lgbm_model, feature_info, scaler, label_encoder
-    except FileNotFoundError as e: print(f"Error loading artifacts: {e}. Check paths."); exit(1)
-    except Exception as e: print(f"Unexpected error loading artifacts: {e}"); exit(1)
+        print(f"'{name}' artifacts loaded successfully.")
+        return model, info, scaler, encoder
+    except Exception as e:
+        print(f"FATAL ERROR loading artifacts for '{name}': {e}")
+        raise
 
 # --- Smogon Moves Loading ---
 def load_smogon_moves(json_filepath):
@@ -217,6 +216,8 @@ def load_smogon_moves(json_filepath):
 # --- Data Preparation (Adapted from predict_action.py) ---
 # This function prepares the single row DataFrame for the model
 # predict_action.py
+
+
 
 def prepare_input_data_medium(df_input_raw, feature_info, scaler):
     """Prepares the input DataFrame row for the 'medium' feature set model."""
@@ -558,8 +559,14 @@ class PredictionPlayer(Player):
         # --- Load Artifacts ONCE during player initialization ---
         # Make load_artifacts robust to potential errors
         try:
-            self.model, self.feature_info, self.scaler, self.label_encoder = load_artifacts(
-                MODEL_PATH, INFO_PATH, SCALER_PATH, ENCODER_PATH
+            self.move_model, self.move_info, self.move_scaler, self.move_encoder = load_model_artifacts(
+                "Move Predictor", MOVE_MODEL_PATH, MOVE_INFO_PATH, MOVE_SCALER_PATH, MOVE_ENCODER_PATH
+            )
+            self.switch_binary_model, self.switch_binary_info, self.switch_binary_scaler, _ = load_model_artifacts(
+                "Binary Switch Predictor", SWITCH_BINARY_MODEL_PATH, SWITCH_BINARY_INFO_PATH, SWITCH_BINARY_SCALER_PATH
+            )
+            self.switch_target_model, self.switch_target_info, self.switch_target_scaler, self.switch_target_encoder = load_model_artifacts(
+                "Switch Target Predictor", SWITCH_TARGET_MODEL_PATH, SWITCH_TARGET_INFO_PATH, SWITCH_TARGET_SCALER_PATH, SWITCH_TARGET_ENCODER_PATH
             )
         except Exception as e:
              print(f"FATAL ERROR during artifact loading: {e}")
@@ -575,11 +582,6 @@ class PredictionPlayer(Player):
              print(f"ERROR loading Smogon moves: {e}. Filtering will be skipped.")
              self.pokemon_valid_moves = {} # Ensure it's an empty dict
 
-        # --- Store Expected Features ---
-        if not self.feature_info or 'feature_names_in_order' not in self.feature_info:
-             raise RuntimeError("Feature info is missing or doesn't contain 'feature_names_in_order'.")
-        self.expected_features = self.feature_info.get('feature_names_in_order')
-        print(f"Player initialized. Expecting {len(self.expected_features)} features.")
 
     def _update_last_moves(self, split_messages):
         """
@@ -662,14 +664,13 @@ class PredictionPlayer(Player):
         of process_replays.py.
         """
         HAZARD_CONDITIONS_MAP = {
-            'stealthrock': 'stealth_rock', 'spikes': 'spikes',
-            'toxicspikes': 'toxic_spikes', 'stickyweb': 'sticky_web'
+            'stealthrock': 'stealthrock', 'spikes': 'spikes',
+            'toxicspikes': 'toxicspikes', 'stickyweb': 'stickyweb'
         }
         SIDE_CONDITIONS_MAP = {
-            'reflect': 'reflect', 'lightscreen': 'light_screen',
-            'auroraveil': 'aurora_veil', 'tailwind': 'tailwind',
+            'reflect': 'reflect', 'lightscreen': 'lightscreen',
+            'auroraveil': 'auroraveil', 'tailwind': 'tailwind',
             'safeguard': 'safeguard', #'mist': 'mist', # Add if trained on these
-            # Add other side conditions your parser extracts if needed
         }
         ALL_HAZARD_SUFFIXES = set(HAZARD_CONDITIONS_MAP.values())
         ALL_SIDE_SUFFIXES = set(SIDE_CONDITIONS_MAP.values())
@@ -877,132 +878,208 @@ class PredictionPlayer(Player):
         # print(f"Sample mapped state values (first 10): {list(flat_state.values())[:10]}...") # Debug
         return flat_state
 
+    def _prepare_data_for_move_model(self, df_input_raw: pd.DataFrame, model_info: dict, model_scaler: 'StandardScaler') -> pd.DataFrame:
+        """
+        Prepares the input DataFrame row specifically for the 'medium' feature set move model,
+        including the crucial one-hot encoding of active moves.
+        """
+        print("Preparing input data using specialized 'medium' move model logic...")
+        if len(df_input_raw) != 1: return None
+
+        row_index = df_input_raw.index[0]
+        input_row_series = df_input_raw.loc[row_index]
+        
+        all_model_features = model_info['feature_names_in_order']
+        
+        # --- Multi-Hot Encode Active Revealed Moves (from String Column) ---
+        active_revealed_move_cols_str = ['p1_active_revealed_moves_str', 'p2_active_revealed_moves_str']
+        new_binary_move_data = {}
+
+        for base_col_str in active_revealed_move_cols_str:
+            player_prefix = base_col_str.split('_')[0]
+            moves_str = input_row_series.get(base_col_str, 'none')
+            revealed_set = set(moves_str.split(',')) if moves_str and moves_str != 'none' else set()
+            
+            # Dynamically find all move columns this model expects for this player
+            move_col_prefix = f"{player_prefix}_active_revealed_move_"
+            expected_move_cols = [f for f in all_model_features if f.startswith(move_col_prefix)]
+
+            for col_name in expected_move_cols:
+                # Infer original move name from column name (this is the reverse of training)
+                # This is a bit fragile; assumes a simple sanitization rule.
+                original_move_name = col_name.replace(move_col_prefix, "").replace("_", " ").title()
+                new_binary_move_data[col_name] = 1 if original_move_name in revealed_set else 0
+        
+        # --- Construct the Final Data Row Dictionary ---
+        final_row_data = {}
+        for col in all_model_features:
+            if col in new_binary_move_data:
+                final_row_data[col] = new_binary_move_data[col]
+            elif col in input_row_series.index:
+                final_row_data[col] = input_row_series[col]
+            else:
+                # Default fill for any other missing columns
+                final_row_data[col] = 0 if 'hp_perc' in col or 'boost' in col else 'Unknown'
+
+        X_final = pd.DataFrame([final_row_data], index=[row_index], columns=all_model_features)
+        
+        # --- Now apply scaling and dtypes (similar to the generic function) ---
+        return self._prepare_data_for_model(X_final, model_info, model_scaler)
+
+    def _prepare_data_for_model(self, master_df: pd.DataFrame, model_info: dict, model_scaler: 'StandardScaler') -> pd.DataFrame:
+        """
+        Prepares the master feature DataFrame for a specific model.
+        This generic function replaces the old 'prepare_input_data_medium'.
+        """
+        # Select only the features this specific model was trained on
+        model_features = model_info['feature_names_in_order']
+        X_model = master_df[model_features].copy()
+
+        # Apply correct categorical dtypes from this model's training
+        categorical_trained = model_info.get('categorical_features', [])
+        category_map = model_info.get('category_map', {})
+
+        for col in categorical_trained:
+            if col in X_model.columns:
+                X_model[col] = X_model[col].astype(str)
+                if col in category_map:
+                    known_categories = category_map[col].categories
+                    current_val = X_model[col].iloc[0]
+                    if current_val not in known_categories:
+                        # X_model[col].iloc[0] = 'Unknown' # Handle unknown categories
+                        row_index = X_model.index[0]
+                        X_model.loc[row_index, col]='Unknown'
+                    X_model[col] = X_model[col].astype(pd.CategoricalDtype(categories=known_categories))
+                else:
+                    X_model[col] = X_model[col].astype('category')
+        
+        # Apply the specific scaler for this model
+        if model_scaler:
+            numerical_trained = model_info.get('numerical_features', [])
+            features_to_scale = [f for f in numerical_trained if f in X_model.columns]
+            if features_to_scale:
+                X_model[features_to_scale] = model_scaler.transform(X_model[features_to_scale])
+        
+        return X_model
+
+    def _find_best_valid_switch(self, predictions: np.ndarray, available_switches: list) -> Pokemon:
+        """Decodes switch predictions and returns the highest-ranked valid Pokemon object."""
+        if not available_switches:
+            return None
+        
+        # Get class predictions by finding the index of the max probability for each row
+        predicted_class_indices = np.argsort(predictions[0])[::-1] # Get ranked indices
+        
+        available_species_names = {p.species for p in available_switches}
+
+        for class_idx in predicted_class_indices:
+            predicted_species = self.switch_target_encoder.classes_[class_idx]
+            print(f"  Checking predicted switch: '{predicted_species}'...")
+            
+            # Check if this Pokémon is in our list of available switches
+            if predicted_species in available_species_names:
+                for p in available_switches:
+                    if p.species == predicted_species:
+                        print(f"    VALID. Choosing '{p.species}'.")
+                        return p # Return the actual Pokemon object
+        
+        print("  No predicted switch was a valid option.")
+        return None
+
+    def _find_best_valid_move(self, predictions: np.ndarray, available_moves: list) -> Move:
+        """Decodes move predictions and returns the highest-ranked valid Move object."""
+        if not available_moves:
+            return None
+
+        predicted_class_indices = np.argsort(predictions[0])[::-1]
+        available_move_ids = {m.id for m in available_moves}
+
+        for class_idx in predicted_class_indices:
+            action_string = self.move_encoder.classes_[class_idx]
+            
+            # Handle both "move:tackle" and "tackle" from the encoder
+            predicted_move_id = ""
+            if action_string.startswith('move:'):
+                # This handles encoders with the "move:" prefix
+                predicted_move_id = action_string.split(':', 1)[1]
+            else:
+                # This handles your "move_only" encoder that has raw move names
+                predicted_move_id = action_string
+
+            # Normalize the predicted move_id to match poke-env's format (lowercase, no spaces/hyphens)
+            predicted_move_id = predicted_move_id.lower().replace(' ', '').replace('-', '')
+
+            print(f"  Checking predicted move: '{predicted_move_id}'...")
+
+            if predicted_move_id in available_move_ids:
+                for m in available_moves:
+                    if m.id == predicted_move_id:
+                        print(f"    VALID. Choosing '{m.id}'.")
+                        return m
+
+        print("  No predicted move was a valid option.")
+        return None
 
     def choose_move(self, battle: Gen9EnvSinglePlayer.battles):
-        """Called by poke-env to choose an action."""
         print(f"\n>>> Turn {battle.turn}: Choosing Action for {battle.battle_tag} <<<")
-        print(f"Available Moves: {[m.id for m in battle.available_moves]}")
-        print(f"Available Switches: {[p.species for p in battle.available_switches]}")
-        print(f"Force Switch: {battle.force_switch}")
-
-        # --- Optimization Check ---
-        if battle.force_switch and len(battle.available_switches) == 1:
-            the_only_choice = battle.available_switches[0] # This is a Pokemon object
-            print(f"Optimization: Force switch and only one switch available ('{the_only_choice.species}'). Choosing it.")
-            # !!! FIX: Wrap the Pokemon object in a BattleOrder before returning !!!
-            return self.create_order(the_only_choice) # <--- USE create_order HERE
-        if not battle.available_switches and len(battle.available_moves) == 1:
-            action = battle.available_moves[0]
-            print(f"Optimization: Only one move available ('{action.id}'). Choosing it.")
-            return action
-        if battle.force_switch and not battle.available_moves and len(battle.available_switches) == 1:
-             action = battle.available_switches[0]
-             print(f"Optimization: Force switch and only one switch available ('{action.species}'). Choosing it.")
-             return action
-        # --- End Optimization Check ---
-
-
-        # 1. Map the current poke-env Battle object to the DataFrame format
+        
+        # --- 0. Handle Simple Cases & Traps ---
+        if battle.trapped:
+            print("Decision: Trapped. Must choose a move.")
+            return self.create_order(self.choose_random_move(battle))
+        
+        # --- 1. Master Feature Generation (Done ONCE) ---
         try:
-            flat_state_dict = self.map_battle_to_dataframe_row(battle)
-            input_df = pd.DataFrame([flat_state_dict], index=[0])
+            master_df = pd.DataFrame([self.map_battle_to_dataframe_row(battle)])
         except Exception as e:
-            print(f"ERROR during state mapping: {e}")
-            import traceback
-            traceback.print_exc()
-            print("Choosing default random action due to mapping error.")
-            return self.choose_random_move(battle)
+            print(f"FATAL: Error during master feature mapping: {e}")
+            return self.create_order(self.choose_random_move(battle))
 
-        # 2. Call prediction function
-        predictions_list = None
+        # --- 2. Stage 1: Decide WHETHER to Switch or Move ---
         try:
-            if not all([self.model, self.feature_info, self.label_encoder, self.pokemon_valid_moves is not None]):
-                 raise ValueError("One or more prediction components (model, info, encoder, smogon_moves) are missing.")
+            print("\n--- Stage 1: Evaluating Switch vs. Move ---")
+            X_binary = self._prepare_data_for_model(master_df, self.switch_binary_info, self.switch_binary_scaler)
+            
+            # Prediction is [[prob_move, prob_switch]]
+            switch_probability = self.switch_binary_model.predict(X_binary)[0]
+            move_probability = 1- switch_probability            
 
-            predictions_list = predict_moves_with_filter(
-                input_df, self.model, self.feature_info, self.scaler,
-                self.label_encoder, self.pokemon_valid_moves, top_k=15
-            )
+            print(f"Binary Model Prediction: Move Chance={move_probability:.2%}, Switch Chance={switch_probability:.2%}")
         except Exception as e:
-            print(f"ERROR during prediction: {e}")
-            import traceback
-            traceback.print_exc()
-            print("Choosing default random action due to prediction error.")
-            return self.choose_random_move(battle)
+            print(f"Error in Stage 1 (Binary Switch Prediction): {e}. Defaulting to move.")
+            switch_probability = 0.0 # Fail-safe
 
-        # 3. Process predictions and choose the best *valid* action
+        # --- 3. Stage 2: Choose SPECIFIC Action based on Stage 1 ---
         chosen_action = None
-        print("-" * 10 + " Predictions " + "-" * 10)
-        if predictions_list and predictions_list[0] is not None and not predictions_list[0].empty:
-            top_prediction_df = predictions_list[0]
-            print(top_prediction_df[['rank', 'action_string', 'probability']].head().to_string(index=False))
-            print("-" * (10 + 13 + 10)) # Adjust width if needed based on new col name length
-
-            for rank_idx, row in top_prediction_df.iterrows():
-                action_str = row['action_string'] # Read from the correct column
-                action_str = f"move:{action_str.lower().replace(' ','')}"
-                # --- END UPDATE ---
-                prob = row['probability']
-                action_parts = action_str.split(':', 1)
-                # This condition should now work correctly as action_str has the colon
-                print(action_parts)
-                if len(action_parts) < 2:
-                    print(f"  Rank {rank_idx+1}: Skipping malformed prediction '{action_str}'")
-                    continue
-
-                action_type = action_parts[0]
-                # Line below is just a quick fix, forgot to mention to refactor ltr
-                action_detail = action_parts[1].lower().replace(' ', '').replace('-', '')
-
-                current_choice_valid = False
-                if action_type == "move":
-                    print(f"  Rank {rank_idx+1}: Checking predicted move '{action_detail}'...")
-                    for available_move in battle.available_moves:
-                        # --- Add Detailed Comparison Debug Print Here ---
-                        print(f"    Comparing prediction '{action_detail}' (Type: {type(action_detail)}) == available '{available_move.id}' (Type: {type(available_move.id)})")
-                        # --- End Detailed Comparison Debug Print ---
-                        if available_move.id == action_detail:
-                            print(f"      MATCH FOUND!") # Confirmation
-                            print(f"  Rank {rank_idx+1}: Predicted move '{available_move.id}' (Prob: {prob:.2%}) - VALID")
-                            chosen_action = available_move
-                            current_choice_valid = True
-                            break # Found valid move, break inner loop
-
-                if current_choice_valid:
-                     print(f"  Action found and validated. Breaking from prediction loop.")
-                     break # Break outer loop
-
-        # 4. Handle cases where NO valid prediction was found
+        
+        # --- Try to switch if probability is high AND it's possible ---
+        if switch_probability > SWITCH_THRESHOLD and battle.available_switches:
+            print(f"\n--- Stage 2: Finding Best SWITCH (Prob > {SWITCH_THRESHOLD:.0%}) ---")
+            try:
+                X_target = self._prepare_data_for_model(master_df, self.switch_target_info, self.switch_target_scaler)
+                target_predictions = self.switch_target_model.predict(X_target)
+                chosen_action = self._find_best_valid_switch(target_predictions, battle.available_switches)
+            except Exception as e:
+                print(f"Error in Stage 2 (Switch Target Prediction): {e}. Falling back.")
+        
+        # --- If no switch was chosen (or decision was to move), find the best move ---
         if not chosen_action:
-            chosen_action = battle.available_switches[0]
-           
+            print(f"\n--- Stage 2: Finding Best MOVE ---")
+            try:
+                # The 'action/move' model might require features the switch models don't,
+                # which is why we prepare data from the master_df again.
+                X_move = self._prepare_data_for_move_model(master_df, self.move_info, self.move_scaler)
+                move_predictions = self.move_model.predict(X_move)
+                chosen_action = self._find_best_valid_move(move_predictions, battle.available_moves)
+            except Exception as e:
+                print(f"Error in Stage 2 (Move Prediction): {e}. Falling back.")
 
-       # 5. Return the chosen action object
-        # --- CORRECTED Final Logging ---
-        final_action_log = "Unknown Action / Error"
-        if chosen_action is None:
-            final_action_log = "None (Error choosing default?)"
-        elif isinstance(chosen_action, Move): # Specific type first
-            final_action_log = chosen_action.id
-        elif isinstance(chosen_action, Pokemon): # Specific type
-            final_action_log = chosen_action.species
-        elif isinstance(chosen_action, DefaultBattleOrder): # Specific type
-            final_action_log = "Default Order"
-        elif isinstance(chosen_action, BattleOrder): # Check base type LAST
-            # Inspect the 'order' attribute
-            if isinstance(chosen_action.order, Move):
-                final_action_log = chosen_action.order.id
-            elif isinstance(chosen_action.order, Pokemon):
-                final_action_log = chosen_action.order.species
-            else:
-                final_action_log = str(chosen_action) # Use string representation
-        # Add other BattleOrder types if necessary
-        # --- END CORRECTED Final Logging ---
+        # --- 4. Final Fallback ---
+        if not chosen_action:
+            print("\n--- Fallback: All models failed to find a valid action. Choosing best random option. ---")
+            chosen_action = self.choose_random_move(battle)
 
-        print(f">>> Sending Action: {final_action_log}\n")
-
-        # --- NEW LINE: Wrap the chosen action in a BattleOrder ---
-        print(chosen_action)
+        print(f"\n>>> Final Decision: {chosen_action}")
         return self.create_order(chosen_action)
 
 
@@ -1024,7 +1101,7 @@ async def main():
             server_configuration=server_config,
             team=team,
             max_concurrent_battles=5,
-            start_timer_on_battle_start=True
+            start_timer_on_battle_start=False
         )
 
         # Option 1: Accept challenges
