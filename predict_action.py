@@ -929,33 +929,78 @@ class PredictionPlayer(Player):
     def _prepare_data_for_model(self, master_df: pd.DataFrame, model_info: dict, model_scaler: 'StandardScaler') -> pd.DataFrame:
         """
         Prepares the master feature DataFrame for a specific model.
-        This generic function replaces the old 'prepare_input_data_medium'.
+        This function is smart enough to generate one-hot encoded move features
+        if the target model expects them, for any slot.
         """
-        # Select only the features this specific model was trained on
-        model_features = model_info['feature_names_in_order']
-        X_model = master_df[model_features].copy()
+        print(f"Preparing data for model expecting features like: {model_info['feature_names_in_order'][:5]}...")
+        
+        # Start with a copy of the master data
+        df = master_df.copy()
+        all_model_features = model_info['feature_names_in_order']
 
-        # Apply correct categorical dtypes from this model's training
+        # --- DYNAMIC ONE-HOT ENCODING ---
+        # Check if this model requires one-hot encoded moves by looking for the pattern in its expected features.
+        new_ohe_columns = {}
+        move_ohe_prefixes = {f"{p}_slot{s}_revealed_moves_" for p in ['p1', 'p2'] for s in range(1, 7)}
+        
+        # Check if this model requires one-hot encoded moves
+        if any(any(f.startswith(prefix) for f in all_model_features) for prefix in move_ohe_prefixes):
+            print("  Model requires one-hot encoded moves. Generating efficiently...")
+            
+            for p in ['p1', 'p2']:
+                for s in range(1, 7):
+                    source_col = f"{p}_slot{s}_revealed_moves"
+                    if source_col not in df.columns: continue
+
+                    moves_str = df.iloc[0].get(source_col, 'none')
+                    revealed_set = set(moves_str.split(',')) if moves_str and moves_str != 'none' else set()
+                    
+                    ohe_prefix = f"{p}_slot{s}_revealed_moves_"
+                    expected_ohe_cols = [f for f in all_model_features if f.startswith(ohe_prefix)]
+
+                    for col_name in expected_ohe_cols:
+                        original_move_name = col_name.replace(ohe_prefix, "").replace("_", " ").title()
+                        # Add to our dictionary instead of directly to the DataFrame
+                        new_ohe_columns[col_name] = [1 if original_move_name in revealed_set else 0]
+
+            if new_ohe_columns:
+                # Create a new DataFrame from our dictionary of columns
+                ohe_df = pd.DataFrame(new_ohe_columns, index=df.index)
+                # Concatenate ONCE at the end. This is fast.
+                df = pd.concat([df, ohe_df], axis=1)
+
+            # Drop the original string columns
+            df = df.drop(columns=[f"{p}_slot{s}_revealed_moves" for p in ['p1', 'p2'] for s in range(1, 7)], errors='ignore')
+            print(f"  Generated OHE features. DataFrame now has {df.shape[1]} columns.")
+        ### END MODIFICATION ###
+
+        # --- SELECT, FILL, CAST, and SCALE (This part remains the same) ---
+        X_model = df.reindex(columns=all_model_features)
+
         categorical_trained = model_info.get('categorical_features', [])
-        category_map = model_info.get('category_map', {})
+        numerical_trained = model_info.get('numerical_features', [])
 
+        for col in all_model_features:
+            if col in categorical_trained:
+                X_model[col].fillna('Unknown', inplace=True)
+            elif col in numerical_trained:
+                X_model[col].fillna(0, inplace=True)
+            else:
+                X_model[col].fillna(0, inplace=True)
+
+        category_map = model_info.get('category_map', {})
         for col in categorical_trained:
             if col in X_model.columns:
                 X_model[col] = X_model[col].astype(str)
                 if col in category_map:
                     known_categories = category_map[col].categories
-                    current_val = X_model[col].iloc[0]
-                    if current_val not in known_categories:
-                        # X_model[col].iloc[0] = 'Unknown' # Handle unknown categories
-                        row_index = X_model.index[0]
-                        X_model.loc[row_index, col]='Unknown'
+                    if X_model[col].iloc[0] not in known_categories:
+                        X_model.loc[X_model.index[0], col] = 'Unknown'
                     X_model[col] = X_model[col].astype(pd.CategoricalDtype(categories=known_categories))
                 else:
                     X_model[col] = X_model[col].astype('category')
         
-        # Apply the specific scaler for this model
         if model_scaler:
-            numerical_trained = model_info.get('numerical_features', [])
             features_to_scale = [f for f in numerical_trained if f in X_model.columns]
             if features_to_scale:
                 X_model[features_to_scale] = model_scaler.transform(X_model[features_to_scale])
@@ -971,6 +1016,18 @@ class PredictionPlayer(Player):
         predicted_class_indices = np.argsort(predictions[0])[::-1] # Get ranked indices
         
         available_species_names = {p.species for p in available_switches}
+
+        print("\n--- Top 5 Switch Predictions ---")
+        top_k = min(5, len(predicted_class_indices)) # Show up to 5 predictions
+        for i in range(top_k):
+            class_idx = predicted_class_indices[i]
+            prob = predictions[0][class_idx]
+            predicted_species = self.switch_target_encoder.classes_[class_idx]
+            is_valid = predicted_species in available_species_names
+            
+            # Print a formatted line for the report
+            print(f"  {i+1}. {predicted_species:<25} (Prob: {prob:.2%}) {'[VALID]' if is_valid else ''}")
+        print("-" * 30)
 
         for class_idx in predicted_class_indices:
             predicted_species = self.switch_target_encoder.classes_[class_idx]
@@ -993,6 +1050,20 @@ class PredictionPlayer(Player):
 
         predicted_class_indices = np.argsort(predictions[0])[::-1]
         available_move_ids = {m.id for m in available_moves}
+
+        print("\n--- Top 5 Move Predictions ---")
+        top_k = min(5, len(predicted_class_indices)) # Show up to 5 predictions
+        for i in range(top_k):
+            class_idx = predicted_class_indices[i]
+            prob = predictions[0][class_idx]
+            action_string = self.move_encoder.classes_[class_idx]
+            
+            predicted_move_id = action_string.split(':', 1)[-1].lower().replace(' ', '').replace('-', '')
+            is_valid = predicted_move_id in available_move_ids
+
+            # Print a formatted line for the report
+            print(f"  {i+1}. {predicted_move_id:<25} (Prob: {prob:.2%}) {'[VALID]' if is_valid else ''}")
+        print("-" * 30)
 
         for class_idx in predicted_class_indices:
             action_string = self.move_encoder.classes_[class_idx]
@@ -1023,38 +1094,42 @@ class PredictionPlayer(Player):
     def choose_move(self, battle: Gen9EnvSinglePlayer.battles):
         print(f"\n>>> Turn {battle.turn}: Choosing Action for {battle.battle_tag} <<<")
         
-        # --- 0. Handle Simple Cases & Traps ---
-        if battle.trapped:
+        # Handle simple/forced cases first
+        if battle.trapped: # This is a good check to add
             print("Decision: Trapped. Must choose a move.")
-            return self.create_order(self.choose_random_move(battle))
-        
-        # --- 1. Master Feature Generation (Done ONCE) ---
+            # We still need to predict the best move, so we continue
+            pass
+        elif battle.force_switch:
+             print("Decision: Forced to switch.")
+             # We can skip the binary prediction and go straight to picking a switch
+             pass
+
         try:
             master_df = pd.DataFrame([self.map_battle_to_dataframe_row(battle)])
         except Exception as e:
             print(f"FATAL: Error during master feature mapping: {e}")
             return self.create_order(self.choose_random_move(battle))
 
-        # --- 2. Stage 1: Decide WHETHER to Switch or Move ---
-        try:
-            print("\n--- Stage 1: Evaluating Switch vs. Move ---")
-            X_binary = self._prepare_data_for_model(master_df, self.switch_binary_info, self.switch_binary_scaler)
-            
-            # Prediction is [[prob_move, prob_switch]]
-            switch_probability = self.switch_binary_model.predict(X_binary)[0]
-            move_probability = 1- switch_probability            
+        # --- Stage 1: Decide WHETHER to Switch or Move ---
+        switch_probability = 0.0
+        # If we are forced to switch, we can skip this stage.
+        if not battle.force_switch:
+            try:
+                print("\n--- Stage 1: Evaluating Switch vs. Move ---")
+                X_binary = self._prepare_data_for_model(master_df, self.switch_binary_info, self.switch_binary_scaler)
+                switch_probability = self.switch_binary_model.predict(X_binary)[0]
+                print(f"Binary Model Prediction: Move Chance={1.0 - switch_probability:.2%}, Switch Chance={switch_probability:.2%}")
+            except Exception as e:
+                print(f"Error in Stage 1 (Binary Switch Prediction): {e}. Defaulting to move.")
 
-            print(f"Binary Model Prediction: Move Chance={move_probability:.2%}, Switch Chance={switch_probability:.2%}")
-        except Exception as e:
-            print(f"Error in Stage 1 (Binary Switch Prediction): {e}. Defaulting to move.")
-            switch_probability = 0.0 # Fail-safe
-
-        # --- 3. Stage 2: Choose SPECIFIC Action based on Stage 1 ---
+        # --- Stage 2: Choose SPECIFIC Action based on Stage 1 ---
         chosen_action = None
         
-        # --- Try to switch if probability is high AND it's possible ---
-        if switch_probability > SWITCH_THRESHOLD and battle.available_switches:
-            print(f"\n--- Stage 2: Finding Best SWITCH (Prob > {SWITCH_THRESHOLD:.0%}) ---")
+        # Decide if we are going to switch
+        is_switching = (switch_probability > SWITCH_THRESHOLD or battle.force_switch or battle.turn == 0) and not battle.trapped
+
+        if is_switching and (battle.available_switches or battle.turn ==0):
+            print(f"\n--- Stage 2: Finding Best SWITCH ---")
             try:
                 X_target = self._prepare_data_for_model(master_df, self.switch_target_info, self.switch_target_scaler)
                 target_predictions = self.switch_target_model.predict(X_target)
@@ -1062,21 +1137,17 @@ class PredictionPlayer(Player):
             except Exception as e:
                 print(f"Error in Stage 2 (Switch Target Prediction): {e}. Falling back.")
         
-        # --- If no switch was chosen (or decision was to move), find the best move ---
         if not chosen_action:
             print(f"\n--- Stage 2: Finding Best MOVE ---")
             try:
-                # The 'action/move' model might require features the switch models don't,
-                # which is why we prepare data from the master_df again.
-                X_move = self._prepare_data_for_move_model(master_df, self.move_info, self.move_scaler)
+                X_move = self._prepare_data_for_model(master_df, self.move_info, self.move_scaler)
                 move_predictions = self.move_model.predict(X_move)
                 chosen_action = self._find_best_valid_move(move_predictions, battle.available_moves)
             except Exception as e:
                 print(f"Error in Stage 2 (Move Prediction): {e}. Falling back.")
 
-        # --- 4. Final Fallback ---
         if not chosen_action:
-            print("\n--- Fallback: All models failed to find a valid action. Choosing best random option. ---")
+            print("\n--- Fallback: All models failed. Choosing best random option. ---")
             chosen_action = self.choose_random_move(battle)
 
         print(f"\n>>> Final Decision: {chosen_action}")
