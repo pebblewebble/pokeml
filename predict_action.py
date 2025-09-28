@@ -1093,6 +1093,10 @@ class PredictionPlayer(Player):
 
     def choose_move(self, battle: Gen9EnvSinglePlayer.battles):
         print(f"\n>>> Turn {battle.turn}: Choosing Action for {battle.battle_tag} <<<")
+
+        if battle.turn == 0:
+            print("Turn 0 just breaks the code for some reason")
+            return self.choose_random_singles_move(battle)
         
         # Handle simple/forced cases first
         if battle.trapped: # This is a good check to add
@@ -1126,9 +1130,9 @@ class PredictionPlayer(Player):
         chosen_action = None
         
         # Decide if we are going to switch
-        is_switching = (switch_probability > SWITCH_THRESHOLD or battle.force_switch or battle.turn == 0) and not battle.trapped
+        is_switching = (switch_probability > SWITCH_THRESHOLD or battle.force_switch) and not battle.trapped
 
-        if is_switching and (battle.available_switches or battle.turn ==0):
+        if is_switching and battle.available_switches:
             print(f"\n--- Stage 2: Finding Best SWITCH ---")
             try:
                 X_target = self._prepare_data_for_model(master_df, self.switch_target_info, self.switch_target_scaler)
@@ -1148,10 +1152,10 @@ class PredictionPlayer(Player):
 
         if not chosen_action:
             print("\n--- Fallback: All models failed. Choosing best random option. ---")
-            chosen_action = self.choose_random_move(battle)
-
-        print(f"\n>>> Final Decision: {chosen_action}")
-        return self.create_order(chosen_action)
+            return self.choose_random_move(battle)
+        else:
+            print(f"\n>>> Final Decision: {chosen_action}")
+            return self.create_order(chosen_action)
 
 
 
