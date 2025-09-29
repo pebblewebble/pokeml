@@ -13,23 +13,20 @@ import re # Added for parsing/mapping helpers
 import copy # Added for state copying if needed
 
 # --- poke-env ---
-try:
-    import poke_env
-    from poke_env.player import Player, Gen9EnvSinglePlayer
-    from poke_env import AccountConfiguration
-    # --- ADD/MODIFY THESE SPECIFIC IMPORTS ---
-    from poke_env.environment.move import Move
-    from poke_env.environment.pokemon import Pokemon
-    from poke_env.player import DefaultBattleOrder
-    from poke_env.player import BattleOrder
-    # You might need others depending on your full logic, but these cover the error
-    # from poke_env.environment.side_condition import SideCondition
-    # from poke_env.environment.field import Field
-    # --- END SPECIFIC IMPORTS ---
-    from poke_env import ShowdownServerConfiguration
-except ImportError:
-    print("Error: poke-env library not found. Please install it: pip install poke-env")
-    exit(1)
+import poke_env
+from poke_env.player import Player
+from poke_env import AccountConfiguration
+from poke_env.battle import Battle, Pokemon
+# --- ADD/MODIFY THESE SPECIFIC IMPORTS ---
+# from poke_env.environment import Move
+# from poke_env.environment.pokemon import Pokemon
+from poke_env.player import DefaultBattleOrder
+from poke_env.player import BattleOrder
+# You might need others depending on your full logic, but these cover the error
+# from poke_env.environment.side_condition import SideCondition
+# from poke_env.environment.field import Field
+# --- END SPECIFIC IMPORTS ---
+from poke_env import ShowdownServerConfiguration
 
 
 # Suppress PerformanceWarnings temporarily if desired
@@ -646,17 +643,23 @@ class PredictionPlayer(Player):
         else:
              print(f"Turn {turn_number}: No P2 move found.")
 
-    def _handle_battle_message(self, split_messages):
+    async def _handle_battle_message(self, split_messages):
         """
-        Overrides the message handler primarily to call _update_last_moves,
-        then passes the messages to the superclass for full state processing.
+        Handle incoming battle messages.
+        Must be async to align with poke-env's internal awaits.
         """
+        # Always await the parent so poke-env fully processes messages first
+        result = await super()._handle_battle_message(split_messages)
 
-        self._update_last_moves(split_messages)
+        # Now safely update your move tracking
+        try:
+            self._update_last_moves(split_messages)
+        except Exception as e:
+            print(f"Warning in _update_last_moves: {e}")
 
-        return super()._handle_battle_message(split_messages)
+        return result
 
-    def map_battle_to_dataframe_row(self, battle: Gen9EnvSinglePlayer.battles) -> dict:
+    def map_battle_to_dataframe_row(self, battle: Battle) -> dict:
         """
         *** CRITICAL IMPLEMENTATION (REVISED) ***
         Converts the poke-env Battle object into a flat dictionary row suitable
@@ -874,8 +877,8 @@ class PredictionPlayer(Player):
                 flat_state[key] = 1 if count > 0 else 0
 
         # --- Return the flat dictionary ---
-        # print(f"Sample mapped state keys: {list(flat_state.keys())[:10]}...") # Debug
-        # print(f"Sample mapped state values (first 10): {list(flat_state.values())[:10]}...") # Debug
+        print(f"Sample mapped state keys: {list(flat_state.keys())[:30]}...") # Debug
+        print(f"Sample mapped state values (first 10): {list(flat_state.values())[:30]}...") # Debug
         return flat_state
 
     def _prepare_data_for_move_model(self, df_input_raw: pd.DataFrame, model_info: dict, model_scaler: 'StandardScaler') -> pd.DataFrame:
@@ -1043,7 +1046,7 @@ class PredictionPlayer(Player):
         print("  No predicted switch was a valid option.")
         return None
 
-    def _find_best_valid_move(self, predictions: np.ndarray, available_moves: list) -> Move:
+    def _find_best_valid_move(self, predictions: np.ndarray, available_moves: list):
         """Decodes move predictions and returns the highest-ranked valid Move object."""
         if not available_moves:
             return None
@@ -1091,7 +1094,7 @@ class PredictionPlayer(Player):
         print("  No predicted move was a valid option.")
         return None
 
-    def choose_move(self, battle: Gen9EnvSinglePlayer.battles):
+    def choose_move(self, battle: Battle):
         print(f"\n>>> Turn {battle.turn}: Choosing Action for {battle.battle_tag} <<<")
 
         if battle.turn == 0:
