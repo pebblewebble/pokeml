@@ -265,7 +265,7 @@ def train_lgbm_switch_target_predictor(X_train, X_val, X_test,
         'metric': ['multi_logloss', 'multi_error'],
         'num_class': num_classes,
         'boosting_type': 'gbdt', 'seed': 42, 'n_jobs': -1, 'verbose': -1,
-        'learning_rate': 0.02, 'n_estimators': 2500, 'num_leaves': 31,
+        'learning_rate': 0.02, 'n_estimators': 2500, 'num_leaves': 15,
         'reg_alpha': 0.1, 'reg_lambda': 0.1, 'colsample_bytree': 0.8,
         'subsample': 0.8, 'min_child_samples': 20,
     }
@@ -277,6 +277,10 @@ def train_lgbm_switch_target_predictor(X_train, X_val, X_test,
                            valid_names=['train', 'eval'],
                            callbacks=[lgb.early_stopping(100, verbose=True), lgb.log_evaluation(50)])
     print("Final LGBM Training finished.")
+    importances = pd.DataFrame({'feature': final_feature_names, 'importance': lgbm_model.feature_importance()})
+    importances = importances.sort_values('importance', ascending=False)
+    print(importances.head(50))  # Log top features
+    joblib.dump(importances, f'switch_target_feature_importances_{model_suffix}.joblib')
 
     # Evaluate Final LightGBM Model
     print("\nEvaluating Final LGBM model on the test set...")
