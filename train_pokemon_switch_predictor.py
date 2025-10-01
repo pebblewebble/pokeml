@@ -19,6 +19,7 @@ import warnings
 import gc # Garbage collector
 import re # For sanitizing move names
 import optuna
+import json
 
 # Suppress TensorFlow/warnings
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
@@ -26,7 +27,69 @@ tf.get_logger().setLevel('ERROR')
 warnings.filterwarnings('ignore', category=UserWarning, module='sklearn')
 warnings.filterwarnings('ignore', category=pd.errors.PerformanceWarning)
 warnings.filterwarnings('ignore', category=FutureWarning)
+USAGE_STATS_JSON = "gen9ou-0.json"
 
+def load_smogon_moves(json_filepath):
+    """Loads Smogon usage stats JSON and extracts valid moves for each Pokemon."""
+    print(f"Loading Smogon usage stats from: {json_filepath}")
+    pokemon_valid_moves = {}
+    metagame = None
+
+    try:
+        if not os.path.exists(json_filepath):
+             raise FileNotFoundError(f"Smogon JSON file not found at '{json_filepath}'")
+        with open(json_filepath, 'r', encoding='utf-8') as f:
+            raw_data = json.load(f)
+
+        # Extract Metagame Info
+        if 'info' in raw_data and isinstance(raw_data['info'], dict):
+            metagame = raw_data['info'].get('metagame')
+            if metagame: print(f"  Detected Metagame: {metagame}")
+            else: print("  Warning: Metagame info not found in JSON['info'].")
+        else: print("  Warning: 'info' key not found or not a dict in JSON.")
+
+        # Extract Move Data
+        if 'data' not in raw_data or not isinstance(raw_data['data'], dict):
+            print("  Error: 'data' key not found or is not a dictionary in JSON. Cannot extract moves.")
+            return {}, metagame
+
+        smogon_data = raw_data['data']
+        usage_dict = {pokemon_name: pokemon_data.get('usage', 0) for pokemon_name, pokemon_data in smogon_data.items()}
+        top_100 = sorted(usage_dict.items(), key=lambda x: x[1], reverse=True)[:100]
+        top_100_names = [name.lower().replace(' ', '').replace('-', '') for name, _ in top_100]
+        pokemon_count = 0
+        move_count_total = 0
+
+        for pokemon_name, pokemon_data in smogon_data.items():
+            # Standardize Pokemon Name from Smogon data (lowercase, no spaces/hyphens)
+            # This should match how poke-env species IDs are likely formatted
+            pokemon_key = pokemon_name.lower().replace(' ', '').replace('-','')
+
+            if isinstance(pokemon_data, dict) and 'Moves' in pokemon_data and isinstance(pokemon_data['Moves'], dict):
+                valid_moves_set = set()
+                for move_key in pokemon_data['Moves'].keys():
+                    # Format should match label_encoder format ("move:moveid")
+                    standardized_action = f"move:{move_key.lower()}" # Assuming encoder used lowercase move IDs
+                    valid_moves_set.add(standardized_action)
+
+                if valid_moves_set:
+                    pokemon_valid_moves[pokemon_key] = valid_moves_set # Use standardized key
+                    pokemon_count += 1
+                    move_count_total += len(valid_moves_set)
+
+        print(f"  Successfully extracted moves for {pokemon_count} Pokemon.")
+        print(f"  Total unique Pokemon-Move combinations found: {move_count_total}")
+        return pokemon_valid_moves, metagame, top_100_names  
+
+    except FileNotFoundError:
+        print(f"  Error: Smogon JSON file not found at '{json_filepath}'")
+        raise
+    except json.JSONDecodeError as e:
+        print(f"  Error: Failed to decode Smogon JSON file '{json_filepath}'. Invalid JSON: {e}")
+        raise
+    except Exception as e:
+        print(f"  Error: An unexpected error occurred while loading Smogon JSON: {e}")
+        raise
 
 # --- TF Training Function ---
 def train_tensorflow_switch_target_predictor(X_train_processed, X_val_processed, X_test_processed,
@@ -265,7 +328,7 @@ def train_lgbm_switch_target_predictor(X_train, X_val, X_test,
         'metric': ['multi_logloss', 'multi_error'],
         'num_class': num_classes,
         'boosting_type': 'gbdt', 'seed': 42, 'n_jobs': -1, 'verbose': -1,
-        'learning_rate': 0.02, 'n_estimators': 2500, 'num_leaves': 15,
+        'learning_rate': 0.02, 'n_estimators': 2500, 'num_leaves': 31,
         'reg_alpha': 0.1, 'reg_lambda': 0.1, 'colsample_bytree': 0.8,
         'subsample': 0.8, 'min_child_samples': 20,
     }
@@ -389,9 +452,18 @@ def run_switch_target_training(parquet_path, model_type='tensorflow', feature_se
              print("Error: Only one type of Pokémon was switched into. Cannot train multi-class classifier.")
              return
 
+        _, _, top_100_names = load_smogon_moves(USAGE_STATS_JSON)  
+        # Standardize y_labels for matching (lowercase, no spaces/hyphens)
+        y_labels_std = y_labels.str.lower().str.replace(' ', '').str.replace('-', '')
+
+        # Filter to top 100 or map others to 'other'
+        mask = y_labels_std.isin(top_100_names)
+        y_labels_filtered = y_labels[mask].copy()
+        X= X.loc[mask].copy()
+
         # *** Use LabelEncoder to convert species names to integer labels ***
         label_encoder = LabelEncoder()
-        y = pd.Series(label_encoder.fit_transform(y_labels), index=y_labels.index)
+        y = pd.Series(label_encoder.fit_transform(y_labels_filtered), index=y_labels_filtered.index)
         num_classes = len(label_encoder.classes_)
         print(f"Target variable created with {num_classes} classes.")
 
@@ -617,7 +689,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Train a multi-class predictor to determine WHICH Pokémon a player will switch to.")
     parser.add_argument("parquet_file", type=str, help="Path to the input Parquet file.")
     parser.add_argument("--model_type", choices=['tensorflow', 'lightgbm'], default='lightgbm', help="Type of model to train.")
-    parser.add_argument("--feature_set", choices=['full', 'simplified','minimal_active_species'], default='simplified', help="Feature set to use.")
+    parser.add_argument("--feature_set", choices=['full', 'simplified','minimal_active_species','simplified2'], default='simplified', help="Feature set to use.")
     parser.add_argument("--min_turn", type=int, default=1, help="Minimum turn number to include (default: 1).")
     parser.add_argument("--test_split", type=float, default=0.2, help="Fraction for test set (default: 0.2).")
     parser.add_argument("--val_split", type=float, default=0.15, help="Fraction for validation set (relative to train data, default: 0.15).")
