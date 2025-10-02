@@ -20,6 +20,7 @@ import gc # Garbage collector
 import re # For sanitizing move names
 import optuna
 import json
+from collections import Counter
 
 # Suppress TensorFlow/warnings
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
@@ -28,6 +29,14 @@ warnings.filterwarnings('ignore', category=UserWarning, module='sklearn')
 warnings.filterwarnings('ignore', category=pd.errors.PerformanceWarning)
 warnings.filterwarnings('ignore', category=FutureWarning)
 USAGE_STATS_JSON = "gen9ou-0.json"
+
+def get_switch_slot(row, target_species):
+    for slot in range(1, 7):
+        if row.get(f'p1_slot{slot}_is_active', 0) == 1:
+            continue  # Skip active slot
+        if row.get(f'p1_slot{slot}_species', '').lower() == target_species.lower():
+            return slot - 1 if slot > row['p1_active_slot'] else slot  # Relative bench slot (1-5), adjust as needed
+    return None  # If no match (rare), drop row
 
 def load_smogon_moves(json_filepath):
     """Loads Smogon usage stats JSON and extracts valid moves for each Pokemon."""
@@ -461,43 +470,41 @@ def run_switch_target_training(parquet_path, model_type='tensorflow', feature_se
         y_labels_filtered = y_labels[mask].copy()
         X= X.loc[mask].copy()
 
+        X['p1_active_slot'] = X.apply(lambda row: next((i for i in range(1,7) if row.get(f'p1_slot{i}_is_active', 0)==1), None), axis=1)
+        # Create y_slot (drop rows where slot not found)
+        y_slot = X.apply(lambda row: get_switch_slot(row, y_labels[row.name]), axis=1)
+        valid_mask = y_slot.notnull()
+        X = X[valid_mask]
+        y_slot = y_slot[valid_mask].astype(int)  # 5 classes (bench slots)
+
         # *** Use LabelEncoder to convert species names to integer labels ***
         label_encoder = LabelEncoder()
-        y = pd.Series(label_encoder.fit_transform(y_labels_filtered), index=y_labels_filtered.index)
+        # y = pd.Series(label_encoder.fit_transform(y_labels_filtered), index=y_labels_filtered.index)
+        y = label_encoder.fit_transform(y_slot)
         num_classes = len(label_encoder.classes_)
         print(f"Target variable created with {num_classes} classes.")
+
+        y = pd.Series(y)
 
         # The y series has the same index as X, but we should reset it before filtering rare classes
         # This makes the rare class removal logic simpler
         X = X.reset_index(drop=True)
         y = y.reset_index(drop=True)
         
+        print(y.value_counts())
+
         print("\nChecking for rare classes before splitting...")
-        min_samples_per_class = 2  # Set the minimum required samples for a class to be included
-        
+        min_samples_per_class = 3  # Set the minimum required samples for a class to be included
+
         class_counts = y.value_counts()
         rare_classes = class_counts[class_counts < min_samples_per_class].index
         
         if len(rare_classes) > 0:
-            rare_class_names = label_encoder.inverse_transform(rare_classes)
-            print(f"Warning: The following {len(rare_classes)} classes have fewer than {min_samples_per_class} samples and will be removed:")
-            print(f"  {list(rare_class_names)}")
-
-            indices_to_remove = y[y.isin(rare_classes)].index
-            
-            X = X.drop(index=indices_to_remove)
-            y = y.drop(index=indices_to_remove)
-            y_labels = y_labels.reset_index(drop=True)
-            
-            print(f"Removed {len(indices_to_remove)} rows corresponding to rare classes. New total rows: {len(X)}")
-
-            # Refit the encoder on the now-filtered data to have a clean mapping
-            print("Refitting LabelEncoder on the filtered data...")
-            y_labels_filtered = y_labels.drop(index=indices_to_remove) # Use the original string labels
-            label_encoder = LabelEncoder()
-            y = pd.Series(label_encoder.fit_transform(y_labels_filtered), index=y_labels_filtered.index)
-            num_classes = len(label_encoder.classes_)
-            print(f"Target variable now has {num_classes} classes after filtering.")
+            print(f"Warning: The following {len(rare_classes)} classes have fewer than 3 samples and will be removed:\n  {list(rare_classes)}")
+            mask = ~y.isin(rare_classes)
+            X = X.loc[mask].reset_index(drop=True)
+            y = y.loc[mask].reset_index(drop=True)
+            print(f"Removed {mask.size - mask.sum()} rows corresponding to rare classes. New total rows: {len(y)}")
         else:
             print("No rare classes found. All classes have sufficient samples for splitting.")
 
@@ -511,7 +518,7 @@ def run_switch_target_training(parquet_path, model_type='tensorflow', feature_se
         print(f"An unexpected error occurred during target variable creation: {e}")
         import traceback
         traceback.print_exc()
-        return
+        returnxc()
 
     # --- Feature Selection  ---
     numerical_features = []
