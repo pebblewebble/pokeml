@@ -246,7 +246,7 @@ def train_lgbm_switch_target_predictor(X_train, X_val, X_test,
             'min_child_samples': trial.suggest_int('min_child_samples', 5, 100),
         }
 
-        model = lgb.train(params, lgb_train_trial, valid_sets=[lgb_eval_trial],
+        model = lgb.train(params, lgb_train_trial, valid_sets=[lgb_eval_trial],valid_names=['eval'],
                           callbacks=[lgb.early_stopping(stopping_rounds=50, verbose=False)])
 
         # Return the validation loss for minimization
@@ -366,7 +366,7 @@ def train_lgbm_switch_target_predictor(X_train, X_val, X_test,
         # ***  Use label_encoder to show Pokémon names in the report ***
         # Filter target names to only include classes present in the test set to avoid errors
         unique_test_labels = np.unique(y_test)
-        filtered_target_names = [label_encoder.classes_[i] for i in unique_test_labels]
+        filtered_target_names = [f"Slot {label_encoder.classes_[i]}" for i in unique_test_labels]  # e.g., "Slot 0", "Slot 1"
         print(classification_report(y_test, y_pred_class, labels=unique_test_labels, target_names=filtered_target_names))
 
     except Exception as e:
