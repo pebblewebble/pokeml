@@ -337,9 +337,9 @@ def train_lgbm_switch_target_predictor(X_train, X_val, X_test,
         'metric': ['multi_logloss', 'multi_error'],
         'num_class': num_classes,
         'boosting_type': 'gbdt', 'seed': 42, 'n_jobs': -1, 'verbose': -1,
-        'learning_rate': 0.02, 'n_estimators': 2500, 'num_leaves': 31,
-        'reg_alpha': 0.1, 'reg_lambda': 0.1, 'colsample_bytree': 0.8,
-        'subsample': 0.8, 'min_child_samples': 20,
+        'learning_rate': 0.006280820599565553, 'n_estimators': 2109, 'num_leaves': 88,
+        'reg_alpha': 0.000002817854459142025, 'reg_lambda': 0.0031492970379127117, 'colsample_bytree': 0.667840523849307,
+        'subsample': 0.7587846873233649, 'min_child_samples': 41,
     }
     final_params.update(best_params_from_hpo)
 
